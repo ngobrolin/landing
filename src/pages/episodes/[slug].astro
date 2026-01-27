@@ -45,7 +45,7 @@ const nextEpisode = currentIndex > 0 ? episodes[currentIndex - 1] : null;
             <li>/</li>
             <li><a href="/episodes" class="hover:text-white transition">Episodes</a></li>
             <li>/</li>
-            <li class="text-white">S1.E{episode.episodeNumber}</li>
+            <li class="text-white">EP {episode.episodeNumber}</li>
           </ol>
         </nav>
 
@@ -56,7 +56,7 @@ const nextEpisode = currentIndex > 0 ? episodes[currentIndex - 1] : null;
         <div class="mt-8">
           <div class="flex items-center gap-4 mb-4">
             <span class="bg-primary text-white text-sm font-bold px-3 py-1 rounded">
-              S1.E{episode.episodeNumber}
+              EP {episode.episodeNumber}
             </span>
             <time class="text-gray-400 text-sm">{formattedDate}</time>
           </div>
