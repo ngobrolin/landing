@@ -1,0 +1,98 @@
+[
+  {
+    "videoId": "ZcYNuHirHOA",
+    "title": "Ngobrolin AI Agents - Ngobrolin WEB",
+    "description": "Membahas tentang AI Agents dan bagaimana mereka mengubah cara kita bekerja dengan teknologi.",
+    "publishedAt": "2025-01-21T13:00:00Z",
+    "thumbnail": "https://i.ytimg.com/vi/ZcYNuHirHOA/hqdefault.jpg",
+    "position": 1
+  },
+  {
+    "videoId": "_H9EkkzDGTs",
+    "title": "File Upload Strategy - Ngobrolin WEB",
+    "description": "Strategi dan best practices untuk implementasi file upload di aplikasi web.",
+    "publishedAt": "2024-10-15T13:00:00Z",
+    "thumbnail": "https://i.ytimg.com/vi/_H9EkkzDGTs/hqdefault.jpg",
+    "position": 9
+  },
+  {
+    "videoId": "7WbdKRP1QY4",
+    "title": "Toolkit Modern - Ngobrolin WEB",
+    "description": "Membahas toolkit modern untuk pengembangan web di tahun ini.",
+    "publishedAt": "2024-09-24T13:00:00Z",
+    "thumbnail": "https://i.ytimg.com/vi/7WbdKRP1QY4/hqdefault.jpg",
+    "position": 10
+  },
+  {
+    "videoId": "3C-psD7dx9w",
+    "title": "Ngobrolin JWT - Ngobrolin WEB",
+    "description": "Deep dive ke JSON Web Tokens untuk autentikasi dan otorisasi.",
+    "publishedAt": "2024-09-17T13:00:00Z",
+    "thumbnail": "https://i.ytimg.com/vi/3C-psD7dx9w/hqdefault.jpg",
+    "position": 11
+  },
+  {
+    "videoId": "0o-PcX6pR2E",
+    "title": "Ngobrolin Astro - Ngobrolin WEB",
+    "description": "Membahas Astro framework untuk membangun website yang cepat.",
+    "publishedAt": "2024-06-18T13:00:00Z",
+    "thumbnail": "https://i.ytimg.com/vi/0o-PcX6pR2E/hqdefault.jpg",
+    "position": 24
+  },
+  {
+    "videoId": "8ke0CsKPjAU",
+    "title": "Ngobrolin TanStack - Ngobrolin WEB",
+    "description": "Eksplorasi TanStack ecosystem: Query, Router, Table, dan lainnya.",
+    "publishedAt": "2024-05-21T13:00:00Z",
+    "thumbnail": "https://i.ytimg.com/vi/8ke0CsKPjAU/hqdefault.jpg",
+    "position": 28
+  },
+  {
+    "videoId": "99CaLw7Q7os",
+    "title": "Ngobrolin SEO - Ngobrolin WEB",
+    "description": "Tips dan trik SEO untuk developer web.",
+    "publishedAt": "2024-05-14T13:00:00Z",
+    "thumbnail": "https://i.ytimg.com/vi/99CaLw7Q7os/hqdefault.jpg",
+    "position": 29
+  },
+  {
+    "videoId": "d7L_jRDJb-E",
+    "title": "Ngobrolin Deno - Ngobrolin WEB",
+    "description": "Mengenal Deno sebagai alternatif runtime JavaScript.",
+    "publishedAt": "2024-03-12T13:00:00Z",
+    "thumbnail": "https://i.ytimg.com/vi/d7L_jRDJb-E/hqdefault.jpg",
+    "position": 55
+  },
+  {
+    "videoId": "ayiRFLsM-mM",
+    "title": "Ngobrolin HTMX - Ngobrolin WEB",
+    "description": "HTMX: pendekatan baru untuk membangun web interaktif tanpa JavaScript kompleks.",
+    "publishedAt": "2024-02-20T13:00:00Z",
+    "thumbnail": "https://i.ytimg.com/vi/ayiRFLsM-mM/hqdefault.jpg",
+    "position": 58
+  },
+  {
+    "videoId": "8tZIeQH1DSU",
+    "title": "Ngobrolin Svelte feat. @lihautan - Ngobrolin WEB",
+    "description": "Membahas Svelte framework bersama Li Hau Tan.",
+    "publishedAt": "2024-01-23T13:00:00Z",
+    "thumbnail": "https://i.ytimg.com/vi/8tZIeQH1DSU/hqdefault.jpg",
+    "position": 52
+  },
+  {
+    "videoId": "vufuDf7MrmA",
+    "title": "Ngobrolin Elixir - Ngobrolin WEB",
+    "description": "Eksplorasi bahasa pemrograman Elixir dan ekosistemnya.",
+    "publishedAt": "2023-11-14T13:00:00Z",
+    "thumbnail": "https://i.ytimg.com/vi/vufuDf7MrmA/hqdefault.jpg",
+    "position": 66
+  },
+  {
+    "videoId": "zX0gDaovb1w",
+    "title": "Ngobrolin Database - Ngobrolin WEB",
+    "description": "Membahas berbagai pilihan database untuk aplikasi web modern.",
+    "publishedAt": "2024-06-25T13:00:00Z",
+    "thumbnail": "https://i.ytimg.com/vi/zX0gDaovb1w/hqdefault.jpg",
+    "position": 22
+  }
+]

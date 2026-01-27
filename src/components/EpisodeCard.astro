@@ -1,0 +1,64 @@
+---
+interface Props {
+  videoId: string;
+  title: string;
+  description: string;
+  publishedAt: string;
+  thumbnail: string;
+  episodeNumber: number;
+  slug: string;
+  isNew?: boolean;
+}
+
+const { videoId, title, description, publishedAt, thumbnail, episodeNumber, slug, isNew = false } = Astro.props;
+
+const formattedDate = new Date(publishedAt).toLocaleDateString('id-ID', {
+  day: 'numeric',
+  month: 'short',
+  year: 'numeric'
+});
+
+const truncatedDescription = description.length > 120 
+  ? description.substring(0, 120) + '...' 
+  : description;
+---
+
+<a 
+  href={`/episodes/${slug}`}
+  class="group block bg-dark-card border border-dark-border rounded-xl overflow-hidden hover:border-primary/50 transition-all duration-300 hover:shadow-lg hover:shadow-primary/10"
+>
+  <div class="relative aspect-video overflow-hidden">
+    <img 
+      src={thumbnail} 
+      alt={title}
+      class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+      loading="lazy"
+    />
+    {isNew && (
+      <span class="absolute top-3 left-3 bg-primary text-white text-xs font-bold px-2 py-1 rounded">
+        NEW
+      </span>
+    )}
+    <div class="absolute bottom-3 left-3 bg-black/70 text-white text-xs font-medium px-2 py-1 rounded">
+      S1.E{episodeNumber}
+    </div>
+  </div>
+  <div class="p-4">
+    <p class="text-gray-400 text-xs mb-2">{formattedDate}</p>
+    <h3 class="text-white font-semibold mb-2 group-hover:text-primary-light transition line-clamp-2">
+      {title}
+    </h3>
+    <p class="text-gray-400 text-sm line-clamp-2">
+      {truncatedDescription}
+    </p>
+  </div>
+</a>
+
+<style>
+  .line-clamp-2 {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+</style>

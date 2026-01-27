@@ -1,0 +1,36 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import EpisodeCard from '../../components/EpisodeCard.astro';
+import { getEpisodes } from '../../lib/episodes';
+
+const episodes = getEpisodes();
+---
+
+<Layout 
+  title="Semua Episode - Ngobrolin WEB"
+  description="Daftar lengkap semua episode video podcast Ngobrolin WEB."
+>
+  <section class="py-12">
+    <div class="container mx-auto px-4">
+      <div class="mb-8">
+        <h1 class="text-3xl font-bold text-white mb-2">Semua Episode</h1>
+        <p class="text-gray-400">{episodes.length} episode tersedia</p>
+      </div>
+      
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        {episodes.map((episode, index) => (
+          <EpisodeCard 
+            videoId={episode.videoId}
+            title={episode.title}
+            description={episode.description}
+            publishedAt={episode.publishedAt}
+            thumbnail={episode.thumbnail}
+            episodeNumber={episode.episodeNumber}
+            slug={episode.slug}
+            isNew={index < 2}
+          />
+        ))}
+      </div>
+    </div>
+  </section>
+</Layout>

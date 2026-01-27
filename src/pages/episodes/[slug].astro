@@ -1,0 +1,113 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import YouTubeEmbed from '../../components/YouTubeEmbed.astro';
+import { getEpisodes, type Episode } from '../../lib/episodes';
+
+export async function getStaticPaths() {
+  const episodes = getEpisodes();
+  return episodes.map(episode => ({
+    params: { slug: episode.slug },
+    props: { episode }
+  }));
+}
+
+interface Props {
+  episode: Episode;
+}
+
+const { episode } = Astro.props;
+
+const formattedDate = new Date(episode.publishedAt).toLocaleDateString('id-ID', {
+  weekday: 'long',
+  day: 'numeric',
+  month: 'long',
+  year: 'numeric'
+});
+
+const episodes = getEpisodes();
+const currentIndex = episodes.findIndex(e => e.videoId === episode.videoId);
+const prevEpisode = currentIndex < episodes.length - 1 ? episodes[currentIndex + 1] : null;
+const nextEpisode = currentIndex > 0 ? episodes[currentIndex - 1] : null;
+---
+
+<Layout 
+  title={`${episode.title} - Ngobrolin WEB`}
+  description={episode.description}
+  image={episode.thumbnail}
+>
+  <article class="py-12">
+    <div class="container mx-auto px-4">
+      <div class="max-w-4xl mx-auto">
+        <!-- Breadcrumb -->
+        <nav class="mb-6">
+          <ol class="flex items-center gap-2 text-sm text-gray-400">
+            <li><a href="/" class="hover:text-white transition">Home</a></li>
+            <li>/</li>
+            <li><a href="/episodes" class="hover:text-white transition">Episodes</a></li>
+            <li>/</li>
+            <li class="text-white">S1.E{episode.episodeNumber}</li>
+          </ol>
+        </nav>
+
+        <!-- Video -->
+        <YouTubeEmbed videoId={episode.videoId} title={episode.title} />
+
+        <!-- Episode Info -->
+        <div class="mt-8">
+          <div class="flex items-center gap-4 mb-4">
+            <span class="bg-primary text-white text-sm font-bold px-3 py-1 rounded">
+              S1.E{episode.episodeNumber}
+            </span>
+            <time class="text-gray-400 text-sm">{formattedDate}</time>
+          </div>
+          
+          <h1 class="text-2xl md:text-3xl font-bold text-white mb-4">
+            {episode.title}
+          </h1>
+          
+          <p class="text-gray-300 leading-relaxed whitespace-pre-line">
+            {episode.description}
+          </p>
+        </div>
+
+        <!-- Navigation -->
+        <nav class="mt-12 pt-8 border-t border-dark-border">
+          <div class="flex justify-between gap-4">
+            {prevEpisode ? (
+              <a 
+                href={`/episodes/${prevEpisode.slug}`}
+                class="flex-1 p-4 bg-dark-card border border-dark-border rounded-lg hover:border-primary/50 transition group"
+              >
+                <span class="text-gray-400 text-sm">← Episode Sebelumnya</span>
+                <p class="text-white font-medium mt-1 group-hover:text-primary-light transition line-clamp-1">
+                  {prevEpisode.title}
+                </p>
+              </a>
+            ) : <div class="flex-1"></div>}
+            
+            {nextEpisode ? (
+              <a 
+                href={`/episodes/${nextEpisode.slug}`}
+                class="flex-1 p-4 bg-dark-card border border-dark-border rounded-lg hover:border-primary/50 transition group text-right"
+              >
+                <span class="text-gray-400 text-sm">Episode Selanjutnya →</span>
+                <p class="text-white font-medium mt-1 group-hover:text-primary-light transition line-clamp-1">
+                  {nextEpisode.title}
+                </p>
+              </a>
+            ) : <div class="flex-1"></div>}
+          </div>
+        </nav>
+      </div>
+    </div>
+  </article>
+</Layout>
+
+<style>
+  .line-clamp-1 {
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+</style>
