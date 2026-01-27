@@ -18,7 +18,7 @@
     "text": "Dari obrolan ini, selalu ada ilmu baru. 👍🙏",
     "source": "YouTube",
     "profile": "youtube.com/@pozanmatang",
-    "featured": true
+    "featured": false
   },
   {
     "name": "Ungguh Faizaturrohman",
@@ -39,7 +39,7 @@
     "text": "Ini luar biasa sih isi kontennya. Makasih semuanya",
     "source": "YouTube",
     "profile": "youtube.com/@hellogung",
-    "featured": true
+    "featured": false
   },
   {
     "name": "Fathan Margono",
@@ -53,7 +53,7 @@
     "text": "walau creator, tetep nonton sampe abis karena ilmu itu darimana saja 🤗. Halo guru guru ku disana, izin mengikuti proses development channelnya ya 💥",
     "source": "YouTube",
     "profile": "youtube.com/@deaafrizal",
-    "featured": false
+    "featured": true
   },
   {
     "name": "Muhamad Abdul Mubarok",
@@ -81,6 +81,6 @@
     "text": "Keren emang mas @rizafahmi. Setelah rajin bikin audio podcast, sekarang merambah ke video podcast.. Edisi perdana sodara2.... Semangat mas Riza",
     "source": "Telegram",
     "profile": "t.me/peterjkambey",
-    "featured": false
+    "featured": true
   }
 ]
