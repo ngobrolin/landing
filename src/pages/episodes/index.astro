@@ -1,6 +1,6 @@
 ---
 import Layout from '../../layouts/Layout.astro';
-import EpisodeCard from '../../components/EpisodeCard.astro';
+import SearchEpisodes from '../../components/SearchEpisodes.astro';
 import { getEpisodes } from '../../lib/episodes';
 
 const episodes = getEpisodes();
@@ -17,20 +17,7 @@ const episodes = getEpisodes();
         <p class="text-gray-400">{episodes.length} episode tersedia</p>
       </div>
       
-      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-        {episodes.map((episode, index) => (
-          <EpisodeCard 
-            videoId={episode.videoId}
-            title={episode.title}
-            description={episode.description}
-            publishedAt={episode.publishedAt}
-            thumbnail={episode.thumbnail}
-            episodeNumber={episode.episodeNumber}
-            slug={episode.slug}
-            isNew={index < 2}
-          />
-        ))}
-      </div>
+      <SearchEpisodes />
     </div>
   </section>
 </Layout>
