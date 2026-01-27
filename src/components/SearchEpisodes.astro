@@ -50,8 +50,12 @@ const searchData = episodes.map(ep => ({
   <p class="text-gray-500 text-sm mt-2">Coba kata kunci lain.</p>
 </div>
 
-<script define:vars={{ searchData }}>
+<script id="episodes-data" type="application/json" set:html={JSON.stringify(searchData)} />
+
+<script>
   import Fuse from 'fuse.js';
+
+  const searchData = JSON.parse(document.getElementById('episodes-data')?.textContent || '[]');
 
   const fuse = new Fuse(searchData, {
     keys: ['title', 'description'],
