@@ -8,7 +8,7 @@ const { videoId, title } = Astro.props;
 ---
 
 <div class="rounded-xl overflow-hidden">
-  <lite-youtube videoid={videoId} playlabel={title}></lite-youtube>
+  <lite-youtube videoid={videoId} style={`background-image: url('https://i.ytimg.com/vi/${videoId}/hqdefault.jpg');`}></lite-youtube>
 </div>
 
 <script>
