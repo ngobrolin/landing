@@ -1,0 +1,9 @@
+<svg width="1200" height="630" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#0f0f0f"/>
+  <rect x="60" y="60" width="8" height="510" fill="#6366f1" rx="4"/>
+  <text x="100" y="280" font-family="system-ui, -apple-system, sans-serif" font-size="72" font-weight="bold" fill="white">Ngobrolin</text>
+  <text x="100" y="370" font-family="system-ui, -apple-system, sans-serif" font-size="72" font-weight="bold" fill="#6366f1">WEB</text>
+  <text x="100" y="450" font-family="system-ui, -apple-system, sans-serif" font-size="28" fill="#9ca3af">Video podcast web development • Setiap Selasa 20:00 WIB</text>
+  <circle cx="1080" cy="315" r="80" fill="#6366f1" opacity="0.2"/>
+  <circle cx="1000" cy="400" r="40" fill="#6366f1" opacity="0.1"/>
+</svg>
