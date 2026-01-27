@@ -88,4 +88,8 @@ const { videoId, title } = Astro.props;
     opacity: 0;
     pointer-events: none;
   }
+
+  lite-youtube > .lty-playbtn::before {
+    content: none !important;
+  }
 </style>
