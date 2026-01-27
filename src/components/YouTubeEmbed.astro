@@ -29,15 +29,12 @@ const { videoId, title } = Astro.props;
   }
 
   lite-youtube::before {
-    content: '';
+    content: '' !important;
     display: block;
     position: absolute;
     top: 0;
-    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAADGCAYAAAAT+OqFAAAAdklEQVQoz42QQQ7AIAgEF/T/D+kbq/RWAlnQynm9wPYT4AMfe2zOlCwBAOPzeoDeKABNIFNHF7jxAJoAlnPvYIPcEpWYEEbpC0nRW3J6I+eFxCFBNoB6q9pJ+vJnOwhZGqYJRByUBlFBNBAOYABMgCMAPvPtKQ5BAAAAAASUVORK5CYII=');
-    background-position: top;
-    background-repeat: repeat-x;
+    background-image: linear-gradient(180deg, rgb(0 0 0 / 67%) 0%, rgb(0 0 0 / 54%) 14%, rgb(0 0 0 / 15%) 54%, rgb(0 0 0 / 5%) 72%, rgb(0 0 0 / 0%) 94%);
     height: 60px;
-    padding-bottom: 50px;
     width: 100%;
     transition: all 0.2s cubic-bezier(0, 0, 0.2, 1);
   }
