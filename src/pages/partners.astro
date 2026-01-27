@@ -1,110 +1,110 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import sponsors from '../data/sponsors.json';
+import partners from '../data/partners.json';
 
-const goldSponsors = sponsors.filter(s => s.tier === 'gold');
-const silverSponsors = sponsors.filter(s => s.tier === 'silver');
-const bronzeSponsors = sponsors.filter(s => s.tier === 'bronze');
+const goldPartners = partners.filter(s => s.tier === 'gold');
+const silverPartners = partners.filter(s => s.tier === 'silver');
+const bronzePartners = partners.filter(s => s.tier === 'bronze');
 ---
 
 <Layout 
-  title="Sponsors - Ngobrolin WEB"
-  description="Terima kasih kepada sponsor yang mendukung Ngobrolin WEB."
+  title="Partner - Ngobrolin WEB"
+  description="Terima kasih kepada partner yang mendukung Ngobrolin WEB."
 >
   <section class="py-12">
     <div class="container mx-auto px-4">
       <div class="max-w-3xl mx-auto text-center mb-12">
-        <h1 class="text-3xl font-bold text-white mb-4">Sponsors</h1>
+        <h1 class="text-3xl font-bold text-white mb-4">Partner</h1>
         <p class="text-gray-400">
-          Terima kasih kepada para sponsor yang mendukung Ngobrolin WEB. 
+          Terima kasih kepada para partner yang mendukung Ngobrolin WEB. 
           Dukungan mereka membantu kami terus menghadirkan konten berkualitas.
         </p>
       </div>
 
-      {goldSponsors.length > 0 && (
+      {goldPartners.length > 0 && (
         <div class="mb-16">
-          <h2 class="text-xl font-semibold text-primary text-center mb-8">Gold Sponsors</h2>
+          <h2 class="text-xl font-semibold text-primary text-center mb-8">Gold Partner</h2>
           <div class="flex flex-wrap justify-center gap-8">
-            {goldSponsors.map(sponsor => (
+            {goldPartners.map(partner => (
               <a 
-                href={sponsor.url}
+                href={partner.url}
                 target="_blank"
                 rel="noopener noreferrer"
                 class="group block p-8 bg-dark-card border border-dark-border rounded-xl hover:border-primary/50 transition-all duration-300 w-full max-w-sm"
               >
                 <div class="flex items-center justify-center h-20 mb-4">
                   <img 
-                    src={sponsor.logo} 
-                    alt={sponsor.name}
+                    src={partner.logo} 
+                    alt={partner.name}
                     class="max-h-full max-w-full object-contain filter brightness-90 group-hover:brightness-100 transition"
                   />
                 </div>
-                <h3 class="text-white font-semibold text-center mb-2">{sponsor.name}</h3>
-                <p class="text-gray-400 text-sm text-center">{sponsor.description}</p>
+                <h3 class="text-white font-semibold text-center mb-2">{partner.name}</h3>
+                <p class="text-gray-400 text-sm text-center">{partner.description}</p>
               </a>
             ))}
           </div>
         </div>
       )}
 
-      {silverSponsors.length > 0 && (
+      {silverPartners.length > 0 && (
         <div class="mb-16">
-          <h2 class="text-lg font-semibold text-gray-300 text-center mb-8">Silver Sponsors</h2>
+          <h2 class="text-lg font-semibold text-gray-300 text-center mb-8">Silver Partner</h2>
           <div class="flex flex-wrap justify-center gap-6">
-            {silverSponsors.map(sponsor => (
+            {silverPartners.map(partner => (
               <a 
-                href={sponsor.url}
+                href={partner.url}
                 target="_blank"
                 rel="noopener noreferrer"
                 class="group block p-6 bg-dark-card border border-dark-border rounded-xl hover:border-gray-500 transition-all duration-300 w-64"
               >
                 <div class="flex items-center justify-center h-12 mb-3">
                   <img 
-                    src={sponsor.logo} 
-                    alt={sponsor.name}
+                    src={partner.logo} 
+                    alt={partner.name}
                     class="max-h-full max-w-full object-contain filter brightness-75 group-hover:brightness-100 transition"
                   />
                 </div>
-                <h3 class="text-white text-sm font-medium text-center">{sponsor.name}</h3>
+                <h3 class="text-white text-sm font-medium text-center">{partner.name}</h3>
               </a>
             ))}
           </div>
         </div>
       )}
 
-      {bronzeSponsors.length > 0 && (
+      {bronzePartners.length > 0 && (
         <div class="mb-16">
-          <h2 class="text-lg font-semibold text-gray-400 text-center mb-8">Bronze Sponsors</h2>
+          <h2 class="text-lg font-semibold text-gray-400 text-center mb-8">Bronze Partner</h2>
           <div class="flex flex-wrap justify-center gap-4">
-            {bronzeSponsors.map(sponsor => (
+            {bronzePartners.map(partner => (
               <a 
-                href={sponsor.url}
+                href={partner.url}
                 target="_blank"
                 rel="noopener noreferrer"
                 class="group block p-4 bg-dark-card border border-dark-border rounded-lg hover:border-gray-600 transition w-48"
               >
                 <div class="flex items-center justify-center h-8 mb-2">
                   <img 
-                    src={sponsor.logo} 
-                    alt={sponsor.name}
+                    src={partner.logo} 
+                    alt={partner.name}
                     class="max-h-full max-w-full object-contain filter brightness-50 group-hover:brightness-100 transition"
                   />
                 </div>
-                <p class="text-gray-400 text-xs text-center">{sponsor.name}</p>
+                <p class="text-gray-400 text-xs text-center">{partner.name}</p>
               </a>
             ))}
           </div>
         </div>
       )}
 
-      <!-- Become a Sponsor CTA -->
+      <!-- Become a Partner CTA -->
       <div class="mt-16 p-8 bg-dark-card border border-dark-border rounded-xl text-center max-w-2xl mx-auto">
-        <h2 class="text-xl font-bold text-white mb-4">Mau Jadi Sponsor?</h2>
+        <h2 class="text-xl font-bold text-white mb-4">Mau Jadi Partner?</h2>
         <p class="text-gray-400 mb-6">
           Dukung Ngobrolin WEB dan jangkau ribuan developer Indonesia setiap minggu.
         </p>
         <a 
-          href="mailto:rizafahmi@gmail.com?subject=Sponsorship%20Ngobrolin%20WEB"
+          href="mailto:rizafahmi@gmail.com?subject=Partnership%20Ngobrolin%20WEB"
           class="inline-block bg-primary hover:bg-primary-light text-white px-6 py-3 rounded-lg font-medium transition"
         >
           Hubungi Kami
