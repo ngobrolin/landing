@@ -41,6 +41,9 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
     <meta name="twitter:title" content={title} />
     <meta name="twitter:description" content={description} />
     <meta name="twitter:image" content={image} />
+    
+    <!-- RSS -->
+    <link rel="alternate" type="application/rss+xml" title="Ngobrolin WEB RSS Feed" href="/rss.xml" />
   </head>
   <body class="min-h-screen flex flex-col">
     <header class="border-b border-dark-border">
