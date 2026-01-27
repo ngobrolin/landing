@@ -3,112 +3,314 @@ import Layout from '../layouts/Layout.astro';
 import partners from '../data/partners.json';
 
 const goldPartners = partners.filter(s => s.tier === 'gold');
-const silverPartners = partners.filter(s => s.tier === 'silver');
-const bronzePartners = partners.filter(s => s.tier === 'bronze');
 ---
 
 <Layout 
-  title="Partner - Ngobrolin WEB"
-  description="Terima kasih kepada partner yang mendukung Ngobrolin WEB."
+  title="Partnership - Ngobrolin WEB"
+  description="Jangkau ribuan developer Indonesia melalui video podcast web development terpopuler."
 >
-  <section class="py-12">
+  <!-- Hero Section -->
+  <section class="py-20 md:py-28">
     <div class="container mx-auto px-4">
-      <div class="max-w-3xl mx-auto text-center mb-12">
-        <h1 class="text-3xl font-bold text-white mb-4">Partner</h1>
-        <p class="text-gray-400">
-          Terima kasih kepada para partner yang mendukung Ngobrolin WEB. 
-          Dukungan mereka membantu kami terus menghadirkan konten berkualitas.
-        </p>
-      </div>
-
-      {goldPartners.length > 0 && (
-        <div class="mb-16">
-          <h2 class="text-xl font-semibold text-primary text-center mb-8">Gold Partner</h2>
-          <div class="flex flex-wrap justify-center gap-8">
-            {goldPartners.map(partner => (
-              <a 
-                href={partner.url}
-                target="_blank"
-                rel="noopener noreferrer"
-                class="group block p-8 bg-dark-card border border-dark-border rounded-xl hover:border-primary/50 transition-all duration-300 w-full max-w-sm"
-              >
-                <div class="flex items-center justify-center h-20 mb-4">
-                  <img 
-                    src={partner.logo} 
-                    alt={partner.name}
-                    class="max-h-full max-w-full object-contain filter brightness-90 group-hover:brightness-100 transition"
-                  />
-                </div>
-                <h3 class="text-white font-semibold text-center mb-2">{partner.name}</h3>
-                <p class="text-gray-400 text-sm text-center">{partner.description}</p>
-              </a>
-            ))}
-          </div>
-        </div>
-      )}
-
-      {silverPartners.length > 0 && (
-        <div class="mb-16">
-          <h2 class="text-lg font-semibold text-gray-300 text-center mb-8">Silver Partner</h2>
-          <div class="flex flex-wrap justify-center gap-6">
-            {silverPartners.map(partner => (
-              <a 
-                href={partner.url}
-                target="_blank"
-                rel="noopener noreferrer"
-                class="group block p-6 bg-dark-card border border-dark-border rounded-xl hover:border-gray-500 transition-all duration-300 w-64"
-              >
-                <div class="flex items-center justify-center h-12 mb-3">
-                  <img 
-                    src={partner.logo} 
-                    alt={partner.name}
-                    class="max-h-full max-w-full object-contain filter brightness-75 group-hover:brightness-100 transition"
-                  />
-                </div>
-                <h3 class="text-white text-sm font-medium text-center">{partner.name}</h3>
-              </a>
-            ))}
-          </div>
-        </div>
-      )}
-
-      {bronzePartners.length > 0 && (
-        <div class="mb-16">
-          <h2 class="text-lg font-semibold text-gray-400 text-center mb-8">Bronze Partner</h2>
-          <div class="flex flex-wrap justify-center gap-4">
-            {bronzePartners.map(partner => (
-              <a 
-                href={partner.url}
-                target="_blank"
-                rel="noopener noreferrer"
-                class="group block p-4 bg-dark-card border border-dark-border rounded-lg hover:border-gray-600 transition w-48"
-              >
-                <div class="flex items-center justify-center h-8 mb-2">
-                  <img 
-                    src={partner.logo} 
-                    alt={partner.name}
-                    class="max-h-full max-w-full object-contain filter brightness-50 group-hover:brightness-100 transition"
-                  />
-                </div>
-                <p class="text-gray-400 text-xs text-center">{partner.name}</p>
-              </a>
-            ))}
-          </div>
-        </div>
-      )}
-
-      <!-- Become a Partner CTA -->
-      <div class="mt-16 p-8 bg-dark-card border border-dark-border rounded-xl text-center max-w-2xl mx-auto">
-        <h2 class="text-xl font-bold text-white mb-4">Mau Jadi Partner?</h2>
-        <p class="text-gray-400 mb-6">
-          Dukung Ngobrolin WEB dan jangkau ribuan developer Indonesia setiap minggu.
+      <div class="max-w-4xl mx-auto text-center">
+        <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight">
+          Ingin menjangkau <span class="text-primary">developer Indonesia?</span>
+        </h1>
+        <p class="text-xl md:text-2xl text-gray-400 mb-8 max-w-2xl mx-auto">
+          Ngobrolin WEB adalah video podcast web development berbahasa Indonesia yang tayang setiap Selasa malam.
         </p>
         <a 
           href="mailto:rizafahmi@gmail.com?subject=Partnership%20Ngobrolin%20WEB"
-          class="inline-block bg-primary hover:bg-primary-light text-white px-6 py-3 rounded-lg font-medium transition"
+          class="inline-block bg-primary hover:bg-primary-light text-white px-8 py-4 rounded-lg font-semibold text-lg transition"
         >
-          Hubungi Kami
+          Hubungi Kami →
         </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Stats Section -->
+  <section class="py-16 border-y border-dark-border bg-dark-card/50">
+    <div class="container mx-auto px-4">
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-8 max-w-4xl mx-auto">
+        <div class="text-center">
+          <div class="text-4xl md:text-5xl font-bold text-primary mb-2">154+</div>
+          <div class="text-gray-400">Episode</div>
+        </div>
+        <div class="text-center">
+          <div class="text-4xl md:text-5xl font-bold text-primary mb-2">5+</div>
+          <div class="text-gray-400">Tahun Tayang</div>
+        </div>
+        <div class="text-center">
+          <div class="text-4xl md:text-5xl font-bold text-primary mb-2">1K+</div>
+          <div class="text-gray-400">Views/Episode</div>
+        </div>
+        <div class="text-center">
+          <div class="text-4xl md:text-5xl font-bold text-primary mb-2">Selasa</div>
+          <div class="text-gray-400">20:00 WIB</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Current Partners -->
+  {goldPartners.length > 0 && (
+    <section class="py-16">
+      <div class="container mx-auto px-4">
+        <p class="text-center text-gray-400 mb-8">Dipercaya oleh:</p>
+        <div class="flex flex-wrap justify-center items-center gap-12">
+          {goldPartners.map(partner => (
+            <a 
+              href={partner.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="opacity-70 hover:opacity-100 transition"
+            >
+              <img 
+                src={partner.logo} 
+                alt={partner.name}
+                class="h-10 md:h-12 object-contain filter grayscale hover:grayscale-0 transition"
+              />
+            </a>
+          ))}
+        </div>
+      </div>
+    </section>
+  )}
+
+  <!-- Value Proposition -->
+  <section class="py-20">
+    <div class="container mx-auto px-4">
+      <div class="max-w-3xl mx-auto text-center mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">
+          Mengapa Bermitra dengan Ngobrolin WEB?
+        </h2>
+        <p class="text-gray-400 text-lg">
+          Audiens kami adalah developer profesional dan tech enthusiast yang aktif mencari tools dan solusi untuk pekerjaan mereka.
+        </p>
+      </div>
+
+      <div class="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+        <div class="p-6 bg-dark-card border border-dark-border rounded-xl">
+          <div class="w-12 h-12 bg-primary/20 rounded-lg flex items-center justify-center mb-4">
+            <svg class="w-6 h-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path>
+            </svg>
+          </div>
+          <h3 class="text-white font-semibold text-lg mb-2">Audiens Berkualitas</h3>
+          <p class="text-gray-400">Developer profesional, tech lead, dan decision maker dari berbagai perusahaan teknologi Indonesia.</p>
+        </div>
+
+        <div class="p-6 bg-dark-card border border-dark-border rounded-xl">
+          <div class="w-12 h-12 bg-primary/20 rounded-lg flex items-center justify-center mb-4">
+            <svg class="w-6 h-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z"></path>
+            </svg>
+          </div>
+          <h3 class="text-white font-semibold text-lg mb-2">Format Video Premium</h3>
+          <p class="text-gray-400">Konten video berkualitas tinggi dengan produksi profesional yang menarik perhatian audiens.</p>
+        </div>
+
+        <div class="p-6 bg-dark-card border border-dark-border rounded-xl">
+          <div class="w-12 h-12 bg-primary/20 rounded-lg flex items-center justify-center mb-4">
+            <svg class="w-6 h-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+            </svg>
+          </div>
+          <h3 class="text-white font-semibold text-lg mb-2">Konsistensi 5+ Tahun</h3>
+          <p class="text-gray-400">Track record yang terbukti dengan 154+ episode dan komunitas yang loyal sejak 2019.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sponsorship Options -->
+  <section class="py-20 bg-dark-card/30">
+    <div class="container mx-auto px-4">
+      <div class="max-w-3xl mx-auto text-center mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">
+          Paket Partnership
+        </h2>
+        <p class="text-gray-400 text-lg">
+          Pilih format yang sesuai dengan kebutuhan dan budget marketing Anda.
+        </p>
+      </div>
+
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
+        <!-- Episode Sponsor -->
+        <div class="p-8 bg-dark-card border border-dark-border rounded-xl hover:border-primary/50 transition">
+          <div class="text-primary font-semibold mb-2">Paling Populer</div>
+          <h3 class="text-2xl font-bold text-white mb-4">Episode Sponsor</h3>
+          <p class="text-gray-400 mb-6">
+            Sponsor penuh satu episode dengan mention di awal, tengah, dan akhir video. Logo ditampilkan sepanjang episode.
+          </p>
+          <ul class="space-y-3 mb-8">
+            <li class="flex items-center text-gray-300">
+              <svg class="w-5 h-5 text-primary mr-3" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+              </svg>
+              Mention 3x per episode
+            </li>
+            <li class="flex items-center text-gray-300">
+              <svg class="w-5 h-5 text-primary mr-3" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+              </svg>
+              Logo di video overlay
+            </li>
+            <li class="flex items-center text-gray-300">
+              <svg class="w-5 h-5 text-primary mr-3" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+              </svg>
+              Link di deskripsi video
+            </li>
+            <li class="flex items-center text-gray-300">
+              <svg class="w-5 h-5 text-primary mr-3" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+              </svg>
+              Promosi di social media
+            </li>
+          </ul>
+        </div>
+
+        <!-- Logo Placement -->
+        <div class="p-8 bg-dark-card border border-dark-border rounded-xl hover:border-primary/50 transition">
+          <div class="text-gray-500 font-semibold mb-2">Budget Friendly</div>
+          <h3 class="text-2xl font-bold text-white mb-4">Logo Placement</h3>
+          <p class="text-gray-400 mb-6">
+            Logo brand Anda ditampilkan di setiap episode selama periode tertentu. Cocok untuk brand awareness jangka panjang.
+          </p>
+          <ul class="space-y-3 mb-8">
+            <li class="flex items-center text-gray-300">
+              <svg class="w-5 h-5 text-primary mr-3" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+              </svg>
+              Logo di intro/outro
+            </li>
+            <li class="flex items-center text-gray-300">
+              <svg class="w-5 h-5 text-primary mr-3" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+              </svg>
+              Logo di website
+            </li>
+            <li class="flex items-center text-gray-300">
+              <svg class="w-5 h-5 text-primary mr-3" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+              </svg>
+              Eksposur berkelanjutan
+            </li>
+          </ul>
+        </div>
+
+        <!-- Custom Integration -->
+        <div class="p-8 bg-dark-card border border-primary/30 rounded-xl hover:border-primary/50 transition">
+          <div class="text-primary font-semibold mb-2">Maksimal Impact</div>
+          <h3 class="text-2xl font-bold text-white mb-4">Custom Integration</h3>
+          <p class="text-gray-400 mb-6">
+            Episode khusus yang membahas produk atau teknologi Anda secara mendalam. Demo langsung dengan host.
+          </p>
+          <ul class="space-y-3 mb-8">
+            <li class="flex items-center text-gray-300">
+              <svg class="w-5 h-5 text-primary mr-3" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+              </svg>
+              Episode dedicated
+            </li>
+            <li class="flex items-center text-gray-300">
+              <svg class="w-5 h-5 text-primary mr-3" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+              </svg>
+              Live demo produk
+            </li>
+            <li class="flex items-center text-gray-300">
+              <svg class="w-5 h-5 text-primary mr-3" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+              </svg>
+              Tutorial atau review
+            </li>
+            <li class="flex items-center text-gray-300">
+              <svg class="w-5 h-5 text-primary mr-3" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+              </svg>
+              Semua benefit lainnya
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Placeholder -->
+  <section class="py-20">
+    <div class="container mx-auto px-4">
+      <div class="max-w-3xl mx-auto text-center mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">
+          Apa Kata Partner Kami
+        </h2>
+      </div>
+
+      <div class="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+        <div class="p-8 bg-dark-card border border-dark-border rounded-xl">
+          <div class="flex items-center gap-1 text-yellow-400 mb-4">
+            {[...Array(5)].map(() => (
+              <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+              </svg>
+            ))}
+          </div>
+          <p class="text-gray-300 mb-6 italic">
+            "Partnership dengan Ngobrolin WEB membantu kami menjangkau developer Indonesia yang tepat. Respons dari audiens sangat positif."
+          </p>
+          <div class="flex items-center gap-4">
+            <div class="w-12 h-12 bg-primary/20 rounded-full flex items-center justify-center">
+              <span class="text-primary font-bold">D</span>
+            </div>
+            <div>
+              <div class="text-white font-semibold">DomaiNesia</div>
+              <div class="text-gray-400 text-sm">Gold Partner</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="p-8 bg-dark-card border border-dark-border rounded-xl border-dashed">
+          <div class="text-center py-8">
+            <div class="text-gray-500 mb-4">
+              <svg class="w-16 h-16 mx-auto opacity-50" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"></path>
+              </svg>
+            </div>
+            <p class="text-gray-400">Testimoni Anda bisa tampil di sini</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Final CTA -->
+  <section class="py-20 bg-gradient-to-b from-dark to-dark-card">
+    <div class="container mx-auto px-4">
+      <div class="max-w-3xl mx-auto text-center">
+        <h2 class="text-3xl md:text-4xl font-bold text-white mb-6">
+          Siap Menjangkau Developer Indonesia?
+        </h2>
+        <p class="text-xl text-gray-400 mb-8">
+          Mari diskusikan bagaimana kami bisa membantu brand Anda terhubung dengan komunitas developer.
+        </p>
+        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+          <a 
+            href="mailto:rizafahmi@gmail.com?subject=Partnership%20Ngobrolin%20WEB"
+            class="inline-block bg-primary hover:bg-primary-light text-white px-8 py-4 rounded-lg font-semibold text-lg transition"
+          >
+            Hubungi via Email →
+          </a>
+          <a 
+            href="https://www.youtube.com/@RizaFahmi"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="inline-block bg-dark-card border border-dark-border hover:border-primary/50 text-white px-8 py-4 rounded-lg font-semibold text-lg transition"
+          >
+            Lihat Channel YouTube
+          </a>
+        </div>
       </div>
     </div>
   </section>
