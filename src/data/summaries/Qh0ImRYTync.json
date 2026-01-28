@@ -1,0 +1,14 @@
+{
+  "videoId": "Qh0ImRYTync",
+  "generatedAt": "2026-01-28T19:30:00Z",
+  "brief": "Episode ini membahas CSS Wrapped 2025, yaitu rekapitulasi fitur-fitur CSS dan UI baru yang hadir di Google Chrome sepanjang tahun 2025. Ivan dan Eka membahas satu per satu fitur yang dikategorikan menjadi tiga bagian: Customizable Components, Next Gen Interaction, dan Optimized Ergonomics.\n\nDiskusi dimulai dengan cerita tentang event offline Ngobrolin WEB di Jogja bersama DomaiNesia, sebelum masuk ke pembahasan teknis tentang invoker commands, dialog light dismiss, popover API, dan berbagai fitur CSS baru lainnya. Tema CSS Wrapped tahun ini adalah \"Sculpt a Dynamic Web\" dengan visual Play-Doh yang menggambarkan CSS sebagai building blocks yang bisa dibentuk sesuai kebutuhan.\n\nEpisode ini cocok untuk developer yang ingin mengetahui fitur-fitur CSS terbaru yang sudah bisa digunakan di browser modern, serta memahami perbedaan antara dialog dan popover.",
+  "keyPoints": [
+    "CSS Wrapped 2025 dibagi menjadi 3 kategori: Customizable Components, Next Gen Interaction, dan Optimized Ergonomics",
+    "Invoker Commands memungkinkan membuka modal/dialog tanpa JavaScript, cukup dengan atribut HTML command dan commandfor",
+    "Dialog dan Popover memiliki behavior berbeda: Dialog bersifat blocking dan butuh user decision, Popover bisa di-dismiss dengan klik di luar",
+    "Light Dismiss feature memungkinkan dialog ditutup dengan tombol Escape atau back button di mobile",
+    "Fitur-fitur baru ini meningkatkan Developer Experience (DX) dengan mengurangi kebutuhan JavaScript untuk interaksi UI dasar",
+    "Beberapa fitur sudah di-support Firefox tapi Safari masih tertinggal (belum Baseline)",
+    "Google Chrome DevRel membuat CSS Wrapped sebagai program tahunan untuk highlight fitur CSS/UI baru"
+  ]
+}

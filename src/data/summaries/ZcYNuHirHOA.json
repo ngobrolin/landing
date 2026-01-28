@@ -1,0 +1,14 @@
+{
+  "videoId": "ZcYNuHirHOA",
+  "generatedAt": "2026-01-28T19:35:00Z",
+  "brief": "Episode ini membahas tentang Agentic AI, menjelaskan perbedaan mendasar antara AI/LLM biasa dengan Agent AI. Diskusi ini terinspirasi dari GitHub Discussion yang diajukan oleh salah satu pendengar, dan menjadi fondasi penting sebelum membahas topik-topik lanjutan seperti Agentic UI.\n\nTrio Ngobrolin WEB menjelaskan bahwa perbedaan utama antara LLM biasa dan Agent adalah kemampuan Agent untuk bekerja dalam loop sampai tugasnya selesai. LLM biasa hanya bisa menerima prompt dan memberikan respons sekali jalan, sedangkan Agent bisa terus berinteraksi, menggunakan tools, dan mengambil keputusan sampai goal tercapai.\n\nContoh praktis yang dibahas termasuk perbandingan antara ChatGPT zaman dulu (copy-paste kode manual) dengan agentic coding assistant modern seperti Cursor, Claude Code, dan Kiro yang bisa menulis file, menjalankan terminal, dan menyelesaikan task secara mandiri.",
+  "keyPoints": [
+    "Agent AI bekerja dalam loop sampai tugasnya selesai, berbeda dengan LLM biasa yang hanya sekali prompt-response",
+    "Tiga komponen utama Agent: Tools (kemampuan melakukan aksi), Memory (menyimpan konteks), dan Reasoning Loop (berpikir dan iterasi)",
+    "LLM biasa hanya bisa conversation, Agent bisa melakukan action/tindakan nyata",
+    "Contoh perbedaan: LLM biasa tidak bisa booking pesawat sungguhan, Agent bisa karena punya tools dan bisa berinteraksi sampai task selesai",
+    "Evolusi coding assistant: dari ChatGPT (copy-paste manual) → Copilot (satu perintah sekali jalan) → Agentic AI (bisa menyelesaikan goal kompleks)",
+    "Anthropic membedakan antara 'workflow' (prescriptive) dan 'agent' (autonomous) dalam kategori agentic system",
+    "Tahun 2025 adalah era Agentic AI seperti yang diprediksi sebelumnya"
+  ]
+}
