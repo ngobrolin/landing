@@ -27,8 +27,6 @@ const absoluteImage = image.startsWith('http') ? image : new URL(image, site).to
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     
     <!-- Performance -->
-    <link rel="preconnect" href="https://i.ytimg.com" />
-    <link rel="dns-prefetch" href="https://i.ytimg.com" />
     {preloadImage && <link rel="preload" as="image" href={preloadImage} fetchpriority="high" />}
     
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
