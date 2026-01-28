@@ -5,6 +5,14 @@ import Transcript from '../../components/Transcript.astro';
 import Summary from '../../components/Summary.astro';
 import { getEpisodes, type Episode } from '../../lib/episodes';
 import { getImage } from 'astro:assets';
+import { 
+  getSummary, 
+  getTranscript, 
+  getMetaDescription, 
+  generateVideoSchema, 
+  generateBreadcrumbSchema,
+  generatePodcastEpisodeSchema 
+} from '../../lib/seo';
 
 export async function getStaticPaths() {
   const episodes = getEpisodes();
@@ -38,14 +46,30 @@ const episodes = getEpisodes();
 const currentIndex = episodes.findIndex(e => e.videoId === episode.videoId);
 const prevEpisode = currentIndex < episodes.length - 1 ? episodes[currentIndex + 1] : null;
 const nextEpisode = currentIndex > 0 ? episodes[currentIndex - 1] : null;
+
+// SEO data
+const summary = getSummary(episode.videoId);
+const transcript = getTranscript(episode.videoId);
+const metaDescription = getMetaDescription(episode, summary);
+const siteUrl = Astro.site?.toString().replace(/\/$/, '') || 'https://ngobrolin.com';
+
+const videoSchema = generateVideoSchema(episode, summary, transcript, siteUrl);
+const breadcrumbSchema = generateBreadcrumbSchema(episode, siteUrl);
+const podcastSchema = generatePodcastEpisodeSchema(episode, summary, siteUrl);
 ---
 
 <Layout 
   title={`${episode.title} - Ngobrolin WEB`}
-  description={episode.description}
+  description={metaDescription}
   image={episode.thumbnail}
   preloadImage={optimizedThumbnail.src}
 >
+  <!-- Structured Data -->
+  <Fragment slot="head">
+    <script type="application/ld+json" set:html={JSON.stringify(videoSchema)} />
+    <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
+    <script type="application/ld+json" set:html={JSON.stringify(podcastSchema)} />
+  </Fragment>
   <article class="py-12">
     <div class="container mx-auto px-4">
       <div class="max-w-4xl mx-auto">

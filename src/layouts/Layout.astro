@@ -52,6 +52,9 @@ const absoluteImage = image.startsWith('http') ? image : new URL(image, site).to
     
     <!-- RSS -->
     <link rel="alternate" type="application/rss+xml" title="Ngobrolin WEB RSS Feed" href="/rss.xml" />
+    
+    <!-- Additional head content -->
+    <slot name="head" />
   </head>
   <body class="min-h-screen flex flex-col">
     <header class="border-b border-dark-border">
