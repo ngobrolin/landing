@@ -23,6 +23,8 @@ try {
   transcript = null;
 }
 
+const editUrl = `https://github.com/ngobrolin/landing/edit/main/src/data/transcripts/${videoId}.json`;
+
 function formatTime(seconds: number): string {
   const h = Math.floor(seconds / 3600);
   const m = Math.floor((seconds % 3600) / 60);
@@ -48,6 +50,18 @@ function formatTime(seconds: number): string {
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
         </svg>
         Transkrip
+        <a 
+          href={editUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+          class="ml-auto flex items-center gap-1.5 text-sm text-gray-400 hover:text-primary-light transition font-normal"
+          onclick="event.stopPropagation()"
+        >
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z" />
+          </svg>
+          Bantu Koreksi
+        </a>
       </summary>
       
       <div class="mt-4 bg-dark-card border border-dark-border rounded-lg p-4 max-h-96 overflow-y-auto">
