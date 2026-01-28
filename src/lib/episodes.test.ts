@@ -60,6 +60,15 @@ describe('getEpisodes', () => {
       expect(prevDate).toBeGreaterThanOrEqual(currDate);
     }
   });
+
+  it('transforms YouTube thumbnails to WebP', () => {
+    const episodes = getEpisodes();
+    for (const ep of episodes) {
+      if (ep.thumbnail.includes('i.ytimg.com')) {
+        expect(ep.thumbnail).toMatch(/https:\/\/i\.ytimg\.com\/vi_webp\/.*\/hqdefault\.webp/);
+      }
+    }
+  });
 });
 
 describe('getEpisodeBySlug', () => {

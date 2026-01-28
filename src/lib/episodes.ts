@@ -28,6 +28,9 @@ export function getEpisodes(): Episode[] {
     .map((ep) => ({
       ...ep,
       slug: `${ep.videoId}-${slugify(ep.title)}`,
+      thumbnail: ep.thumbnail.includes('i.ytimg.com')
+        ? `https://i.ytimg.com/vi_webp/${ep.videoId}/hqdefault.webp`
+        : ep.thumbnail,
       episodeNumber: 0, // placeholder, set after sorting
     }))
     .sort((a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime())

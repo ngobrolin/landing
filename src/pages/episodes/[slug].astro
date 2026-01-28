@@ -19,7 +19,7 @@ interface Props {
 const { episode } = Astro.props;
 
 const optimizedThumbnail = await getImage({
-  src: `https://i.ytimg.com/vi/${episode.videoId}/hqdefault.jpg`,
+  src: episode.thumbnail,
   width: 640,
   height: 360,
   format: 'webp',
