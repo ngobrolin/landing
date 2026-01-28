@@ -1,0 +1,67 @@
+---
+interface Segment {
+  start: number;
+  end: number;
+  text: string;
+}
+
+interface Props {
+  videoId: string;
+}
+
+const { videoId } = Astro.props;
+
+let transcript: { segments: Segment[]; fullText: string } | null = null;
+
+try {
+  const transcripts = import.meta.glob('../data/transcripts/*.json', { eager: true });
+  const key = `../data/transcripts/${videoId}.json`;
+  if (transcripts[key]) {
+    transcript = transcripts[key] as typeof transcript;
+  }
+} catch {
+  transcript = null;
+}
+
+function formatTime(seconds: number): string {
+  const h = Math.floor(seconds / 3600);
+  const m = Math.floor((seconds % 3600) / 60);
+  const s = Math.floor(seconds % 60);
+  
+  if (h > 0) {
+    return `${h}:${m.toString().padStart(2, '0')}:${s.toString().padStart(2, '0')}`;
+  }
+  return `${m}:${s.toString().padStart(2, '0')}`;
+}
+---
+
+{transcript && (
+  <div class="mt-8 border-t border-dark-border pt-8">
+    <details class="group">
+      <summary class="flex items-center gap-2 cursor-pointer text-white font-semibold text-lg hover:text-primary-light transition">
+        <svg 
+          class="w-5 h-5 transition-transform group-open:rotate-90" 
+          fill="none" 
+          stroke="currentColor" 
+          viewBox="0 0 24 24"
+        >
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+        </svg>
+        Transkrip
+      </summary>
+      
+      <div class="mt-4 bg-dark-card border border-dark-border rounded-lg p-4 max-h-96 overflow-y-auto">
+        <div class="space-y-3">
+          {transcript.segments.map((segment) => (
+            <p class="text-gray-300 leading-relaxed">
+              <span class="text-primary text-sm font-mono mr-2">
+                {formatTime(segment.start)}
+              </span>
+              {segment.text}
+            </p>
+          ))}
+        </div>
+      </div>
+    </details>
+  </div>
+)}

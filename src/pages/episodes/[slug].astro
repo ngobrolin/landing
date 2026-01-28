@@ -1,6 +1,7 @@
 ---
 import Layout from '../../layouts/Layout.astro';
 import YouTubeEmbed from '../../components/YouTubeEmbed.astro';
+import Transcript from '../../components/Transcript.astro';
 import { getEpisodes, type Episode } from '../../lib/episodes';
 import { getImage } from 'astro:assets';
 
@@ -81,6 +82,9 @@ const nextEpisode = currentIndex > 0 ? episodes[currentIndex - 1] : null;
           <p class="text-gray-300 leading-relaxed whitespace-pre-line">
             {episode.description}
           </p>
+
+          <!-- Transcript -->
+          <Transcript videoId={episode.videoId} />
         </div>
 
         <!-- Navigation -->

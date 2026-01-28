@@ -10,7 +10,8 @@
     "test": "vitest",
     "test:unit": "vitest run",
     "test:e2e": "playwright test",
-    "test:e2e:ui": "playwright test --ui"
+    "test:e2e:ui": "playwright test --ui",
+    "transcribe": "node scripts/transcribe.js"
   },
   "dependencies": {
     "@astrojs/rss": "^4.0.15",
