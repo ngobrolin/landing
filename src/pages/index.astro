@@ -2,13 +2,24 @@
 import Layout from '../layouts/Layout.astro';
 import EpisodeCard from '../components/EpisodeCard.astro';
 import { getEpisodes } from '../lib/episodes';
+import { getImage } from 'astro:assets';
 
 const episodes = getEpisodes();
 const recentEpisodes = episodes.slice(0, 8);
 const totalEpisodes = episodes.length;
+
+const optimizedLcpImage = await getImage({
+  src: recentEpisodes[0].thumbnail,
+  width: 640,
+  height: 360,
+  format: 'webp',
+});
 ---
 
-<Layout title="Ngobrolin WEB - Video Podcast Web Development Indonesia">
+<Layout 
+  title="Ngobrolin WEB - Video Podcast Web Development Indonesia"
+  preloadImage={optimizedLcpImage.src}
+>
   <!-- Hero Section -->
   <section class="py-16 md:py-24">
     <div class="container mx-auto px-4">
