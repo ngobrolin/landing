@@ -1,0 +1,39 @@
+---
+interface Props {
+  videoId: string;
+}
+
+const { videoId } = Astro.props;
+
+let summary: { brief: string; keyPoints: string[] } | null = null;
+
+try {
+  const summaries = import.meta.glob('../data/summaries/*.json', { eager: true });
+  const key = `../data/summaries/${videoId}.json`;
+  if (summaries[key]) {
+    summary = summaries[key] as typeof summary;
+  }
+} catch {
+  summary = null;
+}
+---
+
+{summary && (
+  <div class="mt-8 bg-dark-card border border-dark-border rounded-lg p-6">
+    <h2 class="text-lg font-semibold text-white mb-4">Ringkasan Episode</h2>
+    
+    <p class="text-gray-300 leading-relaxed whitespace-pre-line mb-6">
+      {summary.brief}
+    </p>
+    
+    <h3 class="text-md font-semibold text-white mb-3">Poin-poin Utama</h3>
+    <ul class="space-y-2">
+      {summary.keyPoints.map((point) => (
+        <li class="flex items-start gap-2 text-gray-300">
+          <span class="text-primary mt-1">•</span>
+          <span>{point}</span>
+        </li>
+      ))}
+    </ul>
+  </div>
+)}
