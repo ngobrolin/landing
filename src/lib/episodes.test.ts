@@ -4,7 +4,6 @@ import {
   getEpisodes,
   getEpisodeBySlug,
   getEpisodeByVideoId,
-  getRecentEpisodes,
 } from './episodes';
 
 describe('slugify', () => {
@@ -97,22 +96,4 @@ describe('getEpisodeByVideoId', () => {
   });
 });
 
-describe('getRecentEpisodes', () => {
-  it('returns correct count', () => {
-    const recent = getRecentEpisodes(3);
-    expect(recent.length).toBeLessThanOrEqual(3);
-  });
 
-  it('defaults to 8 episodes', () => {
-    const recent = getRecentEpisodes();
-    expect(recent.length).toBeLessThanOrEqual(8);
-  });
-
-  it('returns episodes in same order as getEpisodes', () => {
-    const allEpisodes = getEpisodes();
-    const recent = getRecentEpisodes(3);
-    for (let i = 0; i < recent.length; i++) {
-      expect(recent[i].videoId).toBe(allEpisodes[i].videoId);
-    }
-  });
-});

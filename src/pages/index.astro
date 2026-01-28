@@ -1,10 +1,11 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import EpisodeCard from '../components/EpisodeCard.astro';
-import { getRecentEpisodes, getEpisodes } from '../lib/episodes';
+import { getEpisodes } from '../lib/episodes';
 
-const recentEpisodes = getRecentEpisodes(8);
-const totalEpisodes = getEpisodes().length;
+const episodes = getEpisodes();
+const recentEpisodes = episodes.slice(0, 8);
+const totalEpisodes = episodes.length;
 ---
 
 <Layout title="Ngobrolin WEB - Video Podcast Web Development Indonesia">
@@ -54,7 +55,6 @@ const totalEpisodes = getEpisodes().length;
       <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
         {recentEpisodes.map((episode, index) => (
           <EpisodeCard 
-            videoId={episode.videoId}
             title={episode.title}
             description={episode.description}
             publishedAt={episode.publishedAt}

@@ -6,7 +6,6 @@ export interface Episode {
   description: string;
   publishedAt: string;
   thumbnail: string;
-  position: number;
   slug: string;
   episodeNumber: number;
 }
@@ -20,14 +19,24 @@ export function slugify(text: string): string {
     .trim();
 }
 
+let _cache: Episode[] | null = null;
+
 export function getEpisodes(): Episode[] {
-  return episodesData
-    .map((ep, index) => ({
+  if (_cache) return _cache;
+
+  _cache = episodesData
+    .map((ep) => ({
       ...ep,
       slug: `${ep.videoId}-${slugify(ep.title)}`,
-      episodeNumber: episodesData.length - index
+      episodeNumber: 0, // placeholder, set after sorting
     }))
-    .sort((a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime());
+    .sort((a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime())
+    .map((ep, idx, arr) => ({
+      ...ep,
+      episodeNumber: arr.length - idx,
+    }));
+
+  return _cache;
 }
 
 export function getEpisodeBySlug(slug: string): Episode | undefined {
@@ -40,6 +49,4 @@ export function getEpisodeByVideoId(videoId: string): Episode | undefined {
   return episodes.find(ep => ep.videoId === videoId);
 }
 
-export function getRecentEpisodes(count: number = 8): Episode[] {
-  return getEpisodes().slice(0, count);
-}
+

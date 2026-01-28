@@ -14,7 +14,6 @@ export async function GET(context: APIContext) {
       pubDate: new Date(episode.publishedAt),
       description: episode.description,
       link: `/episodes/${episode.slug}`,
-      customData: `<enclosure url="https://www.youtube.com/watch?v=${episode.videoId}" type="video/mp4" />`,
     })),
     customData: `
       <language>id</language>

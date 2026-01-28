@@ -2,14 +2,14 @@
 import { getEpisodes } from '../lib/episodes';
 
 const episodes = getEpisodes();
-const searchData = episodes.map(ep => ({
-  videoId: ep.videoId,
+const searchData = episodes.map((ep, idx) => ({
   title: ep.title,
   description: ep.description,
   slug: ep.slug,
   episodeNumber: ep.episodeNumber,
   thumbnail: ep.thumbnail,
-  publishedAt: ep.publishedAt
+  publishedAt: ep.publishedAt,
+  isNew: idx < 2,
 }));
 ---
 
@@ -77,6 +77,12 @@ const searchData = episodes.map(ep => ({
     });
   }
 
+  function escapeHtml(text) {
+    const div = document.createElement('div');
+    div.textContent = text;
+    return div.innerHTML;
+  }
+
   function renderEpisodes(episodes) {
     if (episodes.length === 0) {
       grid.classList.add('hidden');
@@ -88,19 +94,21 @@ const searchData = episodes.map(ep => ({
     grid.classList.remove('hidden');
     noResults.classList.add('hidden');
 
-    grid.innerHTML = episodes.map((ep, index) => `
+    const truncate = (text, len) => text.length > len ? text.substring(0, len) + '...' : text;
+    
+    grid.innerHTML = episodes.map((ep) => `
       <a 
-        href="/episodes/${ep.slug}"
+        href="/episodes/${escapeHtml(ep.slug)}"
         class="group block bg-[#1a1a1a] border border-[#2a2a2a] rounded-xl overflow-hidden hover:border-[#6366f1]/50 transition-all duration-300 hover:shadow-lg hover:shadow-[#6366f1]/10"
       >
         <div class="relative aspect-video overflow-hidden">
           <img 
-            src="${ep.thumbnail}" 
-            alt="${ep.title}"
+            src="${escapeHtml(ep.thumbnail)}" 
+            alt="${escapeHtml(ep.title)}"
             class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
             loading="lazy"
           />
-          ${index < 2 ? '<span class="absolute top-3 left-3 bg-[#6366f1] text-white text-xs font-bold px-2 py-1 rounded">BARU</span>' : ''}
+          ${ep.isNew ? '<span class="absolute top-3 left-3 bg-[#6366f1] text-white text-xs font-bold px-2 py-1 rounded">BARU</span>' : ''}
           <div class="absolute bottom-3 left-3 bg-black/70 text-white text-xs font-medium px-2 py-1 rounded">
             EP ${ep.episodeNumber}
           </div>
@@ -108,10 +116,10 @@ const searchData = episodes.map(ep => ({
         <div class="p-4">
           <p class="text-gray-400 text-xs mb-2">${formatDate(ep.publishedAt)}</p>
           <h3 class="text-white font-semibold mb-2 group-hover:text-[#818cf8] transition line-clamp-2">
-            ${ep.title}
+            ${escapeHtml(ep.title)}
           </h3>
           <p class="text-gray-400 text-sm line-clamp-2">
-            ${ep.description.length > 120 ? ep.description.substring(0, 120) + '...' : ep.description}
+            ${escapeHtml(truncate(ep.description, 120))}
           </p>
         </div>
       </a>

@@ -1,6 +1,5 @@
 ---
 interface Props {
-  videoId: string;
   title: string;
   description: string;
   publishedAt: string;
@@ -10,7 +9,7 @@ interface Props {
   isNew?: boolean;
 }
 
-const { videoId, title, description, publishedAt, thumbnail, episodeNumber, slug, isNew = false } = Astro.props;
+const { title, description, publishedAt, thumbnail, episodeNumber, slug, isNew = false } = Astro.props;
 
 const formattedDate = new Date(publishedAt).toLocaleDateString('id-ID', {
   day: 'numeric',
