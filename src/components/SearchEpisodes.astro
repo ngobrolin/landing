@@ -1,5 +1,6 @@
----
+--- 
 import { getEpisodes } from '../lib/episodes';
+import EpisodeCard from './EpisodeCard.astro';
 
 const episodes = getEpisodes();
 const searchData = episodes.map((ep, idx) => ({
@@ -42,7 +43,19 @@ const searchData = episodes.map((ep, idx) => ({
 </div>
 
 <div id="episodes-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-  <!-- Episodes will be rendered here by JavaScript -->
+  {searchData.map((episode, index) => (
+    <EpisodeCard 
+      title={episode.title}
+      description={episode.description}
+      publishedAt={episode.publishedAt}
+      thumbnail={episode.thumbnail}
+      episodeNumber={episode.episodeNumber}
+      slug={episode.slug}
+      isNew={episode.isNew}
+      loading={index < 4 ? "eager" : "lazy"}
+      fetchPriority={index === 0 ? "high" : undefined}
+    />
+  ))}
 </div>
 
 <div id="no-results" class="hidden text-center py-12">
@@ -68,6 +81,9 @@ const searchData = episodes.map((ep, idx) => ({
   const grid = document.getElementById('episodes-grid');
   const noResults = document.getElementById('no-results');
   const resultsCount = document.getElementById('search-results-count');
+  
+  // Store the initial content to restore it when search is cleared
+  const initialContent = grid.innerHTML;
 
   function formatDate(dateStr) {
     return new Date(dateStr).toLocaleDateString('id-ID', {
@@ -132,7 +148,9 @@ const searchData = episodes.map((ep, idx) => ({
     clearBtn.classList.toggle('hidden', !query);
     
     if (!query) {
-      renderEpisodes(searchData);
+      grid.innerHTML = initialContent;
+      grid.classList.remove('hidden');
+      noResults.classList.add('hidden');
       resultsCount.classList.add('hidden');
       return;
     }
@@ -151,11 +169,7 @@ const searchData = episodes.map((ep, idx) => ({
     handleSearch();
     input.focus();
   });
-
-  // Initial render
-  renderEpisodes(searchData);
 </script>
-
 <style>
   .line-clamp-2 {
     display: -webkit-box;

@@ -2,6 +2,7 @@
 import Layout from '../../layouts/Layout.astro';
 import YouTubeEmbed from '../../components/YouTubeEmbed.astro';
 import { getEpisodes, type Episode } from '../../lib/episodes';
+import { getImage } from 'astro:assets';
 
 export async function getStaticPaths() {
   const episodes = getEpisodes();
@@ -16,6 +17,13 @@ interface Props {
 }
 
 const { episode } = Astro.props;
+
+const optimizedThumbnail = await getImage({
+  src: `https://i.ytimg.com/vi/${episode.videoId}/hqdefault.jpg`,
+  width: 640,
+  height: 360,
+  format: 'webp',
+});
 
 const formattedDate = new Date(episode.publishedAt).toLocaleDateString('id-ID', {
   weekday: 'long',
@@ -34,6 +42,7 @@ const nextEpisode = currentIndex > 0 ? episodes[currentIndex - 1] : null;
   title={`${episode.title} - Ngobrolin WEB`}
   description={episode.description}
   image={episode.thumbnail}
+  preloadImage={optimizedThumbnail.src}
 >
   <article class="py-12">
     <div class="container mx-auto px-4">
@@ -50,7 +59,11 @@ const nextEpisode = currentIndex > 0 ? episodes[currentIndex - 1] : null;
         </nav>
 
         <!-- Video -->
-        <YouTubeEmbed videoId={episode.videoId} title={episode.title} />
+        <YouTubeEmbed 
+          videoId={episode.videoId} 
+          title={episode.title} 
+          backgroundImage={optimizedThumbnail.src}
+        />
 
         <!-- Episode Info -->
         <div class="mt-8">

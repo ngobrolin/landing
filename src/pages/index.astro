@@ -62,6 +62,8 @@ const totalEpisodes = episodes.length;
             episodeNumber={episode.episodeNumber}
             slug={episode.slug}
             isNew={index < 2}
+            loading={index < 2 ? "eager" : "lazy"}
+            fetchPriority={index === 0 ? "high" : undefined}
           />
         ))}
       </div>

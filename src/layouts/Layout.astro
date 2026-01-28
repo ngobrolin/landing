@@ -5,12 +5,14 @@ interface Props {
   title: string;
   description?: string;
   image?: string;
+  preloadImage?: string;
 }
 
 const { 
   title, 
   description = 'Video podcast seputar web development. Hadir setiap Selasa malam jam 20:00 WIB.',
-  image = '/og-image.svg'
+  image = '/og-image.svg',
+  preloadImage
 } = Astro.props;
 
 const site = Astro.site ?? new URL(Astro.url.origin);
@@ -23,6 +25,12 @@ const absoluteImage = image.startsWith('http') ? image : new URL(image, site).to
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- Performance -->
+    <link rel="preconnect" href="https://i.ytimg.com" />
+    <link rel="dns-prefetch" href="https://i.ytimg.com" />
+    {preloadImage && <link rel="preload" as="image" href={preloadImage} fetchpriority="high" />}
+    
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="generator" content={Astro.generator} />
     

@@ -1,4 +1,6 @@
 ---
+import { Image } from 'astro:assets';
+
 interface Props {
   title: string;
   description: string;
@@ -7,9 +9,11 @@ interface Props {
   episodeNumber: number;
   slug: string;
   isNew?: boolean;
+  loading?: "lazy" | "eager";
+  fetchPriority?: "high" | "low" | "auto";
 }
 
-const { title, description, publishedAt, thumbnail, episodeNumber, slug, isNew = false } = Astro.props;
+const { title, description, publishedAt, thumbnail, episodeNumber, slug, isNew = false, loading = "lazy", fetchPriority } = Astro.props;
 
 const formattedDate = new Date(publishedAt).toLocaleDateString('id-ID', {
   day: 'numeric',
@@ -28,11 +32,15 @@ const truncatedDescription = description.length > 120
   data-testid="episode-card"
 >
   <div class="relative aspect-video overflow-hidden">
-    <img 
+    <Image 
       src={thumbnail} 
       alt={title}
       class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-      loading="lazy"
+      loading={loading}
+      fetchpriority={fetchPriority}
+      width={640}
+      height={360}
+      format="webp"
     />
     {isNew && (
       <span class="absolute top-3 left-3 bg-primary text-white text-xs font-bold px-2 py-1 rounded">

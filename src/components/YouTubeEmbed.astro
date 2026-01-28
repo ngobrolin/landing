@@ -2,13 +2,18 @@
 interface Props {
   videoId: string;
   title: string;
+  backgroundImage?: string;
 }
 
-const { videoId, title } = Astro.props;
+const { videoId, title, backgroundImage } = Astro.props;
+
+const bgStyle = backgroundImage 
+  ? `background-image: url('${backgroundImage}');`
+  : `background-image: url('https://i.ytimg.com/vi/${videoId}/hqdefault.jpg');`;
 ---
 
 <div class="rounded-xl overflow-hidden">
-  <lite-youtube videoid={videoId} playlabel=" " style={`background-image: url('https://i.ytimg.com/vi/${videoId}/hqdefault.jpg');`}></lite-youtube>
+  <lite-youtube videoid={videoId} playlabel=" " style={bgStyle}></lite-youtube>
 </div>
 
 <script>
