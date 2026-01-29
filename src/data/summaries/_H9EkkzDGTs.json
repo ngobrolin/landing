@@ -1,0 +1,14 @@
+{
+  "videoId": "_H9EkkzDGTs",
+  "generatedAt": "2025-01-29T00:00:00Z",
+  "brief": "Episode ini membahas berbagai strategi upload file dalam pengembangan aplikasi web. Eka dan Ivan berdiskusi tentang trade-off dari setiap pendekatan mulai dari local storage, database blob, hingga cloud storage seperti S3, GCP, dan Azure.\n\nDiskusi dimulai dengan cerita horor pengalaman masa lalu ketika menyimpan file di server yang sama dengan aplikasi, masalah scalability, hingga solusi modern menggunakan cloud storage. Topik ini diajukan oleh Kaisa yang memberikan konteks diskusi yang lengkap.",
+  "keyPoints": [
+    "Local storage (menyimpan file di folder server) adalah solusi paling sederhana namun memiliki masalah scalability ketika aplikasi perlu horizontal scaling",
+    "Menyimpan file sebagai BLOB di database umumnya tidak direkomendasikan kecuali untuk use case sangat spesifik seperti avatar kecil yang jarang berubah",
+    "Cloud storage (S3, GCP Storage, Azure Blob) adalah best practice untuk aplikasi modern karena mendukung horizontal scaling dan CDN",
+    "Biaya cloud storage biasanya dihitung berdasarkan bandwidth transfer (transfer in/out) bukan jumlah file atau storage size",
+    "MinIO adalah alternatif open source yang kompatibel dengan S3 untuk self-hosted atau development environment",
+    "Tools modern seperti Docker, Docker Compose, dan Local by Flywheel mempermudah development workflow",
+    "Pemilihan strategi harus berdasarkan analisis trade-off antara performa, keamanan, biaya, dan user experience"
+  ]
+}
