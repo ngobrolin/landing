@@ -13,6 +13,8 @@ import {
   generateBreadcrumbSchema,
   generatePodcastEpisodeSchema 
 } from '../../lib/seo';
+import { getRelatedEpisodes } from '../../lib/related';
+import EpisodeCard from '../../components/EpisodeCard.astro';
 
 export async function getStaticPaths() {
   const episodes = getEpisodes();
@@ -56,6 +58,8 @@ const siteUrl = Astro.site?.toString().replace(/\/$/, '') || 'https://ngobrolin.
 const videoSchema = generateVideoSchema(episode, summary, transcript, siteUrl);
 const breadcrumbSchema = generateBreadcrumbSchema(episode, siteUrl);
 const podcastSchema = generatePodcastEpisodeSchema(episode, summary, siteUrl);
+
+const relatedEpisodes = getRelatedEpisodes(episode, episodes, 3);
 ---
 
 <Layout 
@@ -114,6 +118,25 @@ const podcastSchema = generatePodcastEpisodeSchema(episode, summary, siteUrl);
           <!-- Transcript -->
           <Transcript videoId={episode.videoId} />
         </div>
+
+        <!-- Related Episodes -->
+        {relatedEpisodes.length > 0 && (
+          <section class="mt-12 pt-8 border-t border-dark-border">
+            <h2 class="text-xl font-bold text-white mb-6">Episode Terkait</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+              {relatedEpisodes.map((ep) => (
+                <EpisodeCard
+                  title={ep.title}
+                  description={ep.description}
+                  publishedAt={ep.publishedAt}
+                  thumbnail={ep.thumbnail}
+                  episodeNumber={ep.episodeNumber}
+                  slug={ep.slug}
+                />
+              ))}
+            </div>
+          </section>
+        )}
 
         <!-- Navigation -->
         <nav class="mt-12 pt-8 border-t border-dark-border">
