@@ -30,7 +30,7 @@ jobs:
       - name: Check for changes
         id: changes
         run: |
-          if git diff --quiet src/data/episodes.json; then
+          if git diff --quiet src/data/episodes.json src/data/tags.json; then
             echo "changed=false" >> $GITHUB_OUTPUT
           else
             echo "changed=true" >> $GITHUB_OUTPUT
@@ -41,6 +41,6 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add src/data/episodes.json
-          git commit -m "Update episodes from YouTube playlist"
+          git add src/data/episodes.json src/data/tags.json
+          git commit -m "Update episodes and tags from YouTube playlist"
           git push

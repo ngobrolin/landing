@@ -106,12 +106,33 @@ async function main() {
     const outputPath = new URL('../src/data/episodes.json', import.meta.url);
     const fs = await import('fs');
     
+    // Check for new episodes
+    let existingVideoIds = new Set<string>();
+    try {
+      const existing = JSON.parse(fs.readFileSync(outputPath, 'utf-8')) as Episode[];
+      existingVideoIds = new Set(existing.map(e => e.videoId));
+    } catch {
+      // No existing file
+    }
+    
+    const newEpisodes = episodes.filter(e => !existingVideoIds.has(e.videoId));
+    
     fs.writeFileSync(
       outputPath, 
       JSON.stringify(episodes, null, 2)
     );
     
     console.log(`✓ Saved ${episodes.length} episodes to src/data/episodes.json`);
+    
+    // Auto-run tag extraction if there are new episodes
+    if (newEpisodes.length > 0) {
+      console.log(`\n📌 Found ${newEpisodes.length} new episode(s), extracting tags...`);
+      const { execSync } = await import('child_process');
+      execSync('npx tsx scripts/extract-tags.ts', { 
+        stdio: 'inherit',
+        cwd: new URL('..', import.meta.url).pathname
+      });
+    }
   } catch (error) {
     console.error('Error fetching playlist:', error);
     process.exit(1);
