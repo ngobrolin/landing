@@ -65,7 +65,7 @@ const optimizedLcpImage = await getImage({
       
       <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
         {recentEpisodes.map((episode, index) => (
-          <EpisodeCard 
+          <EpisodeCard
             title={episode.title}
             description={episode.description}
             publishedAt={episode.publishedAt}
@@ -75,6 +75,7 @@ const optimizedLcpImage = await getImage({
             isNew={index < 2}
             loading={index < 3 ? "eager" : "lazy"}
             fetchPriority={index === 0 ? "high" : undefined}
+            brief={episode.brief}
           />
         ))}
       </div>

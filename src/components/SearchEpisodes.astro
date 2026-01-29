@@ -6,6 +6,7 @@ const episodes = getEpisodes();
 const searchData = episodes.map((ep, idx) => ({
   title: ep.title,
   description: ep.description,
+  brief: ep.brief,
   slug: ep.slug,
   episodeNumber: ep.episodeNumber,
   thumbnail: ep.thumbnail,
@@ -44,7 +45,7 @@ const searchData = episodes.map((ep, idx) => ({
 
 <div id="episodes-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
   {searchData.map((episode, index) => (
-    <EpisodeCard 
+    <EpisodeCard
       title={episode.title}
       description={episode.description}
       publishedAt={episode.publishedAt}
@@ -54,6 +55,7 @@ const searchData = episodes.map((ep, idx) => ({
       isNew={episode.isNew}
       loading={index < 4 ? "eager" : "lazy"}
       fetchPriority={index === 0 ? "high" : undefined}
+      brief={episode.brief}
     />
   ))}
 </div>
@@ -71,7 +73,7 @@ const searchData = episodes.map((ep, idx) => ({
   const searchData = JSON.parse(document.getElementById('episodes-data')?.textContent || '[]');
 
   const fuse = new Fuse(searchData, {
-    keys: ['title', 'description'],
+    keys: ['title', 'description', 'brief'],
     threshold: 0.4,
     includeScore: true
   });
@@ -111,15 +113,17 @@ const searchData = episodes.map((ep, idx) => ({
     noResults.classList.add('hidden');
 
     const truncate = (text, len) => text.length > len ? text.substring(0, len) + '...' : text;
-    
-    grid.innerHTML = episodes.map((ep) => `
-      <a 
+
+    grid.innerHTML = episodes.map((ep) => {
+      const displayDesc = ep.brief || ep.description;
+      return `
+      <a
         href="/episodes/${escapeHtml(ep.slug)}"
         class="group block bg-[#1a1a1a] border border-[#2a2a2a] rounded-xl overflow-hidden hover:border-[#6366f1]/50 transition-all duration-300 hover:shadow-lg hover:shadow-[#6366f1]/10"
       >
         <div class="relative aspect-video overflow-hidden">
-          <img 
-            src="${escapeHtml(ep.thumbnail)}" 
+          <img
+            src="${escapeHtml(ep.thumbnail)}"
             alt="${escapeHtml(ep.title)}"
             class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
             loading="lazy"
@@ -135,11 +139,12 @@ const searchData = episodes.map((ep, idx) => ({
             ${escapeHtml(ep.title)}
           </h3>
           <p class="text-gray-400 text-sm line-clamp-2">
-            ${escapeHtml(truncate(ep.description, 120))}
+            ${escapeHtml(truncate(displayDesc, 120))}
           </p>
         </div>
       </a>
-    `).join('');
+    `;
+    }).join('');
   }
 
   function handleSearch() {
