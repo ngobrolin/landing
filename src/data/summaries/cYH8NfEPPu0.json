@@ -1,0 +1,14 @@
+{
+  "videoId": "cYH8NfEPPu0",
+  "generatedAt": "2026-01-29T07:45:00Z",
+  "brief": "Episode ini membahas hasil Stack Overflow Developer Survey 2025 yang baru diluncurkan. Para host mendiskusikan berbagai temuan menarik dari survey tersebut, termasuk demografi responden, tingkat pendidikan, dan tren penggunaan AI dalam pengembangan software. Survey ini melibatkan hampir 50.000 responden dari seluruh dunia.\n\nDiskusi juga menyentuh dampak AI terhadap Stack Overflow sebagai platform dan bagaimana mereka beradaptasi dengan menyediakan produk enterprise seperti knowledge base internal dan AI agent. Para host juga membahas berbagai survey developer lainnya seperti State of JavaScript, State of CSS, dan survey dari JetBrains, serta keinginan untuk membuat survey lokal Indonesia di masa depan.",
+  "keyPoints": [
+    "Stack Overflow Developer Survey 2025 mendapat hampir 50.000 responden dari seluruh dunia",
+    "Stack Overflow menambahkan segmen AI dalam survey tahun ini mengikuti tren industri",
+    "Traffic Stack Overflow menurun signifikan karena developer sekarang lebih sering bertanya ke AI",
+    "Stack Overflow beradaptasi dengan menyediakan produk enterprise: knowledge base dan AI agent untuk tim",
+    "Sebagian besar responden memiliki pendidikan S1 (Bachelor's degree), namun ada juga professional developer dengan pendidikan dasar",
+    "Banyak survey developer tahunan lainnya: State of JavaScript, State of CSS, State of HTML, dan survey per bahasa pemrograman",
+    "Ada rencana untuk membuat survey developer lokal Indonesia, namun belum terwujud karena keterbatasan waktu"
+  ]
+}

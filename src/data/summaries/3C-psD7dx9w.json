@@ -1,0 +1,14 @@
+{
+  "videoId": "3C-psD7dx9w",
+  "generatedAt": "2026-01-29T07:35:00Z",
+  "brief": "Episode ini membahas secara mendalam tentang JWT (JSON Web Token), mulai dari cara pengucapan yang benar menurut spesifikasi resmi yaitu \"jot\", hingga struktur dan cara kerjanya. Para host menjelaskan komponen JWT yang terdiri dari header (hijau), payload (putih), dan signature (biru/ungu), serta bagaimana data di dalamnya hanya di-encode dengan Base64, bukan di-encrypt.\n\nDiskusi juga menyentuh pentingnya membaca RFC dan spesifikasi teknis, dengan contoh kasus menarik tentang perbedaan perilaku redirect 301 di berbagai browser yang ternyata dijelaskan di RFC. Selain itu, dibahas juga penggunaan JWT dalam autentikasi, perbedaan dengan session-based authentication, serta best practices dalam implementasinya.",
+  "keyPoints": [
+    "JWT secara resmi diucapkan \"jot\" menurut spesifikasi di papernya, bukan \"jay-double-u-tee\"",
+    "JWT terdiri dari 3 bagian: header (algoritma), payload (data/claims), dan signature (untuk verifikasi)",
+    "Data di JWT hanya di-encode dengan Base64, bukan di-encrypt, sehingga bisa dibaca siapa saja",
+    "Membaca RFC dan spesifikasi teknis penting untuk memahami behavior yang tidak dijelaskan di tutorial biasa",
+    "Contoh kasus: redirect 301 di-cache permanent oleh browser sesuai RFC, yang bisa menyebabkan masalah jika tidak dipahami",
+    "JWT debugger di jwt.io dapat digunakan untuk melihat dan memverifikasi isi token",
+    "Pentingnya memahami kapan menggunakan JWT vs session-based authentication sesuai kebutuhan aplikasi"
+  ]
+}

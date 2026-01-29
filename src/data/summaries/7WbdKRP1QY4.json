@@ -1,0 +1,14 @@
+{
+  "videoId": "7WbdKRP1QY4",
+  "generatedAt": "2026-01-29T07:40:00Z",
+  "brief": "Episode ini membahas tentang tools atau alat bantu modern dalam pengembangan web, khususnya build tools dan test runners. Para host mendiskusikan evolusi dari tools tradisional seperti Gulp, Grunt, dan Webpack ke tools modern seperti Vite, esbuild, dan Vitest yang menawarkan performa lebih cepat.\n\nDiskusi mencakup perbandingan antara berbagai build tools dan test runners, mulai dari sejarah Jasmine, Mocha, Jest hingga Vitest. Dibahas juga bagaimana tools modern memanfaatkan native ES modules dan teknologi baru untuk meningkatkan developer experience dengan build time yang jauh lebih cepat dibandingkan pendahulunya.",
+  "keyPoints": [
+    "Evolusi build tools: dari Gulp/Grunt (task runner) ke Webpack hingga Vite dan esbuild yang lebih modern dan cepat",
+    "Vitest hadir sebagai alternatif modern untuk Jest dengan performa lebih baik karena tidak bloated",
+    "Sejarah test runner: Jasmine (browser only) → Jest (by React, based on Jasmine) → Vitest",
+    "Mocha adalah test runner yang perlu dipasangkan dengan Chai untuk assertion dan Istanbul untuk coverage",
+    "Webpack 5 masih baik-baik saja digunakan, tidak semua proyek perlu migrasi ke tools terbaru",
+    "Tools modern memanfaatkan native ES modules sehingga tidak perlu bundling saat development",
+    "Pentingnya memilih tools yang sesuai dengan kebutuhan proyek, bukan sekadar mengikuti tren"
+  ]
+}

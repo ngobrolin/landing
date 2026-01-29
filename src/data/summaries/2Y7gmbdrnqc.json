@@ -1,0 +1,14 @@
+{
+  "videoId": "2Y7gmbdrnqc",
+  "generatedAt": "2026-01-29T07:30:00Z",
+  "brief": "Episode ini membahas pentingnya dokumentasi dalam pengembangan software. Para host berdiskusi tentang berbagai jenis dokumentasi, mulai dari dokumentasi teknis untuk developer hingga dokumentasi untuk onboarding dan hand-over project. Mereka juga membahas tantangan yang dihadapi developer dalam menulis dokumentasi dan bagaimana AI dapat membantu proses ini.\n\nDiskusi mencakup best practices untuk membuat dokumentasi yang baik, termasuk pentingnya memasukkan dokumentasi sebagai bagian dari definition of done dalam sprint. Contoh-contoh dokumentasi bagus seperti Astro dan GitLab juga dibahas, serta peran technical writer sebagai profesi khusus dalam membuat dokumentasi berkualitas.",
+  "keyPoints": [
+    "Dokumentasi sering diabaikan oleh developer karena dianggap tugas yang membosankan, padahal sangat penting untuk hand-over dan onboarding",
+    "AI dapat membantu menulis dokumentasi, tetapi tetap perlu dicek karena bisa menghasilkan informasi yang tidak akurat (halusinasi)",
+    "Perusahaan remote/distributed seperti GitLab cenderung memiliki dokumentasi yang lebih baik karena budaya menulis yang kuat",
+    "Dokumentasi sebaiknya dimasukkan ke dalam task list dan definition of done, bukan dikerjakan di akhir project",
+    "Engineering documentation minimal harus mencakup: setup lokal, tech stack, credential management, dan kontak untuk akses",
+    "Compliance seperti SOC 2 mewajibkan dokumentasi yang lengkap, terutama untuk enterprise client",
+    "Technical writer adalah profesi khusus yang fokus pada pembuatan dokumentasi berkualitas tinggi"
+  ]
+}

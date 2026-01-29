@@ -1,0 +1,14 @@
+{
+  "videoId": "Viq69Sv_MrI",
+  "generatedAt": "2026-01-29T08:00:00Z",
+  "brief": "Episode ini membahas konsep Dependency Injection (DI), sebuah design pattern fundamental dalam software development. Para host menjelaskan apa itu Dependency Injection dengan contoh praktis menggunakan JavaScript, membandingkan kode tanpa DI dan dengan DI untuk menunjukkan perbedaan dan manfaatnya.\n\nDiskusi mencakup konsep terkait seperti Inversion of Control dan prinsip SOLID (khususnya Dependency Inversion). Contoh yang digunakan adalah analogi mobil dan mesin (engine), di mana dengan DI, kelas Car tidak perlu membuat instance Engine sendiri di constructor, melainkan menerima engine sebagai parameter yang di-inject dari luar. Episode ini juga disponsori oleh DomaiNesia dengan promo code untuk cloud VPS.",
+  "keyPoints": [
+    "Dependency Injection adalah teknik di mana dependencies di-inject dari luar, bukan dibuat di dalam class/function",
+    "Tanpa DI: constructor membuat instance dependency sendiri (new Engine()), dengan DI: engine diterima sebagai parameter",
+    "DI merupakan implementasi dari prinsip Inversion of Control dan Dependency Inversion (bagian dari SOLID)",
+    "Manfaat DI: kode lebih fleksibel, mudah di-test (bisa inject mock), dan loosely coupled",
+    "Artikel referensi dari Smashing Magazine (2020) menjelaskan DI dalam perspektif web development",
+    "Konsep DI relevan untuk interview dan penting dipahami untuk arsitektur aplikasi yang baik",
+    "Kolaborasi dengan DomaiNesia: promo code NGOBROLINVPSDN untuk diskon 50% cloud VPS"
+  ]
+}
