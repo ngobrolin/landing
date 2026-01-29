@@ -1,0 +1,14 @@
+{
+  "videoId": "lPTtyv8Hzgs",
+  "generatedAt": "2026-01-29T10:00:00Z",
+  "brief": "Episode 158 ini membahas tentang Gemini 3, model AI terbaru dari Google yang dirilis beberapa minggu sebelumnya. Pembawa acara mendiskusikan bagaimana Gemini 3 mengalahkan semua model AI lain di berbagai benchmark, termasuk benchmark unik seperti 'Vending Bench' yang mensimulasikan bisnis vending machine selama setahun.\n\nDiskusi juga mencakup berbagai produk AI Google lainnya seperti AI Studio, Notebook LM, CodeWiki yang bisa generate dokumentasi dari repository, serta Google AI Mode untuk pencarian. Episode ini juga menyinggung tentang kolaborasi dengan DomaiNesia dan rencana kunjungan ke kantor mereka di Jogja, serta penggalangan dana untuk korban bencana di Sumatera melalui GDG Medan.",
+  "keyPoints": [
+    "Gemini 3 mengalahkan semua model AI lain termasuk Gemini 2.5, Claude, dan OpenAI di berbagai benchmark",
+    "Benchmark 'Vending Bench' menunjukkan kemampuan reasoning Gemini 3 dalam simulasi bisnis selama setahun",
+    "Image generation Gemini 3 sudah bisa membuat infografis dengan teks yang akurat",
+    "CodeWiki adalah tool dari Google yang bisa generate Wiki/dokumentasi lengkap dari repository kode",
+    "Persaingan AI semakin ketat antara Google, Anthropic, dan OpenAI yang terus merilis model baru",
+    "Kolaborasi dengan DomaiNesia menawarkan promo hosting dengan kode 'ngobrolinweb'",
+    "GDG Medan menggalang dana untuk korban bencana di Sumatera melalui donasi.gdgmedan.com"
+  ]
+}
