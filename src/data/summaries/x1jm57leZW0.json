@@ -1,0 +1,13 @@
+{
+  "videoId": "x1jm57leZW0",
+  "generatedAt": "2026-01-29T01:32:56Z",
+  "brief": "Episode ini dibuka dengan obrolan soal insiden layanan cloud (AWS) yang sempat tumbang dan dampaknya ke produktivitas. Mereka bahas ketergantungan pada tools berbasis cloud, kapan on‑prem atau server lokal dibutuhkan, serta contoh narasi \"cloud exit\" ala DHH. Disinggung juga sponsor Domainesia, termasuk opsi hosting/VPS dan promo code yang mereka bagikan.\n\nBagian utama kemudian masuk ke topik CSS—khususnya satuan (units) dan implikasinya terhadap layout responsif dan aksesibilitas. Pembahasan mencakup rem/em vs px, viewport units (termasuk varian small/large/dynamic), container queries, custom properties, hingga pentingnya meta viewport agar tampilan mobile tidak \"terkecil\" seperti layout desktop.",
+  "keyPoints": [
+    "Insiden AWS jadi pemicu diskusi soal risiko ketergantungan pada layanan cloud dan pentingnya fallback/offline mindset",
+    "Perbandingan serverless, VPS, dan on‑prem; konteks \"cloud exit\" serta kapan kontrol infrastruktur jadi krusial",
+    "Sponsor Domainesia: hosting/VPS dengan promo code khusus untuk pemirsa Ngobrolin WEB",
+    "Perbedaan rem/em/px dan dampaknya pada aksesibilitas (zoom dan ukuran teks)",
+    "Viewport units modern (svh/lvh/dvh) untuk mengatasi masalah toolbar mobile dan 100vh",
+    "Peran meta viewport dan custom properties dalam memastikan layout responsif bekerja konsisten"
+  ]
+}

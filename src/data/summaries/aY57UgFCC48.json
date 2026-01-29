@@ -1,0 +1,14 @@
+{
+  "videoId": "aY57UgFCC48",
+  "generatedAt": "2025-01-29T00:00:00Z",
+  "brief": "Episode spesial \"Kisah-kisah Diiramakan\" ini menghadirkan Mas Zain yang berbagi cerita horor pengalamannya sebagai engineer. Dua insiden utama dibahas: pertama tentang MIME type error yang menyebabkan JavaScript tidak dieksekusi sama sekali, dan kedua tentang masalah intermiten pada asset loading akibat konfigurasi double CDN.\n\nDiskusi juga mencakup pentingnya dokumentasi sebelum melakukan perubahan konfigurasi, serta pembelajaran dari insiden yang berlangsung hampir setahun sebelum akar masalah ditemukan.",
+  "keyPoints": [
+    "Silent error adalah salah satu error yang paling sulit didiagnosa karena tidak menampilkan pesan error di console",
+    "MIME type salah (text/plain instead of application/javascript) membuat browser menolak untuk mengeksekusi JavaScript tanpa ada pesan error",
+    "Setelah upgrade CI/CD, konfigurasi default server mungkin berubah dan perlu diset secara eksplisit",
+    "Double CDN (Cloudflare di depan CloudFront) menyebabkan cache invalidation issues dan race conditions",
+    "Splitting bundle terlalu banyak meningkatkan frekuensi kejadian error intermiten",
+    "Screenshot atau dokumentasi sebelum melakukan perubahan konfigurasi sangat krusial untuk recovery",
+    "Cache adalah pedang bermata dua - mempercepat performa tapi juga menjadi sumber masalah kompleks"
+  ]
+}

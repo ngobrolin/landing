@@ -1,0 +1,14 @@
+{
+  "videoId": "puCZUlxrSpg",
+  "generatedAt": "2025-01-29T00:00:00Z",
+  "brief": "Episode ini membahas Web AI - teknologi AI yang berjalan langsung di browser. Diskusi dipicu oleh Web AI Summit 2025 yang diselenggarakan Google. Eka, Ivan, dan Bahayu membahas perbedaan antara Web AI (on-device) dengan Cloud AI, serta keuntungan dan tantangannya.\n\nEpisode juga menyinggung pengalaman IDSW (Indonesia Developer Summit), cerita horor tentang \"John Titor\" prank, dan pembahasan teknis tentang TensorFlow.js, MediaPipe, dan cara kerja model AI di browser.",
+  "keyPoints": [
+    "Web AI adalah teknologi AI yang berjalan langsung di browser tanpa perlu memanggil API eksternal",
+    "Model AI yang besar perlu di-download terlebih dahulu sebelum bisa digunakan di browser",
+    "Google Web AI API menghubungkan ke layanan eksternal secara transparan, namun ada juga opsi model yang benar-benar berjalan lokal",
+    "Web AI Summit 2025 awalnya diselenggarakan secara internal oleh Google untuk mencari use case yang tepat",
+    "MediaPipe adalah open-source library Google untuk machine learning yang dapat berjalan di browser dengan model yang didownload dari server",
+    "Transformers.js memungkinkan model Python berjalan di browser melalui WebAssembly dan ONNX runtime",
+    "Perbedaan utama: Cloud AI (API wrapper ke layanan eksternal) vs Web AI (model berjalan di device/browser)"
+  ]
+}
