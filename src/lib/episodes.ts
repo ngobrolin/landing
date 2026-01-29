@@ -8,6 +8,7 @@ export interface Episode {
   thumbnail: string;
   slug: string;
   episodeNumber: number;
+  brief?: string;
 }
 
 export function slugify(text: string): string {
@@ -17,6 +18,20 @@ export function slugify(text: string): string {
     .replace(/\s+/g, '-')
     .replace(/-+/g, '-')
     .trim();
+}
+
+interface Summary {
+  brief: string;
+  keyPoints: string[];
+}
+
+// Cache summaries at module load time for performance
+const _summariesCache = import.meta.glob('../data/summaries/*.json', { eager: true });
+
+export function getBrief(videoId: string): string | undefined {
+  const key = `../data/summaries/${videoId}.json`;
+  const module = _summariesCache[key] as { default: Summary } | undefined;
+  return module?.default.brief;
 }
 
 let _cache: Episode[] | null = null;
@@ -32,6 +47,7 @@ export function getEpisodes(): Episode[] {
         ? `https://i.ytimg.com/vi_webp/${ep.videoId}/hqdefault.webp`
         : ep.thumbnail,
       episodeNumber: 0, // placeholder, set after sorting
+      brief: getBrief(ep.videoId),
     }))
     .sort((a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime())
     .map((ep, idx, arr) => ({

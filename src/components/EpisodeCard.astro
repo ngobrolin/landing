@@ -11,9 +11,12 @@ interface Props {
   isNew?: boolean;
   loading?: "lazy" | "eager";
   fetchPriority?: "high" | "low" | "auto";
+  brief?: string;
 }
 
-const { title, description, publishedAt, thumbnail, episodeNumber, slug, isNew = false, loading = "lazy", fetchPriority } = Astro.props;
+const { title, description, publishedAt, thumbnail, episodeNumber, slug, isNew = false, loading = "lazy", fetchPriority, brief } = Astro.props;
+
+const displayDescription = brief || description;
 
 const formattedDate = new Date(publishedAt).toLocaleDateString('id-ID', {
   day: 'numeric',
@@ -21,9 +24,9 @@ const formattedDate = new Date(publishedAt).toLocaleDateString('id-ID', {
   year: 'numeric'
 });
 
-const truncatedDescription = description.length > 120 
-  ? description.substring(0, 120) + '...' 
-  : description;
+const truncatedDescription = displayDescription.length > 120
+  ? displayDescription.substring(0, 120) + '...'
+  : displayDescription;
 ---
 
 <a 

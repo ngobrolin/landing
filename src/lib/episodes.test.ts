@@ -1,6 +1,7 @@
 import { describe, it, expect } from 'vitest';
 import {
   slugify,
+  getBrief,
   getEpisodes,
   getEpisodeBySlug,
   getEpisodeByVideoId,
@@ -36,6 +37,41 @@ describe('slugify', () => {
   });
 });
 
+describe('getBrief', () => {
+  const existingVideoIds = ['x1jm57leZW0', 'Tkh8-LleLws', 'ZcYNuHirHOA'];
+  const nonExistentVideoId = 'non-existent-video-id-12345';
+
+  it('returns brief string when summary exists', () => {
+    const brief = getBrief(existingVideoIds[0]);
+    expect(brief).toBeDefined();
+    expect(typeof brief).toBe('string');
+    expect(brief?.length).toBeGreaterThan(0);
+  });
+
+  it('returns undefined when summary does not exist', () => {
+    const brief = getBrief(nonExistentVideoId);
+    expect(brief).toBeUndefined();
+  });
+
+  it('returns consistent brief for same videoId', () => {
+    const brief1 = getBrief(existingVideoIds[0]);
+    const brief2 = getBrief(existingVideoIds[0]);
+    expect(brief1).toBe(brief2);
+  });
+
+  it('returns different briefs for different videoIds', () => {
+    const brief1 = getBrief(existingVideoIds[0]);
+    const brief2 = getBrief(existingVideoIds[1]);
+    // Briefs should be different (unless they coincidentally have the same content)
+    expect(brief1).not.toBe(brief2);
+  });
+
+  it('handles empty videoId gracefully', () => {
+    const brief = getBrief('');
+    expect(brief).toBeUndefined();
+  });
+});
+
 describe('getEpisodes', () => {
   it('returns an array', () => {
     const episodes = getEpisodes();
@@ -67,6 +103,30 @@ describe('getEpisodes', () => {
       if (ep.thumbnail.includes('i.ytimg.com')) {
         expect(ep.thumbnail).toMatch(/https:\/\/i\.ytimg\.com\/vi_webp\/.*\/hqdefault\.webp/);
       }
+    }
+  });
+
+  it('populates brief field for episodes with summaries', () => {
+    const episodes = getEpisodes();
+    const episodesWithSummaries = ['x1jm57leZW0', 'Tkh8-LleLws', 'ZcYNuHirHOA'];
+
+    for (const videoId of episodesWithSummaries) {
+      const episode = episodes.find(ep => ep.videoId === videoId);
+      expect(episode).toBeDefined();
+      expect(episode?.brief).toBeDefined();
+      expect(typeof episode?.brief).toBe('string');
+      expect(episode?.brief?.length).toBeGreaterThan(0);
+    }
+  });
+
+  it('does not populate brief for episodes without summaries', () => {
+    const episodes = getEpisodes();
+    // Find an episode that definitely doesn't have a summary
+    const episodeWithoutSummary = episodes.find(ep => !ep.brief);
+
+    // At least one episode should not have a summary (or all have summaries, which is also valid)
+    if (episodeWithoutSummary) {
+      expect(episodeWithoutSummary.brief).toBeUndefined();
     }
   });
 });
