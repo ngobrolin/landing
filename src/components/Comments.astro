@@ -21,21 +21,21 @@ interface Props {}
     }
 
     // Inject script into the comments wrapper
-    const commentsWrapper = document.getElementById('comments-wrapper');
+    const commentsWrapper = document.getElementById("comments-wrapper");
     if (!commentsWrapper) {
       return;
     }
 
-    const utterancesScript = document.createElement('script');
-    utterancesScript.src = 'https://utteranc.es/client.js';
+    const utterancesScript = document.createElement("script");
+    utterancesScript.src = "https://utteranc.es/client.js";
     utterancesScript.async = true;
-    utterancesScript.crossOrigin = 'anonymous';
+    utterancesScript.crossOrigin = "anonymous";
 
     // Utterances configuration
-    utterancesScript.setAttribute('repo', 'ngobrolin/landing');
-    utterancesScript.setAttribute('issue-term', 'pathname');
-    utterancesScript.setAttribute('label', 'comment');
-    utterancesScript.setAttribute('theme', 'preferred-color-scheme');
+    utterancesScript.setAttribute("repo", "ngobrolin/landing");
+    utterancesScript.setAttribute("issue-term", "title");
+    utterancesScript.setAttribute("label", "comment");
+    utterancesScript.setAttribute("theme", "preferred-color-scheme");
 
     commentsWrapper.appendChild(utterancesScript);
   }
