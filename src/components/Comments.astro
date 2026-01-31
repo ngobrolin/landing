@@ -12,28 +12,34 @@ interface Props {}
 </section>
 
 <script>
-  // Check if utterances is already loaded
-  if (document.querySelector('script[src="https://utteranc.es/client.js"]')) {
-    return;
-  }
-
   // Load utterances script client-side
   // This script runs after the page loads and injects the comment widget
-  const utterancesScript = document.createElement('script');
-  utterancesScript.src = 'https://utteranc.es/client.js';
-  utterancesScript.async = true;
-  utterancesScript.crossOrigin = 'anonymous';
+  function loadUtterances() {
+    // Check if utterances is already loaded
+    if (document.querySelector('script[src="https://utteranc.es/client.js"]')) {
+      return;
+    }
 
-  // Utterances configuration
-  utterancesScript.setAttribute('repo', 'ngobrolin/landing');
-  utterancesScript.setAttribute('issue-term', 'pathname');
-  utterancesScript.setAttribute('label', 'comment');
-  utterancesScript.setAttribute('theme', 'preferred-color-scheme');
+    // Inject script into the comments wrapper
+    const commentsWrapper = document.getElementById('comments-wrapper');
+    if (!commentsWrapper) {
+      return;
+    }
 
-  // Inject script into the comments wrapper
-  const commentsWrapper = document.getElementById('comments-wrapper');
-  if (!commentsWrapper) {
-    return;
+    const utterancesScript = document.createElement('script');
+    utterancesScript.src = 'https://utteranc.es/client.js';
+    utterancesScript.async = true;
+    utterancesScript.crossOrigin = 'anonymous';
+
+    // Utterances configuration
+    utterancesScript.setAttribute('repo', 'ngobrolin/landing');
+    utterancesScript.setAttribute('issue-term', 'pathname');
+    utterancesScript.setAttribute('label', 'comment');
+    utterancesScript.setAttribute('theme', 'preferred-color-scheme');
+
+    commentsWrapper.appendChild(utterancesScript);
   }
-  commentsWrapper.appendChild(utterancesScript);
+
+  // Load when DOM is ready
+  loadUtterances();
 </script>
