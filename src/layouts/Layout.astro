@@ -1,6 +1,6 @@
 ---
-import '../styles/global.css';
-import { ViewTransitions } from 'astro:transitions';
+import "../styles/global.css";
+import { ViewTransitions } from "astro:transitions";
 
 interface Props {
   title: string;
@@ -9,16 +9,18 @@ interface Props {
   preloadImage?: string;
 }
 
-const { 
-  title, 
-  description = 'Video podcast seputar web development. Hadir setiap Selasa malam jam 20:00 WIB.',
-  image = '/og-image.png',
-  preloadImage
+const {
+  title,
+  description = "Video podcast seputar web development. Hadir setiap Selasa malam jam 20:00 WIB.",
+  image = "/og-image.png",
+  preloadImage,
 } = Astro.props;
 
 const site = Astro.site ?? new URL(Astro.url.origin);
 const canonicalURL = new URL(Astro.url.pathname, site);
-const absoluteImage = image.startsWith('http') ? image : new URL(image, site).toString();
+const absoluteImage = image.startsWith("http")
+  ? image
+  : new URL(image, site).toString();
 ---
 
 <!doctype html>
@@ -26,45 +28,63 @@ const absoluteImage = image.startsWith('http') ? image : new URL(image, site).to
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    
+
     <!-- Performance -->
-    {preloadImage && <link rel="preload" as="image" href={preloadImage} fetchpriority="high" />}
-    
+    {
+      preloadImage && (
+        <link
+          rel="preload"
+          as="image"
+          href={preloadImage}
+          fetchpriority="high"
+        />
+      )
+    }
+
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="generator" content={Astro.generator} />
 
     <!-- View Transitions -->
     <ViewTransitions />
-    
+
     <!-- SEO -->
     <title>{title}</title>
     <meta name="description" content={description} />
     <link rel="canonical" href={canonicalURL} />
-    
+
     <!-- Open Graph -->
     <meta property="og:type" content="website" />
     <meta property="og:url" content={canonicalURL} />
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
     <meta property="og:image" content={absoluteImage} />
-    
+
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content={title} />
     <meta name="twitter:description" content={description} />
     <meta name="twitter:image" content={absoluteImage} />
-    
+
     <!-- RSS -->
-    <link rel="alternate" type="application/rss+xml" title="Ngobrolin WEB RSS Feed" href="/rss.xml" />
-    
+    <link
+      rel="alternate"
+      type="application/rss+xml"
+      title="Ngobrolin WEB RSS Feed"
+      href="/rss.xml"
+    />
+
     <!-- Additional head content -->
     <slot name="head" />
 
     <!-- View Transitions Custom Duration -->
     <style is:global>
       @keyframes astroFade {
-        from { opacity: 0; }
-        to { opacity: 1; }
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
       }
       ::view-transition-old(root),
       ::view-transition-new(root) {
@@ -74,19 +94,35 @@ const absoluteImage = image.startsWith('http') ? image : new URL(image, site).to
   </head>
   <body class="min-h-screen flex flex-col">
     <header class="border-b border-dark-border">
-      <nav class="container mx-auto px-4 py-4 flex items-center justify-between">
-        <a href="/" class="text-xl font-bold text-white hover:text-primary-light transition">
+      <nav
+        class="container mx-auto px-4 py-4 flex items-center justify-between"
+      >
+        <a
+          href="/"
+          class="text-xl font-bold text-white hover:text-primary-light transition"
+        >
           Ngobrolin WEB
         </a>
-        
+
         <!-- Desktop Navigation -->
         <div class="hidden md:flex items-center gap-6">
-          <a href="/episodes" class="text-gray-300 hover:text-white transition">Episode</a>
-          <a href="/partners" class="text-gray-300 hover:text-white transition">Partner</a>
-          <a href="https://github.com/orgs/ngobrolin/discussions" target="_blank" rel="noopener noreferrer" class="text-gray-300 hover:text-white transition">Diskusi</a>
-          <a href="/about" class="text-gray-300 hover:text-white transition">Tentang</a>
-          <a 
-            href="/subscribe" 
+          <a href="/episodes" class="text-gray-300 hover:text-white transition"
+            >Episode</a
+          >
+          <a href="/partners" class="text-gray-300 hover:text-white transition"
+            >Partner</a
+          >
+          <a
+            href="https://github.com/orgs/ngobrolin/discussions"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="text-gray-300 hover:text-white transition">Diskusi</a
+          >
+          <a href="/about" class="text-gray-300 hover:text-white transition"
+            >Tentang</a
+          >
+          <a
+            href="/subscribe"
             class="bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded-lg text-sm font-medium transition"
           >
             Langganan
@@ -94,31 +130,66 @@ const absoluteImage = image.startsWith('http') ? image : new URL(image, site).to
         </div>
 
         <!-- Mobile Menu Button -->
-        <button 
+        <button
           type="button"
           class="md:hidden p-2 text-gray-300 hover:text-white transition"
           id="mobile-menu-btn"
           aria-label="Buka menu"
           aria-expanded="false"
         >
-          <svg class="w-6 h-6 menu-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+          <svg
+            class="w-6 h-6 menu-icon"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M4 6h16M4 12h16M4 18h16"></path>
           </svg>
-          <svg class="w-6 h-6 close-icon hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
+          <svg
+            class="w-6 h-6 close-icon hidden"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M6 18L18 6M6 6l12 12"></path>
           </svg>
         </button>
       </nav>
 
       <!-- Mobile Navigation Overlay -->
-      <div id="mobile-menu" class="hidden md:hidden bg-dark border-t border-dark-border">
+      <div
+        id="mobile-menu"
+        class="hidden md:hidden bg-dark border-t border-dark-border"
+      >
         <div class="container mx-auto px-4 py-4 flex flex-col gap-4">
-          <a href="/episodes" class="text-gray-300 hover:text-white transition py-2">Episode</a>
-          <a href="/partners" class="text-gray-300 hover:text-white transition py-2">Partner</a>
-          <a href="https://github.com/orgs/ngobrolin/discussions" target="_blank" rel="noopener noreferrer" class="text-gray-300 hover:text-white transition py-2">Diskusi</a>
-          <a href="/about" class="text-gray-300 hover:text-white transition py-2">Tentang</a>
-          <a 
-            href="/subscribe" 
+          <a
+            href="/episodes"
+            class="text-gray-300 hover:text-white transition py-2">Episode</a
+          >
+          <a
+            href="/partners"
+            class="text-gray-300 hover:text-white transition py-2">Partner</a
+          >
+          <a
+            href="https://github.com/orgs/ngobrolin/discussions"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="text-gray-300 hover:text-white transition py-2">Diskusi</a
+          >
+          <a
+            href="/about"
+            class="text-gray-300 hover:text-white transition py-2">Tentang</a
+          >
+          <a
+            href="/subscribe"
             class="bg-red-600 hover:bg-red-700 text-white px-4 py-3 rounded-lg text-sm font-medium transition text-center mt-2"
           >
             Langganan
@@ -126,41 +197,46 @@ const absoluteImage = image.startsWith('http') ? image : new URL(image, site).to
         </div>
       </div>
     </header>
-    
+
     <main class="flex-1">
       <slot />
     </main>
-    
+
     <footer class="border-t border-dark-border mt-16">
       <div class="container mx-auto px-4 py-8">
-        <div class="flex flex-col md:flex-row justify-between items-center gap-4">
+        <div
+          class="flex flex-col md:flex-row justify-between items-center gap-4"
+        >
           <p class="text-gray-400 text-sm">
-            © {new Date().getFullYear()} Ngobrolin WEB. Hadir setiap Selasa 20:00 WIB.
+            © {new Date().getFullYear()} Ngobrolin WEB. Hadir setiap Selasa 20:00
+            WIB.
           </p>
           <div class="flex items-center gap-4">
-            <a 
-              href="https://www.youtube.com/@RizaFahmi" 
+            <a
+              href="https://www.youtube.com/@RizaFahmi"
               target="_blank"
               rel="noopener noreferrer"
               class="text-gray-400 hover:text-white transition"
             >
               YouTube
             </a>
-            <a 
-              href="https://x.com/search?q=%23ngobrolinweb&f=live" 
-              target="_blank" 
+            <a
+              href="https://x.com/search?q=%23ngobrolinweb&f=live"
+              target="_blank"
               rel="noopener noreferrer"
               class="text-gray-400 hover:text-white transition"
             >
               X
             </a>
-            <a 
-              href="/rss.xml" 
+            <a
+              href="/rss.xml"
               class="text-gray-400 hover:text-orange-500 transition flex items-center gap-1"
               title="RSS Feed"
             >
               <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
-                <path d="M6.18 15.64a2.18 2.18 0 0 1 2.18 2.18C8.36 19 7.38 20 6.18 20C5 20 4 19 4 17.82a2.18 2.18 0 0 1 2.18-2.18M4 4.44A15.56 15.56 0 0 1 19.56 20h-2.83A12.73 12.73 0 0 0 4 7.27V4.44m0 5.66a9.9 9.9 0 0 1 9.9 9.9h-2.83A7.07 7.07 0 0 0 4 12.93V10.1z"/>
+                <path
+                  d="M6.18 15.64a2.18 2.18 0 0 1 2.18 2.18C8.36 19 7.38 20 6.18 20C5 20 4 19 4 17.82a2.18 2.18 0 0 1 2.18-2.18M4 4.44A15.56 15.56 0 0 1 19.56 20h-2.83A12.73 12.73 0 0 0 4 7.27V4.44m0 5.66a9.9 9.9 0 0 1 9.9 9.9h-2.83A7.07 7.07 0 0 0 4 12.93V10.1z"
+                ></path>
               </svg>
               RSS
             </a>
@@ -170,31 +246,37 @@ const absoluteImage = image.startsWith('http') ? image : new URL(image, site).to
     </footer>
 
     <!-- Mobile Menu Toggle Script -->
-    <script>
-      document.addEventListener('DOMContentLoaded', () => {
-        const menuBtn = document.getElementById('mobile-menu-btn');
-        const mobileMenu = document.getElementById('mobile-menu');
-        const menuIcon = menuBtn?.querySelector('.menu-icon');
-        const closeIcon = menuBtn?.querySelector('.close-icon');
+    <script is:inline data-astro-rerun>
+      (function initMobileMenu() {
+        const menuBtn = document.getElementById("mobile-menu-btn");
+        const mobileMenu = document.getElementById("mobile-menu");
+        const menuIcon = menuBtn?.querySelector(".menu-icon");
+        const closeIcon = menuBtn?.querySelector(".close-icon");
 
-        menuBtn?.addEventListener('click', () => {
-          const isOpen = mobileMenu?.classList.toggle('hidden') === false;
-          
-          menuIcon?.classList.toggle('hidden', isOpen);
-          closeIcon?.classList.toggle('hidden', !isOpen);
-          menuBtn?.setAttribute('aria-expanded', String(isOpen));
+        if (!menuBtn || !mobileMenu) return;
+
+        // Skip if already initialized (prevents duplicate listeners after view transitions)
+        if (menuBtn.hasAttribute("data-menu-initialized")) return;
+        menuBtn.setAttribute("data-menu-initialized", "true");
+
+        menuBtn.addEventListener("click", () => {
+          const isOpen = mobileMenu?.classList.toggle("hidden") === false;
+
+          menuIcon?.classList.toggle("hidden", isOpen);
+          closeIcon?.classList.toggle("hidden", !isOpen);
+          menuBtn?.setAttribute("aria-expanded", String(isOpen));
         });
 
         // Close menu when clicking a link
-        mobileMenu?.querySelectorAll('a').forEach(link => {
-          link.addEventListener('click', () => {
-            mobileMenu.classList.add('hidden');
-            menuIcon?.classList.remove('hidden');
-            closeIcon?.classList.add('hidden');
-            menuBtn?.setAttribute('aria-expanded', 'false');
+        mobileMenu?.querySelectorAll("a").forEach((link) => {
+          link.addEventListener("click", () => {
+            mobileMenu.classList.add("hidden");
+            menuIcon?.classList.remove("hidden");
+            closeIcon?.classList.add("hidden");
+            menuBtn?.setAttribute("aria-expanded", "false");
           });
         });
-      });
+      })();
     </script>
   </body>
 </html>
