@@ -18,9 +18,9 @@ export async function GET(context: APIContext) {
     customData: `
       <language>id</language>
       <image>
-        <url>https://ngobrolin.web.id/og-image.svg</url>
+        <url>https://ngobrol.in/og-image.svg</url>
         <title>Ngobrolin WEB</title>
-        <link>https://ngobrolin.web.id</link>
+        <link>https://ngobrol.in</link>
       </image>
     `,
   });

@@ -9,7 +9,7 @@
 *   **Styling:** [Tailwind CSS](https://tailwindcss.com) (v4, via Vite plugin)
 *   **Language:** TypeScript
 *   **Data Source:** YouTube Data API (fetched and stored locally in JSON)
-*   **Deployment:** Static hosting (e.g., Cloudflare Pages, Netlify, Vercel). The site URL is configured as `https://ngobrolin.web.id`.
+*   **Deployment:** Static hosting (e.g., Cloudflare Pages, Netlify, Vercel). The site URL is configured as `https://ngobrol.in`.
 
 ## Architecture
 
