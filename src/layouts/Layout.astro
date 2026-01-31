@@ -1,5 +1,6 @@
 ---
 import '../styles/global.css';
+import { ViewTransitions } from 'astro:transitions';
 
 interface Props {
   title: string;
@@ -31,6 +32,9 @@ const absoluteImage = image.startsWith('http') ? image : new URL(image, site).to
     
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="generator" content={Astro.generator} />
+
+    <!-- View Transitions -->
+    <ViewTransitions />
     
     <!-- SEO -->
     <title>{title}</title>
@@ -55,6 +59,18 @@ const absoluteImage = image.startsWith('http') ? image : new URL(image, site).to
     
     <!-- Additional head content -->
     <slot name="head" />
+
+    <!-- View Transitions Custom Duration -->
+    <style is:global>
+      @keyframes astroFade {
+        from { opacity: 0; }
+        to { opacity: 1; }
+      }
+      ::view-transition-old(root),
+      ::view-transition-new(root) {
+        animation-duration: 150ms;
+      }
+    </style>
   </head>
   <body class="min-h-screen flex flex-col">
     <header class="border-b border-dark-border">
