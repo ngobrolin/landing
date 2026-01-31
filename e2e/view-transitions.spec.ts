@@ -73,7 +73,8 @@ test.describe('View Transitions', () => {
     test('astro router script is loaded', async ({ page }) => {
       await page.goto('/');
       // Check for Astro's ClientRouter script which handles view transitions
-      const clientRouterScript = page.locator('script[src*="ClientRouter"]');
+      // Use .first() because there are multiple ClientRouter-related scripts (.ts and .css)
+      const clientRouterScript = page.locator('script[src*="ClientRouter"]').first();
       await expect(clientRouterScript).toBeAttached();
     });
   });
