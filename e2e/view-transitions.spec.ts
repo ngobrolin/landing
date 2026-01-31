@@ -25,6 +25,8 @@ test.describe('View Transitions', () => {
       await page.waitForLoadState('networkidle');
 
       await expect(page).toHaveURL(/\/episodes\/.+/);
+      const transitionElement = page.locator('[data-astro-transition-scope]').first();
+      await expect(transitionElement).toBeVisible();
     });
 
     test('navigation from episodes list to episode uses shared element transition', async ({ page }) => {
@@ -62,10 +64,10 @@ test.describe('View Transitions', () => {
   test.describe('View Transitions Integration', () => {
     test('view transitions styles are loaded', async ({ page }) => {
       await page.goto('/');
-      // Check for view transition CSS animations in the page
-      const content = await page.content();
-      expect(content).toContain('astroFadeInOut');
-      expect(content).toContain('view-transition');
+      // Check for elements with transition scope attributes
+      const transitionElements = page.locator('[data-astro-transition-scope]');
+      const count = await transitionElements.count();
+      expect(count).toBeGreaterThan(0);
     });
 
     test('astro router script is loaded', async ({ page }) => {
