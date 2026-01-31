@@ -1,0 +1,45 @@
+---
+// Comments.astro - Utterances comment widget component
+interface Props {}
+// No props needed - utterances uses page URL for issue mapping
+---
+
+<section class="mt-12 pt-8 border-t border-dark-border">
+  <h2 class="text-xl font-bold text-white mb-6">Komentar</h2>
+  <div id="comments-wrapper">
+    <!-- Utterances will inject the comment widget here -->
+  </div>
+</section>
+
+<script>
+  // Load utterances script client-side
+  // This script runs after the page loads and injects the comment widget
+  function loadUtterances() {
+    // Check if utterances is already loaded
+    if (document.querySelector('script[src="https://utteranc.es/client.js"]')) {
+      return;
+    }
+
+    // Inject script into the comments wrapper
+    const commentsWrapper = document.getElementById('comments-wrapper');
+    if (!commentsWrapper) {
+      return;
+    }
+
+    const utterancesScript = document.createElement('script');
+    utterancesScript.src = 'https://utteranc.es/client.js';
+    utterancesScript.async = true;
+    utterancesScript.crossOrigin = 'anonymous';
+
+    // Utterances configuration
+    utterancesScript.setAttribute('repo', 'ngobrolin/landing');
+    utterancesScript.setAttribute('issue-term', 'pathname');
+    utterancesScript.setAttribute('label', 'comment');
+    utterancesScript.setAttribute('theme', 'preferred-color-scheme');
+
+    commentsWrapper.appendChild(utterancesScript);
+  }
+
+  // Load when DOM is ready
+  loadUtterances();
+</script>
