@@ -94,11 +94,13 @@ const episodeUrl = `${siteUrl}/episodes/${episode.slug}`;
         </nav>
 
         <!-- Video -->
-        <YouTubeEmbed 
-          videoId={episode.videoId} 
-          title={episode.title} 
-          backgroundImage={optimizedThumbnail.src}
-        />
+        <div transition:name={`episode-thumbnail-${episode.slug}`}>
+          <YouTubeEmbed
+            videoId={episode.videoId}
+            title={episode.title}
+            backgroundImage={optimizedThumbnail.src}
+          />
+        </div>
 
         <!-- Episode Info -->
         <div class="mt-8">
