@@ -46,6 +46,7 @@ export function getEpisodes(): Episode[] {
       thumbnail: ep.thumbnail.includes('i.ytimg.com')
         ? `https://i.ytimg.com/vi_webp/${ep.videoId}/hqdefault.webp`
         : ep.thumbnail,
+      description: `${ep.description}\n\nKunjungi https://ngobrol.in untuk catatan, tautan dan informasi topik lainnya.`,
       episodeNumber: 0, // placeholder, set after sorting
       brief: getBrief(ep.videoId),
     }))
