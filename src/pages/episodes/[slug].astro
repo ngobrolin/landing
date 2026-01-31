@@ -15,6 +15,7 @@ import {
 } from '../../lib/seo';
 import { getRelatedEpisodes } from '../../lib/related';
 import EpisodeCard from '../../components/EpisodeCard.astro';
+import Comments from '../../components/Comments.astro';
 
 export async function getStaticPaths() {
   const episodes = getEpisodes();
@@ -137,6 +138,9 @@ const relatedEpisodes = getRelatedEpisodes(episode, episodes, 3);
             </div>
           </section>
         )}
+
+        <!-- Comments -->
+        <Comments />
 
         <!-- Navigation -->
         <nav class="mt-12 pt-8 border-t border-dark-border">
