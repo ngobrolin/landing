@@ -35,8 +35,8 @@ const truncatedDescription = displayDescription.length > 120
   data-testid="episode-card"
 >
   <div class="relative aspect-video overflow-hidden">
-    <Image 
-      src={thumbnail} 
+    <Image
+      src={thumbnail}
       alt={title}
       class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
       loading={loading}
@@ -44,6 +44,7 @@ const truncatedDescription = displayDescription.length > 120
       width={640}
       height={360}
       format="webp"
+      transition:name={`episode-thumbnail-${slug}`}
     />
     {isNew && (
       <span class="absolute top-3 left-3 bg-primary text-white text-xs font-bold px-2 py-1 rounded">
