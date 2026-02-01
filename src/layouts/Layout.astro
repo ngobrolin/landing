@@ -1,6 +1,6 @@
 ---
 import "../styles/global.css";
-import { ViewTransitions } from "astro:transitions";
+import { ClientRouter } from "astro:transitions";
 
 interface Props {
   title: string;
@@ -45,7 +45,7 @@ const absoluteImage = image.startsWith("http")
     <meta name="generator" content={Astro.generator} />
 
     <!-- View Transitions -->
-    <ViewTransitions />
+    <ClientRouter />
 
     <!-- SEO -->
     <title>{title}</title>
@@ -278,5 +278,6 @@ const absoluteImage = image.startsWith("http")
         });
       })();
     </script>
+
   </body>
 </html>

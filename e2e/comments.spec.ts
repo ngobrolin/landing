@@ -21,10 +21,10 @@ test.describe('Comments Section', () => {
     // This is needed because is:inline data-astro-rerun scripts run after the page swap
     await page.waitForTimeout(100);
 
-    // Check that utterances script is present and properly configured
-    const utterancesScript = page.locator('script[src="https://utteranc.es/client.js"]');
-    await expect(utterancesScript).toBeAttached();
-    await expect(utterancesScript).toHaveAttribute('repo', 'ngobrolin/landing');
+    // Check that utterances iframe is injected
+    const utterancesFrame = page.locator('#comments-wrapper iframe');
+    await expect(utterancesFrame).toBeVisible();
+    await expect(utterancesFrame).toHaveAttribute('src', /utteranc\.es/);
   });
 
   test('comments section appears before navigation', async ({ page }) => {

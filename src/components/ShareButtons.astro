@@ -7,7 +7,12 @@ interface Props {
 const { url, title } = Astro.props;
 ---
 
-<div class="flex flex-wrap items-center gap-3" data-page-url={url} data-page-title={title}>
+<div
+  class="flex flex-wrap items-center gap-3"
+  data-share-buttons
+  data-page-url={url}
+  data-page-title={title}
+>
   <span class="text-gray-400 text-sm">Bagikan:</span>
   
   <!-- WhatsApp -->
@@ -89,52 +94,65 @@ const { url, title } = Astro.props;
   }
 </style>
 
-<script>
-  document.addEventListener('DOMContentLoaded', () => {
-    const containers = document.querySelectorAll('[data-page-url]');
-    
-    containers.forEach(container => {
-      const pageUrl = container.getAttribute('data-page-url') || '';
-      const pageTitle = container.getAttribute('data-page-title') || '';
+<script is:inline data-astro-rerun>
+  (function initShareButtons() {
+    const containers = document.querySelectorAll('[data-share-buttons]');
+
+    containers.forEach((container) => {
+      if (container.hasAttribute("data-share-initialized")) {
+        return;
+      }
+      container.setAttribute("data-share-initialized", "true");
+
+      const pageUrl = container.getAttribute("data-page-url") || "";
+      const pageTitle = container.getAttribute("data-page-title") || "";
       const encodedUrl = encodeURIComponent(pageUrl);
       const encodedTitle = encodeURIComponent(pageTitle);
-      
-      const buttons = container.querySelectorAll('.action-btn');
-      
-      buttons.forEach(btn => {
-        btn.addEventListener('click', async () => {
-          const platform = btn.getAttribute('data-platform');
-          
+
+      const buttons = container.querySelectorAll(".action-btn");
+      buttons.forEach((btn) => {
+        btn.addEventListener("click", async () => {
+          const platform = btn.getAttribute("data-platform");
+
           switch (platform) {
-            case 'wa':
-              window.open(`https://wa.me/?text=${encodedTitle}%20${encodedUrl}`, '_blank');
+            case "wa":
+              window.open(
+                `https://wa.me/?text=${encodedTitle}%20${encodedUrl}`,
+                "_blank"
+              );
               break;
-            case 'x':
-              window.open(`https://twitter.com/intent/tweet?text=${encodedTitle}&url=${encodedUrl}&hashtags=NgobrolinWEB`, '_blank');
+            case "x":
+              window.open(
+                `https://twitter.com/intent/tweet?text=${encodedTitle}&url=${encodedUrl}&hashtags=NgobrolinWEB`,
+                "_blank"
+              );
               break;
-            case 'li':
-              window.open(`https://www.linkedin.com/sharing/share-offsite/?url=${encodedUrl}`, '_blank');
+            case "li":
+              window.open(
+                `https://www.linkedin.com/sharing/share-offsite/?url=${encodedUrl}`,
+                "_blank"
+              );
               break;
-            case 'copy':
+            case "copy":
               try {
                 await navigator.clipboard.writeText(pageUrl);
-                const copyIcon = btn.querySelector('.copy-icon');
-                const checkIcon = btn.querySelector('.check-icon');
+                const copyIcon = btn.querySelector(".copy-icon");
+                const checkIcon = btn.querySelector(".check-icon");
                 if (copyIcon && checkIcon) {
-                  copyIcon.classList.add('hidden');
-                  checkIcon.classList.remove('hidden');
+                  copyIcon.classList.add("hidden");
+                  checkIcon.classList.remove("hidden");
                   setTimeout(() => {
-                    copyIcon.classList.remove('hidden');
-                    checkIcon.classList.add('hidden');
+                    copyIcon.classList.remove("hidden");
+                    checkIcon.classList.add("hidden");
                   }, 2000);
                 }
-              } catch (err) {
-                console.error('Copy failed:', err);
+              } catch (error) {
+                console.error("Copy failed:", error);
               }
               break;
           }
         });
       });
     });
-  });
+  })();
 </script>
