@@ -58,6 +58,32 @@ npm run transcribe --all
 
 Requires `whisper-cli` and `yt-dlp` installed locally.
 
+## Audio Podcast
+
+Extract audio from YouTube and upload to S3 for Apple Podcasts/Spotify distribution:
+
+```bash
+# Check status
+npx tsx scripts/extract-audio.ts --status
+npx tsx scripts/upload-s3.ts --status
+
+# Extract next episode (oldest first)
+npx tsx scripts/extract-audio.ts
+
+# Extract all missing
+npx tsx scripts/extract-audio.ts --missing
+
+# Upload to S3 (requires AWS credentials)
+npx tsx scripts/upload-s3.ts
+
+# Upload all extracted
+npx tsx scripts/upload-s3.ts --missing
+```
+
+Requires `yt-dlp` and `ffmpeg` installed locally. AWS credentials via `~/.aws/credentials` or environment variables.
+
+Podcast RSS feed available at `/podcast-rss.xml`.
+
 ## Summarization
 
 Generate summaries using AI tools (Amp, Claude, Gemini CLI, etc.):

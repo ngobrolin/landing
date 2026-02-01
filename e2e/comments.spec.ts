@@ -9,10 +9,9 @@ test.describe('Comments Section', () => {
     await expect(page.getByRole('heading', { name: 'Komentar' })).toBeVisible();
   });
 
-  test('utterances script is loaded', async ({ page }) => {
-    await page.goto('/');
-    const firstEpisode = page.locator('[data-testid="episode-card"]').first();
-    await firstEpisode.click();
+  test('utterances widget is loaded', async ({ page }) => {
+    // Navigate directly to an episode page to avoid SPA transition timing issues
+    await page.goto('/episodes/ZcYNuHirHOA-agentic-ai-ngobrolin-web');
 
     // Wait for the comments section to be visible
     await expect(page.getByRole('heading', { name: 'Komentar' })).toBeVisible();
