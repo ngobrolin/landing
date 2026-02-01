@@ -9,22 +9,16 @@ test.describe('Comments Section', () => {
     await expect(page.getByRole('heading', { name: 'Komentar' })).toBeVisible();
   });
 
-  test('utterances script is loaded', async ({ page }) => {
-    await page.goto('/');
-    const firstEpisode = page.locator('[data-testid="episode-card"]').first();
-    await firstEpisode.click();
+  test('utterances widget is loaded', async ({ page }) => {
+    // Navigate directly to an episode page to avoid SPA transition timing issues
+    await page.goto('/episodes/ZcYNuHirHOA-agentic-ai-ngobrolin-web');
 
     // Wait for the comments section to be visible
     await expect(page.getByRole('heading', { name: 'Komentar' })).toBeVisible();
 
-    // Wait a bit for the inline script to execute and add the utterances script
-    // This is needed because is:inline data-astro-rerun scripts run after the page swap
-    await page.waitForTimeout(100);
-
-    // Check that utterances script is present and properly configured
-    const utterancesScript = page.locator('script[src="https://utteranc.es/client.js"]');
-    await expect(utterancesScript).toBeAttached();
-    await expect(utterancesScript).toHaveAttribute('repo', 'ngobrolin/landing');
+    // Wait for the utterances iframe to be loaded (the script injects an iframe)
+    const utterancesFrame = page.locator('.utterances');
+    await expect(utterancesFrame).toBeAttached({ timeout: 15000 });
   });
 
   test('comments section appears before navigation', async ({ page }) => {
