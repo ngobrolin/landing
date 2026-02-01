@@ -113,6 +113,7 @@ async function main() {
 
   const missing = episodes
     .filter((e) => !existingAudio.has(e.videoId))
+    .sort((a, b) => new Date(a.publishedAt).getTime() - new Date(b.publishedAt).getTime())
     .map((e) => e.videoId);
 
   if (args.length > 0) {

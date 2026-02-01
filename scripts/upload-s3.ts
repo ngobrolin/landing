@@ -109,10 +109,10 @@ async function main() {
   const episodes = getEpisodes();
   const localAudio = getLocalAudioFiles();
 
-  // Episodes with local audio but no audioUrl in JSON
-  const notUploaded = episodes.filter(
-    (e) => localAudio.has(e.videoId) && !e.audioUrl
-  );
+  // Episodes with local audio but no audioUrl in JSON (oldest first)
+  const notUploaded = episodes
+    .filter((e) => localAudio.has(e.videoId) && !e.audioUrl)
+    .sort((a, b) => new Date(a.publishedAt).getTime() - new Date(b.publishedAt).getTime());
 
   let toProcess: string[] = [];
 
