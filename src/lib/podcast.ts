@@ -54,6 +54,9 @@ export function escapeXml(text: string): string {
     .replace(/'/g, "&apos;");
 }
 
+const EPISODE_DESCRIPTION_SUFFIX =
+  "\n\nKunjungi https://ngobrol.in untuk skrip, rangkuman, tautan dan informasi menarik lainnya.";
+
 export function getPodcastEpisodes(): PodcastEpisode[] {
   const rawEpisodes = episodesData as RawEpisode[];
 
@@ -64,7 +67,7 @@ export function getPodcastEpisodes(): PodcastEpisode[] {
     )
     .map((ep) => ({
       title: ep.title,
-      description: ep.description,
+      description: ep.description + EPISODE_DESCRIPTION_SUFFIX,
       publishedAt: ep.publishedAt,
       audioUrl: ep.audioUrl,
       audioDuration: ep.audioDuration,
