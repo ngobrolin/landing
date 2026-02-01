@@ -17,13 +17,10 @@ test.describe('Comments Section', () => {
     // Wait for the comments section to be visible
     await expect(page.getByRole('heading', { name: 'Komentar' })).toBeVisible();
 
-    // Wait a bit for the inline script to execute and add the utterances script
+    // Wait for the utterances script to be injected by the inline script
     // This is needed because is:inline data-astro-rerun scripts run after the page swap
-    await page.waitForTimeout(100);
-
-    // Check that utterances script is present and properly configured
     const utterancesScript = page.locator('script[src="https://utteranc.es/client.js"]');
-    await expect(utterancesScript).toBeAttached();
+    await expect(utterancesScript).toBeAttached({ timeout: 10000 });
     await expect(utterancesScript).toHaveAttribute('repo', 'ngobrolin/landing');
   });
 
