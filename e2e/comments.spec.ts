@@ -16,9 +16,14 @@ test.describe('Comments Section', () => {
     // Wait for the comments section to be visible
     await expect(page.getByRole('heading', { name: 'Komentar' })).toBeVisible();
 
-    // Wait for the utterances iframe to be loaded (the script injects an iframe)
-    const utterancesFrame = page.locator('.utterances');
-    await expect(utterancesFrame).toBeAttached({ timeout: 15000 });
+    // Wait a bit for the inline script to execute and add the utterances script
+    // This is needed because is:inline data-astro-rerun scripts run after the page swap
+    await page.waitForTimeout(100);
+
+    // Check that utterances iframe is injected
+    const utterancesFrame = page.locator('#comments-wrapper iframe');
+    await expect(utterancesFrame).toBeVisible();
+    await expect(utterancesFrame).toHaveAttribute('src', /utteranc\.es/);
   });
 
   test('comments section appears before navigation', async ({ page }) => {

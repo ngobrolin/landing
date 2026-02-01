@@ -14,7 +14,11 @@ interface Props {}
 <script is:inline data-astro-rerun>
   // Load utterances script client-side
   // This script runs after the page loads and injects the comment widget
-  function loadUtterances() {
+  const stateKey = "__ngobrolinCommentsState";
+  const state = window[stateKey] || { lastUrl: "", listenerAttached: false };
+  window[stateKey] = state;
+
+  function loadUtterances(retryCount = 0) {
     // Clear any existing utterances script and widget to ensure fresh load
     const existingScript = document.querySelector('script[src="https://utteranc.es/client.js"]');
     if (existingScript) {
@@ -24,6 +28,9 @@ interface Props {}
     // Clear the comments wrapper
     const commentsWrapper = document.getElementById("comments-wrapper");
     if (!commentsWrapper) {
+      if (retryCount < 10) {
+        requestAnimationFrame(() => loadUtterances(retryCount + 1));
+      }
       return;
     }
     commentsWrapper.innerHTML = '';
@@ -43,6 +50,27 @@ interface Props {}
     commentsWrapper.appendChild(utterancesScript);
   }
 
-  // Load when DOM is ready
-  loadUtterances();
+  function maybeLoadUtterances() {
+    const currentUrl = window.location.href;
+    if (state.lastUrl === currentUrl) {
+      return;
+    }
+    state.lastUrl = currentUrl;
+    loadUtterances();
+  }
+
+  if (!state.listenerAttached) {
+    document.addEventListener("astro:page-load", maybeLoadUtterances);
+    state.listenerAttached = true;
+  }
+
+  const runLoad = () => {
+    maybeLoadUtterances();
+  };
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", runLoad, { once: true });
+  }
+
+  runLoad();
 </script>
