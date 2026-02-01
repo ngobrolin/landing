@@ -16,6 +16,7 @@
   "dependencies": {
     "@astrojs/rss": "^4.0.15",
     "@astrojs/sitemap": "^3.7.0",
+    "@aws-sdk/client-s3": "^3.980.0",
     "@tailwindcss/vite": "^4.1.18",
     "astro": "^5.16.15",
     "fuse.js": "^7.1.0",
