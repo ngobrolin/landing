@@ -192,3 +192,35 @@ export function generateHomepageSchema(siteUrl: string, episodeCount: number) {
     ]
   };
 }
+
+export function generateAboutPageSchema(siteUrl: string) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'AboutPage',
+    'mainEntity': {
+      '@type': 'Organization',
+      'name': 'Ngobrolin WEB',
+      'description': 'Video podcast mingguan yang membahas berbagai topik seputar web development dalam Bahasa Indonesia',
+      'url': siteUrl,
+      'logo': `${siteUrl}/favicon.svg`,
+      'foundingDate': '2019',
+      'founder': [
+        {
+          '@type': 'Person',
+          'name': 'Eka',
+          'jobTitle': 'Google Developer Expert - Web'
+        },
+        {
+          '@type': 'Person',
+          'name': 'Ivan',
+          'jobTitle': 'Senior Web Engineer - Human Made'
+        },
+        {
+          '@type': 'Person',
+          'name': 'Riza Fahmi',
+          'jobTitle': 'Co-founder Hacktiv8'
+        }
+      ]
+    }
+  };
+}
