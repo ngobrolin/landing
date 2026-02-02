@@ -9,6 +9,7 @@ export interface Episode {
   slug: string;
   episodeNumber: number;
   brief?: string;
+  duration?: string;  // NEW: ISO 8601 format, e.g., "PT4M13S"
 }
 
 export function slugify(text: string): string {
