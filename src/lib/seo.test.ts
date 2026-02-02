@@ -81,4 +81,47 @@ describe('SEO Schema Generators', () => {
       expect(podcast2.numberOfEpisodes).toBe(200);
     });
   });
+
+  describe('generateAboutPageSchema', () => {
+    const siteUrl = 'https://ngobrol.in';
+
+    it('should generate AboutPage schema', () => {
+      const schema = generateAboutPageSchema(siteUrl);
+
+      expect(schema).toHaveProperty('@context', 'https://schema.org');
+      expect(schema['@type']).toBe('AboutPage');
+      expect(schema.mainEntity).toBeDefined();
+    });
+
+    it('should include Organization as mainEntity', () => {
+      const schema = generateAboutPageSchema(siteUrl);
+      const org = schema.mainEntity;
+
+      expect(org['@type']).toBe('Organization');
+      expect(org.name).toBe('Ngobrolin WEB');
+      expect(org.foundingDate).toBe('2019');
+    });
+
+    it('should include all founders with details', () => {
+      const schema = generateAboutPageSchema(siteUrl);
+      const org = schema.mainEntity;
+
+      expect(org.founder).toBeDefined();
+      expect(Array.isArray(org.founder)).toBe(true);
+      expect(org.founder).toHaveLength(3);
+
+      const eka = org.founder.find((f: any) => f.name === 'Eka');
+      expect(eka).toBeDefined();
+      expect(eka['@type']).toBe('Person');
+      expect(eka.jobTitle).toBe('Google Developer Expert - Web');
+
+      const ivan = org.founder.find((f: any) => f.name === 'Ivan');
+      expect(ivan).toBeDefined();
+      expect(ivan.jobTitle).toBe('Senior Web Engineer - Human Made');
+
+      const riza = org.founder.find((f: any) => f.name === 'Riza Fahmi');
+      expect(riza).toBeDefined();
+      expect(riza.jobTitle).toBe('Co-founder Hacktiv8');
+    });
+  });
 });
