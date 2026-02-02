@@ -44,9 +44,6 @@ const absoluteImage = image.startsWith("http")
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="generator" content={Astro.generator} />
 
-    <!-- View Transitions -->
-    <ClientRouter />
-
     <!-- SEO -->
     <title>{title}</title>
     <meta name="description" content={description} />
@@ -262,6 +259,9 @@ const absoluteImage = image.startsWith("http")
         </div>
       </div>
     </footer>
+
+    <!-- View Transitions (deferred to avoid blocking critical path) -->
+    <ClientRouter />
 
     <!-- Mobile Menu Toggle Script -->
     <script is:inline data-astro-rerun>

@@ -14,7 +14,7 @@ test.describe('Episode Page', () => {
     const firstEpisode = page.locator('[data-testid="episode-card"]').first();
     await firstEpisode.click();
 
-    await expect(page.locator('h1')).toBeVisible();
+    await expect(page.locator('main h1').first()).toBeVisible();
     await expect(page.locator('lite-youtube')).toBeVisible();
   });
 
