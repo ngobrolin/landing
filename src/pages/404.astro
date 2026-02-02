@@ -1,11 +1,34 @@
 ---
 import Layout from '../layouts/Layout.astro';
+
+const phrases = [
+  "404: Halamannya lagi ngopi, belum balik.",
+  "Ups. Ini bukan bug, cuma halaman yang nyasar.",
+  "404: Sepertinya server bilang 'nggak dulu'.",
+  "Halamannya hilang. Sudah dicoba Ctrl + Z, gagal.",
+  "404: Kode ada, halaman nggak.",
+  "Request diterima, realita ditolak.",
+  "Halamannya ke-delete, tapi perasaannya masih ada.",
+  "404: Kayaknya ini salah universe.",
+  "Maaf, halaman ini lagi timeout sama hidup.",
+  "404: URL valid, nasib tidak.",
+  "Halamannya nggak ketemu, tapi harapan jangan ikut hilang.",
+  "Server bingung, developer juga.",
+  "404: Sudah dicari sampai stack paling bawah.",
+  "Halamannya nggak ada, tapi niatmu bagus.",
+  "Oops. Mungkin typo, mungkin takdir.",
+  "404: Ini bukan yang kamu cari. (Jedi hand wave)",
+  "Halamannya ghosting kamu.",
+  "Error 404: Halaman sedang cuti tanpa izin.",
+  "Halamannya undefined, perasaan null.",
+  "404: Coba refresh hidupmu, bukan halaman ini.",
+];
 ---
 
 <Layout title="404 - Page Not Found" omitCanonical={true}>
   <div class="container mx-auto px-4 py-16 text-center">
     <h1 class="text-6xl font-bold text-white mb-4">404</h1>
-    <p class="text-xl text-gray-300 mb-2">Halaman nggak ketemu, ngab.</p>
+    <p class="text-xl text-gray-300 mb-2" id="phrase-404">Loading...</p>
     <p class="text-sm text-gray-400 mb-8 font-mono">// TODO: Fix the broken link 🐛</p>
 
     <!-- Meme Image -->
@@ -24,4 +47,13 @@ import Layout from '../layouts/Layout.astro';
       Balik ke Home 🏠
     </a>
   </div>
+
+  <script is:inline define:vars={{ phrases }}>
+    (function() {
+      const el = document.getElementById('phrase-404');
+      if (el) {
+        el.textContent = phrases[Math.floor(Math.random() * phrases.length)];
+      }
+    })();
+  </script>
 </Layout>
