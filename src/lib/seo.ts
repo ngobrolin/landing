@@ -224,3 +224,31 @@ export function generateAboutPageSchema(siteUrl: string) {
     }
   };
 }
+
+export function generateCollectionPageSchema(
+  name: string,
+  description: string,
+  url: string,
+  items: Episode[]
+) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'CollectionPage',
+    'name': name,
+    'description': description,
+    'url': url,
+    'mainEntity': {
+      '@type': 'ItemList',
+      'numberOfItems': items.length,
+      'itemListElement': items.map((item, index) => ({
+        '@type': 'ListItem',
+        'position': index + 1,
+        'item': {
+          '@type': 'PodcastEpisode',
+          'name': item.title,
+          'url': `${url}/${item.slug}`
+        }
+      }))
+    }
+  };
+}
