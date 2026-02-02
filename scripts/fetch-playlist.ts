@@ -36,6 +36,56 @@ interface Episode {
   publishedAt: string;
   thumbnail: string;
   position: number;
+  duration?: string;  // ADD THIS
+}
+
+interface VideoDetails {
+  videoId: string;
+  duration: string;  // ISO 8601 format from YouTube: PT4M13S
+}
+
+interface VideosApiResponse {
+  items: Array<{
+    id: string;
+    contentDetails: {
+      duration: string;
+    };
+  }>;
+}
+
+/**
+ * Fetch video details (duration) from YouTube Videos API
+ * Batch requests up to 50 video IDs per call
+ */
+async function fetchVideoDetails(videoIds: string[]): Promise<Record<string, VideoDetails>> {
+  const result: Record<string, VideoDetails> = {};
+  const batchSize = 50;
+
+  for (let i = 0; i < videoIds.length; i += batchSize) {
+    const batch = videoIds.slice(i, i + batchSize);
+    const params = new URLSearchParams({
+      part: 'contentDetails',
+      id: batch.join(','),
+      key: API_KEY!,
+    });
+
+    const response = await fetch(`https://www.googleapis.com/youtube/v3/videos?${params}`);
+
+    if (!response.ok) {
+      throw new Error(`YouTube Videos API error: ${response.status} ${await response.text()}`);
+    }
+
+    const data = await response.json() as VideosApiResponse;
+
+    for (const item of data.items) {
+      result[item.id] = {
+        videoId: item.id,
+        duration: item.contentDetails.duration,
+      };
+    }
+  }
+
+  return result;
 }
 
 async function fetchPlaylistItems(pageToken?: string): Promise<{ items: PlaylistItem[]; nextPageToken?: string }> {
@@ -99,13 +149,24 @@ async function main() {
   }
 
   console.log('Fetching playlist items from YouTube...');
-  
+
   try {
     const episodes = await fetchAllPlaylistItems();
-    
+
+    // Fetch video details (duration)
+    console.log('Fetching video details for duration...');
+    const videoIds = episodes.map(e => e.videoId);
+    const videoDetails = await fetchVideoDetails(videoIds);
+
+    // Merge duration into episodes
+    const episodesWithDuration = episodes.map(ep => ({
+      ...ep,
+      duration: videoDetails[ep.videoId]?.duration,
+    }));
+
     const outputPath = new URL('../src/data/episodes.json', import.meta.url);
     const fs = await import('fs');
-    
+
     // Check for new episodes
     let existingVideoIds = new Set<string>();
     try {
@@ -114,21 +175,21 @@ async function main() {
     } catch {
       // No existing file
     }
-    
-    const newEpisodes = episodes.filter(e => !existingVideoIds.has(e.videoId));
-    
+
+    const newEpisodes = episodesWithDuration.filter(e => !existingVideoIds.has(e.videoId));
+
     fs.writeFileSync(
-      outputPath, 
-      JSON.stringify(episodes, null, 2)
+      outputPath,
+      JSON.stringify(episodesWithDuration, null, 2)
     );
-    
-    console.log(`✓ Saved ${episodes.length} episodes to src/data/episodes.json`);
-    
+
+    console.log(`✓ Saved ${episodesWithDuration.length} episodes to src/data/episodes.json`);
+
     // Auto-run tag extraction if there are new episodes
     if (newEpisodes.length > 0) {
       console.log(`\n📌 Found ${newEpisodes.length} new episode(s), extracting tags...`);
       const { execSync } = await import('child_process');
-      execSync('npx tsx scripts/extract-tags.ts', { 
+      execSync('npx tsx scripts/extract-tags.ts', {
         stdio: 'inherit',
         cwd: new URL('..', import.meta.url).pathname
       });
