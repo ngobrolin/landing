@@ -254,4 +254,45 @@ describe('SEO Schema Generators', () => {
       expect(schema.mainEntity.itemListElement).toHaveLength(0);
     });
   });
+
+  describe('generateVideoSchema', () => {
+    const siteUrl = 'https://ngobrol.in';
+
+    it('should include duration when available', () => {
+      const episode: Episode = {
+        videoId: 'abc123',
+        title: 'Test Episode',
+        description: 'Test Description',
+        publishedAt: '2024-01-01T00:00:00Z',
+        thumbnail: 'https://example.com/thumb.jpg',
+        slug: 'test-ep',
+        episodeNumber: 1,
+        duration: 'PT4M13S'  // 4 minutes 13 seconds
+      };
+
+      const schema = generateVideoSchema(episode, null, null, siteUrl);
+
+      expect(schema.duration).toBe('PT4M13S');
+    });
+
+    it('should work without duration (legacy episodes)', () => {
+      const episode: Episode = {
+        videoId: 'abc123',
+        title: 'Test Episode',
+        description: 'Test Description',
+        publishedAt: '2024-01-01T00:00:00Z',
+        thumbnail: 'https://example.com/thumb.jpg',
+        slug: 'test-ep',
+        episodeNumber: 1
+        // no duration
+      };
+
+      const schema = generateVideoSchema(episode, null, null, siteUrl);
+
+      expect(schema.duration).toBeUndefined();
+      // Other fields should still be present
+      expect(schema['@type']).toBe('VideoObject');
+      expect(schema.name).toBe('Test Episode');
+    });
+  });
 });
