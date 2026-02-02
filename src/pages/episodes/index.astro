@@ -2,14 +2,26 @@
 import Layout from '../../layouts/Layout.astro';
 import SearchEpisodes from '../../components/SearchEpisodes.astro';
 import { getEpisodes } from '../../lib/episodes';
+import { generateCollectionPageSchema } from '../../lib/seo';
 
 const episodes = getEpisodes();
+const siteUrl = Astro.site?.toString().replace(/\/$/, '') || 'https://ngobrol.in';
+
+const collectionSchema = generateCollectionPageSchema(
+  'Semua Episode - Ngobrolin WEB',
+  'Daftar lengkap semua episode video podcast Ngobrolin WEB',
+  `${siteUrl}/episodes`,
+  episodes
+);
 ---
 
-<Layout 
+<Layout
   title="Semua Episode - Ngobrolin WEB"
   description="Daftar lengkap semua episode video podcast Ngobrolin WEB."
 >
+  <Fragment slot="head">
+    <script type="application/ld+json" set:html={JSON.stringify(collectionSchema)} />
+  </Fragment>
   <section class="py-12">
     <div class="container mx-auto px-4">
       <div class="mb-8">
