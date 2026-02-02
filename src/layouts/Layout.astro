@@ -7,6 +7,7 @@ interface Props {
   description?: string;
   image?: string;
   preloadImage?: string;
+  omitCanonical?: boolean;
 }
 
 const {
@@ -14,6 +15,7 @@ const {
   description = "Video podcast seputar web development. Hadir setiap Selasa malam jam 20:00 WIB.",
   image = "/og-image.png",
   preloadImage,
+  omitCanonical = false,
 } = Astro.props;
 
 const site = Astro.site ?? new URL(Astro.url.origin);
@@ -50,7 +52,7 @@ const absoluteImage = image.startsWith("http")
     <!-- SEO -->
     <title>{title}</title>
     <meta name="description" content={description} />
-    <link rel="canonical" href={canonicalURL} />
+    {!omitCanonical && <link rel="canonical" href={canonicalURL} />}
 
     <!-- Open Graph -->
     <meta property="og:type" content="website" />
