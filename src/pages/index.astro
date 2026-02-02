@@ -3,6 +3,7 @@ import Layout from '../layouts/Layout.astro';
 import EpisodeCard from '../components/EpisodeCard.astro';
 import { getEpisodes } from '../lib/episodes';
 import { getImage } from 'astro:assets';
+import { generateHomepageSchema } from '../lib/seo';
 
 const episodes = getEpisodes();
 const recentEpisodes = episodes.slice(0, 8);
@@ -14,12 +15,21 @@ const optimizedLcpImage = await getImage({
   height: 360,
   format: 'webp',
 });
+
+// Generate homepage schema
+const homepageSchema = generateHomepageSchema(
+  Astro.site?.toString().replace(/\/$/, '') || 'https://ngobrol.in',
+  totalEpisodes
+);
 ---
 
-<Layout 
+<Layout
   title="Ngobrolin WEB - Video Podcast Web Development Indonesia"
   preloadImage={optimizedLcpImage.src}
 >
+  <Fragment slot="head">
+    <script type="application/ld+json" set:html={JSON.stringify(homepageSchema)} />
+  </Fragment>
   <!-- Hero Section -->
   <section class="py-16 md:py-24">
     <div class="container mx-auto px-4">
