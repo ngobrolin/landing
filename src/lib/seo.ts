@@ -73,6 +73,11 @@ export function generateVideoSchema(
     }
   };
 
+  // Add duration if available
+  if (episode.duration) {
+    schema.duration = episode.duration;
+  }
+
   if (transcript?.fullText) {
     schema.transcript = transcript.fullText;
   }
