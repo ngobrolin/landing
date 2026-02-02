@@ -124,4 +124,134 @@ describe('SEO Schema Generators', () => {
       expect(riza.jobTitle).toBe('Co-founder Hacktiv8');
     });
   });
+
+  describe('generateCollectionPageSchema', () => {
+    const siteUrl = 'https://ngobrol.in';
+
+    it('should generate CollectionPage schema', () => {
+      const episodes: Episode[] = [
+        {
+          videoId: 'abc123',
+          title: 'Episode 1',
+          description: 'Description',
+          publishedAt: '2024-01-01T00:00:00Z',
+          thumbnail: 'https://example.com/thumb.jpg',
+          slug: 'ep-1',
+          episodeNumber: 1
+        },
+        {
+          videoId: 'def456',
+          title: 'Episode 2',
+          description: 'Description',
+          publishedAt: '2024-01-08T00:00:00Z',
+          thumbnail: 'https://example.com/thumb.jpg',
+          slug: 'ep-2',
+          episodeNumber: 2
+        }
+      ];
+
+      const schema = generateCollectionPageSchema(
+        'Semua Episode - Ngobrolin WEB',
+        'Daftar lengkap semua episode',
+        `${siteUrl}/episodes`,
+        episodes
+      );
+
+      expect(schema).toHaveProperty('@context', 'https://schema.org');
+      expect(schema['@type']).toBe('CollectionPage');
+      expect(schema.name).toBe('Semua Episode - Ngobrolin WEB');
+    });
+
+    it('should include ItemList with all episodes', () => {
+      const episodes: Episode[] = [
+        {
+          videoId: 'abc123',
+          title: 'Episode 1',
+          description: 'Description',
+          publishedAt: '2024-01-01T00:00:00Z',
+          thumbnail: 'https://example.com/thumb.jpg',
+          slug: 'ep-1',
+          episodeNumber: 1
+        },
+        {
+          videoId: 'def456',
+          title: 'Episode 2',
+          description: 'Description',
+          publishedAt: '2024-01-08T00:00:00Z',
+          thumbnail: 'https://example.com/thumb.jpg',
+          slug: 'ep-2',
+          episodeNumber: 2
+        }
+      ];
+
+      const schema = generateCollectionPageSchema(
+        'Semua Episode',
+        'Description',
+        `${siteUrl}/episodes`,
+        episodes
+      );
+
+      expect(schema.mainEntity).toBeDefined();
+      expect(schema.mainEntity['@type']).toBe('ItemList');
+      expect(schema.mainEntity.numberOfItems).toBe(2);
+      expect(schema.mainEntity.itemListElement).toHaveLength(2);
+    });
+
+    it('should include correct positions for each episode', () => {
+      const episodes: Episode[] = [
+        {
+          videoId: 'abc123',
+          title: 'First Episode',
+          description: 'Description',
+          publishedAt: '2024-01-01T00:00:00Z',
+          thumbnail: 'https://example.com/thumb.jpg',
+          slug: 'first-ep',
+          episodeNumber: 1
+        },
+        {
+          videoId: 'def456',
+          title: 'Second Episode',
+          description: 'Description',
+          publishedAt: '2024-01-08T00:00:00Z',
+          thumbnail: 'https://example.com/thumb.jpg',
+          slug: 'second-ep',
+          episodeNumber: 2
+        },
+        {
+          videoId: 'ghi789',
+          title: 'Third Episode',
+          description: 'Description',
+          publishedAt: '2024-01-15T00:00:00Z',
+          thumbnail: 'https://example.com/thumb.jpg',
+          slug: 'third-ep',
+          episodeNumber: 3
+        }
+      ];
+
+      const schema = generateCollectionPageSchema(
+        'Episodes',
+        'Description',
+        `${siteUrl}/episodes`,
+        episodes
+      );
+
+      const items = schema.mainEntity.itemListElement;
+      expect(items[0].position).toBe(1);
+      expect(items[0].item.name).toBe('First Episode');
+      expect(items[1].position).toBe(2);
+      expect(items[2].position).toBe(3);
+    });
+
+    it('should handle empty episode list', () => {
+      const schema = generateCollectionPageSchema(
+        'Episodes',
+        'Description',
+        `${siteUrl}/episodes`,
+        []
+      );
+
+      expect(schema.mainEntity.numberOfItems).toBe(0);
+      expect(schema.mainEntity.itemListElement).toHaveLength(0);
+    });
+  });
 });
