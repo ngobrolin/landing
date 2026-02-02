@@ -38,6 +38,55 @@ interface Episode {
   position: number;
 }
 
+interface VideoDetails {
+  videoId: string;
+  duration: string;  // ISO 8601 format from YouTube: PT4M13S
+}
+
+interface VideosApiResponse {
+  items: Array<{
+    id: string;
+    contentDetails: {
+      duration: string;
+    };
+  }>;
+}
+
+/**
+ * Fetch video details (duration) from YouTube Videos API
+ * Batch requests up to 50 video IDs per call
+ */
+async function fetchVideoDetails(videoIds: string[]): Promise<Record<string, VideoDetails>> {
+  const result: Record<string, VideoDetails> = {};
+  const batchSize = 50;
+
+  for (let i = 0; i < videoIds.length; i += batchSize) {
+    const batch = videoIds.slice(i, i + batchSize);
+    const params = new URLSearchParams({
+      part: 'contentDetails',
+      id: batch.join(','),
+      key: API_KEY!,
+    });
+
+    const response = await fetch(`https://www.googleapis.com/youtube/v3/videos?${params}`);
+
+    if (!response.ok) {
+      throw new Error(`YouTube Videos API error: ${response.status} ${await response.text()}`);
+    }
+
+    const data = await response.json() as VideosApiResponse;
+
+    for (const item of data.items) {
+      result[item.id] = {
+        videoId: item.id,
+        duration: item.contentDetails.duration,
+      };
+    }
+  }
+
+  return result;
+}
+
 async function fetchPlaylistItems(pageToken?: string): Promise<{ items: PlaylistItem[]; nextPageToken?: string }> {
   const params = new URLSearchParams({
     part: 'snippet',
