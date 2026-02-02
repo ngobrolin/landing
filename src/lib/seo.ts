@@ -134,3 +134,61 @@ export function generatePodcastEpisodeSchema(
     }
   };
 }
+
+export function generateHomepageSchema(siteUrl: string, episodeCount: number) {
+  return {
+    '@context': 'https://schema.org',
+    '@graph': [
+      {
+        '@type': 'WebSite',
+        'name': 'Ngobrolin WEB',
+        'url': siteUrl,
+        'description': 'Video podcast seputar web development dalam Bahasa Indonesia',
+        'inLanguage': 'id-ID',
+        'potentialAction': {
+          '@type': 'SearchAction',
+          'target': `${siteUrl}/episodes?q={search_term_string}`,
+          'query-input': 'required name=search_term_string'
+        }
+      },
+      {
+        '@type': 'Organization',
+        'name': 'Ngobrolin WEB',
+        'url': siteUrl,
+        'logo': `${siteUrl}/favicon.svg`,
+        'description': 'Video podcast mingguan seputar web development dalam Bahasa Indonesia',
+        'sameAs': [
+          'https://www.youtube.com/@RizaFahmi',
+          'https://x.com/search?q=%23ngobrolinweb&f=live',
+          'https://github.com/ngobrolin'
+        ],
+        'founder': [
+          {
+            '@type': 'Person',
+            'name': 'Eka',
+            'jobTitle': 'Google Developer Expert - Web'
+          },
+          {
+            '@type': 'Person',
+            'name': 'Ivan',
+            'jobTitle': 'Senior Web Engineer - Human Made'
+          },
+          {
+            '@type': 'Person',
+            'name': 'Riza Fahmi',
+            'jobTitle': 'Co-founder Hacktiv8'
+          }
+        ]
+      },
+      {
+        '@type': 'PodcastSeries',
+        'name': 'Ngobrolin WEB',
+        'description': 'Video podcast seputar web development dalam Bahasa Indonesia',
+        'url': siteUrl,
+        'webFeed': `${siteUrl}/rss.xml`,
+        'numberOfEpisodes': episodeCount,
+        'inLanguage': 'id-ID'
+      }
+    ]
+  };
+}
