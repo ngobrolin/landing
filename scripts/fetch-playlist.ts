@@ -36,6 +36,7 @@ interface Episode {
   publishedAt: string;
   thumbnail: string;
   position: number;
+  duration?: string;  // ADD THIS
 }
 
 interface VideoDetails {
@@ -148,13 +149,24 @@ async function main() {
   }
 
   console.log('Fetching playlist items from YouTube...');
-  
+
   try {
     const episodes = await fetchAllPlaylistItems();
-    
+
+    // Fetch video details (duration)
+    console.log('Fetching video details for duration...');
+    const videoIds = episodes.map(e => e.videoId);
+    const videoDetails = await fetchVideoDetails(videoIds);
+
+    // Merge duration into episodes
+    const episodesWithDuration = episodes.map(ep => ({
+      ...ep,
+      duration: videoDetails[ep.videoId]?.duration,
+    }));
+
     const outputPath = new URL('../src/data/episodes.json', import.meta.url);
     const fs = await import('fs');
-    
+
     // Check for new episodes
     let existingVideoIds = new Set<string>();
     try {
@@ -163,21 +175,21 @@ async function main() {
     } catch {
       // No existing file
     }
-    
-    const newEpisodes = episodes.filter(e => !existingVideoIds.has(e.videoId));
-    
+
+    const newEpisodes = episodesWithDuration.filter(e => !existingVideoIds.has(e.videoId));
+
     fs.writeFileSync(
-      outputPath, 
-      JSON.stringify(episodes, null, 2)
+      outputPath,
+      JSON.stringify(episodesWithDuration, null, 2)
     );
-    
-    console.log(`✓ Saved ${episodes.length} episodes to src/data/episodes.json`);
-    
+
+    console.log(`✓ Saved ${episodesWithDuration.length} episodes to src/data/episodes.json`);
+
     // Auto-run tag extraction if there are new episodes
     if (newEpisodes.length > 0) {
       console.log(`\n📌 Found ${newEpisodes.length} new episode(s), extracting tags...`);
       const { execSync } = await import('child_process');
-      execSync('npx tsx scripts/extract-tags.ts', { 
+      execSync('npx tsx scripts/extract-tags.ts', {
         stdio: 'inherit',
         cwd: new URL('..', import.meta.url).pathname
       });
