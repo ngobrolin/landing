@@ -96,11 +96,11 @@ const jsonLd = {
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="generator" content={Astro.generator} />
 
-	    <!-- SEO -->
-	    <title>{title}</title>
-	    <meta name="description" content={description} />
-	    {!omitCanonical && <link rel="canonical" href={canonicalURL} />}
-	    <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
+    <!-- SEO -->
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    {!omitCanonical && <link rel="canonical" href={canonicalURL} />}
+    <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
 
     <!-- Open Graph -->
     <meta property="og:type" content={ogType} />
