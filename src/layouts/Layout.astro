@@ -100,7 +100,6 @@ const jsonLd = {
     <title>{title}</title>
     <meta name="description" content={description} />
     {!omitCanonical && <link rel="canonical" href={canonicalURL} />}
-    <link rel="canonical" href={canonicalURL} />
     <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
 
     <!-- Open Graph -->
