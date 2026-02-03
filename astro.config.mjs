@@ -2,6 +2,7 @@
 import { defineConfig } from 'astro/config';
 import tailwindcss from '@tailwindcss/vite';
 import sitemap from '@astrojs/sitemap';
+import { visualizer } from 'rollup-plugin-visualizer';
 import { getEpisodes } from './src/lib/episodes';
 
 // https://astro.build/config
@@ -14,7 +15,15 @@ export default defineConfig({
     inlineStylesheets: 'always'
   },
   vite: {
-    plugins: [tailwindcss()]
+    plugins: [
+      tailwindcss(),
+      visualizer({
+        filename: 'dist/stats.json',
+        gzipSize: true,
+        brotliSize: true,
+        template: 'raw-data',
+      }),
+    ]
   },
   integrations: [
     sitemap({
