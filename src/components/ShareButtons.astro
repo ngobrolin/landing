@@ -113,6 +113,12 @@ const { url, title } = Astro.props;
       buttons.forEach((btn) => {
         btn.addEventListener("click", async () => {
           const platform = btn.getAttribute("data-platform");
+          if (platform) {
+            window.__ngobrolinAnalytics?.track?.("share_click", {
+              platform,
+              url: pageUrl,
+            });
+          }
 
           switch (platform) {
             case "wa":

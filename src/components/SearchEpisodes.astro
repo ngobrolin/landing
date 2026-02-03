@@ -20,7 +20,9 @@ const searchData = episodes.map((ep, idx) => ({
     <input
       type="text"
       id="search-input"
+      name="q"
       placeholder="Cari episode..."
+      aria-label="Cari episode"
       class="w-full bg-dark-card border border-dark-border rounded-lg px-4 py-3 pl-12 text-white placeholder-gray-500 focus:outline-none focus:border-primary transition"
     />
     <svg 
@@ -168,6 +170,14 @@ const searchData = episodes.map((ep, idx) => ({
   }
 
   input.addEventListener('input', handleSearch);
+
+  // Prefill from querystring, so search results are shareable (/episodes/?q=...)
+  const initialQuery = new URLSearchParams(window.location.search).get('q') ||
+    new URLSearchParams(window.location.search).get('query');
+  if (initialQuery) {
+    input.value = initialQuery;
+    handleSearch();
+  }
   
   clearBtn.addEventListener('click', () => {
     input.value = '';

@@ -1,6 +1,7 @@
 ---
 import "../styles/global.css";
 import { ClientRouter } from "astro:transitions";
+import Analytics from "../components/Analytics.astro";
 
 interface Props {
   title: string;
@@ -8,6 +9,7 @@ interface Props {
   image?: string;
   preloadImage?: string;
   omitCanonical?: boolean;
+  ogType?: string;
 }
 
 const {
@@ -16,6 +18,7 @@ const {
   image = "/og-image.png",
   preloadImage,
   omitCanonical = false,
+  ogType = "website",
 } = Astro.props;
 
 const site = Astro.site ?? new URL(Astro.url.origin);
@@ -23,6 +26,53 @@ const canonicalURL = new URL(Astro.url.pathname, site);
 const absoluteImage = image.startsWith("http")
   ? image
   : new URL(image, site).toString();
+
+const siteUrl = site.toString().replace(/\/$/, "");
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": `${siteUrl}/#organization`,
+      name: "Ngobrolin WEB",
+      url: siteUrl,
+      logo: {
+        "@type": "ImageObject",
+        url: new URL("/og-image.png", site).toString(),
+      },
+      sameAs: [
+        "https://www.youtube.com/@RizaFahmi",
+        "https://open.spotify.com/show/1o2d75xrADb9x0AahDO0Ai",
+        "https://github.com/orgs/ngobrolin/discussions",
+        "https://x.com/search?q=%23ngobrolinweb&f=live",
+      ],
+    },
+    {
+      "@type": "WebSite",
+      "@id": `${siteUrl}/#website`,
+      url: siteUrl,
+      name: "Ngobrolin WEB",
+      description,
+      publisher: { "@id": `${siteUrl}/#organization` },
+      inLanguage: "id-ID",
+      potentialAction: {
+        "@type": "SearchAction",
+        target: `${siteUrl}/episodes/?q={search_term_string}`,
+        "query-input": "required name=search_term_string",
+      },
+    },
+    {
+      "@type": "WebPage",
+      "@id": `${canonicalURL.toString()}#webpage`,
+      url: canonicalURL.toString(),
+      name: title,
+      description,
+      isPartOf: { "@id": `${siteUrl}/#website` },
+      inLanguage: "id-ID",
+      primaryImageOfPage: { "@type": "ImageObject", url: absoluteImage },
+    },
+  ],
+};
 ---
 
 <!doctype html>
@@ -50,13 +100,16 @@ const absoluteImage = image.startsWith("http")
     <title>{title}</title>
     <meta name="description" content={description} />
     {!omitCanonical && <link rel="canonical" href={canonicalURL} />}
+    <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
 
     <!-- Open Graph -->
-    <meta property="og:type" content="website" />
+    <meta property="og:type" content={ogType} />
     <meta property="og:url" content={canonicalURL} />
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
     <meta property="og:image" content={absoluteImage} />
+    <meta property="og:site_name" content="Ngobrolin WEB" />
+    <meta property="og:locale" content="id_ID" />
 
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image" />
@@ -80,6 +133,9 @@ const absoluteImage = image.startsWith("http")
 
     <!-- Additional head content -->
     <slot name="head" />
+
+    <!-- Analytics (optional; configured via PUBLIC_UMAMI_* env vars) -->
+    <Analytics />
 
     <!-- View Transitions Custom Duration -->
     <style is:global>
@@ -114,6 +170,9 @@ const absoluteImage = image.startsWith("http")
           <a href="/episodes" class="text-gray-300 hover:text-white transition"
             >Episode</a
           >
+          <a href="/tags" class="text-gray-300 hover:text-white transition"
+            >Topik</a
+          >
           <a href="/partners" class="text-gray-300 hover:text-white transition"
             >Partner</a
           >
@@ -121,7 +180,12 @@ const absoluteImage = image.startsWith("http")
             href="https://github.com/orgs/ngobrolin/discussions"
             target="_blank"
             rel="noopener noreferrer"
-            class="text-gray-300 hover:text-white transition">Diskusi</a
+            class="text-gray-300 hover:text-white transition"
+            data-analytics-event="outbound_click"
+            data-analytics-props={JSON.stringify({
+              dest: "github_discussions",
+              location: "nav_desktop",
+            })}>Diskusi</a
           >
           <a href="/about" class="text-gray-300 hover:text-white transition"
             >Tentang</a
@@ -129,6 +193,11 @@ const absoluteImage = image.startsWith("http")
           <a
             href="/subscribe"
             class="bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded-lg text-sm font-medium transition"
+            data-analytics-event="cta_click"
+            data-analytics-props={JSON.stringify({
+              cta: "subscribe",
+              location: "nav_desktop",
+            })}
           >
             Langganan
           </a>
@@ -180,6 +249,10 @@ const absoluteImage = image.startsWith("http")
             class="text-gray-300 hover:text-white transition py-2">Episode</a
           >
           <a
+            href="/tags"
+            class="text-gray-300 hover:text-white transition py-2">Topik</a
+          >
+          <a
             href="/partners"
             class="text-gray-300 hover:text-white transition py-2">Partner</a
           >
@@ -187,7 +260,12 @@ const absoluteImage = image.startsWith("http")
             href="https://github.com/orgs/ngobrolin/discussions"
             target="_blank"
             rel="noopener noreferrer"
-            class="text-gray-300 hover:text-white transition py-2">Diskusi</a
+            class="text-gray-300 hover:text-white transition py-2"
+            data-analytics-event="outbound_click"
+            data-analytics-props={JSON.stringify({
+              dest: "github_discussions",
+              location: "nav_mobile",
+            })}>Diskusi</a
           >
           <a
             href="/about"
@@ -196,6 +274,11 @@ const absoluteImage = image.startsWith("http")
           <a
             href="/subscribe"
             class="bg-red-600 hover:bg-red-700 text-white px-4 py-3 rounded-lg text-sm font-medium transition text-center mt-2"
+            data-analytics-event="cta_click"
+            data-analytics-props={JSON.stringify({
+              cta: "subscribe",
+              location: "nav_mobile",
+            })}
           >
             Langganan
           </a>
@@ -222,6 +305,11 @@ const absoluteImage = image.startsWith("http")
               target="_blank"
               rel="noopener noreferrer"
               class="text-gray-400 hover:text-white transition"
+              data-analytics-event="outbound_click"
+              data-analytics-props={JSON.stringify({
+                dest: "youtube_channel",
+                location: "footer",
+              })}
             >
               YouTube
             </a>
@@ -230,6 +318,11 @@ const absoluteImage = image.startsWith("http")
               target="_blank"
               rel="noopener noreferrer"
               class="text-gray-400 hover:text-white transition"
+              data-analytics-event="outbound_click"
+              data-analytics-props={JSON.stringify({
+                dest: "x_hashtag",
+                location: "footer",
+              })}
             >
               X
             </a>
@@ -239,6 +332,11 @@ const absoluteImage = image.startsWith("http")
               rel="noopener noreferrer"
               class="text-gray-400 hover:text-[#1DB954] transition flex items-center gap-1"
               title="Spotify"
+              data-analytics-event="outbound_click"
+              data-analytics-props={JSON.stringify({
+                dest: "spotify_show",
+                location: "footer",
+              })}
             >
               <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
                 <path d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.521 17.34c-.24.359-.66.48-1.021.24-2.82-1.74-6.36-2.101-10.561-1.141-.418.122-.779-.179-.899-.539-.12-.421.18-.78.54-.9 4.56-1.021 8.52-.6 11.64 1.32.42.18.479.659.301 1.02zm1.44-3.3c-.301.42-.841.6-1.262.3-3.239-1.98-8.159-2.58-11.939-1.38-.479.12-1.02-.12-1.14-.6-.12-.48.12-1.021.6-1.141C9.6 9.9 15 10.561 18.72 12.84c.361.181.54.78.241 1.2zm.12-3.36C15.24 8.4 8.82 8.16 5.16 9.301c-.6.179-1.2-.181-1.38-.721-.18-.601.18-1.2.72-1.381 4.26-1.26 11.28-1.02 15.721 1.621.539.3.719 1.02.419 1.56-.299.421-1.02.599-1.559.3z"/>
