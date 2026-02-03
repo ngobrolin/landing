@@ -138,6 +138,18 @@ Deploy to any static hosting:
 - **Netlify**: Same settings
 - **Vercel**: Auto-detected
 
+## Analytics (Optional)
+
+This site supports optional [Umami](https://umami.is) analytics (pageviews + custom events).
+
+Configure at build time (e.g. Cloudflare Pages env vars):
+
+- `PUBLIC_UMAMI_WEBSITE_ID` (required to enable)
+- `PUBLIC_UMAMI_SCRIPT_URL` (optional; default `https://cloud.umami.is/script.js`)
+- `PUBLIC_UMAMI_DOMAINS` (optional; e.g. `ngobrol.in`)
+
+Tracked events include: `outbound_click`, `subscribe_click`, `cta_click`, `share_click`, `video_play`.
+
 ## License
 
 MIT

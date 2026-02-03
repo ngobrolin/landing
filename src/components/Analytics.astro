@@ -1,0 +1,73 @@
+---
+const websiteId = import.meta.env.PUBLIC_UMAMI_WEBSITE_ID;
+const scriptUrl =
+  import.meta.env.PUBLIC_UMAMI_SCRIPT_URL ?? "https://cloud.umami.is/script.js";
+const domains = import.meta.env.PUBLIC_UMAMI_DOMAINS;
+
+const enabled = Boolean(websiteId);
+---
+
+{
+  enabled && (
+    <>
+      <script
+        defer
+        src={scriptUrl}
+        data-website-id={websiteId}
+        {...(domains ? { "data-domains": domains } : {})}
+      />
+
+      <script is:inline data-astro-rerun>
+        (function initAnalyticsBridge() {
+          if (document.documentElement.hasAttribute("data-analytics-initialized")) {
+            return;
+          }
+          document.documentElement.setAttribute("data-analytics-initialized", "true");
+
+          window.__ngobrolinAnalytics = window.__ngobrolinAnalytics ?? {
+            track: function (name, data) {
+              try {
+                if (window.umami && typeof window.umami.track === "function") {
+                  window.umami.track(name, data);
+                }
+              } catch {
+                // no-op
+              }
+            },
+          };
+
+          document.addEventListener(
+            "click",
+            function (event) {
+              const target = event.target;
+              if (!(target instanceof Element)) return;
+
+              const el = target.closest("[data-analytics-event]");
+              if (!el) return;
+
+              const name = el.getAttribute("data-analytics-event");
+              if (!name) return;
+
+              let props = {};
+              const rawProps = el.getAttribute("data-analytics-props");
+              if (rawProps) {
+                try {
+                  props = JSON.parse(rawProps);
+                } catch {
+                  // ignore invalid json
+                }
+              }
+
+              if (el instanceof HTMLAnchorElement) {
+                props = { href: el.href, ...props };
+              }
+
+              window.__ngobrolinAnalytics?.track?.(name, props);
+            },
+            { capture: true }
+          );
+        })();
+      </script>
+    </>
+  )
+}

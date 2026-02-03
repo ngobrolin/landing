@@ -17,11 +17,41 @@ const bgStyle = backgroundImage
     videoid={videoId}
     playlabel={`Putar: ${title}`}
     style={bgStyle}
+    data-video-id={videoId}
+    data-video-title={title}
   ></lite-youtube>
 </div>
 
 <script>
   import 'lite-youtube-embed';
+</script>
+
+<script is:inline data-astro-rerun>
+  (function initYouTubePlayTracking() {
+    const embeds = document.querySelectorAll("lite-youtube[data-video-id]");
+    embeds.forEach((embed) => {
+      if (!(embed instanceof HTMLElement)) return;
+      if (embed.hasAttribute("data-yt-track-initialized")) return;
+      embed.setAttribute("data-yt-track-initialized", "true");
+
+      embed.addEventListener(
+        "click",
+        () => {
+          if (embed.hasAttribute("data-yt-play-tracked")) return;
+          embed.setAttribute("data-yt-play-tracked", "true");
+
+          const id = embed.getAttribute("data-video-id");
+          const title = embed.getAttribute("data-video-title");
+
+          window.__ngobrolinAnalytics?.track?.("video_play", {
+            videoId: id,
+            title,
+          });
+        },
+        { capture: true }
+      );
+    });
+  })();
 </script>
 
 <style is:global>
