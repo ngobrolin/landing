@@ -13,11 +13,45 @@ const bgStyle = backgroundImage
 ---
 
 <div class="rounded-xl overflow-hidden">
-  <lite-youtube videoid={videoId} playlabel=" " style={bgStyle}></lite-youtube>
+  <lite-youtube
+    videoid={videoId}
+    playlabel={`Putar: ${title}`}
+    style={bgStyle}
+    data-video-id={videoId}
+    data-video-title={title}
+  ></lite-youtube>
 </div>
 
 <script>
   import 'lite-youtube-embed';
+</script>
+
+<script is:inline data-astro-rerun>
+  (function initYouTubePlayTracking() {
+    const embeds = document.querySelectorAll("lite-youtube[data-video-id]");
+    embeds.forEach((embed) => {
+      if (!(embed instanceof HTMLElement)) return;
+      if (embed.hasAttribute("data-yt-track-initialized")) return;
+      embed.setAttribute("data-yt-track-initialized", "true");
+
+      embed.addEventListener(
+        "click",
+        () => {
+          if (embed.hasAttribute("data-yt-play-tracked")) return;
+          embed.setAttribute("data-yt-play-tracked", "true");
+
+          const id = embed.getAttribute("data-video-id");
+          const title = embed.getAttribute("data-video-title");
+
+          window.__ngobrolinAnalytics?.track?.("video_play", {
+            videoId: id,
+            title,
+          });
+        },
+        { capture: true }
+      );
+    });
+  })();
 </script>
 
 <style is:global>
@@ -95,7 +129,16 @@ const bgStyle = backgroundImage
     content: none !important;
   }
 
-  lite-youtube > .lyt-visually-hidden {
-    display: none !important;
+  /* Keep the play label accessible without showing it visually */
+  lite-youtube .lyt-visually-hidden {
+    position: absolute !important;
+    width: 1px !important;
+    height: 1px !important;
+    padding: 0 !important;
+    margin: -1px !important;
+    overflow: hidden !important;
+    clip: rect(0, 0, 0, 0) !important;
+    white-space: nowrap !important;
+    border: 0 !important;
   }
 </style>
