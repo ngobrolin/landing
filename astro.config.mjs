@@ -3,6 +3,7 @@ import { defineConfig } from 'astro/config';
 import tailwindcss from '@tailwindcss/vite';
 import sitemap from '@astrojs/sitemap';
 import { getEpisodes } from './src/lib/episodes';
+import fs from 'node:fs';
 
 // https://astro.build/config
 export default defineConfig({
@@ -22,6 +23,7 @@ export default defineConfig({
       priority: 0.7,
       serialize(item) {
         const url = new URL(item.url);
+        const tags = getTagsByVideoId();
 
         // Homepage - highest priority
         if (url.pathname === '/') {

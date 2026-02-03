@@ -1,7 +1,7 @@
 import type { Episode } from './episodes';
-import tagsData from '../data/tags.json';
+import { TAGS_BY_VIDEO_ID, getEpisodeTags } from './tags';
 
-const tags: Record<string, string[]> = tagsData;
+export { getEpisodeTags } from './tags';
 
 const STOPWORDS = new Set([
   // Indonesian
@@ -16,9 +16,9 @@ const STOPWORDS = new Set([
 // Calculate IDF (Inverse Document Frequency) for each tag
 function calculateIDF(): Record<string, number> {
   const tagCounts: Record<string, number> = {};
-  const totalDocs = Object.keys(tags).length;
+  const totalDocs = Object.keys(TAGS_BY_VIDEO_ID).length;
 
-  for (const videoTags of Object.values(tags)) {
+  for (const videoTags of Object.values(TAGS_BY_VIDEO_ID)) {
     for (const tag of videoTags) {
       tagCounts[tag] = (tagCounts[tag] || 0) + 1;
     }
@@ -34,10 +34,6 @@ function calculateIDF(): Record<string, number> {
 }
 
 const idfScores = calculateIDF();
-
-export function getEpisodeTags(videoId: string): string[] {
-  return tags[videoId] || [];
-}
 
 export function calculateSimilarity(videoId1: string, videoId2: string): number {
   const tags1 = new Set(getEpisodeTags(videoId1));
