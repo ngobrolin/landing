@@ -1,0 +1,47 @@
+name: Bundle Size Report
+
+on:
+  pull_request:
+    branches: [main]
+
+jobs:
+  bundle-size:
+    name: Bundle Size Report
+    runs-on: ubuntu-latest
+    permissions:
+      pull-requests: write
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build project
+        run: npm run build
+
+      - name: Analyze bundle size
+        id: bundle-analysis
+        run: |
+          npx tsx scripts/analyze-bundle.ts > bundle-report.md
+          echo "report_path=bundle-report.md" >> $GITHUB_OUTPUT
+
+      - name: Post bundle size report to PR
+        uses: marocchino/sticky-pull-request-comment@v2
+        with:
+          header: bundle-size-report
+          path: bundle-report.md
+
+      - name: Upload bundle stats as artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: bundle-stats
+          path: |
+            dist/stats.json
+            bundle-report.md
+          retention-days: 30
