@@ -55,7 +55,7 @@ const nextEpisode = currentIndex > 0 ? episodes[currentIndex - 1] : null;
 const summary = getSummary(episode.videoId);
 const transcript = getTranscript(episode.videoId);
 const metaDescription = getMetaDescription(episode, summary);
-const siteUrl = Astro.site?.toString().replace(/\/$/, '') || 'https://ngobrolin.com';
+const siteUrl = Astro.site?.toString().replace(/\/$/, '') || 'https://ngobrol.in';
 
 const videoSchema = generateVideoSchema(episode, summary, transcript, siteUrl);
 const breadcrumbSchema = generateBreadcrumbSchema(episode, siteUrl);
@@ -72,6 +72,7 @@ const episodeUrl = `${siteUrl}/episodes/${episode.slug}`;
   description={metaDescription}
   image={episode.thumbnail}
   preloadImage={optimizedThumbnail.src}
+  ogType="video.other"
 >
   <!-- Structured Data -->
   <Fragment slot="head">

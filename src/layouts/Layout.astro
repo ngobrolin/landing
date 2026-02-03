@@ -8,6 +8,7 @@ interface Props {
   image?: string;
   preloadImage?: string;
   omitCanonical?: boolean;
+  ogType?: string;
 }
 
 const {
@@ -16,6 +17,7 @@ const {
   image = "/og-image.png",
   preloadImage,
   omitCanonical = false,
+  ogType = "website",
 } = Astro.props;
 
 const site = Astro.site ?? new URL(Astro.url.origin);
@@ -23,6 +25,53 @@ const canonicalURL = new URL(Astro.url.pathname, site);
 const absoluteImage = image.startsWith("http")
   ? image
   : new URL(image, site).toString();
+
+const siteUrl = site.toString().replace(/\/$/, "");
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": `${siteUrl}/#organization`,
+      name: "Ngobrolin WEB",
+      url: siteUrl,
+      logo: {
+        "@type": "ImageObject",
+        url: new URL("/og-image.png", site).toString(),
+      },
+      sameAs: [
+        "https://www.youtube.com/@RizaFahmi",
+        "https://open.spotify.com/show/1o2d75xrADb9x0AahDO0Ai",
+        "https://github.com/orgs/ngobrolin/discussions",
+        "https://x.com/search?q=%23ngobrolinweb&f=live",
+      ],
+    },
+    {
+      "@type": "WebSite",
+      "@id": `${siteUrl}/#website`,
+      url: siteUrl,
+      name: "Ngobrolin WEB",
+      description,
+      publisher: { "@id": `${siteUrl}/#organization` },
+      inLanguage: "id-ID",
+      potentialAction: {
+        "@type": "SearchAction",
+        target: `${siteUrl}/episodes/?q={search_term_string}`,
+        "query-input": "required name=search_term_string",
+      },
+    },
+    {
+      "@type": "WebPage",
+      "@id": `${canonicalURL.toString()}#webpage`,
+      url: canonicalURL.toString(),
+      name: title,
+      description,
+      isPartOf: { "@id": `${siteUrl}/#website` },
+      inLanguage: "id-ID",
+      primaryImageOfPage: { "@type": "ImageObject", url: absoluteImage },
+    },
+  ],
+};
 ---
 
 <!doctype html>
@@ -50,13 +99,17 @@ const absoluteImage = image.startsWith("http")
     <title>{title}</title>
     <meta name="description" content={description} />
     {!omitCanonical && <link rel="canonical" href={canonicalURL} />}
+    <link rel="canonical" href={canonicalURL} />
+    <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
 
     <!-- Open Graph -->
-    <meta property="og:type" content="website" />
+    <meta property="og:type" content={ogType} />
     <meta property="og:url" content={canonicalURL} />
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
     <meta property="og:image" content={absoluteImage} />
+    <meta property="og:site_name" content="Ngobrolin WEB" />
+    <meta property="og:locale" content="id_ID" />
 
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image" />

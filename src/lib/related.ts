@@ -3,6 +3,16 @@ import tagsData from '../data/tags.json';
 
 const tags: Record<string, string[]> = tagsData;
 
+const STOPWORDS = new Set([
+  // Indonesian
+  'dan', 'yang', 'dengan', 'di', 'ke', 'dari', 'untuk', 'pada', 'ini', 'itu', 'atau', 'juga',
+  'kami', 'kita', 'kalian', 'anda', 'dalam', 'sebagai', 'jadi', 'agar', 'bisa', 'lebih',
+  // Common show words
+  'ngobrolin', 'web', 'episode', 'ep', 'feat', 'bareng', 'bersama',
+  // English
+  'the', 'and', 'with', 'from', 'for', 'to', 'in', 'on', 'of', 'a', 'an',
+]);
+
 // Calculate IDF (Inverse Document Frequency) for each tag
 function calculateIDF(): Record<string, number> {
   const tagCounts: Record<string, number> = {};
@@ -50,6 +60,37 @@ export function calculateSimilarity(videoId1: string, videoId2: string): number 
   return score / minSize;
 }
 
+function tokenize(text: string): Set<string> {
+  const tokens = String(text)
+    .toLowerCase()
+    .replace(/[^a-z0-9\s-]/g, ' ')
+    .replace(/[-_]/g, ' ')
+    .split(/\s+/)
+    .map((t) => t.trim())
+    .filter((t) => t.length >= 3)
+    .filter((t) => !STOPWORDS.has(t));
+
+  return new Set(tokens);
+}
+
+function textSimilarity(a: Episode, b: Episode): number {
+  const aText = `${a.title} ${a.brief ?? ''}`;
+  const bText = `${b.title} ${b.brief ?? ''}`;
+
+  const aTokens = tokenize(aText);
+  const bTokens = tokenize(bText);
+
+  if (aTokens.size === 0 || bTokens.size === 0) return 0;
+
+  let intersection = 0;
+  for (const t of aTokens) {
+    if (bTokens.has(t)) intersection++;
+  }
+
+  const union = aTokens.size + bTokens.size - intersection;
+  return union === 0 ? 0 : intersection / union;
+}
+
 export function getRelatedEpisodes(
   currentEpisode: Episode,
   allEpisodes: Episode[],
@@ -61,20 +102,33 @@ export function getRelatedEpisodes(
 
   const scored = candidates.map((episode) => ({
     episode,
-    score: calculateSimilarity(currentEpisode.videoId, episode.videoId),
+    tagScore: calculateSimilarity(currentEpisode.videoId, episode.videoId),
+    textScore: textSimilarity(currentEpisode, episode),
   }));
 
-  // Sort by score descending, then by date (newer first) as tiebreaker
+  // Sort by tag similarity (best signal), then title/brief similarity, then date (newer first).
   scored.sort((a, b) => {
-    if (b.score !== a.score) {
-      return b.score - a.score;
-    }
-    return new Date(b.episode.publishedAt).getTime() - new Date(a.episode.publishedAt).getTime();
+    if (b.tagScore !== a.tagScore) return b.tagScore - a.tagScore;
+    if (b.textScore !== a.textScore) return b.textScore - a.textScore;
+    return (
+      new Date(b.episode.publishedAt).getTime() -
+      new Date(a.episode.publishedAt).getTime()
+    );
   });
 
-  // Only return episodes with some similarity
-  return scored
-    .filter((s) => s.score > 0)
-    .slice(0, limit)
-    .map((s) => s.episode);
+  const top = scored.slice(0, limit).map((s) => s.episode);
+
+  // If everything is a "0 match", fall back to the most recent episodes.
+  const hasAnySignal = scored.some((s) => s.tagScore > 0 || s.textScore > 0);
+  if (!hasAnySignal) {
+    return candidates
+      .slice()
+      .sort(
+        (a, b) =>
+          new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime()
+      )
+      .slice(0, limit);
+  }
+
+  return top;
 }

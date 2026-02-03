@@ -13,7 +13,11 @@ const bgStyle = backgroundImage
 ---
 
 <div class="rounded-xl overflow-hidden">
-  <lite-youtube videoid={videoId} playlabel=" " style={bgStyle}></lite-youtube>
+  <lite-youtube
+    videoid={videoId}
+    playlabel={`Putar: ${title}`}
+    style={bgStyle}
+  ></lite-youtube>
 </div>
 
 <script>
