@@ -67,7 +67,7 @@ export function getPodcastEpisodes(): PodcastEpisode[] {
     )
     .map((ep) => ({
       title: ep.title,
-      description: ep.description + EPISODE_DESCRIPTION_SUFFIX,
+      description: (ep.summary || ep.description) + EPISODE_DESCRIPTION_SUFFIX,
       publishedAt: ep.publishedAt,
       audioUrl: ep.audioUrl,
       audioDuration: ep.audioDuration,
