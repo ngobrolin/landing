@@ -29,6 +29,7 @@ export interface PodcastMetadata {
 interface RawEpisode {
   videoId: string;
   title: string;
+  summary?: string;
   description: string;
   publishedAt: string;
   thumbnail: string;
