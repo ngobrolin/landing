@@ -29,6 +29,7 @@ export interface PodcastMetadata {
 interface RawEpisode {
   videoId: string;
   title: string;
+  summary?: string;
   description: string;
   publishedAt: string;
   thumbnail: string;
@@ -67,7 +68,7 @@ export function getPodcastEpisodes(): PodcastEpisode[] {
     )
     .map((ep) => ({
       title: ep.title,
-      description: ep.description + EPISODE_DESCRIPTION_SUFFIX,
+      description: (ep.summary || ep.description) + EPISODE_DESCRIPTION_SUFFIX,
       publishedAt: ep.publishedAt,
       audioUrl: ep.audioUrl,
       audioDuration: ep.audioDuration,
