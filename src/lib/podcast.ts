@@ -1,5 +1,6 @@
 import episodesData from "../data/episodes.json";
 import { slugify } from "./episodes";
+import { getSummary } from "./seo";
 
 export interface PodcastEpisode {
   title: string;
@@ -29,7 +30,6 @@ export interface PodcastMetadata {
 interface RawEpisode {
   videoId: string;
   title: string;
-  summary?: string;
   description: string;
   publishedAt: string;
   thumbnail: string;
@@ -66,17 +66,20 @@ export function getPodcastEpisodes(): PodcastEpisode[] {
       (ep): ep is RawEpisode & { audioUrl: string; audioDuration: number; audioFileSize: number } =>
         !!ep.audioUrl && !!ep.audioDuration && !!ep.audioFileSize
     )
-    .map((ep) => ({
-      title: ep.title,
-      description: (ep.summary || ep.description) + EPISODE_DESCRIPTION_SUFFIX,
-      publishedAt: ep.publishedAt,
-      audioUrl: ep.audioUrl,
-      audioDuration: ep.audioDuration,
-      audioFileSize: ep.audioFileSize,
-      slug: `${ep.videoId}-${slugify(ep.title)}`,
-      videoId: ep.videoId,
-      episodeNumber: 0,
-    }))
+    .map((ep) => {
+      const summary = getSummary(ep.videoId);
+      return {
+        title: ep.title,
+        description: (summary?.brief || ep.description) + EPISODE_DESCRIPTION_SUFFIX,
+        publishedAt: ep.publishedAt,
+        audioUrl: ep.audioUrl,
+        audioDuration: ep.audioDuration,
+        audioFileSize: ep.audioFileSize,
+        slug: `${ep.videoId}-${slugify(ep.title)}`,
+        videoId: ep.videoId,
+        episodeNumber: 0,
+      };
+    })
     .sort((a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime())
     .map((ep, idx, arr) => ({
       ...ep,
