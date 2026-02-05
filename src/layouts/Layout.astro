@@ -134,6 +134,21 @@ const jsonLd = {
     <!-- Additional head content -->
     <slot name="head" />
 
+    <!-- Speculation Rules API for prefetch/prerender -->
+    <script type="speculationrules">
+{
+  "prefetch": [{
+    "source": "document",
+    "where": { "href_matches": "/episodes/*" },
+    "eagerness": "eager"
+  }],
+  "prerender": [{
+    "source": "list",
+    "urls": ["/episodes"]
+  }]
+}
+</script>
+
     <!-- Analytics (optional; configured via PUBLIC_UMAMI_* env vars) -->
     <Analytics />
 
