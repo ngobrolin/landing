@@ -11,7 +11,7 @@ const TRANSCRIPTS_DIR = join(ROOT_DIR, 'src/data/transcripts');
 const EPISODES_FILE = join(ROOT_DIR, 'src/data/episodes.json');
 const TEMP_DIR = join(ROOT_DIR, '.tmp-audio');
 
-const WHISPER_MODEL = join(process.env.HOME, 'Downloads/ggml-medium.bin');
+const WHISPER_MODEL_DEFAULT = join(process.env.HOME, 'Downloads/ggml-medium.bin');
 
 // Fallback paths for macOS/Linux when not in PATH
 const WHISPER_CLI_FALLBACK = '/Users/riza/.nix-profile/bin/whisper-cli';
@@ -68,13 +68,13 @@ function downloadAudio(videoId) {
   return outputPath;
 }
 
-function transcribe(audioPath, videoId) {
+function transcribe(audioPath, videoId, model) {
   console.log(`  Transcribing ${videoId}...`);
-  
+
   const outputBase = join(TEMP_DIR, videoId);
-  
+
   execSync(
-    `${WHISPER_CLI} -m "${WHISPER_MODEL}" -l id -oj -of "${outputBase}" "${audioPath}"`,
+    `${WHISPER_CLI} -m "${model}" -l id -oj -of "${outputBase}" "${audioPath}"`,
     { stdio: 'inherit' }
   );
   
@@ -114,11 +114,20 @@ function cleanup(videoId) {
 
 async function main() {
   const args = process.argv.slice(2);
+
+  // Parse --model argument
+  let whisperModel = WHISPER_MODEL_DEFAULT;
+  const modelIndex = args.indexOf('--model');
+  if (modelIndex !== -1 && args[modelIndex + 1]) {
+    whisperModel = args[modelIndex + 1];
+    args.splice(modelIndex, 2); // Remove --model and its value from args
+  }
+
   const episodes = getEpisodes();
   const existingTranscripts = getExistingTranscripts();
-  
+
   let toProcess = [];
-  
+
   const missing = episodes
     .filter(e => !existingTranscripts.has(e.videoId))
     .map(e => e.videoId);
@@ -149,7 +158,7 @@ async function main() {
     
     try {
       const audioPath = downloadAudio(videoId);
-      transcribe(audioPath, videoId);
+      transcribe(audioPath, videoId, whisperModel);
       cleanup(videoId);
       console.log(`  ✓ Done!`);
     } catch (error) {
