@@ -1,6 +1,6 @@
---- 
-import { getEpisodes } from '../lib/episodes';
-import EpisodeCard from './EpisodeCard.astro';
+---
+import { getEpisodes } from "../lib/episodes";
+import EpisodeCard from "./EpisodeCard.astro";
 
 const episodes = getEpisodes();
 const searchData = episodes.map((ep, idx) => ({
@@ -25,41 +25,59 @@ const searchData = episodes.map((ep, idx) => ({
       aria-label="Cari episode"
       class="w-full bg-dark-card border border-dark-border rounded-lg px-4 py-3 pl-12 text-white placeholder-gray-500 focus:outline-none focus:border-primary transition"
     />
-    <svg 
+    <svg
       class="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-gray-500"
-      fill="none" 
-      stroke="currentColor" 
+      fill="none"
+      stroke="currentColor"
       viewBox="0 0 24 24"
     >
-      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/>
+      <path
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="2"
+        d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
     </svg>
     <button
       id="clear-search"
       class="absolute right-4 top-1/2 -translate-y-1/2 text-gray-500 hover:text-white transition hidden"
     >
-      <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
+      <svg
+        class="w-5 h-5"
+        fill="none"
+        stroke="currentColor"
+        viewBox="0 0 24 24"
+      >
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          d="M6 18L18 6M6 6l12 12"></path>
       </svg>
     </button>
   </div>
   <p id="search-results-count" class="text-gray-400 text-sm mt-2 hidden"></p>
 </div>
 
-<div id="episodes-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-  {searchData.map((episode, index) => (
-    <EpisodeCard
-      title={episode.title}
-      description={episode.description}
-      publishedAt={episode.publishedAt}
-      thumbnail={episode.thumbnail}
-      episodeNumber={episode.episodeNumber}
-      slug={episode.slug}
-      isNew={episode.isNew}
-      loading={index < 4 ? "eager" : "lazy"}
-      fetchPriority={index === 0 ? "high" : undefined}
-      brief={episode.brief}
-    />
-  ))}
+<div
+  id="episodes-grid"
+  class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6"
+>
+  {
+    searchData.map((episode, index) => (
+      <EpisodeCard
+        title={episode.title}
+        description={episode.description}
+        publishedAt={episode.publishedAt}
+        thumbnail={episode.thumbnail}
+        episodeNumber={episode.episodeNumber}
+        slug={episode.slug}
+        isNew={episode.isNew}
+        loading={index < 4 ? "eager" : "lazy"}
+        fetchPriority={index === 0 ? "high" : undefined}
+        brief={episode.brief}
+      />
+    ))
+  }
 </div>
 
 <div id="no-results" class="hidden text-center py-12">
@@ -67,123 +85,148 @@ const searchData = episodes.map((ep, idx) => ({
   <p class="text-gray-500 text-sm mt-2">Coba kata kunci lain.</p>
 </div>
 
-<script id="episodes-data" type="application/json" set:html={JSON.stringify(searchData)} />
+<script
+  id="episodes-data"
+  type="application/json"
+  set:html={JSON.stringify(searchData).replace(/</g, "\\u003c")}
+/>
 
 <script>
-  import Fuse from 'fuse.js';
+  import Fuse from "fuse.js";
+  window.Fuse = Fuse;
+</script>
 
-  const searchData = JSON.parse(document.getElementById('episodes-data')?.textContent || '[]');
+<script is:inline data-astro-rerun>
+  (function initSearch() {
+    const input = document.getElementById("search-input");
+    if (!input) return;
 
-  const fuse = new Fuse(searchData, {
-    keys: ['title', 'description', 'brief'],
-    threshold: 0.4,
-    includeScore: true
-  });
+    // Guard: prevent duplicate initialization
+    if (input.hasAttribute("data-search-initialized")) return;
+    input.setAttribute("data-search-initialized", "true");
 
-  const input = document.getElementById('search-input');
-  const clearBtn = document.getElementById('clear-search');
-  const grid = document.getElementById('episodes-grid');
-  const noResults = document.getElementById('no-results');
-  const resultsCount = document.getElementById('search-results-count');
-  
-  // Store the initial content to restore it when search is cleared
-  const initialContent = grid.innerHTML;
+    const searchData = JSON.parse(
+      document.getElementById("episodes-data")?.textContent || "[]"
+    );
 
-  function formatDate(dateStr) {
-    return new Date(dateStr).toLocaleDateString('id-ID', {
-      day: 'numeric',
-      month: 'short',
-      year: 'numeric'
+    const fuse = new window.Fuse(searchData, {
+      keys: ["title", "description", "brief"],
+      threshold: 0.4,
+      includeScore: true,
     });
-  }
 
-  function escapeHtml(text) {
-    const div = document.createElement('div');
-    div.textContent = text;
-    return div.innerHTML;
-  }
+    const clearBtn = document.getElementById("clear-search");
+    const grid = document.getElementById("episodes-grid");
+    const noResults = document.getElementById("no-results");
+    const resultsCount = document.getElementById("search-results-count");
 
-  function renderEpisodes(episodes) {
-    if (episodes.length === 0) {
-      grid.classList.add('hidden');
-      noResults.classList.remove('hidden');
-      resultsCount.classList.add('hidden');
-      return;
+    // Store the initial content to restore it when search is cleared
+    const initialContent = grid.innerHTML;
+
+    function formatDate(dateStr) {
+      return new Date(dateStr).toLocaleDateString("id-ID", {
+        day: "numeric",
+        month: "short",
+        year: "numeric",
+      });
     }
 
-    grid.classList.remove('hidden');
-    noResults.classList.add('hidden');
+    function escapeHtml(text) {
+      const div = document.createElement("div");
+      div.textContent = text;
+      return div.innerHTML;
+    }
 
-    const truncate = (text, len) => text.length > len ? text.substring(0, len) + '...' : text;
+    function renderEpisodes(episodes) {
+      if (episodes.length === 0) {
+        grid.classList.add("hidden");
+        noResults.classList.remove("hidden");
+        resultsCount.classList.add("hidden");
+        return;
+      }
 
-    grid.innerHTML = episodes.map((ep) => {
-      const displayDesc = ep.brief || ep.description;
-      return `
-      <a
-        href="/episodes/${escapeHtml(ep.slug)}"
-        class="group block bg-[#1a1a1a] border border-[#2a2a2a] rounded-xl overflow-hidden hover:border-[#6366f1]/50 transition-all duration-300 hover:shadow-lg hover:shadow-[#6366f1]/10"
-      >
-        <div class="relative aspect-video overflow-hidden">
-          <img
-            src="${escapeHtml(ep.thumbnail)}"
-            alt="${escapeHtml(ep.title)}"
-            class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-            loading="lazy"
-          />
-          ${ep.isNew ? '<span class="absolute top-3 left-3 bg-[#6366f1] text-white text-xs font-bold px-2 py-1 rounded">BARU</span>' : ''}
-          <div class="absolute bottom-3 left-3 bg-black/70 text-white text-xs font-medium px-2 py-1 rounded">
-            EP ${ep.episodeNumber}
+      grid.classList.remove("hidden");
+      noResults.classList.add("hidden");
+
+      const truncate = (text, len) =>
+        text.length > len ? text.substring(0, len) + "..." : text;
+
+      grid.innerHTML = episodes
+        .map((ep) => {
+          const displayDesc = ep.brief || ep.description;
+          return `
+        <a
+          href="/episodes/${escapeHtml(ep.slug)}"
+          class="group block bg-[#1a1a1a] border border-[#2a2a2a] rounded-xl overflow-hidden hover:border-[#6366f1]/50 transition-all duration-300 hover:shadow-lg hover:shadow-[#6366f1]/10"
+        >
+          <div class="relative aspect-video overflow-hidden">
+            <img
+              src="${escapeHtml(ep.thumbnail)}"
+              alt="${escapeHtml(ep.title)}"
+              class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+              loading="lazy"
+            />
+            ${ep.isNew ? '<span class="absolute top-3 left-3 bg-[#6366f1] text-white text-xs font-bold px-2 py-1 rounded">BARU</span>' : ""}
+            <div class="absolute bottom-3 left-3 bg-black/70 text-white text-xs font-medium px-2 py-1 rounded">
+              EP ${ep.episodeNumber}
+            </div>
           </div>
-        </div>
-        <div class="p-4">
-          <p class="text-gray-400 text-xs mb-2">${formatDate(ep.publishedAt)}</p>
-          <h3 class="text-white font-semibold mb-2 group-hover:text-[#818cf8] transition line-clamp-2">
-            ${escapeHtml(ep.title)}
-          </h3>
-          <p class="text-gray-400 text-sm line-clamp-2">
-            ${escapeHtml(truncate(displayDesc, 120))}
-          </p>
-        </div>
-      </a>
-    `;
-    }).join('');
-  }
-
-  function handleSearch() {
-    const query = input.value.trim();
-    
-    clearBtn.classList.toggle('hidden', !query);
-    
-    if (!query) {
-      grid.innerHTML = initialContent;
-      grid.classList.remove('hidden');
-      noResults.classList.add('hidden');
-      resultsCount.classList.add('hidden');
-      return;
+          <div class="p-4">
+            <p class="text-gray-400 text-xs mb-2">${formatDate(ep.publishedAt)}</p>
+            <h3 class="text-white font-semibold mb-2 group-hover:text-[#818cf8] transition line-clamp-2">
+              ${escapeHtml(ep.title)}
+            </h3>
+            <p class="text-gray-400 text-sm line-clamp-2">
+              ${escapeHtml(truncate(displayDesc, 120))}
+            </p>
+          </div>
+        </a>
+      `;
+        })
+        .join("");
     }
 
-    const results = fuse.search(query).map(r => r.item);
-    renderEpisodes(results);
-    
-    resultsCount.textContent = `${results.length} episode ditemukan`;
-    resultsCount.classList.remove('hidden');
-  }
+    function handleSearch() {
+      const query = input.value.trim();
 
-  input.addEventListener('input', handleSearch);
+      clearBtn.classList.toggle("hidden", !query);
 
-  // Prefill from querystring, so search results are shareable (/episodes/?q=...)
-  const initialQuery = new URLSearchParams(window.location.search).get('q') ||
-    new URLSearchParams(window.location.search).get('query');
-  if (initialQuery) {
-    input.value = initialQuery;
-    handleSearch();
-  }
-  
-  clearBtn.addEventListener('click', () => {
-    input.value = '';
-    handleSearch();
-    input.focus();
-  });
+      if (!query) {
+        grid.innerHTML = initialContent;
+        grid.classList.remove("hidden");
+        noResults.classList.add("hidden");
+        resultsCount.classList.add("hidden");
+        return;
+      }
+
+      const results = fuse.search(query).map((r) => r.item);
+      renderEpisodes(results);
+
+      if (results.length > 0) {
+        resultsCount.textContent = `${results.length} episode ditemukan`;
+        resultsCount.classList.remove("hidden");
+      } else {
+        resultsCount.classList.add("hidden");
+      }
+    }
+
+    input.addEventListener("input", handleSearch);
+
+    // Prefill from querystring, so search results are shareable (/episodes/?q=...)
+    const initialQuery =
+      new URLSearchParams(window.location.search).get("q") ||
+      new URLSearchParams(window.location.search).get("query");
+    if (initialQuery) {
+      input.value = initialQuery;
+      handleSearch();
+    }
+
+    clearBtn.addEventListener("click", () => {
+      input.value = "";
+      handleSearch();
+      input.focus();
+    });
+  })();
 </script>
 <style>
   .line-clamp-2 {
