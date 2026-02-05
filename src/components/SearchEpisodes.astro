@@ -88,7 +88,7 @@ const searchData = episodes.map((ep, idx) => ({
 <script
   id="episodes-data"
   type="application/json"
-  set:html={JSON.stringify(searchData)}
+  set:html={JSON.stringify(searchData).replace(/</g, "\\u003c")}
 />
 
 <script>
@@ -199,8 +199,12 @@ const searchData = episodes.map((ep, idx) => ({
       const results = fuse.search(query).map((r) => r.item);
       renderEpisodes(results);
 
-      resultsCount.textContent = `${results.length} episode ditemukan`;
-      resultsCount.classList.remove("hidden");
+      if (results.length > 0) {
+        resultsCount.textContent = `${results.length} episode ditemukan`;
+        resultsCount.classList.remove("hidden");
+      } else {
+        resultsCount.classList.add("hidden");
+      }
     }
 
     input.addEventListener("input", handleSearch);
