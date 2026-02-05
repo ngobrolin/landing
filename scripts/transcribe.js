@@ -58,7 +58,7 @@ function getExistingTranscripts() {
   return new Set(files.split("\n").map((f) => f.replace(".json", "")));
 }
 
-function downloadAudio(videoId) {
+function downloadAudio(videoId, browser = "brave") {
   if (!existsSync(TEMP_DIR)) {
     mkdirSync(TEMP_DIR, { recursive: true });
   }
@@ -74,7 +74,7 @@ function downloadAudio(videoId) {
 
   const url = `https://www.youtube.com/watch?v=${videoId}`;
   execSync(
-    `${YT_DLP} -x --audio-format wav --audio-quality 0 --cookies-from-browser chrome -o "${outputPath}" "${url}"`,
+    `${YT_DLP} -x --audio-format wav --audio-quality 0 --cookies-from-browser ${browser} -o "${outputPath}" "${url}"`,
     { stdio: "inherit" }
   );
 
@@ -150,6 +150,14 @@ async function main() {
     args.splice(limitIndex, 2); // Remove --limit and its value from args
   }
 
+  // Parse --browser argument
+  let browser = "brave";
+  const browserIndex = args.indexOf("--browser");
+  if (browserIndex !== -1 && args[browserIndex + 1]) {
+    browser = args[browserIndex + 1];
+    args.splice(browserIndex, 2); // Remove --browser and its value from args
+  }
+
   const episodes = getEpisodes();
   const existingTranscripts = getExistingTranscripts();
 
@@ -190,7 +198,7 @@ async function main() {
     console.log(`\n[${videoId}] ${episode?.title || "Unknown"}`);
 
     try {
-      const audioPath = downloadAudio(videoId);
+      const audioPath = downloadAudio(videoId, browser);
       transcribe(audioPath, videoId, whisperModel);
       cleanup(videoId);
       console.log(`  ✓ Done!`);

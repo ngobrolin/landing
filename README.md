@@ -47,19 +47,58 @@ Generate transcripts for episodes using local Whisper:
 npm run transcribe
 
 # Transcribe specific episode
-npm run transcribe <videoId> -- --model <path>
+npm run transcribe <videoId>
 
-# Transcribe all missing
-npm run transcribe -- --missing --model <path> --limit <number>
+# Transcribe all missing episodes
+npm run transcribe -- --missing
 
 # Re-transcribe all episodes
-npm run transcribe --all -- --model <path> --limit <number>
-
-# Sample
-npm run transcribe -- --missing --model ~/Downloads/ggml-medium.bin --limit 2
+npm run transcribe -- --all
 ```
 
-Requires `whisper-cli` and `yt-dlp` installed locally.
+### Options
+
+| Flag               | Description                                        | Default                       |
+| ------------------ | -------------------------------------------------- | ----------------------------- |
+| `--model <path>`   | Path to Whisper model (.bin)                       | `~/Downloads/ggml-medium.bin` |
+| `--browser <name>` | Browser for cookies (chrome, brave, firefox, etc.) | `brave`                       |
+| `--limit <number>` | Max number of episodes to process                  | None (all)                    |
+| `--missing`        | Process episodes without transcripts               | -                             |
+| `--all`            | Process all episodes                               | -                             |
+
+### Examples
+
+```bash
+# Transcribe 5 missing episodes with custom model
+npm run transcribe -- --missing --limit 5 --model ~/Downloads/ggml-medium.bin
+
+# Transcribe all missing using Chrome cookies
+npm run transcribe -- --missing --browser chrome
+
+# Transcribe specific episode with all options
+npm run transcribe abc123xyz -- --model ~/models/ggml-large.bin --browser firefox --limit 1
+```
+
+### Requirements
+
+- **whisper-cli**: Install via `brew install whisper-cpp` ([GitHub](https://github.com/ggml-org/whisper.cpp)) - Metal GPU acceleration enabled on Apple Silicon
+- **yt-dlp**: Install via `brew install yt-dlp` ([GitHub](https://github.com/yt-dlp/yt-dlp))
+- **Whisper model**: Download from [huggingface.co/ggerganov/whisper.cpp](https://huggingface.co/ggerganov/whisper.cpp/tree/main)
+
+  Available models (size → speed vs accuracy):
+
+  - `ggml-tiny.bin` (~39MB) - Fastest, lowest accuracy
+  - `ggml-base.bin` (~74MB) - Fast, good accuracy
+  - `ggml-small.bin` (~244MB) - Balanced
+  - `ggml-medium.bin` (~769MB) - Slower, better accuracy
+  - `ggml-large-v3.bin` (~3.1GB) - Slowest, best accuracy
+
+  ```bash
+  # Example: download medium model
+  wget https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-medium.bin -P ~/Downloads
+  ```
+
+The script automatically finds executables in your PATH, with fallback to hardcoded paths if needed.
 
 ## Audio Podcast
 
