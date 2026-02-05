@@ -93,8 +93,11 @@ const searchData = episodes.map((ep, idx) => ({
 
 <script>
   import Fuse from "fuse.js";
+  window.Fuse = Fuse;
+</script>
 
-  function initSearch() {
+<script is:inline data-astro-rerun>
+  (function initSearch() {
     const input = document.getElementById("search-input");
     if (!input) return;
 
@@ -106,7 +109,7 @@ const searchData = episodes.map((ep, idx) => ({
       document.getElementById("episodes-data")?.textContent || "[]"
     );
 
-    const fuse = new Fuse(searchData, {
+    const fuse = new window.Fuse(searchData, {
       keys: ["title", "description", "brief"],
       threshold: 0.4,
       includeScore: true,
@@ -223,13 +226,7 @@ const searchData = episodes.map((ep, idx) => ({
       handleSearch();
       input.focus();
     });
-  }
-
-  // Run on initial load
-  initSearch();
-
-  // Re-run after Astro view transitions
-  document.addEventListener("astro:after-swap", initSearch);
+  })();
 </script>
 <style>
   .line-clamp-2 {
