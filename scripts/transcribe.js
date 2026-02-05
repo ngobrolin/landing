@@ -11,9 +11,25 @@ const TRANSCRIPTS_DIR = join(ROOT_DIR, 'src/data/transcripts');
 const EPISODES_FILE = join(ROOT_DIR, 'src/data/episodes.json');
 const TEMP_DIR = join(ROOT_DIR, '.tmp-audio');
 
-const WHISPER_CLI = '/Users/riza/.nix-profile/bin/whisper-cli';
 const WHISPER_MODEL = join(process.env.HOME, 'Downloads/ggml-medium.bin');
-const YT_DLP = '/Users/riza/.nix-profile/bin/yt-dlp';
+
+// Fallback paths for macOS/Linux when not in PATH
+const WHISPER_CLI_FALLBACK = '/Users/riza/.nix-profile/bin/whisper-cli';
+const YT_DLP_FALLBACK = '/Users/riza/.nix-profile/bin/yt-dlp';
+
+function findExecutable(name, fallback) {
+  try {
+    return execSync(`which ${name}`, { encoding: 'utf-8' }).trim();
+  } catch {
+    if (existsSync(fallback)) {
+      return fallback;
+    }
+    throw new Error(`Could not find ${name}. Ensure it's installed or check the path: ${fallback}`);
+  }
+}
+
+const WHISPER_CLI = findExecutable('whisper-cli', WHISPER_CLI_FALLBACK);
+const YT_DLP = findExecutable('yt-dlp', YT_DLP_FALLBACK);
 
 function getEpisodes() {
   return JSON.parse(readFileSync(EPISODES_FILE, 'utf-8'));
