@@ -34,4 +34,25 @@ test.describe('Tags Page', () => {
     // Should have a main heading about topics/tags
     await expect(page.getByRole('heading', { name: /topik/i })).toBeVisible();
   });
+
+  test('clicking a tag navigates to tag page with filtered episodes', async ({ page }) => {
+    await page.goto('/tags');
+
+    // Click on the first tag link
+    const firstTag = page.locator('a[href^="/tags/"]').first();
+    const tagText = await firstTag.locator('div').first().textContent();
+    await firstTag.click();
+
+    // Should navigate to the tag page
+    await expect(page).toHaveURL(/\/tags\/[a-z-]+/);
+
+    // Should show the tag name as heading
+    await expect(page.getByRole('heading', { level: 1 })).toContainText(tagText?.trim() || '');
+
+    // Should have episode cards
+    await expect(page.getByTestId('episode-card').first()).toBeVisible();
+
+    // Should have back link to all topics
+    await expect(page.getByRole('link', { name: /Semua Topik/i })).toBeVisible();
+  });
 });

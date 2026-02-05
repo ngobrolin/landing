@@ -25,7 +25,7 @@ const uniqueTags = tags.length;
       <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
         {tags.map(({ tag, count }) => (
           <a
-            href={`/episodes?q=${encodeURIComponent(tag)}`}
+            href={`/tags/${tag}`}
             class="block p-4 bg-dark-card border border-dark-border rounded-lg hover:border-primary/50 transition group"
           >
             <div class="text-white font-medium group-hover:text-primary-light transition mb-1">
