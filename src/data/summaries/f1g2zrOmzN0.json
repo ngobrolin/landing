@@ -1,0 +1,17 @@
+{
+  "videoId": "f1g2zrOmzN0",
+  "generatedAt": "2026-02-05T12:30:00Z",
+  "brief": "Episode ini membahas Web Interop 2025, sebuah inisiatif tahunan dari konsorsium browser vendor (Google, Mozilla, Apple, Microsoft) untuk menstandarisasi fitur-fitur web platform agar bekerja konsisten di semua browser. Diskusi dimulai dengan pembahasan tentang relevansi belajar coding di era AI dan perbandingan antara WFH vs commuting.\n\nTopik utama menjelaskan sejarah \"masa kelam\" pengembangan web di mana setiap browser memiliki standar sendiri, memaksa developer menggunakan hack seperti prefix (-webkit-, -moz-) dan polyfill. Interop hadir sebagai solusi dengan memilih fitur-fitur prioritas yang akan diimplementasikan secara konsisten. Episode mengulas dashboard Interop 2025 yang menunjukkan progress setiap browser, membahas area fokus seperti CSS Anchor Positioning, Popover API, View Transitions, WebAssembly, dan penghapusan API usang seperti Mutation Events. Juga dibahas Ladybird, browser baru yang dibangun dari scratch tanpa menggunakan engine yang sudah ada.",
+  "keyPoints": [
+    "Web Interop adalah inisiatif tahunan konsorsium browser (Google, Mozilla, Apple, Microsoft) untuk menstandarisasi fitur web agar bekerja konsisten di semua browser",
+    "Di era sebelum Interop, developer harus menghadapi perbedaan implementasi antar browser dengan menggunakan prefix, polyfill, dan user agent detection",
+    "Fitur dipilih untuk Interop melalui proses proposal, voting, dan refinement oleh browser vendors dan komunitas developer",
+    "Dashboard Interop 2025 menunjukkan persentase implementasi setiap browser - Microsoft Edge secara mengejutkan paling up-to-date pada versi stable",
+    "Area fokus Interop 2025 meliputi CSS Anchor Positioning, Popover API, View Transitions (same document), Backdrop Filter, dan CSS Scope",
+    "Improvement pada elemen Detail/Summary membuatnya lebih useful dengan kemampuan custom styling yang sebelumnya sulit dilakukan",
+    "API baru seperti Scrollend event menggantikan hack menggunakan setTimeout atau Intersection Observer untuk infinite scroll",
+    "Beberapa API di-remove seperti Mutation Events karena sudah memiliki pengganti yang lebih baik (Mutation Observer)",
+    "Ladybird adalah browser baru yang dibangun dari scratch tanpa menggunakan engine Blink, WebKit, atau Gecko yang sudah ada",
+    "Minggu depan akan membahas tentang Storybook"
+  ]
+}

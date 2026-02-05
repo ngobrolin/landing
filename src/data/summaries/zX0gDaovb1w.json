@@ -1,0 +1,15 @@
+{
+  "videoId": "zX0gDaovb1w",
+  "generatedAt": "2026-02-05T12:15:00Z",
+  "brief": "Episode ini membahas Database Scaling, khususnya perbedaan antara horizontal scaling dan vertical scaling. Topik ini diajukan oleh Mas Triad Moko melalui GitHub discussion sejak April tahun lalu. Narasumber tamu adalah Mas Doni yang sudah ketiga kalinya hadir di Ngobrolin WEB.\n\nDiskusi dimulai dengan cerita lucu tentang tagihan StreamYard yang membengkak hingga 13 juta per tahun setelah stream platform otomatis upgrade ke Pro ketika streaming ke 3 platform sekaligus. Kemudian masuk ke topik utama: database scaling. Host membahas bahwa tidak peduli seberapa cepat framework yang digunakan (Rust, Zig, Laravel), jika database query-nya lambat, aplikasi tetap akan lambat. Episode juga menyentuh perdebatan ORM vs Raw SQL, pentingnya memahami struktur data, tools untuk monitoring slow query, dan peran DBA di era modern.",
+  "keyPoints": [
+    "Horizontal scaling = menambah jumlah server, Vertical scaling = menambah spesifikasi server (CPU, RAM)",
+    "Database sering menjadi bottleneck terlepas dari kecepatan backend framework",
+    "Perdebatan ORM vs Raw SQL: ORM support raw query, pilihan tergantung konteks dan kebutuhan",
+    "SQL memerlukan cara berpikir berbeda (set theory, joins, grouping) yang sulit bagi frontend developer",
+    "Role DBA (Database Administrator) semakin langka, tugasnya sering dibebankan ke DevOps/SRE",
+    "Tools untuk monitoring slow query: MySQL slow query log, pgAdmin untuk PostgreSQL, Prometheus + Grafana",
+    "EXPLAIN ANALYZE untuk melihat execution plan dan mengidentifikasi query yang lambat",
+    "APM (Application Performance Monitoring) seperti New Relic mahal, alternatif open source: Prometheus + Grafana"
+  ]
+}

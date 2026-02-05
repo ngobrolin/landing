@@ -1,0 +1,16 @@
+{
+  "videoId": "0sMCTZ77Fjk",
+  "generatedAt": "2026-02-05T12:15:00Z",
+  "brief": "Episode ini merupakan sesi bedah situs yang pertama kali mendapatkan partisipasi dari penonton. Website yang dibedah adalah undangan pernikahan digital yang dibuat oleh Mas Grafis menggunakan Next.js 13 dengan Contentful sebagai headless CMS.\n\nDiskusi dimulai dengan pembahasan tentang pentingnya signed commit (GPG signing) untuk keamanan dan mencegah impersonasi di GitHub. Selanjutnya dilakukan analisis performa dan accessibility terhadap website tersebut. Beberapa masalah yang diidentifikasi meliputi auto-playing audio tanpa konsentrasi user, kontras warna yang kurang, navigasi carousel yang tidak ramah accessibility, serta bundle size yang cukup besar sekitar 4.1 MB terutama karena gambar. Episode juga membahas berbagai tools untuk mengecek accessibility seperti color contrast checker extension dan Chrome DevTools.",
+  "keyPoints": [
+    "Signed commit (GPG signing) penting untuk keamanan dan mencegah impersonasi - commit yang verified memiliki centang hijau di GitHub",
+    "Website undangan pernikahan menggunakan Next.js 13 dengan Contentful sebagai headless CMS untuk konten yang dinamis",
+    "Analisis performa menunjukkan bundle size sekitar 4,1 MB dengan gambar sebagai kontributor terbesar penggunaan bandwidth",
+    "Masalah accessibility utama: auto-playing audio tanpa user consent dapat mengganggu dan tidak ramah untuk pengguna",
+    "Kontras warna yang kurang pada beberapa elemen seperti tombol navigasi menyulitkan pengguna untuk melihat interface",
+    "Navigasi carousel tidak mendukung keyboard navigation dan tidak memiliki focus management yang baik",
+    "Tools yang direkomendasikan: Color Contrast Checker extension untuk Chrome dan fitur bawaan Chrome DevTools untuk analisis accessibility",
+    "Tips penting: jangan commit file .env ke repository publik untuk keamanan credentials",
+    "Web development memiliki entry barrier yang lebih rendah dibanding app development dalam hal kebutuhan hardware"
+  ]
+}
