@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-import { execSync } from "child_process";
+import { execSync, spawnSync } from "child_process";
 import {
   existsSync,
   readFileSync,
@@ -18,10 +18,7 @@ const TRANSCRIPTS_DIR = join(ROOT_DIR, "src/data/transcripts");
 const EPISODES_FILE = join(ROOT_DIR, "src/data/episodes.json");
 const TEMP_DIR = join(ROOT_DIR, ".tmp-audio");
 
-const WHISPER_MODEL_DEFAULT = join(
-  homedir(),
-  "Downloads/ggml-medium.bin"
-);
+const WHISPER_MODEL_DEFAULT = join(homedir(), "Downloads/ggml-medium.bin");
 
 // Fallback paths for macOS/Linux when not in PATH
 const WHISPER_CLI_FALLBACK = "/Users/riza/.nix-profile/bin/whisper-cli";
@@ -74,8 +71,20 @@ function downloadAudio(videoId, browser = "brave") {
   console.log(`  Downloading audio for ${videoId}...`);
 
   const url = `https://www.youtube.com/watch?v=${videoId}`;
-  execSync(
-    `${YT_DLP} -x --audio-format wav --audio-quality 0 --cookies-from-browser ${browser} -o "${outputPath}" "${url}"`,
+  spawnSync(
+    YT_DLP,
+    [
+      "-x",
+      "--audio-format",
+      "wav",
+      "--audio-quality",
+      "0",
+      "--cookies-from-browser",
+      browser,
+      "-o",
+      outputPath,
+      url,
+    ],
     { stdio: "inherit" }
   );
 
@@ -87,8 +96,9 @@ function transcribe(audioPath, videoId, model) {
 
   const outputBase = join(TEMP_DIR, videoId);
 
-  execSync(
-    `${WHISPER_CLI} -m "${model}" -l id -oj -of "${outputBase}" "${audioPath}"`,
+  spawnSync(
+    WHISPER_CLI,
+    ["-m", model, "-l", "id", "-oj", "-of", outputBase, audioPath],
     { stdio: "inherit" }
   );
 
@@ -162,12 +172,26 @@ async function main() {
   }
 
   // Parse --browser argument
+  const ALLOWED_BROWSERS = [
+    "brave",
+    "chrome",
+    "firefox",
+    "safari",
+    "edge",
+    "chromium",
+    "opera",
+    "vivaldi",
+  ];
   let browser = "brave";
   const browserIndex = args.indexOf("--browser");
   if (browserIndex !== -1) {
     const browserValue = args[browserIndex + 1];
     if (!browserValue || browserValue.startsWith("-")) {
       console.error("--browser requires a value");
+      process.exit(1);
+    }
+    if (!ALLOWED_BROWSERS.includes(browserValue)) {
+      console.error(`--browser must be one of: ${ALLOWED_BROWSERS.join(", ")}`);
       process.exit(1);
     }
     browser = browserValue;
