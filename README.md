@@ -76,7 +76,7 @@ npm run transcribe -- --missing --limit 5 --model ~/Downloads/ggml-medium.bin
 npm run transcribe -- --missing --browser chrome
 
 # Transcribe specific episode with all options
-npm run transcribe abc123xyz -- --model ~/models/ggml-large.bin --browser firefox --limit 1
+npm run transcribe -- abc123xyz --model ~/models/ggml-large.bin --browser firefox --limit 1
 ```
 
 ### Requirements

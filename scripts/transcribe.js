@@ -10,6 +10,7 @@ import {
 } from "fs";
 import { join, dirname } from "path";
 import { fileURLToPath } from "url";
+import { homedir } from "os";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT_DIR = join(__dirname, "..");
@@ -18,7 +19,7 @@ const EPISODES_FILE = join(ROOT_DIR, "src/data/episodes.json");
 const TEMP_DIR = join(ROOT_DIR, ".tmp-audio");
 
 const WHISPER_MODEL_DEFAULT = join(
-  process.env.HOME,
+  homedir(),
   "Downloads/ggml-medium.bin"
 );
 
@@ -133,16 +134,26 @@ async function main() {
   // Parse --model argument
   let whisperModel = WHISPER_MODEL_DEFAULT;
   const modelIndex = args.indexOf("--model");
-  if (modelIndex !== -1 && args[modelIndex + 1]) {
-    whisperModel = args[modelIndex + 1];
+  if (modelIndex !== -1) {
+    const modelValue = args[modelIndex + 1];
+    if (!modelValue || modelValue.startsWith("-")) {
+      console.error("--model requires a value");
+      process.exit(1);
+    }
+    whisperModel = modelValue;
     args.splice(modelIndex, 2); // Remove --model and its value from args
   }
 
   // Parse --limit argument
   let limit = null;
   const limitIndex = args.indexOf("--limit");
-  if (limitIndex !== -1 && args[limitIndex + 1]) {
-    limit = parseInt(args[limitIndex + 1], 10);
+  if (limitIndex !== -1) {
+    const limitValue = args[limitIndex + 1];
+    if (!limitValue || limitValue.startsWith("-")) {
+      console.error("--limit requires a value");
+      process.exit(1);
+    }
+    limit = parseInt(limitValue, 10);
     if (isNaN(limit) || limit < 1) {
       console.error("--limit must be a positive integer");
       process.exit(1);
@@ -153,8 +164,13 @@ async function main() {
   // Parse --browser argument
   let browser = "brave";
   const browserIndex = args.indexOf("--browser");
-  if (browserIndex !== -1 && args[browserIndex + 1]) {
-    browser = args[browserIndex + 1];
+  if (browserIndex !== -1) {
+    const browserValue = args[browserIndex + 1];
+    if (!browserValue || browserValue.startsWith("-")) {
+      console.error("--browser requires a value");
+      process.exit(1);
+    }
+    browser = browserValue;
     args.splice(browserIndex, 2); // Remove --browser and its value from args
   }
 
