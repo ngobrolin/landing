@@ -1,0 +1,14 @@
+{
+  "videoId": "ZwXgk5yeUD0",
+  "generatedAt": "2026-02-05T14:45:00Z",
+  "brief": "Episode ini membahas buku \"Problem Solving 101\" karya Ken Watanabe, mantan konsultan McKinsey yang menulis buku ini sebagai bagian dari reformasi pendidikan Jepang untuk menggeser fokus dari hafalan menuju problem-solving. Meskipun ditujukan untuk anak-anak, buku ini menjadi international best seller di kalangan orang dewasa. Buku menyajikan framework problem-solving yang praktis dengan tiga studi kasus: band sekolah yang ingin meningkatkan penonton, John Octopus yang ingin membeli komputer, dan Kiwi yang memilih sekolah sepak bola. Diskusi juga mencakup kaitan problem-solving dengan computational thinking serta pengalaman nyata para host dalam mengaplikasikan konsep ini dalam pekerjaan sehari-hari sebagai developer.",
+  "keyPoints": [
+    "Problem solving adalah skill yang bisa dipelajari, bukan bakat bawaan - bisa dilatih dengan praktik dan kebiasaan",
+    "Buku menyajikan empat langkah problem-solving: pahami situasi, identifikasi root cause, kembangkan solusi, dan eksekusi + review",
+    "Tools penting yang dibahas: Logic Tree untuk mem-breakdown masalah, Hypothesis Testing untuk menguji dugaan, dan Pro/Cons Matrix untuk mengambil keputusan",
+    "Pentingnya mencari root cause (akar masalah) bukan hanya mengobati gejala, analogi dengan cara dokter mendiagnosa pasien",
+    "Metode Five Whys dari Toyota untuk menemukan akar masalah dengan terus bertanya \"kenapa\" hingga jawaban sebenarnya ditemukan",
+    "Kaitan problem-solving dengan computational thinking: dekomposisi, pattern recognition, abstraksi, dan algoritma",
+    "Para host berbagi pengalaman nyata mengaplikasikan problem-solving dalam kerja sehari-hari, termasuk menangani issue dari klien"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "videoId": "GGfh-olIzl0",
+  "generatedAt": "2026-02-05T12:45:00Z",
+  "brief": "Episode ini membahas ECMAScript 2025, standar terbaru untuk JavaScript. Diskusi dimulai dengan perbandingan responsivitas tombol darurat di Jepang vs Indonesia, dan pembahasan tentang prioritas P0 dalam tiket software development.\n\nTopik utama menjelaskan sejarah mengapa kita menggunakan istilah ECMAScript instead of JavaScript - masalah trademark karena JavaScript adalah merek dagang Oracle. JavaScript berasal dari Netscape yang kemudian diakuisisi oleh Sun Microsystems lalu Oracle. Standar ECMAScript dikembangkan oleh ECMA (badan standarisasi) dan diimplementasikan oleh browser/engine masing-masing.\n\nFitur-fitur baru di ECMAScript 2025 meliputi: import JSON secara native tanpa loader tambahan, iterator helper methods (map, filter, take, drop, toArray) yang sebelumnya hanya ada di Array, new Set methods, perbaikan RegExp seperti regex.escape dan regex modifiers, Promise.try untuk menangani promise secara lebih aman, dan 16-bit floating point untuk machine learning. Juga dibahas Dr. Axel Rauschmayer, penulis buku gratis tentang JavaScript yang sangat produktif dalam blogging dan training.",
+  "keyPoints": [
+    "ECMAScript adalah standar spesifikasi JavaScript, dinamakan demikian karena 'JavaScript' adalah trademark milik Oracle",
+    "JavaScript berasal dari Netscape, diakuisisi Sun Microsystems, lalu Oracle memiliki trademark-nya",
+    "Import JSON modules secara native sekarang memungkinkan import file JSON langsung tanpa loader atau transpiler tambahan",
+    "Iterator helper methods (map, filter, take, drop, toArray) sekarang tersedia untuk semua iterator, tidak hanya Array",
+    "RegExp mendapatkan peningkatan seperti regex.escape untuk escaping teks dan regex modifiers yang bisa diletakkan di depan pattern",
+    "Promise.try menyediakan cara yang lebih aman untuk consume promise tanpa khawatir error jika value bukan promise",
+    "16-bit floating point ditambahkan untuk keperluan machine learning dan operasi vector di client-side",
+    "New Set methods menyediakan fungsi tambahan untuk manipulasi data yang unik",
+    "Dr. Axel Rauschmayer adalah expert JavaScript yang produktif menulis buku gratis dan artikel tentang ECMAScript",
+    "Minggu depan akan ada bedah situs (site review) untuk website milik Eka"
+  ]
+}
