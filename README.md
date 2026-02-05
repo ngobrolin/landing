@@ -47,13 +47,16 @@ Generate transcripts for episodes using local Whisper:
 npm run transcribe
 
 # Transcribe specific episode
-npm run transcribe <videoId>
+npm run transcribe <videoId> -- --model <path>
 
 # Transcribe all missing
-npm run transcribe --missing
+npm run transcribe -- --missing --model <path> --limit <number>
 
 # Re-transcribe all episodes
-npm run transcribe --all
+npm run transcribe --all -- --model <path> --limit <number>
+
+# Sample
+npm run transcribe -- --missing --model ~/Downloads/ggml-medium.bin --limit 2
 ```
 
 Requires `whisper-cli` and `yt-dlp` installed locally.

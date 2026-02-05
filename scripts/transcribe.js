@@ -138,6 +138,18 @@ async function main() {
     args.splice(modelIndex, 2); // Remove --model and its value from args
   }
 
+  // Parse --limit argument
+  let limit = null;
+  const limitIndex = args.indexOf("--limit");
+  if (limitIndex !== -1 && args[limitIndex + 1]) {
+    limit = parseInt(args[limitIndex + 1], 10);
+    if (isNaN(limit) || limit < 1) {
+      console.error("--limit must be a positive integer");
+      process.exit(1);
+    }
+    args.splice(limitIndex, 2); // Remove --limit and its value from args
+  }
+
   const episodes = getEpisodes();
   const existingTranscripts = getExistingTranscripts();
 
@@ -158,6 +170,12 @@ async function main() {
   } else {
     // Default: transcribe next one missing
     toProcess = missing.slice(0, 1);
+  }
+
+  // Apply limit if specified
+  if (limit !== null && limit < toProcess.length) {
+    toProcess = toProcess.slice(0, limit);
+    console.log(`Limiting to ${limit} episode(s)`);
   }
 
   if (toProcess.length === 0) {
