@@ -170,15 +170,21 @@ describe('getEpisodeByVideoId', () => {
 
 describe('getEpisodesByYear', () => {
   it('should return episodes from a specific year', () => {
-    const episodes = getEpisodesByYear(2026);
+    const years = getAvailableYears();
+    expect(years.length).toBeGreaterThan(0);
+    const year = years[0];
+    const episodes = getEpisodesByYear(year);
     expect(Array.isArray(episodes)).toBe(true);
+    expect(episodes.length).toBeGreaterThan(0);
     episodes.forEach(ep => {
-      expect(ep.publishedAt).toMatch(/^2026-/);
+      expect(ep.publishedAt.startsWith(`${year}-`)).toBe(true);
     });
   });
 
   it('should return episodes sorted by published date descending', () => {
-    const episodes = getEpisodesByYear(2025);
+    const years = getAvailableYears();
+    expect(years.length).toBeGreaterThan(0);
+    const episodes = getEpisodesByYear(years[0]);
     for (let i = 0; i < episodes.length - 1; i++) {
       const current = new Date(episodes[i].publishedAt).getTime();
       const next = new Date(episodes[i + 1].publishedAt).getTime();

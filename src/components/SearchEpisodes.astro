@@ -1,5 +1,5 @@
 ---
-import { getEpisodes } from "../lib/episodes";
+import { getEpisodes, getEpisodesByYear } from "../lib/episodes";
 import EpisodeCard from "./EpisodeCard.astro";
 import type { Episode } from "../lib/episodes";
 
@@ -9,10 +9,14 @@ interface Props {
 }
 
 const { year, episodes: providedEpisodes } = Astro.props;
-const allEpisodes = providedEpisodes ?? getEpisodes();
-const filteredEpisodes = year
-  ? allEpisodes.filter(ep => new Date(ep.publishedAt).getFullYear() === year)
-  : allEpisodes;
+const allEpisodes =
+  providedEpisodes ?? (year ? getEpisodesByYear(year) : getEpisodes());
+const filteredEpisodes =
+  year && providedEpisodes
+    ? providedEpisodes.filter(
+        (ep) => new Date(ep.publishedAt).getUTCFullYear() === year
+      )
+    : allEpisodes;
 
 const initialEpisodes = filteredEpisodes;
 const searchData = initialEpisodes.map((ep, idx) => ({

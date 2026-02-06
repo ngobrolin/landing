@@ -82,7 +82,7 @@ export function getEpisodesByYear(year: number): Episode[] {
 
     // Group episodes by year
     for (const ep of episodes) {
-      const epYear = new Date(ep.publishedAt).getFullYear();
+      const epYear = new Date(ep.publishedAt).getUTCFullYear();
       if (!_episodesByYearCache.has(epYear)) {
         _episodesByYearCache.set(epYear, []);
       }
@@ -98,7 +98,7 @@ export function getAvailableYears(): number[] {
   const years = new Set<number>();
 
   for (const ep of episodes) {
-    const year = new Date(ep.publishedAt).getFullYear();
+    const year = new Date(ep.publishedAt).getUTCFullYear();
     years.add(year);
   }
 

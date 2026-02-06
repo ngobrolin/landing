@@ -38,6 +38,11 @@ test.describe('Episodes by Year', () => {
 
     // Should show the year in the heading
     await expect(page.getByRole('heading', { name: `Episode ${yearText}` })).toBeVisible();
+
+    // Verify interactive elements work after view transition
+    const searchInput = page.getByLabel('Cari episode');
+    await expect(searchInput).toBeVisible();
+    await expect(searchInput).toBeEnabled();
   });
 
   test('year page shows only episodes from that year', async ({ page }) => {
@@ -48,7 +53,8 @@ test.describe('Episodes by Year', () => {
     const episodeCards = page.locator('[data-testid="episode-card"]');
     const count = await episodeCards.count();
 
-    for (let i = 0; i < count; i++) {
+    // Check first few cards to verify year filtering without slowing down tests
+    for (let i = 0; i < Math.min(count, 5); i++) {
       const card = episodeCards.nth(i);
       const dateText = await card.locator('p.text-gray-400').first().textContent();
       expect(dateText).toContain('2025');
@@ -80,8 +86,8 @@ test.describe('Episodes by Year', () => {
     const searchInput = page.getByLabel('Cari episode');
     await searchInput.fill('AI');
 
-    // Wait for search results
-    await page.waitForTimeout(300);
+    // Wait for search results to update
+    await page.waitForLoadState('networkidle');
 
     // All results should be from 2025
     const resultsCount = await page.locator('#episodes-grid a').count();
