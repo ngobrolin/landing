@@ -192,6 +192,23 @@ describe('getEpisodesByYear', () => {
   });
 });
 
+describe('getEpisodesByYear edge cases', () => {
+  it('should handle year 0 correctly', () => {
+    const episodes = getEpisodesByYear(0);
+    expect(episodes).toEqual([]);
+  });
+
+  it('should handle negative years', () => {
+    const episodes = getEpisodesByYear(-1);
+    expect(episodes).toEqual([]);
+  });
+
+  it('should handle future years', () => {
+    const episodes = getEpisodesByYear(9999);
+    expect(episodes).toEqual([]);
+  });
+});
+
 describe('getAvailableYears', () => {
   it('should return array of years with episodes', () => {
     const years = getAvailableYears();
