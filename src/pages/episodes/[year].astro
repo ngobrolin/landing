@@ -1,0 +1,59 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import SearchEpisodes from '../../components/SearchEpisodes.astro';
+import YearTabs from '../../components/YearTabs.astro';
+import { getEpisodesByYear, getAvailableYears, getYearCount } from '../../lib/episodes';
+import { generateCollectionPageSchema } from '../../lib/seo';
+
+export function getStaticPaths() {
+  const years = getAvailableYears();
+  return years.map((year) => ({
+    params: { year: year.toString() },
+  }));
+}
+
+const { year } = Astro.params;
+const yearNum = Number(year);
+
+// Validate format
+if (!year || isNaN(yearNum) || yearNum < 2000 || yearNum > 2100) {
+  return Astro.redirect('/404');
+}
+
+// Validate content - this should never happen in static build due to getStaticPaths
+// but keeps the page type-safe if called dynamically
+const yearEpisodes = getEpisodesByYear(yearNum);
+if (yearEpisodes.length === 0) {
+  return Astro.redirect('/404');
+}
+
+const availableYears = getAvailableYears();
+const siteUrl = Astro.site?.toString().replace(/\/$/, '') || 'https://ngobrol.in';
+
+const collectionSchema = generateCollectionPageSchema(
+  `Episode ${year} - Ngobrolin WEB`,
+  `Daftar episode Ngobrolin WEB dari tahun ${year}. ${yearEpisodes.length} episode tersedia.`,
+  `${siteUrl}/episodes/${year}`,
+  yearEpisodes
+);
+---
+
+<Layout
+  title={`Episode ${year} - Ngobrolin WEB`}
+  description={`Daftar episode Ngobrolin WEB dari tahun ${year}. ${yearEpisodes.length} episode tersedia.`}
+>
+  <Fragment slot="head">
+    <script type="application/ld+json" set:html={JSON.stringify(collectionSchema)} />
+  </Fragment>
+  <section class="py-12">
+    <div class="container mx-auto px-4">
+      <div class="mb-8">
+        <h1 class="text-3xl font-bold text-white mb-2">Episode {year}</h1>
+        <p class="text-gray-400">{yearEpisodes.length} episode tersedia</p>
+      </div>
+
+      <YearTabs years={availableYears} activeYear={yearNum} />
+      <SearchEpisodes year={yearNum} />
+    </div>
+  </section>
+</Layout>
