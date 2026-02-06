@@ -238,13 +238,18 @@ describe('getAvailableYears', () => {
 
 describe('getYearCount', () => {
   it('should return number of episodes in a year', () => {
-    const count = getYearCount(2026);
+    const years = getAvailableYears();
+    expect(years.length).toBeGreaterThan(0);
+    const year = years[0];
+    const count = getYearCount(year);
     expect(typeof count).toBe('number');
-    expect(count).toBeGreaterThanOrEqual(0);
+    expect(count).toBeGreaterThan(0);
   });
 
   it('should return 0 for year with no episodes', () => {
-    const count = getYearCount(2020);
+    const years = getAvailableYears();
+    const maxYear = Math.max(...years);
+    const count = getYearCount(maxYear + 1);
     expect(count).toBe(0);
   });
 
