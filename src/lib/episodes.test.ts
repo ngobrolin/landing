@@ -5,6 +5,9 @@ import {
   getEpisodes,
   getEpisodeBySlug,
   getEpisodeByVideoId,
+  getEpisodesByYear,
+  getAvailableYears,
+  getYearCount,
 } from './episodes';
 
 describe('slugify', () => {
@@ -162,6 +165,71 @@ describe('getEpisodeByVideoId', () => {
   it('returns undefined for non-existent videoId', () => {
     const found = getEpisodeByVideoId('non-existent-video-id');
     expect(found).toBeUndefined();
+  });
+});
+
+describe('getEpisodesByYear', () => {
+  it('should return episodes from a specific year', () => {
+    const episodes = getEpisodesByYear(2026);
+    expect(Array.isArray(episodes)).toBe(true);
+    episodes.forEach(ep => {
+      expect(ep.publishedAt).toMatch(/^2026-/);
+    });
+  });
+
+  it('should return episodes sorted by published date descending', () => {
+    const episodes = getEpisodesByYear(2025);
+    for (let i = 0; i < episodes.length - 1; i++) {
+      const current = new Date(episodes[i].publishedAt).getTime();
+      const next = new Date(episodes[i + 1].publishedAt).getTime();
+      expect(current).toBeGreaterThanOrEqual(next);
+    }
+  });
+
+  it('should return empty array for year with no episodes', () => {
+    const episodes = getEpisodesByYear(2020);
+    expect(episodes).toEqual([]);
+  });
+});
+
+describe('getAvailableYears', () => {
+  it('should return array of years with episodes', () => {
+    const years = getAvailableYears();
+    expect(Array.isArray(years)).toBe(true);
+    expect(years.length).toBeGreaterThan(0);
+  });
+
+  it('should return years sorted descending (newest first)', () => {
+    const years = getAvailableYears();
+    for (let i = 0; i < years.length - 1; i++) {
+      expect(years[i]).toBeGreaterThan(years[i + 1]);
+    }
+  });
+
+  it('should contain unique years only', () => {
+    const years = getAvailableYears();
+    const uniqueYears = new Set(years);
+    expect(years.length).toBe(uniqueYears.size);
+  });
+});
+
+describe('getYearCount', () => {
+  it('should return number of episodes in a year', () => {
+    const count = getYearCount(2026);
+    expect(typeof count).toBe('number');
+    expect(count).toBeGreaterThanOrEqual(0);
+  });
+
+  it('should return 0 for year with no episodes', () => {
+    const count = getYearCount(2020);
+    expect(count).toBe(0);
+  });
+
+  it('should match length of getEpisodesByYear', () => {
+    const year = getAvailableYears()[0];
+    const count = getYearCount(year);
+    const episodes = getEpisodesByYear(year);
+    expect(count).toBe(episodes.length);
   });
 });
 
