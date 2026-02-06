@@ -6,21 +6,20 @@ import { getEpisodes, getAvailableYears } from '../../lib/episodes';
 import { generateCollectionPageSchema } from '../../lib/seo';
 
 const allEpisodes = getEpisodes();
-const latestEpisodes = allEpisodes.slice(0, 25);
 const availableYears = getAvailableYears();
 const siteUrl = Astro.site?.toString().replace(/\/$/, '') || 'https://ngobrol.in';
 
 const collectionSchema = generateCollectionPageSchema(
   'Semua Episode - Ngobrolin WEB',
-  'Episode terbaru dari Ngobrolin WEB',
+  'Daftar lengkap semua episode video podcast Ngobrolin WEB',
   `${siteUrl}/episodes`,
-  latestEpisodes
+  allEpisodes
 );
 ---
 
 <Layout
   title="Semua Episode - Ngobrolin WEB"
-  description="Episode terbaru dari Ngobrolin WEB."
+  description="Daftar lengkap semua episode video podcast Ngobrolin WEB."
 >
   <Fragment slot="head">
     <script type="application/ld+json" set:html={JSON.stringify(collectionSchema)} />
@@ -33,7 +32,7 @@ const collectionSchema = generateCollectionPageSchema(
       </div>
 
       <YearTabs years={availableYears} />
-      <SearchEpisodes episodes={latestEpisodes} />
+      <SearchEpisodes episodes={allEpisodes} />
     </div>
   </section>
 </Layout>
