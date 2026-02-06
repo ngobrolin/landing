@@ -26,3 +26,6 @@ pnpm-debug.log*
 playwright-report/
 test-results/
 .audio/
+
+# worktrees - isolated development workspaces
+landing.worktrees/
