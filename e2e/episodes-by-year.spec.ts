@@ -13,14 +13,14 @@ test.describe('Episodes by Year', () => {
     await expect(yearTabs.nth(1)).toBeVisible();
   });
 
-  test('main episodes page shows all episodes', async ({ page }) => {
+  test('main episodes page shows latest 25 episodes', async ({ page }) => {
     await page.goto('/episodes');
 
     const episodeCards = page.locator('[data-testid="episode-card"]');
     const count = await episodeCards.count();
 
-    // Should show at least 100 episodes (the actual count is 155)
-    expect(count).toBeGreaterThanOrEqual(100);
+    // Should show exactly 25 latest episodes (main page limit)
+    expect(count).toBe(25);
   });
 
   test('clicking year tab navigates to year page', async ({ page }) => {
