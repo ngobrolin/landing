@@ -69,7 +69,7 @@ Show the user the extracted ideas in a readable format.
 
 ## Running the extraction script
 
-For batch processing all episodes, run: `npx tsx scripts/extract-ideas.ts`
+For batch processing all episodes, run: `npx tsx .agents/skills/extracting-ideas/scripts/extract-ideas.ts`
 
 This script reads all transcripts, concatenates segment texts, and outputs a template `ideas.json` with episode titles and empty idea arrays for the agent to fill in.
 

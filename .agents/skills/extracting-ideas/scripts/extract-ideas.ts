@@ -1,9 +1,13 @@
 import { readFileSync, writeFileSync, existsSync, readdirSync } from 'node:fs';
-import { join } from 'node:path';
+import path, { join } from 'node:path';
+import { fileURLToPath } from 'node:url';
 
-const transcriptsDir = join(import.meta.dirname, '..', '..', '..', '..', 'src', 'data', 'transcripts');
-const episodesPath = join(import.meta.dirname, '..', '..', '..', '..', 'src', 'data', 'episodes.json');
-const ideasPath = join(import.meta.dirname, '..', '..', '..', '..', 'src', 'data', 'ideas.json');
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
+const transcriptsDir = join(__dirname, '..', '..', '..', '..', 'src', 'data', 'transcripts');
+const episodesPath = join(__dirname, '..', '..', '..', '..', 'src', 'data', 'episodes.json');
+const ideasPath = join(__dirname, '..', '..', '..', '..', 'src', 'data', 'ideas.json');
 
 interface Segment {
   start: number;
