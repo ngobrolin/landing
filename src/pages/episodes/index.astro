@@ -1,17 +1,19 @@
 ---
 import Layout from '../../layouts/Layout.astro';
 import SearchEpisodes from '../../components/SearchEpisodes.astro';
-import { getEpisodes } from '../../lib/episodes';
+import YearTabs from '../../components/YearTabs.astro';
+import { getEpisodes, getAvailableYears } from '../../lib/episodes';
 import { generateCollectionPageSchema } from '../../lib/seo';
 
-const episodes = getEpisodes();
+const allEpisodes = getEpisodes();
+const availableYears = getAvailableYears();
 const siteUrl = Astro.site?.toString().replace(/\/$/, '') || 'https://ngobrol.in';
 
 const collectionSchema = generateCollectionPageSchema(
   'Semua Episode - Ngobrolin WEB',
   'Daftar lengkap semua episode video podcast Ngobrolin WEB',
   `${siteUrl}/episodes`,
-  episodes
+  allEpisodes
 );
 ---
 
@@ -26,10 +28,11 @@ const collectionSchema = generateCollectionPageSchema(
     <div class="container mx-auto px-4">
       <div class="mb-8">
         <h1 class="text-3xl font-bold text-white mb-2">Semua Episode</h1>
-        <p class="text-gray-400">{episodes.length} episode tersedia</p>
+        <p class="text-gray-400">{allEpisodes.length} episode tersedia</p>
       </div>
-      
-      <SearchEpisodes />
+
+      <YearTabs years={availableYears} />
+      <SearchEpisodes episodes={allEpisodes} />
     </div>
   </section>
 </Layout>

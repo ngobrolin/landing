@@ -70,4 +70,43 @@ export function getEpisodeByVideoId(videoId: string): Episode | undefined {
   return episodes.find(ep => ep.videoId === videoId);
 }
 
+// Cache for year-based queries
+let _episodesByYearCache: Map<number, Episode[]> | null = null;
+
+export function getEpisodesByYear(year: number): Episode[] {
+  const episodes = getEpisodes();
+
+  // Initialize cache if needed
+  if (!_episodesByYearCache) {
+    _episodesByYearCache = new Map();
+
+    // Group episodes by year
+    for (const ep of episodes) {
+      const epYear = new Date(ep.publishedAt).getUTCFullYear();
+      if (!_episodesByYearCache.has(epYear)) {
+        _episodesByYearCache.set(epYear, []);
+      }
+      _episodesByYearCache.get(epYear)!.push(ep);
+    }
+  }
+
+  return _episodesByYearCache.get(year) || [];
+}
+
+export function getAvailableYears(): number[] {
+  const episodes = getEpisodes();
+  const years = new Set<number>();
+
+  for (const ep of episodes) {
+    const year = new Date(ep.publishedAt).getUTCFullYear();
+    years.add(year);
+  }
+
+  return Array.from(years).sort((a, b) => b - a);
+}
+
+export function getYearCount(year: number): number {
+  return getEpisodesByYear(year).length;
+}
+
 
