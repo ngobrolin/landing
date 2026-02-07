@@ -1,0 +1,16 @@
+[
+  {
+    "videoId": "Tkh8-LleLws",
+    "title": "Agentic Coding Tools - Ngobrolin WEB",
+    "ideas": [
+      {
+        "idea": "AI Sandbox-as-a-Service: disposable VPS instances integrated with agentic coding tools (Cursor, Amp, Aider) where AI agents can safely execute dangerous commands (npm install, rm, shell scripts) in isolated environments with auto-snapshot and rollback on errors",
+        "category": "startup"
+      },
+      {
+        "idea": "Context-Debt Auditor CLI: a tool that analyzes project specification files (PRD, rules.md, constitution.md) and detects redundant, conflicting, or token-wasteful sections, then recommends pruning strategies to keep AI agent context windows efficient",
+        "category": "product"
+      }
+    ]
+  }
+]
