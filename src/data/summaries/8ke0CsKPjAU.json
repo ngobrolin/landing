@@ -1,0 +1,14 @@
+{
+  "videoId": "8ke0CsKPjAU",
+  "generatedAt": "2026-02-08T12:00:00.000Z",
+  "brief": "Episode Ngobrolin WEB membahas TanStack, kumpulan library front-end yang dibuat oleh Tanner Linsley. Awalnya dikenal dengan React Table dan React Query, TanStack kini telah berevolusi menjadi ekosistem yang framework-agnostik, mendukung React, Solid, Vue, Svelte, dan Angular. Diskusi mencakup sejarah evolusi dari library React-centric menjadi framework-agnostik, filosofi desain modular yang memungkinkan penggunaan library secara terpisah (ketengan) sesuai kebutuhan, serta pendekatan unik Tanner dalam membangun bisnis open source yang independen tanpa venture capital atau akuisisi. Episode juga menyinggung tentang sustainability model bisnis open source dan perbandingan dengan ekosistem lain seperti Vue (Anthony Fu/Evan You) dan React (Next.js/Remix).",
+  "keyPoints": [
+    "TanStack adalah ekosistem library front-end yang awalnya React-centric (React Table, React Query) namun kini telah menjadi framework-agnostik, mendukung React, Solid, Vue, Svelte, dan Angular",
+    "Tanner Linsley, pencipta TanStack, sebelumnya dikenal dengan React Static (SSG framework) dan library React seperti React Table dan React Query yang menjadi standar industri",
+    "TanStack Query (sebelumnya React Query) muncul sebagai alternatif yang lebih sederhana daripada Redux + Apollo untuk manajemen state server, dengan API yang lebih straightforward dan caching yang cerdas",
+    "TanStack Router menawarkan pendekatan file-based routing mirip Next.js dengan fitur lengkap termasuk DevTools, type-safety, dan berbagai template untuk memulai project",
+    "Filosofi desain TanStack adalah modular - library dapat digunakan secara terpisah (ketengan) sesuai kebutuhan, berbeda dengan pendekatan 'batteries-included' seperti framework lain",
+    "TanStack dijalankan sebagai perusahaan swasta independen tanpa venture capital, akuisisi, atau investor luar, dengan model bisnis melalui sponsorship, merchandise, dan kursus",
+    "Diskusi tentang sustainability open source mencakup pentingnya entitas legal untuk menerima donasi/sponsorship dari perusahaan besar, dengan referensi ke Perkodi sebagai contoh yayasan open source di Indonesia"
+  ]
+}

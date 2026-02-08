@@ -1,0 +1,14 @@
+{
+  "videoId": "7TR-vxCBiZ4",
+  "generatedAt": "2026-02-08T13:30:00Z",
+  "brief": "Episode ini membahas tentang keamanan web (web security) bersama Mas Irfan, narasumber untuk ketiga kalinya. Diskusi dimulai dengan pengalaman Mas Irfan mencari pekerjaan selama 2 bulan dan pentingnya memiliki dana darurat (emergency fund). Topik utama adalah security yang sering dianggap sulit oleh banyak developer karena kurangnya exposure dan pembahasan, padahal security adalah tanggung jawab semua orang dalam tim pengembangan, bukan hanya tim IT security khusus. Episode ini menekankan bahwa security harus dianggap sebagai bagian dari produk, sama seperti performance dan accessibility.",
+  "keyPoints": [
+    "Security adalah tanggung jawab semua orang dalam pengembangan software, dari front-end sampai back-end, bukan hanya tim IT security khusus",
+    "Ada banyak tools untuk security checking seperti CodeQL, SonarQube, DefectDojo, Snyk, dan Dependabot yang bisa membantu mendeteksi vulnerability",
+    "WordPress memiliki standar coding yang ketat dengan mantra 'sanitize early, escape late, always validate everything' untuk mencegah XSS",
+    "XSS (Cross-Site Scripting) adalah salah satu ancaman paling umum dan harus di-handle dengan sanitasi input dan escaping output",
+    "Security seringkali berbanding terbalik dengan productivity dan performance, sehingga perlu dicari keseimbangan yang tepat",
+    "Dependency management menjadi penting karena vulnerability di dependency bisa berdampak ke seluruh aplikasi, sebagaimana dibahas dalam artikel Dan Abramov tentang npm audit",
+    "Penting untuk menjadi advocate di tempat kerja masing-masing tentang security, performance, dan accessibility dengan pendekatan 'by design' sejak awal pengembangan"
+  ]
+}

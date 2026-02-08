@@ -1,0 +1,14 @@
+{
+  "videoId": "v28qyGyoMw4",
+  "generatedAt": "2026-02-08T12:00:00.000Z",
+  "brief": "Episode ini membahas update terbaru seputar web performance, dengan fokus utama pada rilisnya Web Vitals versi 5 yang menghapus FID (First Input Delay) dan menggantinya dengan INP (Interaction to Next Paint) sebagai metrik resmi. Diskusi mendalam mengenai perbedaan antara lab data (data pengujian dengan tools seperti Lighthouse, PageSpeed Insights) dan field data (data real dari pengguna menggunakan Web Vitals JS). Episode juga menyinggung tentang Chrome UX Report (CrUX) yang menyediakan data performance publik dari pengguna Chrome, serta pengenalan tools RAM Vision untuk monitoring capability browser dan fitur web secara lebih detail. Topik tambahan meliputi Speculation Rules API dan View Transitions API yang dapat membuat Multi-Page Application terasa seperti Single-Page Application, serta pentingnya accessibility dan standar web yang berlaku di berbagai negara.",
+  "keyPoints": [
+    "Web Vitals versi 5 telah dirilis dengan perubahan utama menghapus FID dan menggantinya dengan INP secara permanen",
+    "Perbedaan mendasar antara lab data (data pengujian dengan Lighthouse/PageSpeed Insights di device sendiri) dan field data (data real dari pengguna dengan Web Vitals JS)",
+    "Chrome UX Report (CrUX) menyediakan data performance publik dari pengguna Chrome yang dapat diakses melalui CrUX Dashboard dan CrUX Visualize dengan Looker Studio",
+    "RAM Vision adalah tools monitoring berbayar (€157/bulan) yang dapat melacak capability browser dan fitur web per user, membantu decision making untuk mengadopsi fitur baru",
+    "Speculation Rules API dan View Transitions API dapat dikombinasikan untuk membuat Multi-Page Application terasa seperti Single-Page Application dengan instant loading dan smooth transitions",
+    "Lighthouse CI dapat digunakan untuk monitoring performance dalam pipeline CI/CD, namun alternatif lain seperti Calibre, DebugBear, dan New Relic juga tersedia",
+    "Accessibility dan performance web adalah standar yang diwajibkan oleh hukum di beberapa negara seperti US, UK, dan negara-negara Eropa untuk layanan publik"
+  ]
+}

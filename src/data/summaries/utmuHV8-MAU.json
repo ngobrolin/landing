@@ -1,0 +1,14 @@
+{
+  "videoId": "utmuHV8-MAU",
+  "generatedAt": "2025-02-08T14:30:00Z",
+  "brief": "Episode ini membahas tentang Design Pattern dalam pengembangan software, sebuah topik permintaan dari Mas Azam Aziz. Diskusi dimulai dengan perdebatan menarik tentang apakah MVC (Model-View-Controller) termasuk dalam kategori Design Pattern atau tidak, mengingat beberapa referensi menyatakan MVC bukanlah Design Pattern melainkan Architectural Pattern.\n\nEka dan Ivan mengulas berbagai kategori Design Pattern seperti Creational Pattern, Structural Pattern, dan Behavioral Pattern, serta membahas referensi terpercaya seperti Refactoring Guru dan Patterns.dev karya Addy Osmani. Diskusi juga mencakup perbedaan antara Front-end dan Back-end Design Pattern, serta bagaimana konsep ini berbeda dengan Rendering Method seperti SSR, CSR, dan SSG.\n\nEpisode juga menyentuh topik browser security seperti CORS (Cross-Origin Resource Sharing), CORP (Cross-Origin Resource Policy), dan berbagai kebijakan keamanan browser lainnya yang relevan bagi pengembang web modern.",
+  "keyPoints": [
+    "MVC (Model-View-Controller) sebenarnya adalah Architectural Pattern, bukan Design Pattern, dan sudah ada sejak era Smalltalk",
+    "Design Pattern dikategorikan menjadi tiga jenis: Creational Pattern, Structural Pattern, dan Behavioral Pattern",
+    "Refactoring Guru dan Patterns.dev (karya Addy Osmani) adalah dua referensi terpercaya untuk belajar Design Pattern",
+    "Design Pattern berbeda dengan Rendering Method seperti SSR, CSR, dan SSG yang lebih fokus pada cara rendering halaman",
+    "Astro direkomendasikan sebagai framework fleksibel yang bisa mengkombinasikan berbagai metode rendering dalam satu aplikasi",
+    "Browser security menjadi topik penting dengan berbagai kebijakan seperti CORS, CORP, CSP (Content Security Policy), dan lainnya",
+    "Untuk aplikasi sederhana yang tidak butuh fitur kompleks Next.js, Vite dengan React Router sudah cukup untuk membangun aplikasi"
+  ]
+}
