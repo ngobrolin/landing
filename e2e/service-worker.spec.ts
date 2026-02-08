@@ -37,7 +37,6 @@ test.describe('Service Worker', () => {
 
     // Wait for page load
     await page.waitForLoadState('networkidle');
-    const currentUrl = page.url();
 
     // Check cache contains the page
     const cachedPages = await page.evaluate(async () => {
