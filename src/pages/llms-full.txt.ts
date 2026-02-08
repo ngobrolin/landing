@@ -28,9 +28,10 @@ export async function GET(context: APIContext) {
 
     const summary = getSummary(episode.videoId);
 
-    if (episode.brief || summary?.brief) {
+    const brief = summary?.brief ?? episode.brief;
+    if (brief) {
       lines.push('');
-      lines.push(summary?.brief || episode.brief!);
+      lines.push(brief);
     }
 
     if (summary?.keyPoints?.length) {
