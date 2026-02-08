@@ -25,8 +25,8 @@ try {
 
 const editUrl = `https://github.com/ngobrolin/landing/edit/main/src/data/transcripts/${videoId}.json`;
 
-const previewSegments = transcript?.segments.slice(0, 3) ?? [];
-const remainingSegments = transcript?.segments.slice(3) ?? [];
+const previewSegments = transcript?.segments.slice(0, 15) ?? [];
+const remainingSegments = transcript?.segments.slice(15) ?? [];
 
 function formatTime(seconds: number): string {
   const h = Math.floor(seconds / 3600);
@@ -72,7 +72,7 @@ function formatTime(seconds: number): string {
       {remainingSegments.length > 0 && (
         <details class="mt-3">
           <summary class="cursor-pointer text-primary-light hover:text-primary transition text-sm font-medium">
-            Lihat transkrip lengkap ({remainingSegments.length} segment lagi)
+            Lihat transkrip lengkap
           </summary>
           <div class="space-y-3 mt-3">
             {remainingSegments.map((segment) => (
