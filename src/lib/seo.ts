@@ -60,7 +60,7 @@ export function generateVideoSchema(
     name: episode.title,
     description: summary?.brief || episode.description,
     thumbnailUrl: episode.thumbnail,
-    uploadDate: episode.publishedAt.split('T')[0],
+    uploadDate: episode.publishedAt,
     embedUrl: `https://www.youtube.com/embed/${episode.videoId}`,
     contentUrl: `https://www.youtube.com/watch?v=${episode.videoId}`,
     publisher: {
@@ -130,7 +130,12 @@ export function generatePodcastEpisodeSchema(
     url: `${siteUrl}/episodes/${episode.slug}`,
     associatedMedia: {
       '@type': 'VideoObject',
-      embedUrl: `https://www.youtube.com/embed/${episode.videoId}`
+      name: episode.title,
+      description: summary?.brief || episode.description,
+      thumbnailUrl: episode.thumbnail,
+      uploadDate: episode.publishedAt,
+      embedUrl: `https://www.youtube.com/embed/${episode.videoId}`,
+      contentUrl: `https://www.youtube.com/watch?v=${episode.videoId}`
     },
     partOfSeries: {
       '@type': 'PodcastSeries',
