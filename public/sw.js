@@ -7,22 +7,25 @@ const PAGES_CACHE = `ngobrol-pages-${CACHE_VERSION}`;
 
 // Assets to cache on install
 const PRECACHE_ASSETS = [
-  '/',
   '/offline.html',
-  '/favicon.svg',
-  '/og-image.png'
+  '/favicon.svg'
 ];
 
 // Install event - cache static assets
 self.addEventListener('install', (event) => {
   event.waitUntil(
-    caches.open(STATIC_CACHE).then((cache) => {
-      return cache.addAll(PRECACHE_ASSETS.map(url => new Request(url, { cache: 'reload' })))
-        .catch(err => {
-          console.error('[SW] Precache failed:', err);
-          // Continue even if precache fails - assets will be cached on first fetch
-        });
-    })
+    (async () => {
+      const cache = await caches.open(STATIC_CACHE);
+      // Cache assets one at a time to avoid total failure
+      for (const url of PRECACHE_ASSETS) {
+        try {
+          await cache.add(url);
+          console.log('[SW] Precached:', url);
+        } catch (err) {
+          console.error('[SW] Failed to precache:', url, err);
+        }
+      }
+    })()
   );
   // Activate immediately
   self.skipWaiting();
