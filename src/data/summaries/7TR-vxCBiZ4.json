@@ -5,7 +5,7 @@
   "keyPoints": [
     "Security adalah tanggung jawab semua orang dalam pengembangan software, dari front-end sampai back-end, bukan hanya tim IT security khusus",
     "Ada banyak tools untuk security checking seperti CodeQL, SonarQube, DefectDojo, Snyk, dan Dependabot yang bisa membantu mendeteksi vulnerability",
-    "WordPress memiliki standar coding yang ketap dengan mantra 'sanitize early, escape late, always validate everything' untuk mencegah XSS",
+    "WordPress memiliki standar coding yang ketat dengan mantra 'sanitize early, escape late, always validate everything' untuk mencegah XSS",
     "XSS (Cross-Site Scripting) adalah salah satu ancaman paling umum dan harus di-handle dengan sanitasi input dan escaping output",
     "Security seringkali berbanding terbalik dengan productivity dan performance, sehingga perlu dicari keseimbangan yang tepat",
     "Dependency management menjadi penting karena vulnerability di dependency bisa berdampak ke seluruh aplikasi, sebagaimana dibahas dalam artikel Dan Abramov tentang npm audit",
