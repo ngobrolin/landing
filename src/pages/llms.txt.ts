@@ -2,7 +2,7 @@ import type { APIContext } from 'astro';
 import { getEpisodes } from '../lib/episodes';
 
 export async function GET(context: APIContext) {
-  const site = context.site!.toString().replace(/\/$/, '');
+  const site = (context.site?.toString() ?? 'https://ngobrol.in').replace(/\/$/, '');
   const episodes = getEpisodes();
   const recent = episodes.slice(0, 10);
   const remaining = episodes.slice(10);

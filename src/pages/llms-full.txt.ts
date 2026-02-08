@@ -4,7 +4,7 @@ import { getSummary } from '../lib/seo';
 
 export async function GET(context: APIContext) {
   const episodes = getEpisodes();
-  const siteUrl = context.site!.origin;
+  const siteUrl = context.site?.origin ?? 'https://ngobrol.in';
 
   const lines: string[] = [];
 
