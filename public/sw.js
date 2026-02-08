@@ -104,8 +104,9 @@ async function handleHtmlRequest(request) {
       return cached;
     }
 
-    // No cache match - return offline page
-    const offlineResponse = await cache.match('/offline.html');
+    // No cache match - return offline page from STATIC_CACHE
+    const staticCache = await caches.open(STATIC_CACHE);
+    const offlineResponse = await staticCache.match('/offline.html');
     return offlineResponse || new Response('Offline. Please reconnect.', {
       status: 503,
       headers: { 'Content-Type': 'text/plain' }
