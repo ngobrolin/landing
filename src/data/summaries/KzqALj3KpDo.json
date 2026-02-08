@@ -1,0 +1,15 @@
+{
+  "videoId": "KzqALj3KpDo",
+  "generatedAt": "2026-02-08T19:50:00Z",
+  "brief": "Episode Ngobrolin WEB ini membahas React Server Components (RSC), topik yang sebenarnya sudah ada sejak 2020 namun baru banyak diadopsi secara luas dalam beberapa tahun terakhir. Diskusi dimulai dengan menjelaskan perbedaan antara RSC dengan server-side rendering tradisional, di mana RSC memungkinkan developer menggunakan React di kedua sisi—server dan client—dalam satu codebase yang sama.\n\nEka dan Ivan mengulas evolusi pengembangan web dari HTML statis, ke Single Page Application (SPA) yang semuanya client-side, lalu muncul meta framework yang mengadopsi server-side rendering untuk mengatasi masalah performa dan SEO. RSC menjadi solusi selanjutnya dengan memisahkan komponen yang berjalan di server (yang tidak perlu interaksi) dan di client (yang butuh interaktivitas), sehingga mengurangi bundle size yang dikirim ke browser.\n\nEpisode ini juga menampilkan demo praktis implementasi RSC menggunakan Parcel bundler, menunjukkan bagaimana komponen server bisa mengakses resource seperti file system dan database secara langsung tanpa perlu membuat API endpoint terpisah. Diskusi diakhiri dengan percakapan tentang tantangan adopsi RSC terkait perubahan mental model developer, serta obrolan santai tentang penggunaan AI coding tools seperti Cursor dan Windsurf.",
+  "keyPoints": [
+    "React Server Components sudah ada sejak 2020, baru diadopsi luas belakangan ini oleh meta framework seperti Next.js",
+    "Perbedaan mendasar: Server-side rendering mengirim HTML lengkap ke browser, sementara RSC memisahkan komponen server dan client secara eksplisit",
+    "Komponen server tidak dikirim ke browser, hanya hasil render-nya berupa HTML, sehingga mengurangi bundle size secara drastis",
+    "Dengan RSC, tidak perlu membuat API endpoint terpisah untuk mengambil data—komponen server bisa langsung akses database atau file system",
+    "Direktif 'use client' menandai komponen yang harus berjalan di browser dan memerlukan interaktivitas",
+    "Parcel bundler menjadi alternatif implementasi RSC selain Next.js, menawarkan pendekatan yang berbeda",
+    "Adopsi RSC membutuhkan perubahan mental model karena developer harus sadar di mana kode berjalan (server atau client)",
+    "Diskusi tambahan tentang AI coding tools (Cursor, Windsurf) dan pentingnya tidak kehilangan kemampuan menulis kode manual"
+  ]
+}

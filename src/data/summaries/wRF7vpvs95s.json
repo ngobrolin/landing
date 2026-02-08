@@ -1,0 +1,17 @@
+{
+  "videoId": "wRF7vpvs95s",
+  "generatedAt": "2026-02-08T14:30:00.000Z",
+  "brief": "Episode Ngobrolin Web ke-122 membahas topik password secara komprehensif dari berbagai sisi: pengguna, developer front-end, hingga back-end. Diskusi dimulai dengan pentingnya password yang kuat dan unik untuk mencegah kebocoran data, yang masih menjadi salah satu top 10 OWASP security risks. Para host membahas praktik terbaik untuk pengguna seperti menggunakan password manager (Bitwarden, LastPass, bawaan browser), menghindari password yang sama di multiple services, dan memanfaatkan fitur password generator. Dari sisi developer, dibahas implementasi yang benar mulai dari penggunaan input type=\"password\" yang semantik, atribut autocomplete yang proper, hingga teknik hashing dan salting di sisi server menggunakan library seperti bcrypt, Argon2, dan lain-lain. Episode ini juga menyinggung evolusi layanan autentikasi modern seperti Auth0, Firebase, Supabase, dan AuthJS yang mempermudah implementasi security tanpa harus membangun dari nol.",
+  "keyPoints": [
+    "Password yang lemah seperti '123456' atau 'password' masih menjadi penyebab utama kebocoran data dan termasuk dalam top 10 OWASP security risks",
+    "Pengguna wajib menggunakan password manager (Bitwarden, LastPass, atau bawaan browser) untuk mengelola password yang kompleks dan unik untuk setiap service",
+    "Browser modern telah menggalakkan penggunaan password manager dengan fitur sinkronisasi antar device dan browser extension yang memudahkan autofill",
+    "Front-end developer harus menggunakan input type='password' secara semantik dan mengkombinasikannya dengan atribut autocomplete yang proper untuk UX yang baik",
+    "Password tidak boleh dikirim dalam plaintext dan harus di-hash di client-side sebelum dikirim ke server, meskipun hashing utama tetap dilakukan di server",
+    "Di sisi server, password harus di-hash menggunakan algoritma seperti bcrypt atau Argon2 dengan teknik salting untuk mencegah rainbow table attacks",
+    "Salt harus unik dan random untuk setiap user, tidak boleh diambil dari data yang predictable seperti username atau timestamp",
+    "Framework modern seperti Laravel, Node.js, dan AuthJS telah menyediakan library bawaan untuk password hashing dan verifikasi yang secure",
+    "Layanan autentikasi modern seperti Auth0, Firebase, Supabase, dan Cognito semakin mengurangi kebutuhan untuk membangun sistem autentikasi manual",
+    "Episode ini di-sponsor oleh Hacktivate (coding bootcamp) dan Nupea keyboard, dengan voting topik minggu depan adalah Design Pattern"
+  ]
+}

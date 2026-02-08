@@ -1,0 +1,14 @@
+{
+  "videoId": "dk8JSYuOmhc",
+  "generatedAt": "2025-02-08T12:30:00.000Z",
+  "brief": "Episode ini merupakan edisi perdana segmen \"Bedah Situs\" di mana tim Ngobrolin WEB mengulas website mereka sendiri, yaitu ngobrol.in. Website ini dibangun dengan bantuan berbagai AI tools seperti GitHub Copilot, Claude Code, Amazon Q Developer CLI, dan Cursor untuk hampir seluruh aspek pengembangan termasuk coding, testing, dan dokumentasi. Website menggunakan teknologi Elixir dengan Phoenix Framework, Live View, PostgreSQL, dan Tailwind CSS. Website ini berfungsi sebagai showcase arsip episode podcast Ngobrolin WEB yang bersumber dari YouTube playlist, dengan fitur RSS feed yang kompatibel dengan format podcast sehingga dapat didengarkan di Spotify. Diskusi juga mencakup proses konversi video YouTube menjadi MP3 menggunakan yt-dlp, deployment menggunakan Coolify (open source alternatif Heroku) di AWS, dan analisis performa website menggunakan Chrome DevTools Performance tab.",
+  "keyPoints": [
+    "Website ngobrol.in dibangun hampir sepenuhnya menggunakan berbagai AI tools (GitHub Copilot, Claude Code, Amazon Q Developer CLI, Cursor) untuk coding, testing, dan dokumentasi",
+    "Teknologi yang digunakan: Elixir, Phoenix Framework, Live View, PostgreSQL, dan Tailwind CSS dengan desain neo-brutalisme yang dibuat dengan bantuan v0.dev",
+    "Website mengambil data dari YouTube Data API dan mengkonversi video ke audio MP3 menggunakan yt-dlp untuk podcast feed yang kompatibel dengan Spotify",
+    "Deployment menggunakan Coolify (versi open source Heroku) di infrastruktur AWS dengan konfigurasi Docker dan webhook untuk auto-deploy",
+    "Website memiliki fitur RSS feed, pencarian episode, dan halaman detail untuk setiap episode dengan catatan yang diambil dari deskripsi video",
+    "Analisis performa menggunakan Chrome DevTools menunjukkan TTFB 215ms (bagus), penggunaan HTTP/3 untuk beberapa resource, dan area yang perlu ditingkatkan seperti font display swap dan preconnect untuk domain YouTube image",
+    "Rencana pengembangan masa depan termasuk menambahkan fitur transcript otomatis dengan AI, ringkasan episode, dan perbaikan performa serta responsivitas mobile"
+  ]
+}
