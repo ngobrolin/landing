@@ -14,7 +14,19 @@ const { url, title } = Astro.props;
   data-page-title={title}
 >
   <span class="text-gray-400 text-sm">Bagikan:</span>
-  
+
+  <button
+    type="button"
+    class="action-btn hidden"
+    data-platform="native"
+    style="background: linear-gradient(135deg, #6366f1, #8b5cf6);"
+    title="Bagikan"
+  >
+    <svg class="action-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-8l-4-4m0 0L8 8m4-4v12"/>
+    </svg>
+  </button>
+
   <!-- WhatsApp -->
   <button 
     type="button"
@@ -109,6 +121,15 @@ const { url, title } = Astro.props;
       const encodedUrl = encodeURIComponent(pageUrl);
       const encodedTitle = encodeURIComponent(pageTitle);
 
+      if (navigator.share) {
+        const nativeBtn = container.querySelector('[data-platform="native"]');
+        if (nativeBtn) nativeBtn.classList.remove("hidden");
+
+        container.querySelectorAll('[data-platform="wa"], [data-platform="x"], [data-platform="li"]').forEach(function(btn) {
+          btn.classList.add("hidden");
+        });
+      }
+
       const buttons = container.querySelectorAll(".action-btn");
       buttons.forEach((btn) => {
         btn.addEventListener("click", async () => {
@@ -121,6 +142,15 @@ const { url, title } = Astro.props;
           }
 
           switch (platform) {
+            case "native":
+              try {
+                await navigator.share({
+                  title: pageTitle,
+                  text: "Ngobrolin WEB - " + pageTitle,
+                  url: pageUrl,
+                });
+              } catch (e) {}
+              break;
             case "wa":
               window.open(
                 `https://wa.me/?text=${encodedTitle}%20${encodedUrl}`,
