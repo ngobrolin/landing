@@ -7,9 +7,10 @@ interface Segment {
 
 interface Props {
   videoId: string;
+  previewCount?: number;
 }
 
-const { videoId } = Astro.props;
+const { videoId, previewCount = 3 } = Astro.props;
 
 let transcript: { segments: Segment[]; fullText: string } | null = null;
 
@@ -25,8 +26,8 @@ try {
 
 const editUrl = `https://github.com/ngobrolin/landing/edit/main/src/data/transcripts/${videoId}.json`;
 
-const previewSegments = transcript?.segments.slice(0, 15) ?? [];
-const remainingSegments = transcript?.segments.slice(15) ?? [];
+const previewSegments = transcript?.segments.slice(0, previewCount) ?? [];
+const remainingSegments = transcript?.segments.slice(previewCount) ?? [];
 
 function formatTime(seconds: number): string {
   const h = Math.floor(seconds / 3600);
