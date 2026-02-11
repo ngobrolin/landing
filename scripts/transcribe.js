@@ -40,6 +40,47 @@ function findExecutable(name, fallback) {
 const WHISPER_CLI = findExecutable("whisper-cli", WHISPER_CLI_FALLBACK);
 const YT_DLP = findExecutable("yt-dlp", YT_DLP_FALLBACK);
 
+// Patterns for non-conversation segments to filter out
+const NON_CONVERSATION_PATTERNS = [
+  // Music variations
+  /^\[musik\]$/i,
+  /^\[music\]$/i,
+  /^\[musik intro\]$/i,
+  /^\[suara musik\]$/i,
+  /^\[dialog musik\]$/i,
+  // Sound effects
+  /^\[tinggalow\]$/i,
+  /^\[ting tong\]$/i,
+  /^\[tinggil\]$/i,
+  /^\[telolet\]$/i,
+  /^\[ringtone\]$/i,
+  /^\[drinton\]$/i,
+  /^\[suara panggilan\]$/i,
+  /^\[suara nafas\]$/i,
+  // Laughter
+  /^\[tertawa\]$/i,
+  /^\[ketawa\]$/i,
+  /^\[gelak\]$/i,
+  // Applause
+  /^\[tepuk tangan\]$/i,
+  // Outro/intro messages (metadata, not speech)
+  /^\[sampai jumpa di video selanjutnya\]$/i,
+  /^\[tekan like dan subscribe\]$/i,
+];
+
+function isNonConversation(text) {
+  return NON_CONVERSATION_PATTERNS.some((pattern) => pattern.test(text.trim()));
+}
+
+function filterNonConversation(segments) {
+  const filtered = segments.filter((seg) => !isNonConversation(seg.text));
+  const removedCount = segments.length - filtered.length;
+  if (removedCount > 0) {
+    console.log(`  Filtered out ${removedCount} non-conversation segment(s)`);
+  }
+  return filtered;
+}
+
 function getEpisodes() {
   return JSON.parse(readFileSync(EPISODES_FILE, "utf-8"));
 }
@@ -91,31 +132,38 @@ function downloadAudio(videoId, browser = "brave") {
   return outputPath;
 }
 
-function transcribe(audioPath, videoId, model) {
-  console.log(`  Transcribing ${videoId}...`);
+function transcribe(audioPath, videoId, model, suppressNst = false) {
+  console.log(`  Transcribing ${videoId}${suppressNst ? " (with -sns flag)" : ""}...`);
 
   const outputBase = join(TEMP_DIR, videoId);
 
-  spawnSync(
-    WHISPER_CLI,
-    ["-m", model, "-l", "id", "-oj", "-of", outputBase, audioPath],
-    { stdio: "inherit" }
-  );
+  const whisperArgs = ["-m", model, "-l", "id", "-oj", "-of", outputBase];
+  if (suppressNst) {
+    whisperArgs.push("-sns");
+  }
+  whisperArgs.push(audioPath);
+
+  console.log(`  Command: ${WHISPER_CLI} ${whisperArgs.map((arg) => arg.includes(" ") ? `"${arg}"` : arg).join(" ")}`);
+
+  spawnSync(WHISPER_CLI, whisperArgs, { stdio: "inherit" });
 
   const whisperOutput = JSON.parse(readFileSync(`${outputBase}.json`, "utf-8"));
+
+  const rawSegments = whisperOutput.transcription.map((seg) => ({
+    start: seg.offsets.from / 1000,
+    end: seg.offsets.to / 1000,
+    text: seg.text.trim(),
+  }));
+
+  // Only filter if not using -sns (suppression should handle it during transcription)
+  const filteredSegments = suppressNst ? rawSegments : filterNonConversation(rawSegments);
 
   const transcript = {
     videoId,
     language: "id",
     generatedAt: new Date().toISOString(),
-    segments: whisperOutput.transcription.map((seg) => ({
-      start: seg.offsets.from / 1000,
-      end: seg.offsets.to / 1000,
-      text: seg.text.trim(),
-    })),
-    fullText: whisperOutput.transcription
-      .map((seg) => seg.text.trim())
-      .join(" "),
+    segments: filteredSegments,
+    fullText: filteredSegments.map((seg) => seg.text).join(" "),
   };
 
   const outputPath = join(TRANSCRIPTS_DIR, `${videoId}.json`);
@@ -198,6 +246,15 @@ async function main() {
     args.splice(browserIndex, 2); // Remove --browser and its value from args
   }
 
+  // Parse --suppress-nst argument
+  let suppressNst = false;
+  const suppressNstIndex = args.indexOf("--suppress-nst");
+  if (suppressNstIndex !== -1) {
+    suppressNst = true;
+    console.log("Using -sns flag to suppress non-speech tokens (bypasses post-filter)");
+    args.splice(suppressNstIndex, 1); // Remove --suppress-nst from args
+  }
+
   const episodes = getEpisodes();
   const existingTranscripts = getExistingTranscripts();
 
@@ -239,7 +296,7 @@ async function main() {
 
     try {
       const audioPath = downloadAudio(videoId, browser);
-      transcribe(audioPath, videoId, whisperModel);
+      transcribe(audioPath, videoId, whisperModel, suppressNst);
       cleanup(videoId);
       console.log(`  ✓ Done!`);
     } catch (error) {

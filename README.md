@@ -58,13 +58,14 @@ npm run transcribe -- --all
 
 ### Options
 
-| Flag               | Description                                        | Default                       |
-| ------------------ | -------------------------------------------------- | ----------------------------- |
-| `--model <path>`   | Path to Whisper model (.bin)                       | `~/Downloads/ggml-medium.bin` |
-| `--browser <name>` | Browser for cookies (chrome, brave, firefox, etc.) | `brave`                       |
-| `--limit <number>` | Max number of episodes to process                  | None (all)                    |
-| `--missing`        | Process episodes without transcripts               | -                             |
-| `--all`            | Process all episodes                               | -                             |
+| Flag                 | Description                                                            | Default                       |
+| -------------------- | ---------------------------------------------------------------------- | ----------------------------- |
+| `--model <path>`     | Path to Whisper model (.bin)                                           | `~/Downloads/ggml-medium.bin` |
+| `--browser <name>`   | Browser for cookies (chrome, brave, firefox, etc.)                     | `brave`                       |
+| `--limit <number>`   | Max number of episodes to process                                      | None (all)                    |
+| `--suppress-nst`     | Use Whisper's `-sns` flag to suppress non-speech tokens (music, etc.)  | Off (uses post-filter)        |
+| `--missing`          | Process episodes without transcripts                                   | -                             |
+| `--all`              | Process all episodes                                                   | -                             |
 
 ### Examples
 
@@ -77,7 +78,21 @@ npm run transcribe -- --missing --browser chrome
 
 # Transcribe specific episode with all options
 npm run transcribe -- abc123xyz --model ~/models/ggml-large.bin --browser firefox --limit 1
+
+# Transcribe with Whisper's native non-speech suppression (faster, no post-filter)
+npm run transcribe -- --missing --suppress-nst
 ```
+
+### Filtering Non-Conversation Elements
+
+The script automatically filters out non-conversation elements like `[Musik]`, `[Music]`, `[tertawa]`, etc.
+
+Two approaches are available:
+
+1. **Post-filter (default)**: Transcribes everything, then filters out non-conversation segments after
+2. **`--suppress-nst` flag**: Uses Whisper's `-sns` option to suppress non-speech tokens during transcription (faster)
+
+Use `--suppress-nst` to test if Whisper's native suppression works well for your content.
 
 ### Requirements
 
