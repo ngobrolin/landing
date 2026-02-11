@@ -2,6 +2,7 @@
 import "../styles/global.css";
 import { ClientRouter } from "astro:transitions";
 import Analytics from "../components/Analytics.astro";
+import ScrollButtons from "../components/ScrollButtons.astro";
 
 interface Props {
   title: string;
@@ -416,6 +417,9 @@ const jsonLd = {
 
     <!-- View Transitions (deferred to avoid blocking critical path) -->
     <ClientRouter />
+
+    <!-- Scroll Buttons -->
+    <ScrollButtons />
 
     <!-- Mobile Menu Toggle Script -->
     <script is:inline data-astro-rerun>
