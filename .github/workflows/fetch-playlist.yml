@@ -8,6 +8,7 @@ on:
 
 permissions:
   contents: write
+  pull-requests: write
 
 jobs:
   fetch:
@@ -36,11 +37,16 @@ jobs:
             echo "changed=true" >> $GITHUB_OUTPUT
           fi
 
-      - name: Commit and push
+      - name: Create Pull Request
         if: steps.changes.outputs.changed == 'true'
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add src/data/episodes.json src/data/tags.json
-          git commit -m "Update episodes and tags from YouTube playlist"
-          git push
+        uses: peter-evans/create-pull-request@v8
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: "Update episodes and tags from YouTube playlist"
+          branch: update-episodes-from-youtube
+          title: "chore: update episodes from YouTube playlist"
+          body: |
+            Automated update from YouTube playlist.
+
+            This PR updates `src/data/episodes.json` and `src/data/tags.json` with the latest data from the YouTube API.
+          delete-branch: true
