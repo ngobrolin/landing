@@ -1,0 +1,69 @@
+---
+/**
+ * OfflineIndicator - Shows badge when episode is cached for offline access
+ *
+ * Usage:
+ *   <OfflineIndicator slug={episode.slug} />
+ */
+
+interface Props {
+  slug: string;
+}
+
+const { slug } = Astro.props;
+const episodePath = `/episodes/${slug}/`;
+---
+
+<span
+  class="offline-badge"
+  data-episode-path={episodePath}
+  title="Mungkin tersedia offline"
+  aria-label="Cek ketersediaan offline"
+>
+  <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-11a1 1 0 10-2 0v3.586L6.707 9.293a1 1 0 00-1.414 1.414l3 3a1 1 0 001.414 0l3-3a1 1 0 00-1.414-1.414L11 10.586V7z" clip-rule="evenodd"/>
+  </svg>
+</span>
+
+<style>
+  .offline-badge {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    opacity: 0.3;
+    transition: opacity 0.2s ease;
+  }
+
+  .offline-badge.cached {
+    opacity: 1;
+    color: #10b981;
+  }
+</style>
+
+<script is:inline data-astro-rerun>
+  (function checkOfflineStatus() {
+    const badges = document.querySelectorAll('.offline-badge');
+    if (badges.length === 0) return;
+
+    // Check cache for each episode
+    badges.forEach(async (badge) => {
+      const path = badge.getAttribute('data-episode-path');
+      if (!path) return;
+
+      try {
+        const cache = await caches.open('ngobrol-pages-v1');
+        const matched = await cache.match(path);
+
+        if (matched) {
+          badge.classList.add('cached');
+          badge.title = 'Tersedia offline';
+        }
+      } catch (err) {
+        // Cache API not available or error - hide badge
+        badge.style.display = 'none';
+      }
+    });
+  })();
+</script>

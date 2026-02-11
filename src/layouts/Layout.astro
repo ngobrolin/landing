@@ -152,6 +152,45 @@ const jsonLd = {
     <!-- Analytics (optional; configured via PUBLIC_UMAMI_* env vars) -->
     <Analytics />
 
+    <!-- Service Worker Registration -->
+    <script is:inline data-astro-rerun>
+      (function registerServiceWorker() {
+        // Feature detection
+        if (!('serviceWorker' in navigator)) {
+          console.log('[SW] Service Worker not supported in this browser');
+          return;
+        }
+
+        // Guard: Prevent duplicate registration
+        if (navigator.serviceWorker.controller) {
+          console.log('[SW] Already controlled by:', navigator.serviceWorker.controller.scriptURL);
+          return;
+        }
+
+        // Register Service Worker
+        navigator.serviceWorker.register('/sw.js')
+          .then((registration) => {
+            console.log('[SW] Registered successfully:', registration.scope);
+
+            // Listen for new Service Worker versions
+            registration.addEventListener('updatefound', () => {
+              const newWorker = registration.installing;
+              if (newWorker) {
+                console.log('[SW] New version detected, installing...');
+                newWorker.addEventListener('statechange', () => {
+                  if (newWorker.state === 'installed' && navigator.serviceWorker.controller) {
+                    console.log('[SW] New version available. Refresh to update.');
+                  }
+                });
+              }
+            });
+          })
+          .catch((err) => {
+            console.error('[SW] Registration failed:', err);
+          });
+      })();
+    </script>
+
     <!-- View Transitions Custom Duration -->
     <style is:global>
       @keyframes astroFade {

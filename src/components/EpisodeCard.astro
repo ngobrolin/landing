@@ -1,5 +1,6 @@
 ---
 import { Image } from 'astro:assets';
+import OfflineIndicator from './OfflineIndicator.astro';
 
 interface Props {
   title: string;
@@ -53,6 +54,9 @@ const truncatedDescription = displayDescription.length > 120
     )}
     <div class="absolute bottom-3 left-3 bg-black/70 text-white text-xs font-medium px-2 py-1 rounded">
       EP {episodeNumber}
+    </div>
+    <div class="absolute bottom-3 right-3">
+      <OfflineIndicator slug={slug} />
     </div>
   </div>
   <div class="p-4">
