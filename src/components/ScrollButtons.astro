@@ -130,11 +130,21 @@
       const isAtTop = scrollY < 100;
       const isAtBottom = scrollY + window.innerHeight >= document.documentElement.scrollHeight - 100;
 
-      // Hide scroll-to-top when at top
+      // Hide scroll-to-top when at top (also remove from keyboard navigation)
       scrollToTopBtn.setAttribute('aria-hidden', isAtTop.toString());
+      if (isAtTop) {
+        scrollToTopBtn.setAttribute('tabindex', '-1');
+      } else {
+        scrollToTopBtn.removeAttribute('tabindex');
+      }
 
-      // Hide scroll-to-bottom when at bottom
+      // Hide scroll-to-bottom when at bottom (also remove from keyboard navigation)
       scrollToBottomBtn.setAttribute('aria-hidden', isAtBottom.toString());
+      if (isAtBottom) {
+        scrollToBottomBtn.setAttribute('tabindex', '-1');
+      } else {
+        scrollToBottomBtn.removeAttribute('tabindex');
+      }
     };
 
     // Event listeners

@@ -8,8 +8,12 @@ test.describe('ScrollButtons', () => {
     const scrollToTop = page.getByLabel('Scroll to top').or(page.getByTitle('Scroll to top'));
     const scrollToBottom = page.getByLabel('Scroll to bottom').or(page.getByTitle('Scroll to bottom'));
 
-    await expect(scrollToTop).toBeVisible();
-    await expect(scrollToBottom).toBeVisible();
+    // Check aria-hidden states: scroll-to-top should be hidden at top of page
+    const scrollToTopAriaHidden = await scrollToTop.getAttribute('aria-hidden');
+    const scrollBottomAriaHidden = await scrollToBottom.getAttribute('aria-hidden');
+
+    await expect(scrollToTopAriaHidden).toBe('true');
+    await expect(scrollBottomAriaHidden).toBe('false');
   });
 
   test('should scroll to top when button is clicked', async ({ page }) => {
