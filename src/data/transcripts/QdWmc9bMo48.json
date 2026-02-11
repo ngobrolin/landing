@@ -1,0 +1,2858 @@
+{
+  "videoId": "QdWmc9bMo48",
+  "language": "id",
+  "generatedAt": "2026-02-11T07:38:23.908Z",
+  "segments": [
+    {
+      "start": 0,
+      "end": 25.92,
+      "text": "Hai Hei Halo Halo semua selamat malam semua apa kabar gimana ini ini selamat subuh ya"
+    },
+    {
+      "start": 25.92,
+      "end": 44.64,
+      "text": "jadi malam ini malam ya malam ini spesial episode kali ini spesial karena kita rekaman sama temen-temen"
+    },
+    {
+      "start": 44.64,
+      "end": 54.84,
+      "text": "yang berada di timeline yang berbeda jadi kita cari apa irisannya dapatlah jam satu pagi ya satu pagi ya"
+    },
+    {
+      "start": 54.84,
+      "end": 63.12,
+      "text": "jadi kita tengah malam atau pagi ini dini hari begadang ya karena tamunya spesial sekali dari luar gitu ya"
+    },
+    {
+      "start": 63.12,
+      "end": 72.12,
+      "text": "jadi kalau temen-temen ingat beberapa episode yang lalu kita udah bahas tentang CSS rap ya kan tentang"
+    },
+    {
+      "start": 72.12,
+      "end": 82.12,
+      "text": "bagaimana perkembangan CSS di 2024 sangat pesat dan ada apa namanya ada rangkuman dari tim Chrome"
+    },
+    {
+      "start": 82.12,
+      "end": 93.12,
+      "text": "yang namanya CSS rap 2024 ya nah nih bentar eh nggak bisa dipos ya nggak bisa kalau nggak live nggak bisa di komen ya"
+    },
+    {
+      "start": 93.12,
+      "end": 103.12,
+      "text": "jadi cari aja lah ya googling aja CSS rap 2024 itu ada websitenya dan websitenya keren banget makanya kita penasaran akhirnya"
+    },
+    {
+      "start": 103.12,
+      "end": 112.12,
+      "text": "malam hari ini kita akan mengundang 2 orang dari sekian beberapa dari timnya Chrome"
+    },
+    {
+      "start": 112.12,
+      "end": 124.12,
+      "text": "yang membuat CSS rap jadi kita tanya kayak behind the scene nya gimana proses pembuatannya mungkin fitur-fitur favorit dan lain-lain ya"
+    },
+    {
+      "start": 124.12,
+      "end": 131.12,
+      "text": "jadi langsung aja kita undang dan undang welcome kita berbahasa Inggris"
+    },
+    {
+      "start": 131.12,
+      "end": 138.12,
+      "text": "hello hello hello hello hey give you the plus dog Elisa"
+    },
+    {
+      "start": 138.12,
+      "end": 148.12,
+      "text": "welcome to the show thank you for doing this thank you for coming to the our show"
+    },
+    {
+      "start": 148.12,
+      "end": 163.12,
+      "text": "maybe before we start with the topic maybe you can start by introduce yourself or maybe Adam first please"
+    },
+    {
+      "start": 163.12,
+      "end": 170.12,
+      "text": "sure I'm busy right now with Gemini having it made it make a rap because we're gonna be talking about CSS rap"
+    },
+    {
+      "start": 170.12,
+      "end": 175.12,
+      "text": "oh my god I was like we're gonna rap we're gonna rap about rap and just get all meta in here"
+    },
+    {
+      "start": 175.12,
+      "end": 181.12,
+      "text": "hey everybody my name is Adam Argyle I'm from Seattle in the States I work on Chrome as DevRel with Bramas"
+    },
+    {
+      "start": 181.12,
+      "end": 187.12,
+      "text": "and him and I both focus on CSS and UI we're just obsessed with the web we like building we're like with you"
+    },
+    {
+      "start": 187.12,
+      "end": 192.12,
+      "text": "we build all day every day and then we listen to you and we take all that back through Chrome we feed it into new features"
+    },
+    {
+      "start": 192.12,
+      "end": 199.12,
+      "text": "we tell you about the new features and we rinse and we repeat and we love it so anyway that's me"
+    },
+    {
+      "start": 199.12,
+      "end": 201.12,
+      "text": "well my website is nerdy.dev"
+    },
+    {
+      "start": 201.12,
+      "end": 202.12,
+      "text": "nerdy.dev"
+    },
+    {
+      "start": 202.12,
+      "end": 203.12,
+      "text": "nerdy.dev alright"
+    },
+    {
+      "start": 203.12,
+      "end": 211.12,
+      "text": "is it coincidence your name is like alphabetically in order and Adam and then Bramas"
+    },
+    {
+      "start": 211.12,
+      "end": 212.12,
+      "text": "and then"
+    },
+    {
+      "start": 212.12,
+      "end": 216.12,
+      "text": "no one's name starts to complete"
+    },
+    {
+      "start": 216.12,
+      "end": 221.12,
+      "text": "what about you"
+    },
+    {
+      "start": 221.12,
+      "end": 228.12,
+      "text": "yeah so I'm Bramas I'm from Belgium and Adam perfect intro there"
+    },
+    {
+      "start": 228.12,
+      "end": 240.12,
+      "text": "yeah we are chrome devrel working on CSS and web UI we work with the CSS working group to specify new features and for that we of course need all of your feedback"
+    },
+    {
+      "start": 240.12,
+      "end": 246.12,
+      "text": "so yeah if you ever run into us or if you blog about something like give us a ping and then we can take that then we can take that to the working group to our engineering and hopefully we can come up with a nice new feature and when that feature lands you might have seen some blog posts from us pass by or some demos where we demonstrate and then hope to get everybody"
+    },
+    {
+      "start": 246.12,
+      "end": 258.12,
+      "text": "kickstarted with with the actually building stuff with it so yeah oh I also have a website just like Adam Adam is nerdy.dev and I am Bram.us but I'm not from us I'm from Belgium"
+    },
+    {
+      "start": 258.12,
+      "end": 270.12,
+      "text": "okay"
+    },
+    {
+      "start": 270.12,
+      "end": 272.12,
+      "text": "okay"
+    },
+    {
+      "start": 272.12,
+      "end": 275.12,
+      "text": "that's a perfect TLD for your name"
+    },
+    {
+      "start": 275.12,
+      "end": 276.12,
+      "text": "yeah"
+    },
+    {
+      "start": 276.12,
+      "end": 277.12,
+      "text": "yeah"
+    },
+    {
+      "start": 277.12,
+      "end": 280.12,
+      "text": "yeah this dates back from from the days where everybody had like"
+    },
+    {
+      "start": 280.12,
+      "end": 280.12,
+      "text": "yep"
+    },
+    {
+      "start": 280.12,
+      "end": 289.12,
+      "text": "main hacks where it was like if you had something clever with your domain and you could use the suffix or TLD as part of it and it turned out it worked for me"
+    },
+    {
+      "start": 289.12,
+      "end": 301.12,
+      "text": "it's also is brand nice brand dot us exactly perfect nice does Amsterdam have a TLD could I be add.am you know"
+    },
+    {
+      "start": 301.12,
+      "end": 313.12,
+      "text": "or would Amsterdam be three experts you know would it be anyway it's very cool okay okay yeah we're bigger sorry"
+    },
+    {
+      "start": 313.12,
+      "end": 329.12,
+      "text": "no worries no worries okay so um yeah you uh you are both um uh devrail right can you tell us about how uh what did you do uh"
+    },
+    {
+      "start": 329.12,
+      "end": 339.12,
+      "text": "every day looks like what is a devrail because some of our audience probably doesn't know much about what is devrail"
+    },
+    {
+      "start": 339.12,
+      "end": 342.12,
+      "text": "go first promise let's see Adam is pointing at me"
+    },
+    {
+      "start": 342.12,
+      "end": 343.12,
+      "text": "yes please"
+    },
+    {
+      "start": 343.12,
+      "end": 352.12,
+      "text": "yes so um as daryl we um try to on the one hand like spread the word on new features on new web features"
+    },
+    {
+      "start": 352.12,
+      "end": 359.12,
+      "text": "so whenever something lands in uh chrome in this case then we like try and make sure that we have a blog post that announces the feature"
+    },
+    {
+      "start": 359.12,
+      "end": 366.12,
+      "text": "um give you some demos write an article maybe update mdn to make sure that the info there is up to date"
+    },
+    {
+      "start": 366.12,
+      "end": 372.12,
+      "text": "um that's like one part of the job but then the other part of the job is also listening to your feedback"
+    },
+    {
+      "start": 372.12,
+      "end": 378.12,
+      "text": "and then making sure that that feedback so that feedback that real web developers have that feedback"
+    },
+    {
+      "start": 378.12,
+      "end": 384.12,
+      "text": "then makes it back to engineering or the css working group for example um so that way that we can make sure"
+    },
+    {
+      "start": 384.12,
+      "end": 389.12,
+      "text": "that instead of shipping the thing in a browser that we are shipping the right thing the thing that actually"
+    },
+    {
+      "start": 389.12,
+      "end": 396.12,
+      "text": "solves your problem um so so like this we were like this this bridge builder between standards bodies engineering"
+    },
+    {
+      "start": 396.12,
+      "end": 402.12,
+      "text": "and and web developers um and to do that as part of our day-to-day job we often get to play with features"
+    },
+    {
+      "start": 402.12,
+      "end": 410.12,
+      "text": "first like as it getting prototyped in chrome we we get our hands dirty we try and break it um we try and point out the flaws"
+    },
+    {
+      "start": 410.12,
+      "end": 417.12,
+      "text": "and to make sure that we can ship you like this nice polished feature in the end that then it's part of the"
+    },
+    {
+      "start": 417.12,
+      "end": 422.12,
+      "text": "web standard of course and then hopefully soon sooner or later it will be in all browsers so that you can use it"
+    },
+    {
+      "start": 422.12,
+      "end": 430.12,
+      "text": "yeah sounds very complicated to me because you have a lot of stakeholders like engineering and then the the audience"
+    },
+    {
+      "start": 430.12,
+      "end": 437.12,
+      "text": "us you take a lot of feedback and you take from the other and um a lot of people to please"
+    },
+    {
+      "start": 437.12,
+      "end": 444.12,
+      "text": "yeah and sometimes it's a bit difficult right but sometimes we we see like okay this is like a real pain point for developers"
+    },
+    {
+      "start": 444.12,
+      "end": 449.12,
+      "text": "we need to get it prioritized but then engineering is like yeah but we have all these other things that we're already working on"
+    },
+    {
+      "start": 449.12,
+      "end": 452.12,
+      "text": "like we can't just squeeze it in there somewhere"
+    },
+    {
+      "start": 452.12,
+      "end": 465.12,
+      "text": "yeah so we have to try and find this balance um where where we can like try and influence the priorities"
+    },
+    {
+      "start": 465.12,
+      "end": 470.12,
+      "text": "and sometimes with success but sometimes we just have to wait as well and we are just waiting on the buck until"
+    },
+    {
+      "start": 470.12,
+      "end": 474.12,
+      "text": "the email comes that somebody got assigned to it and they were like yes somebody's working on it great"
+    },
+    {
+      "start": 474.12,
+      "end": 479.12,
+      "text": "and it's when it's yes it's only for one browser you still need a yes for another two browsers"
+    },
+    {
+      "start": 479.12,
+      "end": 486.12,
+      "text": "oh yeah that's awesome that's why i said it's complicated"
+    },
+    {
+      "start": 486.12,
+      "end": 492.12,
+      "text": "or if something lands in another like we'll definitely be talking about view transitions today"
+    },
+    {
+      "start": 492.12,
+      "end": 499.12,
+      "text": "if that landed and when that landed in safari like i tried out all my demos in safari to make sure that"
+    },
+    {
+      "start": 499.12,
+      "end": 505.12,
+      "text": "the thing that we have is interoperable with the thing that safari has and sometimes it surfaces a bug in chrome"
+    },
+    {
+      "start": 505.12,
+      "end": 508.12,
+      "text": "but it will also be a bug in safari and then like we file the bug make sure it's followed up"
+    },
+    {
+      "start": 508.12,
+      "end": 515.12,
+      "text": "make sure it's followed up and and write the test for web platform"
+    },
+    {
+      "start": 515.12,
+      "end": 519.12,
+      "text": "maybe adam can add some more details to everything"
+    },
+    {
+      "start": 519.12,
+      "end": 523.12,
+      "text": "i mean a little bit but yeah y'all can ask some questions i have a quote i'm gonna find"
+    },
+    {
+      "start": 523.12,
+      "end": 527.12,
+      "text": "because i just the other day was like oh this is a really good thing we do with dev rel"
+    },
+    {
+      "start": 527.12,
+      "end": 534.12,
+      "text": "it was like quippy in short i'm gonna find it while you uh ask brands more questions"
+    },
+    {
+      "start": 534.12,
+      "end": 541.12,
+      "text": "i think i heard web platform tests i'm not sure while i was talking or"
+    },
+    {
+      "start": 541.12,
+      "end": 548.12,
+      "text": "wpt i heard that too yeah wpt yeah yeah when you were talking about the bugs like uh you know in browser"
+    },
+    {
+      "start": 548.12,
+      "end": 557.12,
+      "text": "a it has uh this web but in browser b it has uh uh that but and uh you are also in charge of uh uh"
+    },
+    {
+      "start": 557.12,
+      "end": 563.12,
+      "text": "uh well we we we don't typically um do that like it's more for engineering like like if if chrome"
+    },
+    {
+      "start": 563.12,
+      "end": 568.12,
+      "text": "and something then they'll also make some wpt's they make sure it's upstreamed and all the other"
+    },
+    {
+      "start": 568.12,
+      "end": 573.12,
+      "text": "browsers also get those wpt's and then their implementation and they start doing it like hopefully"
+    },
+    {
+      "start": 573.12,
+      "end": 581.12,
+      "text": "they also get all greens um so we don't necessarily are involved in like creating a wpt's um we are more"
+    },
+    {
+      "start": 581.12,
+      "end": 587.12,
+      "text": "involved with the practical implementation because the wpt's are great like they test some basic things"
+    },
+    {
+      "start": 587.12,
+      "end": 594.12,
+      "text": "but one if if the test is is flawed like it tests the wrong thing or something is not tested then you"
+    },
+    {
+      "start": 594.12,
+      "end": 598.12,
+      "text": "can still have all greens right like like if you if you implement a feature and only have one test that"
+    },
+    {
+      "start": 598.12,
+      "end": 604.12,
+      "text": "says can you parse the property you will have a score of 100 on all those tests but it doesn't mean"
+    },
+    {
+      "start": 604.12,
+      "end": 610.12,
+      "text": "that the feature is actually usable so that's where our practical approach comes in like we actually build"
+    },
+    {
+      "start": 610.12,
+      "end": 616.12,
+      "text": "build something and then we find out most often i go okay we have this one feature and we try and combine"
+    },
+    {
+      "start": 616.12,
+      "end": 623.12,
+      "text": "it with another feature and then suddenly things get a bit weird and yeah that's the practical approach"
+    },
+    {
+      "start": 623.12,
+      "end": 629.12,
+      "text": "um say we're very very hands-on with it with everything okay"
+    },
+    {
+      "start": 629.12,
+      "end": 639.12,
+      "text": "i see adam you did an awesome job no that was really really great uh covered so many things it's like uh like"
+    },
+    {
+      "start": 639.12,
+      "end": 643.12,
+      "text": "like the last part there's like sometimes we do weird stuff you know so it's like hey we've got this"
+    },
+    {
+      "start": 643.12,
+      "end": 647.12,
+      "text": "feature it scrolls like this and you're like oh yeah what happens when i scroll drive it and make it"
+    },
+    {
+      "start": 647.12,
+      "end": 653.12,
+      "text": "rotate and they're like i don't know and you're like well that's why we're here we're here to do weird"
+    },
+    {
+      "start": 653.12,
+      "end": 658.12,
+      "text": "stuff um yeah the the quote that i was looking at those like i was looking at like i was trying to think"
+    },
+    {
+      "start": 658.12,
+      "end": 662.12,
+      "text": "about what's our value like it's easy to tell you what we do you know hey we listen to people and we"
+    },
+    {
+      "start": 662.12,
+      "end": 666.12,
+      "text": "make sure that those features get put into browsers in a good healthy way and then we"
+    },
+    {
+      "start": 666.12,
+      "end": 670.12,
+      "text": "go build with them to make sure that actually solve the problem so it's like we can tell you what we do"
+    },
+    {
+      "start": 670.12,
+      "end": 676.12,
+      "text": "but the value i was saying uh at a high level like something i would tell my mom uh would be like"
+    },
+    {
+      "start": 676.12,
+      "end": 682.12,
+      "text": "things should be conceptually easy like it should be easy to uh have an animation between two pages"
+    },
+    {
+      "start": 682.12,
+      "end": 690.12,
+      "text": "okay conceptually that's easy but in practice is it easy no no it was quite difficult until we listened"
+    },
+    {
+      "start": 690.12,
+      "end": 696.12,
+      "text": "enough we tried enough we found a way forward to solve this problem in a really elegant way so what"
+    },
+    {
+      "start": 696.12,
+      "end": 705.12,
+      "text": "what i'm pitching is is that devrel makes the conceptually easy concept a reality and we do that by"
+    },
+    {
+      "start": 705.12,
+      "end": 711.12,
+      "text": "listening to people trying out these things early on saying where they're wrong and um and yeah i thought"
+    },
+    {
+      "start": 711.12,
+      "end": 716.12,
+      "text": "that was kind of cool so we make we make the easy concept actually easy for you uh because otherwise"
+    },
+    {
+      "start": 716.12,
+      "end": 720.12,
+      "text": "it's just too easy to say things are easy just like how many times i've said easy right now"
+    },
+    {
+      "start": 722.12,
+      "end": 729.16,
+      "text": "easy peasy um easy peasy um but i can i can relate to that easy things a reality that's that's nice and"
+    },
+    {
+      "start": 729.16,
+      "end": 736.52,
+      "text": "catchy yeah thank you i thought so i can relate to that story for both of uh you uh your adam and"
+    },
+    {
+      "start": 736.52,
+      "end": 743.56,
+      "text": "brothers as well like um when we start this podcast it's actually started when when we were in bali uh"
+    },
+    {
+      "start": 743.56,
+      "end": 756.28,
+      "text": "we have uh this gde and gdg summit in bali and so it's asia um so me and i mean eka at the time just"
+    },
+    {
+      "start": 756.28,
+      "end": 766.36,
+      "text": "talking two years ago we just talking about container query is now landed uh as us uh to firefox and to"
+    },
+    {
+      "start": 766.36,
+      "end": 773.32,
+      "text": "chrome at the time 22 years ago i remember that so we talked about it uh during this uh when we"
+    },
+    {
+      "start": 773.32,
+      "end": 781.88,
+      "text": "face uh meet to face to face hey yay content query is now landed and stable we can use it yay like um"
+    },
+    {
+      "start": 781.88,
+      "end": 789.16,
+      "text": "and then we realized we don't have a platform to talk about this kind of thing that's why this"
+    },
+    {
+      "start": 789.16,
+      "end": 798.6,
+      "text": "that's why this podcast is like born but come back to yours uh to your point is like we read somewhere"
+    },
+    {
+      "start": 798.6,
+      "end": 807.88,
+      "text": "like from the web.dev and from the any twitter or your blog post that now this container query has"
+    },
+    {
+      "start": 807.88,
+      "end": 814.2,
+      "text": "landed with all the example and then now we can implement it on our um day-to-day life"
+    },
+    {
+      "start": 814.2,
+      "end": 824.04,
+      "text": "which is perfect and i still remember that i uh one of the talks that i gave like still related to"
+    },
+    {
+      "start": 824.04,
+      "end": 830.28,
+      "text": "web performance but when i say like you don't have to use a for that scroll you don't have to use like"
+    },
+    {
+      "start": 830.28,
+      "end": 837.88,
+      "text": "uh like sorry for responsiveness and you can use container query rather than use your fancy javascript to"
+    },
+    {
+      "start": 837.88,
+      "end": 845.4,
+      "text": "to control your boxes and do hacky stuff and now you can have your container query save a lot of time save"
+    },
+    {
+      "start": 845.4,
+      "end": 853.16,
+      "text": "performance so thank you that's i can relate so conceptually easy and now it can it could the"
+    },
+    {
+      "start": 853.16,
+      "end": 862.04,
+      "text": "implementation could be so many things and from my perspective anything that is uh a new technology"
+    },
+    {
+      "start": 862.04,
+      "end": 872.36,
+      "text": "uh new api uh release i i relate that how can i save or make the site more performance that's always"
+    },
+    {
+      "start": 872.36,
+      "end": 881.56,
+      "text": "uh my basic stuff uh to go when i see this css web um how can i make the site lighter that's it"
+    },
+    {
+      "start": 881.56,
+      "end": 887,
+      "text": "awesome so yeah you're looking for performance advantages in all the new features like ah"
+    },
+    {
+      "start": 887.64,
+      "end": 892.12,
+      "text": "what can this do to make it easier on the browser and when it's doing a loop how can i make this"
+    },
+    {
+      "start": 892.12,
+      "end": 897.08,
+      "text": "easier on a browser when it first lays out the page and yeah there's a lot of yeah a lot of thinking"
+    },
+    {
+      "start": 897.08,
+      "end": 904.68,
+      "text": "we do about the machine uh to make the machine happy um and we do a little less of that bramus does a"
+    },
+    {
+      "start": 904.68,
+      "end": 910.36,
+      "text": "good amount of machine um making it happy but i like to let the engineers do that and then i'll just"
+    },
+    {
+      "start": 910.36,
+      "end": 914.12,
+      "text": "like do something weird and if it didn't work out very well i'm like that's not my problem i'm uh"
+    },
+    {
+      "start": 915.72,
+      "end": 919.88,
+      "text": "just trying to make something work here but yeah i could try to make people happy trying to be pms"
+    },
+    {
+      "start": 919.88,
+      "end": 926.36,
+      "text": "happy happy happy that's a challenge like better than making the machines happy and making the all"
+    },
+    {
+      "start": 926.36,
+      "end": 933.16,
+      "text": "different groups of people happy and uh you know i think the tricky part with css and ui like uh you"
+    },
+    {
+      "start": 933.16,
+      "end": 939.8,
+      "text": "mentioned about conceptually easy things like what's conceptually easy for humans is uh really different"
+    },
+    {
+      "start": 939.8,
+      "end": 947.56,
+      "text": "from what's conceptual what's easy for machine like uh for humans humans uh like on on the surface level"
+    },
+    {
+      "start": 947.56,
+      "end": 955.08,
+      "text": "we tend to think visually so if we want to make things uh go here to here we just slide it that's easy"
+    },
+    {
+      "start": 955.08,
+      "end": 963.16,
+      "text": "and sometimes it carries over to a web or digital ui as well and there's a perfect example about this i think"
+    },
+    {
+      "start": 963.16,
+      "end": 972.52,
+      "text": "like uh when i first learned css uh like animating uh height height to auto i think easy peasy yeah"
+    },
+    {
+      "start": 972.52,
+      "end": 981.32,
+      "text": "you can animate easily from uh whatever two two rams to 10 rams it animates perfectly and then so uh you"
+    },
+    {
+      "start": 981.32,
+      "end": 988.92,
+      "text": "can animate from two rams to whatever the the the block block height is but it turns out not that easy"
+    },
+    {
+      "start": 988.92,
+      "end": 999.48,
+      "text": "and it just recently shipped now in 2024 i think yeah that's an image to hike auto yeah yeah so that's uh"
+    },
+    {
+      "start": 999.48,
+      "end": 1005.64,
+      "text": "i think that's a perfect example of um conceptually easy thing that is actually not easy"
+    },
+    {
+      "start": 1005.64,
+      "end": 1013,
+      "text": "yeah another example for it is a the parent selector that you always wanted like oh yeah"
+    },
+    {
+      "start": 1013,
+      "end": 1016.84,
+      "text": "the parent element i want to select the element that has the other thing contained inside of it"
+    },
+    {
+      "start": 1016.84,
+      "end": 1022.92,
+      "text": "we've been struggling on that one for for 20 years before browser engineers figured another way like okay"
+    },
+    {
+      "start": 1022.92,
+      "end": 1029.48,
+      "text": "this is how we can people keep requesting that but uh the the browser programmers uh say well it doesn't"
+    },
+    {
+      "start": 1029.48,
+      "end": 1035.24,
+      "text": "work like that that their program runs from top to bottom all right you can't but the cool thing is"
+    },
+    {
+      "start": 1035.24,
+      "end": 1042.84,
+      "text": "that um the original request was i want a parent selector and the thing that we eventually got the has"
+    },
+    {
+      "start": 1042.84,
+      "end": 1049.8,
+      "text": "selector is way more than that um because you can select siblings you can you can go up down in all"
+    },
+    {
+      "start": 1049.8,
+      "end": 1054.76,
+      "text": "directions in the dot tree um so that's that's also cool where we often hear like a request"
+    },
+    {
+      "start": 1054.76,
+      "end": 1059.48,
+      "text": "and then then we think about it together with our team of engineers to get over the css working room"
+    },
+    {
+      "start": 1059.48,
+      "end": 1065.96,
+      "text": "and then the solution that we come up with like solves your problem but also solves way more than"
+    },
+    {
+      "start": 1065.96,
+      "end": 1072.44,
+      "text": "the original problem um another another example for it is for example um uh variables we all we all"
+    },
+    {
+      "start": 1072.44,
+      "end": 1078.28,
+      "text": "wanted variables in css yeah but the answer to variables in css are not variables no they are custom"
+    },
+    {
+      "start": 1078.28,
+      "end": 1084.2,
+      "text": "properties custom properties the way that we have variables in css is by having custom properties"
+    },
+    {
+      "start": 1084.2,
+      "end": 1088.28,
+      "text": "and the cool thing is because they are properties they inherit you can change them as they inherit"
+    },
+    {
+      "start": 1088.28,
+      "end": 1093.72,
+      "text": "onto siblings and combine it with all the selectors that we have you could say well if this thing has"
+    },
+    {
+      "start": 1093.72,
+      "end": 1099.32,
+      "text": "five children then the dash dash gap is going to be two rams instead of one ram or whatever and it's"
+    },
+    {
+      "start": 1099.32,
+      "end": 1106.12,
+      "text": "yeah it's it's so cool the the simple problem but then we have the solution which took a lot of time"
+    },
+    {
+      "start": 1106.12,
+      "end": 1111.64,
+      "text": "but the solution like opens the gates to all kinds of craziness that you can do with it"
+    },
+    {
+      "start": 1111.64,
+      "end": 1120.04,
+      "text": "yeah now css have functions right yeah it's something that's currently being prototyped"
+    },
+    {
+      "start": 1120.04,
+      "end": 1127.24,
+      "text": "and container queries gave away to scroll state queries and gave away to style queries and yeah so"
+    },
+    {
+      "start": 1127.24,
+      "end": 1130.6,
+      "text": "people just wanted to query the container they're like how hard could it be i want to quit and then we're"
+    },
+    {
+      "start": 1130.6,
+      "end": 1137.8,
+      "text": "like let's give you that plus a whole bunch of other good and like miriam suzanne likes to say containers"
+    },
+    {
+      "start": 1137.8,
+      "end": 1149,
+      "text": "they know stuff and now we can ask them what they know yeah okay okay now maybe let's talk about css rap"
+    },
+    {
+      "start": 1149,
+      "end": 1157.88,
+      "text": "maybe uh adam you you want to do a rap about css rap i mean what is it said yo the web's evolving ain't"
+    },
+    {
+      "start": 1157.88,
+      "end": 1164.28,
+      "text": "no time to snooze css rap 2024 drop on major news components stacked high precision in the game feel"
+    },
+    {
+      "start": 1164.28,
+      "end": 1169.48,
+      "text": "size and flex and putting pixels to the shame hide out of flow and no more rigid lines exclusive layers"
+    },
+    {
+      "start": 1169.48,
+      "end": 1174.68,
+      "text": "building intricate designs style highlights making text pop and clean anchor position in living the"
+    },
+    {
+      "start": 1174.68,
+      "end": 1175.88,
+      "text": "developer's dream"
+    },
+    {
+      "start": 1175.88,
+      "end": 1193.56,
+      "text": "oh we're talking about like performance things there's some like really cool performance things"
+    },
+    {
+      "start": 1193.56,
+      "end": 1198.6,
+      "text": "we had to overcome in this page there's even some that we couldn't fix uh and then one of the things"
+    },
+    {
+      "start": 1198.6,
+      "end": 1205.24,
+      "text": "uh that i think is uh was really highly desirable by people is a scroll spy so that's like as you scroll"
+    },
+    {
+      "start": 1205.24,
+      "end": 1210.76,
+      "text": "down the page and the the dinosaurs following along on the uh yeah yeah the map on the right and it"
+    },
+    {
+      "start": 1210.76,
+      "end": 1216.6,
+      "text": "auto expands the the details we see animations that are very still stateful yeah normally this would"
+    },
+    {
+      "start": 1216.6,
+      "end": 1222.44,
+      "text": "have taken us a whole bunch of javascript and that one's all css really i didn't realize that it's"
+    },
+    {
+      "start": 1222.44,
+      "end": 1234.6,
+      "text": "i know that i know the dino but i don't know that it is it is it is just css i think there was one change we had to"
+    },
+    {
+      "start": 1234.6,
+      "end": 1239.16,
+      "text": "do so that because we wanted to trigger the open and close of the summary details and we had to use"
+    },
+    {
+      "start": 1239.16,
+      "end": 1245.16,
+      "text": "javascript to do that why it's not yeah yeah why is your chrome dino not moving i don't know what"
+    },
+    {
+      "start": 1245.16,
+      "end": 1251.56,
+      "text": "what browser is this what process is this uh uh maybe prefer prefer reduce motion enabled maybe no that"
+    },
+    {
+      "start": 1251.56,
+      "end": 1257.56,
+      "text": "would have stopped some of the other ones i don't know he's skateboarding in my copy updating right now"
+    },
+    {
+      "start": 1258.44,
+      "end": 1265.24,
+      "text": "oh and you're you're even in canary and it's like having issues yeah i'm in canary hi what regressed"
+    },
+    {
+      "start": 1265.24,
+      "end": 1271.48,
+      "text": "that's a new bug we found a new bug hey he's skateboarding in mine"
+    },
+    {
+      "start": 1272.92,
+      "end": 1278.76,
+      "text": "it's also skateboarding in mine you can share your your uh can you share your let me let me check what"
+    },
+    {
+      "start": 1278.76,
+      "end": 1286.68,
+      "text": "the chrome is doing oh yeah it's skateboarding in mine so it's cannot it's not working uh it's working"
+    },
+    {
+      "start": 1286.68,
+      "end": 1295.56,
+      "text": "in canary for me so here we're browsers fun right yes it's rotated and then translated it looks like the"
+    },
+    {
+      "start": 1295.56,
+      "end": 1303.48,
+      "text": "scroll driven animations just not kicking in on it at all yeah what happened maybe i don't know do you"
+    },
+    {
+      "start": 1303.48,
+      "end": 1310.52,
+      "text": "have like battery safe safe or uh like power mode safe oh yeah something that's like reducing"
+    },
+    {
+      "start": 1310.52,
+      "end": 1319.4,
+      "text": "maybe this is your battery you know stuff that you talked about earlier adam please please someone"
+    },
+    {
+      "start": 1319.4,
+      "end": 1327.4,
+      "text": "share your screen i can i can i want to see i want to see but the cool thing about the the dino"
+    },
+    {
+      "start": 1327.4,
+      "end": 1333,
+      "text": "breaking is that like it was a little extra effect that we added using scroll driven animations but it"
+    },
+    {
+      "start": 1333,
+      "end": 1343.56,
+      "text": "wasn't supposed to be skateboarding across the uh viewport as well not just in the table of content uh go to"
+    },
+    {
+      "start": 1343.56,
+      "end": 1353.32,
+      "text": "scroll to top scroll the top this way yeah there's another guy over there yeah oh yeah particles at the"
+    },
+    {
+      "start": 1353.32,
+      "end": 1362.04,
+      "text": "very top yeah from left to right very top yeah yeah let me share screen oh i think you have reduced"
+    },
+    {
+      "start": 1362.04,
+      "end": 1372.04,
+      "text": "okay yeah that's right which is pretty cool right because it's a feature people that say that hey"
+    },
+    {
+      "start": 1372.04,
+      "end": 1377.8,
+      "text": "we're not fine with all these things flying around yeah in css we can respond to that it's it's a media"
+    },
+    {
+      "start": 1377.8,
+      "end": 1384.52,
+      "text": "query okay gotta build for the people too gotta what do what do the people need what's the machine need"
+    },
+    {
+      "start": 1384.52,
+      "end": 1391.96,
+      "text": "what do i need it doesn't matter okay let's talk about the the css wrap itself uh"
+    },
+    {
+      "start": 1391.96,
+      "end": 1402.04,
+      "text": "what what's your motivation uh to do this every year what's the goal well we uh a lot of times"
+    },
+    {
+      "start": 1402.04,
+      "end": 1406.68,
+      "text": "different people have different moments at which they can go research and ramp up on all the latest"
+    },
+    {
+      "start": 1406.68,
+      "end": 1411.24,
+      "text": "stuff so a lot of people aren't watching all the features as they come out you know so we we might"
+    },
+    {
+      "start": 1411.24,
+      "end": 1416.76,
+      "text": "announce it um and we know our job isn't done as devrel if we just say hey there's new features in chrome"
+    },
+    {
+      "start": 1416.76,
+      "end": 1421.4,
+      "text": "135 uh go check it out we know that our job is totally not done we need to go give talks"
+    },
+    {
+      "start": 1421.4,
+      "end": 1427.08,
+      "text": "uh we need to follow up with developers as they use it find bugs and then continue we call it like"
+    },
+    {
+      "start": 1427.08,
+      "end": 1432.76,
+      "text": "ringing the gong or continue to share something with people because you never know what moment"
+    },
+    {
+      "start": 1432.76,
+      "end": 1438.2,
+      "text": "during the year someone's going to have time to go look this stuff up so css wrapped is we're assuming"
+    },
+    {
+      "start": 1438.2,
+      "end": 1442.36,
+      "text": "people are on vacation they're kind of chilling at home maybe they would like a digest something that"
+    },
+    {
+      "start": 1442.36,
+      "end": 1449.56,
+      "text": "summarizes the year's css growth into one place to go experience it and so we roll that up into this"
+    },
+    {
+      "start": 1449.56,
+      "end": 1455,
+      "text": "yearly thing um which is good because all the demos all the learnings we can kind of repackage it up"
+    },
+    {
+      "start": 1456.04,
+      "end": 1462.2,
+      "text": "and it's fun and cute last year's was like a book uh this year's uh was much more like an article oh"
+    },
+    {
+      "start": 1462.2,
+      "end": 1468.28,
+      "text": "wait no two years ago was a book last year was a blog post and this year was like a interactive long"
+    },
+    {
+      "start": 1468.28,
+      "end": 1477.32,
+      "text": "scroll uh scrolly telling yeah we did scrolly telling this year yeah yeah yeah yeah this is 2023"
+    },
+    {
+      "start": 1478.2,
+      "end": 1489.24,
+      "text": "and this is like 2024 so this is this is what you miss it's skateboarding and then there's another one"
+    },
+    {
+      "start": 1489.24,
+      "end": 1498.92,
+      "text": "here another one here yeah yeah yeah yeah it's skateboarding so oh yeah this year's theme is like"
+    },
+    {
+      "start": 1498.92,
+      "end": 1506.44,
+      "text": "80s uh pixel game retro game right kind of it was supposed to be uh like each section"
+    },
+    {
+      "start": 1507.24,
+      "end": 1511.64,
+      "text": "was like a different biome like you can see one's like arctic another one is like a desert"
+    },
+    {
+      "start": 1511.64,
+      "end": 1518.28,
+      "text": "um and we had a designer we were working with and um yeah it's like as we as we evolved as we"
+    },
+    {
+      "start": 1518.28,
+      "end": 1522.84,
+      "text": "continued building so like i built a prototype and then the designer designed and then they did stuff"
+    },
+    {
+      "start": 1522.84,
+      "end": 1528.12,
+      "text": "and i did stuff and bramis did stuff and as we just kept going it just kept we let it be very organic"
+    },
+    {
+      "start": 1528.12,
+      "end": 1535.32,
+      "text": "uh the concept of it ending up being so retro and 8-bit is kind of an accident um that's also"
+    },
+    {
+      "start": 1535.96,
+      "end": 1543.4,
+      "text": "because i like retro stuff so it was easy to be like ah let's make it dirty um so yeah that was the"
+    },
+    {
+      "start": 1543.4,
+      "end": 1548.36,
+      "text": "motivation there yeah and there was a bunch of stuff we didn't put on there because we didn't want"
+    },
+    {
+      "start": 1548.36,
+      "end": 1557.48,
+      "text": "to put on this yeah yeah do you use intersection observer for this like to detect this section and"
+    },
+    {
+      "start": 1557.48,
+      "end": 1567.48,
+      "text": "so the the section there on the left can announce its view timeline it can name it and be like i'm"
+    },
+    {
+      "start": 1567.48,
+      "end": 1574.2,
+      "text": "the scroll driven animations view timeline uh and that really just takes its whole div and kind of"
+    },
+    {
+      "start": 1574.2,
+      "end": 1579.88,
+      "text": "its intersection with the scroll port becomes a timeline uh that other things can say i want my"
+    },
+    {
+      "start": 1579.88,
+      "end": 1584.84,
+      "text": "animations to be powered by that scroll driven animation timeline over there and that makes"
+    },
+    {
+      "start": 1584.84,
+      "end": 1591.4,
+      "text": "the little snake grow for that item because it's observing the scroll position of the other document"
+    },
+    {
+      "start": 1591.4,
+      "end": 1597.88,
+      "text": "content as it goes through the page including this active line like this yeah that active line is also"
+    },
+    {
+      "start": 1597.88,
+      "end": 1603.72,
+      "text": "dss yep the only javascript in that is to open the uh accordion in the right moment so if you scroll up"
+    },
+    {
+      "start": 1603.72,
+      "end": 1609.96,
+      "text": "up past scroll uh it'll automatically open the one that you're inside of and that's that's the only js"
+    },
+    {
+      "start": 1609.96,
+      "end": 1622.92,
+      "text": "oh industry yeah that's a really popular component is a scroll spy uh they're also going to be made"
+    },
+    {
+      "start": 1622.92,
+      "end": 1627.96,
+      "text": "easier with carousel uh so we have css carousel coming out in chrome 135 and we'll be able to"
+    },
+    {
+      "start": 1628.68,
+      "end": 1635.32,
+      "text": "link up a a little side element with the actual content uh really easily uh through there as well"
+    },
+    {
+      "start": 1635.32,
+      "end": 1640.12,
+      "text": "so i'll have multiple options for these really cool interactive connected experiences"
+    },
+    {
+      "start": 1640.12,
+      "end": 1654.04,
+      "text": "so why dino is it dino right is it the dino and why for um you chose the story of forest mountain and the"
+    },
+    {
+      "start": 1654.04,
+      "end": 1662.36,
+      "text": "see this time because this is so different concept from last year 2023 2023 yeah this is all about"
+    },
+    {
+      "start": 1662.36,
+      "end": 1668.68,
+      "text": "color and typography if i remember like yeah as you can see last year we had uh this group"
+    },
+    {
+      "start": 1668.68,
+      "end": 1675.88,
+      "text": "architectural foundations typography color and so on and so on and then this year we also tried to to"
+    },
+    {
+      "start": 1675.88,
+      "end": 1681.4,
+      "text": "group them and then we we quickly landed on this idea where we have like different worlds to explore"
+    },
+    {
+      "start": 1681.4,
+      "end": 1688.44,
+      "text": "different scenes to explore um and like we we did a big detour because then suddenly we were inspired by"
+    },
+    {
+      "start": 1688.44,
+      "end": 1696.44,
+      "text": "um a racing game i think we wanted like to have this 80s retro yeah rad racer yeah yeah or like you"
+    },
+    {
+      "start": 1696.44,
+      "end": 1708.28,
+      "text": "you know the classic mario uh"
+    },
+    {
+      "start": 1708.28,
+      "end": 1719.48,
+      "text": "stage one is uh on on on land the original mario bros yeah yeah and then the third i see like there are"
+    },
+    {
+      "start": 1719.48,
+      "end": 1727.8,
+      "text": "different worlds yeah and so eventually we i think we quickly settled on the pixel style art like to"
+    },
+    {
+      "start": 1727.8,
+      "end": 1733.56,
+      "text": "create different types of worlds we want to like to have to have a car race i think but that turned"
+    },
+    {
+      "start": 1733.56,
+      "end": 1737.16,
+      "text": "out to be too difficult right because when you're brainstorming you're like all out oh we wanted this"
+    },
+    {
+      "start": 1737.16,
+      "end": 1743.08,
+      "text": "we wanted that we wanted that one and then we we toned it down again and and of course we had to"
+    },
+    {
+      "start": 1743.08,
+      "end": 1748.76,
+      "text": "drag in the chrome dino because it is pixelated right so yeah we could not not have it so"
+    },
+    {
+      "start": 1748.76,
+      "end": 1753.64,
+      "text": "is there any easter egg here that we don't know"
+    },
+    {
+      "start": 1753.64,
+      "end": 1757.96,
+      "text": "did you plan any easter egg uh well if you"
+    },
+    {
+      "start": 1757.96,
+      "end": 1761.96,
+      "text": "we didn't plan one but i think the most fun one is you can make"
+    },
+    {
+      "start": 1761.96,
+      "end": 1765.72,
+      "text": "um the dinosaur kind of dance if you just scroll up and down back and forth"
+    },
+    {
+      "start": 1766.68,
+      "end": 1772.68,
+      "text": "he'll sit there and dance you know it's like oh so you can make him shake his butt uh you can"
+    },
+    {
+      "start": 1772.68,
+      "end": 1778.2,
+      "text": "also do yeah i don't know if that's the easter egg uh there's plenty of like oh there's another"
+    },
+    {
+      "start": 1778.2,
+      "end": 1783.4,
+      "text": "easter egg when you go to the mobile view the menu icon is a hamburger that's kind of like a"
+    },
+    {
+      "start": 1783.4,
+      "end": 1787.64,
+      "text": "you know it's like oh it's a hamburger menu yeah oh yeah yeah we we noticed that"
+    },
+    {
+      "start": 1790.12,
+      "end": 1795.32,
+      "text": "in our past episode which i saw leah verus site yesterday has a hamburger on it i was like oh"
+    },
+    {
+      "start": 1795.32,
+      "end": 1798.76,
+      "text": "i wonder if leo was inspired by our hamburger to turn hers into a hamburger"
+    },
+    {
+      "start": 1798.76,
+      "end": 1805.48,
+      "text": "well now about what time some restaurant make a hamburger that"
+    },
+    {
+      "start": 1805.48,
+      "end": 1809,
+      "text": "actually looks like hamburger menu menu"
+    },
+    {
+      "start": 1809,
+      "end": 1815.16,
+      "text": "let's see if i can find our prototype too oh yeah here we go here's the 2024"
+    },
+    {
+      "start": 1815.88,
+      "end": 1820.68,
+      "text": "wrapped prototype so i was prototyping in a code pen while the designer was going"
+    },
+    {
+      "start": 1820.68,
+      "end": 1826.04,
+      "text": "yeah like bramis was saying one of the original ideas was like you're going on a road trip and so"
+    },
+    {
+      "start": 1826.04,
+      "end": 1829.64,
+      "text": "your first part of your trip might be through the desert area and you've got these stops to make"
+    },
+    {
+      "start": 1829.64,
+      "end": 1833.32,
+      "text": "and so you would stop along the way at these sites to see in the desert area and then you would move"
+    },
+    {
+      "start": 1833.32,
+      "end": 1840.68,
+      "text": "on to the next area um so we were trying to create this feeling of traveling across all of"
+    },
+    {
+      "start": 1840.68,
+      "end": 1845,
+      "text": "these territories or all these biomes and you'll see in this one uh oh here look you still don't have"
+    },
+    {
+      "start": 1845,
+      "end": 1850.2,
+      "text": "scrolls uh you probably have yeah prefers reduced animation on there's a bunch of scroll driven"
+    },
+    {
+      "start": 1850.2,
+      "end": 1853.32,
+      "text": "animations you're not seeing there oh okay let me"
+    },
+    {
+      "start": 1853.32,
+      "end": 1861.32,
+      "text": "um so yeah you'll see a different variant of the of the dinosaur going to where it's much longer"
+    },
+    {
+      "start": 1861.32,
+      "end": 1865.56,
+      "text": "like he goes across the whole page as opposed to right now it kind of goes through sections and"
+    },
+    {
+      "start": 1865.56,
+      "end": 1874.52,
+      "text": "stops anyway it's funny oh but he might not do proper type oh see yeah and then there's the car"
+    },
+    {
+      "start": 1875,
+      "end": 1879.4,
+      "text": "it's supposed to be moving this is the car yeah yeah so he should be twisted and driving along the"
+    },
+    {
+      "start": 1879.4,
+      "end": 1889.8,
+      "text": "thing but it looks like uh i see yeah i don't know where to change that settings"
+    },
+    {
+      "start": 1891.72,
+      "end": 1905.32,
+      "text": "anyway how you you um decide what what css feature do you want to uh do in css wrap or every every every"
+    },
+    {
+      "start": 1905.32,
+      "end": 1914.92,
+      "text": "every new css feature you uh categorize in that uh like uh like this like for uh component and and"
+    },
+    {
+      "start": 1914.92,
+      "end": 1922.44,
+      "text": "and for uh interaction developer experience yeah we we had to limit ourselves right because if we"
+    },
+    {
+      "start": 1922.44,
+      "end": 1926.36,
+      "text": "wanted we could have like doubled the amount of content which would also would have meant that we"
+    },
+    {
+      "start": 1926.36,
+      "end": 1934.44,
+      "text": "had we had extra work to do and time is always tight right so yeah um so i um i think if in the"
+    },
+    {
+      "start": 1934.44,
+      "end": 1940.92,
+      "text": "end we went to uh to having the cutoff point like okay we shipped this in chrome this year that was a"
+    },
+    {
+      "start": 1940.92,
+      "end": 1947.72,
+      "text": "cutoff point and we made some exceptions for some features that um were uh baseline uh this year they"
+    },
+    {
+      "start": 1947.72,
+      "end": 1951.72,
+      "text": "were like okay these features now available in all browsers and it's i think it's definitely worth"
+    },
+    {
+      "start": 1951.72,
+      "end": 1957.96,
+      "text": "mentioning so we're gonna include it um i think the the one exception on that is um scroll driven"
+    },
+    {
+      "start": 1957.96,
+      "end": 1965.96,
+      "text": "animations that we covered on the website because we had it in chrome in 2023 but we did feature in 2024 on"
+    },
+    {
+      "start": 1965.96,
+      "end": 1972.28,
+      "text": "our css wrapped but that's because uh i published a video course uh with 10 episodes where you can like"
+    },
+    {
+      "start": 1972.28,
+      "end": 1977.72,
+      "text": "learn all about scroller animations and we thought it was worth like uh put some extra attention to"
+    },
+    {
+      "start": 1977.72,
+      "end": 1985.16,
+      "text": "that by including it on css wrapped but yeah we we did have to make a like a cut somewhere um because"
+    },
+    {
+      "start": 1985.16,
+      "end": 1993.8,
+      "text": "there's so much cool stuff there's so much going on in csland yeah it's like a theme right uh last year"
+    },
+    {
+      "start": 1993.8,
+      "end": 2002.92,
+      "text": "uh in 2023 uh css wrap in 2023 there is um like color uh typography and now uh"
+    },
+    {
+      "start": 2002.92,
+      "end": 2011.96,
+      "text": "it's yeah it's it's it's more than more i feel like an impression component but the the highlight"
+    },
+    {
+      "start": 2011.96,
+      "end": 2018.6,
+      "text": "is scroll different animation for me i like the scroll different animation that's the most i know it's like"
+    },
+    {
+      "start": 2018.6,
+      "end": 2024.6,
+      "text": "view transitions are pretty cool too don't go all in on it for you transition yeah"
+    },
+    {
+      "start": 2024.6,
+      "end": 2032.92,
+      "text": "yeah there's a lot of interactions thing related to scrolling and so it's it's really cool what you can"
+    },
+    {
+      "start": 2032.92,
+      "end": 2037.72,
+      "text": "you can do and like a common type of feedback that we get from people like especially when talking about"
+    },
+    {
+      "start": 2037.72,
+      "end": 2042.76,
+      "text": "scroller animations it's like yeah but i have this javascript library that i can use like why should i even"
+    },
+    {
+      "start": 2042.76,
+      "end": 2051.4,
+      "text": "bother with css or the new feature in javascript it's like well yeah now you have a built-in thing"
+    },
+    {
+      "start": 2051.4,
+      "end": 2058.04,
+      "text": "in the browser and it's but it's like it's true power is gained by the fact that scroll driven animations"
+    },
+    {
+      "start": 2058.04,
+      "end": 2066.12,
+      "text": "are powered by regular css animations or the web animations api and that technology already knows when to"
+    },
+    {
+      "start": 2066.68,
+      "end": 2072.52,
+      "text": "hardware accelerate a certain property like if you do an opacity animation a translate a scale whatever"
+    },
+    {
+      "start": 2072.52,
+      "end": 2078.68,
+      "text": "that all runs on the compositor so it's crawl driven animations being built into the web platform you can"
+    },
+    {
+      "start": 2078.68,
+      "end": 2086.04,
+      "text": "have harder accelerated animations driven by scroll that run off the main thread and it's like so cool"
+    },
+    {
+      "start": 2086.04,
+      "end": 2090.44,
+      "text": "because then your main thread can do all other stuff because your main track can only do one thing at"
+    },
+    {
+      "start": 2090.44,
+      "end": 2097.32,
+      "text": "the time right so yeah it's really exciting uh that one you have like this visual thing that you were"
+    },
+    {
+      "start": 2097.32,
+      "end": 2106.28,
+      "text": "already able to build but now you can have it in a very performant way um yeah that's why um with this"
+    },
+    {
+      "start": 2106.28,
+      "end": 2114.44,
+      "text": "like bunch of week like in the future like upcoming after this is uh become a baseline so the store"
+    },
+    {
+      "start": 2114.44,
+      "end": 2124.36,
+      "text": "different i mean it's like baseline perhaps next year that means i can ask uh my team let's get it out"
+    },
+    {
+      "start": 2124.36,
+      "end": 2131,
+      "text": "all this javascript that you don't need to just make this animation anymore get it out why wait till"
+    },
+    {
+      "start": 2131,
+      "end": 2136.28,
+      "text": "baseline i mean if it's uh i guess it just depends like some teams are like the the scroll animation is"
+    },
+    {
+      "start": 2136.28,
+      "end": 2140.84,
+      "text": "required and you're like what about users with prefers reduced motion are you going to make them get"
+    },
+    {
+      "start": 2140.84,
+      "end": 2145.88,
+      "text": "scroll no no we won't force scrolling them okay what about users with javascript disabled how are"
+    },
+    {
+      "start": 2145.88,
+      "end": 2150.84,
+      "text": "you going to give them scroll animation oh they don't get scroll animation either so then how come"
+    },
+    {
+      "start": 2150.84,
+      "end": 2155.88,
+      "text": "it's so weird for me to say that like scroll animation is nice to have you just told me two"
+    },
+    {
+      "start": 2155.88,
+      "end": 2160.28,
+      "text": "different groups of people that you think it's okay not to have why not a normal person and then we can"
+    },
+    {
+      "start": 2160.28,
+      "end": 2166.28,
+      "text": "get rid of the whole huge library and over time it won't be an issue and users without javascript"
+    },
+    {
+      "start": 2166.28,
+      "end": 2171.8,
+      "text": "enabled start to get scroll animations so that's huge um anyway"
+    },
+    {
+      "start": 2171.8,
+      "end": 2182.12,
+      "text": "and i think there's a polyfill right for scroll driven animation so i'll just dynamically look"
+    },
+    {
+      "start": 2182.12,
+      "end": 2188.28,
+      "text": "the polyfill if if if it's really really necessary there is a polyfill but it comes up with a few"
+    },
+    {
+      "start": 2188.28,
+      "end": 2194.76,
+      "text": "asterisks like um it doesn't support all of the syntax and you need to you need to put your css in a"
+    },
+    {
+      "start": 2194.76,
+      "end": 2202.2,
+      "text": "specific location because only then the polyfill can like find your code um but the biggest asterisk"
+    },
+    {
+      "start": 2202.2,
+      "end": 2209.48,
+      "text": "quid is is that that yes you are um not having the benefits of the the composite animations in that"
+    },
+    {
+      "start": 2209.48,
+      "end": 2214.44,
+      "text": "case because all the javascript that is required to pull fill it runs on the main thread so back to"
+    },
+    {
+      "start": 2214.44,
+      "end": 2220.76,
+      "text": "your main thread animations and that is a trade-off that you have to make as a team right like are we okay"
+    },
+    {
+      "start": 2220.76,
+      "end": 2226.36,
+      "text": "with not shipping the animations at all to browsers with no support or or users that that would want"
+    },
+    {
+      "start": 2226.36,
+      "end": 2233.16,
+      "text": "it um or are we okay with actually then loading up the polyfill in those older browsers um which"
+    },
+    {
+      "start": 2233.16,
+      "end": 2238.76,
+      "text": "general result in a perf hit so it's it's like yeah it's straight of it yeah yeah sure like everything"
+    },
+    {
+      "start": 2240.2,
+      "end": 2246.28,
+      "text": "i can i can i can assume that some people really want the animations to work on all on all browsers"
+    },
+    {
+      "start": 2246.28,
+      "end": 2252.52,
+      "text": "yeah you you can opt into having the polyfill and but do note that it comes with a with a cost"
+    },
+    {
+      "start": 2252.52,
+      "end": 2259.48,
+      "text": "well if if you uh if you use external javascript library it's it's gonna run on the main thread anyway"
+    },
+    {
+      "start": 2259.48,
+      "end": 2265.64,
+      "text": "yeah exactly that's also one of the things that you need like there's always like yes but and then"
+    },
+    {
+      "start": 2265.64,
+      "end": 2271.24,
+      "text": "there's another yes button respond to another yes but it's like the golden answer it depends"
+    },
+    {
+      "start": 2271.24,
+      "end": 2280.28,
+      "text": "that's the only honest answer on the web it depends yeah it depends okay okay"
+    },
+    {
+      "start": 2280.28,
+      "end": 2292.6,
+      "text": "is there any uh like um success story or uh impact from uh css rep uh website that you receive maybe like"
+    },
+    {
+      "start": 2292.6,
+      "end": 2301.24,
+      "text": "testimonial or something i mean there's a lot of appreciation i think a lot of people didn't know"
+    },
+    {
+      "start": 2301.24,
+      "end": 2307.24,
+      "text": "certain things could happen and uh it's it's nice this is why listicles you know like the popular like"
+    },
+    {
+      "start": 2307.24,
+      "end": 2314.36,
+      "text": "five things that are new this month in css whatever number three is gonna blow your mind number five is"
+    },
+    {
+      "start": 2314.36,
+      "end": 2319.4,
+      "text": "really ugly and gross you should don't smell number five you know um and everyone's like what i have to"
+    },
+    {
+      "start": 2319.4,
+      "end": 2324.6,
+      "text": "smell this now and you're like i just told you not to smell it you weirdo okay um but people like"
+    },
+    {
+      "start": 2324.6,
+      "end": 2330.36,
+      "text": "these because uh it can be hard to hear about these one by one but if you get to see them in a digest and"
+    },
+    {
+      "start": 2330.36,
+      "end": 2335.96,
+      "text": "see them all summarized demos with with the browser support right there on there um that can be really"
+    },
+    {
+      "start": 2335.96,
+      "end": 2341.24,
+      "text": "nice for people especially as we kick out to deeper learning um so i think we got compliments that way"
+    },
+    {
+      "start": 2341.24,
+      "end": 2347.48,
+      "text": "the side nav um you know being a scroll observer a scroll spy and being mostly css driven has been very"
+    },
+    {
+      "start": 2347.48,
+      "end": 2351.56,
+      "text": "inspiring for a lot of people because that's a very common component to put on a blog for example"
+    },
+    {
+      "start": 2351.56,
+      "end": 2355.64,
+      "text": "right you're like i wrote a blog post and now i have a table of contents and i'd like that to be"
+    },
+    {
+      "start": 2355.64,
+      "end": 2360.36,
+      "text": "linked up with the content you're like oh here comes a javascript library uh not necessarily"
+    },
+    {
+      "start": 2360.36,
+      "end": 2365.64,
+      "text": "there's some features which really surprised people too like they had no idea like field sizing like"
+    },
+    {
+      "start": 2365.64,
+      "end": 2370.36,
+      "text": "one of the first ones on there oh yeah um people are like i have a whole javascript library that does"
+    },
+    {
+      "start": 2370.36,
+      "end": 2375.24,
+      "text": "this so that when i type into text inputs it grows and i'm like cool get rid of it now here's a one"
+    },
+    {
+      "start": 2375.24,
+      "end": 2381.4,
+      "text": "line of css that does it now yeah we didn't know about it actually so we had an episode about css wrapped"
+    },
+    {
+      "start": 2381.4,
+      "end": 2391.4,
+      "text": "and we try it we tried live on air like we were like we we just typed and uh hit line break multiple"
+    },
+    {
+      "start": 2391.4,
+      "end": 2397.32,
+      "text": "times you know what i really like during the early material design i think but we used to"
+    },
+    {
+      "start": 2397.32,
+      "end": 2403.64,
+      "text": "have to use uh you know javascript what i really like about this feature is that like it's not one"
+    },
+    {
+      "start": 2403.64,
+      "end": 2408.76,
+      "text": "of those big fancy features where it's like view transitions scroll driven animations but it's like"
+    },
+    {
+      "start": 2408.76,
+      "end": 2414.92,
+      "text": "this one little thing that got added to the web platform but it has a huge impact because you can throw"
+    },
+    {
+      "start": 2414.92,
+      "end": 2421.56,
+      "text": "away thousands of lines of code that did it or 500 lines of code or whatever like embrace the platform"
+    },
+    {
+      "start": 2421.56,
+      "end": 2427.56,
+      "text": "use the declaration boom you have it then same response i always get also with uh smooth scrolling"
+    },
+    {
+      "start": 2427.56,
+      "end": 2432.84,
+      "text": "where you set the scroll behavior smooth and then you click a link in the page and it scrolls down"
+    },
+    {
+      "start": 2432.84,
+      "end": 2438.28,
+      "text": "and if you if you mention that at a mainly javascript focused audience they all go like"
+    },
+    {
+      "start": 2439,
+      "end": 2449.08,
+      "text": "what what what just happened one line of code one line of code okay very nice have you remember that"
+    },
+    {
+      "start": 2449.08,
+      "end": 2461.88,
+      "text": "the days like in 2000 perhaps 2015 2014 where the web is like love to use sliders like they call it"
+    },
+    {
+      "start": 2461.88,
+      "end": 2468.6,
+      "text": "slider revolution where these animations that that that make the sliders so fancy and"
+    },
+    {
+      "start": 2469.4,
+      "end": 2477.64,
+      "text": "text flying in there that's very very heavy no no no this is what we call like in wordpress what"
+    },
+    {
+      "start": 2477.64,
+      "end": 2485.88,
+      "text": "is called a plugin called slider revolution where the slider can just like like 3d animation it's"
+    },
+    {
+      "start": 2485.88,
+      "end": 2495.48,
+      "text": "got webgl all sorts of textures and layers animating yeah yeah and it's so heavy but people love it at the"
+    },
+    {
+      "start": 2495.48,
+      "end": 2503.16,
+      "text": "it's got the time and now nowadays like in fact no yes something like products effects also after uh"
+    },
+    {
+      "start": 2503.16,
+      "end": 2511.32,
+      "text": "that time um but yeah those um those are very very very heavy javascript and just to load that"
+    },
+    {
+      "start": 2511.32,
+      "end": 2517.88,
+      "text": "uh if i see a website that still use it is just load the site like only for the javascript to load that"
+    },
+    {
+      "start": 2517.88,
+      "end": 2531.08,
+      "text": "that requires at least 1.5 1.6 megabyte the javascript file only not to mention the the image itself so"
+    },
+    {
+      "start": 2532.84,
+      "end": 2541.8,
+      "text": "um yeah like i'm right now like preaching to get rid of all those javascript just move to what the"
+    },
+    {
+      "start": 2541.8,
+      "end": 2550.28,
+      "text": "platform gave you and yeah css just share the link in our chat here maybe you can present it on screen"
+    },
+    {
+      "start": 2550.28,
+      "end": 2556.2,
+      "text": "but like the parallax effect that you mentioned this is possible with scroll driven animations"
+    },
+    {
+      "start": 2556.76,
+      "end": 2562.12,
+      "text": "where you say like okay if this thing is entering this one you have to scroll horizontally but if you"
+    },
+    {
+      "start": 2562.12,
+      "end": 2568.84,
+      "text": "look like the images move a bit inside so yeah if you scroll it slowly yeah the images oh yeah"
+    },
+    {
+      "start": 2568.84,
+      "end": 2576.84,
+      "text": "and if you hit a little css yeah it's just a little eye icon there at the bottom right"
+    },
+    {
+      "start": 2576.84,
+      "end": 2579.72,
+      "text": "you can see the code that was used for it"
+    },
+    {
+      "start": 2580.76,
+      "end": 2587.4,
+      "text": "and it says the images yeah blah blah blah and it's like that that's an animation that's all you need"
+    },
+    {
+      "start": 2587.4,
+      "end": 2594.68,
+      "text": "for a parallax effect oh wow it's cool right very cool"
+    },
+    {
+      "start": 2594.68,
+      "end": 2605.32,
+      "text": "wow that's one of the things that i really love about the web is that um if you if you look at it"
+    },
+    {
+      "start": 2605.32,
+      "end": 2611.8,
+      "text": "like for for over a longer period the web platform always catches up we always had these things that"
+    },
+    {
+      "start": 2611.8,
+      "end": 2616.92,
+      "text": "were first built in user land like we used to have flash to play video or to do animations on the web"
+    },
+    {
+      "start": 2616.92,
+      "end": 2621.56,
+      "text": "now we have video element we have streaming video and we have css animations we have weapon amazing"
+    },
+    {
+      "start": 2621.56,
+      "end": 2629.8,
+      "text": "we have transitions like all the stuff catches up um the oh i'm drawing blank here adam help me out"
+    },
+    {
+      "start": 2629.8,
+      "end": 2635.08,
+      "text": "what are some other examples oh are things catching up i mean stuff from jquery that wasn't going to"
+    },
+    {
+      "start": 2635.08,
+      "end": 2641.96,
+      "text": "say like like all the whole selector engine uh that jquery of like first landed well we have that now"
+    },
+    {
+      "start": 2641.96,
+      "end": 2647.32,
+      "text": "in in javascript document of queries for all features yeah they're in the native language yeah"
+    },
+    {
+      "start": 2647.32,
+      "end": 2655.72,
+      "text": "functions mix-ins uh variables like yeah the platform always catches up and admittedly sometimes"
+    },
+    {
+      "start": 2655.72,
+      "end": 2660.28,
+      "text": "it takes a bit of time because we have to think hard about it um but in the end"
+    },
+    {
+      "start": 2661.48,
+      "end": 2668.84,
+      "text": "yeah that's six years or something like that um yeah right now it's like pop over like the model"
+    },
+    {
+      "start": 2668.84,
+      "end": 2676.44,
+      "text": "pop over and also um more web component uh landed as well like um but it's it's still getting"
+    },
+    {
+      "start": 2676.44,
+      "end": 2684.44,
+      "text": "improved like we we have pop over now but now we have dialogue anchor positioning yeah anchor positioning"
+    },
+    {
+      "start": 2684.44,
+      "end": 2689.08,
+      "text": "and then now we have pop over hints that landed recently we're gonna have like a tooltipping behavior"
+    },
+    {
+      "start": 2689.08,
+      "end": 2695.32,
+      "text": "where one pop over doesn't close the other one and then we're gonna have interest invokers something"
+    },
+    {
+      "start": 2695.32,
+      "end": 2700.92,
+      "text": "that's coming in the future where we can trigger the pop over by just hovering the link or the button"
+    },
+    {
+      "start": 2700.92,
+      "end": 2706.28,
+      "text": "it's like it's coming to a full circle there it's like cool you have all these little things and then"
+    },
+    {
+      "start": 2706.28,
+      "end": 2709.32,
+      "text": "together they form like this really exciting thing"
+    },
+    {
+      "start": 2711.24,
+      "end": 2716.12,
+      "text": "and native css nested you need to mention it native css is huge"
+    },
+    {
+      "start": 2716.12,
+      "end": 2722.52,
+      "text": "yeah we have really enjoyed that one for that on lock like he was one of the driving forces behind"
+    },
+    {
+      "start": 2722.52,
+      "end": 2731.08,
+      "text": "that one i was i was like uh i just kept poking thank you thank you for that that's really really huge"
+    },
+    {
+      "start": 2731.08,
+      "end": 2737.16,
+      "text": "huge improvement i think so too and we're still making it better so bramas has made posts you know"
+    },
+    {
+      "start": 2737.16,
+      "end": 2741.08,
+      "text": "just in the past few months i think one of them is in uh css wrapped actually one of them is"
+    },
+    {
+      "start": 2741.08,
+      "end": 2746.92,
+      "text": "developing experience css on nested declaration yeah that's the one there yeah and we have more"
+    },
+    {
+      "start": 2746.92,
+      "end": 2751.96,
+      "text": "improvements coming too where you can put an at starting style inside of a pseudo uh element so you"
+    },
+    {
+      "start": 2751.96,
+      "end": 2756.12,
+      "text": "can have like dash dash before or colon colon before and you could do it at starting style inside of"
+    },
+    {
+      "start": 2756.12,
+      "end": 2763,
+      "text": "of there uh we're making more manually adding and removing class name css class name because uh we"
+    },
+    {
+      "start": 2763,
+      "end": 2769.72,
+      "text": "already have starting style right yeah that one's really helpful for a use case like that yep so yeah"
+    },
+    {
+      "start": 2769.72,
+      "end": 2773.88,
+      "text": "we're still making it better and there's even more improvements coming i was just talking with uh"
+    },
+    {
+      "start": 2773.88,
+      "end": 2779.64,
+      "text": "folks yesterday who were like i ran into a bug with nesting and we're like yes that is uh it won't be a"
+    },
+    {
+      "start": 2779.64,
+      "end": 2785,
+      "text": "bug eventually so we're kind of as we as we find more and more it's more like uh we started simple"
+    },
+    {
+      "start": 2785,
+      "end": 2789.8,
+      "text": "and now we're teaching nesting how to get more complex and handle all of the edge cases and"
+    },
+    {
+      "start": 2789.8,
+      "end": 2793.96,
+      "text": "it's cool it's fun work okay cool"
+    },
+    {
+      "start": 2793.96,
+      "end": 2799.4,
+      "text": "so much stuff uh"
+    },
+    {
+      "start": 2799.4,
+      "end": 2803.32,
+      "text": "what is your favorite from"
+    },
+    {
+      "start": 2803.32,
+      "end": 2814.36,
+      "text": "2024 the your most favorite just one and just one just like which one is your maybe we should guess i"
+    },
+    {
+      "start": 2814.36,
+      "end": 2817.48,
+      "text": "i think adam is going for the scroll snap events"
+    },
+    {
+      "start": 2817.48,
+      "end": 2824.6,
+      "text": "i would like to say that one because of how involved i was with it and how many use cases i"
+    },
+    {
+      "start": 2824.6,
+      "end": 2830.04,
+      "text": "have for it but if i'm being honest about the one that i use the most that just continues to creep"
+    },
+    {
+      "start": 2830.04,
+      "end": 2834.04,
+      "text": "into all my little prototypes it's scroll driven animations and i would have thought it was view"
+    },
+    {
+      "start": 2834.04,
+      "end": 2841.8,
+      "text": "transitions uh which i still i love those a ton but i genuinely think scroll driven animations is"
+    },
+    {
+      "start": 2843.08,
+      "end": 2849,
+      "text": "freakishly capable and unlocks so many use cases like we don't even know about like we've already seen"
+    },
+    {
+      "start": 2849,
+      "end": 2853.88,
+      "text": "new hacks that come out where you can watch the thumbnail go across an input type range and use"
+    },
+    {
+      "start": 2853.88,
+      "end": 2860.2,
+      "text": "that with a scroll driven animation to power something else um there's just we are still barely scratching"
+    },
+    {
+      "start": 2860.2,
+      "end": 2864.6,
+      "text": "the surface what scroll driven animations can do um yeah it's it's the gift that keeps on giving like"
+    },
+    {
+      "start": 2864.6,
+      "end": 2871,
+      "text": "kizu has some very nice hacks with it where he where he managed to create um text that automatically"
+    },
+    {
+      "start": 2871,
+      "end": 2876.12,
+      "text": "sizes to the available width of the containers if you shrink the container the text automatically like"
+    },
+    {
+      "start": 2876.12,
+      "end": 2879.88,
+      "text": "shrinks its font size and it's powered by scroll driven animations like"
+    },
+    {
+      "start": 2879.88,
+      "end": 2886.44,
+      "text": "what oh okay yeah it's it's a very clever hack like every time i look at him like"
+    },
+    {
+      "start": 2887.08,
+      "end": 2892.2,
+      "text": "what how does it work and then like okay so clever yep"
+    },
+    {
+      "start": 2892.2,
+      "end": 2899.64,
+      "text": "so bramus what's yours mine's scroll driven animation well if you pick that one then i'm gonna pick the"
+    },
+    {
+      "start": 2899.64,
+      "end": 2909.64,
+      "text": "other one with just view transitions yeah i think view transitions is um a really exciting one because"
+    },
+    {
+      "start": 2909.64,
+      "end": 2915.64,
+      "text": "people have always wanted to do more things and the way you used to do it before is that you you cloned"
+    },
+    {
+      "start": 2915.64,
+      "end": 2922.2,
+      "text": "the element and then you animated it that's but like accessibility wise and you had like two copies of"
+    },
+    {
+      "start": 2922.2,
+      "end": 2927.72,
+      "text": "the thing in your dom which is like uh weird and like it relied on all sorts of hacks and now we have"
+    },
+    {
+      "start": 2927.72,
+      "end": 2933.96,
+      "text": "it built in um and it's like already this point where it's like okay cool i can do some things with it"
+    },
+    {
+      "start": 2933.96,
+      "end": 2939.96,
+      "text": "but i think the the real power that we're going to see with it is going to come this year um where we"
+    },
+    {
+      "start": 2939.96,
+      "end": 2946.76,
+      "text": "are going to to experiment well our engineering team is experimenting with it right now and we're going"
+    },
+    {
+      "start": 2946.76,
+      "end": 2952.36,
+      "text": "to unlock um scoped transitions where instead of doing document of start review transition to to like"
+    },
+    {
+      "start": 2952.36,
+      "end": 2957.88,
+      "text": "start the view transition for the whole document you can select a certain element and then say"
+    },
+    {
+      "start": 2957.88,
+      "end": 2963,
+      "text": "element dot start view transition and the view traditional only run on that specific little dom"
+    },
+    {
+      "start": 2963,
+      "end": 2968.92,
+      "text": "sub tree which is pretty cool because then you can ship it like like something like a chat"
+    },
+    {
+      "start": 2968.92,
+      "end": 2975.64,
+      "text": "component widget whatever with view transitions without interfering with all the rest of of the page"
+    },
+    {
+      "start": 2975.64,
+      "end": 2983.72,
+      "text": "or like client-side router so it's going to behave just like client-side router you know you you have"
+    },
+    {
+      "start": 2983.72,
+      "end": 2993.08,
+      "text": "the shell intact and just uh replace the content or whatever yeah um speaking of by the way um clients at"
+    },
+    {
+      "start": 2993.08,
+      "end": 2998.04,
+      "text": "router um people always want to use react and the react team they have an active br"
+    },
+    {
+      "start": 2998.92,
+      "end": 3003.08,
+      "text": "in the works where they are experimenting with view transitions and we are supporting them"
+    },
+    {
+      "start": 3003.08,
+      "end": 3008.44,
+      "text": "in their effort which is also pretty cool uh and then also the thing that that lennon and chrome last"
+    },
+    {
+      "start": 3008.44,
+      "end": 3014.84,
+      "text": "year and is also available in safari as of 17.2 if i'm not mistaken are across document navigations"
+    },
+    {
+      "start": 3014.84,
+      "end": 3021.8,
+      "text": "where you can have a view transition between two pages by simply clicking a link or submitting a form from"
+    },
+    {
+      "start": 3021.8,
+      "end": 3027.24,
+      "text": "the one page to the other and it uses the same building blocks and the same type of logic"
+    },
+    {
+      "start": 3027.24,
+      "end": 3033.24,
+      "text": "as the same document view transitions the only difference is the trigger in the same document"
+    },
+    {
+      "start": 3033.24,
+      "end": 3039.88,
+      "text": "version you call document.start view transition but in the cross document version you just click the link"
+    },
+    {
+      "start": 3039.88,
+      "end": 3045.72,
+      "text": "it's like oh that has been really great for the for the past 30 years so it's like embrace the platform"
+    },
+    {
+      "start": 3045.72,
+      "end": 3060.28,
+      "text": "cross the cross document yeah yeah we have this it's just like and now uh firefox is left out at the"
+    },
+    {
+      "start": 3060.28,
+      "end": 3069.24,
+      "text": "moment they just the regular page navigations yep uh but newer browsers will animate yeah at worst you get"
+    },
+    {
+      "start": 3069.24,
+      "end": 3074.52,
+      "text": "the status quo experience which is you click the link and then the new page loads and it swaps out"
+    },
+    {
+      "start": 3074.52,
+      "end": 3080.92,
+      "text": "and if your bravo speaks view transitions well then you get like the nice moving thing and of course you"
+    },
+    {
+      "start": 3080.92,
+      "end": 3086.68,
+      "text": "can then wrap it again and add first reduced motion media queries to respect that and all sorts of stuff"
+    },
+    {
+      "start": 3086.68,
+      "end": 3093.48,
+      "text": "so it's it's it's really cool um that this is powered by css on order hood yeah you can go to my"
+    },
+    {
+      "start": 3093.48,
+      "end": 3099.32,
+      "text": "website nerdy.dev i've got scroll driven animations view transitions dialogue elements"
+    },
+    {
+      "start": 3099.32,
+      "end": 3104.92,
+      "text": "i mix and match a whole bunch of this stuff in there and so you can visit my site from firefox"
+    },
+    {
+      "start": 3104.92,
+      "end": 3109.64,
+      "text": "and see what happens but if you click that card you'll get a view transition there that'll make"
+    },
+    {
+      "start": 3109.64,
+      "end": 3115.88,
+      "text": "the card morph into the next page using uh crosstalk review transitions so no javascript involved there"
+    },
+    {
+      "start": 3116.44,
+      "end": 3120.12,
+      "text": "and then if you keep scrolling down you'll see i'm using scroll driven animations to bring in people's"
+    },
+    {
+      "start": 3120.12,
+      "end": 3125.96,
+      "text": "comments if you go down to the very bottom there's even so anyway uh i think about a lot of these"
+    },
+    {
+      "start": 3125.96,
+      "end": 3134.36,
+      "text": "things like what's my site my site has posts and like some content on it um but i can enhance that"
+    },
+    {
+      "start": 3134.36,
+      "end": 3139.48,
+      "text": "from just a basic document with all these different things i can do and i like thinking about it in"
+    },
+    {
+      "start": 3139.48,
+      "end": 3144.04,
+      "text": "those layers i like thinking about uh helping people in those layers too i'm like here's the base"
+    },
+    {
+      "start": 3144.04,
+      "end": 3148.84,
+      "text": "experience um if people are cool with animations i add the animation so i always do it very additive"
+    },
+    {
+      "start": 3148.84,
+      "end": 3153.64,
+      "text": "some people are like i remove animations if you don't like animations and i'm like no i don't do that"
+    },
+    {
+      "start": 3153.64,
+      "end": 3159.48,
+      "text": "i add them only if you're cool with them uh and it's fun it's fun to have my own site to do so but"
+    },
+    {
+      "start": 3159.48,
+      "end": 3168.6,
+      "text": "yeah those animations there's you navigate between stuff is all css no javascript wow very nice"
+    },
+    {
+      "start": 3169.48,
+      "end": 3174.52,
+      "text": "i cannot make yeah you keep mentioning baseline and i'm like baseline is cool like if that's how"
+    },
+    {
+      "start": 3174.52,
+      "end": 3180.28,
+      "text": "your team is working and you all are agreeing that way but it's also not difficult and very acceptable"
+    },
+    {
+      "start": 3180.28,
+      "end": 3185.96,
+      "text": "to upgrade it for the browser that can do it you know so just like use my site as an example if you"
+    },
+    {
+      "start": 3185.96,
+      "end": 3190.76,
+      "text": "want to where you can even browse it with javascript disabled and you still get the animations and stuff"
+    },
+    {
+      "start": 3190.76,
+      "end": 3197.24,
+      "text": "right so it's like not only are you uh minimally giving these experiences and conditionally applying"
+    },
+    {
+      "start": 3197.24,
+      "end": 3201.08,
+      "text": "them you're actually bringing in more people to the experience too by removing the javascript and"
+    },
+    {
+      "start": 3201.08,
+      "end": 3206.44,
+      "text": "just kind of so many things to think about right yeah i think one of the points where people um"
+    },
+    {
+      "start": 3206.44,
+      "end": 3213.32,
+      "text": "possibly misinterpret baseline is when a feature is not baseline that does not mean that you can't use"
+    },
+    {
+      "start": 3213.32,
+      "end": 3220.84,
+      "text": "it when the feature is not baseline it means you should look at the feature itself and then make an"
+    },
+    {
+      "start": 3221.48,
+      "end": 3228.44,
+      "text": "educated guess on whether you want to use it or not and things like text wrap balance and whatever it's"
+    },
+    {
+      "start": 3228.44,
+      "end": 3234.2,
+      "text": "it's not baseline or maybe it is baseline newly available but you can use it at worst case the"
+    },
+    {
+      "start": 3234.2,
+      "end": 3240.68,
+      "text": "declaration won't be parsed and it won't have a visual effect but at best case if the browser supports"
+    },
+    {
+      "start": 3240.68,
+      "end": 3248.52,
+      "text": "it great they'll get the nicer version um so yeah if something is not baseline you you have options you can"
+    },
+    {
+      "start": 3248.52,
+      "end": 3254.04,
+      "text": "polyfill it you can treat it as a progressive enhancement and say like maybe after all we're"
+    },
+    {
+      "start": 3254.04,
+      "end": 3259,
+      "text": "not going to use it because it's a lot of work to implement and that's fine as well then but yeah"
+    },
+    {
+      "start": 3259,
+      "end": 3265.64,
+      "text": "if something is not baseline you can use it but you'll have to assess that yourself uh together with your"
+    },
+    {
+      "start": 3265.64,
+      "end": 3275.4,
+      "text": "team yeah yeah nice okay well i want to know which is your favorite from css wrapped each of you"
+    },
+    {
+      "start": 3275.4,
+      "end": 3277.16,
+      "text": "uh you have to call me your favorite one"
+    },
+    {
+      "start": 3277.16,
+      "end": 3288.28,
+      "text": "ifan what's your favorite well i did say like uh in in this uh in this css wrap uh 2024"
+    },
+    {
+      "start": 3288.28,
+      "end": 3301.48,
+      "text": "that gets my eyes scroll different animations um that's that's one thing um from 2023 i learned it's i"
+    },
+    {
+      "start": 3301.48,
+      "end": 3309.4,
+      "text": "i haven't used that much but i learned so much about the color level four the color that what uh like"
+    },
+    {
+      "start": 3309.4,
+      "end": 3318.12,
+      "text": "oh k lch okay lab as i i don't even know what it is before and i just thought you can't do it right"
+    },
+    {
+      "start": 3318.12,
+      "end": 3327.24,
+      "text": "now with that kind of thing yeah um it's confusing uh about this color mix um haven't used it to be honest but"
+    },
+    {
+      "start": 3327.24,
+      "end": 3334.36,
+      "text": "but i know that it is there right now um and learned so much about this color mix but yeah"
+    },
+    {
+      "start": 3334.36,
+      "end": 3342.2,
+      "text": "and also from from 3023 like those new color spaces display p3 color that's like wow so cool"
+    },
+    {
+      "start": 3342.2,
+      "end": 3347.48,
+      "text": "like i always thought that hot hot pink was a hot pink turns out there's a hotter hot pink out there"
+    },
+    {
+      "start": 3347.48,
+      "end": 3361.16,
+      "text": "yeah those wider gamut it's like cool yeah yeah uh for me and maybe maybe ekka uh absolutely it's uh"
+    },
+    {
+      "start": 3361.16,
+      "end": 3371.8,
+      "text": "uh view transition because uh yeah uh i know i can do like server render or uh traditional request response"
+    },
+    {
+      "start": 3371.8,
+      "end": 3381.48,
+      "text": "website to uh to behave or to experience like single place application right so yeah that's that's a win"
+    },
+    {
+      "start": 3381.48,
+      "end": 3387.72,
+      "text": "win-win solution for me are you using them on any of your projects right now"
+    },
+    {
+      "start": 3389.32,
+      "end": 3403.32,
+      "text": "um not yet but uh but uh i uh i try to use that in in uh for for the demo uh uh for the demo for"
+    },
+    {
+      "start": 3403.32,
+      "end": 3411.56,
+      "text": "speak or talk uh in in some uh event yeah gotcha cool"
+    },
+    {
+      "start": 3413.72,
+      "end": 3417.4,
+      "text": "so that's a that's another one i feel like view transitions is another one that's pretty easy to"
+    },
+    {
+      "start": 3417.4,
+      "end": 3421.88,
+      "text": "progressively enhance because you're like all right i'm gonna take the thing you clicked and i'm gonna"
+    },
+    {
+      "start": 3421.88,
+      "end": 3426.68,
+      "text": "put it over there with javascript uh and you're like cool i i put it over there with javascript and"
+    },
+    {
+      "start": 3426.68,
+      "end": 3431.08,
+      "text": "i'm done well you're like actually if all i do is wrap this and say if the browser can do a view transition"
+    },
+    {
+      "start": 3431.08,
+      "end": 3436.76,
+      "text": "then do it if not so i'm still putting the element over there no matter what just one of them gets"
+    },
+    {
+      "start": 3436.76,
+      "end": 3441.8,
+      "text": "wrapped in a function and one of them doesn't and so if the browser has it they see motion if there"
+    },
+    {
+      "start": 3441.8,
+      "end": 3445.48,
+      "text": "isn't it's just the same as it always was just like uh bramos was talking about with like page"
+    },
+    {
+      "start": 3445.48,
+      "end": 3451,
+      "text": "navigation the status quo is still there we still swapped the elements it's just in one scenario it"
+    },
+    {
+      "start": 3451,
+      "end": 3457.24,
+      "text": "had uh motion and the other one it didn't so it's kind of fun to again yeah progressively enhance if"
+    },
+    {
+      "start": 3457.24,
+      "end": 3465,
+      "text": "that's something you and your team are are equipped and ready to do yeah uh i have planned to to implement"
+    },
+    {
+      "start": 3465,
+      "end": 3473.56,
+      "text": "that in our um video podcast uh website so uh it's still a server render and when uh people click"
+    },
+    {
+      "start": 3473.56,
+      "end": 3483.88,
+      "text": "user click uh the the episodes uh they go to another page and it should uh animate"
+    },
+    {
+      "start": 3485.88,
+      "end": 3495.08,
+      "text": "yeah yeah it should transition and for first for slide because i love animation in my slide so now i can"
+    },
+    {
+      "start": 3495.08,
+      "end": 3507.24,
+      "text": "do it with uh like uh tools like uh slide.dev or yeah or or any kind of website that have um transition"
+    },
+    {
+      "start": 3507.24,
+      "end": 3514.6,
+      "text": "animation yeah yeah or use morfol here i'm sharing this this is a uh astro site that you can build it's for"
+    },
+    {
+      "start": 3514.6,
+      "end": 3520.28,
+      "text": "making slides and you don't have to name anything it's got names for things already and if you just"
+    },
+    {
+      "start": 3520.28,
+      "end": 3524.68,
+      "text": "go build your slides and then you click between your slides it will morph your code snippets it'll"
+    },
+    {
+      "start": 3524.68,
+      "end": 3530.28,
+      "text": "morph your titles um i think you can try it out there it's smashing transitions.netlify.app"
+    },
+    {
+      "start": 3530.28,
+      "end": 3539.08,
+      "text": "is that one still going oh yeah wait was that still running yes are they no are they view transitions"
+    },
+    {
+      "start": 3539.08,
+      "end": 3545.16,
+      "text": "no i don't think so something old in there"
+    },
+    {
+      "start": 3549.96,
+      "end": 3557.24,
+      "text": "this is motion oh there you go oh there you go oh there you go okay between the rocket and clapping and"
+    },
+    {
+      "start": 3557.24,
+      "end": 3567.32,
+      "text": "the table yeah exactly sorry if i click there is no transition but if i um push the arrow button yeah"
+    },
+    {
+      "start": 3567.32,
+      "end": 3578.76,
+      "text": "keyboard it's transition why why is that one book book another one might be like cash or something yeah"
+    },
+    {
+      "start": 3578.76,
+      "end": 3582.2,
+      "text": "maybe cash yeah maybe cash oh"
+    },
+    {
+      "start": 3582.2,
+      "end": 3589.56,
+      "text": "because i think i have pre-render in there with like speculation rules and a bunch of other stuff so i'm"
+    },
+    {
+      "start": 3589.56,
+      "end": 3596.52,
+      "text": "curious what's failing maybe i need to add that uh that check that looks for an element at the top"
+    },
+    {
+      "start": 3596.52,
+      "end": 3599,
+      "text": "yeah because look i'm pre-fetching the next page"
+    },
+    {
+      "start": 3600.6,
+      "end": 3603.88,
+      "text": "i don't have the meta tag anymore so i've definitely upgraded it since then"
+    },
+    {
+      "start": 3603.88,
+      "end": 3612.2,
+      "text": "do i have the app rule oh the app rules not at the top maybe is that the deal"
+    },
+    {
+      "start": 3612.2,
+      "end": 3620.6,
+      "text": "sorry at view transition the the at full gets hosted that returns navigation although that one gets"
+    },
+    {
+      "start": 3620.6,
+      "end": 3625.96,
+      "text": "gets hosted to the top okay oh because it's currently almost at the bottom of my style sheet i wonder if"
+    },
+    {
+      "start": 3625.96,
+      "end": 3635.8,
+      "text": "if that's why oh so it's space of this seems to be some kind of race condition i just tried it"
+    },
+    {
+      "start": 3635.8,
+      "end": 3643,
+      "text": "myself and even when i click the arrow sometimes it animates sometimes sometimes it doesn't yeah"
+    },
+    {
+      "start": 3643,
+      "end": 3647.56,
+      "text": "let's try more re-render settings"
+    },
+    {
+      "start": 3650.36,
+      "end": 3654.36,
+      "text": "here try this version for new books to think about"
+    },
+    {
+      "start": 3654.36,
+      "end": 3663.56,
+      "text": "let's see is that one animating better that one's animating a little bit better it's still"
+    },
+    {
+      "start": 3663.56,
+      "end": 3669.56,
+      "text": "still needs it's like you have to wait if you wait on the page before you hit the next page"
+    },
+    {
+      "start": 3669.56,
+      "end": 3673.24,
+      "text": "it behaves better it's almost like i give it some time to pre-render"
+    },
+    {
+      "start": 3675.8,
+      "end": 3680.92,
+      "text": "and when i'm talking on stage it's a little better right because uh uh-huh i i have the"
+    },
+    {
+      "start": 3680.92,
+      "end": 3686.12,
+      "text": "time it's gonna take a while yeah there you go you saw those morphs so yeah each of these slides is"
+    },
+    {
+      "start": 3686.12,
+      "end": 3690.6,
+      "text": "its own web page you build them in astro as individual slides and then it does all the work"
+    },
+    {
+      "start": 3690.6,
+      "end": 3696.04,
+      "text": "with view transitions to make the animations morph so that's free and open source if you all want to"
+    },
+    {
+      "start": 3696.04,
+      "end": 3701.72,
+      "text": "use it yeah and the cool thing is that that you built their atom is that like it automatically"
+    },
+    {
+      "start": 3701.72,
+      "end": 3705.8,
+      "text": "works so so it figures out what is the title on the previous slide and then we're gonna morph that"
+    },
+    {
+      "start": 3705.8,
+      "end": 3709.48,
+      "text": "one to the title on the next slide and then if there's a code block i'm gonna move the one code"
+    },
+    {
+      "start": 3709.48,
+      "end": 3715.72,
+      "text": "block to the other one it's like yes and it i think you've done it with with the with some css"
+    },
+    {
+      "start": 3715.72,
+      "end": 3721.64,
+      "text": "is it scroll snap events uh between like between one uh code block and the other that one's scroll"
+    },
+    {
+      "start": 3721.64,
+      "end": 3725.48,
+      "text": "state queries yeah so that's how it knows which one is snapped yep and that's also progressive"
+    },
+    {
+      "start": 3725.48,
+      "end": 3730.04,
+      "text": "enhancement so if you're on a browser that doesn't have those it just doesn't do the little focus"
+    },
+    {
+      "start": 3730.68,
+      "end": 3735.72,
+      "text": "thing okay oh but yeah bremus is mentioning i used the nth of syntax to get that one done"
+    },
+    {
+      "start": 3735.72,
+      "end": 3742.04,
+      "text": "so that i could select the unique uh h1 and then uh if there's multiple code snippets i make sure i"
+    },
+    {
+      "start": 3742.04,
+      "end": 3750.76,
+      "text": "grab uh just two or three of them and yeah the end of syntax was clutch for that okay yeah view"
+    },
+    {
+      "start": 3750.76,
+      "end": 3754.76,
+      "text": "transitions very cool but yeah that one's all css view transitions no javascript on that either"
+    },
+    {
+      "start": 3755.4,
+      "end": 3763.32,
+      "text": "yeah yeah it's very cool how you navigate this uh like horizontal uh scrolling when you present"
+    },
+    {
+      "start": 3763.32,
+      "end": 3770.44,
+      "text": "cross snap cross snap events oh when presenting no i mean like presenting next between slides put one"
+    },
+    {
+      "start": 3770.44,
+      "end": 3776.44,
+      "text": "pages between the the yeah quote snippet like this so you're asking how do i navigate between them"
+    },
+    {
+      "start": 3776.44,
+      "end": 3783.88,
+      "text": "while i'm presenting yeah yeah just yeah we'll stand on stage oh i'll stand in front of the computer yeah"
+    },
+    {
+      "start": 3783.88,
+      "end": 3788.12,
+      "text": "i'm usually in front because uh those those little red dots that are on there too those are all demos"
+    },
+    {
+      "start": 3788.12,
+      "end": 3793.24,
+      "text": "so if you hover over red dot i use i would open those in a tab i see and then i would go through the"
+    },
+    {
+      "start": 3793.24,
+      "end": 3801.08,
+      "text": "demo on stage and yeah open up those or something yeah this is the slide and the demo both of them yeah"
+    },
+    {
+      "start": 3801.08,
+      "end": 3810.92,
+      "text": "yeah very cool very cool maybe i can steal this yeah i want you to that's why i'm like hey steal it this"
+    },
+    {
+      "start": 3810.92,
+      "end": 3816.76,
+      "text": "is really it's i find it to be a very quick way to make really nice looking slides um but it does seem"
+    },
+    {
+      "start": 3816.76,
+      "end": 3822.6,
+      "text": "like i'll have to backport some of my enhancements from my talk in france a few months ago i made a few"
+    },
+    {
+      "start": 3822.6,
+      "end": 3832.76,
+      "text": "changes and they could be upstreamed into the open source hmm yeah i'm curious why you guys uh you choose"
+    },
+    {
+      "start": 3832.76,
+      "end": 3842.76,
+      "text": "uh astro for the css rep website any particular reason we uh that page would have been really"
+    },
+    {
+      "start": 3842.76,
+      "end": 3847.8,
+      "text": "really long html file to edit if it was just one file it's a"
+    }
+  ],
+  "fullText": "Hai Hei Halo Halo semua selamat malam semua apa kabar gimana ini ini selamat subuh ya jadi malam ini malam ya malam ini spesial episode kali ini spesial karena kita rekaman sama temen-temen yang berada di timeline yang berbeda jadi kita cari apa irisannya dapatlah jam satu pagi ya satu pagi ya jadi kita tengah malam atau pagi ini dini hari begadang ya karena tamunya spesial sekali dari luar gitu ya jadi kalau temen-temen ingat beberapa episode yang lalu kita udah bahas tentang CSS rap ya kan tentang bagaimana perkembangan CSS di 2024 sangat pesat dan ada apa namanya ada rangkuman dari tim Chrome yang namanya CSS rap 2024 ya nah nih bentar eh nggak bisa dipos ya nggak bisa kalau nggak live nggak bisa di komen ya jadi cari aja lah ya googling aja CSS rap 2024 itu ada websitenya dan websitenya keren banget makanya kita penasaran akhirnya malam hari ini kita akan mengundang 2 orang dari sekian beberapa dari timnya Chrome yang membuat CSS rap jadi kita tanya kayak behind the scene nya gimana proses pembuatannya mungkin fitur-fitur favorit dan lain-lain ya jadi langsung aja kita undang dan undang welcome kita berbahasa Inggris hello hello hello hello hey give you the plus dog Elisa welcome to the show thank you for doing this thank you for coming to the our show maybe before we start with the topic maybe you can start by introduce yourself or maybe Adam first please sure I'm busy right now with Gemini having it made it make a rap because we're gonna be talking about CSS rap oh my god I was like we're gonna rap we're gonna rap about rap and just get all meta in here hey everybody my name is Adam Argyle I'm from Seattle in the States I work on Chrome as DevRel with Bramas and him and I both focus on CSS and UI we're just obsessed with the web we like building we're like with you we build all day every day and then we listen to you and we take all that back through Chrome we feed it into new features we tell you about the new features and we rinse and we repeat and we love it so anyway that's me well my website is nerdy.dev nerdy.dev nerdy.dev alright is it coincidence your name is like alphabetically in order and Adam and then Bramas and then no one's name starts to complete what about you yeah so I'm Bramas I'm from Belgium and Adam perfect intro there yeah we are chrome devrel working on CSS and web UI we work with the CSS working group to specify new features and for that we of course need all of your feedback so yeah if you ever run into us or if you blog about something like give us a ping and then we can take that then we can take that to the working group to our engineering and hopefully we can come up with a nice new feature and when that feature lands you might have seen some blog posts from us pass by or some demos where we demonstrate and then hope to get everybody kickstarted with with the actually building stuff with it so yeah oh I also have a website just like Adam Adam is nerdy.dev and I am Bram.us but I'm not from us I'm from Belgium okay okay that's a perfect TLD for your name yeah yeah yeah this dates back from from the days where everybody had like yep main hacks where it was like if you had something clever with your domain and you could use the suffix or TLD as part of it and it turned out it worked for me it's also is brand nice brand dot us exactly perfect nice does Amsterdam have a TLD could I be add.am you know or would Amsterdam be three experts you know would it be anyway it's very cool okay okay yeah we're bigger sorry no worries no worries okay so um yeah you uh you are both um uh devrail right can you tell us about how uh what did you do uh every day looks like what is a devrail because some of our audience probably doesn't know much about what is devrail go first promise let's see Adam is pointing at me yes please yes so um as daryl we um try to on the one hand like spread the word on new features on new web features so whenever something lands in uh chrome in this case then we like try and make sure that we have a blog post that announces the feature um give you some demos write an article maybe update mdn to make sure that the info there is up to date um that's like one part of the job but then the other part of the job is also listening to your feedback and then making sure that that feedback so that feedback that real web developers have that feedback then makes it back to engineering or the css working group for example um so that way that we can make sure that instead of shipping the thing in a browser that we are shipping the right thing the thing that actually solves your problem um so so like this we were like this this bridge builder between standards bodies engineering and and web developers um and to do that as part of our day-to-day job we often get to play with features first like as it getting prototyped in chrome we we get our hands dirty we try and break it um we try and point out the flaws and to make sure that we can ship you like this nice polished feature in the end that then it's part of the web standard of course and then hopefully soon sooner or later it will be in all browsers so that you can use it yeah sounds very complicated to me because you have a lot of stakeholders like engineering and then the the audience us you take a lot of feedback and you take from the other and um a lot of people to please yeah and sometimes it's a bit difficult right but sometimes we we see like okay this is like a real pain point for developers we need to get it prioritized but then engineering is like yeah but we have all these other things that we're already working on like we can't just squeeze it in there somewhere yeah so we have to try and find this balance um where where we can like try and influence the priorities and sometimes with success but sometimes we just have to wait as well and we are just waiting on the buck until the email comes that somebody got assigned to it and they were like yes somebody's working on it great and it's when it's yes it's only for one browser you still need a yes for another two browsers oh yeah that's awesome that's why i said it's complicated or if something lands in another like we'll definitely be talking about view transitions today if that landed and when that landed in safari like i tried out all my demos in safari to make sure that the thing that we have is interoperable with the thing that safari has and sometimes it surfaces a bug in chrome but it will also be a bug in safari and then like we file the bug make sure it's followed up make sure it's followed up and and write the test for web platform maybe adam can add some more details to everything i mean a little bit but yeah y'all can ask some questions i have a quote i'm gonna find because i just the other day was like oh this is a really good thing we do with dev rel it was like quippy in short i'm gonna find it while you uh ask brands more questions i think i heard web platform tests i'm not sure while i was talking or wpt i heard that too yeah wpt yeah yeah when you were talking about the bugs like uh you know in browser a it has uh this web but in browser b it has uh uh that but and uh you are also in charge of uh uh uh well we we we don't typically um do that like it's more for engineering like like if if chrome and something then they'll also make some wpt's they make sure it's upstreamed and all the other browsers also get those wpt's and then their implementation and they start doing it like hopefully they also get all greens um so we don't necessarily are involved in like creating a wpt's um we are more involved with the practical implementation because the wpt's are great like they test some basic things but one if if the test is is flawed like it tests the wrong thing or something is not tested then you can still have all greens right like like if you if you implement a feature and only have one test that says can you parse the property you will have a score of 100 on all those tests but it doesn't mean that the feature is actually usable so that's where our practical approach comes in like we actually build build something and then we find out most often i go okay we have this one feature and we try and combine it with another feature and then suddenly things get a bit weird and yeah that's the practical approach um say we're very very hands-on with it with everything okay i see adam you did an awesome job no that was really really great uh covered so many things it's like uh like like the last part there's like sometimes we do weird stuff you know so it's like hey we've got this feature it scrolls like this and you're like oh yeah what happens when i scroll drive it and make it rotate and they're like i don't know and you're like well that's why we're here we're here to do weird stuff um yeah the the quote that i was looking at those like i was looking at like i was trying to think about what's our value like it's easy to tell you what we do you know hey we listen to people and we make sure that those features get put into browsers in a good healthy way and then we go build with them to make sure that actually solve the problem so it's like we can tell you what we do but the value i was saying uh at a high level like something i would tell my mom uh would be like things should be conceptually easy like it should be easy to uh have an animation between two pages okay conceptually that's easy but in practice is it easy no no it was quite difficult until we listened enough we tried enough we found a way forward to solve this problem in a really elegant way so what what i'm pitching is is that devrel makes the conceptually easy concept a reality and we do that by listening to people trying out these things early on saying where they're wrong and um and yeah i thought that was kind of cool so we make we make the easy concept actually easy for you uh because otherwise it's just too easy to say things are easy just like how many times i've said easy right now easy peasy um easy peasy um but i can i can relate to that easy things a reality that's that's nice and catchy yeah thank you i thought so i can relate to that story for both of uh you uh your adam and brothers as well like um when we start this podcast it's actually started when when we were in bali uh we have uh this gde and gdg summit in bali and so it's asia um so me and i mean eka at the time just talking two years ago we just talking about container query is now landed uh as us uh to firefox and to chrome at the time 22 years ago i remember that so we talked about it uh during this uh when we face uh meet to face to face hey yay content query is now landed and stable we can use it yay like um and then we realized we don't have a platform to talk about this kind of thing that's why this that's why this podcast is like born but come back to yours uh to your point is like we read somewhere like from the web.dev and from the any twitter or your blog post that now this container query has landed with all the example and then now we can implement it on our um day-to-day life which is perfect and i still remember that i uh one of the talks that i gave like still related to web performance but when i say like you don't have to use a for that scroll you don't have to use like uh like sorry for responsiveness and you can use container query rather than use your fancy javascript to to control your boxes and do hacky stuff and now you can have your container query save a lot of time save performance so thank you that's i can relate so conceptually easy and now it can it could the implementation could be so many things and from my perspective anything that is uh a new technology uh new api uh release i i relate that how can i save or make the site more performance that's always uh my basic stuff uh to go when i see this css web um how can i make the site lighter that's it awesome so yeah you're looking for performance advantages in all the new features like ah what can this do to make it easier on the browser and when it's doing a loop how can i make this easier on a browser when it first lays out the page and yeah there's a lot of yeah a lot of thinking we do about the machine uh to make the machine happy um and we do a little less of that bramus does a good amount of machine um making it happy but i like to let the engineers do that and then i'll just like do something weird and if it didn't work out very well i'm like that's not my problem i'm uh just trying to make something work here but yeah i could try to make people happy trying to be pms happy happy happy that's a challenge like better than making the machines happy and making the all different groups of people happy and uh you know i think the tricky part with css and ui like uh you mentioned about conceptually easy things like what's conceptually easy for humans is uh really different from what's conceptual what's easy for machine like uh for humans humans uh like on on the surface level we tend to think visually so if we want to make things uh go here to here we just slide it that's easy and sometimes it carries over to a web or digital ui as well and there's a perfect example about this i think like uh when i first learned css uh like animating uh height height to auto i think easy peasy yeah you can animate easily from uh whatever two two rams to 10 rams it animates perfectly and then so uh you can animate from two rams to whatever the the the block block height is but it turns out not that easy and it just recently shipped now in 2024 i think yeah that's an image to hike auto yeah yeah so that's uh i think that's a perfect example of um conceptually easy thing that is actually not easy yeah another example for it is a the parent selector that you always wanted like oh yeah the parent element i want to select the element that has the other thing contained inside of it we've been struggling on that one for for 20 years before browser engineers figured another way like okay this is how we can people keep requesting that but uh the the browser programmers uh say well it doesn't work like that that their program runs from top to bottom all right you can't but the cool thing is that um the original request was i want a parent selector and the thing that we eventually got the has selector is way more than that um because you can select siblings you can you can go up down in all directions in the dot tree um so that's that's also cool where we often hear like a request and then then we think about it together with our team of engineers to get over the css working room and then the solution that we come up with like solves your problem but also solves way more than the original problem um another another example for it is for example um uh variables we all we all wanted variables in css yeah but the answer to variables in css are not variables no they are custom properties custom properties the way that we have variables in css is by having custom properties and the cool thing is because they are properties they inherit you can change them as they inherit onto siblings and combine it with all the selectors that we have you could say well if this thing has five children then the dash dash gap is going to be two rams instead of one ram or whatever and it's yeah it's it's so cool the the simple problem but then we have the solution which took a lot of time but the solution like opens the gates to all kinds of craziness that you can do with it yeah now css have functions right yeah it's something that's currently being prototyped and container queries gave away to scroll state queries and gave away to style queries and yeah so people just wanted to query the container they're like how hard could it be i want to quit and then we're like let's give you that plus a whole bunch of other good and like miriam suzanne likes to say containers they know stuff and now we can ask them what they know yeah okay okay now maybe let's talk about css rap maybe uh adam you you want to do a rap about css rap i mean what is it said yo the web's evolving ain't no time to snooze css rap 2024 drop on major news components stacked high precision in the game feel size and flex and putting pixels to the shame hide out of flow and no more rigid lines exclusive layers building intricate designs style highlights making text pop and clean anchor position in living the developer's dream oh we're talking about like performance things there's some like really cool performance things we had to overcome in this page there's even some that we couldn't fix uh and then one of the things uh that i think is uh was really highly desirable by people is a scroll spy so that's like as you scroll down the page and the the dinosaurs following along on the uh yeah yeah the map on the right and it auto expands the the details we see animations that are very still stateful yeah normally this would have taken us a whole bunch of javascript and that one's all css really i didn't realize that it's i know that i know the dino but i don't know that it is it is it is just css i think there was one change we had to do so that because we wanted to trigger the open and close of the summary details and we had to use javascript to do that why it's not yeah yeah why is your chrome dino not moving i don't know what what browser is this what process is this uh uh maybe prefer prefer reduce motion enabled maybe no that would have stopped some of the other ones i don't know he's skateboarding in my copy updating right now oh and you're you're even in canary and it's like having issues yeah i'm in canary hi what regressed that's a new bug we found a new bug hey he's skateboarding in mine it's also skateboarding in mine you can share your your uh can you share your let me let me check what the chrome is doing oh yeah it's skateboarding in mine so it's cannot it's not working uh it's working in canary for me so here we're browsers fun right yes it's rotated and then translated it looks like the scroll driven animations just not kicking in on it at all yeah what happened maybe i don't know do you have like battery safe safe or uh like power mode safe oh yeah something that's like reducing maybe this is your battery you know stuff that you talked about earlier adam please please someone share your screen i can i can i want to see i want to see but the cool thing about the the dino breaking is that like it was a little extra effect that we added using scroll driven animations but it wasn't supposed to be skateboarding across the uh viewport as well not just in the table of content uh go to scroll to top scroll the top this way yeah there's another guy over there yeah oh yeah particles at the very top yeah from left to right very top yeah yeah let me share screen oh i think you have reduced okay yeah that's right which is pretty cool right because it's a feature people that say that hey we're not fine with all these things flying around yeah in css we can respond to that it's it's a media query okay gotta build for the people too gotta what do what do the people need what's the machine need what do i need it doesn't matter okay let's talk about the the css wrap itself uh what what's your motivation uh to do this every year what's the goal well we uh a lot of times different people have different moments at which they can go research and ramp up on all the latest stuff so a lot of people aren't watching all the features as they come out you know so we we might announce it um and we know our job isn't done as devrel if we just say hey there's new features in chrome 135 uh go check it out we know that our job is totally not done we need to go give talks uh we need to follow up with developers as they use it find bugs and then continue we call it like ringing the gong or continue to share something with people because you never know what moment during the year someone's going to have time to go look this stuff up so css wrapped is we're assuming people are on vacation they're kind of chilling at home maybe they would like a digest something that summarizes the year's css growth into one place to go experience it and so we roll that up into this yearly thing um which is good because all the demos all the learnings we can kind of repackage it up and it's fun and cute last year's was like a book uh this year's uh was much more like an article oh wait no two years ago was a book last year was a blog post and this year was like a interactive long scroll uh scrolly telling yeah we did scrolly telling this year yeah yeah yeah yeah this is 2023 and this is like 2024 so this is this is what you miss it's skateboarding and then there's another one here another one here yeah yeah yeah yeah it's skateboarding so oh yeah this year's theme is like 80s uh pixel game retro game right kind of it was supposed to be uh like each section was like a different biome like you can see one's like arctic another one is like a desert um and we had a designer we were working with and um yeah it's like as we as we evolved as we continued building so like i built a prototype and then the designer designed and then they did stuff and i did stuff and bramis did stuff and as we just kept going it just kept we let it be very organic uh the concept of it ending up being so retro and 8-bit is kind of an accident um that's also because i like retro stuff so it was easy to be like ah let's make it dirty um so yeah that was the motivation there yeah and there was a bunch of stuff we didn't put on there because we didn't want to put on this yeah yeah do you use intersection observer for this like to detect this section and so the the section there on the left can announce its view timeline it can name it and be like i'm the scroll driven animations view timeline uh and that really just takes its whole div and kind of its intersection with the scroll port becomes a timeline uh that other things can say i want my animations to be powered by that scroll driven animation timeline over there and that makes the little snake grow for that item because it's observing the scroll position of the other document content as it goes through the page including this active line like this yeah that active line is also dss yep the only javascript in that is to open the uh accordion in the right moment so if you scroll up up past scroll uh it'll automatically open the one that you're inside of and that's that's the only js oh industry yeah that's a really popular component is a scroll spy uh they're also going to be made easier with carousel uh so we have css carousel coming out in chrome 135 and we'll be able to link up a a little side element with the actual content uh really easily uh through there as well so i'll have multiple options for these really cool interactive connected experiences so why dino is it dino right is it the dino and why for um you chose the story of forest mountain and the see this time because this is so different concept from last year 2023 2023 yeah this is all about color and typography if i remember like yeah as you can see last year we had uh this group architectural foundations typography color and so on and so on and then this year we also tried to to group them and then we we quickly landed on this idea where we have like different worlds to explore different scenes to explore um and like we we did a big detour because then suddenly we were inspired by um a racing game i think we wanted like to have this 80s retro yeah rad racer yeah yeah or like you you know the classic mario uh stage one is uh on on on land the original mario bros yeah yeah and then the third i see like there are different worlds yeah and so eventually we i think we quickly settled on the pixel style art like to create different types of worlds we want to like to have to have a car race i think but that turned out to be too difficult right because when you're brainstorming you're like all out oh we wanted this we wanted that we wanted that one and then we we toned it down again and and of course we had to drag in the chrome dino because it is pixelated right so yeah we could not not have it so is there any easter egg here that we don't know did you plan any easter egg uh well if you we didn't plan one but i think the most fun one is you can make um the dinosaur kind of dance if you just scroll up and down back and forth he'll sit there and dance you know it's like oh so you can make him shake his butt uh you can also do yeah i don't know if that's the easter egg uh there's plenty of like oh there's another easter egg when you go to the mobile view the menu icon is a hamburger that's kind of like a you know it's like oh it's a hamburger menu yeah oh yeah yeah we we noticed that in our past episode which i saw leah verus site yesterday has a hamburger on it i was like oh i wonder if leo was inspired by our hamburger to turn hers into a hamburger well now about what time some restaurant make a hamburger that actually looks like hamburger menu menu let's see if i can find our prototype too oh yeah here we go here's the 2024 wrapped prototype so i was prototyping in a code pen while the designer was going yeah like bramis was saying one of the original ideas was like you're going on a road trip and so your first part of your trip might be through the desert area and you've got these stops to make and so you would stop along the way at these sites to see in the desert area and then you would move on to the next area um so we were trying to create this feeling of traveling across all of these territories or all these biomes and you'll see in this one uh oh here look you still don't have scrolls uh you probably have yeah prefers reduced animation on there's a bunch of scroll driven animations you're not seeing there oh okay let me um so yeah you'll see a different variant of the of the dinosaur going to where it's much longer like he goes across the whole page as opposed to right now it kind of goes through sections and stops anyway it's funny oh but he might not do proper type oh see yeah and then there's the car it's supposed to be moving this is the car yeah yeah so he should be twisted and driving along the thing but it looks like uh i see yeah i don't know where to change that settings anyway how you you um decide what what css feature do you want to uh do in css wrap or every every every every new css feature you uh categorize in that uh like uh like this like for uh component and and and for uh interaction developer experience yeah we we had to limit ourselves right because if we wanted we could have like doubled the amount of content which would also would have meant that we had we had extra work to do and time is always tight right so yeah um so i um i think if in the end we went to uh to having the cutoff point like okay we shipped this in chrome this year that was a cutoff point and we made some exceptions for some features that um were uh baseline uh this year they were like okay these features now available in all browsers and it's i think it's definitely worth mentioning so we're gonna include it um i think the the one exception on that is um scroll driven animations that we covered on the website because we had it in chrome in 2023 but we did feature in 2024 on our css wrapped but that's because uh i published a video course uh with 10 episodes where you can like learn all about scroller animations and we thought it was worth like uh put some extra attention to that by including it on css wrapped but yeah we we did have to make a like a cut somewhere um because there's so much cool stuff there's so much going on in csland yeah it's like a theme right uh last year uh in 2023 uh css wrap in 2023 there is um like color uh typography and now uh it's yeah it's it's it's more than more i feel like an impression component but the the highlight is scroll different animation for me i like the scroll different animation that's the most i know it's like view transitions are pretty cool too don't go all in on it for you transition yeah yeah there's a lot of interactions thing related to scrolling and so it's it's really cool what you can you can do and like a common type of feedback that we get from people like especially when talking about scroller animations it's like yeah but i have this javascript library that i can use like why should i even bother with css or the new feature in javascript it's like well yeah now you have a built-in thing in the browser and it's but it's like it's true power is gained by the fact that scroll driven animations are powered by regular css animations or the web animations api and that technology already knows when to hardware accelerate a certain property like if you do an opacity animation a translate a scale whatever that all runs on the compositor so it's crawl driven animations being built into the web platform you can have harder accelerated animations driven by scroll that run off the main thread and it's like so cool because then your main thread can do all other stuff because your main track can only do one thing at the time right so yeah it's really exciting uh that one you have like this visual thing that you were already able to build but now you can have it in a very performant way um yeah that's why um with this like bunch of week like in the future like upcoming after this is uh become a baseline so the store different i mean it's like baseline perhaps next year that means i can ask uh my team let's get it out all this javascript that you don't need to just make this animation anymore get it out why wait till baseline i mean if it's uh i guess it just depends like some teams are like the the scroll animation is required and you're like what about users with prefers reduced motion are you going to make them get scroll no no we won't force scrolling them okay what about users with javascript disabled how are you going to give them scroll animation oh they don't get scroll animation either so then how come it's so weird for me to say that like scroll animation is nice to have you just told me two different groups of people that you think it's okay not to have why not a normal person and then we can get rid of the whole huge library and over time it won't be an issue and users without javascript enabled start to get scroll animations so that's huge um anyway and i think there's a polyfill right for scroll driven animation so i'll just dynamically look the polyfill if if if it's really really necessary there is a polyfill but it comes up with a few asterisks like um it doesn't support all of the syntax and you need to you need to put your css in a specific location because only then the polyfill can like find your code um but the biggest asterisk quid is is that that yes you are um not having the benefits of the the composite animations in that case because all the javascript that is required to pull fill it runs on the main thread so back to your main thread animations and that is a trade-off that you have to make as a team right like are we okay with not shipping the animations at all to browsers with no support or or users that that would want it um or are we okay with actually then loading up the polyfill in those older browsers um which general result in a perf hit so it's it's like yeah it's straight of it yeah yeah sure like everything i can i can i can assume that some people really want the animations to work on all on all browsers yeah you you can opt into having the polyfill and but do note that it comes with a with a cost well if if you uh if you use external javascript library it's it's gonna run on the main thread anyway yeah exactly that's also one of the things that you need like there's always like yes but and then there's another yes button respond to another yes but it's like the golden answer it depends that's the only honest answer on the web it depends yeah it depends okay okay is there any uh like um success story or uh impact from uh css rep uh website that you receive maybe like testimonial or something i mean there's a lot of appreciation i think a lot of people didn't know certain things could happen and uh it's it's nice this is why listicles you know like the popular like five things that are new this month in css whatever number three is gonna blow your mind number five is really ugly and gross you should don't smell number five you know um and everyone's like what i have to smell this now and you're like i just told you not to smell it you weirdo okay um but people like these because uh it can be hard to hear about these one by one but if you get to see them in a digest and see them all summarized demos with with the browser support right there on there um that can be really nice for people especially as we kick out to deeper learning um so i think we got compliments that way the side nav um you know being a scroll observer a scroll spy and being mostly css driven has been very inspiring for a lot of people because that's a very common component to put on a blog for example right you're like i wrote a blog post and now i have a table of contents and i'd like that to be linked up with the content you're like oh here comes a javascript library uh not necessarily there's some features which really surprised people too like they had no idea like field sizing like one of the first ones on there oh yeah um people are like i have a whole javascript library that does this so that when i type into text inputs it grows and i'm like cool get rid of it now here's a one line of css that does it now yeah we didn't know about it actually so we had an episode about css wrapped and we try it we tried live on air like we were like we we just typed and uh hit line break multiple times you know what i really like during the early material design i think but we used to have to use uh you know javascript what i really like about this feature is that like it's not one of those big fancy features where it's like view transitions scroll driven animations but it's like this one little thing that got added to the web platform but it has a huge impact because you can throw away thousands of lines of code that did it or 500 lines of code or whatever like embrace the platform use the declaration boom you have it then same response i always get also with uh smooth scrolling where you set the scroll behavior smooth and then you click a link in the page and it scrolls down and if you if you mention that at a mainly javascript focused audience they all go like what what what just happened one line of code one line of code okay very nice have you remember that the days like in 2000 perhaps 2015 2014 where the web is like love to use sliders like they call it slider revolution where these animations that that that make the sliders so fancy and text flying in there that's very very heavy no no no this is what we call like in wordpress what is called a plugin called slider revolution where the slider can just like like 3d animation it's got webgl all sorts of textures and layers animating yeah yeah and it's so heavy but people love it at the it's got the time and now nowadays like in fact no yes something like products effects also after uh that time um but yeah those um those are very very very heavy javascript and just to load that uh if i see a website that still use it is just load the site like only for the javascript to load that that requires at least 1.5 1.6 megabyte the javascript file only not to mention the the image itself so um yeah like i'm right now like preaching to get rid of all those javascript just move to what the platform gave you and yeah css just share the link in our chat here maybe you can present it on screen but like the parallax effect that you mentioned this is possible with scroll driven animations where you say like okay if this thing is entering this one you have to scroll horizontally but if you look like the images move a bit inside so yeah if you scroll it slowly yeah the images oh yeah and if you hit a little css yeah it's just a little eye icon there at the bottom right you can see the code that was used for it and it says the images yeah blah blah blah and it's like that that's an animation that's all you need for a parallax effect oh wow it's cool right very cool wow that's one of the things that i really love about the web is that um if you if you look at it like for for over a longer period the web platform always catches up we always had these things that were first built in user land like we used to have flash to play video or to do animations on the web now we have video element we have streaming video and we have css animations we have weapon amazing we have transitions like all the stuff catches up um the oh i'm drawing blank here adam help me out what are some other examples oh are things catching up i mean stuff from jquery that wasn't going to say like like all the whole selector engine uh that jquery of like first landed well we have that now in in javascript document of queries for all features yeah they're in the native language yeah functions mix-ins uh variables like yeah the platform always catches up and admittedly sometimes it takes a bit of time because we have to think hard about it um but in the end yeah that's six years or something like that um yeah right now it's like pop over like the model pop over and also um more web component uh landed as well like um but it's it's still getting improved like we we have pop over now but now we have dialogue anchor positioning yeah anchor positioning and then now we have pop over hints that landed recently we're gonna have like a tooltipping behavior where one pop over doesn't close the other one and then we're gonna have interest invokers something that's coming in the future where we can trigger the pop over by just hovering the link or the button it's like it's coming to a full circle there it's like cool you have all these little things and then together they form like this really exciting thing and native css nested you need to mention it native css is huge yeah we have really enjoyed that one for that on lock like he was one of the driving forces behind that one i was i was like uh i just kept poking thank you thank you for that that's really really huge huge improvement i think so too and we're still making it better so bramas has made posts you know just in the past few months i think one of them is in uh css wrapped actually one of them is developing experience css on nested declaration yeah that's the one there yeah and we have more improvements coming too where you can put an at starting style inside of a pseudo uh element so you can have like dash dash before or colon colon before and you could do it at starting style inside of of there uh we're making more manually adding and removing class name css class name because uh we already have starting style right yeah that one's really helpful for a use case like that yep so yeah we're still making it better and there's even more improvements coming i was just talking with uh folks yesterday who were like i ran into a bug with nesting and we're like yes that is uh it won't be a bug eventually so we're kind of as we as we find more and more it's more like uh we started simple and now we're teaching nesting how to get more complex and handle all of the edge cases and it's cool it's fun work okay cool so much stuff uh what is your favorite from 2024 the your most favorite just one and just one just like which one is your maybe we should guess i i think adam is going for the scroll snap events i would like to say that one because of how involved i was with it and how many use cases i have for it but if i'm being honest about the one that i use the most that just continues to creep into all my little prototypes it's scroll driven animations and i would have thought it was view transitions uh which i still i love those a ton but i genuinely think scroll driven animations is freakishly capable and unlocks so many use cases like we don't even know about like we've already seen new hacks that come out where you can watch the thumbnail go across an input type range and use that with a scroll driven animation to power something else um there's just we are still barely scratching the surface what scroll driven animations can do um yeah it's it's the gift that keeps on giving like kizu has some very nice hacks with it where he where he managed to create um text that automatically sizes to the available width of the containers if you shrink the container the text automatically like shrinks its font size and it's powered by scroll driven animations like what oh okay yeah it's it's a very clever hack like every time i look at him like what how does it work and then like okay so clever yep so bramus what's yours mine's scroll driven animation well if you pick that one then i'm gonna pick the other one with just view transitions yeah i think view transitions is um a really exciting one because people have always wanted to do more things and the way you used to do it before is that you you cloned the element and then you animated it that's but like accessibility wise and you had like two copies of the thing in your dom which is like uh weird and like it relied on all sorts of hacks and now we have it built in um and it's like already this point where it's like okay cool i can do some things with it but i think the the real power that we're going to see with it is going to come this year um where we are going to to experiment well our engineering team is experimenting with it right now and we're going to unlock um scoped transitions where instead of doing document of start review transition to to like start the view transition for the whole document you can select a certain element and then say element dot start view transition and the view traditional only run on that specific little dom sub tree which is pretty cool because then you can ship it like like something like a chat component widget whatever with view transitions without interfering with all the rest of of the page or like client-side router so it's going to behave just like client-side router you know you you have the shell intact and just uh replace the content or whatever yeah um speaking of by the way um clients at router um people always want to use react and the react team they have an active br in the works where they are experimenting with view transitions and we are supporting them in their effort which is also pretty cool uh and then also the thing that that lennon and chrome last year and is also available in safari as of 17.2 if i'm not mistaken are across document navigations where you can have a view transition between two pages by simply clicking a link or submitting a form from the one page to the other and it uses the same building blocks and the same type of logic as the same document view transitions the only difference is the trigger in the same document version you call document.start view transition but in the cross document version you just click the link it's like oh that has been really great for the for the past 30 years so it's like embrace the platform cross the cross document yeah yeah we have this it's just like and now uh firefox is left out at the moment they just the regular page navigations yep uh but newer browsers will animate yeah at worst you get the status quo experience which is you click the link and then the new page loads and it swaps out and if your bravo speaks view transitions well then you get like the nice moving thing and of course you can then wrap it again and add first reduced motion media queries to respect that and all sorts of stuff so it's it's it's really cool um that this is powered by css on order hood yeah you can go to my website nerdy.dev i've got scroll driven animations view transitions dialogue elements i mix and match a whole bunch of this stuff in there and so you can visit my site from firefox and see what happens but if you click that card you'll get a view transition there that'll make the card morph into the next page using uh crosstalk review transitions so no javascript involved there and then if you keep scrolling down you'll see i'm using scroll driven animations to bring in people's comments if you go down to the very bottom there's even so anyway uh i think about a lot of these things like what's my site my site has posts and like some content on it um but i can enhance that from just a basic document with all these different things i can do and i like thinking about it in those layers i like thinking about uh helping people in those layers too i'm like here's the base experience um if people are cool with animations i add the animation so i always do it very additive some people are like i remove animations if you don't like animations and i'm like no i don't do that i add them only if you're cool with them uh and it's fun it's fun to have my own site to do so but yeah those animations there's you navigate between stuff is all css no javascript wow very nice i cannot make yeah you keep mentioning baseline and i'm like baseline is cool like if that's how your team is working and you all are agreeing that way but it's also not difficult and very acceptable to upgrade it for the browser that can do it you know so just like use my site as an example if you want to where you can even browse it with javascript disabled and you still get the animations and stuff right so it's like not only are you uh minimally giving these experiences and conditionally applying them you're actually bringing in more people to the experience too by removing the javascript and just kind of so many things to think about right yeah i think one of the points where people um possibly misinterpret baseline is when a feature is not baseline that does not mean that you can't use it when the feature is not baseline it means you should look at the feature itself and then make an educated guess on whether you want to use it or not and things like text wrap balance and whatever it's it's not baseline or maybe it is baseline newly available but you can use it at worst case the declaration won't be parsed and it won't have a visual effect but at best case if the browser supports it great they'll get the nicer version um so yeah if something is not baseline you you have options you can polyfill it you can treat it as a progressive enhancement and say like maybe after all we're not going to use it because it's a lot of work to implement and that's fine as well then but yeah if something is not baseline you can use it but you'll have to assess that yourself uh together with your team yeah yeah nice okay well i want to know which is your favorite from css wrapped each of you uh you have to call me your favorite one ifan what's your favorite well i did say like uh in in this uh in this css wrap uh 2024 that gets my eyes scroll different animations um that's that's one thing um from 2023 i learned it's i i haven't used that much but i learned so much about the color level four the color that what uh like oh k lch okay lab as i i don't even know what it is before and i just thought you can't do it right now with that kind of thing yeah um it's confusing uh about this color mix um haven't used it to be honest but but i know that it is there right now um and learned so much about this color mix but yeah and also from from 3023 like those new color spaces display p3 color that's like wow so cool like i always thought that hot hot pink was a hot pink turns out there's a hotter hot pink out there yeah those wider gamut it's like cool yeah yeah uh for me and maybe maybe ekka uh absolutely it's uh uh view transition because uh yeah uh i know i can do like server render or uh traditional request response website to uh to behave or to experience like single place application right so yeah that's that's a win win-win solution for me are you using them on any of your projects right now um not yet but uh but uh i uh i try to use that in in uh for for the demo uh uh for the demo for speak or talk uh in in some uh event yeah gotcha cool so that's a that's another one i feel like view transitions is another one that's pretty easy to progressively enhance because you're like all right i'm gonna take the thing you clicked and i'm gonna put it over there with javascript uh and you're like cool i i put it over there with javascript and i'm done well you're like actually if all i do is wrap this and say if the browser can do a view transition then do it if not so i'm still putting the element over there no matter what just one of them gets wrapped in a function and one of them doesn't and so if the browser has it they see motion if there isn't it's just the same as it always was just like uh bramos was talking about with like page navigation the status quo is still there we still swapped the elements it's just in one scenario it had uh motion and the other one it didn't so it's kind of fun to again yeah progressively enhance if that's something you and your team are are equipped and ready to do yeah uh i have planned to to implement that in our um video podcast uh website so uh it's still a server render and when uh people click user click uh the the episodes uh they go to another page and it should uh animate yeah yeah it should transition and for first for slide because i love animation in my slide so now i can do it with uh like uh tools like uh slide.dev or yeah or or any kind of website that have um transition animation yeah yeah or use morfol here i'm sharing this this is a uh astro site that you can build it's for making slides and you don't have to name anything it's got names for things already and if you just go build your slides and then you click between your slides it will morph your code snippets it'll morph your titles um i think you can try it out there it's smashing transitions.netlify.app is that one still going oh yeah wait was that still running yes are they no are they view transitions no i don't think so something old in there this is motion oh there you go oh there you go oh there you go okay between the rocket and clapping and the table yeah exactly sorry if i click there is no transition but if i um push the arrow button yeah keyboard it's transition why why is that one book book another one might be like cash or something yeah maybe cash yeah maybe cash oh because i think i have pre-render in there with like speculation rules and a bunch of other stuff so i'm curious what's failing maybe i need to add that uh that check that looks for an element at the top yeah because look i'm pre-fetching the next page i don't have the meta tag anymore so i've definitely upgraded it since then do i have the app rule oh the app rules not at the top maybe is that the deal sorry at view transition the the at full gets hosted that returns navigation although that one gets gets hosted to the top okay oh because it's currently almost at the bottom of my style sheet i wonder if if that's why oh so it's space of this seems to be some kind of race condition i just tried it myself and even when i click the arrow sometimes it animates sometimes sometimes it doesn't yeah let's try more re-render settings here try this version for new books to think about let's see is that one animating better that one's animating a little bit better it's still still needs it's like you have to wait if you wait on the page before you hit the next page it behaves better it's almost like i give it some time to pre-render and when i'm talking on stage it's a little better right because uh uh-huh i i have the time it's gonna take a while yeah there you go you saw those morphs so yeah each of these slides is its own web page you build them in astro as individual slides and then it does all the work with view transitions to make the animations morph so that's free and open source if you all want to use it yeah and the cool thing is that that you built their atom is that like it automatically works so so it figures out what is the title on the previous slide and then we're gonna morph that one to the title on the next slide and then if there's a code block i'm gonna move the one code block to the other one it's like yes and it i think you've done it with with the with some css is it scroll snap events uh between like between one uh code block and the other that one's scroll state queries yeah so that's how it knows which one is snapped yep and that's also progressive enhancement so if you're on a browser that doesn't have those it just doesn't do the little focus thing okay oh but yeah bremus is mentioning i used the nth of syntax to get that one done so that i could select the unique uh h1 and then uh if there's multiple code snippets i make sure i grab uh just two or three of them and yeah the end of syntax was clutch for that okay yeah view transitions very cool but yeah that one's all css view transitions no javascript on that either yeah yeah it's very cool how you navigate this uh like horizontal uh scrolling when you present cross snap cross snap events oh when presenting no i mean like presenting next between slides put one pages between the the yeah quote snippet like this so you're asking how do i navigate between them while i'm presenting yeah yeah just yeah we'll stand on stage oh i'll stand in front of the computer yeah i'm usually in front because uh those those little red dots that are on there too those are all demos so if you hover over red dot i use i would open those in a tab i see and then i would go through the demo on stage and yeah open up those or something yeah this is the slide and the demo both of them yeah yeah very cool very cool maybe i can steal this yeah i want you to that's why i'm like hey steal it this is really it's i find it to be a very quick way to make really nice looking slides um but it does seem like i'll have to backport some of my enhancements from my talk in france a few months ago i made a few changes and they could be upstreamed into the open source hmm yeah i'm curious why you guys uh you choose uh astro for the css rep website any particular reason we uh that page would have been really really long html file to edit if it was just one file it's a"
+}
