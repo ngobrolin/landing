@@ -3,11 +3,16 @@
 // Floating scroll-to-top and scroll-to-bottom buttons
 ---
 
-<div id="scroll-buttons" class="scroll-buttons-container" data-scroll-buttons-container>
+<div
+  id="scroll-buttons"
+  class="fixed bottom-4 right-4 flex flex-col gap-2 z-40 sm:bottom-3 sm:right-3"
+  data-scroll-buttons-container
+>
   <!-- Scroll to Top Button -->
   <button
     id="scroll-to-top"
-    class="scroll-button scroll-button-top"
+    class="scroll-button flex items-center justify-center w-10 h-10 text-white rounded-md shadow-md transition-all duration-200 ease-out transform hover:opacity-85 hover:scale-105 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:ring-2 focus-visible:ring-offset-2 sm:w-9 sm:h-9"
+    style="background-color: hsl(var(--color-primary)); --tw-ring-color: hsl(var(--color-primary));"
     aria-label="Scroll to top"
     title="Scroll to top"
     type="button"
@@ -21,7 +26,8 @@
   <!-- Scroll to Bottom Button -->
   <button
     id="scroll-to-bottom"
-    class="scroll-button scroll-button-bottom"
+    class="scroll-button flex items-center justify-center w-10 h-10 text-white rounded-md shadow-md transition-all duration-200 ease-out transform hover:opacity-85 hover:scale-105 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:ring-2 focus-visible:ring-offset-2 sm:w-9 sm:h-9"
+    style="background-color: hsl(var(--color-primary)); --tw-ring-color: hsl(var(--color-primary));"
     aria-label="Scroll to bottom"
     title="Scroll to bottom"
     type="button"
@@ -32,67 +38,6 @@
     </svg>
   </button>
 </div>
-
-<style>
-  .scroll-buttons-container {
-    position: fixed;
-    bottom: 1rem;
-    right: 1rem;
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
-    z-index: 40;
-  }
-
-  .scroll-button {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 2.5rem;
-    height: 2.5rem;
-    background-color: hsl(var(--color-primary));
-    color: white;
-    border: none;
-    border-radius: 0.5rem;
-    cursor: pointer;
-    transition: opacity 0.2s ease, transform 0.2s ease;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
-  }
-
-  .scroll-button:hover {
-    opacity: 0.85;
-    transform: scale(1.05);
-  }
-
-  .scroll-button:focus-visible {
-    outline: 2px solid hsl(var(--color-primary));
-    outline-offset: 2px;
-  }
-
-  /* Hidden state for scroll-to-top (initially hidden at top) */
-  .scroll-button-top[aria-hidden="true"] {
-    opacity: 0;
-    pointer-events: none;
-  }
-
-  /* Hidden state for scroll-to-bottom (hidden when at bottom) */
-  .scroll-button-bottom[aria-hidden="true"] {
-    opacity: 0;
-    pointer-events: none;
-  }
-
-  @media (max-width: 640px) {
-    .scroll-buttons-container {
-      bottom: 0.75rem;
-      right: 0.75rem;
-    }
-
-    .scroll-button {
-      width: 2.25rem;
-      height: 2.25rem;
-    }
-  }
-</style>
 
 <script is:inline data-astro-rerun>
   (function initScrollButtons() {
@@ -134,16 +79,20 @@
       scrollToTopBtn.setAttribute('aria-hidden', isAtTop.toString());
       if (isAtTop) {
         scrollToTopBtn.setAttribute('tabindex', '-1');
+        scrollToTopBtn.classList.add('opacity-0', 'pointer-events-none');
       } else {
         scrollToTopBtn.removeAttribute('tabindex');
+        scrollToTopBtn.classList.remove('opacity-0', 'pointer-events-none');
       }
 
       // Hide scroll-to-bottom when at bottom (also remove from keyboard navigation)
       scrollToBottomBtn.setAttribute('aria-hidden', isAtBottom.toString());
       if (isAtBottom) {
         scrollToBottomBtn.setAttribute('tabindex', '-1');
+        scrollToBottomBtn.classList.add('opacity-0', 'pointer-events-none');
       } else {
         scrollToBottomBtn.removeAttribute('tabindex');
+        scrollToBottomBtn.classList.remove('opacity-0', 'pointer-events-none');
       }
     };
 
