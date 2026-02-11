@@ -57,4 +57,44 @@ test.describe('ScrollButtons', () => {
     }));
     await expect(scrollY).toBeGreaterThan(documentHeight - windowHeight - 100);
   });
+
+  test('should work after view transition navigation', async ({ page }) => {
+    // Start on home page
+    await page.goto('/');
+
+    // Scroll down to verify scroll-to-top button appears
+    await page.evaluate(() => window.scrollTo(0, 500));
+    const scrollToTopOnHome = page.getByLabel('Scroll to top').or(page.getByTitle('Scroll to top'));
+    await expect(scrollToTopOnHome).toBeVisible();
+
+    // Navigate to about page (uses view transitions)
+    await page.getByRole('link', { name: 'Tentang', exact: true }).first().click();
+
+    // Wait for navigation and script re-execution
+    await page.waitForTimeout(150); // Allow for inline script execution after view transition
+
+    // Verify buttons exist on new page
+    const scrollToTopOnAbout = page.getByLabel('Scroll to top').or(page.getByTitle('Scroll to top'));
+    const scrollToBottomOnAbout = page.getByLabel('Scroll to bottom').or(page.getByTitle('Scroll to bottom'));
+
+    await expect(scrollToTopOnAbout).toBeVisible();
+    await expect(scrollToBottomOnAbout).toBeVisible();
+
+    // Test scroll functionality on new page
+    await page.evaluate(() => window.scrollTo(0, 0));
+    await page.waitForTimeout(50);
+
+    // Scroll down
+    await page.evaluate(() => window.scrollTo(0, 300));
+
+    // Click scroll to top
+    await scrollToTopOnAbout.click();
+
+    // Wait for smooth scroll to complete
+    await page.waitForTimeout(500);
+
+    // Verify we're at top
+    const finalScrollY = await page.evaluate(() => window.scrollY);
+    await expect(finalScrollY).toBe(0);
+  });
 });
