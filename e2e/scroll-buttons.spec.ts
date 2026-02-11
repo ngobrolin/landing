@@ -25,22 +25,15 @@ test.describe('ScrollButtons', () => {
       window.scrollTo(0, scrollHeight / 2);
     });
 
-    // Wait a bit for scroll to complete
-    await page.waitForTimeout(100);
-
+    await page.waitForFunction(() => window.scrollY > 0);
     const scrollY = await page.evaluate(() => window.scrollY);
-    await expect(scrollY).toBeGreaterThan(100);
+    await expect(scrollY).toBeGreaterThan(0);
 
     // Click scroll to top button
     const scrollToTop = page.getByLabel('Scroll to top').or(page.getByTitle('Scroll to top'));
     await scrollToTop.click();
 
-    // Wait for smooth scroll to complete
-    await page.waitForTimeout(500);
-
-    // Should be at top
-    const finalScrollY = await page.evaluate(() => window.scrollY);
-    await expect(finalScrollY).toBe(0);
+    await page.waitForFunction(() => window.scrollY === 0);
   });
 
   test('should scroll to bottom when button is clicked', async ({ page }) => {
@@ -50,8 +43,11 @@ test.describe('ScrollButtons', () => {
     const scrollToBottom = page.getByLabel('Scroll to bottom').or(page.getByTitle('Scroll to bottom'));
     await scrollToBottom.click();
 
-    // Wait for smooth scroll to complete
-    await page.waitForTimeout(500);
+    await page.waitForFunction(
+      () =>
+        window.scrollY + window.innerHeight >=
+        document.documentElement.scrollHeight - 100
+    );
 
     // Should be at or near bottom
     const { scrollY, documentHeight, windowHeight } = await page.evaluate(() => ({
@@ -59,7 +55,7 @@ test.describe('ScrollButtons', () => {
       documentHeight: document.documentElement.scrollHeight,
       windowHeight: window.innerHeight,
     }));
-    await expect(scrollY).toBeGreaterThan(documentHeight - windowHeight - 100);
+    await expect(scrollY).toBeGreaterThanOrEqual(documentHeight - windowHeight - 100);
   });
 
   test('should work after view transition navigation', async ({ page }) => {
@@ -73,9 +69,7 @@ test.describe('ScrollButtons', () => {
 
     // Navigate to about page (uses view transitions)
     await page.getByRole('link', { name: 'Tentang', exact: true }).first().click();
-
-    // Wait for navigation and script re-execution
-    await page.waitForTimeout(150); // Allow for inline script execution after view transition
+    await page.waitForURL('**/about');
 
     // Verify buttons exist on new page
     const scrollToTopOnAbout = page.getByLabel('Scroll to top').or(page.getByTitle('Scroll to top'));
@@ -86,19 +80,83 @@ test.describe('ScrollButtons', () => {
 
     // Test scroll functionality on new page
     await page.evaluate(() => window.scrollTo(0, 0));
-    await page.waitForTimeout(50);
+    await page.waitForFunction(() => window.scrollY === 0);
 
     // Scroll down
     await page.evaluate(() => window.scrollTo(0, 300));
+    await page.waitForFunction(() => window.scrollY > 0);
 
     // Click scroll to top
     await scrollToTopOnAbout.click();
+    await page.waitForFunction(() => window.scrollY === 0);
+  });
 
-    // Wait for smooth scroll to complete
-    await page.waitForTimeout(500);
+  test('uses auto behavior when reduced motion is preferred', async ({ page }) => {
+    await page.addInitScript(() => {
+      const originalScrollTo = window.scrollTo.bind(window);
 
-    // Verify we're at top
-    const finalScrollY = await page.evaluate(() => window.scrollY);
-    await expect(finalScrollY).toBe(0);
+      window.__lastScrollBehavior = null;
+      window.scrollTo = function (...args) {
+        if (typeof args[0] === 'object' && args[0] !== null) {
+          window.__lastScrollBehavior = args[0].behavior ?? 'auto';
+        } else {
+          window.__lastScrollBehavior = 'auto';
+        }
+        return originalScrollTo(...args);
+      };
+    });
+
+    await page.emulateMedia({ reducedMotion: 'reduce' });
+    await page.goto('/');
+
+    const scrollToBottom = page.getByLabel('Scroll to bottom').or(page.getByTitle('Scroll to bottom'));
+    await scrollToBottom.click();
+
+    await expect.poll(() => page.evaluate(() => window.__lastScrollBehavior)).toBe('auto');
+  });
+
+  test('cleans up previous scroll listeners after view transitions', async ({ page }) => {
+    await page.addInitScript(() => {
+      const originalAdd = window.addEventListener.bind(window);
+      const originalRemove = window.removeEventListener.bind(window);
+
+      window.__scrollButtonAdds = 0;
+      window.__scrollButtonRemoves = 0;
+
+      window.addEventListener = function (type, listener, options) {
+        if (
+          type === 'scroll' &&
+          typeof listener === 'function' &&
+          listener.__scrollButtonsListener === true
+        ) {
+          window.__scrollButtonAdds += 1;
+        }
+        return originalAdd(type, listener, options);
+      };
+
+      window.removeEventListener = function (type, listener, options) {
+        if (
+          type === 'scroll' &&
+          typeof listener === 'function' &&
+          listener.__scrollButtonsListener === true
+        ) {
+          window.__scrollButtonRemoves += 1;
+        }
+        return originalRemove(type, listener, options);
+      };
+    });
+
+    await page.goto('/');
+    await page.getByRole('link', { name: 'Tentang', exact: true }).first().click();
+    await page.waitForURL('**/about');
+    await page.getByRole('link', { name: 'Ngobrolin WEB', exact: true }).first().click();
+    await page.waitForURL('**/');
+
+    const metrics = await page.evaluate(() => ({
+      adds: window.__scrollButtonAdds,
+      removes: window.__scrollButtonRemoves,
+    }));
+
+    expect(metrics.adds - metrics.removes).toBe(1);
   });
 });

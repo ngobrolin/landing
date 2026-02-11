@@ -41,23 +41,31 @@
 
 <script is:inline data-astro-rerun>
   (function initScrollButtons() {
+    const stateKey = '__ngobrolinScrollButtonsState';
+    const state = window[stateKey] || { container: null, cleanup: null };
+
     const container = document.querySelector('[data-scroll-buttons-container]');
     if (!container) return;
 
-    // Guard against duplicate initialization
-    if (container.hasAttribute('data-scroll-buttons-initialized')) return;
-    container.setAttribute('data-scroll-buttons-initialized', 'true');
+    // Guard against duplicate initialization for the current DOM node
+    if (state.container === container) return;
+    if (typeof state.cleanup === 'function') state.cleanup();
 
-    const scrollToTopBtn = document.querySelector('[data-scroll-to-top]');
-    const scrollToBottomBtn = document.querySelector('[data-scroll-to-bottom]');
+    const scrollToTopBtn = container.querySelector('[data-scroll-to-top]');
+    const scrollToBottomBtn = container.querySelector('[data-scroll-to-bottom]');
 
     if (!scrollToTopBtn || !scrollToBottomBtn) return;
+
+    const getScrollBehavior = () =>
+      window.matchMedia('(prefers-reduced-motion: reduce)').matches
+        ? 'auto'
+        : 'smooth';
 
     // Scroll to top function
     const scrollToTop = () => {
       window.scrollTo({
         top: 0,
-        behavior: 'smooth'
+        behavior: getScrollBehavior()
       });
     };
 
@@ -65,7 +73,7 @@
     const scrollToBottom = () => {
       window.scrollTo({
         top: document.documentElement.scrollHeight,
-        behavior: 'smooth'
+        behavior: getScrollBehavior()
       });
     };
 
@@ -96,12 +104,35 @@
       }
     };
 
+    let isTicking = false;
+    const onScroll = () => {
+      if (isTicking) return;
+
+      isTicking = true;
+      window.requestAnimationFrame(() => {
+        updateButtonVisibility();
+        isTicking = false;
+      });
+    };
+    onScroll.__scrollButtonsListener = true;
+
     // Event listeners
     scrollToTopBtn.addEventListener('click', scrollToTop);
     scrollToBottomBtn.addEventListener('click', scrollToBottom);
 
     // Update visibility on scroll
-    window.addEventListener('scroll', updateButtonVisibility);
+    window.addEventListener('scroll', onScroll, { passive: true });
     updateButtonVisibility(); // Initial state
+
+    state.container = container;
+    state.cleanup = () => {
+      window.removeEventListener('scroll', onScroll);
+      scrollToTopBtn.removeEventListener('click', scrollToTop);
+      scrollToBottomBtn.removeEventListener('click', scrollToBottom);
+      if (state.container === container) {
+        state.container = null;
+      }
+    };
+    window[stateKey] = state;
   })();
 </script>
