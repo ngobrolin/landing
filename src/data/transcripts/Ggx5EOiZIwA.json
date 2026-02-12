@@ -1,0 +1,4593 @@
+{
+  "videoId": "Ggx5EOiZIwA",
+  "language": "id",
+  "generatedAt": "2026-02-12T09:06:41.718Z",
+  "segments": [
+    {
+      "start": 16.54,
+      "end": 19.74,
+      "text": "Halo, halo, halo. Selamat malam."
+    },
+    {
+      "start": 19.74,
+      "end": 24.2,
+      "text": "Harusnya lagunya \"Countdown\" itu kita sambil joget-joget tau gak sih?"
+    },
+    {
+      "start": 24.2,
+      "end": 28.66,
+      "text": "Biar daripada orang nungguin cuma \"Countdown\" kita sambil joget-joget gitu."
+    },
+    {
+      "start": 28.66,
+      "end": 30.84,
+      "text": "- Jangan dong. - Jangan mau nonton."
+    },
+    {
+      "start": 30.84,
+      "end": 33.54,
+      "text": "- Kabur semua. - Nanti pada kabur."
+    },
+    {
+      "start": 33.54,
+      "end": 39.7,
+      "text": "Kan podcast bergoyang gitu. Mungkin kita bisa ganti nafas."
+    },
+    {
+      "start": 39.7,
+      "end": 44.58,
+      "text": "Nanti masuk TikTok. TikTok udah di-ban. Eh udah di-ban, gak jadi di-ban lagi sekarang ya."
+    },
+    {
+      "start": 44.58,
+      "end": 47.48,
+      "text": "- Udah bisa di-access lagi. - Gimana sih?"
+    },
+    {
+      "start": 47.48,
+      "end": 49.02,
+      "text": "Bisa di-access lagi."
+    },
+    {
+      "start": 49.02,
+      "end": 52.8,
+      "text": "- Kok boleh? - Gak tau. Itu ceritanya gimana."
+    },
+    {
+      "start": 52.8,
+      "end": 56.2,
+      "text": "- Udah politik, politik negara. - Lobby-lobby lah itu."
+    },
+    {
+      "start": 56.2,
+      "end": 61.38,
+      "text": "Politis sekali ya. Berjumpa lagi bersama kita bertiga."
+    },
+    {
+      "start": 61.38,
+      "end": 68.74,
+      "text": "Kembali ke format 3 web-web. Ada Eka yang jago UI, CSS."
+    },
+    {
+      "start": 68.74,
+      "end": 73.22,
+      "text": "Ada Ivan yang jago performance, dan ada saya Riza yang..."
+    },
+    {
+      "start": 73.22,
+      "end": 75.28,
+      "text": "- Jago apa? - Yang jago."
+    },
+    {
+      "start": 75.28,
+      "end": 77.98,
+      "text": "Yang tidak jago-jago aman."
+    },
+    {
+      "start": 77.98,
+      "end": 83.14,
+      "text": "Riza itu jago semuanya."
+    },
+    {
+      "start": 83.14,
+      "end": 91.3,
+      "text": "- Apa itu namanya? Yang master of none itu? - Jack of all trades."
+    },
+    {
+      "start": 91.3,
+      "end": 94.3,
+      "text": "Jack of all trades, master of none."
+    },
+    {
+      "start": 94.3,
+      "end": 98.82,
+      "text": "None itu ini tau gak sih makanan di India itu? None."
+    },
+    {
+      "start": 98.82,
+      "end": 102.98,
+      "text": "- Iya, iya. - Master of meal."
+    },
+    {
+      "start": 102.98,
+      "end": 109.14,
+      "text": "- Master of meal. - Enggak. None itu kalau kita satu tambah satu, tapi satunya string."
+    },
+    {
+      "start": 109.14,
+      "end": 113.3,
+      "text": "- Satu tambah. - Iya, seneng deh bangga."
+    },
+    {
+      "start": 113.3,
+      "end": 122.94,
+      "text": "Bagus, bagus, bagus. Sudah mulai ini ya. Sudah mulai ini ya, jokes-nya sudah mulai masuknya."
+    },
+    {
+      "start": 122.94,
+      "end": 128.54,
+      "text": "Sudah mulai menyesuaikan dengan jokes-nya JavaScript ya."
+    },
+    {
+      "start": 128.54,
+      "end": 135.34,
+      "text": "Jadi malam hari ini adalah episode ke 114. Udah 114 ya."
+    },
+    {
+      "start": 135.34,
+      "end": 149.58,
+      "text": "Karena kita hampir setiap minggu live, dan di episode ini kita akan membahas tentang sebuah paradigma, bukan paradigma."
+    },
+    {
+      "start": 149.58,
+      "end": 155.42,
+      "text": "- Phenomena. - Phenomena yang namanya Lokal First."
+    },
+    {
+      "start": 155.42,
+      "end": 168.3,
+      "text": "Tadi kita hampir membahas topik ini sebelum live. - Tadi kita sempat debat loh. - Ini bahasnya pas live, bukan di batik layar."
+    },
+    {
+      "start": 168.3,
+      "end": 177.86,
+      "text": "- Jadi mungkin sedikit background dulu. Awalnya saya tahu tentang Lokal First ini dari sebuah aplikasi yang namanya Actual Budget."
+    },
+    {
+      "start": 177.86,
+      "end": 182.22,
+      "text": "Yang 2 minggu lalu ya, kalau gak salah kita sempat omongin ya, Actual Budget."
+    },
+    {
+      "start": 182.22,
+      "end": 193.5,
+      "text": "Jadi Actual Budget ini kayak personal finance app lah ya, aplikasi finansial, aplikasi pengatur keuangan."
+    },
+    {
+      "start": 193.5,
+      "end": 203.3,
+      "text": "Tapi dia formatnya web, aplikasi web, dan open source. Bisa di deploy sendiri, bisa dijalankan di localhost sendiri."
+    },
+    {
+      "start": 203.3,
+      "end": 214.9,
+      "text": "Tapi dia tidak bergantung kepada server, jadi bisa dijalankan di local."
+    },
+    {
+      "start": 214.9,
+      "end": 226.3,
+      "text": "Karena ini personal finance, gak ada kebutuhan untuk kolaborasi dan lain-lain, jadi datanya tidak di share, datanya berada di komputer kita."
+    },
+    {
+      "start": 226.3,
+      "end": 236.82,
+      "text": "Saya tahu saya, makanya disini kan ada you own your data. Tapi juga bisa, tetap bisa syncing."
+    },
+    {
+      "start": 236.82,
+      "end": 241.58,
+      "text": "Karena bisa aja aplikasinya bukan hanya diakses di desktop, tapi juga di mobile."
+    },
+    {
+      "start": 241.58,
+      "end": 255.74,
+      "text": "Itu datanya gimana, datanya berada dimana, yang jadi master-nya yang mana, yang jadi replicate-nya yang mana, kita harus cari tahu lebih dalam sih."
+    },
+    {
+      "start": 255.74,
+      "end": 266.46,
+      "text": "Itu awalnya saya tahu tentang istilah local first. Ternyata semakin kesini semakin berkembang dan definisinya juga bermacam-macam ya."
+    },
+    {
+      "start": 266.46,
+      "end": 272.66,
+      "text": "Mungkin ada penjurusan. Kalau dari Ivan gimana?"
+    },
+    {
+      "start": 272.66,
+      "end": 287.26,
+      "text": "Awalnya kan ini kan kayak aplikasi yang dijalankan, yang semuanya dijalankan di device-nya masing-masing."
+    },
+    {
+      "start": 287.26,
+      "end": 293.38,
+      "text": "Contohnya kayak local first, kalau di dunianya WordPress kita ada playground namanya."
+    },
+    {
+      "start": 293.38,
+      "end": 305.9,
+      "text": "Saya coba contohin itu. Oke sebentar. Yes, copy."
+    },
+    {
+      "start": 305.9,
+      "end": 310.46,
+      "text": "Oh ini yang pakai, yang pakai container itu bukan ya?"
+    },
+    {
+      "start": 310.46,
+      "end": 322.26,
+      "text": "Ya ini pakai Wasm, terus dia pakai SQL, pakai Wasm, pakai SQLite, untuk menjalankan proses PHP,"
+    },
+    {
+      "start": 322.26,
+      "end": 325.1,
+      "text": "web server di browser."
+    },
+    {
+      "start": 325.1,
+      "end": 329.9,
+      "text": "Tapi ini bisa diakses secara offline."
+    },
+    {
+      "start": 329.9,
+      "end": 343.3,
+      "text": "Kalau sudah selesai di load, sudah di download sama kayak actual budget kan, kalau sudah di load semua filenya bisa diakses di local."
+    },
+    {
+      "start": 343.3,
+      "end": 350.46,
+      "text": "Atau maksudnya lebih tepatnya bisa diakses tanpa internetnya, itu maksudnya ya."
+    },
+    {
+      "start": 350.46,
+      "end": 360.98,
+      "text": "Dan ketika kalau misalkan aplikasi kayak actual budget, ketika kita kembali konek ke internet, dia akan kembali syncing lagi gitu kan ya?"
+    },
+    {
+      "start": 360.98,
+      "end": 367.7,
+      "text": "Kalau ini, murmi hanya untuk playground saja."
+    },
+    {
+      "start": 367.7,
+      "end": 376.14,
+      "text": "Cuma kalau di reload-reload, datanya tetap disimpan di SQLite yang ada di storage, jadi di browser."
+    },
+    {
+      "start": 376.14,
+      "end": 380.54,
+      "text": "Jadi datanya bisa tetap di reload."
+    },
+    {
+      "start": 380.54,
+      "end": 382.62,
+      "text": "Ngomong-ngomong kok berdiri di tengah."
+    },
+    {
+      "start": 382.62,
+      "end": 386.34,
+      "text": "Lanjut, lanjut, lanjut."
+    },
+    {
+      "start": 386.34,
+      "end": 395.42,
+      "text": "Nah ini kan seperti sebuah instalasi, sebuah WordPress, tetapi ada di browser."
+    },
+    {
+      "start": 395.42,
+      "end": 401.14,
+      "text": "Ini sudah pernah kita cerita-cerita, waktu kita bahas Wasm."
+    },
+    {
+      "start": 401.14,
+      "end": 404.98,
+      "text": "Nah ini juga termasuk local first."
+    },
+    {
+      "start": 404.98,
+      "end": 415.86,
+      "text": "Nah, ada satu paradigma yang saya nonton sebuah seminernya, saya lupa, saya pernah bagikan di grupnya kita."
+    },
+    {
+      "start": 415.86,
+      "end": 423.26,
+      "text": "Tapi saya lupa nama mbaknya itu siapa, nanti saya coba cari ya setelah saya sampaikan."
+    },
+    {
+      "start": 423.26,
+      "end": 429.42,
+      "text": "Apa namanya, sebuah paradigma itu seperti ini."
+    },
+    {
+      "start": 429.42,
+      "end": 440.42,
+      "text": "Local first itu bukan artinya hanya database atau storage saja yang ada di lokal."
+    },
+    {
+      "start": 440.42,
+      "end": 449.1,
+      "text": "Jadi aplikasinya jalan di lokal, database ada di lokal, dan yang mana nggak cuma,"
+    },
+    {
+      "start": 449.1,
+      "end": 454.34,
+      "text": "maksudnya aplikasi itu nggak cuma, batasannya bukan cuma storage."
+    },
+    {
+      "start": 454.34,
+      "end": 457.5,
+      "text": "Nah lebih tepatnya gitu, batasannya bukan cuma storage."
+    },
+    {
+      "start": 457.5,
+      "end": 469.06,
+      "text": "Tetapi lokal itu artinya, lokal first itu artinya adalah aplikasi ini diperentukan untuk personal dan orang-orang di sekitarmu saja."
+    },
+    {
+      "start": 469.06,
+      "end": 480.22,
+      "text": "Jadi bukan kalau Facebook atau Twitter kan bukan lokal first, dia udah sosial, lokal, dunia first, global first."
+    },
+    {
+      "start": 480.22,
+      "end": 489.14,
+      "text": "Kalau kita bikin CMS, WordPress untuk dipublish itu bukan lokal first, itu public first gitu ya, internet first."
+    },
+    {
+      "start": 489.14,
+      "end": 496.46,
+      "text": "Sedangkan kalau lokal first itu adalah aplikasi yang kita bangun hanya untuk di lokal kita sendiri."
+    },
+    {
+      "start": 496.46,
+      "end": 509.14,
+      "text": "Contohnya pernah tau, siapa tau ada sini teman-teman yang suka bermain dulu mainan bikin aplikasi,"
+    },
+    {
+      "start": 509.14,
+      "end": 517.58,
+      "text": "aplikasi yang.. apa bahasanya kalau.. yang desktop, aplikasi desktop lah contohnya ya,"
+    },
+    {
+      "start": 517.58,
+      "end": 529.58,
+      "text": "yang hanya untuk dipakai di lokal, contohnya intranet, Microsoft Office yang.. DB apa itu database?"
+    },
+    {
+      "start": 529.58,
+      "end": 538.3,
+      "text": "Akses, nah itu lokal first. Bisa dikategorikan lokal first. Bisa di share nggak? Bisa."
+    },
+    {
+      "start": 538.3,
+      "end": 548.22,
+      "text": "Bisa, bisa di share. Bisa, pakai network, tapi diperentukan waktu dibuat dia hanya untuk di lokal, untuk di komputer masing-masing."
+    },
+    {
+      "start": 548.22,
+      "end": 554.74,
+      "text": "Kalau kita mau pakai aplikasinya kita kopi aja, aksesnya buka sendiri di komputer kita gitu kan ya?"
+    },
+    {
+      "start": 554.74,
+      "end": 563.38,
+      "text": "Betul, jadi di kopi ke flash disk, di insert tampak lain, jatahnya berbeda jadi pakai untuk di.."
+    },
+    {
+      "start": 563.38,
+      "end": 572.46,
+      "text": "Nah, tapi di akalin nanti suatu saat kalau dari dulu akses itu dibikin jadi storage."
+    },
+    {
+      "start": 572.46,
+      "end": 577.26,
+      "text": "Jadi dua komputernya berbeda bisa akses database yang sama, bisa akses yang sama, ya."
+    },
+    {
+      "start": 577.26,
+      "end": 585.26,
+      "text": "Jadi yang disampaikan si Mbak itu di.. nanti saya kasih link YouTube-nya ya."
+    },
+    {
+      "start": 585.26,
+      "end": 587.26,
+      "text": "Maggie Appleton bukan? Maggie Appleton?"
+    },
+    {
+      "start": 587.26,
+      "end": 593.5,
+      "text": "Kayaknya sih ya, betul, betul, betul. Yang pernah saya share, Maggie Appleton, betul."
+    },
+    {
+      "start": 593.5,
+      "end": 596.5,
+      "text": "Yang pernah share banyak."
+    },
+    {
+      "start": 596.5,
+      "end": 598.5,
+      "text": "Iya banyak banget ya."
+    },
+    {
+      "start": 598.5,
+      "end": 613.02,
+      "text": "Nah, jadi aplikasi yang dibangun untuk personal dan untuk orang-orang di sekitarnya."
+    },
+    {
+      "start": 613.02,
+      "end": 621.58,
+      "text": "Oh iya, kayak ini juga termasuk kiosk, kayak informasi atau kita mau pesen tiket di sebuah.."
+    },
+    {
+      "start": 621.58,
+      "end": 631.78,
+      "text": "Misalkan, ya kalau bioskop sekarang kan udah ada komputernya kan, kalau misalkan ada kiosk gitu,"
+    },
+    {
+      "start": 631.78,
+      "end": 638.54,
+      "text": "mau ngambil nomor antrian, mau pesen tiket, itu termasuk lokal first kali ya?"
+    },
+    {
+      "start": 638.54,
+      "end": 648.54,
+      "text": "Kayak ini kali ya? Iya, iya. Kayak untuk antrian di rumah sakit, misalnya mau masuk ke polyklinik mana, pencer, atau bank, atau bank."
+    },
+    {
+      "start": 648.54,
+      "end": 650.54,
+      "text": "Nomor antrian sekian."
+    },
+    {
+      "start": 650.54,
+      "end": 654.54,
+      "text": "Ya, nomor antrian untuk customer service, untuk tailor, yang mana, gitu kan."
+    },
+    {
+      "start": 654.54,
+      "end": 661.54,
+      "text": "Sedangkan nomor antrian itu kan, meski mumpahnya sama, nggak butuh synchronize ke cabang lain."
+    },
+    {
+      "start": 661.54,
+      "end": 663.54,
+      "text": "Iya, betul."
+    },
+    {
+      "start": 663.54,
+      "end": 671.54,
+      "text": "Itu lokal first yang sudut pandangnya, jadi nggak cuma storage."
+    },
+    {
+      "start": 671.54,
+      "end": 675.54,
+      "text": "Oke, dan juga bukan lokal host ya, kita develop lokal host."
+    },
+    {
+      "start": 675.54,
+      "end": 677.54,
+      "text": "Bukan lokal host."
+    },
+    {
+      "start": 677.54,
+      "end": 679.54,
+      "text": "Bukan."
+    },
+    {
+      "start": 679.54,
+      "end": 681.54,
+      "text": "Iya."
+    },
+    {
+      "start": 681.54,
+      "end": 686.54,
+      "text": "Nah, mungkin pendapat Eka atau pendapat Mas Risa gimana?"
+    },
+    {
+      "start": 686.54,
+      "end": 693.54,
+      "text": "Nah, nggak, kalau gue sih nyorotinya, ini kan, apa ya, bukan spesifikasi teknis."
+    },
+    {
+      "start": 693.54,
+      "end": 698.54,
+      "text": "E, lokal first itu kan, yaitu tadi bisa dibilang filosofi lah, paradigma lah."
+    },
+    {
+      "start": 698.54,
+      "end": 704.54,
+      "text": "Jadi maksudnya, ya kalau Maggie Appleton misalnya, atau siapapun lah,"
+    },
+    {
+      "start": 704.54,
+      "end": 712.54,
+      "text": "mau, ya misalnya di conference talk, present, itu kan sebetulnya perspektif dia tentang lokal first."
+    },
+    {
+      "start": 712.54,
+      "end": 719.54,
+      "text": "Jadi kan sebetulnya orang lain atau perusahaan lain atau organisasi lain bikin product"
+    },
+    {
+      "start": 719.54,
+      "end": 727.54,
+      "text": "yang nggak sepenuhnya ngikutin perspektifnya, apa, ngikutin definisi-definisinya si Maggie Appleton itu ya."
+    },
+    {
+      "start": 727.54,
+      "end": 731.54,
+      "text": "Dan tetap menyebut itu lokal first kan sebenarnya sah-sah aja."
+    },
+    {
+      "start": 731.54,
+      "end": 738.54,
+      "text": "Karena lagi-lagi kalau, kecuali kalau apa ya, kalau protokol kayak HTTP itu kan udah ditulis,"
+    },
+    {
+      "start": 738.54,
+      "end": 744.54,
+      "text": "ada teknis, apa, spesifikasi teknis, dan semua pihak terkait tuh harus setuju dulu kan,"
+    },
+    {
+      "start": 744.54,
+      "end": 749.54,
+      "text": "sama misalnya web API lah, atau apa, misalnya fetch itu behavior-nya gimana."
+    },
+    {
+      "start": 749.54,
+      "end": 754.54,
+      "text": "Itu kan nggak bisa orang, ya dulu bisa ada yang bikin fetch ala-ala,"
+    },
+    {
+      "start": 754.54,
+      "end": 758.54,
+      "text": "tapi maksudnya teknologi-teknologi kayak gitu kan udah ada definisi,"
+    },
+    {
+      "start": 758.54,
+      "end": 763.54,
+      "text": "yang kalau kita mau menyebut sesuatu sebagai A, berarti itu harus begini-gini-gini."
+    },
+    {
+      "start": 763.54,
+      "end": 767.54,
+      "text": "Kalau nggak memenuhi ini, berarti bukan A."
+    },
+    {
+      "start": 767.54,
+      "end": 773.54,
+      "text": "Kalau lokal first kan nggak seseklek itu ya, kayak contoh aja tadi misalnya apa yang disebut,"
+    },
+    {
+      "start": 773.54,
+      "end": 781.54,
+      "text": "yang dipropos oleh Maggie Appleton itu sesuatu yang dibuat untuk lokal kita sendiri"
+    },
+    {
+      "start": 781.54,
+      "end": 787.54,
+      "text": "atau lingkungan sekitar kita sendiri, kayak contohnya kiosk atau mungkin IoT."
+    },
+    {
+      "start": 787.54,
+      "end": 796.54,
+      "text": "Tapi misalnya yang salah satu, gue pribadi apa, pertama kali denger tentang istilah lokal first ini"
+    },
+    {
+      "start": 796.54,
+      "end": 803.54,
+      "text": "dari Linear. Linear itu aplikasi kita pernah bahas sekilas juga ya, 2 episode lalu,"
+    },
+    {
+      "start": 803.54,
+      "end": 808.54,
+      "text": "itu aplikasi semacam Jira lah untuk project management, tapi UI-heavy."
+    },
+    {
+      "start": 808.54,
+      "end": 814.54,
+      "text": "Itu pakai React, UI-heavy ya standar lah, tau kan, kalau tiket bisa digeser,"
+    },
+    {
+      "start": 814.54,
+      "end": 820.54,
+      "text": "bisa ada kayak waterfall timeline-nya. - Ada tambahan board-nya atau apa gitu ya."
+    },
+    {
+      "start": 820.54,
+      "end": 827.54,
+      "text": "- Itu yang saling nge-blocking ya, pokoknya emang UI-heavy banget, dan bisa dibayangin ya"
+    },
+    {
+      "start": 827.54,
+      "end": 832.54,
+      "text": "kalau aplikasi project management kemungkinan besar nggak dibikin oleh satu orang,"
+    },
+    {
+      "start": 832.54,
+      "end": 840.54,
+      "text": "nggak digunakan oleh satu orang, dan itu orang-orang yang menggunakan biasanya di lokasi yang berbeda-beda."
+    },
+    {
+      "start": 840.54,
+      "end": 847.54,
+      "text": "Jadi tetap ada central database-nya, tapi yang sea linear ini mengedepankan banget"
+    },
+    {
+      "start": 847.54,
+      "end": 854.54,
+      "text": "tentang konsep offline first, mungkin ya itu salah satu pengbeda mereka dari Jira"
+    },
+    {
+      "start": 854.54,
+      "end": 859.54,
+      "text": "atau software project management lain ya, dan karena itu pakai React,"
+    },
+    {
+      "start": 859.54,
+      "end": 865.54,
+      "text": "jadi mereka sering ngasih talk kayak di, apalah, React, Helsinki, Meetup, blablabla,"
+    },
+    {
+      "start": 865.54,
+      "end": 871.54,
+      "text": "tentang gimana mereka menghandle. Nah, tapi tetap aja, karena balik lagi itu kan sebetulnya"
+    },
+    {
+      "start": 871.54,
+      "end": 877.54,
+      "text": "kayak project management konvensional lainnya, tetap ada central database-nya,"
+    },
+    {
+      "start": 877.54,
+      "end": 884.54,
+      "text": "tapi ada juga, jadi ada kesamaan dan ada perbedaan dari konsep-konsep"
+    },
+    {
+      "start": 884.54,
+      "end": 890.54,
+      "text": "yang tadi dijelasin Ivan, seperti yang di-propos oleh Maggie Appleton, kayak semua jalan di lokal,"
+    },
+    {
+      "start": 890.54,
+      "end": 895.54,
+      "text": "jadi misalnya nggak selalu internet mati, tapi mungkin internet nggak lancar atau apalah,"
+    },
+    {
+      "start": 895.54,
+      "end": 901.54,
+      "text": "jadi nggak bolak-balik ngasih, lebih enak aja, lebih snack, kita ngetik, ngetik isi tiket,"
+    },
+    {
+      "start": 901.54,
+      "end": 906.54,
+      "text": "geser sana-sini secara periodik di sync, ada sync engine-nya."
+    },
+    {
+      "start": 906.54,
+      "end": 913.54,
+      "text": "Jadi maksudnya, tetap ada suatu kayak keunggulan dari filosofi local first itu,"
+    },
+    {
+      "start": 913.54,
+      "end": 918.54,
+      "text": "walaupun implementasinya, maksudnya kayak definisi untuk apanya, penggunaannya,"
+    },
+    {
+      "start": 918.54,
+      "end": 925.54,
+      "text": "nggak sakok-sakok banget dalam satu definisi yang sama kan sebenarnya itu agak, penampilannya agak berbeda,"
+    },
+    {
+      "start": 925.54,
+      "end": 932.54,
+      "text": "tapi ada keunggulan, kayak ada kesamaan-kesamaannya juga. Itu menarik sih."
+    },
+    {
+      "start": 932.54,
+      "end": 941.54,
+      "text": "Kayaknya Git juga local first, Git itu kan dibangun local first,"
+    },
+    {
+      "start": 941.54,
+      "end": 951.54,
+      "text": "karena semua kopi, semua di local kita kan di .git. Betul. Datanya, ya itu yang mau saya highlight adalah"
+    },
+    {
+      "start": 951.54,
+      "end": 961.54,
+      "text": "benar tadi setuju dengan pernyataan Ivan yang menyatakan bahwa bukan aplikasi yang tidak membutuhkan internet,"
+    },
+    {
+      "start": 961.54,
+      "end": 970.54,
+      "text": "internet pasti dibutuhkan, tapi lebih ke yang tadi ya ada, yang penggunaannya ya kita sendiri atau orang-orang terdekat,"
+    },
+    {
+      "start": 970.54,
+      "end": 976.54,
+      "text": "kemudian kalau saya lebih menghighlight lebih ke data ownership-nya."
+    },
+    {
+      "start": 976.54,
+      "end": 981.54,
+      "text": "Kemungkinan kalau kita menggunakan aplikasi yang local first, mungkin juga nggak."
+    },
+    {
+      "start": 981.54,
+      "end": 988.54,
+      "text": "Kayak misalkan kayak tadi yang dicontohkan Eka linear itu data ownership-nya bukan di kita,"
+    },
+    {
+      "start": 988.54,
+      "end": 995.54,
+      "text": "tapi tetap bisa kita pakai pada saat internetnya, misalkan kita lagi di pesawat misalkan,"
+    },
+    {
+      "start": 995.54,
+      "end": 997.54,
+      "text": "kita mau pindahin aja kita harus nunggu internet gitu kan."
+    },
+    {
+      "start": 997.54,
+      "end": 1006.54,
+      "text": "Contohnya lagi misalkan kayak pencatatan kayak note taking, misalkan Notion dibandingkan dengan Obsidian."
+    },
+    {
+      "start": 1006.54,
+      "end": 1013.54,
+      "text": "Notion butuh koneksi internet gitu kan. Kita mau edit-edit aja mungkin harus buka dulu kan,"
+    },
+    {
+      "start": 1013.54,
+      "end": 1020.54,
+      "text": "begitu kita buka harus dia loading dulu, dia synchronize datanya dulu baru kita bisa pakai walaupun misalkan offline bisa mungkin ya,"
+    },
+    {
+      "start": 1020.54,
+      "end": 1030.54,
+      "text": "tapi dalam waktu singkat gitu. Tapi kalau misalkan kayak Obsidian atau kayak Git tadi meskipun kita berada di apa nggak pakai koneksi sama sekali,"
+    },
+    {
+      "start": 1030.54,
+      "end": 1035.54,
+      "text": "ketika kita mau ubah baru kita push gitu kan. Obsidian juga sama, datanya ada di lokal kita,"
+    },
+    {
+      "start": 1035.54,
+      "end": 1044.54,
+      "text": "tapi kalau kita mau sync ya bisa gitu. Jadi lebih ke sana, lebih ke arah mungkin kalau ngomongin ya memang bukan hanya data,"
+    },
+    {
+      "start": 1044.54,
+      "end": 1050.54,
+      "text": "tapi kalau mau ngomongin data, datanya ada di lokal ada replikasinya juga di server."
+    },
+    {
+      "start": 1050.54,
+      "end": 1059.54,
+      "text": "Kayak Git kan kita mau push berarti kita butuh server kan, butuh hosting ya GitHub atau Bitbucket dan lain-lain."
+    },
+    {
+      "start": 1059.54,
+      "end": 1078.54,
+      "text": "Nah jadi kesamaannya itu ada faktor data, kita mengontrol data, ada faktor kayak UX kan, UX bahwa kita nggak bergantung pada koneksi internet"
+    },
+    {
+      "start": 1078.54,
+      "end": 1090.54,
+      "text": "dan nggak bolak-balik, harus mesing, pokoknya kita ngelakuin suatu action, suatu task tuh bisa dengan mudah lah sama alat yang kita punya, yang kita pakai."
+    },
+    {
+      "start": 1090.54,
+      "end": 1099.54,
+      "text": "Iya, kalau jaman dulu Evernote ya, tapi Evernote juga datanya ada di servernya mereka kan ya, sama kayak Notion ya."
+    },
+    {
+      "start": 1099.54,
+      "end": 1105.54,
+      "text": "Cuma Evernote itu kan nggak tahu dulu pakenya yang natif ya, nggak tahu kalau web appnya,"
+    },
+    {
+      "start": 1105.54,
+      "end": 1113.54,
+      "text": "kalau yang natif ya sebetulnya agak mirip Obsidian datanya kayak ada semacam tem di lokal,"
+    },
+    {
+      "start": 1113.54,
+      "end": 1120.54,
+      "text": "jadi kalau internet mati atau apa ya semua data kita di situ, di lokal."
+    },
+    {
+      "start": 1120.54,
+      "end": 1126.54,
+      "text": "Jadi kembali lagi kayak PWA ya?"
+    },
+    {
+      "start": 1127.54,
+      "end": 1138.54,
+      "text": "Iya, awal bukanya tetap butuh internet tapi setelah itu mungkin tetap butuh untuk syncing kalau aplikasinya butuh synchronization ya."
+    },
+    {
+      "start": 1138.54,
+      "end": 1143.54,
+      "text": "Jadi sebenarnya kuncinya itu ada di beberapa teknologi sebenarnya ya."
+    },
+    {
+      "start": 1143.54,
+      "end": 1148.54,
+      "text": "Yang pertama kalau misalkan butuh database ya, butuh database yang bisa jalan di lokal."
+    },
+    {
+      "start": 1148.54,
+      "end": 1158.54,
+      "text": "Ada local storage, ada remote storage, tapi remote storage-nya kan opsional kalau pake definisinya Maggie Appleton tadi."
+    },
+    {
+      "start": 1158.54,
+      "end": 1160.54,
+      "text": "Betul, betul."
+    },
+    {
+      "start": 1160.54,
+      "end": 1162.54,
+      "text": "Dan kalau di Bras, harus ada storage di lokal."
+    },
+    {
+      "start": 1162.54,
+      "end": 1179.54,
+      "text": "Ada IndexDB kan ya, nggak mesti harus pakai, apa yang kemarin lokal first, nggak ada satu lagi yang Lucene, bukan Lucene, yang database yang bisa untuk lokal."
+    },
+    {
+      "start": 1179.54,
+      "end": 1183.54,
+      "text": "Yang ada versi lokalnya, ada versi offline-nya, bukan on-line-nya."
+    },
+    {
+      "start": 1183.54,
+      "end": 1192.54,
+      "text": "CausedDB. CausedDB itu pouchedDB."
+    },
+    {
+      "start": 1192.54,
+      "end": 1201.54,
+      "text": "PouchedDB, kalau pouchedDB itu sebenarnya dia wrapper di atas IndexDB sebenarnya."
+    },
+    {
+      "start": 1201.54,
+      "end": 1204.54,
+      "text": "Cuman dengan sintasnya causedDB aja."
+    },
+    {
+      "start": 1204.54,
+      "end": 1208.54,
+      "text": "Memubahkan syncing kan, in case kita mousing."
+    },
+    {
+      "start": 1208.54,
+      "end": 1214.54,
+      "text": "Ada apa, ada mekanisme bagaimana caranya untuk mengatasi conflict, conflict resolution."
+    },
+    {
+      "start": 1214.54,
+      "end": 1220.54,
+      "text": "Istilah kerennya itu conflict free replicated data type, CRDT."
+    },
+    {
+      "start": 1220.54,
+      "end": 1222.54,
+      "text": "CRDT."
+    },
+    {
+      "start": 1222.54,
+      "end": 1238.54,
+      "text": "Jadi kalau misalnya ada conflict kan, kalau di Git itu kan kita harus manusia yang ngecek kan, oh ini yang kita ambil, ini yang kita buang gitu kan. Nah kalau CRDT itu ya secara otomatis gitu."
+    },
+    {
+      "start": 1238.54,
+      "end": 1246.54,
+      "text": "Yang mana yang ada mekanismenya, yang terbaru kah, atau yang apa gitu, ada macem-macem ya."
+    },
+    {
+      "start": 1246.54,
+      "end": 1255.54,
+      "text": "Nah itu sepertinya salah satu fitur yang apa ya, bisa dibilang inti ya dari local-verse."
+    },
+    {
+      "start": 1255.54,
+      "end": 1262.54,
+      "text": "Walaupun kalau, lagi-lagi kalau ikut definisinya Mike Giappolten tadi, yang nggak harus bisa aja, nggak harus di sini, ke mana pun, ke remote."
+    },
+    {
+      "start": 1262.54,
+      "end": 1265.54,
+      "text": "Tapi ya istilah rata-rata pada umumnya,"
+    },
+    {
+      "start": 1265.54,
+      "end": 1277.54,
+      "text": "kalau pun use case yang tadi kayak Antriana atau Kiosk at the end of the day, kemungkinan ada yang bakal meminta, membutuhkan apa, bisa aja ada yang ke sini."
+    },
+    {
+      "start": 1277.54,
+      "end": 1285.54,
+      "text": "Gak itu ke pusat kan, misalnya kita punya 100 cabang gitu, ya mungkin aja itu use case yang wajar banget."
+    },
+    {
+      "start": 1285.54,
+      "end": 1292.54,
+      "text": "Suatu saat, walaupun nggak harus terus menerus nih, nggak harus terus-terusan kayak linear, ya tetap aja ada kalanya perlu di sync."
+    },
+    {
+      "start": 1292.54,
+      "end": 1303.54,
+      "text": "Jadi kelihatannya sync teknologi untuk sync storage antara storage si lokal dan somewhere remote storage tuh kayaknya salah satu kuncian."
+    },
+    {
+      "start": 1303.54,
+      "end": 1308.54,
+      "text": "Betul. Kayak obsidian aja, obsidian kita pakai di lokal kan."
+    },
+    {
+      "start": 1308.54,
+      "end": 1314.54,
+      "text": "Tapi tetap butuh sync, syncnya juga ke handphone, ke device kita juga gitu."
+    },
+    {
+      "start": 1314.54,
+      "end": 1322.54,
+      "text": "Kita pusing kan, gitu kan. - Kan servernya obsidian, ke device kita yang satunya kan harus lewat server dia, server remote."
+    },
+    {
+      "start": 1322.54,
+      "end": 1332.54,
+      "text": "- Betul. Tapi untungnya karena dia pakai file system, kita bisa pakai kayak Google Drive, pakai Dropbox, atau pakai S3 gitu,"
+    },
+    {
+      "start": 1332.54,
+      "end": 1343.54,
+      "text": "kalau yang mau di cloud, atau macem-macem lah gitu. Dan CRDT-nya itu sudah dihandle sama aplikasi-aplikasi itu."
+    },
+    {
+      "start": 1343.54,
+      "end": 1348.54,
+      "text": "- Layanan yang kita pakai. - Layanan yang kita pakai. Jadi dia cuma nebeng aja."
+    },
+    {
+      "start": 1348.54,
+      "end": 1354.54,
+      "text": "- Nah, tapi kan obsidian juga premiumnya dia punya layanan cloud sendiri. - Ada sync, ya ada. Ada sync sendiri."
+    },
+    {
+      "start": 1354.54,
+      "end": 1360.54,
+      "text": "- Yang, maksudnya salah satu yang dijual keunggulannya adalah ya itu kayak nge-mungkin handling, apa?"
+    },
+    {
+      "start": 1360.54,
+      "end": 1368.54,
+      "text": "Jadi di HP kita bisa pakai aplikasi obsidian juga, yang mana mungkin user kan lebih udah familiar, lebih enak pakenya,"
+    },
+    {
+      "start": 1368.54,
+      "end": 1378.54,
+      "text": "editan kita di HP misalnya, dengan editan kita di laptop, ya si obsidiannya yang punya aplikasi proprietary"
+    },
+    {
+      "start": 1378.54,
+      "end": 1384.54,
+      "text": "yang nge-handling resolusi konflik antara data-data yang di sync itu, ya itu berbayar."
+    },
+    {
+      "start": 1384.54,
+      "end": 1392.54,
+      "text": "Maksudnya itu additional service kalau kita nggak mau pakai, kita mau nge-sync pakai Dropbox, atau bahkan pakai Git, atau pakai apapun."
+    },
+    {
+      "start": 1392.54,
+      "end": 1401.54,
+      "text": "Bisa, tetap bisa karena file system. Nah, tadi udah lah database, kemudian ada CRDT,"
+    },
+    {
+      "start": 1401.54,
+      "end": 1411.54,
+      "text": "Config Free Replicated Data Types, terus kalau yang berdasarkan definisi Ivan tadi yang digunakan oleh kita dan orang-orang sekitar,"
+    },
+    {
+      "start": 1411.54,
+      "end": 1425.54,
+      "text": "berarti itu butuh protokol untuk koneksi peer-to-peer. Entah itu pakai WebRTC, atau WebSocket, atau ada satu database juga"
+    },
+    {
+      "start": 1425.54,
+      "end": 1431.54,
+      "text": "yang memang tujuannya untuk itu, dulu kayaknya sempat hype deh namanya GunJS, ada yang tau nggak?"
+    },
+    {
+      "start": 1431.54,
+      "end": 1443.54,
+      "text": "Gun, wepon-wepon GunJS. Gun, Gun itu kan JavaScript engine. Namanya hidup-hidup semua sih."
+    },
+    {
+      "start": 1443.54,
+      "end": 1460.54,
+      "text": "Ya, bentar ya kita share. Ini decentralized database. Dulu ini lumayan red juga karena benar-benar bisa diakses"
+    },
+    {
+      "start": 1460.54,
+      "end": 1472.54,
+      "text": "di front-end dan bisa sync tanpa perlu server, dan kalau ada server, dia bisa sync. Jadi kayak cause DB dan post DB juga."
+    },
+    {
+      "start": 1472.54,
+      "end": 1479.54,
+      "text": "- Lama-lama kita jadi web tree dong ya. - Ini kan dia udah nulis nih, distributed ad."
+    },
+    {
+      "start": 1479.54,
+      "end": 1485.54,
+      "text": "Kayaknya dia peruntukannya kesana ya. We're going to build a peer-to-peer the app."
+    },
+    {
+      "start": 1485.54,
+      "end": 1492.54,
+      "text": "Oh sekarang namanya gun.eco. Udah beda lagi namanya."
+    },
+    {
+      "start": 1492.54,
+      "end": 1503.54,
+      "text": "Ya nggak, itu domain-nya doang. Masih active nggak sih? Masih active."
+    },
+    {
+      "start": 1503.54,
+      "end": 1505.54,
+      "text": "Oh iya, coba kita lihat ya, udah berapa apa ini."
+    },
+    {
+      "start": 1505.54,
+      "end": 1515.54,
+      "text": "Documetation GitHub. Masih active nggak ya? 2 bulan yang lalu. - Oh masih, tapi ritminya doang sih."
+    },
+    {
+      "start": 1515.54,
+      "end": 1521.54,
+      "text": "Tapi ya lumayan lah, active. - Open-source cybersecurity protocol for syncing."
+    },
+    {
+      "start": 1521.54,
+      "end": 1528.54,
+      "text": "- Ya hooknya sih 9 tahun, tapi ya nggak apa-apa. Kalau source-nya tahun lalu."
+    },
+    {
+      "start": 1528.54,
+      "end": 1533.54,
+      "text": "- Tahun lalu. Oh udah nggak begitu ya berarti. Nggak terlalu active lah ya."
+    },
+    {
+      "start": 1533.54,
+      "end": 1539.54,
+      "text": "- Tapi mungkin ya... - Puritasnya masih banyak, tapi nggak dimers."
+    },
+    {
+      "start": 1539.54,
+      "end": 1544.54,
+      "text": "- Mungkin itu ini kali. Apa namanya, coba kalau diklik bisa jadi itu."
+    },
+    {
+      "start": 1544.54,
+      "end": 1549.54,
+      "text": "Oh bukan, gue kira ini. Apa namanya yang dependable."
+    },
+    {
+      "start": 1549.54,
+      "end": 1553.54,
+      "text": "- Oh dependable semua. - Gak ada nih."
+    },
+    {
+      "start": 1553.54,
+      "end": 1557.54,
+      "text": "- Gak ada, nggak ada. Disini juga banyak."
+    },
+    {
+      "start": 1560.54,
+      "end": 1570.54,
+      "text": "Oke, lanjut lanjut. Berarti itu tadi ya, jadi ada untuk koneksi peer-to-peer."
+    },
+    {
+      "start": 1570.54,
+      "end": 1577.54,
+      "text": "Berarti bisa pakai ini juga dong. Ini nggak tahu ya ceritanya benar atau nggak kabarnya."
+    },
+    {
+      "start": 1577.54,
+      "end": 1582.54,
+      "text": "Spotify itu menggunakan peer-to-peer seperti torrent."
+    },
+    {
+      "start": 1582.54,
+      "end": 1593.54,
+      "text": "Jadi kalau misalkan kita muter musik yang A, terus ada mungkin tetangga kita atau orang di dekat kita itu jauh lebih cepat karena kita udah pernah download."
+    },
+    {
+      "start": 1593.54,
+      "end": 1603.54,
+      "text": "- Itu kan jamannya dulu, sebelum Spotify, apa ya jamannya dulu? - Napster."
+    },
+    {
+      "start": 1603.54,
+      "end": 1613.54,
+      "text": "- Napster itu kan? - Iya, modelnya kayak gitu. Cuman kan ini kan dibungkus biar nggak kelihatan seperti, biar nggak kelihatan illegal gitu."
+    },
+    {
+      "start": 1613.54,
+      "end": 1623.54,
+      "text": "Nggak bisa di-download kan sebenarnya kan. File-nya ya kalau dicari mungkin bisa, tapi susah, sulit."
+    },
+    {
+      "start": 1623.54,
+      "end": 1633.54,
+      "text": "Tapi kan sebenarnya kalau legal-illegal cuma perkara kayak hak-haknya darin aja kan, tapi teknologinya, teknisnya itu gimana ya?"
+    },
+    {
+      "start": 1633.54,
+      "end": 1641.54,
+      "text": "Teknisnya, kan torrent itu dipakai untuk share file-file ukuran besar kan, kayak distro, ores."
+    },
+    {
+      "start": 1641.54,
+      "end": 1649.54,
+      "text": "Ukuran kecil juga bisa. Bisa-bisa jadi torrent server sekarang, mas Rizal sedot untuk file-file yang legal misalnya nggak masalah."
+    },
+    {
+      "start": 1649.54,
+      "end": 1658.54,
+      "text": "- Itu nggak masalah, betul. - Cuma misalnya aplikasi torrent kan kita emang masukin, kita buka direktori lokal kita,"
+    },
+    {
+      "start": 1658.54,
+      "end": 1664.54,
+      "text": "itu emang di-upload kan, jadi internetnya harus kita nyalain juga kan, harus kita jual."
+    },
+    {
+      "start": 1664.54,
+      "end": 1670.54,
+      "text": "Nah berarti Spotify itu kayak semacam dia bikin kayak temporary atau cache diri di lokal kita,"
+    },
+    {
+      "start": 1670.54,
+      "end": 1677.54,
+      "text": "itu tuh kalau misalnya kita idle atau nggak ngapa-ngapain, dia berarti ngirim terus kan, maksudnya sambil nge-upload kan."
+    },
+    {
+      "start": 1677.54,
+      "end": 1686.54,
+      "text": "Ya nggak tahu coba siapa yang pakai Spotify. Coba teman-teman yang pakai Spotify, install Wireshark dulu."
+    },
+    {
+      "start": 1686.54,
+      "end": 1691.54,
+      "text": "- Nanti gue coba sih. - Lihat traffic yang lewat."
+    },
+    {
+      "start": 1691.54,
+      "end": 1700.54,
+      "text": "- Lihat di-slidikin aja, tapi K-Pop nanti coba. - Sekarang nggak tahu masih seperti itu"
+    },
+    {
+      "start": 1700.54,
+      "end": 1704.54,
+      "text": "atau dia udah pakai mekanisme lain, tapi dulu kabarnya seperti itu."
+    },
+    {
+      "start": 1704.54,
+      "end": 1709.54,
+      "text": "- Yang saya tahu Youtube begitu. - Youtube begitu?"
+    },
+    {
+      "start": 1709.54,
+      "end": 1718.54,
+      "text": "- Tapi bukan Youtube-nya menyediakan, tetapi si provider internet, contohnya provider internet yang kayak.."
+    },
+    {
+      "start": 1718.54,
+      "end": 1726.54,
+      "text": "- Akamai? - Nggak, kayak indie, provider indie internet."
+    },
+    {
+      "start": 1726.54,
+      "end": 1736.54,
+      "text": "- Piring-piring itu, islinya Piri itu dia taro sesuatu di server, di ISP, internet service provider."
+    },
+    {
+      "start": 1736.54,
+      "end": 1741.54,
+      "text": "- ISP biasanya di daerah mana? - Oh biar cepat."
+    },
+    {
+      "start": 1741.54,
+      "end": 1747.54,
+      "text": "- Youtube-nya di-cache sama dia pakai Switch. - Oh iya benar-benar, itu juga."
+    },
+    {
+      "start": 1747.54,
+      "end": 1755.54,
+      "text": "- Itu lucu juga sih. - Ini konsepnya kayak CDN kali ya, tapi jadi lebih dekat gitu ya."
+    },
+    {
+      "start": 1755.54,
+      "end": 1762.54,
+      "text": "- Iya jadi per-neighborhood gitu. - Iya per data center."
+    },
+    {
+      "start": 1762.54,
+      "end": 1770.54,
+      "text": "- Ya kalau jaman saya dulu, jaman saya di kantor, saya suka pakai Squid."
+    },
+    {
+      "start": 1770.54,
+      "end": 1776.54,
+      "text": "- Squid, pernah denger? - Nggak pernah, dengernya Squid Game."
+    },
+    {
+      "start": 1776.54,
+      "end": 1788.54,
+      "text": "- Squid network proxy, eh salah saya yang percaya, squid cache itu jaman saya, jadi supaya saya mempercepat internet kantor dulu,"
+    },
+    {
+      "start": 1788.54,
+      "end": 1796.54,
+      "text": "saya pakai squid network proxy, jadi semua internet itu melewati squid proxy dulu di cache,"
+    },
+    {
+      "start": 1796.54,
+      "end": 1800.54,
+      "text": "jadi kalau ada yang Facebookan, ada yang Youtube-an segala macam."
+    },
+    {
+      "start": 1800.54,
+      "end": 1806.54,
+      "text": "- Halaman Facebook-nya sama? Oh nggak? - Nggak, tapi aset-asetnya aja."
+    },
+    {
+      "start": 1806.54,
+      "end": 1811.54,
+      "text": "- Aset-asetnya itu jadi jauh lebih cepat, karena CDN-nya di kantor lah ya."
+    },
+    {
+      "start": 1811.54,
+      "end": 1816.54,
+      "text": "- Iya udah pernah di-download, iya iya iya. - Berarti itu omak first to be..."
+    },
+    {
+      "start": 1816.54,
+      "end": 1824.54,
+      "text": "- Iya dulu pakai juga di kantor sih. - Nggak tahu jaman-jaman masih memakainya yang ginian."
+    },
+    {
+      "start": 1824.54,
+      "end": 1831.54,
+      "text": "Ini teknologi 20 tahun lalu ini. - Ini masih aktif nggak sih?"
+    },
+    {
+      "start": 1831.54,
+      "end": 1834.54,
+      "text": "- Nggak tahu. - Dia open source nggak?"
+    },
+    {
+      "start": 1834.54,
+      "end": 1837.54,
+      "text": "- Open source? - Open source kan ya?"
+    },
+    {
+      "start": 1837.54,
+      "end": 1844.54,
+      "text": "- GENU GPL tuh jelas tuh dia tulis tuh. - Mana itunya source-nya?"
+    },
+    {
+      "start": 1844.54,
+      "end": 1854.54,
+      "text": "- Iya source-nya mana? - Dia mana pakai github mas? - Iya kan ada kan?"
+    },
+    {
+      "start": 1854.54,
+      "end": 1861.54,
+      "text": "- Mak github itu dari tahun berapa sih? - Mereka pakai, nggak tahu pakai apa ya."
+    },
+    {
+      "start": 1861.54,
+      "end": 1869.54,
+      "text": "- Maksudnya ada source-nya nggak kelihatan di share gaya?"
+    },
+    {
+      "start": 1869.54,
+      "end": 1877.54,
+      "text": "Coba lihat aja bugzilla database. - Bugzilla database."
+    },
+    {
+      "start": 1877.54,
+      "end": 1884.54,
+      "text": "- Dia terakhir ininya kosong. - Udah nggak ada bugs."
+    },
+    {
+      "start": 1884.54,
+      "end": 1891.54,
+      "text": "- Gak ada bugs bisa berarti... - Paling bawah tadi ada developer resource."
+    },
+    {
+      "start": 1891.54,
+      "end": 1897.54,
+      "text": "- Bisa berarti nggak ada yang pakai. - Paling bawah itu support developer resources."
+    },
+    {
+      "start": 1897.54,
+      "end": 1902.54,
+      "text": "- Ini selenius developer resource. - Tuh kiri-kiri atas."
+    },
+    {
+      "start": 1902.54,
+      "end": 1909.54,
+      "text": "- Oke kodnya dimana tuh? - Repository github."
+    },
+    {
+      "start": 1909.54,
+      "end": 1913.54,
+      "text": "- Oh github? - Dua hari yang lalu."
+    },
+    {
+      "start": 1913.54,
+      "end": 1917.54,
+      "text": "- Masih dia maintain, masih aktif. - Dua hari yang lalu gile, mantap."
+    },
+    {
+      "start": 1917.54,
+      "end": 1924.54,
+      "text": "- Amanko itu scriptnya 3 minggu lalu. - Tapi pakai macbook-nya M4."
+    },
+    {
+      "start": 1924.54,
+      "end": 1931.54,
+      "text": "- M4 itu apa ya? - M4, nggak tahu apa itu."
+    },
+    {
+      "start": 1931.54,
+      "end": 1936.54,
+      "text": "- Ada C++ ada C++. - Request, tapi nggak ada isu ya."
+    },
+    {
+      "start": 1936.54,
+      "end": 1940.54,
+      "text": "Dia nggak nerima isu. Kalau mau langsung request aja."
+    },
+    {
+      "start": 1940.54,
+      "end": 1944.54,
+      "text": "- Mereka isunya mungkin mailing list kali. - Iya mailing list."
+    },
+    {
+      "start": 1944.54,
+      "end": 1951.54,
+      "text": "Versi 6 minggu yang lalu. Berarti masih banyak yang pakai."
+    },
+    {
+      "start": 1951.54,
+      "end": 1957.54,
+      "text": "- Tuh dari tahun 1996 tuh. - Tapi copyrightnya nggak diganti sampe tahun 2023."
+    },
+    {
+      "start": 1957.54,
+      "end": 1963.54,
+      "text": "- Nggak bisa dinamis ya gantinya? - Nggak bisa pake variable."
+    },
+    {
+      "start": 1963.54,
+      "end": 1983.54,
+      "text": "Jadi kayak gitu lah ya ada yang di cage, youtube taruhnya mungkin di ESP, kalau misalkan aplikasi musik mungkin peer-to-peer supaya kalau ada satu orang yang sudah pernah mendengarkan"
+    },
+    {
+      "start": 1983.54,
+      "end": 1990.54,
+      "text": "jadi dia downloadnya ke kita aja, semakin populer musiknya semakin cepat ya di play gitu ya."
+    },
+    {
+      "start": 1990.54,
+      "end": 2002.54,
+      "text": "Itu kan ada filmnya kan ya? Si Spotify itu ada ceritanya difilmkan antara fiksi atau non-fiksi gitu lah pokoknya."
+    },
+    {
+      "start": 2002.54,
+      "end": 2009.54,
+      "text": "- Tapi berarti itu udah keluar dari paradigma lokal first juga ya? - Iya itu bukan lokal first."
+    },
+    {
+      "start": 2009.54,
+      "end": 2014.54,
+      "text": "- Karena bergantung ke banyak spot yang seeding. - Itu bukan lokal first, tapi dia lebih ke..."
+    },
+    {
+      "start": 2014.54,
+      "end": 2021.54,
+      "text": "Gimana caranya musiknya nggak buffer gitu, dia menyelesaikan masalah itu."
+    },
+    {
+      "start": 2021.54,
+      "end": 2028.54,
+      "text": "- Itu sebetulnya cuma take over kan dulu Napster, Kaza, bukan banyak musik cuman dulu semua kayak gitu."
+    },
+    {
+      "start": 2028.54,
+      "end": 2038.54,
+      "text": "Cuma bedanya cuma sumber kontennya aja kan. Kalo dulu tuh jadi ilegal karena kan kita nge-share file mp3 yang kita punya."
+    },
+    {
+      "start": 2038.54,
+      "end": 2047.54,
+      "text": "Karena secara hukum kan kita nggak authorize buat ngebagiin itu, ya maksudnya masuk ranah virus sih."
+    },
+    {
+      "start": 2047.54,
+      "end": 2056.54,
+      "text": "Cuma kalau dalam kasus Spotify kan dari awal bisa punya file itu juga dari Spotify kan, yang mana Spotify udah punya dealing legalnya."
+    },
+    {
+      "start": 2056.54,
+      "end": 2069.54,
+      "text": "Jadi Napster itu dianggap ilegal karena banyak yang share adalah file, banyak yang nge-share musik-musik yang bukan free royalty."
+    },
+    {
+      "start": 2069.54,
+      "end": 2079.54,
+      "text": "- Iya, kalau dulu kita beda masukin folder kita sendiri. Napsternya cuma bikin teknologinya, tapi memfasilitasi kan."
+    },
+    {
+      "start": 2079.54,
+      "end": 2088.54,
+      "text": "Yang waktu awal-awal misalnya diperhentukan kayak semuanya bebas membagikan musik yang mereka buat sebenarnya."
+    },
+    {
+      "start": 2088.54,
+      "end": 2094.54,
+      "text": "Contohnya kayak indie, kayak DJ, indie kreator."
+    },
+    {
+      "start": 2094.54,
+      "end": 2102.54,
+      "text": "- Ya atau kita bikin apa misalnya pribadi, buat keperluan pribadi kita bikin lagu sendiri, ya boleh-boleh aja kan kita bagi ke temen atau siapa pun."
+    },
+    {
+      "start": 2102.54,
+      "end": 2110.54,
+      "text": "Contohnya kalau dulu saya suka nonton film itu di Popcorn Desktop, pernah dengar? Popcorn Time."
+    },
+    {
+      "start": 2110.54,
+      "end": 2117.54,
+      "text": "Popcorn Time itu juga salah satu pir-pir yang bisa langsung nonton."
+    },
+    {
+      "start": 2117.54,
+      "end": 2122.54,
+      "text": "- Oh, itu toren bukan bass-nya? - Iya, toren bass."
+    },
+    {
+      "start": 2122.54,
+      "end": 2132.54,
+      "text": "- Bass kan? - Sama. Kalau Napster kan music bass, kalau Popcorn Time dia movie bass."
+    },
+    {
+      "start": 2132.54,
+      "end": 2138.54,
+      "text": "Dan itu aplikasinya masih ada di GitHub dan bebas-bebas aja."
+    },
+    {
+      "start": 2138.54,
+      "end": 2146.54,
+      "text": "Ya tergantung kalau misalnya mau nontonnya yang film berbayar ditonton di situ bisa, asal tahu cara."
+    },
+    {
+      "start": 2146.54,
+      "end": 2151.54,
+      "text": "- Mau yang royalty free juga bisa. - Yang royalty free juga bisa."
+    },
+    {
+      "start": 2151.54,
+      "end": 2162.54,
+      "text": "- Oke. Nah, ini ada yang nggak kebayang bikin sing engine. Kalau bukan SBA plus Jason."
+    },
+    {
+      "start": 2162.54,
+      "end": 2166.54,
+      "text": "- Itu tadi harus pakai CRDT. - Ya CRDT."
+    },
+    {
+      "start": 2166.54,
+      "end": 2173.54,
+      "text": "- Nah, yang sulit itu kan, jadi balik ke local first lagi kayak misalnya kan harus ngecek,"
+    },
+    {
+      "start": 2173.54,
+      "end": 2181.54,
+      "text": "kayak div, berarti kan misalnya ada konflik, yang pertama kita cari kan perbedaannya, terus kayak timestampnya."
+    },
+    {
+      "start": 2181.54,
+      "end": 2187.54,
+      "text": "- Salah. Sorry, sorry. - Lanjut, lanjut, lanjut."
+    },
+    {
+      "start": 2187.54,
+      "end": 2192.54,
+      "text": "- Apa ya? Cuma definisi sing engine sendiri apa sih?"
+    },
+    {
+      "start": 2192.54,
+      "end": 2198.54,
+      "text": "- Nah, sebelum ke sing engine nih ada framework untuk CRDT. Salah satunya ada JS."
+    },
+    {
+      "start": 2198.54,
+      "end": 2202.54,
+      "text": "- Saya pernah sampaikan ini kan ya. - Pernah ya?"
+    },
+    {
+      "start": 2202.54,
+      "end": 2207.54,
+      "text": "- Dulu. Pernah. Waktu saya lagi bangun bikin collaborative editing di WordPress."
+    },
+    {
+      "start": 2207.54,
+      "end": 2218.54,
+      "text": "- Oh iya, collaborative editing ini cocok. Jadi pada saat user A lagi ngetik, user B juga ngetik di tempat yang berbeda,"
+    },
+    {
+      "start": 2218.54,
+      "end": 2226.54,
+      "text": "gimana cara resolusi supaya bisa jadi merge dua-duanya, nggak hilang datanya."
+    },
+    {
+      "start": 2226.54,
+      "end": 2234.54,
+      "text": "Karena kan berada di lokasi dan mengedit hal yang berbeda, tapi masih satu dokumen."
+    },
+    {
+      "start": 2234.54,
+      "end": 2242.54,
+      "text": "- Nah, itu div-nya pusing apa, ngecek difference-nya misalnya gini deh, ngedit string aja, ada kata saya,"
+    },
+    {
+      "start": 2242.54,
+      "end": 2251.54,
+      "text": "S-A-Y-A. Nah, user A nggak ubah kata saya, string S-A-Y-A-nya tetap, tapi dia masukin kursor di ujung kata saya,"
+    },
+    {
+      "start": 2251.54,
+      "end": 2262.54,
+      "text": "saya ditambahin ND jadi sayang. Nah, sedangkan user satunya nggak hapus itu, kan itu kayak dua action yang berbeda sama sekali,"
+    },
+    {
+      "start": 2262.54,
+      "end": 2267.54,
+      "text": "itu div-nya pusing ya, itu di handle sama framework-nya berarti."
+    },
+    {
+      "start": 2267.54,
+      "end": 2275.54,
+      "text": "- Salah satunya ya. - Caranya kalau, saya lagi nyari videonya, kok nggak kelihatan sih kalau lagi begini."
+    },
+    {
+      "start": 2275.54,
+      "end": 2286.54,
+      "text": "- Google Style Editing in Gutenberg, ini? - Kayak gitu, saya belum pernah publish ini."
+    },
+    {
+      "start": 2286.54,
+      "end": 2292.54,
+      "text": "- Oh, demo-nya di sini. - Di Code Mirror bisa, kalau mau di test."
+    },
+    {
+      "start": 2292.54,
+      "end": 2304.54,
+      "text": "- Secara teknis di belakang, itu dia lakukan seperti per-commit, jadi semua..."
+    },
+    {
+      "start": 2304.54,
+      "end": 2317.54,
+      "text": "semua text itu akan dijadikan vector, jadi graph, dan itu waktu ada perubahan di-commit dan perubahan itu"
+    },
+    {
+      "start": 2317.54,
+      "end": 2326.54,
+      "text": "akan digabung ke vector-vector itu, jadi bisa, misalnya kayak Eka tadi bilang ini S-A-Y-A,"
+    },
+    {
+      "start": 2326.54,
+      "end": 2334.54,
+      "text": "tambah N-G, tapi di tengah S-A, itu ditambahin satu, jadi S-A satu yang itu bisa, itu bisa di-merge kayak gitu."
+    },
+    {
+      "start": 2334.54,
+      "end": 2340.54,
+      "text": "- Karena setiap ada perubahan, dianggap sebagai satu commit gitu ya? - Kayak ada snapshot,"
+    },
+    {
+      "start": 2340.54,
+      "end": 2345.54,
+      "text": "jadi kayaknya dia bikin snapshot kayak di Git gitu kan, setiap di tengah save file."
+    },
+    {
+      "start": 2345.54,
+      "end": 2354.54,
+      "text": "- Ada, nanti di sini, di CRDT Implementation-nya itu dia ada dua paper yang dia terbikin bagaimana cara..."
+    },
+    {
+      "start": 2354.54,
+      "end": 2356.54,
+      "text": "- Pake paper. - Algoritm."
+    },
+    {
+      "start": 2356.54,
+      "end": 2360.54,
+      "text": "- Iya, udah pake paper-nya. - Harus pake paper sih, karena ada algoritmanya,"
+    },
+    {
+      "start": 2360.54,
+      "end": 2364.54,
+      "text": "kan maksudnya ada logic-nya sendiri kan, itu tadi kan kita cuma..."
+    },
+    {
+      "start": 2364.54,
+      "end": 2371.54,
+      "text": "- Itu kalau mau, kita mau demo, mencet aja tuh demonya. Salah satu demonya mungkin,"
+    },
+    {
+      "start": 2371.54,
+      "end": 2386.54,
+      "text": "Prosmirror atau Codemirror atau Seradeh. Coba kasih link-nya ke temen-temen atau ke kita."
+    },
+    {
+      "start": 2386.54,
+      "end": 2393.54,
+      "text": "- Ayo kita ketik sama-sama, oh ini ada orang lain muncul kan ya?"
+    },
+    {
+      "start": 2393.54,
+      "end": 2399.54,
+      "text": "- Iya, semua yang ketik disana. - Semua yang lagi nonton kita."
+    },
+    {
+      "start": 2399.54,
+      "end": 2409.54,
+      "text": "- Selamat malam Mas Ricky. - Apus lah."
+    },
+    {
+      "start": 2409.54,
+      "end": 2419.54,
+      "text": "- Nah, cursor itu juga nanti namanya Awareness. Jadi ada datanya ada dua nih di sini."
+    },
+    {
+      "start": 2419.54,
+      "end": 2427.54,
+      "text": "Datanya ada data content sama data awareness. Awareness inilah yang membuat user."
+    },
+    {
+      "start": 2427.54,
+      "end": 2438.54,
+      "text": "Jadi EKA user-nya yang mana, cursor-nya yang mana, itu yang akan mengirimkan datanya."
+    },
+    {
+      "start": 2438.54,
+      "end": 2444.54,
+      "text": "- Ini local storage bukan? - Mungkin ada local storage-nya."
+    },
+    {
+      "start": 2444.54,
+      "end": 2449.54,
+      "text": "- Nggak ada. - Ini ada 3 binder, ada binder-nya."
+    },
+    {
+      "start": 2449.54,
+      "end": 2459.54,
+      "text": "- Ah Firebase, local storage DB. Waduh, waduh, waduh. - Itu pakai apa sih? Websocket?"
+    },
+    {
+      "start": 2459.54,
+      "end": 2463.54,
+      "text": "- Nggak ada, nggak ada. - Bisa jadi pakai Websocket."
+    },
+    {
+      "start": 2463.54,
+      "end": 2472.54,
+      "text": "- Tapi cepet banget. - Dia bisa WebRTC juga."
+    },
+    {
+      "start": 2472.54,
+      "end": 2479.54,
+      "text": "- Oh iya, Websocket. Ini mesejnya tuh. Tapi pakai binary dia, nggak bisa dibaca."
+    },
+    {
+      "start": 2479.54,
+      "end": 2485.54,
+      "text": "- Wow. - Siapa sih yang bikin subscribe, guys, subscribe, guys, subscribe, guys?"
+    },
+    {
+      "start": 2485.54,
+      "end": 2489.54,
+      "text": "- Bukan gue. - Nggak tahu."
+    },
+    {
+      "start": 2489.54,
+      "end": 2500.54,
+      "text": "- Oke, sudah, sudah, sudah. Lanjut, lanjut, lanjut pembahasannya."
+    },
+    {
+      "start": 2500.54,
+      "end": 2509.54,
+      "text": "- Nah itu untuk ini tadi ya, kalau misalnya mau synchronize, bisa pakai Yjs."
+    },
+    {
+      "start": 2509.54,
+      "end": 2515.54,
+      "text": "Pakainya nggak straightforward, harus kalian bikin binder-nya sendiri, binding-nya."
+    },
+    {
+      "start": 2515.54,
+      "end": 2526.54,
+      "text": "Ada caranya API-nya ada, sudah lengkap bagus, dokumentasinya bagus."
+    },
+    {
+      "start": 2526.54,
+      "end": 2535.54,
+      "text": "Tapi momenya itu nanti saat mulai memikirkan user-nya banyak, gimana, artist-nya gimana,"
+    },
+    {
+      "start": 2535.54,
+      "end": 2541.54,
+      "text": "synchronize apa, scaling-nya, scaling, scaling susah."
+    },
+    {
+      "start": 2541.54,
+      "end": 2549.54,
+      "text": "Dan kadang dia ada nge-bug, kalau misalnya dia nggak bisa conflict, sudah terlalu ribet conflict resolution-nya,"
+    },
+    {
+      "start": 2549.54,
+      "end": 2559.54,
+      "text": "dia akan reset ke initial state. - Kok harus reset?"
+    },
+    {
+      "start": 2559.54,
+      "end": 2567.54,
+      "text": "- Dia udah bingung. Nah, udah. - Menarik."
+    },
+    {
+      "start": 2567.54,
+      "end": 2574.54,
+      "text": "- Macau juga ya. - Ke initial state sebelum ini ya, sebelum session itu dimulai ya, maksudnya."
+    },
+    {
+      "start": 2574.54,
+      "end": 2583.54,
+      "text": "- Ya, kalau mulai dari kosong, enggak. - Iya, maksudnya initial state, kan."
+    },
+    {
+      "start": 2583.54,
+      "end": 2589.54,
+      "text": "- Initial waktu kita nggak initialize objek Yjs. - Aplikasi itu."
+    },
+    {
+      "start": 2589.54,
+      "end": 2594.54,
+      "text": "- Iya, ibaratnya kosong, misalnya kita collaborative editing, kita udah nulis 3 paragraf,"
+    },
+    {
+      "start": 2594.54,
+      "end": 2601.54,
+      "text": "cuma maksudnya pada reset ngeditnya, berarti kan itu kayak kosong lagi kan, kalau skenario-nya gitu."
+    },
+    {
+      "start": 2601.54,
+      "end": 2606.54,
+      "text": "- Bisa diakalin dengan autosave, kan bisa. - Oh, ada autosave-nya."
+    },
+    {
+      "start": 2606.54,
+      "end": 2612.54,
+      "text": "- Kalau misalnya ada fallback-nya, ada masalah, dia reset, ambil lah yang dari local storage."
+    },
+    {
+      "start": 2612.54,
+      "end": 2616.54,
+      "text": "- Ya, dan itu kita yang nge-handle sendiri, kan? - Iya."
+    },
+    {
+      "start": 2616.54,
+      "end": 2623.54,
+      "text": "- Ada fitur autosave-nya, tapi untuk ngaktifkan input dan manage fitur kemana."
+    },
+    {
+      "start": 2623.54,
+      "end": 2633.54,
+      "text": "- Iya, ini adalah contoh video yang lumayan bagus tentang Yjs, dia bikin aplikasi to-do,"
+    },
+    {
+      "start": 2633.54,
+      "end": 2639.54,
+      "text": "tapi bisa offline dan real-time pakai Phoenix Live View, Svelte dan Gjs."
+    },
+    {
+      "start": 2639.54,
+      "end": 2644.54,
+      "text": "Siapa tahu ada yang mau lihat gimana kira penggunaannya."
+    },
+    {
+      "start": 2644.54,
+      "end": 2650.54,
+      "text": "- Oh, ini nggak bisa dihilangin ya? Oh, gini ya. - Mau dong, gue mau belajar Phoenix,"
+    },
+    {
+      "start": 2650.54,
+      "end": 2656.54,
+      "text": "gue mau belajar Svelte. - Nah, ini di sini dia ada kasih lihat nih contohnya nih,"
+    },
+    {
+      "start": 2656.54,
+      "end": 2660.54,
+      "text": "to-do yang di kiri, yang di kanan itu bisa sync, kalau lagi offline gimana,"
+    },
+    {
+      "start": 2660.54,
+      "end": 2667.54,
+      "text": "terus kalau dia update lewat API, ininya berubah langsung gimana,"
+    },
+    {
+      "start": 2667.54,
+      "end": 2672.54,
+      "text": "jadi bisa kalau ada yang mau belajar Yjs juga bisa cek di video ini."
+    },
+    {
+      "start": 2672.54,
+      "end": 2683.54,
+      "text": "- Oke. - Keren, keren. - Nah, selain selanjutnya, tadi kan conflict resolution-nya,"
+    },
+    {
+      "start": 2683.54,
+      "end": 2688.54,
+      "text": "terus juga ya ini tadi, apa namanya, sync engine jadinya, larinya ke sync engine,"
+    },
+    {
+      "start": 2688.54,
+      "end": 2696.54,
+      "text": "salah satunya ya Zero, ada Electric SQL, ada Power Sync, ada macem-macem."
+    },
+    {
+      "start": 2696.54,
+      "end": 2702.54,
+      "text": "Dan itu udah termasuk conflict resolution nggak? - Nggak, conflict resolution itu beda."
+    },
+    {
+      "start": 2702.54,
+      "end": 2704.54,
+      "text": "- Nggak ya? - Oh, nggak tahu, kalau Zero bisa conflict."
+    },
+    {
+      "start": 2704.54,
+      "end": 2706.54,
+      "text": "- Beda sendiri? - Saya nggak tahu."
+    },
+    {
+      "start": 2706.54,
+      "end": 2710.54,
+      "text": "- Kalau Zero nggak tahu, tapi kalau Power Sync sama Electric SQL, udah ada fitur itunya."
+    },
+    {
+      "start": 2710.54,
+      "end": 2718.54,
+      "text": "- Iya, kalau nggak salah sih, mungkin beberapa ada, beberapa yang mungkin nggak ada gitu ya,"
+    },
+    {
+      "start": 2718.54,
+      "end": 2727.54,
+      "text": "harus di cek juga. Ini Power Sync, dia database-nya, kayaknya selama SQL aman ya database-nya,"
+    },
+    {
+      "start": 2727.54,
+      "end": 2732.54,
+      "text": "ini ada gambar apa nih, monggo dibi, ada ikan paus apa nih, oh pausnya dia ada,"
+    },
+    {
+      "start": 2732.54,
+      "end": 2738.54,
+      "text": "MySQL ya, MySQL. Berarti database yang umum digunakan, tapi dia menggunakan SQLite"
+    },
+    {
+      "start": 2738.54,
+      "end": 2746.54,
+      "text": "sebagai embedded database-nya di lokal, iya. - Jadi dia agnostik, apa teknologi agnostik lah"
+    },
+    {
+      "start": 2746.54,
+      "end": 2752.54,
+      "text": "ibaratnya di lokalnya, kita mau bikin pakai set-up yang umum lah,"
+    },
+    {
+      "start": 2752.54,
+      "end": 2760.54,
+      "text": "yang penting bisa nulis ke SQLite. Dan kalau Power Sync itu, sempat lihat-lihat sih,"
+    },
+    {
+      "start": 2760.54,
+      "end": 2767.54,
+      "text": "senang karena dokumentasinya bagus aja, kayak relatif, mudah dimengerti, web dev,"
+    },
+    {
+      "start": 2767.54,
+      "end": 2772.54,
+      "text": "terutama yang front-end ya, yang nggak biasa begini-gini, itu kalau harus bikin,"
+    },
+    {
+      "start": 2772.54,
+      "end": 2780.54,
+      "text": "harus pakai itu kelihatannya bakal relatif, mudah lah, banyak SDK-nya, wrapper-nya juga."
+    },
+    {
+      "start": 2780.54,
+      "end": 2786.54,
+      "text": "- Power Sync, belum pernah dengar ya ini? - Iya."
+    },
+    {
+      "start": 2786.54,
+      "end": 2795.54,
+      "text": "- Iya, tadi dia pakai yang tadi tuduh tadi? - Bukan."
+    },
+    {
+      "start": 2795.54,
+      "end": 2803.54,
+      "text": "- Beda lagi. - Cuma dia branding-nya adalah sync engine untuk lokal first dan offline first."
+    },
+    {
+      "start": 2803.54,
+      "end": 2809.54,
+      "text": "Nah, perkara implementasi detail-nya gimana kan bukan urusan dia apanya dia ngurus data storage"
+    },
+    {
+      "start": 2809.54,
+      "end": 2816.54,
+      "text": "antara di client, di device, sama di remote. - Oke."
+    },
+    {
+      "start": 2816.54,
+      "end": 2825.54,
+      "text": "- Ada lagi namanya electric SQL. Di electric SQL ini, sebenarnya di Postgre kan ya?"
+    },
+    {
+      "start": 2825.54,
+      "end": 2832.54,
+      "text": "- Entah, itu yang mana tuh? - Ada lagi. Sekarang banyak lagi nge-trend."
+    },
+    {
+      "start": 2832.54,
+      "end": 2841.54,
+      "text": "- Nge-trend, ya. Jadi sync subset of your Postgre data into local apps and services."
+    },
+    {
+      "start": 2841.54,
+      "end": 2850.54,
+      "text": "- Terus abis itu dia bikin project namanya PG Lite yang bisa jalan di browser dengan Wasm."
+    },
+    {
+      "start": 2850.54,
+      "end": 2861.54,
+      "text": "- Nah, jadi ini gimmick-nya adalah syncing, jadi ya itu tadi tagline-nya jadi kayak cuma,"
+    },
+    {
+      "start": 2861.54,
+      "end": 2867.54,
+      "text": "nah ini pernah lihat, kayaknya lihat YouTube tentang ini atau apa, cuma pas itu karena buru-buru nggak paham,"
+    },
+    {
+      "start": 2867.54,
+      "end": 2872.54,
+      "text": "serius, cuma kayaknya yang gue tangkap sekilas adalah yang nge-diff itu nge-check perbedaannya apa,"
+    },
+    {
+      "start": 2872.54,
+      "end": 2876.54,
+      "text": "terus ya mungkin dia punya settingan conflict resolution, macem-macem."
+    },
+    {
+      "start": 2876.54,
+      "end": 2882.54,
+      "text": "Ya pokoknya dia meng-update sisanya apa yang berubah, apa yang berbeda aja."
+    },
+    {
+      "start": 2882.54,
+      "end": 2887.54,
+      "text": "Tetep nggak ngerti sih, tetep belum ngerti karena belum nyoba beneran."
+    },
+    {
+      "start": 2887.54,
+      "end": 2894.54,
+      "text": "Ya itu, dan lagi-lagi gimmick-nya adalah dia kayak environment agnostik, ya itu kayak bisa di lokal,"
+    },
+    {
+      "start": 2894.54,
+      "end": 2899.54,
+      "text": "bisa di, apalah serverless, bisa di server biasa."
+    },
+    {
+      "start": 2899.54,
+      "end": 2904.54,
+      "text": "Gimana? Kayak tadi lagi bisa nge-tick royokan."
+    },
+    {
+      "start": 2904.54,
+      "end": 2908.54,
+      "text": "- Bukan nge-tick, ini gambar nih kayaknya. Loh, gimana gambarnya?"
+    },
+    {
+      "start": 2908.54,
+      "end": 2914.54,
+      "text": "- Belum muncul, belum loading. - Oh, belum loading ya? Belum loading."
+    },
+    {
+      "start": 2914.54,
+      "end": 2920.54,
+      "text": "Reload. Loh, lo pake VT. - Gak bisa."
+    },
+    {
+      "start": 2920.54,
+      "end": 2925.54,
+      "text": "- Gak bisa. Eh, ada plus. - Gak bisa."
+    },
+    {
+      "start": 2925.54,
+      "end": 2929.54,
+      "text": "- Error apa? - Udah muncul color picker."
+    },
+    {
+      "start": 2929.54,
+      "end": 2932.54,
+      "text": "Error itu buka console. - Error ya."
+    },
+    {
+      "start": 2932.54,
+      "end": 2937.54,
+      "text": "- Pit request, tadi bikin demo, error. - Error."
+    },
+    {
+      "start": 2937.54,
+      "end": 2941.54,
+      "text": "- Itu ada notes tuh, pake YJS juga. - Notes."
+    },
+    {
+      "start": 2941.54,
+      "end": 2950.54,
+      "text": "- Nah menariknya, Sunking C Linear itu udah linear app itu udah dianggap sebagai apa, kayak pelopor lah,"
+    },
+    {
+      "start": 2950.54,
+      "end": 2955.54,
+      "text": "yang paling beken dalam gimmick local first. Itu kan tadi demonya ada clone-nya linear."
+    },
+    {
+      "start": 2955.54,
+      "end": 2960.54,
+      "text": "- Gak bisa juga. Oh, ada clone-nya linear. Gak bisa juga."
+    },
+    {
+      "start": 2960.54,
+      "end": 2966.54,
+      "text": "Gak complete. Kayaknya CDN-nya atau apa, error gitu ya. Ya gitu lah, electric SQL."
+    },
+    {
+      "start": 2966.54,
+      "end": 2973.54,
+      "text": "- Linear light. Tapi intinya punya, apa konsepnya? - Makin banyak ya."
+    },
+    {
+      "start": 2973.54,
+      "end": 2975.54,
+      "text": "- Sinking. - Oh, ini ya."
+    },
+    {
+      "start": 2975.54,
+      "end": 2984.54,
+      "text": "- Maksudnya, ininya tools-tools untuk mendukung kita untuk membangun local first app itu"
+    },
+    {
+      "start": 2984.54,
+      "end": 2987.54,
+      "text": "makin banyak yang bisa dipakai. - Iya."
+    },
+    {
+      "start": 2987.54,
+      "end": 2992.54,
+      "text": "- Trend-nya mungkin keadaan sana kali ya. - Iya, nah itu keliatannya."
+    },
+    {
+      "start": 2992.54,
+      "end": 2999.54,
+      "text": "- Dan terakhir, ada Zero. - Iya."
+    },
+    {
+      "start": 2999.54,
+      "end": 3005.54,
+      "text": "- Zero ini, kalau gak salah, bisa pakai Prisma ya, kalau gak salah ya."
+    },
+    {
+      "start": 3005.54,
+      "end": 3015.54,
+      "text": "Kalau gak salah. Ada ininya. Jadi dari database SQL bisa di-convert ke Zero SQL namanya."
+    },
+    {
+      "start": 3015.54,
+      "end": 3022.54,
+      "text": "- ZQL. - Nah ini dia."
+    },
+    {
+      "start": 3022.54,
+      "end": 3027.54,
+      "text": "Jadi aplikasi web kita di sini, ada klien-nya, dia connect pakai Websocket, ada kids-nya,"
+    },
+    {
+      "start": 3027.54,
+      "end": 3031.54,
+      "text": "kemudian ada replikasi, baik itu ke Postgre atau MySQL."
+    },
+    {
+      "start": 3031.54,
+      "end": 3036.54,
+      "text": "Nah, koneksinya itu apa, perintah-perintahnya itu menggunakan ZQL."
+    },
+    {
+      "start": 3036.54,
+      "end": 3049.54,
+      "text": "Jadi, tapi ada projek yang bisa mengubah atau migrasi data dari ORM seperti Prisma"
+    },
+    {
+      "start": 3049.54,
+      "end": 3056.54,
+      "text": "atau Drizzle ke ZQL. - Dunia lagi berbalik ya."
+    },
+    {
+      "start": 3056.54,
+      "end": 3064.54,
+      "text": "Dari yang Microsoft Access, jadi SQL Server, sekarang balik lagi ke MySQL Access."
+    },
+    {
+      "start": 3064.54,
+      "end": 3071.54,
+      "text": "- Tapi bisa single-nice. - Dari yang lokal-only,"
+    },
+    {
+      "start": 3071.54,
+      "end": 3078.54,
+      "text": "yang gak ada koneksi internet kemana-mana, terus langsung global semuanya terpusat,"
+    },
+    {
+      "start": 3078.54,
+      "end": 3087.54,
+      "text": "client-server, terus balik lagi lokal, terus bisa terpusat juga, bisa dua-duanya hybrid ya."
+    },
+    {
+      "start": 3087.54,
+      "end": 3094.54,
+      "text": "- Nadi show notes tuh gue nulis gitu kan, kalau dulu, dulu banget kan paradigma-nya adalah kalau aplikasi native,"
+    },
+    {
+      "start": 3094.54,
+      "end": 3099.54,
+      "text": "ya kayak apa lah, gak usah Microsoft Access atau apa yang terlalu sulit, Microsoft Word lah,"
+    },
+    {
+      "start": 3099.54,
+      "end": 3107.54,
+      "text": "yang semua orang punya kan dulu, walaupun bajakan, Microsoft Word, Notepad, itu semua kan by default pasti offline first,"
+    },
+    {
+      "start": 3107.54,
+      "end": 3116.54,
+      "text": "karena ya apa, home user belum tentu punya internet juga, intranet paling ya kayak ada di kampus atau di manapun."
+    },
+    {
+      "start": 3116.54,
+      "end": 3125.54,
+      "text": "Terus sekian tahun kemudian, web, kalau aplikasi web, web app by default pasti online only kan,"
+    },
+    {
+      "start": 3125.54,
+      "end": 3128.54,
+      "text": "online only, karena untuk kebuka harus dari web browser."
+    },
+    {
+      "start": 3128.54,
+      "end": 3136.54,
+      "text": "Nah itu kan dulu kayaknya terpisah kayak gitu, cuma lama-lama ya aplikasi native juga kan semua service-nya"
+    },
+    {
+      "start": 3136.54,
+      "end": 3144.54,
+      "text": "harus connect ke online, kayak sekarang Adobe kan makin banyak, kayak Adobe Photoshop atau apa, makin online based kan."
+    },
+    {
+      "start": 3144.54,
+      "end": 3153.54,
+      "text": "Nah, sekarang tuh baik aplikasi web atau native semua online, kayak bergantung banget sama online,"
+    },
+    {
+      "start": 3153.54,
+      "end": 3163.54,
+      "text": "tapi ternyata buktinya apa, dua tahunan ini makin, makin gencar paradigma offline first, berarti kan dua-duanya ini bakal,"
+    },
+    {
+      "start": 3163.54,
+      "end": 3167.54,
+      "text": "bisa aja bakal mengarah ke offline first. Trend itu berarti..."
+    },
+    {
+      "start": 3167.54,
+      "end": 3174.54,
+      "text": "Online itu, trendnya itu berarti ada hubungannya sama perkembangan SaaS, software access service kan,"
+    },
+    {
+      "start": 3174.54,
+      "end": 3179.54,
+      "text": "jadi semuanya terpusat kan. Kalau ada update kita nggak perlu, ya cloud,"
+    },
+    {
+      "start": 3179.54,
+      "end": 3186.54,
+      "text": "kalau ada update kita nggak perlu ngirimin CD atau flash disk untuk update di lokal gitu kan, jadi udah langsung gitu."
+    },
+    {
+      "start": 3186.54,
+      "end": 3192.54,
+      "text": "- Nggak harus mimpah file-nya. - Iya, malah perusahaan-perusahaan kayak yang tadinya offline,"
+    },
+    {
+      "start": 3192.54,
+      "end": 3200.54,
+      "text": "kayak Photoshop, Adobe lah ya Adobe, terus apa lagi, Microsoft dan lain-lain itu juga sekarang udah ke arah sana kan,"
+    },
+    {
+      "start": 3200.54,
+      "end": 3205.54,
+      "text": "jadi kalau ada update, ada dan access-nya juga bisa dari web gitu ya."
+    },
+    {
+      "start": 3205.54,
+      "end": 3217.54,
+      "text": "Nah, ini yang menarik juga si Zero ini dia bikin aplikasi contoh, tapi beneran dipakai namanya Bugs Zero."
+    },
+    {
+      "start": 3220.54,
+      "end": 3224.54,
+      "text": "- Bugs Zero, jadi buat pendekatan bugs. - Zero bugs, zero bugs, zero bugs."
+    },
+    {
+      "start": 3224.54,
+      "end": 3229.54,
+      "text": "Oh, zero bugs, balik ya. Iya, zero bugs. Ini bisa offline nggak ya?"
+    },
+    {
+      "start": 3229.54,
+      "end": 3235.54,
+      "text": "- Bugs Bunny. - Ini bisa di... Oh, di klik doang."
+    },
+    {
+      "start": 3235.54,
+      "end": 3238.54,
+      "text": "- Tapi kalau aja... - Coba klik kanan."
+    },
+    {
+      "start": 3238.54,
+      "end": 3242.54,
+      "text": "- Ini kayaknya Inspire Bilinear juga deh. - Kayaknya."
+    },
+    {
+      "start": 3242.54,
+      "end": 3251.54,
+      "text": "- Ke kanan, Inspect, Network, Offline. - Offline."
+    },
+    {
+      "start": 3251.54,
+      "end": 3255.54,
+      "text": "- Oke, let's see. - Tadah!"
+    },
+    {
+      "start": 3255.54,
+      "end": 3258.54,
+      "text": "- Di Reload. - Di Reload nggak bisa."
+    },
+    {
+      "start": 3258.54,
+      "end": 3261.54,
+      "text": "- Reload? Nggak lah. - Nggak bisa."
+    },
+    {
+      "start": 3261.54,
+      "end": 3263.54,
+      "text": "- Nggak bisa. - Ya, berarti belum."
+    },
+    {
+      "start": 3263.54,
+      "end": 3268.54,
+      "text": "Nggak lah, jadi begitu di sini baru dia datanya disimpan semua kan."
+    },
+    {
+      "start": 3268.54,
+      "end": 3274.54,
+      "text": "Jadi kalau misalkan mau ngedit-ngedit, misalkan kalau mau... Oh, harus login. Ini beneran udah, Tia?"
+    },
+    {
+      "start": 3274.54,
+      "end": 3277.54,
+      "text": "- Iya. Coba klik. - Bug beneran."
+    },
+    {
+      "start": 3277.54,
+      "end": 3280.54,
+      "text": "- Bugs beneran. - Bugs beneran."
+    },
+    {
+      "start": 3280.54,
+      "end": 3284.54,
+      "text": "- Bisa. Yang paling bawah deh ya. Yang paling bawah ya. - Yang paling bawah ya."
+    },
+    {
+      "start": 3284.54,
+      "end": 3288.54,
+      "text": "- Cepet banget ya. Dan offline. - Snappy."
+    },
+    {
+      "start": 3288.54,
+      "end": 3293.54,
+      "text": "Snappy. Filter, filter. Filter by?"
+    },
+    {
+      "start": 3293.54,
+      "end": 3296.54,
+      "text": "- Riza. - Oh, nggak keluarnya."
+    },
+    {
+      "start": 3296.54,
+      "end": 3300.54,
+      "text": "- Status. Status. - Ini nggak keluarnya. Status."
+    },
+    {
+      "start": 3300.54,
+      "end": 3304.54,
+      "text": "Filter by status. Label."
+    },
+    {
+      "start": 3304.54,
+      "end": 3307.54,
+      "text": "Tuh."
+    },
+    {
+      "start": 3307.54,
+      "end": 3311.54,
+      "text": "Oke. Websocket."
+    },
+    {
+      "start": 3311.54,
+      "end": 3316.54,
+      "text": "- Jaman dulu jQuery UI juga. - UI."
+    },
+    {
+      "start": 3316.54,
+      "end": 3319.54,
+      "text": "- Bisa begini. - Bakal download semua datanya."
+    },
+    {
+      "start": 3319.54,
+      "end": 3324.54,
+      "text": "- Terus baru diproses. - Tapi lambat."
+    },
+    {
+      "start": 3324.54,
+      "end": 3327.54,
+      "text": "- Dropbox. Dropbox. Apa? Dropdown. JQuery dropdown itu apa namanya? - Dropdown."
+    },
+    {
+      "start": 3327.54,
+      "end": 3332.54,
+      "text": "Select to. Select to. Select to."
+    },
+    {
+      "start": 3332.54,
+      "end": 3337.54,
+      "text": "Label bugs. Modified. Oh, ini udah bisa kita ini ya."
+    },
+    {
+      "start": 3337.54,
+      "end": 3342.54,
+      "text": "Close. Yang all."
+    },
+    {
+      "start": 3342.54,
+      "end": 3346.54,
+      "text": "- Keren ya. - Coba kasih, itu kasih emoji. Emoji."
+    },
+    {
+      "start": 3346.54,
+      "end": 3348.54,
+      "text": "- Emoji? - Ini tuh ada..."
+    },
+    {
+      "start": 3348.54,
+      "end": 3354.54,
+      "text": "Apa response? Oh, nggak bisa lah login."
+    },
+    {
+      "start": 3354.54,
+      "end": 3356.54,
+      "text": "Kalau pacar login?"
+    },
+    {
+      "start": 3356.54,
+      "end": 3358.54,
+      "text": "- Ya login. - Kalau pacar login."
+    },
+    {
+      "start": 3358.54,
+      "end": 3362.54,
+      "text": "- Nggak, bakal... - Oh, pakai GitHub."
+    },
+    {
+      "start": 3362.54,
+      "end": 3365.54,
+      "text": "Ya, pakai GitHub."
+    },
+    {
+      "start": 3365.54,
+      "end": 3369.54,
+      "text": "- Pakai OAuth terus. - Tuh, udah ada pasiki tuh GitHub tuh."
+    },
+    {
+      "start": 3369.54,
+      "end": 3374.54,
+      "text": "Lah, emang udah. Udah 2 tahun."
+    },
+    {
+      "start": 3374.54,
+      "end": 3378.54,
+      "text": "- Yang pertama. - Zero salah satu yang ini ya."
+    },
+    {
+      "start": 3378.54,
+      "end": 3385.54,
+      "text": "Ayo 2025. Local only app di era scraping AI."
+    },
+    {
+      "start": 3385.54,
+      "end": 3391.54,
+      "text": "- Jadi masih ke lisensi lagi. - Nanti bakal banyak yang bikin keygen lagi."
+    },
+    {
+      "start": 3391.54,
+      "end": 3395.54,
+      "text": "- Keygen. - Masukin keygen."
+    },
+    {
+      "start": 3395.54,
+      "end": 3399.54,
+      "text": "Kayak bajakan. Kayak software bajakan 10 tahun lalu."
+    },
+    {
+      "start": 3399.54,
+      "end": 3405.54,
+      "text": "Mungkin lebih ke arah aplikasinya tetap bisa di update over the air."
+    },
+    {
+      "start": 3405.54,
+      "end": 3409.54,
+      "text": "Tapi datanya bisa di ases lokal. Mungkin gitu ya."
+    },
+    {
+      "start": 3409.54,
+      "end": 3413.54,
+      "text": "- Kalau sekarang ya. - Iya."
+    },
+    {
+      "start": 3413.54,
+      "end": 3419.54,
+      "text": "Jadi kayak itu tadi kembali lagi ke personal finance yang tadi. Apa namanya?"
+    },
+    {
+      "start": 3419.54,
+      "end": 3423.54,
+      "text": "- Actual. - Actual budget."
+    },
+    {
+      "start": 3423.54,
+      "end": 3427.54,
+      "text": "Data adalah milik kita sendiri."
+    },
+    {
+      "start": 3427.54,
+      "end": 3432.54,
+      "text": "Ya, you own your data."
+    },
+    {
+      "start": 3432.54,
+      "end": 3436.54,
+      "text": "- Sampai sama seperti... - Kayak kembali jamannya di microsoft access."
+    },
+    {
+      "start": 3436.54,
+      "end": 3440.54,
+      "text": "Di desktop masing-masing. Udah."
+    },
+    {
+      "start": 3440.54,
+      "end": 3445.54,
+      "text": "Nah enggak, cuma kalau implementasinya, kalau aplikasi modern kayak gini,"
+    },
+    {
+      "start": 3445.54,
+      "end": 3450.54,
+      "text": "Berarti kan sebenarnya kasarnya kita, ya data punya kita, oke data kita yang control."
+    },
+    {
+      "start": 3450.54,
+      "end": 3453.54,
+      "text": "Kita ngehosting data kita kan, terserah dimana."
+    },
+    {
+      "start": 3453.54,
+      "end": 3458.54,
+      "text": "Sebenarnya suka-suka kita, tapi kita ngehosting data kita somewhere kan."
+    },
+    {
+      "start": 3458.54,
+      "end": 3461.54,
+      "text": "Ya, ya, ya."
+    },
+    {
+      "start": 3461.54,
+      "end": 3465.54,
+      "text": "Sebenarnya ya tadi data ownership itu."
+    },
+    {
+      "start": 3465.54,
+      "end": 3469.54,
+      "text": "Makanya si Obsidian juga dia bilang datanya itu milik kita."
+    },
+    {
+      "start": 3469.54,
+      "end": 3472.54,
+      "text": "- Kalau misalkan kita nulis... - Software-nya proprietary."
+    },
+    {
+      "start": 3472.54,
+      "end": 3475.54,
+      "text": "Tapi konten file-nya suka-suka kita."
+    },
+    {
+      "start": 3475.54,
+      "end": 3478.54,
+      "text": "Mau beneran literally di Macbook kita misalnya."
+    },
+    {
+      "start": 3478.54,
+      "end": 3482.54,
+      "text": "Atau mau kita sync ke iCloud service-nya Macbook bawaan."
+    },
+    {
+      "start": 3482.54,
+      "end": 3486.54,
+      "text": "Kalau kita pakai Linux ya nggak, nggak di sync ke mana-mana bisa aja."
+    },
+    {
+      "start": 3486.54,
+      "end": 3491.54,
+      "text": "Atau misalnya kita mau pakai Dropbox atau Google Drive atau GitHub."
+    },
+    {
+      "start": 3491.54,
+      "end": 3496.54,
+      "text": "Atau layanan Git apapun, kontrolnya ada di kita."
+    },
+    {
+      "start": 3496.54,
+      "end": 3503.54,
+      "text": "Ya, itu untuk menghindari juga, apa namanya, vendor login."
+    },
+    {
+      "start": 3503.54,
+      "end": 3508.54,
+      "text": "Jadi kalau misalkan kita mau migrasi, ya udah file markdown aja gitu."
+    },
+    {
+      "start": 3508.54,
+      "end": 3512.54,
+      "text": "Ya, silahkan pindah ke aplikasi lain gitu."
+    },
+    {
+      "start": 3512.54,
+      "end": 3517.54,
+      "text": "Kalau misalkan kita mau pindah dari Notion kan harus export-import dulu kan ya."
+    },
+    {
+      "start": 3517.54,
+      "end": 3523.54,
+      "text": "- Dan belum juga compatible kan. - Yang mana format JSON-nya ya kurang user-friendly."
+    },
+    {
+      "start": 3523.54,
+      "end": 3528.54,
+      "text": "Berbeda. Apalagi kalau mau import dari misalkan kayak Evernote gitu."
+    },
+    {
+      "start": 3528.54,
+      "end": 3531.54,
+      "text": "Itu lebih sulit lagi kan."
+    },
+    {
+      "start": 3531.54,
+      "end": 3535.54,
+      "text": "Jadi semuanya itu kan dia database-nya ada di mereka gitu."
+    },
+    {
+      "start": 3535.54,
+      "end": 3538.54,
+      "text": "Jadi yang kita bergantung kepada mereka."
+    },
+    {
+      "start": 3538.54,
+      "end": 3543.54,
+      "text": "Kalau seandainya sebuah notes, aplikasi notes yang kita pakai"
+    },
+    {
+      "start": 3543.54,
+      "end": 3550.54,
+      "text": "terus tiba-tiba mereka berhenti, service-nya berhenti, ya kita pindahnya juga bingung kan."
+    },
+    {
+      "start": 3550.54,
+      "end": 3555.54,
+      "text": "Kalau ini, kalau pun berhenti misalkan nggak dikembangin lagi kita mau pindah ke tempat yang lain."
+    },
+    {
+      "start": 3555.54,
+      "end": 3560.54,
+      "text": "Atau ke aplikasi yang lain ya udah pindah aja, datanya punya kita kok."
+    },
+    {
+      "start": 3560.54,
+      "end": 3565.54,
+      "text": "Aplikasi apapun yang bisa ngedit plaintext."
+    },
+    {
+      "start": 3565.54,
+      "end": 3571.54,
+      "text": "Apakah diskusi ini tentang offline first app juga seperti MongoDB, Realm Sync?"
+    },
+    {
+      "start": 3571.54,
+      "end": 3577.54,
+      "text": "- Kita baru tahu nih. - Iya, cuma kita belum tahu Realm Sync."
+    },
+    {
+      "start": 3577.54,
+      "end": 3579.54,
+      "text": "Belum sampai ke MongoDB."
+    },
+    {
+      "start": 3579.54,
+      "end": 3584.54,
+      "text": "Tapi ya tadi yang sejenis tapi pakai SQL, ada kan tadi udah dibahas."
+    },
+    {
+      "start": 3584.54,
+      "end": 3590.54,
+      "text": "Mungkin ya sambil di-search aja, MongoDB, Realm Sync."
+    },
+    {
+      "start": 3590.54,
+      "end": 3596.54,
+      "text": "Kok nggak ada di mongodb.com-nya?"
+    },
+    {
+      "start": 3596.54,
+      "end": 3606.54,
+      "text": "- Iya, kita tadi untuk jawab, Mas Yuda, kita bahas local first application. - Local first application."
+    },
+    {
+      "start": 3606.54,
+      "end": 3610.54,
+      "text": "- Bukan offline. - Bisa lah, kan terkait juga."
+    },
+    {
+      "start": 3610.54,
+      "end": 3617.54,
+      "text": "MongoDB, Realm Sync, is a feature that allow developer to build application that sync data seamlessly."
+    },
+    {
+      "start": 3617.54,
+      "end": 3621.54,
+      "text": "Masih ada kesamanya kan, walaupun pakai terminologinya."
+    },
+    {
+      "start": 3621.54,
+      "end": 3630.54,
+      "text": "Mau tahu info-nya gimana ya, official, ini Android, Realm SDK."
+    },
+    {
+      "start": 3630.54,
+      "end": 3642.54,
+      "text": "Oh iya, eh 404, product, Atlas. Atlas itu cloud-nya kan ya."
+    },
+    {
+      "start": 3642.54,
+      "end": 3648.54,
+      "text": "Realm tadi, di-search aja gimana? Apa maksudnya search?"
+    },
+    {
+      "start": 3648.54,
+      "end": 3652.54,
+      "text": "- Realm. - Realm Sync."
+    },
+    {
+      "start": 3652.54,
+      "end": 3660.54,
+      "text": "Search apa as AI? Udah nggak ada."
+    },
+    {
+      "start": 3660.54,
+      "end": 3662.54,
+      "text": "- Mana banyak? - Ayo."
+    },
+    {
+      "start": 3662.54,
+      "end": 3666.54,
+      "text": "- Ayo. - Bentar, bentar, bentar. Tadi artikelnya, artikel tahun berapa nih?"
+    },
+    {
+      "start": 3666.54,
+      "end": 3668.54,
+      "text": "- Ada, ada. - 2021."
+    },
+    {
+      "start": 3668.54,
+      "end": 3670.54,
+      "text": "- Iya. - Ya."
+    },
+    {
+      "start": 3670.54,
+      "end": 3676.54,
+      "text": "- Maksudnya sudah ada gitu, MongoDB, Realm tuh."
+    },
+    {
+      "start": 3676.54,
+      "end": 3681.54,
+      "text": "- Iya, udah nggak ada. Tuh, ke Atlas dia, device SDK jatohnya."
+    },
+    {
+      "start": 3681.54,
+      "end": 3686.54,
+      "text": "- Oh. - Ini ya, tadi kan saya klik yang gini nih,"
+    },
+    {
+      "start": 3686.54,
+      "end": 3691.54,
+      "text": "docs.mongodb.com/realm, larinya ke sini, ke SDK."
+    },
+    {
+      "start": 3691.54,
+      "end": 3695.54,
+      "text": "- Mungkin. - Apakah sudah ganti nama?"
+    },
+    {
+      "start": 3695.54,
+      "end": 3701.54,
+      "text": "- Eh tuh, kiri-kiri, Realm Studio, Realm Query Language, toah bawa, iya."
+    },
+    {
+      "start": 3701.54,
+      "end": 3705.54,
+      "text": "- Ini. Ini maksudnya Realm. - Iya, device sync."
+    },
+    {
+      "start": 3705.54,
+      "end": 3706.54,
+      "text": "- Iya. - Gak tahu."
+    },
+    {
+      "start": 3706.54,
+      "end": 3709.54,
+      "text": "- Itu view data with device sync. - Tapi ada tulisannya device sync."
+    },
+    {
+      "start": 3709.54,
+      "end": 3713.54,
+      "text": "- Iya, tadi ada device sync. Yang ini kan? - Memang salah satu fiturnya."
+    },
+    {
+      "start": 3713.54,
+      "end": 3717.54,
+      "text": "- Iya. - Kayaknya udah di-combine ke,"
+    },
+    {
+      "start": 3717.54,
+      "end": 3721.54,
+      "text": "di-combine ke fitur lain kali ya? - Mungkin."
+    },
+    {
+      "start": 3721.54,
+      "end": 3723.54,
+      "text": "- Deprecated. - Deprecated."
+    },
+    {
+      "start": 3723.54,
+      "end": 3728.54,
+      "text": "- Oh. - Berarti yang tadi. Realm Studio."
+    },
+    {
+      "start": 3728.54,
+      "end": 3733.54,
+      "text": "Realm Studio is visual tool, bukan."
+    },
+    {
+      "start": 3733.54,
+      "end": 3743.54,
+      "text": "Also using device sync. RxDB Creator. Oh iya, RxDB juga ada."
+    },
+    {
+      "start": 3743.54,
+      "end": 3749.54,
+      "text": "RxDB juga salah satu library untuk membuat offline first,"
+    },
+    {
+      "start": 3749.54,
+      "end": 3754.54,
+      "text": "bukan offline first, local first. Realm."
+    },
+    {
+      "start": 3754.54,
+      "end": 3757.54,
+      "text": "Kok udah gak ada ya, berarti ya? Deprecation."
+    },
+    {
+      "start": 3757.54,
+      "end": 3761.54,
+      "text": "- Itu dijelasin di komen. - Udah gak ada, senjata."
+    },
+    {
+      "start": 3761.54,
+      "end": 3766.54,
+      "text": "RxDB. Oh, expired. Ada penggantinya gak? Gak ada ya."
+    },
+    {
+      "start": 3766.54,
+      "end": 3771.54,
+      "text": "Realm library language. Oke, berarti gak ada yang pakai kali ini."
+    },
+    {
+      "start": 3771.54,
+      "end": 3775.54,
+      "text": "- SDK. - Iya, iya, iya."
+    },
+    {
+      "start": 3775.54,
+      "end": 3782.54,
+      "text": "Ada gak engine sync eskelat dari Wasm? Jadi gak perlu docker buat install engine sync."
+    },
+    {
+      "start": 3782.54,
+      "end": 3788.54,
+      "text": "Cuman butuh file Wasm, eskelat, dan aplikasi kita saja lebih kompet, gak perlu entitas luar lain."
+    },
+    {
+      "start": 3788.54,
+      "end": 3792.54,
+      "text": "Ada. Contohnya yang tadi, actual budget mereka pakai SQLite,"
+    },
+    {
+      "start": 3792.54,
+      "end": 3798.54,
+      "text": "kalau gak salah, eskelat yang Wasm. Makanya orang yang bikin, siapa namanya,"
+    },
+    {
+      "start": 3798.54,
+      "end": 3801.54,
+      "text": "yang pertama kali dia bikin. Sekarang kan udah banyak nih."
+    },
+    {
+      "start": 3801.54,
+      "end": 3812.54,
+      "text": "Ini, si James Long ini juga bikin library untuk akses SQL dari Wasm."
+    },
+    {
+      "start": 3812.54,
+      "end": 3822.54,
+      "text": "Jadi bisa dilihat saja di sini. Upset SCL."
+    },
+    {
+      "start": 3822.54,
+      "end": 3829.54,
+      "text": "Ini awal banget. Awal banget sebelum Wasm, eskelat bisa jalan di Wasm."
+    },
+    {
+      "start": 3829.54,
+      "end": 3833.54,
+      "text": "Kalau sekarang kan udah banyak yang bikin ya. Kalau ini dia awal-awal banget tuh."
+    },
+    {
+      "start": 3833.54,
+      "end": 3843.54,
+      "text": "Itu 4 tahun yang lalu. - Palsdb-kalsdb masih ada yang pakai gak ya? - Masih, masih aktif kok."
+    },
+    {
+      "start": 3843.54,
+      "end": 3845.54,
+      "text": "- Masih ya? - Masih, masih aktif."
+    },
+    {
+      "start": 3845.54,
+      "end": 3851.54,
+      "text": "Masih? Kan kita pernah buka waktu bahas apa ya? Waktu itu udah lama."
+    },
+    {
+      "start": 3851.54,
+      "end": 3857.54,
+      "text": "Bahas database. Oh, emang bahas database."
+    },
+    {
+      "start": 3857.54,
+      "end": 3865.54,
+      "text": "- Ini palsdb. - Emang maksudnya apa? Mineroversen-nya juga naik terus?"
+    },
+    {
+      "start": 3865.54,
+      "end": 3871.54,
+      "text": "Naik terus, ya. Ini sebenarnya adalah ini, apa namanya?"
+    },
+    {
+      "start": 3871.54,
+      "end": 3884.54,
+      "text": "Rapper ya, di atasnya database yang di browser indexdb atau localstress atau apa gitu."
+    },
+    {
+      "start": 3884.54,
+      "end": 3888.54,
+      "text": "Bukan API-nya menyurupai kalsdb."
+    },
+    {
+      "start": 3888.54,
+      "end": 3895.54,
+      "text": "Biar streamline ya, antara local sama remote tuh enak."
+    },
+    {
+      "start": 3895.54,
+      "end": 3899.54,
+      "text": "Ini open source ya. Kalsdb juga open source ya?"
+    },
+    {
+      "start": 3899.54,
+      "end": 3903.54,
+      "text": "Ya, udah dibeli apa aja sekarang? Apa aja?"
+    },
+    {
+      "start": 3903.54,
+      "end": 3909.54,
+      "text": "- Kalsdb. Apa aja? - Ya, lagunya sih Rose. Apa aja? Apa aja?"
+    },
+    {
+      "start": 3913.54,
+      "end": 3917.54,
+      "text": "Nah, inilah fungsinya font effect."
+    },
+    {
+      "start": 3917.54,
+      "end": 3921.54,
+      "text": "Mana? Issue tracker pull request."
+    },
+    {
+      "start": 3921.54,
+      "end": 3926.54,
+      "text": "Masih ya? Aman ya? Aman ya? 4 hari yang lalu? Aman?"
+    },
+    {
+      "start": 3926.54,
+      "end": 3928.54,
+      "text": "- Masih kok. - Kalsdb..."
+    },
+    {
+      "start": 3928.54,
+      "end": 3931.54,
+      "text": "Emang maksudnya kayak gini kan emang gak cepet-cepet banget."
+    },
+    {
+      "start": 3931.54,
+      "end": 3937.54,
+      "text": "Masih apa? Cycle update-nya gak ekstrim release terus kan."
+    },
+    {
+      "start": 3937.54,
+      "end": 3940.54,
+      "text": "Cuma masih tetap aktif di-maintain."
+    },
+    {
+      "start": 3940.54,
+      "end": 3948.54,
+      "text": "Kalsdb salah satu database NoSQL yang cukup layak dicoba sih. Keren-keren."
+    },
+    {
+      "start": 3948.54,
+      "end": 3952.54,
+      "text": "Kalau gak salah dulu juga ada tuh Meteor."
+    },
+    {
+      "start": 3952.54,
+      "end": 3956.54,
+      "text": "Dia pakai MongoDB di back-end-nya."
+    },
+    {
+      "start": 3956.54,
+      "end": 3960.54,
+      "text": "Di front-end-nya kita dikasih library namanya Minimongo."
+    },
+    {
+      "start": 3960.54,
+      "end": 3965.54,
+      "text": "Syntaxnya mirip MongoDB tapi dia indexdb juga."
+    },
+    {
+      "start": 3965.54,
+      "end": 3970.54,
+      "text": "- Masih ada? Di-open gak ya? - Meteor.js masih hidup."
+    },
+    {
+      "start": 3970.54,
+      "end": 3973.54,
+      "text": "- Masih? - Masih."
+    },
+    {
+      "start": 3973.54,
+      "end": 3979.54,
+      "text": "- Ini bukan? Oh bukan. - Client-side in memory MongoDB."
+    },
+    {
+      "start": 3979.54,
+      "end": 3986.54,
+      "text": "Tapi bukan ini. Dia ternyata gak di-open kayaknya ya."
+    },
+    {
+      "start": 3986.54,
+      "end": 3994.54,
+      "text": "- Itu Meteor Minimongo Explorer. - Iya. Ada."
+    },
+    {
+      "start": 3994.54,
+      "end": 3998.54,
+      "text": "Jadi dia cuma bikin supaya streamline."
+    },
+    {
+      "start": 3998.54,
+      "end": 4002.54,
+      "text": "Jadi antara back-end sama front-end-nya, syntaxnya tetap sama."
+    },
+    {
+      "start": 4002.54,
+      "end": 4007.54,
+      "text": "- Tapi sebenarnya di belakang itu... - Indexdb?"
+    },
+    {
+      "start": 4007.54,
+      "end": 4010.54,
+      "text": "- Indexdb juga ya? Rapper aja. - Iya."
+    },
+    {
+      "start": 4010.54,
+      "end": 4016.54,
+      "text": "Cuma ada CRDT, ada replicate, ada mekanisme seperti itu"
+    },
+    {
+      "start": 4016.54,
+      "end": 4022.54,
+      "text": "yang membuat kalau misalkan ada konflik, dia akan coba di-resolve."
+    },
+    {
+      "start": 4022.54,
+      "end": 4028.54,
+      "text": "Cuma mau bring up aja, meskipun katanya sudah ada CRDT,"
+    },
+    {
+      "start": 4028.54,
+      "end": 4036.54,
+      "text": "conflict free, resolution data type, bukan berarti semuanya magically."
+    },
+    {
+      "start": 4036.54,
+      "end": 4038.54,
+      "text": "- Pasti di-complete. - Iya."
+    },
+    {
+      "start": 4038.54,
+      "end": 4043.54,
+      "text": "Kalau sudah di-production, banyak kenanya itu dari YGS."
+    },
+    {
+      "start": 4043.54,
+      "end": 4048.54,
+      "text": "Maksudnya tetap ada gitu masalahnya, jadi tetap butuh penahanan."
+    },
+    {
+      "start": 4048.54,
+      "end": 4053.54,
+      "text": "Itu nggak magic."
+    },
+    {
+      "start": 4053.54,
+      "end": 4056.54,
+      "text": "Ya, berarti kita mikirnya kayak git aja sih."
+    },
+    {
+      "start": 4056.54,
+      "end": 4061.54,
+      "text": "Maksudnya git, conflict resolution itu kan kita dibantu dengan..."
+    },
+    {
+      "start": 4061.54,
+      "end": 4066.54,
+      "text": "kita dikasih list apa saja yang conflict."
+    },
+    {
+      "start": 4066.54,
+      "end": 4068.54,
+      "text": "- Dia nggak peduli. - Caranya jelasinnya gimana."
+    },
+    {
+      "start": 4068.54,
+      "end": 4077.54,
+      "text": "Git, kalau konflik dia dari konsep awal berpikirnya,"
+    },
+    {
+      "start": 4077.54,
+      "end": 4080.54,
+      "text": "kalau ada konflik, dia tidak menyelesaikan itu."
+    },
+    {
+      "start": 4080.54,
+      "end": 4084.54,
+      "text": "Tapi kan dia marking kita yang bikin ngambil keputusan,"
+    },
+    {
+      "start": 4084.54,
+      "end": 4088.54,
+      "text": "mau accept yang incoming atau mau pakai yang present."
+    },
+    {
+      "start": 4088.54,
+      "end": 4091.54,
+      "text": "Maksudnya kan kita udah punya mindset kayak gitu."
+    },
+    {
+      "start": 4091.54,
+      "end": 4095.54,
+      "text": "Nah, kalau gitu tadi berarti dia supposedly nge-solve,"
+    },
+    {
+      "start": 4095.54,
+      "end": 4097.54,
+      "text": "tapi belum tentu semua kesolve."
+    },
+    {
+      "start": 4097.54,
+      "end": 4101.54,
+      "text": "Bisa nggak sengaja malah memecahkan masalah dengan masalah berarti."
+    },
+    {
+      "start": 4101.54,
+      "end": 4106.54,
+      "text": "Logsek juga gitu dia kayak git, jadi kalau misalkan ada konflik,"
+    },
+    {
+      "start": 4106.54,
+      "end": 4109.54,
+      "text": "dia akan kasih tau mau pakai yang versi ini atau pakai yang versi ini,"
+    },
+    {
+      "start": 4109.54,
+      "end": 4112.54,
+      "text": "tapi nggak bisa di-combine dua-duanya, pilih salah satu."
+    },
+    {
+      "start": 4112.54,
+      "end": 4117.54,
+      "text": "Jadi itu mungkin masih yang sederhana ya, conflict resolutionnya masih sederhana."
+    },
+    {
+      "start": 4117.54,
+      "end": 4122.54,
+      "text": "Mau pilih punya yang sebelumnya atau yang terbaru atau gimana gitu."
+    },
+    {
+      "start": 4122.54,
+      "end": 4126.54,
+      "text": "Itu jaman saya pakai FTP dulu, Mas."
+    },
+    {
+      "start": 4126.54,
+      "end": 4130.54,
+      "text": "Kalau ada both modified, pilih mana?"
+    },
+    {
+      "start": 4130.54,
+      "end": 4140.54,
+      "text": "-Override, yes. -Cancel dulu, terus di-zip ya, di-backup."
+    },
+    {
+      "start": 4140.54,
+      "end": 4147.54,
+      "text": "Terus abis itu begitu salah, ya mana tadi ya zip-nya."
+    },
+    {
+      "start": 4147.54,
+      "end": 4157.54,
+      "text": "-Atau langsung di-copy file-nya di server, copy new, new, new, new, new 2x, new 3."
+    },
+    {
+      "start": 4157.54,
+      "end": 4164.54,
+      "text": "-Di kanan duplicate gitu dia langsung new, ada tulisan new-nya."
+    },
+    {
+      "start": 4164.54,
+      "end": 4174.54,
+      "text": "Jadi kayaknya 2025 semakin banyak yang mengarah ke arah Localverse ini."
+    },
+    {
+      "start": 4174.54,
+      "end": 4182.54,
+      "text": "-Saya bahkan mau fokuskan tahun ini mau belajar Localverse."
+    },
+    {
+      "start": 4182.54,
+      "end": 4190.54,
+      "text": "-Ini ada komunitasnya namanya Localverse. -Ada meet-up-nya juga."
+    },
+    {
+      "start": 4190.54,
+      "end": 4197.54,
+      "text": "-Ada meet-up-nya. Yang lucu ini ada tadi saya sempat baca satu artikel."
+    },
+    {
+      "start": 4197.54,
+      "end": 4200.54,
+      "text": "Mana dia artikelnya, ada nggak artikelnya?"
+    },
+    {
+      "start": 4200.54,
+      "end": 4205.54,
+      "text": "-Ini lucu banget sih kategorisasinya ada learn, build, join in."
+    },
+    {
+      "start": 4205.54,
+      "end": 4215.54,
+      "text": "Ada dia, ah ini dia. -Accidentally started community."
+    },
+    {
+      "start": 4215.54,
+      "end": 4220.54,
+      "text": "-Static web page and accidentally started community."
+    },
+    {
+      "start": 4220.54,
+      "end": 4225.54,
+      "text": "Jadi dia bikin static web aja, terus tiba-tiba jadi komunitas."
+    },
+    {
+      "start": 4225.54,
+      "end": 4230.54,
+      "text": "Nah disini juga sebenarnya kita bisa belajar banyak ya dari YouTube-nya ada termasuk yang tadi."
+    },
+    {
+      "start": 4230.54,
+      "end": 4239.54,
+      "text": "Terus juga misalkan mau tahu, ya ini belajar, ni learn, ada yang bisa dibaca,"
+    },
+    {
+      "start": 4239.54,
+      "end": 4242.54,
+      "text": "ada yang bisa di tonton. -And to end, it's important to end."
+    },
+    {
+      "start": 4242.54,
+      "end": 4251.54,
+      "text": "-Iya, mau benchmark CRDT-nya juga bisa, ada podcast-nya."
+    },
+    {
+      "start": 4251.54,
+      "end": 4256.54,
+      "text": "Terus kalau mau bikin tuh ada pilihannya kalau mau storing datanya dimana."
+    },
+    {
+      "start": 4256.54,
+      "end": 4262.54,
+      "text": "Tadi ya, electric, atau pakai Goon, atau pakai apa lagi tadi?"
+    },
+    {
+      "start": 4262.54,
+      "end": 4270.54,
+      "text": "Pause DB, rammer storage, ada, kok ini GitHub ya?"
+    },
+    {
+      "start": 4270.54,
+      "end": 4281.54,
+      "text": "Watermelon DB. Terus kalau mau sync datanya bisa pakai Amplify Data Store,"
+    },
+    {
+      "start": 4281.54,
+      "end": 4286.54,
+      "text": "bisa pakai AutoMerge, tadi juga ada Ditto, ya Mas Yuda ya."
+    },
+    {
+      "start": 4286.54,
+      "end": 4292.54,
+      "text": "Ada Ditto, ada YGS. -Mas Ditto ya?"
+    },
+    {
+      "start": 4292.54,
+      "end": 4299.54,
+      "text": "-Bukan, Mas Yuda. -Ditto nama software-nya."
+    },
+    {
+      "start": 4299.54,
+      "end": 4305.54,
+      "text": "-Nama software-nya. Ada Porsing tadi kita udah liat juga, ada RepliKage, ada YGS."
+    },
+    {
+      "start": 4305.54,
+      "end": 4310.54,
+      "text": "Ada macam-macam ya. Ada contohnya juga."
+    },
+    {
+      "start": 4310.54,
+      "end": 4316.54,
+      "text": "Terus kalau mau join komunitas bisa dimana, Lovie, Discord."
+    },
+    {
+      "start": 4316.54,
+      "end": 4321.54,
+      "text": "Ada aplikasi. -Lovie ya?"
+    },
+    {
+      "start": 4321.54,
+      "end": 4326.54,
+      "text": "-Lovie ya, Lovie. Nggak, Lovie, karena First."
+    },
+    {
+      "start": 4326.54,
+      "end": 4330.54,
+      "text": "-Lovie. -Lovie."
+    },
+    {
+      "start": 4330.54,
+      "end": 4335.54,
+      "text": "-Oh, yang apa, ada kalau temen-temen punya aplikasi yang sudara,"
+    },
+    {
+      "start": 4335.54,
+      "end": 4340.54,
+      "text": "local first bisa pull request, bisa di sini ya. -Dan open source, Excalibro masuk ya."
+    },
+    {
+      "start": 4340.54,
+      "end": 4347.54,
+      "text": "-Excalibro masuk, aktual. Terus apa lagi nih? Ada yang kita tahu nggak? Tender."
+    },
+    {
+      "start": 4347.54,
+      "end": 4352.54,
+      "text": "Legend. -Cuma kenal Excalibro 2."
+    },
+    {
+      "start": 4352.54,
+      "end": 4357.54,
+      "text": "-Iya, Excalibro. Berarti Excalibro bisa offline walaupun fitur"
+    },
+    {
+      "start": 4357.54,
+      "end": 4366.54,
+      "text": "pelaburasi ini juga nggak bisa ya. Oke, ada lagi yang mau dibahas?"
+    },
+    {
+      "start": 4366.54,
+      "end": 4371.54,
+      "text": "-Apa ya? Ini artikel. -Artikel?"
+    },
+    {
+      "start": 4371.54,
+      "end": 4376.54,
+      "text": "-Cuma dia pake istilah offline first, yang atas, yang offline first landscape."
+    },
+    {
+      "start": 4376.54,
+      "end": 4381.54,
+      "text": "-Landscape, oke. -Ya kayak recap yang bagus saja sih."
+    },
+    {
+      "start": 4381.54,
+      "end": 4392.54,
+      "text": "Kalau pengen TLDR-nya. Barusan banget baca ini."
+    },
+    {
+      "start": 4392.54,
+      "end": 4399.54,
+      "text": "-WatermelonDB, oh tadi ada ya WatermelonDB ya."
+    },
+    {
+      "start": 4399.54,
+      "end": 4411.54,
+      "text": "-Betabit agnostik. PowerSync. -Belum di-share, Mas Tiza."
+    },
+    {
+      "start": 4411.54,
+      "end": 4414.54,
+      "text": "-Oh iya, sorry. -Oh iya, belum."
+    },
+    {
+      "start": 4414.54,
+      "end": 4418.54,
+      "text": "-Maaf, maaf. -Jadi ini konteksnya adalah mereka mau bikin suatu"
+    },
+    {
+      "start": 4418.54,
+      "end": 4424.54,
+      "text": "aplikasi. Ya, pokoknya ada requirement-nya, blablabla, namanya Marco."
+    },
+    {
+      "start": 4424.54,
+      "end": 4429.54,
+      "text": "Pokoknya sih nggak penting, cuma maksudnya keputusannya dia decision making."
+    },
+    {
+      "start": 4429.54,
+      "end": 4434.54,
+      "text": "-Jadi kayak ini ya, jadi kayak Thunderbolt, jadi kayak email client ya,"
+    },
+    {
+      "start": 4434.54,
+      "end": 4438.54,
+      "text": "local first itu ya. -Oh iya benar juga."
+    },
+    {
+      "start": 4438.54,
+      "end": 4443.54,
+      "text": "-Kaya IMap, IMap-based. -Oh iya benar, benar, benar."
+    },
+    {
+      "start": 4443.54,
+      "end": 4451.54,
+      "text": "-Iya, iya, iya. Itu juga aplikasi untuk baca email kan dia local first kan ya."
+    },
+    {
+      "start": 4451.54,
+      "end": 4455.54,
+      "text": "-Iya, kita bisa baca, kita nge-click reply, kita nge-tick dulu, tapi nanti kalau misalnya"
+    },
+    {
+      "start": 4455.54,
+      "end": 4460.54,
+      "text": "mau nge-fetch, mau manggil email baru dan kita mau ngirim baru."
+    },
+    {
+      "start": 4460.54,
+      "end": 4465.54,
+      "text": "-Iya benar, benar, benar. Bahkan kita sudah selesai nge-tick send,"
+    },
+    {
+      "start": 4465.54,
+      "end": 4469.54,
+      "text": "meskipun nggak ada internet, dia tetap akan masuk di outbox, outgo."
+    },
+    {
+      "start": 4469.54,
+      "end": 4474.54,
+      "text": "Nanti kalau udah synchronize ke internet, dia baru kekirim."
+    },
+    {
+      "start": 4474.54,
+      "end": 4483.54,
+      "text": "-Iya, nggak kepikiran ya, ternyata sudah lama sih, emang dari awal local only ya."
+    },
+    {
+      "start": 4483.54,
+      "end": 4487.54,
+      "text": "-Cuma kita kan sekarang nggak mikirnya sampai situ, kita nggak mikir ke mindset"
+    },
+    {
+      "start": 4487.54,
+      "end": 4491.54,
+      "text": "sesuatu yang udah familiar dan udah lama banget."
+    },
+    {
+      "start": 4491.54,
+      "end": 4495.54,
+      "text": "-Iya, apalagi kan kita mikirnya kan ini, aplikasinya aplikasi web biasanya,"
+    },
+    {
+      "start": 4495.54,
+      "end": 4501.54,
+      "text": "umumnya, nggak mesti tapi umumnya. Tapi kan ini juga tidak terbatas ke"
+    },
+    {
+      "start": 4501.54,
+      "end": 4505.54,
+      "text": "aplikasi web aja kan, aplikasi CLI misalkan, kayak terminal,"
+    },
+    {
+      "start": 4505.54,
+      "end": 4510.54,
+      "text": "aplikasi terminal, bisa aja kan? -Bisa, ya git itu."
+    },
+    {
+      "start": 4510.54,
+      "end": 4516.54,
+      "text": "-Iya git tadi ya, benar, benar. Terus ini starting pointnya database-nya"
+    },
+    {
+      "start": 4516.54,
+      "end": 4525.54,
+      "text": "Watermelon, alasannya karena open source, database agnostik dan sudah lama."
+    },
+    {
+      "start": 4525.54,
+      "end": 4531.54,
+      "text": "Terus untuk syncing-nya pakai PowerSync. -PowerSync."
+    },
+    {
+      "start": 4531.54,
+      "end": 4537.54,
+      "text": "-Oh PowerSync itu cell-hosted ya? Oh bisa bayar juga ya, ada cloud-nya ya."
+    },
+    {
+      "start": 4537.54,
+      "end": 4543.54,
+      "text": "Very complex architecture, both changes to post-greed and separated"
+    },
+    {
+      "start": 4543.54,
+      "end": 4550.54,
+      "text": "ha-apah, ha-proxy ya, MongoDB, deployment cluster, oh pakai MongoDB."
+    },
+    {
+      "start": 4550.54,
+      "end": 4558.54,
+      "text": "Terus electric SQL, look interesting but was in the middle of the complete rewrite."
+    },
+    {
+      "start": 4558.54,
+      "end": 4565.54,
+      "text": "-Oh jadi elektric SQL-nya. -Iya dia percimbangkan tiga itu,"
+    },
+    {
+      "start": 4565.54,
+      "end": 4569.54,
+      "text": "pertimbangannya apa aja. Tapi kan berarti tiga-tiganya bisa dipakai"
+    },
+    {
+      "start": 4569.54,
+      "end": 4574.54,
+      "text": "buat offline first. -Terus dia akhirnya milih Watermelon."
+    },
+    {
+      "start": 4574.54,
+      "end": 4580.54,
+      "text": "-Oh menarik. -Kapan ini blog-nya?"
+    },
+    {
+      "start": 4580.54,
+      "end": 4586.54,
+      "text": "-Barusan Januari 2020. -Januari? Seminggu sepuluh hari yang lalu."
+    },
+    {
+      "start": 4586.54,
+      "end": 4594.54,
+      "text": "-Oke. -Oh kok jadi menarik ya si Watermelon."
+    },
+    {
+      "start": 4594.54,
+      "end": 4604.54,
+      "text": "-Terus maksudnya dia ngasih gambaran tentang landscape-nya yang lebih luas sih setel-nya ini."
+    },
+    {
+      "start": 4604.54,
+      "end": 4611.54,
+      "text": "-Apa nih? We discovered a host of new wave, offline first implementation."
+    },
+    {
+      "start": 4611.54,
+      "end": 4618.54,
+      "text": "Apa nih maksudnya offline first implementation? -Belum sempat nulik nyampe situ,"
+    },
+    {
+      "start": 4618.54,
+      "end": 4624.54,
+      "text": "cuma tadi liat si artikel ini sejelas kayaknya. -Confection pernah denger deh."
+    },
+    {
+      "start": 4624.54,
+      "end": 4630.54,
+      "text": "-Missing half of your react. Tagline-nya menarik-menarik ya dari tadi."
+    },
+    {
+      "start": 4630.54,
+      "end": 4634.54,
+      "text": "-Open source reactive database. -Database."
+    },
+    {
+      "start": 4634.54,
+      "end": 4648.54,
+      "text": "-Oh firebase kah? Firebase atau supabase ya temen-temen? Oh ada mutation, action."
+    },
+    {
+      "start": 4648.54,
+      "end": 4654.54,
+      "text": "Ya database lah pokoknya ya. Not just database. -Dijawab gitu."
+    },
+    {
+      "start": 4654.54,
+      "end": 4667.54,
+      "text": "-Real time. Ini dia pakai apa? Maksudnya kalau misalkan kita mau..."
+    },
+    {
+      "start": 4667.54,
+      "end": 4672.54,
+      "text": "-Storing data tapi bisa automatic synchron, bisa search gitu loh maksudnya."
+    },
+    {
+      "start": 4672.54,
+      "end": 4676.54,
+      "text": "-Terus bisa koleksi socket, jadi kayaknya tuh real time blablabla."
+    },
+    {
+      "start": 4676.54,
+      "end": 4685.54,
+      "text": "-Kalau kita pakai firebase atau supabase gitu berarti kita belum bisa syncing ya, hanya sebatas."
+    },
+    {
+      "start": 4685.54,
+      "end": 4690.54,
+      "text": "-Firebase sudah synchron. -Bisa kan ya?"
+    },
+    {
+      "start": 4690.54,
+      "end": 4696.54,
+      "text": "Misalkan nih kita bikin aplikasi pakai firebase, terus kita lagi ngedit-nedit,"
+    },
+    {
+      "start": 4696.54,
+      "end": 4703.54,
+      "text": "atau kita lagi buat posting baru untuk CMS, terus habis itu tiba-tiba internetnya mati."
+    },
+    {
+      "start": 4703.54,
+      "end": 4709.54,
+      "text": "Itu datanya di-cache dulu, habis itu begitu internetnya connect dia syncing ke firebase atau gimana?"
+    },
+    {
+      "start": 4709.54,
+      "end": 4714.54,
+      "text": "Nggak tahu ya. -Nanti kita tanya si Dennis Alun ya."
+    },
+    {
+      "start": 4714.54,
+      "end": 4720.54,
+      "text": "-Oh iya udah-udah. Oh iya bener juga kita belum undang anak-anak firebase."
+    },
+    {
+      "start": 4720.54,
+      "end": 4727.54,
+      "text": "Bener, bisa nih. Kebetulan dia di Bali, jadi kan idlenya bagus."
+    },
+    {
+      "start": 4727.54,
+      "end": 4733.54,
+      "text": "-Idenya bagus. -Gua nggak bisa pencet."
+    },
+    {
+      "start": 4733.54,
+      "end": 4745.54,
+      "text": "-What makes convex real time?"
+    },
+    {
+      "start": 4745.54,
+      "end": 4750.54,
+      "text": "Dependencies for every query function, whenever any definition change,"
+    },
+    {
+      "start": 4750.54,
+      "end": 4757.54,
+      "text": "including any database rows, convex rerun the query function and trigger an update to any active subscription."
+    },
+    {
+      "start": 4757.54,
+      "end": 4763.54,
+      "text": "Oh udah sampe Pub/Sub segala dia ya, udah include ya."
+    },
+    {
+      "start": 4763.54,
+      "end": 4768.54,
+      "text": "Where do convex function run? Convex function run server side."
+    },
+    {
+      "start": 4768.54,
+      "end": 4773.54,
+      "text": "-Dia punya server sendiri. -In an isolated distribution environment."
+    },
+    {
+      "start": 4773.54,
+      "end": 4781.54,
+      "text": "-Can I try? Yes. -Local first. -Bukan local first."
+    },
+    {
+      "start": 4781.54,
+      "end": 4789.54,
+      "text": "-Local first atau nggak kan gimana yang bangun arsitektur seluruhan app-nya kan,"
+    },
+    {
+      "start": 4789.54,
+      "end": 4797.54,
+      "text": "cuma convexnya menawarkan layanan di server side-nya dia, blablabla."
+    },
+    {
+      "start": 4797.54,
+      "end": 4803.54,
+      "text": "To convex is instead an entire machine solution, ada API endpoints, blablabla."
+    },
+    {
+      "start": 4803.54,
+      "end": 4810.54,
+      "text": "Tapi dari perspektif yang bikin app yang dipakai user kan tetap aja bisa menterik itu sebagai local first."
+    },
+    {
+      "start": 4810.54,
+      "end": 4819.54,
+      "text": "-And 100% long into kalau convex. -WatermelonDB cuman react ya, sayang sekali ya."
+    },
+    {
+      "start": 4819.54,
+      "end": 4827.54,
+      "text": "-Itu convex juga ternyata react kan? -Iya, kurang agnostik jadinya ya."
+    },
+    {
+      "start": 4827.54,
+      "end": 4835.54,
+      "text": "-Mengkater ke react karena kelihatan kalau front-end di dominasi. -Betul sekali."
+    },
+    {
+      "start": 4835.54,
+      "end": 4845.54,
+      "text": "Terus akhirnya dia pilih apa? Problem, problem, problem."
+    },
+    {
+      "start": 4845.54,
+      "end": 4850.54,
+      "text": "-Why so many problems? -Replication."
+    },
+    {
+      "start": 4850.54,
+      "end": 4855.54,
+      "text": "Ya ampun, lucu sekali nih artikelnya."
+    },
+    {
+      "start": 4855.54,
+      "end": 4859.54,
+      "text": "-Kalau semua orang brengsek berarti ada kemungkinan. -Replication."
+    },
+    {
+      "start": 4859.54,
+      "end": 4867.54,
+      "text": "-You yang brengsek. -Ujung-ujungnya replication."
+    },
+    {
+      "start": 4867.54,
+      "end": 4875.54,
+      "text": "Ini buat syncing engine juga ya."
+    },
+    {
+      "start": 4875.54,
+      "end": 4879.54,
+      "text": "Tapi cara kerjanya."
+    },
+    {
+      "start": 4879.54,
+      "end": 4889.54,
+      "text": "Bring your own back-end, BYOB tadi dia cuman sediain untuk synchronization aja yang dibati ya."
+    },
+    {
+      "start": 4889.54,
+      "end": 4895.54,
+      "text": "On a user first visit replication download the initial chunk of data and store persistently in browser."
+    },
+    {
+      "start": 4895.54,
+      "end": 4902.54,
+      "text": "Jadi ada di browsernya ada database-nya ya."
+    },
+    {
+      "start": 4902.54,
+      "end": 4907.54,
+      "text": "The application reads and writes only to its local copy of the data."
+    },
+    {
+      "start": 4907.54,
+      "end": 4912.54,
+      "text": "Thus the application respond instantly to our interaction by default."
+    },
+    {
+      "start": 4912.54,
+      "end": 4917.54,
+      "text": "Ini kan masih di lokal nih. Terus dia syncingnya gimana nih?"
+    },
+    {
+      "start": 4917.54,
+      "end": 4929.54,
+      "text": "Additional data is downloaded as necessary, synchronizes changes to the server and other clients continuously in the background."
+    },
+    {
+      "start": 4929.54,
+      "end": 4936.54,
+      "text": "Mereka syncing lah ya, syncing di background gitu ya."
+    },
+    {
+      "start": 4936.54,
+      "end": 4941.54,
+      "text": "Tiba-tiba ada muncul data baru-data baru gitu ya."
+    },
+    {
+      "start": 4941.54,
+      "end": 4947.54,
+      "text": "Terus setelah itu, wah ini penjelasannya menarik ya."
+    },
+    {
+      "start": 4947.54,
+      "end": 4954.54,
+      "text": "Conflict happen if two users edit data concurrently."
+    },
+    {
+      "start": 4954.54,
+      "end": 4963.54,
+      "text": "Replicate, merge, and conflict using a form of server reconciliation."
+    },
+    {
+      "start": 4963.54,
+      "end": 4968.54,
+      "text": "Intuitive and powerful technique from multiplayer games."
+    },
+    {
+      "start": 4968.54,
+      "end": 4972.54,
+      "text": "Gak dibahas dia pakai apa gitu ya."
+    },
+    {
+      "start": 4972.54,
+      "end": 4981.54,
+      "text": "If this can happen, because the server is down, there is no network, changes are queued persistently until the servers come back."
+    },
+    {
+      "start": 4981.54,
+      "end": 4987.54,
+      "text": "Replica app can smoothly transit online, offline, and other available networks."
+    },
+    {
+      "start": 4987.54,
+      "end": 4994.54,
+      "text": "Testimonial paling atas dari boss new server."
+    },
+    {
+      "start": 4994.54,
+      "end": 5011.54,
+      "text": "Oh, berbayar. Replyless free to use for non-commercial project or company with less than 200k revenue and less than 500k funding."
+    },
+    {
+      "start": 5011.54,
+      "end": 5014.54,
+      "text": "Bisa lah ya."
+    },
+    {
+      "start": 5014.54,
+      "end": 5016.54,
+      "text": "Bisa, bisa."
+    },
+    {
+      "start": 5016.54,
+      "end": 5019.54,
+      "text": "Free tapi tidak free."
+    },
+    {
+      "start": 5019.54,
+      "end": 5024.54,
+      "text": "Gak completely. F-O-S-S."
+    },
+    {
+      "start": 5024.54,
+      "end": 5029.54,
+      "text": "Get started, oh start learning."
+    },
+    {
+      "start": 5029.54,
+      "end": 5033.54,
+      "text": "Tidak usah urus juga pasti ya."
+    },
+    {
+      "start": 5033.54,
+      "end": 5041.54,
+      "text": "Tapi Rosicorp juga. Sama yang Zero tadi Rosicorp kan ya."
+    },
+    {
+      "start": 5041.54,
+      "end": 5050.54,
+      "text": "Oh iya, iya. Dia memonopoly ekosistem lokal first."
+    },
+    {
+      "start": 5050.54,
+      "end": 5053.54,
+      "text": "Build your own backend."
+    },
+    {
+      "start": 5053.54,
+      "end": 5057.54,
+      "text": "Disample ya. Nanti kita korek-korek lebih lanjut ya."
+    },
+    {
+      "start": 5057.54,
+      "end": 5064.54,
+      "text": "Bisa jadi ini sendiri. Oh iya, ini khusus react ya. Sayang sekali."
+    },
+    {
+      "start": 5064.54,
+      "end": 5068.54,
+      "text": "Oke, ada lagi kah yang belum dibahas?"
+    },
+    {
+      "start": 5068.54,
+      "end": 5069.54,
+      "text": "Sudah."
+    },
+    {
+      "start": 5069.54,
+      "end": 5070.54,
+      "text": "Sudah?"
+    },
+    {
+      "start": 5070.54,
+      "end": 5076.54,
+      "text": "Nanti paling, abis ini pengen ngerenungin isi artiklenya si Marco Epp ini lagi sih."
+    },
+    {
+      "start": 5076.54,
+      "end": 5083.54,
+      "text": "Maksudnya lebih ke inside, bukan ditiru persis dia pakai apa, tapi kayak cara dia ngeproc."
+    },
+    {
+      "start": 5083.54,
+      "end": 5087.54,
+      "text": "Oh ini tuh begini. Gak cocok karena ini kayak itu seru aja sih."
+    },
+    {
+      "start": 5087.54,
+      "end": 5093.54,
+      "text": "Dan ternyata maksudnya apa ya, ekosistem lokal first itu se luas itu."
+    },
+    {
+      "start": 5093.54,
+      "end": 5103.54,
+      "text": "Dan kayak solusi-solusinya aja tadi yang di landing page-nya si lokal first community itu udah banyak banget kan pilihannya."
+    },
+    {
+      "start": 5103.54,
+      "end": 5106.54,
+      "text": "Iya betul."
+    },
+    {
+      "start": 5106.54,
+      "end": 5113.54,
+      "text": "Ya cuman itu ya. Mereka bisa, setelahnya bisa, oh kita punya problem ini."
+    },
+    {
+      "start": 5113.54,
+      "end": 5116.54,
+      "text": "Bisa dapat solusinya. Oh pilihannya ini, ini."
+    },
+    {
+      "start": 5116.54,
+      "end": 5121.54,
+      "text": "Kadang-kadang kan kita gak tahu harus mencari apa. Mencari kata kuncinya."
+    },
+    {
+      "start": 5121.54,
+      "end": 5126.54,
+      "text": "Nah kalau dia open dan dicoba kayaknya deh."
+    },
+    {
+      "start": 5126.54,
+      "end": 5130.54,
+      "text": "Kayak dari beberapa opsi yang paling atas, ya dicoba."
+    },
+    {
+      "start": 5130.54,
+      "end": 5136.54,
+      "text": "Kayak dicoba tapi kayak gak terus-terusan, jadi kayak cuma buat ngejudge, oh ini berhasil mecahin."
+    },
+    {
+      "start": 5136.54,
+      "end": 5143.54,
+      "text": "Kayak punya matrik-matrik kunci yang buat dijadikan patokan, terus oh decide."
+    },
+    {
+      "start": 5143.54,
+      "end": 5146.54,
+      "text": "Gak deh, gak ini, I'm a next."
+    },
+    {
+      "start": 5146.54,
+      "end": 5155.54,
+      "text": "Tapi dari apa artikelnya? Kayak open source project tertentu atau software tertentu, oh ini lagi dalam sedang rewrite."
+    },
+    {
+      "start": 5155.54,
+      "end": 5157.54,
+      "text": "Di mana dia baca ya kayak gitu-gitu ya?"
+    },
+    {
+      "start": 5157.54,
+      "end": 5162.54,
+      "text": "Kalau powersync atau electric SQL kan emang di dokumentasinya di-nounce kok."
+    },
+    {
+      "start": 5162.54,
+      "end": 5176.54,
+      "text": "SQL ada announcementnya, emang pernah lihat. Ya waktu dia lagi ngulik. Di dokumentasi."
+    },
+    {
+      "start": 5176.54,
+      "end": 5183.54,
+      "text": "Waktu dia, ini, kelihatannya itu deh. Knowing beta."
+    },
+    {
+      "start": 5183.54,
+      "end": 5195.54,
+      "text": "Ya mungkin tanggal 11 kemarin atau kapan lah dia nulis, dia explore itu kan pasti sekian hari atau sekian minggu sebelum nulis artikel itu kan."
+    },
+    {
+      "start": 5195.54,
+      "end": 5199.54,
+      "text": "Mungkin waktu itu masih fail nih, masih fail."
+    },
+    {
+      "start": 5199.54,
+      "end": 5201.54,
+      "text": "Coba klik, coba klik."
+    },
+    {
+      "start": 5201.54,
+      "end": 5203.54,
+      "text": "Saya sekarang udah beta."
+    },
+    {
+      "start": 5203.54,
+      "end": 5206.54,
+      "text": "Deploy examplenya gagal."
+    },
+    {
+      "start": 5206.54,
+      "end": 5209.54,
+      "text": "Biasa."
+    },
+    {
+      "start": 5209.54,
+      "end": 5213.54,
+      "text": "Pakai eliksir loh."
+    },
+    {
+      "start": 5213.54,
+      "end": 5220.54,
+      "text": "Iya. Kan SuperBiz juga pakai eliksir kan ya."
+    },
+    {
+      "start": 5220.54,
+      "end": 5226.54,
+      "text": "Mana yang rewrite-rewrite itu ada gak? Penasaran? B-issue kali ya?"
+    },
+    {
+      "start": 5226.54,
+      "end": 5235.54,
+      "text": "Ada sih pernah lihat. Maksudnya lupa dimana, cuma emang ada major rewrite di-elected SQL."
+    },
+    {
+      "start": 5235.54,
+      "end": 5239.54,
+      "text": "Kalau only mode, gak ada."
+    },
+    {
+      "start": 5239.54,
+      "end": 5245.54,
+      "text": "Gak kelihatan. Gak, gak terbaca sih. Iya, gitulah."
+    },
+    {
+      "start": 5245.54,
+      "end": 5253.54,
+      "text": "\"Pertama kali kenal Localverse dari Anytype yang pakai anysing.\" Oh Anytype itu notes ya?"
+    },
+    {
+      "start": 5253.54,
+      "end": 5256.54,
+      "text": "Anytype."
+    },
+    {
+      "start": 5256.54,
+      "end": 5260.54,
+      "text": "Oh dia Localverse juga, oh baru tau."
+    },
+    {
+      "start": 5260.54,
+      "end": 5269.54,
+      "text": "Ya, pernah denger, pengen coba tapi somehow gak jadi."
+    },
+    {
+      "start": 5269.54,
+      "end": 5274.54,
+      "text": "\"Localverse everything app.\""
+    },
+    {
+      "start": 5274.54,
+      "end": 5280.54,
+      "text": "Coba tetap akhir ujung-ujungnya, tetap pakai Obsidian kalau gue."
+    },
+    {
+      "start": 5280.54,
+      "end": 5284.54,
+      "text": "Coba iseng pengen coba ini aja sih. Karena gue gak pernah butuh."
+    },
+    {
+      "start": 5284.54,
+      "end": 5290.54,
+      "text": "Obsidian itu Markdown-based ya?"
+    },
+    {
+      "start": 5290.54,
+      "end": 5297.54,
+      "text": "Iya, plaintext biasa. Dan maksudnya performanya cepet sih, snappy banget."
+    },
+    {
+      "start": 5297.54,
+      "end": 5299.54,
+      "text": "Obsidian maksudnya gak ada yang ngalahin."
+    },
+    {
+      "start": 5299.54,
+      "end": 5304.54,
+      "text": "Iya. Cuman aplikasinya tidak open source."
+    },
+    {
+      "start": 5304.54,
+      "end": 5312.54,
+      "text": "Aplikasinya proprietary, trust not believe, block-based."
+    },
+    {
+      "start": 5312.54,
+      "end": 5317.54,
+      "text": "Itu malah seneng sama landing page-nya aja sih, kayak oh desainnya bisa bagus gini."
+    },
+    {
+      "start": 5317.54,
+      "end": 5326.54,
+      "text": "Ini namanya cloning-annya Notion, tapi yang offline first ya, versi Notion yang offline first ya."
+    },
+    {
+      "start": 5326.54,
+      "end": 5328.54,
+      "text": "Kurang lebih kayak gitu ya."
+    },
+    {
+      "start": 5328.54,
+      "end": 5332.54,
+      "text": "Oke, menarik, menarik."
+    },
+    {
+      "start": 5332.54,
+      "end": 5334.54,
+      "text": "\"Get the app.\""
+    },
+    {
+      "start": 5334.54,
+      "end": 5339.54,
+      "text": "Aplikasinya ada apa aja?"
+    },
+    {
+      "start": 5339.54,
+      "end": 5343.54,
+      "text": "Mac, ada platform? Linux, Windows?"
+    },
+    {
+      "start": 5343.54,
+      "end": 5344.54,
+      "text": "Macam-macam kok."
+    },
+    {
+      "start": 5344.54,
+      "end": 5347.54,
+      "text": "Oh, belum ada mobile ya? Baru di desktop ya?"
+    },
+    {
+      "start": 5347.54,
+      "end": 5350.54,
+      "text": "Ada, mobil juga ada."
+    },
+    {
+      "start": 5350.54,
+      "end": 5351.54,
+      "text": "Mana?"
+    },
+    {
+      "start": 5351.54,
+      "end": 5355.54,
+      "text": "Dia ada di lingkungan itu, atau scroll ke bawah coba."
+    },
+    {
+      "start": 5355.54,
+      "end": 5357.54,
+      "text": "\"Get the app\" yang tadi?"
+    },
+    {
+      "start": 5357.54,
+      "end": 5358.54,
+      "text": "Ada pokoknya."
+    },
+    {
+      "start": 5358.54,
+      "end": 5361.54,
+      "text": "Ada? Oh, baru tahu."
+    },
+    {
+      "start": 5361.54,
+      "end": 5369.54,
+      "text": "Gak tahu ya kalau beta atau forever kena nyoba soal. Nah, ini dia."
+    },
+    {
+      "start": 5369.54,
+      "end": 5375.54,
+      "text": "Oh, ada. Oh, ada di Google Play."
+    },
+    {
+      "start": 5375.54,
+      "end": 5381.54,
+      "text": "Oh, iya. Kok nggak di situ ya?"
+    },
+    {
+      "start": 5381.54,
+      "end": 5384.54,
+      "text": "Gak tahu ya, masih beta atau apa-apa."
+    },
+    {
+      "start": 5384.54,
+      "end": 5387.54,
+      "text": "Karena nge-access-nya pakai buat desktop."
+    },
+    {
+      "start": 5387.54,
+      "end": 5390.54,
+      "text": "Oh, ditutup ya sama dia ya."
+    },
+    {
+      "start": 5390.54,
+      "end": 5393.54,
+      "text": "Ini ada Swift juga, berarti ada buat iOS."
+    },
+    {
+      "start": 5393.54,
+      "end": 5396.54,
+      "text": "Oh, udah lengkap ya."
+    },
+    {
+      "start": 5396.54,
+      "end": 5400.54,
+      "text": "Oh, menarik, dicoba nih."
+    },
+    {
+      "start": 5400.54,
+      "end": 5403.54,
+      "text": "Pindah lagi."
+    },
+    {
+      "start": 5403.54,
+      "end": 5405.54,
+      "text": "Gak selesai-selesai, nggak produktif-produktif."
+    },
+    {
+      "start": 5405.54,
+      "end": 5407.54,
+      "text": "Gak selesai-selesai."
+    },
+    {
+      "start": 5407.54,
+      "end": 5413.54,
+      "text": "Dari dulu pakenya bare doang, bare writer, udah nggak pernah..."
+    },
+    {
+      "start": 5413.54,
+      "end": 5417.54,
+      "text": "Wah, kalau bare itu udah paling top."
+    },
+    {
+      "start": 5417.54,
+      "end": 5419.54,
+      "text": "Cuman masalahnya iOS only."
+    },
+    {
+      "start": 5419.54,
+      "end": 5422.54,
+      "text": "Apple only."
+    },
+    {
+      "start": 5422.54,
+      "end": 5425.54,
+      "text": "Sebagai pengguna HP Android."
+    },
+    {
+      "start": 5425.54,
+      "end": 5427.54,
+      "text": "Sebagai pengguna HP murahan."
+    },
+    {
+      "start": 5427.54,
+      "end": 5429.54,
+      "text": "Ya, murahan."
+    },
+    {
+      "start": 5429.54,
+      "end": 5433.54,
+      "text": "Tidak mampu untuk menjangkau-nya."
+    },
+    {
+      "start": 5433.54,
+      "end": 5438.54,
+      "text": "IPFS. Oh, si Anytype ini pakai IPFS ya?"
+    },
+    {
+      "start": 5438.54,
+      "end": 5443.54,
+      "text": "IPFS itu Web3 bukan sih?"
+    },
+    {
+      "start": 5443.54,
+      "end": 5447.54,
+      "text": "Gak tahu, belum ngulik sampai situ sih."
+    },
+    {
+      "start": 5447.54,
+      "end": 5452.54,
+      "text": "Kapan-kapan bahas alat testing?"
+    },
+    {
+      "start": 5452.54,
+      "end": 5454.54,
+      "text": "Pernah nggak sih?"
+    },
+    {
+      "start": 5454.54,
+      "end": 5456.54,
+      "text": "Testing pernah, tapi end-to-end dong."
+    },
+    {
+      "start": 5456.54,
+      "end": 5458.54,
+      "text": "Pernah tapi nggak mendalam banget."
+    },
+    {
+      "start": 5458.54,
+      "end": 5461.54,
+      "text": "Iya, belum bahas kayak apa, Papetir."
+    },
+    {
+      "start": 5461.54,
+      "end": 5463.54,
+      "text": "Papetir pernah ya."
+    },
+    {
+      "start": 5463.54,
+      "end": 5465.54,
+      "text": "Gak bisa, belum bulas."
+    },
+    {
+      "start": 5465.54,
+      "end": 5467.54,
+      "text": "Ya, Papetir pernah."
+    },
+    {
+      "start": 5467.54,
+      "end": 5470.54,
+      "text": "Yang Microsoft punya itu apa, Papetir?"
+    },
+    {
+      "start": 5470.54,
+      "end": 5472.54,
+      "text": "Cypress."
+    },
+    {
+      "start": 5472.54,
+      "end": 5477.54,
+      "text": "Bukan, setelah Cypress, yang Microsoft."
+    },
+    {
+      "start": 5477.54,
+      "end": 5480.54,
+      "text": "Bukan Cypress, Microsoft."
+    },
+    {
+      "start": 5480.54,
+      "end": 5481.54,
+      "text": "Cypress dong."
+    },
+    {
+      "start": 5481.54,
+      "end": 5483.54,
+      "text": "Lupa namanya."
+    },
+    {
+      "start": 5483.54,
+      "end": 5487.54,
+      "text": "Bukan Cypress apaan, Playwright."
+    },
+    {
+      "start": 5487.54,
+      "end": 5490.54,
+      "text": "Playwright."
+    },
+    {
+      "start": 5490.54,
+      "end": 5493.54,
+      "text": "Cypress kan sebelum itu."
+    },
+    {
+      "start": 5493.54,
+      "end": 5495.54,
+      "text": "Boleh, boleh, boleh."
+    },
+    {
+      "start": 5495.54,
+      "end": 5496.54,
+      "text": "Terima kasih ya."
+    },
+    {
+      "start": 5496.54,
+      "end": 5499.54,
+      "text": "Eh, episode 12 belas, pernah lagi."
+    },
+    {
+      "start": 5499.54,
+      "end": 5503.54,
+      "text": "Pernah ya, episode 12 belas, 2023."
+    },
+    {
+      "start": 5503.54,
+      "end": 5505.54,
+      "text": "Tapi kan nggak mendalam kan?"
+    },
+    {
+      "start": 5505.54,
+      "end": 5509.54,
+      "text": "Ya, nggak mendalam karena banyak yang dibahas."
+    },
+    {
+      "start": 5509.54,
+      "end": 5511.54,
+      "text": "Berarti mungkin besok-besok kita potong-potong"
+    },
+    {
+      "start": 5511.54,
+      "end": 5514.54,
+      "text": "kalau misalnya unit testing doang, end-to-end doang."
+    },
+    {
+      "start": 5514.54,
+      "end": 5517.54,
+      "text": "Yang kayak biar di-deep dive."
+    },
+    {
+      "start": 5517.54,
+      "end": 5519.54,
+      "text": "Oh, kalau yang ini kayaknya kita mostly"
+    },
+    {
+      "start": 5519.54,
+      "end": 5522.54,
+      "text": "banyakan bahas tentang, iyalah, semua ya?"
+    },
+    {
+      "start": 5522.54,
+      "end": 5524.54,
+      "text": "Ya, genis-genis testing."
+    },
+    {
+      "start": 5524.54,
+      "end": 5529.54,
+      "text": "Kalo yang waktu itu kayak overall aja, kayak general."
+    },
+    {
+      "start": 5529.54,
+      "end": 5532.54,
+      "text": "Boleh tuh, jadi bagus."
+    },
+    {
+      "start": 5532.54,
+      "end": 5534.54,
+      "text": "Jadi bagus, dari Bali."
+    },
+    {
+      "start": 5534.54,
+      "end": 5535.54,
+      "text": "Terima kasih."
+    },
+    {
+      "start": 5535.54,
+      "end": 5536.54,
+      "text": "Kita dari Bali."
+    },
+    {
+      "start": 5536.54,
+      "end": 5538.54,
+      "text": "Efraim, Efraim, oke."
+    },
+    {
+      "start": 5538.54,
+      "end": 5541.54,
+      "text": "Kita masukkan ke wishlist ya."
+    },
+    {
+      "start": 5541.54,
+      "end": 5543.54,
+      "text": "Oke, cukup mungkin untuk malam ini."
+    },
+    {
+      "start": 5543.54,
+      "end": 5545.54,
+      "text": "Terima kasih banyak buat semuanya"
+    },
+    {
+      "start": 5545.54,
+      "end": 5547.54,
+      "text": "yang sudah hadir dan meramaikan."
+    },
+    {
+      "start": 5547.54,
+      "end": 5549.54,
+      "text": "Kita ketemu lagi minggu depan"
+    },
+    {
+      "start": 5549.54,
+      "end": 5550.54,
+      "text": "dengan topik yang berbeda."
+    },
+    {
+      "start": 5550.54,
+      "end": 5551.54,
+      "text": "Selamat malam."
+    },
+    {
+      "start": 5551.54,
+      "end": 5553.54,
+      "text": "Sampai jumpa, bye-bye."
+    },
+    {
+      "start": 5553.54,
+      "end": 5555.54,
+      "text": "Bye-bye."
+    }
+  ],
+  "fullText": "Halo, halo, halo. Selamat malam. Harusnya lagunya \"Countdown\" itu kita sambil joget-joget tau gak sih? Biar daripada orang nungguin cuma \"Countdown\" kita sambil joget-joget gitu. - Jangan dong. - Jangan mau nonton. - Kabur semua. - Nanti pada kabur. Kan podcast bergoyang gitu. Mungkin kita bisa ganti nafas. Nanti masuk TikTok. TikTok udah di-ban. Eh udah di-ban, gak jadi di-ban lagi sekarang ya. - Udah bisa di-access lagi. - Gimana sih? Bisa di-access lagi. - Kok boleh? - Gak tau. Itu ceritanya gimana. - Udah politik, politik negara. - Lobby-lobby lah itu. Politis sekali ya. Berjumpa lagi bersama kita bertiga. Kembali ke format 3 web-web. Ada Eka yang jago UI, CSS. Ada Ivan yang jago performance, dan ada saya Riza yang... - Jago apa? - Yang jago. Yang tidak jago-jago aman. Riza itu jago semuanya. - Apa itu namanya? Yang master of none itu? - Jack of all trades. Jack of all trades, master of none. None itu ini tau gak sih makanan di India itu? None. - Iya, iya. - Master of meal. - Master of meal. - Enggak. None itu kalau kita satu tambah satu, tapi satunya string. - Satu tambah. - Iya, seneng deh bangga. Bagus, bagus, bagus. Sudah mulai ini ya. Sudah mulai ini ya, jokes-nya sudah mulai masuknya. Sudah mulai menyesuaikan dengan jokes-nya JavaScript ya. Jadi malam hari ini adalah episode ke 114. Udah 114 ya. Karena kita hampir setiap minggu live, dan di episode ini kita akan membahas tentang sebuah paradigma, bukan paradigma. - Phenomena. - Phenomena yang namanya Lokal First. Tadi kita hampir membahas topik ini sebelum live. - Tadi kita sempat debat loh. - Ini bahasnya pas live, bukan di batik layar. - Jadi mungkin sedikit background dulu. Awalnya saya tahu tentang Lokal First ini dari sebuah aplikasi yang namanya Actual Budget. Yang 2 minggu lalu ya, kalau gak salah kita sempat omongin ya, Actual Budget. Jadi Actual Budget ini kayak personal finance app lah ya, aplikasi finansial, aplikasi pengatur keuangan. Tapi dia formatnya web, aplikasi web, dan open source. Bisa di deploy sendiri, bisa dijalankan di localhost sendiri. Tapi dia tidak bergantung kepada server, jadi bisa dijalankan di local. Karena ini personal finance, gak ada kebutuhan untuk kolaborasi dan lain-lain, jadi datanya tidak di share, datanya berada di komputer kita. Saya tahu saya, makanya disini kan ada you own your data. Tapi juga bisa, tetap bisa syncing. Karena bisa aja aplikasinya bukan hanya diakses di desktop, tapi juga di mobile. Itu datanya gimana, datanya berada dimana, yang jadi master-nya yang mana, yang jadi replicate-nya yang mana, kita harus cari tahu lebih dalam sih. Itu awalnya saya tahu tentang istilah local first. Ternyata semakin kesini semakin berkembang dan definisinya juga bermacam-macam ya. Mungkin ada penjurusan. Kalau dari Ivan gimana? Awalnya kan ini kan kayak aplikasi yang dijalankan, yang semuanya dijalankan di device-nya masing-masing. Contohnya kayak local first, kalau di dunianya WordPress kita ada playground namanya. Saya coba contohin itu. Oke sebentar. Yes, copy. Oh ini yang pakai, yang pakai container itu bukan ya? Ya ini pakai Wasm, terus dia pakai SQL, pakai Wasm, pakai SQLite, untuk menjalankan proses PHP, web server di browser. Tapi ini bisa diakses secara offline. Kalau sudah selesai di load, sudah di download sama kayak actual budget kan, kalau sudah di load semua filenya bisa diakses di local. Atau maksudnya lebih tepatnya bisa diakses tanpa internetnya, itu maksudnya ya. Dan ketika kalau misalkan aplikasi kayak actual budget, ketika kita kembali konek ke internet, dia akan kembali syncing lagi gitu kan ya? Kalau ini, murmi hanya untuk playground saja. Cuma kalau di reload-reload, datanya tetap disimpan di SQLite yang ada di storage, jadi di browser. Jadi datanya bisa tetap di reload. Ngomong-ngomong kok berdiri di tengah. Lanjut, lanjut, lanjut. Nah ini kan seperti sebuah instalasi, sebuah WordPress, tetapi ada di browser. Ini sudah pernah kita cerita-cerita, waktu kita bahas Wasm. Nah ini juga termasuk local first. Nah, ada satu paradigma yang saya nonton sebuah seminernya, saya lupa, saya pernah bagikan di grupnya kita. Tapi saya lupa nama mbaknya itu siapa, nanti saya coba cari ya setelah saya sampaikan. Apa namanya, sebuah paradigma itu seperti ini. Local first itu bukan artinya hanya database atau storage saja yang ada di lokal. Jadi aplikasinya jalan di lokal, database ada di lokal, dan yang mana nggak cuma, maksudnya aplikasi itu nggak cuma, batasannya bukan cuma storage. Nah lebih tepatnya gitu, batasannya bukan cuma storage. Tetapi lokal itu artinya, lokal first itu artinya adalah aplikasi ini diperentukan untuk personal dan orang-orang di sekitarmu saja. Jadi bukan kalau Facebook atau Twitter kan bukan lokal first, dia udah sosial, lokal, dunia first, global first. Kalau kita bikin CMS, WordPress untuk dipublish itu bukan lokal first, itu public first gitu ya, internet first. Sedangkan kalau lokal first itu adalah aplikasi yang kita bangun hanya untuk di lokal kita sendiri. Contohnya pernah tau, siapa tau ada sini teman-teman yang suka bermain dulu mainan bikin aplikasi, aplikasi yang.. apa bahasanya kalau.. yang desktop, aplikasi desktop lah contohnya ya, yang hanya untuk dipakai di lokal, contohnya intranet, Microsoft Office yang.. DB apa itu database? Akses, nah itu lokal first. Bisa dikategorikan lokal first. Bisa di share nggak? Bisa. Bisa, bisa di share. Bisa, pakai network, tapi diperentukan waktu dibuat dia hanya untuk di lokal, untuk di komputer masing-masing. Kalau kita mau pakai aplikasinya kita kopi aja, aksesnya buka sendiri di komputer kita gitu kan ya? Betul, jadi di kopi ke flash disk, di insert tampak lain, jatahnya berbeda jadi pakai untuk di.. Nah, tapi di akalin nanti suatu saat kalau dari dulu akses itu dibikin jadi storage. Jadi dua komputernya berbeda bisa akses database yang sama, bisa akses yang sama, ya. Jadi yang disampaikan si Mbak itu di.. nanti saya kasih link YouTube-nya ya. Maggie Appleton bukan? Maggie Appleton? Kayaknya sih ya, betul, betul, betul. Yang pernah saya share, Maggie Appleton, betul. Yang pernah share banyak. Iya banyak banget ya. Nah, jadi aplikasi yang dibangun untuk personal dan untuk orang-orang di sekitarnya. Oh iya, kayak ini juga termasuk kiosk, kayak informasi atau kita mau pesen tiket di sebuah.. Misalkan, ya kalau bioskop sekarang kan udah ada komputernya kan, kalau misalkan ada kiosk gitu, mau ngambil nomor antrian, mau pesen tiket, itu termasuk lokal first kali ya? Kayak ini kali ya? Iya, iya. Kayak untuk antrian di rumah sakit, misalnya mau masuk ke polyklinik mana, pencer, atau bank, atau bank. Nomor antrian sekian. Ya, nomor antrian untuk customer service, untuk tailor, yang mana, gitu kan. Sedangkan nomor antrian itu kan, meski mumpahnya sama, nggak butuh synchronize ke cabang lain. Iya, betul. Itu lokal first yang sudut pandangnya, jadi nggak cuma storage. Oke, dan juga bukan lokal host ya, kita develop lokal host. Bukan lokal host. Bukan. Iya. Nah, mungkin pendapat Eka atau pendapat Mas Risa gimana? Nah, nggak, kalau gue sih nyorotinya, ini kan, apa ya, bukan spesifikasi teknis. E, lokal first itu kan, yaitu tadi bisa dibilang filosofi lah, paradigma lah. Jadi maksudnya, ya kalau Maggie Appleton misalnya, atau siapapun lah, mau, ya misalnya di conference talk, present, itu kan sebetulnya perspektif dia tentang lokal first. Jadi kan sebetulnya orang lain atau perusahaan lain atau organisasi lain bikin product yang nggak sepenuhnya ngikutin perspektifnya, apa, ngikutin definisi-definisinya si Maggie Appleton itu ya. Dan tetap menyebut itu lokal first kan sebenarnya sah-sah aja. Karena lagi-lagi kalau, kecuali kalau apa ya, kalau protokol kayak HTTP itu kan udah ditulis, ada teknis, apa, spesifikasi teknis, dan semua pihak terkait tuh harus setuju dulu kan, sama misalnya web API lah, atau apa, misalnya fetch itu behavior-nya gimana. Itu kan nggak bisa orang, ya dulu bisa ada yang bikin fetch ala-ala, tapi maksudnya teknologi-teknologi kayak gitu kan udah ada definisi, yang kalau kita mau menyebut sesuatu sebagai A, berarti itu harus begini-gini-gini. Kalau nggak memenuhi ini, berarti bukan A. Kalau lokal first kan nggak seseklek itu ya, kayak contoh aja tadi misalnya apa yang disebut, yang dipropos oleh Maggie Appleton itu sesuatu yang dibuat untuk lokal kita sendiri atau lingkungan sekitar kita sendiri, kayak contohnya kiosk atau mungkin IoT. Tapi misalnya yang salah satu, gue pribadi apa, pertama kali denger tentang istilah lokal first ini dari Linear. Linear itu aplikasi kita pernah bahas sekilas juga ya, 2 episode lalu, itu aplikasi semacam Jira lah untuk project management, tapi UI-heavy. Itu pakai React, UI-heavy ya standar lah, tau kan, kalau tiket bisa digeser, bisa ada kayak waterfall timeline-nya. - Ada tambahan board-nya atau apa gitu ya. - Itu yang saling nge-blocking ya, pokoknya emang UI-heavy banget, dan bisa dibayangin ya kalau aplikasi project management kemungkinan besar nggak dibikin oleh satu orang, nggak digunakan oleh satu orang, dan itu orang-orang yang menggunakan biasanya di lokasi yang berbeda-beda. Jadi tetap ada central database-nya, tapi yang sea linear ini mengedepankan banget tentang konsep offline first, mungkin ya itu salah satu pengbeda mereka dari Jira atau software project management lain ya, dan karena itu pakai React, jadi mereka sering ngasih talk kayak di, apalah, React, Helsinki, Meetup, blablabla, tentang gimana mereka menghandle. Nah, tapi tetap aja, karena balik lagi itu kan sebetulnya kayak project management konvensional lainnya, tetap ada central database-nya, tapi ada juga, jadi ada kesamaan dan ada perbedaan dari konsep-konsep yang tadi dijelasin Ivan, seperti yang di-propos oleh Maggie Appleton, kayak semua jalan di lokal, jadi misalnya nggak selalu internet mati, tapi mungkin internet nggak lancar atau apalah, jadi nggak bolak-balik ngasih, lebih enak aja, lebih snack, kita ngetik, ngetik isi tiket, geser sana-sini secara periodik di sync, ada sync engine-nya. Jadi maksudnya, tetap ada suatu kayak keunggulan dari filosofi local first itu, walaupun implementasinya, maksudnya kayak definisi untuk apanya, penggunaannya, nggak sakok-sakok banget dalam satu definisi yang sama kan sebenarnya itu agak, penampilannya agak berbeda, tapi ada keunggulan, kayak ada kesamaan-kesamaannya juga. Itu menarik sih. Kayaknya Git juga local first, Git itu kan dibangun local first, karena semua kopi, semua di local kita kan di .git. Betul. Datanya, ya itu yang mau saya highlight adalah benar tadi setuju dengan pernyataan Ivan yang menyatakan bahwa bukan aplikasi yang tidak membutuhkan internet, internet pasti dibutuhkan, tapi lebih ke yang tadi ya ada, yang penggunaannya ya kita sendiri atau orang-orang terdekat, kemudian kalau saya lebih menghighlight lebih ke data ownership-nya. Kemungkinan kalau kita menggunakan aplikasi yang local first, mungkin juga nggak. Kayak misalkan kayak tadi yang dicontohkan Eka linear itu data ownership-nya bukan di kita, tapi tetap bisa kita pakai pada saat internetnya, misalkan kita lagi di pesawat misalkan, kita mau pindahin aja kita harus nunggu internet gitu kan. Contohnya lagi misalkan kayak pencatatan kayak note taking, misalkan Notion dibandingkan dengan Obsidian. Notion butuh koneksi internet gitu kan. Kita mau edit-edit aja mungkin harus buka dulu kan, begitu kita buka harus dia loading dulu, dia synchronize datanya dulu baru kita bisa pakai walaupun misalkan offline bisa mungkin ya, tapi dalam waktu singkat gitu. Tapi kalau misalkan kayak Obsidian atau kayak Git tadi meskipun kita berada di apa nggak pakai koneksi sama sekali, ketika kita mau ubah baru kita push gitu kan. Obsidian juga sama, datanya ada di lokal kita, tapi kalau kita mau sync ya bisa gitu. Jadi lebih ke sana, lebih ke arah mungkin kalau ngomongin ya memang bukan hanya data, tapi kalau mau ngomongin data, datanya ada di lokal ada replikasinya juga di server. Kayak Git kan kita mau push berarti kita butuh server kan, butuh hosting ya GitHub atau Bitbucket dan lain-lain. Nah jadi kesamaannya itu ada faktor data, kita mengontrol data, ada faktor kayak UX kan, UX bahwa kita nggak bergantung pada koneksi internet dan nggak bolak-balik, harus mesing, pokoknya kita ngelakuin suatu action, suatu task tuh bisa dengan mudah lah sama alat yang kita punya, yang kita pakai. Iya, kalau jaman dulu Evernote ya, tapi Evernote juga datanya ada di servernya mereka kan ya, sama kayak Notion ya. Cuma Evernote itu kan nggak tahu dulu pakenya yang natif ya, nggak tahu kalau web appnya, kalau yang natif ya sebetulnya agak mirip Obsidian datanya kayak ada semacam tem di lokal, jadi kalau internet mati atau apa ya semua data kita di situ, di lokal. Jadi kembali lagi kayak PWA ya? Iya, awal bukanya tetap butuh internet tapi setelah itu mungkin tetap butuh untuk syncing kalau aplikasinya butuh synchronization ya. Jadi sebenarnya kuncinya itu ada di beberapa teknologi sebenarnya ya. Yang pertama kalau misalkan butuh database ya, butuh database yang bisa jalan di lokal. Ada local storage, ada remote storage, tapi remote storage-nya kan opsional kalau pake definisinya Maggie Appleton tadi. Betul, betul. Dan kalau di Bras, harus ada storage di lokal. Ada IndexDB kan ya, nggak mesti harus pakai, apa yang kemarin lokal first, nggak ada satu lagi yang Lucene, bukan Lucene, yang database yang bisa untuk lokal. Yang ada versi lokalnya, ada versi offline-nya, bukan on-line-nya. CausedDB. CausedDB itu pouchedDB. PouchedDB, kalau pouchedDB itu sebenarnya dia wrapper di atas IndexDB sebenarnya. Cuman dengan sintasnya causedDB aja. Memubahkan syncing kan, in case kita mousing. Ada apa, ada mekanisme bagaimana caranya untuk mengatasi conflict, conflict resolution. Istilah kerennya itu conflict free replicated data type, CRDT. CRDT. Jadi kalau misalnya ada conflict kan, kalau di Git itu kan kita harus manusia yang ngecek kan, oh ini yang kita ambil, ini yang kita buang gitu kan. Nah kalau CRDT itu ya secara otomatis gitu. Yang mana yang ada mekanismenya, yang terbaru kah, atau yang apa gitu, ada macem-macem ya. Nah itu sepertinya salah satu fitur yang apa ya, bisa dibilang inti ya dari local-verse. Walaupun kalau, lagi-lagi kalau ikut definisinya Mike Giappolten tadi, yang nggak harus bisa aja, nggak harus di sini, ke mana pun, ke remote. Tapi ya istilah rata-rata pada umumnya, kalau pun use case yang tadi kayak Antriana atau Kiosk at the end of the day, kemungkinan ada yang bakal meminta, membutuhkan apa, bisa aja ada yang ke sini. Gak itu ke pusat kan, misalnya kita punya 100 cabang gitu, ya mungkin aja itu use case yang wajar banget. Suatu saat, walaupun nggak harus terus menerus nih, nggak harus terus-terusan kayak linear, ya tetap aja ada kalanya perlu di sync. Jadi kelihatannya sync teknologi untuk sync storage antara storage si lokal dan somewhere remote storage tuh kayaknya salah satu kuncian. Betul. Kayak obsidian aja, obsidian kita pakai di lokal kan. Tapi tetap butuh sync, syncnya juga ke handphone, ke device kita juga gitu. Kita pusing kan, gitu kan. - Kan servernya obsidian, ke device kita yang satunya kan harus lewat server dia, server remote. - Betul. Tapi untungnya karena dia pakai file system, kita bisa pakai kayak Google Drive, pakai Dropbox, atau pakai S3 gitu, kalau yang mau di cloud, atau macem-macem lah gitu. Dan CRDT-nya itu sudah dihandle sama aplikasi-aplikasi itu. - Layanan yang kita pakai. - Layanan yang kita pakai. Jadi dia cuma nebeng aja. - Nah, tapi kan obsidian juga premiumnya dia punya layanan cloud sendiri. - Ada sync, ya ada. Ada sync sendiri. - Yang, maksudnya salah satu yang dijual keunggulannya adalah ya itu kayak nge-mungkin handling, apa? Jadi di HP kita bisa pakai aplikasi obsidian juga, yang mana mungkin user kan lebih udah familiar, lebih enak pakenya, editan kita di HP misalnya, dengan editan kita di laptop, ya si obsidiannya yang punya aplikasi proprietary yang nge-handling resolusi konflik antara data-data yang di sync itu, ya itu berbayar. Maksudnya itu additional service kalau kita nggak mau pakai, kita mau nge-sync pakai Dropbox, atau bahkan pakai Git, atau pakai apapun. Bisa, tetap bisa karena file system. Nah, tadi udah lah database, kemudian ada CRDT, Config Free Replicated Data Types, terus kalau yang berdasarkan definisi Ivan tadi yang digunakan oleh kita dan orang-orang sekitar, berarti itu butuh protokol untuk koneksi peer-to-peer. Entah itu pakai WebRTC, atau WebSocket, atau ada satu database juga yang memang tujuannya untuk itu, dulu kayaknya sempat hype deh namanya GunJS, ada yang tau nggak? Gun, wepon-wepon GunJS. Gun, Gun itu kan JavaScript engine. Namanya hidup-hidup semua sih. Ya, bentar ya kita share. Ini decentralized database. Dulu ini lumayan red juga karena benar-benar bisa diakses di front-end dan bisa sync tanpa perlu server, dan kalau ada server, dia bisa sync. Jadi kayak cause DB dan post DB juga. - Lama-lama kita jadi web tree dong ya. - Ini kan dia udah nulis nih, distributed ad. Kayaknya dia peruntukannya kesana ya. We're going to build a peer-to-peer the app. Oh sekarang namanya gun.eco. Udah beda lagi namanya. Ya nggak, itu domain-nya doang. Masih active nggak sih? Masih active. Oh iya, coba kita lihat ya, udah berapa apa ini. Documetation GitHub. Masih active nggak ya? 2 bulan yang lalu. - Oh masih, tapi ritminya doang sih. Tapi ya lumayan lah, active. - Open-source cybersecurity protocol for syncing. - Ya hooknya sih 9 tahun, tapi ya nggak apa-apa. Kalau source-nya tahun lalu. - Tahun lalu. Oh udah nggak begitu ya berarti. Nggak terlalu active lah ya. - Tapi mungkin ya... - Puritasnya masih banyak, tapi nggak dimers. - Mungkin itu ini kali. Apa namanya, coba kalau diklik bisa jadi itu. Oh bukan, gue kira ini. Apa namanya yang dependable. - Oh dependable semua. - Gak ada nih. - Gak ada, nggak ada. Disini juga banyak. Oke, lanjut lanjut. Berarti itu tadi ya, jadi ada untuk koneksi peer-to-peer. Berarti bisa pakai ini juga dong. Ini nggak tahu ya ceritanya benar atau nggak kabarnya. Spotify itu menggunakan peer-to-peer seperti torrent. Jadi kalau misalkan kita muter musik yang A, terus ada mungkin tetangga kita atau orang di dekat kita itu jauh lebih cepat karena kita udah pernah download. - Itu kan jamannya dulu, sebelum Spotify, apa ya jamannya dulu? - Napster. - Napster itu kan? - Iya, modelnya kayak gitu. Cuman kan ini kan dibungkus biar nggak kelihatan seperti, biar nggak kelihatan illegal gitu. Nggak bisa di-download kan sebenarnya kan. File-nya ya kalau dicari mungkin bisa, tapi susah, sulit. Tapi kan sebenarnya kalau legal-illegal cuma perkara kayak hak-haknya darin aja kan, tapi teknologinya, teknisnya itu gimana ya? Teknisnya, kan torrent itu dipakai untuk share file-file ukuran besar kan, kayak distro, ores. Ukuran kecil juga bisa. Bisa-bisa jadi torrent server sekarang, mas Rizal sedot untuk file-file yang legal misalnya nggak masalah. - Itu nggak masalah, betul. - Cuma misalnya aplikasi torrent kan kita emang masukin, kita buka direktori lokal kita, itu emang di-upload kan, jadi internetnya harus kita nyalain juga kan, harus kita jual. Nah berarti Spotify itu kayak semacam dia bikin kayak temporary atau cache diri di lokal kita, itu tuh kalau misalnya kita idle atau nggak ngapa-ngapain, dia berarti ngirim terus kan, maksudnya sambil nge-upload kan. Ya nggak tahu coba siapa yang pakai Spotify. Coba teman-teman yang pakai Spotify, install Wireshark dulu. - Nanti gue coba sih. - Lihat traffic yang lewat. - Lihat di-slidikin aja, tapi K-Pop nanti coba. - Sekarang nggak tahu masih seperti itu atau dia udah pakai mekanisme lain, tapi dulu kabarnya seperti itu. - Yang saya tahu Youtube begitu. - Youtube begitu? - Tapi bukan Youtube-nya menyediakan, tetapi si provider internet, contohnya provider internet yang kayak.. - Akamai? - Nggak, kayak indie, provider indie internet. - Piring-piring itu, islinya Piri itu dia taro sesuatu di server, di ISP, internet service provider. - ISP biasanya di daerah mana? - Oh biar cepat. - Youtube-nya di-cache sama dia pakai Switch. - Oh iya benar-benar, itu juga. - Itu lucu juga sih. - Ini konsepnya kayak CDN kali ya, tapi jadi lebih dekat gitu ya. - Iya jadi per-neighborhood gitu. - Iya per data center. - Ya kalau jaman saya dulu, jaman saya di kantor, saya suka pakai Squid. - Squid, pernah denger? - Nggak pernah, dengernya Squid Game. - Squid network proxy, eh salah saya yang percaya, squid cache itu jaman saya, jadi supaya saya mempercepat internet kantor dulu, saya pakai squid network proxy, jadi semua internet itu melewati squid proxy dulu di cache, jadi kalau ada yang Facebookan, ada yang Youtube-an segala macam. - Halaman Facebook-nya sama? Oh nggak? - Nggak, tapi aset-asetnya aja. - Aset-asetnya itu jadi jauh lebih cepat, karena CDN-nya di kantor lah ya. - Iya udah pernah di-download, iya iya iya. - Berarti itu omak first to be... - Iya dulu pakai juga di kantor sih. - Nggak tahu jaman-jaman masih memakainya yang ginian. Ini teknologi 20 tahun lalu ini. - Ini masih aktif nggak sih? - Nggak tahu. - Dia open source nggak? - Open source? - Open source kan ya? - GENU GPL tuh jelas tuh dia tulis tuh. - Mana itunya source-nya? - Iya source-nya mana? - Dia mana pakai github mas? - Iya kan ada kan? - Mak github itu dari tahun berapa sih? - Mereka pakai, nggak tahu pakai apa ya. - Maksudnya ada source-nya nggak kelihatan di share gaya? Coba lihat aja bugzilla database. - Bugzilla database. - Dia terakhir ininya kosong. - Udah nggak ada bugs. - Gak ada bugs bisa berarti... - Paling bawah tadi ada developer resource. - Bisa berarti nggak ada yang pakai. - Paling bawah itu support developer resources. - Ini selenius developer resource. - Tuh kiri-kiri atas. - Oke kodnya dimana tuh? - Repository github. - Oh github? - Dua hari yang lalu. - Masih dia maintain, masih aktif. - Dua hari yang lalu gile, mantap. - Amanko itu scriptnya 3 minggu lalu. - Tapi pakai macbook-nya M4. - M4 itu apa ya? - M4, nggak tahu apa itu. - Ada C++ ada C++. - Request, tapi nggak ada isu ya. Dia nggak nerima isu. Kalau mau langsung request aja. - Mereka isunya mungkin mailing list kali. - Iya mailing list. Versi 6 minggu yang lalu. Berarti masih banyak yang pakai. - Tuh dari tahun 1996 tuh. - Tapi copyrightnya nggak diganti sampe tahun 2023. - Nggak bisa dinamis ya gantinya? - Nggak bisa pake variable. Jadi kayak gitu lah ya ada yang di cage, youtube taruhnya mungkin di ESP, kalau misalkan aplikasi musik mungkin peer-to-peer supaya kalau ada satu orang yang sudah pernah mendengarkan jadi dia downloadnya ke kita aja, semakin populer musiknya semakin cepat ya di play gitu ya. Itu kan ada filmnya kan ya? Si Spotify itu ada ceritanya difilmkan antara fiksi atau non-fiksi gitu lah pokoknya. - Tapi berarti itu udah keluar dari paradigma lokal first juga ya? - Iya itu bukan lokal first. - Karena bergantung ke banyak spot yang seeding. - Itu bukan lokal first, tapi dia lebih ke... Gimana caranya musiknya nggak buffer gitu, dia menyelesaikan masalah itu. - Itu sebetulnya cuma take over kan dulu Napster, Kaza, bukan banyak musik cuman dulu semua kayak gitu. Cuma bedanya cuma sumber kontennya aja kan. Kalo dulu tuh jadi ilegal karena kan kita nge-share file mp3 yang kita punya. Karena secara hukum kan kita nggak authorize buat ngebagiin itu, ya maksudnya masuk ranah virus sih. Cuma kalau dalam kasus Spotify kan dari awal bisa punya file itu juga dari Spotify kan, yang mana Spotify udah punya dealing legalnya. Jadi Napster itu dianggap ilegal karena banyak yang share adalah file, banyak yang nge-share musik-musik yang bukan free royalty. - Iya, kalau dulu kita beda masukin folder kita sendiri. Napsternya cuma bikin teknologinya, tapi memfasilitasi kan. Yang waktu awal-awal misalnya diperhentukan kayak semuanya bebas membagikan musik yang mereka buat sebenarnya. Contohnya kayak indie, kayak DJ, indie kreator. - Ya atau kita bikin apa misalnya pribadi, buat keperluan pribadi kita bikin lagu sendiri, ya boleh-boleh aja kan kita bagi ke temen atau siapa pun. Contohnya kalau dulu saya suka nonton film itu di Popcorn Desktop, pernah dengar? Popcorn Time. Popcorn Time itu juga salah satu pir-pir yang bisa langsung nonton. - Oh, itu toren bukan bass-nya? - Iya, toren bass. - Bass kan? - Sama. Kalau Napster kan music bass, kalau Popcorn Time dia movie bass. Dan itu aplikasinya masih ada di GitHub dan bebas-bebas aja. Ya tergantung kalau misalnya mau nontonnya yang film berbayar ditonton di situ bisa, asal tahu cara. - Mau yang royalty free juga bisa. - Yang royalty free juga bisa. - Oke. Nah, ini ada yang nggak kebayang bikin sing engine. Kalau bukan SBA plus Jason. - Itu tadi harus pakai CRDT. - Ya CRDT. - Nah, yang sulit itu kan, jadi balik ke local first lagi kayak misalnya kan harus ngecek, kayak div, berarti kan misalnya ada konflik, yang pertama kita cari kan perbedaannya, terus kayak timestampnya. - Salah. Sorry, sorry. - Lanjut, lanjut, lanjut. - Apa ya? Cuma definisi sing engine sendiri apa sih? - Nah, sebelum ke sing engine nih ada framework untuk CRDT. Salah satunya ada JS. - Saya pernah sampaikan ini kan ya. - Pernah ya? - Dulu. Pernah. Waktu saya lagi bangun bikin collaborative editing di WordPress. - Oh iya, collaborative editing ini cocok. Jadi pada saat user A lagi ngetik, user B juga ngetik di tempat yang berbeda, gimana cara resolusi supaya bisa jadi merge dua-duanya, nggak hilang datanya. Karena kan berada di lokasi dan mengedit hal yang berbeda, tapi masih satu dokumen. - Nah, itu div-nya pusing apa, ngecek difference-nya misalnya gini deh, ngedit string aja, ada kata saya, S-A-Y-A. Nah, user A nggak ubah kata saya, string S-A-Y-A-nya tetap, tapi dia masukin kursor di ujung kata saya, saya ditambahin ND jadi sayang. Nah, sedangkan user satunya nggak hapus itu, kan itu kayak dua action yang berbeda sama sekali, itu div-nya pusing ya, itu di handle sama framework-nya berarti. - Salah satunya ya. - Caranya kalau, saya lagi nyari videonya, kok nggak kelihatan sih kalau lagi begini. - Google Style Editing in Gutenberg, ini? - Kayak gitu, saya belum pernah publish ini. - Oh, demo-nya di sini. - Di Code Mirror bisa, kalau mau di test. - Secara teknis di belakang, itu dia lakukan seperti per-commit, jadi semua... semua text itu akan dijadikan vector, jadi graph, dan itu waktu ada perubahan di-commit dan perubahan itu akan digabung ke vector-vector itu, jadi bisa, misalnya kayak Eka tadi bilang ini S-A-Y-A, tambah N-G, tapi di tengah S-A, itu ditambahin satu, jadi S-A satu yang itu bisa, itu bisa di-merge kayak gitu. - Karena setiap ada perubahan, dianggap sebagai satu commit gitu ya? - Kayak ada snapshot, jadi kayaknya dia bikin snapshot kayak di Git gitu kan, setiap di tengah save file. - Ada, nanti di sini, di CRDT Implementation-nya itu dia ada dua paper yang dia terbikin bagaimana cara... - Pake paper. - Algoritm. - Iya, udah pake paper-nya. - Harus pake paper sih, karena ada algoritmanya, kan maksudnya ada logic-nya sendiri kan, itu tadi kan kita cuma... - Itu kalau mau, kita mau demo, mencet aja tuh demonya. Salah satu demonya mungkin, Prosmirror atau Codemirror atau Seradeh. Coba kasih link-nya ke temen-temen atau ke kita. - Ayo kita ketik sama-sama, oh ini ada orang lain muncul kan ya? - Iya, semua yang ketik disana. - Semua yang lagi nonton kita. - Selamat malam Mas Ricky. - Apus lah. - Nah, cursor itu juga nanti namanya Awareness. Jadi ada datanya ada dua nih di sini. Datanya ada data content sama data awareness. Awareness inilah yang membuat user. Jadi EKA user-nya yang mana, cursor-nya yang mana, itu yang akan mengirimkan datanya. - Ini local storage bukan? - Mungkin ada local storage-nya. - Nggak ada. - Ini ada 3 binder, ada binder-nya. - Ah Firebase, local storage DB. Waduh, waduh, waduh. - Itu pakai apa sih? Websocket? - Nggak ada, nggak ada. - Bisa jadi pakai Websocket. - Tapi cepet banget. - Dia bisa WebRTC juga. - Oh iya, Websocket. Ini mesejnya tuh. Tapi pakai binary dia, nggak bisa dibaca. - Wow. - Siapa sih yang bikin subscribe, guys, subscribe, guys, subscribe, guys? - Bukan gue. - Nggak tahu. - Oke, sudah, sudah, sudah. Lanjut, lanjut, lanjut pembahasannya. - Nah itu untuk ini tadi ya, kalau misalnya mau synchronize, bisa pakai Yjs. Pakainya nggak straightforward, harus kalian bikin binder-nya sendiri, binding-nya. Ada caranya API-nya ada, sudah lengkap bagus, dokumentasinya bagus. Tapi momenya itu nanti saat mulai memikirkan user-nya banyak, gimana, artist-nya gimana, synchronize apa, scaling-nya, scaling, scaling susah. Dan kadang dia ada nge-bug, kalau misalnya dia nggak bisa conflict, sudah terlalu ribet conflict resolution-nya, dia akan reset ke initial state. - Kok harus reset? - Dia udah bingung. Nah, udah. - Menarik. - Macau juga ya. - Ke initial state sebelum ini ya, sebelum session itu dimulai ya, maksudnya. - Ya, kalau mulai dari kosong, enggak. - Iya, maksudnya initial state, kan. - Initial waktu kita nggak initialize objek Yjs. - Aplikasi itu. - Iya, ibaratnya kosong, misalnya kita collaborative editing, kita udah nulis 3 paragraf, cuma maksudnya pada reset ngeditnya, berarti kan itu kayak kosong lagi kan, kalau skenario-nya gitu. - Bisa diakalin dengan autosave, kan bisa. - Oh, ada autosave-nya. - Kalau misalnya ada fallback-nya, ada masalah, dia reset, ambil lah yang dari local storage. - Ya, dan itu kita yang nge-handle sendiri, kan? - Iya. - Ada fitur autosave-nya, tapi untuk ngaktifkan input dan manage fitur kemana. - Iya, ini adalah contoh video yang lumayan bagus tentang Yjs, dia bikin aplikasi to-do, tapi bisa offline dan real-time pakai Phoenix Live View, Svelte dan Gjs. Siapa tahu ada yang mau lihat gimana kira penggunaannya. - Oh, ini nggak bisa dihilangin ya? Oh, gini ya. - Mau dong, gue mau belajar Phoenix, gue mau belajar Svelte. - Nah, ini di sini dia ada kasih lihat nih contohnya nih, to-do yang di kiri, yang di kanan itu bisa sync, kalau lagi offline gimana, terus kalau dia update lewat API, ininya berubah langsung gimana, jadi bisa kalau ada yang mau belajar Yjs juga bisa cek di video ini. - Oke. - Keren, keren. - Nah, selain selanjutnya, tadi kan conflict resolution-nya, terus juga ya ini tadi, apa namanya, sync engine jadinya, larinya ke sync engine, salah satunya ya Zero, ada Electric SQL, ada Power Sync, ada macem-macem. Dan itu udah termasuk conflict resolution nggak? - Nggak, conflict resolution itu beda. - Nggak ya? - Oh, nggak tahu, kalau Zero bisa conflict. - Beda sendiri? - Saya nggak tahu. - Kalau Zero nggak tahu, tapi kalau Power Sync sama Electric SQL, udah ada fitur itunya. - Iya, kalau nggak salah sih, mungkin beberapa ada, beberapa yang mungkin nggak ada gitu ya, harus di cek juga. Ini Power Sync, dia database-nya, kayaknya selama SQL aman ya database-nya, ini ada gambar apa nih, monggo dibi, ada ikan paus apa nih, oh pausnya dia ada, MySQL ya, MySQL. Berarti database yang umum digunakan, tapi dia menggunakan SQLite sebagai embedded database-nya di lokal, iya. - Jadi dia agnostik, apa teknologi agnostik lah ibaratnya di lokalnya, kita mau bikin pakai set-up yang umum lah, yang penting bisa nulis ke SQLite. Dan kalau Power Sync itu, sempat lihat-lihat sih, senang karena dokumentasinya bagus aja, kayak relatif, mudah dimengerti, web dev, terutama yang front-end ya, yang nggak biasa begini-gini, itu kalau harus bikin, harus pakai itu kelihatannya bakal relatif, mudah lah, banyak SDK-nya, wrapper-nya juga. - Power Sync, belum pernah dengar ya ini? - Iya. - Iya, tadi dia pakai yang tadi tuduh tadi? - Bukan. - Beda lagi. - Cuma dia branding-nya adalah sync engine untuk lokal first dan offline first. Nah, perkara implementasi detail-nya gimana kan bukan urusan dia apanya dia ngurus data storage antara di client, di device, sama di remote. - Oke. - Ada lagi namanya electric SQL. Di electric SQL ini, sebenarnya di Postgre kan ya? - Entah, itu yang mana tuh? - Ada lagi. Sekarang banyak lagi nge-trend. - Nge-trend, ya. Jadi sync subset of your Postgre data into local apps and services. - Terus abis itu dia bikin project namanya PG Lite yang bisa jalan di browser dengan Wasm. - Nah, jadi ini gimmick-nya adalah syncing, jadi ya itu tadi tagline-nya jadi kayak cuma, nah ini pernah lihat, kayaknya lihat YouTube tentang ini atau apa, cuma pas itu karena buru-buru nggak paham, serius, cuma kayaknya yang gue tangkap sekilas adalah yang nge-diff itu nge-check perbedaannya apa, terus ya mungkin dia punya settingan conflict resolution, macem-macem. Ya pokoknya dia meng-update sisanya apa yang berubah, apa yang berbeda aja. Tetep nggak ngerti sih, tetep belum ngerti karena belum nyoba beneran. Ya itu, dan lagi-lagi gimmick-nya adalah dia kayak environment agnostik, ya itu kayak bisa di lokal, bisa di, apalah serverless, bisa di server biasa. Gimana? Kayak tadi lagi bisa nge-tick royokan. - Bukan nge-tick, ini gambar nih kayaknya. Loh, gimana gambarnya? - Belum muncul, belum loading. - Oh, belum loading ya? Belum loading. Reload. Loh, lo pake VT. - Gak bisa. - Gak bisa. Eh, ada plus. - Gak bisa. - Error apa? - Udah muncul color picker. Error itu buka console. - Error ya. - Pit request, tadi bikin demo, error. - Error. - Itu ada notes tuh, pake YJS juga. - Notes. - Nah menariknya, Sunking C Linear itu udah linear app itu udah dianggap sebagai apa, kayak pelopor lah, yang paling beken dalam gimmick local first. Itu kan tadi demonya ada clone-nya linear. - Gak bisa juga. Oh, ada clone-nya linear. Gak bisa juga. Gak complete. Kayaknya CDN-nya atau apa, error gitu ya. Ya gitu lah, electric SQL. - Linear light. Tapi intinya punya, apa konsepnya? - Makin banyak ya. - Sinking. - Oh, ini ya. - Maksudnya, ininya tools-tools untuk mendukung kita untuk membangun local first app itu makin banyak yang bisa dipakai. - Iya. - Trend-nya mungkin keadaan sana kali ya. - Iya, nah itu keliatannya. - Dan terakhir, ada Zero. - Iya. - Zero ini, kalau gak salah, bisa pakai Prisma ya, kalau gak salah ya. Kalau gak salah. Ada ininya. Jadi dari database SQL bisa di-convert ke Zero SQL namanya. - ZQL. - Nah ini dia. Jadi aplikasi web kita di sini, ada klien-nya, dia connect pakai Websocket, ada kids-nya, kemudian ada replikasi, baik itu ke Postgre atau MySQL. Nah, koneksinya itu apa, perintah-perintahnya itu menggunakan ZQL. Jadi, tapi ada projek yang bisa mengubah atau migrasi data dari ORM seperti Prisma atau Drizzle ke ZQL. - Dunia lagi berbalik ya. Dari yang Microsoft Access, jadi SQL Server, sekarang balik lagi ke MySQL Access. - Tapi bisa single-nice. - Dari yang lokal-only, yang gak ada koneksi internet kemana-mana, terus langsung global semuanya terpusat, client-server, terus balik lagi lokal, terus bisa terpusat juga, bisa dua-duanya hybrid ya. - Nadi show notes tuh gue nulis gitu kan, kalau dulu, dulu banget kan paradigma-nya adalah kalau aplikasi native, ya kayak apa lah, gak usah Microsoft Access atau apa yang terlalu sulit, Microsoft Word lah, yang semua orang punya kan dulu, walaupun bajakan, Microsoft Word, Notepad, itu semua kan by default pasti offline first, karena ya apa, home user belum tentu punya internet juga, intranet paling ya kayak ada di kampus atau di manapun. Terus sekian tahun kemudian, web, kalau aplikasi web, web app by default pasti online only kan, online only, karena untuk kebuka harus dari web browser. Nah itu kan dulu kayaknya terpisah kayak gitu, cuma lama-lama ya aplikasi native juga kan semua service-nya harus connect ke online, kayak sekarang Adobe kan makin banyak, kayak Adobe Photoshop atau apa, makin online based kan. Nah, sekarang tuh baik aplikasi web atau native semua online, kayak bergantung banget sama online, tapi ternyata buktinya apa, dua tahunan ini makin, makin gencar paradigma offline first, berarti kan dua-duanya ini bakal, bisa aja bakal mengarah ke offline first. Trend itu berarti... Online itu, trendnya itu berarti ada hubungannya sama perkembangan SaaS, software access service kan, jadi semuanya terpusat kan. Kalau ada update kita nggak perlu, ya cloud, kalau ada update kita nggak perlu ngirimin CD atau flash disk untuk update di lokal gitu kan, jadi udah langsung gitu. - Nggak harus mimpah file-nya. - Iya, malah perusahaan-perusahaan kayak yang tadinya offline, kayak Photoshop, Adobe lah ya Adobe, terus apa lagi, Microsoft dan lain-lain itu juga sekarang udah ke arah sana kan, jadi kalau ada update, ada dan access-nya juga bisa dari web gitu ya. Nah, ini yang menarik juga si Zero ini dia bikin aplikasi contoh, tapi beneran dipakai namanya Bugs Zero. - Bugs Zero, jadi buat pendekatan bugs. - Zero bugs, zero bugs, zero bugs. Oh, zero bugs, balik ya. Iya, zero bugs. Ini bisa offline nggak ya? - Bugs Bunny. - Ini bisa di... Oh, di klik doang. - Tapi kalau aja... - Coba klik kanan. - Ini kayaknya Inspire Bilinear juga deh. - Kayaknya. - Ke kanan, Inspect, Network, Offline. - Offline. - Oke, let's see. - Tadah! - Di Reload. - Di Reload nggak bisa. - Reload? Nggak lah. - Nggak bisa. - Nggak bisa. - Ya, berarti belum. Nggak lah, jadi begitu di sini baru dia datanya disimpan semua kan. Jadi kalau misalkan mau ngedit-ngedit, misalkan kalau mau... Oh, harus login. Ini beneran udah, Tia? - Iya. Coba klik. - Bug beneran. - Bugs beneran. - Bugs beneran. - Bisa. Yang paling bawah deh ya. Yang paling bawah ya. - Yang paling bawah ya. - Cepet banget ya. Dan offline. - Snappy. Snappy. Filter, filter. Filter by? - Riza. - Oh, nggak keluarnya. - Status. Status. - Ini nggak keluarnya. Status. Filter by status. Label. Tuh. Oke. Websocket. - Jaman dulu jQuery UI juga. - UI. - Bisa begini. - Bakal download semua datanya. - Terus baru diproses. - Tapi lambat. - Dropbox. Dropbox. Apa? Dropdown. JQuery dropdown itu apa namanya? - Dropdown. Select to. Select to. Select to. Label bugs. Modified. Oh, ini udah bisa kita ini ya. Close. Yang all. - Keren ya. - Coba kasih, itu kasih emoji. Emoji. - Emoji? - Ini tuh ada... Apa response? Oh, nggak bisa lah login. Kalau pacar login? - Ya login. - Kalau pacar login. - Nggak, bakal... - Oh, pakai GitHub. Ya, pakai GitHub. - Pakai OAuth terus. - Tuh, udah ada pasiki tuh GitHub tuh. Lah, emang udah. Udah 2 tahun. - Yang pertama. - Zero salah satu yang ini ya. Ayo 2025. Local only app di era scraping AI. - Jadi masih ke lisensi lagi. - Nanti bakal banyak yang bikin keygen lagi. - Keygen. - Masukin keygen. Kayak bajakan. Kayak software bajakan 10 tahun lalu. Mungkin lebih ke arah aplikasinya tetap bisa di update over the air. Tapi datanya bisa di ases lokal. Mungkin gitu ya. - Kalau sekarang ya. - Iya. Jadi kayak itu tadi kembali lagi ke personal finance yang tadi. Apa namanya? - Actual. - Actual budget. Data adalah milik kita sendiri. Ya, you own your data. - Sampai sama seperti... - Kayak kembali jamannya di microsoft access. Di desktop masing-masing. Udah. Nah enggak, cuma kalau implementasinya, kalau aplikasi modern kayak gini, Berarti kan sebenarnya kasarnya kita, ya data punya kita, oke data kita yang control. Kita ngehosting data kita kan, terserah dimana. Sebenarnya suka-suka kita, tapi kita ngehosting data kita somewhere kan. Ya, ya, ya. Sebenarnya ya tadi data ownership itu. Makanya si Obsidian juga dia bilang datanya itu milik kita. - Kalau misalkan kita nulis... - Software-nya proprietary. Tapi konten file-nya suka-suka kita. Mau beneran literally di Macbook kita misalnya. Atau mau kita sync ke iCloud service-nya Macbook bawaan. Kalau kita pakai Linux ya nggak, nggak di sync ke mana-mana bisa aja. Atau misalnya kita mau pakai Dropbox atau Google Drive atau GitHub. Atau layanan Git apapun, kontrolnya ada di kita. Ya, itu untuk menghindari juga, apa namanya, vendor login. Jadi kalau misalkan kita mau migrasi, ya udah file markdown aja gitu. Ya, silahkan pindah ke aplikasi lain gitu. Kalau misalkan kita mau pindah dari Notion kan harus export-import dulu kan ya. - Dan belum juga compatible kan. - Yang mana format JSON-nya ya kurang user-friendly. Berbeda. Apalagi kalau mau import dari misalkan kayak Evernote gitu. Itu lebih sulit lagi kan. Jadi semuanya itu kan dia database-nya ada di mereka gitu. Jadi yang kita bergantung kepada mereka. Kalau seandainya sebuah notes, aplikasi notes yang kita pakai terus tiba-tiba mereka berhenti, service-nya berhenti, ya kita pindahnya juga bingung kan. Kalau ini, kalau pun berhenti misalkan nggak dikembangin lagi kita mau pindah ke tempat yang lain. Atau ke aplikasi yang lain ya udah pindah aja, datanya punya kita kok. Aplikasi apapun yang bisa ngedit plaintext. Apakah diskusi ini tentang offline first app juga seperti MongoDB, Realm Sync? - Kita baru tahu nih. - Iya, cuma kita belum tahu Realm Sync. Belum sampai ke MongoDB. Tapi ya tadi yang sejenis tapi pakai SQL, ada kan tadi udah dibahas. Mungkin ya sambil di-search aja, MongoDB, Realm Sync. Kok nggak ada di mongodb.com-nya? - Iya, kita tadi untuk jawab, Mas Yuda, kita bahas local first application. - Local first application. - Bukan offline. - Bisa lah, kan terkait juga. MongoDB, Realm Sync, is a feature that allow developer to build application that sync data seamlessly. Masih ada kesamanya kan, walaupun pakai terminologinya. Mau tahu info-nya gimana ya, official, ini Android, Realm SDK. Oh iya, eh 404, product, Atlas. Atlas itu cloud-nya kan ya. Realm tadi, di-search aja gimana? Apa maksudnya search? - Realm. - Realm Sync. Search apa as AI? Udah nggak ada. - Mana banyak? - Ayo. - Ayo. - Bentar, bentar, bentar. Tadi artikelnya, artikel tahun berapa nih? - Ada, ada. - 2021. - Iya. - Ya. - Maksudnya sudah ada gitu, MongoDB, Realm tuh. - Iya, udah nggak ada. Tuh, ke Atlas dia, device SDK jatohnya. - Oh. - Ini ya, tadi kan saya klik yang gini nih, docs.mongodb.com/realm, larinya ke sini, ke SDK. - Mungkin. - Apakah sudah ganti nama? - Eh tuh, kiri-kiri, Realm Studio, Realm Query Language, toah bawa, iya. - Ini. Ini maksudnya Realm. - Iya, device sync. - Iya. - Gak tahu. - Itu view data with device sync. - Tapi ada tulisannya device sync. - Iya, tadi ada device sync. Yang ini kan? - Memang salah satu fiturnya. - Iya. - Kayaknya udah di-combine ke, di-combine ke fitur lain kali ya? - Mungkin. - Deprecated. - Deprecated. - Oh. - Berarti yang tadi. Realm Studio. Realm Studio is visual tool, bukan. Also using device sync. RxDB Creator. Oh iya, RxDB juga ada. RxDB juga salah satu library untuk membuat offline first, bukan offline first, local first. Realm. Kok udah gak ada ya, berarti ya? Deprecation. - Itu dijelasin di komen. - Udah gak ada, senjata. RxDB. Oh, expired. Ada penggantinya gak? Gak ada ya. Realm library language. Oke, berarti gak ada yang pakai kali ini. - SDK. - Iya, iya, iya. Ada gak engine sync eskelat dari Wasm? Jadi gak perlu docker buat install engine sync. Cuman butuh file Wasm, eskelat, dan aplikasi kita saja lebih kompet, gak perlu entitas luar lain. Ada. Contohnya yang tadi, actual budget mereka pakai SQLite, kalau gak salah, eskelat yang Wasm. Makanya orang yang bikin, siapa namanya, yang pertama kali dia bikin. Sekarang kan udah banyak nih. Ini, si James Long ini juga bikin library untuk akses SQL dari Wasm. Jadi bisa dilihat saja di sini. Upset SCL. Ini awal banget. Awal banget sebelum Wasm, eskelat bisa jalan di Wasm. Kalau sekarang kan udah banyak yang bikin ya. Kalau ini dia awal-awal banget tuh. Itu 4 tahun yang lalu. - Palsdb-kalsdb masih ada yang pakai gak ya? - Masih, masih aktif kok. - Masih ya? - Masih, masih aktif. Masih? Kan kita pernah buka waktu bahas apa ya? Waktu itu udah lama. Bahas database. Oh, emang bahas database. - Ini palsdb. - Emang maksudnya apa? Mineroversen-nya juga naik terus? Naik terus, ya. Ini sebenarnya adalah ini, apa namanya? Rapper ya, di atasnya database yang di browser indexdb atau localstress atau apa gitu. Bukan API-nya menyurupai kalsdb. Biar streamline ya, antara local sama remote tuh enak. Ini open source ya. Kalsdb juga open source ya? Ya, udah dibeli apa aja sekarang? Apa aja? - Kalsdb. Apa aja? - Ya, lagunya sih Rose. Apa aja? Apa aja? Nah, inilah fungsinya font effect. Mana? Issue tracker pull request. Masih ya? Aman ya? Aman ya? 4 hari yang lalu? Aman? - Masih kok. - Kalsdb... Emang maksudnya kayak gini kan emang gak cepet-cepet banget. Masih apa? Cycle update-nya gak ekstrim release terus kan. Cuma masih tetap aktif di-maintain. Kalsdb salah satu database NoSQL yang cukup layak dicoba sih. Keren-keren. Kalau gak salah dulu juga ada tuh Meteor. Dia pakai MongoDB di back-end-nya. Di front-end-nya kita dikasih library namanya Minimongo. Syntaxnya mirip MongoDB tapi dia indexdb juga. - Masih ada? Di-open gak ya? - Meteor.js masih hidup. - Masih? - Masih. - Ini bukan? Oh bukan. - Client-side in memory MongoDB. Tapi bukan ini. Dia ternyata gak di-open kayaknya ya. - Itu Meteor Minimongo Explorer. - Iya. Ada. Jadi dia cuma bikin supaya streamline. Jadi antara back-end sama front-end-nya, syntaxnya tetap sama. - Tapi sebenarnya di belakang itu... - Indexdb? - Indexdb juga ya? Rapper aja. - Iya. Cuma ada CRDT, ada replicate, ada mekanisme seperti itu yang membuat kalau misalkan ada konflik, dia akan coba di-resolve. Cuma mau bring up aja, meskipun katanya sudah ada CRDT, conflict free, resolution data type, bukan berarti semuanya magically. - Pasti di-complete. - Iya. Kalau sudah di-production, banyak kenanya itu dari YGS. Maksudnya tetap ada gitu masalahnya, jadi tetap butuh penahanan. Itu nggak magic. Ya, berarti kita mikirnya kayak git aja sih. Maksudnya git, conflict resolution itu kan kita dibantu dengan... kita dikasih list apa saja yang conflict. - Dia nggak peduli. - Caranya jelasinnya gimana. Git, kalau konflik dia dari konsep awal berpikirnya, kalau ada konflik, dia tidak menyelesaikan itu. Tapi kan dia marking kita yang bikin ngambil keputusan, mau accept yang incoming atau mau pakai yang present. Maksudnya kan kita udah punya mindset kayak gitu. Nah, kalau gitu tadi berarti dia supposedly nge-solve, tapi belum tentu semua kesolve. Bisa nggak sengaja malah memecahkan masalah dengan masalah berarti. Logsek juga gitu dia kayak git, jadi kalau misalkan ada konflik, dia akan kasih tau mau pakai yang versi ini atau pakai yang versi ini, tapi nggak bisa di-combine dua-duanya, pilih salah satu. Jadi itu mungkin masih yang sederhana ya, conflict resolutionnya masih sederhana. Mau pilih punya yang sebelumnya atau yang terbaru atau gimana gitu. Itu jaman saya pakai FTP dulu, Mas. Kalau ada both modified, pilih mana? -Override, yes. -Cancel dulu, terus di-zip ya, di-backup. Terus abis itu begitu salah, ya mana tadi ya zip-nya. -Atau langsung di-copy file-nya di server, copy new, new, new, new, new 2x, new 3. -Di kanan duplicate gitu dia langsung new, ada tulisan new-nya. Jadi kayaknya 2025 semakin banyak yang mengarah ke arah Localverse ini. -Saya bahkan mau fokuskan tahun ini mau belajar Localverse. -Ini ada komunitasnya namanya Localverse. -Ada meet-up-nya juga. -Ada meet-up-nya. Yang lucu ini ada tadi saya sempat baca satu artikel. Mana dia artikelnya, ada nggak artikelnya? -Ini lucu banget sih kategorisasinya ada learn, build, join in. Ada dia, ah ini dia. -Accidentally started community. -Static web page and accidentally started community. Jadi dia bikin static web aja, terus tiba-tiba jadi komunitas. Nah disini juga sebenarnya kita bisa belajar banyak ya dari YouTube-nya ada termasuk yang tadi. Terus juga misalkan mau tahu, ya ini belajar, ni learn, ada yang bisa dibaca, ada yang bisa di tonton. -And to end, it's important to end. -Iya, mau benchmark CRDT-nya juga bisa, ada podcast-nya. Terus kalau mau bikin tuh ada pilihannya kalau mau storing datanya dimana. Tadi ya, electric, atau pakai Goon, atau pakai apa lagi tadi? Pause DB, rammer storage, ada, kok ini GitHub ya? Watermelon DB. Terus kalau mau sync datanya bisa pakai Amplify Data Store, bisa pakai AutoMerge, tadi juga ada Ditto, ya Mas Yuda ya. Ada Ditto, ada YGS. -Mas Ditto ya? -Bukan, Mas Yuda. -Ditto nama software-nya. -Nama software-nya. Ada Porsing tadi kita udah liat juga, ada RepliKage, ada YGS. Ada macam-macam ya. Ada contohnya juga. Terus kalau mau join komunitas bisa dimana, Lovie, Discord. Ada aplikasi. -Lovie ya? -Lovie ya, Lovie. Nggak, Lovie, karena First. -Lovie. -Lovie. -Oh, yang apa, ada kalau temen-temen punya aplikasi yang sudara, local first bisa pull request, bisa di sini ya. -Dan open source, Excalibro masuk ya. -Excalibro masuk, aktual. Terus apa lagi nih? Ada yang kita tahu nggak? Tender. Legend. -Cuma kenal Excalibro 2. -Iya, Excalibro. Berarti Excalibro bisa offline walaupun fitur pelaburasi ini juga nggak bisa ya. Oke, ada lagi yang mau dibahas? -Apa ya? Ini artikel. -Artikel? -Cuma dia pake istilah offline first, yang atas, yang offline first landscape. -Landscape, oke. -Ya kayak recap yang bagus saja sih. Kalau pengen TLDR-nya. Barusan banget baca ini. -WatermelonDB, oh tadi ada ya WatermelonDB ya. -Betabit agnostik. PowerSync. -Belum di-share, Mas Tiza. -Oh iya, sorry. -Oh iya, belum. -Maaf, maaf. -Jadi ini konteksnya adalah mereka mau bikin suatu aplikasi. Ya, pokoknya ada requirement-nya, blablabla, namanya Marco. Pokoknya sih nggak penting, cuma maksudnya keputusannya dia decision making. -Jadi kayak ini ya, jadi kayak Thunderbolt, jadi kayak email client ya, local first itu ya. -Oh iya benar juga. -Kaya IMap, IMap-based. -Oh iya benar, benar, benar. -Iya, iya, iya. Itu juga aplikasi untuk baca email kan dia local first kan ya. -Iya, kita bisa baca, kita nge-click reply, kita nge-tick dulu, tapi nanti kalau misalnya mau nge-fetch, mau manggil email baru dan kita mau ngirim baru. -Iya benar, benar, benar. Bahkan kita sudah selesai nge-tick send, meskipun nggak ada internet, dia tetap akan masuk di outbox, outgo. Nanti kalau udah synchronize ke internet, dia baru kekirim. -Iya, nggak kepikiran ya, ternyata sudah lama sih, emang dari awal local only ya. -Cuma kita kan sekarang nggak mikirnya sampai situ, kita nggak mikir ke mindset sesuatu yang udah familiar dan udah lama banget. -Iya, apalagi kan kita mikirnya kan ini, aplikasinya aplikasi web biasanya, umumnya, nggak mesti tapi umumnya. Tapi kan ini juga tidak terbatas ke aplikasi web aja kan, aplikasi CLI misalkan, kayak terminal, aplikasi terminal, bisa aja kan? -Bisa, ya git itu. -Iya git tadi ya, benar, benar. Terus ini starting pointnya database-nya Watermelon, alasannya karena open source, database agnostik dan sudah lama. Terus untuk syncing-nya pakai PowerSync. -PowerSync. -Oh PowerSync itu cell-hosted ya? Oh bisa bayar juga ya, ada cloud-nya ya. Very complex architecture, both changes to post-greed and separated ha-apah, ha-proxy ya, MongoDB, deployment cluster, oh pakai MongoDB. Terus electric SQL, look interesting but was in the middle of the complete rewrite. -Oh jadi elektric SQL-nya. -Iya dia percimbangkan tiga itu, pertimbangannya apa aja. Tapi kan berarti tiga-tiganya bisa dipakai buat offline first. -Terus dia akhirnya milih Watermelon. -Oh menarik. -Kapan ini blog-nya? -Barusan Januari 2020. -Januari? Seminggu sepuluh hari yang lalu. -Oke. -Oh kok jadi menarik ya si Watermelon. -Terus maksudnya dia ngasih gambaran tentang landscape-nya yang lebih luas sih setel-nya ini. -Apa nih? We discovered a host of new wave, offline first implementation. Apa nih maksudnya offline first implementation? -Belum sempat nulik nyampe situ, cuma tadi liat si artikel ini sejelas kayaknya. -Confection pernah denger deh. -Missing half of your react. Tagline-nya menarik-menarik ya dari tadi. -Open source reactive database. -Database. -Oh firebase kah? Firebase atau supabase ya temen-temen? Oh ada mutation, action. Ya database lah pokoknya ya. Not just database. -Dijawab gitu. -Real time. Ini dia pakai apa? Maksudnya kalau misalkan kita mau... -Storing data tapi bisa automatic synchron, bisa search gitu loh maksudnya. -Terus bisa koleksi socket, jadi kayaknya tuh real time blablabla. -Kalau kita pakai firebase atau supabase gitu berarti kita belum bisa syncing ya, hanya sebatas. -Firebase sudah synchron. -Bisa kan ya? Misalkan nih kita bikin aplikasi pakai firebase, terus kita lagi ngedit-nedit, atau kita lagi buat posting baru untuk CMS, terus habis itu tiba-tiba internetnya mati. Itu datanya di-cache dulu, habis itu begitu internetnya connect dia syncing ke firebase atau gimana? Nggak tahu ya. -Nanti kita tanya si Dennis Alun ya. -Oh iya udah-udah. Oh iya bener juga kita belum undang anak-anak firebase. Bener, bisa nih. Kebetulan dia di Bali, jadi kan idlenya bagus. -Idenya bagus. -Gua nggak bisa pencet. -What makes convex real time? Dependencies for every query function, whenever any definition change, including any database rows, convex rerun the query function and trigger an update to any active subscription. Oh udah sampe Pub/Sub segala dia ya, udah include ya. Where do convex function run? Convex function run server side. -Dia punya server sendiri. -In an isolated distribution environment. -Can I try? Yes. -Local first. -Bukan local first. -Local first atau nggak kan gimana yang bangun arsitektur seluruhan app-nya kan, cuma convexnya menawarkan layanan di server side-nya dia, blablabla. To convex is instead an entire machine solution, ada API endpoints, blablabla. Tapi dari perspektif yang bikin app yang dipakai user kan tetap aja bisa menterik itu sebagai local first. -And 100% long into kalau convex. -WatermelonDB cuman react ya, sayang sekali ya. -Itu convex juga ternyata react kan? -Iya, kurang agnostik jadinya ya. -Mengkater ke react karena kelihatan kalau front-end di dominasi. -Betul sekali. Terus akhirnya dia pilih apa? Problem, problem, problem. -Why so many problems? -Replication. Ya ampun, lucu sekali nih artikelnya. -Kalau semua orang brengsek berarti ada kemungkinan. -Replication. -You yang brengsek. -Ujung-ujungnya replication. Ini buat syncing engine juga ya. Tapi cara kerjanya. Bring your own back-end, BYOB tadi dia cuman sediain untuk synchronization aja yang dibati ya. On a user first visit replication download the initial chunk of data and store persistently in browser. Jadi ada di browsernya ada database-nya ya. The application reads and writes only to its local copy of the data. Thus the application respond instantly to our interaction by default. Ini kan masih di lokal nih. Terus dia syncingnya gimana nih? Additional data is downloaded as necessary, synchronizes changes to the server and other clients continuously in the background. Mereka syncing lah ya, syncing di background gitu ya. Tiba-tiba ada muncul data baru-data baru gitu ya. Terus setelah itu, wah ini penjelasannya menarik ya. Conflict happen if two users edit data concurrently. Replicate, merge, and conflict using a form of server reconciliation. Intuitive and powerful technique from multiplayer games. Gak dibahas dia pakai apa gitu ya. If this can happen, because the server is down, there is no network, changes are queued persistently until the servers come back. Replica app can smoothly transit online, offline, and other available networks. Testimonial paling atas dari boss new server. Oh, berbayar. Replyless free to use for non-commercial project or company with less than 200k revenue and less than 500k funding. Bisa lah ya. Bisa, bisa. Free tapi tidak free. Gak completely. F-O-S-S. Get started, oh start learning. Tidak usah urus juga pasti ya. Tapi Rosicorp juga. Sama yang Zero tadi Rosicorp kan ya. Oh iya, iya. Dia memonopoly ekosistem lokal first. Build your own backend. Disample ya. Nanti kita korek-korek lebih lanjut ya. Bisa jadi ini sendiri. Oh iya, ini khusus react ya. Sayang sekali. Oke, ada lagi kah yang belum dibahas? Sudah. Sudah? Nanti paling, abis ini pengen ngerenungin isi artiklenya si Marco Epp ini lagi sih. Maksudnya lebih ke inside, bukan ditiru persis dia pakai apa, tapi kayak cara dia ngeproc. Oh ini tuh begini. Gak cocok karena ini kayak itu seru aja sih. Dan ternyata maksudnya apa ya, ekosistem lokal first itu se luas itu. Dan kayak solusi-solusinya aja tadi yang di landing page-nya si lokal first community itu udah banyak banget kan pilihannya. Iya betul. Ya cuman itu ya. Mereka bisa, setelahnya bisa, oh kita punya problem ini. Bisa dapat solusinya. Oh pilihannya ini, ini. Kadang-kadang kan kita gak tahu harus mencari apa. Mencari kata kuncinya. Nah kalau dia open dan dicoba kayaknya deh. Kayak dari beberapa opsi yang paling atas, ya dicoba. Kayak dicoba tapi kayak gak terus-terusan, jadi kayak cuma buat ngejudge, oh ini berhasil mecahin. Kayak punya matrik-matrik kunci yang buat dijadikan patokan, terus oh decide. Gak deh, gak ini, I'm a next. Tapi dari apa artikelnya? Kayak open source project tertentu atau software tertentu, oh ini lagi dalam sedang rewrite. Di mana dia baca ya kayak gitu-gitu ya? Kalau powersync atau electric SQL kan emang di dokumentasinya di-nounce kok. SQL ada announcementnya, emang pernah lihat. Ya waktu dia lagi ngulik. Di dokumentasi. Waktu dia, ini, kelihatannya itu deh. Knowing beta. Ya mungkin tanggal 11 kemarin atau kapan lah dia nulis, dia explore itu kan pasti sekian hari atau sekian minggu sebelum nulis artikel itu kan. Mungkin waktu itu masih fail nih, masih fail. Coba klik, coba klik. Saya sekarang udah beta. Deploy examplenya gagal. Biasa. Pakai eliksir loh. Iya. Kan SuperBiz juga pakai eliksir kan ya. Mana yang rewrite-rewrite itu ada gak? Penasaran? B-issue kali ya? Ada sih pernah lihat. Maksudnya lupa dimana, cuma emang ada major rewrite di-elected SQL. Kalau only mode, gak ada. Gak kelihatan. Gak, gak terbaca sih. Iya, gitulah. \"Pertama kali kenal Localverse dari Anytype yang pakai anysing.\" Oh Anytype itu notes ya? Anytype. Oh dia Localverse juga, oh baru tau. Ya, pernah denger, pengen coba tapi somehow gak jadi. \"Localverse everything app.\" Coba tetap akhir ujung-ujungnya, tetap pakai Obsidian kalau gue. Coba iseng pengen coba ini aja sih. Karena gue gak pernah butuh. Obsidian itu Markdown-based ya? Iya, plaintext biasa. Dan maksudnya performanya cepet sih, snappy banget. Obsidian maksudnya gak ada yang ngalahin. Iya. Cuman aplikasinya tidak open source. Aplikasinya proprietary, trust not believe, block-based. Itu malah seneng sama landing page-nya aja sih, kayak oh desainnya bisa bagus gini. Ini namanya cloning-annya Notion, tapi yang offline first ya, versi Notion yang offline first ya. Kurang lebih kayak gitu ya. Oke, menarik, menarik. \"Get the app.\" Aplikasinya ada apa aja? Mac, ada platform? Linux, Windows? Macam-macam kok. Oh, belum ada mobile ya? Baru di desktop ya? Ada, mobil juga ada. Mana? Dia ada di lingkungan itu, atau scroll ke bawah coba. \"Get the app\" yang tadi? Ada pokoknya. Ada? Oh, baru tahu. Gak tahu ya kalau beta atau forever kena nyoba soal. Nah, ini dia. Oh, ada. Oh, ada di Google Play. Oh, iya. Kok nggak di situ ya? Gak tahu ya, masih beta atau apa-apa. Karena nge-access-nya pakai buat desktop. Oh, ditutup ya sama dia ya. Ini ada Swift juga, berarti ada buat iOS. Oh, udah lengkap ya. Oh, menarik, dicoba nih. Pindah lagi. Gak selesai-selesai, nggak produktif-produktif. Gak selesai-selesai. Dari dulu pakenya bare doang, bare writer, udah nggak pernah... Wah, kalau bare itu udah paling top. Cuman masalahnya iOS only. Apple only. Sebagai pengguna HP Android. Sebagai pengguna HP murahan. Ya, murahan. Tidak mampu untuk menjangkau-nya. IPFS. Oh, si Anytype ini pakai IPFS ya? IPFS itu Web3 bukan sih? Gak tahu, belum ngulik sampai situ sih. Kapan-kapan bahas alat testing? Pernah nggak sih? Testing pernah, tapi end-to-end dong. Pernah tapi nggak mendalam banget. Iya, belum bahas kayak apa, Papetir. Papetir pernah ya. Gak bisa, belum bulas. Ya, Papetir pernah. Yang Microsoft punya itu apa, Papetir? Cypress. Bukan, setelah Cypress, yang Microsoft. Bukan Cypress, Microsoft. Cypress dong. Lupa namanya. Bukan Cypress apaan, Playwright. Playwright. Cypress kan sebelum itu. Boleh, boleh, boleh. Terima kasih ya. Eh, episode 12 belas, pernah lagi. Pernah ya, episode 12 belas, 2023. Tapi kan nggak mendalam kan? Ya, nggak mendalam karena banyak yang dibahas. Berarti mungkin besok-besok kita potong-potong kalau misalnya unit testing doang, end-to-end doang. Yang kayak biar di-deep dive. Oh, kalau yang ini kayaknya kita mostly banyakan bahas tentang, iyalah, semua ya? Ya, genis-genis testing. Kalo yang waktu itu kayak overall aja, kayak general. Boleh tuh, jadi bagus. Jadi bagus, dari Bali. Terima kasih. Kita dari Bali. Efraim, Efraim, oke. Kita masukkan ke wishlist ya. Oke, cukup mungkin untuk malam ini. Terima kasih banyak buat semuanya yang sudah hadir dan meramaikan. Kita ketemu lagi minggu depan dengan topik yang berbeda. Selamat malam. Sampai jumpa, bye-bye. Bye-bye."
+}
