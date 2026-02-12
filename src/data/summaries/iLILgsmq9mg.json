@@ -1,0 +1,14 @@
+{
+  "videoId": "iLILgsmq9mg",
+  "generatedAt": "2026-02-11T10:30:00Z",
+  "brief": "Episode ini membahas tentang protokol jaringan (network protocols) dan model OSI (Open System Interconnection) yang menjadi dasar komunikasi antar perangkat di jaringan. Diskusi dimulai dengan penjelasan apa itu protokol sebagai tata cara atau spesifikasi yang memungkinkan perangkat-perangkat berbeda untuk saling berkomunikasi dengan reliable dan konsisten. Topik utama meliputi penjelasan 7 lapisan OSI model mulai dari Physical layer (kabel/fisik) hingga Application layer (HTTP, HTTPS, FTP), serta perbedaan antara TCP dan UDP sebagai protokol transport yang umum digunakan.",
+  "keyPoints": [
+    "Protokol jaringan adalah tata cara atau spesifikasi yang memungkinkan perangkat berbeda untuk saling bertukar informasi secara reliable dan konsisten",
+    "OSI Model terdiri dari 7 layer: Physical (bits), Data Link (frames), Network (packets), Transport (segments), Session, Presentation, dan Application",
+    "TCP (Transmission Control Protocol) lebih aman karena memastikan data sampai tujuan dengan urutan yang benar, namun lebih lambat",
+    "UDP (User Datagram Protocol) lebih cepat dengan pendekatan 'fire and forget' namun tidak menjamin data sampai tujuan",
+    "Network layer menggunakan IP (Internet Protocol) dan ICMP untuk routing dan error handling antar perangkat",
+    "Transport layer bertanggung jawab atas end-to-end connection dan menangani packet loss serta retransmission",
+    "Application layer adalah yang paling sering berinteraksi dengan developer seperti HTTP, HTTPS, FTP, dan SMTP"
+  ]
+}
