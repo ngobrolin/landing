@@ -167,23 +167,39 @@ async function main() {
     const outputPath = new URL('../src/data/episodes.json', import.meta.url);
     const fs = await import('fs');
 
-    // Check for new episodes
-    let existingVideoIds = new Set<string>();
+    // Check for new episodes and preserve existing metadata (like audioUrl)
+    let existingEpisodes: Episode[] = [];
     try {
-      const existing = JSON.parse(fs.readFileSync(outputPath, 'utf-8')) as Episode[];
-      existingVideoIds = new Set(existing.map(e => e.videoId));
+      existingEpisodes = JSON.parse(fs.readFileSync(outputPath, 'utf-8')) as (Episode & { audioUrl?: string; audioDuration?: number; audioFileSize?: number })[];
     } catch {
       // No existing file
     }
 
-    const newEpisodes = episodesWithDuration.filter(e => !existingVideoIds.has(e.videoId));
+    const existingMap = new Map(existingEpisodes.map(e => [e.videoId, e]));
+    const existingVideoIds = new Set(existingEpisodes.map(e => e.videoId));
+
+    // Merge: Use new data from YouTube but preserve audio metadata from existing
+    const mergedEpisodes = episodesWithDuration.map(newEp => {
+      const existing = existingMap.get(newEp.videoId);
+      if (existing) {
+        return {
+          ...newEp,
+          audioUrl: (existing as any).audioUrl,
+          audioDuration: (existing as any).audioDuration,
+          audioFileSize: (existing as any).audioFileSize,
+        };
+      }
+      return newEp;
+    });
+
+    const newEpisodes = mergedEpisodes.filter(e => !existingVideoIds.has(e.videoId));
 
     fs.writeFileSync(
       outputPath,
-      JSON.stringify(episodesWithDuration, null, 2)
+      JSON.stringify(mergedEpisodes, null, 2)
     );
 
-    console.log(`✓ Saved ${episodesWithDuration.length} episodes to src/data/episodes.json`);
+    console.log(`✓ Saved ${mergedEpisodes.length} episodes to src/data/episodes.json`);
 
     // Auto-run tag extraction if there are new episodes
     if (newEpisodes.length > 0) {
