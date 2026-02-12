@@ -1,0 +1,3648 @@
+{
+  "videoId": "vQIu4ekqhvY",
+  "language": "id",
+  "generatedAt": "2026-02-12T11:23:19.443Z",
+  "segments": [
+    {
+      "start": 0,
+      "end": 4.74,
+      "text": "Halo teman-teman semua, selamat datang kembali di NgobrolinWeb"
+    },
+    {
+      "start": 4.74,
+      "end": 12.02,
+      "text": "Ini WPU sebenernya, kita nebeng doang"
+    },
+    {
+      "start": 12.02,
+      "end": 14.16,
+      "text": "NgobrolinWeb ex-WPU"
+    },
+    {
+      "start": 14.16,
+      "end": 19.88,
+      "text": "Jadi kita berempat, ini harus seberlima"
+    },
+    {
+      "start": 19.88,
+      "end": 22.92,
+      "text": "- Kurang satu - Kurang satu, nanti lah kita..."
+    },
+    {
+      "start": 22.92,
+      "end": 30.52,
+      "text": "...adalah Google Developer Expert yang saat ini lagi jalan-jalan menuntut ilmu sampai ke negeri Cina"
+    },
+    {
+      "start": 30.52,
+      "end": 37.24,
+      "text": "Jadi kita sama Google diberangkatkan ke sini, kita berapa orang ya?"
+    },
+    {
+      "start": 37.24,
+      "end": 39.46,
+      "text": "- Kaya nya... - Kontingan Indonesia?"
+    },
+    {
+      "start": 39.46,
+      "end": 42.82,
+      "text": "- 20-an nya - 19, kemarin kan kakak makan 19"
+    },
+    {
+      "start": 42.82,
+      "end": 47.24,
+      "text": "- Oh iya 20 - Iya, 20"
+    },
+    {
+      "start": 47.24,
+      "end": 52.84,
+      "text": "20 orang dari Indonesia dibawa ke Cina, ke Beijing ya"
+    },
+    {
+      "start": 52.84,
+      "end": 62.18,
+      "text": "Untuk acara yang namanya Google I/O Connect Cina 2024"
+    },
+    {
+      "start": 62.18,
+      "end": 69.24,
+      "text": "Nah ini sebelum nanti kita bahas, kita ngapain aja, nanti kita bakalan cerita pengalaman kita disini ya"
+    },
+    {
+      "start": 69.24,
+      "end": 73.28,
+      "text": "Walaupun ini baru hari ke 2"
+    },
+    {
+      "start": 73.28,
+      "end": 76.06,
+      "text": "- Kemarin udah seharian - Kemarin udah seharian"
+    },
+    {
+      "start": 76.06,
+      "end": 82.12,
+      "text": "Mungkin kita cerita dulu nanti yang hari kemarin gitu ya, tapi sebelum kita mulai mungkin ada teman-teman disini"
+    },
+    {
+      "start": 82.12,
+      "end": 85.84,
+      "text": "- Eh kita kenalan dulu kali ya, udah tadi belum - Kenalan"
+    },
+    {
+      "start": 85.84,
+      "end": 92.72,
+      "text": "Kenalan dulu, mungkin buat teman-teman yang belum pada tahu, kita kenalan satu-satu dulu ya, ini yang sebelah saya dulu"
+    },
+    {
+      "start": 92.72,
+      "end": 100.08,
+      "text": "Oke, halo teman-teman semua, perkenalkan saya Riza, GDE Web dari 2016"
+    },
+    {
+      "start": 100.08,
+      "end": 105,
+      "text": "Sebenernya mungkin podcast Cina yang sudah banyak tau kita atau belum"
+    },
+    {
+      "start": 105,
+      "end": 111.56,
+      "text": "Gak apa-apa, ini kan cross, cross kan WPU belum kenal, teman-teman WPU mungkin belum kenal mungkin"
+    },
+    {
+      "start": 111.56,
+      "end": 116.28,
+      "text": "Mudah-mudahan sih udah ya, jadi yang buat belum kenal ya salam kenal, yang sudah kenal salam kenal kembali"
+    },
+    {
+      "start": 116.28,
+      "end": 123.08,
+      "text": "Halo, salam kenal, aku Eka, GDE Web juga gak punya channel, gak punya sosmed"
+    },
+    {
+      "start": 123.08,
+      "end": 130,
+      "text": "Tapi biasanya live bareng Ivan dan Riza setiap selasa malam di ngobrolin web"
+    },
+    {
+      "start": 130,
+      "end": 138.8,
+      "text": "Halo teman-teman semua, nama saya Ivan, GDE Web juga fokusnya di web performance jadi"
+    },
+    {
+      "start": 138.8,
+      "end": 142.32,
+      "text": "Dan sering muncul di ngobrolin web"
+    },
+    {
+      "start": 142.32,
+      "end": 150.24,
+      "text": "Kita punya moto kalau katanya hari Senin harga naik, selasa malam ngobrolin web"
+    },
+    {
+      "start": 150.24,
+      "end": 159.96,
+      "text": "Mohon maaf suara saya habis karena dua hari konser banyak teriak-teriak mulu dari kemarin jadi"
+    },
+    {
+      "start": 159.96,
+      "end": 161.24,
+      "text": "Habis kampanye kemarin"
+    },
+    {
+      "start": 161.24,
+      "end": 162.44,
+      "text": "Iya kampanye"
+    },
+    {
+      "start": 164.28,
+      "end": 169.28,
+      "text": "Ya, jadi kita disini tuh enak banget bisa berkumpul"
+    },
+    {
+      "start": 169.28,
+      "end": 175.04,
+      "text": "Kalau gak ada event begini susah mempulnya, apa lagi bertiga, berempat, berlima tuh susah"
+    },
+    {
+      "start": 175.04,
+      "end": 177,
+      "text": "Padahal di Jakarta, Bandung doang ya?"
+    },
+    {
+      "start": 177,
+      "end": 178.6,
+      "text": "Iya padahal doang"
+    },
+    {
+      "start": 178.6,
+      "end": 179.4,
+      "text": "Ini Boja"
+    },
+    {
+      "start": 179.4,
+      "end": 181.88,
+      "text": "Boja sendiri"
+    },
+    {
+      "start": 181.88,
+      "end": 184.76,
+      "text": "Oke, balik deh sama Pak Dika dulu"
+    },
+    {
+      "start": 184.76,
+      "end": 190.24,
+      "text": "Tadi kita mau sebelum kita cerita mengenai pengalaman kita"
+    },
+    {
+      "start": 190.24,
+      "end": 195.76,
+      "text": "Kita mau kasih tahu dulu buat teman-teman buat yang belum tahu apa itu Google I/O Connect ya"
+    },
+    {
+      "start": 195.76,
+      "end": 197.32,
+      "text": "Siapa nih yang mau ceritain nih?"
+    },
+    {
+      "start": 197.32,
+      "end": 198,
+      "text": "Eka kali ya?"
+    },
+    {
+      "start": 198,
+      "end": 198.52,
+      "text": "Iya"
+    },
+    {
+      "start": 198.52,
+      "end": 199.32,
+      "text": "Oh gak mau?"
+    },
+    {
+      "start": 199.32,
+      "end": 200.52,
+      "text": "Google I/O dulu aja kan"
+    },
+    {
+      "start": 200.52,
+      "end": 201.52,
+      "text": "Oke, Google I/O"
+    },
+    {
+      "start": 201.52,
+      "end": 203.52,
+      "text": "Oh iya bener, bedanya apa ya Eka?"
+    },
+    {
+      "start": 203.52,
+      "end": 206.68,
+      "text": "Google I/O kan event tahunan Google ya"
+    },
+    {
+      "start": 206.68,
+      "end": 213.36,
+      "text": "Jadi diselenggarakan di Amerika Serikat, California di markasnya Google"
+    },
+    {
+      "start": 213.36,
+      "end": 219.76,
+      "text": "Mereka showcase lah ya, menunjukan fitur-fitur baru atau produk-produk baru yang"
+    },
+    {
+      "start": 219.76,
+      "end": 226.2,
+      "text": "Setiap tahun ada fitur, produk, teknologi baru apa, itu dipresen secara langsung"
+    },
+    {
+      "start": 226.2,
+      "end": 231.44,
+      "text": "Terus kayak ada, ya intinya para Googler itu ketemu developer lah"
+    },
+    {
+      "start": 231.44,
+      "end": 234.4,
+      "text": "Developer Ecosystem dan komunitas demo"
+    },
+    {
+      "start": 234.4,
+      "end": 240.4,
+      "text": "Terus ada sesi kayak wawancara atau feedback atau ngobrol lah intinya ketemu langsung"
+    },
+    {
+      "start": 240.4,
+      "end": 241.88,
+      "text": "Itu Google I/O ya"
+    },
+    {
+      "start": 241.88,
+      "end": 247.56,
+      "text": "Tapi kan di San Francisco ya jauh, maksudnya dan ya kapasitasnya pasti terbatas"
+    },
+    {
+      "start": 247.56,
+      "end": 256.56,
+      "text": "Gak semua developer bisa datang langsung dan berinteraksi dengan optimal di sana ya"
+    },
+    {
+      "start": 256.56,
+      "end": 257.76,
+      "text": "Ada watch party ya?"
+    },
+    {
+      "start": 257.76,
+      "end": 262.44,
+      "text": "Ya watch party doang kita, siapa yang ikut, mungkin ada yang ikut di Discordnya"
+    },
+    {
+      "start": 262.44,
+      "end": 267.44,
+      "text": "Nah begitu, nah tapi untuk kan sebenarnya di seluruh dunia juga masih banyak"
+    },
+    {
+      "start": 267.44,
+      "end": 273.84,
+      "text": "Komunitas-komunitas developer lainnya, jadi Google itu bikin yang namanya I/O connect ya"
+    },
+    {
+      "start": 273.84,
+      "end": 281.76,
+      "text": "Untuk kayak extended, replay ya, versi repeater, repeaternya si Google I/O itu"
+    },
+    {
+      "start": 281.76,
+      "end": 287.36,
+      "text": "Ada di setiap tahun juga, jadi beberapa bulan, satu sia sekitar satu bulanan gitu ya"
+    },
+    {
+      "start": 287.36,
+      "end": 293.16,
+      "text": "Setelah I/O nya sendiri itu selalu ada I/O connect di, di macem-macem kota"
+    },
+    {
+      "start": 293.16,
+      "end": 299.48,
+      "text": "Jadi kayak kalau di, tahun lalu India, tahun lalu Bangalore"
+    },
+    {
+      "start": 299.48,
+      "end": 302.12,
+      "text": "Oh belum, belum gede ya, belum gede, kayaknya itu"
+    },
+    {
+      "start": 302.12,
+      "end": 307.96,
+      "text": "Bangalore, terus yang ini kali ini di Beijing, jadi yang di Beijing ini dihadiri oleh"
+    },
+    {
+      "start": 307.96,
+      "end": 317.08,
+      "text": "Semua developer dari Southeast Asia ya, Asia Tenggara, Asia Selatan, kayak India, Nepal, APEC ya"
+    },
+    {
+      "start": 317.08,
+      "end": 319.08,
+      "text": "Enggak, India gak ikut, India kembang dong"
+    },
+    {
+      "start": 319.08,
+      "end": 322.52,
+      "text": "Oh iya, Nepal, tapi ada Nepal kesini somehow"
+    },
+    {
+      "start": 322.52,
+      "end": 330.52,
+      "text": "Nah terus dari Greater China, kayak dari China sendiri, Hong Kong, iya itu punya area"
+    },
+    {
+      "start": 330.52,
+      "end": 336.52,
+      "text": "Kalau kita yang gak ngerti itu dikasih headset interpreter"
+    },
+    {
+      "start": 336.52,
+      "end": 343.88,
+      "text": "Jadi ya sebenarnya kalau acaranya sih mirip-mirip sama yang di I/O ya, jadi atau oh itu dulu"
+    },
+    {
+      "start": 343.88,
+      "end": 347.8,
+      "text": "Bedanya sama I/O Extended, Tian Tian ya"
+    },
+    {
+      "start": 347.8,
+      "end": 352.28,
+      "text": "I/O Extended yang, ini kota ya, oke jadi"
+    },
+    {
+      "start": 352.28,
+      "end": 354.76,
+      "text": "Ada temen-temen yang dateng, ditemukan langsung"
+    },
+    {
+      "start": 354.76,
+      "end": 358.92,
+      "text": "Google I/O itu, gak ada logonya tapi nanti mungkin bisa ada footage nya ya"
+    },
+    {
+      "start": 358.92,
+      "end": 363.8,
+      "text": "Google I/O itu seperti tadi sudah dijelaskan Mas Riza, sama Mbak Eka"
+    },
+    {
+      "start": 363.8,
+      "end": 367.4,
+      "text": "Dan ada I/O Connect, kemudian masih ada namanya"
+    },
+    {
+      "start": 367.4,
+      "end": 373.32,
+      "text": "Google I/O Extended yang diadakan di tiap kota yang ada GDG chapter nya"
+    },
+    {
+      "start": 373.32,
+      "end": 379.4,
+      "text": "Contohnya, kemarin ada di Jakarta, ada di Bandung, Medan, Bali"
+    },
+    {
+      "start": 379.4,
+      "end": 383.24,
+      "text": "Denpasar lebih tepat ya, bukan Bali kali ya, GDG Bali"
+    },
+    {
+      "start": 383.24,
+      "end": 387.08,
+      "text": "GDG Bali ya, sedikit berbeda ya"
+    },
+    {
+      "start": 387.08,
+      "end": 392.04,
+      "text": "Depok, Bogor, Makassar, Medan segala macam"
+    },
+    {
+      "start": 392.04,
+      "end": 396.68,
+      "text": "Jadi kalau Extended itu lebih dekat lagi kepada kita"
+    },
+    {
+      "start": 396.68,
+      "end": 402.44,
+      "text": "Karena sudah berada di kota-kota, sudah ada di kota-kota kita masing-masing"
+    },
+    {
+      "start": 402.44,
+      "end": 405,
+      "text": "Mungkin kalau kalian bisa lihat ke depannya"
+    },
+    {
+      "start": 405,
+      "end": 408.6,
+      "text": "Coba lihat di kota kalian ada gak GDG chapter"
+    },
+    {
+      "start": 408.6,
+      "end": 412.68,
+      "text": "Kalau memang ada, coba join di salah satu event nya"
+    },
+    {
+      "start": 412.68,
+      "end": 415,
+      "text": "Karena ada banyak sekali topik-topik yang menarik"
+    },
+    {
+      "start": 415,
+      "end": 419.48,
+      "text": "Kita sebagai GDI juga akan memberikan topik-topik"
+    },
+    {
+      "start": 419.48,
+      "end": 424.76,
+      "text": "Yang akan ada di I/O, I/O itu sendiri ada nanti di I/O Extended"
+    },
+    {
+      "start": 424.76,
+      "end": 429.48,
+      "text": "Sehingga teman-teman bisa lebih banyak mendapatkan ilmu-ilmu baru"
+    },
+    {
+      "start": 429.48,
+      "end": 434.2,
+      "text": "Yang sudah berbahasa Indonesia juga"
+    },
+    {
+      "start": 434.2,
+      "end": 439.32,
+      "text": "Nanti yang nonton coba komentar"
+    },
+    {
+      "start": 439.32,
+      "end": 445.08,
+      "text": "Sekalian sudah menghadiri I/O Extended di mana saja, di kota mana"
+    },
+    {
+      "start": 445.08,
+      "end": 450.2,
+      "text": "Sudah ketemu siapa? Mungkin ada ketemu Riza, ketemu Pak Sandika, ketemu Eka"
+    },
+    {
+      "start": 450.2,
+      "end": 453.4,
+      "text": "Mungkin gak ketemu saya karena saya gak ngisi"
+    },
+    {
+      "start": 453.4,
+      "end": 456.6,
+      "text": "Gak berhalangan semua"
+    },
+    {
+      "start": 456.6,
+      "end": 462.36,
+      "text": "Jadi I/O Extended itu lokal ya, berarti yang menyelenggarakan juga secara resmi itu"
+    },
+    {
+      "start": 462.36,
+      "end": 465.16,
+      "text": "I/O Extended bukan event nya Google"
+    },
+    {
+      "start": 465.16,
+      "end": 470.28,
+      "text": "Jadi diselenggarakannya sama GDIH, komunitas, cuma di support saja"
+    },
+    {
+      "start": 470.28,
+      "end": 475.4,
+      "text": "Kalau I/O Connect ini regional dan ini memang event nya Google"
+    },
+    {
+      "start": 475.4,
+      "end": 480.52,
+      "text": "Jadi mungkin teman-teman sekarang udah dapet gambaran, apa sih bedanya?"
+    },
+    {
+      "start": 480.52,
+      "end": 486.04,
+      "text": "Kok kayaknya kemarin udah pernah I/O Connect, I/O Connect lagi di Google I/O"
+    },
+    {
+      "start": 486.04,
+      "end": 491,
+      "text": "Terus sekarang ada I/O Connect, ada Google I/O Extended itu bedanya"
+    },
+    {
+      "start": 491,
+      "end": 494.84,
+      "text": "Jadi ada yang semakin deket ke komunitas, ada yang memang dari pusat Google nya"
+    },
+    {
+      "start": 494.84,
+      "end": 498.68,
+      "text": "Sekarang kita mau cerita, experience kita, acaranya"
+    },
+    {
+      "start": 498.68,
+      "end": 508.6,
+      "text": "Jadi acaranya itu 2 hari ya, pertama ada kayak keynotes di main event nya"
+    },
+    {
+      "start": 508.6,
+      "end": 515.32,
+      "text": "Terus ada juga demo, ada juga workshop, udah ya, ada games"
+    },
+    {
+      "start": 515.32,
+      "end": 525.56,
+      "text": "Bagi yang dari demo sebenernya, jadi games nya itu, ada diskusi juga, panel discussion"
+    },
+    {
+      "start": 525.56,
+      "end": 533.24,
+      "text": "Ada keynote, ada workshop, ada panel dan roundtable discussion"
+    },
+    {
+      "start": 533.24,
+      "end": 540.92,
+      "text": "Ada demo, nah demo itu berupa boot-boot, tapi ada juga demo yang berupa game"
+    },
+    {
+      "start": 540.92,
+      "end": 546.04,
+      "text": "Jadi bukan cuma kayak boot monitor, layar sama laptop saja"
+    },
+    {
+      "start": 546.04,
+      "end": 551.16,
+      "text": "Tapi game interaktif yang kayak misalnya contohnya ada golep, ada bola"
+    },
+    {
+      "start": 551.16,
+      "end": 565.24,
+      "text": "Jadi ada kameranya gitu, ada kamera, terus kita nendang bola, peserta nendang bola ke spot yang ditentukan"
+    },
+    {
+      "start": 565.24,
+      "end": 572.92,
+      "text": "Terus di analisa pakai machine learning, hasilnya ditampilkan secara real time di layar"
+    },
+    {
+      "start": 572.92,
+      "end": 580.6,
+      "text": "Jadi itu kan kayak pakai berbagai teknologi Google ya, kalau untuk real time application nya, front-end nya"
+    },
+    {
+      "start": 580.6,
+      "end": 585.72,
+      "text": "Data storage nya misalnya bisa pakai teknologi dari firebase"
+    },
+    {
+      "start": 585.72,
+      "end": 595.96,
+      "text": "Terus machine learning nya, AI nya, mungkin pakai Gemini atau cloud AI lainnya, terus ponnya cuma menarik sih, seru"
+    },
+    {
+      "start": 595.96,
+      "end": 604.92,
+      "text": "Karena kita baru lihat yang kayak gitu yang nembak di analisis, terus dapet kayak viva kart"
+    },
+    {
+      "start": 604.92,
+      "end": 616.44,
+      "text": "Akurasi nya berapa, style nya berapa, sweet nya, ada kategorinya ya, ada power, terus style sama akurasi"
+    },
+    {
+      "start": 616.44,
+      "end": 625.4,
+      "text": "Jadi ada total nya, terus dan ini dapet 83 itu nggak berhasil masuk ya, belum berhasil masuk"
+    },
+    {
+      "start": 625.4,
+      "end": 635.64,
+      "text": "Yang paling tinggi padika, akurasi nya bagus, power nya nggak ada"
+    },
+    {
+      "start": 635.64,
+      "end": 643.32,
+      "text": "Nah terus setelah kita nendang, itu kan kita udah di analisis ya, kehebatan kita nya, terus kita bisa"
+    },
+    {
+      "start": 643.32,
+      "end": 648.44,
+      "text": "Dikasih tau improvement nya, kita harus ngapain"
+    },
+    {
+      "start": 648.44,
+      "end": 656.12,
+      "text": "You are good at what, but you lack of consistency katanya gitu kan"
+    },
+    {
+      "start": 656.12,
+      "end": 663.8,
+      "text": "Terus dan menariknya lagi adalah ada generated image nya itu bisa digenerated, misalkan mau background nya apa"
+    },
+    {
+      "start": 663.8,
+      "end": 671.48,
+      "text": "Ada effect apa, api menyala, kalau Ivan kemarin ada sayap ya, kayak subasa gitu ya"
+    },
+    {
+      "start": 671.48,
+      "end": 676.6,
+      "text": "Itu juga pakai AI ya, generate image nya, jadi itu macem-macem kan ada pipeline nya"
+    },
+    {
+      "start": 676.6,
+      "end": 684.28,
+      "text": "Pertama ngambil gambarnya dari kamera, gambar pas lagi nendang, abis itu background removal, kan udah dihilangin dulu background nya kan"
+    },
+    {
+      "start": 684.28,
+      "end": 691.96,
+      "text": "Nah terus setelah di remove background, dikasih kayak background dan efek-efek gitu, pakai AI juga"
+    },
+    {
+      "start": 691.96,
+      "end": 699.64,
+      "text": "Jadi itu kayak ngedemoin end to end lah, end to end, macem-macem product suit, terus ada juga golf"
+    },
+    {
+      "start": 699.64,
+      "end": 709.88,
+      "text": "Mini golf, nah terus itu juga ada kameranya yang mendeteksi gerakan-gerakan sama kecepatan bola nya"
+    },
+    {
+      "start": 709.88,
+      "end": 717.56,
+      "text": "Keliatnya itu juga ada sarannya, jadi ga tau nih, abis dari sini jangan-jangan beberapa developer ada yang alih profesi jadi"
+    },
+    {
+      "start": 717.56,
+      "end": 721.4,
+      "text": "Pemain bola top golf, ga tau juga"
+    },
+    {
+      "start": 721.4,
+      "end": 727.8,
+      "text": "Tadi sempat cerita juga sama salah satu GDI Firebase yang menanyakan dia bisa bahasa Chinese"
+    },
+    {
+      "start": 727.8,
+      "end": 735.48,
+      "text": "Dan dia bertanya kepada boot yang main golf itu, ini teknologi di belakangnya bagaimana"
+    },
+    {
+      "start": 735.48,
+      "end": 741.88,
+      "text": "Jadi temen-temen bayangin ya itu mini golf, bolanya warna merah, rumputnya warna hijau, jadi bisa kelihatan"
+    },
+    {
+      "start": 741.88,
+      "end": 750.84,
+      "text": "Bolanya di tracking oleh kamera, iya betul, ada kamera dari atas dan dari beberapa sisi"
+    },
+    {
+      "start": 750.84,
+      "end": 758.52,
+      "text": "Jadi bolanya saat jalan itu dideteksi sama namanya OpenCV"
+    },
+    {
+      "start": 758.52,
+      "end": 767.48,
+      "text": "Dan dibuat jalur bolanya, nah setelah jalur, jadi itu kan video ya di capture, terus bolanya dibikin jalurnya"
+    },
+    {
+      "start": 767.48,
+      "end": 772.6,
+      "text": "Terus jadi image, bayangkan jadi image, screenshot satu-satu"
+    },
+    {
+      "start": 772.6,
+      "end": 782.84,
+      "text": "Hasil combine image ini dikirimkan ke Jemenai untuk di analisasi, nah Jemenai Pro ini menganalisis"
+    },
+    {
+      "start": 782.84,
+      "end": 790.52,
+      "text": "Jalur bolanya dan berapa kali kalian namanya boot ya, berapa kali boot, berapa kali gagal sampai masuk"
+    },
+    {
+      "start": 790.52,
+      "end": 800.76,
+      "text": "Terus diberikan scoring dan diberikan analisa, mungkin analisanya, saya ga dengar analisanya, tapi hasil analisanya itu"
+    },
+    {
+      "start": 800.76,
+      "end": 810.36,
+      "text": "Dari Jemenai, nah dan diberikan outputnya, di layar yang kalian lihat tadi itu bisa mendengarkan"
+    },
+    {
+      "start": 810.36,
+      "end": 819.96,
+      "text": "Analisanya dari text to speech, jadi informen teknologinya kan dari kamera, video, dipotong-potong"
+    },
+    {
+      "start": 819.96,
+      "end": 830.2,
+      "text": "Pake OpenCV mendetek bolanya jadi image, image dikirimkan ke Jemenai, terus Jemenai analisis untuk bikin scoring"
+    },
+    {
+      "start": 830.2,
+      "end": 841.72,
+      "text": "Terus hasil analisasinya, analisisnya jadi text to speech, jadi ada rangkaiannya, semuanya menggunakan teknologi"
+    },
+    {
+      "start": 841.72,
+      "end": 848.12,
+      "text": "Yang digabung-gabung, dan di belakangnya ada AI, bisa jadi IDE"
+    },
+    {
+      "start": 848.12,
+      "end": 860.92,
+      "text": "Ini menariknya juga, kodenya bisa kita lihat ya, kalo yang bolanya ga dikasih, ada Google nya sebenernya, ada yang bisa ditanya-tanya"
+    },
+    {
+      "start": 860.92,
+      "end": 868.6,
+      "text": "Itu baru dua ya, dan dua hal itu menarik karena selama ini kan biasanya kalo kita ngomongin AI, generatif AI"
+    },
+    {
+      "start": 868.6,
+      "end": 877.56,
+      "text": "Itu contoh aplikasinya standar ya, chatbot, kalo ini kita bisa lihat implementasinya, use case nya banyak sekali"
+    },
+    {
+      "start": 877.56,
+      "end": 886.52,
+      "text": "Dan dengan kombinasi misalkan dengan image generator sama text to speech tadi, akhirnya bisa bikin sebuah produk yang menarik"
+    },
+    {
+      "start": 886.52,
+      "end": 894.2,
+      "text": "Menarik minat kita untuk pakai, tapi kita ngomongin game, padahal sebenernya yang utamanya adalah"
+    },
+    {
+      "start": 894.2,
+      "end": 901.88,
+      "text": "Yang utamanya adalah itu kan, talk nya kan, apa yang menarik di sesi web atau di keynote-keenote"
+    },
+    {
+      "start": 901.88,
+      "end": 908.28,
+      "text": "Opening keynote nya itu bahas tentang AI"
+    },
+    {
+      "start": 908.28,
+      "end": 914.68,
+      "text": "Karena ini kan repeater nya si IO tadi ya, jadi topiknya ya sebetulnya sama"
+    },
+    {
+      "start": 914.68,
+      "end": 922.36,
+      "text": "Jadi panggungnya disini ada beberapa keynote yang pembukanya yang paling utama itu di panggung yang paling besar ya"
+    },
+    {
+      "start": 922.36,
+      "end": 942.84,
+      "text": "Terus formatnya sama, bahasa Inggris, cuma beberapa presenter yang lokal pakai bahasa lokal, lagi-lagi kita bisa pakai headsets"
+    },
+    {
+      "start": 942.84,
+      "end": 954.36,
+      "text": "Gak, orang, ada orang ngomong, kelihatan? Nah itu opening nya kayak recap pembuka dari"
+    },
+    {
+      "start": 954.36,
+      "end": 962.04,
+      "text": "Vp nya Google lupa namanya, yang summarize semua teknologi-teknologi dan produk baru"
+    },
+    {
+      "start": 962.04,
+      "end": 969.72,
+      "text": "Habis itu ya ada, jadi ganti-gantian dalam satu sesi, speaker nya ada 5"
+    },
+    {
+      "start": 969.72,
+      "end": 979.96,
+      "text": "Yang sama dibuka oleh Vp, lalu dioper ke what's new, apa yang baru di android, apa yang baru di cloud, firebase, web, dan lain-lain"
+    },
+    {
+      "start": 979.96,
+      "end": 994.04,
+      "text": "Isinya ya sesuai IO kemarin sih, kalau yang dari web, AI, sama yang baru seperti mungkin ada yang nonton talk aku di IO Extended kemarin"
+    },
+    {
+      "start": 994.04,
+      "end": 1003,
+      "text": "Kalau gak ada ya udah sih, oh itu tahun lalu nya lagi malah, jadi misalnya ada Gemini Nano yang dimasukkan ke dalam Chrome"
+    },
+    {
+      "start": 1003,
+      "end": 1011.96,
+      "text": "Jadi built-in AI di dalam Chrome, itu eksperimen yang paling baru, terus library-library seperti media pipe test"
+    },
+    {
+      "start": 1011.96,
+      "end": 1023.48,
+      "text": "Yang bisa dipakai di javascript itu AI juga, dan beberapa hal baru di UI seperti view transition, apa lagi ya, container query"
+    },
+    {
+      "start": 1023.48,
+      "end": 1031.16,
+      "text": "Ya banyak hal baru dari UI juga sebetulnya yang menarik, terus apa lagi ya"
+    },
+    {
+      "start": 1031.16,
+      "end": 1038.84,
+      "text": "Oh ini pengalaman ngikutin workshopnya Adam Argyle, wah gila tuh, cara membawakannya luar biasa ya, natural sekali ya"
+    },
+    {
+      "start": 1038.84,
+      "end": 1054.44,
+      "text": "Seru banget, inspirasi, wah itu ghostbump, excited banget gitu dibawahnya ya, kita bisa lihat di docks, bisa lihat contohnya, tapi cara dia kasih demo"
+    },
+    {
+      "start": 1054.44,
+      "end": 1065.72,
+      "text": "Kalau demo-nya sebetulnya sih e-commerce ya, online store, ya itu standar, jadi pertama dikasih start, oh ya salah satunya juga project IDX itu IDE buatannya Google"
+    },
+    {
+      "start": 1065.72,
+      "end": 1077.24,
+      "text": "Ya semacam code pen lah kalau temen-temen familiar sama, oh sering ya, ya itu pake itu project IDX, terus ada e-commerce store yang sebenarnya udah jalan, udah berfungsi"
+    },
+    {
+      "start": 1077.24,
+      "end": 1087.48,
+      "text": "Cuma kayak UI-nya diperkaya lah dengan teknologi-teknologi baru tadi, kayak container query dan view transition, scroll driven animation dan temen-temennya"
+    },
+    {
+      "start": 1087.48,
+      "end": 1100.28,
+      "text": "Cuma intinya cara beliau membawakan workshopnya itu bikin kita semua bikin semangat dan bisa nyampein bahwa wow, sekarang kita bisa begini"
+    },
+    {
+      "start": 1100.28,
+      "end": 1107.96,
+      "text": "Kalau aku yang ngomong kayaknya norak gitu, cuma kalau dia yang ngomong kayak kita yang oh oh nice, bisa gini loh, bisa gini loh kayak"
+    },
+    {
+      "start": 1107.96,
+      "end": 1118.2,
+      "text": "Oh sorry ya aku norak kan dulu ya, jadi apa yang bikin kita seneng itu kelihatan gitu kalau dia itu sangat excited gitu"
+    },
+    {
+      "start": 1118.2,
+      "end": 1125.88,
+      "text": "Jadi yang lebih seperti kita tapi yang excited dengan teknologi baru ini yang bisa bikin front-end UI-nya jadi lebih wow"
+    },
+    {
+      "start": 1125.88,
+      "end": 1136.12,
+      "text": "Bagus gitu ya, yang kerennya lagi waktu dia bawain itu kan, dia memberikan fitur-fitur CSS baru secara tidak langsung"
+    },
+    {
+      "start": 1136.12,
+      "end": 1146.36,
+      "text": "Jadi yang dibicarakan transition tetapi ada fitur-fitur lainnya kayak nested, CSS, terus kemudian"
+    },
+    {
+      "start": 1146.36,
+      "end": 1174.52,
+      "text": "Progresif enhancement, accessibility, best practice, secara demo-nya pun well thought banget ya, kayak sudah dibikin rapi"
+    },
+    {
+      "start": 1174.52,
+      "end": 1184.76,
+      "text": "Simplify, nggak pakai, nggak ada tuh yang namanya build, build tool segala macem, vanila semua, CSS-nya vanila semua"
+    },
+    {
+      "start": 1184.76,
+      "end": 1195,
+      "text": "JS apa TS koma, JS, terus dia nggak pakai titik koma, di JS-nya tidak pakai titik koma"
+    },
+    {
+      "start": 1195,
+      "end": 1210.36,
+      "text": "Jadi fansnya Pak Dika bukan lagi pasukan titik koma nanti"
+    },
+    {
+      "start": 1210.36,
+      "end": 1229.8,
+      "text": "Terus JavaScript-nya juga gampang banget dibacanya rapi, kodingnya, nanti demo-nya bisa nanti kita sharing ya"
+    },
+    {
+      "start": 1229.8,
+      "end": 1241.32,
+      "text": "Jadi mungkin di deskripsi-nya jadi kalian juga bisa belajar, wah banget deh kalian kalau bisa belajar web transition karena sudah mulai"
+    },
+    {
+      "start": 1241.32,
+      "end": 1252.84,
+      "text": "Baseline ya, view transition sudah mulai baseline, sudah bisa dipakai di major browser, sebagian ya, slide ya, slide sama view ya"
+    },
+    {
+      "start": 1252.84,
+      "end": 1266.92,
+      "text": "Oh ya single page apps sudah bisa, apa lagi ya, oh kita dapat foto sama Adam Arka, nanti ada yang berempat ya, ada berempat"
+    },
+    {
+      "start": 1266.92,
+      "end": 1275.88,
+      "text": "Terus apa ya yang menarik selain kalau workshop atau talk, ok lah bisa lihat video"
+    },
+    {
+      "start": 1275.88,
+      "end": 1287.4,
+      "text": "Bisa ketemu dan ngobrol langsung ya, bisa tanya-tanya, Chrome DevTools"
+    },
+    {
+      "start": 1287.4,
+      "end": 1305.32,
+      "text": "Jocelyn ya Jocelyn, Jocelyn itu yang DevTools, kalau kalian pernah lihat ngobrolin web beberapa episode belakangan kita pernah undang Mbak Jocelyn"
+    },
+    {
+      "start": 1305.32,
+      "end": 1324.52,
+      "text": "Dia dulu seorang GDI Anggular, asal Malaysia tapi sekarang sudah jadi Googler, talks kita waktu itu tentang web driver bidirectional"
+    },
+    {
+      "start": 1324.52,
+      "end": 1337.32,
+      "text": "Kemarin talk-nya juga tentang web driver bidirectional, plus Mathias ya, plus DevTools, update DevTools"
+    },
+    {
+      "start": 1337.32,
+      "end": 1350.12,
+      "text": "Format yang menarik sih selain, jadi dalam satu talk itu beberapa sesi kemarin memang ada yang present presentasi topik biasa"
+    },
+    {
+      "start": 1350.12,
+      "end": 1358.52,
+      "text": "Sekarang ini bisa begini blablabla dan itu pertama, terus kedua ada juga yang bentuknya kayak bentuk pertanyaan"
+    },
+    {
+      "start": 1358.52,
+      "end": 1373.16,
+      "text": "Jadi sebelum kita pergi kesini, ada kayak questionnaire, semacam form yang diisi, kirimkan satu pertanyaan yang kalian pengen tanyakan ke Googler"
+    },
+    {
+      "start": 1373.16,
+      "end": 1384.68,
+      "text": "Tim Google, dari ratusan peserta, pertanyaan-pertanyaan yang sering muncul, yang banyak ditanyakan itu dijawab langsung"
+    },
+    {
+      "start": 1384.68,
+      "end": 1392.36,
+      "text": "Jadi screen-nya di layar, jadi kayak ngobrol, tapi nggak langsung itu berdasarkan pertanyaan yang sering muncul"
+    },
+    {
+      "start": 1392.36,
+      "end": 1404.84,
+      "text": "Jadi di layar cuma muncul, saya pengen begini begini, atau bahkan, atau kalau yang di sesinya Jocelyn lucu itu ada pertanyaan"
+    },
+    {
+      "start": 1404.84,
+      "end": 1412.84,
+      "text": "Kalau kamu punya tongkat ajaib, magic wand, hal apa yang ingin kalian ubah dari Chrome DevTools"
+    },
+    {
+      "start": 1412.84,
+      "end": 1423.96,
+      "text": "Jadi masing-masing speaker yang ngejawab jadi nggak formal banget yang kayak lecture, kuliah presentasi, walaupun depannya ada intro-nya seperti itu"
+    },
+    {
+      "start": 1423.96,
+      "end": 1431.08,
+      "text": "Tapi banyak yang menjawab pertanyaan yang dikirim lewat forum juga, dan yang terakhir ya Q&A langsung"
+    },
+    {
+      "start": 1431.08,
+      "end": 1434.36,
+      "text": "Kita tanya-tanya semua kemarin, muka tebul aja ya"
+    },
+    {
+      "start": 1434.36,
+      "end": 1436.36,
+      "text": "Terus apa lagi?"
+    },
+    {
+      "start": 1436.36,
+      "end": 1447.24,
+      "text": "Mungkin pertanyaan dari saya, hal yang berkesaan dari topik apa yang kemarin yang melekak di kepala masing-masing"
+    },
+    {
+      "start": 1447.24,
+      "end": 1462.2,
+      "text": "Kalau saya jelas ketemu Adam Argyle ya, jadi Adam itu adalah orang yang nginterview saya pada saat mau jadi GDI"
+    },
+    {
+      "start": 1462.2,
+      "end": 1473.72,
+      "text": "Jadi ada 4 orang yang berjasa, yang satu Mas Danang tentu saja, yang kedua Mas Riza, ini mentor GDI saya"
+    },
+    {
+      "start": 1473.72,
+      "end": 1492.6,
+      "text": "Terus satu lagi itu dari India, GDI, web India, dan yang terakhir Mas Adam ini, orang Google-nya yang nginterview kita jadi dia nginterview terakhir lah, jadi ketemu di Google Meet aja udah starstruck gitu, apalagi kita ketemu langsung"
+    },
+    {
+      "start": 1492.6,
+      "end": 1508.12,
+      "text": "Gimana? Ya menyerangkan sih, bisa sampe ketemu idola langsung, udah gitu ngeliat toksnya juga mantep banget"
+    },
+    {
+      "start": 1508.12,
+      "end": 1514.04,
+      "text": "Jadi terinspirasi kayaknya bisa deh kita kalau ngisi materi, saya excited itu"
+    },
+    {
+      "start": 1514.04,
+      "end": 1526.76,
+      "text": "Ada 2 orang saya yang lihat Live Coding Excited itu, yang pertama Adam Argyle, kedua Adam Abramov"
+    },
+    {
+      "start": 1526.76,
+      "end": 1537.48,
+      "text": "Kalau dia udah ngasih Live Coding itu kayak nggak ada slide, dia cuma kayak notepad kosong, typing, udah langsung lanjut aja gitu"
+    },
+    {
+      "start": 1537.48,
+      "end": 1545.64,
+      "text": "Pengen banget gue niru cara bawain kayak gitu, mungkin nanti handle sama Mas Riza kali ya"
+    },
+    {
+      "start": 1545.64,
+      "end": 1559.4,
+      "text": "Kalau saya apa ya, mungkin lebih ke experience secara umum ya, jadi kan ini kali pertama kita ke China, dan China itu bahasa utamanya kan Mandarin ya"
+    },
+    {
+      "start": 1559.4,
+      "end": 1569.08,
+      "text": "Kita itu kesulitan sekali, karena mereka nggak ada yang bisa bahasa Inggris, kalau misalnya taksi gitu ya, atau kayak ketoko beli segala macam itu mereka nggak"
+    },
+    {
+      "start": 1569.08,
+      "end": 1577.16,
+      "text": "Kita ngomong bahasa Inggris, mereka jawabnya bahasa China ya biasanya ya, jadi kesulitan, terus juga kita merasakan bagaimana menjadi minoritas"
+    },
+    {
+      "start": 1577.16,
+      "end": 1586.68,
+      "text": "Jadi biasanya kalau kita datang ke Google I/O atau datang langsung gitu ya atau talk di Indonesia, biasanya kan ada translator, tapi buat orang luar"
+    },
+    {
+      "start": 1586.68,
+      "end": 1595.24,
+      "text": "Nah sementara sekarang kita harus pake di beberapa, kita by default buka pintu yang kita nggak ngerti kan, biasanya apa ya"
+    },
+    {
+      "start": 1595.24,
+      "end": 1603.8,
+      "text": "Sesi Google Play itu, jadi kita random nyasar ke sesi yang emang bukan web, tapi ya udah lihat aja, lihat berdiri di belakang gitu"
+    },
+    {
+      "start": 1603.8,
+      "end": 1614.92,
+      "text": "Tahu kan yang kayak baru masuk ruangan, lihat sekilas, pengen denger sekilas sama lihat slide-nya, kita nggak ngerti semua, karena semua slide dalam bahasa sini"
+    },
+    {
+      "start": 1614.92,
+      "end": 1625.64,
+      "text": "Ngomongnya juga dalam bahasa China, kalau yang presenter lokal ya, bahasa Mandarin, kalau misalnya kita butuh translation ya kita harus niat gitu yang kayak minta headset"
+    },
+    {
+      "start": 1625.64,
+      "end": 1637.96,
+      "text": "Cari kursi duduk yang proper gitu, tapi antara audio sama slide-nya itu agak delay, ya belum, karena kan butuh waktu dia, si penerjemahnya migir dulu kan si interpreter-nya"
+    },
+    {
+      "start": 1637.96,
+      "end": 1642.84,
+      "text": "Ternyata sebegitunya kita, kalau sebagai minoritas sebegitunya gitu"
+    },
+    {
+      "start": 1642.84,
+      "end": 1652.84,
+      "text": "Dan nggak bisa langsung mendapatkan ilmunya, jadi kayak experience-nya, kualitasnya beda, dan yang menarik mungkin dalam hal itu kayak beda kultur juga ya, beda tempat, beda kultur"
+    },
+    {
+      "start": 1652.84,
+      "end": 1664.36,
+      "text": "Soalnya tahun lalu kan ke India juga, dimana mereka juga punya bahasa sendiri, tapi by default, ya by default semua dalam bahasa Inggris, jadi kayak slide-talk-nya"
+    },
+    {
+      "start": 1664.36,
+      "end": 1678.2,
+      "text": "Jadi slide-nya bukan bahasa Hindi, terus kayak hal-hal simple deh, kayak poster, sign system, kayak poster acara nih, nanti ya mungkin bisa diselipin gambarnya"
+    },
+    {
+      "start": 1678.2,
+      "end": 1693.8,
+      "text": "Poster acara itu semua dalam bahasa lokal, bahasa Mandarin, kita nggak ngerti, cuma kita bisa ngira-ngira artinya lah, sedangkan kalau di India tahun lalu, semuanya semua poster bahasa Inggris"
+    },
+    {
+      "start": 1693.8,
+      "end": 1696.36,
+      "text": "Terus apa, oh yang menarik ya?"
+    },
+    {
+      "start": 1696.36,
+      "end": 1704.84,
+      "text": "Kesan talk ya, oh ini DevTools itu sekarang udah, udah ada belum sih yang error yang bisa disolve?"
+    },
+    {
+      "start": 1704.84,
+      "end": 1706.84,
+      "text": "Udah-udah, baru kita live"
+    },
+    {
+      "start": 1706.84,
+      "end": 1717.16,
+      "text": "Oh iya, jadi didemo-in lagi kan sama Giseline kan, jadi kalau misalkan di DevTools itu ada error, misalkan oh course kan banyak yang kena tuh, course origin"
+    },
+    {
+      "start": 1717.16,
+      "end": 1721.96,
+      "text": "Ini error-nya kenapa ya, kan biasanya kita copy, terus paste ke Google atau Stack Overflow"
+    },
+    {
+      "start": 1721.96,
+      "end": 1730.2,
+      "text": "Nah sekarang ada tombol apa, kayak lampu, ya lightbulb gitu, diklik nanti dia akan menjelaskan"
+    },
+    {
+      "start": 1730.2,
+      "end": 1737.32,
+      "text": "Iya, dia kirimin ke cloud ya, beberapa data dia kirimin ke cloud, tapi tenang aja kayaknya nggak data-data privacy ya"
+    },
+    {
+      "start": 1737.32,
+      "end": 1742.44,
+      "text": "Data-data yang umum, error message aja, ada concern-nya ya betul"
+    },
+    {
+      "start": 1742.44,
+      "end": 1755.48,
+      "text": "Ya dia ada persejuduannya dulu, terus abis itu nanti dia akan kasih solusi, oh kemungkinan ini yang kamu harus perbaiki, ini sama itu yang kemarin bisa memanipulasi response dari DevTools"
+    },
+    {
+      "start": 1755.48,
+      "end": 1765.16,
+      "text": "Itu menarik tuh, karena kadang-kadang error, ya kadang-kadang ada error misalkan yang tadi course atau oh datanya belum siap, API-nya belum siap"
+    },
+    {
+      "start": 1765.16,
+      "end": 1776.68,
+      "text": "Jadi kita bisa pakai data dummy, nggak perlu bikin dummy server, jadi langsung aja di copy paste ke DevTools dan dia akan bisa nampilin front-end-nya itu sih"
+    },
+    {
+      "start": 1776.68,
+      "end": 1786.92,
+      "text": "Dan yang menarik dari mostnya tolk itu juga demonya menarik sih, kayak misalnya kalau yang si console error, kita bisa consult AI itu kenapa kan"
+    },
+    {
+      "start": 1786.92,
+      "end": 1797.56,
+      "text": "Kita udah pernah demo-in live juga ya, cuma yang ditolk kemarin itu, ya kayak mereka bikin contoh aplikasi Bubble Tea ya, Bubble Tea browser ya"
+    },
+    {
+      "start": 1797.56,
+      "end": 1805.48,
+      "text": "Pokoknya di-present dengan menarik dan sesuai dengan hal yang ya umum dikerjain oleh developer sih, jadi bikin lebih menarik aja"
+    },
+    {
+      "start": 1805.48,
+      "end": 1815.08,
+      "text": "Terus kesan lain apa ya, oh iya ada tolk yang menarik juga tentang web AI ya, lagi-lagi AI sih"
+    },
+    {
+      "start": 1815.08,
+      "end": 1828.12,
+      "text": "Cuma mostnya kalau frase atau istilah web AI ini lagi di-promote bah, khusus untuk AI model yang berjalan di browser"
+    },
+    {
+      "start": 1828.12,
+      "end": 1839.4,
+      "text": "Nah itu tolknya yang bertiga panel itu siapa ya? Mas Thomas, Mas Jason, sama Mbak Alexandra ya kalau nggak salah namanya"
+    },
+    {
+      "start": 1839.4,
+      "end": 1848.36,
+      "text": "Karena bertiga jadi kayak itu juga lebih ke diskusi panel, jadi formatnya nggak terlalu kaku ya"
+    },
+    {
+      "start": 1848.36,
+      "end": 1855.8,
+      "text": "Mungkin kalau teknologi-teknologinya sendiri sih, ya kebetulan karena IO Extended tolk kemarin tentang itu udah baca semua"
+    },
+    {
+      "start": 1855.8,
+      "end": 1865.64,
+      "text": "Cuma beda sih rasanya waktu denger penjelasan oleh orang yang emang DevRel emang fokus disitu"
+    },
+    {
+      "start": 1865.64,
+      "end": 1871.8,
+      "text": "Dan cara ngomonginnya itu kan nggak terlalu formal kayak yang di video YouTube atau dokumentasi ya"
+    },
+    {
+      "start": 1871.8,
+      "end": 1881.8,
+      "text": "Jadi formatnya conversation, tanya-jawab ya semi ngobrol lah, kita ngeliat orang ngobrolin web AI, itu seru juga"
+    },
+    {
+      "start": 1881.8,
+      "end": 1894.44,
+      "text": "Kalau saya, cara mereka hampir semua konten menarik, cuma konten yang dibawakan tidak ngeripit apa yang sudah dikasih di Google IO"
+    },
+    {
+      "start": 1894.44,
+      "end": 1909.16,
+      "text": "Jadi dibungkus kembali dengan bentuk tanya-jawab itu menurut saya lebih menarik dan jadi lebih natural, lebih manusia"
+    },
+    {
+      "start": 1909.16,
+      "end": 1911.64,
+      "text": "Di Bangalore nggak seperti itu?"
+    },
+    {
+      "start": 1911.64,
+      "end": 1921.32,
+      "text": "Di Bangalore ini kayak presentasi seminar satu arah, kalau ini dia memang selesai"
+    },
+    {
+      "start": 1921.32,
+      "end": 1926.76,
+      "text": "Notice nggak sih semua panel, nggak ada yang bawa slide sebenarnya"
+    },
+    {
+      "start": 1926.76,
+      "end": 1930.28,
+      "text": "Slidenya cuma tanya-jawab"
+    },
+    {
+      "start": 1930.28,
+      "end": 1935.24,
+      "text": "Kalau kayak Sesi J-Slide itu ada yang mau nanya kalau nggak ada dia punya pertanyaan"
+    },
+    {
+      "start": 1935.24,
+      "end": 1936.6,
+      "text": "Iya betul"
+    },
+    {
+      "start": 1936.6,
+      "end": 1939,
+      "text": "Pertanyaannya ya yang dari di-submit itu"
+    },
+    {
+      "start": 1939,
+      "end": 1944.36,
+      "text": "Jadi yang diberikan tol itu cuma cuplikan-cuplikan plus informasi tambahan sebenarnya"
+    },
+    {
+      "start": 1944.36,
+      "end": 1947.08,
+      "text": "Dan banyakan contoh"
+    },
+    {
+      "start": 1947.08,
+      "end": 1948.68,
+      "text": "Contoh kasus ya"
+    },
+    {
+      "start": 1948.68,
+      "end": 1950.76,
+      "text": "Iya contoh kasus, jadinya menyenangkan"
+    },
+    {
+      "start": 1950.76,
+      "end": 1954.6,
+      "text": "Yang menarik semuanya menarik sih semuanya"
+    },
+    {
+      "start": 1954.6,
+      "end": 1956.36,
+      "text": "Satu lah, satu lah pilih lah"
+    },
+    {
+      "start": 1956.36,
+      "end": 1958.44,
+      "text": "Apa ya, yang..."
+    },
+    {
+      "start": 1958.44,
+      "end": 1961,
+      "text": "Performance ada nggak yang menarik dari performance?"
+    },
+    {
+      "start": 1961,
+      "end": 1962.28,
+      "text": "Nggak ada kan performance"
+    },
+    {
+      "start": 1962.28,
+      "end": 1963.08,
+      "text": "Belum ada"
+    },
+    {
+      "start": 1963.08,
+      "end": 1968.68,
+      "text": "Yang menarik dari performance ya itu yang saya ngobrol sama Thomas Steiner"
+    },
+    {
+      "start": 1968.68,
+      "end": 1980.2,
+      "text": "Bukan, yang performance itu yang antara kalau menjalankan model AI di web"
+    },
+    {
+      "start": 1980.2,
+      "end": 1982.76,
+      "text": "Web AI ya yang bukan ke cloud ya"
+    },
+    {
+      "start": 1982.76,
+      "end": 1986.6,
+      "text": "Itu bagus mana antara GPU atau CPU"
+    },
+    {
+      "start": 1986.6,
+      "end": 1987.88,
+      "text": "Terus kemudian"
+    },
+    {
+      "start": 1987.88,
+      "end": 1989.16,
+      "text": "Pertimbangannya apa ya"
+    },
+    {
+      "start": 1989.16,
+      "end": 1991.72,
+      "text": "Pertimbangannya apa, benchmarkingnya gimana"
+    },
+    {
+      "start": 1991.72,
+      "end": 1994.28,
+      "text": "Terus kemudian"
+    },
+    {
+      "start": 1994.28,
+      "end": 1995.56,
+      "text": "Ternyata"
+    },
+    {
+      "start": 1995.56,
+      "end": 1997.08,
+      "text": "Untuk menyimpan"
+    },
+    {
+      "start": 1997.08,
+      "end": 1999.4,
+      "text": "Model itu bisa di-cache"
+    },
+    {
+      "start": 1999.4,
+      "end": 2000.68,
+      "text": "Di..."
+    },
+    {
+      "start": 2000.68,
+      "end": 2003.24,
+      "text": "Apa katanya tadi?"
+    },
+    {
+      "start": 2003.24,
+      "end": 2008.36,
+      "text": "Bukan lokal storage, jadi pakai web cache API"
+    },
+    {
+      "start": 2008.36,
+      "end": 2010.68,
+      "text": "Di service worker cache API"
+    },
+    {
+      "start": 2010.68,
+      "end": 2013.48,
+      "text": "Itu lebih cepet disimpan di situ"
+    },
+    {
+      "start": 2013.48,
+      "end": 2016.04,
+      "text": "Karena di service worker cache API"
+    },
+    {
+      "start": 2016.04,
+      "end": 2018.6,
+      "text": "Bisa nyimpan model sebagai binary"
+    },
+    {
+      "start": 2018.6,
+      "end": 2021.16,
+      "text": "Jadi tidak di-convert lagi ke"
+    },
+    {
+      "start": 2021.16,
+      "end": 2025,
+      "text": "Format lain, ke serialize, tidak diserialize lagi"
+    },
+    {
+      "start": 2025,
+      "end": 2028.84,
+      "text": "Jadi bukan lokal storage ataupun bukan index DB"
+    },
+    {
+      "start": 2028.84,
+      "end": 2033.32,
+      "text": "Cache API itu walaupun bagian dari speknya service worker"
+    },
+    {
+      "start": 2033.32,
+      "end": 2035.48,
+      "text": "Ya itu sebenarnya bisa dipakai ketengan sih"
+    },
+    {
+      "start": 2035.48,
+      "end": 2038.28,
+      "text": "Jadi mau dipakai dari service worker boleh"
+    },
+    {
+      "start": 2038.28,
+      "end": 2042.2,
+      "text": "Dari main thread boleh, ya await cache.open blablabla"
+    },
+    {
+      "start": 2042.2,
+      "end": 2044.04,
+      "text": "Ya cari sendiri di MDN"
+    },
+    {
+      "start": 2044.04,
+      "end": 2045.96,
+      "text": "Bisa dari web worker juga"
+    },
+    {
+      "start": 2045.96,
+      "end": 2048.04,
+      "text": "Untuk menyimpan"
+    },
+    {
+      "start": 2048.04,
+      "end": 2051.48,
+      "text": "Si model yang udah di-donate ke browser itu"
+    },
+    {
+      "start": 2051.48,
+      "end": 2053.4,
+      "text": "Oh iya satu lagi yang berkesan"
+    },
+    {
+      "start": 2053.4,
+      "end": 2056.6,
+      "text": "Ya ini mirip sama jawabannya padika tadi sih"
+    },
+    {
+      "start": 2056.6,
+      "end": 2059.8,
+      "text": "Kayak ketemu langsung sama"
+    },
+    {
+      "start": 2059.8,
+      "end": 2063.88,
+      "text": "Developer-developer yang selama ini"
+    },
+    {
+      "start": 2063.88,
+      "end": 2065.88,
+      "text": "Cuma nonton videonya"
+    },
+    {
+      "start": 2065.88,
+      "end": 2067.88,
+      "text": "Kayak misalnya si"
+    },
+    {
+      "start": 2067.88,
+      "end": 2069.88,
+      "text": "Mas Adam Ergal"
+    },
+    {
+      "start": 2069.88,
+      "end": 2071.88,
+      "text": "Karena sebelumnya belum pernah ketemu"
+    },
+    {
+      "start": 2071.88,
+      "end": 2073.88,
+      "text": "Dan emang senang sama cara"
+    },
+    {
+      "start": 2073.88,
+      "end": 2075.88,
+      "text": "Cara ngebawain kontennya"
+    },
+    {
+      "start": 2075.88,
+      "end": 2077.88,
+      "text": "Terus nonton langsung juga udah"
+    },
+    {
+      "start": 2077.88,
+      "end": 2081.88,
+      "text": "Kayak nonton concert"
+    },
+    {
+      "start": 2081.88,
+      "end": 2083.88,
+      "text": "Apa?"
+    },
+    {
+      "start": 2083.88,
+      "end": 2085.88,
+      "text": "Oh iya"
+    },
+    {
+      "start": 2085.88,
+      "end": 2087.88,
+      "text": "Katanya in progress"
+    },
+    {
+      "start": 2087.88,
+      "end": 2089.88,
+      "text": "Bekal kita bahas lagi"
+    },
+    {
+      "start": 2089.88,
+      "end": 2091.88,
+      "text": "Kalau yang tau-tau yang CSS 2023"
+    },
+    {
+      "start": 2091.88,
+      "end": 2093.88,
+      "text": "Kan udah tuh sampai bersambung ya"
+    },
+    {
+      "start": 2093.88,
+      "end": 2095.88,
+      "text": "Ya gitu"
+    },
+    {
+      "start": 2095.88,
+      "end": 2097.88,
+      "text": "Cuma itu tadi sih"
+    },
+    {
+      "start": 2097.88,
+      "end": 2101.88,
+      "text": "Pas nonton live itu rasanya kayak nonton concert live gitu"
+    },
+    {
+      "start": 2101.88,
+      "end": 2103.88,
+      "text": "Nah tapi kan abis kelar"
+    },
+    {
+      "start": 2103.88,
+      "end": 2105.88,
+      "text": "Beliau workshop"
+    },
+    {
+      "start": 2105.88,
+      "end": 2107.88,
+      "text": "Kan mereka ada booth masing-masing juga"
+    },
+    {
+      "start": 2107.88,
+      "end": 2109.88,
+      "text": "Ya kita nyamperin ke booth"
+    },
+    {
+      "start": 2109.88,
+      "end": 2111.88,
+      "text": "Asli sih gemeter sih"
+    },
+    {
+      "start": 2111.88,
+      "end": 2113.88,
+      "text": "Terus"
+    },
+    {
+      "start": 2113.88,
+      "end": 2115.88,
+      "text": "Nah tapi ternyata pas habis"
+    },
+    {
+      "start": 2115.88,
+      "end": 2117.88,
+      "text": "Ketemu nyapa ya ramah-ramah"
+    },
+    {
+      "start": 2117.88,
+      "end": 2119.88,
+      "text": "Ya ramah lah pasti"
+    },
+    {
+      "start": 2119.88,
+      "end": 2121.88,
+      "text": "Sebenernya apa secara rasional"
+    },
+    {
+      "start": 2121.88,
+      "end": 2123.88,
+      "text": "Secara rasional udah tau"
+    },
+    {
+      "start": 2123.88,
+      "end": 2125.88,
+      "text": "Maksudnya DevRel itu kan"
+    },
+    {
+      "start": 2125.88,
+      "end": 2127.88,
+      "text": "Memang kerjaannya adalah"
+    },
+    {
+      "start": 2127.88,
+      "end": 2129.88,
+      "text": "Connect sama developer"
+    },
+    {
+      "start": 2129.88,
+      "end": 2131.88,
+      "text": "Mereka misalnya bikin"
+    },
+    {
+      "start": 2131.88,
+      "end": 2133.88,
+      "text": "Suatu fitur"
+    },
+    {
+      "start": 2133.88,
+      "end": 2135.88,
+      "text": "Atau teknologi"
+    },
+    {
+      "start": 2135.88,
+      "end": 2137.88,
+      "text": "Ya bukan bikin tapi misalnya menggodok"
+    },
+    {
+      "start": 2137.88,
+      "end": 2139.88,
+      "text": "Atau mendokumentasikan"
+    },
+    {
+      "start": 2139.88,
+      "end": 2141.88,
+      "text": "Itu kan pasti butuh feedback dari kita juga"
+    },
+    {
+      "start": 2141.88,
+      "end": 2143.88,
+      "text": "Secara rasional tau itu"
+    },
+    {
+      "start": 2143.88,
+      "end": 2145.88,
+      "text": "Cuma pas lagi nyamperin mau ngomong tuh"
+    },
+    {
+      "start": 2147.88,
+      "end": 2149.88,
+      "text": "Terus"
+    },
+    {
+      "start": 2149.88,
+      "end": 2151.88,
+      "text": "Akhirnya berhasil"
+    },
+    {
+      "start": 2151.88,
+      "end": 2153.88,
+      "text": "Menunjukin kan buat"
+    },
+    {
+      "start": 2153.88,
+      "end": 2155.88,
+      "text": "DevFest tahun lalu pernah punya presentasi"
+    },
+    {
+      "start": 2155.88,
+      "end": 2157.88,
+      "text": "Yang menjelaskan cara kerjanya"
+    },
+    {
+      "start": 2157.88,
+      "end": 2159.88,
+      "text": "View Transitions API"
+    },
+    {
+      "start": 2159.88,
+      "end": 2161.88,
+      "text": "Terus mau di review ya?"
+    },
+    {
+      "start": 2161.88,
+      "end": 2163.88,
+      "text": "Tanya-tanya, pengen review dong"
+    },
+    {
+      "start": 2163.88,
+      "end": 2165.88,
+      "text": "Manfaatin dong, dan emang gak apa-apa"
+    },
+    {
+      "start": 2165.88,
+      "end": 2167.88,
+      "text": "Dia emang welcome buat"
+    },
+    {
+      "start": 2167.88,
+      "end": 2169.88,
+      "text": "Kayak gitu, jadi silahkan email aja"
+    },
+    {
+      "start": 2169.88,
+      "end": 2171.88,
+      "text": "Kalau mau tanya-tanya"
+    },
+    {
+      "start": 2171.88,
+      "end": 2173.88,
+      "text": "Maksudnya informasinya bener akurat atau enggak"
+    },
+    {
+      "start": 2173.88,
+      "end": 2175.88,
+      "text": "Nyampeinnya begini udah"
+    },
+    {
+      "start": 2175.88,
+      "end": 2177.88,
+      "text": "Maksimal atau mungkin"
+    },
+    {
+      "start": 2177.88,
+      "end": 2179.88,
+      "text": "Ada cara yang lebih enak, lebih oke"
+    },
+    {
+      "start": 2179.88,
+      "end": 2181.88,
+      "text": "Untuk ngejelasin ini bedanya apa"
+    },
+    {
+      "start": 2181.88,
+      "end": 2183.88,
+      "text": "Sama existing solutions misalnya"
+    },
+    {
+      "start": 2183.88,
+      "end": 2185.88,
+      "text": "Dan mereka semua tuh"
+    },
+    {
+      "start": 2185.88,
+      "end": 2187.88,
+      "text": "Semua devrelo itu"
+    },
+    {
+      "start": 2187.88,
+      "end": 2189.88,
+      "text": "Enak untuk diajak"
+    },
+    {
+      "start": 2189.88,
+      "end": 2191.88,
+      "text": "Ngobrol langsung sih"
+    },
+    {
+      "start": 2191.88,
+      "end": 2193.88,
+      "text": "Walaupun grogi, tapi seru"
+    },
+    {
+      "start": 2193.88,
+      "end": 2195.88,
+      "text": "Oh iya, satu lagi yang menarik"
+    },
+    {
+      "start": 2195.88,
+      "end": 2197.88,
+      "text": "Di sesi-sesi yang"
+    },
+    {
+      "start": 2197.88,
+      "end": 2199.88,
+      "text": "Panel dan tanya-jawab selain"
+    },
+    {
+      "start": 2199.88,
+      "end": 2201.88,
+      "text": "Keynote, itu kan ada siapa yang mau nanya kan"
+    },
+    {
+      "start": 2201.88,
+      "end": 2203.88,
+      "text": "Kalau bertanya itu gak dapat sweat"
+    },
+    {
+      "start": 2203.88,
+      "end": 2205.88,
+      "text": "Gak, gak dapat"
+    },
+    {
+      "start": 2205.88,
+      "end": 2207.88,
+      "text": "Sweatnya itu di luar"
+    },
+    {
+      "start": 2207.88,
+      "end": 2209.88,
+      "text": "Di booth-booth itu banyak sweat"
+    },
+    {
+      "start": 2209.88,
+      "end": 2211.88,
+      "text": "Jadi pas pertanyaan itu gak dipancing dengan"
+    },
+    {
+      "start": 2211.88,
+      "end": 2213.88,
+      "text": "Siapa yang mau sweat gitu, enggak"
+    },
+    {
+      "start": 2213.88,
+      "end": 2215.88,
+      "text": "Nanya aja"
+    },
+    {
+      "start": 2215.88,
+      "end": 2217.88,
+      "text": "Itu aja udah kesempatan"
+    },
+    {
+      "start": 2217.88,
+      "end": 2219.88,
+      "text": "Berharga sih, nanya langsung"
+    },
+    {
+      "start": 2219.88,
+      "end": 2221.88,
+      "text": "Iya, grogi juga kemarin"
+    },
+    {
+      "start": 2221.88,
+      "end": 2223.88,
+      "text": "Nanya ke Mas Thomas"
+    },
+    {
+      "start": 2223.88,
+      "end": 2225.88,
+      "text": "Padahal udah sempet ngobrol kan"
+    },
+    {
+      "start": 2225.88,
+      "end": 2227.88,
+      "text": "Kita bikin contekan, saya baca"
+    },
+    {
+      "start": 2227.88,
+      "end": 2229.88,
+      "text": "Dan bacanya juga terpatah-patah"
+    },
+    {
+      "start": 2229.88,
+      "end": 2231.88,
+      "text": "Ngomongnya, udah bahasa Inggris"
+    },
+    {
+      "start": 2231.88,
+      "end": 2233.88,
+      "text": "Terus ngomongnya di depan orang"
+    },
+    {
+      "start": 2233.88,
+      "end": 2235.88,
+      "text": "Jadi lumayan lah ya experience-nya"
+    },
+    {
+      "start": 2235.88,
+      "end": 2239.88,
+      "text": "Terakhir tadi nyambung sama"
+    },
+    {
+      "start": 2239.88,
+      "end": 2241.88,
+      "text": "Mbak Eka, itu juga"
+    },
+    {
+      "start": 2241.88,
+      "end": 2243.88,
+      "text": "Berlaku kalau misalkan teman-teman hadir"
+    },
+    {
+      "start": 2243.88,
+      "end": 2245.88,
+      "text": "Ke acara-acara meet-up"
+    },
+    {
+      "start": 2245.88,
+      "end": 2247.88,
+      "text": "Di Indonesia juga, kalau misalkan"
+    },
+    {
+      "start": 2247.88,
+      "end": 2249.88,
+      "text": "Ada kesempatan buat tanya-tanya sama"
+    },
+    {
+      "start": 2249.88,
+      "end": 2251.88,
+      "text": "Speakers-nya, baik itu pas lagi"
+    },
+    {
+      "start": 2251.88,
+      "end": 2253.88,
+      "text": "Selesai apa, pas lagi speaking"
+    },
+    {
+      "start": 2253.88,
+      "end": 2255.88,
+      "text": "Atau pas udah"
+    },
+    {
+      "start": 2255.88,
+      "end": 2257.88,
+      "text": "Samparin aja, jangan cuman"
+    },
+    {
+      "start": 2257.88,
+      "end": 2259.88,
+      "text": "Minta foto ya, kalau misalkan punya pertanyaan"
+    },
+    {
+      "start": 2259.88,
+      "end": 2261.88,
+      "text": "Ini minta foto juga nggak apa-apa sih"
+    },
+    {
+      "start": 2261.88,
+      "end": 2267.88,
+      "text": "Cuman justru"
+    },
+    {
+      "start": 2267.88,
+      "end": 2269.88,
+      "text": "Ya kita juga nggak"
+    },
+    {
+      "start": 2269.88,
+      "end": 2271.88,
+      "text": "Ini ya nggak apa-apa gitu"
+    },
+    {
+      "start": 2271.88,
+      "end": 2273.88,
+      "text": "Kalau misalkan ditanya juga silahkan aja"
+    },
+    {
+      "start": 2273.88,
+      "end": 2275.88,
+      "text": "Justru kan daripada nanya lewat sosmed"
+    },
+    {
+      "start": 2275.88,
+      "end": 2277.88,
+      "text": "Atau asingkronus"
+    },
+    {
+      "start": 2277.88,
+      "end": 2279.88,
+      "text": "Ada depan mata, tanyain aja"
+    },
+    {
+      "start": 2279.88,
+      "end": 2283.88,
+      "text": "Kita gigit kok, tapi nggak sakit"
+    },
+    {
+      "start": 2283.88,
+      "end": 2287.88,
+      "text": "Gimana Mas Yada, yang mau disampaikan"
+    },
+    {
+      "start": 2287.88,
+      "end": 2289.88,
+      "text": "Atau"
+    },
+    {
+      "start": 2289.88,
+      "end": 2301.88,
+      "text": "Apa yang bisa di improve"
+    },
+    {
+      "start": 2301.88,
+      "end": 2303.88,
+      "text": "Misalnya, kalau suatu hari lagi nanti"
+    },
+    {
+      "start": 2303.88,
+      "end": 2305.88,
+      "text": "Kita balik lagi kesini, misalnya"
+    },
+    {
+      "start": 2305.88,
+      "end": 2307.88,
+      "text": "Ada apa yang"
+    },
+    {
+      "start": 2307.88,
+      "end": 2309.88,
+      "text": "Yang kalian lakukan"
+    },
+    {
+      "start": 2309.88,
+      "end": 2311.88,
+      "text": "Berbeda"
+    },
+    {
+      "start": 2311.88,
+      "end": 2313.88,
+      "text": "Atau"
+    },
+    {
+      "start": 2313.88,
+      "end": 2315.88,
+      "text": "Apa yang bisa kalian improve"
+    },
+    {
+      "start": 2315.88,
+      "end": 2317.88,
+      "text": "Supaya bisa lebih baik"
+    },
+    {
+      "start": 2317.88,
+      "end": 2319.88,
+      "text": "Dapatnya lebih banyak, atau gimana"
+    },
+    {
+      "start": 2319.88,
+      "end": 2321.88,
+      "text": "Gitu lah, maksudnya"
+    },
+    {
+      "start": 2321.88,
+      "end": 2323.88,
+      "text": "Kan event-event ini kan"
+    },
+    {
+      "start": 2323.88,
+      "end": 2325.88,
+      "text": "Event ini kan"
+    },
+    {
+      "start": 2325.88,
+      "end": 2327.88,
+      "text": "Bakal ada ya tiap tahun"
+    },
+    {
+      "start": 2327.88,
+      "end": 2329.88,
+      "text": "Kayak tahun lalu di Bangalore"
+    },
+    {
+      "start": 2329.88,
+      "end": 2331.88,
+      "text": "Tahun ini"
+    },
+    {
+      "start": 2331.88,
+      "end": 2333.88,
+      "text": "Tahun ini juga masih ada"
+    },
+    {
+      "start": 2333.88,
+      "end": 2335.88,
+      "text": "Cuman tahun ini kita dibawanya kesini"
+    },
+    {
+      "start": 2335.88,
+      "end": 2337.88,
+      "text": "Tahun depan, who knows kemana kita"
+    },
+    {
+      "start": 2337.88,
+      "end": 2339.88,
+      "text": "Dibawa lagi, cuman"
+    },
+    {
+      "start": 2339.88,
+      "end": 2341.88,
+      "text": "Persiapan apa, kira-kira yang bisa kita"
+    },
+    {
+      "start": 2341.88,
+      "end": 2343.88,
+      "text": "Lakukan"
+    },
+    {
+      "start": 2343.88,
+      "end": 2345.88,
+      "text": "The next year gitu"
+    },
+    {
+      "start": 2345.88,
+      "end": 2347.88,
+      "text": "Yang pertama, dari saya dulu deh"
+    },
+    {
+      "start": 2347.88,
+      "end": 2349.88,
+      "text": "Pastikan tidur di pesawat"
+    },
+    {
+      "start": 2349.88,
+      "end": 2351.88,
+      "text": "Gak tidur ya"
+    },
+    {
+      "start": 2351.88,
+      "end": 2353.88,
+      "text": "Gak tidur, makanya suaranya"
+    },
+    {
+      "start": 2353.88,
+      "end": 2355.88,
+      "text": "Ilang"
+    },
+    {
+      "start": 2355.88,
+      "end": 2357.88,
+      "text": "Padahal sakit hari pertama ya"
+    },
+    {
+      "start": 2357.88,
+      "end": 2359.88,
+      "text": "Kalau dari pesawat, langsung jalan-jalan"
+    },
+    {
+      "start": 2359.88,
+      "end": 2361.88,
+      "text": "Iya"
+    },
+    {
+      "start": 2361.88,
+      "end": 2363.88,
+      "text": "Panasnya bukan main"
+    },
+    {
+      "start": 2363.88,
+      "end": 2365.88,
+      "text": "Jadi"
+    },
+    {
+      "start": 2365.88,
+      "end": 2367.88,
+      "text": "Yang pertama yang akan saya lakukan"
+    },
+    {
+      "start": 2367.88,
+      "end": 2369.88,
+      "text": "Saya udah tau nggak sebenarnya panas disini"
+    },
+    {
+      "start": 2369.88,
+      "end": 2371.88,
+      "text": "Cuma nggak expect sepanas itu"
+    },
+    {
+      "start": 2371.88,
+      "end": 2373.88,
+      "text": "Nggak, kemarin itu"
+    },
+    {
+      "start": 2373.88,
+      "end": 2375.88,
+      "text": "Kemarin itu waktu kita"
+    },
+    {
+      "start": 2375.88,
+      "end": 2377.88,
+      "text": "Nyampe, terus kita tiga empat ya"
+    },
+    {
+      "start": 2377.88,
+      "end": 2379.88,
+      "text": "Tiga empat apa tiga empat, but feels like"
+    },
+    {
+      "start": 2379.88,
+      "end": 2381.88,
+      "text": "Tiga lapan"
+    },
+    {
+      "start": 2381.88,
+      "end": 2383.88,
+      "text": "Gak ada awan"
+    },
+    {
+      "start": 2383.88,
+      "end": 2385.88,
+      "text": "Jadi bener-bener terik"
+    },
+    {
+      "start": 2385.88,
+      "end": 2387.88,
+      "text": "Dan saya lupa bawa payung"
+    },
+    {
+      "start": 2387.88,
+      "end": 2389.88,
+      "text": "Surabaya berapa?"
+    },
+    {
+      "start": 2389.88,
+      "end": 2391.88,
+      "text": "Surabaya berapa? Lebih panas dari Surabaya?"
+    },
+    {
+      "start": 2391.88,
+      "end": 2393.88,
+      "text": "Lebih panas dari Surabaya"
+    },
+    {
+      "start": 2393.88,
+      "end": 2395.88,
+      "text": "Disini, kemarin itu lagi summer"
+    },
+    {
+      "start": 2395.88,
+      "end": 2397.88,
+      "text": "Dan"
+    },
+    {
+      "start": 2397.88,
+      "end": 2399.88,
+      "text": "Summer, terus"
+    },
+    {
+      "start": 2399.88,
+      "end": 2401.88,
+      "text": "Terik sekali, jadi"
+    },
+    {
+      "start": 2401.88,
+      "end": 2403.88,
+      "text": "Suara saya hilang deh"
+    },
+    {
+      "start": 2403.88,
+      "end": 2405.88,
+      "text": "Kecapaan"
+    },
+    {
+      "start": 2405.88,
+      "end": 2407.88,
+      "text": "Tapi"
+    },
+    {
+      "start": 2407.88,
+      "end": 2409.88,
+      "text": "Itu secara kondisi fisik, kalau"
+    },
+    {
+      "start": 2409.88,
+      "end": 2411.88,
+      "text": "Kondisi mental yang akan saya siapin"
+    },
+    {
+      "start": 2411.88,
+      "end": 2413.88,
+      "text": "Terus terang waktu saya"
+    },
+    {
+      "start": 2413.88,
+      "end": 2415.88,
+      "text": "Sebelum kesini itu sibuk"
+    },
+    {
+      "start": 2415.88,
+      "end": 2417.88,
+      "text": "Nggak sempat mempersiapkan mental"
+    },
+    {
+      "start": 2417.88,
+      "end": 2419.88,
+      "text": "Kira-kira belajar apa yang"
+    },
+    {
+      "start": 2419.88,
+      "end": 2421.88,
+      "text": "Apa yang mau"
+    },
+    {
+      "start": 2421.88,
+      "end": 2423.88,
+      "text": "Saya cari, siapa"
+    },
+    {
+      "start": 2423.88,
+      "end": 2425.88,
+      "text": "Speakernya, terus kemudian"
+    },
+    {
+      "start": 2425.88,
+      "end": 2427.88,
+      "text": "Topik apa yang pengen"
+    },
+    {
+      "start": 2427.88,
+      "end": 2429.88,
+      "text": "Saya dalami sebelumnya, sehingga"
+    },
+    {
+      "start": 2429.88,
+      "end": 2431.88,
+      "text": "Waktu ketemu speakernya bisa"
+    },
+    {
+      "start": 2431.88,
+      "end": 2433.88,
+      "text": "Lebih siap untuk bertanya yang"
+    },
+    {
+      "start": 2433.88,
+      "end": 2435.88,
+      "text": "Lebih lanjut, lebih advance"
+    },
+    {
+      "start": 2435.88,
+      "end": 2437.88,
+      "text": "Itu dari saya, silahkan"
+    },
+    {
+      "start": 2437.88,
+      "end": 2439.88,
+      "text": "Apa ya"
+    },
+    {
+      "start": 2439.88,
+      "end": 2441.88,
+      "text": "Kalau keluhan fisik sih sama"
+    },
+    {
+      "start": 2441.88,
+      "end": 2443.88,
+      "text": "Cuma mostnya realistik"
+    },
+    {
+      "start": 2443.88,
+      "end": 2445.88,
+      "text": "Mostnya tahun depan pun ya"
+    },
+    {
+      "start": 2445.88,
+      "end": 2447.88,
+      "text": "Kemungkinan kan, mungkin kita"
+    },
+    {
+      "start": 2447.88,
+      "end": 2449.88,
+      "text": "Sibuk hal lain juga, ya"
+    },
+    {
+      "start": 2449.88,
+      "end": 2451.88,
+      "text": "Kalau bisa sih, fisik yang lebih primalkan"
+    },
+    {
+      "start": 2451.88,
+      "end": 2453.88,
+      "text": "Cuma, kalau tahun ini"
+    },
+    {
+      "start": 2453.88,
+      "end": 2455.88,
+      "text": "Ngerasa sukses sih, karena"
+    },
+    {
+      "start": 2455.88,
+      "end": 2457.88,
+      "text": "Walaupun nggak tidur sama sekali"
+    },
+    {
+      "start": 2457.88,
+      "end": 2459.88,
+      "text": "Yang pas, ya sama, apa"
+    },
+    {
+      "start": 2459.88,
+      "end": 2461.88,
+      "text": "Pertama, terus langsung dijemur"
+    },
+    {
+      "start": 2461.88,
+      "end": 2463.88,
+      "text": "Jalan-jalan, dan lain-lain"
+    },
+    {
+      "start": 2463.88,
+      "end": 2465.88,
+      "text": "Ya sebelumnya udah siap"
+    },
+    {
+      "start": 2465.88,
+      "end": 2467.88,
+      "text": "Vitamin dan produk anti"
+    },
+    {
+      "start": 2467.88,
+      "end": 2469.88,
+      "text": "Masuk angin, itu nggak penting ya"
+    },
+    {
+      "start": 2469.88,
+      "end": 2471.88,
+      "text": "Kalau yang dari teknis"
+    },
+    {
+      "start": 2471.88,
+      "end": 2473.88,
+      "text": "Kebetulan emang"
+    },
+    {
+      "start": 2473.88,
+      "end": 2475.88,
+      "text": "Beberapa topiknya, kayak udah"
+    },
+    {
+      "start": 2475.88,
+      "end": 2477.88,
+      "text": "Barusan explore banget"
+    },
+    {
+      "start": 2477.88,
+      "end": 2479.88,
+      "text": "Karena IO Extended kemarin"
+    },
+    {
+      "start": 2479.88,
+      "end": 2481.88,
+      "text": "Mungkin"
+    },
+    {
+      "start": 2481.88,
+      "end": 2483.88,
+      "text": "Kalau, nah, di luar"
+    },
+    {
+      "start": 2483.88,
+      "end": 2485.88,
+      "text": "Control kita, tapi kemarin tuh kayak"
+    },
+    {
+      "start": 2485.88,
+      "end": 2487.88,
+      "text": "Ngerasa, kayak"
+    },
+    {
+      "start": 2487.88,
+      "end": 2489.88,
+      "text": "Ya, agak penasaran"
+    },
+    {
+      "start": 2489.88,
+      "end": 2491.88,
+      "text": "Pengen lihat ini, tapi juga pengen"
+    },
+    {
+      "start": 2491.88,
+      "end": 2493.88,
+      "text": "Kesini, tapi juga pengen kesana"
+    },
+    {
+      "start": 2493.88,
+      "end": 2495.88,
+      "text": "Cuma itu ya"
+    },
+    {
+      "start": 2495.88,
+      "end": 2497.88,
+      "text": "Bisa dibilang, agak di luar"
+    },
+    {
+      "start": 2497.88,
+      "end": 2499.88,
+      "text": "Control kita ya, karena mungkin"
+    },
+    {
+      "start": 2499.88,
+      "end": 2501.88,
+      "text": "Dari pihak Google juga"
+    },
+    {
+      "start": 2501.88,
+      "end": 2503.88,
+      "text": "Waktu para speakers-nya"
+    },
+    {
+      "start": 2503.88,
+      "end": 2505.88,
+      "text": "Terbatas"
+    },
+    {
+      "start": 2505.88,
+      "end": 2507.88,
+      "text": "Jadi, kan, apa ya"
+    },
+    {
+      "start": 2507.88,
+      "end": 2509.88,
+      "text": "Pertama, overwhelmed gitu, karena boot demo"
+    },
+    {
+      "start": 2509.88,
+      "end": 2511.88,
+      "text": "Banyak banget tuh, kayak sebaris"
+    },
+    {
+      "start": 2511.88,
+      "end": 2513.88,
+      "text": "Kayak, wow"
+    },
+    {
+      "start": 2513.88,
+      "end": 2515.88,
+      "text": "Ya, mungkin"
+    },
+    {
+      "start": 2515.88,
+      "end": 2517.88,
+      "text": "Lebih tenang, lebih santai, namaste"
+    },
+    {
+      "start": 2601.88,
+      "end": 2603.88,
+      "text": "Jadi, misalnya harus setahun"
+    },
+    {
+      "start": 2603.88,
+      "end": 2605.88,
+      "text": "Atau berapa bulan, atau mungkin ada yang cuma"
+    },
+    {
+      "start": 2605.88,
+      "end": 2607.88,
+      "text": "Satu bulan atau tiga bulan punya"
+    },
+    {
+      "start": 2607.88,
+      "end": 2609.88,
+      "text": "Intinya, kalau misalnya paspor"
+    },
+    {
+      "start": 2609.88,
+      "end": 2611.88,
+      "text": "Udah kurang dari setahun"
+    },
+    {
+      "start": 2611.88,
+      "end": 2613.88,
+      "text": "Kayak, apa, perpanjang aja"
+    },
+    {
+      "start": 2613.88,
+      "end": 2615.88,
+      "text": "Udah, in case"
+    },
+    {
+      "start": 2615.88,
+      "end": 2617.88,
+      "text": "Tiba-tiba dapet kesempatan untuk"
+    },
+    {
+      "start": 2617.88,
+      "end": 2619.88,
+      "text": "Kesempat"
+    },
+    {
+      "start": 2619.88,
+      "end": 2621.88,
+      "text": "Iya, jadi kemarin itu hanya kurang 5 hari"
+    },
+    {
+      "start": 2621.88,
+      "end": 2623.88,
+      "text": "6 bulan"
+    },
+    {
+      "start": 2623.88,
+      "end": 2625.88,
+      "text": "5 bulan, 25 hari"
+    },
+    {
+      "start": 2625.88,
+      "end": 2627.88,
+      "text": "5 bulan, 25 hari"
+    },
+    {
+      "start": 2627.88,
+      "end": 2629.88,
+      "text": "Hampir nggak berangkat"
+    },
+    {
+      "start": 2629.88,
+      "end": 2631.88,
+      "text": "Jadi, fokusnya kesana"
+    },
+    {
+      "start": 2631.88,
+      "end": 2633.88,
+      "text": "Nggak ngeliat, ini acaranya apa"
+    },
+    {
+      "start": 2633.88,
+      "end": 2635.88,
+      "text": "Segala macem, persiapan, kayak baju aja"
+    },
+    {
+      "start": 2635.88,
+      "end": 2637.88,
+      "text": "Salah warna, kan"
+    },
+    {
+      "start": 2637.88,
+      "end": 2639.88,
+      "text": "Jadi, nggak liat sama sekali"
+    },
+    {
+      "start": 2639.88,
+      "end": 2641.88,
+      "text": "Fokusnya ke paspor dan visa"
+    },
+    {
+      "start": 2641.88,
+      "end": 2643.88,
+      "text": "Karena pada saat mau apply visa"
+    },
+    {
+      "start": 2643.88,
+      "end": 2645.88,
+      "text": "Itu harus ada"
+    },
+    {
+      "start": 2645.88,
+      "end": 2647.88,
+      "text": "Tiket pesawat, sementara mau"
+    },
+    {
+      "start": 2647.88,
+      "end": 2649.88,
+      "text": "Mau beli tiket pesawat"
+    },
+    {
+      "start": 2649.88,
+      "end": 2651.88,
+      "text": "Butuh paspor yang belum"
+    },
+    {
+      "start": 2651.88,
+      "end": 2653.88,
+      "text": "Iya, belum"
+    },
+    {
+      "start": 2653.88,
+      "end": 2655.88,
+      "text": "6 bulan sebelumnya, iya"
+    },
+    {
+      "start": 2655.88,
+      "end": 2657.88,
+      "text": "Udah gitu, kenal lagi masalah"
+    },
+    {
+      "start": 2657.88,
+      "end": 2659.88,
+      "text": "Ini kemarin, jadi deg-degan lagi"
+    },
+    {
+      "start": 2659.88,
+      "end": 2661.88,
+      "text": "Begitu aplikasinya, lu kok nggak bisa diakses"
+    },
+    {
+      "start": 2661.88,
+      "end": 2663.88,
+      "text": "Tapi untungnya, berjalan lancar"
+    },
+    {
+      "start": 2663.88,
+      "end": 2665.88,
+      "text": "Udah, apa ya"
+    },
+    {
+      "start": 2665.88,
+      "end": 2667.88,
+      "text": "Udah mau deadline, tapi akhirnya"
+    },
+    {
+      "start": 2667.88,
+      "end": 2669.88,
+      "text": "Tetap berangkat, jadi ya paling itu"
+    },
+    {
+      "start": 2669.88,
+      "end": 2671.88,
+      "text": "Yang bisa diimprovisi"
+    },
+    {
+      "start": 2671.88,
+      "end": 2673.88,
+      "text": "Kalau dari saya, sebenarnya ini karena"
+    },
+    {
+      "start": 2673.88,
+      "end": 2675.88,
+      "text": "Pertama, jadi sangat excited"
+    },
+    {
+      "start": 2675.88,
+      "end": 2677.88,
+      "text": "Dan nggak tahu sebenarnya bakalan ngapain"
+    },
+    {
+      "start": 2677.88,
+      "end": 2679.88,
+      "text": "Jadi ya, dinikmati aja"
+    },
+    {
+      "start": 2679.88,
+      "end": 2681.88,
+      "text": "Semua pengalamannya, cuman"
+    },
+    {
+      "start": 2681.88,
+      "end": 2683.88,
+      "text": "Dari pengalaman ini"
+    },
+    {
+      "start": 2683.88,
+      "end": 2685.88,
+      "text": "Kalau misalkan ada lagi, saya pengennya sih"
+    },
+    {
+      "start": 2685.88,
+      "end": 2687.88,
+      "text": "Ke depannya, pengen punya sesuatu gitu"
+    },
+    {
+      "start": 2687.88,
+      "end": 2689.88,
+      "text": "Snipet, kode kah"
+    },
+    {
+      "start": 2689.88,
+      "end": 2691.88,
+      "text": "Atau produk kecil kah"
+    },
+    {
+      "start": 2691.88,
+      "end": 2693.88,
+      "text": "Sehingga nanti kalau kita tahu bakalan"
+    },
+    {
+      "start": 2693.88,
+      "end": 2695.88,
+      "text": "Ada orang yang"
+    },
+    {
+      "start": 2695.88,
+      "end": 2697.88,
+      "text": "Bikin itu, atau nerangin itu"
+    },
+    {
+      "start": 2697.88,
+      "end": 2699.88,
+      "text": "Kita ngasih itu kan kayaknya"
+    },
+    {
+      "start": 2699.88,
+      "end": 2701.88,
+      "text": "\"Saya bikin ini nih\""
+    },
+    {
+      "start": 2701.88,
+      "end": 2703.88,
+      "text": "\"Dinotis\" gitu kan"
+    },
+    {
+      "start": 2703.88,
+      "end": 2705.88,
+      "text": "Oh, pengen banget sih"
+    },
+    {
+      "start": 2705.88,
+      "end": 2707.88,
+      "text": "Sebenarnya, bagus tuh"
+    },
+    {
+      "start": 2707.88,
+      "end": 2709.88,
+      "text": "Misalnya, mas Sandika"
+    },
+    {
+      "start": 2709.88,
+      "end": 2711.88,
+      "text": "Atau yang lain, mau research sesuatu"
+    },
+    {
+      "start": 2711.88,
+      "end": 2713.88,
+      "text": "Atau mau bikin"
+    },
+    {
+      "start": 2713.88,
+      "end": 2715.88,
+      "text": "Produk kecil, yang pakai"
+    },
+    {
+      "start": 2715.88,
+      "end": 2717.88,
+      "text": "Teknologi"
+    },
+    {
+      "start": 2717.88,
+      "end": 2719.88,
+      "text": "Yang latest yang akan dibawakan ini"
+    },
+    {
+      "start": 2719.88,
+      "end": 2721.88,
+      "text": "Justru, bagusnya"
+    },
+    {
+      "start": 2721.88,
+      "end": 2723.88,
+      "text": "Nanti bakal ada office hour"
+    },
+    {
+      "start": 2723.88,
+      "end": 2725.88,
+      "text": "Office hour itu artinya kita bisa ketemu langsung"
+    },
+    {
+      "start": 2725.88,
+      "end": 2727.88,
+      "text": "Dengan Googler-nya"
+    },
+    {
+      "start": 2727.88,
+      "end": 2729.88,
+      "text": "Bahkan produk"
+    },
+    {
+      "start": 2729.88,
+      "end": 2731.88,
+      "text": "Manager dari produk itu"
+    },
+    {
+      "start": 2731.88,
+      "end": 2733.88,
+      "text": "Sebagai salah contoh, misalnya"
+    },
+    {
+      "start": 2733.88,
+      "end": 2735.88,
+      "text": "Saya bikin paski untuk WordPress"
+    },
+    {
+      "start": 2735.88,
+      "end": 2737.88,
+      "text": "Sebenarnya, AG ada di sini"
+    },
+    {
+      "start": 2737.88,
+      "end": 2739.88,
+      "text": "Cuma saya nggak ketemu AG, dimana sekarang"
+    },
+    {
+      "start": 2739.88,
+      "end": 2741.88,
+      "text": "AG itu siapa?"
+    },
+    {
+      "start": 2741.88,
+      "end": 2743.88,
+      "text": "Deffrel yang membawakan"
+    },
+    {
+      "start": 2743.88,
+      "end": 2745.88,
+      "text": "Paski, dan web auton"
+    },
+    {
+      "start": 2745.88,
+      "end": 2747.88,
+      "text": "Jadi"
+    },
+    {
+      "start": 2747.88,
+      "end": 2749.88,
+      "text": "Kalau misalnya saya sempat ketemu beliau"
+    },
+    {
+      "start": 2749.88,
+      "end": 2751.88,
+      "text": "Saya akan buka, \"Eh, gue bikin"
+    },
+    {
+      "start": 2751.88,
+      "end": 2753.88,
+      "text": "Paski, lo bisa minta"
+    },
+    {
+      "start": 2753.88,
+      "end": 2755.88,
+      "text": "Langsung feedback secara live\""
+    },
+    {
+      "start": 2755.88,
+      "end": 2757.88,
+      "text": "Atau mungkin saya punya"
+    },
+    {
+      "start": 2757.88,
+      "end": 2759.88,
+      "text": "Masalah-masalah yang nggak bisa saya"
+    },
+    {
+      "start": 2759.88,
+      "end": 2761.88,
+      "text": "Solve, atau mungkin ada feedback terhadap"
+    },
+    {
+      "start": 2761.88,
+      "end": 2763.88,
+      "text": "Produknya, saya bisa langsung"
+    },
+    {
+      "start": 2763.88,
+      "end": 2765.88,
+      "text": "Kasih tahu ke Googler-nya"
+    },
+    {
+      "start": 2765.88,
+      "end": 2767.88,
+      "text": "Sehingga bisa"
+    },
+    {
+      "start": 2769.88,
+      "end": 2771.88,
+      "text": "Come, come, come"
+    },
+    {
+      "start": 2771.88,
+      "end": 2773.88,
+      "text": "Sehingga bisa dapat feedback langsung"
+    },
+    {
+      "start": 2773.88,
+      "end": 2775.88,
+      "text": "Ini ada GDI lain"
+    },
+    {
+      "start": 2775.88,
+      "end": 2777.88,
+      "text": "Dari Surabaya"
+    },
+    {
+      "start": 2777.88,
+      "end": 2779.88,
+      "text": "Dari Surabaya"
+    },
+    {
+      "start": 2779.88,
+      "end": 2781.88,
+      "text": "Ada 2"
+    },
+    {
+      "start": 2781.88,
+      "end": 2785.88,
+      "text": "Perkenalkan diri dulu"
+    },
+    {
+      "start": 2785.88,
+      "end": 2789.88,
+      "text": "Halo, nama saya Esri Rawati"
+    },
+    {
+      "start": 2789.88,
+      "end": 2791.88,
+      "text": "Udah pernah masuk channel juga nih ya"
+    },
+    {
+      "start": 2791.88,
+      "end": 2795.88,
+      "text": "Saya GDI"
+    },
+    {
+      "start": 2795.88,
+      "end": 2797.88,
+      "text": "Untuk AIML"
+    },
+    {
+      "start": 2797.88,
+      "end": 2799.88,
+      "text": "Senang banget hari ini bisa export"
+    },
+    {
+      "start": 2799.88,
+      "end": 2801.88,
+      "text": "Tadi juga baru dari roundtable"
+    },
+    {
+      "start": 2801.88,
+      "end": 2803.88,
+      "text": "Bisa kasih feedback langsung"
+    },
+    {
+      "start": 2803.88,
+      "end": 2805.88,
+      "text": "Ke para developer dari"
+    },
+    {
+      "start": 2805.88,
+      "end": 2807.88,
+      "text": "Tool-tool AI"
+    },
+    {
+      "start": 2807.88,
+      "end": 2811.88,
+      "text": "Halo semuanya"
+    },
+    {
+      "start": 2811.88,
+      "end": 2815.88,
+      "text": "Saya harus senyum dulu"
+    },
+    {
+      "start": 2815.88,
+      "end": 2817.88,
+      "text": "Jadi ya"
+    },
+    {
+      "start": 2817.88,
+      "end": 2819.88,
+      "text": "Sudah senyum sekarang"
+    },
+    {
+      "start": 2819.88,
+      "end": 2821.88,
+      "text": "Nama saya Johan"
+    },
+    {
+      "start": 2821.88,
+      "end": 2823.88,
+      "text": "Saya GDI AIML Indonesia"
+    },
+    {
+      "start": 2823.88,
+      "end": 2825.88,
+      "text": "Saya yang nomor 2"
+    },
+    {
+      "start": 2825.88,
+      "end": 2827.88,
+      "text": "Saya nomor 1 Bu Esther"
+    },
+    {
+      "start": 2827.88,
+      "end": 2829.88,
+      "text": "Saya baru pertama masuk podcast"
+    },
+    {
+      "start": 2829.88,
+      "end": 2831.88,
+      "text": "Ini pertama kali podcast di sini"
+    },
+    {
+      "start": 2831.88,
+      "end": 2833.88,
+      "text": "Biasanya podcastnya nggak bicara tentang"
+    },
+    {
+      "start": 2833.88,
+      "end": 2835.88,
+      "text": "Tek, ini bicara tentang tek pertama"
+    },
+    {
+      "start": 2835.88,
+      "end": 2837.88,
+      "text": "Di sini"
+    },
+    {
+      "start": 2837.88,
+      "end": 2839.88,
+      "text": "Biasanya apa podcast masa?"
+    },
+    {
+      "start": 2839.88,
+      "end": 2841.88,
+      "text": "Bukan, podcast kehidupan"
+    },
+    {
+      "start": 2841.88,
+      "end": 2843.88,
+      "text": "Kehidupan"
+    },
+    {
+      "start": 2843.88,
+      "end": 2845.88,
+      "text": "Susahnya menjadi seorang developer"
+    },
+    {
+      "start": 2845.88,
+      "end": 2849.88,
+      "text": "Gimana pesan-pesannya?"
+    },
+    {
+      "start": 2849.88,
+      "end": 2851.88,
+      "text": "Seru ya IO, ini IO pertama"
+    },
+    {
+      "start": 2851.88,
+      "end": 2853.88,
+      "text": "IO Connect yang pertama"
+    },
+    {
+      "start": 2853.88,
+      "end": 2855.88,
+      "text": "Seru banget luar biasa"
+    },
+    {
+      "start": 2855.88,
+      "end": 2857.88,
+      "text": "Banyak yang"
+    },
+    {
+      "start": 2857.88,
+      "end": 2859.88,
+      "text": "Kita jadi terbuka"
+    },
+    {
+      "start": 2859.88,
+      "end": 2861.88,
+      "text": "Pengalaman teknologi kita"
+    },
+    {
+      "start": 2861.88,
+      "end": 2863.88,
+      "text": "Di Indonesia bagaimana, disana bagaimana"
+    },
+    {
+      "start": 2863.88,
+      "end": 2865.88,
+      "text": "Ada orang lewat"
+    },
+    {
+      "start": 2865.88,
+      "end": 2871.88,
+      "text": "Ini salah satu"
+    },
+    {
+      "start": 2871.88,
+      "end": 2873.88,
+      "text": "Ini salah satu teknologi"
+    },
+    {
+      "start": 2873.88,
+      "end": 2875.88,
+      "text": "Yang bisa kita lihat"
+    },
+    {
+      "start": 2875.88,
+      "end": 2877.88,
+      "text": "Dari mobil jalan sendiri"
+    },
+    {
+      "start": 2877.88,
+      "end": 2879.88,
+      "text": "Iya kan dikendaliin"
+    },
+    {
+      "start": 2879.88,
+      "end": 2881.88,
+      "text": "Jalan sendiri orangnya"
+    },
+    {
+      "start": 2883.88,
+      "end": 2885.88,
+      "text": "Eventnya seru sih"
+    },
+    {
+      "start": 2885.88,
+      "end": 2887.88,
+      "text": "Kita bisa one on one discussion"
+    },
+    {
+      "start": 2887.88,
+      "end": 2889.88,
+      "text": "Dengan yang buat tim teknologinya"
+    },
+    {
+      "start": 2889.88,
+      "end": 2891.88,
+      "text": "Banyak kasih masukan"
+    },
+    {
+      "start": 2891.88,
+      "end": 2893.88,
+      "text": "Banyak kasih discussion"
+    },
+    {
+      "start": 2893.88,
+      "end": 2895.88,
+      "text": "Ada yang kita nggak ngerti juga, mereka bisa kasih langsung"
+    },
+    {
+      "start": 2895.88,
+      "end": 2897.88,
+      "text": "Mungkin ada yang salah dari kita"
+    },
+    {
+      "start": 2897.88,
+      "end": 2899.88,
+      "text": "Abis ikutan roundtable"
+    },
+    {
+      "start": 2899.88,
+      "end": 2901.88,
+      "text": "Tadi pagi datang langsung roundtable"
+    },
+    {
+      "start": 2901.88,
+      "end": 2903.88,
+      "text": "Kepala panas sekarang"
+    },
+    {
+      "start": 2903.88,
+      "end": 2905.88,
+      "text": "Apa yang dibahas?"
+    },
+    {
+      "start": 2905.88,
+      "end": 2907.88,
+      "text": "Fitur-fitur baru dari ini?"
+    },
+    {
+      "start": 2907.88,
+      "end": 2909.88,
+      "text": "Ditunggu aja nanti di DevFest"
+    },
+    {
+      "start": 2909.88,
+      "end": 2911.88,
+      "text": "Ada fitur-fitur baru"
+    },
+    {
+      "start": 2911.88,
+      "end": 2913.88,
+      "text": "AIML"
+    },
+    {
+      "start": 2913.88,
+      "end": 2915.88,
+      "text": "Nanti berlanjut di DevFest"
+    },
+    {
+      "start": 2915.88,
+      "end": 2917.88,
+      "text": "Ditunggu saja"
+    },
+    {
+      "start": 2917.88,
+      "end": 2919.88,
+      "text": "Termasuk di web"
+    },
+    {
+      "start": 2919.88,
+      "end": 2921.88,
+      "text": "Nanti ditunggu saja"
+    },
+    {
+      "start": 2921.88,
+      "end": 2929.88,
+      "text": "Ini saya kembalikan ke Mas Risa"
+    },
+    {
+      "start": 2929.88,
+      "end": 2937.88,
+      "text": "Jadi yang paling berkesan sih"
+    },
+    {
+      "start": 2941.88,
+      "end": 2943.88,
+      "text": "Iya betul"
+    },
+    {
+      "start": 2943.88,
+      "end": 2945.88,
+      "text": "Jadi kemarin transit dari"
+    },
+    {
+      "start": 2945.88,
+      "end": 2947.88,
+      "text": "Surabaya ke Singapura"
+    },
+    {
+      "start": 2947.88,
+      "end": 2949.88,
+      "text": "Singapura ke Beijing"
+    },
+    {
+      "start": 2949.88,
+      "end": 2951.88,
+      "text": "Nah koperku ternyata ditinggal"
+    },
+    {
+      "start": 2951.88,
+      "end": 2953.88,
+      "text": "Di Singapura"
+    },
+    {
+      "start": 2953.88,
+      "end": 2955.88,
+      "text": "Padahal"
+    },
+    {
+      "start": 2955.88,
+      "end": 2957.88,
+      "text": "Udah siap-siap bawa batik"
+    },
+    {
+      "start": 2957.88,
+      "end": 2959.88,
+      "text": "Untuk dinner sebelum event nih"
+    },
+    {
+      "start": 2959.88,
+      "end": 2961.88,
+      "text": "Kita kan mau bawa culture masing-masing"
+    },
+    {
+      "start": 2961.88,
+      "end": 2963.88,
+      "text": "Tapi akhirnya"
+    },
+    {
+      "start": 2963.88,
+      "end": 2965.88,
+      "text": "Kembali sih kopernya"
+    },
+    {
+      "start": 2965.88,
+      "end": 2967.88,
+      "text": "Happy ending yang penting"
+    },
+    {
+      "start": 2967.88,
+      "end": 2969.88,
+      "text": "Terus kalau di acara ini serunya"
+    },
+    {
+      "start": 2969.88,
+      "end": 2971.88,
+      "text": "Coba-coba demo"
+    },
+    {
+      "start": 2971.88,
+      "end": 2973.88,
+      "text": "Jadi ada kita main sepak bola"
+    },
+    {
+      "start": 2973.88,
+      "end": 2975.88,
+      "text": "Tadi udah dibahas belum?"
+    },
+    {
+      "start": 2975.88,
+      "end": 2977.88,
+      "text": "Udah ya"
+    },
+    {
+      "start": 2977.88,
+      "end": 2979.88,
+      "text": "Pasal diapasal juga ada"
+    },
+    {
+      "start": 2979.88,
+      "end": 2981.88,
+      "text": "Pasal crossword juga"
+    },
+    {
+      "start": 2981.88,
+      "end": 2983.88,
+      "text": "Bonekanya abis"
+    },
+    {
+      "start": 2983.88,
+      "end": 2985.88,
+      "text": "Udah sukses"
+    },
+    {
+      "start": 2985.88,
+      "end": 2987.88,
+      "text": "Orangnya bilang bonekanya abis"
+    },
+    {
+      "start": 2987.88,
+      "end": 2995.88,
+      "text": "Gak nyangka sih"
+    },
+    {
+      "start": 2995.88,
+      "end": 2997.88,
+      "text": "Bisa dapet boneka dash"
+    },
+    {
+      "start": 2997.88,
+      "end": 2999.88,
+      "text": "Oh itu logo nya"
+    },
+    {
+      "start": 2999.88,
+      "end": 3001.88,
+      "text": "Slutter"
+    },
+    {
+      "start": 3001.88,
+      "end": 3015.88,
+      "text": "Jadi apalagi?"
+    },
+    {
+      "start": 3015.88,
+      "end": 3019.88,
+      "text": "Cukup kali ya sudah"
+    },
+    {
+      "start": 3019.88,
+      "end": 3021.88,
+      "text": "Udah jam 12 disini lapar"
+    },
+    {
+      "start": 3021.88,
+      "end": 3023.88,
+      "text": "Laper ini waktunya makan"
+    },
+    {
+      "start": 3023.88,
+      "end": 3025.88,
+      "text": "Nanti kita sambung selama makan ya"
+    },
+    {
+      "start": 3025.88,
+      "end": 3027.88,
+      "text": "Besok aja"
+    },
+    {
+      "start": 3027.88,
+      "end": 3029.88,
+      "text": "Acaranya masih ada satu lagi"
+    },
+    {
+      "start": 3029.88,
+      "end": 3031.88,
+      "text": "Tapi besok bukan rangkaian acara Google I/O Connect"
+    },
+    {
+      "start": 3031.88,
+      "end": 3033.88,
+      "text": "Besok itu namanya"
+    },
+    {
+      "start": 3033.88,
+      "end": 3035.88,
+      "text": "GDE Summit"
+    },
+    {
+      "start": 3035.88,
+      "end": 3037.88,
+      "text": "Acara puncak"
+    },
+    {
+      "start": 3037.88,
+      "end": 3039.88,
+      "text": "Yang namanya summit kan muncak"
+    },
+    {
+      "start": 3039.88,
+      "end": 3041.88,
+      "text": "Para GDE dari"
+    },
+    {
+      "start": 3041.88,
+      "end": 3043.88,
+      "text": "Asia Tenggara"
+    },
+    {
+      "start": 3043.88,
+      "end": 3045.88,
+      "text": "Asia Tenggara"
+    },
+    {
+      "start": 3045.88,
+      "end": 3047.88,
+      "text": "Asia Tenggara"
+    },
+    {
+      "start": 3047.88,
+      "end": 3049.88,
+      "text": "South Asia Frontier"
+    },
+    {
+      "start": 3049.88,
+      "end": 3051.88,
+      "text": "Oh itu namanya South Asia Frontier ya"
+    },
+    {
+      "start": 3051.88,
+      "end": 3053.88,
+      "text": "Ngumpul kira-kira ngapain aja"
+    },
+    {
+      "start": 3053.88,
+      "end": 3055.88,
+      "text": "Acaranya"
+    },
+    {
+      "start": 3055.88,
+      "end": 3057.88,
+      "text": "Seru lah, ditunggu vlog besok deh"
+    },
+    {
+      "start": 3057.88,
+      "end": 3063.88,
+      "text": "Jadi mungkin itu dulu temen-temen ya"
+    },
+    {
+      "start": 3063.88,
+      "end": 3065.88,
+      "text": "Pengalaman kita di acara"
+    },
+    {
+      "start": 3065.88,
+      "end": 3067.88,
+      "text": "Google I/O Connect"
+    },
+    {
+      "start": 3067.88,
+      "end": 3069.88,
+      "text": "China"
+    },
+    {
+      "start": 3069.88,
+      "end": 3071.88,
+      "text": "2024"
+    },
+    {
+      "start": 3071.88,
+      "end": 3073.88,
+      "text": "Terima kasih buat temen-temen GDE"
+    },
+    {
+      "start": 3073.88,
+      "end": 3075.88,
+      "text": "Yang sudah hadir disini"
+    },
+    {
+      "start": 3081.88,
+      "end": 3083.88,
+      "text": "Selamat datang ke acara"
+    },
+    {
+      "start": 3083.88,
+      "end": 3085.88,
+      "text": "Apa nya?"
+    },
+    {
+      "start": 3085.88,
+      "end": 3087.88,
+      "text": "Oh belum, keluar sekarang"
+    },
+    {
+      "start": 3087.88,
+      "end": 3095.88,
+      "text": "Cukup ya, kita tutup"
+    },
+    {
+      "start": 3095.88,
+      "end": 3097.88,
+      "text": "Terima kasih temen-temen semua, sampai ketemu lagi"
+    },
+    {
+      "start": 3111.88,
+      "end": 3113.88,
+      "text": "Terimakasih telah menonton!"
+    }
+  ],
+  "fullText": "Halo teman-teman semua, selamat datang kembali di NgobrolinWeb Ini WPU sebenernya, kita nebeng doang NgobrolinWeb ex-WPU Jadi kita berempat, ini harus seberlima - Kurang satu - Kurang satu, nanti lah kita... ...adalah Google Developer Expert yang saat ini lagi jalan-jalan menuntut ilmu sampai ke negeri Cina Jadi kita sama Google diberangkatkan ke sini, kita berapa orang ya? - Kaya nya... - Kontingan Indonesia? - 20-an nya - 19, kemarin kan kakak makan 19 - Oh iya 20 - Iya, 20 20 orang dari Indonesia dibawa ke Cina, ke Beijing ya Untuk acara yang namanya Google I/O Connect Cina 2024 Nah ini sebelum nanti kita bahas, kita ngapain aja, nanti kita bakalan cerita pengalaman kita disini ya Walaupun ini baru hari ke 2 - Kemarin udah seharian - Kemarin udah seharian Mungkin kita cerita dulu nanti yang hari kemarin gitu ya, tapi sebelum kita mulai mungkin ada teman-teman disini - Eh kita kenalan dulu kali ya, udah tadi belum - Kenalan Kenalan dulu, mungkin buat teman-teman yang belum pada tahu, kita kenalan satu-satu dulu ya, ini yang sebelah saya dulu Oke, halo teman-teman semua, perkenalkan saya Riza, GDE Web dari 2016 Sebenernya mungkin podcast Cina yang sudah banyak tau kita atau belum Gak apa-apa, ini kan cross, cross kan WPU belum kenal, teman-teman WPU mungkin belum kenal mungkin Mudah-mudahan sih udah ya, jadi yang buat belum kenal ya salam kenal, yang sudah kenal salam kenal kembali Halo, salam kenal, aku Eka, GDE Web juga gak punya channel, gak punya sosmed Tapi biasanya live bareng Ivan dan Riza setiap selasa malam di ngobrolin web Halo teman-teman semua, nama saya Ivan, GDE Web juga fokusnya di web performance jadi Dan sering muncul di ngobrolin web Kita punya moto kalau katanya hari Senin harga naik, selasa malam ngobrolin web Mohon maaf suara saya habis karena dua hari konser banyak teriak-teriak mulu dari kemarin jadi Habis kampanye kemarin Iya kampanye Ya, jadi kita disini tuh enak banget bisa berkumpul Kalau gak ada event begini susah mempulnya, apa lagi bertiga, berempat, berlima tuh susah Padahal di Jakarta, Bandung doang ya? Iya padahal doang Ini Boja Boja sendiri Oke, balik deh sama Pak Dika dulu Tadi kita mau sebelum kita cerita mengenai pengalaman kita Kita mau kasih tahu dulu buat teman-teman buat yang belum tahu apa itu Google I/O Connect ya Siapa nih yang mau ceritain nih? Eka kali ya? Iya Oh gak mau? Google I/O dulu aja kan Oke, Google I/O Oh iya bener, bedanya apa ya Eka? Google I/O kan event tahunan Google ya Jadi diselenggarakan di Amerika Serikat, California di markasnya Google Mereka showcase lah ya, menunjukan fitur-fitur baru atau produk-produk baru yang Setiap tahun ada fitur, produk, teknologi baru apa, itu dipresen secara langsung Terus kayak ada, ya intinya para Googler itu ketemu developer lah Developer Ecosystem dan komunitas demo Terus ada sesi kayak wawancara atau feedback atau ngobrol lah intinya ketemu langsung Itu Google I/O ya Tapi kan di San Francisco ya jauh, maksudnya dan ya kapasitasnya pasti terbatas Gak semua developer bisa datang langsung dan berinteraksi dengan optimal di sana ya Ada watch party ya? Ya watch party doang kita, siapa yang ikut, mungkin ada yang ikut di Discordnya Nah begitu, nah tapi untuk kan sebenarnya di seluruh dunia juga masih banyak Komunitas-komunitas developer lainnya, jadi Google itu bikin yang namanya I/O connect ya Untuk kayak extended, replay ya, versi repeater, repeaternya si Google I/O itu Ada di setiap tahun juga, jadi beberapa bulan, satu sia sekitar satu bulanan gitu ya Setelah I/O nya sendiri itu selalu ada I/O connect di, di macem-macem kota Jadi kayak kalau di, tahun lalu India, tahun lalu Bangalore Oh belum, belum gede ya, belum gede, kayaknya itu Bangalore, terus yang ini kali ini di Beijing, jadi yang di Beijing ini dihadiri oleh Semua developer dari Southeast Asia ya, Asia Tenggara, Asia Selatan, kayak India, Nepal, APEC ya Enggak, India gak ikut, India kembang dong Oh iya, Nepal, tapi ada Nepal kesini somehow Nah terus dari Greater China, kayak dari China sendiri, Hong Kong, iya itu punya area Kalau kita yang gak ngerti itu dikasih headset interpreter Jadi ya sebenarnya kalau acaranya sih mirip-mirip sama yang di I/O ya, jadi atau oh itu dulu Bedanya sama I/O Extended, Tian Tian ya I/O Extended yang, ini kota ya, oke jadi Ada temen-temen yang dateng, ditemukan langsung Google I/O itu, gak ada logonya tapi nanti mungkin bisa ada footage nya ya Google I/O itu seperti tadi sudah dijelaskan Mas Riza, sama Mbak Eka Dan ada I/O Connect, kemudian masih ada namanya Google I/O Extended yang diadakan di tiap kota yang ada GDG chapter nya Contohnya, kemarin ada di Jakarta, ada di Bandung, Medan, Bali Denpasar lebih tepat ya, bukan Bali kali ya, GDG Bali GDG Bali ya, sedikit berbeda ya Depok, Bogor, Makassar, Medan segala macam Jadi kalau Extended itu lebih dekat lagi kepada kita Karena sudah berada di kota-kota, sudah ada di kota-kota kita masing-masing Mungkin kalau kalian bisa lihat ke depannya Coba lihat di kota kalian ada gak GDG chapter Kalau memang ada, coba join di salah satu event nya Karena ada banyak sekali topik-topik yang menarik Kita sebagai GDI juga akan memberikan topik-topik Yang akan ada di I/O, I/O itu sendiri ada nanti di I/O Extended Sehingga teman-teman bisa lebih banyak mendapatkan ilmu-ilmu baru Yang sudah berbahasa Indonesia juga Nanti yang nonton coba komentar Sekalian sudah menghadiri I/O Extended di mana saja, di kota mana Sudah ketemu siapa? Mungkin ada ketemu Riza, ketemu Pak Sandika, ketemu Eka Mungkin gak ketemu saya karena saya gak ngisi Gak berhalangan semua Jadi I/O Extended itu lokal ya, berarti yang menyelenggarakan juga secara resmi itu I/O Extended bukan event nya Google Jadi diselenggarakannya sama GDIH, komunitas, cuma di support saja Kalau I/O Connect ini regional dan ini memang event nya Google Jadi mungkin teman-teman sekarang udah dapet gambaran, apa sih bedanya? Kok kayaknya kemarin udah pernah I/O Connect, I/O Connect lagi di Google I/O Terus sekarang ada I/O Connect, ada Google I/O Extended itu bedanya Jadi ada yang semakin deket ke komunitas, ada yang memang dari pusat Google nya Sekarang kita mau cerita, experience kita, acaranya Jadi acaranya itu 2 hari ya, pertama ada kayak keynotes di main event nya Terus ada juga demo, ada juga workshop, udah ya, ada games Bagi yang dari demo sebenernya, jadi games nya itu, ada diskusi juga, panel discussion Ada keynote, ada workshop, ada panel dan roundtable discussion Ada demo, nah demo itu berupa boot-boot, tapi ada juga demo yang berupa game Jadi bukan cuma kayak boot monitor, layar sama laptop saja Tapi game interaktif yang kayak misalnya contohnya ada golep, ada bola Jadi ada kameranya gitu, ada kamera, terus kita nendang bola, peserta nendang bola ke spot yang ditentukan Terus di analisa pakai machine learning, hasilnya ditampilkan secara real time di layar Jadi itu kan kayak pakai berbagai teknologi Google ya, kalau untuk real time application nya, front-end nya Data storage nya misalnya bisa pakai teknologi dari firebase Terus machine learning nya, AI nya, mungkin pakai Gemini atau cloud AI lainnya, terus ponnya cuma menarik sih, seru Karena kita baru lihat yang kayak gitu yang nembak di analisis, terus dapet kayak viva kart Akurasi nya berapa, style nya berapa, sweet nya, ada kategorinya ya, ada power, terus style sama akurasi Jadi ada total nya, terus dan ini dapet 83 itu nggak berhasil masuk ya, belum berhasil masuk Yang paling tinggi padika, akurasi nya bagus, power nya nggak ada Nah terus setelah kita nendang, itu kan kita udah di analisis ya, kehebatan kita nya, terus kita bisa Dikasih tau improvement nya, kita harus ngapain You are good at what, but you lack of consistency katanya gitu kan Terus dan menariknya lagi adalah ada generated image nya itu bisa digenerated, misalkan mau background nya apa Ada effect apa, api menyala, kalau Ivan kemarin ada sayap ya, kayak subasa gitu ya Itu juga pakai AI ya, generate image nya, jadi itu macem-macem kan ada pipeline nya Pertama ngambil gambarnya dari kamera, gambar pas lagi nendang, abis itu background removal, kan udah dihilangin dulu background nya kan Nah terus setelah di remove background, dikasih kayak background dan efek-efek gitu, pakai AI juga Jadi itu kayak ngedemoin end to end lah, end to end, macem-macem product suit, terus ada juga golf Mini golf, nah terus itu juga ada kameranya yang mendeteksi gerakan-gerakan sama kecepatan bola nya Keliatnya itu juga ada sarannya, jadi ga tau nih, abis dari sini jangan-jangan beberapa developer ada yang alih profesi jadi Pemain bola top golf, ga tau juga Tadi sempat cerita juga sama salah satu GDI Firebase yang menanyakan dia bisa bahasa Chinese Dan dia bertanya kepada boot yang main golf itu, ini teknologi di belakangnya bagaimana Jadi temen-temen bayangin ya itu mini golf, bolanya warna merah, rumputnya warna hijau, jadi bisa kelihatan Bolanya di tracking oleh kamera, iya betul, ada kamera dari atas dan dari beberapa sisi Jadi bolanya saat jalan itu dideteksi sama namanya OpenCV Dan dibuat jalur bolanya, nah setelah jalur, jadi itu kan video ya di capture, terus bolanya dibikin jalurnya Terus jadi image, bayangkan jadi image, screenshot satu-satu Hasil combine image ini dikirimkan ke Jemenai untuk di analisasi, nah Jemenai Pro ini menganalisis Jalur bolanya dan berapa kali kalian namanya boot ya, berapa kali boot, berapa kali gagal sampai masuk Terus diberikan scoring dan diberikan analisa, mungkin analisanya, saya ga dengar analisanya, tapi hasil analisanya itu Dari Jemenai, nah dan diberikan outputnya, di layar yang kalian lihat tadi itu bisa mendengarkan Analisanya dari text to speech, jadi informen teknologinya kan dari kamera, video, dipotong-potong Pake OpenCV mendetek bolanya jadi image, image dikirimkan ke Jemenai, terus Jemenai analisis untuk bikin scoring Terus hasil analisasinya, analisisnya jadi text to speech, jadi ada rangkaiannya, semuanya menggunakan teknologi Yang digabung-gabung, dan di belakangnya ada AI, bisa jadi IDE Ini menariknya juga, kodenya bisa kita lihat ya, kalo yang bolanya ga dikasih, ada Google nya sebenernya, ada yang bisa ditanya-tanya Itu baru dua ya, dan dua hal itu menarik karena selama ini kan biasanya kalo kita ngomongin AI, generatif AI Itu contoh aplikasinya standar ya, chatbot, kalo ini kita bisa lihat implementasinya, use case nya banyak sekali Dan dengan kombinasi misalkan dengan image generator sama text to speech tadi, akhirnya bisa bikin sebuah produk yang menarik Menarik minat kita untuk pakai, tapi kita ngomongin game, padahal sebenernya yang utamanya adalah Yang utamanya adalah itu kan, talk nya kan, apa yang menarik di sesi web atau di keynote-keenote Opening keynote nya itu bahas tentang AI Karena ini kan repeater nya si IO tadi ya, jadi topiknya ya sebetulnya sama Jadi panggungnya disini ada beberapa keynote yang pembukanya yang paling utama itu di panggung yang paling besar ya Terus formatnya sama, bahasa Inggris, cuma beberapa presenter yang lokal pakai bahasa lokal, lagi-lagi kita bisa pakai headsets Gak, orang, ada orang ngomong, kelihatan? Nah itu opening nya kayak recap pembuka dari Vp nya Google lupa namanya, yang summarize semua teknologi-teknologi dan produk baru Habis itu ya ada, jadi ganti-gantian dalam satu sesi, speaker nya ada 5 Yang sama dibuka oleh Vp, lalu dioper ke what's new, apa yang baru di android, apa yang baru di cloud, firebase, web, dan lain-lain Isinya ya sesuai IO kemarin sih, kalau yang dari web, AI, sama yang baru seperti mungkin ada yang nonton talk aku di IO Extended kemarin Kalau gak ada ya udah sih, oh itu tahun lalu nya lagi malah, jadi misalnya ada Gemini Nano yang dimasukkan ke dalam Chrome Jadi built-in AI di dalam Chrome, itu eksperimen yang paling baru, terus library-library seperti media pipe test Yang bisa dipakai di javascript itu AI juga, dan beberapa hal baru di UI seperti view transition, apa lagi ya, container query Ya banyak hal baru dari UI juga sebetulnya yang menarik, terus apa lagi ya Oh ini pengalaman ngikutin workshopnya Adam Argyle, wah gila tuh, cara membawakannya luar biasa ya, natural sekali ya Seru banget, inspirasi, wah itu ghostbump, excited banget gitu dibawahnya ya, kita bisa lihat di docks, bisa lihat contohnya, tapi cara dia kasih demo Kalau demo-nya sebetulnya sih e-commerce ya, online store, ya itu standar, jadi pertama dikasih start, oh ya salah satunya juga project IDX itu IDE buatannya Google Ya semacam code pen lah kalau temen-temen familiar sama, oh sering ya, ya itu pake itu project IDX, terus ada e-commerce store yang sebenarnya udah jalan, udah berfungsi Cuma kayak UI-nya diperkaya lah dengan teknologi-teknologi baru tadi, kayak container query dan view transition, scroll driven animation dan temen-temennya Cuma intinya cara beliau membawakan workshopnya itu bikin kita semua bikin semangat dan bisa nyampein bahwa wow, sekarang kita bisa begini Kalau aku yang ngomong kayaknya norak gitu, cuma kalau dia yang ngomong kayak kita yang oh oh nice, bisa gini loh, bisa gini loh kayak Oh sorry ya aku norak kan dulu ya, jadi apa yang bikin kita seneng itu kelihatan gitu kalau dia itu sangat excited gitu Jadi yang lebih seperti kita tapi yang excited dengan teknologi baru ini yang bisa bikin front-end UI-nya jadi lebih wow Bagus gitu ya, yang kerennya lagi waktu dia bawain itu kan, dia memberikan fitur-fitur CSS baru secara tidak langsung Jadi yang dibicarakan transition tetapi ada fitur-fitur lainnya kayak nested, CSS, terus kemudian Progresif enhancement, accessibility, best practice, secara demo-nya pun well thought banget ya, kayak sudah dibikin rapi Simplify, nggak pakai, nggak ada tuh yang namanya build, build tool segala macem, vanila semua, CSS-nya vanila semua JS apa TS koma, JS, terus dia nggak pakai titik koma, di JS-nya tidak pakai titik koma Jadi fansnya Pak Dika bukan lagi pasukan titik koma nanti Terus JavaScript-nya juga gampang banget dibacanya rapi, kodingnya, nanti demo-nya bisa nanti kita sharing ya Jadi mungkin di deskripsi-nya jadi kalian juga bisa belajar, wah banget deh kalian kalau bisa belajar web transition karena sudah mulai Baseline ya, view transition sudah mulai baseline, sudah bisa dipakai di major browser, sebagian ya, slide ya, slide sama view ya Oh ya single page apps sudah bisa, apa lagi ya, oh kita dapat foto sama Adam Arka, nanti ada yang berempat ya, ada berempat Terus apa ya yang menarik selain kalau workshop atau talk, ok lah bisa lihat video Bisa ketemu dan ngobrol langsung ya, bisa tanya-tanya, Chrome DevTools Jocelyn ya Jocelyn, Jocelyn itu yang DevTools, kalau kalian pernah lihat ngobrolin web beberapa episode belakangan kita pernah undang Mbak Jocelyn Dia dulu seorang GDI Anggular, asal Malaysia tapi sekarang sudah jadi Googler, talks kita waktu itu tentang web driver bidirectional Kemarin talk-nya juga tentang web driver bidirectional, plus Mathias ya, plus DevTools, update DevTools Format yang menarik sih selain, jadi dalam satu talk itu beberapa sesi kemarin memang ada yang present presentasi topik biasa Sekarang ini bisa begini blablabla dan itu pertama, terus kedua ada juga yang bentuknya kayak bentuk pertanyaan Jadi sebelum kita pergi kesini, ada kayak questionnaire, semacam form yang diisi, kirimkan satu pertanyaan yang kalian pengen tanyakan ke Googler Tim Google, dari ratusan peserta, pertanyaan-pertanyaan yang sering muncul, yang banyak ditanyakan itu dijawab langsung Jadi screen-nya di layar, jadi kayak ngobrol, tapi nggak langsung itu berdasarkan pertanyaan yang sering muncul Jadi di layar cuma muncul, saya pengen begini begini, atau bahkan, atau kalau yang di sesinya Jocelyn lucu itu ada pertanyaan Kalau kamu punya tongkat ajaib, magic wand, hal apa yang ingin kalian ubah dari Chrome DevTools Jadi masing-masing speaker yang ngejawab jadi nggak formal banget yang kayak lecture, kuliah presentasi, walaupun depannya ada intro-nya seperti itu Tapi banyak yang menjawab pertanyaan yang dikirim lewat forum juga, dan yang terakhir ya Q&A langsung Kita tanya-tanya semua kemarin, muka tebul aja ya Terus apa lagi? Mungkin pertanyaan dari saya, hal yang berkesaan dari topik apa yang kemarin yang melekak di kepala masing-masing Kalau saya jelas ketemu Adam Argyle ya, jadi Adam itu adalah orang yang nginterview saya pada saat mau jadi GDI Jadi ada 4 orang yang berjasa, yang satu Mas Danang tentu saja, yang kedua Mas Riza, ini mentor GDI saya Terus satu lagi itu dari India, GDI, web India, dan yang terakhir Mas Adam ini, orang Google-nya yang nginterview kita jadi dia nginterview terakhir lah, jadi ketemu di Google Meet aja udah starstruck gitu, apalagi kita ketemu langsung Gimana? Ya menyerangkan sih, bisa sampe ketemu idola langsung, udah gitu ngeliat toksnya juga mantep banget Jadi terinspirasi kayaknya bisa deh kita kalau ngisi materi, saya excited itu Ada 2 orang saya yang lihat Live Coding Excited itu, yang pertama Adam Argyle, kedua Adam Abramov Kalau dia udah ngasih Live Coding itu kayak nggak ada slide, dia cuma kayak notepad kosong, typing, udah langsung lanjut aja gitu Pengen banget gue niru cara bawain kayak gitu, mungkin nanti handle sama Mas Riza kali ya Kalau saya apa ya, mungkin lebih ke experience secara umum ya, jadi kan ini kali pertama kita ke China, dan China itu bahasa utamanya kan Mandarin ya Kita itu kesulitan sekali, karena mereka nggak ada yang bisa bahasa Inggris, kalau misalnya taksi gitu ya, atau kayak ketoko beli segala macam itu mereka nggak Kita ngomong bahasa Inggris, mereka jawabnya bahasa China ya biasanya ya, jadi kesulitan, terus juga kita merasakan bagaimana menjadi minoritas Jadi biasanya kalau kita datang ke Google I/O atau datang langsung gitu ya atau talk di Indonesia, biasanya kan ada translator, tapi buat orang luar Nah sementara sekarang kita harus pake di beberapa, kita by default buka pintu yang kita nggak ngerti kan, biasanya apa ya Sesi Google Play itu, jadi kita random nyasar ke sesi yang emang bukan web, tapi ya udah lihat aja, lihat berdiri di belakang gitu Tahu kan yang kayak baru masuk ruangan, lihat sekilas, pengen denger sekilas sama lihat slide-nya, kita nggak ngerti semua, karena semua slide dalam bahasa sini Ngomongnya juga dalam bahasa China, kalau yang presenter lokal ya, bahasa Mandarin, kalau misalnya kita butuh translation ya kita harus niat gitu yang kayak minta headset Cari kursi duduk yang proper gitu, tapi antara audio sama slide-nya itu agak delay, ya belum, karena kan butuh waktu dia, si penerjemahnya migir dulu kan si interpreter-nya Ternyata sebegitunya kita, kalau sebagai minoritas sebegitunya gitu Dan nggak bisa langsung mendapatkan ilmunya, jadi kayak experience-nya, kualitasnya beda, dan yang menarik mungkin dalam hal itu kayak beda kultur juga ya, beda tempat, beda kultur Soalnya tahun lalu kan ke India juga, dimana mereka juga punya bahasa sendiri, tapi by default, ya by default semua dalam bahasa Inggris, jadi kayak slide-talk-nya Jadi slide-nya bukan bahasa Hindi, terus kayak hal-hal simple deh, kayak poster, sign system, kayak poster acara nih, nanti ya mungkin bisa diselipin gambarnya Poster acara itu semua dalam bahasa lokal, bahasa Mandarin, kita nggak ngerti, cuma kita bisa ngira-ngira artinya lah, sedangkan kalau di India tahun lalu, semuanya semua poster bahasa Inggris Terus apa, oh yang menarik ya? Kesan talk ya, oh ini DevTools itu sekarang udah, udah ada belum sih yang error yang bisa disolve? Udah-udah, baru kita live Oh iya, jadi didemo-in lagi kan sama Giseline kan, jadi kalau misalkan di DevTools itu ada error, misalkan oh course kan banyak yang kena tuh, course origin Ini error-nya kenapa ya, kan biasanya kita copy, terus paste ke Google atau Stack Overflow Nah sekarang ada tombol apa, kayak lampu, ya lightbulb gitu, diklik nanti dia akan menjelaskan Iya, dia kirimin ke cloud ya, beberapa data dia kirimin ke cloud, tapi tenang aja kayaknya nggak data-data privacy ya Data-data yang umum, error message aja, ada concern-nya ya betul Ya dia ada persejuduannya dulu, terus abis itu nanti dia akan kasih solusi, oh kemungkinan ini yang kamu harus perbaiki, ini sama itu yang kemarin bisa memanipulasi response dari DevTools Itu menarik tuh, karena kadang-kadang error, ya kadang-kadang ada error misalkan yang tadi course atau oh datanya belum siap, API-nya belum siap Jadi kita bisa pakai data dummy, nggak perlu bikin dummy server, jadi langsung aja di copy paste ke DevTools dan dia akan bisa nampilin front-end-nya itu sih Dan yang menarik dari mostnya tolk itu juga demonya menarik sih, kayak misalnya kalau yang si console error, kita bisa consult AI itu kenapa kan Kita udah pernah demo-in live juga ya, cuma yang ditolk kemarin itu, ya kayak mereka bikin contoh aplikasi Bubble Tea ya, Bubble Tea browser ya Pokoknya di-present dengan menarik dan sesuai dengan hal yang ya umum dikerjain oleh developer sih, jadi bikin lebih menarik aja Terus kesan lain apa ya, oh iya ada tolk yang menarik juga tentang web AI ya, lagi-lagi AI sih Cuma mostnya kalau frase atau istilah web AI ini lagi di-promote bah, khusus untuk AI model yang berjalan di browser Nah itu tolknya yang bertiga panel itu siapa ya? Mas Thomas, Mas Jason, sama Mbak Alexandra ya kalau nggak salah namanya Karena bertiga jadi kayak itu juga lebih ke diskusi panel, jadi formatnya nggak terlalu kaku ya Mungkin kalau teknologi-teknologinya sendiri sih, ya kebetulan karena IO Extended tolk kemarin tentang itu udah baca semua Cuma beda sih rasanya waktu denger penjelasan oleh orang yang emang DevRel emang fokus disitu Dan cara ngomonginnya itu kan nggak terlalu formal kayak yang di video YouTube atau dokumentasi ya Jadi formatnya conversation, tanya-jawab ya semi ngobrol lah, kita ngeliat orang ngobrolin web AI, itu seru juga Kalau saya, cara mereka hampir semua konten menarik, cuma konten yang dibawakan tidak ngeripit apa yang sudah dikasih di Google IO Jadi dibungkus kembali dengan bentuk tanya-jawab itu menurut saya lebih menarik dan jadi lebih natural, lebih manusia Di Bangalore nggak seperti itu? Di Bangalore ini kayak presentasi seminar satu arah, kalau ini dia memang selesai Notice nggak sih semua panel, nggak ada yang bawa slide sebenarnya Slidenya cuma tanya-jawab Kalau kayak Sesi J-Slide itu ada yang mau nanya kalau nggak ada dia punya pertanyaan Iya betul Pertanyaannya ya yang dari di-submit itu Jadi yang diberikan tol itu cuma cuplikan-cuplikan plus informasi tambahan sebenarnya Dan banyakan contoh Contoh kasus ya Iya contoh kasus, jadinya menyenangkan Yang menarik semuanya menarik sih semuanya Satu lah, satu lah pilih lah Apa ya, yang... Performance ada nggak yang menarik dari performance? Nggak ada kan performance Belum ada Yang menarik dari performance ya itu yang saya ngobrol sama Thomas Steiner Bukan, yang performance itu yang antara kalau menjalankan model AI di web Web AI ya yang bukan ke cloud ya Itu bagus mana antara GPU atau CPU Terus kemudian Pertimbangannya apa ya Pertimbangannya apa, benchmarkingnya gimana Terus kemudian Ternyata Untuk menyimpan Model itu bisa di-cache Di... Apa katanya tadi? Bukan lokal storage, jadi pakai web cache API Di service worker cache API Itu lebih cepet disimpan di situ Karena di service worker cache API Bisa nyimpan model sebagai binary Jadi tidak di-convert lagi ke Format lain, ke serialize, tidak diserialize lagi Jadi bukan lokal storage ataupun bukan index DB Cache API itu walaupun bagian dari speknya service worker Ya itu sebenarnya bisa dipakai ketengan sih Jadi mau dipakai dari service worker boleh Dari main thread boleh, ya await cache.open blablabla Ya cari sendiri di MDN Bisa dari web worker juga Untuk menyimpan Si model yang udah di-donate ke browser itu Oh iya satu lagi yang berkesan Ya ini mirip sama jawabannya padika tadi sih Kayak ketemu langsung sama Developer-developer yang selama ini Cuma nonton videonya Kayak misalnya si Mas Adam Ergal Karena sebelumnya belum pernah ketemu Dan emang senang sama cara Cara ngebawain kontennya Terus nonton langsung juga udah Kayak nonton concert Apa? Oh iya Katanya in progress Bekal kita bahas lagi Kalau yang tau-tau yang CSS 2023 Kan udah tuh sampai bersambung ya Ya gitu Cuma itu tadi sih Pas nonton live itu rasanya kayak nonton concert live gitu Nah tapi kan abis kelar Beliau workshop Kan mereka ada booth masing-masing juga Ya kita nyamperin ke booth Asli sih gemeter sih Terus Nah tapi ternyata pas habis Ketemu nyapa ya ramah-ramah Ya ramah lah pasti Sebenernya apa secara rasional Secara rasional udah tau Maksudnya DevRel itu kan Memang kerjaannya adalah Connect sama developer Mereka misalnya bikin Suatu fitur Atau teknologi Ya bukan bikin tapi misalnya menggodok Atau mendokumentasikan Itu kan pasti butuh feedback dari kita juga Secara rasional tau itu Cuma pas lagi nyamperin mau ngomong tuh Terus Akhirnya berhasil Menunjukin kan buat DevFest tahun lalu pernah punya presentasi Yang menjelaskan cara kerjanya View Transitions API Terus mau di review ya? Tanya-tanya, pengen review dong Manfaatin dong, dan emang gak apa-apa Dia emang welcome buat Kayak gitu, jadi silahkan email aja Kalau mau tanya-tanya Maksudnya informasinya bener akurat atau enggak Nyampeinnya begini udah Maksimal atau mungkin Ada cara yang lebih enak, lebih oke Untuk ngejelasin ini bedanya apa Sama existing solutions misalnya Dan mereka semua tuh Semua devrelo itu Enak untuk diajak Ngobrol langsung sih Walaupun grogi, tapi seru Oh iya, satu lagi yang menarik Di sesi-sesi yang Panel dan tanya-jawab selain Keynote, itu kan ada siapa yang mau nanya kan Kalau bertanya itu gak dapat sweat Gak, gak dapat Sweatnya itu di luar Di booth-booth itu banyak sweat Jadi pas pertanyaan itu gak dipancing dengan Siapa yang mau sweat gitu, enggak Nanya aja Itu aja udah kesempatan Berharga sih, nanya langsung Iya, grogi juga kemarin Nanya ke Mas Thomas Padahal udah sempet ngobrol kan Kita bikin contekan, saya baca Dan bacanya juga terpatah-patah Ngomongnya, udah bahasa Inggris Terus ngomongnya di depan orang Jadi lumayan lah ya experience-nya Terakhir tadi nyambung sama Mbak Eka, itu juga Berlaku kalau misalkan teman-teman hadir Ke acara-acara meet-up Di Indonesia juga, kalau misalkan Ada kesempatan buat tanya-tanya sama Speakers-nya, baik itu pas lagi Selesai apa, pas lagi speaking Atau pas udah Samparin aja, jangan cuman Minta foto ya, kalau misalkan punya pertanyaan Ini minta foto juga nggak apa-apa sih Cuman justru Ya kita juga nggak Ini ya nggak apa-apa gitu Kalau misalkan ditanya juga silahkan aja Justru kan daripada nanya lewat sosmed Atau asingkronus Ada depan mata, tanyain aja Kita gigit kok, tapi nggak sakit Gimana Mas Yada, yang mau disampaikan Atau Apa yang bisa di improve Misalnya, kalau suatu hari lagi nanti Kita balik lagi kesini, misalnya Ada apa yang Yang kalian lakukan Berbeda Atau Apa yang bisa kalian improve Supaya bisa lebih baik Dapatnya lebih banyak, atau gimana Gitu lah, maksudnya Kan event-event ini kan Event ini kan Bakal ada ya tiap tahun Kayak tahun lalu di Bangalore Tahun ini Tahun ini juga masih ada Cuman tahun ini kita dibawanya kesini Tahun depan, who knows kemana kita Dibawa lagi, cuman Persiapan apa, kira-kira yang bisa kita Lakukan The next year gitu Yang pertama, dari saya dulu deh Pastikan tidur di pesawat Gak tidur ya Gak tidur, makanya suaranya Ilang Padahal sakit hari pertama ya Kalau dari pesawat, langsung jalan-jalan Iya Panasnya bukan main Jadi Yang pertama yang akan saya lakukan Saya udah tau nggak sebenarnya panas disini Cuma nggak expect sepanas itu Nggak, kemarin itu Kemarin itu waktu kita Nyampe, terus kita tiga empat ya Tiga empat apa tiga empat, but feels like Tiga lapan Gak ada awan Jadi bener-bener terik Dan saya lupa bawa payung Surabaya berapa? Surabaya berapa? Lebih panas dari Surabaya? Lebih panas dari Surabaya Disini, kemarin itu lagi summer Dan Summer, terus Terik sekali, jadi Suara saya hilang deh Kecapaan Tapi Itu secara kondisi fisik, kalau Kondisi mental yang akan saya siapin Terus terang waktu saya Sebelum kesini itu sibuk Nggak sempat mempersiapkan mental Kira-kira belajar apa yang Apa yang mau Saya cari, siapa Speakernya, terus kemudian Topik apa yang pengen Saya dalami sebelumnya, sehingga Waktu ketemu speakernya bisa Lebih siap untuk bertanya yang Lebih lanjut, lebih advance Itu dari saya, silahkan Apa ya Kalau keluhan fisik sih sama Cuma mostnya realistik Mostnya tahun depan pun ya Kemungkinan kan, mungkin kita Sibuk hal lain juga, ya Kalau bisa sih, fisik yang lebih primalkan Cuma, kalau tahun ini Ngerasa sukses sih, karena Walaupun nggak tidur sama sekali Yang pas, ya sama, apa Pertama, terus langsung dijemur Jalan-jalan, dan lain-lain Ya sebelumnya udah siap Vitamin dan produk anti Masuk angin, itu nggak penting ya Kalau yang dari teknis Kebetulan emang Beberapa topiknya, kayak udah Barusan explore banget Karena IO Extended kemarin Mungkin Kalau, nah, di luar Control kita, tapi kemarin tuh kayak Ngerasa, kayak Ya, agak penasaran Pengen lihat ini, tapi juga pengen Kesini, tapi juga pengen kesana Cuma itu ya Bisa dibilang, agak di luar Control kita ya, karena mungkin Dari pihak Google juga Waktu para speakers-nya Terbatas Jadi, kan, apa ya Pertama, overwhelmed gitu, karena boot demo Banyak banget tuh, kayak sebaris Kayak, wow Ya, mungkin Lebih tenang, lebih santai, namaste Jadi, misalnya harus setahun Atau berapa bulan, atau mungkin ada yang cuma Satu bulan atau tiga bulan punya Intinya, kalau misalnya paspor Udah kurang dari setahun Kayak, apa, perpanjang aja Udah, in case Tiba-tiba dapet kesempatan untuk Kesempat Iya, jadi kemarin itu hanya kurang 5 hari 6 bulan 5 bulan, 25 hari 5 bulan, 25 hari Hampir nggak berangkat Jadi, fokusnya kesana Nggak ngeliat, ini acaranya apa Segala macem, persiapan, kayak baju aja Salah warna, kan Jadi, nggak liat sama sekali Fokusnya ke paspor dan visa Karena pada saat mau apply visa Itu harus ada Tiket pesawat, sementara mau Mau beli tiket pesawat Butuh paspor yang belum Iya, belum 6 bulan sebelumnya, iya Udah gitu, kenal lagi masalah Ini kemarin, jadi deg-degan lagi Begitu aplikasinya, lu kok nggak bisa diakses Tapi untungnya, berjalan lancar Udah, apa ya Udah mau deadline, tapi akhirnya Tetap berangkat, jadi ya paling itu Yang bisa diimprovisi Kalau dari saya, sebenarnya ini karena Pertama, jadi sangat excited Dan nggak tahu sebenarnya bakalan ngapain Jadi ya, dinikmati aja Semua pengalamannya, cuman Dari pengalaman ini Kalau misalkan ada lagi, saya pengennya sih Ke depannya, pengen punya sesuatu gitu Snipet, kode kah Atau produk kecil kah Sehingga nanti kalau kita tahu bakalan Ada orang yang Bikin itu, atau nerangin itu Kita ngasih itu kan kayaknya \"Saya bikin ini nih\" \"Dinotis\" gitu kan Oh, pengen banget sih Sebenarnya, bagus tuh Misalnya, mas Sandika Atau yang lain, mau research sesuatu Atau mau bikin Produk kecil, yang pakai Teknologi Yang latest yang akan dibawakan ini Justru, bagusnya Nanti bakal ada office hour Office hour itu artinya kita bisa ketemu langsung Dengan Googler-nya Bahkan produk Manager dari produk itu Sebagai salah contoh, misalnya Saya bikin paski untuk WordPress Sebenarnya, AG ada di sini Cuma saya nggak ketemu AG, dimana sekarang AG itu siapa? Deffrel yang membawakan Paski, dan web auton Jadi Kalau misalnya saya sempat ketemu beliau Saya akan buka, \"Eh, gue bikin Paski, lo bisa minta Langsung feedback secara live\" Atau mungkin saya punya Masalah-masalah yang nggak bisa saya Solve, atau mungkin ada feedback terhadap Produknya, saya bisa langsung Kasih tahu ke Googler-nya Sehingga bisa Come, come, come Sehingga bisa dapat feedback langsung Ini ada GDI lain Dari Surabaya Dari Surabaya Ada 2 Perkenalkan diri dulu Halo, nama saya Esri Rawati Udah pernah masuk channel juga nih ya Saya GDI Untuk AIML Senang banget hari ini bisa export Tadi juga baru dari roundtable Bisa kasih feedback langsung Ke para developer dari Tool-tool AI Halo semuanya Saya harus senyum dulu Jadi ya Sudah senyum sekarang Nama saya Johan Saya GDI AIML Indonesia Saya yang nomor 2 Saya nomor 1 Bu Esther Saya baru pertama masuk podcast Ini pertama kali podcast di sini Biasanya podcastnya nggak bicara tentang Tek, ini bicara tentang tek pertama Di sini Biasanya apa podcast masa? Bukan, podcast kehidupan Kehidupan Susahnya menjadi seorang developer Gimana pesan-pesannya? Seru ya IO, ini IO pertama IO Connect yang pertama Seru banget luar biasa Banyak yang Kita jadi terbuka Pengalaman teknologi kita Di Indonesia bagaimana, disana bagaimana Ada orang lewat Ini salah satu Ini salah satu teknologi Yang bisa kita lihat Dari mobil jalan sendiri Iya kan dikendaliin Jalan sendiri orangnya Eventnya seru sih Kita bisa one on one discussion Dengan yang buat tim teknologinya Banyak kasih masukan Banyak kasih discussion Ada yang kita nggak ngerti juga, mereka bisa kasih langsung Mungkin ada yang salah dari kita Abis ikutan roundtable Tadi pagi datang langsung roundtable Kepala panas sekarang Apa yang dibahas? Fitur-fitur baru dari ini? Ditunggu aja nanti di DevFest Ada fitur-fitur baru AIML Nanti berlanjut di DevFest Ditunggu saja Termasuk di web Nanti ditunggu saja Ini saya kembalikan ke Mas Risa Jadi yang paling berkesan sih Iya betul Jadi kemarin transit dari Surabaya ke Singapura Singapura ke Beijing Nah koperku ternyata ditinggal Di Singapura Padahal Udah siap-siap bawa batik Untuk dinner sebelum event nih Kita kan mau bawa culture masing-masing Tapi akhirnya Kembali sih kopernya Happy ending yang penting Terus kalau di acara ini serunya Coba-coba demo Jadi ada kita main sepak bola Tadi udah dibahas belum? Udah ya Pasal diapasal juga ada Pasal crossword juga Bonekanya abis Udah sukses Orangnya bilang bonekanya abis Gak nyangka sih Bisa dapet boneka dash Oh itu logo nya Slutter Jadi apalagi? Cukup kali ya sudah Udah jam 12 disini lapar Laper ini waktunya makan Nanti kita sambung selama makan ya Besok aja Acaranya masih ada satu lagi Tapi besok bukan rangkaian acara Google I/O Connect Besok itu namanya GDE Summit Acara puncak Yang namanya summit kan muncak Para GDE dari Asia Tenggara Asia Tenggara Asia Tenggara South Asia Frontier Oh itu namanya South Asia Frontier ya Ngumpul kira-kira ngapain aja Acaranya Seru lah, ditunggu vlog besok deh Jadi mungkin itu dulu temen-temen ya Pengalaman kita di acara Google I/O Connect China 2024 Terima kasih buat temen-temen GDE Yang sudah hadir disini Selamat datang ke acara Apa nya? Oh belum, keluar sekarang Cukup ya, kita tutup Terima kasih temen-temen semua, sampai ketemu lagi Terimakasih telah menonton!"
+}
