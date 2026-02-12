@@ -1,0 +1,2148 @@
+{
+  "videoId": "bu4mEcws2h0",
+  "language": "id",
+  "generatedAt": "2026-02-12T09:25:46.410Z",
+  "segments": [
+    {
+      "start": 0,
+      "end": 16.92,
+      "text": "Oke, halo teman-teman semuanya, ketemu lagi di tan, meskipun hari ini, bukan selasa malam, tapi kita sempatkan untuk ngobrolin lagi."
+    },
+    {
+      "start": 16.92,
+      "end": 22.62,
+      "text": "Di sini ada yang suka nonton gak sih, penasaran, berapa orang suka nonton?"
+    },
+    {
+      "start": 22.62,
+      "end": 27,
+      "text": "Banyak loh, terima kasih ya."
+    },
+    {
+      "start": 27,
+      "end": 41.72,
+      "text": "Jadi, buat teman-teman yang mungkin belum familiar, kita tuh biasanya live setiap selasa malam, jam 8 waktu misio badan, kita ngobrolin segala hal tentang web, alasannya kenapa?"
+    },
+    {
+      "start": 41.72,
+      "end": 50,
+      "text": "Karena salah satunya adalah, kita sering bingung kalau diminta untuk jadi pemijara seperti ini, mau ngobrolin nombor apa?"
+    },
+    {
+      "start": 50,
+      "end": 60.36,
+      "text": "Karena web itu kan besarnya, ada tadi web UI, CSS, ada ML, ada JavaScript dengan berbagai framework-nya, ada back-end juga, ada apa lagi ya?"
+    },
+    {
+      "start": 60.36,
+      "end": 70.08,
+      "text": "Ada accessibility, ada performance, banyak sekali, security, jadi karena kita bingung akhirnya kita bilang, akhirnya ada AI."
+    },
+    {
+      "start": 70.08,
+      "end": 80.96,
+      "text": "Web AI ya, dan karena kita bingung akhirnya kita coba ngobrolin aja seminggu sekali, akhirnya yaudah kita live."
+    },
+    {
+      "start": 80.96,
+      "end": 93.96,
+      "text": "Jadi kalau teman-teman yang belum join, bisa selasa depan join di youtube saya, youtube.blogspot.com/zapahni, silahkan subscribe aja biar ada notifikasinya."
+    },
+    {
+      "start": 93.96,
+      "end": 108.92,
+      "text": "Oke, jadi ini adalah edisi kedua dari ngobrolin web versi offline, yang biasanya kita live streaming, sekarang kita offline khusus untuk menghadiri teman-teman di Surabaya."
+    },
+    {
+      "start": 108.92,
+      "end": 123.36,
+      "text": "Sebelumnya kita edisi pertama itu di Bogor ya, sekarang di Surabaya, jadi kita akan mencoba menjawab pertanyaan-pertanyaan yang sudah teman-teman sampaikan melalui slibro."
+    },
+    {
+      "start": 123.36,
+      "end": 129.36,
+      "text": "Dan kalau sudah ada pertanyaan yang sama, tinggal di input aja biar main nampas."
+    },
+    {
+      "start": 129.36,
+      "end": 136.36,
+      "text": "Oke, kita mulai, oh nggak kelihatan disini, kita mau jauh ke mana dulu?"
+    },
+    {
+      "start": 136.36,
+      "end": 157.36,
+      "text": "Kapan kita menggunakan ROM atau Real User Monitoring/Google Analytics?"
+    },
+    {
+      "start": 157.36,
+      "end": 164.36,
+      "text": "Kapan kita menggunakan ROM atau Real User Monitoring/Google Analytics?"
+    },
+    {
+      "start": 164.36,
+      "end": 182.36,
+      "text": "Ini saya sering menggunakan ROM, kalau di projek-projek saya banyak menggunakan dari New Relic, saya menggunakan ROM ini untuk mendeteksi adanya portal error,"
+    },
+    {
+      "start": 182.36,
+      "end": 196.36,
+      "text": "error-error yang lain dari Sunpage Load, dan juga dari World Performance atau Core Web Vitals, bisa di-setting juga di New Relic."
+    },
+    {
+      "start": 196.36,
+      "end": 214.36,
+      "text": "Sedangkan kalau dari sisi Google Analytics, biasanya saya mendeteksi device apa yang digunakan kebanyakan oleh user, juga bounce rate, dan kemudian page apa yang paling sering di-visit,"
+    },
+    {
+      "start": 214.36,
+      "end": 231.36,
+      "text": "dan juga part-nya mereka, user joining-nya mereka, kadang bisa dideteksi dari, kalau misalnya web-nya ada transasional, di-detek dari, minta jaringnya si itu ya Aida?"
+    },
+    {
+      "start": 231.36,
+      "end": 234.36,
+      "text": "Minta jaring, minta jaringnya."
+    },
+    {
+      "start": 234.36,
+      "end": 246.36,
+      "text": "Terus kemudian kalau dari Google Analytics biasa mengecek traffic, base, atau user behavior lah."
+    },
+    {
+      "start": 246.36,
+      "end": 256.36,
+      "text": "Kalau dari New Relic lebih ke arah technical data yang perlu saya dapatkan, seperti yang saya sudah sebut tadi, performance."
+    },
+    {
+      "start": 256.36,
+      "end": 276.36,
+      "text": "Saya ingin bertanya tentang web-pre, mohon maaf kalau web-pre kita belum ada yang mampu menjawab, tapi ini ide yang bagus,"
+    },
+    {
+      "start": 276.36,
+      "end": 289.36,
+      "text": "balik banget. Ini kita ambil dulu, nanti kita bisa cari nara sumber yang lebih kompeten ya, untuk topic web-pre, nanti mudah-mudahan bisa dibahas di Google,"
+    },
+    {
+      "start": 289.36,
+      "end": 307.36,
+      "text": "nanti ada kemudian yang sesi hari Selasa malamnya. Nanti lagi port aja, nanti kita dapat nanti ya."
+    },
+    {
+      "start": 307.36,
+      "end": 319.36,
+      "text": "Saya ingin berbicara dengan N, cari port N, apa-apa, tidak ada lagi."
+    },
+    {
+      "start": 319.36,
+      "end": 336.36,
+      "text": "Kalau vzroot, kita kasih portnya kata-kata ya, coba aja vzroot, misalnya kita minta buat login port,"
+    },
+    {
+      "start": 336.36,
+      "end": 346.36,
+      "text": "vzroot bisa tuh langsung buatin semua. Tapi ya itu tadi, ada hal-hal yang perlu diperhatikan, tetap perlu front-end atau full-stack sih."
+    },
+    {
+      "start": 346.36,
+      "end": 356.36,
+      "text": "Jadi secara komponen, emang akan di generate input, button, jadi kalau dari segi, mungkin lebih ke visual desainnya, kita males,"
+    },
+    {
+      "start": 356.36,
+      "end": 369.36,
+      "text": "bahkan aku punya yang front-end-nya, males pikir sisi visualnya, tapi fungsionalitas front-end itu kan bukan cuma tampilan visual, tapi banyak faktor fungsionalitas."
+    },
+    {
+      "start": 369.36,
+      "end": 380.36,
+      "text": "Misalnya input, ada validasinya required atau enggak, terus misalnya validasinya formatnya harus seperti apa, terus kalau misalnya input itu error,"
+    },
+    {
+      "start": 380.36,
+      "end": 392.36,
+      "text": "itu kan berkaitan dengan state form-nya sendiri, misalnya biar di-submit aja, terus nanti dibalikin error, atau jangan biarkan user men-submit form itu,"
+    },
+    {
+      "start": 392.36,
+      "end": 404.36,
+      "text": "misalnya button-nya tetap disable sampai semua validasinya sudah betul. Kan sebetulnya banyak faktor-faktor non-visual dari suatu UI front-end,"
+    },
+    {
+      "start": 404.36,
+      "end": 414.36,
+      "text": "jadi walaupun, ya bisa prompting, itu kan bisa ditambah dengan prompting tadi, misalnya pakai code chat, misalnya pakai Gemini di IDX atau Popilot dan lain-lain,"
+    },
+    {
+      "start": 414.36,
+      "end": 422.36,
+      "text": "tapi kita tetap harus tahu prompting hal-hal apa yang perlu diperhatikan dari suatu UI."
+    },
+    {
+      "start": 422.36,
+      "end": 432.36,
+      "text": "Jadi kalau males lurusin front-end itu, ya tetap minimal enggak males prompting dengan teknik-teknik atau prinsip-prinsip front-end yang ada."
+    },
+    {
+      "start": 432.36,
+      "end": 440.36,
+      "text": "Vigma sudah bisa AI, tinggal prompting, ya potila AI."
+    },
+    {
+      "start": 440.36,
+      "end": 450.36,
+      "text": "Alternatif lain mungkin kalau nanti front-end bisa hire developer yang males suka front-end, ya? Ini dia negasi, ya?"
+    },
+    {
+      "start": 450.36,
+      "end": 459.36,
+      "text": "Saya back-end, murni, saya nggak suka front-end."
+    },
+    {
+      "start": 459.36,
+      "end": 463.36,
+      "text": "- Panggilin Haider. - Haider, jangan jadi lagu."
+    },
+    {
+      "start": 463.36,
+      "end": 469.36,
+      "text": "- Solution lain, saya suka Terwin. - Oh."
+    },
+    {
+      "start": 469.36,
+      "end": 472.36,
+      "text": "- Siapa sinyalah Terwin? - Lu."
+    },
+    {
+      "start": 472.36,
+      "end": 477.36,
+      "text": "Mantap, kita sahabat."
+    },
+    {
+      "start": 477.36,
+      "end": 487.36,
+      "text": "Ya, saya pakai Terwin dan saya suka pakai Terwin dan saya support Terwin karena dari sisi build tools-nya,"
+    },
+    {
+      "start": 487.36,
+      "end": 495.36,
+      "text": "kalau pakai Terwin itu saya build utility-utility atau CSS yang tak terbatai."
+    },
+    {
+      "start": 495.36,
+      "end": 499.36,
+      "text": "- Bagaimana bisa muncul? - Oh gitu, mantap."
+    },
+    {
+      "start": 499.36,
+      "end": 505.36,
+      "text": "Utility-utility yang nggak dibutuhkan juga bisa di-remove dari Terwin-nya."
+    },
+    {
+      "start": 505.36,
+      "end": 511.36,
+      "text": "Jadi saya back-end dan saya pakai full dengan Terwin."
+    },
+    {
+      "start": 511.36,
+      "end": 520.36,
+      "text": "Jadi terpantung, oh iya, dari sisi Figma atau kalau dari Figma saya generate code-out V0 juga,"
+    },
+    {
+      "start": 520.36,
+      "end": 522.36,
+      "text": "dia bisa generate-nya pakai Terwin, ya?"
+    },
+    {
+      "start": 522.36,
+      "end": 524.36,
+      "text": "- Bisa. Terwin, ya. - Ya, Terwin, ya."
+    },
+    {
+      "start": 524.36,
+      "end": 526.36,
+      "text": "- Dan Next. - Atau React."
+    },
+    {
+      "start": 526.36,
+      "end": 530.36,
+      "text": "Jadi, ya, ke depannya, sebagainya. Mempermudahin saya, ya."
+    },
+    {
+      "start": 530.36,
+      "end": 540.36,
+      "text": "Jadi front-end itu bukan cuma visual, cara pedingat, emang kalau Terwin sih, ya, Terwin itu sangat mempermudah."
+    },
+    {
+      "start": 540.36,
+      "end": 546.36,
+      "text": "Tapi ya itu fungsionalitas, kapan suatu komponen perlu di-load, kapan nggak."
+    },
+    {
+      "start": 546.36,
+      "end": 555.36,
+      "text": "Terus action-action-nya, misalnya event listener-nya, on-input gimana, on-click gimana, event handler-nya apa."
+    },
+    {
+      "start": 555.36,
+      "end": 559.36,
+      "text": "Terus biasanya ada state-state-nya, UI-state-nya gimana."
+    },
+    {
+      "start": 559.36,
+      "end": 566.36,
+      "text": "Nah, itu perlu dipikirin atau prompting atau delegasi ke developer lain."
+    },
+    {
+      "start": 566.36,
+      "end": 575.36,
+      "text": "Seperti informasi juga, saya juga back-end dan pada saat itu saya disusah jepaskrim."
+    },
+    {
+      "start": 575.36,
+      "end": 580.36,
+      "text": "Tapi waktu itu jamannya diquery ya, jepaskrim vanilla diquery."
+    },
+    {
+      "start": 580.36,
+      "end": 582.36,
+      "text": "Terus sekarang kerjaannya jepaskrim."
+    },
+    {
+      "start": 582.36,
+      "end": 586.36,
+      "text": "Gimana dong? Jadi karma, ya."
+    },
+    {
+      "start": 586.36,
+      "end": 596.36,
+      "text": "Jadi kalau gak susah, ya itu, satu delegasi, kedua, kenapa?"
+    },
+    {
+      "start": 596.36,
+      "end": 600.36,
+      "text": "Kalo gak suka dia, mungkin ada sesuatu yang problem."
+    },
+    {
+      "start": 600.36,
+      "end": 605.36,
+      "text": "Ya, karena jepaskrimnya saya suka."
+    },
+    {
+      "start": 605.36,
+      "end": 608.36,
+      "text": "Tapi kalau CSS-nya itu, iya, mungkin bukan."
+    },
+    {
+      "start": 608.36,
+      "end": 610.36,
+      "text": "Skin issue, ya."
+    },
+    {
+      "start": 610.36,
+      "end": 619.36,
+      "text": "Yang itu."
+    },
+    {
+      "start": 619.36,
+      "end": 626.36,
+      "text": "Apalagi menurut saya, terumahnya adalah dapet desainernya itu bukan desainer web."
+    },
+    {
+      "start": 626.36,
+      "end": 632.36,
+      "text": "Jadi dapet desainernya itu desainer yang khusus untuk grafik banner yang di..."
+    },
+    {
+      "start": 632.36,
+      "end": 634.36,
+      "text": "Grafik desainer ya?"
+    },
+    {
+      "start": 634.36,
+      "end": 635.36,
+      "text": "Ya, grafik desainer."
+    },
+    {
+      "start": 635.36,
+      "end": 637.36,
+      "text": "Kasihnya PNG gitu ya?"
+    },
+    {
+      "start": 637.36,
+      "end": 640.36,
+      "text": "Kalo foto Shopeye."
+    },
+    {
+      "start": 640.36,
+      "end": 644.36,
+      "text": "Tapi ya itu motot gitu, maunya lengkungannya itu seperti itu."
+    },
+    {
+      "start": 644.36,
+      "end": 646.36,
+      "text": "Oh iya, bahkan ini harus absolu gitu ya?"
+    },
+    {
+      "start": 646.36,
+      "end": 648.36,
+      "text": "Iya."
+    },
+    {
+      "start": 648.36,
+      "end": 653.36,
+      "text": "Jadi hidup saya tuh habis aja, geser-geser satu mixer, satu mixer."
+    },
+    {
+      "start": 653.36,
+      "end": 659.36,
+      "text": "Akhirnya ya, akhirnya position absolu semua saya."
+    },
+    {
+      "start": 659.36,
+      "end": 660.36,
+      "text": "Itu important?"
+    },
+    {
+      "start": 660.36,
+      "end": 663.36,
+      "text": "Important."
+    },
+    {
+      "start": 663.36,
+      "end": 671.36,
+      "text": "Itu akhirnya, karena saya udah terlalu cekin, ini gimana sih momen kita bisa persis disitu?"
+    },
+    {
+      "start": 671.36,
+      "end": 678.36,
+      "text": "Itu balik lagi, antara grafik desainernya yang salah, apasanya yang skill issue saya tak tahu."
+    },
+    {
+      "start": 678.36,
+      "end": 683.36,
+      "text": "Makanya jadi terlalu banget dengan CSS-nya, sudah lah saya tinggalkan saja."
+    },
+    {
+      "start": 683.36,
+      "end": 686.36,
+      "text": "Dan saya berali ke back-end dan jawab masing-masing."
+    },
+    {
+      "start": 686.36,
+      "end": 695.36,
+      "text": "Jadi sekarang coba kita jadi pelan-pelan, kita tahu semakin lama semakin cinta, nanti kita jadi front-end melayang."
+    },
+    {
+      "start": 695.36,
+      "end": 700.36,
+      "text": "Kalo saya sekarang, justru kalo di Tailwind gak bisa, mati setengah desainernya."
+    },
+    {
+      "start": 700.36,
+      "end": 706.36,
+      "text": "Desainernya yang selalu belajar Tailwind."
+    },
+    {
+      "start": 706.36,
+      "end": 711.36,
+      "text": "Desainernya belajar Tailwind, ini loh, ini loh, positioning dan layout itu seperti yang ada di Tailwind."
+    },
+    {
+      "start": 711.36,
+      "end": 715.36,
+      "text": "Dan ikutin itu."
+    },
+    {
+      "start": 715.36,
+      "end": 726.36,
+      "text": "Kalo buat anak non-end juga bisa manfaatin Tailwind buat menginakan temen-temen ke back-end dan full stack kalian."
+    },
+    {
+      "start": 726.36,
+      "end": 731.36,
+      "text": "Caranya, Tailwind kan bisa custom config to custom token, custom config."
+    },
+    {
+      "start": 731.36,
+      "end": 734.36,
+      "text": "Gimana caranya, tag token sama desainer grafisnya, token."
+    },
+    {
+      "start": 734.36,
+      "end": 740.36,
+      "text": "Paksain harus pake yang namanya desain token sekalian mengidotasi biar gak kayak desainernya yang tadi."
+    },
+    {
+      "start": 740.36,
+      "end": 760.36,
+      "text": "Terus kalau misalnya kalo di halaman A fontnya kurang 14, di halaman B tiba-tiba item yang harusnya sama tiba-tiba beda dikit."
+    },
+    {
+      "start": 760.36,
+      "end": 771.36,
+      "text": "Kita ngomong edukasi aja, mungkin lalu mungkin gak, cuma biasanya kalo timnya gak toksiksian, kan lebih kebaikan juga."
+    },
+    {
+      "start": 771.36,
+      "end": 777.36,
+      "text": "Jadi kita enforce yang namanya desain token, desain token itu bisa dimasukkan ke custom Tailwind config."
+    },
+    {
+      "start": 777.36,
+      "end": 785.36,
+      "text": "Custom Tailwind config itu bisa dipakai dari berbagai project apapun, Vanilla JavaScript, Power React."
+    },
+    {
+      "start": 785.36,
+      "end": 791.36,
+      "text": "Itu kan mempermudah teman stream kita untuk menggunakan yang gak bisa CSS."
+    },
+    {
+      "start": 791.36,
+      "end": 794.36,
+      "text": "Ya udah gak usah banyak mikir, pake yang udah ada."
+    },
+    {
+      "start": 794.36,
+      "end": 799.36,
+      "text": "Terus kan udah terbantu juga dengan di Viscode juga ada perang Intel Wind-nya ya."
+    },
+    {
+      "start": 799.36,
+      "end": 805.36,
+      "text": "Jadi udah ada auto-fill dengan semua settingan token yang sudah kita bukut."
+    },
+    {
+      "start": 805.36,
+      "end": 817.36,
+      "text": "Pertanyaan berikutnya, bagaimana cara memoptimalkan performa aplikasi web modern dengan banyak perparti libraries?"
+    },
+    {
+      "start": 817.36,
+      "end": 820.36,
+      "text": "Ini perhubunganan corporate portal."
+    },
+    {
+      "start": 820.36,
+      "end": 827.36,
+      "text": "Biasanya begini ceritanya, webnya sudah saya atau sudah kita develop dengan sangat indah, cepat dan bagus."
+    },
+    {
+      "start": 827.36,
+      "end": 831.36,
+      "text": "Tetapi dirusak oleh tim marketing dengan GTA."
+    },
+    {
+      "start": 831.36,
+      "end": 836.36,
+      "text": "Ada yang pernah relate, GTN kita tambahin."
+    },
+    {
+      "start": 836.36,
+      "end": 842.36,
+      "text": "Terus tim marketing semana-mana menambahkan koden dari mana pun yang mereka mau."
+    },
+    {
+      "start": 842.36,
+      "end": 847.36,
+      "text": "Ceplokin, terus deploy, terus akhirnya website jadi rusak."
+    },
+    {
+      "start": 847.36,
+      "end": 849.36,
+      "text": "Itu paling selim."
+    },
+    {
+      "start": 849.36,
+      "end": 853.36,
+      "text": "Yang biasa yang disalahin, kita."
+    },
+    {
+      "start": 853.36,
+      "end": 855.36,
+      "text": "Terus kita dianakan sana."
+    },
+    {
+      "start": 855.36,
+      "end": 859.36,
+      "text": "Ini kalau kita matikan GTN cepat kok."
+    },
+    {
+      "start": 859.36,
+      "end": 861.36,
+      "text": "Tapi kita kembali."
+    },
+    {
+      "start": 861.36,
+      "end": 867.36,
+      "text": "Memoptimalkan performa aplikasi web modern dengan banyak perparti di perangkat dan spesifikasi rendah."
+    },
+    {
+      "start": 867.36,
+      "end": 871.36,
+      "text": "Oke."
+    },
+    {
+      "start": 871.36,
+      "end": 879.36,
+      "text": "Yang pertama kita harus saat kalian bisa baca yang namanya critical rendering path."
+    },
+    {
+      "start": 879.36,
+      "end": 885.36,
+      "text": "Ada satu bacaan, nanti kalian bisa cari di Google."
+    },
+    {
+      "start": 885.36,
+      "end": 889.36,
+      "text": "Udah lama banget, itu dari Google, dari web.dev."
+    },
+    {
+      "start": 889.36,
+      "end": 891.36,
+      "text": "Critical rendering path."
+    },
+    {
+      "start": 891.36,
+      "end": 898.36,
+      "text": "Jadi kalian mau ngerti bagaimana saat browser melakukan initial page load dan melakukan rendering."
+    },
+    {
+      "start": 898.36,
+      "end": 908.36,
+      "text": "Ada random blocker, ada random block seperti CSS, On, itu random blocking."
+    },
+    {
+      "start": 908.36,
+      "end": 916.36,
+      "text": "Artinya jika value itu belum didapatkan, maka process rendering stop sampai value itu selesai didapat."
+    },
+    {
+      "start": 916.36,
+      "end": 919.36,
+      "text": "Dan ada cara untuk optimalisasi."
+    },
+    {
+      "start": 919.36,
+      "end": 921.36,
+      "text": "Nah kembali ke third party."
+    },
+    {
+      "start": 921.36,
+      "end": 931.36,
+      "text": "Kita harus memiliki mana third party yang dibutuhkan di awal rendering dan mana third party yang tidak perlu di awal."
+    },
+    {
+      "start": 931.36,
+      "end": 941.36,
+      "text": "Jadi semua third party yang tidak butuh di awal page load, di-defer aja ke belakang."
+    },
+    {
+      "start": 941.36,
+      "end": 944.36,
+      "text": "Artinya setelah page load selesai, dia baru random."
+    },
+    {
+      "start": 944.36,
+      "end": 950.36,
+      "text": "Contohnya adalah command system."
+    },
+    {
+      "start": 950.36,
+      "end": 956.36,
+      "text": "Jika kalian punya, anggap aja pada situs berita."
+    },
+    {
+      "start": 956.36,
+      "end": 958.36,
+      "text": "Lalu kemudian ada command system."
+    },
+    {
+      "start": 958.36,
+      "end": 964.36,
+      "text": "Command system-nya zaman dulu itu sempat ada yang namanya Discuss."
+    },
+    {
+      "start": 964.36,
+      "end": 969.36,
+      "text": "Kalau kita pikirkan, command system itu kan ada di bawah banget ya di article."
+    },
+    {
+      "start": 969.36,
+      "end": 973.36,
+      "text": "Arti kalau bahasa text-nya below the fold."
+    },
+    {
+      "start": 973.36,
+      "end": 976.36,
+      "text": "Dan tidak perlu di-render paling awal."
+    },
+    {
+      "start": 976.36,
+      "end": 977.36,
+      "text": "Terakhir-terakhir aja ya?"
+    },
+    {
+      "start": 977.36,
+      "end": 979.36,
+      "text": "Terakhir, itu udah."
+    },
+    {
+      "start": 979.36,
+      "end": 985.36,
+      "text": "Jadi strateginya adalah bisa menggunakan intersection observer."
+    },
+    {
+      "start": 985.36,
+      "end": 994.36,
+      "text": "Jika user-nya scroll sampai mungkin 200 pixel sebelum element itu muncul, baru CSS-nya di-load."
+    },
+    {
+      "start": 994.36,
+      "end": 996.36,
+      "text": "Contohnya seperti itu."
+    },
+    {
+      "start": 996.36,
+      "end": 998.36,
+      "text": "Itu untuk command."
+    },
+    {
+      "start": 998.36,
+      "end": 1001.36,
+      "text": "Ada mungkin ya paling sering ads lah ya, paling susah ads."
+    },
+    {
+      "start": 1001.36,
+      "end": 1008.36,
+      "text": "Kalau CSS sudah muncul di awal-awal ya harus tetap harus di, misalnya header bidding lah contohnya."
+    },
+    {
+      "start": 1008.36,
+      "end": 1010.36,
+      "text": "Itu memang harus di-load di awal."
+    },
+    {
+      "start": 1010.36,
+      "end": 1018.36,
+      "text": "Namun, kembali lagi ke si percakapan kalian dengan si client atau stakeholder."
+    },
+    {
+      "start": 1018.36,
+      "end": 1022.36,
+      "text": "Mereka bilang-bilang mana yang butuh di awal, mana yang butuh di akhir."
+    },
+    {
+      "start": 1022.36,
+      "end": 1026.36,
+      "text": "Dan mana yang benar-benar butuh benar-benar di awal banget."
+    },
+    {
+      "start": 1026.36,
+      "end": 1032.36,
+      "text": "Jadi ngomongnya soal kalau di bahasa saya itu, diet."
+    },
+    {
+      "start": 1032.36,
+      "end": 1035.36,
+      "text": "Jadi wealth-nya diet."
+    },
+    {
+      "start": 1035.36,
+      "end": 1037.36,
+      "text": "Mana yang benar-benar buruk."
+    },
+    {
+      "start": 1037.36,
+      "end": 1041.36,
+      "text": "Bahkan fault, fault itu gak semua butuh di awal."
+    },
+    {
+      "start": 1041.36,
+      "end": 1047.36,
+      "text": "Fault itu ada yang bisa di-swap, ada yang bisa di-mundurin."
+    },
+    {
+      "start": 1047.36,
+      "end": 1049.36,
+      "text": "Gak semua butuh di awal."
+    },
+    {
+      "start": 1049.36,
+      "end": 1051.36,
+      "text": "CSS juga gak semua butuh di awal."
+    },
+    {
+      "start": 1051.36,
+      "end": 1056.36,
+      "text": "CSS itu bisa asynchronous load, bisa ditunda."
+    },
+    {
+      "start": 1056.36,
+      "end": 1058.36,
+      "text": "CSS itu bisa ditunda."
+    },
+    {
+      "start": 1058.36,
+      "end": 1064.36,
+      "text": "Jadi hanya butuh yang above the fault aja yang kalian, atau critical CSS bahasa kerennya."
+    },
+    {
+      "start": 1064.36,
+      "end": 1068.36,
+      "text": "Critical CSS-nya aja di-load di atas, sisanya ditunda."
+    },
+    {
+      "start": 1068.36,
+      "end": 1073.36,
+      "text": "Sehingga ujung-ujungnya core web-writer-nya kalian bagus, score-nya."
+    },
+    {
+      "start": 1073.36,
+      "end": 1078.36,
+      "text": "Artinya, LCP-nya, Large Spontane Full-Penya bisa bagus."
+    },
+    {
+      "start": 1078.36,
+      "end": 1085.36,
+      "text": "Terus kemudian kalian harus bisa memahami yang mana supaya dia terjadi layout shift."
+    },
+    {
+      "start": 1085.36,
+      "end": 1090.36,
+      "text": "Dan memahami bagaimana supaya saya score yang mana yang perlu di-load atau tidak."
+    },
+    {
+      "start": 1090.36,
+      "end": 1093.36,
+      "text": "Sehingga tetap memperhatikan INP-nya."
+    },
+    {
+      "start": 1093.36,
+      "end": 1096.36,
+      "text": "Jadi semoga menjawabnya untuk soal tepati."
+    },
+    {
+      "start": 1096.36,
+      "end": 1098.36,
+      "text": "Kalian nama-nama aja."
+    },
+    {
+      "start": 1098.36,
+      "end": 1100.36,
+      "text": "Cukup-cukup."
+    },
+    {
+      "start": 1100.36,
+      "end": 1102.36,
+      "text": "Terima kasih."
+    },
+    {
+      "start": 1102.36,
+      "end": 1104.36,
+      "text": "Oke."
+    },
+    {
+      "start": 1104.36,
+      "end": 1109.36,
+      "text": "Banyak orang yang belum tahu ya dynamic import itu udah bisa di JavaScript Vanilla."
+    },
+    {
+      "start": 1109.36,
+      "end": 1113.36,
+      "text": "Jadi kalau kita pakai framework seperti React atau Svelte atau Vue kan."
+    },
+    {
+      "start": 1113.36,
+      "end": 1117.36,
+      "text": "Memang sudah bisa import dynamically untuk lazy loading tadi."
+    },
+    {
+      "start": 1117.36,
+      "end": 1122.36,
+      "text": "Tapi sebetulnya itu fitur yang sudah masuk standar ES6 kalau gak salah."
+    },
+    {
+      "start": 1122.36,
+      "end": 1125.36,
+      "text": "Ya dari 2020-2021."
+    },
+    {
+      "start": 1125.36,
+      "end": 1128.36,
+      "text": "Jadi apapun teknologi yang digunakan."
+    },
+    {
+      "start": 1128.36,
+      "end": 1133.36,
+      "text": "Ya bisa menggunakan lazy load seperti yang tadi disebut Divan."
+    },
+    {
+      "start": 1133.36,
+      "end": 1135.36,
+      "text": "Oke."
+    },
+    {
+      "start": 1135.36,
+      "end": 1137.36,
+      "text": "Pertanyaan berikutnya."
+    },
+    {
+      "start": 1137.36,
+      "end": 1138.36,
+      "text": "Bagaimana?"
+    },
+    {
+      "start": 1138.36,
+      "end": 1139.36,
+      "text": "Eh udah kena."
+    },
+    {
+      "start": 1139.36,
+      "end": 1141.36,
+      "text": "Tips."
+    },
+    {
+      "start": 1141.36,
+      "end": 1149.36,
+      "text": "Apa rodent gods menggunakan core M seperti Krisma atau Sycolas dengan query data list secara langsung?"
+    },
+    {
+      "start": 1149.36,
+      "end": 1155.36,
+      "text": "Yang pertama, pro-nya adalah kemudahan mudah."
+    },
+    {
+      "start": 1155.36,
+      "end": 1166.36,
+      "text": "Temen-temen diberikan API untuk lebar query, database, join dan operasi-operasi line and insert, update, dll."
+    },
+    {
+      "start": 1166.36,
+      "end": 1168.36,
+      "text": "Itu kemudahan yang di dapat."
+    },
+    {
+      "start": 1168.36,
+      "end": 1171.36,
+      "text": "Developer experience-nya enak gitu."
+    },
+    {
+      "start": 1171.36,
+      "end": 1179.36,
+      "text": "Cause-nya adalah belum tentu semua. Kan si ORM ini adalah translator ya. Translator ke database."
+    },
+    {
+      "start": 1179.36,
+      "end": 1181.36,
+      "text": "Ngomong ke database, ke SQL."
+    },
+    {
+      "start": 1181.36,
+      "end": 1184.36,
+      "text": "Line joins-nya kan."
+    },
+    {
+      "start": 1184.36,
+      "end": 1186.36,
+      "text": "Structure, query, and joins."
+    },
+    {
+      "start": 1186.36,
+      "end": 1195.36,
+      "text": "Nah, kalau yang misalkan kita udah mulai kompleks aplikasinya atau query-nya udah mulai kompleks, joins sana, joins sini."
+    },
+    {
+      "start": 1195.36,
+      "end": 1204.36,
+      "text": "Bisa jadi query yang dihasilkan oleh ORM ini bisa jadi kurang optimal."
+    },
+    {
+      "start": 1204.36,
+      "end": 1206.36,
+      "text": "Kurang efektif, kurang optimal."
+    },
+    {
+      "start": 1206.36,
+      "end": 1210.36,
+      "text": "Karena mungkin dia select-nya select bintang misalkan."
+    },
+    {
+      "start": 1210.36,
+      "end": 1213.36,
+      "text": "Join-nya juga mungkin full join."
+    },
+    {
+      "start": 1213.36,
+      "end": 1216.36,
+      "text": "Ya, ini import-bole aja gitu kan."
+    },
+    {
+      "start": 1216.36,
+      "end": 1217.36,
+      "text": "Jadi kurang optimal."
+    },
+    {
+      "start": 1217.36,
+      "end": 1222.36,
+      "text": "Dan itu yang bukan, menggunakan ORM itu tidak sepenuhnya salah."
+    },
+    {
+      "start": 1222.36,
+      "end": 1225.36,
+      "text": "Tapi ada case-paster."
+    },
+    {
+      "start": 1225.36,
+      "end": 1226.36,
+      "text": "Kalau misalnya kok ini lambat ya?"
+    },
+    {
+      "start": 1226.36,
+      "end": 1229.36,
+      "text": "Kita kan bisa lihat log-nya, misalkan ada print query-nya."
+    },
+    {
+      "start": 1229.36,
+      "end": 1231.36,
+      "text": "Nah, dari itu kita bisa optimize."
+    },
+    {
+      "start": 1231.36,
+      "end": 1236.36,
+      "text": "Atau kalau di RDBMS itu biasanya ada explain."
+    },
+    {
+      "start": 1236.36,
+      "end": 1238.36,
+      "text": "Explain, query, query kita paste aja."
+    },
+    {
+      "start": 1238.36,
+      "end": 1240.36,
+      "text": "Terus kita lihat tuh apa yang terjadi."
+    },
+    {
+      "start": 1240.36,
+      "end": 1242.36,
+      "text": "Dan dari situ kayak debug lah."
+    },
+    {
+      "start": 1242.36,
+      "end": 1244.36,
+      "text": "Ada bottleneck dimana."
+    },
+    {
+      "start": 1244.36,
+      "end": 1246.36,
+      "text": "Nah, ini yang diperbaiki."
+    },
+    {
+      "start": 1246.36,
+      "end": 1254.36,
+      "text": "Mungkin itu bisa kita copy paste ke, saya yakin semua ORM ada execution langsung STL role kan."
+    },
+    {
+      "start": 1254.36,
+      "end": 1259.36,
+      "text": "Jadi kita bisa ambil si query yang sudah dioptimize."
+    },
+    {
+      "start": 1259.36,
+      "end": 1262.36,
+      "text": "Bisa tanyakan AI juga, tolong optimize gitu ya."
+    },
+    {
+      "start": 1262.36,
+      "end": 1263.36,
+      "text": "Hasilnya udah bagus."
+    },
+    {
+      "start": 1263.36,
+      "end": 1266.36,
+      "text": "Kita coba dilarangin di database."
+    },
+    {
+      "start": 1266.36,
+      "end": 1269.36,
+      "text": "Yang ada di database production ya, di database development."
+    },
+    {
+      "start": 1269.36,
+      "end": 1276.36,
+      "text": "Tidakan antara query yang pertama berapa mili detik millisecond."
+    },
+    {
+      "start": 1276.36,
+      "end": 1278.36,
+      "text": "Query yang optimize berapa millisecond."
+    },
+    {
+      "start": 1278.36,
+      "end": 1279.36,
+      "text": "Ada perubahannya enggak?"
+    },
+    {
+      "start": 1279.36,
+      "end": 1285.36,
+      "text": "Kalau ada copy paste, jalankan query-nya secara raw di ORM juga."
+    },
+    {
+      "start": 1285.36,
+      "end": 1299.36,
+      "text": "Di frontend, ada tailwind buat orang-orang yang nggak bisa atau males tulis CSS."
+    },
+    {
+      "start": 1299.36,
+      "end": 1305.36,
+      "text": "Tapi kan sebetulnya ya overall positif ya."
+    },
+    {
+      "start": 1305.36,
+      "end": 1308.36,
+      "text": "Jadi ya itu kayak kebalikannya tailwind lah."
+    },
+    {
+      "start": 1308.36,
+      "end": 1315.36,
+      "text": "Dengan adanya Prisma atau Syqlize, kalau misalnya gue nggak bisa, nggak bisa paste command langsung."
+    },
+    {
+      "start": 1315.36,
+      "end": 1317.36,
+      "text": "Minimal bisa prototyping."
+    },
+    {
+      "start": 1317.36,
+      "end": 1321.36,
+      "text": "Atau bisa bikin aplikasi truth simple, ya bisa lah langsung cepat."
+    },
+    {
+      "start": 1321.36,
+      "end": 1323.36,
+      "text": "Langsung ada type script definition-nya."
+    },
+    {
+      "start": 1323.36,
+      "end": 1328.36,
+      "text": "Cus, tinggal pakai AI auto-optim, udah kelar."
+    },
+    {
+      "start": 1328.36,
+      "end": 1332.36,
+      "text": "Cuma kan itu tadi kalau use case-nya udah mulai rumir."
+    },
+    {
+      "start": 1332.36,
+      "end": 1338.36,
+      "text": "Terus performance concern, ya itu harus consult sama yang memang paham."
+    },
+    {
+      "start": 1338.36,
+      "end": 1343.36,
+      "text": "Dan itu kayaknya use case AI yang bagus deh buat bikin contoh-contoh SPL-nya."
+    },
+    {
+      "start": 1343.36,
+      "end": 1345.36,
+      "text": "Terus bikin perbandingannya."
+    },
+    {
+      "start": 1345.36,
+      "end": 1349.36,
+      "text": "Terus suruh ngelog berapa detik compare masing-masing."
+    },
+    {
+      "start": 1349.36,
+      "end": 1352.36,
+      "text": "Itu kan kita bisa minta tolong AI juga."
+    },
+    {
+      "start": 1352.36,
+      "end": 1361.36,
+      "text": "Kalau dari saya cost and cost kembali dalam konteks kemudahan berbanding dengan kompleksitas."
+    },
+    {
+      "start": 1361.36,
+      "end": 1366.36,
+      "text": "Jadi dengan menggunakan ORM, kemudahan yang didapatkan."
+    },
+    {
+      "start": 1366.36,
+      "end": 1370.36,
+      "text": "Tapi di dalamnya kompleks yang tinggi."
+    },
+    {
+      "start": 1370.36,
+      "end": 1373.36,
+      "text": "Jadi, ORM itu sebenarnya abstraction."
+    },
+    {
+      "start": 1373.36,
+      "end": 1377.36,
+      "text": "Satu layer ini adalah SKL query yang kalian lakukan."
+    },
+    {
+      "start": 1377.36,
+      "end": 1379.36,
+      "text": "Ada abstraction layer-nya."
+    },
+    {
+      "start": 1379.36,
+      "end": 1383.36,
+      "text": "Jadi, semakin banyak abstraction, semakin kompleks mengaturnya."
+    },
+    {
+      "start": 1383.36,
+      "end": 1387.36,
+      "text": "Bagaimana caching-nya, bagaimana optimized query-nya."
+    },
+    {
+      "start": 1387.36,
+      "end": 1395.36,
+      "text": "Semakin banyak abstraction, semakin kompleks untuk mengaturnya."
+    },
+    {
+      "start": 1395.36,
+      "end": 1397.36,
+      "text": "Jadi, ada trade-off-nya di situ."
+    },
+    {
+      "start": 1397.36,
+      "end": 1410.36,
+      "text": "Kalau dalam membangun sebuah aplikasi, kalian kalau mengaktif dengan trade-off itu ya silahkan melakukan strategi-nya."
+    },
+    {
+      "start": 1410.36,
+      "end": 1415.36,
+      "text": "Seperti kalian sudah sepakat di bersama."
+    },
+    {
+      "start": 1415.36,
+      "end": 1418.36,
+      "text": "Seperti saya tadi dengan Tailwind dan CSS."
+    },
+    {
+      "start": 1418.36,
+      "end": 1421.36,
+      "text": "Sebenarnya Tailwind itu adalah abstraction dengan CSS murdi."
+    },
+    {
+      "start": 1421.36,
+      "end": 1423.36,
+      "text": "Yang CSS netik."
+    },
+    {
+      "start": 1423.36,
+      "end": 1429.36,
+      "text": "Sebenarnya kalau saya ketemu salah satu dari kalian yang benar-benar menjarik oleh CSS."
+    },
+    {
+      "start": 1429.36,
+      "end": 1433.36,
+      "text": "Pasti tidak setuju dengan saya katakan saya suka Tailwind."
+    },
+    {
+      "start": 1433.36,
+      "end": 1437.36,
+      "text": "Tapi dengan trade-off yang tadi saya katakan."
+    },
+    {
+      "start": 1437.36,
+      "end": 1448.36,
+      "text": "Jika daripada saya menuliskan CSS yang berantakan dan tidak optimal."
+    },
+    {
+      "start": 1448.36,
+      "end": 1451.36,
+      "text": "Dan jilinya rendering-nya jadi kacau."
+    },
+    {
+      "start": 1451.36,
+      "end": 1453.36,
+      "text": "Atau maintain ability-nya jadi susah."
+    },
+    {
+      "start": 1453.36,
+      "end": 1456.36,
+      "text": "Mending saya pakai Tailwind contohnya."
+    },
+    {
+      "start": 1456.36,
+      "end": 1459.36,
+      "text": "Tetapi bagi sebagian orang yang benar-benar jago CSS."
+    },
+    {
+      "start": 1459.36,
+      "end": 1461.36,
+      "text": "Justru itu Tailwind pakai Tailwind itu bloated."
+    },
+    {
+      "start": 1461.36,
+      "end": 1463.36,
+      "text": "Itu adalah perbandingan."
+    },
+    {
+      "start": 1463.36,
+      "end": 1466.36,
+      "text": "Jadi ada kemudahan dan kompleksitas."
+    },
+    {
+      "start": 1466.36,
+      "end": 1468.36,
+      "text": "Saya suka pakai SQL."
+    },
+    {
+      "start": 1468.36,
+      "end": 1473.36,
+      "text": "Saya langsung query performance."
+    },
+    {
+      "start": 1473.36,
+      "end": 1476.36,
+      "text": "Karena saya sudah paham hal tersebut."
+    },
+    {
+      "start": 1476.36,
+      "end": 1480.36,
+      "text": "Maka pakai ORM bagi saya justru mengganggu."
+    },
+    {
+      "start": 1480.36,
+      "end": 1486.36,
+      "text": "Karena apa yang mau saya lakukan harus memikirkan bagaimana calanya ORM itu mendapatkan data."
+    },
+    {
+      "start": 1486.36,
+      "end": 1490.36,
+      "text": "Jadi saya desain untuk tidak menggunakan ORM."
+    },
+    {
+      "start": 1490.36,
+      "end": 1498.36,
+      "text": "Dan itu kembali lagi trade-off yang kalian sepakati bersama saat kalian membangun aplikasi dengan tim-nya kalian."
+    },
+    {
+      "start": 1498.36,
+      "end": 1501.36,
+      "text": "Mana yang kalian gunakan dan mana yang tidak digunakan."
+    },
+    {
+      "start": 1501.36,
+      "end": 1505.36,
+      "text": "Dan kembali ke tim-nya."
+    },
+    {
+      "start": 1505.36,
+      "end": 1507.36,
+      "text": "Sedikit tambahan."
+    },
+    {
+      "start": 1507.36,
+      "end": 1509.36,
+      "text": "Saya tidak tahu di JavaScript, ORM dan JavaScript."
+    },
+    {
+      "start": 1509.36,
+      "end": 1513.36,
+      "text": "Ada tipe ORM yang eager routing, ada yang lazy routing."
+    },
+    {
+      "start": 1513.36,
+      "end": 1521.36,
+      "text": "Jadi kalau yang eager routing itu misalkan kita punya relasi antara artikel dan komen."
+    },
+    {
+      "start": 1521.36,
+      "end": 1531.36,
+      "text": "Ketika kita query misalkan comment.getall itu komen-komennya ikut juga sudah ada di arainya."
+    },
+    {
+      "start": 1531.36,
+      "end": 1537.36,
+      "text": "Jadi dia kayak query dua kali, query table article dan table comment."
+    },
+    {
+      "start": 1537.36,
+      "end": 1539.36,
+      "text": "Tapi itu yang eager routing."
+    },
+    {
+      "start": 1539.36,
+      "end": 1544.36,
+      "text": "Eager routing itu kayak belong semua. Ada itu butuh."
+    },
+    {
+      "start": 1544.36,
+      "end": 1546.36,
+      "text": "Kita cuma butuh artikel doang."
+    },
+    {
+      "start": 1546.36,
+      "end": 1550.36,
+      "text": "Ada yang tipe-nya lazy routing."
+    },
+    {
+      "start": 1550.36,
+      "end": 1557.36,
+      "text": "Jadi kalau kita tidak mendefinisikan bahwa kita butuh galop semua, maka dia akan load satu table aja."
+    },
+    {
+      "start": 1557.36,
+      "end": 1559.36,
+      "text": "Jadi teman-teman mungkin bisa cari. Mungkin ada aussie-nya."
+    },
+    {
+      "start": 1559.36,
+      "end": 1564.36,
+      "text": "Saya tidak tahu karena belum pengalaman pengendangkan juga terlalu dalam."
+    },
+    {
+      "start": 1564.36,
+      "end": 1568.36,
+      "text": "Mungkin ada aussie-nya untuk eager routing dan lazy routing itu juga salah satu solusi."
+    },
+    {
+      "start": 1568.36,
+      "end": 1573.36,
+      "text": "Saya jadi keringat salah satunya kayak REST-MPI versus GraphQL."
+    },
+    {
+      "start": 1573.36,
+      "end": 1577.36,
+      "text": "Di mana REST-MPI kita tanya satu."
+    },
+    {
+      "start": 1577.36,
+      "end": 1581.36,
+      "text": "Satu objek ini terus isinya semua satu abrak-abrak dikirim."
+    },
+    {
+      "start": 1581.36,
+      "end": 1585.36,
+      "text": "Ini kalau artikel dari title, badinya, segala macam."
+    },
+    {
+      "start": 1585.36,
+      "end": 1587.36,
+      "text": "Terus komen-nya dikirim semua. Terus sekaligus."
+    },
+    {
+      "start": 1587.36,
+      "end": 1590.36,
+      "text": "Jadi kita bangkat."
+    },
+    {
+      "start": 1590.36,
+      "end": 1593.36,
+      "text": "Tapi saat batch load mungkin tidak butuh komen."
+    },
+    {
+      "start": 1593.36,
+      "end": 1597.36,
+      "text": "Tapi di REST-MPI tidak bisa karena sudah dikirim satu abrak-abrak."
+    },
+    {
+      "start": 1597.36,
+      "end": 1602.36,
+      "text": "Sedangkan GraphQL adalah abstraction lagi, sama-sama dengan REST-MPI."
+    },
+    {
+      "start": 1602.36,
+      "end": 1605.36,
+      "text": "Yang bisa kita waiting."
+    },
+    {
+      "start": 1605.36,
+      "end": 1608.36,
+      "text": "Yang mana yang mau kita customize."
+    },
+    {
+      "start": 1608.36,
+      "end": 1610.36,
+      "text": "Mana field yang kita mau dapet."
+    },
+    {
+      "start": 1610.36,
+      "end": 1614.36,
+      "text": "Tapi untuk buat GraphQL, bukannya itu beda."
+    },
+    {
+      "start": 1614.36,
+      "end": 1617.36,
+      "text": "Teknologi, stack-nya lagi, server-nya lagi."
+    },
+    {
+      "start": 1617.36,
+      "end": 1620.36,
+      "text": "Ada write-off juga di sana."
+    },
+    {
+      "start": 1620.36,
+      "end": 1622.36,
+      "text": "Sehingga, biar kembali lagi."
+    },
+    {
+      "start": 1622.36,
+      "end": 1627.36,
+      "text": "Kalian itu diserahkan ke kalian untuk menghasilkan."
+    },
+    {
+      "start": 1627.36,
+      "end": 1630.36,
+      "text": "Disitulah letak seni."
+    },
+    {
+      "start": 1630.36,
+      "end": 1633.36,
+      "text": "Dan web developer itu pekerja seni."
+    },
+    {
+      "start": 1633.36,
+      "end": 1635.36,
+      "text": "Bukan pekerjaan."
+    },
+    {
+      "start": 1635.36,
+      "end": 1641.36,
+      "text": "Jawabannya umumnya adalah, kalau ditanya nanti gitu, jawabannya adalah it depends."
+    },
+    {
+      "start": 1641.36,
+      "end": 1647.36,
+      "text": "Kalau ada masalah-masalah seperti ini, kita tidak bisa digantikan dengan AI."
+    },
+    {
+      "start": 1647.36,
+      "end": 1652.36,
+      "text": "Kita tidak bisa digantikan dengan Tailwave, Debit, Prisma."
+    },
+    {
+      "start": 1652.36,
+      "end": 1655.36,
+      "text": "Pertanyaan berikutnya."
+    },
+    {
+      "start": 1655.36,
+      "end": 1662.36,
+      "text": "Bagaimana cara optimize face API Python dan deployment agak lebih cepat."
+    },
+    {
+      "start": 1662.36,
+      "end": 1665.36,
+      "text": "Rewrite keras."
+    },
+    {
+      "start": 1665.36,
+      "end": 1675.36,
+      "text": "Tapi face API ini sudah ada framework Python yang paling cepat saat ini."
+    },
+    {
+      "start": 1675.36,
+      "end": 1678.36,
+      "text": "Kenapa perlu dioptimase lagi ya?"
+    },
+    {
+      "start": 1678.36,
+      "end": 1680.36,
+      "text": "Saya bukan pengguna ya, jadi tidak tahu ya."
+    },
+    {
+      "start": 1680.36,
+      "end": 1682.36,
+      "text": "Cuma tahu sedikit-sedikit saja."
+    },
+    {
+      "start": 1682.36,
+      "end": 1685.36,
+      "text": "Ada masalah apa yang menyebabkan si face API ini jadi lambat?"
+    },
+    {
+      "start": 1685.36,
+      "end": 1686.36,
+      "text": "Saya tidak tahu."
+    },
+    {
+      "start": 1686.36,
+      "end": 1690.36,
+      "text": "Karena setahu saya, banyak pengguna Python justru menggunakan face API."
+    },
+    {
+      "start": 1690.36,
+      "end": 1693.36,
+      "text": "Salah satunya karena fast, cepat."
+    },
+    {
+      "start": 1693.36,
+      "end": 1696.36,
+      "text": "Kalau sudah tidak cepat, mungkin ada sedikit yang senang."
+    },
+    {
+      "start": 1696.36,
+      "end": 1700.36,
+      "text": "Apa salah nama?"
+    },
+    {
+      "start": 1700.36,
+      "end": 1702.36,
+      "text": "Mungkin dia slow."
+    },
+    {
+      "start": 1704.36,
+      "end": 1708.36,
+      "text": "Kita tidak bisa dioptimase sekarang ini karena kita bukan pengguna Python."
+    },
+    {
+      "start": 1708.36,
+      "end": 1712.36,
+      "text": "Kalau deployment juga indipensi juga ya."
+    },
+    {
+      "start": 1712.36,
+      "end": 1719.36,
+      "text": "Deploy-nya di mana, metode-nya seperti apa, apakah menggunakan Docker, Kubernetes, dan lain-lain."
+    },
+    {
+      "start": 1719.36,
+      "end": 1723.36,
+      "text": "Browser automation."
+    },
+    {
+      "start": 1723.36,
+      "end": 1725.36,
+      "text": "Tuduhannya kan untuk testing."
+    },
+    {
+      "start": 1725.36,
+      "end": 1730.36,
+      "text": "Tapi bagaimana jika automation browser itu digunakan untuk stranding?"
+    },
+    {
+      "start": 1730.36,
+      "end": 1731.36,
+      "text": "Boleh, boleh."
+    },
+    {
+      "start": 1731.36,
+      "end": 1735.36,
+      "text": "Browser automation, use case-nya banyak ya."
+    },
+    {
+      "start": 1735.36,
+      "end": 1737.36,
+      "text": "Tidak cuma untuk testing ya."
+    },
+    {
+      "start": 1737.36,
+      "end": 1739.36,
+      "text": "Bisa buat macam-macam."
+    },
+    {
+      "start": 1739.36,
+      "end": 1745.36,
+      "text": "Kalau saya boleh katakan, browser automation ini buat orang malas seperti saya."
+    },
+    {
+      "start": 1745.36,
+      "end": 1747.36,
+      "text": "Saya developer malas."
+    },
+    {
+      "start": 1747.36,
+      "end": 1752.36,
+      "text": "Jadi apa yang bisa saya automate, saya pakai browser automation."
+    },
+    {
+      "start": 1752.36,
+      "end": 1755.36,
+      "text": "Kalau di bahasa Inggris ini sebenarnya lazy."
+    },
+    {
+      "start": 1755.36,
+      "end": 1756.36,
+      "text": "Lazy."
+    },
+    {
+      "start": 1756.36,
+      "end": 1758.36,
+      "text": "Tapi bukan malas kan."
+    },
+    {
+      "start": 1758.36,
+      "end": 1760.36,
+      "text": "Malas itu apa?"
+    },
+    {
+      "start": 1760.36,
+      "end": 1770.36,
+      "text": "Contohnya, misalnya kalau ada kita sebelum deploy selalu nge-test dulu dari awal sampai akhir untuk make sure aplikasi intern berjalan dengan benar-benar."
+    },
+    {
+      "start": 1770.36,
+      "end": 1772.36,
+      "text": "Atau setelah kita refaktor."
+    },
+    {
+      "start": 1772.36,
+      "end": 1776.36,
+      "text": "Browser automation bisa digunakan begitu."
+    },
+    {
+      "start": 1776.36,
+      "end": 1778.36,
+      "text": "Bisa juga buat scraping data."
+    },
+    {
+      "start": 1778.36,
+      "end": 1788.36,
+      "text": "Contohnya, kalau misalnya saya mau, salah satu case, saya mau ngumpulin artikel yang ingin saya baca setiap hari."
+    },
+    {
+      "start": 1788.36,
+      "end": 1792.36,
+      "text": "Saya biasanya pakai kompetir, set up set up."
+    },
+    {
+      "start": 1792.36,
+      "end": 1796.36,
+      "text": "Dan dia jalan ke situs-situs berita yang saya suka."
+    },
+    {
+      "start": 1796.36,
+      "end": 1799.36,
+      "text": "Dan ambil taggingan berdasarkan tag."
+    },
+    {
+      "start": 1799.36,
+      "end": 1804.36,
+      "text": "Saya ambil beritanya, saya ambil artikelnya, saya kumpulkan ke satu tempat."
+    },
+    {
+      "start": 1804.36,
+      "end": 1809.36,
+      "text": "Dan saya summarize pakai AI untuk saya tahu berita apa yang berjadik di hari itu."
+    },
+    {
+      "start": 1809.36,
+      "end": 1811.36,
+      "text": "Itu bisa."
+    },
+    {
+      "start": 1811.36,
+      "end": 1824.36,
+      "text": "Dan bisa saja, karena saya automate, bukan untuk, kan ujungnya kalau yang salah adalah mengambil dan atau hitus."
+    },
+    {
+      "start": 1824.36,
+      "end": 1825.36,
+      "text": "Ya bukan haknya ya."
+    },
+    {
+      "start": 1825.36,
+      "end": 1829.36,
+      "text": "Atau misalnya tools itu adalah hanya sebuah tools."
+    },
+    {
+      "start": 1829.36,
+      "end": 1834.36,
+      "text": "Mau dipakai hal yang baik, mau dipakai tidak hal yang baik, persalahan lah."
+    },
+    {
+      "start": 1834.36,
+      "end": 1839.36,
+      "text": "Jadi sama seperti misal itu adalah tools."
+    },
+    {
+      "start": 1839.36,
+      "end": 1842.36,
+      "text": "Browser automation adalah tools."
+    },
+    {
+      "start": 1842.36,
+      "end": 1848.36,
+      "text": "Scrapping, tidak apa-apa sebenarnya, dengan tujuannya."
+    },
+    {
+      "start": 1848.36,
+      "end": 1852.36,
+      "text": "Jadi gampangnya cara kita mikir browser automation."
+    },
+    {
+      "start": 1852.36,
+      "end": 1859.36,
+      "text": "Apapun yang bisa kita atau user biasa lakukan dengan browser, ya bisa dilakukan oleh browser automation."
+    },
+    {
+      "start": 1859.36,
+      "end": 1866.36,
+      "text": "Tapi memudahkan karena di delegasikan ke sistem atau program yang kita buat."
+    },
+    {
+      "start": 1866.36,
+      "end": 1872.36,
+      "text": "Kita sebagai user kan bisa-bisa saja kita cari info, kita refresh atau kita buka banyak halaman."
+    },
+    {
+      "start": 1872.36,
+      "end": 1873.36,
+      "text": "Itu kan behavior normal."
+    },
+    {
+      "start": 1873.36,
+      "end": 1877.36,
+      "text": "Kalau memang datanya tersedia secara public, ya boleh-boleh saja."
+    },
+    {
+      "start": 1877.36,
+      "end": 1885.36,
+      "text": "Tapi misalnya kita membuka halaman website dengan refresh yang tidak wajar atau dengan frekuensi yang tidak wajar."
+    },
+    {
+      "start": 1885.36,
+      "end": 1890.36,
+      "text": "Ya itu dianggap salah oleh si pemilik website, bakal terkena rate limit."
+    },
+    {
+      "start": 1890.36,
+      "end": 1896.36,
+      "text": "Misalnya itu kan tanggung jawabnya yang bikin website untuk menge-enforce itu dan behavior."
+    },
+    {
+      "start": 1896.36,
+      "end": 1903.36,
+      "text": "Atau hasil yang kita terima baik kita membuka sebagai user biasa secara manual, maupun pakai browser automation kan sama saja."
+    },
+    {
+      "start": 1903.36,
+      "end": 1908.36,
+      "text": "Atau misalnya kita berusaha mengakses resource yang kita tidak punya hak untuk akses."
+    },
+    {
+      "start": 1908.36,
+      "end": 1913.36,
+      "text": "Ya kan bakal ada error not authorized juga, jadi nggak masalah."
+    },
+    {
+      "start": 1914.36,
+      "end": 1921.36,
+      "text": "Oke, pertanyaan berikutnya, bagaimana Chrome Lin dalam inklopitas ATML dan dapat kolomerasi dengan browser lain?"
+    },
+    {
+      "start": 1921.36,
+      "end": 1925.36,
+      "text": "Lalu bagaimana cara dianggap konsumsi ATML dan VPI?"
+    },
+    {
+      "start": 1925.36,
+      "end": 1929.36,
+      "text": "Ini internal browser ya, yang sama browser gitu ya."
+    },
+    {
+      "start": 1929.36,
+      "end": 1934.36,
+      "text": "Chrome, Timebox, Safari, dan sama-sama."
+    },
+    {
+      "start": 1934.36,
+      "end": 1936.36,
+      "text": "With 3GC ya?"
+    },
+    {
+      "start": 1936.36,
+      "end": 1940.36,
+      "text": "Intro, bukan. With all this."
+    },
+    {
+      "start": 1940.36,
+      "end": 1950.36,
+      "text": "Jadi sebetulnya semua teknologi web, ATML, CSS, terus JavaScript, tapi yang web API, jadi JavaScript yang berjalan di browser."
+    },
+    {
+      "start": 1950.36,
+      "end": 1958.36,
+      "text": "Itu bukan milik satu perusahaan manapun, baik itu Chrome, atau Apple, atau Firefox, atau siapapun."
+    },
+    {
+      "start": 1958.36,
+      "end": 1963.36,
+      "text": "Jadi itu berdasarkan sebuah spesifikasi teknis."
+    },
+    {
+      "start": 1963.36,
+      "end": 1967.36,
+      "text": "Nah, yang bikin spesifikasi teknis itu konsorsium."
+    },
+    {
+      "start": 1967.36,
+      "end": 1973.36,
+      "text": "Konsorsium itu ya anggota-anggotanya adalah orang-orang dari browser-browser tersebut."
+    },
+    {
+      "start": 1973.36,
+      "end": 1984.36,
+      "text": "Terus bisa juga terbuka untuk komunitas atau misalnya expert di luar perusahaan browser tersebut."
+    },
+    {
+      "start": 1984.36,
+      "end": 1989.36,
+      "text": "Jadi nggak harus semua yang di konsorsium itu kerja untuk Google atau Apple dan lain-lain."
+    },
+    {
+      "start": 1989.36,
+      "end": 1992.36,
+      "text": "Jadi itu ditentukan bersama jauh banyak."
+    },
+    {
+      "start": 1992.36,
+      "end": 1999.36,
+      "text": "Nah, berdasarkan spesifikasi teknis itu, masing-masing mengimplementasikan di browser-nya."
+    },
+    {
+      "start": 1999.36,
+      "end": 2001.36,
+      "text": "Kayak misalnya kalau Chrome itu kan dari Chromium ya."
+    },
+    {
+      "start": 2001.36,
+      "end": 2010.36,
+      "text": "Nah, mereka menafsirkan spesifikasi teknis, misalnya HTML kalau button itu harus dirender seperti apa, cara kerjanya gimana."
+    },
+    {
+      "start": 2010.36,
+      "end": 2016.36,
+      "text": "Nah, implementasinya, kayak codingan benerannya, codingan dalam bahasa C++,"
+    },
+    {
+      "start": 2016.36,
+      "end": 2022.36,
+      "text": "ya diserahkan pada masing-masing. Misalnya kalau orang Chrome bikinnya engine Chromium."
+    },
+    {
+      "start": 2022.36,
+      "end": 2030.36,
+      "text": "Terus Apple juga punya WebKit, Firefox, Spiderman, Gekko."
+    },
+    {
+      "start": 2030.36,
+      "end": 2034.36,
+      "text": "Jadi itu interpretasi mereka masing-masing."
+    },
+    {
+      "start": 2034.36,
+      "end": 2039.36,
+      "text": "Terus kalau yang pertanyaan kedua, \"Eh, nggak keren-keren sih HTML dengan apa?\""
+    },
+    {
+      "start": 2039.36,
+      "end": 2047.36,
+      "text": "Maksudnya, konsistensi rendering HTML antar satu browser ke satu browser lainnya, yang tadi ya."
+    },
+    {
+      "start": 2047.36,
+      "end": 2049.36,
+      "text": "Pertanyaan kedua ya?"
+    },
+    {
+      "start": 2049.36,
+      "end": 2055.36,
+      "text": "Konsistensi HTML di-render antar satu browser ke satu browser lainnya."
+    },
+    {
+      "start": 2055.36,
+      "end": 2057.36,
+      "text": "Ya, tadi spesifikasi."
+    },
+    {
+      "start": 2057.36,
+      "end": 2064.36,
+      "text": "Jadi sebelum sebuah type HTML misalnya diimplementasi di satu browser atau di banyak browser,"
+    },
+    {
+      "start": 2064.36,
+      "end": 2073.36,
+      "text": "itu yang propose, yang mengajukan itu wajib menulis dokumen namanya spesifikasi atau seperti requirement."
+    },
+    {
+      "start": 2073.36,
+      "end": 2082.36,
+      "text": "Ini adalah type marking, tujuannya untuk supaya ada rolling text dibawah atau gimana."
+    },
+    {
+      "start": 2082.36,
+      "end": 2086.36,
+      "text": "Cara kerjanya seperti ini, seperti ini, implementasinya nggak ditulis."
+    },
+    {
+      "start": 2086.36,
+      "end": 2093.36,
+      "text": "Jadi masing-masing browser, baik itu Firefox, Chromium, WebKit dll."
+    },
+    {
+      "start": 2093.36,
+      "end": 2095.36,
+      "text": "Melakukan implementasi masing-masing."
+    },
+    {
+      "start": 2095.36,
+      "end": 2096.36,
+      "text": "Begitu juga dengan JavaScript."
+    },
+    {
+      "start": 2096.36,
+      "end": 2102.36,
+      "text": "Jadi masing-masing browser itu JavaScript-nya, implementasi JavaScript ini bisa beda-beda."
+    },
+    {
+      "start": 2102.36,
+      "end": 2112.36,
+      "text": "Makanya kalau teman-teman yang berada di backend, di backend itu ada Node.js yang menggunakan engine yang crow namanya V8 atau EA."
+    },
+    {
+      "start": 2112.36,
+      "end": 2116.36,
+      "text": "Kemudian muncul Deno juga menggunakan VA."
+    },
+    {
+      "start": 2116.36,
+      "end": 2124.36,
+      "text": "Kemudian muncul Boon yang menggunakan JavaScript or yang ada di WebKit atau Safari."
+    },
+    {
+      "start": 2124.36,
+      "end": 2125.36,
+      "text": "Kok bisa lebih cepat Boon?"
+    },
+    {
+      "start": 2125.36,
+      "end": 2130.36,
+      "text": "Bisa lebih cepat Boon."
+    },
+    {
+      "start": 2130.36,
+      "end": 2136.36,
+      "text": "Bisa lebih cepat karena itu, implementasi JavaScript-nya di Safari itu berbeda."
+    },
+    {
+      "start": 2136.36,
+      "end": 2140.36,
+      "text": "Makanya, kenapa cepatannya yang ini daripada, karena engine-nya beda."
+    },
+    {
+      "start": 2140.36,
+      "end": 2148.36,
+      "text": "Bisa kaya mobil aja lah, mobil yang engine-nya ini sama yang ini diadu, ya mungkin ada satu lebih cepat, yang satu lebih tanggung misalkan."
+    },
+    {
+      "start": 2148.36,
+      "end": 2150.36,
+      "text": "Yang gampang rusak atau minggu."
+    },
+    {
+      "start": 2150.36,
+      "end": 2156.36,
+      "text": "Jadi spesifikasinya, requirement-nya sama, tapi hasil berbeda-beda."
+    },
+    {
+      "start": 2156.36,
+      "end": 2161.36,
+      "text": "Terus antar, sekarang sudah ada inisiatif yang namanya Interop."
+    },
+    {
+      "start": 2161.36,
+      "end": 2163.36,
+      "text": "Pahit-pahit."
+    },
+    {
+      "start": 2163.36,
+      "end": 2173.36,
+      "text": "Interop itu inisiatif buat men-streamline-kan, jadi kan spesifikasi makin lama makin banyak, makin rumit case-nya banyak."
+    },
+    {
+      "start": 2173.36,
+      "end": 2177.36,
+      "text": "Nah gimana, padahal masing-masing browser tadi gue dengannya juga beda."
+    },
+    {
+      "start": 2177.36,
+      "end": 2183.36,
+      "text": "Gimana nyamain, pakai test driven, sebenarnya test driven development sih."
+    },
+    {
+      "start": 2183.36,
+      "end": 2190.36,
+      "text": "Jadi ada yang namanya web platform test, kalau misalnya tertarik bisa buka webpt.fyi."
+    },
+    {
+      "start": 2190.36,
+      "end": 2194.36,
+      "text": "Nah itu ada test case, banyak banget, ratusan bahkan dibuat."
+    },
+    {
+      "start": 2194.36,
+      "end": 2200.36,
+      "text": "Tadi sempat ditunjukin juga ya sama Ivan, yang ada Chrome, Firefox, Safari."
+    },
+    {
+      "start": 2200.36,
+      "end": 2206.36,
+      "text": "Jadi semua spesifikasi tersebut dibuat, test case-nya, assertion-nya, detail banget."
+    },
+    {
+      "start": 2206.36,
+      "end": 2210.36,
+      "text": "Bahkan sesimpel media query, misalnya di resize, jadinya gimana."
+    },
+    {
+      "start": 2210.36,
+      "end": 2214.36,
+      "text": "Jadi itu semua murni HTML, CSS, JavaScript."
+    },
+    {
+      "start": 2214.36,
+      "end": 2221.36,
+      "text": "Nah gimana cara memastikan masing-masing browser, behavior-nya konsisten, ya pakai test case itu."
+    },
+    {
+      "start": 2221.36,
+      "end": 2229.36,
+      "text": "Jadi mereka yang diluningkan bukan implementasi kode-kode browser masing-masing, tapi test case itu."
+    },
+    {
+      "start": 2229.36,
+      "end": 2236.36,
+      "text": "Test-nya behavior-nya begini ya, jadi kalau misalnya udah passing, berarti konsisten."
+    },
+    {
+      "start": 2236.36,
+      "end": 2240.36,
+      "text": "Oke, berhubung, waktunya sudah habis, kita tutup aja."
+    },
+    {
+      "start": 2240.36,
+      "end": 2244.36,
+      "text": "Maaf-maaf tidak bisa menjawab semua pertanyaan, temen-temen mungkin masih banyak."
+    },
+    {
+      "start": 2244.36,
+      "end": 2250.36,
+      "text": "Nanti kita akan ambil ini dan mudah-mudahan nanti kita akan jawab di silisi online kita."
+    },
+    {
+      "start": 2250.36,
+      "end": 2256.36,
+      "text": "Jadi dari kita bertiga pangin, sampai bertemu lagi di hari Selasa malam."
+    },
+    {
+      "start": 2256.36,
+      "end": 2260.36,
+      "text": "Waktunya kita berbualin web."
+    },
+    {
+      "start": 2260.36,
+      "end": 2262.36,
+      "text": "Terima kasih semua."
+    }
+  ],
+  "fullText": "Oke, halo teman-teman semuanya, ketemu lagi di tan, meskipun hari ini, bukan selasa malam, tapi kita sempatkan untuk ngobrolin lagi. Di sini ada yang suka nonton gak sih, penasaran, berapa orang suka nonton? Banyak loh, terima kasih ya. Jadi, buat teman-teman yang mungkin belum familiar, kita tuh biasanya live setiap selasa malam, jam 8 waktu misio badan, kita ngobrolin segala hal tentang web, alasannya kenapa? Karena salah satunya adalah, kita sering bingung kalau diminta untuk jadi pemijara seperti ini, mau ngobrolin nombor apa? Karena web itu kan besarnya, ada tadi web UI, CSS, ada ML, ada JavaScript dengan berbagai framework-nya, ada back-end juga, ada apa lagi ya? Ada accessibility, ada performance, banyak sekali, security, jadi karena kita bingung akhirnya kita bilang, akhirnya ada AI. Web AI ya, dan karena kita bingung akhirnya kita coba ngobrolin aja seminggu sekali, akhirnya yaudah kita live. Jadi kalau teman-teman yang belum join, bisa selasa depan join di youtube saya, youtube.blogspot.com/zapahni, silahkan subscribe aja biar ada notifikasinya. Oke, jadi ini adalah edisi kedua dari ngobrolin web versi offline, yang biasanya kita live streaming, sekarang kita offline khusus untuk menghadiri teman-teman di Surabaya. Sebelumnya kita edisi pertama itu di Bogor ya, sekarang di Surabaya, jadi kita akan mencoba menjawab pertanyaan-pertanyaan yang sudah teman-teman sampaikan melalui slibro. Dan kalau sudah ada pertanyaan yang sama, tinggal di input aja biar main nampas. Oke, kita mulai, oh nggak kelihatan disini, kita mau jauh ke mana dulu? Kapan kita menggunakan ROM atau Real User Monitoring/Google Analytics? Kapan kita menggunakan ROM atau Real User Monitoring/Google Analytics? Ini saya sering menggunakan ROM, kalau di projek-projek saya banyak menggunakan dari New Relic, saya menggunakan ROM ini untuk mendeteksi adanya portal error, error-error yang lain dari Sunpage Load, dan juga dari World Performance atau Core Web Vitals, bisa di-setting juga di New Relic. Sedangkan kalau dari sisi Google Analytics, biasanya saya mendeteksi device apa yang digunakan kebanyakan oleh user, juga bounce rate, dan kemudian page apa yang paling sering di-visit, dan juga part-nya mereka, user joining-nya mereka, kadang bisa dideteksi dari, kalau misalnya web-nya ada transasional, di-detek dari, minta jaringnya si itu ya Aida? Minta jaring, minta jaringnya. Terus kemudian kalau dari Google Analytics biasa mengecek traffic, base, atau user behavior lah. Kalau dari New Relic lebih ke arah technical data yang perlu saya dapatkan, seperti yang saya sudah sebut tadi, performance. Saya ingin bertanya tentang web-pre, mohon maaf kalau web-pre kita belum ada yang mampu menjawab, tapi ini ide yang bagus, balik banget. Ini kita ambil dulu, nanti kita bisa cari nara sumber yang lebih kompeten ya, untuk topic web-pre, nanti mudah-mudahan bisa dibahas di Google, nanti ada kemudian yang sesi hari Selasa malamnya. Nanti lagi port aja, nanti kita dapat nanti ya. Saya ingin berbicara dengan N, cari port N, apa-apa, tidak ada lagi. Kalau vzroot, kita kasih portnya kata-kata ya, coba aja vzroot, misalnya kita minta buat login port, vzroot bisa tuh langsung buatin semua. Tapi ya itu tadi, ada hal-hal yang perlu diperhatikan, tetap perlu front-end atau full-stack sih. Jadi secara komponen, emang akan di generate input, button, jadi kalau dari segi, mungkin lebih ke visual desainnya, kita males, bahkan aku punya yang front-end-nya, males pikir sisi visualnya, tapi fungsionalitas front-end itu kan bukan cuma tampilan visual, tapi banyak faktor fungsionalitas. Misalnya input, ada validasinya required atau enggak, terus misalnya validasinya formatnya harus seperti apa, terus kalau misalnya input itu error, itu kan berkaitan dengan state form-nya sendiri, misalnya biar di-submit aja, terus nanti dibalikin error, atau jangan biarkan user men-submit form itu, misalnya button-nya tetap disable sampai semua validasinya sudah betul. Kan sebetulnya banyak faktor-faktor non-visual dari suatu UI front-end, jadi walaupun, ya bisa prompting, itu kan bisa ditambah dengan prompting tadi, misalnya pakai code chat, misalnya pakai Gemini di IDX atau Popilot dan lain-lain, tapi kita tetap harus tahu prompting hal-hal apa yang perlu diperhatikan dari suatu UI. Jadi kalau males lurusin front-end itu, ya tetap minimal enggak males prompting dengan teknik-teknik atau prinsip-prinsip front-end yang ada. Vigma sudah bisa AI, tinggal prompting, ya potila AI. Alternatif lain mungkin kalau nanti front-end bisa hire developer yang males suka front-end, ya? Ini dia negasi, ya? Saya back-end, murni, saya nggak suka front-end. - Panggilin Haider. - Haider, jangan jadi lagu. - Solution lain, saya suka Terwin. - Oh. - Siapa sinyalah Terwin? - Lu. Mantap, kita sahabat. Ya, saya pakai Terwin dan saya suka pakai Terwin dan saya support Terwin karena dari sisi build tools-nya, kalau pakai Terwin itu saya build utility-utility atau CSS yang tak terbatai. - Bagaimana bisa muncul? - Oh gitu, mantap. Utility-utility yang nggak dibutuhkan juga bisa di-remove dari Terwin-nya. Jadi saya back-end dan saya pakai full dengan Terwin. Jadi terpantung, oh iya, dari sisi Figma atau kalau dari Figma saya generate code-out V0 juga, dia bisa generate-nya pakai Terwin, ya? - Bisa. Terwin, ya. - Ya, Terwin, ya. - Dan Next. - Atau React. Jadi, ya, ke depannya, sebagainya. Mempermudahin saya, ya. Jadi front-end itu bukan cuma visual, cara pedingat, emang kalau Terwin sih, ya, Terwin itu sangat mempermudah. Tapi ya itu fungsionalitas, kapan suatu komponen perlu di-load, kapan nggak. Terus action-action-nya, misalnya event listener-nya, on-input gimana, on-click gimana, event handler-nya apa. Terus biasanya ada state-state-nya, UI-state-nya gimana. Nah, itu perlu dipikirin atau prompting atau delegasi ke developer lain. Seperti informasi juga, saya juga back-end dan pada saat itu saya disusah jepaskrim. Tapi waktu itu jamannya diquery ya, jepaskrim vanilla diquery. Terus sekarang kerjaannya jepaskrim. Gimana dong? Jadi karma, ya. Jadi kalau gak susah, ya itu, satu delegasi, kedua, kenapa? Kalo gak suka dia, mungkin ada sesuatu yang problem. Ya, karena jepaskrimnya saya suka. Tapi kalau CSS-nya itu, iya, mungkin bukan. Skin issue, ya. Yang itu. Apalagi menurut saya, terumahnya adalah dapet desainernya itu bukan desainer web. Jadi dapet desainernya itu desainer yang khusus untuk grafik banner yang di... Grafik desainer ya? Ya, grafik desainer. Kasihnya PNG gitu ya? Kalo foto Shopeye. Tapi ya itu motot gitu, maunya lengkungannya itu seperti itu. Oh iya, bahkan ini harus absolu gitu ya? Iya. Jadi hidup saya tuh habis aja, geser-geser satu mixer, satu mixer. Akhirnya ya, akhirnya position absolu semua saya. Itu important? Important. Itu akhirnya, karena saya udah terlalu cekin, ini gimana sih momen kita bisa persis disitu? Itu balik lagi, antara grafik desainernya yang salah, apasanya yang skill issue saya tak tahu. Makanya jadi terlalu banget dengan CSS-nya, sudah lah saya tinggalkan saja. Dan saya berali ke back-end dan jawab masing-masing. Jadi sekarang coba kita jadi pelan-pelan, kita tahu semakin lama semakin cinta, nanti kita jadi front-end melayang. Kalo saya sekarang, justru kalo di Tailwind gak bisa, mati setengah desainernya. Desainernya yang selalu belajar Tailwind. Desainernya belajar Tailwind, ini loh, ini loh, positioning dan layout itu seperti yang ada di Tailwind. Dan ikutin itu. Kalo buat anak non-end juga bisa manfaatin Tailwind buat menginakan temen-temen ke back-end dan full stack kalian. Caranya, Tailwind kan bisa custom config to custom token, custom config. Gimana caranya, tag token sama desainer grafisnya, token. Paksain harus pake yang namanya desain token sekalian mengidotasi biar gak kayak desainernya yang tadi. Terus kalau misalnya kalo di halaman A fontnya kurang 14, di halaman B tiba-tiba item yang harusnya sama tiba-tiba beda dikit. Kita ngomong edukasi aja, mungkin lalu mungkin gak, cuma biasanya kalo timnya gak toksiksian, kan lebih kebaikan juga. Jadi kita enforce yang namanya desain token, desain token itu bisa dimasukkan ke custom Tailwind config. Custom Tailwind config itu bisa dipakai dari berbagai project apapun, Vanilla JavaScript, Power React. Itu kan mempermudah teman stream kita untuk menggunakan yang gak bisa CSS. Ya udah gak usah banyak mikir, pake yang udah ada. Terus kan udah terbantu juga dengan di Viscode juga ada perang Intel Wind-nya ya. Jadi udah ada auto-fill dengan semua settingan token yang sudah kita bukut. Pertanyaan berikutnya, bagaimana cara memoptimalkan performa aplikasi web modern dengan banyak perparti libraries? Ini perhubunganan corporate portal. Biasanya begini ceritanya, webnya sudah saya atau sudah kita develop dengan sangat indah, cepat dan bagus. Tetapi dirusak oleh tim marketing dengan GTA. Ada yang pernah relate, GTN kita tambahin. Terus tim marketing semana-mana menambahkan koden dari mana pun yang mereka mau. Ceplokin, terus deploy, terus akhirnya website jadi rusak. Itu paling selim. Yang biasa yang disalahin, kita. Terus kita dianakan sana. Ini kalau kita matikan GTN cepat kok. Tapi kita kembali. Memoptimalkan performa aplikasi web modern dengan banyak perparti di perangkat dan spesifikasi rendah. Oke. Yang pertama kita harus saat kalian bisa baca yang namanya critical rendering path. Ada satu bacaan, nanti kalian bisa cari di Google. Udah lama banget, itu dari Google, dari web.dev. Critical rendering path. Jadi kalian mau ngerti bagaimana saat browser melakukan initial page load dan melakukan rendering. Ada random blocker, ada random block seperti CSS, On, itu random blocking. Artinya jika value itu belum didapatkan, maka process rendering stop sampai value itu selesai didapat. Dan ada cara untuk optimalisasi. Nah kembali ke third party. Kita harus memiliki mana third party yang dibutuhkan di awal rendering dan mana third party yang tidak perlu di awal. Jadi semua third party yang tidak butuh di awal page load, di-defer aja ke belakang. Artinya setelah page load selesai, dia baru random. Contohnya adalah command system. Jika kalian punya, anggap aja pada situs berita. Lalu kemudian ada command system. Command system-nya zaman dulu itu sempat ada yang namanya Discuss. Kalau kita pikirkan, command system itu kan ada di bawah banget ya di article. Arti kalau bahasa text-nya below the fold. Dan tidak perlu di-render paling awal. Terakhir-terakhir aja ya? Terakhir, itu udah. Jadi strateginya adalah bisa menggunakan intersection observer. Jika user-nya scroll sampai mungkin 200 pixel sebelum element itu muncul, baru CSS-nya di-load. Contohnya seperti itu. Itu untuk command. Ada mungkin ya paling sering ads lah ya, paling susah ads. Kalau CSS sudah muncul di awal-awal ya harus tetap harus di, misalnya header bidding lah contohnya. Itu memang harus di-load di awal. Namun, kembali lagi ke si percakapan kalian dengan si client atau stakeholder. Mereka bilang-bilang mana yang butuh di awal, mana yang butuh di akhir. Dan mana yang benar-benar butuh benar-benar di awal banget. Jadi ngomongnya soal kalau di bahasa saya itu, diet. Jadi wealth-nya diet. Mana yang benar-benar buruk. Bahkan fault, fault itu gak semua butuh di awal. Fault itu ada yang bisa di-swap, ada yang bisa di-mundurin. Gak semua butuh di awal. CSS juga gak semua butuh di awal. CSS itu bisa asynchronous load, bisa ditunda. CSS itu bisa ditunda. Jadi hanya butuh yang above the fault aja yang kalian, atau critical CSS bahasa kerennya. Critical CSS-nya aja di-load di atas, sisanya ditunda. Sehingga ujung-ujungnya core web-writer-nya kalian bagus, score-nya. Artinya, LCP-nya, Large Spontane Full-Penya bisa bagus. Terus kemudian kalian harus bisa memahami yang mana supaya dia terjadi layout shift. Dan memahami bagaimana supaya saya score yang mana yang perlu di-load atau tidak. Sehingga tetap memperhatikan INP-nya. Jadi semoga menjawabnya untuk soal tepati. Kalian nama-nama aja. Cukup-cukup. Terima kasih. Oke. Banyak orang yang belum tahu ya dynamic import itu udah bisa di JavaScript Vanilla. Jadi kalau kita pakai framework seperti React atau Svelte atau Vue kan. Memang sudah bisa import dynamically untuk lazy loading tadi. Tapi sebetulnya itu fitur yang sudah masuk standar ES6 kalau gak salah. Ya dari 2020-2021. Jadi apapun teknologi yang digunakan. Ya bisa menggunakan lazy load seperti yang tadi disebut Divan. Oke. Pertanyaan berikutnya. Bagaimana? Eh udah kena. Tips. Apa rodent gods menggunakan core M seperti Krisma atau Sycolas dengan query data list secara langsung? Yang pertama, pro-nya adalah kemudahan mudah. Temen-temen diberikan API untuk lebar query, database, join dan operasi-operasi line and insert, update, dll. Itu kemudahan yang di dapat. Developer experience-nya enak gitu. Cause-nya adalah belum tentu semua. Kan si ORM ini adalah translator ya. Translator ke database. Ngomong ke database, ke SQL. Line joins-nya kan. Structure, query, and joins. Nah, kalau yang misalkan kita udah mulai kompleks aplikasinya atau query-nya udah mulai kompleks, joins sana, joins sini. Bisa jadi query yang dihasilkan oleh ORM ini bisa jadi kurang optimal. Kurang efektif, kurang optimal. Karena mungkin dia select-nya select bintang misalkan. Join-nya juga mungkin full join. Ya, ini import-bole aja gitu kan. Jadi kurang optimal. Dan itu yang bukan, menggunakan ORM itu tidak sepenuhnya salah. Tapi ada case-paster. Kalau misalnya kok ini lambat ya? Kita kan bisa lihat log-nya, misalkan ada print query-nya. Nah, dari itu kita bisa optimize. Atau kalau di RDBMS itu biasanya ada explain. Explain, query, query kita paste aja. Terus kita lihat tuh apa yang terjadi. Dan dari situ kayak debug lah. Ada bottleneck dimana. Nah, ini yang diperbaiki. Mungkin itu bisa kita copy paste ke, saya yakin semua ORM ada execution langsung STL role kan. Jadi kita bisa ambil si query yang sudah dioptimize. Bisa tanyakan AI juga, tolong optimize gitu ya. Hasilnya udah bagus. Kita coba dilarangin di database. Yang ada di database production ya, di database development. Tidakan antara query yang pertama berapa mili detik millisecond. Query yang optimize berapa millisecond. Ada perubahannya enggak? Kalau ada copy paste, jalankan query-nya secara raw di ORM juga. Di frontend, ada tailwind buat orang-orang yang nggak bisa atau males tulis CSS. Tapi kan sebetulnya ya overall positif ya. Jadi ya itu kayak kebalikannya tailwind lah. Dengan adanya Prisma atau Syqlize, kalau misalnya gue nggak bisa, nggak bisa paste command langsung. Minimal bisa prototyping. Atau bisa bikin aplikasi truth simple, ya bisa lah langsung cepat. Langsung ada type script definition-nya. Cus, tinggal pakai AI auto-optim, udah kelar. Cuma kan itu tadi kalau use case-nya udah mulai rumir. Terus performance concern, ya itu harus consult sama yang memang paham. Dan itu kayaknya use case AI yang bagus deh buat bikin contoh-contoh SPL-nya. Terus bikin perbandingannya. Terus suruh ngelog berapa detik compare masing-masing. Itu kan kita bisa minta tolong AI juga. Kalau dari saya cost and cost kembali dalam konteks kemudahan berbanding dengan kompleksitas. Jadi dengan menggunakan ORM, kemudahan yang didapatkan. Tapi di dalamnya kompleks yang tinggi. Jadi, ORM itu sebenarnya abstraction. Satu layer ini adalah SKL query yang kalian lakukan. Ada abstraction layer-nya. Jadi, semakin banyak abstraction, semakin kompleks mengaturnya. Bagaimana caching-nya, bagaimana optimized query-nya. Semakin banyak abstraction, semakin kompleks untuk mengaturnya. Jadi, ada trade-off-nya di situ. Kalau dalam membangun sebuah aplikasi, kalian kalau mengaktif dengan trade-off itu ya silahkan melakukan strategi-nya. Seperti kalian sudah sepakat di bersama. Seperti saya tadi dengan Tailwind dan CSS. Sebenarnya Tailwind itu adalah abstraction dengan CSS murdi. Yang CSS netik. Sebenarnya kalau saya ketemu salah satu dari kalian yang benar-benar menjarik oleh CSS. Pasti tidak setuju dengan saya katakan saya suka Tailwind. Tapi dengan trade-off yang tadi saya katakan. Jika daripada saya menuliskan CSS yang berantakan dan tidak optimal. Dan jilinya rendering-nya jadi kacau. Atau maintain ability-nya jadi susah. Mending saya pakai Tailwind contohnya. Tetapi bagi sebagian orang yang benar-benar jago CSS. Justru itu Tailwind pakai Tailwind itu bloated. Itu adalah perbandingan. Jadi ada kemudahan dan kompleksitas. Saya suka pakai SQL. Saya langsung query performance. Karena saya sudah paham hal tersebut. Maka pakai ORM bagi saya justru mengganggu. Karena apa yang mau saya lakukan harus memikirkan bagaimana calanya ORM itu mendapatkan data. Jadi saya desain untuk tidak menggunakan ORM. Dan itu kembali lagi trade-off yang kalian sepakati bersama saat kalian membangun aplikasi dengan tim-nya kalian. Mana yang kalian gunakan dan mana yang tidak digunakan. Dan kembali ke tim-nya. Sedikit tambahan. Saya tidak tahu di JavaScript, ORM dan JavaScript. Ada tipe ORM yang eager routing, ada yang lazy routing. Jadi kalau yang eager routing itu misalkan kita punya relasi antara artikel dan komen. Ketika kita query misalkan comment.getall itu komen-komennya ikut juga sudah ada di arainya. Jadi dia kayak query dua kali, query table article dan table comment. Tapi itu yang eager routing. Eager routing itu kayak belong semua. Ada itu butuh. Kita cuma butuh artikel doang. Ada yang tipe-nya lazy routing. Jadi kalau kita tidak mendefinisikan bahwa kita butuh galop semua, maka dia akan load satu table aja. Jadi teman-teman mungkin bisa cari. Mungkin ada aussie-nya. Saya tidak tahu karena belum pengalaman pengendangkan juga terlalu dalam. Mungkin ada aussie-nya untuk eager routing dan lazy routing itu juga salah satu solusi. Saya jadi keringat salah satunya kayak REST-MPI versus GraphQL. Di mana REST-MPI kita tanya satu. Satu objek ini terus isinya semua satu abrak-abrak dikirim. Ini kalau artikel dari title, badinya, segala macam. Terus komen-nya dikirim semua. Terus sekaligus. Jadi kita bangkat. Tapi saat batch load mungkin tidak butuh komen. Tapi di REST-MPI tidak bisa karena sudah dikirim satu abrak-abrak. Sedangkan GraphQL adalah abstraction lagi, sama-sama dengan REST-MPI. Yang bisa kita waiting. Yang mana yang mau kita customize. Mana field yang kita mau dapet. Tapi untuk buat GraphQL, bukannya itu beda. Teknologi, stack-nya lagi, server-nya lagi. Ada write-off juga di sana. Sehingga, biar kembali lagi. Kalian itu diserahkan ke kalian untuk menghasilkan. Disitulah letak seni. Dan web developer itu pekerja seni. Bukan pekerjaan. Jawabannya umumnya adalah, kalau ditanya nanti gitu, jawabannya adalah it depends. Kalau ada masalah-masalah seperti ini, kita tidak bisa digantikan dengan AI. Kita tidak bisa digantikan dengan Tailwave, Debit, Prisma. Pertanyaan berikutnya. Bagaimana cara optimize face API Python dan deployment agak lebih cepat. Rewrite keras. Tapi face API ini sudah ada framework Python yang paling cepat saat ini. Kenapa perlu dioptimase lagi ya? Saya bukan pengguna ya, jadi tidak tahu ya. Cuma tahu sedikit-sedikit saja. Ada masalah apa yang menyebabkan si face API ini jadi lambat? Saya tidak tahu. Karena setahu saya, banyak pengguna Python justru menggunakan face API. Salah satunya karena fast, cepat. Kalau sudah tidak cepat, mungkin ada sedikit yang senang. Apa salah nama? Mungkin dia slow. Kita tidak bisa dioptimase sekarang ini karena kita bukan pengguna Python. Kalau deployment juga indipensi juga ya. Deploy-nya di mana, metode-nya seperti apa, apakah menggunakan Docker, Kubernetes, dan lain-lain. Browser automation. Tuduhannya kan untuk testing. Tapi bagaimana jika automation browser itu digunakan untuk stranding? Boleh, boleh. Browser automation, use case-nya banyak ya. Tidak cuma untuk testing ya. Bisa buat macam-macam. Kalau saya boleh katakan, browser automation ini buat orang malas seperti saya. Saya developer malas. Jadi apa yang bisa saya automate, saya pakai browser automation. Kalau di bahasa Inggris ini sebenarnya lazy. Lazy. Tapi bukan malas kan. Malas itu apa? Contohnya, misalnya kalau ada kita sebelum deploy selalu nge-test dulu dari awal sampai akhir untuk make sure aplikasi intern berjalan dengan benar-benar. Atau setelah kita refaktor. Browser automation bisa digunakan begitu. Bisa juga buat scraping data. Contohnya, kalau misalnya saya mau, salah satu case, saya mau ngumpulin artikel yang ingin saya baca setiap hari. Saya biasanya pakai kompetir, set up set up. Dan dia jalan ke situs-situs berita yang saya suka. Dan ambil taggingan berdasarkan tag. Saya ambil beritanya, saya ambil artikelnya, saya kumpulkan ke satu tempat. Dan saya summarize pakai AI untuk saya tahu berita apa yang berjadik di hari itu. Itu bisa. Dan bisa saja, karena saya automate, bukan untuk, kan ujungnya kalau yang salah adalah mengambil dan atau hitus. Ya bukan haknya ya. Atau misalnya tools itu adalah hanya sebuah tools. Mau dipakai hal yang baik, mau dipakai tidak hal yang baik, persalahan lah. Jadi sama seperti misal itu adalah tools. Browser automation adalah tools. Scrapping, tidak apa-apa sebenarnya, dengan tujuannya. Jadi gampangnya cara kita mikir browser automation. Apapun yang bisa kita atau user biasa lakukan dengan browser, ya bisa dilakukan oleh browser automation. Tapi memudahkan karena di delegasikan ke sistem atau program yang kita buat. Kita sebagai user kan bisa-bisa saja kita cari info, kita refresh atau kita buka banyak halaman. Itu kan behavior normal. Kalau memang datanya tersedia secara public, ya boleh-boleh saja. Tapi misalnya kita membuka halaman website dengan refresh yang tidak wajar atau dengan frekuensi yang tidak wajar. Ya itu dianggap salah oleh si pemilik website, bakal terkena rate limit. Misalnya itu kan tanggung jawabnya yang bikin website untuk menge-enforce itu dan behavior. Atau hasil yang kita terima baik kita membuka sebagai user biasa secara manual, maupun pakai browser automation kan sama saja. Atau misalnya kita berusaha mengakses resource yang kita tidak punya hak untuk akses. Ya kan bakal ada error not authorized juga, jadi nggak masalah. Oke, pertanyaan berikutnya, bagaimana Chrome Lin dalam inklopitas ATML dan dapat kolomerasi dengan browser lain? Lalu bagaimana cara dianggap konsumsi ATML dan VPI? Ini internal browser ya, yang sama browser gitu ya. Chrome, Timebox, Safari, dan sama-sama. With 3GC ya? Intro, bukan. With all this. Jadi sebetulnya semua teknologi web, ATML, CSS, terus JavaScript, tapi yang web API, jadi JavaScript yang berjalan di browser. Itu bukan milik satu perusahaan manapun, baik itu Chrome, atau Apple, atau Firefox, atau siapapun. Jadi itu berdasarkan sebuah spesifikasi teknis. Nah, yang bikin spesifikasi teknis itu konsorsium. Konsorsium itu ya anggota-anggotanya adalah orang-orang dari browser-browser tersebut. Terus bisa juga terbuka untuk komunitas atau misalnya expert di luar perusahaan browser tersebut. Jadi nggak harus semua yang di konsorsium itu kerja untuk Google atau Apple dan lain-lain. Jadi itu ditentukan bersama jauh banyak. Nah, berdasarkan spesifikasi teknis itu, masing-masing mengimplementasikan di browser-nya. Kayak misalnya kalau Chrome itu kan dari Chromium ya. Nah, mereka menafsirkan spesifikasi teknis, misalnya HTML kalau button itu harus dirender seperti apa, cara kerjanya gimana. Nah, implementasinya, kayak codingan benerannya, codingan dalam bahasa C++, ya diserahkan pada masing-masing. Misalnya kalau orang Chrome bikinnya engine Chromium. Terus Apple juga punya WebKit, Firefox, Spiderman, Gekko. Jadi itu interpretasi mereka masing-masing. Terus kalau yang pertanyaan kedua, \"Eh, nggak keren-keren sih HTML dengan apa?\" Maksudnya, konsistensi rendering HTML antar satu browser ke satu browser lainnya, yang tadi ya. Pertanyaan kedua ya? Konsistensi HTML di-render antar satu browser ke satu browser lainnya. Ya, tadi spesifikasi. Jadi sebelum sebuah type HTML misalnya diimplementasi di satu browser atau di banyak browser, itu yang propose, yang mengajukan itu wajib menulis dokumen namanya spesifikasi atau seperti requirement. Ini adalah type marking, tujuannya untuk supaya ada rolling text dibawah atau gimana. Cara kerjanya seperti ini, seperti ini, implementasinya nggak ditulis. Jadi masing-masing browser, baik itu Firefox, Chromium, WebKit dll. Melakukan implementasi masing-masing. Begitu juga dengan JavaScript. Jadi masing-masing browser itu JavaScript-nya, implementasi JavaScript ini bisa beda-beda. Makanya kalau teman-teman yang berada di backend, di backend itu ada Node.js yang menggunakan engine yang crow namanya V8 atau EA. Kemudian muncul Deno juga menggunakan VA. Kemudian muncul Boon yang menggunakan JavaScript or yang ada di WebKit atau Safari. Kok bisa lebih cepat Boon? Bisa lebih cepat Boon. Bisa lebih cepat karena itu, implementasi JavaScript-nya di Safari itu berbeda. Makanya, kenapa cepatannya yang ini daripada, karena engine-nya beda. Bisa kaya mobil aja lah, mobil yang engine-nya ini sama yang ini diadu, ya mungkin ada satu lebih cepat, yang satu lebih tanggung misalkan. Yang gampang rusak atau minggu. Jadi spesifikasinya, requirement-nya sama, tapi hasil berbeda-beda. Terus antar, sekarang sudah ada inisiatif yang namanya Interop. Pahit-pahit. Interop itu inisiatif buat men-streamline-kan, jadi kan spesifikasi makin lama makin banyak, makin rumit case-nya banyak. Nah gimana, padahal masing-masing browser tadi gue dengannya juga beda. Gimana nyamain, pakai test driven, sebenarnya test driven development sih. Jadi ada yang namanya web platform test, kalau misalnya tertarik bisa buka webpt.fyi. Nah itu ada test case, banyak banget, ratusan bahkan dibuat. Tadi sempat ditunjukin juga ya sama Ivan, yang ada Chrome, Firefox, Safari. Jadi semua spesifikasi tersebut dibuat, test case-nya, assertion-nya, detail banget. Bahkan sesimpel media query, misalnya di resize, jadinya gimana. Jadi itu semua murni HTML, CSS, JavaScript. Nah gimana cara memastikan masing-masing browser, behavior-nya konsisten, ya pakai test case itu. Jadi mereka yang diluningkan bukan implementasi kode-kode browser masing-masing, tapi test case itu. Test-nya behavior-nya begini ya, jadi kalau misalnya udah passing, berarti konsisten. Oke, berhubung, waktunya sudah habis, kita tutup aja. Maaf-maaf tidak bisa menjawab semua pertanyaan, temen-temen mungkin masih banyak. Nanti kita akan ambil ini dan mudah-mudahan nanti kita akan jawab di silisi online kita. Jadi dari kita bertiga pangin, sampai bertemu lagi di hari Selasa malam. Waktunya kita berbualin web. Terima kasih semua."
+}
