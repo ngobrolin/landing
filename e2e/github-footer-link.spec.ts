@@ -32,7 +32,7 @@ test('GitHub footer link exists and navigates correctly', async ({ page }) => {
 
   // Verify link is in footer
   const footer = page.locator('footer');
-  await expect(githubLink, 'GitHub link should be within footer').toBeAttached();
+  await expect(footer.locator('a[href="https://github.com/ngobrolin/landing"]'), 'GitHub link should be within footer').toBeVisible();
 
   // Verify icon exists (SVG)
   const icon = githubLink.locator('svg');
