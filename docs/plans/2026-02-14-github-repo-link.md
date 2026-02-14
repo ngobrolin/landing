@@ -10,7 +10,7 @@
 
 ---
 
-### Task 1: Add GitHub link to footer (desktop and mobile)
+## Task 1: Add GitHub link to footer (desktop and mobile)
 
 **Files:**
 - Modify: `src/layouts/Layout.astro:384-412` (footer section, between Spotify and RSS links)
@@ -69,7 +69,7 @@ Refs #39"
 
 ---
 
-### Task 2: Add E2E test for GitHub footer link
+## Task 2: Add E2E test for GitHub footer link
 
 **Files:**
 - Create: `e2e/github-footer-link.spec.ts`
@@ -142,7 +142,7 @@ Refs #39"
 
 ---
 
-### Task 3: Run all tests to verify no regressions
+## Task 3: Run all tests to verify no regressions
 
 **Files:**
 - No file changes
