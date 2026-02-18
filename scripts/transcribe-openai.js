@@ -39,11 +39,13 @@ const YT_DLP = findExecutable("yt-dlp", YT_DLP_FALLBACK);
 
 // Patterns for non-conversation segments to filter out (same as transcribe.js)
 const NON_CONVERSATION_PATTERNS = [
+  // Music variations
   /^\[musik\]$/i,
   /^\[music\]$/i,
   /^\[musik intro\]$/i,
   /^\[suara musik\]$/i,
   /^\[dialog musik\]$/i,
+  // Sound effects
   /^\[tinggalow\]$/i,
   /^\[ting tong\]$/i,
   /^\[tinggil\]$/i,
@@ -52,10 +54,13 @@ const NON_CONVERSATION_PATTERNS = [
   /^\[drinton\]$/i,
   /^\[suara panggilan\]$/i,
   /^\[suara nafas\]$/i,
+  // Laughter
   /^\[tertawa\]$/i,
   /^\[ketawa\]$/i,
   /^\[gelak\]$/i,
+  // Applause
   /^\[tepuk tangan\]$/i,
+  // Outro/intro messages (metadata, not speech)
   /^\[sampai jumpa di video selanjutnya\]$/i,
   /^\[tekan like dan subscribe\]$/i,
 ];
@@ -135,7 +140,7 @@ async function transcribe(audioPath, videoId, openai, model) {
     timestamp_granularities: ["segment"],
   });
 
-  const rawSegments = response.segments.map((seg) => ({
+  const rawSegments = (response.segments ?? []).map((seg) => ({
     start: seg.start,
     end: seg.end,
     text: seg.text.trim(),
@@ -184,7 +189,7 @@ async function main() {
       process.exit(1);
     }
     baseURL = baseUrlValue;
-    args.splice(baseUrlIndex, 2);
+    args.splice(baseUrlIndex, 2); // Remove --base-url and its value from args
   }
 
   // Parse --model argument
@@ -197,7 +202,7 @@ async function main() {
       process.exit(1);
     }
     model = modelValue;
-    args.splice(modelIndex, 2);
+    args.splice(modelIndex, 2); // Remove --model and its value from args
   }
 
   // Parse --limit argument
@@ -214,12 +219,19 @@ async function main() {
       console.error("--limit must be a positive integer");
       process.exit(1);
     }
-    args.splice(limitIndex, 2);
+    args.splice(limitIndex, 2); // Remove --limit and its value from args
   }
 
   // Parse --browser argument
   const ALLOWED_BROWSERS = [
-    "brave", "chrome", "firefox", "safari", "edge", "chromium", "opera", "vivaldi",
+    "brave",
+    "chrome",
+    "firefox",
+    "safari",
+    "edge",
+    "chromium",
+    "opera",
+    "vivaldi",
   ];
   let browser = "brave";
   const browserIndex = args.indexOf("--browser");
@@ -234,7 +246,7 @@ async function main() {
       process.exit(1);
     }
     browser = browserValue;
-    args.splice(browserIndex, 2);
+    args.splice(browserIndex, 2); // Remove --browser and its value from args
   }
 
   const openai = new OpenAI({ apiKey, ...(baseURL && { baseURL }) });
