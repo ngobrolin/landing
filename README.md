@@ -40,14 +40,18 @@ This will update `src/data/episodes.json` with all playlist videos.
 
 ## Transcription
 
-Generate transcripts for episodes using local Whisper:
+Two transcription backends are available — local (whisper.cpp) and cloud (OpenAI API).
+
+### Option A: Local Whisper (whisper.cpp)
+
+Runs entirely offline. Requires a local model file and `whisper-cli` installed.
 
 ```bash
 # Transcribe next episode without transcript
 npm run transcribe
 
 # Transcribe specific episode
-npm run transcribe <videoId>
+npm run transcribe -- <videoId>
 
 # Transcribe all missing episodes
 npm run transcribe -- --missing
@@ -56,7 +60,7 @@ npm run transcribe -- --missing
 npm run transcribe -- --all
 ```
 
-### Options
+#### Options
 
 | Flag                 | Description                                                            | Default                       |
 | -------------------- | ---------------------------------------------------------------------- | ----------------------------- |
@@ -67,7 +71,7 @@ npm run transcribe -- --all
 | `--missing`          | Process episodes without transcripts                                   | -                             |
 | `--all`              | Process all episodes                                                   | -                             |
 
-### Examples
+#### Examples
 
 ```bash
 # Transcribe 5 missing episodes with custom model
@@ -83,18 +87,7 @@ npm run transcribe -- abc123xyz --model ~/models/ggml-large.bin --browser firefo
 npm run transcribe -- --missing --suppress-nst
 ```
 
-### Filtering Non-Conversation Elements
-
-The script automatically filters out non-conversation elements like `[Musik]`, `[Music]`, `[tertawa]`, etc.
-
-Two approaches are available:
-
-1. **Post-filter (default)**: Transcribes everything, then filters out non-conversation segments after
-2. **`--suppress-nst` flag**: Uses Whisper's `-sns` option to suppress non-speech tokens during transcription (faster)
-
-Use `--suppress-nst` to test if Whisper's native suppression works well for your content.
-
-### Requirements
+#### Requirements
 
 - **whisper-cli**: Install via `brew install whisper-cpp` ([GitHub](https://github.com/ggml-org/whisper.cpp)) - Metal GPU acceleration enabled on Apple Silicon
 - **yt-dlp**: Install via `brew install yt-dlp` ([GitHub](https://github.com/yt-dlp/yt-dlp))
@@ -112,6 +105,95 @@ Use `--suppress-nst` to test if Whisper's native suppression works well for your
   # Example: download medium model
   wget https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-medium.bin -P ~/Downloads
   ```
+
+---
+
+### Option B: OpenAI Whisper API (cloud)
+
+Uses the OpenAI Whisper API (or any OpenAI-compatible endpoint, e.g. Groq). No local model needed — requires an API key and internet access. Downloads audio as mp3.
+
+#### Prerequisites
+
+- **OPENAI_API_KEY**: Get from [platform.openai.com/api-keys](https://platform.openai.com/api-keys)
+- **yt-dlp**: Install via `brew install yt-dlp` ([GitHub](https://github.com/yt-dlp/yt-dlp))
+- **ffmpeg** (includes ffprobe): Install via `brew install ffmpeg` — required for splitting audio files larger than 24MB
+
+#### Basic usage
+
+```bash
+# Transcribe next missing episode
+OPENAI_API_KEY=sk-... npm run transcribe:openai
+
+# Transcribe specific episode
+OPENAI_API_KEY=sk-... npm run transcribe:openai -- <videoId>
+
+# Transcribe all missing episodes
+OPENAI_API_KEY=sk-... npm run transcribe:openai -- --missing
+
+# Re-transcribe all episodes
+OPENAI_API_KEY=sk-... npm run transcribe:openai -- --all
+```
+
+#### Options
+
+| Flag                  | Description                                          | Default      |
+| --------------------- | ---------------------------------------------------- | ------------ |
+| `--model <name>`      | API model name                                       | `whisper-1`  |
+| `--base-url <url>`    | Custom OpenAI-compatible endpoint base URL           | OpenAI default |
+| `--browser <name>`    | Browser for cookies (chrome, brave, firefox, etc.)   | `brave`      |
+| `--limit <number>`    | Max number of episodes to process                    | None (all)   |
+| `--missing`           | Process episodes without transcripts                 | -            |
+| `--all`               | Process all episodes                                 | -            |
+
+#### Examples
+
+```bash
+# Transcribe 3 missing episodes
+OPENAI_API_KEY=sk-... npm run transcribe:openai -- --missing --limit 3
+
+# Use a different browser for cookies
+OPENAI_API_KEY=sk-... npm run transcribe:openai -- --missing --browser chrome
+
+# Use Groq's OpenAI-compatible endpoint (whisper-large-v3)
+OPENAI_API_KEY=gsk_... npm run transcribe:openai -- \
+  --base-url https://api.groq.com/openai/v1 \
+  --model whisper-large-v3 \
+  --missing
+
+# Smoke test: re-transcribe one known episode to verify output
+OPENAI_API_KEY=sk-... npm run transcribe:openai -- 0o-PcX6pR2E
+```
+
+#### Verifying output
+
+After running, check that the transcript was saved correctly:
+
+```bash
+node -e "
+const t = JSON.parse(require('fs').readFileSync('src/data/transcripts/<videoId>.json', 'utf-8'));
+console.log('videoId:', t.videoId);
+console.log('language:', t.language);
+console.log('segments:', t.segments.length);
+console.log('first segment:', JSON.stringify(t.segments[0]));
+console.log('fullText length:', t.fullText.length);
+"
+```
+
+#### Notes
+
+- Audio is downloaded as mp3 (not wav) — much smaller than wav
+- Files over 24MB are automatically split into chunks using `ffmpeg`/`ffprobe` and transcribed sequentially with timestamp offsets merged into a single transcript
+- The same non-conversation filter (`[Musik]`, `[tertawa]`, etc.) is applied as in the local script
+- Per-episode errors are caught and logged — processing continues to the next episode on failure
+- The script checks all requirements (API key, yt-dlp, ffmpeg, ffprobe) before starting and reports any missing ones
+
+---
+
+### Filtering Non-Conversation Elements
+
+Both scripts automatically filter out non-conversation segments like `[Musik]`, `[Music]`, `[tertawa]`, etc. from the final transcript.
+
+The local script additionally supports `--suppress-nst` to use Whisper's native `-sns` flag during transcription instead of post-filtering.
 
 The script automatically finds executables in your PATH, with fallback to hardcoded paths if needed.
 
