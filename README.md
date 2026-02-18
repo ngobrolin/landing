@@ -115,7 +115,8 @@ Uses the OpenAI Whisper API (or any OpenAI-compatible endpoint, e.g. Groq). No l
 #### Prerequisites
 
 - **OPENAI_API_KEY**: Get from [platform.openai.com/api-keys](https://platform.openai.com/api-keys)
-- **yt-dlp**: Install via `brew install yt-dlp`
+- **yt-dlp**: Install via `brew install yt-dlp` ([GitHub](https://github.com/yt-dlp/yt-dlp))
+- **ffmpeg** (includes ffprobe): Install via `brew install ffmpeg` — required for splitting audio files larger than 24MB
 
 #### Basic usage
 
@@ -180,9 +181,11 @@ console.log('fullText length:', t.fullText.length);
 
 #### Notes
 
-- Audio is downloaded as mp3 (not wav) — much smaller, fits well within the API's 25MB limit
+- Audio is downloaded as mp3 (not wav) — much smaller than wav
+- Files over 24MB are automatically split into chunks using `ffmpeg`/`ffprobe` and transcribed sequentially with timestamp offsets merged into a single transcript
 - The same non-conversation filter (`[Musik]`, `[tertawa]`, etc.) is applied as in the local script
 - Per-episode errors are caught and logged — processing continues to the next episode on failure
+- The script checks all requirements (API key, yt-dlp, ffmpeg, ffprobe) before starting and reports any missing ones
 
 ---
 

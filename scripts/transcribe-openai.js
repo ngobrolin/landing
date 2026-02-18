@@ -40,6 +40,33 @@ const YT_DLP = findExecutable("yt-dlp", YT_DLP_FALLBACK);
 
 const MAX_FILE_SIZE = 24 * 1024 * 1024; // 24MB — stay under the 25MB API limit
 
+function checkRequirements(apiKey) {
+  const missing = [];
+
+  if (!apiKey) {
+    missing.push("OPENAI_API_KEY environment variable is not set");
+  }
+
+  for (const tool of ["yt-dlp", "ffmpeg", "ffprobe"]) {
+    try {
+      execSync(`which ${tool}`, { encoding: "utf-8", stdio: "pipe" });
+    } catch {
+      const hint = tool === "yt-dlp" ? "brew install yt-dlp" : "brew install ffmpeg";
+      missing.push(`${tool} not found in PATH — install via: ${hint}`);
+    }
+  }
+
+  if (missing.length > 0) {
+    console.error("Missing requirements:");
+    for (const item of missing) {
+      console.error(`  ✗ ${item}`);
+    }
+    process.exit(1);
+  }
+
+  console.log("Requirements: ✓ OPENAI_API_KEY, ✓ yt-dlp, ✓ ffmpeg, ✓ ffprobe");
+}
+
 function getAudioDuration(audioPath) {
   const result = spawnSync(
     "ffprobe",
@@ -242,10 +269,7 @@ function cleanup(videoId) {
 
 async function main() {
   const apiKey = process.env.OPENAI_API_KEY;
-  if (!apiKey) {
-    console.error("Error: OPENAI_API_KEY environment variable is required.");
-    process.exit(1);
-  }
+  checkRequirements(apiKey);
 
   const args = process.argv.slice(2);
 
