@@ -8,6 +8,7 @@ import {
   mkdirSync,
   unlinkSync,
   createReadStream,
+  statSync,
 } from "fs";
 import { join, dirname } from "path";
 import { fileURLToPath } from "url";
@@ -36,6 +37,43 @@ function findExecutable(name, fallback) {
 }
 
 const YT_DLP = findExecutable("yt-dlp", YT_DLP_FALLBACK);
+
+const MAX_FILE_SIZE = 24 * 1024 * 1024; // 24MB — stay under the 25MB API limit
+
+function getAudioDuration(audioPath) {
+  const result = spawnSync(
+    "ffprobe",
+    ["-v", "quiet", "-print_format", "json", "-show_format", audioPath],
+    { encoding: "utf-8" }
+  );
+  const info = JSON.parse(result.stdout);
+  return parseFloat(info.format.duration);
+}
+
+function splitAudio(audioPath, videoId, chunkDuration) {
+  const chunkBase = join(TEMP_DIR, `${videoId}_chunk`);
+  spawnSync(
+    "ffmpeg",
+    [
+      "-i", audioPath,
+      "-f", "segment",
+      "-segment_time", String(chunkDuration),
+      "-c", "copy",
+      `${chunkBase}_%03d.mp3`,
+    ],
+    { stdio: "inherit" }
+  );
+
+  const chunks = [];
+  let i = 0;
+  while (true) {
+    const chunkPath = `${chunkBase}_${String(i).padStart(3, "0")}.mp3`;
+    if (!existsSync(chunkPath)) break;
+    chunks.push(chunkPath);
+    i++;
+  }
+  return chunks;
+}
 
 // Patterns for non-conversation segments to filter out (same as transcribe.js)
 const NON_CONVERSATION_PATTERNS = [
@@ -129,22 +167,54 @@ function downloadAudio(videoId, browser = "brave") {
   return outputPath;
 }
 
-async function transcribe(audioPath, videoId, openai, model) {
-  console.log(`  Transcribing ${videoId} via OpenAI API (model: ${model})...`);
-
+async function callWhisperApi(openai, model, filePath, offsetSeconds = 0) {
   const response = await openai.audio.transcriptions.create({
-    file: createReadStream(audioPath),
+    file: createReadStream(filePath),
     model,
     language: "id",
     response_format: "verbose_json",
     timestamp_granularities: ["segment"],
   });
 
-  const rawSegments = (response.segments ?? []).map((seg) => ({
-    start: seg.start,
-    end: seg.end,
+  return (response.segments ?? []).map((seg) => ({
+    start: seg.start + offsetSeconds,
+    end: seg.end + offsetSeconds,
     text: seg.text.trim(),
   }));
+}
+
+async function transcribe(audioPath, videoId, openai, model) {
+  console.log(`  Transcribing ${videoId} via OpenAI API (model: ${model})...`);
+
+  const fileSize = statSync(audioPath).size;
+  let rawSegments;
+
+  if (fileSize <= MAX_FILE_SIZE) {
+    rawSegments = await callWhisperApi(openai, model, audioPath);
+  } else {
+    const sizeMB = (fileSize / 1024 / 1024).toFixed(1);
+    console.log(`  File is ${sizeMB}MB — splitting into chunks...`);
+
+    const duration = getAudioDuration(audioPath);
+    // Each chunk covers a proportional slice of the file, with 10% safety margin
+    const chunkDuration = Math.floor((MAX_FILE_SIZE / fileSize) * duration * 0.9);
+    const chunkPaths = splitAudio(audioPath, videoId, chunkDuration);
+    console.log(`  Split into ${chunkPaths.length} chunk(s) of ~${chunkDuration}s each`);
+
+    rawSegments = [];
+    try {
+      for (let i = 0; i < chunkPaths.length; i++) {
+        const offsetSeconds = i * chunkDuration;
+        console.log(`  Transcribing chunk ${i + 1}/${chunkPaths.length}...`);
+        const chunkSegments = await callWhisperApi(openai, model, chunkPaths[i], offsetSeconds);
+        rawSegments.push(...chunkSegments);
+      }
+    } finally {
+      for (const chunkPath of chunkPaths) {
+        if (existsSync(chunkPath)) unlinkSync(chunkPath);
+      }
+    }
+  }
 
   const filteredSegments = filterNonConversation(rawSegments);
 
