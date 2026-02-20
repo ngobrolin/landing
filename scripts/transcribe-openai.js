@@ -194,6 +194,59 @@ function downloadAudio(videoId, browser = "brave") {
   return outputPath;
 }
 
+const MAX_RETRIES = 3;
+
+/**
+ * Parses wait time from rate limit error message.
+ * Example: "Please try again in 5m14.5s" -> 314.5 seconds
+ */
+function parseWaitTime(errorMessage) {
+  const match = errorMessage.match(/try again in (\d+)m(\d+\.?\d*)s/);
+  if (match) {
+    const minutes = parseInt(match[1], 10);
+    const seconds = parseFloat(match[2]);
+    return minutes * 60 + seconds;
+  }
+  // Fallback: look for just seconds
+  const secondsMatch = errorMessage.match(/try again in (\d+\.?\d*)s/);
+  if (secondsMatch) {
+    return parseFloat(secondsMatch[1]);
+  }
+  // Default wait time if we can't parse
+  return 60;
+}
+
+/**
+ * Wraps an async function with retry logic for rate limit errors.
+ */
+async function withRetry(fn, context = "operation") {
+  let lastError;
+  for (let attempt = 1; attempt <= MAX_RETRIES; attempt++) {
+    try {
+      return await fn();
+    } catch (error) {
+      lastError = error;
+
+      // Check if it's a rate limit error (429)
+      if (error.status === 429 || error.statusCode === 429) {
+        const waitTime = parseWaitTime(error.message);
+        if (attempt < MAX_RETRIES) {
+          console.log(
+            `  Rate limited. Waiting ${waitTime.toFixed(1)}s before retry ${attempt}/${MAX_RETRIES}...`
+          );
+          await new Promise((resolve) => setTimeout(resolve, waitTime * 1000));
+        } else {
+          console.log(`  Rate limited. Max retries (${MAX_RETRIES}) reached.`);
+        }
+      } else {
+        // Non-rate-limit errors should not be retried
+        throw error;
+      }
+    }
+  }
+  throw lastError;
+}
+
 async function callWhisperApi(openai, model, filePath, offsetSeconds = 0) {
   const response = await openai.audio.transcriptions.create({
     file: createReadStream(filePath),
@@ -217,7 +270,10 @@ async function transcribe(audioPath, videoId, openai, model) {
   let rawSegments;
 
   if (fileSize <= MAX_FILE_SIZE) {
-    rawSegments = await callWhisperApi(openai, model, audioPath);
+    rawSegments = await withRetry(
+      () => callWhisperApi(openai, model, audioPath),
+      "transcription"
+    );
   } else {
     const sizeMB = (fileSize / 1024 / 1024).toFixed(1);
     console.log(`  File is ${sizeMB}MB — splitting into chunks...`);
@@ -233,7 +289,10 @@ async function transcribe(audioPath, videoId, openai, model) {
       for (let i = 0; i < chunkPaths.length; i++) {
         const offsetSeconds = i * chunkDuration;
         console.log(`  Transcribing chunk ${i + 1}/${chunkPaths.length}...`);
-        const chunkSegments = await callWhisperApi(openai, model, chunkPaths[i], offsetSeconds);
+        const chunkSegments = await withRetry(
+          () => callWhisperApi(openai, model, chunkPaths[i], offsetSeconds),
+          `chunk ${i + 1}/${chunkPaths.length}`
+        );
         rawSegments.push(...chunkSegments);
       }
     } finally {
