@@ -1,0 +1,14 @@
+{
+  "videoId": "d7L_jRDJb-E",
+  "generatedAt": "2025-02-21T00:00:00.000Z",
+  "brief": "Episode ini membahas tentang Deno 2, runtime JavaScript/TypeScript alternatif Node.js yang dibuat oleh Ryan Dahl (pencipta Node.js asli). Topik utama mencakup sejarah Deno, perbedaan dengan Node.js, keunggulan utama seperti security by default dan TypeScript first-class citizen, serta ekosistem lengkap yang meliputi Fresh framework, JSR (package registry), Deno KV (database), dan Deno Deploy (platform hosting). Diskusi juga menyinggung perbandingan dengan runtime lain seperti Bun serta kelebihan dan kekurangan masing-masing.",
+  "keyPoints": [
+    "Deno 2 adalah versi terbaru dari runtime JavaScript/TypeScript yang dibuat oleh Ryan Dahl (pencipta Node.js asli) sebagai perbaikan dari berbagai penyesalan dalam desain Node.js",
+    "Salah satu penyesalan terbesar Ryan Dahl terhadap Node.js adalah tidak bisa mengontrol NPM (Node Package Manager), yang kemudian menjadi monopoli dan memiliki masalah keamanan",
+    "Keunggulan utama Deno: security by default (semua akses harus di-explicitly grant), TypeScript first-class (bisa jalan langsung tanpa transpilasi), dan support ES modules secara native",
+    "Deno menggunakan engine V8 (sama seperti Node.js) namun ditulis dengan Rust, sedangkan Bun menggunakan JavaScriptCore dari Safari",
+    "Ekosistem Deno mencakup: Fresh (web framework dengan Preact), JSR (package registry alternatif NPM yang mendukung TypeScript dan ESM), Deno KV (key-value database), dan Deno Deploy (platform hosting)",
+    "Deno 2 mendukung NPM packages secara native, menjembatani kesenjangan dengan ekosistem Node.js yang sudah ada",
+    "Deno mengadopsi model bisnis vendor lock-in yang komprehensif dengan enterprise support, mirip dengan platform seperti Vercel atau Firebase, menyediakan solusi end-to-end dari development hingga deployment"
+  ]
+}

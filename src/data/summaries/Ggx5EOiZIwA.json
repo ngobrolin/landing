@@ -1,0 +1,14 @@
+{
+  "videoId": "Ggx5EOiZIwA",
+  "generatedAt": "2026-02-21T00:00:00.000Z",
+  "brief": "Episode ini membahas tentang paradigma Local First dalam pengembangan aplikasi modern. Diskusi dimulai dari pengalaman menggunakan Actual Budget, aplikasi personal finance yang berjalan secara lokal dan dapat diakses offline. Trio host membahas definisi Local First menurut Maggie Appleton yang bukan hanya tentang storage lokal, tetapi aplikasi yang dibangun untuk penggunaan personal dan lingkungan sekitar. Episode ini juga mengeksplorasi berbagai teknologi pendukung seperti database lokal (IndexedDB, PouchDB, SQLite dengan WebAssembly), CRDT (Conflict-Free Replicated Data Types) untuk resolusi konflik, serta sync engine modern seperti PowerSync, ElectricSQL, dan Zero. Diskusi juga menyentuh tren evolusi dari aplikasi offline-first era desktop, ke online-first saat web booming, dan kembali ke hybrid offline/online dengan tetap mempertahankan kepemilikan data (data ownership).",
+  "keyPoints": [
+    "Local First adalah paradigma di mana aplikasi dibangun untuk penggunaan personal dan lingkungan sekitar, bukan hanya tentang storage lokal atau dapat berjalan offline",
+    "Data ownership adalah aspek kunci dari Local First - pengguna memiliki kontrol penuh atas data mereka dan dapat memindahkannya antar perangkat atau layanan tanpa ketergantungan pada vendor tertentu",
+    "CRDT (Conflict-Free Replicated Data Types) adalah teknologi penting yang menangani resolusi konflik secara otomatis ketika data disinkronisasi antar perangkat",
+    "Berbagai sync engine modern mendukung pengembangan aplikasi Local First seperti PowerSync, ElectricSQL, Zero, dan Yjs untuk collaborative editing",
+    "SQLite dengan WebAssembly memungkinkan database SQL berjalan langsung di browser, memungkinkan aplikasi yang sebelumnya hanya bisa berjalan di server untuk berjalan di klien",
+    "Evolusi tren aplikasi: offline-first (era desktop) → online-first (era web) → hybrid offline/online dengan Local First yang menggabungkan keunggulan keduanya",
+    "Contoh aplikasi Local First termasuk Git, Obsidian, Actual Budget, dan Linear yang memberikan pengalaman responsif (snappy) karena tidak bergantung pada koneksi internet untuk operasi dasar"
+  ]
+}

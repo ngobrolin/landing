@@ -1,0 +1,14 @@
+{
+  "videoId": "c5RSiDy2sRM",
+  "generatedAt": "2026-02-21T00:00:00.000Z",
+  "brief": "Episode ini membahas tentang Computational Thinking, sebuah framework berpikir yang menjadi fundamental lebih dasar dari kemampuan teknis programming. Host membahas empat pilar utama Computational Thinking yang dikenal dengan akronim AADP (Abstraction, Algorithm Design, Decomposition, Pattern Recognition) dan bagaimana konsep ini tidak hanya berguna untuk programming tetapi juga applicable dalam kehidupan sehari-hari dan karir profesional. Diskusi juga mencakup bagaimana Computational Thinking sudah diajarkan di kurikulum sekolah (SD/SMP) dan bagaimana materi dari BBC Bitesize memberikan penjelasan yang mudah dipahami dengan contoh-contoh konkret.",
+  "keyPoints": [
+    "Computational Thinking adalah framework berpikir layaknya komputer dengan memecahkan masalah secara sistematis dan logis, ini adalah fundamental yang lebih dasar dari fundamental web atau programming",
+    "Empat pilar Computational Thinking (AADP): Abstraction (berfokus pada detail penting), Algorithm Design (merancang langkah-langkah sistematis), Decomposition (memecah masalah besar menjadi bagian kecil), dan Pattern Recognition (mengenali pola yang berulang)",
+    "Computational Thinking tidak hanya untuk programming - ini applicable dalam kehidupan sehari-hari seperti merencanakan resepsi pernikahan, mengatur flow supermarket, hingga menyelesaikan kasus kriminal",
+    "Dekomposisi penting karena masalah besar sering membuat kita bingung mulai dari mana; dengan memecah masalah menjadi bagian kecil, kita bisa fokus dan manage setiap bagian dengan lebih baik",
+    "Pattern Recognition memungkinkan kita menggunakan solusi yang sudah ada untuk masalah serupa, mempercepat penyelesaian, dan menciptakan standarisasi seperti framework, component library, atau SOP",
+    "Abstraction membantu kita fokus pada detail yang penting dan mengabaikan hal-hal yang tidak relevan, seperti ketika mencari akar masalah dengan teknik 5 Whys atau fokus pada core functionality saat development",
+    "Algorithm Design bukan hanya tentang kode tetapi juga tentang SOP dan workflow dalam pekerjaan seperti deployment flow, yang bisa di-hand over ke orang lain karena terdokumentasi dengan baik"
+  ]
+}

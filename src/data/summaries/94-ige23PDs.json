@@ -1,0 +1,13 @@
+{
+  "brief": "Episode ini membahas pengalaman produksi menggunakan Tauri, framework desktop application berbasis Rust yang memungkinkan pengembangan aplikasi desktop cross-platform dengan teknologi web. Mas Donny dan Mas Aris dari Zero01 Group berbagi pengalaman mereka memilih Tauri sebagai solusi untuk membangun aplikasi desktop trading, menjelaskan keuntungan menggunakan WebView native dari OS dan bagaimana Tauri menawarkan performa lebih baik dibandingkan alternatif seperti Electron.\n\nDiskusi mencakup berbagai aspek teknis termasuk integrasi SQLite untuk penyimpanan data lokal, tantangan multi-monitor, serta keamanan data dengan enkripsi. Kedua pembicara juga berbagi insight tentang ekosistem Rust, integrasi dengan Deno, dan tips karir untuk developer teknis tentang pentingnya membangun kehadiran di media sosial.",
+  "keyPoints": [
+    "Tauri adalah framework desktop application berbasis Rust yang menggunakan WebView native dari OS, memberikan ukuran aplikasi yang jauh lebih kecil (sekitar 4-5 MB) dibandingkan Electron yang bisa mencapai 100+ MB",
+    "Untuk aplikasi yang membutuhkan database lokal, SQLite adalah pilihan utama untuk penyimpanan data dengan pendekatan Local First architecture",
+    "Tantangan teknis seperti multi-monitor support perlu diperhatikan saat mengembangkan aplikasi desktop, termasuk penentuan posisi window yang tepat",
+    "Keamanan data sangat penting, terutama untuk data sensitif seperti API keys dan credentials, sehingga perlu implementasi enkripsi yang proper",
+    "Integrasi dengan runtime JavaScript seperti Deno memungkinkan pengembangan lebih fleksibel dengan memanfaatkan core library Deno",
+    "Memilih teknologi sebaiknya berdasarkan use case yang spesifik - Tauri cocok untuk desktop app, sementara Wails (Go-based) bisa menjadi alternatif",
+    "Penting untuk developer teknis membangun kehadiran di media sosial dan berbagi knowledge, karena ini membantu karir dan membuka peluang baru"
+  ],
+  "generatedAt": "2026-02-20T00:00:00.000Z"
+}

@@ -1,0 +1,14 @@
+{
+  "videoId": "2E52qAB9Pq4",
+  "generatedAt": "2026-02-20T00:00:00Z",
+  "brief": "Episode ini membahas CSS Wrapped 2024, sebuah showcase interaktif yang menampilkan 17 fitur CSS baru yang dirilis sepanjang tahun 2024. Ivan dan Eka mengeksplorasi berbagai fitur baru yang dibagi dalam tiga kategori: Components, Interactions, dan Developer Experience.\n\nWebsite CSS Wrapped 2024 sendiri dibangun dengan Astro dan menampilkan tema retro game yang kreatif. Para pembahas juga membicarakan tentang browser support, di mana beberapa fitur sudah mencapai baseline (didukung semua browser utama) sementara yang lain masih terbatas pada browser berbasis Chromium.",
+  "keyPoints": [
+    "Field Sizing: Form elements yang otomatis menyesuaikan ukuran berdasarkan konten (limited availability)",
+    "Animate to Auto: Fitur interpolate-size yang memungkinkan animasi ke intrinsic size seperti auto, max-content, min-content (limited availability)",
+    "Exclusive Details: Akordion tanpa JavaScript hanya dengan menambahkan atribut name yang sama pada elemen details (sudah baseline)",
+    "Anchor Positioning: Posisi elemen relatif terhadap elemen lain secara deklaratif untuk tooltips, menus, dan dialogs (limited availability)",
+    "Custom Scrollbar: scrollbar-width sudah baseline, scrollbar-color masih terbatas (Safari belum mendukung color)",
+    "Cross-Document View Transitions: Animasi transisi halaman untuk MPA tanpa perlu mengubah ke SPA (limited availability)",
+    "Scroll-Driven Animations: Animasi parallax dan efek scroll murni dengan CSS, tidak perlu JavaScript (limited availability)"
+  ]
+}
