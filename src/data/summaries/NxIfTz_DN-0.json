@@ -1,14 +1,14 @@
 {
   "videoId": "NxIfTz_DN-0",
-  "generatedAt": "2026-02-21T00:00:00Z",
-  "brief": "Episode ini membahas tentang fenomena FOMO (Fear of Missing Out) di kalangan developer teknologi, khususnya di dunia web development. Para pembicara berdiskusi tentang perasaan tertinggal ketika melihat teknologi baru bermunculan terus-menerus, bagaimana menghadapi tekanan untuk selalu update dengan teknologi terbaru, dan pentingnya menemukan keseimbangan antara mengikuti perkembangan teknologi dengan kebutuhan praktis di tempat kerja. Diskusi juga mencakup perspektif tentang technology adoption di berbagai jenis perusahaan - mulai dari enterprise yang memprioritaskan stabilitas dan maintainability, hingga startup yang lebih dinamis dalam mengadopsi teknologi baru.",
+  "generatedAt": "2026-02-21T10:30:00Z",
+  "brief": "Episode ini membahas tentang fenomena FOMO (Fear of Missing Out) di kalangan developer teknologi, khususnya di dunia web development yang perubahannya sangat cepat. Diskusi dimulai dengan pengalaman tim menghadapi pertanyaan dari developer yang merasa tertinggal karena kantornya menggunakan teknologi yang sudah jadul, diluar tren yang sedang ramai dibahas. Topik berkembang menjadi diskusi yang lebih dalam tentang pertimbangan mengadopsi teknologi baru di tempat kerja, membedakan antara FOMO yang irasional dengan kebutuhan nyata untuk upgrade, dan konsep JOMO (Joy of Missing Out) sebagai kontrapoint. Episode juga membahas Lindy Effect yang menyatakan bahwa teknologi yang sudah bertahan lama cenderung akan terus bertahan relevan, serta tips untuk mengatasi FOMO seperti fokus pada 'learning how to learn' daripada menghafal detail setiap framework.",
   "keyPoints": [
-    "FOMO dalam teknologi adalah perasaan takut ketinggalan perkembangan terbaru yang sering dialami developer, terutama di ekosistem JavaScript yang berubah sangat cepat",
-    "Pertimbangan utama dalam mengadopsi teknologi baru di tempat kerja termasuk ketersediaan talent, kemampuan maintainability, dan dampak terhadap biaya operasional",
-    \"Pentingnya membedakan antara FOMO yang tidak rasional (hanya mengikuti trend) dengan kebutuhan nyata untuk upgrade demi security patches dan performance improvements\",
-    "\"LinkedIn driven development\" adalah praktik buruk ketika developer memaksakan teknologi baru hanya untuk portfolio pribadi tanpa mempertimbangkan dampak jangka panjang terhadap tim dan perusahaan",
+    "Pertimbangan utama dalam mengadopsi teknologi baru di tempat kerja termasuk ketersediaan talent, kemampuan maintainability, dan dampak terhadap biaya operasional - cost saving sering menjadi argumentasi paling kuat",
+    "Pentingnya membedakan antara FOMO irasional (hanya mengikuti trend untuk portfolio pribadi) dengan kebutuhan nyata untuk upgrade demi security patches dan performance improvements",
+    "\"LinkedIn driven development\" adalah praktik buruk ketika developer memaksakan teknologi baru hanya untuk portfolio lalu meninggalkan perusahaan, meninggalkan legacy code yang tidak bisa di-maintain",
     "JOMO (Joy of Missing Out) sebagai kontrapoint FOMO - menemukan kebahagiaan dengan tidak mengikuti setiap trend teknologi dan fokus pada hal yang benar-benar relevan",
-    "Lindy Effect - semakin lama sebuah teknologi bertahan relevan, semakin besar kemungkinan ia akan terus bertahan di masa depan (contoh: jQuery, PHP)",
+    "Lindy Effect - semakin lama sebuah teknologi bertahan relevan, semakin besar kemungkinan ia akan terus bertahan di masa depan (contoh: jQuery, PHP yang 'mati' tetapi masih hidup)",
+    "Pesan bijaksana: 'It's same shit, just different brand' - pindah kerja atau teknologi tidak akan membuat masalah magically hilang, masalah yang dihadapi tetap sama",
     "Kunci untuk mengatasi FOMO adalah fokus pada 'learning how to learn' - membangun kemampuan fundamental untuk beradaptasi dengan teknologi baru daripada menghafal detail setiap framework yang trending"
   ]
 }
