@@ -1,0 +1,14 @@
+{
+  "videoId": "TdgJMT3NrRM",
+  "generatedAt": "2026-02-21T10:30:00Z",
+  "brief": "Episode ini membahas tentang animasi dalam web development, mulai dari berbagai jenis animasi seperti micro-interaction, page transition, dan scroll-driven animation. Host membahas beberapa library animasi populer seperti GSAP, Framer Motion (sekarang Motion), Anime.js, dan Lottie. Diskusi juga mencakup perbandingan antara library-library tersebut dari sisi performa, ukuran bundle, licensing, dan kemudahan penggunaan. Ada juga showcase portfolio dari Yogi yang menggunakan GSAP dengan efek combat style yang impresif, serta pembahasan tentang view transition API sebagai alternatif modern untuk transisi antar halaman.",
+  "keyPoints": [
+    "Ada beberapa kategori animasi dalam web: micro-interaction (button hover, loading state), page transition, dan scroll-driven animation",
+    "GSAP (GreenSock Animation Platform) adalah library animasi yang sudah lama ada, sekarang open source dan gratis digunakan namun tidak boleh untuk membangun produk yang kompetitif dengan Webflow",
+    "Framer Motion (sekarang bernama Motion) lebih populer di ekosistem React karena API yang ramah developer dengan konsep komponen (motion.div)",
+    "Motion memiliki varian 'motion mini' dengan ukuran bundle jauh lebih kecil (40-50 KB dibanding 500 KB versi full) untuk use case yang lebih sederhana",
+    "Lottie adalah format animasi yang memungkinkan embed file animasi (.lottie) dengan runtime tersendiri, mirip konsep Flash namun lebih modern",
+    "View Transition API adalah native browser API untuk transisi antar halaman, ada level 1 (client-side only) dan level 2 (multi-page)",
+    "Showcase portfolio Yogi menggunakan GSAP dengan efek combat style yang dikembangkan dengan bantuan AI, menunjukkan bagaimana AI dapat membantu developer belajar dan mengimplementasikan animasi kompleks"
+  ]
+}

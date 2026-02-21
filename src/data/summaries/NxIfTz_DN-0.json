@@ -1,0 +1,14 @@
+{
+  "videoId": "NxIfTz_DN-0",
+  "generatedAt": "2026-02-21T00:00:00Z",
+  "brief": "Episode ini membahas tentang fenomena FOMO (Fear of Missing Out) di kalangan developer teknologi, khususnya di dunia web development. Para pembicara berdiskusi tentang perasaan tertinggal ketika melihat teknologi baru bermunculan terus-menerus, bagaimana menghadapi tekanan untuk selalu update dengan teknologi terbaru, dan pentingnya menemukan keseimbangan antara mengikuti perkembangan teknologi dengan kebutuhan praktis di tempat kerja. Diskusi juga mencakup perspektif tentang technology adoption di berbagai jenis perusahaan - mulai dari enterprise yang memprioritaskan stabilitas dan maintainability, hingga startup yang lebih dinamis dalam mengadopsi teknologi baru.",
+  "keyPoints": [
+    "FOMO dalam teknologi adalah perasaan takut ketinggalan perkembangan terbaru yang sering dialami developer, terutama di ekosistem JavaScript yang berubah sangat cepat",
+    "Pertimbangan utama dalam mengadopsi teknologi baru di tempat kerja termasuk ketersediaan talent, kemampuan maintainability, dan dampak terhadap biaya operasional",
+    \"Pentingnya membedakan antara FOMO yang tidak rasional (hanya mengikuti trend) dengan kebutuhan nyata untuk upgrade demi security patches dan performance improvements\",
+    "\"LinkedIn driven development\" adalah praktik buruk ketika developer memaksakan teknologi baru hanya untuk portfolio pribadi tanpa mempertimbangkan dampak jangka panjang terhadap tim dan perusahaan",
+    "JOMO (Joy of Missing Out) sebagai kontrapoint FOMO - menemukan kebahagiaan dengan tidak mengikuti setiap trend teknologi dan fokus pada hal yang benar-benar relevan",
+    "Lindy Effect - semakin lama sebuah teknologi bertahan relevan, semakin besar kemungkinan ia akan terus bertahan di masa depan (contoh: jQuery, PHP)",
+    "Kunci untuk mengatasi FOMO adalah fokus pada 'learning how to learn' - membangun kemampuan fundamental untuk beradaptasi dengan teknologi baru daripada menghafal detail setiap framework yang trending"
+  ]
+}

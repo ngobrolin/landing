@@ -1,0 +1,14 @@
+{
+  "videoId": "jxW4wishA8s",
+  "generatedAt": "2026-02-21T10:30:00Z",
+  "brief": "Episode ini membahas tentang teknologi video di web bersama Mas Yudi, engineer yang bekerja di Daily Motion. Percakapan dimulai dengan sejarah singkat video di web, dari era Flash hingga HTML5, dan tantangan format video seperti MP4, WebM, dan OGV. Mas Yudi berbagi pengalaman kerja di bagian B2B Daily Motion yang menyediakan layanan hosting video untuk klien corporate, termasuk infrastruktur video yang bisa di-white-label. Diskusi mencakup berbagai aspek teknis seperti autoplay policy browser, integrasi iklan menggunakan Google IMA SDK, tantangan smart TV dengan browser engine Chromium versi lama, hingga isu performa dan accessibility pada video player. Episode ini juga menyentuh regulasi seperti GDPR dan PDP (Perlindungan Data Pribadi) yang mempengaruhi implementasi video di website.",
+  "keyPoints": [
+    "Daily Motion adalah video platform B2B yang menyediakan layanan hosting dan infrastruktur video untuk klien corporate, dengan opsi white-label untuk media dan news",
+    "Sejarah video di web berkembang dari Flash era menuju HTML5 dengan format video MP4 sebagai yang paling universal, disusul WebM dan OGV",
+    "Autoplay policy browser menjadi tantangan utama karena aturan ketat yang berbeda antar browser, terutama Safari yang paling ketat",
+    "Integrasi iklan video menggunakan Google IMA SDK (Interactive Media Ads) yang terhubung dengan Google Ads Manager",
+    "Smart TV yang masih menggunakan Chromium versi lama memerlukan video.js versi lama dan menyulitkan proses testing karena ketersediaan device",
+    "Video.js adalah open source video player yang paling matang dan lengkap, menjadi base untuk banyak fork dan implementasi lain",
+    "Isu accessibility dan regulasi seperti GDPR serta PDP Indonesia memerlukan pendekatan khusus dalam implementasi video player"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "videoId": "pCUea-03ZbQ",
+  "generatedAt": "2026-02-21T00:00:00Z",
+  "brief": "Episode Ngobrolin WEB ini membahas tantangan dan kompleksitas dalam membuat email template HTML. Topik utama meliputi perbedaan antara HTML untuk web dan HTML untuk email, keterbatasan CSS di berbagai email client, serta berbagai tools dan framework yang dapat membantu developer dalam membuat email template yang responsif dan konsisten di berbagai platform.",
+  "keyPoints": [
+    "Email dapat dikategorikan menjadi dua jenis: email transaksional (lupa password, registrasi, invoice) yang dikirim sekali per transaksi, dan email marketing/newsletter yang dikirim secara berkala dengan personalisasi konten.",
+    "HTML untuk email memiliki keterbatasan signifikan dibandingkan HTML web: CSS harus inline, tidak bisa menggunakan external stylesheet atau script tags, media query sering di-strip, dan layout harus menggunakan table bukan flexbox atau grid.",
+    "Berbagai email client (Gmail, Outlook, Apple Mail, Thunderbird) memiliki engine rendering yang berbeda-beda dengan dukungan CSS yang tidak konsisten, membuat pengujian lintas platform menjadi sangat penting namun sulit.",
+    "Foundation for Emails (sebelumnya Ink), MJML, dan React Email adalah beberapa framework yang membantu menyederhanakan pembuatan email template dengan mengkompile syntax modern ke HTML table-based yang compatible.",
+    "Tantangan lain termasuk dukungan dark mode yang terbatas, gambar yang terblokir oleh beberapa client untuk keamanan, dan kebutuhan link unsubscribe yang wajib untuk menghindari flagging sebagai spam.",
+    "Tools untuk testing email seperti Litmus, Mailtrap, dan Put menyediakan cara untuk mempreview email di berbagai client, namun seringkali berbayar karena kompleksitas emulasi berbagai email client.",
+    "VML (Vector Markup Language) kadang digunakan untuk conditional rendering khusus di Outlook, terutama untuk background images, meskipun ini adalah teknologi yang sudah usang dan sulit dikelola."
+  ]
+}

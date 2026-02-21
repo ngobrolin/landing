@@ -1,0 +1,14 @@
+{
+  "videoId": "ZrMsScX7sh0",
+  "generatedAt": "2026-02-21T10:30:00Z",
+  "brief": "Episode ini membahas tentang sejarah dan perkembangan browser, khususnya WebKit dan Safari. Diskusi dimulai dengan fenomena browser war yang semakin mengerucut ke sedikit engine saja - Chromium, Gecko (Firefox), dan WebKit. Tim narasumber menjelaskan sejarah panjang WebKit yang berasal dari KHTML dan KJS milik KDE, kemudian diforking oleh Apple menjadi Safari dan open source sebagai WebKit. Google kemudian menggunakan WebKit sebelum akhirnya membuat Blink engine sendiri. Episode ini juga membahas bagaimana Apple dulu memonopoli browser di iOS dengan memaksa semua browser menggunakan engine WebKit, namun kini aturan tersebut mulai longgar di Eropa. Topik utama adalah Safari 18 yang menunjukkan peningkatan signifikan dengan banyak fitur CSS baru seperti View Transitions API, Style Query, animasi display, dan Content Visibility. Terungkap juga bahwa Jen Simmons, mantan Mozilla Firefox developer, kini bergabung dengan Apple yang menjelaskan mengapa Safari mulai mengejar ketertinggalan CSS-nya.",
+  "keyPoints": [
+    "Browser landscape semakin mengerucut ke tiga engine utama: Chromium (Chrome, Edge, Opera), Gecko (Firefox), dan WebKit (Safari), meskipun ada browser alternatif berbasis WebKit seperti Orion dan Sigma OS",
+    "WebKit memiliki sejarah panjang dari KHTML dan KJS milik KDE, diforking oleh Apple tahun 2000-an menjadi Safari, lalu open source sebagai WebKit dengan komponen WebCore dan JavaScriptCore",
+    "Google Chrome awalnya menggunakan WebKit sebelum membuat fork sendiri bernama Blink pada 2013, sementara JavaScriptCore kembali digunakan oleh runtime JavaScript modern seperti Bun",
+    "Apple dulu memonopoli browser di iOS dengan memaksa semua browser menggunakan engine WebKit melalui SDK restrictions, namun aturan ini mulai dilonggarkan di Eropa",
+    "Safari 18 menunjukkan peningkatan signifikan dengan dukungan View Transitions API, Style Query, animasi display, Flexbox alignment fixes, Content Visibility, dan URL.parse API",
+    "Jen Simmons, mantan developer Firefox yang terkenal dengan kontribusi CSS-nya, kini bergabung dengan Apple sebagai Safari dan WebKit evangelist, menjelaskan transformasi Safari",
+    "Browser alternatif berbasis WebKit seperti Orion dan Sigma OS mulai bermunculan, menawarkan fitur unik seperti ad blocker bawaan, workspace management, dan dukungan ekstensi Firefox maupun Chrome"
+  ]
+}

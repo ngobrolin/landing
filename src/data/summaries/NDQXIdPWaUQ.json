@@ -1,0 +1,14 @@
+{
+  "videoId": "NDQXIdPWaUQ",
+  "generatedAt": "2026-02-21T00:00:00Z",
+  "brief": "Episode ini membahas tentang Big O Notation, sebuah konsep fundamental dalam ilmu komputer yang digunakan untuk mengukur kompleksitas performa kode. Diskusi dimulai dengan pengalaman tim mengenai pembelajaran Big O di kampus dan relevansinya dalam coding interview. Topik utama mencakup pengenalan berbagai jenis notasi kompleksitas seperti O(1), O(n), O(log n), O(n²), hingga O(n!), serta perbedaan antara Big O (worst case scenario), Omega (best case scenario), dan Theta notation. Episode juga menampilkan studi kasus nyata dari dunia kerja, termasuk kisah menarik tentang sistem penyimpanan 15.000 kunci mobil yang menerapkan konsep indexing secara fisik, serta contoh implementasi query optimization untuk WordPress block editor.",
+  "keyPoints": [
+    "Big O Notation adalah representasi matematis untuk mengukur kompleksitas waktu atau ruang dari suatu algoritma, dengan fokus pada worst case scenario",
+    "Terdapat tiga jenis notasi kompleksitas: Big O (worst case), Omega (best case), dan Theta (ketika keduanya sama)",
+    "Jenis-jenis kompleksitas yang dibahas: O(1) konstan, O(n) linear, O(log n) logaritmik, O(n²) kuadratik, dan O(n!) eksponensial",
+    "Database indexing berperan penting dalam optimasi performa query, analog dengan sistem indeks pada buku atau yellow pages",
+    "Studi kasus nyata: sistem penyimpanan 15.000 kunci mobil menggunakan pengelompokan berdasarkan 2 digit pertama nomor plat untuk efisiensi pencarian",
+    "Contoh implementasi nyata: optimasi query WordPress block editor dengan teknik batching query menjadi hanya 2 query per halaman, menghindari nested loop yang berpotensi menyebabkan O(n³) atau lebih",
+    "Penting untuk berhati-hati dengan ORM yang mengorbankan performa untuk developer experience, serta disarankan untuk mengecek query hasil ORM dan mengoptimalkannya dengan raw query jika diperlukan"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "videoId": "RfOoMPVgYjM",
+  "generatedAt": "2026-02-21T00:00:00Z",
+  "brief": "Episode ini membahas ViteConf 2024, sebuah konferensi yang menghadirkan ekosistem Vite dan berbagai tools pengembangan web modern. Topik utama meliputi pengumuman pendanaan Void Zero oleh Evan You (pencipta Vite), hadirnya toolchain baru yang lebih cepat seperti OXC dan Rolldown, serta pembahasan tentang Tutorial Kit dari StackBlitz untuk membuat tutorial interaktif. Episode juga menyentuh fenomena \"Everything Written in Rust\" di dunia JavaScript tooling serta perbandingan antara berbagai bundler dan linter modern.",
+  "keyPoints": [
+    "ViteConf 2024 menghadirkan ekosistem Vite yang terus berkembang dengan adopsi yang sangat cepat, mencapai 5 juta unduhan mingguan di npm",
+    "Evan You mengumumkan pendanaan seed untuk Void Zero, perusahaan baru yang akan mengembangkan toolchain unified termasuk Vite, Vitest, Rolldown, dan OXC",
+    "OXC adalah toolchain JavaScript berbasis Rust yang diklaim 3-100x lebih cepat dari SWC dan ESLint, mencakup parser, transformer, linter, dan bundler",
+    "Rolldown adalah bundler baru berbasis Rust yang kompatibel dengan Rollup API, dirancang untuk menggabungkan kelebihan ESBuild dan Rollup dalam satu tool",
+    "Tutorial Kit dari StackBlitz memungkinkan pembuatan tutorial interaktif dengan mudah, terinspirasi dari tutorial Svelte yang dibuat oleh Rich Harris",
+    "Tren \"Everything Written in Rust\" semakin kuat di ekosistem JavaScript, menggantikan tools berbasis Node.js yang lebih lambat",
+    "Diskusi juga menyentuh konferensi lain seperti JavaScript Bangkok dan IDSW.DEV di Jakarta yang akan diadakan tanggal 16-17"
+  ]
+}

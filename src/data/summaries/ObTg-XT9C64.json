@@ -1,0 +1,14 @@
+{
+  "videoId": "ObTg-XT9C64",
+  "generatedAt": "2026-02-21T10:30:00Z",
+  "brief": "Episode ini membahas tentang tips dan trik optimasi performa JavaScript, khususnya penggunaan atribut async, defer, dan dynamic import. Diskusi dimulai dengan Core Web Vitals, terutama INP (Interaction to Next Paint) yang menggantikan FID (First Input Delay) sebagai metrik responsivitas halaman. Tim NgobrolinWEB menjelaskan perbedaan antara script synchronous (blocking), async (dieksekusi segera setelah selesai di-download), dan defer (dieksekusi setelah DOM Content Loaded). Episode ini juga membahas kasus nyata seperti penggunaan jQuery, header bidding untuk iklan, cookie consent, dan bagaimana menghindari race condition. Terdapat diskusi menarik tentang Partytown untuk offload third-party script ke web worker, TypeScript, dan sejarah browser serta JavaScript.",
+  "keyPoints": [
+    "INP (Interaction to Next Paint) adalah Core Web Vital baru yang menggantikan FID sejak 31 Desember 2024, mengukur responsivitas halaman saat interaksi user",
+    "Script tanpa atribut akan bersifat render-blocking dan menghentikan parsing HTML hingga script selesai di-download dan dieksekusi",
+    "Atribut async memungkinkan script di-download secara paralel dan dieksekusi segera setelah selesai, cocok untuk analitik dan tracking",
+    "Atribut defer menunda eksekusi script hingga DOM Content Loaded, menjaga urutan eksekusi sesuai urutan dalam HTML, ideal untuk vendor dan main script",
+    "Race condition dapat terjadi ketika script dependency di-load secara async, seperti jQuery yang belum siap saat script lain dieksekusi",
+    "Partytown adalah library untuk offload third-party script ke web worker, mengurangi beban main thread untuk tracking, ads, dan analytics",
+    "Diskusi juga mencakup Progressive Web Apps, pentingnya progressive enhancement, dan perbedaan antara TypeScript sebagai developer experience tool bukan performance tool"
+  ]
+}
