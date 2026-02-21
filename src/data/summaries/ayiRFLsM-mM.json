@@ -1,0 +1,14 @@
+{
+  "videoId": "ayiRFLsM-mM",
+  "generatedAt": "2026-02-20T00:00:00.000Z",
+  "brief": "Episode Ngobrolin ini membahas tentang HTMX, sebuah front-end framework yang unik dengan pendekatan HTML-first. Berbeda dengan framework modern seperti React atau Vue yang berbasis JavaScript, HTMX memperluas kemampuan HTML melalui atribut khusus dengan prefix HX-, memungkinkan elemen HTML mana pun untuk melakukan HTTP request (GET, POST, PATCH, PUT, DELETE) tanpa perlu menulis kode JavaScript tambahan. Konsep kuncinya adalah \"HTML over the wire\" di mana server mengirimkan HTML sebagai respons yang kemudian langsung di-swap ke DOM, bukan JSON seperti pada SPA modern. Para pembicara juga menunjukkan demo live coding menggunakan Hono sebagai backend server untuk mendemonstrasikan fitur-fitur HTMX seperti hx-get, hx-post, hx-target, hx-swap, hx-indicator, dan hx-boost untuk membuat Single Page Application sederhana.",
+  "keyPoints": [
+    "HTMX adalah front-end framework yang menggunakan pendekatan HTML-first dengan menambahkan atribut HX- pada elemen HTML, memungkinkan interaktivitas tanpa menulis JavaScript client-side yang kompleks.",
+    "Konsep \"HTML over the wire\" - server mengirimkan HTML sebagai respons (bukan JSON), yang kemudian langsung dirender ke browser, mengurangi kompleksitas state management di sisi client.",
+    "Creator HTMX adalah Carson Gross, seorang dosen Software Engineering di Montana State University, yang juga menulis buku \"Hypermedia Systems\" yang tersedia gratis untuk dibaca online.",
+    "HTMX mendukung berbagai metode HTTP (GET, POST, PATCH, PUT, DELETE) dari elemen HTML apa saja, tidak hanya anchor dan form seperti HTML tradisional.",
+    "Fitur penting HTMX meliputi: hx-target untuk menentukan elemen yang akan diupdate, hx-swap untuk mengontrol cara swapping (innerHTML, outerHTML, beforebegin, afterend, dll), hx-indicator untuk loading state, dan hx-boost untuk progressive enhancement.",
+    "HTMX dapat dikombinasikan dengan berbagai backend (Go, PHP, Python, Node.js) dan framework lain seperti Astro untuk API routing yang baik, serta Alpine.js untuk state management client-side tambahan.",
+    "Untuk fitur real-time, HTMX mendukung polling, SSE (Server-Sent Events), dan WebSocket melalui extensions, menjadikannya alternatif yang menarik bagi developer full-stack atau backend yang ingin mengurangi kompleksitas frontend."
+  ]
+}

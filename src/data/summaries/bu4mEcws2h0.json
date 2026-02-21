@@ -1,0 +1,14 @@
+{
+  "videoId": "bu4mEcws2h0",
+  "generatedAt": "2025-02-21T00:00:00.000Z",
+  "brief": "Episode ini adalah sesi tanya jawab Ngobrolin Web versi offline yang diadakan di Surabaya. Pembahasan mencakup berbagai topik teknis seputar pengembangan web, mulai dari perbedaan penggunaan RUM (Real User Monitoring) dan Google Analytics, tantangan menggunakan AI untuk front-end development, keunggulan Tailwind CSS untuk developer yang tidak terlalu mahir CSS, optimasi performa web dengan banyak third-party libraries, hingga perdebatan tentang penggunaan ORM seperti Prisma dan Sequelize dibandingkan SQL raw. Episode ini juga membahas tentang browser automation, web scraping, dan cara kerja spesifikasi teknis web antar browser modern.",
+  "keyPoints": [
+    "RUM (Real User Monitoring) seperti New Relic digunakan untuk memantau error dan performance metrics termasuk Core Web Vitals, sedangkan Google Analytics lebih fokus pada user behavior, device usage, dan traffic analysis",
+    "AI tools seperti v0.dev dapat membantu generate komponen front-end, namun developer tetap perlu memahami prinsip-prinsip front-end seperti validasi form, state management, dan event handler untuk prompting yang efektif",
+    "Tailwind CSS sangat membantu back-end developer yang kurang mahir CSS karena menyediakan utility classes yang konsisten, dengan custom config untuk design tokens yang bisa digunakan lintas project",
+    "Untuk mengoptimalkan performa dengan banyak third-party scripts, gunakan konsep critical rendering path dan defer loading script yang tidak diperlukan di awal (below the fold) menggunakan intersection observer",
+    "ORM seperti Prisma dan Sequelize menawarkan developer experience yang baik dengan TypeScript definitions, namun dapat menghasilkan query yang kurang optimal untuk use case kompleks, sehingga perlu trade-off antara kemudahan dan performa",
+    "Browser automation tidak hanya untuk testing, tetapi juga dapat digunakan untuk scraping data dan otomasi tugas-tugas repetitif, selama dilakukan dengan etika dan menghormati rate limit dari website",
+    "Spesifikasi teknis web (HTML, CSS, JavaScript API) dibuat oleh konsorsium yang terdiri dari perusahaan browser dan komunitas, dengan Web Platform Tests (webpt.fyi) digunakan untuk memastikan konsistensi implementasi antar browser"
+  ]
+}

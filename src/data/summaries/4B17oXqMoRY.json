@@ -1,0 +1,14 @@
+{
+  "videoId": "4B17oXqMoRY",
+  "generatedAt": "2026-02-20T00:00:00.000Z",
+  "brief": "Episode ini membahas tentang Micro Front-end, sebuah arsitektur front-end yang memecah aplikasi monolitik menjadi bagian-bagian kecil yang dapat dikelola oleh tim yang berbeda secara independen. Diskusi dipandu oleh Ivan dengan narasumber Mas Irvan Maulana dan Lihao, yang berbagi pengalaman dan perspektif mereka tentang implementasi micro front-end di industri. Topik yang dibahas meliputi definisi micro front-end, kapan dan mengapa harus menggunakannya, tantangan performa dan dependensi, perbedaan antara monorepo dan micro front-end, serta konsep horizontal dan vertical split. Diskusi juga menyentuh alat-alat seperti Module Federation Plugin dan perdebatan tentang apakah pendekatan Vercel (vertical split) dapat disebut sebagai micro front-end yang sejati.",
+  "keyPoints": [
+    "Micro Front-end adalah ekivalen dari microservice di dunia back-end, memungkinkan tim yang berbeda untuk mengelola bagian-bagian front-end secara independen dengan deployment yang terpisah",
+    "Tanda-tanda bahwa sebuah tim membutuhkan micro front-end adalah ketika ada banyak tim yang mulai bertengkar tentang deployment, delivery menjadi terlalu lambat, dan koordinasi menjadi rumit",
+    "Jangan memulai dengan micro front-end dari awal - mulailah dengan monolit terlebih dahulu, baru pertimbangkan micro front-end ketika benar-benar dibutuhkan (sama seperti pendekatan microservice di back-end)",
+    "Tantangan utama micro front-end adalah performa - semua micro front-end berjalan di environment browser yang sama, membagi JavaScript thread dan memory yang sama, membuat debugging dan optimasi menjadi jauh lebih sulit",
+    "Ada dua konsep split dalam micro front-end: horizontal split (satu halaman dengan multiple aplikasi/packages) dan vertical split (satu aplikasi per halaman seperti pendekatan Vercel)",
+    "Module Federation adalah salah satu alat yang paling populer untuk mengimplementasikan micro front-end, meskipun terikat dengan webpack dan memiliki batasan di Next.js App Router",
+    "Micro front-end lebih bersifat organisasi/pattern daripada teknis - tentang bagaimana memecah satu aplikasi menjadi build yang terpisah untuk tim yang berbeda, bukan sekadar menggunakan teknologi tertentu"
+  ]
+}

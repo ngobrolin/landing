@@ -1,0 +1,14 @@
+{
+  "videoId": "_6HCMH8SREU",
+  "generatedAt": "2026-02-20T00:00:00.000Z",
+  "brief": "Episode ini membahas tren teknologi web di tahun 2025 dengan fokus utama pada perkembangan Artificial Intelligence (AI). Diskusi dimulai dengan review singkat tren 2024, dimana AI Generative menjadi sangat dominan dengan banyak provider baru, produk yang beragam (chatbot, image generator, video generator, audio generator), dan integrasi AI yang semakin meluas ke berbagai produk. Episode ini juga menyinggung tren \"micro apps\" atau aplikasi sekali pakai yang dibuat dengan bantuan AI, serta prediksi bahwa AI akan semakin terintegrasi dan terjangkau bagi developer web.",
+  "keyPoints": [
+    "AI Generative mendominasi tren 2024 dengan banyak provider baru yang tidak hanya menawarkan chatbot, tetapi juga image, video, dan audio generator",
+    "AI Coding Assistant seperti GitHub Copilot, Cursor, dan Windsurf semakin merakyat dan terintegrasi dengan berbagai editor dan workflow developer",
+    "Munculnya tools AI yang dapat membuat aplikasi full-stack secara otomatis seperti bold.new dan v0, memungkinkan pembuatan aplikasi dengan cepat",
+    "Tren \"micro apps\" atau aplikasi sekali pakai (disposable apps) yang dibuat dengan bantuan AI untuk kebutuhan spesifik dan sementara",
+    "Chrome API sebagai standar baru untuk mengakses kemampuan AI di browser, yang memungkinkan AI berjalan secara lokal (on-edge)",
+    "Svelte 5 dan React 19 yang rilis akhir 2024 diprediksi akan semakin banyak diadopsi di tahun 2025",
+    "Local-first architecture dengan sync engine menjadi tren, memungkinkan aplikasi tetap berjalan saat offline dan menyinkronkan data ketika online kembali"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "videoId": "hsf-T40wRz0",
+  "generatedAt": "2026-02-21T00:00:00.000Z",
+  "brief": "Episode ini membahas tentang pengalaman tim dalam beralih dari StreamYard ke Vdo.Ninja, sebuah tools streaming open source berbasis teknologi WebRTC. Diskusi kemudian bergeser ke topik performa website dengan audit Core Web Vitals (INP, CLS, LCP) yang dilakukan di kantor. Topik utama yang dibahas adalah WCAG accessibility audit level 2.1 AA, termasuk aspek legal seperti ADA (Americans with Disabilities Act) di Amerika dan regulasi yang mulai mewajibkan aksesibilitas di Eropa. Episode juga membahas tantangan dalam menjalankan audit accessibility yang mencakup development, design, konten, dan QA.",
+  "keyPoints": [
+    "Vdo.Ninja adalah alternatif open source untuk StreamYard yang menggunakan teknologi WebRTC, memberikan solusi streaming yang lebih fleksibel dan terjangkau",
+    "Core Web Vitals audit memerlukan perhatian pada tiga metrik utama: INP (Interaction to Next Paint), CLS (Cumulative Layout Shift), dan LCP (Largest Contentful Paint)",
+    "WCAG 2.1 AA adalah standar aksesibilitas yang menjadi fokus audit, meskipun tidak selalu wajib secara hukum tergantung yurisdiksi",
+    "ADA (Americans with Disabilities Act) di Amerika mencakup produk digital dan website, terutama untuk toko online dan fasilitas publik yang melayani banyak orang",
+    "Eropa telah mulai mewajibkan standar aksesibilitas WCAG untuk perusahaan enterprise, menunjukkan tren global menuju web yang lebih inklusif",
+    "Accessibility audit tidak hanya tentang development, tetapi juga mencakup design, konten, dan proses QA yang membutuhkan kombinasi automated testing dan manual review",
+    "Tantangan dalam audit accessibility meliputi struktur semantik (heading levels, sections), kontras warna, dan kebutuhan QA yang tidak sepenuhnya bisa di-automate"
+  ]
+}

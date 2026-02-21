@@ -1,0 +1,14 @@
+{
+  "videoId": "4yHA-8Bu4XM",
+  "generatedAt": "2026-02-20T00:00:00.000Z",
+  "brief": "Episode ini membahas pengalaman tim Ngobrolin WEB menghadiri JavaScript Bangkok Conference 2.0.1 di Bangkok, Thailand. Rizal menceritakan pengalamannya ditolak saat mengajukan topik presentasi tentang Local First AI, namun tetap mendapat kesempatan untuk hadir setelah nebeng hotel dan mendapat subsidi dari pihak penyelenggara. Selama konferensi, mereka menghadiri berbagai sesi menarik termasuk keynote oleh Lihao (maintainer Stealth) tentang cara kerja spell compiler, presentasi oleh Pak Thor (ex-Googler) tentang real-time translation dan semantic search menggunakan WebAssembly dan WebGPU secara offline, serta sesi tentang creative coding dengan P5.js oleh Patt Vira. Ivan memberikan presentasi lightning talk tentang WebDriver BiDi. Episode juga menyinggung perbandingan budaya dan kuliner antara Indonesia, Thailand, dan Malaysia, serta diskusi teknis mengapa framework JavaScript yang populer cenderung bersifat minimalis dibandingkan full-battery seperti framework di bahasa pemrograman lain.",
+  "keyPoints": [
+    "Rizal dan Ivan berangkat ke Bangkok untuk menghadiri JavaScript Bangkok Conference 2.0.1, setelah Rizal mengajukan topik presentasi yang ditolak namun tetap diterima kehadirannya",
+    "Eka apply ke conference dengan topik eksperimental tentang Local First AI yang ditolak, namun hal ini membiasakan dirinya untuk tidak takut ditolak dan tetap mencoba dengan segala risiko",
+    "Keynote speaker Lihao (maintainer Stealth) menjelaskan cara kerja spell compiler dengan live-coding, membreakdown bagaimana kode biasa dikompilasi menjadi JavaScript yang dieksekusi",
+    "Pak Thor (ex-Googler yang sekarang di Supabase) mendemonstrasikan real-time translation dan semantic search yang berjalan sepenuhnya offline menggunakan WebAssembly dan WebGPU di browser",
+    "Patt Vira, content creator Thailand yang ahli creative coding dengan P5.js, berbagi cerita bagaimana dia merasa kesulitan belajar coding secara tradisional namun menemukan passion melalui creative coding",
+    "Alicia JS, framework backend minimalis karya developer Thailand dengan tema anime, diperkenalkan sebagai alternatif dari Express dengan performa yang lebih cepat",
+    "Diskusi teknis tentang mengapa framework JavaScript populer cenderung minimalis (Express, Hono, Alicia JS) dibandingkan full-battery framework di bahasa lain seperti Rails, Django, atau Laravel"
+  ]
+}

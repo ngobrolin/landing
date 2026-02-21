@@ -1,0 +1,14 @@
+{
+  "videoId": "8tZIeQH1DSU",
+  "generatedAt": "2026-02-20T00:00:00.000Z",
+  "brief": "Episode ini membahas tentang Svelte dan Svelte 5 bersama Lihau, seorang Svelte maintainer yang bekerja sebagai Front-end Engineer di Shopee Singapore. Lihau berbagi perjalanan menjadi maintainer Svelte yang dimulai saat pandemi COVID-19 ketika ia mencoba membaca kode Svelte di GitHub dan membuat pull request kecil. Diskusi mencakup perbedaan antara Svelte dan React, keuntungan menggunakan Svelte untuk animasi dan transisi, konsep compiler Svelte yang mengubah kode menjadi vanilla JavaScript, serta perubahan besar dalam Svelte 5 yang memperkenalkan runes untuk universal reactivity. Episode juga membahas tentang SvelteKit sebagai meta framework resmi, contoh aplikasi populer yang menggunakan Svelte seperti Apple Music dan syntax.fm, serta tantangan dalam mengadopsi framework baru di lingkungan perusahaan.",
+  "keyPoints": [
+    "Lihau menjadi Svelte maintainer setelah membuat beberapa pull request kecil saat pandemi COVID-19, dibantu oleh kebetuan bahwa Rich Harris sibuk dengan proyek COVID di New York Times",
+    "Svelte bekerja sebagai compiler yang mengubah kode menjadi vanilla JavaScript, sehingga tidak ada runtime overhead di browser, berbeda dengan React yang menggunakan Virtual DOM",
+    "Svelte 5 memperkenalkan runes dan effect hooks yang terinspirasi dari React hooks, memungkinkan universal reactivity yang bekerja di mana saja dalam kode",
+    "Shopee masih menggunakan React untuk sebagian besar proyek karena maintainability dan familiarity, bukan karena keterbatasan Svelte",
+    "Lihau merekomendasikan SvelteKit sebagai meta framework resmi untuk sebagian besar use case, dari blog statis hingga aplikasi dinamis dengan server-side rendering",
+    "Contoh aplikasi populer yang menggunakan Svelte termasuk Apple Music, syntax.fm, dan PocketBase admin UI",
+    "Tim Svelte menggunakan test suite yang komprehensif untuk memastikan backward compatibility saat mengembangkan Svelte 5, dengan test case yang dapat dilihat langsung di repository"
+  ]
+}

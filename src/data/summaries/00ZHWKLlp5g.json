@@ -1,0 +1,14 @@
+{
+  "videoId": "00ZHWKLlp5g",
+  "generatedAt": "2026-02-20T16:30:00.000Z",
+  "brief": "Episode ini membahas tentang berbagai perangkat keras, perangkat lunak, dan tools yang digunakan oleh para host dalam keseharian mereka sebagai developer. Topik berkisar dari setup hardware seperti keyboard, monitor, speaker, dan microphone, hingga software development tools seperti AI coding assistants (Cursor, Windsurf, Kode, Cloudcode), terminal emulator, dan berbagai aplikasi produktivitas. Episode ini juga menyentuh tentang pengalaman menggunakan berbagai layanan VPN, browser, dan manajemen password serta snippet.",
+  "keyPoints": [
+    "Setup hardware yang dibahas mencakup berbagai pilihan keyboard (Keychron K7, Mistel Baroko MD770, split keyboard), monitor (LG 4K 27 inch), speaker (Harman Kardon Onyx, HomePod Mini), dan microphone (Audio-Technica AT2020, Rode Wireless Go 2)",
+    "Para host berbagi pengalaman menggunakan AI coding assistant seperti Cursor, Windsurf, Kode, dan Cloudcode, dengan berbagai model AI seperti Opus, GLM, dan Gemini untuk coding dan review",
+    "Terminal dan shell menjadi bagian penting dari workflow, dengan penggunaan Warp, Ghostty, iTerm2, dan Oh My ZSH untuk meningkatkan produktivitas",
+    "Aplikasi produktivitas yang menjadi favorit termasuk Raycast (sebagai replacement untuk Alfred), Snippet Lab untuk manajemen code snippets, dan Karabiner untuk custom keyboard mapping",
+    "Diskusi tentang browser mencakup Safari, Chrome, Arc, Brave, Firefox, dan Zen Browser dengan pertimbangan privacy dan user experience",
+    "Layanan VPN seperti Mullvad dan Tunnelbear dibahas dengan fokus pada dedicated IP address untuk keamanan akses server",
+    "Episode diakhiri dengan promosi Domonesia yang memberikan diskon 50% untuk VPS Turbo"
+  ]
+}
