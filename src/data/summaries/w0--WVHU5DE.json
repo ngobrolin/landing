@@ -1,0 +1,15 @@
+{
+  "videoId": "w0--WVHU5DE",
+  "generatedAt": "2026-02-21T10:30:00Z",
+  "brief": "Episode ini membahas tentang dokumentasi dalam pengembangan software, mulai dari konsep dasar, jenis-jenis dokumentasi, hingga berbagai tools yang dapat digunakan. Diskusi dimulai dengan pengenalan Documentation System yang terdiri dari empat jenis utama: Tutorial (learning-oriented), How-to Guides (problem-solving oriented), Explanation (teoretical/conceptual), dan Reference (API documentation). Episode mengulas berbagai tools populer seperti Docusaurus (React-based), Starlight (Astro-based), Storybook (untuk UI components), Swagger/OpenAPI (untuk API documentation), dan Google Code Lab (untuk step-by-step tutorial). Topik penting yang dibahas meliputi best practice \"Docs as Code\" di mana dokumentasi ditempatkan dalam reposisi yang sama dengan kode untuk memudahkan tracking, version control, dan code review, serta diskusi tentang bagaimana dokumentasi modern juga perlu dikonsumsi oleh AI tools seperti Cursor dan Copilot.",
+  "keyPoints": [
+    "Documentation System terdiri dari empat jenis: Tutorial (belajar step-by-step), How-to Guides (solusi masalah spesifik), Explanation (konsep/filosofi di balik teknologi), dan Reference (dokumentasi API/sintaks)",
+    "Docusaurus adalah framework dokumentasi berbasis React yang paling populer (go-to solution) dengan fitur SSG, blog, dan dukungan MDX",
+    "Starlight adalah template dokumentasi berbasis Astro dengan best practices dari dokumentasi Astro sendiri, mendukung multi-lingual termasuk bahasa Indonesia",
+    "Storybook adalah tool khusus untuk dokumentasi UI components dengan fitur autodocs, accessibility testing, dan visual testing, mendukung berbagai framework",
+    "Swagger/OpenAPI Specification adalah standar untuk API documentation yang berfungsi sebagai \"kontrak\" antara front-end dan back-end developer",
+    "Best practice \"Docs as Code\" menyarankan dokumentasi ditempatkan dalam repo yang sama dengan kode untuk tracking, version control, dan menghindari dokumentasi terbengkalai",
+    "Google Code Lab menawarkan format step-by-step tutorial yang user-friendly untuk workshop, dapat ditulis menggunakan Google Docs dan dikonversi menjadi HTML",
+    "Dokumentasi modern tidak hanya untuk manusia tetapi juga untuk dikonsumsi oleh AI tools, sehingga struktur heading dan semantic markdown menjadi semakin penting"
+  ]
+}

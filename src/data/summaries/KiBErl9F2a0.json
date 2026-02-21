@@ -1,0 +1,14 @@
+{
+  "videoId": "KiBErl9F2a0",
+  "generatedAt": "2026-02-21T00:00:00Z",
+  "brief": "Episode ini membahas perjalanan Imbre Nagi, seorang Cloud Engineer yang berbagi pengalamannya dalam mempelajari front-end development dan membangun platform course online menggunakan Astro. Imbre menceritakan awal mula karirnya sebagai iOS engineer, transisi ke cloud infrastructure, dan tantangan yang dihadapi ketika belajar front-end framework seperti React dan Next.js. Diskusi juga mencakup filosofi Astro sebagai framework yang mengutamakan server-side rendering dengan JavaScript minimal, serta insight tentang teknologi yang digunakan dalam platform course-nya seperti TypeScript, Ansible untuk deployment, dan integrasi dengan Firebase untuk autentikasi.",
+  "keyPoints": [
+    "Imbre Nagi berbagi perjalanan karir dari iOS engineer hingga menjadi Cloud Engineer yang fokus pada database infrastructure (Postgres, Redis, Kafka)",
+    "Pengalaman belajar front-end yang cukup menantang karena harus beradaptasi dengan perubahan paradigma dari server-side rendering ke client-side rendering (SPA)",
+    "Pilihan menggunakan Astro untuk membangun courses.imbranagi.com karena filosofi server-side rendering dan JavaScript minimal yang sesuai dengan background back-end",
+    "Platform course menggunakan Astro dengan TypeScript, pure CSS (tanpa Tailwind), dan Ansible untuk deployment ke VM di Singapura",
+    "Diskusi tentang pentingnya memahami dasar-dasar web development dan tidak terjebak dalam abstraksi framework yang terlalu kompleks",
+    "Imbre menciptakan platform course sebagai bagian dari 'nazar pemilu' dan sekarang menjual materi course baik dalam format markdown maupun video",
+    "Pendekatan pragmatis dalam belajar teknologi: fokus pada pemrograman fundamentals daripada terpaku pada bahasa tertentu, sesuai dengan kebutuhan karir atau minat membangun produk"
+  ]
+}

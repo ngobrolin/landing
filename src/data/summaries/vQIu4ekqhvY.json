@@ -1,0 +1,14 @@
+{
+  "videoId": "vQIu4ekqhvY",
+  "generatedAt": "2026-02-21T00:00:00Z",
+  "brief": "Episode ini membahas pengalaman para Google Developer Expert (GDE) dari Indonesia yang menghadiri Google I/O Connect China 2024 di Beijing. Mereka berbagi cerita tentang perjalanan, sesi-sesi teknis yang diikuti, demo interaktif menarik, serta kesempatan bertemu langsung dengan developer relation Google seperti Adam Argyle, Thomas Steiner, dan Jocelyn. Episode ini juga membahas perbedaan antara Google I/O, I/O Connect, dan I/O Extended, serta berbagai teknologi baru seperti AI di browser, View Transitions API, dan fitur terbaru Chrome DevTools.",
+  "keyPoints": [
+    "Perbedaan Google I/O (event utama di California), I/O Connect (event regional yang diselenggarakan Google), dan I/O Extended (event lokal yang diselenggarakan komunitas GDG)",
+    "Demo interaktif menarik menggunakan AI seperti game sepak bola dan mini golf yang menganalisis gerakan dengan OpenCV, Gemini Pro, dan text-to-speech",
+    "Workshop View Transitions API oleh Adam Argyle yang menampilkan cara membuat e-commerce dengan UI modern menggunakan vanilla CSS dan JavaScript",
+    "Fitur baru Chrome DevTools yang dapat menjelaskan error menggunakan AI dan memanipulasi response untuk development",
+    "Web AI dan keuntungan menjalankan model AI langsung di browser menggunakan Cache API untuk menyimpan model sebagai binary",
+    "Pengalaman menjadi minoritas di negara dengan bahasa yang berbeda dan tantangan bahasa dalam mengikuti sesi teknis",
+    "Tips untuk menghadiri event internasional: persiapkan paspor minimal 6 bulan, kondisi fisik yang prima, dan siapkan pertanyaan untuk speakers"
+  ]
+}

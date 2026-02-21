@@ -1,0 +1,14 @@
+{
+  "videoId": "uYnfyW3M790",
+  "generatedAt": "2026-02-21T00:00:00Z",
+  "brief": "Episode ini membahas tentang berbagai tools dan platform untuk membuat presentasi slide, mulai dari konvensional seperti PowerPoint dan Keynote hingga berbasis web seperti Google Slides, Canva, dan solusi berbasis kode seperti Reveal.js, MDX Deck, dan Slidev. Diskusi dimulai dengan pengalaman pribadi para host dalam menggunakan berbagai tools presentasi, kelebihan dan kekurangan masing-masing, serta fokus khusus pada Slidev - sebuah framework berbasis Markdown dan Vue yang memungkinkan developer membuat presentasi dengan cara yang lebih natural menggunakan kode. Episode juga menyinggung tentang use case khusus untuk developer seperti menampilkan kode dengan syntax highlighting, demo langsung di browser, dan kemudahan kolaborasi serta hosting.",
+  "keyPoints": [
+    "Perbandingan berbagai tools presentasi dari konvensional (PowerPoint, Keynote) ke berbasis web (Google Slides, Canva) dan berbasis kode (Reveal.js, MDX Deck, Slidev, Marp)",
+    "Slidev sebagai framework berbasis Markdown dan Vue yang memungkinkan developer membuat slide dengan code editor kesukaan mereka, menawarkan velocity lebih cepat dan layout yang lebih fleksibel",
+    "Kelebihan tools berbasis JavaScript untuk presentasi technical: kemampuan menjalankan demo langsung di browser, syntax highlighting yang baik, dan integrasi dengan component framework",
+    "Fitur-fitur Slidev termasuk built-in layouts, custom components, UnoCSS untuk styling, icon integration via UnoCSS Icons, dan kemampuan export ke berbagai format",
+    "Diskusi tentang use case khusus seperti demo Web API, View Transition API, dan integrasi dengan WebContainer untuk live coding langsung di slide",
+    "Opsi hosting dan deployment untuk slide berbasis kode termasuk GitHub Pages, Netlify, Vercel, dan kemampuan kolaborasi via Git atau GitHub Codespaces",
+    "Alternatif lain seperti Marp (Markdown Presentation Ecosystem) yang lebih pure tanpa framework JavaScript, serta tools komersial seperti AI Presenter"
+  ]
+}
