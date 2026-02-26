@@ -1,0 +1,4218 @@
+{
+  "videoId": "32B5A4eX_aw",
+  "language": "id",
+  "generatedAt": "2026-02-21T18:26:12.578Z",
+  "segments": [
+    {
+      "start": 0,
+      "end": 25,
+      "text": "Halo halo halo selamat malam selamat malam selamat hari selasa seperti biasa bertemu lagi"
+    },
+    {
+      "start": 25,
+      "end": 26.38,
+      "text": "dengan kita bertiga ada"
+    },
+    {
+      "start": 26.38,
+      "end": 28.72,
+      "text": "Eka, ada Ivan, ada Riza"
+    },
+    {
+      "start": 28.72,
+      "end": 30.86,
+      "text": "iya, kali ini Eka"
+    },
+    {
+      "start": 30.86,
+      "end": 31.72,
+      "text": "udah muncul"
+    },
+    {
+      "start": 31.72,
+      "end": 34.76,
+      "text": "kali ini Eka udah muncul, setelah minggu lalu"
+    },
+    {
+      "start": 34.76,
+      "end": 36.1,
+      "text": "kabur, menghilang"
+    },
+    {
+      "start": 36.1,
+      "end": 38.68,
+      "text": "wah seru banget ya kemarin"
+    },
+    {
+      "start": 38.68,
+      "end": 41,
+      "text": "ya, semua"
+    },
+    {
+      "start": 41,
+      "end": 42.7,
+      "text": "serius"
+    },
+    {
+      "start": 42.7,
+      "end": 44.94,
+      "text": "itu gak ada topik, justru rame"
+    },
+    {
+      "start": 44.94,
+      "end": 47,
+      "text": "pertanyaannya gak habis-habis"
+    },
+    {
+      "start": 47,
+      "end": 49.08,
+      "text": "tapi banyakkan"
+    },
+    {
+      "start": 49.08,
+      "end": 50.2,
+      "text": "curhat ya kita ya"
+    },
+    {
+      "start": 50.2,
+      "end": 51.54,
+      "text": "banyakkan curhat"
+    },
+    {
+      "start": 51.54,
+      "end": 54.64,
+      "text": "jadi kita nanti mau merancangkan"
+    },
+    {
+      "start": 54.64,
+      "end": 59.08,
+      "text": "sesekali tanpa topik"
+    },
+    {
+      "start": 59.08,
+      "end": 61.06,
+      "text": "jadi ya get in touch sama"
+    },
+    {
+      "start": 61.06,
+      "end": 63.1,
+      "text": "ini aja sama teman-teman"
+    },
+    {
+      "start": 63.1,
+      "end": 65.56,
+      "text": "semua ya teman-teman yang penonton"
+    },
+    {
+      "start": 65.56,
+      "end": 66.98,
+      "text": "malah lebih seru"
+    },
+    {
+      "start": 66.98,
+      "end": 68.98,
+      "text": "biar tau kondisi di lapangan"
+    },
+    {
+      "start": 68.98,
+      "end": 69.34,
+      "text": "besok lagi dong"
+    },
+    {
+      "start": 69.34,
+      "end": 73.5,
+      "text": "ya maksudnya besok-besok"
+    },
+    {
+      "start": 73.5,
+      "end": 74.22,
+      "text": "bikin"
+    },
+    {
+      "start": 74.22,
+      "end": 76.42,
+      "text": "bikin seri kayak gitu"
+    },
+    {
+      "start": 76.42,
+      "end": 79.46,
+      "text": "iya kita rencana bikin seri"
+    },
+    {
+      "start": 79.46,
+      "end": 81.78,
+      "text": "ada diskusi santai"
+    },
+    {
+      "start": 81.78,
+      "end": 83.36,
+      "text": "ada fundamental"
+    },
+    {
+      "start": 83.36,
+      "end": 87.96,
+      "text": "Nah kira-kira malam ini kita bahas apa ya?"
+    },
+    {
+      "start": 88.52,
+      "end": 89.28,
+      "text": "Trending"
+    },
+    {
+      "start": 89.28,
+      "end": 92.5,
+      "text": "Yang lagi yang akan ngetrend ya"
+    },
+    {
+      "start": 92.5,
+      "end": 95.6,
+      "text": "Yang sedang ngetrend atau yang akan ngetrend ke depannya gitu ya"
+    },
+    {
+      "start": 95.6,
+      "end": 100.62,
+      "text": "Jadi malam ini kita akan bahas beberapa web API"
+    },
+    {
+      "start": 100.62,
+      "end": 104.22,
+      "text": "Baik itu HTML, CSS ataupun JavaScript"
+    },
+    {
+      "start": 104.22,
+      "end": 109.16,
+      "text": "Yang disediakan oleh browser"
+    },
+    {
+      "start": 109.16,
+      "end": 113.28,
+      "text": "Jadi web API ini bukan REST API ya"
+    },
+    {
+      "start": 113.28,
+      "end": 123.48,
+      "text": "bukan service kayak apa ya swapi bukan ya bukan ya ini API yang bisa kita gunakan secara apa untuk"
+    },
+    {
+      "start": 123.48,
+      "end": 134.58,
+      "text": "programming ya bisa buat macem-macem contohnya local storage itu ya storage API lebih tepatnya"
+    },
+    {
+      "start": 134.58,
+      "end": 144.34,
+      "text": "Storage API, Performance API, Observer API, observer kan ada banyak."
+    },
+    {
+      "start": 144.34,
+      "end": 151.32,
+      "text": "Dan ini sebetulnya semua API ini bedanya dengan produk lain mungkin ya,"
+    },
+    {
+      "start": 151.46,
+      "end": 159.16,
+      "text": "maksudnya fitur-fitur yang khusus browser, ini beda web API ini kan berdasarkan standar,"
+    },
+    {
+      "start": 159.28,
+      "end": 163.28,
+      "text": "namanya spesifikasi, jadi landasannya itu spesifikasi teknis."
+    },
+    {
+      "start": 163.28,
+      "end": 165.96,
+      "text": "Jadi API ini fungsinya bla bla bla"
+    },
+    {
+      "start": 165.96,
+      "end": 169.04,
+      "text": "Terus jadi kayak semacam test case lah"
+    },
+    {
+      "start": 169.04,
+      "end": 172.9,
+      "text": "Kalau user melakukan ini"
+    },
+    {
+      "start": 172.9,
+      "end": 175.2,
+      "text": "Atau kalau misalnya inputnya seperti ini"
+    },
+    {
+      "start": 175.2,
+      "end": 177.74,
+      "text": "Maka prosesnya akan seperti ini"
+    },
+    {
+      "start": 177.74,
+      "end": 179.92,
+      "text": "Jadi itu belum implementasi"
+    },
+    {
+      "start": 179.92,
+      "end": 181.28,
+      "text": "Nggak ada codingannya sama sekali"
+    },
+    {
+      "start": 181.28,
+      "end": 183.66,
+      "text": "Cuma spesifikasi teknis"
+    },
+    {
+      "start": 183.66,
+      "end": 185.46,
+      "text": "Nah masing-masing browser"
+    },
+    {
+      "start": 185.46,
+      "end": 189.46,
+      "text": "Pertama bebas mutusin untuk mau pakai atau nggak"
+    },
+    {
+      "start": 189.46,
+      "end": 191.24,
+      "text": "Mengadopsi atau nggak"
+    },
+    {
+      "start": 191.24,
+      "end": 198.26,
+      "text": "Kedua, coding-annya gimana implementasi di masing-masing browser engine ya bebas terserah masing-masing browser."
+    },
+    {
+      "start": 198.6,
+      "end": 201.02,
+      "text": "Cuma harus berlandaskan si spek itu."
+    },
+    {
+      "start": 203.64,
+      "end": 218.34,
+      "text": "Oke, oke. Nah kira-kira di 2024 ini teman-teman punya apa ya, punya web API baru yang udah dipakai atau yang menarik, yang kira-kira menarik, gak boleh di-share?"
+    },
+    {
+      "start": 221.24,
+      "end": 233.34,
+      "text": "siapa dulu Eka dulu ya kak yang menarik yang dibahas duluan malah bukan yang dicatatkan itu"
+    },
+    {
+      "start": 233.34,
+      "end": 239.6,
+      "text": "sebet paling menarik tetap transition sih enggak itu kan dari tahun lalu soalnya ini kan topiknya"
+    },
+    {
+      "start": 239.6,
+      "end": 245.78,
+      "text": "adalah web API baru Nah kalau kalau view transition itu seneng-seneng pribadi aja sih"
+    },
+    {
+      "start": 245.78,
+      "end": 253.64,
+      "text": "dari devest tahun lalu topiknya topik togo bahas itu dan sampai sekarang sekarang udah masuk semua"
+    },
+    {
+      "start": 253.64,
+      "end": 261.02,
+      "text": "browser yang level 1 level 1 itu yang client-side cuma kalau yang level 2 yang apa server-side"
+    },
+    {
+      "start": 261.02,
+      "end": 268.22,
+      "text": "lah ya antar dokumen antar link tuh sayangnya ya masih belum terlalu tapi udah mulai ada ya"
+    },
+    {
+      "start": 268.22,
+      "end": 275.96,
+      "text": "udah ada update baru cuma kalau dari berasanya selesai gimana maksudnya antar dokumen antar"
+    },
+    {
+      "start": 275.96,
+      "end": 289.28,
+      "text": "dokumen antar antar part dalam jadi kalau misalnya ikhlas.com mengunjungi page yang lain dia klik"
+    },
+    {
+      "start": 289.28,
+      "end": 302.95203,
+      "text": "bisa ngetransisinya slash full iya bisa transition tanpa client JavaScript ya bisa Maksudnya kita define transitionnya seperti apa tapi tanpa hijack client routing nggak usah pakai router client"
+    },
+    {
+      "start": 302.95203,
+      "end": 304.752,
+      "text": "itu yang level 2"
+    },
+    {
+      "start": 304.752,
+      "end": 306.752,
+      "text": "cuma belum semua browser"
+    },
+    {
+      "start": 306.752,
+      "end": 308.752,
+      "text": "si Chrome-nya sudah bisa?"
+    },
+    {
+      "start": 308.752,
+      "end": 311.752,
+      "text": "Chrome bisa, bisa pakai flag"
+    },
+    {
+      "start": 311.752,
+      "end": 313.752,
+      "text": "demo, demo, demo"
+    },
+    {
+      "start": 313.752,
+      "end": 315.752,
+      "text": "belum, besok-besok"
+    },
+    {
+      "start": 315.752,
+      "end": 318.752,
+      "text": "oke, pengen tuh gue liat tuh"
+    },
+    {
+      "start": 318.752,
+      "end": 326.97202,
+      "text": "di itu khusus aja CSS dan apa pokoknya front-end front-end Magic part 2 kan kita pernah tuh dulu"
+    },
+    {
+      "start": 326.97202,
+      "end": 334.23203,
+      "text": "nah ini yang baru ini yang yang di topik ini juga front-end Magic juga sih popover"
+    },
+    {
+      "start": 334.23203,
+      "end": 342.152,
+      "text": "sebetulnya malah implementasinya ya bisa dijadiin model atau toast atau apapun lah"
+    },
+    {
+      "start": 342.152,
+      "end": 351.39203,
+      "text": "yang muncul nongol di layar nah ini ini modal itu udah muncul duluan kan modal tapi ya dialog-dialog"
+    },
+    {
+      "start": 351.39203,
+      "end": 359.672,
+      "text": "dialog-dialog ya ini bedanya bedanya sama dia lupa beda spesifikasinya cuma enggak tahu sih"
+    },
+    {
+      "start": 359.672,
+      "end": 364.47202,
+      "text": "kalau gue lihatnya mirip-mirip juga ya beda peruntukan aja kayaknya buat hal-hal yang"
+    },
+    {
+      "start": 364.47202,
+      "end": 376.772,
+      "text": "lebih kecil sama kayak buat apa nanti ada demonya dibawa ininya dulu tentang si epinya dulu ini tuh"
+    },
+    {
+      "start": 376.772,
+      "end": 382.41202,
+      "text": "sebenarnya kalau yang di Chrome only udah dari dua tahun yang lalu sih dua atau tiga tahun lalu"
+    },
+    {
+      "start": 382.41202,
+      "end": 391.29202,
+      "text": "punya kontennya Mas ada mergel sama Mbak Una itu bahas ini udah lama banget cuma yang bikin menarik"
+    },
+    {
+      "start": 391.29202,
+      "end": 399.032,
+      "text": "sekarang tuh udah baseline sudah diadopsi oleh versi stabil semua browser dua versi terakhir"
+    },
+    {
+      "start": 399.032,
+      "end": 410.97202,
+      "text": "ya itu sudah berarti udah aman untuk digunakan ya Iya tetap tergantung user base kita sih aman"
+    },
+    {
+      "start": 410.97202,
+      "end": 419.552,
+      "text": "atau enggaknya kan tergantung actual user kita cuma ya apa user generic pada umumnya udah lumayan"
+    },
+    {
+      "start": 419.552,
+      "end": 431.492,
+      "text": "nah mose udah cukup tinggi lah 22 versi terakhir dua versi stabil terakhir Nah tetap apa konsep"
+    },
+    {
+      "start": 431.492,
+      "end": 441.27203,
+      "text": "konsep popover versus model versus dialog segala macem tuh penjelasannya itu tuh cuma sebetulnya"
+    },
+    {
+      "start": 441.27203,
+      "end": 448.83203,
+      "text": "ngerti-ngerti juga sih Oh pop popover is being shown the rest of the page is non-interactive"
+    },
+    {
+      "start": 448.83203,
+      "end": 458.13202,
+      "text": "tidak bisa kita nggak bisa interaksi di elemen lain autofocus dikunci ke dalam situ itu modal"
+    },
+    {
+      "start": 458.13202,
+      "end": 466.112,
+      "text": "Nah kalau non modal Oh gitu baru ngerti sekarang malah bedanya kalau modal itu pop-up yang kita"
+    },
+    {
+      "start": 466.112,
+      "end": 473.13202,
+      "text": "dipaksa dikunci fokusnya disitu harus berinteraksi dulu jadi contohnya kayak apa cookie consent atau"
+    },
+    {
+      "start": 473.13202,
+      "end": 478.19202,
+      "text": "apalah kan kita nggak boleh lanjut sampai kita nyelesaikan itu, menutup itu."
+    },
+    {
+      "start": 478.812,
+      "end": 484.492,
+      "text": "Kalau non-modal, itu ya pop-up juga muncul di atas layar,"
+    },
+    {
+      "start": 484.492,
+      "end": 489.252,
+      "text": "tapi ya kita cuekin boleh, kita bisa berinteraksi dengan sisa isi halaman."
+    },
+    {
+      "start": 489.752,
+      "end": 493.07202,
+      "text": "Nah, kalau pop-over API ini non-modal."
+    },
+    {
+      "start": 494.07202,
+      "end": 498.47202,
+      "text": "Ya, jadi itu kayak toast atau apalah tooltip atau semacamnya."
+    },
+    {
+      "start": 498.47202,
+      "end": 504.612,
+      "text": "Tahu kan misalnya ada fitur baru terus sering melihat kan kita icon i gitu."
+    },
+    {
+      "start": 505.152,
+      "end": 508.612,
+      "text": "Nah terus misalnya kita klik atau hover di situ suka muncul penjelasannya."
+    },
+    {
+      "start": 508.872,
+      "end": 515.312,
+      "text": "Kan itu bukan hal yang kritikal yang harus memaksa user nyelesaikan interaksi di situ baru lanjut ke tempat lain kan."
+    },
+    {
+      "start": 515.452,
+      "end": 516.792,
+      "text": "Itu kayak opsional aja."
+    },
+    {
+      "start": 518.492,
+      "end": 518.912,
+      "text": "Oke."
+    },
+    {
+      "start": 519.552,
+      "end": 520.27203,
+      "text": "Iya, iya, iya."
+    },
+    {
+      "start": 520.312,
+      "end": 520.83203,
+      "text": "Itu bedanya."
+    },
+    {
+      "start": 521.392,
+      "end": 524.632,
+      "text": "Nah ini kan sebenarnya penggunaan apa?"
+    },
+    {
+      "start": 524.632,
+      "end": 527.152,
+      "text": "ini pattern UI yang umum"
+    },
+    {
+      "start": 527.152,
+      "end": 529.012,
+      "text": "banget ya, selama puluhan"
+    },
+    {
+      "start": 529.012,
+      "end": 530.59204,
+      "text": "belasan tahun tuh kita kayak"
+    },
+    {
+      "start": 530.59204,
+      "end": 532.512,
+      "text": "harus pake, ya harus"
+    },
+    {
+      "start": 532.512,
+      "end": 534.872,
+      "text": "kalau iseng, kalau kelebihan waktu dan tenaga"
+    },
+    {
+      "start": 534.872,
+      "end": 536.27203,
+      "text": "bisa bikin sendiri, atau"
+    },
+    {
+      "start": 536.27203,
+      "end": 539.21204,
+      "text": "yang lebih realistis, kita harus cari-cari"
+    },
+    {
+      "start": 539.21204,
+      "end": 541.112,
+      "text": "apa, library"
+    },
+    {
+      "start": 541.112,
+      "end": 543.33203,
+      "text": "atau package yang di install biar bisa"
+    },
+    {
+      "start": 543.33203,
+      "end": 544.952,
+      "text": "bikin fitur ini"
+    },
+    {
+      "start": 544.952,
+      "end": 547.412,
+      "text": "terus mengganggu performance juga kan"
+    },
+    {
+      "start": 547.412,
+      "end": 549.152,
+      "text": "bikin gini"
+    },
+    {
+      "start": 549.152,
+      "end": 551.012,
+      "text": "pake apa ya namanya, swiper"
+    },
+    {
+      "start": 551.012,
+      "end": 552.59204,
+      "text": "eh bukan swiper, apa namanya"
+    },
+    {
+      "start": 552.59204,
+      "end": 555.172,
+      "text": "library.js yang untuk"
+    },
+    {
+      "start": 555.172,
+      "end": 557.132,
+      "text": "bikin popover-popover gini"
+    },
+    {
+      "start": 557.132,
+      "end": 559.112,
+      "text": "popster ya"
+    },
+    {
+      "start": 559.112,
+      "end": 560.152,
+      "text": "popster ada juga ya"
+    },
+    {
+      "start": 560.152,
+      "end": 561.97205,
+      "text": "popster"
+    },
+    {
+      "start": 561.97205,
+      "end": 565.83203,
+      "text": "pop"
+    },
+    {
+      "start": 565.83203,
+      "end": 567.97205,
+      "text": "apa ya"
+    },
+    {
+      "start": 567.97205,
+      "end": 571.09204,
+      "text": "itu mah di UI"
+    },
+    {
+      "start": 571.09204,
+      "end": 573.33203,
+      "text": "component library apapun ada sih"
+    },
+    {
+      "start": 573.33203,
+      "end": 577.412,
+      "text": "gue lupa dulu ada yang sering"
+    },
+    {
+      "start": 577.412,
+      "end": 579.452,
+      "text": "gue pake dulu tuh apa namanya"
+    },
+    {
+      "start": 579.452,
+      "end": 581.112,
+      "text": "nah btw"
+    },
+    {
+      "start": 581.112,
+      "end": 603.364,
+      "text": "udah ini bingungnya demo khas developer banget deh secara estetis tuh kureng kureng nggak ada sesuai dengan terus apa sense of of estetiknya ya begitulah cuma mau saya apa kan yang penting bisa bisa nunjukin bahwa itu bisa ini bisa dipencet berkali coba generate"
+    },
+    {
+      "start": 603.364,
+      "end": 614.26404,
+      "text": "sukses tos lagi deh generate file Hai nge-generate file tos nah kan Oh yang ini maksudnya ia boleh"
+    },
+    {
+      "start": 614.26404,
+      "end": 620.14404,
+      "text": "dipakai buat itu boleh dipakai buat misalnya itu tadi information tooltip atau apapun lah yang"
+    },
+    {
+      "start": 620.14404,
+      "end": 627.94403,
+      "text": "pop-up yang non model yang itu tadi enggak enggak ngunci fokus enggak menghalangi interaksi tempat"
+    },
+    {
+      "start": 627.94403,
+      "end": 638.38403,
+      "text": "lain usap menu Woi zaman kapan banget ini jamannya inget gak jamannya DHTML dulu pernah"
+    },
+    {
+      "start": 638.38403,
+      "end": 645.82404,
+      "text": "kita yang ya iya iya dulu pernah baca cuma nggak ngerti sama sekali terus mikir udah nggak bakat"
+    },
+    {
+      "start": 645.82404,
+      "end": 656.08405,
+      "text": "begini-ginian DHTML ya Iya ya dihapus ya iya masa itu apa sih ya iya html kan berhenti ada"
+    },
+    {
+      "start": 656.08405,
+      "end": 664.004,
+      "text": "transisi dan transisi antara halaman-halaman web menuju ke web application kan aplikasi"
+    },
+    {
+      "start": 664.004,
+      "end": 672.344,
+      "text": "Nah di tengah-tengah itu kan ada orang yang punya kreativitas untuk bikin hal-hal yang tadinya halaman web tapi udah mulai dinamis."
+    },
+    {
+      "start": 672.564,
+      "end": 677.984,
+      "text": "Kayak tampilin menu, ada yang kayak hamburger menu di klik ke kanan gitu."
+    },
+    {
+      "start": 678.124,
+      "end": 679.40405,
+      "text": "Pokoknya yang interaktif gitu."
+    },
+    {
+      "start": 679.604,
+      "end": 683.78406,
+      "text": "Tapi zaman dulu kan masih belum terlalu banyak hal-hal yang seperti itu."
+    },
+    {
+      "start": 683.984,
+      "end": 685.564,
+      "text": "Karena JavaScript tidak digunakan untuk itu."
+    },
+    {
+      "start": 687.124,
+      "end": 687.624,
+      "text": "Itu sih ya."
+    },
+    {
+      "start": 687.624,
+      "end": 693.58405,
+      "text": "Nah maksudnya apa? Itu bahasa tersendiri atau gimana?"
+    },
+    {
+      "start": 694.004,
+      "end": 703.70404,
+      "text": "enggak cuma HTML ketambahan animasi itu punya dynamic ya gitu aja Oh gitu doang Oh tapi bahasa"
+    },
+    {
+      "start": 703.70404,
+      "end": 716.26404,
+      "text": "klien saatnya mencet bisa jadi CSS bisa jadi atau nah ini coba kalau kalau demo demo popover yang"
+    },
+    {
+      "start": 716.26404,
+      "end": 725.08405,
+      "text": "enak di mata coba deh kalau buatannya Mas Adam rjl itu biasanya bagus Oh oh iya kalau dia puh"
+    },
+    {
+      "start": 725.08405,
+      "end": 737.44403,
+      "text": "dia mah jago CSS pasti bagus kita coba ya hab oh Twitter ada linknya link kopennya ada linknya"
+    },
+    {
+      "start": 737.44403,
+      "end": 739.724,
+      "text": "tadi nge-search doang sih"
+    },
+    {
+      "start": 739.724,
+      "end": 741.004,
+      "text": "random"
+    },
+    {
+      "start": 741.004,
+      "end": 745.004,
+      "text": "connection"
+    },
+    {
+      "start": 745.004,
+      "end": 747.344,
+      "text": "connection"
+    },
+    {
+      "start": 747.344,
+      "end": 751.26404,
+      "text": "ini ya minimal popover demo"
+    },
+    {
+      "start": 751.26404,
+      "end": 752.46405,
+      "text": "animated if supported"
+    },
+    {
+      "start": 752.46405,
+      "end": 755.484,
+      "text": "oh animated if supported"
+    },
+    {
+      "start": 755.484,
+      "end": 756.184,
+      "text": "ya karena itu kan"
+    },
+    {
+      "start": 756.184,
+      "end": 758.08405,
+      "text": "itu kan itu biasa"
+    },
+    {
+      "start": 758.08405,
+      "end": 760.064,
+      "text": "maksudnya HTML CSS biasa"
+    },
+    {
+      "start": 760.064,
+      "end": 762.044,
+      "text": "mau di animasi ya"
+    },
+    {
+      "start": 762.044,
+      "end": 763.304,
+      "text": "animasi CSS"
+    },
+    {
+      "start": 763.304,
+      "end": 766.46405,
+      "text": "progressive enhancement"
+    },
+    {
+      "start": 766.46405,
+      "end": 776.96405,
+      "text": "enhancement Oh ini tip gitu doang cek itu doang ini bikinnya banyak lho opacity nggak"
+    },
+    {
+      "start": 776.96405,
+      "end": 784.64404,
+      "text": "itu kan buat animasinya fade-in fade-out ini oh ininya tag-nya popover target ya popover"
+    },
+    {
+      "start": 784.64404,
+      "end": 793.16406,
+      "text": "popover target sama dengan mytooltip mytooltip dia bakal cari elemen HTML apapun yang id-nya"
+    },
+    {
+      "start": 793.16406,
+      "end": 800.544,
+      "text": "sesuai microtip coba tulis yang panjang deh tip isi tipnya diganti lorem ipsum dolor sit amet"
+    },
+    {
+      "start": 800.544,
+      "end": 813.924,
+      "text": "gitu yang bawah yang bawah yang bawah loh kok hilang render-render uang tip-tip punya hujan"
+    },
+    {
+      "start": 813.924,
+      "end": 828.684,
+      "text": "punya ujian dan aku punya ujian Oke finish Oh masih lagi dah Oh akan emang segitu tapi"
+    },
+    {
+      "start": 828.684,
+      "end": 838.28406,
+      "text": "ini ya apa namanya habis itu lihat bentuknya diatur sama sih CSS terserah diatur yang gimana"
+    },
+    {
+      "start": 838.28406,
+      "end": 844.32404,
+      "text": "Oh javascriptnya bahkan gak ada sama sekali ya ini pure HTML dan CSS ya"
+    },
+    {
+      "start": 844.32404,
+      "end": 851.16406,
+      "text": "Kecuali mungkin kalau yang kayak tadi itu toast yang bisa positioningnya"
+    },
+    {
+      "start": 851.16406,
+      "end": 854.964,
+      "text": "Tadi sesuai jumlah toastnya"
+    },
+    {
+      "start": 854.964,
+      "end": 860.64404,
+      "text": "Ya gak tau pokoknya kalau mau di enhance pakai javascript mungkin bisa"
+    },
+    {
+      "start": 860.64404,
+      "end": 862.4241,
+      "text": "Tapi ya gak perlu gak harus"
+    },
+    {
+      "start": 862.4241,
+      "end": 865.40405,
+      "text": "Iya ini minimal banget sih demonya"
+    },
+    {
+      "start": 865.40405,
+      "end": 896.536,
+      "text": "orang judulnya minimal demo Oke ini udah masuk baseline udah bisa dipakai 2023 udah bisa ya baseline 2023 udah 2024 itu enggak masuk baseline April kemarin bulan lalu tapi kan masuk baseline itu kalau sudah dua versi stabil terakhir"
+    },
+    {
+      "start": 896.536,
+      "end": 898.73596,
+      "text": "semua browser major"
+    },
+    {
+      "start": 898.73596,
+      "end": 905.17596,
+      "text": "nah berarti kan sebenarnya udah dari tahun lalu itu"
+    },
+    {
+      "start": 905.17596,
+      "end": 906.756,
+      "text": "cuma baru April kemarin"
+    },
+    {
+      "start": 906.756,
+      "end": 908.67596,
+      "text": "opera android aja udah bisa nih"
+    },
+    {
+      "start": 908.67596,
+      "end": 910.196,
+      "text": "opera android ini opera mini bukan?"
+    },
+    {
+      "start": 910.196,
+      "end": 911.136,
+      "text": "bukan ya? beda ya?"
+    },
+    {
+      "start": 912.256,
+      "end": 917.47595,
+      "text": "bukan kayaknya bukan deh opera mini itu enggak pakai browser engine apa enggak pakai rendering"
+    },
+    {
+      "start": 917.47595,
+      "end": 925.396,
+      "text": "engine yang mainstream yang masuk akal tuh enggak masuk akal sama sekali itu mereka punya bahasa"
+    },
+    {
+      "start": 925.396,
+      "end": 937.576,
+      "text": "sendiri obml oprah browser merkap paling besar itu enak banget itu bisa bisa biar mereka bikin"
+    },
+    {
+      "start": 937.576,
+      "end": 945.376,
+      "text": "sendiri gimana ngomongin di HTML kan ini ada ada ada ininya ternyata pada pengertiannya"
+    },
+    {
+      "start": 945.376,
+      "end": 957.016,
+      "text": "dynamic HTML ini style animasinya aja retro collection of Technologies used together to"
+    },
+    {
+      "start": 957.016,
+      "end": 961.876,
+      "text": "create interactive and animated website using a combination of static markup languages client"
+    },
+    {
+      "start": 961.876,
+      "end": 974.47595,
+      "text": "scripting and presentation definition language CSS and DOM ini sebenarnya ya sekarang ya Cuman"
+    },
+    {
+      "start": 974.47595,
+      "end": 989.656,
+      "text": "dulu kan belum jadi kita bahas untuk ini ya untuk apa sesi khusus nostalgia ya oke apa nggak nyambung"
+    },
+    {
+      "start": 989.656,
+      "end": 996.61597,
+      "text": "cuma jadi kepikiran mungkin sekian puluh tahun dari sekarang eh atau mesin learning pun udah"
+    },
+    {
+      "start": 996.61597,
+      "end": 1002.55597,
+      "text": "nggak ada termnya tersendiri jangan-jangan karena udah kayak dianggap wajar semua produk digital"
+    },
+    {
+      "start": 1002.55597,
+      "end": 1010.29596,
+      "text": "semua software mungkin udah udah pakai unsur eh atau mesin learning jadi jangan-jangan nggak ada"
+    },
+    {
+      "start": 1010.29596,
+      "end": 1017.55597,
+      "text": "termnya lagi ya ini ke si DHTML karena ekspektasi standarnya kayak gitu itu udah ya sama juga"
+    },
+    {
+      "start": 1017.55597,
+      "end": 1027.936,
+      "text": "juga udah kurang terdengarkan karena semua sudah sudah melakukan praktek-praktek itu ya ngomong"
+    },
+    {
+      "start": 1027.936,
+      "end": 1036.396,
+      "text": "ke Ali eh TWA sama weks ini bukan web.api sih sebenarnya fitur ya fitur web baru eh ini juga"
+    },
+    {
+      "start": 1036.396,
+      "end": 1045.876,
+      "text": "belum lama nih sekitar bulan lalu Chrome bikin eh apa sih web website yang enggak memenuhi heuristik"
+    },
+    {
+      "start": 1045.876,
+      "end": 1054.3359,
+      "text": "kriteria PWA sekarang juga bisa di-install seru ya Oh iya bentar cari itunya cari beritanya ya"
+    },
+    {
+      "start": 1054.3359,
+      "end": 1064.776,
+      "text": "sambil lanjut aja bahas yang lain Oke kalau dari Ivan ini ada API apa web Vitals ya web Vitals"
+    },
+    {
+      "start": 1064.776,
+      "end": 1076.016,
+      "text": "kalau saya bukan khusus yang webpress, eh webpress lagi bukan web API tetapi mau waru-waru aja ini web vital 4.0"
+    },
+    {
+      "start": 1076.016,
+      "end": 1083.5759,
+      "text": "library nya ya library web vital ini bukan yang buat di web API tapi library untuk web vital JS"
+    },
+    {
+      "start": 1083.5759,
+      "end": 1088.016,
+      "text": "mau release soon, release kandidat ya"
+    },
+    {
+      "start": 1088.016,
+      "end": 1097.256,
+      "text": "sebelumnya kan versi 3,5 ini library web Vitals yang sebenarnya wrapper"
+    },
+    {
+      "start": 1097.256,
+      "end": 1099.516,
+      "text": "zoom in bete web zoom in dong"
+    },
+    {
+      "start": 1099.516,
+      "end": 1110.9559,
+      "text": "sebenarnya web Vitals ini adalah wrapper untuk dari performance API"
+    },
+    {
+      "start": 1110.9559,
+      "end": 1115.896,
+      "text": "dari web performance API untuk mempermudah kita melihat oke CLS nya berapa"
+    },
+    {
+      "start": 1115.896,
+      "end": 1117.896,
+      "text": "INP nya berapa"
+    },
+    {
+      "start": 1117.896,
+      "end": 1119.3359,
+      "text": "LCP nya berapa"
+    },
+    {
+      "start": 1119.3359,
+      "end": 1120.796,
+      "text": "TTF, gak semua itu"
+    },
+    {
+      "start": 1120.796,
+      "end": 1123.616,
+      "text": "Ini kan core web fighter nih yang dia tunjukin"
+    },
+    {
+      "start": 1123.616,
+      "end": 1125.276,
+      "text": "Web fighter yang lain ada"
+    },
+    {
+      "start": 1125.276,
+      "end": 1127.876,
+      "text": "Kayak FCP nya"
+    },
+    {
+      "start": 1127.876,
+      "end": 1129.776,
+      "text": "Apapun yang kalian lihat di"
+    },
+    {
+      "start": 1129.776,
+      "end": 1131.736,
+      "text": "Lighthouse itu menggunakan"
+    },
+    {
+      "start": 1131.736,
+      "end": 1132.696,
+      "text": "Ada semua disini"
+    },
+    {
+      "start": 1132.696,
+      "end": 1135.656,
+      "text": "Ini yang sama gitu, script yang sama"
+    },
+    {
+      "start": 1135.656,
+      "end": 1136.856,
+      "text": "Underlying"
+    },
+    {
+      "start": 1136.856,
+      "end": 1139.196,
+      "text": "Underlying level V nya itu ya berarti"
+    },
+    {
+      "start": 1139.196,
+      "end": 1141.036,
+      "text": "Under the hood nya seperti ini"
+    },
+    {
+      "start": 1141.036,
+      "end": 1142.636,
+      "text": "Lighthouse tuh kayak front end nya aja"
+    },
+    {
+      "start": 1142.636,
+      "end": 1143.996,
+      "text": "Iya"
+    },
+    {
+      "start": 1143.996,
+      "end": 1145.876,
+      "text": "untuk collect data ini"
+    },
+    {
+      "start": 1145.876,
+      "end": 1147.956,
+      "text": "jadi kalau kalian mau collect data"
+    },
+    {
+      "start": 1147.956,
+      "end": 1149.296,
+      "text": "saya pakai ini"
+    },
+    {
+      "start": 1149.296,
+      "end": 1152.196,
+      "text": "untuk collect data saya sendiri"
+    },
+    {
+      "start": 1152.196,
+      "end": 1153.536,
+      "text": "dan langsung saya"
+    },
+    {
+      "start": 1153.536,
+      "end": 1156.136,
+      "text": "push ke google"
+    },
+    {
+      "start": 1156.136,
+      "end": 1156.736,
+      "text": "analitik"
+    },
+    {
+      "start": 1156.736,
+      "end": 1158.156,
+      "text": "saya proses sendiri dari"
+    },
+    {
+      "start": 1158.156,
+      "end": 1162.176,
+      "text": "saya proses ke bigquery"
+    },
+    {
+      "start": 1162.176,
+      "end": 1163.796,
+      "text": "terus nanti bisa lihat"
+    },
+    {
+      "start": 1163.796,
+      "end": 1165.296,
+      "text": "gak sampai bigquery"
+    },
+    {
+      "start": 1165.296,
+      "end": 1167.5559,
+      "text": "saya pakai google analitik"
+    },
+    {
+      "start": 1167.5559,
+      "end": 1169.496,
+      "text": "reporting sudah bisa lihat"
+    },
+    {
+      "start": 1169.496,
+      "end": 1172.176,
+      "text": "oh CLS saya berapa, INP saya berapa"
+    },
+    {
+      "start": 1172.176,
+      "end": 1176.976,
+      "text": "saya berapa persatuan waktu yang saya mau kerjakan"
+    },
+    {
+      "start": 1176.976,
+      "end": 1182.936,
+      "text": "ya dia kan di list 4.0"
+    },
+    {
+      "start": 1183,
+      "end": 1187.88,
+      "text": "All, which is major update. Apa yang ditambahkan? Yang pastinya INP."
+    },
+    {
+      "start": 1189.4,
+      "end": 1202.18,
+      "text": "Kan INP yang baru tuh, quite vital yang baru, yang tidak disahkan sebagai pengganti total blocking time."
+    },
+    {
+      "start": 1203.84,
+      "end": 1206.76,
+      "text": "Atau first input delay."
+    },
+    {
+      "start": 1206.76,
+      "end": 1209.06,
+      "text": "first input delay atau total"
+    },
+    {
+      "start": 1209.06,
+      "end": 1211,
+      "text": "blocking time itu diganti jadi namanya"
+    },
+    {
+      "start": 1211,
+      "end": 1213.24,
+      "text": "interaction to next pane"
+    },
+    {
+      "start": 1213.24,
+      "end": 1217.28,
+      "text": "update dari web vital library"
+    },
+    {
+      "start": 1217.28,
+      "end": 1219.5,
+      "text": "ini sudah bisa menghitung"
+    },
+    {
+      "start": 1219.5,
+      "end": 1220.68,
+      "text": "INP"
+    },
+    {
+      "start": 1220.68,
+      "end": 1225.4,
+      "text": "INP itu lab berarti lab ya"
+    },
+    {
+      "start": 1225.4,
+      "end": 1226.98,
+      "text": "bukan user"
+    },
+    {
+      "start": 1226.98,
+      "end": 1228.98,
+      "text": "gak harus nunggu interaksi user"
+    },
+    {
+      "start": 1228.98,
+      "end": 1232.54,
+      "text": "interaction to next pane"
+    },
+    {
+      "start": 1232.54,
+      "end": 1237.82,
+      "text": "dua-duanya ya"
+    },
+    {
+      "start": 1237.82,
+      "end": 1240.54,
+      "text": "kan kalau during page load"
+    },
+    {
+      "start": 1240.54,
+      "end": 1242.8,
+      "text": "dia bisa menghitung INP nya berapa"
+    },
+    {
+      "start": 1242.8,
+      "end": 1244.3,
+      "text": "kalau kita scroll"
+    },
+    {
+      "start": 1244.3,
+      "end": 1246.36,
+      "text": "interaction to next pain cycle nya"
+    },
+    {
+      "start": 1246.36,
+      "end": 1247.86,
+      "text": "dia bisa lagi hitung berapa"
+    },
+    {
+      "start": 1247.86,
+      "end": 1249.4,
+      "text": "sama kayak CLS"
+    },
+    {
+      "start": 1249.4,
+      "end": 1252.14,
+      "text": "kalau CLS kan selama"
+    },
+    {
+      "start": 1252.14,
+      "end": 1253.8,
+      "text": "pagenya hidup"
+    },
+    {
+      "start": 1253.8,
+      "end": 1256.62,
+      "text": "CLS nya tetap dihitungkan nanti yang maksimalnya"
+    },
+    {
+      "start": 1256.62,
+      "end": 1257.34,
+      "text": "kita tak tau"
+    },
+    {
+      "start": 1257.34,
+      "end": 1260.16,
+      "text": "INP sama juga seperti itu"
+    },
+    {
+      "start": 1260.16,
+      "end": 1265.12,
+      "text": "Seminggu lagi kata Mas Barry Pollard"
+    },
+    {
+      "start": 1265.12,
+      "end": 1267.9,
+      "text": "Kira-kira kalau nggak ada feedback yang major"
+    },
+    {
+      "start": 1267.9,
+      "end": 1273.78,
+      "text": "Akan jadi resmi 4.0"
+    },
+    {
+      "start": 1273.78,
+      "end": 1275.96,
+      "text": "Ya nanti semuanya update itu page"
+    },
+    {
+      "start": 1275.96,
+      "end": 1279.04,
+      "text": "Kayak page web dev ke update"
+    },
+    {
+      "start": 1279.04,
+      "end": 1284.78,
+      "text": "Terus kemudian lighthouse yang di chrome juga ke update"
+    },
+    {
+      "start": 1284.78,
+      "end": 1286,
+      "text": "Pake ini"
+    },
+    {
+      "start": 1286,
+      "end": 1289.06,
+      "text": "Wah menarik"
+    },
+    {
+      "start": 1289.06,
+      "end": 1297.06,
+      "text": "ini berarti eh rapper di dari web performance API ya?"
+    },
+    {
+      "start": 1297.06,
+      "end": 1302.06,
+      "text": "kalau mau hitung sendiri dari performance API bisa"
+    },
+    {
+      "start": 1302.06,
+      "end": 1305.06,
+      "text": "low levelnya berarti performance API ini ya?"
+    },
+    {
+      "start": 1305.06,
+      "end": 1313.06,
+      "text": "salah satunya yang digunakan aja ya walaupun yang tadi yang apa yang di webhackers itu buat browser kan ya"
+    },
+    {
+      "start": 1313.06,
+      "end": 1326.5,
+      "text": "ya betul pakai juga seru ya bikin juga pakai API yang sama masai underlying API nya dia"
+    },
+    {
+      "start": 1326.5,
+      "end": 1334.96,
+      "text": "sebenarnya pakai library yang sama coba mungkin ke library tapi mungkin pakai lebih tepatnya"
+    },
+    {
+      "start": 1334.96,
+      "end": 1345.34,
+      "text": "pakai spek yang sama ah ya spesifikasi yang sama tapi kan jes itu kan V8 enggak ngaruh ya enggak"
+    },
+    {
+      "start": 1345.34,
+      "end": 1351.28,
+      "text": "ngaruh enggak ngaruh ya tetap pakai spek yang sama beda V8 kan runtime bukan ya runtime ya"
+    },
+    {
+      "start": 1351.28,
+      "end": 1358.9,
+      "text": "mesinnya mesinnya ya engine-nya ya ini pakai performance normal ini bukan itu sudah lama"
+    },
+    {
+      "start": 1358.9,
+      "end": 1367.12,
+      "text": "performance total cuman apa yang diukur mungkin apa yang diukur beda ada coba kita lihat perbedaannya"
+    },
+    {
+      "start": 1367.12,
+      "end": 1377.5,
+      "text": "performance.measure performance observer ini sama nggak? performance observer ada juga di web API"
+    },
+    {
+      "start": 1377.5,
+      "end": 1384.76,
+      "text": "apa saya kembali-kembali sekarang ya sebelumnya mungkin ini enggak ada tetapi di web ada ya"
+    },
+    {
+      "start": 1384.76,
+      "end": 1386.06,
+      "text": "performance.now itu"
+    },
+    {
+      "start": 1386.06,
+      "end": 1388.7,
+      "text": "iya performance"
+    },
+    {
+      "start": 1388.7,
+      "end": 1391.5,
+      "text": "maksudnya performance.now itu sebelum"
+    },
+    {
+      "start": 1391.5,
+      "end": 1392.84,
+      "text": "di web udah ada lama"
+    },
+    {
+      "start": 1392.84,
+      "end": 1395.18,
+      "text": "cuma yang saya belum tau"
+    },
+    {
+      "start": 1395.18,
+      "end": 1396.24,
+      "text": "di node ada gak?"
+    },
+    {
+      "start": 1396.76,
+      "end": 1397.8,
+      "text": "mungkin gak ada"
+    },
+    {
+      "start": 1397.8,
+      "end": 1401.1,
+      "text": "jadi kalaupun sebelumnya gak ada"
+    },
+    {
+      "start": 1401.1,
+      "end": 1403.3,
+      "text": "ya orang apa maintainernya"
+    },
+    {
+      "start": 1403.3,
+      "end": 1404.56,
+      "text": "node kan timnya node"
+    },
+    {
+      "start": 1404.56,
+      "end": 1407.28,
+      "text": "ngeliat oh ya ternyata itu relevan"
+    },
+    {
+      "start": 1407.28,
+      "end": 1409.5,
+      "text": "dan berguna buat diadopsi ke node.js"
+    },
+    {
+      "start": 1409.5,
+      "end": 1411.46,
+      "text": "bagus lah, maksudnya kan jadi makin streamline"
+    },
+    {
+      "start": 1411.46,
+      "end": 1412.94,
+      "text": "kayak dulu tuh"
+    },
+    {
+      "start": 1412.94,
+      "end": 1418.98,
+      "text": "bingung banget kenapa fetch bisa di browser tapi kalau di server nggak ada fetch"
+    },
+    {
+      "start": 1418.98,
+      "end": 1422.06,
+      "text": "harus install not fetch atau semacamnya"
+    },
+    {
+      "start": 1422.06,
+      "end": 1427.94,
+      "text": "ini kan kasusnya mirip kan cuma di bidang measure apa mengukur performa"
+    },
+    {
+      "start": 1427.94,
+      "end": 1432.1,
+      "text": "cara pakai sama persis loh ini nggak ada beda sama yang JS"
+    },
+    {
+      "start": 1432.1,
+      "end": 1433.16,
+      "text": "berarti speknya sama"
+    },
+    {
+      "start": 1433.16,
+      "end": 1440.12,
+      "text": "saya curiganya Node.js sekarang-sekarang ini memang sedang mendekatkan diri dengan web standar ya"
+    },
+    {
+      "start": 1440.12,
+      "end": 1448.3600000000001,
+      "text": "fetch udah di-include kemudian web socket mulai mau di-include nggak tahu udah apa belum"
+    },
+    {
+      "start": 1448.3600000000001,
+      "end": 1455.24,
+      "text": "nah beberapa API-API yang standarnya web juga diadaptasi juga ke node.js"
+    },
+    {
+      "start": 1455.24,
+      "end": 1463.3600000000001,
+      "text": "kalau gitu baguslah jadi bisa diukur juga dengan berarti javascript yang sama bisa dipakai di"
+    },
+    {
+      "start": 1463.3600000000001,
+      "end": 1473.44,
+      "text": "masih di yang sama dengan server walaupun pengukurannya mungkin berbeda ya ininya dimensinya"
+    },
+    {
+      "start": 1473.44,
+      "end": 1486.63202,
+      "text": "berbeda ya Iya yang diukur lain beda alam berbeda beda alam tapi sintaksnya sama oke next apalagi nih kalau"
+    },
+    {
+      "start": 1486.63202,
+      "end": 1491.3319999999999,
+      "text": "dari saya tadi udah web of humans API ada yang menarik lagi nih ini enggak tahu ya tapi ini"
+    },
+    {
+      "start": 1491.3319999999999,
+      "end": 1498.032,
+      "text": "belum jadi API ini baru proposal proposal kita dulu pernah ya di episode entah berapa kita bahas"
+    },
+    {
+      "start": 1498.032,
+      "end": 1505.772,
+      "text": "proses dari pertama mengajukan proposal sampai di apa adopsi jadi standar ya entah episode berapa"
+    },
+    {
+      "start": 1505.772,
+      "end": 1514.2320300000001,
+      "text": "cari sendiri nah ini berarti statusnya masih stage one ya stage 1 ya masih stage 1 jadi ceritanya"
+    },
+    {
+      "start": 1514.2320300000001,
+      "end": 1524.7320300000001,
+      "text": "eh ECMAScript ingin menambahkan type annotation atau wah ini pasti bahan perdebatan banget nih"
+    },
+    {
+      "start": 1524.7320300000001,
+      "end": 1532.69202,
+      "text": "di Twitter atau di Hacker News orang pasti pada bisa jadi kontroversi ya tujuannya adalah"
+    },
+    {
+      "start": 1532.69202,
+      "end": 1541.932,
+      "text": "Oh biar kalau misalnya apa nggak perlu transpilasi type bisa langsung jalan di browser ya"
+    },
+    {
+      "start": 1541.932,
+      "end": 1554.0120200000001,
+      "text": "ini juga sekaligus apa ya sekaligus membuat node.js kembali berkembang karena kan yang"
+    },
+    {
+      "start": 1554.0120200000001,
+      "end": 1560.312,
+      "text": "membuat orang yang berapa ya contohnya saya kemarin pengen pakai typescript tapi males"
+    },
+    {
+      "start": 1560.312,
+      "end": 1565.592,
+      "text": "pakai typescript compiler karena agak lambat jadi saya memilih pakai antara denu atau bun"
+    },
+    {
+      "start": 1565.592,
+      "end": 1570.45203,
+      "text": "karena by default mereka udah bisa transpilasi udah bisa kompilasi ke typescript nggak perlu"
+    },
+    {
+      "start": 1570.45203,
+      "end": 1576.5120200000001,
+      "text": "pakai transpilasi kan gitu kan kalau ini udah di approve kemungkinan besar node.js juga kena"
+    },
+    {
+      "start": 1576.5120200000001,
+      "end": 1582.752,
+      "text": "efeknya dan mungkin bisa jadi native typescript bisa jadi native nggak perlu ada transpilasi lagi"
+    },
+    {
+      "start": 1582.752,
+      "end": 1591.992,
+      "text": "transpire lagi Oh tapi paragraf satu itu menarik deh yang atas blablabla kalimat keduanya lebih"
+    },
+    {
+      "start": 1591.992,
+      "end": 1598.592,
+      "text": "cek by type checker netis nor external to JavaScript jadi maksudnya JavaScript nya"
+    },
+    {
+      "start": 1598.592,
+      "end": 1605.5520000000001,
+      "text": "JavaScript nya sendiri enggak dipaksa untuk jadi opinionated mengadopsi typescript atau"
+    },
+    {
+      "start": 1605.5520000000001,
+      "end": 1611.13202,
+      "text": "flow moshe apa behavior type checking nya enggak enggak perlu punya opini tentang itu ya udah kalau"
+    },
+    {
+      "start": 1611.13202,
+      "end": 1619.71204,
+      "text": "runtime dicuekin aja yang komen cuma berarti kan kalau misalnya apa berarti kita harus semacam"
+    },
+    {
+      "start": 1619.71204,
+      "end": 1627.932,
+      "text": "mendefinisikan type checker eksternal kan pas lagi mau jalanin type check-in semacam"
+    },
+    {
+      "start": 1627.932,
+      "end": 1633.932,
+      "text": "jasdok atau semacam flow kali ya bukan bahasa yang di bahasa superscript seperti typescript"
+    },
+    {
+      "start": 1633.932,
+      "end": 1636.33203,
+      "text": "kita lihat lagi contohnya nih"
+    },
+    {
+      "start": 1636.33203,
+      "end": 1638.71204,
+      "text": "coba kalau gue mengerti maksudnya"
+    },
+    {
+      "start": 1638.71204,
+      "end": 1641.21204,
+      "text": "misalnya variable itu"
+    },
+    {
+      "start": 1641.21204,
+      "end": 1642.592,
+      "text": "didepensikan type-nya"
+    },
+    {
+      "start": 1642.592,
+      "end": 1645.312,
+      "text": "integer, berarti dia gak ini ya"
+    },
+    {
+      "start": 1645.312,
+      "end": 1646.492,
+      "text": "sebenarnya gak peduli ya"
+    },
+    {
+      "start": 1646.492,
+      "end": 1649.57202,
+      "text": "cuma bisa menerima"
+    },
+    {
+      "start": 1649.57202,
+      "end": 1650.71204,
+      "text": "warning aja"
+    },
+    {
+      "start": 1650.71204,
+      "end": 1653.032,
+      "text": "gak error, maksudnya itu"
+    },
+    {
+      "start": 1653.032,
+      "end": 1654.732,
+      "text": "gak dianggap sebagai syntax error"
+    },
+    {
+      "start": 1654.732,
+      "end": 1657.33203,
+      "text": "syntax error, hanya warning"
+    },
+    {
+      "start": 1657.33203,
+      "end": 1658.97202,
+      "text": "oh, kalau sekarang"
+    },
+    {
+      "start": 1658.97202,
+      "end": 1661.39203,
+      "text": "kalau sekarang syntax error ya"
+    },
+    {
+      "start": 1661.39203,
+      "end": 1662.312,
+      "text": "kalau sekarang"
+    },
+    {
+      "start": 1662.312,
+      "end": 1670.172,
+      "text": "jalan-jalan kalau ya begitu batik Oh batik diignore gitu ya Oh iya kalau pakai jesdo"
+    },
+    {
+      "start": 1670.172,
+      "end": 1676.172,
+      "text": "kan kayak gini kan Iya kayak yang pertama ini kan Nah kalau proposalnya diterima nanti akan"
+    },
+    {
+      "start": 1676.172,
+      "end": 1685.27203,
+      "text": "jadi seperti ini nah tapi oke tetapi string tapi miskipun dirantai salah pesatunya salah"
+    },
+    {
+      "start": 1685.27203,
+      "end": 1694.152,
+      "text": "enggak ada masalah ini hanya untuk warning develop pada saat development aja"
+    },
+    {
+      "start": 1694.152,
+      "end": 1703.0320000000002,
+      "text": "alias enggak berisik kayak compiler kayak transpolnya si typescript itu"
+    },
+    {
+      "start": 1703.0320000000002,
+      "end": 1713.652,
+      "text": "ini nya kompilernya berisik tuh kalau salah kalau kita ingin diganggu kan ya maksudnya masing-masing"
+    },
+    {
+      "start": 1713.652,
+      "end": 1721.512,
+      "text": "developer terserah mau install mau apa pake tools itu kalau direset dulu gitu atau mau yang loose"
+    },
+    {
+      "start": 1721.512,
+      "end": 1731.892,
+      "text": "kelihatan bisa ya bebas ya Oke oke ada lagi nextnya nextnya terus ke bawahnya coba lihat"
+    },
+    {
+      "start": 1731.892,
+      "end": 1739.392,
+      "text": "ke bawahnya ke bawahnya ya maksudnya apa? Deskripsinya kayak gimana? sama pakai titik"
+    },
+    {
+      "start": 1739.392,
+      "end": 1761.772,
+      "text": "ya ini yang nanti ya tapi jadi susah banget ntar itu kan ada dikira objek"
+    },
+    {
+      "start": 1761.772,
+      "end": 1765.8719999999998,
+      "text": "bisa dikira objek, bisa dikira kondisional"
+    },
+    {
+      "start": 1765.8719999999998,
+      "end": 1768.132,
+      "text": "kan tanda tanya"
+    },
+    {
+      "start": 1768.132,
+      "end": 1769.452,
+      "text": "bla bla bla"
+    },
+    {
+      "start": 1769.452,
+      "end": 1781.46405,
+      "text": "titik dua gitu kan oh yeah sedangkan kalau tanda tanya titik ya ah itu urusannya si"
+    },
+    {
+      "start": 1781.46405,
+      "end": 1783.2240000000002,
+      "text": "programmer browser lah yang mikirin itu"
+    },
+    {
+      "start": 1783.2240000000002,
+      "end": 1785.2240000000002,
+      "text": "akan dibayar sama google"
+    },
+    {
+      "start": 1785.2240000000002,
+      "end": 1787.484,
+      "text": "sama apa sama apple sama"
+    },
+    {
+      "start": 1787.484,
+      "end": 1788.504,
+      "text": "firefox"
+    },
+    {
+      "start": 1788.504,
+      "end": 1791.0639999999999,
+      "text": "belum tentu juga diterima ini proposalnya ini"
+    },
+    {
+      "start": 1791.0639999999999,
+      "end": 1793.364,
+      "text": "cukup kontroversi sih pasti akan"
+    },
+    {
+      "start": 1793.364,
+      "end": 1794.02405,
+      "text": "ada product"
+    },
+    {
+      "start": 1794.02405,
+      "end": 1796.7240000000002,
+      "text": "sama pihak browser"
+    },
+    {
+      "start": 1796.7240000000002,
+      "end": 1799.1440400000001,
+      "text": "karena males implementnya"
+    },
+    {
+      "start": 1799.1440400000001,
+      "end": 1808.864,
+      "text": "nanti yang duluan nanti itu Microsoft Edge yang duluan karena kan typescript dikembangkan di"
+    },
+    {
+      "start": 1808.864,
+      "end": 1820.804,
+      "text": "Microsoft kan, sisa satu entity. Tadi pas di jalan juga sempat dengar podcast kan ada apa kenapa"
+    },
+    {
+      "start": 1820.804,
+      "end": 1827.864,
+      "text": "typescript itu jarang ada tools yang kayak misalkan type checking only terus ternyata kata nggak tahu"
+    },
+    {
+      "start": 1827.864,
+      "end": 1834.28406,
+      "text": "ini bener atau enggak ya bisa ditek benerannya atau kalau salah tolong dikoreksi katanya typescript"
+    },
+    {
+      "start": 1834.28406,
+      "end": 1841.0639999999999,
+      "text": "itu tidak open untuk spesifikasinya tuh bahas secara bahasa enggak ada enggak di open mungkin"
+    },
+    {
+      "start": 1841.0639999999999,
+      "end": 1850.004,
+      "text": "sama Microsoft ya jadi terus seperti biome yang yang apa yang baru kayak linter gitu dia mau"
+    },
+    {
+      "start": 1850.004,
+      "end": 1859.124,
+      "text": "cek typescript itu biar itu menebak-nebak sendiri jadi enggak ada spesifikasinya seperti JavaScript"
+    },
+    {
+      "start": 1859.124,
+      "end": 1864.76404,
+      "text": "kalau kita mau bikin parser untuk JavaScript kan udah ada spesifikasinya kan gitu kan kita"
+    },
+    {
+      "start": 1864.76404,
+      "end": 1873.6440400000001,
+      "text": "mau bikin engine ya kita tinggal ngikutin aja ya typescript enggak ada berarti emang semi apa ya"
+    },
+    {
+      "start": 1873.6440400000001,
+      "end": 1884.08405,
+      "text": "Hai semi-semi close-up lah ya ya semeter tutup bukan tertutup kodenya tapi cara kerjanya ya"
+    },
+    {
+      "start": 1884.08405,
+      "end": 1893.984,
+      "text": "prinsip kerjanya harus melihat source code-nya kan bukan spesifikasi ya begitulah scroll ke yang"
+    },
+    {
+      "start": 1893.984,
+      "end": 1899.484,
+      "text": "menarik ke bawah efeknya tuh kalau misal kalau yang kodingan ini sih ya udahlah kayak gitu"
+    },
+    {
+      "start": 1899.484,
+      "end": 1908.364,
+      "text": "artinya pahamlah ada efeknya di bawah-bawah lagi hausian generik suhu ada jenis gaya"
+    },
+    {
+      "start": 1908.364,
+      "end": 1914.304,
+      "text": "berita script lain intinya type script semua sih ada di sini"
+    },
+    {
+      "start": 1914.304,
+      "end": 1924.1440400000001,
+      "text": "omit it cuy Ken ada yang up for debate itu juga menarik ambien file apa DTS"
+    },
+    {
+      "start": 1924.1440400000001,
+      "end": 1926.3840300000002,
+      "text": "function overload"
+    },
+    {
+      "start": 1926.3840300000002,
+      "end": 1930.0639999999999,
+      "text": "ini kue peh"
+    },
+    {
+      "start": 1930.0639999999999,
+      "end": 1931.924,
+      "text": "kayaknya surem deh"
+    },
+    {
+      "start": 1931.924,
+      "end": 1933.184,
+      "text": "kagak lolos kayaknya"
+    },
+    {
+      "start": 1933.184,
+      "end": 1934.344,
+      "text": "yaudah"
+    },
+    {
+      "start": 1934.344,
+      "end": 1938.604,
+      "text": "lanjut lanjut"
+    },
+    {
+      "start": 1938.604,
+      "end": 1940.16406,
+      "text": "lanjut lanjut"
+    },
+    {
+      "start": 1940.16406,
+      "end": 1942.184,
+      "text": "oh 3 tahun yang lalu"
+    },
+    {
+      "start": 1942.184,
+      "end": 1943.924,
+      "text": "udah 3 tahun ya"
+    },
+    {
+      "start": 1943.924,
+      "end": 1945.58405,
+      "text": "nah"
+    },
+    {
+      "start": 1945.58405,
+      "end": 1949.124,
+      "text": "ini optional"
+    },
+    {
+      "start": 1949.124,
+      "end": 1951.8840300000002,
+      "text": "jadi argumen, saya argumennya proposal ini"
+    },
+    {
+      "start": 1951.8840300000002,
+      "end": 1955.58405,
+      "text": "ada kebutuhan dari ekosistem"
+    },
+    {
+      "start": 1955.58405,
+      "end": 1957.344,
+      "text": "ini solusinya"
+    },
+    {
+      "start": 1957.344,
+      "end": 1959.5439999999999,
+      "text": "tanpa mengharuskan semua developer"
+    },
+    {
+      "start": 1959.5439999999999,
+      "end": 1961.424,
+      "text": "untuk pakai type checking"
+    },
+    {
+      "start": 1961.424,
+      "end": 1967.124,
+      "text": "terus yang paragraf ketiga"
+    },
+    {
+      "start": 1967.124,
+      "end": 1967.804,
+      "text": "menarik"
+    },
+    {
+      "start": 1967.804,
+      "end": 1971.124,
+      "text": "bukan perkara javascript"
+    },
+    {
+      "start": 1971.124,
+      "end": 1972.844,
+      "text": "harus punya type atau enggak sih"
+    },
+    {
+      "start": 1972.844,
+      "end": 1975.364,
+      "text": "cuma kalau mau pakai type"
+    },
+    {
+      "start": 1975.364,
+      "end": 1976.40405,
+      "text": "gimana caranya"
+    },
+    {
+      "start": 1976.40405,
+      "end": 1977.20404,
+      "text": "gimana cara"
+    },
+    {
+      "start": 1977.20404,
+      "end": 1980.82404,
+      "text": "bekerja javascript bisa bekerja dengan"
+    },
+    {
+      "start": 1980.82404,
+      "end": 1981.5439999999999,
+      "text": "type"
+    },
+    {
+      "start": 1981.5439999999999,
+      "end": 1993.364,
+      "text": "oke seru ya masih ini argumen dari sudut pandangnya si proposal ini terus Kenapa"
+    },
+    {
+      "start": 1993.364,
+      "end": 2002.0639999999999,
+      "text": "enggak bikin type system sekalian jadi TC 39 di apa itu nya ya badan yang membuat ECMAScript"
+    },
+    {
+      "start": 2002.0639999999999,
+      "end": 2009.364,
+      "text": "ini nih is wrong wireless go around web compatibility"
+    },
+    {
+      "start": 2009.364,
+      "end": 2017.08405,
+      "text": "jadi secara implicit ini kayaknya kayak kita dikasih tahu nggak akan"
+    },
+    {
+      "start": 2017.08405,
+      "end": 2023.2440000000001,
+      "text": "gak JavaScript nggak bakal bisa berubah sederastis itu ya entah itu perkara type"
+    },
+    {
+      "start": 2023.2440000000001,
+      "end": 2028.26404,
+      "text": "atau apapun kedepannya nggak bakal bisa ada perubahan drastis karena nanti nggak"
+    },
+    {
+      "start": 2028.26404,
+      "end": 2037.44403,
+      "text": "backwards compatible kan Yes bikin dua rantai banyak di browser ya gede lah bentrok nggak jadi"
+    },
+    {
+      "start": 2037.44403,
+      "end": 2049.684,
+      "text": "bentrok bisa antara satu sama-sama sama-sama modifi dong ngaco nanti yang satu iya butuh"
+    },
+    {
+      "start": 2049.684,
+      "end": 2074.216,
+      "text": "jokowi 2 sama jokowi 3 nanti nanti ada bikin terus ya oke oke lanjut lanjut lanjut kita lanjut ke mana lagi nih apa ya yang menarik ya spesifikasi itu tuh sorry apa"
+    },
+    {
+      "start": 2075.436,
+      "end": 2075.756,
+      "text": "speculation"
+    },
+    {
+      "start": 2075.756,
+      "end": 2078.276,
+      "text": "speculation rules API"
+    },
+    {
+      "start": 2078.276,
+      "end": 2081.97595,
+      "text": "speculation rules nah ini juga baru nih menarik nih"
+    },
+    {
+      "start": 2081.97595,
+      "end": 2083.016,
+      "text": "wah ini baru banget ya"
+    },
+    {
+      "start": 2083.016,
+      "end": 2084.73596,
+      "text": "baru banget"
+    },
+    {
+      "start": 2084.73596,
+      "end": 2086.97595,
+      "text": "fresh from the oven"
+    },
+    {
+      "start": 2086.97595,
+      "end": 2091.256,
+      "text": "ini ada videonya juga ya"
+    },
+    {
+      "start": 2091.256,
+      "end": 2091.97595,
+      "text": "jaseline"
+    },
+    {
+      "start": 2091.97595,
+      "end": 2093.55597,
+      "text": "iya"
+    },
+    {
+      "start": 2093.55597,
+      "end": 2105.55597,
+      "text": "pernah kita undang kekian bukan jengkelin ya jeslin itu zaman jengkelin TV show zaman kapan"
+    },
+    {
+      "start": 2105.55597,
+      "end": 2113.936,
+      "text": "intinya ini untuk mengkustomize behavior prirender atau privets kan dulu kita semua ditaruh link"
+    },
+    {
+      "start": 2113.936,
+      "end": 2120.73596,
+      "text": "apa link teks tuh terus ada yang di ada yang obsolete ya prirender kayaknya terus agak bingung"
+    },
+    {
+      "start": 2120.73596,
+      "end": 2125.636,
+      "text": "buat behaviornya antara satu path dan lainnya."
+    },
+    {
+      "start": 2126.036,
+      "end": 2132.35596,
+      "text": "Nah, ini dibikin kayak satu blok untuk mengatur behavior pre-fetch"
+    },
+    {
+      "start": 2132.35596,
+      "end": 2136.216,
+      "text": "atau pre-render yang kita mau dan semacam prioritas lah,"
+    },
+    {
+      "start": 2136.316,
+      "end": 2139.11597,
+      "text": "semacam urutannya."
+    },
+    {
+      "start": 2139.11597,
+      "end": 2145.3959999999997,
+      "text": "Si browser bisa diberikan power untuk nge-prediksi,"
+    },
+    {
+      "start": 2145.3959999999997,
+      "end": 2159.156,
+      "text": "meng-spekulasi apakah link itu akan di klik atau enggak, di-render, di-prefetch atau tidak."
+    },
+    {
+      "start": 2159.156,
+      "end": 2170.076,
+      "text": "Jadi browser yang akan menghitung opportunity itu, probability itu berdasarkan history yang ada di browser kalian sendiri."
+    },
+    {
+      "start": 2170.076,
+      "end": 2173.876,
+      "text": "jadi gak ada hubungannya sama"
+    },
+    {
+      "start": 2173.876,
+      "end": 2175.276,
+      "text": "terparti jadi berdasarkan"
+    },
+    {
+      "start": 2175.276,
+      "end": 2177.716,
+      "text": "berdasarkan kita punya"
+    },
+    {
+      "start": 2177.716,
+      "end": 2179.09595,
+      "text": "behavior sendiri"
+    },
+    {
+      "start": 2179.09595,
+      "end": 2181.35596,
+      "text": "berarti ini kayak"
+    },
+    {
+      "start": 2181.35596,
+      "end": 2182.716,
+      "text": "apa ya"
+    },
+    {
+      "start": 2182.716,
+      "end": 2185.456,
+      "text": "recommendation system ya"
+    },
+    {
+      "start": 2185.456,
+      "end": 2186.85596,
+      "text": "ini pake AI"
+    },
+    {
+      "start": 2186.85596,
+      "end": 2189.29596,
+      "text": "lebih tepatnya"
+    },
+    {
+      "start": 2189.29596,
+      "end": 2189.776,
+      "text": "seperti"
+    },
+    {
+      "start": 2189.776,
+      "end": 2192.716,
+      "text": "guest js pernah denger gak"
+    },
+    {
+      "start": 2192.716,
+      "end": 2194.17596,
+      "text": "ya ya pernah"
+    },
+    {
+      "start": 2194.17596,
+      "end": 2197.136,
+      "text": "itu buatannya google juga"
+    },
+    {
+      "start": 2197.136,
+      "end": 2199.416,
+      "text": "itu dulu guest js"
+    },
+    {
+      "start": 2199.416,
+      "end": 2201.316,
+      "text": "bukan pakai S"
+    },
+    {
+      "start": 2201.316,
+      "end": 2202.67596,
+      "text": "S nya menebak"
+    },
+    {
+      "start": 2202.67596,
+      "end": 2204.956,
+      "text": "iya iya iya salah"
+    },
+    {
+      "start": 2204.956,
+      "end": 2206.376,
+      "text": "ini"
+    },
+    {
+      "start": 2206.376,
+      "end": 2209.0759,
+      "text": "salah satu library yang pernah"
+    },
+    {
+      "start": 2209.0759,
+      "end": 2209.8959999999997,
+      "text": "saya mau"
+    },
+    {
+      "start": 2209.8959999999997,
+      "end": 2213.156,
+      "text": "coba"
+    },
+    {
+      "start": 2213.156,
+      "end": 2215.036,
+      "text": "untuk client project tapi"
+    },
+    {
+      "start": 2215.036,
+      "end": 2217.036,
+      "text": "gak berhasil saya"
+    },
+    {
+      "start": 2217.036,
+      "end": 2218.056,
+      "text": "ini"
+    },
+    {
+      "start": 2218.056,
+      "end": 2221.2560000000003,
+      "text": "karena harus"
+    },
+    {
+      "start": 2221.2560000000003,
+      "end": 2222.2560000000003,
+      "text": "konek ke"
+    },
+    {
+      "start": 2222.2560000000003,
+      "end": 2225.3959999999997,
+      "text": "harus konek ke itu harus konek ke"
+    },
+    {
+      "start": 2225.3959999999997,
+      "end": 2226.676,
+      "text": "google analytics"
+    },
+    {
+      "start": 2226.676,
+      "end": 2228.696,
+      "text": "jadi"
+    },
+    {
+      "start": 2228.696,
+      "end": 2230.636,
+      "text": "data Google Analytics kita"
+    },
+    {
+      "start": 2230.636,
+      "end": 2232.9359999999997,
+      "text": "kita kasih, masukin ke"
+    },
+    {
+      "start": 2232.9359999999997,
+      "end": 2234.996,
+      "text": "connect ke"
+    },
+    {
+      "start": 2234.996,
+      "end": 2238.8159,
+      "text": "ke library ini"
+    },
+    {
+      "start": 2238.8159,
+      "end": 2239.3359,
+      "text": "nanti"
+    },
+    {
+      "start": 2239.3359,
+      "end": 2242.4559,
+      "text": "dia connect langsung"
+    },
+    {
+      "start": 2242.4559,
+      "end": 2243.176,
+      "text": "yang"
+    },
+    {
+      "start": 2243.176,
+      "end": 2246.156,
+      "text": "ribet lah setupnya"
+    },
+    {
+      "start": 2246.156,
+      "end": 2248.4559,
+      "text": "oh, udah ada buat next.js"
+    },
+    {
+      "start": 2248.4559,
+      "end": 2249.9559,
+      "text": "sebenarnya ya"
+    },
+    {
+      "start": 2249.9559,
+      "end": 2252.536,
+      "text": "oke"
+    },
+    {
+      "start": 2252.536,
+      "end": 2254.2960000000003,
+      "text": "dan ini kan"
+    },
+    {
+      "start": 2254.2960000000003,
+      "end": 2255.556,
+      "text": "contohnya semua"
+    },
+    {
+      "start": 2255.556,
+      "end": 2258.2960000000003,
+      "text": "lanjut lanjut lanjut"
+    },
+    {
+      "start": 2258.2960000000003,
+      "end": 2264.056,
+      "text": "ya itu kan contohnya semua kan rata-rata kan sudah pakai webpack atau Gatsby segala sesuatu"
+    },
+    {
+      "start": 2264.056,
+      "end": 2272.016,
+      "text": "saya kan static saja pakai WordPress dan setupnya jadi ribet karena bukan bukan kayak prefetchingnya"
+    },
+    {
+      "start": 2272.016,
+      "end": 2278.876,
+      "text": "seperti SPA gitu kan jadi sebenarnya saya pakai yang static gini gitu dan di belakangnya itu"
+    },
+    {
+      "start": 2278.876,
+      "end": 2293.9359999999997,
+      "text": "pakai note jadinya ribet tetap nggak ada ya dengan PHP sudah lah nah kalau pakai ini nih"
+    },
+    {
+      "start": 2293.9359999999997,
+      "end": 2304.196,
+      "text": "spekulasi ini semuanya di web jadi prefetching dan prerender si webnya yang menentukan berdasarkan"
+    },
+    {
+      "start": 2304.196,
+      "end": 2307.496,
+      "text": "kita coba langsung ke example nya deh"
+    },
+    {
+      "start": 2307.496,
+      "end": 2310.996,
+      "text": "ini dia"
+    },
+    {
+      "start": 2310.996,
+      "end": 2314.8959999999997,
+      "text": "prerender"
+    },
+    {
+      "start": 2314.8959999999997,
+      "end": 2316.556,
+      "text": "when, where"
+    },
+    {
+      "start": 2316.556,
+      "end": 2318.056,
+      "text": "and make"
+    },
+    {
+      "start": 2318.056,
+      "end": 2321.376,
+      "text": "slash log out"
+    },
+    {
+      "start": 2321.376,
+      "end": 2322.776,
+      "text": "or no prerender"
+    },
+    {
+      "start": 2322.776,
+      "end": 2325.456,
+      "text": "kalau prefetch"
+    },
+    {
+      "start": 2325.456,
+      "end": 2327.116,
+      "text": "kalau url nya"
+    },
+    {
+      "start": 2327.116,
+      "end": 2329.276,
+      "text": "next.html atau next2html"
+    },
+    {
+      "start": 2329.276,
+      "end": 2332.776,
+      "text": "enak ya"
+    },
+    {
+      "start": 2332.776,
+      "end": 2343.776,
+      "text": "Ini bisa dibedakan setiap halaman kan, jadi kita bisa nge-build role itu berdasarkan server site render."
+    },
+    {
+      "start": 2343.776,
+      "end": 2355.776,
+      "text": "Jadi misalnya saat lagi di page apa, saya bisa kasih role itu, saya di landing page, maka yang saya kasih role-nya pre-fade atau pre-render thank you page."
+    },
+    {
+      "start": 2355.776,
+      "end": 2359.776,
+      "text": "Karena siapa tau sudah selesai, waktu dia muncul thank you page, cepet."
+    },
+    {
+      "start": 2359.776,
+      "end": 2365.956,
+      "text": "karena kita yang"
+    },
+    {
+      "start": 2366,
+      "end": 2367,
+      "text": "dari sisi server"
+    },
+    {
+      "start": 2367,
+      "end": 2368,
+      "text": "nah"
+    },
+    {
+      "start": 2368,
+      "end": 2369,
+      "text": "hmm"
+    },
+    {
+      "start": 2371,
+      "end": 2372,
+      "text": "menarik menarik menarik"
+    },
+    {
+      "start": 2372,
+      "end": 2373,
+      "text": "nah ini juga"
+    },
+    {
+      "start": 2373,
+      "end": 2378,
+      "text": "kalau artikel yang lebih enak dilihat itu tuh di chat"
+    },
+    {
+      "start": 2378,
+      "end": 2379,
+      "text": "gimana gimana"
+    },
+    {
+      "start": 2379,
+      "end": 2380,
+      "text": "oke"
+    },
+    {
+      "start": 2380,
+      "end": 2382,
+      "text": "ya ke ini dulu deh"
+    },
+    {
+      "start": 2382,
+      "end": 2384,
+      "text": "ke bahannya Eka dulu"
+    },
+    {
+      "start": 2384,
+      "end": 2388,
+      "text": "nah speculation rules improvement"
+    },
+    {
+      "start": 2388,
+      "end": 2390,
+      "text": "sambil nunggu loading"
+    },
+    {
+      "start": 2390,
+      "end": 2392,
+      "text": "yang menarik buat saya ini nih bagian ini nih"
+    },
+    {
+      "start": 2392,
+      "end": 2396.86,
+      "text": "bagian ini nih and so make sense for multi-page application rather than single-page application"
+    },
+    {
+      "start": 2396.86,
+      "end": 2407.54,
+      "text": "karena kan sekarang trennya tekan menuju ke MP kan balik ke MPN banyak Iya dengan ada react server"
+    },
+    {
+      "start": 2407.54,
+      "end": 2415.4,
+      "text": "komponen lah ada spell kit ada quick ada macam-macam kan ada Astro juga jadi dengan apa"
+    },
+    {
+      "start": 2415.4,
+      "end": 2421.16,
+      "text": "si si pengembang web juga dia melihat Wah nih kayaknya terakhir menuju MP3 make sense akhirnya"
+    },
+    {
+      "start": 2421.16,
+      "end": 2429.12,
+      "text": "dibuatlah spekulasi nge-roll API ini mungkin gitu ya dan kalau pakai kalaupun ada client-side"
+    },
+    {
+      "start": 2429.12,
+      "end": 2434.48,
+      "text": "routingnya neke mesin XJS gitu ya akan kalau misalnya emang support it bisa pakai client-side"
+    },
+    {
+      "start": 2434.48,
+      "end": 2440.84,
+      "text": "routing tapi kan sebetulnya itu SSR juga kan jadi bisa dianggap bisa punya bingung VR MP juga"
+    },
+    {
+      "start": 2440.84,
+      "end": 2453.38,
+      "text": "benar-benar ditambah lagi dengan apa tadi ya transition API udah deh lengkap Iya dokumen"
+    },
+    {
+      "start": 2453.38,
+      "end": 2462.5,
+      "text": "rules rules nya dalam bentuk script begini ya apa jesen jadi nggak ngerender sama browser ya"
+    },
+    {
+      "start": 2462.5,
+      "end": 2469.74,
+      "text": "kan diskip diskip dan juga enggak di script ini kan dia enggak waktu di-paste dia nggak"
+    },
+    {
+      "start": 2469.74,
+      "end": 2476.96,
+      "text": "dipeduliin gitu kayaknya blablabla dicoyokin nggak blocking nggak blocking sama sekali"
+    },
+    {
+      "start": 2476.96,
+      "end": 2484.7,
+      "text": "nggak blocking di domnya cuma ngasih tahu ke si browsernya sendiri apa mesin mekanisme"
+    },
+    {
+      "start": 2484.7,
+      "end": 2485.84,
+      "text": "Browsernya"
+    },
+    {
+      "start": 2485.84,
+      "end": 2489.34,
+      "text": "Oh bisa pakai CSS selector"
+    },
+    {
+      "start": 2489.34,
+      "end": 2489.92,
+      "text": "Tadi"
+    },
+    {
+      "start": 2489.92,
+      "end": 2491.84,
+      "text": "Oh menarik"
+    },
+    {
+      "start": 2491.84,
+      "end": 2493.76,
+      "text": "Berarti kita bisa ngasih link itu"
+    },
+    {
+      "start": 2493.76,
+      "end": 2495.7,
+      "text": "Oh saya mau link ini"
+    },
+    {
+      "start": 2495.7,
+      "end": 2497.32,
+      "text": "Di pre-render"
+    },
+    {
+      "start": 2497.32,
+      "end": 2498.68,
+      "text": "Link itu gak ada"
+    },
+    {
+      "start": 2498.68,
+      "end": 2500.46,
+      "text": "Bisa"
+    },
+    {
+      "start": 2500.46,
+      "end": 2502.98,
+      "text": "Karena kalau logout di pre-render"
+    },
+    {
+      "start": 2502.98,
+      "end": 2504.08,
+      "text": "Dia ke logout terus"
+    },
+    {
+      "start": 2504.08,
+      "end": 2506.6,
+      "text": "Iya kan"
+    },
+    {
+      "start": 2506.6,
+      "end": 2508.2,
+      "text": "Iya bener"
+    },
+    {
+      "start": 2508.2,
+      "end": 2511.46,
+      "text": "Kan kalau link logoutnya di pre-render di belakang"
+    },
+    {
+      "start": 2511.46,
+      "end": 2512.7,
+      "text": "Dia bakal ke logout terus"
+    },
+    {
+      "start": 2512.7,
+      "end": 2514.46,
+      "text": "Dia manggil logout"
+    },
+    {
+      "start": 2514.46,
+      "end": 2528.74,
+      "text": "Oke berarti bisa bisa prerender ini mungkin ini ini op-in gak sih by default yang enggak kan"
+    },
+    {
+      "start": 2528.74,
+      "end": 2535.46,
+      "text": "maksudnya enggak by default yang ada enggak ada spekulasi Woi apa itu Oh katas katas ada"
+    },
+    {
+      "start": 2535.46,
+      "end": 2548.06,
+      "text": "warning-warning Oh ya merah-merah kosong ini oferspesialisasi itu over-reviewing CPU kos dia"
+    },
+    {
+      "start": 2548.06,
+      "end": 2555.8,
+      "text": "baca dari mana Oh dia baca dari history browser kita ya bukan hati-hati kalau terlalu banyak yang"
+    },
+    {
+      "start": 2555.8,
+      "end": 2561.18,
+      "text": "kita spekulat dan untuk mint untuk minta dipercaya masalah satu halaman kita mungkin halaman kita"
+    },
+    {
+      "start": 2561.18,
+      "end": 2569.04,
+      "text": "yellow pages yellow pages ya kan terus kemudian ada 10.000 link masih kita pre-render semua ya"
+    },
+    {
+      "start": 2569.04,
+      "end": 2578.46,
+      "text": "ngedos ngedos server kita sendiri kan maksudnya gitu dan browsernya juga kan apa main threadnya"
+    },
+    {
+      "start": 2578.46,
+      "end": 2583.5,
+      "text": "mungkin kerjanya jadi ekstra ya karena ngecek satu persatu ini wah ini relevan nggak ya perlu"
+    },
+    {
+      "start": 2583.5,
+      "end": 2585.46,
+      "text": "freehatch atau prerender atau enggak"
+    },
+    {
+      "start": 2585.46,
+      "end": 2592.12,
+      "text": "ini keren nih"
+    },
+    {
+      "start": 2592.12,
+      "end": 2593.06,
+      "text": "kalau misalnya kita"
+    },
+    {
+      "start": 2593.06,
+      "end": 2594.96,
+      "text": "keren nih kalau misalnya ini"
+    },
+    {
+      "start": 2594.96,
+      "end": 2596,
+      "text": "prerender ini"
+    },
+    {
+      "start": 2596,
+      "end": 2598.5,
+      "text": "digabungkan dengan"
+    },
+    {
+      "start": 2598.5,
+      "end": 2601.2,
+      "text": "intersection observer kali ya"
+    },
+    {
+      "start": 2601.2,
+      "end": 2602.8,
+      "text": "atau lazy load"
+    },
+    {
+      "start": 2602.8,
+      "end": 2603.82,
+      "text": "jadi semakin orang"
+    },
+    {
+      "start": 2603.82,
+      "end": 2606.28,
+      "text": "ingat nggak kalau misalnya kita yang pakai"
+    },
+    {
+      "start": 2606.28,
+      "end": 2608.84,
+      "text": "kayak twitter kalau scroll"
+    },
+    {
+      "start": 2608.84,
+      "end": 2610.2,
+      "text": "baru dia muncul"
+    },
+    {
+      "start": 2610.2,
+      "end": 2612.56,
+      "text": "kan kalau pakai ini"
+    },
+    {
+      "start": 2612.56,
+      "end": 2624.02,
+      "text": "bukan maksudnya hanya link yang ada di above the fold itu yang muncul itu yang"
+    },
+    {
+      "start": 2624.02,
+      "end": 2636.74,
+      "text": "tidak usah sampai semua iya mungkin saya bisa saya nanti bisa feedback kalau itu"
+    },
+    {
+      "start": 2636.74,
+      "end": 2640.74,
+      "text": "dikombainya sama view transition yang level 2"
+    },
+    {
+      "start": 2640.74,
+      "end": 2643.54,
+      "text": "wah seneng banget tuh"
+    },
+    {
+      "start": 2643.54,
+      "end": 2648.08,
+      "text": "MPA, SSR udah kayak nanti lama-lama"
+    },
+    {
+      "start": 2648.08,
+      "end": 2652.06,
+      "text": "hampir gak bisa dibedain sama SPA ya kan"
+    },
+    {
+      "start": 2652.06,
+      "end": 2655.54,
+      "text": "karena di klik nih secepatnya udah diambil duluan"
+    },
+    {
+      "start": 2655.54,
+      "end": 2673.126,
+      "text": "langsung fade in fade out iya seperti ini memang trendnya memang diarahkan ke sana kali ya diarahkan ke sana perbedaannya atas sama bawah ini chrome only atas sama bawah ya lihat oh source ada"
+    },
+    {
+      "start": 2673.126,
+      "end": 2680.806,
+      "text": "source-sourcenya dokumen kalau di bawah apa enggak ada source-nya baca penjelasan lah di atas"
+    },
+    {
+      "start": 2680.806,
+      "end": 2684.906,
+      "text": "make the source key optional"
+    },
+    {
+      "start": 2684.906,
+      "end": 2686.946,
+      "text": "since, oh gak harus"
+    },
+    {
+      "start": 2686.946,
+      "end": 2688.846,
+      "text": "pakai source, karena bisa"
+    },
+    {
+      "start": 2688.846,
+      "end": 2690.726,
+      "text": "di-invert dari"
+    },
+    {
+      "start": 2690.726,
+      "end": 2692.886,
+      "text": "URL atau"
+    },
+    {
+      "start": 2692.886,
+      "end": 2694.846,
+      "text": "where, oh gitu"
+    },
+    {
+      "start": 2694.846,
+      "end": 2697.326,
+      "text": "these two speculation"
+    },
+    {
+      "start": 2697.326,
+      "end": 2698.646,
+      "text": "rules are identical"
+    },
+    {
+      "start": 2698.646,
+      "end": 2699.686,
+      "text": "ini dianggap sama"
+    },
+    {
+      "start": 2699.686,
+      "end": 2702.986,
+      "text": "karena udah ada where-nya, browser bisa"
+    },
+    {
+      "start": 2702.986,
+      "end": 2704.546,
+      "text": "mengkalkulasi sendiri"
+    },
+    {
+      "start": 2704.546,
+      "end": 2707.206,
+      "text": "bisa ngira-ngira sendiri"
+    },
+    {
+      "start": 2707.206,
+      "end": 2708.646,
+      "text": "jenis source-nya itu apa"
+    },
+    {
+      "start": 2708.646,
+      "end": 2714.886,
+      "text": "nggak masih pakai script lo bisa pakai http header loh turun tuh bisa pakai"
+    },
+    {
+      "start": 2714.886,
+      "end": 2729.826,
+      "text": "Oh iya iya itu ah ini etik di webserver ya Iya jadi kayak ini kayak manifest.com Jason"
+    },
+    {
+      "start": 2729.826,
+      "end": 2732.226,
+      "text": "Hai adik manifest di kayak manifest"
+    },
+    {
+      "start": 2732.226,
+      "end": 2745.066,
+      "text": "Alright Scroll ke bawah ini seru sih udah ada beberapa yang mengadopsi walaupun masih"
+    },
+    {
+      "start": 2745.066,
+      "end": 2751.226,
+      "text": "baru ya dan hanya masih bisa satu domain kan ya nggak bisa juga cross-domein kan"
+    },
+    {
+      "start": 2751.226,
+      "end": 2757.706,
+      "text": "ya coba coba coba di klits"
+    },
+    {
+      "start": 2757.706,
+      "end": 2762.986,
+      "text": "ntar habis lo ininya cateringnya"
+    },
+    {
+      "start": 2762.986,
+      "end": 2772.346,
+      "text": "udah warning buka buka buka sambil buka DevTools Network sambil buka YouTube"
+    },
+    {
+      "start": 2772.346,
+      "end": 2786.626,
+      "text": "terus kalau kita over dia akan muncul gitu ya"
+    },
+    {
+      "start": 2786.626,
+      "end": 2795.146,
+      "text": "makasih ya kita coba coba reload Oh ya dulu ya"
+    },
+    {
+      "start": 2795.146,
+      "end": 2805.766,
+      "text": "sudah ini common fruit Oh ini masih kamu"
+    },
+    {
+      "start": 2805.766,
+      "end": 2818.00598,
+      "text": "over its link to the render it mana ini bukan chrome-nya udah Chrome 124 belum"
+    },
+    {
+      "start": 2818.00598,
+      "end": 2829.226,
+      "text": "ini bukan chrome kanari kanari oh 126 126 malah kenapa ya nggak bisa coba-coba"
+    },
+    {
+      "start": 2829.226,
+      "end": 2838.286,
+      "text": "coba ke jadi penasaran api support in this browser support edit speculation rule-rule"
+    },
+    {
+      "start": 2838.286,
+      "end": 2846.326,
+      "text": "yang suruh dibuat sendiri gitu bukan bukan sudah ada sudah sudah edit aja kan moderate"
+    },
+    {
+      "start": 2846.326,
+      "end": 2855.806,
+      "text": "kemudian ini di application bukan di Network Oh gitu eh application mana ya"
+    },
+    {
+      "start": 2855.806,
+      "end": 2861.98602,
+      "text": "speculation Oh ada spekulasi ya ya"
+    },
+    {
+      "start": 2861.98602,
+      "end": 2867.786,
+      "text": "bisa di-roll di-roll di-roll"
+    },
+    {
+      "start": 2867.786,
+      "end": 2876.566,
+      "text": "ini ada warning"
+    },
+    {
+      "start": 2876.566,
+      "end": 2885.266,
+      "text": "ya speculation coba 18 not trigger ya baru ruleset dipencet aja kamu itu udah teringat"
+    },
+    {
+      "start": 2885.266,
+      "end": 2898.766,
+      "text": "ke-16 juga oh speculation speculation nah ini jadi kalau olive diklik maka dia udah langsung"
+    },
+    {
+      "start": 2898.766,
+      "end": 2918.006,
+      "text": "render ya 404 enggak ada beneran contoh behaviornya coba ke yang 404 yang ini enggak"
+    },
+    {
+      "start": 2918.006,
+      "end": 2928.56604,
+      "text": "tapi enggak tahu itu pakai ini halaman ini pakai website ini Iya iya iya iya"
+    },
+    {
+      "start": 2928.56604,
+      "end": 2936.666,
+      "text": "ini kan merangkap demo macem-macem API baru ya lagi persiapan lagi persiapan"
+    },
+    {
+      "start": 2936.666,
+      "end": 2947.10596,
+      "text": "Google I o ini biasanya Oh ini teaser berarti ya teaser ya ternyata episode"
+    },
+    {
+      "start": 2947.10596,
+      "end": 2969.77203,
+      "text": "adalah episode teaser untuk Google Ayo 2024 tentang web ya kita enggak tahu kita sendiri enggak tahu topiknya apa masih coming soon tapi kita ini pasti masuk deh Oh iya iya iya iya berarti ini ditambahin baru ya ada background service sendiri ya"
+    },
+    {
+      "start": 2969.77203,
+      "end": 2981.77203,
+      "text": "kita asumsinya kan network ya asumsinya network"
+    },
+    {
+      "start": 2981.77203,
+      "end": 2989.772,
+      "text": "ternyata behavior baru ini kayak di-streamline di satu tempat terpisah"
+    },
+    {
+      "start": 2989.772,
+      "end": 2996.33203,
+      "text": "balik ke screen yang tadi deh yang developer chrome.com yang blog post"
+    },
+    {
+      "start": 2996.33203,
+      "end": 2999.9719999999998,
+      "text": "blog post yang ini ya"
+    },
+    {
+      "start": 2999.9719999999998,
+      "end": 3001.772,
+      "text": "yang ini"
+    },
+    {
+      "start": 3001.772,
+      "end": 3004.772,
+      "text": "ya nah scroll ke bawah"
+    },
+    {
+      "start": 3007.992,
+      "end": 3009.0119999999997,
+      "text": "bawah lagi"
+    },
+    {
+      "start": 3009.0119999999997,
+      "end": 3011.132,
+      "text": "Nah ini yang penting platform support"
+    },
+    {
+      "start": 3011.132,
+      "end": 3012.772,
+      "text": "Apa? Atas sedikit"
+    },
+    {
+      "start": 3012.772,
+      "end": 3015.592,
+      "text": "Masih lagi proses"
+    },
+    {
+      "start": 3015.592,
+      "end": 3016.9719999999998,
+      "text": "Standarisasi"
+    },
+    {
+      "start": 3016.9719999999998,
+      "end": 3019.392,
+      "text": "Jadi seneng boleh tapi jangan seneng-seneng"
+    },
+    {
+      "start": 3019.392,
+      "end": 3019.83203,
+      "text": "Amat"
+    },
+    {
+      "start": 3019.83203,
+      "end": 3023.21204,
+      "text": "We are also working hard to standardize the API"
+    },
+    {
+      "start": 3023.21204,
+      "end": 3024.992,
+      "text": "Lewat WICG"
+    },
+    {
+      "start": 3024.992,
+      "end": 3026.432,
+      "text": "Jadi masih dalam proses"
+    },
+    {
+      "start": 3026.432,
+      "end": 3029.452,
+      "text": "Kalau misalnya pengen tau diskusi-diskusinya"
+    },
+    {
+      "start": 3029.452,
+      "end": 3030.652,
+      "text": "Ya mungkin itu bisa di"
+    },
+    {
+      "start": 3030.652,
+      "end": 3031.652,
+      "text": "Klik"
+    },
+    {
+      "start": 3031.652,
+      "end": 3034.232,
+      "text": "Sudah ada wordpress"
+    },
+    {
+      "start": 3034.232,
+      "end": 3035.5119999999997,
+      "text": "Sudah ada wordpress"
+    },
+    {
+      "start": 3035.5119999999997,
+      "end": 3038.532,
+      "text": "Sudah ada pluginnya"
+    },
+    {
+      "start": 3038.532,
+      "end": 3047.232,
+      "text": "spekulasi mudah ada Wow cepet sekali ini sebab ini tingkatnya spekulatif juga sebenarnya belum"
+    },
+    {
+      "start": 3047.232,
+      "end": 3055.032,
+      "text": "diadopsi banyak browser ya spekulasi aja udah bikin lagi aja saya percaya sama yang seru"
+    },
+    {
+      "start": 3055.032,
+      "end": 3066.192,
+      "text": "Kenapa tuh ya itu pada adopsi juga Scroll aja ke bawah Oh Astro udah Wow cuma mungkin"
+    },
+    {
+      "start": 3066.192,
+      "end": 3077.232,
+      "text": "experimental tapi ya seru sih dulu pun waktu view transition API yang level 1 itu salah satu yang"
+    },
+    {
+      "start": 3077.232,
+      "end": 3086.112,
+      "text": "pertama kali mengadopsi meta framework itu astro yang paling terdepan paling pertama baru-baru"
+    },
+    {
+      "start": 3086.112,
+      "end": 3101.652,
+      "text": "launching 4.2 kan berlunching kan dia ini poin 2 Januari sih masih eksperimental ini soalnya"
+    },
+    {
+      "start": 3101.652,
+      "end": 3114.232,
+      "text": "yang Januari kemarin 4 poin berapa ya 4.4 ya yang baru ya enggak tahu 4 sekian lah ya intinya udah"
+    },
+    {
+      "start": 3114.232,
+      "end": 3117.992,
+      "text": "nama ini ya define config untuk konfigurasinya"
+    },
+    {
+      "start": 3117.992,
+      "end": 3120.9120000000003,
+      "text": "prefetch to experimental client prerender true"
+    },
+    {
+      "start": 3120.9120000000003,
+      "end": 3125.272,
+      "text": "nice coba tuh contoh penggunaannya scroll ke bawah"
+    },
+    {
+      "start": 3125.272,
+      "end": 3131.692,
+      "text": "if the document prerendering render disable"
+    },
+    {
+      "start": 3131.692,
+      "end": 3134.292,
+      "text": "oke sederhana"
+    },
+    {
+      "start": 3134.292,
+      "end": 3139.272,
+      "text": "seru sih astro itu salah satu meta framework yang"
+    },
+    {
+      "start": 3139.272,
+      "end": 3143.83203,
+      "text": "aktif mengadopsi standar web API"
+    },
+    {
+      "start": 3143.83203,
+      "end": 3149.4120000000003,
+      "text": "jadi punya approach yang beda ya kalau next.js kan dia semua dia bikin sendiri ya walaupun"
+    },
+    {
+      "start": 3149.4120000000003,
+      "end": 3155.89197,
+      "text": "eventually kalau web API nya ada ya akhirnya di apa streamline juga cuma kalau astro pendekatannya"
+    },
+    {
+      "start": 3155.89197,
+      "end": 3162.792,
+      "text": "apa kejemput bola lah ke web API yang baru yang masih experimental pun dipakai ya cuma di di"
+    },
+    {
+      "start": 3162.792,
+      "end": 3168.032,
+      "text": "jadi mereka juga experimental juga jadi enggak ngeganggu yang stable"
+    },
+    {
+      "start": 3168.032,
+      "end": 3180.492,
+      "text": "uh oke mudah ya lanjut satu lagi atau dua lagi Nah kalau dari saya ada ini nih apa Jason modul"
+    },
+    {
+      "start": 3180.492,
+      "end": 3189.372,
+      "text": "apa touch Jason modul itu kalau dulu atau pun sekarang kalau misalkan kita mau import dari"
+    },
+    {
+      "start": 3189.372,
+      "end": 3196.932,
+      "text": "jesen kan harus pakai bundler kan ya at bander biasanya kalau dari webpack itu ada extensionnya"
+    },
+    {
+      "start": 3196.932,
+      "end": 3205.992,
+      "text": "untuk loading jesen nah ini sudah netizen untuk bisa bahkan untuk bisa batu bisa baca jason"
+    },
+    {
+      "start": 3205.992,
+      "end": 3215.872,
+      "text": "udah import-import dari jason bukan import dari jason Jadi kalau kita punya jesen data kita bisa"
+    },
+    {
+      "start": 3215.872,
+      "end": 3224.452,
+      "text": "langsung nggak perlu pakai plugin nggak perlu pakai bander ya nggak perlu Jason pars enggak"
+    },
+    {
+      "start": 3224.452,
+      "end": 3232.672,
+      "text": "perlu desain betul Wah ini dulu bagian dari import atribus proposal apalagi itu bad it"
+    },
+    {
+      "start": 3232.672,
+      "end": 3240.952,
+      "text": "was resolved waktu meeting musim 4 tahun lalu Juli 2020 disepakati dipecah jadi proposal yang"
+    },
+    {
+      "start": 3240.952,
+      "end": 3264.2380000000003,
+      "text": "beda nice motivasi yaitu biar bisa bang biar bisa mengimpor jason file ya kalau yang begini semua pasti langsung setuju kalau yang tadi type apa type terlalu berani netik opinionated soal betul betul ada orang yang suka tapi di"
+    },
+    {
+      "start": 3264.2380000000003,
+      "end": 3270.438,
+      "text": "sisi yang lain kan kita si web ini harus menjaga tetap menjaga kompatibilitasnya kan tetap harus"
+    },
+    {
+      "start": 3270.438,
+      "end": 3277.2380000000003,
+      "text": "bisa membuka web dari tahun kapan gitu kan jadi agak berat sih bakal bakal ada enggak sih di"
+    },
+    {
+      "start": 3277.2380000000003,
+      "end": 3284.798,
+      "text": "obsolete gitu at some point Iya kalaupun obsolete nggak boleh breaking kan kayak"
+    },
+    {
+      "start": 3284.798,
+      "end": 3289.2380000000003,
+      "text": "misalnya Markli atau apa bling gitu enggak enggak jalan tapi kan enggak"
+    },
+    {
+      "start": 3289.2380000000003,
+      "end": 3294.5179399999997,
+      "text": "rusak kalau tapi kemarin ada tuh yang obsolete kemarin ada yang obsolete"
+    },
+    {
+      "start": 3294.5179399999997,
+      "end": 3303.2380000000003,
+      "text": "Iya ada ada ada ada bukan Marky temennya Marky center center center oh iya"
+    },
+    {
+      "start": 3303.2380000000003,
+      "end": 3310.138,
+      "text": "tapi kan gak breaking kalau cuma HTML tag ya gampang ya cuma kalau misalnya apa Iya kalau"
+    },
+    {
+      "start": 3310.138,
+      "end": 3315.89795,
+      "text": "udah ada yang pakai center browser gimana tuh ya nggak papa di render jadi kosong kali masih"
+    },
+    {
+      "start": 3315.89795,
+      "end": 3325.378,
+      "text": "di render div biasa ini kan kita ngerender element diperkirkan maksudnya bukan asole"
+    },
+    {
+      "start": 3325.378,
+      "end": 3333.2380000000003,
+      "text": "hilangkan nggak deprikated no longer recommended dosa Oh ya bakal dihilangkan dipakai itu bakal"
+    },
+    {
+      "start": 3333.2380000000003,
+      "end": 3341.27795,
+      "text": "dihilangkan kan dihilangkan dari webstandard akan dihilangkan terus kenapa market tetap tetap"
+    },
+    {
+      "start": 3341.27795,
+      "end": 3348.2380000000003,
+      "text": "eksis ya karena bagus bagus karena masih banyakannya accessibility nya kurang bagus"
+    },
+    {
+      "start": 3348.2380000000003,
+      "end": 3357.458,
+      "text": "ya lebih kompetibel aja sih dengan resiko masih bagus di zamannya bagus di zaman karena masih"
+    },
+    {
+      "start": 3357.458,
+      "end": 3363.41797,
+      "text": "banyak yang pakai ternyata center itu enggak banyak yang pakai orang udah pakai mungkin udah"
+    },
+    {
+      "start": 3363.41797,
+      "end": 3371.678,
+      "text": "udah pada pakai excel line center aja udah pakai bagri jadi udah lebih ini ya kali ya udah lebih"
+    },
+    {
+      "start": 3371.678,
+      "end": 3374.83795,
+      "text": "Iya banyak yang mau saya banyak alternatif CSSnya."
+    },
+    {
+      "start": 3375.03796,
+      "end": 3377.558,
+      "text": "Kalau Markui bisa pakai animasi tapi kan repot."
+    },
+    {
+      "start": 3377.798,
+      "end": 3378.798,
+      "text": "Nggak bisa balik lagi."
+    },
+    {
+      "start": 3379.798,
+      "end": 3381.15796,
+      "text": "Iya benar-benar."
+    },
+    {
+      "start": 3381.578,
+      "end": 3382.258,
+      "text": "Oke oke."
+    },
+    {
+      "start": 3383.7380000000003,
+      "end": 3384.7380000000003,
+      "text": "Jadi ya."
+    },
+    {
+      "start": 3385.458,
+      "end": 3387.958,
+      "text": "Mana tadi? Kita balik lagi ke ini ya."
+    },
+    {
+      "start": 3388.698,
+      "end": 3389.198,
+      "text": "Jason ya."
+    },
+    {
+      "start": 3389.878,
+      "end": 3390.818,
+      "text": "Udah gitu aja."
+    },
+    {
+      "start": 3391.138,
+      "end": 3392.138,
+      "text": "Ya sederhana sih."
+    },
+    {
+      "start": 3392.138,
+      "end": 3394.3379999999997,
+      "text": "Cuman impactnya lumayan."
+    },
+    {
+      "start": 3395.718,
+      "end": 3395.898,
+      "text": "Iya."
+    },
+    {
+      "start": 3396.018,
+      "end": 3396.318,
+      "text": "Udah loh."
+    },
+    {
+      "start": 3398.3379999999997,
+      "end": 3399.4979000000003,
+      "text": "Berguna sekali."
+    },
+    {
+      "start": 3399.4979000000003,
+      "end": 3404.558,
+      "text": "kalau kita misalkan mau load dummy data gitu ya, dummy datanya dalam bentuk JSON"
+    },
+    {
+      "start": 3404.558,
+      "end": 3408.398,
+      "text": "atau bukan dummy data aja, mungkin data yang diimport dari gimana gitu kan,"
+    },
+    {
+      "start": 3408.8779,
+      "end": 3409.8579,
+      "text": "filenya dalam bentuk JSON."
+    },
+    {
+      "start": 3410.598,
+      "end": 3413.638,
+      "text": "Kita punya config custom atau semacamnya."
+    },
+    {
+      "start": 3413.638,
+      "end": 3417.658,
+      "text": "Iya, config, betul. Bisa dibaca langsung, bisa diimport langsung."
+    },
+    {
+      "start": 3418.298,
+      "end": 3422.2780000000002,
+      "text": "Malah import, eh kalau import CSS itu CSS module ya istilahnya ya?"
+    },
+    {
+      "start": 3423.2380000000003,
+      "end": 3424.018,
+      "text": "Oh iya, sama ya."
+    },
+    {
+      "start": 3424.038,
+      "end": 3425.9979000000003,
+      "text": "Iya, ada syntax CSS module."
+    },
+    {
+      "start": 3427.058,
+      "end": 3428.598,
+      "text": "Iya, iya, iya. Benar, benar."
+    },
+    {
+      "start": 3428.598,
+      "end": 3437.8379999999997,
+      "text": "status stage 3 stage 3 belum berada udah tapi udah hampir udah tinggal tinggal tunggu potong"
+    },
+    {
+      "start": 3437.8379999999997,
+      "end": 3446.538,
+      "text": "kita aja tunggu peresmian isunya apa nih isunya masih ada isu because feedback should name Jason"
+    },
+    {
+      "start": 3446.538,
+      "end": 3456.3779,
+      "text": "module import by be a part of tahun lalu gila 2022 sih Oh iya ini last month ya udah aman"
+    },
+    {
+      "start": 3456.3779,
+      "end": 3465.3779,
+      "text": "ya ini ya bentar lagi ya aman lah stage 3 tuh kan udah apa hampir pasti ya itu lolos Alright"
+    },
+    {
+      "start": 3465.3779,
+      "end": 3473.8379999999997,
+      "text": "ada lagi ada lagi yang menarik-menarik itu deh apa minor minor tapi lumayan sih yang HTML"
+    },
+    {
+      "start": 3473.8379999999997,
+      "end": 3487.158,
+      "text": "set HTML ya oke nah ini ya Nah cuma ini kepakainya cuma untuk kalau kita pakai"
+    },
+    {
+      "start": 3487.158,
+      "end": 3496.218,
+      "text": "custom element alias webcomponent komponen baru dengar ini masih udah pernah dengar"
+    },
+    {
+      "start": 3496.218,
+      "end": 3503.598,
+      "text": "beberapa hari lalu nih set HTML handset save kalau HTML biasa kan pakai inner HTML aja kan"
+    },
+    {
+      "start": 3503.598,
+      "end": 3513.678,
+      "text": "kita mau memanipulasi mengupdate suatu DOM ya apa bla div mydiv.innerhtml sama dengan HTML"
+    },
+    {
+      "start": 3513.678,
+      "end": 3520.398,
+      "text": "isi HTML nya tapi kalau custom element alias web component kan nggak bisa tuh nah sekarang jadi"
+    },
+    {
+      "start": 3520.398,
+      "end": 3526.458,
+      "text": "bisa udah gitu doang sih intinya contohnya kalau misalnya kita bikin shadow-shadow DOM harus pakai"
+    },
+    {
+      "start": 3526.458,
+      "end": 3532.3779,
+      "text": "unsafe ini ya kan kalau nggak diparsing Oh ya kalau nggak diparsing ya ini ya"
+    },
+    {
+      "start": 3532.3779,
+      "end": 3540.3779,
+      "text": "replacement for inner HTML replacement"
+    },
+    {
+      "start": 3540.3779,
+      "end": 3548.958,
+      "text": "ya it behavior nya sama kayak inner HTML cuma yaitu bisa buat"
+    },
+    {
+      "start": 3549,
+      "end": 3554.28,
+      "text": "custom element gitu jadi mau kalau kita pakai buat HTML biasa juga bisa"
+    },
+    {
+      "start": 3554.28,
+      "end": 3565.98,
+      "text": "ya maksudnya kalau kita punya custom element misalnya oh ya kayak apa kayak date picker"
+    },
+    {
+      "start": 3565.98,
+      "end": 3570.72,
+      "text": "date ya date custom element tapi date kan sudah disupport kalau yang kita bikin sendiri nggak"
+    },
+    {
+      "start": 3570.72,
+      "end": 3580.32,
+      "text": "bisa kalau pakai inner HTML dia harus pakai HTML unshift ini HTML unshift oke oke jadi kayak"
+    },
+    {
+      "start": 3580.32,
+      "end": 3594.5,
+      "text": "do itu jadi kayak siriak aja set HTML dangerously set HTML cuma ini trend yang kocak tapi menarik"
+    },
+    {
+      "start": 3594.5,
+      "end": 3596.78,
+      "text": "ini juga, kan sebenarnya"
+    },
+    {
+      "start": 3596.78,
+      "end": 3598.9,
+      "text": "itu behaviornya sama kayak inner HTML"
+    },
+    {
+      "start": 3598.9,
+      "end": 3600.96,
+      "text": "cuma bisa, dengan tambahan"
+    },
+    {
+      "start": 3600.96,
+      "end": 3602.62,
+      "text": "bisa pakai web component"
+    },
+    {
+      "start": 3602.62,
+      "end": 3604.86,
+      "text": "custom element, cuma sekarang jadi"
+    },
+    {
+      "start": 3604.86,
+      "end": 3606.54,
+      "text": "ada unsafe-nya gitu, maksudnya"
+    },
+    {
+      "start": 3606.54,
+      "end": 3608.44,
+      "text": "buat menekankan bahwa"
+    },
+    {
+      "start": 3608.44,
+      "end": 3610.7,
+      "text": "silahkan kalau misalnya datanya"
+    },
+    {
+      "start": 3610.7,
+      "end": 3612.76,
+      "text": "dari sumber datanya ada"
+    },
+    {
+      "start": 3612.76,
+      "end": 3614.44,
+      "text": "unsur eksternal, silahkan"
+    },
+    {
+      "start": 3614.44,
+      "end": 3616.92,
+      "text": "sanitize sendiri, bukan urusan kami"
+    },
+    {
+      "start": 3616.92,
+      "end": 3618.4,
+      "text": "kayak dari segi"
+    },
+    {
+      "start": 3618.4,
+      "end": 3620.38,
+      "text": "sintaksnya, yang emang jadi"
+    },
+    {
+      "start": 3620.38,
+      "end": 3622.36,
+      "text": "ngetriak gitu sih, dangerously"
+    },
+    {
+      "start": 3622.36,
+      "end": 3623.84,
+      "text": "set inner HTML"
+    },
+    {
+      "start": 3623.84,
+      "end": 3630.06,
+      "text": "TML dulu pas pertama kali belajar terus pakai tokek ini bercanda beneran ada dangerous riset"
+    },
+    {
+      "start": 3630.06,
+      "end": 3640.76,
+      "text": "apa inner.tml banyak tuh kalau ria gitu dia memang ciri khasnya gitu ya huruf besar semua"
+    },
+    {
+      "start": 3640.76,
+      "end": 3645.02,
+      "text": "terus kadang-kadang ada yang mau depresi dia tulis dulu kan will be depresi tetap belakang"
+    },
+    {
+      "start": 3645.02,
+      "end": 3651.68,
+      "text": "biar enggak enggak banyak yang cuma di dalam kodenya apa sih dulu kan kalau lain terakhir"
+    },
+    {
+      "start": 3651.68,
+      "end": 3653.32,
+      "text": "ada yang gak boleh dihapus"
+    },
+    {
+      "start": 3653.32,
+      "end": 3654.34,
+      "text": "ada komennya"
+    },
+    {
+      "start": 3654.34,
+      "end": 3657.08,
+      "text": "if you delete this, the sky will fall"
+    },
+    {
+      "start": 3657.08,
+      "end": 3658.72,
+      "text": "atau apapunnya ada komen"
+    },
+    {
+      "start": 3658.72,
+      "end": 3660.98,
+      "text": "ada bagian yang gak boleh di"
+    },
+    {
+      "start": 3660.98,
+      "end": 3661.82,
+      "text": "delete"
+    },
+    {
+      "start": 3661.82,
+      "end": 3664.06,
+      "text": "oke"
+    },
+    {
+      "start": 3664.06,
+      "end": 3667.8,
+      "text": "oke"
+    },
+    {
+      "start": 3667.8,
+      "end": 3670.64,
+      "text": "nah ada lagi web API yang baru"
+    },
+    {
+      "start": 3670.64,
+      "end": 3673.06,
+      "text": "di 2024 atau sebelumnya"
+    },
+    {
+      "start": 3673.06,
+      "end": 3673.8,
+      "text": "ini aja"
+    },
+    {
+      "start": 3673.8,
+      "end": 3675.54,
+      "text": "belum kesampaian"
+    },
+    {
+      "start": 3675.54,
+      "end": 3677.36,
+      "text": "interop aja"
+    },
+    {
+      "start": 3677.36,
+      "end": 3679.72,
+      "text": "yang menarik"
+    },
+    {
+      "start": 3679.72,
+      "end": 3683.72,
+      "text": "yang Zoom. Oh iya, kita udah bahas Interop 2024 belum ya?"
+    },
+    {
+      "start": 3684.56,
+      "end": 3701.374,
+      "text": "Udah kayaknya kan sempet yang kita bahas apa yang akan masuk di Interop 2024 itu pernah sudah sudah sudah ada jpeg excel itu sempat di sempat mau di ini tapi gak di ini"
+    },
+    {
+      "start": 3701.374,
+      "end": 3704.194,
+      "text": "interop 2024 ya"
+    },
+    {
+      "start": 3704.194,
+      "end": 3707.314,
+      "text": "itu di link gue kan ada tuh"
+    },
+    {
+      "start": 3707.93399,
+      "end": 3709.314,
+      "text": "oh di chat"
+    },
+    {
+      "start": 3709.314,
+      "end": 3709.954,
+      "text": "di comment"
+    },
+    {
+      "start": 3709.954,
+      "end": 3711.674,
+      "text": "di chat oke"
+    },
+    {
+      "start": 3716.314,
+      "end": 3732.634,
+      "text": "yang sudah stable aja atau ke-13 yang mengenaskan tuh custom property di Firefox kayak gimana"
+    },
+    {
+      "start": 3732.634,
+      "end": 3751.71399,
+      "text": "ya mungkin yang masih yang kan suka degenerasi terbaru enggak yang apa dulu kan banyak nih"
+    },
+    {
+      "start": 3751.71399,
+      "end": 3758.974,
+      "text": "bagiannya coba aja Nah itu at property animation jadi yang buat animasi atau buat apa enggak ada"
+    },
+    {
+      "start": 3758.974,
+      "end": 3772.114,
+      "text": "atau yang mana ya variable untuk memasukkan eh banyak at property at property gitu loh"
+    },
+    {
+      "start": 3772.114,
+      "end": 3781.474,
+      "text": "oh oh decorator decorator kayak decorator gini kan kayak decorator bukan decorator kaya kaya"
+    },
+    {
+      "start": 3781.474,
+      "end": 3793.294,
+      "text": "ada banyak kan ada beberapa mau dia eh enggak enggak itu enggak ini propertika skate properti"
+    },
+    {
+      "start": 3793.294,
+      "end": 3800.974,
+      "text": "Oh dia enggak enggak support properti properti schedule semua enggak ya itu kelihatan satu"
+    },
+    {
+      "start": 3800.974,
+      "end": 3807.234,
+      "text": "musik satu paket deh maksudnya itu fitur-fitur yang sebenarnya harus kerja barengan pada Firefox"
+    },
+    {
+      "start": 3807.234,
+      "end": 3813.89398,
+      "text": "itu tuh kalau soal CSS apa image-nya apa identiknya Firefox yang paling pertama ya"
+    },
+    {
+      "start": 3813.89398,
+      "end": 3818.734,
+      "text": "kayak grid dulu Chrome pun belum support grid Firefox udah support duluan"
+    },
+    {
+      "start": 3818.734,
+      "end": 3828.234,
+      "text": "ini gambar apa ya ini ini Linux ini apa ya itu Chrome di Linux maksudnya yang ini"
+    },
+    {
+      "start": 3828.234,
+      "end": 3848.508,
+      "text": "kayak react gitu tapi bukan sih kayak logo ria kau Windows bukan apa ini stas cluster logo pas cluster coba aja"
+    },
+    {
+      "start": 3848.508,
+      "end": 3859.248,
+      "text": "Hai pasarnya dia kali tahu deh hehehe apalagi interop 2.2.2.4 ini ya yang tadi ya"
+    },
+    {
+      "start": 3859.248,
+      "end": 3872.448,
+      "text": "atau TPS yoram for socket tuh kayaknya batik udah mau udah udah stabil tuh Firefox sama"
+    },
+    {
+      "start": 3872.448,
+      "end": 3884.0879800000002,
+      "text": "Safari yang paling duluan over tadi udah kita bahas ya udah hampir CSS nesting juga nyaris"
+    },
+    {
+      "start": 3884.0879800000002,
+      "end": 3900.948,
+      "text": "ini ini experimental loh top XO ya kalau mau tetap stable itu tetap tetap nah stables CSS"
+    },
+    {
+      "start": 3900.948,
+      "end": 3903.52798,
+      "text": "itu Sun kayak coming soon to the most"
+    },
+    {
+      "start": 3903.52798,
+      "end": 3904.848,
+      "text": "soon ya ya"
+    },
+    {
+      "start": 3904.848,
+      "end": 3906.688,
+      "text": "index DB udah"
+    },
+    {
+      "start": 3906.688,
+      "end": 3909.128,
+      "text": "bisa dibilang udah ya selesai ya"
+    },
+    {
+      "start": 3909.128,
+      "end": 3909.568,
+      "text": "udah"
+    },
+    {
+      "start": 3909.568,
+      "end": 3914.348,
+      "text": "ini ya"
+    },
+    {
+      "start": 3914.348,
+      "end": 3915.908,
+      "text": "just kasihan"
+    },
+    {
+      "start": 3915.908,
+      "end": 3920.288,
+      "text": "powerfox safari"
+    },
+    {
+      "start": 3920.288,
+      "end": 3922.348,
+      "text": "paling aktif cuma nyusul kok"
+    },
+    {
+      "start": 3922.348,
+      "end": 3924.5879800000002,
+      "text": "tadi kan yang dikatakan"
+    },
+    {
+      "start": 3924.5879800000002,
+      "end": 3926.248,
+      "text": "sudah hampir"
+    },
+    {
+      "start": 3926.248,
+      "end": 3927.328,
+      "text": "sudah selesai"
+    },
+    {
+      "start": 3927.328,
+      "end": 3930.288,
+      "text": "oke"
+    },
+    {
+      "start": 3930.288,
+      "end": 3932.52798,
+      "text": "x-rap balance"
+    },
+    {
+      "start": 3932.52798,
+      "end": 3935.48798,
+      "text": "airfox udah duluan"
+    },
+    {
+      "start": 3935.48798,
+      "end": 3936.888,
+      "text": "iya"
+    },
+    {
+      "start": 3936.888,
+      "end": 3938.328,
+      "text": "oke"
+    },
+    {
+      "start": 3938.328,
+      "end": 3942.36798,
+      "text": "oke, sip"
+    },
+    {
+      "start": 3942.36798,
+      "end": 3943.128,
+      "text": "ada lagi?"
+    },
+    {
+      "start": 3945.508,
+      "end": 3946.328,
+      "text": "hmm, udah dulu"
+    },
+    {
+      "start": 3946.328,
+      "end": 3946.64798,
+      "text": "mari kita tidur"
+    },
+    {
+      "start": 3946.64798,
+      "end": 3952.468,
+      "text": "ya, jadi"
+    },
+    {
+      "start": 3952.468,
+      "end": 3954.188,
+      "text": "itu dia, mungkin"
+    },
+    {
+      "start": 3954.188,
+      "end": 3956.66797,
+      "text": "daftar apa ya, web API"
+    },
+    {
+      "start": 3956.66797,
+      "end": 3958.48798,
+      "text": "baru, atau yang tidak terlalu baru"
+    },
+    {
+      "start": 3958.48798,
+      "end": 3959.628,
+      "text": "yang bisa dicoba"
+    },
+    {
+      "start": 3959.628,
+      "end": 3969.088,
+      "text": "ya tapi mungkin baru masuk baseline baru stabil di semua bahkan tadi kita bahas yang tapi"
+    },
+    {
+      "start": 3969.088,
+      "end": 3982.74197,
+      "text": "notasi itu bahkan masih setiap satu artinya masih perdebatan tapi belum tahu cuman yaitu bisa jadi kontroversi dan menarik diikuti ya tapi menarik buat cara mikirnya maksudnya argumennya terus kayak pro kontranya"
+    },
+    {
+      "start": 3982.74197,
+      "end": 3983.642,
+      "text": "ya ya ya"
+    },
+    {
+      "start": 3983.642,
+      "end": 3989.24197,
+      "text": "kalaupun nanti gak diadopsi kita punya ya kayak kita punya insight ke situlah"
+    },
+    {
+      "start": 3989.24197,
+      "end": 3996.042,
+      "text": "mau update sekalian hari ini kemarin gua itu kemarin kan gua nyoba paski"
+    },
+    {
+      "start": 3996.042,
+      "end": 3998.362,
+      "text": "kan waktu tahun lalu"
+    },
+    {
+      "start": 3998.362,
+      "end": 4000.12198,
+      "text": "waktu ngasih presentasi paski itu"
+    },
+    {
+      "start": 4000.12198,
+      "end": 4002.322,
+      "text": "masih ngebug di firefox"
+    },
+    {
+      "start": 4002.322,
+      "end": 4004.18198,
+      "text": "dan belum support"
+    },
+    {
+      "start": 4004.18198,
+      "end": 4005.24197,
+      "text": "bahkan fatal error"
+    },
+    {
+      "start": 4005.24197,
+      "end": 4007.90198,
+      "text": "sekarang sudah lancar jaya"
+    },
+    {
+      "start": 4007.90198,
+      "end": 4010.942,
+      "text": "pasti sudah lancar jaya"
+    },
+    {
+      "start": 4010.942,
+      "end": 4011.802,
+      "text": "di firefox"
+    },
+    {
+      "start": 4011.802,
+      "end": 4014.12198,
+      "text": "web outen"
+    },
+    {
+      "start": 4014.12198,
+      "end": 4016.302,
+      "text": "web outen"
+    },
+    {
+      "start": 4016.302,
+      "end": 4017.162,
+      "text": "sudah stabil"
+    },
+    {
+      "start": 4017.162,
+      "end": 4019.702,
+      "text": "sudah stabil di firefox"
+    },
+    {
+      "start": 4019.702,
+      "end": 4021.262,
+      "text": "thank you firefox"
+    },
+    {
+      "start": 4021.262,
+      "end": 4022.322,
+      "text": "akhirnya saya bisa"
+    },
+    {
+      "start": 4022.322,
+      "end": 4024.46198,
+      "text": "begitu sudah coba udah bisa"
+    },
+    {
+      "start": 4024.46198,
+      "end": 4029.56198,
+      "text": "Oke, berarti sedang mempersiapkan beberapa materi."
+    },
+    {
+      "start": 4030.542,
+      "end": 4032.58197,
+      "text": "Iya, materinya saya kerjakan ini proposal,"
+    },
+    {
+      "start": 4032.702,
+      "end": 4034.2219999999998,
+      "text": "jadi saya mau submit-submit ke klien."
+    },
+    {
+      "start": 4035.2819799999997,
+      "end": 4036.18198,
+      "text": "Ayo, nanti pasti."
+    },
+    {
+      "start": 4038.08197,
+      "end": 4039.02197,
+      "text": "Mantap, mantap."
+    },
+    {
+      "start": 4040.442,
+      "end": 4042.762,
+      "text": "Dua tahun lalu saya mulai kerjakan,"
+    },
+    {
+      "start": 4042.96198,
+      "end": 4045.46198,
+      "text": "setahun lalu saya promosikan, sekarang baru bisa dipakai."
+    },
+    {
+      "start": 4045.762,
+      "end": 4050.06198,
+      "text": "Tahun lalu talknya event semua tentang paski WordPress lagi nih."
+    },
+    {
+      "start": 4050.06198,
+      "end": 4050.542,
+      "text": "Iya."
+    },
+    {
+      "start": 4050.542,
+      "end": 4061.942,
+      "text": "Iya oke nah mudah-mudahan apa ya masih banyak sih yang bisa kita kulik sih sebenarnya cuman ini yang"
+    },
+    {
+      "start": 4061.942,
+      "end": 4065.962,
+      "text": "yang menurut kita menarik ya kalau menurut teman-teman apa yang dinanti-nanti apa sih"
+    },
+    {
+      "start": 4065.962,
+      "end": 4073.402,
+      "text": "boleh di kolom komentar meskipun kita tidak live tapi kita akan baca ya komentar juga boleh kita"
+    },
+    {
+      "start": 4073.402,
+      "end": 4076.962,
+      "text": "teman-teman kirimkan ke kesana.inselasengobrodenweb"
+    },
+    {
+      "start": 4076.962,
+      "end": 4080.82196,
+      "text": "topik atau narasumber"
+    },
+    {
+      "start": 4080.82196,
+      "end": 4082.982,
+      "text": "atau apapun bisa kirim"
+    },
+    {
+      "start": 4082.982,
+      "end": 4084.6620000000003,
+      "text": "ke sana nanti kita diskusi-diskusi juga"
+    },
+    {
+      "start": 4084.6620000000003,
+      "end": 4086.742,
+      "text": "jadi untuk malam ini"
+    },
+    {
+      "start": 4086.742,
+      "end": 4087.522,
+      "text": "sekian dulu"
+    },
+    {
+      "start": 4087.522,
+      "end": 4090.782,
+      "text": "kita ketemu lagi minggu depan"
+    },
+    {
+      "start": 4090.782,
+      "end": 4092.782,
+      "text": "mudah-mudahan minggu depan kita bisa live karena ini"
+    },
+    {
+      "start": 4092.782,
+      "end": 4094.562,
+      "text": "tidak live tadi lupa ngomong ya"
+    },
+    {
+      "start": 4094.562,
+      "end": 4096.582,
+      "text": "langsung masuk"
+    },
+    {
+      "start": 4096.582,
+      "end": 4098.70197,
+      "text": "ke materi ya malam ini"
+    },
+    {
+      "start": 4098.70197,
+      "end": 4101.062,
+      "text": "kita tidak live karena satu dan lain hal"
+    },
+    {
+      "start": 4101.062,
+      "end": 4103.242,
+      "text": "nanti mudah-mudahan"
+    },
+    {
+      "start": 4103.242,
+      "end": 4105.802,
+      "text": "minggu depan kita bisa live lagi dengan topik yang berbeda."
+    },
+    {
+      "start": 4106.282,
+      "end": 4107.082,
+      "text": "Kalau gitu, udahan dulu."
+    },
+    {
+      "start": 4107.50195,
+      "end": 4109.862,
+      "text": "Selamat malam. Selamat istirahat."
+    },
+    {
+      "start": 4110.402,
+      "end": 4110.822,
+      "text": "Bye-bye."
+    }
+  ],
+  "fullText": "Halo halo halo selamat malam selamat malam selamat hari selasa seperti biasa bertemu lagi dengan kita bertiga ada Eka, ada Ivan, ada Riza iya, kali ini Eka udah muncul kali ini Eka udah muncul, setelah minggu lalu kabur, menghilang wah seru banget ya kemarin ya, semua serius itu gak ada topik, justru rame pertanyaannya gak habis-habis tapi banyakkan curhat ya kita ya banyakkan curhat jadi kita nanti mau merancangkan sesekali tanpa topik jadi ya get in touch sama ini aja sama teman-teman semua ya teman-teman yang penonton malah lebih seru biar tau kondisi di lapangan besok lagi dong ya maksudnya besok-besok bikin bikin seri kayak gitu iya kita rencana bikin seri ada diskusi santai ada fundamental Nah kira-kira malam ini kita bahas apa ya? Trending Yang lagi yang akan ngetrend ya Yang sedang ngetrend atau yang akan ngetrend ke depannya gitu ya Jadi malam ini kita akan bahas beberapa web API Baik itu HTML, CSS ataupun JavaScript Yang disediakan oleh browser Jadi web API ini bukan REST API ya bukan service kayak apa ya swapi bukan ya bukan ya ini API yang bisa kita gunakan secara apa untuk programming ya bisa buat macem-macem contohnya local storage itu ya storage API lebih tepatnya Storage API, Performance API, Observer API, observer kan ada banyak. Dan ini sebetulnya semua API ini bedanya dengan produk lain mungkin ya, maksudnya fitur-fitur yang khusus browser, ini beda web API ini kan berdasarkan standar, namanya spesifikasi, jadi landasannya itu spesifikasi teknis. Jadi API ini fungsinya bla bla bla Terus jadi kayak semacam test case lah Kalau user melakukan ini Atau kalau misalnya inputnya seperti ini Maka prosesnya akan seperti ini Jadi itu belum implementasi Nggak ada codingannya sama sekali Cuma spesifikasi teknis Nah masing-masing browser Pertama bebas mutusin untuk mau pakai atau nggak Mengadopsi atau nggak Kedua, coding-annya gimana implementasi di masing-masing browser engine ya bebas terserah masing-masing browser. Cuma harus berlandaskan si spek itu. Oke, oke. Nah kira-kira di 2024 ini teman-teman punya apa ya, punya web API baru yang udah dipakai atau yang menarik, yang kira-kira menarik, gak boleh di-share? siapa dulu Eka dulu ya kak yang menarik yang dibahas duluan malah bukan yang dicatatkan itu sebet paling menarik tetap transition sih enggak itu kan dari tahun lalu soalnya ini kan topiknya adalah web API baru Nah kalau kalau view transition itu seneng-seneng pribadi aja sih dari devest tahun lalu topiknya topik togo bahas itu dan sampai sekarang sekarang udah masuk semua browser yang level 1 level 1 itu yang client-side cuma kalau yang level 2 yang apa server-side lah ya antar dokumen antar link tuh sayangnya ya masih belum terlalu tapi udah mulai ada ya udah ada update baru cuma kalau dari berasanya selesai gimana maksudnya antar dokumen antar dokumen antar antar part dalam jadi kalau misalnya ikhlas.com mengunjungi page yang lain dia klik bisa ngetransisinya slash full iya bisa transition tanpa client JavaScript ya bisa Maksudnya kita define transitionnya seperti apa tapi tanpa hijack client routing nggak usah pakai router client itu yang level 2 cuma belum semua browser si Chrome-nya sudah bisa? Chrome bisa, bisa pakai flag demo, demo, demo belum, besok-besok oke, pengen tuh gue liat tuh di itu khusus aja CSS dan apa pokoknya front-end front-end Magic part 2 kan kita pernah tuh dulu nah ini yang baru ini yang yang di topik ini juga front-end Magic juga sih popover sebetulnya malah implementasinya ya bisa dijadiin model atau toast atau apapun lah yang muncul nongol di layar nah ini ini modal itu udah muncul duluan kan modal tapi ya dialog-dialog dialog-dialog ya ini bedanya bedanya sama dia lupa beda spesifikasinya cuma enggak tahu sih kalau gue lihatnya mirip-mirip juga ya beda peruntukan aja kayaknya buat hal-hal yang lebih kecil sama kayak buat apa nanti ada demonya dibawa ininya dulu tentang si epinya dulu ini tuh sebenarnya kalau yang di Chrome only udah dari dua tahun yang lalu sih dua atau tiga tahun lalu punya kontennya Mas ada mergel sama Mbak Una itu bahas ini udah lama banget cuma yang bikin menarik sekarang tuh udah baseline sudah diadopsi oleh versi stabil semua browser dua versi terakhir ya itu sudah berarti udah aman untuk digunakan ya Iya tetap tergantung user base kita sih aman atau enggaknya kan tergantung actual user kita cuma ya apa user generic pada umumnya udah lumayan nah mose udah cukup tinggi lah 22 versi terakhir dua versi stabil terakhir Nah tetap apa konsep konsep popover versus model versus dialog segala macem tuh penjelasannya itu tuh cuma sebetulnya ngerti-ngerti juga sih Oh pop popover is being shown the rest of the page is non-interactive tidak bisa kita nggak bisa interaksi di elemen lain autofocus dikunci ke dalam situ itu modal Nah kalau non modal Oh gitu baru ngerti sekarang malah bedanya kalau modal itu pop-up yang kita dipaksa dikunci fokusnya disitu harus berinteraksi dulu jadi contohnya kayak apa cookie consent atau apalah kan kita nggak boleh lanjut sampai kita nyelesaikan itu, menutup itu. Kalau non-modal, itu ya pop-up juga muncul di atas layar, tapi ya kita cuekin boleh, kita bisa berinteraksi dengan sisa isi halaman. Nah, kalau pop-over API ini non-modal. Ya, jadi itu kayak toast atau apalah tooltip atau semacamnya. Tahu kan misalnya ada fitur baru terus sering melihat kan kita icon i gitu. Nah terus misalnya kita klik atau hover di situ suka muncul penjelasannya. Kan itu bukan hal yang kritikal yang harus memaksa user nyelesaikan interaksi di situ baru lanjut ke tempat lain kan. Itu kayak opsional aja. Oke. Iya, iya, iya. Itu bedanya. Nah ini kan sebenarnya penggunaan apa? ini pattern UI yang umum banget ya, selama puluhan belasan tahun tuh kita kayak harus pake, ya harus kalau iseng, kalau kelebihan waktu dan tenaga bisa bikin sendiri, atau yang lebih realistis, kita harus cari-cari apa, library atau package yang di install biar bisa bikin fitur ini terus mengganggu performance juga kan bikin gini pake apa ya namanya, swiper eh bukan swiper, apa namanya library.js yang untuk bikin popover-popover gini popster ya popster ada juga ya popster pop apa ya itu mah di UI component library apapun ada sih gue lupa dulu ada yang sering gue pake dulu tuh apa namanya nah btw udah ini bingungnya demo khas developer banget deh secara estetis tuh kureng kureng nggak ada sesuai dengan terus apa sense of of estetiknya ya begitulah cuma mau saya apa kan yang penting bisa bisa nunjukin bahwa itu bisa ini bisa dipencet berkali coba generate sukses tos lagi deh generate file Hai nge-generate file tos nah kan Oh yang ini maksudnya ia boleh dipakai buat itu boleh dipakai buat misalnya itu tadi information tooltip atau apapun lah yang pop-up yang non model yang itu tadi enggak enggak ngunci fokus enggak menghalangi interaksi tempat lain usap menu Woi zaman kapan banget ini jamannya inget gak jamannya DHTML dulu pernah kita yang ya iya iya dulu pernah baca cuma nggak ngerti sama sekali terus mikir udah nggak bakat begini-ginian DHTML ya Iya ya dihapus ya iya masa itu apa sih ya iya html kan berhenti ada transisi dan transisi antara halaman-halaman web menuju ke web application kan aplikasi Nah di tengah-tengah itu kan ada orang yang punya kreativitas untuk bikin hal-hal yang tadinya halaman web tapi udah mulai dinamis. Kayak tampilin menu, ada yang kayak hamburger menu di klik ke kanan gitu. Pokoknya yang interaktif gitu. Tapi zaman dulu kan masih belum terlalu banyak hal-hal yang seperti itu. Karena JavaScript tidak digunakan untuk itu. Itu sih ya. Nah maksudnya apa? Itu bahasa tersendiri atau gimana? enggak cuma HTML ketambahan animasi itu punya dynamic ya gitu aja Oh gitu doang Oh tapi bahasa klien saatnya mencet bisa jadi CSS bisa jadi atau nah ini coba kalau kalau demo demo popover yang enak di mata coba deh kalau buatannya Mas Adam rjl itu biasanya bagus Oh oh iya kalau dia puh dia mah jago CSS pasti bagus kita coba ya hab oh Twitter ada linknya link kopennya ada linknya tadi nge-search doang sih random connection connection ini ya minimal popover demo animated if supported oh animated if supported ya karena itu kan itu kan itu biasa maksudnya HTML CSS biasa mau di animasi ya animasi CSS progressive enhancement enhancement Oh ini tip gitu doang cek itu doang ini bikinnya banyak lho opacity nggak itu kan buat animasinya fade-in fade-out ini oh ininya tag-nya popover target ya popover popover target sama dengan mytooltip mytooltip dia bakal cari elemen HTML apapun yang id-nya sesuai microtip coba tulis yang panjang deh tip isi tipnya diganti lorem ipsum dolor sit amet gitu yang bawah yang bawah yang bawah loh kok hilang render-render uang tip-tip punya hujan punya ujian dan aku punya ujian Oke finish Oh masih lagi dah Oh akan emang segitu tapi ini ya apa namanya habis itu lihat bentuknya diatur sama sih CSS terserah diatur yang gimana Oh javascriptnya bahkan gak ada sama sekali ya ini pure HTML dan CSS ya Kecuali mungkin kalau yang kayak tadi itu toast yang bisa positioningnya Tadi sesuai jumlah toastnya Ya gak tau pokoknya kalau mau di enhance pakai javascript mungkin bisa Tapi ya gak perlu gak harus Iya ini minimal banget sih demonya orang judulnya minimal demo Oke ini udah masuk baseline udah bisa dipakai 2023 udah bisa ya baseline 2023 udah 2024 itu enggak masuk baseline April kemarin bulan lalu tapi kan masuk baseline itu kalau sudah dua versi stabil terakhir semua browser major nah berarti kan sebenarnya udah dari tahun lalu itu cuma baru April kemarin opera android aja udah bisa nih opera android ini opera mini bukan? bukan ya? beda ya? bukan kayaknya bukan deh opera mini itu enggak pakai browser engine apa enggak pakai rendering engine yang mainstream yang masuk akal tuh enggak masuk akal sama sekali itu mereka punya bahasa sendiri obml oprah browser merkap paling besar itu enak banget itu bisa bisa biar mereka bikin sendiri gimana ngomongin di HTML kan ini ada ada ada ininya ternyata pada pengertiannya dynamic HTML ini style animasinya aja retro collection of Technologies used together to create interactive and animated website using a combination of static markup languages client scripting and presentation definition language CSS and DOM ini sebenarnya ya sekarang ya Cuman dulu kan belum jadi kita bahas untuk ini ya untuk apa sesi khusus nostalgia ya oke apa nggak nyambung cuma jadi kepikiran mungkin sekian puluh tahun dari sekarang eh atau mesin learning pun udah nggak ada termnya tersendiri jangan-jangan karena udah kayak dianggap wajar semua produk digital semua software mungkin udah udah pakai unsur eh atau mesin learning jadi jangan-jangan nggak ada termnya lagi ya ini ke si DHTML karena ekspektasi standarnya kayak gitu itu udah ya sama juga juga udah kurang terdengarkan karena semua sudah sudah melakukan praktek-praktek itu ya ngomong ke Ali eh TWA sama weks ini bukan web.api sih sebenarnya fitur ya fitur web baru eh ini juga belum lama nih sekitar bulan lalu Chrome bikin eh apa sih web website yang enggak memenuhi heuristik kriteria PWA sekarang juga bisa di-install seru ya Oh iya bentar cari itunya cari beritanya ya sambil lanjut aja bahas yang lain Oke kalau dari Ivan ini ada API apa web Vitals ya web Vitals kalau saya bukan khusus yang webpress, eh webpress lagi bukan web API tetapi mau waru-waru aja ini web vital 4.0 library nya ya library web vital ini bukan yang buat di web API tapi library untuk web vital JS mau release soon, release kandidat ya sebelumnya kan versi 3,5 ini library web Vitals yang sebenarnya wrapper zoom in bete web zoom in dong sebenarnya web Vitals ini adalah wrapper untuk dari performance API dari web performance API untuk mempermudah kita melihat oke CLS nya berapa INP nya berapa LCP nya berapa TTF, gak semua itu Ini kan core web fighter nih yang dia tunjukin Web fighter yang lain ada Kayak FCP nya Apapun yang kalian lihat di Lighthouse itu menggunakan Ada semua disini Ini yang sama gitu, script yang sama Underlying Underlying level V nya itu ya berarti Under the hood nya seperti ini Lighthouse tuh kayak front end nya aja Iya untuk collect data ini jadi kalau kalian mau collect data saya pakai ini untuk collect data saya sendiri dan langsung saya push ke google analitik saya proses sendiri dari saya proses ke bigquery terus nanti bisa lihat gak sampai bigquery saya pakai google analitik reporting sudah bisa lihat oh CLS saya berapa, INP saya berapa saya berapa persatuan waktu yang saya mau kerjakan ya dia kan di list 4.0 All, which is major update. Apa yang ditambahkan? Yang pastinya INP. Kan INP yang baru tuh, quite vital yang baru, yang tidak disahkan sebagai pengganti total blocking time. Atau first input delay. first input delay atau total blocking time itu diganti jadi namanya interaction to next pane update dari web vital library ini sudah bisa menghitung INP INP itu lab berarti lab ya bukan user gak harus nunggu interaksi user interaction to next pane dua-duanya ya kan kalau during page load dia bisa menghitung INP nya berapa kalau kita scroll interaction to next pain cycle nya dia bisa lagi hitung berapa sama kayak CLS kalau CLS kan selama pagenya hidup CLS nya tetap dihitungkan nanti yang maksimalnya kita tak tau INP sama juga seperti itu Seminggu lagi kata Mas Barry Pollard Kira-kira kalau nggak ada feedback yang major Akan jadi resmi 4.0 Ya nanti semuanya update itu page Kayak page web dev ke update Terus kemudian lighthouse yang di chrome juga ke update Pake ini Wah menarik ini berarti eh rapper di dari web performance API ya? kalau mau hitung sendiri dari performance API bisa low levelnya berarti performance API ini ya? salah satunya yang digunakan aja ya walaupun yang tadi yang apa yang di webhackers itu buat browser kan ya ya betul pakai juga seru ya bikin juga pakai API yang sama masai underlying API nya dia sebenarnya pakai library yang sama coba mungkin ke library tapi mungkin pakai lebih tepatnya pakai spek yang sama ah ya spesifikasi yang sama tapi kan jes itu kan V8 enggak ngaruh ya enggak ngaruh enggak ngaruh ya tetap pakai spek yang sama beda V8 kan runtime bukan ya runtime ya mesinnya mesinnya ya engine-nya ya ini pakai performance normal ini bukan itu sudah lama performance total cuman apa yang diukur mungkin apa yang diukur beda ada coba kita lihat perbedaannya performance.measure performance observer ini sama nggak? performance observer ada juga di web API apa saya kembali-kembali sekarang ya sebelumnya mungkin ini enggak ada tetapi di web ada ya performance.now itu iya performance maksudnya performance.now itu sebelum di web udah ada lama cuma yang saya belum tau di node ada gak? mungkin gak ada jadi kalaupun sebelumnya gak ada ya orang apa maintainernya node kan timnya node ngeliat oh ya ternyata itu relevan dan berguna buat diadopsi ke node.js bagus lah, maksudnya kan jadi makin streamline kayak dulu tuh bingung banget kenapa fetch bisa di browser tapi kalau di server nggak ada fetch harus install not fetch atau semacamnya ini kan kasusnya mirip kan cuma di bidang measure apa mengukur performa cara pakai sama persis loh ini nggak ada beda sama yang JS berarti speknya sama saya curiganya Node.js sekarang-sekarang ini memang sedang mendekatkan diri dengan web standar ya fetch udah di-include kemudian web socket mulai mau di-include nggak tahu udah apa belum nah beberapa API-API yang standarnya web juga diadaptasi juga ke node.js kalau gitu baguslah jadi bisa diukur juga dengan berarti javascript yang sama bisa dipakai di masih di yang sama dengan server walaupun pengukurannya mungkin berbeda ya ininya dimensinya berbeda ya Iya yang diukur lain beda alam berbeda beda alam tapi sintaksnya sama oke next apalagi nih kalau dari saya tadi udah web of humans API ada yang menarik lagi nih ini enggak tahu ya tapi ini belum jadi API ini baru proposal proposal kita dulu pernah ya di episode entah berapa kita bahas proses dari pertama mengajukan proposal sampai di apa adopsi jadi standar ya entah episode berapa cari sendiri nah ini berarti statusnya masih stage one ya stage 1 ya masih stage 1 jadi ceritanya eh ECMAScript ingin menambahkan type annotation atau wah ini pasti bahan perdebatan banget nih di Twitter atau di Hacker News orang pasti pada bisa jadi kontroversi ya tujuannya adalah Oh biar kalau misalnya apa nggak perlu transpilasi type bisa langsung jalan di browser ya ini juga sekaligus apa ya sekaligus membuat node.js kembali berkembang karena kan yang membuat orang yang berapa ya contohnya saya kemarin pengen pakai typescript tapi males pakai typescript compiler karena agak lambat jadi saya memilih pakai antara denu atau bun karena by default mereka udah bisa transpilasi udah bisa kompilasi ke typescript nggak perlu pakai transpilasi kan gitu kan kalau ini udah di approve kemungkinan besar node.js juga kena efeknya dan mungkin bisa jadi native typescript bisa jadi native nggak perlu ada transpilasi lagi transpire lagi Oh tapi paragraf satu itu menarik deh yang atas blablabla kalimat keduanya lebih cek by type checker netis nor external to JavaScript jadi maksudnya JavaScript nya JavaScript nya sendiri enggak dipaksa untuk jadi opinionated mengadopsi typescript atau flow moshe apa behavior type checking nya enggak enggak perlu punya opini tentang itu ya udah kalau runtime dicuekin aja yang komen cuma berarti kan kalau misalnya apa berarti kita harus semacam mendefinisikan type checker eksternal kan pas lagi mau jalanin type check-in semacam jasdok atau semacam flow kali ya bukan bahasa yang di bahasa superscript seperti typescript kita lihat lagi contohnya nih coba kalau gue mengerti maksudnya misalnya variable itu didepensikan type-nya integer, berarti dia gak ini ya sebenarnya gak peduli ya cuma bisa menerima warning aja gak error, maksudnya itu gak dianggap sebagai syntax error syntax error, hanya warning oh, kalau sekarang kalau sekarang syntax error ya kalau sekarang jalan-jalan kalau ya begitu batik Oh batik diignore gitu ya Oh iya kalau pakai jesdo kan kayak gini kan Iya kayak yang pertama ini kan Nah kalau proposalnya diterima nanti akan jadi seperti ini nah tapi oke tetapi string tapi miskipun dirantai salah pesatunya salah enggak ada masalah ini hanya untuk warning develop pada saat development aja alias enggak berisik kayak compiler kayak transpolnya si typescript itu ini nya kompilernya berisik tuh kalau salah kalau kita ingin diganggu kan ya maksudnya masing-masing developer terserah mau install mau apa pake tools itu kalau direset dulu gitu atau mau yang loose kelihatan bisa ya bebas ya Oke oke ada lagi nextnya nextnya terus ke bawahnya coba lihat ke bawahnya ke bawahnya ya maksudnya apa? Deskripsinya kayak gimana? sama pakai titik ya ini yang nanti ya tapi jadi susah banget ntar itu kan ada dikira objek bisa dikira objek, bisa dikira kondisional kan tanda tanya bla bla bla titik dua gitu kan oh yeah sedangkan kalau tanda tanya titik ya ah itu urusannya si programmer browser lah yang mikirin itu akan dibayar sama google sama apa sama apple sama firefox belum tentu juga diterima ini proposalnya ini cukup kontroversi sih pasti akan ada product sama pihak browser karena males implementnya nanti yang duluan nanti itu Microsoft Edge yang duluan karena kan typescript dikembangkan di Microsoft kan, sisa satu entity. Tadi pas di jalan juga sempat dengar podcast kan ada apa kenapa typescript itu jarang ada tools yang kayak misalkan type checking only terus ternyata kata nggak tahu ini bener atau enggak ya bisa ditek benerannya atau kalau salah tolong dikoreksi katanya typescript itu tidak open untuk spesifikasinya tuh bahas secara bahasa enggak ada enggak di open mungkin sama Microsoft ya jadi terus seperti biome yang yang apa yang baru kayak linter gitu dia mau cek typescript itu biar itu menebak-nebak sendiri jadi enggak ada spesifikasinya seperti JavaScript kalau kita mau bikin parser untuk JavaScript kan udah ada spesifikasinya kan gitu kan kita mau bikin engine ya kita tinggal ngikutin aja ya typescript enggak ada berarti emang semi apa ya Hai semi-semi close-up lah ya ya semeter tutup bukan tertutup kodenya tapi cara kerjanya ya prinsip kerjanya harus melihat source code-nya kan bukan spesifikasi ya begitulah scroll ke yang menarik ke bawah efeknya tuh kalau misal kalau yang kodingan ini sih ya udahlah kayak gitu artinya pahamlah ada efeknya di bawah-bawah lagi hausian generik suhu ada jenis gaya berita script lain intinya type script semua sih ada di sini omit it cuy Ken ada yang up for debate itu juga menarik ambien file apa DTS function overload ini kue peh kayaknya surem deh kagak lolos kayaknya yaudah lanjut lanjut lanjut lanjut oh 3 tahun yang lalu udah 3 tahun ya nah ini optional jadi argumen, saya argumennya proposal ini ada kebutuhan dari ekosistem ini solusinya tanpa mengharuskan semua developer untuk pakai type checking terus yang paragraf ketiga menarik bukan perkara javascript harus punya type atau enggak sih cuma kalau mau pakai type gimana caranya gimana cara bekerja javascript bisa bekerja dengan type oke seru ya masih ini argumen dari sudut pandangnya si proposal ini terus Kenapa enggak bikin type system sekalian jadi TC 39 di apa itu nya ya badan yang membuat ECMAScript ini nih is wrong wireless go around web compatibility jadi secara implicit ini kayaknya kayak kita dikasih tahu nggak akan gak JavaScript nggak bakal bisa berubah sederastis itu ya entah itu perkara type atau apapun kedepannya nggak bakal bisa ada perubahan drastis karena nanti nggak backwards compatible kan Yes bikin dua rantai banyak di browser ya gede lah bentrok nggak jadi bentrok bisa antara satu sama-sama sama-sama modifi dong ngaco nanti yang satu iya butuh jokowi 2 sama jokowi 3 nanti nanti ada bikin terus ya oke oke lanjut lanjut lanjut kita lanjut ke mana lagi nih apa ya yang menarik ya spesifikasi itu tuh sorry apa speculation speculation rules API speculation rules nah ini juga baru nih menarik nih wah ini baru banget ya baru banget fresh from the oven ini ada videonya juga ya jaseline iya pernah kita undang kekian bukan jengkelin ya jeslin itu zaman jengkelin TV show zaman kapan intinya ini untuk mengkustomize behavior prirender atau privets kan dulu kita semua ditaruh link apa link teks tuh terus ada yang di ada yang obsolete ya prirender kayaknya terus agak bingung buat behaviornya antara satu path dan lainnya. Nah, ini dibikin kayak satu blok untuk mengatur behavior pre-fetch atau pre-render yang kita mau dan semacam prioritas lah, semacam urutannya. Si browser bisa diberikan power untuk nge-prediksi, meng-spekulasi apakah link itu akan di klik atau enggak, di-render, di-prefetch atau tidak. Jadi browser yang akan menghitung opportunity itu, probability itu berdasarkan history yang ada di browser kalian sendiri. jadi gak ada hubungannya sama terparti jadi berdasarkan berdasarkan kita punya behavior sendiri berarti ini kayak apa ya recommendation system ya ini pake AI lebih tepatnya seperti guest js pernah denger gak ya ya pernah itu buatannya google juga itu dulu guest js bukan pakai S S nya menebak iya iya iya salah ini salah satu library yang pernah saya mau coba untuk client project tapi gak berhasil saya ini karena harus konek ke harus konek ke itu harus konek ke google analytics jadi data Google Analytics kita kita kasih, masukin ke connect ke ke library ini nanti dia connect langsung yang ribet lah setupnya oh, udah ada buat next.js sebenarnya ya oke dan ini kan contohnya semua lanjut lanjut lanjut ya itu kan contohnya semua kan rata-rata kan sudah pakai webpack atau Gatsby segala sesuatu saya kan static saja pakai WordPress dan setupnya jadi ribet karena bukan bukan kayak prefetchingnya seperti SPA gitu kan jadi sebenarnya saya pakai yang static gini gitu dan di belakangnya itu pakai note jadinya ribet tetap nggak ada ya dengan PHP sudah lah nah kalau pakai ini nih spekulasi ini semuanya di web jadi prefetching dan prerender si webnya yang menentukan berdasarkan kita coba langsung ke example nya deh ini dia prerender when, where and make slash log out or no prerender kalau prefetch kalau url nya next.html atau next2html enak ya Ini bisa dibedakan setiap halaman kan, jadi kita bisa nge-build role itu berdasarkan server site render. Jadi misalnya saat lagi di page apa, saya bisa kasih role itu, saya di landing page, maka yang saya kasih role-nya pre-fade atau pre-render thank you page. Karena siapa tau sudah selesai, waktu dia muncul thank you page, cepet. karena kita yang dari sisi server nah hmm menarik menarik menarik nah ini juga kalau artikel yang lebih enak dilihat itu tuh di chat gimana gimana oke ya ke ini dulu deh ke bahannya Eka dulu nah speculation rules improvement sambil nunggu loading yang menarik buat saya ini nih bagian ini nih bagian ini nih and so make sense for multi-page application rather than single-page application karena kan sekarang trennya tekan menuju ke MP kan balik ke MPN banyak Iya dengan ada react server komponen lah ada spell kit ada quick ada macam-macam kan ada Astro juga jadi dengan apa si si pengembang web juga dia melihat Wah nih kayaknya terakhir menuju MP3 make sense akhirnya dibuatlah spekulasi nge-roll API ini mungkin gitu ya dan kalau pakai kalaupun ada client-side routingnya neke mesin XJS gitu ya akan kalau misalnya emang support it bisa pakai client-side routing tapi kan sebetulnya itu SSR juga kan jadi bisa dianggap bisa punya bingung VR MP juga benar-benar ditambah lagi dengan apa tadi ya transition API udah deh lengkap Iya dokumen rules rules nya dalam bentuk script begini ya apa jesen jadi nggak ngerender sama browser ya kan diskip diskip dan juga enggak di script ini kan dia enggak waktu di-paste dia nggak dipeduliin gitu kayaknya blablabla dicoyokin nggak blocking nggak blocking sama sekali nggak blocking di domnya cuma ngasih tahu ke si browsernya sendiri apa mesin mekanisme Browsernya Oh bisa pakai CSS selector Tadi Oh menarik Berarti kita bisa ngasih link itu Oh saya mau link ini Di pre-render Link itu gak ada Bisa Karena kalau logout di pre-render Dia ke logout terus Iya kan Iya bener Kan kalau link logoutnya di pre-render di belakang Dia bakal ke logout terus Dia manggil logout Oke berarti bisa bisa prerender ini mungkin ini ini op-in gak sih by default yang enggak kan maksudnya enggak by default yang ada enggak ada spekulasi Woi apa itu Oh katas katas ada warning-warning Oh ya merah-merah kosong ini oferspesialisasi itu over-reviewing CPU kos dia baca dari mana Oh dia baca dari history browser kita ya bukan hati-hati kalau terlalu banyak yang kita spekulat dan untuk mint untuk minta dipercaya masalah satu halaman kita mungkin halaman kita yellow pages yellow pages ya kan terus kemudian ada 10.000 link masih kita pre-render semua ya ngedos ngedos server kita sendiri kan maksudnya gitu dan browsernya juga kan apa main threadnya mungkin kerjanya jadi ekstra ya karena ngecek satu persatu ini wah ini relevan nggak ya perlu freehatch atau prerender atau enggak ini keren nih kalau misalnya kita keren nih kalau misalnya ini prerender ini digabungkan dengan intersection observer kali ya atau lazy load jadi semakin orang ingat nggak kalau misalnya kita yang pakai kayak twitter kalau scroll baru dia muncul kan kalau pakai ini bukan maksudnya hanya link yang ada di above the fold itu yang muncul itu yang tidak usah sampai semua iya mungkin saya bisa saya nanti bisa feedback kalau itu dikombainya sama view transition yang level 2 wah seneng banget tuh MPA, SSR udah kayak nanti lama-lama hampir gak bisa dibedain sama SPA ya kan karena di klik nih secepatnya udah diambil duluan langsung fade in fade out iya seperti ini memang trendnya memang diarahkan ke sana kali ya diarahkan ke sana perbedaannya atas sama bawah ini chrome only atas sama bawah ya lihat oh source ada source-sourcenya dokumen kalau di bawah apa enggak ada source-nya baca penjelasan lah di atas make the source key optional since, oh gak harus pakai source, karena bisa di-invert dari URL atau where, oh gitu these two speculation rules are identical ini dianggap sama karena udah ada where-nya, browser bisa mengkalkulasi sendiri bisa ngira-ngira sendiri jenis source-nya itu apa nggak masih pakai script lo bisa pakai http header loh turun tuh bisa pakai Oh iya iya itu ah ini etik di webserver ya Iya jadi kayak ini kayak manifest.com Jason Hai adik manifest di kayak manifest Alright Scroll ke bawah ini seru sih udah ada beberapa yang mengadopsi walaupun masih baru ya dan hanya masih bisa satu domain kan ya nggak bisa juga cross-domein kan ya coba coba coba di klits ntar habis lo ininya cateringnya udah warning buka buka buka sambil buka DevTools Network sambil buka YouTube terus kalau kita over dia akan muncul gitu ya makasih ya kita coba coba reload Oh ya dulu ya sudah ini common fruit Oh ini masih kamu over its link to the render it mana ini bukan chrome-nya udah Chrome 124 belum ini bukan chrome kanari kanari oh 126 126 malah kenapa ya nggak bisa coba-coba coba ke jadi penasaran api support in this browser support edit speculation rule-rule yang suruh dibuat sendiri gitu bukan bukan sudah ada sudah sudah edit aja kan moderate kemudian ini di application bukan di Network Oh gitu eh application mana ya speculation Oh ada spekulasi ya ya bisa di-roll di-roll di-roll ini ada warning ya speculation coba 18 not trigger ya baru ruleset dipencet aja kamu itu udah teringat ke-16 juga oh speculation speculation nah ini jadi kalau olive diklik maka dia udah langsung render ya 404 enggak ada beneran contoh behaviornya coba ke yang 404 yang ini enggak tapi enggak tahu itu pakai ini halaman ini pakai website ini Iya iya iya iya ini kan merangkap demo macem-macem API baru ya lagi persiapan lagi persiapan Google I o ini biasanya Oh ini teaser berarti ya teaser ya ternyata episode adalah episode teaser untuk Google Ayo 2024 tentang web ya kita enggak tahu kita sendiri enggak tahu topiknya apa masih coming soon tapi kita ini pasti masuk deh Oh iya iya iya iya berarti ini ditambahin baru ya ada background service sendiri ya kita asumsinya kan network ya asumsinya network ternyata behavior baru ini kayak di-streamline di satu tempat terpisah balik ke screen yang tadi deh yang developer chrome.com yang blog post blog post yang ini ya yang ini ya nah scroll ke bawah bawah lagi Nah ini yang penting platform support Apa? Atas sedikit Masih lagi proses Standarisasi Jadi seneng boleh tapi jangan seneng-seneng Amat We are also working hard to standardize the API Lewat WICG Jadi masih dalam proses Kalau misalnya pengen tau diskusi-diskusinya Ya mungkin itu bisa di Klik Sudah ada wordpress Sudah ada wordpress Sudah ada pluginnya spekulasi mudah ada Wow cepet sekali ini sebab ini tingkatnya spekulatif juga sebenarnya belum diadopsi banyak browser ya spekulasi aja udah bikin lagi aja saya percaya sama yang seru Kenapa tuh ya itu pada adopsi juga Scroll aja ke bawah Oh Astro udah Wow cuma mungkin experimental tapi ya seru sih dulu pun waktu view transition API yang level 1 itu salah satu yang pertama kali mengadopsi meta framework itu astro yang paling terdepan paling pertama baru-baru launching 4.2 kan berlunching kan dia ini poin 2 Januari sih masih eksperimental ini soalnya yang Januari kemarin 4 poin berapa ya 4.4 ya yang baru ya enggak tahu 4 sekian lah ya intinya udah nama ini ya define config untuk konfigurasinya prefetch to experimental client prerender true nice coba tuh contoh penggunaannya scroll ke bawah if the document prerendering render disable oke sederhana seru sih astro itu salah satu meta framework yang aktif mengadopsi standar web API jadi punya approach yang beda ya kalau next.js kan dia semua dia bikin sendiri ya walaupun eventually kalau web API nya ada ya akhirnya di apa streamline juga cuma kalau astro pendekatannya apa kejemput bola lah ke web API yang baru yang masih experimental pun dipakai ya cuma di di jadi mereka juga experimental juga jadi enggak ngeganggu yang stable uh oke mudah ya lanjut satu lagi atau dua lagi Nah kalau dari saya ada ini nih apa Jason modul apa touch Jason modul itu kalau dulu atau pun sekarang kalau misalkan kita mau import dari jesen kan harus pakai bundler kan ya at bander biasanya kalau dari webpack itu ada extensionnya untuk loading jesen nah ini sudah netizen untuk bisa bahkan untuk bisa batu bisa baca jason udah import-import dari jason bukan import dari jason Jadi kalau kita punya jesen data kita bisa langsung nggak perlu pakai plugin nggak perlu pakai bander ya nggak perlu Jason pars enggak perlu desain betul Wah ini dulu bagian dari import atribus proposal apalagi itu bad it was resolved waktu meeting musim 4 tahun lalu Juli 2020 disepakati dipecah jadi proposal yang beda nice motivasi yaitu biar bisa bang biar bisa mengimpor jason file ya kalau yang begini semua pasti langsung setuju kalau yang tadi type apa type terlalu berani netik opinionated soal betul betul ada orang yang suka tapi di sisi yang lain kan kita si web ini harus menjaga tetap menjaga kompatibilitasnya kan tetap harus bisa membuka web dari tahun kapan gitu kan jadi agak berat sih bakal bakal ada enggak sih di obsolete gitu at some point Iya kalaupun obsolete nggak boleh breaking kan kayak misalnya Markli atau apa bling gitu enggak enggak jalan tapi kan enggak rusak kalau tapi kemarin ada tuh yang obsolete kemarin ada yang obsolete Iya ada ada ada ada bukan Marky temennya Marky center center center oh iya tapi kan gak breaking kalau cuma HTML tag ya gampang ya cuma kalau misalnya apa Iya kalau udah ada yang pakai center browser gimana tuh ya nggak papa di render jadi kosong kali masih di render div biasa ini kan kita ngerender element diperkirkan maksudnya bukan asole hilangkan nggak deprikated no longer recommended dosa Oh ya bakal dihilangkan dipakai itu bakal dihilangkan kan dihilangkan dari webstandard akan dihilangkan terus kenapa market tetap tetap eksis ya karena bagus bagus karena masih banyakannya accessibility nya kurang bagus ya lebih kompetibel aja sih dengan resiko masih bagus di zamannya bagus di zaman karena masih banyak yang pakai ternyata center itu enggak banyak yang pakai orang udah pakai mungkin udah udah pada pakai excel line center aja udah pakai bagri jadi udah lebih ini ya kali ya udah lebih Iya banyak yang mau saya banyak alternatif CSSnya. Kalau Markui bisa pakai animasi tapi kan repot. Nggak bisa balik lagi. Iya benar-benar. Oke oke. Jadi ya. Mana tadi? Kita balik lagi ke ini ya. Jason ya. Udah gitu aja. Ya sederhana sih. Cuman impactnya lumayan. Iya. Udah loh. Berguna sekali. kalau kita misalkan mau load dummy data gitu ya, dummy datanya dalam bentuk JSON atau bukan dummy data aja, mungkin data yang diimport dari gimana gitu kan, filenya dalam bentuk JSON. Kita punya config custom atau semacamnya. Iya, config, betul. Bisa dibaca langsung, bisa diimport langsung. Malah import, eh kalau import CSS itu CSS module ya istilahnya ya? Oh iya, sama ya. Iya, ada syntax CSS module. Iya, iya, iya. Benar, benar. status stage 3 stage 3 belum berada udah tapi udah hampir udah tinggal tinggal tunggu potong kita aja tunggu peresmian isunya apa nih isunya masih ada isu because feedback should name Jason module import by be a part of tahun lalu gila 2022 sih Oh iya ini last month ya udah aman ya ini ya bentar lagi ya aman lah stage 3 tuh kan udah apa hampir pasti ya itu lolos Alright ada lagi ada lagi yang menarik-menarik itu deh apa minor minor tapi lumayan sih yang HTML set HTML ya oke nah ini ya Nah cuma ini kepakainya cuma untuk kalau kita pakai custom element alias webcomponent komponen baru dengar ini masih udah pernah dengar beberapa hari lalu nih set HTML handset save kalau HTML biasa kan pakai inner HTML aja kan kita mau memanipulasi mengupdate suatu DOM ya apa bla div mydiv.innerhtml sama dengan HTML isi HTML nya tapi kalau custom element alias web component kan nggak bisa tuh nah sekarang jadi bisa udah gitu doang sih intinya contohnya kalau misalnya kita bikin shadow-shadow DOM harus pakai unsafe ini ya kan kalau nggak diparsing Oh ya kalau nggak diparsing ya ini ya replacement for inner HTML replacement ya it behavior nya sama kayak inner HTML cuma yaitu bisa buat custom element gitu jadi mau kalau kita pakai buat HTML biasa juga bisa ya maksudnya kalau kita punya custom element misalnya oh ya kayak apa kayak date picker date ya date custom element tapi date kan sudah disupport kalau yang kita bikin sendiri nggak bisa kalau pakai inner HTML dia harus pakai HTML unshift ini HTML unshift oke oke jadi kayak do itu jadi kayak siriak aja set HTML dangerously set HTML cuma ini trend yang kocak tapi menarik ini juga, kan sebenarnya itu behaviornya sama kayak inner HTML cuma bisa, dengan tambahan bisa pakai web component custom element, cuma sekarang jadi ada unsafe-nya gitu, maksudnya buat menekankan bahwa silahkan kalau misalnya datanya dari sumber datanya ada unsur eksternal, silahkan sanitize sendiri, bukan urusan kami kayak dari segi sintaksnya, yang emang jadi ngetriak gitu sih, dangerously set inner HTML TML dulu pas pertama kali belajar terus pakai tokek ini bercanda beneran ada dangerous riset apa inner.tml banyak tuh kalau ria gitu dia memang ciri khasnya gitu ya huruf besar semua terus kadang-kadang ada yang mau depresi dia tulis dulu kan will be depresi tetap belakang biar enggak enggak banyak yang cuma di dalam kodenya apa sih dulu kan kalau lain terakhir ada yang gak boleh dihapus ada komennya if you delete this, the sky will fall atau apapunnya ada komen ada bagian yang gak boleh di delete oke oke nah ada lagi web API yang baru di 2024 atau sebelumnya ini aja belum kesampaian interop aja yang menarik yang Zoom. Oh iya, kita udah bahas Interop 2024 belum ya? Udah kayaknya kan sempet yang kita bahas apa yang akan masuk di Interop 2024 itu pernah sudah sudah sudah ada jpeg excel itu sempat di sempat mau di ini tapi gak di ini interop 2024 ya itu di link gue kan ada tuh oh di chat di comment di chat oke yang sudah stable aja atau ke-13 yang mengenaskan tuh custom property di Firefox kayak gimana ya mungkin yang masih yang kan suka degenerasi terbaru enggak yang apa dulu kan banyak nih bagiannya coba aja Nah itu at property animation jadi yang buat animasi atau buat apa enggak ada atau yang mana ya variable untuk memasukkan eh banyak at property at property gitu loh oh oh decorator decorator kayak decorator gini kan kayak decorator bukan decorator kaya kaya ada banyak kan ada beberapa mau dia eh enggak enggak itu enggak ini propertika skate properti Oh dia enggak enggak support properti properti schedule semua enggak ya itu kelihatan satu musik satu paket deh maksudnya itu fitur-fitur yang sebenarnya harus kerja barengan pada Firefox itu tuh kalau soal CSS apa image-nya apa identiknya Firefox yang paling pertama ya kayak grid dulu Chrome pun belum support grid Firefox udah support duluan ini gambar apa ya ini ini Linux ini apa ya itu Chrome di Linux maksudnya yang ini kayak react gitu tapi bukan sih kayak logo ria kau Windows bukan apa ini stas cluster logo pas cluster coba aja Hai pasarnya dia kali tahu deh hehehe apalagi interop 2.2.2.4 ini ya yang tadi ya atau TPS yoram for socket tuh kayaknya batik udah mau udah udah stabil tuh Firefox sama Safari yang paling duluan over tadi udah kita bahas ya udah hampir CSS nesting juga nyaris ini ini experimental loh top XO ya kalau mau tetap stable itu tetap tetap nah stables CSS itu Sun kayak coming soon to the most soon ya ya index DB udah bisa dibilang udah ya selesai ya udah ini ya just kasihan powerfox safari paling aktif cuma nyusul kok tadi kan yang dikatakan sudah hampir sudah selesai oke x-rap balance airfox udah duluan iya oke oke, sip ada lagi? hmm, udah dulu mari kita tidur ya, jadi itu dia, mungkin daftar apa ya, web API baru, atau yang tidak terlalu baru yang bisa dicoba ya tapi mungkin baru masuk baseline baru stabil di semua bahkan tadi kita bahas yang tapi notasi itu bahkan masih setiap satu artinya masih perdebatan tapi belum tahu cuman yaitu bisa jadi kontroversi dan menarik diikuti ya tapi menarik buat cara mikirnya maksudnya argumennya terus kayak pro kontranya ya ya ya kalaupun nanti gak diadopsi kita punya ya kayak kita punya insight ke situlah mau update sekalian hari ini kemarin gua itu kemarin kan gua nyoba paski kan waktu tahun lalu waktu ngasih presentasi paski itu masih ngebug di firefox dan belum support bahkan fatal error sekarang sudah lancar jaya pasti sudah lancar jaya di firefox web outen web outen sudah stabil sudah stabil di firefox thank you firefox akhirnya saya bisa begitu sudah coba udah bisa Oke, berarti sedang mempersiapkan beberapa materi. Iya, materinya saya kerjakan ini proposal, jadi saya mau submit-submit ke klien. Ayo, nanti pasti. Mantap, mantap. Dua tahun lalu saya mulai kerjakan, setahun lalu saya promosikan, sekarang baru bisa dipakai. Tahun lalu talknya event semua tentang paski WordPress lagi nih. Iya. Iya oke nah mudah-mudahan apa ya masih banyak sih yang bisa kita kulik sih sebenarnya cuman ini yang yang menurut kita menarik ya kalau menurut teman-teman apa yang dinanti-nanti apa sih boleh di kolom komentar meskipun kita tidak live tapi kita akan baca ya komentar juga boleh kita teman-teman kirimkan ke kesana.inselasengobrodenweb topik atau narasumber atau apapun bisa kirim ke sana nanti kita diskusi-diskusi juga jadi untuk malam ini sekian dulu kita ketemu lagi minggu depan mudah-mudahan minggu depan kita bisa live karena ini tidak live tadi lupa ngomong ya langsung masuk ke materi ya malam ini kita tidak live karena satu dan lain hal nanti mudah-mudahan minggu depan kita bisa live lagi dengan topik yang berbeda. Kalau gitu, udahan dulu. Selamat malam. Selamat istirahat. Bye-bye."
+}

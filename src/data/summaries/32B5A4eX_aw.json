@@ -1,0 +1,14 @@
+{
+  "videoId": "32B5A4eX_aw",
+  "generatedAt": "2026-02-25T00:00:00Z",
+  "brief": "Episode ini membahas berbagai Web API baru yang sedang trending atau akan menjadi tren di tahun 2024. Diskusi dimulai dengan penjelasan tentang apa itu Web API—bukan REST API melainkan API yang disediakan oleh browser seperti Storage API, Performance API, dan Observer API yang berlandaskan pada spesifikasi teknis. Beberapa API yang dibahas meliputi View Transition API yang kini sudah mencapai level 1 (client-side) dan sedang menuju level 2 (server-side), Popover API yang kini telah menjadi baseline dan bisa digunakan tanpa JavaScript murni untuk membuat tooltip atau toast non-modal, serta Web Vitals 4.0 yang menambahkan metrik INP (Interaction to Next Paint) sebagai pengganti First Input Delay.\n\nSelain itu, episode juga menyinggung proposal TypeScript type annotations untuk JavaScript yang masih dalam tahap perdebatan (stage 1) dan kontroversial karena berpotensi mengubah cara kerja JavaScript secara drastis. Speculation Rules API juga dibahas sebagai fitur baru yang memungkinkan browser untuk melakukan prefetch dan prerender secara cerdas berdasarkan perilaku pengguna, yang sangat relevan dengan tren kembalinya Multi-Page Application (MPA) dengan adanya server-side rendering. Diskusi diakhiri dengan JSON module import yang kini berstatus stage 3, memungkinkan import file JSON langsung tanpa bundler, serta setHTML API sebagai alternatif innerHTML untuk web components.",
+  "keyPoints": [
+    "View Transition API Level 2 - Memungkinkan transisi antar halaman (MPA) tanpa client-side routing, membuat website multi-page terasa secepat single-page application.",
+    "Popover API - API native browser untuk elemen pop-up non-modal (tooltip, toast, menu) tanpa perlu library tambahan, sudah masuk baseline 2023 dan didukung semua browser modern.",
+    "Web Vitals 4.0 - Library terbaru untuk mengukur Core Web Vitals dengan dukungan INP (Interaction to Next Paint) yang menggantikan First Input Delay.",
+    "Speculation Rules API - API baru untuk mengontrol perilaku prefetch dan prerender berdasarkan prediksi browser, sangat berguna untuk Multi-Page Application.",
+    "JSON Modules - Memungkinkan import file JSON langsung tanpa bundler atau plugin tambahan, sudah mencapai Stage 3 dan hampir resmi menjadi standar.",
+    "setHTML API - Pengganti innerHTML untuk custom elements/web components dengan fitur sanitasi bawaan untuk keamanan.",
+    "Type Annotations Proposal - Usulan kontroversial untuk menambahkan type annotation langsung di JavaScript tanpa transpilasi, masih tahap Stage 1 dan menjadi perdebatan di komunitas."
+  ]
+}
