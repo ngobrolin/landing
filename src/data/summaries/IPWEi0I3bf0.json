@@ -1,0 +1,15 @@
+{
+  "videoId": "IPWEi0I3bf0",
+  "generatedAt": "2026-02-27T00:00:00Z",
+  "brief": "Episode ini membahas dunia open source bersama Mas Arya, pembuat PhantomJS dan Esprima yang sangat terkenal di komunitas JavaScript. Mas Arya berbagi pengalaman perjalanannya mulai dari latar belakang pendidikan di bidang hardware engineering di Jerman, terpapar ekosistem open source melalui komunitas KDE, hingga akhirnya menciptakan dua proyek open source yang sangat berpengaruh. Diskusi mencakup perbedaan antara proyek open source yang dikelola perorangan dengan yang didukung perusahaan besar, tantangan maintaining proyek populer, serta perubahan motivasi kontributor open source dari murni altruistik menjadi monetisasi dan popularitas. Episode juga menyentuh fenomena maintainer burnout seperti kasus color.js dan faker.js, serta strategi untuk membuat proyek open source yang sustainable.",
+  "keyPoints": [
+    "Mas Arya menciptakan PhantomJS (headless browser untuk testing) dan Esprima (JavaScript parser) yang keduanya memiliki jutaan download di NPM",
+    "Awal mula terjun ke open source berasal dari pengalaman studi di Jerman dan terlibat dalam komunitas KDE yang sangat aktif di Eropa",
+    "PhantomJS lahir untuk menjembatani antara unit test dan end-to-end test di era front-end development yang masih liar 15 tahun lalu",
+    "Esprima dibuat karena tidak ada parser JavaScript yang cepat dan akurat saat itu, test suite-nya menjadi standar untuk parser modern lainnya",
+    "Perbedaan mendasar antara proyek open source hobi dengan proyek perusahaan: yang pertama bebas dari tekanan tapi bisa membebani maintainer secara emosional",
+    "Kontribusi ke proyek besar seperti React atau TypeScript sebelum membuat proyek sendiri dapat melatih kesabaran menghadapi komentar positif dan negatif",
+    "Motivasi open source telah berubah dari memenuhi kebutuhan pribadi dan belajar, menjadi mengejar popularitas dan monetisasi",
+    "Strategi sustainable untuk maintainer: fokus pada niat awal memenuhi kebutuhan sendiri, tidak mencoba membuat semua orang bahagia, dan menggunakan fitur archive atau transfer maintainer jika sudah tidak sanggup"
+  ]
+}
