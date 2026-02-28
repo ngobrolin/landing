@@ -1,0 +1,15 @@
+{
+  "videoId": "m7rsN2Wmb78",
+  "generatedAt": "2026-02-27T00:00:00Z",
+  "brief": "Episode ini membahas topik caching secara komprehensif mulai dari konsep dasar hingga implementasi praktis di berbagai layer aplikasi. Diskusi dimulai dengan analogi dompet dan penjelasan tentang sejarah caching dari hardware (L1, L2 cache) hingga implementasi di software. Pembahasan mencakup multi-layer caching yang mencakup DNS cache, client cache (browser), CDN caching, web server caching, application caching, hingga database query level caching. Episode juga menyinggung perubahan lisensi Redis dari BSD ke RSPL dan dampaknya terhadap industri, serta membahas strategi cache invalidation dan tantangan dalam mengelola cache di sisi client yang berada di luar kontrol developer.\n\nEpisode lebih lanjut membahas berbagai strategi cache update untuk traffic tinggi seperti stale-while-revalidate, cache update melalui endpoint tersembunyi, dan penggunaan cron job untuk memperbarui cache secara berkala. Diskusi juga menyentuh konsep memoization di React (useMemo), opcode cache di PHP, dan perbandingan antara teori normalisasi database dengan praktek denormalisasi di dunia kerja yang lebih mengutamakan performa. Topik Big O notation dan time complexity juga dibahas dalam konteks memilih operasi Redis yang tepat untuk performa optimal.",
+  "keyPoints": [
+    "Caching adalah metode menyimpan data sementara untuk membuat aplikasi lebih cepat dan service lebih ringan secara finansial",
+    "Multi-layer caching mencakup DNS cache, client cache (browser/local storage/session storage), CDN, web server, application, dan database query level",
+    "Redis sering digunakan untuk object level caching karena kecepatannya dan cocok untuk centralize session di lingkungan dengan multiple web servers",
+    "Cache invalidation di sisi client sulit dikontrol karena berada di luar kendali developer, memerlukan strategi seperti tombol reload atau service worker update",
+    "Strategi cache update untuk traffic tinggi meliputi stale-while-revalidate, endpoint tersembunyi untuk revalidation, dan cron job untuk update berkala",
+    "Opcode cache di PHP menyimpan kompilasi kode di memori untuk menghindari kompilasi ulang, membuat eksekusi PHP 8 jauh lebih cepat",
+    "Memoization di React (useMemo) adalah bentuk caching frontend yang mengingat hasil komputasi berdasarkan input untuk mencegah re-render yang tidak perlu",
+    "Denormalisasi di dunia kerja sering lebih dipilih daripada normalisasi murni karena storage sekarang lebih murah dan performa lebih prioritas"
+  ]
+}

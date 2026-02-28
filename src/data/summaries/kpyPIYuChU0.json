@@ -1,0 +1,15 @@
+{
+  "videoId": "kpyPIYuChU0",
+  "generatedAt": "2026-02-27T00:00:00Z",
+  "brief": "Episode Ngobrolin ini menghadirkan Warad Wong Maneki, seorang Google Developer Expert (GDE) untuk Web dari Thailand yang berbagi pengalamannya tentang Vue.js dan ekosistem pengembangan web. Warad, yang merupakan co-founder di Wisesight (perusahaan analitik sosial dengan 260 karyawan) dan CTO di startup EV charger finder, membahas perjalanan kariernya selama 20 tahun di pengembangan web. Percakapan ini mengeksplorasi alasan di balik preferensi Warad terhadap Vue.js dibandingkan React, kelebihan dan kekurangan masing-masing framework, serta tantangan dalam komunitas Vue.js di Thailand. Diskusi juga mencakup topik-topik penting seperti Nuxt.js sebagai meta framework, manajemen state dengan Pinia, pengembangan aplikasi hybrid dengan Capacitor, dan masa depan Vue dengan fitur-fitur baru seperti Vapor mode. Warad juga berbagi wawasan tentang ekosistem teknologi Thailand, tantangan dalam menyelenggarakan meetups pasca-pandemi, serta perbedaan antara Options API dan Composition API dalam Vue 3.",
+  "keyPoints": [
+    "Warad Wong Maneki adalah GDE Web kedua di Asia Tenggara dan pertama di Thailand dengan pengalaman 20 tahun di pengembangan web",
+    "Vue.js dipilih karena kesederhanaan dan pendekatannya yang mirip dengan AngularJS namun lebih ringan, terinspirasi dari preferensi penulisan template terpisah daripada JSX",
+    "Ekosistem Vue di Thailand memiliki komunitas yang lebih kecil dibandingkan React (64% React, 20% Vue, 15% Angular) dengan tantangan dalam menyelenggarakan meetups pasca-pandemi",
+    "Nuxt.js menyediakan banyak \"magic\" yang memudahkan pengembangan seperti auto-import, routing berbasis folder, dan manajemen state, namun memerlukan pemahaman tentang cara kerjanya",
+    "Pinia telah menggantikan Vuex sebagai library manajemen state resmi Vue dengan pendekatan yang lebih sederhana menggunakan methods daripada actions",
+    "Warad menggunakan kombinasi Vue.js dan Capacitor untuk membangun aplikasi yang dapat berjalan di berbagai platform (mobile, desktop, PWA) dengan satu codebase",
+    "Tantangan utama dalam ekosistem Vue adalah kompatibilitas antara Options API dan Composition API, serta ketersediaan library komponen yang lebih sedikit dibandingkan React",
+    "Vue 3 akan menghadirkan fitur baru seperti Vapor mode yang berpotensi menghilangkan virtual DOM untuk performa yang lebih baik, serta dukungan View Transitions API"
+  ]
+}

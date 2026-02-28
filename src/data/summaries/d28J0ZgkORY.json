@@ -1,0 +1,15 @@
+{
+  "videoId": "d28J0ZgkORY",
+  "generatedAt": "2026-02-27T00:00:00Z",
+  "brief": "Episode Ngobrolin Web kali ini membahas Artificial Intelligence (AI) dalam konteks web development bersama tamu spesial Bu Esther Irawati, Google Developer Expert di Machine Learning dan Associate Professor di Institut Sains dan Teknologi Terpadu Surabaya. Diskusi dimulai dengan latar belakang Bu Esther yang awalnya adalah web developer sebelum masuk ke dunia machine learning, kemudian membahas evolusi teknologi AI dari Google seperti BART, Vertex AI, hingga Gemini yang menjadi fokus utama pembicaraan. Episode ini sangat relevan bagi web developer yang ingin memahami apakah perlu belajar AI, seberapa jauh pemahaman yang dibutuhkan, dan bagaimana memanfaatkan AI untuk meningkatkan kualitas aplikasi web yang dikembangkan.",
+  "keyPoints": [
+    "Bu Esther Irawati adalah Google Developer Expert di Machine Learning dan dosen di ITS Surabaya yang awalnya berkarir sebagai web developer sebelum masuk ke bidang machine learning",
+    "Google memiliki berbagai teknologi AI seperti BART, Vertex AI, AI Studio, dan Gemini yang dapat dimanfaatkan oleh web developer untuk berbagai kebutuhan aplikasi",
+    "Vertex AI adalah platform cloud untuk menjalankan model machine learning dengan andal, sedangkan AI Studio berfungsi sebagai tools untuk prototyping dan eksperimentasi dengan model-model AI",
+    "Perbedaan antara auto-complete biasa dengan generative AI adalah kemampuan LLM untuk memahami konteks dan menghasilkan teks yang relevan berdasarkan data training dari internet",
+    "Parameter penting dalam AI seperti temperature (mengatur tingkat kreativitas/akurasi), top-K (probabilitas jawaban), dan top-P (diversitas jawaban) perlu dipahami untuk mengoptimalkan hasil",
+    "Web developer tidak perlu memahami detail cara kerja internal AI, cukup fokus pada pemilihan tools yang tepat dan bagaimana mengintegrasikannya ke dalam aplikasi",
+    "Fine-tuning dan transfer learning adalah teknik untuk melatih model AI dengan data spesifik agar lebih relevan dengan use case tertentu tanpa harus melatih dari awal",
+    "Privasi data menjadi pertimbangan penting saat menggunakan cloud AI services, alternatifnya adalah menggunakan open source model yang dapat di-deploy secara lokal"
+  ]
+}

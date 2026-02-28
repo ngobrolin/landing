@@ -1,0 +1,15 @@
+{
+  "videoId": "TsJQsHCdhUQ",
+  "generatedAt": "2026-02-27T00:00:00Z",
+  "brief": "Episode ini merupakan kelanjutan pembahasan artikel CSS Wrap 2023 dari Chrome Developers yang membahas fitur-fitur CSS terbaru dan menarik. Tim Ngobrolin yang terdiri dari Mas Riza, Mas Eka, dan Mas Awan membahas kategori Responsive Design dengan mendalam, termasuk Container Query yang menjadi topik bersejarah karena mempersatukan ketiga host untuk pertama kalinya. Diskusi mencakup berbagai fitur CSS modern seperti Container Style Query untuk mendeteksi custom properties, selector :has() yang sangat powerful, update media query untuk refresh rate dan preferensi pengguna, serta kemampuan animasi CSS yang semakin canggih. Episode juga menyinggung integrasi fitur-fitur ini dengan framework populer seperti Tailwind CSS, pentingnya memahami CSS vanilla meskipun sudah menggunakan framework, dan tantangan dalam mengadopsi fitur baru di lingkungan production.",
+  "keyPoints": [
+    "Container Query memungkinkan elemen responsif berdasarkan ukuran kontainer parent-nya, bukan hanya viewport, sangat berguna untuk layout kompleks seperti sidebar atau card components",
+    "Container Style Query adalah fitur eksperimental Chromium yang memungkinkan styling berdasarkan keberadaan custom property atau CSS variable dengan nilai tertentu",
+    "Selector :has() memungkinkan styling berdasarkan keberadaan elemen tertentu dalam DOM, mendukung pseudo-class seperti :has() + untuk efek fish eye pada sibling yang dihover",
+    "Update Media Query mencakup detect refresh rate device untuk optimasi animasi, preferensi reduce-transparansi untuk aksesibilitas, dan scripting untuk detect apakah JavaScript di-disable",
+    "Linear easing function memungkinkan pembuatan kurva animasi yang kompleks dengan mendefinisikan key points untuk kontrol penuh atas timing animation",
+    "Scroll-driven animations dan scroll end event memungkinkan animasi berdasarkan posisi scroll dan mendeteksi kapan user selesai scrolling tanpa JavaScript",
+    "CSS sekarang dapat meng-animate properti discrete seperti display dan content-visibility dengan menggunakan allow-discrete pada transition, sebelumnya tidak mungkin dilakukan",
+    "Penting untuk memahami fitur CSS vanilla meskipun menggunakan framework karena Tailwind dan framework lain mengadopsi fitur-fitur tersebut melalui plugin, seperti @tailwindcss/container-queries"
+  ]
+}
