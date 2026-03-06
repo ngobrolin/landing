@@ -1,0 +1,5053 @@
+{
+  "videoId": "SAGNwE--Htw",
+  "language": "id",
+  "generatedAt": "2026-03-03T06:03:39.367Z",
+  "segments": [
+    {
+      "start": 0,
+      "end": 21.12,
+      "text": "selamat malam selamat malam bertemu lagi bersama kita ber oh enggak bertiga ya masih"
+    },
+    {
+      "start": 21.12,
+      "end": 31.62,
+      "text": "belum belum belum belum on the way katanya on the way on the way ilang Iya Iya bagi teman-teman yang"
+    },
+    {
+      "start": 31.62,
+      "end": 39.24,
+      "text": "menunggu Baikkan baikannya masih on the way sabar ya hahaha on the way dari rumah gitu"
+    },
+    {
+      "start": 39.24,
+      "end": 48.88,
+      "text": "duluan aja gitu terakhir duluan Oke ya bertemu lagi bersama kita berdua sementara ini nanti"
+    },
+    {
+      "start": 48.88,
+      "end": 51.68,
+      "text": "Mudah-mudahan Eka bisa nyusul kalau tidak ada halangan."
+    },
+    {
+      "start": 52.4,
+      "end": 55.96,
+      "text": "Malam hari ini kita, nah kan baru diomongin tuh."
+    },
+    {
+      "start": 56.14,
+      "end": 56.94,
+      "text": "Udah muncul dia."
+    },
+    {
+      "start": 57.42,
+      "end": 58.24,
+      "text": "Kita tampilin dulu ya."
+    },
+    {
+      "start": 59.26,
+      "end": 60.38,
+      "text": "Cepat sekali on the way-nya."
+    },
+    {
+      "start": 62.08,
+      "end": 63.5,
+      "text": "Akhirnya you made it."
+    },
+    {
+      "start": 64.98,
+      "end": 67.28,
+      "text": "Pasti habis selesai meeting atau habis lari-lari nih?"
+    },
+    {
+      "start": 68.18,
+      "end": 69.06,
+      "text": "Habis lari-lari."
+    },
+    {
+      "start": 69.32,
+      "end": 69.92,
+      "text": "Dua-duanya."
+    },
+    {
+      "start": 71.14,
+      "end": 72.74,
+      "text": "Meeting, lari-lari."
+    },
+    {
+      "start": 73.74,
+      "end": 75.04,
+      "text": "Meeting sambil lari-lari."
+    },
+    {
+      "start": 75.66,
+      "end": 76.54,
+      "text": "Pakai treadmill."
+    },
+    {
+      "start": 78.88,
+      "end": 81.56,
+      "text": "Oke pembukaan lagi kita jadi"
+    },
+    {
+      "start": 81.56,
+      "end": 84.56,
+      "text": "hari selesai malam waktunya"
+    },
+    {
+      "start": 84.56,
+      "end": 87.56,
+      "text": "waktunya ngobrolin web"
+    },
+    {
+      "start": 87.56,
+      "end": 90.56,
+      "text": "waktumen"
+    },
+    {
+      "start": 90.56,
+      "end": 95.56,
+      "text": "makanya berarti mungkin gue harus lap tiap episode"
+    },
+    {
+      "start": 95.56,
+      "end": 97.56,
+      "text": "jangan dong"
+    },
+    {
+      "start": 97.56,
+      "end": 107.56,
+      "text": "ya jadi malam hari ini kita akan membahas tentang review CSS di 2023"
+    },
+    {
+      "start": 107.56,
+      "end": 117.7,
+      "text": "ya ada sebuah artikel yang sangat bagus dari tim Google DevRel ya di bagian web Chrome ya Google"
+    },
+    {
+      "start": 117.7,
+      "end": 130.18,
+      "text": "Chrome DevRel ya Abramus ada Bang Adam Argyle dan ada siapa satu lagi Una"
+    },
+    {
+      "start": 130.18,
+      "end": 132.18,
+      "text": "Una."
+    },
+    {
+      "start": 132.18,
+      "end": 140.18,
+      "text": "Maksudnya tadi saya sempat kepikiran, ini kenapa pertama kan linknya dari Mas Riza nih dapatnya."
+    },
+    {
+      "start": 140.18,
+      "end": 150.18,
+      "text": "Terus saya kepikiran, oh iya iya kenapa saya tuh pengen banget bahas ini karena ilmu CSS saya tuh cetek banget dan banyak ketinggalan."
+    },
+    {
+      "start": 150.18,
+      "end": 152.18,
+      "text": "Betul."
+    },
+    {
+      "start": 152.18,
+      "end": 156.18,
+      "text": "Nah, jadi pengen tahu sekalian belajar nih."
+    },
+    {
+      "start": 156.18,
+      "end": 166.28,
+      "text": "yang bisa saya cuma satu ini belumnya pembahasan sama sekali biasanya link"
+    },
+    {
+      "start": 166.28,
+      "end": 174.96,
+      "text": "dan kan ini belum ya ini masih kosong soalnya salah satu yang di-highlight"
+    },
+    {
+      "start": 174.96,
+      "end": 183.22,
+      "text": "ada fitur transition yang sering bahas ya Jadi itu juga menarik Halo Ari selamat"
+    },
+    {
+      "start": 183.22,
+      "end": 192.76,
+      "text": "Halo Halo ya Jadi malam hari ini kita akan coba mereview selama 2023 itu fitur out CSS apa aja"
+    },
+    {
+      "start": 192.76,
+      "end": 199.3,
+      "text": "sih yang muncul dan yang menarik juga ya nah cuma ngomong-ngomong apa kalian tahu-tahu apa aja apa"
+    },
+    {
+      "start": 199.3,
+      "end": 207.1,
+      "text": "yang kalian tahu apa aja Oh ini nanya ke penonton nih ya penonton kalian juga kalau Eka sama Mas"
+    },
+    {
+      "start": 207.1,
+      "end": 217.6,
+      "text": "ada yang tahu sebelum nyontek view transition sama nesting nesting nesting juga ya has ya has"
+    },
+    {
+      "start": 217.6,
+      "end": 222.82,
+      "text": "has kayaknya itu yang paling di highlight ya salah satu yang paling di highlight ya soalnya kayaknya"
+    },
+    {
+      "start": 222.82,
+      "end": 233.92,
+      "text": "karena stable iya karena keren banget dan Firefox sudah sudah mensupport nah itu sebenarnya yang"
+    },
+    {
+      "start": 233.92,
+      "end": 241.9,
+      "text": "tahun-tahun itu di akhir tahun kejutan rakyatnya ada dari senterkelas Desember itu kuingat antara"
+    },
+    {
+      "start": 241.9,
+      "end": 250.54,
+      "text": "tanggal 9-9 Desember deh dia nice Nah kalau gue sih udah tahu hampir semua kenapa alasannya karena"
+    },
+    {
+      "start": 250.54,
+      "end": 259.9,
+      "text": "jadi pertama kali apa speaking apa jadi pembicara di event io extended yang in person sebagai jadi"
+    },
+    {
+      "start": 259.9,
+      "end": 277.092,
+      "text": "Itu topiknya kayaknya 2 tahun lalu deh topiknya itu topiknya fitur CSS yang di present itu itunya talknya Mas Adam Ergel itu loh yang di IO Extended"
+    },
+    {
+      "start": 277.092,
+      "end": 281.332,
+      "text": "nah cuma itu kan sebagian besar waktu itu masih ya Chrome only"
+    },
+    {
+      "start": 281.332,
+      "end": 289.592,
+      "text": "cuma yang di present emang yang browser lain vendor lain udah kayak ngasih approval lah"
+    },
+    {
+      "start": 289.592,
+      "end": 291.97202,
+      "text": "jadi emang udah besar kan sebakal di approve"
+    },
+    {
+      "start": 291.97202,
+      "end": 296.332,
+      "text": "jadi kelihatannya sebagian besar yang disini sih udah pernah ketemu lah"
+    },
+    {
+      "start": 296.332,
+      "end": 306.532,
+      "text": "Oh udah pernah semua ya kepake-kepake has kepake banget hasware nanti deh pas lagi"
+    },
+    {
+      "start": 306.532,
+      "end": 314.63202,
+      "text": "bahas bakal ada use case nya dimana gitu ya sama ini penasaran sebelumnya web itu tahun-tahun ini"
+    },
+    {
+      "start": 314.63202,
+      "end": 324.33203,
+      "text": "kan di awal 2024 ada kayak rubrik rubrik fitur ada konten prep yang kebahas panjang 2023 ada"
+    },
+    {
+      "start": 324.33203,
+      "end": 330.812,
+      "text": "aja tahun lalu ada enggak sih tahun-tahun lalu kayaknya pertama kali ya Hai apa gara-gara interop"
+    },
+    {
+      "start": 330.812,
+      "end": 340.172,
+      "text": "2023 juga ngaruh gak ke situ mungkin Iya kan enggak harus ada interop juga Iya sih mungkin"
+    },
+    {
+      "start": 340.172,
+      "end": 350.492,
+      "text": "gara-gara itu ada salah satu komiknya coba ya cc surab 2022 kayaknya enggak ada deh ada kayaknya"
+    },
+    {
+      "start": 350.492,
+      "end": 362.01202,
+      "text": "mulai ada yang ada itu cuma setiap I o Google I o emang ada Biasanya ada satu talk besar yang"
+    },
+    {
+      "start": 362.01202,
+      "end": 369.51202,
+      "text": "meng-cover semua fitur UI atau front-end related sih cuma CSS web yang kayak gini presentasinya"
+    },
+    {
+      "start": 369.51202,
+      "end": 376.052,
+      "text": "kayaknya baru tahun ini seru juga kan biasanya ada itu kan kalau yang almanakan ya biasanya"
+    },
+    {
+      "start": 376.052,
+      "end": 387.39203,
+      "text": "kalau almanac review review tahun lagi eh udah hanya statistik ya eh sorry almanac ya almanac"
+    },
+    {
+      "start": 387.39203,
+      "end": 393.992,
+      "text": "user statistik semua tentang web tapi ya emang kan masing-masing bidang ada yang di highlight"
+    },
+    {
+      "start": 393.992,
+      "end": 401.91202,
+      "text": "kalau CSS tren yang menarik apa kecenderungannya user kayak gimana ya bukan tentang fiturnya sendiri"
+    },
+    {
+      "start": 401.91202,
+      "end": 413.13202,
+      "text": "berguna ya buat kita yang jarang update ya bukan jarang update buat kita yang punya kerjaan yang"
+    },
+    {
+      "start": 413.13202,
+      "end": 422.47202,
+      "text": "berbeda yang lain tapi mau ngikutin ini semua tuh kagak bisa gitu Iya iya iya biasanya cuma"
+    },
+    {
+      "start": 422.47202,
+      "end": 431.292,
+      "text": "nyuruh orang frontend doang ya berarti alasannya ya ya ya ini topik-topik besarnya ada arsitektural"
+    },
+    {
+      "start": 431.292,
+      "end": 439.092,
+      "text": "foundation ada type tipografi ada color harus lumayan banyak ya ya banyak banget kita pernah"
+    },
+    {
+      "start": 439.092,
+      "end": 446.35202,
+      "text": "bahas banyak nih waktu bahas warna dulu ada responsif design disini termasuk konten masuk"
+    },
+    {
+      "start": 446.35202,
+      "end": 457.45203,
+      "text": "gak masuk ya ada yang masuk ya apa stablenya di 2023 mungkin vendor browser lain itu yang"
+    },
+    {
+      "start": 457.45203,
+      "end": 463.21204,
+      "text": "itu yang bikin kita ngobrol pertama kali soalnya ya container query dan itu 2022 ya"
+    },
+    {
+      "start": 463.21204,
+      "end": 470.47202,
+      "text": "2022 interaction termasuk view transition ada komponen ya ada itu ya Oke kita langsung bahas"
+    },
+    {
+      "start": 470.47202,
+      "end": 481.27203,
+      "text": "kali ya seru-seru nih nah ini ini kesimpulannya pertama langsung atas-atas dulu deh itu apa catetan"
+    },
+    {
+      "start": 481.27203,
+      "end": 491.652,
+      "text": "tentang nah ini interop sama baseline baseline itu project kerjasama antar vendor browser dan"
+    },
+    {
+      "start": 491.652,
+      "end": 501.19202,
+      "text": "pihak-pihak lainnya jadi kayak bikin apa ya cara yang gampang untuk tahu fitur ini udah aman dipakai"
+    },
+    {
+      "start": 501.19202,
+      "end": 507.552,
+      "text": "di semua browser atau belum nah semua browser itu ya cuma major browser only ya jadi intinya"
+    },
+    {
+      "start": 507.552,
+      "end": 510.092,
+      "text": "Chromium, WebKit atau Safari"
+    },
+    {
+      "start": 510.092,
+      "end": 511.45203,
+      "text": "Sama"
+    },
+    {
+      "start": 511.45203,
+      "end": 512.492,
+      "text": "Firefox"
+    },
+    {
+      "start": 512.492,
+      "end": 514.572,
+      "text": "Itu di dua"
+    },
+    {
+      "start": 514.572,
+      "end": 517.71204,
+      "text": "Versi major terakhir"
+    },
+    {
+      "start": 517.71204,
+      "end": 519.572,
+      "text": "Nah kadang kan ya itu tadi"
+    },
+    {
+      "start": 519.572,
+      "end": 521.33203,
+      "text": "Kayak misalnya kalian yang sehari-hari"
+    },
+    {
+      "start": 521.33203,
+      "end": 523.292,
+      "text": "Nggak ngerjain frontend"
+    },
+    {
+      "start": 523.292,
+      "end": 526.09204,
+      "text": "Sebetulnya tahu misalnya ada fitur"
+    },
+    {
+      "start": 526.09204,
+      "end": 527.132,
+      "text": "CSS"
+    },
+    {
+      "start": 527.132,
+      "end": 529.452,
+      "text": "Pseudo selector has atau where"
+    },
+    {
+      "start": 529.452,
+      "end": 531.272,
+      "text": "Tahu sih tahu, cuma kayaknya"
+    },
+    {
+      "start": 531.272,
+      "end": 533.452,
+      "text": "Cuma pernah beces kilas"
+    },
+    {
+      "start": 533.452,
+      "end": 535.912,
+      "text": "Terus mikir, ah paling Chrome doang nih"
+    },
+    {
+      "start": 535.912,
+      "end": 550.924,
+      "text": "jadikan gak pernah pakai kan gak pernah adopsi developer banyak yang enggak pernah adopsi fitur baru karena mikir ah paling masih belum belum di support browser lain nah jadi terus ya kalau ngecek can I use bisa cuma kan nggak semua"
+    },
+    {
+      "start": 550.924,
+      "end": 559.624,
+      "text": "orang mau dan sempat jadi ada inisiatif baseline batch nah itu batchnya ada centang kalau centang"
+    },
+    {
+      "start": 559.624,
+      "end": 568.744,
+      "text": "udah aman bisa dipakai kalau apa sih tuh eksil masih partial kontrasi jelek ya Nah itu berarti"
+    },
+    {
+      "start": 568.744,
+      "end": 578.70404,
+      "text": "belum semua tapi ininya bagus-bagus ya grafik Oh lucu banget NN bisanya keren Oke kita masuk"
+    },
+    {
+      "start": 578.70404,
+      "end": 586.864,
+      "text": "ke foundational arsitektur foundation architectural apa itu core CSS language and capabilities"
+    },
+    {
+      "start": 586.864,
+      "end": 594.78406,
+      "text": "conditional berarti mendasar ya jadi sebelumnya kita nulis CSS nya kayak ya udah important important"
+    },
+    {
+      "start": 594.78406,
+      "end": 601.02405,
+      "text": "important aja atau ditaruh di bawahnya pokoknya sekarang ternyata ada cara baru untuk biasanya"
+    },
+    {
+      "start": 601.02405,
+      "end": 607.364,
+      "text": "developer yang bukan frontend bahkan developer yang frontend juga pada males nulis CSS kan"
+    },
+    {
+      "start": 607.364,
+      "end": 616.08405,
+      "text": "karena itu kan karena maksudnya apa spesifik spesifikasi lah terus takut ngubah satu kelas"
+    },
+    {
+      "start": 616.08405,
+      "end": 621.364,
+      "text": "takut berubah semua atau ada hal yang nggak pengen diubah, ikut berubah."
+    },
+    {
+      "start": 621.364,
+      "end": 625.88403,
+      "text": "Nah terus jadi suka banyak hack-hack atau workaround yang aneh-aneh."
+    },
+    {
+      "start": 625.88403,
+      "end": 627.88403,
+      "text": "Nah ini semoga bisa."
+    },
+    {
+      "start": 627.88403,
+      "end": 633.604,
+      "text": "Menurut saya architectural affirmation ini maksudnya kapabilitas CSS yang bertambah."
+    },
+    {
+      "start": 633.604,
+      "end": 643.484,
+      "text": "Contohnya, ingat nggak dulu kalau sebelumnya di CSS berapa mungkin nggak ada math."
+    },
+    {
+      "start": 643.484,
+      "end": 653.32404,
+      "text": "kalkulasi sebelumnya enggak ada sekarang sudah ada maksudnya foundation adalah"
+    },
+    {
+      "start": 653.32404,
+      "end": 661.544,
+      "text": "capabilities CSS yang nambah fungsinya contohnya trigonometrik function tuh nah tapi yang scope"
+    },
+    {
+      "start": 661.544,
+      "end": 668.984,
+      "text": "dan nesting nanti juga ngaruh ke itu gimana kita meng-arrange apa jadi lebih enak aja sih nulis CSS"
+    },
+    {
+      "start": 668.984,
+      "end": 674.984,
+      "text": "cara langsung ya kalau dibilang arsitektur kan kayak misalkan zaman dulu kan ada yang namanya"
+    },
+    {
+      "start": 674.984,
+      "end": 690.58405,
+      "text": "apa Oh object-oriented CSS ada yang BEM ya OCS SAB BEM itu apa elemen-elemen modifier ya itu"
+    },
+    {
+      "start": 690.58405,
+      "end": 695.984,
+      "text": "kan kayak arsitektur kan Bagaimana cara kita menuliskan rumpung organisasi kode cc-nya"
+    },
+    {
+      "start": 695.984,
+      "end": 703.484,
+      "text": "asen pattern sih itu pattern oh iya juga juga termasuk juga nested kan nested yang sebelumnya"
+    },
+    {
+      "start": 703.484,
+      "end": 712.244,
+      "text": "nesting nesting itu sebelumnya hanya bisa dilakukan di scss preprocessor lah ya"
+    },
+    {
+      "start": 712.244,
+      "end": 723.40405,
+      "text": "ssas slash dan lain-lain sekarang udah bisa native gitu tapi trigonometri eh sambar dong sambar"
+    },
+    {
+      "start": 723.40405,
+      "end": 733.604,
+      "text": "sambar tepuk tangan Oh sambar tepuk tangan oke trigonometris ini jadi kayaknya semakin kesini"
+    },
+    {
+      "start": 733.604,
+      "end": 740.44403,
+      "text": "semakin saya semakin menjadi bahasa language ya jadi semakin kompleksnya bukannya dia memang"
+    },
+    {
+      "start": 741.564,
+      "end": 749.78406,
+      "text": "language ya nah itu kan nggak tahu styling language cuma ini bahan debat kayaknya orang"
+    },
+    {
+      "start": 749.78406,
+      "end": 756.20404,
+      "text": "seperti Twitter tiap dua minggu sekali ada yang nebet is CSS programing language HTML aja nggak"
+    },
+    {
+      "start": 756.20404,
+      "end": 763.64404,
+      "text": "dianggap lenjus padahal belakangnya el itu lejus lupa enggak kan bukan Iya bukan programing"
+    },
+    {
+      "start": 763.64404,
+      "end": 773.544,
+      "text": "programming language styling language kan enggak itu kan resket install shit enggak ada lenjusnya"
+    },
+    {
+      "start": 773.544,
+      "end": 782.544,
+      "text": "coba skrong ke atas dikit coba skrong styling language nah yang didebatin apakah styling itu CSS language"
+    },
+    {
+      "start": 782.544,
+      "end": 791.544,
+      "text": "iya apakah CSS adalah styling language coba teman-teman nah apakah styling bisa dianggap pemrograman kan logik udah ada kan"
+    },
+    {
+      "start": 791.544,
+      "end": 799.54407,
+      "text": "udah ada variable ada logic ada kan media query kan sebenarnya logic tapi looping belum ada looping belum"
+    },
+    {
+      "start": 799.54407,
+      "end": 808.064,
+      "text": "belum-belum pinggang yang belum sekarang nih matematika bisa apa bikin apa bisa kondisional"
+    },
+    {
+      "start": 808.064,
+      "end": 824.496,
+      "text": "bisa kalau nanti ayo ping sedang looping batu bisa jadi harusnya turing turing komplit konon CSS turing komplit cuma yang tekan depan lah kita bahas kita"
+    },
+    {
+      "start": 824.496,
+      "end": 830.336,
+      "text": "bedah Bagaimana CSS adalah turing komplit udah dicari-cari aja biar ada materi ya kan"
+    },
+    {
+      "start": 830.336,
+      "end": 841.496,
+      "text": "Iya ini oke trigonometrik fungsi trigonometrik itu kira-kira bisa buat apa ya yang standar itu"
+    },
+    {
+      "start": 841.496,
+      "end": 853.136,
+      "text": "bulutan apa kitung sudut Oh oke bisa jadi begini ya jadi ngitung sudut bisa muter gitu ya enggak"
+    },
+    {
+      "start": 853.136,
+      "end": 862.91595,
+      "text": "enggak dua dimensi lagi ya ini kan dua di sini kalau begini Wow terus tahu nggak sih kalau menu"
+    },
+    {
+      "start": 862.91595,
+      "end": 869.996,
+      "text": "lupa dulu namanya apa di material design yang kanan bawah itu loh kalau kayak Oh F abing and"
+    },
+    {
+      "start": 869.996,
+      "end": 878.276,
+      "text": "rohani kadang kalau kita pencet itu tuk tuk muncul di apa Oh kayaknya besok sekitarnya kan"
+    },
+    {
+      "start": 878.276,
+      "end": 880.276,
+      "text": "kayak angka jam lah, kayak angka jam analog"
+    },
+    {
+      "start": 880.276,
+      "end": 886.276,
+      "text": "nah kalau dulu kan masih pakai javascript buat ngitung sudut-sudut itunya ikon-ikon"
+    },
+    {
+      "start": 886.276,
+      "end": 888.276,
+      "text": "kalau ini gak perlu lagi ya?"
+    },
+    {
+      "start": 888.276,
+      "end": 890.276,
+      "text": "masih pakai javascript, javascriptnya apa nih?"
+    },
+    {
+      "start": 892.276,
+      "end": 895.276,
+      "text": "oh itu kalau gak support"
+    },
+    {
+      "start": 896.276,
+      "end": 899.276,
+      "text": "oh ini fallback nya"
+    },
+    {
+      "start": 901.276,
+      "end": 903.276,
+      "text": "caranya gimana? angle"
+    },
+    {
+      "start": 903.276,
+      "end": 905.276,
+      "text": "angle"
+    },
+    {
+      "start": 905.276,
+      "end": 907.276,
+      "text": "ini kan inflyable ya"
+    },
+    {
+      "start": 908.276,
+      "end": 917.156,
+      "text": "terus wiki frame buat animasinya itu kan cuma variabel variabel salah CSS property"
+    },
+    {
+      "start": 917.156,
+      "end": 924.59595,
+      "text": "atau variabel tuh properti nah jadi nama resminya ini nyebelin deh nama resminya CSS property tapi"
+    },
+    {
+      "start": 924.59595,
+      "end": 936.59595,
+      "text": "panggilnya dengan far-far tanda kurung waaih kok nggak prop ya Iya hahaha pakai satu istilah gitu"
+    },
+    {
+      "start": 936.59595,
+      "end": 944.336,
+      "text": "ngapain pasti ada yang aneh sih maksudnya alasan yang make sense cuma ternyata Oh gitu tapi tetep"
+    },
+    {
+      "start": 944.336,
+      "end": 953.336,
+      "text": "aja nyebelin jadi dikalplasi ya ini ini buat buat dapetin dapetin value dari sebuah variable"
+    },
+    {
+      "start": 953.336,
+      "end": 961.376,
+      "text": "kan ini kan varian ya ya bisa diprokrasi pakai kos di dalamnya ada variabel lagi ditambah variabel"
+    },
+    {
+      "start": 961.376,
+      "end": 972.896,
+      "text": "lagi dikali variabel jadi ribet ya ya Bu ya Maaf ya saya dulu anak IPS pas SMA kalau dapat"
+    },
+    {
+      "start": 972.896,
+      "end": 982.256,
+      "text": "matematika sih tapi simposen udah lupa semua oke ya kita yang anak kita aja nggak inget belum ngerti"
+    },
+    {
+      "start": 982.256,
+      "end": 988.696,
+      "text": "belum ngerti nih kontra lojiknya kenapa dia bisa jadi gimana ya intinya sekarang udah ada fungsi"
+    },
+    {
+      "start": 988.696,
+      "end": 994.496,
+      "text": "untuk trigonometri jadi kita nggak perlu nulis itu di javascript dulu untuk dikirim ke CSS bisa"
+    },
+    {
+      "start": 994.496,
+      "end": 999.05597,
+      "text": "langsung gitu ya kira-kira kalau misalkan teman-teman mau bikin kayak bikin apa ya bikin"
+    },
+    {
+      "start": 999.05597,
+      "end": 1010.11597,
+      "text": "grafik mungkin charting library tapi visual apa data face udah ada kan si siapa itu mas"
+    },
+    {
+      "start": 1010.11597,
+      "end": 1021.196,
+      "text": "Weld Rich Harris Iya dia bikin jadi enggak pakai JavaScript bisa bikin charting library ini juga"
+    },
+    {
+      "start": 1021.196,
+      "end": 1029.8359,
+      "text": "bisa misalkan mau representasi matematika belajar apa buat mungkin website untuk membuat kita belajar"
+    },
+    {
+      "start": 1029.8359,
+      "end": 1041.176,
+      "text": "perhitungan simposan kota itu dan misalkan bisa tanpa javascript Oke lanjut ya kompleks nth"
+    },
+    {
+      "start": 1041.176,
+      "end": 1051.676,
+      "text": "selection ini apa nih mcl-ncl kan selama ini kita punya calc sama of type kalau calon ada"
+    },
+    {
+      "start": 1051.676,
+      "end": 1060.8159,
+      "text": "first time adalah style ya Jadi apa buat apa kalau misalnya elemen pertama dalam dari suatu"
+    },
+    {
+      "start": 1060.8159,
+      "end": 1068.976,
+      "text": "perutkan first child elemen terakhir last child nah mth child dalam kurung tiga berarti anak"
+    },
+    {
+      "start": 1068.976,
+      "end": 1076.176,
+      "text": "anak ketiga dari parent elemennya. Nah yang baru apa? Bisa dibikin out event juga kan ya? Iya bisa."
+    },
+    {
+      "start": 1076.176,
+      "end": 1086.976,
+      "text": "Oh iya ini kita kalau misalkan mau bikin table row yang apa ganjil, belang-belang gitu bisa langsung"
+    },
+    {
+      "start": 1087,
+      "end": 1092.04,
+      "text": "tanpa harus menggunakan JavaScript atau bahasa pemulgaman lain ya"
+    },
+    {
+      "start": 1092.04,
+      "end": 1093.88,
+      "text": "kira-kira ini dari dulu?"
+    },
+    {
+      "start": 1095.84,
+      "end": 1098.2,
+      "text": "enggak dulu enggak ada dulu kita buat bikin manual"
+    },
+    {
+      "start": 1098.2,
+      "end": 1100.58,
+      "text": "ya dulunya misalnya"
+    },
+    {
+      "start": 1100.58,
+      "end": 1102.02,
+      "text": "dulunya di PHP"
+    },
+    {
+      "start": 1102.02,
+      "end": 1102.78,
+      "text": "2-3 tahun"
+    },
+    {
+      "start": 1102.78,
+      "end": 1104.8,
+      "text": "oh ya"
+    },
+    {
+      "start": 1104.8,
+      "end": 1107.44,
+      "text": "di PHP doang"
+    },
+    {
+      "start": 1107.44,
+      "end": 1108.58,
+      "text": "JavaScript juga bisa"
+    },
+    {
+      "start": 1108.58,
+      "end": 1112.3,
+      "text": "nanti dikasih kelasnya event all"
+    },
+    {
+      "start": 1112.3,
+      "end": 1113.2,
+      "text": "event all aja"
+    },
+    {
+      "start": 1113.2,
+      "end": 1114.24,
+      "text": "kelasnya apa?"
+    },
+    {
+      "start": 1114.24,
+      "end": 1116.56,
+      "text": "pake mod ya"
+    },
+    {
+      "start": 1116.56,
+      "end": 1127.4,
+      "text": "modul modul modul modul modul moderator"
+    },
+    {
+      "start": 1127.4,
+      "end": 1136.7,
+      "text": "oke ini apa sih hasilnya gimana lihat lihat oke"
+    },
+    {
+      "start": 1139.16,
+      "end": 1142.06,
+      "text": "halo halo aku masih pemula Iya sama kita juga masih pemula"
+    },
+    {
+      "start": 1142.06,
+      "end": 1156.16,
+      "text": "output element that match the build sector will pulsate maksudnya Oh Oh yang baru ada offnya"
+    },
+    {
+      "start": 1156.16,
+      "end": 1162.04,
+      "text": "jadi kalau yang pakai n itu emang udah dari dulu ya mau saya dari ya lima tahun terakhirlah tapi"
+    },
+    {
+      "start": 1162.04,
+      "end": 1169.54,
+      "text": "jadi ada dua lapis kondisionalnya dua tapis"
+    },
+    {
+      "start": 1169.54,
+      "end": 1179.64,
+      "text": "kalau ada big big big big maksudnya di sini kan ada big ada small jadi bisa yang kita targetkan"
+    },
+    {
+      "start": 1179.64,
+      "end": 1190,
+      "text": "wow keren ini kira-kira use case nya buat apa ya blog post yang gak harus blog media"
+    },
+    {
+      "start": 1190,
+      "end": 1195.82,
+      "text": "punya konten post misalnya post type-nya macam-macam ada yang video post ada yang"
+    },
+    {
+      "start": 1195.82,
+      "end": 1203.2,
+      "text": "galeri post ada yang apalah terus kita pengen pos paling atas untuk masing-masing tipe itu"
+    },
+    {
+      "start": 1203.2,
+      "end": 1209.56,
+      "text": "ya kayak ada highlightnya lah atau ada apa penanda sendiri tapi kan mungkin stylenya lain"
+    },
+    {
+      "start": 1209.56,
+      "end": 1215.8,
+      "text": "ya peningnya lain atau apa jadi emang kita mau custom berdasarkan masing-masing post type"
+    },
+    {
+      "start": 1215.8,
+      "end": 1230.74,
+      "text": "Oke make sense apalagi ya enggak tahu sehenggaknya scope-scope masih belum ya belum ya Firefox sama"
+    },
+    {
+      "start": 1230.74,
+      "end": 1240.04,
+      "text": "Safari tuh Safari mata tandanya apa masih lihat-lihat lihat kondisi minat-minat sekon"
+    },
+    {
+      "start": 1240.04,
+      "end": 1246.4,
+      "text": "Oh udah itu kan ada itu request for position jadi buat temen-temen yang belum tahu jadi ada namanya"
+    },
+    {
+      "start": 1246.4,
+      "end": 1254.48,
+      "text": "RFP buat fitur-fitur web platform jadi misalnya kalau dalam hal ini Chrome team Chrome yang namang"
+    },
+    {
+      "start": 1254.48,
+      "end": 1265.6,
+      "text": "inisiasi boleh bikin kebuka isu buka isu di repo request for positionnya webkit misalnya atau di"
+    },
+    {
+      "start": 1265.6,
+      "end": 1272.98,
+      "text": "Firefox jadi kayak pitching gitu lah kayak mempresentasikan API ini cara kerjanya begini"
+    },
+    {
+      "start": 1272.98,
+      "end": 1278.98,
+      "text": "gini gini use case gini gini gini terus bisa aja siapapun orang webkitnya atau maintainer atau"
+    },
+    {
+      "start": 1278.98,
+      "end": 1285.6399999999999,
+      "text": "kontributor atau siapalah misalnya ada keberatan di bagian apalah ke kalau gini gimana atau misalnya"
+    },
+    {
+      "start": 1285.6399999999999,
+      "end": 1294.1,
+      "text": "faktor keamanannya gimana jadi yang yang mempropos harus dijelasin dan ngasih contoh jadi ada kalanya"
+    },
+    {
+      "start": 1294.1,
+      "end": 1303.96,
+      "text": "ya bisa dicuekin aja, bisa ditolak, ditolak tuh maksudnya kami tidak tertarik, not interested, bisa menyatakan interested."
+    },
+    {
+      "start": 1305.16,
+      "end": 1310.74,
+      "text": "Nah, itu kan happy path-nya ya si browser vendor lain ini juga tertarik."
+    },
+    {
+      "start": 1311,
+      "end": 1318.72,
+      "text": "Nah, tapi tertarik itu bukan berarti langsung ada kan, cuma menggambarkan bahwa, oh oke mereka setuju, secara konsep setuju,"
+    },
+    {
+      "start": 1318.72,
+      "end": 1324.74,
+      "text": "suatu saat mereka kemungkinan akan mendevelop fitur itu juga masukin di browser."
+    },
+    {
+      "start": 1325.08,
+      "end": 1326.7,
+      "text": "Tapi ya nggak janji kapan."
+    },
+    {
+      "start": 1327.3,
+      "end": 1332.6,
+      "text": "Nah nggak tahu cuma tanda mata itu betul untuk menyatakan soal request for position"
+    },
+    {
+      "start": 1332.6,
+      "end": 1334.48,
+      "text": "atau bukan nanti kita lihat-lihat lagi ya."
+    },
+    {
+      "start": 1335.92,
+      "end": 1337.16,
+      "text": "Oh kemana dia? Hilang."
+    },
+    {
+      "start": 1337.9,
+      "end": 1338.4,
+      "text": "Preview."
+    },
+    {
+      "start": 1338.68,
+      "end": 1339.2,
+      "text": "Preview."
+    },
+    {
+      "start": 1340.26,
+      "end": 1341.24,
+      "text": "Oh berarti udah."
+    },
+    {
+      "start": 1341.72,
+      "end": 1342.74,
+      "text": "Udah mau launching."
+    },
+    {
+      "start": 1345.32,
+      "end": 1346.68,
+      "text": "Teknologi preview berarti."
+    },
+    {
+      "start": 1346.68,
+      "end": 1350.62,
+      "text": "Oh berarti itu ya Safari yang preview version ya"
+    },
+    {
+      "start": 1350.62,
+      "end": 1363.19202,
+      "text": "Oh malah udah bukan request for position lagi ini Emang udah mau masuk ya Iya udah mau masuk Udah masuk deh channel teknologi preview Firefox X"
+    },
+    {
+      "start": 1364.2920199999999,
+      "end": 1365.41202,
+      "text": "Ya, sedih."
+    },
+    {
+      "start": 1366.752,
+      "end": 1372.7920199999999,
+      "text": "Nah, scope ini adalah, dengan scope kita bisa sangat spesifik,"
+    },
+    {
+      "start": 1374.35202,
+      "end": 1379.152,
+      "text": "mau menunjuk elemen yang kita pilih tanpa harus menulis"
+    },
+    {
+      "start": 1379.152,
+      "end": 1382.2320300000001,
+      "text": "apa ya"
+    },
+    {
+      "start": 1382.2320300000001,
+      "end": 1383.89203,
+      "text": "specific selector"
+    },
+    {
+      "start": 1383.89203,
+      "end": 1385.992,
+      "text": "jadi kan misalkan"
+    },
+    {
+      "start": 1385.992,
+      "end": 1388.19202,
+      "text": "ada kita mau select"
+    },
+    {
+      "start": 1388.19202,
+      "end": 1389.992,
+      "text": "image di dalam"
+    },
+    {
+      "start": 1389.992,
+      "end": 1391.812,
+      "text": "H1 gitu ya jadi harus dari"
+    },
+    {
+      "start": 1391.812,
+      "end": 1392.35202,
+      "text": "body"
+    },
+    {
+      "start": 1392.35202,
+      "end": 1395.85202,
+      "text": "header H1 image gitu"
+    },
+    {
+      "start": 1395.85202,
+      "end": 1397.33203,
+      "text": "gitu gak sih"
+    },
+    {
+      "start": 1397.33203,
+      "end": 1398.63202,
+      "text": "atau gimana nih"
+    },
+    {
+      "start": 1398.63202,
+      "end": 1401.492,
+      "text": "iya jadi kan biasanya kita takut nih"
+    },
+    {
+      "start": 1401.492,
+      "end": 1402.432,
+      "text": "misalnya ada"
+    },
+    {
+      "start": 1402.432,
+      "end": 1404.83203,
+      "text": "kelas namanya card content"
+    },
+    {
+      "start": 1404.83203,
+      "end": 1407.5120200000001,
+      "text": "oke lah pertama card content"
+    },
+    {
+      "start": 1407.5120200000001,
+      "end": 1408.91202,
+      "text": "itu awalnya emang"
+    },
+    {
+      "start": 1408.91202,
+      "end": 1411.2320300000001,
+      "text": "ya simple ini kan pattern"
+    },
+    {
+      "start": 1411.2320300000001,
+      "end": 1413.35202,
+      "text": "ini juga contoh yang pakai pattern"
+    },
+    {
+      "start": 1413.35202,
+      "end": 1415.2920199999999,
+      "text": "BEM kan, block element modifier"
+    },
+    {
+      "start": 1415.2920199999999,
+      "end": 1417.032,
+      "text": "jadi blocknya adalah card"
+    },
+    {
+      "start": 1417.032,
+      "end": 1418.7320300000001,
+      "text": "elementnya"
+    },
+    {
+      "start": 1418.7320300000001,
+      "end": 1421.07202,
+      "text": "secara logik sebuah"
+    },
+    {
+      "start": 1421.07202,
+      "end": 1423.13202,
+      "text": "parentnya atau containernya"
+    },
+    {
+      "start": 1423.13202,
+      "end": 1424.89203,
+      "text": "adalah card, kelas card"
+    },
+    {
+      "start": 1424.89203,
+      "end": 1427.5520000000001,
+      "text": "dalam card ada misalnya card content"
+    },
+    {
+      "start": 1427.5520000000001,
+      "end": 1429.032,
+      "text": "card ada contentnya"
+    },
+    {
+      "start": 1429.032,
+      "end": 1430.97202,
+      "text": "jadi card underscore"
+    },
+    {
+      "start": 1430.97202,
+      "end": 1432.19202,
+      "text": "dua kali content"
+    },
+    {
+      "start": 1432.19202,
+      "end": 1435.032,
+      "text": "nah cuma ternyata misalnya bukan cuma"
+    },
+    {
+      "start": 1435.032,
+      "end": 1436.532,
+      "text": "card, misalnya ada"
+    },
+    {
+      "start": 1436.532,
+      "end": 1438.57202,
+      "text": "slide, ya ini ngarang lah"
+    },
+    {
+      "start": 1438.57202,
+      "end": 1442.112,
+      "text": "misalnya tiba-tiba orang produk atau tim lead kita"
+    },
+    {
+      "start": 1442.112,
+      "end": 1443.89203,
+      "text": "turuh bikin slide."
+    },
+    {
+      "start": 1444.39203,
+      "end": 1446.97202,
+      "text": "Tapi slide itu ada kontennya juga"
+    },
+    {
+      "start": 1446.97202,
+      "end": 1450.07202,
+      "text": "dan persis banget isinya sama card content."
+    },
+    {
+      "start": 1450.33203,
+      "end": 1453.41202,
+      "text": "Jadi dalam slide kita pakai card content aja"
+    },
+    {
+      "start": 1453.41202,
+      "end": 1455.592,
+      "text": "biar nggak ngulang-ngulang kan misalnya."
+    },
+    {
+      "start": 1456.19202,
+      "end": 1457.592,
+      "text": "Nah, ke depannya jadi udah,"
+    },
+    {
+      "start": 1458.0520000000001,
+      "end": 1460.2320300000001,
+      "text": "habis itu kita udah ngerjain lain, kita lupa semua."
+    },
+    {
+      "start": 1460.872,
+      "end": 1464.35202,
+      "text": "Nah, terus kalau kita mentargetkan card content,"
+    },
+    {
+      "start": 1465.0520000000001,
+      "end": 1468.432,
+      "text": "jadi takut nih karena tiba-tiba misalnya kita disuruh"
+    },
+    {
+      "start": 1468.432,
+      "end": 1470.372,
+      "text": "ngubah warna background atau ngilangin"
+    },
+    {
+      "start": 1470.372,
+      "end": 1472.032,
+      "text": "padding, kirain kan cuma di card"
+    },
+    {
+      "start": 1472.032,
+      "end": 1473.312,
+      "text": "kan namanya card content ya"
+    },
+    {
+      "start": 1473.312,
+      "end": 1476.2320300000001,
+      "text": "slide-nya rusak semua"
+    },
+    {
+      "start": 1476.2320300000001,
+      "end": 1478.07202,
+      "text": "orang jadi takut"
+    },
+    {
+      "start": 1478.07202,
+      "end": 1479.992,
+      "text": "pakai CSS, jadi kan"
+    },
+    {
+      "start": 1479.992,
+      "end": 1482.112,
+      "text": "solusinya selama ini, orang pakai"
+    },
+    {
+      "start": 1482.112,
+      "end": 1483.83203,
+      "text": "CSS in JS kan, banyak"
+    },
+    {
+      "start": 1483.83203,
+      "end": 1486.57202,
+      "text": "pakai kayak, apalah style components"
+    },
+    {
+      "start": 1486.57202,
+      "end": 1488.39203,
+      "text": "atau emotion, atau yang lebih baru"
+    },
+    {
+      "start": 1488.39203,
+      "end": 1490.5120200000001,
+      "text": "lagi ya, beda pendekatan"
+    },
+    {
+      "start": 1490.5120200000001,
+      "end": 1492.39203,
+      "text": "pakai approach-nya tailwind"
+    },
+    {
+      "start": 1492.39203,
+      "end": 1494.19202,
+      "text": "yang atomic, satu property"
+    },
+    {
+      "start": 1494.19202,
+      "end": 1496.292,
+      "text": "satu kelas sendiri, biar"
+    },
+    {
+      "start": 1496.292,
+      "end": 1498.77203,
+      "text": "Kalau itu kan malah nggak bakal rancu kan"
+    },
+    {
+      "start": 1498.77203,
+      "end": 1500.612,
+      "text": "MTM 4 ya margin top 4"
+    },
+    {
+      "start": 1500.612,
+      "end": 1502.612,
+      "text": "Udah beneran nggak bakal ada yang lain"
+    },
+    {
+      "start": 1502.612,
+      "end": 1504.252,
+      "text": "Cuma ini ada"
+    },
+    {
+      "start": 1504.252,
+      "end": 1506.63202,
+      "text": "Alternatif yang bikin kita lebih"
+    },
+    {
+      "start": 1506.63202,
+      "end": 1508.19202,
+      "text": "Apa?"
+    },
+    {
+      "start": 1508.45203,
+      "end": 1510.112,
+      "text": "Yang bikin CSS lebih powerful"
+    },
+    {
+      "start": 1510.112,
+      "end": 1512.21204,
+      "text": "Jadi nggak perlu CSS in JS lagi"
+    },
+    {
+      "start": 1512.21204,
+      "end": 1514.19202,
+      "text": "Nah kalau kasus card content tadi kan"
+    },
+    {
+      "start": 1514.19202,
+      "end": 1516.33203,
+      "text": "Contoh baris kedua tuh scope card"
+    },
+    {
+      "start": 1516.33203,
+      "end": 1517.5520000000001,
+      "text": "To card content"
+    },
+    {
+      "start": 1517.5520000000001,
+      "end": 1520.612,
+      "text": "Jadi card content"
+    },
+    {
+      "start": 1520.612,
+      "end": 1523.0120200000001,
+      "text": "Hanya yang berada di dalam card"
+    },
+    {
+      "start": 1523.0120200000001,
+      "end": 1524.47202,
+      "text": "Kalau kebetulan"
+    },
+    {
+      "start": 1524.47202,
+      "end": 1528.91202,
+      "text": "entah gimana kelas kartu konten itu dipakai di hal-hal lain juga,"
+    },
+    {
+      "start": 1529.372,
+      "end": 1531.19202,
+      "text": "ya nggak apa-apa, nggak akan ngaruh ke situ."
+    },
+    {
+      "start": 1532.5520000000001,
+      "end": 1536.032,
+      "text": "Kasih skop lah ya, skop itu kan kayak kasih ruang lingkup,"
+    },
+    {
+      "start": 1536.232,
+      "end": 1538.492,
+      "text": "supaya jangan kontaminasi."
+    },
+    {
+      "start": 1539.372,
+      "end": 1542.292,
+      "text": "Cuma ini sintaksnya menarik sih, jadi kita tetap ya,"
+    },
+    {
+      "start": 1543.0120200000001,
+      "end": 1546.432,
+      "text": "tetap aja sih nggak mecahin semua masalah juga,"
+    },
+    {
+      "start": 1546.592,
+      "end": 1551.47202,
+      "text": "kalau misalnya kita pakai selektor kartunya di berbagai tempat,"
+    },
+    {
+      "start": 1551.47202,
+      "end": 1553.89203,
+      "text": "ya tetap bisa ada kemungkinan."
+    },
+    {
+      "start": 1553.89203,
+      "end": 1560.19202,
+      "text": "tapi kan kita lebih punya kontrol lebih besar ya jadinya content yang berada di dalam kartu Nah"
+    },
+    {
+      "start": 1560.19202,
+      "end": 1565.83203,
+      "text": "kalau pendekatannya CSS JS style components dan lain-lain itu kan biasanya pakai itu kan randomize"
+    },
+    {
+      "start": 1565.83203,
+      "end": 1574.292,
+      "text": "telok karakter random gitu jadi class namenya kan Oh iya iya iya generate auto generate dari"
+    },
+    {
+      "start": 1574.292,
+      "end": 1581.372,
+      "text": "DHS dari library nya kalau ini enggak kita tetap harus pakai selektor cuma kita mentargetkan selektor"
+    },
+    {
+      "start": 1581.372,
+      "end": 1587.492,
+      "text": "parentnya dan card parentnya tuh terus yang pengen kita targetin card content harus berada"
+    },
+    {
+      "start": 1587.492,
+      "end": 1597.872,
+      "text": "di dalam parent yang ada kelas card itu oke oke masih belum ngerti banget sih gua harus"
+    },
+    {
+      "start": 1597.872,
+      "end": 1608.252,
+      "text": "lihat contohnya sih harus ini contohnya coba apa tuh in this following demo the image elements in"
+    },
+    {
+      "start": 1608.252,
+      "end": 1613.632,
+      "text": "the carousel component are not match because of the applied scoping limit"
+    },
+    {
+      "start": 1616.192,
+      "end": 1618.392,
+      "text": "jadi? maksudnya kita ada?"
+    },
+    {
+      "start": 1618.392,
+      "end": 1621.252,
+      "text": "nested carousel itu kan ada carousel itu di dalam"
+    },
+    {
+      "start": 1621.292,
+      "end": 1623.492,
+      "text": "oh di dalam ini"
+    },
+    {
+      "start": 1623.5320000000002,
+      "end": 1636.304,
+      "text": "itu kalau misalnya kalau kena stylingnya jadi ada bordernya di image oh berarti cuma karena itu border yang di luarnya aja tapi image yang di dalam dan itu karusel nggak kena"
+    },
+    {
+      "start": 1636.304,
+      "end": 1647.7440000000001,
+      "text": "nggak kena border oh iya ngerti live demo aja scroll kan nggak kena another child image"
+    },
+    {
+      "start": 1647.7440000000001,
+      "end": 1659.02405,
+      "text": "ada border nya image-nya enggak ada border karena enggak di dalam kartu Oh kalau coba lihat itunya"
+    },
+    {
+      "start": 1659.02405,
+      "end": 1671.504,
+      "text": "sih kode lihat CSS nya itu cuma ini ada card content terus ya scope-scope oh scope-card"
+    },
+    {
+      "start": 1671.504,
+      "end": 1673.504,
+      "text": "data component ini apa?"
+    },
+    {
+      "start": 1673.504,
+      "end": 1675.504,
+      "text": "only match the element in the card component"
+    },
+    {
+      "start": 1675.504,
+      "end": 1678.504,
+      "text": "but don't target those in the nested component"
+    },
+    {
+      "start": 1678.504,
+      "end": 1681.504,
+      "text": "nested component itu sih carousel itu tadi ya?"
+    },
+    {
+      "start": 1681.504,
+      "end": 1683.504,
+      "text": "iya"
+    },
+    {
+      "start": 1683.504,
+      "end": 1686.504,
+      "text": "oh ini data component sama dengan carousel"
+    },
+    {
+      "start": 1686.504,
+      "end": 1689.504,
+      "text": "ada ini nya, ada property nya, props nya"
+    },
+    {
+      "start": 1689.504,
+      "end": 1692.504,
+      "text": "tambahin card component"
+    },
+    {
+      "start": 1692.504,
+      "end": 1695.504,
+      "text": "jadi scope card to data component"
+    },
+    {
+      "start": 1695.504,
+      "end": 1697.504,
+      "text": "image nya"
+    },
+    {
+      "start": 1697.504,
+      "end": 1708.424,
+      "text": "0,25 ini 0,25 yang mana ini Iya boda radius kangen boda radius Iya kita kasih aja ganti"
+    },
+    {
+      "start": 1708.424,
+      "end": 1718.3840300000002,
+      "text": "nggak bisa ya oke diedit Oh ya nggak bisa harus obin review doang nah kalau eh bentar data"
+    },
+    {
+      "start": 1718.3840300000002,
+      "end": 1725.344,
+      "text": "komponen itu yang carousel kan ini bukan data komponen kan yang atas tapi ada ini kan div"
+    },
+    {
+      "start": 1725.344,
+      "end": 1735.90405,
+      "text": "itu div class card data komponen kartu ya kan Oh iya data komponen kartu Oke Oh walaupun sama-sama"
+    },
+    {
+      "start": 1735.90405,
+      "end": 1743.104,
+      "text": "ada data komponennya kalau enggak berada di dalam kartu kalau enggak berada di dalam kartu oh gitu"
+    },
+    {
+      "start": 1743.104,
+      "end": 1752.82404,
+      "text": "ya nice itu ya scope kartu data komponen kok agak ya karena bahasa masih baru kali ya sintaksnya"
+    },
+    {
+      "start": 1752.82404,
+      "end": 1761.0639999999999,
+      "text": "sintaksinya agak awkward ya. Karena kita belum pernah, kan belum pernah ada kayak gini, belum pernah ada sama sekali kan interlineal."
+    },
+    {
+      "start": 1761.0639999999999,
+      "end": 1772.02405,
+      "text": "Betul-betul. Kalau mungkin kalau solusi sebelumnya, mungkin kalau web component pakai itu kan, pakai Shadow DOM kan."
+    },
+    {
+      "start": 1772.02405,
+      "end": 1775.46405,
+      "text": "Jadi dia scope-nya di satu komponen kan."
+    },
+    {
+      "start": 1775.46405,
+      "end": 1778.984,
+      "text": "Tapi nggak mesti pakai data komponen juga nggak apa-apa."
+    },
+    {
+      "start": 1778.984,
+      "end": 1785.2440000000001,
+      "text": "yang nge-harm is selektor apapun selektor apapun yang ingin kita targetin kan cuma perkara data"
+    },
+    {
+      "start": 1785.2440000000001,
+      "end": 1796.08405,
+      "text": "komponen yang ada di dalam kartu kayaknya eh terus bentar oh maksudnya gini daripada kita"
+    },
+    {
+      "start": 1796.08405,
+      "end": 1804.78406,
+      "text": "menuliskan menulisnya spesifik misalnya dari body.card.apa.apa.apa sampai target image"
+    },
+    {
+      "start": 1804.78406,
+      "end": 1815.46405,
+      "text": "tentu kita bisa mentargetkan hanya dengan pakai scope jadi semuanya gitu kali ya maksudnya"
+    },
+    {
+      "start": 1815.46405,
+      "end": 1820.20404,
+      "text": "coba kita bisa"
+    },
+    {
+      "start": 1820.20404,
+      "end": 1833.66406,
+      "text": "buka-buka tempe lebih lumayan head helpful sih Hai coba buka temelnya terus search data"
+    },
+    {
+      "start": 1833.66406,
+      "end": 1840.66406,
+      "text": "komponen ini data komponen ada di atas satu yang iya Nah itu kan ada card khasnya card"
+    },
+    {
+      "start": 1840.66406,
+      "end": 1848.40405,
+      "text": "jadi itu kena ya kalau nggak salah itu image-nya ada bordernya kan ini kartu juga kan sebenarnya"
+    },
+    {
+      "start": 1848.40405,
+      "end": 1855.484,
+      "text": "Iya kartu betul kartu di dalam kartu kan ini kartu juga kan ini karusel ya bukan kartu ya"
+    },
+    {
+      "start": 1856.984,
+      "end": 1864.004,
+      "text": "Oh iya kartu konten ini dalamnya ini kartu semuanya dikanin tapi di dalam kartu ada"
+    },
+    {
+      "start": 1864.004,
+      "end": 1870.96405,
+      "text": "karusel harusnya pakai div itu enggak ada kelas enggak ada kelas kartu"
+    },
+    {
+      "start": 1870.96405,
+      "end": 1878.804,
+      "text": "jadi"
+    },
+    {
+      "start": 1880.5639999999999,
+      "end": 1887.464,
+      "text": "dan image-nya berarti sebenarnya sebelumnya dot kalau kita kasih dot card"
+    },
+    {
+      "start": 1889.0839999999998,
+      "end": 1895.9241,
+      "text": "dot card image maka semua image di dalam dot card itu kena ya kan sedangkan kalau kita kasih"
+    },
+    {
+      "start": 1895.9241,
+      "end": 1909.6159699999998,
+      "text": "kita kasih scope scope nya apa dan dalamnya berarti hanya cuma cuma direct charge doang direct charge si card itu iya itu tuh maksudnya"
+    },
+    {
+      "start": 1909.6159699999998,
+      "end": 1918.136,
+      "text": "logic-nya lumayan itu ya maksudnya kayaknya kita nggak expect CSS untuk punya logic sedetail ini kan"
+    },
+    {
+      "start": 1918.136,
+      "end": 1925.096,
+      "text": "biasanya kalau kita harus gini ya pasti pakai jelasin bukan yang dulu tinggal dikasih panah panah eh atau kurung siku gitu ya apa apa namanya itu"
+    },
+    {
+      "start": 1925.096,
+      "end": 1932.05597,
+      "text": "lebih besar bisa kan jadi direct cahaya. Oh itu sibling. Oh iya direct cahaya."
+    },
+    {
+      "start": 1932.05597,
+      "end": 1941.7759999999998,
+      "text": "Tapi kan direct cahaya terus image kan kayaknya cuma bisa satu lapis ya? Iya. Bisa gak sih"
+    },
+    {
+      "start": 1941.7759999999998,
+      "end": 1948.6159699999998,
+      "text": "begini-gini sampai banyak gitu? Bisa banyak, cuma ya harus di-define semua kalau pakai"
+    },
+    {
+      "start": 1948.6159699999998,
+      "end": 1956.41595,
+      "text": "harus berapa lapis kalau sedangkan kalau kita target kan semuanya.id ini dalam karusel kena"
+    },
+    {
+      "start": 1956.41595,
+      "end": 1963.79596,
+      "text": "itu tuh maksudnya kan berarti kita harus ngitung tuh kalau mau pas image yang ini doang berarti"
+    },
+    {
+      "start": 1963.79596,
+      "end": 1973.2759999999998,
+      "text": "anak keberapa biar kita nyesuaiin jumlah sih apa tanda lebih besarnya itu kan Oh ya gitu deh"
+    },
+    {
+      "start": 1973.2759999999998,
+      "end": 1983.4160000000002,
+      "text": "seperti saya saya tambah bingung"
+    },
+    {
+      "start": 1983.4160000000002,
+      "end": 1992.17596,
+      "text": "bingung lagi kalau lihat apa komentarnya kan penasaran nih musila bakal adopsi atau"
+    },
+    {
+      "start": 1992.17596,
+      "end": 1998.17596,
+      "text": "enggak udah baca sampai bawah walaupun ia skimming doang tetap nggak ngerti sih ini"
+    },
+    {
+      "start": 1998.17596,
+      "end": 2001.336,
+      "text": "maksudnya Mozilla berniat adopsi atau enggak?"
+    },
+    {
+      "start": 2003.016,
+      "end": 2004.216,
+      "text": "Ya, tadi request."
+    },
+    {
+      "start": 2004.59595,
+      "end": 2005.47595,
+      "text": "Oh, request."
+    },
+    {
+      "start": 2006.23596,
+      "end": 2010.336,
+      "text": "Mereka request posisinya Mozilla."
+    },
+    {
+      "start": 2010.9560000000001,
+      "end": 2012.23596,
+      "text": "Ada keberatan atau enggak?"
+    },
+    {
+      "start": 2012.396,
+      "end": 2013.876,
+      "text": "Kalau keberatan, keberatannya di mana?"
+    },
+    {
+      "start": 2014.3559599999999,
+      "end": 2017.036,
+      "text": "Diskusinya sampai panjang banget."
+    },
+    {
+      "start": 2017.696,
+      "end": 2018.4160000000002,
+      "text": "Tetap enggak jelas."
+    },
+    {
+      "start": 2019.996,
+      "end": 2022.336,
+      "text": "Ya, mungkin harus dibaca dengan lebih teliti ya."
+    },
+    {
+      "start": 2028.17596,
+      "end": 2040.23596,
+      "text": "anyway ya Scroll aja udah sampai bawah yang paling bawah cuma update bahwa Safari has enabled scope"
+    },
+    {
+      "start": 2040.23596,
+      "end": 2050.97595,
+      "text": "lapor-lapor doang ini ya belum lama ini mah baru bulan lalu coba Mas Diza komen kapan"
+    },
+    {
+      "start": 2050.97595,
+      "end": 2056.196,
+      "text": "di marahin"
+    },
+    {
+      "start": 2056.196,
+      "end": 2062.85596,
+      "text": "ketahuan nggak baca gitu"
+    },
+    {
+      "start": 2062.85596,
+      "end": 2065.156,
+      "text": "ketahuan nggak baca atas-atasnya"
+    },
+    {
+      "start": 2065.156,
+      "end": 2068.256,
+      "text": "cuma sebenarnya menarik sih"
+    },
+    {
+      "start": 2068.256,
+      "end": 2070.59595,
+      "text": "jangan hapus-hapus"
+    },
+    {
+      "start": 2075.636,
+      "end": 2077.996,
+      "text": "menarik baca pertimbangan-pertimbangannya"
+    },
+    {
+      "start": 2077.996,
+      "end": 2078.756,
+      "text": "terus jadi"
+    },
+    {
+      "start": 2078.756,
+      "end": 2080.216,
+      "text": "jadi kerasa banget"
+    },
+    {
+      "start": 2080.216,
+      "end": 2091.256,
+      "text": "Oh ribet ya saya banyak hal yang harus dipikir ribet bikin-bikin browser itu ribet banget mudah-mudahan"
+    },
+    {
+      "start": 2091.256,
+      "end": 2097.97595,
+      "text": "Eh siapa ya yang bisa kita undang ya yang tukang bikin browser dulu ada tapi sekarang dia posisinya"
+    },
+    {
+      "start": 2097.97595,
+      "end": 2106.73596,
+      "text": "di Google masih masih di Google atau gimana kita enggak tahu ya ada Oh iya dulu ini Google Chrome"
+    },
+    {
+      "start": 2106.73596,
+      "end": 2115.376,
+      "text": "tapi kan banyak apa banyak reshuffling kan pada pindah ada yang ke Edge ada yang kemana karena"
+    },
+    {
+      "start": 2115.376,
+      "end": 2124.916,
+      "text": "kalau menurut mereka yang biasa develop browser itu orang-orang yang kerjanya engineer untuk"
+    },
+    {
+      "start": 2124.916,
+      "end": 2130.8559999999998,
+      "text": "bikin browser itu larinya enggak jauh-jauh tetap ke ranah browser juga jadi paling larinya antara"
+    },
+    {
+      "start": 2130.8559999999998,
+      "end": 2134.036,
+      "text": "Iya karena kan udah familiar sama cara kerjanya."
+    },
+    {
+      "start": 2134.776,
+      "end": 2140.3559999999998,
+      "text": "Iya ke Safari, ke Firefox, atau ke Edge, ke Microsoft sekarang gitu."
+    },
+    {
+      "start": 2140.8159,
+      "end": 2148.4559,
+      "text": "Atau udah nggak jadi IC lagi, ya maksudnya masuk lead atau manager atau apa semacamnya."
+    },
+    {
+      "start": 2149.8959999999997,
+      "end": 2152.016,
+      "text": "Flexbrew, otakku masih berproses."
+    },
+    {
+      "start": 2152.636,
+      "end": 2153.236,
+      "text": "Sama."
+    },
+    {
+      "start": 2153.236,
+      "end": 2153.2960000000003,
+      "text": "Sama."
+    },
+    {
+      "start": 2154.8359,
+      "end": 2157.3359,
+      "text": "Ini salah satu fitur CSS juga ya, Flexbrew."
+    },
+    {
+      "start": 2158.416,
+      "end": 2159.176,
+      "text": "Flexbrew."
+    },
+    {
+      "start": 2160.8559999999998,
+      "end": 2168.3559999999998,
+      "text": "nesting nesting ini yang yang membuat salah satu apa ya salah satu fitur yang"
+    },
+    {
+      "start": 2168.3559999999998,
+      "end": 2173.976,
+      "text": "yang menarik di apa asas itu adalah nesting ini preprocessing"
+    },
+    {
+      "start": 2174,
+      "end": 2180.4,
+      "text": "processor killer ya dan apa maksudnya entah preprocessor atau CSS in JS pokoknya CSS"
+    },
+    {
+      "start": 2180.4,
+      "end": 2188.4,
+      "text": "library killer lah kalau udah udah diadopsi semua browser lagi udah ya sudah mencapai"
+    },
+    {
+      "start": 2188.4,
+      "end": 2194.64,
+      "text": "baseline bisa jadi Tailwind Killer nggak sih nggak beda fungsi kan"
+    },
+    {
+      "start": 2194.64,
+      "end": 2206.04,
+      "text": "jadi tuh kita bisa nulis ya nesting ya jadi di satu properti di dalamnya kita mau select"
+    },
+    {
+      "start": 2206.04,
+      "end": 2216.06,
+      "text": "DT DL DT apa ya detail kayak key value untuk mempresent key value ya terus di"
+    },
+    {
+      "start": 2216.06,
+      "end": 2219.18,
+      "text": "dalamnya kita mau tulis lagi nestingnya bisa sampai unlimited nih"
+    },
+    {
+      "start": 2219.18,
+      "end": 2231.84,
+      "text": "kalau dulu kan kita tulis kayak gini ya DT dulu semuanya terus habis itu kok DL di depannya Oh"
+    },
+    {
+      "start": 2231.84,
+      "end": 2240.18,
+      "text": "ya emang DL di depannya DL terus kemudian ini asumsinya bahwa DT itu adalah anak dari DL kan"
+    },
+    {
+      "start": 2240.18,
+      "end": 2249.18,
+      "text": "Iya DL itu definition list nah eh terus satu list itu ini untuk kayak tabular gitu loh key value"
+    },
+    {
+      "start": 2249.18,
+      "end": 2258.42,
+      "text": "misalnya nama Eka hobi tidur ya Iya ya enggak harus table sih apapun yang key value nah terus"
+    },
+    {
+      "start": 2258.42,
+      "end": 2265.74,
+      "text": "dt itu definition eh detail term pokoknya t-nya term denya apa enggak enggak inget sih t-nya term"
+    },
+    {
+      "start": 2265.74,
+      "end": 2268.74,
+      "text": "Terus DD itu definition."
+    },
+    {
+      "start": 2270.7,
+      "end": 2272.04,
+      "text": "Hmm, oke."
+    },
+    {
+      "start": 2272.6,
+      "end": 2276.38,
+      "text": "Intinya gitu, jadi kalau misalkan dulu kita harus definisi dulu DT-nya,"
+    },
+    {
+      "start": 2276.58,
+      "end": 2279.76,
+      "text": "terus DL-DT-nya apa, terus DL-DD-nya apa."
+    },
+    {
+      "start": 2280.36,
+      "end": 2282.32,
+      "text": "Karena ini adalah chart dari si DL."
+    },
+    {
+      "start": 2282.44,
+      "end": 2285.42,
+      "text": "Karena bisa aja kalau kita tulis DD doang,"
+    },
+    {
+      "start": 2286.24,
+      "end": 2291.06,
+      "text": "siapa tahu di bagian yang lain ada DD yang lain jadi kena gitu kan."
+    },
+    {
+      "start": 2291.96,
+      "end": 2292.66,
+      "text": "PD Yusuf."
+    },
+    {
+      "start": 2292.66,
+      "end": 2301.72,
+      "text": "Iya jadinya ini termasuk bagian dari nesting eh sorry scoping juga sebenarnya kan jadi di dalam"
+    },
+    {
+      "start": 2301.72,
+      "end": 2310.06,
+      "text": "dl kita bisa styling apa gitu kemudian di dalamnya ada anaknya anaknya ada dua nih kayaknya lebih"
+    },
+    {
+      "start": 2310.06,
+      "end": 2317.2,
+      "text": "seru kalau bisa kayak ampersand gitu enggak sih kalau di esas itu kan bisa n apa gitu jadi bisa"
+    },
+    {
+      "start": 2317.2,
+      "end": 2325.66,
+      "text": "di taruh tengahnya iya pernya ditaruh tengah enggak tahu belum belum di nah ini nih contoh"
+    },
+    {
+      "start": 2325.66,
+      "end": 2332.98,
+      "text": "yang paling sering mungkin ul atau l di dalam OL itu pasti ada Eli kan Nah misalnya mesin seperti"
+    },
+    {
+      "start": 2332.98,
+      "end": 2344.32,
+      "text": "ini ini contohnya terlalu itu ya terlalu terlalu anjur selalu nah akan Eli kan uleskan OL itu order"
+    },
+    {
+      "start": 2344.32,
+      "end": 2351.46,
+      "text": "klis pakai nomor 123 kalau ul-an order klis biasanya pakai bulet atau strip atau apalah"
+    },
+    {
+      "start": 2351.46,
+      "end": 2358.06,
+      "text": "nabung sekalian stylingnya Bu kadang butuh customization yang berbeda mungkin pendingnya"
+    },
+    {
+      "start": 2358.06,
+      "end": 2364.24,
+      "text": "beda karena kan mau saya kalau angka mungkin lebih besar atau apalah bentuknya lain dibanding"
+    },
+    {
+      "start": 2364.24,
+      "end": 2373.28,
+      "text": "bulet jadi kadang repot ya kalau harus olle ulle sekarang bisa nesting keunggulan lain yang penting"
+    },
+    {
+      "start": 2373.28,
+      "end": 2379.64,
+      "text": "penting bisa di itu loh bisa di kolaps apa expand collapse kalau di fiascode kan enakan"
+    },
+    {
+      "start": 2379.64,
+      "end": 2387.62,
+      "text": "Oh jadi untuk kegiatan itu bisa di holding ditutup ya kalau layer itu apa sih add layer"
+    },
+    {
+      "start": 2387.62,
+      "end": 2403.4,
+      "text": "nah lupa mas Doni mas Deni nah mth calc dalam kurung 1 mth calc dalam kurung 2 mth calc dalam"
+    },
+    {
+      "start": 2403.4,
+      "end": 2414.08,
+      "text": "123 terus kasih animation ya ini 123 ini ini balap-balap capres bukan"
+    },
+    {
+      "start": 2414.08,
+      "end": 2425.8,
+      "text": "bahaya-bahaya udah kemarin kan ya apa namanya kemarin itu debat capres ya"
+    },
+    {
+      "start": 2425.8,
+      "end": 2436.54,
+      "text": "coba Cawapres kan kalau hari ini kita debat CSS aja CSS iya layer ini apa ya"
+    },
+    {
+      "start": 2436.54,
+      "end": 2461.786,
+      "text": "ya fitur baru juga itu untuk mengakalin spesifikasi pokoknya penjelasannya apa ya misalnya kan ada satu elemen namanya kartu kelasnya kartu bisa"
+    },
+    {
+      "start": 2461.786,
+      "end": 2463.866,
+      "text": "ditarget div itu alamanya div"
+    },
+    {
+      "start": 2463.866,
+      "end": 2464.886,
+      "text": "kelasnya"
+    },
+    {
+      "start": 2464.886,
+      "end": 2467.306,
+      "text": "bisa ditarget pakai"
+    },
+    {
+      "start": 2467.306,
+      "end": 2469.326,
+      "text": "CSS selector.card"
+    },
+    {
+      "start": 2469.326,
+      "end": 2471.426,
+      "text": "bisa ditarget pakai"
+    },
+    {
+      "start": 2471.426,
+      "end": 2472.886,
+      "text": "selector div"
+    },
+    {
+      "start": 2472.886,
+      "end": 2475.146,
+      "text": "bisa misalnya parentnya"
+    },
+    {
+      "start": 2475.146,
+      "end": 2477.646,
+      "text": "container gitu, bisa ditarget"
+    },
+    {
+      "start": 2477.646,
+      "end": 2479.786,
+      "text": "dengan selector.container"
+    },
+    {
+      "start": 2480.566,
+      "end": 2481.986,
+      "text": "terus bintang"
+    },
+    {
+      "start": 2481.986,
+      "end": 2483.646,
+      "text": "nah itu kan semua men-target"
+    },
+    {
+      "start": 2483.646,
+      "end": 2484.846,
+      "text": "ke elemen yang sama kan"
+    },
+    {
+      "start": 2484.846,
+      "end": 2487.326,
+      "text": "tapi kan misalnya"
+    },
+    {
+      "start": 2487.326,
+      "end": 2488.826,
+      "text": "masing-masing style tuh"
+    },
+    {
+      "start": 2488.826,
+      "end": 2490.506,
+      "text": "meng-assign warna yang"
+    },
+    {
+      "start": 2490.506,
+      "end": 2499.0860000000002,
+      "text": "beda harus ada salah satu yang menang kan Nah itu makin makin tinggi spesifikasinya itu masing-masing"
+    },
+    {
+      "start": 2499.0860000000002,
+      "end": 2507.026,
+      "text": "ada itungannya ada poin-poinnya siapa yang menang siapa siapa yang ke style-nya beneran diterapin di"
+    },
+    {
+      "start": 2507.026,
+      "end": 2512.766,
+      "text": "elemen itu nah layer itu kalau nggak salah untuk ngakalin itu cuma exactly gimana nggak inget"
+    },
+    {
+      "start": 2512.766,
+      "end": 2520.506,
+      "text": "karena kelihatan belum semua browser bisa deh jadi nggak pernah pakai juga baru tahu ini layar"
+    },
+    {
+      "start": 2520.506,
+      "end": 2531.486,
+      "text": "untuk animation bukan itu keyframe animation layar buat taruh di atas gitu kan paling enggak"
+    },
+    {
+      "start": 2531.486,
+      "end": 2540.966,
+      "text": "bukan demo ini apa demo ini demo mana demo Coba CSS player tuh apa sih demo penasaran"
+    },
+    {
+      "start": 2540.966,
+      "end": 2547.566,
+      "text": "kita cari enggak ada di sini ada demo di sini bukan mau saya penjelasan si layer"
+    },
+    {
+      "start": 2548.766,
+      "end": 2554.886,
+      "text": "Hai pada sudah ada di baseline 2022 2222 lo player awal ya"
+    },
+    {
+      "start": 2563.646,
+      "end": 2567.5460199999998,
+      "text": "Hai karena enggak diorep 2022 kita jadi enggak tahu nih"
+    },
+    {
+      "start": 2567.5460199999998,
+      "end": 2575.0460199999998,
+      "text": "nah seperti biasa seperti biasa mbn kayaknya"
+    },
+    {
+      "start": 2575.0460199999998,
+      "end": 2586.626,
+      "text": "gue tahu dan pernah present naponya apa cuma inget buat kayak gitu buat nge-set jadi kayak"
+    },
+    {
+      "start": 2586.626,
+      "end": 2593.886,
+      "text": "mengelompokkan masing-masing styling jadi Oh ya kalau zaman pakai SAS dulu kan suka ada"
+    },
+    {
+      "start": 2593.886,
+      "end": 2596.186,
+      "text": "convention yang pertama"
+    },
+    {
+      "start": 2596.186,
+      "end": 2597.366,
+      "text": "itu untuk yang"
+    },
+    {
+      "start": 2597.366,
+      "end": 2599.98602,
+      "text": "kayak global level tuh"
+    },
+    {
+      "start": 2599.98602,
+      "end": 2602.066,
+      "text": "kayak yang buat base element doang"
+    },
+    {
+      "start": 2602.066,
+      "end": 2603.94598,
+      "text": "habis itu ada"
+    },
+    {
+      "start": 2603.94598,
+      "end": 2605.706,
+      "text": "utility misalnya tau kan yang"
+    },
+    {
+      "start": 2605.706,
+      "end": 2608.16602,
+      "text": "import-importnya tuh ada urutannya"
+    },
+    {
+      "start": 2608.16602,
+      "end": 2610.0460199999998,
+      "text": "kan nah biasanya kan komponen"
+    },
+    {
+      "start": 2610.0460199999998,
+      "end": 2611.646,
+      "text": "terus paling bawah"
+    },
+    {
+      "start": 2611.646,
+      "end": 2613.50598,
+      "text": "diming yang soal warna"
+    },
+    {
+      "start": 2613.50598,
+      "end": 2615.60602,
+      "text": "nah itu kayak buat ngurutin kayak gitu"
+    },
+    {
+      "start": 2615.60602,
+      "end": 2621.206,
+      "text": "masih bingung"
+    },
+    {
+      "start": 2621.206,
+      "end": 2622.44598,
+      "text": "masih bingung"
+    },
+    {
+      "start": 2622.44598,
+      "end": 2632.0460199999998,
+      "text": "harus lihat demo sih emang emang mau saya kalau baca kalau kalau baca doang itu emang"
+    },
+    {
+      "start": 2632.0460199999998,
+      "end": 2638.706,
+      "text": "emang enggak masuk tapi kalau lihat demo lebih helpful sih ya Nah ini ada demonya enggak"
+    },
+    {
+      "start": 2638.706,
+      "end": 2649.806,
+      "text": "masalahnya ini ada demonya yang lain layer Oh berarti layer itu juga termasuk salah satu"
+    },
+    {
+      "start": 2649.806,
+      "end": 2657.366,
+      "text": "dari nesting kali ya ini ada nesting beda lagi lain-lain konsep itu kan framework.reset jadi"
+    },
+    {
+      "start": 2657.366,
+      "end": 2664.386,
+      "text": "kayaknya mungkin dalam framework ada urutan prioritas apa prioritas itu tadi siapa yang"
+    },
+    {
+      "start": 2664.386,
+      "end": 2671.766,
+      "text": "menang kayak style mana yang menang nih contoh-contoh in this following example the simple H2 elements"
+    },
+    {
+      "start": 2671.766,
+      "end": 2685.50598,
+      "text": "itu blue Nah itu jadikan sama-sama mentadget H2 nih gua yang lu to the"
+    },
+    {
+      "start": 2685.50598,
+      "end": 2691.506,
+      "text": "team layer order appearance being after the base layer sebentar"
+    },
+    {
+      "start": 2691.506,
+      "end": 2700.346,
+      "text": "disini ada layar base sama layer team Oke terus"
+    },
+    {
+      "start": 2700.346,
+      "end": 2723.4120000000003,
+      "text": "jadi kesimpulannya artikel H2 itu warnanya apa Tolong tolong Ya tolong jelasin mana Oh ini ada udah berhenti ini udah habis"
+    },
+    {
+      "start": 2723.4120000000003,
+      "end": 2734.392,
+      "text": "enggak ada tuh ada tulisannya white mana tadi blue hadua-hadua"
+    },
+    {
+      "start": 2734.392,
+      "end": 2748.4120000000003,
+      "text": "spesifikasi rules apply ifness layer specificity"
+    },
+    {
+      "start": 2748.4120000000003,
+      "end": 2756.952,
+      "text": "by default"
+    },
+    {
+      "start": 2756.952,
+      "end": 2760.032,
+      "text": "jadi kan kalau by default"
+    },
+    {
+      "start": 2760.032,
+      "end": 2763.892,
+      "text": "spesifikasi ada poin-poinnya"
+    },
+    {
+      "start": 2763.892,
+      "end": 2766.092,
+      "text": "ada kayak artikel H2"
+    },
+    {
+      "start": 2766.092,
+      "end": 2768.5119999999997,
+      "text": "itu kan"
+    },
+    {
+      "start": 2768.5119999999997,
+      "end": 2770.272,
+      "text": "lebih spesifik daripada"
+    },
+    {
+      "start": 2770.272,
+      "end": 2772.192,
+      "text": "selektor H2 doang"
+    },
+    {
+      "start": 2772.192,
+      "end": 2774.632,
+      "text": "jadi by default"
+    },
+    {
+      "start": 2774.632,
+      "end": 2775.992,
+      "text": "yang menang adalah"
+    },
+    {
+      "start": 2775.992,
+      "end": 2777.852,
+      "text": "si artikel H2"
+    },
+    {
+      "start": 2777.852,
+      "end": 2779.71204,
+      "text": "jadi"
+    },
+    {
+      "start": 2779.71204,
+      "end": 2781.952,
+      "text": "H2 warnanya akan ungu"
+    },
+    {
+      "start": 2781.952,
+      "end": 2783.812,
+      "text": "nah tapi kan"
+    },
+    {
+      "start": 2783.812,
+      "end": 2786.032,
+      "text": "sebetulnya kalau yang kita tahu"
+    },
+    {
+      "start": 2786.032,
+      "end": 2787.692,
+      "text": "sekilas kalau yang lebih bawah"
+    },
+    {
+      "start": 2787.692,
+      "end": 2789.4719999999998,
+      "text": "di bawahnya kan bakal menang"
+    },
+    {
+      "start": 2789.4719999999998,
+      "end": 2791.312,
+      "text": "H2 warnanya biru"
+    },
+    {
+      "start": 2791.312,
+      "end": 2793.852,
+      "text": "ini anggap aja belum ada fitur layer ya"
+    },
+    {
+      "start": 2793.852,
+      "end": 2807.112,
+      "text": "Nah kita kan bakal bingung kan, maksudnya kayak gambling lah, kita gak tau mana yang menang, jadi kayak bingung, sulit lah buat memprediksi behaviornya."
+    },
+    {
+      "start": 2807.112,
+      "end": 2811.612,
+      "text": "Nah, kalau di sini kita bisa ngelompokin pakai layer."
+    },
+    {
+      "start": 2812.072,
+      "end": 2818.672,
+      "text": "Jadi, ngitung spesifisitinya itu berdasarkan kelompok layer."
+    },
+    {
+      "start": 2818.812,
+      "end": 2820.392,
+      "text": "Kelompok layer base di atas."
+    },
+    {
+      "start": 2821.072,
+      "end": 2823.83203,
+      "text": "Nah, terus bawahnya ada kelompok layer dim."
+    },
+    {
+      "start": 2824.452,
+      "end": 2827.772,
+      "text": "Nah, di sini walaupun selektor H2-nya itu kalah."
+    },
+    {
+      "start": 2828.172,
+      "end": 2828.9120000000003,
+      "text": "Maksudnya kalah kan?"
+    },
+    {
+      "start": 2829.052,
+      "end": 2831.4120000000003,
+      "text": "Sebenarnya kan by default itu behavior-nya harusnya kalah."
+    },
+    {
+      "start": 2832.392,
+      "end": 2834.9120000000003,
+      "text": "Karena kurang spesifik cuma H2 doang."
+    },
+    {
+      "start": 2834.9120000000003,
+      "end": 2842.772,
+      "text": "tapi disini indis kis haduanya jadi menang menang ke masa haduanya jadi warna biru itu kenapa karena"
+    },
+    {
+      "start": 2842.772,
+      "end": 2850.632,
+      "text": "layarnya ini karena hadua itu bagian dari kelompok layer yang berada di bawah kan makin bawah yang"
+    },
+    {
+      "start": 2850.632,
+      "end": 2859.09204,
+      "text": "bawah akan meng-override yang atas Oke skating ya saya saya tadi baca paling bawah ada contohnya"
+    },
+    {
+      "start": 2859.09204,
+      "end": 2868.152,
+      "text": "keren banget contohnya sih kalau mau nanti teman-teman bisa baca Nah eh stop eh bawa lagi"
+    },
+    {
+      "start": 2868.152,
+      "end": 2880.152,
+      "text": "bawa lagi ada hotpan nya nah ini dia CSS ke CSS aja Nah kalau dilihat dari ininya itu layernya"
+    },
+    {
+      "start": 2880.152,
+      "end": 2887.4120000000003,
+      "text": "di-define ya ada reset secara spesifik ya dari kiri ke kanan reset base theme component sama"
+    },
+    {
+      "start": 2887.4120000000003,
+      "end": 2894.71204,
+      "text": "dan ini pattern dari SAS dulu orang SAS tuh pasti pernah lihat deh urutan ini reset base"
+    },
+    {
+      "start": 2894.71204,
+      "end": 2903.312,
+      "text": "kalau kita lihat ya itu kan H2 warnanya biru ya sedangkan si base mengatakan"
+    },
+    {
+      "start": 2903.312,
+      "end": 2911.172,
+      "text": "color purple dia kenanya di teams karena di layer team itu mengatakan H2 color blue"
+    },
+    {
+      "start": 2911.172,
+      "end": 2922.452,
+      "text": "nah terus kemudian dotlet dotlet itu warnanya green dan important dan dia dalam layar tim"
+    },
+    {
+      "start": 2922.452,
+      "end": 2932.232,
+      "text": "maka dia menang secara spesifik meskipun utilities Hai Utilities mengatakan ui red"
+    },
+    {
+      "start": 2932.232,
+      "end": 2939.552,
+      "text": "red Iya kenapa dia enggak red adalah di itu sepaling ujung nih sedangkan"
+    },
+    {
+      "start": 2939.552,
+      "end": 2944.612,
+      "text": "besama tim menengan tim Baji harus baca kena kalau dia ada tadi mengatakan"
+    },
+    {
+      "start": 2944.612,
+      "end": 2956.432,
+      "text": "kalau dari komen sama important paling bawah paling ada ini paling bawah kalau tanpa kena"
+    },
+    {
+      "start": 2956.432,
+      "end": 2963.612,
+      "text": "air itu sebenarnya colornya orange impor orange tapi kenapa dia bisa kenanya ke tim saya enggak"
+    },
+    {
+      "start": 2963.612,
+      "end": 2975.872,
+      "text": "tahu kalau yang yang paragraf yang blue yang dibawah aslinya adalah red p color ini red jadi"
+    },
+    {
+      "start": 2975.872,
+      "end": 2995.318,
+      "text": "biru bener ya kan kalau asumsi kita ya yang ini yang blue yang blue itu apa coba yang blue dot ini kan P kelas dia P ya P kelas blue ya"
+    },
+    {
+      "start": 2995.318,
+      "end": 2997.618,
+      "text": "P kelas blue"
+    },
+    {
+      "start": 2997.618,
+      "end": 2999.39795,
+      "text": "yang ini"
+    },
+    {
+      "start": 2999.39795,
+      "end": 3001.39795,
+      "text": "sebelum kena layer"
+    },
+    {
+      "start": 3001.39795,
+      "end": 3003.65796,
+      "text": "ini setelah"
+    },
+    {
+      "start": 3003.65796,
+      "end": 3005.2380000000003,
+      "text": "setelah layer bukan bukan"
+    },
+    {
+      "start": 3005.2380000000003,
+      "end": 3007.678,
+      "text": "terus terus itu kan colornya blue"
+    },
+    {
+      "start": 3007.678,
+      "end": 3008.358,
+      "text": "kalau utilities"
+    },
+    {
+      "start": 3008.358,
+      "end": 3012.03796,
+      "text": "kalau bawah lagi"
+    },
+    {
+      "start": 3012.03796,
+      "end": 3013.258,
+      "text": "ada gak yang .blue"
+    },
+    {
+      "start": 3013.258,
+      "end": 3017.47797,
+      "text": "ini dia red harusnya"
+    },
+    {
+      "start": 3017.47797,
+      "end": 3018.47797,
+      "text": "kena red"
+    },
+    {
+      "start": 3018.47797,
+      "end": 3020.77795,
+      "text": "A2 blue"
+    },
+    {
+      "start": 3020.77795,
+      "end": 3022.77795,
+      "text": "ini blue"
+    },
+    {
+      "start": 3022.77795,
+      "end": 3024.458,
+      "text": "P red"
+    },
+    {
+      "start": 3024.458,
+      "end": 3027.2380000000003,
+      "text": "ini apa"
+    },
+    {
+      "start": 3027.2380000000003,
+      "end": 3029.138,
+      "text": "dot lead"
+    },
+    {
+      "start": 3029.138,
+      "end": 3031.358,
+      "text": "P juga"
+    },
+    {
+      "start": 3031.358,
+      "end": 3034.41797,
+      "text": "P tapi dia jadinya"
+    },
+    {
+      "start": 3034.41797,
+      "end": 3035.458,
+      "text": "hijau"
+    },
+    {
+      "start": 3035.458,
+      "end": 3037.83795,
+      "text": "sedangkan disini merah"
+    },
+    {
+      "start": 3037.83795,
+      "end": 3038.97797,
+      "text": "gimana tuh"
+    },
+    {
+      "start": 3038.97797,
+      "end": 3042.178,
+      "text": "dot leadnya kan kalau kena yang diatas kan"
+    },
+    {
+      "start": 3042.178,
+      "end": 3055.578,
+      "text": "Green disini red harusnya dia secara urutan base-base green-green"
+    },
+    {
+      "start": 3058.7380000000003,
+      "end": 3066.53796,
+      "text": "Hai utilities paling terakhir ya specific Iya base dulu kan Iya base berarti timkan masuknya"
+    },
+    {
+      "start": 3066.53796,
+      "end": 3076.7380000000003,
+      "text": "tim ini kan Iya tim disini komponen terus itu ditik kalau P yang red dia ambil yang disini"
+    },
+    {
+      "start": 3077.578,
+      "end": 3086.39795,
+      "text": "Hai ini yang terakhir karena Oh kayaknya paling kuat lebih kuat yang diluar layar enggak ini H2"
+    },
+    {
+      "start": 3086.39795,
+      "end": 3097.97797,
+      "text": "sama lead orange jadi hijau ya padahal dia paling bawah karena important karena important important"
+    },
+    {
+      "start": 3097.97797,
+      "end": 3107.378,
+      "text": "is everything bisa diri koknya mungkin gara-gara ada important Nah kalau yang apa kombinasinya ini"
+    },
+    {
+      "start": 3107.378,
+      "end": 3115.858,
+      "text": "sih nggak ngerti ya cuma inget baca bahwa eh apa yang enggak di dalam player itu lebih kuat daripada"
+    },
+    {
+      "start": 3115.858,
+      "end": 3129.77795,
+      "text": "yang di dalam kelompok player coba lihat ke atas dikit layer son order with important ada ini ya"
+    },
+    {
+      "start": 3129.77795,
+      "end": 3138.118,
+      "text": "penjelasannya atas-atas-atas Yap stop-stop-stop itu ini short ordernya"
+    },
+    {
+      "start": 3138.118,
+      "end": 3155.698,
+      "text": "masih enggak ngerti layar tim color green important layer utilities elemen color red"
+    },
+    {
+      "start": 3155.698,
+      "end": 3164.818,
+      "text": "nah kita nggak lihat kita nggak lihat HTML nya kalau ini bingung Iya color itu kan"
+    },
+    {
+      "start": 3164.818,
+      "end": 3170.41797,
+      "text": "Hai teks color kan bukan background color kan Kenapa di sini background yang berbeda ini"
+    },
+    {
+      "start": 3170.41797,
+      "end": 3179.878,
+      "text": "short ordernya dia kalau pakai important layer kalau pakai important itu ininya berbeda efeknya"
+    },
+    {
+      "start": 3179.878,
+      "end": 3189.378,
+      "text": "itu loh maksudnya Oh oke Jadi kalau yang tanpa layer yang orange yang yang dibawa."
+    },
+    {
+      "start": 3189.378,
+      "end": 3199.9979000000003,
+      "text": "element color orange itu anlayer style tapi mana ya hahaha yang orange yang mana aja nggak"
+    },
+    {
+      "start": 3199.9979000000003,
+      "end": 3209.178,
+      "text": "tahu itu yang paling bawah tuh maksudnya orange kirain merah itu pink salmone orange putih warna"
+    },
+    {
+      "start": 3209.178,
+      "end": 3212.318,
+      "text": "Oke, baiklah teman-teman."
+    },
+    {
+      "start": 3212.898,
+      "end": 3213.298,
+      "text": "Next dulu."
+    },
+    {
+      "start": 3213.3579,
+      "end": 3214.898,
+      "text": "Mari kita bingung bertemu."
+    },
+    {
+      "start": 3217.218,
+      "end": 3220.598,
+      "text": "Ini ada pertanyaan bagus nih, tentang performa."
+    },
+    {
+      "start": 3221.9179999999997,
+      "end": 3224.938,
+      "text": "Apakah pemilihan sektor berpengaruh ke performance?"
+    },
+    {
+      "start": 3225.598,
+      "end": 3228.638,
+      "text": "Terus juga ini, nested itu akan pengaruh ke performance nggak?"
+    },
+    {
+      "start": 3230.2579,
+      "end": 3232.318,
+      "text": "Kalau banyak banget ya, theoretically ngaruh."
+    },
+    {
+      "start": 3232.318,
+      "end": 3239.038,
+      "text": "tapi sebetulnya in real life secara praktek belum pernah ngerasain sampai"
+    },
+    {
+      "start": 3239.038,
+      "end": 3248.7579,
+      "text": "ngaruh sih. Coba aja nesting 100. Pertanyaan gini, kalau misalkan kita bikin awalnya"
+    },
+    {
+      "start": 3248.7579,
+      "end": 3254.7380000000003,
+      "text": "eh maksudnya performance ini kan kita bikin nested nih terus ada yang bilang performanya"
+    },
+    {
+      "start": 3254.7380000000003,
+      "end": 3260.938,
+      "text": "kurang bagus gimana cara kita improve? Ada solusi nggak selain nested? Kita bikin jadi satu"
+    },
+    {
+      "start": 3261,
+      "end": 3261.78,
+      "text": "semua gitu ya"
+    },
+    {
+      "start": 3261.78,
+      "end": 3265.62,
+      "text": "jadi kelas aja yang mau kita target"
+    },
+    {
+      "start": 3265.62,
+      "end": 3267.18,
+      "text": "kenapa harus nested"
+    },
+    {
+      "start": 3267.18,
+      "end": 3267.98,
+      "text": "banyak-banyak"
+    },
+    {
+      "start": 3267.98,
+      "end": 3270.86,
+      "text": "kita planning"
+    },
+    {
+      "start": 3270.86,
+      "end": 3272.96,
+      "text": "planning seleknya ya"
+    },
+    {
+      "start": 3272.96,
+      "end": 3274.12,
+      "text": "harus lebih baik"
+    },
+    {
+      "start": 3274.12,
+      "end": 3276.86,
+      "text": "kalau nested itu kan karena kita harus"
+    },
+    {
+      "start": 3276.86,
+      "end": 3278.5,
+      "text": "target secara spesifik banget"
+    },
+    {
+      "start": 3278.5,
+      "end": 3279.08,
+      "text": "parent"
+    },
+    {
+      "start": 3279.08,
+      "end": 3282.86,
+      "text": "nenek moyangnya bukan parent malah"
+    },
+    {
+      "start": 3282.86,
+      "end": 3285.12,
+      "text": "kakek neneknya ini"
+    },
+    {
+      "start": 3285.12,
+      "end": 3286.84,
+      "text": "childnya banyak banget"
+    },
+    {
+      "start": 3286.84,
+      "end": 3288.74,
+      "text": "jadi kita harus nyebut ini"
+    },
+    {
+      "start": 3288.74,
+      "end": 3289.6,
+      "text": "sama nyebut ini"
+    },
+    {
+      "start": 3289.6,
+      "end": 3291.74,
+      "text": "Padahal kan target ini aja"
+    },
+    {
+      "start": 3291.74,
+      "end": 3292.8,
+      "text": "Berarti ya kita kasih"
+    },
+    {
+      "start": 3292.8,
+      "end": 3295.32,
+      "text": "Kelas lain lah selektor lain yang lebih"
+    },
+    {
+      "start": 3295.32,
+      "end": 3296.66,
+      "text": "Apa"
+    },
+    {
+      "start": 3296.66,
+      "end": 3298.36,
+      "text": "Efisien akurat"
+    },
+    {
+      "start": 3298.36,
+      "end": 3301.02,
+      "text": "Kayaknya dulu lighthouse tuh ada warningnya deh"
+    },
+    {
+      "start": 3301.02,
+      "end": 3303.42,
+      "text": "Kalau misalnya ada selektor yang"
+    },
+    {
+      "start": 3303.42,
+      "end": 3304.42,
+      "text": "Terlalu panjang gitu"
+    },
+    {
+      "start": 3304.42,
+      "end": 3307.2,
+      "text": "Kalau selektor yang terlalu panjang tuh"
+    },
+    {
+      "start": 3307.2,
+      "end": 3309.18,
+      "text": "Pengaruh ke ini"
+    },
+    {
+      "start": 3309.18,
+      "end": 3311.96,
+      "text": "Performance"
+    },
+    {
+      "start": 3311.96,
+      "end": 3315.56,
+      "text": "Karena traverse-nya"
+    },
+    {
+      "start": 3315.56,
+      "end": 3316.44,
+      "text": "Terlalu dalam kan"
+    },
+    {
+      "start": 3316.44,
+      "end": 3322.88,
+      "text": "maksimal kedalamannya kita belum tahu juga Mas Maulidan"
+    },
+    {
+      "start": 3322.88,
+      "end": 3325.14,
+      "text": "enggak ada"
+    },
+    {
+      "start": 3325.14,
+      "end": 3328.16,
+      "text": "silahkan dicoba"
+    },
+    {
+      "start": 3328.16,
+      "end": 3332.84,
+      "text": "maksudnya enggak ada tapi kan setiap ini kita harus ingat"
+    },
+    {
+      "start": 3332.84,
+      "end": 3339.82,
+      "text": "bukan webdev itu kan usernya bisa membuka dari laptop dari HP"
+    },
+    {
+      "start": 3339.82,
+      "end": 3342.96,
+      "text": "HP paling kentang sampai HP paling canggih"
+    },
+    {
+      "start": 3342.96,
+      "end": 3352.14,
+      "text": "ya mungkin apa kalau kebetulan dibuka dari HP yang low-end banget butut mungkin bisa aja nggak"
+    },
+    {
+      "start": 3352.14,
+      "end": 3359.88,
+      "text": "kuat apa renderingnya jadi jengkih nggak ada standarisasinya juga sih ya soalnya"
+    },
+    {
+      "start": 3359.88,
+      "end": 3370.38,
+      "text": "intinya jangan apa jangan terlalu mengabuse si nested ini ya kalau kayak properti dalam"
+    },
+    {
+      "start": 3370.38,
+      "end": 3376.26,
+      "text": "seperti di dalam properti kayaknya untuk parsing nya juga lebih rumit kan secara otomatis kalkulasi"
+    },
+    {
+      "start": 3376.26,
+      "end": 3387.52,
+      "text": "lgp ke fitur Green hahaha kita nulisnya juga pusing sih Iya jadi ya dipakai seperlunya aja"
+    },
+    {
+      "start": 3387.52,
+      "end": 3393.56,
+      "text": "kalau bisa ada nistet lebih bagus kayaknya ya kayaknya maksudnya sebelum sampai ke level yang"
+    },
+    {
+      "start": 3393.56,
+      "end": 3398.72,
+      "text": "beneran signifikan krim pengaruhi performance dari DX kayaknya udah"
+    },
+    {
+      "start": 3398.72,
+      "end": 3406.22,
+      "text": "maksudnya pasti nggak tahan kan emang kita mau nulis 20 urut 20 gitu kan"
+    },
+    {
+      "start": 3406.22,
+      "end": 3412.88,
+      "text": "mungkin kan pasti kita yang kita yang nulis pusing duluan"
+    },
+    {
+      "start": 3412.88,
+      "end": 3421.96,
+      "text": "terus Oke kita lanjut lanjut ke subgrid"
+    },
+    {
+      "start": 3421.96,
+      "end": 3433.24,
+      "text": "asik nggak menjawab ya kan kalau kita grid itu kan kita bisa mendefinisikan gridline"
+    },
+    {
+      "start": 3433.24,
+      "end": 3440.42,
+      "text": "kan gridline grid template kolom grid template row tapi itu kan sebelumnya sebelum ada subgrid"
+    },
+    {
+      "start": 3440.42,
+      "end": 3449.42,
+      "text": "itu ngaruhnya kan cuma ke direct childnya kan ke elemen yang pas di dalam elemen parent yang"
+    },
+    {
+      "start": 3449.42,
+      "end": 3456.74,
+      "text": "ada grid templatenya itu Nah kalau misalnya ada dalamnya lagi itu kan ya kita harus ngedefinisiin"
+    },
+    {
+      "start": 3456.74,
+      "end": 3463.1,
+      "text": "grid template sekali lagi di apa di immediate parentnya kalau ini enggak jadi apa parent"
+    },
+    {
+      "start": 3463.1,
+      "end": 3470.36,
+      "text": "terus ini child element terus jadi parent misalnya orang tua anak cucu jadi cucunya juga bisa"
+    },
+    {
+      "start": 3470.36,
+      "end": 3478.94,
+      "text": "ikutin apa grid lines nya gede template kalau atau gede template rohnya Oke oke contohnya"
+    },
+    {
+      "start": 3478.94,
+      "end": 3493.04,
+      "text": "ini display-nya display Oh ya bawa displei-splei kalau nggak salah Iya deh serius live demo dong"
+    },
+    {
+      "start": 3493.04,
+      "end": 3494.96,
+      "text": "Hah? Live demo?"
+    },
+    {
+      "start": 3496.58,
+      "end": 3497.4,
+      "text": "Boleh boleh"
+    },
+    {
+      "start": 3497.4,
+      "end": 3498.38,
+      "text": "Live demo"
+    },
+    {
+      "start": 3498.38,
+      "end": 3500.38,
+      "text": "Gimana live demo?"
+    },
+    {
+      "start": 3501.6,
+      "end": 3502.74,
+      "text": "Ini kan live demo"
+    },
+    {
+      "start": 3502.74,
+      "end": 3503.94,
+      "text": "Udah"
+    },
+    {
+      "start": 3503.94,
+      "end": 3507.1,
+      "text": "Gimana? Gak ada subgrid"
+    },
+    {
+      "start": 3507.1,
+      "end": 3508.66,
+      "text": "Grid semua"
+    },
+    {
+      "start": 3508.66,
+      "end": 3509.12,
+      "text": "Gak ada"
+    },
+    {
+      "start": 3509.12,
+      "end": 3511.5,
+      "text": "Oh ini subgrid"
+    },
+    {
+      "start": 3511.5,
+      "end": 3513.62,
+      "text": "Harusnya ada"
+    },
+    {
+      "start": 3513.62,
+      "end": 3515.86,
+      "text": "Woi, cek dulu"
+    },
+    {
+      "start": 3515.86,
+      "end": 3517.74,
+      "text": "Kecilan ya"
+    },
+    {
+      "start": 3517.74,
+      "end": 3521.24,
+      "text": "Ini kan subgrid"
+    },
+    {
+      "start": 3521.24,
+      "end": 3537.07202,
+      "text": "iya berarti get template row sub grid gitu berarti bisa get grid template column sub grid juga sub grid juga iya jadi buat kolom ya lihat HTML nya deh"
+    },
+    {
+      "start": 3539.992,
+      "end": 3554.272,
+      "text": "Hai HTML 5 biasa artikel-artikel itu kan pernya terus ini header terus ada horizontal line terus"
+    },
+    {
+      "start": 3554.272,
+      "end": 3565.432,
+      "text": "paragraf terakhir ada footer terus diatur sama segretnya itu gapnya aturan grupnya"
+    },
+    {
+      "start": 3565.432,
+      "end": 3577.112,
+      "text": "apa styling styling grupnya itu di bodi lihat CSS ya bodi ya lihat CSS turun turun dikit"
+    },
+    {
+      "start": 3577.112,
+      "end": 3583.35202,
+      "text": "Scroll, scroll, nah, grid template columns, bla bla bla."
+    },
+    {
+      "start": 3583.492,
+      "end": 3585.992,
+      "text": "Jadi kita mendefinisikan aturannya di body."
+    },
+    {
+      "start": 3586.9120199999998,
+      "end": 3594.45203,
+      "text": "Terus kan biasanya kalau body hold itu cuma bisa dipakai di direct child-nya tuh, di artikel doang."
+    },
+    {
+      "start": 3594.45203,
+      "end": 3603.33203,
+      "text": "Ini kelihatannya si title sama konten di masing-masing card, masing-masing artikel,"
+    },
+    {
+      "start": 3603.47202,
+      "end": 3605.35202,
+      "text": "jadi bisa ngikut grid lainnya juga."
+    },
+    {
+      "start": 3605.35202,
+      "end": 3607.35202,
+      "text": "lihatnya loh"
+    },
+    {
+      "start": 3607.35202,
+      "end": 3609.63202,
+      "text": "nggak ya"
+    },
+    {
+      "start": 3609.63202,
+      "end": 3610.73203,
+      "text": "grid"
+    },
+    {
+      "start": 3610.73203,
+      "end": 3614.79202,
+      "text": "header juga display-nya grid"
+    },
+    {
+      "start": 3614.79202,
+      "end": 3618.63202,
+      "text": "oh di dalam grid bisa kita"
+    },
+    {
+      "start": 3618.63202,
+      "end": 3620.35202,
+      "text": "definisiin grid lagi ya berarti ya"
+    },
+    {
+      "start": 3620.35202,
+      "end": 3621.492,
+      "text": "baru tau nih"
+    },
+    {
+      "start": 3621.492,
+      "end": 3623.672,
+      "text": "terus ngikut"
+    },
+    {
+      "start": 3623.672,
+      "end": 3626.97202,
+      "text": "grid template row atau grid template"
+    },
+    {
+      "start": 3626.97202,
+      "end": 3628.97202,
+      "text": "column kayak inherit gitu deh"
+    },
+    {
+      "start": 3628.97202,
+      "end": 3629.592,
+      "text": "kelihatannya"
+    },
+    {
+      "start": 3629.592,
+      "end": 3632.032,
+      "text": "oke"
+    },
+    {
+      "start": 3632.032,
+      "end": 3635.172,
+      "text": "kalau yang di body itu dia repeat"
+    },
+    {
+      "start": 3635.172,
+      "end": 3646.63202,
+      "text": "autofill min max 30 ch1 fr kalau di layer demo nih ada layer lagi nih dia"
+    },
+    {
+      "start": 3646.63202,
+      "end": 3654.63202,
+      "text": "subgrid ada lihat demo support sini ada layer-layer enggak enggak ada kan"
+    },
+    {
+      "start": 3654.63202,
+      "end": 3660.672,
+      "text": "definisi layarnya yang kayak tadi enggak ada juga ya"
+    },
+    {
+      "start": 3660.672,
+      "end": 3673.232,
+      "text": "enggak enggak harus itu option berarti kita harus ada episode CSS layer ya ya enggak kita apa"
+    },
+    {
+      "start": 3673.232,
+      "end": 3682.092,
+      "text": "selanjutnya remedial prep 2023 hal-hal yang kita bingung pas sekarang nanti boleh kita bahas lagi"
+    },
+    {
+      "start": 3682.092,
+      "end": 3684.732,
+      "text": "ya bagus bagus"
+    },
+    {
+      "start": 3684.732,
+      "end": 3688.57202,
+      "text": "subgrid is especially useful"
+    },
+    {
+      "start": 3688.57202,
+      "end": 3690.47202,
+      "text": "for aligning"
+    },
+    {
+      "start": 3690.47202,
+      "end": 3692.732,
+      "text": "siblings to each other dynamic"
+    },
+    {
+      "start": 3692.732,
+      "end": 3693.312,
+      "text": "content"
+    },
+    {
+      "start": 3693.312,
+      "end": 3696.592,
+      "text": "this is free copywriter"
+    },
+    {
+      "start": 3696.592,
+      "end": 3698.39203,
+      "text": "UX writer and translator for"
+    },
+    {
+      "start": 3698.39203,
+      "end": 3700.33203,
+      "text": "attending to create a project copy"
+    },
+    {
+      "start": 3700.33203,
+      "end": 3701.872,
+      "text": "that fits into the layout"
+    },
+    {
+      "start": 3701.872,
+      "end": 3704.39203,
+      "text": "with subgrid the layout can be"
+    },
+    {
+      "start": 3704.39203,
+      "end": 3706.27203,
+      "text": "adjusted to fit the content"
+    },
+    {
+      "start": 3710.27203,
+      "end": 3711.652,
+      "text": "itu use case nya"
+    },
+    {
+      "start": 3711.652,
+      "end": 3721.97202,
+      "text": "iskisnya untuk beda itu iskisnya itu tadi iskisnya coba ematiin apa turn off dulu CSS nya buk biar"
+    },
+    {
+      "start": 3721.97202,
+      "end": 3733.252,
+      "text": "risetnya doang yang muncul nah kan itu kata-katanya bisa teksnya bisa 4 baris bisa 2"
+    },
+    {
+      "start": 3733.252,
+      "end": 3741.63202,
+      "text": "tapi sih yang paling bawah itu apa otomatis ke stretch set apa itu yang paling bawah tuh"
+    },
+    {
+      "start": 3741.63202,
+      "end": 3747.71204,
+      "text": "yang tulisan kecilnya ke tulisan tanggal atau apa ini itu sebaris Nia sebaris kebawah"
+    },
+    {
+      "start": 3749.07202,
+      "end": 3756.592,
+      "text": "Hai jadi kayak flex dong Oh iya tapi berlaku buat semua jadi enggak harus masing-masing dikasih flex"
+    },
+    {
+      "start": 3756.592,
+      "end": 3769.01202,
+      "text": "kelihatannya Oke oke oke kita masuk ke bagian berikutnya masih banyak kalau ini kita kedua"
+    },
+    {
+      "start": 3769.01202,
+      "end": 3782.872,
+      "text": "segmen kedua tipografi ini keren banget nih teksnya Iya bagus bagus-bagus pilihannya"
+    },
+    {
+      "start": 3782.872,
+      "end": 3788.872,
+      "text": "gimana caranya punya sense kayak gitu, itu udah off topic, lanjut, text wrap"
+    },
+    {
+      "start": 3788.872,
+      "end": 3796.872,
+      "text": "initial letter, nah dulu kalau di ujung koran, majalah biasanya ada yang model kayak gini nih"
+    },
+    {
+      "start": 3796.872,
+      "end": 3797.872,
+      "text": "huruf pertamanya tuh"
+    },
+    {
+      "start": 3797.872,
+      "end": 3809.544,
+      "text": "bayangin ongsel gak sih kayak pada suatu ketikan nah itu kan yang apa jenis fontnya yang kayak cerita dongeng gitu betul"
+    },
+    {
+      "start": 3809.544,
+      "end": 3814.544,
+      "text": "tapi karena firefox belum"
+    },
+    {
+      "start": 3814.544,
+      "end": 3816.544,
+      "text": "jadi fallbacknya gimana?"
+    },
+    {
+      "start": 3816.544,
+      "end": 3818.544,
+      "text": "huruf biasa aja"
+    },
+    {
+      "start": 3818.544,
+      "end": 3820.544,
+      "text": "pake javascript lah, di slice aja"
+    },
+    {
+      "start": 3820.544,
+      "end": 3824.544,
+      "text": "kalau CSSnya kita pake yang gini"
+    },
+    {
+      "start": 3824.544,
+      "end": 3826.544,
+      "text": "terus nanti di firefox tampilannya gimana"
+    },
+    {
+      "start": 3826.544,
+      "end": 3833.744,
+      "text": "ya nggak papa teks biasa teks biasa tapi kalau itu penting ya udah kita slice"
+    },
+    {
+      "start": 3833.744,
+      "end": 3844.84406,
+      "text": "itu first letter initial letter 3 2 oh ini 3 spasi 2 apa 3 itu apa spasi itu apa ada"
+    },
+    {
+      "start": 3844.84406,
+      "end": 3853.96405,
+      "text": "ininya nggak iya itu tadi atas atas atas atas atas scroll atas initial letter property is a"
+    },
+    {
+      "start": 3853.96405,
+      "end": 3861.76404,
+      "text": "berstatus styling for the placement you can position letters in drop or face property"
+    },
+    {
+      "start": 3861.76404,
+      "end": 3869.924,
+      "text": "accept to argument nah dua argumen argumen pertama how deeply to drop letter Wow canggih"
+    },
+    {
+      "start": 3869.924,
+      "end": 3879.82404,
+      "text": "banget Oh bisa berapa baris kita harus itu manual the second how much to face the letter above it"
+    },
+    {
+      "start": 3879.82404,
+      "end": 3890.864,
+      "text": "kalau kita mau bikin blog artikel gitu ya"
+    },
+    {
+      "start": 3890.864,
+      "end": 3894.744,
+      "text": "atau apapun yang visualnya"
+    },
+    {
+      "start": 3894.744,
+      "end": 3895.70404,
+      "text": "text wrap ini"
+    },
+    {
+      "start": 3895.70404,
+      "end": 3898.1040000000003,
+      "text": "balance and pretty"
+    },
+    {
+      "start": 3898.1040000000003,
+      "end": 3902.26404,
+      "text": "kalau sebelumnya text wrap itu apa aja adanya?"
+    },
+    {
+      "start": 3903.564,
+      "end": 3905.044,
+      "text": "gak ada, belum ada kan?"
+    },
+    {
+      "start": 3905.044,
+      "end": 3905.6040000000003,
+      "text": "eh?"
+    },
+    {
+      "start": 3905.6040000000003,
+      "end": 3918.804,
+      "text": "white space dulu yang ada untuk rapping white space rap no rap terus apa free line kalau ini"
+    },
+    {
+      "start": 3918.804,
+      "end": 3926.064,
+      "text": "bukan soal itu kayaknya deh teks-teks itu sudah ada teks rap no rap stable bukan itu"
+    },
+    {
+      "start": 3926.064,
+      "end": 3937.064,
+      "text": "property dulu propertinya adalah white space Oh iya enggak ini ini ini ini Oh ya ini baru ini"
+    },
+    {
+      "start": 3937.064,
+      "end": 3947.304,
+      "text": "baru turun lagi turun lagi ada tulisannya tuh eh woi tadi kok beda bacanya Oke salah ke atas"
+    },
+    {
+      "start": 3947.304,
+      "end": 3955.58405,
+      "text": "Mas Riza opsa pop itu ada notenya yang warna biru not the white space klointex web properties can"
+    },
+    {
+      "start": 3955.58405,
+      "end": 3966.58405,
+      "text": "Oh white space itu shorthandnya berarti ini berarti text wrapnya udah ada tapi yang ditambahkan hanya balance dan pretty"
+    },
+    {
+      "start": 3966.58405,
+      "end": 3967.804,
+      "text": "Balance dan pretty"
+    },
+    {
+      "start": 3967.804,
+      "end": 3970.76404,
+      "text": "Apa lagi maksudnya gitu ya?"
+    },
+    {
+      "start": 3971.864,
+      "end": 3984.66406,
+      "text": "Ya jadi kadang kan kadang misalnya kita gak tau nih panjang textnya berapa terus di baris terakhir tuh kayak ngewrapnya gak enak kayak cuma sisa dua kata atau satu kata"
+    },
+    {
+      "start": 3984.66406,
+      "end": 3992.28406,
+      "text": "nah nah tetep tuh kelihatan kelihatan kan secara visual kan jelek tuh kayak yang baris keduanya"
+    },
+    {
+      "start": 3992.28406,
+      "end": 3997.38403,
+      "text": "tuh kayak jomblang banget sama yang berisik tiga Nah kalau ini otomatis kayak di balance aja"
+    },
+    {
+      "start": 3998.46405,
+      "end": 4008.064,
+      "text": "Hai yang pretty apa siapa sih video-video itu yang pretty yang lebih rata yang lebih rata"
+    },
+    {
+      "start": 4008.064,
+      "end": 4017.66406,
+      "text": "Oh rata ya rata kanannya ya ngerti-ngerti berarti dia secara algoritm nyari sendiri ya kita nggak"
+    },
+    {
+      "start": 4017.66406,
+      "end": 4025.94403,
+      "text": "perlu pas-pasin gitu ya Iya dia hitungnya dengan itu spasinya dimana kan kalau tulisannya not"
+    },
+    {
+      "start": 4027.02405,
+      "end": 4034.66406,
+      "text": "Hai yang unicode bukan Latin gimana ya kan tetap ada spasinya kan ya harusnya nggak tahu"
+    },
+    {
+      "start": 4034.66406,
+      "end": 4043.424,
+      "text": "jenis karakter kalau jenis kalau Thailand ada spasi cnw cara-cara Chinese Japanese"
+    },
+    {
+      "start": 4043.424,
+      "end": 4051.344,
+      "text": "Korean itu enggak ada spasi Oh Thailand juga enggak ada spasi Nah di saat kayak gini gue"
+    },
+    {
+      "start": 4051.344,
+      "end": 4058.484,
+      "text": "bersyukur gue bukan developer tukang bikin browser gak harus mikir itu tapi somewhere"
+    },
+    {
+      "start": 4058.484,
+      "end": 4065.004,
+      "text": "ada orang yang berarti kan mereka mempertimbangkan itu coba ya klien gua"
+    },
+    {
+      "start": 4065.004,
+      "end": 4083.3360000000002,
+      "text": "ada satu yang Jepang gua coba dulu oke kita lanjut wah tepuk grafik cuma dua ya color itu berguna banget sih Karena biasanya kalau di Figma Kan kayak designer itu Visual designer Mereka kalau lihat gak balance gitu kan"
+    },
+    {
+      "start": 4083.3360000000002,
+      "end": 4085.496,
+      "text": "Ya maksudnya secara estetik kurang bagus ya"
+    },
+    {
+      "start": 4085.496,
+      "end": 4086.496,
+      "text": "Jadi di enter"
+    },
+    {
+      "start": 4086.496,
+      "end": 4089.156,
+      "text": "Giliran kita yang bikin, kita yang coding"
+    },
+    {
+      "start": 4089.156,
+      "end": 4091.35596,
+      "text": "Ya kan kita gak bisa"
+    },
+    {
+      "start": 4091.35596,
+      "end": 4092.456,
+      "text": "Tiba-tiba ngatur"
+    },
+    {
+      "start": 4092.456,
+      "end": 4095.41595,
+      "text": "Bikin line break di sumber yang tempat kan"
+    },
+    {
+      "start": 4095.41595,
+      "end": 4097.29596,
+      "text": "Apalagi kalau sumber datanya dynamic"
+    },
+    {
+      "start": 4097.29596,
+      "end": 4099.256,
+      "text": "Nah kan bisa aja tuh kita sering"
+    },
+    {
+      "start": 4099.256,
+      "end": 4100.05597,
+      "text": "Di protest loh"
+    },
+    {
+      "start": 4100.05597,
+      "end": 4101.756,
+      "text": "kok gak sesuai Figma?"
+    },
+    {
+      "start": 4102.396,
+      "end": 4104.55597,
+      "text": "Nah, ini ngatasin masalah itu."
+    },
+    {
+      "start": 4105.6759600000005,
+      "end": 4106.35596,
+      "text": "Nah, ini ada"
+    },
+    {
+      "start": 4106.35596,
+      "end": 4108.316,
+      "text": "pertanyaan bagus nih dari Damar."
+    },
+    {
+      "start": 4108.756,
+      "end": 4109.936,
+      "text": "Dulu pernah baca"
+    },
+    {
+      "start": 4109.936,
+      "end": 4112.23596,
+      "text": "itu support beberapa baris"
+    },
+    {
+      "start": 4112.23596,
+      "end": 4114.636,
+      "text": "aja karena berat. Apakah sekarang masih terbatas?"
+    },
+    {
+      "start": 4115.596,
+      "end": 4116.29596,
+      "text": "Coba, itu"
+    },
+    {
+      "start": 4116.29596,
+      "end": 4118.096,
+      "text": "lihat semua browser"
+    },
+    {
+      "start": 4118.096,
+      "end": 4120.316,
+      "text": "udah support atau belum aja? Gak yakin sih?"
+    },
+    {
+      "start": 4120.47595,
+      "end": 4122.316,
+      "text": "Belum tuh? Belum ya, belum semua."
+    },
+    {
+      "start": 4122.41595,
+      "end": 4123.596,
+      "text": "Tapi Firefox doang kan?"
+    },
+    {
+      "start": 4125.136,
+      "end": 4126.41595,
+      "text": "Dan bahkan gak ada tulisan"
+    },
+    {
+      "start": 4126.41595,
+      "end": 4127.91595,
+      "text": "browser apa aja yang support."
+    },
+    {
+      "start": 4128.336,
+      "end": 4128.97595,
+      "text": "Mencurigakan."
+    },
+    {
+      "start": 4130.05597,
+      "end": 4133.35596,
+      "text": "Oke. Ya kelihatannya emang belum ready ya."
+    },
+    {
+      "start": 4136.35596,
+      "end": 4138.336,
+      "text": "Ya itu mungkin karena berat."
+    },
+    {
+      "start": 4139.516,
+      "end": 4142.79596,
+      "text": "Mencurigakan sih daftar list browsernya aja belum ada."
+    },
+    {
+      "start": 4144.11597,
+      "end": 4146.336,
+      "text": "Edit on CodePen. Nah bisa diedit gak?"
+    },
+    {
+      "start": 4147.55597,
+      "end": 4149.35596,
+      "text": "Yaudah kita tambahin aja nih."
+    },
+    {
+      "start": 4150.996,
+      "end": 4152.876,
+      "text": "Tulisannya yang mana? Yang balance."
+    },
+    {
+      "start": 4160.05597,
+      "end": 4162.05597,
+      "text": "terus hang"
+    },
+    {
+      "start": 4162.05597,
+      "end": 4164.05597,
+      "text": "oh panjang"
+    },
+    {
+      "start": 4164.05597,
+      "end": 4166.05597,
+      "text": "bisa tuh"
+    },
+    {
+      "start": 4166.05597,
+      "end": 4168.05597,
+      "text": "bisa, gak berat"
+    },
+    {
+      "start": 4168.05597,
+      "end": 4170.05597,
+      "text": "aman"
+    },
+    {
+      "start": 4170.05597,
+      "end": 4172.05597,
+      "text": "lah cuma ini di laptop bagus kan"
+    },
+    {
+      "start": 4172.05597,
+      "end": 4174.05597,
+      "text": "coba di"
+    },
+    {
+      "start": 4174.05597,
+      "end": 4176.05597,
+      "text": "hp kentang"
+    },
+    {
+      "start": 4176.05597,
+      "end": 4178.05597,
+      "text": "hp kentang"
+    },
+    {
+      "start": 4178.05597,
+      "end": 4180.05597,
+      "text": "betul betul"
+    },
+    {
+      "start": 4180.05597,
+      "end": 4182.05597,
+      "text": "terus juga ada ini nih Abdul Malik"
+    },
+    {
+      "start": 4182.05597,
+      "end": 4184.05597,
+      "text": "dia pakai React"
+    },
+    {
+      "start": 4184.05597,
+      "end": 4186.05597,
+      "text": "Wrap Balancer"
+    },
+    {
+      "start": 4186.05597,
+      "end": 4188.05597,
+      "text": "javascript adalah solusi"
+    },
+    {
+      "start": 4188.05597,
+      "end": 4194.276,
+      "text": "sampai sana ya maksudnya ada yang bikinin berarti memang ada kebutuhan yang sangat itu"
+    },
+    {
+      "start": 4194.276,
+      "end": 4201.1759600000005,
+      "text": "kemanusiaan segi yaitu tadi mau saya kita fitnahnya bagus atau ia fitnah atau apalah"
+    },
+    {
+      "start": 4201.1759600000005,
+      "end": 4210.29596,
+      "text": "ponnya visual desainnya bagus karena secara manual desainer kita ngasih poinnya dimana"
+    },
+    {
+      "start": 4210.29596,
+      "end": 4214.696,
+      "text": "yang kelihatan enggak enak banget di lain break secara manual lah kita kan nggak bisa pascode"
+    },
+    {
+      "start": 4214.696,
+      "end": 4217.256,
+      "text": "Jadi ya itu use case-nya."
+    },
+    {
+      "start": 4220.216,
+      "end": 4221.876,
+      "text": "Oke, lanjut?"
+    },
+    {
+      "start": 4222.996,
+      "end": 4223.59595,
+      "text": "Lanjut."
+    },
+    {
+      "start": 4224.29596,
+      "end": 4226.396,
+      "text": "Color, color ini lumayan banyak ya."
+    },
+    {
+      "start": 4226.936,
+      "end": 4232.756,
+      "text": "Banyak banget nih, kita pernah bahas kan di episode kapan tau pas bahas warna."
+    },
+    {
+      "start": 4232.756,
+      "end": 4240.6759600000005,
+      "text": "Yang pertama HD color space, from the hardware to software, CSS to blinking lights, apa ini maksudnya?"
+    },
+    {
+      "start": 4240.6759600000005,
+      "end": 4249.6759600000005,
+      "text": "sesuai dengan bahas now tapi user hardware capable of white gamut HDR colors Hai eh Hai"
+    },
+    {
+      "start": 4249.6759600000005,
+      "end": 4264.1759600000005,
+      "text": "sulit di demo ini gimana kan harusnya juga Iya pas kita bahas warna kan oke oke oke oke oke"
+    },
+    {
+      "start": 4264.1759600000005,
+      "end": 4280.6759600000005,
+      "text": "EH terus HWB Rek 2020 ada XJZ lagi apa ini XJZ Hah XJZ gak tahu mix color nah ini juga salah"
+    },
+    {
+      "start": 4280.6759600000005,
+      "end": 4286.436,
+      "text": "satu yang menarik nih color mix kalau dulu kan bingung ya ha udah stabil semua Wow wow"
+    },
+    {
+      "start": 4286.436,
+      "end": 4292.3159,
+      "text": "seneng banget misalkan kita mau campur warna merah sama warna kuning gitu gimana caranya"
+    },
+    {
+      "start": 4292.3159,
+      "end": 4299.8159,
+      "text": "ini ada kalau bisa sekarang ternyata bisa sekarang kayak lagi beli chat di toko chat aja dicampur"
+    },
+    {
+      "start": 4299.8159,
+      "end": 4307.976000000001,
+      "text": "dulu harus pakai javascript pun harus pakai library ya agak susah kalau hand roll bagaimana"
+    },
+    {
+      "start": 4307.976000000001,
+      "end": 4318.536,
+      "text": "caranya hex ffcc00 dicampur nolol ccff ya tapi ini susah dilihat ya"
+    },
+    {
+      "start": 4318.536,
+      "end": 4326.876,
+      "text": "kenapa muncul oke LCH segala macam dengan karena supaya gampang dibaca kan"
+    },
+    {
+      "start": 4326.876,
+      "end": 4330.776,
+      "text": "apa-apa"
+    },
+    {
+      "start": 4330.776,
+      "end": 4339.656,
+      "text": "saturation kayak gitu kan dari Green kasih saturation apa gitu ya silahkan"
+    },
+    {
+      "start": 4339.656,
+      "end": 4347.976000000001,
+      "text": "ini contoh kita sebelumnya ya ini contoh apa color mix color mix nah ini jadi kita"
+    },
+    {
+      "start": 4348,
+      "end": 4355.72,
+      "text": "bisa gabungin warna hijau dengan warna teal ya ini ya hijau hijau juga hijau agak biru apa tuh"
+    },
+    {
+      "start": 4355.72,
+      "end": 4364.44,
+      "text": "istilah ilmiah kita bahas nah Oh dia pakai oke lab ya bisa macem-macem kan tuh tuh ada drop"
+    },
+    {
+      "start": 4364.44,
+      "end": 4370.96,
+      "text": "down nya Oh iya jadi kayak algoritma buat ngegabungin warnanya kayaknya agak sedikit"
+    },
+    {
+      "start": 4370.96,
+      "end": 4376.28,
+      "text": "beda masing-masing itu deh oke oke lch XZ"
+    },
+    {
+      "start": 4376.28,
+      "end": 4383.26,
+      "text": "woi woi berat sama-sama semua demikian"
+    },
+    {
+      "start": 4383.26,
+      "end": 4392.68,
+      "text": "HSL mata gua belenger dia nih salah ini ini ada yang kayak itu kayaknya kayaknya"
+    },
+    {
+      "start": 4392.68,
+      "end": 4402.76,
+      "text": "kan ada kayak apa yang ke gradien terus biasanya ada garis-garisnya gitu kan yang tunjukin area"
+    },
+    {
+      "start": 4402.76,
+      "end": 4411.88,
+      "text": "apa esomon in time from a gradient where gradient soal step go from blue to white"
+    },
+    {
+      "start": 4411.88,
+      "end": 4419.06,
+      "text": "show begin just one step Oh color mix Oh pinter ya maksudnya kan kita udah punya kan mereka"
+    },
+    {
+      "start": 4419.06,
+      "end": 4424.94,
+      "text": "browser udah punya algoritma untuk gradien jadi dia ngambil satu titik di gradien itu"
+    },
+    {
+      "start": 4424.94,
+      "end": 4433.04,
+      "text": "hijau ke biru hijau ke biru gradien kan semuanya hijau-hijau hijau agak biru hijau agak biru"
+    },
+    {
+      "start": 4433.04,
+      "end": 4438.2,
+      "text": "hijau biru banget sampai terakhir biru Nah sekarang nih dengan color mix kita bisa kayak"
+    },
+    {
+      "start": 4438.2,
+      "end": 4439.62,
+      "text": "select satu poin"
+    },
+    {
+      "start": 4439.62,
+      "end": 4442.2,
+      "text": "somewhere antara"
+    },
+    {
+      "start": 4442.2,
+      "end": 4443.3,
+      "text": "hijau ke biru."
+    },
+    {
+      "start": 4444.72,
+      "end": 4446.2,
+      "text": "Ini kayaknya akan"
+    },
+    {
+      "start": 4446.2,
+      "end": 4448.12,
+      "text": "bermanfaat untuk"
+    },
+    {
+      "start": 4448.12,
+      "end": 4449.7,
+      "text": "generate,"
+    },
+    {
+      "start": 4449.96,
+      "end": 4451.54,
+      "text": "nggak tahu ya, koreksi kalau salah."
+    },
+    {
+      "start": 4451.54,
+      "end": 4452.44,
+      "text": "Untuk generate,"
+    },
+    {
+      "start": 4452.88,
+      "end": 4455.46,
+      "text": "bukan, generate gradasi"
+    },
+    {
+      "start": 4455.46,
+      "end": 4457.62,
+      "text": "yang nggak loncat-loncat."
+    },
+    {
+      "start": 4457.8,
+      "end": 4459.46,
+      "text": "Biasanya kan kalau misalkan kita pilih gradasi"
+    },
+    {
+      "start": 4459.46,
+      "end": 4461.58,
+      "text": "merah sama hijau, itu kan"
+    },
+    {
+      "start": 4461.58,
+      "end": 4463.76,
+      "text": "kayak ada perbedaannya terlalu kontras"
+    },
+    {
+      "start": 4463.76,
+      "end": 4464.66,
+      "text": "kan, terlalu jauh."
+    },
+    {
+      "start": 4465.34,
+      "end": 4467.16,
+      "text": "Oh, terus gradienya hijau-hijauan ya?"
+    },
+    {
+      "start": 4467.16,
+      "end": 4474.3,
+      "text": "kalau ini jadi kayak bisa dipilih di custom Iya kayaknya itu ya bisa dipakai untuk itu salah satu"
+    },
+    {
+      "start": 4474.3,
+      "end": 4479.22,
+      "text": "isinya kali ya untuk desain sistem juga bisa banget kan kayak misalnya kalau detail win nih"
+    },
+    {
+      "start": 4479.22,
+      "end": 4489.06,
+      "text": "kita kan ada blue-100 gitu blue-200 itu kan milih warnanya kalau harus manual capek juga kan kita"
+    },
+    {
+      "start": 4489.06,
+      "end": 4496.74,
+      "text": "milih biru tua sampai biru agak muda biru sedang sampai biru muda ya kalau milih manual capek kalau"
+    },
+    {
+      "start": 4496.74,
+      "end": 4508.08,
+      "text": "kan bisa di tapi variabel bisa dimasukin situ ya Nah bisa masih bisa relatif color syntax berikutnya"
+    },
+    {
+      "start": 4508.08,
+      "end": 4522.98,
+      "text": "ya RSC RCS RCS RCS RCS RCS bisa dipakai RSC"
+    },
+    {
+      "start": 4522.98,
+      "end": 4534.14,
+      "text": "komplementari metode to color mix for creating color varian"
+    },
+    {
+      "start": 4534.14,
+      "end": 4539.96,
+      "text": "slightly more powerful than color mix but also a different strategy for working with color"
+    },
+    {
+      "start": 4541.76,
+      "end": 4550.82,
+      "text": "color mix may mix in the color white to lighten a color where RCS give precise access to lightness"
+    },
+    {
+      "start": 4550.82,
+      "end": 4557.42,
+      "text": "channel and the ability to use car on the channel to reduce increase lightness"
+    },
+    {
+      "start": 4557.42,
+      "end": 4564.8,
+      "text": "programmatic Lee jadi bisa memilih cuma eh apa lightness atau darkness nya doang"
+    },
+    {
+      "start": 4564.8,
+      "end": 4571.88,
+      "text": "ya warnanya tetap itu cuma dibikin lebih gelap dibikin lebih terang bisa pakai"
+    },
+    {
+      "start": 4571.88,
+      "end": 4578.12,
+      "text": "brightness ya bisa ngatur-ngatur brightness nya ya berarti ya oke kok pakai"
+    },
+    {
+      "start": 4578.12,
+      "end": 4589.22,
+      "text": "ini warna-warna yang berbeda di play menopong analog triadik triadik berarti ini ada warna"
+    },
+    {
+      "start": 4589.22,
+      "end": 4598.7,
+      "text": "yang disesuaikan dicari try-outnya kan segitiga kan merah sama itu bukan jenjan itu custom bukan"
+    },
+    {
+      "start": 4598.7,
+      "end": 4600.7,
+      "text": "custom kayaknya"
+    },
+    {
+      "start": 4600.7,
+      "end": 4602.7,
+      "text": "opacity"
+    },
+    {
+      "start": 4602.7,
+      "end": 4604.7,
+      "text": "desaturate oke"
+    },
+    {
+      "start": 4604.7,
+      "end": 4606.7,
+      "text": "enggak loh beneran apa"
+    },
+    {
+      "start": 4606.7,
+      "end": 4608.7,
+      "text": "kalau di CSS nya"
+    },
+    {
+      "start": 4608.7,
+      "end": 4610.7,
+      "text": "coba deh nah"
+    },
+    {
+      "start": 4610.7,
+      "end": 4612.7,
+      "text": "warnanya cuma di define"
+    },
+    {
+      "start": 4612.7,
+      "end": 4614.7,
+      "text": "color 1 2 3"
+    },
+    {
+      "start": 4614.7,
+      "end": 4626.272,
+      "text": "iya 1 2 3 blue black sama grey 555 kan grey Nah ini yang monochrome analog"
+    },
+    {
+      "start": 4626.552,
+      "end": 4627.91202,
+      "text": "triad, itu semua di"
+    },
+    {
+      "start": 4627.91202,
+      "end": 4629.91202,
+      "text": "kalkulasinya pakai"
+    },
+    {
+      "start": 4629.91202,
+      "end": 4631.772,
+      "text": "pakai apa?"
+    },
+    {
+      "start": 4632.19202,
+      "end": 4633.252,
+      "text": "Itu sih, SS color."
+    },
+    {
+      "start": 4633.992,
+      "end": 4634.85202,
+      "text": "Gila, ini mah udah"
+    },
+    {
+      "start": 4634.85202,
+      "end": 4637.01202,
+      "text": "menganggis banget ini."
+    },
+    {
+      "start": 4638.2119999999995,
+      "end": 4638.612,
+      "text": "L."
+    },
+    {
+      "start": 4638.612,
+      "end": 4639.97202,
+      "text": "Ini udah function."
+    },
+    {
+      "start": 4640.19202,
+      "end": 4641.552,
+      "text": "L, C,"
+    },
+    {
+      "start": 4642.532,
+      "end": 4643.372,
+      "text": "calculate."
+    },
+    {
+      "start": 4643.372,
+      "end": 4645.152,
+      "text": "Oh itu inherit kayaknya deh"
+    },
+    {
+      "start": 4645.152,
+      "end": 4647.992,
+      "text": "Kalau nggak salah itu inherit lightness aslinya"
+    },
+    {
+      "start": 4647.992,
+      "end": 4648.992,
+      "text": "Jadi kita nggak harus"
+    },
+    {
+      "start": 4648.992,
+      "end": 4651.612,
+      "text": "Men-specify semua satu-per-satu"
+    },
+    {
+      "start": 4651.612,
+      "end": 4653.612,
+      "text": "Cuma yang mau kita ganti aja"
+    },
+    {
+      "start": 4653.612,
+      "end": 4655.97202,
+      "text": "Yang mau kita rubah"
+    },
+    {
+      "start": 4655.97202,
+      "end": 4657.91202,
+      "text": "Oke LCH kan L"
+    },
+    {
+      "start": 4657.91202,
+      "end": 4659.79202,
+      "text": "Oke L"
+    },
+    {
+      "start": 4659.79202,
+      "end": 4661.052,
+      "text": "LCH"
+    },
+    {
+      "start": 4661.052,
+      "end": 4662.23203,
+      "text": "Lnya inherit"
+    },
+    {
+      "start": 4662.23203,
+      "end": 4664.592,
+      "text": "Hanya yang berubah ya berarti ya"
+    },
+    {
+      "start": 4664.592,
+      "end": 4665.6720000000005,
+      "text": "Hanya yang berubah"
+    },
+    {
+      "start": 4665.6720000000005,
+      "end": 4670.032,
+      "text": "Nah ini HSL"
+    },
+    {
+      "start": 4670.032,
+      "end": 4671.85202,
+      "text": "Lain lagi"
+    },
+    {
+      "start": 4671.85202,
+      "end": 4681.752,
+      "text": "dan lain-lain Oke pusing lanjut pusing belum udah pusing kita berhenti dulu kita lanjut lagi minggu"
+    },
+    {
+      "start": 4681.752,
+      "end": 4690.932,
+      "text": "depan ya lumayan ya ini baru setengah nih banyak-banyak respon banyak jangan nanti malah"
+    },
+    {
+      "start": 4690.932,
+      "end": 4698.252,
+      "text": "hentan ya kita udah bahas tiga seksien kita bahas tiga seksien lagi minggu depan ini bisa"
+    },
+    {
+      "start": 4698.252,
+      "end": 4701.432,
+      "text": "asyik temen gue"
+    },
+    {
+      "start": 4701.432,
+      "end": 4714.69202,
+      "text": "ada nanti ini 5 tahun dari sekarang 10 tahun dari sekarang ke telwin jadi obsolete ini kan"
+    },
+    {
+      "start": 4714.69202,
+      "end": 4721.112,
+      "text": "sebenarnya apa ya bukan CSS sih tapi buat front-end 10 tak ya mungkin tujuh tahun lalu"
+    },
+    {
+      "start": 4721.112,
+      "end": 4733.112,
+      "text": "jQuery kan perannya kayak tailwind ya, maksudnya dulu interaksi elemen-elemen itu ribet jadi dipermudah pakai jQuery."
+    },
+    {
+      "start": 4733.112,
+      "end": 4743.112,
+      "text": "Terus lama-lama satu persatu mulai gampang dibikin pakai web platform, jQuerynya makin lama makin off-solid lah, kita udah gak perlu lagi."
+    },
+    {
+      "start": 4743.112,
+      "end": 4748.51202,
+      "text": "lagi apa nih mungkin lima tahun 10 tahun lagi CSS nya udah canggih banget kita udah nggak perlu"
+    },
+    {
+      "start": 4748.51202,
+      "end": 4758.1720000000005,
+      "text": "telwin lagi Iya tapi menarikkan siapa Adam argel nya sendiri dia bikin bikin Oh ya mungkin library"
+    },
+    {
+      "start": 4758.1720000000005,
+      "end": 4770.1720000000005,
+      "text": "yang apa ya Open ya ada propernya lah Open props.com nggak salah ya Nah ini ala-ala basis"
+    },
+    {
+      "start": 4770.1720000000005,
+      "end": 4779.77203,
+      "text": "CSS variable ya ala-ala telwin tapi berbasis CSS variable dan ini sama dengan berbeda"
+    },
+    {
+      "start": 4779.77203,
+      "end": 4788.47202,
+      "text": "telwini bisa juga telwin tapi custom-custom variable gitu kayak kita ngedefine sendiri"
+    },
+    {
+      "start": 4788.47202,
+      "end": 4795.6720000000005,
+      "text": "jadi kan kalau kalau di Tailwind kan kita pakai kelas kan kita ngisi kelas"
+    },
+    {
+      "start": 4795.6720000000005,
+      "end": 4803.292,
+      "text": "background color border dan lain-lain kan kalau di sini"
+    },
+    {
+      "start": 4803.292,
+      "end": 4822.792,
+      "text": "tapi di CSS file-nya yang kita ubah-ubah cuman pakai variabel-variabelnya udah siapin Oh ya"
+    },
+    {
+      "start": 4822.792,
+      "end": 4828.492,
+      "text": "kalau variabelnya sih ngerti sih maksudnya kita pakai variabelnya di sini tapi kita tetap"
+    },
+    {
+      "start": 4828.492,
+      "end": 4836.092,
+      "text": "kita bisa bikin themes jadi pake themesnya jadi kayak kita sudah bisa define per design patternnya kita"
+    },
+    {
+      "start": 4836.092,
+      "end": 4845.89203,
+      "text": "sudah dibikin tuh per komponen jadi komponennya sudah ada kita hanya tinggal define CSS variable nya"
+    },
+    {
+      "start": 4845.89203,
+      "end": 4852.69202,
+      "text": "dan CSS variable nya tinggal bisa dibuat jadi kayak theme 1 theme 2 theme 3 dan sedangkan sama"
+    },
+    {
+      "start": 4852.69202,
+      "end": 4860.192,
+      "text": "Sebenarnya Open Props ini bisa digunakan untuk membuat library seperti Tailwind."
+    },
+    {
+      "start": 4860.192,
+      "end": 4864.192,
+      "text": "Jadi kayak primitifnya ya?"
+    },
+    {
+      "start": 4864.192,
+      "end": 4880.192,
+      "text": "Iya, kalau dengar penjelasannya si Abang Adam Arjal, dia bilang ini bukan kompetitornya Tailwind, justru ini bisa dibikin untuk bikin Tailwind."
+    },
+    {
+      "start": 4880.192,
+      "end": 4885.392,
+      "text": "atau kalau suatu hari"
+    },
+    {
+      "start": 4885.392,
+      "end": 4903.004,
+      "text": "Tewin dah obsolete ya kita pakai basisnya pakai pattern yang kayak ginilah ini lebih murni hanya saja yang si openprox yang kita install adalah variable yang udah"
+    },
+    {
+      "start": 4903.004,
+      "end": 4905.004,
+      "text": "build-in props nya kan build-in variable nya"
+    },
+    {
+      "start": 4905.004,
+      "end": 4910.004,
+      "text": "spek ratio juga ada"
+    },
+    {
+      "start": 4910.004,
+      "end": 4916.544,
+      "text": "bisa juga begini kalau misalnya kalau digabung ya saya pernah punya ide pakai open props itu bisa"
+    },
+    {
+      "start": 4916.544,
+      "end": 4924.64404,
+      "text": "digabung coba buka Mas Riza kayak patternnya komponen dari webdev untuk best practice jadi"
+    },
+    {
+      "start": 4924.64404,
+      "end": 4931.40405,
+      "text": "si webdev ini juga sudah memberikan best practice untuk animation komponen segala macam jadi"
+    },
+    {
+      "start": 4931.40405,
+      "end": 4934.90405,
+      "text": "HTML structure nya sudah ada nih, contohnya carousel ya buka carousel."
+    },
+    {
+      "start": 4934.90405,
+      "end": 4936.40405,
+      "text": "Carousel."
+    },
+    {
+      "start": 4936.40405,
+      "end": 4940.40405,
+      "text": "Ya atau apapun lah, sama aja sih carouselnya jadi."
+    },
+    {
+      "start": 4940.40405,
+      "end": 4949.40405,
+      "text": "Kan si carousel ini sudah ada HTML, maksudnya secara best practice bentuk HTML structure nya gimana gitu."
+    },
+    {
+      "start": 4949.40405,
+      "end": 4960.40405,
+      "text": "Nah dari, kita bisa bikin komponen-komponen ini di design pattern nya kita atau di kita punya biasanya project kita,"
+    },
+    {
+      "start": 4960.40405,
+      "end": 4963.40405,
+      "text": "kita udah define, oke carousel begini, dialog begini"
+    },
+    {
+      "start": 4963.40405,
+      "end": 4971.40405,
+      "text": "setting atau form, button paling utama tuh button, text segala macam sudah ada patternnya"
+    },
+    {
+      "start": 4971.40405,
+      "end": 4976.40405,
+      "text": "dan pake open props untuk ngedefine theme 1, theme 2, theme 3, theme 4, jadi"
+    },
+    {
+      "start": 4976.40405,
+      "end": 4981.40405,
+      "text": "itu yang diubah variablenya kan? kayak the override variablenya"
+    },
+    {
+      "start": 4981.40405,
+      "end": 4987.40405,
+      "text": "jadi markupnya kan ya, markupnya tetep sama, masa kita ganti theme ganti markup kan? repot"
+    },
+    {
+      "start": 4987.40405,
+      "end": 4996.16406,
+      "text": "ya betul jadi itu dan berbantu sekali untuk menghandle project yang skalanya enterprise"
+    },
+    {
+      "start": 4996.16406,
+      "end": 5003.804,
+      "text": "karena ininya banyak komponennya banyak Oke persiapkan banyak banget ya ada"
+    },
+    {
+      "start": 5003.804,
+      "end": 5012.724,
+      "text": "ini helper kantong is-is apa shadow itu gimana fade-in itu gimana ya animasi segala ada size-nya"
+    },
+    {
+      "start": 5012.724,
+      "end": 5018.064,
+      "text": "jadi kita nggak perlu mikirin Oh saya mau size berapa gitu pakai aja yang ada di sini ini cuman"
+    },
+    {
+      "start": 5018.064,
+      "end": 5029.044,
+      "text": "kayak preset semacam preset gitu makin kalau mau yang kompetitornya si telwin Uno kan Oh Uno CSS"
+    },
+    {
+      "start": 5029.044,
+      "end": 5037.724,
+      "text": "ya Iya buatannya sih babang siapa namanya bukan bukan bukan Bauna bukan bukan beliau nggak bikin"
+    },
+    {
+      "start": 5037.724,
+      "end": 5039.724,
+      "text": "Oh, Anto di Fu."
+    },
+    {
+      "start": 5039.724,
+      "end": 5044.724,
+      "text": "Oh, Anto di Fu. Manusia sejuta project open source ya."
+    },
+    {
+      "start": 5044.724,
+      "end": 5054.724,
+      "text": "Iya, kalau ini ya, ini bisa dibilang head to head lah sama si Terwin."
+    },
+    {
+      "start": 5054.724,
+      "end": 5057.724,
+      "text": "Ini kan baru kita ukin."
+    },
+    {
+      "start": 5057.724,
+      "end": 5059.724,
+      "text": "Saya programmer."
+    },
+    {
+      "start": 5059.724,
+      "end": 5061.724,
+      "text": "Wah, saya juga programmer."
+    },
+    {
+      "start": 5061.724,
+      "end": 5066.724,
+      "text": "Wah, bukan. Twitternya undefined."
+    },
+    {
+      "start": 5066.724,
+      "end": 5068.3240399999995,
+      "text": "Coba, contohnya mana?"
+    },
+    {
+      "start": 5068.88403,
+      "end": 5069.88403,
+      "text": "Contoh."
+    },
+    {
+      "start": 5071.14404,
+      "end": 5072.28406,
+      "text": "Why Uno?"
+    },
+    {
+      "start": 5072.8240399999995,
+      "end": 5073.224,
+      "text": "Why?"
+    },
+    {
+      "start": 5075.224,
+      "end": 5076.124,
+      "text": "Getting Started."
+    },
+    {
+      "start": 5079.20404,
+      "end": 5080.14404,
+      "text": "Iya, sama."
+    },
+    {
+      "start": 5080.70404,
+      "end": 5081.624,
+      "text": "Sama kan?"
+    },
+    {
+      "start": 5082.20404,
+      "end": 5083.76404,
+      "text": "Sama kayak Tailwind."
+    },
+    {
+      "start": 5083.90405,
+      "end": 5090.4640500000005,
+      "text": "Tailwind itu kan sebetulnya mengimplementasi filosofi atau pendekatan atau Mix CSS kan?"
+    },
+    {
+      "start": 5090.4640500000005,
+      "end": 5094.3240399999995,
+      "text": "Punya satu property, satu class name."
+    },
+    {
+      "start": 5096.724,
+      "end": 5102.16406,
+      "text": "Oh ya ada yang baru nih StyleX ya StyleX nya Meta ya"
+    },
+    {
+      "start": 5102.16406,
+      "end": 5103.76404,
+      "text": "Meta Meta"
+    },
+    {
+      "start": 5103.76404,
+      "end": 5108.40405,
+      "text": "Facebook dipakai juga buat base StyleX apa yang dipakai buat"
+    },
+    {
+      "start": 5108.40405,
+      "end": 5109.364,
+      "text": "Open Props"
+    },
+    {
+      "start": 5109.364,
+      "end": 5110.40405,
+      "text": "Open Props ya"
+    },
+    {
+      "start": 5110.40405,
+      "end": 5111.52405,
+      "text": "Oh keren juga"
+    },
+    {
+      "start": 5111.52405,
+      "end": 5115.364,
+      "text": "mungkin tadi soalnya pas kita lagi bahas Open Props"
+    },
+    {
+      "start": 5115.364,
+      "end": 5117.124,
+      "text": "ya benar-benar"
+    },
+    {
+      "start": 5117.124,
+      "end": 5120.40405,
+      "text": "service aja StyleX Open Props"
+    },
+    {
+      "start": 5120.40405,
+      "end": 5122.3240399999995,
+      "text": "StyleX JS ini ya"
+    },
+    {
+      "start": 5122.3240399999995,
+      "end": 5124.564,
+      "text": "benar ya StyleX JS ya"
+    },
+    {
+      "start": 5126.724,
+      "end": 5139.064,
+      "text": "Oh iya benar. Kita mulai contohnya di mana? Learn. Styles. Using style."
+    },
+    {
+      "start": 5140.804,
+      "end": 5145.604,
+      "text": "Oh sangat react sekali ya. Defining style."
+    },
+    {
+      "start": 5146.66406,
+      "end": 5149.52405,
+      "text": "Emotion, self-components banget lah."
+    },
+    {
+      "start": 5149.52405,
+      "end": 5169.256,
+      "text": "webnya Oke kapan yuk kita bikin episode eh betul CSS framework M bikin mata yang sama cuma pakai CSS framework A B C Terus lomba siapa yang menang Gimana ngomong aja"
+    },
+    {
+      "start": 5169.256,
+      "end": 5171.256,
+      "text": "Gimana ngitung?"
+    },
+    {
+      "start": 5171.256,
+      "end": 5174.256,
+      "text": "Demo doang, cuma lihat aja bentuknya kayak gimana."
+    },
+    {
+      "start": 5174.256,
+      "end": 5180.256,
+      "text": "Eh mana ini nya, dependensinya? Wah banyak sekali. Ada nggak open props? Nggak ada."
+    },
+    {
+      "start": 5180.256,
+      "end": 5181.256,
+      "text": "Nggak ada tuh."
+    },
+    {
+      "start": 5181.256,
+      "end": 5183.256,
+      "text": "Open? Nggak ada."
+    },
+    {
+      "start": 5183.256,
+      "end": 5184.256,
+      "text": "Props?"
+    },
+    {
+      "start": 5184.256,
+      "end": 5186.136,
+      "text": "Ini jadi base."
+    },
+    {
+      "start": 5187.336,
+      "end": 5188.1759600000005,
+      "text": "Infonya dari mana?"
+    },
+    {
+      "start": 5191.316,
+      "end": 5193.216,
+      "text": "Wah, kalau Damar dia memang"
+    },
+    {
+      "start": 5193.216,
+      "end": 5194.376,
+      "text": "penggemarnya"
+    },
+    {
+      "start": 5194.376,
+      "end": 5196.876,
+      "text": "view ya"
+    },
+    {
+      "start": 5196.876,
+      "end": 5198.05597,
+      "text": "dan teman-teman ya."
+    },
+    {
+      "start": 5198.636,
+      "end": 5201.096,
+      "text": "Nggak perlu break cut. Misalkan H88VH"
+    },
+    {
+      "start": 5201.096,
+      "end": 5201.576,
+      "text": "menjadi"
+    },
+    {
+      "start": 5201.576,
+      "end": 5204.316,
+      "text": "oh kalau di"
+    },
+    {
+      "start": 5204.316,
+      "end": 5205.41595,
+      "text": "H-"
+    },
+    {
+      "start": 5205.41595,
+      "end": 5208.636,
+      "text": "kurung ya."
+    },
+    {
+      "start": 5208.636,
+      "end": 5209.376,
+      "text": "Pakai kurung ya."
+    },
+    {
+      "start": 5209.85596,
+      "end": 5212.436,
+      "text": "Itu tujuannya kan meng-enforce"
+    },
+    {
+      "start": 5212.436,
+      "end": 5222.23596,
+      "text": "token namanya di luar Tailwind pun ada kan kayak desain token jadi tokennya itu misalnya 0,25 REM 0,5"
+    },
+    {
+      "start": 5222.23596,
+      "end": 5228.6759600000005,
+      "text": "jadi biar nggak banyak arbitrary value tiba-tiba disini marginnya 14 pixel gitu kan sebelum kan"
+    },
+    {
+      "start": 5228.6759600000005,
+      "end": 5238.05597,
+      "text": "jadi kayak kita udah mendefinisikan itunya kayak value-value misalnya huruf cuma bisa 14, 16, 18, 20, bla bla bla"
+    },
+    {
+      "start": 5238.05597,
+      "end": 5243.61597,
+      "text": "Kalau di luar itu, escape hatch-nya Tailwind yaitu pakai bracket."
+    },
+    {
+      "start": 5244.956,
+      "end": 5253.316,
+      "text": "Ya, pertanyaan umumnya adalah UNOS CSS, apakah teams-nya sudah banyak?"
+    },
+    {
+      "start": 5253.55597,
+      "end": 5256.716,
+      "text": "Apa kayak UI library-nya?"
+    },
+    {
+      "start": 5257.29596,
+      "end": 5259.756,
+      "text": "Seperti Flowbyte atau Dicey UI?"
+    },
+    {
+      "start": 5260.1759600000005,
+      "end": 5262.85596,
+      "text": "Kalau Tailwind enaknya kan, ya Tailwind UI."
+    },
+    {
+      "start": 5262.85596,
+      "end": 5267.536,
+      "text": "Kalau punya duit ya, yang berbayar yang gratis itu udah isi."
+    },
+    {
+      "start": 5267.536,
+      "end": 5270.536,
+      "text": "yang gratis ada banyak, ada Flowbyte, ada DAISY, ada macam-macam"
+    },
+    {
+      "start": 5270.536,
+      "end": 5277.036,
+      "text": "dan masing-masing juga kayaknya itu ya freemium ya bukan gratis bener-bener gratis ya"
+    },
+    {
+      "start": 5277.036,
+      "end": 5281.536,
+      "text": "ada premium themes-nya juga"
+    },
+    {
+      "start": 5281.536,
+      "end": 5283.536,
+      "text": "DAISY gratis beneran?"
+    },
+    {
+      "start": 5283.536,
+      "end": 5286.536,
+      "text": "UNO kayaknya belum sebesar itu ya?"
+    },
+    {
+      "start": 5286.536,
+      "end": 5288.536,
+      "text": "DAISY gratis"
+    },
+    {
+      "start": 5288.536,
+      "end": 5291.536,
+      "text": "DAISY sekarang kayaknya dia jualan template"
+    },
+    {
+      "start": 5291.536,
+      "end": 5295.536,
+      "text": "ada, UNO tuh ada theme"
+    },
+    {
+      "start": 5295.536,
+      "end": 5303.916,
+      "text": "ada ya tapi mungkin sedikit kan belum sebanyak selwin minimal ada satu atau dua gitu buat apa"
+    },
+    {
+      "start": 5303.916,
+      "end": 5309.336,
+      "text": "buat kita memudahkan kita untuk menggunakan di daripada kita gunain langsung gitu ya"
+    },
+    {
+      "start": 5310.516,
+      "end": 5317.156,
+      "text": "Hai sudah kalau teori kan Saking banyaknya kita bisa comot sana sini kan atau kalau lagi buru-buru"
+    },
+    {
+      "start": 5317.156,
+      "end": 5323.016,
+      "text": "atau misalnya kita nunjukin nih ada butuh bikin prototipe kilat kita sama orang produk gitu kayak"
+    },
+    {
+      "start": 5323.016,
+      "end": 5329.436,
+      "text": "ini ya kayak gini ininya ganti jadi gini Oh ya langsung comot langsung ya ya ya"
+    },
+    {
+      "start": 5329.436,
+      "end": 5334.396,
+      "text": "masih enggak pakai proses UI design yang proper ya Mas saya kalau buat prototipe"
+    },
+    {
+      "start": 5334.396,
+      "end": 5343.516,
+      "text": "kan belum Mas saya belum sampai situ misalnya benar-benar sana sini kita udah"
+    },
+    {
+      "start": 5343.516,
+      "end": 5352.516,
+      "text": "menarik dulu ini kita otaknya udah kayak curly bracket CSS kan udah sudah mesin ini masih mikirin"
+    },
+    {
+      "start": 5352.516,
+      "end": 5360.376,
+      "text": "layer itu apa hahaha habis kok jangan sampai ke bawah mimpi deh ntar malam mimpi baca-baca soal"
+    },
+    {
+      "start": 5360.376,
+      "end": 5367.816,
+      "text": "layer layer bikin demo dulu tapi bikin demonya ya simple doang cuma ini harusnya menang tapi"
+    },
+    {
+      "start": 5367.816,
+      "end": 5370.256,
+      "text": "karena ada layer ini jadi gak menang"
+    },
+    {
+      "start": 5370.256,
+      "end": 5371.97595,
+      "text": "cuma jadi penasaran"
+    },
+    {
+      "start": 5371.97595,
+      "end": 5373.5560000000005,
+      "text": "mau revisit lagi"
+    },
+    {
+      "start": 5373.5560000000005,
+      "end": 5376.096,
+      "text": "oke deh"
+    },
+    {
+      "start": 5376.096,
+      "end": 5378.596,
+      "text": "kalau begitu kita udahan dulu ya"
+    },
+    {
+      "start": 5378.596,
+      "end": 5380.296,
+      "text": "kita istirahat dulu ya capek ya"
+    },
+    {
+      "start": 5380.296,
+      "end": 5382.196,
+      "text": "kita ketemu lagi minggu depan"
+    },
+    {
+      "start": 5382.196,
+      "end": 5384.5759,
+      "text": "untuk bahas mungkin kita akan"
+    },
+    {
+      "start": 5384.5759,
+      "end": 5386.096,
+      "text": "bahas kayaknya lanjut"
+    },
+    {
+      "start": 5386.096,
+      "end": 5388.416,
+      "text": "yang lain dulu biar gak pusing"
+    },
+    {
+      "start": 5388.416,
+      "end": 5390.256,
+      "text": "yang lain dulu oke boleh"
+    },
+    {
+      "start": 5390.256,
+      "end": 5392.476000000001,
+      "text": "nanti kita lihat saja"
+    },
+    {
+      "start": 5392.476000000001,
+      "end": 5394.296,
+      "text": "nanti kita bahas berikutnya"
+    },
+    {
+      "start": 5394.916,
+      "end": 5396.416,
+      "text": "di bagian"
+    },
+    {
+      "start": 5396.416,
+      "end": 5404.376,
+      "text": "responsif interaction dan komponen mungkin di beberapa ya di seling-seling lah biar gak CSS terus nanti jadi ngobrolin CSS"
+    },
+    {
+      "start": 5404.376,
+      "end": 5414.396,
+      "text": "betul karena kita juga kompetensinya bukan di CSS ya sudah bisa kalian nilai sendiri bagaimana skill CSS kita"
+    },
+    {
+      "start": 5414.396,
+      "end": 5421.656,
+      "text": "yang paling jago kayaknya Eka doang disini ya mencari pembenaran maaf saya anak back end gitu ya"
+    },
+    {
+      "start": 5426.416,
+      "end": 5428.416,
+      "text": "Kalau begitu kita"
+    },
+    {
+      "start": 5429.896,
+      "end": 5434.976000000001,
+      "text": "Udahan dulu terima kasih buat teman-teman semua seperti biasa diskusi saran dan topik"
+    },
+    {
+      "start": 5435,
+      "end": 5440.7,
+      "text": "bisa kirim ke kesana.in slash ngobrolin di githubnya ngobrolin web."
+    },
+    {
+      "start": 5441.06,
+      "end": 5445.26,
+      "text": "Kalau mau ikut kontribusi belum bisa karena kita belum bikin proyeknya."
+    },
+    {
+      "start": 5446.04,
+      "end": 5449.16,
+      "text": "Kita mau bikin website-nya tapi belum jadi-jadi."
+    },
+    {
+      "start": 5449.2,
+      "end": 5450.02,
+      "text": "Tapi masih wacana."
+    },
+    {
+      "start": 5450.7,
+      "end": 5456.18,
+      "text": "Masih wacana. Mudah-mudahan nanti kita bikin terus teman-teman juga bisa kontribusi"
+    },
+    {
+      "start": 5456.18,
+      "end": 5460.24,
+      "text": "untuk sekaligus cobain, praktekin apa yang kita obrolin."
+    },
+    {
+      "start": 5460.42,
+      "end": 5461.64,
+      "text": "Jangan cuma ngobrol doang ya."
+    },
+    {
+      "start": 5461.64,
+      "end": 5463.52,
+      "text": "Oke, kalau gitu"
+    },
+    {
+      "start": 5463.52,
+      "end": 5466.24,
+      "text": "Udahan dulu untuk malam ini, terima kasih banyak"
+    },
+    {
+      "start": 5466.24,
+      "end": 5468.32,
+      "text": "Sampai jumpa minggu depan"
+    },
+    {
+      "start": 5468.32,
+      "end": 5468.96,
+      "text": "Bye-bye"
+    }
+  ],
+  "fullText": "selamat malam selamat malam bertemu lagi bersama kita ber oh enggak bertiga ya masih belum belum belum belum on the way katanya on the way on the way ilang Iya Iya bagi teman-teman yang menunggu Baikkan baikannya masih on the way sabar ya hahaha on the way dari rumah gitu duluan aja gitu terakhir duluan Oke ya bertemu lagi bersama kita berdua sementara ini nanti Mudah-mudahan Eka bisa nyusul kalau tidak ada halangan. Malam hari ini kita, nah kan baru diomongin tuh. Udah muncul dia. Kita tampilin dulu ya. Cepat sekali on the way-nya. Akhirnya you made it. Pasti habis selesai meeting atau habis lari-lari nih? Habis lari-lari. Dua-duanya. Meeting, lari-lari. Meeting sambil lari-lari. Pakai treadmill. Oke pembukaan lagi kita jadi hari selesai malam waktunya waktunya ngobrolin web waktumen makanya berarti mungkin gue harus lap tiap episode jangan dong ya jadi malam hari ini kita akan membahas tentang review CSS di 2023 ya ada sebuah artikel yang sangat bagus dari tim Google DevRel ya di bagian web Chrome ya Google Chrome DevRel ya Abramus ada Bang Adam Argyle dan ada siapa satu lagi Una Una. Maksudnya tadi saya sempat kepikiran, ini kenapa pertama kan linknya dari Mas Riza nih dapatnya. Terus saya kepikiran, oh iya iya kenapa saya tuh pengen banget bahas ini karena ilmu CSS saya tuh cetek banget dan banyak ketinggalan. Betul. Nah, jadi pengen tahu sekalian belajar nih. yang bisa saya cuma satu ini belumnya pembahasan sama sekali biasanya link dan kan ini belum ya ini masih kosong soalnya salah satu yang di-highlight ada fitur transition yang sering bahas ya Jadi itu juga menarik Halo Ari selamat Halo Halo ya Jadi malam hari ini kita akan coba mereview selama 2023 itu fitur out CSS apa aja sih yang muncul dan yang menarik juga ya nah cuma ngomong-ngomong apa kalian tahu-tahu apa aja apa yang kalian tahu apa aja Oh ini nanya ke penonton nih ya penonton kalian juga kalau Eka sama Mas ada yang tahu sebelum nyontek view transition sama nesting nesting nesting juga ya has ya has has kayaknya itu yang paling di highlight ya salah satu yang paling di highlight ya soalnya kayaknya karena stable iya karena keren banget dan Firefox sudah sudah mensupport nah itu sebenarnya yang tahun-tahun itu di akhir tahun kejutan rakyatnya ada dari senterkelas Desember itu kuingat antara tanggal 9-9 Desember deh dia nice Nah kalau gue sih udah tahu hampir semua kenapa alasannya karena jadi pertama kali apa speaking apa jadi pembicara di event io extended yang in person sebagai jadi Itu topiknya kayaknya 2 tahun lalu deh topiknya itu topiknya fitur CSS yang di present itu itunya talknya Mas Adam Ergel itu loh yang di IO Extended nah cuma itu kan sebagian besar waktu itu masih ya Chrome only cuma yang di present emang yang browser lain vendor lain udah kayak ngasih approval lah jadi emang udah besar kan sebakal di approve jadi kelihatannya sebagian besar yang disini sih udah pernah ketemu lah Oh udah pernah semua ya kepake-kepake has kepake banget hasware nanti deh pas lagi bahas bakal ada use case nya dimana gitu ya sama ini penasaran sebelumnya web itu tahun-tahun ini kan di awal 2024 ada kayak rubrik rubrik fitur ada konten prep yang kebahas panjang 2023 ada aja tahun lalu ada enggak sih tahun-tahun lalu kayaknya pertama kali ya Hai apa gara-gara interop 2023 juga ngaruh gak ke situ mungkin Iya kan enggak harus ada interop juga Iya sih mungkin gara-gara itu ada salah satu komiknya coba ya cc surab 2022 kayaknya enggak ada deh ada kayaknya mulai ada yang ada itu cuma setiap I o Google I o emang ada Biasanya ada satu talk besar yang meng-cover semua fitur UI atau front-end related sih cuma CSS web yang kayak gini presentasinya kayaknya baru tahun ini seru juga kan biasanya ada itu kan kalau yang almanakan ya biasanya kalau almanac review review tahun lagi eh udah hanya statistik ya eh sorry almanac ya almanac user statistik semua tentang web tapi ya emang kan masing-masing bidang ada yang di highlight kalau CSS tren yang menarik apa kecenderungannya user kayak gimana ya bukan tentang fiturnya sendiri berguna ya buat kita yang jarang update ya bukan jarang update buat kita yang punya kerjaan yang berbeda yang lain tapi mau ngikutin ini semua tuh kagak bisa gitu Iya iya iya biasanya cuma nyuruh orang frontend doang ya berarti alasannya ya ya ya ini topik-topik besarnya ada arsitektural foundation ada type tipografi ada color harus lumayan banyak ya ya banyak banget kita pernah bahas banyak nih waktu bahas warna dulu ada responsif design disini termasuk konten masuk gak masuk ya ada yang masuk ya apa stablenya di 2023 mungkin vendor browser lain itu yang itu yang bikin kita ngobrol pertama kali soalnya ya container query dan itu 2022 ya 2022 interaction termasuk view transition ada komponen ya ada itu ya Oke kita langsung bahas kali ya seru-seru nih nah ini ini kesimpulannya pertama langsung atas-atas dulu deh itu apa catetan tentang nah ini interop sama baseline baseline itu project kerjasama antar vendor browser dan pihak-pihak lainnya jadi kayak bikin apa ya cara yang gampang untuk tahu fitur ini udah aman dipakai di semua browser atau belum nah semua browser itu ya cuma major browser only ya jadi intinya Chromium, WebKit atau Safari Sama Firefox Itu di dua Versi major terakhir Nah kadang kan ya itu tadi Kayak misalnya kalian yang sehari-hari Nggak ngerjain frontend Sebetulnya tahu misalnya ada fitur CSS Pseudo selector has atau where Tahu sih tahu, cuma kayaknya Cuma pernah beces kilas Terus mikir, ah paling Chrome doang nih jadikan gak pernah pakai kan gak pernah adopsi developer banyak yang enggak pernah adopsi fitur baru karena mikir ah paling masih belum belum di support browser lain nah jadi terus ya kalau ngecek can I use bisa cuma kan nggak semua orang mau dan sempat jadi ada inisiatif baseline batch nah itu batchnya ada centang kalau centang udah aman bisa dipakai kalau apa sih tuh eksil masih partial kontrasi jelek ya Nah itu berarti belum semua tapi ininya bagus-bagus ya grafik Oh lucu banget NN bisanya keren Oke kita masuk ke foundational arsitektur foundation architectural apa itu core CSS language and capabilities conditional berarti mendasar ya jadi sebelumnya kita nulis CSS nya kayak ya udah important important important aja atau ditaruh di bawahnya pokoknya sekarang ternyata ada cara baru untuk biasanya developer yang bukan frontend bahkan developer yang frontend juga pada males nulis CSS kan karena itu kan karena maksudnya apa spesifik spesifikasi lah terus takut ngubah satu kelas takut berubah semua atau ada hal yang nggak pengen diubah, ikut berubah. Nah terus jadi suka banyak hack-hack atau workaround yang aneh-aneh. Nah ini semoga bisa. Menurut saya architectural affirmation ini maksudnya kapabilitas CSS yang bertambah. Contohnya, ingat nggak dulu kalau sebelumnya di CSS berapa mungkin nggak ada math. kalkulasi sebelumnya enggak ada sekarang sudah ada maksudnya foundation adalah capabilities CSS yang nambah fungsinya contohnya trigonometrik function tuh nah tapi yang scope dan nesting nanti juga ngaruh ke itu gimana kita meng-arrange apa jadi lebih enak aja sih nulis CSS cara langsung ya kalau dibilang arsitektur kan kayak misalkan zaman dulu kan ada yang namanya apa Oh object-oriented CSS ada yang BEM ya OCS SAB BEM itu apa elemen-elemen modifier ya itu kan kayak arsitektur kan Bagaimana cara kita menuliskan rumpung organisasi kode cc-nya asen pattern sih itu pattern oh iya juga juga termasuk juga nested kan nested yang sebelumnya nesting nesting itu sebelumnya hanya bisa dilakukan di scss preprocessor lah ya ssas slash dan lain-lain sekarang udah bisa native gitu tapi trigonometri eh sambar dong sambar sambar tepuk tangan Oh sambar tepuk tangan oke trigonometris ini jadi kayaknya semakin kesini semakin saya semakin menjadi bahasa language ya jadi semakin kompleksnya bukannya dia memang language ya nah itu kan nggak tahu styling language cuma ini bahan debat kayaknya orang seperti Twitter tiap dua minggu sekali ada yang nebet is CSS programing language HTML aja nggak dianggap lenjus padahal belakangnya el itu lejus lupa enggak kan bukan Iya bukan programing programming language styling language kan enggak itu kan resket install shit enggak ada lenjusnya coba skrong ke atas dikit coba skrong styling language nah yang didebatin apakah styling itu CSS language iya apakah CSS adalah styling language coba teman-teman nah apakah styling bisa dianggap pemrograman kan logik udah ada kan udah ada variable ada logic ada kan media query kan sebenarnya logic tapi looping belum ada looping belum belum-belum pinggang yang belum sekarang nih matematika bisa apa bikin apa bisa kondisional bisa kalau nanti ayo ping sedang looping batu bisa jadi harusnya turing turing komplit konon CSS turing komplit cuma yang tekan depan lah kita bahas kita bedah Bagaimana CSS adalah turing komplit udah dicari-cari aja biar ada materi ya kan Iya ini oke trigonometrik fungsi trigonometrik itu kira-kira bisa buat apa ya yang standar itu bulutan apa kitung sudut Oh oke bisa jadi begini ya jadi ngitung sudut bisa muter gitu ya enggak enggak dua dimensi lagi ya ini kan dua di sini kalau begini Wow terus tahu nggak sih kalau menu lupa dulu namanya apa di material design yang kanan bawah itu loh kalau kayak Oh F abing and rohani kadang kalau kita pencet itu tuk tuk muncul di apa Oh kayaknya besok sekitarnya kan kayak angka jam lah, kayak angka jam analog nah kalau dulu kan masih pakai javascript buat ngitung sudut-sudut itunya ikon-ikon kalau ini gak perlu lagi ya? masih pakai javascript, javascriptnya apa nih? oh itu kalau gak support oh ini fallback nya caranya gimana? angle angle ini kan inflyable ya terus wiki frame buat animasinya itu kan cuma variabel variabel salah CSS property atau variabel tuh properti nah jadi nama resminya ini nyebelin deh nama resminya CSS property tapi panggilnya dengan far-far tanda kurung waaih kok nggak prop ya Iya hahaha pakai satu istilah gitu ngapain pasti ada yang aneh sih maksudnya alasan yang make sense cuma ternyata Oh gitu tapi tetep aja nyebelin jadi dikalplasi ya ini ini buat buat dapetin dapetin value dari sebuah variable kan ini kan varian ya ya bisa diprokrasi pakai kos di dalamnya ada variabel lagi ditambah variabel lagi dikali variabel jadi ribet ya ya Bu ya Maaf ya saya dulu anak IPS pas SMA kalau dapat matematika sih tapi simposen udah lupa semua oke ya kita yang anak kita aja nggak inget belum ngerti belum ngerti nih kontra lojiknya kenapa dia bisa jadi gimana ya intinya sekarang udah ada fungsi untuk trigonometri jadi kita nggak perlu nulis itu di javascript dulu untuk dikirim ke CSS bisa langsung gitu ya kira-kira kalau misalkan teman-teman mau bikin kayak bikin apa ya bikin grafik mungkin charting library tapi visual apa data face udah ada kan si siapa itu mas Weld Rich Harris Iya dia bikin jadi enggak pakai JavaScript bisa bikin charting library ini juga bisa misalkan mau representasi matematika belajar apa buat mungkin website untuk membuat kita belajar perhitungan simposan kota itu dan misalkan bisa tanpa javascript Oke lanjut ya kompleks nth selection ini apa nih mcl-ncl kan selama ini kita punya calc sama of type kalau calon ada first time adalah style ya Jadi apa buat apa kalau misalnya elemen pertama dalam dari suatu perutkan first child elemen terakhir last child nah mth child dalam kurung tiga berarti anak anak ketiga dari parent elemennya. Nah yang baru apa? Bisa dibikin out event juga kan ya? Iya bisa. Oh iya ini kita kalau misalkan mau bikin table row yang apa ganjil, belang-belang gitu bisa langsung tanpa harus menggunakan JavaScript atau bahasa pemulgaman lain ya kira-kira ini dari dulu? enggak dulu enggak ada dulu kita buat bikin manual ya dulunya misalnya dulunya di PHP 2-3 tahun oh ya di PHP doang JavaScript juga bisa nanti dikasih kelasnya event all event all aja kelasnya apa? pake mod ya modul modul modul modul modul moderator oke ini apa sih hasilnya gimana lihat lihat oke halo halo aku masih pemula Iya sama kita juga masih pemula output element that match the build sector will pulsate maksudnya Oh Oh yang baru ada offnya jadi kalau yang pakai n itu emang udah dari dulu ya mau saya dari ya lima tahun terakhirlah tapi jadi ada dua lapis kondisionalnya dua tapis kalau ada big big big big maksudnya di sini kan ada big ada small jadi bisa yang kita targetkan wow keren ini kira-kira use case nya buat apa ya blog post yang gak harus blog media punya konten post misalnya post type-nya macam-macam ada yang video post ada yang galeri post ada yang apalah terus kita pengen pos paling atas untuk masing-masing tipe itu ya kayak ada highlightnya lah atau ada apa penanda sendiri tapi kan mungkin stylenya lain ya peningnya lain atau apa jadi emang kita mau custom berdasarkan masing-masing post type Oke make sense apalagi ya enggak tahu sehenggaknya scope-scope masih belum ya belum ya Firefox sama Safari tuh Safari mata tandanya apa masih lihat-lihat lihat kondisi minat-minat sekon Oh udah itu kan ada itu request for position jadi buat temen-temen yang belum tahu jadi ada namanya RFP buat fitur-fitur web platform jadi misalnya kalau dalam hal ini Chrome team Chrome yang namang inisiasi boleh bikin kebuka isu buka isu di repo request for positionnya webkit misalnya atau di Firefox jadi kayak pitching gitu lah kayak mempresentasikan API ini cara kerjanya begini gini gini use case gini gini gini terus bisa aja siapapun orang webkitnya atau maintainer atau kontributor atau siapalah misalnya ada keberatan di bagian apalah ke kalau gini gimana atau misalnya faktor keamanannya gimana jadi yang yang mempropos harus dijelasin dan ngasih contoh jadi ada kalanya ya bisa dicuekin aja, bisa ditolak, ditolak tuh maksudnya kami tidak tertarik, not interested, bisa menyatakan interested. Nah, itu kan happy path-nya ya si browser vendor lain ini juga tertarik. Nah, tapi tertarik itu bukan berarti langsung ada kan, cuma menggambarkan bahwa, oh oke mereka setuju, secara konsep setuju, suatu saat mereka kemungkinan akan mendevelop fitur itu juga masukin di browser. Tapi ya nggak janji kapan. Nah nggak tahu cuma tanda mata itu betul untuk menyatakan soal request for position atau bukan nanti kita lihat-lihat lagi ya. Oh kemana dia? Hilang. Preview. Preview. Oh berarti udah. Udah mau launching. Teknologi preview berarti. Oh berarti itu ya Safari yang preview version ya Oh malah udah bukan request for position lagi ini Emang udah mau masuk ya Iya udah mau masuk Udah masuk deh channel teknologi preview Firefox X Ya, sedih. Nah, scope ini adalah, dengan scope kita bisa sangat spesifik, mau menunjuk elemen yang kita pilih tanpa harus menulis apa ya specific selector jadi kan misalkan ada kita mau select image di dalam H1 gitu ya jadi harus dari body header H1 image gitu gitu gak sih atau gimana nih iya jadi kan biasanya kita takut nih misalnya ada kelas namanya card content oke lah pertama card content itu awalnya emang ya simple ini kan pattern ini juga contoh yang pakai pattern BEM kan, block element modifier jadi blocknya adalah card elementnya secara logik sebuah parentnya atau containernya adalah card, kelas card dalam card ada misalnya card content card ada contentnya jadi card underscore dua kali content nah cuma ternyata misalnya bukan cuma card, misalnya ada slide, ya ini ngarang lah misalnya tiba-tiba orang produk atau tim lead kita turuh bikin slide. Tapi slide itu ada kontennya juga dan persis banget isinya sama card content. Jadi dalam slide kita pakai card content aja biar nggak ngulang-ngulang kan misalnya. Nah, ke depannya jadi udah, habis itu kita udah ngerjain lain, kita lupa semua. Nah, terus kalau kita mentargetkan card content, jadi takut nih karena tiba-tiba misalnya kita disuruh ngubah warna background atau ngilangin padding, kirain kan cuma di card kan namanya card content ya slide-nya rusak semua orang jadi takut pakai CSS, jadi kan solusinya selama ini, orang pakai CSS in JS kan, banyak pakai kayak, apalah style components atau emotion, atau yang lebih baru lagi ya, beda pendekatan pakai approach-nya tailwind yang atomic, satu property satu kelas sendiri, biar Kalau itu kan malah nggak bakal rancu kan MTM 4 ya margin top 4 Udah beneran nggak bakal ada yang lain Cuma ini ada Alternatif yang bikin kita lebih Apa? Yang bikin CSS lebih powerful Jadi nggak perlu CSS in JS lagi Nah kalau kasus card content tadi kan Contoh baris kedua tuh scope card To card content Jadi card content Hanya yang berada di dalam card Kalau kebetulan entah gimana kelas kartu konten itu dipakai di hal-hal lain juga, ya nggak apa-apa, nggak akan ngaruh ke situ. Kasih skop lah ya, skop itu kan kayak kasih ruang lingkup, supaya jangan kontaminasi. Cuma ini sintaksnya menarik sih, jadi kita tetap ya, tetap aja sih nggak mecahin semua masalah juga, kalau misalnya kita pakai selektor kartunya di berbagai tempat, ya tetap bisa ada kemungkinan. tapi kan kita lebih punya kontrol lebih besar ya jadinya content yang berada di dalam kartu Nah kalau pendekatannya CSS JS style components dan lain-lain itu kan biasanya pakai itu kan randomize telok karakter random gitu jadi class namenya kan Oh iya iya iya generate auto generate dari DHS dari library nya kalau ini enggak kita tetap harus pakai selektor cuma kita mentargetkan selektor parentnya dan card parentnya tuh terus yang pengen kita targetin card content harus berada di dalam parent yang ada kelas card itu oke oke masih belum ngerti banget sih gua harus lihat contohnya sih harus ini contohnya coba apa tuh in this following demo the image elements in the carousel component are not match because of the applied scoping limit jadi? maksudnya kita ada? nested carousel itu kan ada carousel itu di dalam oh di dalam ini itu kalau misalnya kalau kena stylingnya jadi ada bordernya di image oh berarti cuma karena itu border yang di luarnya aja tapi image yang di dalam dan itu karusel nggak kena nggak kena border oh iya ngerti live demo aja scroll kan nggak kena another child image ada border nya image-nya enggak ada border karena enggak di dalam kartu Oh kalau coba lihat itunya sih kode lihat CSS nya itu cuma ini ada card content terus ya scope-scope oh scope-card data component ini apa? only match the element in the card component but don't target those in the nested component nested component itu sih carousel itu tadi ya? iya oh ini data component sama dengan carousel ada ini nya, ada property nya, props nya tambahin card component jadi scope card to data component image nya 0,25 ini 0,25 yang mana ini Iya boda radius kangen boda radius Iya kita kasih aja ganti nggak bisa ya oke diedit Oh ya nggak bisa harus obin review doang nah kalau eh bentar data komponen itu yang carousel kan ini bukan data komponen kan yang atas tapi ada ini kan div itu div class card data komponen kartu ya kan Oh iya data komponen kartu Oke Oh walaupun sama-sama ada data komponennya kalau enggak berada di dalam kartu kalau enggak berada di dalam kartu oh gitu ya nice itu ya scope kartu data komponen kok agak ya karena bahasa masih baru kali ya sintaksnya sintaksinya agak awkward ya. Karena kita belum pernah, kan belum pernah ada kayak gini, belum pernah ada sama sekali kan interlineal. Betul-betul. Kalau mungkin kalau solusi sebelumnya, mungkin kalau web component pakai itu kan, pakai Shadow DOM kan. Jadi dia scope-nya di satu komponen kan. Tapi nggak mesti pakai data komponen juga nggak apa-apa. yang nge-harm is selektor apapun selektor apapun yang ingin kita targetin kan cuma perkara data komponen yang ada di dalam kartu kayaknya eh terus bentar oh maksudnya gini daripada kita menuliskan menulisnya spesifik misalnya dari body.card.apa.apa.apa sampai target image tentu kita bisa mentargetkan hanya dengan pakai scope jadi semuanya gitu kali ya maksudnya coba kita bisa buka-buka tempe lebih lumayan head helpful sih Hai coba buka temelnya terus search data komponen ini data komponen ada di atas satu yang iya Nah itu kan ada card khasnya card jadi itu kena ya kalau nggak salah itu image-nya ada bordernya kan ini kartu juga kan sebenarnya Iya kartu betul kartu di dalam kartu kan ini kartu juga kan ini karusel ya bukan kartu ya Oh iya kartu konten ini dalamnya ini kartu semuanya dikanin tapi di dalam kartu ada karusel harusnya pakai div itu enggak ada kelas enggak ada kelas kartu jadi dan image-nya berarti sebenarnya sebelumnya dot kalau kita kasih dot card dot card image maka semua image di dalam dot card itu kena ya kan sedangkan kalau kita kasih kita kasih scope scope nya apa dan dalamnya berarti hanya cuma cuma direct charge doang direct charge si card itu iya itu tuh maksudnya logic-nya lumayan itu ya maksudnya kayaknya kita nggak expect CSS untuk punya logic sedetail ini kan biasanya kalau kita harus gini ya pasti pakai jelasin bukan yang dulu tinggal dikasih panah panah eh atau kurung siku gitu ya apa apa namanya itu lebih besar bisa kan jadi direct cahaya. Oh itu sibling. Oh iya direct cahaya. Tapi kan direct cahaya terus image kan kayaknya cuma bisa satu lapis ya? Iya. Bisa gak sih begini-gini sampai banyak gitu? Bisa banyak, cuma ya harus di-define semua kalau pakai harus berapa lapis kalau sedangkan kalau kita target kan semuanya.id ini dalam karusel kena itu tuh maksudnya kan berarti kita harus ngitung tuh kalau mau pas image yang ini doang berarti anak keberapa biar kita nyesuaiin jumlah sih apa tanda lebih besarnya itu kan Oh ya gitu deh seperti saya saya tambah bingung bingung lagi kalau lihat apa komentarnya kan penasaran nih musila bakal adopsi atau enggak udah baca sampai bawah walaupun ia skimming doang tetap nggak ngerti sih ini maksudnya Mozilla berniat adopsi atau enggak? Ya, tadi request. Oh, request. Mereka request posisinya Mozilla. Ada keberatan atau enggak? Kalau keberatan, keberatannya di mana? Diskusinya sampai panjang banget. Tetap enggak jelas. Ya, mungkin harus dibaca dengan lebih teliti ya. anyway ya Scroll aja udah sampai bawah yang paling bawah cuma update bahwa Safari has enabled scope lapor-lapor doang ini ya belum lama ini mah baru bulan lalu coba Mas Diza komen kapan di marahin ketahuan nggak baca gitu ketahuan nggak baca atas-atasnya cuma sebenarnya menarik sih jangan hapus-hapus menarik baca pertimbangan-pertimbangannya terus jadi jadi kerasa banget Oh ribet ya saya banyak hal yang harus dipikir ribet bikin-bikin browser itu ribet banget mudah-mudahan Eh siapa ya yang bisa kita undang ya yang tukang bikin browser dulu ada tapi sekarang dia posisinya di Google masih masih di Google atau gimana kita enggak tahu ya ada Oh iya dulu ini Google Chrome tapi kan banyak apa banyak reshuffling kan pada pindah ada yang ke Edge ada yang kemana karena kalau menurut mereka yang biasa develop browser itu orang-orang yang kerjanya engineer untuk bikin browser itu larinya enggak jauh-jauh tetap ke ranah browser juga jadi paling larinya antara Iya karena kan udah familiar sama cara kerjanya. Iya ke Safari, ke Firefox, atau ke Edge, ke Microsoft sekarang gitu. Atau udah nggak jadi IC lagi, ya maksudnya masuk lead atau manager atau apa semacamnya. Flexbrew, otakku masih berproses. Sama. Sama. Ini salah satu fitur CSS juga ya, Flexbrew. Flexbrew. nesting nesting ini yang yang membuat salah satu apa ya salah satu fitur yang yang menarik di apa asas itu adalah nesting ini preprocessing processor killer ya dan apa maksudnya entah preprocessor atau CSS in JS pokoknya CSS library killer lah kalau udah udah diadopsi semua browser lagi udah ya sudah mencapai baseline bisa jadi Tailwind Killer nggak sih nggak beda fungsi kan jadi tuh kita bisa nulis ya nesting ya jadi di satu properti di dalamnya kita mau select DT DL DT apa ya detail kayak key value untuk mempresent key value ya terus di dalamnya kita mau tulis lagi nestingnya bisa sampai unlimited nih kalau dulu kan kita tulis kayak gini ya DT dulu semuanya terus habis itu kok DL di depannya Oh ya emang DL di depannya DL terus kemudian ini asumsinya bahwa DT itu adalah anak dari DL kan Iya DL itu definition list nah eh terus satu list itu ini untuk kayak tabular gitu loh key value misalnya nama Eka hobi tidur ya Iya ya enggak harus table sih apapun yang key value nah terus dt itu definition eh detail term pokoknya t-nya term denya apa enggak enggak inget sih t-nya term Terus DD itu definition. Hmm, oke. Intinya gitu, jadi kalau misalkan dulu kita harus definisi dulu DT-nya, terus DL-DT-nya apa, terus DL-DD-nya apa. Karena ini adalah chart dari si DL. Karena bisa aja kalau kita tulis DD doang, siapa tahu di bagian yang lain ada DD yang lain jadi kena gitu kan. PD Yusuf. Iya jadinya ini termasuk bagian dari nesting eh sorry scoping juga sebenarnya kan jadi di dalam dl kita bisa styling apa gitu kemudian di dalamnya ada anaknya anaknya ada dua nih kayaknya lebih seru kalau bisa kayak ampersand gitu enggak sih kalau di esas itu kan bisa n apa gitu jadi bisa di taruh tengahnya iya pernya ditaruh tengah enggak tahu belum belum di nah ini nih contoh yang paling sering mungkin ul atau l di dalam OL itu pasti ada Eli kan Nah misalnya mesin seperti ini ini contohnya terlalu itu ya terlalu terlalu anjur selalu nah akan Eli kan uleskan OL itu order klis pakai nomor 123 kalau ul-an order klis biasanya pakai bulet atau strip atau apalah nabung sekalian stylingnya Bu kadang butuh customization yang berbeda mungkin pendingnya beda karena kan mau saya kalau angka mungkin lebih besar atau apalah bentuknya lain dibanding bulet jadi kadang repot ya kalau harus olle ulle sekarang bisa nesting keunggulan lain yang penting penting bisa di itu loh bisa di kolaps apa expand collapse kalau di fiascode kan enakan Oh jadi untuk kegiatan itu bisa di holding ditutup ya kalau layer itu apa sih add layer nah lupa mas Doni mas Deni nah mth calc dalam kurung 1 mth calc dalam kurung 2 mth calc dalam 123 terus kasih animation ya ini 123 ini ini balap-balap capres bukan bahaya-bahaya udah kemarin kan ya apa namanya kemarin itu debat capres ya coba Cawapres kan kalau hari ini kita debat CSS aja CSS iya layer ini apa ya ya fitur baru juga itu untuk mengakalin spesifikasi pokoknya penjelasannya apa ya misalnya kan ada satu elemen namanya kartu kelasnya kartu bisa ditarget div itu alamanya div kelasnya bisa ditarget pakai CSS selector.card bisa ditarget pakai selector div bisa misalnya parentnya container gitu, bisa ditarget dengan selector.container terus bintang nah itu kan semua men-target ke elemen yang sama kan tapi kan misalnya masing-masing style tuh meng-assign warna yang beda harus ada salah satu yang menang kan Nah itu makin makin tinggi spesifikasinya itu masing-masing ada itungannya ada poin-poinnya siapa yang menang siapa siapa yang ke style-nya beneran diterapin di elemen itu nah layer itu kalau nggak salah untuk ngakalin itu cuma exactly gimana nggak inget karena kelihatan belum semua browser bisa deh jadi nggak pernah pakai juga baru tahu ini layar untuk animation bukan itu keyframe animation layar buat taruh di atas gitu kan paling enggak bukan demo ini apa demo ini demo mana demo Coba CSS player tuh apa sih demo penasaran kita cari enggak ada di sini ada demo di sini bukan mau saya penjelasan si layer Hai pada sudah ada di baseline 2022 2222 lo player awal ya Hai karena enggak diorep 2022 kita jadi enggak tahu nih nah seperti biasa seperti biasa mbn kayaknya gue tahu dan pernah present naponya apa cuma inget buat kayak gitu buat nge-set jadi kayak mengelompokkan masing-masing styling jadi Oh ya kalau zaman pakai SAS dulu kan suka ada convention yang pertama itu untuk yang kayak global level tuh kayak yang buat base element doang habis itu ada utility misalnya tau kan yang import-importnya tuh ada urutannya kan nah biasanya kan komponen terus paling bawah diming yang soal warna nah itu kayak buat ngurutin kayak gitu masih bingung masih bingung harus lihat demo sih emang emang mau saya kalau baca kalau kalau baca doang itu emang emang enggak masuk tapi kalau lihat demo lebih helpful sih ya Nah ini ada demonya enggak masalahnya ini ada demonya yang lain layer Oh berarti layer itu juga termasuk salah satu dari nesting kali ya ini ada nesting beda lagi lain-lain konsep itu kan framework.reset jadi kayaknya mungkin dalam framework ada urutan prioritas apa prioritas itu tadi siapa yang menang kayak style mana yang menang nih contoh-contoh in this following example the simple H2 elements itu blue Nah itu jadikan sama-sama mentadget H2 nih gua yang lu to the team layer order appearance being after the base layer sebentar disini ada layar base sama layer team Oke terus jadi kesimpulannya artikel H2 itu warnanya apa Tolong tolong Ya tolong jelasin mana Oh ini ada udah berhenti ini udah habis enggak ada tuh ada tulisannya white mana tadi blue hadua-hadua spesifikasi rules apply ifness layer specificity by default jadi kan kalau by default spesifikasi ada poin-poinnya ada kayak artikel H2 itu kan lebih spesifik daripada selektor H2 doang jadi by default yang menang adalah si artikel H2 jadi H2 warnanya akan ungu nah tapi kan sebetulnya kalau yang kita tahu sekilas kalau yang lebih bawah di bawahnya kan bakal menang H2 warnanya biru ini anggap aja belum ada fitur layer ya Nah kita kan bakal bingung kan, maksudnya kayak gambling lah, kita gak tau mana yang menang, jadi kayak bingung, sulit lah buat memprediksi behaviornya. Nah, kalau di sini kita bisa ngelompokin pakai layer. Jadi, ngitung spesifisitinya itu berdasarkan kelompok layer. Kelompok layer base di atas. Nah, terus bawahnya ada kelompok layer dim. Nah, di sini walaupun selektor H2-nya itu kalah. Maksudnya kalah kan? Sebenarnya kan by default itu behavior-nya harusnya kalah. Karena kurang spesifik cuma H2 doang. tapi disini indis kis haduanya jadi menang menang ke masa haduanya jadi warna biru itu kenapa karena layarnya ini karena hadua itu bagian dari kelompok layer yang berada di bawah kan makin bawah yang bawah akan meng-override yang atas Oke skating ya saya saya tadi baca paling bawah ada contohnya keren banget contohnya sih kalau mau nanti teman-teman bisa baca Nah eh stop eh bawa lagi bawa lagi ada hotpan nya nah ini dia CSS ke CSS aja Nah kalau dilihat dari ininya itu layernya di-define ya ada reset secara spesifik ya dari kiri ke kanan reset base theme component sama dan ini pattern dari SAS dulu orang SAS tuh pasti pernah lihat deh urutan ini reset base kalau kita lihat ya itu kan H2 warnanya biru ya sedangkan si base mengatakan color purple dia kenanya di teams karena di layer team itu mengatakan H2 color blue nah terus kemudian dotlet dotlet itu warnanya green dan important dan dia dalam layar tim maka dia menang secara spesifik meskipun utilities Hai Utilities mengatakan ui red red Iya kenapa dia enggak red adalah di itu sepaling ujung nih sedangkan besama tim menengan tim Baji harus baca kena kalau dia ada tadi mengatakan kalau dari komen sama important paling bawah paling ada ini paling bawah kalau tanpa kena air itu sebenarnya colornya orange impor orange tapi kenapa dia bisa kenanya ke tim saya enggak tahu kalau yang yang paragraf yang blue yang dibawah aslinya adalah red p color ini red jadi biru bener ya kan kalau asumsi kita ya yang ini yang blue yang blue itu apa coba yang blue dot ini kan P kelas dia P ya P kelas blue ya P kelas blue yang ini sebelum kena layer ini setelah setelah layer bukan bukan terus terus itu kan colornya blue kalau utilities kalau bawah lagi ada gak yang .blue ini dia red harusnya kena red A2 blue ini blue P red ini apa dot lead P juga P tapi dia jadinya hijau sedangkan disini merah gimana tuh dot leadnya kan kalau kena yang diatas kan Green disini red harusnya dia secara urutan base-base green-green Hai utilities paling terakhir ya specific Iya base dulu kan Iya base berarti timkan masuknya tim ini kan Iya tim disini komponen terus itu ditik kalau P yang red dia ambil yang disini Hai ini yang terakhir karena Oh kayaknya paling kuat lebih kuat yang diluar layar enggak ini H2 sama lead orange jadi hijau ya padahal dia paling bawah karena important karena important important is everything bisa diri koknya mungkin gara-gara ada important Nah kalau yang apa kombinasinya ini sih nggak ngerti ya cuma inget baca bahwa eh apa yang enggak di dalam player itu lebih kuat daripada yang di dalam kelompok player coba lihat ke atas dikit layer son order with important ada ini ya penjelasannya atas-atas-atas Yap stop-stop-stop itu ini short ordernya masih enggak ngerti layar tim color green important layer utilities elemen color red nah kita nggak lihat kita nggak lihat HTML nya kalau ini bingung Iya color itu kan Hai teks color kan bukan background color kan Kenapa di sini background yang berbeda ini short ordernya dia kalau pakai important layer kalau pakai important itu ininya berbeda efeknya itu loh maksudnya Oh oke Jadi kalau yang tanpa layer yang orange yang yang dibawa. element color orange itu anlayer style tapi mana ya hahaha yang orange yang mana aja nggak tahu itu yang paling bawah tuh maksudnya orange kirain merah itu pink salmone orange putih warna Oke, baiklah teman-teman. Next dulu. Mari kita bingung bertemu. Ini ada pertanyaan bagus nih, tentang performa. Apakah pemilihan sektor berpengaruh ke performance? Terus juga ini, nested itu akan pengaruh ke performance nggak? Kalau banyak banget ya, theoretically ngaruh. tapi sebetulnya in real life secara praktek belum pernah ngerasain sampai ngaruh sih. Coba aja nesting 100. Pertanyaan gini, kalau misalkan kita bikin awalnya eh maksudnya performance ini kan kita bikin nested nih terus ada yang bilang performanya kurang bagus gimana cara kita improve? Ada solusi nggak selain nested? Kita bikin jadi satu semua gitu ya jadi kelas aja yang mau kita target kenapa harus nested banyak-banyak kita planning planning seleknya ya harus lebih baik kalau nested itu kan karena kita harus target secara spesifik banget parent nenek moyangnya bukan parent malah kakek neneknya ini childnya banyak banget jadi kita harus nyebut ini sama nyebut ini Padahal kan target ini aja Berarti ya kita kasih Kelas lain lah selektor lain yang lebih Apa Efisien akurat Kayaknya dulu lighthouse tuh ada warningnya deh Kalau misalnya ada selektor yang Terlalu panjang gitu Kalau selektor yang terlalu panjang tuh Pengaruh ke ini Performance Karena traverse-nya Terlalu dalam kan maksimal kedalamannya kita belum tahu juga Mas Maulidan enggak ada silahkan dicoba maksudnya enggak ada tapi kan setiap ini kita harus ingat bukan webdev itu kan usernya bisa membuka dari laptop dari HP HP paling kentang sampai HP paling canggih ya mungkin apa kalau kebetulan dibuka dari HP yang low-end banget butut mungkin bisa aja nggak kuat apa renderingnya jadi jengkih nggak ada standarisasinya juga sih ya soalnya intinya jangan apa jangan terlalu mengabuse si nested ini ya kalau kayak properti dalam seperti di dalam properti kayaknya untuk parsing nya juga lebih rumit kan secara otomatis kalkulasi lgp ke fitur Green hahaha kita nulisnya juga pusing sih Iya jadi ya dipakai seperlunya aja kalau bisa ada nistet lebih bagus kayaknya ya kayaknya maksudnya sebelum sampai ke level yang beneran signifikan krim pengaruhi performance dari DX kayaknya udah maksudnya pasti nggak tahan kan emang kita mau nulis 20 urut 20 gitu kan mungkin kan pasti kita yang kita yang nulis pusing duluan terus Oke kita lanjut lanjut ke subgrid asik nggak menjawab ya kan kalau kita grid itu kan kita bisa mendefinisikan gridline kan gridline grid template kolom grid template row tapi itu kan sebelumnya sebelum ada subgrid itu ngaruhnya kan cuma ke direct childnya kan ke elemen yang pas di dalam elemen parent yang ada grid templatenya itu Nah kalau misalnya ada dalamnya lagi itu kan ya kita harus ngedefinisiin grid template sekali lagi di apa di immediate parentnya kalau ini enggak jadi apa parent terus ini child element terus jadi parent misalnya orang tua anak cucu jadi cucunya juga bisa ikutin apa grid lines nya gede template kalau atau gede template rohnya Oke oke contohnya ini display-nya display Oh ya bawa displei-splei kalau nggak salah Iya deh serius live demo dong Hah? Live demo? Boleh boleh Live demo Gimana live demo? Ini kan live demo Udah Gimana? Gak ada subgrid Grid semua Gak ada Oh ini subgrid Harusnya ada Woi, cek dulu Kecilan ya Ini kan subgrid iya berarti get template row sub grid gitu berarti bisa get grid template column sub grid juga sub grid juga iya jadi buat kolom ya lihat HTML nya deh Hai HTML 5 biasa artikel-artikel itu kan pernya terus ini header terus ada horizontal line terus paragraf terakhir ada footer terus diatur sama segretnya itu gapnya aturan grupnya apa styling styling grupnya itu di bodi lihat CSS ya bodi ya lihat CSS turun turun dikit Scroll, scroll, nah, grid template columns, bla bla bla. Jadi kita mendefinisikan aturannya di body. Terus kan biasanya kalau body hold itu cuma bisa dipakai di direct child-nya tuh, di artikel doang. Ini kelihatannya si title sama konten di masing-masing card, masing-masing artikel, jadi bisa ngikut grid lainnya juga. lihatnya loh nggak ya grid header juga display-nya grid oh di dalam grid bisa kita definisiin grid lagi ya berarti ya baru tau nih terus ngikut grid template row atau grid template column kayak inherit gitu deh kelihatannya oke kalau yang di body itu dia repeat autofill min max 30 ch1 fr kalau di layer demo nih ada layer lagi nih dia subgrid ada lihat demo support sini ada layer-layer enggak enggak ada kan definisi layarnya yang kayak tadi enggak ada juga ya enggak enggak harus itu option berarti kita harus ada episode CSS layer ya ya enggak kita apa selanjutnya remedial prep 2023 hal-hal yang kita bingung pas sekarang nanti boleh kita bahas lagi ya bagus bagus subgrid is especially useful for aligning siblings to each other dynamic content this is free copywriter UX writer and translator for attending to create a project copy that fits into the layout with subgrid the layout can be adjusted to fit the content itu use case nya iskisnya untuk beda itu iskisnya itu tadi iskisnya coba ematiin apa turn off dulu CSS nya buk biar risetnya doang yang muncul nah kan itu kata-katanya bisa teksnya bisa 4 baris bisa 2 tapi sih yang paling bawah itu apa otomatis ke stretch set apa itu yang paling bawah tuh yang tulisan kecilnya ke tulisan tanggal atau apa ini itu sebaris Nia sebaris kebawah Hai jadi kayak flex dong Oh iya tapi berlaku buat semua jadi enggak harus masing-masing dikasih flex kelihatannya Oke oke oke kita masuk ke bagian berikutnya masih banyak kalau ini kita kedua segmen kedua tipografi ini keren banget nih teksnya Iya bagus bagus-bagus pilihannya gimana caranya punya sense kayak gitu, itu udah off topic, lanjut, text wrap initial letter, nah dulu kalau di ujung koran, majalah biasanya ada yang model kayak gini nih huruf pertamanya tuh bayangin ongsel gak sih kayak pada suatu ketikan nah itu kan yang apa jenis fontnya yang kayak cerita dongeng gitu betul tapi karena firefox belum jadi fallbacknya gimana? huruf biasa aja pake javascript lah, di slice aja kalau CSSnya kita pake yang gini terus nanti di firefox tampilannya gimana ya nggak papa teks biasa teks biasa tapi kalau itu penting ya udah kita slice itu first letter initial letter 3 2 oh ini 3 spasi 2 apa 3 itu apa spasi itu apa ada ininya nggak iya itu tadi atas atas atas atas atas scroll atas initial letter property is a berstatus styling for the placement you can position letters in drop or face property accept to argument nah dua argumen argumen pertama how deeply to drop letter Wow canggih banget Oh bisa berapa baris kita harus itu manual the second how much to face the letter above it kalau kita mau bikin blog artikel gitu ya atau apapun yang visualnya text wrap ini balance and pretty kalau sebelumnya text wrap itu apa aja adanya? gak ada, belum ada kan? eh? white space dulu yang ada untuk rapping white space rap no rap terus apa free line kalau ini bukan soal itu kayaknya deh teks-teks itu sudah ada teks rap no rap stable bukan itu property dulu propertinya adalah white space Oh iya enggak ini ini ini ini Oh ya ini baru ini baru turun lagi turun lagi ada tulisannya tuh eh woi tadi kok beda bacanya Oke salah ke atas Mas Riza opsa pop itu ada notenya yang warna biru not the white space klointex web properties can Oh white space itu shorthandnya berarti ini berarti text wrapnya udah ada tapi yang ditambahkan hanya balance dan pretty Balance dan pretty Apa lagi maksudnya gitu ya? Ya jadi kadang kan kadang misalnya kita gak tau nih panjang textnya berapa terus di baris terakhir tuh kayak ngewrapnya gak enak kayak cuma sisa dua kata atau satu kata nah nah tetep tuh kelihatan kelihatan kan secara visual kan jelek tuh kayak yang baris keduanya tuh kayak jomblang banget sama yang berisik tiga Nah kalau ini otomatis kayak di balance aja Hai yang pretty apa siapa sih video-video itu yang pretty yang lebih rata yang lebih rata Oh rata ya rata kanannya ya ngerti-ngerti berarti dia secara algoritm nyari sendiri ya kita nggak perlu pas-pasin gitu ya Iya dia hitungnya dengan itu spasinya dimana kan kalau tulisannya not Hai yang unicode bukan Latin gimana ya kan tetap ada spasinya kan ya harusnya nggak tahu jenis karakter kalau jenis kalau Thailand ada spasi cnw cara-cara Chinese Japanese Korean itu enggak ada spasi Oh Thailand juga enggak ada spasi Nah di saat kayak gini gue bersyukur gue bukan developer tukang bikin browser gak harus mikir itu tapi somewhere ada orang yang berarti kan mereka mempertimbangkan itu coba ya klien gua ada satu yang Jepang gua coba dulu oke kita lanjut wah tepuk grafik cuma dua ya color itu berguna banget sih Karena biasanya kalau di Figma Kan kayak designer itu Visual designer Mereka kalau lihat gak balance gitu kan Ya maksudnya secara estetik kurang bagus ya Jadi di enter Giliran kita yang bikin, kita yang coding Ya kan kita gak bisa Tiba-tiba ngatur Bikin line break di sumber yang tempat kan Apalagi kalau sumber datanya dynamic Nah kan bisa aja tuh kita sering Di protest loh kok gak sesuai Figma? Nah, ini ngatasin masalah itu. Nah, ini ada pertanyaan bagus nih dari Damar. Dulu pernah baca itu support beberapa baris aja karena berat. Apakah sekarang masih terbatas? Coba, itu lihat semua browser udah support atau belum aja? Gak yakin sih? Belum tuh? Belum ya, belum semua. Tapi Firefox doang kan? Dan bahkan gak ada tulisan browser apa aja yang support. Mencurigakan. Oke. Ya kelihatannya emang belum ready ya. Ya itu mungkin karena berat. Mencurigakan sih daftar list browsernya aja belum ada. Edit on CodePen. Nah bisa diedit gak? Yaudah kita tambahin aja nih. Tulisannya yang mana? Yang balance. terus hang oh panjang bisa tuh bisa, gak berat aman lah cuma ini di laptop bagus kan coba di hp kentang hp kentang betul betul terus juga ada ini nih Abdul Malik dia pakai React Wrap Balancer javascript adalah solusi sampai sana ya maksudnya ada yang bikinin berarti memang ada kebutuhan yang sangat itu kemanusiaan segi yaitu tadi mau saya kita fitnahnya bagus atau ia fitnah atau apalah ponnya visual desainnya bagus karena secara manual desainer kita ngasih poinnya dimana yang kelihatan enggak enak banget di lain break secara manual lah kita kan nggak bisa pascode Jadi ya itu use case-nya. Oke, lanjut? Lanjut. Color, color ini lumayan banyak ya. Banyak banget nih, kita pernah bahas kan di episode kapan tau pas bahas warna. Yang pertama HD color space, from the hardware to software, CSS to blinking lights, apa ini maksudnya? sesuai dengan bahas now tapi user hardware capable of white gamut HDR colors Hai eh Hai sulit di demo ini gimana kan harusnya juga Iya pas kita bahas warna kan oke oke oke oke oke EH terus HWB Rek 2020 ada XJZ lagi apa ini XJZ Hah XJZ gak tahu mix color nah ini juga salah satu yang menarik nih color mix kalau dulu kan bingung ya ha udah stabil semua Wow wow seneng banget misalkan kita mau campur warna merah sama warna kuning gitu gimana caranya ini ada kalau bisa sekarang ternyata bisa sekarang kayak lagi beli chat di toko chat aja dicampur dulu harus pakai javascript pun harus pakai library ya agak susah kalau hand roll bagaimana caranya hex ffcc00 dicampur nolol ccff ya tapi ini susah dilihat ya kenapa muncul oke LCH segala macam dengan karena supaya gampang dibaca kan apa-apa saturation kayak gitu kan dari Green kasih saturation apa gitu ya silahkan ini contoh kita sebelumnya ya ini contoh apa color mix color mix nah ini jadi kita bisa gabungin warna hijau dengan warna teal ya ini ya hijau hijau juga hijau agak biru apa tuh istilah ilmiah kita bahas nah Oh dia pakai oke lab ya bisa macem-macem kan tuh tuh ada drop down nya Oh iya jadi kayak algoritma buat ngegabungin warnanya kayaknya agak sedikit beda masing-masing itu deh oke oke lch XZ woi woi berat sama-sama semua demikian HSL mata gua belenger dia nih salah ini ini ada yang kayak itu kayaknya kayaknya kan ada kayak apa yang ke gradien terus biasanya ada garis-garisnya gitu kan yang tunjukin area apa esomon in time from a gradient where gradient soal step go from blue to white show begin just one step Oh color mix Oh pinter ya maksudnya kan kita udah punya kan mereka browser udah punya algoritma untuk gradien jadi dia ngambil satu titik di gradien itu hijau ke biru hijau ke biru gradien kan semuanya hijau-hijau hijau agak biru hijau agak biru hijau biru banget sampai terakhir biru Nah sekarang nih dengan color mix kita bisa kayak select satu poin somewhere antara hijau ke biru. Ini kayaknya akan bermanfaat untuk generate, nggak tahu ya, koreksi kalau salah. Untuk generate, bukan, generate gradasi yang nggak loncat-loncat. Biasanya kan kalau misalkan kita pilih gradasi merah sama hijau, itu kan kayak ada perbedaannya terlalu kontras kan, terlalu jauh. Oh, terus gradienya hijau-hijauan ya? kalau ini jadi kayak bisa dipilih di custom Iya kayaknya itu ya bisa dipakai untuk itu salah satu isinya kali ya untuk desain sistem juga bisa banget kan kayak misalnya kalau detail win nih kita kan ada blue-100 gitu blue-200 itu kan milih warnanya kalau harus manual capek juga kan kita milih biru tua sampai biru agak muda biru sedang sampai biru muda ya kalau milih manual capek kalau kan bisa di tapi variabel bisa dimasukin situ ya Nah bisa masih bisa relatif color syntax berikutnya ya RSC RCS RCS RCS RCS RCS bisa dipakai RSC komplementari metode to color mix for creating color varian slightly more powerful than color mix but also a different strategy for working with color color mix may mix in the color white to lighten a color where RCS give precise access to lightness channel and the ability to use car on the channel to reduce increase lightness programmatic Lee jadi bisa memilih cuma eh apa lightness atau darkness nya doang ya warnanya tetap itu cuma dibikin lebih gelap dibikin lebih terang bisa pakai brightness ya bisa ngatur-ngatur brightness nya ya berarti ya oke kok pakai ini warna-warna yang berbeda di play menopong analog triadik triadik berarti ini ada warna yang disesuaikan dicari try-outnya kan segitiga kan merah sama itu bukan jenjan itu custom bukan custom kayaknya opacity desaturate oke enggak loh beneran apa kalau di CSS nya coba deh nah warnanya cuma di define color 1 2 3 iya 1 2 3 blue black sama grey 555 kan grey Nah ini yang monochrome analog triad, itu semua di kalkulasinya pakai pakai apa? Itu sih, SS color. Gila, ini mah udah menganggis banget ini. L. Ini udah function. L, C, calculate. Oh itu inherit kayaknya deh Kalau nggak salah itu inherit lightness aslinya Jadi kita nggak harus Men-specify semua satu-per-satu Cuma yang mau kita ganti aja Yang mau kita rubah Oke LCH kan L Oke L LCH Lnya inherit Hanya yang berubah ya berarti ya Hanya yang berubah Nah ini HSL Lain lagi dan lain-lain Oke pusing lanjut pusing belum udah pusing kita berhenti dulu kita lanjut lagi minggu depan ya lumayan ya ini baru setengah nih banyak-banyak respon banyak jangan nanti malah hentan ya kita udah bahas tiga seksien kita bahas tiga seksien lagi minggu depan ini bisa asyik temen gue ada nanti ini 5 tahun dari sekarang 10 tahun dari sekarang ke telwin jadi obsolete ini kan sebenarnya apa ya bukan CSS sih tapi buat front-end 10 tak ya mungkin tujuh tahun lalu jQuery kan perannya kayak tailwind ya, maksudnya dulu interaksi elemen-elemen itu ribet jadi dipermudah pakai jQuery. Terus lama-lama satu persatu mulai gampang dibikin pakai web platform, jQuerynya makin lama makin off-solid lah, kita udah gak perlu lagi. lagi apa nih mungkin lima tahun 10 tahun lagi CSS nya udah canggih banget kita udah nggak perlu telwin lagi Iya tapi menarikkan siapa Adam argel nya sendiri dia bikin bikin Oh ya mungkin library yang apa ya Open ya ada propernya lah Open props.com nggak salah ya Nah ini ala-ala basis CSS variable ya ala-ala telwin tapi berbasis CSS variable dan ini sama dengan berbeda telwini bisa juga telwin tapi custom-custom variable gitu kayak kita ngedefine sendiri jadi kan kalau kalau di Tailwind kan kita pakai kelas kan kita ngisi kelas background color border dan lain-lain kan kalau di sini tapi di CSS file-nya yang kita ubah-ubah cuman pakai variabel-variabelnya udah siapin Oh ya kalau variabelnya sih ngerti sih maksudnya kita pakai variabelnya di sini tapi kita tetap kita bisa bikin themes jadi pake themesnya jadi kayak kita sudah bisa define per design patternnya kita sudah dibikin tuh per komponen jadi komponennya sudah ada kita hanya tinggal define CSS variable nya dan CSS variable nya tinggal bisa dibuat jadi kayak theme 1 theme 2 theme 3 dan sedangkan sama Sebenarnya Open Props ini bisa digunakan untuk membuat library seperti Tailwind. Jadi kayak primitifnya ya? Iya, kalau dengar penjelasannya si Abang Adam Arjal, dia bilang ini bukan kompetitornya Tailwind, justru ini bisa dibikin untuk bikin Tailwind. atau kalau suatu hari Tewin dah obsolete ya kita pakai basisnya pakai pattern yang kayak ginilah ini lebih murni hanya saja yang si openprox yang kita install adalah variable yang udah build-in props nya kan build-in variable nya spek ratio juga ada bisa juga begini kalau misalnya kalau digabung ya saya pernah punya ide pakai open props itu bisa digabung coba buka Mas Riza kayak patternnya komponen dari webdev untuk best practice jadi si webdev ini juga sudah memberikan best practice untuk animation komponen segala macam jadi HTML structure nya sudah ada nih, contohnya carousel ya buka carousel. Carousel. Ya atau apapun lah, sama aja sih carouselnya jadi. Kan si carousel ini sudah ada HTML, maksudnya secara best practice bentuk HTML structure nya gimana gitu. Nah dari, kita bisa bikin komponen-komponen ini di design pattern nya kita atau di kita punya biasanya project kita, kita udah define, oke carousel begini, dialog begini setting atau form, button paling utama tuh button, text segala macam sudah ada patternnya dan pake open props untuk ngedefine theme 1, theme 2, theme 3, theme 4, jadi itu yang diubah variablenya kan? kayak the override variablenya jadi markupnya kan ya, markupnya tetep sama, masa kita ganti theme ganti markup kan? repot ya betul jadi itu dan berbantu sekali untuk menghandle project yang skalanya enterprise karena ininya banyak komponennya banyak Oke persiapkan banyak banget ya ada ini helper kantong is-is apa shadow itu gimana fade-in itu gimana ya animasi segala ada size-nya jadi kita nggak perlu mikirin Oh saya mau size berapa gitu pakai aja yang ada di sini ini cuman kayak preset semacam preset gitu makin kalau mau yang kompetitornya si telwin Uno kan Oh Uno CSS ya Iya buatannya sih babang siapa namanya bukan bukan bukan Bauna bukan bukan beliau nggak bikin Oh, Anto di Fu. Oh, Anto di Fu. Manusia sejuta project open source ya. Iya, kalau ini ya, ini bisa dibilang head to head lah sama si Terwin. Ini kan baru kita ukin. Saya programmer. Wah, saya juga programmer. Wah, bukan. Twitternya undefined. Coba, contohnya mana? Contoh. Why Uno? Why? Getting Started. Iya, sama. Sama kan? Sama kayak Tailwind. Tailwind itu kan sebetulnya mengimplementasi filosofi atau pendekatan atau Mix CSS kan? Punya satu property, satu class name. Oh ya ada yang baru nih StyleX ya StyleX nya Meta ya Meta Meta Facebook dipakai juga buat base StyleX apa yang dipakai buat Open Props Open Props ya Oh keren juga mungkin tadi soalnya pas kita lagi bahas Open Props ya benar-benar service aja StyleX Open Props StyleX JS ini ya benar ya StyleX JS ya Oh iya benar. Kita mulai contohnya di mana? Learn. Styles. Using style. Oh sangat react sekali ya. Defining style. Emotion, self-components banget lah. webnya Oke kapan yuk kita bikin episode eh betul CSS framework M bikin mata yang sama cuma pakai CSS framework A B C Terus lomba siapa yang menang Gimana ngomong aja Gimana ngitung? Demo doang, cuma lihat aja bentuknya kayak gimana. Eh mana ini nya, dependensinya? Wah banyak sekali. Ada nggak open props? Nggak ada. Nggak ada tuh. Open? Nggak ada. Props? Ini jadi base. Infonya dari mana? Wah, kalau Damar dia memang penggemarnya view ya dan teman-teman ya. Nggak perlu break cut. Misalkan H88VH menjadi oh kalau di H- kurung ya. Pakai kurung ya. Itu tujuannya kan meng-enforce token namanya di luar Tailwind pun ada kan kayak desain token jadi tokennya itu misalnya 0,25 REM 0,5 jadi biar nggak banyak arbitrary value tiba-tiba disini marginnya 14 pixel gitu kan sebelum kan jadi kayak kita udah mendefinisikan itunya kayak value-value misalnya huruf cuma bisa 14, 16, 18, 20, bla bla bla Kalau di luar itu, escape hatch-nya Tailwind yaitu pakai bracket. Ya, pertanyaan umumnya adalah UNOS CSS, apakah teams-nya sudah banyak? Apa kayak UI library-nya? Seperti Flowbyte atau Dicey UI? Kalau Tailwind enaknya kan, ya Tailwind UI. Kalau punya duit ya, yang berbayar yang gratis itu udah isi. yang gratis ada banyak, ada Flowbyte, ada DAISY, ada macam-macam dan masing-masing juga kayaknya itu ya freemium ya bukan gratis bener-bener gratis ya ada premium themes-nya juga DAISY gratis beneran? UNO kayaknya belum sebesar itu ya? DAISY gratis DAISY sekarang kayaknya dia jualan template ada, UNO tuh ada theme ada ya tapi mungkin sedikit kan belum sebanyak selwin minimal ada satu atau dua gitu buat apa buat kita memudahkan kita untuk menggunakan di daripada kita gunain langsung gitu ya Hai sudah kalau teori kan Saking banyaknya kita bisa comot sana sini kan atau kalau lagi buru-buru atau misalnya kita nunjukin nih ada butuh bikin prototipe kilat kita sama orang produk gitu kayak ini ya kayak gini ininya ganti jadi gini Oh ya langsung comot langsung ya ya ya masih enggak pakai proses UI design yang proper ya Mas saya kalau buat prototipe kan belum Mas saya belum sampai situ misalnya benar-benar sana sini kita udah menarik dulu ini kita otaknya udah kayak curly bracket CSS kan udah sudah mesin ini masih mikirin layer itu apa hahaha habis kok jangan sampai ke bawah mimpi deh ntar malam mimpi baca-baca soal layer layer bikin demo dulu tapi bikin demonya ya simple doang cuma ini harusnya menang tapi karena ada layer ini jadi gak menang cuma jadi penasaran mau revisit lagi oke deh kalau begitu kita udahan dulu ya kita istirahat dulu ya capek ya kita ketemu lagi minggu depan untuk bahas mungkin kita akan bahas kayaknya lanjut yang lain dulu biar gak pusing yang lain dulu oke boleh nanti kita lihat saja nanti kita bahas berikutnya di bagian responsif interaction dan komponen mungkin di beberapa ya di seling-seling lah biar gak CSS terus nanti jadi ngobrolin CSS betul karena kita juga kompetensinya bukan di CSS ya sudah bisa kalian nilai sendiri bagaimana skill CSS kita yang paling jago kayaknya Eka doang disini ya mencari pembenaran maaf saya anak back end gitu ya Kalau begitu kita Udahan dulu terima kasih buat teman-teman semua seperti biasa diskusi saran dan topik bisa kirim ke kesana.in slash ngobrolin di githubnya ngobrolin web. Kalau mau ikut kontribusi belum bisa karena kita belum bikin proyeknya. Kita mau bikin website-nya tapi belum jadi-jadi. Tapi masih wacana. Masih wacana. Mudah-mudahan nanti kita bikin terus teman-teman juga bisa kontribusi untuk sekaligus cobain, praktekin apa yang kita obrolin. Jangan cuma ngobrol doang ya. Oke, kalau gitu Udahan dulu untuk malam ini, terima kasih banyak Sampai jumpa minggu depan Bye-bye"
+}
