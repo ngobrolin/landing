@@ -1,0 +1,14 @@
+{
+  "videoId": "-ThmdHbkH-c",
+  "generatedAt": "2025-03-06T00:00:00.000Z",
+  "brief": "Episode ini membahas tentang manajemen source code dan version control, mulai dari sejarah hingga praktik modern. Diskusi dimulai dengan kebutuhan akan version control dalam pengembangan software, baik untuk proyek open source maupun kolaborasi tim. Tim Ngobrolin WEB menelusuri evolusi version control dari era punch card IBM di tahun 1960-an, hingga lahirnya SCCS, RCS, CVS, dan Subversion. Fokus utama pembahasan adalah Git - version control system yang dibuat oleh Linus Torvalds dengan pendekatan distributed yang revolusioner. Episode ini juga menyinggung berbagai platform hosting seperti GitHub, GitLab, dan Bitbucket, serta tantangan dalam belajar Git seperti konflik merge dan manajemen history. Di akhir episode, dibahas juga tentang Sourcegraph sebagai tool untuk mencari kode di berbagai repository private.",
+  "keyPoints": [
+    "Version control mulai dikembangkan sejak tahun 1960-an oleh IBM menggunakan punch card, kemudian berkembang menjadi SCCS dan RCS dari GNU",
+    "CVS dan Subversion merupakan centralized version control yang masih digunakan beberapa proyek seperti WordPress (core WordPress masih di Subversion)",
+    "Git dibuat oleh Linus Torvalds karena ketidakpuasannya dengan CVS dan Subversion, dengan pendekatan distributed yang revolusioner",
+    "Perbedaan utama Git dengan sistem lain: Git berdiri sendiri tanpa butuh server, menggunakan file system murni, dan setiap clone adalah full copy",
+    "GitHub mempopulerkan konsep social coding dan repository publik, namun ada juga alternatif seperti GitLab (bisa self-hosted) dan Bitbucket",
+    "Tantangan dalam menggunakan Git termasuk konflik merge, manajemen history yang berantakan, cherry pick, rebase, dan menghapus file besar dari history",
+    "Sourcegraph diperkenalkan sebagai tool untuk mencari kode di berbagai repository private dalam suatu organisasi, membantu developer menemukan referensi implementasi"
+  ]
+}

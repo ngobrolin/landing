@@ -1,0 +1,14 @@
+{
+  "videoId": "SAGNwE--Htw",
+  "generatedAt": "2025-01-06T00:00:00.000Z",
+  "brief": "Episode ini membahas review fitur-fitur CSS yang muncul sepanjang tahun 2023, berdasarkan artikel dari tim Google Chrome DevRel oleh Adam Argyle dan Una Kravets. Para host mengakui bahwa ilmu CSS mereka masih terbatas dan banyak ketinggalan, sehingga pembahasan ini menjadi kesempatan untuk belajar bersama. Episode ini mengulas berbagai fitur CSS baru yang menarik yang telah menjadi available atau mendapat dukungan browser yang lebih luas selama tahun 2023. Diskusi berlangsung dengan santai dan interaktif, di mana para host saling berbagi pengetahuan dan pengalaman tentang fitur-fitur CSS yang mereka ketahui sebelum membaca artikel tersebut.",
+  "keyPoints": [
+    "View Transitions API yang memungkinkan transisi halaman yang smooth dan mudah diimplementasikan",
+    "CSS Nesting yang memungkinkan penulisan selector bersarang seperti di preprocessors",
+    "Container Queries yang memungkinkan styling berdasarkan ukuran container parent",
+    "CSS @layer untuk mengorganisir dan mengatur prioritas CSS",
+    "Fitur-fitur baru untuk animasi dan transisi yang lebih powerful",
+    "Selector Has() untuk seleksi elemen berdasarkan child elements",
+    "Peningkatan dukungan browser untuk berbagai fitur CSS modern"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "videoId": "OvSawGB6Kuo",
+  "generatedAt": "2025-01-06T00:00:00.000Z",
+  "brief": "Episode ini membahas tentang berbagai format file konfigurasi yang digunakan dalam pengembangan software, mulai dari format klasik seperti .ini hingga format modern seperti YAML, TOML, dan HCL. Host membahas sejarah dan evolusi format-format ini, dimulai dari file .ini yang populer di era Windows 90-an, kemudian XML yang banyak digunakan di Java dan .NET, hingga JSON yang menjadi standar de facto untuk komunikasi API. Diskusi juga mencakup berbagai varian JSON seperti BSON (Binary JSON) yang digunakan MongoDB, JSONB di PostgreSQL, dan format khusus lainnya seperti GeoJSON untuk data geografis. Episode ini juga menyinggung tentang YAML yang populer di DevOps dan infrastructure-as-code, TOML yang dibuat oleh Tom Preston-Werner (co-founder GitHub) sebagai alternatif YAML tanpa indentation, dan HCL (HashiCorp Configuration Language) yang digunakan di Terraform.",
+  "keyPoints": [
+    "File .ini adalah format konfigurasi klasik dari era Windows 90-an yang menggunakan struktur sederhana dengan key-value pairs",
+    "XML pernah menjadi standar untuk konfigurasi dan pertukaran data, terutama di ekosistem Java dan .NET, namun sintaksnya yang verbose membuatnya kurang populer",
+    "JSON (JavaScript Object Notation) menjadi format dominan untuk komunikasi API dan konfigurasi karena ringan, mudah dibaca manusia, dan portable",
+    "BSON (Binary JSON) adalah varian binary JSON yang digunakan MongoDB untuk performa lebih baik dan dukungan tipe data tambahan seperti datetime dan decimal",
+    "YAML (YAML Ain't Markup Language) populer di DevOps karena human-readable dan mendukung kompleks data structure, namun memiliki risiko error karena indentation-based",
+    "TOML (Tom's Obvious Minimal Language) dibuat oleh Tom Preston-Werner sebagai alternatif YAML tanpa indentation, digunakan oleh tools seperti Supabase dan RedwoodJS",
+    "HCL (HashiCorp Configuration Language) adalah format konfigurasi yang digunakan Terraform dan Vagrant untuk infrastructure-as-code dengan sintaks mirip JavaScript"
+  ]
+}
