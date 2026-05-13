@@ -1,0 +1,5648 @@
+{
+  "videoId": "YMFz1Ky2E0k",
+  "language": "id",
+  "generatedAt": "2026-05-13T13:18:01.902Z",
+  "segments": [
+    {
+      "start": 18.48,
+      "end": 22.72,
+      "text": "Halo, selamat malam semuanya."
+    },
+    {
+      "start": 22.72,
+      "end": 24.08,
+      "text": "Selamat malam."
+    },
+    {
+      "start": 24.08,
+      "end": 26.08,
+      "text": "Ketemu lagi di Halis Tasa Malam."
+    },
+    {
+      "start": 26.08,
+      "end": 27.52,
+      "text": "Waktunya apa?"
+    },
+    {
+      "start": 28.08,
+      "end": 30.64,
+      "text": "Ngobrolin web."
+    },
+    {
+      "start": 31.68,
+      "end": 32.96,
+      "text": "Gue masih ada anak."
+    },
+    {
+      "start": 32.96,
+      "end": 34.08,
+      "text": "Sekolahan."
+    },
+    {
+      "start": 34.08,
+      "end": 36.96,
+      "text": "Bapak-bapak, ibu-ibu, waktunya apa?"
+    },
+    {
+      "start": 36.96,
+      "end": 38.96,
+      "text": "Waktunya ngobrolin web."
+    },
+    {
+      "start": 38.96,
+      "end": 40.96,
+      "text": "Iya, ketemu lagi kita."
+    },
+    {
+      "start": 40.96,
+      "end": 43.76,
+      "text": "Masih dengan format bertiga."
+    },
+    {
+      "start": 43.76,
+      "end": 46.16,
+      "text": "Masih ada Irfan, ada Eka, dan ada saya, Riza."
+    },
+    {
+      "start": 46.16,
+      "end": 50.16,
+      "text": "Malam hari ini kita kembali berbicara tentang web."
+    },
+    {
+      "start": 50.16,
+      "end": 52.16,
+      "text": "Ya, minggu lain kita udah berbicara."
+    },
+    {
+      "start": 52.16,
+      "end": 54.16,
+      "text": "Memacaranya ngobrolin web."
+    },
+    {
+      "start": 54.16,
+      "end": 56.16,
+      "text": "Ngobrolin web ya, nggak boleh ngobrolin lain ya."
+    },
+    {
+      "start": 56.16,
+      "end": 58.72,
+      "text": "Tapi ngobrolin platform lain sedikit ya."
+    },
+    {
+      "start": 58.72,
+      "end": 66.16,
+      "text": "Biasanya kan kalau membahas antara mana yang lebih bagus nih."
+    },
+    {
+      "start": 66.16,
+      "end": 68.96,
+      "text": "Kita bikin mobile apps dulu atau web dulu kan."
+    },
+    {
+      "start": 68.96,
+      "end": 71.36,
+      "text": "Itu nggak habisnya perangnya dalam tentara kutip ya."
+    },
+    {
+      "start": 71.36,
+      "end": 73.28,
+      "text": "Pasti akan selalu ada pergembatan,"
+    },
+    {
+      "start": 73.28,
+      "end": 76.16,
+      "text": "wah bagusan mobile, wah bagusan web gitu kan."
+    },
+    {
+      "start": 76.16,
+      "end": 78.16,
+      "text": "Begitu juga sebaliknya."
+    },
+    {
+      "start": 78.16,
+      "end": 83.04,
+      "text": "Nah, topik yang malam ini akan kita bahas adalah tentang project Fugu."
+    },
+    {
+      "start": 83.04,
+      "end": 86.88,
+      "text": "Yang tujuannya adalah untuk mengisi gap ya."
+    },
+    {
+      "start": 86.88,
+      "end": 88.64,
+      "text": "Kan kalau web itu biasanya,"
+    },
+    {
+      "start": 88.64,
+      "end": 94.16,
+      "text": "kalau dulu kan dikenal sebagai ya kapabilitasnya gitu aja."
+    },
+    {
+      "start": 94.16,
+      "end": 97.68,
+      "text": "Karena bagus banget web untuk buat jokumen nih."
+    },
+    {
+      "start": 97.68,
+      "end": 103.76,
+      "text": "Betul, kalau mobile itu bisa pake gyroscope lah,"
+    },
+    {
+      "start": 103.76,
+      "end": 108.32,
+      "text": "bisa bikin kompas lah, bisa misalkan apa lagi ya."
+    },
+    {
+      "start": 108.32,
+      "end": 113.2,
+      "text": "Bisa, apa, yang kalau weight block gitu ya."
+    },
+    {
+      "start": 113.2,
+      "end": 119.84,
+      "text": "GPS, sensor punya ya, apa pun sensor device."
+    },
+    {
+      "start": 119.84,
+      "end": 123.68,
+      "text": "Betul, USB, terus bisa ngeprint dll."
+    },
+    {
+      "start": 123.68,
+      "end": 129.84,
+      "text": "Nah, ternyata dengan salah satunya dengan inisiasi project Fugu ini,"
+    },
+    {
+      "start": 129.84,
+      "end": 132,
+      "text": "web itu bisa loh kesana gitu."
+    },
+    {
+      "start": 132,
+      "end": 136.48,
+      "text": "Nah, apa aja dan gimana kita akan bahas malam hari ini."
+    },
+    {
+      "start": 136.48,
+      "end": 141.2,
+      "text": "Dan salah satunya apa, inisiasi yang dilakukan oleh Google"
+    },
+    {
+      "start": 141.2,
+      "end": 144.8,
+      "text": "untuk membuat web ini lebih, apa ya, lebih..."
+    },
+    {
+      "start": 144.8,
+      "end": 147.04,
+      "text": "Lebih terasa natif."
+    },
+    {
+      "start": 147.04,
+      "end": 152.88,
+      "text": "Mempunyai kapabilitas mendekati atau bahkan menyamai natif."
+    },
+    {
+      "start": 152.88,
+      "end": 155.44,
+      "text": "Menyamai natif. Nah, itu..."
+    },
+    {
+      "start": 155.44,
+      "end": 159.92,
+      "text": "Namun bukan menyamai natif mobile, maksudnya ya."
+    },
+    {
+      "start": 159.92,
+      "end": 163.36,
+      "text": "Artinya natif ke, bukan mobile app ya."
+    },
+    {
+      "start": 163.36,
+      "end": 171.04,
+      "text": "Kemampuannya bisa, kan gini, web itu kan satu layer di atas operating system kan."
+    },
+    {
+      "start": 171.04,
+      "end": 173.6,
+      "text": "Satu layer di atas operating system."
+    },
+    {
+      "start": 173.6,
+      "end": 177.76,
+      "text": "Sedangkan kalau mobile app itu, dia nempelnya di operating systemnya."
+    },
+    {
+      "start": 177.76,
+      "end": 181.28,
+      "text": "Sedangkan web itu masih ada browser,"
+    },
+    {
+      "start": 181.28,
+      "end": 184.24,
+      "text": "lalu web page-nya kan."
+    },
+    {
+      "start": 184.24,
+      "end": 190.24,
+      "text": "Nah, artinya dengan Fugu ini, kita itu bisa mengakses lebih banyak kapabilitas"
+    },
+    {
+      "start": 190.24,
+      "end": 194.08,
+      "text": "yang dimiliki oleh mobile device ataupun desktop device."
+    },
+    {
+      "start": 194.08,
+      "end": 199.84,
+      "text": "Itu sih maksudnya, jadi lebih mendekatkan ke operating system."
+    },
+    {
+      "start": 199.84,
+      "end": 203.68,
+      "text": "Mengakses low level features."
+    },
+    {
+      "start": 203.68,
+      "end": 207.52,
+      "text": "Kalau contoh konkretnya, ya mungkin mengakses kamera, ya kan."
+    },
+    {
+      "start": 207.52,
+      "end": 214.48,
+      "text": "Kamera kan, apa, kamera itu ya di hape mungkin ada kamera, di macOS ada kamera,"
+    },
+    {
+      "start": 214.48,
+      "end": 219.04,
+      "text": "gimana nyalain kamera videonya, itu kan harus bisa mengakses ke layer"
+    },
+    {
+      "start": 219.04,
+      "end": 224.8,
+      "text": "yang lebih bawah lagi, atau sensor, atau apa-apa."
+    },
+    {
+      "start": 224.8,
+      "end": 231.68,
+      "text": "- Banyak, mulai dari kamera, NFC, Bluetooth. - NFC kan termasuk sensornya."
+    },
+    {
+      "start": 231.68,
+      "end": 234.72,
+      "text": "Maksudnya Bluetooth. Input-output."
+    },
+    {
+      "start": 234.72,
+      "end": 238.56,
+      "text": "Nah, terus bahkan hal sesimpel kayak share."
+    },
+    {
+      "start": 238.56,
+      "end": 243.52,
+      "text": "Kalau kita mau nge-share ya kan, itu tampilannya kan di Android punya sendiri,"
+    },
+    {
+      "start": 243.52,
+      "end": 248.96,
+      "text": "di macOS ada sendiri, dan sebagainya."
+    },
+    {
+      "start": 248.96,
+      "end": 259.52,
+      "text": "Ini mungkin kayak mengisi gap yang dulu diisi oleh phone gap."
+    },
+    {
+      "start": 259.52,
+      "end": 266.88,
+      "text": "Kordova, phone gap, itu mereka bisa mengakses beberapa API native kan."
+    },
+    {
+      "start": 266.88,
+      "end": 270.32,
+      "text": "- Kamera, GPS. - Betul, betul."
+    },
+    {
+      "start": 270.32,
+      "end": 275.84,
+      "text": "- Dan itu layernya dibikin sama mereka sendiri. - Iya, sama platform yang non-wet kan."
+    },
+    {
+      "start": 275.84,
+      "end": 283.12,
+      "text": "Sama parti, sama pihak perusahaan, perusahaan teknologi."
+    },
+    {
+      "start": 283.12,
+      "end": 288.64,
+      "text": "Intinya bukan non-browser ya, jadi mereka bikin sendiri, mereka buka sendiri API-nya."
+    },
+    {
+      "start": 288.64,
+      "end": 293.76,
+      "text": "- Betul, betul, betul. - Dan abis itu dibundle menjadi sebuah aplikasi,"
+    },
+    {
+      "start": 293.76,
+      "end": 296.96,
+      "text": "baik itu aplika ataupun iOS ya."
+    },
+    {
+      "start": 296.96,
+      "end": 301.44,
+      "text": "Padahal sebenarnya di belakang layar adalah dia HTML, CSS, JavaScript,"
+    },
+    {
+      "start": 301.44,
+      "end": 308.24,
+      "text": "ditambah HTML, CSS, JavaScript-nya bisa mengakses API mobile, device kan."
+    },
+    {
+      "start": 308.24,
+      "end": 315.52,
+      "text": "- Betul, betul, betul. Nah, ada banyak nih Project Fugu ini."
+    },
+    {
+      "start": 315.52,
+      "end": 323.84,
+      "text": "- Project Fugu, oke. Kita mulai... - Wow, bahkan tulis di kolom komentar."
+    },
+    {
+      "start": 323.84,
+      "end": 329.6,
+      "text": "- Iya, kalau untuk yang live, khusus teman-teman yang nonton live itu punya privilege untuk langsung nanya."
+    },
+    {
+      "start": 329.6,
+      "end": 335.76,
+      "text": "Tapi kalau teman-teman yang nontonnya rekaman nanti atau besok atau kapanpun,"
+    },
+    {
+      "start": 335.76,
+      "end": 339.84,
+      "text": "ya bisa tanyanya ke bit.ly/ngoblinweb ya."
+    },
+    {
+      "start": 339.84,
+      "end": 344.96,
+      "text": "Oke, kita bahas dulu tentang satu artikel pertama yaitu Project Fugu itu apa."
+    },
+    {
+      "start": 344.96,
+      "end": 347.52,
+      "text": "Tadi kita udah sempat bahas cukup banyak juga ya tentang..."
+    },
+    {
+      "start": 347.52,
+      "end": 353.2,
+      "text": "- Jadi Project Fugu itu kan sebetulnya nickname ya, kayak cuma nama biar catchy aja."
+    },
+    {
+      "start": 353.2,
+      "end": 359.04,
+      "text": "Nama aslinya itu kan, web capabilities project, nama resminya."
+    },
+    {
+      "start": 359.04,
+      "end": 361.6,
+      "text": "Yang diperkenalkan di Google."
+    },
+    {
+      "start": 361.6,
+      "end": 368.4,
+      "text": "- Tapi pada perkembangannya, pihak yang terlibat kan bukan cuma Google aja,"
+    },
+    {
+      "start": 368.4,
+      "end": 374.4,
+      "text": "tapi ya semua yang berkaitan sama ekosistem pengguna Chromium."
+    },
+    {
+      "start": 374.4,
+      "end": 377.6,
+      "text": "Jadi itu tuh, ada tuh, Microsoft, Intel."
+    },
+    {
+      "start": 377.6,
+      "end": 385.92,
+      "text": "Kalau nggak salah Samsung juga terlibat sama ada lagi apa sih itu yang konsultansi."
+    },
+    {
+      "start": 385.92,
+      "end": 391.04,
+      "text": "Punya semua yang berkaitan dengan ekosistem Chromium."
+    },
+    {
+      "start": 391.04,
+      "end": 397.44,
+      "text": "- Oke. Intel kenapa involved ya? Saya penasaran ya."
+    },
+    {
+      "start": 397.44,
+      "end": 402.56,
+      "text": "- Dia kan device itunya dipakai di HP-HP Android kali ya."
+    },
+    {
+      "start": 402.56,
+      "end": 405.12,
+      "text": "- Prosesornya ya."
+    },
+    {
+      "start": 405.12,
+      "end": 410.24,
+      "text": "- Intel kan nggak cuma bikin prosesor, banyak silikon-silikon lainnya."
+    },
+    {
+      "start": 410.24,
+      "end": 412.8,
+      "text": "- Grafik atau semacamnya."
+    },
+    {
+      "start": 412.8,
+      "end": 415.36,
+      "text": "- Oh iya, GPU-nya juga ya."
+    },
+    {
+      "start": 415.36,
+      "end": 417.92,
+      "text": "- Perang, perang, perang."
+    },
+    {
+      "start": 417.92,
+      "end": 425.6,
+      "text": "Dan ini sebenarnya adalah seperti web API"
+    },
+    {
+      "start": 425.6,
+      "end": 429.44,
+      "text": "yang belum dipulis. Benar nggak sih? Kayak eksperimental gitu."
+    },
+    {
+      "start": 429.44,
+      "end": 435.84,
+      "text": "Nanti ketika udah nature, dalam tanda kutip, \"Wah ini udah bisa nih diadopsi untuk browser yang lain,"
+    },
+    {
+      "start": 435.84,
+      "end": 440.24,
+      "text": "baru di-suggest untuk menjadi web API.\""
+    },
+    {
+      "start": 440.24,
+      "end": 446.64,
+      "text": "Sebetulnya statusnya, prosesnya, nanti kan ada di link lainnya."
+    },
+    {
+      "start": 446.64,
+      "end": 451.76,
+      "text": "Ya, kalau perkara eksperimental atau nggak, Fugu pun, API Fugu,"
+    },
+    {
+      "start": 451.76,
+      "end": 458.4,
+      "text": "ada beberapa step atau tahap yang dilalui dari yang masih paling eksperimental"
+    },
+    {
+      "start": 458.4,
+      "end": 465.84,
+      "text": "sampai yang udah mature, yang ibaratnya siap diadopsi vendor lain"
+    },
+    {
+      "start": 465.84,
+      "end": 470.96,
+      "text": "kalau memang vendor lain mau. Jadi macam-macam tahapannya."
+    },
+    {
+      "start": 470.96,
+      "end": 474.8,
+      "text": "- Tujulannya ini ya, salah satunya ya."
+    },
+    {
+      "start": 474.8,
+      "end": 481.2,
+      "text": "Jadi aplikasi web itu bisa melakukan apapun yang dilakukan oleh native app gitu ya, pengennya."
+    },
+    {
+      "start": 481.2,
+      "end": 487.6,
+      "text": "- Tapi jangan lupa itu bawahnya core tenets of the web tetap mempertimbangkan security,"
+    },
+    {
+      "start": 487.6,
+      "end": 491.44,
+      "text": "keamanan, kebenaran, dan privacy."
+    },
+    {
+      "start": 491.44,
+      "end": 496.56,
+      "text": "- Nah, ini berkaitan sama kenapa nickname-nya Fugu. Jadi ini nyambungnya ke situ sih ya."
+    },
+    {
+      "start": 496.56,
+      "end": 501.68,
+      "text": "- Kenapa Fugu? - Yang jawab yang udah nyoba makan Fugu."
+    },
+    {
+      "start": 501.68,
+      "end": 509.36,
+      "text": "- Fugu itu kalau ngeliat ini ya, Fugu itu ikan, ikan buntel."
+    },
+    {
+      "start": 509.36,
+      "end": 515.76,
+      "text": "- Ya, ikan buntel bener. Powerfish. - Ikan buntel tapi yang dari Jepang."
+    },
+    {
+      "start": 515.76,
+      "end": 523.04,
+      "text": "Kalau temen-temen nonton Finding Nemo itu ada satu ikan yang seperti normal,"
+    },
+    {
+      "start": 523.04,
+      "end": 526,
+      "text": "tapi dia stres, dia di bulet gitu."
+    },
+    {
+      "start": 526,
+      "end": 533.68,
+      "text": "- Itu tadi yang image yang foto gue kirim dia di WhatsApp itu."
+    },
+    {
+      "start": 533.68,
+      "end": 536.24,
+      "text": "- Oh ya, lupa ya. Nggak diambil ya."
+    },
+    {
+      "start": 536.24,
+      "end": 544.56,
+      "text": "- Itu kan ikan buntel Jepang ya, kalau disiapkan, itu beracun, racunnya mematikan"
+    },
+    {
+      "start": 544.56,
+      "end": 550.72,
+      "text": "sebagian punya banyak bagian yang beracun, tapi kalau di persiapannya bener,"
+    },
+    {
+      "start": 550.72,
+      "end": 555.6,
+      "text": "itu konon katanya enak banget. Nah, nggak tahu, yang pernah makan disini cuma fun."
+    },
+    {
+      "start": 555.6,
+      "end": 563.12,
+      "text": "- Bisa aja, bisa aja. Jadi kayak, apa ya rasanya, dia kayak daging ikan,"
+    },
+    {
+      "start": 563.12,
+      "end": 566.32,
+      "text": "lebih kenyal daripada daging ikan biasa. - Salmon."
+    },
+    {
+      "start": 566.32,
+      "end": 571.44,
+      "text": "- Nggak, karena dia dagingnya putih, kalau salmon kan dagingnya orange tuh."
+    },
+    {
+      "start": 571.44,
+      "end": 580.4,
+      "text": "Kalau bisa dibilang nggak sekenyal cumi-cumi, jadi putih kayak cumi-cumi,"
+    },
+    {
+      "start": 580.4,
+      "end": 584.48,
+      "text": "tapi tidak sekenyal cumi-cumi. Kan kalau cumi-cumi alot ya,"
+    },
+    {
+      "start": 584.48,
+      "end": 590.32,
+      "text": "anggap aja cumi-cumi sangat muda, yang dikunyah itu masih ada kekenyalan dikit,"
+    },
+    {
+      "start": 590.32,
+      "end": 598.56,
+      "text": "tapi bisa enak, tetapi rasanya relatif kehambar, kayak nggak ada rasa."
+    },
+    {
+      "start": 598.56,
+      "end": 603.2,
+      "text": "Kalau mau makannya pakai saus. - Oke, nggak se-hype itu ya."
+    },
+    {
+      "start": 603.2,
+      "end": 607.68,
+      "text": "- Iya, cuma teksturnya aja. Cuma nggak ada bau amisnya."
+    },
+    {
+      "start": 607.68,
+      "end": 613.12,
+      "text": "- Oh, oke. Cuma mungkin dalam bahasa Indonesia kali ya, jadi B aja,"
+    },
+    {
+      "start": 613.12,
+      "end": 616.8,
+      "text": "mungkin bagi perspektif orang Jepang, itu mungkin enak banget."
+    },
+    {
+      "start": 616.8,
+      "end": 621.6,
+      "text": "Apa, mitosnya itu konon enak banget. - Atau jangan-jangan kalau dimasak"
+    },
+    {
+      "start": 621.6,
+      "end": 624.96,
+      "text": "ala Indonesia mungkin lebih enak dengan bumbu-bumbu sepah-sepah Indonesia."
+    },
+    {
+      "start": 624.96,
+      "end": 630,
+      "text": "- Iya, itu mah ikan yang biasa aja, kalau dimasak baladu,"
+    },
+    {
+      "start": 630,
+      "end": 634.8,
+      "text": "ikan kris sama kering tempe itu nggak usah ikan eksotis."
+    },
+    {
+      "start": 634.8,
+      "end": 642.56,
+      "text": "Cuma intinya itu adalah ikan yang berbahaya. Bahaya kalau menyiapkannya salah,"
+    },
+    {
+      "start": 642.56,
+      "end": 648.4,
+      "text": "tapi kalau misalnya disiapkan dengan hati-hati, itu bisa jadi enak banget menurut orang Jepang."
+    },
+    {
+      "start": 648.4,
+      "end": 653.04,
+      "text": "Jadi nyambungnya sama API. Ini kan powerful banget,"
+    },
+    {
+      "start": 653.04,
+      "end": 657.92,
+      "text": "bisa membuka, bisa unlock kemampuan yang wow banget lah, wow banget,"
+    },
+    {
+      "start": 657.92,
+      "end": 663.68,
+      "text": "tapi disiapkannya harus dengan hati-hati, karena bisa kalau-kalau sembarangan."
+    },
+    {
+      "start": 663.68,
+      "end": 668.56,
+      "text": "- Security, trust, and privacy. - Iya, contoh-contoh sederhananya"
+    },
+    {
+      "start": 668.56,
+      "end": 673.92,
+      "text": "kalau misalkan apa, mungkin sekarang udah masuk ke web ya, apa file system."
+    },
+    {
+      "start": 673.92,
+      "end": 681.04,
+      "text": "Kita bisa membaca dan menulis file yang ada di PC atau di device kita."
+    },
+    {
+      "start": 681.04,
+      "end": 684.64,
+      "text": "Nah, kalau itu security-nya tidak dijaga, ya bisa bahaya."
+    },
+    {
+      "start": 684.64,
+      "end": 688.52,
+      "text": "Dia bisa buka semua folder kita, sebuah aplikasi web yang kita buka, misalkan"
+    },
+    {
+      "start": 688.52,
+      "end": 694.08,
+      "text": "ulului.com gitu kan, terus kita hapus. - Dikopi dulu semua, diambil, terus dihapus."
+    },
+    {
+      "start": 694.08,
+      "end": 698.56,
+      "text": "- RMS gitu kan, ya udah, nangis lah. - RMRF."
+    },
+    {
+      "start": 698.56,
+      "end": 704.4,
+      "text": "- Mending kalau cuma dihapus, kalau di-lock pakai, bukan, di-lock pakai apa itu,"
+    },
+    {
+      "start": 704.4,
+      "end": 711.28,
+      "text": "di-encrypt, terus di buat apa, kalau mau buka, bayar pakai bitcoin dulu contohnya."
+    },
+    {
+      "start": 711.28,
+      "end": 717.68,
+      "text": "- Oh iya, atau ya, kita bisa begini, dan miner, juga bisa melakukan apa lah ya,"
+    },
+    {
+      "start": 717.68,
+      "end": 722.64,
+      "text": "kalau udah, kita bisa taruh file di sebuah device orang gitu."
+    },
+    {
+      "start": 722.64,
+      "end": 729.48,
+      "text": "Nah, itu kan sangat berbahaya, makanya ini si Fugue ini juga dibikin juga"
+    },
+    {
+      "start": 729.48,
+      "end": 734,
+      "text": "dengan sangat hati-hati, jangan sampai merusak privacy, trust, dan security."
+    },
+    {
+      "start": 734,
+      "end": 742.4,
+      "text": "Ya, karena entry level web itu sangat cep, pertama untuk kemudahan di akses orang,"
+    },
+    {
+      "start": 742.4,
+      "end": 747.28,
+      "text": "tinggal mengunjungi situs atau dapat link dari mana, tinggal buka, itu langsung bisa"
+    },
+    {
+      "start": 747.28,
+      "end": 754.48,
+      "text": "mengakses device. Sedangkan kalau aplikasi, ada proses step-nya kan, dia harus download,"
+    },
+    {
+      "start": 754.48,
+      "end": 760.08,
+      "text": "habis download, terus kemudian install, berarti yang dia lakukan itu dengan secara sengaja."
+    },
+    {
+      "start": 760.08,
+      "end": 765.28,
+      "text": "- Ya, udah gitu kan ada ininya, ada, ini boleh nggak, akses kontak, boleh nggak,"
+    },
+    {
+      "start": 765.28,
+      "end": 768.8,
+      "text": "boleh nggak, ya walaupun kita accept-accept aja ya."
+    },
+    {
+      "start": 768.8,
+      "end": 774.96,
+      "text": "- Ya, anggap aja, anggap aja bukan mobile app ya, anggap aja kayak installable"
+    },
+    {
+      "start": 774.96,
+      "end": 782.08,
+      "text": "atau executable yang ada di operating system, kita download, terus kita klik 2x dulu kan,"
+    },
+    {
+      "start": 782.08,
+      "end": 788.88,
+      "text": "kita klik 2x, terus muncul install, itu secara sadar. Sedangkan kalau di web,"
+    },
+    {
+      "start": 788.88,
+      "end": 795.76,
+      "text": "kita tinggal buka web, halomannya, dan semua kapabilitas itu bisa langsung diakses,"
+    },
+    {
+      "start": 795.76,
+      "end": 802.96,
+      "text": "bisa diakses oleh situs dengan seijin kita tentunya. Nah, makanya perlu dibuat hati-hati itu,"
+    },
+    {
+      "start": 802.96,
+      "end": 809.76,
+      "text": "karena entry level web itu lebih mudah ke banyak orang ketimbang aplikasi."
+    },
+    {
+      "start": 809.76,
+      "end": 814.72,
+      "text": "- Ya, tinggal share link di WhatsApp atau di grup-grup, begitu diklik, langsung masuk ke"
+    },
+    {
+      "start": 814.72,
+      "end": 820.8,
+      "text": "web yang berbahaya gitu kan, itu gampang sekali. - Seandainya tidak, makanya perlu dibuat"
+    },
+    {
+      "start": 820.8,
+      "end": 827.36,
+      "text": "hati-hati kan, security, trust, dan privacy. - Ya, ngomongin Fugu, kalau Irwan pernah nyobain"
+    },
+    {
+      "start": 827.36,
+      "end": 833.12,
+      "text": "Fugu di Jepang, di Indonesia juga ada yang mirip. - Oh, ya di Makassar ya."
+    },
+    {
+      "start": 833.12,
+      "end": 839.2,
+      "text": "- Ya, dari jauhnya, ikan buntel juga. - Nah, itu bukan ikan buntel sebenarnya,"
+    },
+    {
+      "start": 839.2,
+      "end": 846.56,
+      "text": "jadi kulitnya itu keras banget. Kalo saya bilang waktu makan ini ini ikan hati peluru"
+    },
+    {
+      "start": 846.56,
+      "end": 850.4,
+      "text": "di tembak-tembus. - Oh, jadi peracun juga nggak?"
+    },
+    {
+      "start": 850.4,
+      "end": 855.84,
+      "text": "Maksud saya ada bagian yang peracun juga nggak? - Nggak ada. Kulitnya itu tebal banget,"
+    },
+    {
+      "start": 855.84,
+      "end": 861.76,
+      "text": "keras gitu. Jadi makannya pun hanya bisa diginiin, karena nggak bisa difilih,"
+    },
+    {
+      "start": 861.76,
+      "end": 865.6,
+      "text": "nggak bisa diapain, ya cuma dibongkar kerasnya, terus diambil, terus digoreng, udah."
+    },
+    {
+      "start": 865.6,
+      "end": 871.2,
+      "text": "Tapi enak sekali. Berbeda dengan ikan yang tadi Irwan makan biasa aja."
+    },
+    {
+      "start": 871.2,
+      "end": 881.68,
+      "text": "- Itu ada fotonya kalau mau dibuka. - Oke, kita lihat ya. Jadi sebenarnya"
+    },
+    {
+      "start": 881.68,
+      "end": 889.04,
+      "text": "si proyek Fugu ini adalah perpanjangan tangan dari web capabilities yang inisiasi oleh"
+    },
+    {
+      "start": 889.04,
+      "end": 896.08,
+      "text": "Microsoft dan Intel. Pujudannya adalah mendekatkan kemampuan web agar bisa mendekati"
+    },
+    {
+      "start": 896.08,
+      "end": 900.48,
+      "text": "native lah. Kita nggak bisa bilang kalau bakal menyayangi, tapi mungkin mendekati setidaknya"
+    },
+    {
+      "start": 900.48,
+      "end": 907.28,
+      "text": "kita udah bisa bikin aplikasi-aplikasi trend dengan API-API yang jauh lebih trend"
+    },
+    {
+      "start": 907.28,
+      "end": 912.24,
+      "text": "daripada beberapa tahun yang lalu. - Dan ini juga semacam menandai itu sih"
+    },
+    {
+      "start": 912.24,
+      "end": 919.44,
+      "text": "pergeseran. Jadi kalau dulu banget kan, di awalnya 90-an tuh web itu dibikin untuk"
+    },
+    {
+      "start": 919.44,
+      "end": 925.36,
+      "text": "dokumen ya, untuk dokumen yang saling terhubung. Nama dokumen ya bayangan kita kan,"
+    },
+    {
+      "start": 925.36,
+      "end": 934,
+      "text": "text, image, ya udah itu aja. Cuma kalau lamaan, ya link untuk saling menghubungkan"
+    },
+    {
+      "start": 934,
+      "end": 939.12,
+      "text": "dokumen atau image itu. Kan itu limited banget ya. Kita bayanginnya mungkin dokumen itu"
+    },
+    {
+      "start": 939.12,
+      "end": 944.64,
+      "text": "kayak Microsoft Word lah ya, yang familiar semua-semua orang. Microsoft Word dokumen"
+    },
+    {
+      "start": 944.64,
+      "end": 952.32,
+      "text": "atau semacamnya. Nah lama-lama kan di tahun mulai, ya satu dekade terakhir ini"
+    },
+    {
+      "start": 952.32,
+      "end": 959.36,
+      "text": "bergeser banget, kebutuhannya mulai geser, penggunaannya bergeser, web itu udah mulai"
+    },
+    {
+      "start": 959.36,
+      "end": 966.8,
+      "text": "apa ya, Epsi kayak aplikasi. Nah untuk salah satu penanda pergeseran itu ya"
+    },
+    {
+      "start": 966.8,
+      "end": 975.12,
+      "text": "ada project web capability alias project hugu ini. - Jadi sekarang itu web itu"
+    },
+    {
+      "start": 975.12,
+      "end": 984.48,
+      "text": "biasanya punya dua fungsi ya. Website atau halaman web yang isinya informasi"
+    },
+    {
+      "start": 984.48,
+      "end": 992,
+      "text": "hanya dalam bentuk text, image, link jadi, atau dokumen ya, dan ada aplikasi web."
+    },
+    {
+      "start": 992,
+      "end": 998.56,
+      "text": "Aplikasi web ini ya itu yang teman-teman akses setahari-hari. Ada Gmail misalkan,"
+    },
+    {
+      "start": 998.56,
+      "end": 1006.4,
+      "text": "ada Spotify memutar lagu, memutar video, YouTube, gitu ya. Itu kan semua aplikasi web,"
+    },
+    {
+      "start": 1006.4,
+      "end": 1012.16,
+      "text": "bukan lagi website gitu. Mungkin definisinya mungkin agak kemur juga, tapi kan"
+    },
+    {
+      "start": 1012.16,
+      "end": 1017.52,
+      "text": "kalau website itu asumsinya adalah ya sederhana lah, lepas lah gitu ya. Mungkin ada form,"
+    },
+    {
+      "start": 1017.52,
+      "end": 1022.96,
+      "text": "ada informasi. - Dokumen itu tadi. - Dokumen tadi kan. - Biasanya website itu"
+    },
+    {
+      "start": 1022.96,
+      "end": 1028.8,
+      "text": "blog atau company profile kalau bahasa sininya. - Company profile, marketing page lah ya."
+    },
+    {
+      "start": 1028.8,
+      "end": 1034.64,
+      "text": "- Marketing page. - Marketing atau landing. - Yes. Nah ketika kita misalkan"
+    },
+    {
+      "start": 1034.64,
+      "end": 1039.92,
+      "text": "katakan lah blog kan, depannya kan artikel kan. Cuman ada title, ada sub title,"
+    },
+    {
+      "start": 1039.92,
+      "end": 1044.8,
+      "text": "ada date, ada informasi-informasi lain, ada body, ada di dalamnya macem-macem,"
+    },
+    {
+      "start": 1044.8,
+      "end": 1050.08,
+      "text": "ada paragraf, ada misalkan ada image juga, ada video, ada audio dan lain-lain."
+    },
+    {
+      "start": 1050.08,
+      "end": 1055.52,
+      "text": "Pada saat kita mau bikin itu dokumen, kita bisa masuk ke admin. Nah adminnya itu"
+    },
+    {
+      "start": 1055.52,
+      "end": 1060.96,
+      "text": "ya bisa dibilang sebagai aplikasi web. Bisa jadi ya kayak gitu lah kira-kira."
+    },
+    {
+      "start": 1060.96,
+      "end": 1064.88,
+      "text": "Mungkin sedikit apa ilustrasi itu. - Ilustrasi web itu, ilustrasinya"
+    },
+    {
+      "start": 1064.88,
+      "end": 1071.12,
+      "text": "lebih gampang. CMS itu aplikasi web. Forum itu aplikasi web. Terus kemudian"
+    },
+    {
+      "start": 1071.12,
+      "end": 1077.92,
+      "text": "e-learning itu aplikasi web, e-commerce itu aplikasi web. - Chat app juga kalau ada"
+    },
+    {
+      "start": 1077.92,
+      "end": 1081.84,
+      "text": "yang bisa diakses dari web gitu ya. Nah itu juga aplikasi. - Aplikasi web."
+    },
+    {
+      "start": 1081.84,
+      "end": 1090.64,
+      "text": "- Yes. Nah apa aja sih produk Fugu? Nah di sini ada seluruh website dari Chrome"
+    },
+    {
+      "start": 1090.64,
+      "end": 1095.28,
+      "text": "yang baru ya kayaknya, lumayan baru. - Baru banget, baru banget ini baru diumumin."
+    },
+    {
+      "start": 1095.28,
+      "end": 1102,
+      "text": "- Baru diumumkan ya. Jadi namanya Fugu Showcase. Nah Fugu Showcase ini adalah daftar"
+    },
+    {
+      "start": 1102,
+      "end": 1109.28,
+      "text": "aplikasi atau tools-tools yang menggunakan Fugu sebagai API-nya. - API-nya Project Fugu."
+    },
+    {
+      "start": 1109.28,
+      "end": 1116.8,
+      "text": "- Iya. - Jadi kenapa Showcase ini? Jadi beberapa API yang latest itu,"
+    },
+    {
+      "start": 1116.8,
+      "end": 1125.2,
+      "text": "itu origin trial ya. Jadi hanya bisa digunakan kalau diijinkan. Gimana ya maksudnya?"
+    },
+    {
+      "start": 1125.2,
+      "end": 1131.12,
+      "text": "Bisa digunakan. - Harus apply. Harus apply spesifikasi untuk menggunakan API tersebut."
+    },
+    {
+      "start": 1131.12,
+      "end": 1137.44,
+      "text": "- Betul. Nah jadi beberapa situs ini makanya ada beberapa API hanya bisa digunakan"
+    },
+    {
+      "start": 1137.44,
+      "end": 1143.84,
+      "text": "oleh situs-situs tertentu saja. - Tapi ya, maksudnya itu terbuka untuk umum."
+    },
+    {
+      "start": 1143.84,
+      "end": 1148.56,
+      "text": "Jadi kalau teman-teman emang punya website yang atau web app yang kegunaannya,"
+    },
+    {
+      "start": 1148.56,
+      "end": 1157.2,
+      "text": "wah cocok nih buat kebutuhanku. Itu bisa apply, kalau udah di-proof, ya udah bisa langsung pake."
+    },
+    {
+      "start": 1157.2,
+      "end": 1162.72,
+      "text": "- Dan itu ada filter by category ya. Misalkan teman-teman yang kira apa ya? Contact Picker."
+    },
+    {
+      "start": 1162.72,
+      "end": 1166.8,
+      "text": "Oh, ternyata sekarang bisa Contact Picker ya, walaupun tidak di semua OS kan."
+    },
+    {
+      "start": 1166.8,
+      "end": 1175.44,
+      "text": "- Tinder. Ternyata ada web app-nya ya. - Tinder itu bukan hanya aplikasi, ada app-nya."
+    },
+    {
+      "start": 1175.44,
+      "end": 1180.56,
+      "text": "- Coba Mas Richard coba daftar, Gih. Kita sama-sama coba Mas Richard."
+    },
+    {
+      "start": 1180.56,
+      "end": 1190,
+      "text": "- Catfishing. Bukan catfishing, tapi pufferfishing. Cuma ini showcase ini berguna banget ya buat"
+    },
+    {
+      "start": 1190,
+      "end": 1196.32,
+      "text": "idir mungkin kita cari inspirasi. Kalau kita cuma lihat daftar API kan, yang ini apa sih?"
+    },
+    {
+      "start": 1196.32,
+      "end": 1201.84,
+      "text": "- Ini buat apa sih gunanya gimana? - Namanya debut atau code labs atau tutorial."
+    },
+    {
+      "start": 1201.84,
+      "end": 1209.04,
+      "text": "Pastikan kasusnya yang simple, MVP yang mendemonstrasikan fokus ke cara kerjanya."
+    },
+    {
+      "start": 1209.04,
+      "end": 1214.48,
+      "text": "Cuma kadang kan nggak menarik atau mungkin nggak relevan. Nah, kalau kita pengen contoh yang real world,"
+    },
+    {
+      "start": 1214.48,
+      "end": 1223.12,
+      "text": "ya udah kita cari di showcase itu. Mungkin bisa juga dipake buat ngebujuk tim lead kita misalnya"
+    },
+    {
+      "start": 1223.12,
+      "end": 1226.48,
+      "text": "atau stakeholder lainnya. Ini loh, bisa bikin kayak gini loh."
+    },
+    {
+      "start": 1226.48,
+      "end": 1234.72,
+      "text": "- Bisa bikin ini loh, video editor loh. Ada yang udah pakai Captut, tulisannya Captut."
+    },
+    {
+      "start": 1234.72,
+      "end": 1238.48,
+      "text": "- Captcut. - Captcut."
+    },
+    {
+      "start": 1238.48,
+      "end": 1242.08,
+      "text": "- Ini saya pakai, tapi yang aplikasinya ya, bukan yang web-nya."
+    },
+    {
+      "start": 1242.08,
+      "end": 1250.64,
+      "text": "Ternyata ini dah udah si web-nya. Ini buatan dari Biden, TikTok kalau nggak salah."
+    },
+    {
+      "start": 1250.64,
+      "end": 1256.8,
+      "text": "Jadi kita bisa edit video. - Dan gratis ya, nice."
+    },
+    {
+      "start": 1256.8,
+      "end": 1262.64,
+      "text": "- Ada satu video yang paling saya suka, yang buat saya menganggap ini adalah auto caption."
+    },
+    {
+      "start": 1262.64,
+      "end": 1267.36,
+      "text": "Jadi kita bisa generate subtitle, ada bahasa Indonesia-nya juga."
+    },
+    {
+      "start": 1267.36,
+      "end": 1272.16,
+      "text": "- Tapi bagus. - Beneran, jadi misalkan video,"
+    },
+    {
+      "start": 1272.16,
+      "end": 1279.52,
+      "text": "kemarin kan saya coba kan video, ngomongnya itu nyampur. Misalkan project.js masuk ke program ini,"
+    },
+    {
+      "start": 1279.52,
+      "end": 1286.32,
+      "text": "masuk ke folder ini, DPM install, terus ini adalah project.js. Itu terbaca, bener-bener tepat ya."
+    },
+    {
+      "start": 1286.32,
+      "end": 1291.44,
+      "text": "Subtitlenya, itu keren banget. - Wow, oke."
+    },
+    {
+      "start": 1291.44,
+      "end": 1296.72,
+      "text": "- Itu keren banget. Dan ternyata ini di web-nya juga dulu kap, gitu ya."
+    },
+    {
+      "start": 1296.72,
+      "end": 1301.2,
+      "text": "Dan ada apa? Kayak sticker yang lagi trending, gitu ya."
+    },
+    {
+      "start": 1301.2,
+      "end": 1305.6,
+      "text": "Kalau teman-teman yang selalu buka tiktok atau saya selalu dianggapin."
+    },
+    {
+      "start": 1305.6,
+      "end": 1312.72,
+      "text": "Dan API apa aja yang dipakai, di sini ada tulisan, gitu. Ada clipboard, ada case storage,"
+    },
+    {
+      "start": 1312.72,
+      "end": 1317.92,
+      "text": "ada device memory, dan system access. - Coba tau, itu clipboard, bisa nggak access clipboard aja,"
+    },
+    {
+      "start": 1317.92,
+      "end": 1321.28,
+      "text": "itu artinya web bisa nggak access clipboard yang kita loh."
+    },
+    {
+      "start": 1321.28,
+      "end": 1326.4,
+      "text": "- Clipboard yang DOS. - Dari sistem device kita masing-masing."
+    },
+    {
+      "start": 1326.4,
+      "end": 1336.4,
+      "text": "- Betul. Jadi, bisa kita copy dari misalnya dari, anggap aja bukan dari web ya,"
+    },
+    {
+      "start": 1336.4,
+      "end": 1343.36,
+      "text": "bukan dari sesama browser. Jadi dari aplikasi lain kita copy. - Kita nge-tip dinopet atau aplikasi lain."
+    },
+    {
+      "start": 1343.36,
+      "end": 1348.4,
+      "text": "- Terus kita paste-nya di web. Nah, itulah maksudnya asing."
+    },
+    {
+      "start": 1348.4,
+      "end": 1354.16,
+      "text": "- Iya. Yang paling berasa itu kalau teman-teman ikutin, misalkan ada yang pakai Figma nih."
+    },
+    {
+      "start": 1354.16,
+      "end": 1363.12,
+      "text": "Jaman dulu, mungkin sebelum dia menggunakan asing clipboard, itu kalau kita mau copy paste image,"
+    },
+    {
+      "start": 1363.12,
+      "end": 1370.64,
+      "text": "nggak bisa. Kalau sekarang, misalkan dari explorer atau dari finder gitu, kita copy image,"
+    },
+    {
+      "start": 1370.64,
+      "end": 1374.48,
+      "text": "control-c gitu image-nya, terus kita masuk ke Figma, kita control-paste. - Kita paste misalnya,"
+    },
+    {
+      "start": 1374.48,
+      "end": 1379.44,
+      "text": "kita punya Photoshop atau aplikasi lain, kita bisa. - Atau Photoshop atau apapun, gitu. Itu bisa."
+    },
+    {
+      "start": 1379.44,
+      "end": 1382.56,
+      "text": "Kalau dulu nggak bisa. - Yang bahkan bukan di browser."
+    },
+    {
+      "start": 1382.56,
+      "end": 1393.44,
+      "text": "Yang paling kerasa enak itu kalau bikin Google slide. Kalau jaman dulu, kalau mau masukin image,"
+    },
+    {
+      "start": 1393.44,
+      "end": 1399.84,
+      "text": "saya harus upload dulu ke drive atau ke mana, baru bisa di-attach ya. Kalau sekarang, drag-and-drop"
+    },
+    {
+      "start": 1399.84,
+      "end": 1407.52,
+      "text": "udah bisa. Drag-and-drop aja udah bisa, dia langsung otomatis. Meskipun drag-nya itu dari"
+    },
+    {
+      "start": 1407.52,
+      "end": 1415.6,
+      "text": "lokal folder ya, dari lokal folder, saya drop ke Google slide, dia otomatis upload."
+    },
+    {
+      "start": 1415.6,
+      "end": 1420.72,
+      "text": "- Hmm. - Aduh, perbedaannya."
+    },
+    {
+      "start": 1420.72,
+      "end": 1425.68,
+      "text": "- Oke, ini banyak sekali ya. Ada apa lagi yang menarik-menarik?"
+    },
+    {
+      "start": 1425.68,
+      "end": 1434,
+      "text": "- Coba yang... nggak bisa kayaknya, karena... - Kalau di laptop ya, nggak bisa."
+    },
+    {
+      "start": 1434,
+      "end": 1441.36,
+      "text": "Ada yang bisa main game di sini. - Kalau itu, file system access?"
+    },
+    {
+      "start": 1441.36,
+      "end": 1447.84,
+      "text": "- File system access. Tadi udah ini. - Oh, tuh."
+    },
+    {
+      "start": 1447.84,
+      "end": 1450.96,
+      "text": "- Yang tadi. - Snipe player. Bisa ya, berarti."
+    },
+    {
+      "start": 1450.96,
+      "end": 1459.36,
+      "text": "- Bisa. Yang tadi juga si Capcut. Capcut bisa, tail-draw bisa, escale-draw bisa."
+    },
+    {
+      "start": 1459.36,
+      "end": 1464.64,
+      "text": "- Github.dev bisa tuh. Wow. - Github.dev ini apa?"
+    },
+    {
+      "start": 1464.64,
+      "end": 1470.88,
+      "text": "- Nggak tahu, makanya. - Itu buat buka repubita."
+    },
+    {
+      "start": 1470.88,
+      "end": 1480.16,
+      "text": "- Facebook ya? Facebook di browser, di cloud. - Iya, dan bahkan bisa install extension"
+    },
+    {
+      "start": 1480.16,
+      "end": 1483.28,
+      "text": "dan sebagainya. - Pasot Github-nya Mas Liza apa tuh?"
+    },
+    {
+      "start": 1483.28,
+      "end": 1494,
+      "text": "- Coba-coba ya. Ingat lho. Fugu itu adalah security trust and privacy."
+    },
+    {
+      "start": 1494,
+      "end": 1497.52,
+      "text": "Tolong dihormati ya. - Password-nya 1-8."
+    },
+    {
+      "start": 1497.52,
+      "end": 1503.2,
+      "text": "- Password-nya enter aja. - Password-nya pesan dulu."
+    },
+    {
+      "start": 1503.2,
+      "end": 1513.52,
+      "text": "- Pesan dulu. - Dari coffee. Selamat malam Audi."
+    },
+    {
+      "start": 1513.52,
+      "end": 1519.2,
+      "text": "- Selamat malam. - Nah, apa nih?"
+    },
+    {
+      "start": 1519.2,
+      "end": 1528.32,
+      "text": "Jadi, jadi ngeblank kan gara-gara tadi."
+    },
+    {
+      "start": 1528.32,
+      "end": 1534.32,
+      "text": "- Oke. Ini kan showcase-nya nih. Jadi kalau temen-temen pengen tahu,"
+    },
+    {
+      "start": 1534.32,
+      "end": 1540.72,
+      "text": "langsung ke showcase, pengen lihat ada aplikasi apa aja dibangun dengan menggunakan showcase."
+    },
+    {
+      "start": 1540.72,
+      "end": 1547.2,
+      "text": "- API, project Fugu. Ada banyak banget soalnya API-nya."
+    },
+    {
+      "start": 1547.2,
+      "end": 1554.4,
+      "text": "- Ini bisa di, yang paling popular ada yang temen-temen tahu ada nggak ya?"
+    },
+    {
+      "start": 1554.4,
+      "end": 1561.44,
+      "text": "- Figma, tadi ada Figma. - Figma, ada banyak lah ini."
+    },
+    {
+      "start": 1561.44,
+      "end": 1568.8,
+      "text": "- Nah, kalau pengen tahu ada apa aja, apa, Fugu API, dan statunya sudah sampai mana,"
+    },
+    {
+      "start": 1568.8,
+      "end": 1577.2,
+      "text": "ada tracker. Nah, Fugu ini tracker, web. Contohnya, web Bluetooth API ini ternyata dari Fugu ya."
+    },
+    {
+      "start": 1577.2,
+      "end": 1585.28,
+      "text": "- Itu udah ship, udah lama. - Udah ya. Nah, kalau kita lihat itu kan list-nya di kelompokan"
+    },
+    {
+      "start": 1585.28,
+      "end": 1591.12,
+      "text": "jadi beberapa kategori berdasarkan status-nya yang tadi kita udah bahas sekilas ya."
+    },
+    {
+      "start": 1591.12,
+      "end": 1598.24,
+      "text": "Yang paling atas itu status-nya udah ship. Nah, terus kalau misalnya slide lagi sedikit ke bawah."
+    },
+    {
+      "start": 1598.24,
+      "end": 1608.72,
+      "text": "- Oke, sebentar. Nah, ini. - Context API. - Trial. - Ada tadi developer Trial."
+    },
+    {
+      "start": 1608.72,
+      "end": 1615.68,
+      "text": "Nah, itu ada detail-nya juga kalau mau tahu keterangan apa sih maksudnya status-status itu."
+    },
+    {
+      "start": 1615.68,
+      "end": 1622.16,
+      "text": "- Bisa diklik ya. - Nah, biar flag ini berarti kita harus,"
+    },
+    {
+      "start": 1622.16,
+      "end": 1631.84,
+      "text": "kita harus ke setting Chromium atau browser, kemudian kita nyalakan fitur, misalkan sensor"
+    },
+    {
+      "start": 1631.84,
+      "end": 1641.44,
+      "text": "atau notification atau semuanya ini ya. Gitu ya. - Terus ada yang started. - Baru mulai."
+    },
+    {
+      "start": 1641.44,
+      "end": 1649.2,
+      "text": "- Nah, kalau started itu yang experimental murni yang masih itu API-nya bisa tiba-tiba berubah."
+    },
+    {
+      "start": 1649.2,
+      "end": 1655.76,
+      "text": "Maksudnya bisa berubah sewaktu-waktu kalau kita pakai itu ya ekspektasinya kita ngasih feedback"
+    },
+    {
+      "start": 1655.76,
+      "end": 1662.96,
+      "text": "karena yang nggak nyaman atau bermasalah. - Bisa jadi tinggalkan juga kalau nggak ada banyak."
+    },
+    {
+      "start": 1662.96,
+      "end": 1669.12,
+      "text": "- Gak ada yang pakai. - Ada detection. Ini kayak start-up ya."
+    },
+    {
+      "start": 1669.12,
+      "end": 1677.12,
+      "text": "Banyak ide ini masukin ke sini gitu. Banyaknya pakai ini. - Coba buka itunya deh, apa?"
+    },
+    {
+      "start": 1677.12,
+      "end": 1686.72,
+      "text": "- Mereka di definisi status-statusnya, ke atas dikit. Nah, details. Nah, itu tuh jadi paling atas,"
+    },
+    {
+      "start": 1686.72,
+      "end": 1696.96,
+      "text": "paling atas dulu. - Behind the flag. - Atasnya lagi. - Oh, ini, iya. - Atasnya lagi, paling atas."
+    },
+    {
+      "start": 1696.96,
+      "end": 1702.8,
+      "text": "Paling atas kan stable tuh, berarti itu udah launching, beneran launching, ada di semua browser"
+    },
+    {
+      "start": 1702.8,
+      "end": 1710.88,
+      "text": "yang Chromium-based. Dari Google Chrome, Edge, Brave dan lain-lain. Terus tadi origin trial kan kita"
+    },
+    {
+      "start": 1710.88,
+      "end": 1719.12,
+      "text": "udah bahas juga ya, sekilas. Nah, itu bisa apply. - Apply untuk menggunakan kita harus apply. - Di domain kita."
+    },
+    {
+      "start": 1719.12,
+      "end": 1728.72,
+      "text": "- Di domain kita. - Jadi kita sebagai pemilik situs, pemilik web app yang mau menggunakan kita yang daftar,"
+    },
+    {
+      "start": 1728.72,
+      "end": 1734.4,
+      "text": "tapi user kita nggak perlu ngapa-ngapain. Jadi, maksudnya user yang menggunakan feature kita,"
+    },
+    {
+      "start": 1734.4,
+      "end": 1742.32,
+      "text": "kalau udah prove, ya udah, bisa langsung pakai. Nah, bawahnya lagi tuh flag. Kalau flag itu user-nya yang"
+    },
+    {
+      "start": 1742.32,
+      "end": 1750.48,
+      "text": "harus mengaktifkan feature itu. Jadi, nggak bisa tiba-tiba langsung pakai. - Ini developer trial,"
+    },
+    {
+      "start": 1750.48,
+      "end": 1758.24,
+      "text": "karena harus masuk ke Chrome flag, cari feature itu, diaktifkan. - Jadi, ya kayak buat internal lah,"
+    },
+    {
+      "start": 1758.24,
+      "end": 1767.92,
+      "text": "mungkin kita punya QA, buat QA kita sendiri, atau mungkin kita pengen, kita bikin library atau semacamnya"
+    },
+    {
+      "start": 1767.92,
+      "end": 1774.48,
+      "text": "yang konsumennya adalah developer juga. Jadi, kita nyuruh, kita nyuruh user kita yang mana mereka sebenarnya"
+    },
+    {
+      "start": 1774.48,
+      "end": 1783.52,
+      "text": "developer juga buat ngaktifkan feature itu, misalnya. Ya udah, di situ, started sama consideration."
+    },
+    {
+      "start": 1783.52,
+      "end": 1792.48,
+      "text": "- Sama ada consideration. Ini backlog. - Iya. - Ohnya makin ke bawah, makin experimental, makin aneh-aneh."
+    },
+    {
+      "start": 1792.48,
+      "end": 1797.52,
+      "text": "- Jadi, hanya suggestion itu, apa, yang ide aja ya. Oh, ini kayaknya bagus. - Iya, ide aja."
+    },
+    {
+      "start": 1797.52,
+      "end": 1802.72,
+      "text": "- Abis itu nanti dia suka. - Tapi harus, ide-nya juga harus, ini sih kan ada showcase-nya juga kan."
+    },
+    {
+      "start": 1802.72,
+      "end": 1809.52,
+      "text": "- Oh iya. Harus-harus proposal, kan? - Iya, proposal. - Jadi, theoretically, teorinya mah kalau kita punya"
+    },
+    {
+      "start": 1809.52,
+      "end": 1819.12,
+      "text": "ide apapun, kita bisa suggest juga. Cuma ya belum tentu di... - Tentu, diterima. - Habis disugest, kita harus follow-up,"
+    },
+    {
+      "start": 1819.12,
+      "end": 1830.56,
+      "text": "terus kayak ikut, harus kejar. - Terus habis itu, habis itu yang developer siapa? - Ya, kalau dianggap,"
+    },
+    {
+      "start": 1830.56,
+      "end": 1838.56,
+      "text": "kalau dianggap itu fiturnya menarik, ya berarti kan nanti akan ada timnya yang akan di-assign untuk itu."
+    },
+    {
+      "start": 1838.56,
+      "end": 1849.6,
+      "text": "- Iya, iya, iya, iya. Oke. Next-nya, kita ngomongin apa lagi nih? Ini udah? Perlu dihubungi ini udah ya."
+    },
+    {
+      "start": 1849.6,
+      "end": 1859.6,
+      "text": "- Showcase. - Terus ini adalah tipset. Tipset ini adalah untuk... - Apa lagi? - Nah, itu sebetulnya yang tadi sih."
+    },
+    {
+      "start": 1859.6,
+      "end": 1869.6,
+      "text": "- Terus prosesnya. - Proses. Anyone can suggest. Kemudian ditulis, apa, dalam tulisannya. - Terus menulis detail,"
+    },
+    {
+      "start": 1869.6,
+      "end": 1877.6,
+      "text": "explainer. Jadi kita ngusulin, nggak bisa cuma minta-minta feature aja, kita mesti bikin explainer, terus kira-kira"
+    },
+    {
+      "start": 1877.6,
+      "end": 1887.6,
+      "text": "API-nya, bentuknya seperti ini. - Terus habis itu didiskusikan, kalau ada feedback, mungkin dokumennya bisa ditulis apa,"
+    },
+    {
+      "start": 1887.6,
+      "end": 1897.6,
+      "text": "ditulis ulang, direvisi, gitu ya, kayak ini ya, kayak ngaduin bidul skripsi, kan? Habis itu baru dokumennya"
+    },
+    {
+      "start": 1897.6,
+      "end": 1909.6,
+      "text": "dimasukkan, di-issue ke technical architect group, architect group dari Waiting J. Kemudian kalau udah berhasil di-review,"
+    },
+    {
+      "start": 1909.6,
+      "end": 1918.6,
+      "text": "- Deformal specification-nya. - Deformal specification-nya. Jadi yang sering kita bahas ya, ini kan feature-feature ini bukan proprietary,"
+    },
+    {
+      "start": 1918.6,
+      "end": 1928.6,
+      "text": "nggak ada yang punya. Maksudnya, ini bukan punya Google, walaupun yang di-develop oleh Google atau Samsung atau Microsoft,"
+    },
+    {
+      "start": 1928.6,
+      "end": 1940.6,
+      "text": "API ini bukan milik Google yang dipatenkan atau proprietary. Implementasinya, iya, yang di Google Chrome misalnya ya"
+    },
+    {
+      "start": 1940.6,
+      "end": 1949.6,
+      "text": "punyanya Google, yang di Microsoft Edge punyanya Edge. Tapi kalau di web, apapun itu berdasarkan spesifikasi,"
+    },
+    {
+      "start": 1949.6,
+      "end": 1958.6,
+      "text": "spesifikasinya itu ya, nanti kalau udah masuk tahap terakhir, stable, bisa diadopsi siapapun, nggak harus bayar,"
+    },
+    {
+      "start": 1958.6,
+      "end": 1966.6,
+      "text": "nggak harus minta izin atau apapun. Jadi ini yang diketahui di tahap ini, ini bahkan nggak coding sama sekali,"
+    },
+    {
+      "start": 1966.6,
+      "end": 1975.6,
+      "text": "belum coding sama sekali baru spesifikasinya. - Ya, dan spesifikasi ini disiapkan untuk bisa bergeran di semua platform"
+    },
+    {
+      "start": 1975.6,
+      "end": 1983.6,
+      "text": "atau di semua browser ya, bahannya Chromium ya. Karena ada hubungan juga sama W3C. Gimana, gimana?"
+    },
+    {
+      "start": 1983.6,
+      "end": 1990.6,
+      "text": "- Pada saat yang sama ya, developer yang ngerjain Chromium ya sambil bikin juga, bikin implementasinya."
+    },
+    {
+      "start": 1990.6,
+      "end": 1999.6,
+      "text": "- Oke, kemudian dari sana udah direview berhasil masuk ke implementasi, proses implementasinya,"
+    },
+    {
+      "start": 1999.6,
+      "end": 2007.6,
+      "text": "kalau udah mulai didemol atau udah berapa pasien gitu ya, bisa di-launch itu melalui flight nita."
+    },
+    {
+      "start": 2007.6,
+      "end": 2017.6,
+      "text": "- Oh, kok ilang? - Iya, kayak internet masih bisa mulai lambat."
+    },
+    {
+      "start": 2017.6,
+      "end": 2023.6,
+      "text": "- Masih audionya ada, screenshotnya ada. - Oke, lanjut, lanjut, lanjut."
+    },
+    {
+      "start": 2023.6,
+      "end": 2032.6,
+      "text": "- Yang penting masih bisa ngomong sama screenshot lah. - Masih bisa ngomong, iya, oke lah."
+    },
+    {
+      "start": 2032.6,
+      "end": 2042.6,
+      "text": "API-nya berhasil dikomentasi kita bisa pake developer tadi ya, yang kita sebutin developer itu,"
+    },
+    {
+      "start": 2042.6,
+      "end": 2055.6,
+      "text": "aksesnya di setting ya, kalau misalkan kita pake Chromium, ya Chromium.2.0/flex. Tapi kalau misalkan Brave, misalkan dia jadinya Brave.2.0/flex."
+    },
+    {
+      "start": 2055.6,
+      "end": 2063.6,
+      "text": "Edge juga sama, gitu. Nah, di situ nanti ada fitur-fitur yang sesuai, yang dingin kan."
+    },
+    {
+      "start": 2063.6,
+      "end": 2073.6,
+      "text": "Setelah itu masuk ke Stabil, Stabil ini masuk ke Original."
+    },
+    {
+      "start": 2073.6,
+      "end": 2081.6,
+      "text": "- Lanjut, lanjut, lanjut, dijelaskan. - Kalau udah ada token, ya itu tadi."
+    },
+    {
+      "start": 2081.6,
+      "end": 2088.6,
+      "text": "Tadi kayaknya kita udah bahas ya soalnya di yang sebelumnya. Kalau misalnya sudah, jadi dapet token,"
+    },
+    {
+      "start": 2088.6,
+      "end": 2097.6,
+      "text": "kalau misalnya website itu atau aplikasi itu pakai token tersebut, ya di semua user, otomatis bisa langsung dipake."
+    },
+    {
+      "start": 2097.6,
+      "end": 2104.6,
+      "text": "Nah, tahap selanjutnya, shape Stable."
+    },
+    {
+      "start": 2104.6,
+      "end": 2113.6,
+      "text": "- Itu berarti udah di atas di semua ya? - Di browser-browser Chromium."
+    },
+    {
+      "start": 2113.6,
+      "end": 2119.6,
+      "text": "- Di Chromium-based browser. - Nah, proses dia untuk, katakanlah,"
+    },
+    {
+      "start": 2119.6,
+      "end": 2125.6,
+      "text": "\"Oh, ini bagus nih, terus kita mau minta push ke browser lain, ada nggak sih di sini?\""
+    },
+    {
+      "start": 2125.6,
+      "end": 2133.6,
+      "text": "- Bukan, sebenarnya bukan nge-push ya, jadi browser lain itu memilih, kan sudah jadikan standar."
+    },
+    {
+      "start": 2133.6,
+      "end": 2141.6,
+      "text": "Kalau memang, apa, kan sudah berjalan dan adopsinya ternyata di user yang di Chromium itu banyak,"
+    },
+    {
+      "start": 2141.6,
+      "end": 2147.6,
+      "text": "dan intresnya banyak untuk menggunakan itu, contohnya Bluetooth API, contohnya ya."
+    },
+    {
+      "start": 2147.6,
+      "end": 2157.6,
+      "text": "Nah, browser lain mulai-mulai, \"Oh, ternyata sudah ada standar Bluetooth API.\" Mereka mulai mengadopsinya, seperti itu."
+    },
+    {
+      "start": 2157.6,
+      "end": 2165.6,
+      "text": "- Nah, ini kelebihannya. - Bisa jadi nggak sih beberapa API yang ada di sini itu"
+    },
+    {
+      "start": 2165.6,
+      "end": 2171.6,
+      "text": "jadi interop, bisa juga kali ya? Yang kayak... - Klub! Masih bisa hilang."
+    },
+    {
+      "start": 2171.6,
+      "end": 2176.6,
+      "text": "- Iya, tapi skrencernya tetap... - Untuk skrencernya malas sih kali."
+    },
+    {
+      "start": 2176.6,
+      "end": 2184.6,
+      "text": "- Bisa juga berarti ya dari Fugu API ini masuk juga ke interopability yang di project interop itu?"
+    },
+    {
+      "start": 2184.6,
+      "end": 2191.6,
+      "text": "Bisa juga kali ya? - Bisa aja, cuma kan sebetulnya tujuannya beda."
+    },
+    {
+      "start": 2191.6,
+      "end": 2195.6,
+      "text": "- Bisa aja. - Bisa aja, cuma kalau Fugu ini kan tujuannya itu tadi"
+    },
+    {
+      "start": 2195.6,
+      "end": 2200.6,
+      "text": "bikin feature-feature web yang mendekati kemampuan atau kapabilitas native."
+    },
+    {
+      "start": 2200.6,
+      "end": 2207.6,
+      "text": "Sedangkan kalau interop itu tujuan utamanya memastikan semua antar browser"
+    },
+    {
+      "start": 2207.6,
+      "end": 2213.6,
+      "text": "bisa bekerja dengan konsisten, dengan streamline, developer bisa pakai dengan nyaman."
+    },
+    {
+      "start": 2213.6,
+      "end": 2222.6,
+      "text": "Cuma kita lihat juga skopnya ini sebenarnya agak beda kalau interop itu kelebihannya dia adalah skopnya paling luas"
+    },
+    {
+      "start": 2222.6,
+      "end": 2230.6,
+      "text": "karena didukung semua vendor dari Chromium sampai Mozilla, sampai Apple dengan Safari WebKit"
+    },
+    {
+      "start": 2230.6,
+      "end": 2238.6,
+      "text": "itu udah kerja sama semua. Sedangkan kalau Fugu ini kan project Fugu skopnya sedikit lebih sempit Chromium"
+    },
+    {
+      "start": 2238.6,
+      "end": 2245.6,
+      "text": "bukan cuma Google, cuma ya kan Google, Microsoft, Samsung, Intel. Jadi skopnya lebih sempit."
+    },
+    {
+      "start": 2245.6,
+      "end": 2250.6,
+      "text": "Nah, kadang tuh concernnya sebenarnya orang-orang yang pengen pakai API project Fugu ini kan"
+    },
+    {
+      "start": 2250.6,
+      "end": 2256.6,
+      "text": "gimana ya punya feature tapi cuma bisa dipakai di Chromium."
+    },
+    {
+      "start": 2256.6,
+      "end": 2260.6,
+      "text": "- Oh, Chromium. Itu gimana ya? - Chromium-based."
+    },
+    {
+      "start": 2260.6,
+      "end": 2267.6,
+      "text": "Nah, sebetulnya itu kalau menurut aku ya antara justified dan nggak justified sih."
+    },
+    {
+      "start": 2267.6,
+      "end": 2275.6,
+      "text": "Maksudnya emang kenyataannya kan sekarang ini sebagian besar API project Fugu ya emang cuma Chromium-based."
+    },
+    {
+      "start": 2275.6,
+      "end": 2280.6,
+      "text": "Jadi nggak jalan di Firefox maupun Safari."
+    },
+    {
+      "start": 2280.6,
+      "end": 2290.6,
+      "text": "Tapi di sisi lain itu kan bullet point terakhir tuh sebetulnya menjelaskan bahwa ini kan standar spesifikasi"
+    },
+    {
+      "start": 2290.6,
+      "end": 2299.6,
+      "text": "jadi bukan milik, bukan punya siapapun spesifikasi itu kalau misalnya banyak yang suka, banyak yang pakai,"
+    },
+    {
+      "start": 2299.6,
+      "end": 2307.6,
+      "text": "dianggap menarik, ya nggak tertutup kemungkinan Firefox atau Safari atau misalnya nanti ada vendor lain"
+    },
+    {
+      "start": 2307.6,
+      "end": 2315.6,
+      "text": "bisa mengadopsi itu. Tadi udah ada contohnya dua, async clipboard sama web share."
+    },
+    {
+      "start": 2315.6,
+      "end": 2321.6,
+      "text": "- Oh iya, web share sudah diadopsi sama browser lain ya Firefox dan Safari."
+    },
+    {
+      "start": 2321.6,
+      "end": 2331.6,
+      "text": "- Jadi bukan nggak mungkin, bukan mustahil bisa suatu saat API-API itu bisa jalan di Firefox dan Safari juga, walaupun sedikit."
+    },
+    {
+      "start": 2331.6,
+      "end": 2336.6,
+      "text": "Cuma mungkin ini kelebihan dibanding browser world jaman dulu."
+    },
+    {
+      "start": 2336.6,
+      "end": 2342.6,
+      "text": "Jaman dulu banget kan konon Netscape Navigator sama Internet Explorer itu perang ya."
+    },
+    {
+      "start": 2342.6,
+      "end": 2350.6,
+      "text": "Cuma kalau perang yang versi jaman dulu itu perangnya rada nggak enak karena mereka semua bikinnya proprietary, beneran."
+    },
+    {
+      "start": 2350.6,
+      "end": 2355.6,
+      "text": "Misalnya untuk feature yang sama nih, apa, clipboard."
+    },
+    {
+      "start": 2355.6,
+      "end": 2363.6,
+      "text": "Si Netscape Navigator bikin sendiri, beneran rahasia punya sendiri, Internet Explorer bikin sendiri."
+    },
+    {
+      "start": 2363.6,
+      "end": 2368.6,
+      "text": "API-nya lain, beneran jadi harus ngoding dua kali, pusing nggak tuh."
+    },
+    {
+      "start": 2368.6,
+      "end": 2372.6,
+      "text": "- Betul, betul, betul. - Nah gimana kalau sekarang browser-nya banyak,"
+    },
+    {
+      "start": 2372.6,
+      "end": 2377.6,
+      "text": "browser ada lima, nggak mungkin kita bikin developer bikin lima kali."
+    },
+    {
+      "start": 2377.6,
+      "end": 2384.6,
+      "text": "Nah untungnya sekarang udah, walaupun kalau mungkin persaingan atau apa ya masih ada ya."
+    },
+    {
+      "start": 2384.6,
+      "end": 2393.6,
+      "text": "Cuma kalau dari segi teknis API-nya bakal sama karena berbasis standar si spesifikasi itu tadi."
+    },
+    {
+      "start": 2393.6,
+      "end": 2398.6,
+      "text": "Jadi minimal nggak sesuruh jaman dulu lah."
+    },
+    {
+      "start": 2398.6,
+      "end": 2405.6,
+      "text": "- Terus bagaimana kalau cara teman-teman bisa mulai kalau pengen adopsi project Fugu?"
+    },
+    {
+      "start": 2405.6,
+      "end": 2410.6,
+      "text": "- Ya itu balik ke, mungkin balik ke tracker dulu ya, tracker atau showcase."
+    },
+    {
+      "start": 2410.6,
+      "end": 2415.6,
+      "text": "Pertama kan kita masih milih dulu nih mana yang sesuai sama kebutuhan."
+    },
+    {
+      "start": 2415.6,
+      "end": 2422.6,
+      "text": "- Itu tuh ada di link yang terakhir tuh Mas Dizah, di Boost Your Blah Blah Blah, paling kanan."
+    },
+    {
+      "start": 2422.6,
+      "end": 2427.6,
+      "text": "- Iya nah. - Nah tuh ada codelab-nya juga kalau pengen coba-joba."
+    },
+    {
+      "start": 2427.6,
+      "end": 2430.6,
+      "text": "- Mas Dizah udah mulai duluan tuh. - Apa tuh?"
+    },
+    {
+      "start": 2430.6,
+      "end": 2434.6,
+      "text": "- Udah selesai malu tuh. - Udah selesai tuh, nah."
+    },
+    {
+      "start": 2434.6,
+      "end": 2446.6,
+      "text": "Jadi teman-teman bisa kesini nanti developers.google.com/learn/pathways/fugu-apis."
+    },
+    {
+      "start": 2446.6,
+      "end": 2456.6,
+      "text": "Mulai aja, jadi ambil codelab-nya ada 8 aktivitas disini dan bisa coba-coba nih."
+    },
+    {
+      "start": 2456.6,
+      "end": 2466.6,
+      "text": "Bisa coba-coba SMS OTP, bisa tab App Mode di PWA, bisa akses hardware seperti Bluetooth, NFC."
+    },
+    {
+      "start": 2466.6,
+      "end": 2470.6,
+      "text": "Eh nggak tahu apa aja sih yang di codelab ini, gue belum coba yang akses hardware."
+    },
+    {
+      "start": 2470.6,
+      "end": 2478.6,
+      "text": "Dan coba scroll lagi ke bawah, bisa connect ke Uncommon Higher Input Device."
+    },
+    {
+      "start": 2478.6,
+      "end": 2487.6,
+      "text": "- HID itu apa sih? Higher Input Device? - HID? Itu yang apa sih? Elektronik analog kan?"
+    },
+    {
+      "start": 2487.6,
+      "end": 2496.6,
+      "text": "- Elektronik yang lawas? - Oh bukan, HID Device itu Human Interface Device."
+    },
+    {
+      "start": 2496.6,
+      "end": 2500.6,
+      "text": "- Itu apa? - Itu apa sih? Yang kayak..."
+    },
+    {
+      "start": 2500.6,
+      "end": 2503.6,
+      "text": "Nah, dibuka aja, dibuka aja padunya."
+    },
+    {
+      "start": 2503.6,
+      "end": 2507.6,
+      "text": "- Contohnya apa nih? - Joystick."
+    },
+    {
+      "start": 2507.6,
+      "end": 2510.6,
+      "text": "- Oh bukan, mouse. - PS2."
+    },
+    {
+      "start": 2510.6,
+      "end": 2515.6,
+      "text": "- Mouse, mouse, mouse. - Mouse, mouse, mouse, mouse, mouse."
+    },
+    {
+      "start": 2515.6,
+      "end": 2521.6,
+      "text": "Gamepad, touch screen, terus balik lagi ke Bus."
+    },
+    {
+      "start": 2521.6,
+      "end": 2526.6,
+      "text": "Terus lanjut lagi bisa baca dari serial port, kalau memang main IoT ya."
+    },
+    {
+      "start": 2526.6,
+      "end": 2531.6,
+      "text": "Terus kemudian akses USB dan streams."
+    },
+    {
+      "start": 2531.6,
+      "end": 2538.6,
+      "text": "Streams itu untuk itu ya, apa? Kayak video audio tapi yang versi mentahnya ya buat diolah lagi."
+    },
+    {
+      "start": 2538.6,
+      "end": 2552.6,
+      "text": "- Yang buat live streaming? - Live streaming bisa, atau editing misalnya, video editing-nya kayak si CapCut tadi itu."
+    },
+    {
+      "start": 2552.6,
+      "end": 2560.6,
+      "text": "Contohnya ada... Projek-projek Fugu ini menarik ya."
+    },
+    {
+      "start": 2560.6,
+      "end": 2567.6,
+      "text": "Banyak hal-hal yang lucu-lucu, yang unik-unik juga. Kayak Text Detection API, Image Recognition API itu sudah ada."
+    },
+    {
+      "start": 2567.6,
+      "end": 2572.6,
+      "text": "- Jadi nggak perlu punya... - Itu Fugu bukan sih? Text Detection?"
+    },
+    {
+      "start": 2572.6,
+      "end": 2580.6,
+      "text": "- WAPI itu WAPI. - WAPI itu Fugu."
+    },
+    {
+      "start": 2580.6,
+      "end": 2584.6,
+      "text": "- Masih masuk Fugu ya? - Fugu, masih masuk Fugu."
+    },
+    {
+      "start": 2584.6,
+      "end": 2589.6,
+      "text": "Itu ada link-nya tuh, saya kasih Chrome Status."
+    },
+    {
+      "start": 2589.6,
+      "end": 2597.6,
+      "text": "So, siap. Shared Screen lagi."
+    },
+    {
+      "start": 2597.6,
+      "end": 2608.6,
+      "text": "- Jadi Text Detection ini bisa buka yang punya Mas Kinlan. - Paul Kinlan. Kayaknya akar banget nih sama..."
+    },
+    {
+      "start": 2608.6,
+      "end": 2614.6,
+      "text": "Jadi dia bisa baca text yang ada di image itu ya."
+    },
+    {
+      "start": 2614.6,
+      "end": 2622.6,
+      "text": "Dan ini nggak pakai kayak bikin itu, apa namanya?"
+    },
+    {
+      "start": 2622.6,
+      "end": 2629.6,
+      "text": "- OCR? - Ya, dia OCR tapi bawaan dari browser langsung pakai kapabilitas WAPI."
+    },
+    {
+      "start": 2629.6,
+      "end": 2634.6,
+      "text": "- Ini bagian dari Shape Detection ya sebetulnya? - Betul, Shape Detection."
+    },
+    {
+      "start": 2634.6,
+      "end": 2639.6,
+      "text": "Jadi bisa Face Detection, Shape Detection API."
+    },
+    {
+      "start": 2639.6,
+      "end": 2647.6,
+      "text": "Nah, turun sedikit, ada JavaScript code-nya, cara aksesnya itu bisa as simple as that gitu."
+    },
+    {
+      "start": 2647.6,
+      "end": 2656.6,
+      "text": "Jadi kayak ngambil datanya dari mana? Dari video, terus kemudian Capture, Image Capture."
+    },
+    {
+      "start": 2656.6,
+      "end": 2660.6,
+      "text": "Dan kemudian langsung pakai API-nya, Text Detector."
+    },
+    {
+      "start": 2660.6,
+      "end": 2670.6,
+      "text": "Ini JavaScript banget ya. Maksudnya kita pakai high-level language, yaitu JavaScript, gimana browser-nya kerja ya."
+    },
+    {
+      "start": 2670.6,
+      "end": 2679.6,
+      "text": "Maksudnya browser nerusin lagi ke sistem, apalah itu sistem yang di device kita kan? OCR."
+    },
+    {
+      "start": 2679.6,
+      "end": 2685.6,
+      "text": "OCR yang dipakai di device kita. Yang mungkin pakai bahasa C++ atau apalah."
+    },
+    {
+      "start": 2685.6,
+      "end": 2690.6,
+      "text": "Nah, ini browser itu ada di layer yang ini."
+    },
+    {
+      "start": 2690.6,
+      "end": 2696.6,
+      "text": "OS-nya ada di layer bawah, baik itu Android, Windows, Mac OS, iOS, dan OS-OS yang lain."
+    },
+    {
+      "start": 2696.6,
+      "end": 2704.6,
+      "text": "Kita dari API tinggal ngetik JavaScript yang enak dan sintaksnya friendly sama kita."
+    },
+    {
+      "start": 2704.6,
+      "end": 2711.6,
+      "text": "Cuman PR-nya itu adalah kita butuh tahu ini. Kita butuh tahu ini, kita butuh tahu ini."
+    },
+    {
+      "start": 2711.6,
+      "end": 2719.6,
+      "text": "Dan terakhir masih ada tuh speech synthesizer. Jadi setelah ditemukan, yang nomor 4 di step 4."
+    },
+    {
+      "start": 2719.6,
+      "end": 2724.6,
+      "text": "Setelah ditemukan, dibounding boxes-nya baru di speech synthesizer. Jadi sudah dapet."
+    },
+    {
+      "start": 2724.6,
+      "end": 2725.6,
+      "text": "Di baca?"
+    },
+    {
+      "start": 2725.6,
+      "end": 2731.6,
+      "text": "Iya, sudah dapet. Terus di kasih suaranya gitu."
+    },
+    {
+      "start": 2731.6,
+      "end": 2741.6,
+      "text": "Jadi dari gambar, dari majalah atau surat kabar, difoto, terus dibacain."
+    },
+    {
+      "start": 2741.6,
+      "end": 2749.6,
+      "text": "Bayangin aja kalau misalnya teman-teman punya ide-nya begini ya, web-nya buat translate."
+    },
+    {
+      "start": 2749.6,
+      "end": 2758.6,
+      "text": "Misalnya akses kamera, langsung arahin ke, misalnya lagi ke Jepang, mau makan ikan fugu."
+    },
+    {
+      "start": 2758.6,
+      "end": 2766.6,
+      "text": "Tapi pengen tahu urusannya apa gitu. Terus bisa diarahkan, terus kemudian dari text detector,"
+    },
+    {
+      "start": 2766.6,
+      "end": 2776.6,
+      "text": "di-connect ke Google Translate API, langsung bisa dibacakan apa sih value dari yang tulisan itu."
+    },
+    {
+      "start": 2776.6,
+      "end": 2778.6,
+      "text": "Itu contohnya."
+    },
+    {
+      "start": 2778.6,
+      "end": 2784.6,
+      "text": "Seperti Google Lens lah. Ibaratnya kita mau bikin web yang semacam Google Lensnya bisa."
+    },
+    {
+      "start": 2784.6,
+      "end": 2796.6,
+      "text": "Oke, ada banyak yang komen ya. Ada yang bilang keren, terima kasih."
+    },
+    {
+      "start": 2796.6,
+      "end": 2819.6,
+      "text": "Pemuda panca Indra, ada yang... Kriteria cowoknya gimana? Eka itu penyanyi cowok yang sudah menguasai 5 ugu API."
+    },
+    {
+      "start": 2819.6,
+      "end": 2826.6,
+      "text": "Origin trail."
+    },
+    {
+      "start": 2826.6,
+      "end": 2833.6,
+      "text": "Aduh, halo. Naika, ada damar nih itu. Excited banget mau hitung-hiturnya, tapi biasanya apply API-nya susah."
+    },
+    {
+      "start": 2833.6,
+      "end": 2840.6,
+      "text": "Jadi lebih suka pakai wrapper yang udah indones saat browser ada support. Oh, ini apa namanya?"
+    },
+    {
+      "start": 2840.6,
+      "end": 2846.6,
+      "text": "Tapi emang tujuannya gitu juga kan. Yang penting, feature-nya ada dulu di browser."
+    },
+    {
+      "start": 2846.6,
+      "end": 2852.6,
+      "text": "Cuma prakteknya misalnya kita pakai React, kita pakai Sweat. Pasti ada lah biasanya yang udah bikin."
+    },
+    {
+      "start": 2852.6,
+      "end": 2858.6,
+      "text": "Kayak kalau contohnya yang udah feature yang udah matang, async clipboard, misalnya async atau web share,"
+    },
+    {
+      "start": 2858.6,
+      "end": 2864.6,
+      "text": "itu pasti udah banyak. Pasti udah ada yang bikin wrapper misalnya buat React atau semacamnya."
+    },
+    {
+      "start": 2864.6,
+      "end": 2876.6,
+      "text": "Bisa buat juga kan. Bikin wrapper-nya aja buat bantuin teman-teman yang lain."
+    },
+    {
+      "start": 2876.6,
+      "end": 2883.6,
+      "text": "Ya, lumayan tuh buat opportunity bikin-bikin project lucu-lucu ya. Buat open source juga, ambil belajar."
+    },
+    {
+      "start": 2883.6,
+      "end": 2894.6,
+      "text": "Ada Sabeh hadir. Terima kasih sudah hadir. Terus ini juga pertanyaannya, apakah Funggu sama dengan PWA?"
+    },
+    {
+      "start": 2894.6,
+      "end": 2899.6,
+      "text": "Ada kayaannya? Soalnya yang saya tarat dia dari tujuan sama-sama melakukasi native."
+    },
+    {
+      "start": 2899.6,
+      "end": 2903.6,
+      "text": "Sebenarnya benar ada hubungannya memang."
+    },
+    {
+      "start": 2903.6,
+      "end": 2914.6,
+      "text": "Hubungannya adalah PWA itu kan kita, aplikasi yang kita buat, itu bisa kita gambarkan sebagai PWA."
+    },
+    {
+      "start": 2914.6,
+      "end": 2923.6,
+      "text": "Sejangan kalau Funggu itu nama salah satu project yang itu bikin R&D lah ya tadi pas off-screen,"
+    },
+    {
+      "start": 2923.6,
+      "end": 2932.6,
+      "text": "Ivan bilang R&D. Research and development bikin API-API-nya, feature-feature-nya yang kira-kira bisa dipakai"
+    },
+    {
+      "start": 2932.6,
+      "end": 2935.6,
+      "text": "di PWA kita, di aplikasi kita."
+    },
+    {
+      "start": 2935.6,
+      "end": 2940.6,
+      "text": "Kalau dilihat di tracker-nya, ada beberapa yang kata gue dia masuk ke PWA."
+    },
+    {
+      "start": 2940.6,
+      "end": 2946.6,
+      "text": "Coba buka itu dong, tab web apps itu apa sih? Gue penasaran."
+    },
+    {
+      "start": 2946.6,
+      "end": 2951.6,
+      "text": "Ya bisa buka dari tab."
+    },
+    {
+      "start": 2951.6,
+      "end": 2958.6,
+      "text": "Jadi itu cuma untuk PWA yang udah di-install. Jadi kita harus install sebagai PWA."
+    },
+    {
+      "start": 2958.6,
+      "end": 2964.6,
+      "text": "Cuma kan kalau misalnya kita buka di Chrome biasa nih, kita bisa buka open in new tab."
+    },
+    {
+      "start": 2964.6,
+      "end": 2971.6,
+      "text": "Nah kalau misalnya sebelumnya di PWA kan nggak bisa tuh, cuma satu window aja. Sekarang bisa."
+    },
+    {
+      "start": 2971.6,
+      "end": 2975.6,
+      "text": "Oke. Wow, oke, oke, oke."
+    },
+    {
+      "start": 2975.6,
+      "end": 2986.6,
+      "text": "Terus emang ada beberapa kapabilitas yang terlalu powerful kalau dipakai di sebarang halaman web biasa."
+    },
+    {
+      "start": 2986.6,
+      "end": 2993.6,
+      "text": "Nah kalau PWA itu kan satu layer lagi. Kayak user dengan sadar meng-install PWA itu."
+    },
+    {
+      "start": 2993.6,
+      "end": 2999.6,
+      "text": "Nah waktu udah dijalani sebagai PWA, ada kayak feature-feature tambahan."
+    },
+    {
+      "start": 2999.6,
+      "end": 3003.6,
+      "text": "Itu URL Handler misalnya kita mau buka gambar nih."
+    },
+    {
+      "start": 3003.6,
+      "end": 3008.6,
+      "text": "Kita ada PWA yang semacam misalnya aplikasi image editor."
+    },
+    {
+      "start": 3008.6,
+      "end": 3013.6,
+      "text": "Nah itu kita bisa buka file image dengan aplikasi kita."
+    },
+    {
+      "start": 3013.6,
+      "end": 3020.6,
+      "text": "User kita maksudnya bisa buka file image mereka by default menggunakan aplikasi kita itu."
+    },
+    {
+      "start": 3020.6,
+      "end": 3023.6,
+      "text": "Nah itu kan make sense-nya kalau udah di-install ya."
+    },
+    {
+      "start": 3023.6,
+      "end": 3027.6,
+      "text": "Iya."
+    },
+    {
+      "start": 3027.6,
+      "end": 3031.6,
+      "text": "Ini kan PWA. PWA ini apa ya? Logonya mirip-mirip lagi ya."
+    },
+    {
+      "start": 3031.6,
+      "end": 3034.6,
+      "text": "Isolated Web App. Apa itu? Ga tau, belum pernah coba."
+    },
+    {
+      "start": 3034.6,
+      "end": 3037.6,
+      "text": "Isolated Web App. Apa tuh?"
+    },
+    {
+      "start": 3037.6,
+      "end": 3043.6,
+      "text": "Nah boleh tuh, besok-besok bahas biar kita kepaksa kumpul."
+    },
+    {
+      "start": 3043.6,
+      "end": 3047.6,
+      "text": "Isolated Web App."
+    },
+    {
+      "start": 3047.6,
+      "end": 3049.6,
+      "text": "Kita aja baru tau nih."
+    },
+    {
+      "start": 3049.6,
+      "end": 3051.6,
+      "text": "Kita baru tau nih."
+    },
+    {
+      "start": 3051.6,
+      "end": 3062.6,
+      "text": "Extension of existing work on PWA installation and web packaging that provide stronger protection against server compromise."
+    },
+    {
+      "start": 3062.6,
+      "end": 3066.6,
+      "text": "Jadi keamanannya lebih tinggi."
+    },
+    {
+      "start": 3066.6,
+      "end": 3069.6,
+      "text": "Package into web bundles."
+    },
+    {
+      "start": 3069.6,
+      "end": 3077.6,
+      "text": "Jadi sebenarnya kayak executable tapi web. Ga tau yang gue tangkap gitu."
+    },
+    {
+      "start": 3077.6,
+      "end": 3081.6,
+      "text": "Masih specification. Masih in development."
+    },
+    {
+      "start": 3081.6,
+      "end": 3091.6,
+      "text": "Oh inget ga sih yang dulu pernah di CDS ada web bundle pernah dibahas?"
+    },
+    {
+      "start": 3091.6,
+      "end": 3094.6,
+      "text": "Iya tau. Sama portal juga kan kalau ga salah."
+    },
+    {
+      "start": 3094.6,
+      "end": 3095.6,
+      "text": "Sama apa?"
+    },
+    {
+      "start": 3095.6,
+      "end": 3096.6,
+      "text": "Portal."
+    },
+    {
+      "start": 3096.6,
+      "end": 3098.6,
+      "text": "Oh iya portal."
+    },
+    {
+      "start": 3098.6,
+      "end": 3099.6,
+      "text": "Bareng-bareng kan?"
+    },
+    {
+      "start": 3099.6,
+      "end": 3103.6,
+      "text": "Iya web bundle sama portal. Apa itu ada hubungannya ya?"
+    },
+    {
+      "start": 3103.6,
+      "end": 3105.6,
+      "text": "Kayaknya."
+    },
+    {
+      "start": 3105.6,
+      "end": 3113.6,
+      "text": "Kalau ngeliatin ini sih iya. Soalnya ada web packaging, terus ada web bundles."
+    },
+    {
+      "start": 3113.6,
+      "end": 3116.6,
+      "text": "Nunggu CDS selanjutnya nih pengen tau."
+    },
+    {
+      "start": 3116.6,
+      "end": 3126.6,
+      "text": "Jadi kayaknya ya. Kayaknya kita bisa punya executable kayak RxE atau kalau di Mac OS tuh RxPT gitu ya."
+    },
+    {
+      "start": 3126.6,
+      "end": 3134.6,
+      "text": "Tapi itu sebenarnya browser. Jadi kayak elektron ya."
+    },
+    {
+      "start": 3134.6,
+      "end": 3136.6,
+      "text": "Pengganti elektron yang lebih ringan ya."
+    },
+    {
+      "start": 3136.6,
+      "end": 3148.6,
+      "text": "Ya kalau web bundle sih begitulah. Kayak download HTML jaman dulu tetapi yang sudah tinggal bisa di off-line."
+    },
+    {
+      "start": 3148.6,
+      "end": 3156.6,
+      "text": "Jadi kembali ke pertanyaannya, PWA itu ada tujuan untuk supaya bisa di install."
+    },
+    {
+      "start": 3156.6,
+      "end": 3168.6,
+      "text": "Jadi PWA itu kan ada beberapa comment ya. Yang pertama ada web manifest, application manifest, yang ada icon, ada judul dari aplikasinya,"
+    },
+    {
+      "start": 3168.6,
+      "end": 3176.6,
+      "text": "ada description, meta data lain. Terus ada service worker-nya harus ada."
+    },
+    {
+      "start": 3176.6,
+      "end": 3178.6,
+      "text": "Salah satu lagi."
+    },
+    {
+      "start": 3178.6,
+      "end": 3180.6,
+      "text": "Ada API ya?"
+    },
+    {
+      "start": 3180.6,
+      "end": 3181.6,
+      "text": "Harus cepet."
+    },
+    {
+      "start": 3181.6,
+      "end": 3191.6,
+      "text": "Berantara kalau fugunya itu adalah API yang bisa membuat aplikasi PWA dengan fungnya yang lebih beragam."
+    },
+    {
+      "start": 3191.6,
+      "end": 3193.6,
+      "text": "Tambah kaya. Punya feature-feature yang kaya."
+    },
+    {
+      "start": 3193.6,
+      "end": 3199.6,
+      "text": "Cuma sebenarnya kalau API fugu ini mah bebas diadopsinya ketenggan juga boleh."
+    },
+    {
+      "start": 3199.6,
+      "end": 3207.6,
+      "text": "Maksudnya kita cuma punya, kita cuma perlu pakai satu atau dua API, nggak masalah kita bisa pakai walaupun aplikasi kita"
+    },
+    {
+      "start": 3207.6,
+      "end": 3211.6,
+      "text": "bukan atau belum berstatus PWA secara lengkap."
+    },
+    {
+      "start": 3211.6,
+      "end": 3221.6,
+      "text": "Tapi yang non-negotiable, yang harus tetap harus di-serve lewat HTTPS, harus secure, harus ada TLS apa, security-nya."
+    },
+    {
+      "start": 3221.6,
+      "end": 3233.6,
+      "text": "Jadi walaupun kita misalnya belum punya manifest atau apa tadi semua syarat tadi nggak masalah, tapi ini semua nggak akan jalan kalau nggak di HTTPS."
+    },
+    {
+      "start": 3233.6,
+      "end": 3239.6,
+      "text": "Tidak di HTTPS, harus security ya syarat dari ininya ya."
+    },
+    {
+      "start": 3239.6,
+      "end": 3241.6,
+      "text": "Oke."
+    },
+    {
+      "start": 3241.6,
+      "end": 3247.6,
+      "text": "Nah ini, tab web-tab itu ke-feature keep alive supaya tab-tabnya tetap?"
+    },
+    {
+      "start": 3247.6,
+      "end": 3249.6,
+      "text": "Enggak ya? Bukan ya?"
+    },
+    {
+      "start": 3249.6,
+      "end": 3251.6,
+      "text": "Tau juga, belum pernah coba."
+    },
+    {
+      "start": 3251.6,
+      "end": 3253.6,
+      "text": "Ya multiple tabs aja sih."
+    },
+    {
+      "start": 3253.6,
+      "end": 3255.6,
+      "text": "Ya multiple tabs."
+    },
+    {
+      "start": 3255.6,
+      "end": 3257.6,
+      "text": "Multiple tabs ya."
+    },
+    {
+      "start": 3257.6,
+      "end": 3262.6,
+      "text": "Jadi di dalam aplikasi PWA, itu kan biasanya nggak ada tab kan."
+    },
+    {
+      "start": 3262.6,
+      "end": 3270.6,
+      "text": "Nah, ada tab web-n-nya, jadi kalau kita udah install, kita bisa control-t atau command-t."
+    },
+    {
+      "start": 3270.6,
+      "end": 3277.6,
+      "text": "Nah, terus kalau behavior state sih ya sama aja kayak kalau kita buka di browser Chrome biasa."
+    },
+    {
+      "start": 3277.6,
+      "end": 3280.6,
+      "text": "Iya."
+    },
+    {
+      "start": 3280.6,
+      "end": 3283.6,
+      "text": "Jadi emang bisa dipakai buat itu juga."
+    },
+    {
+      "start": 3283.6,
+      "end": 3286.6,
+      "text": "Belum ada contohnya lagi, belum ada contoh."
+    },
+    {
+      "start": 3286.6,
+      "end": 3288.6,
+      "text": "Ntar coba."
+    },
+    {
+      "start": 3288.6,
+      "end": 3291.6,
+      "text": "Ada lah paling coba buka di showcase deh."
+    },
+    {
+      "start": 3291.6,
+      "end": 3295.6,
+      "text": "Showcase? Oh iya bener juga ya, kita punya showcase ya."
+    },
+    {
+      "start": 3295.6,
+      "end": 3297.6,
+      "text": "Tab web-tab."
+    },
+    {
+      "start": 3297.6,
+      "end": 3299.6,
+      "text": "Itu fungsinya."
+    },
+    {
+      "start": 3299.6,
+      "end": 3302.6,
+      "text": "Ini, tab application mode bukan ya?"
+    },
+    {
+      "start": 3302.6,
+      "end": 3304.6,
+      "text": "Bisa jadi."
+    },
+    {
+      "start": 3304.6,
+      "end": 3306.6,
+      "text": "Atau di sini ya, harus di-"
+    },
+    {
+      "start": 3306.6,
+      "end": 3308.6,
+      "text": "Bukan, di Slack API."
+    },
+    {
+      "start": 3308.6,
+      "end": 3310.6,
+      "text": "Nggak ada, belum ada."
+    },
+    {
+      "start": 3310.6,
+      "end": 3312.6,
+      "text": "Oh belum."
+    },
+    {
+      "start": 3312.6,
+      "end": 3313.6,
+      "text": "Mungkin itu kan ada."
+    },
+    {
+      "start": 3313.6,
+      "end": 3315.6,
+      "text": "Tab, ada tab application mode?"
+    },
+    {
+      "start": 3315.6,
+      "end": 3316.6,
+      "text": "Tab application mode."
+    },
+    {
+      "start": 3316.6,
+      "end": 3317.6,
+      "text": "Ada tuh?"
+    },
+    {
+      "start": 3317.6,
+      "end": 3319.6,
+      "text": "Iya, kalau tab application mode ada."
+    },
+    {
+      "start": 3319.6,
+      "end": 3322.6,
+      "text": "Tapi harus di-install dulu."
+    },
+    {
+      "start": 3322.6,
+      "end": 3325.6,
+      "text": "Hmm, bener juga."
+    },
+    {
+      "start": 3325.6,
+      "end": 3327.6,
+      "text": "Ini status-nya udah sampai mana dia?"
+    },
+    {
+      "start": 3327.6,
+      "end": 3329.6,
+      "text": "Origin trial."
+    },
+    {
+      "start": 3329.6,
+      "end": 3331.6,
+      "text": "Origin trial."
+    },
+    {
+      "start": 3331.6,
+      "end": 3333.6,
+      "text": "Behind flex."
+    },
+    {
+      "start": 3333.6,
+      "end": 3334.6,
+      "text": "Behind flex."
+    },
+    {
+      "start": 3334.6,
+      "end": 3336.6,
+      "text": "Flag atau origin trial?"
+    },
+    {
+      "start": 3336.6,
+      "end": 3338.6,
+      "text": "Oh, behind flag."
+    },
+    {
+      "start": 3338.6,
+      "end": 3340.6,
+      "text": "Oh, behind flag."
+    },
+    {
+      "start": 3340.6,
+      "end": 3341.6,
+      "text": "Salah banget."
+    },
+    {
+      "start": 3341.6,
+      "end": 3344.6,
+      "text": "Belum, nggak kan belum origin trial."
+    },
+    {
+      "start": 3344.6,
+      "end": 3346.6,
+      "text": "Iya."
+    },
+    {
+      "start": 3349.6,
+      "end": 3353.6,
+      "text": "Fugu, kok kaya aritmetik versi browser."
+    },
+    {
+      "start": 3353.6,
+      "end": 3355.6,
+      "text": "Kenapa, kenapa?"
+    },
+    {
+      "start": 3355.6,
+      "end": 3360.6,
+      "text": "Tadi ada contoh, offline wikipedia reader."
+    },
+    {
+      "start": 3360.6,
+      "end": 3362.6,
+      "text": "Contoh tadi apa?"
+    },
+    {
+      "start": 3362.6,
+      "end": 3365.6,
+      "text": "PWA yang pakai feature tab application mode."
+    },
+    {
+      "start": 3365.6,
+      "end": 3368.6,
+      "text": "Itu kan sebenarnya ide-nya simple ya, se-simple."
+    },
+    {
+      "start": 3368.6,
+      "end": 3371.6,
+      "text": "Ngambil dokumen-dokumen wikipedia."
+    },
+    {
+      "start": 3371.6,
+      "end": 3377.6,
+      "text": "Mungkin misalnya teman-teman miskin paket data ya."
+    },
+    {
+      "start": 3377.6,
+      "end": 3380.6,
+      "text": "Miskin pulsa, apa?"
+    },
+    {
+      "start": 3380.6,
+      "end": 3385.6,
+      "text": "Kalau lagi di wifi, entah di kampus atau di mana tempat makan."
+    },
+    {
+      "start": 3385.6,
+      "end": 3389.6,
+      "text": "Download dulu semua, terus di rumah bisa buka semua."
+    },
+    {
+      "start": 3389.6,
+      "end": 3392.6,
+      "text": "Dan namanya kita browsing wikipedia ya, kan."
+    },
+    {
+      "start": 3392.6,
+      "end": 3396.6,
+      "text": "Mungkin kita bakal butuh buka macem-macem link."
+    },
+    {
+      "start": 3396.6,
+      "end": 3399.6,
+      "text": "Itu kan multiple tabs, helpful banget, membantu banget."
+    },
+    {
+      "start": 3399.6,
+      "end": 3408.6,
+      "text": "Biasanya kalau teman-teman pengen bisa jadi punya novel online, bisa di download semua."
+    },
+    {
+      "start": 3408.6,
+      "end": 3410.6,
+      "text": "Novel online."
+    },
+    {
+      "start": 3410.6,
+      "end": 3412.6,
+      "text": "Siapa tahu, atau comic online."
+    },
+    {
+      "start": 3412.6,
+      "end": 3417.6,
+      "text": "Nggak, nggak, ini dokumen-dokumen online semua kan."
+    },
+    {
+      "start": 3417.6,
+      "end": 3421.6,
+      "text": "Kalau ada versi offline-nya, ya udah, kita download dulu aja."
+    },
+    {
+      "start": 3421.6,
+      "end": 3424.6,
+      "text": "Terus misalkan kita lagi di pesawat atau di mana, kita tinggal..."
+    },
+    {
+      "start": 3424.6,
+      "end": 3428.6,
+      "text": "Itu gunanya web bundle kan sebenarnya."
+    },
+    {
+      "start": 3428.6,
+      "end": 3430.6,
+      "text": "Sebenarnya."
+    },
+    {
+      "start": 3430.6,
+      "end": 3433.6,
+      "text": "Ternyata PWA biasa juga yang penting, pertama online dulu."
+    },
+    {
+      "start": 3433.6,
+      "end": 3436.6,
+      "text": "Kan abis itu udah ke-download semua."
+    },
+    {
+      "start": 3436.6,
+      "end": 3438.6,
+      "text": "Emang ya?"
+    },
+    {
+      "start": 3438.6,
+      "end": 3440.6,
+      "text": "Tergantung, tergantung."
+    },
+    {
+      "start": 3440.6,
+      "end": 3442.6,
+      "text": "Ya, kita bikin download."
+    },
+    {
+      "start": 3442.6,
+      "end": 3445.6,
+      "text": "Tergantung seberapa banyak mau dikirim."
+    },
+    {
+      "start": 3445.6,
+      "end": 3447.6,
+      "text": "Iya, seberapa banyak."
+    },
+    {
+      "start": 3447.6,
+      "end": 3450.6,
+      "text": "Kalau dokumentasi kan lumayan banyak kan link-nya kan."
+    },
+    {
+      "start": 3450.6,
+      "end": 3454.6,
+      "text": "Kalau kita langsung download semua, bahaya juga itu."
+    },
+    {
+      "start": 3454.6,
+      "end": 3460.6,
+      "text": "Buat kelangsungan usaha kita."
+    },
+    {
+      "start": 3460.6,
+      "end": 3464.6,
+      "text": "Ini tadi saya mau..."
+    },
+    {
+      "start": 3464.6,
+      "end": 3466.6,
+      "text": "Kayak react native."
+    },
+    {
+      "start": 3466.6,
+      "end": 3468.6,
+      "text": "Kayak react native, mungkin, iya."
+    },
+    {
+      "start": 3468.6,
+      "end": 3470.6,
+      "text": "Yang tadi kita sebutkan seperti..."
+    },
+    {
+      "start": 3470.6,
+      "end": 3475.6,
+      "text": "OneGear atau CordowWire."
+    },
+    {
+      "start": 3475.6,
+      "end": 3481.6,
+      "text": "Yang hybrid, sebenarnya dia adalah teknologi web."
+    },
+    {
+      "start": 3481.6,
+      "end": 3483.6,
+      "text": "Cuma dibikinin."
+    },
+    {
+      "start": 3483.6,
+      "end": 3488.6,
+      "text": "Tergantung untuk mengakses API-API yang ada di..."
+    },
+    {
+      "start": 3488.6,
+      "end": 3493.6,
+      "text": "Baik itu di device, mobile, ataupun di desktop."
+    },
+    {
+      "start": 3493.6,
+      "end": 3499.6,
+      "text": "Kalau react native kan lebih fokusnya ke mobile app, ke Android dan iOS kan."
+    },
+    {
+      "start": 3499.6,
+      "end": 3502.6,
+      "text": "Walaupun ada react native untuk desktop juga ada."
+    },
+    {
+      "start": 3502.6,
+      "end": 3507.6,
+      "text": "Cuma saya nggak tahu seberapa banyak API di desktop yang..."
+    },
+    {
+      "start": 3507.6,
+      "end": 3510.6,
+      "text": "Disediakan oleh react native desktop."
+    },
+    {
+      "start": 3510.6,
+      "end": 3515.6,
+      "text": "Karena yang paling terkenal, ya, untuk bikin aplikasi mobile."
+    },
+    {
+      "start": 3515.6,
+      "end": 3522.6,
+      "text": "Nah, ini mungkin dari Damar."
+    },
+    {
+      "start": 3522.6,
+      "end": 3527.6,
+      "text": "Ini Damar mendanggapi yang..."
+    },
+    {
+      "start": 3527.6,
+      "end": 3529.6,
+      "text": "Downloadan."
+    },
+    {
+      "start": 3529.6,
+      "end": 3531.6,
+      "text": "Oh, downloadan."
+    },
+    {
+      "start": 3531.6,
+      "end": 3533.6,
+      "text": "Kalau ini content..."
+    },
+    {
+      "start": 3533.6,
+      "end": 3540.6,
+      "text": "Itu pakai background sync."
+    },
+    {
+      "start": 3540.6,
+      "end": 3543.6,
+      "text": "Jadi background sync itu..."
+    },
+    {
+      "start": 3543.6,
+      "end": 3545.6,
+      "text": "Kalau di mobile..."
+    },
+    {
+      "start": 3545.6,
+      "end": 3548.6,
+      "text": "Udah install PWA-nya."
+    },
+    {
+      "start": 3548.6,
+      "end": 3552.6,
+      "text": "Terus kemudian pagi-pagi dia..."
+    },
+    {
+      "start": 3552.6,
+      "end": 3554.6,
+      "text": "Misalnya situs berita ya."
+    },
+    {
+      "start": 3554.6,
+      "end": 3558.6,
+      "text": "Dia bisa tetap jalan di off-line..."
+    },
+    {
+      "start": 3558.6,
+      "end": 3563.6,
+      "text": "Sorry, di background secara periodik untuk ngambil konten."
+    },
+    {
+      "start": 3563.6,
+      "end": 3566.6,
+      "text": "Ternyata kalau begitu udah dibuka..."
+    },
+    {
+      "start": 3566.6,
+      "end": 3569.6,
+      "text": "Waktu user yang ngebuka aplikasinya..."
+    },
+    {
+      "start": 3569.6,
+      "end": 3572.6,
+      "text": "Content kita sudah yang terbaru."
+    },
+    {
+      "start": 3572.6,
+      "end": 3577.6,
+      "text": "Dan bisa, karena kita tahu udah ada konten terbaru..."
+    },
+    {
+      "start": 3577.6,
+      "end": 3579.6,
+      "text": "Kita bisa gini notifikasi juga."
+    },
+    {
+      "start": 3579.6,
+      "end": 3585.6,
+      "text": "Ada berita baru nih, silahkan baca contohnya."
+    },
+    {
+      "start": 3585.6,
+      "end": 3589.6,
+      "text": "Atau yang paling simple sih, sebenarnya pakai service worker nih."
+    },
+    {
+      "start": 3589.6,
+      "end": 3592.6,
+      "text": "Kita pakai yang strategi SWR kan."
+    },
+    {
+      "start": 3592.6,
+      "end": 3594.6,
+      "text": "Stay Well, Revalidate."
+    },
+    {
+      "start": 3594.6,
+      "end": 3596.6,
+      "text": "Jadi pertama di-serve aja dulu."
+    },
+    {
+      "start": 3596.6,
+      "end": 3598.6,
+      "text": "Udah punya semua aset yang lama."
+    },
+    {
+      "start": 3598.6,
+      "end": 3600.6,
+      "text": "Sambil nge-check lagi."
+    },
+    {
+      "start": 3600.6,
+      "end": 3601.6,
+      "text": "Kalau ternyata ada yang baru..."
+    },
+    {
+      "start": 3601.6,
+      "end": 3603.6,
+      "text": "Ya udah, tinggal kirim mesej kan."
+    },
+    {
+      "start": 3603.6,
+      "end": 3606.6,
+      "text": "Biar user me-reload."
+    },
+    {
+      "start": 3606.6,
+      "end": 3610.6,
+      "text": "Itu untuk casing strategi."
+    },
+    {
+      "start": 3610.6,
+      "end": 3615.6,
+      "text": "Sedangkan yang saya ceritain tadi tuh kontennya yang update."
+    },
+    {
+      "start": 3615.6,
+      "end": 3616.6,
+      "text": "Fetching."
+    },
+    {
+      "start": 3616.6,
+      "end": 3619.6,
+      "text": "Ya, fetching konten baru."
+    },
+    {
+      "start": 3619.6,
+      "end": 3623.6,
+      "text": "Kayak kalau casing strategi kan bisa jadi untuk..."
+    },
+    {
+      "start": 3623.6,
+      "end": 3626.6,
+      "text": "Lebih banyak digunakan untuk aset."
+    },
+    {
+      "start": 3626.6,
+      "end": 3628.6,
+      "text": "Kalau CSS-nya yang baru..."
+    },
+    {
+      "start": 3628.6,
+      "end": 3632.6,
+      "text": "Jadi makanya should please reload kan contohnya."
+    },
+    {
+      "start": 3632.6,
+      "end": 3634.6,
+      "text": "Oke."
+    },
+    {
+      "start": 3634.6,
+      "end": 3640.6,
+      "text": "Nah kalau API-API yang teman-teman ikutin, apa aja sih?"
+    },
+    {
+      "start": 3640.6,
+      "end": 3642.6,
+      "text": "Ada yang ternyata nggak nunggun banget nih."
+    },
+    {
+      "start": 3642.6,
+      "end": 3644.6,
+      "text": "Wah ini kayaknya bicar nih."
+    },
+    {
+      "start": 3644.6,
+      "end": 3646.6,
+      "text": "Webshare."
+    },
+    {
+      "start": 3646.6,
+      "end": 3648.6,
+      "text": "Webshare lah yang paling..."
+    },
+    {
+      "start": 3648.6,
+      "end": 3652.6,
+      "text": "Itu API sejuta umat share sama clickboard."
+    },
+    {
+      "start": 3652.6,
+      "end": 3654.6,
+      "text": "Share."
+    },
+    {
+      "start": 3654.6,
+      "end": 3656.6,
+      "text": "Ini belum kita bahas kan, webshare kan?"
+    },
+    {
+      "start": 3656.6,
+      "end": 3658.6,
+      "text": "Iya."
+    },
+    {
+      "start": 3658.6,
+      "end": 3664.6,
+      "text": "Webshare API ya?"
+    },
+    {
+      "start": 3664.6,
+      "end": 3671.6,
+      "text": "Ini kayaknya versinya ada macem-macem yang di fugu tracker ya."
+    },
+    {
+      "start": 3671.6,
+      "end": 3674.6,
+      "text": "Iya, webshare ini adalah..."
+    },
+    {
+      "start": 3674.6,
+      "end": 3676.6,
+      "text": "Mungkin ada yang bisa menjelaskan?"
+    },
+    {
+      "start": 3676.6,
+      "end": 3680.6,
+      "text": "Ya buat share."
+    },
+    {
+      "start": 3680.6,
+      "end": 3688.6,
+      "text": "Ya tapi kayak widget."
+    },
+    {
+      "start": 3688.6,
+      "end": 3689.6,
+      "text": "Tapi tanpa plugin."
+    },
+    {
+      "start": 3689.6,
+      "end": 3694.6,
+      "text": "Kalau dulu kita harus install plugin ad-query atau react atau apa."
+    },
+    {
+      "start": 3694.6,
+      "end": 3696.6,
+      "text": "Biasanya kan kalau kita..."
+    },
+    {
+      "start": 3696.6,
+      "end": 3700.6,
+      "text": "Kalau kita nge-share itu..."
+    },
+    {
+      "start": 3700.6,
+      "end": 3702.6,
+      "text": "Coba tuh buka artikelnya aja."
+    },
+    {
+      "start": 3702.6,
+      "end": 3704.6,
+      "text": "Oh iya betul."
+    },
+    {
+      "start": 3704.6,
+      "end": 3706.6,
+      "text": "Webshare."
+    },
+    {
+      "start": 3706.6,
+      "end": 3710.6,
+      "text": "Yang paling enaknya karena dia native."
+    },
+    {
+      "start": 3710.6,
+      "end": 3714.6,
+      "text": "Webshare itu bisa kita share ke aplikasi lain yang ada di mobile."
+    },
+    {
+      "start": 3714.6,
+      "end": 3716.6,
+      "text": "Ini yang kita install."
+    },
+    {
+      "start": 3716.6,
+      "end": 3720.6,
+      "text": "Ini kapabilitasnya si OS yang dipakai."
+    },
+    {
+      "start": 3720.6,
+      "end": 3723.6,
+      "text": "Itu pure semua UI-nya."
+    },
+    {
+      "start": 3723.6,
+      "end": 3725.6,
+      "text": "Bukan UI bikinannya query lagi."
+    },
+    {
+      "start": 3725.6,
+      "end": 3728.6,
+      "text": "Tapi beneran punya sistem kita sendiri."
+    },
+    {
+      "start": 3728.6,
+      "end": 3730.6,
+      "text": "Misalnya kita pakai Android."
+    },
+    {
+      "start": 3730.6,
+      "end": 3734.6,
+      "text": "Yaudah itu fiturnya aplikasi-aplikasi yang sering kita pakai."
+    },
+    {
+      "start": 3734.6,
+      "end": 3738.6,
+      "text": "Akan bisa langsung kirim ke printer."
+    },
+    {
+      "start": 3738.6,
+      "end": 3742.6,
+      "text": "Bisa ke telegram, ke mana aja."
+    },
+    {
+      "start": 3742.6,
+      "end": 3744.6,
+      "text": "Wow, seru sekali."
+    },
+    {
+      "start": 3744.6,
+      "end": 3748.6,
+      "text": "Ini cara pakainya?"
+    },
+    {
+      "start": 3748.6,
+      "end": 3749.6,
+      "text": "Tinggal begitu doang."
+    },
+    {
+      "start": 3749.6,
+      "end": 3753.6,
+      "text": "Navigator.share, beres."
+    },
+    {
+      "start": 3753.6,
+      "end": 3756.6,
+      "text": "Ada title, ada address, ada URL, udah gitu ya."
+    },
+    {
+      "start": 3756.6,
+      "end": 3758.6,
+      "text": "Tapi jangan lupa itu cek dulu."
+    },
+    {
+      "start": 3758.6,
+      "end": 3764.6,
+      "text": "Jika nggak ada, kita lazy load."
+    },
+    {
+      "start": 3764.6,
+      "end": 3766.6,
+      "text": "Ya itu library yang sebelumnya."
+    },
+    {
+      "start": 3766.6,
+      "end": 3770.6,
+      "text": "Library pihak ketiga atau bikin sendiri ya terserah."
+    },
+    {
+      "start": 3770.6,
+      "end": 3774.6,
+      "text": "Ingat, webshare di desktop tidak ada."
+    },
+    {
+      "start": 3774.6,
+      "end": 3775.6,
+      "text": "Iya."
+    },
+    {
+      "start": 3775.6,
+      "end": 3777.6,
+      "text": "Anya bisa di mobile."
+    },
+    {
+      "start": 3777.6,
+      "end": 3779.6,
+      "text": "Di mobile."
+    },
+    {
+      "start": 3779.6,
+      "end": 3782.6,
+      "text": "Tapi tadi ada yang buat."
+    },
+    {
+      "start": 3782.6,
+      "end": 3784.6,
+      "text": "Udah ada yang buat desktop?"
+    },
+    {
+      "start": 3784.6,
+      "end": 3786.6,
+      "text": "Belum."
+    },
+    {
+      "start": 3786.6,
+      "end": 3788.6,
+      "text": "Belum."
+    },
+    {
+      "start": 3788.6,
+      "end": 3790.6,
+      "text": "Bisa di webshare di desktop."
+    },
+    {
+      "start": 3790.6,
+      "end": 3792.6,
+      "text": "Baru sampai?"
+    },
+    {
+      "start": 3792.6,
+      "end": 3794.6,
+      "text": "Baru sampai, udah ship."
+    },
+    {
+      "start": 3794.6,
+      "end": 3796.6,
+      "text": "Tapi di mana?"
+    },
+    {
+      "start": 3796.6,
+      "end": 3798.6,
+      "text": "Apa itu janyan Chromebooks?"
+    },
+    {
+      "start": 3798.6,
+      "end": 3800.6,
+      "text": "Mac OS."
+    },
+    {
+      "start": 3800.6,
+      "end": 3802.6,
+      "text": "Menarik."
+    },
+    {
+      "start": 3802.6,
+      "end": 3806.6,
+      "text": "Ayo, webshare di desktop."
+    },
+    {
+      "start": 3806.6,
+      "end": 3808.6,
+      "text": "Gue nggak tahu."
+    },
+    {
+      "start": 3808.6,
+      "end": 3812.6,
+      "text": "Tapi navigator.share nggak bisa di desktop."
+    },
+    {
+      "start": 3812.6,
+      "end": 3813.6,
+      "text": "Coba aja."
+    },
+    {
+      "start": 3813.6,
+      "end": 3816.6,
+      "text": "Coba buka devtools."
+    },
+    {
+      "start": 3816.6,
+      "end": 3818.6,
+      "text": "Navigator.share."
+    },
+    {
+      "start": 3818.6,
+      "end": 3820.6,
+      "text": "Belum, nggak ada."
+    },
+    {
+      "start": 3820.6,
+      "end": 3822.6,
+      "text": "Share in navigator."
+    },
+    {
+      "start": 3822.6,
+      "end": 3825.6,
+      "text": "Bols, belum bisa."
+    },
+    {
+      "start": 3825.6,
+      "end": 3827.6,
+      "text": "Navigator.share."
+    },
+    {
+      "start": 3827.6,
+      "end": 3830.6,
+      "text": "Ada window ini."
+    },
+    {
+      "start": 3830.6,
+      "end": 3832.6,
+      "text": "Oh, bisa."
+    },
+    {
+      "start": 3832.6,
+      "end": 3834.6,
+      "text": "Bisa."
+    },
+    {
+      "start": 3834.6,
+      "end": 3836.6,
+      "text": "Itu apa sih?"
+    },
+    {
+      "start": 3836.6,
+      "end": 3838.6,
+      "text": "Itu browser apa?"
+    },
+    {
+      "start": 3838.6,
+      "end": 3840.6,
+      "text": "Windows."
+    },
+    {
+      "start": 3840.6,
+      "end": 3843.6,
+      "text": "Oh, oke juga ya."
+    },
+    {
+      "start": 3843.6,
+      "end": 3845.6,
+      "text": "Coba copy paste."
+    },
+    {
+      "start": 3845.6,
+      "end": 3847.6,
+      "text": "Coba copy paste tadi."
+    },
+    {
+      "start": 3847.6,
+      "end": 3849.6,
+      "text": "Navigator.share muncul."
+    },
+    {
+      "start": 3849.6,
+      "end": 3851.6,
+      "text": "Senangnya tuh udah muncul."
+    },
+    {
+      "start": 3851.6,
+      "end": 3853.6,
+      "text": "Harapan palsu."
+    },
+    {
+      "start": 3853.6,
+      "end": 3855.6,
+      "text": "Mac OS belum bisa."
+    },
+    {
+      "start": 3855.6,
+      "end": 3857.6,
+      "text": "Muncul, muncul."
+    },
+    {
+      "start": 3857.6,
+      "end": 3859.6,
+      "text": "Tapi kok nggak muncul?"
+    },
+    {
+      "start": 3859.6,
+      "end": 3861.6,
+      "text": "Kan promised, await."
+    },
+    {
+      "start": 3861.6,
+      "end": 3863.6,
+      "text": "Screennya beda."
+    },
+    {
+      "start": 3863.6,
+      "end": 3865.6,
+      "text": "Share yang full."
+    },
+    {
+      "start": 3865.6,
+      "end": 3867.6,
+      "text": "Share screen."
+    },
+    {
+      "start": 3867.6,
+      "end": 3869.6,
+      "text": "Share yang ini."
+    },
+    {
+      "start": 3869.6,
+      "end": 3871.6,
+      "text": "Kita..."
+    },
+    {
+      "start": 3871.6,
+      "end": 3873.6,
+      "text": "Nih, cuma ya."
+    },
+    {
+      "start": 3873.6,
+      "end": 3875.6,
+      "text": "Lagi ya."
+    },
+    {
+      "start": 3875.6,
+      "end": 3877.6,
+      "text": "Tuh, klekan nggak?"
+    },
+    {
+      "start": 3877.6,
+      "end": 3879.6,
+      "text": "Oh, ini pakenya Windows."
+    },
+    {
+      "start": 3879.6,
+      "end": 3881.6,
+      "text": "Windows."
+    },
+    {
+      "start": 3881.6,
+      "end": 3883.6,
+      "text": "Oh."
+    },
+    {
+      "start": 3883.6,
+      "end": 3885.6,
+      "text": "OS belum ada."
+    },
+    {
+      "start": 3885.6,
+      "end": 3887.6,
+      "text": "Coba liat tuh."
+    },
+    {
+      "start": 3887.6,
+      "end": 3889.6,
+      "text": "Eh, tapi disitunya ada."
+    },
+    {
+      "start": 3889.6,
+      "end": 3891.6,
+      "text": "Linux."
+    },
+    {
+      "start": 3891.6,
+      "end": 3893.6,
+      "text": "Gak ada tuh."
+    },
+    {
+      "start": 3893.6,
+      "end": 3895.6,
+      "text": "Mac OS ada nih."
+    },
+    {
+      "start": 3895.6,
+      "end": 3897.6,
+      "text": "Belum bisa ini."
+    },
+    {
+      "start": 3897.6,
+      "end": 3899.6,
+      "text": "Lo."
+    },
+    {
+      "start": 3899.6,
+      "end": 3901.6,
+      "text": "Lo."
+    },
+    {
+      "start": 3901.6,
+      "end": 3903.6,
+      "text": "Lo."
+    },
+    {
+      "start": 3903.6,
+      "end": 3905.6,
+      "text": "Oh."
+    },
+    {
+      "start": 3905.6,
+      "end": 3909.6,
+      "text": "Silahkan coba di device masing-masing ya."
+    },
+    {
+      "start": 3909.6,
+      "end": 3911.6,
+      "text": "Ada yang punya Linux."
+    },
+    {
+      "start": 3911.6,
+      "end": 3913.6,
+      "text": "Mungkin bisa coba, baru coba."
+    },
+    {
+      "start": 3913.6,
+      "end": 3915.6,
+      "text": "Kalo dilaporkan."
+    },
+    {
+      "start": 3915.6,
+      "end": 3917.6,
+      "text": "Kita kurang update nih."
+    },
+    {
+      "start": 3917.6,
+      "end": 3919.6,
+      "text": "Nah, ini cocoknya sambil ngeliat"
+    },
+    {
+      "start": 3919.6,
+      "end": 3921.6,
+      "text": "\"How Fugu is my browser\""
+    },
+    {
+      "start": 3921.6,
+      "end": 3923.6,
+      "text": "tuh. Dibuka tuh, cocok tuh."
+    },
+    {
+      "start": 3923.6,
+      "end": 3925.6,
+      "text": "Sambil ngecek browser kita."
+    },
+    {
+      "start": 3925.6,
+      "end": 3927.6,
+      "text": "Seberapa Fugunya."
+    },
+    {
+      "start": 3927.6,
+      "end": 3929.6,
+      "text": "Apa ini?"
+    },
+    {
+      "start": 3929.6,
+      "end": 3931.6,
+      "text": "Seberapa Fugu, browser kita gitu ya?"
+    },
+    {
+      "start": 3931.6,
+      "end": 3933.6,
+      "text": "Seberapa bahayanya, lo."
+    },
+    {
+      "start": 3933.6,
+      "end": 3935.6,
+      "text": "Bukan ya. Seberapa..."
+    },
+    {
+      "start": 3935.6,
+      "end": 3937.6,
+      "text": "70%."
+    },
+    {
+      "start": 3937.6,
+      "end": 3939.6,
+      "text": "70% Fugu."
+    },
+    {
+      "start": 3939.6,
+      "end": 3941.6,
+      "text": "Fugu."
+    },
+    {
+      "start": 3941.6,
+      "end": 3943.6,
+      "text": "Windows ND10."
+    },
+    {
+      "start": 3943.6,
+      "end": 3947.6,
+      "text": "Wah, ini udah ada nih."
+    },
+    {
+      "start": 3947.6,
+      "end": 3949.6,
+      "text": "Aselerometer ada. Itu home screen ada."
+    },
+    {
+      "start": 3949.6,
+      "end": 3951.6,
+      "text": "Hah? Gila."
+    },
+    {
+      "start": 3951.6,
+      "end": 3953.6,
+      "text": "Baru tau di laptop ada aselerometer."
+    },
+    {
+      "start": 3953.6,
+      "end": 3955.6,
+      "text": "Itu kan yang buat apa?"
+    },
+    {
+      "start": 3955.6,
+      "end": 3957.6,
+      "text": "Sensor gerakan kan."
+    },
+    {
+      "start": 3957.6,
+      "end": 3959.6,
+      "text": "Biasanya di gaming gitu."
+    },
+    {
+      "start": 3959.6,
+      "end": 3961.6,
+      "text": "Iya."
+    },
+    {
+      "start": 3961.6,
+      "end": 3963.6,
+      "text": "Itu home screen jelas."
+    },
+    {
+      "start": 3963.6,
+      "end": 3965.6,
+      "text": "Wah, lengkap juga ini."
+    },
+    {
+      "start": 3965.6,
+      "end": 3967.6,
+      "text": "Desktopnya."
+    },
+    {
+      "start": 3967.6,
+      "end": 3969.6,
+      "text": "Nah, ini gak ada."
+    },
+    {
+      "start": 3969.6,
+      "end": 3971.6,
+      "text": "Ambient gak ada ambient."
+    },
+    {
+      "start": 3971.6,
+      "end": 3973.6,
+      "text": "Ambient light mendeteksi"
+    },
+    {
+      "start": 3973.6,
+      "end": 3975.6,
+      "text": "apa, diselitar kita ya. Terang atau enggak."
+    },
+    {
+      "start": 3975.6,
+      "end": 3977.6,
+      "text": "Ya, kontak ticker juga kayaknya"
+    },
+    {
+      "start": 3977.6,
+      "end": 3979.6,
+      "text": "agak susah ya. Soalnya, belum ada."
+    },
+    {
+      "start": 3979.6,
+      "end": 3981.6,
+      "text": "Di desktop itu"
+    },
+    {
+      "start": 3981.6,
+      "end": 3983.6,
+      "text": "belum ada, kecuali di Mac OS ya."
+    },
+    {
+      "start": 3983.6,
+      "end": 3985.6,
+      "text": "Ada aplikasi kontek"
+    },
+    {
+      "start": 3985.6,
+      "end": 3987.6,
+      "text": "yang netikoan si"
+    },
+    {
+      "start": 3987.6,
+      "end": 3989.6,
+      "text": "OS-nya."
+    },
+    {
+      "start": 3989.6,
+      "end": 3991.6,
+      "text": "Dan emang keliatannya belum terlalu"
+    },
+    {
+      "start": 3991.6,
+      "end": 3993.6,
+      "text": "itu sih"
+    },
+    {
+      "start": 3993.6,
+      "end": 3995.6,
+      "text": "masih agak polemik"
+    },
+    {
+      "start": 3995.6,
+      "end": 3997.6,
+      "text": "soal"
+    },
+    {
+      "start": 3997.6,
+      "end": 3999.6,
+      "text": "kemampuan mengakses kontek list itu kan"
+    },
+    {
+      "start": 3999.6,
+      "end": 4001.6,
+      "text": "sensitif banget ya."
+    },
+    {
+      "start": 4001.6,
+      "end": 4003.6,
+      "text": "Wah, bahaya nih. Pinjol-pinjol bisa ini nih."
+    },
+    {
+      "start": 4003.6,
+      "end": 4005.6,
+      "text": "Udah coba."
+    },
+    {
+      "start": 4005.6,
+      "end": 4007.6,
+      "text": "Pinjol."
+    },
+    {
+      "start": 4007.6,
+      "end": 4009.6,
+      "text": "Di Mac OS gak bisa."
+    },
+    {
+      "start": 4009.6,
+      "end": 4011.6,
+      "text": "Webshare."
+    },
+    {
+      "start": 4011.6,
+      "end": 4013.6,
+      "text": "Gak bisa ya?"
+    },
+    {
+      "start": 4013.6,
+      "end": 4015.6,
+      "text": "Gak bisa, gak bisa."
+    },
+    {
+      "start": 4015.6,
+      "end": 4017.6,
+      "text": "Kurang canggih."
+    },
+    {
+      "start": 4017.6,
+      "end": 4019.6,
+      "text": "Kurang canggih."
+    },
+    {
+      "start": 4019.6,
+      "end": 4021.6,
+      "text": "Cuma intinya kalau pengen liat"
+    },
+    {
+      "start": 4021.6,
+      "end": 4023.6,
+      "text": "kemampuan browser kita"
+    },
+    {
+      "start": 4023.6,
+      "end": 4025.6,
+      "text": "buat support Fugu API"
+    },
+    {
+      "start": 4025.6,
+      "end": 4027.6,
+      "text": "ini UI-nya user-friendly banget ya."
+    },
+    {
+      "start": 4027.6,
+      "end": 4029.6,
+      "text": "Ini."
+    },
+    {
+      "start": 4029.6,
+      "end": 4031.6,
+      "text": "Sama satu lagi tadi"
+    },
+    {
+      "start": 4031.6,
+      "end": 4033.6,
+      "text": "ada"
+    },
+    {
+      "start": 4033.6,
+      "end": 4035.6,
+      "text": "coba dari Discover itu yang"
+    },
+    {
+      "start": 4035.6,
+      "end": 4037.6,
+      "text": "link Discover"
+    },
+    {
+      "start": 4037.6,
+      "end": 4039.6,
+      "text": "yang barusan"
+    },
+    {
+      "start": 4039.6,
+      "end": 4041.6,
+      "text": "yang di sebelah tab ini."
+    },
+    {
+      "start": 4041.6,
+      "end": 4043.6,
+      "text": "Di sebelah tab ini ada Discover."
+    },
+    {
+      "start": 4043.6,
+      "end": 4045.6,
+      "text": "Ini kan"
+    },
+    {
+      "start": 4045.6,
+      "end": 4047.6,
+      "text": "turun. Ini how."
+    },
+    {
+      "start": 4047.6,
+      "end": 4049.6,
+      "text": "Jadi topiknya how Fugu is my browser"
+    },
+    {
+      "start": 4049.6,
+      "end": 4051.6,
+      "text": "yang link tadi."
+    },
+    {
+      "start": 4051.6,
+      "end": 4053.6,
+      "text": "Sama how Fugu is the site."
+    },
+    {
+      "start": 4053.6,
+      "end": 4055.6,
+      "text": "Coba how Fugu is"
+    },
+    {
+      "start": 4055.6,
+      "end": 4057.6,
+      "text": "the web. How Fugu is my web gitu."
+    },
+    {
+      "start": 4057.6,
+      "end": 4059.6,
+      "text": "This one."
+    },
+    {
+      "start": 4059.6,
+      "end": 4061.6,
+      "text": "Jadi ada click"
+    },
+    {
+      "start": 4061.6,
+      "end": 4063.6,
+      "text": "how Fugu is the web itu."
+    },
+    {
+      "start": 4063.6,
+      "end": 4065.6,
+      "text": "Itu ada apa namanya?"
+    },
+    {
+      "start": 4065.6,
+      "end": 4067.6,
+      "text": "Ada extension."
+    },
+    {
+      "start": 4067.6,
+      "end": 4069.6,
+      "text": "Chrome extension ya."
+    },
+    {
+      "start": 4069.6,
+      "end": 4071.6,
+      "text": "Jadi kalau misalnya di install kita bisa tahu"
+    },
+    {
+      "start": 4071.6,
+      "end": 4073.6,
+      "text": "situasi yang kita kunjungi itu gunakan"
+    },
+    {
+      "start": 4073.6,
+      "end": 4075.6,
+      "text": "Fugu API yang aja."
+    },
+    {
+      "start": 4075.6,
+      "end": 4077.6,
+      "text": "Oke, oke, oke."
+    },
+    {
+      "start": 4077.6,
+      "end": 4079.6,
+      "text": "Contohin tadi Excalibro"
+    },
+    {
+      "start": 4079.6,
+      "end": 4081.6,
+      "text": "itu 9"
+    },
+    {
+      "start": 4081.6,
+      "end": 4083.6,
+      "text": "Fugu API."
+    },
+    {
+      "start": 4083.6,
+      "end": 4085.6,
+      "text": "Di tab yang sebelumnya."
+    },
+    {
+      "start": 4085.6,
+      "end": 4087.6,
+      "text": "Ini ada di sini."
+    },
+    {
+      "start": 4087.6,
+      "end": 4089.6,
+      "text": "Oh iya."
+    },
+    {
+      "start": 4089.6,
+      "end": 4091.6,
+      "text": "Yang bikin juga"
+    },
+    {
+      "start": 4091.6,
+      "end": 4093.6,
+      "text": "Mas ini kok."
+    },
+    {
+      "start": 4093.6,
+      "end": 4095.6,
+      "text": "Mas Thomas."
+    },
+    {
+      "start": 4095.6,
+      "end": 4097.6,
+      "text": "Mas Thomas ngeliat,"
+    },
+    {
+      "start": 4097.6,
+      "end": 4099.6,
+      "text": "ngeliat, ngeliat, ajar gitu loh."
+    },
+    {
+      "start": 4099.6,
+      "end": 4101.6,
+      "text": "Hei."
+    },
+    {
+      "start": 4101.6,
+      "end": 4103.6,
+      "text": "Hei."
+    },
+    {
+      "start": 4103.6,
+      "end": 4105.6,
+      "text": "Mas Thomas ngomongin"
+    },
+    {
+      "start": 4105.6,
+      "end": 4107.6,
+      "text": "apa nih orang-orang."
+    },
+    {
+      "start": 4107.6,
+      "end": 4109.6,
+      "text": "Dia punya"
+    },
+    {
+      "start": 4109.6,
+      "end": 4111.6,
+      "text": "pake Radar API kali."
+    },
+    {
+      "start": 4111.6,
+      "end": 4113.6,
+      "text": "Kalau ada yang ngomongin Fugu, dia ikutan."
+    },
+    {
+      "start": 4113.6,
+      "end": 4115.6,
+      "text": "Fugu. Langsung ya."
+    },
+    {
+      "start": 4115.6,
+      "end": 4117.6,
+      "text": "Kayak itu, mas siapa yang Xstate itu?"
+    },
+    {
+      "start": 4117.6,
+      "end": 4119.6,
+      "text": "Kalau nyebut state machine"
+    },
+    {
+      "start": 4119.6,
+      "end": 4121.6,
+      "text": "dia mojol."
+    },
+    {
+      "start": 4121.6,
+      "end": 4123.6,
+      "text": "Yang bikin Xstate."
+    },
+    {
+      "start": 4123.6,
+      "end": 4125.6,
+      "text": "Oh iya, kayak ini juga"
+    },
+    {
+      "start": 4125.6,
+      "end": 4127.6,
+      "text": "kayak Mas Danang. Kalau nyebut GDI"
+    },
+    {
+      "start": 4127.6,
+      "end": 4129.6,
+      "text": "dia muncul. Oh, dia muncul."
+    },
+    {
+      "start": 4131.6,
+      "end": 4133.6,
+      "text": "Sudahlah, yang ini bentar lagi dia muncul."
+    },
+    {
+      "start": 4135.6,
+      "end": 4137.6,
+      "text": "Ini baru 8 loh."
+    },
+    {
+      "start": 4137.6,
+      "end": 4139.6,
+      "text": "3, 4, 5, 6, 7, 8."
+    },
+    {
+      "start": 4139.6,
+      "end": 4141.6,
+      "text": "Oh, belum update nih berarti ya."
+    },
+    {
+      "start": 4141.6,
+      "end": 4143.6,
+      "text": "Web share. Belum update, terakhir 9 kan?"
+    },
+    {
+      "start": 4143.6,
+      "end": 4145.6,
+      "text": "Iya, terakhir 9."
+    },
+    {
+      "start": 4145.6,
+      "end": 4147.6,
+      "text": "Pasing clipboard. Ya, kita bisa copy paste juga."
+    },
+    {
+      "start": 4147.6,
+      "end": 4149.6,
+      "text": "File handling,"
+    },
+    {
+      "start": 4149.6,
+      "end": 4151.6,
+      "text": "system, web share target,"
+    },
+    {
+      "start": 4151.6,
+      "end": 4153.6,
+      "text": "web share target file."
+    },
+    {
+      "start": 4153.6,
+      "end": 4155.6,
+      "text": "Jadi, web share target file ini,"
+    },
+    {
+      "start": 4155.6,
+      "end": 4157.6,
+      "text": "file excalidraw-nya,"
+    },
+    {
+      "start": 4157.6,
+      "end": 4159.6,
+      "text": "extension excalidraw"
+    },
+    {
+      "start": 4159.6,
+      "end": 4161.6,
+      "text": "itu bisa di share dulu."
+    },
+    {
+      "start": 4161.6,
+      "end": 4163.6,
+      "text": "Diklaratif link capturing-nya apa?"
+    },
+    {
+      "start": 4165.6,
+      "end": 4167.6,
+      "text": "Gak tau ya."
+    },
+    {
+      "start": 4167.6,
+      "end": 4169.6,
+      "text": "Link capturing."
+    },
+    {
+      "start": 4169.6,
+      "end": 4171.6,
+      "text": "Itu kayak"
+    },
+    {
+      "start": 4171.6,
+      "end": 4173.6,
+      "text": "kayaknya itu ya, open in."
+    },
+    {
+      "start": 4173.6,
+      "end": 4175.6,
+      "text": "Oh, open in excalidraw gitu ya."
+    },
+    {
+      "start": 4175.6,
+      "end": 4177.6,
+      "text": "Misalnya kita ada file excalidraw."
+    },
+    {
+      "start": 4177.6,
+      "end": 4179.6,
+      "text": "Karena open with ya."
+    },
+    {
+      "start": 4179.6,
+      "end": 4181.6,
+      "text": "Open with excalidraw."
+    },
+    {
+      "start": 4183.6,
+      "end": 4185.6,
+      "text": "Terus baliknya ya, 4."
+    },
+    {
+      "start": 4185.6,
+      "end": 4187.6,
+      "text": "Oke, oke."
+    },
+    {
+      "start": 4189.6,
+      "end": 4191.6,
+      "text": "Inilah gunanya ngobrolin web."
+    },
+    {
+      "start": 4191.6,
+      "end": 4193.6,
+      "text": "Gua gak tau lagi"
+    },
+    {
+      "start": 4193.6,
+      "end": 4195.6,
+      "text": "berapa banyak web API."
+    },
+    {
+      "start": 4197.6,
+      "end": 4199.6,
+      "text": "Excalidraw ini 9 ya."
+    },
+    {
+      "start": 4199.6,
+      "end": 4201.6,
+      "text": "Ada di sini padahal ya."
+    },
+    {
+      "start": 4201.6,
+      "end": 4203.6,
+      "text": "Eh, ini kan sudah 5."
+    },
+    {
+      "start": 4205.6,
+      "end": 4207.6,
+      "text": "Ada pendelesan yang gak ada."
+    },
+    {
+      "start": 4207.6,
+      "end": 4209.6,
+      "text": "Tapi"
+    },
+    {
+      "start": 4209.6,
+      "end": 4211.6,
+      "text": "kalau misalnya insta extension-nya"
+    },
+    {
+      "start": 4211.6,
+      "end": 4213.6,
+      "text": "itu ada ininya,"
+    },
+    {
+      "start": 4213.6,
+      "end": 4215.6,
+      "text": "ada detail-detail setiap."
+    },
+    {
+      "start": 4215.6,
+      "end": 4217.6,
+      "text": "Link ke dokumentasinya ya?"
+    },
+    {
+      "start": 4217.6,
+      "end": 4219.6,
+      "text": "Iya, detail ke setiap"
+    },
+    {
+      "start": 4219.6,
+      "end": 4221.6,
+      "text": "API-nya."
+    },
+    {
+      "start": 4221.6,
+      "end": 4227.6,
+      "text": "Web share."
+    },
+    {
+      "start": 4227.6,
+      "end": 4229.6,
+      "text": "Cache storage."
+    },
+    {
+      "start": 4229.6,
+      "end": 4231.6,
+      "text": "Cache storage siap?"
+    },
+    {
+      "start": 4231.6,
+      "end": 4233.6,
+      "text": "Caching ya?"
+    },
+    {
+      "start": 4233.6,
+      "end": 4235.6,
+      "text": "Caching service worker gak?"
+    },
+    {
+      "start": 4235.6,
+      "end": 4237.6,
+      "text": "Kayaknya sama dengan storage."
+    },
+    {
+      "start": 4237.6,
+      "end": 4241.6,
+      "text": "Cache storage API mungkin"
+    },
+    {
+      "start": 4241.6,
+      "end": 4243.6,
+      "text": "yang kayak local storage."
+    },
+    {
+      "start": 4243.6,
+      "end": 4245.6,
+      "text": "Caching service worker."
+    },
+    {
+      "start": 4245.6,
+      "end": 4247.6,
+      "text": "Caching service worker beda lagi ya."
+    },
+    {
+      "start": 4255.6,
+      "end": 4257.6,
+      "text": "Kalaman ini."
+    },
+    {
+      "start": 4257.6,
+      "end": 4259.6,
+      "text": "Berbahaya."
+    },
+    {
+      "start": 4259.6,
+      "end": 4261.6,
+      "text": "Di macOS"
+    },
+    {
+      "start": 4261.6,
+      "end": 4263.6,
+      "text": "bisa. Tapi"
+    },
+    {
+      "start": 4263.6,
+      "end": 4265.6,
+      "text": "macOS sama Safari tampilannya beda."
+    },
+    {
+      "start": 4265.6,
+      "end": 4267.6,
+      "text": "Kayaknya gak nanti macOS."
+    },
+    {
+      "start": 4267.6,
+      "end": 4269.6,
+      "text": "Oh, jadi ini."
+    },
+    {
+      "start": 4269.6,
+      "end": 4271.6,
+      "text": "Jadi mereka implementasi diri."
+    },
+    {
+      "start": 4271.6,
+      "end": 4273.6,
+      "text": "Tadi pake macOS."
+    },
+    {
+      "start": 4273.6,
+      "end": 4275.6,
+      "text": "Pada gue udah coba Chrome Dev"
+    },
+    {
+      "start": 4275.6,
+      "end": 4277.6,
+      "text": "yang Chrome Dev yang paling baru ya."
+    },
+    {
+      "start": 4277.6,
+      "end": 4279.6,
+      "text": "Chrome Dev sama macOS."
+    },
+    {
+      "start": 4279.6,
+      "end": 4281.6,
+      "text": "MacOS belum bisa sih ini."
+    },
+    {
+      "start": 4281.6,
+      "end": 4283.6,
+      "text": "Ini API sejuta umat"
+    },
+    {
+      "start": 4283.6,
+      "end": 4285.6,
+      "text": "soalnya kayaknya setiap bikin website"
+    },
+    {
+      "start": 4285.6,
+      "end": 4287.6,
+      "text": "hampir pasti ada feature share."
+    },
+    {
+      "start": 4289.6,
+      "end": 4291.6,
+      "text": "Cuma ini lumayan"
+    },
+    {
+      "start": 4291.6,
+      "end": 4293.6,
+      "text": "buat performance juga sih."
+    },
+    {
+      "start": 4293.6,
+      "end": 4295.6,
+      "text": "Jadi kan nature-nya"
+    },
+    {
+      "start": 4295.6,
+      "end": 4297.6,
+      "text": "atau karakter-nya ecosystem web"
+    },
+    {
+      "start": 4297.6,
+      "end": 4299.6,
+      "text": "itu kan progressive"
+    },
+    {
+      "start": 4299.6,
+      "end": 4301.6,
+      "text": "enhancement banget kan."
+    },
+    {
+      "start": 4301.6,
+      "end": 4303.6,
+      "text": "Jadi kalau emang feature-nya udah ada"
+    },
+    {
+      "start": 4303.6,
+      "end": 4305.6,
+      "text": "built-in kayak C-share ini, ya udah"
+    },
+    {
+      "start": 4305.6,
+      "end": 4307.6,
+      "text": "tinggal pake segampang itu. Gak usah ngapa-ngapain"
+    },
+    {
+      "start": 4307.6,
+      "end": 4309.6,
+      "text": "lagi ibaratnya kita. Gak usah"
+    },
+    {
+      "start": 4309.6,
+      "end": 4311.6,
+      "text": "nginstall. Maksudnya dari developer"
+    },
+    {
+      "start": 4311.6,
+      "end": 4313.6,
+      "text": "gak usah nginstall library"
+    },
+    {
+      "start": 4313.6,
+      "end": 4315.6,
+      "text": "third party atau bikin."
+    },
+    {
+      "start": 4315.6,
+      "end": 4317.6,
+      "text": "Dari sisi user gak harus"
+    },
+    {
+      "start": 4317.6,
+      "end": 4319.6,
+      "text": "ngedownload"
+    },
+    {
+      "start": 4319.6,
+      "end": 4321.6,
+      "text": "tambahan JavaScript"
+    },
+    {
+      "start": 4321.6,
+      "end": 4323.6,
+      "text": "buat sharing."
+    },
+    {
+      "start": 4323.6,
+      "end": 4325.6,
+      "text": "Tapi selama misalnya"
+    },
+    {
+      "start": 4325.6,
+      "end": 4327.6,
+      "text": "di macOS, Chrome, atau di"
+    },
+    {
+      "start": 4327.6,
+      "end": 4329.6,
+      "text": "mana pun itu belum ada, ya udah apa boleh"
+    },
+    {
+      "start": 4329.6,
+      "end": 4331.6,
+      "text": "buat harus ngedownload"
+    },
+    {
+      "start": 4331.6,
+      "end": 4333.6,
+      "text": "library tambahan itu."
+    },
+    {
+      "start": 4333.6,
+      "end": 4335.6,
+      "text": "Tapi pelan-pelan kan"
+    },
+    {
+      "start": 4335.6,
+      "end": 4337.6,
+      "text": "lama-lama ini"
+    },
+    {
+      "start": 4337.6,
+      "end": 4339.6,
+      "text": "makin banyak di-support,"
+    },
+    {
+      "start": 4339.6,
+      "end": 4341.6,
+      "text": "makin berkurang juga beban yang"
+    },
+    {
+      "start": 4341.6,
+      "end": 4343.6,
+      "text": "harus di-download oleh si user"
+    },
+    {
+      "start": 4343.6,
+      "end": 4345.6,
+      "text": "performance-nya. Lumayan tuh."
+    },
+    {
+      "start": 4345.6,
+      "end": 4347.6,
+      "text": "Kalau kita pake budget performance kan"
+    },
+    {
+      "start": 4347.6,
+      "end": 4349.6,
+      "text": "ada jatah extra, kita bisa"
+    },
+    {
+      "start": 4349.6,
+      "end": 4351.6,
+      "text": "nambah feature lain."
+    },
+    {
+      "start": 4351.6,
+      "end": 4353.6,
+      "text": "Makanya kalau misalnya"
+    },
+    {
+      "start": 4353.6,
+      "end": 4355.6,
+      "text": "jangan ngebundle"
+    },
+    {
+      "start": 4355.6,
+      "end": 4357.6,
+      "text": "misalnya contohnya"
+    },
+    {
+      "start": 4357.6,
+      "end": 4359.6,
+      "text": "sharing itu ya, webshare itu,"
+    },
+    {
+      "start": 4359.6,
+      "end": 4361.6,
+      "text": "jangan ngebundle share library"
+    },
+    {
+      "start": 4361.6,
+      "end": 4363.6,
+      "text": "ke main bundle-nya"
+    },
+    {
+      "start": 4363.6,
+      "end": 4365.6,
+      "text": "kita. Karena"
+    },
+    {
+      "start": 4365.6,
+      "end": 4367.6,
+      "text": "usahakan di lazy load"
+    },
+    {
+      "start": 4367.6,
+      "end": 4369.6,
+      "text": "atau di, apa, kalau di React"
+    },
+    {
+      "start": 4369.6,
+      "end": 4371.6,
+      "text": "itu bisa di..."
+    },
+    {
+      "start": 4371.6,
+      "end": 4373.6,
+      "text": "dynamic import."
+    },
+    {
+      "start": 4373.6,
+      "end": 4375.6,
+      "text": "Nah, itulah bahasanya."
+    },
+    {
+      "start": 4375.6,
+      "end": 4377.6,
+      "text": "Itu di native, maksudnya"
+    },
+    {
+      "start": 4377.6,
+      "end": 4379.6,
+      "text": "itu di JavaScript browser juga"
+    },
+    {
+      "start": 4379.6,
+      "end": 4381.6,
+      "text": "udah bisa sekarang contohnya."
+    },
+    {
+      "start": 4381.6,
+      "end": 4383.6,
+      "text": "Dynamic import."
+    },
+    {
+      "start": 4383.6,
+      "end": 4385.6,
+      "text": "Jadi, usahakan"
+    },
+    {
+      "start": 4385.6,
+      "end": 4387.6,
+      "text": "sebanyak kan kayak, kalau pakai-pake"
+    },
+    {
+      "start": 4387.6,
+      "end": 4389.6,
+      "text": "fitur-fitur tertentu yang sudah tahu ada"
+    },
+    {
+      "start": 4389.6,
+      "end": 4391.6,
+      "text": "API-nya, tapi belum di-support,"
+    },
+    {
+      "start": 4391.6,
+      "end": 4393.6,
+      "text": "jangan dibundle ke main bundle."
+    },
+    {
+      "start": 4393.6,
+      "end": 4395.6,
+      "text": "Supaya bisa dikecilin."
+    },
+    {
+      "start": 4395.6,
+      "end": 4397.6,
+      "text": "Oke."
+    },
+    {
+      "start": 4397.6,
+      "end": 4399.6,
+      "text": "Nah, ini tadi kita udah bahas ya"
+    },
+    {
+      "start": 4399.6,
+      "end": 4401.6,
+      "text": "di awal ya. Ada yang nanya juga tadi"
+    },
+    {
+      "start": 4401.6,
+      "end": 4403.6,
+      "text": "di depan."
+    },
+    {
+      "start": 4403.6,
+      "end": 4405.6,
+      "text": "Fugu itu berbeda dengan PWA"
+    },
+    {
+      "start": 4405.6,
+      "end": 4407.6,
+      "text": "walaupun, ya, saling"
+    },
+    {
+      "start": 4407.6,
+      "end": 4409.6,
+      "text": "berkaitan, ya. Ada ilisan, ya."
+    },
+    {
+      "start": 4409.6,
+      "end": 4411.6,
+      "text": "Nanti bisa di-replay aja"
+    },
+    {
+      "start": 4411.6,
+      "end": 4413.6,
+      "text": "dari video kita. Itu kita bahas lumayan"
+    },
+    {
+      "start": 4413.6,
+      "end": 4415.6,
+      "text": "dalam tadi. Ada dari"
+    },
+    {
+      "start": 4415.6,
+      "end": 4417.6,
+      "text": "yang JS. Kemudian ada ini."
+    },
+    {
+      "start": 4417.6,
+      "end": 4419.6,
+      "text": "Si paling bajar perak."
+    },
+    {
+      "start": 4419.6,
+      "end": 4421.6,
+      "text": "Halo, halo."
+    },
+    {
+      "start": 4421.6,
+      "end": 4423.6,
+      "text": "Namanya oke-oke, ya. Ini tadi"
+    },
+    {
+      "start": 4423.6,
+      "end": 4425.6,
+      "text": "yang apa? Seria bajar hitam, ya. Seria bajar hitam, tapi"
+    },
+    {
+      "start": 4425.6,
+      "end": 4427.6,
+      "text": "udah jadi perak, ya."
+    },
+    {
+      "start": 4427.6,
+      "end": 4429.6,
+      "text": "Si paling bajar."
+    },
+    {
+      "start": 4429.6,
+      "end": 4431.6,
+      "text": "Mantap."
+    },
+    {
+      "start": 4431.6,
+      "end": 4433.6,
+      "text": "Oke. Ada lagi yang mau disampaikan?"
+    },
+    {
+      "start": 4433.6,
+      "end": 4435.6,
+      "text": "Kita sudah satu game lewat"
+    },
+    {
+      "start": 4435.6,
+      "end": 4437.6,
+      "text": "15 menit. Ya, 13 menit."
+    },
+    {
+      "start": 4437.6,
+      "end": 4439.6,
+      "text": "Baca itu dong. Ada-ada-ada"
+    },
+    {
+      "start": 4439.6,
+      "end": 4441.6,
+      "text": "di..."
+    },
+    {
+      "start": 4441.6,
+      "end": 4443.6,
+      "text": "Bit.ly apa? Sorry."
+    },
+    {
+      "start": 4443.6,
+      "end": 4445.6,
+      "text": "Di ini. Bit.ly/Gobernite"
+    },
+    {
+      "start": 4445.6,
+      "end": 4447.6,
+      "text": "Ya, ada ya satu"
+    },
+    {
+      "start": 4447.6,
+      "end": 4449.6,
+      "text": "pertanyaan atau apa gitu."
+    },
+    {
+      "start": 4449.6,
+      "end": 4451.6,
+      "text": "Oke. Boleh-boleh. Kita"
+    },
+    {
+      "start": 4451.6,
+      "end": 4453.6,
+      "text": "cari skren dulu. Yang mana?"
+    },
+    {
+      "start": 4453.6,
+      "end": 4455.6,
+      "text": "Yang gampang aja."
+    },
+    {
+      "start": 4455.6,
+      "end": 4457.6,
+      "text": "Yang jelasan. Teknologi Edge."
+    },
+    {
+      "start": 4457.6,
+      "end": 4459.6,
+      "text": "Bukan Microsoft Edge, kan. Maksudnya ya."
+    },
+    {
+      "start": 4459.6,
+      "end": 4461.6,
+      "text": "Bukan. Edge"
+    },
+    {
+      "start": 4461.6,
+      "end": 4463.6,
+      "text": "Ser... Apa? Edge Computing?"
+    },
+    {
+      "start": 4463.6,
+      "end": 4465.6,
+      "text": "Wah, ini mah satu episode sendiri."
+    },
+    {
+      "start": 4465.6,
+      "end": 4467.6,
+      "text": "Iya. Tak pernah bahas"
+    },
+    {
+      "start": 4467.6,
+      "end": 4469.6,
+      "text": "sedikit-sedikit, kan ya. Edge Computing."
+    },
+    {
+      "start": 4469.6,
+      "end": 4471.6,
+      "text": "Pernah waktu bahas"
+    },
+    {
+      "start": 4471.6,
+      "end": 4473.6,
+      "text": "CDN? Iya, pernah."
+    },
+    {
+      "start": 4473.6,
+      "end": 4475.6,
+      "text": "Ya, kurang lebih ya kayak CDN."
+    },
+    {
+      "start": 4475.6,
+      "end": 4477.6,
+      "text": "Tapi server."
+    },
+    {
+      "start": 4477.6,
+      "end": 4479.6,
+      "text": "Iya."
+    },
+    {
+      "start": 4479.6,
+      "end": 4481.6,
+      "text": "Ini juga kita udah bahas. Yang keamanannya"
+    },
+    {
+      "start": 4481.6,
+      "end": 4483.6,
+      "text": "bukannya udah ya kemarin? Coba"
+    },
+    {
+      "start": 4483.6,
+      "end": 4485.6,
+      "text": "udah. Udah-udah. Di episode kemarin."
+    },
+    {
+      "start": 4485.6,
+      "end": 4487.6,
+      "text": "Ya, episode kemarin."
+    },
+    {
+      "start": 4487.6,
+      "end": 4489.6,
+      "text": "Maklum Asktetikur."
+    },
+    {
+      "start": 4489.6,
+      "end": 4491.6,
+      "text": "Ya, ini belum. Ini belum."
+    },
+    {
+      "start": 4491.6,
+      "end": 4493.6,
+      "text": "Di goleng lagi ya."
+    },
+    {
+      "start": 4493.6,
+      "end": 4495.6,
+      "text": "Ya, bisa goleng. Kita cari"
+    },
+    {
+      "start": 4495.6,
+      "end": 4497.6,
+      "text": "jadi ego."
+    },
+    {
+      "start": 4497.6,
+      "end": 4501.6,
+      "text": "Kalau testing ya,"
+    },
+    {
+      "start": 4501.6,
+      "end": 4503.6,
+      "text": "urutannya dari awal ya."
+    },
+    {
+      "start": 4503.6,
+      "end": 4505.6,
+      "text": "Nah, kita pernah bahas"
+    },
+    {
+      "start": 4505.6,
+      "end": 4507.6,
+      "text": "di episode"
+    },
+    {
+      "start": 4507.6,
+      "end": 4509.6,
+      "text": "testing ya dulu."
+    },
+    {
+      "start": 4509.6,
+      "end": 4511.6,
+      "text": "Iya, pernah bahas testing."
+    },
+    {
+      "start": 4511.6,
+      "end": 4513.6,
+      "text": "Itu. WebAssembly udah pernah kan ya?"
+    },
+    {
+      "start": 4513.6,
+      "end": 4515.6,
+      "text": "WebAssembly belum."
+    },
+    {
+      "start": 4515.6,
+      "end": 4517.6,
+      "text": "Pernah bahas sekilas"
+    },
+    {
+      "start": 4517.6,
+      "end": 4519.6,
+      "text": "doang. Pernah. Maksudnya contohnya"
+    },
+    {
+      "start": 4519.6,
+      "end": 4521.6,
+      "text": "Figma pakai Wasm."
+    },
+    {
+      "start": 4521.6,
+      "end": 4523.6,
+      "text": "Oke, oke."
+    },
+    {
+      "start": 4523.6,
+      "end": 4525.6,
+      "text": "Di episode awal."
+    },
+    {
+      "start": 4525.6,
+      "end": 4527.6,
+      "text": "Udah, yang lainnya belum ada yang baru lagi."
+    },
+    {
+      "start": 4527.6,
+      "end": 4529.6,
+      "text": "Nah, buat teman-teman yang"
+    },
+    {
+      "start": 4529.6,
+      "end": 4531.6,
+      "text": "nonton acara ini,"
+    },
+    {
+      "start": 4531.6,
+      "end": 4533.6,
+      "text": "nonton acara ini, tapi"
+    },
+    {
+      "start": 4533.6,
+      "end": 4535.6,
+      "text": "ketinggalan"
+    },
+    {
+      "start": 4535.6,
+      "end": 4537.6,
+      "text": "live-nya, ya."
+    },
+    {
+      "start": 4537.6,
+      "end": 4539.6,
+      "text": "Kalau ada pertanyaan, boleh langsung ke"
+    },
+    {
+      "start": 4539.6,
+      "end": 4541.6,
+      "text": "bit.ly/mobrolinweb."
+    },
+    {
+      "start": 4541.6,
+      "end": 4543.6,
+      "text": "Nanti kita akan"
+    },
+    {
+      "start": 4543.6,
+      "end": 4545.6,
+      "text": "bahas-bahasa lagi."
+    },
+    {
+      "start": 4545.6,
+      "end": 4549.6,
+      "text": "Dan, apa nih?"
+    },
+    {
+      "start": 4549.6,
+      "end": 4551.6,
+      "text": "Kalau web, semakin hari, semakin"
+    },
+    {
+      "start": 4551.6,
+      "end": 4553.6,
+      "text": "sedikit kirim badannya. Kalau game"
+    },
+    {
+      "start": 4553.6,
+      "end": 4555.6,
+      "text": "deh, malah jadi 500GB."
+    },
+    {
+      "start": 4555.6,
+      "end": 4557.6,
+      "text": "Game berarti"
+    },
+    {
+      "start": 4557.6,
+      "end": 4559.6,
+      "text": "ACEP kali ya. ACEP."
+    },
+    {
+      "start": 4559.6,
+      "end": 4561.6,
+      "text": "Ada sprite, audio,"
+    },
+    {
+      "start": 4561.6,
+      "end": 4563.6,
+      "text": "video."
+    },
+    {
+      "start": 4563.6,
+      "end": 4565.6,
+      "text": "Ada minuman bersoda lainnya."
+    },
+    {
+      "start": 4565.6,
+      "end": 4567.6,
+      "text": "Ya, cuma sprite."
+    },
+    {
+      "start": 4567.6,
+      "end": 4569.6,
+      "text": "Sprite."
+    },
+    {
+      "start": 4571.6,
+      "end": 4573.6,
+      "text": "Ya."
+    },
+    {
+      "start": 4573.6,
+      "end": 4575.6,
+      "text": "Ya, udah. Kalau gitu,"
+    },
+    {
+      "start": 4575.6,
+      "end": 4577.6,
+      "text": "kalau nggak ada yang mau"
+    },
+    {
+      "start": 4577.6,
+      "end": 4579.6,
+      "text": "disampaikan nanti, kita tutup dulu"
+    },
+    {
+      "start": 4579.6,
+      "end": 4581.6,
+      "text": "untuk"
+    },
+    {
+      "start": 4581.6,
+      "end": 4583.6,
+      "text": "episode berapa nih?"
+    },
+    {
+      "start": 4583.6,
+      "end": 4585.6,
+      "text": "23."
+    },
+    {
+      "start": 4585.6,
+      "end": 4587.6,
+      "text": "23."
+    },
+    {
+      "start": 4587.6,
+      "end": 4589.6,
+      "text": "23, lumayan ya."
+    },
+    {
+      "start": 4589.6,
+      "end": 4591.6,
+      "text": "23 itu sebenarnya 24 ya,"
+    },
+    {
+      "start": 4591.6,
+      "end": 4593.6,
+      "text": "soalnya kita mulai dari ngomong."
+    },
+    {
+      "start": 4593.6,
+      "end": 4595.6,
+      "text": "Berarti satu episode lagi kita,"
+    },
+    {
+      "start": 4595.6,
+      "end": 4597.6,
+      "text": "episode minggu depan, kita"
+    },
+    {
+      "start": 4597.6,
+      "end": 4599.6,
+      "text": "jadi episode 25 dong."
+    },
+    {
+      "start": 4599.6,
+      "end": 4601.6,
+      "text": "Ada apa ya?"
+    },
+    {
+      "start": 4601.6,
+      "end": 4603.6,
+      "text": "Kita tungguin aja."
+    },
+    {
+      "start": 4603.6,
+      "end": 4605.6,
+      "text": "Kita kurang lebih"
+    },
+    {
+      "start": 4605.6,
+      "end": 4607.6,
+      "text": "sudah 25 minggu ya."
+    },
+    {
+      "start": 4607.6,
+      "end": 4609.6,
+      "text": "Sudah 25 minggu."
+    },
+    {
+      "start": 4609.6,
+      "end": 4611.6,
+      "text": "Udah setengah jalan."
+    },
+    {
+      "start": 4611.6,
+      "end": 4613.6,
+      "text": "Udah setengah tahun ya."
+    },
+    {
+      "start": 4613.6,
+      "end": 4615.6,
+      "text": "Udah 26. Setengah tahun itu 26."
+    },
+    {
+      "start": 4615.6,
+      "end": 4617.6,
+      "text": "Oh, 26."
+    },
+    {
+      "start": 4617.6,
+      "end": 4619.6,
+      "text": "Setengah tahun itu tumpungan."
+    },
+    {
+      "start": 4619.6,
+      "end": 4623.6,
+      "text": "Kita makan ikan fugu."
+    },
+    {
+      "start": 4623.6,
+      "end": 4625.6,
+      "text": "Makan ikan fugu."
+    },
+    {
+      "start": 4625.6,
+      "end": 4627.6,
+      "text": "Yang versi makasar aja."
+    },
+    {
+      "start": 4629.6,
+      "end": 4631.6,
+      "text": "Nah, berarti kita nunggu diundang ke makasar aja."
+    },
+    {
+      "start": 4631.6,
+      "end": 4633.6,
+      "text": "Oh iya, siap-siap."
+    },
+    {
+      "start": 4633.6,
+      "end": 4635.6,
+      "text": "Kodeh nih, kodeh. Jadi jemaah kasar."
+    },
+    {
+      "start": 4635.6,
+      "end": 4639.6,
+      "text": "Oke."
+    },
+    {
+      "start": 4639.6,
+      "end": 4641.6,
+      "text": "Walaupun kita sudah hampir 25"
+    },
+    {
+      "start": 4641.6,
+      "end": 4643.6,
+      "text": "episode, ya kita tetap menunggu secara"
+    },
+    {
+      "start": 4643.6,
+      "end": 4645.6,
+      "text": "kritik dan saran juga"
+    },
+    {
+      "start": 4645.6,
+      "end": 4647.6,
+      "text": "topik-topik, ide topik,"
+    },
+    {
+      "start": 4647.6,
+      "end": 4649.6,
+      "text": "buat diskusi juga."
+    },
+    {
+      "start": 4649.6,
+      "end": 4651.6,
+      "text": "Mengendahan"
+    },
+    {
+      "start": 4651.6,
+      "end": 4653.6,
+      "text": "episode-episode kita"
+    },
+    {
+      "start": 4653.6,
+      "end": 4655.6,
+      "text": "bermankan buat teman-teman"
+    },
+    {
+      "start": 4655.6,
+      "end": 4657.6,
+      "text": "buat menambah pengetahuan dan juga buat membantu"
+    },
+    {
+      "start": 4657.6,
+      "end": 4659.6,
+      "text": "kepercayaan sehari-harinya."
+    },
+    {
+      "start": 4659.6,
+      "end": 4661.6,
+      "text": "Untuk malam ini kita panggil dulu"
+    },
+    {
+      "start": 4661.6,
+      "end": 4663.6,
+      "text": "buat yang mau follow-follow, saya di Twitter"
+    },
+    {
+      "start": 4663.6,
+      "end": 4665.6,
+      "text": "@ezafami2, ada"
+    },
+    {
+      "start": 4665.6,
+      "end": 4667.6,
+      "text": "Eka, Eka VGI,"
+    },
+    {
+      "start": 4667.6,
+      "end": 4669.6,
+      "text": "dan Ivan Trich.com"
+    },
+    {
+      "start": 4669.6,
+      "end": 4671.6,
+      "text": "Kita ketemu"
+    },
+    {
+      "start": 4671.6,
+      "end": 4673.6,
+      "text": "lagi di minggu depan,"
+    },
+    {
+      "start": 4673.6,
+      "end": 4675.6,
+      "text": "caloh. Sampai"
+    },
+    {
+      "start": 4675.6,
+      "end": 4677.6,
+      "text": "bertemu, selamat jalan."
+    },
+    {
+      "start": 4677.6,
+      "end": 4679.6,
+      "text": "Bukan, bentar kan?"
+    },
+    {
+      "start": 4679.6,
+      "end": 4681.6,
+      "text": "Kita baru ngomongin GDI."
+    },
+    {
+      "start": 4681.6,
+      "end": 4683.6,
+      "text": "Kalau ngomongin yang eksperisi itu,"
+    },
+    {
+      "start": 4683.6,
+      "end": 4685.6,
+      "text": "dateng dia. Pasti ada aja."
+    },
+    {
+      "start": 4685.6,
+      "end": 4687.6,
+      "text": "Gak di Twitter, di YouTube,"
+    },
+    {
+      "start": 4687.6,
+      "end": 4689.6,
+      "text": "gimana lagi."
+    },
+    {
+      "start": 4689.6,
+      "end": 4695.6,
+      "text": "Panas gue ngomongin."
+    },
+    {
+      "start": 4695.6,
+      "end": 4697.6,
+      "text": "Itu udah mau selesai."
+    },
+    {
+      "start": 4697.6,
+      "end": 4699.6,
+      "text": "Kita udah nge-closing nih, kan tadi"
+    },
+    {
+      "start": 4699.6,
+      "end": 4701.6,
+      "text": "padahal itu gajar banget tuh"
+    },
+    {
+      "start": 4701.6,
+      "end": 4703.6,
+      "text": "nge-closingnya, ulang lagi."
+    },
+    {
+      "start": 4703.6,
+      "end": 4709.6,
+      "text": "Selamat malam, selamat istirahat, kita ketemu lagi"
+    },
+    {
+      "start": 4709.6,
+      "end": 4711.6,
+      "text": "minggu depan, terima kasih, bye."
+    },
+    {
+      "start": 4711.6,
+      "end": 4713.6,
+      "text": "Bye."
+    },
+    {
+      "start": 4715.6,
+      "end": 4717.6,
+      "text": "Terima kasih telah menonton."
+    }
+  ],
+  "fullText": "Halo, selamat malam semuanya. Selamat malam. Ketemu lagi di Halis Tasa Malam. Waktunya apa? Ngobrolin web. Gue masih ada anak. Sekolahan. Bapak-bapak, ibu-ibu, waktunya apa? Waktunya ngobrolin web. Iya, ketemu lagi kita. Masih dengan format bertiga. Masih ada Irfan, ada Eka, dan ada saya, Riza. Malam hari ini kita kembali berbicara tentang web. Ya, minggu lain kita udah berbicara. Memacaranya ngobrolin web. Ngobrolin web ya, nggak boleh ngobrolin lain ya. Tapi ngobrolin platform lain sedikit ya. Biasanya kan kalau membahas antara mana yang lebih bagus nih. Kita bikin mobile apps dulu atau web dulu kan. Itu nggak habisnya perangnya dalam tentara kutip ya. Pasti akan selalu ada pergembatan, wah bagusan mobile, wah bagusan web gitu kan. Begitu juga sebaliknya. Nah, topik yang malam ini akan kita bahas adalah tentang project Fugu. Yang tujuannya adalah untuk mengisi gap ya. Kan kalau web itu biasanya, kalau dulu kan dikenal sebagai ya kapabilitasnya gitu aja. Karena bagus banget web untuk buat jokumen nih. Betul, kalau mobile itu bisa pake gyroscope lah, bisa bikin kompas lah, bisa misalkan apa lagi ya. Bisa, apa, yang kalau weight block gitu ya. GPS, sensor punya ya, apa pun sensor device. Betul, USB, terus bisa ngeprint dll. Nah, ternyata dengan salah satunya dengan inisiasi project Fugu ini, web itu bisa loh kesana gitu. Nah, apa aja dan gimana kita akan bahas malam hari ini. Dan salah satunya apa, inisiasi yang dilakukan oleh Google untuk membuat web ini lebih, apa ya, lebih... Lebih terasa natif. Mempunyai kapabilitas mendekati atau bahkan menyamai natif. Menyamai natif. Nah, itu... Namun bukan menyamai natif mobile, maksudnya ya. Artinya natif ke, bukan mobile app ya. Kemampuannya bisa, kan gini, web itu kan satu layer di atas operating system kan. Satu layer di atas operating system. Sedangkan kalau mobile app itu, dia nempelnya di operating systemnya. Sedangkan web itu masih ada browser, lalu web page-nya kan. Nah, artinya dengan Fugu ini, kita itu bisa mengakses lebih banyak kapabilitas yang dimiliki oleh mobile device ataupun desktop device. Itu sih maksudnya, jadi lebih mendekatkan ke operating system. Mengakses low level features. Kalau contoh konkretnya, ya mungkin mengakses kamera, ya kan. Kamera kan, apa, kamera itu ya di hape mungkin ada kamera, di macOS ada kamera, gimana nyalain kamera videonya, itu kan harus bisa mengakses ke layer yang lebih bawah lagi, atau sensor, atau apa-apa. - Banyak, mulai dari kamera, NFC, Bluetooth. - NFC kan termasuk sensornya. Maksudnya Bluetooth. Input-output. Nah, terus bahkan hal sesimpel kayak share. Kalau kita mau nge-share ya kan, itu tampilannya kan di Android punya sendiri, di macOS ada sendiri, dan sebagainya. Ini mungkin kayak mengisi gap yang dulu diisi oleh phone gap. Kordova, phone gap, itu mereka bisa mengakses beberapa API native kan. - Kamera, GPS. - Betul, betul. - Dan itu layernya dibikin sama mereka sendiri. - Iya, sama platform yang non-wet kan. Sama parti, sama pihak perusahaan, perusahaan teknologi. Intinya bukan non-browser ya, jadi mereka bikin sendiri, mereka buka sendiri API-nya. - Betul, betul, betul. - Dan abis itu dibundle menjadi sebuah aplikasi, baik itu aplika ataupun iOS ya. Padahal sebenarnya di belakang layar adalah dia HTML, CSS, JavaScript, ditambah HTML, CSS, JavaScript-nya bisa mengakses API mobile, device kan. - Betul, betul, betul. Nah, ada banyak nih Project Fugu ini. - Project Fugu, oke. Kita mulai... - Wow, bahkan tulis di kolom komentar. - Iya, kalau untuk yang live, khusus teman-teman yang nonton live itu punya privilege untuk langsung nanya. Tapi kalau teman-teman yang nontonnya rekaman nanti atau besok atau kapanpun, ya bisa tanyanya ke bit.ly/ngoblinweb ya. Oke, kita bahas dulu tentang satu artikel pertama yaitu Project Fugu itu apa. Tadi kita udah sempat bahas cukup banyak juga ya tentang... - Jadi Project Fugu itu kan sebetulnya nickname ya, kayak cuma nama biar catchy aja. Nama aslinya itu kan, web capabilities project, nama resminya. Yang diperkenalkan di Google. - Tapi pada perkembangannya, pihak yang terlibat kan bukan cuma Google aja, tapi ya semua yang berkaitan sama ekosistem pengguna Chromium. Jadi itu tuh, ada tuh, Microsoft, Intel. Kalau nggak salah Samsung juga terlibat sama ada lagi apa sih itu yang konsultansi. Punya semua yang berkaitan dengan ekosistem Chromium. - Oke. Intel kenapa involved ya? Saya penasaran ya. - Dia kan device itunya dipakai di HP-HP Android kali ya. - Prosesornya ya. - Intel kan nggak cuma bikin prosesor, banyak silikon-silikon lainnya. - Grafik atau semacamnya. - Oh iya, GPU-nya juga ya. - Perang, perang, perang. Dan ini sebenarnya adalah seperti web API yang belum dipulis. Benar nggak sih? Kayak eksperimental gitu. Nanti ketika udah nature, dalam tanda kutip, \"Wah ini udah bisa nih diadopsi untuk browser yang lain, baru di-suggest untuk menjadi web API.\" Sebetulnya statusnya, prosesnya, nanti kan ada di link lainnya. Ya, kalau perkara eksperimental atau nggak, Fugu pun, API Fugu, ada beberapa step atau tahap yang dilalui dari yang masih paling eksperimental sampai yang udah mature, yang ibaratnya siap diadopsi vendor lain kalau memang vendor lain mau. Jadi macam-macam tahapannya. - Tujulannya ini ya, salah satunya ya. Jadi aplikasi web itu bisa melakukan apapun yang dilakukan oleh native app gitu ya, pengennya. - Tapi jangan lupa itu bawahnya core tenets of the web tetap mempertimbangkan security, keamanan, kebenaran, dan privacy. - Nah, ini berkaitan sama kenapa nickname-nya Fugu. Jadi ini nyambungnya ke situ sih ya. - Kenapa Fugu? - Yang jawab yang udah nyoba makan Fugu. - Fugu itu kalau ngeliat ini ya, Fugu itu ikan, ikan buntel. - Ya, ikan buntel bener. Powerfish. - Ikan buntel tapi yang dari Jepang. Kalau temen-temen nonton Finding Nemo itu ada satu ikan yang seperti normal, tapi dia stres, dia di bulet gitu. - Itu tadi yang image yang foto gue kirim dia di WhatsApp itu. - Oh ya, lupa ya. Nggak diambil ya. - Itu kan ikan buntel Jepang ya, kalau disiapkan, itu beracun, racunnya mematikan sebagian punya banyak bagian yang beracun, tapi kalau di persiapannya bener, itu konon katanya enak banget. Nah, nggak tahu, yang pernah makan disini cuma fun. - Bisa aja, bisa aja. Jadi kayak, apa ya rasanya, dia kayak daging ikan, lebih kenyal daripada daging ikan biasa. - Salmon. - Nggak, karena dia dagingnya putih, kalau salmon kan dagingnya orange tuh. Kalau bisa dibilang nggak sekenyal cumi-cumi, jadi putih kayak cumi-cumi, tapi tidak sekenyal cumi-cumi. Kan kalau cumi-cumi alot ya, anggap aja cumi-cumi sangat muda, yang dikunyah itu masih ada kekenyalan dikit, tapi bisa enak, tetapi rasanya relatif kehambar, kayak nggak ada rasa. Kalau mau makannya pakai saus. - Oke, nggak se-hype itu ya. - Iya, cuma teksturnya aja. Cuma nggak ada bau amisnya. - Oh, oke. Cuma mungkin dalam bahasa Indonesia kali ya, jadi B aja, mungkin bagi perspektif orang Jepang, itu mungkin enak banget. Apa, mitosnya itu konon enak banget. - Atau jangan-jangan kalau dimasak ala Indonesia mungkin lebih enak dengan bumbu-bumbu sepah-sepah Indonesia. - Iya, itu mah ikan yang biasa aja, kalau dimasak baladu, ikan kris sama kering tempe itu nggak usah ikan eksotis. Cuma intinya itu adalah ikan yang berbahaya. Bahaya kalau menyiapkannya salah, tapi kalau misalnya disiapkan dengan hati-hati, itu bisa jadi enak banget menurut orang Jepang. Jadi nyambungnya sama API. Ini kan powerful banget, bisa membuka, bisa unlock kemampuan yang wow banget lah, wow banget, tapi disiapkannya harus dengan hati-hati, karena bisa kalau-kalau sembarangan. - Security, trust, and privacy. - Iya, contoh-contoh sederhananya kalau misalkan apa, mungkin sekarang udah masuk ke web ya, apa file system. Kita bisa membaca dan menulis file yang ada di PC atau di device kita. Nah, kalau itu security-nya tidak dijaga, ya bisa bahaya. Dia bisa buka semua folder kita, sebuah aplikasi web yang kita buka, misalkan ulului.com gitu kan, terus kita hapus. - Dikopi dulu semua, diambil, terus dihapus. - RMS gitu kan, ya udah, nangis lah. - RMRF. - Mending kalau cuma dihapus, kalau di-lock pakai, bukan, di-lock pakai apa itu, di-encrypt, terus di buat apa, kalau mau buka, bayar pakai bitcoin dulu contohnya. - Oh iya, atau ya, kita bisa begini, dan miner, juga bisa melakukan apa lah ya, kalau udah, kita bisa taruh file di sebuah device orang gitu. Nah, itu kan sangat berbahaya, makanya ini si Fugue ini juga dibikin juga dengan sangat hati-hati, jangan sampai merusak privacy, trust, dan security. Ya, karena entry level web itu sangat cep, pertama untuk kemudahan di akses orang, tinggal mengunjungi situs atau dapat link dari mana, tinggal buka, itu langsung bisa mengakses device. Sedangkan kalau aplikasi, ada proses step-nya kan, dia harus download, habis download, terus kemudian install, berarti yang dia lakukan itu dengan secara sengaja. - Ya, udah gitu kan ada ininya, ada, ini boleh nggak, akses kontak, boleh nggak, boleh nggak, ya walaupun kita accept-accept aja ya. - Ya, anggap aja, anggap aja bukan mobile app ya, anggap aja kayak installable atau executable yang ada di operating system, kita download, terus kita klik 2x dulu kan, kita klik 2x, terus muncul install, itu secara sadar. Sedangkan kalau di web, kita tinggal buka web, halomannya, dan semua kapabilitas itu bisa langsung diakses, bisa diakses oleh situs dengan seijin kita tentunya. Nah, makanya perlu dibuat hati-hati itu, karena entry level web itu lebih mudah ke banyak orang ketimbang aplikasi. - Ya, tinggal share link di WhatsApp atau di grup-grup, begitu diklik, langsung masuk ke web yang berbahaya gitu kan, itu gampang sekali. - Seandainya tidak, makanya perlu dibuat hati-hati kan, security, trust, dan privacy. - Ya, ngomongin Fugu, kalau Irwan pernah nyobain Fugu di Jepang, di Indonesia juga ada yang mirip. - Oh, ya di Makassar ya. - Ya, dari jauhnya, ikan buntel juga. - Nah, itu bukan ikan buntel sebenarnya, jadi kulitnya itu keras banget. Kalo saya bilang waktu makan ini ini ikan hati peluru di tembak-tembus. - Oh, jadi peracun juga nggak? Maksud saya ada bagian yang peracun juga nggak? - Nggak ada. Kulitnya itu tebal banget, keras gitu. Jadi makannya pun hanya bisa diginiin, karena nggak bisa difilih, nggak bisa diapain, ya cuma dibongkar kerasnya, terus diambil, terus digoreng, udah. Tapi enak sekali. Berbeda dengan ikan yang tadi Irwan makan biasa aja. - Itu ada fotonya kalau mau dibuka. - Oke, kita lihat ya. Jadi sebenarnya si proyek Fugu ini adalah perpanjangan tangan dari web capabilities yang inisiasi oleh Microsoft dan Intel. Pujudannya adalah mendekatkan kemampuan web agar bisa mendekati native lah. Kita nggak bisa bilang kalau bakal menyayangi, tapi mungkin mendekati setidaknya kita udah bisa bikin aplikasi-aplikasi trend dengan API-API yang jauh lebih trend daripada beberapa tahun yang lalu. - Dan ini juga semacam menandai itu sih pergeseran. Jadi kalau dulu banget kan, di awalnya 90-an tuh web itu dibikin untuk dokumen ya, untuk dokumen yang saling terhubung. Nama dokumen ya bayangan kita kan, text, image, ya udah itu aja. Cuma kalau lamaan, ya link untuk saling menghubungkan dokumen atau image itu. Kan itu limited banget ya. Kita bayanginnya mungkin dokumen itu kayak Microsoft Word lah ya, yang familiar semua-semua orang. Microsoft Word dokumen atau semacamnya. Nah lama-lama kan di tahun mulai, ya satu dekade terakhir ini bergeser banget, kebutuhannya mulai geser, penggunaannya bergeser, web itu udah mulai apa ya, Epsi kayak aplikasi. Nah untuk salah satu penanda pergeseran itu ya ada project web capability alias project hugu ini. - Jadi sekarang itu web itu biasanya punya dua fungsi ya. Website atau halaman web yang isinya informasi hanya dalam bentuk text, image, link jadi, atau dokumen ya, dan ada aplikasi web. Aplikasi web ini ya itu yang teman-teman akses setahari-hari. Ada Gmail misalkan, ada Spotify memutar lagu, memutar video, YouTube, gitu ya. Itu kan semua aplikasi web, bukan lagi website gitu. Mungkin definisinya mungkin agak kemur juga, tapi kan kalau website itu asumsinya adalah ya sederhana lah, lepas lah gitu ya. Mungkin ada form, ada informasi. - Dokumen itu tadi. - Dokumen tadi kan. - Biasanya website itu blog atau company profile kalau bahasa sininya. - Company profile, marketing page lah ya. - Marketing page. - Marketing atau landing. - Yes. Nah ketika kita misalkan katakan lah blog kan, depannya kan artikel kan. Cuman ada title, ada sub title, ada date, ada informasi-informasi lain, ada body, ada di dalamnya macem-macem, ada paragraf, ada misalkan ada image juga, ada video, ada audio dan lain-lain. Pada saat kita mau bikin itu dokumen, kita bisa masuk ke admin. Nah adminnya itu ya bisa dibilang sebagai aplikasi web. Bisa jadi ya kayak gitu lah kira-kira. Mungkin sedikit apa ilustrasi itu. - Ilustrasi web itu, ilustrasinya lebih gampang. CMS itu aplikasi web. Forum itu aplikasi web. Terus kemudian e-learning itu aplikasi web, e-commerce itu aplikasi web. - Chat app juga kalau ada yang bisa diakses dari web gitu ya. Nah itu juga aplikasi. - Aplikasi web. - Yes. Nah apa aja sih produk Fugu? Nah di sini ada seluruh website dari Chrome yang baru ya kayaknya, lumayan baru. - Baru banget, baru banget ini baru diumumin. - Baru diumumkan ya. Jadi namanya Fugu Showcase. Nah Fugu Showcase ini adalah daftar aplikasi atau tools-tools yang menggunakan Fugu sebagai API-nya. - API-nya Project Fugu. - Iya. - Jadi kenapa Showcase ini? Jadi beberapa API yang latest itu, itu origin trial ya. Jadi hanya bisa digunakan kalau diijinkan. Gimana ya maksudnya? Bisa digunakan. - Harus apply. Harus apply spesifikasi untuk menggunakan API tersebut. - Betul. Nah jadi beberapa situs ini makanya ada beberapa API hanya bisa digunakan oleh situs-situs tertentu saja. - Tapi ya, maksudnya itu terbuka untuk umum. Jadi kalau teman-teman emang punya website yang atau web app yang kegunaannya, wah cocok nih buat kebutuhanku. Itu bisa apply, kalau udah di-proof, ya udah bisa langsung pake. - Dan itu ada filter by category ya. Misalkan teman-teman yang kira apa ya? Contact Picker. Oh, ternyata sekarang bisa Contact Picker ya, walaupun tidak di semua OS kan. - Tinder. Ternyata ada web app-nya ya. - Tinder itu bukan hanya aplikasi, ada app-nya. - Coba Mas Richard coba daftar, Gih. Kita sama-sama coba Mas Richard. - Catfishing. Bukan catfishing, tapi pufferfishing. Cuma ini showcase ini berguna banget ya buat idir mungkin kita cari inspirasi. Kalau kita cuma lihat daftar API kan, yang ini apa sih? - Ini buat apa sih gunanya gimana? - Namanya debut atau code labs atau tutorial. Pastikan kasusnya yang simple, MVP yang mendemonstrasikan fokus ke cara kerjanya. Cuma kadang kan nggak menarik atau mungkin nggak relevan. Nah, kalau kita pengen contoh yang real world, ya udah kita cari di showcase itu. Mungkin bisa juga dipake buat ngebujuk tim lead kita misalnya atau stakeholder lainnya. Ini loh, bisa bikin kayak gini loh. - Bisa bikin ini loh, video editor loh. Ada yang udah pakai Captut, tulisannya Captut. - Captcut. - Captcut. - Ini saya pakai, tapi yang aplikasinya ya, bukan yang web-nya. Ternyata ini dah udah si web-nya. Ini buatan dari Biden, TikTok kalau nggak salah. Jadi kita bisa edit video. - Dan gratis ya, nice. - Ada satu video yang paling saya suka, yang buat saya menganggap ini adalah auto caption. Jadi kita bisa generate subtitle, ada bahasa Indonesia-nya juga. - Tapi bagus. - Beneran, jadi misalkan video, kemarin kan saya coba kan video, ngomongnya itu nyampur. Misalkan project.js masuk ke program ini, masuk ke folder ini, DPM install, terus ini adalah project.js. Itu terbaca, bener-bener tepat ya. Subtitlenya, itu keren banget. - Wow, oke. - Itu keren banget. Dan ternyata ini di web-nya juga dulu kap, gitu ya. Dan ada apa? Kayak sticker yang lagi trending, gitu ya. Kalau teman-teman yang selalu buka tiktok atau saya selalu dianggapin. Dan API apa aja yang dipakai, di sini ada tulisan, gitu. Ada clipboard, ada case storage, ada device memory, dan system access. - Coba tau, itu clipboard, bisa nggak access clipboard aja, itu artinya web bisa nggak access clipboard yang kita loh. - Clipboard yang DOS. - Dari sistem device kita masing-masing. - Betul. Jadi, bisa kita copy dari misalnya dari, anggap aja bukan dari web ya, bukan dari sesama browser. Jadi dari aplikasi lain kita copy. - Kita nge-tip dinopet atau aplikasi lain. - Terus kita paste-nya di web. Nah, itulah maksudnya asing. - Iya. Yang paling berasa itu kalau teman-teman ikutin, misalkan ada yang pakai Figma nih. Jaman dulu, mungkin sebelum dia menggunakan asing clipboard, itu kalau kita mau copy paste image, nggak bisa. Kalau sekarang, misalkan dari explorer atau dari finder gitu, kita copy image, control-c gitu image-nya, terus kita masuk ke Figma, kita control-paste. - Kita paste misalnya, kita punya Photoshop atau aplikasi lain, kita bisa. - Atau Photoshop atau apapun, gitu. Itu bisa. Kalau dulu nggak bisa. - Yang bahkan bukan di browser. Yang paling kerasa enak itu kalau bikin Google slide. Kalau jaman dulu, kalau mau masukin image, saya harus upload dulu ke drive atau ke mana, baru bisa di-attach ya. Kalau sekarang, drag-and-drop udah bisa. Drag-and-drop aja udah bisa, dia langsung otomatis. Meskipun drag-nya itu dari lokal folder ya, dari lokal folder, saya drop ke Google slide, dia otomatis upload. - Hmm. - Aduh, perbedaannya. - Oke, ini banyak sekali ya. Ada apa lagi yang menarik-menarik? - Coba yang... nggak bisa kayaknya, karena... - Kalau di laptop ya, nggak bisa. Ada yang bisa main game di sini. - Kalau itu, file system access? - File system access. Tadi udah ini. - Oh, tuh. - Yang tadi. - Snipe player. Bisa ya, berarti. - Bisa. Yang tadi juga si Capcut. Capcut bisa, tail-draw bisa, escale-draw bisa. - Github.dev bisa tuh. Wow. - Github.dev ini apa? - Nggak tahu, makanya. - Itu buat buka repubita. - Facebook ya? Facebook di browser, di cloud. - Iya, dan bahkan bisa install extension dan sebagainya. - Pasot Github-nya Mas Liza apa tuh? - Coba-coba ya. Ingat lho. Fugu itu adalah security trust and privacy. Tolong dihormati ya. - Password-nya 1-8. - Password-nya enter aja. - Password-nya pesan dulu. - Pesan dulu. - Dari coffee. Selamat malam Audi. - Selamat malam. - Nah, apa nih? Jadi, jadi ngeblank kan gara-gara tadi. - Oke. Ini kan showcase-nya nih. Jadi kalau temen-temen pengen tahu, langsung ke showcase, pengen lihat ada aplikasi apa aja dibangun dengan menggunakan showcase. - API, project Fugu. Ada banyak banget soalnya API-nya. - Ini bisa di, yang paling popular ada yang temen-temen tahu ada nggak ya? - Figma, tadi ada Figma. - Figma, ada banyak lah ini. - Nah, kalau pengen tahu ada apa aja, apa, Fugu API, dan statunya sudah sampai mana, ada tracker. Nah, Fugu ini tracker, web. Contohnya, web Bluetooth API ini ternyata dari Fugu ya. - Itu udah ship, udah lama. - Udah ya. Nah, kalau kita lihat itu kan list-nya di kelompokan jadi beberapa kategori berdasarkan status-nya yang tadi kita udah bahas sekilas ya. Yang paling atas itu status-nya udah ship. Nah, terus kalau misalnya slide lagi sedikit ke bawah. - Oke, sebentar. Nah, ini. - Context API. - Trial. - Ada tadi developer Trial. Nah, itu ada detail-nya juga kalau mau tahu keterangan apa sih maksudnya status-status itu. - Bisa diklik ya. - Nah, biar flag ini berarti kita harus, kita harus ke setting Chromium atau browser, kemudian kita nyalakan fitur, misalkan sensor atau notification atau semuanya ini ya. Gitu ya. - Terus ada yang started. - Baru mulai. - Nah, kalau started itu yang experimental murni yang masih itu API-nya bisa tiba-tiba berubah. Maksudnya bisa berubah sewaktu-waktu kalau kita pakai itu ya ekspektasinya kita ngasih feedback karena yang nggak nyaman atau bermasalah. - Bisa jadi tinggalkan juga kalau nggak ada banyak. - Gak ada yang pakai. - Ada detection. Ini kayak start-up ya. Banyak ide ini masukin ke sini gitu. Banyaknya pakai ini. - Coba buka itunya deh, apa? - Mereka di definisi status-statusnya, ke atas dikit. Nah, details. Nah, itu tuh jadi paling atas, paling atas dulu. - Behind the flag. - Atasnya lagi. - Oh, ini, iya. - Atasnya lagi, paling atas. Paling atas kan stable tuh, berarti itu udah launching, beneran launching, ada di semua browser yang Chromium-based. Dari Google Chrome, Edge, Brave dan lain-lain. Terus tadi origin trial kan kita udah bahas juga ya, sekilas. Nah, itu bisa apply. - Apply untuk menggunakan kita harus apply. - Di domain kita. - Di domain kita. - Jadi kita sebagai pemilik situs, pemilik web app yang mau menggunakan kita yang daftar, tapi user kita nggak perlu ngapa-ngapain. Jadi, maksudnya user yang menggunakan feature kita, kalau udah prove, ya udah, bisa langsung pakai. Nah, bawahnya lagi tuh flag. Kalau flag itu user-nya yang harus mengaktifkan feature itu. Jadi, nggak bisa tiba-tiba langsung pakai. - Ini developer trial, karena harus masuk ke Chrome flag, cari feature itu, diaktifkan. - Jadi, ya kayak buat internal lah, mungkin kita punya QA, buat QA kita sendiri, atau mungkin kita pengen, kita bikin library atau semacamnya yang konsumennya adalah developer juga. Jadi, kita nyuruh, kita nyuruh user kita yang mana mereka sebenarnya developer juga buat ngaktifkan feature itu, misalnya. Ya udah, di situ, started sama consideration. - Sama ada consideration. Ini backlog. - Iya. - Ohnya makin ke bawah, makin experimental, makin aneh-aneh. - Jadi, hanya suggestion itu, apa, yang ide aja ya. Oh, ini kayaknya bagus. - Iya, ide aja. - Abis itu nanti dia suka. - Tapi harus, ide-nya juga harus, ini sih kan ada showcase-nya juga kan. - Oh iya. Harus-harus proposal, kan? - Iya, proposal. - Jadi, theoretically, teorinya mah kalau kita punya ide apapun, kita bisa suggest juga. Cuma ya belum tentu di... - Tentu, diterima. - Habis disugest, kita harus follow-up, terus kayak ikut, harus kejar. - Terus habis itu, habis itu yang developer siapa? - Ya, kalau dianggap, kalau dianggap itu fiturnya menarik, ya berarti kan nanti akan ada timnya yang akan di-assign untuk itu. - Iya, iya, iya, iya. Oke. Next-nya, kita ngomongin apa lagi nih? Ini udah? Perlu dihubungi ini udah ya. - Showcase. - Terus ini adalah tipset. Tipset ini adalah untuk... - Apa lagi? - Nah, itu sebetulnya yang tadi sih. - Terus prosesnya. - Proses. Anyone can suggest. Kemudian ditulis, apa, dalam tulisannya. - Terus menulis detail, explainer. Jadi kita ngusulin, nggak bisa cuma minta-minta feature aja, kita mesti bikin explainer, terus kira-kira API-nya, bentuknya seperti ini. - Terus habis itu didiskusikan, kalau ada feedback, mungkin dokumennya bisa ditulis apa, ditulis ulang, direvisi, gitu ya, kayak ini ya, kayak ngaduin bidul skripsi, kan? Habis itu baru dokumennya dimasukkan, di-issue ke technical architect group, architect group dari Waiting J. Kemudian kalau udah berhasil di-review, - Deformal specification-nya. - Deformal specification-nya. Jadi yang sering kita bahas ya, ini kan feature-feature ini bukan proprietary, nggak ada yang punya. Maksudnya, ini bukan punya Google, walaupun yang di-develop oleh Google atau Samsung atau Microsoft, API ini bukan milik Google yang dipatenkan atau proprietary. Implementasinya, iya, yang di Google Chrome misalnya ya punyanya Google, yang di Microsoft Edge punyanya Edge. Tapi kalau di web, apapun itu berdasarkan spesifikasi, spesifikasinya itu ya, nanti kalau udah masuk tahap terakhir, stable, bisa diadopsi siapapun, nggak harus bayar, nggak harus minta izin atau apapun. Jadi ini yang diketahui di tahap ini, ini bahkan nggak coding sama sekali, belum coding sama sekali baru spesifikasinya. - Ya, dan spesifikasi ini disiapkan untuk bisa bergeran di semua platform atau di semua browser ya, bahannya Chromium ya. Karena ada hubungan juga sama W3C. Gimana, gimana? - Pada saat yang sama ya, developer yang ngerjain Chromium ya sambil bikin juga, bikin implementasinya. - Oke, kemudian dari sana udah direview berhasil masuk ke implementasi, proses implementasinya, kalau udah mulai didemol atau udah berapa pasien gitu ya, bisa di-launch itu melalui flight nita. - Oh, kok ilang? - Iya, kayak internet masih bisa mulai lambat. - Masih audionya ada, screenshotnya ada. - Oke, lanjut, lanjut, lanjut. - Yang penting masih bisa ngomong sama screenshot lah. - Masih bisa ngomong, iya, oke lah. API-nya berhasil dikomentasi kita bisa pake developer tadi ya, yang kita sebutin developer itu, aksesnya di setting ya, kalau misalkan kita pake Chromium, ya Chromium.2.0/flex. Tapi kalau misalkan Brave, misalkan dia jadinya Brave.2.0/flex. Edge juga sama, gitu. Nah, di situ nanti ada fitur-fitur yang sesuai, yang dingin kan. Setelah itu masuk ke Stabil, Stabil ini masuk ke Original. - Lanjut, lanjut, lanjut, dijelaskan. - Kalau udah ada token, ya itu tadi. Tadi kayaknya kita udah bahas ya soalnya di yang sebelumnya. Kalau misalnya sudah, jadi dapet token, kalau misalnya website itu atau aplikasi itu pakai token tersebut, ya di semua user, otomatis bisa langsung dipake. Nah, tahap selanjutnya, shape Stable. - Itu berarti udah di atas di semua ya? - Di browser-browser Chromium. - Di Chromium-based browser. - Nah, proses dia untuk, katakanlah, \"Oh, ini bagus nih, terus kita mau minta push ke browser lain, ada nggak sih di sini?\" - Bukan, sebenarnya bukan nge-push ya, jadi browser lain itu memilih, kan sudah jadikan standar. Kalau memang, apa, kan sudah berjalan dan adopsinya ternyata di user yang di Chromium itu banyak, dan intresnya banyak untuk menggunakan itu, contohnya Bluetooth API, contohnya ya. Nah, browser lain mulai-mulai, \"Oh, ternyata sudah ada standar Bluetooth API.\" Mereka mulai mengadopsinya, seperti itu. - Nah, ini kelebihannya. - Bisa jadi nggak sih beberapa API yang ada di sini itu jadi interop, bisa juga kali ya? Yang kayak... - Klub! Masih bisa hilang. - Iya, tapi skrencernya tetap... - Untuk skrencernya malas sih kali. - Bisa juga berarti ya dari Fugu API ini masuk juga ke interopability yang di project interop itu? Bisa juga kali ya? - Bisa aja, cuma kan sebetulnya tujuannya beda. - Bisa aja. - Bisa aja, cuma kalau Fugu ini kan tujuannya itu tadi bikin feature-feature web yang mendekati kemampuan atau kapabilitas native. Sedangkan kalau interop itu tujuan utamanya memastikan semua antar browser bisa bekerja dengan konsisten, dengan streamline, developer bisa pakai dengan nyaman. Cuma kita lihat juga skopnya ini sebenarnya agak beda kalau interop itu kelebihannya dia adalah skopnya paling luas karena didukung semua vendor dari Chromium sampai Mozilla, sampai Apple dengan Safari WebKit itu udah kerja sama semua. Sedangkan kalau Fugu ini kan project Fugu skopnya sedikit lebih sempit Chromium bukan cuma Google, cuma ya kan Google, Microsoft, Samsung, Intel. Jadi skopnya lebih sempit. Nah, kadang tuh concernnya sebenarnya orang-orang yang pengen pakai API project Fugu ini kan gimana ya punya feature tapi cuma bisa dipakai di Chromium. - Oh, Chromium. Itu gimana ya? - Chromium-based. Nah, sebetulnya itu kalau menurut aku ya antara justified dan nggak justified sih. Maksudnya emang kenyataannya kan sekarang ini sebagian besar API project Fugu ya emang cuma Chromium-based. Jadi nggak jalan di Firefox maupun Safari. Tapi di sisi lain itu kan bullet point terakhir tuh sebetulnya menjelaskan bahwa ini kan standar spesifikasi jadi bukan milik, bukan punya siapapun spesifikasi itu kalau misalnya banyak yang suka, banyak yang pakai, dianggap menarik, ya nggak tertutup kemungkinan Firefox atau Safari atau misalnya nanti ada vendor lain bisa mengadopsi itu. Tadi udah ada contohnya dua, async clipboard sama web share. - Oh iya, web share sudah diadopsi sama browser lain ya Firefox dan Safari. - Jadi bukan nggak mungkin, bukan mustahil bisa suatu saat API-API itu bisa jalan di Firefox dan Safari juga, walaupun sedikit. Cuma mungkin ini kelebihan dibanding browser world jaman dulu. Jaman dulu banget kan konon Netscape Navigator sama Internet Explorer itu perang ya. Cuma kalau perang yang versi jaman dulu itu perangnya rada nggak enak karena mereka semua bikinnya proprietary, beneran. Misalnya untuk feature yang sama nih, apa, clipboard. Si Netscape Navigator bikin sendiri, beneran rahasia punya sendiri, Internet Explorer bikin sendiri. API-nya lain, beneran jadi harus ngoding dua kali, pusing nggak tuh. - Betul, betul, betul. - Nah gimana kalau sekarang browser-nya banyak, browser ada lima, nggak mungkin kita bikin developer bikin lima kali. Nah untungnya sekarang udah, walaupun kalau mungkin persaingan atau apa ya masih ada ya. Cuma kalau dari segi teknis API-nya bakal sama karena berbasis standar si spesifikasi itu tadi. Jadi minimal nggak sesuruh jaman dulu lah. - Terus bagaimana kalau cara teman-teman bisa mulai kalau pengen adopsi project Fugu? - Ya itu balik ke, mungkin balik ke tracker dulu ya, tracker atau showcase. Pertama kan kita masih milih dulu nih mana yang sesuai sama kebutuhan. - Itu tuh ada di link yang terakhir tuh Mas Dizah, di Boost Your Blah Blah Blah, paling kanan. - Iya nah. - Nah tuh ada codelab-nya juga kalau pengen coba-joba. - Mas Dizah udah mulai duluan tuh. - Apa tuh? - Udah selesai malu tuh. - Udah selesai tuh, nah. Jadi teman-teman bisa kesini nanti developers.google.com/learn/pathways/fugu-apis. Mulai aja, jadi ambil codelab-nya ada 8 aktivitas disini dan bisa coba-coba nih. Bisa coba-coba SMS OTP, bisa tab App Mode di PWA, bisa akses hardware seperti Bluetooth, NFC. Eh nggak tahu apa aja sih yang di codelab ini, gue belum coba yang akses hardware. Dan coba scroll lagi ke bawah, bisa connect ke Uncommon Higher Input Device. - HID itu apa sih? Higher Input Device? - HID? Itu yang apa sih? Elektronik analog kan? - Elektronik yang lawas? - Oh bukan, HID Device itu Human Interface Device. - Itu apa? - Itu apa sih? Yang kayak... Nah, dibuka aja, dibuka aja padunya. - Contohnya apa nih? - Joystick. - Oh bukan, mouse. - PS2. - Mouse, mouse, mouse. - Mouse, mouse, mouse, mouse, mouse. Gamepad, touch screen, terus balik lagi ke Bus. Terus lanjut lagi bisa baca dari serial port, kalau memang main IoT ya. Terus kemudian akses USB dan streams. Streams itu untuk itu ya, apa? Kayak video audio tapi yang versi mentahnya ya buat diolah lagi. - Yang buat live streaming? - Live streaming bisa, atau editing misalnya, video editing-nya kayak si CapCut tadi itu. Contohnya ada... Projek-projek Fugu ini menarik ya. Banyak hal-hal yang lucu-lucu, yang unik-unik juga. Kayak Text Detection API, Image Recognition API itu sudah ada. - Jadi nggak perlu punya... - Itu Fugu bukan sih? Text Detection? - WAPI itu WAPI. - WAPI itu Fugu. - Masih masuk Fugu ya? - Fugu, masih masuk Fugu. Itu ada link-nya tuh, saya kasih Chrome Status. So, siap. Shared Screen lagi. - Jadi Text Detection ini bisa buka yang punya Mas Kinlan. - Paul Kinlan. Kayaknya akar banget nih sama... Jadi dia bisa baca text yang ada di image itu ya. Dan ini nggak pakai kayak bikin itu, apa namanya? - OCR? - Ya, dia OCR tapi bawaan dari browser langsung pakai kapabilitas WAPI. - Ini bagian dari Shape Detection ya sebetulnya? - Betul, Shape Detection. Jadi bisa Face Detection, Shape Detection API. Nah, turun sedikit, ada JavaScript code-nya, cara aksesnya itu bisa as simple as that gitu. Jadi kayak ngambil datanya dari mana? Dari video, terus kemudian Capture, Image Capture. Dan kemudian langsung pakai API-nya, Text Detector. Ini JavaScript banget ya. Maksudnya kita pakai high-level language, yaitu JavaScript, gimana browser-nya kerja ya. Maksudnya browser nerusin lagi ke sistem, apalah itu sistem yang di device kita kan? OCR. OCR yang dipakai di device kita. Yang mungkin pakai bahasa C++ atau apalah. Nah, ini browser itu ada di layer yang ini. OS-nya ada di layer bawah, baik itu Android, Windows, Mac OS, iOS, dan OS-OS yang lain. Kita dari API tinggal ngetik JavaScript yang enak dan sintaksnya friendly sama kita. Cuman PR-nya itu adalah kita butuh tahu ini. Kita butuh tahu ini, kita butuh tahu ini. Dan terakhir masih ada tuh speech synthesizer. Jadi setelah ditemukan, yang nomor 4 di step 4. Setelah ditemukan, dibounding boxes-nya baru di speech synthesizer. Jadi sudah dapet. Di baca? Iya, sudah dapet. Terus di kasih suaranya gitu. Jadi dari gambar, dari majalah atau surat kabar, difoto, terus dibacain. Bayangin aja kalau misalnya teman-teman punya ide-nya begini ya, web-nya buat translate. Misalnya akses kamera, langsung arahin ke, misalnya lagi ke Jepang, mau makan ikan fugu. Tapi pengen tahu urusannya apa gitu. Terus bisa diarahkan, terus kemudian dari text detector, di-connect ke Google Translate API, langsung bisa dibacakan apa sih value dari yang tulisan itu. Itu contohnya. Seperti Google Lens lah. Ibaratnya kita mau bikin web yang semacam Google Lensnya bisa. Oke, ada banyak yang komen ya. Ada yang bilang keren, terima kasih. Pemuda panca Indra, ada yang... Kriteria cowoknya gimana? Eka itu penyanyi cowok yang sudah menguasai 5 ugu API. Origin trail. Aduh, halo. Naika, ada damar nih itu. Excited banget mau hitung-hiturnya, tapi biasanya apply API-nya susah. Jadi lebih suka pakai wrapper yang udah indones saat browser ada support. Oh, ini apa namanya? Tapi emang tujuannya gitu juga kan. Yang penting, feature-nya ada dulu di browser. Cuma prakteknya misalnya kita pakai React, kita pakai Sweat. Pasti ada lah biasanya yang udah bikin. Kayak kalau contohnya yang udah feature yang udah matang, async clipboard, misalnya async atau web share, itu pasti udah banyak. Pasti udah ada yang bikin wrapper misalnya buat React atau semacamnya. Bisa buat juga kan. Bikin wrapper-nya aja buat bantuin teman-teman yang lain. Ya, lumayan tuh buat opportunity bikin-bikin project lucu-lucu ya. Buat open source juga, ambil belajar. Ada Sabeh hadir. Terima kasih sudah hadir. Terus ini juga pertanyaannya, apakah Funggu sama dengan PWA? Ada kayaannya? Soalnya yang saya tarat dia dari tujuan sama-sama melakukasi native. Sebenarnya benar ada hubungannya memang. Hubungannya adalah PWA itu kan kita, aplikasi yang kita buat, itu bisa kita gambarkan sebagai PWA. Sejangan kalau Funggu itu nama salah satu project yang itu bikin R&D lah ya tadi pas off-screen, Ivan bilang R&D. Research and development bikin API-API-nya, feature-feature-nya yang kira-kira bisa dipakai di PWA kita, di aplikasi kita. Kalau dilihat di tracker-nya, ada beberapa yang kata gue dia masuk ke PWA. Coba buka itu dong, tab web apps itu apa sih? Gue penasaran. Ya bisa buka dari tab. Jadi itu cuma untuk PWA yang udah di-install. Jadi kita harus install sebagai PWA. Cuma kan kalau misalnya kita buka di Chrome biasa nih, kita bisa buka open in new tab. Nah kalau misalnya sebelumnya di PWA kan nggak bisa tuh, cuma satu window aja. Sekarang bisa. Oke. Wow, oke, oke, oke. Terus emang ada beberapa kapabilitas yang terlalu powerful kalau dipakai di sebarang halaman web biasa. Nah kalau PWA itu kan satu layer lagi. Kayak user dengan sadar meng-install PWA itu. Nah waktu udah dijalani sebagai PWA, ada kayak feature-feature tambahan. Itu URL Handler misalnya kita mau buka gambar nih. Kita ada PWA yang semacam misalnya aplikasi image editor. Nah itu kita bisa buka file image dengan aplikasi kita. User kita maksudnya bisa buka file image mereka by default menggunakan aplikasi kita itu. Nah itu kan make sense-nya kalau udah di-install ya. Iya. Ini kan PWA. PWA ini apa ya? Logonya mirip-mirip lagi ya. Isolated Web App. Apa itu? Ga tau, belum pernah coba. Isolated Web App. Apa tuh? Nah boleh tuh, besok-besok bahas biar kita kepaksa kumpul. Isolated Web App. Kita aja baru tau nih. Kita baru tau nih. Extension of existing work on PWA installation and web packaging that provide stronger protection against server compromise. Jadi keamanannya lebih tinggi. Package into web bundles. Jadi sebenarnya kayak executable tapi web. Ga tau yang gue tangkap gitu. Masih specification. Masih in development. Oh inget ga sih yang dulu pernah di CDS ada web bundle pernah dibahas? Iya tau. Sama portal juga kan kalau ga salah. Sama apa? Portal. Oh iya portal. Bareng-bareng kan? Iya web bundle sama portal. Apa itu ada hubungannya ya? Kayaknya. Kalau ngeliatin ini sih iya. Soalnya ada web packaging, terus ada web bundles. Nunggu CDS selanjutnya nih pengen tau. Jadi kayaknya ya. Kayaknya kita bisa punya executable kayak RxE atau kalau di Mac OS tuh RxPT gitu ya. Tapi itu sebenarnya browser. Jadi kayak elektron ya. Pengganti elektron yang lebih ringan ya. Ya kalau web bundle sih begitulah. Kayak download HTML jaman dulu tetapi yang sudah tinggal bisa di off-line. Jadi kembali ke pertanyaannya, PWA itu ada tujuan untuk supaya bisa di install. Jadi PWA itu kan ada beberapa comment ya. Yang pertama ada web manifest, application manifest, yang ada icon, ada judul dari aplikasinya, ada description, meta data lain. Terus ada service worker-nya harus ada. Salah satu lagi. Ada API ya? Harus cepet. Berantara kalau fugunya itu adalah API yang bisa membuat aplikasi PWA dengan fungnya yang lebih beragam. Tambah kaya. Punya feature-feature yang kaya. Cuma sebenarnya kalau API fugu ini mah bebas diadopsinya ketenggan juga boleh. Maksudnya kita cuma punya, kita cuma perlu pakai satu atau dua API, nggak masalah kita bisa pakai walaupun aplikasi kita bukan atau belum berstatus PWA secara lengkap. Tapi yang non-negotiable, yang harus tetap harus di-serve lewat HTTPS, harus secure, harus ada TLS apa, security-nya. Jadi walaupun kita misalnya belum punya manifest atau apa tadi semua syarat tadi nggak masalah, tapi ini semua nggak akan jalan kalau nggak di HTTPS. Tidak di HTTPS, harus security ya syarat dari ininya ya. Oke. Nah ini, tab web-tab itu ke-feature keep alive supaya tab-tabnya tetap? Enggak ya? Bukan ya? Tau juga, belum pernah coba. Ya multiple tabs aja sih. Ya multiple tabs. Multiple tabs ya. Jadi di dalam aplikasi PWA, itu kan biasanya nggak ada tab kan. Nah, ada tab web-n-nya, jadi kalau kita udah install, kita bisa control-t atau command-t. Nah, terus kalau behavior state sih ya sama aja kayak kalau kita buka di browser Chrome biasa. Iya. Jadi emang bisa dipakai buat itu juga. Belum ada contohnya lagi, belum ada contoh. Ntar coba. Ada lah paling coba buka di showcase deh. Showcase? Oh iya bener juga ya, kita punya showcase ya. Tab web-tab. Itu fungsinya. Ini, tab application mode bukan ya? Bisa jadi. Atau di sini ya, harus di- Bukan, di Slack API. Nggak ada, belum ada. Oh belum. Mungkin itu kan ada. Tab, ada tab application mode? Tab application mode. Ada tuh? Iya, kalau tab application mode ada. Tapi harus di-install dulu. Hmm, bener juga. Ini status-nya udah sampai mana dia? Origin trial. Origin trial. Behind flex. Behind flex. Flag atau origin trial? Oh, behind flag. Oh, behind flag. Salah banget. Belum, nggak kan belum origin trial. Iya. Fugu, kok kaya aritmetik versi browser. Kenapa, kenapa? Tadi ada contoh, offline wikipedia reader. Contoh tadi apa? PWA yang pakai feature tab application mode. Itu kan sebenarnya ide-nya simple ya, se-simple. Ngambil dokumen-dokumen wikipedia. Mungkin misalnya teman-teman miskin paket data ya. Miskin pulsa, apa? Kalau lagi di wifi, entah di kampus atau di mana tempat makan. Download dulu semua, terus di rumah bisa buka semua. Dan namanya kita browsing wikipedia ya, kan. Mungkin kita bakal butuh buka macem-macem link. Itu kan multiple tabs, helpful banget, membantu banget. Biasanya kalau teman-teman pengen bisa jadi punya novel online, bisa di download semua. Novel online. Siapa tahu, atau comic online. Nggak, nggak, ini dokumen-dokumen online semua kan. Kalau ada versi offline-nya, ya udah, kita download dulu aja. Terus misalkan kita lagi di pesawat atau di mana, kita tinggal... Itu gunanya web bundle kan sebenarnya. Sebenarnya. Ternyata PWA biasa juga yang penting, pertama online dulu. Kan abis itu udah ke-download semua. Emang ya? Tergantung, tergantung. Ya, kita bikin download. Tergantung seberapa banyak mau dikirim. Iya, seberapa banyak. Kalau dokumentasi kan lumayan banyak kan link-nya kan. Kalau kita langsung download semua, bahaya juga itu. Buat kelangsungan usaha kita. Ini tadi saya mau... Kayak react native. Kayak react native, mungkin, iya. Yang tadi kita sebutkan seperti... OneGear atau CordowWire. Yang hybrid, sebenarnya dia adalah teknologi web. Cuma dibikinin. Tergantung untuk mengakses API-API yang ada di... Baik itu di device, mobile, ataupun di desktop. Kalau react native kan lebih fokusnya ke mobile app, ke Android dan iOS kan. Walaupun ada react native untuk desktop juga ada. Cuma saya nggak tahu seberapa banyak API di desktop yang... Disediakan oleh react native desktop. Karena yang paling terkenal, ya, untuk bikin aplikasi mobile. Nah, ini mungkin dari Damar. Ini Damar mendanggapi yang... Downloadan. Oh, downloadan. Kalau ini content... Itu pakai background sync. Jadi background sync itu... Kalau di mobile... Udah install PWA-nya. Terus kemudian pagi-pagi dia... Misalnya situs berita ya. Dia bisa tetap jalan di off-line... Sorry, di background secara periodik untuk ngambil konten. Ternyata kalau begitu udah dibuka... Waktu user yang ngebuka aplikasinya... Content kita sudah yang terbaru. Dan bisa, karena kita tahu udah ada konten terbaru... Kita bisa gini notifikasi juga. Ada berita baru nih, silahkan baca contohnya. Atau yang paling simple sih, sebenarnya pakai service worker nih. Kita pakai yang strategi SWR kan. Stay Well, Revalidate. Jadi pertama di-serve aja dulu. Udah punya semua aset yang lama. Sambil nge-check lagi. Kalau ternyata ada yang baru... Ya udah, tinggal kirim mesej kan. Biar user me-reload. Itu untuk casing strategi. Sedangkan yang saya ceritain tadi tuh kontennya yang update. Fetching. Ya, fetching konten baru. Kayak kalau casing strategi kan bisa jadi untuk... Lebih banyak digunakan untuk aset. Kalau CSS-nya yang baru... Jadi makanya should please reload kan contohnya. Oke. Nah kalau API-API yang teman-teman ikutin, apa aja sih? Ada yang ternyata nggak nunggun banget nih. Wah ini kayaknya bicar nih. Webshare. Webshare lah yang paling... Itu API sejuta umat share sama clickboard. Share. Ini belum kita bahas kan, webshare kan? Iya. Webshare API ya? Ini kayaknya versinya ada macem-macem yang di fugu tracker ya. Iya, webshare ini adalah... Mungkin ada yang bisa menjelaskan? Ya buat share. Ya tapi kayak widget. Tapi tanpa plugin. Kalau dulu kita harus install plugin ad-query atau react atau apa. Biasanya kan kalau kita... Kalau kita nge-share itu... Coba tuh buka artikelnya aja. Oh iya betul. Webshare. Yang paling enaknya karena dia native. Webshare itu bisa kita share ke aplikasi lain yang ada di mobile. Ini yang kita install. Ini kapabilitasnya si OS yang dipakai. Itu pure semua UI-nya. Bukan UI bikinannya query lagi. Tapi beneran punya sistem kita sendiri. Misalnya kita pakai Android. Yaudah itu fiturnya aplikasi-aplikasi yang sering kita pakai. Akan bisa langsung kirim ke printer. Bisa ke telegram, ke mana aja. Wow, seru sekali. Ini cara pakainya? Tinggal begitu doang. Navigator.share, beres. Ada title, ada address, ada URL, udah gitu ya. Tapi jangan lupa itu cek dulu. Jika nggak ada, kita lazy load. Ya itu library yang sebelumnya. Library pihak ketiga atau bikin sendiri ya terserah. Ingat, webshare di desktop tidak ada. Iya. Anya bisa di mobile. Di mobile. Tapi tadi ada yang buat. Udah ada yang buat desktop? Belum. Belum. Bisa di webshare di desktop. Baru sampai? Baru sampai, udah ship. Tapi di mana? Apa itu janyan Chromebooks? Mac OS. Menarik. Ayo, webshare di desktop. Gue nggak tahu. Tapi navigator.share nggak bisa di desktop. Coba aja. Coba buka devtools. Navigator.share. Belum, nggak ada. Share in navigator. Bols, belum bisa. Navigator.share. Ada window ini. Oh, bisa. Bisa. Itu apa sih? Itu browser apa? Windows. Oh, oke juga ya. Coba copy paste. Coba copy paste tadi. Navigator.share muncul. Senangnya tuh udah muncul. Harapan palsu. Mac OS belum bisa. Muncul, muncul. Tapi kok nggak muncul? Kan promised, await. Screennya beda. Share yang full. Share screen. Share yang ini. Kita... Nih, cuma ya. Lagi ya. Tuh, klekan nggak? Oh, ini pakenya Windows. Windows. Oh. OS belum ada. Coba liat tuh. Eh, tapi disitunya ada. Linux. Gak ada tuh. Mac OS ada nih. Belum bisa ini. Lo. Lo. Lo. Oh. Silahkan coba di device masing-masing ya. Ada yang punya Linux. Mungkin bisa coba, baru coba. Kalo dilaporkan. Kita kurang update nih. Nah, ini cocoknya sambil ngeliat \"How Fugu is my browser\" tuh. Dibuka tuh, cocok tuh. Sambil ngecek browser kita. Seberapa Fugunya. Apa ini? Seberapa Fugu, browser kita gitu ya? Seberapa bahayanya, lo. Bukan ya. Seberapa... 70%. 70% Fugu. Fugu. Windows ND10. Wah, ini udah ada nih. Aselerometer ada. Itu home screen ada. Hah? Gila. Baru tau di laptop ada aselerometer. Itu kan yang buat apa? Sensor gerakan kan. Biasanya di gaming gitu. Iya. Itu home screen jelas. Wah, lengkap juga ini. Desktopnya. Nah, ini gak ada. Ambient gak ada ambient. Ambient light mendeteksi apa, diselitar kita ya. Terang atau enggak. Ya, kontak ticker juga kayaknya agak susah ya. Soalnya, belum ada. Di desktop itu belum ada, kecuali di Mac OS ya. Ada aplikasi kontek yang netikoan si OS-nya. Dan emang keliatannya belum terlalu itu sih masih agak polemik soal kemampuan mengakses kontek list itu kan sensitif banget ya. Wah, bahaya nih. Pinjol-pinjol bisa ini nih. Udah coba. Pinjol. Di Mac OS gak bisa. Webshare. Gak bisa ya? Gak bisa, gak bisa. Kurang canggih. Kurang canggih. Cuma intinya kalau pengen liat kemampuan browser kita buat support Fugu API ini UI-nya user-friendly banget ya. Ini. Sama satu lagi tadi ada coba dari Discover itu yang link Discover yang barusan yang di sebelah tab ini. Di sebelah tab ini ada Discover. Ini kan turun. Ini how. Jadi topiknya how Fugu is my browser yang link tadi. Sama how Fugu is the site. Coba how Fugu is the web. How Fugu is my web gitu. This one. Jadi ada click how Fugu is the web itu. Itu ada apa namanya? Ada extension. Chrome extension ya. Jadi kalau misalnya di install kita bisa tahu situasi yang kita kunjungi itu gunakan Fugu API yang aja. Oke, oke, oke. Contohin tadi Excalibro itu 9 Fugu API. Di tab yang sebelumnya. Ini ada di sini. Oh iya. Yang bikin juga Mas ini kok. Mas Thomas. Mas Thomas ngeliat, ngeliat, ngeliat, ajar gitu loh. Hei. Hei. Mas Thomas ngomongin apa nih orang-orang. Dia punya pake Radar API kali. Kalau ada yang ngomongin Fugu, dia ikutan. Fugu. Langsung ya. Kayak itu, mas siapa yang Xstate itu? Kalau nyebut state machine dia mojol. Yang bikin Xstate. Oh iya, kayak ini juga kayak Mas Danang. Kalau nyebut GDI dia muncul. Oh, dia muncul. Sudahlah, yang ini bentar lagi dia muncul. Ini baru 8 loh. 3, 4, 5, 6, 7, 8. Oh, belum update nih berarti ya. Web share. Belum update, terakhir 9 kan? Iya, terakhir 9. Pasing clipboard. Ya, kita bisa copy paste juga. File handling, system, web share target, web share target file. Jadi, web share target file ini, file excalidraw-nya, extension excalidraw itu bisa di share dulu. Diklaratif link capturing-nya apa? Gak tau ya. Link capturing. Itu kayak kayaknya itu ya, open in. Oh, open in excalidraw gitu ya. Misalnya kita ada file excalidraw. Karena open with ya. Open with excalidraw. Terus baliknya ya, 4. Oke, oke. Inilah gunanya ngobrolin web. Gua gak tau lagi berapa banyak web API. Excalidraw ini 9 ya. Ada di sini padahal ya. Eh, ini kan sudah 5. Ada pendelesan yang gak ada. Tapi kalau misalnya insta extension-nya itu ada ininya, ada detail-detail setiap. Link ke dokumentasinya ya? Iya, detail ke setiap API-nya. Web share. Cache storage. Cache storage siap? Caching ya? Caching service worker gak? Kayaknya sama dengan storage. Cache storage API mungkin yang kayak local storage. Caching service worker. Caching service worker beda lagi ya. Kalaman ini. Berbahaya. Di macOS bisa. Tapi macOS sama Safari tampilannya beda. Kayaknya gak nanti macOS. Oh, jadi ini. Jadi mereka implementasi diri. Tadi pake macOS. Pada gue udah coba Chrome Dev yang Chrome Dev yang paling baru ya. Chrome Dev sama macOS. MacOS belum bisa sih ini. Ini API sejuta umat soalnya kayaknya setiap bikin website hampir pasti ada feature share. Cuma ini lumayan buat performance juga sih. Jadi kan nature-nya atau karakter-nya ecosystem web itu kan progressive enhancement banget kan. Jadi kalau emang feature-nya udah ada built-in kayak C-share ini, ya udah tinggal pake segampang itu. Gak usah ngapa-ngapain lagi ibaratnya kita. Gak usah nginstall. Maksudnya dari developer gak usah nginstall library third party atau bikin. Dari sisi user gak harus ngedownload tambahan JavaScript buat sharing. Tapi selama misalnya di macOS, Chrome, atau di mana pun itu belum ada, ya udah apa boleh buat harus ngedownload library tambahan itu. Tapi pelan-pelan kan lama-lama ini makin banyak di-support, makin berkurang juga beban yang harus di-download oleh si user performance-nya. Lumayan tuh. Kalau kita pake budget performance kan ada jatah extra, kita bisa nambah feature lain. Makanya kalau misalnya jangan ngebundle misalnya contohnya sharing itu ya, webshare itu, jangan ngebundle share library ke main bundle-nya kita. Karena usahakan di lazy load atau di, apa, kalau di React itu bisa di... dynamic import. Nah, itulah bahasanya. Itu di native, maksudnya itu di JavaScript browser juga udah bisa sekarang contohnya. Dynamic import. Jadi, usahakan sebanyak kan kayak, kalau pakai-pake fitur-fitur tertentu yang sudah tahu ada API-nya, tapi belum di-support, jangan dibundle ke main bundle. Supaya bisa dikecilin. Oke. Nah, ini tadi kita udah bahas ya di awal ya. Ada yang nanya juga tadi di depan. Fugu itu berbeda dengan PWA walaupun, ya, saling berkaitan, ya. Ada ilisan, ya. Nanti bisa di-replay aja dari video kita. Itu kita bahas lumayan dalam tadi. Ada dari yang JS. Kemudian ada ini. Si paling bajar perak. Halo, halo. Namanya oke-oke, ya. Ini tadi yang apa? Seria bajar hitam, ya. Seria bajar hitam, tapi udah jadi perak, ya. Si paling bajar. Mantap. Oke. Ada lagi yang mau disampaikan? Kita sudah satu game lewat 15 menit. Ya, 13 menit. Baca itu dong. Ada-ada-ada di... Bit.ly apa? Sorry. Di ini. Bit.ly/Gobernite Ya, ada ya satu pertanyaan atau apa gitu. Oke. Boleh-boleh. Kita cari skren dulu. Yang mana? Yang gampang aja. Yang jelasan. Teknologi Edge. Bukan Microsoft Edge, kan. Maksudnya ya. Bukan. Edge Ser... Apa? Edge Computing? Wah, ini mah satu episode sendiri. Iya. Tak pernah bahas sedikit-sedikit, kan ya. Edge Computing. Pernah waktu bahas CDN? Iya, pernah. Ya, kurang lebih ya kayak CDN. Tapi server. Iya. Ini juga kita udah bahas. Yang keamanannya bukannya udah ya kemarin? Coba udah. Udah-udah. Di episode kemarin. Ya, episode kemarin. Maklum Asktetikur. Ya, ini belum. Ini belum. Di goleng lagi ya. Ya, bisa goleng. Kita cari jadi ego. Kalau testing ya, urutannya dari awal ya. Nah, kita pernah bahas di episode testing ya dulu. Iya, pernah bahas testing. Itu. WebAssembly udah pernah kan ya? WebAssembly belum. Pernah bahas sekilas doang. Pernah. Maksudnya contohnya Figma pakai Wasm. Oke, oke. Di episode awal. Udah, yang lainnya belum ada yang baru lagi. Nah, buat teman-teman yang nonton acara ini, nonton acara ini, tapi ketinggalan live-nya, ya. Kalau ada pertanyaan, boleh langsung ke bit.ly/mobrolinweb. Nanti kita akan bahas-bahasa lagi. Dan, apa nih? Kalau web, semakin hari, semakin sedikit kirim badannya. Kalau game deh, malah jadi 500GB. Game berarti ACEP kali ya. ACEP. Ada sprite, audio, video. Ada minuman bersoda lainnya. Ya, cuma sprite. Sprite. Ya. Ya, udah. Kalau gitu, kalau nggak ada yang mau disampaikan nanti, kita tutup dulu untuk episode berapa nih? 23. 23. 23, lumayan ya. 23 itu sebenarnya 24 ya, soalnya kita mulai dari ngomong. Berarti satu episode lagi kita, episode minggu depan, kita jadi episode 25 dong. Ada apa ya? Kita tungguin aja. Kita kurang lebih sudah 25 minggu ya. Sudah 25 minggu. Udah setengah jalan. Udah setengah tahun ya. Udah 26. Setengah tahun itu 26. Oh, 26. Setengah tahun itu tumpungan. Kita makan ikan fugu. Makan ikan fugu. Yang versi makasar aja. Nah, berarti kita nunggu diundang ke makasar aja. Oh iya, siap-siap. Kodeh nih, kodeh. Jadi jemaah kasar. Oke. Walaupun kita sudah hampir 25 episode, ya kita tetap menunggu secara kritik dan saran juga topik-topik, ide topik, buat diskusi juga. Mengendahan episode-episode kita bermankan buat teman-teman buat menambah pengetahuan dan juga buat membantu kepercayaan sehari-harinya. Untuk malam ini kita panggil dulu buat yang mau follow-follow, saya di Twitter @ezafami2, ada Eka, Eka VGI, dan Ivan Trich.com Kita ketemu lagi di minggu depan, caloh. Sampai bertemu, selamat jalan. Bukan, bentar kan? Kita baru ngomongin GDI. Kalau ngomongin yang eksperisi itu, dateng dia. Pasti ada aja. Gak di Twitter, di YouTube, gimana lagi. Panas gue ngomongin. Itu udah mau selesai. Kita udah nge-closing nih, kan tadi padahal itu gajar banget tuh nge-closingnya, ulang lagi. Selamat malam, selamat istirahat, kita ketemu lagi minggu depan, terima kasih, bye. Bye. Terima kasih telah menonton."
+}

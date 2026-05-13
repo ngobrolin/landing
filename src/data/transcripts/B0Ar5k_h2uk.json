@@ -1,0 +1,5388 @@
+{
+  "videoId": "B0Ar5k_h2uk",
+  "language": "id",
+  "generatedAt": "2026-05-13T14:05:11.084Z",
+  "segments": [
+    {
+      "start": 15.06,
+      "end": 19.88,
+      "text": "Selamat malam. Halo-halo semuanya."
+    },
+    {
+      "start": 19.88,
+      "end": 25.34,
+      "text": "Ketemu lagi kita di Ngobrol Inweb Setiap Hari Selasa Malam"
+    },
+    {
+      "start": 25.34,
+      "end": 29.88,
+      "text": "dan malam hari ini formasinya lengkap, Ivan sudah kembali lagi, halo Ivan."
+    },
+    {
+      "start": 29.88,
+      "end": 37.2,
+      "text": "Halo, baik-baik saja cuma agak kurang, apa namanya, kurang sehat ya?"
+    },
+    {
+      "start": 37.2,
+      "end": 40.84,
+      "text": "Kurang sehat, jadi ngomongnya akan pelan-pelan."
+    },
+    {
+      "start": 40.84,
+      "end": 48.32,
+      "text": "Asik, semoga cepat fit lagi karena sabtu besok bakal ngisi DevFace Bogor."
+    },
+    {
+      "start": 48.32,
+      "end": 51.04,
+      "text": "Bogor, betul."
+    },
+    {
+      "start": 51.04,
+      "end": 56.16,
+      "text": "Oke, kalau saya sendiri baru pulang dari Surabaya,"
+    },
+    {
+      "start": 56.16,
+      "end": 62.08,
+      "text": "nah ini ada salah satu penggemar kita dari Surabaya, namanya Cator kemarin ketemu."
+    },
+    {
+      "start": 62.08,
+      "end": 65.8,
+      "text": "Wah, halo-halo."
+    },
+    {
+      "start": 65.8,
+      "end": 71.4,
+      "text": "Yes, dan kalau Eka berarti ngisi di Bali ya?"
+    },
+    {
+      "start": 71.4,
+      "end": 76.2,
+      "text": "Tunggu lalu di Jogja, kemarin ini di Bali, sekarang masih di Bali."
+    },
+    {
+      "start": 76.2,
+      "end": 80.32,
+      "text": "Oh masih di Bali, oh iya, pantasan latar belakangnya itu."
+    },
+    {
+      "start": 80.32,
+      "end": 83.04,
+      "text": "Makanya yang background-nya, backgroundnya keren ya."
+    },
+    {
+      "start": 83.04,
+      "end": 86.32,
+      "text": "Working space, oke."
+    },
+    {
+      "start": 86.32,
+      "end": 89.8,
+      "text": "Perlu visa nggak?"
+    },
+    {
+      "start": 89.8,
+      "end": 93.12,
+      "text": "Pake working visa gitu."
+    },
+    {
+      "start": 93.12,
+      "end": 98.08,
+      "text": "Kira-kira bakal live di pinggir pantai gitu nggak ya?"
+    },
+    {
+      "start": 98.08,
+      "end": 103.6,
+      "text": "Ini ada, kita sapah-sapah dulu ya, ada Hello World,"
+    },
+    {
+      "start": 103.6,
+      "end": 109.76,
+      "text": "ini programmer sekali ya, ada Agno Ria, halo-halo."
+    },
+    {
+      "start": 109.76,
+      "end": 116.52,
+      "text": "Dan seperti biasa, malam hari ini kita akan ngobrolin tentang teknologi web."
+    },
+    {
+      "start": 116.52,
+      "end": 123.92,
+      "text": "Ya, dan tentunya malam hari ini seperti judul, kita akan bahas tentang web komponen."
+    },
+    {
+      "start": 123.92,
+      "end": 130.76,
+      "text": "Ini adalah salah satu topik bahasan yang sempat ditanyakan juga oleh salah satu,"
+    },
+    {
+      "start": 130.76,
+      "end": 136.8,
+      "text": "ya, teman-teman di chat minta menjelaskan tentang web komponen."
+    },
+    {
+      "start": 136.8,
+      "end": 143.6,
+      "text": "Oke, dan mungkin bisa saya mulai dulu ya, tentang web komponen itu apa."
+    },
+    {
+      "start": 143.6,
+      "end": 149.04,
+      "text": "Kebetulan saya udah pernah bahas juga di DevFace tahun lalu, 2021, DevFace Jakarta."
+    },
+    {
+      "start": 149.04,
+      "end": 156.68,
+      "text": "Masih online, jadi teman-teman masih bisa menikmati videonya,"
+    },
+    {
+      "start": 156.68,
+      "end": 158.48,
+      "text": "ada slide-nya juga nanti dibagikan."
+    },
+    {
+      "start": 158.48,
+      "end": 166.2,
+      "text": "Tapi yang perlu dibahas di sini adalah, jadi web komponen itu adalah sebuah tools"
+    },
+    {
+      "start": 166.2,
+      "end": 171.68,
+      "text": "atau alat bantu untuk membuat user interface atau antarmuka aplikasi web, ya."
+    },
+    {
+      "start": 171.68,
+      "end": 179.76,
+      "text": "Tapi perbedaannya dengan framework atau library sejenis adalah dia platform agnostik,"
+    },
+    {
+      "start": 179.76,
+      "end": 183.4,
+      "text": "artinya tidak bergantung kepada framework, gitu."
+    },
+    {
+      "start": 183.4,
+      "end": 185.08,
+      "text": "Jadi dia sudah tertanam..."
+    },
+    {
+      "start": 185.08,
+      "end": 187.68,
+      "text": "Dia bagian dari spesifikasi web itu sendiri ya, berarti?"
+    },
+    {
+      "start": 187.68,
+      "end": 193,
+      "text": "Ya, sudah tertanam di web browser-web browser modern yang teman-teman gunakan,"
+    },
+    {
+      "start": 193,
+      "end": 196.4,
+      "text": "itu sebenarnya sudah disediakan framework yang namanya web component,"
+    },
+    {
+      "start": 196.4,
+      "end": 203.88,
+      "text": "UI library yang namanya web components, jadi tinggal digunakan, gitu."
+    },
+    {
+      "start": 203.88,
+      "end": 208.68,
+      "text": "Kita bisa, ya, seperti framework-framework yang teman-teman udah kenal ya,"
+    },
+    {
+      "start": 208.68,
+      "end": 213.8,
+      "text": "React itu kan komponen base ya, disebutnya ya, angular, komponen base,"
+    },
+    {
+      "start": 213.8,
+      "end": 218,
+      "text": "Vue.js bisa dibikin komponen juga, spelt juga, jadi kita..."
+    },
+    {
+      "start": 218,
+      "end": 223.2,
+      "text": "Kalau spelt itu kayak kita tulis file dengan extensi spelt,"
+    },
+    {
+      "start": 223.2,
+      "end": 225.72,
+      "text": "dia udah langsung jadi komponen, gitu kan."
+    },
+    {
+      "start": 225.72,
+      "end": 231.92,
+      "text": "Nah, web component ini konsepnya juga sama, jadi HTML-HTML tag yang kita butuhkan,"
+    },
+    {
+      "start": 231.92,
+      "end": 236.36,
+      "text": "bisa kita bungkus sehingga kita bisa dipakai berulang-ulang, gitu."
+    },
+    {
+      "start": 236.36,
+      "end": 241.84,
+      "text": "Misalkan teman-teman bikin apa ya, bikin apa ya contohnya ya?"
+    },
+    {
+      "start": 241.84,
+      "end": 246.88,
+      "text": "Counter lah, contoh standar, counter."
+    },
+    {
+      "start": 246.88,
+      "end": 251.2,
+      "text": "Kalau counter kan biasanya dipakai sekali, yang dipakai berulang kali apa ya?"
+    },
+    {
+      "start": 251.2,
+      "end": 255.28,
+      "text": "- Misalkan kayak komentar, gitu. - Contoh misalnya post, ya, komentar, list,"
+    },
+    {
+      "start": 255.28,
+      "end": 263.08,
+      "text": "post card, post card, misalnya kayak ada, ada, ada, ada, ada, image, ada, ada Excel-nya,"
+    },
+    {
+      "start": 263.08,
+      "end": 266.28,
+      "text": "terus bisa dipakai berbagai, di macam tempat."
+    },
+    {
+      "start": 266.28,
+      "end": 271.28,
+      "text": "Iya, misalkan ada di halaman ini ada, pada card, di halaman yang lain ada card,"
+    },
+    {
+      "start": 271.28,
+      "end": 275.28,
+      "text": "dengan isi atau konten yang berbeda itu bisa menggunakan web component,"
+    },
+    {
+      "start": 275.28,
+      "end": 279.28,
+      "text": "jadi tidak perlu copy-paste."
+    },
+    {
+      "start": 279.28,
+      "end": 285.28,
+      "text": "Jadi web component itu encapsulasi dan the usable."
+    },
+    {
+      "start": 285.28,
+      "end": 290.56,
+      "text": "- Betul. - Dan ini udah include, apa, lifecycle juga ya, lifecycle event,"
+    },
+    {
+      "start": 290.56,
+      "end": 295.52,
+      "text": "bisa buat client-site interactivity, jadi bedanya sama HTML elemen biasa kan,"
+    },
+    {
+      "start": 295.52,
+      "end": 302.12,
+      "text": "sebenarnya kalau cuma yang statik kan kita tinggal pakai aja button, misalnya kalau perlu link,"
+    },
+    {
+      "start": 302.12,
+      "end": 308.88,
+      "text": "tinggal pakai A, apa, kalau main A, kan udah cuma kalau kita butuh client-site interactivity"
+    },
+    {
+      "start": 308.88,
+      "end": 315.68,
+      "text": "dan event-event tertentu dan behavior yang custom, nah, berarti ini lebih cocok"
+    },
+    {
+      "start": 315.68,
+      "end": 318.68,
+      "text": "- sama custom elemen, ya? - Betul."
+    },
+    {
+      "start": 318.68,
+      "end": 325.32,
+      "text": "Contohnya adalah, contohnya adalah, nih, saya punya contoh, adalah sebuah input"
+    },
+    {
+      "start": 325.32,
+      "end": 330,
+      "text": "dengan tipe date, seperti ini, jadi kalau teman-teman penasaran ini,"
+    },
+    {
+      "start": 330,
+      "end": 335.28,
+      "text": "bohongan nih pakai library, saya kasih lihat kodenya ya, kodenya hanya ini nih, di baris 10."
+    },
+    {
+      "start": 335.28,
+      "end": 340.44,
+      "text": "Jadi input dengan tipe date, yang sebenarnya cukup baru ya, ya nggak baru-baru banget sih,"
+    },
+    {
+      "start": 340.44,
+      "end": 344.4,
+      "text": "maksudnya dulu yang sebelum HTML5 belum ada kan, belum ada ya,"
+    },
+    {
+      "start": 344.4,
+      "end": 350,
+      "text": "jadi dulu input hanya ada tipe text gitu kan, terus sekarang udah ada password,"
+    },
+    {
+      "start": 350,
+      "end": 352.84,
+      "text": "ada number, ada macem-macem ya, salah satunya juga date."
+    },
+    {
+      "start": 352.84,
+      "end": 359.08,
+      "text": "Nah, kita bikin input dengan tipe date, terus kemudian kita buka di browser,"
+    },
+    {
+      "start": 359.08,
+      "end": 362.8,
+      "text": "tampilannya sekarang sudah cantik seperti ini, sudah ada widget-nya gitu ya,"
+    },
+    {
+      "start": 362.8,
+      "end": 366.4,
+      "text": "kita bisa pilih tanggal, mungkin kalau mau pakai time juga bisa,"
+    },
+    {
+      "start": 366.4,
+      "end": 370.76,
+      "text": "terus kita bisa hapus, bisa pilih hari ini, gitu kan."
+    },
+    {
+      "start": 370.76,
+      "end": 376.8,
+      "text": "Kalau kita lihat di inspect element, di sini dia inputnya tipe date, gitu."
+    },
+    {
+      "start": 376.8,
+      "end": 381.96,
+      "text": "Nah, tapi kalau kita ke setting, kalau teman-teman belum pernah cintang,"
+    },
+    {
+      "start": 381.96,
+      "end": 388.88,
+      "text": "di bagian bawah sini di preference ada ini, show user agent shadow DOM."
+    },
+    {
+      "start": 388.88,
+      "end": 394.32,
+      "text": "Dan kalau kita cintang, maka si input ini adalah sebenarnya web komponen."
+    },
+    {
+      "start": 394.32,
+      "end": 400.68,
+      "text": "Dia dimasukkan ke dalam shadow DOM, yang isinya adalah div,"
+    },
+    {
+      "start": 400.68,
+      "end": 406.44,
+      "text": "kemudian di dalam div itu ada div lagi, kemudian ada span, ada macem-macem,"
+    },
+    {
+      "start": 406.44,
+      "end": 411.68,
+      "text": "sampai akhirnya menjadi sebuah komponen yang digunakan dengan input dengan tipe date, gitu."
+    },
+    {
+      "start": 411.68,
+      "end": 415.48,
+      "text": "Jadi sebenarnya ini adalah contoh web komponen"
+    },
+    {
+      "start": 415.48,
+      "end": 418.44,
+      "text": "yang mungkin teman-teman secara tidak sadar sudah menggunakan."
+    },
+    {
+      "start": 418.44,
+      "end": 423.76,
+      "text": "Dan dengan adanya web komponen, ya kita bisa bikin komponen-komponen seperti ini."
+    },
+    {
+      "start": 423.76,
+      "end": 428.04,
+      "text": "Jadi bisa aja nanti teman-teman bikin sebuah komponen button misalkan,"
+    },
+    {
+      "start": 428.04,
+      "end": 432.52,
+      "text": "button dengan type primary misalkan. Wah, ini bootstrap banget ya."
+    },
+    {
+      "start": 432.52,
+      "end": 437.56,
+      "text": "Terus dijadikan satu library, pakai CDN, tinggal script SRC blablabla,"
+    },
+    {
+      "start": 437.56,
+      "end": 442.04,
+      "text": "langsung bisa digunakan. Jadi dia sifatnya universal, sudah tertanam di browser,"
+    },
+    {
+      "start": 442.04,
+      "end": 445.72,
+      "text": "sudah menjadi web standar, jadi ini tidak akan mungkin,"
+    },
+    {
+      "start": 445.72,
+      "end": 450.32,
+      "text": "mungkin nggak sih, bakal dihilangkan gitu misalkan, kayak misalkan apa ya?"
+    },
+    {
+      "start": 450.32,
+      "end": 452.6,
+      "text": "Kayak mungkin, se-extreme itu."
+    },
+    {
+      "start": 452.6,
+      "end": 460.52,
+      "text": "Ada tipe, salah satu tipe image yang tadinya di-support, sekarang udah nggak di-support."
+    },
+    {
+      "start": 460.52,
+      "end": 464.52,
+      "text": "Apa tuh? Apa ya?"
+    },
+    {
+      "start": 464.52,
+      "end": 465.52,
+      "text": "Havif."
+    },
+    {
+      "start": 465.52,
+      "end": 468.52,
+      "text": "Yang Chrome hilangin beberapa minggu belakangan ini, lupa nih. Apa ya?"
+    },
+    {
+      "start": 468.52,
+      "end": 469.72,
+      "text": "Havif bukan."
+    },
+    {
+      "start": 469.72,
+      "end": 471.12,
+      "text": "Bukan, bukan."
+    },
+    {
+      "start": 471.12,
+      "end": 474.12,
+      "text": "Itu malah ditambahin, malah baru itu."
+    },
+    {
+      "start": 474.12,
+      "end": 476.12,
+      "text": "Iya."
+    },
+    {
+      "start": 476.12,
+      "end": 479.12,
+      "text": "Jangan diliatin deh."
+    },
+    {
+      "start": 479.12,
+      "end": 481.12,
+      "text": "Oke, lanjut, lanjut."
+    },
+    {
+      "start": 481.12,
+      "end": 487.12,
+      "text": "Nah, cuma bedanya kalau kita bikin custom element sendiri, namanya mesti 2 kata ya?"
+    },
+    {
+      "start": 487.12,
+      "end": 488.12,
+      "text": "Ya."
+    },
+    {
+      "start": 488.12,
+      "end": 495.12,
+      "text": "Biar nggak, jadi kalau yang netv yang bawaan asli, itu kan pasti selalu 1 kata."
+    },
+    {
+      "start": 495.12,
+      "end": 499.12,
+      "text": "Nah, kalau kita bikin sendiri, harus 2 kata."
+    },
+    {
+      "start": 499.12,
+      "end": 504.12,
+      "text": "Oh iya, pakai minus ya, kan ada minus ya?"
+    },
+    {
+      "start": 504.12,
+      "end": 505.12,
+      "text": "Ya, benar, benar."
+    },
+    {
+      "start": 505.12,
+      "end": 507.12,
+      "text": "Ya, pollution."
+    },
+    {
+      "start": 507.12,
+      "end": 512.12,
+      "text": "Ya, sama seperti halnya kenapa react menggunakan hurk besar di,"
+    },
+    {
+      "start": 512.12,
+      "end": 514.12,
+      "text": "kalau kita mau bikin komponen ya, salah satunya ya."
+    },
+    {
+      "start": 514.12,
+      "end": 519.12,
+      "text": "Supaya membedakan antara komponen yang dibuat sama komponen yang sudah ada di HTML."
+    },
+    {
+      "start": 519.12,
+      "end": 525.12,
+      "text": "Oh, halo."
+    },
+    {
+      "start": 525.12,
+      "end": 530.12,
+      "text": "Oh, putus-putus."
+    },
+    {
+      "start": 530.12,
+      "end": 533.12,
+      "text": "Oh, putus-putus ya, sorry, sorry, sorry."
+    },
+    {
+      "start": 533.12,
+      "end": 535.12,
+      "text": "Enggak, maksudnya gambarnya kalau soalnya itu last."
+    },
+    {
+      "start": 535.12,
+      "end": 537.12,
+      "text": "Oh, oke."
+    },
+    {
+      "start": 537.12,
+      "end": 538.12,
+      "text": "Ya, last go."
+    },
+    {
+      "start": 538.12,
+      "end": 540.12,
+      "text": "Last ya, siap."
+    },
+    {
+      "start": 540.12,
+      "end": 543.12,
+      "text": "Oh, gambarnya, mungkin koneksinya lagi drop ya."
+    },
+    {
+      "start": 543.12,
+      "end": 550.12,
+      "text": "Nah, terus selanjutnya sebenarnya web komponen ini bukan sebuah,"
+    },
+    {
+      "start": 550.12,
+      "end": 556.12,
+      "text": "bukan satu teknologi yang apa ya, yang hanya udah web komponen gitu,"
+    },
+    {
+      "start": 556.12,
+      "end": 561.12,
+      "text": "tapi dia ada terdiri dari beberapa teknologi dibalik si web komponen ini"
+    },
+    {
+      "start": 561.12,
+      "end": 566.12,
+      "text": "yang membuat web komponen ini bisa digunakan."
+    },
+    {
+      "start": 566.12,
+      "end": 568.12,
+      "text": "Yang pertama adalah HTML template."
+    },
+    {
+      "start": 568.12,
+      "end": 573.12,
+      "text": "Kalau teman-teman belum tahu, HTML template ini adalah salah satu fitur"
+    },
+    {
+      "start": 573.12,
+      "end": 576.12,
+      "text": "yang cukup baru juga dari HTML yang kita bisa gunakan"
+    },
+    {
+      "start": 576.12,
+      "end": 582.12,
+      "text": "untuk menggunakan tag HTML berulang-ulang."
+    },
+    {
+      "start": 582.12,
+      "end": 585.12,
+      "text": "Jadi ada template ini bisa kita gunakan."
+    },
+    {
+      "start": 585.12,
+      "end": 586.12,
+      "text": "Kenapa?"
+    },
+    {
+      "start": 586.12,
+      "end": 587.12,
+      "text": "Ini sudah lama loh ini."
+    },
+    {
+      "start": 587.12,
+      "end": 590.12,
+      "text": "Iya, sudah lama, tapi banyak yang belum tahu juga gitu."
+    },
+    {
+      "start": 590.12,
+      "end": 591.12,
+      "text": "Oke."
+    },
+    {
+      "start": 591.12,
+      "end": 595.12,
+      "text": "Karena ya itu kan biasanya kan, udah lah, pakai framework aja udah selesai."
+    },
+    {
+      "start": 595.12,
+      "end": 602.12,
+      "text": "Saya pakai waktu dulu, jamannya masih pakai jQuery dan Backbone,"
+    },
+    {
+      "start": 602.12,
+      "end": 606.12,
+      "text": "pakai banyak pakai template."
+    },
+    {
+      "start": 606.12,
+      "end": 607.12,
+      "text": "Oke."
+    },
+    {
+      "start": 607.12,
+      "end": 610.12,
+      "text": "Itu dari tahun berapa tuh?"
+    },
+    {
+      "start": 610.12,
+      "end": 611.12,
+      "text": "2017."
+    },
+    {
+      "start": 611.12,
+      "end": 616.12,
+      "text": "JQuery itu berarti 2015an gitu ya."
+    },
+    {
+      "start": 616.12,
+      "end": 620.12,
+      "text": "Ya, 2017 ya."
+    },
+    {
+      "start": 620.12,
+      "end": 624.12,
+      "text": "2017 sudah ada ya, tapi jarang dia menggunakannya."
+    },
+    {
+      "start": 624.12,
+      "end": 629.12,
+      "text": "Kalau di web Almanac ada nggak sih template?"
+    },
+    {
+      "start": 629.12,
+      "end": 630.12,
+      "text": "Nah, itu."
+    },
+    {
+      "start": 630.12,
+      "end": 632.12,
+      "text": "Ada ya."
+    },
+    {
+      "start": 632.12,
+      "end": 634.12,
+      "text": "Oke, ini dia."
+    },
+    {
+      "start": 634.12,
+      "end": 636.12,
+      "text": "White component and shadow dong."
+    },
+    {
+      "start": 636.12,
+      "end": 637.12,
+      "text": "Template-nya ada nggak?"
+    },
+    {
+      "start": 637.12,
+      "end": 638.12,
+      "text": "Ini khusus template maksudnya?"
+    },
+    {
+      "start": 638.12,
+      "end": 640.12,
+      "text": "Oh nggak, nggak di breakdown."
+    },
+    {
+      "start": 640.12,
+      "end": 642.12,
+      "text": "Nggak di breakdown ya, oke."
+    },
+    {
+      "start": 642.12,
+      "end": 644.12,
+      "text": "Berarti ini disimpan untuk nanti."
+    },
+    {
+      "start": 644.12,
+      "end": 647.12,
+      "text": "Ya, jadi ada yang namanya template."
+    },
+    {
+      "start": 647.12,
+      "end": 651.12,
+      "text": "Bentuknya itu seperti inilah ya."
+    },
+    {
+      "start": 651.12,
+      "end": 656.12,
+      "text": "Kita bisa definisikan template dengan ID gitu kan."
+    },
+    {
+      "start": 656.12,
+      "end": 660.12,
+      "text": "Misalkan product raw, yang akan kita iterasi biasanya,"
+    },
+    {
+      "start": 660.12,
+      "end": 663.12,
+      "text": "buat iterasi ya buat di for loop gitu kan."
+    },
+    {
+      "start": 663.12,
+      "end": 664.12,
+      "text": "Di reuse sih dia."
+    },
+    {
+      "start": 664.12,
+      "end": 665.12,
+      "text": "Ya, di reuse."
+    },
+    {
+      "start": 665.12,
+      "end": 670.12,
+      "text": "Nah, ini akan tampil berulang-ulang dengan bantuan JavaScript seperti ini."
+    },
+    {
+      "start": 670.12,
+      "end": 675.12,
+      "text": "Jadi di clone, di select dulu kan template-nya apa,"
+    },
+    {
+      "start": 675.12,
+      "end": 680.12,
+      "text": "kemudian di clone, kemudian dimasukin isinya atau text content-nya,"
+    },
+    {
+      "start": 680.12,
+      "end": 683.12,
+      "text": "kemudian di append."
+    },
+    {
+      "start": 683.12,
+      "end": 687.12,
+      "text": "Itu manual ya berarti?"
+    },
+    {
+      "start": 687.12,
+      "end": 688.12,
+      "text": "Ya, ini manual."
+    },
+    {
+      "start": 688.12,
+      "end": 692.12,
+      "text": "Kalau misalkan datanya dari API atau database itu beda lagi kan."
+    },
+    {
+      "start": 692.12,
+      "end": 697.12,
+      "text": "Jadi dengan hari ini kalau teman-teman sudah nonton ini,"
+    },
+    {
+      "start": 697.12,
+      "end": 701.12,
+      "text": "kalau misalnya semua yang ada di dalam template itu tidak didender oleh dozer."
+    },
+    {
+      "start": 701.12,
+      "end": 704.12,
+      "text": "Jadi lebih baik menggunakan template daripada"
+    },
+    {
+      "start": 704.12,
+      "end": 708.12,
+      "text": "kalau kalian mau ulang-ulang pakai div tapi di display not."
+    },
+    {
+      "start": 708.12,
+      "end": 714.12,
+      "text": "Ya, jangan pakai div tapi pakai template."
+    },
+    {
+      "start": 714.12,
+      "end": 718.12,
+      "text": "Karena div akan di render meskipun display not."
+    },
+    {
+      "start": 718.12,
+      "end": 721.12,
+      "text": "Walaupun display not, oke."
+    },
+    {
+      "start": 721.12,
+      "end": 731.12,
+      "text": "Ya, tadi saya baru ketemu ternyata Chrome sudah me-remove support untuk image JPEG XL."
+    },
+    {
+      "start": 731.12,
+      "end": 733.12,
+      "text": "Apa itu?"
+    },
+    {
+      "start": 733.12,
+      "end": 739.12,
+      "text": "JPEG XL itu adalah format image yang kekinian dari JPEG."
+    },
+    {
+      "start": 739.12,
+      "end": 741.12,
+      "text": "Ya, jadi lebih kecil."
+    },
+    {
+      "start": 741.12,
+      "end": 747.12,
+      "text": "Dengan kualitas yang hampir sama, dia bisa menghasilkan ukuran gambar yang lebih kecil."
+    },
+    {
+      "start": 747.12,
+      "end": 754.12,
+      "text": "Sayangnya kurang dapat exposure yang bagus di Chrome."
+    },
+    {
+      "start": 754.12,
+      "end": 756.12,
+      "text": "Kemudian dibutuhkan untuk di-remove."
+    },
+    {
+      "start": 756.12,
+      "end": 763.12,
+      "text": "- Mungkin juga karena ada... - Agen kayaknya kalau saling sama WebP sama Aviv, ya."
+    },
+    {
+      "start": 763.12,
+      "end": 767.12,
+      "text": "Dia lebih memprioritaskan Aviv kayaknya."
+    },
+    {
+      "start": 767.12,
+      "end": 770.12,
+      "text": "Oke, kita lanjut lagi."
+    },
+    {
+      "start": 770.12,
+      "end": 774.12,
+      "text": "Nah, ini yang tadi yang pertama ya, komponen pertama adalah template."
+    },
+    {
+      "start": 774.12,
+      "end": 776.12,
+      "text": "Komponen kedua adalah custom komponennya sendiri."
+    },
+    {
+      "start": 776.12,
+      "end": 778.12,
+      "text": "Custom element."
+    },
+    {
+      "start": 778.12,
+      "end": 780.12,
+      "text": "Ya, sorry, custom element."
+    },
+    {
+      "start": 780.12,
+      "end": 784.12,
+      "text": "Custom elementnya sendiri, kita bisa bikin element masing-masing."
+    },
+    {
+      "start": 784.12,
+      "end": 786.12,
+      "text": "Mau bikin element date, misalkan tadi."
+    },
+    {
+      "start": 786.12,
+      "end": 788.12,
+      "text": "Mau bikin button, mau bikin apa, gitu ya."
+    },
+    {
+      "start": 788.12,
+      "end": 791.12,
+      "text": "- Bentuknya seperti ini. - Ini penyambungnya."
+    },
+    {
+      "start": 791.12,
+      "end": 793.12,
+      "text": "Penyambungnya, betul."
+    },
+    {
+      "start": 793.12,
+      "end": 796.12,
+      "text": "Kita define dulu custom elementsnya."
+    },
+    {
+      "start": 796.12,
+      "end": 800.12,
+      "text": "Namanya seperti yang tadi disebutkan Eka, harus dua kata."
+    },
+    {
+      "start": 800.12,
+      "end": 804.12,
+      "text": "Dan harus dipisah dengan tanda minus atau dash."
+    },
+    {
+      "start": 804.12,
+      "end": 807.12,
+      "text": "Ya, penulisannya harus seperti ini."
+    },
+    {
+      "start": 807.12,
+      "end": 811.12,
+      "text": "Misalkan kayak contoh di video yang saya buat adalah counter."
+    },
+    {
+      "start": 811.12,
+      "end": 815.12,
+      "text": "Terpaksa saya harus bagi dua jadi C, counter."
+    },
+    {
+      "start": 815.12,
+      "end": 817.12,
+      "text": "Atau apapun ya, pokoknya harus dibagi dua."
+    },
+    {
+      "start": 817.12,
+      "end": 819.12,
+      "text": "Nggak boleh satu kata."
+    },
+    {
+      "start": 819.12,
+      "end": 822.12,
+      "text": "Jadi itu semakin menyulitkan developer lagi ya."
+    },
+    {
+      "start": 822.12,
+      "end": 825.12,
+      "text": "Untuk pilih nama variable-nya susah ya."
+    },
+    {
+      "start": 825.12,
+      "end": 832.12,
+      "text": "Nah, terus komponennya sendiri ditulis dengan syntax class."
+    },
+    {
+      "start": 832.12,
+      "end": 835.12,
+      "text": "- Ya, kalau teman-teman... - Oke banget ini."
+    },
+    {
+      "start": 835.12,
+      "end": 838.12,
+      "text": "Dengan react, react jaman dulu ya."
+    },
+    {
+      "start": 838.12,
+      "end": 841.12,
+      "text": "Mirip banget."
+    },
+    {
+      "start": 841.12,
+      "end": 845.12,
+      "text": "Jadi pakai class, kemudian di-extend dari HTML."
+    },
+    {
+      "start": 845.12,
+      "end": 847.12,
+      "text": "Kok HTML paragraph ini contoh ya?"
+    },
+    {
+      "start": 847.12,
+      "end": 851.12,
+      "text": "Itu contoh bisa. Jadi HTML element itu ada banyak."
+    },
+    {
+      "start": 851.12,
+      "end": 855.12,
+      "text": "- Jadi di-extend ya? - Bapaknya itu HTML element."
+    },
+    {
+      "start": 855.12,
+      "end": 858.12,
+      "text": "- Terus ada HTML element biasa. - HTML element biasa."
+    },
+    {
+      "start": 858.12,
+      "end": 863.12,
+      "text": "Ada HTML table element, ada HTML div element, macem-macem."
+    },
+    {
+      "start": 863.12,
+      "end": 868.12,
+      "text": "Oke. Wah, ini ternyata image format ada geng-gengannya ya."
+    },
+    {
+      "start": 868.12,
+      "end": 872.12,
+      "text": "Baru tahu saya. Saya ikutan geng mana ya?"
+    },
+    {
+      "start": 872.12,
+      "end": 876.12,
+      "text": "Kayak Afif lah, udah yang paling baru."
+    },
+    {
+      "start": 876.12,
+      "end": 882.12,
+      "text": "Oke, dan kemudian seperti yang tadi di-mention juga sama Eka,"
+    },
+    {
+      "start": 882.12,
+      "end": 884.12,
+      "text": "sudah ada lifecycle-nya."
+    },
+    {
+      "start": 884.12,
+      "end": 886.12,
+      "text": "Salah satunya adalah connected callback ini seperti"
+    },
+    {
+      "start": 886.12,
+      "end": 890.12,
+      "text": "component did mount, kalau nggak salah."
+    },
+    {
+      "start": 890.12,
+      "end": 893.12,
+      "text": "- Bener nggak? - Betul, betul."
+    },
+    {
+      "start": 893.12,
+      "end": 898.12,
+      "text": "Jadi kayaknya dia fire kalau udah di-render di DOM."
+    },
+    {
+      "start": 898.12,
+      "end": 902.12,
+      "text": "Dia dimasukin ke DOM, itu akan jalan connected callback."
+    },
+    {
+      "start": 902.12,
+      "end": 907.12,
+      "text": "Kalau dia dihapus dari DOM, dia jalan disconnect callback."
+    },
+    {
+      "start": 907.12,
+      "end": 911.12,
+      "text": "Di sini ada contoh yang panjang nggak? Oh, ini panjang sekali."
+    },
+    {
+      "start": 911.12,
+      "end": 914.12,
+      "text": "Ya, ini contohnya pop-up ya."
+    },
+    {
+      "start": 914.12,
+      "end": 918.12,
+      "text": "Contoh yang dari gua itu bagus nanti. Bisa dikulik sama-sama."
+    },
+    {
+      "start": 918.12,
+      "end": 921.12,
+      "text": "Oke, yang ini ya."
+    },
+    {
+      "start": 921.12,
+      "end": 925.12,
+      "text": "Oke, itu gua jelasin sedikit aja ya."
+    },
+    {
+      "start": 925.12,
+      "end": 932.12,
+      "text": "Jadi di sini itu user card. Jadi user card itu nama komponennya."
+    },
+    {
+      "start": 932.12,
+      "end": 938.12,
+      "text": "Tujuannya menyampilkan foto, nama orangnya, informasi,"
+    },
+    {
+      "start": 938.12,
+      "end": 943.12,
+      "text": "dan ada button untuk pada click event handler-nya."
+    },
+    {
+      "start": 943.12,
+      "end": 946.12,
+      "text": "Coba aja click, hide info, hide info."
+    },
+    {
+      "start": 946.12,
+      "end": 949.12,
+      "text": "Click button, iya."
+    },
+    {
+      "start": 949.12,
+      "end": 952.12,
+      "text": "Ada event handler-nya."
+    },
+    {
+      "start": 952.12,
+      "end": 958.12,
+      "text": "Kita ke halaman JS-nya, ke bagian column JS paling bawah dulu."
+    },
+    {
+      "start": 958.12,
+      "end": 961.12,
+      "text": "Oh, di sini nggak ada hide info ya?"
+    },
+    {
+      "start": 961.12,
+      "end": 965.12,
+      "text": "- Di bawah ya? - Iya, di JS-nya."
+    },
+    {
+      "start": 965.12,
+      "end": 971.12,
+      "text": "Ke JS kita ke baris paling bawah, jadi kita jelasin dari paling bawah dulu."
+    },
+    {
+      "start": 971.12,
+      "end": 973.12,
+      "text": "- Ini template ya? - Iya."
+    },
+    {
+      "start": 973.12,
+      "end": 976.12,
+      "text": "Paling bawah dulu, paling bawah."
+    },
+    {
+      "start": 976.12,
+      "end": 983.12,
+      "text": "Ngehooknya itu sama Windows, Custom Elements, Define, user card."
+    },
+    {
+      "start": 983.12,
+      "end": 987.12,
+      "text": "Cara pemakaiannya user card-nya seperti tag HTML element ya."
+    },
+    {
+      "start": 987.12,
+      "end": 989.12,
+      "text": "Kayak PDIV ya, user card."
+    },
+    {
+      "start": 989.12,
+      "end": 993.12,
+      "text": "Terus user card yang itu adalah HTML class-nya."
+    },
+    {
+      "start": 993.12,
+      "end": 995.12,
+      "text": "- Yang ini ya? - Ya, maksudnya user card yang..."
+    },
+    {
+      "start": 995.12,
+      "end": 997.12,
+      "text": "Oh, yang ini."
+    },
+    {
+      "start": 997.12,
+      "end": 999.12,
+      "text": "Ya, yang kita baca HTML class-nya dulu."
+    },
+    {
+      "start": 999.12,
+      "end": 1004.12,
+      "text": "Oke, user card itu Extend, HTML element."
+    },
+    {
+      "start": 1004.12,
+      "end": 1013.12,
+      "text": "Terus dia nge-attach shadow... ada constructor, dia nge-attach shadow-dome."
+    },
+    {
+      "start": 1013.12,
+      "end": 1016.12,
+      "text": "Pacaran nge-attach shadow pakai attach-shadow."
+    },
+    {
+      "start": 1016.12,
+      "end": 1021.12,
+      "text": "Terus ada shadow-root."
+    },
+    {
+      "start": 1021.12,
+      "end": 1026.12,
+      "text": "Shadow-root, dia mengambil dari template, nanti template-nya didefine di atas."
+    },
+    {
+      "start": 1026.12,
+      "end": 1031.12,
+      "text": "Oke, jadi hanya seperti itu aja dulu cara pakaiannya."
+    },
+    {
+      "start": 1031.12,
+      "end": 1037.12,
+      "text": "Jadi dan query selektor itu hanya nanti untuk mengambil data dari kayak atribut name,"
+    },
+    {
+      "start": 1037.12,
+      "end": 1039.12,
+      "text": "ada atribut avatar, ada kan?"
+    },
+    {
+      "start": 1039.12,
+      "end": 1042.12,
+      "text": "Di user card itu ada atribut name sama atribut avatar."
+    },
+    {
+      "start": 1042.12,
+      "end": 1049.12,
+      "text": "Jadi di template-nya dia query selektor, H3, ambil atribut name,"
+    },
+    {
+      "start": 1049.12,
+      "end": 1053.12,
+      "text": "terus kemudian atribut avatar, terus dia isi."
+    },
+    {
+      "start": 1053.12,
+      "end": 1057.12,
+      "text": "As simple as that gitu ya. Terus kita lihat template-nya."
+    },
+    {
+      "start": 1057.12,
+      "end": 1062.12,
+      "text": "Template-nya di atas, ini HTML template ya, termasuk juga styling-nya ya."
+    },
+    {
+      "start": 1062.12,
+      "end": 1068.12,
+      "text": "Betul, jadi dia langsung bisa aja template itu didefine di HTML,"
+    },
+    {
+      "start": 1068.12,
+      "end": 1075.12,
+      "text": "bisa aja kalau mau, bisa juga di JavaScript caranya document create element template."
+    },
+    {
+      "start": 1075.12,
+      "end": 1079.12,
+      "text": "Terus disini innerHTML."
+    },
+    {
+      "start": 1079.12,
+      "end": 1086.12,
+      "text": "Oke, nah udiknya atau bagusnya web component ini,"
+    },
+    {
+      "start": 1086.12,
+      "end": 1094.12,
+      "text": "style yang kita define di dalam web component tidak akan mengikuti style yang ada di global."
+    },
+    {
+      "start": 1094.12,
+      "end": 1096.12,
+      "text": "Jadi global style tidak."
+    },
+    {
+      "start": 1096.12,
+      "end": 1098.12,
+      "text": "Isolated."
+    },
+    {
+      "start": 1098.12,
+      "end": 1100.12,
+      "text": "Scooping."
+    },
+    {
+      "start": 1100.12,
+      "end": 1103.12,
+      "text": "Tapi kalau pakai Shadow DOM ya."
+    },
+    {
+      "start": 1103.12,
+      "end": 1111.12,
+      "text": "Kalau pakai Shadow DOM sebenarnya web component ini bisa tanpa Shadow DOM, bisa."
+    },
+    {
+      "start": 1111.12,
+      "end": 1113.12,
+      "text": "Ini ya tadi ya? Shadow ini ya?"
+    },
+    {
+      "start": 1113.12,
+      "end": 1116.12,
+      "text": "Betul, itu line yang membuatnya jadi Shadow DOM."
+    },
+    {
+      "start": 1116.12,
+      "end": 1118.12,
+      "text": "Oke."
+    },
+    {
+      "start": 1118.12,
+      "end": 1119.12,
+      "text": "I'm sorry."
+    },
+    {
+      "start": 1119.12,
+      "end": 1125.12,
+      "text": "Nah, jadi styling-nya hanya berlaku di dalam web component."
+    },
+    {
+      "start": 1125.12,
+      "end": 1130.12,
+      "text": "Kita scroll, cuma styling biasa yang membuatnya grid, blablabla."
+    },
+    {
+      "start": 1130.12,
+      "end": 1138.12,
+      "text": "Kita lihat HTML ya, jadi cuma div user card, image, tadi diisi dengan atribut source."
+    },
+    {
+      "start": 1138.12,
+      "end": 1141.12,
+      "text": "Terus kemudian a3, diisi dengan atribut main."
+    },
+    {
+      "start": 1141.12,
+      "end": 1146.12,
+      "text": "Terus kita lihat nih ada yang baru nih, slot, itu ada slot."
+    },
+    {
+      "start": 1146.12,
+      "end": 1156.12,
+      "text": "Slot itu dari, jadi lihat di sebelah kiri, dalam user card itu ada div slot namanya email."
+    },
+    {
+      "start": 1156.12,
+      "end": 1163.12,
+      "text": "Terus isinya apa? Nanti isi dari slot itu akan dibawah ke dalam slot itu."
+    },
+    {
+      "start": 1163.12,
+      "end": 1165.12,
+      "text": "Jadi children-nya ya?"
+    },
+    {
+      "start": 1165.12,
+      "end": 1166.12,
+      "text": "Betul."
+    },
+    {
+      "start": 1166.12,
+      "end": 1168.12,
+      "text": "Akan dirender sebagai children."
+    },
+    {
+      "start": 1168.12,
+      "end": 1170.12,
+      "text": "Iya, tapi keyword-nya itu slot."
+    },
+    {
+      "start": 1170.12,
+      "end": 1174.12,
+      "text": "Jadi kita pakai div atau pick slot apa."
+    },
+    {
+      "start": 1174.12,
+      "end": 1179.12,
+      "text": "Pada dikasih name, nanti panggil aja slot namenya apa."
+    },
+    {
+      "start": 1179.12,
+      "end": 1181.12,
+      "text": "Wah, di swipe nih sering sekali digunakan."
+    },
+    {
+      "start": 1181.12,
+      "end": 1184.12,
+      "text": "Kalau yang pakai slot pasti deh familiar."
+    },
+    {
+      "start": 1184.12,
+      "end": 1189.12,
+      "text": "Apa lagi ya kalau, kalau view ada gak sih, kalau slot gitu juga?"
+    },
+    {
+      "start": 1189.12,
+      "end": 1193.12,
+      "text": "Kalau view gak tahu ya, kalau view kan sudah ada binding-nya itu pakai v apa gitu ya."
+    },
+    {
+      "start": 1193.12,
+      "end": 1197.12,
+      "text": "Tapi ini HTML kan, bukan terkait sama frame apa."
+    },
+    {
+      "start": 1197.12,
+      "end": 1201.12,
+      "text": "Ini vanilla, ini tidak ada pakai frame apa-apa."
+    },
+    {
+      "start": 1201.12,
+      "end": 1204.12,
+      "text": "Di view juga ada tuh katanya, bener."
+    },
+    {
+      "start": 1204.12,
+      "end": 1207.12,
+      "text": "Iya, orang HTML kok semuanya bisa pakai."
+    },
+    {
+      "start": 1207.12,
+      "end": 1213.12,
+      "text": "One last thing itu tentang lifecycle. Kita scrolling ke bawah sedikit."
+    },
+    {
+      "start": 1213.12,
+      "end": 1216.12,
+      "text": "Di bagian connected callback ya?"
+    },
+    {
+      "start": 1216.12,
+      "end": 1218.12,
+      "text": "Iya, connected callback."
+    },
+    {
+      "start": 1218.12,
+      "end": 1227.12,
+      "text": "Jadi di bagian ini dia menambahkan event list banner click untuk toggle info tadi, hide info, show info."
+    },
+    {
+      "start": 1227.12,
+      "end": 1231.12,
+      "text": "Dan untuk auto disconnect dia remove list banner aja."
+    },
+    {
+      "start": 1231.12,
+      "end": 1238.12,
+      "text": "Toggle info itu ada function sendiri, ya cuma kayak display man, display block aja sih sebenarnya, simple aja."
+    },
+    {
+      "start": 1238.12,
+      "end": 1242.12,
+      "text": "Gak ada banyak macam-macam, as simple as that."
+    },
+    {
+      "start": 1242.12,
+      "end": 1248.12,
+      "text": "Jadi ini contoh yang saya lihat dari si Thank You untuk si Brad dari Traverse Media."
+    },
+    {
+      "start": 1248.12,
+      "end": 1254.12,
+      "text": "Ini contoh yang paling simple untuk dimengerti bagaimana menggunakan web component."
+    },
+    {
+      "start": 1254.12,
+      "end": 1257.12,
+      "text": "Simplet dan jelas ya, jelas bagiannya gimana."
+    },
+    {
+      "start": 1257.12,
+      "end": 1265.12,
+      "text": "Iya, cuman komplain saya satu, kenapa namanya connected callback, disconnected callback, gak kayak apa ya, kurang merepresentasikan gitu."
+    },
+    {
+      "start": 1265.12,
+      "end": 1270.12,
+      "text": "Tapi masing-masing apa mereka juga waktu bikinnya juga pasti mikirin kan ini."
+    },
+    {
+      "start": 1270.12,
+      "end": 1278.12,
+      "text": "Mungkin ada konsep atau ada istilah yang belum kita ketahui."
+    },
+    {
+      "start": 1278.12,
+      "end": 1282.12,
+      "text": "Maksudnya connected callback ini apa, disconnected callback itu apa?"
+    },
+    {
+      "start": 1282.12,
+      "end": 1288.12,
+      "text": "Dan itu kan kayaknya dibikinnya udah dari dulu ya, dari sebelum trend UI framework yang kayak React."
+    },
+    {
+      "start": 1288.12,
+      "end": 1291.12,
+      "text": "Ya, component with mount gitu-gitu ya."
+    },
+    {
+      "start": 1291.12,
+      "end": 1297.12,
+      "text": "Istilah yang sekarang familiar itu dulu belum jadi istilah taman kami."
+    },
+    {
+      "start": 1297.12,
+      "end": 1298.12,
+      "text": "Bisa jadi."
+    },
+    {
+      "start": 1298.12,
+      "end": 1303.12,
+      "text": "Padahal web component ini sebenarnya sudah ada sebelum React kan ya?"
+    },
+    {
+      "start": 1303.12,
+      "end": 1304.12,
+      "text": "Ah, gak tahu kalau itu."
+    },
+    {
+      "start": 1304.12,
+      "end": 1306.12,
+      "text": "Maksudnya web component ini udah lama loh."
+    },
+    {
+      "start": 1306.12,
+      "end": 1311.12,
+      "text": "Tapi mature-nya atau sudah di support-nya kan baru kan?"
+    },
+    {
+      "start": 1311.12,
+      "end": 1312.12,
+      "text": "Iya sih."
+    },
+    {
+      "start": 1312.12,
+      "end": 1320.12,
+      "text": "Belum semua, jadi mungkin yang kayak custom elemen ini udah lama memang, custom elemen udah lama."
+    },
+    {
+      "start": 1320.12,
+      "end": 1322.12,
+      "text": "Shadow DOM saya gak tahu."
+    },
+    {
+      "start": 1322.12,
+      "end": 1328.12,
+      "text": "Kalau template juga udah lama tadi kan, kalau Ivan udah pernah pakai di 2017."
+    },
+    {
+      "start": 1328.12,
+      "end": 1337.12,
+      "text": "Cuman ada beberapa elemen yang membuat web component ini menjadi sulit digunakan."
+    },
+    {
+      "start": 1337.12,
+      "end": 1339.12,
+      "text": "Sampai akhir-akhir ini."
+    },
+    {
+      "start": 1339.12,
+      "end": 1341.12,
+      "text": "Iya, yang pertama shadow DOM."
+    },
+    {
+      "start": 1341.12,
+      "end": 1347.12,
+      "text": "Shadow DOM-nya yang masih belum fully support."
+    },
+    {
+      "start": 1347.12,
+      "end": 1354.12,
+      "text": "Iya, kalau misalkan kita bikin sebuah component terus ada style-nya tiba-tiba berlaku global kan susah kan?"
+    },
+    {
+      "start": 1354.12,
+      "end": 1355.12,
+      "text": "Gitu kan?"
+    },
+    {
+      "start": 1355.12,
+      "end": 1356.12,
+      "text": "Susah digunakan."
+    },
+    {
+      "start": 1356.12,
+      "end": 1365.12,
+      "text": "Dan satu lagi component yang juga cukup penting walaupun tidak di ranah HTML CSS adalah import dan export."
+    },
+    {
+      "start": 1365.12,
+      "end": 1367.12,
+      "text": "IS module."
+    },
+    {
+      "start": 1367.12,
+      "end": 1372.12,
+      "text": "Jadi dengan IS module ini kita bisa dengan mudah, lebih mudah lah ya."
+    },
+    {
+      "start": 1372.12,
+      "end": 1374.12,
+      "text": "Terutama di browser ya."
+    },
+    {
+      "start": 1374.12,
+      "end": 1378.12,
+      "text": "Kalau di Node.js kan udah ya pakai require lah, cuman beda syntax aja."
+    },
+    {
+      "start": 1378.12,
+      "end": 1380.12,
+      "text": "Tapi fungsinya sama."
+    },
+    {
+      "start": 1380.12,
+      "end": 1383.12,
+      "text": "Sedangkan di browser, dulu browser itu belum ada."
+    },
+    {
+      "start": 1383.12,
+      "end": 1385.12,
+      "text": "Tidak ada sama sekali import-export."
+    },
+    {
+      "start": 1385.12,
+      "end": 1388.12,
+      "text": "Kita cuma taro CDN, script SRC gitu ya."
+    },
+    {
+      "start": 1388.12,
+      "end": 1390.12,
+      "text": "Nah itu udah diimport secara global."
+    },
+    {
+      "start": 1390.12,
+      "end": 1393.12,
+      "text": "Rescondition ya? Udah, nasib."
+    },
+    {
+      "start": 1393.12,
+      "end": 1405.12,
+      "text": "Iya, karena IS module yang membuat si web component akhirnya bisa menjadi ter-encapsulasi tanpa bisa mengkontaminasi"
+    },
+    {
+      "start": 1405.12,
+      "end": 1408.12,
+      "text": "komponen-komponen lain di luarnya gitu."
+    },
+    {
+      "start": 1408.12,
+      "end": 1415.12,
+      "text": "Jadi apa launchingnya IS module sama pola import-export itu beneran mengubah..."
+    },
+    {
+      "start": 1415.12,
+      "end": 1417.12,
+      "text": "Mengubah landscape ya."
+    },
+    {
+      "start": 1417.12,
+      "end": 1418.12,
+      "text": "Mengubah landscape web banget ya."
+    },
+    {
+      "start": 1418.12,
+      "end": 1423.12,
+      "text": "Dulu kan pas feed tuh kita bahas feed juga, topiknya mirip kan, kayak gini."
+    },
+    {
+      "start": 1423.12,
+      "end": 1430.12,
+      "text": "Apa sih feed itu dibikin karena si mas FNU-nya sadar bahwa oh ya import udah..."
+    },
+    {
+      "start": 1430.12,
+      "end": 1434.12,
+      "text": "Native browser import udah didukung di banyak browser."
+    },
+    {
+      "start": 1434.12,
+      "end": 1436.12,
+      "text": "Ya, lanjut."
+    },
+    {
+      "start": 1436.12,
+      "end": 1437.12,
+      "text": "Lanjut, oke."
+    },
+    {
+      "start": 1437.12,
+      "end": 1444.12,
+      "text": "Nah, lanjut berikutnya kita masih ada hubungannya di 2 episode sebelumnya tentang web almanak."
+    },
+    {
+      "start": 1444.12,
+      "end": 1446.12,
+      "text": "Nah, di sini ada insight yang menarik."
+    },
+    {
+      "start": 1446.12,
+      "end": 1450.12,
+      "text": "Kenapa web component masih belum juga banyak yang menggunakan?"
+    },
+    {
+      "start": 1450.12,
+      "end": 1454.12,
+      "text": "Banyak kenapa?"
+    },
+    {
+      "start": 1454.12,
+      "end": 1461.12,
+      "text": "Kenapa? Karena banyak yang belum tahu ya? Atau karena sudah termudahkan dengan framework-framework kali ya?"
+    },
+    {
+      "start": 1461.12,
+      "end": 1467.12,
+      "text": "Atau mungkin karena kurang gimmick gitu nggak sih?"
+    },
+    {
+      "start": 1467.12,
+      "end": 1468.12,
+      "text": "Kurang gimmick ya."
+    },
+    {
+      "start": 1468.12,
+      "end": 1481.12,
+      "text": "Kalau react atau swell dan lain-lain kan banyak konten yang menarik di social media atau mungkin di akun-akun kita di hacker news atau di mana pun."
+    },
+    {
+      "start": 1481.12,
+      "end": 1482.12,
+      "text": "Jualan gitu ya, jualan."
+    },
+    {
+      "start": 1482.12,
+      "end": 1487.12,
+      "text": "Kita buka youtube, banyak tutorial yang dikemas narik dengan berbagai bahasa."
+    },
+    {
+      "start": 1487.12,
+      "end": 1492.12,
+      "text": "Maksudnya bahasa Indonesia, bahasa Inggris, berbagai style belajar."
+    },
+    {
+      "start": 1492.12,
+      "end": 1493.12,
+      "text": "Itu jelas."
+    },
+    {
+      "start": 1493.12,
+      "end": 1499.12,
+      "text": "Mungkin karena gitu nggak, untuk karir info aja nggak ada."
+    },
+    {
+      "start": 1499.12,
+      "end": 1501.12,
+      "text": "Dicari web component."
+    },
+    {
+      "start": 1501.12,
+      "end": 1504.12,
+      "text": "Web developer yang ngerti web component."
+    },
+    {
+      "start": 1504.12,
+      "end": 1507.12,
+      "text": "Pasti carinya react developer, feel developer."
+    },
+    {
+      "start": 1507.12,
+      "end": 1511.12,
+      "text": "Maybe, maybe."
+    },
+    {
+      "start": 1511.12,
+      "end": 1514.12,
+      "text": "Iya kan, yang paling populer kan react kan, gitu kan."
+    },
+    {
+      "start": 1514.12,
+      "end": 1518.12,
+      "text": "Ini, mungkin ada benarnya nih, susah pakai web component."
+    },
+    {
+      "start": 1518.12,
+      "end": 1520.12,
+      "text": "Iya, masih lebih banyak."
+    },
+    {
+      "start": 1520.12,
+      "end": 1524.12,
+      "text": "Ya, saya juga waktu bikin component ini."
+    },
+    {
+      "start": 1524.12,
+      "end": 1528.12,
+      "text": "Masih banyak boilerplate code yang harus kita tulis."
+    },
+    {
+      "start": 1528.12,
+      "end": 1531.12,
+      "text": "Benar, benar. Ada benarnya."
+    },
+    {
+      "start": 1531.12,
+      "end": 1532.12,
+      "text": "Memang sulit."
+    },
+    {
+      "start": 1532.12,
+      "end": 1542.12,
+      "text": "Tapi, di sisi yang lain, web component ini ya, nggak ada extra kilobytes yang harus didownload oleh user, gitu kan."
+    },
+    {
+      "start": 1542.12,
+      "end": 1552.12,
+      "text": "Iya, sebenarnya itu keren banget kalau dari performance dan machine performance sama resilience ya."
+    },
+    {
+      "start": 1552.12,
+      "end": 1558.12,
+      "text": "Itu kan beneran makin dekat dengan javascript dan behavior browser asli."
+    },
+    {
+      "start": 1558.12,
+      "end": 1561.12,
+      "text": "Kedepannya ya relatif aman lah."
+    },
+    {
+      "start": 1561.12,
+      "end": 1564.12,
+      "text": "Kayak misalnya contohnya kalau react kan implementasi ya."
+    },
+    {
+      "start": 1564.12,
+      "end": 1569.12,
+      "text": "Itu react itu kayaknya kalau dari segi paradigm kan kayak kebalikannya banget tuh."
+    },
+    {
+      "start": 1569.12,
+      "end": 1574.12,
+      "text": "Sampai dom pun dia bikin dulu copy sendiri kan, virtual dom."
+    },
+    {
+      "start": 1574.12,
+      "end": 1577.12,
+      "text": "Makanya kan makin setiap ganti versi react,"
+    },
+    {
+      "start": 1577.12,
+      "end": 1582.12,
+      "text": "selalu ada heboh-heboh ada hook baru, ada hook yang tidak jadi dipakai,"
+    },
+    {
+      "start": 1582.12,
+      "end": 1586.12,
+      "text": "ada behavior baru dalam streaming component misalnya."
+    },
+    {
+      "start": 1586.12,
+      "end": 1588.12,
+      "text": "Ya, bukan salah ya, bukan salah benar."
+    },
+    {
+      "start": 1588.12,
+      "end": 1594.12,
+      "text": "Cuma karena dia bikin abstraksi yang custom dan kompleks,"
+    },
+    {
+      "start": 1594.12,
+      "end": 1601.12,
+      "text": "ya kedepannya bakal bisa aja banyak feature yang berubah secara ekstrim."
+    },
+    {
+      "start": 1601.12,
+      "end": 1608.12,
+      "text": "Sedangkan kalau si custom element ini kan deket banget sama bahasa-bahasa asli"
+    },
+    {
+      "start": 1608.12,
+      "end": 1614.12,
+      "text": "yang bisa dibaca oleh browser yaitu HTML, Javascript, CSS."
+    },
+    {
+      "start": 1614.12,
+      "end": 1619.12,
+      "text": "Jadi sebenarnya still formulate juga di situ, cuman ya itu yang pake dikit."
+    },
+    {
+      "start": 1619.12,
+      "end": 1622.12,
+      "text": "Dan makin lama makin tahun makin turun."
+    },
+    {
+      "start": 1622.12,
+      "end": 1630.12,
+      "text": "Jadi kan tadi kita lihat tuh 2021 itu yang desktop itu tadinya 3% kalau nggak salah."
+    },
+    {
+      "start": 1630.12,
+      "end": 1632.12,
+      "text": "Sekarang jadi 2%."
+    },
+    {
+      "start": 1632.12,
+      "end": 1638.12,
+      "text": "Nah, sementara yang mobile tadinya 4% turun jadi 0,39."
+    },
+    {
+      "start": 1638.12,
+      "end": 1641.12,
+      "text": "Ya, fenomena menarik ya."
+    },
+    {
+      "start": 1641.12,
+      "end": 1644.12,
+      "text": "Fenomena menarik? Mungkin ya, mungkin ya."
+    },
+    {
+      "start": 1644.12,
+      "end": 1649.12,
+      "text": "Mungkin karena adaptasinya masih belum ada perusahaan yang cukup besar"
+    },
+    {
+      "start": 1649.12,
+      "end": 1653.12,
+      "text": "menggunakan web components gitu atau belum terekspos."
+    },
+    {
+      "start": 1653.12,
+      "end": 1656.12,
+      "text": "Ada cuman ya, itu nggak terekspos aja."
+    },
+    {
+      "start": 1656.12,
+      "end": 1660.12,
+      "text": "Ya dibandingkan sama Facebook gitu kan, kalau Facebook pake react gitu kan."
+    },
+    {
+      "start": 1660.12,
+      "end": 1664.12,
+      "text": "Atau bahkan yang membuat react kan pasti orang berpikir,"
+    },
+    {
+      "start": 1664.12,
+      "end": 1668.12,
+      "text": "wah di Facebook aja yang seskel Facebook aja udah pake react gitu."
+    },
+    {
+      "start": 1668.12,
+      "end": 1672.12,
+      "text": "Nah, aplikasi kita ya berarti bisa nih pake react gitu kan."
+    },
+    {
+      "start": 1672.12,
+      "end": 1677.12,
+      "text": "Atau spelt misalkan di perusahaan apa, di portal berita misalkan."
+    },
+    {
+      "start": 1677.12,
+      "end": 1682.12,
+      "text": "Wah, di portal berita ini udah pake spelt gitu kan."
+    },
+    {
+      "start": 1682.12,
+      "end": 1685.12,
+      "text": "Ya, gitu-gitulah. Exposure aja mungkin ya."
+    },
+    {
+      "start": 1685.12,
+      "end": 1687.12,
+      "text": "Jualannya kurang gitu ya."
+    },
+    {
+      "start": 1687.12,
+      "end": 1689.12,
+      "text": "Ya, bedakan antara virtual dom."
+    },
+    {
+      "start": 1689.12,
+      "end": 1693.12,
+      "text": "Sebenarnya kalau ada Google pake, cuman nggak terlalu dipromote aja ya."
+    },
+    {
+      "start": 1693.12,
+      "end": 1699.12,
+      "text": "Di sini ada keywordnya, ada keyword yang saya baca itu adalah"
+    },
+    {
+      "start": 1699.12,
+      "end": 1704.12,
+      "text": "framework-frameware seperti react gitu kan, pakenya virtual dom."
+    },
+    {
+      "start": 1704.12,
+      "end": 1707.12,
+      "text": "Sedangkan web component itu shadow dom."
+    },
+    {
+      "start": 1707.12,
+      "end": 1709.12,
+      "text": "Ya, itu dua konsep yang berbeda."
+    },
+    {
+      "start": 1709.12,
+      "end": 1714.12,
+      "text": "Ya, jadi buat teman-teman supaya nggak hilaf,"
+    },
+    {
+      "start": 1714.12,
+      "end": 1718.12,
+      "text": "kalau web component itu sama pake virtual dom bukan, dia pake shadow dom."
+    },
+    {
+      "start": 1718.12,
+      "end": 1725.12,
+      "text": "Ya, kembali ke tadi si apa nih, Vida, katanya memang susah pake web component."
+    },
+    {
+      "start": 1725.12,
+      "end": 1733.12,
+      "text": "Mungkin ini ya, ada feedback atau masukan untuk web component juga adalah yang pertama gitu."
+    },
+    {
+      "start": 1733.12,
+      "end": 1740.12,
+      "text": "Kalau framework lain kan lumayan apa ya, lumayan mengedepankan developer experience kan."
+    },
+    {
+      "start": 1740.12,
+      "end": 1741.12,
+      "text": "DX-nya bagus."
+    },
+    {
+      "start": 1741.12,
+      "end": 1747.12,
+      "text": "Ya, kalau web component jujur aja, developer experience-nya masih agak tertinggal dibandingkan framework."
+    },
+    {
+      "start": 1747.12,
+      "end": 1758.12,
+      "text": "DX di sini bisa macam-macam ya, bisa cara penggunaannya, boilerplate code-nya juga lebih sederhana gitu kan."
+    },
+    {
+      "start": 1758.12,
+      "end": 1770.12,
+      "text": "Terus juga, termasuk juga tutorial."
+    },
+    {
+      "start": 1770.12,
+      "end": 1778.12,
+      "text": "Terus juga termasuk juga tutorial, semakin kesini pasti akan semakin banyak tutorial"
+    },
+    {
+      "start": 1778.12,
+      "end": 1782.12,
+      "text": "yang berkaitan dengan ini dan semakin developer experience-nya akan semakin baik gitu."
+    },
+    {
+      "start": 1782.12,
+      "end": 1788.12,
+      "text": "Sama, apa lagi tadi ya, sempat kepikiran tapi lupa, ya udah, nanti aja."
+    },
+    {
+      "start": 1788.12,
+      "end": 1792.12,
+      "text": "Oke, kita lihat dulu ya yang di sini ya, web component dan shadow dom."
+    },
+    {
+      "start": 1792.12,
+      "end": 1799.12,
+      "text": "Jadi web component itu turun dari 3% ke 2%, kemudian shadow dom itu lumayan naik ya."
+    },
+    {
+      "start": 1799.12,
+      "end": 1807.12,
+      "text": "Oh, turun dari 4, dari 0,4, sorry, 0,4, jadi 0,39."
+    },
+    {
+      "start": 1807.12,
+      "end": 1815.12,
+      "text": "Tuh, template tuh, 0,05%, yang pakai Ipan doang nih, 0,05."
+    },
+    {
+      "start": 1815.12,
+      "end": 1820.12,
+      "text": "Swear, gue banyak pakai template, lo jawab dulu, apalagi tambahin underscore."
+    },
+    {
+      "start": 1820.12,
+      "end": 1824.12,
+      "text": "Naik tuh 0,05%."
+    },
+    {
+      "start": 1824.12,
+      "end": 1830.12,
+      "text": "Yang pakai Ipan doang. Ini is atribut kita juga jangan pakai ya."
+    },
+    {
+      "start": 1830.12,
+      "end": 1835.12,
+      "text": "Tapi lumayan menyedihkan ya, melihatannya ya."
+    },
+    {
+      "start": 1835.12,
+      "end": 1842.12,
+      "text": "Jadi gue pakai jaman dulu tuh namanya, kalau pakai template, pakainya dari underscore."
+    },
+    {
+      "start": 1842.12,
+      "end": 1856.12,
+      "text": "Jadi tetap pakai template, terus kemudian baca template-nya pakai underscore."
+    },
+    {
+      "start": 1856.12,
+      "end": 1859.12,
+      "text": "Supaya connect-nya ke backbone."
+    },
+    {
+      "start": 1859.12,
+      "end": 1863.12,
+      "text": "Tapi gue sering pakai, swear, gue pakai ini sering."
+    },
+    {
+      "start": 1863.12,
+      "end": 1867.12,
+      "text": "Ya, percaya, percaya, percaya."
+    },
+    {
+      "start": 1867.12,
+      "end": 1871.12,
+      "text": "Gue nggak tahu kenapa jadi kurang popular."
+    },
+    {
+      "start": 1871.12,
+      "end": 1878.12,
+      "text": "Ya, itu karena framework, jadi udah disiapin semuanya, template-template-nya juga udah."
+    },
+    {
+      "start": 1878.12,
+      "end": 1885.12,
+      "text": "Sementara dulu waktu framework yang dibikin, fitur template ini belum ada, mungkin ya."
+    },
+    {
+      "start": 1885.12,
+      "end": 1894.12,
+      "text": "Nggak tahu juga. Nah, tadi yang mau saya bahas adalah web component ini yang seperti di contoh di sini,"
+    },
+    {
+      "start": 1894.12,
+      "end": 1898.12,
+      "text": "kalau misalkan nanti teman-teman aplikasinya udah mulai kompleks,"
+    },
+    {
+      "start": 1898.12,
+      "end": 1901.12,
+      "text": "mau dipakaiin Redux, bisa."
+    },
+    {
+      "start": 1901.12,
+      "end": 1905.12,
+      "text": "Mau pakai state management apa, bisa."
+    },
+    {
+      "start": 1905.12,
+      "end": 1908.12,
+      "text": "Ya, ini HTML, sorry, ini JavaScript, HTML."
+    },
+    {
+      "start": 1908.12,
+      "end": 1911.12,
+      "text": "Jadi mau ditambahin library apa juga bisa."
+    },
+    {
+      "start": 1911.12,
+      "end": 1916.12,
+      "text": "Asal library-nya itu yang JavaScript juga."
+    },
+    {
+      "start": 1916.12,
+      "end": 1920.12,
+      "text": "Kalau Redux itu kan nggak ada hubungannya sama React kan sebenarnya kan."
+    },
+    {
+      "start": 1920.12,
+      "end": 1923.12,
+      "text": "Walaupun ya dia berkaitan gitu kan."
+    },
+    {
+      "start": 1923.12,
+      "end": 1927.12,
+      "text": "Tapi itu adalah library JavaScript, bukan library React ya."
+    },
+    {
+      "start": 1927.12,
+      "end": 1933.12,
+      "text": "Terus, lanjut lagi."
+    },
+    {
+      "start": 1933.12,
+      "end": 1938.12,
+      "text": "Makanya yang tadi kita sebutkan ada developer experience-nya kurang bagus,"
+    },
+    {
+      "start": 1938.12,
+      "end": 1943.12,
+      "text": "karena banyak boilerplate code, kemudian penamaannya unik,"
+    },
+    {
+      "start": 1943.12,
+      "end": 1950.12,
+      "text": "life cycle-nya juga namanya juga agak berbeda dengan yang biasa kita tahu,"
+    },
+    {
+      "start": 1950.12,
+      "end": 1952.12,
+      "text": "makanya muncul framework framework."
+    },
+    {
+      "start": 1952.12,
+      "end": 1957.12,
+      "text": "Terus objek orientasi, segala macem di this dot something-something,"
+    },
+    {
+      "start": 1957.12,
+      "end": 1961.12,
+      "text": "itu kan objek orientasi banget dan ya, perkara selera sih."
+    },
+    {
+      "start": 1961.12,
+      "end": 1969.12,
+      "text": "Banyak developer yang banyak programmer JS yang kurang suka dengan cara kayak gini kan, kurang cocok."
+    },
+    {
+      "start": 1969.12,
+      "end": 1973.12,
+      "text": "- Iya. Dia seolah-olah anti-mainstream ya."
+    },
+    {
+      "start": 1973.12,
+      "end": 1977.12,
+      "text": "Orang dari kelas menuju ke fungsional dia sementara dia..."
+    },
+    {
+      "start": 1977.12,
+      "end": 1980.12,
+      "text": "- Dia selalu kelas. - ...kelas aja udah."
+    },
+    {
+      "start": 1980.12,
+      "end": 1983.12,
+      "text": "Atau nanti dia mau ngikutin ya, kita nggak tahu kan."
+    },
+    {
+      "start": 1983.12,
+      "end": 1992.12,
+      "text": "Tapi ini kayak React zaman dulu ya, this dot something dot bind dot something dot this, gitu kan."
+    },
+    {
+      "start": 1992.12,
+      "end": 1994.12,
+      "text": "Mirip-mirip juga kan, gitu kan."
+    },
+    {
+      "start": 1994.12,
+      "end": 2004.12,
+      "text": "Tapi React-nya sendiri udah berubah dan lucunya adalah fun fact-nya adalah si React ini kenapa mereka dulu menggunakan kelas."
+    },
+    {
+      "start": 2004.12,
+      "end": 2010.12,
+      "text": "Jadi ada alasan supaya teman-teman kita yang belum familiar dengan JavaScript"
+    },
+    {
+      "start": 2010.12,
+      "end": 2015.12,
+      "text": "atau yang dari dunia objek orientasi programming seperti Java."
+    },
+    {
+      "start": 2015.12,
+      "end": 2021.12,
+      "text": "Iya, familiar, merasa familiar dengan kode ini."
+    },
+    {
+      "start": 2021.12,
+      "end": 2026.12,
+      "text": "Dan kemudian setelah mereka terjerumus, akhirnya dijerumuskan ini juga fungsional."
+    },
+    {
+      "start": 2026.12,
+      "end": 2030.12,
+      "text": "- Jadi ini fungsional semua. - Ini sebenarnya fungsional bukan kelas, gitu kan."
+    },
+    {
+      "start": 2030.12,
+      "end": 2031.12,
+      "text": "Bukan OOP."
+    },
+    {
+      "start": 2031.12,
+      "end": 2037.12,
+      "text": "Ya gitu lah, saya tanya ya, gossip-nya seperti itu kenapa React awalnya menggunakan kelas."
+    },
+    {
+      "start": 2037.12,
+      "end": 2041.12,
+      "text": "- Dibakan ya berarti? - Dibakan, iya."
+    },
+    {
+      "start": 2041.12,
+      "end": 2052.12,
+      "text": "Oke, jadi tadi saya sempat bahas sedikit dengan kurangnya DX atau Developer Experience"
+    },
+    {
+      "start": 2052.12,
+      "end": 2056.12,
+      "text": "yang disediakan oleh Native Web Component, makanya muncul Framework Network."
+    },
+    {
+      "start": 2056.12,
+      "end": 2062.12,
+      "text": "Salah satunya adalah Lead ya, Lead ini yang cukup pernal."
+    },
+    {
+      "start": 2062.12,
+      "end": 2070.12,
+      "text": "Dia membungkus si Web Component sehingga cara penggunaannya jadi lebih sederhana."
+    },
+    {
+      "start": 2070.12,
+      "end": 2075.12,
+      "text": "Ada contohnya nggak? Getting Started."
+    },
+    {
+      "start": 2075.12,
+      "end": 2081.12,
+      "text": "Ada lagi yang namanya, yang keluarannya Mozilla apa? Stencil ya?"
+    },
+    {
+      "start": 2081.12,
+      "end": 2084.12,
+      "text": "- Stencil ionic. - Stencil ionic ya, ionic."
+    },
+    {
+      "start": 2084.12,
+      "end": 2087.12,
+      "text": "Di sini ada fans-nya ionic nih, Bahyu."
+    },
+    {
+      "start": 2087.12,
+      "end": 2092.12,
+      "text": "Dia nge-fan sama angular dia, sama ionic."
+    },
+    {
+      "start": 2092.12,
+      "end": 2095.12,
+      "text": "Ya, jadi bentuknya kayak gini."
+    },
+    {
+      "start": 2095.12,
+      "end": 2098.12,
+      "text": "Sudah bisa pakai TypeScript juga tentunya."
+    },
+    {
+      "start": 2098.12,
+      "end": 2101.12,
+      "text": "Kita import dulu HTML, CSS, sama Lead elemennya."
+    },
+    {
+      "start": 2101.12,
+      "end": 2104.12,
+      "text": "Ya, Lead-nya sendiri sebenarnya yang agak sedikit misleading adalah"
+    },
+    {
+      "start": 2104.12,
+      "end": 2108.12,
+      "text": "dia ada dua komponen kan, ada dua item kan sebenarnya kan."
+    },
+    {
+      "start": 2108.12,
+      "end": 2112.12,
+      "text": "Lead HTML sama Lead ini, bener nggak sih?"
+    },
+    {
+      "start": 2112.12,
+      "end": 2122.12,
+      "text": "Nggak ada ya? Oh, Lead aja ya?"
+    },
+    {
+      "start": 2122.12,
+      "end": 2125.12,
+      "text": "- Lead aja. - Oke, salah berarti."
+    },
+    {
+      "start": 2125.12,
+      "end": 2128.12,
+      "text": "- Lead elemen gitu. - Ya, Lead elemen, oke."
+    },
+    {
+      "start": 2128.12,
+      "end": 2133.12,
+      "text": "Terus kita pakai kelas ya, di sini kita pakai kelas,"
+    },
+    {
+      "start": 2133.12,
+      "end": 2136.12,
+      "text": "di Extend tapi bukan HTML, melihatkan Lead Elemen."
+    },
+    {
+      "start": 2136.12,
+      "end": 2140.12,
+      "text": "Terus kemudian ini definisikan CSS-nya, terus di-render."
+    },
+    {
+      "start": 2140.12,
+      "end": 2143.12,
+      "text": "- Nah, ini udah agak familiar ya? - Ya, lebih rapi sedikit ya."
+    },
+    {
+      "start": 2143.12,
+      "end": 2145.12,
+      "text": "Ya, lebih rapi ya."
+    },
+    {
+      "start": 2145.12,
+      "end": 2148.12,
+      "text": "Terus kita tambahkan ini, Dekorator Custom Elements,"
+    },
+    {
+      "start": 2148.12,
+      "end": 2151.12,
+      "text": "Simple Greeting untuk penamaan."
+    },
+    {
+      "start": 2151.12,
+      "end": 2155.12,
+      "text": "Penamaannya seperti ini, jadi nggak perlu pakai yang tadi,"
+    },
+    {
+      "start": 2155.12,
+      "end": 2158.12,
+      "text": "yang di bawah tadi Custom Elements ini."
+    },
+    {
+      "start": 2158.12,
+      "end": 2162.12,
+      "text": "Ini adalah penggantinya adalah ini, Custom Elements ini."
+    },
+    {
+      "start": 2162.12,
+      "end": 2164.12,
+      "text": "- Kemudian kalau kita lihat... - Sebenarnya sama."
+    },
+    {
+      "start": 2164.12,
+      "end": 2166.12,
+      "text": "- Sama. - Di belakangnya sama."
+    },
+    {
+      "start": 2166.12,
+      "end": 2172.12,
+      "text": "- Sama, ini nanti di-compile menjadi itu, gitu. - Yang menurut itu."
+    },
+    {
+      "start": 2172.12,
+      "end": 2177.12,
+      "text": "Nah, sekarang kalau kita lihat ininya mana ya?"
+    },
+    {
+      "start": 2177.12,
+      "end": 2180.12,
+      "text": "Life Cycle-nya mana? Kok nggak kelihatan Life Cycle-nya?"
+    },
+    {
+      "start": 2180.12,
+      "end": 2184.12,
+      "text": "Ini Hello World, Hello Mars, nggak ada ininya ya?"
+    },
+    {
+      "start": 2184.12,
+      "end": 2186.12,
+      "text": "Oh, kliknya langsung di sini."
+    },
+    {
+      "start": 2186.12,
+      "end": 2189.12,
+      "text": "Jadi kalau on take, dia langsung di sini."
+    },
+    {
+      "start": 2189.12,
+      "end": 2197.12,
+      "text": "Aklik ya, dan ini pakai dollar kurang-kurang awal,"
+    },
+    {
+      "start": 2197.12,
+      "end": 2199.12,
+      "text": "ini juga dari JavaScript ya, jadi nggak."
+    },
+    {
+      "start": 2199.12,
+      "end": 2203.12,
+      "text": "Ya. Life Cycle-nya mana?"
+    },
+    {
+      "start": 2203.12,
+      "end": 2206.12,
+      "text": "Kita mau cari Life Cycle, di sini ada nggak?"
+    },
+    {
+      "start": 2206.12,
+      "end": 2209.12,
+      "text": "- Life Cycle, oh, nggak ada. - Tidak ada."
+    },
+    {
+      "start": 2209.12,
+      "end": 2212.12,
+      "text": "Gak ada ya? Bagaimana cara itu?"
+    },
+    {
+      "start": 2212.12,
+      "end": 2214.12,
+      "text": "Component beat mount gitu-gitu nggak ada ya?"
+    },
+    {
+      "start": 2214.12,
+      "end": 2216.12,
+      "text": "Ya, saya lihat sendiri."
+    },
+    {
+      "start": 2216.12,
+      "end": 2218.12,
+      "text": "Tutorial, intro to lead."
+    },
+    {
+      "start": 2218.12,
+      "end": 2222.12,
+      "text": "Sama, ke sini juga? Oh, nggak."
+    },
+    {
+      "start": 2222.12,
+      "end": 2225.12,
+      "text": "- Langsung jalan. - Tapi ini enak ya,"
+    },
+    {
+      "start": 2225.12,
+      "end": 2230.12,
+      "text": "udah ada Apple-nya, Live Playground-nya."
+    },
+    {
+      "start": 2230.12,
+      "end": 2234.12,
+      "text": "Mereka mencontek tutorialnya Svelte, ya."
+    },
+    {
+      "start": 2234.12,
+      "end": 2241.12,
+      "text": "Kayak gini nih, web component aslinya nggak ada bikin beginian ya?"
+    },
+    {
+      "start": 2241.12,
+      "end": 2246.12,
+      "text": "Nggak ada. Ini framework juga ya, framework di atas web component ya."
+    },
+    {
+      "start": 2246.12,
+      "end": 2248.12,
+      "text": "Framework di atas web component."
+    },
+    {
+      "start": 2248.12,
+      "end": 2255.12,
+      "text": "Jadi, ini adalah salah satu, kemudian salah duanya ada tadi stencil,"
+    },
+    {
+      "start": 2255.12,
+      "end": 2259.12,
+      "text": "- lalu kemudian... - Ada NNs."
+    },
+    {
+      "start": 2259.12,
+      "end": 2262.12,
+      "text": "Iya, ada NNs yang nanti kita akan bahas, tapi sebelum kesana"
+    },
+    {
+      "start": 2262.12,
+      "end": 2268.12,
+      "text": "saya mau bahas juga ternyata framework-framework yang teman-teman sudah kenal"
+    },
+    {
+      "start": 2268.12,
+      "end": 2272.12,
+      "text": "seperti Svelte, React, View, Solid, dan lain-lain,"
+    },
+    {
+      "start": 2272.12,
+      "end": 2276.12,
+      "text": "juga bisa dikompilasi ke web component."
+    },
+    {
+      "start": 2276.12,
+      "end": 2278.12,
+      "text": "Custom Elements."
+    },
+    {
+      "start": 2278.12,
+      "end": 2283.12,
+      "text": "Jadi, kalau teman-teman penasaran bisa nggak sih kita tulis web component,"
+    },
+    {
+      "start": 2283.12,
+      "end": 2287.12,
+      "text": "tapi tetap pakai framework yang kita suka, misalkan kayak View."
+    },
+    {
+      "start": 2287.12,
+      "end": 2295.12,
+      "text": "View ini sudah 91% compatible, cuman ada satu isu di sini."
+    },
+    {
+      "start": 2295.12,
+      "end": 2302.12,
+      "text": "- React masih 71%. - React ini paling..."
+    },
+    {
+      "start": 2302.12,
+      "end": 2309.12,
+      "text": "- Karena dia sudah berbeda ya. - Ya, tapi ternyata ada React yang eksperimental"
+    },
+    {
+      "start": 2309.12,
+      "end": 2313.12,
+      "text": "yang khusus dibangun untuk fully support Custom Elements."
+    },
+    {
+      "start": 2313.12,
+      "end": 2315.12,
+      "text": "Ini sudah 100%."
+    },
+    {
+      "start": 2315.12,
+      "end": 2319.12,
+      "text": "Ini nggak tahu nih, React yang mana nih?"
+    },
+    {
+      "start": 2319.12,
+      "end": 2322.12,
+      "text": "- Ya itu... - Oh, dia ada ini kayaknya."
+    },
+    {
+      "start": 2322.12,
+      "end": 2325.12,
+      "text": "Ya, beda brands kayaknya ya."
+    },
+    {
+      "start": 2325.12,
+      "end": 2328.12,
+      "text": "Soalnya menuju ke GitHub Repo yang sama,"
+    },
+    {
+      "start": 2328.12,
+      "end": 2332.12,
+      "text": "mungkin ada brands web component di sini, somehow."
+    },
+    {
+      "start": 2332.12,
+      "end": 2334.12,
+      "text": "Silahkan cari-cari aja."
+    },
+    {
+      "start": 2334.12,
+      "end": 2338.12,
+      "text": "Kemudian ada Angular, sudah 100%, Svelte 100%,"
+    },
+    {
+      "start": 2338.12,
+      "end": 2344.12,
+      "text": "AngularJS yang satu bahkan 100% juga, ada Preact, Polymer, Skate..."
+    },
+    {
+      "start": 2344.12,
+      "end": 2348.12,
+      "text": "- Sampai makin ke bawah makin aneh-aneh itu. - Ya."
+    },
+    {
+      "start": 2348.12,
+      "end": 2352.12,
+      "text": "Tapi kalau kita lihat skornya ini sudah bagus-bagus."
+    },
+    {
+      "start": 2352.12,
+      "end": 2355.12,
+      "text": "- Ya kan jadi mungkin... - Huh?"
+    },
+    {
+      "start": 2355.12,
+      "end": 2360.12,
+      "text": "- Mungkin sebenarnya analoginya kayak... - Eh sorry, lanjut, lanjut."
+    },
+    {
+      "start": 2360.12,
+      "end": 2363.12,
+      "text": "- Lanjut, lanjut. - Kayak kita di Next.js,"
+    },
+    {
+      "start": 2363.12,
+      "end": 2368.12,
+      "text": "kalau kita pakai React atau Svelte, kita tetap bisa pakai"
+    },
+    {
+      "start": 2368.12,
+      "end": 2372.12,
+      "text": "Reusable Function di JavaScript biasa, kan ya?"
+    },
+    {
+      "start": 2372.12,
+      "end": 2375.12,
+      "text": "Nah, itu kan sebenarnya kayak gini Reusable Function juga,"
+    },
+    {
+      "start": 2375.12,
+      "end": 2378.12,
+      "text": "tapi untuk render UI."
+    },
+    {
+      "start": 2378.12,
+      "end": 2382.12,
+      "text": "Jadi sebetulnya emang expected-nya bisa."
+    },
+    {
+      "start": 2382.12,
+      "end": 2385.12,
+      "text": "Expected-nya bisa, betul."
+    },
+    {
+      "start": 2385.12,
+      "end": 2392.12,
+      "text": "Cara pakainya, saya punya contoh, tapi di slide, kalau mau lihat."
+    },
+    {
+      "start": 2392.12,
+      "end": 2396.12,
+      "text": "- Nah. - Ayo lihat slide aja, menggap itu."
+    },
+    {
+      "start": 2396.12,
+      "end": 2399.12,
+      "text": "Ini slide yang saya presentasikan setahun yang lalu"
+    },
+    {
+      "start": 2399.12,
+      "end": 2403.12,
+      "text": "di DevFace Jakarta 2021, ada videonya."
+    },
+    {
+      "start": 2403.12,
+      "end": 2408.12,
+      "text": "Ini contohnya SpellBiasa, ya."
+    },
+    {
+      "start": 2408.12,
+      "end": 2411.12,
+      "text": "Kemudian, ya udah, langsung."
+    },
+    {
+      "start": 2411.12,
+      "end": 2415.12,
+      "text": "Oh bukan, salah."
+    },
+    {
+      "start": 2415.12,
+      "end": 2417.12,
+      "text": "Itu kalau mau dipakai di Svelte, sorry."
+    },
+    {
+      "start": 2417.12,
+      "end": 2419.12,
+      "text": "Itu kalau mau dipakai di Svelte."
+    },
+    {
+      "start": 2419.12,
+      "end": 2424.12,
+      "text": "Kalau ini yang dikompile ke itu ya, ke web component."
+    },
+    {
+      "start": 2424.12,
+      "end": 2428.12,
+      "text": "Sebagai component Svelte, tapi dikompile menjadi..."
+    },
+    {
+      "start": 2428.12,
+      "end": 2435.12,
+      "text": "setelah jadi JavaScript, hasil transpilenya jadi custom element."
+    },
+    {
+      "start": 2435.12,
+      "end": 2438.12,
+      "text": "Ya, jadi kita bisa menambahkan Spell Option,"
+    },
+    {
+      "start": 2438.12,
+      "end": 2440.12,
+      "text": "tag web component."
+    },
+    {
+      "start": 2440.12,
+      "end": 2443.12,
+      "text": "- Oh. - Sudah."
+    },
+    {
+      "start": 2443.12,
+      "end": 2445.12,
+      "text": "Sederhananya seperti itu."
+    },
+    {
+      "start": 2445.12,
+      "end": 2450.12,
+      "text": "Dengan function increment-increment dan lain-lain."
+    },
+    {
+      "start": 2450.12,
+      "end": 2455.12,
+      "text": "Sudah, jadi yang di sini itu akan menjadi C-aunter."
+    },
+    {
+      "start": 2455.12,
+      "end": 2460.12,
+      "text": "Untuk digunakan misalkan di bagian lain dari HTML kita."
+    },
+    {
+      "start": 2460.12,
+      "end": 2464.12,
+      "text": "Terus jangan lupa pada saat kompilasi ditambahkan custom element"
+    },
+    {
+      "start": 2464.12,
+      "end": 2466.12,
+      "text": "sama dengan true, itu tic 2 true."
+    },
+    {
+      "start": 2466.12,
+      "end": 2470.12,
+      "text": "Jadi ketika dikompile, dia akan menjadi web component."
+    },
+    {
+      "start": 2470.12,
+      "end": 2473.12,
+      "text": "Shadow DOM dan lain-lainnya tetap ada."
+    },
+    {
+      "start": 2473.12,
+      "end": 2475.12,
+      "text": "Nice."
+    },
+    {
+      "start": 2475.12,
+      "end": 2479.12,
+      "text": "Nah, cuma jangan lupa itu tergantung kita pakai bender apa juga, kan?"
+    },
+    {
+      "start": 2479.12,
+      "end": 2482.12,
+      "text": "Betul, kalau ini berarti pakai rollup, ya."
+    },
+    {
+      "start": 2482.12,
+      "end": 2485.12,
+      "text": "Kalau pakai fitur, mungkin beda lagi."
+    },
+    {
+      "start": 2485.12,
+      "end": 2487.12,
+      "text": "Spell kit kan pakai fitur."
+    },
+    {
+      "start": 2487.12,
+      "end": 2489.12,
+      "text": "Ya, ada sih, pasti ada."
+    },
+    {
+      "start": 2489.12,
+      "end": 2493.12,
+      "text": "Cuma item konfigurasinya harus rajin-rajin..."
+    },
+    {
+      "start": 2493.12,
+      "end": 2496.12,
+      "text": "Ya, mungkin property-nya beda namanya bukan custom element,"
+    },
+    {
+      "start": 2496.12,
+      "end": 2499.12,
+      "text": "mungkin namanya web component atau apa gitu ya."
+    },
+    {
+      "start": 2499.12,
+      "end": 2500.12,
+      "text": "Mungkin bisa berbeda."
+    },
+    {
+      "start": 2500.12,
+      "end": 2505.12,
+      "text": "Jadi dipastikan saja settingan untuk kompilarnya."
+    },
+    {
+      "start": 2505.12,
+      "end": 2509.12,
+      "text": "Karena dia kompilasinya yang ke web component, kan?"
+    },
+    {
+      "start": 2509.12,
+      "end": 2512.12,
+      "text": "Yes."
+    },
+    {
+      "start": 2512.12,
+      "end": 2514.12,
+      "text": "Jadi teman-teman bisa langsung ke sini,"
+    },
+    {
+      "start": 2514.12,
+      "end": 2518.12,
+      "text": "kalau lihat, wah, framework yang saya biasa pakai,"
+    },
+    {
+      "start": 2518.12,
+      "end": 2520.12,
+      "text": "ternyata bisa atau enggak."
+    },
+    {
+      "start": 2520.12,
+      "end": 2523.12,
+      "text": "Atau belum support pakai web component."
+    },
+    {
+      "start": 2523.12,
+      "end": 2527.12,
+      "text": "Karena ketika kita menggunakan framework"
+    },
+    {
+      "start": 2527.12,
+      "end": 2530.12,
+      "text": "dan kita compile ke web component,"
+    },
+    {
+      "start": 2530.12,
+      "end": 2533.12,
+      "text": "pasti akan ada penurunan size ya, ukuran."
+    },
+    {
+      "start": 2533.12,
+      "end": 2536.12,
+      "text": "Karena web componentnya sudah ada di browser masing-masing,"
+    },
+    {
+      "start": 2536.12,
+      "end": 2537.12,
+      "text": "jadi nggak perlu download lagi gitu."
+    },
+    {
+      "start": 2537.12,
+      "end": 2540.12,
+      "text": "Bisa hemat beberapa kilobyte kan, lumayan ya."
+    },
+    {
+      "start": 2540.12,
+      "end": 2543.12,
+      "text": "Gitu."
+    },
+    {
+      "start": 2543.12,
+      "end": 2544.12,
+      "text": "Oke, kita lanjut."
+    },
+    {
+      "start": 2544.12,
+      "end": 2550.12,
+      "text": "Nah, ini ada contoh dari teman kita juga, Fatih."
+    },
+    {
+      "start": 2550.12,
+      "end": 2551.12,
+      "text": "Yang bekerja di mana ya?"
+    },
+    {
+      "start": 2551.12,
+      "end": 2553.12,
+      "text": "Iya, di teman-teman Indonesia."
+    },
+    {
+      "start": 2553.12,
+      "end": 2556.12,
+      "text": "Kita kerja di e-commerce hijau ya, kalau misalnya."
+    },
+    {
+      "start": 2556.12,
+      "end": 2558.12,
+      "text": "E-commerce hijau, oke."
+    },
+    {
+      "start": 2558.12,
+      "end": 2563.12,
+      "text": "Jadi, yang dilakukan adalah menggunakan custom element di Next.js."
+    },
+    {
+      "start": 2563.12,
+      "end": 2565.12,
+      "text": "Nah, ini menarik."
+    },
+    {
+      "start": 2565.12,
+      "end": 2568.12,
+      "text": "Terus, buat ngerender, markdown."
+    },
+    {
+      "start": 2568.12,
+      "end": 2570.12,
+      "text": "Buat ngerender, markdown, oke."
+    },
+    {
+      "start": 2570.12,
+      "end": 2573.12,
+      "text": "Custom markdown atau apa?"
+    },
+    {
+      "start": 2573.12,
+      "end": 2576.12,
+      "text": "Belum beneran baca detail sih itu tadi."
+    },
+    {
+      "start": 2576.12,
+      "end": 2580.12,
+      "text": "Cuma intinya, jisnya adalah biar ringan aja,"
+    },
+    {
+      "start": 2580.12,
+      "end": 2584.12,
+      "text": "bikin component yang jalan di Next.js dengan lebih ringan."
+    },
+    {
+      "start": 2584.12,
+      "end": 2586.12,
+      "text": "Tapi dia pakai lead, bukan?"
+    },
+    {
+      "start": 2586.12,
+      "end": 2589.12,
+      "text": "Ini soalnya di URL-nya, lead-next."
+    },
+    {
+      "start": 2589.12,
+      "end": 2591.12,
+      "text": "Kayaknya iya."
+    },
+    {
+      "start": 2591.12,
+      "end": 2596.12,
+      "text": "Oh iya, HTML."
+    },
+    {
+      "start": 2596.12,
+      "end": 2599.12,
+      "text": "HTML itu apa?"
+    },
+    {
+      "start": 2599.12,
+      "end": 2602.12,
+      "text": "React component using HTML."
+    },
+    {
+      "start": 2602.12,
+      "end": 2603.12,
+      "text": "HTML ini apa?"
+    },
+    {
+      "start": 2603.12,
+      "end": 2606.12,
+      "text": "Kayaknya beliau juga yang bikin sendiri nih."
+    },
+    {
+      "start": 2606.12,
+      "end": 2609.12,
+      "text": "Jadi dia bikin solusi apa?"
+    },
+    {
+      "start": 2609.12,
+      "end": 2611.12,
+      "text": "Ngerender HTML."
+    },
+    {
+      "start": 2611.12,
+      "end": 2614.12,
+      "text": "Strict to React Element Conversion Library."
+    },
+    {
+      "start": 2614.12,
+      "end": 2617.12,
+      "text": "Wow, keren."
+    },
+    {
+      "start": 2617.12,
+      "end": 2619.12,
+      "text": "Ini khas engineer banget."
+    },
+    {
+      "start": 2619.12,
+      "end": 2623.12,
+      "text": "Jadi buat bikin blog kayak over engineering everything."
+    },
+    {
+      "start": 2623.12,
+      "end": 2624.12,
+      "text": "Over engineering."
+    },
+    {
+      "start": 2624.12,
+      "end": 2626.12,
+      "text": "Tapi ya bagus buat explorer kan."
+    },
+    {
+      "start": 2626.12,
+      "end": 2628.12,
+      "text": "Bagus, bagus, bagus."
+    },
+    {
+      "start": 2628.12,
+      "end": 2632.12,
+      "text": "Real custom elements."
+    },
+    {
+      "start": 2632.12,
+      "end": 2634.12,
+      "text": "Oke, contohnya mana?"
+    },
+    {
+      "start": 2634.12,
+      "end": 2636.12,
+      "text": "Instead of using add custom element,"
+    },
+    {
+      "start": 2636.12,
+      "end": 2639.12,
+      "text": "we can call custom element the define."
+    },
+    {
+      "start": 2639.12,
+      "end": 2640.12,
+      "text": "Oke."
+    },
+    {
+      "start": 2640.12,
+      "end": 2645.12,
+      "text": "Nah, ini kan yang tadi kita lihat sebelum tutorial-nya sih."
+    },
+    {
+      "start": 2645.12,
+      "end": 2647.12,
+      "text": "Oh iya, ini lead ya, benar-benar."
+    },
+    {
+      "start": 2647.12,
+      "end": 2652.12,
+      "text": "Ini ada statiknya, kemudian define-nya masih pakai ini ya."
+    },
+    {
+      "start": 2652.12,
+      "end": 2655.12,
+      "text": "Nggak pakai ini. Apa namanya?"
+    },
+    {
+      "start": 2655.12,
+      "end": 2658.12,
+      "text": "Belum. Belum."
+    },
+    {
+      "start": 2658.12,
+      "end": 2661.12,
+      "text": "Nggak pakai dekorator."
+    },
+    {
+      "start": 2661.12,
+      "end": 2662.12,
+      "text": "Nggak pakai dekorator."
+    },
+    {
+      "start": 2662.12,
+      "end": 2665.12,
+      "text": "Dekorator itu soalnya di JavaScript."
+    },
+    {
+      "start": 2665.12,
+      "end": 2666.12,
+      "text": "Belum ini kan."
+    },
+    {
+      "start": 2666.12,
+      "end": 2669.12,
+      "text": "Ya, dia masih disupport di TypeScript."
+    },
+    {
+      "start": 2669.12,
+      "end": 2674.12,
+      "text": "Ya, kalau ini kan masih JavaScript ya."
+    },
+    {
+      "start": 2674.12,
+      "end": 2677.12,
+      "text": "Ini alamannya sibuk."
+    },
+    {
+      "start": 2677.12,
+      "end": 2678.12,
+      "text": "Berat."
+    },
+    {
+      "start": 2678.12,
+      "end": 2680.12,
+      "text": "Berat."
+    },
+    {
+      "start": 2680.12,
+      "end": 2684.12,
+      "text": "Oke, terus ini di import."
+    },
+    {
+      "start": 2684.12,
+      "end": 2688.12,
+      "text": "Masukin ke, ini next.js-nya ya."
+    },
+    {
+      "start": 2688.12,
+      "end": 2690.12,
+      "text": "Ini next.js-nya ya."
+    },
+    {
+      "start": 2690.12,
+      "end": 2692.12,
+      "text": "Oke."
+    },
+    {
+      "start": 2692.12,
+      "end": 2696.12,
+      "text": "Itu file component react kan ya."
+    },
+    {
+      "start": 2696.12,
+      "end": 2698.12,
+      "text": "File component react, ya."
+    },
+    {
+      "start": 2698.12,
+      "end": 2700.12,
+      "text": "Terus effect dan lain-lain tetap sama."
+    },
+    {
+      "start": 2700.12,
+      "end": 2705.12,
+      "text": "Timing system."
+    },
+    {
+      "start": 2705.12,
+      "end": 2708.12,
+      "text": "Dah, silahkan baca sendiri."
+    },
+    {
+      "start": 2708.12,
+      "end": 2712.12,
+      "text": "Sampai kelar baca sih sebenarnya cuma paham summer-summer doang sih."
+    },
+    {
+      "start": 2712.12,
+      "end": 2716.12,
+      "text": "Mungkin harus dicoba ya, biar beneran paham alurnya."
+    },
+    {
+      "start": 2716.12,
+      "end": 2720.12,
+      "text": "Nah, ngomongin tadi, enhance."
+    },
+    {
+      "start": 2720.12,
+      "end": 2722.12,
+      "text": "Nah, ini sebenarnya menarik nih."
+    },
+    {
+      "start": 2722.12,
+      "end": 2727.12,
+      "text": "Jadi waktu kita ngomongin tentang island architecture."
+    },
+    {
+      "start": 2727.12,
+      "end": 2730.12,
+      "text": "Kan sudah sempat keluar tuh Astro."
+    },
+    {
+      "start": 2730.12,
+      "end": 2732.12,
+      "text": "Terus ada Quick kan."
+    },
+    {
+      "start": 2732.12,
+      "end": 2735.12,
+      "text": "Terus kan saya sempat nanya kan ke kalian kan."
+    },
+    {
+      "start": 2735.12,
+      "end": 2743.12,
+      "text": "Ada nggak sih framework yang pakai fitur-fitur native dari web."
+    },
+    {
+      "start": 2743.12,
+      "end": 2746.12,
+      "text": "Ternyata ada."
+    },
+    {
+      "start": 2746.12,
+      "end": 2747.12,
+      "text": "Enhance.dev ini."
+    },
+    {
+      "start": 2747.12,
+      "end": 2749.12,
+      "text": "Wah, menarik sekali gitu."
+    },
+    {
+      "start": 2749.12,
+      "end": 2755.12,
+      "text": "Karena semua fitur-fitur yang ada di framework ini"
+    },
+    {
+      "start": 2755.12,
+      "end": 2760.12,
+      "text": "adalah fitur yang ada di web API."
+    },
+    {
+      "start": 2760.12,
+      "end": 2762.12,
+      "text": "Berarti dia cuma jadi wrapper ya?"
+    },
+    {
+      "start": 2762.12,
+      "end": 2764.12,
+      "text": "Iya, jadi ada layer."
+    },
+    {
+      "start": 2764.12,
+      "end": 2770.12,
+      "text": "Dan menariknya mereka membranding mereka sebagai di HTML framework."
+    },
+    {
+      "start": 2770.12,
+      "end": 2773.12,
+      "text": "Jadi kayak semacam meta frameworknya HTML."
+    },
+    {
+      "start": 2773.12,
+      "end": 2776.12,
+      "text": "Jadi kayak misalnya gini deh, kalau kita pengen pakai React,"
+    },
+    {
+      "start": 2776.12,
+      "end": 2780.12,
+      "text": "mungkin kita akan menggunakan meta framework Next.js."
+    },
+    {
+      "start": 2780.12,
+      "end": 2783.12,
+      "text": "Karena itu memudahkan kan kita nulisnya dengan React,"
+    },
+    {
+      "start": 2783.12,
+      "end": 2786.12,
+      "text": "pakai teknologi React, tapi pakai Next.js ada routing,"
+    },
+    {
+      "start": 2786.12,
+      "end": 2788.12,
+      "text": "ada lain-lain lah, ada strukturnya."
+    },
+    {
+      "start": 2788.12,
+      "end": 2793.12,
+      "text": "Kalau kita nulis dalam Svelte, kita akan pakai meta framework SvelteKit."
+    },
+    {
+      "start": 2793.12,
+      "end": 2797.12,
+      "text": "Kalau kita nulis kode view, kita mungkin pakai Nux."
+    },
+    {
+      "start": 2797.12,
+      "end": 2800.12,
+      "text": "Nah, Enhance ini memposisikan mereka sebagai"
+    },
+    {
+      "start": 2800.12,
+      "end": 2807.12,
+      "text": "kalau kita menulis HTML dan JavaScript dan CSS Vanilla,"
+    },
+    {
+      "start": 2807.12,
+      "end": 2811.12,
+      "text": "lalu kita bisa pakai Enhance sebagai framework"
+    },
+    {
+      "start": 2811.12,
+      "end": 2814.12,
+      "text": "yang memudahkan routing dan sebagainya."
+    },
+    {
+      "start": 2814.12,
+      "end": 2820.12,
+      "text": "Routing dan structure dan developer experience, convenience lainnya."
+    },
+    {
+      "start": 2820.12,
+      "end": 2826.12,
+      "text": "Menarik tuh, apa tadi, ini adalah framework Enhance dari HTML ya?"
+    },
+    {
+      "start": 2826.12,
+      "end": 2830.12,
+      "text": "Jadi bahkan kita nggak harus pakai custom element juga"
+    },
+    {
+      "start": 2830.12,
+      "end": 2831.12,
+      "text": "kalau emang nggak mau."
+    },
+    {
+      "start": 2831.12,
+      "end": 2834.12,
+      "text": "Ya, HTML biasa misalnya full static ya."
+    },
+    {
+      "start": 2834.12,
+      "end": 2838.12,
+      "text": "Kita punya block yang cuma full static, ya udah HTML aja."
+    },
+    {
+      "start": 2838.12,
+      "end": 2843.12,
+      "text": "Karena si Astro juga mengklaim hal yang sama."
+    },
+    {
+      "start": 2843.12,
+      "end": 2847.12,
+      "text": "Tapi Astro ada transfile-nya, ada bundling-nya kan,"
+    },
+    {
+      "start": 2847.12,
+      "end": 2851.12,
+      "text": "file file-nya kan nggak bisa berubah jadi JavaScriptingan sendiri, ya kan?"
+    },
+    {
+      "start": 2851.12,
+      "end": 2853.12,
+      "text": "File file atau React dan lain-lain."
+    },
+    {
+      "start": 2853.12,
+      "end": 2862.12,
+      "text": "Betul. Sampai-sampai yang bikin Astro dia melabeli dirinya sebagai CEO of HTML."
+    },
+    {
+      "start": 2862.12,
+      "end": 2871.12,
+      "text": "Tapi seru juga ini trend-nya ya. Makin di satu sisi tadi kita lihat web komponennya sendiri,"
+    },
+    {
+      "start": 2871.12,
+      "end": 2874.12,
+      "text": "penggunaannya rada sedih."
+    },
+    {
+      "start": 2874.12,
+      "end": 2878.12,
+      "text": "Cuma, misalnya framework, meta framework yang baru,"
+    },
+    {
+      "start": 2878.12,
+      "end": 2884.12,
+      "text": "ini mulai sadar akan bagusnya, menariknya,"
+    },
+    {
+      "start": 2884.12,
+      "end": 2894.12,
+      "text": "menulis dalam bahasa yang sedekni, seapplicient, dan seperformant mungkin pakai HTML biasa."
+    },
+    {
+      "start": 2894.12,
+      "end": 2900.12,
+      "text": "Karena juga trend-nya kan gini kan, jadi HTML CSS JavaScript gini-gini aja,"
+    },
+    {
+      "start": 2900.12,
+      "end": 2902.12,
+      "text": "susah nih bikin aplikasi yang dinamis."
+    },
+    {
+      "start": 2902.12,
+      "end": 2905.12,
+      "text": "Yuk kita bikin framework datasnya, bikin lah React."
+    },
+    {
+      "start": 2905.12,
+      "end": 2917.12,
+      "text": "Kenapa makin rumit, makin rumit, makin rumit. Performansa, terus total working time-nya tinggi, karena harus diproses oleh browser, akhirnya back to..."
+    },
+    {
+      "start": 2917.12,
+      "end": 2919.12,
+      "text": "Dan, iya, dan karena..."
+    },
+    {
+      "start": 2919.12,
+      "end": 2929.12,
+      "text": "Itu sih kalau analog-nya, kalau manusia ya dulu hidupnya alami, terus jadi hidup modern, segalanya artisiknya lah, pre-process."
+    },
+    {
+      "start": 2929.12,
+      "end": 2934.12,
+      "text": "Terus sekarang jadi trendy kan, organik lah, kembali ke alam."
+    },
+    {
+      "start": 2934.12,
+      "end": 2939.12,
+      "text": "Sehat, terus kemana-mana kalau bisa jalan kaki, naik sepeda, gitu ya."
+    },
+    {
+      "start": 2939.12,
+      "end": 2944.12,
+      "text": "Iya. Maksudnya ada apa ya, ada drive."
+    },
+    {
+      "start": 2944.12,
+      "end": 2947.12,
+      "text": "Jadi misalkan si framework-framework ini ngedrive, gitu."
+    },
+    {
+      "start": 2947.12,
+      "end": 2955.12,
+      "text": "Ngedrive atau itu ya, memantik si HTML, CSS, dan JavaScript, TC39 ya."
+    },
+    {
+      "start": 2955.12,
+      "end": 2958.12,
+      "text": "Itu untuk catch up, gitu kan."
+    },
+    {
+      "start": 2958.12,
+      "end": 2964.12,
+      "text": "Wah, ini ternyata ada framework yang caranya seperti ini."
+    },
+    {
+      "start": 2964.12,
+      "end": 2970.12,
+      "text": "Menarik nih, secara developer experience bagus, mungkin performanya juga cukup oke."
+    },
+    {
+      "start": 2970.12,
+      "end": 2974.12,
+      "text": "Ya udah, yuk kita implementasi di native, gitu."
+    },
+    {
+      "start": 2974.12,
+      "end": 2978.12,
+      "text": "Jadi, si HTML, CSS, dan JavaScript juga mereka belajar, gitu."
+    },
+    {
+      "start": 2978.12,
+      "end": 2986.12,
+      "text": "Atau bisa jadi, sebelum jadi dia stand-up di trial-nya sebagai framework dulu."
+    },
+    {
+      "start": 2986.12,
+      "end": 2988.12,
+      "text": "Yes, bisa juga."
+    },
+    {
+      "start": 2988.12,
+      "end": 2990.12,
+      "text": "Bisa juga seperti itu."
+    },
+    {
+      "start": 2990.12,
+      "end": 2992.12,
+      "text": "Semacam feedback dulu tuh akhir kali sih."
+    },
+    {
+      "start": 2992.12,
+      "end": 2993.12,
+      "text": "Ya."
+    },
+    {
+      "start": 2993.12,
+      "end": 2997.12,
+      "text": "Jadi ternyata memantau framework-framework yang ada."
+    },
+    {
+      "start": 2997.12,
+      "end": 3000.12,
+      "text": "Orang-orang itu itu juga sebenarnya."
+    },
+    {
+      "start": 3000.12,
+      "end": 3002.12,
+      "text": "Iya, orangnya yang di dalam framework juga."
+    },
+    {
+      "start": 3002.12,
+      "end": 3008.12,
+      "text": "Kan kita juga tahu ya, kelihatan gitu ya, bagaimana, ya, salah satunya,"
+    },
+    {
+      "start": 3008.12,
+      "end": 3012.12,
+      "text": "saya nggak nyebut react aja ya, tapi salah satunya react dan teman-temannya,"
+    },
+    {
+      "start": 3012.12,
+      "end": 3017.12,
+      "text": "itu gimana mendrive si JavaScript supaya menambah fitur terus, kan."
+    },
+    {
+      "start": 3017.12,
+      "end": 3023.12,
+      "text": "Semenjak ada react dan lain-lain, itu is nambah terus kan, is six, is seven."
+    },
+    {
+      "start": 3023.12,
+      "end": 3026.12,
+      "text": "Makin nambah, makin bisa memenuhi kebutuhan developer."
+    },
+    {
+      "start": 3026.12,
+      "end": 3027.12,
+      "text": "Betul."
+    },
+    {
+      "start": 3027.12,
+      "end": 3035.12,
+      "text": "Kalau dulu, bahkan kalau kita mau for loop aja, kadang-kadang kita harus pakai jQuery buat for each, gitu kan."
+    },
+    {
+      "start": 3035.12,
+      "end": 3041.12,
+      "text": "Kalau sekarang udah bisa pakai map lah, bisa pakai filter, pakai apa, macem-macem gitu kan."
+    },
+    {
+      "start": 3041.12,
+      "end": 3045.12,
+      "text": "Udah, apa, termasuk juga jQuery, ya."
+    },
+    {
+      "start": 3045.12,
+      "end": 3051.12,
+      "text": "Yang, apa, yang tadinya kita mau select element aja susah, istana mati, gitu kan."
+    },
+    {
+      "start": 3051.12,
+      "end": 3055.12,
+      "text": "Sekarang udah bisa query selektor, query selektor all,"
+    },
+    {
+      "start": 3055.12,
+      "end": 3059.12,
+      "text": "yang sebenarnya terinspirasi dari jQuery juga."
+    },
+    {
+      "start": 3059.12,
+      "end": 3063.12,
+      "text": "Ada juga yang waktu sempet, kalau ada yang sempet pakai coffee script,"
+    },
+    {
+      "start": 3063.12,
+      "end": 3068.12,
+      "text": "itu juga menginspirasi JavaScript untuk punya arrow function, kan."
+    },
+    {
+      "start": 3068.12,
+      "end": 3074.12,
+      "text": "Ya, jadi mereka itu menginspirasi dalam tanda kutip, ya."
+    },
+    {
+      "start": 3074.12,
+      "end": 3081.12,
+      "text": "Atau memantik si native browser supaya bisa catch up dengan, oh, ini kita butuh nih."
+    },
+    {
+      "start": 3081.12,
+      "end": 3084.12,
+      "text": "Buktinya apa? Buktinya yang pakai react sekian banyak."
+    },
+    {
+      "start": 3084.12,
+      "end": 3086.12,
+      "text": "Mereka suka, gitu kan."
+    },
+    {
+      "start": 3086.12,
+      "end": 3089.12,
+      "text": "Seperti string literal aja, jaman dulu kan."
+    },
+    {
+      "start": 3089.12,
+      "end": 3091.12,
+      "text": "Pakainya must-test."
+    },
+    {
+      "start": 3091.12,
+      "end": 3093.12,
+      "text": "Iya, must-test, ya, must-test."
+    },
+    {
+      "start": 3093.12,
+      "end": 3095.12,
+      "text": "Atau template engine yang lain, ya."
+    },
+    {
+      "start": 3095.12,
+      "end": 3098.12,
+      "text": "Handlebar."
+    },
+    {
+      "start": 3098.12,
+      "end": 3101.12,
+      "text": "Handlebar, must-test, macem-macem banyak, gitu."
+    },
+    {
+      "start": 3101.12,
+      "end": 3106.12,
+      "text": "Dan karena kebutuhan itu akhirnya, ya, oh, iya, bener juga ya."
+    },
+    {
+      "start": 3106.12,
+      "end": 3109.12,
+      "text": "Akhirnya, yuk kita bikin. Akhirnya jadilah gini."
+    },
+    {
+      "start": 3109.12,
+      "end": 3114.12,
+      "text": "Dan dari framework-framework yang tadi, mereka juga harus adaptasi dong, gitu."
+    },
+    {
+      "start": 3114.12,
+      "end": 3118.12,
+      "text": "Gimana caranya supaya bisa dekat juga dengan si native ini,"
+    },
+    {
+      "start": 3118.12,
+      "end": 3123.12,
+      "text": "salah satunya dengan kompilasi, kan, kompilasi ke web component atau custom elements."
+    },
+    {
+      "start": 3123.12,
+      "end": 3128.12,
+      "text": "Kemudian muncul juga framework-framework yang wave berikutnya, ya, gelombang berikutnya."
+    },
+    {
+      "start": 3128.12,
+      "end": 3131.12,
+      "text": "Yang react fuelstrap itu."
+    },
+    {
+      "start": 3131.12,
+      "end": 3132.12,
+      "text": "Apa?"
+    },
+    {
+      "start": 3132.12,
+      "end": 3135.12,
+      "text": "Yes, itu gelombang pertama, misalkan."
+    },
+    {
+      "start": 3135.12,
+      "end": 3141.12,
+      "text": "Ini udah masuk gelombang kedua yang lebih dekat ke native web, ya."
+    },
+    {
+      "start": 3141.12,
+      "end": 3143.12,
+      "text": "Dekat ke platform."
+    },
+    {
+      "start": 3143.12,
+      "end": 3145.12,
+      "text": "Nah ya, use the platform katanya."
+    },
+    {
+      "start": 3145.12,
+      "end": 3147.12,
+      "text": "Use the platform."
+    },
+    {
+      "start": 3147.12,
+      "end": 3151.12,
+      "text": "Okay, ini ada pertanyaan menarik nih dari Mas Andy."
+    },
+    {
+      "start": 3151.12,
+      "end": 3156.12,
+      "text": "Jadi makin nggak ngerti web component itu apa dan kapan dipakai."
+    },
+    {
+      "start": 3156.12,
+      "end": 3162.12,
+      "text": "Ya, mungkin kita jawab pertanyaannya yang dibagian web component itu"
+    },
+    {
+      "start": 3162.12,
+      "end": 3167.12,
+      "text": "kapan kita perlu pakai, kapan kita nggak perlu pakai web component."
+    },
+    {
+      "start": 3167.12,
+      "end": 3171.12,
+      "text": "Ada yang bisa memberikan pencerahan?"
+    },
+    {
+      "start": 3171.12,
+      "end": 3176.12,
+      "text": "Kalau cuma munculnya di satu tempat, ya, nggak perlu dipakai web component."
+    },
+    {
+      "start": 3176.12,
+      "end": 3179.12,
+      "text": "Tapi kalau reuse, ya."
+    },
+    {
+      "start": 3179.12,
+      "end": 3184.12,
+      "text": "Iya, kejaran reusable dan encapsulasinya itu baru pakai web component."
+    },
+    {
+      "start": 3184.12,
+      "end": 3189.12,
+      "text": "Encapsulasi itu maksudnya dia punya style sendiri, dia punya..."
+    },
+    {
+      "start": 3189.12,
+      "end": 3195.12,
+      "text": "Bayangkan kalau web component itu bisa dipakai di lebih dari satu website."
+    },
+    {
+      "start": 3195.12,
+      "end": 3197.12,
+      "text": "Itu juga bisa menarik."
+    },
+    {
+      "start": 3197.12,
+      "end": 3200.12,
+      "text": "Kalau misalnya handle different project ya."
+    },
+    {
+      "start": 3200.12,
+      "end": 3206.12,
+      "text": "Jadi component-componentnya itu sudah dipakai di berbagai macam tempat."
+    },
+    {
+      "start": 3206.12,
+      "end": 3210.12,
+      "text": "Nah, contohnya..."
+    },
+    {
+      "start": 3210.12,
+      "end": 3212.12,
+      "text": "Saat dia minta."
+    },
+    {
+      "start": 3212.12,
+      "end": 3215.12,
+      "text": "Contohnya, saya..."
+    },
+    {
+      "start": 3215.12,
+      "end": 3221.12,
+      "text": "Tidak, ini bukan web component, tetapi sebuah web component yang pernah saya implementasikan."
+    },
+    {
+      "start": 3221.12,
+      "end": 3224.12,
+      "text": "Lo disebut dengan down component."
+    },
+    {
+      "start": 3224.12,
+      "end": 3225.12,
+      "text": "Down component?"
+    },
+    {
+      "start": 3225.12,
+      "end": 3227.12,
+      "text": "Ya, down component itu componentnya..."
+    },
+    {
+      "start": 3227.12,
+      "end": 3228.12,
+      "text": "Accessional ya?"
+    },
+    {
+      "start": 3228.12,
+      "end": 3230.12,
+      "text": "Iya, dia cuma..."
+    },
+    {
+      "start": 3230.12,
+      "end": 3232.12,
+      "text": "Ya, dia nggak urusan apapun."
+    },
+    {
+      "start": 3232.12,
+      "end": 3236.12,
+      "text": "Yang penting, datanya dikasih apa, render seperti yang diminta."
+    },
+    {
+      "start": 3236.12,
+      "end": 3238.12,
+      "text": "Jadi sesuai dengan props."
+    },
+    {
+      "start": 3238.12,
+      "end": 3240.12,
+      "text": "Sama, jadi..."
+    },
+    {
+      "start": 3240.12,
+      "end": 3245.12,
+      "text": "Waktu saya develop, waktu jaman itu mungkin saya nggak pernah dalam web component."
+    },
+    {
+      "start": 3245.12,
+      "end": 3247.12,
+      "text": "Akhirnya bikin down component banyak."
+    },
+    {
+      "start": 3247.12,
+      "end": 3255.12,
+      "text": "Dan website-nya ini ada 10 atau 5, 10-an lah saya develop di saat yang bersamaan."
+    },
+    {
+      "start": 3255.12,
+      "end": 3260.12,
+      "text": "Jadi semua kayak postcard, produk card, segala macam itu dibangun."
+    },
+    {
+      "start": 3260.12,
+      "end": 3262.12,
+      "text": "Satu library."
+    },
+    {
+      "start": 3262.12,
+      "end": 3265.12,
+      "text": "Jadi satu library dipakai untuk semua, di-share."
+    },
+    {
+      "start": 3265.12,
+      "end": 3267.12,
+      "text": "Jadi yang membedakan cuma props."
+    },
+    {
+      "start": 3267.12,
+      "end": 3270.12,
+      "text": "Props-nya butuh apa, nanti akan dilihat seperti itu."
+    },
+    {
+      "start": 3270.12,
+      "end": 3275.12,
+      "text": "Hal yang sama saya bisa lihat juga kalau kita pakai web component."
+    },
+    {
+      "start": 3275.12,
+      "end": 3283.12,
+      "text": "Jadi bangun web component, rilis di NPM misalnya, atau rilis di GitHub sebagai package,"
+    },
+    {
+      "start": 3283.12,
+      "end": 3285.12,
+      "text": "direuse aja di banyak tempat."
+    },
+    {
+      "start": 3285.12,
+      "end": 3291.12,
+      "text": "Tinggal NPM install something, web component, misalkan button gitu kan."
+    },
+    {
+      "start": 3291.12,
+      "end": 3293.12,
+      "text": "Terus kita tinggal import, pakai."
+    },
+    {
+      "start": 3293.12,
+      "end": 3296.12,
+      "text": "- Product card, product card. - Product card, ya."
+    },
+    {
+      "start": 3296.12,
+      "end": 3299.12,
+      "text": "Teman-teman bikin banyak product card."
+    },
+    {
+      "start": 3299.12,
+      "end": 3305.12,
+      "text": "Yang tadi isinya saya ingat, yang membedakan bagaimana dia di-render adalah"
+    },
+    {
+      "start": 3305.12,
+      "end": 3309.12,
+      "text": "hanya dari sisi props-nya."
+    },
+    {
+      "start": 3309.12,
+      "end": 3313.12,
+      "text": "Atau tadi di sini property-nya atau slot-nya tadi ya."
+    },
+    {
+      "start": 3313.12,
+      "end": 3317.12,
+      "text": "Slot-nya berbeda, property-nya berbeda, render seperti apa."
+    },
+    {
+      "start": 3317.12,
+      "end": 3319.12,
+      "text": "Jadi satu component bisa banyak."
+    },
+    {
+      "start": 3319.12,
+      "end": 3321.12,
+      "text": "Jadi reusable."
+    },
+    {
+      "start": 3321.12,
+      "end": 3326.12,
+      "text": "Reusable apa? Distribute atau untuk distribution-nya?"
+    },
+    {
+      "start": 3326.12,
+      "end": 3334.12,
+      "text": "Jadi biasanya engineering manager-nya akan senang tuh."
+    },
+    {
+      "start": 3334.12,
+      "end": 3338.12,
+      "text": "Kita bisa hemat banyak waktu kalau kita bikin web component."
+    },
+    {
+      "start": 3338.12,
+      "end": 3344.12,
+      "text": "Tapi mulai di awalnya performance-nya."
+    },
+    {
+      "start": 3344.12,
+      "end": 3346.12,
+      "text": "Tapi perlu digaris bawahi juga."
+    },
+    {
+      "start": 3346.12,
+      "end": 3351.12,
+      "text": "Kenapa framework seperti React itu ukurannya cukup besar?"
+    },
+    {
+      "start": 3351.12,
+      "end": 3356.12,
+      "text": "Karena React kan dibikin oleh Facebook."
+    },
+    {
+      "start": 3356.12,
+      "end": 3362.12,
+      "text": "Yang mana mereka berharap Facebook ini bisa dibuka di semua browser"
+    },
+    {
+      "start": 3362.12,
+      "end": 3366.12,
+      "text": "dari yang paling jadul sampai saat ini, yang paling modern."
+    },
+    {
+      "start": 3366.12,
+      "end": 3368.12,
+      "text": "Makanya dia masih mendukung..."
+    },
+    {
+      "start": 3368.12,
+      "end": 3372.12,
+      "text": "-Polyfilm-nya. -Iya, gitu."
+    },
+    {
+      "start": 3372.12,
+      "end": 3378.12,
+      "text": "Nah, kalau kita pakai web component, terus usernya sama si user IE6,"
+    },
+    {
+      "start": 3378.12,
+      "end": 3380.12,
+      "text": "gak bisa kan?"
+    },
+    {
+      "start": 3380.12,
+      "end": 3384.12,
+      "text": "Karena ini web component gak bisa backward compatibility, kan?"
+    },
+    {
+      "start": 3384.12,
+      "end": 3386.12,
+      "text": "Bisa gak sih? Ada polyfilm-nya gak sih? -Gak bisa."
+    },
+    {
+      "start": 3386.12,
+      "end": 3388.12,
+      "text": "Gak ada kan? Gak bisa ya?"
+    },
+    {
+      "start": 3388.12,
+      "end": 3391.12,
+      "text": "Jadi harus browser yang modern, gitu kan?"
+    },
+    {
+      "start": 3391.12,
+      "end": 3394.12,
+      "text": "Oh, gak tahu. Mungkin kalau extend element tertentu,"
+    },
+    {
+      "start": 3394.12,
+      "end": 3396.12,
+      "text": "karena tadi extend element paragraf ya, Peh?"
+    },
+    {
+      "start": 3396.12,
+      "end": 3400.12,
+      "text": "-Masih bisa. -Mungkin isinya dirender sebagai Peh biasa deh."
+    },
+    {
+      "start": 3400.12,
+      "end": 3402.12,
+      "text": "Iya, bisa jadi sih."
+    },
+    {
+      "start": 3402.12,
+      "end": 3408.12,
+      "text": "Intinya adalah kalau target user kita cocok dengan..."
+    },
+    {
+      "start": 3408.12,
+      "end": 3414.12,
+      "text": "personanya cocok dengan menggunakan browser terbaru"
+    },
+    {
+      "start": 3414.12,
+      "end": 3416.12,
+      "text": "yang udah otomatis update juga, gitu kan?"
+    },
+    {
+      "start": 3416.12,
+      "end": 3419.12,
+      "text": "Itu sebenarnya gak masalah pakai web component."
+    },
+    {
+      "start": 3419.12,
+      "end": 3421.12,
+      "text": "Dan malah bagus. Kenapa?"
+    },
+    {
+      "start": 3421.12,
+      "end": 3425.12,
+      "text": "Ukurannya jadi lebih kecil karena mereka tidak perlu download lagi,"
+    },
+    {
+      "start": 3425.12,
+      "end": 3428.12,
+      "text": "tidak perlu ada request ke server, gitu."
+    },
+    {
+      "start": 3428.12,
+      "end": 3433.12,
+      "text": "Tidak perlu membuat sibuk server kita juga, hemat bandwidth, gitu ya."
+    },
+    {
+      "start": 3433.12,
+      "end": 3435.12,
+      "text": "Jadi ya sebenarnya win-win sih."
+    },
+    {
+      "start": 3435.12,
+      "end": 3441.12,
+      "text": "Cuman lose-nya adalah kalau menggunakan web component saat ini,"
+    },
+    {
+      "start": 3441.12,
+      "end": 3447.12,
+      "text": "developer experience-nya belum semenarik framework-framework yang lain."
+    },
+    {
+      "start": 3447.12,
+      "end": 3450.12,
+      "text": "Bisa diakali dengan cara menggunakan framework yang sudah familiar,"
+    },
+    {
+      "start": 3450.12,
+      "end": 3454.12,
+      "text": "teman-teman sudah punya framework yang familiar,"
+    },
+    {
+      "start": 3454.12,
+      "end": 3459.12,
+      "text": "atau menggunakan framework-framework yang gelombang kedua, ya,"
+    },
+    {
+      "start": 3459.12,
+      "end": 3463.12,
+      "text": "yang Enhanced, Quick, ataupun Astro."
+    },
+    {
+      "start": 3463.12,
+      "end": 3468.12,
+      "text": "Tapi Astro gak di... web component, kan?"
+    },
+    {
+      "start": 3468.12,
+      "end": 3471.12,
+      "text": "-Ada juga. -Ya, kayaknya tetap bisa dipakai, deh."
+    },
+    {
+      "start": 3471.12,
+      "end": 3475.12,
+      "text": "Bisa, ya. Oh, iya, itu kan gak ada. Bukan itu HTML, ya. Sorry, sorry."
+    },
+    {
+      "start": 3475.12,
+      "end": 3477.12,
+      "text": "Iya, itu HTML, jadi tetap bisa dipakai, ya."
+    },
+    {
+      "start": 3477.12,
+      "end": 3481.12,
+      "text": "-Ya, kita nulis JavaScript biasa juga bisa, kan? -Yes, yes, yes."
+    },
+    {
+      "start": 3481.12,
+      "end": 3483.12,
+      "text": "Oke."
+    },
+    {
+      "start": 3483.12,
+      "end": 3488.12,
+      "text": "Nah, kalau micro front-end, ini konsep yang beda lagi."
+    },
+    {
+      "start": 3488.12,
+      "end": 3491.12,
+      "text": "Micro front-end."
+    },
+    {
+      "start": 3491.12,
+      "end": 3495.12,
+      "text": "Kan bisa aja per component dipublish sebagai package tersendiri."
+    },
+    {
+      "start": 3495.12,
+      "end": 3500.12,
+      "text": "Nah, perkara package-nya itu, si UI component-nya itu dipublish sebagai..."
+    },
+    {
+      "start": 3500.12,
+      "end": 3506.12,
+      "text": "apa, pakai web component atau pakai bahasa lain, kan, bisa aja, kan?"
+    },
+    {
+      "start": 3506.12,
+      "end": 3508.12,
+      "text": "Ya, ya."
+    },
+    {
+      "start": 3508.12,
+      "end": 3512.12,
+      "text": "Cuma ini topik seru, deh. Kayaknya one day harus micro front-end, kan?"
+    },
+    {
+      "start": 3512.12,
+      "end": 3514.12,
+      "text": "-Micro front-end, ya. Betul. -Approach-nya banyak tuh."
+    },
+    {
+      "start": 3514.12,
+      "end": 3517.12,
+      "text": "Ada yang satu component, satu package."
+    },
+    {
+      "start": 3517.12,
+      "end": 3521.12,
+      "text": "Misalnya apa, menu sendiri, menu sendiri, terus apa?"
+    },
+    {
+      "start": 3521.12,
+      "end": 3524.12,
+      "text": "-Sersbar, playlist, gitu ya? -Ya."
+    },
+    {
+      "start": 3524.12,
+      "end": 3529.12,
+      "text": "Tapi ada juga yang approach-nya adalah per... kayak perfection gitu, per team."
+    },
+    {
+      "start": 3529.12,
+      "end": 3533.12,
+      "text": "Jadi check out flow, check out experience itu satu bagian."
+    },
+    {
+      "start": 3533.12,
+      "end": 3540.12,
+      "text": "Apa, kayak admin dashboard, say user login buat lihat purchase-nya itu satu."
+    },
+    {
+      "start": 3540.12,
+      "end": 3542.12,
+      "text": "Itu sendiri juga ada."
+    },
+    {
+      "start": 3542.12,
+      "end": 3550.12,
+      "text": "Iya. Jadi ini konsep micro front-end ini hampir sama seperti micro service."
+    },
+    {
+      "start": 3550.12,
+      "end": 3555.12,
+      "text": "Jadi syarat utamanya adalah teman-teman harus sudah punya team yang cukup besar."
+    },
+    {
+      "start": 3555.12,
+      "end": 3558.12,
+      "text": "Kalau team-nya baru satu dan developer ini masih..."
+    },
+    {
+      "start": 3558.12,
+      "end": 3560.12,
+      "text": "Iya, nggak perlu juga."
+    },
+    {
+      "start": 3560.12,
+      "end": 3564.12,
+      "text": "Nyusahin-nyusahin diri sendiri, ya. Jangan, ya."
+    },
+    {
+      "start": 3564.12,
+      "end": 3567.12,
+      "text": "Yang pakai kan kelihatannya ya perusahaan yang besar-besar banget, kan?"
+    },
+    {
+      "start": 3567.12,
+      "end": 3573.12,
+      "text": "Kayak yang terkenal itu kan Ikea contohnya, Ikea, Spotify, terus apa sih?"
+    },
+    {
+      "start": 3573.12,
+      "end": 3576.12,
+      "text": "-Bukalapak pakai micro front-end. -Oh, oke."
+    },
+    {
+      "start": 3576.12,
+      "end": 3577.12,
+      "text": "Oke."
+    },
+    {
+      "start": 3577.12,
+      "end": 3584.12,
+      "text": "Nah, terus yang resource-nya banyak online dan bagus lengkap tuh ada e-commerce namanya Zalendo di Eropa."
+    },
+    {
+      "start": 3584.12,
+      "end": 3589.12,
+      "text": "-Ya, itu kelihatannya besar juga. -Iya, PayPal juga pakai micro front-end."
+    },
+    {
+      "start": 3589.12,
+      "end": 3593.12,
+      "text": "Nah, kalau produk kita belum sebesar mereka, ya apa?"
+    },
+    {
+      "start": 3593.12,
+      "end": 3599.12,
+      "text": "Tingkat kompleksitasnya dan risikonya kayaknya mungkin belum worth it."
+    },
+    {
+      "start": 3599.12,
+      "end": 3601.12,
+      "text": "Yes. Oke."
+    },
+    {
+      "start": 3601.12,
+      "end": 3605.12,
+      "text": "Kita balik lagi ke Enhance. Ini cara penggunaannya sekilas."
+    },
+    {
+      "start": 3605.12,
+      "end": 3608.12,
+      "text": "Jadi kita bisa npm create."
+    },
+    {
+      "start": 3608.12,
+      "end": 3611.12,
+      "text": "Asli kayak nyobain sih. Kayaknya seru sih."
+    },
+    {
+      "start": 3611.12,
+      "end": 3616.12,
+      "text": "Sekarang modelnya gini ya, npm init, spelt, atau npm create."
+    },
+    {
+      "start": 3616.12,
+      "end": 3620.12,
+      "text": "Jadi ada script-nya sendiri, kan? Ada starter-nya sendiri."
+    },
+    {
+      "start": 3620.12,
+      "end": 3622.12,
+      "text": "Bisa jalan di browser?"
+    },
+    {
+      "start": 3622.12,
+      "end": 3625.12,
+      "text": "-Nanya, npm bisa jalan di browser nggak sih? -Belum."
+    },
+    {
+      "start": 3625.12,
+      "end": 3628.12,
+      "text": "-Oh, belum. -Belum."
+    },
+    {
+      "start": 3628.12,
+      "end": 3632.12,
+      "text": "-Apa web container bisa nggak? -Bilum, ya."
+    },
+    {
+      "start": 3632.12,
+      "end": 3636.12,
+      "text": "-Bisa web container. -Bisa kayak stack width gitu, bisa."
+    },
+    {
+      "start": 3636.12,
+      "end": 3640.12,
+      "text": "Ya, kalau itu. Apa code sandbox, gitu-gitu ya?"
+    },
+    {
+      "start": 3640.12,
+      "end": 3641.12,
+      "text": "Ya."
+    },
+    {
+      "start": 3641.12,
+      "end": 3646.12,
+      "text": "Tapi kalau code sandbox-an dia di VM, kan? Di server, kan?"
+    },
+    {
+      "start": 3646.12,
+      "end": 3650.12,
+      "text": "Iya, dia running di server-nya."
+    },
+    {
+      "start": 3650.12,
+      "end": 3658.12,
+      "text": "Oke. Jadi npm create, bikin project, masuk ke project-nya, install, start."
+    },
+    {
+      "start": 3658.12,
+      "end": 3663.12,
+      "text": "Terus kemudian dia sudah mendukung file-based routes, ya."
+    },
+    {
+      "start": 3663.12,
+      "end": 3667.12,
+      "text": "-Ampir sama sepertinya. -Ya, routing-nya udah kayak meta framework lainnya sih."
+    },
+    {
+      "start": 3667.12,
+      "end": 3670.12,
+      "text": "Walaupun HTML-based."
+    },
+    {
+      "start": 3670.12,
+      "end": 3676.12,
+      "text": "HTML-based dan file-nya index.html atau file-nya extension-nya HTML."
+    },
+    {
+      "start": 3676.12,
+      "end": 3680.12,
+      "text": "Jadi kita bikin pagesabout.html,"
+    },
+    {
+      "start": 3680.12,
+      "end": 3684.12,
+      "text": "udah langsung jadi halaman atau jadi route/about."
+    },
+    {
+      "start": 3684.12,
+      "end": 3686.12,
+      "text": "Jadi path about."
+    },
+    {
+      "start": 3686.12,
+      "end": 3691.12,
+      "text": "Yes. Ini contohnya HTML biasa tanpa ada yang lain."
+    },
+    {
+      "start": 3691.12,
+      "end": 3697.12,
+      "text": "Terus kemudian kalau kita mau bikin element, kita bisa tambahkan satu folder yang namanya elements."
+    },
+    {
+      "start": 3697.12,
+      "end": 3705.12,
+      "text": "Dia sifatnya pure function, artinya tidak terkontaminasi dengan fungsi global,"
+    },
+    {
+      "start": 3705.12,
+      "end": 3707.12,
+      "text": "file-level global."
+    },
+    {
+      "start": 3707.12,
+      "end": 3715.12,
+      "text": "Kemudian di dalamnya bisa kita definisikan HTML dengan backtick."
+    },
+    {
+      "start": 3715.12,
+      "end": 3718.12,
+      "text": "Ini sebenarnya fungsi ya, HTML ini ya?"
+    },
+    {
+      "start": 3718.12,
+      "end": 3719.12,
+      "text": "Ya."
+    },
+    {
+      "start": 3719.12,
+      "end": 3726.12,
+      "text": "Fungsi yang isinya adalah string ini yang kemudian di interpolasi menjadi tag-tag HTML, ya."
+    },
+    {
+      "start": 3726.12,
+      "end": 3732.12,
+      "text": "Di balik layar dia juga bikin custom element."
+    },
+    {
+      "start": 3732.12,
+      "end": 3736.12,
+      "text": "Oh, ini udah langsung jadi custom element, ya."
+    },
+    {
+      "start": 3736.12,
+      "end": 3740.12,
+      "text": "HTML itu dari props-nya HTML ini ada di sini, ya."
+    },
+    {
+      "start": 3740.12,
+      "end": 3741.12,
+      "text": "Berarti props itu callback, ya."
+    },
+    {
+      "start": 3741.12,
+      "end": 3743.12,
+      "text": "HTML itu callback-nya dia."
+    },
+    {
+      "start": 3743.12,
+      "end": 3745.12,
+      "text": "Ya, callback-nya dia."
+    },
+    {
+      "start": 3745.12,
+      "end": 3748.12,
+      "text": "Hampir sama seperti lead juga menggunakan cara seperti ini, kan."
+    },
+    {
+      "start": 3748.12,
+      "end": 3749.12,
+      "text": "Oke."
+    },
+    {
+      "start": 3749.12,
+      "end": 3750.12,
+      "text": "Kalau pasal."
+    },
+    {
+      "start": 3750.12,
+      "end": 3753.12,
+      "text": "Jadi bukan string literal, ya."
+    },
+    {
+      "start": 3753.12,
+      "end": 3758.12,
+      "text": "Maksudnya, dia function terus isinya string."
+    },
+    {
+      "start": 3758.12,
+      "end": 3761.12,
+      "text": "Ya, dia seperti ini jatohnya."
+    },
+    {
+      "start": 3761.12,
+      "end": 3769.12,
+      "text": "Jadi HTML backtick ini itu sama dengan, oh bukan HTML,"
+    },
+    {
+      "start": 3769.12,
+      "end": 3776.12,
+      "text": "HTML HTML seperti ini, backtick, ini sama dengan kurang lebih seperti ini."
+    },
+    {
+      "start": 3776.12,
+      "end": 3777.12,
+      "text": "Ya."
+    },
+    {
+      "start": 3777.12,
+      "end": 3783.12,
+      "text": "Iya, sama seperti ini."
+    },
+    {
+      "start": 3783.12,
+      "end": 3784.12,
+      "text": "Jadi ini."
+    },
+    {
+      "start": 3784.12,
+      "end": 3787.12,
+      "text": "Itu kayak short-time gitu, kayak syntactic."
+    },
+    {
+      "start": 3787.12,
+      "end": 3792.12,
+      "text": "Ya, dari pada kita bikin kayak gini kan agak panjang, kan."
+    },
+    {
+      "start": 3792.12,
+      "end": 3793.12,
+      "text": "Ini kan lebih enak, ya."
+    },
+    {
+      "start": 3793.12,
+      "end": 3798.12,
+      "text": "Tinggal tulis HTML, terus backtick, terus langsung ini aja, gitu."
+    },
+    {
+      "start": 3798.12,
+      "end": 3800.12,
+      "text": "Kemudian di-save sebagai MJS."
+    },
+    {
+      "start": 3800.12,
+      "end": 3801.12,
+      "text": "MJS ini apa?"
+    },
+    {
+      "start": 3801.12,
+      "end": 3809.12,
+      "text": "Adalah modul MJS supaya bisa di-export dan import seperti layaknya ES6, ya."
+    },
+    {
+      "start": 3809.12,
+      "end": 3815.12,
+      "text": "Kemudian diabout, ya, di halaman HTML."
+    },
+    {
+      "start": 3815.12,
+      "end": 3818.12,
+      "text": "Di sini di-savenya sebagai MJS bukan sebagai HTML, ya."
+    },
+    {
+      "start": 3818.12,
+      "end": 3820.12,
+      "text": "Elements-nya, ya."
+    },
+    {
+      "start": 3820.12,
+      "end": 3823.12,
+      "text": "Karena elements-nya sendiri ini adalah JavaScript, kan."
+    },
+    {
+      "start": 3823.12,
+      "end": 3825.12,
+      "text": "Kemudian sudah bisa dipakai."
+    },
+    {
+      "start": 3825.12,
+      "end": 3829.12,
+      "text": "Dipakainya dengan, sesuai dengan nama file-nya, yaitu dua kata tadi, ya."
+    },
+    {
+      "start": 3829.12,
+      "end": 3831.12,
+      "text": "Minus header."
+    },
+    {
+      "start": 3831.12,
+      "end": 3834.12,
+      "text": "Kemudian kita bisa gunakan di..."
+    },
+    {
+      "start": 3834.12,
+      "end": 3836.12,
+      "text": "Udah, nggak pakai import-importan."
+    },
+    {
+      "start": 3836.12,
+      "end": 3839.12,
+      "text": "Enak, ya."
+    },
+    {
+      "start": 3839.12,
+      "end": 3843.12,
+      "text": "Lebih, iya kayaknya experience-nya lebih nyaman di sini, ya."
+    },
+    {
+      "start": 3843.12,
+      "end": 3846.12,
+      "text": "Dibandingkan yang native, ya."
+    },
+    {
+      "start": 3846.12,
+      "end": 3847.12,
+      "text": "Begitu."
+    },
+    {
+      "start": 3847.12,
+      "end": 3849.12,
+      "text": "Terus ada apa, nih?"
+    },
+    {
+      "start": 3849.12,
+      "end": 3851.12,
+      "text": "Paste udah, elements, API."
+    },
+    {
+      "start": 3851.12,
+      "end": 3853.12,
+      "text": "API apa?"
+    },
+    {
+      "start": 3853.12,
+      "end": 3855.12,
+      "text": "Create an API route."
+    },
+    {
+      "start": 3855.12,
+      "end": 3858.12,
+      "text": "Oh, ini kita bisa bikin buat backend juga, ya."
+    },
+    {
+      "start": 3858.12,
+      "end": 3859.12,
+      "text": "Buat API."
+    },
+    {
+      "start": 3859.12,
+      "end": 3861.12,
+      "text": "Oh, buat adding data."
+    },
+    {
+      "start": 3861.12,
+      "end": 3862.12,
+      "text": "Buat fetching aja, ya."
+    },
+    {
+      "start": 3862.12,
+      "end": 3863.12,
+      "text": "Fetching data, ya."
+    },
+    {
+      "start": 3863.12,
+      "end": 3864.12,
+      "text": "Yes."
+    },
+    {
+      "start": 3864.12,
+      "end": 3865.12,
+      "text": "Fetching."
+    },
+    {
+      "start": 3865.12,
+      "end": 3868.12,
+      "text": "Ya, mau. Apa? Request, any request, get, post."
+    },
+    {
+      "start": 3868.12,
+      "end": 3870.12,
+      "text": "Nggak."
+    },
+    {
+      "start": 3870.12,
+      "end": 3873.12,
+      "text": "Ada API, kemudian ada public ini apa?"
+    },
+    {
+      "start": 3873.12,
+      "end": 3875.12,
+      "text": "Public folder."
+    },
+    {
+      "start": 3875.12,
+      "end": 3877.12,
+      "text": "Oh, static asset, ya."
+    },
+    {
+      "start": 3877.12,
+      "end": 3883.12,
+      "text": "Bisa buat manipulasi head juga untuk nambahin metadata."
+    },
+    {
+      "start": 3883.12,
+      "end": 3884.12,
+      "text": "Benar nggak?"
+    },
+    {
+      "start": 3884.12,
+      "end": 3885.12,
+      "text": "Oh, iya, benar."
+    },
+    {
+      "start": 3885.12,
+      "end": 3887.12,
+      "text": "Harusnya iya."
+    },
+    {
+      "start": 3887.12,
+      "end": 3892.12,
+      "text": "Kalau di, itu, kalau di React pakai apa tuh namanya?"
+    },
+    {
+      "start": 3892.12,
+      "end": 3894.12,
+      "text": "Helmet."
+    },
+    {
+      "start": 3894.12,
+      "end": 3896.12,
+      "text": "Helmet, helmet."
+    },
+    {
+      "start": 3896.12,
+      "end": 3898.12,
+      "text": "Rusah banget tuh pakai."
+    },
+    {
+      "start": 3898.12,
+      "end": 3900.12,
+      "text": "Ada state."
+    },
+    {
+      "start": 3900.12,
+      "end": 3902.12,
+      "text": "Dia bawa sendiri, dia punya sendiri."
+    },
+    {
+      "start": 3902.12,
+      "end": 3906.12,
+      "text": "Ada state juga, jadi sudah, apa?"
+    },
+    {
+      "start": 3906.12,
+      "end": 3909.12,
+      "text": "Sudah ada fitur untuk state management, ya."
+    },
+    {
+      "start": 3909.12,
+      "end": 3912.12,
+      "text": "Ya, mantap, ya."
+    },
+    {
+      "start": 3912.12,
+      "end": 3915.12,
+      "text": "Langsung, ya. Nggak perlu ada import library lagi, ya."
+    },
+    {
+      "start": 3915.12,
+      "end": 3917.12,
+      "text": "Jadi langsung sudah didukung."
+    },
+    {
+      "start": 3917.12,
+      "end": 3919.12,
+      "text": "Jadi ini library-nya."
+    },
+    {
+      "start": 3919.12,
+      "end": 3921.12,
+      "text": "Iya, udah jadi tabung."
+    },
+    {
+      "start": 3921.12,
+      "end": 3923.12,
+      "text": "Jadi jadi spelled, ya."
+    },
+    {
+      "start": 3923.12,
+      "end": 3925.12,
+      "text": "Betul."
+    },
+    {
+      "start": 3925.12,
+      "end": 3929.12,
+      "text": "Kayaknya pada akhirnya yang bikin adoption bakal naik, itu ya framework yang kayak gini sih."
+    },
+    {
+      "start": 3929.12,
+      "end": 3933.12,
+      "text": "Yang bikin orang kita aja langsung tertarikkan, lihat ini."
+    },
+    {
+      "start": 3933.12,
+      "end": 3935.12,
+      "text": "Iya, betul."
+    },
+    {
+      "start": 3935.12,
+      "end": 3939.12,
+      "text": "Karena udah nyoba, saya pribadi udah nyoba, ya walaupun nyobanya nggak diproduksiin, ya."
+    },
+    {
+      "start": 3939.12,
+      "end": 3941.12,
+      "text": "Tadi ada yang nanya, udah ada belum sih yang pakai diproduksiin, ya."
+    },
+    {
+      "start": 3941.12,
+      "end": 3945.12,
+      "text": "Saya sendiri belum nyoba diproduksiin, tapi pada saat bikin konten,"
+    },
+    {
+      "start": 3945.12,
+      "end": 3949.12,
+      "text": "nyobain web components, ya lumayan, lumayan capek, gitu."
+    },
+    {
+      "start": 3949.12,
+      "end": 3957.12,
+      "text": "Tapi begitu kita coba pakai spelled, atau pakai lead.dev tadi, atau pakai enhance,"
+    },
+    {
+      "start": 3957.12,
+      "end": 3960.12,
+      "text": "itu kayaknya developer experience-nya naik 10x."
+    },
+    {
+      "start": 3960.12,
+      "end": 3963.12,
+      "text": "Biasanya 10x."
+    },
+    {
+      "start": 3963.12,
+      "end": 3967.12,
+      "text": "Naik 10x lipat, ya."
+    },
+    {
+      "start": 3967.12,
+      "end": 3971.12,
+      "text": "Lifecycle, lifecycle, kita lihat, ya."
+    },
+    {
+      "start": 3971.12,
+      "end": 3973.12,
+      "text": "Pakai gambar-gambar segala."
+    },
+    {
+      "start": 3973.12,
+      "end": 3975.12,
+      "text": "Journey-nya."
+    },
+    {
+      "start": 3975.12,
+      "end": 3976.12,
+      "text": "Lengkap, gitu."
+    },
+    {
+      "start": 3976.12,
+      "end": 3977.12,
+      "text": "Lengkap, ya."
+    },
+    {
+      "start": 3977.12,
+      "end": 3980.12,
+      "text": "Ya, sampai server-site-nya pun dibahas."
+    },
+    {
+      "start": 3980.12,
+      "end": 3982.12,
+      "text": "Oke."
+    },
+    {
+      "start": 3982.12,
+      "end": 3984.12,
+      "text": "Roll up."
+    },
+    {
+      "start": 3984.12,
+      "end": 3987.12,
+      "text": "Client-side JavaScript."
+    },
+    {
+      "start": 3987.12,
+      "end": 3991.12,
+      "text": "API Routes, Practice, Progressive Enhancement, pasti."
+    },
+    {
+      "start": 3991.12,
+      "end": 3992.12,
+      "text": "Testing."
+    },
+    {
+      "start": 3992.12,
+      "end": 3993.12,
+      "text": "Ya, pakai apa?"
+    },
+    {
+      "start": 3993.12,
+      "end": 3995.12,
+      "text": "Pakai Cypress."
+    },
+    {
+      "start": 3995.12,
+      "end": 3998.12,
+      "text": "Tape."
+    },
+    {
+      "start": 3998.12,
+      "end": 4001.12,
+      "text": "Pakai tape."
+    },
+    {
+      "start": 4001.12,
+      "end": 4003.12,
+      "text": "Belum pernah pakai."
+    },
+    {
+      "start": 4003.12,
+      "end": 4005.12,
+      "text": "Belum pernah pakai."
+    },
+    {
+      "start": 4005.12,
+      "end": 4006.12,
+      "text": "Sama."
+    },
+    {
+      "start": 4006.12,
+      "end": 4007.12,
+      "text": "Oke."
+    },
+    {
+      "start": 4007.12,
+      "end": 4008.12,
+      "text": "Ya."
+    },
+    {
+      "start": 4008.12,
+      "end": 4009.12,
+      "text": "Ya sudah."
+    },
+    {
+      "start": 4009.12,
+      "end": 4012.12,
+      "text": "Itu dia review C-Cut dari Enhance."
+    },
+    {
+      "start": 4012.12,
+      "end": 4013.12,
+      "text": "Kayaknya cukup menarik."
+    },
+    {
+      "start": 4013.12,
+      "end": 4015.12,
+      "text": "Ada TypeScript-nya, ya."
+    },
+    {
+      "start": 4015.12,
+      "end": 4016.12,
+      "text": "TypeScript?"
+    },
+    {
+      "start": 4016.12,
+      "end": 4017.12,
+      "text": "Ada."
+    },
+    {
+      "start": 4017.12,
+      "end": 4019.12,
+      "text": "Ada Super TypeScript, kayaknya."
+    },
+    {
+      "start": 4019.12,
+      "end": 4020.12,
+      "text": "Type Definition?"
+    },
+    {
+      "start": 4020.12,
+      "end": 4021.12,
+      "text": "Yes."
+    },
+    {
+      "start": 4021.12,
+      "end": 4022.12,
+      "text": "Wow."
+    },
+    {
+      "start": 4022.12,
+      "end": 4025.12,
+      "text": "Oh, JS Doc."
+    },
+    {
+      "start": 4025.12,
+      "end": 4026.12,
+      "text": "JS Doc."
+    },
+    {
+      "start": 4026.12,
+      "end": 4028.12,
+      "text": "Oke sih."
+    },
+    {
+      "start": 4028.12,
+      "end": 4031.12,
+      "text": "Ya, mentekan ada Intellisense-nya."
+    },
+    {
+      "start": 4031.12,
+      "end": 4033.12,
+      "text": "Ya."
+    },
+    {
+      "start": 4033.12,
+      "end": 4035.12,
+      "text": "Ya, menarik-menarik, ya."
+    },
+    {
+      "start": 4035.12,
+      "end": 4036.12,
+      "text": "Astro menarik."
+    },
+    {
+      "start": 4036.12,
+      "end": 4037.12,
+      "text": "Quick menarik."
+    },
+    {
+      "start": 4037.12,
+      "end": 4038.12,
+      "text": "Ini juga menarik."
+    },
+    {
+      "start": 4038.12,
+      "end": 4040.12,
+      "text": "Seru-seru."
+    },
+    {
+      "start": 4040.12,
+      "end": 4041.12,
+      "text": "Kedepannya."
+    },
+    {
+      "start": 4041.12,
+      "end": 4043.12,
+      "text": "Belajar hal baru lagi."
+    },
+    {
+      "start": 4043.12,
+      "end": 4048.12,
+      "text": "Seperti aja belum tamat, ya."
+    },
+    {
+      "start": 4048.12,
+      "end": 4050.12,
+      "text": "Udah ada yang baru lagi, ya."
+    },
+    {
+      "start": 4050.12,
+      "end": 4052.12,
+      "text": "Emang bisa tamat, kan?"
+    },
+    {
+      "start": 4052.12,
+      "end": 4053.12,
+      "text": "Enggak, ya."
+    },
+    {
+      "start": 4053.12,
+      "end": 4055.12,
+      "text": "Gak bakal tamat, Nek."
+    },
+    {
+      "start": 4055.12,
+      "end": 4058.12,
+      "text": "Tapi kalau kayak Ria kan udah, istilahnya tamat itu kan kayak mature."
+    },
+    {
+      "start": 4058.12,
+      "end": 4060.12,
+      "text": "Title kayak established."
+    },
+    {
+      "start": 4060.12,
+      "end": 4061.12,
+      "text": "Iya, udah mature."
+    },
+    {
+      "start": 4061.12,
+      "end": 4066.12,
+      "text": "Perubahannya ada, tapi kan gak signifikan dan gak banyak, kan."
+    },
+    {
+      "start": 4066.12,
+      "end": 4068.12,
+      "text": "Ya, udah."
+    },
+    {
+      "start": 4068.12,
+      "end": 4071.12,
+      "text": "Kita bisa catch up dalam ini lah."
+    },
+    {
+      "start": 4071.12,
+      "end": 4074.12,
+      "text": "Kalau udah pernah belajar, pasti masih bisa ngikutin lah."
+    },
+    {
+      "start": 4074.12,
+      "end": 4077.12,
+      "text": "Oke."
+    },
+    {
+      "start": 4077.12,
+      "end": 4080.12,
+      "text": "Kita sudah 1 jam dan 7 menit, tidak berasa."
+    },
+    {
+      "start": 4080.12,
+      "end": 4081.12,
+      "text": "Ya."
+    },
+    {
+      "start": 4081.12,
+      "end": 4082.12,
+      "text": "Sudahi aja."
+    },
+    {
+      "start": 4082.12,
+      "end": 4084.12,
+      "text": "Iya."
+    },
+    {
+      "start": 4084.12,
+      "end": 4090.12,
+      "text": "Topik ini menarik kalau kita akan bahas di sesi-sesi berikutnya, ya."
+    },
+    {
+      "start": 4090.12,
+      "end": 4092.12,
+      "text": "Jadi, terima kasih masukannya."
+    },
+    {
+      "start": 4092.12,
+      "end": 4094.12,
+      "text": "Terima kasih juga diskusinya."
+    },
+    {
+      "start": 4094.12,
+      "end": 4098.12,
+      "text": "Kalau ada yang mau ditanyakan di luar sesi live streaming ini,"
+    },
+    {
+      "start": 4098.12,
+      "end": 4101.12,
+      "text": "bisa ke bit.ly/ngobrolinweb."
+    },
+    {
+      "start": 4101.12,
+      "end": 4106.12,
+      "text": "Dan mungkin sekian dulu dari kita malam hari ini."
+    },
+    {
+      "start": 4107.12,
+      "end": 4111.12,
+      "text": "Kalau yang mau follow-follow, saya di @rizavahmi22 di Twitter."
+    },
+    {
+      "start": 4111.12,
+      "end": 4113.12,
+      "text": "Ada @ekafji."
+    },
+    {
+      "start": 4113.12,
+      "end": 4116.12,
+      "text": "Eka, F-Y-I, F-Y, F-Y-I."
+    },
+    {
+      "start": 4116.12,
+      "end": 4118.12,
+      "text": "Dan @ivanchris.com."
+    },
+    {
+      "start": 4118.12,
+      "end": 4120.12,
+      "text": "Ivanchris.com."
+    },
+    {
+      "start": 4120.12,
+      "end": 4122.12,
+      "text": "DOT ya, jangan lupa."
+    },
+    {
+      "start": 4122.12,
+      "end": 4124.12,
+      "text": "Kayak EKA Jalan Gergapak."
+    },
+    {
+      "start": 4124.12,
+      "end": 4126.12,
+      "text": "Ya, benar."
+    },
+    {
+      "start": 4126.12,
+      "end": 4128.12,
+      "text": "Oke, sekian dulu dari kita."
+    },
+    {
+      "start": 4128.12,
+      "end": 4129.12,
+      "text": "Sampai ketemu lagi Menyidupan."
+    },
+    {
+      "start": 4129.12,
+      "end": 4131.12,
+      "text": "Selamat malam."
+    },
+    {
+      "start": 4131.12,
+      "end": 4133.12,
+      "text": "Bye."
+    },
+    {
+      "start": 4133.12,
+      "end": 4135.12,
+      "text": "Eh tunggu, ini ada yang baru nih."
+    },
+    {
+      "start": 4137.12,
+      "end": 4139.12,
+      "text": "Sampai ketemu lagi."
+    }
+  ],
+  "fullText": "Selamat malam. Halo-halo semuanya. Ketemu lagi kita di Ngobrol Inweb Setiap Hari Selasa Malam dan malam hari ini formasinya lengkap, Ivan sudah kembali lagi, halo Ivan. Halo, baik-baik saja cuma agak kurang, apa namanya, kurang sehat ya? Kurang sehat, jadi ngomongnya akan pelan-pelan. Asik, semoga cepat fit lagi karena sabtu besok bakal ngisi DevFace Bogor. Bogor, betul. Oke, kalau saya sendiri baru pulang dari Surabaya, nah ini ada salah satu penggemar kita dari Surabaya, namanya Cator kemarin ketemu. Wah, halo-halo. Yes, dan kalau Eka berarti ngisi di Bali ya? Tunggu lalu di Jogja, kemarin ini di Bali, sekarang masih di Bali. Oh masih di Bali, oh iya, pantasan latar belakangnya itu. Makanya yang background-nya, backgroundnya keren ya. Working space, oke. Perlu visa nggak? Pake working visa gitu. Kira-kira bakal live di pinggir pantai gitu nggak ya? Ini ada, kita sapah-sapah dulu ya, ada Hello World, ini programmer sekali ya, ada Agno Ria, halo-halo. Dan seperti biasa, malam hari ini kita akan ngobrolin tentang teknologi web. Ya, dan tentunya malam hari ini seperti judul, kita akan bahas tentang web komponen. Ini adalah salah satu topik bahasan yang sempat ditanyakan juga oleh salah satu, ya, teman-teman di chat minta menjelaskan tentang web komponen. Oke, dan mungkin bisa saya mulai dulu ya, tentang web komponen itu apa. Kebetulan saya udah pernah bahas juga di DevFace tahun lalu, 2021, DevFace Jakarta. Masih online, jadi teman-teman masih bisa menikmati videonya, ada slide-nya juga nanti dibagikan. Tapi yang perlu dibahas di sini adalah, jadi web komponen itu adalah sebuah tools atau alat bantu untuk membuat user interface atau antarmuka aplikasi web, ya. Tapi perbedaannya dengan framework atau library sejenis adalah dia platform agnostik, artinya tidak bergantung kepada framework, gitu. Jadi dia sudah tertanam... Dia bagian dari spesifikasi web itu sendiri ya, berarti? Ya, sudah tertanam di web browser-web browser modern yang teman-teman gunakan, itu sebenarnya sudah disediakan framework yang namanya web component, UI library yang namanya web components, jadi tinggal digunakan, gitu. Kita bisa, ya, seperti framework-framework yang teman-teman udah kenal ya, React itu kan komponen base ya, disebutnya ya, angular, komponen base, Vue.js bisa dibikin komponen juga, spelt juga, jadi kita... Kalau spelt itu kayak kita tulis file dengan extensi spelt, dia udah langsung jadi komponen, gitu kan. Nah, web component ini konsepnya juga sama, jadi HTML-HTML tag yang kita butuhkan, bisa kita bungkus sehingga kita bisa dipakai berulang-ulang, gitu. Misalkan teman-teman bikin apa ya, bikin apa ya contohnya ya? Counter lah, contoh standar, counter. Kalau counter kan biasanya dipakai sekali, yang dipakai berulang kali apa ya? - Misalkan kayak komentar, gitu. - Contoh misalnya post, ya, komentar, list, post card, post card, misalnya kayak ada, ada, ada, ada, ada, image, ada, ada Excel-nya, terus bisa dipakai berbagai, di macam tempat. Iya, misalkan ada di halaman ini ada, pada card, di halaman yang lain ada card, dengan isi atau konten yang berbeda itu bisa menggunakan web component, jadi tidak perlu copy-paste. Jadi web component itu encapsulasi dan the usable. - Betul. - Dan ini udah include, apa, lifecycle juga ya, lifecycle event, bisa buat client-site interactivity, jadi bedanya sama HTML elemen biasa kan, sebenarnya kalau cuma yang statik kan kita tinggal pakai aja button, misalnya kalau perlu link, tinggal pakai A, apa, kalau main A, kan udah cuma kalau kita butuh client-site interactivity dan event-event tertentu dan behavior yang custom, nah, berarti ini lebih cocok - sama custom elemen, ya? - Betul. Contohnya adalah, contohnya adalah, nih, saya punya contoh, adalah sebuah input dengan tipe date, seperti ini, jadi kalau teman-teman penasaran ini, bohongan nih pakai library, saya kasih lihat kodenya ya, kodenya hanya ini nih, di baris 10. Jadi input dengan tipe date, yang sebenarnya cukup baru ya, ya nggak baru-baru banget sih, maksudnya dulu yang sebelum HTML5 belum ada kan, belum ada ya, jadi dulu input hanya ada tipe text gitu kan, terus sekarang udah ada password, ada number, ada macem-macem ya, salah satunya juga date. Nah, kita bikin input dengan tipe date, terus kemudian kita buka di browser, tampilannya sekarang sudah cantik seperti ini, sudah ada widget-nya gitu ya, kita bisa pilih tanggal, mungkin kalau mau pakai time juga bisa, terus kita bisa hapus, bisa pilih hari ini, gitu kan. Kalau kita lihat di inspect element, di sini dia inputnya tipe date, gitu. Nah, tapi kalau kita ke setting, kalau teman-teman belum pernah cintang, di bagian bawah sini di preference ada ini, show user agent shadow DOM. Dan kalau kita cintang, maka si input ini adalah sebenarnya web komponen. Dia dimasukkan ke dalam shadow DOM, yang isinya adalah div, kemudian di dalam div itu ada div lagi, kemudian ada span, ada macem-macem, sampai akhirnya menjadi sebuah komponen yang digunakan dengan input dengan tipe date, gitu. Jadi sebenarnya ini adalah contoh web komponen yang mungkin teman-teman secara tidak sadar sudah menggunakan. Dan dengan adanya web komponen, ya kita bisa bikin komponen-komponen seperti ini. Jadi bisa aja nanti teman-teman bikin sebuah komponen button misalkan, button dengan type primary misalkan. Wah, ini bootstrap banget ya. Terus dijadikan satu library, pakai CDN, tinggal script SRC blablabla, langsung bisa digunakan. Jadi dia sifatnya universal, sudah tertanam di browser, sudah menjadi web standar, jadi ini tidak akan mungkin, mungkin nggak sih, bakal dihilangkan gitu misalkan, kayak misalkan apa ya? Kayak mungkin, se-extreme itu. Ada tipe, salah satu tipe image yang tadinya di-support, sekarang udah nggak di-support. Apa tuh? Apa ya? Havif. Yang Chrome hilangin beberapa minggu belakangan ini, lupa nih. Apa ya? Havif bukan. Bukan, bukan. Itu malah ditambahin, malah baru itu. Iya. Jangan diliatin deh. Oke, lanjut, lanjut. Nah, cuma bedanya kalau kita bikin custom element sendiri, namanya mesti 2 kata ya? Ya. Biar nggak, jadi kalau yang netv yang bawaan asli, itu kan pasti selalu 1 kata. Nah, kalau kita bikin sendiri, harus 2 kata. Oh iya, pakai minus ya, kan ada minus ya? Ya, benar, benar. Ya, pollution. Ya, sama seperti halnya kenapa react menggunakan hurk besar di, kalau kita mau bikin komponen ya, salah satunya ya. Supaya membedakan antara komponen yang dibuat sama komponen yang sudah ada di HTML. Oh, halo. Oh, putus-putus. Oh, putus-putus ya, sorry, sorry, sorry. Enggak, maksudnya gambarnya kalau soalnya itu last. Oh, oke. Ya, last go. Last ya, siap. Oh, gambarnya, mungkin koneksinya lagi drop ya. Nah, terus selanjutnya sebenarnya web komponen ini bukan sebuah, bukan satu teknologi yang apa ya, yang hanya udah web komponen gitu, tapi dia ada terdiri dari beberapa teknologi dibalik si web komponen ini yang membuat web komponen ini bisa digunakan. Yang pertama adalah HTML template. Kalau teman-teman belum tahu, HTML template ini adalah salah satu fitur yang cukup baru juga dari HTML yang kita bisa gunakan untuk menggunakan tag HTML berulang-ulang. Jadi ada template ini bisa kita gunakan. Kenapa? Ini sudah lama loh ini. Iya, sudah lama, tapi banyak yang belum tahu juga gitu. Oke. Karena ya itu kan biasanya kan, udah lah, pakai framework aja udah selesai. Saya pakai waktu dulu, jamannya masih pakai jQuery dan Backbone, pakai banyak pakai template. Oke. Itu dari tahun berapa tuh? 2017. JQuery itu berarti 2015an gitu ya. Ya, 2017 ya. 2017 sudah ada ya, tapi jarang dia menggunakannya. Kalau di web Almanac ada nggak sih template? Nah, itu. Ada ya. Oke, ini dia. White component and shadow dong. Template-nya ada nggak? Ini khusus template maksudnya? Oh nggak, nggak di breakdown. Nggak di breakdown ya, oke. Berarti ini disimpan untuk nanti. Ya, jadi ada yang namanya template. Bentuknya itu seperti inilah ya. Kita bisa definisikan template dengan ID gitu kan. Misalkan product raw, yang akan kita iterasi biasanya, buat iterasi ya buat di for loop gitu kan. Di reuse sih dia. Ya, di reuse. Nah, ini akan tampil berulang-ulang dengan bantuan JavaScript seperti ini. Jadi di clone, di select dulu kan template-nya apa, kemudian di clone, kemudian dimasukin isinya atau text content-nya, kemudian di append. Itu manual ya berarti? Ya, ini manual. Kalau misalkan datanya dari API atau database itu beda lagi kan. Jadi dengan hari ini kalau teman-teman sudah nonton ini, kalau misalnya semua yang ada di dalam template itu tidak didender oleh dozer. Jadi lebih baik menggunakan template daripada kalau kalian mau ulang-ulang pakai div tapi di display not. Ya, jangan pakai div tapi pakai template. Karena div akan di render meskipun display not. Walaupun display not, oke. Ya, tadi saya baru ketemu ternyata Chrome sudah me-remove support untuk image JPEG XL. Apa itu? JPEG XL itu adalah format image yang kekinian dari JPEG. Ya, jadi lebih kecil. Dengan kualitas yang hampir sama, dia bisa menghasilkan ukuran gambar yang lebih kecil. Sayangnya kurang dapat exposure yang bagus di Chrome. Kemudian dibutuhkan untuk di-remove. - Mungkin juga karena ada... - Agen kayaknya kalau saling sama WebP sama Aviv, ya. Dia lebih memprioritaskan Aviv kayaknya. Oke, kita lanjut lagi. Nah, ini yang tadi yang pertama ya, komponen pertama adalah template. Komponen kedua adalah custom komponennya sendiri. Custom element. Ya, sorry, custom element. Custom elementnya sendiri, kita bisa bikin element masing-masing. Mau bikin element date, misalkan tadi. Mau bikin button, mau bikin apa, gitu ya. - Bentuknya seperti ini. - Ini penyambungnya. Penyambungnya, betul. Kita define dulu custom elementsnya. Namanya seperti yang tadi disebutkan Eka, harus dua kata. Dan harus dipisah dengan tanda minus atau dash. Ya, penulisannya harus seperti ini. Misalkan kayak contoh di video yang saya buat adalah counter. Terpaksa saya harus bagi dua jadi C, counter. Atau apapun ya, pokoknya harus dibagi dua. Nggak boleh satu kata. Jadi itu semakin menyulitkan developer lagi ya. Untuk pilih nama variable-nya susah ya. Nah, terus komponennya sendiri ditulis dengan syntax class. - Ya, kalau teman-teman... - Oke banget ini. Dengan react, react jaman dulu ya. Mirip banget. Jadi pakai class, kemudian di-extend dari HTML. Kok HTML paragraph ini contoh ya? Itu contoh bisa. Jadi HTML element itu ada banyak. - Jadi di-extend ya? - Bapaknya itu HTML element. - Terus ada HTML element biasa. - HTML element biasa. Ada HTML table element, ada HTML div element, macem-macem. Oke. Wah, ini ternyata image format ada geng-gengannya ya. Baru tahu saya. Saya ikutan geng mana ya? Kayak Afif lah, udah yang paling baru. Oke, dan kemudian seperti yang tadi di-mention juga sama Eka, sudah ada lifecycle-nya. Salah satunya adalah connected callback ini seperti component did mount, kalau nggak salah. - Bener nggak? - Betul, betul. Jadi kayaknya dia fire kalau udah di-render di DOM. Dia dimasukin ke DOM, itu akan jalan connected callback. Kalau dia dihapus dari DOM, dia jalan disconnect callback. Di sini ada contoh yang panjang nggak? Oh, ini panjang sekali. Ya, ini contohnya pop-up ya. Contoh yang dari gua itu bagus nanti. Bisa dikulik sama-sama. Oke, yang ini ya. Oke, itu gua jelasin sedikit aja ya. Jadi di sini itu user card. Jadi user card itu nama komponennya. Tujuannya menyampilkan foto, nama orangnya, informasi, dan ada button untuk pada click event handler-nya. Coba aja click, hide info, hide info. Click button, iya. Ada event handler-nya. Kita ke halaman JS-nya, ke bagian column JS paling bawah dulu. Oh, di sini nggak ada hide info ya? - Di bawah ya? - Iya, di JS-nya. Ke JS kita ke baris paling bawah, jadi kita jelasin dari paling bawah dulu. - Ini template ya? - Iya. Paling bawah dulu, paling bawah. Ngehooknya itu sama Windows, Custom Elements, Define, user card. Cara pemakaiannya user card-nya seperti tag HTML element ya. Kayak PDIV ya, user card. Terus user card yang itu adalah HTML class-nya. - Yang ini ya? - Ya, maksudnya user card yang... Oh, yang ini. Ya, yang kita baca HTML class-nya dulu. Oke, user card itu Extend, HTML element. Terus dia nge-attach shadow... ada constructor, dia nge-attach shadow-dome. Pacaran nge-attach shadow pakai attach-shadow. Terus ada shadow-root. Shadow-root, dia mengambil dari template, nanti template-nya didefine di atas. Oke, jadi hanya seperti itu aja dulu cara pakaiannya. Jadi dan query selektor itu hanya nanti untuk mengambil data dari kayak atribut name, ada atribut avatar, ada kan? Di user card itu ada atribut name sama atribut avatar. Jadi di template-nya dia query selektor, H3, ambil atribut name, terus kemudian atribut avatar, terus dia isi. As simple as that gitu ya. Terus kita lihat template-nya. Template-nya di atas, ini HTML template ya, termasuk juga styling-nya ya. Betul, jadi dia langsung bisa aja template itu didefine di HTML, bisa aja kalau mau, bisa juga di JavaScript caranya document create element template. Terus disini innerHTML. Oke, nah udiknya atau bagusnya web component ini, style yang kita define di dalam web component tidak akan mengikuti style yang ada di global. Jadi global style tidak. Isolated. Scooping. Tapi kalau pakai Shadow DOM ya. Kalau pakai Shadow DOM sebenarnya web component ini bisa tanpa Shadow DOM, bisa. Ini ya tadi ya? Shadow ini ya? Betul, itu line yang membuatnya jadi Shadow DOM. Oke. I'm sorry. Nah, jadi styling-nya hanya berlaku di dalam web component. Kita scroll, cuma styling biasa yang membuatnya grid, blablabla. Kita lihat HTML ya, jadi cuma div user card, image, tadi diisi dengan atribut source. Terus kemudian a3, diisi dengan atribut main. Terus kita lihat nih ada yang baru nih, slot, itu ada slot. Slot itu dari, jadi lihat di sebelah kiri, dalam user card itu ada div slot namanya email. Terus isinya apa? Nanti isi dari slot itu akan dibawah ke dalam slot itu. Jadi children-nya ya? Betul. Akan dirender sebagai children. Iya, tapi keyword-nya itu slot. Jadi kita pakai div atau pick slot apa. Pada dikasih name, nanti panggil aja slot namenya apa. Wah, di swipe nih sering sekali digunakan. Kalau yang pakai slot pasti deh familiar. Apa lagi ya kalau, kalau view ada gak sih, kalau slot gitu juga? Kalau view gak tahu ya, kalau view kan sudah ada binding-nya itu pakai v apa gitu ya. Tapi ini HTML kan, bukan terkait sama frame apa. Ini vanilla, ini tidak ada pakai frame apa-apa. Di view juga ada tuh katanya, bener. Iya, orang HTML kok semuanya bisa pakai. One last thing itu tentang lifecycle. Kita scrolling ke bawah sedikit. Di bagian connected callback ya? Iya, connected callback. Jadi di bagian ini dia menambahkan event list banner click untuk toggle info tadi, hide info, show info. Dan untuk auto disconnect dia remove list banner aja. Toggle info itu ada function sendiri, ya cuma kayak display man, display block aja sih sebenarnya, simple aja. Gak ada banyak macam-macam, as simple as that. Jadi ini contoh yang saya lihat dari si Thank You untuk si Brad dari Traverse Media. Ini contoh yang paling simple untuk dimengerti bagaimana menggunakan web component. Simplet dan jelas ya, jelas bagiannya gimana. Iya, cuman komplain saya satu, kenapa namanya connected callback, disconnected callback, gak kayak apa ya, kurang merepresentasikan gitu. Tapi masing-masing apa mereka juga waktu bikinnya juga pasti mikirin kan ini. Mungkin ada konsep atau ada istilah yang belum kita ketahui. Maksudnya connected callback ini apa, disconnected callback itu apa? Dan itu kan kayaknya dibikinnya udah dari dulu ya, dari sebelum trend UI framework yang kayak React. Ya, component with mount gitu-gitu ya. Istilah yang sekarang familiar itu dulu belum jadi istilah taman kami. Bisa jadi. Padahal web component ini sebenarnya sudah ada sebelum React kan ya? Ah, gak tahu kalau itu. Maksudnya web component ini udah lama loh. Tapi mature-nya atau sudah di support-nya kan baru kan? Iya sih. Belum semua, jadi mungkin yang kayak custom elemen ini udah lama memang, custom elemen udah lama. Shadow DOM saya gak tahu. Kalau template juga udah lama tadi kan, kalau Ivan udah pernah pakai di 2017. Cuman ada beberapa elemen yang membuat web component ini menjadi sulit digunakan. Sampai akhir-akhir ini. Iya, yang pertama shadow DOM. Shadow DOM-nya yang masih belum fully support. Iya, kalau misalkan kita bikin sebuah component terus ada style-nya tiba-tiba berlaku global kan susah kan? Gitu kan? Susah digunakan. Dan satu lagi component yang juga cukup penting walaupun tidak di ranah HTML CSS adalah import dan export. IS module. Jadi dengan IS module ini kita bisa dengan mudah, lebih mudah lah ya. Terutama di browser ya. Kalau di Node.js kan udah ya pakai require lah, cuman beda syntax aja. Tapi fungsinya sama. Sedangkan di browser, dulu browser itu belum ada. Tidak ada sama sekali import-export. Kita cuma taro CDN, script SRC gitu ya. Nah itu udah diimport secara global. Rescondition ya? Udah, nasib. Iya, karena IS module yang membuat si web component akhirnya bisa menjadi ter-encapsulasi tanpa bisa mengkontaminasi komponen-komponen lain di luarnya gitu. Jadi apa launchingnya IS module sama pola import-export itu beneran mengubah... Mengubah landscape ya. Mengubah landscape web banget ya. Dulu kan pas feed tuh kita bahas feed juga, topiknya mirip kan, kayak gini. Apa sih feed itu dibikin karena si mas FNU-nya sadar bahwa oh ya import udah... Native browser import udah didukung di banyak browser. Ya, lanjut. Lanjut, oke. Nah, lanjut berikutnya kita masih ada hubungannya di 2 episode sebelumnya tentang web almanak. Nah, di sini ada insight yang menarik. Kenapa web component masih belum juga banyak yang menggunakan? Banyak kenapa? Kenapa? Karena banyak yang belum tahu ya? Atau karena sudah termudahkan dengan framework-framework kali ya? Atau mungkin karena kurang gimmick gitu nggak sih? Kurang gimmick ya. Kalau react atau swell dan lain-lain kan banyak konten yang menarik di social media atau mungkin di akun-akun kita di hacker news atau di mana pun. Jualan gitu ya, jualan. Kita buka youtube, banyak tutorial yang dikemas narik dengan berbagai bahasa. Maksudnya bahasa Indonesia, bahasa Inggris, berbagai style belajar. Itu jelas. Mungkin karena gitu nggak, untuk karir info aja nggak ada. Dicari web component. Web developer yang ngerti web component. Pasti carinya react developer, feel developer. Maybe, maybe. Iya kan, yang paling populer kan react kan, gitu kan. Ini, mungkin ada benarnya nih, susah pakai web component. Iya, masih lebih banyak. Ya, saya juga waktu bikin component ini. Masih banyak boilerplate code yang harus kita tulis. Benar, benar. Ada benarnya. Memang sulit. Tapi, di sisi yang lain, web component ini ya, nggak ada extra kilobytes yang harus didownload oleh user, gitu kan. Iya, sebenarnya itu keren banget kalau dari performance dan machine performance sama resilience ya. Itu kan beneran makin dekat dengan javascript dan behavior browser asli. Kedepannya ya relatif aman lah. Kayak misalnya contohnya kalau react kan implementasi ya. Itu react itu kayaknya kalau dari segi paradigm kan kayak kebalikannya banget tuh. Sampai dom pun dia bikin dulu copy sendiri kan, virtual dom. Makanya kan makin setiap ganti versi react, selalu ada heboh-heboh ada hook baru, ada hook yang tidak jadi dipakai, ada behavior baru dalam streaming component misalnya. Ya, bukan salah ya, bukan salah benar. Cuma karena dia bikin abstraksi yang custom dan kompleks, ya kedepannya bakal bisa aja banyak feature yang berubah secara ekstrim. Sedangkan kalau si custom element ini kan deket banget sama bahasa-bahasa asli yang bisa dibaca oleh browser yaitu HTML, Javascript, CSS. Jadi sebenarnya still formulate juga di situ, cuman ya itu yang pake dikit. Dan makin lama makin tahun makin turun. Jadi kan tadi kita lihat tuh 2021 itu yang desktop itu tadinya 3% kalau nggak salah. Sekarang jadi 2%. Nah, sementara yang mobile tadinya 4% turun jadi 0,39. Ya, fenomena menarik ya. Fenomena menarik? Mungkin ya, mungkin ya. Mungkin karena adaptasinya masih belum ada perusahaan yang cukup besar menggunakan web components gitu atau belum terekspos. Ada cuman ya, itu nggak terekspos aja. Ya dibandingkan sama Facebook gitu kan, kalau Facebook pake react gitu kan. Atau bahkan yang membuat react kan pasti orang berpikir, wah di Facebook aja yang seskel Facebook aja udah pake react gitu. Nah, aplikasi kita ya berarti bisa nih pake react gitu kan. Atau spelt misalkan di perusahaan apa, di portal berita misalkan. Wah, di portal berita ini udah pake spelt gitu kan. Ya, gitu-gitulah. Exposure aja mungkin ya. Jualannya kurang gitu ya. Ya, bedakan antara virtual dom. Sebenarnya kalau ada Google pake, cuman nggak terlalu dipromote aja ya. Di sini ada keywordnya, ada keyword yang saya baca itu adalah framework-frameware seperti react gitu kan, pakenya virtual dom. Sedangkan web component itu shadow dom. Ya, itu dua konsep yang berbeda. Ya, jadi buat teman-teman supaya nggak hilaf, kalau web component itu sama pake virtual dom bukan, dia pake shadow dom. Ya, kembali ke tadi si apa nih, Vida, katanya memang susah pake web component. Mungkin ini ya, ada feedback atau masukan untuk web component juga adalah yang pertama gitu. Kalau framework lain kan lumayan apa ya, lumayan mengedepankan developer experience kan. DX-nya bagus. Ya, kalau web component jujur aja, developer experience-nya masih agak tertinggal dibandingkan framework. DX di sini bisa macam-macam ya, bisa cara penggunaannya, boilerplate code-nya juga lebih sederhana gitu kan. Terus juga, termasuk juga tutorial. Terus juga termasuk juga tutorial, semakin kesini pasti akan semakin banyak tutorial yang berkaitan dengan ini dan semakin developer experience-nya akan semakin baik gitu. Sama, apa lagi tadi ya, sempat kepikiran tapi lupa, ya udah, nanti aja. Oke, kita lihat dulu ya yang di sini ya, web component dan shadow dom. Jadi web component itu turun dari 3% ke 2%, kemudian shadow dom itu lumayan naik ya. Oh, turun dari 4, dari 0,4, sorry, 0,4, jadi 0,39. Tuh, template tuh, 0,05%, yang pakai Ipan doang nih, 0,05. Swear, gue banyak pakai template, lo jawab dulu, apalagi tambahin underscore. Naik tuh 0,05%. Yang pakai Ipan doang. Ini is atribut kita juga jangan pakai ya. Tapi lumayan menyedihkan ya, melihatannya ya. Jadi gue pakai jaman dulu tuh namanya, kalau pakai template, pakainya dari underscore. Jadi tetap pakai template, terus kemudian baca template-nya pakai underscore. Supaya connect-nya ke backbone. Tapi gue sering pakai, swear, gue pakai ini sering. Ya, percaya, percaya, percaya. Gue nggak tahu kenapa jadi kurang popular. Ya, itu karena framework, jadi udah disiapin semuanya, template-template-nya juga udah. Sementara dulu waktu framework yang dibikin, fitur template ini belum ada, mungkin ya. Nggak tahu juga. Nah, tadi yang mau saya bahas adalah web component ini yang seperti di contoh di sini, kalau misalkan nanti teman-teman aplikasinya udah mulai kompleks, mau dipakaiin Redux, bisa. Mau pakai state management apa, bisa. Ya, ini HTML, sorry, ini JavaScript, HTML. Jadi mau ditambahin library apa juga bisa. Asal library-nya itu yang JavaScript juga. Kalau Redux itu kan nggak ada hubungannya sama React kan sebenarnya kan. Walaupun ya dia berkaitan gitu kan. Tapi itu adalah library JavaScript, bukan library React ya. Terus, lanjut lagi. Makanya yang tadi kita sebutkan ada developer experience-nya kurang bagus, karena banyak boilerplate code, kemudian penamaannya unik, life cycle-nya juga namanya juga agak berbeda dengan yang biasa kita tahu, makanya muncul framework framework. Terus objek orientasi, segala macem di this dot something-something, itu kan objek orientasi banget dan ya, perkara selera sih. Banyak developer yang banyak programmer JS yang kurang suka dengan cara kayak gini kan, kurang cocok. - Iya. Dia seolah-olah anti-mainstream ya. Orang dari kelas menuju ke fungsional dia sementara dia... - Dia selalu kelas. - ...kelas aja udah. Atau nanti dia mau ngikutin ya, kita nggak tahu kan. Tapi ini kayak React zaman dulu ya, this dot something dot bind dot something dot this, gitu kan. Mirip-mirip juga kan, gitu kan. Tapi React-nya sendiri udah berubah dan lucunya adalah fun fact-nya adalah si React ini kenapa mereka dulu menggunakan kelas. Jadi ada alasan supaya teman-teman kita yang belum familiar dengan JavaScript atau yang dari dunia objek orientasi programming seperti Java. Iya, familiar, merasa familiar dengan kode ini. Dan kemudian setelah mereka terjerumus, akhirnya dijerumuskan ini juga fungsional. - Jadi ini fungsional semua. - Ini sebenarnya fungsional bukan kelas, gitu kan. Bukan OOP. Ya gitu lah, saya tanya ya, gossip-nya seperti itu kenapa React awalnya menggunakan kelas. - Dibakan ya berarti? - Dibakan, iya. Oke, jadi tadi saya sempat bahas sedikit dengan kurangnya DX atau Developer Experience yang disediakan oleh Native Web Component, makanya muncul Framework Network. Salah satunya adalah Lead ya, Lead ini yang cukup pernal. Dia membungkus si Web Component sehingga cara penggunaannya jadi lebih sederhana. Ada contohnya nggak? Getting Started. Ada lagi yang namanya, yang keluarannya Mozilla apa? Stencil ya? - Stencil ionic. - Stencil ionic ya, ionic. Di sini ada fans-nya ionic nih, Bahyu. Dia nge-fan sama angular dia, sama ionic. Ya, jadi bentuknya kayak gini. Sudah bisa pakai TypeScript juga tentunya. Kita import dulu HTML, CSS, sama Lead elemennya. Ya, Lead-nya sendiri sebenarnya yang agak sedikit misleading adalah dia ada dua komponen kan, ada dua item kan sebenarnya kan. Lead HTML sama Lead ini, bener nggak sih? Nggak ada ya? Oh, Lead aja ya? - Lead aja. - Oke, salah berarti. - Lead elemen gitu. - Ya, Lead elemen, oke. Terus kita pakai kelas ya, di sini kita pakai kelas, di Extend tapi bukan HTML, melihatkan Lead Elemen. Terus kemudian ini definisikan CSS-nya, terus di-render. - Nah, ini udah agak familiar ya? - Ya, lebih rapi sedikit ya. Ya, lebih rapi ya. Terus kita tambahkan ini, Dekorator Custom Elements, Simple Greeting untuk penamaan. Penamaannya seperti ini, jadi nggak perlu pakai yang tadi, yang di bawah tadi Custom Elements ini. Ini adalah penggantinya adalah ini, Custom Elements ini. - Kemudian kalau kita lihat... - Sebenarnya sama. - Sama. - Di belakangnya sama. - Sama, ini nanti di-compile menjadi itu, gitu. - Yang menurut itu. Nah, sekarang kalau kita lihat ininya mana ya? Life Cycle-nya mana? Kok nggak kelihatan Life Cycle-nya? Ini Hello World, Hello Mars, nggak ada ininya ya? Oh, kliknya langsung di sini. Jadi kalau on take, dia langsung di sini. Aklik ya, dan ini pakai dollar kurang-kurang awal, ini juga dari JavaScript ya, jadi nggak. Ya. Life Cycle-nya mana? Kita mau cari Life Cycle, di sini ada nggak? - Life Cycle, oh, nggak ada. - Tidak ada. Gak ada ya? Bagaimana cara itu? Component beat mount gitu-gitu nggak ada ya? Ya, saya lihat sendiri. Tutorial, intro to lead. Sama, ke sini juga? Oh, nggak. - Langsung jalan. - Tapi ini enak ya, udah ada Apple-nya, Live Playground-nya. Mereka mencontek tutorialnya Svelte, ya. Kayak gini nih, web component aslinya nggak ada bikin beginian ya? Nggak ada. Ini framework juga ya, framework di atas web component ya. Framework di atas web component. Jadi, ini adalah salah satu, kemudian salah duanya ada tadi stencil, - lalu kemudian... - Ada NNs. Iya, ada NNs yang nanti kita akan bahas, tapi sebelum kesana saya mau bahas juga ternyata framework-framework yang teman-teman sudah kenal seperti Svelte, React, View, Solid, dan lain-lain, juga bisa dikompilasi ke web component. Custom Elements. Jadi, kalau teman-teman penasaran bisa nggak sih kita tulis web component, tapi tetap pakai framework yang kita suka, misalkan kayak View. View ini sudah 91% compatible, cuman ada satu isu di sini. - React masih 71%. - React ini paling... - Karena dia sudah berbeda ya. - Ya, tapi ternyata ada React yang eksperimental yang khusus dibangun untuk fully support Custom Elements. Ini sudah 100%. Ini nggak tahu nih, React yang mana nih? - Ya itu... - Oh, dia ada ini kayaknya. Ya, beda brands kayaknya ya. Soalnya menuju ke GitHub Repo yang sama, mungkin ada brands web component di sini, somehow. Silahkan cari-cari aja. Kemudian ada Angular, sudah 100%, Svelte 100%, AngularJS yang satu bahkan 100% juga, ada Preact, Polymer, Skate... - Sampai makin ke bawah makin aneh-aneh itu. - Ya. Tapi kalau kita lihat skornya ini sudah bagus-bagus. - Ya kan jadi mungkin... - Huh? - Mungkin sebenarnya analoginya kayak... - Eh sorry, lanjut, lanjut. - Lanjut, lanjut. - Kayak kita di Next.js, kalau kita pakai React atau Svelte, kita tetap bisa pakai Reusable Function di JavaScript biasa, kan ya? Nah, itu kan sebenarnya kayak gini Reusable Function juga, tapi untuk render UI. Jadi sebetulnya emang expected-nya bisa. Expected-nya bisa, betul. Cara pakainya, saya punya contoh, tapi di slide, kalau mau lihat. - Nah. - Ayo lihat slide aja, menggap itu. Ini slide yang saya presentasikan setahun yang lalu di DevFace Jakarta 2021, ada videonya. Ini contohnya SpellBiasa, ya. Kemudian, ya udah, langsung. Oh bukan, salah. Itu kalau mau dipakai di Svelte, sorry. Itu kalau mau dipakai di Svelte. Kalau ini yang dikompile ke itu ya, ke web component. Sebagai component Svelte, tapi dikompile menjadi... setelah jadi JavaScript, hasil transpilenya jadi custom element. Ya, jadi kita bisa menambahkan Spell Option, tag web component. - Oh. - Sudah. Sederhananya seperti itu. Dengan function increment-increment dan lain-lain. Sudah, jadi yang di sini itu akan menjadi C-aunter. Untuk digunakan misalkan di bagian lain dari HTML kita. Terus jangan lupa pada saat kompilasi ditambahkan custom element sama dengan true, itu tic 2 true. Jadi ketika dikompile, dia akan menjadi web component. Shadow DOM dan lain-lainnya tetap ada. Nice. Nah, cuma jangan lupa itu tergantung kita pakai bender apa juga, kan? Betul, kalau ini berarti pakai rollup, ya. Kalau pakai fitur, mungkin beda lagi. Spell kit kan pakai fitur. Ya, ada sih, pasti ada. Cuma item konfigurasinya harus rajin-rajin... Ya, mungkin property-nya beda namanya bukan custom element, mungkin namanya web component atau apa gitu ya. Mungkin bisa berbeda. Jadi dipastikan saja settingan untuk kompilarnya. Karena dia kompilasinya yang ke web component, kan? Yes. Jadi teman-teman bisa langsung ke sini, kalau lihat, wah, framework yang saya biasa pakai, ternyata bisa atau enggak. Atau belum support pakai web component. Karena ketika kita menggunakan framework dan kita compile ke web component, pasti akan ada penurunan size ya, ukuran. Karena web componentnya sudah ada di browser masing-masing, jadi nggak perlu download lagi gitu. Bisa hemat beberapa kilobyte kan, lumayan ya. Gitu. Oke, kita lanjut. Nah, ini ada contoh dari teman kita juga, Fatih. Yang bekerja di mana ya? Iya, di teman-teman Indonesia. Kita kerja di e-commerce hijau ya, kalau misalnya. E-commerce hijau, oke. Jadi, yang dilakukan adalah menggunakan custom element di Next.js. Nah, ini menarik. Terus, buat ngerender, markdown. Buat ngerender, markdown, oke. Custom markdown atau apa? Belum beneran baca detail sih itu tadi. Cuma intinya, jisnya adalah biar ringan aja, bikin component yang jalan di Next.js dengan lebih ringan. Tapi dia pakai lead, bukan? Ini soalnya di URL-nya, lead-next. Kayaknya iya. Oh iya, HTML. HTML itu apa? React component using HTML. HTML ini apa? Kayaknya beliau juga yang bikin sendiri nih. Jadi dia bikin solusi apa? Ngerender HTML. Strict to React Element Conversion Library. Wow, keren. Ini khas engineer banget. Jadi buat bikin blog kayak over engineering everything. Over engineering. Tapi ya bagus buat explorer kan. Bagus, bagus, bagus. Real custom elements. Oke, contohnya mana? Instead of using add custom element, we can call custom element the define. Oke. Nah, ini kan yang tadi kita lihat sebelum tutorial-nya sih. Oh iya, ini lead ya, benar-benar. Ini ada statiknya, kemudian define-nya masih pakai ini ya. Nggak pakai ini. Apa namanya? Belum. Belum. Nggak pakai dekorator. Nggak pakai dekorator. Dekorator itu soalnya di JavaScript. Belum ini kan. Ya, dia masih disupport di TypeScript. Ya, kalau ini kan masih JavaScript ya. Ini alamannya sibuk. Berat. Berat. Oke, terus ini di import. Masukin ke, ini next.js-nya ya. Ini next.js-nya ya. Oke. Itu file component react kan ya. File component react, ya. Terus effect dan lain-lain tetap sama. Timing system. Dah, silahkan baca sendiri. Sampai kelar baca sih sebenarnya cuma paham summer-summer doang sih. Mungkin harus dicoba ya, biar beneran paham alurnya. Nah, ngomongin tadi, enhance. Nah, ini sebenarnya menarik nih. Jadi waktu kita ngomongin tentang island architecture. Kan sudah sempat keluar tuh Astro. Terus ada Quick kan. Terus kan saya sempat nanya kan ke kalian kan. Ada nggak sih framework yang pakai fitur-fitur native dari web. Ternyata ada. Enhance.dev ini. Wah, menarik sekali gitu. Karena semua fitur-fitur yang ada di framework ini adalah fitur yang ada di web API. Berarti dia cuma jadi wrapper ya? Iya, jadi ada layer. Dan menariknya mereka membranding mereka sebagai di HTML framework. Jadi kayak semacam meta frameworknya HTML. Jadi kayak misalnya gini deh, kalau kita pengen pakai React, mungkin kita akan menggunakan meta framework Next.js. Karena itu memudahkan kan kita nulisnya dengan React, pakai teknologi React, tapi pakai Next.js ada routing, ada lain-lain lah, ada strukturnya. Kalau kita nulis dalam Svelte, kita akan pakai meta framework SvelteKit. Kalau kita nulis kode view, kita mungkin pakai Nux. Nah, Enhance ini memposisikan mereka sebagai kalau kita menulis HTML dan JavaScript dan CSS Vanilla, lalu kita bisa pakai Enhance sebagai framework yang memudahkan routing dan sebagainya. Routing dan structure dan developer experience, convenience lainnya. Menarik tuh, apa tadi, ini adalah framework Enhance dari HTML ya? Jadi bahkan kita nggak harus pakai custom element juga kalau emang nggak mau. Ya, HTML biasa misalnya full static ya. Kita punya block yang cuma full static, ya udah HTML aja. Karena si Astro juga mengklaim hal yang sama. Tapi Astro ada transfile-nya, ada bundling-nya kan, file file-nya kan nggak bisa berubah jadi JavaScriptingan sendiri, ya kan? File file atau React dan lain-lain. Betul. Sampai-sampai yang bikin Astro dia melabeli dirinya sebagai CEO of HTML. Tapi seru juga ini trend-nya ya. Makin di satu sisi tadi kita lihat web komponennya sendiri, penggunaannya rada sedih. Cuma, misalnya framework, meta framework yang baru, ini mulai sadar akan bagusnya, menariknya, menulis dalam bahasa yang sedekni, seapplicient, dan seperformant mungkin pakai HTML biasa. Karena juga trend-nya kan gini kan, jadi HTML CSS JavaScript gini-gini aja, susah nih bikin aplikasi yang dinamis. Yuk kita bikin framework datasnya, bikin lah React. Kenapa makin rumit, makin rumit, makin rumit. Performansa, terus total working time-nya tinggi, karena harus diproses oleh browser, akhirnya back to... Dan, iya, dan karena... Itu sih kalau analog-nya, kalau manusia ya dulu hidupnya alami, terus jadi hidup modern, segalanya artisiknya lah, pre-process. Terus sekarang jadi trendy kan, organik lah, kembali ke alam. Sehat, terus kemana-mana kalau bisa jalan kaki, naik sepeda, gitu ya. Iya. Maksudnya ada apa ya, ada drive. Jadi misalkan si framework-framework ini ngedrive, gitu. Ngedrive atau itu ya, memantik si HTML, CSS, dan JavaScript, TC39 ya. Itu untuk catch up, gitu kan. Wah, ini ternyata ada framework yang caranya seperti ini. Menarik nih, secara developer experience bagus, mungkin performanya juga cukup oke. Ya udah, yuk kita implementasi di native, gitu. Jadi, si HTML, CSS, dan JavaScript juga mereka belajar, gitu. Atau bisa jadi, sebelum jadi dia stand-up di trial-nya sebagai framework dulu. Yes, bisa juga. Bisa juga seperti itu. Semacam feedback dulu tuh akhir kali sih. Ya. Jadi ternyata memantau framework-framework yang ada. Orang-orang itu itu juga sebenarnya. Iya, orangnya yang di dalam framework juga. Kan kita juga tahu ya, kelihatan gitu ya, bagaimana, ya, salah satunya, saya nggak nyebut react aja ya, tapi salah satunya react dan teman-temannya, itu gimana mendrive si JavaScript supaya menambah fitur terus, kan. Semenjak ada react dan lain-lain, itu is nambah terus kan, is six, is seven. Makin nambah, makin bisa memenuhi kebutuhan developer. Betul. Kalau dulu, bahkan kalau kita mau for loop aja, kadang-kadang kita harus pakai jQuery buat for each, gitu kan. Kalau sekarang udah bisa pakai map lah, bisa pakai filter, pakai apa, macem-macem gitu kan. Udah, apa, termasuk juga jQuery, ya. Yang, apa, yang tadinya kita mau select element aja susah, istana mati, gitu kan. Sekarang udah bisa query selektor, query selektor all, yang sebenarnya terinspirasi dari jQuery juga. Ada juga yang waktu sempet, kalau ada yang sempet pakai coffee script, itu juga menginspirasi JavaScript untuk punya arrow function, kan. Ya, jadi mereka itu menginspirasi dalam tanda kutip, ya. Atau memantik si native browser supaya bisa catch up dengan, oh, ini kita butuh nih. Buktinya apa? Buktinya yang pakai react sekian banyak. Mereka suka, gitu kan. Seperti string literal aja, jaman dulu kan. Pakainya must-test. Iya, must-test, ya, must-test. Atau template engine yang lain, ya. Handlebar. Handlebar, must-test, macem-macem banyak, gitu. Dan karena kebutuhan itu akhirnya, ya, oh, iya, bener juga ya. Akhirnya, yuk kita bikin. Akhirnya jadilah gini. Dan dari framework-framework yang tadi, mereka juga harus adaptasi dong, gitu. Gimana caranya supaya bisa dekat juga dengan si native ini, salah satunya dengan kompilasi, kan, kompilasi ke web component atau custom elements. Kemudian muncul juga framework-framework yang wave berikutnya, ya, gelombang berikutnya. Yang react fuelstrap itu. Apa? Yes, itu gelombang pertama, misalkan. Ini udah masuk gelombang kedua yang lebih dekat ke native web, ya. Dekat ke platform. Nah ya, use the platform katanya. Use the platform. Okay, ini ada pertanyaan menarik nih dari Mas Andy. Jadi makin nggak ngerti web component itu apa dan kapan dipakai. Ya, mungkin kita jawab pertanyaannya yang dibagian web component itu kapan kita perlu pakai, kapan kita nggak perlu pakai web component. Ada yang bisa memberikan pencerahan? Kalau cuma munculnya di satu tempat, ya, nggak perlu dipakai web component. Tapi kalau reuse, ya. Iya, kejaran reusable dan encapsulasinya itu baru pakai web component. Encapsulasi itu maksudnya dia punya style sendiri, dia punya... Bayangkan kalau web component itu bisa dipakai di lebih dari satu website. Itu juga bisa menarik. Kalau misalnya handle different project ya. Jadi component-componentnya itu sudah dipakai di berbagai macam tempat. Nah, contohnya... Saat dia minta. Contohnya, saya... Tidak, ini bukan web component, tetapi sebuah web component yang pernah saya implementasikan. Lo disebut dengan down component. Down component? Ya, down component itu componentnya... Accessional ya? Iya, dia cuma... Ya, dia nggak urusan apapun. Yang penting, datanya dikasih apa, render seperti yang diminta. Jadi sesuai dengan props. Sama, jadi... Waktu saya develop, waktu jaman itu mungkin saya nggak pernah dalam web component. Akhirnya bikin down component banyak. Dan website-nya ini ada 10 atau 5, 10-an lah saya develop di saat yang bersamaan. Jadi semua kayak postcard, produk card, segala macam itu dibangun. Satu library. Jadi satu library dipakai untuk semua, di-share. Jadi yang membedakan cuma props. Props-nya butuh apa, nanti akan dilihat seperti itu. Hal yang sama saya bisa lihat juga kalau kita pakai web component. Jadi bangun web component, rilis di NPM misalnya, atau rilis di GitHub sebagai package, direuse aja di banyak tempat. Tinggal NPM install something, web component, misalkan button gitu kan. Terus kita tinggal import, pakai. - Product card, product card. - Product card, ya. Teman-teman bikin banyak product card. Yang tadi isinya saya ingat, yang membedakan bagaimana dia di-render adalah hanya dari sisi props-nya. Atau tadi di sini property-nya atau slot-nya tadi ya. Slot-nya berbeda, property-nya berbeda, render seperti apa. Jadi satu component bisa banyak. Jadi reusable. Reusable apa? Distribute atau untuk distribution-nya? Jadi biasanya engineering manager-nya akan senang tuh. Kita bisa hemat banyak waktu kalau kita bikin web component. Tapi mulai di awalnya performance-nya. Tapi perlu digaris bawahi juga. Kenapa framework seperti React itu ukurannya cukup besar? Karena React kan dibikin oleh Facebook. Yang mana mereka berharap Facebook ini bisa dibuka di semua browser dari yang paling jadul sampai saat ini, yang paling modern. Makanya dia masih mendukung... -Polyfilm-nya. -Iya, gitu. Nah, kalau kita pakai web component, terus usernya sama si user IE6, gak bisa kan? Karena ini web component gak bisa backward compatibility, kan? Bisa gak sih? Ada polyfilm-nya gak sih? -Gak bisa. Gak ada kan? Gak bisa ya? Jadi harus browser yang modern, gitu kan? Oh, gak tahu. Mungkin kalau extend element tertentu, karena tadi extend element paragraf ya, Peh? -Masih bisa. -Mungkin isinya dirender sebagai Peh biasa deh. Iya, bisa jadi sih. Intinya adalah kalau target user kita cocok dengan... personanya cocok dengan menggunakan browser terbaru yang udah otomatis update juga, gitu kan? Itu sebenarnya gak masalah pakai web component. Dan malah bagus. Kenapa? Ukurannya jadi lebih kecil karena mereka tidak perlu download lagi, tidak perlu ada request ke server, gitu. Tidak perlu membuat sibuk server kita juga, hemat bandwidth, gitu ya. Jadi ya sebenarnya win-win sih. Cuman lose-nya adalah kalau menggunakan web component saat ini, developer experience-nya belum semenarik framework-framework yang lain. Bisa diakali dengan cara menggunakan framework yang sudah familiar, teman-teman sudah punya framework yang familiar, atau menggunakan framework-framework yang gelombang kedua, ya, yang Enhanced, Quick, ataupun Astro. Tapi Astro gak di... web component, kan? -Ada juga. -Ya, kayaknya tetap bisa dipakai, deh. Bisa, ya. Oh, iya, itu kan gak ada. Bukan itu HTML, ya. Sorry, sorry. Iya, itu HTML, jadi tetap bisa dipakai, ya. -Ya, kita nulis JavaScript biasa juga bisa, kan? -Yes, yes, yes. Oke. Nah, kalau micro front-end, ini konsep yang beda lagi. Micro front-end. Kan bisa aja per component dipublish sebagai package tersendiri. Nah, perkara package-nya itu, si UI component-nya itu dipublish sebagai... apa, pakai web component atau pakai bahasa lain, kan, bisa aja, kan? Ya, ya. Cuma ini topik seru, deh. Kayaknya one day harus micro front-end, kan? -Micro front-end, ya. Betul. -Approach-nya banyak tuh. Ada yang satu component, satu package. Misalnya apa, menu sendiri, menu sendiri, terus apa? -Sersbar, playlist, gitu ya? -Ya. Tapi ada juga yang approach-nya adalah per... kayak perfection gitu, per team. Jadi check out flow, check out experience itu satu bagian. Apa, kayak admin dashboard, say user login buat lihat purchase-nya itu satu. Itu sendiri juga ada. Iya. Jadi ini konsep micro front-end ini hampir sama seperti micro service. Jadi syarat utamanya adalah teman-teman harus sudah punya team yang cukup besar. Kalau team-nya baru satu dan developer ini masih... Iya, nggak perlu juga. Nyusahin-nyusahin diri sendiri, ya. Jangan, ya. Yang pakai kan kelihatannya ya perusahaan yang besar-besar banget, kan? Kayak yang terkenal itu kan Ikea contohnya, Ikea, Spotify, terus apa sih? -Bukalapak pakai micro front-end. -Oh, oke. Oke. Nah, terus yang resource-nya banyak online dan bagus lengkap tuh ada e-commerce namanya Zalendo di Eropa. -Ya, itu kelihatannya besar juga. -Iya, PayPal juga pakai micro front-end. Nah, kalau produk kita belum sebesar mereka, ya apa? Tingkat kompleksitasnya dan risikonya kayaknya mungkin belum worth it. Yes. Oke. Kita balik lagi ke Enhance. Ini cara penggunaannya sekilas. Jadi kita bisa npm create. Asli kayak nyobain sih. Kayaknya seru sih. Sekarang modelnya gini ya, npm init, spelt, atau npm create. Jadi ada script-nya sendiri, kan? Ada starter-nya sendiri. Bisa jalan di browser? -Nanya, npm bisa jalan di browser nggak sih? -Belum. -Oh, belum. -Belum. -Apa web container bisa nggak? -Bilum, ya. -Bisa web container. -Bisa kayak stack width gitu, bisa. Ya, kalau itu. Apa code sandbox, gitu-gitu ya? Ya. Tapi kalau code sandbox-an dia di VM, kan? Di server, kan? Iya, dia running di server-nya. Oke. Jadi npm create, bikin project, masuk ke project-nya, install, start. Terus kemudian dia sudah mendukung file-based routes, ya. -Ampir sama sepertinya. -Ya, routing-nya udah kayak meta framework lainnya sih. Walaupun HTML-based. HTML-based dan file-nya index.html atau file-nya extension-nya HTML. Jadi kita bikin pagesabout.html, udah langsung jadi halaman atau jadi route/about. Jadi path about. Yes. Ini contohnya HTML biasa tanpa ada yang lain. Terus kemudian kalau kita mau bikin element, kita bisa tambahkan satu folder yang namanya elements. Dia sifatnya pure function, artinya tidak terkontaminasi dengan fungsi global, file-level global. Kemudian di dalamnya bisa kita definisikan HTML dengan backtick. Ini sebenarnya fungsi ya, HTML ini ya? Ya. Fungsi yang isinya adalah string ini yang kemudian di interpolasi menjadi tag-tag HTML, ya. Di balik layar dia juga bikin custom element. Oh, ini udah langsung jadi custom element, ya. HTML itu dari props-nya HTML ini ada di sini, ya. Berarti props itu callback, ya. HTML itu callback-nya dia. Ya, callback-nya dia. Hampir sama seperti lead juga menggunakan cara seperti ini, kan. Oke. Kalau pasal. Jadi bukan string literal, ya. Maksudnya, dia function terus isinya string. Ya, dia seperti ini jatohnya. Jadi HTML backtick ini itu sama dengan, oh bukan HTML, HTML HTML seperti ini, backtick, ini sama dengan kurang lebih seperti ini. Ya. Iya, sama seperti ini. Jadi ini. Itu kayak short-time gitu, kayak syntactic. Ya, dari pada kita bikin kayak gini kan agak panjang, kan. Ini kan lebih enak, ya. Tinggal tulis HTML, terus backtick, terus langsung ini aja, gitu. Kemudian di-save sebagai MJS. MJS ini apa? Adalah modul MJS supaya bisa di-export dan import seperti layaknya ES6, ya. Kemudian diabout, ya, di halaman HTML. Di sini di-savenya sebagai MJS bukan sebagai HTML, ya. Elements-nya, ya. Karena elements-nya sendiri ini adalah JavaScript, kan. Kemudian sudah bisa dipakai. Dipakainya dengan, sesuai dengan nama file-nya, yaitu dua kata tadi, ya. Minus header. Kemudian kita bisa gunakan di... Udah, nggak pakai import-importan. Enak, ya. Lebih, iya kayaknya experience-nya lebih nyaman di sini, ya. Dibandingkan yang native, ya. Begitu. Terus ada apa, nih? Paste udah, elements, API. API apa? Create an API route. Oh, ini kita bisa bikin buat backend juga, ya. Buat API. Oh, buat adding data. Buat fetching aja, ya. Fetching data, ya. Yes. Fetching. Ya, mau. Apa? Request, any request, get, post. Nggak. Ada API, kemudian ada public ini apa? Public folder. Oh, static asset, ya. Bisa buat manipulasi head juga untuk nambahin metadata. Benar nggak? Oh, iya, benar. Harusnya iya. Kalau di, itu, kalau di React pakai apa tuh namanya? Helmet. Helmet, helmet. Rusah banget tuh pakai. Ada state. Dia bawa sendiri, dia punya sendiri. Ada state juga, jadi sudah, apa? Sudah ada fitur untuk state management, ya. Ya, mantap, ya. Langsung, ya. Nggak perlu ada import library lagi, ya. Jadi langsung sudah didukung. Jadi ini library-nya. Iya, udah jadi tabung. Jadi jadi spelled, ya. Betul. Kayaknya pada akhirnya yang bikin adoption bakal naik, itu ya framework yang kayak gini sih. Yang bikin orang kita aja langsung tertarikkan, lihat ini. Iya, betul. Karena udah nyoba, saya pribadi udah nyoba, ya walaupun nyobanya nggak diproduksiin, ya. Tadi ada yang nanya, udah ada belum sih yang pakai diproduksiin, ya. Saya sendiri belum nyoba diproduksiin, tapi pada saat bikin konten, nyobain web components, ya lumayan, lumayan capek, gitu. Tapi begitu kita coba pakai spelled, atau pakai lead.dev tadi, atau pakai enhance, itu kayaknya developer experience-nya naik 10x. Biasanya 10x. Naik 10x lipat, ya. Lifecycle, lifecycle, kita lihat, ya. Pakai gambar-gambar segala. Journey-nya. Lengkap, gitu. Lengkap, ya. Ya, sampai server-site-nya pun dibahas. Oke. Roll up. Client-side JavaScript. API Routes, Practice, Progressive Enhancement, pasti. Testing. Ya, pakai apa? Pakai Cypress. Tape. Pakai tape. Belum pernah pakai. Belum pernah pakai. Sama. Oke. Ya. Ya sudah. Itu dia review C-Cut dari Enhance. Kayaknya cukup menarik. Ada TypeScript-nya, ya. TypeScript? Ada. Ada Super TypeScript, kayaknya. Type Definition? Yes. Wow. Oh, JS Doc. JS Doc. Oke sih. Ya, mentekan ada Intellisense-nya. Ya. Ya, menarik-menarik, ya. Astro menarik. Quick menarik. Ini juga menarik. Seru-seru. Kedepannya. Belajar hal baru lagi. Seperti aja belum tamat, ya. Udah ada yang baru lagi, ya. Emang bisa tamat, kan? Enggak, ya. Gak bakal tamat, Nek. Tapi kalau kayak Ria kan udah, istilahnya tamat itu kan kayak mature. Title kayak established. Iya, udah mature. Perubahannya ada, tapi kan gak signifikan dan gak banyak, kan. Ya, udah. Kita bisa catch up dalam ini lah. Kalau udah pernah belajar, pasti masih bisa ngikutin lah. Oke. Kita sudah 1 jam dan 7 menit, tidak berasa. Ya. Sudahi aja. Iya. Topik ini menarik kalau kita akan bahas di sesi-sesi berikutnya, ya. Jadi, terima kasih masukannya. Terima kasih juga diskusinya. Kalau ada yang mau ditanyakan di luar sesi live streaming ini, bisa ke bit.ly/ngobrolinweb. Dan mungkin sekian dulu dari kita malam hari ini. Kalau yang mau follow-follow, saya di @rizavahmi22 di Twitter. Ada @ekafji. Eka, F-Y-I, F-Y, F-Y-I. Dan @ivanchris.com. Ivanchris.com. DOT ya, jangan lupa. Kayak EKA Jalan Gergapak. Ya, benar. Oke, sekian dulu dari kita. Sampai ketemu lagi Menyidupan. Selamat malam. Bye. Eh tunggu, ini ada yang baru nih. Sampai ketemu lagi."
+}

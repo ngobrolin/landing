@@ -1,0 +1,3213 @@
+{
+  "videoId": "ghLVcP_CgkY",
+  "language": "id",
+  "generatedAt": "2026-05-13T15:35:06.141Z",
+  "segments": [
+    {
+      "start": 28.56,
+      "end": 38.56,
+      "text": "Halo-halo semuanya, selamat malam, selamat hari selasa dan hari selasa adalah waktunya ngobrolin web."
+    },
+    {
+      "start": 38.56,
+      "end": 49.56,
+      "text": "Sama kita bertiga, bersama saya Riza, ada Irvan, kita bertiga adalah tergabung ke dalam sebuah programnya itu Web GDI."
+    },
+    {
+      "start": 49.56,
+      "end": 51.56,
+      "text": "Enak banget ya openingnya ya."
+    },
+    {
+      "start": 53.56,
+      "end": 56.56,
+      "text": "Google Developer Expert for Web Technologies."
+    },
+    {
+      "start": 56.56,
+      "end": 66.56,
+      "text": "Ya, kita adalah tiga, hanya tiga ini orang yang ngurusin GDI web di Indonesia ya, di seluruh Indonesia ya."
+    },
+    {
+      "start": 66.56,
+      "end": 67.56,
+      "text": "Luar biasa."
+    },
+    {
+      "start": 67.56,
+      "end": 75.56,
+      "text": "Dan kita juga supaya bisa, karena mengikuti update-update teknologi di web itu susahnya, minta ampun."
+    },
+    {
+      "start": 75.56,
+      "end": 77.56,
+      "text": "Susahnya karena terlalu banyak update-nya."
+    },
+    {
+      "start": 77.56,
+      "end": 79.56,
+      "text": "Terlalu banyak kan terlalu cepat."
+    },
+    {
+      "start": 79.56,
+      "end": 87.56,
+      "text": "Jadinya, mending kita ngobrolin aja setiap minggu, setiap hari selasa."
+    },
+    {
+      "start": 87.56,
+      "end": 89.56,
+      "text": "Setiap minggu, setiap hari selasa."
+    },
+    {
+      "start": 89.56,
+      "end": 95.56,
+      "text": "Oke, nah kita malam hari ini topiknya ada topik, benang merahnya ada tentang CSS."
+    },
+    {
+      "start": 95.56,
+      "end": 101.56,
+      "text": "Jadi mulai yang basic banget, sampai yang lumayan baru ya, API baru dari CSS juga ya."
+    },
+    {
+      "start": 101.56,
+      "end": 104.56,
+      "text": "Ada performa juga seperti biasa dari Irvan."
+    },
+    {
+      "start": 104.56,
+      "end": 112.56,
+      "text": "Tapi sebelum itu kita masuk ke ini dulu, ada yang nanya. Senang banget nih, saya kalau ada yang nanya, jadi aktif kan."
+    },
+    {
+      "start": 112.56,
+      "end": 116.56,
+      "text": "Jadi dari video minggu lalu, ada dua pertanyaan."
+    },
+    {
+      "start": 116.56,
+      "end": 117.56,
+      "text": "Dari episode minggu lalu."
+    },
+    {
+      "start": 117.56,
+      "end": 120.56,
+      "text": "Ya, dari episode minggu lalu ada dua pertanyaan."
+    },
+    {
+      "start": 120.56,
+      "end": 123.56,
+      "text": "Yang pertama pertanyaan tentang quicklink."
+    },
+    {
+      "start": 123.56,
+      "end": 129.56,
+      "text": "Apakah quicklink akan mempengaruhi jumlah visitor menjadi lebih banyak?"
+    },
+    {
+      "start": 129.56,
+      "end": 135.56,
+      "text": "Oke, ini ditujukan ke saya ya, karena saya yang sampaikan tentang quicklink minggu lalu."
+    },
+    {
+      "start": 135.56,
+      "end": 141.56,
+      "text": "Oke, jadi sebenarnya untuk mengulangi sedikit aja, quicklink itu semuanya hanya library kecil aja."
+    },
+    {
+      "start": 141.56,
+      "end": 144.56,
+      "text": "Saya coba paste aja di sini ya."
+    },
+    {
+      "start": 144.56,
+      "end": 151.56,
+      "text": "Quicklink, itu library kecil yang dibuat oleh Google Chrome Labs."
+    },
+    {
+      "start": 151.56,
+      "end": 164.56,
+      "text": "Untuk melakukan prefetch terhadap halaman-halaman selanjutnya yang didapat dari link-link yang ada muncul di viewport atau di tampilan layar user."
+    },
+    {
+      "start": 164.56,
+      "end": 170.56,
+      "text": "Jadi halaman tersebut di prefetch dari background."
+    },
+    {
+      "start": 170.56,
+      "end": 184.56,
+      "text": "Jadi sehingga saat user nge-click atau pencet link itu, serasa kecepatan situsnya jauh lebih cepat karena sudah di prefetch."
+    },
+    {
+      "start": 184.56,
+      "end": 190.56,
+      "text": "Sehingga hanya butuh kayak sekian millisecond halaman tersebut sudah belum."
+    },
+    {
+      "start": 190.56,
+      "end": 194.56,
+      "text": "Oke, aku kembali ke pertanyaannya."
+    },
+    {
+      "start": 194.56,
+      "end": 197.56,
+      "text": "Apakah quicklink mempengaruhi jumlah visitor menjadi lebih banyak?"
+    },
+    {
+      "start": 197.56,
+      "end": 203.56,
+      "text": "Jawabannya tidak. Tidak ada hubungannya."
+    },
+    {
+      "start": 203.56,
+      "end": 214.56,
+      "text": "Tetapi secara tidak langsung karena situsnya serasa lebih cepat, tentunya user makin senang dong untuk melihat,"
+    },
+    {
+      "start": 214.56,
+      "end": 221.56,
+      "text": "membrosing situs kita untuk melakukan, ngecek-ngecek situs kita ya, karena cepat banget."
+    },
+    {
+      "start": 221.56,
+      "end": 229.56,
+      "text": "Kalau diimplementasinya dilakukan dengan benar, itu serasa headless, jadi serasa SPA."
+    },
+    {
+      "start": 229.56,
+      "end": 236.56,
+      "text": "Diklik langsung muncul, klik langsung muncul, jadi serasa SPA dia, single page application."
+    },
+    {
+      "start": 236.56,
+      "end": 246.56,
+      "text": "Jadi secara tidak langsung bisa mempengaruhi jumlah visitor lebih banyak karena user lebih engaged terhadap situsnya."
+    },
+    {
+      "start": 246.56,
+      "end": 253.56,
+      "text": "Yang tidak sempat saya kasih tahu minggu lalu, itu adalah pengaruhnya ke back-end sebenarnya."
+    },
+    {
+      "start": 253.56,
+      "end": 255.56,
+      "text": "Apa tuh pengaruhnya?"
+    },
+    {
+      "start": 255.56,
+      "end": 262.56,
+      "text": "Back-end, jadi kan dia melakukan prefetch ya, request ya, request ke back-end setiap kali link-nya muncul."
+    },
+    {
+      "start": 262.56,
+      "end": 270.56,
+      "text": "Artinya di back-end itu jadi page view, jadi page request."
+    },
+    {
+      "start": 270.56,
+      "end": 281.56,
+      "text": "Kalau situsnya hanya skalanya masih kecil dan menengah, ya hostingnya tentu nggak pengaruh."
+    },
+    {
+      "start": 281.56,
+      "end": 295.56,
+      "text": "Tapi kalau situsnya sudah view-nya jutaan, itu dan hostingnya punya payment plan-nya itu by page request,"
+    },
+    {
+      "start": 295.56,
+      "end": 301.56,
+      "text": "berapa jumlah page request itu bisa perlu hati-hati untuk kendalinya."
+    },
+    {
+      "start": 301.56,
+      "end": 304.56,
+      "text": "Sangat sengaja ke DDoS sendiri ya?"
+    },
+    {
+      "start": 304.56,
+      "end": 311.56,
+      "text": "Serasa seperti ke DDoS sendiri, tetapi gini, bill-nya bisa bengkak karena contohnya apa ya page request?"
+    },
+    {
+      "start": 311.56,
+      "end": 325.56,
+      "text": "Setahu saya banyak kan cloud product, kayak Google Cloud atau AWS ya, AWS atau yang manage-manage hosting itu,"
+    },
+    {
+      "start": 325.56,
+      "end": 333.56,
+      "text": "mereka ada batasan limit untuk jumlah page request, by page request."
+    },
+    {
+      "start": 333.56,
+      "end": 339.56,
+      "text": "Jadi kalau misalnya pakai quick ring, perlu hati-hati untuk page request tersebut."
+    },
+    {
+      "start": 339.56,
+      "end": 345.56,
+      "text": "Oh, sudah ya? Baru mau diganti ininya."
+    },
+    {
+      "start": 345.56,
+      "end": 353.56,
+      "text": "Oke, pertanyaan kedua. Pertanyaan pertama jawabannya ya dan tidak."
+    },
+    {
+      "start": 353.56,
+      "end": 363.56,
+      "text": "Ya, karena website-nya lebih cepat, lebih banyak orang yang suka dan lebih banyak juga, secara otomatis lebih banyak user yang bisa di-serve-kan."
+    },
+    {
+      "start": 363.56,
+      "end": 368.56,
+      "text": "Yang kedua, apakah dengan kita belajar React, peruang mendapatkan pekerjaan akan lebih besar?"
+    },
+    {
+      "start": 368.56,
+      "end": 372.56,
+      "text": "Ini juga jawabannya ya dan tidak."
+    },
+    {
+      "start": 372.56,
+      "end": 374.56,
+      "text": "Tergantung mau kerja dimana."
+    },
+    {
+      "start": 374.56,
+      "end": 382.56,
+      "text": "Ya, betul. Jadi, ada dua kubu ya, kayak dua sisi mata uang ya."
+    },
+    {
+      "start": 382.56,
+      "end": 388.56,
+      "text": "Ada yang mengikuti trend itu bukan sepenuhnya salah, tidak sepenuhnya salah."
+    },
+    {
+      "start": 388.56,
+      "end": 394.56,
+      "text": "Karena memang peluang besar di sana ya, peluang banyak di sana gitu, lewangan pekerjaan dan lain-lain."
+    },
+    {
+      "start": 394.56,
+      "end": 399.56,
+      "text": "Tapi di sisi yang lain, kembali lagi ke diri kita gitu."
+    },
+    {
+      "start": 399.56,
+      "end": 404.56,
+      "text": "Misalkan kita kurang menyukai React, misalkan kita lebih suka framework yang lain gitu."
+    },
+    {
+      "start": 404.56,
+      "end": 408.56,
+      "text": "Kenapa dipaksa untuk mengarah ke sana."
+    },
+    {
+      "start": 408.56,
+      "end": 416.56,
+      "text": "Atau juga kalau kita ngomongin membuat produk atau membangun sebuah aplikasi, itu kadang-kadang klien-nya nggak peduli kan."
+    },
+    {
+      "start": 416.56,
+      "end": 421.56,
+      "text": "Kita mau menulis pakai React kah, mau pakai JQuery kah, atau mau pakai vanilla Javascript gitu."
+    },
+    {
+      "start": 421.56,
+      "end": 422.56,
+      "text": "Yang penting hasil lahirnya."
+    },
+    {
+      "start": 422.56,
+      "end": 427.56,
+      "text": "Ada yang pakai Backbone nggak untuk Backbone?"
+    },
+    {
+      "start": 427.56,
+      "end": 435.56,
+      "text": "Tapi Laravel sampai sekarang, gue masih pakai Laravel karena inherit codebase sama ya."
+    },
+    {
+      "start": 435.56,
+      "end": 443.56,
+      "text": "Jadi mungkin kalau kita sebagai developer lihat di sosmed atau apalah, kayaknya emang banyak banget framework baru ya."
+    },
+    {
+      "start": 443.56,
+      "end": 454.56,
+      "text": "Tapi di kenyataannya kalau di dunia kerja kan nggak semua organisasi atau perusahaan bisa serta-merta tiba-tiba tiap tahun ganti framework gitu."
+    },
+    {
+      "start": 454.56,
+      "end": 457.56,
+      "text": "Sesuai apa yang lagi nge-trend kan sebenarnya nggak gitu juga ya."
+    },
+    {
+      "start": 457.56,
+      "end": 466.56,
+      "text": "Jadi apa, kayak Rails juga yang pakai juga mungkin masih banyak ya pokoknya framework-framework yang lama."
+    },
+    {
+      "start": 466.56,
+      "end": 475.56,
+      "text": "Cuma mungkin yang penting banget, fundamental web-nya aja sih, kayak misalnya tentang performance kemarin tuh."
+    },
+    {
+      "start": 475.56,
+      "end": 482.56,
+      "text": "Bisa mengimplement, entah itu kita pakai React atau Swelt atau apapun kan sebenarnya kayak prinsip prefetch"
+    },
+    {
+      "start": 482.56,
+      "end": 486.56,
+      "text": "atau segala macam yang kita bahas kemarin tuh kan prinsip dasarnya tetap sama ya."
+    },
+    {
+      "start": 486.56,
+      "end": 495.56,
+      "text": "Jadi kalau menguasain itu sih mau pindah-pindah, mau React, Swelt, Angular, dan lain-lain, nggak seberat itu."
+    },
+    {
+      "start": 495.56,
+      "end": 501.56,
+      "text": "Kalau misalnya emang suatu saat kita pengen cari kerjaan yang mengharuskan pakai stack tertentu"
+    },
+    {
+      "start": 501.56,
+      "end": 506.56,
+      "text": "dan buat kita itu dream job, ya udah kita bisa dengan gampang mengejar itu."
+    },
+    {
+      "start": 506.56,
+      "end": 516.56,
+      "text": "Kuatkan fondasi fundamental JavaScript-nya. Atau web-nya, lebih tepatnya web. Web development-nya."
+    },
+    {
+      "start": 516.56,
+      "end": 520.56,
+      "text": "Jangan cuma JavaScript. Web itu banyak."
+    },
+    {
+      "start": 520.56,
+      "end": 526.56,
+      "text": "Ya, karena framework itu bisa berganti-ganti, yang bertahan itu ya fundamentalnya."
+    },
+    {
+      "start": 526.56,
+      "end": 532.56,
+      "text": "Ketika amit-amit nanti misalkan React, wah udah nggak ngetrend lagi, ya ngetrend yang lain gitu kan."
+    },
+    {
+      "start": 532.56,
+      "end": 538.56,
+      "text": "Kalau kita belajar spesifik ke React, begitu React-nya sudah jarang dipakai, kita harus belajar lagi dari awal."
+    },
+    {
+      "start": 538.56,
+      "end": 541.56,
+      "text": "Sementara kalau udah fundamental itu udah setengah jalannya."
+    },
+    {
+      "start": 541.56,
+      "end": 545.56,
+      "text": "Kita udah ngerti lah dalemannya framework itu seperti apa."
+    },
+    {
+      "start": 545.56,
+      "end": 553.56,
+      "text": "Dan ngomongin teknologi web, jadi bukan hanya JavaScript, dan malam ini kita akan membicarakan tentang CSS."
+    },
+    {
+      "start": 553.56,
+      "end": 556.56,
+      "text": "Banyakan CSS itu apa sih? Cascading?"
+    },
+    {
+      "start": 556.56,
+      "end": 559.56,
+      "text": "Cascading style sheet."
+    },
+    {
+      "start": 559.56,
+      "end": 569.56,
+      "text": "Dan berhubung materi atau topik saya yang paling nyubi, jadi saya izin duluan ya."
+    },
+    {
+      "start": 569.56,
+      "end": 572.56,
+      "text": "Baiklah."
+    },
+    {
+      "start": 572.56,
+      "end": 583.56,
+      "text": "Ya, jadi beberapa minggu yang lalu sempat bersiluran di timeline, itu web dev itu mengeluarin sebuah media baru."
+    },
+    {
+      "start": 583.56,
+      "end": 586.56,
+      "text": "Seri ya, semacam serial, seri tutorial."
+    },
+    {
+      "start": 586.56,
+      "end": 593.56,
+      "text": "Betul, jadi dia bentuk dalam bentuk course, di sini ada banyak sekali di web.dev/learn."
+    },
+    {
+      "start": 593.56,
+      "end": 600.56,
+      "text": "Ada mulai dari accessibility, ada learn HTML, ada responsive design, ada form,"
+    },
+    {
+      "start": 600.56,
+      "end": 603.56,
+      "text": "sampai ada PWA, dan ada CSS."
+    },
+    {
+      "start": 603.56,
+      "end": 612.56,
+      "text": "Jadi kalau temen-temen yang ilmu CSS-nya masih cupu seperti saya dan Ivan, kita bisa belajar bareng-bareng di sini."
+    },
+    {
+      "start": 612.56,
+      "end": 617.56,
+      "text": "Ya, fakta. Saya masih nyubi banget di CSS."
+    },
+    {
+      "start": 617.56,
+      "end": 620.56,
+      "text": "Baru belajar CSS."
+    },
+    {
+      "start": 620.56,
+      "end": 630.56,
+      "text": "Ya, sama. Dan kebetulan juga beberapa waktu yang lalu saya sempat diminta untuk isi salah satu workshop online."
+    },
+    {
+      "start": 630.56,
+      "end": 633.56,
+      "text": "Dan materinya basic, HTML dan CSS."
+    },
+    {
+      "start": 633.56,
+      "end": 640.56,
+      "text": "Dan berhubung waktunya itu terbatas dan khawatir nggak sampai selesai, akhirnya saya bikin dalam bentuk tulisan."
+    },
+    {
+      "start": 640.56,
+      "end": 645.56,
+      "text": "Jadi temen-temen kalau mau yang cari yang bahasa Indonesia, bisa ke..."
+    },
+    {
+      "start": 645.56,
+      "end": 648.56,
+      "text": "HTMLcss.rizafahmi.com"
+    },
+    {
+      "start": 648.56,
+      "end": 653.56,
+      "text": "Asyik. Ini pakai Google Translate? Enggak, ini bahasa Indonesia."
+    },
+    {
+      "start": 653.56,
+      "end": 656.56,
+      "text": "Google Translate tulis sendiri tuh, kan?"
+    },
+    {
+      "start": 656.56,
+      "end": 666.56,
+      "text": "Ini tulis sendiri, dan tulisan ini, website-nya itu dibikin dengan kit docs-nya yang ditulis di atas spell kit."
+    },
+    {
+      "start": 666.56,
+      "end": 673.56,
+      "text": "Jadi ini adalah seperti dokumentasi, kita belajar HTML, basic banget gitu,"
+    },
+    {
+      "start": 673.56,
+      "end": 677.56,
+      "text": "sampai akhirnya bisa bikin aplikasi sederhana seperti ini, kumpulan link-link gitu aja."
+    },
+    {
+      "start": 677.56,
+      "end": 685.56,
+      "text": "CSS-nya juga nggak terlalu banyak dibahas, terlalu mendalam, tapi ya lumayan lah, ada box model, hampir sama ya."
+    },
+    {
+      "start": 685.56,
+      "end": 693.56,
+      "text": "Gak spesifik terhadap framework tertentukan, ya?"
+    },
+    {
+      "start": 693.56,
+      "end": 696.56,
+      "text": "Gak lah, dasarnya dulu."
+    },
+    {
+      "start": 696.56,
+      "end": 697.56,
+      "text": "Dasarnya dulu, betul."
+    },
+    {
+      "start": 697.56,
+      "end": 704.56,
+      "text": "Dasar banget. Ini memang ditujukan untuk yang belum pernah programming, jadi memang benar-benar dari dasar."
+    },
+    {
+      "start": 704.56,
+      "end": 709.56,
+      "text": "Oke, untuk materinya sudah sampai di sini."
+    },
+    {
+      "start": 709.56,
+      "end": 720.56,
+      "text": "Selanjutnya kita lanjut ke pembahasan tentang CSS inline dari Ivan. Silahkan."
+    },
+    {
+      "start": 720.56,
+      "end": 723.56,
+      "text": "Ya, sini semangat, sorry."
+    },
+    {
+      "start": 723.56,
+      "end": 729.56,
+      "text": "Ini masih berkaitan dengan performa, karena saya ahlinya di performa."
+    },
+    {
+      "start": 729.56,
+      "end": 736.56,
+      "text": "Saya nggak punya materi yang ini, jadi saya mau buka soal topic discussion aja, diskusi-diskusi topic."
+    },
+    {
+      "start": 736.56,
+      "end": 749.56,
+      "text": "Yang sering kita alami ya sebagai web developer itu CSS, saya langsung gambar aja pakai framework tertentu misalnya."
+    },
+    {
+      "start": 749.56,
+      "end": 757.56,
+      "text": "Tetapi penggunaannya salah misalnya, jadi contohnya pakai Bootstrap 5 misalnya."
+    },
+    {
+      "start": 757.56,
+      "end": 762.56,
+      "text": "Pake apa? Bootstrap."
+    },
+    {
+      "start": 762.56,
+      "end": 770.56,
+      "text": "Itu kan maksudnya kalau dipakai dengan cara yang salah ya, dipakai dengan cara yang salah itu ukurannya kan bisa gede banget ya."
+    },
+    {
+      "start": 770.56,
+      "end": 772.56,
+      "text": "Bisa sampai, I don't know."
+    },
+    {
+      "start": 772.56,
+      "end": 775.56,
+      "text": "Oh, 3 mega. Gak diminify ya?"
+    },
+    {
+      "start": 775.56,
+      "end": 781.56,
+      "text": "100 sentikilo byte contohnya ya. Saya nggak tahu tepatnya, cuma begini."
+    },
+    {
+      "start": 781.56,
+      "end": 787.56,
+      "text": "Ada salah satu artikel, itu Optimize untuk LCP."
+    },
+    {
+      "start": 787.56,
+      "end": 795.56,
+      "text": "Itu disarankan Largest Content Full Pay untuk loading dari sebuah situs."
+    },
+    {
+      "start": 795.56,
+      "end": 800.56,
+      "text": "Saya coba cari linknya dulu ya, Optimize LCP."
+    },
+    {
+      "start": 808.56,
+      "end": 811.56,
+      "text": "Saya share screen aja tadi ya, biar enak."
+    },
+    {
+      "start": 811.56,
+      "end": 813.56,
+      "text": "Boleh, boleh."
+    },
+    {
+      "start": 813.56,
+      "end": 820.56,
+      "text": "Share screen."
+    },
+    {
+      "start": 820.56,
+      "end": 826.56,
+      "text": "Linknya saya kasih."
+    },
+    {
+      "start": 826.56,
+      "end": 837.56,
+      "text": "Optimize LCP."
+    },
+    {
+      "start": 837.56,
+      "end": 840.56,
+      "text": "Bentar saya kasih linknya dimana ya?"
+    },
+    {
+      "start": 840.56,
+      "end": 843.56,
+      "text": "Gak di sini, private chat."
+    },
+    {
+      "start": 843.56,
+      "end": 853.56,
+      "text": "Jadi sedikit saja mengenai, karena saya mau nyangkutin ke bagian stylesetnya."
+    },
+    {
+      "start": 853.56,
+      "end": 863.56,
+      "text": "Kan kalau LCP kita bahas minggu lalu itu kan Largest Content Full Pay bagaimana kita bisa menampilkan bagian content full art."
+    },
+    {
+      "start": 863.56,
+      "end": 866.56,
+      "text": "Bagian yang terbesar dari above the fold."
+    },
+    {
+      "start": 866.56,
+      "end": 878.56,
+      "text": "Jadi kalau misalnya di sebuah situs, kita ingin dari header kemudian feature image itu secepat mungkin bisa muncul ya."
+    },
+    {
+      "start": 878.56,
+      "end": 888.56,
+      "text": "Kita udah bahas juga minggu-minggu lalu bagaimana strategi-strateginya untuk supaya bisa eliminate render blocking request and so on."
+    },
+    {
+      "start": 888.56,
+      "end": 893.56,
+      "text": "Silahkan nanti, kalau nggak salah itu di episode 0 kita bahas itu."
+    },
+    {
+      "start": 893.56,
+      "end": 900.56,
+      "text": "Nah, selanjutnya saya mau bahas sedikit mengenai inline CSS versus non-inline CSS."
+    },
+    {
+      "start": 900.56,
+      "end": 908.56,
+      "text": "Seperti yang kita tahu, CSS itu render blocking ASCEN."
+    },
+    {
+      "start": 908.56,
+      "end": 912.56,
+      "text": "Kalau kita link pakai style tag ya?"
+    },
+    {
+      "start": 912.56,
+      "end": 924.56,
+      "text": "Ya, betul. Jadi kalau link style gitu, jadi saat web atau halaman kita di request kemudian di render,"
+    },
+    {
+      "start": 924.56,
+      "end": 932.56,
+      "text": "browser akan menunggu CSS-nya didownload dulu, diparse baru bisa melanjutkan proses rendering."
+    },
+    {
+      "start": 932.56,
+      "end": 938.56,
+      "text": "Jadi itulah maksudnya render blocking ASCEN seperti yang kita lihat di sini."
+    },
+    {
+      "start": 938.56,
+      "end": 950.56,
+      "text": "Jadi, si browser itu menunggu style sit-nya kita, CSS-nya kita didownload supaya bisa dilanjutkan proses rendering."
+    },
+    {
+      "start": 950.56,
+      "end": 955.56,
+      "text": "Betul. Jadi HTML secara keseluruhan memang dia baris-perbaris ya."
+    },
+    {
+      "start": 955.56,
+      "end": 962.56,
+      "text": "Jadi dari sini ke header, dari header, ada muncul dia loading, berarti di sini loading font-nya."
+    },
+    {
+      "start": 962.56,
+      "end": 974.56,
+      "text": "Font lagi, kemudian loading image, kemudian dan lain-lain, baru dia masuk ke bagian body terus ke bawah."
+    },
+    {
+      "start": 974.56,
+      "end": 981.56,
+      "text": "Pokoknya salah satu yang disarankan adalah JavaScript kalau bisa ditaruh di bawah sebelum body tutup."
+    },
+    {
+      "start": 981.56,
+      "end": 984.56,
+      "text": "Di deeper execution."
+    },
+    {
+      "start": 984.56,
+      "end": 995.56,
+      "text": "Kalau kita pahami grafik ini pelan-pelan, saat HTML didownload, diparse, kemudian CSS-nya didownload."
+    },
+    {
+      "start": 995.56,
+      "end": 1004.56,
+      "text": "Yang ungu itu CSS dan yang hijau itu image, biasanya feature image yang biasanya menjadi LCP."
+    },
+    {
+      "start": 1004.56,
+      "end": 1007.56,
+      "text": "Di layar siapa?"
+    },
+    {
+      "start": 1007.56,
+      "end": 1010.56,
+      "text": "Oh, bukan layar saya ya? Sorry."
+    },
+    {
+      "start": 1010.56,
+      "end": 1015.56,
+      "text": "Sudah, sudah."
+    },
+    {
+      "start": 1015.56,
+      "end": 1030.56,
+      "text": "Ini dokumennya, ini CSS-nya, terus ini image-nya, dan image ini kan biasanya menjadi LCP ya."
+    },
+    {
+      "start": 1030.56,
+      "end": 1032.56,
+      "text": "Biasanya ya."
+    },
+    {
+      "start": 1032.56,
+      "end": 1044.56,
+      "text": "Tetapi proses LCP-nya ini ke block sampai menunggu si CSS file yang besar ini selesai didownload."
+    },
+    {
+      "start": 1044.56,
+      "end": 1052.56,
+      "text": "Ada, ada opsi, itu pertama yang kritikal CSS itu di inline."
+    },
+    {
+      "start": 1052.56,
+      "end": 1057.56,
+      "text": "Inline berarti dimasukin ke style?"
+    },
+    {
+      "start": 1057.56,
+      "end": 1063.56,
+      "text": "Iya, betul, dimasukin ke style, jadi style tag di HTML."
+    },
+    {
+      "start": 1063.56,
+      "end": 1070.56,
+      "text": "Jadi rulesetnya apa, deklarasinya, stylingnya di dalam style-nya ya, maksudnya inline."
+    },
+    {
+      "start": 1070.56,
+      "end": 1081.56,
+      "text": "Jadi bukan styling, kalau styling itu kan dia ngambil dari file dari server external atau CDN didownload."
+    },
+    {
+      "start": 1081.56,
+      "end": 1090.56,
+      "text": "Kalau inline artinya di dalam head tag, jadi style itu di dalam head tag-nya HTML."
+    },
+    {
+      "start": 1090.56,
+      "end": 1095.56,
+      "text": "Jadi ini bukan display inline ya, maksudnya kebetulan aja namanya sama."
+    },
+    {
+      "start": 1095.56,
+      "end": 1097.56,
+      "text": "Iya, bukan."
+    },
+    {
+      "start": 1097.56,
+      "end": 1099.56,
+      "text": "Ada satu lagi kan?"
+    },
+    {
+      "start": 1099.56,
+      "end": 1101.56,
+      "text": "Ada yang di dalam HTML style inline."
+    },
+    {
+      "start": 1101.56,
+      "end": 1102.56,
+      "text": "Oh, di dalam tag-nya."
+    },
+    {
+      "start": 1102.56,
+      "end": 1104.56,
+      "text": "H1 style sama dengan itu, bukan itu."
+    },
+    {
+      "start": 1104.56,
+      "end": 1106.56,
+      "text": "H1 style sama dengan itu, bukan juga."
+    },
+    {
+      "start": 1106.56,
+      "end": 1107.56,
+      "text": "Bukan itu."
+    },
+    {
+      "start": 1107.56,
+      "end": 1109.56,
+      "text": "Yang di head ya, oke, siap-siap."
+    },
+    {
+      "start": 1109.56,
+      "end": 1116.56,
+      "text": "Betul, jadi yang terjadi, pertanyaan yang saya mau bawa."
+    },
+    {
+      "start": 1116.56,
+      "end": 1122.56,
+      "text": "Kalau misalnya kita inline CSS-nya, tentu HTML kita ukurannya makin besar kan?"
+    },
+    {
+      "start": 1122.56,
+      "end": 1125.56,
+      "text": "Dan nggak bisa di-cache ya?"
+    },
+    {
+      "start": 1125.56,
+      "end": 1127.56,
+      "text": "Jadi nggak bisa di-cache, betul."
+    },
+    {
+      "start": 1127.56,
+      "end": 1135.56,
+      "text": "Jadi gimana caranya strategi kita untuk develop?"
+    },
+    {
+      "start": 1135.56,
+      "end": 1139.56,
+      "text": "Sebenarnya yang above the fold, above the fold itu contohnya begini ya."
+    },
+    {
+      "start": 1139.56,
+      "end": 1153.56,
+      "text": "Kalau misalnya saya pakai begini, berarti yang above the fold itu kan antara icon ini, style yang ada di sini sama yang ini nggak penting ya."
+    },
+    {
+      "start": 1153.56,
+      "end": 1158.56,
+      "text": "Style yang ada di sini itu sebisa mungkin di inline."
+    },
+    {
+      "start": 1158.56,
+      "end": 1161.56,
+      "text": "Harus secepat mungkin ya munculnya."
+    },
+    {
+      "start": 1161.56,
+      "end": 1169.56,
+      "text": "Ada masalah yang terjadi kalau dengan inline dan non-inline."
+    },
+    {
+      "start": 1169.56,
+      "end": 1175.56,
+      "text": "Jadi kalau lihat kita inline, dia nggak bisa di-cache oleh browser."
+    },
+    {
+      "start": 1175.56,
+      "end": 1180.56,
+      "text": "Kalau misalnya kita lihat di network kan, itu biasanya ada CSS yang di-download tuh."
+    },
+    {
+      "start": 1180.56,
+      "end": 1183.56,
+      "text": "Kalau kita disable cache."
+    },
+    {
+      "start": 1183.56,
+      "end": 1186.56,
+      "text": "Nah, ini kan ada CSS-nya ya?"
+    },
+    {
+      "start": 1186.56,
+      "end": 1191.56,
+      "text": "Nah, kalau CSS ini kan biasanya sudah di-size this case gitu ya."
+    },
+    {
+      "start": 1191.56,
+      "end": 1194.56,
+      "text": "Sudah di-case, jadinya nggak perlu di-request ulang."
+    },
+    {
+      "start": 1194.56,
+      "end": 1203.56,
+      "text": "Tetapi kalau di-inline, dia nggak bisa di-case karena dia termasuk di halaman, di markup HTML."
+    },
+    {
+      "start": 1203.56,
+      "end": 1205.56,
+      "text": "Ini maksudnya link ya."
+    },
+    {
+      "start": 1205.56,
+      "end": 1215.56,
+      "text": "Nah, apa sih strategi kalian untuk menetapkan, mana sih yang perlu di-inline, mana sih yang nggak perlu di-inline?"
+    },
+    {
+      "start": 1215.56,
+      "end": 1223.56,
+      "text": "Karena kita perlu hati-hati di situ, kita tetap perlu menetapkan Leverage Browser Case karena itu penting."
+    },
+    {
+      "start": 1223.56,
+      "end": 1230.56,
+      "text": "Karena untuk hidup kita, nggak untuk mengoptimasi Core Web Vitals untuk search engine."
+    },
+    {
+      "start": 1230.56,
+      "end": 1236.56,
+      "text": "Salah, hidup kita, optimasi Core Web Vitals untuk user kita."
+    },
+    {
+      "start": 1236.56,
+      "end": 1238.56,
+      "text": "User experience ya."
+    },
+    {
+      "start": 1238.56,
+      "end": 1242.56,
+      "text": "Betul, bukan search engine experience."
+    },
+    {
+      "start": 1242.56,
+      "end": 1252.56,
+      "text": "Jadi, kalau memang mau bagus, biasanya untuk Service Core Web Vitals bagus, inline-kan aja semua seabrek-abrek, masukin aja ke HTML."
+    },
+    {
+      "start": 1252.56,
+      "end": 1257.56,
+      "text": "Pasti itu render blocking recourse-nya hilang."
+    },
+    {
+      "start": 1257.56,
+      "end": 1265.56,
+      "text": "Tetapi user kita nggak senang karena yang di-download-nya, file yang sama di-download itu-itu saja."
+    },
+    {
+      "start": 1265.56,
+      "end": 1268.56,
+      "text": "Jadi ya boros-boros kuota."
+    },
+    {
+      "start": 1268.56,
+      "end": 1280.56,
+      "text": "Nah, ada nggak sih cara supaya menentukan itu kalian sehari-hari?"
+    },
+    {
+      "start": 1280.56,
+      "end": 1284.56,
+      "text": "Sehari-hari?"
+    },
+    {
+      "start": 1284.56,
+      "end": 1290.56,
+      "text": "Gue dulu deh. Apa ya, pokoknya kayaknya segala cara dari yang aneh sampai aneh banget sampai nggak terlalu aneh."
+    },
+    {
+      "start": 1290.56,
+      "end": 1298.56,
+      "text": "Gue udah pernah pake semua deh, termasuk yang beneran di-inline semua di dalam style tech itu pun pernah."
+    },
+    {
+      "start": 1298.56,
+      "end": 1303.56,
+      "text": "Cuma kan sebetulnya kerjaan developer itu trade-off banyak hal ya."
+    },
+    {
+      "start": 1303.56,
+      "end": 1308.56,
+      "text": "Kayak tadi tuh, udah ada satu trade-off yang dibahas, trade-off antara bikin apa itu?"
+    },
+    {
+      "start": 1308.56,
+      "end": 1313.56,
+      "text": "Bikin search engine, bikin lighthouse senang, sama bikin user beneran senang."
+    },
+    {
+      "start": 1313.56,
+      "end": 1320.56,
+      "text": "Dan kadang, ya itu punya satu propusi yang sama, sebetulnya halaman yang cepat, enak digunakan, blablabla."
+    },
+    {
+      "start": 1320.56,
+      "end": 1326.56,
+      "text": "Tapi kadang berada prakteknya, itu kan sebetulnya mencabang kayak branching kedua hal yang berbeda ya."
+    },
+    {
+      "start": 1326.56,
+      "end": 1335.56,
+      "text": "Kayak tadi, jadi kalau kita pengen utamain bikin lighthouse senang atau search engine senang, kita bakal di-inline semua."
+    },
+    {
+      "start": 1335.56,
+      "end": 1342.56,
+      "text": "Sedangkan kalau kita pengen bikin user senang, ya mesti kita nggak akan menggunakan cara itu."
+    },
+    {
+      "start": 1342.56,
+      "end": 1350.56,
+      "text": "Nah, selain itu kita juga kan sebetulnya di tim kita, kita ada mungkin product owner atau tim growth atau tim-tim lain"
+    },
+    {
+      "start": 1350.56,
+      "end": 1357.56,
+      "text": "yang punya matrix yang ingin dicapa ya, termasuk salah satunya nyambung ke search engine score tadi."
+    },
+    {
+      "start": 1357.56,
+      "end": 1362.56,
+      "text": "Nah, terus di sisi lain, kan itu bergantung banget sama konten aplikasi kita ya."
+    },
+    {
+      "start": 1362.56,
+      "end": 1374.56,
+      "text": "Maksudnya inline style kita misalnya semua ditaruh, style CSS kita semua di-inline ke head, kalau misalnya sebetulnya nggak terlalu banyak,"
+    },
+    {
+      "start": 1374.56,
+      "end": 1384.56,
+      "text": "nggak sampai bermega-mega gitu, dan mungkin kebetulan misalnya user kita pakai device yang nggak kuno-kuno amat"
+    },
+    {
+      "start": 1384.56,
+      "end": 1391.56,
+      "text": "atau mungkin kemampuan download data-nya nggak terlalu rendah, itu nggak cukup mengganggu."
+    },
+    {
+      "start": 1391.56,
+      "end": 1395.56,
+      "text": "Maksudnya gangguan yang dirasakan user pun nggak cukup signifikan."
+    },
+    {
+      "start": 1395.56,
+      "end": 1407.56,
+      "text": "Bisa aja kadang ada kasus gitu di mana gue pernah inline style semua secara apa, payload yang di-download, payload ke user pun nggak sampai ekstrim."
+    },
+    {
+      "start": 1407.56,
+      "end": 1414.56,
+      "text": "Dan ya itu akhirnya pelan-pelan sambil dibetulin sih, jadi emang itu sebetulnya solusi sementara."
+    },
+    {
+      "start": 1414.56,
+      "end": 1423.56,
+      "text": "Jadi itu kalau udah di lapangan sih agak susah ya kalau untuk di prescribe harus begini atau begitu, jadi kita juggling aja sebetulnya sih."
+    },
+    {
+      "start": 1423.56,
+      "end": 1428.56,
+      "text": "Kayak art ya, kita nggak bisa semuanya satu titik gitu ya."
+    },
+    {
+      "start": 1428.56,
+      "end": 1436.56,
+      "text": "Kita tetap harus kayak, oke kita perlu critical, berarti waktu di CSS-nya, di SAS-nya, kita perlu pisahin gitu."
+    },
+    {
+      "start": 1436.56,
+      "end": 1450.56,
+      "text": "Oh, above default nih untuk mobile, masukin di, I don't know, mungkin kalau pakai Vue atau apa yang untuk transpile,"
+    },
+    {
+      "start": 1450.56,
+      "end": 1460.56,
+      "text": "itu kan bisa pakai apa namanya, ini transpile bisa di grouping ya, ini critical CSS, non-critical."
+    },
+    {
+      "start": 1460.56,
+      "end": 1469.56,
+      "text": "Terus gini, kadang sih masih nyambung sama itu, kalau gue kadang sebenarnya nge-check dulu aja LCP-nya apa."
+    },
+    {
+      "start": 1469.56,
+      "end": 1477.56,
+      "text": "Ya udah, kan kita tahu, sebenarnya kan rata-rata ya, tergantung desainnya juga, kita punya shell ya, kita punya apa sih, header,"
+    },
+    {
+      "start": 1477.56,
+      "end": 1488.56,
+      "text": "kita bisa tahu itu tingginya berapa, terus biasanya kita punya shell apa itu yang apa, container, kita tahu lebernya berapa, kita tahu tingginya header berapa,"
+    },
+    {
+      "start": 1488.56,
+      "end": 1496.56,
+      "text": "terus kita afalin aja, maksudnya kita check aja dulu LCP-nya, text-nya apa, udah itu aja yang di-inline, sisanya ya di-diver."
+    },
+    {
+      "start": 1496.56,
+      "end": 1507.56,
+      "text": "Terus saya juga pernah, pernah juga dulu sampai, sampai extreme, di CSS-nya itu per block, sorry, per component."
+    },
+    {
+      "start": 1507.56,
+      "end": 1508.56,
+      "text": "Per component."
+    },
+    {
+      "start": 1508.56,
+      "end": 1519.56,
+      "text": "Jadi, iya per component, jadi kalau misalnya, oke kalau yang komponen-komponen umum, saya memang sudah block, sudah jadiin satu CSS file,"
+    },
+    {
+      "start": 1519.56,
+      "end": 1524.56,
+      "text": "tetapi kalau misalnya kayak komponen-komponen tertentu, ini saya ambil kasusnya WordPress ya,"
+    },
+    {
+      "start": 1524.56,
+      "end": 1533.56,
+      "text": "WordPress itu kan bisa dibangun pakai block-block, kan ada biasanya komponen-komponen itu contohnya apa ya,"
+    },
+    {
+      "start": 1533.56,
+      "end": 1543.56,
+      "text": "komen, komen kan paling bawah ya, kan nggak perlu di-load, CSS-nya nggak perlu di-load di atas contohnya."
+    },
+    {
+      "start": 1543.56,
+      "end": 1554.56,
+      "text": "Terus, jadi saya biasanya grouping lagi per component, per component yang bawah-bawah yang nggak perlu gitu ya,"
+    },
+    {
+      "start": 1554.56,
+      "end": 1564.56,
+      "text": "komen lah, author profile, contohnya, atau footer, footer, footer, yang paling bawah tuh, footer, bagian footer biasanya kan,"
+    },
+    {
+      "start": 1564.56,
+      "end": 1571.56,
+      "text": "gede-gere juga ya, tentu nggak perlu di-load di awal, saya sampai pisah-pisahin tuh kecil-kecil,"
+    },
+    {
+      "start": 1571.56,
+      "end": 1576.56,
+      "text": "tapi justru pisahin kecil-kecil malah jadi lambat."
+    },
+    {
+      "start": 1576.56,
+      "end": 1579.56,
+      "text": "Iya, karena semua harus ke-download, ke-download."
+    },
+    {
+      "start": 1579.56,
+      "end": 1593.56,
+      "text": "Ya betul, kalau dia, meskipun katanya sudah HTTP/2 yang ngedownload bisa parallel, tetap aja ada race condition delay."
+    },
+    {
+      "start": 1593.56,
+      "end": 1601.56,
+      "text": "Dan kalau misalnya satu file-nya ke delay, akhirnya yang terjadi adalah render blocking request."
+    },
+    {
+      "start": 1601.56,
+      "end": 1608.56,
+      "text": "Jadi jangan juga sampai ke extreme yang pisahin per component, nggak perlu juga."
+    },
+    {
+      "start": 1608.56,
+      "end": 1620.56,
+      "text": "Jadi kalau saya saat ini masih menganut above the fold, pisahin di grouping ke satu folder kah, atau satu endpoint, di inline."
+    },
+    {
+      "start": 1620.56,
+      "end": 1632.56,
+      "text": "Itu saya batasi ya, batasi biasanya up to sampai 5 kilobyte sampai, ya 5 kilobyte aja, itu CSS file."
+    },
+    {
+      "start": 1632.56,
+      "end": 1638.56,
+      "text": "Jadi kalau dia sampai 5 kilobyte hasil transparent-nya inline-kan aja,"
+    },
+    {
+      "start": 1638.56,
+      "end": 1649.56,
+      "text": "karena ya 5 kilobyte ya nggak terlalu haru-haru ya, untuk HTML-nya terlalu besar ya, 10 kilobyte pun masih fine lah gitu ya."
+    },
+    {
+      "start": 1649.56,
+      "end": 1657.56,
+      "text": "Tetapi kalau sudah sampai kayak 40, jangan deh, mending coba prisahin lagi, masa 40 kilobyte above the fold."
+    },
+    {
+      "start": 1657.56,
+      "end": 1659.56,
+      "text": "Kita bicara mobile first ya, mobile first."
+    },
+    {
+      "start": 1659.56,
+      "end": 1667.56,
+      "text": "Jadi kalau desktop mah, nggak perlu mikir ginian kalau desktop, karena udah pasti kuat."
+    },
+    {
+      "start": 1667.56,
+      "end": 1675.56,
+      "text": "Jadi sisanya CSS-nya di preload supaya lebih cepat, itu tetap perlu jadi fine."
+    },
+    {
+      "start": 1675.56,
+      "end": 1683.56,
+      "text": "Pake library nggak sih? Sebenarnya udah ada banyak kan, ada beberapa library yang bisa otomatis nge-grab above the fold CSS."
+    },
+    {
+      "start": 1683.56,
+      "end": 1688.56,
+      "text": "Kalau masalah kayak Next.js itu sudah otomatis ya, Next.js ada."
+    },
+    {
+      "start": 1688.56,
+      "end": 1694.56,
+      "text": "Saya baru tahu Next.js, kayaknya library lain kayak Gatsby, maybe, I don't know."
+    },
+    {
+      "start": 1694.56,
+      "end": 1702.56,
+      "text": "Nggak, bahkan yang Pure Vanilla JavaScript, misalnya kita masih pakai server-side framework ya, kayak Laravel, Rails, atau apapun,"
+    },
+    {
+      "start": 1702.56,
+      "end": 1708.56,
+      "text": "itu ada untuk sisi JavaScript-nya ada yang konon bisa nge-grab above the fold."
+    },
+    {
+      "start": 1708.56,
+      "end": 1711.56,
+      "text": "Cuma belum sempat nyobain, belum pernah nyobain, jujur."
+    },
+    {
+      "start": 1711.56,
+      "end": 1715.56,
+      "text": "Ada itu di artikel web dev?"
+    },
+    {
+      "start": 1715.56,
+      "end": 1723.56,
+      "text": "Iya, Eka baru publish ini, baru kasih. Jadi artikel-nya cukup lama juga ya, nice."
+    },
+    {
+      "start": 1723.56,
+      "end": 1725.56,
+      "text": "Extract critical CSS."
+    },
+    {
+      "start": 1725.56,
+      "end": 1734.56,
+      "text": "Itu kan masalah yang dari dulu ada, cuman dulu, justru mungkin karena waktu artikel ini diposting tahun..."
+    },
+    {
+      "start": 1734.56,
+      "end": 1740.56,
+      "text": "Oh ya, udah sih, orang udah banyak yang pakai Next.js pun udah banyak."
+    },
+    {
+      "start": 1740.56,
+      "end": 1745.56,
+      "text": "Cuma mungkin kan nggak semua orang bisa pakai framework itu kan."
+    },
+    {
+      "start": 1745.56,
+      "end": 1753.56,
+      "text": "Jadi kalau ini ada beberapa solusi yang masih JavaScript atau webpack lah, apapun yang berbasis webpack."
+    },
+    {
+      "start": 1753.56,
+      "end": 1759.56,
+      "text": "Cuma emang kalau framework modern, kelihatannya udah lebih segala ada ya, kayak Next.js."
+    },
+    {
+      "start": 1759.56,
+      "end": 1764.56,
+      "text": "Ya, kayaknya emang dia handle itu. Dan remix, waktu itu gue inget remix."
+    },
+    {
+      "start": 1764.56,
+      "end": 1772.56,
+      "text": "Terusnya itu cukup menarik, kita di setiap halaman atau di setiap layout, nested routes apapun itu,"
+    },
+    {
+      "start": 1772.56,
+      "end": 1781.56,
+      "text": "ada tag khusus untuk nambahin CSS dan nggak tau lah, pokoknya library-nya remix itu secara otomatis nge-handle."
+    },
+    {
+      "start": 1781.56,
+      "end": 1789.56,
+      "text": "Jadi waktu kita buka satu halaman yang di-load adalah hanya CSS yang hanya style yang ada di halaman itu."
+    },
+    {
+      "start": 1789.56,
+      "end": 1796.56,
+      "text": "Nah, kalau misalnya kita pindah ke halaman lain, dan itu kan mereka udah intercept pakai client-side router mereka punya remix."
+    },
+    {
+      "start": 1796.56,
+      "end": 1806.56,
+      "text": "Nah, dia bisa meng-calculate sendiri style apa yang ada di halaman kedua itu, halaman baru itu, di-inject ke CSS-nya."
+    },
+    {
+      "start": 1806.56,
+      "end": 1815.56,
+      "text": "Jadi emang dia udah smartly nge-handle berdasarkan isi halaman, dan kelihatannya ya handle above default juga."
+    },
+    {
+      "start": 1815.56,
+      "end": 1822.56,
+      "text": "- Oke, wah ini seru ya. - Sedikit melenceng, CSS in JS masih in nggak sih?"
+    },
+    {
+      "start": 1822.56,
+      "end": 1824.56,
+      "text": "- Masih, masih, masih. - Masih ya?"
+    },
+    {
+      "start": 1824.56,
+      "end": 1831.56,
+      "text": "- Masih. - Walaupun lebih banyak yang loncat ke Tailwind ya sekarang, cuma kan ya gitu."
+    },
+    {
+      "start": 1831.56,
+      "end": 1836.56,
+      "text": "- Seru nih. Nah, maksudnya... - Tailwind versus..."
+    },
+    {
+      "start": 1836.56,
+      "end": 1839.56,
+      "text": "Versus lainnya, versus the world."
+    },
+    {
+      "start": 1839.56,
+      "end": 1848.56,
+      "text": "Ya, jadi kayaknya kalau di-establish companies atau organizations kan ya itu nggak mungkin semua yang teranjur pakai style components atau emotion"
+    },
+    {
+      "start": 1848.56,
+      "end": 1852.56,
+      "text": "tiba-tiba udah rewrite semua ke Tailwind, ya kan? Nggak mungkin kayak gitu."
+    },
+    {
+      "start": 1852.56,
+      "end": 1859.56,
+      "text": "Jadi sebetulnya di lapangan pasti masih banyak banget yang pakai emotion dan temen-temennya."
+    },
+    {
+      "start": 1859.56,
+      "end": 1868.56,
+      "text": "Dan meskipun nanti ke depannya banyak framework seperti Next.js atau remix dan lain-lain sudah meng-handle ini di belakang layar,"
+    },
+    {
+      "start": 1868.56,
+      "end": 1875.56,
+      "text": "kita tetap harus tahu, karena suatu saat ya kita bisa ketemu masalah di sini dan kalau kita nggak tahu ini, ya."
+    },
+    {
+      "start": 1875.56,
+      "end": 1878.56,
+      "text": "- Bisa berabih juga. - Bingung."
+    },
+    {
+      "start": 1878.56,
+      "end": 1883.56,
+      "text": "- Loh, kok ini bisa di above default, bisa tiba-tiba muncul di atas gitu. Dari mana ini, ya kan?"
+    },
+    {
+      "start": 1883.56,
+      "end": 1891.56,
+      "text": "- Dan framework, apa sih, automation bawaan dari framework kan nggak selamanya akurat ya, namanya mesin mah bisa-bisa aja salah."
+    },
+    {
+      "start": 1891.56,
+      "end": 1896.56,
+      "text": "- Iya, dia kan hanya mengantisipasi atau menebak, gitu kan. Kira-kira ini..."
+    },
+    {
+      "start": 1896.56,
+      "end": 1905.56,
+      "text": "Tidak kan antara implementator, kalau saya menyebut yang hanya tahu pakai tertentu, itu implementator."
+    },
+    {
+      "start": 1905.56,
+      "end": 1914.56,
+      "text": "Dan web engineer yang oke, memang tahu, oh, cara terjadinya begitu, saya pakai framework ini, cocok nih, bisa, gitu."
+    },
+    {
+      "start": 1914.56,
+      "end": 1921.56,
+      "text": "Dan bisa mengimplementasikannya. Jadi kalau ada masalah, tahu tuh, oh, bisa di-debug ke mana harus di-debug."
+    },
+    {
+      "start": 1921.56,
+      "end": 1927.56,
+      "text": "Biasanya yang menentukan career-nya yang menelijik adalah yang tahu fundamental."
+    },
+    {
+      "start": 1927.56,
+      "end": 1935.56,
+      "text": "- Asik tips career ini. Yang tanya career tadi siapa tuh? Yang tanya Riknyas tuh tadi. Ini ada tips."
+    },
+    {
+      "start": 1935.56,
+      "end": 1949.56,
+      "text": "- Yaitu yang tahu cara kerjanya, ya. - Ada nggak yang tahu cara kerja bagaimana web vital itu dihitung?"
+    },
+    {
+      "start": 1949.56,
+      "end": 1956.56,
+      "text": "- Di Lighthouse kan, open source kan. - Iya, tapi ada yang buka nggak?"
+    },
+    {
+      "start": 1956.56,
+      "end": 1963.56,
+      "text": "- Enggak, ingat tuh dulu pernah ngebuka cuma pengen tahu device yang dipakai apa, bener nggak sih."
+    },
+    {
+      "start": 1963.56,
+      "end": 1969.56,
+      "text": "- Motorola G4 kan ya? - Oh iya, Motorola. Eh, Motorola G4."
+    },
+    {
+      "start": 1969.56,
+      "end": 1976.56,
+      "text": "Jadi dulu kayaknya ada masalah gara-gara belum update browser atau apalah, Lighthouse-nya jadi updated."
+    },
+    {
+      "start": 1976.56,
+      "end": 1983.56,
+      "text": "Ternyata hasilnya lain gitu. Terus akhirnya ngecek karena penasaran, ngecek ke source code-nya Lighthouse."
+    },
+    {
+      "start": 1983.56,
+      "end": 1988.56,
+      "text": "Cuma buat cari tahu device apa yang dipakai buat simulate."
+    },
+    {
+      "start": 1988.56,
+      "end": 2002.56,
+      "text": "- Yes. Oke, ada lagi dari Ivan? - Itu dulu, nanti kita lanjut ke yang performance observer setelah si Eka aja."
+    },
+    {
+      "start": 2002.56,
+      "end": 2007.56,
+      "text": "- Oke, berarti sekarang gilirannya Eka tentang container queries."
+    },
+    {
+      "start": 2007.56,
+      "end": 2011.56,
+      "text": "- Tentang container queries, masih CSS. - Itu baru tuh."
+    },
+    {
+      "start": 2011.56,
+      "end": 2018.56,
+      "text": "- Nah, ini nih. Waktu kita ketemu di Bali ya, waktu itu kita kayaknya bahas ini deh bentar. Apa?"
+    },
+    {
+      "start": 2018.56,
+      "end": 2027.56,
+      "text": "- Yay, akhirnya launching. - Terus gue bingung, apa itu container queries?"
+    },
+    {
+      "start": 2027.56,
+      "end": 2033.56,
+      "text": "- Nah jawaban dari apa itu, ya scroll aja sedikit ke bawah, kita lihat gambarnya aja."
+    },
+    {
+      "start": 2033.56,
+      "end": 2039.56,
+      "text": "Jadi buat temen-temen yang penasaran itu apa, baca sendiri aja ya artikelnya, kalau pengen detailnya."
+    },
+    {
+      "start": 2039.56,
+      "end": 2045.56,
+      "text": "Cuma kalau sekilas adalah intinya kan CSS kita selama ini punya media query ya."
+    },
+    {
+      "start": 2045.56,
+      "end": 2053.56,
+      "text": "Add media, terus diapit tanda kurung, parentesis, terus kita tulis deh kondisionalnya sesuai kebutuhan kita."
+    },
+    {
+      "start": 2053.56,
+      "end": 2063.56,
+      "text": "Misalnya add media dalam kurung main width 1024px, berarti apapun yang di dalam curly brackets itu,"
+    },
+    {
+      "start": 2063.56,
+      "end": 2072.56,
+      "text": "tanda kurung-kurawal itu akan di aplikasikan, stylesheetnya akan di aplikasikan kalau kondisi itu terpenuhi."
+    },
+    {
+      "start": 2072.56,
+      "end": 2079.56,
+      "text": "Nah oke itu udah membantu banget, tapi masalahnya media queries itu kan cuma buat ukuran viewport."
+    },
+    {
+      "start": 2079.56,
+      "end": 2088.56,
+      "text": "Viewport itu besar ukuran layar yang muncul di device user."
+    },
+    {
+      "start": 2088.56,
+      "end": 2095.56,
+      "text": "Nah media queries itu kekurangannya apa, karena kalau misalnya kita bikin komponen UI,"
+    },
+    {
+      "start": 2095.56,
+      "end": 2099.56,
+      "text": "itu kan bisa diletakkan, kita layoutnya tuh bisa macem-macem."
+    },
+    {
+      "start": 2099.56,
+      "end": 2107.56,
+      "text": "Misalnya product card nih, tampilan product bisa ditampilin di sidebar tuh, kayak digambar di contoh yang sebelah kiri warna ungu."
+    },
+    {
+      "start": 2107.56,
+      "end": 2116.56,
+      "text": "Itu kan ditampilin di sidebar, jadi walaupun viewportnya ukuran besar itu dibuka dari desktop,"
+    },
+    {
+      "start": 2116.56,
+      "end": 2123.56,
+      "text": "tapi komponen itu sendiri ditampilkan di container atau di layout yang ukurannya kecil."
+    },
+    {
+      "start": 2123.56,
+      "end": 2132.56,
+      "text": "Nah selama ini CSS itu belum mampu menghandle, dan ini sebetulnya salah satu feature CSS yang paling banyak di request."
+    },
+    {
+      "start": 2132.56,
+      "end": 2140.56,
+      "text": "Jadi pas lagi baca-bacain ini, nemu talk CSS Conf dari tahun 2018."
+    },
+    {
+      "start": 2140.56,
+      "end": 2147.56,
+      "text": "Nah ini talknya, kocaknya, oleh mas Philip Walton yang tadi kayaknya sekilas ada di artikelnya Ivan juga deh."
+    },
+    {
+      "start": 2147.56,
+      "end": 2151.56,
+      "text": "Jadi beliau emang udah aktif per CSS-an dari kapan tau."
+    },
+    {
+      "start": 2151.56,
+      "end": 2160.56,
+      "text": "Jadi CSS Conf di 2018 itu beliau ngomong tentang container queries dan kocaknya lagi."
+    },
+    {
+      "start": 2160.56,
+      "end": 2165.56,
+      "text": "Itu ngebahas sejarahnya, latar belakangnya apa itu container queries CSS."
+    },
+    {
+      "start": 2165.56,
+      "end": 2174.56,
+      "text": "Ini tahun 2018 ya, dan dia bilang bahwa, wah ini feature yang dari dulu di request dan goes back to sekitar 2013."
+    },
+    {
+      "start": 2174.56,
+      "end": 2184.56,
+      "text": "Orang udah pada nge-request, udah pada menyuarakan tentang kebutuhan akan container queries, kenapa media queries tidak cukup, blablabla."
+    },
+    {
+      "start": 2184.56,
+      "end": 2191.56,
+      "text": "Itu 2013 doang bayangin, dan akhirnya sekarang 2022, 9 tahun kemudian, stable, ya lumayan lah."
+    },
+    {
+      "start": 2191.56,
+      "end": 2200.56,
+      "text": "Jadi itu historinya, dan saat itu sih di tahun 2018, conclusion-nya adalah belum bisa dicapai."
+    },
+    {
+      "start": 2200.56,
+      "end": 2210.56,
+      "text": "Tapi dia ngasih beberapa tips atau beberapa cara work around untuk mendapatkan hasil yang sama."
+    },
+    {
+      "start": 2210.56,
+      "end": 2216.56,
+      "text": "Cuma untungnya sekarang di tahun 2022 kita udah bisa dapet feature itu."
+    },
+    {
+      "start": 2216.56,
+      "end": 2220.56,
+      "text": "Jadi itu contoh penggunaannya bisa dilihat."
+    },
+    {
+      "start": 2220.56,
+      "end": 2224.56,
+      "text": "Kalau nggak salah pakai itu ya, resize observer sama mutation observer."
+    },
+    {
+      "start": 2224.56,
+      "end": 2226.56,
+      "text": "Iya betul sekali."
+    },
+    {
+      "start": 2226.56,
+      "end": 2237.56,
+      "text": "Jadi bisa diakali dengan JavaScript, ya cek aja kalau element itu direcise, berarti ngetrigger styling yang..."
+    },
+    {
+      "start": 2237.56,
+      "end": 2242.56,
+      "text": "Ya bisa add class, add class, remove class mungkin."
+    },
+    {
+      "start": 2242.56,
+      "end": 2247.56,
+      "text": "Ya standard lah, akal-akal anwantir standard."
+    },
+    {
+      "start": 2247.56,
+      "end": 2255.56,
+      "text": "Nah, cuma karena sekarang sudah di-launch, sudah jadi bagian dari web API yang diimplementasikan oleh browser."
+    },
+    {
+      "start": 2255.56,
+      "end": 2262.56,
+      "text": "Browser support juga cukup bagus, jadi intinya hampir semua major browser kecuali Firefox."
+    },
+    {
+      "start": 2262.56,
+      "end": 2272.56,
+      "text": "Ini tuh semua nggak bisa kompak giliran Firefox implement, Safari nggak, Chrome Edge, Firefox kadang Safari nggak."
+    },
+    {
+      "start": 2272.56,
+      "end": 2277.56,
+      "text": "Nah sekarang nih Chrome Edge, Safari, Firefox nggak."
+    },
+    {
+      "start": 2277.56,
+      "end": 2283.56,
+      "text": "Tapi jangan sedih buat yang pengen pakai nih, udah ada Polyfill, Polyfill-nya bagus."
+    },
+    {
+      "start": 2283.56,
+      "end": 2285.56,
+      "text": "Polyfill-nya ya yang tadi dibahas itu."
+    },
+    {
+      "start": 2285.56,
+      "end": 2292.56,
+      "text": "Jadi Polyfill-nya adalah workaround yang di-propos oleh mas Philip Walton di tahun 2018 itu."
+    },
+    {
+      "start": 2292.56,
+      "end": 2295.56,
+      "text": "Yang tadi sekilas dibahas oleh Ivan."
+    },
+    {
+      "start": 2295.56,
+      "end": 2301.56,
+      "text": "Nah itu udah dibuat dalam bentuk package yang bisa di-install."
+    },
+    {
+      "start": 2301.56,
+      "end": 2305.56,
+      "text": "Jadi itu, mungkin pindah tab ke yang tadi lagi?"
+    },
+    {
+      "start": 2305.56,
+      "end": 2307.56,
+      "text": "Boleh, ke mana kata?"
+    },
+    {
+      "start": 2307.56,
+      "end": 2308.56,
+      "text": "Nah, scroll ke bawah."
+    },
+    {
+      "start": 2308.56,
+      "end": 2310.56,
+      "text": "Oh ini Polyfill-nya."
+    },
+    {
+      "start": 2310.56,
+      "end": 2318.56,
+      "text": "Nah itu dia, jadi kalau misalnya pengen pakai Polyfill itu, bisa langsung install."
+    },
+    {
+      "start": 2318.56,
+      "end": 2322.56,
+      "text": "Udah ada library yang tinggal plug and play aja dan support-nya cukup lumayan sih."
+    },
+    {
+      "start": 2322.56,
+      "end": 2325.56,
+      "text": "Firefox, Chrome, Edge, Safari."
+    },
+    {
+      "start": 2325.56,
+      "end": 2328.56,
+      "text": "Bisa langsung, bisa langsung ke CSS-nya nggak? Atau perlu..."
+    },
+    {
+      "start": 2328.56,
+      "end": 2335.56,
+      "text": "Ya nggak, itu kan library JavaScript, ya di-install aja itu."
+    },
+    {
+      "start": 2335.56,
+      "end": 2340.56,
+      "text": "Oh, Edge Supports ya?"
+    },
+    {
+      "start": 2340.56,
+      "end": 2342.56,
+      "text": "Oke."
+    },
+    {
+      "start": 2342.56,
+      "end": 2345.56,
+      "text": "Nah terus ini topik juga, ini masih terkait nih."
+    },
+    {
+      "start": 2345.56,
+      "end": 2351.56,
+      "text": "Sekarang giliran gue yang tanya, kalian atau temen-temen yang lagi ngedengerin juga bisa nge-reply di chat."
+    },
+    {
+      "start": 2351.56,
+      "end": 2357.56,
+      "text": "Apa yang kalian lakukan kalau nemu kayak gini nih, hal-hal feature-feature baru yang oke banget?"
+    },
+    {
+      "start": 2357.56,
+      "end": 2361.56,
+      "text": "Ini kan relevan ya, maksudnya ini hal yang cukup, ini hal yang relevan banget."
+    },
+    {
+      "start": 2361.56,
+      "end": 2366.56,
+      "text": "Kalau kita bikin component UI, ini berguna. Ini oke lah, kita udah senang pengen pakai."
+    },
+    {
+      "start": 2366.56,
+      "end": 2372.56,
+      "text": "Tapi tadaa, belum bisa, browser support-nya belum merata."
+    },
+    {
+      "start": 2372.56,
+      "end": 2378.56,
+      "text": "Nah kalian gimana, nggak usah pakai sama sekali, udah ntar-ntar aja tunggu dulu."
+    },
+    {
+      "start": 2378.56,
+      "end": 2384.56,
+      "text": "Atau pakai Polyfill, Polyfill dengan konsekuensi ya sedikit, walaupun sekecil apapun kan,"
+    },
+    {
+      "start": 2384.56,
+      "end": 2390.56,
+      "text": "menambah package yang harus di-install ya, menambah JavaScript runtime juga."
+    },
+    {
+      "start": 2390.56,
+      "end": 2397.56,
+      "text": "Atau mungkin hand roll, bikin pakai kan CSS, ada add support square itu."
+    },
+    {
+      "start": 2397.56,
+      "end": 2406.56,
+      "text": "Jadi kita manually bikin styling untuk CSS yang belum support, atau bagaimana? Coba."
+    },
+    {
+      "start": 2406.56,
+      "end": 2416.56,
+      "text": "Tergantung target audience-nya. Kalau target audience-nya cukup modern ya."
+    },
+    {
+      "start": 2416.56,
+      "end": 2426.56,
+      "text": "Browser-nya update terus, rasanya perlu. Dan tergantung juga dengan aplikasi yang mau dibuat."
+    },
+    {
+      "start": 2426.56,
+      "end": 2432.56,
+      "text": "Kalau misalkan nggak butuh-butuh banget, bukan critical, bukan sesuatu yang terlalu critical,"
+    },
+    {
+      "start": 2432.56,
+      "end": 2438.56,
+      "text": "ya nggak usah dipakai. Tapi kalau misalkan, wah ini dinamis banget nih, kayak misalkan apa ya?"
+    },
+    {
+      "start": 2438.56,
+      "end": 2447.56,
+      "text": "Pinterest misalkannya, card-nya ditambahin terus dia berubah posisi dan lain-lain gitu, ketika butuh itu ya"
+    },
+    {
+      "start": 2447.56,
+      "end": 2454.56,
+      "text": "mungkin Polyfill bisa menjadi jalan tengah untuk sementara, sampai akhirnya di-support secara full."
+    },
+    {
+      "start": 2454.56,
+      "end": 2462.56,
+      "text": "Kalau saya, pengalamannya gini, lihat dulu nih, API yang saya senang itu sudah menjadi standard belum."
+    },
+    {
+      "start": 2462.56,
+      "end": 2471.56,
+      "text": "Jangan-jangan kalau masih draft atau trial, yang masih belum tahu nasibnya gimana, jangan dulu."
+    },
+    {
+      "start": 2471.56,
+      "end": 2478.56,
+      "text": "Contohnya yang kemarin minggu lalu, transition API, saya nggak mau implementasi, belum rani."
+    },
+    {
+      "start": 2478.56,
+      "end": 2485.56,
+      "text": "Iya itu ada warning-nya juga kan emang, di halamannya. Hati-hati kalau pakai ini pasti akan berubah."
+    },
+    {
+      "start": 2485.56,
+      "end": 2494.56,
+      "text": "Kalau ini, kalau ini? Kalau ini, saya baru saja woro-woro, saya hijau ke tim, yuk kita mulai implementasi CSS content."
+    },
+    {
+      "start": 2494.56,
+      "end": 2497.56,
+      "text": "Meskipun Firefox belum ada?"
+    },
+    {
+      "start": 2497.56,
+      "end": 2509.56,
+      "text": "Saya mau relate ke itu, Polyfill. Kebetulan, kebetulan, project yang sedang saya pegang berdasarkan data analytics-nya,"
+    },
+    {
+      "start": 2509.56,
+      "end": 2517.56,
+      "text": "Firefox itu menduduki top 8 yang cuma sekitar 3% traffic."
+    },
+    {
+      "start": 2517.56,
+      "end": 2530.56,
+      "text": "Jadi terbesarnya itu Chrome, Safari, dan Edge terbesarnya."
+    },
+    {
+      "start": 2530.56,
+      "end": 2547.56,
+      "text": "Jadi kayak top 5, top 6-nya itu Chrome, Safari, Edge. Bahkan Chrome Mobile, Safari Mobile, Chrome Desktop, Safari Mobile,"
+    },
+    {
+      "start": 2547.56,
+      "end": 2561.56,
+      "text": "baru kemudian Edge, Edge Mobile, dan Edge Desktop. Baru kemudian Opera, baru Firefox."
+    },
+    {
+      "start": 2561.56,
+      "end": 2572.56,
+      "text": "Itu dari data hasil analytics ya. Jadi dengan demikian, sayang juga nggak mau pilih-pilih kalau kecil banget 3%, nggak boleh juga."
+    },
+    {
+      "start": 2572.56,
+      "end": 2578.56,
+      "text": "Harus di-serve semua kan? Harus di-serve semua. Jadi saya bisa mungkin, kalau ada Polyfill-nya, saya lanjut."
+    },
+    {
+      "start": 2578.56,
+      "end": 2588.56,
+      "text": "Contohnya yang ini, saya green light, implementasi. Nanti ujung-ujungnya pakai Polyfill. Harus."
+    },
+    {
+      "start": 2588.56,
+      "end": 2597.56,
+      "text": "Tetap harus ada notes nanti dibuat. Kalau nanti Firefox sudah support."
+    },
+    {
+      "start": 2597.56,
+      "end": 2602.56,
+      "text": "Jangan lupa remove Polyfill-nya. Kode yang ini di-remove."
+    },
+    {
+      "start": 2602.56,
+      "end": 2611.56,
+      "text": "Nah, itu cara kita catch up dengan, itu gimana? Nungguin Firefox-nya hijau. Gimana trick-nya?"
+    },
+    {
+      "start": 2611.56,
+      "end": 2623.56,
+      "text": "Sekarang trick-nya saya kayak cuma ada mental aja ya. Remember aja, nanti gimana? Nunggu aja kayak 2 bulan."
+    },
+    {
+      "start": 2623.56,
+      "end": 2628.56,
+      "text": "Gak ada ditaro di sticky note gitu ya."
+    },
+    {
+      "start": 2628.56,
+      "end": 2631.56,
+      "text": "Di apa? Di JIRA."
+    },
+    {
+      "start": 2631.56,
+      "end": 2633.56,
+      "text": "Gimana sih?"
+    },
+    {
+      "start": 2633.56,
+      "end": 2642.56,
+      "text": "Iya sih, so far implementasi aja dulu. Karena kalau Polyfill, meskipun dia sudah ada,"
+    },
+    {
+      "start": 2642.56,
+      "end": 2647.56,
+      "text": "kalau Polyfill-nya pintar, kalau dia sudah ada, dia nggak bisa menjalani lagi kan?"
+    },
+    {
+      "start": 2647.56,
+      "end": 2654.56,
+      "text": "Dia nge-check. Ya, cuma kan kalau mau itu banget, kalau mau irit banget performance budget-nya,"
+    },
+    {
+      "start": 2654.56,
+      "end": 2657.56,
+      "text": "kan ya gimana pun dia runtime dikit."
+    },
+    {
+      "start": 2657.56,
+      "end": 2659.56,
+      "text": "Tetap loading."
+    },
+    {
+      "start": 2659.56,
+      "end": 2663.56,
+      "text": "Tetap loading buat nge-check support."
+    },
+    {
+      "start": 2663.56,
+      "end": 2667.56,
+      "text": "Nah, ini ada pendapat menarik nih dari Devi."
+    },
+    {
+      "start": 2667.56,
+      "end": 2677.56,
+      "text": "\"You're missing the whole point of progressive enhancement. If you think you need to wait for wide browser support.\""
+    },
+    {
+      "start": 2677.56,
+      "end": 2687.56,
+      "text": "Nah, ini oke ya. Maksudnya mungkin karena web itu kan platform yang apa ya, dinamis banget dan diverse."
+    },
+    {
+      "start": 2687.56,
+      "end": 2695.56,
+      "text": "Kayak beda-beda banget kan? Nggak mungkin kita nunggu semua browser setuju buat mengadopsi suatu feature."
+    },
+    {
+      "start": 2695.56,
+      "end": 2702.56,
+      "text": "Semua user pakai browser yang sudah support, yaudah, kayaknya kita nggak bakal ada apa-apa-apa udah."
+    },
+    {
+      "start": 2702.56,
+      "end": 2712.56,
+      "text": "Bahkan saya kalau untuk decide untuk pakai atau tidak, yang penting API-nya secara web standard sudah approve bersama,"
+    },
+    {
+      "start": 2712.56,
+      "end": 2722.56,
+      "text": "secara konsersium sudah approve. Tapi kalau yang masih baru diajukan, masih trial, no, nanti dulu deh, jangan dulu."
+    },
+    {
+      "start": 2722.56,
+      "end": 2726.56,
+      "text": "Kalau mau coba-coba, silahkan. Itu wajib untuk dicobakan di feedback."
+    },
+    {
+      "start": 2726.56,
+      "end": 2732.56,
+      "text": "Apalagi kita pada GDI yang diminta untuk mencoba-coba hal tersebut."
+    },
+    {
+      "start": 2732.56,
+      "end": 2737.56,
+      "text": "Dan membagikannya kepada teman-teman yang lain biar juga tahu."
+    },
+    {
+      "start": 2737.56,
+      "end": 2746.56,
+      "text": "Dan mungkin kadang kita mesti agak, apa ya, kan mungkin kalau desainer visual ya yang terbiasa dengan,"
+    },
+    {
+      "start": 2746.56,
+      "end": 2756.56,
+      "text": "kita sebagai developer kan mindset-nya agak beda dengan desainer visual yang mungkin latar belakangnya dari cetak atau apalah yang harus pixel perfect banget."
+    },
+    {
+      "start": 2756.56,
+      "end": 2761.56,
+      "text": "Nah, mungkin mindset-nya kita harus bisa ngomunikasiin mindset juga ya."
+    },
+    {
+      "start": 2761.56,
+      "end": 2772.56,
+      "text": "Jadi misalnya kasus tadi tuh 97% sudah bisa, sudah bisa dapat full experience, full ideal experience."
+    },
+    {
+      "start": 2772.56,
+      "end": 2780.56,
+      "text": "Ya, anggap lah misalnya belum ada polyfill-nya. Mungkin kita bisa mengakalin pakai supersquare buat modifikasi sederhana."
+    },
+    {
+      "start": 2780.56,
+      "end": 2792.56,
+      "text": "Jadi tujuannya mungkin 1% atau 2% user kita nggak bisa dapat desain yang ideal, pixel perfect seperti yang diinginkan."
+    },
+    {
+      "start": 2792.56,
+      "end": 2797.56,
+      "text": "Tapi kita mestiin info yang mereka butuhkan bisa dibaca, bisa diakses."
+    },
+    {
+      "start": 2797.56,
+      "end": 2809.56,
+      "text": "Ya, kadang ada kalanya kita mesti ngakalin kayak gitu. Nah, sebagai developer mungkin kita harus bisa mengkomunikasikan itu dengan baik ke misalnya desainer di tim kita kali ya."
+    },
+    {
+      "start": 2809.56,
+      "end": 2815.56,
+      "text": "Karena kalau desain, cetak, ya kan kalau cetak pasti semua hasilnya gitu."
+    },
+    {
+      "start": 2815.56,
+      "end": 2819.56,
+      "text": "Kita tinggal pesan kertas, jenis kertas apa bisa dipastikan semua sama."
+    },
+    {
+      "start": 2819.56,
+      "end": 2827.56,
+      "text": "Tapi kalau web, device yang dipakai seluruh user kita buat mengakses kan nggak bisa di-streamline se-gampang itu kan."
+    },
+    {
+      "start": 2827.56,
+      "end": 2833.56,
+      "text": "Saya punya pengalaman harus support IE11."
+    },
+    {
+      "start": 2833.56,
+      "end": 2835.56,
+      "text": "Waduh."
+    },
+    {
+      "start": 2835.56,
+      "end": 2855.56,
+      "text": "IE11 dikarenakan jadi di sebuah bank, international bank saat itu. Kan biasanya kalau user-nya mereka, bukan sorry, user-nya pengguna sistem artinya pegawai bank ya."
+    },
+    {
+      "start": 2855.56,
+      "end": 2863.56,
+      "text": "Jadi bagian konten segala macam itu. Kan mereka menggunakan laptop yang dikasih dari kantor."
+    },
+    {
+      "start": 2863.56,
+      "end": 2870.56,
+      "text": "Ya, dan kalau sudah bank kan security-nya ketat ya. Nggak bisa install apa-apa. Itu dikontrol semua dari pusat."
+    },
+    {
+      "start": 2870.56,
+      "end": 2877.56,
+      "text": "Dan browser-nya masih IE11. Gak bisa install Chrome, nggak diperbolehkan."
+    },
+    {
+      "start": 2877.56,
+      "end": 2885.56,
+      "text": "Tetapi target user yang public itu top 3 browser semua."
+    },
+    {
+      "start": 2885.56,
+      "end": 2897.56,
+      "text": "Moderen semua. Jadi kita harus support IE11 supaya user yang pakai di internal bisa menggunakan sistem yang kita pakai."
+    },
+    {
+      "start": 2897.56,
+      "end": 2904.56,
+      "text": "Karena UAT-nya mereka. Mereka nggak bisa UAT pakai top 3 browser."
+    },
+    {
+      "start": 2904.56,
+      "end": 2907.56,
+      "text": "Gimana coba?"
+    },
+    {
+      "start": 2907.56,
+      "end": 2915.56,
+      "text": "Dua versi. Kisah. Yang kalian pakai file CSS yang di-load berdasarkan user engine."
+    },
+    {
+      "start": 2915.56,
+      "end": 2919.56,
+      "text": "Itulah suka-dukanya jaman itu."
+    },
+    {
+      "start": 2919.56,
+      "end": 2927.56,
+      "text": "Wah jadi ingat jaman dulu tuh ada web pencari kerja, portal pencari kerja, yang hanya support IE sekian."
+    },
+    {
+      "start": 2927.56,
+      "end": 2931.56,
+      "text": "Oh iya, saya tahu itu."
+    },
+    {
+      "start": 2931.56,
+      "end": 2941.56,
+      "text": "Malah kebalik ya. Bukan IE yang tidak disupport, tapi harus IE. Nggak boleh yang lain."
+    },
+    {
+      "start": 2941.56,
+      "end": 2945.56,
+      "text": "Karena dia teknologi pakai .NET salah satunya."
+    },
+    {
+      "start": 2945.56,
+      "end": 2957.56,
+      "text": "Beberapa tahun lalu di sebuah urusan untuk SIM card gitu lho."
+    },
+    {
+      "start": 2957.56,
+      "end": 2965.56,
+      "text": "Saya lihat mereka untuk, itu lho kayak salah satu provider telekomunikasi."
+    },
+    {
+      "start": 2965.56,
+      "end": 2974.56,
+      "text": "Jadi bagian customer service-nya untuk melakukan back office sistemnya dia itu harus pakai IE karena masih menggunakan ActiveX."
+    },
+    {
+      "start": 2974.56,
+      "end": 2994.56,
+      "text": "Beberapa tahun lalu sih. Intinya back to ini, bagaimana bisa tetap memberikan support terbaik terhadap internal bank,"
+    },
+    {
+      "start": 2994.56,
+      "end": 3006.56,
+      "text": "tetapi juga harus ikut modern ininya. Jadi di tooling-nya sistem kita juga harus kayak kan bisa pakai browser revise segala macam itu untuk,"
+    },
+    {
+      "start": 3006.56,
+      "end": 3010.56,
+      "text": "eh sorry, apa namanya? Ada untuk..."
+    },
+    {
+      "start": 3010.56,
+      "end": 3012.56,
+      "text": "Browser list ya?"
+    },
+    {
+      "start": 3012.56,
+      "end": 3014.56,
+      "text": "Ya browser list, betul."
+    },
+    {
+      "start": 3014.56,
+      "end": 3022.56,
+      "text": "Dan waktu di compile, transpile kita harus tetap memasukkan IE 11 itu sebagai salah satu yang kita cek."
+    },
+    {
+      "start": 3022.56,
+      "end": 3034.56,
+      "text": "Linternya kita juga kita cek. Jadi tetap harus ada. Bahkan di stylesheet-nya kita itu satu folder khusus IE 11, support IE 11 support."
+    },
+    {
+      "start": 3034.56,
+      "end": 3036.56,
+      "text": "Tetap harus di support."
+    },
+    {
+      "start": 3036.56,
+      "end": 3042.56,
+      "text": "Kita lah, suka-dukanya web development."
+    },
+    {
+      "start": 3042.56,
+      "end": 3046.56,
+      "text": "Kita tetap ingin maju cepat, tetapi kita harus lihat ke belakang."
+    },
+    {
+      "start": 3046.56,
+      "end": 3059.56,
+      "text": "Tetap mau adopsi latest technology, tetapi nggak boleh meninggalkan yang..."
+    },
+    {
+      "start": 3059.56,
+      "end": 3062.56,
+      "text": "Old technology, not so latest technology."
+    },
+    {
+      "start": 3062.56,
+      "end": 3070.56,
+      "text": "Tetapi tetap harus ada ini ya, harus ada baseline yang ditetapkan, perjanjian bersama."
+    },
+    {
+      "start": 3070.56,
+      "end": 3079.56,
+      "text": "Tetapi sekarang project-project baru, project baru kita langsung bilang, nope, IE 11 is no more."
+    },
+    {
+      "start": 3079.56,
+      "end": 3086.56,
+      "text": "Karena sudah mati, sudah nggak di support juga kan, sama Microsoft, pindah."
+    },
+    {
+      "start": 3086.56,
+      "end": 3099.56,
+      "text": "Jadi biasanya kan Windows 10 sama Windows 11, kalau sudah service pack kesekian, itu sudah IE 11-nya udah nggak ada kan, udah ganti edge kan."
+    },
+    {
+      "start": 3099.56,
+      "end": 3104.56,
+      "text": "Jadi sudah biasanya dipengaruhi itu."
+    },
+    {
+      "start": 3104.56,
+      "end": 3114.56,
+      "text": "Kalau laptop-laptop baru dari meskipun dia corporate, kalau dapatnya Windows 11, udah pasti edge kan dapatnya."
+    },
+    {
+      "start": 3114.56,
+      "end": 3126.56,
+      "text": "Jadi sekarang kita kasih baseline, yang di support adalah browser dan 3 versi terakhir."
+    },
+    {
+      "start": 3126.56,
+      "end": 3134.56,
+      "text": "3 versi terakhir, perjanjiannya kalau iOS, sorry, Safari 16 misalnya."
+    },
+    {
+      "start": 3134.56,
+      "end": 3140.56,
+      "text": "Berarti sampai 14 kita harus support, wajib."
+    },
+    {
+      "start": 3140.56,
+      "end": 3145.56,
+      "text": "Terus itu pentingnya kita collect analytics juga kali ya."
+    },
+    {
+      "start": 3145.56,
+      "end": 3158.56,
+      "text": "Contohnya analytics kan emang kalau nggak di handle dengan baik, bisa disalahgunain dan mungkin kita atau publik yang awam tuh lebih sering dengar tentang hal-hal negatif lah."
+    },
+    {
+      "start": 3158.56,
+      "end": 3166.56,
+      "text": "Hal-hal negatif dari analytics kan, jadi sering dianggap sebagai sesuatu yang buruk atau cuma bikin lambat aja."
+    },
+    {
+      "start": 3166.56,
+      "end": 3176.56,
+      "text": "Tapi di sini kita bisa lihat pentingnya analytics, kita tahu device apa aja yang dipakai oleh user kita."
+    },
+    {
+      "start": 3176.56,
+      "end": 3187.56,
+      "text": "Dan kita bisa optimize experience-nya dan itu bisa jadi bahan buat kita nentuin mau menggunakan suatu API atau nggak."
+    },
+    {
+      "start": 3187.56,
+      "end": 3199.56,
+      "text": "Jadi kepikiran kalau di analytics kita misalnya nih, misalnya, gue langsung kepikiran tidak nih."
+    },
+    {
+      "start": 3199.56,
+      "end": 3209.56,
+      "text": "Contohnya kita kan bisa ngedetek pakai JavaScript apakah suatu API tertentu ada atau tidak gitu ya."
+    },
+    {
+      "start": 3209.56,
+      "end": 3222.56,
+      "text": "-Navigator-nya aja semua. -Contohnya ada sebuah, kita mau lakukan field analysis."
+    },
+    {
+      "start": 3222.56,
+      "end": 3228.56,
+      "text": "Field analysis itu artinya kita mau ngetes di user kita itu datanya cukup mendukung atau tidak."
+    },
+    {
+      "start": 3228.56,
+      "end": 3246.56,
+      "text": "Contohnya kita mau apa sih API yang baru? Fugu, contoh file system misalnya, file system API."
+    },
+    {
+      "start": 3246.56,
+      "end": 3252.56,
+      "text": "Kita kan bisa ngedetek pakai JavaScript kalau si browser itu support file system API atau tidak."
+    },
+    {
+      "start": 3252.56,
+      "end": 3259.56,
+      "text": "Jadi kita juga bisa, sebelum menentukan kita harus pakai atau tidak, kita harus buka analytics."
+    },
+    {
+      "start": 3259.56,
+      "end": 3262.56,
+      "text": "Analytics ada data-nya ada atau tidak? Kan kita tidak bisa melihat langsung."
+    },
+    {
+      "start": 3262.56,
+      "end": 3270.56,
+      "text": "Kita kan cuma bisa lihat top 10 browser bisa kita lihat, tapi apakah browser itu support atau tidak kita belum tahu."
+    },
+    {
+      "start": 3270.56,
+      "end": 3276.56,
+      "text": "Jadi bisa kita juga lakukan send data pakai analytics atau GTM contohnya."
+    },
+    {
+      "start": 3276.56,
+      "end": 3290.56,
+      "text": "Kita ngedetek aja itu si API tersebut ada atau tidak. Kita send datanya ke GTM, kita collect data misalnya 2 minggu atau sebulan"
+    },
+    {
+      "start": 3290.56,
+      "end": 3301.56,
+      "text": "dari data yang kita punya kita dapat user kita, berapa persen sih yang sudah support file system API?"
+    },
+    {
+      "start": 3301.56,
+      "end": 3313.56,
+      "text": "Baru kita bisa implementasi. Jadi sebelum warung-warung kita pakai, justru kita pakai tidak, cek dulu."
+    },
+    {
+      "start": 3313.56,
+      "end": 3319.56,
+      "text": "Pakai aja analytics, kirim ada dari JavaScript, collecting data sebulan mungkin."
+    },
+    {
+      "start": 3319.56,
+      "end": 3327.56,
+      "text": "Mungkin data cukup sebulan atau 2 minggu terserah, dari situ berapa persen yang support API baru"
+    },
+    {
+      "start": 3327.56,
+      "end": 3331.56,
+      "text": "yang kita ingin implementasi itu sudah ada atau belum."
+    },
+    {
+      "start": 3331.56,
+      "end": 3335.56,
+      "text": "Kayak can I use tapi khusus untuk user kita aja gitu ya?"
+    },
+    {
+      "start": 3335.56,
+      "end": 3337.56,
+      "text": "User kita, betul."
+    },
+    {
+      "start": 3337.56,
+      "end": 3345.56,
+      "text": "Yang gue pernah malah itu sih semacam soft launching feature, itu kan bisa dipakai misalnya feature itu ada geolocation-nya."
+    },
+    {
+      "start": 3345.56,
+      "end": 3352.56,
+      "text": "Nah kan pertama sebelum munculin, ya sebelum ngerunning, cek dulu kan if geolocation in navigator."
+    },
+    {
+      "start": 3352.56,
+      "end": 3358.56,
+      "text": "Itu untuk ngecek kalau di support atau nggak, kalau di support ya munculin feature itu."
+    },
+    {
+      "start": 3358.56,
+      "end": 3363.56,
+      "text": "Kalau nggak, apa di else-nya kan kita bisa kirim event juga."
+    },
+    {
+      "start": 3363.56,
+      "end": 3367.56,
+      "text": "Ya udah, itu salah satu bentuk soft launching."
+    },
+    {
+      "start": 3367.56,
+      "end": 3373.56,
+      "text": "Kalau yang support dikit ya udah, berarti kan nggak terlalu worth it. Belum."
+    },
+    {
+      "start": 3373.56,
+      "end": 3383.56,
+      "text": "Jadi menarik tuh untuk dibahas nanti di sebuah DevFest. Gimana sih kita lakukan field report atau dari report dari user kita"
+    },
+    {
+      "start": 3383.56,
+      "end": 3387.56,
+      "text": "sebelum kita menentukan, decide untuk menentukan adomsi teknologi terbaru."
+    },
+    {
+      "start": 3387.56,
+      "end": 3394.56,
+      "text": "Ya kalau yang caranya Eka itu kan udah di develop kan, udah di develop baru di cek kan apakah ini support atau nggak."
+    },
+    {
+      "start": 3394.56,
+      "end": 3396.56,
+      "text": "Udah tapi MVP-nya doang."
+    },
+    {
+      "start": 3396.56,
+      "end": 3403.56,
+      "text": "Sebelum kita decide untuk pakai, kita cek usernya dulu, apakah usernya udah support."
+    },
+    {
+      "start": 3403.56,
+      "end": 3411.56,
+      "text": "Terus abis itu dibikin model prediksinya, kira-kira dia akan support berapa bulan lagi, berapa tahun lagi."
+    },
+    {
+      "start": 3411.56,
+      "end": 3418.56,
+      "text": "Masin learning, over thinking, penyakit develop."
+    },
+    {
+      "start": 3418.56,
+      "end": 3421.56,
+      "text": "Ide-nya bagus tuh, ide-nya menarik."
+    },
+    {
+      "start": 3421.56,
+      "end": 3426.56,
+      "text": "Boleh gue berpikiran setelah ngobrol begini, asik ya."
+    },
+    {
+      "start": 3426.56,
+      "end": 3435.56,
+      "text": "Loh nggak, apa kalau mau iseng nih, ya udah pas lagi baru loading, cek aja di navigatornya misalnya bikin satu objek nih."
+    },
+    {
+      "start": 3435.56,
+      "end": 3446.56,
+      "text": "Apakah geolocation in navigator, apakah misalnya add to home screen ada, apakah web RTC ada, kumpulin jadi satu objek, stringify, kirim."
+    },
+    {
+      "start": 3446.56,
+      "end": 3449.56,
+      "text": "Ya hati-hati soal GDPR, belum."
+    },
+    {
+      "start": 3449.56,
+      "end": 3451.56,
+      "text": "Oh iya, gitu."
+    },
+    {
+      "start": 3451.56,
+      "end": 3454.56,
+      "text": "Kalau kita ambil data itu."
+    },
+    {
+      "start": 3454.56,
+      "end": 3457.56,
+      "text": "Ya kan itu asal anonymize."
+    },
+    {
+      "start": 3457.56,
+      "end": 3465.56,
+      "text": "Jadi kalau kan GDPR ada aturannya sendiri, terus California kan di Amerika khusus California juga ada."
+    },
+    {
+      "start": 3465.56,
+      "end": 3469.56,
+      "text": "Jadi ya pastiin kita tetap ngikutin aturan yang dilakukan."
+    },
+    {
+      "start": 3469.56,
+      "end": 3474.56,
+      "text": "Itu ngaruhnya ke personally identifiable information."
+    },
+    {
+      "start": 3474.56,
+      "end": 3479.56,
+      "text": "Nah apa, pastiin misalnya cookiesnya nggak ikut dikirim ya, cookiesnya nggak diinclude."
+    },
+    {
+      "start": 3479.56,
+      "end": 3483.56,
+      "text": "Atau misalnya kita pakai apa itu yang bawaannya AWS, Cognito."
+    },
+    {
+      "start": 3483.56,
+      "end": 3492.56,
+      "text": "Atau apalah ya service apapun yang buat ngacak dan menghilangkan personally identifiable information dari data yang kita kirim."
+    },
+    {
+      "start": 3492.56,
+      "end": 3499.56,
+      "text": "Karena maksudnya kalau yang kasus tadi kan tujuan kita pingin dapat gambaran besar tentang seluruh user base kita."
+    },
+    {
+      "start": 3499.56,
+      "end": 3508.56,
+      "text": "Bukan satu persatu tapi seluruh user base, berapa persen yang support geolocation, berapa persen yang support WebRTC atau apapun itu."
+    },
+    {
+      "start": 3508.56,
+      "end": 3513.56,
+      "text": "Jadi tetap, ya harus hati-hati, tetap hati-hati tapi bisa, bukannya nggak bisa juga."
+    },
+    {
+      "start": 3513.56,
+      "end": 3519.56,
+      "text": "Ini biasanya tugas kayak dari sisi high level kali ya, jadi kita pingin datanya."
+    },
+    {
+      "start": 3519.56,
+      "end": 3529.56,
+      "text": "Terus menentukan next feature yang akan kita launch itu berdasarkan adopsi user kira-kira ke depannya."
+    },
+    {
+      "start": 3529.56,
+      "end": 3535.56,
+      "text": "Ya kalau kita terlalu cepat adopsi sebuah feature tapi user yang belum bisa pada pakai ya percuma juga kan."
+    },
+    {
+      "start": 3535.56,
+      "end": 3539.56,
+      "text": "Mending sampai threshold tertentu baru di develop."
+    },
+    {
+      "start": 3539.56,
+      "end": 3546.56,
+      "text": "Jadi secara investasinya lebih tepat waktu dan tepat guna."
+    },
+    {
+      "start": 3546.56,
+      "end": 3550.56,
+      "text": "Walaupun memakan waktu lebih panjang ya."
+    },
+    {
+      "start": 3550.56,
+      "end": 3552.56,
+      "text": "Harus reset dulu."
+    },
+    {
+      "start": 3552.56,
+      "end": 3556.56,
+      "text": "Begitu resetnya selesai ternyata si user-user nya."
+    },
+    {
+      "start": 3556.56,
+      "end": 3560.56,
+      "text": "User nya pas udah update."
+    },
+    {
+      "start": 3560.56,
+      "end": 3564.56,
+      "text": "Oke, menarik, menarik."
+    },
+    {
+      "start": 3564.56,
+      "end": 3570.56,
+      "text": "Oke nextnya, ada yang mau di share lagi dari Eka mungkin?"
+    },
+    {
+      "start": 3570.56,
+      "end": 3572.56,
+      "text": "Enggak, udah dulu."
+    },
+    {
+      "start": 3572.56,
+      "end": 3576.56,
+      "text": "Tentang TypeScript error?"
+    },
+    {
+      "start": 3576.56,
+      "end": 3581.56,
+      "text": "Oh iya ini, ada bonus konten, sampai lupa."
+    },
+    {
+      "start": 3581.56,
+      "end": 3589.56,
+      "text": "Jadi kan kalau kita pakai TypeScript itu suka ada error yang agak kriptik ya, agak terlalu poetis."
+    },
+    {
+      "start": 3589.56,
+      "end": 3595.56,
+      "text": "Agak kurang praktikal, maksudnya kita nggak secara langsung tahu itu maksudnya apa."
+    },
+    {
+      "start": 3595.56,
+      "end": 3606.56,
+      "text": "Nah ini ada website yang mengumpulkan error itu dengan penjelasan yang lebih mudah di mengerti oleh pengungsinya."
+    },
+    {
+      "start": 3606.56,
+      "end": 3608.56,
+      "text": "Coba di klik."
+    },
+    {
+      "start": 3608.56,
+      "end": 3612.56,
+      "text": "Static modifier cannot be used with abstract modifier."
+    },
+    {
+      "start": 3612.56,
+      "end": 3616.56,
+      "text": "What? Kadang apaan coba itu maksudnya."
+    },
+    {
+      "start": 3616.56,
+      "end": 3619.56,
+      "text": "Tapi ini di sini dijelasin itu maksudnya apa."
+    },
+    {
+      "start": 3619.56,
+      "end": 3628.56,
+      "text": "Jadi mungkin kalau kita nemu error yang kita sulit pahamin, coba aja dicek di situ."
+    },
+    {
+      "start": 3628.56,
+      "end": 3630.56,
+      "text": "Oke, oke, mantap."
+    },
+    {
+      "start": 3630.56,
+      "end": 3638.56,
+      "text": "Tapi saya penasaran, soalnya beberapa waktu yang lalu waktu di acaranya, di meet up-nya Jakarta JS, itu sempat nanya,"
+    },
+    {
+      "start": 3638.56,
+      "end": 3642.56,
+      "text": "ini kalian masih nulis JS apa udah ke TypeScript, udah ke TS?"
+    },
+    {
+      "start": 3642.56,
+      "end": 3645.56,
+      "text": "Ternyata masih banyak juga yang menulis JavaScript ya."
+    },
+    {
+      "start": 3645.56,
+      "end": 3653.56,
+      "text": "Ya itu tadi. Itu tadi di dunia Jakarta nggak mungkin semua langsung error."
+    },
+    {
+      "start": 3653.56,
+      "end": 3662.56,
+      "text": "Sama mungkin kalau terutama kalau di tim besar, mungkin nggak segampang itu dapetin buy-in untuk meng-convert suatu codebase."
+    },
+    {
+      "start": 3662.56,
+      "end": 3673.56,
+      "text": "Ya, konversinya memang, walaupun TypeScript cenderung lebih mudah dibandingkan bahasa yang lain ya seperti rescript atau elm lebih parah."
+    },
+    {
+      "start": 3673.56,
+      "end": 3681.56,
+      "text": "Ini sebenarnya bisa pelan-pelan sih adopsinya maksudnya integrate ke TypeScript, pakai TS config."
+    },
+    {
+      "start": 3681.56,
+      "end": 3684.56,
+      "text": "Tapi kita ignore aja dulu JS-nya kan."
+    },
+    {
+      "start": 3684.56,
+      "end": 3692.56,
+      "text": "Kalau JS kan kayaknya by default nggak diproses oleh TypeScript ya, kecuali kita configure apa itu allow JavaScript."
+    },
+    {
+      "start": 3692.56,
+      "end": 3699.56,
+      "text": "Sebenarnya bisa, cuma ya itu kalau tim besar, mungkin birokrasi ribet atau apa lah nggak segampang itu langsung di..."
+    },
+    {
+      "start": 3699.56,
+      "end": 3705.56,
+      "text": "untuk mengubah suatu codebase."
+    },
+    {
+      "start": 3705.56,
+      "end": 3711.56,
+      "text": "Oke, kemudian dari Ivan ada PWA Summit."
+    },
+    {
+      "start": 3711.56,
+      "end": 3714.56,
+      "text": "PWA Summit. Kapan ya caranya?"
+    },
+    {
+      "start": 3714.56,
+      "end": 3715.56,
+      "text": "Besok ya?"
+    },
+    {
+      "start": 3715.56,
+      "end": 3717.56,
+      "text": "Besok, tanggal 5."
+    },
+    {
+      "start": 3717.56,
+      "end": 3720.56,
+      "text": "Ya besok. Gua ada di kalender jadi nggak tau. Besok."
+    },
+    {
+      "start": 3720.56,
+      "end": 3722.56,
+      "text": "Ya, register aja for free."
+    },
+    {
+      "start": 3722.56,
+      "end": 3724.56,
+      "text": "Jam 4 sore ya?"
+    },
+    {
+      "start": 3724.56,
+      "end": 3725.56,
+      "text": "Jam 4 sore."
+    },
+    {
+      "start": 3725.56,
+      "end": 3727.56,
+      "text": "Jam 8 malam."
+    },
+    {
+      "start": 3727.56,
+      "end": 3729.56,
+      "text": "Tumpen jamnya enak."
+    },
+    {
+      "start": 3729.56,
+      "end": 3733.56,
+      "text": "Iya, jam 9 pagi."
+    },
+    {
+      "start": 3733.56,
+      "end": 3738.56,
+      "text": "Karena Eropa kali ya, kalau Amerika kan jamnya lebih sulit."
+    },
+    {
+      "start": 3738.56,
+      "end": 3740.56,
+      "text": "Ini Eropa Eropa, jadi jam 9 pagi di sana."
+    },
+    {
+      "start": 3740.56,
+      "end": 3745.56,
+      "text": "Kalau jam 9 pagi mereka ya kita masih oke lah, masih sore."
+    },
+    {
+      "start": 3745.56,
+      "end": 3747.56,
+      "text": "Register aja free?"
+    },
+    {
+      "start": 3747.56,
+      "end": 3755.56,
+      "text": "Free, online dan kira-kira ada materi yang ditunggu nggak, yang menarik?"
+    },
+    {
+      "start": 3755.56,
+      "end": 3764.56,
+      "text": "Workshop mana? Kalau masih pengen mulai getting started ya untuk workshop, boleh."
+    },
+    {
+      "start": 3764.56,
+      "end": 3767.56,
+      "text": "Kalau Ivan sendiri tertariknya kemana?"
+    },
+    {
+      "start": 3767.56,
+      "end": 3775.56,
+      "text": "Itu yang Modern PWA Winning Combo for Best Client Experience pengen menarik juga soal studi kasusnya."
+    },
+    {
+      "start": 3775.56,
+      "end": 3779.56,
+      "text": "GDI juga ya?"
+    },
+    {
+      "start": 3779.56,
+      "end": 3781.56,
+      "text": "Betul."
+    },
+    {
+      "start": 3781.56,
+      "end": 3783.56,
+      "text": "GDI, dia kerjanya di Intel?"
+    },
+    {
+      "start": 3783.56,
+      "end": 3785.56,
+      "text": "Oke."
+    },
+    {
+      "start": 3785.56,
+      "end": 3789.56,
+      "text": "Intel Indonesia atau Intel USD?"
+    },
+    {
+      "start": 3789.56,
+      "end": 3795.56,
+      "text": "Kayaknya dia Eropa ya."
+    },
+    {
+      "start": 3795.56,
+      "end": 3801.56,
+      "text": "Kalau Intel Indonesia kan itu, katanya masak nasi goreng gitu ya."
+    },
+    {
+      "start": 3801.56,
+      "end": 3803.56,
+      "text": "Masak nasi goreng, oh iya."
+    },
+    {
+      "start": 3803.56,
+      "end": 3805.56,
+      "text": "Maksudnya sekalian gitu."
+    },
+    {
+      "start": 3805.56,
+      "end": 3807.56,
+      "text": "Katanya, katanya."
+    },
+    {
+      "start": 3807.56,
+      "end": 3812.56,
+      "text": "Oh iya, yang pakai HT gitu kan."
+    },
+    {
+      "start": 3812.56,
+      "end": 3815.56,
+      "text": "Winning combo, menarik."
+    },
+    {
+      "start": 3815.56,
+      "end": 3818.56,
+      "text": "Terus apa lagi ya, kira-kira menariknya?"
+    },
+    {
+      "start": 3818.56,
+      "end": 3824.56,
+      "text": "Itu banyak loh getting started with PWA workshop itu banyak, itu diulang orangnya berbeda."
+    },
+    {
+      "start": 3824.56,
+      "end": 3829.56,
+      "text": "Jadi silahkan, silahkan ikuti yang mana mau gitu loh maksudnya."
+    },
+    {
+      "start": 3829.56,
+      "end": 3831.56,
+      "text": "Yang paling cocok."
+    },
+    {
+      "start": 3831.56,
+      "end": 3833.56,
+      "text": "Yang paling sesuai, betul."
+    },
+    {
+      "start": 3833.56,
+      "end": 3841.56,
+      "text": "Karena ini fokusnya kayaknya supaya membangkitkan lagi orang supaya awalnya kayaknya masuk PWA."
+    },
+    {
+      "start": 3841.56,
+      "end": 3848.56,
+      "text": "PWA terus nggak bisa masuk karena webnya makin lama, makin berat, makin banyak JavaScript."
+    },
+    {
+      "start": 3848.56,
+      "end": 3852.56,
+      "text": "Terus akhirnya call web fighter dulu, baru sekarang balik lagi PWA."
+    },
+    {
+      "start": 3852.56,
+      "end": 3854.56,
+      "text": "Progressive Enhancement."
+    },
+    {
+      "start": 3854.56,
+      "end": 3857.56,
+      "text": "Progressive Enhancement."
+    },
+    {
+      "start": 3857.56,
+      "end": 3861.56,
+      "text": "Itu tuh emang kalau misalnya terlalu banyak JavaScript."
+    },
+    {
+      "start": 3861.56,
+      "end": 3865.56,
+      "text": "Oh iya, nggak bisa ya, nggak muncul itu homescreennya ya."
+    },
+    {
+      "start": 3865.56,
+      "end": 3872.56,
+      "text": "Kalau misalnya suatu, jadi semua situs atau aplikasi web itu sebenarnya bisa jadi PWA."
+    },
+    {
+      "start": 3872.56,
+      "end": 3878.56,
+      "text": "Tapi dia harus memenuhi kriteria tertentu, berarti yang jadi barrier secara nggak langsung."
+    },
+    {
+      "start": 3878.56,
+      "end": 3884.56,
+      "text": "Yang jadi halangan adalah memenuhi kriteria-kriteria itu ya harus responsif."
+    },
+    {
+      "start": 3884.56,
+      "end": 3892.56,
+      "text": "Harus ada service worker minimal buat handle 404 kalau offline di halaman utama ya."
+    },
+    {
+      "start": 3892.56,
+      "end": 3896.56,
+      "text": "Iya, betul."
+    },
+    {
+      "start": 3896.56,
+      "end": 3900.56,
+      "text": "Oke, udah satu jam kita ngobrol."
+    },
+    {
+      "start": 3900.56,
+      "end": 3904.56,
+      "text": "Banyak ide berseliwaran, jangan lupa dicata."
+    },
+    {
+      "start": 3904.56,
+      "end": 3905.56,
+      "text": "Jangan sampai lupa."
+    },
+    {
+      "start": 3905.56,
+      "end": 3907.56,
+      "text": "Ada yang tanya nggak di Slido?"
+    },
+    {
+      "start": 3907.56,
+      "end": 3910.56,
+      "text": "Ada yang tanya di Slido."
+    },
+    {
+      "start": 3910.56,
+      "end": 3912.56,
+      "text": "Tak ada."
+    },
+    {
+      "start": 3912.56,
+      "end": 3916.56,
+      "text": "Apakah mempelajari core web fighter meningkatkan apa itu?"
+    },
+    {
+      "start": 3916.56,
+      "end": 3918.56,
+      "text": "Kesempat anda berkerjaan?"
+    },
+    {
+      "start": 3918.56,
+      "end": 3923.56,
+      "text": "Ya bisa, coba iya dan tidak juga itu."
+    },
+    {
+      "start": 3923.56,
+      "end": 3929.56,
+      "text": "Bisa banget bisa jadi selling point."
+    },
+    {
+      "start": 3929.56,
+      "end": 3932.56,
+      "text": "Menaikan revenue ya."
+    },
+    {
+      "start": 3932.56,
+      "end": 3938.56,
+      "text": "Oke, kalau gitu mungkin untuk malam ini episode kedua kita sudahi dulu saja."
+    },
+    {
+      "start": 3938.56,
+      "end": 3946.56,
+      "text": "Sebelum udahan mungkin dari teman-teman ada yang mau share sosial medianya silahkan."
+    },
+    {
+      "start": 3946.56,
+      "end": 3951.56,
+      "text": "Kalau saya bisa share ke twitter.com/rizafahmi22"
+    },
+    {
+      "start": 3951.56,
+      "end": 3953.56,
+      "text": "Kalau yang lain?"
+    },
+    {
+      "start": 3953.56,
+      "end": 3956.56,
+      "text": "Ke twitter.com/ivanchris.com saja."
+    },
+    {
+      "start": 3956.56,
+      "end": 3959.56,
+      "text": "Ivanchris.com"
+    },
+    {
+      "start": 3959.56,
+      "end": 3960.56,
+      "text": "D-O-T ya."
+    },
+    {
+      "start": 3960.56,
+      "end": 3962.56,
+      "text": "E-K-F-Y-I."
+    },
+    {
+      "start": 3962.56,
+      "end": 3964.56,
+      "text": "Gak pernah buka ya."
+    },
+    {
+      "start": 3964.56,
+      "end": 3966.56,
+      "text": "Oh, gak pernah."
+    },
+    {
+      "start": 3966.56,
+      "end": 3968.56,
+      "text": "Oke, kalau gitu silahkan di follow."
+    },
+    {
+      "start": 3968.56,
+      "end": 3969.56,
+      "text": "Minggu depan bahasa apa?"
+    },
+    {
+      "start": 3969.56,
+      "end": 3971.56,
+      "text": "Ini ada pertanyaan nih. Minggu depan bahasa apa kita?"
+    },
+    {
+      "start": 3971.56,
+      "end": 3973.56,
+      "text": "Minggu depan bahasa apa ya?"
+    },
+    {
+      "start": 3973.56,
+      "end": 3975.56,
+      "text": "Ada ide nggak Mas Lucky?"
+    },
+    {
+      "start": 3975.56,
+      "end": 3978.56,
+      "text": "Ada yang mau request bahasa apa?"
+    },
+    {
+      "start": 3978.56,
+      "end": 3983.56,
+      "text": "Kita ada topik menarik tentang apa ya?"
+    },
+    {
+      "start": 3983.56,
+      "end": 3987.56,
+      "text": "Ya itu best content PWA summit."
+    },
+    {
+      "start": 3987.56,
+      "end": 3990.56,
+      "text": "Itu ya summary ya?"
+    },
+    {
+      "start": 3990.56,
+      "end": 3992.56,
+      "text": "Bisa bisa."
+    },
+    {
+      "start": 3992.56,
+      "end": 3998.56,
+      "text": "Oh ya, kalau teman-teman ada ide, silahkan langsung lempar ide nya."
+    },
+    {
+      "start": 3998.56,
+      "end": 4000.56,
+      "text": "Topik minggu depan mau bahasa apa?"
+    },
+    {
+      "start": 4000.56,
+      "end": 4007.56,
+      "text": "Kita masih ada waktu sekitar 5-6 hari untuk berembuk, untuk bahas topiknya."
+    },
+    {
+      "start": 4007.56,
+      "end": 4013.56,
+      "text": "Jadi kalau ada suggestion, silahkan ke beat.ly/ngobrolinweb."
+    },
+    {
+      "start": 4013.56,
+      "end": 4018.56,
+      "text": "Nanti kalau sarannya menarik, kita akan angkat menjadi topik."
+    },
+    {
+      "start": 4018.56,
+      "end": 4021.56,
+      "text": "Oke, kalau gitu terima kasih buat semuanya."
+    },
+    {
+      "start": 4021.56,
+      "end": 4022.56,
+      "text": "Terima kasih."
+    },
+    {
+      "start": 4022.56,
+      "end": 4026.56,
+      "text": "Terima kasih buat teman-teman, terima kasih buat Eka dan Ivan yang sudah menemani juga."
+    },
+    {
+      "start": 4026.56,
+      "end": 4028.56,
+      "text": "Sama-sama Mas Riza."
+    },
+    {
+      "start": 4028.56,
+      "end": 4033.56,
+      "text": "Kita ketemu lagi minggu depan di jam yang sama, di hari dan jam yang sama."
+    },
+    {
+      "start": 4033.56,
+      "end": 4035.56,
+      "text": "Selamat malam, selamat istirahat."
+    },
+    {
+      "start": 4035.56,
+      "end": 4036.56,
+      "text": "Dadah."
+    },
+    {
+      "start": 4036.56,
+      "end": 4037.56,
+      "text": "Selamat malam, bye."
+    },
+    {
+      "start": 4037.56,
+      "end": 4038.56,
+      "text": "Bye."
+    },
+    {
+      "start": 4038.56,
+      "end": 4040.56,
+      "text": "Mari kita inburn kes."
+    }
+  ],
+  "fullText": "Halo-halo semuanya, selamat malam, selamat hari selasa dan hari selasa adalah waktunya ngobrolin web. Sama kita bertiga, bersama saya Riza, ada Irvan, kita bertiga adalah tergabung ke dalam sebuah programnya itu Web GDI. Enak banget ya openingnya ya. Google Developer Expert for Web Technologies. Ya, kita adalah tiga, hanya tiga ini orang yang ngurusin GDI web di Indonesia ya, di seluruh Indonesia ya. Luar biasa. Dan kita juga supaya bisa, karena mengikuti update-update teknologi di web itu susahnya, minta ampun. Susahnya karena terlalu banyak update-nya. Terlalu banyak kan terlalu cepat. Jadinya, mending kita ngobrolin aja setiap minggu, setiap hari selasa. Setiap minggu, setiap hari selasa. Oke, nah kita malam hari ini topiknya ada topik, benang merahnya ada tentang CSS. Jadi mulai yang basic banget, sampai yang lumayan baru ya, API baru dari CSS juga ya. Ada performa juga seperti biasa dari Irvan. Tapi sebelum itu kita masuk ke ini dulu, ada yang nanya. Senang banget nih, saya kalau ada yang nanya, jadi aktif kan. Jadi dari video minggu lalu, ada dua pertanyaan. Dari episode minggu lalu. Ya, dari episode minggu lalu ada dua pertanyaan. Yang pertama pertanyaan tentang quicklink. Apakah quicklink akan mempengaruhi jumlah visitor menjadi lebih banyak? Oke, ini ditujukan ke saya ya, karena saya yang sampaikan tentang quicklink minggu lalu. Oke, jadi sebenarnya untuk mengulangi sedikit aja, quicklink itu semuanya hanya library kecil aja. Saya coba paste aja di sini ya. Quicklink, itu library kecil yang dibuat oleh Google Chrome Labs. Untuk melakukan prefetch terhadap halaman-halaman selanjutnya yang didapat dari link-link yang ada muncul di viewport atau di tampilan layar user. Jadi halaman tersebut di prefetch dari background. Jadi sehingga saat user nge-click atau pencet link itu, serasa kecepatan situsnya jauh lebih cepat karena sudah di prefetch. Sehingga hanya butuh kayak sekian millisecond halaman tersebut sudah belum. Oke, aku kembali ke pertanyaannya. Apakah quicklink mempengaruhi jumlah visitor menjadi lebih banyak? Jawabannya tidak. Tidak ada hubungannya. Tetapi secara tidak langsung karena situsnya serasa lebih cepat, tentunya user makin senang dong untuk melihat, membrosing situs kita untuk melakukan, ngecek-ngecek situs kita ya, karena cepat banget. Kalau diimplementasinya dilakukan dengan benar, itu serasa headless, jadi serasa SPA. Diklik langsung muncul, klik langsung muncul, jadi serasa SPA dia, single page application. Jadi secara tidak langsung bisa mempengaruhi jumlah visitor lebih banyak karena user lebih engaged terhadap situsnya. Yang tidak sempat saya kasih tahu minggu lalu, itu adalah pengaruhnya ke back-end sebenarnya. Apa tuh pengaruhnya? Back-end, jadi kan dia melakukan prefetch ya, request ya, request ke back-end setiap kali link-nya muncul. Artinya di back-end itu jadi page view, jadi page request. Kalau situsnya hanya skalanya masih kecil dan menengah, ya hostingnya tentu nggak pengaruh. Tapi kalau situsnya sudah view-nya jutaan, itu dan hostingnya punya payment plan-nya itu by page request, berapa jumlah page request itu bisa perlu hati-hati untuk kendalinya. Sangat sengaja ke DDoS sendiri ya? Serasa seperti ke DDoS sendiri, tetapi gini, bill-nya bisa bengkak karena contohnya apa ya page request? Setahu saya banyak kan cloud product, kayak Google Cloud atau AWS ya, AWS atau yang manage-manage hosting itu, mereka ada batasan limit untuk jumlah page request, by page request. Jadi kalau misalnya pakai quick ring, perlu hati-hati untuk page request tersebut. Oh, sudah ya? Baru mau diganti ininya. Oke, pertanyaan kedua. Pertanyaan pertama jawabannya ya dan tidak. Ya, karena website-nya lebih cepat, lebih banyak orang yang suka dan lebih banyak juga, secara otomatis lebih banyak user yang bisa di-serve-kan. Yang kedua, apakah dengan kita belajar React, peruang mendapatkan pekerjaan akan lebih besar? Ini juga jawabannya ya dan tidak. Tergantung mau kerja dimana. Ya, betul. Jadi, ada dua kubu ya, kayak dua sisi mata uang ya. Ada yang mengikuti trend itu bukan sepenuhnya salah, tidak sepenuhnya salah. Karena memang peluang besar di sana ya, peluang banyak di sana gitu, lewangan pekerjaan dan lain-lain. Tapi di sisi yang lain, kembali lagi ke diri kita gitu. Misalkan kita kurang menyukai React, misalkan kita lebih suka framework yang lain gitu. Kenapa dipaksa untuk mengarah ke sana. Atau juga kalau kita ngomongin membuat produk atau membangun sebuah aplikasi, itu kadang-kadang klien-nya nggak peduli kan. Kita mau menulis pakai React kah, mau pakai JQuery kah, atau mau pakai vanilla Javascript gitu. Yang penting hasil lahirnya. Ada yang pakai Backbone nggak untuk Backbone? Tapi Laravel sampai sekarang, gue masih pakai Laravel karena inherit codebase sama ya. Jadi mungkin kalau kita sebagai developer lihat di sosmed atau apalah, kayaknya emang banyak banget framework baru ya. Tapi di kenyataannya kalau di dunia kerja kan nggak semua organisasi atau perusahaan bisa serta-merta tiba-tiba tiap tahun ganti framework gitu. Sesuai apa yang lagi nge-trend kan sebenarnya nggak gitu juga ya. Jadi apa, kayak Rails juga yang pakai juga mungkin masih banyak ya pokoknya framework-framework yang lama. Cuma mungkin yang penting banget, fundamental web-nya aja sih, kayak misalnya tentang performance kemarin tuh. Bisa mengimplement, entah itu kita pakai React atau Swelt atau apapun kan sebenarnya kayak prinsip prefetch atau segala macam yang kita bahas kemarin tuh kan prinsip dasarnya tetap sama ya. Jadi kalau menguasain itu sih mau pindah-pindah, mau React, Swelt, Angular, dan lain-lain, nggak seberat itu. Kalau misalnya emang suatu saat kita pengen cari kerjaan yang mengharuskan pakai stack tertentu dan buat kita itu dream job, ya udah kita bisa dengan gampang mengejar itu. Kuatkan fondasi fundamental JavaScript-nya. Atau web-nya, lebih tepatnya web. Web development-nya. Jangan cuma JavaScript. Web itu banyak. Ya, karena framework itu bisa berganti-ganti, yang bertahan itu ya fundamentalnya. Ketika amit-amit nanti misalkan React, wah udah nggak ngetrend lagi, ya ngetrend yang lain gitu kan. Kalau kita belajar spesifik ke React, begitu React-nya sudah jarang dipakai, kita harus belajar lagi dari awal. Sementara kalau udah fundamental itu udah setengah jalannya. Kita udah ngerti lah dalemannya framework itu seperti apa. Dan ngomongin teknologi web, jadi bukan hanya JavaScript, dan malam ini kita akan membicarakan tentang CSS. Banyakan CSS itu apa sih? Cascading? Cascading style sheet. Dan berhubung materi atau topik saya yang paling nyubi, jadi saya izin duluan ya. Baiklah. Ya, jadi beberapa minggu yang lalu sempat bersiluran di timeline, itu web dev itu mengeluarin sebuah media baru. Seri ya, semacam serial, seri tutorial. Betul, jadi dia bentuk dalam bentuk course, di sini ada banyak sekali di web.dev/learn. Ada mulai dari accessibility, ada learn HTML, ada responsive design, ada form, sampai ada PWA, dan ada CSS. Jadi kalau temen-temen yang ilmu CSS-nya masih cupu seperti saya dan Ivan, kita bisa belajar bareng-bareng di sini. Ya, fakta. Saya masih nyubi banget di CSS. Baru belajar CSS. Ya, sama. Dan kebetulan juga beberapa waktu yang lalu saya sempat diminta untuk isi salah satu workshop online. Dan materinya basic, HTML dan CSS. Dan berhubung waktunya itu terbatas dan khawatir nggak sampai selesai, akhirnya saya bikin dalam bentuk tulisan. Jadi temen-temen kalau mau yang cari yang bahasa Indonesia, bisa ke... HTMLcss.rizafahmi.com Asyik. Ini pakai Google Translate? Enggak, ini bahasa Indonesia. Google Translate tulis sendiri tuh, kan? Ini tulis sendiri, dan tulisan ini, website-nya itu dibikin dengan kit docs-nya yang ditulis di atas spell kit. Jadi ini adalah seperti dokumentasi, kita belajar HTML, basic banget gitu, sampai akhirnya bisa bikin aplikasi sederhana seperti ini, kumpulan link-link gitu aja. CSS-nya juga nggak terlalu banyak dibahas, terlalu mendalam, tapi ya lumayan lah, ada box model, hampir sama ya. Gak spesifik terhadap framework tertentukan, ya? Gak lah, dasarnya dulu. Dasarnya dulu, betul. Dasar banget. Ini memang ditujukan untuk yang belum pernah programming, jadi memang benar-benar dari dasar. Oke, untuk materinya sudah sampai di sini. Selanjutnya kita lanjut ke pembahasan tentang CSS inline dari Ivan. Silahkan. Ya, sini semangat, sorry. Ini masih berkaitan dengan performa, karena saya ahlinya di performa. Saya nggak punya materi yang ini, jadi saya mau buka soal topic discussion aja, diskusi-diskusi topic. Yang sering kita alami ya sebagai web developer itu CSS, saya langsung gambar aja pakai framework tertentu misalnya. Tetapi penggunaannya salah misalnya, jadi contohnya pakai Bootstrap 5 misalnya. Pake apa? Bootstrap. Itu kan maksudnya kalau dipakai dengan cara yang salah ya, dipakai dengan cara yang salah itu ukurannya kan bisa gede banget ya. Bisa sampai, I don't know. Oh, 3 mega. Gak diminify ya? 100 sentikilo byte contohnya ya. Saya nggak tahu tepatnya, cuma begini. Ada salah satu artikel, itu Optimize untuk LCP. Itu disarankan Largest Content Full Pay untuk loading dari sebuah situs. Saya coba cari linknya dulu ya, Optimize LCP. Saya share screen aja tadi ya, biar enak. Boleh, boleh. Share screen. Linknya saya kasih. Optimize LCP. Bentar saya kasih linknya dimana ya? Gak di sini, private chat. Jadi sedikit saja mengenai, karena saya mau nyangkutin ke bagian stylesetnya. Kan kalau LCP kita bahas minggu lalu itu kan Largest Content Full Pay bagaimana kita bisa menampilkan bagian content full art. Bagian yang terbesar dari above the fold. Jadi kalau misalnya di sebuah situs, kita ingin dari header kemudian feature image itu secepat mungkin bisa muncul ya. Kita udah bahas juga minggu-minggu lalu bagaimana strategi-strateginya untuk supaya bisa eliminate render blocking request and so on. Silahkan nanti, kalau nggak salah itu di episode 0 kita bahas itu. Nah, selanjutnya saya mau bahas sedikit mengenai inline CSS versus non-inline CSS. Seperti yang kita tahu, CSS itu render blocking ASCEN. Kalau kita link pakai style tag ya? Ya, betul. Jadi kalau link style gitu, jadi saat web atau halaman kita di request kemudian di render, browser akan menunggu CSS-nya didownload dulu, diparse baru bisa melanjutkan proses rendering. Jadi itulah maksudnya render blocking ASCEN seperti yang kita lihat di sini. Jadi, si browser itu menunggu style sit-nya kita, CSS-nya kita didownload supaya bisa dilanjutkan proses rendering. Betul. Jadi HTML secara keseluruhan memang dia baris-perbaris ya. Jadi dari sini ke header, dari header, ada muncul dia loading, berarti di sini loading font-nya. Font lagi, kemudian loading image, kemudian dan lain-lain, baru dia masuk ke bagian body terus ke bawah. Pokoknya salah satu yang disarankan adalah JavaScript kalau bisa ditaruh di bawah sebelum body tutup. Di deeper execution. Kalau kita pahami grafik ini pelan-pelan, saat HTML didownload, diparse, kemudian CSS-nya didownload. Yang ungu itu CSS dan yang hijau itu image, biasanya feature image yang biasanya menjadi LCP. Di layar siapa? Oh, bukan layar saya ya? Sorry. Sudah, sudah. Ini dokumennya, ini CSS-nya, terus ini image-nya, dan image ini kan biasanya menjadi LCP ya. Biasanya ya. Tetapi proses LCP-nya ini ke block sampai menunggu si CSS file yang besar ini selesai didownload. Ada, ada opsi, itu pertama yang kritikal CSS itu di inline. Inline berarti dimasukin ke style? Iya, betul, dimasukin ke style, jadi style tag di HTML. Jadi rulesetnya apa, deklarasinya, stylingnya di dalam style-nya ya, maksudnya inline. Jadi bukan styling, kalau styling itu kan dia ngambil dari file dari server external atau CDN didownload. Kalau inline artinya di dalam head tag, jadi style itu di dalam head tag-nya HTML. Jadi ini bukan display inline ya, maksudnya kebetulan aja namanya sama. Iya, bukan. Ada satu lagi kan? Ada yang di dalam HTML style inline. Oh, di dalam tag-nya. H1 style sama dengan itu, bukan itu. H1 style sama dengan itu, bukan juga. Bukan itu. Yang di head ya, oke, siap-siap. Betul, jadi yang terjadi, pertanyaan yang saya mau bawa. Kalau misalnya kita inline CSS-nya, tentu HTML kita ukurannya makin besar kan? Dan nggak bisa di-cache ya? Jadi nggak bisa di-cache, betul. Jadi gimana caranya strategi kita untuk develop? Sebenarnya yang above the fold, above the fold itu contohnya begini ya. Kalau misalnya saya pakai begini, berarti yang above the fold itu kan antara icon ini, style yang ada di sini sama yang ini nggak penting ya. Style yang ada di sini itu sebisa mungkin di inline. Harus secepat mungkin ya munculnya. Ada masalah yang terjadi kalau dengan inline dan non-inline. Jadi kalau lihat kita inline, dia nggak bisa di-cache oleh browser. Kalau misalnya kita lihat di network kan, itu biasanya ada CSS yang di-download tuh. Kalau kita disable cache. Nah, ini kan ada CSS-nya ya? Nah, kalau CSS ini kan biasanya sudah di-size this case gitu ya. Sudah di-case, jadinya nggak perlu di-request ulang. Tetapi kalau di-inline, dia nggak bisa di-case karena dia termasuk di halaman, di markup HTML. Ini maksudnya link ya. Nah, apa sih strategi kalian untuk menetapkan, mana sih yang perlu di-inline, mana sih yang nggak perlu di-inline? Karena kita perlu hati-hati di situ, kita tetap perlu menetapkan Leverage Browser Case karena itu penting. Karena untuk hidup kita, nggak untuk mengoptimasi Core Web Vitals untuk search engine. Salah, hidup kita, optimasi Core Web Vitals untuk user kita. User experience ya. Betul, bukan search engine experience. Jadi, kalau memang mau bagus, biasanya untuk Service Core Web Vitals bagus, inline-kan aja semua seabrek-abrek, masukin aja ke HTML. Pasti itu render blocking recourse-nya hilang. Tetapi user kita nggak senang karena yang di-download-nya, file yang sama di-download itu-itu saja. Jadi ya boros-boros kuota. Nah, ada nggak sih cara supaya menentukan itu kalian sehari-hari? Sehari-hari? Gue dulu deh. Apa ya, pokoknya kayaknya segala cara dari yang aneh sampai aneh banget sampai nggak terlalu aneh. Gue udah pernah pake semua deh, termasuk yang beneran di-inline semua di dalam style tech itu pun pernah. Cuma kan sebetulnya kerjaan developer itu trade-off banyak hal ya. Kayak tadi tuh, udah ada satu trade-off yang dibahas, trade-off antara bikin apa itu? Bikin search engine, bikin lighthouse senang, sama bikin user beneran senang. Dan kadang, ya itu punya satu propusi yang sama, sebetulnya halaman yang cepat, enak digunakan, blablabla. Tapi kadang berada prakteknya, itu kan sebetulnya mencabang kayak branching kedua hal yang berbeda ya. Kayak tadi, jadi kalau kita pengen utamain bikin lighthouse senang atau search engine senang, kita bakal di-inline semua. Sedangkan kalau kita pengen bikin user senang, ya mesti kita nggak akan menggunakan cara itu. Nah, selain itu kita juga kan sebetulnya di tim kita, kita ada mungkin product owner atau tim growth atau tim-tim lain yang punya matrix yang ingin dicapa ya, termasuk salah satunya nyambung ke search engine score tadi. Nah, terus di sisi lain, kan itu bergantung banget sama konten aplikasi kita ya. Maksudnya inline style kita misalnya semua ditaruh, style CSS kita semua di-inline ke head, kalau misalnya sebetulnya nggak terlalu banyak, nggak sampai bermega-mega gitu, dan mungkin kebetulan misalnya user kita pakai device yang nggak kuno-kuno amat atau mungkin kemampuan download data-nya nggak terlalu rendah, itu nggak cukup mengganggu. Maksudnya gangguan yang dirasakan user pun nggak cukup signifikan. Bisa aja kadang ada kasus gitu di mana gue pernah inline style semua secara apa, payload yang di-download, payload ke user pun nggak sampai ekstrim. Dan ya itu akhirnya pelan-pelan sambil dibetulin sih, jadi emang itu sebetulnya solusi sementara. Jadi itu kalau udah di lapangan sih agak susah ya kalau untuk di prescribe harus begini atau begitu, jadi kita juggling aja sebetulnya sih. Kayak art ya, kita nggak bisa semuanya satu titik gitu ya. Kita tetap harus kayak, oke kita perlu critical, berarti waktu di CSS-nya, di SAS-nya, kita perlu pisahin gitu. Oh, above default nih untuk mobile, masukin di, I don't know, mungkin kalau pakai Vue atau apa yang untuk transpile, itu kan bisa pakai apa namanya, ini transpile bisa di grouping ya, ini critical CSS, non-critical. Terus gini, kadang sih masih nyambung sama itu, kalau gue kadang sebenarnya nge-check dulu aja LCP-nya apa. Ya udah, kan kita tahu, sebenarnya kan rata-rata ya, tergantung desainnya juga, kita punya shell ya, kita punya apa sih, header, kita bisa tahu itu tingginya berapa, terus biasanya kita punya shell apa itu yang apa, container, kita tahu lebernya berapa, kita tahu tingginya header berapa, terus kita afalin aja, maksudnya kita check aja dulu LCP-nya, text-nya apa, udah itu aja yang di-inline, sisanya ya di-diver. Terus saya juga pernah, pernah juga dulu sampai, sampai extreme, di CSS-nya itu per block, sorry, per component. Per component. Jadi, iya per component, jadi kalau misalnya, oke kalau yang komponen-komponen umum, saya memang sudah block, sudah jadiin satu CSS file, tetapi kalau misalnya kayak komponen-komponen tertentu, ini saya ambil kasusnya WordPress ya, WordPress itu kan bisa dibangun pakai block-block, kan ada biasanya komponen-komponen itu contohnya apa ya, komen, komen kan paling bawah ya, kan nggak perlu di-load, CSS-nya nggak perlu di-load di atas contohnya. Terus, jadi saya biasanya grouping lagi per component, per component yang bawah-bawah yang nggak perlu gitu ya, komen lah, author profile, contohnya, atau footer, footer, footer, yang paling bawah tuh, footer, bagian footer biasanya kan, gede-gere juga ya, tentu nggak perlu di-load di awal, saya sampai pisah-pisahin tuh kecil-kecil, tapi justru pisahin kecil-kecil malah jadi lambat. Iya, karena semua harus ke-download, ke-download. Ya betul, kalau dia, meskipun katanya sudah HTTP/2 yang ngedownload bisa parallel, tetap aja ada race condition delay. Dan kalau misalnya satu file-nya ke delay, akhirnya yang terjadi adalah render blocking request. Jadi jangan juga sampai ke extreme yang pisahin per component, nggak perlu juga. Jadi kalau saya saat ini masih menganut above the fold, pisahin di grouping ke satu folder kah, atau satu endpoint, di inline. Itu saya batasi ya, batasi biasanya up to sampai 5 kilobyte sampai, ya 5 kilobyte aja, itu CSS file. Jadi kalau dia sampai 5 kilobyte hasil transparent-nya inline-kan aja, karena ya 5 kilobyte ya nggak terlalu haru-haru ya, untuk HTML-nya terlalu besar ya, 10 kilobyte pun masih fine lah gitu ya. Tetapi kalau sudah sampai kayak 40, jangan deh, mending coba prisahin lagi, masa 40 kilobyte above the fold. Kita bicara mobile first ya, mobile first. Jadi kalau desktop mah, nggak perlu mikir ginian kalau desktop, karena udah pasti kuat. Jadi sisanya CSS-nya di preload supaya lebih cepat, itu tetap perlu jadi fine. Pake library nggak sih? Sebenarnya udah ada banyak kan, ada beberapa library yang bisa otomatis nge-grab above the fold CSS. Kalau masalah kayak Next.js itu sudah otomatis ya, Next.js ada. Saya baru tahu Next.js, kayaknya library lain kayak Gatsby, maybe, I don't know. Nggak, bahkan yang Pure Vanilla JavaScript, misalnya kita masih pakai server-side framework ya, kayak Laravel, Rails, atau apapun, itu ada untuk sisi JavaScript-nya ada yang konon bisa nge-grab above the fold. Cuma belum sempat nyobain, belum pernah nyobain, jujur. Ada itu di artikel web dev? Iya, Eka baru publish ini, baru kasih. Jadi artikel-nya cukup lama juga ya, nice. Extract critical CSS. Itu kan masalah yang dari dulu ada, cuman dulu, justru mungkin karena waktu artikel ini diposting tahun... Oh ya, udah sih, orang udah banyak yang pakai Next.js pun udah banyak. Cuma mungkin kan nggak semua orang bisa pakai framework itu kan. Jadi kalau ini ada beberapa solusi yang masih JavaScript atau webpack lah, apapun yang berbasis webpack. Cuma emang kalau framework modern, kelihatannya udah lebih segala ada ya, kayak Next.js. Ya, kayaknya emang dia handle itu. Dan remix, waktu itu gue inget remix. Terusnya itu cukup menarik, kita di setiap halaman atau di setiap layout, nested routes apapun itu, ada tag khusus untuk nambahin CSS dan nggak tau lah, pokoknya library-nya remix itu secara otomatis nge-handle. Jadi waktu kita buka satu halaman yang di-load adalah hanya CSS yang hanya style yang ada di halaman itu. Nah, kalau misalnya kita pindah ke halaman lain, dan itu kan mereka udah intercept pakai client-side router mereka punya remix. Nah, dia bisa meng-calculate sendiri style apa yang ada di halaman kedua itu, halaman baru itu, di-inject ke CSS-nya. Jadi emang dia udah smartly nge-handle berdasarkan isi halaman, dan kelihatannya ya handle above default juga. - Oke, wah ini seru ya. - Sedikit melenceng, CSS in JS masih in nggak sih? - Masih, masih, masih. - Masih ya? - Masih. - Walaupun lebih banyak yang loncat ke Tailwind ya sekarang, cuma kan ya gitu. - Seru nih. Nah, maksudnya... - Tailwind versus... Versus lainnya, versus the world. Ya, jadi kayaknya kalau di-establish companies atau organizations kan ya itu nggak mungkin semua yang teranjur pakai style components atau emotion tiba-tiba udah rewrite semua ke Tailwind, ya kan? Nggak mungkin kayak gitu. Jadi sebetulnya di lapangan pasti masih banyak banget yang pakai emotion dan temen-temennya. Dan meskipun nanti ke depannya banyak framework seperti Next.js atau remix dan lain-lain sudah meng-handle ini di belakang layar, kita tetap harus tahu, karena suatu saat ya kita bisa ketemu masalah di sini dan kalau kita nggak tahu ini, ya. - Bisa berabih juga. - Bingung. - Loh, kok ini bisa di above default, bisa tiba-tiba muncul di atas gitu. Dari mana ini, ya kan? - Dan framework, apa sih, automation bawaan dari framework kan nggak selamanya akurat ya, namanya mesin mah bisa-bisa aja salah. - Iya, dia kan hanya mengantisipasi atau menebak, gitu kan. Kira-kira ini... Tidak kan antara implementator, kalau saya menyebut yang hanya tahu pakai tertentu, itu implementator. Dan web engineer yang oke, memang tahu, oh, cara terjadinya begitu, saya pakai framework ini, cocok nih, bisa, gitu. Dan bisa mengimplementasikannya. Jadi kalau ada masalah, tahu tuh, oh, bisa di-debug ke mana harus di-debug. Biasanya yang menentukan career-nya yang menelijik adalah yang tahu fundamental. - Asik tips career ini. Yang tanya career tadi siapa tuh? Yang tanya Riknyas tuh tadi. Ini ada tips. - Yaitu yang tahu cara kerjanya, ya. - Ada nggak yang tahu cara kerja bagaimana web vital itu dihitung? - Di Lighthouse kan, open source kan. - Iya, tapi ada yang buka nggak? - Enggak, ingat tuh dulu pernah ngebuka cuma pengen tahu device yang dipakai apa, bener nggak sih. - Motorola G4 kan ya? - Oh iya, Motorola. Eh, Motorola G4. Jadi dulu kayaknya ada masalah gara-gara belum update browser atau apalah, Lighthouse-nya jadi updated. Ternyata hasilnya lain gitu. Terus akhirnya ngecek karena penasaran, ngecek ke source code-nya Lighthouse. Cuma buat cari tahu device apa yang dipakai buat simulate. - Yes. Oke, ada lagi dari Ivan? - Itu dulu, nanti kita lanjut ke yang performance observer setelah si Eka aja. - Oke, berarti sekarang gilirannya Eka tentang container queries. - Tentang container queries, masih CSS. - Itu baru tuh. - Nah, ini nih. Waktu kita ketemu di Bali ya, waktu itu kita kayaknya bahas ini deh bentar. Apa? - Yay, akhirnya launching. - Terus gue bingung, apa itu container queries? - Nah jawaban dari apa itu, ya scroll aja sedikit ke bawah, kita lihat gambarnya aja. Jadi buat temen-temen yang penasaran itu apa, baca sendiri aja ya artikelnya, kalau pengen detailnya. Cuma kalau sekilas adalah intinya kan CSS kita selama ini punya media query ya. Add media, terus diapit tanda kurung, parentesis, terus kita tulis deh kondisionalnya sesuai kebutuhan kita. Misalnya add media dalam kurung main width 1024px, berarti apapun yang di dalam curly brackets itu, tanda kurung-kurawal itu akan di aplikasikan, stylesheetnya akan di aplikasikan kalau kondisi itu terpenuhi. Nah oke itu udah membantu banget, tapi masalahnya media queries itu kan cuma buat ukuran viewport. Viewport itu besar ukuran layar yang muncul di device user. Nah media queries itu kekurangannya apa, karena kalau misalnya kita bikin komponen UI, itu kan bisa diletakkan, kita layoutnya tuh bisa macem-macem. Misalnya product card nih, tampilan product bisa ditampilin di sidebar tuh, kayak digambar di contoh yang sebelah kiri warna ungu. Itu kan ditampilin di sidebar, jadi walaupun viewportnya ukuran besar itu dibuka dari desktop, tapi komponen itu sendiri ditampilkan di container atau di layout yang ukurannya kecil. Nah selama ini CSS itu belum mampu menghandle, dan ini sebetulnya salah satu feature CSS yang paling banyak di request. Jadi pas lagi baca-bacain ini, nemu talk CSS Conf dari tahun 2018. Nah ini talknya, kocaknya, oleh mas Philip Walton yang tadi kayaknya sekilas ada di artikelnya Ivan juga deh. Jadi beliau emang udah aktif per CSS-an dari kapan tau. Jadi CSS Conf di 2018 itu beliau ngomong tentang container queries dan kocaknya lagi. Itu ngebahas sejarahnya, latar belakangnya apa itu container queries CSS. Ini tahun 2018 ya, dan dia bilang bahwa, wah ini feature yang dari dulu di request dan goes back to sekitar 2013. Orang udah pada nge-request, udah pada menyuarakan tentang kebutuhan akan container queries, kenapa media queries tidak cukup, blablabla. Itu 2013 doang bayangin, dan akhirnya sekarang 2022, 9 tahun kemudian, stable, ya lumayan lah. Jadi itu historinya, dan saat itu sih di tahun 2018, conclusion-nya adalah belum bisa dicapai. Tapi dia ngasih beberapa tips atau beberapa cara work around untuk mendapatkan hasil yang sama. Cuma untungnya sekarang di tahun 2022 kita udah bisa dapet feature itu. Jadi itu contoh penggunaannya bisa dilihat. Kalau nggak salah pakai itu ya, resize observer sama mutation observer. Iya betul sekali. Jadi bisa diakali dengan JavaScript, ya cek aja kalau element itu direcise, berarti ngetrigger styling yang... Ya bisa add class, add class, remove class mungkin. Ya standard lah, akal-akal anwantir standard. Nah, cuma karena sekarang sudah di-launch, sudah jadi bagian dari web API yang diimplementasikan oleh browser. Browser support juga cukup bagus, jadi intinya hampir semua major browser kecuali Firefox. Ini tuh semua nggak bisa kompak giliran Firefox implement, Safari nggak, Chrome Edge, Firefox kadang Safari nggak. Nah sekarang nih Chrome Edge, Safari, Firefox nggak. Tapi jangan sedih buat yang pengen pakai nih, udah ada Polyfill, Polyfill-nya bagus. Polyfill-nya ya yang tadi dibahas itu. Jadi Polyfill-nya adalah workaround yang di-propos oleh mas Philip Walton di tahun 2018 itu. Yang tadi sekilas dibahas oleh Ivan. Nah itu udah dibuat dalam bentuk package yang bisa di-install. Jadi itu, mungkin pindah tab ke yang tadi lagi? Boleh, ke mana kata? Nah, scroll ke bawah. Oh ini Polyfill-nya. Nah itu dia, jadi kalau misalnya pengen pakai Polyfill itu, bisa langsung install. Udah ada library yang tinggal plug and play aja dan support-nya cukup lumayan sih. Firefox, Chrome, Edge, Safari. Bisa langsung, bisa langsung ke CSS-nya nggak? Atau perlu... Ya nggak, itu kan library JavaScript, ya di-install aja itu. Oh, Edge Supports ya? Oke. Nah terus ini topik juga, ini masih terkait nih. Sekarang giliran gue yang tanya, kalian atau temen-temen yang lagi ngedengerin juga bisa nge-reply di chat. Apa yang kalian lakukan kalau nemu kayak gini nih, hal-hal feature-feature baru yang oke banget? Ini kan relevan ya, maksudnya ini hal yang cukup, ini hal yang relevan banget. Kalau kita bikin component UI, ini berguna. Ini oke lah, kita udah senang pengen pakai. Tapi tadaa, belum bisa, browser support-nya belum merata. Nah kalian gimana, nggak usah pakai sama sekali, udah ntar-ntar aja tunggu dulu. Atau pakai Polyfill, Polyfill dengan konsekuensi ya sedikit, walaupun sekecil apapun kan, menambah package yang harus di-install ya, menambah JavaScript runtime juga. Atau mungkin hand roll, bikin pakai kan CSS, ada add support square itu. Jadi kita manually bikin styling untuk CSS yang belum support, atau bagaimana? Coba. Tergantung target audience-nya. Kalau target audience-nya cukup modern ya. Browser-nya update terus, rasanya perlu. Dan tergantung juga dengan aplikasi yang mau dibuat. Kalau misalkan nggak butuh-butuh banget, bukan critical, bukan sesuatu yang terlalu critical, ya nggak usah dipakai. Tapi kalau misalkan, wah ini dinamis banget nih, kayak misalkan apa ya? Pinterest misalkannya, card-nya ditambahin terus dia berubah posisi dan lain-lain gitu, ketika butuh itu ya mungkin Polyfill bisa menjadi jalan tengah untuk sementara, sampai akhirnya di-support secara full. Kalau saya, pengalamannya gini, lihat dulu nih, API yang saya senang itu sudah menjadi standard belum. Jangan-jangan kalau masih draft atau trial, yang masih belum tahu nasibnya gimana, jangan dulu. Contohnya yang kemarin minggu lalu, transition API, saya nggak mau implementasi, belum rani. Iya itu ada warning-nya juga kan emang, di halamannya. Hati-hati kalau pakai ini pasti akan berubah. Kalau ini, kalau ini? Kalau ini, saya baru saja woro-woro, saya hijau ke tim, yuk kita mulai implementasi CSS content. Meskipun Firefox belum ada? Saya mau relate ke itu, Polyfill. Kebetulan, kebetulan, project yang sedang saya pegang berdasarkan data analytics-nya, Firefox itu menduduki top 8 yang cuma sekitar 3% traffic. Jadi terbesarnya itu Chrome, Safari, dan Edge terbesarnya. Jadi kayak top 5, top 6-nya itu Chrome, Safari, Edge. Bahkan Chrome Mobile, Safari Mobile, Chrome Desktop, Safari Mobile, baru kemudian Edge, Edge Mobile, dan Edge Desktop. Baru kemudian Opera, baru Firefox. Itu dari data hasil analytics ya. Jadi dengan demikian, sayang juga nggak mau pilih-pilih kalau kecil banget 3%, nggak boleh juga. Harus di-serve semua kan? Harus di-serve semua. Jadi saya bisa mungkin, kalau ada Polyfill-nya, saya lanjut. Contohnya yang ini, saya green light, implementasi. Nanti ujung-ujungnya pakai Polyfill. Harus. Tetap harus ada notes nanti dibuat. Kalau nanti Firefox sudah support. Jangan lupa remove Polyfill-nya. Kode yang ini di-remove. Nah, itu cara kita catch up dengan, itu gimana? Nungguin Firefox-nya hijau. Gimana trick-nya? Sekarang trick-nya saya kayak cuma ada mental aja ya. Remember aja, nanti gimana? Nunggu aja kayak 2 bulan. Gak ada ditaro di sticky note gitu ya. Di apa? Di JIRA. Gimana sih? Iya sih, so far implementasi aja dulu. Karena kalau Polyfill, meskipun dia sudah ada, kalau Polyfill-nya pintar, kalau dia sudah ada, dia nggak bisa menjalani lagi kan? Dia nge-check. Ya, cuma kan kalau mau itu banget, kalau mau irit banget performance budget-nya, kan ya gimana pun dia runtime dikit. Tetap loading. Tetap loading buat nge-check support. Nah, ini ada pendapat menarik nih dari Devi. \"You're missing the whole point of progressive enhancement. If you think you need to wait for wide browser support.\" Nah, ini oke ya. Maksudnya mungkin karena web itu kan platform yang apa ya, dinamis banget dan diverse. Kayak beda-beda banget kan? Nggak mungkin kita nunggu semua browser setuju buat mengadopsi suatu feature. Semua user pakai browser yang sudah support, yaudah, kayaknya kita nggak bakal ada apa-apa-apa udah. Bahkan saya kalau untuk decide untuk pakai atau tidak, yang penting API-nya secara web standard sudah approve bersama, secara konsersium sudah approve. Tapi kalau yang masih baru diajukan, masih trial, no, nanti dulu deh, jangan dulu. Kalau mau coba-coba, silahkan. Itu wajib untuk dicobakan di feedback. Apalagi kita pada GDI yang diminta untuk mencoba-coba hal tersebut. Dan membagikannya kepada teman-teman yang lain biar juga tahu. Dan mungkin kadang kita mesti agak, apa ya, kan mungkin kalau desainer visual ya yang terbiasa dengan, kita sebagai developer kan mindset-nya agak beda dengan desainer visual yang mungkin latar belakangnya dari cetak atau apalah yang harus pixel perfect banget. Nah, mungkin mindset-nya kita harus bisa ngomunikasiin mindset juga ya. Jadi misalnya kasus tadi tuh 97% sudah bisa, sudah bisa dapat full experience, full ideal experience. Ya, anggap lah misalnya belum ada polyfill-nya. Mungkin kita bisa mengakalin pakai supersquare buat modifikasi sederhana. Jadi tujuannya mungkin 1% atau 2% user kita nggak bisa dapat desain yang ideal, pixel perfect seperti yang diinginkan. Tapi kita mestiin info yang mereka butuhkan bisa dibaca, bisa diakses. Ya, kadang ada kalanya kita mesti ngakalin kayak gitu. Nah, sebagai developer mungkin kita harus bisa mengkomunikasikan itu dengan baik ke misalnya desainer di tim kita kali ya. Karena kalau desain, cetak, ya kan kalau cetak pasti semua hasilnya gitu. Kita tinggal pesan kertas, jenis kertas apa bisa dipastikan semua sama. Tapi kalau web, device yang dipakai seluruh user kita buat mengakses kan nggak bisa di-streamline se-gampang itu kan. Saya punya pengalaman harus support IE11. Waduh. IE11 dikarenakan jadi di sebuah bank, international bank saat itu. Kan biasanya kalau user-nya mereka, bukan sorry, user-nya pengguna sistem artinya pegawai bank ya. Jadi bagian konten segala macam itu. Kan mereka menggunakan laptop yang dikasih dari kantor. Ya, dan kalau sudah bank kan security-nya ketat ya. Nggak bisa install apa-apa. Itu dikontrol semua dari pusat. Dan browser-nya masih IE11. Gak bisa install Chrome, nggak diperbolehkan. Tetapi target user yang public itu top 3 browser semua. Moderen semua. Jadi kita harus support IE11 supaya user yang pakai di internal bisa menggunakan sistem yang kita pakai. Karena UAT-nya mereka. Mereka nggak bisa UAT pakai top 3 browser. Gimana coba? Dua versi. Kisah. Yang kalian pakai file CSS yang di-load berdasarkan user engine. Itulah suka-dukanya jaman itu. Wah jadi ingat jaman dulu tuh ada web pencari kerja, portal pencari kerja, yang hanya support IE sekian. Oh iya, saya tahu itu. Malah kebalik ya. Bukan IE yang tidak disupport, tapi harus IE. Nggak boleh yang lain. Karena dia teknologi pakai .NET salah satunya. Beberapa tahun lalu di sebuah urusan untuk SIM card gitu lho. Saya lihat mereka untuk, itu lho kayak salah satu provider telekomunikasi. Jadi bagian customer service-nya untuk melakukan back office sistemnya dia itu harus pakai IE karena masih menggunakan ActiveX. Beberapa tahun lalu sih. Intinya back to ini, bagaimana bisa tetap memberikan support terbaik terhadap internal bank, tetapi juga harus ikut modern ininya. Jadi di tooling-nya sistem kita juga harus kayak kan bisa pakai browser revise segala macam itu untuk, eh sorry, apa namanya? Ada untuk... Browser list ya? Ya browser list, betul. Dan waktu di compile, transpile kita harus tetap memasukkan IE 11 itu sebagai salah satu yang kita cek. Linternya kita juga kita cek. Jadi tetap harus ada. Bahkan di stylesheet-nya kita itu satu folder khusus IE 11, support IE 11 support. Tetap harus di support. Kita lah, suka-dukanya web development. Kita tetap ingin maju cepat, tetapi kita harus lihat ke belakang. Tetap mau adopsi latest technology, tetapi nggak boleh meninggalkan yang... Old technology, not so latest technology. Tetapi tetap harus ada ini ya, harus ada baseline yang ditetapkan, perjanjian bersama. Tetapi sekarang project-project baru, project baru kita langsung bilang, nope, IE 11 is no more. Karena sudah mati, sudah nggak di support juga kan, sama Microsoft, pindah. Jadi biasanya kan Windows 10 sama Windows 11, kalau sudah service pack kesekian, itu sudah IE 11-nya udah nggak ada kan, udah ganti edge kan. Jadi sudah biasanya dipengaruhi itu. Kalau laptop-laptop baru dari meskipun dia corporate, kalau dapatnya Windows 11, udah pasti edge kan dapatnya. Jadi sekarang kita kasih baseline, yang di support adalah browser dan 3 versi terakhir. 3 versi terakhir, perjanjiannya kalau iOS, sorry, Safari 16 misalnya. Berarti sampai 14 kita harus support, wajib. Terus itu pentingnya kita collect analytics juga kali ya. Contohnya analytics kan emang kalau nggak di handle dengan baik, bisa disalahgunain dan mungkin kita atau publik yang awam tuh lebih sering dengar tentang hal-hal negatif lah. Hal-hal negatif dari analytics kan, jadi sering dianggap sebagai sesuatu yang buruk atau cuma bikin lambat aja. Tapi di sini kita bisa lihat pentingnya analytics, kita tahu device apa aja yang dipakai oleh user kita. Dan kita bisa optimize experience-nya dan itu bisa jadi bahan buat kita nentuin mau menggunakan suatu API atau nggak. Jadi kepikiran kalau di analytics kita misalnya nih, misalnya, gue langsung kepikiran tidak nih. Contohnya kita kan bisa ngedetek pakai JavaScript apakah suatu API tertentu ada atau tidak gitu ya. -Navigator-nya aja semua. -Contohnya ada sebuah, kita mau lakukan field analysis. Field analysis itu artinya kita mau ngetes di user kita itu datanya cukup mendukung atau tidak. Contohnya kita mau apa sih API yang baru? Fugu, contoh file system misalnya, file system API. Kita kan bisa ngedetek pakai JavaScript kalau si browser itu support file system API atau tidak. Jadi kita juga bisa, sebelum menentukan kita harus pakai atau tidak, kita harus buka analytics. Analytics ada data-nya ada atau tidak? Kan kita tidak bisa melihat langsung. Kita kan cuma bisa lihat top 10 browser bisa kita lihat, tapi apakah browser itu support atau tidak kita belum tahu. Jadi bisa kita juga lakukan send data pakai analytics atau GTM contohnya. Kita ngedetek aja itu si API tersebut ada atau tidak. Kita send datanya ke GTM, kita collect data misalnya 2 minggu atau sebulan dari data yang kita punya kita dapat user kita, berapa persen sih yang sudah support file system API? Baru kita bisa implementasi. Jadi sebelum warung-warung kita pakai, justru kita pakai tidak, cek dulu. Pakai aja analytics, kirim ada dari JavaScript, collecting data sebulan mungkin. Mungkin data cukup sebulan atau 2 minggu terserah, dari situ berapa persen yang support API baru yang kita ingin implementasi itu sudah ada atau belum. Kayak can I use tapi khusus untuk user kita aja gitu ya? User kita, betul. Yang gue pernah malah itu sih semacam soft launching feature, itu kan bisa dipakai misalnya feature itu ada geolocation-nya. Nah kan pertama sebelum munculin, ya sebelum ngerunning, cek dulu kan if geolocation in navigator. Itu untuk ngecek kalau di support atau nggak, kalau di support ya munculin feature itu. Kalau nggak, apa di else-nya kan kita bisa kirim event juga. Ya udah, itu salah satu bentuk soft launching. Kalau yang support dikit ya udah, berarti kan nggak terlalu worth it. Belum. Jadi menarik tuh untuk dibahas nanti di sebuah DevFest. Gimana sih kita lakukan field report atau dari report dari user kita sebelum kita menentukan, decide untuk menentukan adomsi teknologi terbaru. Ya kalau yang caranya Eka itu kan udah di develop kan, udah di develop baru di cek kan apakah ini support atau nggak. Udah tapi MVP-nya doang. Sebelum kita decide untuk pakai, kita cek usernya dulu, apakah usernya udah support. Terus abis itu dibikin model prediksinya, kira-kira dia akan support berapa bulan lagi, berapa tahun lagi. Masin learning, over thinking, penyakit develop. Ide-nya bagus tuh, ide-nya menarik. Boleh gue berpikiran setelah ngobrol begini, asik ya. Loh nggak, apa kalau mau iseng nih, ya udah pas lagi baru loading, cek aja di navigatornya misalnya bikin satu objek nih. Apakah geolocation in navigator, apakah misalnya add to home screen ada, apakah web RTC ada, kumpulin jadi satu objek, stringify, kirim. Ya hati-hati soal GDPR, belum. Oh iya, gitu. Kalau kita ambil data itu. Ya kan itu asal anonymize. Jadi kalau kan GDPR ada aturannya sendiri, terus California kan di Amerika khusus California juga ada. Jadi ya pastiin kita tetap ngikutin aturan yang dilakukan. Itu ngaruhnya ke personally identifiable information. Nah apa, pastiin misalnya cookiesnya nggak ikut dikirim ya, cookiesnya nggak diinclude. Atau misalnya kita pakai apa itu yang bawaannya AWS, Cognito. Atau apalah ya service apapun yang buat ngacak dan menghilangkan personally identifiable information dari data yang kita kirim. Karena maksudnya kalau yang kasus tadi kan tujuan kita pingin dapat gambaran besar tentang seluruh user base kita. Bukan satu persatu tapi seluruh user base, berapa persen yang support geolocation, berapa persen yang support WebRTC atau apapun itu. Jadi tetap, ya harus hati-hati, tetap hati-hati tapi bisa, bukannya nggak bisa juga. Ini biasanya tugas kayak dari sisi high level kali ya, jadi kita pingin datanya. Terus menentukan next feature yang akan kita launch itu berdasarkan adopsi user kira-kira ke depannya. Ya kalau kita terlalu cepat adopsi sebuah feature tapi user yang belum bisa pada pakai ya percuma juga kan. Mending sampai threshold tertentu baru di develop. Jadi secara investasinya lebih tepat waktu dan tepat guna. Walaupun memakan waktu lebih panjang ya. Harus reset dulu. Begitu resetnya selesai ternyata si user-user nya. User nya pas udah update. Oke, menarik, menarik. Oke nextnya, ada yang mau di share lagi dari Eka mungkin? Enggak, udah dulu. Tentang TypeScript error? Oh iya ini, ada bonus konten, sampai lupa. Jadi kan kalau kita pakai TypeScript itu suka ada error yang agak kriptik ya, agak terlalu poetis. Agak kurang praktikal, maksudnya kita nggak secara langsung tahu itu maksudnya apa. Nah ini ada website yang mengumpulkan error itu dengan penjelasan yang lebih mudah di mengerti oleh pengungsinya. Coba di klik. Static modifier cannot be used with abstract modifier. What? Kadang apaan coba itu maksudnya. Tapi ini di sini dijelasin itu maksudnya apa. Jadi mungkin kalau kita nemu error yang kita sulit pahamin, coba aja dicek di situ. Oke, oke, mantap. Tapi saya penasaran, soalnya beberapa waktu yang lalu waktu di acaranya, di meet up-nya Jakarta JS, itu sempat nanya, ini kalian masih nulis JS apa udah ke TypeScript, udah ke TS? Ternyata masih banyak juga yang menulis JavaScript ya. Ya itu tadi. Itu tadi di dunia Jakarta nggak mungkin semua langsung error. Sama mungkin kalau terutama kalau di tim besar, mungkin nggak segampang itu dapetin buy-in untuk meng-convert suatu codebase. Ya, konversinya memang, walaupun TypeScript cenderung lebih mudah dibandingkan bahasa yang lain ya seperti rescript atau elm lebih parah. Ini sebenarnya bisa pelan-pelan sih adopsinya maksudnya integrate ke TypeScript, pakai TS config. Tapi kita ignore aja dulu JS-nya kan. Kalau JS kan kayaknya by default nggak diproses oleh TypeScript ya, kecuali kita configure apa itu allow JavaScript. Sebenarnya bisa, cuma ya itu kalau tim besar, mungkin birokrasi ribet atau apa lah nggak segampang itu langsung di... untuk mengubah suatu codebase. Oke, kemudian dari Ivan ada PWA Summit. PWA Summit. Kapan ya caranya? Besok ya? Besok, tanggal 5. Ya besok. Gua ada di kalender jadi nggak tau. Besok. Ya, register aja for free. Jam 4 sore ya? Jam 4 sore. Jam 8 malam. Tumpen jamnya enak. Iya, jam 9 pagi. Karena Eropa kali ya, kalau Amerika kan jamnya lebih sulit. Ini Eropa Eropa, jadi jam 9 pagi di sana. Kalau jam 9 pagi mereka ya kita masih oke lah, masih sore. Register aja free? Free, online dan kira-kira ada materi yang ditunggu nggak, yang menarik? Workshop mana? Kalau masih pengen mulai getting started ya untuk workshop, boleh. Kalau Ivan sendiri tertariknya kemana? Itu yang Modern PWA Winning Combo for Best Client Experience pengen menarik juga soal studi kasusnya. GDI juga ya? Betul. GDI, dia kerjanya di Intel? Oke. Intel Indonesia atau Intel USD? Kayaknya dia Eropa ya. Kalau Intel Indonesia kan itu, katanya masak nasi goreng gitu ya. Masak nasi goreng, oh iya. Maksudnya sekalian gitu. Katanya, katanya. Oh iya, yang pakai HT gitu kan. Winning combo, menarik. Terus apa lagi ya, kira-kira menariknya? Itu banyak loh getting started with PWA workshop itu banyak, itu diulang orangnya berbeda. Jadi silahkan, silahkan ikuti yang mana mau gitu loh maksudnya. Yang paling cocok. Yang paling sesuai, betul. Karena ini fokusnya kayaknya supaya membangkitkan lagi orang supaya awalnya kayaknya masuk PWA. PWA terus nggak bisa masuk karena webnya makin lama, makin berat, makin banyak JavaScript. Terus akhirnya call web fighter dulu, baru sekarang balik lagi PWA. Progressive Enhancement. Progressive Enhancement. Itu tuh emang kalau misalnya terlalu banyak JavaScript. Oh iya, nggak bisa ya, nggak muncul itu homescreennya ya. Kalau misalnya suatu, jadi semua situs atau aplikasi web itu sebenarnya bisa jadi PWA. Tapi dia harus memenuhi kriteria tertentu, berarti yang jadi barrier secara nggak langsung. Yang jadi halangan adalah memenuhi kriteria-kriteria itu ya harus responsif. Harus ada service worker minimal buat handle 404 kalau offline di halaman utama ya. Iya, betul. Oke, udah satu jam kita ngobrol. Banyak ide berseliwaran, jangan lupa dicata. Jangan sampai lupa. Ada yang tanya nggak di Slido? Ada yang tanya di Slido. Tak ada. Apakah mempelajari core web fighter meningkatkan apa itu? Kesempat anda berkerjaan? Ya bisa, coba iya dan tidak juga itu. Bisa banget bisa jadi selling point. Menaikan revenue ya. Oke, kalau gitu mungkin untuk malam ini episode kedua kita sudahi dulu saja. Sebelum udahan mungkin dari teman-teman ada yang mau share sosial medianya silahkan. Kalau saya bisa share ke twitter.com/rizafahmi22 Kalau yang lain? Ke twitter.com/ivanchris.com saja. Ivanchris.com D-O-T ya. E-K-F-Y-I. Gak pernah buka ya. Oh, gak pernah. Oke, kalau gitu silahkan di follow. Minggu depan bahasa apa? Ini ada pertanyaan nih. Minggu depan bahasa apa kita? Minggu depan bahasa apa ya? Ada ide nggak Mas Lucky? Ada yang mau request bahasa apa? Kita ada topik menarik tentang apa ya? Ya itu best content PWA summit. Itu ya summary ya? Bisa bisa. Oh ya, kalau teman-teman ada ide, silahkan langsung lempar ide nya. Topik minggu depan mau bahasa apa? Kita masih ada waktu sekitar 5-6 hari untuk berembuk, untuk bahas topiknya. Jadi kalau ada suggestion, silahkan ke beat.ly/ngobrolinweb. Nanti kalau sarannya menarik, kita akan angkat menjadi topik. Oke, kalau gitu terima kasih buat semuanya. Terima kasih. Terima kasih buat teman-teman, terima kasih buat Eka dan Ivan yang sudah menemani juga. Sama-sama Mas Riza. Kita ketemu lagi minggu depan di jam yang sama, di hari dan jam yang sama. Selamat malam, selamat istirahat. Dadah. Selamat malam, bye. Bye. Mari kita inburn kes."
+}

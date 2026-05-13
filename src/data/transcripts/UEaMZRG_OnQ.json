@@ -1,0 +1,4523 @@
+{
+  "videoId": "UEaMZRG_OnQ",
+  "language": "id",
+  "generatedAt": "2026-05-13T16:07:30.939Z",
+  "segments": [
+    {
+      "start": 15,
+      "end": 18,
+      "text": "Halo, Assalamualaikum Warahmatullahi Wabarakatuh."
+    },
+    {
+      "start": 18,
+      "end": 21,
+      "text": "Selamat malam, selamat hari Selasa."
+    },
+    {
+      "start": 21,
+      "end": 24,
+      "text": "Selasa malam, waktunya kita ngobrolin web."
+    },
+    {
+      "start": 24,
+      "end": 27,
+      "text": "Masih sama-sama kita bertiga."
+    },
+    {
+      "start": 27,
+      "end": 31,
+      "text": "Riza, masih ada saya, Riza. Kemudian ada Eka. Halo, Eka."
+    },
+    {
+      "start": 31,
+      "end": 33,
+      "text": "Halo."
+    },
+    {
+      "start": 33,
+      "end": 36,
+      "text": "Ya, saya Riza dari Tangerang, Eka dari Jogja."
+    },
+    {
+      "start": 36,
+      "end": 40,
+      "text": "Dan ada tamu jauh, ya, Ivan, yang jalan-jalan terus."
+    },
+    {
+      "start": 40,
+      "end": 42,
+      "text": "Yay! Halo, halo."
+    },
+    {
+      "start": 42,
+      "end": 44,
+      "text": "Dari mana nih? Dari mana nih?"
+    },
+    {
+      "start": 44,
+      "end": 46,
+      "text": "Iya, kali ini dari Gresik."
+    },
+    {
+      "start": 46,
+      "end": 50,
+      "text": "Saya lagi di WorldCamp Gresik."
+    },
+    {
+      "start": 50,
+      "end": 53,
+      "text": "WorldCamp, ya? Wah, mantap."
+    },
+    {
+      "start": 53,
+      "end": 57,
+      "text": "- Acaranya mulai besok. - Acaranya besok, ya? Berapa hari?"
+    },
+    {
+      "start": 57,
+      "end": 60,
+      "text": "- Selama 2 hari. - Selama 2 hari."
+    },
+    {
+      "start": 60,
+      "end": 62,
+      "text": "Wow, seru ya."
+    },
+    {
+      "start": 62,
+      "end": 64,
+      "text": "Seru banget. Ini mulai ramai banget nih."
+    },
+    {
+      "start": 64,
+      "end": 67,
+      "text": "Kan sekarang ada lagi kayak seperti gala dinner gitu ya."
+    },
+    {
+      "start": 67,
+      "end": 70,
+      "text": "Jadi ketemu speaker, sponsor."
+    },
+    {
+      "start": 70,
+      "end": 74,
+      "text": "Speakersnya juga ada dari lokal, dari luar juga ada."
+    },
+    {
+      "start": 74,
+      "end": 77,
+      "text": "Sponsor dari lokal juga ada, dari luar juga ada."
+    },
+    {
+      "start": 77,
+      "end": 80,
+      "text": "Jadi, iih, seru banget."
+    },
+    {
+      "start": 80,
+      "end": 82,
+      "text": "Iya, iya, iya."
+    },
+    {
+      "start": 82,
+      "end": 85,
+      "text": "Tapi tetap COVID-man."
+    },
+    {
+      "start": 85,
+      "end": 87,
+      "text": "Organisernya mau stream."
+    },
+    {
+      "start": 87,
+      "end": 90,
+      "text": "Ngobrol di web. Iya, iya dong."
+    },
+    {
+      "start": 90,
+      "end": 93,
+      "text": "Ya kan masih berkaitan sama WordPress juga ya ini."
+    },
+    {
+      "start": 93,
+      "end": 95,
+      "text": "Betul."
+    },
+    {
+      "start": 95,
+      "end": 99,
+      "text": "Ya, WordPress kan menguasai dunia web kan? Berapa persen?"
+    },
+    {
+      "start": 99,
+      "end": 104,
+      "text": "Kalau saat ini sekitar 41 persen. Saya lupa angka eksternya."
+    },
+    {
+      "start": 104,
+      "end": 106,
+      "text": "40 persen."
+    },
+    {
+      "start": 106,
+      "end": 110,
+      "text": "Tapi dari survey, bukan dari survey, maksudnya."
+    },
+    {
+      "start": 110,
+      "end": 115,
+      "text": "Dari web survey yang dilakukan itu dari strategi, Pak."
+    },
+    {
+      "start": 115,
+      "end": 121,
+      "text": "Top 1 million web itu, Pak, 41 persen menggunakan WordPress."
+    },
+    {
+      "start": 121,
+      "end": 123,
+      "text": "Oh, wow."
+    },
+    {
+      "start": 123,
+      "end": 125,
+      "text": "Gede sekali ya."
+    },
+    {
+      "start": 125,
+      "end": 128,
+      "text": "Ya, WordPress ini kan salah satu killer feature-nya ini ya."
+    },
+    {
+      "start": 128,
+      "end": 131,
+      "text": "Bisa dibilang killer feature-nya PHP kan."
+    },
+    {
+      "start": 131,
+      "end": 134,
+      "text": "Dan CMS yang paling populer lah ya."
+    },
+    {
+      "start": 134,
+      "end": 140,
+      "text": "Kalau jawab dulu, kita ada jumlah, ada Drupal."
+    },
+    {
+      "start": 140,
+      "end": 144,
+      "text": "Drupal juga masih eksis ya, masih banyak juga yang pakai."
+    },
+    {
+      "start": 144,
+      "end": 148,
+      "text": "Ada yang tahu nggak sebelum jumlah itu apa?"
+    },
+    {
+      "start": 148,
+      "end": 150,
+      "text": "Sebelum apa ya?"
+    },
+    {
+      "start": 150,
+      "end": 152,
+      "text": "Ya, deket-tek aja."
+    },
+    {
+      "start": 152,
+      "end": 154,
+      "text": "Ngetek ATML manual. Enggak ya?"
+    },
+    {
+      "start": 154,
+      "end": 156,
+      "text": "Is it Mambo?"
+    },
+    {
+      "start": 156,
+      "end": 158,
+      "text": "Mambo."
+    },
+    {
+      "start": 158,
+      "end": 161,
+      "text": "Mambo ganti jadi jumlah kan kalau nggak salah ya?"
+    },
+    {
+      "start": 161,
+      "end": 165,
+      "text": "Gue pakai CMS-nya mulainya dari Mambo."
+    },
+    {
+      "start": 165,
+      "end": 167,
+      "text": "Dari Mambo."
+    },
+    {
+      "start": 167,
+      "end": 169,
+      "text": "Tahun umur deh gue."
+    },
+    {
+      "start": 169,
+      "end": 175,
+      "text": "Kalau untuk e-commerce-nya, gue pakainya OS Commerce."
+    },
+    {
+      "start": 175,
+      "end": 177,
+      "text": "OS Commerce."
+    },
+    {
+      "start": 177,
+      "end": 182,
+      "text": "Iya, baru diporking jadi Zencar."
+    },
+    {
+      "start": 182,
+      "end": 184,
+      "text": "Oh, jadi Zencar."
+    },
+    {
+      "start": 184,
+      "end": 188,
+      "text": "Tapi yang dari WordPress sendiri juga ada kan."
+    },
+    {
+      "start": 188,
+      "end": 191,
+      "text": "Ya namanya, e-commerce kan itu WordPress ya."
+    },
+    {
+      "start": 191,
+      "end": 194,
+      "text": "Ngefreeze kan Ivan kan."
+    },
+    {
+      "start": 194,
+      "end": 197,
+      "text": "Kita remove dulu ya."
+    },
+    {
+      "start": 197,
+      "end": 204,
+      "text": "Jadi Ivan boleh join lagi nanti kalau internetnya udah oke."
+    },
+    {
+      "start": 204,
+      "end": 208,
+      "text": "Jadi malam hari ini, topiknya apa nih kak?"
+    },
+    {
+      "start": 208,
+      "end": 212,
+      "text": "Topiknya adalah web almanak."
+    },
+    {
+      "start": 212,
+      "end": 216,
+      "text": "Jadi kita mau bahas tentang state of the web ya."
+    },
+    {
+      "start": 216,
+      "end": 226,
+      "text": "State of the web 2022, perkembangan dunia web itu seperti apa dari 2021 sampai tahun ini, 2022."
+    },
+    {
+      "start": 226,
+      "end": 230,
+      "text": "Tapi bukan berdasarkan survey,"
+    },
+    {
+      "start": 230,
+      "end": 242,
+      "text": "melainkan berdasarkan statistik data yang dikumpulkan dari pengguna-pengguna browser Chrome."
+    },
+    {
+      "start": 242,
+      "end": 244,
+      "text": "Khusus browser Chrome."
+    },
+    {
+      "start": 244,
+      "end": 250,
+      "text": "Bukan Chromium, Microsoft Edge, atau Opera, atau anak-anaknya Chromium, enggak."
+    },
+    {
+      "start": 250,
+      "end": 255,
+      "text": "Jadi dia hanya Chrome aja yang warnanya merah kuning hijau."
+    },
+    {
+      "start": 255,
+      "end": 259,
+      "text": "Dan juga bukan dari Firefox dan bukan dari Safari."
+    },
+    {
+      "start": 259,
+      "end": 266,
+      "text": "Jadi yang ada statistiknya itu dari Chrome aja."
+    },
+    {
+      "start": 266,
+      "end": 276,
+      "text": "Terus begitu datanya dikumpulkan, kemudian disimpan ke satu sumber data dengan BigQuery."
+    },
+    {
+      "start": 276,
+      "end": 282,
+      "text": "Kemudian dari situ baru bisa didapatkan di analisa."
+    },
+    {
+      "start": 282,
+      "end": 287,
+      "text": "Jadi mungkin kita bisa mulai dulu dari Eka."
+    },
+    {
+      "start": 287,
+      "end": 294,
+      "text": "Ini bahas tentang KTTP Archive itu apa dan bagaimana cara data dikumpulkan."
+    },
+    {
+      "start": 294,
+      "end": 301,
+      "text": "Jadi kan tadi sudah dibahas sekilas tentang web almanak."
+    },
+    {
+      "start": 301,
+      "end": 310,
+      "text": "Yang bakal banyak kita bahas malam ini sebetulnya hasil dari web almanak untuk tahun 2022."
+    },
+    {
+      "start": 310,
+      "end": 313,
+      "text": "Tapi web almanak itu datanya dari mana?"
+    },
+    {
+      "start": 313,
+      "end": 317,
+      "text": "Dari project yang namanya HTTP Archive."
+    },
+    {
+      "start": 317,
+      "end": 325,
+      "text": "Nah, HTTP Archive itu project yang sudah berjalan selama berapa ya? Dari tahun 2010 atau berapa punya?"
+    },
+    {
+      "start": 325,
+      "end": 328,
+      "text": "Sudah berjalan selama bertahun-tahun."
+    },
+    {
+      "start": 328,
+      "end": 331,
+      "text": "Eh, sebelumnya deh."
+    },
+    {
+      "start": 331,
+      "end": 336,
+      "text": "Tapi almanaknya 2019, disini datanya."
+    },
+    {
+      "start": 336,
+      "end": 339,
+      "text": "Jadi HTTP Archive itu project parent-nya."
+    },
+    {
+      "start": 339,
+      "end": 346,
+      "text": "Jadi dia mengumpulkan seluruh URL yang tadi dibahas itu, URL yang diakses oleh pengguna Chrome."
+    },
+    {
+      "start": 346,
+      "end": 353,
+      "text": "Nah, itu bagian dari project yang namanya CRUX, Chrome User Experience."
+    },
+    {
+      "start": 353,
+      "end": 362,
+      "text": "By default, kalau kita pakai Chrome, itu URL yang kita akses itu dikirim."
+    },
+    {
+      "start": 362,
+      "end": 369,
+      "text": "Tapi pastinya di-anonymize ya, nggak include apa IP address kita atau apa."
+    },
+    {
+      "start": 369,
+      "end": 377,
+      "text": "Jadi cuma general region, mungkin dari Indonesia, device-nya seperti apa, URL yang diakses itu apa,"
+    },
+    {
+      "start": 377,
+      "end": 381,
+      "text": "itu dikirim ke Archive mereka."
+    },
+    {
+      "start": 381,
+      "end": 387,
+      "text": "Di preferences, kalau kita nggak bersedia, ya bisa off-out. Cuma ya, maksudnya itu..."
+    },
+    {
+      "start": 387,
+      "end": 392,
+      "text": "Kayaknya waktu install Chrome pertama kali, ada ininya kok."
+    },
+    {
+      "start": 392,
+      "end": 394,
+      "text": "Oh, ada checkbox-nya ya?"
+    },
+    {
+      "start": 394,
+      "end": 400,
+      "text": "Ada consent-nya kok, ada inform consent-nya. Dan by decode memang enable by decode."
+    },
+    {
+      "start": 400,
+      "end": 403,
+      "text": "Tanyaannya, apakah kalian membacanya?"
+    },
+    {
+      "start": 403,
+      "end": 405,
+      "text": "Oke-oke aja."
+    },
+    {
+      "start": 405,
+      "end": 407,
+      "text": "Jangan, oke-oke saja."
+    },
+    {
+      "start": 407,
+      "end": 413,
+      "text": "Nah, itu data URL-nya kan dikumpulin sama si HTTP Archive ini,"
+    },
+    {
+      "start": 413,
+      "end": 420,
+      "text": "yaitu tadi URL-nya itu masing-masing URL setiap tanggal 1 setiap bulannya,"
+    },
+    {
+      "start": 420,
+      "end": 425,
+      "text": "itu mereka running sejumlah tes. Bisa tolong buka halaman yang metodologi."
+    },
+    {
+      "start": 425,
+      "end": 428,
+      "text": "Metodologi, siap."
+    },
+    {
+      "start": 428,
+      "end": 431,
+      "text": "Nah, itu ada tools-nya."
+    },
+    {
+      "start": 431,
+      "end": 440,
+      "text": "Jadi mereka si pihak HTTP Archive ini dengan bekal URL-URL yang dikirim dari Chrome UX study,"
+    },
+    {
+      "start": 440,
+      "end": 445,
+      "text": "Chrome study, mereka running sejumlah tes pakai beberapa tools-nya."
+    },
+    {
+      "start": 445,
+      "end": 450,
+      "text": "Ada tool di situ kan, ada web page test, ada Lighthouse, dan lain-lain."
+    },
+    {
+      "start": 450,
+      "end": 455,
+      "text": "Terus di-store di database yang namanya BigQuery."
+    },
+    {
+      "start": 455,
+      "end": 457,
+      "text": "Nah, BigQuery-nya."
+    },
+    {
+      "start": 457,
+      "end": 460,
+      "text": "Google BigQuery ya, maksudnya ya?"
+    },
+    {
+      "start": 460,
+      "end": 462,
+      "text": "Ya, Google BigQuery."
+    },
+    {
+      "start": 462,
+      "end": 463,
+      "text": "GCP, GCP."
+    },
+    {
+      "start": 463,
+      "end": 470,
+      "text": "Dan itu bisa, ya betul, GCP bisa diakses dari Google Cloud Platform oleh siapapun,"
+    },
+    {
+      "start": 470,
+      "end": 478,
+      "text": "bukan cuma si pihak siapa, HTTP Archive atau yang bikin Almanak aja, kita semua bisa, tapi bayar."
+    },
+    {
+      "start": 478,
+      "end": 482,
+      "text": "Kita juga pernah eksplor ya, tapi abis itu menyerah. Susah."
+    },
+    {
+      "start": 482,
+      "end": 486,
+      "text": "Ya, jadi emang itu kan bayarnya berdasarkan usage ya."
+    },
+    {
+      "start": 486,
+      "end": 490,
+      "text": "Jadi ada free tier-nya, buat kalau yang cuma pengen iseng coba-coba tuh,"
+    },
+    {
+      "start": 490,
+      "end": 494,
+      "text": "ada kan contoh dataset-nya itu, ya semacam SQL query lah."
+    },
+    {
+      "start": 494,
+      "end": 499,
+      "text": "Jadi kalau penggunaan kita per bulan di bawah 1 terabyte, masih free."
+    },
+    {
+      "start": 499,
+      "end": 505,
+      "text": "Nah, cuma ini kan datanya tuh banyak banget, dan ekstrim lah."
+    },
+    {
+      "start": 505,
+      "end": 511,
+      "text": "Maksudnya ini data yang di-store itu, test-nya aja banyak, tools-nya banyak, hal-hal yang apa,"
+    },
+    {
+      "start": 511,
+      "end": 515,
+      "text": "metric-metric yang di analisa itu sangat banyak."
+    },
+    {
+      "start": 515,
+      "end": 524,
+      "text": "Kalau misalnya kita harus nulis SQL command untuk mendapatkan data yang kita mau,"
+    },
+    {
+      "start": 524,
+      "end": 526,
+      "text": "kalau belum terbiasa itu sulit."
+    },
+    {
+      "start": 526,
+      "end": 532,
+      "text": "Jadi kalau dari segi data, memang datanya tersedia, bisa diakses,"
+    },
+    {
+      "start": 532,
+      "end": 536,
+      "text": "baik secara gratis, maupun kalau mau maksimal, ya berbayar."
+    },
+    {
+      "start": 536,
+      "end": 543,
+      "text": "Tapi kan kita belum tentu bisa langsung membaca, apa, cari data yang kita mau,"
+    },
+    {
+      "start": 543,
+      "end": 548,
+      "text": "pilih kolom-kolom apa aja yang datanya relevan, dan apa,"
+    },
+    {
+      "start": 548,
+      "end": 556,
+      "text": "menafsirkan lah ya, meninterpretasi datanya maksudnya seperti apa, itu kan agak sulit."
+    },
+    {
+      "start": 556,
+      "end": 561,
+      "text": "Nah, makanya sekitar 3 tahun kayaknya, 3 tahun terakhir ini,"
+    },
+    {
+      "start": 561,
+      "end": 569,
+      "text": "mereka dari HTTP Archive itu membuat project state of the web lah, almanak tahunan."
+    },
+    {
+      "start": 569,
+      "end": 573,
+      "text": "Jadi ini yang paling baru yang mau kita bahas ini, yang tahun 2022."
+    },
+    {
+      "start": 573,
+      "end": 583,
+      "text": "Tahun lalu ada 2021, dimana mereka itu ternyata mereka bekerja sama dengan ekspert di masing-masing bidang."
+    },
+    {
+      "start": 583,
+      "end": 589,
+      "text": "Jadi ada CSS, JavaScript, atau mungkin Accessibility, dan lain-lain,"
+    },
+    {
+      "start": 589,
+      "end": 592,
+      "text": "dan mereka juga merekrut banyak kontributor sukarela."
+    },
+    {
+      "start": 592,
+      "end": 596,
+      "text": "Ternyata itu ada, apa sih, bisa volunteer kalau kita mau."
+    },
+    {
+      "start": 596,
+      "end": 607,
+      "text": "Jadi ikut dalam tim yang menafsirkan dan mendiskusikan data-data atau matrix apa aja yang mau diolah."
+    },
+    {
+      "start": 607,
+      "end": 614,
+      "text": "Dan itu hasil olah data mereka itu dipresentasikan dalam almanak tahunan ini."
+    },
+    {
+      "start": 614,
+      "end": 620,
+      "text": "Jadi kita bisa relatif lebih mudah membaca atau menafsirkan data-datanya."
+    },
+    {
+      "start": 620,
+      "end": 627,
+      "text": "Kayak misalnya CSS nih contoh, ya contoh random aja. Mungkin ada hal-hal yang relevan"
+    },
+    {
+      "start": 627,
+      "end": 635,
+      "text": "seperti media query atau support query, atau misalnya untuk accessibility, prefer reduced motion."
+    },
+    {
+      "start": 635,
+      "end": 645,
+      "text": "Itu kan kalau cuma lihat dari database, itu sekadar hanya satu dari banyak kolom yang ada."
+    },
+    {
+      "start": 645,
+      "end": 650,
+      "text": "Tapi kan di almanak ini di analisa dari kacamata misalnya accessibility."
+    },
+    {
+      "start": 650,
+      "end": 658,
+      "text": "Jadi kita lebih mudah menafsirkan data-data itu, dan yang paling enak sih dibawahnya ada contoh query-nya."
+    },
+    {
+      "start": 658,
+      "end": 661,
+      "text": "Jadi kalau kita mau pakai tinggal kopas aja."
+    },
+    {
+      "start": 661,
+      "end": 666,
+      "text": "- Oh iya, mana ya? - Nanti kalau di bagian-bagian kayak CSS."
+    },
+    {
+      "start": 666,
+      "end": 670,
+      "text": "Di bawahnya ada contoh. - Di setiap kategorinya ya."
+    },
+    {
+      "start": 670,
+      "end": 676,
+      "text": "Ada dua hal menarik ya di almanak ini yang saya perhatikan."
+    },
+    {
+      "start": 676,
+      "end": 683,
+      "text": "Yang pertama adalah kalau misalkan survei-survei kayak dari Stack Overflow,"
+    },
+    {
+      "start": 683,
+      "end": 688,
+      "text": "atau State of JS, atau State of CSS dan lain-lain itu kan survei kan."
+    },
+    {
+      "start": 688,
+      "end": 693,
+      "text": "Jadi orang yang kenal sama... - Pembuat survei."
+    },
+    {
+      "start": 693,
+      "end": 700,
+      "text": "Yang pas kebetulan baca. - Ya, friend of friend gitu ya, yang kebetulan baca."
+    },
+    {
+      "start": 700,
+      "end": 703,
+      "text": "Dan kemudian ada keinginan untuk menulis survei, atau mengisi survei-nya."
+    },
+    {
+      "start": 703,
+      "end": 705,
+      "text": "Dan isi survei-nya juga belum tentu akurat kan."
+    },
+    {
+      "start": 705,
+      "end": 707,
+      "text": "Dia bisa aja berbohong dalam tanda kutip gitu."
+    },
+    {
+      "start": 707,
+      "end": 712,
+      "text": "\"Ah nggak mau isi yang ini, isinya yang itu.\" Bisa aja gitu kan."
+    },
+    {
+      "start": 712,
+      "end": 720,
+      "text": "Tapi kalau dari web almanak ini lebih jujur karena..."
+    },
+    {
+      "start": 720,
+      "end": 723,
+      "text": "Ya, emang URL yang diakses."
+    },
+    {
+      "start": 723,
+      "end": 729,
+      "text": "Ini lebih tepatnya, lebih ada field report, satu field report, satu lagi survei report."
+    },
+    {
+      "start": 729,
+      "end": 735,
+      "text": "Terbeda ya. - Ya, jadi kadang-kadang ada misleading juga."
+    },
+    {
+      "start": 735,
+      "end": 741,
+      "text": "Kalau misalkan State of JS gitu kan, dia memang yang bikin survei-nya itu ya di lingkungannya React."
+    },
+    {
+      "start": 741,
+      "end": 746,
+      "text": "Makanya React menang. Walaupun memang secara jujur, secara umum memang React paling atas."
+    },
+    {
+      "start": 746,
+      "end": 750,
+      "text": "Cuman kan teman-teman dia juga banyak pakainya di lingkungan dia pakai React."
+    },
+    {
+      "start": 750,
+      "end": 755,
+      "text": "Karena itu jadi agak bias, bukan misleading ya, agak bias gitu lah kira-kira."
+    },
+    {
+      "start": 755,
+      "end": 758,
+      "text": "Sementara kalau ini kayaknya lebih netral lah."
+    },
+    {
+      "start": 758,
+      "end": 762,
+      "text": "Ya, nggak netral juga karena cuma Chrome aja, nggak browser yang lain gitu."
+    },
+    {
+      "start": 762,
+      "end": 767,
+      "text": "Tapi lebih representatif kali ya."
+    },
+    {
+      "start": 767,
+      "end": 770,
+      "text": "Iya, browser lain kan nggak meliputan gitu."
+    },
+    {
+      "start": 770,
+      "end": 777,
+      "text": "Dan juga data ini juga sebenarnya open door buat teman-teman jika ingin melihatnya secara langsung."
+    },
+    {
+      "start": 777,
+      "end": 780,
+      "text": "Saya bisa demo-in sedikit kalau teman-teman pengen lihat."
+    },
+    {
+      "start": 780,
+      "end": 784,
+      "text": "Wah, boleh dong, coba-coba."
+    },
+    {
+      "start": 784,
+      "end": 789,
+      "text": "Kebetulan saya lagi mainan BigQuery."
+    },
+    {
+      "start": 789,
+      "end": 797,
+      "text": "Kita waktu itu pernah minta diajarin sama Johan ya bikinin BigQuery, main-main BigQuery."
+    },
+    {
+      "start": 797,
+      "end": 806,
+      "text": "Wow, oke. Jadi ini saya punya akun Google Cloud."
+    },
+    {
+      "start": 806,
+      "end": 809,
+      "text": "Di Zoom dong, di Zoom, nggak kelihatan."
+    },
+    {
+      "start": 809,
+      "end": 812,
+      "text": "Gak bisa ya?"
+    },
+    {
+      "start": 812,
+      "end": 813,
+      "text": "Oke, bisa aja."
+    },
+    {
+      "start": 813,
+      "end": 814,
+      "text": "Oke, cukup, cukup."
+    },
+    {
+      "start": 814,
+      "end": 819,
+      "text": "Jadi saya punya akun di Google BigQuery."
+    },
+    {
+      "start": 819,
+      "end": 822,
+      "text": "Jadi ada 3 data yang open."
+    },
+    {
+      "start": 822,
+      "end": 828,
+      "text": "Satu dari HTTP Archive, saya lupa efadu query ini apa,"
+    },
+    {
+      "start": 828,
+      "end": 835,
+      "text": "tetapi ini kelihatannya dari troller untuk beberapa situs-situs besar seperti Stack Overflow,"
+    },
+    {
+      "start": 835,
+      "end": 839,
+      "text": "Hacker News, GitHub, Wikipedia, segala macam."
+    },
+    {
+      "start": 839,
+      "end": 842,
+      "text": "Dan satu lagi, Chrome UX Report."
+    },
+    {
+      "start": 842,
+      "end": 845,
+      "text": "Oke, kita bahas sedikit."
+    },
+    {
+      "start": 845,
+      "end": 848,
+      "text": "Kalau misal dari HTTP Archive, ini data-data yang ada."
+    },
+    {
+      "start": 848,
+      "end": 854,
+      "text": "Jadi contohnya kalau mau lihat, dari 2016 nggak ada data ini."
+    },
+    {
+      "start": 854,
+      "end": 865,
+      "text": "Contoh kalau mau lihat data dari 2021 aja ya, mau bala ya."
+    },
+    {
+      "start": 865,
+      "end": 871,
+      "text": "Kita bisa preview datanya apa yang dipumpulkan."
+    },
+    {
+      "start": 871,
+      "end": 874,
+      "text": "Oke, contohnya seperti ini."
+    },
+    {
+      "start": 874,
+      "end": 880,
+      "text": "Timewise.net dan data yang dikirimkan itu apa aja."
+    },
+    {
+      "start": 880,
+      "end": 883,
+      "text": "On content loaded, blablabla."
+    },
+    {
+      "start": 883,
+      "end": 889,
+      "text": "Terus nanti dari data ini ada yang proses ke data-data yang lebih kecil lainnya."
+    },
+    {
+      "start": 889,
+      "end": 899,
+      "text": "Contohnya mau ke data yang diproses itu jadi, contohnya data almanak nih."
+    },
+    {
+      "start": 899,
+      "end": 906,
+      "text": "Yang para mereka mana aja yang sudah jumpstack. Jadi contohnya kalau yang begini itu data table,"
+    },
+    {
+      "start": 906,
+      "end": 908,
+      "text": "kalau yang begini itu sudah view."
+    },
+    {
+      "start": 908,
+      "end": 913,
+      "text": "Kalau tau apa ya, jadi view lah."
+    },
+    {
+      "start": 913,
+      "end": 919,
+      "text": "Data table ya table, kalau yang view itu sudah kaya difilter dari data set yang besar."
+    },
+    {
+      "start": 919,
+      "end": 923,
+      "text": "Udah ada kondisinya, udah dimodifikasi."
+    },
+    {
+      "start": 923,
+      "end": 925,
+      "text": "Betul, jadi kita bisa query ke view aja."
+    },
+    {
+      "start": 925,
+      "end": 932,
+      "text": "Jadi kita lihat nih kalau tahun 2022, clientnya desktop, terus website-nya ini,"
+    },
+    {
+      "start": 932,
+      "end": 942,
+      "text": "kira-kira response-nya gini, kelihatan nih average LCP, fast LCP, CLS, blablabla sudah kelihatan."
+    },
+    {
+      "start": 942,
+      "end": 947,
+      "text": "Ini juga, ini data almanak ya, itu juga bisa di cross-reference."
+    },
+    {
+      "start": 947,
+      "end": 951,
+      "text": "Saya dulu pernah bermain di cross-reference antara datang dari harta TVR."
+    },
+    {
+      "start": 951,
+      "end": 962,
+      "text": "Kita selalu punya pertanyaan, bagaimana sih pertumbuhan pengguna jamstack di Indonesia"
+    },
+    {
+      "start": 962,
+      "end": 965,
+      "text": "dari tahun ke tahun, yang khususnya dari Indonesia dari tahun ke tahun."
+    },
+    {
+      "start": 965,
+      "end": 971,
+      "text": "Nah, maksudnya kita bisa dari query dari data HTTPR5,"
+    },
+    {
+      "start": 971,
+      "end": 975,
+      "text": "di query ke Chrome UX Report, misalnya dari country-nya Indonesia."
+    },
+    {
+      "start": 975,
+      "end": 980,
+      "text": "Karena kita pengen berapa data dari Indonesia, data country ID soalnya."
+    },
+    {
+      "start": 980,
+      "end": 986,
+      "text": "Sudah difilter nih berdasarkan country. Ini agak skew datanya ya,"
+    },
+    {
+      "start": 986,
+      "end": 990,
+      "text": "karena situs dari Indonesia itu apa gitu ya, berdasarkan apa."
+    },
+    {
+      "start": 990,
+      "end": 996,
+      "text": "Kalau di sini itu, situs dari Indonesia itu adalah situs yang di-visit dari Indonesia."
+    },
+    {
+      "start": 996,
+      "end": 1000,
+      "text": "Jadi bisa jadi situs luar negeri tapi di-visit dari Indonesia."
+    },
+    {
+      "start": 1000,
+      "end": 1004,
+      "text": "Oh, bukan server yang serve si website-nya sendiri ya?"
+    },
+    {
+      "start": 1004,
+      "end": 1006,
+      "text": "Susah, susah, susah itu."
+    },
+    {
+      "start": 1006,
+      "end": 1010,
+      "text": "Oh ya, nggak ada datanya. Gimana?"
+    },
+    {
+      "start": 1010,
+      "end": 1014,
+      "text": "Contohnya, WhatsApp kan bukan dari Indonesia kan,"
+    },
+    {
+      "start": 1014,
+      "end": 1018,
+      "text": "tetapi di-visit dari Indonesia, contohnya seperti itu."
+    },
+    {
+      "start": 1018,
+      "end": 1023,
+      "text": "Jadi, bisa teman-teman bisa menquery data yang kayak Google,"
+    },
+    {
+      "start": 1023,
+      "end": 1027,
+      "text": "terus bisa dilihat performance-nya seperti apa."
+    },
+    {
+      "start": 1027,
+      "end": 1031,
+      "text": "Jadi, kalau mau lihat kompetitor atau teman-teman mau lihat kompetitor,"
+    },
+    {
+      "start": 1031,
+      "end": 1038,
+      "text": "bisa. Bagaimana sih performa kompetitor itu dari sini gimana, itu juga bisa."
+    },
+    {
+      "start": 1038,
+      "end": 1043,
+      "text": "Last thing, jadi antara data set ini pun,"
+    },
+    {
+      "start": 1043,
+      "end": 1045,
+      "text": "yang penting teman-teman ingat ya, ini berbayar ya,"
+    },
+    {
+      "start": 1045,
+      "end": 1052,
+      "text": "jadi kalau di running query-nya, dia berbayar sesuai dengan total execution time."
+    },
+    {
+      "start": 1052,
+      "end": 1055,
+      "text": "Ya, jadi hati-hati dengan query-nya."
+    },
+    {
+      "start": 1055,
+      "end": 1056,
+      "text": "Jangan lupa pakai limit ya."
+    },
+    {
+      "start": 1056,
+      "end": 1058,
+      "text": "Iya, jangan lupa pakai limit."
+    },
+    {
+      "start": 1058,
+      "end": 1060,
+      "text": "Kalau udah benar, baru limitnya di..."
+    },
+    {
+      "start": 1060,
+      "end": 1064,
+      "text": "Tapi kalau dibawah 1 terabyte, masih free kan ya, ada free tier-nya?"
+    },
+    {
+      "start": 1064,
+      "end": 1066,
+      "text": "Masih ada, saya lupa free tier-nya, tetapi..."
+    },
+    {
+      "start": 1066,
+      "end": 1068,
+      "text": "1 terabyte sebulan."
+    },
+    {
+      "start": 1068,
+      "end": 1072,
+      "text": "Jadi, hati-hati bagi teman-teman yang mau bermain,"
+    },
+    {
+      "start": 1072,
+      "end": 1075,
+      "text": "karena kita GDI, kita tuh dapat kupon."
+    },
+    {
+      "start": 1075,
+      "end": 1077,
+      "text": "Jadi, kita bisa eksplorasi."
+    },
+    {
+      "start": 1077,
+      "end": 1079,
+      "text": "300 solar ya."
+    },
+    {
+      "start": 1079,
+      "end": 1083,
+      "text": "Iya, jadi bisa eksplorasi, jadi data Reddit,"
+    },
+    {
+      "start": 1083,
+      "end": 1086,
+      "text": "bisa kita lihat juga di sini, Toktoin di Reddit itu."
+    },
+    {
+      "start": 1086,
+      "end": 1092,
+      "text": "Silahkan. Nah, jadi soal transparansi data,"
+    },
+    {
+      "start": 1092,
+      "end": 1096,
+      "text": "apa yang dikumpulkan sama RTPP Archive, Chrome UX Report, ada semua di sini."
+    },
+    {
+      "start": 1096,
+      "end": 1097,
+      "text": "Ada semua."
+    },
+    {
+      "start": 1097,
+      "end": 1101,
+      "text": "Jadi, kalau misalkan kita mau lihat gitu,"
+    },
+    {
+      "start": 1101,
+      "end": 1107,
+      "text": "website yang paling, performanya paling bagus yang diakses dari Indonesia, bisa ya?"
+    },
+    {
+      "start": 1107,
+      "end": 1109,
+      "text": "Bisa."
+    },
+    {
+      "start": 1109,
+      "end": 1113,
+      "text": "Tinggal nanti pinter-pinter bermain SQL query,"
+    },
+    {
+      "start": 1113,
+      "end": 1120,
+      "text": "nanti saya udah kehilangan, kehilangan saya punya query gak tahu lagi dimana ya."
+    },
+    {
+      "start": 1120,
+      "end": 1124,
+      "text": "Kalau gak saya bisa tunjukin bagaimana query yang kemarin saya sudah pernah coba."
+    },
+    {
+      "start": 1124,
+      "end": 1129,
+      "text": "Mengatahu kalau gak tahu itu, saya mencari pertumbuhan situs WordPress"
+    },
+    {
+      "start": 1129,
+      "end": 1134,
+      "text": "yang dikundingi dari Indonesia dari tahun ke tahun."
+    },
+    {
+      "start": 1134,
+      "end": 1136,
+      "text": "Nah, itu saya pernah bikin itu datanya."
+    },
+    {
+      "start": 1136,
+      "end": 1138,
+      "text": "Dan itu perkembangannya sangat pesat di Indonesia."
+    },
+    {
+      "start": 1138,
+      "end": 1142,
+      "text": "Jadi, apa namanya?"
+    },
+    {
+      "start": 1142,
+      "end": 1148,
+      "text": "Bisa menggunakan fitur ini jika ingin melakukan saya survei-survei atau..."
+    },
+    {
+      "start": 1148,
+      "end": 1150,
+      "text": "Analisa."
+    },
+    {
+      "start": 1150,
+      "end": 1154,
+      "text": "Analisa dengan metodologi data-data science."
+    },
+    {
+      "start": 1154,
+      "end": 1161,
+      "text": "Bisa bikin semacam state of web atau state of JS versi lokal gitu kan."
+    },
+    {
+      "start": 1161,
+      "end": 1162,
+      "text": "Betul."
+    },
+    {
+      "start": 1162,
+      "end": 1168,
+      "text": "Jadi misalkan kita pengen tahu apakah library yang banyak digunakan, yang diakses apa?"
+    },
+    {
+      "start": 1168,
+      "end": 1172,
+      "text": "Kan kita bisa cek website yang berbahasa Indonesia misalkan."
+    },
+    {
+      "start": 1172,
+      "end": 1175,
+      "text": "Ada language-nya ID gitu, Indonesia."
+    },
+    {
+      "start": 1175,
+      "end": 1177,
+      "text": "Terus habis itu dicek dia pakai library apa."
+    },
+    {
+      "start": 1177,
+      "end": 1183,
+      "text": "Atau ukuran halamannya totalnya berapa gitu."
+    },
+    {
+      "start": 1183,
+      "end": 1189,
+      "text": "Atau FTP-nya berapa. Core Web Vitals-nya berapa gitu ya."
+    },
+    {
+      "start": 1189,
+      "end": 1191,
+      "text": "Bisa kayak gitu ya."
+    },
+    {
+      "start": 1191,
+      "end": 1193,
+      "text": "Betul, betul."
+    },
+    {
+      "start": 1193,
+      "end": 1194,
+      "text": "Seru sih ya."
+    },
+    {
+      "start": 1194,
+      "end": 1198,
+      "text": "Cuma mungkin ini ada kafiatnya sedikit ya soal akurasi."
+    },
+    {
+      "start": 1198,
+      "end": 1202,
+      "text": "Tadi kalau URL-nya kan emang karena auto-report."
+    },
+    {
+      "start": 1202,
+      "end": 1209,
+      "text": "Jadi nggak ada bias-bias yang kayak di survei-survei yang survei manual kita bahas tadi."
+    },
+    {
+      "start": 1209,
+      "end": 1215,
+      "text": "Jadi kalau dari segi URL sih emang cukup representatif untuk user Chrome."
+    },
+    {
+      "start": 1215,
+      "end": 1218,
+      "text": "Jadi pengguna Chrome kan cukup mayoritas ya."
+    },
+    {
+      "start": 1218,
+      "end": 1223,
+      "text": "Jadi secara statistik mungkin kita bisa dapat gambaran besarnya."
+    },
+    {
+      "start": 1223,
+      "end": 1229,
+      "text": "Tapi ini kan dia pakai walaupun URL-nya, field URL."
+    },
+    {
+      "start": 1229,
+      "end": 1233,
+      "text": "Matrix-nya kan berasal dari lab tools ya."
+    },
+    {
+      "start": 1233,
+      "end": 1237,
+      "text": "Web page test dari Lighthouse dan lain-lain."
+    },
+    {
+      "start": 1237,
+      "end": 1241,
+      "text": "Dan di metodologinya ada penjelasannya tuh."
+    },
+    {
+      "start": 1241,
+      "end": 1246,
+      "text": "Bahwa mereka emulate dengan kondisi cash kosong dan lock out."
+    },
+    {
+      "start": 1246,
+      "end": 1254,
+      "text": "Namanya ya mereka nge-crawl process itu dengan cara atau metodologi lab tools."
+    },
+    {
+      "start": 1254,
+      "end": 1259,
+      "text": "Jadi nggak 100% mewakili apa yang dialami user."
+    },
+    {
+      "start": 1259,
+      "end": 1262,
+      "text": "Karena user mungkin speed-nya berbeda-beda."
+    },
+    {
+      "start": 1262,
+      "end": 1267,
+      "text": "Ada cash, mungkin kalau login experience-nya beda ya."
+    },
+    {
+      "start": 1267,
+      "end": 1271,
+      "text": "Kadang kan ada aplikasi yang kalau landing page memang status."
+    },
+    {
+      "start": 1271,
+      "end": 1273,
+      "text": "Status dan server render misalnya."
+    },
+    {
+      "start": 1273,
+      "end": 1279,
+      "text": "Karena kan bisa berubah, tapi begitu kita login itu fungsinya semua misalnya client render."
+    },
+    {
+      "start": 1279,
+      "end": 1286,
+      "text": "Pakai JavaScript yang mungkin dari segi thread blocking-nya, total blocking time-nya."
+    },
+    {
+      "start": 1286,
+      "end": 1290,
+      "text": "Bisa ada perbedaan karena ya emang usage-nya beda."
+    },
+    {
+      "start": 1290,
+      "end": 1295,
+      "text": "Jadi nggak 100% mewakili usage."
+    },
+    {
+      "start": 1295,
+      "end": 1302,
+      "text": "Sama untuk library yang client-side, itu kan mereka pakai weaponizer ya."
+    },
+    {
+      "start": 1302,
+      "end": 1308,
+      "text": "Tools yang bernama weaponizer tuh ada di halaman metodologi."
+    },
+    {
+      "start": 1308,
+      "end": 1317,
+      "text": "Itu tuh nggak semua library JavaScript bisa dideteksi dengan akurat oleh tooling itu."
+    },
+    {
+      "start": 1317,
+      "end": 1324,
+      "text": "Jadi kayak contohnya React itu lebih mudah dideteksi karena kan dia ada global-nya kan, ada runtime-nya."
+    },
+    {
+      "start": 1324,
+      "end": 1332,
+      "text": "Tentara kayak swell dan mungkin view ada nggak sih? Ya view atau mungkin solid atau lain-lain. Yang ya swell lah."
+    },
+    {
+      "start": 1332,
+      "end": 1339,
+      "text": "Dia kan nggak ada runtime-nya ya. Jadi maksudnya kalau kita punya aplikasi atau situs web yang pakai swell,"
+    },
+    {
+      "start": 1339,
+      "end": 1344,
+      "text": "begitu udah dibuild, ya swell-nya ilang. Itu jadi JavaScript biasa aja."
+    },
+    {
+      "start": 1344,
+      "end": 1351,
+      "text": "Jadi itu solid dideteksi oleh tooling seperti weaponizer tadi."
+    },
+    {
+      "start": 1351,
+      "end": 1360,
+      "text": "Terus kalau WordPress kan, kalau CMS seperti WordPress itu bukan lebih mudah dideteksi."
+    },
+    {
+      "start": 1360,
+      "end": 1370,
+      "text": "Sedangkan kalau yang pure HTML-based, misalnya 11t atau apalah, kan 11t atau Hugo kan dia generate pure HTML."
+    },
+    {
+      "start": 1370,
+      "end": 1375,
+      "text": "Ya terus gimana? Itu kan nggak ada jejaknya. Gak bisa di data."
+    },
+    {
+      "start": 1375,
+      "end": 1386,
+      "text": "Jadi namanya statistik itu kan nggak bisa presisi banget. Cuma kita tetap dapat gambaran besarnya aja."
+    },
+    {
+      "start": 1386,
+      "end": 1396,
+      "text": "Oke. Nah, dari web Almanac ini kan ada beberapa kategori-kategorinya ya. Ada banyak ya."
+    },
+    {
+      "start": 1396,
+      "end": 1406,
+      "text": "Banyak-banyak banget. Di table content-nya ini juga kan ada CSS, ada JavaScript, markup, font, media, web assembly,"
+    },
+    {
+      "start": 1406,
+      "end": 1414,
+      "text": "sampe PWA dan lain-lain. CMS juga ada. Ada banyak sekali. Dan malam hari ini kita akan bahas sedikit-sedikit ya."
+    },
+    {
+      "start": 1414,
+      "end": 1418,
+      "text": "Sedikit aja. Mungkin cukup kalau 2-3 jam."
+    },
+    {
+      "start": 1418,
+      "end": 1424,
+      "text": "Kita mulai dari JavaScript dulu ya. Kita mulai dari JavaScript. Yang menarik dari JavaScript."
+    },
+    {
+      "start": 1424,
+      "end": 1433,
+      "text": "Nah, ini yang bisa saya lihat ada ini apa, dari tahun lalu dibandingkan tahun lalu sama tahun ini,"
+    },
+    {
+      "start": 1433,
+      "end": 1444,
+      "text": "ada pertumbuhan yang cukup, apa ya, cukup lumayan untuk jumlah JavaScript yang di apa ya,"
+    },
+    {
+      "start": 1444,
+      "end": 1454,
+      "text": "di daca, di browser. Ada sekitar 8%. Kemudian untuk di desktop 10%. Jadi nambah."
+    },
+    {
+      "start": 1454,
+      "end": 1458,
+      "text": "JavaScript-nya yang tadi kita lihat ada website yang nggak ada JavaScript, sekarang nambah."
+    },
+    {
+      "start": 1458,
+      "end": 1473,
+      "text": "Kemudian yang menarik lagi, gimana ya, nah ini. 17% pengguna Chrome itu membuka website yang menggunakan Webpack"
+    },
+    {
+      "start": 1473,
+      "end": 1480,
+      "text": "sebagai bundler-nya. Ini lagi seru karena si Versel baru ngeluarin Turbo Pack juga kan?"
+    },
+    {
+      "start": 1480,
+      "end": 1485,
+      "text": "- Turbo Pack. Yang buat sama. - Yang buat sama."
+    },
+    {
+      "start": 1485,
+      "end": 1488,
+      "text": "- Ini trend banget yang bikin Note, bikin Deno. - Iya."
+    },
+    {
+      "start": 1488,
+      "end": 1493,
+      "text": "Nah, ini yang bikin Webpack. Pas Webpack ada lambat, dia bikin Turbo Pack."
+    },
+    {
+      "start": 1493,
+      "end": 1499,
+      "text": "Iya. Ini juga, ya, Turbo Pack di last belum masuk doang kan. Dia baru mulai kan."
+    },
+    {
+      "start": 1499,
+      "end": 1505,
+      "text": "Jadi mungkin tahun depan kita akan lihat apakah pengguna Webpack semakin menurun atau gimana, kita nggak tahu."
+    },
+    {
+      "start": 1505,
+      "end": 1516,
+      "text": "Kemudian, secara apa ya, agak di luar perkiraan, bundler yang populer kedua adalah ternyata Parcel."
+    },
+    {
+      "start": 1516,
+      "end": 1527,
+      "text": "Wow. Parcel ini sebenarnya awalnya ya, berawal dari Webpack yang tidak perlu dikonfig."
+    },
+    {
+      "start": 1527,
+      "end": 1532,
+      "text": "Abis itu dia akhirnya bikin bundler sendiri akhirnya. Kalau nggak salah ya."
+    },
+    {
+      "start": 1532,
+      "end": 1538,
+      "text": "Dulu awal-awal Parcel 1 itu kalau nggak salah itu. Dia Webpack tapi dia nggak perlu dikonfigurasi."
+    },
+    {
+      "start": 1538,
+      "end": 1544,
+      "text": "Sama seperti Veed sebenarnya. Cuman kalau Veed kan kita harus itu kan, define kan."
+    },
+    {
+      "start": 1544,
+      "end": 1548,
+      "text": "Oh, saya mau react dan typescript gitu kan. Ada menu-nya kan."
+    },
+    {
+      "start": 1548,
+      "end": 1552,
+      "text": "Kalau Parcel itu dia bisa auto-detect kalau nggak salah."
+    },
+    {
+      "start": 1552,
+      "end": 1563,
+      "text": "Ini cukup seru juga karena adopsinya lumayan naik dari 1,2 ke 1,9."
+    },
+    {
+      "start": 1563,
+      "end": 1569,
+      "text": "Tidak terlalu signifikan tapi untuk ukuran Parcel yang tidak banyak orang dengar ini lumayan sih."
+    },
+    {
+      "start": 1569,
+      "end": 1572,
+      "text": "Kemudian transpiler ya masih bubble lah ya."
+    },
+    {
+      "start": 1572,
+      "end": 1582,
+      "text": "Kemudian nah ini untuk beberapa cara memanggil JavaScript gitu ya. Ada yang menggunakan async."
+    },
+    {
+      "start": 1582,
+      "end": 1588,
+      "text": "Ada yang menggunakan devr. Ada yang pakai module. Atau ada yang no module."
+    },
+    {
+      "start": 1588,
+      "end": 1595,
+      "text": "Ini script, text script kemudian spasi type sama dengan module itu digunakan"
+    },
+    {
+      "start": 1595,
+      "end": 1599,
+      "text": "kalau teman-teman mau pakai sintaks yang import bla bla bla."
+    },
+    {
+      "start": 1599,
+      "end": 1607,
+      "text": "Kita bahas sedikit pas bahas Veed Convert itu ya episode lalu."
+    },
+    {
+      "start": 1607,
+      "end": 1615,
+      "text": "Jadi import itu sebenarnya sudah didukung oleh browser nggak perlu pakai WP."
+    },
+    {
+      "start": 1615,
+      "end": 1616,
+      "text": "Belum semua loh."
+    },
+    {
+      "start": 1616,
+      "end": 1618,
+      "text": "Belum semua. Hampir ya hampir."
+    },
+    {
+      "start": 1618,
+      "end": 1620,
+      "text": "Jadi kalau teman-teman mau pakai import."
+    },
+    {
+      "start": 1620,
+      "end": 1622,
+      "text": "Maksudnya browser yang lama ya."
+    },
+    {
+      "start": 1622,
+      "end": 1632,
+      "text": "Browser yang lama. Betul. Browser modern yang sudah up to date automatis update seperti Chrome, Edge, atau Firefox, Safari mungkin itu udah bisa."
+    },
+    {
+      "start": 1632,
+      "end": 1638,
+      "text": "Jadi tinggal tambahkan aja spasi type sama dengan module itu udah bisa support import."
+    },
+    {
+      "start": 1638,
+      "end": 1639,
+      "text": "Jadi nggak perlu pakai."
+    },
+    {
+      "start": 1639,
+      "end": 1641,
+      "text": "Ya browser keluaran 2 tahun terakhir lah ya."
+    },
+    {
+      "start": 1641,
+      "end": 1644,
+      "text": "Keliatannya mulai apa? Mulai major."
+    },
+    {
+      "start": 1644,
+      "end": 1652,
+      "text": "Ya dan ada juga cara pemanggilan yang asingkranus supaya nggak blocking ya kalau nggak salah ya."
+    },
+    {
+      "start": 1652,
+      "end": 1653,
+      "text": "Ya betul."
+    },
+    {
+      "start": 1653,
+      "end": 1654,
+      "text": "Supaya nggak blocking."
+    },
+    {
+      "start": 1654,
+      "end": 1655,
+      "text": "Kalau devor ini apa devor?"
+    },
+    {
+      "start": 1655,
+      "end": 1659,
+      "text": "Di load setelah domp content load selesai semua selesai."
+    },
+    {
+      "start": 1659,
+      "end": 1666,
+      "text": "Di download domp content load dia baru jadi di download ditunda sampai selesai domp."
+    },
+    {
+      "start": 1666,
+      "end": 1669,
+      "text": "Sedangkan kalau asing seselesainya dia ya?"
+    },
+    {
+      "start": 1669,
+      "end": 1673,
+      "text": "Seselesainya dia dipanggil."
+    },
+    {
+      "start": 1673,
+      "end": 1677,
+      "text": "Dan sudah selesai di download baru dia di expect."
+    },
+    {
+      "start": 1677,
+      "end": 1681,
+      "text": "Nah sebenarnya asing dan devor kalau dipakai bersamaan itu salah kan ya."
+    },
+    {
+      "start": 1681,
+      "end": 1686,
+      "text": "Maksudnya devornya nggak berlaku asingnya kan yang menang."
+    },
+    {
+      "start": 1686,
+      "end": 1688,
+      "text": "Nggak boleh dipakai dua-duanya kan."
+    },
+    {
+      "start": 1688,
+      "end": 1693,
+      "text": "Tepatnya boleh aja tapi devornya nggak rusak."
+    },
+    {
+      "start": 1693,
+      "end": 1695,
+      "text": "Cuma buat apa?"
+    },
+    {
+      "start": 1695,
+      "end": 1699,
+      "text": "Yang jalan asingnya doang katanya kalau dipakai dua-duanya."
+    },
+    {
+      "start": 1699,
+      "end": 1704,
+      "text": "Kalau scriptnya berbeda yang satu dipakai asing yang satu dipakai devor karena tidak terlalu perlu."
+    },
+    {
+      "start": 1704,
+      "end": 1709,
+      "text": "Misalkan analytics kan butuhnya terakhir ya."
+    },
+    {
+      "start": 1709,
+      "end": 1710,
+      "text": "Nggak perlu di awal ya."
+    },
+    {
+      "start": 1710,
+      "end": 1712,
+      "text": "Tergantung analyticsnya ya."
+    },
+    {
+      "start": 1712,
+      "end": 1715,
+      "text": "Misalkan kayak itu lah counter lah."
+    },
+    {
+      "start": 1715,
+      "end": 1718,
+      "text": "Counter web page counter gitu."
+    },
+    {
+      "start": 1718,
+      "end": 1720,
+      "text": "Counternya nambah gitu kan."
+    },
+    {
+      "start": 1720,
+      "end": 1722,
+      "text": "Itu kan bisa terakhir gitu kan."
+    },
+    {
+      "start": 1722,
+      "end": 1726,
+      "text": "Atau misalkan mau load JavaScript untuk komentar."
+    },
+    {
+      "start": 1726,
+      "end": 1729,
+      "text": "Yang pastikan artikelnya harus muncul dulu dong."
+    },
+    {
+      "start": 1729,
+      "end": 1732,
+      "text": "Baru komentarnya ada gitu kan."
+    },
+    {
+      "start": 1732,
+      "end": 1735,
+      "text": "Kalau saya malah lebih ekstrim lagi."
+    },
+    {
+      "start": 1735,
+      "end": 1739,
+      "text": "Hanya load JavaScript hanya saat dibutuhkan."
+    },
+    {
+      "start": 1739,
+      "end": 1741,
+      "text": "Oke itu gimana caranya?"
+    },
+    {
+      "start": 1741,
+      "end": 1746,
+      "text": "Jadi island architecture."
+    },
+    {
+      "start": 1746,
+      "end": 1753,
+      "text": "Atau kalau mau manual pakai intersection observer."
+    },
+    {
+      "start": 1753,
+      "end": 1758,
+      "text": "Misalnya komen kan biasanya jauh di bawah ya."
+    },
+    {
+      "start": 1758,
+      "end": 1762,
+      "text": "Sedangkan buat apa dia di load saat di atas."
+    },
+    {
+      "start": 1762,
+      "end": 1764,
+      "text": "Meskipun kita tunda buat apa dia di load di atas."
+    },
+    {
+      "start": 1764,
+      "end": 1767,
+      "text": "User yang aja belum scroll sampai ke bawah."
+    },
+    {
+      "start": 1767,
+      "end": 1772,
+      "text": "Belum tentu dia tertarik untuk komen dan belum tentu dia selesai membaca terus dia mau komen gitu ya."
+    },
+    {
+      "start": 1772,
+      "end": 1777,
+      "text": "Iya dan bisa-bisa mungkin pakai intersection observer."
+    },
+    {
+      "start": 1777,
+      "end": 1786,
+      "text": "Misalnya sampai kayak 300 pixel sebelum komen baru scriptnya baru di request."
+    },
+    {
+      "start": 1786,
+      "end": 1790,
+      "text": "Request dulu, running, baru dia di render."
+    },
+    {
+      "start": 1790,
+      "end": 1793,
+      "text": "Jadi hemat banyak kan."
+    },
+    {
+      "start": 1793,
+      "end": 1797,
+      "text": "Contohnya kalau kita di restoran."
+    },
+    {
+      "start": 1797,
+      "end": 1808,
+      "text": "Kita nggak akan mungkin juga, kan ada juga teknik yang kalau kita mau order dessert."
+    },
+    {
+      "start": 1808,
+      "end": 1813,
+      "text": "Makanan pencuci mulut ya setelah selesai makan dong harusnya."
+    },
+    {
+      "start": 1813,
+      "end": 1816,
+      "text": "Jangan waktu makan."
+    },
+    {
+      "start": 1816,
+      "end": 1820,
+      "text": "Kalau pesen minum, minumnya duluan sampai."
+    },
+    {
+      "start": 1820,
+      "end": 1824,
+      "text": "Minumnya manis-manis lagi kan."
+    },
+    {
+      "start": 1824,
+      "end": 1829,
+      "text": "Jadi hilang selera makan kita ada keburu minum."
+    },
+    {
+      "start": 1829,
+      "end": 1834,
+      "text": "Oke, anyway."
+    },
+    {
+      "start": 1834,
+      "end": 1840,
+      "text": "Jadi si asing ini sudah lumayan banyak orang yang tahu."
+    },
+    {
+      "start": 1840,
+      "end": 1842,
+      "text": "Jadi sudah banyak dipakai."
+    },
+    {
+      "start": 1842,
+      "end": 1848,
+      "text": "Ada sekitar 76% web mobile itu menggunakan script dengan asing."
+    },
+    {
+      "start": 1848,
+      "end": 1856,
+      "text": "Karena supaya nggak render blocking, terutama bisa meningkatkan skor dari performance juga."
+    },
+    {
+      "start": 1856,
+      "end": 1858,
+      "text": "Core white vital."
+    },
+    {
+      "start": 1858,
+      "end": 1859,
+      "text": "Betul core white vital."
+    },
+    {
+      "start": 1859,
+      "end": 1866,
+      "text": "Kemudian, tapi si Diver ini yang masih belum terlalu banyak dipakai."
+    },
+    {
+      "start": 1866,
+      "end": 1871,
+      "text": "Kemudian apa lagi yang menarik?"
+    },
+    {
+      "start": 1871,
+      "end": 1872,
+      "text": "Kita lihat lagi."
+    },
+    {
+      "start": 1872,
+      "end": 1873,
+      "text": "Ini nggak semua ya."
+    },
+    {
+      "start": 1873,
+      "end": 1878,
+      "text": "Kamu bisa baca langsung dari almanac.http.archive.org ya."
+    },
+    {
+      "start": 1878,
+      "end": 1879,
+      "text": "Kalau mau detailnya."
+    },
+    {
+      "start": 1879,
+      "end": 1882,
+      "text": "Tapi di sini kita highlight yang menarik-menarik aja."
+    },
+    {
+      "start": 1882,
+      "end": 1884,
+      "text": "Yang menurut kita menarik ya."
+    },
+    {
+      "start": 1884,
+      "end": 1888,
+      "text": "Kemudian ini adalah percentage."
+    },
+    {
+      "start": 1888,
+      "end": 1890,
+      "text": "Percentase."
+    },
+    {
+      "start": 1890,
+      "end": 1894,
+      "text": "Aplikasi mobile atau halaman web mobile."
+    },
+    {
+      "start": 1894,
+      "end": 1897,
+      "text": "Yang masih ada render blocking script."
+    },
+    {
+      "start": 1897,
+      "end": 1899,
+      "text": "Yang tidak menggunakan asing."
+    },
+    {
+      "start": 1899,
+      "end": 1901,
+      "text": "Tinggi 77%."
+    },
+    {
+      "start": 1901,
+      "end": 1904,
+      "text": "Jadi masih banyak yang belum terlalu dioptimasi."
+    },
+    {
+      "start": 1904,
+      "end": 1906,
+      "text": "Terutama untuk mobile page."
+    },
+    {
+      "start": 1906,
+      "end": 1911,
+      "text": "Masih scriptnya masih di-head dan belum menggunakan asing."
+    },
+    {
+      "start": 1911,
+      "end": 1913,
+      "text": "Belum di-referensi kan?"
+    },
+    {
+      "start": 1913,
+      "end": 1914,
+      "text": "Yes."
+    },
+    {
+      "start": 1914,
+      "end": 1916,
+      "text": "Bisa jadi topic."
+    },
+    {
+      "start": 1916,
+      "end": 1917,
+      "text": "Topic."
+    },
+    {
+      "start": 1917,
+      "end": 1919,
+      "text": "Bisa, bisa."
+    },
+    {
+      "start": 1919,
+      "end": 1921,
+      "text": "Boleh, boleh, boleh."
+    },
+    {
+      "start": 1921,
+      "end": 1925,
+      "text": "Kemudian dynamic import juga salah satu fitur yang menarik."
+    },
+    {
+      "start": 1925,
+      "end": 1927,
+      "text": "Dan masih belum banyak orang yang tahu."
+    },
+    {
+      "start": 1927,
+      "end": 1929,
+      "text": "Ternyata udah ya tapi ya."
+    },
+    {
+      "start": 1929,
+      "end": 1931,
+      "text": "Sudah, sudah."
+    },
+    {
+      "start": 1931,
+      "end": 1932,
+      "text": "Sudah ada."
+    },
+    {
+      "start": 1932,
+      "end": 1933,
+      "text": "Sudah ada."
+    },
+    {
+      "start": 1933,
+      "end": 1935,
+      "text": "Bedanya dengan static import apa?"
+    },
+    {
+      "start": 1935,
+      "end": 1940,
+      "text": "Static bedanya adalah kalau dynamic import dia hanya di-load ketika dibutuhkan."
+    },
+    {
+      "start": 1940,
+      "end": 1943,
+      "text": "Jadi kalau memudahkan untuk chunk JavaScript."
+    },
+    {
+      "start": 1943,
+      "end": 1945,
+      "text": "Kan JavaScript code kita kan enggak."
+    },
+    {
+      "start": 1945,
+      "end": 1948,
+      "text": "Kalau misalkan ukurannya besar kan dipotong-potong ya."
+    },
+    {
+      "start": 1948,
+      "end": 1950,
+      "text": "Jadi dengan menggunakan dynamic import."
+    },
+    {
+      "start": 1950,
+      "end": 1951,
+      "text": "Ya."
+    },
+    {
+      "start": 1951,
+      "end": 1952,
+      "text": "Lebih apa ya."
+    },
+    {
+      "start": 1952,
+      "end": 1954,
+      "text": "Lebih efektif lah gitu penggunaannya."
+    },
+    {
+      "start": 1954,
+      "end": 1965,
+      "text": "Dan hanya enggak sampai setengah persen dari pengguna yang mengakses website dengan fitur dynamic import."
+    },
+    {
+      "start": 1965,
+      "end": 1967,
+      "text": "Mungkin karena juga masih baru ya."
+    },
+    {
+      "start": 1967,
+      "end": 1970,
+      "text": "Untuk mobile 0,34 tapi untuk desktop 0,41."
+    },
+    {
+      "start": 1970,
+      "end": 1972,
+      "text": "Nggak beda jauh."
+    },
+    {
+      "start": 1972,
+      "end": 1976,
+      "text": "Terus web worker juga salah satu fitur yang lumayan menarik."
+    },
+    {
+      "start": 1976,
+      "end": 1981,
+      "text": "Karena dia bisa dijalankan dengan thread yang berbeda."
+    },
+    {
+      "start": 1981,
+      "end": 1982,
+      "text": "Jadi asingkronus."
+    },
+    {
+      "start": 1982,
+      "end": 1984,
+      "text": "Jadi main thread ya."
+    },
+    {
+      "start": 1984,
+      "end": 1985,
+      "text": "Ya."
+    },
+    {
+      "start": 1985,
+      "end": 1989,
+      "text": "Khusus untuk pekerjaan-pekerjaan tidak ada hubungannya sama manipulation DOM."
+    },
+    {
+      "start": 1989,
+      "end": 1991,
+      "text": "Memakses DOM dan lain-lain."
+    },
+    {
+      "start": 1991,
+      "end": 1992,
+      "text": "Apa sih maksudnya?"
+    },
+    {
+      "start": 1992,
+      "end": 1994,
+      "text": "Maca file."
+    },
+    {
+      "start": 1994,
+      "end": 2000,
+      "text": "Ambil data dan lain-lain itu bisa dikerjakan oleh web worker."
+    },
+    {
+      "start": 2000,
+      "end": 2002,
+      "text": "Ini naiknya berapa nih dari tahun lalu?"
+    },
+    {
+      "start": 2002,
+      "end": 2004,
+      "text": "Angka statistik web worker."
+    },
+    {
+      "start": 2004,
+      "end": 2008,
+      "text": "12 persen ini naiknya enggak ada ya."
+    },
+    {
+      "start": 2008,
+      "end": 2010,
+      "text": "Kayaknya tahun lalu belum ini deh."
+    },
+    {
+      "start": 2010,
+      "end": 2014,
+      "text": "Belum rilis."
+    },
+    {
+      "start": 2014,
+      "end": 2019,
+      "text": "Sekarang kan mungkin ngetrend salah satunya karena ada party town ya."
+    },
+    {
+      "start": 2019,
+      "end": 2021,
+      "text": "Yang lagi ke hype."
+    },
+    {
+      "start": 2021,
+      "end": 2025,
+      "text": "Jadi mungkin mulai public adoptionnya mulai tinggi lah."
+    },
+    {
+      "start": 2025,
+      "end": 2027,
+      "text": "Ya enggak harus dari party town."
+    },
+    {
+      "start": 2027,
+      "end": 2031,
+      "text": "Cuma orang jadi tahu bahwa oh ya bisa kayak gitu."
+    },
+    {
+      "start": 2031,
+      "end": 2035,
+      "text": "Ini ada kasus saya pakai web worker ini."
+    },
+    {
+      "start": 2035,
+      "end": 2038,
+      "text": "Untuk ini apa namanya?"
+    },
+    {
+      "start": 2038,
+      "end": 2040,
+      "text": "Request data di background."
+    },
+    {
+      "start": 2040,
+      "end": 2042,
+      "text": "Saya pakai ini juga."
+    },
+    {
+      "start": 2042,
+      "end": 2044,
+      "text": "Jadi di project yang saya itu."
+    },
+    {
+      "start": 2044,
+      "end": 2050,
+      "text": "Misalnya setelah loading, loading setelah loading pertama."
+    },
+    {
+      "start": 2050,
+      "end": 2052,
+      "text": "Saya tahu di bagian bawah itu ada statistik."
+    },
+    {
+      "start": 2052,
+      "end": 2056,
+      "text": "Ada data, data endpoint yang harus saya load."
+    },
+    {
+      "start": 2056,
+      "end": 2061,
+      "text": "Tapi enggak saya load dari, enggak saya load via."
+    },
+    {
+      "start": 2061,
+      "end": 2063,
+      "text": "Main thread."
+    },
+    {
+      "start": 2063,
+      "end": 2064,
+      "text": "Main thread."
+    },
+    {
+      "start": 2064,
+      "end": 2066,
+      "text": "Karena saya tahu data itu enggak penting-penting amat di load."
+    },
+    {
+      "start": 2066,
+      "end": 2068,
+      "text": "Karena data cukup gede."
+    },
+    {
+      "start": 2068,
+      "end": 2070,
+      "text": "Dan harus diproses."
+    },
+    {
+      "start": 2070,
+      "end": 2072,
+      "text": "Jadi saya requestnya via web worker."
+    },
+    {
+      "start": 2072,
+      "end": 2074,
+      "text": "Saya via web worker sudah sampai."
+    },
+    {
+      "start": 2074,
+      "end": 2078,
+      "text": "Terus saya simpen di local storage."
+    },
+    {
+      "start": 2078,
+      "end": 2084,
+      "text": "Jadi waktu scrolling sampai ke komponen tersebut."
+    },
+    {
+      "start": 2084,
+      "end": 2086,
+      "text": "Saya cuma tinggal load dari local storage."
+    },
+    {
+      "start": 2086,
+      "end": 2088,
+      "text": "Enggak perlu request."
+    },
+    {
+      "start": 2088,
+      "end": 2090,
+      "text": "Betul."
+    },
+    {
+      "start": 2090,
+      "end": 2092,
+      "text": "Jadi buat teman-teman yang enggak tahu party town."
+    },
+    {
+      "start": 2092,
+      "end": 2094,
+      "text": "Tadi sempat dibahas."
+    },
+    {
+      "start": 2094,
+      "end": 2098,
+      "text": "Itu adalah salah satu library untuk melod."
+    },
+    {
+      "start": 2098,
+      "end": 2102,
+      "text": "Terparti script seperti analytics."
+    },
+    {
+      "start": 2102,
+      "end": 2104,
+      "text": "Ternyata party town itu terparti maksudnya."
+    },
+    {
+      "start": 2104,
+      "end": 2106,
+      "text": "Ya analytics."
+    },
+    {
+      "start": 2106,
+      "end": 2108,
+      "text": "Kemudian apalah gitu ya terparti library."
+    },
+    {
+      "start": 2108,
+      "end": 2110,
+      "text": "CDN dan lain-lain."
+    },
+    {
+      "start": 2110,
+      "end": 2114,
+      "text": "Itu yang tidak ada hubungannya sama manipulasi dom."
+    },
+    {
+      "start": 2114,
+      "end": 2116,
+      "text": "Itu di loadnya di web worker."
+    },
+    {
+      "start": 2116,
+      "end": 2118,
+      "text": "Jadi lebih cepat."
+    },
+    {
+      "start": 2118,
+      "end": 2120,
+      "text": "Misalkan teman-teman pakai Google Analytics."
+    },
+    {
+      "start": 2120,
+      "end": 2122,
+      "text": "Atau pakai analytics yang lain."
+    },
+    {
+      "start": 2122,
+      "end": 2124,
+      "text": "Seperti itu."
+    },
+    {
+      "start": 2124,
+      "end": 2126,
+      "text": "Kemudian kita lanjut lagi."
+    },
+    {
+      "start": 2126,
+      "end": 2128,
+      "text": "Ivan sudah selesai atau tadi kepotong sorry?"
+    },
+    {
+      "start": 2128,
+      "end": 2130,
+      "text": "Enggak."
+    },
+    {
+      "start": 2130,
+      "end": 2132,
+      "text": "Oke."
+    },
+    {
+      "start": 2132,
+      "end": 2134,
+      "text": "Ini juga seru nih."
+    },
+    {
+      "start": 2134,
+      "end": 2136,
+      "text": "Pasti banyak yang mengefriend sama jQuery."
+    },
+    {
+      "start": 2136,
+      "end": 2138,
+      "text": "Jadi jQuery masih teratas."
+    },
+    {
+      "start": 2138,
+      "end": 2142,
+      "text": "Jauh sekali dibandingkan React 8%."
+    },
+    {
+      "start": 2142,
+      "end": 2148,
+      "text": "Menurut saya sih karena pengaruh WordPress."
+    },
+    {
+      "start": 2148,
+      "end": 2158,
+      "text": "Satu itu karena kadang-kadang ada satu aplikasi web atau halaman web."
+    },
+    {
+      "start": 2158,
+      "end": 2164,
+      "text": "Itu bisa punya dua library jQuery yang berbeda versi."
+    },
+    {
+      "start": 2164,
+      "end": 2166,
+      "text": "Jadi dia bisa dua kali lipat sendiri."
+    },
+    {
+      "start": 2166,
+      "end": 2168,
+      "text": "Itu dihitung satu."
+    },
+    {
+      "start": 2168,
+      "end": 2170,
+      "text": "Kalau di sini mungkin dihitung satu ya."
+    },
+    {
+      "start": 2170,
+      "end": 2174,
+      "text": "Kalau dihitung satu, berarti ini bisa lebih dari 81%."
+    },
+    {
+      "start": 2174,
+      "end": 2176,
+      "text": "Lebih banyak lagi."
+    },
+    {
+      "start": 2176,
+      "end": 2178,
+      "text": "Itu udah penjelasan itu."
+    },
+    {
+      "start": 2178,
+      "end": 2180,
+      "text": "Sebagian karena WordPress."
+    },
+    {
+      "start": 2180,
+      "end": 2182,
+      "text": "Karena tingginya penggunaan WordPress."
+    },
+    {
+      "start": 2182,
+      "end": 2186,
+      "text": "Itu ternyata berkorelasi langsung sama tingginya si jQuery."
+    },
+    {
+      "start": 2186,
+      "end": 2188,
+      "text": "Betul."
+    },
+    {
+      "start": 2188,
+      "end": 2194,
+      "text": "WordPress menggunakan jQuery dan digunakan 35% dari website sejauh ini yang menggunakan Chrome."
+    },
+    {
+      "start": 2194,
+      "end": 2196,
+      "text": "Yang dari CRUX ini."
+    },
+    {
+      "start": 2196,
+      "end": 2198,
+      "text": "Itu menggunakan WordPress."
+    },
+    {
+      "start": 2198,
+      "end": 2200,
+      "text": "Sehingga jQuery-nya yang paling tinggi."
+    },
+    {
+      "start": 2200,
+      "end": 2206,
+      "text": "Beda ceritanya kalau nanti jQuery-nya digantikan oleh yang lain."
+    },
+    {
+      "start": 2206,
+      "end": 2216,
+      "text": "Dan di sini juga ada cerita bahwa hampir semua fitur-fitur jQuery sebenarnya sudah bisa dilakukan di DOM API."
+    },
+    {
+      "start": 2216,
+      "end": 2224,
+      "text": "Jadi kalau misalkan teman-teman berfikir untuk bikin aplikasi web di luar WordPress."
+    },
+    {
+      "start": 2224,
+      "end": 2228,
+      "text": "Diusahakan jangan pakai jQuery dulu sampai benar-benar dibutuhkan."
+    },
+    {
+      "start": 2228,
+      "end": 2230,
+      "text": "Saya nggak tahu kapan. Kayaknya udah nggak butuh ya."
+    },
+    {
+      "start": 2230,
+      "end": 2232,
+      "text": "Kalau project baru nggak butuh."
+    },
+    {
+      "start": 2232,
+      "end": 2236,
+      "text": "Cuma kalau project lama kan kalau rewrite semua."
+    },
+    {
+      "start": 2236,
+      "end": 2238,
+      "text": "Ditulis ulang menggunakan web API yang baru."
+    },
+    {
+      "start": 2238,
+      "end": 2240,
+      "text": "Nggak ada yang mau, males."
+    },
+    {
+      "start": 2240,
+      "end": 2244,
+      "text": "Salah satunya kalau nggak salah Bootstrap."
+    },
+    {
+      "start": 2244,
+      "end": 2246,
+      "text": "Bootstrap udah tergantung budget."
+    },
+    {
+      "start": 2246,
+      "end": 2252,
+      "text": "Kalau nggak salah Bootstrap udah nggak pakai jQuery."
+    },
+    {
+      "start": 2252,
+      "end": 2257,
+      "text": "Jadi sudah mulai sedikit-sedikit orang berpindah."
+    },
+    {
+      "start": 2257,
+      "end": 2263,
+      "text": "Karena memang DOM API udah lebih mudah digunakan dibandingkan dulu ya."
+    },
+    {
+      "start": 2263,
+      "end": 2271,
+      "text": "Kalau dulu kan kita harus pakai XHR."
+    },
+    {
+      "start": 2271,
+      "end": 2273,
+      "text": "XML."
+    },
+    {
+      "start": 2273,
+      "end": 2275,
+      "text": "XHR HTTB Request."
+    },
+    {
+      "start": 2275,
+      "end": 2277,
+      "text": "Kami nyebelin waktu."
+    },
+    {
+      "start": 2277,
+      "end": 2279,
+      "text": "XML-nya, huruf besar, huruf kapital."
+    },
+    {
+      "start": 2279,
+      "end": 2283,
+      "text": "HTTP-nya, TTP-nya, huruf kecil."
+    },
+    {
+      "start": 2283,
+      "end": 2285,
+      "text": "Siapa itu yang buat API ya?"
+    },
+    {
+      "start": 2285,
+      "end": 2291,
+      "text": "Yang bikin itu si XML HTTB Request yang bikin."
+    },
+    {
+      "start": 2291,
+      "end": 2293,
+      "text": "Bukan."
+    },
+    {
+      "start": 2293,
+      "end": 2295,
+      "text": "Cuma Internet Explorer kan ya itu."
+    },
+    {
+      "start": 2295,
+      "end": 2297,
+      "text": "Internet Explorer."
+    },
+    {
+      "start": 2297,
+      "end": 2299,
+      "text": "EA itu yang bikin itu."
+    },
+    {
+      "start": 2299,
+      "end": 2301,
+      "text": "Jadi Ajax itu yang bikin dulu EA."
+    },
+    {
+      "start": 2301,
+      "end": 2303,
+      "text": "EA ya."
+    },
+    {
+      "start": 2303,
+      "end": 2308,
+      "text": "Jadi gara-gara itu aja, worth it."
+    },
+    {
+      "start": 2308,
+      "end": 2313,
+      "text": "Untuk pakai jQuery dan kita bisa pakai dolar titik Ajax atau GET."
+    },
+    {
+      "start": 2313,
+      "end": 2316,
+      "text": "Itu udah worth it untuk urusan gitu."
+    },
+    {
+      "start": 2316,
+      "end": 2318,
+      "text": "Tapi kalau sekarang kan udah ada vets ya."
+    },
+    {
+      "start": 2318,
+      "end": 2321,
+      "text": "Jadi harusnya lebih mudah lah."
+    },
+    {
+      "start": 2321,
+      "end": 2327,
+      "text": "Terus juga untuk selektor dan lain-lain juga sudah lebih sederhana dibandingkan dulu."
+    },
+    {
+      "start": 2327,
+      "end": 2331,
+      "text": "Jadi disarankan, pikir dua kali ya."
+    },
+    {
+      "start": 2331,
+      "end": 2336,
+      "text": "Pikir berapa kali untuk menggunakan library-library seperti jQuery, moment.js,"
+    },
+    {
+      "start": 2336,
+      "end": 2338,
+      "text": "dan lain-lain yang kita udah bahas di episode sebelumnya juga."
+    },
+    {
+      "start": 2338,
+      "end": 2340,
+      "text": "Episod terakhir."
+    },
+    {
+      "start": 2340,
+      "end": 2343,
+      "text": "Kemudian, nah ini juga gede nih."
+    },
+    {
+      "start": 2343,
+      "end": 2348,
+      "text": "57% ternyata dari halaman mobile page."
+    },
+    {
+      "start": 2348,
+      "end": 2356,
+      "text": "Ada 57% web yang JavaScript-nya pasti ada isu..."
+    },
+    {
+      "start": 2356,
+      "end": 2358,
+      "text": "Kamanan."
+    },
+    {
+      "start": 2358,
+      "end": 2360,
+      "text": "Kamanan."
+    },
+    {
+      "start": 2360,
+      "end": 2362,
+      "text": "Ini lumayan besar."
+    },
+    {
+      "start": 2362,
+      "end": 2364,
+      "text": "Lebih dari setengahnya."
+    },
+    {
+      "start": 2364,
+      "end": 2367,
+      "text": "Tapi turun tahu, turun signifikan dari tahun lalu."
+    },
+    {
+      "start": 2367,
+      "end": 2369,
+      "text": "Oh iya, turun."
+    },
+    {
+      "start": 2369,
+      "end": 2371,
+      "text": "Udah mulai aware ya."
+    },
+    {
+      "start": 2371,
+      "end": 2375,
+      "text": "Tahun lalu 64%, tahun ini 57%."
+    },
+    {
+      "start": 2375,
+      "end": 2380,
+      "text": "Itu juga salah satunya karena library biasanya."
+    },
+    {
+      "start": 2380,
+      "end": 2385,
+      "text": "Ini adalah vulnerabilities."
+    },
+    {
+      "start": 2385,
+      "end": 2389,
+      "text": "JQuery paling rawan karena ada di mana-mana ya."
+    },
+    {
+      "start": 2389,
+      "end": 2396,
+      "text": "Maksudnya karena penggunaannya tinggi, kemungkinan disusupin, apalah, keli jahat."
+    },
+    {
+      "start": 2396,
+      "end": 2398,
+      "text": "Lebih besar juga."
+    },
+    {
+      "start": 2398,
+      "end": 2400,
+      "text": "Ini yang gede-gede nih ya."
+    },
+    {
+      "start": 2400,
+      "end": 2406,
+      "text": "Yang cukup besar dan cukup populer."
+    },
+    {
+      "start": 2406,
+      "end": 2412,
+      "text": "Makanya dia 57% cukup besar karena yang populer-populer pada kena ya."
+    },
+    {
+      "start": 2412,
+      "end": 2416,
+      "text": "Cuma yang paling tinggi, paling signifikan sih jQuery doang."
+    },
+    {
+      "start": 2416,
+      "end": 2418,
+      "text": "Hampir separoh kan."
+    },
+    {
+      "start": 2418,
+      "end": 2419,
+      "text": "Ini berdua loh."
+    },
+    {
+      "start": 2419,
+      "end": 2423,
+      "text": "JQuery dan jQuery UI kalau digabungin berapa ini?"
+    },
+    {
+      "start": 2423,
+      "end": 2428,
+      "text": "Kalau pakai jQuery UI kan pasti pakai jQuery juga."
+    },
+    {
+      "start": 2428,
+      "end": 2430,
+      "text": "Oh iya, jelas."
+    },
+    {
+      "start": 2430,
+      "end": 2433,
+      "text": "Cuma misalnya tingkat risikonya berarti jauh lebih tinggi"
+    },
+    {
+      "start": 2433,
+      "end": 2437,
+      "text": "kalau pakai jQuery UI dan jQuery."
+    },
+    {
+      "start": 2437,
+      "end": 2443,
+      "text": "Dan dari sekian library, muncul satu framework angular."
+    },
+    {
+      "start": 2443,
+      "end": 2445,
+      "text": "Ini angular berapa ya, angular JS?"
+    },
+    {
+      "start": 2445,
+      "end": 2447,
+      "text": "Angular JS itu yang lama deh kayaknya."
+    },
+    {
+      "start": 2447,
+      "end": 2450,
+      "text": "Satu ya, satu apa dua gitu."
+    },
+    {
+      "start": 2450,
+      "end": 2454,
+      "text": "Yang disebut angular JS itu yang paling pertama kayaknya deh."
+    },
+    {
+      "start": 2454,
+      "end": 2455,
+      "text": "Yang pertama ya."
+    },
+    {
+      "start": 2455,
+      "end": 2459,
+      "text": "Kalau sekarang angular aja nggak pakai JS ya."
+    },
+    {
+      "start": 2459,
+      "end": 2465,
+      "text": "Oke, kemudian ini ada percentage desktop page yang menggunakan webcomponent."
+    },
+    {
+      "start": 2465,
+      "end": 2468,
+      "text": "Custom element, baru 2%."
+    },
+    {
+      "start": 2468,
+      "end": 2471,
+      "text": "Masih sedikit, adaptinya masih kecil."
+    },
+    {
+      "start": 2471,
+      "end": 2474,
+      "text": "Bertahun-tahun ini naiknya seberapa ya?"
+    },
+    {
+      "start": 2474,
+      "end": 2475,
+      "text": "Kayaknya naiknya 0,00."
+    },
+    {
+      "start": 2475,
+      "end": 2476,
+      "text": "Justru ini turun."
+    },
+    {
+      "start": 2476,
+      "end": 2480,
+      "text": "Tahun lalu 3%. Tahun ini jadi turun."
+    },
+    {
+      "start": 2480,
+      "end": 2481,
+      "text": "Bisa."
+    },
+    {
+      "start": 2481,
+      "end": 2482,
+      "text": "Entah kenapa."
+    },
+    {
+      "start": 2482,
+      "end": 2492,
+      "text": "Entah, mungkin ada framework yang lagi ngetrend kayak Astro"
+    },
+    {
+      "start": 2492,
+      "end": 2498,
+      "text": "atau Quick dan lain-lain jadi orang jadi malah berhenti menggunakan."
+    },
+    {
+      "start": 2498,
+      "end": 2501,
+      "text": "Kemudian Shadow DOM masih ada hubungannya sama webcomponent juga."
+    },
+    {
+      "start": 2501,
+      "end": 2504,
+      "text": "Cukup kecil, cuman agak naik memang."
+    },
+    {
+      "start": 2504,
+      "end": 2510,
+      "text": "Shadow DOM ini adalah salah satu fitur yang bisa membuat isolated CSS styling."
+    },
+    {
+      "start": 2510,
+      "end": 2515,
+      "text": "Tahun lalu itu 0,37 naiknya nggak terlalu signifikan."
+    },
+    {
+      "start": 2515,
+      "end": 2520,
+      "text": "Kemudian yang pakai template nih, ini salah satu fitur yang saya suka juga nih."
+    },
+    {
+      "start": 2520,
+      "end": 2525,
+      "text": "Kalau misalkan kita nggak mau pakai DOM manipulation."
+    },
+    {
+      "start": 2525,
+      "end": 2528,
+      "text": "Ya, nggak perlu bikin function render."
+    },
+    {
+      "start": 2528,
+      "end": 2533,
+      "text": "Jadi kita bisa pakai template, tapi sayangnya adaptinya juga masih terlalu kecil."
+    },
+    {
+      "start": 2533,
+      "end": 2537,
+      "text": "Ternyata template pun ada di WebPiPiA ya, kirain cuma di view."
+    },
+    {
+      "start": 2537,
+      "end": 2539,
+      "text": "Saya suka pakai ini loh."
+    },
+    {
+      "start": 2539,
+      "end": 2542,
+      "text": "Iya, ini salah satu yang favorit juga ini."
+    },
+    {
+      "start": 2542,
+      "end": 2543,
+      "text": "Makanya kecil sekali."
+    },
+    {
+      "start": 2543,
+      "end": 2545,
+      "text": "Mungkin belum banyak yang tahu juga."
+    },
+    {
+      "start": 2545,
+      "end": 2549,
+      "text": "Topik, salah satu topik."
+    },
+    {
+      "start": 2549,
+      "end": 2552,
+      "text": "Bisa jadi topik juga."
+    },
+    {
+      "start": 2552,
+      "end": 2553,
+      "text": "Dapat dua topik malam ini kan?"
+    },
+    {
+      "start": 2553,
+      "end": 2555,
+      "text": "Iya, dapat dua topik nih."
+    },
+    {
+      "start": 2555,
+      "end": 2559,
+      "text": "Kita lanjut sedikit lagi."
+    },
+    {
+      "start": 2559,
+      "end": 2564,
+      "text": "Kalau ini WebAssembly nggak terlalu banyak yang bisa di highlight."
+    },
+    {
+      "start": 2564,
+      "end": 2567,
+      "text": "Tapi paling hot nih, salah satu topik paling hot ya."
+    },
+    {
+      "start": 2567,
+      "end": 2574,
+      "text": "Iya, jadi yang saya highlight adalah bahasa yang digunakan untuk WebAssembly itu paling banyak yang mana."
+    },
+    {
+      "start": 2574,
+      "end": 2579,
+      "text": "Ternyata yang paling banyak adalah C, C++."
+    },
+    {
+      "start": 2579,
+      "end": 2581,
+      "text": "Yang kedua, dan perbedaannya cukup jauh."
+    },
+    {
+      "start": 2581,
+      "end": 2583,
+      "text": "Yang ketiga adalah C#."
+    },
+    {
+      "start": 2583,
+      "end": 2587,
+      "text": "Ya, nscripten dan lain-lain itu C ya, C++ ya."
+    },
+    {
+      "start": 2588,
+      "end": 2590,
+      "text": "Kemudian..."
+    },
+    {
+      "start": 2590,
+      "end": 2592,
+      "text": "Karena, kayaknya ya mas ya."
+    },
+    {
+      "start": 2592,
+      "end": 2599,
+      "text": "Ini karena yang di-convert itu adalah library-library yang sudah ada."
+    },
+    {
+      "start": 2599,
+      "end": 2601,
+      "text": "Ya, betul sekali."
+    },
+    {
+      "start": 2601,
+      "end": 2606,
+      "text": "Di komen yang sudah ada kayak genu itu sudah, jadi tinggal di-convert."
+    },
+    {
+      "start": 2606,
+      "end": 2608,
+      "text": "Jadi nggak bikin baru."
+    },
+    {
+      "start": 2608,
+      "end": 2610,
+      "text": "Kayak AutoCAD itu dari C++."
+    },
+    {
+      "start": 2610,
+      "end": 2613,
+      "text": "Kemudian Adobe juga dari C++."
+    },
+    {
+      "start": 2613,
+      "end": 2623,
+      "text": "Di-legasi code, di-modifikasi sedikit, di-kompilasi dengan nscripten, jadilah aplikasi web gitu ya."
+    },
+    {
+      "start": 2623,
+      "end": 2629,
+      "text": "Oke ya, berarti maksudnya bisa nggak harus beneran nulis semua dari awal kan."
+    },
+    {
+      "start": 2629,
+      "end": 2631,
+      "text": "Justru itu jadi daya tariknya kan."
+    },
+    {
+      "start": 2631,
+      "end": 2633,
+      "text": "Bisa pakai WhatsApp di web."
+    },
+    {
+      "start": 2633,
+      "end": 2634,
+      "text": "Betul."
+    },
+    {
+      "start": 2634,
+      "end": 2640,
+      "text": "Karena kan ada banyak juga aplikasi-aplikasi yang berjalan misalkan kayak di DOS gitu kan."
+    },
+    {
+      "start": 2640,
+      "end": 2645,
+      "text": "Yang akhirnya terpaksa harus menggunakan DOS, padahal DOS sudah nggak di-support lagi gitu kan."
+    },
+    {
+      "start": 2645,
+      "end": 2651,
+      "text": "Jadi dengan adanya WebAssembly ini, dia bisa dijalankan di web gitu."
+    },
+    {
+      "start": 2651,
+      "end": 2657,
+      "text": "Dan lebih enak juga kita nggak tergantung kepada OS tertentu gitu."
+    },
+    {
+      "start": 2657,
+      "end": 2659,
+      "text": "Bisa diakses dari mana aja."
+    },
+    {
+      "start": 2659,
+      "end": 2667,
+      "text": "Contohnya kayak JPEG 2.0 PNG atau konverter-konverter itu kan sudah banyak komen line-nya."
+    },
+    {
+      "start": 2667,
+      "end": 2668,
+      "text": "Betul."
+    },
+    {
+      "start": 2668,
+      "end": 2674,
+      "text": "FMPEG itu yang buat konversi video itu sudah bisa diakses dari web juga kan."
+    },
+    {
+      "start": 2674,
+      "end": 2676,
+      "text": "Sudah ada alat darinya."
+    },
+    {
+      "start": 2676,
+      "end": 2678,
+      "text": "Mantap."
+    },
+    {
+      "start": 2678,
+      "end": 2679,
+      "text": "Mantap."
+    },
+    {
+      "start": 2679,
+      "end": 2683,
+      "text": "16% belum teridentifikasi bahasanya apa."
+    },
+    {
+      "start": 2683,
+      "end": 2688,
+      "text": "Assembly script itu adalah salah satu yang populer juga, 8,2%."
+    },
+    {
+      "start": 2688,
+      "end": 2693,
+      "text": "Kalau mau lebih lanjut, temen-temen bisa cek state of WebAssembly 22 survey."
+    },
+    {
+      "start": 2693,
+      "end": 2695,
+      "text": "Oh, ada itunya juga ya."
+    },
+    {
+      "start": 2695,
+      "end": 2697,
+      "text": "Ada survey-nya juga."
+    },
+    {
+      "start": 2697,
+      "end": 2703,
+      "text": "Dan yang menarik juga ini, saya kurang tahu terlalu dalam tentang WebAssembly sih."
+    },
+    {
+      "start": 2703,
+      "end": 2706,
+      "text": "Jadi fitur apa yang digunakan, yang paling tinggi adalah sign extension."
+    },
+    {
+      "start": 2706,
+      "end": 2707,
+      "text": "Ini apa, nggak tahu."
+    },
+    {
+      "start": 2707,
+      "end": 2709,
+      "text": "Ini apa?"
+    },
+    {
+      "start": 2709,
+      "end": 2711,
+      "text": "Kita mesti cari bintang tamu ini."
+    },
+    {
+      "start": 2711,
+      "end": 2716,
+      "text": "Mesti cari featuring yang mendalami WebAssembly ini, seru kayaknya."
+    },
+    {
+      "start": 2716,
+      "end": 2717,
+      "text": "Betul."
+    },
+    {
+      "start": 2717,
+      "end": 2721,
+      "text": "Oke, dari saya cukup itu aja JavaScript dan WebAssembly."
+    },
+    {
+      "start": 2721,
+      "end": 2726,
+      "text": "Selanjutnya mungkin bisa dari Eka mau bahas tentang apa nih pertama."
+    },
+    {
+      "start": 2726,
+      "end": 2730,
+      "text": "Kayaknya bahas PWA sama capabilities aja deh."
+    },
+    {
+      "start": 2730,
+      "end": 2731,
+      "text": "PWA dulu aja."
+    },
+    {
+      "start": 2731,
+      "end": 2732,
+      "text": "PWA."
+    },
+    {
+      "start": 2732,
+      "end": 2738,
+      "text": "Jadi kalau untuk PWA, TLDR-nya atau ringkasannya, penggunaannya naik."
+    },
+    {
+      "start": 2738,
+      "end": 2741,
+      "text": "Cuma nggak secara signifikan."
+    },
+    {
+      "start": 2741,
+      "end": 2743,
+      "text": "Jadi cukup ajak tingkat kenaikannya."
+    },
+    {
+      "start": 2743,
+      "end": 2745,
+      "text": "Atau bisa dilihat, naik sih."
+    },
+    {
+      "start": 2745,
+      "end": 2748,
+      "text": "Naik cuma nggak ekstrim muah banget."
+    },
+    {
+      "start": 2748,
+      "end": 2754,
+      "text": "Tapi ya sisi positifnya adalah, ini trend yang cukup stabil."
+    },
+    {
+      "start": 2754,
+      "end": 2755,
+      "text": "Jadi kayak bukan."
+    },
+    {
+      "start": 2755,
+      "end": 2760,
+      "text": "Kan PWA itu mulai naik sejak 2019 ya."
+    },
+    {
+      "start": 2760,
+      "end": 2768,
+      "text": "Nah pergerakannya sampai dengan sekarang itu bukan cuma kayak yang trend bentar doang."
+    },
+    {
+      "start": 2768,
+      "end": 2770,
+      "text": "Abis itu udah dilupain."
+    },
+    {
+      "start": 2770,
+      "end": 2776,
+      "text": "Tapi positifnya ini adoptionnya tetap selalu naik secara trend."
+    },
+    {
+      "start": 2776,
+      "end": 2782,
+      "text": "Terus kalau yang di Almanak ini sih sebetulnya detail-detail penggunaan metodnya."
+    },
+    {
+      "start": 2782,
+      "end": 2788,
+      "text": "Secara umum sih ini yang paling banyak digunakan itu metod yang cukup basic ya."
+    },
+    {
+      "start": 2788,
+      "end": 2796,
+      "text": "Jadi kayak pertama kali life cycle-nya, install, activate, ya itu pasti kalau kita menggunakan service worker."
+    },
+    {
+      "start": 2796,
+      "end": 2798,
+      "text": "Nah ini nih bagian manifest ini seru juga."
+    },
+    {
+      "start": 2798,
+      "end": 2805,
+      "text": "Jadi manifest itu sering dianggap sebagai bagian dari PWA."
+    },
+    {
+      "start": 2805,
+      "end": 2809,
+      "text": "Nah ini bisa dibilang ya benar dan salah."
+    },
+    {
+      "start": 2809,
+      "end": 2812,
+      "text": "Maksudnya bukan salah gimana ya."
+    },
+    {
+      "start": 2812,
+      "end": 2818,
+      "text": "Jadi manifest itu sebetulnya web manifest itu ada spesifikasi sendiri."
+    },
+    {
+      "start": 2818,
+      "end": 2826,
+      "text": "Intinya itu sekedar file JSON yang memberi informasi tentang suatu aplikasi atau situs web."
+    },
+    {
+      "start": 2826,
+      "end": 2834,
+      "text": "Jadi sebetulnya kalopun kita nggak menggunakan service worker, nggak bisa add to home screen dan nggak bisa lain-lain."
+    },
+    {
+      "start": 2834,
+      "end": 2838,
+      "text": "Mau ada manifestnya ya bisa-bisa aja dan boleh-boleh aja."
+    },
+    {
+      "start": 2838,
+      "end": 2840,
+      "text": "Itu manifest begitu."
+    },
+    {
+      "start": 2840,
+      "end": 2846,
+      "text": "Jadi kalau gampangnya kalau kita ingin pakai service worker, kita pengen pakai capabilities PWA."
+    },
+    {
+      "start": 2846,
+      "end": 2849,
+      "text": "Memang harus ada manifestnya."
+    },
+    {
+      "start": 2849,
+      "end": 2853,
+      "text": "Tapi sebaliknya kalau mau pakai manifest ya pakai manifest aja."
+    },
+    {
+      "start": 2853,
+      "end": 2856,
+      "text": "Nggak harus pasang service worker dan lain-lain."
+    },
+    {
+      "start": 2856,
+      "end": 2866,
+      "text": "Nah di Alam Anak ini dia mengkomper macam-macam penggunaan baik dari service worker-nya maupun Alam Anak-nya."
+    },
+    {
+      "start": 2866,
+      "end": 2871,
+      "text": "Wait-wait, jadi PWA itu nggak mesti pakai service worker ya?"
+    },
+    {
+      "start": 2871,
+      "end": 2878,
+      "text": "PWA harus ada service worker-nya kalau mau pakai add to home screen."
+    },
+    {
+      "start": 2878,
+      "end": 2884,
+      "text": "Oh oke, biar bisa jalan di background ini ya?"
+    },
+    {
+      "start": 2884,
+      "end": 2889,
+      "text": "Ya buat casing, background sync dan lain-lain dia memang harus service worker."
+    },
+    {
+      "start": 2889,
+      "end": 2898,
+      "text": "Berarti kalau share-an minimalnya dia harus kalau di-visit harus kalau 404 ini apa kalau offline."
+    },
+    {
+      "start": 2898,
+      "end": 2903,
+      "text": "Home page-nya atau origin-nya harus tetap 200."
+    },
+    {
+      "start": 2903,
+      "end": 2906,
+      "text": "Oke, nggak ada itu."
+    },
+    {
+      "start": 2906,
+      "end": 2911,
+      "text": "Kira-kira begitu. Terus itu sih kalau di Alam Anak itu ada perbandingan detail-nya."
+    },
+    {
+      "start": 2911,
+      "end": 2915,
+      "text": "Nah ini scroll ke bawah sedikit mungkin."
+    },
+    {
+      "start": 2915,
+      "end": 2921,
+      "text": "Nah ini manifest properties, macam-macam ada display, ada apa?"
+    },
+    {
+      "start": 2921,
+      "end": 2927,
+      "text": "Display itu untuk mengatur tampilan-tampilan seperti nama yang ditampilkan."
+    },
+    {
+      "start": 2927,
+      "end": 2930,
+      "text": "Kalau kita install namanya apa?"
+    },
+    {
+      "start": 2930,
+      "end": 2936,
+      "text": "Terus ya termasuk background color full screen punya ya yang berurusan sama tampilan."
+    },
+    {
+      "start": 2936,
+      "end": 2948,
+      "text": "Terus soal icons, ukuran icons itu kalau kita ngikutin macam-macam versi browser lama itu variasi icons-nya banyak banget."
+    },
+    {
+      "start": 2948,
+      "end": 2957,
+      "text": "Nah sering kita bingung, cuma sekarang nih hasil survey, hasil Alam Anak ini menunjukkan bahwa icon yang dipakai"
+    },
+    {
+      "start": 2957,
+      "end": 2961,
+      "text": "cuma ada dua size icon yang cukup major."
+    },
+    {
+      "start": 2961,
+      "end": 2965,
+      "text": "Ke bawah lagi sedikit."
+    },
+    {
+      "start": 2965,
+      "end": 2970,
+      "text": "Ini apa nih? Oh ini display ya tadi ya. Ada stand alone, ada full screen, yang paling banyak stand alone."
+    },
+    {
+      "start": 2970,
+      "end": 2973,
+      "text": "Kemudian icon-nya ya."
+    },
+    {
+      "start": 2973,
+      "end": 2977,
+      "text": "Nah itu kan sebenarnya variasi ukuran icon-nya banyak banget dan kadang kita tuh"
+    },
+    {
+      "start": 2977,
+      "end": 2983,
+      "text": "mungkin overwhelmed yang aduh males banget kalau harus bikin, harus nge-generate."
+    },
+    {
+      "start": 2983,
+      "end": 2988,
+      "text": "Ada tools-nya tapi kan tetap setiap kita ganti icon, adjust icon, harus generate"
+    },
+    {
+      "start": 2988,
+      "end": 2998,
+      "text": "belasan versi ukuran. Nah sebetulnya kalau untuk major browser yang baru itu dua icon,"
+    },
+    {
+      "start": 2998,
+      "end": 3004,
+      "text": "dua ukuran icon cukup. Itu bisa, itu kelihatan banget kan tuh di bar chart-nya"
+    },
+    {
+      "start": 3004,
+      "end": 3013,
+      "text": "192 sama 512 yang paling major. Kecuali kita memang punya user base yang pakai browser lama"
+    },
+    {
+      "start": 3013,
+      "end": 3022,
+      "text": "variasi tertentu, misalnya Safari, Safari iOS 14 atau Safari iOS 13, ya itu beda kasus."
+    },
+    {
+      "start": 3022,
+      "end": 3027,
+      "text": "Nah terus ada lagi nih, manifest kategoris ke bawah lagi sedikit."
+    },
+    {
+      "start": 3027,
+      "end": 3038,
+      "text": "Nah ini ada hal menarik, jadi mereka si HTTP Almanak ini mengelompokan semua situs yang di-crawl."
+    },
+    {
+      "start": 3038,
+      "end": 3044,
+      "text": "Ada kategori-kategorinya ada shopping, news, dan lain-lain. Nah ini ada dua chart"
+    },
+    {
+      "start": 3044,
+      "end": 3051,
+      "text": "terkait apa, penggunaan manifest dan penggunaan PWA."
+    },
+    {
+      "start": 3051,
+      "end": 3057,
+      "text": "Nah jadi jenis-jenis situs seperti apa atau web app seperti apa yang banyak menggunakan"
+    },
+    {
+      "start": 3057,
+      "end": 3065,
+      "text": "teknologi PWA itu ada di shopping dan news yang paling banyak. Terus selain itu ya"
+    },
+    {
+      "start": 3065,
+      "end": 3072,
+      "text": "ada bisnis, ada sosial, jadi menarik sih ini kita dapat gambaran teknologi ini"
+    },
+    {
+      "start": 3072,
+      "end": 3075,
+      "text": "dipakai di situs jenis apa aja."
+    },
+    {
+      "start": 3075,
+      "end": 3081,
+      "text": "Hmm menarik, kalau service worker gak ada ya?"
+    },
+    {
+      "start": 3081,
+      "end": 3083,
+      "text": "Ada tadi di atas."
+    },
+    {
+      "start": 3083,
+      "end": 3089,
+      "text": "Oh ada, maksudnya yang kayak gini tapi yang service worker gak ada ya?"
+    },
+    {
+      "start": 3089,
+      "end": 3093,
+      "text": "Kayaknya masuknya di PWA tadi, yang atasnya."
+    },
+    {
+      "start": 3093,
+      "end": 3094,
+      "text": "Oh yang ini?"
+    },
+    {
+      "start": 3094,
+      "end": 3099,
+      "text": "Iya, ini yang pakai service worker jadi apa bisa add to home screen."
+    },
+    {
+      "start": 3099,
+      "end": 3105,
+      "text": "Tapi bedanya sedikit sih, bedanya tipis, maksudnya antara yang manifest saja atau"
+    },
+    {
+      "start": 3105,
+      "end": 3112,
+      "text": "yang manifest complete dengan service worker PWA itu kategori paling atas setap"
+    },
+    {
+      "start": 3112,
+      "end": 3118,
+      "text": "shopping, news, dan bisnis. Jadi apa jenis aplikasi yang menggunakan itu."
+    },
+    {
+      "start": 3118,
+      "end": 3125,
+      "text": "News ya ternyata berita itu paling butuh apa, fungsionalitas PWA, news dan shopping."
+    },
+    {
+      "start": 3125,
+      "end": 3126,
+      "text": "Oke."
+    },
+    {
+      "start": 3126,
+      "end": 3132,
+      "text": "Nah terus ini nih soal advance capabilities, Fugu API."
+    },
+    {
+      "start": 3132,
+      "end": 3134,
+      "text": "Fugu API."
+    },
+    {
+      "start": 3134,
+      "end": 3142,
+      "text": "Jadi project Fugu itu, itu codename dari project yang dilakukan oleh Chromium"
+    },
+    {
+      "start": 3142,
+      "end": 3148,
+      "text": "dan stakeholder terkait. Jadi ada dari Google Chrome, ada dari Microsoft,"
+    },
+    {
+      "start": 3148,
+      "end": 3154,
+      "text": "terus ada dari seperti Intel, itu kan mereka gak bikin browser tapi bikin hardware-nya ya."
+    },
+    {
+      "start": 3154,
+      "end": 3166,
+      "text": "Mereka itu punya project yang memajukan atau mempropos standar web API"
+    },
+    {
+      "start": 3166,
+      "end": 3172,
+      "text": "yang memiliki kapabilitas canggih, intinya yang kapabilitasnya menyamai"
+    },
+    {
+      "start": 3172,
+      "end": 3178,
+      "text": "feature-feature native. Nah itu sering disebut dengan Fugu API."
+    },
+    {
+      "start": 3178,
+      "end": 3181,
+      "text": "Nah ini apa?"
+    },
+    {
+      "start": 3181,
+      "end": 3185,
+      "text": "Fugu itu dari ikan Fugu kan?"
+    },
+    {
+      "start": 3185,
+      "end": 3187,
+      "text": "Iya, ikan kebung."
+    },
+    {
+      "start": 3187,
+      "end": 3192,
+      "text": "Bukan, ikan buntal, ikan buntal."
+    },
+    {
+      "start": 3192,
+      "end": 3194,
+      "text": "Buntal, buntal."
+    },
+    {
+      "start": 3194,
+      "end": 3200,
+      "text": "Katanya belom pernah makan, katanya dagingnya enak, tapi kalau salah siapin, berencun."
+    },
+    {
+      "start": 3200,
+      "end": 3203,
+      "text": "Saya sudah pernah makan, sudah pernah."
+    },
+    {
+      "start": 3203,
+      "end": 3206,
+      "text": "Gak ada rasanya."
+    },
+    {
+      "start": 3206,
+      "end": 3208,
+      "text": "Gak ada rasanya?"
+    },
+    {
+      "start": 3208,
+      "end": 3214,
+      "text": "Iya, kayak teksturnya aja gitu, rasanya kalau gak pakai sausnya gak ada rasa."
+    },
+    {
+      "start": 3214,
+      "end": 3221,
+      "text": "Oh, padahal bahaya ya, maksudnya apa? Saking enaknya, ya harus disiapkan."
+    },
+    {
+      "start": 3221,
+      "end": 3229,
+      "text": "Jadi yang menggunakan 8,8% di desktop ya, baru 8,8%."
+    },
+    {
+      "start": 3229,
+      "end": 3233,
+      "text": "Jadi project Fugu itu kan sebetulnya mencakup banyak banget API-nya"
+    },
+    {
+      "start": 3233,
+      "end": 3239,
+      "text": "dari yang sudah lumayan established, major, sampai yang masih experimental."
+    },
+    {
+      "start": 3239,
+      "end": 3248,
+      "text": "Nah itu penggunaannya, itu 4, di situ ada 4 API yang sudah paling umum, paling banyak digunakan."
+    },
+    {
+      "start": 3248,
+      "end": 3254,
+      "text": "Itu angkanya web share di sekitar 8%, jadi not bad lah."
+    },
+    {
+      "start": 3254,
+      "end": 3262,
+      "text": "Terus sebenarnya ada bagian yang menarik tuh, di API push itu sebetulnya"
+    },
+    {
+      "start": 3262,
+      "end": 3265,
+      "text": "originally bagian dari project Fugu."
+    },
+    {
+      "start": 3265,
+      "end": 3272,
+      "text": "Tapi kan sebetulnya semua feature-feature web API itu merupakan spesifikasi atau standar ya,"
+    },
+    {
+      "start": 3272,
+      "end": 3277,
+      "text": "jadi bukan milik dalam arti patent atau hak miliknya siapapun."
+    },
+    {
+      "start": 3277,
+      "end": 3284,
+      "text": "Jadi apa, semua API itu bukan punya orang Chromium atau orang Google atau orang Microsoft,"
+    },
+    {
+      "start": 3284,
+      "end": 3291,
+      "text": "jadi bisa diadopsi, gak tertutup kemungkinan diadopsi browser lain kalau dirasa perlu."
+    },
+    {
+      "start": 3291,
+      "end": 3298,
+      "text": "Dan di sini tahun ini kelihatan untuk pertama kalinya push API itu cukup naik,"
+    },
+    {
+      "start": 3298,
+      "end": 3305,
+      "text": "salah satu alasannya karena Safari juga mengadopsi push API itu."
+    },
+    {
+      "start": 3305,
+      "end": 3314,
+      "text": "Jadi ternyata API dari project Fugu pun gak eksklusif, gak menutup kemungkinan,"
+    },
+    {
+      "start": 3314,
+      "end": 3319,
+      "text": "suatu saat bisa diadopsi oleh browser lainnya, kalau memang dirasa relevan."
+    },
+    {
+      "start": 3319,
+      "end": 3326,
+      "text": "Intinya kan kalau sudah di-approved di konsorsium ya browser lain harus adopsi."
+    },
+    {
+      "start": 3326,
+      "end": 3329,
+      "text": "Walaupun gak tahu kapan ya."
+    },
+    {
+      "start": 3329,
+      "end": 3331,
+      "text": "Iya, walaupun gak tahu kapan."
+    },
+    {
+      "start": 3331,
+      "end": 3340,
+      "text": "Oh iya, kan kalau masih di WICG itu Working Group Specification in Progress itu kan dalam proses,"
+    },
+    {
+      "start": 3340,
+      "end": 3345,
+      "text": "berarti kalau sudah dianggap stabil, ya suatu saat browser akan..."
+    },
+    {
+      "start": 3345,
+      "end": 3350,
+      "text": "Tapi ya itu, bebas suka-suka mereka mau adopsi sekarang atau kapan-kapan."
+    },
+    {
+      "start": 3350,
+      "end": 3357,
+      "text": "- Betul. - Tapi sukses story-nya itu salah satunya push yang pertama kali masuk,"
+    },
+    {
+      "start": 3357,
+      "end": 3361,
+      "text": "walaupun cuma 2% ya, karena mungkin banyak faktor."
+    },
+    {
+      "start": 3361,
+      "end": 3363,
+      "text": "Karena Chrome juga kan?"
+    },
+    {
+      "start": 3363,
+      "end": 3365,
+      "text": "Safari juga sekarang."
+    },
+    {
+      "start": 3365,
+      "end": 3369,
+      "text": "Iya, maksudnya yang di Almanak ini kan Chrome aja kan?"
+    },
+    {
+      "start": 3369,
+      "end": 3371,
+      "text": "Oh iya, betul-betul."
+    },
+    {
+      "start": 3371,
+      "end": 3375,
+      "text": "Jadi gak kelihatan tuh Safari, Firefox dan lain-lain, gak kelihatan."
+    },
+    {
+      "start": 3375,
+      "end": 3379,
+      "text": "Tapi kan itu mempush developer untuk, maksudnya developer jadi oke,"
+    },
+    {
+      "start": 3379,
+      "end": 3384,
+      "text": "bisa dapat green light dari project manager atau client untuk nambahin..."
+    },
+    {
+      "start": 3384,
+      "end": 3388,
+      "text": "Biasanya product owner lah yang itu ya."
+    },
+    {
+      "start": 3388,
+      "end": 3392,
+      "text": "Oke, ada lagi? Sudah?"
+    },
+    {
+      "start": 3392,
+      "end": 3397,
+      "text": "Udah sih, sisanya baca-baca sendiri aja langsung di URL-nya."
+    },
+    {
+      "start": 3397,
+      "end": 3405,
+      "text": "Saya boleh ijin undur diri dulu, baterai saya sudah tinggal 10-12% lagi."
+    },
+    {
+      "start": 3405,
+      "end": 3410,
+      "text": "Maaf, gak ada colokan di sini, kalau gak sudah saya colokan nih."
+    },
+    {
+      "start": 3410,
+      "end": 3414,
+      "text": "Maaf, maaf."
+    },
+    {
+      "start": 3414,
+      "end": 3416,
+      "text": "Oke, kalau mau duluan silahkan."
+    },
+    {
+      "start": 3416,
+      "end": 3420,
+      "text": "Iya, mohon maaf ya, teman-teman semua."
+    },
+    {
+      "start": 3420,
+      "end": 3422,
+      "text": "Ini udah mau jam 9 juga emang."
+    },
+    {
+      "start": 3422,
+      "end": 3426,
+      "text": "Oh iya, ya udah 3 menit lagi deh, 3 menit lagi."
+    },
+    {
+      "start": 3426,
+      "end": 3428,
+      "text": "Serius, 3 menit lagi?"
+    },
+    {
+      "start": 3428,
+      "end": 3430,
+      "text": "Kalau tiba-tiba ilang berarti mati."
+    },
+    {
+      "start": 3430,
+      "end": 3433,
+      "text": "Kalau tiba-tiba ilang berarti tiba-tiba mati ya."
+    },
+    {
+      "start": 3433,
+      "end": 3437,
+      "text": "Oke, siap kalau gitu. Lanjut ke capabilities ya kedua ya?"
+    },
+    {
+      "start": 3437,
+      "end": 3440,
+      "text": "Ya, capabilities sebenarnya itu tadi sih."
+    },
+    {
+      "start": 3440,
+      "end": 3441,
+      "text": "Ini masih ada hubungannya kan?"
+    },
+    {
+      "start": 3441,
+      "end": 3444,
+      "text": "Itu ringkasannya tadi, TLDR-nya tadi,"
+    },
+    {
+      "start": 3444,
+      "end": 3450,
+      "text": "cuma kalau pengen lihat exactly perbandingan atau API-nya apa aja,"
+    },
+    {
+      "start": 3450,
+      "end": 3452,
+      "text": "bisa dilihat di situ."
+    },
+    {
+      "start": 3452,
+      "end": 3455,
+      "text": "Ini agak berbeda dengan yang tadi ya."
+    },
+    {
+      "start": 3455,
+      "end": 3459,
+      "text": "Yang tadi kan ini yang udah major, udah diadopsi kan."
+    },
+    {
+      "start": 3459,
+      "end": 3462,
+      "text": "Kalau ini kan ada beberapa yang belum diadopsi juga kan."
+    },
+    {
+      "start": 3462,
+      "end": 3467,
+      "text": "Udah, cuma itu kecil. Udah, ini semua udah major."
+    },
+    {
+      "start": 3467,
+      "end": 3470,
+      "text": "Udah semua ya ini ya? Oh iya, web share API."
+    },
+    {
+      "start": 3470,
+      "end": 3472,
+      "text": "Atau homescreen sudah."
+    },
+    {
+      "start": 3472,
+      "end": 3474,
+      "text": "Ini detail-nya."
+    },
+    {
+      "start": 3474,
+      "end": 3478,
+      "text": "Mungkin ada beberapa teman-teman yang nggak nyadar gitu ya."
+    },
+    {
+      "start": 3478,
+      "end": 3480,
+      "text": "Kayak misalkan web share API."
+    },
+    {
+      "start": 3480,
+      "end": 3484,
+      "text": "Itu saya sering banget pakai, karena saya nggak pakai, misalkan Twitter ya."
+    },
+    {
+      "start": 3484,
+      "end": 3489,
+      "text": "Saya nggak pakai Twitter app, jadi saya pakainya web version Twitter di handphone."
+    },
+    {
+      "start": 3489,
+      "end": 3495,
+      "text": "Jadi kalau saya mau simpan bookmark atau mau simpan sebuah tweet yang menarik,"
+    },
+    {
+      "start": 3495,
+      "end": 3497,
+      "text": "itu saya pakai web share API."
+    },
+    {
+      "start": 3497,
+      "end": 3499,
+      "text": "Disimpan ke telegram."
+    },
+    {
+      "start": 3499,
+      "end": 3501,
+      "text": "Nah, tapi harus di-check."
+    },
+    {
+      "start": 3501,
+      "end": 3506,
+      "text": "Karena hanya browser mobile yang punya web share API."
+    },
+    {
+      "start": 3506,
+      "end": 3507,
+      "text": "Desktop tidak punya."
+    },
+    {
+      "start": 3507,
+      "end": 3508,
+      "text": "Desktop tidak ada."
+    },
+    {
+      "start": 3508,
+      "end": 3510,
+      "text": "Jadi kalau dibuka di desktop, lo kok nggak ada?"
+    },
+    {
+      "start": 3510,
+      "end": 3513,
+      "text": "Ya, memang belum ada. Jadi yang mobile."
+    },
+    {
+      "start": 3513,
+      "end": 3518,
+      "text": "Nah, itu bisa di-combine sama tadi itu dynamic import ya kan."
+    },
+    {
+      "start": 3518,
+      "end": 3522,
+      "text": "Mungkin kita tetap pakai library, entah library eksternal,"
+    },
+    {
+      "start": 3522,
+      "end": 3526,
+      "text": "atau kita nulis sendiri buat bikin share pop-up ya."
+    },
+    {
+      "start": 3526,
+      "end": 3528,
+      "text": "Cuma kita nggak usah load itu dulu."
+    },
+    {
+      "start": 3528,
+      "end": 3530,
+      "text": "Siapa tahu kalau emang browser,"
+    },
+    {
+      "start": 3530,
+      "end": 3535,
+      "text": "kalau emang si user pakai browser mobile yang support share API, ya udah bagus."
+    },
+    {
+      "start": 3535,
+      "end": 3539,
+      "text": "Nah, fallback-nya kalau nggak support, baru lazy load,"
+    },
+    {
+      "start": 3539,
+      "end": 3544,
+      "text": "dynamic import si JavaScript buat share dialog gitu."
+    },
+    {
+      "start": 3544,
+      "end": 3546,
+      "text": "Jadi itu enak."
+    },
+    {
+      "start": 3546,
+      "end": 3551,
+      "text": "Sebelum kita tutup, saya punya satu pertanyaan."
+    },
+    {
+      "start": 3551,
+      "end": 3559,
+      "text": "Apa sih keuntungan kita, apa sih informasi yang kita bisa dapat dari sini untuk membantu kita?"
+    },
+    {
+      "start": 3559,
+      "end": 3563,
+      "text": "Apa tujuannya kita mengetahui informasi dari Almanak ini?"
+    },
+    {
+      "start": 3563,
+      "end": 3566,
+      "text": "Menurut teman-teman."
+    },
+    {
+      "start": 3566,
+      "end": 3572,
+      "text": "Mungkin nanti teman-teman yang lain juga bisa isi YouTube comment atau di slido."
+    },
+    {
+      "start": 3572,
+      "end": 3575,
+      "text": "Apa sih keuntungannya kita mengetahui Almanak ini?"
+    },
+    {
+      "start": 3575,
+      "end": 3579,
+      "text": "Kenapa informasi ini?"
+    },
+    {
+      "start": 3579,
+      "end": 3585,
+      "text": "Mungkin salah satunya mengetahui trend-nya ya, kecenderungannya kayak gimana."
+    },
+    {
+      "start": 3585,
+      "end": 3591,
+      "text": "Kecenderungan misalnya tadi apa, ternyata kalau sebelumnya kita,"
+    },
+    {
+      "start": 3591,
+      "end": 3597,
+      "text": "mungkin kita gambling atau merasa gambling atau ragu-ragu adopsi PWA misalnya,"
+    },
+    {
+      "start": 3597,
+      "end": 3601,
+      "text": "ternyata cukup banyak yang pakai PWA, berarti relatif aman lah."
+    },
+    {
+      "start": 3601,
+      "end": 3609,
+      "text": "Terus mungkin kita bisa, itu kan tadi yang positifnya ya."
+    },
+    {
+      "start": 3609,
+      "end": 3613,
+      "text": "Kalau yang negatifnya mungkin kita bisa cek room for improvement."
+    },
+    {
+      "start": 3613,
+      "end": 3625,
+      "text": "Misalnya tadi masih banyak website yang belum nge-load JavaScript secara asing."
+    },
+    {
+      "start": 3625,
+      "end": 3627,
+      "text": "Masih banyak yang render blocking."
+    },
+    {
+      "start": 3627,
+      "end": 3632,
+      "text": "Berarti kita harus memperhatikan itu di, mungkin misalnya kita kerja dalam tim"
+    },
+    {
+      "start": 3632,
+      "end": 3637,
+      "text": "atau kita ngerjain codebase orang lain, kita bisa tahu hal-hal yang perlu diperhatikan."
+    },
+    {
+      "start": 3637,
+      "end": 3641,
+      "text": "Kesalahan umum kali ya, itu kan hal yang tadi kan cukup besar tuh"
+    },
+    {
+      "start": 3641,
+      "end": 3647,
+      "text": "yang punya render blocking script sampai 71%, berarti kalau kita nge-handle orang lain."
+    },
+    {
+      "start": 3647,
+      "end": 3652,
+      "text": "Membuka wawasan kita lah berarti ya. Apa aja sih trend sekarang?"
+    },
+    {
+      "start": 3652,
+      "end": 3656,
+      "text": "Yang sekarang tuh apa? Kita tewas website yang di posisi mana?"
+    },
+    {
+      "start": 3656,
+      "end": 3659,
+      "text": "Jadi kita bisa tahu benchmark kita itu dimana gitu ya."
+    },
+    {
+      "start": 3659,
+      "end": 3665,
+      "text": "Apakah kita sudah yang udah jadi yang lebih baik dari rata-rata atau kita masih di bawah rata-rata?"
+    },
+    {
+      "start": 3665,
+      "end": 3670,
+      "text": "Sama ini, jadi sumber konten."
+    },
+    {
+      "start": 3670,
+      "end": 3679,
+      "text": "Kita kan GDE Web kan salah satu tugas kita, salah satu job desk kita adalah untuk"
+    },
+    {
+      "start": 3679,
+      "end": 3683,
+      "text": "memasarkan atau menyebarluaskan informasi-informasi ini kan."
+    },
+    {
+      "start": 3683,
+      "end": 3690,
+      "text": "Misalkan tadi dynamic import itu kok kecil sekali, web component itu kok kecil sekali gitu."
+    },
+    {
+      "start": 3690,
+      "end": 3694,
+      "text": "Jadi itu yang harus kita suarakan lagi, lebih sering lagi gitu."
+    },
+    {
+      "start": 3694,
+      "end": 3699,
+      "text": "Misalkan ngisi acara dimana gitu ya, kita bisa bahas ini misalkan kayak tadi,"
+    },
+    {
+      "start": 3699,
+      "end": 3705,
+      "text": "oh ini masih banyak website-website di Indonesia atau di dunia bahkan"
+    },
+    {
+      "start": 3705,
+      "end": 3708,
+      "text": "belum menggunakan script asing gitu."
+    },
+    {
+      "start": 3708,
+      "end": 3715,
+      "text": "- Script asing kok jadi enak ya script asing? - Script asingkronus gitu kan."
+    },
+    {
+      "start": 3715,
+      "end": 3721,
+      "text": "Padahal itu udah ada fitur udah cukup lama dan dampaknya kepada performa itu cukup tinggi gitu."
+    },
+    {
+      "start": 3721,
+      "end": 3726,
+      "text": "Jadi ya tugas kita sebenarnya buat menyebarkan lagi beritanya,"
+    },
+    {
+      "start": 3726,
+      "end": 3730,
+      "text": "buat menyebarkan lagi buat orang-orang jadi lebih tahu gitu."
+    },
+    {
+      "start": 3730,
+      "end": 3735,
+      "text": "- Terus apa ya, kadang kalau kita bikin konten, kalau cuma nyebutin tentang API-nya,"
+    },
+    {
+      "start": 3735,
+      "end": 3740,
+      "text": "tentang sinteks ya, tentang demo kayak contoh penggunaan yang kayak di dokumentasinya,"
+    },
+    {
+      "start": 3740,
+      "end": 3743,
+      "text": "itu kan mungkin kurang menarik ya."
+    },
+    {
+      "start": 3743,
+      "end": 3750,
+      "text": "Cuma yaudah itu keren, flashy, new, trendy, cuman belum tentu relevan sama kehidupan nyata."
+    },
+    {
+      "start": 3750,
+      "end": 3754,
+      "text": "Nah dari alamanak ini kan kita bisa dapat konteks yang lebih baik kan."
+    },
+    {
+      "start": 3754,
+      "end": 3759,
+      "text": "Misalnya tadi contoh gampangnya PWA dipakai di website jenis apa aja sih,"
+    },
+    {
+      "start": 3759,
+      "end": 3763,
+      "text": "kita punya data real buat ngedukung statement atau konten kita."
+    },
+    {
+      "start": 3763,
+      "end": 3770,
+      "text": "- Bisa ini juga bisa buat ke apa, ngajuin ke pemegang apa ya, placeholder."
+    },
+    {
+      "start": 3770,
+      "end": 3774,
+      "text": "- Product owner atau project lead atau apapun itu."
+    },
+    {
+      "start": 3774,
+      "end": 3778,
+      "text": "- Stakeholder atau pemegang keputusan, misalkan keputusan bisnis gitu ya."
+    },
+    {
+      "start": 3778,
+      "end": 3781,
+      "text": "- Kita mau maju kemana gitu ya?"
+    },
+    {
+      "start": 3781,
+      "end": 3786,
+      "text": "- Iya, ngapain sih kita, website kita pakai PWA, website kita kan website berita misalkan gitu kan."
+    },
+    {
+      "start": 3786,
+      "end": 3789,
+      "text": "Nggak perlu PWA, coba deh lihat."
+    },
+    {
+      "start": 3789,
+      "end": 3795,
+      "text": "- Kita komen sama BigQuery yang diberhasilkan tadi, kompetitor kita pakai semua ini."
+    },
+    {
+      "start": 3795,
+      "end": 3802,
+      "text": "- Ibaratnya kita bisa membantu kita mengambil keputusan juga kayaknya,"
+    },
+    {
+      "start": 3802,
+      "end": 3805,
+      "text": "disupport dengan data yang ada."
+    },
+    {
+      "start": 3805,
+      "end": 3809,
+      "text": "- Iya, kalau cuman bilang kita harus pakai PWA nih, kenapa emang?"
+    },
+    {
+      "start": 3809,
+      "end": 3812,
+      "text": "Kita nggak bisa support dengan datanya jadi kurang menarik kan."
+    },
+    {
+      "start": 3812,
+      "end": 3818,
+      "text": "Tapi kalau misalkan kita bilang 90% website berita di luar sana sudah pakai PWA."
+    },
+    {
+      "start": 3818,
+      "end": 3821,
+      "text": "- Semua kompetitor kita sudah pakai PWA."
+    },
+    {
+      "start": 3821,
+      "end": 3829,
+      "text": "- Oke, saya harus kita..."
+    },
+    {
+      "start": 3829,
+      "end": 3832,
+      "text": "- Ya udah, kita pamit aja."
+    },
+    {
+      "start": 3832,
+      "end": 3836,
+      "text": "- Atau tinggal 9%."
+    },
+    {
+      "start": 3836,
+      "end": 3842,
+      "text": "- Kita juga sudah satu jam, jadi mungkin untuk malam ini kita cukupkan dulu aja."
+    },
+    {
+      "start": 3842,
+      "end": 3845,
+      "text": "Terima kasih buat teman-teman, ada pertanyaan-pertanyaan yang belum terjawab,"
+    },
+    {
+      "start": 3845,
+      "end": 3849,
+      "text": "nanti akan kita recap dan kita masukkan ke Slido."
+    },
+    {
+      "start": 3849,
+      "end": 3852,
+      "text": "Mungkin kita akan jawab di episode-episode berikutnya ya."
+    },
+    {
+      "start": 3852,
+      "end": 3857,
+      "text": "- Mungkin next time kita bisa bahas kenapa shadow dome konsepnya gimana Pak Risa."
+    },
+    {
+      "start": 3857,
+      "end": 3860,
+      "text": "- Ya, buat komponen dan shadow dome akan kita bahas."
+    },
+    {
+      "start": 3860,
+      "end": 3863,
+      "text": "- Nah web komponen, udah ada materinya kan tuh."
+    },
+    {
+      "start": 3863,
+      "end": 3867,
+      "text": "- Ya, jadi kita juga ngumpulin materi."
+    },
+    {
+      "start": 3867,
+      "end": 3869,
+      "text": "Oke, terima kasih buat semuanya yang sudah hadir."
+    },
+    {
+      "start": 3869,
+      "end": 3872,
+      "text": "Terima kasih buat Ivan, terima kasih buat Eka."
+    },
+    {
+      "start": 3872,
+      "end": 3876,
+      "text": "- Sukses acara wordcam-nya besok, kita ketemu minggu depannya."
+    },
+    {
+      "start": 3876,
+      "end": 3878,
+      "text": "- Thank you, bye."
+    }
+  ],
+  "fullText": "Halo, Assalamualaikum Warahmatullahi Wabarakatuh. Selamat malam, selamat hari Selasa. Selasa malam, waktunya kita ngobrolin web. Masih sama-sama kita bertiga. Riza, masih ada saya, Riza. Kemudian ada Eka. Halo, Eka. Halo. Ya, saya Riza dari Tangerang, Eka dari Jogja. Dan ada tamu jauh, ya, Ivan, yang jalan-jalan terus. Yay! Halo, halo. Dari mana nih? Dari mana nih? Iya, kali ini dari Gresik. Saya lagi di WorldCamp Gresik. WorldCamp, ya? Wah, mantap. - Acaranya mulai besok. - Acaranya besok, ya? Berapa hari? - Selama 2 hari. - Selama 2 hari. Wow, seru ya. Seru banget. Ini mulai ramai banget nih. Kan sekarang ada lagi kayak seperti gala dinner gitu ya. Jadi ketemu speaker, sponsor. Speakersnya juga ada dari lokal, dari luar juga ada. Sponsor dari lokal juga ada, dari luar juga ada. Jadi, iih, seru banget. Iya, iya, iya. Tapi tetap COVID-man. Organisernya mau stream. Ngobrol di web. Iya, iya dong. Ya kan masih berkaitan sama WordPress juga ya ini. Betul. Ya, WordPress kan menguasai dunia web kan? Berapa persen? Kalau saat ini sekitar 41 persen. Saya lupa angka eksternya. 40 persen. Tapi dari survey, bukan dari survey, maksudnya. Dari web survey yang dilakukan itu dari strategi, Pak. Top 1 million web itu, Pak, 41 persen menggunakan WordPress. Oh, wow. Gede sekali ya. Ya, WordPress ini kan salah satu killer feature-nya ini ya. Bisa dibilang killer feature-nya PHP kan. Dan CMS yang paling populer lah ya. Kalau jawab dulu, kita ada jumlah, ada Drupal. Drupal juga masih eksis ya, masih banyak juga yang pakai. Ada yang tahu nggak sebelum jumlah itu apa? Sebelum apa ya? Ya, deket-tek aja. Ngetek ATML manual. Enggak ya? Is it Mambo? Mambo. Mambo ganti jadi jumlah kan kalau nggak salah ya? Gue pakai CMS-nya mulainya dari Mambo. Dari Mambo. Tahun umur deh gue. Kalau untuk e-commerce-nya, gue pakainya OS Commerce. OS Commerce. Iya, baru diporking jadi Zencar. Oh, jadi Zencar. Tapi yang dari WordPress sendiri juga ada kan. Ya namanya, e-commerce kan itu WordPress ya. Ngefreeze kan Ivan kan. Kita remove dulu ya. Jadi Ivan boleh join lagi nanti kalau internetnya udah oke. Jadi malam hari ini, topiknya apa nih kak? Topiknya adalah web almanak. Jadi kita mau bahas tentang state of the web ya. State of the web 2022, perkembangan dunia web itu seperti apa dari 2021 sampai tahun ini, 2022. Tapi bukan berdasarkan survey, melainkan berdasarkan statistik data yang dikumpulkan dari pengguna-pengguna browser Chrome. Khusus browser Chrome. Bukan Chromium, Microsoft Edge, atau Opera, atau anak-anaknya Chromium, enggak. Jadi dia hanya Chrome aja yang warnanya merah kuning hijau. Dan juga bukan dari Firefox dan bukan dari Safari. Jadi yang ada statistiknya itu dari Chrome aja. Terus begitu datanya dikumpulkan, kemudian disimpan ke satu sumber data dengan BigQuery. Kemudian dari situ baru bisa didapatkan di analisa. Jadi mungkin kita bisa mulai dulu dari Eka. Ini bahas tentang KTTP Archive itu apa dan bagaimana cara data dikumpulkan. Jadi kan tadi sudah dibahas sekilas tentang web almanak. Yang bakal banyak kita bahas malam ini sebetulnya hasil dari web almanak untuk tahun 2022. Tapi web almanak itu datanya dari mana? Dari project yang namanya HTTP Archive. Nah, HTTP Archive itu project yang sudah berjalan selama berapa ya? Dari tahun 2010 atau berapa punya? Sudah berjalan selama bertahun-tahun. Eh, sebelumnya deh. Tapi almanaknya 2019, disini datanya. Jadi HTTP Archive itu project parent-nya. Jadi dia mengumpulkan seluruh URL yang tadi dibahas itu, URL yang diakses oleh pengguna Chrome. Nah, itu bagian dari project yang namanya CRUX, Chrome User Experience. By default, kalau kita pakai Chrome, itu URL yang kita akses itu dikirim. Tapi pastinya di-anonymize ya, nggak include apa IP address kita atau apa. Jadi cuma general region, mungkin dari Indonesia, device-nya seperti apa, URL yang diakses itu apa, itu dikirim ke Archive mereka. Di preferences, kalau kita nggak bersedia, ya bisa off-out. Cuma ya, maksudnya itu... Kayaknya waktu install Chrome pertama kali, ada ininya kok. Oh, ada checkbox-nya ya? Ada consent-nya kok, ada inform consent-nya. Dan by decode memang enable by decode. Tanyaannya, apakah kalian membacanya? Oke-oke aja. Jangan, oke-oke saja. Nah, itu data URL-nya kan dikumpulin sama si HTTP Archive ini, yaitu tadi URL-nya itu masing-masing URL setiap tanggal 1 setiap bulannya, itu mereka running sejumlah tes. Bisa tolong buka halaman yang metodologi. Metodologi, siap. Nah, itu ada tools-nya. Jadi mereka si pihak HTTP Archive ini dengan bekal URL-URL yang dikirim dari Chrome UX study, Chrome study, mereka running sejumlah tes pakai beberapa tools-nya. Ada tool di situ kan, ada web page test, ada Lighthouse, dan lain-lain. Terus di-store di database yang namanya BigQuery. Nah, BigQuery-nya. Google BigQuery ya, maksudnya ya? Ya, Google BigQuery. GCP, GCP. Dan itu bisa, ya betul, GCP bisa diakses dari Google Cloud Platform oleh siapapun, bukan cuma si pihak siapa, HTTP Archive atau yang bikin Almanak aja, kita semua bisa, tapi bayar. Kita juga pernah eksplor ya, tapi abis itu menyerah. Susah. Ya, jadi emang itu kan bayarnya berdasarkan usage ya. Jadi ada free tier-nya, buat kalau yang cuma pengen iseng coba-coba tuh, ada kan contoh dataset-nya itu, ya semacam SQL query lah. Jadi kalau penggunaan kita per bulan di bawah 1 terabyte, masih free. Nah, cuma ini kan datanya tuh banyak banget, dan ekstrim lah. Maksudnya ini data yang di-store itu, test-nya aja banyak, tools-nya banyak, hal-hal yang apa, metric-metric yang di analisa itu sangat banyak. Kalau misalnya kita harus nulis SQL command untuk mendapatkan data yang kita mau, kalau belum terbiasa itu sulit. Jadi kalau dari segi data, memang datanya tersedia, bisa diakses, baik secara gratis, maupun kalau mau maksimal, ya berbayar. Tapi kan kita belum tentu bisa langsung membaca, apa, cari data yang kita mau, pilih kolom-kolom apa aja yang datanya relevan, dan apa, menafsirkan lah ya, meninterpretasi datanya maksudnya seperti apa, itu kan agak sulit. Nah, makanya sekitar 3 tahun kayaknya, 3 tahun terakhir ini, mereka dari HTTP Archive itu membuat project state of the web lah, almanak tahunan. Jadi ini yang paling baru yang mau kita bahas ini, yang tahun 2022. Tahun lalu ada 2021, dimana mereka itu ternyata mereka bekerja sama dengan ekspert di masing-masing bidang. Jadi ada CSS, JavaScript, atau mungkin Accessibility, dan lain-lain, dan mereka juga merekrut banyak kontributor sukarela. Ternyata itu ada, apa sih, bisa volunteer kalau kita mau. Jadi ikut dalam tim yang menafsirkan dan mendiskusikan data-data atau matrix apa aja yang mau diolah. Dan itu hasil olah data mereka itu dipresentasikan dalam almanak tahunan ini. Jadi kita bisa relatif lebih mudah membaca atau menafsirkan data-datanya. Kayak misalnya CSS nih contoh, ya contoh random aja. Mungkin ada hal-hal yang relevan seperti media query atau support query, atau misalnya untuk accessibility, prefer reduced motion. Itu kan kalau cuma lihat dari database, itu sekadar hanya satu dari banyak kolom yang ada. Tapi kan di almanak ini di analisa dari kacamata misalnya accessibility. Jadi kita lebih mudah menafsirkan data-data itu, dan yang paling enak sih dibawahnya ada contoh query-nya. Jadi kalau kita mau pakai tinggal kopas aja. - Oh iya, mana ya? - Nanti kalau di bagian-bagian kayak CSS. Di bawahnya ada contoh. - Di setiap kategorinya ya. Ada dua hal menarik ya di almanak ini yang saya perhatikan. Yang pertama adalah kalau misalkan survei-survei kayak dari Stack Overflow, atau State of JS, atau State of CSS dan lain-lain itu kan survei kan. Jadi orang yang kenal sama... - Pembuat survei. Yang pas kebetulan baca. - Ya, friend of friend gitu ya, yang kebetulan baca. Dan kemudian ada keinginan untuk menulis survei, atau mengisi survei-nya. Dan isi survei-nya juga belum tentu akurat kan. Dia bisa aja berbohong dalam tanda kutip gitu. \"Ah nggak mau isi yang ini, isinya yang itu.\" Bisa aja gitu kan. Tapi kalau dari web almanak ini lebih jujur karena... Ya, emang URL yang diakses. Ini lebih tepatnya, lebih ada field report, satu field report, satu lagi survei report. Terbeda ya. - Ya, jadi kadang-kadang ada misleading juga. Kalau misalkan State of JS gitu kan, dia memang yang bikin survei-nya itu ya di lingkungannya React. Makanya React menang. Walaupun memang secara jujur, secara umum memang React paling atas. Cuman kan teman-teman dia juga banyak pakainya di lingkungan dia pakai React. Karena itu jadi agak bias, bukan misleading ya, agak bias gitu lah kira-kira. Sementara kalau ini kayaknya lebih netral lah. Ya, nggak netral juga karena cuma Chrome aja, nggak browser yang lain gitu. Tapi lebih representatif kali ya. Iya, browser lain kan nggak meliputan gitu. Dan juga data ini juga sebenarnya open door buat teman-teman jika ingin melihatnya secara langsung. Saya bisa demo-in sedikit kalau teman-teman pengen lihat. Wah, boleh dong, coba-coba. Kebetulan saya lagi mainan BigQuery. Kita waktu itu pernah minta diajarin sama Johan ya bikinin BigQuery, main-main BigQuery. Wow, oke. Jadi ini saya punya akun Google Cloud. Di Zoom dong, di Zoom, nggak kelihatan. Gak bisa ya? Oke, bisa aja. Oke, cukup, cukup. Jadi saya punya akun di Google BigQuery. Jadi ada 3 data yang open. Satu dari HTTP Archive, saya lupa efadu query ini apa, tetapi ini kelihatannya dari troller untuk beberapa situs-situs besar seperti Stack Overflow, Hacker News, GitHub, Wikipedia, segala macam. Dan satu lagi, Chrome UX Report. Oke, kita bahas sedikit. Kalau misal dari HTTP Archive, ini data-data yang ada. Jadi contohnya kalau mau lihat, dari 2016 nggak ada data ini. Contoh kalau mau lihat data dari 2021 aja ya, mau bala ya. Kita bisa preview datanya apa yang dipumpulkan. Oke, contohnya seperti ini. Timewise.net dan data yang dikirimkan itu apa aja. On content loaded, blablabla. Terus nanti dari data ini ada yang proses ke data-data yang lebih kecil lainnya. Contohnya mau ke data yang diproses itu jadi, contohnya data almanak nih. Yang para mereka mana aja yang sudah jumpstack. Jadi contohnya kalau yang begini itu data table, kalau yang begini itu sudah view. Kalau tau apa ya, jadi view lah. Data table ya table, kalau yang view itu sudah kaya difilter dari data set yang besar. Udah ada kondisinya, udah dimodifikasi. Betul, jadi kita bisa query ke view aja. Jadi kita lihat nih kalau tahun 2022, clientnya desktop, terus website-nya ini, kira-kira response-nya gini, kelihatan nih average LCP, fast LCP, CLS, blablabla sudah kelihatan. Ini juga, ini data almanak ya, itu juga bisa di cross-reference. Saya dulu pernah bermain di cross-reference antara datang dari harta TVR. Kita selalu punya pertanyaan, bagaimana sih pertumbuhan pengguna jamstack di Indonesia dari tahun ke tahun, yang khususnya dari Indonesia dari tahun ke tahun. Nah, maksudnya kita bisa dari query dari data HTTPR5, di query ke Chrome UX Report, misalnya dari country-nya Indonesia. Karena kita pengen berapa data dari Indonesia, data country ID soalnya. Sudah difilter nih berdasarkan country. Ini agak skew datanya ya, karena situs dari Indonesia itu apa gitu ya, berdasarkan apa. Kalau di sini itu, situs dari Indonesia itu adalah situs yang di-visit dari Indonesia. Jadi bisa jadi situs luar negeri tapi di-visit dari Indonesia. Oh, bukan server yang serve si website-nya sendiri ya? Susah, susah, susah itu. Oh ya, nggak ada datanya. Gimana? Contohnya, WhatsApp kan bukan dari Indonesia kan, tetapi di-visit dari Indonesia, contohnya seperti itu. Jadi, bisa teman-teman bisa menquery data yang kayak Google, terus bisa dilihat performance-nya seperti apa. Jadi, kalau mau lihat kompetitor atau teman-teman mau lihat kompetitor, bisa. Bagaimana sih performa kompetitor itu dari sini gimana, itu juga bisa. Last thing, jadi antara data set ini pun, yang penting teman-teman ingat ya, ini berbayar ya, jadi kalau di running query-nya, dia berbayar sesuai dengan total execution time. Ya, jadi hati-hati dengan query-nya. Jangan lupa pakai limit ya. Iya, jangan lupa pakai limit. Kalau udah benar, baru limitnya di... Tapi kalau dibawah 1 terabyte, masih free kan ya, ada free tier-nya? Masih ada, saya lupa free tier-nya, tetapi... 1 terabyte sebulan. Jadi, hati-hati bagi teman-teman yang mau bermain, karena kita GDI, kita tuh dapat kupon. Jadi, kita bisa eksplorasi. 300 solar ya. Iya, jadi bisa eksplorasi, jadi data Reddit, bisa kita lihat juga di sini, Toktoin di Reddit itu. Silahkan. Nah, jadi soal transparansi data, apa yang dikumpulkan sama RTPP Archive, Chrome UX Report, ada semua di sini. Ada semua. Jadi, kalau misalkan kita mau lihat gitu, website yang paling, performanya paling bagus yang diakses dari Indonesia, bisa ya? Bisa. Tinggal nanti pinter-pinter bermain SQL query, nanti saya udah kehilangan, kehilangan saya punya query gak tahu lagi dimana ya. Kalau gak saya bisa tunjukin bagaimana query yang kemarin saya sudah pernah coba. Mengatahu kalau gak tahu itu, saya mencari pertumbuhan situs WordPress yang dikundingi dari Indonesia dari tahun ke tahun. Nah, itu saya pernah bikin itu datanya. Dan itu perkembangannya sangat pesat di Indonesia. Jadi, apa namanya? Bisa menggunakan fitur ini jika ingin melakukan saya survei-survei atau... Analisa. Analisa dengan metodologi data-data science. Bisa bikin semacam state of web atau state of JS versi lokal gitu kan. Betul. Jadi misalkan kita pengen tahu apakah library yang banyak digunakan, yang diakses apa? Kan kita bisa cek website yang berbahasa Indonesia misalkan. Ada language-nya ID gitu, Indonesia. Terus habis itu dicek dia pakai library apa. Atau ukuran halamannya totalnya berapa gitu. Atau FTP-nya berapa. Core Web Vitals-nya berapa gitu ya. Bisa kayak gitu ya. Betul, betul. Seru sih ya. Cuma mungkin ini ada kafiatnya sedikit ya soal akurasi. Tadi kalau URL-nya kan emang karena auto-report. Jadi nggak ada bias-bias yang kayak di survei-survei yang survei manual kita bahas tadi. Jadi kalau dari segi URL sih emang cukup representatif untuk user Chrome. Jadi pengguna Chrome kan cukup mayoritas ya. Jadi secara statistik mungkin kita bisa dapat gambaran besarnya. Tapi ini kan dia pakai walaupun URL-nya, field URL. Matrix-nya kan berasal dari lab tools ya. Web page test dari Lighthouse dan lain-lain. Dan di metodologinya ada penjelasannya tuh. Bahwa mereka emulate dengan kondisi cash kosong dan lock out. Namanya ya mereka nge-crawl process itu dengan cara atau metodologi lab tools. Jadi nggak 100% mewakili apa yang dialami user. Karena user mungkin speed-nya berbeda-beda. Ada cash, mungkin kalau login experience-nya beda ya. Kadang kan ada aplikasi yang kalau landing page memang status. Status dan server render misalnya. Karena kan bisa berubah, tapi begitu kita login itu fungsinya semua misalnya client render. Pakai JavaScript yang mungkin dari segi thread blocking-nya, total blocking time-nya. Bisa ada perbedaan karena ya emang usage-nya beda. Jadi nggak 100% mewakili usage. Sama untuk library yang client-side, itu kan mereka pakai weaponizer ya. Tools yang bernama weaponizer tuh ada di halaman metodologi. Itu tuh nggak semua library JavaScript bisa dideteksi dengan akurat oleh tooling itu. Jadi kayak contohnya React itu lebih mudah dideteksi karena kan dia ada global-nya kan, ada runtime-nya. Tentara kayak swell dan mungkin view ada nggak sih? Ya view atau mungkin solid atau lain-lain. Yang ya swell lah. Dia kan nggak ada runtime-nya ya. Jadi maksudnya kalau kita punya aplikasi atau situs web yang pakai swell, begitu udah dibuild, ya swell-nya ilang. Itu jadi JavaScript biasa aja. Jadi itu solid dideteksi oleh tooling seperti weaponizer tadi. Terus kalau WordPress kan, kalau CMS seperti WordPress itu bukan lebih mudah dideteksi. Sedangkan kalau yang pure HTML-based, misalnya 11t atau apalah, kan 11t atau Hugo kan dia generate pure HTML. Ya terus gimana? Itu kan nggak ada jejaknya. Gak bisa di data. Jadi namanya statistik itu kan nggak bisa presisi banget. Cuma kita tetap dapat gambaran besarnya aja. Oke. Nah, dari web Almanac ini kan ada beberapa kategori-kategorinya ya. Ada banyak ya. Banyak-banyak banget. Di table content-nya ini juga kan ada CSS, ada JavaScript, markup, font, media, web assembly, sampe PWA dan lain-lain. CMS juga ada. Ada banyak sekali. Dan malam hari ini kita akan bahas sedikit-sedikit ya. Sedikit aja. Mungkin cukup kalau 2-3 jam. Kita mulai dari JavaScript dulu ya. Kita mulai dari JavaScript. Yang menarik dari JavaScript. Nah, ini yang bisa saya lihat ada ini apa, dari tahun lalu dibandingkan tahun lalu sama tahun ini, ada pertumbuhan yang cukup, apa ya, cukup lumayan untuk jumlah JavaScript yang di apa ya, di daca, di browser. Ada sekitar 8%. Kemudian untuk di desktop 10%. Jadi nambah. JavaScript-nya yang tadi kita lihat ada website yang nggak ada JavaScript, sekarang nambah. Kemudian yang menarik lagi, gimana ya, nah ini. 17% pengguna Chrome itu membuka website yang menggunakan Webpack sebagai bundler-nya. Ini lagi seru karena si Versel baru ngeluarin Turbo Pack juga kan? - Turbo Pack. Yang buat sama. - Yang buat sama. - Ini trend banget yang bikin Note, bikin Deno. - Iya. Nah, ini yang bikin Webpack. Pas Webpack ada lambat, dia bikin Turbo Pack. Iya. Ini juga, ya, Turbo Pack di last belum masuk doang kan. Dia baru mulai kan. Jadi mungkin tahun depan kita akan lihat apakah pengguna Webpack semakin menurun atau gimana, kita nggak tahu. Kemudian, secara apa ya, agak di luar perkiraan, bundler yang populer kedua adalah ternyata Parcel. Wow. Parcel ini sebenarnya awalnya ya, berawal dari Webpack yang tidak perlu dikonfig. Abis itu dia akhirnya bikin bundler sendiri akhirnya. Kalau nggak salah ya. Dulu awal-awal Parcel 1 itu kalau nggak salah itu. Dia Webpack tapi dia nggak perlu dikonfigurasi. Sama seperti Veed sebenarnya. Cuman kalau Veed kan kita harus itu kan, define kan. Oh, saya mau react dan typescript gitu kan. Ada menu-nya kan. Kalau Parcel itu dia bisa auto-detect kalau nggak salah. Ini cukup seru juga karena adopsinya lumayan naik dari 1,2 ke 1,9. Tidak terlalu signifikan tapi untuk ukuran Parcel yang tidak banyak orang dengar ini lumayan sih. Kemudian transpiler ya masih bubble lah ya. Kemudian nah ini untuk beberapa cara memanggil JavaScript gitu ya. Ada yang menggunakan async. Ada yang menggunakan devr. Ada yang pakai module. Atau ada yang no module. Ini script, text script kemudian spasi type sama dengan module itu digunakan kalau teman-teman mau pakai sintaks yang import bla bla bla. Kita bahas sedikit pas bahas Veed Convert itu ya episode lalu. Jadi import itu sebenarnya sudah didukung oleh browser nggak perlu pakai WP. Belum semua loh. Belum semua. Hampir ya hampir. Jadi kalau teman-teman mau pakai import. Maksudnya browser yang lama ya. Browser yang lama. Betul. Browser modern yang sudah up to date automatis update seperti Chrome, Edge, atau Firefox, Safari mungkin itu udah bisa. Jadi tinggal tambahkan aja spasi type sama dengan module itu udah bisa support import. Jadi nggak perlu pakai. Ya browser keluaran 2 tahun terakhir lah ya. Keliatannya mulai apa? Mulai major. Ya dan ada juga cara pemanggilan yang asingkranus supaya nggak blocking ya kalau nggak salah ya. Ya betul. Supaya nggak blocking. Kalau devor ini apa devor? Di load setelah domp content load selesai semua selesai. Di download domp content load dia baru jadi di download ditunda sampai selesai domp. Sedangkan kalau asing seselesainya dia ya? Seselesainya dia dipanggil. Dan sudah selesai di download baru dia di expect. Nah sebenarnya asing dan devor kalau dipakai bersamaan itu salah kan ya. Maksudnya devornya nggak berlaku asingnya kan yang menang. Nggak boleh dipakai dua-duanya kan. Tepatnya boleh aja tapi devornya nggak rusak. Cuma buat apa? Yang jalan asingnya doang katanya kalau dipakai dua-duanya. Kalau scriptnya berbeda yang satu dipakai asing yang satu dipakai devor karena tidak terlalu perlu. Misalkan analytics kan butuhnya terakhir ya. Nggak perlu di awal ya. Tergantung analyticsnya ya. Misalkan kayak itu lah counter lah. Counter web page counter gitu. Counternya nambah gitu kan. Itu kan bisa terakhir gitu kan. Atau misalkan mau load JavaScript untuk komentar. Yang pastikan artikelnya harus muncul dulu dong. Baru komentarnya ada gitu kan. Kalau saya malah lebih ekstrim lagi. Hanya load JavaScript hanya saat dibutuhkan. Oke itu gimana caranya? Jadi island architecture. Atau kalau mau manual pakai intersection observer. Misalnya komen kan biasanya jauh di bawah ya. Sedangkan buat apa dia di load saat di atas. Meskipun kita tunda buat apa dia di load di atas. User yang aja belum scroll sampai ke bawah. Belum tentu dia tertarik untuk komen dan belum tentu dia selesai membaca terus dia mau komen gitu ya. Iya dan bisa-bisa mungkin pakai intersection observer. Misalnya sampai kayak 300 pixel sebelum komen baru scriptnya baru di request. Request dulu, running, baru dia di render. Jadi hemat banyak kan. Contohnya kalau kita di restoran. Kita nggak akan mungkin juga, kan ada juga teknik yang kalau kita mau order dessert. Makanan pencuci mulut ya setelah selesai makan dong harusnya. Jangan waktu makan. Kalau pesen minum, minumnya duluan sampai. Minumnya manis-manis lagi kan. Jadi hilang selera makan kita ada keburu minum. Oke, anyway. Jadi si asing ini sudah lumayan banyak orang yang tahu. Jadi sudah banyak dipakai. Ada sekitar 76% web mobile itu menggunakan script dengan asing. Karena supaya nggak render blocking, terutama bisa meningkatkan skor dari performance juga. Core white vital. Betul core white vital. Kemudian, tapi si Diver ini yang masih belum terlalu banyak dipakai. Kemudian apa lagi yang menarik? Kita lihat lagi. Ini nggak semua ya. Kamu bisa baca langsung dari almanac.http.archive.org ya. Kalau mau detailnya. Tapi di sini kita highlight yang menarik-menarik aja. Yang menurut kita menarik ya. Kemudian ini adalah percentage. Percentase. Aplikasi mobile atau halaman web mobile. Yang masih ada render blocking script. Yang tidak menggunakan asing. Tinggi 77%. Jadi masih banyak yang belum terlalu dioptimasi. Terutama untuk mobile page. Masih scriptnya masih di-head dan belum menggunakan asing. Belum di-referensi kan? Yes. Bisa jadi topic. Topic. Bisa, bisa. Boleh, boleh, boleh. Kemudian dynamic import juga salah satu fitur yang menarik. Dan masih belum banyak orang yang tahu. Ternyata udah ya tapi ya. Sudah, sudah. Sudah ada. Sudah ada. Bedanya dengan static import apa? Static bedanya adalah kalau dynamic import dia hanya di-load ketika dibutuhkan. Jadi kalau memudahkan untuk chunk JavaScript. Kan JavaScript code kita kan enggak. Kalau misalkan ukurannya besar kan dipotong-potong ya. Jadi dengan menggunakan dynamic import. Ya. Lebih apa ya. Lebih efektif lah gitu penggunaannya. Dan hanya enggak sampai setengah persen dari pengguna yang mengakses website dengan fitur dynamic import. Mungkin karena juga masih baru ya. Untuk mobile 0,34 tapi untuk desktop 0,41. Nggak beda jauh. Terus web worker juga salah satu fitur yang lumayan menarik. Karena dia bisa dijalankan dengan thread yang berbeda. Jadi asingkronus. Jadi main thread ya. Ya. Khusus untuk pekerjaan-pekerjaan tidak ada hubungannya sama manipulation DOM. Memakses DOM dan lain-lain. Apa sih maksudnya? Maca file. Ambil data dan lain-lain itu bisa dikerjakan oleh web worker. Ini naiknya berapa nih dari tahun lalu? Angka statistik web worker. 12 persen ini naiknya enggak ada ya. Kayaknya tahun lalu belum ini deh. Belum rilis. Sekarang kan mungkin ngetrend salah satunya karena ada party town ya. Yang lagi ke hype. Jadi mungkin mulai public adoptionnya mulai tinggi lah. Ya enggak harus dari party town. Cuma orang jadi tahu bahwa oh ya bisa kayak gitu. Ini ada kasus saya pakai web worker ini. Untuk ini apa namanya? Request data di background. Saya pakai ini juga. Jadi di project yang saya itu. Misalnya setelah loading, loading setelah loading pertama. Saya tahu di bagian bawah itu ada statistik. Ada data, data endpoint yang harus saya load. Tapi enggak saya load dari, enggak saya load via. Main thread. Main thread. Karena saya tahu data itu enggak penting-penting amat di load. Karena data cukup gede. Dan harus diproses. Jadi saya requestnya via web worker. Saya via web worker sudah sampai. Terus saya simpen di local storage. Jadi waktu scrolling sampai ke komponen tersebut. Saya cuma tinggal load dari local storage. Enggak perlu request. Betul. Jadi buat teman-teman yang enggak tahu party town. Tadi sempat dibahas. Itu adalah salah satu library untuk melod. Terparti script seperti analytics. Ternyata party town itu terparti maksudnya. Ya analytics. Kemudian apalah gitu ya terparti library. CDN dan lain-lain. Itu yang tidak ada hubungannya sama manipulasi dom. Itu di loadnya di web worker. Jadi lebih cepat. Misalkan teman-teman pakai Google Analytics. Atau pakai analytics yang lain. Seperti itu. Kemudian kita lanjut lagi. Ivan sudah selesai atau tadi kepotong sorry? Enggak. Oke. Ini juga seru nih. Pasti banyak yang mengefriend sama jQuery. Jadi jQuery masih teratas. Jauh sekali dibandingkan React 8%. Menurut saya sih karena pengaruh WordPress. Satu itu karena kadang-kadang ada satu aplikasi web atau halaman web. Itu bisa punya dua library jQuery yang berbeda versi. Jadi dia bisa dua kali lipat sendiri. Itu dihitung satu. Kalau di sini mungkin dihitung satu ya. Kalau dihitung satu, berarti ini bisa lebih dari 81%. Lebih banyak lagi. Itu udah penjelasan itu. Sebagian karena WordPress. Karena tingginya penggunaan WordPress. Itu ternyata berkorelasi langsung sama tingginya si jQuery. Betul. WordPress menggunakan jQuery dan digunakan 35% dari website sejauh ini yang menggunakan Chrome. Yang dari CRUX ini. Itu menggunakan WordPress. Sehingga jQuery-nya yang paling tinggi. Beda ceritanya kalau nanti jQuery-nya digantikan oleh yang lain. Dan di sini juga ada cerita bahwa hampir semua fitur-fitur jQuery sebenarnya sudah bisa dilakukan di DOM API. Jadi kalau misalkan teman-teman berfikir untuk bikin aplikasi web di luar WordPress. Diusahakan jangan pakai jQuery dulu sampai benar-benar dibutuhkan. Saya nggak tahu kapan. Kayaknya udah nggak butuh ya. Kalau project baru nggak butuh. Cuma kalau project lama kan kalau rewrite semua. Ditulis ulang menggunakan web API yang baru. Nggak ada yang mau, males. Salah satunya kalau nggak salah Bootstrap. Bootstrap udah tergantung budget. Kalau nggak salah Bootstrap udah nggak pakai jQuery. Jadi sudah mulai sedikit-sedikit orang berpindah. Karena memang DOM API udah lebih mudah digunakan dibandingkan dulu ya. Kalau dulu kan kita harus pakai XHR. XML. XHR HTTB Request. Kami nyebelin waktu. XML-nya, huruf besar, huruf kapital. HTTP-nya, TTP-nya, huruf kecil. Siapa itu yang buat API ya? Yang bikin itu si XML HTTB Request yang bikin. Bukan. Cuma Internet Explorer kan ya itu. Internet Explorer. EA itu yang bikin itu. Jadi Ajax itu yang bikin dulu EA. EA ya. Jadi gara-gara itu aja, worth it. Untuk pakai jQuery dan kita bisa pakai dolar titik Ajax atau GET. Itu udah worth it untuk urusan gitu. Tapi kalau sekarang kan udah ada vets ya. Jadi harusnya lebih mudah lah. Terus juga untuk selektor dan lain-lain juga sudah lebih sederhana dibandingkan dulu. Jadi disarankan, pikir dua kali ya. Pikir berapa kali untuk menggunakan library-library seperti jQuery, moment.js, dan lain-lain yang kita udah bahas di episode sebelumnya juga. Episod terakhir. Kemudian, nah ini juga gede nih. 57% ternyata dari halaman mobile page. Ada 57% web yang JavaScript-nya pasti ada isu... Kamanan. Kamanan. Ini lumayan besar. Lebih dari setengahnya. Tapi turun tahu, turun signifikan dari tahun lalu. Oh iya, turun. Udah mulai aware ya. Tahun lalu 64%, tahun ini 57%. Itu juga salah satunya karena library biasanya. Ini adalah vulnerabilities. JQuery paling rawan karena ada di mana-mana ya. Maksudnya karena penggunaannya tinggi, kemungkinan disusupin, apalah, keli jahat. Lebih besar juga. Ini yang gede-gede nih ya. Yang cukup besar dan cukup populer. Makanya dia 57% cukup besar karena yang populer-populer pada kena ya. Cuma yang paling tinggi, paling signifikan sih jQuery doang. Hampir separoh kan. Ini berdua loh. JQuery dan jQuery UI kalau digabungin berapa ini? Kalau pakai jQuery UI kan pasti pakai jQuery juga. Oh iya, jelas. Cuma misalnya tingkat risikonya berarti jauh lebih tinggi kalau pakai jQuery UI dan jQuery. Dan dari sekian library, muncul satu framework angular. Ini angular berapa ya, angular JS? Angular JS itu yang lama deh kayaknya. Satu ya, satu apa dua gitu. Yang disebut angular JS itu yang paling pertama kayaknya deh. Yang pertama ya. Kalau sekarang angular aja nggak pakai JS ya. Oke, kemudian ini ada percentage desktop page yang menggunakan webcomponent. Custom element, baru 2%. Masih sedikit, adaptinya masih kecil. Bertahun-tahun ini naiknya seberapa ya? Kayaknya naiknya 0,00. Justru ini turun. Tahun lalu 3%. Tahun ini jadi turun. Bisa. Entah kenapa. Entah, mungkin ada framework yang lagi ngetrend kayak Astro atau Quick dan lain-lain jadi orang jadi malah berhenti menggunakan. Kemudian Shadow DOM masih ada hubungannya sama webcomponent juga. Cukup kecil, cuman agak naik memang. Shadow DOM ini adalah salah satu fitur yang bisa membuat isolated CSS styling. Tahun lalu itu 0,37 naiknya nggak terlalu signifikan. Kemudian yang pakai template nih, ini salah satu fitur yang saya suka juga nih. Kalau misalkan kita nggak mau pakai DOM manipulation. Ya, nggak perlu bikin function render. Jadi kita bisa pakai template, tapi sayangnya adaptinya juga masih terlalu kecil. Ternyata template pun ada di WebPiPiA ya, kirain cuma di view. Saya suka pakai ini loh. Iya, ini salah satu yang favorit juga ini. Makanya kecil sekali. Mungkin belum banyak yang tahu juga. Topik, salah satu topik. Bisa jadi topik juga. Dapat dua topik malam ini kan? Iya, dapat dua topik nih. Kita lanjut sedikit lagi. Kalau ini WebAssembly nggak terlalu banyak yang bisa di highlight. Tapi paling hot nih, salah satu topik paling hot ya. Iya, jadi yang saya highlight adalah bahasa yang digunakan untuk WebAssembly itu paling banyak yang mana. Ternyata yang paling banyak adalah C, C++. Yang kedua, dan perbedaannya cukup jauh. Yang ketiga adalah C#. Ya, nscripten dan lain-lain itu C ya, C++ ya. Kemudian... Karena, kayaknya ya mas ya. Ini karena yang di-convert itu adalah library-library yang sudah ada. Ya, betul sekali. Di komen yang sudah ada kayak genu itu sudah, jadi tinggal di-convert. Jadi nggak bikin baru. Kayak AutoCAD itu dari C++. Kemudian Adobe juga dari C++. Di-legasi code, di-modifikasi sedikit, di-kompilasi dengan nscripten, jadilah aplikasi web gitu ya. Oke ya, berarti maksudnya bisa nggak harus beneran nulis semua dari awal kan. Justru itu jadi daya tariknya kan. Bisa pakai WhatsApp di web. Betul. Karena kan ada banyak juga aplikasi-aplikasi yang berjalan misalkan kayak di DOS gitu kan. Yang akhirnya terpaksa harus menggunakan DOS, padahal DOS sudah nggak di-support lagi gitu kan. Jadi dengan adanya WebAssembly ini, dia bisa dijalankan di web gitu. Dan lebih enak juga kita nggak tergantung kepada OS tertentu gitu. Bisa diakses dari mana aja. Contohnya kayak JPEG 2.0 PNG atau konverter-konverter itu kan sudah banyak komen line-nya. Betul. FMPEG itu yang buat konversi video itu sudah bisa diakses dari web juga kan. Sudah ada alat darinya. Mantap. Mantap. 16% belum teridentifikasi bahasanya apa. Assembly script itu adalah salah satu yang populer juga, 8,2%. Kalau mau lebih lanjut, temen-temen bisa cek state of WebAssembly 22 survey. Oh, ada itunya juga ya. Ada survey-nya juga. Dan yang menarik juga ini, saya kurang tahu terlalu dalam tentang WebAssembly sih. Jadi fitur apa yang digunakan, yang paling tinggi adalah sign extension. Ini apa, nggak tahu. Ini apa? Kita mesti cari bintang tamu ini. Mesti cari featuring yang mendalami WebAssembly ini, seru kayaknya. Betul. Oke, dari saya cukup itu aja JavaScript dan WebAssembly. Selanjutnya mungkin bisa dari Eka mau bahas tentang apa nih pertama. Kayaknya bahas PWA sama capabilities aja deh. PWA dulu aja. PWA. Jadi kalau untuk PWA, TLDR-nya atau ringkasannya, penggunaannya naik. Cuma nggak secara signifikan. Jadi cukup ajak tingkat kenaikannya. Atau bisa dilihat, naik sih. Naik cuma nggak ekstrim muah banget. Tapi ya sisi positifnya adalah, ini trend yang cukup stabil. Jadi kayak bukan. Kan PWA itu mulai naik sejak 2019 ya. Nah pergerakannya sampai dengan sekarang itu bukan cuma kayak yang trend bentar doang. Abis itu udah dilupain. Tapi positifnya ini adoptionnya tetap selalu naik secara trend. Terus kalau yang di Almanak ini sih sebetulnya detail-detail penggunaan metodnya. Secara umum sih ini yang paling banyak digunakan itu metod yang cukup basic ya. Jadi kayak pertama kali life cycle-nya, install, activate, ya itu pasti kalau kita menggunakan service worker. Nah ini nih bagian manifest ini seru juga. Jadi manifest itu sering dianggap sebagai bagian dari PWA. Nah ini bisa dibilang ya benar dan salah. Maksudnya bukan salah gimana ya. Jadi manifest itu sebetulnya web manifest itu ada spesifikasi sendiri. Intinya itu sekedar file JSON yang memberi informasi tentang suatu aplikasi atau situs web. Jadi sebetulnya kalopun kita nggak menggunakan service worker, nggak bisa add to home screen dan nggak bisa lain-lain. Mau ada manifestnya ya bisa-bisa aja dan boleh-boleh aja. Itu manifest begitu. Jadi kalau gampangnya kalau kita ingin pakai service worker, kita pengen pakai capabilities PWA. Memang harus ada manifestnya. Tapi sebaliknya kalau mau pakai manifest ya pakai manifest aja. Nggak harus pasang service worker dan lain-lain. Nah di Alam Anak ini dia mengkomper macam-macam penggunaan baik dari service worker-nya maupun Alam Anak-nya. Wait-wait, jadi PWA itu nggak mesti pakai service worker ya? PWA harus ada service worker-nya kalau mau pakai add to home screen. Oh oke, biar bisa jalan di background ini ya? Ya buat casing, background sync dan lain-lain dia memang harus service worker. Berarti kalau share-an minimalnya dia harus kalau di-visit harus kalau 404 ini apa kalau offline. Home page-nya atau origin-nya harus tetap 200. Oke, nggak ada itu. Kira-kira begitu. Terus itu sih kalau di Alam Anak itu ada perbandingan detail-nya. Nah ini scroll ke bawah sedikit mungkin. Nah ini manifest properties, macam-macam ada display, ada apa? Display itu untuk mengatur tampilan-tampilan seperti nama yang ditampilkan. Kalau kita install namanya apa? Terus ya termasuk background color full screen punya ya yang berurusan sama tampilan. Terus soal icons, ukuran icons itu kalau kita ngikutin macam-macam versi browser lama itu variasi icons-nya banyak banget. Nah sering kita bingung, cuma sekarang nih hasil survey, hasil Alam Anak ini menunjukkan bahwa icon yang dipakai cuma ada dua size icon yang cukup major. Ke bawah lagi sedikit. Ini apa nih? Oh ini display ya tadi ya. Ada stand alone, ada full screen, yang paling banyak stand alone. Kemudian icon-nya ya. Nah itu kan sebenarnya variasi ukuran icon-nya banyak banget dan kadang kita tuh mungkin overwhelmed yang aduh males banget kalau harus bikin, harus nge-generate. Ada tools-nya tapi kan tetap setiap kita ganti icon, adjust icon, harus generate belasan versi ukuran. Nah sebetulnya kalau untuk major browser yang baru itu dua icon, dua ukuran icon cukup. Itu bisa, itu kelihatan banget kan tuh di bar chart-nya 192 sama 512 yang paling major. Kecuali kita memang punya user base yang pakai browser lama variasi tertentu, misalnya Safari, Safari iOS 14 atau Safari iOS 13, ya itu beda kasus. Nah terus ada lagi nih, manifest kategoris ke bawah lagi sedikit. Nah ini ada hal menarik, jadi mereka si HTTP Almanak ini mengelompokan semua situs yang di-crawl. Ada kategori-kategorinya ada shopping, news, dan lain-lain. Nah ini ada dua chart terkait apa, penggunaan manifest dan penggunaan PWA. Nah jadi jenis-jenis situs seperti apa atau web app seperti apa yang banyak menggunakan teknologi PWA itu ada di shopping dan news yang paling banyak. Terus selain itu ya ada bisnis, ada sosial, jadi menarik sih ini kita dapat gambaran teknologi ini dipakai di situs jenis apa aja. Hmm menarik, kalau service worker gak ada ya? Ada tadi di atas. Oh ada, maksudnya yang kayak gini tapi yang service worker gak ada ya? Kayaknya masuknya di PWA tadi, yang atasnya. Oh yang ini? Iya, ini yang pakai service worker jadi apa bisa add to home screen. Tapi bedanya sedikit sih, bedanya tipis, maksudnya antara yang manifest saja atau yang manifest complete dengan service worker PWA itu kategori paling atas setap shopping, news, dan bisnis. Jadi apa jenis aplikasi yang menggunakan itu. News ya ternyata berita itu paling butuh apa, fungsionalitas PWA, news dan shopping. Oke. Nah terus ini nih soal advance capabilities, Fugu API. Fugu API. Jadi project Fugu itu, itu codename dari project yang dilakukan oleh Chromium dan stakeholder terkait. Jadi ada dari Google Chrome, ada dari Microsoft, terus ada dari seperti Intel, itu kan mereka gak bikin browser tapi bikin hardware-nya ya. Mereka itu punya project yang memajukan atau mempropos standar web API yang memiliki kapabilitas canggih, intinya yang kapabilitasnya menyamai feature-feature native. Nah itu sering disebut dengan Fugu API. Nah ini apa? Fugu itu dari ikan Fugu kan? Iya, ikan kebung. Bukan, ikan buntal, ikan buntal. Buntal, buntal. Katanya belom pernah makan, katanya dagingnya enak, tapi kalau salah siapin, berencun. Saya sudah pernah makan, sudah pernah. Gak ada rasanya. Gak ada rasanya? Iya, kayak teksturnya aja gitu, rasanya kalau gak pakai sausnya gak ada rasa. Oh, padahal bahaya ya, maksudnya apa? Saking enaknya, ya harus disiapkan. Jadi yang menggunakan 8,8% di desktop ya, baru 8,8%. Jadi project Fugu itu kan sebetulnya mencakup banyak banget API-nya dari yang sudah lumayan established, major, sampai yang masih experimental. Nah itu penggunaannya, itu 4, di situ ada 4 API yang sudah paling umum, paling banyak digunakan. Itu angkanya web share di sekitar 8%, jadi not bad lah. Terus sebenarnya ada bagian yang menarik tuh, di API push itu sebetulnya originally bagian dari project Fugu. Tapi kan sebetulnya semua feature-feature web API itu merupakan spesifikasi atau standar ya, jadi bukan milik dalam arti patent atau hak miliknya siapapun. Jadi apa, semua API itu bukan punya orang Chromium atau orang Google atau orang Microsoft, jadi bisa diadopsi, gak tertutup kemungkinan diadopsi browser lain kalau dirasa perlu. Dan di sini tahun ini kelihatan untuk pertama kalinya push API itu cukup naik, salah satu alasannya karena Safari juga mengadopsi push API itu. Jadi ternyata API dari project Fugu pun gak eksklusif, gak menutup kemungkinan, suatu saat bisa diadopsi oleh browser lainnya, kalau memang dirasa relevan. Intinya kan kalau sudah di-approved di konsorsium ya browser lain harus adopsi. Walaupun gak tahu kapan ya. Iya, walaupun gak tahu kapan. Oh iya, kan kalau masih di WICG itu Working Group Specification in Progress itu kan dalam proses, berarti kalau sudah dianggap stabil, ya suatu saat browser akan... Tapi ya itu, bebas suka-suka mereka mau adopsi sekarang atau kapan-kapan. - Betul. - Tapi sukses story-nya itu salah satunya push yang pertama kali masuk, walaupun cuma 2% ya, karena mungkin banyak faktor. Karena Chrome juga kan? Safari juga sekarang. Iya, maksudnya yang di Almanak ini kan Chrome aja kan? Oh iya, betul-betul. Jadi gak kelihatan tuh Safari, Firefox dan lain-lain, gak kelihatan. Tapi kan itu mempush developer untuk, maksudnya developer jadi oke, bisa dapat green light dari project manager atau client untuk nambahin... Biasanya product owner lah yang itu ya. Oke, ada lagi? Sudah? Udah sih, sisanya baca-baca sendiri aja langsung di URL-nya. Saya boleh ijin undur diri dulu, baterai saya sudah tinggal 10-12% lagi. Maaf, gak ada colokan di sini, kalau gak sudah saya colokan nih. Maaf, maaf. Oke, kalau mau duluan silahkan. Iya, mohon maaf ya, teman-teman semua. Ini udah mau jam 9 juga emang. Oh iya, ya udah 3 menit lagi deh, 3 menit lagi. Serius, 3 menit lagi? Kalau tiba-tiba ilang berarti mati. Kalau tiba-tiba ilang berarti tiba-tiba mati ya. Oke, siap kalau gitu. Lanjut ke capabilities ya kedua ya? Ya, capabilities sebenarnya itu tadi sih. Ini masih ada hubungannya kan? Itu ringkasannya tadi, TLDR-nya tadi, cuma kalau pengen lihat exactly perbandingan atau API-nya apa aja, bisa dilihat di situ. Ini agak berbeda dengan yang tadi ya. Yang tadi kan ini yang udah major, udah diadopsi kan. Kalau ini kan ada beberapa yang belum diadopsi juga kan. Udah, cuma itu kecil. Udah, ini semua udah major. Udah semua ya ini ya? Oh iya, web share API. Atau homescreen sudah. Ini detail-nya. Mungkin ada beberapa teman-teman yang nggak nyadar gitu ya. Kayak misalkan web share API. Itu saya sering banget pakai, karena saya nggak pakai, misalkan Twitter ya. Saya nggak pakai Twitter app, jadi saya pakainya web version Twitter di handphone. Jadi kalau saya mau simpan bookmark atau mau simpan sebuah tweet yang menarik, itu saya pakai web share API. Disimpan ke telegram. Nah, tapi harus di-check. Karena hanya browser mobile yang punya web share API. Desktop tidak punya. Desktop tidak ada. Jadi kalau dibuka di desktop, lo kok nggak ada? Ya, memang belum ada. Jadi yang mobile. Nah, itu bisa di-combine sama tadi itu dynamic import ya kan. Mungkin kita tetap pakai library, entah library eksternal, atau kita nulis sendiri buat bikin share pop-up ya. Cuma kita nggak usah load itu dulu. Siapa tahu kalau emang browser, kalau emang si user pakai browser mobile yang support share API, ya udah bagus. Nah, fallback-nya kalau nggak support, baru lazy load, dynamic import si JavaScript buat share dialog gitu. Jadi itu enak. Sebelum kita tutup, saya punya satu pertanyaan. Apa sih keuntungan kita, apa sih informasi yang kita bisa dapat dari sini untuk membantu kita? Apa tujuannya kita mengetahui informasi dari Almanak ini? Menurut teman-teman. Mungkin nanti teman-teman yang lain juga bisa isi YouTube comment atau di slido. Apa sih keuntungannya kita mengetahui Almanak ini? Kenapa informasi ini? Mungkin salah satunya mengetahui trend-nya ya, kecenderungannya kayak gimana. Kecenderungan misalnya tadi apa, ternyata kalau sebelumnya kita, mungkin kita gambling atau merasa gambling atau ragu-ragu adopsi PWA misalnya, ternyata cukup banyak yang pakai PWA, berarti relatif aman lah. Terus mungkin kita bisa, itu kan tadi yang positifnya ya. Kalau yang negatifnya mungkin kita bisa cek room for improvement. Misalnya tadi masih banyak website yang belum nge-load JavaScript secara asing. Masih banyak yang render blocking. Berarti kita harus memperhatikan itu di, mungkin misalnya kita kerja dalam tim atau kita ngerjain codebase orang lain, kita bisa tahu hal-hal yang perlu diperhatikan. Kesalahan umum kali ya, itu kan hal yang tadi kan cukup besar tuh yang punya render blocking script sampai 71%, berarti kalau kita nge-handle orang lain. Membuka wawasan kita lah berarti ya. Apa aja sih trend sekarang? Yang sekarang tuh apa? Kita tewas website yang di posisi mana? Jadi kita bisa tahu benchmark kita itu dimana gitu ya. Apakah kita sudah yang udah jadi yang lebih baik dari rata-rata atau kita masih di bawah rata-rata? Sama ini, jadi sumber konten. Kita kan GDE Web kan salah satu tugas kita, salah satu job desk kita adalah untuk memasarkan atau menyebarluaskan informasi-informasi ini kan. Misalkan tadi dynamic import itu kok kecil sekali, web component itu kok kecil sekali gitu. Jadi itu yang harus kita suarakan lagi, lebih sering lagi gitu. Misalkan ngisi acara dimana gitu ya, kita bisa bahas ini misalkan kayak tadi, oh ini masih banyak website-website di Indonesia atau di dunia bahkan belum menggunakan script asing gitu. - Script asing kok jadi enak ya script asing? - Script asingkronus gitu kan. Padahal itu udah ada fitur udah cukup lama dan dampaknya kepada performa itu cukup tinggi gitu. Jadi ya tugas kita sebenarnya buat menyebarkan lagi beritanya, buat menyebarkan lagi buat orang-orang jadi lebih tahu gitu. - Terus apa ya, kadang kalau kita bikin konten, kalau cuma nyebutin tentang API-nya, tentang sinteks ya, tentang demo kayak contoh penggunaan yang kayak di dokumentasinya, itu kan mungkin kurang menarik ya. Cuma yaudah itu keren, flashy, new, trendy, cuman belum tentu relevan sama kehidupan nyata. Nah dari alamanak ini kan kita bisa dapat konteks yang lebih baik kan. Misalnya tadi contoh gampangnya PWA dipakai di website jenis apa aja sih, kita punya data real buat ngedukung statement atau konten kita. - Bisa ini juga bisa buat ke apa, ngajuin ke pemegang apa ya, placeholder. - Product owner atau project lead atau apapun itu. - Stakeholder atau pemegang keputusan, misalkan keputusan bisnis gitu ya. - Kita mau maju kemana gitu ya? - Iya, ngapain sih kita, website kita pakai PWA, website kita kan website berita misalkan gitu kan. Nggak perlu PWA, coba deh lihat. - Kita komen sama BigQuery yang diberhasilkan tadi, kompetitor kita pakai semua ini. - Ibaratnya kita bisa membantu kita mengambil keputusan juga kayaknya, disupport dengan data yang ada. - Iya, kalau cuman bilang kita harus pakai PWA nih, kenapa emang? Kita nggak bisa support dengan datanya jadi kurang menarik kan. Tapi kalau misalkan kita bilang 90% website berita di luar sana sudah pakai PWA. - Semua kompetitor kita sudah pakai PWA. - Oke, saya harus kita... - Ya udah, kita pamit aja. - Atau tinggal 9%. - Kita juga sudah satu jam, jadi mungkin untuk malam ini kita cukupkan dulu aja. Terima kasih buat teman-teman, ada pertanyaan-pertanyaan yang belum terjawab, nanti akan kita recap dan kita masukkan ke Slido. Mungkin kita akan jawab di episode-episode berikutnya ya. - Mungkin next time kita bisa bahas kenapa shadow dome konsepnya gimana Pak Risa. - Ya, buat komponen dan shadow dome akan kita bahas. - Nah web komponen, udah ada materinya kan tuh. - Ya, jadi kita juga ngumpulin materi. Oke, terima kasih buat semuanya yang sudah hadir. Terima kasih buat Ivan, terima kasih buat Eka. - Sukses acara wordcam-nya besok, kita ketemu minggu depannya. - Thank you, bye."
+}
