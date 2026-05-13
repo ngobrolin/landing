@@ -1,0 +1,2838 @@
+{
+  "videoId": "H-NPmffVrcw",
+  "language": "id",
+  "generatedAt": "2026-05-13T13:42:29.361Z",
+  "segments": [
+    {
+      "start": 0,
+      "end": 8.72,
+      "text": "2. Halo, halo, halo. Halo, selamat malam, selamat malam 2."
+    },
+    {
+      "start": 8.72,
+      "end": 14.48,
+      "text": "Ketemu lagi kita bersama trio ngobrol in web malam hari ini."
+    },
+    {
+      "start": 14.48,
+      "end": 21.28,
+      "text": "Seperti biasa di hari Sulasa malam. Waktunya apa teman-teman? Waktunya ngobrol in web."
+    },
+    {
+      "start": 21.28,
+      "end": 30.48,
+      "text": "Malam hari ini tidak ada tanda live karena kita kembali lagi terpaksa harus rekaman."
+    },
+    {
+      "start": 30.48,
+      "end": 34.88,
+      "text": "Kita rekamannya ini di miw malam. Jadi nggak terlalu jauh ya bedanya ya."
+    },
+    {
+      "start": 34.88,
+      "end": 42.56,
+      "text": "Kita rekaman karena ada kesibukan. Jadi nggak bisa hari Sulasa."
+    },
+    {
+      "start": 42.56,
+      "end": 49.2,
+      "text": "Mudah-mudahan tidak mengurangi keseruan kita malam hari ini yang membahas topik autentikasi."
+    },
+    {
+      "start": 49.2,
+      "end": 55.76,
+      "text": "Apa itu autentikasi? Kenapa butuh? Dan beberapa hal yang berhubungan dengan autentikasi."
+    },
+    {
+      "start": 55.76,
+      "end": 61.12,
+      "text": "Masih bersama kita bertiga. Masih ada Ivan, masih ada Eka, masih ada saya Riza."
+    },
+    {
+      "start": 61.12,
+      "end": 67.6,
+      "text": "Dan buat pengingat aja, cara ini ya ngobrolan kita bertiga sebenarnya."
+    },
+    {
+      "start": 67.6,
+      "end": 72,
+      "text": "Dan harapannya sih ngobrolan, diskusinya juga bisa mengalir ke teman-teman."
+    },
+    {
+      "start": 72,
+      "end": 79.6,
+      "text": "Kalo misalkan teman-teman yang bekerja dengan web. Iya, kalo misalkan teman-teman ada topik atau ada topik diskusi yang menarik gitu ya,"
+    },
+    {
+      "start": 79.6,
+      "end": 89.44,
+      "text": "bisa kita diskusikan juga. Atau jika teman ingin bisa bergabung, juga bisa sampaikan ke kita, kita ajak kita ngobrol-ngobrol juga."
+    },
+    {
+      "start": 89.44,
+      "end": 99.6,
+      "text": "Iya. Nah, kalau tidak di luar live video, teman-teman punya pertanyaan atau topik diskusi,"
+    },
+    {
+      "start": 99.6,
+      "end": 109.68,
+      "text": "bisa langsung aja ditulis di bit.ly/ngobrolinweb. Kita pasti baca dan kita sangat mengapresiasi saran dari teman-teman yang bagus-bagus ya."
+    },
+    {
+      "start": 109.68,
+      "end": 115.44,
+      "text": "Kita juga banyak ambil ide-ide dari topik-topik yang disarankan oleh teman-teman semua."
+    },
+    {
+      "start": 115.44,
+      "end": 121.36,
+      "text": "Ini juga keliatannya topik malam ini salah satu yang udah lama diusulin di Slido itu."
+    },
+    {
+      "start": 121.36,
+      "end": 130.4,
+      "text": "Jadi kita umpulin, terus kita keluarkan di saat yang pas lah ya. Kalo lagi penasaran."
+    },
+    {
+      "start": 130.4,
+      "end": 137.12,
+      "text": "Yes. Oke, jadi malam hari ini seperti yang udah saya sebutkan tadi, kita akan membahas tentang"
+    },
+    {
+      "start": 137.12,
+      "end": 146.32,
+      "text": "berbagai cara untuk kodentikasi di web ya atau di platform atau di protokol HTTP lah gitu secara umum ya."
+    },
+    {
+      "start": 146.32,
+      "end": 153.92,
+      "text": "Jadi bukan hanya client dan servernya, clientnya udah belum tentu juga browser ya."
+    },
+    {
+      "start": 153.92,
+      "end": 161.52,
+      "text": "Bisa aja mobile, bisa mungkin embedded device, bisa macem-macem, tapi dia berjalan di protokol HTTP atau..."
+    },
+    {
+      "start": 161.52,
+      "end": 166.64,
+      "text": "- Protokol HTTP. - Iya. Atau yang biasa kita gunakan untuk ini ya,"
+    },
+    {
+      "start": 166.64,
+      "end": 170.96,
+      "text": "menampilkan halaman web gitu. Protokol standarnya web lah gitu ya."
+    },
+    {
+      "start": 170.96,
+      "end": 178.72,
+      "text": "Oke, mungkin kita bisa mulai dari apa itu otentikasi? Ada yang bisa menjelaskan secara singkat gitu?"
+    },
+    {
+      "start": 178.72,
+      "end": 190.24,
+      "text": "Otentikasi itu proses memastikan bahwa seorang user atau suatu akun itu memang betul dia."
+    },
+    {
+      "start": 190.24,
+      "end": 202.64,
+      "text": "Misalnya ada user datang mengaku saya adalah A. Nah, otentikasi itu proses memastikan bahwa itu memang A."
+    },
+    {
+      "start": 202.64,
+      "end": 206.96,
+      "text": "Kurang, kalau pendeknya gitu kali ya. Coba perjalanannya."
+    },
+    {
+      "start": 206.96,
+      "end": 213.84,
+      "text": "Seperti yang kita pernah pelajari sebelumnya tentang cookies atau yang sebelum-sebelumnya storage ya,"
+    },
+    {
+      "start": 213.84,
+      "end": 221.44,
+      "text": "server itu sebenarnya tidak tahu atau istilahnya stateless. Tidak tahu siapa yang datang kalau enggak."
+    },
+    {
+      "start": 221.44,
+      "end": 227.44,
+      "text": "Kalau enggak dikasih tahu. Kalau dia enggak memberitahukan, \"Ey, saya itu Ivan loh.\""
+    },
+    {
+      "start": 227.44,
+      "end": 238.16,
+      "text": "Saya kita kunjungi sebuah situs, apapun lah ya situs, dan kita si server itu enggak tahu siapa kita kalau kita enggak kasih tahu."
+    },
+    {
+      "start": 238.16,
+      "end": 248.88,
+      "text": "Nah, setelah kita memberitahu server, \"Hei, saya itu Ivan.\" Server itu harus bisa melakukan proses verifikasi."
+    },
+    {
+      "start": 248.88,
+      "end": 258.08,
+      "text": "Nah, itulah proses verifikasi itulah bagaimana si server bisa mengautentikasi saya itu adalah Ivan,"
+    },
+    {
+      "start": 258.08,
+      "end": 262.96,
+      "text": "dan saya boleh diberi masuk, dan saya bisa diberikan datanya si Ivan."
+    },
+    {
+      "start": 262.96,
+      "end": 268.56,
+      "text": "Kalau enggak ya enggak bisa gitu. Itulah umumnya."
+    },
+    {
+      "start": 268.56,
+      "end": 280.96,
+      "text": "Nah, terus ini kalau bahas kan tadi request adalah stateless, berarti kan implikasinya ini kenapa sampai ada keperluan buat autentikasi."
+    },
+    {
+      "start": 280.96,
+      "end": 292.08,
+      "text": "Nah, karena ada resource yang boleh diakses semua orang, dan ada resource yang belum tentu boleh diakses atau dilakukan semua orang, ya kan."
+    },
+    {
+      "start": 292.08,
+      "end": 297.2,
+      "text": "Jadi untuk public resource, itu kan kalau public resource semua boleh baca."
+    },
+    {
+      "start": 297.2,
+      "end": 302.8,
+      "text": "Misalnya gampangnya kalau situs berita semua orang kan boleh nge-request blog post atau artikel terakhir."
+    },
+    {
+      "start": 302.8,
+      "end": 309.6,
+      "text": "Ya, enggak ada keperluan, enggak perlu mastiin apakah kamu Ivan, apakah kamu Eka, kan enggak perlu."
+    },
+    {
+      "start": 309.6,
+      "end": 319.2,
+      "text": "Ibaratnya kalau analogi tempat, kita di tempat umum nih kita ke taman atau kita ke jalanan, ya kan enggak ada yang menghentikan kita,"
+    },
+    {
+      "start": 319.2,
+      "end": 323.6,
+      "text": "enggak ada yang menghentikan kita, ya udah kita mau lewat suatu jalan, kita jalan aja."
+    },
+    {
+      "start": 323.6,
+      "end": 330.64,
+      "text": "Tapi kalau kita mau masuk misalnya stasiun kereta api atau bandara masuk ke gedungnya, itu lain kasus kan."
+    },
+    {
+      "start": 330.64,
+      "end": 341.6,
+      "text": "Kita harus buktikan identitas kita. Nah, tiket itu kan ada tiket, ada KTP, nah ini bakal nyambung ke icon selanjutnya."
+    },
+    {
+      "start": 341.6,
+      "end": 349.44,
+      "text": "Yang jelas kita enggak boleh se-enaknya masuk karena itu hal yang resource yang tidak boleh diakses semua orang."
+    },
+    {
+      "start": 349.44,
+      "end": 355.28,
+      "text": "Ya, jadi kalau misalkan ada hal yang misalkan tadi apa situs berita atau blog lah."
+    },
+    {
+      "start": 355.28,
+      "end": 360.48,
+      "text": "Blog mungkin orang, mungkin blog saya, Ivan, dan Eka bisa baca gitu ya."
+    },
+    {
+      "start": 360.48,
+      "end": 367.52,
+      "text": "Tapi yang bisa entry artikelnya, yang bisa memasukkan artikelnya ya cuma bisa saya gitu."
+    },
+    {
+      "start": 367.52,
+      "end": 372.4,
+      "text": "Bagaimana caranya ya mungkin nanti ada apa lizafahmi.com/admin gitu kan."
+    },
+    {
+      "start": 372.4,
+      "end": 381.12,
+      "text": "Terus ada masukan, biasanya masukan password. Nah, itu adalah cara mengetahui apakah saya punya apa bisa masuk atau enggak gitu."
+    },
+    {
+      "start": 381.12,
+      "end": 386.96,
+      "text": "- Nah, jadi kalau emang resource-nya publik semua, ya udah enggak perlu sama sekali."
+    },
+    {
+      "start": 386.96,
+      "end": 392.72,
+      "text": "Authentikasi itu emang enggak perlu. Ini akan perlu kalau itu tadi ada misalnya kalau blog post,"
+    },
+    {
+      "start": 392.72,
+      "end": 397.6,
+      "text": "ada dashboard admin-nya yang harus bisa diakses orang tertentu aja."
+    },
+    {
+      "start": 397.6,
+      "end": 403.84,
+      "text": "Atau mungkin ada private post yang masih status-nya draft, mungkin bisa dibaca oleh editor atau apa,"
+    },
+    {
+      "start": 403.84,
+      "end": 411.6,
+      "text": "cuma tetap enggak boleh diakses oleh user lain. Nah, itu skopnya autentikasi."
+    },
+    {
+      "start": 411.6,
+      "end": 416.32,
+      "text": "- Ya, ada juga apa namanya kalau misalkan tadi blog-nya kan, blog pribadi."
+    },
+    {
+      "start": 416.32,
+      "end": 419.04,
+      "text": "Kalau misalkan blog-nya yang umum misalkan kayak medium gitu kan."
+    },
+    {
+      "start": 419.04,
+      "end": 427.36,
+      "text": "Medium itu bisa memastikan bahwa artikel yang kita tulis atas nama kita, misalkan atas nama Riza,"
+    },
+    {
+      "start": 427.36,
+      "end": 436.96,
+      "text": "ya hanya saya, begitu. Begitu Ivan login dengan akonnya, maka di halaman dashboard-nya atau di halaman admin-nya,"
+    },
+    {
+      "start": 436.96,
+      "end": 440.16,
+      "text": "itu artikelnya artikel Ivan, bukan artikel saya. - Hanya gabar saya aja."
+    },
+    {
+      "start": 440.16,
+      "end": 446.96,
+      "text": "- Iya, jadi kalau multi-user, ya berarti dia memastikan bahwa data-data yang diakses,"
+    },
+    {
+      "start": 446.96,
+      "end": 454.48,
+      "text": "itu hanya data milik kita yang login. - Berarti kita bisa pisahkan antara autentikasi dan otorisasi."
+    },
+    {
+      "start": 454.48,
+      "end": 457.04,
+      "text": "- Nah, ini poin selanjutnya. - Otorisasi gimana tuh?"
+    },
+    {
+      "start": 457.04,
+      "end": 464.48,
+      "text": "- Ya itu tadi seperti yang Mas Riza, kalau misalnya di sebuah ruangan VIP,"
+    },
+    {
+      "start": 464.48,
+      "end": 470.96,
+      "text": "hanya boleh orang VIP yang punya kartu VIP-nya yang boleh masuk, itu namanya otorisasi."
+    },
+    {
+      "start": 470.96,
+      "end": 477.44,
+      "text": "Kalau tadi yang selalu saya login ke Medium, hanya saya bisa melihat artikel yang saya tulis,"
+    },
+    {
+      "start": 477.44,
+      "end": 481.28,
+      "text": "saya tidak bisa lihat artikel yang Mas Riza tulis, itu kan otorisasi."
+    },
+    {
+      "start": 481.28,
+      "end": 483.28,
+      "text": "- Oh itu masuknya otorisasi ya? - Iya."
+    },
+    {
+      "start": 483.28,
+      "end": 490,
+      "text": "- Nah, analogi lagi nih, kalau tempat tadi kan kalau yang publik tuh jalanan atau taman atau ruang publik lainnya,"
+    },
+    {
+      "start": 490,
+      "end": 497.12,
+      "text": "kita jalan mah lewat-lewat aja, nggak bakal di-stop kan. Kalau kita masuk bandara, kan kita ada 2 hal."
+    },
+    {
+      "start": 497.12,
+      "end": 503.28,
+      "text": "Hal pertama, ya maksudnya kita punya misalnya sebagai penumpang, kita punya tiket, flight tertentu,"
+    },
+    {
+      "start": 503.28,
+      "end": 508.8,
+      "text": "kita berada di gate yang benar, misalnya kalau tiket, kalau penerbangan kita domestik gitu,"
+    },
+    {
+      "start": 508.8,
+      "end": 519.68,
+      "text": "ya kita nggak bakal boleh masuk ke gate-nya internasional kan, karena itu hal yang kita lakukan adalah mau masuk gate untuk terbang sebagai penumpang."
+    },
+    {
+      "start": 519.68,
+      "end": 529.04,
+      "text": "Itu otorisasi hal apa yang bisa kita lakukan, sedangkan otentikasinya adalah ngecek,"
+    },
+    {
+      "start": 529.04,
+      "end": 535.92,
+      "text": "nyamain nama di paspor atau KTP dengan nama di tiket, sama biasanya kalau di gate kan kita seru buka masker,"
+    },
+    {
+      "start": 535.92,
+      "end": 546.56,
+      "text": "buka masker nunjukin muka tuh. Kan sih orangnya, si tugas bandara kecek apakah identitas, tiket, dan orangnya itu sama,"
+    },
+    {
+      "start": 546.56,
+      "end": 553.6,
+      "text": "nah itu otentikasi, sedangkan otorisasi itu kita boleh masuk gate mana dan boleh ngapain."
+    },
+    {
+      "start": 553.6,
+      "end": 562.56,
+      "text": "Nah kalau misalnya pilot ini bukan penumpang, kan pasti otorisasi hal yang boleh dilakukan si pilot atau pramugari itu kan beda kan,"
+    },
+    {
+      "start": 562.56,
+      "end": 569.04,
+      "text": "dia boleh masuk mungkin pintu-pintu lain yang kita sebagai penumpang nggak bisa, walaupun kita sebagai penumpang punya tiket,"
+    },
+    {
+      "start": 569.04,
+      "end": 577.92,
+      "text": "punya KTP, udah nunjukin, ya tetap aja kita nggak boleh masuk kan, kita nggak boleh mengakses tempat tertentu atau melakukan hal tertentu"
+    },
+    {
+      "start": 577.92,
+      "end": 583.04,
+      "text": "yang boleh dilakukan oleh pilot atau staf atau tugas."
+    },
+    {
+      "start": 583.04,
+      "end": 591.2,
+      "text": "- Hmm, iya, iya, iya. Oke, jadi malam ini kita... - Otorisasi itu siapa kita sama otentikasi siapa kita,"
+    },
+    {
+      "start": 591.2,
+      "end": 595.2,
+      "text": "otorisasi itu hal apa saja yang boleh dilakukan."
+    },
+    {
+      "start": 595.2,
+      "end": 602.32,
+      "text": "Apa yang boleh kita lakukan, ya. Dan malam ini kita akan membahas tentang otentikasi dan mudah-mudahan di episode-episode mendatang"
+    },
+    {
+      "start": 602.32,
+      "end": 613.12,
+      "text": "kita akan bahas tentang otorisasi juga ya. Oke, nah berkaitan dengan otentikasi, salah satu referensi yang menarik ini ada dari MDN,"
+    },
+    {
+      "start": 613.12,
+      "end": 624.32,
+      "text": "tentang otentikasi melalui protokol HTTP, ini ternyata si HTTP sudah memberikan istilahnya framework ya untuk kita melakukan otoritas."
+    },
+    {
+      "start": 624.32,
+      "end": 630.16,
+      "text": "Ya, melakukan otentikasi melalui HTTP yang disebut sebagai basic schema."
+    },
+    {
+      "start": 630.16,
+      "end": 643.92,
+      "text": "Di sini ada apa ya, spesifikasinya lah ya, tata caranya, prosedurnya, gimana caranya flow dari orang yang meminta identitas,"
+    },
+    {
+      "start": 643.92,
+      "end": 650.4,
+      "text": "meminta validasi identitas atau otentikasi, kemudian akan dijawab oleh si server ya."
+    },
+    {
+      "start": 650.4,
+      "end": 660.88,
+      "text": "Kira-kira gambarnya seperti ini ya, ilustrasinya. Jadi, client ini bukan hanya web browser."
+    },
+    {
+      "start": 660.88,
+      "end": 670,
+      "text": "Biasanya kita menyebut client browser ya, tapi di sini bukan. Siapapun interface yang ingin mengakses, yang ingin melakukan otentikasi."
+    },
+    {
+      "start": 670,
+      "end": 682.4,
+      "text": "Jadi itu bisa berupa suatu aplikasi web. Ya, aplikasi web kan bisa terdiri dari client side, server side, itu sepenuh satu aplikasi, atau aplikasi mobile, atau aplikasi apapun itu."
+    },
+    {
+      "start": 682.4,
+      "end": 698.48,
+      "text": "Yang penting, protokolnya HTTP. Jadi, request-nya belum terjadi dari browser, atau mau terjadi dari comment line, atau mau terjadi dari HTTP client seperti postman."
+    },
+    {
+      "start": 698.48,
+      "end": 716.24,
+      "text": "Ataupun library-library yang digunakan di mobile juga bisa ya. Semuanya, pokoknya selama HTTP client, kita menggunakan HTTP client itu bisa dianggap sebagai clientnya dari server."
+    },
+    {
+      "start": 716.24,
+      "end": 727.2,
+      "text": "Server di sini adalah tempat di mana data user dan berbagai proses validasinya terjadi di server ya."
+    },
+    {
+      "start": 727.2,
+      "end": 738.8,
+      "text": "Jadi, proses checking-nya ada di server. Jadi, semacam service API, atau service yang menghandle logic, business logic, sama database, dan lain-lain."
+    },
+    {
+      "start": 738.8,
+      "end": 752.88,
+      "text": "Ya, jadi kita pertama kan si client ini melakukan request, \"Eh, saya mau login dong,\" gitu kan. Habis itu dianggapin, atau di response 401, karena kita tidak terlalu..."
+    },
+    {
+      "start": 752.88,
+      "end": 765.92,
+      "text": "Ini tempat terkunci. Ya, misalkan kita mau /admin atau /dashboard, gitu. Oh, nggak boleh, kan. Jadi, biasanya itu di redirect, ya. Di redirect, akhirnya masuk ke halaman login, gitu kan."
+    },
+    {
+      "start": 765.92,
+      "end": 779.92,
+      "text": "Kalau di sini, ini kan yang basic out ya. Basic out itu yang kayak pop-up itu aja. Pop-up dari browser, tahu nggak? Pop-up dari browser yang kayak..."
+    },
+    {
+      "start": 779.92,
+      "end": 788.88,
+      "text": "Oh, kayak FTP ya, kalau buka FTP dari browser, gitu kan. Oh, iya, iya. Kalau jangan dulu kita buka FTP, gitu, ada username password, gitu."
+    },
+    {
+      "start": 788.88,
+      "end": 798.16,
+      "text": "Iya, iya. Terus minta username sama password. Dan ini tidak spesifik terhadap user. Hanya basic out biasa."
+    },
+    {
+      "start": 798.16,
+      "end": 813.36,
+      "text": "Ya. Terus habis itu dikirimkan, ya mungkin, ini metodenya banyak ya. Nanti kita juga mungkin akan bahas sedikit ya. Ada yang basic, ada yang macem-macem gitu. Ada yang ngirimin token, ada yang ngirimin username password, dan lain-lain, habis itu dicek."
+    },
+    {
+      "start": 813.36,
+      "end": 833.36,
+      "text": "Kevalidasinya dicek di sini, usernya benar nggak sih? Username ini atau token ini punya kapabilitas untuk memasuki area tertentu. Kalau iya, maka kembalinya adalah status 200 dan oke."
+    },
+    {
+      "start": 833.36,
+      "end": 847.36,
+      "text": "Atau kalau gagal, ya kembali lagi ke 401. Gagal 401 seperti awal. Gitu. Itu ini sederhananya ya. Ada banyak lagi turunan-turunannya yang sangat bermacam-macam, gitu."
+    },
+    {
+      "start": 847.36,
+      "end": 859.36,
+      "text": "Semakin secure, semakin sulit lah kita. Ada yang harus pakai handphone lah, harus pakai auto-tiketer lah, macem-macem ya. Nanti kita juga akan bahas sedikit. Tapi yang mau kita bahas selanjutnya adalah tentang skema."
+    },
+    {
+      "start": 859.36,
+      "end": 879.36,
+      "text": "Skema yang paling umum sebenarnya basic sama bearer. Dan itu masing-masing, nah yang lain itu nggak tahu. Mungkin teman-teman ada yang pernah punya pengalaman pakai yang lain-lain itu bisa di-post di komen. Karena kita belum pernah."
+    },
+    {
+      "start": 879.36,
+      "end": 893.36,
+      "text": "Iya, yang paling sering kita gunakan adalah yang basic sama bearer. Yang basic seperti tadi. Iya, yang basic ini seperti ini. Jadi kita kirimin token yang kita dapatkan, gitu ya."
+    },
+    {
+      "start": 893.36,
+      "end": 903.36,
+      "text": "Mungkin dari login juga atau dari mana gitu ya. Dan satu lagi adalah bearer. Bearer token juga hampir sama ya modelnya ya. Kalau teman-teman familiar dengan OAuth."
+    },
+    {
+      "start": 903.36,
+      "end": 919.36,
+      "text": "Iya, kita kirimnya, selalu kita kirim. Kalau yang basic itu, basic itu simple, yang paling simple itu cuma base number 4 dari username titik 2 password."
+    },
+    {
+      "start": 919.36,
+      "end": 935.36,
+      "text": "Jadi sebuah string di base 64. Jadi itu isinya. Kalau bearer itu. Token, yang di encode tokennya ya. Akses token."
+    },
+    {
+      "start": 935.36,
+      "end": 957.36,
+      "text": "API key, ada API key untuk nge-generate token. Jadi ada hash key. Jadi lah tokennya. Nah tokennya itu nanti, kalau tadi kan tulisannya authenticate, titik 2 basic, spasi, base 64."
+    },
+    {
+      "start": 957.36,
+      "end": 965.36,
+      "text": "Kalau bearer authenticate, bearer langsung hasil hashnya tadi, tokennya itu."
+    },
+    {
+      "start": 965.36,
+      "end": 979.36,
+      "text": "Jadi kalau bearer itu kelebihan nya lebih secure mungkin ya. Karena yang dikirim, jadi setiap request atau apapun yang dikirim adalah tokennya bukan username sama password langsung kan."
+    },
+    {
+      "start": 979.36,
+      "end": 992.36,
+      "text": "Jadi kalau ada apa-apa, bisa di-invalidate tokennya. Atau ya biasanya kan akses token itu ada masa hidupnya, setiap bakal valid berapa lama, bisa di-refresh."
+    },
+    {
+      "start": 992.36,
+      "end": 1001.36,
+      "text": "Biasanya begini, kalau sebuah aplikasi, bayangkan sebuah aplikasi, anggapnya aja WordPress deh."
+    },
+    {
+      "start": 1001.36,
+      "end": 1017.36,
+      "text": "Pasti simple, ada username login. Kalau basic authentication itu kan, nggak mungkin kita, kalau kita ada client API, contohnya client-side JavaScript."
+    },
+    {
+      "start": 1017.36,
+      "end": 1024.36,
+      "text": "Kalau yang kita kirimkan itu adalah username password kita, itu kan bahaya ya. Orang bisa akses langsung."
+    },
+    {
+      "start": 1024.36,
+      "end": 1037.36,
+      "text": "Sedangkan kita bisa set dari aplikasi, kita bikin namanya application password. Jadi hanya password aja yang mengidentifikasi kalau itu punya saya."
+    },
+    {
+      "start": 1037.36,
+      "end": 1055.36,
+      "text": "Dan kalau misalnya itu pun bocor, itu nggak akan bisa dipakai untuk mengakses account secara admin. Karena hanya bisa akses mungkin API-APA tertentu aja ya kan."
+    },
+    {
+      "start": 1055.36,
+      "end": 1069.36,
+      "text": "Barrel token itu lebih aman daripada yang basic out. - Menarik. Ada apa lagi sih tipe-tipe selanjutnya?"
+    },
+    {
+      "start": 1069.36,
+      "end": 1081.36,
+      "text": "Mungkin kita bisa lihat di artikel yang kedua ini ya. Walaupun judulnya tentang REST API, tapi ini juga bisa berlaku untuk non-REST API."
+    },
+    {
+      "start": 1081.36,
+      "end": 1092.36,
+      "text": "Yang grafql, gRPC, macam-macam ya. Jadi ada beberapa cara. - Mungkin detailnya bakal sedikit berbeda,"
+    },
+    {
+      "start": 1092.36,
+      "end": 1101.36,
+      "text": "tapi kita di sini lebih lihat ke pola-polanya ya, workflow-nya secara umum. Nah, ini yang barusan dibahas, Evan, yang baru banget."
+    },
+    {
+      "start": 1101.36,
+      "end": 1111.36,
+      "text": "Gimana caranya kita melakukan mengamankan API kita yang mungkin tidak boleh diakses oleh publik?"
+    },
+    {
+      "start": 1111.36,
+      "end": 1120.36,
+      "text": "Bisa menggunakan yang pertama tadi API key, yang barusan dibahas Evan ya. API key, gimana caranya ini ada ini?"
+    },
+    {
+      "start": 1120.36,
+      "end": 1130.36,
+      "text": "- Biasanya ada public key sama private key. Jadi private key-nya nggak boleh disimpan di mana-mana, termasuk di client, nggak boleh ada."
+    },
+    {
+      "start": 1130.36,
+      "end": 1138.36,
+      "text": "Private key itu hanya ada di server, jadi public key-nya yang dipakai oleh komunikasi antar."
+    },
+    {
+      "start": 1138.36,
+      "end": 1146.36,
+      "text": "Kalau misalnya punya client-side JavaScript, kita bisa embed public key-nya di JavaScript application kita"
+    },
+    {
+      "start": 1146.36,
+      "end": 1158.36,
+      "text": "yang kita pakai untuk generate token tadi. Nanti token-nya dikirimkan, diauthenticate pakai private key."
+    },
+    {
+      "start": 1158.36,
+      "end": 1168.36,
+      "text": "- Private key itu harus di server-side ya, di sisi server ya. Nggak boleh disimpan di sisi client karena bisa dilihat."
+    },
+    {
+      "start": 1168.36,
+      "end": 1174.36,
+      "text": "Namanya private itu kan nggak boleh dibagikan, gitu ya. Kalau ada di sisi client, kita bisa view source,"
+    },
+    {
+      "start": 1174.36,
+      "end": 1182.36,
+      "text": "terus kita bisa lihat kuncinya. Nah, makanya, ini ada beberapa pertanyaan juga yang muncul ya, cukup sering muncul."
+    },
+    {
+      "start": 1182.36,
+      "end": 1190.36,
+      "text": "Makanya beberapa service seperti Payment Gateway itu mengharuskan kita punya server, nggak boleh langsung dari client."
+    },
+    {
+      "start": 1190.36,
+      "end": 1200.36,
+      "text": "Karena dia harus menggenerasi entah itu token ataupun punya private key, harus disimpan di server, tidak boleh di client."
+    },
+    {
+      "start": 1200.36,
+      "end": 1206.36,
+      "text": "- Untungnya sih kalau disambungin ke implementasi, ya ini framework."
+    },
+    {
+      "start": 1206.36,
+      "end": 1212.36,
+      "text": "Maksudnya kalau kita cuma pakai yang mentahan React, swell, itu kan masih client-side web browser ya."
+    },
+    {
+      "start": 1212.36,
+      "end": 1218.36,
+      "text": "Jadi mungkin agak sulit kalau harus server-side. Nah, di sini perannya meta framework."
+    },
+    {
+      "start": 1218.36,
+      "end": 1226.36,
+      "text": "Jadi sekarang udah lumayan banyak ya, meta framework. Kalau kita pakai React, ya bisa pakai Next atau Gatsby atau Remix."
+    },
+    {
+      "start": 1226.36,
+      "end": 1237.36,
+      "text": "Kalau pakai Swell, bisa pakai Swell Kit. Terus semua bisa pakai Astro. Jadi ada banyak meta framework"
+    },
+    {
+      "start": 1237.36,
+      "end": 1246.36,
+      "text": "yang bisa berfungsi secara full-stack itu jadi satu solusi. Jadi kalau dulu mungkin kita harus bikin satu aplikasi lagi,"
+    },
+    {
+      "start": 1246.36,
+      "end": 1258.36,
+      "text": "misalnya Express atau KoA, kita harus punya aplikasi Node.js. Terus dari aplikasi React kita,"
+    },
+    {
+      "start": 1258.36,
+      "end": 1269.36,
+      "text": "manggil ke server itu, sekarang bisa ada alternatif lain pakai meta framework yang di satu aplikasi udah full-stack."
+    },
+    {
+      "start": 1269.36,
+      "end": 1277.36,
+      "text": "Ada sisi browser-nya, client-side-nya, ada sisi yang cuma bisa dibaca di server untuk melakukan operasi seperti ini."
+    },
+    {
+      "start": 1277.36,
+      "end": 1285.36,
+      "text": "- Ya, alternatif yang lain yang pernah saya kerjakan adalah dengan menggunakan itu serverless lambda."
+    },
+    {
+      "start": 1285.36,
+      "end": 1290.36,
+      "text": "Jadi kalau misalkan kayak Netlify, Netlify kan hanya client-side ya."
+    },
+    {
+      "start": 1290.36,
+      "end": 1297.36,
+      "text": "Nah, kita semudah membuat sebuah folder dengan nama functions, didalamnya kita bisa punya server dalam tanda kutip gitu."
+    },
+    {
+      "start": 1297.36,
+      "end": 1304.36,
+      "text": "Jadi hal-hal yang seperti ini bisa kita tangani di sana. Jadi mungkin kalau nggak mau full-blown langsung ke meta framework,"
+    },
+    {
+      "start": 1304.36,
+      "end": 1313.36,
+      "text": "bisa coba lambda server ada di Netlify, ada di versel juga kalau nggak salah ya. Jadi ada di mana-mana."
+    },
+    {
+      "start": 1313.36,
+      "end": 1321.36,
+      "text": "Kalau lebih sederhana. Tapi kalau misalkan, wah kayaknya ribet nih, harus pakai AWSK atau pakai GCPK atau yang lain gitu kan."
+    },
+    {
+      "start": 1321.36,
+      "end": 1327.36,
+      "text": "Nah, mungkin opsi untuk menggunakan meta framework lebih cocok gitu ya."
+    },
+    {
+      "start": 1327.36,
+      "end": 1334.36,
+      "text": "- Nah, cuma Netlify sama Versel juga sekarang udah bisa ngehosting server-side. Jadi maksudnya itu tergantung complex-side."
+    },
+    {
+      "start": 1334.36,
+      "end": 1340.36,
+      "text": "Iya, bisa. Jadi misalkan kita punya Next.js, bisa dihosting di Netlify atau Versel."
+    },
+    {
+      "start": 1340.36,
+      "end": 1345.36,
+      "text": "Node server-nya, jadi mereka sebenarnya under the hood itu pakai AWS."
+    },
+    {
+      "start": 1345.36,
+      "end": 1351.36,
+      "text": "- Iya, iya. Masih gratis ya? - Ada free tier. Free tiernya gratis."
+    },
+    {
+      "start": 1351.36,
+      "end": 1359.36,
+      "text": "Iya, gratis ada sekian menit, sekian ratus menit batasnya running compute time."
+    },
+    {
+      "start": 1359.36,
+      "end": 1371.36,
+      "text": "- Nah, ini ada pro dan cons-nya ya. Kenapa kita perlu menggunakan? Karena mudah dan ya gampang lah ya, cepat juga ya."
+    },
+    {
+      "start": 1371.36,
+      "end": 1378.36,
+      "text": "Dan lebih fleksibel. Nah, disadvantage-nya adalah security. Security-nya lemah ya."
+    },
+    {
+      "start": 1378.36,
+      "end": 1385.36,
+      "text": "- Paling gampangnya, ini si GitHub token. Bayangkan aja GitHub token. - Oh iya, token."
+    },
+    {
+      "start": 1385.36,
+      "end": 1392.36,
+      "text": "- Iya, GitHub token. Kita bisa bikin GitHub personal access token, seperti API key."
+    },
+    {
+      "start": 1392.36,
+      "end": 1402.36,
+      "text": "Jadi kita bisa access GitHub API dengan menggunakan personal access token untuk mengakses data-data yang kita punya di GitHub."
+    },
+    {
+      "start": 1402.36,
+      "end": 1408.36,
+      "text": "Bisa bikin repo, bisa search repo, bisa macem-macem, lihat PR gitu ya, full request."
+    },
+    {
+      "start": 1408.36,
+      "end": 1412.36,
+      "text": "Bisa destroy repo juga kalau memang dikasih aksesnya."
+    },
+    {
+      "start": 1412.36,
+      "end": 1423.36,
+      "text": "- Ya, kalau sempat bocor ya. Oke, kita lanjut ke yang kedua ya. Ini option kedua adalah yang juga mau, apa, yang sekarang ini lagi hype ya, OAuth ya."
+    },
+    {
+      "start": 1423.36,
+      "end": 1431.36,
+      "text": "Yang versi 2 itu apa namanya, sekarang lumayan banyak yang menggunakan ya."
+    },
+    {
+      "start": 1431.36,
+      "end": 1439.36,
+      "text": "Jadi kalau teman-teman menggunakan service tuh misalkan kayak Twitter login, atau apa lagi, oh, GitHub login juga termasuk."
+    },
+    {
+      "start": 1439.36,
+      "end": 1449.36,
+      "text": "- Ya, Facebook login. - Oh, Facebook login, ada macem-macem service yang menyediakan service untuk login"
+    },
+    {
+      "start": 1449.36,
+      "end": 1459.36,
+      "text": "sehingga user tidak perlu register. Memudahkan ya, terutama kalau teman-teman yang bikin produk baru."
+    },
+    {
+      "start": 1459.36,
+      "end": 1464.36,
+      "text": "- Menggunakan akun user. - Akun yang sudah ada, akun social media biasanya ya."
+    },
+    {
+      "start": 1464.36,
+      "end": 1477.36,
+      "text": "Jadi daripada kita harus suruh user register, masukin username, masukin password, email, apa segala macem gitu, hobby gitu ya."
+    },
+    {
+      "start": 1477.36,
+      "end": 1489.36,
+      "text": "Lebih baik kan kita misalkan menggunakan Google atau Facebook atau Twitter, kita bisa ambil data public ya, data public atau data private di sana."
+    },
+    {
+      "start": 1489.36,
+      "end": 1494.36,
+      "text": "Kemudian kita login dengan menggunakan salah satu akun social media kita."
+    },
+    {
+      "start": 1494.36,
+      "end": 1501.36,
+      "text": "- Nah, keunggulannya, bukan keunggulan sih, cuma OAuth 2.0 ini adalah standar."
+    },
+    {
+      "start": 1501.36,
+      "end": 1510.36,
+      "text": "Jadi sebenarnya bukan library, OAuth-nya sendiri bukan library, cuma ada beberapa library yang mengimplementasi ini."
+    },
+    {
+      "start": 1510.36,
+      "end": 1520.36,
+      "text": "Nah, ini adalah kayak semacam standar spesifikasi. Jadi kan Facebook, Google itu kan perusahaan yang beda-beda, codebase-nya beda-beda."
+    },
+    {
+      "start": 1520.36,
+      "end": 1531.36,
+      "text": "Jadi OAuth ini men-streamline bentuk workflow-nya. Jadi minta token, minta token dibalikinya seperti apa,"
+    },
+    {
+      "start": 1531.36,
+      "end": 1550.36,
+      "text": "terus item-itemnya, field-nya apa aja, itu kurang lebih di-streamline biar mudah. Misalnya nanti ada sosmed baru atau layanan baru yang mau menyediakan login juga, OAuth juga bisa dengan lebih mudah."
+    },
+    {
+      "start": 1550.36,
+      "end": 1558.36,
+      "text": "- Oke, jarak kerjanya gimana sih kalau OAuth ini? - Ada itu di link-nya saya kasih."
+    },
+    {
+      "start": 1558.36,
+      "end": 1562.36,
+      "text": "- Ini ya? - Ini nyambung."
+    },
+    {
+      "start": 1562.36,
+      "end": 1568.36,
+      "text": "- Nah, OAuth 0 itu salah satu library yang paling major ya, yang mengimplementasi OAuth."
+    },
+    {
+      "start": 1568.36,
+      "end": 1573.36,
+      "text": "- OAuth 0 itu bukan library, dia service. - Oh, layanan."
+    },
+    {
+      "start": 1573.36,
+      "end": 1577.36,
+      "text": "- Service, ya, layanan. - Tapi dia punya SDK, kan?"
+    },
+    {
+      "start": 1577.36,
+      "end": 1589.36,
+      "text": "- Ya. Turun dikit, turun dikit. Ada bagannya. Ini yang non-single-sign-on, ini non-single-sign-on."
+    },
+    {
+      "start": 1589.36,
+      "end": 1601.36,
+      "text": "- Oh, non-single-sign-on. - Kalau login biasa kan kita login, set cookies, kita kembali sedikit deh biar kita bisa lihat kebedaannya."
+    },
+    {
+      "start": 1601.36,
+      "end": 1615.36,
+      "text": "Jadi kalau non-sso, kalau kita login ke domain 1 ya kan, kita browse ke domain 1, kita login, kita set cookie-nya, selanjutnya kita sudah terautentikasi."
+    },
+    {
+      "start": 1615.36,
+      "end": 1621.36,
+      "text": "Namun kalau kita ke domain yang berbeda, domain 2. - Cookie-nya nggak ada."
+    },
+    {
+      "start": 1621.36,
+      "end": 1627.36,
+      "text": "- Kalau kita, cookie-nya kan nggak bisa diases, cookie yang tadi kita sudah login. Meskipun mungkin layanannya sama ya."
+    },
+    {
+      "start": 1627.36,
+      "end": 1639.36,
+      "text": "Mungkin ya, mungkin. Anggap aja sama-sama blog kita sendiri gitu ya. Tetapi kita nggak bisa akses domain 2 langsung tanpa kita harus login ulang."
+    },
+    {
+      "start": 1639.36,
+      "end": 1648.36,
+      "text": "Ya kan? Jadi akibatnya apa di sini? Kita harus punya username password di domain 1 dan username password di domain 2."
+    },
+    {
+      "start": 1648.36,
+      "end": 1653.36,
+      "text": "- Oke. - Kalau itu ada 1000, kita punya 1000, ya kan?"
+    },
+    {
+      "start": 1653.36,
+      "end": 1660.36,
+      "text": "Nah selanjutnya biasanya ini terjadi di sebuah company-company yang enterprise."
+    },
+    {
+      "start": 1660.36,
+      "end": 1665.36,
+      "text": "Bayangkan aja company enterprise itu punya multiple site, ratusan mungkin."
+    },
+    {
+      "start": 1665.36,
+      "end": 1673.36,
+      "text": "Kalau satu site harus login kan, repot ya. Dan berbeda. Nah makanya ada disebut single sign-on."
+    },
+    {
+      "start": 1673.36,
+      "end": 1683.36,
+      "text": "Kalau di Microsoft atau Azure apa itu namanya ya? SSO-nya mereka itu pakai SAML gitu. Saya lupa ininya."
+    },
+    {
+      "start": 1683.36,
+      "end": 1696.36,
+      "text": "Ah, udahlah. Lalu kalau bisa itu SAML. Nah selanjutnya kalau kita pakai SSO itu cara kerja seperti ini."
+    },
+    {
+      "start": 1696.36,
+      "end": 1706.36,
+      "text": "Itu yang central authentication domain, turun dulu. Jadi kalau bayangkan sebuah company yang enterprise. Ini jaman sebelum Anda pakai login dengan Facebook, login dengan Google ya."
+    },
+    {
+      "start": 1706.36,
+      "end": 1717.36,
+      "text": "Sebelum jaman itu ya. Itu sudah ada. Itu pakai kembali lagi protokolnya namanya SAML. Saya lupa nama ini. Dan itu produknya dari Microsoft."
+    },
+    {
+      "start": 1717.36,
+      "end": 1729.36,
+      "text": "Domain satu kita login, dan ternyata kita di redirect ke authentication server. Nah sebesarnya namanya mawar.com."
+    },
+    {
+      "start": 1729.36,
+      "end": 1731.36,
+      "text": "Domain tiga."
+    },
+    {
+      "start": 1731.36,
+      "end": 1753.36,
+      "text": "Kita itu login-nya ke domain tiga. Kita cuma login di domain tiga. Lalu kita akan direct ke kembali ke domain satu dengan akses token yang dikirimkan dari si authentication server untuk menyatakan"
+    },
+    {
+      "start": 1753.36,
+      "end": 1763.36,
+      "text": "\"Hey, user ini sudah benar orangnya, dan ini tokennya lu bisa pakai untuk nanti tanya gue.\""
+    },
+    {
+      "start": 1763.36,
+      "end": 1775.36,
+      "text": "Jadi ibaratnya, Mas Rizze itu domain satu. Ba Eka itu domain tiga. Contoh, saya datang ke Ba Eka. \"Hey, saya mau login Ba Eka. Ini username password.\""
+    },
+    {
+      "start": 1775.36,
+      "end": 1788.36,
+      "text": "\"Oke, saya mau login ke domain satu.\" \"Oke.\" Terus Ba Eka langsung kabarin ke Mas Rizze, \"Si Ivan sudah terauthentikasi. Ini tokennya.\""
+    },
+    {
+      "start": 1788.36,
+      "end": 1803.36,
+      "text": "Terus nanti Mas Rizze tanya lagi, \"Benarkah token ini punya Ivan?\" \"Oh benar.\" Saya jawab, \"Benar.\" Nanti Mas Rizze balik dan set cookie-nya ke domain satu."
+    },
+    {
+      "start": 1803.36,
+      "end": 1815.36,
+      "text": "Sehingga saat saya akses domain satu sudah dalam keadaan login. Demikian juga kalau saya akses domain dua."
+    },
+    {
+      "start": 1815.36,
+      "end": 1823.36,
+      "text": "Saya akan ke redirect lagi ke authentication server, namun saat ini karena saya sudah pernah login, saya nggak perlu login lagi karena sudah ada cookie-nya."
+    },
+    {
+      "start": 1823.36,
+      "end": 1833.36,
+      "text": "- Itu cookie-nya? - Cookie-nya nempel ke domain tiga. Cookie yang saya sudah pernah login ke domain tiga."
+    },
+    {
+      "start": 1833.36,
+      "end": 1843.36,
+      "text": "Ada proses redirect. Tetap saya redirect dulu ke domain tiga. Ternyata saya sudah login dan saya akan redirect lagi ke domain dua."
+    },
+    {
+      "start": 1843.36,
+      "end": 1853.36,
+      "text": "Domain dua akan tanya, \"Ini orang sudah benar nggak?\" \"Oh benar. Tokennya ini ya?\" \"Ya, balik.\" Maka saya login ke domain dua."
+    },
+    {
+      "start": 1853.36,
+      "end": 1858.36,
+      "text": "- Itulah proses SSO. - Single Sign-On."
+    },
+    {
+      "start": 1858.36,
+      "end": 1867.36,
+      "text": "- Kalau lebih detailnya, lebih detailnya seperti ini. - Oke."
+    },
+    {
+      "start": 1867.36,
+      "end": 1875.36,
+      "text": "Jadi, key-nya itu adalah ada domain authentication server sendiri yang mengautotikasi semua."
+    },
+    {
+      "start": 1875.36,
+      "end": 1883.36,
+      "text": "Kalau kita saat ini pakenya login dengan Google, login dengan GitHub, GitHub-nya yang menjadi authentication server."
+    },
+    {
+      "start": 1883.36,
+      "end": 1887.36,
+      "text": "- Ya, domain tiga ini ya? - Iya."
+    },
+    {
+      "start": 1887.36,
+      "end": 1893.36,
+      "text": "Jadi, ini memanfaatkan service external yang sudah ada ya?"
+    },
+    {
+      "start": 1893.36,
+      "end": 1903.36,
+      "text": "Ya, ini biasanya cukup sering digunakan kalau kita sudah menggunakan microservice dan service-nya banyak."
+    },
+    {
+      "start": 1903.36,
+      "end": 1910.36,
+      "text": "Salah satu service yang berdiri sendiri adalah authentication server atau authentication service."
+    },
+    {
+      "start": 1910.36,
+      "end": 1918.36,
+      "text": "Dan setiap kali kita mau login ke service A, service B, service C, kita harus consult dulu dengan si authentication service ini."
+    },
+    {
+      "start": 1918.36,
+      "end": 1928.36,
+      "text": "- Gitu ya? - Ya. Jadi, lewat ada komunikasi dari back-end. Server-to-server."
+    },
+    {
+      "start": 1928.36,
+      "end": 1933.36,
+      "text": "- Server-to-server. - Untuk nanya, \"Ini orang benar nggak?\""
+    },
+    {
+      "start": 1933.36,
+      "end": 1937.36,
+      "text": "Tapi kalau misalnya lebih enterprise lagi, nanti ada lagi key-nya."
+    },
+    {
+      "start": 1937.36,
+      "end": 1942.36,
+      "text": "Key-nya yang di server satu, sekey-nya di server dua hanya bisa pakai key itu baru bisa ngomong."
+    },
+    {
+      "start": 1942.36,
+      "end": 1948.36,
+      "text": "Karena kalau ada main-in-the-middle yang intercept, nggak kebaca ternyata."
+    },
+    {
+      "start": 1948.36,
+      "end": 1954.36,
+      "text": "Itu beda lagi itu ceritanya. Tapi tetap sama, prosesnya sama."
+    },
+    {
+      "start": 1954.36,
+      "end": 1965.36,
+      "text": "Kita lanjut ke pembahasan tentang empat cara melakukan pengamanan API, termasuk juga autentikasi."
+    },
+    {
+      "start": 1965.36,
+      "end": 1971.36,
+      "text": "Nanti kita sudah bahas tentang OAuth ini, cara kerjanya tadi sudah kita bahas."
+    },
+    {
+      "start": 1971.36,
+      "end": 1976.36,
+      "text": "Dan kenapa menggunakan OAuth? Karena industri standar, salah satunya."
+    },
+    {
+      "start": 1976.36,
+      "end": 1984.36,
+      "text": "Keunggulannya di sini disebutkan untuk improve security, user experience, dan scalability."
+    },
+    {
+      "start": 1984.36,
+      "end": 1987.36,
+      "text": "Yang seperti yang kita sebutkan tadi, dia sudah service terpisah."
+    },
+    {
+      "start": 1987.36,
+      "end": 1992.36,
+      "text": "Kalau teman-teman punya banyak service, nggak perlu bikin login satu per satu di setiap service."
+    },
+    {
+      "start": 1992.36,
+      "end": 1998.36,
+      "text": "Itu juga membuat user jadi malas tiap mengases domain satu login."
+    },
+    {
+      "start": 1998.36,
+      "end": 2003.36,
+      "text": "\"Ah, mau coba domain dua?\" Login juga. Padahal kita sudah login sebelumnya."
+    },
+    {
+      "start": 2003.36,
+      "end": 2010.36,
+      "text": "Jadi itu juga membuat user experience jadi lebih bagus."
+    },
+    {
+      "start": 2010.36,
+      "end": 2017.36,
+      "text": "Terus tentu ada kekurangan. Di sini kekurangannya adalah complexity."
+    },
+    {
+      "start": 2017.36,
+      "end": 2029.36,
+      "text": "Semakin sekur, semakin kompleks sistem kita. Jadi ini seperti yang tadi dijelaskan,"
+    },
+    {
+      "start": 2029.36,
+      "end": 2034.36,
+      "text": "setiap kali kita mologin, sebenarnya kita redirect ke service authentication."
+    },
+    {
+      "start": 2034.36,
+      "end": 2047.36,
+      "text": "Kita bawa kode yang pertama kita bawa. Terus habis itu di redirect."
+    },
+    {
+      "start": 2047.36,
+      "end": 2052.36,
+      "text": "Habis itu setelah login berhasil di approve dengan domain 3 itu..."
+    },
+    {
+      "start": 2052.36,
+      "end": 2064.36,
+      "text": "yang pertama kali itu akan dibawa request token dan redirect URI."
+    },
+    {
+      "start": 2064.36,
+      "end": 2075.36,
+      "text": "Di domain 3 kita pakai request token itu, kita login plus name dan passwordnya kita."
+    },
+    {
+      "start": 2075.36,
+      "end": 2081.36,
+      "text": "Lalu waktu kembali itu adalah access token dan refresh token."
+    },
+    {
+      "start": 2081.36,
+      "end": 2091.36,
+      "text": "Jadi access tokennya itu ada time to live-nya biasanya 30 hari."
+    },
+    {
+      "start": 2091.36,
+      "end": 2097.36,
+      "text": "Jadi refresh token itu 6 bulan."
+    },
+    {
+      "start": 2097.36,
+      "end": 2105.36,
+      "text": "Kalau misalnya access tokennya expired, hanya bisa di refresh pakai refresh token"
+    },
+    {
+      "start": 2105.36,
+      "end": 2109.36,
+      "text": "untuk meminta kembali access token supaya kita bisa pakai."
+    },
+    {
+      "start": 2109.36,
+      "end": 2117.36,
+      "text": "Selanjutnya kalau bisa refresh tokennya habis, maka kita serius harus login ulang."
+    },
+    {
+      "start": 2117.36,
+      "end": 2125.36,
+      "text": "Nah bahas token-token ini jadi inget nih, salah satu ini contoh implementasi sih"
+    },
+    {
+      "start": 2125.36,
+      "end": 2131.36,
+      "text": "dari layanan yang menyediakan single sign on kayak gini, itu Spotify."
+    },
+    {
+      "start": 2131.36,
+      "end": 2139.36,
+      "text": "-Dokumentasinya bagus deh, coba buka. -Oh iya, jadi private chat ya."
+    },
+    {
+      "start": 2139.36,
+      "end": 2151.36,
+      "text": "Itu contoh untuk layanan mereka, tapi sebetulnya kita pakai website lain juga kurang lebih alurnya mirip seperti ini."
+    },
+    {
+      "start": 2151.36,
+      "end": 2156.36,
+      "text": "Ini ada beberapa opsi."
+    },
+    {
+      "start": 2156.36,
+      "end": 2162.36,
+      "text": "Ini application, ada account service dan ada user ya, modelnya mirip juga kayak tadi."
+    },
+    {
+      "start": 2162.36,
+      "end": 2169.36,
+      "text": "Itu kayak tadi dibahas sama Ivan sih sebetulnya, cuma jadi inget aja sih ini dulu sempat lama"
+    },
+    {
+      "start": 2169.36,
+      "end": 2174.36,
+      "text": "kayak gue nggak paham-paham sulit ngerti OAuth itu kayak gimana."
+    },
+    {
+      "start": 2174.36,
+      "end": 2183.36,
+      "text": "Akhirnya baru klik, itu pas lihat ini soalnya bagannya bagus, bagannya gampang dipahamin."
+    },
+    {
+      "start": 2183.36,
+      "end": 2191.36,
+      "text": "Memang OAuth ini implementasinya yang sulit."
+    },
+    {
+      "start": 2191.36,
+      "end": 2196.36,
+      "text": "Bagi kita, bagi developer sulit, tapi bagi user mudah sebenarnya."
+    },
+    {
+      "start": 2196.36,
+      "end": 2202.36,
+      "text": "Karena tinggal klik, login, balik. Apalagi kalau dia login dengan account yang sudah sering dia pakai,"
+    },
+    {
+      "start": 2202.36,
+      "end": 2208.36,
+      "text": "misalnya dalam hal ini Google atau Microsoft account, Microsoft T60 ya misalnya,"
+    },
+    {
+      "start": 2208.36,
+      "end": 2214.36,
+      "text": "tinggal login, balik lagi udah selesai. Jadi nggak terjadi apa-apa,"
+    },
+    {
+      "start": 2214.36,
+      "end": 2218.36,
+      "text": "tapi kita yang implementasi itu harus belajar betul ini semua."
+    },
+    {
+      "start": 2218.36,
+      "end": 2224.36,
+      "text": "- Kita yang pakai aja kadang-kadang, ya pakai dalam artian ini ya, kita menggunakan library"
+    },
+    {
+      "start": 2224.36,
+      "end": 2232.36,
+      "text": "untuk misalkan koneksi antara website kita dengan Spotify misalkan atau dengan GitHub atau dengan apa,"
+    },
+    {
+      "start": 2232.36,
+      "end": 2236.36,
+      "text": "itu lumayan tricky juga kalau kita nggak tahu cara kerjanya kan."
+    },
+    {
+      "start": 2236.36,
+      "end": 2246.36,
+      "text": "Jadi kita ngirim apa, kita expect dikasih dibalikin apa. Itu tuh harus paham dulu."
+    },
+    {
+      "start": 2246.36,
+      "end": 2266.36,
+      "text": "- Eka putus-putus ya? - Iya, boleh diulang beberapa kali terakhir."
+    },
+    {
+      "start": 2266.36,
+      "end": 2277.36,
+      "text": "- Apa tadi jadi lupa? Apanya mental modelnya adalah kita harus tahu apa aja yang harus kita kirim di masing-masing langkah,"
+    },
+    {
+      "start": 2277.36,
+      "end": 2284.36,
+      "text": "habis itu apa yang akan kita terima, habis itu langkah selanjutnya apa."
+    },
+    {
+      "start": 2284.36,
+      "end": 2291.36,
+      "text": "Jadi yang penting menguasai itu. - Terutama kalau misalkan teman-teman"
+    },
+    {
+      "start": 2291.36,
+      "end": 2297.36,
+      "text": "mau pakai service atau mau menggunakan API yang sifatnya private, misalkan Twitter gitu ya."
+    },
+    {
+      "start": 2297.36,
+      "end": 2301.36,
+      "text": "Kita mau ngambil data Twitter, bisa, tapi kita harus menggunakan OAuth dulu."
+    },
+    {
+      "start": 2301.36,
+      "end": 2308.36,
+      "text": "Jadi kita lakukan otentikasi dulu, otentikasinya sudah berhasil, baru kita bisa request data."
+    },
+    {
+      "start": 2308.36,
+      "end": 2312.36,
+      "text": "Dan request datanya pun... - Nah, itu biasanya ada di parameter,"
+    },
+    {
+      "start": 2312.36,
+      "end": 2317.36,
+      "text": "kan ada parameter scope tuh di Spotify juga ada tuh di langkah pertama scope."
+    },
+    {
+      "start": 2317.36,
+      "end": 2325.36,
+      "text": "Jadi ada hal-hal yang publik, kayak misalnya biasanya display name atau apa ya, entah itu Spotify atau Twitter."
+    },
+    {
+      "start": 2325.36,
+      "end": 2330.36,
+      "text": "Tapi kan ada hal-hal yang perlu, apa, harus di grantor sendiri."
+    },
+    {
+      "start": 2330.36,
+      "end": 2337.36,
+      "text": "Misalnya bikin tweet atau kalau di Spotify misalnya membuat playlist atau menghapus playlist,"
+    },
+    {
+      "start": 2337.36,
+      "end": 2344.36,
+      "text": "itu harus ada scope grantor sendiri. - Oke, mantap."
+    },
+    {
+      "start": 2344.36,
+      "end": 2351.36,
+      "text": "Kita lanjut ke bagian ketiga. Ini yang udah kita bahas tadi ya, basic dan beerer ya."
+    },
+    {
+      "start": 2351.36,
+      "end": 2353.36,
+      "text": "Jadi kita lewatin aja ya. - Iya."
+    },
+    {
+      "start": 2353.36,
+      "end": 2357.36,
+      "text": "- Dan yang keempat adalah UAT. - Ya, dia lihat sekilas aja."
+    },
+    {
+      "start": 2357.36,
+      "end": 2364.36,
+      "text": "- Oke, lihat sekilas ya. Ini method yang paling luas digunakan, paling banyak digunakan."
+    },
+    {
+      "start": 2364.36,
+      "end": 2369.36,
+      "text": "Kemudian cara gunanya... - Pakai HTTP header ya."
+    },
+    {
+      "start": 2369.36,
+      "end": 2375.36,
+      "text": "- Pakai HTTP header... - Dikirim di header, header-nya namanya authorization, basic spasi,"
+    },
+    {
+      "start": 2375.36,
+      "end": 2379.36,
+      "text": "apa tadi, username dan password, atau beerer, spasi, token."
+    },
+    {
+      "start": 2379.36,
+      "end": 2385.36,
+      "text": "- Ya, dan beberapa keunggulannya ya tentu lebih sederhana ya, paling sederhana."
+    },
+    {
+      "start": 2385.36,
+      "end": 2395.36,
+      "text": "Tapi kekurangannya adalah... - Nggak ada akses role, scope, scope nggak ada."
+    },
+    {
+      "start": 2395.36,
+      "end": 2400.36,
+      "text": "- Skop. Terus kemudian kalau... - Ya, dia beresik aja ya."
+    },
+    {
+      "start": 2400.36,
+      "end": 2405.36,
+      "text": "- Nggak bisa expiry, nggak bisa. - Oke."
+    },
+    {
+      "start": 2405.36,
+      "end": 2408.36,
+      "text": "- Jadi biasanya udah orang pakai itu ya pakai aja."
+    },
+    {
+      "start": 2408.36,
+      "end": 2413.36,
+      "text": "Kalau misalnya ada developer-nya udah bolak-balik, ada yang resign, segala macam,"
+    },
+    {
+      "start": 2413.36,
+      "end": 2417.36,
+      "text": "ya bayangin aja kalau kita harus ngereset itu semua, kan susah."
+    },
+    {
+      "start": 2417.36,
+      "end": 2421.36,
+      "text": "- Setiap ada yang ngereset, direset."
+    },
+    {
+      "start": 2421.36,
+      "end": 2427.36,
+      "text": "- Terus, jadi apa namanya?"
+    },
+    {
+      "start": 2427.36,
+      "end": 2435.36,
+      "text": "Simple implementasinya, tetapi less secure aja untuk maintenance."
+    },
+    {
+      "start": 2435.36,
+      "end": 2443.36,
+      "text": "- Oke, dan terakhir di sini kita masuk ke bagian keempat ya itu JWT atau JSON Web Token."
+    },
+    {
+      "start": 2443.36,
+      "end": 2448.36,
+      "text": "Walaupun di sini menggunakan JSON, tapi seperti yang teman-teman tahu bahwa JSON ini udah dipakai umum ya,"
+    },
+    {
+      "start": 2448.36,
+      "end": 2452.36,
+      "text": "di semua platform, di semua bahasa juga pakainya kebanyakan JSON ya."
+    },
+    {
+      "start": 2452.36,
+      "end": 2456.36,
+      "text": "Walaupun ini asalnya dari JavaScript kan."
+    },
+    {
+      "start": 2456.36,
+      "end": 2463.36,
+      "text": "- Bukan JSON Momoa kan ya? - JSON Power Rangers."
+    },
+    {
+      "start": 2463.36,
+      "end": 2470.36,
+      "text": "- Udah rip. - Nah, gimana cara kerja ini?"
+    },
+    {
+      "start": 2470.36,
+      "end": 2478.36,
+      "text": "Nah, JSON ini lumayan baru ya."
+    },
+    {
+      "start": 2478.36,
+      "end": 2483.36,
+      "text": "Dan sekarang itu lumayan banyak yang pakai dan framework-nya juga udah lengkap ya."
+    },
+    {
+      "start": 2483.36,
+      "end": 2486.36,
+      "text": "Jadi cara kerjanya adalah dengan?"
+    },
+    {
+      "start": 2486.36,
+      "end": 2490.36,
+      "text": "- Dan ini sebenarnya mirip dengan kombinasi cara-cara sebelumnya kan."
+    },
+    {
+      "start": 2490.36,
+      "end": 2495.36,
+      "text": "Jadi sebetulnya ada access token, ada data yang mengidentifikasi user."
+    },
+    {
+      "start": 2495.36,
+      "end": 2501.36,
+      "text": "Yang paling sering sih ya user ID sama user name ya misalnya. Jadi ada user ID, user name,"
+    },
+    {
+      "start": 2501.36,
+      "end": 2510.36,
+      "text": "access token, terus data internal kayak generated datetime issue-nya kapan,"
+    },
+    {
+      "start": 2510.36,
+      "end": 2521.36,
+      "text": "lalu di-encrypt dengan format tertentu JWT itu kan sebetulnya lagi-lagi dia adalah semacam spesifikasi standar."
+    },
+    {
+      "start": 2521.36,
+      "end": 2527.36,
+      "text": "Jadi bukan library tapi spesifikasi untuk pola algoritma encryption-nya."
+    },
+    {
+      "start": 2527.36,
+      "end": 2533.36,
+      "text": "- Nah, yang dikirim adalah? - Ada 3 bagian."
+    },
+    {
+      "start": 2533.36,
+      "end": 2537.36,
+      "text": "Nah, coba sambil buka itu deh. Sambil buka jwt.io."
+    },
+    {
+      "start": 2537.36,
+      "end": 2551.36,
+      "text": "Ada header, ada payload, ya header, payload dan signature."
+    },
+    {
+      "start": 2551.36,
+      "end": 2574.36,
+      "text": "Nah, jadi data yang dikirimkan ke server itu di fetch URL kita atau apapun, pokoknya mau dikirim lewat post"
+    },
+    {
+      "start": 2574.36,
+      "end": 2578.36,
+      "text": "atau lewat pay, apapun, dikirim itu encoded ini."
+    },
+    {
+      "start": 2578.36,
+      "end": 2581.36,
+      "text": "- Yang ini ya? - Kita cuma kirim encoded aja gitu ya."
+    },
+    {
+      "start": 2581.36,
+      "end": 2586.36,
+      "text": "Yang kita kirim, yang dikiri itu kalau udah di-code kayak di kanan itu."
+    },
+    {
+      "start": 2586.36,
+      "end": 2598.36,
+      "text": "Nanti hasilnya itu, header-nya apa? Header-nya itu dia kasih tahu algoritma untuk nge-generate-nya pakai HS256."
+    },
+    {
+      "start": 2598.36,
+      "end": 2602.36,
+      "text": "- Sorry, HS256 beda, bukan SHA256. - Bukan SHA ya, lainnya?"
+    },
+    {
+      "start": 2602.36,
+      "end": 2610.36,
+      "text": "Bukan, tipe-nya jwt. Terus payload-nya itu semua orang bisa baca, payload-nya itu isinya."
+    },
+    {
+      "start": 2610.36,
+      "end": 2614.36,
+      "text": "Itu lah isi post data yang kita itu, payload itu adalah isi post data."
+    },
+    {
+      "start": 2614.36,
+      "end": 2625.36,
+      "text": "Itu nggak sensitif juga sih, biasanya paling user name, user ID, issue type, biasanya standarnya, coba cover di IAT deh."
+    },
+    {
+      "start": 2625.36,
+      "end": 2633.36,
+      "text": "- Issue Add. - Issue Add. Itu isinya bisa macam-macam."
+    },
+    {
+      "start": 2633.36,
+      "end": 2636.36,
+      "text": "Itu intinya apapun data yang mau kita kirimkan."
+    },
+    {
+      "start": 2636.36,
+      "end": 2645.36,
+      "text": "Dan setelah payload itu kita kirimkan apa? Kita sign pakai HMX SHA256."
+    },
+    {
+      "start": 2645.36,
+      "end": 2657.36,
+      "text": "Isinya itu nanti base64 url, header-nya, code payload-nya, sama secret-nya kita."
+    },
+    {
+      "start": 2657.36,
+      "end": 2663.36,
+      "text": "Itu lah nanti di client-side secret-nya apa, nanti di server-side secret-nya apa."
+    },
+    {
+      "start": 2663.36,
+      "end": 2666.36,
+      "text": "Dicocokin sama yang di service-nya."
+    },
+    {
+      "start": 2666.36,
+      "end": 2676.36,
+      "text": "Jadi dia akan dikirimkan dalam bentuk bahasa Sandi, yang hanya bisa dibuka oleh secret-nya ini ya, kuncinya."
+    },
+    {
+      "start": 2676.36,
+      "end": 2678.36,
+      "text": "Kalau kuncinya sama, maka dia bisa buka."
+    },
+    {
+      "start": 2678.36,
+      "end": 2683.36,
+      "text": "Sebenarnya bisa dibuka siapa saja. Payload itu sebenarnya bisa dibuka siapa saja."
+    },
+    {
+      "start": 2683.36,
+      "end": 2689.36,
+      "text": "Tetapi server hanya mau menerima jika signature verified."
+    },
+    {
+      "start": 2689.36,
+      "end": 2699.36,
+      "text": "Itu contoh centang tadi itu. Jadi di sisi server, saat kita lakukan decode dan kita harus cek,"
+    },
+    {
+      "start": 2699.36,
+      "end": 2705.36,
+      "text": "ini signature-nya benar tidak? Kalau tidak benar, jangan diproses."
+    },
+    {
+      "start": 2705.36,
+      "end": 2709.36,
+      "text": "Tapi payload-nya semua bisa baca."
+    },
+    {
+      "start": 2709.36,
+      "end": 2716.36,
+      "text": "Anggap di sini payload ini bukan sesuatu yang rahasia, karena orangnya sudah login."
+    },
+    {
+      "start": 2716.36,
+      "end": 2722.36,
+      "text": "Makanya bisa terjadi, ini kan untuk mencegur REST API connection kan ya."
+    },
+    {
+      "start": 2722.36,
+      "end": 2726.36,
+      "text": "Jadi orangnya itu sebenarnya sudah login, sudah punya access key."
+    },
+    {
+      "start": 2726.36,
+      "end": 2731.36,
+      "text": "Dan ini hanya untuk mengirimkan data ke REST API."
+    },
+    {
+      "start": 2731.36,
+      "end": 2734.36,
+      "text": "- Request selanjutnya ya? - Iya."
+    },
+    {
+      "start": 2734.36,
+      "end": 2737.36,
+      "text": "Untuk mengirimkan data apapun itu."
+    },
+    {
+      "start": 2737.36,
+      "end": 2745.36,
+      "text": "Dan datanya itu supaya si server tahu kalau itu datanya benar dari orang yang terautentikasi dan terautorisasi."
+    },
+    {
+      "start": 2745.36,
+      "end": 2748.36,
+      "text": "Pakai ini."
+    },
+    {
+      "start": 2748.36,
+      "end": 2753.36,
+      "text": "Pertanyaan, encoded ini bagaimana cara kita bikin ya?"
+    },
+    {
+      "start": 2753.36,
+      "end": 2766.36,
+      "text": "Kalau itu, kalau mau simpelnya, itu, itu, itu, dari bawah."
+    },
+    {
+      "start": 2766.36,
+      "end": 2773.36,
+      "text": "Jadi caranya itu gini, caranya, bentar, kecepatan."
+    },
+    {
+      "start": 2773.36,
+      "end": 2776.36,
+      "text": "- Oh kecepatan? Ini? - Iya."
+    },
+    {
+      "start": 2776.36,
+      "end": 2777.36,
+      "text": "- Ini? - Iya."
+    },
+    {
+      "start": 2777.36,
+      "end": 2779.36,
+      "text": "Yes, stop."
+    },
+    {
+      "start": 2779.36,
+      "end": 2786.36,
+      "text": "Nah, cara, cara memencode itu sebenarnya itu cuma Base64 encode header-nya."
+    },
+    {
+      "start": 2786.36,
+      "end": 2788.36,
+      "text": "Header itu JSON kan."
+    },
+    {
+      "start": 2788.36,
+      "end": 2791.36,
+      "text": "Oh ini, ini datanya kita nih."
+    },
+    {
+      "start": 2791.36,
+      "end": 2795.36,
+      "text": "Iya, itu Base64."
+    },
+    {
+      "start": 2795.36,
+      "end": 2799.36,
+      "text": "- Terus sama ini, Base64. - Oh iya ini ya, berarti."
+    },
+    {
+      "start": 2799.36,
+      "end": 2807.36,
+      "text": "Terus yang signature-nya, Base64 ini, tambah Base64 ini, tambah, tambah secret-nya."
+    },
+    {
+      "start": 2807.36,
+      "end": 2813.36,
+      "text": "Terus di kassisha 26, 256."
+    },
+    {
+      "start": 2813.36,
+      "end": 2816.36,
+      "text": "Itulah jadi verified-nya."
+    },
+    {
+      "start": 2816.36,
+      "end": 2820.36,
+      "text": "- Biasanya di... - Terus dipisahkan titik ya itu."
+    },
+    {
+      "start": 2820.36,
+      "end": 2823.36,
+      "text": "Bagi dia pake titik ya ini ya."
+    },
+    {
+      "start": 2823.36,
+      "end": 2826.36,
+      "text": "- Ya ini kan dia? - Iya."
+    },
+    {
+      "start": 2826.36,
+      "end": 2828.36,
+      "text": "Oke."
+    },
+    {
+      "start": 2828.36,
+      "end": 2833.36,
+      "text": "Kalau di browser client-side kan ada A to B, B to A kan."
+    },
+    {
+      "start": 2833.36,
+      "end": 2837.36,
+      "text": "Kalau untuk Base, apa Base64."
+    },
+    {
+      "start": 2837.36,
+      "end": 2841.36,
+      "text": "Tapi hati-hati jangan lupa di note gak ada itu."
+    },
+    {
+      "start": 2841.36,
+      "end": 2843.36,
+      "text": "- Itu kan feature browser. - Jadi?"
+    },
+    {
+      "start": 2843.36,
+      "end": 2847.36,
+      "text": "A to B dan B to A itu feature-nya web browser."
+    },
+    {
+      "start": 2847.36,
+      "end": 2851.36,
+      "text": "Kalau kita pakai JavaScript di server-side,"
+    },
+    {
+      "start": 2851.36,
+      "end": 2860.36,
+      "text": "Pakainya buffer, buffer from, kan ada tuh buffer.from untuk Base64. Cuma exactly gimana ya gak apal sih."
+    },
+    {
+      "start": 2860.36,
+      "end": 2862.36,
+      "text": "Oke."
+    },
+    {
+      "start": 2862.36,
+      "end": 2866.36,
+      "text": "Pokoknya pakainya API buffer."
+    },
+    {
+      "start": 2866.36,
+      "end": 2870.36,
+      "text": "Ya, ya, ya."
+    },
+    {
+      "start": 2870.36,
+      "end": 2873.36,
+      "text": "Nah, next-nya kita bahas apa nih?"
+    },
+    {
+      "start": 2873.36,
+      "end": 2877.36,
+      "text": "Yang sisa apa ya? Oh ini, apa?"
+    },
+    {
+      "start": 2877.36,
+      "end": 2883.36,
+      "text": "WebAuthent. Nah, ini WebAuthent ini apa nih? Barang baru kayaknya ya."
+    },
+    {
+      "start": 2883.36,
+      "end": 2887.36,
+      "text": "Nah dia, ini ya. Identity bukan."
+    },
+    {
+      "start": 2887.36,
+      "end": 2889.36,
+      "text": "WebAuthent.io deh."
+    },
+    {
+      "start": 2889.36,
+      "end": 2893.36,
+      "text": "Bukan. Bukan web.dev/identity."
+    },
+    {
+      "start": 2893.36,
+      "end": 2896.36,
+      "text": "Bukan. Nah, itu dia."
+    },
+    {
+      "start": 2896.36,
+      "end": 2900.36,
+      "text": "WebAuthent itu spesifikasi."
+    },
+    {
+      "start": 2900.36,
+      "end": 2910.36,
+      "text": "Jadi spesifikasi untuk men-strainline atau menstandarisasi proses autentikasi di web."
+    },
+    {
+      "start": 2910.36,
+      "end": 2914.36,
+      "text": "Yang sebelumnya kan standarisasi ya misalnya tadi tuh apa?"
+    },
+    {
+      "start": 2914.36,
+      "end": 2917.36,
+      "text": "Authorization scheme yang basic, better."
+    },
+    {
+      "start": 2917.36,
+      "end": 2921.36,
+      "text": "Tapi sekarang kan makin lama autentikasi makin canggih."
+    },
+    {
+      "start": 2921.36,
+      "end": 2924.36,
+      "text": "Terus belum teknologi masing-masing device."
+    },
+    {
+      "start": 2924.36,
+      "end": 2930.36,
+      "text": "Misalnya kan udah ada ya semacam fingerprint atau biometrics fingerprint."
+    },
+    {
+      "start": 2930.36,
+      "end": 2936.36,
+      "text": "Terus ada juga misalnya perantara Iris ya."
+    },
+    {
+      "start": 2936.36,
+      "end": 2939.36,
+      "text": "Terus ada Retina."
+    },
+    {
+      "start": 2939.36,
+      "end": 2945.36,
+      "text": "Mungkin ada perantara atau aplikasi untuk 2 factor authentication juga."
+    },
+    {
+      "start": 2945.36,
+      "end": 2951.36,
+      "text": "Jadi kan intinya makin sekarang autentikasi makin rumit dan makin bermacam-macam."
+    },
+    {
+      "start": 2951.36,
+      "end": 2959.36,
+      "text": "Nah, ini adalah spesifikasi yang berusaha men-strainline workflow autentikasi itu."
+    },
+    {
+      "start": 2959.36,
+      "end": 2964.36,
+      "text": "- Nah, bagusnya Nisa. - Simple-nya begini."
+    },
+    {
+      "start": 2964.36,
+      "end": 2967.36,
+      "text": "Ada yang pernah punya akun BCA nggak?"
+    },
+    {
+      "start": 2967.36,
+      "end": 2969.36,
+      "text": "Ya, punya."
+    },
+    {
+      "start": 2969.36,
+      "end": 2972.36,
+      "text": "Pernah nggak dulu dikasih token?"
+    },
+    {
+      "start": 2972.36,
+      "end": 2976.36,
+      "text": "- Oh, yang biru itu. - Iya, yang biru."
+    },
+    {
+      "start": 2976.36,
+      "end": 2983.36,
+      "text": "Jaman dulu sebelum ada standarisasi autentikasi ini,"
+    },
+    {
+      "start": 2983.36,
+      "end": 2988.36,
+      "text": "kan masing-masing aplikasi punya caranya sendiri untuk nge-generate."
+    },
+    {
+      "start": 2988.36,
+      "end": 2990.36,
+      "text": "- Belum ada standar ya? - Itu sama aja."
+    },
+    {
+      "start": 2990.36,
+      "end": 2996.36,
+      "text": "Sebenarnya yang key BCA atau key mendiri itu kan sebenarnya 2 factor authentication."
+    },
+    {
+      "start": 2996.36,
+      "end": 2999.36,
+      "text": "Sebenarnya, jadi untuk mengautorisasi."
+    },
+    {
+      "start": 2999.36,
+      "end": 3002.36,
+      "text": "Jadi kita sudah masukin login, mau transfer."
+    },
+    {
+      "start": 3002.36,
+      "end": 3008.36,
+      "text": "Habis mau transfer, tanya lagi nih, masukin aplikasi 1 di key BCA-nya."
+    },
+    {
+      "start": 3008.36,
+      "end": 3010.36,
+      "text": "Aplikasi 1, aplikasi 2, gitu kan."
+    },
+    {
+      "start": 3010.36,
+      "end": 3012.36,
+      "text": "Di lama banget nggak pakai, gila."
+    },
+    {
+      "start": 3012.36,
+      "end": 3019.36,
+      "text": "Nah, itu kan setelah dia muncul angkanya, di-generate di sini, terus balik sana."
+    },
+    {
+      "start": 3019.36,
+      "end": 3023.36,
+      "text": "Itu kan standar yang dibikin bank itu sendiri."
+    },
+    {
+      "start": 3023.36,
+      "end": 3025.36,
+      "text": "Kita nggak tahu standar itu apa."
+    },
+    {
+      "start": 3025.36,
+      "end": 3028.36,
+      "text": "Itu punya mereka sendiri, algoritmanya nggak ada yang tahu."
+    },
+    {
+      "start": 3028.36,
+      "end": 3030.36,
+      "text": "Mungkin cuma mereka yang tahu."
+    },
+    {
+      "start": 3030.36,
+      "end": 3038.36,
+      "text": "Sedangkan web autentikasi ini adalah standarisasi dari sisi web"
+    },
+    {
+      "start": 3038.36,
+      "end": 3044.36,
+      "text": "jika kita ingin punya autentikasi yang seperti itu."
+    },
+    {
+      "start": 3044.36,
+      "end": 3050.36,
+      "text": "Misalnya pakai 2 factor authentication, pakai uBKey."
+    },
+    {
+      "start": 3050.36,
+      "end": 3059.36,
+      "text": "Jadi, men standarisasi semua cara meng-generate autentikasi, 2 factor authentication seperti itu."
+    },
+    {
+      "start": 3059.36,
+      "end": 3063.36,
+      "text": "Oke, ini adalah spesifikasi implementasinya."
+    },
+    {
+      "start": 3063.36,
+      "end": 3065.36,
+      "text": "Teman-teman bisa cek di sini."
+    },
+    {
+      "start": 3065.36,
+      "end": 3069.36,
+      "text": "Ada yang pakai Python, Go, pakai TypeScript."
+    },
+    {
+      "start": 3069.36,
+      "end": 3071.36,
+      "text": "TypeScript ada 2 malah ya."
+    },
+    {
+      "start": 3071.36,
+      "end": 3074.36,
+      "text": "Ada Ruby, Java, Java juga ada 3."
+    },
+    {
+      "start": 3074.36,
+      "end": 3078.36,
+      "text": "Bahkan bisa akses itu ya, kayak fingerprint ya."
+    },
+    {
+      "start": 3078.36,
+      "end": 3082.36,
+      "text": "Kalau di device yang memang support."
+    },
+    {
+      "start": 3082.36,
+      "end": 3089.36,
+      "text": "Dan kalau buat gue sih, ini yang menarik nih biasanya vendor itu kan agak sulit buat compact ya."
+    },
+    {
+      "start": 3089.36,
+      "end": 3091.36,
+      "text": "Apalagi buat ala yang major seperti ini."
+    },
+    {
+      "start": 3091.36,
+      "end": 3097.36,
+      "text": "Nah, tumben banget ini web autentikasi itu udah, walaupun mungkin implementasinya,"
+    },
+    {
+      "start": 3097.36,
+      "end": 3101.36,
+      "text": "maksudnya mungkin nggak semua API di support ya."
+    },
+    {
+      "start": 3101.36,
+      "end": 3107.36,
+      "text": "Tapi ini Chrome, Firefox, Edge, sama kalau WebKit belum mungkin ya."
+    },
+    {
+      "start": 3107.36,
+      "end": 3113.36,
+      "text": "Chrome, Firefox, Chromium, dan Firefox udah bisa compact."
+    },
+    {
+      "start": 3113.36,
+      "end": 3116.36,
+      "text": "WebKit nggak ada ya malah ya."
+    },
+    {
+      "start": 3116.36,
+      "end": 3118.36,
+      "text": "Oh, WebKit belum."
+    },
+    {
+      "start": 3118.36,
+      "end": 3120.36,
+      "text": "Gak ada di sini sama sekali."
+    },
+    {
+      "start": 3120.36,
+      "end": 3123.36,
+      "text": "Iya aja ada walaupun semua nggak bisa gitu."
+    },
+    {
+      "start": 3123.36,
+      "end": 3125.36,
+      "text": "Safari, safari ada gitu."
+    },
+    {
+      "start": 3125.36,
+      "end": 3127.36,
+      "text": "Safari, safari."
+    },
+    {
+      "start": 3127.36,
+      "end": 3129.36,
+      "text": "Cuma emang nggak semua, cuma sebagian."
+    },
+    {
+      "start": 3129.36,
+      "end": 3131.36,
+      "text": "Tapi kan udah lumayan banget ini."
+    },
+    {
+      "start": 3131.36,
+      "end": 3134.36,
+      "text": "Maksudnya ini pertanda yang bagus ke depannya."
+    },
+    {
+      "start": 3134.36,
+      "end": 3137.36,
+      "text": "Iya, bener, bener."
+    },
+    {
+      "start": 3137.36,
+      "end": 3142.36,
+      "text": "Hampir 2 dari 5 ya."
+    },
+    {
+      "start": 3142.36,
+      "end": 3144.36,
+      "text": "1, 2, 3, 4, 5."
+    },
+    {
+      "start": 3144.36,
+      "end": 3147.36,
+      "text": "Karena desktop Linux juga nggak ada safari di sana kan."
+    },
+    {
+      "start": 3147.36,
+      "end": 3150.36,
+      "text": "Desktop Linux nggak ada yang bisa."
+    },
+    {
+      "start": 3150.36,
+      "end": 3157.36,
+      "text": "Wah, suara robot lagi nih."
+    },
+    {
+      "start": 3157.36,
+      "end": 3158.36,
+      "text": "Halo?"
+    },
+    {
+      "start": 3158.36,
+      "end": 3159.36,
+      "text": "Sorry, sorry."
+    },
+    {
+      "start": 3159.36,
+      "end": 3161.36,
+      "text": "Boleh diulang lagi?"
+    },
+    {
+      "start": 3161.36,
+      "end": 3167.36,
+      "text": "Ya, masing-masing vendor udah mulai mengadopsi ini."
+    },
+    {
+      "start": 3167.36,
+      "end": 3170.36,
+      "text": "Hmm, oke."
+    },
+    {
+      "start": 3170.36,
+      "end": 3173.36,
+      "text": "Ini roaming authentication."
+    },
+    {
+      "start": 3173.36,
+      "end": 3175.36,
+      "text": "Apa ini roaming authentication?"
+    },
+    {
+      "start": 3175.36,
+      "end": 3177.36,
+      "text": "Spread Hardware Authenticator."
+    },
+    {
+      "start": 3177.36,
+      "end": 3179.36,
+      "text": "Oh, ini ya, YubiKey gitu-gitu ya?"
+    },
+    {
+      "start": 3179.36,
+      "end": 3180.36,
+      "text": "Itu tadi key."
+    },
+    {
+      "start": 3180.36,
+      "end": 3182.36,
+      "text": "Ya, oke."
+    },
+    {
+      "start": 3182.36,
+      "end": 3186.36,
+      "text": "Ini juga udah hampir semua support ya."
+    },
+    {
+      "start": 3186.36,
+      "end": 3189.36,
+      "text": "Ada yang punya YubiKey nggak?"
+    },
+    {
+      "start": 3189.36,
+      "end": 3193.36,
+      "text": "Dulu sempat dapat dari Chrome Dev Summit, tapi hilang."
+    },
+    {
+      "start": 3193.36,
+      "end": 3195.36,
+      "text": "Waduh."
+    },
+    {
+      "start": 3195.36,
+      "end": 3196.36,
+      "text": "Hilang."
+    },
+    {
+      "start": 3196.36,
+      "end": 3199.36,
+      "text": "Oh, masih ada."
+    },
+    {
+      "start": 3199.36,
+      "end": 3201.36,
+      "text": "Yang iru itu kan?"
+    },
+    {
+      "start": 3201.36,
+      "end": 3202.36,
+      "text": "Iya."
+    },
+    {
+      "start": 3202.36,
+      "end": 3206.36,
+      "text": "Yang kita cuma kayak ditaruh di atas meja, ambil-ambil aja gitu."
+    },
+    {
+      "start": 3206.36,
+      "end": 3208.36,
+      "text": "Ternyata mahal, Bo."
+    },
+    {
+      "start": 3208.36,
+      "end": 3210.36,
+      "text": "Mahal ya."
+    },
+    {
+      "start": 3210.36,
+      "end": 3212.36,
+      "text": "Belum jamannya di Chrome Dev Summit."
+    },
+    {
+      "start": 3212.36,
+      "end": 3214.36,
+      "text": "50 dolar."
+    },
+    {
+      "start": 3214.36,
+      "end": 3215.36,
+      "text": "50 dolar?"
+    },
+    {
+      "start": 3215.36,
+      "end": 3216.36,
+      "text": "Oh."
+    },
+    {
+      "start": 3216.36,
+      "end": 3218.36,
+      "text": "Iya."
+    },
+    {
+      "start": 3218.36,
+      "end": 3222.36,
+      "text": "Padahal itu cuma ditaruh di atas meja, mau ngambil berapa aja terserah."
+    },
+    {
+      "start": 3222.36,
+      "end": 3224.36,
+      "text": "Iya."
+    },
+    {
+      "start": 3224.36,
+      "end": 3227.36,
+      "text": "Kalau mental maling, ambil di jual lagi."
+    },
+    {
+      "start": 3227.36,
+      "end": 3235.36,
+      "text": "Nah, ini kan, coba kalau si web autent ini lumayan rumit dan lumayan banyak scope-nya."
+    },
+    {
+      "start": 3235.36,
+      "end": 3238.36,
+      "text": "Tapi yang direkomendasikan sih kalau cuma pengen tahu."
+    },
+    {
+      "start": 3238.36,
+      "end": 3240.36,
+      "text": "Ini kan belum kebayang kan."
+    },
+    {
+      "start": 3240.36,
+      "end": 3245.36,
+      "text": "Pasti kalau yang belum pernah pakai, baca ini nggak kebayang, abstrak."
+    },
+    {
+      "start": 3245.36,
+      "end": 3248.36,
+      "text": "Solusinya itu tuh ada code web-nya."
+    },
+    {
+      "start": 3248.36,
+      "end": 3250.36,
+      "text": "Ada code web yang cukup bagus."
+    },
+    {
+      "start": 3250.36,
+      "end": 3253.36,
+      "text": "Ya, kalau mau coba."
+    },
+    {
+      "start": 3253.36,
+      "end": 3255.36,
+      "text": "Kalau mau coba ya."
+    },
+    {
+      "start": 3255.36,
+      "end": 3263.36,
+      "text": "Eka jadi robot."
+    },
+    {
+      "start": 3263.36,
+      "end": 3264.36,
+      "text": "Eka jadi robot."
+    },
+    {
+      "start": 3264.36,
+      "end": 3266.36,
+      "text": "Lagi, ulang, ulang, ulang."
+    },
+    {
+      "start": 3266.36,
+      "end": 3267.36,
+      "text": "Iya."
+    },
+    {
+      "start": 3267.36,
+      "end": 3268.36,
+      "text": "Tuh."
+    },
+    {
+      "start": 3268.36,
+      "end": 3269.36,
+      "text": "Apa?"
+    },
+    {
+      "start": 3269.36,
+      "end": 3271.36,
+      "text": "Masih, halo, halo, halo."
+    },
+    {
+      "start": 3271.36,
+      "end": 3273.36,
+      "text": "Halo."
+    },
+    {
+      "start": 3273.36,
+      "end": 3275.36,
+      "text": "Halo."
+    },
+    {
+      "start": 3275.36,
+      "end": 3286.36,
+      "text": "Ini direkomendasikan untuk belajar langkah-langkahnya sama bagian-bagiannya."
+    },
+    {
+      "start": 3286.36,
+      "end": 3292.36,
+      "text": "Kita sendiri belum coba."
+    },
+    {
+      "start": 3292.36,
+      "end": 3297.36,
+      "text": "Jadi kalau mungkin nanti kita ada kesempatan untuk implementasi,"
+    },
+    {
+      "start": 3297.36,
+      "end": 3301.36,
+      "text": "kita bisa bahas di episode yang terpisah kali ya, lebih detail."
+    },
+    {
+      "start": 3301.36,
+      "end": 3303.36,
+      "text": "Karena ini lagi hot-hot-nya nih."
+    },
+    {
+      "start": 3303.36,
+      "end": 3305.36,
+      "text": "Lagi banyak dibahas juga ya."
+    },
+    {
+      "start": 3305.36,
+      "end": 3306.36,
+      "text": "Lagi menarik."
+    },
+    {
+      "start": 3306.36,
+      "end": 3308.36,
+      "text": "Webaltern."
+    },
+    {
+      "start": 3308.36,
+      "end": 3311.36,
+      "text": "Mudah-mudahan nanti dibahas lagi di I/O."
+    },
+    {
+      "start": 3311.36,
+      "end": 3312.36,
+      "text": "Mudah-mudahan."
+    },
+    {
+      "start": 3312.36,
+      "end": 3319.36,
+      "text": "Nah, kalau ada pembahasan di I/O atau di conference-conference, nanti mungkin kita bisa bahas."
+    },
+    {
+      "start": 3319.36,
+      "end": 3322.36,
+      "text": "Kita bahas lebih detail kali ya."
+    },
+    {
+      "start": 3322.36,
+      "end": 3323.36,
+      "text": "Lebih detail lagi ya."
+    },
+    {
+      "start": 3323.36,
+      "end": 3329.36,
+      "text": "Jadi mungkin ini agak diluar scope dari topik kita malam hari ini."
+    },
+    {
+      "start": 3329.36,
+      "end": 3333.36,
+      "text": "Karena kita juga belum ada kesempatan buat nyoba ya."
+    },
+    {
+      "start": 3333.36,
+      "end": 3335.36,
+      "text": "Buat implementasi ini karena juga cukup baru."
+    },
+    {
+      "start": 3335.36,
+      "end": 3341.36,
+      "text": "Walaupun secara support kayaknya udah lumayan optimis ya."
+    },
+    {
+      "start": 3341.36,
+      "end": 3347.36,
+      "text": "Bakal disupport penuh karena ya sekarang aja baru muncul udah disupport banyak browser ya."
+    },
+    {
+      "start": 3347.36,
+      "end": 3349.36,
+      "text": "Ya."
+    },
+    {
+      "start": 3349.36,
+      "end": 3351.36,
+      "text": "Oke."
+    },
+    {
+      "start": 3351.36,
+      "end": 3356.36,
+      "text": "Ada lagi?"
+    },
+    {
+      "start": 3356.36,
+      "end": 3358.36,
+      "text": "Ada lagi."
+    },
+    {
+      "start": 3358.36,
+      "end": 3360.36,
+      "text": "Sepertinya."
+    },
+    {
+      "start": 3360.36,
+      "end": 3362.36,
+      "text": "Habis."
+    },
+    {
+      "start": 3362.36,
+      "end": 3366.36,
+      "text": "Oke, kalau gitu berhubung mata di kita sudah habis."
+    },
+    {
+      "start": 3366.36,
+      "end": 3368.36,
+      "text": "Kenapa?"
+    },
+    {
+      "start": 3368.36,
+      "end": 3375.36,
+      "text": "Siapa tahu nanti hari Selasa ada yang nonton dan mereka mengikuti WorldCamp Asia di Bangkok."
+    },
+    {
+      "start": 3375.36,
+      "end": 3377.36,
+      "text": "Oh iya, boleh."
+    },
+    {
+      "start": 3377.36,
+      "end": 3379.36,
+      "text": "Ya, say hi aja ke saya."
+    },
+    {
+      "start": 3379.36,
+      "end": 3383.36,
+      "text": "Kenapa saya nggak bisa ikut live karena saya lagi ada di Bangkok."
+    },
+    {
+      "start": 3383.36,
+      "end": 3386.36,
+      "text": "Lagi organize WorldCamp Asia 2023."
+    },
+    {
+      "start": 3386.36,
+      "end": 3394.36,
+      "text": "Jadi kalau ada temen-temen, temen-temen ada yang ke Bangkok ikut acara nanti say hi."
+    },
+    {
+      "start": 3394.36,
+      "end": 3396.36,
+      "text": "Ya."
+    },
+    {
+      "start": 3396.36,
+      "end": 3398.36,
+      "text": "Atau ada di live stream juga ya?"
+    },
+    {
+      "start": 3398.36,
+      "end": 3400.36,
+      "text": "Live stream, live stream."
+    },
+    {
+      "start": 3400.36,
+      "end": 3404.36,
+      "text": "Oh, say hi online bisa juga."
+    },
+    {
+      "start": 3404.36,
+      "end": 3409.36,
+      "text": "Asia.WorldCamp.org 2023."
+    },
+    {
+      "start": 3409.36,
+      "end": 3411.36,
+      "text": "Oke."
+    },
+    {
+      "start": 3411.36,
+      "end": 3420.36,
+      "text": "Bagi temen-temen yang nggak bisa datang, ada live streamnya silahkan."
+    },
+    {
+      "start": 3420.36,
+      "end": 3425.36,
+      "text": "Banyak topik-topik yang menarik tentang WordPress."
+    },
+    {
+      "start": 3425.36,
+      "end": 3427.36,
+      "text": "Ya."
+    },
+    {
+      "start": 3427.36,
+      "end": 3429.36,
+      "text": "17 sampai 19."
+    },
+    {
+      "start": 3429.36,
+      "end": 3431.36,
+      "text": "Suruh sekali."
+    },
+    {
+      "start": 3431.36,
+      "end": 3435.36,
+      "text": "Mana nih? Agendanya mana agenda?"
+    },
+    {
+      "start": 3435.36,
+      "end": 3437.36,
+      "text": "Schedule, conference day."
+    },
+    {
+      "start": 3437.36,
+      "end": 3445.36,
+      "text": "Itu 17 itu contributor day."
+    },
+    {
+      "start": 3445.36,
+      "end": 3450.36,
+      "text": "18 itu acara utamanya."
+    },
+    {
+      "start": 3450.36,
+      "end": 3455.36,
+      "text": "Jadi evolution segala macam."
+    },
+    {
+      "start": 3455.36,
+      "end": 3468.36,
+      "text": "SIPI, development, ada security, ada design, ada full-site editing juga tuh, full-site editing."
+    },
+    {
+      "start": 3468.36,
+      "end": 3471.36,
+      "text": "Menarik ya."
+    },
+    {
+      "start": 3471.36,
+      "end": 3473.36,
+      "text": "Ya."
+    },
+    {
+      "start": 3473.36,
+      "end": 3475.36,
+      "text": "Seru, seru, seru."
+    },
+    {
+      "start": 3475.36,
+      "end": 3479.36,
+      "text": "Ini hari ke-2-nya, hari ke-3-nya tanggal 19."
+    },
+    {
+      "start": 3479.36,
+      "end": 3481.36,
+      "text": "Masih conference juga ya berarti ya?"
+    },
+    {
+      "start": 3481.36,
+      "end": 3492.36,
+      "text": "Conference juga, ada multilingual, ada automatic QA, visual education testing, progressive web app, and so on."
+    },
+    {
+      "start": 3492.36,
+      "end": 3494.36,
+      "text": "Ya."
+    },
+    {
+      "start": 3494.36,
+      "end": 3498.36,
+      "text": "Mungkin nanti kita bisa bahas review-nya juga, pengalamannya di sana."
+    },
+    {
+      "start": 3498.36,
+      "end": 3500.36,
+      "text": "Oh iya, buat minggu depan ya."
+    },
+    {
+      "start": 3500.36,
+      "end": 3502.36,
+      "text": "Gimana pengalamannya buat minggu depan mungkin?"
+    },
+    {
+      "start": 3502.36,
+      "end": 3506.36,
+      "text": "Saya organizer, jadi kalau pengalaman ikut session mungkin nggak banyak."
+    },
+    {
+      "start": 3506.36,
+      "end": 3512.36,
+      "text": "Gak apa-apa, pengalaman menjalankan sebagai organizer."
+    },
+    {
+      "start": 3512.36,
+      "end": 3521.36,
+      "text": "Karena kan kita juga pengen nih, ada conference-conference di Indonesia kan, mulai bisa dijalankan lagi kan."
+    },
+    {
+      "start": 3521.36,
+      "end": 3523.36,
+      "text": "Conference development."
+    },
+    {
+      "start": 3523.36,
+      "end": 3526.36,
+      "text": "Ayo ngobrolin web conference."
+    },
+    {
+      "start": 3526.36,
+      "end": 3530.36,
+      "text": "Isinya ngobrol-ngobrol."
+    },
+    {
+      "start": 3530.36,
+      "end": 3532.36,
+      "text": "Jangan terlalu muluk-muluk lah."
+    },
+    {
+      "start": 3532.36,
+      "end": 3536.36,
+      "text": "Kalau bisa kita live dulu di satu conference, kita numpang."
+    },
+    {
+      "start": 3536.36,
+      "end": 3538.36,
+      "text": "Oh iya, bisa-bisa."
+    },
+    {
+      "start": 3538.36,
+      "end": 3546.36,
+      "text": "Yang nonton jumlah nggak sampai 100, mau bikin conference."
+    },
+    {
+      "start": 3546.36,
+      "end": 3552.36,
+      "text": "Oke kalau gitu, mungkin untuk malam ini kita udahan dulu."
+    },
+    {
+      "start": 3552.36,
+      "end": 3554.36,
+      "text": "Terima kasih buat teman-teman yang udah nonton."
+    },
+    {
+      "start": 3554.36,
+      "end": 3561.36,
+      "text": "Jangan lupa, kalau ada kritik, saran, ada topik, diskusi, bisa ke bit.ly/ngobrolinweb."
+    },
+    {
+      "start": 3561.36,
+      "end": 3563.36,
+      "text": "Malam ini kita pamit."
+    },
+    {
+      "start": 3563.36,
+      "end": 3569.36,
+      "text": "Saya Riza, bisa kalau ada mo sehai bisa di Twitter, Rizafami22."
+    },
+    {
+      "start": 3569.36,
+      "end": 3577.36,
+      "text": "Ada Eka juga, di Eka.fi, dan ada Ivan di IvanKris.com."
+    },
+    {
+      "start": 3577.36,
+      "end": 3579.36,
+      "text": "Oke, sekian dulu."
+    },
+    {
+      "start": 3579.36,
+      "end": 3582.36,
+      "text": "Selamat malam, selamat istirahat, sampai jumpa minggu depan."
+    },
+    {
+      "start": 3582.36,
+      "end": 3583.36,
+      "text": "Dadah."
+    }
+  ],
+  "fullText": "2. Halo, halo, halo. Halo, selamat malam, selamat malam 2. Ketemu lagi kita bersama trio ngobrol in web malam hari ini. Seperti biasa di hari Sulasa malam. Waktunya apa teman-teman? Waktunya ngobrol in web. Malam hari ini tidak ada tanda live karena kita kembali lagi terpaksa harus rekaman. Kita rekamannya ini di miw malam. Jadi nggak terlalu jauh ya bedanya ya. Kita rekaman karena ada kesibukan. Jadi nggak bisa hari Sulasa. Mudah-mudahan tidak mengurangi keseruan kita malam hari ini yang membahas topik autentikasi. Apa itu autentikasi? Kenapa butuh? Dan beberapa hal yang berhubungan dengan autentikasi. Masih bersama kita bertiga. Masih ada Ivan, masih ada Eka, masih ada saya Riza. Dan buat pengingat aja, cara ini ya ngobrolan kita bertiga sebenarnya. Dan harapannya sih ngobrolan, diskusinya juga bisa mengalir ke teman-teman. Kalo misalkan teman-teman yang bekerja dengan web. Iya, kalo misalkan teman-teman ada topik atau ada topik diskusi yang menarik gitu ya, bisa kita diskusikan juga. Atau jika teman ingin bisa bergabung, juga bisa sampaikan ke kita, kita ajak kita ngobrol-ngobrol juga. Iya. Nah, kalau tidak di luar live video, teman-teman punya pertanyaan atau topik diskusi, bisa langsung aja ditulis di bit.ly/ngobrolinweb. Kita pasti baca dan kita sangat mengapresiasi saran dari teman-teman yang bagus-bagus ya. Kita juga banyak ambil ide-ide dari topik-topik yang disarankan oleh teman-teman semua. Ini juga keliatannya topik malam ini salah satu yang udah lama diusulin di Slido itu. Jadi kita umpulin, terus kita keluarkan di saat yang pas lah ya. Kalo lagi penasaran. Yes. Oke, jadi malam hari ini seperti yang udah saya sebutkan tadi, kita akan membahas tentang berbagai cara untuk kodentikasi di web ya atau di platform atau di protokol HTTP lah gitu secara umum ya. Jadi bukan hanya client dan servernya, clientnya udah belum tentu juga browser ya. Bisa aja mobile, bisa mungkin embedded device, bisa macem-macem, tapi dia berjalan di protokol HTTP atau... - Protokol HTTP. - Iya. Atau yang biasa kita gunakan untuk ini ya, menampilkan halaman web gitu. Protokol standarnya web lah gitu ya. Oke, mungkin kita bisa mulai dari apa itu otentikasi? Ada yang bisa menjelaskan secara singkat gitu? Otentikasi itu proses memastikan bahwa seorang user atau suatu akun itu memang betul dia. Misalnya ada user datang mengaku saya adalah A. Nah, otentikasi itu proses memastikan bahwa itu memang A. Kurang, kalau pendeknya gitu kali ya. Coba perjalanannya. Seperti yang kita pernah pelajari sebelumnya tentang cookies atau yang sebelum-sebelumnya storage ya, server itu sebenarnya tidak tahu atau istilahnya stateless. Tidak tahu siapa yang datang kalau enggak. Kalau enggak dikasih tahu. Kalau dia enggak memberitahukan, \"Ey, saya itu Ivan loh.\" Saya kita kunjungi sebuah situs, apapun lah ya situs, dan kita si server itu enggak tahu siapa kita kalau kita enggak kasih tahu. Nah, setelah kita memberitahu server, \"Hei, saya itu Ivan.\" Server itu harus bisa melakukan proses verifikasi. Nah, itulah proses verifikasi itulah bagaimana si server bisa mengautentikasi saya itu adalah Ivan, dan saya boleh diberi masuk, dan saya bisa diberikan datanya si Ivan. Kalau enggak ya enggak bisa gitu. Itulah umumnya. Nah, terus ini kalau bahas kan tadi request adalah stateless, berarti kan implikasinya ini kenapa sampai ada keperluan buat autentikasi. Nah, karena ada resource yang boleh diakses semua orang, dan ada resource yang belum tentu boleh diakses atau dilakukan semua orang, ya kan. Jadi untuk public resource, itu kan kalau public resource semua boleh baca. Misalnya gampangnya kalau situs berita semua orang kan boleh nge-request blog post atau artikel terakhir. Ya, enggak ada keperluan, enggak perlu mastiin apakah kamu Ivan, apakah kamu Eka, kan enggak perlu. Ibaratnya kalau analogi tempat, kita di tempat umum nih kita ke taman atau kita ke jalanan, ya kan enggak ada yang menghentikan kita, enggak ada yang menghentikan kita, ya udah kita mau lewat suatu jalan, kita jalan aja. Tapi kalau kita mau masuk misalnya stasiun kereta api atau bandara masuk ke gedungnya, itu lain kasus kan. Kita harus buktikan identitas kita. Nah, tiket itu kan ada tiket, ada KTP, nah ini bakal nyambung ke icon selanjutnya. Yang jelas kita enggak boleh se-enaknya masuk karena itu hal yang resource yang tidak boleh diakses semua orang. Ya, jadi kalau misalkan ada hal yang misalkan tadi apa situs berita atau blog lah. Blog mungkin orang, mungkin blog saya, Ivan, dan Eka bisa baca gitu ya. Tapi yang bisa entry artikelnya, yang bisa memasukkan artikelnya ya cuma bisa saya gitu. Bagaimana caranya ya mungkin nanti ada apa lizafahmi.com/admin gitu kan. Terus ada masukan, biasanya masukan password. Nah, itu adalah cara mengetahui apakah saya punya apa bisa masuk atau enggak gitu. - Nah, jadi kalau emang resource-nya publik semua, ya udah enggak perlu sama sekali. Authentikasi itu emang enggak perlu. Ini akan perlu kalau itu tadi ada misalnya kalau blog post, ada dashboard admin-nya yang harus bisa diakses orang tertentu aja. Atau mungkin ada private post yang masih status-nya draft, mungkin bisa dibaca oleh editor atau apa, cuma tetap enggak boleh diakses oleh user lain. Nah, itu skopnya autentikasi. - Ya, ada juga apa namanya kalau misalkan tadi blog-nya kan, blog pribadi. Kalau misalkan blog-nya yang umum misalkan kayak medium gitu kan. Medium itu bisa memastikan bahwa artikel yang kita tulis atas nama kita, misalkan atas nama Riza, ya hanya saya, begitu. Begitu Ivan login dengan akonnya, maka di halaman dashboard-nya atau di halaman admin-nya, itu artikelnya artikel Ivan, bukan artikel saya. - Hanya gabar saya aja. - Iya, jadi kalau multi-user, ya berarti dia memastikan bahwa data-data yang diakses, itu hanya data milik kita yang login. - Berarti kita bisa pisahkan antara autentikasi dan otorisasi. - Nah, ini poin selanjutnya. - Otorisasi gimana tuh? - Ya itu tadi seperti yang Mas Riza, kalau misalnya di sebuah ruangan VIP, hanya boleh orang VIP yang punya kartu VIP-nya yang boleh masuk, itu namanya otorisasi. Kalau tadi yang selalu saya login ke Medium, hanya saya bisa melihat artikel yang saya tulis, saya tidak bisa lihat artikel yang Mas Riza tulis, itu kan otorisasi. - Oh itu masuknya otorisasi ya? - Iya. - Nah, analogi lagi nih, kalau tempat tadi kan kalau yang publik tuh jalanan atau taman atau ruang publik lainnya, kita jalan mah lewat-lewat aja, nggak bakal di-stop kan. Kalau kita masuk bandara, kan kita ada 2 hal. Hal pertama, ya maksudnya kita punya misalnya sebagai penumpang, kita punya tiket, flight tertentu, kita berada di gate yang benar, misalnya kalau tiket, kalau penerbangan kita domestik gitu, ya kita nggak bakal boleh masuk ke gate-nya internasional kan, karena itu hal yang kita lakukan adalah mau masuk gate untuk terbang sebagai penumpang. Itu otorisasi hal apa yang bisa kita lakukan, sedangkan otentikasinya adalah ngecek, nyamain nama di paspor atau KTP dengan nama di tiket, sama biasanya kalau di gate kan kita seru buka masker, buka masker nunjukin muka tuh. Kan sih orangnya, si tugas bandara kecek apakah identitas, tiket, dan orangnya itu sama, nah itu otentikasi, sedangkan otorisasi itu kita boleh masuk gate mana dan boleh ngapain. Nah kalau misalnya pilot ini bukan penumpang, kan pasti otorisasi hal yang boleh dilakukan si pilot atau pramugari itu kan beda kan, dia boleh masuk mungkin pintu-pintu lain yang kita sebagai penumpang nggak bisa, walaupun kita sebagai penumpang punya tiket, punya KTP, udah nunjukin, ya tetap aja kita nggak boleh masuk kan, kita nggak boleh mengakses tempat tertentu atau melakukan hal tertentu yang boleh dilakukan oleh pilot atau staf atau tugas. - Hmm, iya, iya, iya. Oke, jadi malam ini kita... - Otorisasi itu siapa kita sama otentikasi siapa kita, otorisasi itu hal apa saja yang boleh dilakukan. Apa yang boleh kita lakukan, ya. Dan malam ini kita akan membahas tentang otentikasi dan mudah-mudahan di episode-episode mendatang kita akan bahas tentang otorisasi juga ya. Oke, nah berkaitan dengan otentikasi, salah satu referensi yang menarik ini ada dari MDN, tentang otentikasi melalui protokol HTTP, ini ternyata si HTTP sudah memberikan istilahnya framework ya untuk kita melakukan otoritas. Ya, melakukan otentikasi melalui HTTP yang disebut sebagai basic schema. Di sini ada apa ya, spesifikasinya lah ya, tata caranya, prosedurnya, gimana caranya flow dari orang yang meminta identitas, meminta validasi identitas atau otentikasi, kemudian akan dijawab oleh si server ya. Kira-kira gambarnya seperti ini ya, ilustrasinya. Jadi, client ini bukan hanya web browser. Biasanya kita menyebut client browser ya, tapi di sini bukan. Siapapun interface yang ingin mengakses, yang ingin melakukan otentikasi. Jadi itu bisa berupa suatu aplikasi web. Ya, aplikasi web kan bisa terdiri dari client side, server side, itu sepenuh satu aplikasi, atau aplikasi mobile, atau aplikasi apapun itu. Yang penting, protokolnya HTTP. Jadi, request-nya belum terjadi dari browser, atau mau terjadi dari comment line, atau mau terjadi dari HTTP client seperti postman. Ataupun library-library yang digunakan di mobile juga bisa ya. Semuanya, pokoknya selama HTTP client, kita menggunakan HTTP client itu bisa dianggap sebagai clientnya dari server. Server di sini adalah tempat di mana data user dan berbagai proses validasinya terjadi di server ya. Jadi, proses checking-nya ada di server. Jadi, semacam service API, atau service yang menghandle logic, business logic, sama database, dan lain-lain. Ya, jadi kita pertama kan si client ini melakukan request, \"Eh, saya mau login dong,\" gitu kan. Habis itu dianggapin, atau di response 401, karena kita tidak terlalu... Ini tempat terkunci. Ya, misalkan kita mau /admin atau /dashboard, gitu. Oh, nggak boleh, kan. Jadi, biasanya itu di redirect, ya. Di redirect, akhirnya masuk ke halaman login, gitu kan. Kalau di sini, ini kan yang basic out ya. Basic out itu yang kayak pop-up itu aja. Pop-up dari browser, tahu nggak? Pop-up dari browser yang kayak... Oh, kayak FTP ya, kalau buka FTP dari browser, gitu kan. Oh, iya, iya. Kalau jangan dulu kita buka FTP, gitu, ada username password, gitu. Iya, iya. Terus minta username sama password. Dan ini tidak spesifik terhadap user. Hanya basic out biasa. Ya. Terus habis itu dikirimkan, ya mungkin, ini metodenya banyak ya. Nanti kita juga mungkin akan bahas sedikit ya. Ada yang basic, ada yang macem-macem gitu. Ada yang ngirimin token, ada yang ngirimin username password, dan lain-lain, habis itu dicek. Kevalidasinya dicek di sini, usernya benar nggak sih? Username ini atau token ini punya kapabilitas untuk memasuki area tertentu. Kalau iya, maka kembalinya adalah status 200 dan oke. Atau kalau gagal, ya kembali lagi ke 401. Gagal 401 seperti awal. Gitu. Itu ini sederhananya ya. Ada banyak lagi turunan-turunannya yang sangat bermacam-macam, gitu. Semakin secure, semakin sulit lah kita. Ada yang harus pakai handphone lah, harus pakai auto-tiketer lah, macem-macem ya. Nanti kita juga akan bahas sedikit. Tapi yang mau kita bahas selanjutnya adalah tentang skema. Skema yang paling umum sebenarnya basic sama bearer. Dan itu masing-masing, nah yang lain itu nggak tahu. Mungkin teman-teman ada yang pernah punya pengalaman pakai yang lain-lain itu bisa di-post di komen. Karena kita belum pernah. Iya, yang paling sering kita gunakan adalah yang basic sama bearer. Yang basic seperti tadi. Iya, yang basic ini seperti ini. Jadi kita kirimin token yang kita dapatkan, gitu ya. Mungkin dari login juga atau dari mana gitu ya. Dan satu lagi adalah bearer. Bearer token juga hampir sama ya modelnya ya. Kalau teman-teman familiar dengan OAuth. Iya, kita kirimnya, selalu kita kirim. Kalau yang basic itu, basic itu simple, yang paling simple itu cuma base number 4 dari username titik 2 password. Jadi sebuah string di base 64. Jadi itu isinya. Kalau bearer itu. Token, yang di encode tokennya ya. Akses token. API key, ada API key untuk nge-generate token. Jadi ada hash key. Jadi lah tokennya. Nah tokennya itu nanti, kalau tadi kan tulisannya authenticate, titik 2 basic, spasi, base 64. Kalau bearer authenticate, bearer langsung hasil hashnya tadi, tokennya itu. Jadi kalau bearer itu kelebihan nya lebih secure mungkin ya. Karena yang dikirim, jadi setiap request atau apapun yang dikirim adalah tokennya bukan username sama password langsung kan. Jadi kalau ada apa-apa, bisa di-invalidate tokennya. Atau ya biasanya kan akses token itu ada masa hidupnya, setiap bakal valid berapa lama, bisa di-refresh. Biasanya begini, kalau sebuah aplikasi, bayangkan sebuah aplikasi, anggapnya aja WordPress deh. Pasti simple, ada username login. Kalau basic authentication itu kan, nggak mungkin kita, kalau kita ada client API, contohnya client-side JavaScript. Kalau yang kita kirimkan itu adalah username password kita, itu kan bahaya ya. Orang bisa akses langsung. Sedangkan kita bisa set dari aplikasi, kita bikin namanya application password. Jadi hanya password aja yang mengidentifikasi kalau itu punya saya. Dan kalau misalnya itu pun bocor, itu nggak akan bisa dipakai untuk mengakses account secara admin. Karena hanya bisa akses mungkin API-APA tertentu aja ya kan. Barrel token itu lebih aman daripada yang basic out. - Menarik. Ada apa lagi sih tipe-tipe selanjutnya? Mungkin kita bisa lihat di artikel yang kedua ini ya. Walaupun judulnya tentang REST API, tapi ini juga bisa berlaku untuk non-REST API. Yang grafql, gRPC, macam-macam ya. Jadi ada beberapa cara. - Mungkin detailnya bakal sedikit berbeda, tapi kita di sini lebih lihat ke pola-polanya ya, workflow-nya secara umum. Nah, ini yang barusan dibahas, Evan, yang baru banget. Gimana caranya kita melakukan mengamankan API kita yang mungkin tidak boleh diakses oleh publik? Bisa menggunakan yang pertama tadi API key, yang barusan dibahas Evan ya. API key, gimana caranya ini ada ini? - Biasanya ada public key sama private key. Jadi private key-nya nggak boleh disimpan di mana-mana, termasuk di client, nggak boleh ada. Private key itu hanya ada di server, jadi public key-nya yang dipakai oleh komunikasi antar. Kalau misalnya punya client-side JavaScript, kita bisa embed public key-nya di JavaScript application kita yang kita pakai untuk generate token tadi. Nanti token-nya dikirimkan, diauthenticate pakai private key. - Private key itu harus di server-side ya, di sisi server ya. Nggak boleh disimpan di sisi client karena bisa dilihat. Namanya private itu kan nggak boleh dibagikan, gitu ya. Kalau ada di sisi client, kita bisa view source, terus kita bisa lihat kuncinya. Nah, makanya, ini ada beberapa pertanyaan juga yang muncul ya, cukup sering muncul. Makanya beberapa service seperti Payment Gateway itu mengharuskan kita punya server, nggak boleh langsung dari client. Karena dia harus menggenerasi entah itu token ataupun punya private key, harus disimpan di server, tidak boleh di client. - Untungnya sih kalau disambungin ke implementasi, ya ini framework. Maksudnya kalau kita cuma pakai yang mentahan React, swell, itu kan masih client-side web browser ya. Jadi mungkin agak sulit kalau harus server-side. Nah, di sini perannya meta framework. Jadi sekarang udah lumayan banyak ya, meta framework. Kalau kita pakai React, ya bisa pakai Next atau Gatsby atau Remix. Kalau pakai Swell, bisa pakai Swell Kit. Terus semua bisa pakai Astro. Jadi ada banyak meta framework yang bisa berfungsi secara full-stack itu jadi satu solusi. Jadi kalau dulu mungkin kita harus bikin satu aplikasi lagi, misalnya Express atau KoA, kita harus punya aplikasi Node.js. Terus dari aplikasi React kita, manggil ke server itu, sekarang bisa ada alternatif lain pakai meta framework yang di satu aplikasi udah full-stack. Ada sisi browser-nya, client-side-nya, ada sisi yang cuma bisa dibaca di server untuk melakukan operasi seperti ini. - Ya, alternatif yang lain yang pernah saya kerjakan adalah dengan menggunakan itu serverless lambda. Jadi kalau misalkan kayak Netlify, Netlify kan hanya client-side ya. Nah, kita semudah membuat sebuah folder dengan nama functions, didalamnya kita bisa punya server dalam tanda kutip gitu. Jadi hal-hal yang seperti ini bisa kita tangani di sana. Jadi mungkin kalau nggak mau full-blown langsung ke meta framework, bisa coba lambda server ada di Netlify, ada di versel juga kalau nggak salah ya. Jadi ada di mana-mana. Kalau lebih sederhana. Tapi kalau misalkan, wah kayaknya ribet nih, harus pakai AWSK atau pakai GCPK atau yang lain gitu kan. Nah, mungkin opsi untuk menggunakan meta framework lebih cocok gitu ya. - Nah, cuma Netlify sama Versel juga sekarang udah bisa ngehosting server-side. Jadi maksudnya itu tergantung complex-side. Iya, bisa. Jadi misalkan kita punya Next.js, bisa dihosting di Netlify atau Versel. Node server-nya, jadi mereka sebenarnya under the hood itu pakai AWS. - Iya, iya. Masih gratis ya? - Ada free tier. Free tiernya gratis. Iya, gratis ada sekian menit, sekian ratus menit batasnya running compute time. - Nah, ini ada pro dan cons-nya ya. Kenapa kita perlu menggunakan? Karena mudah dan ya gampang lah ya, cepat juga ya. Dan lebih fleksibel. Nah, disadvantage-nya adalah security. Security-nya lemah ya. - Paling gampangnya, ini si GitHub token. Bayangkan aja GitHub token. - Oh iya, token. - Iya, GitHub token. Kita bisa bikin GitHub personal access token, seperti API key. Jadi kita bisa access GitHub API dengan menggunakan personal access token untuk mengakses data-data yang kita punya di GitHub. Bisa bikin repo, bisa search repo, bisa macem-macem, lihat PR gitu ya, full request. Bisa destroy repo juga kalau memang dikasih aksesnya. - Ya, kalau sempat bocor ya. Oke, kita lanjut ke yang kedua ya. Ini option kedua adalah yang juga mau, apa, yang sekarang ini lagi hype ya, OAuth ya. Yang versi 2 itu apa namanya, sekarang lumayan banyak yang menggunakan ya. Jadi kalau teman-teman menggunakan service tuh misalkan kayak Twitter login, atau apa lagi, oh, GitHub login juga termasuk. - Ya, Facebook login. - Oh, Facebook login, ada macem-macem service yang menyediakan service untuk login sehingga user tidak perlu register. Memudahkan ya, terutama kalau teman-teman yang bikin produk baru. - Menggunakan akun user. - Akun yang sudah ada, akun social media biasanya ya. Jadi daripada kita harus suruh user register, masukin username, masukin password, email, apa segala macem gitu, hobby gitu ya. Lebih baik kan kita misalkan menggunakan Google atau Facebook atau Twitter, kita bisa ambil data public ya, data public atau data private di sana. Kemudian kita login dengan menggunakan salah satu akun social media kita. - Nah, keunggulannya, bukan keunggulan sih, cuma OAuth 2.0 ini adalah standar. Jadi sebenarnya bukan library, OAuth-nya sendiri bukan library, cuma ada beberapa library yang mengimplementasi ini. Nah, ini adalah kayak semacam standar spesifikasi. Jadi kan Facebook, Google itu kan perusahaan yang beda-beda, codebase-nya beda-beda. Jadi OAuth ini men-streamline bentuk workflow-nya. Jadi minta token, minta token dibalikinya seperti apa, terus item-itemnya, field-nya apa aja, itu kurang lebih di-streamline biar mudah. Misalnya nanti ada sosmed baru atau layanan baru yang mau menyediakan login juga, OAuth juga bisa dengan lebih mudah. - Oke, jarak kerjanya gimana sih kalau OAuth ini? - Ada itu di link-nya saya kasih. - Ini ya? - Ini nyambung. - Nah, OAuth 0 itu salah satu library yang paling major ya, yang mengimplementasi OAuth. - OAuth 0 itu bukan library, dia service. - Oh, layanan. - Service, ya, layanan. - Tapi dia punya SDK, kan? - Ya. Turun dikit, turun dikit. Ada bagannya. Ini yang non-single-sign-on, ini non-single-sign-on. - Oh, non-single-sign-on. - Kalau login biasa kan kita login, set cookies, kita kembali sedikit deh biar kita bisa lihat kebedaannya. Jadi kalau non-sso, kalau kita login ke domain 1 ya kan, kita browse ke domain 1, kita login, kita set cookie-nya, selanjutnya kita sudah terautentikasi. Namun kalau kita ke domain yang berbeda, domain 2. - Cookie-nya nggak ada. - Kalau kita, cookie-nya kan nggak bisa diases, cookie yang tadi kita sudah login. Meskipun mungkin layanannya sama ya. Mungkin ya, mungkin. Anggap aja sama-sama blog kita sendiri gitu ya. Tetapi kita nggak bisa akses domain 2 langsung tanpa kita harus login ulang. Ya kan? Jadi akibatnya apa di sini? Kita harus punya username password di domain 1 dan username password di domain 2. - Oke. - Kalau itu ada 1000, kita punya 1000, ya kan? Nah selanjutnya biasanya ini terjadi di sebuah company-company yang enterprise. Bayangkan aja company enterprise itu punya multiple site, ratusan mungkin. Kalau satu site harus login kan, repot ya. Dan berbeda. Nah makanya ada disebut single sign-on. Kalau di Microsoft atau Azure apa itu namanya ya? SSO-nya mereka itu pakai SAML gitu. Saya lupa ininya. Ah, udahlah. Lalu kalau bisa itu SAML. Nah selanjutnya kalau kita pakai SSO itu cara kerja seperti ini. Itu yang central authentication domain, turun dulu. Jadi kalau bayangkan sebuah company yang enterprise. Ini jaman sebelum Anda pakai login dengan Facebook, login dengan Google ya. Sebelum jaman itu ya. Itu sudah ada. Itu pakai kembali lagi protokolnya namanya SAML. Saya lupa nama ini. Dan itu produknya dari Microsoft. Domain satu kita login, dan ternyata kita di redirect ke authentication server. Nah sebesarnya namanya mawar.com. Domain tiga. Kita itu login-nya ke domain tiga. Kita cuma login di domain tiga. Lalu kita akan direct ke kembali ke domain satu dengan akses token yang dikirimkan dari si authentication server untuk menyatakan \"Hey, user ini sudah benar orangnya, dan ini tokennya lu bisa pakai untuk nanti tanya gue.\" Jadi ibaratnya, Mas Rizze itu domain satu. Ba Eka itu domain tiga. Contoh, saya datang ke Ba Eka. \"Hey, saya mau login Ba Eka. Ini username password.\" \"Oke, saya mau login ke domain satu.\" \"Oke.\" Terus Ba Eka langsung kabarin ke Mas Rizze, \"Si Ivan sudah terauthentikasi. Ini tokennya.\" Terus nanti Mas Rizze tanya lagi, \"Benarkah token ini punya Ivan?\" \"Oh benar.\" Saya jawab, \"Benar.\" Nanti Mas Rizze balik dan set cookie-nya ke domain satu. Sehingga saat saya akses domain satu sudah dalam keadaan login. Demikian juga kalau saya akses domain dua. Saya akan ke redirect lagi ke authentication server, namun saat ini karena saya sudah pernah login, saya nggak perlu login lagi karena sudah ada cookie-nya. - Itu cookie-nya? - Cookie-nya nempel ke domain tiga. Cookie yang saya sudah pernah login ke domain tiga. Ada proses redirect. Tetap saya redirect dulu ke domain tiga. Ternyata saya sudah login dan saya akan redirect lagi ke domain dua. Domain dua akan tanya, \"Ini orang sudah benar nggak?\" \"Oh benar. Tokennya ini ya?\" \"Ya, balik.\" Maka saya login ke domain dua. - Itulah proses SSO. - Single Sign-On. - Kalau lebih detailnya, lebih detailnya seperti ini. - Oke. Jadi, key-nya itu adalah ada domain authentication server sendiri yang mengautotikasi semua. Kalau kita saat ini pakenya login dengan Google, login dengan GitHub, GitHub-nya yang menjadi authentication server. - Ya, domain tiga ini ya? - Iya. Jadi, ini memanfaatkan service external yang sudah ada ya? Ya, ini biasanya cukup sering digunakan kalau kita sudah menggunakan microservice dan service-nya banyak. Salah satu service yang berdiri sendiri adalah authentication server atau authentication service. Dan setiap kali kita mau login ke service A, service B, service C, kita harus consult dulu dengan si authentication service ini. - Gitu ya? - Ya. Jadi, lewat ada komunikasi dari back-end. Server-to-server. - Server-to-server. - Untuk nanya, \"Ini orang benar nggak?\" Tapi kalau misalnya lebih enterprise lagi, nanti ada lagi key-nya. Key-nya yang di server satu, sekey-nya di server dua hanya bisa pakai key itu baru bisa ngomong. Karena kalau ada main-in-the-middle yang intercept, nggak kebaca ternyata. Itu beda lagi itu ceritanya. Tapi tetap sama, prosesnya sama. Kita lanjut ke pembahasan tentang empat cara melakukan pengamanan API, termasuk juga autentikasi. Nanti kita sudah bahas tentang OAuth ini, cara kerjanya tadi sudah kita bahas. Dan kenapa menggunakan OAuth? Karena industri standar, salah satunya. Keunggulannya di sini disebutkan untuk improve security, user experience, dan scalability. Yang seperti yang kita sebutkan tadi, dia sudah service terpisah. Kalau teman-teman punya banyak service, nggak perlu bikin login satu per satu di setiap service. Itu juga membuat user jadi malas tiap mengases domain satu login. \"Ah, mau coba domain dua?\" Login juga. Padahal kita sudah login sebelumnya. Jadi itu juga membuat user experience jadi lebih bagus. Terus tentu ada kekurangan. Di sini kekurangannya adalah complexity. Semakin sekur, semakin kompleks sistem kita. Jadi ini seperti yang tadi dijelaskan, setiap kali kita mologin, sebenarnya kita redirect ke service authentication. Kita bawa kode yang pertama kita bawa. Terus habis itu di redirect. Habis itu setelah login berhasil di approve dengan domain 3 itu... yang pertama kali itu akan dibawa request token dan redirect URI. Di domain 3 kita pakai request token itu, kita login plus name dan passwordnya kita. Lalu waktu kembali itu adalah access token dan refresh token. Jadi access tokennya itu ada time to live-nya biasanya 30 hari. Jadi refresh token itu 6 bulan. Kalau misalnya access tokennya expired, hanya bisa di refresh pakai refresh token untuk meminta kembali access token supaya kita bisa pakai. Selanjutnya kalau bisa refresh tokennya habis, maka kita serius harus login ulang. Nah bahas token-token ini jadi inget nih, salah satu ini contoh implementasi sih dari layanan yang menyediakan single sign on kayak gini, itu Spotify. -Dokumentasinya bagus deh, coba buka. -Oh iya, jadi private chat ya. Itu contoh untuk layanan mereka, tapi sebetulnya kita pakai website lain juga kurang lebih alurnya mirip seperti ini. Ini ada beberapa opsi. Ini application, ada account service dan ada user ya, modelnya mirip juga kayak tadi. Itu kayak tadi dibahas sama Ivan sih sebetulnya, cuma jadi inget aja sih ini dulu sempat lama kayak gue nggak paham-paham sulit ngerti OAuth itu kayak gimana. Akhirnya baru klik, itu pas lihat ini soalnya bagannya bagus, bagannya gampang dipahamin. Memang OAuth ini implementasinya yang sulit. Bagi kita, bagi developer sulit, tapi bagi user mudah sebenarnya. Karena tinggal klik, login, balik. Apalagi kalau dia login dengan account yang sudah sering dia pakai, misalnya dalam hal ini Google atau Microsoft account, Microsoft T60 ya misalnya, tinggal login, balik lagi udah selesai. Jadi nggak terjadi apa-apa, tapi kita yang implementasi itu harus belajar betul ini semua. - Kita yang pakai aja kadang-kadang, ya pakai dalam artian ini ya, kita menggunakan library untuk misalkan koneksi antara website kita dengan Spotify misalkan atau dengan GitHub atau dengan apa, itu lumayan tricky juga kalau kita nggak tahu cara kerjanya kan. Jadi kita ngirim apa, kita expect dikasih dibalikin apa. Itu tuh harus paham dulu. - Eka putus-putus ya? - Iya, boleh diulang beberapa kali terakhir. - Apa tadi jadi lupa? Apanya mental modelnya adalah kita harus tahu apa aja yang harus kita kirim di masing-masing langkah, habis itu apa yang akan kita terima, habis itu langkah selanjutnya apa. Jadi yang penting menguasai itu. - Terutama kalau misalkan teman-teman mau pakai service atau mau menggunakan API yang sifatnya private, misalkan Twitter gitu ya. Kita mau ngambil data Twitter, bisa, tapi kita harus menggunakan OAuth dulu. Jadi kita lakukan otentikasi dulu, otentikasinya sudah berhasil, baru kita bisa request data. Dan request datanya pun... - Nah, itu biasanya ada di parameter, kan ada parameter scope tuh di Spotify juga ada tuh di langkah pertama scope. Jadi ada hal-hal yang publik, kayak misalnya biasanya display name atau apa ya, entah itu Spotify atau Twitter. Tapi kan ada hal-hal yang perlu, apa, harus di grantor sendiri. Misalnya bikin tweet atau kalau di Spotify misalnya membuat playlist atau menghapus playlist, itu harus ada scope grantor sendiri. - Oke, mantap. Kita lanjut ke bagian ketiga. Ini yang udah kita bahas tadi ya, basic dan beerer ya. Jadi kita lewatin aja ya. - Iya. - Dan yang keempat adalah UAT. - Ya, dia lihat sekilas aja. - Oke, lihat sekilas ya. Ini method yang paling luas digunakan, paling banyak digunakan. Kemudian cara gunanya... - Pakai HTTP header ya. - Pakai HTTP header... - Dikirim di header, header-nya namanya authorization, basic spasi, apa tadi, username dan password, atau beerer, spasi, token. - Ya, dan beberapa keunggulannya ya tentu lebih sederhana ya, paling sederhana. Tapi kekurangannya adalah... - Nggak ada akses role, scope, scope nggak ada. - Skop. Terus kemudian kalau... - Ya, dia beresik aja ya. - Nggak bisa expiry, nggak bisa. - Oke. - Jadi biasanya udah orang pakai itu ya pakai aja. Kalau misalnya ada developer-nya udah bolak-balik, ada yang resign, segala macam, ya bayangin aja kalau kita harus ngereset itu semua, kan susah. - Setiap ada yang ngereset, direset. - Terus, jadi apa namanya? Simple implementasinya, tetapi less secure aja untuk maintenance. - Oke, dan terakhir di sini kita masuk ke bagian keempat ya itu JWT atau JSON Web Token. Walaupun di sini menggunakan JSON, tapi seperti yang teman-teman tahu bahwa JSON ini udah dipakai umum ya, di semua platform, di semua bahasa juga pakainya kebanyakan JSON ya. Walaupun ini asalnya dari JavaScript kan. - Bukan JSON Momoa kan ya? - JSON Power Rangers. - Udah rip. - Nah, gimana cara kerja ini? Nah, JSON ini lumayan baru ya. Dan sekarang itu lumayan banyak yang pakai dan framework-nya juga udah lengkap ya. Jadi cara kerjanya adalah dengan? - Dan ini sebenarnya mirip dengan kombinasi cara-cara sebelumnya kan. Jadi sebetulnya ada access token, ada data yang mengidentifikasi user. Yang paling sering sih ya user ID sama user name ya misalnya. Jadi ada user ID, user name, access token, terus data internal kayak generated datetime issue-nya kapan, lalu di-encrypt dengan format tertentu JWT itu kan sebetulnya lagi-lagi dia adalah semacam spesifikasi standar. Jadi bukan library tapi spesifikasi untuk pola algoritma encryption-nya. - Nah, yang dikirim adalah? - Ada 3 bagian. Nah, coba sambil buka itu deh. Sambil buka jwt.io. Ada header, ada payload, ya header, payload dan signature. Nah, jadi data yang dikirimkan ke server itu di fetch URL kita atau apapun, pokoknya mau dikirim lewat post atau lewat pay, apapun, dikirim itu encoded ini. - Yang ini ya? - Kita cuma kirim encoded aja gitu ya. Yang kita kirim, yang dikiri itu kalau udah di-code kayak di kanan itu. Nanti hasilnya itu, header-nya apa? Header-nya itu dia kasih tahu algoritma untuk nge-generate-nya pakai HS256. - Sorry, HS256 beda, bukan SHA256. - Bukan SHA ya, lainnya? Bukan, tipe-nya jwt. Terus payload-nya itu semua orang bisa baca, payload-nya itu isinya. Itu lah isi post data yang kita itu, payload itu adalah isi post data. Itu nggak sensitif juga sih, biasanya paling user name, user ID, issue type, biasanya standarnya, coba cover di IAT deh. - Issue Add. - Issue Add. Itu isinya bisa macam-macam. Itu intinya apapun data yang mau kita kirimkan. Dan setelah payload itu kita kirimkan apa? Kita sign pakai HMX SHA256. Isinya itu nanti base64 url, header-nya, code payload-nya, sama secret-nya kita. Itu lah nanti di client-side secret-nya apa, nanti di server-side secret-nya apa. Dicocokin sama yang di service-nya. Jadi dia akan dikirimkan dalam bentuk bahasa Sandi, yang hanya bisa dibuka oleh secret-nya ini ya, kuncinya. Kalau kuncinya sama, maka dia bisa buka. Sebenarnya bisa dibuka siapa saja. Payload itu sebenarnya bisa dibuka siapa saja. Tetapi server hanya mau menerima jika signature verified. Itu contoh centang tadi itu. Jadi di sisi server, saat kita lakukan decode dan kita harus cek, ini signature-nya benar tidak? Kalau tidak benar, jangan diproses. Tapi payload-nya semua bisa baca. Anggap di sini payload ini bukan sesuatu yang rahasia, karena orangnya sudah login. Makanya bisa terjadi, ini kan untuk mencegur REST API connection kan ya. Jadi orangnya itu sebenarnya sudah login, sudah punya access key. Dan ini hanya untuk mengirimkan data ke REST API. - Request selanjutnya ya? - Iya. Untuk mengirimkan data apapun itu. Dan datanya itu supaya si server tahu kalau itu datanya benar dari orang yang terautentikasi dan terautorisasi. Pakai ini. Pertanyaan, encoded ini bagaimana cara kita bikin ya? Kalau itu, kalau mau simpelnya, itu, itu, itu, dari bawah. Jadi caranya itu gini, caranya, bentar, kecepatan. - Oh kecepatan? Ini? - Iya. - Ini? - Iya. Yes, stop. Nah, cara, cara memencode itu sebenarnya itu cuma Base64 encode header-nya. Header itu JSON kan. Oh ini, ini datanya kita nih. Iya, itu Base64. - Terus sama ini, Base64. - Oh iya ini ya, berarti. Terus yang signature-nya, Base64 ini, tambah Base64 ini, tambah, tambah secret-nya. Terus di kassisha 26, 256. Itulah jadi verified-nya. - Biasanya di... - Terus dipisahkan titik ya itu. Bagi dia pake titik ya ini ya. - Ya ini kan dia? - Iya. Oke. Kalau di browser client-side kan ada A to B, B to A kan. Kalau untuk Base, apa Base64. Tapi hati-hati jangan lupa di note gak ada itu. - Itu kan feature browser. - Jadi? A to B dan B to A itu feature-nya web browser. Kalau kita pakai JavaScript di server-side, Pakainya buffer, buffer from, kan ada tuh buffer.from untuk Base64. Cuma exactly gimana ya gak apal sih. Oke. Pokoknya pakainya API buffer. Ya, ya, ya. Nah, next-nya kita bahas apa nih? Yang sisa apa ya? Oh ini, apa? WebAuthent. Nah, ini WebAuthent ini apa nih? Barang baru kayaknya ya. Nah dia, ini ya. Identity bukan. WebAuthent.io deh. Bukan. Bukan web.dev/identity. Bukan. Nah, itu dia. WebAuthent itu spesifikasi. Jadi spesifikasi untuk men-strainline atau menstandarisasi proses autentikasi di web. Yang sebelumnya kan standarisasi ya misalnya tadi tuh apa? Authorization scheme yang basic, better. Tapi sekarang kan makin lama autentikasi makin canggih. Terus belum teknologi masing-masing device. Misalnya kan udah ada ya semacam fingerprint atau biometrics fingerprint. Terus ada juga misalnya perantara Iris ya. Terus ada Retina. Mungkin ada perantara atau aplikasi untuk 2 factor authentication juga. Jadi kan intinya makin sekarang autentikasi makin rumit dan makin bermacam-macam. Nah, ini adalah spesifikasi yang berusaha men-strainline workflow autentikasi itu. - Nah, bagusnya Nisa. - Simple-nya begini. Ada yang pernah punya akun BCA nggak? Ya, punya. Pernah nggak dulu dikasih token? - Oh, yang biru itu. - Iya, yang biru. Jaman dulu sebelum ada standarisasi autentikasi ini, kan masing-masing aplikasi punya caranya sendiri untuk nge-generate. - Belum ada standar ya? - Itu sama aja. Sebenarnya yang key BCA atau key mendiri itu kan sebenarnya 2 factor authentication. Sebenarnya, jadi untuk mengautorisasi. Jadi kita sudah masukin login, mau transfer. Habis mau transfer, tanya lagi nih, masukin aplikasi 1 di key BCA-nya. Aplikasi 1, aplikasi 2, gitu kan. Di lama banget nggak pakai, gila. Nah, itu kan setelah dia muncul angkanya, di-generate di sini, terus balik sana. Itu kan standar yang dibikin bank itu sendiri. Kita nggak tahu standar itu apa. Itu punya mereka sendiri, algoritmanya nggak ada yang tahu. Mungkin cuma mereka yang tahu. Sedangkan web autentikasi ini adalah standarisasi dari sisi web jika kita ingin punya autentikasi yang seperti itu. Misalnya pakai 2 factor authentication, pakai uBKey. Jadi, men standarisasi semua cara meng-generate autentikasi, 2 factor authentication seperti itu. Oke, ini adalah spesifikasi implementasinya. Teman-teman bisa cek di sini. Ada yang pakai Python, Go, pakai TypeScript. TypeScript ada 2 malah ya. Ada Ruby, Java, Java juga ada 3. Bahkan bisa akses itu ya, kayak fingerprint ya. Kalau di device yang memang support. Dan kalau buat gue sih, ini yang menarik nih biasanya vendor itu kan agak sulit buat compact ya. Apalagi buat ala yang major seperti ini. Nah, tumben banget ini web autentikasi itu udah, walaupun mungkin implementasinya, maksudnya mungkin nggak semua API di support ya. Tapi ini Chrome, Firefox, Edge, sama kalau WebKit belum mungkin ya. Chrome, Firefox, Chromium, dan Firefox udah bisa compact. WebKit nggak ada ya malah ya. Oh, WebKit belum. Gak ada di sini sama sekali. Iya aja ada walaupun semua nggak bisa gitu. Safari, safari ada gitu. Safari, safari. Cuma emang nggak semua, cuma sebagian. Tapi kan udah lumayan banget ini. Maksudnya ini pertanda yang bagus ke depannya. Iya, bener, bener. Hampir 2 dari 5 ya. 1, 2, 3, 4, 5. Karena desktop Linux juga nggak ada safari di sana kan. Desktop Linux nggak ada yang bisa. Wah, suara robot lagi nih. Halo? Sorry, sorry. Boleh diulang lagi? Ya, masing-masing vendor udah mulai mengadopsi ini. Hmm, oke. Ini roaming authentication. Apa ini roaming authentication? Spread Hardware Authenticator. Oh, ini ya, YubiKey gitu-gitu ya? Itu tadi key. Ya, oke. Ini juga udah hampir semua support ya. Ada yang punya YubiKey nggak? Dulu sempat dapat dari Chrome Dev Summit, tapi hilang. Waduh. Hilang. Oh, masih ada. Yang iru itu kan? Iya. Yang kita cuma kayak ditaruh di atas meja, ambil-ambil aja gitu. Ternyata mahal, Bo. Mahal ya. Belum jamannya di Chrome Dev Summit. 50 dolar. 50 dolar? Oh. Iya. Padahal itu cuma ditaruh di atas meja, mau ngambil berapa aja terserah. Iya. Kalau mental maling, ambil di jual lagi. Nah, ini kan, coba kalau si web autent ini lumayan rumit dan lumayan banyak scope-nya. Tapi yang direkomendasikan sih kalau cuma pengen tahu. Ini kan belum kebayang kan. Pasti kalau yang belum pernah pakai, baca ini nggak kebayang, abstrak. Solusinya itu tuh ada code web-nya. Ada code web yang cukup bagus. Ya, kalau mau coba. Kalau mau coba ya. Eka jadi robot. Eka jadi robot. Lagi, ulang, ulang, ulang. Iya. Tuh. Apa? Masih, halo, halo, halo. Halo. Halo. Ini direkomendasikan untuk belajar langkah-langkahnya sama bagian-bagiannya. Kita sendiri belum coba. Jadi kalau mungkin nanti kita ada kesempatan untuk implementasi, kita bisa bahas di episode yang terpisah kali ya, lebih detail. Karena ini lagi hot-hot-nya nih. Lagi banyak dibahas juga ya. Lagi menarik. Webaltern. Mudah-mudahan nanti dibahas lagi di I/O. Mudah-mudahan. Nah, kalau ada pembahasan di I/O atau di conference-conference, nanti mungkin kita bisa bahas. Kita bahas lebih detail kali ya. Lebih detail lagi ya. Jadi mungkin ini agak diluar scope dari topik kita malam hari ini. Karena kita juga belum ada kesempatan buat nyoba ya. Buat implementasi ini karena juga cukup baru. Walaupun secara support kayaknya udah lumayan optimis ya. Bakal disupport penuh karena ya sekarang aja baru muncul udah disupport banyak browser ya. Ya. Oke. Ada lagi? Ada lagi. Sepertinya. Habis. Oke, kalau gitu berhubung mata di kita sudah habis. Kenapa? Siapa tahu nanti hari Selasa ada yang nonton dan mereka mengikuti WorldCamp Asia di Bangkok. Oh iya, boleh. Ya, say hi aja ke saya. Kenapa saya nggak bisa ikut live karena saya lagi ada di Bangkok. Lagi organize WorldCamp Asia 2023. Jadi kalau ada temen-temen, temen-temen ada yang ke Bangkok ikut acara nanti say hi. Ya. Atau ada di live stream juga ya? Live stream, live stream. Oh, say hi online bisa juga. Asia.WorldCamp.org 2023. Oke. Bagi temen-temen yang nggak bisa datang, ada live streamnya silahkan. Banyak topik-topik yang menarik tentang WordPress. Ya. 17 sampai 19. Suruh sekali. Mana nih? Agendanya mana agenda? Schedule, conference day. Itu 17 itu contributor day. 18 itu acara utamanya. Jadi evolution segala macam. SIPI, development, ada security, ada design, ada full-site editing juga tuh, full-site editing. Menarik ya. Ya. Seru, seru, seru. Ini hari ke-2-nya, hari ke-3-nya tanggal 19. Masih conference juga ya berarti ya? Conference juga, ada multilingual, ada automatic QA, visual education testing, progressive web app, and so on. Ya. Mungkin nanti kita bisa bahas review-nya juga, pengalamannya di sana. Oh iya, buat minggu depan ya. Gimana pengalamannya buat minggu depan mungkin? Saya organizer, jadi kalau pengalaman ikut session mungkin nggak banyak. Gak apa-apa, pengalaman menjalankan sebagai organizer. Karena kan kita juga pengen nih, ada conference-conference di Indonesia kan, mulai bisa dijalankan lagi kan. Conference development. Ayo ngobrolin web conference. Isinya ngobrol-ngobrol. Jangan terlalu muluk-muluk lah. Kalau bisa kita live dulu di satu conference, kita numpang. Oh iya, bisa-bisa. Yang nonton jumlah nggak sampai 100, mau bikin conference. Oke kalau gitu, mungkin untuk malam ini kita udahan dulu. Terima kasih buat teman-teman yang udah nonton. Jangan lupa, kalau ada kritik, saran, ada topik, diskusi, bisa ke bit.ly/ngobrolinweb. Malam ini kita pamit. Saya Riza, bisa kalau ada mo sehai bisa di Twitter, Rizafami22. Ada Eka juga, di Eka.fi, dan ada Ivan di IvanKris.com. Oke, sekian dulu. Selamat malam, selamat istirahat, sampai jumpa minggu depan. Dadah."
+}

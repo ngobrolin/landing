@@ -1,0 +1,3318 @@
+{
+  "videoId": "yhlD16hyW90",
+  "language": "id",
+  "generatedAt": "2026-05-13T08:22:57.856Z",
+  "segments": [
+    {
+      "start": 0,
+      "end": 12.76,
+      "text": "yo yo yo halo halo selamat malam kita ketemu lagi di hari selasa malam seperti biasa"
+    },
+    {
+      "start": 12.76,
+      "end": 21.36,
+      "text": "selasa malam adalah waktunya ngobrolin wet kita tetap lama nih komposisinya masi masi riza"
+    },
+    {
+      "start": 21.36,
+      "end": 31.68,
+      "text": "masis ya di episode yang ke 52 atau episode 53 kita menyebutnya gimana sih 52 dia ya"
+    },
+    {
+      "start": 31.68,
+      "end": 40.68,
+      "text": "tetep aja sesuai angka sesuai angka sesuai angka episode ke 52 ini ya kita akan membahas tentang"
+    },
+    {
+      "start": 40.68,
+      "end": 52.44,
+      "text": "package menajemen sesuatu yang lagi rameh ya rameh apa itu selalu rameh ini selalu rameh periodikal setiap"
+    },
+    {
+      "start": 52.44,
+      "end": 61.08,
+      "text": "ada ada kena masalah ada yang sesuatu yang menawarkan sesuatu yang lebih cepat ada yang baru"
+    },
+    {
+      "start": 61.08,
+      "end": 67.72,
+      "text": "gitu kan inovasi inovasi baru ya package menajemen package menajemen ini tergolong baru ya terutama"
+    },
+    {
+      "start": 67.72,
+      "end": 74.96,
+      "text": "di web dan javascript karena sebelumnya tidak ada iya karena tidak ada kalau nanti kita akan"
+    },
+    {
+      "start": 74.96,
+      "end": 81.08,
+      "text": "bahas ya sejarahnya gimana sekilas jadi sebelum kesana mungkin kita bahas dulu tentang package"
+    },
+    {
+      "start": 81.08,
+      "end": 88.72,
+      "text": "menajemen itu apa sih nah ini ada artikel dari mdn yang cukup mewakili jadi salah satu kerjanya"
+    },
+    {
+      "start": 88.72,
+      "end": 94.92,
+      "text": "job desk nya package menajemen adalah dependensi menajemen jadi dependensi itu adalah third party"
+    },
+    {
+      "start": 94.92,
+      "end": 105.92,
+      "text": "software atau library atau code yang ditulis oleh orang lain terus code itu atau library itu kita"
+    },
+    {
+      "start": 105.92,
+      "end": 113.2,
+      "text": "gunakan untuk solving problem yang untuk aplikasi kita sendiri untuk aplikasi kita sendiri bisa yang"
+    },
+    {
+      "start": 113.2,
+      "end": 119.52,
+      "text": "dari hal hal kecil misalkan human readable date ya kalau pakai date mungkin dulu kalau pakai"
+    },
+    {
+      "start": 119.52,
+      "end": 126.28,
+      "text": "javascript agak susah gitu kan kita butuh moment js kita butuh date fns dan lain-lain itu banyak"
+    },
+    {
+      "start": 126.28,
+      "end": 133.52,
+      "text": "ya nah itu adalah dependensi dan yang menariknya dependensi ini bisa juga punya dependensi dari"
+    },
+    {
+      "start": 133.52,
+      "end": 139.16,
+      "text": "dependensi yang lain gitu dia saling tergantung sub dependensi sisilahnya jadi kalau misalkan kita"
+    },
+    {
+      "start": 139.16,
+      "end": 147.2,
+      "text": "install apa ya react ya react itu tergantung ke beberapa library lain misalkan ada react dom"
+    },
+    {
+      "start": 147.2,
+      "end": 157.24,
+      "text": "misalkan ada apa lagi ya banyaklah ya banyak ya utility utility makanya makanya kalau kita install"
+    },
+    {
+      "start": 157.24,
+      "end": 163.32,
+      "text": "dan lakukan npm install tiba-tiba di folder node modus kita langsung banyak gitu kan itu adalah"
+    },
+    {
+      "start": 163.32,
+      "end": 171.8,
+      "text": "sampai banyak webnya ya apa ya biasa kan kita install satu nih npm install express wah langsung"
+    },
+    {
+      "start": 171.8,
+      "end": 177.56,
+      "text": "banyak gitu padahal kita cuman install satu ternyata dependensinya banyak gitu gimana Ivan"
+    },
+    {
+      "start": 177.56,
+      "end": 185.76,
+      "text": "ya sedikit lebih jauh lagi tentang depan apa namanya package manajemen ini ya ini kan yang yang"
+    },
+    {
+      "start": 185.76,
+      "end": 192.56,
+      "text": "dicerita mdn ini adalah untuk yang javascript tapi kalau kita lebih jauh lagi package manajer ini"
+    },
+    {
+      "start": 192.56,
+      "end": 201.08,
+      "text": "cukup populer dan sudah ada sejak lama itu dari linux environment jaman dulu banget kalau saya"
+    },
+    {
+      "start": 201.08,
+      "end": 210.16,
+      "text": "lakukan quick searching package manajemen yang pertama kali itu justru adanya di tahun 89 ya jadi"
+    },
+    {
+      "start": 210.16,
+      "end": 218.92,
+      "text": "sorry tahun 94 mulai ada mulai ada itu mulai dibangun dari 89 dan 94 itu mulai ada itu waktu"
+    },
+    {
+      "start": 218.92,
+      "end": 232.8,
+      "text": "terus zamannya namanya Smith smit dan itu dari IBM AIX jaman itu waktu itu kan jadi begini ceritanya"
+    },
+    {
+      "start": 232.8,
+      "end": 241.28,
+      "text": "package manajemen kalau yang di linux ekosistem itu kan kita mau install sesuatu butuh dependensi"
+    },
+    {
+      "start": 241.28,
+      "end": 247.04,
+      "text": "beda dengan kita install sesuatu yang ada di windows kalau di windows package installnya kita itu"
+    },
+    {
+      "start": 247.04,
+      "end": 259.92,
+      "text": "sudah nge-bundle sudah ada dllnya sudah dibundle jadi dll dan XS nya XS nya sudah di SES nya"
+    },
+    {
+      "start": 259.92,
+      "end": 268,
+      "text": "conf nya cnf nya dll nya sudah dibawa semua di package installer bedanya di windows ekosistem begitu ya"
+    },
+    {
+      "start": 268,
+      "end": 280.04,
+      "text": "nah makanya dulu teman-teman kalau misalnya install sesuatu dari cd yang di sewa pergi sewa cd bajatan yang"
+    },
+    {
+      "start": 280.04,
+      "end": 290,
+      "text": "di sewa installer cd bajatan yang di sewa yang di sewa installnya itu kan gede banget ya itu semua"
+    },
+    {
+      "start": 290,
+      "end": 298.32,
+      "text": "dibawa jadi zip-zip file bahkan apa ya kalau package manager zip bukan zip ya apa installer itu"
+    },
+    {
+      "start": 298.32,
+      "end": 312.36,
+      "text": "biasanya exe MSI MSI MSI Microsoft installer nah mse.mse kan tinggal klik dua kali terus ada ada pop up nya"
+    },
+    {
+      "start": 312.36,
+      "end": 321.6,
+      "text": "next next terinstall lah semua bisa kita main game nya contoh ya itu semua sudah dibawa kalau di"
+    },
+    {
+      "start": 321.6,
+      "end": 329.8,
+      "text": "sistem windows tetapi kalau di linux ekosistem itu berbeda karena kalau kita mau install sesuatu"
+    },
+    {
+      "start": 329.8,
+      "end": 338.68,
+      "text": "misalnya install kalau gcc sudah pasti ada ya kalau let's say mau install FFmpeg ya kan itu kan"
+    },
+    {
+      "start": 338.68,
+      "end": 346.92,
+      "text": "mesti nggak selalu ada FFmpeg di ya let's put it simple in simple way mungkin FFmpeg film film film film"
+    },
+    {
+      "start": 346.92,
+      "end": 356.28,
+      "text": "itu bukan nggak semua distro bawa film sebagai default install ya nggak mesti jadi kalau kita mau install"
+    },
+    {
+      "start": 356.28,
+      "end": 365.32,
+      "text": "kalau misalnya di tergantung package installer kalau misalnya di ubun itu apt apt install film nah"
+    },
+    {
+      "start": 365.32,
+      "end": 377,
+      "text": "film itu kan punya ini ya punya hanya executable film tapi film itu membutuhkan library lain apapun"
+    },
+    {
+      "start": 377,
+      "end": 387.4,
+      "text": "itu ya mau abcde dan ternyata library lainnya abcde itu butuh butuh library lain lagi XYZ itulah"
+    },
+    {
+      "start": 387.4,
+      "end": 398.64,
+      "text": "package manager itu berfungsi kalau nggak dulu zaman itu zaman dulu itu jamannya debian itu"
+    },
+    {
+      "start": 398.64,
+      "end": 409.16,
+      "text": "pakai dpkg ya dpkg jamannya si salah kubu kubunya debian dpkg kubunya kubunya redhead redhead"
+    },
+    {
+      "start": 409.16,
+      "end": 418.52,
+      "text": "entos rpm ya itu juga ada lagi beda-beda semuanya iya dan itu pusing nah makanya mereka bikin"
+    },
+    {
+      "start": 418.52,
+      "end": 428.92,
+      "text": "centralized repositori jaman itu sudah ada namanya repositori ya di mana repositor-repositori"
+    },
+    {
+      "start": 428.92,
+      "end": 439.64,
+      "text": "sudah kontain package nya versi nya fourth nya ya misalnya sorry arhitekturnya bahkan arhitekturnya"
+    },
+    {
+      "start": 439.64,
+      "end": 448.44,
+      "text": "sampai dependensinya nanti dependensi list nya apa jadi bisa tetap di install berarti itu sebenarnya"
+    },
+    {
+      "start": 448.44,
+      "end": 456.2,
+      "text": "apa konsep repositori yang sekarang kita kenal di aplikasi web atau ekosistem javascript itu"
+    },
+    {
+      "start": 456.2,
+      "end": 462.92,
+      "text": "kursornya kayak nenek moyangnya itu ya berarti istilah repositori dan daftar packaging digunakan"
+    },
+    {
+      "start": 462.92,
+      "end": 470.68,
+      "text": "versinya apa prinsipnya berarti dari ambil dari sini dan jaman itu karena komunitas linux itu"
+    },
+    {
+      "start": 470.68,
+      "end": 481.2,
+      "text": "kuat jadi ya banyak researcher-researcher atau banyak mirornya di mana-mana iya salah satunya"
+    },
+    {
+      "start": 481.2,
+      "end": 487.68,
+      "text": "kambing ada yang tahu kambingnya iya kambingnya kambing itu adalah server dari UI yang memiror semua"
+    },
+    {
+      "start": 487.68,
+      "end": 493.92,
+      "text": "distro-distro terkenal dari linux termasuk juga repositori ini sampai sekarang masih aktif deh masih"
+    },
+    {
+      "start": 493.92,
+      "end": 501.6,
+      "text": "ada kadang kalau nge-strip tuh suka nggak sengaja menemukan iya karena kan kalau dulu kan kita pakai"
+    },
+    {
+      "start": 501.6,
+      "end": 507.44,
+      "text": "internet kan kalau keluar itu lambat sekali ya kalau di lokal itu penceng kan ix gitu kan istilahnya kan"
+    },
+    {
+      "start": 507.44,
+      "end": 516.76,
+      "text": "lokal internet kan nah itu kita ganti tuh APT repositori nya ke kambing ke repositori lokal sehingga"
+    },
+    {
+      "start": 516.76,
+      "end": 525.76,
+      "text": "ya instalasi dan kalau dia sentos dulu sentos itu bisa nyari repositor dia bisa punya kehandalannya"
+    },
+    {
+      "start": 525.76,
+      "end": 533.16,
+      "text": "dia bisa nyari repositori yang terdekat hmm itu kerennya si sentos ya kita juga punya distro"
+    },
+    {
+      "start": 533.16,
+      "end": 540.52,
+      "text": "dia punya distro Blancon Blancon ada banyak sih ada beberapa sih yang tapi udah disenangkan"
+    },
+    {
+      "start": 540.52,
+      "end": 550.76,
+      "text": "juga iya dan itu sekilas ya sekilas beda-beda ya masing-masing os beda-beda kalau windows itu dia"
+    },
+    {
+      "start": 550.76,
+      "end": 559.92,
+      "text": "ada installernya dia nginstal ke mungkin dll nya dia kopi ke file ke folder mungkin windows 32 atau"
+    },
+    {
+      "start": 559.92,
+      "end": 566.64,
+      "text": "mana gitu ya terus installernya dia taro di program start dan lain-lain gitu kan kalau linux dia"
+    },
+    {
+      "start": 566.64,
+      "end": 571.84,
+      "text": "mungkin cenderung lebih kecil file nya tapi dependensinya di download makanya kalau kita"
+    },
+    {
+      "start": 571.84,
+      "end": 575.52,
+      "text": "install linux itu biasanya butuh internet kalau windows kadang-kadang kalau kita install windows"
+    },
+    {
+      "start": 575.52,
+      "end": 582.64,
+      "text": "kan satu cd aja cukup ya atau beberapa cd lah beberapa cd betul dan windows package manager itu baru"
+    },
+    {
+      "start": 582.64,
+      "end": 592.24,
+      "text": "ada baru ada akhir-akhir namanya winget winget juga ada chocolate juga ada baru ada dua tiga tahun"
+    },
+    {
+      "start": 592.24,
+      "end": 600.6,
+      "text": "belakangan iya yang agak sedikit berbeda lagi mac os mac os lebih sederhana lagi file nya satu enggak"
+    },
+    {
+      "start": 600.6,
+      "end": 607.36,
+      "text": "sebelum itu kalau kita misal mau install aplikasi kan kita download tuh download app dot app biasanya kan"
+    },
+    {
+      "start": 607.36,
+      "end": 612.96,
+      "text": "kita tinggal jemblungin ke folder aplikasi udah jadi karena itu sebenarnya kayak zip kan semacam"
+    },
+    {
+      "start": 612.96,
+      "end": 621.12,
+      "text": "zip kan ya dalamnya ada kan di finder kan bisa dibuka ada isinya sudah instilahnya kalau jaman"
+    },
+    {
+      "start": 621.12,
+      "end": 628.72,
+      "text": "sekarang sudah sudah di bandel satu bandel aja satu file that's it gak perlu di install gak ada"
+    },
+    {
+      "start": 628.72,
+      "end": 638.8,
+      "text": "di install gitu kan semuanya jadi gak nyampah istilahnya jadi lebih sederhana juga kalau mau"
+    },
+    {
+      "start": 638.8,
+      "end": 644.6,
+      "text": "install dan install tapi kekurangannya adalah file nya ukurannya besar karena udah dibandling semua"
+    },
+    {
+      "start": 644.6,
+      "end": 653.92,
+      "text": "kayak docker gitu ya kayak image gitu baru kemudian ada bruh bruh bruh bruh itu justru lebih milip"
+    },
+    {
+      "start": 653.92,
+      "end": 662.88,
+      "text": "index dia sistemnya dia ada satu direktori khusus gitu kan yang menyimpan lebrese.so.dll"
+    },
+    {
+      "start": 662.88,
+      "end": 669.48,
+      "text": "dan lain-lain library yang digunakan di satu folder itu homebrew namanya itu juga package manager"
+    },
+    {
+      "start": 669.48,
+      "end": 677.68,
+      "text": "di kesempatan kali ini saya cuma menyampaikan ke maintainer homebrew itu sehat-sehat lah dan"
+    },
+    {
+      "start": 677.68,
+      "end": 685.96,
+      "text": "monggak-monggak kalian masuk surga monggak-monggak kalian masuk surga membantu sekali ya banyak orang"
+    },
+    {
+      "start": 685.96,
+      "end": 708.4,
+      "text": "terbantu banyak orang terbantu dan juga maintain linux dan npm kedepannya ngomongin sejarah sekarang"
+    },
+    {
+      "start": 708.4,
+      "end": 717.4,
+      "text": "kita menuju ke sejarahnya npm ya dari node.js sebenarnya ya iya jadi node.js ini kalau kita"
+    },
+    {
+      "start": 717.4,
+      "end": 722.8,
+      "text": "install biasanya dia membawa sebuah package manager namanya npm node package manager ya seperti kita"
+    },
+    {
+      "start": 722.8,
+      "end": 730.76,
+      "text": "tahu 2009 ditambah awal mulanya iya tapi kayaknya awalnya belum ada npm disini mungkin dia awalnya"
+    },
+    {
+      "start": 730.76,
+      "end": 739.16,
+      "text": "mungkin di tahun yang sama tapi gak langsung iya tapi kayaknya gak barengan jadi dia bikin node.js dulu"
+    },
+    {
+      "start": 739.16,
+      "end": 745.2,
+      "text": "begitu udah kira-kira udah mvp nya udah jalan baru dia bikin node package manager mungkin sebelum itu"
+    },
+    {
+      "start": 745.2,
+      "end": 754.76,
+      "text": "kayaknya udah ada ya beberapa ya kayak di ruby ada ruby gem ada python python ada juga ada juga"
+    },
+    {
+      "start": 754.76,
+      "end": 764.16,
+      "text": "kalau php komposer komposer ya komposer tuh kayaknya lebih baru ya komposer itu udah lama ya"
+    },
+    {
+      "start": 764.16,
+      "end": 787.52,
+      "text": "ada yang lebih lama dari komposer sebelum komposer apa ya namanya ya sementar kita cari pier ada yang tau pier ya itu lebih jadu lagi pr pr jauh sebelum komposer"
+    },
+    {
+      "start": 787.52,
+      "end": 792.28,
+      "text": "jauh sebelum npm juga ya ini pertama kali jadi dia dalam bentuk zip aja kita download biasa"
+    },
+    {
+      "start": 792.28,
+      "end": 804,
+      "text": "itu taruh di folder kita ini yang pertama tapi kayak versioning nya berarti ada di zipnya itu kalau si pr itu sama"
+    },
+    {
+      "start": 804,
+      "end": 813.92,
+      "text": "nah dari 2009-2011 baru mencapai versi satu terus juga node.js diadopsi oleh banyak perusahaan besar kemudian"
+    },
+    {
+      "start": 813.92,
+      "end": 822,
+      "text": "berkembang berkembang sampai akhirnya ini terjadi masalah disini kan ada yang io.js kalau teman-teman"
+    },
+    {
+      "start": 822,
+      "end": 829.76,
+      "text": "yang penting jadi node.js ini kok versi nya gak naik naik dari 0.12 gitu kan akhirnya komunitas inisiatif bikin sendiri"
+    },
+    {
+      "start": 829.76,
+      "end": 837.32,
+      "text": "supaya naikin versi nya aja padahal node.js udah dipake di mana-mana sampai akhirnya balik lagi sama biar bisa support ks yang mudir ya"
+    },
+    {
+      "start": 837.32,
+      "end": 848.6,
+      "text": "oh iya betul sama kemudian akhirnya si node.js memutuskan untuk bikin foundation dan io.js dimers balik ke node.js sampai kemudian 2015 ini npm"
+    },
+    {
+      "start": 848.6,
+      "end": 858.2,
+      "text": "sudah bisa ada private module kalau yang kita lihat sekarang di npm.js.com kalau teman-teman npm misal itu adalah npm public ya public registry"
+    },
+    {
+      "start": 858.2,
+      "end": 873.04,
+      "text": "nanti kita akan bahas tentang public registry nah setahun setelah bukan npm lahir kan 2009-2011 kan setahun setelah foundation ini jalan"
+    },
+    {
+      "start": 873.04,
+      "end": 885.56,
+      "text": "muncul satu kejadian insiden yang luar biasa mempengaruhi banyak banyak apa ya banyak program banyak aplikasi ini namanya leftpad"
+    },
+    {
+      "start": 885.56,
+      "end": 904.64,
+      "text": "oh yang dia yang bikin padding terus dia hapus dia hapus iya jadi dia bikin sebuah sebuah library namanya leftpad leftpad itu gunanya buat apa ya antara buat iya leftpad itu kan apa"
+    },
+    {
+      "start": 904.64,
+      "end": 915.48,
+      "text": "hapus spasi yang ada di sebelah kiri dari strengka iya iya sederhana sekali bisa kita bikin sendiri padahal tapi ternyata leftpad ini banyak dipakai"
+    },
+    {
+      "start": 915.48,
+      "end": 933.52,
+      "text": "di library dependen nya banyak sekali kalau kita lihat di npm misalnya kan npm.js.com itu kan apa nih library yang konek misalkan konek ini adalah salah satu dependensi dari express"
+    },
+    {
+      "start": 933.52,
+      "end": 945.16,
+      "text": "middleware dia yang memungkinkan middleware di express itu adalah konek nah kita bisa lihat dependen nya dependen nya ini 3000 jadi ada 3000 library yang"
+    },
+    {
+      "start": 945.16,
+      "end": 963.12,
+      "text": "di npm yang menggunakan konek iya bayangkan tiba-tiba konek dihapus mati ini semua nggak bisa pakai gitu itu yang kejadian sama si leftpad jadi ketika udah banyak yang pakai yang apa"
+    },
+    {
+      "start": 963.12,
+      "end": 980.96,
+      "text": "ke ketergantungan kepada library ini tiba-tiba si leftpad nya dihapus sama pemiliknya hancur itu semua library iya itu kejadian pertama walaupun akhirnya ya bisa recover ya ada alasannya sih entah di hack entah apa gitu ya"
+    },
+    {
+      "start": 980.96,
+      "end": 1000.08,
+      "text": "atau ngambek juga ya yang terakhir ngambek kan sama kayak faker.js kan ada yang baru kan faker.js lebih baru dari faker.js iya oh no yang kayak gitu juga karena isu ada yang terakhir kan apa ya namanya itu yang dia"
+    },
+    {
+      "start": 1000.08,
+      "end": 1021.08,
+      "text": "hapus ah lupa deh gue lupa oke dan ini bukan hanya sebenarnya bukan hanya kejadian di ekosistem javascript di python juga pernah kejadian karena ini sifatnya demokratis semua orang bisa bikin gitu ya banyak"
+    },
+    {
+      "start": 1021.08,
+      "end": 1039.76,
+      "text": "yang bisa lagunakan jadi banyak yang menyalahgunakan misalkan npm install monggo db kita bikin aja supaya typo monggo d ada monggo dba ada monggo o nya gak ada juga ada gitu dan ada beberapa yang pakai apa yang dibuat untuk ngambil data lah"
+    },
+    {
+      "start": 1039.76,
+      "end": 1055.76,
+      "text": "kripto lah untuk macam-macam ya jadi harus hati-hati juga dalam memilih jadi apa ya selektif lebih selektif gak sembarangan npm install karena ketika kita melakukan npm install tapi ini menarik juga sih apa jadi sebenarnya celah"
+    },
+    {
+      "start": 1055.76,
+      "end": 1085.72,
+      "text": "security yang paling paling rawan itu sisi manusianya ya entah itu kan berarti manusia kita gak terliti kita gak terliti misalnya monggo apalah kuruf l jadi i atau apa monggo bd jadi monggo bd atau nintainer ngambek dan lain-lain itu celah-celahnya dari dulu sampai sekarang gitu-gitu aja ya betul betul cuman katanya ada beberapa netizen yang bilang ya kalau kalau misalkan kayak taipo gt"
+    },
+    {
+      "start": 1085.72,
+      "end": 1115.68,
+      "text": "itu harusnya bisa di apa ya / tapi auto correct common use case / ya mereka ada beberapa yang menyalakan npm nya npm sebagai company ya npm incorporated nya karena itu bisa diantisipasi dengan yang harus ya kayak ini aja lah kayak google play atau app store gitu jadi harus ada proses validasinya bahwa ini benar bahwa ini gak ada apa gitu jangan terlalu demokratis juga jangan terlalu terbuka gitu ya jadi ya banyak lah"
+    },
+    {
+      "start": 1115.68,
+      "end": 1145.64,
+      "text": "kejadian-kejadian baik itu di saya gak tau dirubi ya kalau di python beberapa pernah dengar cuman di bahasa yang lain saya gak tau gitu ya begitulah jadi banyak kejadian sampai / lupa share screen nya apa? / share screen nya mau di nyalakan lagi ya sampai ya terus 2017 setelah kejadian itu setahun setelah kejadian itu npm mulai fokus ke security ya udah udah banyak lagi semakin banyak yang pakai 3 billion"
+    },
+    {
+      "start": 1145.64,
+      "end": 1171.76,
+      "text": "npm download every week bayangkan servernya kayak gimana itu ya / kan kebanyakan static file / iya sih itu bukan download doang ya / betul betul / terus ya selebihnya sih di nps ya secara umum ya cuman beberapa ada npm juga / udah mulai setel ya berarti udah gak ada decision yang"
+    },
+    {
+      "start": 1171.76,
+      "end": 1201.68,
+      "text": "udah gak ada perubahan signifikan lagi berarti kan habis itu / sudah tidak ada perubahan signifikan betul / paling terakhir ya si 2018 itu bisa pakai file mgs / betul nah seperti biasa seringnya untuk aplikasi apa bukan untuk untuk library atau tools open source itu biasanya di apa ya di di drive juga sama komunitas jadi ketika npm ini banyak disibukan oleh kejadian-kejadian"
+    },
+    {
+      "start": 1201.68,
+      "end": 1231.64,
+      "text": "dan incident-incident yang gak penting seperti ini bukan gak penting ya maksudnya yang ya security dan lain-lain jadi mereka kayak apa ya sumber daya tersedot ke hal-hal security npm sebagai tools-nya jadi kurang apa ya fiturnya kurang berkembang gitu muncul lah beberapa alternatif salah satunya yarn yarn ini pada awalnya dibuat / dibuat OFS yang itu ya / iya iya iya iya iya"
+    },
+    {
+      "start": 1231.64,
+      "end": 1260.6,
+      "text": "oleh facebook ya / oleh orang-orang yang saat itu bekerja di facebook ya meta karena waktu itu juga kalau gak salah react udah mulai berkembang ya udah mulai banyak yang pakai dan mereka merasa npm ini terlalu lambat akhirnya mereka bikin fitur utamanya adalah ketika kita sudah pernah melakukan instalasi sebuah package kita gak perlu download lagi dari internet masih tersimpan di cage atau di lokal kita"
+    },
+    {
+      "start": 1260.6,
+      "end": 1290.48,
+      "text": "kalau versi yang sama bahkan internet mati pun kita masih bisa instalasi / bisa dipakai ulang dari / bisa dipakai ulang itu itu / npm yang baru juga sudah bisa cache sih / justru itu yang tadi saya bilang jadi ketika dia kurang berkembang muncul yang baru untuk mendrive si npm-nya supaya berkembang jadi kayak / bagusnya itu system open source gitu ya / iya / iya kayak yang maksudnya kalau ngomong feature nih kan yarn selama beberapa tahun pertama tuh mereka banyak feature yang"
+    },
+    {
+      "start": 1290.48,
+      "end": 1320.44,
+      "text": "npm belum ada kayak workspaces itu yang paling wow banget pas itu ya abis itu mas sekarang npm juga udah ada / udah bisa betul jadi dia ketika dia mendownload sesuatu dari npm registry dia simpan ke hard disk kita jadi kalau misalkan kita install lagi kita gak perlu konek ke internet jadi menghemat bandwidth juga / kita bingung kok hard disk kita cepet ah habis / nah muncul lagi pnpm"
+    },
+    {
+      "start": 1320.44,
+      "end": 1350.4,
+      "text": "pnpm ini jualannya adalah this space efficient pks manager / bisa link ya / bisa link jadi hardlink / hardlink apa softlink ya pokoknya itulah hardlink ya jadi dia disipan di satu repo di satu folder tertentu ketika ada project kita / node folder gitu / ya node modules kita cuma mengarah ke folder yang itu"
+    },
+    {
+      "start": 1350.4,
+      "end": 1379.4,
+      "text": "gitu gitu / jadi gak ditaruh gak bikin lagi singling ya / iya / jadi pokoknya occupy jadi misalnya size nya berapa satu library itu size nya satu mega lah gitu jadi gak di copy jadi satu mega lagi yang dipakai beneran cuma itu ngaruh banget sih kalau apa / ngaruh banget / pengalaman beribagi / iya ngaruh banget sangat berpengaruh itu awalnya awalnya feature awalnya walaupun kemudian berkembang sama kayak yarn juga ya ada workspaces ada macem-macem ya ada banyak berkembang"
+    },
+    {
+      "start": 1379.4,
+      "end": 1409.36,
+      "text": "termasuk juga si pnpm / satu yang gue suka dari yarn keren banget itu gue suka sampai sekarang gak ada kayak yarn outdated meskipun di npm outdated sudah ada / ada / oh tnpm juga ada / yarn outdated itu bisa keren bisa liatin semua / outdated ada recursive ada flagnya macem-macem / tinggal cinta-cinta-cinta update semua yang kita cinta gak perlu satu-satu / look ivan kok hang / hang ya / emang hang / enggak enggak enggak enggak aman aman"
+    },
+    {
+      "start": 1409.36,
+      "end": 1438.88,
+      "text": "oh gue yang yang berarti / oke dan dia berkembang dia namahin kayak support mono repo yang lagi ngetrend juga sekarang kan si yarn juga bisa ya kalau gak salah ya npm juga bisa gak tahu nih / udah bisa semua sekarang / udah bisa semua / dulu yang paling pertama kali yarn yang pakai workspaces / yarn yes sekarang udah bisa semua / ini apa petfif kurang penting gak penting sih kan ini masing-masing tuh library terpisah ya dan gak ada contensi untuk penamaan"
+    },
+    {
+      "start": 1438.88,
+      "end": 1468.76,
+      "text": "itu nyebelinnya jadi kalau yarn pakai istilahnya itu workspaces nah kalau gak salah npm atau npm pakainya workspaces gak ada s nya itu nyebelin banget ya cuma maksudnya secara fungsi sih sebetulnya / sama / kompatibel lah mirip / iya nah temen-temen pakai yang mana nih kalau saya sih pakai pnpm sekarang ya walaupun npm nya ada kalau yarn udah lama gak dipakai karena kebutuhan kalau misalkan kayak ngajar gitu kan"
+    },
+    {
+      "start": 1468.76,
+      "end": 1475.76,
+      "text": "Kita ekspek orang install node, abis itu harus install iarn lagi kan ribet ya, jadi tetap pake npm dari dulu."
+    },
+    {
+      "start": 1475.76,
+      "end": 1480.76,
+      "text": "Kalau kita pikir ada npm, saya langsung alias npm."
+    },
+    {
+      "start": 1480.76,
+      "end": 1484.76,
+      "text": "-Alias npm. -Gue belum pernah pake npm."
+    },
+    {
+      "start": 1484.76,
+      "end": 1490.76,
+      "text": "Itu package.log-nya sama nggak? Atau dia bikin sendiri?"
+    },
+    {
+      "start": 1490.76,
+      "end": 1493.76,
+      "text": "Ada, ada sendiri, tapi bisa dipake yang udah ada."
+    },
+    {
+      "start": 1493.76,
+      "end": 1496.76,
+      "text": "Tapi mirip sama, maksudnya kompatabel sih."
+    },
+    {
+      "start": 1496.76,
+      "end": 1501.76,
+      "text": "Intinya kalau project yang sudah pakenya package.log, gimana?"
+    },
+    {
+      "start": 1501.76,
+      "end": 1506.76,
+      "text": "-Tetap ada, tetap dipake. -Paling di warning."
+    },
+    {
+      "start": 1506.76,
+      "end": 1510.76,
+      "text": "Kamu udah pake package manager lain, kayak standard, itu standard warning."
+    },
+    {
+      "start": 1510.76,
+      "end": 1516.76,
+      "text": "Kita kalau pake udah ada package.log JSON ya, itu kan tanda pake npm."
+    },
+    {
+      "start": 1516.76,
+      "end": 1520.76,
+      "text": "Kita pake iarn juga muncul kayak gitu, nah pake npm sama aja."
+    },
+    {
+      "start": 1520.76,
+      "end": 1524.76,
+      "text": "Tapi kalau fungsi sama aja."
+    },
+    {
+      "start": 1524.76,
+      "end": 1530.76,
+      "text": "Untuk lebih detailnya, disini ada komparasi command ya, atau perintah."
+    },
+    {
+      "start": 1530.76,
+      "end": 1534.76,
+      "text": "Kayak misalkan clean cage seperti apa."
+    },
+    {
+      "start": 1534.76,
+      "end": 1538.76,
+      "text": "Kalau dia nggak ada clean cage karena disimpan semua."
+    },
+    {
+      "start": 1538.76,
+      "end": 1542.76,
+      "text": "Cuma jadi kayak satu tempat, di satu tempat."
+    },
+    {
+      "start": 1542.76,
+      "end": 1547.76,
+      "text": "Cara installnya gimana, iarn nggak perlu pake install ya, boleh pake atau nggak, ini optional."
+    },
+    {
+      "start": 1547.76,
+      "end": 1551.76,
+      "text": "Jadi iarn spasi express, iarn spasi react gitu."
+    },
+    {
+      "start": 1551.76,
+      "end": 1554.76,
+      "text": "Kalau pnpm dan npm masih sama."
+    },
+    {
+      "start": 1554.76,
+      "end": 1559.76,
+      "text": "Jadi kayaknya npm sama pnpm, pnpm ini mencontoh sekali commandnya npm."
+    },
+    {
+      "start": 1559.76,
+      "end": 1562.76,
+      "text": "Tinggal tambahin pn nya aja di depan."
+    },
+    {
+      "start": 1562.76,
+      "end": 1566.76,
+      "text": "-Biar orang nggak kusing juga sih, ya kan? -Betul."
+    },
+    {
+      "start": 1566.76,
+      "end": 1569.76,
+      "text": "Dia juga ada add juga ternyata, baru tahu nih."
+    },
+    {
+      "start": 1569.76,
+      "end": 1574.76,
+      "text": "-Dia ngikutin iarn juga ya, sama kayak. -Jadi kayak react dan p-react."
+    },
+    {
+      "start": 1574.76,
+      "end": 1578.76,
+      "text": "-P-react. -Oh iya, apa kabarnya kusingnya?"
+    },
+    {
+      "start": 1578.76,
+      "end": 1583.76,
+      "text": "Ntar lagi, ntar lagi ada yang bikin p-view."
+    },
+    {
+      "start": 1583.76,
+      "end": 1586.76,
+      "text": "P-swell."
+    },
+    {
+      "start": 1586.76,
+      "end": 1590.76,
+      "text": "-Uninstall, update. -Nah slow p-react, runtimenya nggak perlu p."
+    },
+    {
+      "start": 1590.76,
+      "end": 1596.76,
+      "text": "NPX, nah NPX ini, ini yang berbeda ya."
+    },
+    {
+      "start": 1596.76,
+      "end": 1599.76,
+      "text": "NPX ini adalah executable."
+    },
+    {
+      "start": 1599.76,
+      "end": 1605.76,
+      "text": "Jadi biasanya kalau dulu kita pakai global, kalau sekarang kita bisa langsung."
+    },
+    {
+      "start": 1605.76,
+      "end": 1613.76,
+      "text": "Nah ini juga nyebelin, karena antara npm, iarn sama pnpm itu command execute-nya lain-lain."
+    },
+    {
+      "start": 1613.76,
+      "end": 1619.76,
+      "text": "Kalau pnpm itu pnpm exec."
+    },
+    {
+      "start": 1619.76,
+      "end": 1622.76,
+      "text": "Nggak ada di situ sih, coba bukain ini deh."
+    },
+    {
+      "start": 1622.76,
+      "end": 1626.76,
+      "text": "Pnpm ada pnpx kan?"
+    },
+    {
+      "start": 1626.76,
+      "end": 1632.76,
+      "text": "Oh iya, ada ya. Mungkin wrapping kalau yang standardnya pnpm exec."
+    },
+    {
+      "start": 1632.76,
+      "end": 1639.76,
+      "text": "Terus kalau iarn, iarn bukan iarnx tapi dlx."
+    },
+    {
+      "start": 1639.76,
+      "end": 1644.76,
+      "text": "Pnpx, ada, ada, saya udah pakai."
+    },
+    {
+      "start": 1644.76,
+      "end": 1649.76,
+      "text": "Kalau iarn dlx ternyata bukan iarnx."
+    },
+    {
+      "start": 1649.76,
+      "end": 1653.76,
+      "text": "Oh dlx, beda-beda ya."
+    },
+    {
+      "start": 1653.76,
+      "end": 1657.76,
+      "text": "Buka aja tuh link-nya ada di chat."
+    },
+    {
+      "start": 1657.76,
+      "end": 1663.76,
+      "text": "Oke. Oh dlx, beda lagi ya."
+    },
+    {
+      "start": 1663.76,
+      "end": 1671.76,
+      "text": "Itu fungsinya buat meng-execute entah dari lokal maupun dari remote ya."
+    },
+    {
+      "start": 1671.76,
+      "end": 1675.76,
+      "text": "Jalanin repository remote."
+    },
+    {
+      "start": 1675.76,
+      "end": 1677.76,
+      "text": "Tiga-tiganya masih di-maintain ya?"
+    },
+    {
+      "start": 1677.76,
+      "end": 1678.76,
+      "text": "Masih, masih."
+    },
+    {
+      "start": 1678.76,
+      "end": 1681.76,
+      "text": "Oh di-maintain, di-maintain."
+    },
+    {
+      "start": 1681.76,
+      "end": 1687.76,
+      "text": "Nah."
+    },
+    {
+      "start": 1687.76,
+      "end": 1691.76,
+      "text": "Iya."
+    },
+    {
+      "start": 1691.76,
+      "end": 1692.76,
+      "text": "Apa yang?"
+    },
+    {
+      "start": 1692.76,
+      "end": 1702.76,
+      "text": "Iya."
+    },
+    {
+      "start": 1702.76,
+      "end": 1711.76,
+      "text": "Saya suka pakai ini juga kadang kalau misalnya nggak, misalnya."
+    },
+    {
+      "start": 1711.76,
+      "end": 1713.76,
+      "text": "Malas install."
+    },
+    {
+      "start": 1713.76,
+      "end": 1716.76,
+      "text": "Malas install, malas install BabelJS."
+    },
+    {
+      "start": 1716.76,
+      "end": 1722.76,
+      "text": "Untuk transpile, yaudah NPI, BabelJS, langsung transpile, beres gitu."
+    },
+    {
+      "start": 1722.76,
+      "end": 1726.76,
+      "text": "Terus sama semua flight, terus kita ngedeside output-nya."
+    },
+    {
+      "start": 1726.76,
+      "end": 1727.76,
+      "text": "Iya."
+    },
+    {
+      "start": 1727.76,
+      "end": 1730.76,
+      "text": "Buat testingnya bisa kalau malas."
+    },
+    {
+      "start": 1730.76,
+      "end": 1732.76,
+      "text": "Oh iya, benar-benar."
+    },
+    {
+      "start": 1732.76,
+      "end": 1739.76,
+      "text": "Tapi menariknya meskipun npm ada tool sendiri, yarn ada tool sendiri, npm ada tool sendiri,"
+    },
+    {
+      "start": 1739.76,
+      "end": 1743.76,
+      "text": "yang lain-lain mungkin ada lagi ya, yang kita nggak tahu atau ada yang baru lagi nanti."
+    },
+    {
+      "start": 1743.76,
+      "end": 1751.76,
+      "text": "Tapi mereka, apa ya, mereka mendownload si library-nya berasal dari..."
+    },
+    {
+      "start": 1751.76,
+      "end": 1752.76,
+      "text": "Sumbernya sama."
+    },
+    {
+      "start": 1752.76,
+      "end": 1760.76,
+      "text": "Sumber yang adalah npmjs.com, istilahnya itu adalah package registry, jadi package index ya."
+    },
+    {
+      "start": 1760.76,
+      "end": 1766.76,
+      "text": "Search index lah, kalau kita mau cari package apa, kita ke npmjs."
+    },
+    {
+      "start": 1766.76,
+      "end": 1770.76,
+      "text": "Ini repository."
+    },
+    {
+      "start": 1770.76,
+      "end": 1771.76,
+      "text": "Iya, registry."
+    },
+    {
+      "start": 1771.76,
+      "end": 1784.76,
+      "text": "Nah, jadi plot yang belum tahu perlu banget dibedain antara npm sebagai aplikasi software package manager dan npmjs sebagai registry."
+    },
+    {
+      "start": 1784.76,
+      "end": 1789.76,
+      "text": "Maksudnya mereka itu perusahaan kan, perusahaan yang memiliki layanan registry."
+    },
+    {
+      "start": 1789.76,
+      "end": 1797.76,
+      "text": "Jadi kalau, walaupun kita pakai yarn, ya sebenarnya download-nya dari npmjs juga, karena itu dua hal yang terpisah."
+    },
+    {
+      "start": 1797.76,
+      "end": 1801.76,
+      "text": "Github juga punya loh kayaknya."
+    },
+    {
+      "start": 1801.76,
+      "end": 1806.76,
+      "text": "Github juga ada, ya terakhir-akhir ini mulai banyak yang muncul, dan npm sendiri sebenarnya nggak hanya publik."
+    },
+    {
+      "start": 1806.76,
+      "end": 1813.76,
+      "text": "Misalkan temen-temen mau bikin aplikasi yang proprietary, nggak boleh dilihat sama orang, tapi butuh npm, butuh installer npm."
+    },
+    {
+      "start": 1813.76,
+      "end": 1814.76,
+      "text": "Bisa."
+    },
+    {
+      "start": 1814.76,
+      "end": 1816.76,
+      "text": "Bisa dibikin private."
+    },
+    {
+      "start": 1816.76,
+      "end": 1827.76,
+      "text": "Apat, private, mereka justru cari duitnya dari situ, untuk akun premium buat scope private."
+    },
+    {
+      "start": 1827.76,
+      "end": 1832.76,
+      "text": "Betul, baru kemudian si github mengeluarkan package registry juga."
+    },
+    {
+      "start": 1832.76,
+      "end": 1836.76,
+      "text": "Ini ada link-nya, buka aja Mas Tiza, kalau github gitu."
+    },
+    {
+      "start": 1836.76,
+      "end": 1840.76,
+      "text": "Ada yang pernah publik ke registry selain npmjs?"
+    },
+    {
+      "start": 1840.76,
+      "end": 1841.76,
+      "text": "Belum."
+    },
+    {
+      "start": 1841.76,
+      "end": 1842.76,
+      "text": "Ke github?"
+    },
+    {
+      "start": 1842.76,
+      "end": 1849.76,
+      "text": "Di salah satu project client, dan kondonya kan nggak mau di-share."
+    },
+    {
+      "start": 1849.76,
+      "end": 1851.76,
+      "text": "Nggak boleh di-share."
+    },
+    {
+      "start": 1851.76,
+      "end": 1852.76,
+      "text": "Nggak boleh di-share."
+    },
+    {
+      "start": 1852.76,
+      "end": 1860.76,
+      "text": "Ini, jadi cuma cerita aja, jadi kita tuh bikin komponen-komponen, komponen-komponen kita."
+    },
+    {
+      "start": 1860.76,
+      "end": 1876.76,
+      "text": "Jadi, website-nya ada banyak, mau di-redesign semua, tapi kan komponen-nya sama tuh ya, card, postcard, header, menu-menu."
+    },
+    {
+      "start": 1876.76,
+      "end": 1879.76,
+      "text": "Kan intinya sama semua gitu ya, cuma beda-beda."
+    },
+    {
+      "start": 1879.76,
+      "end": 1886.76,
+      "text": "Jadi, dump komponen, artinya komponen hanya menerima props dan..."
+    },
+    {
+      "start": 1886.76,
+      "end": 1888.76,
+      "text": "Nggak ada logiknya lah, pokoknya UI."
+    },
+    {
+      "start": 1888.76,
+      "end": 1891.76,
+      "text": "Nggak ada logiknya, pokoknya terima props jadi apa gitu."
+    },
+    {
+      "start": 1891.76,
+      "end": 1899.76,
+      "text": "Nah, jadi kita publish semua komponen-nya ke private npm registry, github dalam hal ini."
+    },
+    {
+      "start": 1899.76,
+      "end": 1901.76,
+      "text": "Dan ya sudah, pakai itu aja."
+    },
+    {
+      "start": 1901.76,
+      "end": 1906.76,
+      "text": "Jadi, semuanya dipublish ke sana, dan ada storybook-nya segala macam, lengkap."
+    },
+    {
+      "start": 1906.76,
+      "end": 1910.76,
+      "text": "Dan untuk supaya bisa publish, karena komponen-nya udah banyak kan."
+    },
+    {
+      "start": 1910.76,
+      "end": 1916.76,
+      "text": "Jadi, satu, kita nggak pakai honor repo, jadi satu komponen itu satu registry."
+    },
+    {
+      "start": 1916.76,
+      "end": 1917.76,
+      "text": "Satu package."
+    },
+    {
+      "start": 1917.76,
+      "end": 1927.76,
+      "text": "Jadi, num add blah-blah slash article-cut small, artikel-cut small contohnya."
+    },
+    {
+      "start": 1927.76,
+      "end": 1930.76,
+      "text": "Nah, jadi satu-satu."
+    },
+    {
+      "start": 1930.76,
+      "end": 1935.76,
+      "text": "Untuk supaya, dan kita maintain-nya pakai satu repo kan, satu repo, monor repo."
+    },
+    {
+      "start": 1935.76,
+      "end": 1940.76,
+      "text": "Dan supaya bisa publish semua kesana, pakainya learner.js."
+    },
+    {
+      "start": 1940.76,
+      "end": 1944.76,
+      "text": "Oh iya, learner yang ngetrend banget, pernah dulu ya."
+    },
+    {
+      "start": 1944.76,
+      "end": 1948.76,
+      "text": "Masih mereka masih pakai sampai sekarang, masih stable."
+    },
+    {
+      "start": 1948.76,
+      "end": 1956.76,
+      "text": "Ntar, kalau buat publish ke github registry, itu berarti di package.json itu cuma ada kayak itunya ya."
+    },
+    {
+      "start": 1956.76,
+      "end": 1959.76,
+      "text": "Kayak ada field khusus, apa sih publish ya?"
+    },
+    {
+      "start": 1959.76,
+      "end": 1962.76,
+      "text": "Ada config-nya kan, di package.json."
+    },
+    {
+      "start": 1962.76,
+      "end": 1978.76,
+      "text": "Kita sudah define npm package.github ini, jadi token-nya itu, waktu kita tambahkan itu di lokal."
+    },
+    {
+      "start": 1978.76,
+      "end": 1989.76,
+      "text": "Nah, soalnya barusan ada pengalaman nggak penting, berusaha mempublish package ke registry github."
+    },
+    {
+      "start": 1989.76,
+      "end": 1992.76,
+      "text": "Tapi gagal, alasannya lebih nggak penting lagi."
+    },
+    {
+      "start": 1992.76,
+      "end": 1998.76,
+      "text": "Karena tiba-tiba nggak bisa login ke npm dari command line."
+    },
+    {
+      "start": 1998.76,
+      "end": 2002.76,
+      "text": "Kan kalau mau publish package, mesti npm publish ya."
+    },
+    {
+      "start": 2002.76,
+      "end": 2003.76,
+      "text": "Tiba-tiba nggak bisa login."
+    },
+    {
+      "start": 2003.76,
+      "end": 2010.76,
+      "text": "Maksudnya apa, kan buka UI login di web kan, terus masukin email dan password."
+    },
+    {
+      "start": 2010.76,
+      "end": 2013.76,
+      "text": "Betul, bukan karena password-nya salah atau apa."
+    },
+    {
+      "start": 2013.76,
+      "end": 2018.76,
+      "text": "Terus apa sih, ada konfirmasi OTP yang dikirim ke email, tulisannya gitu doang."
+    },
+    {
+      "start": 2018.76,
+      "end": 2021.76,
+      "text": "Cuma nggak pernah masuk ke email, udah dicoba berkali-kali."
+    },
+    {
+      "start": 2021.76,
+      "end": 2023.76,
+      "text": "Ya intinya jadi nggak bisa login kan."
+    },
+    {
+      "start": 2023.76,
+      "end": 2027.76,
+      "text": "Nah, aneh juga kenapa, tapi nggak ada warning apapun."
+    },
+    {
+      "start": 2027.76,
+      "end": 2032.76,
+      "text": "Jadi kayak cuma, ya kami sudah mengirim OTP ke email anda, silahkan dicek."
+    },
+    {
+      "start": 2032.76,
+      "end": 2034.76,
+      "text": "OTP-nya nggak pernah masuk."
+    },
+    {
+      "start": 2034.76,
+      "end": 2037.76,
+      "text": "Terus kan submit ticket ya, submit ticket ke npm.js."
+    },
+    {
+      "start": 2037.76,
+      "end": 2039.76,
+      "text": "Ya udah, sambil nunggu iseng nih."
+    },
+    {
+      "start": 2039.76,
+      "end": 2045.76,
+      "text": "Ya kali pengen lah coba, soalnya kan ada UI-nya juga bagus banget di github."
+    },
+    {
+      "start": 2045.76,
+      "end": 2050.76,
+      "text": "Di url github repo kita kan jadi ada itunya, package-nya."
+    },
+    {
+      "start": 2050.76,
+      "end": 2054.76,
+      "text": "Udah berusaha nge-setting-setting, nggak bisa-bisa, jadi kesing."
+    },
+    {
+      "start": 2054.76,
+      "end": 2061.76,
+      "text": "Nah, at the same time, selama kan udah nggak berhasil publish ke github registry,"
+    },
+    {
+      "start": 2061.76,
+      "end": 2066.76,
+      "text": "besok paginya udah dapat respon dari support desk npm."
+    },
+    {
+      "start": 2066.76,
+      "end": 2073.76,
+      "text": "Ternyata kasusnya adalah gini, kami nggak tahu kenapa email kamu tuh masuk ke blog please."
+    },
+    {
+      "start": 2073.76,
+      "end": 2076.76,
+      "text": "Nah, sekarang sudah di unblock lagi."
+    },
+    {
+      "start": 2076.76,
+      "end": 2078.76,
+      "text": "Ya udah, langsung bisa. Udah, selesai."
+    },
+    {
+      "start": 2078.76,
+      "end": 2086.76,
+      "text": "Ya udah, akhirnya package itu dipublish ke npm, batal gagal berusaha publish ke github."
+    },
+    {
+      "start": 2086.76,
+      "end": 2090.76,
+      "text": "Kayaknya sering nge-spec."
+    },
+    {
+      "start": 2094.76,
+      "end": 2103.76,
+      "text": "Jadi, disini juga udah dijelasin ya, package registry itu apa yang tadi udah kita bahas ya, npm.js itu adalah package registry-nya."
+    },
+    {
+      "start": 2103.76,
+      "end": 2111.76,
+      "text": "Tapi npm bukan hanya satu-satunya opsi, kita bisa pakai Microsoft Azure, ternyata ada servisnya, dan ada github pakai registry."
+    },
+    {
+      "start": 2111.76,
+      "end": 2115.76,
+      "text": "Ada GitLab juga kalau nggak salah yang ada, dan ada banyak yang lain."
+    },
+    {
+      "start": 2115.76,
+      "end": 2127.76,
+      "text": "Atlasian ada nggak sih? / Atlasian itu bitbucket ya? / Dia ada bitbucket. / Yes, coba cari aja."
+    },
+    {
+      "start": 2127.76,
+      "end": 2132.76,
+      "text": "Google nggak bikin ya? / Iya ya."
+    },
+    {
+      "start": 2132.76,
+      "end": 2140.76,
+      "text": "Npm dan npm.js itu adalah dua hal yang... / Kalau Google, gue tahu adanya docker registry dia bisa bikin pakai Google Cloud."
+    },
+    {
+      "start": 2140.76,
+      "end": 2145.76,
+      "text": "Docker registry, Google Cloud, ya."
+    },
+    {
+      "start": 2145.76,
+      "end": 2152.76,
+      "text": "Ya itu sama juga ya, dengan docker juga sama tuh ya, registry, package registry gitu ya."
+    },
+    {
+      "start": 2152.76,
+      "end": 2160.76,
+      "text": "Oke, oke. Nah, terus kita bahas apa lagi?"
+    },
+    {
+      "start": 2160.76,
+      "end": 2166.76,
+      "text": "Apa lagi ya? / Terakhir nih yang baru tuh. / Oh iya, yang baru ya, yang baru."
+    },
+    {
+      "start": 2166.76,
+      "end": 2171.76,
+      "text": "Nah, kan yang lagi hype, yang lagi heboh kan kemarin."
+    },
+    {
+      "start": 2171.76,
+      "end": 2178.76,
+      "text": "Kalau kita install Node.js, secara otomatis kita install npm dan nps."
+    },
+    {
+      "start": 2178.76,
+      "end": 2185.76,
+      "text": "Yang menariknya, boon.js yang baru itu ternyata bisa juga punya package manager."
+    },
+    {
+      "start": 2185.76,
+      "end": 2192.76,
+      "text": "Jadi kalau dia nggak perlu pakai npm, dia langsung pakai boon add gitu ya, atau boon install gitu ya? / Boon install."
+    },
+    {
+      "start": 2192.76,
+      "end": 2197.76,
+      "text": "Dan itu udah include ya? / Udah include ya. / Sebelum kita masuk ke boon,"
+    },
+    {
+      "start": 2197.76,
+      "end": 2203.76,
+      "text": "kan hype-nya itu kan lagi, boon itu cepat. Boon itu gimana? Boon itu lebih cepat dan segala macem."
+    },
+    {
+      "start": 2203.76,
+      "end": 2211.76,
+      "text": "Jadi kita demo yuk, tes aja di project beneran gitu, project open source-nya."
+    },
+    {
+      "start": 2211.76,
+      "end": 2216.76,
+      "text": "Sebelum kita bahas tentang boon lebih cepat. Jadi hype-nya boon itu kan lebih cepat katanya ya."
+    },
+    {
+      "start": 2216.76,
+      "end": 2218.76,
+      "text": "Kita tes, kita tes."
+    },
+    {
+      "start": 2218.76,
+      "end": 2226.76,
+      "text": "Buat teman-teman yang belum tahu, boon.js itu adalah alternatif run time."
+    },
+    {
+      "start": 2226.76,
+      "end": 2230.76,
+      "text": "Alternatif dari setara Node. / Javascript."
+    },
+    {
+      "start": 2230.76,
+      "end": 2240.76,
+      "text": "Alternatif dari Node.js, tapi bedanya kalau Node.js dan Deno itu menggunakan V8-nya Google Chrome,"
+    },
+    {
+      "start": 2240.76,
+      "end": 2244.76,
+      "text": "mesin engine Javascript-nya Google Chrome yang namanya V8."
+    },
+    {
+      "start": 2244.76,
+      "end": 2251.76,
+      "text": "Kalau si boon.js menggunakan Javascript Core yang digunakan di Safari dan WebKit."
+    },
+    {
+      "start": 2251.76,
+      "end": 2257.76,
+      "text": "Kalau buat teman-teman yang bingung kenapa ada apa itu Javascript runtime V8, Javascript Core,"
+    },
+    {
+      "start": 2257.76,
+      "end": 2261.76,
+      "text": "kita kayaknya pernah punya episode Javascript runtime. / Sudah bahas."
+    },
+    {
+      "start": 2261.76,
+      "end": 2267.76,
+      "text": "Cukup lengkap ya bahas tentang Javascript engine. / Terus macemnya lupa punya episode dulu adalah."
+    },
+    {
+      "start": 2267.76,
+      "end": 2274.76,
+      "text": "Kita bahas tentang Gecko, kita bahas tentang CSS engine juga banyak di episode itu."
+    },
+    {
+      "start": 2274.76,
+      "end": 2277.76,
+      "text": "Cari aja nanti di sini. Oh enggak ada ya? Di sini, di mana?"
+    },
+    {
+      "start": 2277.76,
+      "end": 2286.76,
+      "text": "Kayaknya kita perlu melanjutkan itunya kita, projectnya untuk seluruh... / Gallery."
+    },
+    {
+      "start": 2286.76,
+      "end": 2291.76,
+      "text": "Gallery-nya, terus dibikin... / Betul. / Nanti kita harus lanjut sudah ngomongin itu deh."
+    },
+    {
+      "start": 2291.76,
+      "end": 2299.76,
+      "text": "Sambil menunggu Ivan siap-siap, kita lihat ini dulu, boon.sh alamatnya."
+    },
+    {
+      "start": 2299.76,
+      "end": 2303.76,
+      "text": "Nah di sini teman-teman bisa lihat ya, perbedaan itu jauh sekali."
+    },
+    {
+      "start": 2303.76,
+      "end": 2308.76,
+      "text": "Kita enggak bisa menelan mentah-mentah si benchmark sih ya, harus coba sendiri."
+    },
+    {
+      "start": 2308.76,
+      "end": 2311.76,
+      "text": "Ya namanya marketing. / Lumayan. / Iya."
+    },
+    {
+      "start": 2311.76,
+      "end": 2314.76,
+      "text": "Kalau pakai database tuh. / Pasti lebih cepat."
+    },
+    {
+      "start": 2314.76,
+      "end": 2317.76,
+      "text": "Mungkin dia tulis di sini dia paling lag kan."
+    },
+    {
+      "start": 2317.76,
+      "end": 2325.76,
+      "text": "Nggak lebih lambat, nggak mungkin. Iya sama ini, kadang kan 100-200 atau 300% lebih cepat."
+    },
+    {
+      "start": 2325.76,
+      "end": 2330.76,
+      "text": "Tapi lebih cepatnya itu misalnya 100 millisecond dibanding 300 millisecond."
+    },
+    {
+      "start": 2330.76,
+      "end": 2334.76,
+      "text": "Yang mana buat kita tahu project pada umumnya ya."
+    },
+    {
+      "start": 2334.76,
+      "end": 2340.76,
+      "text": "Maksudnya kecuali kita punya project yang ekstrim, yang berat banget, kita harus LLM atau apalah."
+    },
+    {
+      "start": 2340.76,
+      "end": 2344.76,
+      "text": "Tapi kalau kita project regular, kayaknya 100 millisecond sama 300 millisecond,"
+    },
+    {
+      "start": 2344.76,
+      "end": 2347.76,
+      "text": "kaya practically nggak ada bedanya."
+    },
+    {
+      "start": 2347.76,
+      "end": 2355.76,
+      "text": "Tapi ya menarik sih, minimal ada alternatif dan menariknya pakai engine yang selain V8 jadi nggak monopoli lah."
+    },
+    {
+      "start": 2355.76,
+      "end": 2359.76,
+      "text": "Bagus kan itu karena boon, ngedorong ekosistem juga. / Betul."
+    },
+    {
+      "start": 2359.76,
+      "end": 2367.76,
+      "text": "Yang menariknya lagi, aplikasi teman-teman yang sudah di-develop dengan menggunakan JavaScript dan OJS,"
+    },
+    {
+      "start": 2367.76,
+      "end": 2370.76,
+      "text": "kompatibel dengan Boon dan juga dengan OJS. / Terus jalan aja, sama."
+    },
+    {
+      "start": 2370.76,
+      "end": 2375.76,
+      "text": "Kalau nggak kompatibel, nggak ada yang mau pakai. / Betul."
+    },
+    {
+      "start": 2375.76,
+      "end": 2382.76,
+      "text": "Saya belum ngecek ya, kalau Boon ini kan dia pakai package management sendiri."
+    },
+    {
+      "start": 2382.76,
+      "end": 2391.76,
+      "text": "Gimana dengan Deno? Deno kalau nggak salah kita bisa mendefinisikan URL library kita di import kita kan."
+    },
+    {
+      "start": 2391.76,
+      "end": 2395.76,
+      "text": "Itu yang membedakan Deno dengan NPM juga kan."
+    },
+    {
+      "start": 2395.76,
+      "end": 2406.76,
+      "text": "Kalau NPM kan Import React From React kan. Kalau Deno itu kan ada Import React From @reactjs.com/blablabla gitu lah."
+    },
+    {
+      "start": 2406.76,
+      "end": 2410.76,
+      "text": "Kalau nggak salah. Tolong dikoreksi kalau salah ya."
+    },
+    {
+      "start": 2410.76,
+      "end": 2417.76,
+      "text": "Mereka tuh pakai package managernya apa ya? NPM juga apa? Kompatibel dengan NPM kali ya?"
+    },
+    {
+      "start": 2417.76,
+      "end": 2423.76,
+      "text": "Oh pakai URL mah. / Pakai URL kan, bener kan? / Iya."
+    },
+    {
+      "start": 2423.76,
+      "end": 2426.76,
+      "text": "Jadi mereka nggak pakai package manager gitu?"
+    },
+    {
+      "start": 2426.76,
+      "end": 2434.76,
+      "text": "Ya mungkin mereka internally kan pasti harus ada suatu bentuk management kan."
+    },
+    {
+      "start": 2434.76,
+      "end": 2441.76,
+      "text": "Harus ada di-store minimal itu di-store di mana dan ada listnya packagenya apa, versinya berapa."
+    },
+    {
+      "start": 2441.76,
+      "end": 2446.76,
+      "text": "Itu berarti suatu jenis, suatu bentuk package management."
+    },
+    {
+      "start": 2446.76,
+      "end": 2456.76,
+      "text": "Ini contohnya nih. Export blablabla URL. Nah yang menariknya dengan pendekatan seperti ini kita bisa punya registri sendiri."
+    },
+    {
+      "start": 2456.76,
+      "end": 2465.76,
+      "text": "Yang private mungkin. Jadi nggak perlu NPM JS gitu kan. Kalau kita mau taro di server kita ya taro aja udah gitu."
+    },
+    {
+      "start": 2465.76,
+      "end": 2469.76,
+      "text": "Itu yang menariknya. / Oke. Udah. / Oke. Siap-siap?"
+    },
+    {
+      "start": 2469.76,
+      "end": 2477.76,
+      "text": "Siap-siap. Siap-siap. / Asik. Demo demo. / Demo demo. Bukan deno ya."
+    },
+    {
+      "start": 2477.76,
+      "end": 2482.76,
+      "text": "Demo deno. / Oke. / Demo deno. / Bun bun."
+    },
+    {
+      "start": 2482.76,
+      "end": 2489.76,
+      "text": "Catatan seorang demonstran. Demonstrancode. / Demonstrancode."
+    },
+    {
+      "start": 2489.76,
+      "end": 2499.76,
+      "text": "Oke. Application entire screen aja gampang karena harus semua. / Oke."
+    },
+    {
+      "start": 2499.76,
+      "end": 2502.76,
+      "text": "Mau nggak? / Kesini dulu biar gampang."
+    },
+    {
+      "start": 2502.76,
+      "end": 2508.76,
+      "text": "Nah. Oops. Salah. / Wiss. / Nah. / Dia habis laporan nih."
+    },
+    {
+      "start": 2508.76,
+      "end": 2520.76,
+      "text": "Iya. Oke. Sekarang ini projeknya ya. WP paski yang saya buat untuk menambahkan paski fitur ke WordPress."
+    },
+    {
+      "start": 2520.76,
+      "end": 2524.76,
+      "text": "Di paski ini. / Ini plugin ya. Plugin WordPress ya. / Plugin. Plugin WordPress ya."
+    },
+    {
+      "start": 2524.76,
+      "end": 2530.76,
+      "text": "Dan saya pakai dev dependency. Dan dependency ini ya. Di paskinya."
+    },
+    {
+      "start": 2530.76,
+      "end": 2537.76,
+      "text": "Oke. Kita lihat dulu dari sisi. / Eh sebentar. Tunggu. Kita belum bahas nih. Dependency sama dev dependency."
+    },
+    {
+      "start": 2537.76,
+      "end": 2544.76,
+      "text": "Sekalian aja kita bahas. / Ya. / Apa bedanya? / Sekilas aja. Nanti kalau yang di tell kayaknya episode itu sendiri."
+    },
+    {
+      "start": 2544.76,
+      "end": 2554.76,
+      "text": "Ini di package.jsonnya saya. Kalau yang dependency itu adalah dependency yang akan dipakai di production atau di live."
+    },
+    {
+      "start": 2554.76,
+      "end": 2562.76,
+      "text": "Akan di load. / Akan di jalankan pas orang lain, aplikasi lainnya yang pakai, yang install aplikasi kita ngejalanin."
+    },
+    {
+      "start": 2562.76,
+      "end": 2567.76,
+      "text": "Si dependency itu harus ada ya. Karena bakal dipakai."
+    },
+    {
+      "start": 2567.76,
+      "end": 2573.76,
+      "text": "Sedangkan dev dependency itu development dependency yang hanya dipakai saat kita nge-develop."
+    },
+    {
+      "start": 2573.76,
+      "end": 2581.76,
+      "text": "Jadi saat kita melakukan transpile, linter yang episode lalu yang nge-linter. Ini ada ISLint, ada pretier."
+    },
+    {
+      "start": 2581.76,
+      "end": 2588.76,
+      "text": "Itu kan nggak perlu. Ada feed. / Termasuk juga TypeScript kan. TypeScript kan pas dependency kan nggak perlu kan."
+    },
+    {
+      "start": 2588.76,
+      "end": 2595.76,
+      "text": "Karena itu dalam JavaScript kan. / Ya dev dependency. / Ya lagi kan kan udah di compile juga pasti di distribute."
+    },
+    {
+      "start": 2595.76,
+      "end": 2600.76,
+      "text": "Bisa feed, bisa webpack, bisa roll up. Itu semua dev dependency."
+    },
+    {
+      "start": 2600.76,
+      "end": 2610.76,
+      "text": "Sedangkan kalau misalnya teman-teman pakai loadas yang akan dipakai di production atau di load di client side itu perlu di dependencies."
+    },
+    {
+      "start": 2610.76,
+      "end": 2619.76,
+      "text": "Berarti analoginya kalau beli makanan, kita beli nasi pecelele dibungkus. Pas kita bawa bungkus kan."
+    },
+    {
+      "start": 2619.76,
+      "end": 2626.76,
+      "text": "Itu harus ada kertasnya, harus ada nasinya, harus ada sambel, ada karet segala macam."
+    },
+    {
+      "start": 2626.76,
+      "end": 2632.76,
+      "text": "Tapi kan cobeknya yang buat ngulek sambel itu kan cuma buat proses membuatkan makanannya."
+    },
+    {
+      "start": 2632.76,
+      "end": 2637.76,
+      "text": "Tapi kan nggak dibawa sama kita pas beli makanan. / Kita nggak perlu bawa pulang cobeknya ya."
+    },
+    {
+      "start": 2637.76,
+      "end": 2642.76,
+      "text": "Betul banget. / Iya jadi lapar."
+    },
+    {
+      "start": 2642.76,
+      "end": 2654.76,
+      "text": "Nah saya sudah supaya sah saya hapus dulu note modules ya. Clean ya nggak ada note modules ya."
+    },
+    {
+      "start": 2654.76,
+      "end": 2661.76,
+      "text": "Yang pertama kita pakai npm install."
+    },
+    {
+      "start": 2661.76,
+      "end": 2669.76,
+      "text": "Oke note nya saya itu versi 16, terus npm nya versi 8."
+    },
+    {
+      "start": 2669.76,
+      "end": 2672.76,
+      "text": "Saya masih pakai 16 ya teman-teman karena kebutuhan project."
+    },
+    {
+      "start": 2672.76,
+      "end": 2677.76,
+      "text": "Oke npm install. Eh salah saya time ya, saya time."
+    },
+    {
+      "start": 2677.76,
+      "end": 2681.76,
+      "text": "Ditunggung waktunya ya berapa lama ya? / Iya."
+    },
+    {
+      "start": 2684.76,
+      "end": 2691.76,
+      "text": "Ini kayak dipercepat gitu ya, kayak 2x. / Oke, 8 detik."
+    },
+    {
+      "start": 2691.76,
+      "end": 2695.76,
+      "text": "8 detik, kita hapus. / Hapus lagi."
+    },
+    {
+      "start": 2695.76,
+      "end": 2700.76,
+      "text": "Kita hapus, sah ya, nggak ada lagi, sudah. / Sekarang pakai boon."
+    },
+    {
+      "start": 2700.76,
+      "end": 2705.76,
+      "text": "Boon, install. Oke boon, lanjut."
+    },
+    {
+      "start": 2705.76,
+      "end": 2709.76,
+      "text": "Siap boon. / Ses. Berapa? / 0,02."
+    },
+    {
+      "start": 2709.76,
+      "end": 2716.76,
+      "text": "Cepet banget sih asli. Sampai nggak ada loader, nggak ada apa sih sambil ngomong langsung ngobrol."
+    },
+    {
+      "start": 2716.76,
+      "end": 2723.76,
+      "text": "Gila cepet banget. / Dua-duanya npm saya sudah punya cache, boon saya juga sudah punya cache."
+    },
+    {
+      "start": 2723.76,
+      "end": 2727.76,
+      "text": "Jadi bukan download lagi. Dua-duanya sudah punya cache."
+    },
+    {
+      "start": 2727.76,
+      "end": 2730.76,
+      "text": "Coba lame rave lagi, note module nya di hapus lagi."
+    },
+    {
+      "start": 2730.76,
+      "end": 2733.76,
+      "text": "Oke. / Terus npm install lagi."
+    },
+    {
+      "start": 2733.76,
+      "end": 2737.76,
+      "text": "Ini nggak dari cache ya? / Enggak."
+    },
+    {
+      "start": 2737.76,
+      "end": 2741.76,
+      "text": "Oke. / Oh wow."
+    },
+    {
+      "start": 2741.76,
+      "end": 2745.76,
+      "text": "Cepet sekali. Jauh. Jauh sekali bedanya."
+    },
+    {
+      "start": 2745.76,
+      "end": 2748.76,
+      "text": "Sudah kelihatan ya? / Kelihatan ya? / Biasa."
+    },
+    {
+      "start": 2748.76,
+      "end": 2752.76,
+      "text": "Sah, sah ya, sah. Oke. Sekarang Bill."
+    },
+    {
+      "start": 2752.76,
+      "end": 2756.76,
+      "text": "Saya ada Bill. Bill nya jelasin sedikit biar temen-temen tahu."
+    },
+    {
+      "start": 2756.76,
+      "end": 2760.76,
+      "text": "Jalannya npm run clean dan feed Bill."
+    },
+    {
+      "start": 2760.76,
+      "end": 2766.76,
+      "text": "Run clean nya itu cuma bersih aset direktur saya di hapus."
+    },
+    {
+      "start": 2766.76,
+      "end": 2769.76,
+      "text": "Mnlf doang. / Dibuild lagi."
+    },
+    {
+      "start": 2769.76,
+      "end": 2773.76,
+      "text": "Dan feed saya itu gini doang, config nya."
+    },
+    {
+      "start": 2773.76,
+      "end": 2776.76,
+      "text": "Ambil config bla bla bla, roll up."
+    },
+    {
+      "start": 2776.76,
+      "end": 2780.76,
+      "text": "Ada 2 endpoint, user profile sama login js."
+    },
+    {
+      "start": 2780.76,
+      "end": 2782.76,
+      "text": "That's it. Dan ada external global."
+    },
+    {
+      "start": 2782.76,
+      "end": 2786.76,
+      "text": "External global itu dari WordPress global yang kita cerita kemarin ya."
+    },
+    {
+      "start": 2786.76,
+      "end": 2789.76,
+      "text": "Jadi supaya nggak perlu di-compile."
+    },
+    {
+      "start": 2789.76,
+      "end": 2791.76,
+      "text": "WordPress global nya nggak perlu di-compile."
+    },
+    {
+      "start": 2791.76,
+      "end": 2793.76,
+      "text": "Oke. That's it. Simple."
+    },
+    {
+      "start": 2793.76,
+      "end": 2798.76,
+      "text": "Oke, sekarang. / Kita coba pakai, tadi kita install pakai npm ya."
+    },
+    {
+      "start": 2798.76,
+      "end": 2801.76,
+      "text": "Time, npm, run, build."
+    },
+    {
+      "start": 2801.76,
+      "end": 2805.76,
+      "text": "Oke. Gede gede gede gede gede gede gede gede."
+    },
+    {
+      "start": 2805.76,
+      "end": 2807.76,
+      "text": "1,6, 1."
+    },
+    {
+      "start": 2807.76,
+      "end": 2810.76,
+      "text": "Lumayan, lumayan. / Second. Ini, ini. / Nggak lama-lama."
+    },
+    {
+      "start": 2810.76,
+      "end": 2813.76,
+      "text": "Oke. / Oke. / Kita coba pakai boon."
+    },
+    {
+      "start": 2813.76,
+      "end": 2815.76,
+      "text": "Npm, salah."
+    },
+    {
+      "start": 2815.76,
+      "end": 2819.76,
+      "text": "Time, boon, run, build."
+    },
+    {
+      "start": 2819.76,
+      "end": 2823.76,
+      "text": "Dia tetap bisa sama mengikuti package.json script."
+    },
+    {
+      "start": 2823.76,
+      "end": 2825.76,
+      "text": "Oke. / Si boon. / Nggak perlu diubah apa-apa ya."
+    },
+    {
+      "start": 2825.76,
+      "end": 2828.76,
+      "text": "Nggak perlu. / Tanpa ada perubahan sama sekali ya. / 1,97."
+    },
+    {
+      "start": 2828.76,
+      "end": 2831.76,
+      "text": "Wow. / Lebih cepat ya."
+    },
+    {
+      "start": 2831.76,
+      "end": 2834.76,
+      "text": "Jauh ya. / Oke, balik lagi ke npm."
+    },
+    {
+      "start": 2834.76,
+      "end": 2837.76,
+      "text": "Oke, 1,56."
+    },
+    {
+      "start": 2837.76,
+      "end": 2840.76,
+      "text": "Kita buat 2 kali deh biar kerasa."
+    },
+    {
+      "start": 2840.76,
+      "end": 2843.76,
+      "text": "Biar nggak ada sulap, nggak ada sihirnya gitu ya."
+    },
+    {
+      "start": 2843.76,
+      "end": 2846.76,
+      "text": "Tetap terasa ya. / Jauh ya, jauh ya."
+    },
+    {
+      "start": 2846.76,
+      "end": 2849.76,
+      "text": "Hampir 50% kepotong ya."
+    },
+    {
+      "start": 2849.76,
+      "end": 2851.76,
+      "text": "Ini kan proyeknya simple ya."
+    },
+    {
+      "start": 2851.76,
+      "end": 2856.76,
+      "text": "Kalau misalnya kalau sudah sampai gede banget, itu pasti lebih kerasa lagi sebenarnya."
+    },
+    {
+      "start": 2856.76,
+      "end": 2860.76,
+      "text": "Karena apalagi kalau kita sudah ngomongnya sudah... / Makin banyak nih pendensi."
+    },
+    {
+      "start": 2860.76,
+      "end": 2863.76,
+      "text": "Multiple endpoint, ya."
+    },
+    {
+      "start": 2863.76,
+      "end": 2866.76,
+      "text": "Multiple entry, multiple entries. Itu banyak banget kan, multiple entries."
+    },
+    {
+      "start": 2866.76,
+      "end": 2869.76,
+      "text": "Nah, kalau sudah multiple entries. / Apa target build-nya?"
+    },
+    {
+      "start": 2869.76,
+      "end": 2871.76,
+      "text": "Ini aja saya sudah pakai feed."
+    },
+    {
+      "start": 2871.76,
+      "end": 2875.76,
+      "text": "Saya nggak tahu kalau misalnya pakai webpack seperti apa."
+    },
+    {
+      "start": 2875.76,
+      "end": 2881.76,
+      "text": "Proyek yang pakai webpack saya rata-rata internal, jadi nggak bisa saya show di rekaman."
+    },
+    {
+      "start": 2881.76,
+      "end": 2885.76,
+      "text": "Jadi..."
+    },
+    {
+      "start": 2885.76,
+      "end": 2889.76,
+      "text": "Rekap untuk installnya sendiri,"
+    },
+    {
+      "start": 2889.76,
+      "end": 2891.76,
+      "text": "selisihnya jauh banget."
+    },
+    {
+      "start": 2891.76,
+      "end": 2894.76,
+      "text": "7 detik dan 1 detik."
+    },
+    {
+      "start": 2894.76,
+      "end": 2897.76,
+      "text": "Untuk build time?"
+    },
+    {
+      "start": 2897.76,
+      "end": 2899.76,
+      "text": "Ini kan npm install."
+    },
+    {
+      "start": 2899.76,
+      "end": 2903.76,
+      "text": "Lebih cepat, tapi nggak se-signifikan itu."
+    },
+    {
+      "start": 2903.76,
+      "end": 2906.76,
+      "text": "Kalau untuk build, ya lebih cepat."
+    },
+    {
+      "start": 2906.76,
+      "end": 2909.76,
+      "text": "Installnya jauh lebih cepat."
+    },
+    {
+      "start": 2909.76,
+      "end": 2913.76,
+      "text": "Sedangkan build-nya 50% lebih cepat."
+    },
+    {
+      "start": 2913.76,
+      "end": 2916.76,
+      "text": "Nggak terlalu signifikan."
+    },
+    {
+      "start": 2916.76,
+      "end": 2921.76,
+      "text": "Oke. / Nah, tanya kalau dari segi isi,"
+    },
+    {
+      "start": 2921.76,
+      "end": 2925.76,
+      "text": "struktur-struktur isi sama ukuran modus sama nggak?"
+    },
+    {
+      "start": 2925.76,
+      "end": 2927.76,
+      "text": "Antara pakai npm sama pakai boon?"
+    },
+    {
+      "start": 2927.76,
+      "end": 2931.76,
+      "text": "Oh iya, benar. / Isi apa nih?"
+    },
+    {
+      "start": 2931.76,
+      "end": 2936.76,
+      "text": "Jumlah ukuran node modules-nya."
+    },
+    {
+      "start": 2936.76,
+      "end": 2940.76,
+      "text": "Apakah ada yang di simling atau semacamnya nggak?"
+    },
+    {
+      "start": 2940.76,
+      "end": 2944.76,
+      "text": "Itu sama persis. / Gimana cara ngeceknya?"
+    },
+    {
+      "start": 2944.76,
+      "end": 2947.76,
+      "text": "Bukan node modules-nya."
+    },
+    {
+      "start": 2947.76,
+      "end": 2951.76,
+      "text": "Kalau node modules-nya sama..."
+    },
+    {
+      "start": 2951.76,
+      "end": 2955.76,
+      "text": "Kalau dilihat sekilas mungkin sama ya?"
+    },
+    {
+      "start": 2955.76,
+      "end": 2960.76,
+      "text": "Di hitung jumlah folder-nya bisa nggak dari node modules?"
+    },
+    {
+      "start": 2960.76,
+      "end": 2963.76,
+      "text": "Atau pakai CLI?"
+    },
+    {
+      "start": 2963.76,
+      "end": 2965.76,
+      "text": "Wartcount?"
+    },
+    {
+      "start": 2965.76,
+      "end": 2968.76,
+      "text": "Ah, DU aja. / Coba ya."
+    },
+    {
+      "start": 2968.76,
+      "end": 2972.76,
+      "text": "Itu pakai Wartcount, tanya aja sama Warp AI."
+    },
+    {
+      "start": 2972.76,
+      "end": 2976.76,
+      "text": "219 MB, supaya kita hapus dulu ya."
+    },
+    {
+      "start": 2976.76,
+      "end": 2980.76,
+      "text": "Terus ini npm apa boon?"
+    },
+    {
+      "start": 2980.76,
+      "end": 2984.76,
+      "text": "Itu tadi npm, yang terakhir itu npm."
+    },
+    {
+      "start": 2984.76,
+      "end": 2987.76,
+      "text": "Sekarang kita pakai boon, install."
+    },
+    {
+      "start": 2987.76,
+      "end": 2992.76,
+      "text": "0.22"
+    },
+    {
+      "start": 2992.76,
+      "end": 2996.76,
+      "text": "Lebih kecil. / Lebih kecil?"
+    },
+    {
+      "start": 2996.76,
+      "end": 3001.76,
+      "text": "Berarti ada... / Ada sesuatu yang dioptimize."
+    },
+    {
+      "start": 3001.76,
+      "end": 3006.76,
+      "text": "Ada yang dioptimize. / Ada yang di simling atau di harcling atau apa?"
+    },
+    {
+      "start": 3006.76,
+      "end": 3009.76,
+      "text": "Kita hapus ya. / Npm install."
+    },
+    {
+      "start": 3009.76,
+      "end": 3012.76,
+      "text": "Terus kita coba pakai npm install."
+    },
+    {
+      "start": 3017.76,
+      "end": 3022.76,
+      "text": "Ya, 50 MB. / Iya, sama."
+    },
+    {
+      "start": 3022.76,
+      "end": 3025.76,
+      "text": "Maksudnya konsisten kayak sebelumnya."
+    },
+    {
+      "start": 3025.76,
+      "end": 3027.76,
+      "text": "Dan boon itu pakai ini ya."
+    },
+    {
+      "start": 3027.76,
+      "end": 3030.76,
+      "text": "Saya lihat boon itu dia ngebikin lock-nya sendiri."
+    },
+    {
+      "start": 3030.76,
+      "end": 3033.76,
+      "text": "Iya, ada lock-nya sendiri."
+    },
+    {
+      "start": 3033.76,
+      "end": 3035.76,
+      "text": "Dan nggak bisa binary lagi."
+    },
+    {
+      "start": 3035.76,
+      "end": 3038.76,
+      "text": "Binary ya? Bukan JSON ya?"
+    },
+    {
+      "start": 3038.76,
+      "end": 3044.76,
+      "text": "Iya, padahal semua kalau npm, yang npm semua kan JSON."
+    },
+    {
+      "start": 3044.76,
+      "end": 3048.76,
+      "text": "Iya, binary lagi."
+    },
+    {
+      "start": 3048.76,
+      "end": 3052.76,
+      "text": "Menarik ya? / Menarik sekali ya."
+    },
+    {
+      "start": 3052.76,
+      "end": 3055.76,
+      "text": "Cepat-cepat. / Coba iseng ad."
+    },
+    {
+      "start": 3055.76,
+      "end": 3058.76,
+      "text": "Kita konten pakai yarn deh. / React."
+    },
+    {
+      "start": 3058.76,
+      "end": 3060.76,
+      "text": "Ada nggak sih? / Yarn-yarn."
+    },
+    {
+      "start": 3060.76,
+      "end": 3064.76,
+      "text": "Nggak punya. Oh punya, udah nggak pakai. / Udah punya."
+    },
+    {
+      "start": 3064.76,
+      "end": 3067.76,
+      "text": "Coba time-time. / Gimana cara update-nya? Gue lupa."
+    },
+    {
+      "start": 3067.76,
+      "end": 3070.76,
+      "text": "Yarn install."
+    },
+    {
+      "start": 3070.76,
+      "end": 3076.76,
+      "text": "Yarn install -g yarn. / Ada, yarn."
+    },
+    {
+      "start": 3076.76,
+      "end": 3080.76,
+      "text": "Yarn versi yarn terbaru berapa lihat dulu? Jangan-jangan emang udah baru itu."
+    },
+    {
+      "start": 3080.76,
+      "end": 3082.76,
+      "text": "Coba lihatin dulu."
+    },
+    {
+      "start": 3082.76,
+      "end": 3084.76,
+      "text": "Yarn itu versi berapa sekarang?"
+    },
+    {
+      "start": 3084.76,
+      "end": 3088.76,
+      "text": "Karena yarn saya udah lama nih, nggak pakai."
+    },
+    {
+      "start": 3088.76,
+      "end": 3091.76,
+      "text": "Release, versi 3, 363."
+    },
+    {
+      "start": 3091.76,
+      "end": 3094.76,
+      "text": "Udah lama sekali itu. / Saya satu berapa."
+    },
+    {
+      "start": 3094.76,
+      "end": 3098.76,
+      "text": "Yarn self-upgrade. / Yarn self-upgrade, ada ya."
+    },
+    {
+      "start": 3098.76,
+      "end": 3102.76,
+      "text": "Yarn install -g. / Tanya aja sih ini."
+    },
+    {
+      "start": 3102.76,
+      "end": 3106.76,
+      "text": "AI. / Update. / Iya work kan, pakai work AI kan."
+    },
+    {
+      "start": 3106.76,
+      "end": 3109.76,
+      "text": "Yarn install. Update yarn."
+    },
+    {
+      "start": 3109.76,
+      "end": 3112.76,
+      "text": "Yarn."
+    },
+    {
+      "start": 3112.76,
+      "end": 3115.76,
+      "text": "Ya, update yarn."
+    },
+    {
+      "start": 3115.76,
+      "end": 3117.76,
+      "text": "Pakai NPM ternyata."
+    },
+    {
+      "start": 3117.76,
+      "end": 3120.76,
+      "text": "NPM install, -g. / Iya."
+    },
+    {
+      "start": 3120.76,
+      "end": 3124.76,
+      "text": "Yarn, memang begitu kan? / Iya. / Duh, nggak bisa ke-copy."
+    },
+    {
+      "start": 3124.76,
+      "end": 3128.76,
+      "text": "Bisa langsung insert ke... / Iya, itu bisa."
+    },
+    {
+      "start": 3128.76,
+      "end": 3132.76,
+      "text": "Ada chat GPT-nya. / Udah pakai work itu kayaknya."
+    },
+    {
+      "start": 3132.76,
+      "end": 3136.76,
+      "text": "Kalau misalnya tiba-tiba pakai CLI biasa lagi jadi beku gitu deh."
+    },
+    {
+      "start": 3136.76,
+      "end": 3140.76,
+      "text": "Nggak bisa. / Waktu itu installernya dimana?"
+    },
+    {
+      "start": 3140.76,
+      "end": 3144.76,
+      "text": "Coba, where is... eh, where ya?"
+    },
+    {
+      "start": 3144.76,
+      "end": 3148.76,
+      "text": "Where is yarn? / Di node."
+    },
+    {
+      "start": 3148.76,
+      "end": 3152.76,
+      "text": "Di NPM ya? / Iya, tapi di NPM..."
+    },
+    {
+      "start": 3152.76,
+      "end": 3156.76,
+      "text": "Oh, NPM? / Coba deh. / Gak, gue pake ini soalnya."
+    },
+    {
+      "start": 3156.76,
+      "end": 3160.76,
+      "text": "Pake NPM kan. / Oh, yang 18. Itu 16 yarnnya."
+    },
+    {
+      "start": 3160.76,
+      "end": 3164.76,
+      "text": "Iya. / Sama."
+    },
+    {
+      "start": 3164.76,
+      "end": 3168.76,
+      "text": "Gak apa-apa sih, pakai yarn aja. Coba iseng bandingin."
+    },
+    {
+      "start": 3168.76,
+      "end": 3170.76,
+      "text": "Min-g, yarn."
+    },
+    {
+      "start": 3170.76,
+      "end": 3176.76,
+      "text": "Nggak bisa. NPM, NPM. / Eh, salah ya."
+    },
+    {
+      "start": 3180.76,
+      "end": 3184.76,
+      "text": "Oh, mungkin karena ZSH."
+    },
+    {
+      "start": 3184.76,
+      "end": 3188.76,
+      "text": "Karena ZSH dia nge-catch."
+    },
+    {
+      "start": 3188.76,
+      "end": 3192.76,
+      "text": "Oh, harus di restart tuh ya? / Nggak sih, nggak."
+    },
+    {
+      "start": 3192.76,
+      "end": 3196.76,
+      "text": "Ya udah lah, coba aja lah."
+    },
+    {
+      "start": 3196.76,
+      "end": 3200.76,
+      "text": "Time, yarn install."
+    },
+    {
+      "start": 3200.76,
+      "end": 3204.76,
+      "text": "Time yarn install. / Enak ya kalau punya project."
+    },
+    {
+      "start": 3204.76,
+      "end": 3208.76,
+      "text": "Time-time. / Lupa sendiri. / Bisa buat."
+    },
+    {
+      "start": 3208.76,
+      "end": 3212.76,
+      "text": "Playground. / Playground."
+    },
+    {
+      "start": 3212.76,
+      "end": 3216.76,
+      "text": "Karena yarn gue belum pernah punya ini nih."
+    },
+    {
+      "start": 3216.76,
+      "end": 3220.76,
+      "text": "Ya, jadi semua ke-download ya. / Nanti kita coba apus dulu."
+    },
+    {
+      "start": 3220.76,
+      "end": 3224.76,
+      "text": "Coba sekali lagi di-abuse. / Biasa."
+    },
+    {
+      "start": 3224.76,
+      "end": 3228.76,
+      "text": "Kalau ini kan tergantung internet masing-masing, jadi nggak..."
+    },
+    {
+      "start": 3228.76,
+      "end": 3232.76,
+      "text": "Afdo. / Nggak valid. / Iya. / Nggak Apple to Apple."
+    },
+    {
+      "start": 3238.76,
+      "end": 3244.76,
+      "text": "Tuh, ini package manager install semua dependensinya nih."
+    },
+    {
+      "start": 3244.76,
+      "end": 3246.76,
+      "text": "Kemana-mana nih."
+    },
+    {
+      "start": 3246.76,
+      "end": 3248.76,
+      "text": "Gue nggak tahu nih apa aja isinya."
+    },
+    {
+      "start": 3248.76,
+      "end": 3254.76,
+      "text": "Ist number."
+    },
+    {
+      "start": 3254.76,
+      "end": 3256.76,
+      "text": "Archiver."
+    },
+    {
+      "start": 3256.76,
+      "end": 3258.76,
+      "text": "Anda lo yang bikin ist number gitu ya."
+    },
+    {
+      "start": 3258.76,
+      "end": 3262.76,
+      "text": "Tapi dipake juga, padahal tinggal ist number doang."
+    },
+    {
+      "start": 3262.76,
+      "end": 3264.76,
+      "text": "Ada yang pake."
+    },
+    {
+      "start": 3264.76,
+      "end": 3268.76,
+      "text": "Tapi sampai jadi ada package bercandalan tau nggak sih yang ada is 13."
+    },
+    {
+      "start": 3268.76,
+      "end": 3274.76,
+      "text": "Ada. / Nge-check apakah yang di-pass adalah angka dan angkanya 13."
+    },
+    {
+      "start": 3274.76,
+      "end": 3282.76,
+      "text": "Terus jadi aneh-aneh gitu, itu kayaknya buat orang belajar full request gitu."
+    },
+    {
+      "start": 3282.76,
+      "end": 3286.76,
+      "text": "Is 13, is 14."
+    },
+    {
+      "start": 3286.76,
+      "end": 3290.76,
+      "text": "Yang lucu, sambil menunggu ya, yang lucu NPM itu kalau di kiri atas itu"
+    },
+    {
+      "start": 3290.76,
+      "end": 3293.76,
+      "text": "selalu ada kepanjangannya dan kepanjangannya itu beda-beda."
+    },
+    {
+      "start": 3293.76,
+      "end": 3297.76,
+      "text": "Kepanjangannya yang random work gitu kan. / Terus nanti kalau kita refresh lagi,"
+    },
+    {
+      "start": 3297.76,
+      "end": 3303.76,
+      "text": "ada nanti lagi Narnia Produce Magic. / Narnia Produce Magic."
+    },
+    {
+      "start": 3303.76,
+      "end": 3305.76,
+      "text": "Ini dari mana ya dia dapetin?"
+    },
+    {
+      "start": 3305.76,
+      "end": 3307.76,
+      "text": "Ninja Power Manifesto."
+    },
+    {
+      "start": 3307.76,
+      "end": 3309.76,
+      "text": "Oke, banyak ya jadi ini."
+    },
+    {
+      "start": 3309.76,
+      "end": 3311.76,
+      "text": "Udah selesai? Siap."
+    },
+    {
+      "start": 3311.76,
+      "end": 3313.76,
+      "text": "Eh, salah. Sorry, sorry, sorry."
+    },
+    {
+      "start": 3313.76,
+      "end": 3315.76,
+      "text": "Dah. / Dah."
+    },
+    {
+      "start": 3315.76,
+      "end": 3319.76,
+      "text": "Lebih cepat."
+    },
+    {
+      "start": 3319.76,
+      "end": 3325.76,
+      "text": "Lebih cepat dari NPM. / Downloadnya lebih cepat, tapi selesainya hampir 7."
+    },
+    {
+      "start": 3325.76,
+      "end": 3328.76,
+      "text": "Lebih cepat dari NPM. / Lebih cepat dari NPM."
+    },
+    {
+      "start": 3328.76,
+      "end": 3332.76,
+      "text": "Tapi, tetap. / Nggak terlalu signifikan ya NPM sama."
+    },
+    {
+      "start": 3332.76,
+      "end": 3335.76,
+      "text": "Mungkin ini versinya juga udah. / Lebih cepat dari NPM."
+    },
+    {
+      "start": 3335.76,
+      "end": 3338.76,
+      "text": "Ya. Versinya juga mungkin. / Boon nggak sempelahkan."
+    },
+    {
+      "start": 3338.76,
+      "end": 3341.76,
+      "text": "Boon. / Time, time, time."
+    },
+    {
+      "start": 3341.76,
+      "end": 3347.76,
+      "text": "Ces. / Wow. / Gila, gila, gila."
+    },
+    {
+      "start": 3347.76,
+      "end": 3352.76,
+      "text": "Eh, coba. Remove lagi, terus install yarn lagi, lihat size-nya berapa."
+    },
+    {
+      "start": 3352.76,
+      "end": 3356.76,
+      "text": "Oh iya. / Oh iya, tadi kita ngeliat ya. / Tapi apa tadi?"
+    },
+    {
+      "start": 3356.76,
+      "end": 3359.76,
+      "text": "DU."
+    },
+    {
+      "start": 3359.76,
+      "end": 3364.76,
+      "text": "Cross Amp."
+    },
+    {
+      "start": 3364.76,
+      "end": 3366.76,
+      "text": "DU."
+    },
+    {
+      "start": 3366.76,
+      "end": 3370.76,
+      "text": "Sama. Kayak si Boon. / Sama seperti Boon ya."
+    },
+    {
+      "start": 3370.76,
+      "end": 3372.76,
+      "text": "Boon 172 tadi. / Iya."
+    },
+    {
+      "start": 3372.76,
+      "end": 3376.76,
+      "text": "Jadi dia pakai algoritma yang mirip ya."
+    },
+    {
+      "start": 3376.76,
+      "end": 3378.76,
+      "text": "Iya."
+    },
+    {
+      "start": 3378.76,
+      "end": 3380.76,
+      "text": "Alright. / Dah terjawab sudah."
+    },
+    {
+      "start": 3380.76,
+      "end": 3385.76,
+      "text": "So far untuk project WP paski, Boon lebih cepat."
+    },
+    {
+      "start": 3385.76,
+      "end": 3388.76,
+      "text": "Maka gue pindah ke Boon untuk paski ini."
+    },
+    {
+      "start": 3388.76,
+      "end": 3391.76,
+      "text": "Berani nggak pakai di production? Untuk Boon? / Oke."
+    },
+    {
+      "start": 3391.76,
+      "end": 3395.76,
+      "text": "Oke. Langsung ya. / Tapi kalau, apa? / Udah versi satu lagi ya."
+    },
+    {
+      "start": 3395.76,
+      "end": 3399.76,
+      "text": "Kalau untuk plugin ini gue nggak perlu. / Oh, ini kan open source ya, bebas ya."
+    },
+    {
+      "start": 3399.76,
+      "end": 3402.76,
+      "text": "Maksudnya untuk project client gitu."
+    },
+    {
+      "start": 3402.76,
+      "end": 3404.76,
+      "text": "Ini kan ujungnya jadi build kan."
+    },
+    {
+      "start": 3404.76,
+      "end": 3408.76,
+      "text": "Oh iya, jadi build. / Kalau di build sih mau pakai suaranya aman ya."
+    },
+    {
+      "start": 3408.76,
+      "end": 3414.76,
+      "text": "Kecuali kalau server ya, express gitu, back-end ya. / Itu beda cerita."
+    },
+    {
+      "start": 3414.76,
+      "end": 3419.76,
+      "text": "Atau kalau misalnya ada setting khusus kayak ada monorepo atau apalah yang..."
+    },
+    {
+      "start": 3419.76,
+      "end": 3425.76,
+      "text": "Apa sih, ada caranya sendiri ngecek dependensi lokal atau apa, nah itu males sih itu."
+    },
+    {
+      "start": 3425.76,
+      "end": 3430.76,
+      "text": "Gue langsung add commit sekarang, boon log B. Dan selesai."
+    },
+    {
+      "start": 3430.76,
+      "end": 3431.76,
+      "text": "Mantap."
+    },
+    {
+      "start": 3431.76,
+      "end": 3436.76,
+      "text": "Nah, tadi kan saya sempat nanya tuh di Deno gimana sudah terjawab, ada di dokumentasi."
+    },
+    {
+      "start": 3436.76,
+      "end": 3442.76,
+      "text": "Mereka nggak ada konsep package manager, karena semuanya berdasarkan URL."
+    },
+    {
+      "start": 3442.76,
+      "end": 3449.76,
+      "text": "Jadi berarti setiap jalan itu manggil dari URL-nya sendiri ya?"
+    },
+    {
+      "start": 3449.76,
+      "end": 3455.76,
+      "text": "Kayaknya disimpan juga sih, di caged juga sih, kayaknya di caged juga sih. / Harus ada cara dia nyimpen kan."
+    },
+    {
+      "start": 3455.76,
+      "end": 3460.76,
+      "text": "Sebenarnya lokal itu kan intinya kayak gitu kan? / Iya."
+    },
+    {
+      "start": 3460.76,
+      "end": 3465.76,
+      "text": "Capek juga kalau setiap kali ngejalanin manggil tuh URL aslinya."
+    },
+    {
+      "start": 3465.76,
+      "end": 3472.76,
+      "text": "Iya, jadi misalkan kita import bla bla bla from bla bla bla, itu pada saat pertama mungkin dia install dulu."
+    },
+    {
+      "start": 3472.76,
+      "end": 3478.76,
+      "text": "Saat kedua dia pakai yang sudah ada, gitu lah kira-kira. / Iya tinggal di-compare aja kan? / Iya, betul."
+    },
+    {
+      "start": 3478.76,
+      "end": 3486.76,
+      "text": "Pada waktu dia dipanggil, itu versi berapa? Kalau misalnya besok dipanggil lagi, ya udah ambil dari situ."
+    },
+    {
+      "start": 3486.76,
+      "end": 3492.76,
+      "text": "Sekarang bikin command alias npm jadi boon."
+    },
+    {
+      "start": 3492.76,
+      "end": 3497.76,
+      "text": "Kalau kita type-nya npm yang jalan boon. / Iya."
+    },
+    {
+      "start": 3497.76,
+      "end": 3503.76,
+      "text": "Dulu saya melakukan itu tapi dengan tnpm. / Tnpm. / Yang sering salah kan?"
+    },
+    {
+      "start": 3503.76,
+      "end": 3515.76,
+      "text": "Betul, cuma kalau misalkan sering demo atau ngajar gitu ya, banyak yang terdistraksi karena \"loh kok npm-nya beda, progress-nya beda kan?\""
+    },
+    {
+      "start": 3515.76,
+      "end": 3522.76,
+      "text": "Jadi pasti pada \"ngah, kok beda, gimana caranya?\" jadi malah terdistraksi. Jadi akhirnya nggak jadi alias."
+    },
+    {
+      "start": 3522.76,
+      "end": 3533.76,
+      "text": "Jadi kalau misalkan lagi demo ya tetap pakai npm, tapi kalau lagi sendiri ya udah, baru aliasnya nggak dimasukin ke konfigurasi jadi manual aja."
+    },
+    {
+      "start": 3533.76,
+      "end": 3542.76,
+      "text": "Alright, ada lagi yang mau kita bahas di package manager? / Sama teman pada pakai apa?"
+    },
+    {
+      "start": 3542.76,
+      "end": 3554.76,
+      "text": "Coba tuh si command pakai apa, yang paling disukain apa, yang paling dihindarin apa, terus apa ya? / Curhatnya apa, pakai apa?"
+    },
+    {
+      "start": 3554.76,
+      "end": 3567.76,
+      "text": "Kalau gue curhat pnpm nih, kan nyoba turbo repo ya? Jadi combine antara pnpm, turbo repo, ya maksudnya ini udah beda konsep lagi ya."
+    },
+    {
+      "start": 3567.76,
+      "end": 3577.76,
+      "text": "Bukan perkara strictly karena package manager-nya apa, tapi turbo repo kan struktur kayak mono repo, cuma mereka punya apa, convention sendiri."
+    },
+    {
+      "start": 3577.76,
+      "end": 3588.76,
+      "text": "Itu cepet banget. Tapi kalau buat deploy, terutama kalau pakai semacam Prisma atau apapun itu yang ada build-nya itu,"
+    },
+    {
+      "start": 3588.76,
+      "end": 3596.76,
+      "text": "sekarang lupa dan agak nyesel juga kenapa dulu pas ngalamin masalah itu nggak nulis artikel atau apalah, sekarang udah lupa."
+    },
+    {
+      "start": 3596.76,
+      "end": 3605.76,
+      "text": "Intinya kalau misalnya setting mono repo, entah pakai turbo repo atau semacamnya, pakai pnpm itu kadang-kadang bakal ada quote-nya"
+    },
+    {
+      "start": 3605.76,
+      "end": 3612.76,
+      "text": "yang kita harus di .file atau di npmrc harus ngasih sesuatu lah, pokoknya harus ada yang ditambahin."
+    },
+    {
+      "start": 3612.76,
+      "end": 3618.76,
+      "text": "Cuma karena sekarang lupa apa, nanti deh gue tambahin di komen. / Siap-siap."
+    },
+    {
+      "start": 3618.76,
+      "end": 3626.76,
+      "text": "Ya pokoknya package manager itu bisa punya behavior yang karena kan dia memanggil dependency, terutama kalau turbo repo kan"
+    },
+    {
+      "start": 3626.76,
+      "end": 3631.76,
+      "text": "masing-masing ada node modules-nya tuh, dan belum lagi ada kayak simplink, ada hardlink."
+    },
+    {
+      "start": 3631.76,
+      "end": 3640.76,
+      "text": "Nah itu tuh siap-siap aja kalau struktur project-nya kompleks kayak gitu, bisa ada behavior yang mau nya diluar ekspektasi kita."
+    },
+    {
+      "start": 3640.76,
+      "end": 3642.76,
+      "text": "Yang unik-unik, yang aneh-aneh."
+    },
+    {
+      "start": 3642.76,
+      "end": 3648.76,
+      "text": "Terutama kalau paken makin aneh package managernya, makin besar kan sekitar ketemu hal-hal aneh."
+    },
+    {
+      "start": 3648.76,
+      "end": 3654.76,
+      "text": "Kalau project kita strukturnya rumit, tapi kalau tadi kayak yang di demo-in Irfan itu, ya udah satu repo,"
+    },
+    {
+      "start": 3654.76,
+      "end": 3659.76,
+      "text": "tapi satu doang package JSON dan node modules-nya ngebuild, ya udah itu mah apa."
+    },
+    {
+      "start": 3659.76,
+      "end": 3668.76,
+      "text": "Ya, oke kalau begitu, kalau tidak ada yang mau dibahas lagi, dan kalau temen-temen tertarik, kita mau bahas tentang pun.js,"
+    },
+    {
+      "start": 3668.76,
+      "end": 3677.76,
+      "text": "boleh langsung kesana.in/ngobrolinweb, kasih tau mau dong bahas tentang bun."
+    },
+    {
+      "start": 3677.76,
+      "end": 3682.76,
+      "text": "Atau kalau temen-temen ada yang di kantornya sudah pakai bun di production,"
+    },
+    {
+      "start": 3682.76,
+      "end": 3689.76,
+      "text": "mau dong kita undang kesini buat kita tanya-tanya, karena kita belum, kita nyoba, tapi belum pernah sampai ke production kan."
+    },
+    {
+      "start": 3689.76,
+      "end": 3698.76,
+      "text": "Ya dan emang kalau di tempat kerja, pantang lah, tiba-tiba ganti package manager. Maksudnya itu bukan buat apa ya."
+    },
+    {
+      "start": 3698.76,
+      "end": 3702.76,
+      "text": "Bukan buat apa, enggak ada impact-nya."
+    },
+    {
+      "start": 3702.76,
+      "end": 3709.76,
+      "text": "Sedikit cerita juga kalau di tempat saya kan kliennya mostly enterprise."
+    },
+    {
+      "start": 3709.76,
+      "end": 3718.76,
+      "text": "Jadi kalau misalnya untuk pindah apa namanya, pindah artis itu, pindah teknologi, itu harus approval dulu."
+    },
+    {
+      "start": 3718.76,
+      "end": 3723.76,
+      "text": "Ada paperwork."
+    },
+    {
+      "start": 3723.76,
+      "end": 3729.76,
+      "text": "Alasannya kenapa harus POC dulu, banyak ya perjalanannya."
+    },
+    {
+      "start": 3729.76,
+      "end": 3736.76,
+      "text": "Jadi saya harus presentasi dulu, ngobrol lagi, dan dari sisi internal sendiri saya harus ngomong dulu."
+    },
+    {
+      "start": 3736.76,
+      "end": 3743.76,
+      "text": "Kalau leadershipnya setuju atau directornya setuju, oke baru dibawa ke klien. Itu pun harus berjenjang."
+    },
+    {
+      "start": 3743.76,
+      "end": 3752.76,
+      "text": "Kalau mau cepat tipsnya kalau mau cepat, kalau pakai bun bisa hemat, biaya, kita biayanya bisa lebih murah 50%."
+    },
+    {
+      "start": 3752.76,
+      "end": 3755.76,
+      "text": "Wah langsung pasti approve."
+    },
+    {
+      "start": 3755.76,
+      "end": 3758.76,
+      "text": "Iya kan harus ada impact-nya ya."
+    },
+    {
+      "start": 3758.76,
+      "end": 3759.76,
+      "text": "Biasa server-nya."
+    },
+    {
+      "start": 3759.76,
+      "end": 3766.76,
+      "text": "Karena gini juga Mas Riza sama Mbak Eka itu, kalau misalnya pindah asetektur, itu artinya banyak pihak yang akan dihubungi."
+    },
+    {
+      "start": 3766.76,
+      "end": 3775.76,
+      "text": "Karena gini, dari sisi tim security, mereka harus di update kalau kita pakai misalnya bun versi sekian dan sekian."
+    },
+    {
+      "start": 3775.76,
+      "end": 3779.76,
+      "text": "Jadi mereka harus tracking vulnerability."
+    },
+    {
+      "start": 3779.76,
+      "end": 3786.76,
+      "text": "Jadi mereka punya proses namanya security vulnerability test, scan, mereka harus update."
+    },
+    {
+      "start": 3786.76,
+      "end": 3793.76,
+      "text": "Jadi mereka tahu kita punya aplikasi kita pakai versi apa aja, dan semua yang versi-versi itu harus kita lapor."
+    },
+    {
+      "start": 3793.76,
+      "end": 3801.76,
+      "text": "Nanti mereka dapat selalu up to date dengan vulnerability."
+    },
+    {
+      "start": 3801.76,
+      "end": 3807.76,
+      "text": "Jadi mereka harus kasih tahu kita kalau misalnya ada tiba-tiba ternyata paket kita punya vulnerability masalahnya,"
+    },
+    {
+      "start": 3807.76,
+      "end": 3811.76,
+      "text": "kita harus segera dapat update dan itu langsung tiketnya bisa pinol."
+    },
+    {
+      "start": 3811.76,
+      "end": 3814.76,
+      "text": "Ada masalah vulnerability, tolong segera update."
+    },
+    {
+      "start": 3814.76,
+      "end": 3824.76,
+      "text": "Apalagi bun ini baru launching kayaknya kalau untuk interface kayaknya ntar dulu kali ya, kecuali untuk proyek-proyek sendiri, open source dan lain-lain ya."
+    },
+    {
+      "start": 3824.76,
+      "end": 3825.76,
+      "text": "Betul."
+    },
+    {
+      "start": 3825.76,
+      "end": 3826.76,
+      "text": "Belum terbukti juga."
+    },
+    {
+      "start": 3826.76,
+      "end": 3834.76,
+      "text": "Kalau tempat kerjaku sih nggak se-strict itu ya, cuma emang ada kesepakatan kalau soal infra,"
+    },
+    {
+      "start": 3834.76,
+      "end": 3838.76,
+      "text": "ini kan sebenarnya termasuk infrastruktur juga ya, package manager punya."
+    },
+    {
+      "start": 3838.76,
+      "end": 3846.76,
+      "text": "Kalau belum fatal, kalau perkara ada dependency yang beneran updated atau security,"
+    },
+    {
+      "start": 3846.76,
+      "end": 3848.76,
+      "text": "ya itu jelas misalnya itu prioritas."
+    },
+    {
+      "start": 3848.76,
+      "end": 3852.76,
+      "text": "Tapi di luar itu kalau cuma buat nyoba-nyoba package manager baru,"
+    },
+    {
+      "start": 3852.76,
+      "end": 3857.76,
+      "text": "itu emang kita sepakat minimalisir update lah."
+    },
+    {
+      "start": 3857.76,
+      "end": 3866.76,
+      "text": "Soalnya remote juga ya kerja remote, ada kantornya, masing-masing punya device sendiri yang spesifikasinya nggak streamline."
+    },
+    {
+      "start": 3866.76,
+      "end": 3872.76,
+      "text": "Nah kan jangan-jangan bisa aja ada kemungkinan kalau ganti boon tiba-tiba di laptopnya anggota tim lain,"
+    },
+    {
+      "start": 3872.76,
+      "end": 3875.76,
+      "text": "atau di orang QA-nya yang ngetesting, boonnya nggak jalan."
+    },
+    {
+      "start": 3875.76,
+      "end": 3877.76,
+      "text": "Nah kan harus troubleshooting tuh."
+    },
+    {
+      "start": 3877.76,
+      "end": 3884.76,
+      "text": "Misalnya ada install-nya di mana ada yang pakai homebrew lah, ada yang pakai globalnya nggak muncul,"
+    },
+    {
+      "start": 3884.76,
+      "end": 3890.76,
+      "text": "itu mesti ada kemungkinan kalau ngabisin waktu dan ternyata untuk troubleshooting kayak gitu."
+    },
+    {
+      "start": 3890.76,
+      "end": 3898.76,
+      "text": "Jadi kayak di Agus Makatan, kalau yang begitu-begitu jangan diubah lah. Jadi sampai sekarang masih pakai NPM yang standar,"
+    },
+    {
+      "start": 3898.76,
+      "end": 3902.76,
+      "text": "dan semua mesin, semua orang pasti ada kan."
+    },
+    {
+      "start": 3902.76,
+      "end": 3903.76,
+      "text": "Iya betul."
+    },
+    {
+      "start": 3903.76,
+      "end": 3908.76,
+      "text": "Kalau kamu mau pergi cepat, bersama startup atau open source project."
+    },
+    {
+      "start": 3908.76,
+      "end": 3914.76,
+      "text": "Kalau kamu mau pergi jauh, buat project enterprise, tapi slow."
+    },
+    {
+      "start": 3914.76,
+      "end": 3919.76,
+      "text": "Boring teknologi, itu ada masaknya sendiri."
+    },
+    {
+      "start": 3919.76,
+      "end": 3922.76,
+      "text": "Tapi stable."
+    },
+    {
+      "start": 3922.76,
+      "end": 3924.76,
+      "text": "Iya, nggak pusing."
+    },
+    {
+      "start": 3924.76,
+      "end": 3933.76,
+      "text": "Oh iya, baru ingat gara-gara tadi Eka ngomong, si boon ini belum support native Windows ternyata."
+    },
+    {
+      "start": 3933.76,
+      "end": 3936.76,
+      "text": "Baru support Mac OS, Linux, dan Windows WSL."
+    },
+    {
+      "start": 3936.76,
+      "end": 3939.76,
+      "text": "Windows executable-nya belum."
+    },
+    {
+      "start": 3939.76,
+      "end": 3945.76,
+      "text": "Jadi kalau misalkan ada tim QA yang menggunakan Microsoft Windows sebagai OS di laptop atau di komputer,"
+    },
+    {
+      "start": 3945.76,
+      "end": 3950.76,
+      "text": "dia harus jalanin."
+    },
+    {
+      "start": 3950.76,
+      "end": 3955.76,
+      "text": "Karena mungkin webkitnya..."
+    },
+    {
+      "start": 3955.76,
+      "end": 3959.76,
+      "text": "Nggak bisa jalanin executable-nya doang kan?"
+    },
+    {
+      "start": 3959.76,
+      "end": 3962.76,
+      "text": "Iya, betul."
+    },
+    {
+      "start": 3962.76,
+      "end": 3967.76,
+      "text": "Itu contoh aja sih. Maksudnya belum di support semua platform."
+    },
+    {
+      "start": 3967.76,
+      "end": 3975.76,
+      "text": "Jadi kalau hal-hal teknologi-teknologi baru itu yang banyak ya. Bukan hanya, \"Wah ini lebih cepat.\""
+    },
+    {
+      "start": 3975.76,
+      "end": 3981.76,
+      "text": "Terus juga begitu lebih cepat, udah kita kayak tutup mata dengan fitur yang lain, kita langsung gelak mata, langsung install gitu."
+    },
+    {
+      "start": 3981.76,
+      "end": 3984.76,
+      "text": "Nggak langsung pakai, langsung implement, nggak gitu juga."
+    },
+    {
+      "start": 3984.76,
+      "end": 3987.76,
+      "text": "Kan namanya hype driven development."
+    },
+    {
+      "start": 3987.76,
+      "end": 3990.76,
+      "text": "Hype driven development sama link-in driven development ya."
+    },
+    {
+      "start": 3990.76,
+      "end": 3997.76,
+      "text": "Biar nanti di CV kita di link-in itu ada Boon.js."
+    },
+    {
+      "start": 3997.76,
+      "end": 3999.76,
+      "text": "Boon.js developer."
+    },
+    {
+      "start": 3999.76,
+      "end": 4004.76,
+      "text": "Berpengalaman 3 tahun menggunakan Boon.js, padahal Boon.js baru 1 tahun."
+    },
+    {
+      "start": 4004.76,
+      "end": 4007.76,
+      "text": "Loh, Eka kemana? Hilang."
+    },
+    {
+      "start": 4007.76,
+      "end": 4012.76,
+      "text": "Wah dia belum bayar billing kayaknya ini."
+    },
+    {
+      "start": 4012.76,
+      "end": 4015.76,
+      "text": "Dari warnet."
+    },
+    {
+      "start": 4015.76,
+      "end": 4020.76,
+      "text": "Di install ini Boon.js terus mati. Jangan-jangan mati listrik."
+    },
+    {
+      "start": 4020.76,
+      "end": 4024.76,
+      "text": "Ya sudah kalau gitu berhubung Eka-nya juga sudah menghilang."
+    },
+    {
+      "start": 4024.76,
+      "end": 4029.76,
+      "text": "Mudah-mudahan ada technical problem kali ya."
+    },
+    {
+      "start": 4029.76,
+      "end": 4036.76,
+      "text": "Mudah-mudahan minggu depan kita ketemu lagi di jam yang sama, di hari yang sama, selasa malam, jam 8 malam."
+    },
+    {
+      "start": 4036.76,
+      "end": 4040.76,
+      "text": "Dan Eka-nya muncul lagi."
+    },
+    {
+      "start": 4040.76,
+      "end": 4043.76,
+      "text": "Loh, tapi wah ini kayaknya koneksi internet ya."
+    },
+    {
+      "start": 4043.76,
+      "end": 4049.76,
+      "text": "Kira-kira baru habis install Boon.js tiba-tiba menghilang."
+    },
+    {
+      "start": 4049.76,
+      "end": 4055.76,
+      "text": "Kita sudah pamit, kita pamit lagi sekali lagi."
+    },
+    {
+      "start": 4055.76,
+      "end": 4061.76,
+      "text": "Sampai ketemu minggu depan, hari selasa, jam 8 malam, bye bye."
+    },
+    {
+      "start": 4061.76,
+      "end": 4064.76,
+      "text": "Oh iya, perayan 1 tahun."
+    },
+    {
+      "start": 4064.76,
+      "end": 4067.76,
+      "text": "Jadi jangan lupa."
+    },
+    {
+      "start": 4067.76,
+      "end": 4070.76,
+      "text": "Kita potong kue."
+    },
+    {
+      "start": 4070.76,
+      "end": 4074.76,
+      "text": "Potong kue ya."
+    },
+    {
+      "start": 4074.76,
+      "end": 4078.76,
+      "text": "Sampai jumpa minggu depan, bye bye."
+    }
+  ],
+  "fullText": "yo yo yo halo halo selamat malam kita ketemu lagi di hari selasa malam seperti biasa selasa malam adalah waktunya ngobrolin wet kita tetap lama nih komposisinya masi masi riza masis ya di episode yang ke 52 atau episode 53 kita menyebutnya gimana sih 52 dia ya tetep aja sesuai angka sesuai angka sesuai angka episode ke 52 ini ya kita akan membahas tentang package menajemen sesuatu yang lagi rameh ya rameh apa itu selalu rameh ini selalu rameh periodikal setiap ada ada kena masalah ada yang sesuatu yang menawarkan sesuatu yang lebih cepat ada yang baru gitu kan inovasi inovasi baru ya package menajemen package menajemen ini tergolong baru ya terutama di web dan javascript karena sebelumnya tidak ada iya karena tidak ada kalau nanti kita akan bahas ya sejarahnya gimana sekilas jadi sebelum kesana mungkin kita bahas dulu tentang package menajemen itu apa sih nah ini ada artikel dari mdn yang cukup mewakili jadi salah satu kerjanya job desk nya package menajemen adalah dependensi menajemen jadi dependensi itu adalah third party software atau library atau code yang ditulis oleh orang lain terus code itu atau library itu kita gunakan untuk solving problem yang untuk aplikasi kita sendiri untuk aplikasi kita sendiri bisa yang dari hal hal kecil misalkan human readable date ya kalau pakai date mungkin dulu kalau pakai javascript agak susah gitu kan kita butuh moment js kita butuh date fns dan lain-lain itu banyak ya nah itu adalah dependensi dan yang menariknya dependensi ini bisa juga punya dependensi dari dependensi yang lain gitu dia saling tergantung sub dependensi sisilahnya jadi kalau misalkan kita install apa ya react ya react itu tergantung ke beberapa library lain misalkan ada react dom misalkan ada apa lagi ya banyaklah ya banyak ya utility utility makanya makanya kalau kita install dan lakukan npm install tiba-tiba di folder node modus kita langsung banyak gitu kan itu adalah sampai banyak webnya ya apa ya biasa kan kita install satu nih npm install express wah langsung banyak gitu padahal kita cuman install satu ternyata dependensinya banyak gitu gimana Ivan ya sedikit lebih jauh lagi tentang depan apa namanya package manajemen ini ya ini kan yang yang dicerita mdn ini adalah untuk yang javascript tapi kalau kita lebih jauh lagi package manajer ini cukup populer dan sudah ada sejak lama itu dari linux environment jaman dulu banget kalau saya lakukan quick searching package manajemen yang pertama kali itu justru adanya di tahun 89 ya jadi sorry tahun 94 mulai ada mulai ada itu mulai dibangun dari 89 dan 94 itu mulai ada itu waktu terus zamannya namanya Smith smit dan itu dari IBM AIX jaman itu waktu itu kan jadi begini ceritanya package manajemen kalau yang di linux ekosistem itu kan kita mau install sesuatu butuh dependensi beda dengan kita install sesuatu yang ada di windows kalau di windows package installnya kita itu sudah nge-bundle sudah ada dllnya sudah dibundle jadi dll dan XS nya XS nya sudah di SES nya conf nya cnf nya dll nya sudah dibawa semua di package installer bedanya di windows ekosistem begitu ya nah makanya dulu teman-teman kalau misalnya install sesuatu dari cd yang di sewa pergi sewa cd bajatan yang di sewa installer cd bajatan yang di sewa yang di sewa installnya itu kan gede banget ya itu semua dibawa jadi zip-zip file bahkan apa ya kalau package manager zip bukan zip ya apa installer itu biasanya exe MSI MSI MSI Microsoft installer nah mse.mse kan tinggal klik dua kali terus ada ada pop up nya next next terinstall lah semua bisa kita main game nya contoh ya itu semua sudah dibawa kalau di sistem windows tetapi kalau di linux ekosistem itu berbeda karena kalau kita mau install sesuatu misalnya install kalau gcc sudah pasti ada ya kalau let's say mau install FFmpeg ya kan itu kan mesti nggak selalu ada FFmpeg di ya let's put it simple in simple way mungkin FFmpeg film film film film itu bukan nggak semua distro bawa film sebagai default install ya nggak mesti jadi kalau kita mau install kalau misalnya di tergantung package installer kalau misalnya di ubun itu apt apt install film nah film itu kan punya ini ya punya hanya executable film tapi film itu membutuhkan library lain apapun itu ya mau abcde dan ternyata library lainnya abcde itu butuh butuh library lain lagi XYZ itulah package manager itu berfungsi kalau nggak dulu zaman itu zaman dulu itu jamannya debian itu pakai dpkg ya dpkg jamannya si salah kubu kubunya debian dpkg kubunya kubunya redhead redhead entos rpm ya itu juga ada lagi beda-beda semuanya iya dan itu pusing nah makanya mereka bikin centralized repositori jaman itu sudah ada namanya repositori ya di mana repositor-repositori sudah kontain package nya versi nya fourth nya ya misalnya sorry arhitekturnya bahkan arhitekturnya sampai dependensinya nanti dependensi list nya apa jadi bisa tetap di install berarti itu sebenarnya apa konsep repositori yang sekarang kita kenal di aplikasi web atau ekosistem javascript itu kursornya kayak nenek moyangnya itu ya berarti istilah repositori dan daftar packaging digunakan versinya apa prinsipnya berarti dari ambil dari sini dan jaman itu karena komunitas linux itu kuat jadi ya banyak researcher-researcher atau banyak mirornya di mana-mana iya salah satunya kambing ada yang tahu kambingnya iya kambingnya kambing itu adalah server dari UI yang memiror semua distro-distro terkenal dari linux termasuk juga repositori ini sampai sekarang masih aktif deh masih ada kadang kalau nge-strip tuh suka nggak sengaja menemukan iya karena kan kalau dulu kan kita pakai internet kan kalau keluar itu lambat sekali ya kalau di lokal itu penceng kan ix gitu kan istilahnya kan lokal internet kan nah itu kita ganti tuh APT repositori nya ke kambing ke repositori lokal sehingga ya instalasi dan kalau dia sentos dulu sentos itu bisa nyari repositor dia bisa punya kehandalannya dia bisa nyari repositori yang terdekat hmm itu kerennya si sentos ya kita juga punya distro dia punya distro Blancon Blancon ada banyak sih ada beberapa sih yang tapi udah disenangkan juga iya dan itu sekilas ya sekilas beda-beda ya masing-masing os beda-beda kalau windows itu dia ada installernya dia nginstal ke mungkin dll nya dia kopi ke file ke folder mungkin windows 32 atau mana gitu ya terus installernya dia taro di program start dan lain-lain gitu kan kalau linux dia mungkin cenderung lebih kecil file nya tapi dependensinya di download makanya kalau kita install linux itu biasanya butuh internet kalau windows kadang-kadang kalau kita install windows kan satu cd aja cukup ya atau beberapa cd lah beberapa cd betul dan windows package manager itu baru ada baru ada akhir-akhir namanya winget winget juga ada chocolate juga ada baru ada dua tiga tahun belakangan iya yang agak sedikit berbeda lagi mac os mac os lebih sederhana lagi file nya satu enggak sebelum itu kalau kita misal mau install aplikasi kan kita download tuh download app dot app biasanya kan kita tinggal jemblungin ke folder aplikasi udah jadi karena itu sebenarnya kayak zip kan semacam zip kan ya dalamnya ada kan di finder kan bisa dibuka ada isinya sudah instilahnya kalau jaman sekarang sudah sudah di bandel satu bandel aja satu file that's it gak perlu di install gak ada di install gitu kan semuanya jadi gak nyampah istilahnya jadi lebih sederhana juga kalau mau install dan install tapi kekurangannya adalah file nya ukurannya besar karena udah dibandling semua kayak docker gitu ya kayak image gitu baru kemudian ada bruh bruh bruh bruh itu justru lebih milip index dia sistemnya dia ada satu direktori khusus gitu kan yang menyimpan lebrese.so.dll dan lain-lain library yang digunakan di satu folder itu homebrew namanya itu juga package manager di kesempatan kali ini saya cuma menyampaikan ke maintainer homebrew itu sehat-sehat lah dan monggak-monggak kalian masuk surga monggak-monggak kalian masuk surga membantu sekali ya banyak orang terbantu banyak orang terbantu dan juga maintain linux dan npm kedepannya ngomongin sejarah sekarang kita menuju ke sejarahnya npm ya dari node.js sebenarnya ya iya jadi node.js ini kalau kita install biasanya dia membawa sebuah package manager namanya npm node package manager ya seperti kita tahu 2009 ditambah awal mulanya iya tapi kayaknya awalnya belum ada npm disini mungkin dia awalnya mungkin di tahun yang sama tapi gak langsung iya tapi kayaknya gak barengan jadi dia bikin node.js dulu begitu udah kira-kira udah mvp nya udah jalan baru dia bikin node package manager mungkin sebelum itu kayaknya udah ada ya beberapa ya kayak di ruby ada ruby gem ada python python ada juga ada juga kalau php komposer komposer ya komposer tuh kayaknya lebih baru ya komposer itu udah lama ya ada yang lebih lama dari komposer sebelum komposer apa ya namanya ya sementar kita cari pier ada yang tau pier ya itu lebih jadu lagi pr pr jauh sebelum komposer jauh sebelum npm juga ya ini pertama kali jadi dia dalam bentuk zip aja kita download biasa itu taruh di folder kita ini yang pertama tapi kayak versioning nya berarti ada di zipnya itu kalau si pr itu sama nah dari 2009-2011 baru mencapai versi satu terus juga node.js diadopsi oleh banyak perusahaan besar kemudian berkembang berkembang sampai akhirnya ini terjadi masalah disini kan ada yang io.js kalau teman-teman yang penting jadi node.js ini kok versi nya gak naik naik dari 0.12 gitu kan akhirnya komunitas inisiatif bikin sendiri supaya naikin versi nya aja padahal node.js udah dipake di mana-mana sampai akhirnya balik lagi sama biar bisa support ks yang mudir ya oh iya betul sama kemudian akhirnya si node.js memutuskan untuk bikin foundation dan io.js dimers balik ke node.js sampai kemudian 2015 ini npm sudah bisa ada private module kalau yang kita lihat sekarang di npm.js.com kalau teman-teman npm misal itu adalah npm public ya public registry nanti kita akan bahas tentang public registry nah setahun setelah bukan npm lahir kan 2009-2011 kan setahun setelah foundation ini jalan muncul satu kejadian insiden yang luar biasa mempengaruhi banyak banyak apa ya banyak program banyak aplikasi ini namanya leftpad oh yang dia yang bikin padding terus dia hapus dia hapus iya jadi dia bikin sebuah sebuah library namanya leftpad leftpad itu gunanya buat apa ya antara buat iya leftpad itu kan apa hapus spasi yang ada di sebelah kiri dari strengka iya iya sederhana sekali bisa kita bikin sendiri padahal tapi ternyata leftpad ini banyak dipakai di library dependen nya banyak sekali kalau kita lihat di npm misalnya kan npm.js.com itu kan apa nih library yang konek misalkan konek ini adalah salah satu dependensi dari express middleware dia yang memungkinkan middleware di express itu adalah konek nah kita bisa lihat dependen nya dependen nya ini 3000 jadi ada 3000 library yang di npm yang menggunakan konek iya bayangkan tiba-tiba konek dihapus mati ini semua nggak bisa pakai gitu itu yang kejadian sama si leftpad jadi ketika udah banyak yang pakai yang apa ke ketergantungan kepada library ini tiba-tiba si leftpad nya dihapus sama pemiliknya hancur itu semua library iya itu kejadian pertama walaupun akhirnya ya bisa recover ya ada alasannya sih entah di hack entah apa gitu ya atau ngambek juga ya yang terakhir ngambek kan sama kayak faker.js kan ada yang baru kan faker.js lebih baru dari faker.js iya oh no yang kayak gitu juga karena isu ada yang terakhir kan apa ya namanya itu yang dia hapus ah lupa deh gue lupa oke dan ini bukan hanya sebenarnya bukan hanya kejadian di ekosistem javascript di python juga pernah kejadian karena ini sifatnya demokratis semua orang bisa bikin gitu ya banyak yang bisa lagunakan jadi banyak yang menyalahgunakan misalkan npm install monggo db kita bikin aja supaya typo monggo d ada monggo dba ada monggo o nya gak ada juga ada gitu dan ada beberapa yang pakai apa yang dibuat untuk ngambil data lah kripto lah untuk macam-macam ya jadi harus hati-hati juga dalam memilih jadi apa ya selektif lebih selektif gak sembarangan npm install karena ketika kita melakukan npm install tapi ini menarik juga sih apa jadi sebenarnya celah security yang paling paling rawan itu sisi manusianya ya entah itu kan berarti manusia kita gak terliti kita gak terliti misalnya monggo apalah kuruf l jadi i atau apa monggo bd jadi monggo bd atau nintainer ngambek dan lain-lain itu celah-celahnya dari dulu sampai sekarang gitu-gitu aja ya betul betul cuman katanya ada beberapa netizen yang bilang ya kalau kalau misalkan kayak taipo gt itu harusnya bisa di apa ya / tapi auto correct common use case / ya mereka ada beberapa yang menyalakan npm nya npm sebagai company ya npm incorporated nya karena itu bisa diantisipasi dengan yang harus ya kayak ini aja lah kayak google play atau app store gitu jadi harus ada proses validasinya bahwa ini benar bahwa ini gak ada apa gitu jangan terlalu demokratis juga jangan terlalu terbuka gitu ya jadi ya banyak lah kejadian-kejadian baik itu di saya gak tau dirubi ya kalau di python beberapa pernah dengar cuman di bahasa yang lain saya gak tau gitu ya begitulah jadi banyak kejadian sampai / lupa share screen nya apa? / share screen nya mau di nyalakan lagi ya sampai ya terus 2017 setelah kejadian itu setahun setelah kejadian itu npm mulai fokus ke security ya udah udah banyak lagi semakin banyak yang pakai 3 billion npm download every week bayangkan servernya kayak gimana itu ya / kan kebanyakan static file / iya sih itu bukan download doang ya / betul betul / terus ya selebihnya sih di nps ya secara umum ya cuman beberapa ada npm juga / udah mulai setel ya berarti udah gak ada decision yang udah gak ada perubahan signifikan lagi berarti kan habis itu / sudah tidak ada perubahan signifikan betul / paling terakhir ya si 2018 itu bisa pakai file mgs / betul nah seperti biasa seringnya untuk aplikasi apa bukan untuk untuk library atau tools open source itu biasanya di apa ya di di drive juga sama komunitas jadi ketika npm ini banyak disibukan oleh kejadian-kejadian dan incident-incident yang gak penting seperti ini bukan gak penting ya maksudnya yang ya security dan lain-lain jadi mereka kayak apa ya sumber daya tersedot ke hal-hal security npm sebagai tools-nya jadi kurang apa ya fiturnya kurang berkembang gitu muncul lah beberapa alternatif salah satunya yarn yarn ini pada awalnya dibuat / dibuat OFS yang itu ya / iya iya iya iya iya oleh facebook ya / oleh orang-orang yang saat itu bekerja di facebook ya meta karena waktu itu juga kalau gak salah react udah mulai berkembang ya udah mulai banyak yang pakai dan mereka merasa npm ini terlalu lambat akhirnya mereka bikin fitur utamanya adalah ketika kita sudah pernah melakukan instalasi sebuah package kita gak perlu download lagi dari internet masih tersimpan di cage atau di lokal kita kalau versi yang sama bahkan internet mati pun kita masih bisa instalasi / bisa dipakai ulang dari / bisa dipakai ulang itu itu / npm yang baru juga sudah bisa cache sih / justru itu yang tadi saya bilang jadi ketika dia kurang berkembang muncul yang baru untuk mendrive si npm-nya supaya berkembang jadi kayak / bagusnya itu system open source gitu ya / iya / iya kayak yang maksudnya kalau ngomong feature nih kan yarn selama beberapa tahun pertama tuh mereka banyak feature yang npm belum ada kayak workspaces itu yang paling wow banget pas itu ya abis itu mas sekarang npm juga udah ada / udah bisa betul jadi dia ketika dia mendownload sesuatu dari npm registry dia simpan ke hard disk kita jadi kalau misalkan kita install lagi kita gak perlu konek ke internet jadi menghemat bandwidth juga / kita bingung kok hard disk kita cepet ah habis / nah muncul lagi pnpm pnpm ini jualannya adalah this space efficient pks manager / bisa link ya / bisa link jadi hardlink / hardlink apa softlink ya pokoknya itulah hardlink ya jadi dia disipan di satu repo di satu folder tertentu ketika ada project kita / node folder gitu / ya node modules kita cuma mengarah ke folder yang itu gitu gitu / jadi gak ditaruh gak bikin lagi singling ya / iya / jadi pokoknya occupy jadi misalnya size nya berapa satu library itu size nya satu mega lah gitu jadi gak di copy jadi satu mega lagi yang dipakai beneran cuma itu ngaruh banget sih kalau apa / ngaruh banget / pengalaman beribagi / iya ngaruh banget sangat berpengaruh itu awalnya awalnya feature awalnya walaupun kemudian berkembang sama kayak yarn juga ya ada workspaces ada macem-macem ya ada banyak berkembang termasuk juga si pnpm / satu yang gue suka dari yarn keren banget itu gue suka sampai sekarang gak ada kayak yarn outdated meskipun di npm outdated sudah ada / ada / oh tnpm juga ada / yarn outdated itu bisa keren bisa liatin semua / outdated ada recursive ada flagnya macem-macem / tinggal cinta-cinta-cinta update semua yang kita cinta gak perlu satu-satu / look ivan kok hang / hang ya / emang hang / enggak enggak enggak enggak aman aman oh gue yang yang berarti / oke dan dia berkembang dia namahin kayak support mono repo yang lagi ngetrend juga sekarang kan si yarn juga bisa ya kalau gak salah ya npm juga bisa gak tahu nih / udah bisa semua sekarang / udah bisa semua / dulu yang paling pertama kali yarn yang pakai workspaces / yarn yes sekarang udah bisa semua / ini apa petfif kurang penting gak penting sih kan ini masing-masing tuh library terpisah ya dan gak ada contensi untuk penamaan itu nyebelinnya jadi kalau yarn pakai istilahnya itu workspaces nah kalau gak salah npm atau npm pakainya workspaces gak ada s nya itu nyebelin banget ya cuma maksudnya secara fungsi sih sebetulnya / sama / kompatibel lah mirip / iya nah temen-temen pakai yang mana nih kalau saya sih pakai pnpm sekarang ya walaupun npm nya ada kalau yarn udah lama gak dipakai karena kebutuhan kalau misalkan kayak ngajar gitu kan Kita ekspek orang install node, abis itu harus install iarn lagi kan ribet ya, jadi tetap pake npm dari dulu. Kalau kita pikir ada npm, saya langsung alias npm. -Alias npm. -Gue belum pernah pake npm. Itu package.log-nya sama nggak? Atau dia bikin sendiri? Ada, ada sendiri, tapi bisa dipake yang udah ada. Tapi mirip sama, maksudnya kompatabel sih. Intinya kalau project yang sudah pakenya package.log, gimana? -Tetap ada, tetap dipake. -Paling di warning. Kamu udah pake package manager lain, kayak standard, itu standard warning. Kita kalau pake udah ada package.log JSON ya, itu kan tanda pake npm. Kita pake iarn juga muncul kayak gitu, nah pake npm sama aja. Tapi kalau fungsi sama aja. Untuk lebih detailnya, disini ada komparasi command ya, atau perintah. Kayak misalkan clean cage seperti apa. Kalau dia nggak ada clean cage karena disimpan semua. Cuma jadi kayak satu tempat, di satu tempat. Cara installnya gimana, iarn nggak perlu pake install ya, boleh pake atau nggak, ini optional. Jadi iarn spasi express, iarn spasi react gitu. Kalau pnpm dan npm masih sama. Jadi kayaknya npm sama pnpm, pnpm ini mencontoh sekali commandnya npm. Tinggal tambahin pn nya aja di depan. -Biar orang nggak kusing juga sih, ya kan? -Betul. Dia juga ada add juga ternyata, baru tahu nih. -Dia ngikutin iarn juga ya, sama kayak. -Jadi kayak react dan p-react. -P-react. -Oh iya, apa kabarnya kusingnya? Ntar lagi, ntar lagi ada yang bikin p-view. P-swell. -Uninstall, update. -Nah slow p-react, runtimenya nggak perlu p. NPX, nah NPX ini, ini yang berbeda ya. NPX ini adalah executable. Jadi biasanya kalau dulu kita pakai global, kalau sekarang kita bisa langsung. Nah ini juga nyebelin, karena antara npm, iarn sama pnpm itu command execute-nya lain-lain. Kalau pnpm itu pnpm exec. Nggak ada di situ sih, coba bukain ini deh. Pnpm ada pnpx kan? Oh iya, ada ya. Mungkin wrapping kalau yang standardnya pnpm exec. Terus kalau iarn, iarn bukan iarnx tapi dlx. Pnpx, ada, ada, saya udah pakai. Kalau iarn dlx ternyata bukan iarnx. Oh dlx, beda-beda ya. Buka aja tuh link-nya ada di chat. Oke. Oh dlx, beda lagi ya. Itu fungsinya buat meng-execute entah dari lokal maupun dari remote ya. Jalanin repository remote. Tiga-tiganya masih di-maintain ya? Masih, masih. Oh di-maintain, di-maintain. Nah. Iya. Apa yang? Iya. Saya suka pakai ini juga kadang kalau misalnya nggak, misalnya. Malas install. Malas install, malas install BabelJS. Untuk transpile, yaudah NPI, BabelJS, langsung transpile, beres gitu. Terus sama semua flight, terus kita ngedeside output-nya. Iya. Buat testingnya bisa kalau malas. Oh iya, benar-benar. Tapi menariknya meskipun npm ada tool sendiri, yarn ada tool sendiri, npm ada tool sendiri, yang lain-lain mungkin ada lagi ya, yang kita nggak tahu atau ada yang baru lagi nanti. Tapi mereka, apa ya, mereka mendownload si library-nya berasal dari... Sumbernya sama. Sumber yang adalah npmjs.com, istilahnya itu adalah package registry, jadi package index ya. Search index lah, kalau kita mau cari package apa, kita ke npmjs. Ini repository. Iya, registry. Nah, jadi plot yang belum tahu perlu banget dibedain antara npm sebagai aplikasi software package manager dan npmjs sebagai registry. Maksudnya mereka itu perusahaan kan, perusahaan yang memiliki layanan registry. Jadi kalau, walaupun kita pakai yarn, ya sebenarnya download-nya dari npmjs juga, karena itu dua hal yang terpisah. Github juga punya loh kayaknya. Github juga ada, ya terakhir-akhir ini mulai banyak yang muncul, dan npm sendiri sebenarnya nggak hanya publik. Misalkan temen-temen mau bikin aplikasi yang proprietary, nggak boleh dilihat sama orang, tapi butuh npm, butuh installer npm. Bisa. Bisa dibikin private. Apat, private, mereka justru cari duitnya dari situ, untuk akun premium buat scope private. Betul, baru kemudian si github mengeluarkan package registry juga. Ini ada link-nya, buka aja Mas Tiza, kalau github gitu. Ada yang pernah publik ke registry selain npmjs? Belum. Ke github? Di salah satu project client, dan kondonya kan nggak mau di-share. Nggak boleh di-share. Nggak boleh di-share. Ini, jadi cuma cerita aja, jadi kita tuh bikin komponen-komponen, komponen-komponen kita. Jadi, website-nya ada banyak, mau di-redesign semua, tapi kan komponen-nya sama tuh ya, card, postcard, header, menu-menu. Kan intinya sama semua gitu ya, cuma beda-beda. Jadi, dump komponen, artinya komponen hanya menerima props dan... Nggak ada logiknya lah, pokoknya UI. Nggak ada logiknya, pokoknya terima props jadi apa gitu. Nah, jadi kita publish semua komponen-nya ke private npm registry, github dalam hal ini. Dan ya sudah, pakai itu aja. Jadi, semuanya dipublish ke sana, dan ada storybook-nya segala macam, lengkap. Dan untuk supaya bisa publish, karena komponen-nya udah banyak kan. Jadi, satu, kita nggak pakai honor repo, jadi satu komponen itu satu registry. Satu package. Jadi, num add blah-blah slash article-cut small, artikel-cut small contohnya. Nah, jadi satu-satu. Untuk supaya, dan kita maintain-nya pakai satu repo kan, satu repo, monor repo. Dan supaya bisa publish semua kesana, pakainya learner.js. Oh iya, learner yang ngetrend banget, pernah dulu ya. Masih mereka masih pakai sampai sekarang, masih stable. Ntar, kalau buat publish ke github registry, itu berarti di package.json itu cuma ada kayak itunya ya. Kayak ada field khusus, apa sih publish ya? Ada config-nya kan, di package.json. Kita sudah define npm package.github ini, jadi token-nya itu, waktu kita tambahkan itu di lokal. Nah, soalnya barusan ada pengalaman nggak penting, berusaha mempublish package ke registry github. Tapi gagal, alasannya lebih nggak penting lagi. Karena tiba-tiba nggak bisa login ke npm dari command line. Kan kalau mau publish package, mesti npm publish ya. Tiba-tiba nggak bisa login. Maksudnya apa, kan buka UI login di web kan, terus masukin email dan password. Betul, bukan karena password-nya salah atau apa. Terus apa sih, ada konfirmasi OTP yang dikirim ke email, tulisannya gitu doang. Cuma nggak pernah masuk ke email, udah dicoba berkali-kali. Ya intinya jadi nggak bisa login kan. Nah, aneh juga kenapa, tapi nggak ada warning apapun. Jadi kayak cuma, ya kami sudah mengirim OTP ke email anda, silahkan dicek. OTP-nya nggak pernah masuk. Terus kan submit ticket ya, submit ticket ke npm.js. Ya udah, sambil nunggu iseng nih. Ya kali pengen lah coba, soalnya kan ada UI-nya juga bagus banget di github. Di url github repo kita kan jadi ada itunya, package-nya. Udah berusaha nge-setting-setting, nggak bisa-bisa, jadi kesing. Nah, at the same time, selama kan udah nggak berhasil publish ke github registry, besok paginya udah dapat respon dari support desk npm. Ternyata kasusnya adalah gini, kami nggak tahu kenapa email kamu tuh masuk ke blog please. Nah, sekarang sudah di unblock lagi. Ya udah, langsung bisa. Udah, selesai. Ya udah, akhirnya package itu dipublish ke npm, batal gagal berusaha publish ke github. Kayaknya sering nge-spec. Jadi, disini juga udah dijelasin ya, package registry itu apa yang tadi udah kita bahas ya, npm.js itu adalah package registry-nya. Tapi npm bukan hanya satu-satunya opsi, kita bisa pakai Microsoft Azure, ternyata ada servisnya, dan ada github pakai registry. Ada GitLab juga kalau nggak salah yang ada, dan ada banyak yang lain. Atlasian ada nggak sih? / Atlasian itu bitbucket ya? / Dia ada bitbucket. / Yes, coba cari aja. Google nggak bikin ya? / Iya ya. Npm dan npm.js itu adalah dua hal yang... / Kalau Google, gue tahu adanya docker registry dia bisa bikin pakai Google Cloud. Docker registry, Google Cloud, ya. Ya itu sama juga ya, dengan docker juga sama tuh ya, registry, package registry gitu ya. Oke, oke. Nah, terus kita bahas apa lagi? Apa lagi ya? / Terakhir nih yang baru tuh. / Oh iya, yang baru ya, yang baru. Nah, kan yang lagi hype, yang lagi heboh kan kemarin. Kalau kita install Node.js, secara otomatis kita install npm dan nps. Yang menariknya, boon.js yang baru itu ternyata bisa juga punya package manager. Jadi kalau dia nggak perlu pakai npm, dia langsung pakai boon add gitu ya, atau boon install gitu ya? / Boon install. Dan itu udah include ya? / Udah include ya. / Sebelum kita masuk ke boon, kan hype-nya itu kan lagi, boon itu cepat. Boon itu gimana? Boon itu lebih cepat dan segala macem. Jadi kita demo yuk, tes aja di project beneran gitu, project open source-nya. Sebelum kita bahas tentang boon lebih cepat. Jadi hype-nya boon itu kan lebih cepat katanya ya. Kita tes, kita tes. Buat teman-teman yang belum tahu, boon.js itu adalah alternatif run time. Alternatif dari setara Node. / Javascript. Alternatif dari Node.js, tapi bedanya kalau Node.js dan Deno itu menggunakan V8-nya Google Chrome, mesin engine Javascript-nya Google Chrome yang namanya V8. Kalau si boon.js menggunakan Javascript Core yang digunakan di Safari dan WebKit. Kalau buat teman-teman yang bingung kenapa ada apa itu Javascript runtime V8, Javascript Core, kita kayaknya pernah punya episode Javascript runtime. / Sudah bahas. Cukup lengkap ya bahas tentang Javascript engine. / Terus macemnya lupa punya episode dulu adalah. Kita bahas tentang Gecko, kita bahas tentang CSS engine juga banyak di episode itu. Cari aja nanti di sini. Oh enggak ada ya? Di sini, di mana? Kayaknya kita perlu melanjutkan itunya kita, projectnya untuk seluruh... / Gallery. Gallery-nya, terus dibikin... / Betul. / Nanti kita harus lanjut sudah ngomongin itu deh. Sambil menunggu Ivan siap-siap, kita lihat ini dulu, boon.sh alamatnya. Nah di sini teman-teman bisa lihat ya, perbedaan itu jauh sekali. Kita enggak bisa menelan mentah-mentah si benchmark sih ya, harus coba sendiri. Ya namanya marketing. / Lumayan. / Iya. Kalau pakai database tuh. / Pasti lebih cepat. Mungkin dia tulis di sini dia paling lag kan. Nggak lebih lambat, nggak mungkin. Iya sama ini, kadang kan 100-200 atau 300% lebih cepat. Tapi lebih cepatnya itu misalnya 100 millisecond dibanding 300 millisecond. Yang mana buat kita tahu project pada umumnya ya. Maksudnya kecuali kita punya project yang ekstrim, yang berat banget, kita harus LLM atau apalah. Tapi kalau kita project regular, kayaknya 100 millisecond sama 300 millisecond, kaya practically nggak ada bedanya. Tapi ya menarik sih, minimal ada alternatif dan menariknya pakai engine yang selain V8 jadi nggak monopoli lah. Bagus kan itu karena boon, ngedorong ekosistem juga. / Betul. Yang menariknya lagi, aplikasi teman-teman yang sudah di-develop dengan menggunakan JavaScript dan OJS, kompatibel dengan Boon dan juga dengan OJS. / Terus jalan aja, sama. Kalau nggak kompatibel, nggak ada yang mau pakai. / Betul. Saya belum ngecek ya, kalau Boon ini kan dia pakai package management sendiri. Gimana dengan Deno? Deno kalau nggak salah kita bisa mendefinisikan URL library kita di import kita kan. Itu yang membedakan Deno dengan NPM juga kan. Kalau NPM kan Import React From React kan. Kalau Deno itu kan ada Import React From @reactjs.com/blablabla gitu lah. Kalau nggak salah. Tolong dikoreksi kalau salah ya. Mereka tuh pakai package managernya apa ya? NPM juga apa? Kompatibel dengan NPM kali ya? Oh pakai URL mah. / Pakai URL kan, bener kan? / Iya. Jadi mereka nggak pakai package manager gitu? Ya mungkin mereka internally kan pasti harus ada suatu bentuk management kan. Harus ada di-store minimal itu di-store di mana dan ada listnya packagenya apa, versinya berapa. Itu berarti suatu jenis, suatu bentuk package management. Ini contohnya nih. Export blablabla URL. Nah yang menariknya dengan pendekatan seperti ini kita bisa punya registri sendiri. Yang private mungkin. Jadi nggak perlu NPM JS gitu kan. Kalau kita mau taro di server kita ya taro aja udah gitu. Itu yang menariknya. / Oke. Udah. / Oke. Siap-siap? Siap-siap. Siap-siap. / Asik. Demo demo. / Demo demo. Bukan deno ya. Demo deno. / Oke. / Demo deno. / Bun bun. Catatan seorang demonstran. Demonstrancode. / Demonstrancode. Oke. Application entire screen aja gampang karena harus semua. / Oke. Mau nggak? / Kesini dulu biar gampang. Nah. Oops. Salah. / Wiss. / Nah. / Dia habis laporan nih. Iya. Oke. Sekarang ini projeknya ya. WP paski yang saya buat untuk menambahkan paski fitur ke WordPress. Di paski ini. / Ini plugin ya. Plugin WordPress ya. / Plugin. Plugin WordPress ya. Dan saya pakai dev dependency. Dan dependency ini ya. Di paskinya. Oke. Kita lihat dulu dari sisi. / Eh sebentar. Tunggu. Kita belum bahas nih. Dependency sama dev dependency. Sekalian aja kita bahas. / Ya. / Apa bedanya? / Sekilas aja. Nanti kalau yang di tell kayaknya episode itu sendiri. Ini di package.jsonnya saya. Kalau yang dependency itu adalah dependency yang akan dipakai di production atau di live. Akan di load. / Akan di jalankan pas orang lain, aplikasi lainnya yang pakai, yang install aplikasi kita ngejalanin. Si dependency itu harus ada ya. Karena bakal dipakai. Sedangkan dev dependency itu development dependency yang hanya dipakai saat kita nge-develop. Jadi saat kita melakukan transpile, linter yang episode lalu yang nge-linter. Ini ada ISLint, ada pretier. Itu kan nggak perlu. Ada feed. / Termasuk juga TypeScript kan. TypeScript kan pas dependency kan nggak perlu kan. Karena itu dalam JavaScript kan. / Ya dev dependency. / Ya lagi kan kan udah di compile juga pasti di distribute. Bisa feed, bisa webpack, bisa roll up. Itu semua dev dependency. Sedangkan kalau misalnya teman-teman pakai loadas yang akan dipakai di production atau di load di client side itu perlu di dependencies. Berarti analoginya kalau beli makanan, kita beli nasi pecelele dibungkus. Pas kita bawa bungkus kan. Itu harus ada kertasnya, harus ada nasinya, harus ada sambel, ada karet segala macam. Tapi kan cobeknya yang buat ngulek sambel itu kan cuma buat proses membuatkan makanannya. Tapi kan nggak dibawa sama kita pas beli makanan. / Kita nggak perlu bawa pulang cobeknya ya. Betul banget. / Iya jadi lapar. Nah saya sudah supaya sah saya hapus dulu note modules ya. Clean ya nggak ada note modules ya. Yang pertama kita pakai npm install. Oke note nya saya itu versi 16, terus npm nya versi 8. Saya masih pakai 16 ya teman-teman karena kebutuhan project. Oke npm install. Eh salah saya time ya, saya time. Ditunggung waktunya ya berapa lama ya? / Iya. Ini kayak dipercepat gitu ya, kayak 2x. / Oke, 8 detik. 8 detik, kita hapus. / Hapus lagi. Kita hapus, sah ya, nggak ada lagi, sudah. / Sekarang pakai boon. Boon, install. Oke boon, lanjut. Siap boon. / Ses. Berapa? / 0,02. Cepet banget sih asli. Sampai nggak ada loader, nggak ada apa sih sambil ngomong langsung ngobrol. Gila cepet banget. / Dua-duanya npm saya sudah punya cache, boon saya juga sudah punya cache. Jadi bukan download lagi. Dua-duanya sudah punya cache. Coba lame rave lagi, note module nya di hapus lagi. Oke. / Terus npm install lagi. Ini nggak dari cache ya? / Enggak. Oke. / Oh wow. Cepet sekali. Jauh. Jauh sekali bedanya. Sudah kelihatan ya? / Kelihatan ya? / Biasa. Sah, sah ya, sah. Oke. Sekarang Bill. Saya ada Bill. Bill nya jelasin sedikit biar temen-temen tahu. Jalannya npm run clean dan feed Bill. Run clean nya itu cuma bersih aset direktur saya di hapus. Mnlf doang. / Dibuild lagi. Dan feed saya itu gini doang, config nya. Ambil config bla bla bla, roll up. Ada 2 endpoint, user profile sama login js. That's it. Dan ada external global. External global itu dari WordPress global yang kita cerita kemarin ya. Jadi supaya nggak perlu di-compile. WordPress global nya nggak perlu di-compile. Oke. That's it. Simple. Oke, sekarang. / Kita coba pakai, tadi kita install pakai npm ya. Time, npm, run, build. Oke. Gede gede gede gede gede gede gede gede. 1,6, 1. Lumayan, lumayan. / Second. Ini, ini. / Nggak lama-lama. Oke. / Oke. / Kita coba pakai boon. Npm, salah. Time, boon, run, build. Dia tetap bisa sama mengikuti package.json script. Oke. / Si boon. / Nggak perlu diubah apa-apa ya. Nggak perlu. / Tanpa ada perubahan sama sekali ya. / 1,97. Wow. / Lebih cepat ya. Jauh ya. / Oke, balik lagi ke npm. Oke, 1,56. Kita buat 2 kali deh biar kerasa. Biar nggak ada sulap, nggak ada sihirnya gitu ya. Tetap terasa ya. / Jauh ya, jauh ya. Hampir 50% kepotong ya. Ini kan proyeknya simple ya. Kalau misalnya kalau sudah sampai gede banget, itu pasti lebih kerasa lagi sebenarnya. Karena apalagi kalau kita sudah ngomongnya sudah... / Makin banyak nih pendensi. Multiple endpoint, ya. Multiple entry, multiple entries. Itu banyak banget kan, multiple entries. Nah, kalau sudah multiple entries. / Apa target build-nya? Ini aja saya sudah pakai feed. Saya nggak tahu kalau misalnya pakai webpack seperti apa. Proyek yang pakai webpack saya rata-rata internal, jadi nggak bisa saya show di rekaman. Jadi... Rekap untuk installnya sendiri, selisihnya jauh banget. 7 detik dan 1 detik. Untuk build time? Ini kan npm install. Lebih cepat, tapi nggak se-signifikan itu. Kalau untuk build, ya lebih cepat. Installnya jauh lebih cepat. Sedangkan build-nya 50% lebih cepat. Nggak terlalu signifikan. Oke. / Nah, tanya kalau dari segi isi, struktur-struktur isi sama ukuran modus sama nggak? Antara pakai npm sama pakai boon? Oh iya, benar. / Isi apa nih? Jumlah ukuran node modules-nya. Apakah ada yang di simling atau semacamnya nggak? Itu sama persis. / Gimana cara ngeceknya? Bukan node modules-nya. Kalau node modules-nya sama... Kalau dilihat sekilas mungkin sama ya? Di hitung jumlah folder-nya bisa nggak dari node modules? Atau pakai CLI? Wartcount? Ah, DU aja. / Coba ya. Itu pakai Wartcount, tanya aja sama Warp AI. 219 MB, supaya kita hapus dulu ya. Terus ini npm apa boon? Itu tadi npm, yang terakhir itu npm. Sekarang kita pakai boon, install. 0.22 Lebih kecil. / Lebih kecil? Berarti ada... / Ada sesuatu yang dioptimize. Ada yang dioptimize. / Ada yang di simling atau di harcling atau apa? Kita hapus ya. / Npm install. Terus kita coba pakai npm install. Ya, 50 MB. / Iya, sama. Maksudnya konsisten kayak sebelumnya. Dan boon itu pakai ini ya. Saya lihat boon itu dia ngebikin lock-nya sendiri. Iya, ada lock-nya sendiri. Dan nggak bisa binary lagi. Binary ya? Bukan JSON ya? Iya, padahal semua kalau npm, yang npm semua kan JSON. Iya, binary lagi. Menarik ya? / Menarik sekali ya. Cepat-cepat. / Coba iseng ad. Kita konten pakai yarn deh. / React. Ada nggak sih? / Yarn-yarn. Nggak punya. Oh punya, udah nggak pakai. / Udah punya. Coba time-time. / Gimana cara update-nya? Gue lupa. Yarn install. Yarn install -g yarn. / Ada, yarn. Yarn versi yarn terbaru berapa lihat dulu? Jangan-jangan emang udah baru itu. Coba lihatin dulu. Yarn itu versi berapa sekarang? Karena yarn saya udah lama nih, nggak pakai. Release, versi 3, 363. Udah lama sekali itu. / Saya satu berapa. Yarn self-upgrade. / Yarn self-upgrade, ada ya. Yarn install -g. / Tanya aja sih ini. AI. / Update. / Iya work kan, pakai work AI kan. Yarn install. Update yarn. Yarn. Ya, update yarn. Pakai NPM ternyata. NPM install, -g. / Iya. Yarn, memang begitu kan? / Iya. / Duh, nggak bisa ke-copy. Bisa langsung insert ke... / Iya, itu bisa. Ada chat GPT-nya. / Udah pakai work itu kayaknya. Kalau misalnya tiba-tiba pakai CLI biasa lagi jadi beku gitu deh. Nggak bisa. / Waktu itu installernya dimana? Coba, where is... eh, where ya? Where is yarn? / Di node. Di NPM ya? / Iya, tapi di NPM... Oh, NPM? / Coba deh. / Gak, gue pake ini soalnya. Pake NPM kan. / Oh, yang 18. Itu 16 yarnnya. Iya. / Sama. Gak apa-apa sih, pakai yarn aja. Coba iseng bandingin. Min-g, yarn. Nggak bisa. NPM, NPM. / Eh, salah ya. Oh, mungkin karena ZSH. Karena ZSH dia nge-catch. Oh, harus di restart tuh ya? / Nggak sih, nggak. Ya udah lah, coba aja lah. Time, yarn install. Time yarn install. / Enak ya kalau punya project. Time-time. / Lupa sendiri. / Bisa buat. Playground. / Playground. Karena yarn gue belum pernah punya ini nih. Ya, jadi semua ke-download ya. / Nanti kita coba apus dulu. Coba sekali lagi di-abuse. / Biasa. Kalau ini kan tergantung internet masing-masing, jadi nggak... Afdo. / Nggak valid. / Iya. / Nggak Apple to Apple. Tuh, ini package manager install semua dependensinya nih. Kemana-mana nih. Gue nggak tahu nih apa aja isinya. Ist number. Archiver. Anda lo yang bikin ist number gitu ya. Tapi dipake juga, padahal tinggal ist number doang. Ada yang pake. Tapi sampai jadi ada package bercandalan tau nggak sih yang ada is 13. Ada. / Nge-check apakah yang di-pass adalah angka dan angkanya 13. Terus jadi aneh-aneh gitu, itu kayaknya buat orang belajar full request gitu. Is 13, is 14. Yang lucu, sambil menunggu ya, yang lucu NPM itu kalau di kiri atas itu selalu ada kepanjangannya dan kepanjangannya itu beda-beda. Kepanjangannya yang random work gitu kan. / Terus nanti kalau kita refresh lagi, ada nanti lagi Narnia Produce Magic. / Narnia Produce Magic. Ini dari mana ya dia dapetin? Ninja Power Manifesto. Oke, banyak ya jadi ini. Udah selesai? Siap. Eh, salah. Sorry, sorry, sorry. Dah. / Dah. Lebih cepat. Lebih cepat dari NPM. / Downloadnya lebih cepat, tapi selesainya hampir 7. Lebih cepat dari NPM. / Lebih cepat dari NPM. Tapi, tetap. / Nggak terlalu signifikan ya NPM sama. Mungkin ini versinya juga udah. / Lebih cepat dari NPM. Ya. Versinya juga mungkin. / Boon nggak sempelahkan. Boon. / Time, time, time. Ces. / Wow. / Gila, gila, gila. Eh, coba. Remove lagi, terus install yarn lagi, lihat size-nya berapa. Oh iya. / Oh iya, tadi kita ngeliat ya. / Tapi apa tadi? DU. Cross Amp. DU. Sama. Kayak si Boon. / Sama seperti Boon ya. Boon 172 tadi. / Iya. Jadi dia pakai algoritma yang mirip ya. Iya. Alright. / Dah terjawab sudah. So far untuk project WP paski, Boon lebih cepat. Maka gue pindah ke Boon untuk paski ini. Berani nggak pakai di production? Untuk Boon? / Oke. Oke. Langsung ya. / Tapi kalau, apa? / Udah versi satu lagi ya. Kalau untuk plugin ini gue nggak perlu. / Oh, ini kan open source ya, bebas ya. Maksudnya untuk project client gitu. Ini kan ujungnya jadi build kan. Oh iya, jadi build. / Kalau di build sih mau pakai suaranya aman ya. Kecuali kalau server ya, express gitu, back-end ya. / Itu beda cerita. Atau kalau misalnya ada setting khusus kayak ada monorepo atau apalah yang... Apa sih, ada caranya sendiri ngecek dependensi lokal atau apa, nah itu males sih itu. Gue langsung add commit sekarang, boon log B. Dan selesai. Mantap. Nah, tadi kan saya sempat nanya tuh di Deno gimana sudah terjawab, ada di dokumentasi. Mereka nggak ada konsep package manager, karena semuanya berdasarkan URL. Jadi berarti setiap jalan itu manggil dari URL-nya sendiri ya? Kayaknya disimpan juga sih, di caged juga sih, kayaknya di caged juga sih. / Harus ada cara dia nyimpen kan. Sebenarnya lokal itu kan intinya kayak gitu kan? / Iya. Capek juga kalau setiap kali ngejalanin manggil tuh URL aslinya. Iya, jadi misalkan kita import bla bla bla from bla bla bla, itu pada saat pertama mungkin dia install dulu. Saat kedua dia pakai yang sudah ada, gitu lah kira-kira. / Iya tinggal di-compare aja kan? / Iya, betul. Pada waktu dia dipanggil, itu versi berapa? Kalau misalnya besok dipanggil lagi, ya udah ambil dari situ. Sekarang bikin command alias npm jadi boon. Kalau kita type-nya npm yang jalan boon. / Iya. Dulu saya melakukan itu tapi dengan tnpm. / Tnpm. / Yang sering salah kan? Betul, cuma kalau misalkan sering demo atau ngajar gitu ya, banyak yang terdistraksi karena \"loh kok npm-nya beda, progress-nya beda kan?\" Jadi pasti pada \"ngah, kok beda, gimana caranya?\" jadi malah terdistraksi. Jadi akhirnya nggak jadi alias. Jadi kalau misalkan lagi demo ya tetap pakai npm, tapi kalau lagi sendiri ya udah, baru aliasnya nggak dimasukin ke konfigurasi jadi manual aja. Alright, ada lagi yang mau kita bahas di package manager? / Sama teman pada pakai apa? Coba tuh si command pakai apa, yang paling disukain apa, yang paling dihindarin apa, terus apa ya? / Curhatnya apa, pakai apa? Kalau gue curhat pnpm nih, kan nyoba turbo repo ya? Jadi combine antara pnpm, turbo repo, ya maksudnya ini udah beda konsep lagi ya. Bukan perkara strictly karena package manager-nya apa, tapi turbo repo kan struktur kayak mono repo, cuma mereka punya apa, convention sendiri. Itu cepet banget. Tapi kalau buat deploy, terutama kalau pakai semacam Prisma atau apapun itu yang ada build-nya itu, sekarang lupa dan agak nyesel juga kenapa dulu pas ngalamin masalah itu nggak nulis artikel atau apalah, sekarang udah lupa. Intinya kalau misalnya setting mono repo, entah pakai turbo repo atau semacamnya, pakai pnpm itu kadang-kadang bakal ada quote-nya yang kita harus di .file atau di npmrc harus ngasih sesuatu lah, pokoknya harus ada yang ditambahin. Cuma karena sekarang lupa apa, nanti deh gue tambahin di komen. / Siap-siap. Ya pokoknya package manager itu bisa punya behavior yang karena kan dia memanggil dependency, terutama kalau turbo repo kan masing-masing ada node modules-nya tuh, dan belum lagi ada kayak simplink, ada hardlink. Nah itu tuh siap-siap aja kalau struktur project-nya kompleks kayak gitu, bisa ada behavior yang mau nya diluar ekspektasi kita. Yang unik-unik, yang aneh-aneh. Terutama kalau paken makin aneh package managernya, makin besar kan sekitar ketemu hal-hal aneh. Kalau project kita strukturnya rumit, tapi kalau tadi kayak yang di demo-in Irfan itu, ya udah satu repo, tapi satu doang package JSON dan node modules-nya ngebuild, ya udah itu mah apa. Ya, oke kalau begitu, kalau tidak ada yang mau dibahas lagi, dan kalau temen-temen tertarik, kita mau bahas tentang pun.js, boleh langsung kesana.in/ngobrolinweb, kasih tau mau dong bahas tentang bun. Atau kalau temen-temen ada yang di kantornya sudah pakai bun di production, mau dong kita undang kesini buat kita tanya-tanya, karena kita belum, kita nyoba, tapi belum pernah sampai ke production kan. Ya dan emang kalau di tempat kerja, pantang lah, tiba-tiba ganti package manager. Maksudnya itu bukan buat apa ya. Bukan buat apa, enggak ada impact-nya. Sedikit cerita juga kalau di tempat saya kan kliennya mostly enterprise. Jadi kalau misalnya untuk pindah apa namanya, pindah artis itu, pindah teknologi, itu harus approval dulu. Ada paperwork. Alasannya kenapa harus POC dulu, banyak ya perjalanannya. Jadi saya harus presentasi dulu, ngobrol lagi, dan dari sisi internal sendiri saya harus ngomong dulu. Kalau leadershipnya setuju atau directornya setuju, oke baru dibawa ke klien. Itu pun harus berjenjang. Kalau mau cepat tipsnya kalau mau cepat, kalau pakai bun bisa hemat, biaya, kita biayanya bisa lebih murah 50%. Wah langsung pasti approve. Iya kan harus ada impact-nya ya. Biasa server-nya. Karena gini juga Mas Riza sama Mbak Eka itu, kalau misalnya pindah asetektur, itu artinya banyak pihak yang akan dihubungi. Karena gini, dari sisi tim security, mereka harus di update kalau kita pakai misalnya bun versi sekian dan sekian. Jadi mereka harus tracking vulnerability. Jadi mereka punya proses namanya security vulnerability test, scan, mereka harus update. Jadi mereka tahu kita punya aplikasi kita pakai versi apa aja, dan semua yang versi-versi itu harus kita lapor. Nanti mereka dapat selalu up to date dengan vulnerability. Jadi mereka harus kasih tahu kita kalau misalnya ada tiba-tiba ternyata paket kita punya vulnerability masalahnya, kita harus segera dapat update dan itu langsung tiketnya bisa pinol. Ada masalah vulnerability, tolong segera update. Apalagi bun ini baru launching kayaknya kalau untuk interface kayaknya ntar dulu kali ya, kecuali untuk proyek-proyek sendiri, open source dan lain-lain ya. Betul. Belum terbukti juga. Kalau tempat kerjaku sih nggak se-strict itu ya, cuma emang ada kesepakatan kalau soal infra, ini kan sebenarnya termasuk infrastruktur juga ya, package manager punya. Kalau belum fatal, kalau perkara ada dependency yang beneran updated atau security, ya itu jelas misalnya itu prioritas. Tapi di luar itu kalau cuma buat nyoba-nyoba package manager baru, itu emang kita sepakat minimalisir update lah. Soalnya remote juga ya kerja remote, ada kantornya, masing-masing punya device sendiri yang spesifikasinya nggak streamline. Nah kan jangan-jangan bisa aja ada kemungkinan kalau ganti boon tiba-tiba di laptopnya anggota tim lain, atau di orang QA-nya yang ngetesting, boonnya nggak jalan. Nah kan harus troubleshooting tuh. Misalnya ada install-nya di mana ada yang pakai homebrew lah, ada yang pakai globalnya nggak muncul, itu mesti ada kemungkinan kalau ngabisin waktu dan ternyata untuk troubleshooting kayak gitu. Jadi kayak di Agus Makatan, kalau yang begitu-begitu jangan diubah lah. Jadi sampai sekarang masih pakai NPM yang standar, dan semua mesin, semua orang pasti ada kan. Iya betul. Kalau kamu mau pergi cepat, bersama startup atau open source project. Kalau kamu mau pergi jauh, buat project enterprise, tapi slow. Boring teknologi, itu ada masaknya sendiri. Tapi stable. Iya, nggak pusing. Oh iya, baru ingat gara-gara tadi Eka ngomong, si boon ini belum support native Windows ternyata. Baru support Mac OS, Linux, dan Windows WSL. Windows executable-nya belum. Jadi kalau misalkan ada tim QA yang menggunakan Microsoft Windows sebagai OS di laptop atau di komputer, dia harus jalanin. Karena mungkin webkitnya... Nggak bisa jalanin executable-nya doang kan? Iya, betul. Itu contoh aja sih. Maksudnya belum di support semua platform. Jadi kalau hal-hal teknologi-teknologi baru itu yang banyak ya. Bukan hanya, \"Wah ini lebih cepat.\" Terus juga begitu lebih cepat, udah kita kayak tutup mata dengan fitur yang lain, kita langsung gelak mata, langsung install gitu. Nggak langsung pakai, langsung implement, nggak gitu juga. Kan namanya hype driven development. Hype driven development sama link-in driven development ya. Biar nanti di CV kita di link-in itu ada Boon.js. Boon.js developer. Berpengalaman 3 tahun menggunakan Boon.js, padahal Boon.js baru 1 tahun. Loh, Eka kemana? Hilang. Wah dia belum bayar billing kayaknya ini. Dari warnet. Di install ini Boon.js terus mati. Jangan-jangan mati listrik. Ya sudah kalau gitu berhubung Eka-nya juga sudah menghilang. Mudah-mudahan ada technical problem kali ya. Mudah-mudahan minggu depan kita ketemu lagi di jam yang sama, di hari yang sama, selasa malam, jam 8 malam. Dan Eka-nya muncul lagi. Loh, tapi wah ini kayaknya koneksi internet ya. Kira-kira baru habis install Boon.js tiba-tiba menghilang. Kita sudah pamit, kita pamit lagi sekali lagi. Sampai ketemu minggu depan, hari selasa, jam 8 malam, bye bye. Oh iya, perayan 1 tahun. Jadi jangan lupa. Kita potong kue. Potong kue ya. Sampai jumpa minggu depan, bye bye."
+}

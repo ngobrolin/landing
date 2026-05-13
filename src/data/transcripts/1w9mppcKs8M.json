@@ -1,0 +1,3918 @@
+{
+  "videoId": "1w9mppcKs8M",
+  "language": "id",
+  "generatedAt": "2026-05-13T01:45:31.247Z",
+  "segments": [
+    {
+      "start": 0,
+      "end": 11.76,
+      "text": "*musik*"
+    },
+    {
+      "start": 11.76,
+      "end": 19.62,
+      "text": "Halo, halo, halo. Selamat malam."
+    },
+    {
+      "start": 19.62,
+      "end": 23.82,
+      "text": "-Selamat malam. -Selamat hari Selasa."
+    },
+    {
+      "start": 23.82,
+      "end": 27.6,
+      "text": "Walaupun sekarang kita bukan hari Selasa."
+    },
+    {
+      "start": 27.6,
+      "end": 32.76,
+      "text": "Walaupun kita rekamannya bukan hari Selasa, tapi temen-temen nontonnya di hari Selasa."
+    },
+    {
+      "start": 32.76,
+      "end": 35.74,
+      "text": "-Hari Selasa, iya kan? -Hari Selasa, waktunya apa?"
+    },
+    {
+      "start": 35.74,
+      "end": 39.9,
+      "text": "-Waktunya nge-rollin web. -Nge-rollin web."
+    },
+    {
+      "start": 39.9,
+      "end": 43.66,
+      "text": "Harusnya hitung dulu ya, one, two, three, gitu kali ya."
+    },
+    {
+      "start": 43.66,
+      "end": 45.98,
+      "text": "Yaitu, ada countdown-nya kayak tadi."
+    },
+    {
+      "start": 45.98,
+      "end": 49.28,
+      "text": "Iya, harus ada countdown-nya."
+    },
+    {
+      "start": 49.28,
+      "end": 56.16,
+      "text": "Nah, iya kita rekaman lagi karena saya-nya gak bisa berhalangan, jadi gak bisa live."
+    },
+    {
+      "start": 56.16,
+      "end": 59.04,
+      "text": "Jadi, malam hari ini kita sesi rekaman."
+    },
+    {
+      "start": 59.04,
+      "end": 63.76,
+      "text": "Kita mau bahas apa malam ini? Kita mau lanjut kali ya."
+    },
+    {
+      "start": 63.76,
+      "end": 66.44,
+      "text": "Bahas kemarin kan belum tuntasnya tentang AIO ya."
+    },
+    {
+      "start": 66.44,
+      "end": 71.8,
+      "text": "Nanggung tuh, dari AIO 2024 apa aja, update-update-nya."
+    },
+    {
+      "start": 71.8,
+      "end": 75.62,
+      "text": "Kemarin itu kita bahas kebanyakan seputar web."
+    },
+    {
+      "start": 75.62,
+      "end": 79.36,
+      "text": "Walaupun kita udah sempet bahas sekilas tentang AIO juga ya."
+    },
+    {
+      "start": 79.36,
+      "end": 86.68,
+      "text": "Cuma lebih banyak ke, kayak Baseline, Interop, CSS, JavaScript."
+    },
+    {
+      "start": 86.68,
+      "end": 93.52,
+      "text": "-Speculation API, Speculation Rule API. -Speculation Rules API."
+    },
+    {
+      "start": 93.52,
+      "end": 95.9,
+      "text": "Iya, Speculation Rules."
+    },
+    {
+      "start": 95.9,
+      "end": 101.64,
+      "text": "-Sama itu ingat gak, yang di DevTools? -DevTools yang suruh ikuti."
+    },
+    {
+      "start": 101.64,
+      "end": 107.36,
+      "text": "-Iya, yang gagal demo pertama kali. -App Angular Mobile."
+    },
+    {
+      "start": 107.36,
+      "end": 109.56,
+      "text": "-Iya. -Penggular Mobile."
+    },
+    {
+      "start": 109.56,
+      "end": 115.2,
+      "text": "Apa namanya, itu ya, Insight, DevTools Insight ya."
+    },
+    {
+      "start": 115.2,
+      "end": 118.96,
+      "text": "Itu udah dipersenjatai dengan AI juga."
+    },
+    {
+      "start": 118.96,
+      "end": 125.48,
+      "text": "Dan memang kayaknya tema utama dari Google I/O tahun lalu sama tahun ini ya."
+    },
+    {
+      "start": 125.48,
+      "end": 127.4,
+      "text": "-Dua tahun. -Jauh dari AI ya."
+    },
+    {
+      "start": 127.4,
+      "end": 130.12,
+      "text": "-Dua tahun terakhir. -Dua tahun terakhir."
+    },
+    {
+      "start": 130.12,
+      "end": 132.64,
+      "text": "Dua tahun terakhir semuanya tentang AI."
+    },
+    {
+      "start": 132.64,
+      "end": 138.6,
+      "text": "Ya, sepertinya Google sedang mengejar ketertinggalan ya dari perusahaan-perusahaan lain ya."
+    },
+    {
+      "start": 138.6,
+      "end": 142.36,
+      "text": "-Iya, karena tuntutan. -Walaupun sebenarnya, iya."
+    },
+    {
+      "start": 142.36,
+      "end": 148.72,
+      "text": "Walaupun sebenarnya, movement atau pergerakan ini ya dimulai sebenarnya dari Google juga."
+    },
+    {
+      "start": 148.72,
+      "end": 151.4,
+      "text": "-Iya, gak ketinggalan. -Si AI ini kan."
+    },
+    {
+      "start": 151.4,
+      "end": 157.16,
+      "text": "-Aduh. -Bikin, apa, bikin GPT, dulu GPT-1 ya."
+    },
+    {
+      "start": 157.16,
+      "end": 161.88,
+      "text": "GPT-1 itu kan mulainya dari paper yang diterbitkan oleh engineer Google."
+    },
+    {
+      "start": 161.88,
+      "end": 165.52,
+      "text": "-Attention is all you need. -Attention is all you need, iya."
+    },
+    {
+      "start": 165.52,
+      "end": 169.68,
+      "text": "-Google-nya kayak cikgu diinget. -Gampang diinget ya."
+    },
+    {
+      "start": 169.68,
+      "end": 175.28,
+      "text": "-Sekarang semua model yang pakai, apa, belakangnya T, GPT, blablabla apapunnya ada T, Transformers,"
+    },
+    {
+      "start": 175.28,
+      "end": 179.92,
+      "text": "itu berdasarkan konsep yang dulu dirumuskan."
+    },
+    {
+      "start": 179.92,
+      "end": 186.28,
+      "text": "Cuma mungkin bukan ketinggalan di AI-nya, tapi buat produk user facing-nya kali ya."
+    },
+    {
+      "start": 186.28,
+      "end": 189.76,
+      "text": "Sekarang yang lagi tiga berbesar-besaran sama Google."
+    },
+    {
+      "start": 189.76,
+      "end": 200.4,
+      "text": "Nah, sekarang Google baru jor-joran semua lini produk fitur yang ada AI-nya disebut sebagai Gemini kan."
+    },
+    {
+      "start": 200.4,
+      "end": 210.24,
+      "text": "Ada yang apa namanya, yang gemini.google.com, ada apa lagi itu, ada Gemini sebagai LLM-nya,"
+    },
+    {
+      "start": 210.24,
+      "end": 223.48,
+      "text": "modelnya ada yang Gemini di cloud, yang pakai Vertex lah, ada Gemini yang ada di Gmail, di Google Docs, di mana-mana, namanya Gemini."
+    },
+    {
+      "start": 223.48,
+      "end": 229.84,
+      "text": "-Sama satu lagi yang Google Open Source. -Karena kan emang diingetnya tertulis Gemini itu a family of models."
+    },
+    {
+      "start": 229.84,
+      "end": 238.76,
+      "text": "Jadi kayak Gemini itu kayak payungnya, modelnya banyak, variasinya, terus kayak ada yang tokennya berapa lah,"
+    },
+    {
+      "start": 238.76,
+      "end": 244.76,
+      "text": "apanya kemampuannya lain-lain, ada yang multimodal, ada yang buat code assistant, blablabla."
+    },
+    {
+      "start": 244.76,
+      "end": 249.52,
+      "text": "Nah, terus adeknya, adeknya Gemini ada Gema ya."
+    },
+    {
+      "start": 249.52,
+      "end": 254.48,
+      "text": "Gema, itu versi open access-nya, bukan open source."
+    },
+    {
+      "start": 254.48,
+      "end": 257.04,
+      "text": "Nah, ini muncul juga, unik sih."
+    },
+    {
+      "start": 257.04,
+      "end": 263.2,
+      "text": "Jadi branding-nya mereka, mereka menekankan bahwa Gema itu bukan open source."
+    },
+    {
+      "start": 263.2,
+      "end": 270.08,
+      "text": "Nggak tahu kenapa, nanti cari artikelnya deh. Jadi apa, tapi open access."
+    },
+    {
+      "start": 270.08,
+      "end": 277.36,
+      "text": "Open access dalam arti, ya di upload ke Hugging Face, model-modelnya bisa diakses."
+    },
+    {
+      "start": 277.36,
+      "end": 284.08,
+      "text": "Cuma open source itu katanya ternyata berkait juga ke atribusi, terus distribusi kalau digunakan ulang."
+    },
+    {
+      "start": 284.08,
+      "end": 288.16,
+      "text": "Jadi mereka nyebutnya open access. Gimana-gimana?"
+    },
+    {
+      "start": 288.16,
+      "end": 294.56,
+      "text": "Lebih tepatnya, ini sih kalau misalnya dibilang open source berarti training data"
+    },
+    {
+      "start": 294.56,
+      "end": 298.52,
+      "text": "yang untuk men-training Gema-nya juga di open. Tapi enggak kan."
+    },
+    {
+      "start": 298.52,
+      "end": 300.16,
+      "text": "Oh gitu, iya iya."
+    },
+    {
+      "start": 300.16,
+      "end": 303.04,
+      "text": "Yang di open itu kan cuma binfile-nya aja."
+    },
+    {
+      "start": 303.04,
+      "end": 306.36,
+      "text": "Iya, udah jadi binary gitu, tinggal pake."
+    },
+    {
+      "start": 306.36,
+      "end": 317.08,
+      "text": "Iya, iya, dan layer-layernya sudah ada input layer sama output layer-nya bisa dimodify,"
+    },
+    {
+      "start": 317.08,
+      "end": 324.68,
+      "text": "tetapi layer tengahnya udah nggak bisa, itu modelnya itu sudah seperti itu."
+    },
+    {
+      "start": 324.68,
+      "end": 331.48,
+      "text": "Kayaknya semua juga begitu ya yang dari Gema?"
+    },
+    {
+      "start": 331.48,
+      "end": 338.48,
+      "text": "Grok sampai ininya loh, sampai training data-nya di open."
+    },
+    {
+      "start": 338.48,
+      "end": 343.48,
+      "text": "Oh, grok ya. Grok-nya Twitter, yes."
+    },
+    {
+      "start": 343.48,
+      "end": 346.32,
+      "text": "Oh iya kalau itu open source, betul. Kalau itu open source."
+    },
+    {
+      "start": 346.32,
+      "end": 350.76,
+      "text": "Kalau yang meta juga open access, dia tidak open source."
+    },
+    {
+      "start": 350.76,
+      "end": 356.96,
+      "text": "Mistral juga open access kan ya."
+    },
+    {
+      "start": 356.96,
+      "end": 361.2,
+      "text": "Open source, coba kita lihat."
+    },
+    {
+      "start": 361.2,
+      "end": 367.92,
+      "text": "Mistral dari apa C? Open source, our three open source model."
+    },
+    {
+      "start": 367.92,
+      "end": 375.92,
+      "text": "Open source berarti kalau mistral, ada yang open source, ada yang model jadi"
+    },
+    {
+      "start": 375.92,
+      "end": 378.16,
+      "text": "kayak gemini juga kan si mistral ini kan?"
+    },
+    {
+      "start": 378.16,
+      "end": 382.24,
+      "text": "Ada yang namanya mistral, ada yang mixtral, bener nggak?"
+    },
+    {
+      "start": 382.24,
+      "end": 385.4,
+      "text": "Kenapa namanya berbeda-beda?"
+    },
+    {
+      "start": 385.4,
+      "end": 398.88,
+      "text": "Mistral itu yang siap pakai. Mistral itu yang service, berbayar, jadi SDK kayak geminilah, kayak gemini."
+    },
+    {
+      "start": 398.88,
+      "end": 406.32,
+      "text": "Miku-nya kita langganan, kita dapet API key. Open pun ada macam-macam ya varian-nya."
+    },
+    {
+      "start": 406.32,
+      "end": 412,
+      "text": "Ada open source, ada yang open access."
+    },
+    {
+      "start": 412,
+      "end": 419.48,
+      "text": "Phi 3 yang dari Microsoft tuh, ada juga. Tapi nggak tahu, itu kayaknya open access sepertinya."
+    },
+    {
+      "start": 419.48,
+      "end": 429.4,
+      "text": "Nggak sih, udah phi 3 udah cukup lama, yang lama kan phi 2."
+    },
+    {
+      "start": 429.4,
+      "end": 439.08,
+      "text": "- Oke. Ya, jadi malam hari ini kita kembali membahas AI. - Nah hubungannya sama kerjaan kita sebagai web dev ya."
+    },
+    {
+      "start": 439.08,
+      "end": 443.48,
+      "text": "Apa aja yang istilahnya, pekerjaan kita terdampak apa aja sih?"
+    },
+    {
+      "start": 443.48,
+      "end": 449.04,
+      "text": "Apa aja yang bisa kita manfaatkan untuk membangun aplikasi web?"
+    },
+    {
+      "start": 449.04,
+      "end": 454,
+      "text": "Atau ada aplikasi-aplikasi web yang ditenagai oleh AI, kira-kira ya?"
+    },
+    {
+      "start": 454,
+      "end": 459.76,
+      "text": "- Khususnya yang di-announce di I/O kemarin? - Khususnya yang di-announce di I/O."
+    },
+    {
+      "start": 459.76,
+      "end": 463.08,
+      "text": "- Kalau itu luas banget ya, kalau semua. - Luas."
+    },
+    {
+      "start": 463.08,
+      "end": 470.8,
+      "text": "- Tapi kan ini berguna sih, ini kayak sampel aja. Maksudnya kalau Google bikin produk yang A, B, C,"
+    },
+    {
+      "start": 470.8,
+      "end": 474.4,
+      "text": "itu kan pasti berarti kecenderungan trendnya ke arah SIPU."
+    },
+    {
+      "start": 474.4,
+      "end": 479.72,
+      "text": "Kalaupun kita nggak pakai produk Google, misalnya nanti pakai produknya open AI atau apalah,"
+    },
+    {
+      "start": 479.72,
+      "end": 485.84,
+      "text": "iya dijamin kita tetap bakal berharap untuk bikin produk yang,"
+    },
+    {
+      "start": 485.84,
+      "end": 490.08,
+      "text": "maksudnya jenis-jenis aplikasi yang setara lah, yang mirip."
+    },
+    {
+      "start": 490.08,
+      "end": 496.16,
+      "text": "- Oke, nah yang pertama kita akan bahas, ya ini recapnya ya. - Zoom in."
+    },
+    {
+      "start": 496.16,
+      "end": 502.16,
+      "text": "- Zoom in, kurang gede. - Isi artiklenya."
+    },
+    {
+      "start": 502.16,
+      "end": 506.8,
+      "text": "- Isi artiklenya. Kok jadi bunyi ini? - Kenapa bunyi duit?"
+    },
+    {
+      "start": 506.8,
+      "end": 518.08,
+      "text": "- Nah, lihat ini. Ini ya, jadi wrap-up kesimpulan atau beberapa hal yang menarik ya."
+    },
+    {
+      "start": 518.08,
+      "end": 522.64,
+      "text": "Yang pertama adalah, ini ada videonya, teman-teman bisa nonton juga."
+    },
+    {
+      "start": 522.64,
+      "end": 528.44,
+      "text": "- Nonton sendiri. - Judulnya adalah The Future of Web Apps."
+    },
+    {
+      "start": 528.44,
+      "end": 537.16,
+      "text": "Nah, ini apa aja yang akan dibahas. Yang pertama adalah, yang di highlight itu bagian dari WebAssembly dan WebGPU."
+    },
+    {
+      "start": 537.16,
+      "end": 548.08,
+      "text": "Kenapa? Karena ternyata sekarang kita bisa mengakses dua apa ya, bisa punya dua jenis app atau dua arsitektur."
+    },
+    {
+      "start": 548.08,
+      "end": 552.36,
+      "text": "Yang pertama adalah yang server-site yang memanfaatkan AI tapi di cloud."
+    },
+    {
+      "start": 552.36,
+      "end": 560.88,
+      "text": "Jadi proses generasinya, kalau gen-AI kan proses generasinya, itu terjadi di cloud atau di server."
+    },
+    {
+      "start": 560.88,
+      "end": 568.16,
+      "text": "- Service. - Dari web itu cuma kirimkan data, text, semuanya text sih."
+    },
+    {
+      "start": 568.16,
+      "end": 573.08,
+      "text": "- Atau gambar. - Gambar pun diubah jadi base64, text juga."
+    },
+    {
+      "start": 573.08,
+      "end": 580.68,
+      "text": "Jadi semua yang lewat itu text. - Pasti text. Terus habis itu ya responsnya bisa bentuk text,"
+    },
+    {
+      "start": 580.68,
+      "end": 584.56,
+      "text": "bisa bentuk gambar walaupun ini tetap itu ya, binary ya, atau text ya."
+    },
+    {
+      "start": 584.56,
+      "end": 593.16,
+      "text": "Tapi intinya adalah, ada proses pengiriman data ke server, dan proses server mengirimkan data kembali ke klien."
+    },
+    {
+      "start": 593.16,
+      "end": 596.72,
+      "text": "Klien di sini. - Responsnya juga di aplikasi kita."
+    },
+    {
+      "start": 596.72,
+      "end": 599.84,
+      "text": "- Request response. - Request response."
+    },
+    {
+      "start": 599.84,
+      "end": 606.96,
+      "text": "Mau web, mau mobile, itu juga bisa ya, bisa memanfaatkan arsitektur cloud AI."
+    },
+    {
+      "start": 606.96,
+      "end": 618.64,
+      "text": "Nah, ada satu arsitektur lagi yang muncul, yaitu proses semua prosesnya terjadi di sisi browser atau di sisi klien."
+    },
+    {
+      "start": 618.64,
+      "end": 626.92,
+      "text": "Nah, di sini ada apa yang di highlight adalah Jemawweb ini, jadi open model."
+    },
+    {
+      "start": 626.92,
+      "end": 635.12,
+      "text": "- Itu yang lagi pengen saya pulik, Jemawweb. - Guys, open model dari Google yang bisa jalan di browser."
+    },
+    {
+      "start": 635.12,
+      "end": 641.44,
+      "text": "Menggunakan user device. Ini kan web assembly ya, kita udah pernah bahas cukup dalam tentang web assembly,"
+    },
+    {
+      "start": 641.44,
+      "end": 646.88,
+      "text": "apa yang membedakan antara web assembly dengan biasa gitu ya."
+    },
+    {
+      "start": 646.88,
+      "end": 652.68,
+      "text": "- Nah, itu penjelasannya kayaknya di atas deh. Ke atas dikit. - Ini ya."
+    },
+    {
+      "start": 652.68,
+      "end": 662.4,
+      "text": "- Scroll ke atas dikit, atas lagi. Nah, itu kan yang ditekankan adalah klien site di browser web,"
+    },
+    {
+      "start": 662.4,
+      "end": 669.72,
+      "text": "pakai, bisa pakai CPU atau GPU. Nah, terus itu teknologinya wasm sama web GPU."
+    },
+    {
+      "start": 669.72,
+      "end": 678.24,
+      "text": "Jadi, kalau fokusnya dari cloud ini, ya itu, apa, web assembly sama web GPU. Lanjut."
+    },
+    {
+      "start": 678.24,
+      "end": 684.84,
+      "text": "- Cuman ya, Jemawweb di talk itu belum ini loh, dia nggak ngasih tau loh caranya,"
+    },
+    {
+      "start": 684.84,
+      "end": 689.28,
+      "text": "mungkin karena saya belum explore lagi lanjut. Ada yang sudah lihat antara yang tadi?"
+    },
+    {
+      "start": 689.28,
+      "end": 692.88,
+      "text": "- Belum. - Ada nggak sih? Belum ya?"
+    },
+    {
+      "start": 692.88,
+      "end": 699.32,
+      "text": "Cuman ngasih kayak ini link wasm, ini link Jemawweb, silahkan pakai gitu."
+    },
+    {
+      "start": 699.32,
+      "end": 705.72,
+      "text": "Belum coba sih saya. - Ada kayaknya, sekilas liat nonton videonya ada kayaknya."
+    },
+    {
+      "start": 705.72,
+      "end": 713.8,
+      "text": "Jadi di video ini atau di artikel ini ada 3 hal yang utama, yang pertama adalah bagaimana cara menjalankan LLM di browser."
+    },
+    {
+      "start": 713.8,
+      "end": 725.04,
+      "text": "Kedua, ada sebuah tools atau aplikasi baru yang namanya Visual Blocks, ini seperti no-code gitu tapi buat LLM ya."
+    },
+    {
+      "start": 725.04,
+      "end": 733.04,
+      "text": "Yang ketiga, bagaimana kita sebagai web developer bisa menggunakan JavaScript untuk berinteraksi dengan web AI"
+    },
+    {
+      "start": 733.04,
+      "end": 739.88,
+      "text": "atau si LLM yang jalan di browser gitu ya. Yang pertama dulu ya, ini GEMA ya."
+    },
+    {
+      "start": 739.88,
+      "end": 745.6,
+      "text": "Tapi ada caveatnya loh nanti, mungkin kita bahas caveatnya tentang si LLM di browser ini."
+    },
+    {
+      "start": 745.6,
+      "end": 750.08,
+      "text": "Karena nggak semua model bisa gitu."
+    },
+    {
+      "start": 750.08,
+      "end": 756.76,
+      "text": "Yang baru bisa itu GEMA sama Falcon atau apa gitu disebut, ada beberapa."
+    },
+    {
+      "start": 756.76,
+      "end": 760.72,
+      "text": "Nanti kita bahas. Mungkin ada di artikel ini. Mungkin ada."
+    },
+    {
+      "start": 760.72,
+      "end": 766.28,
+      "text": "Kalau nggak salah minggu lalu kita udah sempat running juga ya yang di browser ya."
+    },
+    {
+      "start": 766.28,
+      "end": 772.16,
+      "text": "Yang LLM itu, udah sempat running juga. - Oh itu web GPU ya kita? Iya, betul."
+    },
+    {
+      "start": 772.16,
+      "end": 779.36,
+      "text": "Iya, itu pakai teknologinya web GPU. Jadi kenapa ini bisa memungkinkan karena salah satunya adalah web GPU."
+    },
+    {
+      "start": 779.36,
+      "end": 789,
+      "text": "Jadi browser punya access, punya free village, sekarang punya free village untuk mengakses GPU di komputer kita masing-masing"
+    },
+    {
+      "start": 789,
+      "end": 792.88,
+      "text": "atau komputer klien kita gitu, komputer yang mengakses aplikasi kita."
+    },
+    {
+      "start": 792.88,
+      "end": 803.36,
+      "text": "Komputer yang membuka aplikasi kita dan dijalankan, LLM nya dijalankan di GPU masing-masing klien gitu."
+    },
+    {
+      "start": 803.36,
+      "end": 816.48,
+      "text": "Kira-kira kayak gitu. Dengan LLM jalan di device, yang pertama keuntungannya adalah code saving."
+    },
+    {
+      "start": 816.48,
+      "end": 818.76,
+      "text": "Sama seperti web assembly juga ya, code saving."
+    },
+    {
+      "start": 818.76,
+      "end": 828.68,
+      "text": "- Nah berarti masuk pro dan kontra aja nih. Pro nya berarti kan ini nih. - Tapi memberatkan si user kita."
+    },
+    {
+      "start": 828.68,
+      "end": 838.16,
+      "text": "- Nah itu kontra nya user harus membuat. - Iya, user harus mampu menjalankan atau punya web GPU."
+    },
+    {
+      "start": 838.16,
+      "end": 845.64,
+      "text": "Kalau nggak punya dia nggak bisa jalankan. - Bagi teman-teman yang belum nonton videonya,"
+    },
+    {
+      "start": 845.64,
+      "end": 853.96,
+      "text": "kalau nanti nonton videonya sebagai pe-contohnya yang dia sebut itu adalah bayangkan kalau kita punya"
+    },
+    {
+      "start": 853.96,
+      "end": 863.52,
+      "text": "aplikasi untuk video call yang ngeblur background. Iya kan? Yang sering kita pake, eh kan nih pake nih sekarang."
+    },
+    {
+      "start": 863.52,
+      "end": 870.52,
+      "text": "- Ngeblur background, iya kan? - Iya dia bikin hitungannya ya, satu frame."
+    },
+    {
+      "start": 870.52,
+      "end": 880.8,
+      "text": "Satu menit berapa frame dan kira-kira satu jam berapa kali meeting dan perhitungan."
+    },
+    {
+      "start": 880.8,
+      "end": 891.04,
+      "text": "Berarti total-total contohnya satu tahun bisa 52 billion frame yang diproses oleh server."
+    },
+    {
+      "start": 891.04,
+      "end": 898.28,
+      "text": "Yang artinya terjadi cost disitu. Ada cost gede banget ya mengirimkan data, terus proses server balikin data"
+    },
+    {
+      "start": 898.28,
+      "end": 907.52,
+      "text": "untuk ngerender frame yang ngeblur di web. - Iya bayangin berapa biayanya buat ini, kita aja baru 5 menit."
+    },
+    {
+      "start": 907.52,
+      "end": 912.52,
+      "text": "Ini kan udah berapa frame kan yang harus diproses, bayangin kalau pakai service terpisah."
+    },
+    {
+      "start": 912.52,
+      "end": 921.04,
+      "text": "Nah ini hal yang bisa digunakan bisa nge-leverage fitur di device client side kita sendiri."
+    },
+    {
+      "start": 921.04,
+      "end": 930.32,
+      "text": "- Terus kedua, latensi kan? - Latensi, iya. - Jadi ada pronya tadi biaya, performa,"
+    },
+    {
+      "start": 930.32,
+      "end": 934.4,
+      "text": "maksud saya jadi nggak harus nunggu latensi, sama ketiga itu tuh privacy kan."
+    },
+    {
+      "start": 934.4,
+      "end": 938.64,
+      "text": "- Privacy yang paling penting sebenarnya ini ya. Salah satu yang penting ya."
+    },
+    {
+      "start": 938.64,
+      "end": 946.28,
+      "text": "Jadi data kita itu hanya data user, ya hanya berkutat di komputer user. - Di prosesnya di device user sendiri."
+    },
+    {
+      "start": 946.28,
+      "end": 952.84,
+      "text": "- Gak dikirim. Ini berguna terutama di tempat-tempat yang punya undang-undang perlindungan data ya."
+    },
+    {
+      "start": 952.84,
+      "end": 959,
+      "text": "Kan kadang urannya agak ketat, harus ada konsennya, mungkin sepertinya letaknya harus di mana."
+    },
+    {
+      "start": 959,
+      "end": 967.84,
+      "text": "- Seperti UITE kita kan harus dihormati. - Emang UITE ngatur perlindungan data?"
+    },
+    {
+      "start": 967.84,
+      "end": 977.44,
+      "text": "- Ngatur bro, ngatur. Nanti kita undang ahlinya deh. - Ahli ya, ahlinya undang-undang."
+    },
+    {
+      "start": 977.44,
+      "end": 985.44,
+      "text": "- Ya gitu. Nah itu pronya apa tadi, biaya, performa, sama latensi user."
+    },
+    {
+      "start": 985.44,
+      "end": 993.64,
+      "text": "- Nah sekarang kekurangannya udah bahas pro, ya nanggung bahas kontra dulu."
+    },
+    {
+      "start": 993.64,
+      "end": 1001.04,
+      "text": "- Kontra nya ya tadi kan, memberatkan si user kan, user kita. - Beratnya dalam hal pertama harus download modelnya."
+    },
+    {
+      "start": 1001.04,
+      "end": 1007.84,
+      "text": "Itu kan, maksudnya berat itu kan macam-macam. Pertama harus download modelnya kalau pakai model tertentu ya."
+    },
+    {
+      "start": 1007.84,
+      "end": 1014.44,
+      "text": "Nanti cuma ada, kita bakal bahas lagi, ada yang udah built in. Nah itu pertama kalau pakai model custom,"
+    },
+    {
+      "start": 1014.44,
+      "end": 1022.84,
+      "text": "harus download modelnya. Kedua berat di itunya ya, tuntutan device-nya ya. Sekarang berarti tuntutan kayak apa?"
+    },
+    {
+      "start": 1022.84,
+      "end": 1032.24,
+      "text": "Kalau pakai device yang cradle mode. Kau mending-mending ini, potal agak tuntutan mungkin."
+    },
+    {
+      "start": 1032.24,
+      "end": 1038.84,
+      "text": "- Dulu sempet gak kalau misalnya waktu masih awal-awal AI ini, kalau kita pakai zoom,"
+    },
+    {
+      "start": 1038.84,
+      "end": 1047.44,
+      "text": "mau buat ganti background, dia kan masih berat banget dan dia hanya memperbolehkan kita pakai green screen."
+    },
+    {
+      "start": 1047.44,
+      "end": 1056.04,
+      "text": "Jadi gak bisa pakai background sembarangan. Ya, jadi AI-nya masih di train hanya pakai green screen."
+    },
+    {
+      "start": 1056.04,
+      "end": 1066.04,
+      "text": "Jadi nanti, bahkan ada itu di test dulu kalau di enable, bisa gak gitu. Dan pakai CPU, resource-nya gede banget."
+    },
+    {
+      "start": 1066.04,
+      "end": 1078.64,
+      "text": "Jadi bisa panas CPU-nya. Sumpat keluar juga, after itu keluar ada satu aplikasi yang untuk video call begitu,"
+    },
+    {
+      "start": 1078.64,
+      "end": 1086.44,
+      "text": "yang terparti, jadi dia mengganti kamera sebelum di plug-in ke zoom atau ke jimny, segala macem."
+    },
+    {
+      "start": 1086.44,
+      "end": 1099.04,
+      "text": "Saya lupa nama aplikasinya itu. Dan dia lebih mewah. - Snapcam? Snapcam bukan? - Bukan, apa AI gitu."
+    },
+    {
+      "start": 1099.04,
+      "end": 1107.24,
+      "text": "Lupa deh, sudah kan gak pakai lagi. - Tapi dia fungsinya memproses image ya berarti?"
+    },
+    {
+      "start": 1107.24,
+      "end": 1117.84,
+      "text": "Memproses image langsung dari CPU dan GPU, dia lebih langsung di device, jadi gak dikirim ke server."
+    },
+    {
+      "start": 1117.84,
+      "end": 1128.84,
+      "text": "Bahkan bisa voice isolation juga jaman itu. Kemudian ternyata si zoom makin mahal, makin baik, atau AI ini makin mahal."
+    },
+    {
+      "start": 1128.84,
+      "end": 1140.44,
+      "text": "- Itu di APCC kali sih. - Iya, bahkan Google Meet lebih bagus lagi kan? Lebih keren lagi kan?"
+    },
+    {
+      "start": 1140.44,
+      "end": 1157.84,
+      "text": "- Iya, sudah jauh lebih baik kan. Belum lagi device, dulunya kameranya 480p, kemudian 720p, sekarang sudah 1080p kan."
+    },
+    {
+      "start": 1157.84,
+      "end": 1165.84,
+      "text": "Jadi makin besar image-nya, makin berat juga kerjanya. - Berarti tuntutannya tinggi untuk user kita,"
+    },
+    {
+      "start": 1165.84,
+      "end": 1175.84,
+      "text": "kalau kita bikin aplikasi untuk production ya, kita harus profiling, kita harus tahu kan user kita jenis yang kira-kira kuat atau enggak alatnya."
+    },
+    {
+      "start": 1175.84,
+      "end": 1186.44,
+      "text": "Soalnya kan risikonya juga dibagi dua. Either device-nya user gak support sama sekali, jadi gak bisa pakai."
+    },
+    {
+      "start": 1186.44,
+      "end": 1198.04,
+      "text": "Itu negatif juga satu. Atau alternatif kedua, sebetulnya kalau pun gak jalan di GPU, bisa jalan di CPU ya yang kita bahas kemarin itu minggu lalu."
+    },
+    {
+      "start": 1198.04,
+      "end": 1209.04,
+      "text": "Cuma misalnya berat, itu panas, hang di tengah-tengah. Itu secara UX jelek banget dan frustrating kan, mengganggu."
+    },
+    {
+      "start": 1209.04,
+      "end": 1214.44,
+      "text": "Mungkin misalnya di tengah-tengah meeting lagi penting-pentingnya karena prosesnya terlalu berat,"
+    },
+    {
+      "start": 1214.44,
+      "end": 1224.44,
+      "text": "laptop-nya atau HP-nya user hang. Nah itu berarti salah satu hal negatif yang perlu diantisipasi ya."
+    },
+    {
+      "start": 1224.44,
+      "end": 1233.44,
+      "text": "- Mungkin ada fallback-nya, oh kalau bisa dicek dulu, oh ini CPU kurang mumpuni, misalkan mau gak mau harus pakai server-side lagi."
+    },
+    {
+      "start": 1233.44,
+      "end": 1240.44,
+      "text": "- Oke service. Ada videonya di I/O yang bahas soal itu."
+    },
+    {
+      "start": 1240.44,
+      "end": 1246.44,
+      "text": "Yang videonya Kenji dan Maud. Nah cari sendiri lah nanti."
+    },
+    {
+      "start": 1246.44,
+      "end": 1255.44,
+      "text": "Pokoknya konsepnya emang seperti itu. Jadi cuma masalahnya sih kalau itu karena demo lebih simpel ya."
+    },
+    {
+      "start": 1255.44,
+      "end": 1263.44,
+      "text": "Jadi cuma kalau supported pakai on-device di browser, pakai yang on-device."
+    },
+    {
+      "start": 1263.44,
+      "end": 1271.44,
+      "text": "Kalau pakai browser lain, misalnya dibuka dari bukan Chrome, karena itu konteksnya buat built-in AI yang di Chrome sih agak lain."
+    },
+    {
+      "start": 1271.44,
+      "end": 1278.44,
+      "text": "Tapi misalnya bisa diterapin juga kalau misalnya gak support, ya udah, nge-call service kayak biasa kayak yang sebelumnya."
+    },
+    {
+      "start": 1278.44,
+      "end": 1288.44,
+      "text": "- Betul. Jadi di sini kita bisa memanfaatkan Gemma 2 billion parameters ya, bisa di-download tersedia di Kaggle."
+    },
+    {
+      "start": 1288.44,
+      "end": 1298.44,
+      "text": "Kemudian dari sisi, ini dari sisi browser-nya ya, Chrome ya, ada menyediakan interface API ya."
+    },
+    {
+      "start": 1298.44,
+      "end": 1304.44,
+      "text": "- Dan itu menariknya bisa dipakai bukan cuma buat Gemma, bisa dipakai buat itu."
+    },
+    {
+      "start": 1304.44,
+      "end": 1311.44,
+      "text": "- Iya, buat Microsoft V2, Falcon RW1B, Stable LM3B."
+    },
+    {
+      "start": 1311.44,
+      "end": 1321.44,
+      "text": "- Iya, ini maksud saya. Yang baru supported itu baru ini. - Nah, kalau yang lain, kalau ngerti cara convert-nya,"
+    },
+    {
+      "start": 1321.44,
+      "end": 1329.44,
+      "text": "konon bisa di-convert juga model lain. Cuma masalahnya, ini bukan portakone yang umum buat web-dev."
+    },
+    {
+      "start": 1329.44,
+      "end": 1341.44,
+      "text": "Ini bukan ranah web-dev ya, pakai Python, MediaPipe. - Tapi ujung-ujungnya apa? Kalau kalau gak salah,"
+    },
+    {
+      "start": 1341.44,
+      "end": 1347.44,
+      "text": "dia bisa convert-nya meskipun mau, ya saya gak tahu mau coba lagi kenapa bisa atau tidaknya."
+    },
+    {
+      "start": 1347.44,
+      "end": 1354.44,
+      "text": "Bisa gak sih convert-nya pakai TFJS bisa gak sih? Gak tahu ya."
+    },
+    {
+      "start": 1354.44,
+      "end": 1363.44,
+      "text": "- Di videonya itu diterangin sih, apa, nge-convert-nya gimana. Cuma gak masuk karena gak paham."
+    },
+    {
+      "start": 1363.44,
+      "end": 1368.44,
+      "text": "- Tahu saya dia bakal di-convert jadi TF Lite sih sebenarnya ujung-ujungnya. - Oh gitu?"
+    },
+    {
+      "start": 1368.44,
+      "end": 1375.44,
+      "text": "- Iya, TF Lite ini kan? - Iya. Semua model yang bisa di-convert jadi TF Lite itu ya untuk ujung-ujungnya,"
+    },
+    {
+      "start": 1375.44,
+      "end": 1384.44,
+      "text": "karena belakangnya itu jadi TensorFlow.js tetap. Di belakangnya itu TensorFlow.js yang bisa ngelod TF Lite."
+    },
+    {
+      "start": 1384.44,
+      "end": 1391.44,
+      "text": "TensorFlow.js gak bisa ngelod model-model yang keras-keras model itu gak bisa langsung harus di-convert."
+    },
+    {
+      "start": 1391.44,
+      "end": 1399.44,
+      "text": "Itu yang setau saya mungkin saya salah. - Kayaknya iya. Kayaknya benar."
+    },
+    {
+      "start": 1399.44,
+      "end": 1405.44,
+      "text": "- Iya kan? - Betul, betul. - Dan saya pernah nge-convert itu pakai Python."
+    },
+    {
+      "start": 1405.44,
+      "end": 1415.44,
+      "text": "Gak mesti harus pakai Mediapipe ya. Saya pernah nge-convert itu pakai TensorFlow yang di Python untuk nge-convert itu."
+    },
+    {
+      "start": 1415.44,
+      "end": 1425.44,
+      "text": "Cuman ini sedikit, bukan sedikit, totally mungkin sudah berbeda banget sama pengetahuan saya 3 tahun yang lalu untuk nge-convert-convert model ini."
+    },
+    {
+      "start": 1425.44,
+      "end": 1438.44,
+      "text": "- Kalau misalnya kalau yang contoh simple-nya, ada demo-nya tuh? Yang dari Tok itu dan dari artikel itu kan tadi ada video yang contohnya."
+    },
+    {
+      "start": 1438.44,
+      "end": 1443.44,
+      "text": "Ada demo-nya? Coba dibuka. - Ada demo-nya?"
+    },
+    {
+      "start": 1443.44,
+      "end": 1447.44,
+      "text": "- Iya, di private chat. - Yang mana? Yang screenshot?"
+    },
+    {
+      "start": 1447.44,
+      "end": 1452.44,
+      "text": "- LLM Inference. Gak, yang paling bawah. - Oh, oke."
+    },
+    {
+      "start": 1452.44,
+      "end": 1457.44,
+      "text": "- Inference itu apa sih sebenarnya hatinya? - Menebak."
+    },
+    {
+      "start": 1457.44,
+      "end": 1462.44,
+      "text": "- Nah, ini kodenya. - Yang belum tahu?"
+    },
+    {
+      "start": 1462.44,
+      "end": 1471.44,
+      "text": "- Gak tahu. Itu yang didemo-in di talk-nya Jason Maes sama Nali tadi."
+    },
+    {
+      "start": 1471.44,
+      "end": 1477.44,
+      "text": "Maksudnya mereka bilang inference tapi gak ngejelasin in detail inference itu apa."
+    },
+    {
+      "start": 1477.44,
+      "end": 1485.44,
+      "text": "- Wait, sebentar. Barusan saya coba si ini kita pakai tools apa?"
+    },
+    {
+      "start": 1485.44,
+      "end": 1498.44,
+      "text": "Pakai tools Streamyard kan? Tadi saya coba background-nya di blur sama touch-up experience beberapa saat."
+    },
+    {
+      "start": 1498.44,
+      "end": 1507.44,
+      "text": "Dia pakai GPU loh. Berarti si Streamyard ini pakai web GPU. Kelihatan GPU saya ini turun."
+    },
+    {
+      "start": 1507.44,
+      "end": 1510.44,
+      "text": "- Naik. - Naik-turun ya?"
+    },
+    {
+      "start": 1510.44,
+      "end": 1517.44,
+      "text": "- Tadi naik. Setelah saya matiin turun. - Kelihatanya udah jadi standard practice sih."
+    },
+    {
+      "start": 1517.44,
+      "end": 1525.44,
+      "text": "Kalau Zoom dan Neve pakai kayak gitu, ya kemungkinan Streamyard dan lainnya juga semua bakal pakai kayak gitu juga kan."
+    },
+    {
+      "start": 1525.44,
+      "end": 1529.44,
+      "text": "- Oh, ini bisa dijantar ya? - Nah, itu kode demo-nya."
+    },
+    {
+      "start": 1529.44,
+      "end": 1535.44,
+      "text": "Ya bisa. Ya live demo-nya juga bisa tuh. Buka link yang di bawahnya di private chat."
+    },
+    {
+      "start": 1535.44,
+      "end": 1539.44,
+      "text": "Kalau pengen lihat kosnya bentuknya kayak gimana. - Oke."
+    },
+    {
+      "start": 1539.44,
+      "end": 1546.44,
+      "text": "Kita lihat ya. MediaPipe Studio Web Apps."
+    },
+    {
+      "start": 1546.44,
+      "end": 1556.44,
+      "text": "Nah, itu yang itu screenshot-nya yang tadi ada di artikel IO Crap App itu kan. Ada screenshot. - Yang ini, yang ini. Yang di atas ini. Yang ini kan."
+    },
+    {
+      "start": 1556.44,
+      "end": 1560.44,
+      "text": "- Atasnya. Aha, iya. Nah, cuma itu kan video doang. - Terus sekali."
+    },
+    {
+      "start": 1560.44,
+      "end": 1565.44,
+      "text": "- Gak bisa dicoba beneran. - Wait, Mas Tiza. Coba buka DevTool-nya sekarang."
+    },
+    {
+      "start": 1565.44,
+      "end": 1574.44,
+      "text": "- Wait, wait. Jangan pencet apa-apa. - Buka DevTool. Karena saya pengen tahu, saya pengen tahu model-nya segera apa di network."
+    },
+    {
+      "start": 1574.44,
+      "end": 1580.44,
+      "text": "- Gak, kita harus download dulu sendiri. Udah punya kan? Itu model selection. Choose a model file."
+    },
+    {
+      "start": 1580.44,
+      "end": 1585.44,
+      "text": "- Iya, sengaja. Biar kelihatan di kanan. Jadi jangan di-select dulu. Sekarang boleh select kan?"
+    },
+    {
+      "start": 1585.44,
+      "end": 1588.44,
+      "text": "- Ya, select. Download dulu ya. - Download dulu ya?"
+    },
+    {
+      "start": 1588.44,
+      "end": 1593.44,
+      "text": "- Download dulu. Jadi itu kita literally download dulu. - Oh."
+    },
+    {
+      "start": 1593.44,
+      "end": 1595.44,
+      "text": "- Oh. - Iya."
+    },
+    {
+      "start": 1595.44,
+      "end": 1598.44,
+      "text": "- Bukanya udah punya. Mas Tiza. - Yah."
+    },
+    {
+      "start": 1598.44,
+      "end": 1600.44,
+      "text": "- Belum ya? - Hah? Punya ya?"
+    },
+    {
+      "start": 1600.44,
+      "end": 1602.44,
+      "text": "- Gede loh ini. - Udah pernah pakai kan?"
+    },
+    {
+      "start": 1602.44,
+      "end": 1605.44,
+      "text": "- Udah pernah pakai kan? - 2 giga. Berapa giga nih?"
+    },
+    {
+      "start": 1605.44,
+      "end": 1612.44,
+      "text": "- Gak tahu. - Or just download model file by preferring with Google or email."
+    },
+    {
+      "start": 1612.44,
+      "end": 1620.44,
+      "text": "- Email-nya Mas Tiza di zafahmi@gmail.com. - Iya."
+    },
+    {
+      "start": 1620.44,
+      "end": 1627.44,
+      "text": "- Luh. Oh, ada agreement segala ya. - Harus isi dulu konsen."
+    },
+    {
+      "start": 1627.44,
+      "end": 1632.44,
+      "text": "- Iya. - Konsen."
+    },
+    {
+      "start": 1632.44,
+      "end": 1637.44,
+      "text": "- Duh, kesini lagi dia. - Responsibility AI."
+    },
+    {
+      "start": 1637.44,
+      "end": 1643.44,
+      "text": "- Responsible AI. Download as star. Itu download yang bawah."
+    },
+    {
+      "start": 1643.44,
+      "end": 1645.44,
+      "text": "- Bawah deh. - Download, tar."
+    },
+    {
+      "start": 1645.44,
+      "end": 1651.44,
+      "text": "- Click download. Click download. Tadi. - Uh, 1,35 giga."
+    },
+    {
+      "start": 1651.44,
+      "end": 1654.44,
+      "text": "- Nah, terus paling bawah. Nah, itu dia."
+    },
+    {
+      "start": 1654.44,
+      "end": 1659.44,
+      "text": "- Itu light loh ini-nya. TensorFlow light. Tadi. - Iya."
+    },
+    {
+      "start": 1659.44,
+      "end": 1660.44,
+      "text": "- Itu tuh, tuh, tuh. - Itu kecil ya."
+    },
+    {
+      "start": 1660.44,
+      "end": 1664.44,
+      "text": "- Itu kan TensorFlow light tuh. - Iya, itu yang kecil."
+    },
+    {
+      "start": 1664.44,
+      "end": 1672.44,
+      "text": "Ada light 2B, 2 billion GPU, INT4. Ada yang 7B. 7B berapa besar ya?"
+    },
+    {
+      "start": 1672.44,
+      "end": 1678.44,
+      "text": "- INT4 tuh artinya apa ya? - Integer."
+    },
+    {
+      "start": 1678.44,
+      "end": 1684.44,
+      "text": "- Integer. - Kalau saya taunya Q4 itu kan quantization."
+    },
+    {
+      "start": 1684.44,
+      "end": 1686.44,
+      "text": "- Quantization. - Quantization."
+    },
+    {
+      "start": 1686.44,
+      "end": 1692.44,
+      "text": "- 4 bit. Kalau INT apa ya? - Iya."
+    },
+    {
+      "start": 1692.44,
+      "end": 1697.44,
+      "text": "Oke. Sambil menunggu, lagi download. Nggak tahu bisa selesai apa nggak."
+    },
+    {
+      "start": 1697.44,
+      "end": 1704.44,
+      "text": "Ini kan ada Web Elementor Inference API kan. Ini tuh apa ya? Google AI Edge."
+    },
+    {
+      "start": 1706.44,
+      "end": 1710.44,
+      "text": "- Edge itu berarti on-device ya. - Nah, ini nyebelin sih."
+    },
+    {
+      "start": 1710.44,
+      "end": 1716.44,
+      "text": "Maksudnya, kita kan dulu Edge Worker, blablabla. Itu kan maksudnya server yang kayak"
+    },
+    {
+      "start": 1716.44,
+      "end": 1720.44,
+      "text": "disentralize kan, yang bisa ada replikanya di berbagai tempat."
+    },
+    {
+      "start": 1720.44,
+      "end": 1727.44,
+      "text": "Nah, ternyata apalagi kalau di dunia AI, apapun yang ada kata Edge, itu maksudnya on-device."
+    },
+    {
+      "start": 1727.44,
+      "end": 1732.44,
+      "text": "- Oh, oke. - Nyebelin ya."
+    },
+    {
+      "start": 1732.44,
+      "end": 1737.44,
+      "text": "Nyebelin, apalagi ada browser namanya Edge."
+    },
+    {
+      "start": 1737.44,
+      "end": 1744.44,
+      "text": "Dulu setahu saya itu, Edge itu DCDN. Karena di Edge Computing, DCDN kan."
+    },
+    {
+      "start": 1744.44,
+      "end": 1747.44,
+      "text": "- Oh, Edge Computing. - DCDN kan maksudnya distribute."
+    },
+    {
+      "start": 1747.44,
+      "end": 1755.44,
+      "text": "Jadi, computingnya kita itu bisa di Edge, jadi nggak perlu ke load balancer."
+    },
+    {
+      "start": 1755.44,
+      "end": 1765.44,
+      "text": "Jadi, anggap image resize, tahu ya. Jadi, kalau misalnya image kita besar,"
+    },
+    {
+      "start": 1765.44,
+      "end": 1771.44,
+      "text": "dan kalau di web mau pakenya resize jadi yang kecil karena source set,"
+    },
+    {
+      "start": 1771.44,
+      "end": 1777.44,
+      "text": "itu bisa dilakukan di Edge Computing. Jadi, di URL kita yang di Edge,"
+    },
+    {
+      "start": 1777.44,
+      "end": 1784.44,
+      "text": "bisa ngeresize image di Edge itu, jadi nggak perlu balik ke server side."
+    },
+    {
+      "start": 1784.44,
+      "end": 1790.44,
+      "text": "Itu bisa. Terus ada browser namanya Edge."
+    },
+    {
+      "start": 1790.44,
+      "end": 1797.44,
+      "text": "Apalagi kalau yang namanya Edge. Sekarang Google AI Edge."
+    },
+    {
+      "start": 1797.44,
+      "end": 1800.44,
+      "text": "- Bukan cuma Google. - Bukan cuma Google sih."
+    },
+    {
+      "start": 1800.44,
+      "end": 1804.44,
+      "text": "- AI-nya. - Chat GPT juga Microsoft-nya lah."
+    },
+    {
+      "start": 1804.44,
+      "end": 1810.44,
+      "text": "Itu punya produk Edge juga. Lupa nama panjangnya apa, cuma pakai istilah Edge."
+    },
+    {
+      "start": 1810.44,
+      "end": 1816.44,
+      "text": "Jadi, bukan computing AI-nya ada di CDN lagi, tapi di on-device."
+    },
+    {
+      "start": 1816.44,
+      "end": 1822.44,
+      "text": "- Ini mungkin apa ya pemahaman ekstrimnya. Maksudnya kayak bego-begoannya."
+    },
+    {
+      "start": 1822.44,
+      "end": 1830.44,
+      "text": "Bentuk CDN yang paling ekstrim adalah semua device user itu dianggap sebagai resource."
+    },
+    {
+      "start": 1830.44,
+      "end": 1837.44,
+      "text": "Jadi, CDN kan kayak buat ngeserve dan buat pemolah yang disebar jadi banyak."
+    },
+    {
+      "start": 1837.44,
+      "end": 1844.44,
+      "text": "Nah, ini device user semua dianggap sebagai CDN. CDN untuk satu orang, CDN untuk dia sendiri."
+    },
+    {
+      "start": 1844.44,
+      "end": 1848.44,
+      "text": "- Oke. - Ada Wasm-nya 10 mega."
+    },
+    {
+      "start": 1848.44,
+      "end": 1856.44,
+      "text": "- 10 mega ini Wasm. GNI Wasm internal. - Terus dia baca 1 giga itu model ya?"
+    },
+    {
+      "start": 1856.44,
+      "end": 1863.44,
+      "text": "- Iya, 900 sekian mega. - Nah, itu tadi yang dokumentasi LLM Inference itu,"
+    },
+    {
+      "start": 1863.44,
+      "end": 1870.44,
+      "text": "ini adalah dokumentasinya kode GitHub yang tadi, ingat kan tadi ada GitHub yang sample demo-nya,"
+    },
+    {
+      "start": 1870.44,
+      "end": 1876.44,
+      "text": "yang live demo-nya lagi kita jalanin itu. Jadi, 3 hal ini sepaket."
+    },
+    {
+      "start": 1876.44,
+      "end": 1880.44,
+      "text": "- Yang ini ya, ini demo-nya. - Masih belum..."
+    },
+    {
+      "start": 1880.44,
+      "end": 1884.44,
+      "text": "- Masih masih... - Iya kan LLM Inference."
+    },
+    {
+      "start": 1884.44,
+      "end": 1889.44,
+      "text": "- 1 giga untuk aplikasi kita sih sakit ya? - Ini error tapi."
+    },
+    {
+      "start": 1889.44,
+      "end": 1893.44,
+      "text": "- Jadi user lah, \"Ya, error. Kok error?\" - Kayaknya salah deh Mas Liza."
+    },
+    {
+      "start": 1893.44,
+      "end": 1896.44,
+      "text": "Mas Liza download-nya TAR kan yang choose mode-nya TAR."
+    },
+    {
+      "start": 1896.44,
+      "end": 1899.44,
+      "text": "- Harus di-unzip dulu ya? - Oh, unzip ya."
+    },
+    {
+      "start": 1899.44,
+      "end": 1903.44,
+      "text": "- Untar, untar dulu, untar. Universitas Taruh Manegara."
+    },
+    {
+      "start": 1903.44,
+      "end": 1908.44,
+      "text": "- Universitas TAR GZ. - TAR GZ."
+    },
+    {
+      "start": 1908.44,
+      "end": 1915.44,
+      "text": "Salah ya, kita refresh dulu ya, oke. Berarti ini implementasinya ini ya?"
+    },
+    {
+      "start": 1915.44,
+      "end": 1919.44,
+      "text": "- Iya. - Engga."
+    },
+    {
+      "start": 1919.44,
+      "end": 1924.44,
+      "text": "- Iya ini contohnya, maksudnya ini kode-nya. - Nah, yang saya nggak suka itu adalah dia"
+    },
+    {
+      "start": 1924.44,
+      "end": 1929.44,
+      "text": "sudah langsung JS Deliver itu loh. Gak ada..."
+    },
+    {
+      "start": 1929.44,
+      "end": 1934.44,
+      "text": "- Mau sendiri ya, mau lokal ya, mau lokal. - Iya."
+    },
+    {
+      "start": 1934.44,
+      "end": 1938.44,
+      "text": "- Belum cari sih, saya baru kayak... - Eh, ada bentar."
+    },
+    {
+      "start": 1938.44,
+      "end": 1944.44,
+      "text": "Tadi di dokumentasi LLM Inference-nya, coba dibuka. Kayaknya tadi sekilas liat NPM install."
+    },
+    {
+      "start": 1944.44,
+      "end": 1949.44,
+      "text": "- Nah, zoom-in sambil turun. - Oke, nice."
+    },
+    {
+      "start": 1949.44,
+      "end": 1954.44,
+      "text": "- Tapi tetap di bawahnya, di bawah JS Deliver. - Sama nggak sih? Kayaknya sekilas kayaknya sama."
+    },
+    {
+      "start": 1954.44,
+      "end": 1960.44,
+      "text": "- Ya, to deploy, for all NPM package for local staging. - Sama sih, sama."
+    },
+    {
+      "start": 1960.44,
+      "end": 1964.44,
+      "text": "Kenapa? Kenapa nggak bisa dipublish? Karena biar nge-berat."
+    },
+    {
+      "start": 1964.44,
+      "end": 1970.44,
+      "text": "Tuh, tulisannya soalnya install the required package for local staging,"
+    },
+    {
+      "start": 1970.44,
+      "end": 1975.44,
+      "text": "tapi bawahnya to deploy to a server, suruh pakai JS Deliver tadi itu."
+    },
+    {
+      "start": 1975.44,
+      "end": 1981.44,
+      "text": "Kenapanya nanti, nanti di page kita tanya sama Mas Jason."
+    },
+    {
+      "start": 1981.44,
+      "end": 1985.44,
+      "text": "- Kita coba sendiri ya. - Ya selain coba sendiri,"
+    },
+    {
+      "start": 1985.44,
+      "end": 1989.44,
+      "text": "kalau kenapa kan kita kedu tanya ya ke orangnya."
+    },
+    {
+      "start": 1989.44,
+      "end": 1992.44,
+      "text": "- Jason Rush. - Jason Rush."
+    },
+    {
+      "start": 1992.44,
+      "end": 2000.44,
+      "text": "Detek self-environment, GCS report. Apa ini? Belum jalan apa-apa, udah muncul macam-macam."
+    },
+    {
+      "start": 2000.44,
+      "end": 2006.44,
+      "text": "Tuh udah jalan tuh, GPU model, berarti udah detek GPU tuh."
+    },
+    {
+      "start": 2006.44,
+      "end": 2011.44,
+      "text": "Eh, wait, wait, wait, console, console, console. Yah banyak banget analitiknya."
+    },
+    {
+      "start": 2011.44,
+      "end": 2017.44,
+      "text": "- Yaiyalah. - Graph Successful is start running, terus kemudian."
+    },
+    {
+      "start": 2017.44,
+      "end": 2026.44,
+      "text": "- Dia detek GPU, fast tuning, we know grad, apalah gitu."
+    },
+    {
+      "start": 2026.44,
+      "end": 2029.44,
+      "text": "- Eh udah bisa tuh, coba."
+    },
+    {
+      "start": 2029.44,
+      "end": 2034.44,
+      "text": "- Gak ada intinya, nggak ada enter lah. - Coba enter langsung bisa nggak?"
+    },
+    {
+      "start": 2034.44,
+      "end": 2039.44,
+      "text": "- Submit button. Ini text area? Oh bukan ya."
+    },
+    {
+      "start": 2039.44,
+      "end": 2045.44,
+      "text": "- I am a large language model, blablabla. Coba, what is the meaning of life?"
+    },
+    {
+      "start": 2045.44,
+      "end": 2049.44,
+      "text": "- Who is even Christian Tone? Nggak bisa cari online life dia."
+    },
+    {
+      "start": 2049.44,
+      "end": 2053.44,
+      "text": "- Oh ya nggak bisa ya, lupa. Kirain gamer ya waktu itu."
+    },
+    {
+      "start": 2053.44,
+      "end": 2062.44,
+      "text": "- Tuh kan I am enabled to... - 1 giga minta maco-maco."
+    },
+    {
+      "start": 2062.44,
+      "end": 2067.44,
+      "text": "- Unable to profile. - What can you do?"
+    },
+    {
+      "start": 2067.44,
+      "end": 2077.44,
+      "text": "- Gak bisa semua. - Tapi kencang banget ya. Maksudnya beda ya experience-nya ya."
+    },
+    {
+      "start": 2077.44,
+      "end": 2079.44,
+      "text": "Yang lokal sama yang pakai service ya."
+    },
+    {
+      "start": 2079.44,
+      "end": 2087.44,
+      "text": "- Mas Lisa pakai ini nggak sih? Pakai Mac atau pakai apa nih? Windows?"
+    },
+    {
+      "start": 2087.44,
+      "end": 2092.44,
+      "text": "- Pakai Windows, Windows. - Oh, task manager bisa kelihatan GPU ini nggak sih?"
+    },
+    {
+      "start": 2092.44,
+      "end": 2097.44,
+      "text": "- Bisa, bisa. - Tapi harus share screen."
+    },
+    {
+      "start": 2097.44,
+      "end": 2100.44,
+      "text": "Bukan nggak bisa share Windows doang. - Oh iya boleh."
+    },
+    {
+      "start": 2100.44,
+      "end": 2107.44,
+      "text": "- Pengen tahu bisa kelihatan nggak sih dia. - Nanti coba kita kasih pertanyaan yang susah."
+    },
+    {
+      "start": 2107.44,
+      "end": 2113.44,
+      "text": "- Share screen yang ini ya. Tuh udah kelihatan kan? Eh belum."
+    },
+    {
+      "start": 2113.44,
+      "end": 2116.44,
+      "text": "- Udah. - Udah."
+    },
+    {
+      "start": 2116.44,
+      "end": 2122.44,
+      "text": "- Oke, ada yang GPU-nya nggak? - Ada, ada. Ini diatur dulu."
+    },
+    {
+      "start": 2122.44,
+      "end": 2130.44,
+      "text": "Ini GPU-nya ada disini kalau nggak salah. Nah ini GPU."
+    },
+    {
+      "start": 2130.44,
+      "end": 2136.44,
+      "text": "- Nah itu. - Nah itu juga udah spek kan tadinya nggak apa-apa."
+    },
+    {
+      "start": 2136.44,
+      "end": 2142.44,
+      "text": "Naik banget pas loading awal ya. Abis itu gini-gini aja. Coba tanya lagi."
+    },
+    {
+      "start": 2142.44,
+      "end": 2145.44,
+      "text": "- Segini aja cukup ya. Oke tanya lagi apa? - Cukup, cukup."
+    },
+    {
+      "start": 2145.44,
+      "end": 2152.44,
+      "text": "- Apa yang susah? - Kalau subyektif dia."
+    },
+    {
+      "start": 2152.44,
+      "end": 2157.44,
+      "text": "- Which one come first, chicken or egg? - Which one come first, chicken or egg?"
+    },
+    {
+      "start": 2157.44,
+      "end": 2170.44,
+      "text": "- Chicken or egg. Tuh naik tuh. - Oh naik ya rasanya."
+    },
+    {
+      "start": 2170.44,
+      "end": 2176.44,
+      "text": "- Naik tuh, ada spike kan. - Apa ya? Explain the story of JavaScript."
+    },
+    {
+      "start": 2176.44,
+      "end": 2181.44,
+      "text": "- Dia nggak pernah bisa jawab apa-apa. - Dia satu giga sih."
+    },
+    {
+      "start": 2181.44,
+      "end": 2189.44,
+      "text": "- Story about JavaScript programming language. - Language."
+    },
+    {
+      "start": 2189.44,
+      "end": 2196.44,
+      "text": "- Language. Weh ini bisa. - Weh naik tuh GPU-nya tuh."
+    },
+    {
+      "start": 2196.44,
+      "end": 2204.44,
+      "text": "Berarti betul dia udah pakai GPU. Iya kan."
+    },
+    {
+      "start": 2204.44,
+      "end": 2211.44,
+      "text": "- Coba minta accept deh. - Kalo gitu prosesnya selesai GPU-nya turun."
+    },
+    {
+      "start": 2211.44,
+      "end": 2216.44,
+      "text": "Eh kayaknya tadi di drop down-nya ada intunya deh. Coba scroll ke atas."
+    },
+    {
+      "start": 2216.44,
+      "end": 2228.44,
+      "text": "Scroll ke atas. Nah klik di \"Choose a model file\" selektornya. Nah dia indikasi kok dia jalan di mana."
+    },
+    {
+      "start": 2228.44,
+      "end": 2232.44,
+      "text": "- Web GPU tuh. - Udah dia indikasi jalan di web GPU."
+    },
+    {
+      "start": 2232.44,
+      "end": 2237.44,
+      "text": "Dan betul udah di cross-check. Kita minggu lalu minta resep apa sih yang dia nggak bisa?"
+    },
+    {
+      "start": 2237.44,
+      "end": 2243.44,
+      "text": "Abis itu kita minta resep pancake dia bisa. - Iya, resep."
+    },
+    {
+      "start": 2243.44,
+      "end": 2247.44,
+      "text": "- Pizza. - Oh gado-gado."
+    },
+    {
+      "start": 2247.44,
+      "end": 2252.44,
+      "text": "- Oh iya. Give recipe for gado-gado. - Nggak bisa dia bahasa Indonesia."
+    },
+    {
+      "start": 2252.44,
+      "end": 2256.44,
+      "text": "- Give me recipe. - Iya nggak minta resepnya. Recipe."
+    },
+    {
+      "start": 2256.44,
+      "end": 2261.44,
+      "text": "- Recipe. Recipe. - Recipe. Recipe."
+    },
+    {
+      "start": 2261.44,
+      "end": 2263.44,
+      "text": "Recipe for gado-gado."
+    },
+    {
+      "start": 2263.44,
+      "end": 2269.44,
+      "text": "- Indonesian food called gado-gado. - Gado-gado."
+    },
+    {
+      "start": 2269.44,
+      "end": 2272.44,
+      "text": "- Ini ya? - Iya."
+    },
+    {
+      "start": 2272.44,
+      "end": 2276.44,
+      "text": "- Unable. - Sekarang minta resep pancake."
+    },
+    {
+      "start": 2276.44,
+      "end": 2279.44,
+      "text": "- Pizza. - Pizza."
+    },
+    {
+      "start": 2279.44,
+      "end": 2282.44,
+      "text": "- Pancake ya? - Unable."
+    },
+    {
+      "start": 2282.44,
+      "end": 2286.44,
+      "text": "- Gak bisa juga tuh. Oh semua resepnya nggak bisa kalau ini kayaknya ya."
+    },
+    {
+      "start": 2286.44,
+      "end": 2290.44,
+      "text": "- I am unable to provide information description. Oh dia nggak dapat konteks ini gitu."
+    },
+    {
+      "start": 2290.44,
+      "end": 2293.44,
+      "text": "Maksudnya dia nggak ngerti bahwa kita minta resep gitu."
+    },
+    {
+      "start": 2293.44,
+      "end": 2300.44,
+      "text": "- Ya nggak bisa. I am not able to access external information or engage in culinary activities."
+    },
+    {
+      "start": 2300.44,
+      "end": 2307.44,
+      "text": "Terus dia nggak punya culinary data. Recipe for pancake coba."
+    },
+    {
+      "start": 2307.44,
+      "end": 2310.44,
+      "text": "- Bisa. - Pancake bisa."
+    },
+    {
+      "start": 2310.44,
+      "end": 2315.44,
+      "text": "Ini kayaknya pancake tuh built in the training model semua LLM apa ya?"
+    },
+    {
+      "start": 2315.44,
+      "end": 2317.44,
+      "text": "- Taku. - Pizza aja nggak bisa gitu."
+    },
+    {
+      "start": 2317.44,
+      "end": 2320.44,
+      "text": "- Bisa. - Taku bisa."
+    },
+    {
+      "start": 2320.44,
+      "end": 2325.44,
+      "text": "- Coba pizza. Give me recipe for pizza. Mungkin harus pake give me recipe for it."
+    },
+    {
+      "start": 2325.44,
+      "end": 2330.44,
+      "text": "- Dia nggak bisa what about pizza. - Oh dia nggak bisa inget sebelumnya ya?"
+    },
+    {
+      "start": 2330.44,
+      "end": 2333.44,
+      "text": "- Iya konteks tuh pizza bisa. - Iya."
+    },
+    {
+      "start": 2333.44,
+      "end": 2336.44,
+      "text": "- Cuman dia nggak ngerti maksudnya kita resep. - Maksudnya nggak ada konteks."
+    },
+    {
+      "start": 2336.44,
+      "end": 2339.44,
+      "text": "- Gak bisa chat story. - Gak ada konteks."
+    },
+    {
+      "start": 2339.44,
+      "end": 2348.44,
+      "text": "Itu pizza kan Eropa ya? Kalo Asia apa ya? Selain gaduh-gaduh."
+    },
+    {
+      "start": 2348.44,
+      "end": 2352.44,
+      "text": "- Noodles. Chicken noodles. - Ramen."
+    },
+    {
+      "start": 2352.44,
+      "end": 2355.44,
+      "text": "- Ramen noodles. - Bisa."
+    },
+    {
+      "start": 2355.44,
+      "end": 2357.44,
+      "text": "- Bisa. - Tuh bisa."
+    },
+    {
+      "start": 2357.44,
+      "end": 2363.44,
+      "text": "- Coba. - West Africa."
+    },
+    {
+      "start": 2363.44,
+      "end": 2368.44,
+      "text": "- Mas Riza tulis I like Padilla ice cream. - Indomie tau dia."
+    },
+    {
+      "start": 2368.44,
+      "end": 2372.44,
+      "text": "- Originally from West Africa. - West Africa."
+    },
+    {
+      "start": 2372.44,
+      "end": 2378.44,
+      "text": "Training data macem apa ini?"
+    },
+    {
+      "start": 2379.44,
+      "end": 2386.44,
+      "text": "Coba Mas Riza tulis hello my name is Riza and I like whatever."
+    },
+    {
+      "start": 2386.44,
+      "end": 2389.44,
+      "text": "- My name is Riza. - I like coffee."
+    },
+    {
+      "start": 2389.44,
+      "end": 2394.44,
+      "text": "- And I like... - Indomie."
+    },
+    {
+      "start": 2394.44,
+      "end": 2396.44,
+      "text": "- I'm glad you like Indomie. - Okay sekarang who is my name?"
+    },
+    {
+      "start": 2396.44,
+      "end": 2399.44,
+      "text": "- West Africa. - Who is my name?"
+    },
+    {
+      "start": 2399.44,
+      "end": 2402.44,
+      "text": "- What is my name? - Gak bisa."
+    },
+    {
+      "start": 2402.44,
+      "end": 2404.44,
+      "text": "- Ini berarti satu an ya? - Gak bisa."
+    },
+    {
+      "start": 2404.44,
+      "end": 2414.44,
+      "text": "Berarti mungkin chatnya ini kalo kita liat di source code dia gak embed chat history."
+    },
+    {
+      "start": 2414.44,
+      "end": 2417.44,
+      "text": "- Gak embed. - Oh iya itu gak simple."
+    },
+    {
+      "start": 2417.44,
+      "end": 2419.44,
+      "text": "Contoh ini contoh."
+    },
+    {
+      "start": 2419.44,
+      "end": 2424.44,
+      "text": "Kita pengen bikin ya misalnya mau bikin chat interface yang kayak data."
+    },
+    {
+      "start": 2424.44,
+      "end": 2428.44,
+      "text": "- Ini di share kan ya. - Kodonya di share."
+    },
+    {
+      "start": 2428.44,
+      "end": 2431.44,
+      "text": "- Kodonya ada. - Dia tuh di GitHub tadi."
+    },
+    {
+      "start": 2431.44,
+      "end": 2436.44,
+      "text": "Oke nanti saya coba modif sedikit bisa gak dikasih history."
+    },
+    {
+      "start": 2436.44,
+      "end": 2440.44,
+      "text": "- Bisa. - Nah kalo kita kan harus dikirim semua kan."
+    },
+    {
+      "start": 2440.44,
+      "end": 2445.44,
+      "text": "- Di apa? Kita harus kirim semua kan. - Kalau gitu coba Mas Riza balik ke ini dong."
+    },
+    {
+      "start": 2445.44,
+      "end": 2450.44,
+      "text": "- Balik ke kodenya. - Kodenya."
+    },
+    {
+      "start": 2450.44,
+      "end": 2453.44,
+      "text": "Kodenya ada disini."
+    },
+    {
+      "start": 2453.44,
+      "end": 2457.44,
+      "text": "Ini text context."
+    },
+    {
+      "start": 2457.44,
+      "end": 2460.44,
+      "text": "Partial result."
+    },
+    {
+      "start": 2460.44,
+      "end": 2462.44,
+      "text": "Text context output. Partial result."
+    },
+    {
+      "start": 2462.44,
+      "end": 2466.44,
+      "text": "- Romnya mana sih? - Bukan, bukan."
+    },
+    {
+      "start": 2466.44,
+      "end": 2469.44,
+      "text": "Submit, loading the model."
+    },
+    {
+      "start": 2469.44,
+      "end": 2474.44,
+      "text": "Bentar turun dikit ke bawah."
+    },
+    {
+      "start": 2474.44,
+      "end": 2477.44,
+      "text": "Ini mana saat dia submit?"
+    },
+    {
+      "start": 2477.44,
+      "end": 2481.44,
+      "text": "- Saya cuma mau liat submit. - Generate response."
+    },
+    {
+      "start": 2481.44,
+      "end": 2484.44,
+      "text": "Input value display."
+    },
+    {
+      "start": 2484.44,
+      "end": 2487.44,
+      "text": "Input.value."
+    },
+    {
+      "start": 2487.44,
+      "end": 2490.44,
+      "text": "LLM inference itu apa? Ini ya?"
+    },
+    {
+      "start": 2490.44,
+      "end": 2493.44,
+      "text": "Oh dari dia."
+    },
+    {
+      "start": 2493.44,
+      "end": 2497.44,
+      "text": "Gak bisa kita lihat ya."
+    },
+    {
+      "start": 2497.44,
+      "end": 2500.44,
+      "text": "Kita masukin promnya dimana sih?"
+    },
+    {
+      "start": 2500.44,
+      "end": 2504.44,
+      "text": "- Ini di form. - Output element by ID."
+    },
+    {
+      "start": 2504.44,
+      "end": 2508.44,
+      "text": "- Oh create prompt option. - Begitu on click dia."
+    },
+    {
+      "start": 2508.44,
+      "end": 2511.44,
+      "text": "Oh output."
+    },
+    {
+      "start": 2511.44,
+      "end": 2514.44,
+      "text": "Oh generate response ya metodnya."
+    },
+    {
+      "start": 2514.44,
+      "end": 2520.44,
+      "text": "Metodnya yang diimport dari JS Deliver ini."
+    },
+    {
+      "start": 2520.44,
+      "end": 2527.44,
+      "text": "Ini tugas kita semua untuk explore lebih lanjut ya."
+    },
+    {
+      "start": 2527.44,
+      "end": 2536.44,
+      "text": "Intinya adalah ini menggunakan LLM inference API dari Google AI Edge."
+    },
+    {
+      "start": 2536.44,
+      "end": 2539.44,
+      "text": "Buka ini ada nggak yang diitunya?"
+    },
+    {
+      "start": 2539.44,
+      "end": 2542.44,
+      "text": "- Apa tuh? - Coba lihat NPM-nya dong."
+    },
+    {
+      "start": 2542.44,
+      "end": 2549.44,
+      "text": "NPM JS media pipe itu ada source code contoh lain nggak sih yang disediakan?"
+    },
+    {
+      "start": 2549.44,
+      "end": 2554.44,
+      "text": "- Maksudnya LLM inference itu ada. - Oh lainnya GitHub lagi."
+    },
+    {
+      "start": 2554.44,
+      "end": 2562.44,
+      "text": "Ini ya?"
+    },
+    {
+      "start": 2562.44,
+      "end": 2565.44,
+      "text": "Oh ada experimental lagi."
+    },
+    {
+      "start": 2565.44,
+      "end": 2574.44,
+      "text": "Oke. Berarti file set resolver dulu, awesome."
+    },
+    {
+      "start": 2574.44,
+      "end": 2579.44,
+      "text": "Terus modenya ya cuma begini doang."
+    },
+    {
+      "start": 2579.44,
+      "end": 2585.44,
+      "text": "Iya sama kayak di dokumentasi tadi sih LLM inference."
+    },
+    {
+      "start": 2585.44,
+      "end": 2592.44,
+      "text": "Prepare data itu, coba klik di kanan prepare data."
+    },
+    {
+      "start": 2592.44,
+      "end": 2597.44,
+      "text": "- Serasa ini nggak sih? - Sesingkat itu."
+    },
+    {
+      "start": 2597.44,
+      "end": 2602.44,
+      "text": "Early bake yang diburu hanya untuk IO Extended."
+    },
+    {
+      "start": 2602.44,
+      "end": 2607.44,
+      "text": "- Pasti. - Tapi ini udah lengkap loh, udah lumayan banyak loh."
+    },
+    {
+      "start": 2607.44,
+      "end": 2612.44,
+      "text": "Yang atas itu bukan buat web."
+    },
+    {
+      "start": 2612.44,
+      "end": 2616.44,
+      "text": "- Bukan ini doang ya ini doang. - AI."
+    },
+    {
+      "start": 2616.44,
+      "end": 2620.44,
+      "text": "Tuh ini doang itu juga hanya bagian yang web loh."
+    },
+    {
+      "start": 2620.44,
+      "end": 2625.44,
+      "text": "- Yang ILS kan mungkin beda lagi. - ILS kayak gitu juga."
+    },
+    {
+      "start": 2625.44,
+      "end": 2629.44,
+      "text": "Tapi pakai bahasanya apa lagi."
+    },
+    {
+      "start": 2629.44,
+      "end": 2635.44,
+      "text": "Iya karena TF Lite itu bisa jalan juga di Android."
+    },
+    {
+      "start": 2635.44,
+      "end": 2640.44,
+      "text": "Paling ya persis kayak gini, cuma maksudnya beda bahasa aja."
+    },
+    {
+      "start": 2640.44,
+      "end": 2646.44,
+      "text": "Oke. Anyway, cukup kali ya kita bahas tentang ini ya."
+    },
+    {
+      "start": 2646.44,
+      "end": 2652.44,
+      "text": "Cuma penasarannya tadi kan kita masih penasaran apa tuh LLM inference."
+    },
+    {
+      "start": 2652.44,
+      "end": 2657.44,
+      "text": "Itu apa sih ada penjelasannya atau nggak ya minimal sekarang kita udah coba."
+    },
+    {
+      "start": 2657.44,
+      "end": 2660.44,
+      "text": "Coba tanya, ini bisa juga topik nih."
+    },
+    {
+      "start": 2660.44,
+      "end": 2666.44,
+      "text": "Oh iya tanya sih game. Tanya game tadi, what is LLM inference?"
+    },
+    {
+      "start": 2666.44,
+      "end": 2675.44,
+      "text": "- Pasti dia nggak ngerti. - Inference in context of LLM."
+    },
+    {
+      "start": 2675.44,
+      "end": 2683.44,
+      "text": "- Oh bisa loh, dia bisa jelasin. - Nggak mau."
+    },
+    {
+      "start": 2683.44,
+      "end": 2693.44,
+      "text": "Explain to me what is LLM like I'm 5."
+    },
+    {
+      "start": 2693.44,
+      "end": 2696.44,
+      "text": "- Standard ya. - 5 year old."
+    },
+    {
+      "start": 2696.44,
+      "end": 2699.44,
+      "text": "- 5 year old. - Nggak perlu ngapain."
+    },
+    {
+      "start": 2699.44,
+      "end": 2702.44,
+      "text": "Children should not be learning LLM yet."
+    },
+    {
+      "start": 2702.44,
+      "end": 2705.44,
+      "text": "They should learn alphabets."
+    },
+    {
+      "start": 2705.44,
+      "end": 2708.44,
+      "text": "Panjang juga dia."
+    },
+    {
+      "start": 2708.44,
+      "end": 2712.44,
+      "text": "- Eh bisa tuh. - Oh nggak, kayaknya nggak ya."
+    },
+    {
+      "start": 2712.44,
+      "end": 2715.44,
+      "text": "Nggak kayak penjelasan anak 5 tahun."
+    },
+    {
+      "start": 2715.44,
+      "end": 2721.44,
+      "text": "Extract meaningful information and pattern from massive data set of text and code."
+    },
+    {
+      "start": 2721.44,
+      "end": 2726.44,
+      "text": "- Penjelasan buat orang yang cukup umur. - Predict, generate, and answer."
+    },
+    {
+      "start": 2726.44,
+      "end": 2730.44,
+      "text": "Itu dia sebenarnya jawabannya, predict, generate, and answer."
+    },
+    {
+      "start": 2730.44,
+      "end": 2735.44,
+      "text": "- Ya tapi at least dia bisa jelasin ya. - Iya, at least bisa jelasin."
+    },
+    {
+      "start": 2735.44,
+      "end": 2739.44,
+      "text": "Nah ini bisa jadi topik untuk AI Extended."
+    },
+    {
+      "start": 2739.44,
+      "end": 2744.44,
+      "text": "Kita bisa explore ya. AI Extended lagi, I/O Extended."
+    },
+    {
+      "start": 2744.44,
+      "end": 2749.44,
+      "text": "- Bukan salah nama. - Sampai salah kebanyakan AI."
+    },
+    {
+      "start": 2749.44,
+      "end": 2751.44,
+      "text": "- Aku sudah dapat ya. - Siapa tahu?"
+    },
+    {
+      "start": 2751.44,
+      "end": 2755.44,
+      "text": "- Saya sudah dapat topik. - Aku doang yang belum."
+    },
+    {
+      "start": 2755.44,
+      "end": 2758.44,
+      "text": "- Jadi apa namanya ini? - Tapi belum selesai."
+    },
+    {
+      "start": 2758.44,
+      "end": 2763.44,
+      "text": "Bisa membuka, bisa membuka apa ya? Opportunity."
+    },
+    {
+      "start": 2763.44,
+      "end": 2767.44,
+      "text": "Kenapa? Karena ya satu bisa jalan di lokal, apa di lokal masing-masing,"
+    },
+    {
+      "start": 2767.44,
+      "end": 2769.44,
+      "text": "ya walaupun memberatkan masing-masing user."
+    },
+    {
+      "start": 2769.44,
+      "end": 2773.44,
+      "text": "- Iya tadi dengan segala kelebihan dan kurangan kan. - Betul."
+    },
+    {
+      "start": 2773.44,
+      "end": 2775.44,
+      "text": "- Trade off. - Iya."
+    },
+    {
+      "start": 2775.44,
+      "end": 2782.44,
+      "text": "Dengan memungkinkan untuk bikin seperti ini, kita bisa bikin misalkan apa ya?"
+    },
+    {
+      "start": 2782.44,
+      "end": 2788.44,
+      "text": "Extension, tapi pakai LLM. Nggak perlu dari ke server gitu kan."
+    },
+    {
+      "start": 2788.44,
+      "end": 2792.44,
+      "text": "- Tapi kalau misalnya saya... - 2GB, 1GB gitu."
+    },
+    {
+      "start": 2792.44,
+      "end": 2798.44,
+      "text": "Saya masih nggak puas loh ada 1,2GB untuk user itu."
+    },
+    {
+      "start": 2798.44,
+      "end": 2804.44,
+      "text": "- Iya. - Apa kesnya yang bisa justify"
+    },
+    {
+      "start": 2804.44,
+      "end": 2809.44,
+      "text": "minta user untuk download 1,2GB untuk jalanin aplikasi kita?"
+    },
+    {
+      "start": 2809.44,
+      "end": 2814.44,
+      "text": "- Betul-betul. Kemaren itu kalau nggak salah... - Multimedia banget sih sekarang use case-nya."
+    },
+    {
+      "start": 2814.44,
+      "end": 2818.44,
+      "text": "- Kalau 1GB itu... - Aplikasi tar okay gitu."
+    },
+    {
+      "start": 2818.44,
+      "end": 2827.44,
+      "text": "Kalau download-nya sih nggak masalah. Storage-nya yang mungkin sedikit berat."
+    },
+    {
+      "start": 2827.44,
+      "end": 2831.44,
+      "text": "Kalau download 1GB mungkin kalau untuk traffic kayaknya udah normal ya."
+    },
+    {
+      "start": 2831.44,
+      "end": 2835.44,
+      "text": "- Jaman sekarang ya 1GB, 2GB tuh kayaknya udah... - Di mobile loh mas."
+    },
+    {
+      "start": 2835.44,
+      "end": 2840.44,
+      "text": "Belum tentu loh. Nggak sih. Kalau untuk mobile, sakit juga."
+    },
+    {
+      "start": 2840.44,
+      "end": 2848.44,
+      "text": "Kalau PWA mungkin. Jadi sudah install sebelum dijalanin."
+    },
+    {
+      "start": 2848.44,
+      "end": 2852.44,
+      "text": "- Sebelum dipakai, sebelum digunakan. - Dan user udah punya ekspektasi"
+    },
+    {
+      "start": 2852.44,
+      "end": 2855.44,
+      "text": "bahwa itu akan behave seperti aplikasi."
+    },
+    {
+      "start": 2855.44,
+      "end": 2861.44,
+      "text": "Kalau misalnya gini, anggap aja pakai, saya nggak tahu pakai JMA."
+    },
+    {
+      "start": 2861.44,
+      "end": 2868.44,
+      "text": "- Pakai multimodal deh yang bisa... - Gemini, vision pro."
+    },
+    {
+      "start": 2868.44,
+      "end": 2877.44,
+      "text": "Vision gitu yang misalnya untuk makeup atau untuk augmented..."
+    },
+    {
+      "start": 2877.44,
+      "end": 2880.44,
+      "text": "- Apa namanya? - Reality."
+    },
+    {
+      "start": 2880.44,
+      "end": 2886.44,
+      "text": "Reality. Oke, pakai, nge-coba ngedress something."
+    },
+    {
+      "start": 2886.44,
+      "end": 2891.44,
+      "text": "Jadi waktu kita lagi buka aplikasinya ada loading-nya."
+    },
+    {
+      "start": 2891.44,
+      "end": 2894.44,
+      "text": "Ada loading-nya dulu nih, tapi selama loading itu udah download model."
+    },
+    {
+      "start": 2894.44,
+      "end": 2898.44,
+      "text": "- Nah itu worth it gitu ya. - Itu make sense."
+    },
+    {
+      "start": 2898.44,
+      "end": 2904.44,
+      "text": "- Tapi kalau misalnya kayak... - Berarti yaudah, yaudah pakai buat itu."
+    },
+    {
+      "start": 2904.44,
+      "end": 2913.44,
+      "text": "Ini kan sampelnya chat ya? Mau nggak sih ada chat agent 1,2GB?"
+    },
+    {
+      "start": 2913.44,
+      "end": 2918.44,
+      "text": "Loh, kan itu. Jadi sebelum kita load, kita consent dulu."
+    },
+    {
+      "start": 2918.44,
+      "end": 2923.44,
+      "text": "Ini membutuhkan file 1,2GB untuk download dan storage."
+    },
+    {
+      "start": 2923.44,
+      "end": 2927.44,
+      "text": "Mau nggak? Kalau nggak mau, balik ke server."
+    },
+    {
+      "start": 2927.44,
+      "end": 2933.44,
+      "text": "Paling gitu, di awal. Sama aja kayak loading spinner gitu."
+    },
+    {
+      "start": 2933.44,
+      "end": 2936.44,
+      "text": "Cookies atau apa? Cookies, consent?"
+    },
+    {
+      "start": 2936.44,
+      "end": 2940.44,
+      "text": "Nggak, tadi pertanyaan Irfan, misalnya use case-nya aplikasi jenis apa ya berarti?"
+    },
+    {
+      "start": 2940.44,
+      "end": 2946.44,
+      "text": "Yang bisa justify, nyuruh-nyuruh download kayak gitu."
+    },
+    {
+      "start": 2946.44,
+      "end": 2950.44,
+      "text": "Maksudnya, oke lah ada pop-up gitu, ada dialog."
+    },
+    {
+      "start": 2950.44,
+      "end": 2956.44,
+      "text": "Ini akan membutuhkan download seukuran kira-kira segini, download-nya lamanya segini."
+    },
+    {
+      "start": 2956.44,
+      "end": 2964.44,
+      "text": "Nah, apa yang bikin user bilang, oke nggak nge-screenshot dan marah-marah di Twitter misalnya."
+    },
+    {
+      "start": 2964.44,
+      "end": 2967.44,
+      "text": "Berarti harus ada use case yang justify."
+    },
+    {
+      "start": 2967.44,
+      "end": 2971.44,
+      "text": "Yang butuh banget, yang membutuhkan sekali,"
+    },
+    {
+      "start": 2971.44,
+      "end": 2976.44,
+      "text": "tanpa harus apa namanya, ya dia mau nggak mau, suka tidak suka, harus download."
+    },
+    {
+      "start": 2976.44,
+      "end": 2981.44,
+      "text": "Itu tadi sih, itu contoh yang makes sense."
+    },
+    {
+      "start": 2981.44,
+      "end": 2984.44,
+      "text": "Itu tadi misalnya buat makeup atau pakean,"
+    },
+    {
+      "start": 2984.44,
+      "end": 2992.44,
+      "text": "atau buat itu yang apa, misalnya di rumah kita, terus orang jualan tokonya, webstore, jualan furniture,"
+    },
+    {
+      "start": 2992.44,
+      "end": 2998.44,
+      "text": "nyoba sofa itu gimana bentuknya kalau ditaruh di ruangan kita,"
+    },
+    {
+      "start": 2998.44,
+      "end": 3000.44,
+      "text": "yang gitu-gitu sih mungkin orang paham ya."
+    },
+    {
+      "start": 3000.44,
+      "end": 3004.44,
+      "text": "Kalau buat chat doang sih kelihatannya nggak, belum."
+    },
+    {
+      "start": 3004.44,
+      "end": 3009.44,
+      "text": "Lebih tepatnya, ya bukan lebih tepat, maksudnya kalau saya memikirannya ya,"
+    },
+    {
+      "start": 3009.44,
+      "end": 3013.44,
+      "text": "jadi lebih ke arah model yang lebih spesifik,"
+    },
+    {
+      "start": 3013.44,
+      "end": 3018.44,
+      "text": "contohnya ya itu tadi model untuk nge-blur background."
+    },
+    {
+      "start": 3018.44,
+      "end": 3022.44,
+      "text": "Jadi kalau dia spesifik kan, jadi bukan general model,"
+    },
+    {
+      "start": 3022.44,
+      "end": 3027.44,
+      "text": "jadi model yang spesifik itu ini size-nya bisa lebih kecil."
+    },
+    {
+      "start": 3027.44,
+      "end": 3032.44,
+      "text": "Jadi hanya bisa nge-blur background, hanya bisa untuk warna lipstick,"
+    },
+    {
+      "start": 3032.44,
+      "end": 3038.44,
+      "text": "hanya bisa mendetek mata untuk eyeshadow, maybe."
+    },
+    {
+      "start": 3038.44,
+      "end": 3043.44,
+      "text": "Jadi lebih makes sense kalau yang hanya kayak ratusan mega sih."
+    },
+    {
+      "start": 3043.44,
+      "end": 3052.44,
+      "text": "- Nah, gimana kalau spesifik dan multimodel ya, kalau cuma teks doang kelihatannya justru belum bisa terima."
+    },
+    {
+      "start": 3052.44,
+      "end": 3060.44,
+      "text": "- Iya benar. Gimana kalau misalkan aplikasi yang, tadi kan keunggulannya adalah privacy kan,"
+    },
+    {
+      "start": 3060.44,
+      "end": 3065.44,
+      "text": "misalkan aplikasi yang membutuhkan foto KTP, kita sambil foto KTP."
+    },
+    {
+      "start": 3065.44,
+      "end": 3074.44,
+      "text": "Untuk client-side itu sangat aman kan, maksudnya KTP-nya nggak akan dikirim ke server kan,"
+    },
+    {
+      "start": 3074.44,
+      "end": 3083.44,
+      "text": "tapi itu juga di sisi yang lain itu juga besar kan, mungkin nggak sampai 1 giga kalau untuk ngedetek KTP."
+    },
+    {
+      "start": 3083.44,
+      "end": 3089.44,
+      "text": "Tapi berapa puluh atau berapa ratus mega kan. Itu makes sense nggak kalau itu."
+    },
+    {
+      "start": 3089.44,
+      "end": 3095.44,
+      "text": "- Itu makes sense kalau privacy, kalau konsertnya privacy."
+    },
+    {
+      "start": 3095.44,
+      "end": 3103.44,
+      "text": "Atau mungkin apa ya, kayak tools internal nggak sih? Kayak mau saya apa dashboard atau apalah di perusahaan."
+    },
+    {
+      "start": 3103.44,
+      "end": 3107.44,
+      "text": "- Iya kalau tools internal pasti makes sense ya."
+    },
+    {
+      "start": 3107.44,
+      "end": 3116.44,
+      "text": "- Internal, tapi kalau kayak tools internal besar kayak pernah lihat percakapan di Discord orang yang kerja di IKEA,"
+    },
+    {
+      "start": 3116.44,
+      "end": 3123.44,
+      "text": "itu kan mereka apa, networknya, kalau internal kita kan bayangin yang akses tuh 10 orang gitu."
+    },
+    {
+      "start": 3123.44,
+      "end": 3129.44,
+      "text": "Cuma kalau se level IKEA itu kan sebetulnya user mereka ya itu banyak."
+    },
+    {
+      "start": 3129.44,
+      "end": 3137.44,
+      "text": "Itu sangat banyak bisa diakses ratusan user kan, cuma internal mereka."
+    },
+    {
+      "start": 3137.44,
+      "end": 3141.44,
+      "text": "Nah kalau kayak gitu kan privacy makes sense banget ya."
+    },
+    {
+      "start": 3141.44,
+      "end": 3156.44,
+      "text": "- Mungkin pembahasan tentang LLM di lokal kita tutup dulu, kita masuk ke bagian berikutnya yang tentang visual block ya."
+    },
+    {
+      "start": 3156.44,
+      "end": 3166.44,
+      "text": "Jadi nantikan eksplorasi kita, salah satu dari kita atau salah dua dari kita di IO Extended ya."
+    },
+    {
+      "start": 3166.44,
+      "end": 3171.44,
+      "text": "- Siapa tahu. Atau salah lima, lima-limanya."
+    },
+    {
+      "start": 3171.44,
+      "end": 3178.44,
+      "text": "- Talknya tentang ini semua. Nah ini masih nyambung sih, masih berhubungan."
+    },
+    {
+      "start": 3178.44,
+      "end": 3186.44,
+      "text": "Cuma apakah dari perspektif yang beda, ada UI-nya menarik. Ini visual block itu low code ya."
+    },
+    {
+      "start": 3186.44,
+      "end": 3194.44,
+      "text": "Low code apa malah bisa dibilang no code, cara no code untuk prototyping itu bermacam-macam jenis model yang ada"
+    },
+    {
+      "start": 3194.44,
+      "end": 3199.44,
+      "text": "yang tadi sempet dibahas event sedikit, model yang spesifik. Nah ini contoh-contohnya."
+    },
+    {
+      "start": 3199.44,
+      "end": 3208.44,
+      "text": "Nah ini juga client-side, jalannya di device kita sendiri. Ini yang bikin timnya Google Machine Learning,"
+    },
+    {
+      "start": 3208.44,
+      "end": 3213.44,
+      "text": "MLAI, tapi kolaborasi dengan Hugging Face."
+    },
+    {
+      "start": 3213.44,
+      "end": 3225.44,
+      "text": "Dan menariknya, di sini juga mungkin pas kita bahas tentang yang membuat ini memungkinkan terjadi,"
+    },
+    {
+      "start": 3225.44,
+      "end": 3228.44,
+      "text": "salah satunya adalah transformer JS ini."
+    },
+    {
+      "start": 3228.44,
+      "end": 3243.44,
+      "text": "Transformer JS ini awalnya adalah library Python, kemudian dikonversi menjadi JavaScript JS."
+    },
+    {
+      "start": 3243.44,
+      "end": 3249.44,
+      "text": "- Ada hubungannya sama itu nggak sih transformer film? - Film nggak ada sayangnya."
+    },
+    {
+      "start": 3249.44,
+      "end": 3258.44,
+      "text": "- Jadi, loh kok github-nya mana? - Itu Senova itu loh, Senova."
+    },
+    {
+      "start": 3258.44,
+      "end": 3274.44,
+      "text": "- Senova transformers JS. - Github.com/senova/transformersjs"
+    },
+    {
+      "start": 3274.44,
+      "end": 3286.44,
+      "text": "Awalnya dia developer lah ya, terus iseng-iseng bikin tools untuk konversi dari Python,"
+    },
+    {
+      "start": 3286.44,
+      "end": 3291.44,
+      "text": "awalnya dari Python namanya transformers juga, jadi transformer JS."
+    },
+    {
+      "start": 3291.44,
+      "end": 3305.44,
+      "text": "Dia bikin semacam SDK-nya gitu ya, tapi bisa pakai JavaScript gitu. - Dia bikin abstraction layer di atas TensorFlow,"
+    },
+    {
+      "start": 3305.44,
+      "end": 3313.44,
+      "text": "jadi ini sebenarnya machine learning tools, machine learning library sebenarnya."
+    },
+    {
+      "start": 3313.44,
+      "end": 3319.44,
+      "text": "Jadi kita bisa melakukan macam-macam, bisa transforming, bisa buat inference,"
+    },
+    {
+      "start": 3319.44,
+      "end": 3329.44,
+      "text": "bisa buat contohnya di sini sentiment analysis, bisa similarity search, dll."
+    },
+    {
+      "start": 3329.44,
+      "end": 3339.44,
+      "text": "Dia pakai backend-nya Onyx runtime, jadi ini kayak standar gitu ya, standar kesepakatan antara"
+    },
+    {
+      "start": 3339.44,
+      "end": 3347.44,
+      "text": "ada TensorFlow, ada Python, ada macam-macam ya, jadi mereka jadi satu runtime supaya bisa saling berkomunikasi."
+    },
+    {
+      "start": 3347.44,
+      "end": 3357.44,
+      "text": "Nah ini kemudian dia di-hire sama Hugging Face. Sekarang dia sudah menjadi karyawan Hugging Face."
+    },
+    {
+      "start": 3357.44,
+      "end": 3364.44,
+      "text": "- Manusia juga bisa diakusisi ya. - Banyak sekali contoh-contoh."
+    },
+    {
+      "start": 3364.44,
+      "end": 3378.44,
+      "text": "Tapi ya ini lagi, oh nggak, ini nggak pakai tapi, ini bisa pakai NPM, bisa pakai JS Deliver atau CDN ya. Ini ada contohnya nih, contohnya."
+    },
+    {
+      "start": 3378.44,
+      "end": 3387.44,
+      "text": "Misalkan kita mau pakai space recognition, ada nih demonya, real-time sketch recognition, ada demonya."
+    },
+    {
+      "start": 3387.44,
+      "end": 3396.44,
+      "text": "Dan ini ya, browser ya. Jadi tinggal pakai sebenarnya. - Tinggal pakai. Cuman dia loading dulu tuh kan, dia download dulu."
+    },
+    {
+      "start": 3396.44,
+      "end": 3407.44,
+      "text": "- Ya download dulu. Nggak, tinggal pakai juga. Karena tadi kayaknya dibahas event-nya itu kan satu modelnya spesifik."
+    },
+    {
+      "start": 3407.44,
+      "end": 3418.44,
+      "text": "Jadi kita nggak bisa tingkat reset atau nanya arti hidupnya. - Osian. Ini gambar osian ya. - Kedua mobil. - Beach. - Wah, kok pantai?"
+    },
+    {
+      "start": 3418.44,
+      "end": 3430.44,
+      "text": "- Pantai dimananya? - Gambar ini. - Pillow. - House. - House beneran. - Ini cooler. Kok cooler? - Kok cooler sih?"
+    },
+    {
+      "start": 3430.44,
+      "end": 3444.44,
+      "text": "- Kasih pintu aja. - Ini house. - Octagon. - Ya betul juga. - Table. - Ini ada pintu. - Kok mencet? - Hospital."
+    },
+    {
+      "start": 3444.44,
+      "end": 3460.44,
+      "text": "- Rumah sakit apa sih kecilnya tuh. - Oke, ada contoh menggunakan red. In Browser Object Detection Vanilla JavaScript. Banyak ininya, demo-demonya."
+    },
+    {
+      "start": 3460.44,
+      "end": 3474.44,
+      "text": "Untuk upload image ya. Jadi ini yang memungkinkan terjadinya yang tadi itu salah satunya. Node.js juga bisa jalan di server, bisa jalan di client, buat elektron, buat browser extension, macem-macem ya."
+    },
+    {
+      "start": 3474.44,
+      "end": 3491.44,
+      "text": "Jadi ini salah satu yang membuat, kenapa? - Maksudnya masih belum ngerti. Transform ini berarti library untuk apa ini sebenarnya? - Macem-macem. Ini nih nih nih. NLP."
+    },
+    {
+      "start": 3491.44,
+      "end": 3514.44,
+      "text": "- Saya lihat kodenya salah satu. - Computer Vision, audio, multimodal. Kalau yang saya pernah pakai, jadi kalau kita mau bikin RAG, Retrieval and Generation dari dokumen, kita mau cari yang ada di dokumen itu pakai transformer ini."
+    },
+    {
+      "start": 3514.44,
+      "end": 3526.44,
+      "text": "Jadi caranya pipeline, terus pipeline di sini kita bisa definisikan pipeline-nya yang mau kita pakai fitur apa. Similarity Search gitu. Atau Sentiment Analysis atau apa."
+    },
+    {
+      "start": 3526.44,
+      "end": 3545.44,
+      "text": "- Cuman itu fitur-fiturnya udah ada, udah spesifik ya? Maksudnya dia punya daftar apa aja yang bisa dipakai. Kita nggak bisa nge-custom. - Iya, ada dokumentasinya, ada. Dan dia udah nyediain modelnya juga. Dan modelnya bisa pakai yang tadi tadi. Ini, Dokumentation ya. Kita lihat ya."
+    },
+    {
+      "start": 3545.44,
+      "end": 3564.44,
+      "text": "Misalkan pipeline-nya. Text Classification, Token Classification, Question Answer, Text to Text Generation, Summarization. Ada semua."
+    },
+    {
+      "start": 3564.44,
+      "end": 3584.44,
+      "text": "- Oh, ada daftar modelnya juga tuh? - Iya, daftar modelnya apa nih? Ini ada beberapa model yang punya dia juga ya. Dari BERT, dari mana gitu. Ini kan dari sini kan? Eh, mana tadi yang..."
+    },
+    {
+      "start": 3584.44,
+      "end": 3608.44,
+      "text": "- Transformers. - Transformers, oh ini. - Oh, jadi kayak dia nyediain sekian model yang available. - Iya. Betul. Ini versi low-levelnya dari LLM yang kalau kita inference gitu ya. Ini versi low-levelnya. Dibawahnya lagi."
+    },
+    {
+      "start": 3608.44,
+      "end": 3633.44,
+      "text": "Nah, ini yang harus diulik sama kita nih. Nah, hubungannya sama Visual Blocks ini. Oh, Visual Blocks ini. Kan tadi Transformers JS yang agak low-level ya, mid-level lah."
+    },
+    {
+      "start": 3633.44,
+      "end": 3646.44,
+      "text": "Visual Blocks ini yang benar-benar visualisasi. Berarti bisa langsung nge-extract pakai, misalnya tadi kan ada extraction ya, contoh itu similarity search."
+    },
+    {
+      "start": 3646.44,
+      "end": 3659.44,
+      "text": "Bisa kalau misalnya kita ada data, bisa nge-extract, sorry data itu lebih tepatnya, text ya, kalimat lah ya, kalimat. Dia bisa nge-extract kalimat itu pakai transformer ini gitu ya."
+    },
+    {
+      "start": 3659.44,
+      "end": 3672.44,
+      "text": "- Betul. - Berarti dia bisa nge-pipeline dari modelnya ya. Jadi nge-pipeline, sorry, fitur extraction yang dia pakai itu menggunakan model yang untuk,"
+    },
+    {
+      "start": 3672.44,
+      "end": 3683.44,
+      "text": "berarti si transformer ini sendiri menjalankan model itu untuk melakukan extraction data tadi itu. Commentnya itu adalah extraction tapi menggunakan model. Ngerti gak sih?"
+    },
+    {
+      "start": 3683.44,
+      "end": 3694.44,
+      "text": "Saya lagi berpikir. - Ya kayaknya perintahnya masing-masingnya sesuai model yang kita masukin sebagai argumen itu kan."
+    },
+    {
+      "start": 3694.44,
+      "end": 3708.44,
+      "text": "- Dan model-model yang kita pakai itu bisa menjalankan function atau perintah itu karena tadi sudah menggunakan runtime yang sama saat nge-build model itu."
+    },
+    {
+      "start": 3708.44,
+      "end": 3713.44,
+      "text": "Kayak gitu kali ya? - Ya."
+    },
+    {
+      "start": 3713.44,
+      "end": 3720.44,
+      "text": "- Karena misalnya meski model dibuild pakai PyTorch, atau dibuild pakai TensorFlow, atau dibuild satu-satunya lagi apa?"
+    },
+    {
+      "start": 3720.44,
+      "end": 3739.44,
+      "text": "- Apa? - Atau tadi 3 kan. PyTorch, TensorFlow, sama ada tadi di TensorFlow JS-nya. Bukan, bukan, coba ke TF."
+    },
+    {
+      "start": 3739.44,
+      "end": 3745.44,
+      "text": "- Transformers JS. - Transformer JS-nya yang di Github."
+    },
+    {
+      "start": 3745.44,
+      "end": 3755.44,
+      "text": "- Github di home-nya? - Itu atau JAX model. TensorFlow atau JAX."
+    },
+    {
+      "start": 3755.44,
+      "end": 3759.44,
+      "text": "Jadi ada 3 kan. - Ya."
+    },
+    {
+      "start": 3759.44,
+      "end": 3771.44,
+      "text": "- Now I understand. - Oke. Nah ini contohnya ya, jadi kita mau bikin konversi image jadi bentuknya kayak kartun."
+    },
+    {
+      "start": 3771.44,
+      "end": 3782.44,
+      "text": "Image input-nya apa, processor-nya apa, terus model running-nya apa. - Itu setting-nya bisa di tweak."
+    },
+    {
+      "start": 3782.44,
+      "end": 3794.44,
+      "text": "- Tambahin normalizer, crop, dan akhirnya jadi kartunized output. Yang mau diganti apa?"
+    },
+    {
+      "start": 3794.44,
+      "end": 3808.44,
+      "text": "- Coba klik ditambahin yang atas deh, yang kiri atas. Coba klik. Nah, select. Loh, nggak otomatis. Oh, tuh otomatis berubah."
+    },
+    {
+      "start": 3808.44,
+      "end": 3821.44,
+      "text": "- Butuh waktu. Karena, oh, kenapa dia di-resize? Karena si TF Lite-nya itu hanya bisa menerima image yang 512 x 512."
+    },
+    {
+      "start": 3821.44,
+      "end": 3827.44,
+      "text": "- Iya. Tapi ini nggak 512 x 512 kan? - Mungkin sisanya."
+    },
+    {
+      "start": 3827.44,
+      "end": 3832.44,
+      "text": "- Ikan pos kali. Sisanya dia nggak putih. - Iya."
+    },
+    {
+      "start": 3832.44,
+      "end": 3844.44,
+      "text": "- Oke. Ini gimana cara bacanya ya? Nggak ngerti soalnya. Ini image input. - Image input."
+    },
+    {
+      "start": 3844.44,
+      "end": 3852.44,
+      "text": "- Terus dihubungin ke, itu masing-masing kotak namanya node. - Iya, ini namanya node."
+    },
+    {
+      "start": 3852.44,
+      "end": 3862.44,
+      "text": "- Terus ini resize and normalize input image. Jadi di-resize dulu ke 512 x 512."
+    },
+    {
+      "start": 3862.44,
+      "end": 3874.44,
+      "text": "- Iya. Akhirnya inputnya itu image. Outputnya itu sudah tensor. Which is floating number."
+    },
+    {
+      "start": 3874.44,
+      "end": 3883.44,
+      "text": "- Iya, oke. Terus di-normalize, akhirnya jadi tensor. Terus modelnya running yang ini. Storage Google API."
+    },
+    {
+      "start": 3883.44,
+      "end": 3894.44,
+      "text": "Cartoon gun. Ini modelnya ya, tapi dalam bahasa real ya. Cartoon gun. Terus abis itu masuk ke tensor pertama."
+    },
+    {
+      "start": 3894.44,
+      "end": 3902.44,
+      "text": "Untuk normalize dulu. Dari 0 ke 255. Nggak tahu nih normalize ini ngapain."
+    },
+    {
+      "start": 3902.44,
+      "end": 3909.44,
+      "text": "- Ada dokumentasinya nggak sih? Itu di kanan atas itu. - Remap value range of input tensor."
+    },
+    {
+      "start": 3909.44,
+      "end": 3915.44,
+      "text": "Jadi kalau ada tensor yang di atas 255, dia bikin supaya dari 0 sampai 255. Kayaknya gitu ya."
+    },
+    {
+      "start": 3915.44,
+      "end": 3921.44,
+      "text": "Mungkin ya. Tolong di-correksi kalau salah. Kemudian di-crop dan di-resize."
+    },
+    {
+      "start": 3921.44,
+      "end": 3928.44,
+      "text": "Oh, ini udah jadi cartoon di sini. Abis itu di-normalize lagi."
+    },
+    {
+      "start": 3928.44,
+      "end": 3936.44,
+      "text": "Kalau ada angka-angka yang mungkin di luar dari 0 dan 255 gitu. Abis itu di-crop lagi."
+    },
+    {
+      "start": 3936.44,
+      "end": 3945.44,
+      "text": "- Di-crop supaya sama dan di-output. - Di-crop supaya image-nya."
+    },
+    {
+      "start": 3945.44,
+      "end": 3949.44,
+      "text": "Kan di sini ada get image size. Jadi dia cari tahu image size ini berapa."
+    },
+    {
+      "start": 3949.44,
+      "end": 3955.44,
+      "text": "Kemudian di-resize kembali ke width dan height yang sesuai sama image size originalnya."
+    },
+    {
+      "start": 3955.44,
+      "end": 3967.44,
+      "text": "- Gitu ya? - Iya. Jadi pertama dia image, diubah jadi tensor. Setelah udah dijalankan pakai model dari tensor, diubah lagi jadi image."
+    },
+    {
+      "start": 3967.44,
+      "end": 3972.44,
+      "text": "- Jadi output. Itu yang paling terakhir. - Iya. Karena kan tensor-nya 512 x 512 kan."
+    },
+    {
+      "start": 3972.44,
+      "end": 3978.44,
+      "text": "- Iya. - Jadi harus butuh resize lagi supaya ukurannya sama-sama yang originalnya."
+    },
+    {
+      "start": 3978.44,
+      "end": 3988.44,
+      "text": "- Ukuran dan formatnya yang balik jadi image lagi ya? Berarti? - Iya. Yang paling terakhir tuh tensor jadi image."
+    },
+    {
+      "start": 3988.44,
+      "end": 4009.44,
+      "text": "High preview hilang ya. Ini kalau untuk, ada di contohnya kan itu ya, remove background kan ya. Mana nggak ada di sini ya?"
+    },
+    {
+      "start": 4009.44,
+      "end": 4021.44,
+      "text": "- Itu banyak. - Itu tuh tuh. Silhouette style photo generator. - Itu malah remove foreground."
+    },
+    {
+      "start": 4021.44,
+      "end": 4027.44,
+      "text": "- Ini jalan di browser ya? - Iya. Jalan di browser. - Cepet juga ya."
+    },
+    {
+      "start": 4027.44,
+      "end": 4033.44,
+      "text": "- Kalau kan malah remove foreground. - Kebalik ya. - Emang konsepnya gitu."
+    },
+    {
+      "start": 4033.44,
+      "end": 4040.44,
+      "text": "- Tapi kan intinya berarti dia bisa nge-detek ya mana yang program, mana yang background. - Iya. Bisa kebalik ya. Benar-benar."
+    },
+    {
+      "start": 4040.44,
+      "end": 4051.44,
+      "text": "- Ini menarik di ulik ya. Berarti ini adalah versi visualnya dari transformer JS ya."
+    },
+    {
+      "start": 4051.44,
+      "end": 4060.44,
+      "text": "Kalau transformer JS kita harus coding. Kalau ini kita drag and drop. - Katanya dimaksudkan ini buat prototyping."
+    },
+    {
+      "start": 4060.44,
+      "end": 4070.44,
+      "text": "- Jadi mesti kita nunjukin. Kita ingin nunjukin. Kita mau nunjukin cara kerjanya kayak gini. Inputnya seperti apa, outputnya seperti apa."
+    },
+    {
+      "start": 4070.44,
+      "end": 4076.44,
+      "text": "Kita nggak harus ngobrolin semuanya tapi bisa pakai visual block. - Background removal ada."
+    },
+    {
+      "start": 4076.44,
+      "end": 4090.44,
+      "text": "- Running. - Iya. Remove background from an image. Modelnya pakai mode net. Device-nya web GPU."
+    },
+    {
+      "start": 4090.44,
+      "end": 4106.44,
+      "text": "- Tuh jadi. - Bagus. - Dari image, image jadi background removal. - Langsung masuk background removal. Balik lagi ke image viewer sama image mixer."
+    },
+    {
+      "start": 4106.44,
+      "end": 4123.44,
+      "text": "- Langsung sisanya ya, yang backgroundnya ya. - Iya. - Ya seandainya mau di, nggak tahu lah. - Oh rambut-rambutnya ini ya ke extract ya. Bagus ya. Detail."
+    },
+    {
+      "start": 4123.44,
+      "end": 4132.44,
+      "text": "- Nah tapi si background removal ini si modelnya itu nggak pakai ini loh, nggak pakai tensor loh. Dia langsung inputnya image."
+    },
+    {
+      "start": 4132.44,
+      "end": 4144.44,
+      "text": "- Iya. Ini, model mode net ini. Atau kita mau ganti bisa kali ya? Terus running lagi dia. - Bisa. - Bria AI."
+    },
+    {
+      "start": 4144.44,
+      "end": 4165.44,
+      "text": "Wah kita harus kembalinya ke sini. Nah kalau temen-temen bisa cek sendiri ya. Kita balik lagi. - Iya silahkan kalau mau main-main. - Nah silahkan. Ada banyak nih. Contoh-contohnya text classification, ada translation."
+    },
+    {
+      "start": 4165.44,
+      "end": 4183.44,
+      "text": "- Oh ada combine sama server side juga. - Oh ya. - Eka jadi AI. - Eka jadi, Eka jadi. - Cek. - Jadi freeze. - Ya bisa-bisa. - Oke. Sudah-sudah aman."
+    },
+    {
+      "start": 4183.44,
+      "end": 4197.44,
+      "text": "- Use JavaScript, nah ini topik ketiga ya dari pembicaraan itu ya. Use JavaScript for web AI at scale with Chrome. Jadi sebelumnya kita sudah menggunakan JMA, modelnya loaded and run within the web page itself."
+    },
+    {
+      "start": 4197.44,
+      "end": 4213.44,
+      "text": "Chrome is working on will in on device AI, where you could access model with standardized task specific JavaScript API. And that's not all, Chrome has also updated web GPU support for 16 bit floating point values."
+    },
+    {
+      "start": 4213.44,
+      "end": 4227.44,
+      "text": "Web assembly has a new proposal, memory 64 to super 64 bit memory index, which would you allow to load larger AI model than before. Jadi bisa, modelnya bisa lebih besar lagi."
+    },
+    {
+      "start": 4227.44,
+      "end": 4247.44,
+      "text": "- Iya nah intinya kan ada tiga hal kan. - Sebelum Mas Jason menutup, kayaknya saya ingat ini, web assembly ada proposal untuk menaikkan dia bisa 64 bit supaya bisa nge-load model 4 giga."
+    },
+    {
+      "start": 4247.44,
+      "end": 4257.44,
+      "text": "- Kalau sekarang belum bisa. - Tambah besar aja. - Tambah besar, tadi 1 giga aja kita mikir ya. - Ini mau dibikin biar bisa 4."
+    },
+    {
+      "start": 4257.44,
+      "end": 4265.44,
+      "text": "Tapi maksudnya secara infrastruktur ya nggak tahu kali disiapin dulu ya. Bukan infrastruktur sih, maksudnya secara cara kerja."
+    },
+    {
+      "start": 4265.44,
+      "end": 4277.44,
+      "text": "Jadi ini menarik sih, ini ada tiga hal. - Saya kan GDI web performance, melihat 4 giga dan bagi user tuh merana."
+    },
+    {
+      "start": 4277.44,
+      "end": 4295.44,
+      "text": "Tapi mungkin kembali lagi ini konsepnya beda untuk researcher, user case-nya itu mau ngeresor atau mau something internal mungkin pengen-pengen aja tadi yang 4 giga."
+    },
+    {
+      "start": 4295.44,
+      "end": 4308.44,
+      "text": "- Itu komunikasi ke user nggak sih? Sebenarnya itu tadi kalau user-nya udah tahu itu emang ada background remover atau make-up tester atau furniture AR gitu."
+    },
+    {
+      "start": 4308.44,
+      "end": 4315.44,
+      "text": "Ya kan ada ekspektasi bahwa itu bakal berat jadi lebih kombinasi dengan UX juga sih."
+    },
+    {
+      "start": 4315.44,
+      "end": 4326.44,
+      "text": "Dan ini kayaknya masih eksperimen, jadi kalau temen-temen mau testing ya bisa kesini langsung cobain running di Google Collab atau..."
+    },
+    {
+      "start": 4326.44,
+      "end": 4335.44,
+      "text": "- Ini beda kasus kalau yang tadi. - Itu beda ya? - Iya itu udah beda heading."
+    },
+    {
+      "start": 4335.44,
+      "end": 4349.44,
+      "text": "- Bukannya yang dibahas 3 ya? - 4, ya berarti 4. Ini kan perkara-nya ada web GPU sama web assembly-nya di upgrade lah."
+    },
+    {
+      "start": 4349.44,
+      "end": 4359.44,
+      "text": "Intinya di upgrade kita lebih capable, kapabilitasnya ditingkatkan karena kita udah masuk ke era on-device, apapun on-device."
+    },
+    {
+      "start": 4359.44,
+      "end": 4367.44,
+      "text": "Tadi kita juga udah nyobain sendiri kan. Tapi ada satu hal lagi yang menarik, coba deh buka di private chat link yang paling bawah."
+    },
+    {
+      "start": 4367.44,
+      "end": 4377.44,
+      "text": "- Iya. - Itu tadi, jadi kan selama ini kita mikir kalau on-device AI berarti harus download dulu kayak yang tadi kan."
+    },
+    {
+      "start": 4377.44,
+      "end": 4389.44,
+      "text": "Nah sekarang Chrome rencananya, dia bakal include di Chrome-nya. - Oh udah ada? - Belum belum."
+    },
+    {
+      "start": 4389.44,
+      "end": 4395.44,
+      "text": "- Wow, ini huge sih. - Tapi masih. - Effect-nya. - Tapi belum."
+    },
+    {
+      "start": 4395.44,
+      "end": 4407.44,
+      "text": "Nah cuma itunya task-nya kayak nggak semua bisa. Jadi itu spesifik banget kalau yang di demo, yang di I/O itu translation yang paling, use case yang paling utama."
+    },
+    {
+      "start": 4407.44,
+      "end": 4416.44,
+      "text": "Dan itu lumayan universal kan ya, itu translation. Terus apa ya, ada code assistant, ada explaining, ada summarizer gitu lah."
+    },
+    {
+      "start": 4416.44,
+      "end": 4429.44,
+      "text": "Apanya misalnya use case-nya yang dicompoin sih kalau kita baca, itu bisa minta summarize this text atau explain. Nah cuma kalau yang paling banyak didemoin dan kelihatannya bakal di push pertama sih translate."
+    },
+    {
+      "start": 4429.44,
+      "end": 4436.44,
+      "text": "- Oke. - Cuma ini belum. - Browser installer size bisa gede banget dong, ntar terlalu lama."
+    },
+    {
+      "start": 4436.44,
+      "end": 4447.44,
+      "text": "- Iya. Eh kita bisa request, get an early preview, scroll ke bawah. - Hah? Di mana? Sebentar, ini? Oh iya. Ini ya."
+    },
+    {
+      "start": 4447.44,
+      "end": 4458.44,
+      "text": "Ini jadi apa ya, jadi yang Ivan khawatirkan bisa jadi ini terjawab di sini dengan kita download Google Chrome yang sudah ada built-in AI-nya."
+    },
+    {
+      "start": 4458.44,
+      "end": 4467.44,
+      "text": "- Mungkin nggak jadi 4GB atau nggak jadi 1GB. Mungkin setengahnya atau seperempatnya yang perlu kita download. Kayak tadi kan perlu download 1GB."
+    },
+    {
+      "start": 4467.44,
+      "end": 4476.44,
+      "text": "Mungkin sebagian sudah ada di, tertanam di Google Chrome mungkin 500 meganya, sisanya 500 mega yang kita download. Mungkin ya."
+    },
+    {
+      "start": 4476.44,
+      "end": 4485.44,
+      "text": "- Dan lagi-lagi kita tetap harus spesifik mau ngapain kan, maksudnya aplikasi kita yang butuh on-device AI itu sebenarnya buat apa?"
+    },
+    {
+      "start": 4485.44,
+      "end": 4493.44,
+      "text": "- Maksudnya kita bisa fine-tuning. - Lagi-lagi kalau yang chat segala bisa itu kan ya udahlah pakai service aja kalau cuma chat text."
+    },
+    {
+      "start": 4493.44,
+      "end": 4501.44,
+      "text": "Nah coba, saya translate-nya bisa di-handle di sini. Dan itu ada demonya, lupa video yang mana, cari sendiri."
+    },
+    {
+      "start": 4501.44,
+      "end": 4520.44,
+      "text": "- Maksudnya demonya adalah kombine, ngereview, misalnya review, jadi sentiment analysis misalnya pakai model eksternal, tapi untuk toxicity detection misalnya bisa pakai yang..."
+    },
+    {
+      "start": 4520.44,
+      "end": 4523.44,
+      "text": "- Ini? - Pakai yang on-device."
+    },
+    {
+      "start": 4523.44,
+      "end": 4530.44,
+      "text": "- Help me write atau translation API bukannya? - Nggak, demo. Ini lagi bahas demo yang AI."
+    },
+    {
+      "start": 4530.44,
+      "end": 4548.44,
+      "text": "- Bisa juga jadi salah satu aplikasi pakai extension kita bisa gunakan untuk parental control mungkin ya, jadi anak kita bisa dimonitori tapi pakai AI."
+    },
+    {
+      "start": 4548.44,
+      "end": 4562.44,
+      "text": "Jadi ada data yang perlu dikirimkan ke mana-mana, jadi kalau dia buka situs-situs yang tidak safe, apapun itu bisa di-automatic block."
+    },
+    {
+      "start": 4562.44,
+      "end": 4573.44,
+      "text": "- Hoax detection juga tuh, hoax and scam detection misalnya ada link-link yang mencurigakan gitu, cuma suka disamarin misalnya apa ya."
+    },
+    {
+      "start": 4573.44,
+      "end": 4588.44,
+      "text": "- Klik BCO. - Atau thetick.com, misalnya cuma thetick.evilsight.com, ya nggak tahu apa-apapunnya pola-pola yang scam atau bahaya bisa di-blockir pakai extension."
+    },
+    {
+      "start": 4588.44,
+      "end": 4597.44,
+      "text": "Nah, itu contohnya kan writing assistance, proofreading, grammar correction, rephrasing, itu kan use case yang umum ya."
+    },
+    {
+      "start": 4597.44,
+      "end": 4606.44,
+      "text": "Jadi ekspektasinya adalah kalau use case yang umum, nanti kita nggak usah bayangin dong kalau ada berapa, ada ratusan atau ribuan atau jutaan website,"
+    },
+    {
+      "start": 4606.44,
+      "end": 4615.44,
+      "text": "masing-masing semua nyuruh user buat ngedownload model, pusing juga kan. Jadi kalau use case yang umum, ya pakai ini."
+    },
+    {
+      "start": 4615.44,
+      "end": 4626.44,
+      "text": "- Nah ini strategi yang menarik juga ya buat dari timnya Google Chrome, karena sebelumnya kan sudah mulai ada browser-browser yang menambahkan AI."
+    },
+    {
+      "start": 4626.44,
+      "end": 4632.44,
+      "text": "Tapi kayaknya itu server-site ya. - Server-site, pikirin kalau ini beneran nih browser-nya."
+    },
+    {
+      "start": 4632.44,
+      "end": 4641.44,
+      "text": "- Ya, misalkan ini Brave, Brave itu kan chromium-based juga kan ya. Nah, dia punya Leo namanya kan, Leo AI ini buat assistant."
+    },
+    {
+      "start": 4641.44,
+      "end": 4656.44,
+      "text": "- Art juga punya. - Iya, Art juga punya, betul. Sama, semua pada punya. - Semua pada punya, tapi itu server-site kan."
+    },
+    {
+      "start": 4656.44,
+      "end": 4665.44,
+      "text": "Jadi datanya tetap dikirimin ke server-nya mereka kan. Kalau kita mau summarize, mau apa gitu kan, ini maksudnya apa, mau catatan dan lain-lain kan."
+    },
+    {
+      "start": 4665.44,
+      "end": 4678.44,
+      "text": "Art juga ada, Art namanya adalah Max ya, M-A-X. Nah ini power up by browsing with API."
+    },
+    {
+      "start": 4678.44,
+      "end": 4687.44,
+      "text": "Wah ada suaranya, ini ketutup lagi mute-nya. - Memang nggak boleh ini mute."
+    },
+    {
+      "start": 4687.44,
+      "end": 4698.44,
+      "text": "- Kita mute-nya aja, mute-site, dah bisa kan. Nah ini bisa kan, kita taruh di to-do gitu, semacam gitu ya."
+    },
+    {
+      "start": 4698.44,
+      "end": 4708.44,
+      "text": "Tapi ini, kembali lagi, ini server-site, dia pakai chat GPT, pakai OpenAI berarti ya. - Iya, OpenAI."
+    },
+    {
+      "start": 4708.44,
+      "end": 4718.44,
+      "text": "- Jadi ini adalah salah satu strategi dari Google yang berbeda. - Kalau off-line nggak bisa ya, kalau misalnya internetnya di Google, buka browser,"
+    },
+    {
+      "start": 4718.44,
+      "end": 4725.44,
+      "text": "kalau misalnya browser lain, AI-nya nggak bisa jalan. Kalau ini bisa. Dan kelebihan lainnya, third party developer,"
+    },
+    {
+      "start": 4725.44,
+      "end": 4736.44,
+      "text": "maksudnya kita, siapapun kita yang bikin website, kita bisa manfaatin ini kan. Sementara kalau tadi yang punya ARC, Brave Den lain-lain ya nggak bisa kan."
+    },
+    {
+      "start": 4736.44,
+      "end": 4744.44,
+      "text": "Kita bikin aplikasi web app yang manfaatin itu. - Iya, seperti yang tadi sempat kita bahas,"
+    },
+    {
+      "start": 4744.44,
+      "end": 4758.44,
+      "text": "kalau yang tadinya mungkin download apa, asisten AI-nya itu 900 mega, mungkin dengan sudah ditambahin nano ini, kita tinggal nambahin sedikit mungkin gitu."
+    },
+    {
+      "start": 4758.44,
+      "end": 4767.44,
+      "text": "- Itu tadi, yang kita tambahin adalah yang spesifik dengan kebutuhan aplikasi kita kan. - Dengan kebutuhan kita, iya betul."
+    },
+    {
+      "start": 4767.44,
+      "end": 4779.44,
+      "text": "- Pengen nggak sih, suatu saat AI model ini sudah kayak docker layer gitu, jadi kayak build, kayak from, jamanai nano, dia sudah ada layer-nya,"
+    },
+    {
+      "start": 4779.44,
+      "end": 4788.44,
+      "text": "kita bisa tambahin layer-layernya kita, terus nanti dibuild jadi kayak docker file. - Oh kayak docker file."
+    },
+    {
+      "start": 4788.44,
+      "end": 4801.44,
+      "text": "- Iya, jadi docker file itu sendiri kan sudah ada layer-layer ya, jadi kalau layer 1 ada, tinggal nge-build atau nge-download layer yang belum ada."
+    },
+    {
+      "start": 4801.44,
+      "end": 4813.44,
+      "text": "- Mungkin, hari nanti, suatu saat. - Kayaknya konsepnya sudah ada deh, AI model ini ujung-ujungnya layer kan, isinya semua."
+    },
+    {
+      "start": 4813.44,
+      "end": 4816.44,
+      "text": "- Iya. - Layer-layer-layer kan."
+    },
+    {
+      "start": 4816.44,
+      "end": 4824.44,
+      "text": "- Sekarang tadi tapi belum bisa di-pastam ya kan, ya kayak si siapa, transformers.js tadi. - Betul."
+    },
+    {
+      "start": 4824.44,
+      "end": 4834.44,
+      "text": "- Baru bisa di-pipeline, belum bisa di-transfer, baru bisa di-pipelining, jadi di-chaining, mungkin kalau pakai line chain bisa di-chain ya,"
+    },
+    {
+      "start": 4834.44,
+      "end": 4842.44,
+      "text": "jadi pipenya jadi input, parser-parser segala macam, proses sampai output, itu bisa di-chaining."
+    },
+    {
+      "start": 4842.44,
+      "end": 4853.44,
+      "text": "Kalau misalnya yang saya maksud itu kan kayak docker, docker image, dia ada layer-layer-layer, jadi mungkin layer utamanya dibawah jamanai nano."
+    },
+    {
+      "start": 4853.44,
+      "end": 4870.44,
+      "text": "Terus mungkin di atasnya ada dari, I don't know, mistral, vision, vision layer, di atasnya ada layer lipstick, detection layer, whatever layer bisa ditambah."
+    },
+    {
+      "start": 4870.44,
+      "end": 4876.44,
+      "text": "- Waktu itu kalau user udah punya, dia nggak nge-download ulang ya, misalnya udah ada background remover gitu."
+    },
+    {
+      "start": 4876.44,
+      "end": 4883.44,
+      "text": "- Ya. - Incremental, incremental."
+    },
+    {
+      "start": 4883.44,
+      "end": 4890.44,
+      "text": "- Mungkin kita udah mikirkan sampai ke sana, mungkin, maybe, I don't know ya, mungkin terlalu susah."
+    },
+    {
+      "start": 4890.44,
+      "end": 4898.44,
+      "text": "- Ya sebenarnya kalau banyak yang mau, itu kemungkinan, walaupun susah, pasti suatu saat ada yang bisa bikin deh."
+    },
+    {
+      "start": 4898.44,
+      "end": 4908.44,
+      "text": "Ya kan kalau cukup banyak orang yang mau pakai dan ada business case-nya, itu pasti ya bisa lah dibuter-puter, jadi bisa."
+    },
+    {
+      "start": 4908.44,
+      "end": 4920.44,
+      "text": "- Jadi setiap, nanti suatu saat kita itu bisa nge-build our own custom model, seperti our own custom docker image, yang spesifik untuk kebutuhan kita."
+    },
+    {
+      "start": 4920.44,
+      "end": 4931.44,
+      "text": "Kan kita kalau nge-build docker image kan mungkin base-nya dari Debian, tapi di atas Debian kan ada hal-hal yang kita butuhkan, engine X atau PHP, FPM."
+    },
+    {
+      "start": 4931.44,
+      "end": 4947.44,
+      "text": "Jadi itu satu docker image. Sedangkan kalau misalnya kayak model AI, gasarnya jamanai nano, atasnya vision, vision khusus untuk KTP, KTP vision misalnya."
+    },
+    {
+      "start": 4947.44,
+      "end": 4956.44,
+      "text": "Jadi cukup satu model itu aja bisa dipakai spesifik untuk satu use case. Saya berharap suatu saat bisa seperti itu, suatu saat."
+    },
+    {
+      "start": 4956.44,
+      "end": 4965.44,
+      "text": "- Oke, oke. Kayaknya bakal seperti itu sih. Karena sekarang pun udah mulai ada, tapi ya itu berdasarkan base-nya."
+    },
+    {
+      "start": 4965.44,
+      "end": 4979.44,
+      "text": "Jadi misalkan yang jadi base model itu kan sekarang banyakan pakai lama, lama 1 atau lama 2 ya. Kemudian mixtral itu base-nya lama juga."
+    },
+    {
+      "start": 4979.44,
+      "end": 4995.44,
+      "text": "- Itu kan ini transfer learning kan maksudnya ya. Kalau dulu kan image net tuh. Image net yang punya segudang general data,"
+    },
+    {
+      "start": 4995.44,
+      "end": 5005.44,
+      "text": "terus kita transfer learning hanya untuk nge-detect spesifik data. Misalnya hanya detect muka orang saja. Itu kan transfer learning."
+    },
+    {
+      "start": 5005.44,
+      "end": 5015.44,
+      "text": "Kayaknya arahnya ke sana sih kalau yang dibaca ya. Tapi ya kita lihat saja nanti gimana."
+    },
+    {
+      "start": 5015.44,
+      "end": 5026.44,
+      "text": "Oke, sepertinya pembahasan kita kita cukupkan sampai di sini. Ada lagi yang mau disampaikan sebelum kita udahan, udah satu setengah jam lu."
+    },
+    {
+      "start": 5026.44,
+      "end": 5032.44,
+      "text": "- Masih banyak besok-besok lagi. - Masih banyak, tenang, tenang. Masih banyak ya."
+    },
+    {
+      "start": 5032.44,
+      "end": 5043.44,
+      "text": "- Ya, seru. Dan tujuan kita untuk bikin episode ini adalah untuk mencari topik I/O Extended."
+    },
+    {
+      "start": 5043.44,
+      "end": 5054.44,
+      "text": "Jadi pantangin aja I/O Extended di kota masing-masing. Apakah nanti bakal ada topik-topik yang menarik?"
+    },
+    {
+      "start": 5054.44,
+      "end": 5062.44,
+      "text": "Atau teman-teman pengen bahasnya apa nih? Pengen bahasnya apa? Yang pengen kita bahas, terutama dari sisi web ya."
+    },
+    {
+      "start": 5062.44,
+      "end": 5070.44,
+      "text": "Kalau kita ngomongin web doang, update-nya yang minggu lalu ya kita bahas. Minggu lalu kan ada AI juga sih."
+    },
+    {
+      "start": 5070.44,
+      "end": 5077.44,
+      "text": "Tapi sebagian besar udah kita bahas kayak apa, baseline, ada macem-macem ya. Ada API baru juga."
+    },
+    {
+      "start": 5077.44,
+      "end": 5088.44,
+      "text": "Nah, kalau yang ini berhubungan dengan AI karena memang ya si Google I/O-nya memang fokusnya masih kesana."
+    },
+    {
+      "start": 5088.44,
+      "end": 5098.44,
+      "text": "Sampai tahun ini, 2 tahun belakangan fokusnya kesana untuk mengarahkan kita, untuk mulik ya, untuk mulik AI."
+    },
+    {
+      "start": 5098.44,
+      "end": 5109.44,
+      "text": "Dan ini sih kayaknya dobaunya buat on-device AI, ini kelihatannya bakal di arah-arahnya, bakal di-push."
+    },
+    {
+      "start": 5109.44,
+      "end": 5116.44,
+      "text": "Karena salah satunya indikatornya adalah, bukan gimik sih, cuma penggunaan istilah web AI,"
+    },
+    {
+      "start": 5116.44,
+      "end": 5122.44,
+      "text": "sampai apa sih, maksudnya di presentasi yang utama yang buat artikel itu tadi,"
+    },
+    {
+      "start": 5122.44,
+      "end": 5128.44,
+      "text": "ada satu stream yang tulisannya punya web AI, tidak sama dengan berbeda dengan cloud AI."
+    },
+    {
+      "start": 5128.44,
+      "end": 5132.44,
+      "text": "Jadi kayak ada pembedaan antara web AI dan cloud AI."
+    },
+    {
+      "start": 5132.44,
+      "end": 5140.44,
+      "text": "Nah web AI itu istilah yang digunakan untuk fokus ke on-device tadi, client-side."
+    },
+    {
+      "start": 5140.44,
+      "end": 5145.44,
+      "text": "Jadi ya abis itu dia njelasin pro-contra dan lain-lainnya yang tadi udah kita bahas."
+    },
+    {
+      "start": 5145.44,
+      "end": 5151.44,
+      "text": "Terus emang di-encourage kalau kalian bikin sesuatu ngulik pakai on-device AI tadi,"
+    },
+    {
+      "start": 5151.44,
+      "end": 5153.44,
+      "text": "saya share dengan hashtag web AI."
+    },
+    {
+      "start": 5153.44,
+      "end": 5163.44,
+      "text": "Nah ini tuh ngingetin kayak bikin inget dulu PWA kan, Progressive Web API, itu juga kan maksudnya itu konsep."
+    },
+    {
+      "start": 5163.44,
+      "end": 5169.44,
+      "text": "Maksudnya sedangkan fitur-fiturnya kayak bisa di-install, atau misalnya ada loading spinner-nya,"
+    },
+    {
+      "start": 5169.44,
+      "end": 5174.44,
+      "text": "misalnya secara UX dan performance bagus, itu kan hal-hal yang mungkin umum,"
+    },
+    {
+      "start": 5174.44,
+      "end": 5180.44,
+      "text": "mungkin udah ada yang bikin sebelumnya, cuma semua itu dirangkum dalam satu konsep PWA yang dipus."
+    },
+    {
+      "start": 5180.44,
+      "end": 5186.44,
+      "text": "Nah kelihatan web AI ini bakal jadi hype yang sama deh."
+    },
+    {
+      "start": 5186.44,
+      "end": 5193.44,
+      "text": "Untuk mengarah ke itu tadi on-device AI, experience-nya ya dengan segala plus minus-nya,"
+    },
+    {
+      "start": 5193.44,
+      "end": 5197.44,
+      "text": "ada privacy, ada blablabla, dan mungkin kombinasi dengan hybrid server,"
+    },
+    {
+      "start": 5197.44,
+      "end": 5202.44,
+      "text": "cuma kelihatan web AI ini bakal jadi hype. Ramalan."
+    },
+    {
+      "start": 5202.44,
+      "end": 5211.44,
+      "text": "Tapi saya apresiasi lo, saya apresiasi inisiatif di Google ini dengan menyebut kata web AI yang lebih general,"
+    },
+    {
+      "start": 5211.44,
+      "end": 5220.44,
+      "text": "instead of jamanai web AI atau JMA web, jadi lebih inklusif menurut saya."
+    },
+    {
+      "start": 5220.44,
+      "end": 5226.44,
+      "text": "Lebih generic, jadi nggak, ini bukan tentang Google sih sebenarnya."
+    },
+    {
+      "start": 5226.44,
+      "end": 5228.44,
+      "text": "Bukan hanya tentang Google."
+    },
+    {
+      "start": 5228.44,
+      "end": 5232.44,
+      "text": "Atau tentang Google, tapi bukan dengan cara yang kasar ya."
+    },
+    {
+      "start": 5232.44,
+      "end": 5235.44,
+      "text": "Maksud saya dengan cara yang kayak cuma monopoli doang."
+    },
+    {
+      "start": 5235.44,
+      "end": 5241.44,
+      "text": "Ya kan pada akhirnya itu tadi kayak sintaksnya itu kan bisa untuk model dari,"
+    },
+    {
+      "start": 5241.44,
+      "end": 5248.44,
+      "text": "ya harus jamanai kan, bisa dipakai dengan model dari tempat lain, model lain bisa di-convert juga."
+    },
+    {
+      "start": 5248.44,
+      "end": 5255.44,
+      "text": "Kan itu secara nggak langsung memperluas penggunanya Google Chrome kan."
+    },
+    {
+      "start": 5255.44,
+      "end": 5263.44,
+      "text": "Banyak developer bikin aplikasi yang bagus yang jalannya, optimisinya sekarang di Chrome, ya udah."
+    },
+    {
+      "start": 5263.44,
+      "end": 5271.44,
+      "text": "Mereka ikut untung, tapi dengan cara yang luas lah, nggak sempit dalam arti promote jamanai doang."
+    },
+    {
+      "start": 5271.44,
+      "end": 5278.44,
+      "text": "- Yes, jangan lupa juga walaupun di client-side, tapi kita bisa pakai hybrid juga kan."
+    },
+    {
+      "start": 5278.44,
+      "end": 5280.44,
+      "text": "- Itu tadi emang di inkor."
+    },
+    {
+      "start": 5280.44,
+      "end": 5285.44,
+      "text": "- Incor dengan device sama server-side ya, jadi bisa dua-duanya. Itu nggak mesti hanya,"
+    },
+    {
+      "start": 5285.44,
+      "end": 5288.44,
+      "text": "\"Wah kalau jalan di client doang, berat doang, gede\", gitu ya."
+    },
+    {
+      "start": 5288.44,
+      "end": 5290.44,
+      "text": "Mungkin kita bisa server-side-nya mungkin..."
+    },
+    {
+      "start": 5290.44,
+      "end": 5292.44,
+      "text": "- Kita tergantung kebutuhan, ya kan?"
+    },
+    {
+      "start": 5292.44,
+      "end": 5294.44,
+      "text": "- Tergantung kebutuhan, betul."
+    },
+    {
+      "start": 5294.44,
+      "end": 5299.44,
+      "text": "Oke, mungkin untuk episode ini sekian dulu."
+    },
+    {
+      "start": 5299.44,
+      "end": 5304.44,
+      "text": "Kalau mau ada episode follow-up, boleh silahkan teman-teman komen ya."
+    },
+    {
+      "start": 5304.44,
+      "end": 5310.44,
+      "text": "Kalau masih suka tentang AI, komen."
+    },
+    {
+      "start": 5310.44,
+      "end": 5314.44,
+      "text": "Kalau bosan tentang AI, komen juga."
+    },
+    {
+      "start": 5314.44,
+      "end": 5316.44,
+      "text": "Jadi kita bisa ganti."
+    },
+    {
+      "start": 5316.44,
+      "end": 5318.44,
+      "text": "- AI mulu framework kek."
+    },
+    {
+      "start": 5318.44,
+      "end": 5321.44,
+      "text": "- Apaan sih ini? AI-AI mulu gitu ya."
+    },
+    {
+      "start": 5321.44,
+      "end": 5323.44,
+      "text": "- Ada tanyaan kek."
+    },
+    {
+      "start": 5323.44,
+      "end": 5330.44,
+      "text": "- Ada yang, mungkin ada yang parno gitu, bakal tergantikan sama AI, jadi takut gitu."
+    },
+    {
+      "start": 5330.44,
+      "end": 5336.44,
+      "text": "- Ada pertanyaan klasik banget. Coba nanti tanya ke Gimar apakah aku akan digantikan oleh AI."
+    },
+    {
+      "start": 5336.44,
+      "end": 5338.44,
+      "text": "Ya, nanti ditanya sendiri."
+    },
+    {
+      "start": 5338.44,
+      "end": 5343.44,
+      "text": "- Ya, silahkan ke sana.in/ngobrolinweb, ya."
+    },
+    {
+      "start": 5343.44,
+      "end": 5348.44,
+      "text": "Atau ada pertanyaan-pertanyaan seputar apapun, nggak mesti hanya..."
+    },
+    {
+      "start": 5348.44,
+      "end": 5352.44,
+      "text": "Dibahas dong di episode ini, nggak mesti mungkin pertanyaan umum aja."
+    },
+    {
+      "start": 5352.44,
+      "end": 5354.44,
+      "text": "Silahkan tanyain aja, kita diskusi di sana."
+    },
+    {
+      "start": 5354.44,
+      "end": 5356.44,
+      "text": "Mungkin untuk malam ini, udahan dulu."
+    },
+    {
+      "start": 5356.44,
+      "end": 5362.44,
+      "text": "Terima kasih banyak buat semuanya yang sudah menonton dan sudah meramaikan sesi malam ini."
+    },
+    {
+      "start": 5362.44,
+      "end": 5368.44,
+      "text": "Kita ketemu lagi minggu depan dengan topik-topik yang berbeda apakah AI lagi atau nggak."
+    },
+    {
+      "start": 5368.44,
+      "end": 5371.44,
+      "text": "Tunggu aja ya hari Selasa malam."
+    },
+    {
+      "start": 5371.44,
+      "end": 5374.44,
+      "text": "- Kita juga nggak tahu. Nanti kita tanya AI."
+    },
+    {
+      "start": 5374.44,
+      "end": 5377.44,
+      "text": "- Nanti kita tanya sama AI."
+    },
+    {
+      "start": 5377.44,
+      "end": 5382.44,
+      "text": "Selamat malam, selamat istirahat, sampai jumpa minggu depan. Bye-bye."
+    },
+    {
+      "start": 5382.44,
+      "end": 5384.44,
+      "text": "- Bye."
+    },
+    {
+      "start": 5386.44,
+      "end": 5390.44,
+      "text": "Terima kasih telah menonton!"
+    }
+  ],
+  "fullText": "*musik* Halo, halo, halo. Selamat malam. -Selamat malam. -Selamat hari Selasa. Walaupun sekarang kita bukan hari Selasa. Walaupun kita rekamannya bukan hari Selasa, tapi temen-temen nontonnya di hari Selasa. -Hari Selasa, iya kan? -Hari Selasa, waktunya apa? -Waktunya nge-rollin web. -Nge-rollin web. Harusnya hitung dulu ya, one, two, three, gitu kali ya. Yaitu, ada countdown-nya kayak tadi. Iya, harus ada countdown-nya. Nah, iya kita rekaman lagi karena saya-nya gak bisa berhalangan, jadi gak bisa live. Jadi, malam hari ini kita sesi rekaman. Kita mau bahas apa malam ini? Kita mau lanjut kali ya. Bahas kemarin kan belum tuntasnya tentang AIO ya. Nanggung tuh, dari AIO 2024 apa aja, update-update-nya. Kemarin itu kita bahas kebanyakan seputar web. Walaupun kita udah sempet bahas sekilas tentang AIO juga ya. Cuma lebih banyak ke, kayak Baseline, Interop, CSS, JavaScript. -Speculation API, Speculation Rule API. -Speculation Rules API. Iya, Speculation Rules. -Sama itu ingat gak, yang di DevTools? -DevTools yang suruh ikuti. -Iya, yang gagal demo pertama kali. -App Angular Mobile. -Iya. -Penggular Mobile. Apa namanya, itu ya, Insight, DevTools Insight ya. Itu udah dipersenjatai dengan AI juga. Dan memang kayaknya tema utama dari Google I/O tahun lalu sama tahun ini ya. -Dua tahun. -Jauh dari AI ya. -Dua tahun terakhir. -Dua tahun terakhir. Dua tahun terakhir semuanya tentang AI. Ya, sepertinya Google sedang mengejar ketertinggalan ya dari perusahaan-perusahaan lain ya. -Iya, karena tuntutan. -Walaupun sebenarnya, iya. Walaupun sebenarnya, movement atau pergerakan ini ya dimulai sebenarnya dari Google juga. -Iya, gak ketinggalan. -Si AI ini kan. -Aduh. -Bikin, apa, bikin GPT, dulu GPT-1 ya. GPT-1 itu kan mulainya dari paper yang diterbitkan oleh engineer Google. -Attention is all you need. -Attention is all you need, iya. -Google-nya kayak cikgu diinget. -Gampang diinget ya. -Sekarang semua model yang pakai, apa, belakangnya T, GPT, blablabla apapunnya ada T, Transformers, itu berdasarkan konsep yang dulu dirumuskan. Cuma mungkin bukan ketinggalan di AI-nya, tapi buat produk user facing-nya kali ya. Sekarang yang lagi tiga berbesar-besaran sama Google. Nah, sekarang Google baru jor-joran semua lini produk fitur yang ada AI-nya disebut sebagai Gemini kan. Ada yang apa namanya, yang gemini.google.com, ada apa lagi itu, ada Gemini sebagai LLM-nya, modelnya ada yang Gemini di cloud, yang pakai Vertex lah, ada Gemini yang ada di Gmail, di Google Docs, di mana-mana, namanya Gemini. -Sama satu lagi yang Google Open Source. -Karena kan emang diingetnya tertulis Gemini itu a family of models. Jadi kayak Gemini itu kayak payungnya, modelnya banyak, variasinya, terus kayak ada yang tokennya berapa lah, apanya kemampuannya lain-lain, ada yang multimodal, ada yang buat code assistant, blablabla. Nah, terus adeknya, adeknya Gemini ada Gema ya. Gema, itu versi open access-nya, bukan open source. Nah, ini muncul juga, unik sih. Jadi branding-nya mereka, mereka menekankan bahwa Gema itu bukan open source. Nggak tahu kenapa, nanti cari artikelnya deh. Jadi apa, tapi open access. Open access dalam arti, ya di upload ke Hugging Face, model-modelnya bisa diakses. Cuma open source itu katanya ternyata berkait juga ke atribusi, terus distribusi kalau digunakan ulang. Jadi mereka nyebutnya open access. Gimana-gimana? Lebih tepatnya, ini sih kalau misalnya dibilang open source berarti training data yang untuk men-training Gema-nya juga di open. Tapi enggak kan. Oh gitu, iya iya. Yang di open itu kan cuma binfile-nya aja. Iya, udah jadi binary gitu, tinggal pake. Iya, iya, dan layer-layernya sudah ada input layer sama output layer-nya bisa dimodify, tetapi layer tengahnya udah nggak bisa, itu modelnya itu sudah seperti itu. Kayaknya semua juga begitu ya yang dari Gema? Grok sampai ininya loh, sampai training data-nya di open. Oh, grok ya. Grok-nya Twitter, yes. Oh iya kalau itu open source, betul. Kalau itu open source. Kalau yang meta juga open access, dia tidak open source. Mistral juga open access kan ya. Open source, coba kita lihat. Mistral dari apa C? Open source, our three open source model. Open source berarti kalau mistral, ada yang open source, ada yang model jadi kayak gemini juga kan si mistral ini kan? Ada yang namanya mistral, ada yang mixtral, bener nggak? Kenapa namanya berbeda-beda? Mistral itu yang siap pakai. Mistral itu yang service, berbayar, jadi SDK kayak geminilah, kayak gemini. Miku-nya kita langganan, kita dapet API key. Open pun ada macam-macam ya varian-nya. Ada open source, ada yang open access. Phi 3 yang dari Microsoft tuh, ada juga. Tapi nggak tahu, itu kayaknya open access sepertinya. Nggak sih, udah phi 3 udah cukup lama, yang lama kan phi 2. - Oke. Ya, jadi malam hari ini kita kembali membahas AI. - Nah hubungannya sama kerjaan kita sebagai web dev ya. Apa aja yang istilahnya, pekerjaan kita terdampak apa aja sih? Apa aja yang bisa kita manfaatkan untuk membangun aplikasi web? Atau ada aplikasi-aplikasi web yang ditenagai oleh AI, kira-kira ya? - Khususnya yang di-announce di I/O kemarin? - Khususnya yang di-announce di I/O. - Kalau itu luas banget ya, kalau semua. - Luas. - Tapi kan ini berguna sih, ini kayak sampel aja. Maksudnya kalau Google bikin produk yang A, B, C, itu kan pasti berarti kecenderungan trendnya ke arah SIPU. Kalaupun kita nggak pakai produk Google, misalnya nanti pakai produknya open AI atau apalah, iya dijamin kita tetap bakal berharap untuk bikin produk yang, maksudnya jenis-jenis aplikasi yang setara lah, yang mirip. - Oke, nah yang pertama kita akan bahas, ya ini recapnya ya. - Zoom in. - Zoom in, kurang gede. - Isi artiklenya. - Isi artiklenya. Kok jadi bunyi ini? - Kenapa bunyi duit? - Nah, lihat ini. Ini ya, jadi wrap-up kesimpulan atau beberapa hal yang menarik ya. Yang pertama adalah, ini ada videonya, teman-teman bisa nonton juga. - Nonton sendiri. - Judulnya adalah The Future of Web Apps. Nah, ini apa aja yang akan dibahas. Yang pertama adalah, yang di highlight itu bagian dari WebAssembly dan WebGPU. Kenapa? Karena ternyata sekarang kita bisa mengakses dua apa ya, bisa punya dua jenis app atau dua arsitektur. Yang pertama adalah yang server-site yang memanfaatkan AI tapi di cloud. Jadi proses generasinya, kalau gen-AI kan proses generasinya, itu terjadi di cloud atau di server. - Service. - Dari web itu cuma kirimkan data, text, semuanya text sih. - Atau gambar. - Gambar pun diubah jadi base64, text juga. Jadi semua yang lewat itu text. - Pasti text. Terus habis itu ya responsnya bisa bentuk text, bisa bentuk gambar walaupun ini tetap itu ya, binary ya, atau text ya. Tapi intinya adalah, ada proses pengiriman data ke server, dan proses server mengirimkan data kembali ke klien. Klien di sini. - Responsnya juga di aplikasi kita. - Request response. - Request response. Mau web, mau mobile, itu juga bisa ya, bisa memanfaatkan arsitektur cloud AI. Nah, ada satu arsitektur lagi yang muncul, yaitu proses semua prosesnya terjadi di sisi browser atau di sisi klien. Nah, di sini ada apa yang di highlight adalah Jemawweb ini, jadi open model. - Itu yang lagi pengen saya pulik, Jemawweb. - Guys, open model dari Google yang bisa jalan di browser. Menggunakan user device. Ini kan web assembly ya, kita udah pernah bahas cukup dalam tentang web assembly, apa yang membedakan antara web assembly dengan biasa gitu ya. - Nah, itu penjelasannya kayaknya di atas deh. Ke atas dikit. - Ini ya. - Scroll ke atas dikit, atas lagi. Nah, itu kan yang ditekankan adalah klien site di browser web, pakai, bisa pakai CPU atau GPU. Nah, terus itu teknologinya wasm sama web GPU. Jadi, kalau fokusnya dari cloud ini, ya itu, apa, web assembly sama web GPU. Lanjut. - Cuman ya, Jemawweb di talk itu belum ini loh, dia nggak ngasih tau loh caranya, mungkin karena saya belum explore lagi lanjut. Ada yang sudah lihat antara yang tadi? - Belum. - Ada nggak sih? Belum ya? Cuman ngasih kayak ini link wasm, ini link Jemawweb, silahkan pakai gitu. Belum coba sih saya. - Ada kayaknya, sekilas liat nonton videonya ada kayaknya. Jadi di video ini atau di artikel ini ada 3 hal yang utama, yang pertama adalah bagaimana cara menjalankan LLM di browser. Kedua, ada sebuah tools atau aplikasi baru yang namanya Visual Blocks, ini seperti no-code gitu tapi buat LLM ya. Yang ketiga, bagaimana kita sebagai web developer bisa menggunakan JavaScript untuk berinteraksi dengan web AI atau si LLM yang jalan di browser gitu ya. Yang pertama dulu ya, ini GEMA ya. Tapi ada caveatnya loh nanti, mungkin kita bahas caveatnya tentang si LLM di browser ini. Karena nggak semua model bisa gitu. Yang baru bisa itu GEMA sama Falcon atau apa gitu disebut, ada beberapa. Nanti kita bahas. Mungkin ada di artikel ini. Mungkin ada. Kalau nggak salah minggu lalu kita udah sempat running juga ya yang di browser ya. Yang LLM itu, udah sempat running juga. - Oh itu web GPU ya kita? Iya, betul. Iya, itu pakai teknologinya web GPU. Jadi kenapa ini bisa memungkinkan karena salah satunya adalah web GPU. Jadi browser punya access, punya free village, sekarang punya free village untuk mengakses GPU di komputer kita masing-masing atau komputer klien kita gitu, komputer yang mengakses aplikasi kita. Komputer yang membuka aplikasi kita dan dijalankan, LLM nya dijalankan di GPU masing-masing klien gitu. Kira-kira kayak gitu. Dengan LLM jalan di device, yang pertama keuntungannya adalah code saving. Sama seperti web assembly juga ya, code saving. - Nah berarti masuk pro dan kontra aja nih. Pro nya berarti kan ini nih. - Tapi memberatkan si user kita. - Nah itu kontra nya user harus membuat. - Iya, user harus mampu menjalankan atau punya web GPU. Kalau nggak punya dia nggak bisa jalankan. - Bagi teman-teman yang belum nonton videonya, kalau nanti nonton videonya sebagai pe-contohnya yang dia sebut itu adalah bayangkan kalau kita punya aplikasi untuk video call yang ngeblur background. Iya kan? Yang sering kita pake, eh kan nih pake nih sekarang. - Ngeblur background, iya kan? - Iya dia bikin hitungannya ya, satu frame. Satu menit berapa frame dan kira-kira satu jam berapa kali meeting dan perhitungan. Berarti total-total contohnya satu tahun bisa 52 billion frame yang diproses oleh server. Yang artinya terjadi cost disitu. Ada cost gede banget ya mengirimkan data, terus proses server balikin data untuk ngerender frame yang ngeblur di web. - Iya bayangin berapa biayanya buat ini, kita aja baru 5 menit. Ini kan udah berapa frame kan yang harus diproses, bayangin kalau pakai service terpisah. Nah ini hal yang bisa digunakan bisa nge-leverage fitur di device client side kita sendiri. - Terus kedua, latensi kan? - Latensi, iya. - Jadi ada pronya tadi biaya, performa, maksud saya jadi nggak harus nunggu latensi, sama ketiga itu tuh privacy kan. - Privacy yang paling penting sebenarnya ini ya. Salah satu yang penting ya. Jadi data kita itu hanya data user, ya hanya berkutat di komputer user. - Di prosesnya di device user sendiri. - Gak dikirim. Ini berguna terutama di tempat-tempat yang punya undang-undang perlindungan data ya. Kan kadang urannya agak ketat, harus ada konsennya, mungkin sepertinya letaknya harus di mana. - Seperti UITE kita kan harus dihormati. - Emang UITE ngatur perlindungan data? - Ngatur bro, ngatur. Nanti kita undang ahlinya deh. - Ahli ya, ahlinya undang-undang. - Ya gitu. Nah itu pronya apa tadi, biaya, performa, sama latensi user. - Nah sekarang kekurangannya udah bahas pro, ya nanggung bahas kontra dulu. - Kontra nya ya tadi kan, memberatkan si user kan, user kita. - Beratnya dalam hal pertama harus download modelnya. Itu kan, maksudnya berat itu kan macam-macam. Pertama harus download modelnya kalau pakai model tertentu ya. Nanti cuma ada, kita bakal bahas lagi, ada yang udah built in. Nah itu pertama kalau pakai model custom, harus download modelnya. Kedua berat di itunya ya, tuntutan device-nya ya. Sekarang berarti tuntutan kayak apa? Kalau pakai device yang cradle mode. Kau mending-mending ini, potal agak tuntutan mungkin. - Dulu sempet gak kalau misalnya waktu masih awal-awal AI ini, kalau kita pakai zoom, mau buat ganti background, dia kan masih berat banget dan dia hanya memperbolehkan kita pakai green screen. Jadi gak bisa pakai background sembarangan. Ya, jadi AI-nya masih di train hanya pakai green screen. Jadi nanti, bahkan ada itu di test dulu kalau di enable, bisa gak gitu. Dan pakai CPU, resource-nya gede banget. Jadi bisa panas CPU-nya. Sumpat keluar juga, after itu keluar ada satu aplikasi yang untuk video call begitu, yang terparti, jadi dia mengganti kamera sebelum di plug-in ke zoom atau ke jimny, segala macem. Saya lupa nama aplikasinya itu. Dan dia lebih mewah. - Snapcam? Snapcam bukan? - Bukan, apa AI gitu. Lupa deh, sudah kan gak pakai lagi. - Tapi dia fungsinya memproses image ya berarti? Memproses image langsung dari CPU dan GPU, dia lebih langsung di device, jadi gak dikirim ke server. Bahkan bisa voice isolation juga jaman itu. Kemudian ternyata si zoom makin mahal, makin baik, atau AI ini makin mahal. - Itu di APCC kali sih. - Iya, bahkan Google Meet lebih bagus lagi kan? Lebih keren lagi kan? - Iya, sudah jauh lebih baik kan. Belum lagi device, dulunya kameranya 480p, kemudian 720p, sekarang sudah 1080p kan. Jadi makin besar image-nya, makin berat juga kerjanya. - Berarti tuntutannya tinggi untuk user kita, kalau kita bikin aplikasi untuk production ya, kita harus profiling, kita harus tahu kan user kita jenis yang kira-kira kuat atau enggak alatnya. Soalnya kan risikonya juga dibagi dua. Either device-nya user gak support sama sekali, jadi gak bisa pakai. Itu negatif juga satu. Atau alternatif kedua, sebetulnya kalau pun gak jalan di GPU, bisa jalan di CPU ya yang kita bahas kemarin itu minggu lalu. Cuma misalnya berat, itu panas, hang di tengah-tengah. Itu secara UX jelek banget dan frustrating kan, mengganggu. Mungkin misalnya di tengah-tengah meeting lagi penting-pentingnya karena prosesnya terlalu berat, laptop-nya atau HP-nya user hang. Nah itu berarti salah satu hal negatif yang perlu diantisipasi ya. - Mungkin ada fallback-nya, oh kalau bisa dicek dulu, oh ini CPU kurang mumpuni, misalkan mau gak mau harus pakai server-side lagi. - Oke service. Ada videonya di I/O yang bahas soal itu. Yang videonya Kenji dan Maud. Nah cari sendiri lah nanti. Pokoknya konsepnya emang seperti itu. Jadi cuma masalahnya sih kalau itu karena demo lebih simpel ya. Jadi cuma kalau supported pakai on-device di browser, pakai yang on-device. Kalau pakai browser lain, misalnya dibuka dari bukan Chrome, karena itu konteksnya buat built-in AI yang di Chrome sih agak lain. Tapi misalnya bisa diterapin juga kalau misalnya gak support, ya udah, nge-call service kayak biasa kayak yang sebelumnya. - Betul. Jadi di sini kita bisa memanfaatkan Gemma 2 billion parameters ya, bisa di-download tersedia di Kaggle. Kemudian dari sisi, ini dari sisi browser-nya ya, Chrome ya, ada menyediakan interface API ya. - Dan itu menariknya bisa dipakai bukan cuma buat Gemma, bisa dipakai buat itu. - Iya, buat Microsoft V2, Falcon RW1B, Stable LM3B. - Iya, ini maksud saya. Yang baru supported itu baru ini. - Nah, kalau yang lain, kalau ngerti cara convert-nya, konon bisa di-convert juga model lain. Cuma masalahnya, ini bukan portakone yang umum buat web-dev. Ini bukan ranah web-dev ya, pakai Python, MediaPipe. - Tapi ujung-ujungnya apa? Kalau kalau gak salah, dia bisa convert-nya meskipun mau, ya saya gak tahu mau coba lagi kenapa bisa atau tidaknya. Bisa gak sih convert-nya pakai TFJS bisa gak sih? Gak tahu ya. - Di videonya itu diterangin sih, apa, nge-convert-nya gimana. Cuma gak masuk karena gak paham. - Tahu saya dia bakal di-convert jadi TF Lite sih sebenarnya ujung-ujungnya. - Oh gitu? - Iya, TF Lite ini kan? - Iya. Semua model yang bisa di-convert jadi TF Lite itu ya untuk ujung-ujungnya, karena belakangnya itu jadi TensorFlow.js tetap. Di belakangnya itu TensorFlow.js yang bisa ngelod TF Lite. TensorFlow.js gak bisa ngelod model-model yang keras-keras model itu gak bisa langsung harus di-convert. Itu yang setau saya mungkin saya salah. - Kayaknya iya. Kayaknya benar. - Iya kan? - Betul, betul. - Dan saya pernah nge-convert itu pakai Python. Gak mesti harus pakai Mediapipe ya. Saya pernah nge-convert itu pakai TensorFlow yang di Python untuk nge-convert itu. Cuman ini sedikit, bukan sedikit, totally mungkin sudah berbeda banget sama pengetahuan saya 3 tahun yang lalu untuk nge-convert-convert model ini. - Kalau misalnya kalau yang contoh simple-nya, ada demo-nya tuh? Yang dari Tok itu dan dari artikel itu kan tadi ada video yang contohnya. Ada demo-nya? Coba dibuka. - Ada demo-nya? - Iya, di private chat. - Yang mana? Yang screenshot? - LLM Inference. Gak, yang paling bawah. - Oh, oke. - Inference itu apa sih sebenarnya hatinya? - Menebak. - Nah, ini kodenya. - Yang belum tahu? - Gak tahu. Itu yang didemo-in di talk-nya Jason Maes sama Nali tadi. Maksudnya mereka bilang inference tapi gak ngejelasin in detail inference itu apa. - Wait, sebentar. Barusan saya coba si ini kita pakai tools apa? Pakai tools Streamyard kan? Tadi saya coba background-nya di blur sama touch-up experience beberapa saat. Dia pakai GPU loh. Berarti si Streamyard ini pakai web GPU. Kelihatan GPU saya ini turun. - Naik. - Naik-turun ya? - Tadi naik. Setelah saya matiin turun. - Kelihatanya udah jadi standard practice sih. Kalau Zoom dan Neve pakai kayak gitu, ya kemungkinan Streamyard dan lainnya juga semua bakal pakai kayak gitu juga kan. - Oh, ini bisa dijantar ya? - Nah, itu kode demo-nya. Ya bisa. Ya live demo-nya juga bisa tuh. Buka link yang di bawahnya di private chat. Kalau pengen lihat kosnya bentuknya kayak gimana. - Oke. Kita lihat ya. MediaPipe Studio Web Apps. Nah, itu yang itu screenshot-nya yang tadi ada di artikel IO Crap App itu kan. Ada screenshot. - Yang ini, yang ini. Yang di atas ini. Yang ini kan. - Atasnya. Aha, iya. Nah, cuma itu kan video doang. - Terus sekali. - Gak bisa dicoba beneran. - Wait, Mas Tiza. Coba buka DevTool-nya sekarang. - Wait, wait. Jangan pencet apa-apa. - Buka DevTool. Karena saya pengen tahu, saya pengen tahu model-nya segera apa di network. - Gak, kita harus download dulu sendiri. Udah punya kan? Itu model selection. Choose a model file. - Iya, sengaja. Biar kelihatan di kanan. Jadi jangan di-select dulu. Sekarang boleh select kan? - Ya, select. Download dulu ya. - Download dulu ya? - Download dulu. Jadi itu kita literally download dulu. - Oh. - Oh. - Iya. - Bukanya udah punya. Mas Tiza. - Yah. - Belum ya? - Hah? Punya ya? - Gede loh ini. - Udah pernah pakai kan? - Udah pernah pakai kan? - 2 giga. Berapa giga nih? - Gak tahu. - Or just download model file by preferring with Google or email. - Email-nya Mas Tiza di zafahmi@gmail.com. - Iya. - Luh. Oh, ada agreement segala ya. - Harus isi dulu konsen. - Iya. - Konsen. - Duh, kesini lagi dia. - Responsibility AI. - Responsible AI. Download as star. Itu download yang bawah. - Bawah deh. - Download, tar. - Click download. Click download. Tadi. - Uh, 1,35 giga. - Nah, terus paling bawah. Nah, itu dia. - Itu light loh ini-nya. TensorFlow light. Tadi. - Iya. - Itu tuh, tuh, tuh. - Itu kecil ya. - Itu kan TensorFlow light tuh. - Iya, itu yang kecil. Ada light 2B, 2 billion GPU, INT4. Ada yang 7B. 7B berapa besar ya? - INT4 tuh artinya apa ya? - Integer. - Integer. - Kalau saya taunya Q4 itu kan quantization. - Quantization. - Quantization. - 4 bit. Kalau INT apa ya? - Iya. Oke. Sambil menunggu, lagi download. Nggak tahu bisa selesai apa nggak. Ini kan ada Web Elementor Inference API kan. Ini tuh apa ya? Google AI Edge. - Edge itu berarti on-device ya. - Nah, ini nyebelin sih. Maksudnya, kita kan dulu Edge Worker, blablabla. Itu kan maksudnya server yang kayak disentralize kan, yang bisa ada replikanya di berbagai tempat. Nah, ternyata apalagi kalau di dunia AI, apapun yang ada kata Edge, itu maksudnya on-device. - Oh, oke. - Nyebelin ya. Nyebelin, apalagi ada browser namanya Edge. Dulu setahu saya itu, Edge itu DCDN. Karena di Edge Computing, DCDN kan. - Oh, Edge Computing. - DCDN kan maksudnya distribute. Jadi, computingnya kita itu bisa di Edge, jadi nggak perlu ke load balancer. Jadi, anggap image resize, tahu ya. Jadi, kalau misalnya image kita besar, dan kalau di web mau pakenya resize jadi yang kecil karena source set, itu bisa dilakukan di Edge Computing. Jadi, di URL kita yang di Edge, bisa ngeresize image di Edge itu, jadi nggak perlu balik ke server side. Itu bisa. Terus ada browser namanya Edge. Apalagi kalau yang namanya Edge. Sekarang Google AI Edge. - Bukan cuma Google. - Bukan cuma Google sih. - AI-nya. - Chat GPT juga Microsoft-nya lah. Itu punya produk Edge juga. Lupa nama panjangnya apa, cuma pakai istilah Edge. Jadi, bukan computing AI-nya ada di CDN lagi, tapi di on-device. - Ini mungkin apa ya pemahaman ekstrimnya. Maksudnya kayak bego-begoannya. Bentuk CDN yang paling ekstrim adalah semua device user itu dianggap sebagai resource. Jadi, CDN kan kayak buat ngeserve dan buat pemolah yang disebar jadi banyak. Nah, ini device user semua dianggap sebagai CDN. CDN untuk satu orang, CDN untuk dia sendiri. - Oke. - Ada Wasm-nya 10 mega. - 10 mega ini Wasm. GNI Wasm internal. - Terus dia baca 1 giga itu model ya? - Iya, 900 sekian mega. - Nah, itu tadi yang dokumentasi LLM Inference itu, ini adalah dokumentasinya kode GitHub yang tadi, ingat kan tadi ada GitHub yang sample demo-nya, yang live demo-nya lagi kita jalanin itu. Jadi, 3 hal ini sepaket. - Yang ini ya, ini demo-nya. - Masih belum... - Masih masih... - Iya kan LLM Inference. - 1 giga untuk aplikasi kita sih sakit ya? - Ini error tapi. - Jadi user lah, \"Ya, error. Kok error?\" - Kayaknya salah deh Mas Liza. Mas Liza download-nya TAR kan yang choose mode-nya TAR. - Harus di-unzip dulu ya? - Oh, unzip ya. - Untar, untar dulu, untar. Universitas Taruh Manegara. - Universitas TAR GZ. - TAR GZ. Salah ya, kita refresh dulu ya, oke. Berarti ini implementasinya ini ya? - Iya. - Engga. - Iya ini contohnya, maksudnya ini kode-nya. - Nah, yang saya nggak suka itu adalah dia sudah langsung JS Deliver itu loh. Gak ada... - Mau sendiri ya, mau lokal ya, mau lokal. - Iya. - Belum cari sih, saya baru kayak... - Eh, ada bentar. Tadi di dokumentasi LLM Inference-nya, coba dibuka. Kayaknya tadi sekilas liat NPM install. - Nah, zoom-in sambil turun. - Oke, nice. - Tapi tetap di bawahnya, di bawah JS Deliver. - Sama nggak sih? Kayaknya sekilas kayaknya sama. - Ya, to deploy, for all NPM package for local staging. - Sama sih, sama. Kenapa? Kenapa nggak bisa dipublish? Karena biar nge-berat. Tuh, tulisannya soalnya install the required package for local staging, tapi bawahnya to deploy to a server, suruh pakai JS Deliver tadi itu. Kenapanya nanti, nanti di page kita tanya sama Mas Jason. - Kita coba sendiri ya. - Ya selain coba sendiri, kalau kenapa kan kita kedu tanya ya ke orangnya. - Jason Rush. - Jason Rush. Detek self-environment, GCS report. Apa ini? Belum jalan apa-apa, udah muncul macam-macam. Tuh udah jalan tuh, GPU model, berarti udah detek GPU tuh. Eh, wait, wait, wait, console, console, console. Yah banyak banget analitiknya. - Yaiyalah. - Graph Successful is start running, terus kemudian. - Dia detek GPU, fast tuning, we know grad, apalah gitu. - Eh udah bisa tuh, coba. - Gak ada intinya, nggak ada enter lah. - Coba enter langsung bisa nggak? - Submit button. Ini text area? Oh bukan ya. - I am a large language model, blablabla. Coba, what is the meaning of life? - Who is even Christian Tone? Nggak bisa cari online life dia. - Oh ya nggak bisa ya, lupa. Kirain gamer ya waktu itu. - Tuh kan I am enabled to... - 1 giga minta maco-maco. - Unable to profile. - What can you do? - Gak bisa semua. - Tapi kencang banget ya. Maksudnya beda ya experience-nya ya. Yang lokal sama yang pakai service ya. - Mas Lisa pakai ini nggak sih? Pakai Mac atau pakai apa nih? Windows? - Pakai Windows, Windows. - Oh, task manager bisa kelihatan GPU ini nggak sih? - Bisa, bisa. - Tapi harus share screen. Bukan nggak bisa share Windows doang. - Oh iya boleh. - Pengen tahu bisa kelihatan nggak sih dia. - Nanti coba kita kasih pertanyaan yang susah. - Share screen yang ini ya. Tuh udah kelihatan kan? Eh belum. - Udah. - Udah. - Oke, ada yang GPU-nya nggak? - Ada, ada. Ini diatur dulu. Ini GPU-nya ada disini kalau nggak salah. Nah ini GPU. - Nah itu. - Nah itu juga udah spek kan tadinya nggak apa-apa. Naik banget pas loading awal ya. Abis itu gini-gini aja. Coba tanya lagi. - Segini aja cukup ya. Oke tanya lagi apa? - Cukup, cukup. - Apa yang susah? - Kalau subyektif dia. - Which one come first, chicken or egg? - Which one come first, chicken or egg? - Chicken or egg. Tuh naik tuh. - Oh naik ya rasanya. - Naik tuh, ada spike kan. - Apa ya? Explain the story of JavaScript. - Dia nggak pernah bisa jawab apa-apa. - Dia satu giga sih. - Story about JavaScript programming language. - Language. - Language. Weh ini bisa. - Weh naik tuh GPU-nya tuh. Berarti betul dia udah pakai GPU. Iya kan. - Coba minta accept deh. - Kalo gitu prosesnya selesai GPU-nya turun. Eh kayaknya tadi di drop down-nya ada intunya deh. Coba scroll ke atas. Scroll ke atas. Nah klik di \"Choose a model file\" selektornya. Nah dia indikasi kok dia jalan di mana. - Web GPU tuh. - Udah dia indikasi jalan di web GPU. Dan betul udah di cross-check. Kita minggu lalu minta resep apa sih yang dia nggak bisa? Abis itu kita minta resep pancake dia bisa. - Iya, resep. - Pizza. - Oh gado-gado. - Oh iya. Give recipe for gado-gado. - Nggak bisa dia bahasa Indonesia. - Give me recipe. - Iya nggak minta resepnya. Recipe. - Recipe. Recipe. - Recipe. Recipe. Recipe for gado-gado. - Indonesian food called gado-gado. - Gado-gado. - Ini ya? - Iya. - Unable. - Sekarang minta resep pancake. - Pizza. - Pizza. - Pancake ya? - Unable. - Gak bisa juga tuh. Oh semua resepnya nggak bisa kalau ini kayaknya ya. - I am unable to provide information description. Oh dia nggak dapat konteks ini gitu. Maksudnya dia nggak ngerti bahwa kita minta resep gitu. - Ya nggak bisa. I am not able to access external information or engage in culinary activities. Terus dia nggak punya culinary data. Recipe for pancake coba. - Bisa. - Pancake bisa. Ini kayaknya pancake tuh built in the training model semua LLM apa ya? - Taku. - Pizza aja nggak bisa gitu. - Bisa. - Taku bisa. - Coba pizza. Give me recipe for pizza. Mungkin harus pake give me recipe for it. - Dia nggak bisa what about pizza. - Oh dia nggak bisa inget sebelumnya ya? - Iya konteks tuh pizza bisa. - Iya. - Cuman dia nggak ngerti maksudnya kita resep. - Maksudnya nggak ada konteks. - Gak bisa chat story. - Gak ada konteks. Itu pizza kan Eropa ya? Kalo Asia apa ya? Selain gaduh-gaduh. - Noodles. Chicken noodles. - Ramen. - Ramen noodles. - Bisa. - Bisa. - Tuh bisa. - Coba. - West Africa. - Mas Riza tulis I like Padilla ice cream. - Indomie tau dia. - Originally from West Africa. - West Africa. Training data macem apa ini? Coba Mas Riza tulis hello my name is Riza and I like whatever. - My name is Riza. - I like coffee. - And I like... - Indomie. - I'm glad you like Indomie. - Okay sekarang who is my name? - West Africa. - Who is my name? - What is my name? - Gak bisa. - Ini berarti satu an ya? - Gak bisa. Berarti mungkin chatnya ini kalo kita liat di source code dia gak embed chat history. - Gak embed. - Oh iya itu gak simple. Contoh ini contoh. Kita pengen bikin ya misalnya mau bikin chat interface yang kayak data. - Ini di share kan ya. - Kodonya di share. - Kodonya ada. - Dia tuh di GitHub tadi. Oke nanti saya coba modif sedikit bisa gak dikasih history. - Bisa. - Nah kalo kita kan harus dikirim semua kan. - Di apa? Kita harus kirim semua kan. - Kalau gitu coba Mas Riza balik ke ini dong. - Balik ke kodenya. - Kodenya. Kodenya ada disini. Ini text context. Partial result. Text context output. Partial result. - Romnya mana sih? - Bukan, bukan. Submit, loading the model. Bentar turun dikit ke bawah. Ini mana saat dia submit? - Saya cuma mau liat submit. - Generate response. Input value display. Input.value. LLM inference itu apa? Ini ya? Oh dari dia. Gak bisa kita lihat ya. Kita masukin promnya dimana sih? - Ini di form. - Output element by ID. - Oh create prompt option. - Begitu on click dia. Oh output. Oh generate response ya metodnya. Metodnya yang diimport dari JS Deliver ini. Ini tugas kita semua untuk explore lebih lanjut ya. Intinya adalah ini menggunakan LLM inference API dari Google AI Edge. Buka ini ada nggak yang diitunya? - Apa tuh? - Coba lihat NPM-nya dong. NPM JS media pipe itu ada source code contoh lain nggak sih yang disediakan? - Maksudnya LLM inference itu ada. - Oh lainnya GitHub lagi. Ini ya? Oh ada experimental lagi. Oke. Berarti file set resolver dulu, awesome. Terus modenya ya cuma begini doang. Iya sama kayak di dokumentasi tadi sih LLM inference. Prepare data itu, coba klik di kanan prepare data. - Serasa ini nggak sih? - Sesingkat itu. Early bake yang diburu hanya untuk IO Extended. - Pasti. - Tapi ini udah lengkap loh, udah lumayan banyak loh. Yang atas itu bukan buat web. - Bukan ini doang ya ini doang. - AI. Tuh ini doang itu juga hanya bagian yang web loh. - Yang ILS kan mungkin beda lagi. - ILS kayak gitu juga. Tapi pakai bahasanya apa lagi. Iya karena TF Lite itu bisa jalan juga di Android. Paling ya persis kayak gini, cuma maksudnya beda bahasa aja. Oke. Anyway, cukup kali ya kita bahas tentang ini ya. Cuma penasarannya tadi kan kita masih penasaran apa tuh LLM inference. Itu apa sih ada penjelasannya atau nggak ya minimal sekarang kita udah coba. Coba tanya, ini bisa juga topik nih. Oh iya tanya sih game. Tanya game tadi, what is LLM inference? - Pasti dia nggak ngerti. - Inference in context of LLM. - Oh bisa loh, dia bisa jelasin. - Nggak mau. Explain to me what is LLM like I'm 5. - Standard ya. - 5 year old. - 5 year old. - Nggak perlu ngapain. Children should not be learning LLM yet. They should learn alphabets. Panjang juga dia. - Eh bisa tuh. - Oh nggak, kayaknya nggak ya. Nggak kayak penjelasan anak 5 tahun. Extract meaningful information and pattern from massive data set of text and code. - Penjelasan buat orang yang cukup umur. - Predict, generate, and answer. Itu dia sebenarnya jawabannya, predict, generate, and answer. - Ya tapi at least dia bisa jelasin ya. - Iya, at least bisa jelasin. Nah ini bisa jadi topik untuk AI Extended. Kita bisa explore ya. AI Extended lagi, I/O Extended. - Bukan salah nama. - Sampai salah kebanyakan AI. - Aku sudah dapat ya. - Siapa tahu? - Saya sudah dapat topik. - Aku doang yang belum. - Jadi apa namanya ini? - Tapi belum selesai. Bisa membuka, bisa membuka apa ya? Opportunity. Kenapa? Karena ya satu bisa jalan di lokal, apa di lokal masing-masing, ya walaupun memberatkan masing-masing user. - Iya tadi dengan segala kelebihan dan kurangan kan. - Betul. - Trade off. - Iya. Dengan memungkinkan untuk bikin seperti ini, kita bisa bikin misalkan apa ya? Extension, tapi pakai LLM. Nggak perlu dari ke server gitu kan. - Tapi kalau misalnya saya... - 2GB, 1GB gitu. Saya masih nggak puas loh ada 1,2GB untuk user itu. - Iya. - Apa kesnya yang bisa justify minta user untuk download 1,2GB untuk jalanin aplikasi kita? - Betul-betul. Kemaren itu kalau nggak salah... - Multimedia banget sih sekarang use case-nya. - Kalau 1GB itu... - Aplikasi tar okay gitu. Kalau download-nya sih nggak masalah. Storage-nya yang mungkin sedikit berat. Kalau download 1GB mungkin kalau untuk traffic kayaknya udah normal ya. - Jaman sekarang ya 1GB, 2GB tuh kayaknya udah... - Di mobile loh mas. Belum tentu loh. Nggak sih. Kalau untuk mobile, sakit juga. Kalau PWA mungkin. Jadi sudah install sebelum dijalanin. - Sebelum dipakai, sebelum digunakan. - Dan user udah punya ekspektasi bahwa itu akan behave seperti aplikasi. Kalau misalnya gini, anggap aja pakai, saya nggak tahu pakai JMA. - Pakai multimodal deh yang bisa... - Gemini, vision pro. Vision gitu yang misalnya untuk makeup atau untuk augmented... - Apa namanya? - Reality. Reality. Oke, pakai, nge-coba ngedress something. Jadi waktu kita lagi buka aplikasinya ada loading-nya. Ada loading-nya dulu nih, tapi selama loading itu udah download model. - Nah itu worth it gitu ya. - Itu make sense. - Tapi kalau misalnya kayak... - Berarti yaudah, yaudah pakai buat itu. Ini kan sampelnya chat ya? Mau nggak sih ada chat agent 1,2GB? Loh, kan itu. Jadi sebelum kita load, kita consent dulu. Ini membutuhkan file 1,2GB untuk download dan storage. Mau nggak? Kalau nggak mau, balik ke server. Paling gitu, di awal. Sama aja kayak loading spinner gitu. Cookies atau apa? Cookies, consent? Nggak, tadi pertanyaan Irfan, misalnya use case-nya aplikasi jenis apa ya berarti? Yang bisa justify, nyuruh-nyuruh download kayak gitu. Maksudnya, oke lah ada pop-up gitu, ada dialog. Ini akan membutuhkan download seukuran kira-kira segini, download-nya lamanya segini. Nah, apa yang bikin user bilang, oke nggak nge-screenshot dan marah-marah di Twitter misalnya. Berarti harus ada use case yang justify. Yang butuh banget, yang membutuhkan sekali, tanpa harus apa namanya, ya dia mau nggak mau, suka tidak suka, harus download. Itu tadi sih, itu contoh yang makes sense. Itu tadi misalnya buat makeup atau pakean, atau buat itu yang apa, misalnya di rumah kita, terus orang jualan tokonya, webstore, jualan furniture, nyoba sofa itu gimana bentuknya kalau ditaruh di ruangan kita, yang gitu-gitu sih mungkin orang paham ya. Kalau buat chat doang sih kelihatannya nggak, belum. Lebih tepatnya, ya bukan lebih tepat, maksudnya kalau saya memikirannya ya, jadi lebih ke arah model yang lebih spesifik, contohnya ya itu tadi model untuk nge-blur background. Jadi kalau dia spesifik kan, jadi bukan general model, jadi model yang spesifik itu ini size-nya bisa lebih kecil. Jadi hanya bisa nge-blur background, hanya bisa untuk warna lipstick, hanya bisa mendetek mata untuk eyeshadow, maybe. Jadi lebih makes sense kalau yang hanya kayak ratusan mega sih. - Nah, gimana kalau spesifik dan multimodel ya, kalau cuma teks doang kelihatannya justru belum bisa terima. - Iya benar. Gimana kalau misalkan aplikasi yang, tadi kan keunggulannya adalah privacy kan, misalkan aplikasi yang membutuhkan foto KTP, kita sambil foto KTP. Untuk client-side itu sangat aman kan, maksudnya KTP-nya nggak akan dikirim ke server kan, tapi itu juga di sisi yang lain itu juga besar kan, mungkin nggak sampai 1 giga kalau untuk ngedetek KTP. Tapi berapa puluh atau berapa ratus mega kan. Itu makes sense nggak kalau itu. - Itu makes sense kalau privacy, kalau konsertnya privacy. Atau mungkin apa ya, kayak tools internal nggak sih? Kayak mau saya apa dashboard atau apalah di perusahaan. - Iya kalau tools internal pasti makes sense ya. - Internal, tapi kalau kayak tools internal besar kayak pernah lihat percakapan di Discord orang yang kerja di IKEA, itu kan mereka apa, networknya, kalau internal kita kan bayangin yang akses tuh 10 orang gitu. Cuma kalau se level IKEA itu kan sebetulnya user mereka ya itu banyak. Itu sangat banyak bisa diakses ratusan user kan, cuma internal mereka. Nah kalau kayak gitu kan privacy makes sense banget ya. - Mungkin pembahasan tentang LLM di lokal kita tutup dulu, kita masuk ke bagian berikutnya yang tentang visual block ya. Jadi nantikan eksplorasi kita, salah satu dari kita atau salah dua dari kita di IO Extended ya. - Siapa tahu. Atau salah lima, lima-limanya. - Talknya tentang ini semua. Nah ini masih nyambung sih, masih berhubungan. Cuma apakah dari perspektif yang beda, ada UI-nya menarik. Ini visual block itu low code ya. Low code apa malah bisa dibilang no code, cara no code untuk prototyping itu bermacam-macam jenis model yang ada yang tadi sempet dibahas event sedikit, model yang spesifik. Nah ini contoh-contohnya. Nah ini juga client-side, jalannya di device kita sendiri. Ini yang bikin timnya Google Machine Learning, MLAI, tapi kolaborasi dengan Hugging Face. Dan menariknya, di sini juga mungkin pas kita bahas tentang yang membuat ini memungkinkan terjadi, salah satunya adalah transformer JS ini. Transformer JS ini awalnya adalah library Python, kemudian dikonversi menjadi JavaScript JS. - Ada hubungannya sama itu nggak sih transformer film? - Film nggak ada sayangnya. - Jadi, loh kok github-nya mana? - Itu Senova itu loh, Senova. - Senova transformers JS. - Github.com/senova/transformersjs Awalnya dia developer lah ya, terus iseng-iseng bikin tools untuk konversi dari Python, awalnya dari Python namanya transformers juga, jadi transformer JS. Dia bikin semacam SDK-nya gitu ya, tapi bisa pakai JavaScript gitu. - Dia bikin abstraction layer di atas TensorFlow, jadi ini sebenarnya machine learning tools, machine learning library sebenarnya. Jadi kita bisa melakukan macam-macam, bisa transforming, bisa buat inference, bisa buat contohnya di sini sentiment analysis, bisa similarity search, dll. Dia pakai backend-nya Onyx runtime, jadi ini kayak standar gitu ya, standar kesepakatan antara ada TensorFlow, ada Python, ada macam-macam ya, jadi mereka jadi satu runtime supaya bisa saling berkomunikasi. Nah ini kemudian dia di-hire sama Hugging Face. Sekarang dia sudah menjadi karyawan Hugging Face. - Manusia juga bisa diakusisi ya. - Banyak sekali contoh-contoh. Tapi ya ini lagi, oh nggak, ini nggak pakai tapi, ini bisa pakai NPM, bisa pakai JS Deliver atau CDN ya. Ini ada contohnya nih, contohnya. Misalkan kita mau pakai space recognition, ada nih demonya, real-time sketch recognition, ada demonya. Dan ini ya, browser ya. Jadi tinggal pakai sebenarnya. - Tinggal pakai. Cuman dia loading dulu tuh kan, dia download dulu. - Ya download dulu. Nggak, tinggal pakai juga. Karena tadi kayaknya dibahas event-nya itu kan satu modelnya spesifik. Jadi kita nggak bisa tingkat reset atau nanya arti hidupnya. - Osian. Ini gambar osian ya. - Kedua mobil. - Beach. - Wah, kok pantai? - Pantai dimananya? - Gambar ini. - Pillow. - House. - House beneran. - Ini cooler. Kok cooler? - Kok cooler sih? - Kasih pintu aja. - Ini house. - Octagon. - Ya betul juga. - Table. - Ini ada pintu. - Kok mencet? - Hospital. - Rumah sakit apa sih kecilnya tuh. - Oke, ada contoh menggunakan red. In Browser Object Detection Vanilla JavaScript. Banyak ininya, demo-demonya. Untuk upload image ya. Jadi ini yang memungkinkan terjadinya yang tadi itu salah satunya. Node.js juga bisa jalan di server, bisa jalan di client, buat elektron, buat browser extension, macem-macem ya. Jadi ini salah satu yang membuat, kenapa? - Maksudnya masih belum ngerti. Transform ini berarti library untuk apa ini sebenarnya? - Macem-macem. Ini nih nih nih. NLP. - Saya lihat kodenya salah satu. - Computer Vision, audio, multimodal. Kalau yang saya pernah pakai, jadi kalau kita mau bikin RAG, Retrieval and Generation dari dokumen, kita mau cari yang ada di dokumen itu pakai transformer ini. Jadi caranya pipeline, terus pipeline di sini kita bisa definisikan pipeline-nya yang mau kita pakai fitur apa. Similarity Search gitu. Atau Sentiment Analysis atau apa. - Cuman itu fitur-fiturnya udah ada, udah spesifik ya? Maksudnya dia punya daftar apa aja yang bisa dipakai. Kita nggak bisa nge-custom. - Iya, ada dokumentasinya, ada. Dan dia udah nyediain modelnya juga. Dan modelnya bisa pakai yang tadi tadi. Ini, Dokumentation ya. Kita lihat ya. Misalkan pipeline-nya. Text Classification, Token Classification, Question Answer, Text to Text Generation, Summarization. Ada semua. - Oh, ada daftar modelnya juga tuh? - Iya, daftar modelnya apa nih? Ini ada beberapa model yang punya dia juga ya. Dari BERT, dari mana gitu. Ini kan dari sini kan? Eh, mana tadi yang... - Transformers. - Transformers, oh ini. - Oh, jadi kayak dia nyediain sekian model yang available. - Iya. Betul. Ini versi low-levelnya dari LLM yang kalau kita inference gitu ya. Ini versi low-levelnya. Dibawahnya lagi. Nah, ini yang harus diulik sama kita nih. Nah, hubungannya sama Visual Blocks ini. Oh, Visual Blocks ini. Kan tadi Transformers JS yang agak low-level ya, mid-level lah. Visual Blocks ini yang benar-benar visualisasi. Berarti bisa langsung nge-extract pakai, misalnya tadi kan ada extraction ya, contoh itu similarity search. Bisa kalau misalnya kita ada data, bisa nge-extract, sorry data itu lebih tepatnya, text ya, kalimat lah ya, kalimat. Dia bisa nge-extract kalimat itu pakai transformer ini gitu ya. - Betul. - Berarti dia bisa nge-pipeline dari modelnya ya. Jadi nge-pipeline, sorry, fitur extraction yang dia pakai itu menggunakan model yang untuk, berarti si transformer ini sendiri menjalankan model itu untuk melakukan extraction data tadi itu. Commentnya itu adalah extraction tapi menggunakan model. Ngerti gak sih? Saya lagi berpikir. - Ya kayaknya perintahnya masing-masingnya sesuai model yang kita masukin sebagai argumen itu kan. - Dan model-model yang kita pakai itu bisa menjalankan function atau perintah itu karena tadi sudah menggunakan runtime yang sama saat nge-build model itu. Kayak gitu kali ya? - Ya. - Karena misalnya meski model dibuild pakai PyTorch, atau dibuild pakai TensorFlow, atau dibuild satu-satunya lagi apa? - Apa? - Atau tadi 3 kan. PyTorch, TensorFlow, sama ada tadi di TensorFlow JS-nya. Bukan, bukan, coba ke TF. - Transformers JS. - Transformer JS-nya yang di Github. - Github di home-nya? - Itu atau JAX model. TensorFlow atau JAX. Jadi ada 3 kan. - Ya. - Now I understand. - Oke. Nah ini contohnya ya, jadi kita mau bikin konversi image jadi bentuknya kayak kartun. Image input-nya apa, processor-nya apa, terus model running-nya apa. - Itu setting-nya bisa di tweak. - Tambahin normalizer, crop, dan akhirnya jadi kartunized output. Yang mau diganti apa? - Coba klik ditambahin yang atas deh, yang kiri atas. Coba klik. Nah, select. Loh, nggak otomatis. Oh, tuh otomatis berubah. - Butuh waktu. Karena, oh, kenapa dia di-resize? Karena si TF Lite-nya itu hanya bisa menerima image yang 512 x 512. - Iya. Tapi ini nggak 512 x 512 kan? - Mungkin sisanya. - Ikan pos kali. Sisanya dia nggak putih. - Iya. - Oke. Ini gimana cara bacanya ya? Nggak ngerti soalnya. Ini image input. - Image input. - Terus dihubungin ke, itu masing-masing kotak namanya node. - Iya, ini namanya node. - Terus ini resize and normalize input image. Jadi di-resize dulu ke 512 x 512. - Iya. Akhirnya inputnya itu image. Outputnya itu sudah tensor. Which is floating number. - Iya, oke. Terus di-normalize, akhirnya jadi tensor. Terus modelnya running yang ini. Storage Google API. Cartoon gun. Ini modelnya ya, tapi dalam bahasa real ya. Cartoon gun. Terus abis itu masuk ke tensor pertama. Untuk normalize dulu. Dari 0 ke 255. Nggak tahu nih normalize ini ngapain. - Ada dokumentasinya nggak sih? Itu di kanan atas itu. - Remap value range of input tensor. Jadi kalau ada tensor yang di atas 255, dia bikin supaya dari 0 sampai 255. Kayaknya gitu ya. Mungkin ya. Tolong di-correksi kalau salah. Kemudian di-crop dan di-resize. Oh, ini udah jadi cartoon di sini. Abis itu di-normalize lagi. Kalau ada angka-angka yang mungkin di luar dari 0 dan 255 gitu. Abis itu di-crop lagi. - Di-crop supaya sama dan di-output. - Di-crop supaya image-nya. Kan di sini ada get image size. Jadi dia cari tahu image size ini berapa. Kemudian di-resize kembali ke width dan height yang sesuai sama image size originalnya. - Gitu ya? - Iya. Jadi pertama dia image, diubah jadi tensor. Setelah udah dijalankan pakai model dari tensor, diubah lagi jadi image. - Jadi output. Itu yang paling terakhir. - Iya. Karena kan tensor-nya 512 x 512 kan. - Iya. - Jadi harus butuh resize lagi supaya ukurannya sama-sama yang originalnya. - Ukuran dan formatnya yang balik jadi image lagi ya? Berarti? - Iya. Yang paling terakhir tuh tensor jadi image. High preview hilang ya. Ini kalau untuk, ada di contohnya kan itu ya, remove background kan ya. Mana nggak ada di sini ya? - Itu banyak. - Itu tuh tuh. Silhouette style photo generator. - Itu malah remove foreground. - Ini jalan di browser ya? - Iya. Jalan di browser. - Cepet juga ya. - Kalau kan malah remove foreground. - Kebalik ya. - Emang konsepnya gitu. - Tapi kan intinya berarti dia bisa nge-detek ya mana yang program, mana yang background. - Iya. Bisa kebalik ya. Benar-benar. - Ini menarik di ulik ya. Berarti ini adalah versi visualnya dari transformer JS ya. Kalau transformer JS kita harus coding. Kalau ini kita drag and drop. - Katanya dimaksudkan ini buat prototyping. - Jadi mesti kita nunjukin. Kita ingin nunjukin. Kita mau nunjukin cara kerjanya kayak gini. Inputnya seperti apa, outputnya seperti apa. Kita nggak harus ngobrolin semuanya tapi bisa pakai visual block. - Background removal ada. - Running. - Iya. Remove background from an image. Modelnya pakai mode net. Device-nya web GPU. - Tuh jadi. - Bagus. - Dari image, image jadi background removal. - Langsung masuk background removal. Balik lagi ke image viewer sama image mixer. - Langsung sisanya ya, yang backgroundnya ya. - Iya. - Ya seandainya mau di, nggak tahu lah. - Oh rambut-rambutnya ini ya ke extract ya. Bagus ya. Detail. - Nah tapi si background removal ini si modelnya itu nggak pakai ini loh, nggak pakai tensor loh. Dia langsung inputnya image. - Iya. Ini, model mode net ini. Atau kita mau ganti bisa kali ya? Terus running lagi dia. - Bisa. - Bria AI. Wah kita harus kembalinya ke sini. Nah kalau temen-temen bisa cek sendiri ya. Kita balik lagi. - Iya silahkan kalau mau main-main. - Nah silahkan. Ada banyak nih. Contoh-contohnya text classification, ada translation. - Oh ada combine sama server side juga. - Oh ya. - Eka jadi AI. - Eka jadi, Eka jadi. - Cek. - Jadi freeze. - Ya bisa-bisa. - Oke. Sudah-sudah aman. - Use JavaScript, nah ini topik ketiga ya dari pembicaraan itu ya. Use JavaScript for web AI at scale with Chrome. Jadi sebelumnya kita sudah menggunakan JMA, modelnya loaded and run within the web page itself. Chrome is working on will in on device AI, where you could access model with standardized task specific JavaScript API. And that's not all, Chrome has also updated web GPU support for 16 bit floating point values. Web assembly has a new proposal, memory 64 to super 64 bit memory index, which would you allow to load larger AI model than before. Jadi bisa, modelnya bisa lebih besar lagi. - Iya nah intinya kan ada tiga hal kan. - Sebelum Mas Jason menutup, kayaknya saya ingat ini, web assembly ada proposal untuk menaikkan dia bisa 64 bit supaya bisa nge-load model 4 giga. - Kalau sekarang belum bisa. - Tambah besar aja. - Tambah besar, tadi 1 giga aja kita mikir ya. - Ini mau dibikin biar bisa 4. Tapi maksudnya secara infrastruktur ya nggak tahu kali disiapin dulu ya. Bukan infrastruktur sih, maksudnya secara cara kerja. Jadi ini menarik sih, ini ada tiga hal. - Saya kan GDI web performance, melihat 4 giga dan bagi user tuh merana. Tapi mungkin kembali lagi ini konsepnya beda untuk researcher, user case-nya itu mau ngeresor atau mau something internal mungkin pengen-pengen aja tadi yang 4 giga. - Itu komunikasi ke user nggak sih? Sebenarnya itu tadi kalau user-nya udah tahu itu emang ada background remover atau make-up tester atau furniture AR gitu. Ya kan ada ekspektasi bahwa itu bakal berat jadi lebih kombinasi dengan UX juga sih. Dan ini kayaknya masih eksperimen, jadi kalau temen-temen mau testing ya bisa kesini langsung cobain running di Google Collab atau... - Ini beda kasus kalau yang tadi. - Itu beda ya? - Iya itu udah beda heading. - Bukannya yang dibahas 3 ya? - 4, ya berarti 4. Ini kan perkara-nya ada web GPU sama web assembly-nya di upgrade lah. Intinya di upgrade kita lebih capable, kapabilitasnya ditingkatkan karena kita udah masuk ke era on-device, apapun on-device. Tadi kita juga udah nyobain sendiri kan. Tapi ada satu hal lagi yang menarik, coba deh buka di private chat link yang paling bawah. - Iya. - Itu tadi, jadi kan selama ini kita mikir kalau on-device AI berarti harus download dulu kayak yang tadi kan. Nah sekarang Chrome rencananya, dia bakal include di Chrome-nya. - Oh udah ada? - Belum belum. - Wow, ini huge sih. - Tapi masih. - Effect-nya. - Tapi belum. Nah cuma itunya task-nya kayak nggak semua bisa. Jadi itu spesifik banget kalau yang di demo, yang di I/O itu translation yang paling, use case yang paling utama. Dan itu lumayan universal kan ya, itu translation. Terus apa ya, ada code assistant, ada explaining, ada summarizer gitu lah. Apanya misalnya use case-nya yang dicompoin sih kalau kita baca, itu bisa minta summarize this text atau explain. Nah cuma kalau yang paling banyak didemoin dan kelihatannya bakal di push pertama sih translate. - Oke. - Cuma ini belum. - Browser installer size bisa gede banget dong, ntar terlalu lama. - Iya. Eh kita bisa request, get an early preview, scroll ke bawah. - Hah? Di mana? Sebentar, ini? Oh iya. Ini ya. Ini jadi apa ya, jadi yang Ivan khawatirkan bisa jadi ini terjawab di sini dengan kita download Google Chrome yang sudah ada built-in AI-nya. - Mungkin nggak jadi 4GB atau nggak jadi 1GB. Mungkin setengahnya atau seperempatnya yang perlu kita download. Kayak tadi kan perlu download 1GB. Mungkin sebagian sudah ada di, tertanam di Google Chrome mungkin 500 meganya, sisanya 500 mega yang kita download. Mungkin ya. - Dan lagi-lagi kita tetap harus spesifik mau ngapain kan, maksudnya aplikasi kita yang butuh on-device AI itu sebenarnya buat apa? - Maksudnya kita bisa fine-tuning. - Lagi-lagi kalau yang chat segala bisa itu kan ya udahlah pakai service aja kalau cuma chat text. Nah coba, saya translate-nya bisa di-handle di sini. Dan itu ada demonya, lupa video yang mana, cari sendiri. - Maksudnya demonya adalah kombine, ngereview, misalnya review, jadi sentiment analysis misalnya pakai model eksternal, tapi untuk toxicity detection misalnya bisa pakai yang... - Ini? - Pakai yang on-device. - Help me write atau translation API bukannya? - Nggak, demo. Ini lagi bahas demo yang AI. - Bisa juga jadi salah satu aplikasi pakai extension kita bisa gunakan untuk parental control mungkin ya, jadi anak kita bisa dimonitori tapi pakai AI. Jadi ada data yang perlu dikirimkan ke mana-mana, jadi kalau dia buka situs-situs yang tidak safe, apapun itu bisa di-automatic block. - Hoax detection juga tuh, hoax and scam detection misalnya ada link-link yang mencurigakan gitu, cuma suka disamarin misalnya apa ya. - Klik BCO. - Atau thetick.com, misalnya cuma thetick.evilsight.com, ya nggak tahu apa-apapunnya pola-pola yang scam atau bahaya bisa di-blockir pakai extension. Nah, itu contohnya kan writing assistance, proofreading, grammar correction, rephrasing, itu kan use case yang umum ya. Jadi ekspektasinya adalah kalau use case yang umum, nanti kita nggak usah bayangin dong kalau ada berapa, ada ratusan atau ribuan atau jutaan website, masing-masing semua nyuruh user buat ngedownload model, pusing juga kan. Jadi kalau use case yang umum, ya pakai ini. - Nah ini strategi yang menarik juga ya buat dari timnya Google Chrome, karena sebelumnya kan sudah mulai ada browser-browser yang menambahkan AI. Tapi kayaknya itu server-site ya. - Server-site, pikirin kalau ini beneran nih browser-nya. - Ya, misalkan ini Brave, Brave itu kan chromium-based juga kan ya. Nah, dia punya Leo namanya kan, Leo AI ini buat assistant. - Art juga punya. - Iya, Art juga punya, betul. Sama, semua pada punya. - Semua pada punya, tapi itu server-site kan. Jadi datanya tetap dikirimin ke server-nya mereka kan. Kalau kita mau summarize, mau apa gitu kan, ini maksudnya apa, mau catatan dan lain-lain kan. Art juga ada, Art namanya adalah Max ya, M-A-X. Nah ini power up by browsing with API. Wah ada suaranya, ini ketutup lagi mute-nya. - Memang nggak boleh ini mute. - Kita mute-nya aja, mute-site, dah bisa kan. Nah ini bisa kan, kita taruh di to-do gitu, semacam gitu ya. Tapi ini, kembali lagi, ini server-site, dia pakai chat GPT, pakai OpenAI berarti ya. - Iya, OpenAI. - Jadi ini adalah salah satu strategi dari Google yang berbeda. - Kalau off-line nggak bisa ya, kalau misalnya internetnya di Google, buka browser, kalau misalnya browser lain, AI-nya nggak bisa jalan. Kalau ini bisa. Dan kelebihan lainnya, third party developer, maksudnya kita, siapapun kita yang bikin website, kita bisa manfaatin ini kan. Sementara kalau tadi yang punya ARC, Brave Den lain-lain ya nggak bisa kan. Kita bikin aplikasi web app yang manfaatin itu. - Iya, seperti yang tadi sempat kita bahas, kalau yang tadinya mungkin download apa, asisten AI-nya itu 900 mega, mungkin dengan sudah ditambahin nano ini, kita tinggal nambahin sedikit mungkin gitu. - Itu tadi, yang kita tambahin adalah yang spesifik dengan kebutuhan aplikasi kita kan. - Dengan kebutuhan kita, iya betul. - Pengen nggak sih, suatu saat AI model ini sudah kayak docker layer gitu, jadi kayak build, kayak from, jamanai nano, dia sudah ada layer-nya, kita bisa tambahin layer-layernya kita, terus nanti dibuild jadi kayak docker file. - Oh kayak docker file. - Iya, jadi docker file itu sendiri kan sudah ada layer-layer ya, jadi kalau layer 1 ada, tinggal nge-build atau nge-download layer yang belum ada. - Mungkin, hari nanti, suatu saat. - Kayaknya konsepnya sudah ada deh, AI model ini ujung-ujungnya layer kan, isinya semua. - Iya. - Layer-layer-layer kan. - Sekarang tadi tapi belum bisa di-pastam ya kan, ya kayak si siapa, transformers.js tadi. - Betul. - Baru bisa di-pipeline, belum bisa di-transfer, baru bisa di-pipelining, jadi di-chaining, mungkin kalau pakai line chain bisa di-chain ya, jadi pipenya jadi input, parser-parser segala macam, proses sampai output, itu bisa di-chaining. Kalau misalnya yang saya maksud itu kan kayak docker, docker image, dia ada layer-layer-layer, jadi mungkin layer utamanya dibawah jamanai nano. Terus mungkin di atasnya ada dari, I don't know, mistral, vision, vision layer, di atasnya ada layer lipstick, detection layer, whatever layer bisa ditambah. - Waktu itu kalau user udah punya, dia nggak nge-download ulang ya, misalnya udah ada background remover gitu. - Ya. - Incremental, incremental. - Mungkin kita udah mikirkan sampai ke sana, mungkin, maybe, I don't know ya, mungkin terlalu susah. - Ya sebenarnya kalau banyak yang mau, itu kemungkinan, walaupun susah, pasti suatu saat ada yang bisa bikin deh. Ya kan kalau cukup banyak orang yang mau pakai dan ada business case-nya, itu pasti ya bisa lah dibuter-puter, jadi bisa. - Jadi setiap, nanti suatu saat kita itu bisa nge-build our own custom model, seperti our own custom docker image, yang spesifik untuk kebutuhan kita. Kan kita kalau nge-build docker image kan mungkin base-nya dari Debian, tapi di atas Debian kan ada hal-hal yang kita butuhkan, engine X atau PHP, FPM. Jadi itu satu docker image. Sedangkan kalau misalnya kayak model AI, gasarnya jamanai nano, atasnya vision, vision khusus untuk KTP, KTP vision misalnya. Jadi cukup satu model itu aja bisa dipakai spesifik untuk satu use case. Saya berharap suatu saat bisa seperti itu, suatu saat. - Oke, oke. Kayaknya bakal seperti itu sih. Karena sekarang pun udah mulai ada, tapi ya itu berdasarkan base-nya. Jadi misalkan yang jadi base model itu kan sekarang banyakan pakai lama, lama 1 atau lama 2 ya. Kemudian mixtral itu base-nya lama juga. - Itu kan ini transfer learning kan maksudnya ya. Kalau dulu kan image net tuh. Image net yang punya segudang general data, terus kita transfer learning hanya untuk nge-detect spesifik data. Misalnya hanya detect muka orang saja. Itu kan transfer learning. Kayaknya arahnya ke sana sih kalau yang dibaca ya. Tapi ya kita lihat saja nanti gimana. Oke, sepertinya pembahasan kita kita cukupkan sampai di sini. Ada lagi yang mau disampaikan sebelum kita udahan, udah satu setengah jam lu. - Masih banyak besok-besok lagi. - Masih banyak, tenang, tenang. Masih banyak ya. - Ya, seru. Dan tujuan kita untuk bikin episode ini adalah untuk mencari topik I/O Extended. Jadi pantangin aja I/O Extended di kota masing-masing. Apakah nanti bakal ada topik-topik yang menarik? Atau teman-teman pengen bahasnya apa nih? Pengen bahasnya apa? Yang pengen kita bahas, terutama dari sisi web ya. Kalau kita ngomongin web doang, update-nya yang minggu lalu ya kita bahas. Minggu lalu kan ada AI juga sih. Tapi sebagian besar udah kita bahas kayak apa, baseline, ada macem-macem ya. Ada API baru juga. Nah, kalau yang ini berhubungan dengan AI karena memang ya si Google I/O-nya memang fokusnya masih kesana. Sampai tahun ini, 2 tahun belakangan fokusnya kesana untuk mengarahkan kita, untuk mulik ya, untuk mulik AI. Dan ini sih kayaknya dobaunya buat on-device AI, ini kelihatannya bakal di arah-arahnya, bakal di-push. Karena salah satunya indikatornya adalah, bukan gimik sih, cuma penggunaan istilah web AI, sampai apa sih, maksudnya di presentasi yang utama yang buat artikel itu tadi, ada satu stream yang tulisannya punya web AI, tidak sama dengan berbeda dengan cloud AI. Jadi kayak ada pembedaan antara web AI dan cloud AI. Nah web AI itu istilah yang digunakan untuk fokus ke on-device tadi, client-side. Jadi ya abis itu dia njelasin pro-contra dan lain-lainnya yang tadi udah kita bahas. Terus emang di-encourage kalau kalian bikin sesuatu ngulik pakai on-device AI tadi, saya share dengan hashtag web AI. Nah ini tuh ngingetin kayak bikin inget dulu PWA kan, Progressive Web API, itu juga kan maksudnya itu konsep. Maksudnya sedangkan fitur-fiturnya kayak bisa di-install, atau misalnya ada loading spinner-nya, misalnya secara UX dan performance bagus, itu kan hal-hal yang mungkin umum, mungkin udah ada yang bikin sebelumnya, cuma semua itu dirangkum dalam satu konsep PWA yang dipus. Nah kelihatan web AI ini bakal jadi hype yang sama deh. Untuk mengarah ke itu tadi on-device AI, experience-nya ya dengan segala plus minus-nya, ada privacy, ada blablabla, dan mungkin kombinasi dengan hybrid server, cuma kelihatan web AI ini bakal jadi hype. Ramalan. Tapi saya apresiasi lo, saya apresiasi inisiatif di Google ini dengan menyebut kata web AI yang lebih general, instead of jamanai web AI atau JMA web, jadi lebih inklusif menurut saya. Lebih generic, jadi nggak, ini bukan tentang Google sih sebenarnya. Bukan hanya tentang Google. Atau tentang Google, tapi bukan dengan cara yang kasar ya. Maksud saya dengan cara yang kayak cuma monopoli doang. Ya kan pada akhirnya itu tadi kayak sintaksnya itu kan bisa untuk model dari, ya harus jamanai kan, bisa dipakai dengan model dari tempat lain, model lain bisa di-convert juga. Kan itu secara nggak langsung memperluas penggunanya Google Chrome kan. Banyak developer bikin aplikasi yang bagus yang jalannya, optimisinya sekarang di Chrome, ya udah. Mereka ikut untung, tapi dengan cara yang luas lah, nggak sempit dalam arti promote jamanai doang. - Yes, jangan lupa juga walaupun di client-side, tapi kita bisa pakai hybrid juga kan. - Itu tadi emang di inkor. - Incor dengan device sama server-side ya, jadi bisa dua-duanya. Itu nggak mesti hanya, \"Wah kalau jalan di client doang, berat doang, gede\", gitu ya. Mungkin kita bisa server-side-nya mungkin... - Kita tergantung kebutuhan, ya kan? - Tergantung kebutuhan, betul. Oke, mungkin untuk episode ini sekian dulu. Kalau mau ada episode follow-up, boleh silahkan teman-teman komen ya. Kalau masih suka tentang AI, komen. Kalau bosan tentang AI, komen juga. Jadi kita bisa ganti. - AI mulu framework kek. - Apaan sih ini? AI-AI mulu gitu ya. - Ada tanyaan kek. - Ada yang, mungkin ada yang parno gitu, bakal tergantikan sama AI, jadi takut gitu. - Ada pertanyaan klasik banget. Coba nanti tanya ke Gimar apakah aku akan digantikan oleh AI. Ya, nanti ditanya sendiri. - Ya, silahkan ke sana.in/ngobrolinweb, ya. Atau ada pertanyaan-pertanyaan seputar apapun, nggak mesti hanya... Dibahas dong di episode ini, nggak mesti mungkin pertanyaan umum aja. Silahkan tanyain aja, kita diskusi di sana. Mungkin untuk malam ini, udahan dulu. Terima kasih banyak buat semuanya yang sudah menonton dan sudah meramaikan sesi malam ini. Kita ketemu lagi minggu depan dengan topik-topik yang berbeda apakah AI lagi atau nggak. Tunggu aja ya hari Selasa malam. - Kita juga nggak tahu. Nanti kita tanya AI. - Nanti kita tanya sama AI. Selamat malam, selamat istirahat, sampai jumpa minggu depan. Bye-bye. - Bye. Terima kasih telah menonton!"
+}
