@@ -1,0 +1,4218 @@
+{
+  "videoId": "KPZ-BgtX1kk",
+  "language": "id",
+  "generatedAt": "2026-05-13T14:12:02.005Z",
+  "segments": [
+    {
+      "start": 0,
+      "end": 7.36,
+      "text": "kita di ngobrolin web, karena malam ini adalah hari Selasa Malam Rambu."
+    },
+    {
+      "start": 7.36,
+      "end": 15.92,
+      "text": "- Selasa Malam Rambu. - Kok nggak kompak ya kayaknya, opening-nya ganti-ganti terus ya."
+    },
+    {
+      "start": 15.92,
+      "end": 22.88,
+      "text": "Kayaknya kita harus latihan dulu deh, kita harus latihan dulu, kita harus bikin script-nya latihan dulu."
+    },
+    {
+      "start": 22.88,
+      "end": 29.44,
+      "text": "Gimana kabarnya teman-teman malam hari ini semoga semuanya sehat-sehat ya,"
+    },
+    {
+      "start": 29.44,
+      "end": 38.4,
+      "text": "yang nonton juga, mungkin boleh say hi kita di komentar, biar bisa kita liat-liat nih siapa aja yang sudah hadir malam hari ini."
+    },
+    {
+      "start": 38.4,
+      "end": 44.64,
+      "text": "Seperti biasa kalau mau tanya-tanya di komentar juga boleh, baik yang ada mau tanya maupun yang nggak ada."
+    },
+    {
+      "start": 44.64,
+      "end": 50.32,
+      "text": "Yang nggak ada hubungannya juga boleh ditanya ya, yang nggak boleh ditanya itu tanya nomor top 10."
+    },
+    {
+      "start": 50.32,
+      "end": 54.4,
+      "text": "- Biasanya ada yang bahas jQuery lagi. - Oh iya, biasanya betul."
+    },
+    {
+      "start": 54.4,
+      "end": 57.6,
+      "text": "- Setiap episode harus ada jQuery. - Betul."
+    },
+    {
+      "start": 57.6,
+      "end": 62.72,
+      "text": "Ya, jadi kita malam hari ini seperti biasa kita akan ngobrolin seputar dunia web,"
+    },
+    {
+      "start": 62.72,
+      "end": 71.44,
+      "text": "teknologi web yang cakupannya sangat besar, dan malam hari ini kita akan membahas tentang kue atau cookies."
+    },
+    {
+      "start": 71.44,
+      "end": 77.44,
+      "text": "- Oh iya, kue. - Cookies itu kue bukan sih, atau kue coklat gitu kan?"
+    },
+    {
+      "start": 77.44,
+      "end": 81.68,
+      "text": "- Biscuit. - Biscuit, oh biscuit, oke."
+    },
+    {
+      "start": 81.68,
+      "end": 90.32,
+      "text": "Nah biskuit favorit Ivan apa? Tanpa menyebutkan merek."
+    },
+    {
+      "start": 90.32,
+      "end": 92.96,
+      "text": "- Susah ya. - Susah ya."
+    },
+    {
+      "start": 92.96,
+      "end": 94.8,
+      "text": "- Susah. - Tunggu dapetin tulisan dulu."
+    },
+    {
+      "start": 94.8,
+      "end": 97.84,
+      "text": "- Coklat chip lah, coklat chip. - Toko chip ya, oh iya."
+    },
+    {
+      "start": 97.84,
+      "end": 100.72,
+      "text": "- Yang mereknya itu ya. - Pasti ada merek top of mind kan."
+    },
+    {
+      "start": 100.72,
+      "end": 104.56,
+      "text": "Waktu yang baik ya, waktu yang baik."
+    },
+    {
+      "start": 104.56,
+      "end": 113.12,
+      "text": "Ya biskuit ya, wafers termasuk biskuit ga wafers?"
+    },
+    {
+      "start": 113.12,
+      "end": 116.72,
+      "text": "- Beda, wafers beda. - Engga ya, beda lagi ya."
+    },
+    {
+      "start": 116.72,
+      "end": 121.52,
+      "text": "- Kerupuk apa lagi, bukan? - Oh iya bukan, halo Ira."
+    },
+    {
+      "start": 121.52,
+      "end": 125.52,
+      "text": "Selamat datang. Ya, jadi kita malam ini ga akan ngomongin makanan,"
+    },
+    {
+      "start": 125.52,
+      "end": 129.44,
+      "text": "- Tapi kita ngomongin tentang sesuatu. - Sayangnya, cookies."
+    },
+    {
+      "start": 129.44,
+      "end": 132.48,
+      "text": "- Ya namanya. - Teknologi web yang namanya cookies."
+    },
+    {
+      "start": 132.48,
+      "end": 137.36,
+      "text": "Yang biasa digunakan di browser, dan dalam beberapa tahun belakangan ini"
+    },
+    {
+      "start": 137.36,
+      "end": 142.88,
+      "text": "sangat sering muncul, terutama kalau kita baru buka web yang baru kita akses gitu kan."
+    },
+    {
+      "start": 142.88,
+      "end": 145.28,
+      "text": "- Terus tiba-tiba ada... - Pasti ada banner."
+    },
+    {
+      "start": 145.28,
+      "end": 150,
+      "text": "Apa sih ini cookies, maksudnya gitu kan, malam hari ini kita akan..."
+    },
+    {
+      "start": 150,
+      "end": 152.56,
+      "text": "- Aset-aset aja ya. - Iya, terima-terima aja ya."
+    },
+    {
+      "start": 152.56,
+      "end": 156.64,
+      "text": "- Ga dibaca dulu atau ini apa. - Cookie apa, terus apa yang terjadi pas accept"
+    },
+    {
+      "start": 156.64,
+      "end": 162.24,
+      "text": "juga kelihatannya sebagian besar pengguna web ya, ga begitu tahu."
+    },
+    {
+      "start": 162.24,
+      "end": 167.28,
+      "text": "Terus kayaknya juga sekalian kayaknya kalau webdev diminta,"
+    },
+    {
+      "start": 167.28,
+      "end": 171.52,
+      "text": "diminta selalu buatin cookies ya pokoknya pasang-pasang aja."
+    },
+    {
+      "start": 171.52,
+      "end": 175.52,
+      "text": "Pasang-pasang aja tuh bannernya, tinggal install leveler-nya,"
+    },
+    {
+      "start": 175.52,
+      "end": 177.52,
+      "text": "1 install plug-nya yang penting jadi gitu."
+    },
+    {
+      "start": 177.52,
+      "end": 184.48,
+      "text": "- Ya kita akan mulai dari apa itu cookies, digunakan di bagian mananya,"
+    },
+    {
+      "start": 184.48,
+      "end": 189.52,
+      "text": "dan kenapa kok beberapa tahun belakangan ini tiba-tiba cookies itu seperti sebuah..."
+    },
+    {
+      "start": 189.52,
+      "end": 192.4,
+      "text": "- Seperti di mana-mana? - Seperti keharusan."
+    },
+    {
+      "start": 192.4,
+      "end": 196.88,
+      "text": "Kalau dulu kok ga ada gitu kan, ya kita pakai cookies biasanya untuk session gitu kan."
+    },
+    {
+      "start": 196.88,
+      "end": 199.68,
+      "text": "Biasanya untuk session, untuk autotifikasi dan lain-lain."
+    },
+    {
+      "start": 199.68,
+      "end": 202.72,
+      "text": "Tapi ga ada tuh yang accept cookies, reject cookies gitu."
+    },
+    {
+      "start": 202.72,
+      "end": 207.12,
+      "text": "Terus tiba-tiba beberapa tahun belakangan ini tiba-tiba kayaknya beberapa website"
+    },
+    {
+      "start": 207.12,
+      "end": 212,
+      "text": "terutama Eropa gitu ya, itu harus ada accept cookies sebelum kita baca gitu,"
+    },
+    {
+      "start": 212,
+      "end": 216.32,
+      "text": "harus ada kayak semacam pop-up atau ada banner di bawahnya itu yang harus kita"
+    },
+    {
+      "start": 216.32,
+      "end": 222.48,
+      "text": "klik dulu baru bisa kita nikmati website. - Nah, sisa kalaman."
+    },
+    {
+      "start": 222.48,
+      "end": 229.92,
+      "text": "- Jadi cookies itu apa? Ini Ivan ya, Ivan? Mari kita baca sama-sama."
+    },
+    {
+      "start": 229.92,
+      "end": 232.8,
+      "text": "- Kita baca sama-sama. - Sebenarnya awalnya..."
+    },
+    {
+      "start": 232.8,
+      "end": 238,
+      "text": "- Ada sejarahnya ternyata. - Iya. Cookies itu secara singkat aja ya."
+    },
+    {
+      "start": 238,
+      "end": 246.24,
+      "text": "Itu cara temporary storage yang ada di browser untuk menyimpan data."
+    },
+    {
+      "start": 246.24,
+      "end": 249.84,
+      "text": "Itu aja sih sebenarnya simpelnya, tapi kita lihat sejarahnya dulu ya."
+    },
+    {
+      "start": 249.84,
+      "end": 255.44,
+      "text": "Kalau kita tahu ya HTTP request atau hypertext transfer protocol itu sebenarnya"
+    },
+    {
+      "start": 255.44,
+      "end": 265.28,
+      "text": "ya kalau tahu web, cara requestnya kan via HTTP ya, HTTP itu protokolnya dan itu sebenarnya stateless."
+    },
+    {
+      "start": 265.28,
+      "end": 271.52,
+      "text": "Stateless itu waktu terjadi request dari this one itu sebenarnya servernya bodoh amat,"
+    },
+    {
+      "start": 271.52,
+      "end": 275.36,
+      "text": "ga tau siapa yang request, yang penting ada request itu, halaman itu,"
+    },
+    {
+      "start": 275.36,
+      "end": 279.36,
+      "text": "gue respond ini gitu. Intinya kan seperti itu stateless."
+    },
+    {
+      "start": 279.36,
+      "end": 289.36,
+      "text": "Gak peduli itu siapa, dimana gitu ya. Ada service, gue minta minum gitu,"
+    },
+    {
+      "start": 289.36,
+      "end": 294.72,
+      "text": "kasih minum, udah gitu aja. Gak peduli siapa. - Ya ga tau sebelumnya udah kasih minum atau belum."
+    },
+    {
+      "start": 294.72,
+      "end": 300.96,
+      "text": "- Kalau istilah di programmingnya pure function gitu ya, apapun yang negasi hasil akhirnya tetap sama gitu ya."
+    },
+    {
+      "start": 300.96,
+      "end": 305.52,
+      "text": "- Input, output selalu sama. - Jadi memang dulu awalnya,"
+    },
+    {
+      "start": 305.52,
+      "end": 313.28,
+      "text": "kalau back to tahun 90-an, jamannya web itu awal-awal itu kan sebenarnya simpel informasi aja ya."
+    },
+    {
+      "start": 313.28,
+      "end": 316.64,
+      "text": "Kayak semua, kayak library online aja pokoknya semua text gitu."
+    },
+    {
+      "start": 316.64,
+      "end": 321.68,
+      "text": "- Dokumen lah ya. - Dokumen, orientasinya pada sharing dokumen."
+    },
+    {
+      "start": 321.68,
+      "end": 332.08,
+      "text": "Betul. Terus si Mas Lomontuli ini itu dari Netscape ya, di 90-an awal, ada problem."
+    },
+    {
+      "start": 332.08,
+      "end": 336.48,
+      "text": "Waktu itu mereka lagi bikin online store untuk company namanya MCI."
+    },
+    {
+      "start": 336.48,
+      "end": 342.56,
+      "text": "- Tahun 90-an udah ada online store berarti? - Udah awalnya gitu."
+    },
+    {
+      "start": 342.56,
+      "end": 348.96,
+      "text": "Awalnya semua data itu disimpan di server. Saya ga tau ya gimana caranya,"
+    },
+    {
+      "start": 348.96,
+      "end": 354.72,
+      "text": "karena kepikiran sekarang itu sisinya yang penting kalau mau bikin login pasti pakai cookies atau session gitu ya."
+    },
+    {
+      "start": 354.72,
+      "end": 365.76,
+      "text": "Sekarang kita ga tau, kalau zaman dulu itu mungkin mereka cari simpannya setiap customer punya URL unik dan datanya disimpan di server."
+    },
+    {
+      "start": 365.76,
+      "end": 373.84,
+      "text": "Nah itu kan berarti kalau satu hari aksesnya 1000, berarti 1000 customer beda-beda dong disimpan semua di server, jadinya lambat gitu."
+    },
+    {
+      "start": 373.84,
+      "end": 383.6,
+      "text": "Akhirnya perubahan nasi tektur, si company minta, \"Gua ga mau disimpan di server, gua mau semua data ini simpannya sebenarnya di komputer user aja.\""
+    },
+    {
+      "start": 383.6,
+      "end": 398.4,
+      "text": "Dibalik gitu ya. Jadi identifier-nya disimpan di komputernya si customer, disitulah lahir namanya Magic Cookie."
+    },
+    {
+      "start": 398.4,
+      "end": 403.28,
+      "text": "- Magic Cookie, lucu ya dulu namanya ada magic-nya. - Iya."
+    },
+    {
+      "start": 403.28,
+      "end": 413.76,
+      "text": "Ini dia sebutkan bahwa konsep ini sudah di halangan programmer, udah lumrah udah umum."
+    },
+    {
+      "start": 413.76,
+      "end": 423.6,
+      "text": "Iya, Magic Cookie tetap. Kayak identifier, kalau misalnya kita mau request, mungkin kan jaman itu protocolnya ga cuma HTTP ya."
+    },
+    {
+      "start": 423.6,
+      "end": 434.88,
+      "text": "Masih ada protocolnya ini, FTP, masih ada FTP, SFTP segala macam. Mungkin jaman itu ada protocol lain, dia identifier."
+    },
+    {
+      "start": 434.88,
+      "end": 439.04,
+      "text": "- Atau sistem komunikasi yang saling berkomunikasi kali ya? Kayak internet atau jaringan apa pun. - Iya, betul."
+    },
+    {
+      "start": 439.04,
+      "end": 446.16,
+      "text": "Kalau misalnya mau identifikasi, kirim sesuatu kayak flag, kayak data tambahan, siapa gua gitu ya."
+    },
+    {
+      "start": 446.16,
+      "end": 456.48,
+      "text": "Nah, itulah namanya Magic Cookie di kalangan jaman itu. Dengan sistem yang sama, dia terapkan di HTTP atau di web."
+    },
+    {
+      "start": 456.48,
+      "end": 461.76,
+      "text": "Nahir lah Cookie. Itu aja sih sejarah singkatnya ya."
+    },
+    {
+      "start": 461.76,
+      "end": 468.32,
+      "text": "- Nah kalau mau baca lagi lanjut, bagaimana cara ketujuan Cookie. - Baca sendiri ya."
+    },
+    {
+      "start": 468.32,
+      "end": 479.92,
+      "text": "Iya, namun sebagai intinya, anggap aja kalau di dunia sekarang itu gampangnya gini lah ya."
+    },
+    {
+      "start": 479.92,
+      "end": 487.2,
+      "text": "Kalau kita mau masuk parkir, kita masuk ambil tiket, supaya kita bisa keluar kita tunjukin tiket identifier kita itu ya."
+    },
+    {
+      "start": 487.2,
+      "end": 491.44,
+      "text": "Itulah Cookie, yang sepotong kertas itulah Cookie."
+    },
+    {
+      "start": 491.44,
+      "end": 505.84,
+      "text": "Jadi kalau di ilustrasi ini, user log in, berhasil log in, sesenya di-store ke database, kemudian hasilnya dikirim Cookie."
+    },
+    {
+      "start": 505.84,
+      "end": 512.8,
+      "text": "Dikirim hasil sesen ID-nya. Sesen ID-nya disimpan di lokal, di klien dalam bentuk Cookie."
+    },
+    {
+      "start": 512.8,
+      "end": 520.16,
+      "text": "Dan ketika setiap kali kita mengakses web yang harus membutuhkan log in, Cookie-nya dibawa."
+    },
+    {
+      "start": 520.16,
+      "end": 524.16,
+      "text": "- Kita request berserta kuehnya ini ya, kueh kuehnya ini. - Tiket merger tadi."
+    },
+    {
+      "start": 524.16,
+      "end": 534.56,
+      "text": "Jadi kita nggak perlu buka konsol, jadi semuanya itu ada di dev console bisa kelihatan."
+    },
+    {
+      "start": 534.56,
+      "end": 540.8,
+      "text": "- Di bahagia application cookies. - Aplikasi cookies."
+    },
+    {
+      "start": 540.8,
+      "end": 557.52,
+      "text": "Jadi dia sebenarnya sederhana seperti key value store ya, kayak redis, kalau yang di web juga ada database itu, index DB ya kan?"
+    },
+    {
+      "start": 557.52,
+      "end": 562.72,
+      "text": "- Index DB. - Ya, caching yang kemarin kita bahas juga key value store juga."
+    },
+    {
+      "start": 562.72,
+      "end": 576.64,
+      "text": "Jadi ada beberapa macam persistent storage ya, seperti Mas Dita sudah bilang, itu dari yang paling, cookies itu cuma bisa memuat 40, coba scroll sedikit ke bawah, kalau nggak salah 40 kilobyte deh."
+    },
+    {
+      "start": 576.64,
+      "end": 584.48,
+      "text": "- 40 kilobyte. - 4 kilobyte, 4 kilobyte aja itu maksimal."
+    },
+    {
+      "start": 584.48,
+      "end": 602.08,
+      "text": "Jadi cookies itu storage yang paling lama ya, bisa dibilang paling pertama ada, dan kelihatannya perbedaan utamanya dibanding storage lainnya adalah si cookie ini selalu ke bawah ya, di request dan respond."
+    },
+    {
+      "start": 602.08,
+      "end": 609.92,
+      "text": "Apa di operasi-operasi protocol HTTP, jadi perbedaan paling utama sih itu ya kelihatannya."
+    },
+    {
+      "start": 609.92,
+      "end": 627.36,
+      "text": "Jadi kalau misalkan tadi kita login, terus kita udah dapat session ID-nya yang di-store di database, kemudian dikirimkan ke kita, setiap kali kita mau masuk ke halaman yang membutuhkan login, kita tuh nggak perlu login lagi, karena udah ada si cookie-nya ini."
+    },
+    {
+      "start": 627.36,
+      "end": 637.92,
+      "text": "Kalau misalkan kita nggak kirimin cookie-nya, berarti kita harus login lagi setiap halaman. Setiap halaman kan cape ya, karena kan tadi yang Ivan ceritakan bahwa setiap halaman, setiap request itu..."
+    },
+    {
+      "start": 637.92,
+      "end": 646.32,
+      "text": "- Aslinya status. - Jadi dia nggak tahu kita udah dalam keadaan login atau belum. Nah, yang menandakan kita udah login atau belum ya cookie-nya ini."
+    },
+    {
+      "start": 646.32,
+      "end": 658.48,
+      "text": "- Ya, kali dengan cookie. - Iya. Ada juga yang kadang-kadang ada di halaman loginnya itu ada remember login selama 30 hari, ya itu cookie-nya ya expired-nya sampai 30 hari gitu."
+    },
+    {
+      "start": 658.48,
+      "end": 669.76,
+      "text": "- Ya kan? - Termasuk ini ya, termasuk dengan request yang terjadi via Ajax ya."
+    },
+    {
+      "start": 669.76,
+      "end": 672.48,
+      "text": "- Client side. - Oh ya, client side."
+    },
+    {
+      "start": 672.48,
+      "end": 675.2,
+      "text": "- Request. - Fetch."
+    },
+    {
+      "start": 675.2,
+      "end": 679.36,
+      "text": "- Ajax. - Ajax. XHR."
+    },
+    {
+      "start": 679.36,
+      "end": 689.44,
+      "text": "- Oh, ini bahasanya masih bahasa jQuery ya, Ajax. - Enak aja, itu Ajax itu sebelumnya. Itu yang diadopsi sama jQuery sebelumnya kan, Ajax."
+    },
+    {
+      "start": 689.44,
+      "end": 692.88,
+      "text": "- Apa? XML? - XML HTTP request."
+    },
+    {
+      "start": 692.88,
+      "end": 698.64,
+      "text": "Panjang banget namanya. Makanya disingkat sama jQuery kan dot get dot post."
+    },
+    {
+      "start": 698.64,
+      "end": 704.32,
+      "text": "- Ya, pokoknya apapun client side request tapi ya ini. - Iya."
+    },
+    {
+      "start": 704.32,
+      "end": 712.56,
+      "text": "- Ya misalkan kita... - Cookie selalu ke bawah. - Mau request ke API yang membutuhkan login atau autentikasi."
+    },
+    {
+      "start": 712.56,
+      "end": 720.88,
+      "text": "Jadi API-nya tidak publik, nggak bisa dibaca umum. Hanya bisa dibaca oleh user-user yang terautentikasi."
+    },
+    {
+      "start": 720.88,
+      "end": 725.36,
+      "text": "- Nah, caranya adalah... - Ya misalnya kita mau lihat draft-post kita sendiri."
+    },
+    {
+      "start": 725.36,
+      "end": 734.56,
+      "text": "Itu cuma misalnya aplikasi blogging atau email, kan kita harus lihat kita akan nge-fetch email kita sendiri atau draft-post kita sendiri."
+    },
+    {
+      "start": 734.56,
+      "end": 747.6,
+      "text": "Nah, kita harus kirim si token atau apapun itu yang mengidentifikasi siapakah kita lewat dengan cookies yang dikirim lewat request itu ya, berarti."
+    },
+    {
+      "start": 747.6,
+      "end": 758.96,
+      "text": "Betul. Nah, kalau mau tahu atau mau belajar lebih lanjut, disini ada tautan yang menarik nih dari Data Academia."
+    },
+    {
+      "start": 758.96,
+      "end": 766.64,
+      "text": "Nah, menurutku ini salah satu resursi yang enak buat beginner kalau misalnya yang pengen dari awal banget."
+    },
+    {
+      "start": 766.64,
+      "end": 776.72,
+      "text": "Terus kalau menurutku ini lebih jelas dari MDN malah. Karena MDN itu kan detail. Cuma maksudnya kita harus sudah tahu kita mau cari apa."
+    },
+    {
+      "start": 776.72,
+      "end": 784.24,
+      "text": "Kita harus agak familiar dulu sedikit baru cari. Nah, kalau ini tuh kayak urutannya lumayan enak sih menurutku buat dibelajarin."
+    },
+    {
+      "start": 784.24,
+      "end": 789.6,
+      "text": "Cookie itu, apa contohnya liatnya di mana? Terus itu ada contohnya."
+    },
+    {
+      "start": 789.6,
+      "end": 794,
+      "text": "- Ada... - Kalau mau dibelajarin lebih lanjut sih bisa cek aja link-nya."
+    },
+    {
+      "start": 794,
+      "end": 800.88,
+      "text": "Oke, ada contoh-contohnya, ada contoh kasusnya juga bisa dipakai di model autentikasi."
+    },
+    {
+      "start": 800.88,
+      "end": 809.84,
+      "text": "Ada, nanti kita bahas juga tentang third party, first party, cookie, gitu kan. Ada web security juga, macem-macem ya."
+    },
+    {
+      "start": 809.84,
+      "end": 818.4,
+      "text": "Nah, terus apa cara nge-setnya tuh bagaimana? Jadi kan tadi udah dibilang sedikit ya sekilas. Cookie tuh key value."
+    },
+    {
+      "start": 818.4,
+      "end": 825.12,
+      "text": "Maksudnya walaupun flag-nya banyak, semua tuh harus di-stringify jadi satu. Nah, bentuknya kayak gitu tuh."
+    },
+    {
+      "start": 825.12,
+      "end": 830.88,
+      "text": "Format sintaksnya seperti itu. Jadi nggak bisa kita kirim objek."
+    },
+    {
+      "start": 830.88,
+      "end": 840.56,
+      "text": "Betul, database sederhana yang hanya bisa menerima string. Jadi semuanya harus dijadikan string terlebih dahulu untuk value-nya."
+    },
+    {
+      "start": 840.56,
+      "end": 844.88,
+      "text": "Sedangkan key-nya string juga. Jadi dua-duanya string ya."
+    },
+    {
+      "start": 844.88,
+      "end": 850.4,
+      "text": "Nah, terus beberapa penggunaan yang cukup umum tuh usage."
+    },
+    {
+      "start": 850.4,
+      "end": 858.96,
+      "text": "Kan tadi kita udah bahas tuh yang 6, apa? Point 6.1 ya. Maksudnya identifikasi, siapa kita, 6.2 juga."
+    },
+    {
+      "start": 858.96,
+      "end": 866.4,
+      "text": "Autentikasi juga udah kita bahas. Cross-site tracking. Nah, ini yang nanti bakal banyak topiknya ya."
+    },
+    {
+      "start": 866.4,
+      "end": 878.56,
+      "text": "Iya, ada A/B testing juga. Jadi, apa? Bisa menentukan. Bisa nge-tag user-nya. Dia sudah akses alpas sehingga kita bisa kasih konten yang berbeda."
+    },
+    {
+      "start": 878.56,
+      "end": 888.56,
+      "text": "Jadi misalnya contoh kasusnya mungkin yang belum familiar ya. A/B testing tuh misalnya kalau marketing kita mau jualan sesuatu,"
+    },
+    {
+      "start": 888.56,
+      "end": 894.8,
+      "text": "itu kalau tombolnya di atas, kita pengen tahu kalau tombolnya di atas yang membeli berapa banyak."
+    },
+    {
+      "start": 894.8,
+      "end": 900.48,
+      "text": "Terus gimana kalau ditukar. Misalnya apa, image-nya di atas, tombolnya yang di bawah."
+    },
+    {
+      "start": 900.48,
+      "end": 910.48,
+      "text": "Banyak yang beli kan itu mungkin untuk bakal pakai load balancer atau teknologi apapun itu, sebagian user dapat format A, sebagian user dapat format B."
+    },
+    {
+      "start": 910.48,
+      "end": 921.76,
+      "text": "Nah, kita kan harus tahu tuh user yang nge-click itu dapat layout yang mana. Jadi itu harus pakai cookie untuk A/B testing umumnya."
+    },
+    {
+      "start": 921.76,
+      "end": 932.72,
+      "text": "Umumnya seperti itu. Terus kita bahas apa lagi nih? Sudah tahu cookies itu apa? Kalo itu security, nanti aja lah ya."
+    },
+    {
+      "start": 932.72,
+      "end": 942.72,
+      "text": "Panjang itu ya. Panjang nanti. Oke, lebih ke ini mungkin. Kita udah tahu cookies itu apa, kemudian cara penggunaannya gimana,"
+    },
+    {
+      "start": 942.72,
+      "end": 949.52,
+      "text": "digunakan di mana. Nah, kok kenapa tiba-tiba, ya cookies ini kan udah lama dipakai ya, udah lama banget gitu kan."
+    },
+    {
+      "start": 949.52,
+      "end": 958,
+      "text": "Dari 90an lah tadi. Dari awal 90an udah dimunculkan, terus kita pakai juga mungkin kalo temen-temen yang udah biasa"
+    },
+    {
+      "start": 958,
+      "end": 967.28,
+      "text": "nge-hoding gitu ya, udah biasa bikin aplikasi web terutama, bikin login pasti pakai sessionnya, ya disimpanin salah satunya di cookies gitu kan."
+    },
+    {
+      "start": 967.28,
+      "end": 976.4,
+      "text": "Nah, tapi kenapa akhir-akhir ini berapa tahun belakangan nih kok tiba-tiba si cookie ini selalu harus kita accept atau kita reject gitu ya."
+    },
+    {
+      "start": 976.4,
+      "end": 987.12,
+      "text": "Ada semacam kayak pop-up atau banner di bagian bawah biasanya. Sebelum kita mau baca artikel atau mau buka aplikasi webnya, kita harus accept dulu."
+    },
+    {
+      "start": 987.12,
+      "end": 996.64,
+      "text": "Kita harus setuju dulu. Harus setuju. Nah, ini ada apa nih? Kenapa akhirnya muncul? Ada apa dengan cookies?"
+    },
+    {
+      "start": 996.64,
+      "end": 1008.4,
+      "text": "Ada apa dengan cookies? Ya sebetulnya mungkin itu ya berkaitan sama poin 6 tadi, beberapa penggunaan cookies. Ya mungkin sejak dulu kan emang"
+    },
+    {
+      "start": 1008.4,
+      "end": 1019.2,
+      "text": "cookies itu bisa berisi informasi yang sensitif. Sensitif maksudnya apa? Ya itu bisa berarti rahasia atau bisa mengidentifikasi kita itu siapa."
+    },
+    {
+      "start": 1019.2,
+      "end": 1031.2,
+      "text": "Ya contoh paling gampangnya email lah ya. Email atau username dan lain-lain. Nah, terus apa? Nature-nya cookie itu yang tadi kita udah bahas kan,"
+    },
+    {
+      "start": 1031.2,
+      "end": 1042.64,
+      "text": "selalu nempel di request dan response. Dan bahkan dulu, mungkin sekarang udah nggak ya atau masih. Jadi kalau misalnya di halaman web kita"
+    },
+    {
+      "start": 1042.64,
+      "end": 1054.96,
+      "text": "membuat request ke origin atau domain lain, misalnya untuk memanggil image atau accept apapun atau javascript, misalnya analytic script apapun"
+    },
+    {
+      "start": 1054.96,
+      "end": 1066.24,
+      "text": "yang di luar website kita, itu kan bikin request. Nah, kita di situ juga kekirim di request. Sementara cookie itu bisa berisi beberapa hal"
+    },
+    {
+      "start": 1066.24,
+      "end": 1077.92,
+      "text": "yang bersifat informasi pribadi. Sebenarnya berangkat dari situ sih. Dan itu kan dari dulu. Cuma mungkin namanya apa e-commerce atau online marketing"
+    },
+    {
+      "start": 1077.92,
+      "end": 1087.84,
+      "text": "atau praktek-praktek iklan dan analytics dan social media dan hal-hal semacamnya mungkin kan baru meledak ya sekian tahun terakhir ya."
+    },
+    {
+      "start": 1087.84,
+      "end": 1099.84,
+      "text": "Mungkin jadi muncul macem-macem, ya ada penyalahgunaan, mungkin ada eksploitasi yang berdampak kurang baik buat user, makanya mulai lahir aturan-aturan"
+    },
+    {
+      "start": 1099.84,
+      "end": 1111.36,
+      "text": "yang mengatur penggunaan cookies. Kalau menurutku sih lainnya dari situ tuh. - Yang mengatur bagaimana penyimpanan data user."
+    },
+    {
+      "start": 1111.36,
+      "end": 1119.92,
+      "text": "- Penyimpanan data user. Ya, intinya sebenarnya si cookies ini kan sifatnya public ya. Jadi jangan sampai teman-teman"
+    },
+    {
+      "start": 1119.92,
+      "end": 1130.08,
+      "text": "nyimpan data-data pribadi user di cookies atau di local storage karena kemungkinan bisa diambilkan sama orang ya."
+    },
+    {
+      "start": 1130.08,
+      "end": 1142.48,
+      "text": "- Jangan simpan ini ya, kalau webdev ini ya, jangan simpan IPIQ di cookies. - IPIQ? - IPIQ di cookies. - IPIQ? - Iya, siapa tahu."
+    },
+    {
+      "start": 1142.48,
+      "end": 1153.76,
+      "text": "- Itu agak unik juga itu. - Siapa tahu. - Cuma itu kan sebenarnya rumit juga ya nuance."
+    },
+    {
+      "start": 1153.76,
+      "end": 1163.76,
+      "text": "- Biasanya kalau untuk login, kita kan punya data session. Data session itu biasanya memang dikirim lewat cookies dalam bentuk jwt-encrypted kan."
+    },
+    {
+      "start": 1163.76,
+      "end": 1175.36,
+      "text": "Cuma yang tabu, yang gak boleh, itu passwordnya jangan dikirim lewat cookies. Kalainkan sessionnya. Kenapa? Karena session itu bisa di-invalidate kan."
+    },
+    {
+      "start": 1175.36,
+      "end": 1184.08,
+      "text": "- Betul, iya. - Kita bisa matur, itu bisa expire, bisa di-invalidate. Jadi ya itu berbagai layer keamanan aja sih."
+    },
+    {
+      "start": 1184.08,
+      "end": 1196.64,
+      "text": "- Dan beberapa tahun terakhir muncul, nah ini gara-gara ada isu tentang data protection tadi. - Ngomongin cookies, \"Ada-ada nih, akan kesini nih.\""
+    },
+    {
+      "start": 1196.64,
+      "end": 1205.6,
+      "text": "Kalau sebelumnya, ingat gak, ya saat social media meredak lah ya. Itu kan ibaratnya web 2.0, bahasanya jaman itu ya."
+    },
+    {
+      "start": 1205.6,
+      "end": 1218.64,
+      "text": "Jadi user itu, kita pakai situs dan kita itu adalah, sebagai user kita itu adalah, ini apa istilahnya bahasanya?"
+    },
+    {
+      "start": 1218.64,
+      "end": 1230.64,
+      "text": "- Kita adalah produknya. - Kita adalah produknya, kita disegmentasi sebagai target iklan dan segala macam."
+    },
+    {
+      "start": 1230.64,
+      "end": 1236.64,
+      "text": "Pernah gak sih kalian apa ngerasain gitu misalkan awalnya kita browsing-browsing di marketplace."
+    },
+    {
+      "start": 1236.64,
+      "end": 1242.64,
+      "text": "Tiba-tiba buka social media, oh tiba-tiba muncul sepatu gitu."
+    },
+    {
+      "start": 1242.64,
+      "end": 1250.64,
+      "text": "Dan buat orang awam, maksudnya orang yang gak tahu tentang ini, itu mereka tuh bisa kaget loh."
+    },
+    {
+      "start": 1250.64,
+      "end": 1260.64,
+      "text": "- Maksudnya bisa terpengaruh secara psikis, kaget. - Loh, kok dia tahu ya? Kita baru cari sepatu gitu kan."
+    },
+    {
+      "start": 1260.64,
+      "end": 1266.64,
+      "text": "Ibaratnya itu sih damanya remarketing, ya. Remarketing dimana kita bisa disegmentasi berdasarkan interest."
+    },
+    {
+      "start": 1266.64,
+      "end": 1272.64,
+      "text": "Dan kemudian karena kita menggunakan situs lain contohnya, anggap lah mesin pencari apa gitu ya."
+    },
+    {
+      "start": 1272.64,
+      "end": 1282.64,
+      "text": "Kita login, ya login disitu. Terus kita, keyboardnya kita cari sepatu indah bola pingpong gitu misalnya."
+    },
+    {
+      "start": 1282.64,
+      "end": 1286.64,
+      "text": "- Misalnya sepatu apa lah gitu. - Tengah."
+    },
+    {
+      "start": 1286.64,
+      "end": 1298.64,
+      "text": "Sepatu. Misalnya sepatu lari gitu ya, sepatu lari gitu. Akhirnya dan kita itu di tag itu, interest kita sepatu lari."
+    },
+    {
+      "start": 1298.64,
+      "end": 1307.64,
+      "text": "Nanti data kita itu bisa digunakan oleh si penyedia mesin pencari itu dijual ke,"
+    },
+    {
+      "start": 1307.64,
+      "end": 1320.64,
+      "text": "disediakan service-nya ke third party untuk digunakan, eh ini user-nya, ada pool-nya yang interest dengan sepatu lari gitu."
+    },
+    {
+      "start": 1320.64,
+      "end": 1329.64,
+      "text": "Bisa lu target, nah gitu. Jadi saya pernah jadi produknya, pernah juga jadi marketer-nya."
+    },
+    {
+      "start": 1329.64,
+      "end": 1339.64,
+      "text": "Jadi kayak nyari men segmentasi user, berdasarkan kalau saya segmentasi keyboard ini, umur siang, daerah mana saya dapat 10.000 user."
+    },
+    {
+      "start": 1339.64,
+      "end": 1343.64,
+      "text": "Itu target saya, saya coba targetin untuk iklan."
+    },
+    {
+      "start": 1343.64,
+      "end": 1347.64,
+      "text": "Bisa detail ya, bisa sampai umur, range umur, lokasi."
+    },
+    {
+      "start": 1347.64,
+      "end": 1355.64,
+      "text": "Nah itu justru kalau cuma satu, jadi kan ini adalah akumulasi data yang masif lah, yang banyak banget."
+    },
+    {
+      "start": 1355.64,
+      "end": 1363.64,
+      "text": "Jadi kalau cuma satu poin kan sebetulnya kalau kita lihat di gambaran paling kecil, cara kerjanya kan iklan nih, iklan atau satu barang."
+    },
+    {
+      "start": 1363.64,
+      "end": 1373.64,
+      "text": "Itu disimpan bahwa user ini melihat sepatu lari, sepatu lari yang sepatu lari laki-laki ukuran sekian."
+    },
+    {
+      "start": 1373.64,
+      "end": 1380.64,
+      "text": "Nah tapi dengan cookie yang bisa mengikuti user kemana-mana, bahkan ke situs lain,"
+    },
+    {
+      "start": 1380.64,
+      "end": 1386.64,
+      "text": "lama-kelamaan kan gambarnya makin makin besar, maksudnya makin luas."
+    },
+    {
+      "start": 1386.64,
+      "end": 1394.64,
+      "text": "Jadi misalnya buka sepatu lari, membeli sepatu larinya di sebuah toko di Jakarta Selatan."
+    },
+    {
+      "start": 1394.64,
+      "end": 1397.64,
+      "text": "Misalnya berarti mulai ketahuan lokasinya."
+    },
+    {
+      "start": 1397.64,
+      "end": 1404.64,
+      "text": "Terus selain sepatu lari, dia juga misalnya si user itu juga misalnya membeli apa ya,"
+    },
+    {
+      "start": 1404.64,
+      "end": 1413.64,
+      "text": "beli aksesoris bayi atau baliha misalnya. Berarti kan diketahui itu sudah berkeluargaan, sudah punya anak."
+    },
+    {
+      "start": 1413.64,
+      "end": 1421.64,
+      "text": "Terus misalnya beli aksesoris mobil, berarti dia juga naik mobil, berarti bisa dibuat gambar tentang mungkin,"
+    },
+    {
+      "start": 1421.64,
+      "end": 1427.64,
+      "text": "ya itu status, tempat tinggal, mungkin range penghasilan, jenis pekerjaan."
+    },
+    {
+      "start": 1427.64,
+      "end": 1435.64,
+      "text": "Makin banyak data point-nya kan itu makin identifying ya, jadi bukan cuma satu hal aja,"
+    },
+    {
+      "start": 1435.64,
+      "end": 1439.64,
+      "text": "tapi kalau udah numpuk itu dampaknya jadi besar."
+    },
+    {
+      "start": 1439.64,
+      "end": 1442.64,
+      "text": "Jadi terbentuk persona masing-masing gitu ya?"
+    },
+    {
+      "start": 1442.64,
+      "end": 1452.64,
+      "text": "Betul. Nah di zaman sempat karena social media itu mulai mengumpulkan data seperti itu,"
+    },
+    {
+      "start": 1452.64,
+      "end": 1461.64,
+      "text": "dan ternyata datanya mulai digunakan untuk segmentasi iklan dan juga untuk kempen-kempen."
+    },
+    {
+      "start": 1461.64,
+      "end": 1465.64,
+      "text": "Di jual ke hal, oh ya politik juga ada dulu."
+    },
+    {
+      "start": 1465.64,
+      "end": 1473.64,
+      "text": "Kampanye politik, mungkin bukan kampanye politik tapi lebih ke arah menyebarkan istilahnya."
+    },
+    {
+      "start": 1473.64,
+      "end": 1479.64,
+      "text": "Berita-berita provokatif juga termasukkan yang bisa memenuhi, memikirkan orang."
+    },
+    {
+      "start": 1479.64,
+      "end": 1484.64,
+      "text": "Iya, menarikkan dan bisa menyesuaikan. Intinya banyak hal yang bisa digunakan."
+    },
+    {
+      "start": 1484.64,
+      "end": 1488.64,
+      "text": "Pokoknya di awalnya simple, kayaknya kita nggak mikir sampai situ."
+    },
+    {
+      "start": 1488.64,
+      "end": 1493.64,
+      "text": "Tapi ternyata setelah numpuk terbukti itu punya dampak yang,"
+    },
+    {
+      "start": 1493.64,
+      "end": 1497.64,
+      "text": "kalau nggak diatur, bisa punya dampak yang berbahaya."
+    },
+    {
+      "start": 1497.64,
+      "end": 1506.64,
+      "text": "Terus di 2016 lahirlah GDPR, General Data Protection Regular dari European Union,"
+    },
+    {
+      "start": 1506.64,
+      "end": 1514.64,
+      "text": "mewajibkan semua company ada range-nya ya, ada range duitnya."
+    },
+    {
+      "start": 1514.64,
+      "end": 1516.64,
+      "text": "Kenapa saya lupa, kalau nggak salah."
+    },
+    {
+      "start": 1516.64,
+      "end": 1518.64,
+      "text": "Yang cukup besar lah pokoknya ya."
+    },
+    {
+      "start": 1518.64,
+      "end": 1526.64,
+      "text": "Saya bukan lawyer, jadi saya cuma menjelaskan dari sisi web dev yang pernah implementasi GDPR secara detail."
+    },
+    {
+      "start": 1530.64,
+      "end": 1542.64,
+      "text": "Jadi, company yang saya berikan service untuk mengimplementasikan GDPR compliance ini terhadap cookies,"
+    },
+    {
+      "start": 1542.64,
+      "end": 1548.64,
+      "text": "itu pertama memasangkan cookies, cookie banner itu."
+    },
+    {
+      "start": 1548.64,
+      "end": 1553.64,
+      "text": "Di mana cookie banner itu terdiri dari beberapa kategori."
+    },
+    {
+      "start": 1553.64,
+      "end": 1557.64,
+      "text": "Ada functional cookie, ada functional yang wajib,"
+    },
+    {
+      "start": 1557.64,
+      "end": 1563.64,
+      "text": "ada kategori yang marketing, ada kategori yang analytics, segala macam."
+    },
+    {
+      "start": 1563.64,
+      "end": 1572.64,
+      "text": "Di GDPR ini sendiri mengatur, nggak cuma mengatur cookie, tetapi mengatur bagaimana si company bisa--"
+    },
+    {
+      "start": 1572.64,
+      "end": 1575.64,
+      "text": "-Mengelolaan data secara umum."
+    },
+    {
+      "start": 1575.64,
+      "end": 1579.64,
+      "text": "-Iya, mengelola data si customer-nya dia."
+    },
+    {
+      "start": 1579.64,
+      "end": 1591.64,
+      "text": "Pertama, GDPR ini secara policy mengatur, jika ada identifier yang diambil dari user,"
+    },
+    {
+      "start": 1591.64,
+      "end": 1595.64,
+      "text": "maka user itu wajib diberitahu."
+    },
+    {
+      "start": 1595.64,
+      "end": 1599.64,
+      "text": "Atau dengan konsen, makanya namanya cookie konsen."
+    },
+    {
+      "start": 1599.64,
+      "end": 1602.64,
+      "text": "Wajib memberikan konsen."
+    },
+    {
+      "start": 1602.64,
+      "end": 1604.64,
+      "text": "-Konsen itu bahasa Indonesia apa ya?"
+    },
+    {
+      "start": 1604.64,
+      "end": 1610.64,
+      "text": "-Memberikan izin, izinkan data kita untuk dipakai mereka."
+    },
+    {
+      "start": 1610.64,
+      "end": 1614.64,
+      "text": "-Walaupun kadang-kadang pilihannya cuma accept."
+    },
+    {
+      "start": 1614.64,
+      "end": 1620.64,
+      "text": "-Bukan dipakai, disimpan, dikelola."
+    },
+    {
+      "start": 1620.64,
+      "end": 1628.64,
+      "text": "Mengizinkan data-nya kita, karena data kita jika akses website, misalnya Wikipedia ini contohnya,"
+    },
+    {
+      "start": 1628.64,
+      "end": 1632.64,
+      "text": "mengakses Wikipedia, maka perusahaan itu wajib untuk"
+    },
+    {
+      "start": 1632.64,
+      "end": 1642.64,
+      "text": "memberitahu pada si user kalau mereka akan menyimpan data-nya dan wajib juga memberitahu user"
+    },
+    {
+      "start": 1642.64,
+      "end": 1648.64,
+      "text": "bagaimana cara mereka menyimpannya dan memastikan keamanan data mereka."
+    },
+    {
+      "start": 1648.64,
+      "end": 1651.64,
+      "text": "Jadi ada policy-nya."
+    },
+    {
+      "start": 1651.64,
+      "end": 1655.64,
+      "text": "-Konsen itu adalah memberi izin secara sadar."
+    },
+    {
+      "start": 1655.64,
+      "end": 1664.64,
+      "text": "Jadi ga boleh manipulatif di background, tiba-tiba ototis jalan ya, emang harus secara sadar, mengeklik, accept."
+    },
+    {
+      "start": 1664.64,
+      "end": 1668.64,
+      "text": "-Ga boleh bintang dan ketentuan berlaku gitu ya."
+    },
+    {
+      "start": 1668.64,
+      "end": 1677.64,
+      "text": "-Jadi itu satu, jadi memberitahu user untuk memberikan izin secara sadar."
+    },
+    {
+      "start": 1677.64,
+      "end": 1682.64,
+      "text": "Kedua, GDPR mengatur bagaimana data itu disimpan secara aman."
+    },
+    {
+      "start": 1682.64,
+      "end": 1692.64,
+      "text": "Ketiga, memberikan, mengatur bagaimana kalau data itu yang disimpan itu"
+    },
+    {
+      "start": 1692.64,
+      "end": 1700.64,
+      "text": "sepenuhnya bukan milik dari si perusahaan, tetapi milik si customer-nya, si user-nya."
+    },
+    {
+      "start": 1700.64,
+      "end": 1706.64,
+      "text": "Jadi user telah yang memiliki data itu yang disimpan oleh perusahaan."
+    },
+    {
+      "start": 1706.64,
+      "end": 1718.64,
+      "text": "Jadi sewaktu-waktu jika user ingin meminta data apa saja yang disimpan, si perusahaan wajib untuk memberikannya."
+    },
+    {
+      "start": 1718.64,
+      "end": 1722.64,
+      "text": "Menyediakan itu, semuanya gitu ya, ga boleh ada yang ditutupi."
+    },
+    {
+      "start": 1722.64,
+      "end": 1739.64,
+      "text": "Terakhir, si user boleh meminta si perusahaan untuk menghapus datanya itu dari perusahaan itu secara completely tanpa boleh ada backup."
+    },
+    {
+      "start": 1739.64,
+      "end": 1743.64,
+      "text": "-Kalau soft delete, ga boleh ya?"
+    },
+    {
+      "start": 1743.64,
+      "end": 1748.64,
+      "text": "-Gak boleh, jadi masuk trash bin, terus nanti di cover, ga boleh."
+    },
+    {
+      "start": 1748.64,
+      "end": 1753.64,
+      "text": "-Kalau kita bikin aplikasi kan, biasanya kan soft delete ya?"
+    },
+    {
+      "start": 1753.64,
+      "end": 1758.64,
+      "text": "Cuma tidak ditampilkan saja, tapi biasanya tetap ada."
+    },
+    {
+      "start": 1758.64,
+      "end": 1768.64,
+      "text": "-Ada challenge-nya di sini, kalau secara sistem data ukir segala macam, kebetulan situs yang saya bantu itu,"
+    },
+    {
+      "start": 1768.64,
+      "end": 1775.64,
+      "text": "saya kerjakan itu tidak ada data yang aneh-aneh yang disimpan secara saja, cuma data analytics saja."
+    },
+    {
+      "start": 1775.64,
+      "end": 1778.64,
+      "text": "Dan itu data-nya bisa dikumpulkan, bisa dihapus segala macam."
+    },
+    {
+      "start": 1778.64,
+      "end": 1790.64,
+      "text": "Jadi secara third party vendor yang mereka gunakan untuk analytics pun sudah sadar GDPR dan sudah ada fitur itu."
+    },
+    {
+      "start": 1790.64,
+      "end": 1793.64,
+      "text": "Fitur untuk mengambil data, fitur untuk menghapus data sudah ada."
+    },
+    {
+      "start": 1793.64,
+      "end": 1799.64,
+      "text": "Namun yang cookie banner-nya, cookie consent banner-nya ini kan harus di-customize ya."
+    },
+    {
+      "start": 1805.64,
+      "end": 1815.64,
+      "text": "Jadi dari sisi ada challenge-nya, karena situs ini sudah cukup lama."
+    },
+    {
+      "start": 1815.64,
+      "end": 1820.64,
+      "text": "Cookie-nya itu ada banyak, analytics-nya ada banyak, tracking-nya ada banyak, dan di-inject dari mana-mana."
+    },
+    {
+      "start": 1820.64,
+      "end": 1827.64,
+      "text": "Dari GTM lah, dari analytics lah, dari... I don't know, banyak banget lah intinya."
+    },
+    {
+      "start": 1827.64,
+      "end": 1832.64,
+      "text": "-Dan berarti kalau sudah adopt GDPR ini, by default kan harus off semua ya?"
+    },
+    {
+      "start": 1832.64,
+      "end": 1839.64,
+      "text": "-Sampai secara eksplisit mengizinkan, baru yang banyak banget tadi itu baru jalan semua."
+    },
+    {
+      "start": 1839.64,
+      "end": 1846.64,
+      "text": "-Jadi masang cookie consent itu tidak hanya memasang, toh, jalan, orang bisa accept, that's it."
+    },
+    {
+      "start": 1846.64,
+      "end": 1860.64,
+      "text": "Bukan. Tetapi harus bisa nge-block semua third party vendor itu tidak boleh menanamkan cookies-nya sebelum ada consent-nya."
+    },
+    {
+      "start": 1860.64,
+      "end": 1865.64,
+      "text": "-Ok. -Jadi harus satu-satu itu di pilih tuh."
+    },
+    {
+      "start": 1865.64,
+      "end": 1870.64,
+      "text": "Misalnya kayak ada yang pakai Hotjar, ada yang pakai Google Analytics,"
+    },
+    {
+      "start": 1870.64,
+      "end": 1877.64,
+      "text": "ada yang pakai dari GTM, Inject, segala macam tracking yang mereka butuhkan gitu ya, ads."
+    },
+    {
+      "start": 1877.64,
+      "end": 1888.64,
+      "text": "Maka semua itu harus di-block dulu, nggak boleh jalan sampai cookie consent di-block."
+    },
+    {
+      "start": 1888.64,
+      "end": 1895.64,
+      "text": "-Ribet juga ya? -Itu yang implementasinya secara benar."
+    },
+    {
+      "start": 1895.64,
+      "end": 1900.64,
+      "text": "-Ok. -Jadi kita harus kayak nasi API event,"
+    },
+    {
+      "start": 1900.64,
+      "end": 1907.64,
+      "text": "jadi ada event dispatch ya, jadi event dispatch, dan waktu event dispatch itu kita tanungkan di cookies-nya kita sendiri,"
+    },
+    {
+      "start": 1907.64,
+      "end": 1917.64,
+      "text": "kalau kita sudah pasang, dan setiap kali page reload, kita ngirim dispatch event itu ke third party vendor,"
+    },
+    {
+      "start": 1917.64,
+      "end": 1923.64,
+      "text": "baru mereka bisa jalan. Kalau nggak, nggak boleh jalan."
+    },
+    {
+      "start": 1923.64,
+      "end": 1925.64,
+      "text": "-Kalau nggak, nggak boleh. -Iya."
+    },
+    {
+      "start": 1925.64,
+      "end": 1933.64,
+      "text": "Dan kalau kita accept, berarti kita dengan sadar memberikan izin web,"
+    },
+    {
+      "start": 1933.64,
+      "end": 1943.64,
+      "text": "data kita disimpan di tempat mereka dan bisa digunakan untuk hal-hal yang dibutuhkan gitu ya."
+    },
+    {
+      "start": 1943.64,
+      "end": 1950.64,
+      "text": "Jadi betul sekali, jangan main accept-accept aja."
+    },
+    {
+      "start": 1950.64,
+      "end": 1957.64,
+      "text": "Pastikan kalau misalkan teman-teman tidak bersedia datanya dipakai ya, direject aja."
+    },
+    {
+      "start": 1957.64,
+      "end": 1964.64,
+      "text": "-Jangan pakai webnya, gitu ya. -Iya, cuma prakteknya kan kadang pilihannya cuma accept."
+    },
+    {
+      "start": 1964.64,
+      "end": 1971.64,
+      "text": "-Accept all atau accept persial? Ada tuh, accept yang... -Kadang ada cuma satu accept."
+    },
+    {
+      "start": 1971.64,
+      "end": 1975.64,
+      "text": "Makanya hanya accept aja, kalau nggak ya di close aja gitu kan."
+    },
+    {
+      "start": 1975.64,
+      "end": 1982.64,
+      "text": "-Tapi ya itu minimal satu langkah, ya nggak. -Gak harus."
+    },
+    {
+      "start": 1982.64,
+      "end": 1988.64,
+      "text": "Cuma kalau user nggak bersedia, ya bisa ditutup aja, nggak usah pakai layanan itu."
+    },
+    {
+      "start": 1988.64,
+      "end": 1996.64,
+      "text": "-Ini nih ada contohnya, buka aja yang kayak dari standard charter, dia pakai OneTrust kan ini ya?"
+    },
+    {
+      "start": 1996.64,
+      "end": 2004.64,
+      "text": "-Iya, biasanya dead service-nya ya sekarang. -Kalau melihat yang bagus itu dari bank ya, biasanya ya."
+    },
+    {
+      "start": 2004.64,
+      "end": 2008.64,
+      "text": "-sc.com/en. -Apa tuh, coba dong, Pak."
+    },
+    {
+      "start": 2008.64,
+      "end": 2016.64,
+      "text": "-sc.com/en. -English."
+    },
+    {
+      "start": 2016.64,
+      "end": 2020.64,
+      "text": "-SC itu apa? Standard charter? -Standard charter."
+    },
+    {
+      "start": 2020.64,
+      "end": 2026.64,
+      "text": "-Kok begini? -Loh, kena block, kena block. Ini... ada apa?"
+    },
+    {
+      "start": 2026.64,
+      "end": 2031.64,
+      "text": "-I don't know. -Refresh, refresh. Nggak bisa."
+    },
+    {
+      "start": 2031.64,
+      "end": 2040.64,
+      "text": "-Kena block CSS-nya, mungkin sama... -Coba deh, theguardian.com juga bagus, theguardian.com/international."
+    },
+    {
+      "start": 2045.64,
+      "end": 2050.64,
+      "text": "-Nah, make your choice. -Nah, tuh. Manage my cookies."
+    },
+    {
+      "start": 2050.64,
+      "end": 2055.64,
+      "text": "-Kalau ini dia kan UK-based ya, berbasis di UK, Eropa, Eropa."
+    },
+    {
+      "start": 2055.64,
+      "end": 2062.64,
+      "text": "Kalau ngikutin GDPR, ini yang kayak strict banget lah, salah satu contoh yang ya, best practice lah."
+    },
+    {
+      "start": 2062.64,
+      "end": 2066.64,
+      "text": "-Maksudnya yang ideal, yang beneran meng-educasi user. -Best practice, ya."
+    },
+    {
+      "start": 2066.64,
+      "end": 2074.64,
+      "text": "-Ini accept atau yes, I'm happy ini accept, kalau kita mau lihat... -Yes, I'm happy accept, kita bisa manage."
+    },
+    {
+      "start": 2074.64,
+      "end": 2082.64,
+      "text": "Bisa lihat yang mana aja yang kita accept, yang mana yang kita tidak. On/off ya, jadi sistemnya ya."
+    },
+    {
+      "start": 2082.64,
+      "end": 2088.64,
+      "text": "-Dan ada penjelasannya tuh. -Status rejected all."
+    },
+    {
+      "start": 2088.64,
+      "end": 2093.64,
+      "text": "Nah, ini udah reject semua gitu kan, habis itu kita close."
+    },
+    {
+      "start": 2093.64,
+      "end": 2099.64,
+      "text": "Kita tetap bisa pakai, meskipun mungkin analyticsnya nggak jalan, atau ada beberapa..."
+    },
+    {
+      "start": 2099.64,
+      "end": 2107.64,
+      "text": "Misalkan ini alamatnya juga mungkin berbeda gitu ya, apa, location dan lain-lain mungkin ya, nggak tahu."
+    },
+    {
+      "start": 2107.64,
+      "end": 2112.64,
+      "text": "Dan bahkan tadi apa sih, ada list site vendors-nya, jadi kayak pasang iklan atau..."
+    },
+    {
+      "start": 2112.64,
+      "end": 2116.64,
+      "text": "-Udah kubur-kubur itu hutup ya. -Apanya tuh?"
+    },
+    {
+      "start": 2116.64,
+      "end": 2119.64,
+      "text": "-Munculin lagi bisa kok, kayaknya... -Bisa ya?"
+    },
+    {
+      "start": 2119.64,
+      "end": 2123.64,
+      "text": "-Bisa di bawah, bisa di bawah kayaknya. -Bawah, bawah, ke footer."
+    },
+    {
+      "start": 2123.64,
+      "end": 2128.64,
+      "text": "Oke, ini iklan. Ke footer ya, ada ya di bawah ya?"
+    },
+    {
+      "start": 2128.64,
+      "end": 2132.64,
+      "text": "-Lihatannya ini ya. -Privacy settings."
+    },
+    {
+      "start": 2132.64,
+      "end": 2136.64,
+      "text": "-Coba deh, privacy settings. -Privacy settings."
+    },
+    {
+      "start": 2136.64,
+      "end": 2140.64,
+      "text": "-Iya, klik. Nah. -Nah, that's a vendor."
+    },
+    {
+      "start": 2140.64,
+      "end": 2143.64,
+      "text": "Satu lagi, ke concern vendor yang benar tuh kayak gini."
+    },
+    {
+      "start": 2143.64,
+      "end": 2149.64,
+      "text": "Jadi habis user submit, harus ada caranya user untuk kembali lagi ke sini."
+    },
+    {
+      "start": 2149.64,
+      "end": 2152.64,
+      "text": "-Kalau kita berubah pikiran gitu ya? -Yes."
+    },
+    {
+      "start": 2152.64,
+      "end": 2157.64,
+      "text": "Itu ada keterangannya tuh, di bawah kan, you can change the above settings, blablabla."
+    },
+    {
+      "start": 2157.64,
+      "end": 2163.64,
+      "text": "Ya, ada Cloudflare, ada Cloudinary, ada Google Analytics."
+    },
+    {
+      "start": 2163.64,
+      "end": 2166.64,
+      "text": "Nah, Google Analytics juga sempat ini ya, kena isu juga kan,"
+    },
+    {
+      "start": 2166.64,
+      "end": 2169.64,
+      "text": "bakal di block dari apa, di Eropa gitu kan."
+    },
+    {
+      "start": 2169.64,
+      "end": 2174.64,
+      "text": "Satu-satunya gara-gara dia nggak consent kan, belum mau waktu itu."
+    },
+    {
+      "start": 2174.64,
+      "end": 2177.64,
+      "text": "Ya, nggak compliance, sorry, nggak compliance."
+    },
+    {
+      "start": 2177.64,
+      "end": 2184.64,
+      "text": "Akhirnya di ancam untuk tidak diperbolehkan, digunakan di Eropa."
+    },
+    {
+      "start": 2184.64,
+      "end": 2189.64,
+      "text": "Walaupun sekarang kayaknya udah clear ya. -Uda. Kayaknya udah bersahabat mereka."
+    },
+    {
+      "start": 2189.64,
+      "end": 2192.64,
+      "text": "-Sudah bersahabat. Iyalah."
+    },
+    {
+      "start": 2192.64,
+      "end": 2198.64,
+      "text": "Ada banyak sekali, ya. Ada Primeo, ada Netflix, ada Rekspace, macem-macem."
+    },
+    {
+      "start": 2198.64,
+      "end": 2202.64,
+      "text": "-Gimana nih coba bagi si developer-nya?"
+    },
+    {
+      "start": 2202.64,
+      "end": 2207.64,
+      "text": "Ayo, teman-teman sebagai developer, ayo sadarnya untuk menyediakan fitur ini."
+    },
+    {
+      "start": 2207.64,
+      "end": 2215.64,
+      "text": "Cuma kalau misalnya target audience kita bukan di wilayah yang ditargetkan oleh hukum kayak gini,"
+    },
+    {
+      "start": 2215.64,
+      "end": 2219.64,
+      "text": "ya nggak perlu. Belum perlu kan? -Belum perlu."
+    },
+    {
+      "start": 2219.64,
+      "end": 2221.64,
+      "text": "-Belum perlu. -Iya."
+    },
+    {
+      "start": 2221.64,
+      "end": 2225.64,
+      "text": "Kalau soalnya di target audience kita ada hukum gini, ya harus."
+    },
+    {
+      "start": 2225.64,
+      "end": 2229.64,
+      "text": "-Iya harus lah. Sekarang ini kan data kita banyak bocor. Ini gimana ini?"
+    },
+    {
+      "start": 2229.64,
+      "end": 2232.64,
+      "text": "Kalau tidak ditangani dengan tepat, bahaya."
+    },
+    {
+      "start": 2232.64,
+      "end": 2238.64,
+      "text": "-Ya coba. Coba Mas Risa jadi menkominku dulu lah."
+    },
+    {
+      "start": 2238.64,
+      "end": 2242.64,
+      "text": "-Jangan. Jangan saya. Saya nggak bisa."
+    },
+    {
+      "start": 2242.64,
+      "end": 2247.64,
+      "text": "Ngeri ini soalnya data-data kebocoran data kan."
+    },
+    {
+      "start": 2247.64,
+      "end": 2251.64,
+      "text": "Salah satunya juga yang mengekir itu kan. Sebenarnya bukan kebocoran data yang mengekir kan."
+    },
+    {
+      "start": 2251.64,
+      "end": 2255.64,
+      "text": "Yang mengekir adalah banyak apa? -Segmentasi."
+    },
+    {
+      "start": 2255.64,
+      "end": 2260.64,
+      "text": "-Iya. Perusahaan-perusahaan yang besar-besar, terutama sosial media, e-commerce, dan lain-lain"
+    },
+    {
+      "start": 2260.64,
+      "end": 2265.64,
+      "text": "menanfaatkan data yang dia punya, data user yang dia punya untuk kebutuhan"
+    },
+    {
+      "start": 2265.64,
+      "end": 2273.64,
+      "text": "yang di luar apa ya, yang tidak terpikirkan sebelumnya."
+    },
+    {
+      "start": 2273.64,
+      "end": 2280.64,
+      "text": "Dan kemungkinan bisa merugikan user atau merugikan pihak-pihak yang lain gitu."
+    },
+    {
+      "start": 2280.64,
+      "end": 2285.64,
+      "text": "Jadi salah satu tujuannya adalah untuk, ya harus ada regulasi lah."
+    },
+    {
+      "start": 2285.64,
+      "end": 2289.64,
+      "text": "Harus ada regulator yang menentukan ini boleh atau tidak gitu kira-kira."
+    },
+    {
+      "start": 2289.64,
+      "end": 2293.64,
+      "text": "-Bagaimana main cantiknya."
+    },
+    {
+      "start": 2293.64,
+      "end": 2300.64,
+      "text": "-Misalkan analytics, kita bikin sistem atau kita bikin aplikasi untuk analytics website misalkan."
+    },
+    {
+      "start": 2300.64,
+      "end": 2307.64,
+      "text": "Seberapa detailnya, seberapa data apa yang mau disimpan, apakah data username-nya"
+    },
+    {
+      "start": 2307.64,
+      "end": 2311.64,
+      "text": "atau data email-nya perlu disimpan atau gimana, itu harus ada regulasinya kan."
+    },
+    {
+      "start": 2311.64,
+      "end": 2313.64,
+      "text": "Supaya kita bisa mengikutin."
+    },
+    {
+      "start": 2313.64,
+      "end": 2319.64,
+      "text": "Kalau semua datanya disimpan sampai kukir-kukirnya juga diambil kan enggak lucu ya."
+    },
+    {
+      "start": 2319.64,
+      "end": 2325.64,
+      "text": "-Dan kalau misalnya memang perusahaan atau yang punya produk, pastikan berargumen,"
+    },
+    {
+      "start": 2325.64,
+      "end": 2329.64,
+      "text": "\"Loh kita perlu ini misalnya kita jualan pakaian ya.\""
+    },
+    {
+      "start": 2329.64,
+      "end": 2334.64,
+      "text": "Kita kan perlu tahu identitas kayak usia atau jenis lama,"
+    },
+    {
+      "start": 2334.64,
+      "end": 2342.64,
+      "text": "customer kita sendiri untuk menyesuaikan produk yang dijual atau promo atau tawaran."
+    },
+    {
+      "start": 2342.64,
+      "end": 2348.64,
+      "text": "Oke lah, itu kan keperluan korporat ya, keperluan industri."
+    },
+    {
+      "start": 2348.64,
+      "end": 2352.64,
+      "text": "Cuma kan ini lebih ke pertanggung jawapannya aja sih."
+    },
+    {
+      "start": 2352.64,
+      "end": 2354.64,
+      "text": "Jadi tetap ada regulasinya."
+    },
+    {
+      "start": 2354.64,
+      "end": 2360.64,
+      "text": "Jadi paling enggak yaitu user bisa dengan sadar memberi consent, memberi ijin."
+    },
+    {
+      "start": 2360.64,
+      "end": 2366.64,
+      "text": "Terus user juga bisa minta untuk dihapus datanya kalau enggak berkenan."
+    },
+    {
+      "start": 2366.64,
+      "end": 2374.64,
+      "text": "Jadi ada banyak keperluan ya, ada keperluan industri atau orang jualan atau produk."
+    },
+    {
+      "start": 2374.64,
+      "end": 2378.64,
+      "text": "Ada juga keperluan individu para customer lah,"
+    },
+    {
+      "start": 2378.64,
+      "end": 2382.64,
+      "text": "kayak masyarakat yang menggunakan macam-macam jasa dan produk online."
+    },
+    {
+      "start": 2382.64,
+      "end": 2390.64,
+      "text": "Nah, regulasi itu kan mengimbangi semua kepentingan itu sih, biar enggak eksploitatif."
+    },
+    {
+      "start": 2390.64,
+      "end": 2399.64,
+      "text": "Oke. Nah, ngomongin ini kan udah banyak yang ini ya, banyak yang menyadari bahwa ribet sekali gitu kan."
+    },
+    {
+      "start": 2399.64,
+      "end": 2402.64,
+      "text": "Apalagi ceritanya Ivan kan, luar biasa ribet."
+    },
+    {
+      "start": 2402.64,
+      "end": 2411.64,
+      "text": "Ada nggak sih tools atau framework sudah menyediakan supaya membuat pekerjaan kita jadi lebih mudah?"
+    },
+    {
+      "start": 2411.64,
+      "end": 2420.64,
+      "text": "Sebenarnya ada step-party-step-party yang sudah ada kayak one-trust kayak gitu ya, atau sejenisnya."
+    },
+    {
+      "start": 2420.64,
+      "end": 2426.64,
+      "text": "Sebenarnya kembali lagi itu cuma tools untuk menampilkan cookie consent banalnya dan men-trigger."
+    },
+    {
+      "start": 2426.64,
+      "end": 2430.64,
+      "text": "Dan si framework ini sudah bekerja sama kayak Google."
+    },
+    {
+      "start": 2430.64,
+      "end": 2435.64,
+      "text": "Sudah punya kayak integrasi ke GTN, ke Google Analytics, sudah punya integrasinya."
+    },
+    {
+      "start": 2435.64,
+      "end": 2445.64,
+      "text": "Kita tinggal klik-klik-klik. Namun tetap masih butuh saat kita implementasi sebagai web dev."
+    },
+    {
+      "start": 2445.64,
+      "end": 2452.64,
+      "text": "First party cookie kita sendiri kan mungkin ada. Kita kayak save cookie kita sendiri gitu ya."
+    },
+    {
+      "start": 2452.64,
+      "end": 2456.64,
+      "text": "Kita juga harus sadar gitu mengirimkan cookie."
+    },
+    {
+      "start": 2456.64,
+      "end": 2461.64,
+      "text": "Namun ada cookie yang tidak ada personal identificationnya."
+    },
+    {
+      "start": 2461.64,
+      "end": 2471.64,
+      "text": "Ada contohnya anggapan gini, CDN."
+    },
+    {
+      "start": 2471.64,
+      "end": 2480.64,
+      "text": "CDN. Jadi saya pernah dapat sebuah kasus yang ujung-ujungnya nggak bisa saya hindari kalau cookies itu harus ada."
+    },
+    {
+      "start": 2480.64,
+      "end": 2484.64,
+      "text": "Namun kembali lagi waktu itu ngomong sama lawyer,"
+    },
+    {
+      "start": 2484.64,
+      "end": 2491.64,
+      "text": "kalau cookie itu dibutuhkan oleh si CDN untuk menentukan lokasi terdekatnya."
+    },
+    {
+      "start": 2491.64,
+      "end": 2494.64,
+      "text": "Sebenarnya tidak ada identifikasi user di situ."
+    },
+    {
+      "start": 2494.64,
+      "end": 2499.64,
+      "text": "Jadi kayak pertama request, kan CDN-nya kan ada banyak lokasi."
+    },
+    {
+      "start": 2499.64,
+      "end": 2505.64,
+      "text": "Dia harus supaya request yang selanjutnya itu tidak mencari lokasi lagi."
+    },
+    {
+      "start": 2505.64,
+      "end": 2509.64,
+      "text": "Tetapi sudah tahu lokasi terdekatnya misalnya dari Jakarta."
+    },
+    {
+      "start": 2509.64,
+      "end": 2514.64,
+      "text": "Jadi next request-nya itu ke Jakarta jaman."
+    },
+    {
+      "start": 2514.64,
+      "end": 2518.64,
+      "text": "- Gak perlu nyari dari awal lagi. - Iya, nggak perlu cari apa?"
+    },
+    {
+      "start": 2518.64,
+      "end": 2521.64,
+      "text": "Agorik magic strandnya gitu nyari terpendek gitu ya."
+    },
+    {
+      "start": 2521.64,
+      "end": 2528.64,
+      "text": "Jadi cukup satu kali tetapi itu butuh identifikasi tadi."
+    },
+    {
+      "start": 2528.64,
+      "end": 2535.64,
+      "text": "Namun identifikasi itu tidak ada menyangkut dengan personal identification."
+    },
+    {
+      "start": 2535.64,
+      "end": 2543.64,
+      "text": "Itu anggapannya stateless, hanya menentukan posisi supaya performa bagi user."
+    },
+    {
+      "start": 2543.64,
+      "end": 2551.64,
+      "text": "Maka itu jatuhnya masuk sebagai mandatory cookie yang wajib ada."
+    },
+    {
+      "start": 2551.64,
+      "end": 2556.64,
+      "text": "Jadi kalau mau pakai website ini, mandatory cookie-nya ini dan itu sudah ada."
+    },
+    {
+      "start": 2556.64,
+      "end": 2563.64,
+      "text": "Dan itu harus dijelaskan di data privacy policy-nya."
+    },
+    {
+      "start": 2563.64,
+      "end": 2568.64,
+      "text": "Wow, oke. Se detail itu ya berarti ya."
+    },
+    {
+      "start": 2568.64,
+      "end": 2579.64,
+      "text": "Kalau ini, Eka, meta framework kayaknya sudah beberapa ada yang sudah menyediakan ya."
+    },
+    {
+      "start": 2579.64,
+      "end": 2590.64,
+      "text": "Kalau ini, ini di luar topic privacy, di luar GDPR, kita balik lagi."
+    },
+    {
+      "start": 2590.64,
+      "end": 2593.64,
+      "text": "Cookies itu kan memang teknologi web."
+    },
+    {
+      "start": 2593.64,
+      "end": 2599.64,
+      "text": "Jadi mungkin tadi kan kalau mungkin jadi kesannya apakah cookie itu berbahaya,"
+    },
+    {
+      "start": 2599.64,
+      "end": 2602.64,
+      "text": "apakah cookie itu negatif, ya nggak juga."
+    },
+    {
+      "start": 2602.64,
+      "end": 2608.64,
+      "text": "Cookie itu teknologi web yang justru salah satu kan tadi tuh dari awal storage."
+    },
+    {
+      "start": 2608.64,
+      "end": 2611.64,
+      "text": "Dan dari awal sudah ada dan itu memang penting."
+    },
+    {
+      "start": 2611.64,
+      "end": 2617.64,
+      "text": "Nah terus kan mungkin kadang orang menghindari cookie malah nge-store-nya di aneh-aneh,"
+    },
+    {
+      "start": 2617.64,
+      "end": 2620.64,
+      "text": "di local storage lah, atau malah in memory."
+    },
+    {
+      "start": 2620.64,
+      "end": 2625.64,
+      "text": "Padahal ini teknologi web yang penting dan relevan."
+    },
+    {
+      "start": 2625.64,
+      "end": 2630.64,
+      "text": "Kayak untuk menyimpan login session misalnya itu kan penggunaan yang sangat valid"
+    },
+    {
+      "start": 2630.64,
+      "end": 2633.64,
+      "text": "dan memang kembali ke web API."
+    },
+    {
+      "start": 2633.64,
+      "end": 2640.64,
+      "text": "Nah ini di beberapa yang aku perhatikan, di beberapa framework yang next-gen,"
+    },
+    {
+      "start": 2640.64,
+      "end": 2648.64,
+      "text": "yang baru lah, yang kembali ke, yang banyak kembali ke web API itu mempermudah,"
+    },
+    {
+      "start": 2648.64,
+      "end": 2654.64,
+      "text": "apa standard-standard web platform itu mempermudah kita bekerja dengan cookies."
+    },
+    {
+      "start": 2654.64,
+      "end": 2658.64,
+      "text": "Dua contoh yang aku temui sih di Remix dan di Astro."
+    },
+    {
+      "start": 2658.64,
+      "end": 2663.64,
+      "text": "Jadi kan cookie itu kan tadi rada nggak enak kayak sebenarnya apa,"
+    },
+    {
+      "start": 2663.64,
+      "end": 2670.64,
+      "text": "kalau kita belum familiar, untuk nge-store key value-nya itu harus di-stringify,"
+    },
+    {
+      "start": 2670.64,
+      "end": 2676.64,
+      "text": "harus dipisahkan oleh tanda apa, semicolon, titik koma, itu sering miss kan kadang."
+    },
+    {
+      "start": 2676.64,
+      "end": 2681.64,
+      "text": "Jadi apa, ini di beberapa meta framework seperti Remix dan Astro,"
+    },
+    {
+      "start": 2681.64,
+      "end": 2687.64,
+      "text": "itu dipermudah dengan sinteks yang itu lebih, kita bisa pakai java strip object,"
+    },
+    {
+      "start": 2687.64,
+      "end": 2693.64,
+      "text": "terus kita bisa pakai intelligence, apa, code completion."
+    },
+    {
+      "start": 2693.64,
+      "end": 2697.64,
+      "text": "Jadi kita tinggal nge-tick, kan kita lupa misalnya apa, max age gitu."
+    },
+    {
+      "start": 2697.64,
+      "end": 2702.64,
+      "text": "Nah kita nggak harus nge-ingat, kita nge-tick ma, tuh langsung muncul lah drop-down-nya."
+    },
+    {
+      "start": 2702.64,
+      "end": 2707.64,
+      "text": "Jangan sampai nggak perlu malas lah, document.cookies juga bisa."
+    },
+    {
+      "start": 2707.64,
+      "end": 2713.64,
+      "text": "Oh, kalau Remix dan Astro ini kan server-side juga."
+    },
+    {
+      "start": 2713.64,
+      "end": 2716.64,
+      "text": "Ini server-side, aman."
+    },
+    {
+      "start": 2716.64,
+      "end": 2722.64,
+      "text": "Nah itu, bahas apa, document.cookies juga tuh penting."
+    },
+    {
+      "start": 2722.64,
+      "end": 2726.64,
+      "text": "Jadi apa, cookies itu ada yang bisa diakses dari browser,"
+    },
+    {
+      "start": 2726.64,
+      "end": 2732.64,
+      "text": "ada yang nggak bisa, tergantung flag, apa, HTTP only ya."
+    },
+    {
+      "start": 2732.64,
+      "end": 2735.64,
+      "text": "HTTP only, yang tadi di sini kan?"
+    },
+    {
+      "start": 2735.64,
+      "end": 2737.64,
+      "text": "Ada flag-nya same-side, HTTP only."
+    },
+    {
+      "start": 2737.64,
+      "end": 2740.64,
+      "text": "Ini, ini, HTTP only."
+    },
+    {
+      "start": 2740.64,
+      "end": 2742.64,
+      "text": "Nah, iya tuh."
+    },
+    {
+      "start": 2743.64,
+      "end": 2748.64,
+      "text": "Jadi kalau misalnya pakai flag HTTP only,"
+    },
+    {
+      "start": 2748.64,
+      "end": 2753.64,
+      "text": "dia cuma dikirim di server-side request and response."
+    },
+    {
+      "start": 2753.64,
+      "end": 2758.64,
+      "text": "Tapi kalau tanpa flag itu, ya bisa diakses dari browser."
+    },
+    {
+      "start": 2758.64,
+      "end": 2762.64,
+      "text": "Gampangnya kita tinggal buka, apa, devtools, console log,"
+    },
+    {
+      "start": 2762.64,
+      "end": 2764.64,
+      "text": "tick aja document.cookie."
+    },
+    {
+      "start": 2764.64,
+      "end": 2766.64,
+      "text": "Itu akan muncul."
+    },
+    {
+      "start": 2766.64,
+      "end": 2770.64,
+      "text": "Itu untuk client-nya, di sisi client-nya."
+    },
+    {
+      "start": 2770.64,
+      "end": 2773.64,
+      "text": "Nah itu tuh ada implikasi keamanannya juga."
+    },
+    {
+      "start": 2773.64,
+      "end": 2777.64,
+      "text": "Nah kalau, mungkin kadang-kadang kalau kita lihat beberapa artikel,"
+    },
+    {
+      "start": 2777.64,
+      "end": 2783.64,
+      "text": "itu kayak dianggap itu tabu banget kalau hal-hal yang agak sensitif"
+    },
+    {
+      "start": 2783.64,
+      "end": 2791.64,
+      "text": "atau personal identification itu jangan sampai bisa diakses dari browser."
+    },
+    {
+      "start": 2791.64,
+      "end": 2795.64,
+      "text": "Nah kenapa? Karena ya apapun yang diakses dari browser kan"
+    },
+    {
+      "start": 2795.64,
+      "end": 2799.64,
+      "text": "itu sebetulnya satu layer aja, satu layer keamanan juga."
+    },
+    {
+      "start": 2799.64,
+      "end": 2809.64,
+      "text": "Kalau ada yang, apa, misalnya bisa mengakses kode JavaScript dari browser,"
+    },
+    {
+      "start": 2809.64,
+      "end": 2813.64,
+      "text": "itu bisa, bisa terkirim untuk sesi datanya."
+    },
+    {
+      "start": 2813.64,
+      "end": 2816.64,
+      "text": "Tapi ya kembali ke kita mengamankan,"
+    },
+    {
+      "start": 2816.64,
+      "end": 2823.64,
+      "text": "gimana kita ngamanin juga jangan sampai bocor isi client-side cookie-nya."
+    },
+    {
+      "start": 2823.64,
+      "end": 2829.64,
+      "text": "Oke, jadi bentuk cookie-nya sendiri seperti ini ya, kurang lebih ya?"
+    },
+    {
+      "start": 2829.64,
+      "end": 2831.64,
+      "text": "String semua iya."
+    },
+    {
+      "start": 2831.64,
+      "end": 2834.64,
+      "text": "String ya, jadi kalau misalkan, ya plain gitu ya,"
+    },
+    {
+      "start": 2834.64,
+      "end": 2838.64,
+      "text": "jadi kalau misalkan kita ngirim data-data yang private,"
+    },
+    {
+      "start": 2838.64,
+      "end": 2843.64,
+      "text": "ya kalau orang bisa menginterrupsi request dan response, bisa dapat ya."
+    },
+    {
+      "start": 2843.64,
+      "end": 2847.64,
+      "text": "Nama, terus mungkin email, apa lagi password."
+    },
+    {
+      "start": 2847.64,
+      "end": 2850.64,
+      "text": "Kalau HTTPS, nggak bisa."
+    },
+    {
+      "start": 2850.64,
+      "end": 2854.64,
+      "text": "Ada secure, ada flag secure juga sekarang."
+    },
+    {
+      "start": 2854.64,
+      "end": 2862.64,
+      "text": "Jadi kalau mau menggunakan document.cookie,"
+    },
+    {
+      "start": 2862.64,
+      "end": 2865.64,
+      "text": "kita harus parsingnya manual juga seperti ini,"
+    },
+    {
+      "start": 2865.64,
+      "end": 2869.64,
+      "text": "displit dulu berdasarkan titik oma, terus abis itu ditrim,"
+    },
+    {
+      "start": 2869.64,
+      "end": 2873.64,
+      "text": "terus ada start with dan lain-lain ya, jadi hasilnya seperti ini."
+    },
+    {
+      "start": 2873.64,
+      "end": 2881.64,
+      "text": "Nah, kalau pakai meta framework yang tadi ya, udah cukup pakai helper-nya mereka ya."
+    },
+    {
+      "start": 2881.64,
+      "end": 2885.64,
+      "text": "Sebetulnya sama, dibalik layer juga kayak gitu, cuma mempermudah aja."
+    },
+    {
+      "start": 2885.64,
+      "end": 2890.64,
+      "text": "Ya, kalau misalkan cuma simpan data atau baca data 1, 2,"
+    },
+    {
+      "start": 2890.64,
+      "end": 2893.64,
+      "text": "atau sedikit gitu ya, cukup menggunakan document.cookie."
+    },
+    {
+      "start": 2893.64,
+      "end": 2897.64,
+      "text": "Tapi kalau misalkan teman-teman sudah mulai butuh banyak gitu ya,"
+    },
+    {
+      "start": 2897.64,
+      "end": 2901.64,
+      "text": "kayak tadi kan, si ini kan banyak sekali ini ya, data-datanya ya."
+    },
+    {
+      "start": 2901.64,
+      "end": 2908.64,
+      "text": "Nah, itu mungkin udah butuh bantuan library atau framework yang dipakai,"
+    },
+    {
+      "start": 2908.64,
+      "end": 2914.64,
+      "text": "mungkin sudah menyediakan fitur untuk manajemen cookie,"
+    },
+    {
+      "start": 2914.64,
+      "end": 2916.64,
+      "text": "seperti Remix dan juga Astro."
+    },
+    {
+      "start": 2916.64,
+      "end": 2919.64,
+      "text": "Saya yakin yang lain juga mungkin ada, tapi mungkin kita belum tahu aja."
+    },
+    {
+      "start": 2919.64,
+      "end": 2926.64,
+      "text": "Atau ada external library untuk mereka, misalkan Next.js ada terpatir library juga"
+    },
+    {
+      "start": 2926.64,
+      "end": 2931.64,
+      "text": "untuk manajemen cookie ya, silahkan digunakan."
+    },
+    {
+      "start": 2931.64,
+      "end": 2934.64,
+      "text": "Nah, lanjut lagi pembahasan sedikit."
+    },
+    {
+      "start": 2934.64,
+      "end": 2938.64,
+      "text": "Kita bahas tadi sempat ada yang nyebut first-party, same-site, dan lain-lain."
+    },
+    {
+      "start": 2938.64,
+      "end": 2940.64,
+      "text": "Itu maksudnya apa tuh?"
+    },
+    {
+      "start": 2940.64,
+      "end": 2946.64,
+      "text": "Mau bahas apa dulu, same-site apa first-party?"
+    },
+    {
+      "start": 2946.64,
+      "end": 2949.64,
+      "text": "Same-site kali ya."
+    },
+    {
+      "start": 2949.64,
+      "end": 2950.64,
+      "text": "Same-site."
+    },
+    {
+      "start": 2950.64,
+      "end": 2953.64,
+      "text": "Itu juga merek."
+    },
+    {
+      "start": 2953.64,
+      "end": 2955.64,
+      "text": "Cookie beneran."
+    },
+    {
+      "start": 2956.64,
+      "end": 2959.64,
+      "text": "Same-site ini maksudnya adalah?"
+    },
+    {
+      "start": 2959.64,
+      "end": 2966.64,
+      "text": "Dia sebenarnya ini ya, jadi kalau cookie sebelum ada, ini kan baru, baru."
+    },
+    {
+      "start": 2966.64,
+      "end": 2968.64,
+      "text": "Baru akhir-akhirnya, saya nggak tahu kapan munculnya."
+    },
+    {
+      "start": 2968.64,
+      "end": 2972.64,
+      "text": "Itu intinya kalau melihat, itu RFC-nya itu ada tuh."
+    },
+    {
+      "start": 2972.64,
+      "end": 2975.64,
+      "text": "Kapan dia disetujui."
+    },
+    {
+      "start": 2975.64,
+      "end": 2980.64,
+      "text": "Ini hanya flag, jadi kayak tadi HTTP only, secure, same-site."
+    },
+    {
+      "start": 2980.64,
+      "end": 2986.64,
+      "text": "Same-site itu adalah atribut atau flag-nya untuk memberitahukan"
+    },
+    {
+      "start": 2986.64,
+      "end": 2990.64,
+      "text": "kalau cookie yang diset ini hanya bisa diases oleh"
+    },
+    {
+      "start": 2990.64,
+      "end": 2997.64,
+      "text": "atau bisa digunakan hanya dari origin yang sama."
+    },
+    {
+      "start": 2997.64,
+      "end": 3003.64,
+      "text": "Artinya tidak bisa digunakan untuk attack di CSRF, cross-site server forgery."
+    },
+    {
+      "start": 3003.64,
+      "end": 3011.64,
+      "text": "Kalau tekniknya ya, saya cross-site itu kan imbaranya cookie kita berasal di liar road,"
+    },
+    {
+      "start": 3011.64,
+      "end": 3016.64,
+      "text": "tetapi request yang terjadi dari domain yang beda."
+    },
+    {
+      "start": 3016.64,
+      "end": 3024.64,
+      "text": "Tetapi ke situs yang target utama, tujuan, tetapi menggunakan cookie-nya kita."
+    },
+    {
+      "start": 3024.64,
+      "end": 3028.64,
+      "text": "Jadi itu cross-site."
+    },
+    {
+      "start": 3028.64,
+      "end": 3038.64,
+      "text": "Kalau kita set dengan same-site, maka browser yang misalnya kita buka situs orang ini,"
+    },
+    {
+      "start": 3038.64,
+      "end": 3043.64,
+      "text": "yang situs false ya, situs scam bahasa ini."
+    },
+    {
+      "start": 3043.64,
+      "end": 3052.64,
+      "text": "Ada button, terus kita klik, ternyata button itu kita klik itu untuk anggapan aja untuk ngehapus data."
+    },
+    {
+      "start": 3052.64,
+      "end": 3056.64,
+      "text": "- Nge-fetch sesuatu. - Nge-fetch sesuatu yang ada di situs utama."
+    },
+    {
+      "start": 3056.64,
+      "end": 3063.64,
+      "text": "Tetapi kan kita punya, kalau tanpa same-site, kita itu punya cookies yang di situs kita tersebut."
+    },
+    {
+      "start": 3063.64,
+      "end": 3073.64,
+      "text": "Jadi kalau kita klik button itu, maka yang terjadi adalah authorize request menuju situs target"
+    },
+    {
+      "start": 3073.64,
+      "end": 3081.64,
+      "text": "yang melakukan apapun, mungkin set password, inject user, atau segala macamnya."
+    },
+    {
+      "start": 3081.64,
+      "end": 3094.64,
+      "text": "Nah, dengan memberikan flag same-site, maka jika button tadi diklik dari situs scam,"
+    },
+    {
+      "start": 3094.64,
+      "end": 3099.64,
+      "text": "maka cookies itu nggak bisa diakses, nggak bisa dikirim, nggak ada gunanya."
+    },
+    {
+      "start": 3099.64,
+      "end": 3102.64,
+      "text": "- Tidak valid ya? - Nggak diterima."
+    },
+    {
+      "start": 3102.64,
+      "end": 3105.64,
+      "text": "- Nggak muncul ya? - Iya, betul."
+    },
+    {
+      "start": 3105.64,
+      "end": 3111.64,
+      "text": "Ini ada hubungannya sama course nggak? Course origin blah blah blah?"
+    },
+    {
+      "start": 3111.64,
+      "end": 3114.64,
+      "text": "- Beda. - Beda ya?"
+    },
+    {
+      "start": 3114.64,
+      "end": 3122.64,
+      "text": "Jadi hanya bisa digunakan di domain yang sama, same-site, di website yang sama."
+    },
+    {
+      "start": 3122.64,
+      "end": 3136.64,
+      "text": "Ada bahasanya lagi, strict itu kalau strict, ada lagi yang namanya legs, jadi bisa di set same-site strict, same-site legs."
+    },
+    {
+      "start": 3136.64,
+      "end": 3140.64,
+      "text": "Jadi kalau legs itu lebih di legs. Kalau strict itu benar-benar hanya langsung dari origin,"
+    },
+    {
+      "start": 3140.64,
+      "end": 3144.64,
+      "text": "kalau legs itu kalau nggak salah, sub-domain-sub-domain masih bisa akses."
+    },
+    {
+      "start": 3144.64,
+      "end": 3149.64,
+      "text": "Oh sub-domain masih bisa, kalau yang strict itu hanya domain yang sama, persis gitu ya?"
+    },
+    {
+      "start": 3149.64,
+      "end": 3152.64,
+      "text": "- Origin, yes. - Origin, oke."
+    },
+    {
+      "start": 3152.64,
+      "end": 3158.64,
+      "text": "Nah, kalau first party, third party cookies, tadi udah dibahas kayaknya ya third party ya?"
+    },
+    {
+      "start": 3158.64,
+      "end": 3168.64,
+      "text": "Simplenya, first party itu cookie yang dari origin, third party dari situs yang bukan origin."
+    },
+    {
+      "start": 3168.64,
+      "end": 3178.64,
+      "text": "Dalam hal ini kita nge-load Google Analytics, maka Google Analytics itu bakal nge-set cookies satu"
+    },
+    {
+      "start": 3178.64,
+      "end": 3182.64,
+      "text": "di domain Google Analytics, satu lagi di domain-nya kita."
+    },
+    {
+      "start": 3182.64,
+      "end": 3188.64,
+      "text": "- Tempat kita. - First party itu adalah cookie yang di-set oleh origin kita,"
+    },
+    {
+      "start": 3188.64,
+      "end": 3192.64,
+      "text": "bukan yang di-set oleh Google Analytics, itu first party."
+    },
+    {
+      "start": 3192.64,
+      "end": 3203.64,
+      "text": "Nah, denger-denger kan katanya cookie mau dihapus 2023."
+    },
+    {
+      "start": 3203.64,
+      "end": 3208.64,
+      "text": "2023 cookie mau dihapus katanya, 2022 malah."
+    },
+    {
+      "start": 3208.64,
+      "end": 3218.64,
+      "text": "Padahal ini maksudnya clickbait aja ya, bukan cookies-nya yang dihapus,"
+    },
+    {
+      "start": 3218.64,
+      "end": 3221.64,
+      "text": "tapi ya apa, cross origin ya?"
+    },
+    {
+      "start": 3221.64,
+      "end": 3226.64,
+      "text": "- Third party cookie, bisa lagi. - Third party cookies."
+    },
+    {
+      "start": 3226.64,
+      "end": 3229.64,
+      "text": "Third party atau cross ya? Coba dibaca."
+    },
+    {
+      "start": 3229.64,
+      "end": 3235.64,
+      "text": "Apple, apa? Mana ya? Kok nggak ada informasinya?"
+    },
+    {
+      "start": 3235.64,
+      "end": 3241.64,
+      "text": "- Dibawah kali. - Dibawah? Gak ada."
+    },
+    {
+      "start": 3241.64,
+      "end": 3243.64,
+      "text": "- Ya, malah alternatifnya. - Iya."
+    },
+    {
+      "start": 3243.64,
+      "end": 3252.64,
+      "text": "Yang tidak bisa itu adalah third party cookies nge-set ke,"
+    },
+    {
+      "start": 3252.64,
+      "end": 3259.64,
+      "text": "jadi kayak saya bilang tadi, Google Analytics tidak bisa nge-set cookie"
+    },
+    {
+      "start": 3259.64,
+      "end": 3262.64,
+      "text": "ke sebagai cookie origin lagi."
+    },
+    {
+      "start": 3262.64,
+      "end": 3271.64,
+      "text": "Coba kita masih bisa buka application DevTool di sini."
+    },
+    {
+      "start": 3271.64,
+      "end": 3275.64,
+      "text": "- Di sini, inspect element. - Iya, inspect element."
+    },
+    {
+      "start": 3275.64,
+      "end": 3279.64,
+      "text": "- Terus? - Ke application cookies."
+    },
+    {
+      "start": 3279.64,
+      "end": 3285.64,
+      "text": "Liat ya, padahal buka website ini ya, website-nya Medio."
+    },
+    {
+      "start": 3285.64,
+      "end": 3291.64,
+      "text": "Jadi third party itu yang account Google, CDN and Badly, sama YouTube."
+    },
+    {
+      "start": 3291.64,
+      "end": 3296.64,
+      "text": "- Iya, yang ini first party. - Yang ini first party."
+    },
+    {
+      "start": 3296.64,
+      "end": 3304.64,
+      "text": "Tetapi kalau kita lihat lebih dalam lagi, yang diset sama si Medio-nya itu cuma sebagian."
+    },
+    {
+      "start": 3304.64,
+      "end": 3308.64,
+      "text": "Contohnya kayak chat.google, saya yakin bukan diset sama si Medio."
+    },
+    {
+      "start": 3308.64,
+      "end": 3314.64,
+      "text": "- Nah, chat.google apa itu? - Itu liat tuh, ya itu host."
+    },
+    {
+      "start": 3314.64,
+      "end": 3317.64,
+      "text": "- Oh, chat.google. - Oh, chat.google, iya kan?"
+    },
+    {
+      "start": 3317.64,
+      "end": 3322.64,
+      "text": "- Itu tidak diset oleh si Medio. - Oke."
+    },
+    {
+      "start": 3322.64,
+      "end": 3327.64,
+      "text": "Itu diset oleh JavaScript yang jalan di browser,"
+    },
+    {
+      "start": 3327.64,
+      "end": 3330.64,
+      "text": "dan set-nya sebagai origin-nya si Medio."
+    },
+    {
+      "start": 3330.64,
+      "end": 3335.64,
+      "text": "Jadi bukan diset oleh dari server, oleh Medio."
+    },
+    {
+      "start": 3335.64,
+      "end": 3348.64,
+      "text": "Jadi isu-nya yang saya dengar, third party itu tidak bisa lagi nge-set cooking-nya."
+    },
+    {
+      "start": 3348.64,
+      "end": 3351.64,
+      "text": "Oh, cooking-nya yang di origin."
+    },
+    {
+      "start": 3351.64,
+      "end": 3357.64,
+      "text": "Oke, jadi bukan cookie bakal dihapus, kita nggak bakal ada konsen-konsen lagi, nggak ya?"
+    },
+    {
+      "start": 3357.64,
+      "end": 3359.64,
+      "text": "- Konsen itu tidak. - Nggak mungkin."
+    },
+    {
+      "start": 3359.64,
+      "end": 3362.64,
+      "text": "Nanti nggak ada orang bisa login."
+    },
+    {
+      "start": 3362.64,
+      "end": 3371.64,
+      "text": "Iya, tapi ada kapabilitas yang dilarang atau yang tidak diperbolehkan"
+    },
+    {
+      "start": 3371.64,
+      "end": 3382.64,
+      "text": "dari third party service itu nggak boleh menulis ke cookie kita yang di origin kita, gitu ya?"
+    },
+    {
+      "start": 3382.64,
+      "end": 3388.64,
+      "text": "Jadi kalau mau store data ya harus dari sisi kita, apapun yang kita kirim,"
+    },
+    {
+      "start": 3388.64,
+      "end": 3391.64,
+      "text": "harus kita kirim secara manual ke mereka ya?"
+    },
+    {
+      "start": 3391.64,
+      "end": 3396.64,
+      "text": "Maksudnya ke third party itu. Implikasinya kurang lebih begitu kan?"
+    },
+    {
+      "start": 3396.64,
+      "end": 3401.64,
+      "text": "Ya, di limit berarti ya proses tracking-nya."
+    },
+    {
+      "start": 3401.64,
+      "end": 3409.64,
+      "text": "Jadi nggak boleh sembarangan nyimpen-nyimpen data lagi di cookie yang bukan milik kita."
+    },
+    {
+      "start": 3409.64,
+      "end": 3415.64,
+      "text": "Nanti ini kalau menurut saya apa plan yang dipus oleh Chrome Tale,"
+    },
+    {
+      "start": 3415.64,
+      "end": 3425.64,
+      "text": "kalau misalnya di third party cookies sudah dihapus, itu lebih diatur secara lebih strict lagi menggunakan storage itu."
+    },
+    {
+      "start": 3425.64,
+      "end": 3430.64,
+      "text": "Untuk nyimpan cross-site data itu menggunakan namanya set storage."
+    },
+    {
+      "start": 3430.64,
+      "end": 3434.64,
+      "text": "Bahasanya itu di privacy sandbox."
+    },
+    {
+      "start": 3434.64,
+      "end": 3442.64,
+      "text": "Nah, ini ada pertanyaan bagus. Apakah cookies bisa diakses di Chrome extension?"
+    },
+    {
+      "start": 3442.64,
+      "end": 3449.64,
+      "text": "Chrome extension bisa mengakses dokumen, dokumen objek."
+    },
+    {
+      "start": 3449.64,
+      "end": 3454.64,
+      "text": "Jadi kalau misalnya tadi nggak pakai HTTP only ya bisa."
+    },
+    {
+      "start": 3454.64,
+      "end": 3456.64,
+      "text": "Bisa, bisa."
+    },
+    {
+      "start": 3456.64,
+      "end": 3461.64,
+      "text": "Jadi cookie itu sifatnya public kan."
+    },
+    {
+      "start": 3461.64,
+      "end": 3465.64,
+      "text": "Bukan public ya, maksudnya ada di browser kita sendiri gitu kan."
+    },
+    {
+      "start": 3465.64,
+      "end": 3471.64,
+      "text": "Apapun yang kalau extension itu kan jalan di browser kita gitu kan."
+    },
+    {
+      "start": 3471.64,
+      "end": 3473.64,
+      "text": "Jadi ya bisa sebenarnya."
+    },
+    {
+      "start": 3473.64,
+      "end": 3478.64,
+      "text": "Cuman ya kadang-kadang datanya juga sudah di itu kan."
+    },
+    {
+      "start": 3478.64,
+      "end": 3481.64,
+      "text": "Jadi tidak berarti sebenarnya."
+    },
+    {
+      "start": 3481.64,
+      "end": 3485.64,
+      "text": "Ya sebenarnya sama aja kayak local storage atau semacamnya kan."
+    },
+    {
+      "start": 3485.64,
+      "end": 3490.64,
+      "text": "Kalau yang kita ijinkan buat diakses dari client-side."
+    },
+    {
+      "start": 3490.64,
+      "end": 3496.64,
+      "text": "Course dihapus enggak, course masih tetap ada."
+    },
+    {
+      "start": 3496.64,
+      "end": 3501.64,
+      "text": "Justru malah makin, ini ya, makin strik gitu ya, nggak boleh sembarangan gitu ya."
+    },
+    {
+      "start": 3501.64,
+      "end": 3507.64,
+      "text": "Kalo kita mau akses data, iya kita mau akses data atau kita mau kasih,"
+    },
+    {
+      "start": 3507.64,
+      "end": 3510.64,
+      "text": "ngirimin data balik ya itu harus udah lebih strik sekarang."
+    },
+    {
+      "start": 3510.64,
+      "end": 3515.64,
+      "text": "Ust, sampai sekarang masih belum nangka full link concept course lah."
+    },
+    {
+      "start": 3515.64,
+      "end": 3517.64,
+      "text": "Masih bingung juga."
+    },
+    {
+      "start": 3517.64,
+      "end": 3519.64,
+      "text": "Bisa kita bahas di episode mendatang."
+    },
+    {
+      "start": 3523.64,
+      "end": 3527.64,
+      "text": "Meskipun udah ngomong course, tapi belum ngerti 100%."
+    },
+    {
+      "start": 3527.64,
+      "end": 3530.64,
+      "text": "Ngefix backnya bisa."
+    },
+    {
+      "start": 3530.64,
+      "end": 3533.64,
+      "text": "Rezipnya kurang yakin."
+    },
+    {
+      "start": 3533.64,
+      "end": 3535.64,
+      "text": "Nah ini apa nih?"
+    },
+    {
+      "start": 3535.64,
+      "end": 3541.64,
+      "text": "Nah khusus Chrome, ini nih ada lagi nih bikin partition storage."
+    },
+    {
+      "start": 3541.64,
+      "end": 3547.64,
+      "text": "Cuma ini masih Chrome only dan masih statusnya kelihatannya sejauh ini masih origin trial."
+    },
+    {
+      "start": 3547.64,
+      "end": 3555.64,
+      "text": "Jadi kelihatannya ini adalah developer atau situs bisa opt-in."
+    },
+    {
+      "start": 3555.64,
+      "end": 3557.64,
+      "text": "Kan tadi tuh yang barusan dibahas,"
+    },
+    {
+      "start": 3557.64,
+      "end": 3562.64,
+      "text": "kalo dari terparti, kalo bukan dari tempat kita, ya udah nggak boleh akses."
+    },
+    {
+      "start": 3562.64,
+      "end": 3571.64,
+      "text": "Nah kalo ini kelihatannya arahnya adalah misalnya gini kasusnya kita punya 2 website, 2 domain."
+    },
+    {
+      "start": 3571.64,
+      "end": 3576.64,
+      "text": "Tapi keduanya tuh punya milik kita dan emang ada sesuatu yang harus dikomunikasikan."
+    },
+    {
+      "start": 3576.64,
+      "end": 3582.64,
+      "text": "Entah state user atau mungkin preferensi tertentu."
+    },
+    {
+      "start": 3582.64,
+      "end": 3586.64,
+      "text": "Jadi ya itu penggunaan yang valid karena kita opt-in"
+    },
+    {
+      "start": 3586.64,
+      "end": 3593.64,
+      "text": "agar 2 domain yang berbeda itu bisa saling mengirim atau menyimpan, menulis cookies."
+    },
+    {
+      "start": 3593.64,
+      "end": 3598.64,
+      "text": "Kayak set storage."
+    },
+    {
+      "start": 3598.64,
+      "end": 3600.64,
+      "text": "Mirip ya?"
+    },
+    {
+      "start": 3600.64,
+      "end": 3601.64,
+      "text": "Iya."
+    },
+    {
+      "start": 3601.64,
+      "end": 3605.64,
+      "text": "Pada baca set storage, shared storage API."
+    },
+    {
+      "start": 3605.64,
+      "end": 3606.64,
+      "text": "Belum, belum."
+    },
+    {
+      "start": 3606.64,
+      "end": 3607.64,
+      "text": "Belum."
+    },
+    {
+      "start": 3607.64,
+      "end": 3611.64,
+      "text": "Gue pernah ikut ini ya sih, pernah ikut apa namanya."
+    },
+    {
+      "start": 3611.64,
+      "end": 3613.64,
+      "text": "Origin trial, apa? Survey?"
+    },
+    {
+      "start": 3613.64,
+      "end": 3615.64,
+      "text": "Bukan, apa namanya?"
+    },
+    {
+      "start": 3615.64,
+      "end": 3616.64,
+      "text": "Webinar."
+    },
+    {
+      "start": 3616.64,
+      "end": 3619.64,
+      "text": "Pemenalan webinarnya internal di bot GDI."
+    },
+    {
+      "start": 3619.64,
+      "end": 3624.64,
+      "text": "Itu ada public link-nya mengenai set storage."
+    },
+    {
+      "start": 3624.64,
+      "end": 3626.64,
+      "text": "Tapi masih origin trial juga."
+    },
+    {
+      "start": 3626.64,
+      "end": 3630.64,
+      "text": "Masih origin trial, origin trial ini maksudnya apa?"
+    },
+    {
+      "start": 3630.64,
+      "end": 3634.64,
+      "text": "Kita harus opt-in, kita harus deptar."
+    },
+    {
+      "start": 3634.64,
+      "end": 3640.64,
+      "text": "Harus deptar untuk mengakses fiturnya."
+    },
+    {
+      "start": 3640.64,
+      "end": 3644.64,
+      "text": "Jadi belum di-ship, belum masuk ke software Chrome-nya."
+    },
+    {
+      "start": 3644.64,
+      "end": 3646.64,
+      "text": "Jadi, maksudnya, tenang aja."
+    },
+    {
+      "start": 3646.64,
+      "end": 3652.64,
+      "text": "Gak perlu khawatir kalau kita gak eksplisitif deptar untuk itu, kita gak bakal affected."
+    },
+    {
+      "start": 3652.64,
+      "end": 3654.64,
+      "text": "Mirip-mirip nih ya."
+    },
+    {
+      "start": 3654.64,
+      "end": 3658.64,
+      "text": "Unpartitioned cross-site data in security environment."
+    },
+    {
+      "start": 3658.64,
+      "end": 3667.64,
+      "text": "Habis mandi. Intinya sama kayak cip tadi."
+    },
+    {
+      "start": 3667.64,
+      "end": 3683.64,
+      "text": "Namun, cara akses, cara mengakses data yang di-shared itu lebih secure dan ribet."
+    },
+    {
+      "start": 3683.64,
+      "end": 3685.64,
+      "text": "Semakin secure, memang semakin ribet kan?"
+    },
+    {
+      "start": 3685.64,
+      "end": 3686.64,
+      "text": "Semakin secure, semakin ribet."
+    },
+    {
+      "start": 3686.64,
+      "end": 3688.64,
+      "text": "Memang, iya."
+    },
+    {
+      "start": 3688.64,
+      "end": 3691.64,
+      "text": "Jadinya, saya gak tahu."
+    },
+    {
+      "start": 3691.64,
+      "end": 3696.64,
+      "text": "Waktu diceritakan saya gak masuk di atas, jadi masih belum dapet."
+    },
+    {
+      "start": 3696.64,
+      "end": 3699.64,
+      "text": "Nah, ini beda lagi nih."
+    },
+    {
+      "start": 3699.64,
+      "end": 3704.64,
+      "text": "Kuki-nya nih, ini cuma ada data."
+    },
+    {
+      "start": 3704.64,
+      "end": 3706.64,
+      "text": "Tapi ada more details juga."
+    },
+    {
+      "start": 3706.64,
+      "end": 3708.64,
+      "text": "Ada more details. More details ini."
+    },
+    {
+      "start": 3708.64,
+      "end": 3711.64,
+      "text": "More details cuma informasi."
+    },
+    {
+      "start": 3711.64,
+      "end": 3714.64,
+      "text": "Gak ada kayak yang tadi."
+    },
+    {
+      "start": 3714.64,
+      "end": 3716.64,
+      "text": "Jadi dipaksa. Cuma dikasih tahu."
+    },
+    {
+      "start": 3716.64,
+      "end": 3721.64,
+      "text": "Analyze traffic, remember your preference, dan optimize your experience."
+    },
+    {
+      "start": 3721.64,
+      "end": 3725.64,
+      "text": "Cuma, maksud saya kalau kita gak bergenan, ya jangan..."
+    },
+    {
+      "start": 3725.64,
+      "end": 3727.64,
+      "text": "Yaudah, tutup aja, gitu ya."
+    },
+    {
+      "start": 3727.64,
+      "end": 3729.64,
+      "text": "Jadi ini hanya informasi aja ya."
+    },
+    {
+      "start": 3729.64,
+      "end": 3732.64,
+      "text": "Kayak memberitahu bahwa ini di-track loh, gitu."
+    },
+    {
+      "start": 3732.64,
+      "end": 3734.64,
+      "text": "Udah, gitu kan."
+    },
+    {
+      "start": 3734.64,
+      "end": 3738.64,
+      "text": "Kalau mau akses silahkan, gak mau, ya udah, cabut, gitu kan."
+    },
+    {
+      "start": 3738.64,
+      "end": 3741.64,
+      "text": "Oke."
+    },
+    {
+      "start": 3741.64,
+      "end": 3744.64,
+      "text": "Ada apa lagi nih, ada apa lagi nih?"
+    },
+    {
+      "start": 3744.64,
+      "end": 3749.64,
+      "text": "Apakah, loh ini pertanyaannya agak ini ya."
+    },
+    {
+      "start": 3749.64,
+      "end": 3751.64,
+      "text": "Agak random, tapi gak apa-apa."
+    },
+    {
+      "start": 3751.64,
+      "end": 3755.64,
+      "text": "Apakah DDA Indonesia ada yang mendalami ontologi, network science, RDF?"
+    },
+    {
+      "start": 3755.64,
+      "end": 3757.64,
+      "text": "RDF itu apa ya?"
+    },
+    {
+      "start": 3757.64,
+      "end": 3759.64,
+      "text": "Reach Data Format."
+    },
+    {
+      "start": 3759.64,
+      "end": 3761.64,
+      "text": "Oh, Reach Data Format."
+    },
+    {
+      "start": 3761.64,
+      "end": 3763.64,
+      "text": "Ontologi itu apa tuh?"
+    },
+    {
+      "start": 3763.64,
+      "end": 3766.64,
+      "text": "Jadi, ontologi itu kayak..."
+    },
+    {
+      "start": 3766.64,
+      "end": 3769.64,
+      "text": "Sila Sophical Study of Being."
+    },
+    {
+      "start": 3769.64,
+      "end": 3773.64,
+      "text": "Ya. Klasifikasi data, berdasarkan."
+    },
+    {
+      "start": 3773.64,
+      "end": 3779.64,
+      "text": "Proses mengklasifikasi data dan bagaimana hubungan data."
+    },
+    {
+      "start": 3779.64,
+      "end": 3781.64,
+      "text": "Jadi data network, kayak data network."
+    },
+    {
+      "start": 3781.64,
+      "end": 3783.64,
+      "text": "Ya."
+    },
+    {
+      "start": 3783.64,
+      "end": 3789.64,
+      "text": "Dan yang saya kerjakan sekarang ini masih ber..."
+    },
+    {
+      "start": 3789.64,
+      "end": 3793.64,
+      "text": "Masih seputar ontologi."
+    },
+    {
+      "start": 3793.64,
+      "end": 3797.64,
+      "text": "Dan bagaimana koneksi antara data A ke data B dan C."
+    },
+    {
+      "start": 3797.64,
+      "end": 3802.64,
+      "text": "Dan kembali lagi ke Reach Data Format, yes."
+    },
+    {
+      "start": 3802.64,
+      "end": 3804.64,
+      "text": "Skema data."
+    },
+    {
+      "start": 3804.64,
+      "end": 3808.64,
+      "text": "Kebetulan lagi ngerjain itu."
+    },
+    {
+      "start": 3808.64,
+      "end": 3810.64,
+      "text": "Di news side."
+    },
+    {
+      "start": 3810.64,
+      "end": 3814.64,
+      "text": "Saya pernah belajar, tapi tidak mendalami."
+    },
+    {
+      "start": 3814.64,
+      "end": 3817.64,
+      "text": "Cuma belajar aja waktu kuliah."
+    },
+    {
+      "start": 3817.64,
+      "end": 3819.64,
+      "text": "Tapi tidak mendalami."
+    },
+    {
+      "start": 3819.64,
+      "end": 3821.64,
+      "text": "Cuma sekadar tahu."
+    },
+    {
+      "start": 3821.64,
+      "end": 3824.64,
+      "text": "Bahkan sekarang pun kayaknya udah lupa ya."
+    },
+    {
+      "start": 3824.64,
+      "end": 3828.64,
+      "text": "Mungkin nanti kalau ada yang di machine learning juga..."
+    },
+    {
+      "start": 3828.64,
+      "end": 3833.64,
+      "text": "Ini kan relasi antar data pasti harus kuat banget ya."
+    },
+    {
+      "start": 3833.64,
+      "end": 3835.64,
+      "text": "Kalau machine learning."
+    },
+    {
+      "start": 3835.64,
+      "end": 3836.64,
+      "text": "Cuma belum ada."
+    },
+    {
+      "start": 3836.64,
+      "end": 3837.64,
+      "text": "Belum ada."
+    },
+    {
+      "start": 3837.64,
+      "end": 3839.64,
+      "text": "Di machine learning Indonesia, akan ada."
+    },
+    {
+      "start": 3839.64,
+      "end": 3841.64,
+      "text": "Gak tahu, kita tunggu aja."
+    },
+    {
+      "start": 3841.64,
+      "end": 3842.64,
+      "text": "Machine learning ya?"
+    },
+    {
+      "start": 3842.64,
+      "end": 3845.64,
+      "text": "Oh, kalau yang sekarang data cloud ya?"
+    },
+    {
+      "start": 3845.64,
+      "end": 3848.64,
+      "text": "Cloud, ya."
+    },
+    {
+      "start": 3848.64,
+      "end": 3850.64,
+      "text": "Oke."
+    },
+    {
+      "start": 3850.64,
+      "end": 3853.64,
+      "text": "Apa lagi yang mau kita bahas?"
+    },
+    {
+      "start": 3854.64,
+      "end": 3856.64,
+      "text": "Oh ini, satu lagi terakhir."
+    },
+    {
+      "start": 3856.64,
+      "end": 3860.64,
+      "text": "Saya punya website yang lumayan seru."
+    },
+    {
+      "start": 3860.64,
+      "end": 3861.64,
+      "text": "Namanya Track This."
+    },
+    {
+      "start": 3861.64,
+      "end": 3864.64,
+      "text": "Ini yang tadi kita bahas tentang persona."
+    },
+    {
+      "start": 3864.64,
+      "end": 3867.64,
+      "text": "Jadi kan kalau data kita udah terbiasa."
+    },
+    {
+      "start": 3867.64,
+      "end": 3874.64,
+      "text": "Di kelompokan oleh si ads atau berbagai website."
+    },
+    {
+      "start": 3874.64,
+      "end": 3878.64,
+      "text": "Termasuk e-commerce atau social media dan lain-lain."
+    },
+    {
+      "start": 3878.64,
+      "end": 3881.64,
+      "text": "Kita mau ngacak nih, mau random."
+    },
+    {
+      "start": 3881.64,
+      "end": 3884.64,
+      "text": "Kita bisa buka trackthis.link."
+    },
+    {
+      "start": 3884.64,
+      "end": 3885.64,
+      "text": "Teman-teman terus klik."
+    },
+    {
+      "start": 3885.64,
+      "end": 3888.64,
+      "text": "Nanti misalkan kita mau personanya sebagai apa nih?"
+    },
+    {
+      "start": 3888.64,
+      "end": 3889.64,
+      "text": "Orang kaya."
+    },
+    {
+      "start": 3889.64,
+      "end": 3890.64,
+      "text": "Orang kaya lah."
+    },
+    {
+      "start": 3890.64,
+      "end": 3891.64,
+      "text": "Influencer."
+    },
+    {
+      "start": 3891.64,
+      "end": 3893.64,
+      "text": "Atau hype bisni apa, gak tahu."
+    },
+    {
+      "start": 3893.64,
+      "end": 3895.64,
+      "text": "Jadi begitu diklik."
+    },
+    {
+      "start": 3895.64,
+      "end": 3900.64,
+      "text": "Dia akan membuka tab-tab baru di browser kita."
+    },
+    {
+      "start": 3900.64,
+      "end": 3905.64,
+      "text": "Yang mengakses website-website yang berhubungan dengan kategori-kategori ini."
+    },
+    {
+      "start": 3905.64,
+      "end": 3908.64,
+      "text": "Sehingga data kita jadi keren dong."
+    },
+    {
+      "start": 3911.64,
+      "end": 3915.64,
+      "text": "Oh, biar targeted ads-nya bingung ya."
+    },
+    {
+      "start": 3915.64,
+      "end": 3921.64,
+      "text": "Ini istilahnya security by obscurity."
+    },
+    {
+      "start": 3921.64,
+      "end": 3923.64,
+      "text": "Yes, exactly."
+    },
+    {
+      "start": 3923.64,
+      "end": 3929.64,
+      "text": "Tapi hati-hati karena tiba-tiba nanti fan laptopnya nanti bunyi."
+    },
+    {
+      "start": 3929.64,
+      "end": 3931.64,
+      "text": "Karena dia buka tab banyak sekali."
+    },
+    {
+      "start": 3931.64,
+      "end": 3932.64,
+      "text": "100 tab."
+    },
+    {
+      "start": 3932.64,
+      "end": 3933.64,
+      "text": "Yes."
+    },
+    {
+      "start": 3933.64,
+      "end": 3937.64,
+      "text": "Terus jangan lupa pilih yang beda dengan profil asli kalian."
+    },
+    {
+      "start": 3937.64,
+      "end": 3941.64,
+      "text": "Kalau misalkan kalian aslinya orang kaya."
+    },
+    {
+      "start": 3941.64,
+      "end": 3943.64,
+      "text": "Buka filthy rich."
+    },
+    {
+      "start": 3943.64,
+      "end": 3945.64,
+      "text": "Kenapa juga bolo?"
+    },
+    {
+      "start": 3945.64,
+      "end": 3948.64,
+      "text": "Ini situasi yang benar-benar."
+    },
+    {
+      "start": 3948.64,
+      "end": 3949.64,
+      "text": "Itu tab-nya apa?"
+    },
+    {
+      "start": 3949.64,
+      "end": 3950.64,
+      "text": "Apa sih tab yang selanjutnya?"
+    },
+    {
+      "start": 3950.64,
+      "end": 3952.64,
+      "text": "Habis te, ada gambar sepatu."
+    },
+    {
+      "start": 3952.64,
+      "end": 3953.64,
+      "text": "Itu ilustrasi doang."
+    },
+    {
+      "start": 3953.64,
+      "end": 3954.64,
+      "text": "Atau beneran."
+    },
+    {
+      "start": 3954.64,
+      "end": 3956.64,
+      "text": "Oh, hype bis."
+    },
+    {
+      "start": 3956.64,
+      "end": 3957.64,
+      "text": "100 tab."
+    },
+    {
+      "start": 3957.64,
+      "end": 3959.64,
+      "text": "Oh, penjelasan."
+    },
+    {
+      "start": 3959.64,
+      "end": 3961.64,
+      "text": "Penjelasan apa yang dibuka."
+    },
+    {
+      "start": 3961.64,
+      "end": 3967.64,
+      "text": "Ya, jadi kalau misalkan kita buka hype bis berarti yang ditawarkan itu fashion ya."
+    },
+    {
+      "start": 3967.64,
+      "end": 3969.64,
+      "text": "Statwear, sepatu."
+    },
+    {
+      "start": 3969.64,
+      "end": 3970.64,
+      "text": "Yang terbaru."
+    },
+    {
+      "start": 3970.64,
+      "end": 3973.64,
+      "text": "Hype bis itu akhirnya semua yang hype."
+    },
+    {
+      "start": 3973.64,
+      "end": 3974.64,
+      "text": "Semua yang hype."
+    },
+    {
+      "start": 3974.64,
+      "end": 3980.64,
+      "text": "Kalau filthy rich ya bukanya itu ya kapal persiar gitu ya."
+    },
+    {
+      "start": 3980.64,
+      "end": 3984.64,
+      "text": "Gimana cara private jet mungkin ya."
+    },
+    {
+      "start": 3984.64,
+      "end": 3986.64,
+      "text": "Luxury brands."
+    },
+    {
+      "start": 3986.64,
+      "end": 3988.64,
+      "text": "Kalau ini apa nih?"
+    },
+    {
+      "start": 3988.64,
+      "end": 3989.64,
+      "text": "Dooms."
+    },
+    {
+      "start": 3989.64,
+      "end": 3992.64,
+      "text": "Ini orang-orang yang ini ya."
+    },
+    {
+      "start": 3992.64,
+      "end": 3994.64,
+      "text": "Konspirasi gitu ya."
+    },
+    {
+      "start": 3994.64,
+      "end": 3995.64,
+      "text": "Konspirasi."
+    },
+    {
+      "start": 3995.64,
+      "end": 3996.64,
+      "text": "Theoris."
+    },
+    {
+      "start": 3996.64,
+      "end": 3997.64,
+      "text": "Nuklir gitu ya."
+    },
+    {
+      "start": 3997.64,
+      "end": 3999.64,
+      "text": "Atau apa gitu."
+    },
+    {
+      "start": 3999.64,
+      "end": 4001.64,
+      "text": "Jadi dia cari supply."
+    },
+    {
+      "start": 4001.64,
+      "end": 4002.64,
+      "text": "Cari bunker."
+    },
+    {
+      "start": 4002.64,
+      "end": 4003.64,
+      "text": "Bunker."
+    },
+    {
+      "start": 4003.64,
+      "end": 4005.64,
+      "text": "Dan lain-lain."
+    },
+    {
+      "start": 4005.64,
+      "end": 4007.64,
+      "text": "Terakhir influencer."
+    },
+    {
+      "start": 4007.64,
+      "end": 4010.64,
+      "text": "Skincare."
+    },
+    {
+      "start": 4010.64,
+      "end": 4012.64,
+      "text": "Akologi."
+    },
+    {
+      "start": 4012.64,
+      "end": 4013.64,
+      "text": "Meditation."
+    },
+    {
+      "start": 4013.64,
+      "end": 4014.64,
+      "text": "Asik."
+    },
+    {
+      "start": 4014.64,
+      "end": 4024.64,
+      "text": "Jadi silahkan kalau ada yang mau mengacak informasinya mungkin sekarang sudah terlalu banyak di track ya."
+    },
+    {
+      "start": 4024.64,
+      "end": 4031.64,
+      "text": "Jadi bisa membuat bingung para site-site di luar sana."
+    },
+    {
+      "start": 4031.64,
+      "end": 4035.64,
+      "text": "Kadang berguna juga loh kalau kita kena target."
+    },
+    {
+      "start": 4035.64,
+      "end": 4038.64,
+      "text": "Karena apa yang kita lihat itu yang kita butuhkan juga."
+    },
+    {
+      "start": 4038.64,
+      "end": 4042.64,
+      "text": "Iya, ada penggunaan yang valid kayak itu tadi."
+    },
+    {
+      "start": 4042.64,
+      "end": 4049.64,
+      "text": "Cuma kalau pengelolaannya enggak ada pertanggung jawaban ya itu yang bisa bahaya kan."
+    },
+    {
+      "start": 4049.64,
+      "end": 4052.64,
+      "text": "Sama agregat sih kalau dijual ke tempat lain."
+    },
+    {
+      "start": 4052.64,
+      "end": 4055.64,
+      "text": "Nah itu tempat lainnya ngapain kan enggak tahu."
+    },
+    {
+      "start": 4055.64,
+      "end": 4057.64,
+      "text": "Tapi kalau sebentar-sebentar kita belanja."
+    },
+    {
+      "start": 4057.64,
+      "end": 4060.64,
+      "text": "Kita belanja online nih toko baju."
+    },
+    {
+      "start": 4060.64,
+      "end": 4067.64,
+      "text": "Dari sekian banyak baju kita ditawarin produk-produk yang emang sesuai sama usia, gaya, preferensi, sama jenis kelamin kita."
+    },
+    {
+      "start": 4067.64,
+      "end": 4069.64,
+      "text": "Ya udah kalau gitu doang sih."
+    },
+    {
+      "start": 4069.64,
+      "end": 4071.64,
+      "text": "Gak apa-apa helpful emang."
+    },
+    {
+      "start": 4071.64,
+      "end": 4082.64,
+      "text": "Gak enak juga ya kita sukanya misalnya gaming tapi ditawarin skincare."
+    },
+    {
+      "start": 4082.64,
+      "end": 4084.64,
+      "text": "Gak cocok ya."
+    },
+    {
+      "start": 4084.64,
+      "end": 4086.64,
+      "text": "Gaming sambil skincarean."
+    },
+    {
+      "start": 4086.64,
+      "end": 4092.64,
+      "text": "Nah ini ada pertanyaan lagi yang berhubungan sama Chrome extension."
+    },
+    {
+      "start": 4092.64,
+      "end": 4097.64,
+      "text": "Apakah, eh bukan, sorry salah."
+    },
+    {
+      "start": 4097.64,
+      "end": 4101.64,
+      "text": "Jadi pertanyaannya yang pertama tentang extension dan sekarang custom tabs."
+    },
+    {
+      "start": 4101.64,
+      "end": 4103.64,
+      "text": "Menginginkan Google juga."
+    },
+    {
+      "start": 4103.64,
+      "end": 4105.64,
+      "text": "Custom tabs itu apa?"
+    },
+    {
+      "start": 4105.64,
+      "end": 4111.64,
+      "text": "Custom tabs itu apa? Coba Google-nya."
+    },
+    {
+      "start": 4111.64,
+      "end": 4113.64,
+      "text": "Custom tabs."
+    },
+    {
+      "start": 4113.64,
+      "end": 4115.64,
+      "text": "Chrome custom tabs."
+    },
+    {
+      "start": 4115.64,
+      "end": 4117.64,
+      "text": "Oh Android."
+    },
+    {
+      "start": 4117.64,
+      "end": 4120.64,
+      "text": "Itu web view ya, keliatannya maksudnya web view deh."
+    },
+    {
+      "start": 4120.64,
+      "end": 4124.64,
+      "text": "Harusnya ada, setiap web itu ada cookies masing-masing kan."
+    },
+    {
+      "start": 4124.64,
+      "end": 4127.64,
+      "text": "Benar gak sih? Termasuk juga soal web view."
+    },
+    {
+      "start": 4127.64,
+      "end": 4129.64,
+      "text": "Sama kayak bukan di inkon itu kayaknya deh."
+    },
+    {
+      "start": 4129.64,
+      "end": 4131.64,
+      "text": "Android ya."
+    },
+    {
+      "start": 4131.64,
+      "end": 4133.64,
+      "text": "Itu Androidnya semacam web view."
+    },
+    {
+      "start": 4133.64,
+      "end": 4139.64,
+      "text": "Selama masih dia web, pasti ada cookie API."
+    },
+    {
+      "start": 4139.64,
+      "end": 4141.64,
+      "text": "Cookie API, betul."
+    },
+    {
+      "start": 4141.64,
+      "end": 4145.64,
+      "text": "Ada tapi ya itu lagi-lagi yang tanpa flag HTTP only."
+    },
+    {
+      "start": 4145.64,
+      "end": 4150.64,
+      "text": "Tapi itu baru kan ya? Flag itu baru tuh."
+    },
+    {
+      "start": 4150.64,
+      "end": 4155.64,
+      "text": "Udah di-stable semua. Semua browser yang stable maksudnya."
+    },
+    {
+      "start": 4155.64,
+      "end": 4160.64,
+      "text": "Browser modern udah pasti support lah ya."
+    },
+    {
+      "start": 4160.64,
+      "end": 4163.64,
+      "text": "Oke, oke, oke."
+    },
+    {
+      "start": 4163.64,
+      "end": 4165.64,
+      "text": "Ada lagi yang mau disampaikan?"
+    },
+    {
+      "start": 4165.64,
+      "end": 4167.64,
+      "text": "Udah dulu kayaknya deh."
+    },
+    {
+      "start": 4167.64,
+      "end": 4169.64,
+      "text": "Sudah dulu."
+    },
+    {
+      "start": 4169.64,
+      "end": 4171.64,
+      "text": "Sudah sejam kita bersama."
+    },
+    {
+      "start": 4171.64,
+      "end": 4173.64,
+      "text": "Siapa bersama?"
+    },
+    {
+      "start": 4173.64,
+      "end": 4175.64,
+      "text": "Cookie aja bisa sejam ya. Cookie."
+    },
+    {
+      "start": 4175.64,
+      "end": 4177.64,
+      "text": "Oh iya."
+    },
+    {
+      "start": 4177.64,
+      "end": 4181.64,
+      "text": "Gimana kita ya? Ngomongin, soalnya kan ini ya."
+    },
+    {
+      "start": 4181.64,
+      "end": 4185.64,
+      "text": "Kayak tadi ya, contoh website Guardian itu."
+    },
+    {
+      "start": 4185.64,
+      "end": 4189.64,
+      "text": "Untuk menampilkan si cookie aja butuh effort yang luar biasa besar."
+    },
+    {
+      "start": 4189.64,
+      "end": 4191.64,
+      "text": "Kita harus nge-track kita pakai..."
+    },
+    {
+      "start": 4191.64,
+      "end": 4195.64,
+      "text": "Saya ngerjain Cookie Concert itu kemarin sebulan lebih loh."
+    },
+    {
+      "start": 4195.64,
+      "end": 4196.64,
+      "text": "Sebulan?"
+    },
+    {
+      "start": 4196.64,
+      "end": 4199.64,
+      "text": "Sebulan lebih sendiri itu Cookie Concert."
+    },
+    {
+      "start": 4199.64,
+      "end": 4203.64,
+      "text": "Dan harus mapping semua cookies yang dikirim."
+    },
+    {
+      "start": 4203.64,
+      "end": 4205.64,
+      "text": "Itu yang bikin mamah itu."
+    },
+    {
+      "start": 4205.64,
+      "end": 4207.64,
+      "text": "Sampai ngomong ke lawyer loh."
+    },
+    {
+      "start": 4207.64,
+      "end": 4209.64,
+      "text": "Dan nge-tracknya gimana?"
+    },
+    {
+      "start": 4209.64,
+      "end": 4214.64,
+      "text": "Misalkan gini, misalkan awalnya kan kita pakai terparti service misalkan 5."
+    },
+    {
+      "start": 4214.64,
+      "end": 4217.64,
+      "text": "Tiba-tiba bulan depan kita nambahin 1."
+    },
+    {
+      "start": 4217.64,
+      "end": 4219.64,
+      "text": "Kita harus nambahin kan?"
+    },
+    {
+      "start": 4219.64,
+      "end": 4221.64,
+      "text": "Iya, jadinya di workflow."
+    },
+    {
+      "start": 4221.64,
+      "end": 4223.64,
+      "text": "Harus ada extra di situ."
+    },
+    {
+      "start": 4223.64,
+      "end": 4225.64,
+      "text": "Kalau nggak, bisa kena denda company-nya."
+    },
+    {
+      "start": 4225.64,
+      "end": 4227.64,
+      "text": "Iya, makanya."
+    },
+    {
+      "start": 4227.64,
+      "end": 4229.64,
+      "text": "Kalau masalah sih 25.000 euro gitu."
+    },
+    {
+      "start": 4229.64,
+      "end": 4231.64,
+      "text": "Apa sesuatu? Saya nggak tahu."
+    },
+    {
+      "start": 4231.64,
+      "end": 4233.64,
+      "text": "Ada denda gitu."
+    },
+    {
+      "start": 4233.64,
+      "end": 4237.64,
+      "text": "Yang benar-benar sudah diregulasinya dijalankan adalah di Eropa ya, terutama ya."
+    },
+    {
+      "start": 4237.64,
+      "end": 4239.64,
+      "text": "Kalau nggak salah di Amerika juga ada ya?"
+    },
+    {
+      "start": 4239.64,
+      "end": 4243.64,
+      "text": "Eropa dan negara bagian Kalifornia di Amerika."
+    },
+    {
+      "start": 4243.64,
+      "end": 4245.64,
+      "text": "Oh, di Amerika."
+    },
+    {
+      "start": 4245.64,
+      "end": 4247.64,
+      "text": "Kalau di Indonesia belum ada ya?"
+    },
+    {
+      "start": 4247.64,
+      "end": 4251.64,
+      "text": "Jadi kalau Amerika kan, hal-hal US kan masing-masing negara bagian bisa bikin hukum sendiri ya."
+    },
+    {
+      "start": 4251.64,
+      "end": 4255.64,
+      "text": "Jadi nggak ada aturan di seluruh negara."
+    },
+    {
+      "start": 4255.64,
+      "end": 4257.64,
+      "text": "Iya, betul."
+    },
+    {
+      "start": 4257.64,
+      "end": 4259.64,
+      "text": "Indonesia belum ada."
+    },
+    {
+      "start": 4259.64,
+      "end": 4261.64,
+      "text": "Untungnya garis mereng sayangnya."
+    },
+    {
+      "start": 4261.64,
+      "end": 4263.64,
+      "text": "Untungnya sayangnya."
+    },
+    {
+      "start": 4263.64,
+      "end": 4265.64,
+      "text": "Mudah-mudahan segera lah ya."
+    },
+    {
+      "start": 4265.64,
+      "end": 4267.64,
+      "text": "Oke, kalau gitu."
+    },
+    {
+      "start": 4267.64,
+      "end": 4269.64,
+      "text": "Terima kasih banyak, teman-teman."
+    },
+    {
+      "start": 4269.64,
+      "end": 4271.64,
+      "text": "Kita udahan dulu malam hari ini."
+    },
+    {
+      "start": 4271.64,
+      "end": 4273.64,
+      "text": "Jangan lupa kalau ada..."
+    },
+    {
+      "start": 4273.64,
+      "end": 4275.64,
+      "text": "Seperti biasa pertanyaan ya."
+    },
+    {
+      "start": 4275.64,
+      "end": 4283.64,
+      "text": "Kalau ada pertanyaan, ada topik yang mau didiskusikan di episode-episode pendatang, bisa ke bit.ly/ngobrolinweb."
+    },
+    {
+      "start": 4283.64,
+      "end": 4287.64,
+      "text": "Dan kalau begitu, kita pamit dulu."
+    },
+    {
+      "start": 4287.64,
+      "end": 4289.64,
+      "text": "Terima kasih banyak untuk malam hari ini."
+    },
+    {
+      "start": 4289.64,
+      "end": 4297.64,
+      "text": "Lumayan seru untuk topik tentang biskuit malam hari ini."
+    },
+    {
+      "start": 4297.64,
+      "end": 4301.64,
+      "text": "Tapi, ini ada pertanyaan menarik nih."
+    },
+    {
+      "start": 4301.64,
+      "end": 4303.64,
+      "text": "Saya nggak tahu."
+    },
+    {
+      "start": 4303.64,
+      "end": 4305.64,
+      "text": "Apa nggak tahu?"
+    },
+    {
+      "start": 4305.64,
+      "end": 4307.64,
+      "text": "Isinya apa?"
+    },
+    {
+      "start": 4307.64,
+      "end": 4309.64,
+      "text": "Saya nggak tahu banyak."
+    },
+    {
+      "start": 4309.64,
+      "end": 4313.64,
+      "text": "Tetapi UIT itu setau saya tidak ada mengatur tentang biskuit."
+    },
+    {
+      "start": 4313.64,
+      "end": 4315.64,
+      "text": "Nggak ada."
+    },
+    {
+      "start": 4315.64,
+      "end": 4317.64,
+      "text": "Data protection berarti belum ada ya?"
+    },
+    {
+      "start": 4317.64,
+      "end": 4319.64,
+      "text": "Perlindungan data."
+    },
+    {
+      "start": 4319.64,
+      "end": 4321.64,
+      "text": "Ada, perlindungan data ada."
+    },
+    {
+      "start": 4321.64,
+      "end": 4323.64,
+      "text": "Cuman saya nggak tahu bagian mana."
+    },
+    {
+      "start": 4323.64,
+      "end": 4325.64,
+      "text": "Masalahnya ada."
+    },
+    {
+      "start": 4325.64,
+      "end": 4327.64,
+      "text": "Iya."
+    },
+    {
+      "start": 4327.64,
+      "end": 4331.64,
+      "text": "Nanti bikin episode UUIT, eh apa."
+    },
+    {
+      "start": 4331.64,
+      "end": 4333.64,
+      "text": "Kapan-kapan?"
+    },
+    {
+      "start": 4333.64,
+      "end": 4335.64,
+      "text": "Nggak, kalau udah di..."
+    },
+    {
+      "start": 4335.64,
+      "end": 4337.64,
+      "text": "Kita harus undang ahlinya."
+    },
+    {
+      "start": 4337.64,
+      "end": 4339.64,
+      "text": "Sudah."
+    },
+    {
+      "start": 4339.64,
+      "end": 4341.64,
+      "text": "Siapa ahlinya?"
+    },
+    {
+      "start": 4341.64,
+      "end": 4343.64,
+      "text": "Gak tahu, kita cari dulu."
+    },
+    {
+      "start": 4343.64,
+      "end": 4345.64,
+      "text": "Kita cari dulu orang hukum."
+    },
+    {
+      "start": 4345.64,
+      "end": 4349.64,
+      "text": "Yang mau, yang mau ngomong bisik."
+    },
+    {
+      "start": 4349.64,
+      "end": 4351.64,
+      "text": "Oke, oke, oke. Siap, siap, siap."
+    },
+    {
+      "start": 4351.64,
+      "end": 4353.64,
+      "text": "Ya udah kalau begitu."
+    },
+    {
+      "start": 4353.64,
+      "end": 4355.64,
+      "text": "Terima kasih sekali lagi buat teman-teman yang sudah hadir,"
+    },
+    {
+      "start": 4355.64,
+      "end": 4357.64,
+      "text": "yang sudah meramaikan malam hari ini."
+    },
+    {
+      "start": 4357.64,
+      "end": 4359.64,
+      "text": "Kita ketemu lagi hari selasa depan."
+    },
+    {
+      "start": 4359.64,
+      "end": 4367.64,
+      "text": "Jangan lupa kalau ada kritik saran dan bahan diskusi boleh ke bit.ly/ngobrolin."
+    },
+    {
+      "start": 4367.64,
+      "end": 4369.64,
+      "text": "Kita pamit."
+    },
+    {
+      "start": 4369.64,
+      "end": 4373.64,
+      "text": "Selamat malam. Sampai jumpa lagi minggu depan."
+    },
+    {
+      "start": 4373.64,
+      "end": 4375.64,
+      "text": "Bye."
+    }
+  ],
+  "fullText": "kita di ngobrolin web, karena malam ini adalah hari Selasa Malam Rambu. - Selasa Malam Rambu. - Kok nggak kompak ya kayaknya, opening-nya ganti-ganti terus ya. Kayaknya kita harus latihan dulu deh, kita harus latihan dulu, kita harus bikin script-nya latihan dulu. Gimana kabarnya teman-teman malam hari ini semoga semuanya sehat-sehat ya, yang nonton juga, mungkin boleh say hi kita di komentar, biar bisa kita liat-liat nih siapa aja yang sudah hadir malam hari ini. Seperti biasa kalau mau tanya-tanya di komentar juga boleh, baik yang ada mau tanya maupun yang nggak ada. Yang nggak ada hubungannya juga boleh ditanya ya, yang nggak boleh ditanya itu tanya nomor top 10. - Biasanya ada yang bahas jQuery lagi. - Oh iya, biasanya betul. - Setiap episode harus ada jQuery. - Betul. Ya, jadi kita malam hari ini seperti biasa kita akan ngobrolin seputar dunia web, teknologi web yang cakupannya sangat besar, dan malam hari ini kita akan membahas tentang kue atau cookies. - Oh iya, kue. - Cookies itu kue bukan sih, atau kue coklat gitu kan? - Biscuit. - Biscuit, oh biscuit, oke. Nah biskuit favorit Ivan apa? Tanpa menyebutkan merek. - Susah ya. - Susah ya. - Susah. - Tunggu dapetin tulisan dulu. - Coklat chip lah, coklat chip. - Toko chip ya, oh iya. - Yang mereknya itu ya. - Pasti ada merek top of mind kan. Waktu yang baik ya, waktu yang baik. Ya biskuit ya, wafers termasuk biskuit ga wafers? - Beda, wafers beda. - Engga ya, beda lagi ya. - Kerupuk apa lagi, bukan? - Oh iya bukan, halo Ira. Selamat datang. Ya, jadi kita malam ini ga akan ngomongin makanan, - Tapi kita ngomongin tentang sesuatu. - Sayangnya, cookies. - Ya namanya. - Teknologi web yang namanya cookies. Yang biasa digunakan di browser, dan dalam beberapa tahun belakangan ini sangat sering muncul, terutama kalau kita baru buka web yang baru kita akses gitu kan. - Terus tiba-tiba ada... - Pasti ada banner. Apa sih ini cookies, maksudnya gitu kan, malam hari ini kita akan... - Aset-aset aja ya. - Iya, terima-terima aja ya. - Ga dibaca dulu atau ini apa. - Cookie apa, terus apa yang terjadi pas accept juga kelihatannya sebagian besar pengguna web ya, ga begitu tahu. Terus kayaknya juga sekalian kayaknya kalau webdev diminta, diminta selalu buatin cookies ya pokoknya pasang-pasang aja. Pasang-pasang aja tuh bannernya, tinggal install leveler-nya, 1 install plug-nya yang penting jadi gitu. - Ya kita akan mulai dari apa itu cookies, digunakan di bagian mananya, dan kenapa kok beberapa tahun belakangan ini tiba-tiba cookies itu seperti sebuah... - Seperti di mana-mana? - Seperti keharusan. Kalau dulu kok ga ada gitu kan, ya kita pakai cookies biasanya untuk session gitu kan. Biasanya untuk session, untuk autotifikasi dan lain-lain. Tapi ga ada tuh yang accept cookies, reject cookies gitu. Terus tiba-tiba beberapa tahun belakangan ini tiba-tiba kayaknya beberapa website terutama Eropa gitu ya, itu harus ada accept cookies sebelum kita baca gitu, harus ada kayak semacam pop-up atau ada banner di bawahnya itu yang harus kita klik dulu baru bisa kita nikmati website. - Nah, sisa kalaman. - Jadi cookies itu apa? Ini Ivan ya, Ivan? Mari kita baca sama-sama. - Kita baca sama-sama. - Sebenarnya awalnya... - Ada sejarahnya ternyata. - Iya. Cookies itu secara singkat aja ya. Itu cara temporary storage yang ada di browser untuk menyimpan data. Itu aja sih sebenarnya simpelnya, tapi kita lihat sejarahnya dulu ya. Kalau kita tahu ya HTTP request atau hypertext transfer protocol itu sebenarnya ya kalau tahu web, cara requestnya kan via HTTP ya, HTTP itu protokolnya dan itu sebenarnya stateless. Stateless itu waktu terjadi request dari this one itu sebenarnya servernya bodoh amat, ga tau siapa yang request, yang penting ada request itu, halaman itu, gue respond ini gitu. Intinya kan seperti itu stateless. Gak peduli itu siapa, dimana gitu ya. Ada service, gue minta minum gitu, kasih minum, udah gitu aja. Gak peduli siapa. - Ya ga tau sebelumnya udah kasih minum atau belum. - Kalau istilah di programmingnya pure function gitu ya, apapun yang negasi hasil akhirnya tetap sama gitu ya. - Input, output selalu sama. - Jadi memang dulu awalnya, kalau back to tahun 90-an, jamannya web itu awal-awal itu kan sebenarnya simpel informasi aja ya. Kayak semua, kayak library online aja pokoknya semua text gitu. - Dokumen lah ya. - Dokumen, orientasinya pada sharing dokumen. Betul. Terus si Mas Lomontuli ini itu dari Netscape ya, di 90-an awal, ada problem. Waktu itu mereka lagi bikin online store untuk company namanya MCI. - Tahun 90-an udah ada online store berarti? - Udah awalnya gitu. Awalnya semua data itu disimpan di server. Saya ga tau ya gimana caranya, karena kepikiran sekarang itu sisinya yang penting kalau mau bikin login pasti pakai cookies atau session gitu ya. Sekarang kita ga tau, kalau zaman dulu itu mungkin mereka cari simpannya setiap customer punya URL unik dan datanya disimpan di server. Nah itu kan berarti kalau satu hari aksesnya 1000, berarti 1000 customer beda-beda dong disimpan semua di server, jadinya lambat gitu. Akhirnya perubahan nasi tektur, si company minta, \"Gua ga mau disimpan di server, gua mau semua data ini simpannya sebenarnya di komputer user aja.\" Dibalik gitu ya. Jadi identifier-nya disimpan di komputernya si customer, disitulah lahir namanya Magic Cookie. - Magic Cookie, lucu ya dulu namanya ada magic-nya. - Iya. Ini dia sebutkan bahwa konsep ini sudah di halangan programmer, udah lumrah udah umum. Iya, Magic Cookie tetap. Kayak identifier, kalau misalnya kita mau request, mungkin kan jaman itu protocolnya ga cuma HTTP ya. Masih ada protocolnya ini, FTP, masih ada FTP, SFTP segala macam. Mungkin jaman itu ada protocol lain, dia identifier. - Atau sistem komunikasi yang saling berkomunikasi kali ya? Kayak internet atau jaringan apa pun. - Iya, betul. Kalau misalnya mau identifikasi, kirim sesuatu kayak flag, kayak data tambahan, siapa gua gitu ya. Nah, itulah namanya Magic Cookie di kalangan jaman itu. Dengan sistem yang sama, dia terapkan di HTTP atau di web. Nahir lah Cookie. Itu aja sih sejarah singkatnya ya. - Nah kalau mau baca lagi lanjut, bagaimana cara ketujuan Cookie. - Baca sendiri ya. Iya, namun sebagai intinya, anggap aja kalau di dunia sekarang itu gampangnya gini lah ya. Kalau kita mau masuk parkir, kita masuk ambil tiket, supaya kita bisa keluar kita tunjukin tiket identifier kita itu ya. Itulah Cookie, yang sepotong kertas itulah Cookie. Jadi kalau di ilustrasi ini, user log in, berhasil log in, sesenya di-store ke database, kemudian hasilnya dikirim Cookie. Dikirim hasil sesen ID-nya. Sesen ID-nya disimpan di lokal, di klien dalam bentuk Cookie. Dan ketika setiap kali kita mengakses web yang harus membutuhkan log in, Cookie-nya dibawa. - Kita request berserta kuehnya ini ya, kueh kuehnya ini. - Tiket merger tadi. Jadi kita nggak perlu buka konsol, jadi semuanya itu ada di dev console bisa kelihatan. - Di bahagia application cookies. - Aplikasi cookies. Jadi dia sebenarnya sederhana seperti key value store ya, kayak redis, kalau yang di web juga ada database itu, index DB ya kan? - Index DB. - Ya, caching yang kemarin kita bahas juga key value store juga. Jadi ada beberapa macam persistent storage ya, seperti Mas Dita sudah bilang, itu dari yang paling, cookies itu cuma bisa memuat 40, coba scroll sedikit ke bawah, kalau nggak salah 40 kilobyte deh. - 40 kilobyte. - 4 kilobyte, 4 kilobyte aja itu maksimal. Jadi cookies itu storage yang paling lama ya, bisa dibilang paling pertama ada, dan kelihatannya perbedaan utamanya dibanding storage lainnya adalah si cookie ini selalu ke bawah ya, di request dan respond. Apa di operasi-operasi protocol HTTP, jadi perbedaan paling utama sih itu ya kelihatannya. Jadi kalau misalkan tadi kita login, terus kita udah dapat session ID-nya yang di-store di database, kemudian dikirimkan ke kita, setiap kali kita mau masuk ke halaman yang membutuhkan login, kita tuh nggak perlu login lagi, karena udah ada si cookie-nya ini. Kalau misalkan kita nggak kirimin cookie-nya, berarti kita harus login lagi setiap halaman. Setiap halaman kan cape ya, karena kan tadi yang Ivan ceritakan bahwa setiap halaman, setiap request itu... - Aslinya status. - Jadi dia nggak tahu kita udah dalam keadaan login atau belum. Nah, yang menandakan kita udah login atau belum ya cookie-nya ini. - Ya, kali dengan cookie. - Iya. Ada juga yang kadang-kadang ada di halaman loginnya itu ada remember login selama 30 hari, ya itu cookie-nya ya expired-nya sampai 30 hari gitu. - Ya kan? - Termasuk ini ya, termasuk dengan request yang terjadi via Ajax ya. - Client side. - Oh ya, client side. - Request. - Fetch. - Ajax. - Ajax. XHR. - Oh, ini bahasanya masih bahasa jQuery ya, Ajax. - Enak aja, itu Ajax itu sebelumnya. Itu yang diadopsi sama jQuery sebelumnya kan, Ajax. - Apa? XML? - XML HTTP request. Panjang banget namanya. Makanya disingkat sama jQuery kan dot get dot post. - Ya, pokoknya apapun client side request tapi ya ini. - Iya. - Ya misalkan kita... - Cookie selalu ke bawah. - Mau request ke API yang membutuhkan login atau autentikasi. Jadi API-nya tidak publik, nggak bisa dibaca umum. Hanya bisa dibaca oleh user-user yang terautentikasi. - Nah, caranya adalah... - Ya misalnya kita mau lihat draft-post kita sendiri. Itu cuma misalnya aplikasi blogging atau email, kan kita harus lihat kita akan nge-fetch email kita sendiri atau draft-post kita sendiri. Nah, kita harus kirim si token atau apapun itu yang mengidentifikasi siapakah kita lewat dengan cookies yang dikirim lewat request itu ya, berarti. Betul. Nah, kalau mau tahu atau mau belajar lebih lanjut, disini ada tautan yang menarik nih dari Data Academia. Nah, menurutku ini salah satu resursi yang enak buat beginner kalau misalnya yang pengen dari awal banget. Terus kalau menurutku ini lebih jelas dari MDN malah. Karena MDN itu kan detail. Cuma maksudnya kita harus sudah tahu kita mau cari apa. Kita harus agak familiar dulu sedikit baru cari. Nah, kalau ini tuh kayak urutannya lumayan enak sih menurutku buat dibelajarin. Cookie itu, apa contohnya liatnya di mana? Terus itu ada contohnya. - Ada... - Kalau mau dibelajarin lebih lanjut sih bisa cek aja link-nya. Oke, ada contoh-contohnya, ada contoh kasusnya juga bisa dipakai di model autentikasi. Ada, nanti kita bahas juga tentang third party, first party, cookie, gitu kan. Ada web security juga, macem-macem ya. Nah, terus apa cara nge-setnya tuh bagaimana? Jadi kan tadi udah dibilang sedikit ya sekilas. Cookie tuh key value. Maksudnya walaupun flag-nya banyak, semua tuh harus di-stringify jadi satu. Nah, bentuknya kayak gitu tuh. Format sintaksnya seperti itu. Jadi nggak bisa kita kirim objek. Betul, database sederhana yang hanya bisa menerima string. Jadi semuanya harus dijadikan string terlebih dahulu untuk value-nya. Sedangkan key-nya string juga. Jadi dua-duanya string ya. Nah, terus beberapa penggunaan yang cukup umum tuh usage. Kan tadi kita udah bahas tuh yang 6, apa? Point 6.1 ya. Maksudnya identifikasi, siapa kita, 6.2 juga. Autentikasi juga udah kita bahas. Cross-site tracking. Nah, ini yang nanti bakal banyak topiknya ya. Iya, ada A/B testing juga. Jadi, apa? Bisa menentukan. Bisa nge-tag user-nya. Dia sudah akses alpas sehingga kita bisa kasih konten yang berbeda. Jadi misalnya contoh kasusnya mungkin yang belum familiar ya. A/B testing tuh misalnya kalau marketing kita mau jualan sesuatu, itu kalau tombolnya di atas, kita pengen tahu kalau tombolnya di atas yang membeli berapa banyak. Terus gimana kalau ditukar. Misalnya apa, image-nya di atas, tombolnya yang di bawah. Banyak yang beli kan itu mungkin untuk bakal pakai load balancer atau teknologi apapun itu, sebagian user dapat format A, sebagian user dapat format B. Nah, kita kan harus tahu tuh user yang nge-click itu dapat layout yang mana. Jadi itu harus pakai cookie untuk A/B testing umumnya. Umumnya seperti itu. Terus kita bahas apa lagi nih? Sudah tahu cookies itu apa? Kalo itu security, nanti aja lah ya. Panjang itu ya. Panjang nanti. Oke, lebih ke ini mungkin. Kita udah tahu cookies itu apa, kemudian cara penggunaannya gimana, digunakan di mana. Nah, kok kenapa tiba-tiba, ya cookies ini kan udah lama dipakai ya, udah lama banget gitu kan. Dari 90an lah tadi. Dari awal 90an udah dimunculkan, terus kita pakai juga mungkin kalo temen-temen yang udah biasa nge-hoding gitu ya, udah biasa bikin aplikasi web terutama, bikin login pasti pakai sessionnya, ya disimpanin salah satunya di cookies gitu kan. Nah, tapi kenapa akhir-akhir ini berapa tahun belakangan nih kok tiba-tiba si cookie ini selalu harus kita accept atau kita reject gitu ya. Ada semacam kayak pop-up atau banner di bagian bawah biasanya. Sebelum kita mau baca artikel atau mau buka aplikasi webnya, kita harus accept dulu. Kita harus setuju dulu. Harus setuju. Nah, ini ada apa nih? Kenapa akhirnya muncul? Ada apa dengan cookies? Ada apa dengan cookies? Ya sebetulnya mungkin itu ya berkaitan sama poin 6 tadi, beberapa penggunaan cookies. Ya mungkin sejak dulu kan emang cookies itu bisa berisi informasi yang sensitif. Sensitif maksudnya apa? Ya itu bisa berarti rahasia atau bisa mengidentifikasi kita itu siapa. Ya contoh paling gampangnya email lah ya. Email atau username dan lain-lain. Nah, terus apa? Nature-nya cookie itu yang tadi kita udah bahas kan, selalu nempel di request dan response. Dan bahkan dulu, mungkin sekarang udah nggak ya atau masih. Jadi kalau misalnya di halaman web kita membuat request ke origin atau domain lain, misalnya untuk memanggil image atau accept apapun atau javascript, misalnya analytic script apapun yang di luar website kita, itu kan bikin request. Nah, kita di situ juga kekirim di request. Sementara cookie itu bisa berisi beberapa hal yang bersifat informasi pribadi. Sebenarnya berangkat dari situ sih. Dan itu kan dari dulu. Cuma mungkin namanya apa e-commerce atau online marketing atau praktek-praktek iklan dan analytics dan social media dan hal-hal semacamnya mungkin kan baru meledak ya sekian tahun terakhir ya. Mungkin jadi muncul macem-macem, ya ada penyalahgunaan, mungkin ada eksploitasi yang berdampak kurang baik buat user, makanya mulai lahir aturan-aturan yang mengatur penggunaan cookies. Kalau menurutku sih lainnya dari situ tuh. - Yang mengatur bagaimana penyimpanan data user. - Penyimpanan data user. Ya, intinya sebenarnya si cookies ini kan sifatnya public ya. Jadi jangan sampai teman-teman nyimpan data-data pribadi user di cookies atau di local storage karena kemungkinan bisa diambilkan sama orang ya. - Jangan simpan ini ya, kalau webdev ini ya, jangan simpan IPIQ di cookies. - IPIQ? - IPIQ di cookies. - IPIQ? - Iya, siapa tahu. - Itu agak unik juga itu. - Siapa tahu. - Cuma itu kan sebenarnya rumit juga ya nuance. - Biasanya kalau untuk login, kita kan punya data session. Data session itu biasanya memang dikirim lewat cookies dalam bentuk jwt-encrypted kan. Cuma yang tabu, yang gak boleh, itu passwordnya jangan dikirim lewat cookies. Kalainkan sessionnya. Kenapa? Karena session itu bisa di-invalidate kan. - Betul, iya. - Kita bisa matur, itu bisa expire, bisa di-invalidate. Jadi ya itu berbagai layer keamanan aja sih. - Dan beberapa tahun terakhir muncul, nah ini gara-gara ada isu tentang data protection tadi. - Ngomongin cookies, \"Ada-ada nih, akan kesini nih.\" Kalau sebelumnya, ingat gak, ya saat social media meredak lah ya. Itu kan ibaratnya web 2.0, bahasanya jaman itu ya. Jadi user itu, kita pakai situs dan kita itu adalah, sebagai user kita itu adalah, ini apa istilahnya bahasanya? - Kita adalah produknya. - Kita adalah produknya, kita disegmentasi sebagai target iklan dan segala macam. Pernah gak sih kalian apa ngerasain gitu misalkan awalnya kita browsing-browsing di marketplace. Tiba-tiba buka social media, oh tiba-tiba muncul sepatu gitu. Dan buat orang awam, maksudnya orang yang gak tahu tentang ini, itu mereka tuh bisa kaget loh. - Maksudnya bisa terpengaruh secara psikis, kaget. - Loh, kok dia tahu ya? Kita baru cari sepatu gitu kan. Ibaratnya itu sih damanya remarketing, ya. Remarketing dimana kita bisa disegmentasi berdasarkan interest. Dan kemudian karena kita menggunakan situs lain contohnya, anggap lah mesin pencari apa gitu ya. Kita login, ya login disitu. Terus kita, keyboardnya kita cari sepatu indah bola pingpong gitu misalnya. - Misalnya sepatu apa lah gitu. - Tengah. Sepatu. Misalnya sepatu lari gitu ya, sepatu lari gitu. Akhirnya dan kita itu di tag itu, interest kita sepatu lari. Nanti data kita itu bisa digunakan oleh si penyedia mesin pencari itu dijual ke, disediakan service-nya ke third party untuk digunakan, eh ini user-nya, ada pool-nya yang interest dengan sepatu lari gitu. Bisa lu target, nah gitu. Jadi saya pernah jadi produknya, pernah juga jadi marketer-nya. Jadi kayak nyari men segmentasi user, berdasarkan kalau saya segmentasi keyboard ini, umur siang, daerah mana saya dapat 10.000 user. Itu target saya, saya coba targetin untuk iklan. Bisa detail ya, bisa sampai umur, range umur, lokasi. Nah itu justru kalau cuma satu, jadi kan ini adalah akumulasi data yang masif lah, yang banyak banget. Jadi kalau cuma satu poin kan sebetulnya kalau kita lihat di gambaran paling kecil, cara kerjanya kan iklan nih, iklan atau satu barang. Itu disimpan bahwa user ini melihat sepatu lari, sepatu lari yang sepatu lari laki-laki ukuran sekian. Nah tapi dengan cookie yang bisa mengikuti user kemana-mana, bahkan ke situs lain, lama-kelamaan kan gambarnya makin makin besar, maksudnya makin luas. Jadi misalnya buka sepatu lari, membeli sepatu larinya di sebuah toko di Jakarta Selatan. Misalnya berarti mulai ketahuan lokasinya. Terus selain sepatu lari, dia juga misalnya si user itu juga misalnya membeli apa ya, beli aksesoris bayi atau baliha misalnya. Berarti kan diketahui itu sudah berkeluargaan, sudah punya anak. Terus misalnya beli aksesoris mobil, berarti dia juga naik mobil, berarti bisa dibuat gambar tentang mungkin, ya itu status, tempat tinggal, mungkin range penghasilan, jenis pekerjaan. Makin banyak data point-nya kan itu makin identifying ya, jadi bukan cuma satu hal aja, tapi kalau udah numpuk itu dampaknya jadi besar. Jadi terbentuk persona masing-masing gitu ya? Betul. Nah di zaman sempat karena social media itu mulai mengumpulkan data seperti itu, dan ternyata datanya mulai digunakan untuk segmentasi iklan dan juga untuk kempen-kempen. Di jual ke hal, oh ya politik juga ada dulu. Kampanye politik, mungkin bukan kampanye politik tapi lebih ke arah menyebarkan istilahnya. Berita-berita provokatif juga termasukkan yang bisa memenuhi, memikirkan orang. Iya, menarikkan dan bisa menyesuaikan. Intinya banyak hal yang bisa digunakan. Pokoknya di awalnya simple, kayaknya kita nggak mikir sampai situ. Tapi ternyata setelah numpuk terbukti itu punya dampak yang, kalau nggak diatur, bisa punya dampak yang berbahaya. Terus di 2016 lahirlah GDPR, General Data Protection Regular dari European Union, mewajibkan semua company ada range-nya ya, ada range duitnya. Kenapa saya lupa, kalau nggak salah. Yang cukup besar lah pokoknya ya. Saya bukan lawyer, jadi saya cuma menjelaskan dari sisi web dev yang pernah implementasi GDPR secara detail. Jadi, company yang saya berikan service untuk mengimplementasikan GDPR compliance ini terhadap cookies, itu pertama memasangkan cookies, cookie banner itu. Di mana cookie banner itu terdiri dari beberapa kategori. Ada functional cookie, ada functional yang wajib, ada kategori yang marketing, ada kategori yang analytics, segala macam. Di GDPR ini sendiri mengatur, nggak cuma mengatur cookie, tetapi mengatur bagaimana si company bisa-- -Mengelolaan data secara umum. -Iya, mengelola data si customer-nya dia. Pertama, GDPR ini secara policy mengatur, jika ada identifier yang diambil dari user, maka user itu wajib diberitahu. Atau dengan konsen, makanya namanya cookie konsen. Wajib memberikan konsen. -Konsen itu bahasa Indonesia apa ya? -Memberikan izin, izinkan data kita untuk dipakai mereka. -Walaupun kadang-kadang pilihannya cuma accept. -Bukan dipakai, disimpan, dikelola. Mengizinkan data-nya kita, karena data kita jika akses website, misalnya Wikipedia ini contohnya, mengakses Wikipedia, maka perusahaan itu wajib untuk memberitahu pada si user kalau mereka akan menyimpan data-nya dan wajib juga memberitahu user bagaimana cara mereka menyimpannya dan memastikan keamanan data mereka. Jadi ada policy-nya. -Konsen itu adalah memberi izin secara sadar. Jadi ga boleh manipulatif di background, tiba-tiba ototis jalan ya, emang harus secara sadar, mengeklik, accept. -Ga boleh bintang dan ketentuan berlaku gitu ya. -Jadi itu satu, jadi memberitahu user untuk memberikan izin secara sadar. Kedua, GDPR mengatur bagaimana data itu disimpan secara aman. Ketiga, memberikan, mengatur bagaimana kalau data itu yang disimpan itu sepenuhnya bukan milik dari si perusahaan, tetapi milik si customer-nya, si user-nya. Jadi user telah yang memiliki data itu yang disimpan oleh perusahaan. Jadi sewaktu-waktu jika user ingin meminta data apa saja yang disimpan, si perusahaan wajib untuk memberikannya. Menyediakan itu, semuanya gitu ya, ga boleh ada yang ditutupi. Terakhir, si user boleh meminta si perusahaan untuk menghapus datanya itu dari perusahaan itu secara completely tanpa boleh ada backup. -Kalau soft delete, ga boleh ya? -Gak boleh, jadi masuk trash bin, terus nanti di cover, ga boleh. -Kalau kita bikin aplikasi kan, biasanya kan soft delete ya? Cuma tidak ditampilkan saja, tapi biasanya tetap ada. -Ada challenge-nya di sini, kalau secara sistem data ukir segala macam, kebetulan situs yang saya bantu itu, saya kerjakan itu tidak ada data yang aneh-aneh yang disimpan secara saja, cuma data analytics saja. Dan itu data-nya bisa dikumpulkan, bisa dihapus segala macam. Jadi secara third party vendor yang mereka gunakan untuk analytics pun sudah sadar GDPR dan sudah ada fitur itu. Fitur untuk mengambil data, fitur untuk menghapus data sudah ada. Namun yang cookie banner-nya, cookie consent banner-nya ini kan harus di-customize ya. Jadi dari sisi ada challenge-nya, karena situs ini sudah cukup lama. Cookie-nya itu ada banyak, analytics-nya ada banyak, tracking-nya ada banyak, dan di-inject dari mana-mana. Dari GTM lah, dari analytics lah, dari... I don't know, banyak banget lah intinya. -Dan berarti kalau sudah adopt GDPR ini, by default kan harus off semua ya? -Sampai secara eksplisit mengizinkan, baru yang banyak banget tadi itu baru jalan semua. -Jadi masang cookie consent itu tidak hanya memasang, toh, jalan, orang bisa accept, that's it. Bukan. Tetapi harus bisa nge-block semua third party vendor itu tidak boleh menanamkan cookies-nya sebelum ada consent-nya. -Ok. -Jadi harus satu-satu itu di pilih tuh. Misalnya kayak ada yang pakai Hotjar, ada yang pakai Google Analytics, ada yang pakai dari GTM, Inject, segala macam tracking yang mereka butuhkan gitu ya, ads. Maka semua itu harus di-block dulu, nggak boleh jalan sampai cookie consent di-block. -Ribet juga ya? -Itu yang implementasinya secara benar. -Ok. -Jadi kita harus kayak nasi API event, jadi ada event dispatch ya, jadi event dispatch, dan waktu event dispatch itu kita tanungkan di cookies-nya kita sendiri, kalau kita sudah pasang, dan setiap kali page reload, kita ngirim dispatch event itu ke third party vendor, baru mereka bisa jalan. Kalau nggak, nggak boleh jalan. -Kalau nggak, nggak boleh. -Iya. Dan kalau kita accept, berarti kita dengan sadar memberikan izin web, data kita disimpan di tempat mereka dan bisa digunakan untuk hal-hal yang dibutuhkan gitu ya. Jadi betul sekali, jangan main accept-accept aja. Pastikan kalau misalkan teman-teman tidak bersedia datanya dipakai ya, direject aja. -Jangan pakai webnya, gitu ya. -Iya, cuma prakteknya kan kadang pilihannya cuma accept. -Accept all atau accept persial? Ada tuh, accept yang... -Kadang ada cuma satu accept. Makanya hanya accept aja, kalau nggak ya di close aja gitu kan. -Tapi ya itu minimal satu langkah, ya nggak. -Gak harus. Cuma kalau user nggak bersedia, ya bisa ditutup aja, nggak usah pakai layanan itu. -Ini nih ada contohnya, buka aja yang kayak dari standard charter, dia pakai OneTrust kan ini ya? -Iya, biasanya dead service-nya ya sekarang. -Kalau melihat yang bagus itu dari bank ya, biasanya ya. -sc.com/en. -Apa tuh, coba dong, Pak. -sc.com/en. -English. -SC itu apa? Standard charter? -Standard charter. -Kok begini? -Loh, kena block, kena block. Ini... ada apa? -I don't know. -Refresh, refresh. Nggak bisa. -Kena block CSS-nya, mungkin sama... -Coba deh, theguardian.com juga bagus, theguardian.com/international. -Nah, make your choice. -Nah, tuh. Manage my cookies. -Kalau ini dia kan UK-based ya, berbasis di UK, Eropa, Eropa. Kalau ngikutin GDPR, ini yang kayak strict banget lah, salah satu contoh yang ya, best practice lah. -Maksudnya yang ideal, yang beneran meng-educasi user. -Best practice, ya. -Ini accept atau yes, I'm happy ini accept, kalau kita mau lihat... -Yes, I'm happy accept, kita bisa manage. Bisa lihat yang mana aja yang kita accept, yang mana yang kita tidak. On/off ya, jadi sistemnya ya. -Dan ada penjelasannya tuh. -Status rejected all. Nah, ini udah reject semua gitu kan, habis itu kita close. Kita tetap bisa pakai, meskipun mungkin analyticsnya nggak jalan, atau ada beberapa... Misalkan ini alamatnya juga mungkin berbeda gitu ya, apa, location dan lain-lain mungkin ya, nggak tahu. Dan bahkan tadi apa sih, ada list site vendors-nya, jadi kayak pasang iklan atau... -Udah kubur-kubur itu hutup ya. -Apanya tuh? -Munculin lagi bisa kok, kayaknya... -Bisa ya? -Bisa di bawah, bisa di bawah kayaknya. -Bawah, bawah, ke footer. Oke, ini iklan. Ke footer ya, ada ya di bawah ya? -Lihatannya ini ya. -Privacy settings. -Coba deh, privacy settings. -Privacy settings. -Iya, klik. Nah. -Nah, that's a vendor. Satu lagi, ke concern vendor yang benar tuh kayak gini. Jadi habis user submit, harus ada caranya user untuk kembali lagi ke sini. -Kalau kita berubah pikiran gitu ya? -Yes. Itu ada keterangannya tuh, di bawah kan, you can change the above settings, blablabla. Ya, ada Cloudflare, ada Cloudinary, ada Google Analytics. Nah, Google Analytics juga sempat ini ya, kena isu juga kan, bakal di block dari apa, di Eropa gitu kan. Satu-satunya gara-gara dia nggak consent kan, belum mau waktu itu. Ya, nggak compliance, sorry, nggak compliance. Akhirnya di ancam untuk tidak diperbolehkan, digunakan di Eropa. Walaupun sekarang kayaknya udah clear ya. -Uda. Kayaknya udah bersahabat mereka. -Sudah bersahabat. Iyalah. Ada banyak sekali, ya. Ada Primeo, ada Netflix, ada Rekspace, macem-macem. -Gimana nih coba bagi si developer-nya? Ayo, teman-teman sebagai developer, ayo sadarnya untuk menyediakan fitur ini. Cuma kalau misalnya target audience kita bukan di wilayah yang ditargetkan oleh hukum kayak gini, ya nggak perlu. Belum perlu kan? -Belum perlu. -Belum perlu. -Iya. Kalau soalnya di target audience kita ada hukum gini, ya harus. -Iya harus lah. Sekarang ini kan data kita banyak bocor. Ini gimana ini? Kalau tidak ditangani dengan tepat, bahaya. -Ya coba. Coba Mas Risa jadi menkominku dulu lah. -Jangan. Jangan saya. Saya nggak bisa. Ngeri ini soalnya data-data kebocoran data kan. Salah satunya juga yang mengekir itu kan. Sebenarnya bukan kebocoran data yang mengekir kan. Yang mengekir adalah banyak apa? -Segmentasi. -Iya. Perusahaan-perusahaan yang besar-besar, terutama sosial media, e-commerce, dan lain-lain menanfaatkan data yang dia punya, data user yang dia punya untuk kebutuhan yang di luar apa ya, yang tidak terpikirkan sebelumnya. Dan kemungkinan bisa merugikan user atau merugikan pihak-pihak yang lain gitu. Jadi salah satu tujuannya adalah untuk, ya harus ada regulasi lah. Harus ada regulator yang menentukan ini boleh atau tidak gitu kira-kira. -Bagaimana main cantiknya. -Misalkan analytics, kita bikin sistem atau kita bikin aplikasi untuk analytics website misalkan. Seberapa detailnya, seberapa data apa yang mau disimpan, apakah data username-nya atau data email-nya perlu disimpan atau gimana, itu harus ada regulasinya kan. Supaya kita bisa mengikutin. Kalau semua datanya disimpan sampai kukir-kukirnya juga diambil kan enggak lucu ya. -Dan kalau misalnya memang perusahaan atau yang punya produk, pastikan berargumen, \"Loh kita perlu ini misalnya kita jualan pakaian ya.\" Kita kan perlu tahu identitas kayak usia atau jenis lama, customer kita sendiri untuk menyesuaikan produk yang dijual atau promo atau tawaran. Oke lah, itu kan keperluan korporat ya, keperluan industri. Cuma kan ini lebih ke pertanggung jawapannya aja sih. Jadi tetap ada regulasinya. Jadi paling enggak yaitu user bisa dengan sadar memberi consent, memberi ijin. Terus user juga bisa minta untuk dihapus datanya kalau enggak berkenan. Jadi ada banyak keperluan ya, ada keperluan industri atau orang jualan atau produk. Ada juga keperluan individu para customer lah, kayak masyarakat yang menggunakan macam-macam jasa dan produk online. Nah, regulasi itu kan mengimbangi semua kepentingan itu sih, biar enggak eksploitatif. Oke. Nah, ngomongin ini kan udah banyak yang ini ya, banyak yang menyadari bahwa ribet sekali gitu kan. Apalagi ceritanya Ivan kan, luar biasa ribet. Ada nggak sih tools atau framework sudah menyediakan supaya membuat pekerjaan kita jadi lebih mudah? Sebenarnya ada step-party-step-party yang sudah ada kayak one-trust kayak gitu ya, atau sejenisnya. Sebenarnya kembali lagi itu cuma tools untuk menampilkan cookie consent banalnya dan men-trigger. Dan si framework ini sudah bekerja sama kayak Google. Sudah punya kayak integrasi ke GTN, ke Google Analytics, sudah punya integrasinya. Kita tinggal klik-klik-klik. Namun tetap masih butuh saat kita implementasi sebagai web dev. First party cookie kita sendiri kan mungkin ada. Kita kayak save cookie kita sendiri gitu ya. Kita juga harus sadar gitu mengirimkan cookie. Namun ada cookie yang tidak ada personal identificationnya. Ada contohnya anggapan gini, CDN. CDN. Jadi saya pernah dapat sebuah kasus yang ujung-ujungnya nggak bisa saya hindari kalau cookies itu harus ada. Namun kembali lagi waktu itu ngomong sama lawyer, kalau cookie itu dibutuhkan oleh si CDN untuk menentukan lokasi terdekatnya. Sebenarnya tidak ada identifikasi user di situ. Jadi kayak pertama request, kan CDN-nya kan ada banyak lokasi. Dia harus supaya request yang selanjutnya itu tidak mencari lokasi lagi. Tetapi sudah tahu lokasi terdekatnya misalnya dari Jakarta. Jadi next request-nya itu ke Jakarta jaman. - Gak perlu nyari dari awal lagi. - Iya, nggak perlu cari apa? Agorik magic strandnya gitu nyari terpendek gitu ya. Jadi cukup satu kali tetapi itu butuh identifikasi tadi. Namun identifikasi itu tidak ada menyangkut dengan personal identification. Itu anggapannya stateless, hanya menentukan posisi supaya performa bagi user. Maka itu jatuhnya masuk sebagai mandatory cookie yang wajib ada. Jadi kalau mau pakai website ini, mandatory cookie-nya ini dan itu sudah ada. Dan itu harus dijelaskan di data privacy policy-nya. Wow, oke. Se detail itu ya berarti ya. Kalau ini, Eka, meta framework kayaknya sudah beberapa ada yang sudah menyediakan ya. Kalau ini, ini di luar topic privacy, di luar GDPR, kita balik lagi. Cookies itu kan memang teknologi web. Jadi mungkin tadi kan kalau mungkin jadi kesannya apakah cookie itu berbahaya, apakah cookie itu negatif, ya nggak juga. Cookie itu teknologi web yang justru salah satu kan tadi tuh dari awal storage. Dan dari awal sudah ada dan itu memang penting. Nah terus kan mungkin kadang orang menghindari cookie malah nge-store-nya di aneh-aneh, di local storage lah, atau malah in memory. Padahal ini teknologi web yang penting dan relevan. Kayak untuk menyimpan login session misalnya itu kan penggunaan yang sangat valid dan memang kembali ke web API. Nah ini di beberapa yang aku perhatikan, di beberapa framework yang next-gen, yang baru lah, yang kembali ke, yang banyak kembali ke web API itu mempermudah, apa standard-standard web platform itu mempermudah kita bekerja dengan cookies. Dua contoh yang aku temui sih di Remix dan di Astro. Jadi kan cookie itu kan tadi rada nggak enak kayak sebenarnya apa, kalau kita belum familiar, untuk nge-store key value-nya itu harus di-stringify, harus dipisahkan oleh tanda apa, semicolon, titik koma, itu sering miss kan kadang. Jadi apa, ini di beberapa meta framework seperti Remix dan Astro, itu dipermudah dengan sinteks yang itu lebih, kita bisa pakai java strip object, terus kita bisa pakai intelligence, apa, code completion. Jadi kita tinggal nge-tick, kan kita lupa misalnya apa, max age gitu. Nah kita nggak harus nge-ingat, kita nge-tick ma, tuh langsung muncul lah drop-down-nya. Jangan sampai nggak perlu malas lah, document.cookies juga bisa. Oh, kalau Remix dan Astro ini kan server-side juga. Ini server-side, aman. Nah itu, bahas apa, document.cookies juga tuh penting. Jadi apa, cookies itu ada yang bisa diakses dari browser, ada yang nggak bisa, tergantung flag, apa, HTTP only ya. HTTP only, yang tadi di sini kan? Ada flag-nya same-side, HTTP only. Ini, ini, HTTP only. Nah, iya tuh. Jadi kalau misalnya pakai flag HTTP only, dia cuma dikirim di server-side request and response. Tapi kalau tanpa flag itu, ya bisa diakses dari browser. Gampangnya kita tinggal buka, apa, devtools, console log, tick aja document.cookie. Itu akan muncul. Itu untuk client-nya, di sisi client-nya. Nah itu tuh ada implikasi keamanannya juga. Nah kalau, mungkin kadang-kadang kalau kita lihat beberapa artikel, itu kayak dianggap itu tabu banget kalau hal-hal yang agak sensitif atau personal identification itu jangan sampai bisa diakses dari browser. Nah kenapa? Karena ya apapun yang diakses dari browser kan itu sebetulnya satu layer aja, satu layer keamanan juga. Kalau ada yang, apa, misalnya bisa mengakses kode JavaScript dari browser, itu bisa, bisa terkirim untuk sesi datanya. Tapi ya kembali ke kita mengamankan, gimana kita ngamanin juga jangan sampai bocor isi client-side cookie-nya. Oke, jadi bentuk cookie-nya sendiri seperti ini ya, kurang lebih ya? String semua iya. String ya, jadi kalau misalkan, ya plain gitu ya, jadi kalau misalkan kita ngirim data-data yang private, ya kalau orang bisa menginterrupsi request dan response, bisa dapat ya. Nama, terus mungkin email, apa lagi password. Kalau HTTPS, nggak bisa. Ada secure, ada flag secure juga sekarang. Jadi kalau mau menggunakan document.cookie, kita harus parsingnya manual juga seperti ini, displit dulu berdasarkan titik oma, terus abis itu ditrim, terus ada start with dan lain-lain ya, jadi hasilnya seperti ini. Nah, kalau pakai meta framework yang tadi ya, udah cukup pakai helper-nya mereka ya. Sebetulnya sama, dibalik layer juga kayak gitu, cuma mempermudah aja. Ya, kalau misalkan cuma simpan data atau baca data 1, 2, atau sedikit gitu ya, cukup menggunakan document.cookie. Tapi kalau misalkan teman-teman sudah mulai butuh banyak gitu ya, kayak tadi kan, si ini kan banyak sekali ini ya, data-datanya ya. Nah, itu mungkin udah butuh bantuan library atau framework yang dipakai, mungkin sudah menyediakan fitur untuk manajemen cookie, seperti Remix dan juga Astro. Saya yakin yang lain juga mungkin ada, tapi mungkin kita belum tahu aja. Atau ada external library untuk mereka, misalkan Next.js ada terpatir library juga untuk manajemen cookie ya, silahkan digunakan. Nah, lanjut lagi pembahasan sedikit. Kita bahas tadi sempat ada yang nyebut first-party, same-site, dan lain-lain. Itu maksudnya apa tuh? Mau bahas apa dulu, same-site apa first-party? Same-site kali ya. Same-site. Itu juga merek. Cookie beneran. Same-site ini maksudnya adalah? Dia sebenarnya ini ya, jadi kalau cookie sebelum ada, ini kan baru, baru. Baru akhir-akhirnya, saya nggak tahu kapan munculnya. Itu intinya kalau melihat, itu RFC-nya itu ada tuh. Kapan dia disetujui. Ini hanya flag, jadi kayak tadi HTTP only, secure, same-site. Same-site itu adalah atribut atau flag-nya untuk memberitahukan kalau cookie yang diset ini hanya bisa diases oleh atau bisa digunakan hanya dari origin yang sama. Artinya tidak bisa digunakan untuk attack di CSRF, cross-site server forgery. Kalau tekniknya ya, saya cross-site itu kan imbaranya cookie kita berasal di liar road, tetapi request yang terjadi dari domain yang beda. Tetapi ke situs yang target utama, tujuan, tetapi menggunakan cookie-nya kita. Jadi itu cross-site. Kalau kita set dengan same-site, maka browser yang misalnya kita buka situs orang ini, yang situs false ya, situs scam bahasa ini. Ada button, terus kita klik, ternyata button itu kita klik itu untuk anggapan aja untuk ngehapus data. - Nge-fetch sesuatu. - Nge-fetch sesuatu yang ada di situs utama. Tetapi kan kita punya, kalau tanpa same-site, kita itu punya cookies yang di situs kita tersebut. Jadi kalau kita klik button itu, maka yang terjadi adalah authorize request menuju situs target yang melakukan apapun, mungkin set password, inject user, atau segala macamnya. Nah, dengan memberikan flag same-site, maka jika button tadi diklik dari situs scam, maka cookies itu nggak bisa diakses, nggak bisa dikirim, nggak ada gunanya. - Tidak valid ya? - Nggak diterima. - Nggak muncul ya? - Iya, betul. Ini ada hubungannya sama course nggak? Course origin blah blah blah? - Beda. - Beda ya? Jadi hanya bisa digunakan di domain yang sama, same-site, di website yang sama. Ada bahasanya lagi, strict itu kalau strict, ada lagi yang namanya legs, jadi bisa di set same-site strict, same-site legs. Jadi kalau legs itu lebih di legs. Kalau strict itu benar-benar hanya langsung dari origin, kalau legs itu kalau nggak salah, sub-domain-sub-domain masih bisa akses. Oh sub-domain masih bisa, kalau yang strict itu hanya domain yang sama, persis gitu ya? - Origin, yes. - Origin, oke. Nah, kalau first party, third party cookies, tadi udah dibahas kayaknya ya third party ya? Simplenya, first party itu cookie yang dari origin, third party dari situs yang bukan origin. Dalam hal ini kita nge-load Google Analytics, maka Google Analytics itu bakal nge-set cookies satu di domain Google Analytics, satu lagi di domain-nya kita. - Tempat kita. - First party itu adalah cookie yang di-set oleh origin kita, bukan yang di-set oleh Google Analytics, itu first party. Nah, denger-denger kan katanya cookie mau dihapus 2023. 2023 cookie mau dihapus katanya, 2022 malah. Padahal ini maksudnya clickbait aja ya, bukan cookies-nya yang dihapus, tapi ya apa, cross origin ya? - Third party cookie, bisa lagi. - Third party cookies. Third party atau cross ya? Coba dibaca. Apple, apa? Mana ya? Kok nggak ada informasinya? - Dibawah kali. - Dibawah? Gak ada. - Ya, malah alternatifnya. - Iya. Yang tidak bisa itu adalah third party cookies nge-set ke, jadi kayak saya bilang tadi, Google Analytics tidak bisa nge-set cookie ke sebagai cookie origin lagi. Coba kita masih bisa buka application DevTool di sini. - Di sini, inspect element. - Iya, inspect element. - Terus? - Ke application cookies. Liat ya, padahal buka website ini ya, website-nya Medio. Jadi third party itu yang account Google, CDN and Badly, sama YouTube. - Iya, yang ini first party. - Yang ini first party. Tetapi kalau kita lihat lebih dalam lagi, yang diset sama si Medio-nya itu cuma sebagian. Contohnya kayak chat.google, saya yakin bukan diset sama si Medio. - Nah, chat.google apa itu? - Itu liat tuh, ya itu host. - Oh, chat.google. - Oh, chat.google, iya kan? - Itu tidak diset oleh si Medio. - Oke. Itu diset oleh JavaScript yang jalan di browser, dan set-nya sebagai origin-nya si Medio. Jadi bukan diset oleh dari server, oleh Medio. Jadi isu-nya yang saya dengar, third party itu tidak bisa lagi nge-set cooking-nya. Oh, cooking-nya yang di origin. Oke, jadi bukan cookie bakal dihapus, kita nggak bakal ada konsen-konsen lagi, nggak ya? - Konsen itu tidak. - Nggak mungkin. Nanti nggak ada orang bisa login. Iya, tapi ada kapabilitas yang dilarang atau yang tidak diperbolehkan dari third party service itu nggak boleh menulis ke cookie kita yang di origin kita, gitu ya? Jadi kalau mau store data ya harus dari sisi kita, apapun yang kita kirim, harus kita kirim secara manual ke mereka ya? Maksudnya ke third party itu. Implikasinya kurang lebih begitu kan? Ya, di limit berarti ya proses tracking-nya. Jadi nggak boleh sembarangan nyimpen-nyimpen data lagi di cookie yang bukan milik kita. Nanti ini kalau menurut saya apa plan yang dipus oleh Chrome Tale, kalau misalnya di third party cookies sudah dihapus, itu lebih diatur secara lebih strict lagi menggunakan storage itu. Untuk nyimpan cross-site data itu menggunakan namanya set storage. Bahasanya itu di privacy sandbox. Nah, ini ada pertanyaan bagus. Apakah cookies bisa diakses di Chrome extension? Chrome extension bisa mengakses dokumen, dokumen objek. Jadi kalau misalnya tadi nggak pakai HTTP only ya bisa. Bisa, bisa. Jadi cookie itu sifatnya public kan. Bukan public ya, maksudnya ada di browser kita sendiri gitu kan. Apapun yang kalau extension itu kan jalan di browser kita gitu kan. Jadi ya bisa sebenarnya. Cuman ya kadang-kadang datanya juga sudah di itu kan. Jadi tidak berarti sebenarnya. Ya sebenarnya sama aja kayak local storage atau semacamnya kan. Kalau yang kita ijinkan buat diakses dari client-side. Course dihapus enggak, course masih tetap ada. Justru malah makin, ini ya, makin strik gitu ya, nggak boleh sembarangan gitu ya. Kalo kita mau akses data, iya kita mau akses data atau kita mau kasih, ngirimin data balik ya itu harus udah lebih strik sekarang. Ust, sampai sekarang masih belum nangka full link concept course lah. Masih bingung juga. Bisa kita bahas di episode mendatang. Meskipun udah ngomong course, tapi belum ngerti 100%. Ngefix backnya bisa. Rezipnya kurang yakin. Nah ini apa nih? Nah khusus Chrome, ini nih ada lagi nih bikin partition storage. Cuma ini masih Chrome only dan masih statusnya kelihatannya sejauh ini masih origin trial. Jadi kelihatannya ini adalah developer atau situs bisa opt-in. Kan tadi tuh yang barusan dibahas, kalo dari terparti, kalo bukan dari tempat kita, ya udah nggak boleh akses. Nah kalo ini kelihatannya arahnya adalah misalnya gini kasusnya kita punya 2 website, 2 domain. Tapi keduanya tuh punya milik kita dan emang ada sesuatu yang harus dikomunikasikan. Entah state user atau mungkin preferensi tertentu. Jadi ya itu penggunaan yang valid karena kita opt-in agar 2 domain yang berbeda itu bisa saling mengirim atau menyimpan, menulis cookies. Kayak set storage. Mirip ya? Iya. Pada baca set storage, shared storage API. Belum, belum. Belum. Gue pernah ikut ini ya sih, pernah ikut apa namanya. Origin trial, apa? Survey? Bukan, apa namanya? Webinar. Pemenalan webinarnya internal di bot GDI. Itu ada public link-nya mengenai set storage. Tapi masih origin trial juga. Masih origin trial, origin trial ini maksudnya apa? Kita harus opt-in, kita harus deptar. Harus deptar untuk mengakses fiturnya. Jadi belum di-ship, belum masuk ke software Chrome-nya. Jadi, maksudnya, tenang aja. Gak perlu khawatir kalau kita gak eksplisitif deptar untuk itu, kita gak bakal affected. Mirip-mirip nih ya. Unpartitioned cross-site data in security environment. Habis mandi. Intinya sama kayak cip tadi. Namun, cara akses, cara mengakses data yang di-shared itu lebih secure dan ribet. Semakin secure, memang semakin ribet kan? Semakin secure, semakin ribet. Memang, iya. Jadinya, saya gak tahu. Waktu diceritakan saya gak masuk di atas, jadi masih belum dapet. Nah, ini beda lagi nih. Kuki-nya nih, ini cuma ada data. Tapi ada more details juga. Ada more details. More details ini. More details cuma informasi. Gak ada kayak yang tadi. Jadi dipaksa. Cuma dikasih tahu. Analyze traffic, remember your preference, dan optimize your experience. Cuma, maksud saya kalau kita gak bergenan, ya jangan... Yaudah, tutup aja, gitu ya. Jadi ini hanya informasi aja ya. Kayak memberitahu bahwa ini di-track loh, gitu. Udah, gitu kan. Kalau mau akses silahkan, gak mau, ya udah, cabut, gitu kan. Oke. Ada apa lagi nih, ada apa lagi nih? Apakah, loh ini pertanyaannya agak ini ya. Agak random, tapi gak apa-apa. Apakah DDA Indonesia ada yang mendalami ontologi, network science, RDF? RDF itu apa ya? Reach Data Format. Oh, Reach Data Format. Ontologi itu apa tuh? Jadi, ontologi itu kayak... Sila Sophical Study of Being. Ya. Klasifikasi data, berdasarkan. Proses mengklasifikasi data dan bagaimana hubungan data. Jadi data network, kayak data network. Ya. Dan yang saya kerjakan sekarang ini masih ber... Masih seputar ontologi. Dan bagaimana koneksi antara data A ke data B dan C. Dan kembali lagi ke Reach Data Format, yes. Skema data. Kebetulan lagi ngerjain itu. Di news side. Saya pernah belajar, tapi tidak mendalami. Cuma belajar aja waktu kuliah. Tapi tidak mendalami. Cuma sekadar tahu. Bahkan sekarang pun kayaknya udah lupa ya. Mungkin nanti kalau ada yang di machine learning juga... Ini kan relasi antar data pasti harus kuat banget ya. Kalau machine learning. Cuma belum ada. Belum ada. Di machine learning Indonesia, akan ada. Gak tahu, kita tunggu aja. Machine learning ya? Oh, kalau yang sekarang data cloud ya? Cloud, ya. Oke. Apa lagi yang mau kita bahas? Oh ini, satu lagi terakhir. Saya punya website yang lumayan seru. Namanya Track This. Ini yang tadi kita bahas tentang persona. Jadi kan kalau data kita udah terbiasa. Di kelompokan oleh si ads atau berbagai website. Termasuk e-commerce atau social media dan lain-lain. Kita mau ngacak nih, mau random. Kita bisa buka trackthis.link. Teman-teman terus klik. Nanti misalkan kita mau personanya sebagai apa nih? Orang kaya. Orang kaya lah. Influencer. Atau hype bisni apa, gak tahu. Jadi begitu diklik. Dia akan membuka tab-tab baru di browser kita. Yang mengakses website-website yang berhubungan dengan kategori-kategori ini. Sehingga data kita jadi keren dong. Oh, biar targeted ads-nya bingung ya. Ini istilahnya security by obscurity. Yes, exactly. Tapi hati-hati karena tiba-tiba nanti fan laptopnya nanti bunyi. Karena dia buka tab banyak sekali. 100 tab. Yes. Terus jangan lupa pilih yang beda dengan profil asli kalian. Kalau misalkan kalian aslinya orang kaya. Buka filthy rich. Kenapa juga bolo? Ini situasi yang benar-benar. Itu tab-nya apa? Apa sih tab yang selanjutnya? Habis te, ada gambar sepatu. Itu ilustrasi doang. Atau beneran. Oh, hype bis. 100 tab. Oh, penjelasan. Penjelasan apa yang dibuka. Ya, jadi kalau misalkan kita buka hype bis berarti yang ditawarkan itu fashion ya. Statwear, sepatu. Yang terbaru. Hype bis itu akhirnya semua yang hype. Semua yang hype. Kalau filthy rich ya bukanya itu ya kapal persiar gitu ya. Gimana cara private jet mungkin ya. Luxury brands. Kalau ini apa nih? Dooms. Ini orang-orang yang ini ya. Konspirasi gitu ya. Konspirasi. Theoris. Nuklir gitu ya. Atau apa gitu. Jadi dia cari supply. Cari bunker. Bunker. Dan lain-lain. Terakhir influencer. Skincare. Akologi. Meditation. Asik. Jadi silahkan kalau ada yang mau mengacak informasinya mungkin sekarang sudah terlalu banyak di track ya. Jadi bisa membuat bingung para site-site di luar sana. Kadang berguna juga loh kalau kita kena target. Karena apa yang kita lihat itu yang kita butuhkan juga. Iya, ada penggunaan yang valid kayak itu tadi. Cuma kalau pengelolaannya enggak ada pertanggung jawaban ya itu yang bisa bahaya kan. Sama agregat sih kalau dijual ke tempat lain. Nah itu tempat lainnya ngapain kan enggak tahu. Tapi kalau sebentar-sebentar kita belanja. Kita belanja online nih toko baju. Dari sekian banyak baju kita ditawarin produk-produk yang emang sesuai sama usia, gaya, preferensi, sama jenis kelamin kita. Ya udah kalau gitu doang sih. Gak apa-apa helpful emang. Gak enak juga ya kita sukanya misalnya gaming tapi ditawarin skincare. Gak cocok ya. Gaming sambil skincarean. Nah ini ada pertanyaan lagi yang berhubungan sama Chrome extension. Apakah, eh bukan, sorry salah. Jadi pertanyaannya yang pertama tentang extension dan sekarang custom tabs. Menginginkan Google juga. Custom tabs itu apa? Custom tabs itu apa? Coba Google-nya. Custom tabs. Chrome custom tabs. Oh Android. Itu web view ya, keliatannya maksudnya web view deh. Harusnya ada, setiap web itu ada cookies masing-masing kan. Benar gak sih? Termasuk juga soal web view. Sama kayak bukan di inkon itu kayaknya deh. Android ya. Itu Androidnya semacam web view. Selama masih dia web, pasti ada cookie API. Cookie API, betul. Ada tapi ya itu lagi-lagi yang tanpa flag HTTP only. Tapi itu baru kan ya? Flag itu baru tuh. Udah di-stable semua. Semua browser yang stable maksudnya. Browser modern udah pasti support lah ya. Oke, oke, oke. Ada lagi yang mau disampaikan? Udah dulu kayaknya deh. Sudah dulu. Sudah sejam kita bersama. Siapa bersama? Cookie aja bisa sejam ya. Cookie. Oh iya. Gimana kita ya? Ngomongin, soalnya kan ini ya. Kayak tadi ya, contoh website Guardian itu. Untuk menampilkan si cookie aja butuh effort yang luar biasa besar. Kita harus nge-track kita pakai... Saya ngerjain Cookie Concert itu kemarin sebulan lebih loh. Sebulan? Sebulan lebih sendiri itu Cookie Concert. Dan harus mapping semua cookies yang dikirim. Itu yang bikin mamah itu. Sampai ngomong ke lawyer loh. Dan nge-tracknya gimana? Misalkan gini, misalkan awalnya kan kita pakai terparti service misalkan 5. Tiba-tiba bulan depan kita nambahin 1. Kita harus nambahin kan? Iya, jadinya di workflow. Harus ada extra di situ. Kalau nggak, bisa kena denda company-nya. Iya, makanya. Kalau masalah sih 25.000 euro gitu. Apa sesuatu? Saya nggak tahu. Ada denda gitu. Yang benar-benar sudah diregulasinya dijalankan adalah di Eropa ya, terutama ya. Kalau nggak salah di Amerika juga ada ya? Eropa dan negara bagian Kalifornia di Amerika. Oh, di Amerika. Kalau di Indonesia belum ada ya? Jadi kalau Amerika kan, hal-hal US kan masing-masing negara bagian bisa bikin hukum sendiri ya. Jadi nggak ada aturan di seluruh negara. Iya, betul. Indonesia belum ada. Untungnya garis mereng sayangnya. Untungnya sayangnya. Mudah-mudahan segera lah ya. Oke, kalau gitu. Terima kasih banyak, teman-teman. Kita udahan dulu malam hari ini. Jangan lupa kalau ada... Seperti biasa pertanyaan ya. Kalau ada pertanyaan, ada topik yang mau didiskusikan di episode-episode pendatang, bisa ke bit.ly/ngobrolinweb. Dan kalau begitu, kita pamit dulu. Terima kasih banyak untuk malam hari ini. Lumayan seru untuk topik tentang biskuit malam hari ini. Tapi, ini ada pertanyaan menarik nih. Saya nggak tahu. Apa nggak tahu? Isinya apa? Saya nggak tahu banyak. Tetapi UIT itu setau saya tidak ada mengatur tentang biskuit. Nggak ada. Data protection berarti belum ada ya? Perlindungan data. Ada, perlindungan data ada. Cuman saya nggak tahu bagian mana. Masalahnya ada. Iya. Nanti bikin episode UUIT, eh apa. Kapan-kapan? Nggak, kalau udah di... Kita harus undang ahlinya. Sudah. Siapa ahlinya? Gak tahu, kita cari dulu. Kita cari dulu orang hukum. Yang mau, yang mau ngomong bisik. Oke, oke, oke. Siap, siap, siap. Ya udah kalau begitu. Terima kasih sekali lagi buat teman-teman yang sudah hadir, yang sudah meramaikan malam hari ini. Kita ketemu lagi hari selasa depan. Jangan lupa kalau ada kritik saran dan bahan diskusi boleh ke bit.ly/ngobrolin. Kita pamit. Selamat malam. Sampai jumpa lagi minggu depan. Bye."
+}

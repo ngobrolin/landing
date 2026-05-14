@@ -1,0 +1,3973 @@
+{
+  "videoId": "8Diqwtb6hKs",
+  "language": "id",
+  "generatedAt": "2026-05-13T15:23:40.565Z",
+  "segments": [
+    {
+      "start": 24,
+      "end": 28,
+      "text": "[suara suara perang]"
+    },
+    {
+      "start": 29,
+      "end": 36,
+      "text": "Halo, selamat malam, selamat hari selasa, dan hari selasa adalah waktunya ngobrolin web."
+    },
+    {
+      "start": 36,
+      "end": 42,
+      "text": "Malam hari ini masih bersama saya Riza, dan malam hari ini kita ada siapa ya?"
+    },
+    {
+      "start": 42,
+      "end": 47,
+      "text": "Di sini ada Eka. Halo Eka, apa kabar? / Halo, baik. Selamat malam semuanya."
+    },
+    {
+      "start": 47,
+      "end": 52,
+      "text": "Dan ada juga yang minggu lalu, liburan. / Liburan?"
+    },
+    {
+      "start": 52,
+      "end": 59,
+      "text": "Ivan kembali lagi. / Halo, halo, halo. / Gimana liburannya? / Segar."
+    },
+    {
+      "start": 59,
+      "end": 63,
+      "text": "Segar ya. Refresh ya. / Healing bahasanya, healing."
+    },
+    {
+      "start": 63,
+      "end": 67,
+      "text": "Healing ya. [tertawa]"
+    },
+    {
+      "start": 67,
+      "end": 77,
+      "text": "Oke, oke. Nah, iya. Dan mudah-mudahan apa ya, Ivan malam hari ini membawa oleh-oleh dalam bentuk materi."
+    },
+    {
+      "start": 77,
+      "end": 84,
+      "text": "Siap cerita itu ya. / Iya. Dan malam hari ini kita akan bahas spesifik tentang fit."
+    },
+    {
+      "start": 84,
+      "end": 89,
+      "text": "Ini apa, bacanya fit apa fit ya? Fit ya kali ya?"
+    },
+    {
+      "start": 89,
+      "end": 92,
+      "text": "Bacanya fit. / Ternyata. Fit. Fit."
+    },
+    {
+      "start": 92,
+      "end": 95,
+      "text": "Karena ini adalah bahasa? / Frankis. / Frankis ya."
+    },
+    {
+      "start": 95,
+      "end": 101,
+      "text": "Oh lala, fit. / Eh iklan, nggak boleh."
+    },
+    {
+      "start": 101,
+      "end": 106,
+      "text": "Kita belum ada iklan. Endorse itu."
+    },
+    {
+      "start": 106,
+      "end": 116,
+      "text": "Dan kebetulan juga kemarin Eka nunjukin bahwa ada sebuah event yang namanya Fitcon."
+    },
+    {
+      "start": 116,
+      "end": 120,
+      "text": "Yang baru dikelar. Dan sudah ada di Youtube ya."
+    },
+    {
+      "start": 120,
+      "end": 125,
+      "text": "Sudah ada di Youtube bisa ditonton, tapi videonya belum lengkap ya."
+    },
+    {
+      "start": 125,
+      "end": 129,
+      "text": "Jadi kita memutuskan malam hari ini akan bahas tentang fit."
+    },
+    {
+      "start": 129,
+      "end": 135,
+      "text": "Tapi sebelum membahas tentang fit, mungkin bisa kita ngobrolin dulu tentang apa itu fit."
+    },
+    {
+      "start": 135,
+      "end": 141,
+      "text": "Ada yang mau menjelaskan?"
+    },
+    {
+      "start": 141,
+      "end": 145,
+      "text": "Nggak. Nggak ada."
+    },
+    {
+      "start": 145,
+      "end": 151,
+      "text": "Sedih sekali. / Kalau fit itu bundler ya."
+    },
+    {
+      "start": 151,
+      "end": 155,
+      "text": "Not just JavaScript, aset bundler semuanya."
+    },
+    {
+      "start": 155,
+      "end": 161,
+      "text": "Kenapa kita butuh bundler?"
+    },
+    {
+      "start": 161,
+      "end": 164,
+      "text": "Good question. Kenapa kita butuh bundler?"
+    },
+    {
+      "start": 164,
+      "end": 170,
+      "text": "Nah, soalnya kita kan nulis JavaScript, kita nulis kode dalam bentuk JavaScript."
+    },
+    {
+      "start": 170,
+      "end": 177,
+      "text": "Tapi kode yang kita tulis itu belum tentu bisa."
+    },
+    {
+      "start": 177,
+      "end": 181,
+      "text": "Dan pada umumnya sih belum bisa langsung dibaca oleh browser."
+    },
+    {
+      "start": 181,
+      "end": 184,
+      "text": "Belum bisa dijalankan oleh browser. Kenapa nggak bisa?"
+    },
+    {
+      "start": 184,
+      "end": 196,
+      "text": "Soalnya ya macam-macam misalnya ada sintaks khusus kayak kita pakai TypeScript atau kita pakai feature ECMAScript"
+    },
+    {
+      "start": 196,
+      "end": 203,
+      "text": "yang baru, yang mungkin belum disupport oleh browser."
+    },
+    {
+      "start": 203,
+      "end": 207,
+      "text": "Atau mungkin belum sesuai sama standar yang kita mau."
+    },
+    {
+      "start": 207,
+      "end": 212,
+      "text": "Lalu ada import dan export yang nggak mungkin library-nya yang kita import kan."
+    },
+    {
+      "start": 212,
+      "end": 214,
+      "text": "Nggak mungkin di-incor semua kan."
+    },
+    {
+      "start": 214,
+      "end": 217,
+      "text": "Harus ada proses-proses semacam tree-shaking."
+    },
+    {
+      "start": 217,
+      "end": 220,
+      "text": "Belum lagi. Apa sih?"
+    },
+    {
+      "start": 220,
+      "end": 228,
+      "text": "Kita mungkin punya modul-modul tertentu yang kita akan bikin fungsi yang terpisah sendiri-sendiri."
+    },
+    {
+      "start": 228,
+      "end": 231,
+      "text": "Kita kelompokan dalam modul."
+    },
+    {
+      "start": 231,
+      "end": 238,
+      "text": "Mungkin untuk ngerender komponen secara kondisional kita juga punya potongan-potongan JavaScript"
+    },
+    {
+      "start": 238,
+      "end": 244,
+      "text": "yang nggak memungkinkan atau sulit dijalankan semua di global."
+    },
+    {
+      "start": 244,
+      "end": 252,
+      "text": "Jadi butuh ada alat khusus, program khusus yang ngecek semacam ngecek kode kita satu persatu nih."
+    },
+    {
+      "start": 252,
+      "end": 260,
+      "text": "File-file kita dilihat semua, dibaca, lalu diolah, ada logiknya, terus diminifikasi juga."
+    },
+    {
+      "start": 260,
+      "end": 264,
+      "text": "Jadi apa, nama-nama variable kita kan mungkin panjang."
+    },
+    {
+      "start": 264,
+      "end": 270,
+      "text": "Lakukan sesuatu, lakukan ini, lalu lakukan itu blablabla, jadi disingkat jadi cuma satu atau dua karakter,"
+    },
+    {
+      "start": 270,
+      "end": 279,
+      "text": "sesingkat mungkin, lalu semuanya di-streamline biar menjadi format yang bisa dijalankan oleh browser"
+    },
+    {
+      "start": 279,
+      "end": 281,
+      "text": "atau bahkan oleh server."
+    },
+    {
+      "start": 281,
+      "end": 288,
+      "text": "Jadi vendor itu sebenarnya istilah generik ya, istilah umum untuk tool yang menjalankan semua itu."
+    },
+    {
+      "start": 288,
+      "end": 301,
+      "text": "Baca kode kita dan menjalankan banyak logik tertentu dan mengolah semua kode kita menjadi bentuk yang ringan dan mudah dibaca."
+    },
+    {
+      "start": 301,
+      "end": 304,
+      "text": "- Oh, menambahkan aja. - Dibaca oleh mesin."
+    },
+    {
+      "start": 304,
+      "end": 307,
+      "text": "- Iya, menambahkan aja nggak cuma dengan JavaScript."
+    },
+    {
+      "start": 307,
+      "end": 315,
+      "text": "Bisa jadi, kita kan rata-rata kalau bisa dibilang engineer atau developer jaman now,"
+    },
+    {
+      "start": 315,
+      "end": 323,
+      "text": "kalau nulis styling kan sudah pakai CSS ya, SAS."
+    },
+    {
+      "start": 323,
+      "end": 336,
+      "text": "SAS itu kan banyak banget ya istilahnya function-function atau ya function ya,"
+    },
+    {
+      "start": 336,
+      "end": 340,
+      "text": "banyak function di SAS yang belum tentu ada di CSS."
+    },
+    {
+      "start": 340,
+      "end": 347,
+      "text": "Terus banyak singkatan-singkatan misalnya kayak apa bahasanya kalau..."
+    },
+    {
+      "start": 347,
+      "end": 351,
+      "text": "- Nesting. - Nesting, nah itu bahasanya, nesting."
+    },
+    {
+      "start": 351,
+      "end": 357,
+      "text": "Kalau kita nulisnya di CSS langsung kan panjang ya, sedangkan kalau di SAS bisa jadi lebih singkat,"
+    },
+    {
+      "start": 357,
+      "end": 365,
+      "text": "terus re-usable, terus kemudian, nah SAS itu juga bisa di-compile menjadi CSS, di-transpile bahasannya."
+    },
+    {
+      "start": 365,
+      "end": 372,
+      "text": "- Di-transpile. - Iya. Terus semuanya kemudian otomatis oleh bundle."
+    },
+    {
+      "start": 372,
+      "end": 376,
+      "text": "Contohnya fit ini. - Oke, oke."
+    },
+    {
+      "start": 376,
+      "end": 382,
+      "text": "Kenapa fit ini menarik? Karena kan dibandingkan misalkan bundle kan ada banyak ya,"
+    },
+    {
+      "start": 382,
+      "end": 386,
+      "text": "yang paling terkenal saat ini mungkin webpack ya, webpack, dll, ada parcel."
+    },
+    {
+      "start": 386,
+      "end": 392,
+      "text": "- Karena yang paling lama, bukan paling lama mungkin ya, yang paling major kali ya, yang dominasi pasar lah."
+    },
+    {
+      "start": 392,
+      "end": 397,
+      "text": "- Bisa dilihat itu ada satu link dari saya, itu yang tooling.report."
+    },
+    {
+      "start": 397,
+      "end": 403,
+      "text": "- Oh, tooling.report. - Iya, ada di link menarik itu tooling.report."
+    },
+    {
+      "start": 403,
+      "end": 412,
+      "text": "Sayangnya fit belum ada, tapi bisa dilihat beberapa bundle-bundle yang sempat tenar di jaman 2 tahun lalu."
+    },
+    {
+      "start": 412,
+      "end": 418,
+      "text": "- Oh, browserify juga lumayan ya, lumayan sering dipakai. Ini belum jamannya Node.js ya kayaknya ya."
+    },
+    {
+      "start": 418,
+      "end": 422,
+      "text": "- Iya. - Masih pakai browser aja."
+    },
+    {
+      "start": 422,
+      "end": 428,
+      "text": "- Kenapa orang pakai browserify? - Dia pakai extension nggak sih?"
+    },
+    {
+      "start": 428,
+      "end": 431,
+      "text": "Kayak Chrome extension gitu? Nggak ya? Nggak gitu ya? - Nggak, nggak, nggak."
+    },
+    {
+      "start": 431,
+      "end": 434,
+      "text": "- Oh, bukan, bukan. Oke. - Nggak sih."
+    },
+    {
+      "start": 434,
+      "end": 441,
+      "text": "Dia seperti bundler aja, seperti webpack. - Bundler biasa ya, oke."
+    },
+    {
+      "start": 441,
+      "end": 446,
+      "text": "- Iya. - Nah, kenapa kok tiba-tiba si fit ini tiba-tiba muncul"
+    },
+    {
+      "start": 446,
+      "end": 452,
+      "text": "dan jadi populer sekali dibandingkan beberapa bundle-bundle yang lain,"
+    },
+    {
+      "start": 452,
+      "end": 456,
+      "text": "termasuk juga yang baru-baru kayak snowpack gitu ya. Apa yang buat dia berbeda?"
+    },
+    {
+      "start": 456,
+      "end": 460,
+      "text": "- Nah, snowpack itu reda, snowpack itu reda tragis sih, kocak nih ada ceritanya."
+    },
+    {
+      "start": 460,
+      "end": 466,
+      "text": "Jadi apa, dulu kan si Svelte ya, tau kapan sih ya? - Svelte, Svelte."
+    },
+    {
+      "start": 466,
+      "end": 470,
+      "text": "- Ingat kan, sempat kelihatannya tahun lalu atau mungkin 2 tahun sebelumnya ya."
+    },
+    {
+      "start": 470,
+      "end": 476,
+      "text": "Ya, pokoknya sekitar 2 tahun lalu, apa, di SvelteCon Richaeris mengumumkan"
+    },
+    {
+      "start": 476,
+      "end": 482,
+      "text": "akan merilis SvelteKit, lalu SvelteKit itu, kan dulu sebelumnya ada Cyper ya,"
+    },
+    {
+      "start": 482,
+      "end": 490,
+      "text": "belum ada SvelteKit. Nah, SvelteKit itu, Cyper itu apas nggak pernah di launching"
+    },
+    {
+      "start": 490,
+      "end": 495,
+      "text": "di production, stop di beta, dilanjutkan sebagai SvelteKit dengan pendekatan"
+    },
+    {
+      "start": 495,
+      "end": 501,
+      "text": "yang lebih sesuai kebutuhan saat itu. Nah, waktu di-announce itu dikabarin"
+    },
+    {
+      "start": 501,
+      "end": 507,
+      "text": "SvelteKit akan menggunakan snowpack. Terus lupa deh, kayaknya ada tooling lain"
+    },
+    {
+      "start": 507,
+      "end": 512,
+      "text": "atau apa-apanya, kelihatannya semua announce akan menggunakan snowpack."
+    },
+    {
+      "start": 512,
+      "end": 517,
+      "text": "Dan snowpack ini pendekatannya mirip banget sama fit. Nah, tapi beberapa bulan kemudian"
+    },
+    {
+      "start": 517,
+      "end": 522,
+      "text": "pihak Svelte ngumumin nggak jadi pakai snowpack deh, pakai fit aja."
+    },
+    {
+      "start": 522,
+      "end": 526,
+      "text": "- Dan itu rusuh ya, rusuh ya, gimana rusuhnya? - Bisa ya."
+    },
+    {
+      "start": 526,
+      "end": 535,
+      "text": "- Rame. Terus kelihatannya pokoknya semua yang tadinya bilang akan pakai snowpack"
+    },
+    {
+      "start": 535,
+      "end": 542,
+      "text": "nggak jadi pakai snowpack, pakai fit. Dan bahkan tim yang membuat snowpack,"
+    },
+    {
+      "start": 542,
+      "end": 548,
+      "text": "mereka tuh akhirnya mengerjakan framework Astro yang pernah kita bahas juga ya"
+    },
+    {
+      "start": 548,
+      "end": 553,
+      "text": "di episode, dua episode lalu. Dan Astro itu juga pakai fit."
+    },
+    {
+      "start": 553,
+      "end": 559,
+      "text": "Jadi dia nggak pakai, dia juga, Astro pun nggak pakai snowpack, pindah ke fit."
+    },
+    {
+      "start": 559,
+      "end": 565,
+      "text": "Jadi emang snowpack itu ya, nggak tahu, tetap masih ada dan masih ya bisa dipakai"
+    },
+    {
+      "start": 565,
+      "end": 571,
+      "text": "kalau mau, cuma nggak, kelihatannya nggak actively developed lebih lanjut."
+    },
+    {
+      "start": 571,
+      "end": 578,
+      "text": "- Oke. - Oh, tutup, ada punggungannya."
+    },
+    {
+      "start": 578,
+      "end": 581,
+      "text": "- Jadi udah nggak dimaintain lagi ya si snowpack ini ya. - Nah, tapi positifnya sih"
+    },
+    {
+      "start": 581,
+      "end": 587,
+      "text": "walaupun apa ya, kalau dilihat kayak tragis banget, udah di apa, di PHP banget lah."
+    },
+    {
+      "start": 587,
+      "end": 590,
+      "text": "- Di PHP. - Bukan PHP ya."
+    },
+    {
+      "start": 590,
+      "end": 596,
+      "text": "Udah dikasih harapan, udah dibiketin, udah dijanjiin, tolnya dibuang."
+    },
+    {
+      "start": 596,
+      "end": 603,
+      "text": "Nah, cuma kalau dari perspektif engineering ya, kelihatannya mereka tetap bisa apa,"
+    },
+    {
+      "start": 603,
+      "end": 609,
+      "text": "nggak masalah sih, karena sepakat bahwa effortnya difokuskan pada fit"
+    },
+    {
+      "start": 609,
+      "end": 616,
+      "text": "dan timnya itu yang apa, sekarang ngerjain Astro justru memanfaatkan banget apa,"
+    },
+    {
+      "start": 616,
+      "end": 621,
+      "text": "ya kalau di fit konfomarin sih, kalau dari obrolan-obrolannya, ada panelnya juga"
+    },
+    {
+      "start": 621,
+      "end": 627,
+      "text": "dan ada presentasinya, bahwa emang akhirnya mereka semua menemukan jalan yang terbaik lah"
+    },
+    {
+      "start": 627,
+      "end": 634,
+      "text": "intinya. Jadi mereka kerja bareng, closely work together, Astro sebagai framework"
+    },
+    {
+      "start": 634,
+      "end": 641,
+      "text": "yang sangat menganfaatkan apa, apa, feature-featurenya fit, fit juga jadi apa,"
+    },
+    {
+      "start": 641,
+      "end": 649,
+      "text": "single player lah untuk bundler yang, bundler yang perspektifnya modern seperti ini."
+    },
+    {
+      "start": 649,
+      "end": 655,
+      "text": "- Oke, pertanyaannya apakah snowpack duluan atau fit duluan yang dikembangkan?"
+    },
+    {
+      "start": 655,
+      "end": 662,
+      "text": "Apakah snowpack dan snowpack dalam tanda tipe ya, mereferensikan ke fit"
+    },
+    {
+      "start": 662,
+      "end": 665,
+      "text": "atau fit yang referensi ini dari snowpack? Nggak tahu ya?"
+    },
+    {
+      "start": 665,
+      "end": 669,
+      "text": "- Nggak tahu sih, kalau itu cuma naik duluan sih kayaknya snowpack ya,"
+    },
+    {
+      "start": 669,
+      "end": 675,
+      "text": "masa yang banyak kedengeran snowpack, sempet naik, terus abis itu langsung ditinggalin."
+    },
+    {
+      "start": 675,
+      "end": 680,
+      "text": "- Oke, fit ini dari komunitas view kan awalnya ya?"
+    },
+    {
+      "start": 680,
+      "end": 685,
+      "text": "- Iya, nah itu salah satu talk, bukan salah satu talk, talk pembukanya talk,"
+    },
+    {
+      "start": 685,
+      "end": 693,
+      "text": "talk pertama di feedcon minggu lalu itu dari mas Evan Yu yang emang apa,"
+    },
+    {
+      "start": 693,
+      "end": 701,
+      "text": "pembuatnya apa, inisiaturnya, kreatornya view juga fit. Dan itu lucu sih,"
+    },
+    {
+      "start": 701,
+      "end": 708,
+      "text": "ada tweetnya, coba dilihat deh di apa, link, ada tweetnya bahwa..."
+    },
+    {
+      "start": 708,
+      "end": 715,
+      "text": "- Ada tweetnya ini. - Nah iya, jadi itu, itu asal-muasal"
+    },
+    {
+      "start": 715,
+      "end": 722,
+      "text": "bisa ada fit sekarang yang digunakan banyak banget, digunakan sama banyak banget framework dan tooling,"
+    },
+    {
+      "start": 722,
+      "end": 729,
+      "text": "itu sebenarnya cuma ide iseng kayak gitu. Dan awalnya emang hanya untuk view,"
+    },
+    {
+      "start": 729,
+      "end": 736,
+      "text": "cuma feed yang tiga ya, yang versi tiga baru dibikin, mereka explore dan ternyata oh,"
+    },
+    {
+      "start": 736,
+      "end": 744,
+      "text": "ini bisa dibikin framework agnostic. Jadi dikembangkan lebih lanjut di versi tiganya."
+    },
+    {
+      "start": 744,
+      "end": 749,
+      "text": "Dan ini tahun 2020, ternyata 2 tahun yang lalu ini."
+    },
+    {
+      "start": 749,
+      "end": 756,
+      "text": "- Iya, saya ingat juga ngikutin, kan apa, follow juga kan, jadi pas dia bikin develop awal-awal itu ya,"
+    },
+    {
+      "start": 756,
+      "end": 764,
+      "text": "ya itu dia apa, project iseng kayak project di weekend gitu, terus pada saat itu yang men-trigger dia"
+    },
+    {
+      "start": 764,
+      "end": 772,
+      "text": "atau beberapa orang termasuk Snowpack itu membuat bundler baru setelah webpack kan udah cukup populer kan,"
+    },
+    {
+      "start": 772,
+      "end": 778,
+      "text": "dan parcel kemudian yang lain-lain gitu roll up juga. Nah yang men-trigger mereka untuk membuat adalah"
+    },
+    {
+      "start": 778,
+      "end": 787,
+      "text": "munculnya IS module yang membuat bundler size-nya bisa lebih kecil dan lebih cepat, karena kalau dulu kan,"
+    },
+    {
+      "start": 787,
+      "end": 792,
+      "text": "salah satu alasan kenapa bundler dibuat adalah karena kita tidak bisa import kan."
+    },
+    {
+      "start": 792,
+      "end": 798,
+      "text": "- Browser belum bisa membaca. - Iya, browser belum bisa IS module kan."
+    },
+    {
+      "start": 798,
+      "end": 806,
+      "text": "- Iya, jadi belum bisa import/export, itu udah bisa, maka si bundlernya cara kerjanya juga berbeda nih,"
+    },
+    {
+      "start": 806,
+      "end": 812,
+      "text": "berubah, yang membuat si bundler yang lama mungkin udah kurang relevan ya,"
+    },
+    {
+      "start": 812,
+      "end": 816,
+      "text": "masih bisa dipakai tapi mungkin size-nya agak lebih besar dan lain-lain."
+    },
+    {
+      "start": 816,
+      "end": 822,
+      "text": "- Size yang lebih besar, lebih lama juga kan pasti karena dia harus kerja ekstra."
+    },
+    {
+      "start": 822,
+      "end": 828,
+      "text": "Hal yang sekarang udah bisa dikerjain sama browser, dulu kan belum bisa dengan perspektifnya webpack,"
+    },
+    {
+      "start": 828,
+      "end": 834,
+      "text": "nah sekarang sebagian kerjaannya bisa dialihkan di offload ke browser."
+    },
+    {
+      "start": 834,
+      "end": 839,
+      "text": "Semakin lama, nanti kalau browser sudah bisa, IS module segala macam, makin banyak."
+    },
+    {
+      "start": 839,
+      "end": 842,
+      "text": "- Gak perlu lagi gitu ya. - Gak perlu bundler ya."
+    },
+    {
+      "start": 842,
+      "end": 849,
+      "text": "Kita langsung nulis, IS script, ECMAScript, udah langsung bisa dijalan-jalan di..."
+    },
+    {
+      "start": 849,
+      "end": 855,
+      "text": "- Kayaknya tempoh hari ada itu deh, ada debat, cuma belum konklusif sih, bakal kayak gimana,"
+    },
+    {
+      "start": 855,
+      "end": 859,
+      "text": "TypeScript in browser. - Oh, TypeScript in browser."
+    },
+    {
+      "start": 859,
+      "end": 870,
+      "text": "Tapi dulu juga sempat ada ide tuh, si Chrome juga sempat ngide mau include dark language ke Chrome"
+    },
+    {
+      "start": 870,
+      "end": 877,
+      "text": "untuk menggantikan JavaScript. Sebelum Flutter muncul, sebelum Flutter muncul."
+    },
+    {
+      "start": 877,
+      "end": 885,
+      "text": "Jadi kayaknya sempat ada ide itu tapi mungkin kurang diterima ya, karena itu kan spesifik Google banget kan."
+    },
+    {
+      "start": 885,
+      "end": 891,
+      "text": "Udah browsernya Google, terus selanjutnya punya Google juga, ya mungkin kurang netral."
+    },
+    {
+      "start": 891,
+      "end": 901,
+      "text": "Akhirnya gak jadi dieksekusi, sampai sekarang masih yang diterima oleh browser adalah JavaScript."
+    },
+    {
+      "start": 901,
+      "end": 908,
+      "text": "Semua bisa nulis kode seperti apa, ujung-ujungnya akhirnya dikompilasi ke JavaScript"
+    },
+    {
+      "start": 908,
+      "end": 910,
+      "text": "supaya bisa dieksekusi di browser."
+    },
+    {
+      "start": 910,
+      "end": 920,
+      "text": "- Oke, wah menarik ya, dunia open source ya. Dan yang menarik adalah di bagian ini."
+    },
+    {
+      "start": 920,
+      "end": 927,
+      "text": "Tadi lihat sekilas ya, di feed, Instance Server, start, lightning fast, hot module reload, dan lain-lain."
+    },
+    {
+      "start": 927,
+      "end": 932,
+      "text": "Ini juga sama, itu kan sama. Bahasanya sama persis."
+    },
+    {
+      "start": 932,
+      "end": 938,
+      "text": "- Kayaknya mereka kayaknya ini ya. - Kayaknya udah kolaborasi sih ya."
+    },
+    {
+      "start": 938,
+      "end": 947,
+      "text": "Mereka kayaknya kayaknya nyatuin ide aja gitu, nyatuin jalannya, karena jalannya bareng dari pada terpisah."
+    },
+    {
+      "start": 947,
+      "end": 952,
+      "text": "- Itu loh, kayak di Platt Mobile, berdua satu tujuan. - Asik."
+    },
+    {
+      "start": 952,
+      "end": 956,
+      "text": "- Berdua satu tujuan. - Tapi berantem dulu, berantem dulu."
+    },
+    {
+      "start": 956,
+      "end": 966,
+      "text": "- Biasa itu. - Oke, segitu aja cerita-ceritanya."
+    },
+    {
+      "start": 966,
+      "end": 970,
+      "text": "- Sekarang kita lanjut ke topik berikutnya, yang adalah dari Ivan."
+    },
+    {
+      "start": 970,
+      "end": 975,
+      "text": "- Oh, gue ya? - Iya lah, kan kemarin udah liburan, jadi lebih fresh."
+    },
+    {
+      "start": 975,
+      "end": 982,
+      "text": "- Saya yang shell aja deh. - Oh boleh, silahkan."
+    },
+    {
+      "start": 982,
+      "end": 998,
+      "text": "- Biasa simple, screen 2. Jadi di apa namanya? Di komunitas WordPress. Tadi kok kayaknya nggak kelihatan."
+    },
+    {
+      "start": 998,
+      "end": 1008,
+      "text": "Oke, nah di komunitas WordPress itu, kita kan ada blog editor yang namanya ya."
+    },
+    {
+      "start": 1008,
+      "end": 1018,
+      "text": "Dan di WordPress sendiri itu sudah ada banyak modul-modul JavaScript yang sudah by core itu sudah ada dan terutama arahnya ke React."
+    },
+    {
+      "start": 1018,
+      "end": 1024,
+      "text": "Dan di WordPress itu ada blog editor dengan codename itu namanya Gutenberg."
+    },
+    {
+      "start": 1024,
+      "end": 1036,
+      "text": "Dan itu masih pakai, natively masih pakai webpack. Jadi apa-apa semua sekarang banyak banget, majority masih memakai webpack."
+    },
+    {
+      "start": 1036,
+      "end": 1044,
+      "text": "Dan di salah satu project, kebetulan saya bareng dengan Mas Kucrut ini ya, Kucrut atau Mas Zikri."
+    },
+    {
+      "start": 1044,
+      "end": 1054,
+      "text": "Kita bareng di sebuah project dan waktu itu dia kayak apa istilahnya, begah ya pakai webpack."
+    },
+    {
+      "start": 1054,
+      "end": 1059,
+      "text": "\"Aduh lambat nih webpack nih, aduh, yuk project kita kali ini, yuk kita pakai feed coba.\""
+    },
+    {
+      "start": 1059,
+      "end": 1067,
+      "text": "Saya bilang, waktu itu saya leadnya, lead di project maksudnya ya. \"Ya udah, ayo, hajar.\""
+    },
+    {
+      "start": 1067,
+      "end": 1078,
+      "text": "Nah, jadilah tuh kita eksplorasi dan yang bikin library-nya Mas Kucrut bukan saya. Mas Zikri ini yang bikin library-nya."
+    },
+    {
+      "start": 1078,
+      "end": 1090,
+      "text": "Jadi feed itu bisa untuk bundler-nya di sebuah plugin atau teams, kemudian bagaimana kita bisa NQ-nya dengan mudah."
+    },
+    {
+      "start": 1090,
+      "end": 1100,
+      "text": "NQ itu maksudnya gini, jadi hasil bundler itu tinggal bagaimana dipanggilnya di teams, di load, di plugin gitu ya."
+    },
+    {
+      "start": 1100,
+      "end": 1111,
+      "text": "Karena ini kan WordPress PHP ya, masih server-side ya, jadi bukan kayak Next.js yang udah semua blok-blok-blok-blok, tuk tinggal jalan ato admin-nya, bukan."
+    },
+    {
+      "start": 1111,
+      "end": 1123,
+      "text": "Jadi masih terpisah, bundler sendiri, terus ada PHP, terus PHP-nya kan perlu baca, apa itu namanya, mapping ya."
+    },
+    {
+      "start": 1123,
+      "end": 1140,
+      "text": "Map file-nya kan, perlu baca map file-nya, nanti dari map file-nya itu bisa di-queue JavaScript yang mana mau diletakkan atau di-load di page."
+    },
+    {
+      "start": 1140,
+      "end": 1149,
+      "text": "Ini hanya adalah sebuah library-nya aja, tools-nya aja bagaimana supaya hal tersebut bisa terjadi."
+    },
+    {
+      "start": 1149,
+      "end": 1158,
+      "text": "Jadi seperti biasa, kalau misalnya ini plugin kita, ada JavaScript-nya, ada package JSON-nya, terus ada feed config-nya."
+    },
+    {
+      "start": 1158,
+      "end": 1168,
+      "text": "Secara buat config-nya sama seperti buat config-config-feed lainnya, ada plugin, server, ada segala macam."
+    },
+    {
+      "start": 1168,
+      "end": 1185,
+      "text": "Terus yang dibuat adalah jembatannya, setelah asset file-nya dibundler, dipanggil dari PHP, server-side, pakai feed and queue asset."
+    },
+    {
+      "start": 1185,
+      "end": 1200,
+      "text": "Jadi baca distribution file-nya, nama file-nya, terus ya tinggal ini bahasa dari PHP-nya untuk WordPress, khusus untuk WordPress handler untuk WordPress-nya."
+    },
+    {
+      "start": 1200,
+      "end": 1209,
+      "text": "Ada dependency yang perlu di-load sebelum itu, ada CS dependency, perlu di-load di header atau di footer, ini dari WordPress."
+    },
+    {
+      "start": 1209,
+      "end": 1220,
+      "text": "Jadi, tapi ini jembatannya. Jadi setelah bundler terjadi, sekarang sudah jadi distributed file-nya, distributed file dan tinggal dipakai."
+    },
+    {
+      "start": 1220,
+      "end": 1232,
+      "text": "Silahkan pakai ya, dan untuk misalnya kalau ada external dependency, banyak deh external dependency ya, contohnya memakai React,"
+    },
+    {
+      "start": 1232,
+      "end": 1241,
+      "text": "maksudnya di sini external global ini artinya sudah di-load sebelumnya, jadi kita tidak perlu bawa ke bundler kita."
+    },
+    {
+      "start": 1241,
+      "end": 1259,
+      "text": "Contohnya ada dependency di WordPress sudah ada Lodas, sudah ada React, jadi kita tidak perlu panggil React dan Lodas-nya import di dalam kita punya feed-nya."
+    },
+    {
+      "start": 1259,
+      "end": 1272,
+      "text": "Kita tidak perlu bundler, tapi bisa kita import, bisa kita import, tetapi setelah dibundler, dia tidak perlu dijadikan satu ini karena dia external, tinggal dipanggil."
+    },
+    {
+      "start": 1272,
+      "end": 1287,
+      "text": "Jadi bisa dibuat seperti itu juga. Contohnya ada di sini, Mas Zikri sudah buat dan waktu itu saya dan tim membuat"
+    },
+    {
+      "start": 1287,
+      "end": 1298,
+      "text": "sebuah plugin yang bisa membuat blog editor itu bisa seperti Google Doc, bisa collaborative editing. Saya coba demo-nya."
+    },
+    {
+      "start": 1298,
+      "end": 1316,
+      "text": "Ini contohnya, button blog, bisa ada, saya bukan buat, saya bukan buat blog editor dan saya buat yang namanya collaborative editing-nya."
+    },
+    {
+      "start": 1316,
+      "end": 1330,
+      "text": "Lihat ya, ada admin, terus kemudian saya login satu user lain, di sebelah kanan ini saya login sebagai Ivan, sebelah kiri sebagai admin."
+    },
+    {
+      "start": 1330,
+      "end": 1352,
+      "text": "Di atas ini ada orangnya, di sini ada namanya, terus sebenarnya saya sebagai admin, ini ditulis admin lho, di belakangnya nanti KB."
+    },
+    {
+      "start": 1352,
+      "end": 1366,
+      "text": "Kalau misalnya di sini saya tambahin, sorry, saya tambahin table misalnya, saya collaborative."
+    },
+    {
+      "start": 1366,
+      "end": 1384,
+      "text": "Mirip ya, kayak medium juga jangan dulu. Inspired bahasanya."
+    },
+    {
+      "start": 1384,
+      "end": 1390,
+      "text": "Standard blog editor lah ya, sebuah blog editor juga kayak gini kan."
+    },
+    {
+      "start": 1390,
+      "end": 1400,
+      "text": "Betul sekali. Saya tidak buat blog editornya, saya buatnya collaborative editing-nya, jadi bagaimana bisa terjadi."
+    },
+    {
+      "start": 1400,
+      "end": 1421,
+      "text": "Nah fitconfig-nya simple, waktu itu saya buatnya, ini code-nya. Fitconfig-nya ada di sini. Terlalu besar. Jadi simple aja."
+    },
+    {
+      "start": 1421,
+      "end": 1430,
+      "text": "Karena dia pakai butuhnya CSX dan ada juga React Component-nya, saya butuh pakai plugin-nya."
+    },
+    {
+      "start": 1430,
+      "end": 1441,
+      "text": "Terus kemudian saya ada external-nya juga, saya harus pakai external-nya React dan external dari WordPress."
+    },
+    {
+      "start": 1441,
+      "end": 1449,
+      "text": "Yang butuh saya akses sebagai API-API dari WordPress karena harus connect ke blog editor API-nya ya."
+    },
+    {
+      "start": 1449,
+      "end": 1456,
+      "text": "Jadi saya butuh data-data ini. - Berarti external ini adalah JavaScript yang ada di WordPress-nya?"
+    },
+    {
+      "start": 1456,
+      "end": 1467,
+      "text": "- Yes, betul. Jadi nama library-nya kan WordPress Compose misalnya, atau yang simple deh, WordPress data-an misalnya."
+    },
+    {
+      "start": 1467,
+      "end": 1475,
+      "text": "Dan dari WordPress-nya sendiri sudah export. Saat runtime, dia sudah export sebagai weapon.data."
+    },
+    {
+      "start": 1475,
+      "end": 1483,
+      "text": "Jadi cuma kayak buat alias-nya. Jadi saya bisa tetap pakai WordPress data di code-nya saya."
+    },
+    {
+      "start": 1483,
+      "end": 1495,
+      "text": "Contohnya CSX, contohnya seperti ini. You select that WordPress data."
+    },
+    {
+      "start": 1495,
+      "end": 1512,
+      "text": "Ini online peers yang tadinya kita lihat disini. Ini komponennya jadi ambil datanya dari store."
+    },
+    {
+      "start": 1512,
+      "end": 1520,
+      "text": "Terus kemudian React Component seperti biasa. Terus di-print, peering-nya."
+    },
+    {
+      "start": 1520,
+      "end": 1526,
+      "text": "Udah, gitu. Sebenarnya jadi cuma ambil dari store, dari Redux Store-nya."
+    },
+    {
+      "start": 1526,
+      "end": 1540,
+      "text": "Udah, simple. Dan yang paling kita suka dari feed waktu itu, kayak saya waktu dirimuin sama Mas Zikri waktu kita buat ini adalah"
+    },
+    {
+      "start": 1540,
+      "end": 1552,
+      "text": "HMR-nya cepet banget, banget nget-nget-nget. Hot Model Reloaded ya. Begitu saya tekan save, disini langsung berubah."
+    },
+    {
+      "start": 1552,
+      "end": 1571,
+      "text": "Kalau project kita yang agak gede ya, sudah terlalu banyak yang file-nya, bisa 4-5 detik baru kelihatan reload-nya."
+    },
+    {
+      "start": 1571,
+      "end": 1578,
+      "text": "Kalau feed instant, kurang dari 1 detik saya sudah bisa lihat hasilnya."
+    },
+    {
+      "start": 1578,
+      "end": 1586,
+      "text": "Jadi bisa banget kalau mau loading kiri-kanan begini. - Begitu di-save langsung berubah."
+    },
+    {
+      "start": 1586,
+      "end": 1588,
+      "text": "- Betul. - Mantap."
+    },
+    {
+      "start": 1588,
+      "end": 1595,
+      "text": "- Ya, itu pengalaman saya menggunakan feed. Terus terang saya masih anak baru pengguna feed."
+    },
+    {
+      "start": 1595,
+      "end": 1603,
+      "text": "Masih baru dikasih tahu. Awal tahun pakai feed dan oprek-opreknya sepanjang yang saya lakukan"
+    },
+    {
+      "start": 1603,
+      "end": 1613,
+      "text": "masih sedih pemakai, belum jadi pengoprek yang lebih dalam. Saya masih baru jadi pemakai aja untuk feed."
+    },
+    {
+      "start": 1613,
+      "end": 1619,
+      "text": "Dan so far learning curve-nya untuk feed lebih rendah daripada webpack."
+    },
+    {
+      "start": 1619,
+      "end": 1625,
+      "text": "- Karena webpack terlalu banyak konfigurasi. - Konfig-nya gila."
+    },
+    {
+      "start": 1625,
+      "end": 1635,
+      "text": "- Betul-betul. - Iya, mantap. Dan kalau kita pakai getting started-nya NPM Create VT Latest misalkan,"
+    },
+    {
+      "start": 1635,
+      "end": 1646,
+      "text": "itu sudah dikasih template kan. Kita mau pakai Vandala TS, Vue atau VTS, React TS, dan lain-lain ya, sudah disediakan."
+    },
+    {
+      "start": 1646,
+      "end": 1652,
+      "text": "- Ya, dia bisa pakai Tabscript sebagai default maksudnya."
+    },
+    {
+      "start": 1652,
+      "end": 1660,
+      "text": "Konfigurasinya sudah bisa digenerate kita ya. - Betul. Dan yang Mas Zikri buat itu sebenarnya awalnya"
+    },
+    {
+      "start": 1660,
+      "end": 1667,
+      "text": "waktu itu kita buat dari proyek ini ya. Ini file PHP-nya yang, oh Manifest, itu bahasanya."
+    },
+    {
+      "start": 1667,
+      "end": 1676,
+      "text": "Manifest-nya yang dibaca Manifest-nya dari Manifest. - Oh ya, ini dari sisi PHP-nya ya?"
+    },
+    {
+      "start": 1676,
+      "end": 1689,
+      "text": "- PHP. Ya, jadi dari sisi PHP-nya setelah distribution file jadi, baca Manifest-nya, terus bisa di-print di HTML Header atau footer."
+    },
+    {
+      "start": 1689,
+      "end": 1696,
+      "text": "JavaScript-nya, CSS-nya, segala macam, otomatis. Jadi tinggal di feed and cube selesai gitu."
+    },
+    {
+      "start": 1696,
+      "end": 1707,
+      "text": "Jembatan itulah yang kita buat. Oke, segitu dari saya. Mengalaman pribadi."
+    },
+    {
+      "start": 1707,
+      "end": 1716,
+      "text": "- Bisa ke saya dulu deh. Nanti baru habis ini Eka yang lebih detail bahas tentang feed dan juga fitting."
+    },
+    {
+      "start": 1716,
+      "end": 1728,
+      "text": "- Ya. Dan sebenarnya saya juga dengarnya dari tahun lalu dan udah coba. Jadi terakhir, pernah ngisi workshop untuk TypeScript sama React."
+    },
+    {
+      "start": 1728,
+      "end": 1737,
+      "text": "Itu udah pakai, bukan lagi pake create track app, tapi udah pake feed yang tadi."
+    },
+    {
+      "start": 1737,
+      "end": 1743,
+      "text": "Dan bisa langsung kan, jadi nggak ada konfigurasi macam-macam, semuanya bisa jalan dan sangat cepat."
+    },
+    {
+      "start": 1743,
+      "end": 1748,
+      "text": "- Jadi kuncinya itu selalu cepat ya, lightning fast."
+    },
+    {
+      "start": 1748,
+      "end": 1756,
+      "text": "- Nama adalah doa kan ya, ada yang bilang nama itu doa. Nah betul loh. Namanya feed kan, selling point paling besarnya cepat."
+    },
+    {
+      "start": 1756,
+      "end": 1765,
+      "text": "- Iya. Dan mudah-mudahan sih. Ini kan kalau kita bilang ini perang tools ya, perang framework, library dan lain-lain."
+    },
+    {
+      "start": 1765,
+      "end": 1773,
+      "text": "Tapi mereka selling improve kan. Kalau misalkan webpack sendiri, kalau misalkan islainya dibiarkan sendiri menjadi monopoli kan dia nggak bisa."
+    },
+    {
+      "start": 1773,
+      "end": 1778,
+      "text": "Kalau gini dia pasti akan improve kan. Termasuk juga parcel. Parcel juga lumayan cepat gitu."
+    },
+    {
+      "start": 1778,
+      "end": 1790,
+      "text": "Dan yang saya temukan adalah di 2021 ada state of JS, salah satu survei. - Parcel itu zero config ya? Parcel itu zero config."
+    },
+    {
+      "start": 1790,
+      "end": 1795,
+      "text": "- Betul. Dia bisa ngedetek apa yang ada di folder kita dan di packaging-nya."
+    },
+    {
+      "start": 1795,
+      "end": 1806,
+      "text": "Nah di 2021 ada survei state of JS yang untuk sebagian orang bilang ini sangat subjektif ke sirkelnya react katanya."
+    },
+    {
+      "start": 1806,
+      "end": 1816,
+      "text": "Karena yang bikin juga dia banyak berkecimpung di react gitu kan. Dan dia menyebarkan ya ke sirkelnya dia yang adalah,"
+    },
+    {
+      "start": 1816,
+      "end": 1826,
+      "text": "maksudnya, maksudnya react gitu ya. Tapi walaupun demikian, lihat aja nih 2021 VT muncul langsung 98% retention."
+    },
+    {
+      "start": 1826,
+      "end": 1834,
+      "text": "Retention ini apa? Retention ini adalah orang yang mau menggunakan lagi. Udah pernah menggunakan dan ingin menggunakan lagi."
+    },
+    {
+      "start": 1834,
+      "end": 1841,
+      "text": "Jadi ini adalah happy customer. 98% orang yang menggunakan VIT mau menggunakan VIT lagi."
+    },
+    {
+      "start": 1841,
+      "end": 1852,
+      "text": "Kalau gua buat plugin baru atau bikin teams baru, selama itu bukan sudah bawaan, ya maksudnya baru ya, gua bakal bikin VIT kok."
+    },
+    {
+      "start": 1852,
+      "end": 1862,
+      "text": "- Engga terlalu jauh dibawahnya ada IS build. IS build udah dari 2020 sebenarnya."
+    },
+    {
+      "start": 1862,
+      "end": 1870,
+      "text": "IS build ini juga lumayan cepat dan bedanya cuma 2% ya. Jadi lumayan ketat juga dengan VIT."
+    },
+    {
+      "start": 1870,
+      "end": 1876,
+      "text": "WP tadi 78%. - Iya turun."
+    },
+    {
+      "start": 1876,
+      "end": 1878,
+      "text": "- Turun. - Betul-betul."
+    },
+    {
+      "start": 1878,
+      "end": 1886,
+      "text": "- Dari 95% turun ke 88% di tahun 2020. - Dapetnya kayak saham udah yang makin turun."
+    },
+    {
+      "start": 1886,
+      "end": 1893,
+      "text": "Kayak saham zaman resesi. - Zaman resesi nanti 2023 ya katanya."
+    },
+    {
+      "start": 1893,
+      "end": 1898,
+      "text": "- Mudah-mudahan jangan. - Dan yang menarik juga ada SWC."
+    },
+    {
+      "start": 1898,
+      "end": 1905,
+      "text": "SWC ini yang membedakan dengan VIT dan IS build adalah dia dibangun, eh IS build juga kayaknya dibangun dengan Rush ya kalau nggak salah."
+    },
+    {
+      "start": 1905,
+      "end": 1914,
+      "text": "SWC juga dibangun dengan Rush. Jadi ada tren yang menarik di mana orang-orang menulis tools"
+    },
+    {
+      "start": 1914,
+      "end": 1923,
+      "text": "tidak menggunakan JavaScript tapi digunakan untuk JavaScript. Snowpack masih ada yang puas kok 70%."
+    },
+    {
+      "start": 1923,
+      "end": 1928,
+      "text": "- Masih ada loh Gulp. - Gulp tuh 28%."
+    },
+    {
+      "start": 1928,
+      "end": 1931,
+      "text": "- Masih ada loh. - Brokerified masih ada 33%."
+    },
+    {
+      "start": 1931,
+      "end": 1937,
+      "text": "Roam. Roam ini tools juga ya tapi belum tahu ini apaan."
+    },
+    {
+      "start": 1937,
+      "end": 1944,
+      "text": "Tapi yang jelas VIT itu mendominasi begitu muncul 98% tapi kalau kita lihat trennya juga seperti itu ya."
+    },
+    {
+      "start": 1944,
+      "end": 1949,
+      "text": "Baru muncul tinggi gitu. Kita lihat tahun depan atau 2 tahun lagi."
+    },
+    {
+      "start": 1949,
+      "end": 1957,
+      "text": "Kalau intresnya kita lihat VIT juga paling atas, intresnya adalah orang yang pernah dengar dan ingin coba gitu intresnya."
+    },
+    {
+      "start": 1957,
+      "end": 1964,
+      "text": "Kalau usage yang menggunakan, nah kalau yang menggunakan masih mengimpin adalah Wepec."
+    },
+    {
+      "start": 1964,
+      "end": 1973,
+      "text": "Karena projek-projek yang sudah berjalan dari 2017, misalkan 2020."
+    },
+    {
+      "start": 1973,
+      "end": 1979,
+      "text": "- Mendingan di volume karo semua. - Susah, susah."
+    },
+    {
+      "start": 1979,
+      "end": 1985,
+      "text": "- Atau pakai framework-framework seperti Next.js dan lain-lain yang mereka sudah menggunakan Wepec kan."
+    },
+    {
+      "start": 1985,
+      "end": 1995,
+      "text": "Kalau organisasi sendiri ya tentunya organisasi ini adalah total keseluruhan dikurang yang belum pernah mendengar."
+    },
+    {
+      "start": 1995,
+      "end": 2000,
+      "text": "Jadi ini adalah popularitas ya. Yang paling popular adalah Wepec."
+    },
+    {
+      "start": 2000,
+      "end": 2006,
+      "text": "- Ada TypeScript CLI, Wepec masih 90%. - Itu pendekatannya."
+    },
+    {
+      "start": 2006,
+      "end": 2008,
+      "text": "- Parcel. - Banyak tau."
+    },
+    {
+      "start": 2008,
+      "end": 2014,
+      "text": "- Kok Grunt tidak ada ya? Grunt bukan banjur ya? - Gulp sama Grunt kan mirip ya?"
+    },
+    {
+      "start": 2014,
+      "end": 2018,
+      "text": "- Grunt itu bukannya ini ya? - Automation ya?"
+    },
+    {
+      "start": 2018,
+      "end": 2023,
+      "text": "- Automation itu kayak Bauer.js ya? - Oh iya itu juga sih."
+    },
+    {
+      "start": 2023,
+      "end": 2026,
+      "text": "- Tuh kan? - Gulp sama Grunt itu kayaknya se..."
+    },
+    {
+      "start": 2026,
+      "end": 2030,
+      "text": "- Gua masih sempet... iya Grunt itu automation."
+    },
+    {
+      "start": 2030,
+      "end": 2035,
+      "text": "- Iya dia automator jadi kayak... ada itu satu lagi ya? - Dia kayak MPM script kan?"
+    },
+    {
+      "start": 2035,
+      "end": 2037,
+      "text": "- Yeoman. - Yeoman."
+    },
+    {
+      "start": 2037,
+      "end": 2040,
+      "text": "- Itu generator kan? - Generator betul."
+    },
+    {
+      "start": 2040,
+      "end": 2045,
+      "text": "- Kalau Grunt itu bukannya MPM script ya? Digantikan dengan MPM script ya?"
+    },
+    {
+      "start": 2045,
+      "end": 2052,
+      "text": "- Dia running tools gitu ya? - Iya itu dulu buat proses JavaScript sama CSS gitu kan ya?"
+    },
+    {
+      "start": 2052,
+      "end": 2059,
+      "text": "- Tapi butuh kompiler, butuh kompilernya. Jadi dia ngejalanin satu-satu."
+    },
+    {
+      "start": 2059,
+      "end": 2063,
+      "text": "- Oh dia menjalanin sesuatu. - Iya. Dia hanya menjalanin satu persatu."
+    },
+    {
+      "start": 2063,
+      "end": 2070,
+      "text": "- Oke, oke. Kita lanjut lagi ya. Satu lagi adalah tentang yang masih berhubungan dengan VIT."
+    },
+    {
+      "start": 2070,
+      "end": 2078,
+      "text": "Jadi ketika VIT muncul, muncul satu tools lagi untuk testing yang namanya adalah VITES."
+    },
+    {
+      "start": 2078,
+      "end": 2080,
+      "text": "- VITES. - Ini juga terkena cepat."
+    },
+    {
+      "start": 2080,
+      "end": 2084,
+      "text": "- Oh belum pernah dengar itu. - Iya. Karena Jess cepat."
+    },
+    {
+      "start": 2084,
+      "end": 2088,
+      "text": "Mohon maaf, agak lambat ya. Sama kayak webpack ya."
+    },
+    {
+      "start": 2088,
+      "end": 2092,
+      "text": "Dan permasalahan terbesar dari Jess adalah dia menggunakan..."
+    },
+    {
+      "start": 2092,
+      "end": 2099,
+      "text": "Kan Jess ini kan kalau historinya adalah, sejarahnya adalah dia ditulunkan dari Jasmine kan."
+    },
+    {
+      "start": 2099,
+      "end": 2107,
+      "text": "Jasmine yang ada di sini, yang adalah testing library untuk front-end waktu itu dipakai di angkular 1 awalnya."
+    },
+    {
+      "start": 2107,
+      "end": 2112,
+      "text": "Jadi dia, sebenarnya Jasmine ini sering digunakan tanpa menggunakan OJS tadinya."
+    },
+    {
+      "start": 2112,
+      "end": 2116,
+      "text": "Dia bisa jalan di browser. Tinggal CDN aja udah bisa gitu."
+    },
+    {
+      "start": 2116,
+      "end": 2123,
+      "text": "Tinggal CDN udah bisa. Terus habis itu dikembangkan lagi sama si Jess akhirnya menjadi seperti sekarang."
+    },
+    {
+      "start": 2123,
+      "end": 2127,
+      "text": "Sebelumnya kan ada Mocha, Ca yang terkenal kan."
+    },
+    {
+      "start": 2127,
+      "end": 2133,
+      "text": "- Mocha, iya. Masih pakai boss, masih pakai Mocha. - Masih. Mocha masih oke. Masih real fun."
+    },
+    {
+      "start": 2133,
+      "end": 2141,
+      "text": "Nah, Jess ini, dia karena dia menggunakan bubble dan juga menggunakan webpack,"
+    },
+    {
+      "start": 2141,
+      "end": 2147,
+      "text": "jadi ada beberapa library-library baru yang menggunakan IS modul itu kadang tidak kompatibel."
+    },
+    {
+      "start": 2147,
+      "end": 2150,
+      "text": "- Wah itu susah itu. - Mungki patchingnya."
+    },
+    {
+      "start": 2150,
+      "end": 2155,
+      "text": "- Eskapnya di konfliknya. - Nah, itu tidak terjadi di Vitesse."
+    },
+    {
+      "start": 2155,
+      "end": 2159,
+      "text": "Jadi banyak orang yang mulai beralih ke Vitesse."
+    },
+    {
+      "start": 2159,
+      "end": 2166,
+      "text": "Dan terbukti udah di atasnya Jess. Kalau testing library ini yang itu punya Ken C dot ya."
+    },
+    {
+      "start": 2166,
+      "end": 2173,
+      "text": "Yang head-to-head itu ya Vitesse, Jess sama Ewa dan Jasmine."
+    },
+    {
+      "start": 2173,
+      "end": 2180,
+      "text": "- Storybook buat kurang ya? - Storybook untuk testing yang jenis yang berbeda"
+    },
+    {
+      "start": 2180,
+      "end": 2185,
+      "text": "sama kayak Playwright sama Cypress kan. Playwright sama Cypress ini kan end-to-end testing kan."
+    },
+    {
+      "start": 2185,
+      "end": 2192,
+      "text": "- End-to-end. Kalau storybook itu dia bisa menjalankan, dia visual."
+    },
+    {
+      "start": 2192,
+      "end": 2199,
+      "text": "Sama dia bisa ngejalanin itunya Jess atau Vitesse juga."
+    },
+    {
+      "start": 2199,
+      "end": 2203,
+      "text": "Jadi dia bisa jalan sebagai test runner. - Oh bisa ya? Baru tahu?"
+    },
+    {
+      "start": 2203,
+      "end": 2206,
+      "text": "- Iya. - Oh kiranya untuk visual doang enggak ya?"
+    },
+    {
+      "start": 2206,
+      "end": 2213,
+      "text": "- Yang in-house-nya dia. Maksudnya yang produk built-innya storybook emang visual testing."
+    },
+    {
+      "start": 2213,
+      "end": 2218,
+      "text": "Terus kita bisa add-on, semacam add-on, plugin accessibility."
+    },
+    {
+      "start": 2218,
+      "end": 2223,
+      "text": "Terus kita bisa juga semacam add-on untuk membaca dari Jess atau Vitesse."
+    },
+    {
+      "start": 2223,
+      "end": 2225,
+      "text": "- Menarik sih itu. - Menarik."
+    },
+    {
+      "start": 2225,
+      "end": 2230,
+      "text": "- Jadi maksudnya biar set-up testing-nya itu sekali jalan."
+    },
+    {
+      "start": 2230,
+      "end": 2238,
+      "text": "Jadi storybook-an itu sebagai UI atau front-end development."
+    },
+    {
+      "start": 2238,
+      "end": 2243,
+      "text": "- Iya, platform-nya untuk UI. - Menarik."
+    },
+    {
+      "start": 2243,
+      "end": 2248,
+      "text": "- Iya. Dan kalau dilihat di usage-nya, ya memang masih kecil banget ya."
+    },
+    {
+      "start": 2248,
+      "end": 2251,
+      "text": "Karena baru terbit kan. - Jess masih nomor satu."
+    },
+    {
+      "start": 2251,
+      "end": 2258,
+      "text": "- Dan Jess masih yang mengguli, sudah menyalit dari tahun 2019 ya, menyalit Mocha."
+    },
+    {
+      "start": 2258,
+      "end": 2262,
+      "text": "Karena Mocha tidak bisa berjalan sendiri, harus ditambahin dengan Chai biasanya."
+    },
+    {
+      "start": 2262,
+      "end": 2265,
+      "text": "Kalau Jess sudah lengkap, lebih lengkap lah."
+    },
+    {
+      "start": 2265,
+      "end": 2271,
+      "text": "Lebih lengkap ada MOC-nya, ada SPI tools-nya, macem-macem ada semua."
+    },
+    {
+      "start": 2271,
+      "end": 2276,
+      "text": "Jadi tinggal sekali install, langsung. - Istanbul nggak ada lagi ya?"
+    },
+    {
+      "start": 2276,
+      "end": 2279,
+      "text": "- Istanbul itu untuk test coverage, masih ada."
+    },
+    {
+      "start": 2279,
+      "end": 2283,
+      "text": "Jess juga pakai Istanbul di dalam internalnya."
+    },
+    {
+      "start": 2283,
+      "end": 2288,
+      "text": "Tapi PR-nya adalah Jess ini cukup besar."
+    },
+    {
+      "start": 2288,
+      "end": 2292,
+      "text": "Kalau npm install ya, package-nya itu lumayan besar."
+    },
+    {
+      "start": 2292,
+      "end": 2296,
+      "text": "Walaupun... - Tapi kan hanya buat testing."
+    },
+    {
+      "start": 2296,
+      "end": 2300,
+      "text": "Bukan buat front-end ya. - Iya."
+    },
+    {
+      "start": 2300,
+      "end": 2303,
+      "text": "Berarti CI-nya aja begitu sudah lewat, sudah aman sebenarnya."
+    },
+    {
+      "start": 2303,
+      "end": 2307,
+      "text": "Cuman pada saat kita npm install atau apa, atau kita baru install, baru nge-clone,"
+    },
+    {
+      "start": 2307,
+      "end": 2311,
+      "text": "nah itu lumayan lama karena dia install Jess juga di sana."
+    },
+    {
+      "start": 2311,
+      "end": 2317,
+      "text": "- Makanya pakai podspace dong. - Oke."
+    },
+    {
+      "start": 2317,
+      "end": 2325,
+      "text": "Sebelum kita ke Eka, kita mau... ada pertanyaan menarik dari Mas Lucky."
+    },
+    {
+      "start": 2325,
+      "end": 2328,
+      "text": "Kenapa VT nggak jadi ATF untuk angular?"
+    },
+    {
+      "start": 2328,
+      "end": 2333,
+      "text": "- Nanti kita tanya, kita undang GDI angular. - GDI angular ya?"
+    },
+    {
+      "start": 2333,
+      "end": 2335,
+      "text": "Di Indonesia ada nggak sih? Nggak ada ya?"
+    },
+    {
+      "start": 2335,
+      "end": 2339,
+      "text": "- Masuknya web. - Masuknya adalah web kita bertiga doang."
+    },
+    {
+      "start": 2339,
+      "end": 2342,
+      "text": "- Jesseline sudah pindah. - Jesseline sudah..."
+    },
+    {
+      "start": 2342,
+      "end": 2347,
+      "text": "- Nanti kita undang Jesseline lah sekiranya nanya. Sekiranya nanya aja sama Jesseline."
+    },
+    {
+      "start": 2347,
+      "end": 2354,
+      "text": "- Tapi kan dia nggak mainin feed dia sekarang. Dia mainin Google Chrome Tools."
+    },
+    {
+      "start": 2354,
+      "end": 2359,
+      "text": "Mungkin menanti pull request mungkin."
+    },
+    {
+      "start": 2359,
+      "end": 2363,
+      "text": "Karena ini kan template-template komunitas kan, ada di GitHub kan."
+    },
+    {
+      "start": 2363,
+      "end": 2367,
+      "text": "Jadi mungkin kalau ada yang pull request atau ada yang isu,"
+    },
+    {
+      "start": 2367,
+      "end": 2371,
+      "text": "taro isu dan ada yang pull request, lumayan tuh."
+    },
+    {
+      "start": 2371,
+      "end": 2377,
+      "text": "- Lumayan ada taunya atau tentang feed sama angular di feedcon kemarin."
+    },
+    {
+      "start": 2377,
+      "end": 2381,
+      "text": "Cuma kemaleman udah keburu tiga. - Kemaleman."
+    },
+    {
+      "start": 2381,
+      "end": 2386,
+      "text": "- Nggak nonton. - Mas Lucky ini pengguna angular ya?"
+    },
+    {
+      "start": 2386,
+      "end": 2391,
+      "text": "Mantap, mantap. Berarti mainannya ini ya di apa?"
+    },
+    {
+      "start": 2391,
+      "end": 2394,
+      "text": "- Enterprise. - Enterprise."
+    },
+    {
+      "start": 2394,
+      "end": 2402,
+      "text": "Baasanya asik. - Enterprise. Oke. Sekarang kita lanjut ke pembahasan tentang feedcon."
+    },
+    {
+      "start": 2402,
+      "end": 2407,
+      "text": "Dari Eka, silahkan. Ngebahas yang mana dulu nih?"
+    },
+    {
+      "start": 2407,
+      "end": 2411,
+      "text": "- Ya sesuai. Bahas yang mana ya? Ya bahas feedcon-nya dulu aja."
+    },
+    {
+      "start": 2411,
+      "end": 2418,
+      "text": "Jadi ini pas banget, minggu lalu. Abis live stream ini."
+    },
+    {
+      "start": 2418,
+      "end": 2424,
+      "text": "Terus isu ngecek, loh ternyata lagi ada feedcon dan ini kalau buat aku"
+    },
+    {
+      "start": 2424,
+      "end": 2428,
+      "text": "salah satu online conference paling seru sih."
+    },
+    {
+      "start": 2428,
+      "end": 2432,
+      "text": "- Kenapa? - Karena dari teknologinya"
+    },
+    {
+      "start": 2432,
+      "end": 2436,
+      "text": "feed juga emang lagi naik-naiknya kan, lagi high-high-nya."
+    },
+    {
+      "start": 2436,
+      "end": 2441,
+      "text": "Terus ini tuh lumayan ekstrim. Nggak ekstrim sih."
+    },
+    {
+      "start": 2441,
+      "end": 2449,
+      "text": "Maksudnya ini maraton 12 jam. 12 jam. Talk-nya menarik semua, bergisi semua lah."
+    },
+    {
+      "start": 2449,
+      "end": 2454,
+      "text": "- Laging semua kata orang-orangnya. - Laging semua kata."
+    },
+    {
+      "start": 2454,
+      "end": 2460,
+      "text": "Emang terus dari maintainer seluruh ekosistem yang berkaitan sama feed."
+    },
+    {
+      "start": 2460,
+      "end": 2465,
+      "text": "Jadi bukan core feed-nya doang. Cuma ekosistem kan luas banget tuh."
+    },
+    {
+      "start": 2465,
+      "end": 2471,
+      "text": "Ada framework, ada tooling yang kayak tadi yang kayak apa testing,"
+    },
+    {
+      "start": 2471,
+      "end": 2477,
+      "text": "documentation, terus storybook kayak misalnya visual tools kayak storybook,"
+    },
+    {
+      "start": 2477,
+      "end": 2484,
+      "text": "terus design system. Jadi itu seru banget dan nunjukin gimana bagian-bagian"
+    },
+    {
+      "start": 2484,
+      "end": 2489,
+      "text": "yang berbeda dari ekosistem itu saling berinteraksi dan gimana mereka bisa"
+    },
+    {
+      "start": 2489,
+      "end": 2495,
+      "text": "mengangkatin yang feed ini untuk produk mereka masing-masing. Ada panelnya juga."
+    },
+    {
+      "start": 2495,
+      "end": 2502,
+      "text": "Cuma ya itu masalah, bukan masalah teknologi semua lah, masalahnya jam 12."
+    },
+    {
+      "start": 2502,
+      "end": 2507,
+      "text": "Itu kan mulai sekitar jam 7 atau jam 8 malam di waktu Indonesia."
+    },
+    {
+      "start": 2507,
+      "end": 2510,
+      "text": "Tengah malam ya mulai ngantuk kok dia tinggalin."
+    },
+    {
+      "start": 2510,
+      "end": 2516,
+      "text": "Jadi mereka running 12 jam. Tapi tayang ulang."
+    },
+    {
+      "start": 2516,
+      "end": 2520,
+      "text": "Jadi tayang ulang untuk penonton yang di time zone berbeda."
+    },
+    {
+      "start": 2520,
+      "end": 2524,
+      "text": "Jadi siangnya tuh sebenarnya siangnya tuh jalan lagi."
+    },
+    {
+      "start": 2524,
+      "end": 2527,
+      "text": "Nah masalah lainnya malam tidur, siang kerja ya kan."
+    },
+    {
+      "start": 2527,
+      "end": 2533,
+      "text": "Jadi pas siang cuma colongan dengerin yang panel tentang framework sebentar,"
+    },
+    {
+      "start": 2533,
+      "end": 2536,
+      "text": "abis itu nggak kontrol. - Bisa sambil kerja pakai headset?"
+    },
+    {
+      "start": 2536,
+      "end": 2541,
+      "text": "Kayak dengerin radio gitu. - Nggak bisa kontrasi sayangnya."
+    },
+    {
+      "start": 2541,
+      "end": 2547,
+      "text": "Eh gimana tadi Mas Rizal tanya apa? - Apa ya? Lupa ya."
+    },
+    {
+      "start": 2547,
+      "end": 2552,
+      "text": "Oh ini, jadi walaupun kita tengah malam dan nggak bisa nonton,"
+    },
+    {
+      "start": 2552,
+      "end": 2555,
+      "text": "kita masih bisa menikmati video on demand-nya ya."
+    },
+    {
+      "start": 2555,
+      "end": 2557,
+      "text": "Jadi bisa di-check di YouTube. - Iya, ada tayang ulang."
+    },
+    {
+      "start": 2557,
+      "end": 2561,
+      "text": "Ada videonya. - Baru dua."
+    },
+    {
+      "start": 2561,
+      "end": 2567,
+      "text": "Kalau yang full streamnya kayaknya ada, cuman nggak full stream"
+    },
+    {
+      "start": 2567,
+      "end": 2570,
+      "text": "beneran yang 12 jam itu nggak ada sih. - Nggak ada ya? Beda ya?"
+    },
+    {
+      "start": 2570,
+      "end": 2572,
+      "text": "- Nggak dipublish kayaknya deh."
+    },
+    {
+      "start": 2572,
+      "end": 2577,
+      "text": "Maksudnya pas running sih emang nontonnya di YouTube kayaknya unlisted,"
+    },
+    {
+      "start": 2577,
+      "end": 2579,
+      "text": "jadi nggak ada di channelnya."
+    },
+    {
+      "start": 2579,
+      "end": 2585,
+      "text": "Tapi kayaknya sih kalau di Twitternya fit, mereka janji ya pasti juga"
+    },
+    {
+      "start": 2585,
+      "end": 2590,
+      "text": "bakal dipublish per talk videonya, jadi lebih gampang."
+    },
+    {
+      "start": 2590,
+      "end": 2596,
+      "text": "- Di-edit dulu ya, dipotong-potong. - Di-edit dikasih judul, dll."
+    },
+    {
+      "start": 2596,
+      "end": 2603,
+      "text": "Jadi itu, kayaknya baru pernah lihat aja yang conference yang free online tentunya,"
+    },
+    {
+      "start": 2603,
+      "end": 2606,
+      "text": "yang skalanya se-massif ini, sebesar ini,"
+    },
+    {
+      "start": 2606,
+      "end": 2611,
+      "text": "dan se-luas ini dari macem-macem perspektif itu sampai ada hosting dan di-edit segala."
+    },
+    {
+      "start": 2611,
+      "end": 2618,
+      "text": "Terus jadi kayaknya ini bakal kalau misalnya nanti videonya udah dipublish,"
+    },
+    {
+      "start": 2618,
+      "end": 2621,
+      "text": "bakal banyak kagumateri seru."
+    },
+    {
+      "start": 2621,
+      "end": 2628,
+      "text": "Terus selain itu, salah satu highlight yang paling menarik buat aku itu"
+    },
+    {
+      "start": 2628,
+      "end": 2630,
+      "text": "ada pengumuman dari StackBlitz."
+    },
+    {
+      "start": 2630,
+      "end": 2634,
+      "text": "Jadi StackBlitz itu kalau buat teman-teman yang belum pernah pake,"
+    },
+    {
+      "start": 2634,
+      "end": 2641,
+      "text": "produk mereka adalah coding IDE, ya standar lah StackBlitz, Codes & Box,"
+    },
+    {
+      "start": 2641,
+      "end": 2648,
+      "text": "mirip juga sama Skinless, kalau dari niche-nya atau pengelompokan produknya,"
+    },
+    {
+      "start": 2648,
+      "end": 2654,
+      "text": "bahkan sama kayak GitHub Dev, itu yang kita bisa edit kode di browser."
+    },
+    {
+      "start": 2654,
+      "end": 2658,
+      "text": "Cuma yang menarik, yang menarik ini di Vidconv ini"
+    },
+    {
+      "start": 2658,
+      "end": 2662,
+      "text": "si StackBlitz meluncurkan produk mereka, itu namanya Codeflow."
+    },
+    {
+      "start": 2662,
+      "end": 2673,
+      "text": "Nah itu dengan Codeflow itu kita bisa berkolaborasi di GitHub dari browser kita."
+    },
+    {
+      "start": 2673,
+      "end": 2678,
+      "text": "Jadi sebetulnya Skinless mirip dengan GitHub.dev itu."
+    },
+    {
+      "start": 2678,
+      "end": 2685,
+      "text": "Jadi kita bisa edit kode, terus kalau emang kita punya permisi ke repo itu,"
+    },
+    {
+      "start": 2685,
+      "end": 2688,
+      "text": "ya kita bisa pull request, kita bisa preview segala macem."
+    },
+    {
+      "start": 2688,
+      "end": 2694,
+      "text": "Cuma apa bedanya dengan produk yang udah ada, produk sejenis yang udah ada,"
+    },
+    {
+      "start": 2694,
+      "end": 2700,
+      "text": "ternyata si Codeflow itu menggunakan dibalik layar, misalnya under the hood,"
+    },
+    {
+      "start": 2700,
+      "end": 2709,
+      "text": "dia menggunakan produknya StackBlitz juga, jadi in-house mereka bikin namanya Web Containers."
+    },
+    {
+      "start": 2709,
+      "end": 2720,
+      "text": "Web Containers itu menarik banget karena mereka bikin si StackBlitz itu membuat sistem operasi,"
+    },
+    {
+      "start": 2720,
+      "end": 2725,
+      "text": "jadi OS, Operating System, berbasis Wasm, berbasis WebAssembly."
+    },
+    {
+      "start": 2725,
+      "end": 2736,
+      "text": "Dan OS itu bisa dijalankan dari browser, jadi itu pendekatan yang menarik aja sih."
+    },
+    {
+      "start": 2736,
+      "end": 2742,
+      "text": "Terus walaupun sebetulnya StackBlitz itu ya perusahaan komersil biasa, maksudnya bukan."
+    },
+    {
+      "start": 2742,
+      "end": 2750,
+      "text": "Itu bukan web standar atau apapun, jadi itu produknya mereka."
+    },
+    {
+      "start": 2750,
+      "end": 2757,
+      "text": "Tapi yang bikin menarik itu untuk mereka bisa bikin Web Containers, sistem operasi"
+    },
+    {
+      "start": 2757,
+      "end": 2767,
+      "text": "yang bisa ada node server segala macem jalan di browser, mereka itu sangat memanfaatkan Web API."
+    },
+    {
+      "start": 2767,
+      "end": 2775,
+      "text": "Dan bahkan di blog postnya mereka, di top dan di blog post mereka,"
+    },
+    {
+      "start": 2775,
+      "end": 2782,
+      "text": "mereka cerita gimana mereka harus bekerja sama dengan erat dengan tim-tim yang mengerjakan"
+    },
+    {
+      "start": 2782,
+      "end": 2785,
+      "text": "web standar dan feature-feature web dari Chromium."
+    },
+    {
+      "start": 2785,
+      "end": 2790,
+      "text": "Jadi emang mereka pertama kali launching di browser-browser berbasis Chromium"
+    },
+    {
+      "start": 2790,
+      "end": 2794,
+      "text": "karena itu yang paling, apa, feature-nya paling mendukung."
+    },
+    {
+      "start": 2794,
+      "end": 2799,
+      "text": "Tapi mereka juga membuat beta yang bisa jalan di Firefox."
+    },
+    {
+      "start": 2799,
+      "end": 2806,
+      "text": "Kan pakai engine yang berbeda, Spider Monkey. Nah, di situ, karena kan ada Chromium,"
+    },
+    {
+      "start": 2806,
+      "end": 2811,
+      "text": "ada Spider Monkey, dan bahkan ke depannya mungkin mereka akan menjajaki Safari juga."
+    },
+    {
+      "start": 2811,
+      "end": 2817,
+      "text": "Nah, itu semua dipersatukan, ya maksudnya balik lagi ke web standar."
+    },
+    {
+      "start": 2817,
+      "end": 2826,
+      "text": "Jadi mereka pun harus kerja atau explore balik ke web standar itu sendiri."
+    },
+    {
+      "start": 2826,
+      "end": 2833,
+      "text": "Itu seru aja sih. Jadi, kalau misalnya tertarik untuk lihat detail teknisnya,"
+    },
+    {
+      "start": 2833,
+      "end": 2841,
+      "text": "bisa cek di talk mereka di Vidcon. Cuma itu buatku menarik karena pendekatan baru"
+    },
+    {
+      "start": 2841,
+      "end": 2846,
+      "text": "yang agak beda dengan selama ini misalnya GitHub dev atau code sandbox itu kan"
+    },
+    {
+      "start": 2846,
+      "end": 2852,
+      "text": "sebetulnya berjalan di server mereka, di proses di server mereka."
+    },
+    {
+      "start": 2852,
+      "end": 2858,
+      "text": "Nah, kalau di sini itu pendekatannya kayak membuat semacam sandbox di browser kita sendiri."
+    },
+    {
+      "start": 2858,
+      "end": 2864,
+      "text": "- Mana talk-nya, yang ini ya? Stack Glitz keynote ya? Benar nggak?"
+    },
+    {
+      "start": 2864,
+      "end": 2867,
+      "text": "- Iya, kayak Insta Development workflow."
+    },
+    {
+      "start": 2867,
+      "end": 2873,
+      "text": "Ada videonya juga di posting sama Stack Glitz juga."
+    },
+    {
+      "start": 2873,
+      "end": 2879,
+      "text": "- Bisa selesaikan masalah yang pasti saya bilang itu kalau Insta Jest kelamaan,"
+    },
+    {
+      "start": 2879,
+      "end": 2881,
+      "text": "itu udah jalan sendiri itu di browser."
+    },
+    {
+      "start": 2881,
+      "end": 2887,
+      "text": "Jadi kalau mereka tuh pakai istilahnya \"Build for the web, on the web.\""
+    },
+    {
+      "start": 2887,
+      "end": 2891,
+      "text": "Itu cara mereka menyebutnya."
+    },
+    {
+      "start": 2891,
+      "end": 2902,
+      "text": "- Ini menarik sekali ya, karena Node.js adalah sebuah dari browser diambil gitu kan."
+    },
+    {
+      "start": 2902,
+      "end": 2906,
+      "text": "Ini V8-nya diambil dan dijalankan di server."
+    },
+    {
+      "start": 2906,
+      "end": 2913,
+      "text": "Server-nya diambil lagi supaya bisa jalan di browser ya."
+    },
+    {
+      "start": 2913,
+      "end": 2916,
+      "text": "Jadi muter-muter saja ini ya, saling ngambil gitu ya."
+    },
+    {
+      "start": 2916,
+      "end": 2922,
+      "text": "- Nah, semuanya yang paling bawah hekmas scriptnya, apalagi spesifikasinya."
+    },
+    {
+      "start": 2922,
+      "end": 2930,
+      "text": "- Oke. Dan yang menarik yang kedua adalah ini mirip modelnya itu hampir seperti Docker ya."
+    },
+    {
+      "start": 2930,
+      "end": 2935,
+      "text": "Jadi kalau misalkan ada kesalahan dll, kita nggak masalah, maksudnya nggak usah takut gitu ya."
+    },
+    {
+      "start": 2935,
+      "end": 2940,
+      "text": "Nggak usah takut merusak environment, dia balik lagi ke state awal gitu ya."
+    },
+    {
+      "start": 2940,
+      "end": 2943,
+      "text": "- Iya. - Iya, kalau udah bingung."
+    },
+    {
+      "start": 2943,
+      "end": 2948,
+      "text": "- Jadi kalau error, refresh aja. - Refresh aja."
+    },
+    {
+      "start": 2948,
+      "end": 2951,
+      "text": "- Jadi kayak spin ulang lagi aja."
+    },
+    {
+      "start": 2951,
+      "end": 2957,
+      "text": "- Berarti bisa, jadi bisa jalan di browser user ya, gitu ya."
+    },
+    {
+      "start": 2957,
+      "end": 2963,
+      "text": "Bahkan bukan lagi di HCD ya, tapi jalannya di browser. Menarik."
+    },
+    {
+      "start": 2963,
+      "end": 2967,
+      "text": "- Menarik. - Tapi nggak semua API Node.js disupport kan?"
+    },
+    {
+      "start": 2967,
+      "end": 2976,
+      "text": "- Nah itu punya dia berbasis V8. Kayaknya ada limitation-nya, ada apa gitu yang nggak bisa ada tuh di bloknya mereka."
+    },
+    {
+      "start": 2976,
+      "end": 2983,
+      "text": "Cuma kurang tahu detailnya apa. Terus sayangnya sih, maksudnya sayangnya encode mark ya."
+    },
+    {
+      "start": 2983,
+      "end": 2988,
+      "text": "Ini kan proprietary product, kalau sekarang masih free karena beta."
+    },
+    {
+      "start": 2988,
+      "end": 2995,
+      "text": "Nah mulai 2020 itu mungkin berbayar. Cuma berharap aja, ini kan baru satu player."
+    },
+    {
+      "start": 2995,
+      "end": 3000,
+      "text": "Kalau misalnya ternyata ini bisa dilakukan, ke depannya ya sukar-sukur banyak yang bikin."
+    },
+    {
+      "start": 3000,
+      "end": 3002,
+      "text": "Nanti lama-lama juga ada yang free."
+    },
+    {
+      "start": 3002,
+      "end": 3008,
+      "text": "- Iya, web kontenernya sendiri nggak berbayar kan. Yang berbayar yang StackBlitz code flow-nya kan."
+    },
+    {
+      "start": 3008,
+      "end": 3011,
+      "text": "- Code flow-nya kelihatannya."
+    },
+    {
+      "start": 3011,
+      "end": 3021,
+      "text": "Kalau misalnya teman-teman tertarik mau bikin yang versi lebih terjangkau dari code flow,"
+    },
+    {
+      "start": 3021,
+      "end": 3024,
+      "text": "ya bisa pakai web kontenernya punya mereka, ya kan?"
+    },
+    {
+      "start": 3024,
+      "end": 3031,
+      "text": "- Dan itu free untuk, apa sih, justru mereka punya semacam SDK."
+    },
+    {
+      "start": 3031,
+      "end": 3036,
+      "text": "Nah itu ada talk-nya juga, cuma udah nggak fokus, udah ngantuk atau gimana kayaknya."
+    },
+    {
+      "start": 3036,
+      "end": 3044,
+      "text": "Jadi kalau code flow kan untuk yang automatic GitHub, itu emang orientasinya untuk enterprise ya."
+    },
+    {
+      "start": 3044,
+      "end": 3056,
+      "text": "Kalau web kontenernya ini, mereka bikin SDK untuk edukasi, untuk demo kayak misalnya buat tools open source,"
+    },
+    {
+      "start": 3056,
+      "end": 3064,
+      "text": "atau mungkin kayak misalnya kita tuh, kita sebagai JDI sering presentasi kan, itu presentasi bikin code walkthrough."
+    },
+    {
+      "start": 3064,
+      "end": 3070,
+      "text": "Apa yang terjadi kalau ini dieksekut, kayak bikin sandbox untuk misalnya review cara kerja code,"
+    },
+    {
+      "start": 3070,
+      "end": 3078,
+      "text": "itu bisa dengan web kontenernya. Dan ada talk-nya tentang itu, cuma karena nggak berhatiin lupa yang mana."
+    },
+    {
+      "start": 3078,
+      "end": 3084,
+      "text": "- Wah menarik sekali. Kalau misalkan orang, apa, teman-teman yang sering bikin workshop pasti ini relat sekali ya."
+    },
+    {
+      "start": 3084,
+      "end": 3092,
+      "text": "Jadi kita bisa kayak klon, udah sampai di stage berapa atau di level berapa, di materi keberapa."
+    },
+    {
+      "start": 3092,
+      "end": 3100,
+      "text": "Misalkan ada yang ketinggalan, udah, tinggal klon yang baru, jalanin, oh sampai di sini terakhir, kita bisa lanjut materi berikutnya."
+    },
+    {
+      "start": 3100,
+      "end": 3104,
+      "text": "Wah seru ya, semakin seru ya dunia web ya."
+    },
+    {
+      "start": 3104,
+      "end": 3116,
+      "text": "- Nah, terus kalau di feedconf-nya sendiri nih, talk lainnya, apa ya, yang karena sebenarnya aku cuma berhatiin di awal,"
+    },
+    {
+      "start": 3116,
+      "end": 3126,
+      "text": "yang bagian-bagian awal, itu menarik juga sih. Ternyata kan selama ini bundler itu bagian dari teknologi atau tooling"
+    },
+    {
+      "start": 3126,
+      "end": 3136,
+      "text": "yang kerja diem-diem ya, ibaratnya. Kita sebagai web developer pun nggak sepenuhnya aware what it takes,"
+    },
+    {
+      "start": 3136,
+      "end": 3145,
+      "text": "kayak mereka apa aja dan... - Karena cuma set up once, udah, jalan aja terus ya, dia jalan otomatis."
+    },
+    {
+      "start": 3145,
+      "end": 3152,
+      "text": "Karena kita cuma konfig sekali, ya rata-rata jarang banget kan ganti konfig feed atau ganti konfig webpack."
+    },
+    {
+      "start": 3152,
+      "end": 3157,
+      "text": "Jarang kan kalau sudah project berjalan, sudah jalan otomatis."
+    },
+    {
+      "start": 3157,
+      "end": 3159,
+      "text": "- Iya. - Hanya sesekali..."
+    },
+    {
+      "start": 3159,
+      "end": 3165,
+      "text": "- Kecuali kalau misalkan ada migrasi, misalkan ada migrasi. Dari JavaScript mesti ada TypeScript misalkan."
+    },
+    {
+      "start": 3165,
+      "end": 3172,
+      "text": "- Atau kita butuh scripting atau apalah, customization ya. Nah, karena selama ini nggak terlalu mikir tentang itu,"
+    },
+    {
+      "start": 3172,
+      "end": 3183,
+      "text": "lumayan umis juga sih. Mereka tuh keputusan tentang desain, tentang arsitektur, tentang bagaimana mereka"
+    },
+    {
+      "start": 3183,
+      "end": 3192,
+      "text": "mecahkan suatu masalah itu seru sih. Kayak tadi misalnya contohnya Evan Yu tuh menjelaskan perjalanan dari"
+    },
+    {
+      "start": 3192,
+      "end": 3198,
+      "text": "paling pertama dia punya ide untuk bikin bundler yang memanfaatkan native IS modul."
+    },
+    {
+      "start": 3198,
+      "end": 3202,
+      "text": "- Iya, IS modul. - Sampai akhirnya, sampai di tahap sekarang"
+    },
+    {
+      "start": 3202,
+      "end": 3209,
+      "text": "feed yang digunakan banyak banget macam-macam framework dan tooling. Lalu ada Anthony Fu."
+    },
+    {
+      "start": 3209,
+      "end": 3213,
+      "text": "- Oke. - Keliatanya dia juga maintainernya feed ya."
+    },
+    {
+      "start": 3213,
+      "end": 3218,
+      "text": "- Feed test. - Oh, feed test. Sama Youno CSS ya,"
+    },
+    {
+      "start": 3218,
+      "end": 3223,
+      "text": "kalau nggak salah. Pokoknya macam-macam tooling di ekosistem feed dan view."
+    },
+    {
+      "start": 3223,
+      "end": 3231,
+      "text": "Nah, beliau tuh cuma lightning talk. Sebenarnya talk-nya tuh singkat banget, cuma 6 menit-an lah."
+    },
+    {
+      "start": 3231,
+      "end": 3239,
+      "text": "Tapi cukup bisa menjelaskan sebetulnya feed itu apa dan cara kerjanya gimana."
+    },
+    {
+      "start": 3239,
+      "end": 3247,
+      "text": "Jadi dia menjelaskan apa saja yang dibutuhkan dalam environment dev. Kalau dev apa sih yang kita butuhin?"
+    },
+    {
+      "start": 3247,
+      "end": 3251,
+      "text": "Kode kita kan, kode yang ditulis oleh developer kan sering banget berubahnya."
+    },
+    {
+      "start": 3251,
+      "end": 3259,
+      "text": "Sementara isi node modul dependensi kita dalam sepanjang development kan hampir nggak berubah sama sekali."
+    },
+    {
+      "start": 3259,
+      "end": 3270,
+      "text": "Jadi itu kan masuk dalam pertimbangan waktu mereka feed membuat bundler, membuat teknologi."
+    },
+    {
+      "start": 3270,
+      "end": 3280,
+      "text": "Dan bahkan kalau apa? Ternyata kalau di dev server, mereka tuh nggak membundle kodenya."
+    },
+    {
+      "start": 3280,
+      "end": 3285,
+      "text": "Jadi emang bundle-less disebutnya, langsung dijalankan."
+    },
+    {
+      "start": 3285,
+      "end": 3290,
+      "text": "- Langsung jalanin modulnya. - Jadi itu tadi yang sempat dibahas sama Ivan tadi ya."
+    },
+    {
+      "start": 3290,
+      "end": 3296,
+      "text": "Yang begitu berubah, cepet banget HMR-nya nggak sampai satu detik, langsung berubah."
+    },
+    {
+      "start": 3296,
+      "end": 3302,
+      "text": "- Langsung kode yang... - Reload stand."
+    },
+    {
+      "start": 3302,
+      "end": 3309,
+      "text": "Langsung lucu di browser. Jadi itu disebut sama mereka dengan on-demand."
+    },
+    {
+      "start": 3309,
+      "end": 3317,
+      "text": "Jadi apa yang direplace ya apa yang dibutuhkan aja. Terus berbagai strategi, trade-off mereka."
+    },
+    {
+      "start": 3317,
+      "end": 3326,
+      "text": "Terus gimana cara mencapai yang mereka mau itu. Itu seru sih. Ada link-nya juga."
+    },
+    {
+      "start": 3326,
+      "end": 3336,
+      "text": "- Jadi si Antoni Fu ini adalah co-team member dari Feed, VU dan Nax.js. Dan dia yang bikin Vitesse, kreatornya."
+    },
+    {
+      "start": 3336,
+      "end": 3341,
+      "text": "- Oh, Vitesse yang kita sebut tadi ya? - Iya, kita sebut tadi."
+    },
+    {
+      "start": 3341,
+      "end": 3348,
+      "text": "- Gokil sih orangnya sih. Mantap sih. Ini tentang apa nih? Oh iya, ini dia."
+    },
+    {
+      "start": 3348,
+      "end": 3354,
+      "text": "Oh ini yang tentang on-demand nih. Wih, 30 menit."
+    },
+    {
+      "start": 3354,
+      "end": 3364,
+      "text": "- Dia cerita tentang strategi apa? Tentang pendekatan on-demand, tapi diterapkan untuk bundling."
+    },
+    {
+      "start": 3364,
+      "end": 3373,
+      "text": "Terus trade-off-nya bagaimana? Jadi \"Only transpile the modules you need.\""
+    },
+    {
+      "start": 3373,
+      "end": 3388,
+      "text": "- Ini mirip-mirip kayak konsepnya virtual dom-nya. Yang berubah hanya yang berubah saja."
+    },
+    {
+      "start": 3388,
+      "end": 3394,
+      "text": "Jadi modul-modul yang lain tidak disentuh. Berarti kalau webpack, semuanya jadi fresh."
+    },
+    {
+      "start": 3394,
+      "end": 3402,
+      "text": "- Masalahnya kalau dia HOC-nya kepanjangan, terlalu banyak, high order component sampai ke atas,"
+    },
+    {
+      "start": 3402,
+      "end": 3409,
+      "text": "yang berubah kecil, selalu trade-nya berubah. - Itu tergantung kitanya juga."
+    },
+    {
+      "start": 3409,
+      "end": 3419,
+      "text": "- Kalau webpack, begitu dia berubah, dia... - Nge-bundling semua lagi."
+    },
+    {
+      "start": 3419,
+      "end": 3427,
+      "text": "- Nge-bundling bagian itu, tapi di transpile lagi semua. - Di transpile lagi."
+    },
+    {
+      "start": 3427,
+      "end": 3432,
+      "text": "- Kalau di-feed, malah kalau di-development, ya udah langsung."
+    },
+    {
+      "start": 3432,
+      "end": 3441,
+      "text": "Cuma ternyata memang beda antara development sama production. Production itu mereka pakai roll-up dan es-build."
+    },
+    {
+      "start": 3441,
+      "end": 3448,
+      "text": "Itu dulu sempat nggak paham sih aneh kok es-build sama roll-up bukannya sama, ternyata bukan sama."
+    },
+    {
+      "start": 3448,
+      "end": 3456,
+      "text": "Bundlingnya tetap roll-up, si es-build itu untuk tree-shaking sama transpile."
+    },
+    {
+      "start": 3456,
+      "end": 3466,
+      "text": "Roll-up sama feed bukannya satu hal yang sama ya? - Nggak, si feed itu pakai roll-up under the hood."
+    },
+    {
+      "start": 3466,
+      "end": 3475,
+      "text": "Untuk production. Itu menarik sih seru. - Pantesan si es-build itu lebih memilih menggunakan feed"
+    },
+    {
+      "start": 3475,
+      "end": 3482,
+      "text": "daripada menggunakan snowpack. Es-build kan yang bikin roll-up juga kan?"
+    },
+    {
+      "start": 3482,
+      "end": 3487,
+      "text": "- Oh iya ya, Rich Harris. - Rich Harris yang bikin roll-up."
+    },
+    {
+      "start": 3487,
+      "end": 3497,
+      "text": "- Oh jadi roll-up digunakan di bagian production-nya kalau mau bundling code untuk production-nya."
+    },
+    {
+      "start": 3497,
+      "end": 3503,
+      "text": "- Masa ada di dokumentasinya? - Dokumentasinya ada kok."
+    },
+    {
+      "start": 3503,
+      "end": 3507,
+      "text": "Jadi emang dia punya strategi kalau di-development kita butuh feedback loop yang cepat."
+    },
+    {
+      "start": 3507,
+      "end": 3514,
+      "text": "Kita ngebahit kode, ya udah kita pengen bisa langsung lihat. Nah, tapi kalau di production, prioritasnya beda lagi."
+    },
+    {
+      "start": 3514,
+      "end": 3525,
+      "text": "- Iya betul. Oh sengaja ya? Error ini sengaja ya? - Iya sengaja kayaknya."
+    },
+    {
+      "start": 3525,
+      "end": 3537,
+      "text": "- Enggak, ini emang error. - Oh approve video ya. Playframe mungkin ya."
+    },
+    {
+      "start": 3537,
+      "end": 3543,
+      "text": "- Terus dibundling. - Itu kalau di traditional approach kayak gitu."
+    },
+    {
+      "start": 3543,
+      "end": 3552,
+      "text": "- Dia akan selalu rebundle ya untuk setiap kali kita request gitu ya. Setiap request, bukan setiap perubahan kode ya?"
+    },
+    {
+      "start": 3552,
+      "end": 3560,
+      "text": "- Kalau SSR mungkin. - Oh iya SSR, bener-bener. Oh ini udah ngomongin Nux ya."
+    },
+    {
+      "start": 3560,
+      "end": 3569,
+      "text": "- Nux, iya karena Nux juga kayaknya ya tadi. - Nux itu buat temen-temen yang gak tahu itu adalah next.js-nya Vue."
+    },
+    {
+      "start": 3569,
+      "end": 3579,
+      "text": "- Next-nya Vue. Itu gak helpful banget definisinya. - Aplikasi framework untuk Vue."
+    },
+    {
+      "start": 3579,
+      "end": 3585,
+      "text": "- Iya meta framework. - Svelte, Svelte, dan SvelteKit."
+    },
+    {
+      "start": 3585,
+      "end": 3591,
+      "text": "- Nah pas di announced tuh gue cuma lega satu aja, untung mereka gak ngasih nama Nux."
+    },
+    {
+      "start": 3591,
+      "end": 3599,
+      "text": "- Nux, kenapa ya lu? - Nggak, kalau react kan, jadi kalau untuk framework react, meta frameworknya next.js, next."
+    },
+    {
+      "start": 3599,
+      "end": 3608,
+      "text": "Kalau untuk framework Vue, meta frameworknya Nux. Nggak lucu kan kalau untuk Svelte dia bikin Nux, gak lucu."
+    },
+    {
+      "start": 3608,
+      "end": 3616,
+      "text": "Jadi untungnya gak SvelteKit. - Jadi next Nux-Nix gitu ya."
+    },
+    {
+      "start": 3616,
+      "end": 3624,
+      "text": "- Sebenernya awalnya kita meta framework itu kayak Ruby, Ruby on Rails gitu ya. - Iya emang based on."
+    },
+    {
+      "start": 3624,
+      "end": 3633,
+      "text": "Dan bahkan fit ini bisa dijalani di server. Magic juga sih ini. - Iya ajaib sih."
+    },
+    {
+      "start": 3633,
+      "end": 3639,
+      "text": "- Lila makan apa, Ivan Yui yang bisa bikin kaya gini-gini ya. Yang jelas dia gak makan nasi ya."
+    },
+    {
+      "start": 3639,
+      "end": 3644,
+      "text": "- Bukan makan nasi. - Oh dia makan nasi. Oh iya dia orang ini ya."
+    },
+    {
+      "start": 3644,
+      "end": 3649,
+      "text": "- Orang Yui. - Nasi ya dia ya. Oh iya makan nasi kali dia ya. Sama ya."
+    },
+    {
+      "start": 3649,
+      "end": 3655,
+      "text": "- Ramen, ramen, ramen, atau instant noodle. - Ya banyak-banyak makan ramen lah coba."
+    },
+    {
+      "start": 3655,
+      "end": 3663,
+      "text": "- Oke. Ada lagi? - Terus masih berhubungan sama Roll Up. Tadi kita bahas Roll Up nih."
+    },
+    {
+      "start": 3663,
+      "end": 3672,
+      "text": "Ada Mas Siapa ini yang namanya susah? Lukas Tiger Atkinson. Nah, lio itu maintainernya Roll Up."
+    },
+    {
+      "start": 3672,
+      "end": 3685,
+      "text": "Dan justru di apa? Nah itu udah hashing dilemma, blablabla. Disitu mereka announce launchingnya Roll Up versi 3."
+    },
+    {
+      "start": 3685,
+      "end": 3697,
+      "text": "Ya intinya sih itu makin sinergis lah, makin nyambung sama cara kerja Fit dan dengan segala kebutuhannya ya."
+    },
+    {
+      "start": 3697,
+      "end": 3705,
+      "text": "Maksudnya Fit kan juga gak stand alone in the vacuum, tapi semua framework dan tooling yang bergantung sama Fit."
+    },
+    {
+      "start": 3705,
+      "end": 3718,
+      "text": "Nah Roll Up 3 juga menyesuaikan, dia juga selain ngejelasin tentang Roll Up 3-nya, juga itu menjelaskan tentang hashing dilemma."
+    },
+    {
+      "start": 3718,
+      "end": 3727,
+      "text": "Nah ini juga menarik karena sebagai web developer yang sehari-hari lebih ke front-end, juga asli gak pernah mikirin ini."
+    },
+    {
+      "start": 3727,
+      "end": 3739,
+      "text": "Gak pernah secara mendalam mikirin ini. Cuma ternyata itu hal yang cukup major untuk tooling seperti Roll Up."
+    },
+    {
+      "start": 3739,
+      "end": 3751,
+      "text": "Jadi gimana caranya mereka ngecekkan semua kode atau semua file yang kita import dan kita gunakan, kadang kita ada circular import dan lain-lainnya."
+    },
+    {
+      "start": 3751,
+      "end": 3763,
+      "text": "Mungkin kode di file A misalnya bergantung dengan value di file B. File B bergantung sama kode di file C dan seterusnya."
+    },
+    {
+      "start": 3763,
+      "end": 3774,
+      "text": "Nah mereka kan under the hood harus menerapkan sistem hashing biar ngedetek kalau kode di file A berubah, file-file mana aja yang harus dibaca."
+    },
+    {
+      "start": 3774,
+      "end": 3781,
+      "text": "Nah kalau kode itu kurang optimal, kalau hashingnya kurang optimal, itu menghasilkan isu performa."
+    },
+    {
+      "start": 3781,
+      "end": 3795,
+      "text": "Jadi kalau big O notation-nya jadi besar banget. Kalau file kita cuma 3 ya oke lah. Kalau misalnya berubah 1, jadi harus ngebah 3-3 nya gak apa-apa."
+    },
+    {
+      "start": 3795,
+      "end": 3803,
+      "text": "Tapi gimana kalau kita punya 100 file, gimana kalau kita punya 1000 atau sejuta file, termasuk dependencies external."
+    },
+    {
+      "start": 3803,
+      "end": 3813,
+      "text": "Jadi dia ngejelasin, tapi itu menariknya tauknya gak teknikal yang terlalu sulit banget sih. Jadi dia pakai pseudocode."
+    },
+    {
+      "start": 3813,
+      "end": 3817,
+      "text": "Oh oke, penjelasannya apa itu pseudocode ya?"
+    },
+    {
+      "start": 3817,
+      "end": 3824,
+      "text": "Tentang pendekatan umumnya aja, terus dia ngasih contoh dengan apa, pakai emoji ikan itu loh, ikan."
+    },
+    {
+      "start": 3824,
+      "end": 3829,
+      "text": "Dan dia ngejelasin apa yang, gimana mereka ngecek apa aja yang harus berubah."
+    },
+    {
+      "start": 3829,
+      "end": 3835,
+      "text": "Jadi itu tauknya menarik, sayangnya belum dipublish sih, tauk yang big O stand-alone-nya."
+    },
+    {
+      "start": 3835,
+      "end": 3837,
+      "text": "Yang ini ya, oke."
+    },
+    {
+      "start": 3837,
+      "end": 3841,
+      "text": "Nanti kalau itu di-baseskinnya nonton lagi."
+    },
+    {
+      "start": 3841,
+      "end": 3856,
+      "text": "Nah tuh, teman-teman yang berkecimpung di tooling-t tooling open source kayak gini, dia mikirin gimana caranya aplikasi yang kita buat itu bisa performanya bagus."
+    },
+    {
+      "start": 3856,
+      "end": 3862,
+      "text": "Kita tinggal pakai doang gitu. Jadi jangan lupa kalau pakai tools-tools ini, ya grateful lah."
+    },
+    {
+      "start": 3862,
+      "end": 3868,
+      "text": "Ngucapin terima kasih buat mereka juga. Yang udah mikirin kita, sementara kita tidak mikirin mereka."
+    },
+    {
+      "start": 3868,
+      "end": 3873,
+      "text": "Cuman pakai aja gratis, abis itu kadang-kadang komplain di isu ya. Ini kok lambat, ini kok."
+    },
+    {
+      "start": 3873,
+      "end": 3876,
+      "text": "Kalau begitu masalah dikit, protes."
+    },
+    {
+      "start": 3876,
+      "end": 3879,
+      "text": "Protes, bayar juga enggak, donasi juga enggak gitu kan."
+    },
+    {
+      "start": 3879,
+      "end": 3881,
+      "text": "Ini dia."
+    },
+    {
+      "start": 3881,
+      "end": 3884,
+      "text": "Tapi bukan berarti kalau donasi juga kita bisa protes kan."
+    },
+    {
+      "start": 3884,
+      "end": 3893,
+      "text": "Oh iya. Donasi juga kan kita buat ini kan mengapresiasi apa yang mereka lakukan."
+    },
+    {
+      "start": 3893,
+      "end": 3895,
+      "text": "Oke."
+    },
+    {
+      "start": 3895,
+      "end": 3900,
+      "text": "Sama sekarang udah banyak banget bander. Maksudnya udah maju."
+    },
+    {
+      "start": 3900,
+      "end": 3914,
+      "text": "Jadi mas Lucky pakai framework andalannya apa dong?"
+    },
+    {
+      "start": 3914,
+      "end": 3920,
+      "text": "Boleh di-share juga ya. Teman-teman yang ada yang menonton, boleh di-share."
+    },
+    {
+      "start": 3920,
+      "end": 3923,
+      "text": "Framework atau library favoritnya apa?"
+    },
+    {
+      "start": 3923,
+      "end": 3924,
+      "text": "Pengen tahu juga."
+    },
+    {
+      "start": 3924,
+      "end": 3928,
+      "text": "Oke. Sekarang kita mungkin bacain pertanyaan kali ya."
+    },
+    {
+      "start": 3928,
+      "end": 3932,
+      "text": "Saya akan bacain pertanyaan dari yang ada di Slido."
+    },
+    {
+      "start": 3932,
+      "end": 3937,
+      "text": "Kalau teman-teman yang nonton tapi tidak live,"
+    },
+    {
+      "start": 3937,
+      "end": 3942,
+      "text": "boleh nanya-nya ke Slido atau di bit.ly/ngobrolinweb."
+    },
+    {
+      "start": 3942,
+      "end": 3946,
+      "text": "Kalau teman-teman yang nonton, bisa langsung nanya ke komentar aja, langsung kita jawab."
+    },
+    {
+      "start": 3946,
+      "end": 3950,
+      "text": "Oke. Kita menjawab pertanyaan pertama nih."
+    },
+    {
+      "start": 3950,
+      "end": 3956,
+      "text": "Bagaimana cara mengamankan atau encrypt kode JavaScript misal untuk project react?"
+    },
+    {
+      "start": 3956,
+      "end": 3960,
+      "text": "Bagaimana dengan dibundle menggunakan webpack kode JavaScript jadi aman?"
+    },
+    {
+      "start": 3960,
+      "end": 3962,
+      "text": "Ini pertanyaan dari Mas Anonymous."
+    },
+    {
+      "start": 3962,
+      "end": 3966,
+      "text": "Mudah-mudahan Mas Anonymousnya nonton. Ada yang mau jawab?"
+    },
+    {
+      "start": 3966,
+      "end": 3974,
+      "text": "Gua bisa menjawab tetapi mungkin nggak semuanya, jadi nanti bisa ditambahin."
+    },
+    {
+      "start": 3974,
+      "end": 3980,
+      "text": "Jadi kalau kode yang sudah ditransfer atau dibundle itu dengan webpack atau apapun itu,"
+    },
+    {
+      "start": 3980,
+      "end": 3987,
+      "text": "itu kadang ada bahasanya security to obscurity gitu ya. Artinya kodanya sudah di minify,"
+    },
+    {
+      "start": 3987,
+      "end": 3994,
+      "text": "diacak, dan susah dibaca. Tetapi itu bukan berarti satu-satunya, bukan berarti itu adalah aman."
+    },
+    {
+      "start": 3994,
+      "end": 4000,
+      "text": "Jadi jangan pernah ada API key atau key atau secret di dalam bundler."
+    },
+    {
+      "start": 4000,
+      "end": 4003,
+      "text": "Itu bukan begitu. - Bisa di cari juga."
+    },
+    {
+      "start": 4003,
+      "end": 4008,
+      "text": "Bisa di reverse engineering. Pasti bisa di reverse engineering."
+    },
+    {
+      "start": 4008,
+      "end": 4016,
+      "text": "Jadi jangan pernah ada. Jadi kalau untuk 100%, jangan tidak ada yang bisa mengamankan kode JavaScript."
+    },
+    {
+      "start": 4016,
+      "end": 4019,
+      "text": "Itu satu. - Iya, karena dia jangan di client."
+    },
+    {
+      "start": 4019,
+      "end": 4021,
+      "text": "- Betul. - Apapun yang ada di producer,"
+    },
+    {
+      "start": 4021,
+      "end": 4024,
+      "text": "aku bisa dibaca. - Jangan percaya gitu."
+    },
+    {
+      "start": 4024,
+      "end": 4029,
+      "text": "Dan kalau butuh authentication, ya tetap pakai authentication dengan benar."
+    },
+    {
+      "start": 4029,
+      "end": 4033,
+      "text": "- Harus ada server side. - Oauth, harus ada server side."
+    },
+    {
+      "start": 4033,
+      "end": 4041,
+      "text": "Oauth ke JWT ke apapun itulah. JWT itu JSON Web Token."
+    },
+    {
+      "start": 4041,
+      "end": 4047,
+      "text": "Jadi apapun itu tetap butuh server side authentication"
+    },
+    {
+      "start": 4047,
+      "end": 4051,
+      "text": "kalau memang datanya sensitif dan butuh diproses."
+    },
+    {
+      "start": 4051,
+      "end": 4057,
+      "text": "Jadi tidak bisa full 100% di client. - Oke."
+    },
+    {
+      "start": 4057,
+      "end": 4065,
+      "text": "Eka mau namain? - Sebenarnya belum ada pengalaman pribadi entripsi."
+    },
+    {
+      "start": 4065,
+      "end": 4072,
+      "text": "Cuma kalau pertanyaannya bandel dengan webpack, bandeling ya kayak yang kita tadi barusan udah bahas,"
+    },
+    {
+      "start": 4072,
+      "end": 4077,
+      "text": "bandeling sih fungsi utamanya bukan itu. Jadi kalau tujuannya untuk entripsi,"
+    },
+    {
+      "start": 4077,
+      "end": 4084,
+      "text": "ya itu tadi harus mencari obscure, untuk obscure kode."
+    },
+    {
+      "start": 4084,
+      "end": 4089,
+      "text": "Cuma mungkin kalau misalnya tujuan. Kan gimana pun kalau udah masuk browser,"
+    },
+    {
+      "start": 4089,
+      "end": 4096,
+      "text": "ya JavaScript-nya bisa dibaca. Cuma mungkin sudah di-minify dan kalau di-obscure lebih jauh lagi,"
+    },
+    {
+      "start": 4096,
+      "end": 4104,
+      "text": "ya apa, mungkin bukan aman atau entripsi tapi nggak human readable ya."
+    },
+    {
+      "start": 4104,
+      "end": 4111,
+      "text": "Jadi semua kayak yang udah karakter-karakter 1, 2 karakter dan nggak ada spasinya dan lain-lain."
+    },
+    {
+      "start": 4111,
+      "end": 4118,
+      "text": "Jadi kalau tujuannya cuma untuk menyembunyikan apa ya, kayak kode komponen aslinya, kode react-nya,"
+    },
+    {
+      "start": 4118,
+      "end": 4123,
+      "text": "mungkin masih bisa. Cuma ya tetap bisa di-kan,"
+    },
+    {
+      "start": 4123,
+      "end": 4130,
+      "text": "kalau di-minify atau aglify, itu maksudnya yang spasinya segala macam diilangin,"
+    },
+    {
+      "start": 4130,
+      "end": 4135,
+      "text": "kan bisa di-pretify, bisa di-reverse engineering dengan pretify."
+    },
+    {
+      "start": 4135,
+      "end": 4141,
+      "text": "-Beautify. -Beautify."
+    },
+    {
+      "start": 4141,
+      "end": 4146,
+      "text": "-Yaitu bisa dibalikin lagi intinya. -Pretify nggak ada, adanya pretier."
+    },
+    {
+      "start": 4146,
+      "end": 4151,
+      "text": "-Oh iya. -Iya."
+    },
+    {
+      "start": 4151,
+      "end": 4156,
+      "text": "-Beautify ya, oh iya. Cuma kalau buat ngumpetin kode react,"
+    },
+    {
+      "start": 4156,
+      "end": 4160,
+      "text": "misalnya kode react atau kode swelled aslinya, ya masih mungkin."
+    },
+    {
+      "start": 4160,
+      "end": 4165,
+      "text": "-Jadi itu bukan Encrypt tapi ya, nggak tahu kan kalau Encrypt."
+    },
+    {
+      "start": 4165,
+      "end": 4173,
+      "text": "Encrypt itu kan semacam JWT atau apa ya? Cuma kan nggak punya segala kode di Encrypt."
+    },
+    {
+      "start": 4173,
+      "end": 4176,
+      "text": "-Mungkin maksudnya gini bahasanya, kalau Encrypt itu,"
+    },
+    {
+      "start": 4176,
+      "end": 4183,
+      "text": "kalau communication, kalau encryption, ya pasti gunakan HTTPS, SSL, KSTS,"
+    },
+    {
+      "start": 4183,
+      "end": 4189,
+      "text": "itu untuk komunikasi antar client dengan server, pakai SSL untuk encryption-nya."
+    },
+    {
+      "start": 4189,
+      "end": 4195,
+      "text": "Kalau gilakan data payload itu kan sudah bisa mungkin jangan bisa dibaca oleh"
+    },
+    {
+      "start": 4195,
+      "end": 4201,
+      "text": "network admin, ya third party. -Ya, oke."
+    },
+    {
+      "start": 4201,
+      "end": 4207,
+      "text": "Mau nambahin dikit, mungkin nggak tahu ya, ini relevan atau nggak."
+    },
+    {
+      "start": 4207,
+      "end": 4210,
+      "text": "Maksudnya Encrypt ini di sini masih agak membingungkan."
+    },
+    {
+      "start": 4210,
+      "end": 4216,
+      "text": "Encrypt di sini maksudnya apa, tapi kalau dulu sempat ada, misalkan kita bikin"
+    },
+    {
+      "start": 4216,
+      "end": 4220,
+      "text": "aplikasi web nih, tapi server-side ya, PSP misalkan."
+    },
+    {
+      "start": 4220,
+      "end": 4224,
+      "text": "Nah, zaman dulu itu ada PSP, ada ZEN encoder namanya."
+    },
+    {
+      "start": 4224,
+      "end": 4228,
+      "text": "-Ada ZEN dan IonCube. -Ya, gitu."
+    },
+    {
+      "start": 4228,
+      "end": 4234,
+      "text": "Nah, jadi kode PHP-nya kita tanam di server orang misalkan, gitu kan."
+    },
+    {
+      "start": 4234,
+      "end": 4239,
+      "text": "Dan ketika orang yang punya server itu mau ngambil file PHP-nya itu nggak bisa dibaca,"
+    },
+    {
+      "start": 4239,
+      "end": 4249,
+      "text": "ya memang di Encrypt. Tujuannya supaya misalkan kita diminta untuk bikin"
+    },
+    {
+      "start": 4249,
+      "end": 4253,
+      "text": "aplikasi, tapi bikin aplikasinya aja, tidak disertakan source code-nya."
+    },
+    {
+      "start": 4253,
+      "end": 4258,
+      "text": "Nah, ini berbeda dengan JavaScript. -Tapi hosting-nya di tempat client."
+    },
+    {
+      "start": 4258,
+      "end": 4264,
+      "text": "-Sama aja analoginya kayak gini, kita bikin aplikasi, file-nya executable,"
+    },
+    {
+      "start": 4264,
+      "end": 4269,
+      "text": "ya kita kasih kan, pakai diskette, pakai CD, gitu kan. Dan itu nggak bisa dibaca kan dalamnya."
+    },
+    {
+      "start": 4269,
+      "end": 4274,
+      "text": "-Binary-nya nggak bisa diambil. -Ya, karena itu sudah executable."
+    },
+    {
+      "start": 4274,
+      "end": 4279,
+      "text": "Kalau Java sudah jadi war file, sudah jadi war."
+    },
+    {
+      "start": 4279,
+      "end": 4283,
+      "text": "-Ya. -Ketawa banget gua umurnya ya."
+    },
+    {
+      "start": 4283,
+      "end": 4288,
+      "text": "-Jadi kalau di JavaScript sepertinya nggak bisa, belum bisa, belum ada."
+    },
+    {
+      "start": 4288,
+      "end": 4295,
+      "text": "Jadi mungkin sekarang juga udah mulai nggak relevan karena nggak perlu install"
+    },
+    {
+      "start": 4295,
+      "end": 4299,
+      "text": "di servernya dia, tinggal taro di cloud, jadikan software as a service."
+    },
+    {
+      "start": 4299,
+      "end": 4301,
+      "text": "-Sebagai service-nya ya. -Betul."
+    },
+    {
+      "start": 4301,
+      "end": 4305,
+      "text": "Kalau misalkan dia mau pakai aplikasinya, ya silahkan, register, bayar,"
+    },
+    {
+      "start": 4305,
+      "end": 4309,
+      "text": "kemudian pakai. -Dapat key connect ke situ."
+    },
+    {
+      "start": 4309,
+      "end": 4315,
+      "text": "-Iya, mungkin solusinya kesana sih, lebih kesana. Dan barusan banget ada yang nanya nih"
+    },
+    {
+      "start": 4315,
+      "end": 4320,
+      "text": "tentang bundler, walaupun mungkin tadi sudah kita jawab secara tidak langsung,"
+    },
+    {
+      "start": 4320,
+      "end": 4324,
+      "text": "tapi boleh kita jawab sekali lagi, kenapa modul bundler itu ada?"
+    },
+    {
+      "start": 4324,
+      "end": 4328,
+      "text": "Apa permasalahan yang ingin diselesaikan? Kenapa nggak pakai CDN aja?"
+    },
+    {
+      "start": 4328,
+      "end": 4333,
+      "text": "Selama pakai CDN sih, selama mungkin aku pakai CDN, silahkan pakai CDN sih."
+    },
+    {
+      "start": 4333,
+      "end": 4335,
+      "text": "-Karena... -Apa kalau mau import?"
+    },
+    {
+      "start": 4335,
+      "end": 4342,
+      "text": "-Iya, karena semakin... -Apa umurnya modul bundler dengan CDS?"
+    },
+    {
+      "start": 4342,
+      "end": 4347,
+      "text": "-Iya, maksudnya seluruhnya, seluruh library-nya dipanggil dari CDN."
+    },
+    {
+      "start": 4347,
+      "end": 4349,
+      "text": "-Iya. -Technical-nya bisa."
+    },
+    {
+      "start": 4349,
+      "end": 4354,
+      "text": "-Iya, misalkan mau pakai RIA, kenapa harus pakai NPM listal, pakai CDN aja, gitu."
+    },
+    {
+      "start": 4354,
+      "end": 4357,
+      "text": "-Oh ya, nggak apa-apa. -Silahkan kalau masih bisa, kan?"
+    },
+    {
+      "start": 4357,
+      "end": 4362,
+      "text": "-Iya, contohnya yang tadi, yang saya demo-kan tadi, mungkin bisa mundur."
+    },
+    {
+      "start": 4362,
+      "end": 4368,
+      "text": "Itu plugin yang saya develop, plugin yang untuk di block editor itu di WordPress,"
+    },
+    {
+      "start": 4368,
+      "end": 4373,
+      "text": "itu yang saya bundler cuma kodonya saya."
+    },
+    {
+      "start": 4373,
+      "end": 4378,
+      "text": "Sisanya dari CDN. Atau dari Core WordPress, ya."
+    },
+    {
+      "start": 4378,
+      "end": 4381,
+      "text": "Bisa ya, dari Core WordPress, kan external bahasanya ya."
+    },
+    {
+      "start": 4381,
+      "end": 4386,
+      "text": "External dari Core WordPress, dan nanti ujung-ujungnya Core WordPress itu di-serve oleh CDN."
+    },
+    {
+      "start": 4386,
+      "end": 4391,
+      "text": "Which is pretty much the same ya, maksudnya konsepnya sama."
+    },
+    {
+      "start": 4391,
+      "end": 4394,
+      "text": "Dan hanya kodonya saya aja yang saya bundler."
+    },
+    {
+      "start": 4394,
+      "end": 4397,
+      "text": "Dan itu nanti di-serve via CDN."
+    },
+    {
+      "start": 4397,
+      "end": 4404,
+      "text": "-Mungkin pertimbangannya beratikan kalau sudah minified, dan kita pasti langsung pakai itu ya."
+    },
+    {
+      "start": 4404,
+      "end": 4406,
+      "text": "Ya udah, panggil dari CDN aja beratikan."
+    },
+    {
+      "start": 4406,
+      "end": 4409,
+      "text": "-Iya. -Itu."
+    },
+    {
+      "start": 4409,
+      "end": 4414,
+      "text": "Ya intinya sebenarnya selama masih bisa pakai CDN dan performanya bagus, silahkan pakai CDN."
+    },
+    {
+      "start": 4414,
+      "end": 4416,
+      "text": "Nggak usah pakai yang aneh-aneh, gitu ya."
+    },
+    {
+      "start": 4416,
+      "end": 4426,
+      "text": "-Gak bahaya juga ya, kalau kerjakan web personal, ya nggak apa-apa pakai web CDN."
+    },
+    {
+      "start": 4426,
+      "end": 4433,
+      "text": "Tapi kalau sudah sampai kelasnya enterprise, kita ada rule-nya atau policy-nya nggak bisa melod dari..."
+    },
+    {
+      "start": 4433,
+      "end": 4436,
+      "text": "-External. -External, itu nggak boleh."
+    },
+    {
+      "start": 4436,
+      "end": 4443,
+      "text": "Karena ada data yang perlu dijagal, juga ada sniffing atau segala macam, itu perlu ditutup semua."
+    },
+    {
+      "start": 4443,
+      "end": 4447,
+      "text": "Jadi kita harus di-serve, bahkan font nggak boleh load dari Google Font."
+    },
+    {
+      "start": 4447,
+      "end": 4450,
+      "text": "-Oh, harus dari internal? Harus serve sendiri?"
+    },
+    {
+      "start": 4450,
+      "end": 4455,
+      "text": "-Ya, font-nya itu kita download, nanti kita serve hosted sendiri."
+    },
+    {
+      "start": 4455,
+      "end": 4459,
+      "text": "Jadi nggak boleh load dari CDN."
+    },
+    {
+      "start": 4459,
+      "end": 4465,
+      "text": "Terus kalau CDN-nya down, kayak dulu kan pernah tuh kejadian cloud rate down, terus semuanya..."
+    },
+    {
+      "start": 4465,
+      "end": 4467,
+      "text": "-Iya, selesai. -Semuanya down."
+    },
+    {
+      "start": 4467,
+      "end": 4469,
+      "text": "-Semuanya nggak enteng-enteng. -Iya."
+    },
+    {
+      "start": 4469,
+      "end": 4477,
+      "text": "Ya, tapi kalau misalkan proyeknya aman-aman aja menggunakan CDN tadi, silahkan pakai sampai dibutuhkan."
+    },
+    {
+      "start": 4477,
+      "end": 4483,
+      "text": "Dibutuhkannya kapan? Kalau misalkan katakanlah, sekarang kan aplikasi, kalau misalkan kita bikin website"
+    },
+    {
+      "start": 4483,
+      "end": 4486,
+      "text": "atau company profile, mungkin CDN oke."
+    },
+    {
+      "start": 4486,
+      "end": 4490,
+      "text": "Tapi kalau misalkan kita bikin aplikasi web, itu dependensinya berapa banyak sih?"
+    },
+    {
+      "start": 4490,
+      "end": 4495,
+      "text": "Misalkan kita pakai React. Terus kita butuh React, apa lagi? React Query."
+    },
+    {
+      "start": 4495,
+      "end": 4499,
+      "text": "Kita butuh GraphQL, client. Kita butuh apa lagi? Lodes."
+    },
+    {
+      "start": 4499,
+      "end": 4502,
+      "text": "-GraphQL. -Mungkin, momen JS lah, gitu."
+    },
+    {
+      "start": 4502,
+      "end": 4504,
+      "text": "Atau apa, gitu kan? Banyak kan?"
+    },
+    {
+      "start": 4504,
+      "end": 4509,
+      "text": "4-5 dependensi kita load dengan CDN itu performanya nggak bagus."
+    },
+    {
+      "start": 4509,
+      "end": 4515,
+      "text": "Makanya muncul si web bundler ini untuk menggabungkan. Karena dia akan dikost 5 kali."
+    },
+    {
+      "start": 4515,
+      "end": 4519,
+      "text": "Plus bundler itu juga ada 3-shaking, kan?"
+    },
+    {
+      "start": 4519,
+      "end": 4523,
+      "text": "Jadi misalkan Lodes pun nggak paling kita gunakan."
+    },
+    {
+      "start": 4523,
+      "end": 4527,
+      "text": "Lodes itu kan ada banyak isinya, ya. Ngapain, kita import semua, gitu."
+    },
+    {
+      "start": 4527,
+      "end": 4531,
+      "text": "Jadi perlu 3-shaking, hanya butuh yang dibutuhkan saja."
+    },
+    {
+      "start": 4531,
+      "end": 4533,
+      "text": "Sampai bahasa internationalization dan lain-lain."
+    },
+    {
+      "start": 4533,
+      "end": 4539,
+      "text": "A, pusing itu. Kalau momen JS. Cuma mereka kan ada translation, ya."
+    },
+    {
+      "start": 4539,
+      "end": 4543,
+      "text": "Jadi dari bahasa Azerbaijan sampai bahasa si Bapu yang gitu."
+    },
+    {
+      "start": 4543,
+      "end": 4548,
+      "text": "A sampai Z, kalau nggak 3-shaking bisa-bisa ke-include semua."
+    },
+    {
+      "start": 4548,
+      "end": 4550,
+      "text": "Bengkak, ya. Bengkak."
+    },
+    {
+      "start": 4550,
+      "end": 4553,
+      "text": "Apa, kalau misalkan loading, jQuery."
+    },
+    {
+      "start": 4553,
+      "end": 4557,
+      "text": "JQuery-nya padahal yang dipakai cuma untuk selektornya doang, gitu kan."
+    },
+    {
+      "start": 4557,
+      "end": 4565,
+      "text": "Dan lain-lain. Jadi CDN bisa digunakan kalau masih sederhana."
+    },
+    {
+      "start": 4565,
+      "end": 4567,
+      "text": "Satu atau dua, oke."
+    },
+    {
+      "start": 4567,
+      "end": 4573,
+      "text": "Tapi kalau udah 3 sampai 5, apalagi 10, terus ada hubungannya dengan dependency."
+    },
+    {
+      "start": 4573,
+      "end": 4576,
+      "text": "Jadi satu library tergantung ke library yang lain."
+    },
+    {
+      "start": 4576,
+      "end": 4581,
+      "text": "Nah, itu susah tuh CDN-nya, ya kan?"
+    },
+    {
+      "start": 4581,
+      "end": 4584,
+      "text": "Nah, kalau CDN nggak ada logic, logicnya kita harus enroll."
+    },
+    {
+      "start": 4584,
+      "end": 4588,
+      "text": "Mungkin kita harus tecek ada library tersebut."
+    },
+    {
+      "start": 4588,
+      "end": 4592,
+      "text": "Satu lagi, dependency juga bisa bahaya, kan."
+    },
+    {
+      "start": 4592,
+      "end": 4596,
+      "text": "Kalau misalnya ada dependency yang nggak keload, misalnya masalah network."
+    },
+    {
+      "start": 4596,
+      "end": 4598,
+      "text": "Iya, betul."
+    },
+    {
+      "start": 4598,
+      "end": 4602,
+      "text": "Kalau misalnya kita ada 10 request itu karena butuh dependency, 10 request dari CDN."
+    },
+    {
+      "start": 4602,
+      "end": 4608,
+      "text": "Tapi ada satu yang nggak keload karena masalah network."
+    },
+    {
+      "start": 4608,
+      "end": 4610,
+      "text": "Ya, jadi api rasinya broken."
+    },
+    {
+      "start": 4610,
+      "end": 4616,
+      "text": "Iya, jadi kalau misalkan kita kayak npm install react gitu kan, dia udah install react-dom."
+    },
+    {
+      "start": 4616,
+      "end": 4620,
+      "text": "Tapi kalau misalkan CDN-nya kita pakai react doang, react-dom-nya nggak ada, ya nggak jalan, kan."
+    },
+    {
+      "start": 4620,
+      "end": 4626,
+      "text": "Jadi itulah yang apa, yang permasalahan yang ingin diselesaikan."
+    },
+    {
+      "start": 4626,
+      "end": 4636,
+      "text": "Dan kebetulan sekali saya udah pernah bahas sebenarnya di video ya, di salah satu conference ya, conference online ya, WWID."
+    },
+    {
+      "start": 4636,
+      "end": 4642,
+      "text": "Jadi saya bahas tentang itu yang tadi tentang model bundler."
+    },
+    {
+      "start": 4642,
+      "end": 4646,
+      "text": "Apa sih model bundler itu dan kenapa diperlukan gitu."
+    },
+    {
+      "start": 4646,
+      "end": 4650,
+      "text": "Karena ya kalau dulu ya, karena nggak ada export-import yang utama."
+    },
+    {
+      "start": 4650,
+      "end": 4652,
+      "text": "Loh, iklan, niaga-hostar."
+    },
+    {
+      "start": 4652,
+      "end": 4656,
+      "text": "Tolong, niaga-hostar, tolong sponsor kita ya."
+    },
+    {
+      "start": 4656,
+      "end": 4658,
+      "text": "Kita udah nggak punya."
+    },
+    {
+      "start": 4658,
+      "end": 4660,
+      "text": "Kita bisa skip ads."
+    },
+    {
+      "start": 4660,
+      "end": 4662,
+      "text": "Ini saya bahas di sini."
+    },
+    {
+      "start": 4662,
+      "end": 4668,
+      "text": "Kebanyakan yang saya bahas adalah yang era sebelum si Fit ini."
+    },
+    {
+      "start": 4668,
+      "end": 4670,
+      "text": "Jadi belum ada export-import, belum ada IS modul."
+    },
+    {
+      "start": 4670,
+      "end": 4672,
+      "text": "Jadi hanya karena dia nggak..."
+    },
+    {
+      "start": 4672,
+      "end": 4676,
+      "text": "Ini talkshare ini yang saya ingat, Pak Stiza."
+    },
+    {
+      "start": 4676,
+      "end": 4678,
+      "text": "Oh iya, ini WWID, bukan JSConf."
+    },
+    {
+      "start": 4678,
+      "end": 4680,
+      "text": "Eh, bukan JSID."
+    },
+    {
+      "start": 4680,
+      "end": 4682,
+      "text": "JS Asia."
+    },
+    {
+      "start": 4682,
+      "end": 4684,
+      "text": "Yes."
+    },
+    {
+      "start": 4684,
+      "end": 4686,
+      "text": "Oke."
+    },
+    {
+      "start": 4688,
+      "end": 4694,
+      "text": "Gimana, kita, kalau pertanyaan-pertanyaan lain ini, kita bisa bikin jadi satu topik sendiri ya."
+    },
+    {
+      "start": 4694,
+      "end": 4696,
+      "text": "Kalau ini ada tema, terima kasih sarannya."
+    },
+    {
+      "start": 4696,
+      "end": 4698,
+      "text": "Kita sangat apresiasi."
+    },
+    {
+      "start": 4698,
+      "end": 4700,
+      "text": "Dan ini kita butuh banget."
+    },
+    {
+      "start": 4700,
+      "end": 4702,
+      "text": "Karena kita butuh banyak topik nantinya."
+    },
+    {
+      "start": 4702,
+      "end": 4706,
+      "text": "Terus teknologi ads juga kita akan bahas nanti ya, kapan-kapan."
+    },
+    {
+      "start": 4706,
+      "end": 4708,
+      "text": "Belain waktu."
+    },
+    {
+      "start": 4708,
+      "end": 4710,
+      "text": "Ads ini maksudnya?"
+    },
+    {
+      "start": 4710,
+      "end": 4712,
+      "text": "Microsoft Ads."
+    },
+    {
+      "start": 4712,
+      "end": 4714,
+      "text": "Enggak lah."
+    },
+    {
+      "start": 4714,
+      "end": 4716,
+      "text": "Ads function."
+    },
+    {
+      "start": 4716,
+      "end": 4720,
+      "text": "Soalnya pertanyaannya ini muncul setelah kita bahas tentang ads function."
+    },
+    {
+      "start": 4720,
+      "end": 4722,
+      "text": "Oke, oke, got it."
+    },
+    {
+      "start": 4722,
+      "end": 4726,
+      "text": "Terus, ini PWA Flutter juga kita akan bahas nanti."
+    },
+    {
+      "start": 4726,
+      "end": 4728,
+      "text": "Ini juga kebetulan ada dua ya."
+    },
+    {
+      "start": 4728,
+      "end": 4732,
+      "text": "Kita juga akan mendatangkan ahlinya, mudah-mudahan ya."
+    },
+    {
+      "start": 4732,
+      "end": 4734,
+      "text": "Doakan saja."
+    },
+    {
+      "start": 4734,
+      "end": 4736,
+      "text": "Jadi, untuk malam ini, ada lagi yang mau ditambahkan?"
+    },
+    {
+      "start": 4736,
+      "end": 4738,
+      "text": "Dari Ivan atau Eka?"
+    },
+    {
+      "start": 4738,
+      "end": 4740,
+      "text": "Enggak dulu."
+    },
+    {
+      "start": 4740,
+      "end": 4742,
+      "text": "Enggak, ya."
+    },
+    {
+      "start": 4742,
+      "end": 4744,
+      "text": "Cukup ya, kita sudah satu jam 19 menit."
+    },
+    {
+      "start": 4744,
+      "end": 4746,
+      "text": "Bahasanya menarik, bahasa hari ini."
+    },
+    {
+      "start": 4746,
+      "end": 4748,
+      "text": "Seru, seru."
+    },
+    {
+      "start": 4748,
+      "end": 4750,
+      "text": "Terima kasih banyak."
+    },
+    {
+      "start": 4750,
+      "end": 4752,
+      "text": "Terima kasih banyak buat semua."
+    },
+    {
+      "start": 4752,
+      "end": 4756,
+      "text": "Terima kasih banyak juga buat teman-teman yang sudah komentar dan sudah hadir."
+    },
+    {
+      "start": 4756,
+      "end": 4758,
+      "text": "Kita ketemu lagi minggu depan."
+    },
+    {
+      "start": 4758,
+      "end": 4760,
+      "text": "Minggu depan."
+    },
+    {
+      "start": 4760,
+      "end": 4766,
+      "text": "Kalau ada yang mau follow-follow, bisa follow saya di twitter.com/rizafahmi22"
+    },
+    {
+      "start": 4766,
+      "end": 4768,
+      "text": "Kalau Ivan, kemana?"
+    },
+    {
+      "start": 4768,
+      "end": 4776,
+      "text": "ifancris.com"
+    },
+    {
+      "start": 4776,
+      "end": 4778,
+      "text": "Karena nama..."
+    },
+    {
+      "start": 4778,
+      "end": 4780,
+      "text": "Gue pernah punya twitter dulu, tapi kena ban."
+    },
+    {
+      "start": 4780,
+      "end": 4786,
+      "text": "Kok bisa di ban?"
+    },
+    {
+      "start": 4786,
+      "end": 4788,
+      "text": "Politik ya?"
+    },
+    {
+      "start": 4788,
+      "end": 4790,
+      "text": "Enggak."
+    },
+    {
+      "start": 4790,
+      "end": 4794,
+      "text": "Dulu pakai twitter untuk cari duit, jadi pakai bot gitu."
+    },
+    {
+      "start": 4794,
+      "end": 4798,
+      "text": "Oh, pakai bot."
+    },
+    {
+      "start": 4798,
+      "end": 4800,
+      "text": "Kalau Eka, ada di sini ya?"
+    },
+    {
+      "start": 4800,
+      "end": 4802,
+      "text": "Eka FYI."
+    },
+    {
+      "start": 4802,
+      "end": 4804,
+      "text": "Oke."
+    },
+    {
+      "start": 4804,
+      "end": 4806,
+      "text": "Kalau gitu, terima kasih banyak."
+    },
+    {
+      "start": 4806,
+      "end": 4808,
+      "text": "Sampai ketemu lagi minggu depan."
+    },
+    {
+      "start": 4808,
+      "end": 4810,
+      "text": "Kita pamit. Bye bye."
+    },
+    {
+      "start": 4810,
+      "end": 4812,
+      "text": "Bye bye. Thank you semua."
+    },
+    {
+      "start": 4812,
+      "end": 4814,
+      "text": "Selamat malam."
+    }
+  ],
+  "fullText": "[suara suara perang] Halo, selamat malam, selamat hari selasa, dan hari selasa adalah waktunya ngobrolin web. Malam hari ini masih bersama saya Riza, dan malam hari ini kita ada siapa ya? Di sini ada Eka. Halo Eka, apa kabar? / Halo, baik. Selamat malam semuanya. Dan ada juga yang minggu lalu, liburan. / Liburan? Ivan kembali lagi. / Halo, halo, halo. / Gimana liburannya? / Segar. Segar ya. Refresh ya. / Healing bahasanya, healing. Healing ya. [tertawa] Oke, oke. Nah, iya. Dan mudah-mudahan apa ya, Ivan malam hari ini membawa oleh-oleh dalam bentuk materi. Siap cerita itu ya. / Iya. Dan malam hari ini kita akan bahas spesifik tentang fit. Ini apa, bacanya fit apa fit ya? Fit ya kali ya? Bacanya fit. / Ternyata. Fit. Fit. Karena ini adalah bahasa? / Frankis. / Frankis ya. Oh lala, fit. / Eh iklan, nggak boleh. Kita belum ada iklan. Endorse itu. Dan kebetulan juga kemarin Eka nunjukin bahwa ada sebuah event yang namanya Fitcon. Yang baru dikelar. Dan sudah ada di Youtube ya. Sudah ada di Youtube bisa ditonton, tapi videonya belum lengkap ya. Jadi kita memutuskan malam hari ini akan bahas tentang fit. Tapi sebelum membahas tentang fit, mungkin bisa kita ngobrolin dulu tentang apa itu fit. Ada yang mau menjelaskan? Nggak. Nggak ada. Sedih sekali. / Kalau fit itu bundler ya. Not just JavaScript, aset bundler semuanya. Kenapa kita butuh bundler? Good question. Kenapa kita butuh bundler? Nah, soalnya kita kan nulis JavaScript, kita nulis kode dalam bentuk JavaScript. Tapi kode yang kita tulis itu belum tentu bisa. Dan pada umumnya sih belum bisa langsung dibaca oleh browser. Belum bisa dijalankan oleh browser. Kenapa nggak bisa? Soalnya ya macam-macam misalnya ada sintaks khusus kayak kita pakai TypeScript atau kita pakai feature ECMAScript yang baru, yang mungkin belum disupport oleh browser. Atau mungkin belum sesuai sama standar yang kita mau. Lalu ada import dan export yang nggak mungkin library-nya yang kita import kan. Nggak mungkin di-incor semua kan. Harus ada proses-proses semacam tree-shaking. Belum lagi. Apa sih? Kita mungkin punya modul-modul tertentu yang kita akan bikin fungsi yang terpisah sendiri-sendiri. Kita kelompokan dalam modul. Mungkin untuk ngerender komponen secara kondisional kita juga punya potongan-potongan JavaScript yang nggak memungkinkan atau sulit dijalankan semua di global. Jadi butuh ada alat khusus, program khusus yang ngecek semacam ngecek kode kita satu persatu nih. File-file kita dilihat semua, dibaca, lalu diolah, ada logiknya, terus diminifikasi juga. Jadi apa, nama-nama variable kita kan mungkin panjang. Lakukan sesuatu, lakukan ini, lalu lakukan itu blablabla, jadi disingkat jadi cuma satu atau dua karakter, sesingkat mungkin, lalu semuanya di-streamline biar menjadi format yang bisa dijalankan oleh browser atau bahkan oleh server. Jadi vendor itu sebenarnya istilah generik ya, istilah umum untuk tool yang menjalankan semua itu. Baca kode kita dan menjalankan banyak logik tertentu dan mengolah semua kode kita menjadi bentuk yang ringan dan mudah dibaca. - Oh, menambahkan aja. - Dibaca oleh mesin. - Iya, menambahkan aja nggak cuma dengan JavaScript. Bisa jadi, kita kan rata-rata kalau bisa dibilang engineer atau developer jaman now, kalau nulis styling kan sudah pakai CSS ya, SAS. SAS itu kan banyak banget ya istilahnya function-function atau ya function ya, banyak function di SAS yang belum tentu ada di CSS. Terus banyak singkatan-singkatan misalnya kayak apa bahasanya kalau... - Nesting. - Nesting, nah itu bahasanya, nesting. Kalau kita nulisnya di CSS langsung kan panjang ya, sedangkan kalau di SAS bisa jadi lebih singkat, terus re-usable, terus kemudian, nah SAS itu juga bisa di-compile menjadi CSS, di-transpile bahasannya. - Di-transpile. - Iya. Terus semuanya kemudian otomatis oleh bundle. Contohnya fit ini. - Oke, oke. Kenapa fit ini menarik? Karena kan dibandingkan misalkan bundle kan ada banyak ya, yang paling terkenal saat ini mungkin webpack ya, webpack, dll, ada parcel. - Karena yang paling lama, bukan paling lama mungkin ya, yang paling major kali ya, yang dominasi pasar lah. - Bisa dilihat itu ada satu link dari saya, itu yang tooling.report. - Oh, tooling.report. - Iya, ada di link menarik itu tooling.report. Sayangnya fit belum ada, tapi bisa dilihat beberapa bundle-bundle yang sempat tenar di jaman 2 tahun lalu. - Oh, browserify juga lumayan ya, lumayan sering dipakai. Ini belum jamannya Node.js ya kayaknya ya. - Iya. - Masih pakai browser aja. - Kenapa orang pakai browserify? - Dia pakai extension nggak sih? Kayak Chrome extension gitu? Nggak ya? Nggak gitu ya? - Nggak, nggak, nggak. - Oh, bukan, bukan. Oke. - Nggak sih. Dia seperti bundler aja, seperti webpack. - Bundler biasa ya, oke. - Iya. - Nah, kenapa kok tiba-tiba si fit ini tiba-tiba muncul dan jadi populer sekali dibandingkan beberapa bundle-bundle yang lain, termasuk juga yang baru-baru kayak snowpack gitu ya. Apa yang buat dia berbeda? - Nah, snowpack itu reda, snowpack itu reda tragis sih, kocak nih ada ceritanya. Jadi apa, dulu kan si Svelte ya, tau kapan sih ya? - Svelte, Svelte. - Ingat kan, sempat kelihatannya tahun lalu atau mungkin 2 tahun sebelumnya ya. Ya, pokoknya sekitar 2 tahun lalu, apa, di SvelteCon Richaeris mengumumkan akan merilis SvelteKit, lalu SvelteKit itu, kan dulu sebelumnya ada Cyper ya, belum ada SvelteKit. Nah, SvelteKit itu, Cyper itu apas nggak pernah di launching di production, stop di beta, dilanjutkan sebagai SvelteKit dengan pendekatan yang lebih sesuai kebutuhan saat itu. Nah, waktu di-announce itu dikabarin SvelteKit akan menggunakan snowpack. Terus lupa deh, kayaknya ada tooling lain atau apa-apanya, kelihatannya semua announce akan menggunakan snowpack. Dan snowpack ini pendekatannya mirip banget sama fit. Nah, tapi beberapa bulan kemudian pihak Svelte ngumumin nggak jadi pakai snowpack deh, pakai fit aja. - Dan itu rusuh ya, rusuh ya, gimana rusuhnya? - Bisa ya. - Rame. Terus kelihatannya pokoknya semua yang tadinya bilang akan pakai snowpack nggak jadi pakai snowpack, pakai fit. Dan bahkan tim yang membuat snowpack, mereka tuh akhirnya mengerjakan framework Astro yang pernah kita bahas juga ya di episode, dua episode lalu. Dan Astro itu juga pakai fit. Jadi dia nggak pakai, dia juga, Astro pun nggak pakai snowpack, pindah ke fit. Jadi emang snowpack itu ya, nggak tahu, tetap masih ada dan masih ya bisa dipakai kalau mau, cuma nggak, kelihatannya nggak actively developed lebih lanjut. - Oke. - Oh, tutup, ada punggungannya. - Jadi udah nggak dimaintain lagi ya si snowpack ini ya. - Nah, tapi positifnya sih walaupun apa ya, kalau dilihat kayak tragis banget, udah di apa, di PHP banget lah. - Di PHP. - Bukan PHP ya. Udah dikasih harapan, udah dibiketin, udah dijanjiin, tolnya dibuang. Nah, cuma kalau dari perspektif engineering ya, kelihatannya mereka tetap bisa apa, nggak masalah sih, karena sepakat bahwa effortnya difokuskan pada fit dan timnya itu yang apa, sekarang ngerjain Astro justru memanfaatkan banget apa, ya kalau di fit konfomarin sih, kalau dari obrolan-obrolannya, ada panelnya juga dan ada presentasinya, bahwa emang akhirnya mereka semua menemukan jalan yang terbaik lah intinya. Jadi mereka kerja bareng, closely work together, Astro sebagai framework yang sangat menganfaatkan apa, apa, feature-featurenya fit, fit juga jadi apa, single player lah untuk bundler yang, bundler yang perspektifnya modern seperti ini. - Oke, pertanyaannya apakah snowpack duluan atau fit duluan yang dikembangkan? Apakah snowpack dan snowpack dalam tanda tipe ya, mereferensikan ke fit atau fit yang referensi ini dari snowpack? Nggak tahu ya? - Nggak tahu sih, kalau itu cuma naik duluan sih kayaknya snowpack ya, masa yang banyak kedengeran snowpack, sempet naik, terus abis itu langsung ditinggalin. - Oke, fit ini dari komunitas view kan awalnya ya? - Iya, nah itu salah satu talk, bukan salah satu talk, talk pembukanya talk, talk pertama di feedcon minggu lalu itu dari mas Evan Yu yang emang apa, pembuatnya apa, inisiaturnya, kreatornya view juga fit. Dan itu lucu sih, ada tweetnya, coba dilihat deh di apa, link, ada tweetnya bahwa... - Ada tweetnya ini. - Nah iya, jadi itu, itu asal-muasal bisa ada fit sekarang yang digunakan banyak banget, digunakan sama banyak banget framework dan tooling, itu sebenarnya cuma ide iseng kayak gitu. Dan awalnya emang hanya untuk view, cuma feed yang tiga ya, yang versi tiga baru dibikin, mereka explore dan ternyata oh, ini bisa dibikin framework agnostic. Jadi dikembangkan lebih lanjut di versi tiganya. Dan ini tahun 2020, ternyata 2 tahun yang lalu ini. - Iya, saya ingat juga ngikutin, kan apa, follow juga kan, jadi pas dia bikin develop awal-awal itu ya, ya itu dia apa, project iseng kayak project di weekend gitu, terus pada saat itu yang men-trigger dia atau beberapa orang termasuk Snowpack itu membuat bundler baru setelah webpack kan udah cukup populer kan, dan parcel kemudian yang lain-lain gitu roll up juga. Nah yang men-trigger mereka untuk membuat adalah munculnya IS module yang membuat bundler size-nya bisa lebih kecil dan lebih cepat, karena kalau dulu kan, salah satu alasan kenapa bundler dibuat adalah karena kita tidak bisa import kan. - Browser belum bisa membaca. - Iya, browser belum bisa IS module kan. - Iya, jadi belum bisa import/export, itu udah bisa, maka si bundlernya cara kerjanya juga berbeda nih, berubah, yang membuat si bundler yang lama mungkin udah kurang relevan ya, masih bisa dipakai tapi mungkin size-nya agak lebih besar dan lain-lain. - Size yang lebih besar, lebih lama juga kan pasti karena dia harus kerja ekstra. Hal yang sekarang udah bisa dikerjain sama browser, dulu kan belum bisa dengan perspektifnya webpack, nah sekarang sebagian kerjaannya bisa dialihkan di offload ke browser. Semakin lama, nanti kalau browser sudah bisa, IS module segala macam, makin banyak. - Gak perlu lagi gitu ya. - Gak perlu bundler ya. Kita langsung nulis, IS script, ECMAScript, udah langsung bisa dijalan-jalan di... - Kayaknya tempoh hari ada itu deh, ada debat, cuma belum konklusif sih, bakal kayak gimana, TypeScript in browser. - Oh, TypeScript in browser. Tapi dulu juga sempat ada ide tuh, si Chrome juga sempat ngide mau include dark language ke Chrome untuk menggantikan JavaScript. Sebelum Flutter muncul, sebelum Flutter muncul. Jadi kayaknya sempat ada ide itu tapi mungkin kurang diterima ya, karena itu kan spesifik Google banget kan. Udah browsernya Google, terus selanjutnya punya Google juga, ya mungkin kurang netral. Akhirnya gak jadi dieksekusi, sampai sekarang masih yang diterima oleh browser adalah JavaScript. Semua bisa nulis kode seperti apa, ujung-ujungnya akhirnya dikompilasi ke JavaScript supaya bisa dieksekusi di browser. - Oke, wah menarik ya, dunia open source ya. Dan yang menarik adalah di bagian ini. Tadi lihat sekilas ya, di feed, Instance Server, start, lightning fast, hot module reload, dan lain-lain. Ini juga sama, itu kan sama. Bahasanya sama persis. - Kayaknya mereka kayaknya ini ya. - Kayaknya udah kolaborasi sih ya. Mereka kayaknya kayaknya nyatuin ide aja gitu, nyatuin jalannya, karena jalannya bareng dari pada terpisah. - Itu loh, kayak di Platt Mobile, berdua satu tujuan. - Asik. - Berdua satu tujuan. - Tapi berantem dulu, berantem dulu. - Biasa itu. - Oke, segitu aja cerita-ceritanya. - Sekarang kita lanjut ke topik berikutnya, yang adalah dari Ivan. - Oh, gue ya? - Iya lah, kan kemarin udah liburan, jadi lebih fresh. - Saya yang shell aja deh. - Oh boleh, silahkan. - Biasa simple, screen 2. Jadi di apa namanya? Di komunitas WordPress. Tadi kok kayaknya nggak kelihatan. Oke, nah di komunitas WordPress itu, kita kan ada blog editor yang namanya ya. Dan di WordPress sendiri itu sudah ada banyak modul-modul JavaScript yang sudah by core itu sudah ada dan terutama arahnya ke React. Dan di WordPress itu ada blog editor dengan codename itu namanya Gutenberg. Dan itu masih pakai, natively masih pakai webpack. Jadi apa-apa semua sekarang banyak banget, majority masih memakai webpack. Dan di salah satu project, kebetulan saya bareng dengan Mas Kucrut ini ya, Kucrut atau Mas Zikri. Kita bareng di sebuah project dan waktu itu dia kayak apa istilahnya, begah ya pakai webpack. \"Aduh lambat nih webpack nih, aduh, yuk project kita kali ini, yuk kita pakai feed coba.\" Saya bilang, waktu itu saya leadnya, lead di project maksudnya ya. \"Ya udah, ayo, hajar.\" Nah, jadilah tuh kita eksplorasi dan yang bikin library-nya Mas Kucrut bukan saya. Mas Zikri ini yang bikin library-nya. Jadi feed itu bisa untuk bundler-nya di sebuah plugin atau teams, kemudian bagaimana kita bisa NQ-nya dengan mudah. NQ itu maksudnya gini, jadi hasil bundler itu tinggal bagaimana dipanggilnya di teams, di load, di plugin gitu ya. Karena ini kan WordPress PHP ya, masih server-side ya, jadi bukan kayak Next.js yang udah semua blok-blok-blok-blok, tuk tinggal jalan ato admin-nya, bukan. Jadi masih terpisah, bundler sendiri, terus ada PHP, terus PHP-nya kan perlu baca, apa itu namanya, mapping ya. Map file-nya kan, perlu baca map file-nya, nanti dari map file-nya itu bisa di-queue JavaScript yang mana mau diletakkan atau di-load di page. Ini hanya adalah sebuah library-nya aja, tools-nya aja bagaimana supaya hal tersebut bisa terjadi. Jadi seperti biasa, kalau misalnya ini plugin kita, ada JavaScript-nya, ada package JSON-nya, terus ada feed config-nya. Secara buat config-nya sama seperti buat config-config-feed lainnya, ada plugin, server, ada segala macam. Terus yang dibuat adalah jembatannya, setelah asset file-nya dibundler, dipanggil dari PHP, server-side, pakai feed and queue asset. Jadi baca distribution file-nya, nama file-nya, terus ya tinggal ini bahasa dari PHP-nya untuk WordPress, khusus untuk WordPress handler untuk WordPress-nya. Ada dependency yang perlu di-load sebelum itu, ada CS dependency, perlu di-load di header atau di footer, ini dari WordPress. Jadi, tapi ini jembatannya. Jadi setelah bundler terjadi, sekarang sudah jadi distributed file-nya, distributed file dan tinggal dipakai. Silahkan pakai ya, dan untuk misalnya kalau ada external dependency, banyak deh external dependency ya, contohnya memakai React, maksudnya di sini external global ini artinya sudah di-load sebelumnya, jadi kita tidak perlu bawa ke bundler kita. Contohnya ada dependency di WordPress sudah ada Lodas, sudah ada React, jadi kita tidak perlu panggil React dan Lodas-nya import di dalam kita punya feed-nya. Kita tidak perlu bundler, tapi bisa kita import, bisa kita import, tetapi setelah dibundler, dia tidak perlu dijadikan satu ini karena dia external, tinggal dipanggil. Jadi bisa dibuat seperti itu juga. Contohnya ada di sini, Mas Zikri sudah buat dan waktu itu saya dan tim membuat sebuah plugin yang bisa membuat blog editor itu bisa seperti Google Doc, bisa collaborative editing. Saya coba demo-nya. Ini contohnya, button blog, bisa ada, saya bukan buat, saya bukan buat blog editor dan saya buat yang namanya collaborative editing-nya. Lihat ya, ada admin, terus kemudian saya login satu user lain, di sebelah kanan ini saya login sebagai Ivan, sebelah kiri sebagai admin. Di atas ini ada orangnya, di sini ada namanya, terus sebenarnya saya sebagai admin, ini ditulis admin lho, di belakangnya nanti KB. Kalau misalnya di sini saya tambahin, sorry, saya tambahin table misalnya, saya collaborative. Mirip ya, kayak medium juga jangan dulu. Inspired bahasanya. Standard blog editor lah ya, sebuah blog editor juga kayak gini kan. Betul sekali. Saya tidak buat blog editornya, saya buatnya collaborative editing-nya, jadi bagaimana bisa terjadi. Nah fitconfig-nya simple, waktu itu saya buatnya, ini code-nya. Fitconfig-nya ada di sini. Terlalu besar. Jadi simple aja. Karena dia pakai butuhnya CSX dan ada juga React Component-nya, saya butuh pakai plugin-nya. Terus kemudian saya ada external-nya juga, saya harus pakai external-nya React dan external dari WordPress. Yang butuh saya akses sebagai API-API dari WordPress karena harus connect ke blog editor API-nya ya. Jadi saya butuh data-data ini. - Berarti external ini adalah JavaScript yang ada di WordPress-nya? - Yes, betul. Jadi nama library-nya kan WordPress Compose misalnya, atau yang simple deh, WordPress data-an misalnya. Dan dari WordPress-nya sendiri sudah export. Saat runtime, dia sudah export sebagai weapon.data. Jadi cuma kayak buat alias-nya. Jadi saya bisa tetap pakai WordPress data di code-nya saya. Contohnya CSX, contohnya seperti ini. You select that WordPress data. Ini online peers yang tadinya kita lihat disini. Ini komponennya jadi ambil datanya dari store. Terus kemudian React Component seperti biasa. Terus di-print, peering-nya. Udah, gitu. Sebenarnya jadi cuma ambil dari store, dari Redux Store-nya. Udah, simple. Dan yang paling kita suka dari feed waktu itu, kayak saya waktu dirimuin sama Mas Zikri waktu kita buat ini adalah HMR-nya cepet banget, banget nget-nget-nget. Hot Model Reloaded ya. Begitu saya tekan save, disini langsung berubah. Kalau project kita yang agak gede ya, sudah terlalu banyak yang file-nya, bisa 4-5 detik baru kelihatan reload-nya. Kalau feed instant, kurang dari 1 detik saya sudah bisa lihat hasilnya. Jadi bisa banget kalau mau loading kiri-kanan begini. - Begitu di-save langsung berubah. - Betul. - Mantap. - Ya, itu pengalaman saya menggunakan feed. Terus terang saya masih anak baru pengguna feed. Masih baru dikasih tahu. Awal tahun pakai feed dan oprek-opreknya sepanjang yang saya lakukan masih sedih pemakai, belum jadi pengoprek yang lebih dalam. Saya masih baru jadi pemakai aja untuk feed. Dan so far learning curve-nya untuk feed lebih rendah daripada webpack. - Karena webpack terlalu banyak konfigurasi. - Konfig-nya gila. - Betul-betul. - Iya, mantap. Dan kalau kita pakai getting started-nya NPM Create VT Latest misalkan, itu sudah dikasih template kan. Kita mau pakai Vandala TS, Vue atau VTS, React TS, dan lain-lain ya, sudah disediakan. - Ya, dia bisa pakai Tabscript sebagai default maksudnya. Konfigurasinya sudah bisa digenerate kita ya. - Betul. Dan yang Mas Zikri buat itu sebenarnya awalnya waktu itu kita buat dari proyek ini ya. Ini file PHP-nya yang, oh Manifest, itu bahasanya. Manifest-nya yang dibaca Manifest-nya dari Manifest. - Oh ya, ini dari sisi PHP-nya ya? - PHP. Ya, jadi dari sisi PHP-nya setelah distribution file jadi, baca Manifest-nya, terus bisa di-print di HTML Header atau footer. JavaScript-nya, CSS-nya, segala macam, otomatis. Jadi tinggal di feed and cube selesai gitu. Jembatan itulah yang kita buat. Oke, segitu dari saya. Mengalaman pribadi. - Bisa ke saya dulu deh. Nanti baru habis ini Eka yang lebih detail bahas tentang feed dan juga fitting. - Ya. Dan sebenarnya saya juga dengarnya dari tahun lalu dan udah coba. Jadi terakhir, pernah ngisi workshop untuk TypeScript sama React. Itu udah pakai, bukan lagi pake create track app, tapi udah pake feed yang tadi. Dan bisa langsung kan, jadi nggak ada konfigurasi macam-macam, semuanya bisa jalan dan sangat cepat. - Jadi kuncinya itu selalu cepat ya, lightning fast. - Nama adalah doa kan ya, ada yang bilang nama itu doa. Nah betul loh. Namanya feed kan, selling point paling besarnya cepat. - Iya. Dan mudah-mudahan sih. Ini kan kalau kita bilang ini perang tools ya, perang framework, library dan lain-lain. Tapi mereka selling improve kan. Kalau misalkan webpack sendiri, kalau misalkan islainya dibiarkan sendiri menjadi monopoli kan dia nggak bisa. Kalau gini dia pasti akan improve kan. Termasuk juga parcel. Parcel juga lumayan cepat gitu. Dan yang saya temukan adalah di 2021 ada state of JS, salah satu survei. - Parcel itu zero config ya? Parcel itu zero config. - Betul. Dia bisa ngedetek apa yang ada di folder kita dan di packaging-nya. Nah di 2021 ada survei state of JS yang untuk sebagian orang bilang ini sangat subjektif ke sirkelnya react katanya. Karena yang bikin juga dia banyak berkecimpung di react gitu kan. Dan dia menyebarkan ya ke sirkelnya dia yang adalah, maksudnya, maksudnya react gitu ya. Tapi walaupun demikian, lihat aja nih 2021 VT muncul langsung 98% retention. Retention ini apa? Retention ini adalah orang yang mau menggunakan lagi. Udah pernah menggunakan dan ingin menggunakan lagi. Jadi ini adalah happy customer. 98% orang yang menggunakan VIT mau menggunakan VIT lagi. Kalau gua buat plugin baru atau bikin teams baru, selama itu bukan sudah bawaan, ya maksudnya baru ya, gua bakal bikin VIT kok. - Engga terlalu jauh dibawahnya ada IS build. IS build udah dari 2020 sebenarnya. IS build ini juga lumayan cepat dan bedanya cuma 2% ya. Jadi lumayan ketat juga dengan VIT. WP tadi 78%. - Iya turun. - Turun. - Betul-betul. - Dari 95% turun ke 88% di tahun 2020. - Dapetnya kayak saham udah yang makin turun. Kayak saham zaman resesi. - Zaman resesi nanti 2023 ya katanya. - Mudah-mudahan jangan. - Dan yang menarik juga ada SWC. SWC ini yang membedakan dengan VIT dan IS build adalah dia dibangun, eh IS build juga kayaknya dibangun dengan Rush ya kalau nggak salah. SWC juga dibangun dengan Rush. Jadi ada tren yang menarik di mana orang-orang menulis tools tidak menggunakan JavaScript tapi digunakan untuk JavaScript. Snowpack masih ada yang puas kok 70%. - Masih ada loh Gulp. - Gulp tuh 28%. - Masih ada loh. - Brokerified masih ada 33%. Roam. Roam ini tools juga ya tapi belum tahu ini apaan. Tapi yang jelas VIT itu mendominasi begitu muncul 98% tapi kalau kita lihat trennya juga seperti itu ya. Baru muncul tinggi gitu. Kita lihat tahun depan atau 2 tahun lagi. Kalau intresnya kita lihat VIT juga paling atas, intresnya adalah orang yang pernah dengar dan ingin coba gitu intresnya. Kalau usage yang menggunakan, nah kalau yang menggunakan masih mengimpin adalah Wepec. Karena projek-projek yang sudah berjalan dari 2017, misalkan 2020. - Mendingan di volume karo semua. - Susah, susah. - Atau pakai framework-framework seperti Next.js dan lain-lain yang mereka sudah menggunakan Wepec kan. Kalau organisasi sendiri ya tentunya organisasi ini adalah total keseluruhan dikurang yang belum pernah mendengar. Jadi ini adalah popularitas ya. Yang paling popular adalah Wepec. - Ada TypeScript CLI, Wepec masih 90%. - Itu pendekatannya. - Parcel. - Banyak tau. - Kok Grunt tidak ada ya? Grunt bukan banjur ya? - Gulp sama Grunt kan mirip ya? - Grunt itu bukannya ini ya? - Automation ya? - Automation itu kayak Bauer.js ya? - Oh iya itu juga sih. - Tuh kan? - Gulp sama Grunt itu kayaknya se... - Gua masih sempet... iya Grunt itu automation. - Iya dia automator jadi kayak... ada itu satu lagi ya? - Dia kayak MPM script kan? - Yeoman. - Yeoman. - Itu generator kan? - Generator betul. - Kalau Grunt itu bukannya MPM script ya? Digantikan dengan MPM script ya? - Dia running tools gitu ya? - Iya itu dulu buat proses JavaScript sama CSS gitu kan ya? - Tapi butuh kompiler, butuh kompilernya. Jadi dia ngejalanin satu-satu. - Oh dia menjalanin sesuatu. - Iya. Dia hanya menjalanin satu persatu. - Oke, oke. Kita lanjut lagi ya. Satu lagi adalah tentang yang masih berhubungan dengan VIT. Jadi ketika VIT muncul, muncul satu tools lagi untuk testing yang namanya adalah VITES. - VITES. - Ini juga terkena cepat. - Oh belum pernah dengar itu. - Iya. Karena Jess cepat. Mohon maaf, agak lambat ya. Sama kayak webpack ya. Dan permasalahan terbesar dari Jess adalah dia menggunakan... Kan Jess ini kan kalau historinya adalah, sejarahnya adalah dia ditulunkan dari Jasmine kan. Jasmine yang ada di sini, yang adalah testing library untuk front-end waktu itu dipakai di angkular 1 awalnya. Jadi dia, sebenarnya Jasmine ini sering digunakan tanpa menggunakan OJS tadinya. Dia bisa jalan di browser. Tinggal CDN aja udah bisa gitu. Tinggal CDN udah bisa. Terus habis itu dikembangkan lagi sama si Jess akhirnya menjadi seperti sekarang. Sebelumnya kan ada Mocha, Ca yang terkenal kan. - Mocha, iya. Masih pakai boss, masih pakai Mocha. - Masih. Mocha masih oke. Masih real fun. Nah, Jess ini, dia karena dia menggunakan bubble dan juga menggunakan webpack, jadi ada beberapa library-library baru yang menggunakan IS modul itu kadang tidak kompatibel. - Wah itu susah itu. - Mungki patchingnya. - Eskapnya di konfliknya. - Nah, itu tidak terjadi di Vitesse. Jadi banyak orang yang mulai beralih ke Vitesse. Dan terbukti udah di atasnya Jess. Kalau testing library ini yang itu punya Ken C dot ya. Yang head-to-head itu ya Vitesse, Jess sama Ewa dan Jasmine. - Storybook buat kurang ya? - Storybook untuk testing yang jenis yang berbeda sama kayak Playwright sama Cypress kan. Playwright sama Cypress ini kan end-to-end testing kan. - End-to-end. Kalau storybook itu dia bisa menjalankan, dia visual. Sama dia bisa ngejalanin itunya Jess atau Vitesse juga. Jadi dia bisa jalan sebagai test runner. - Oh bisa ya? Baru tahu? - Iya. - Oh kiranya untuk visual doang enggak ya? - Yang in-house-nya dia. Maksudnya yang produk built-innya storybook emang visual testing. Terus kita bisa add-on, semacam add-on, plugin accessibility. Terus kita bisa juga semacam add-on untuk membaca dari Jess atau Vitesse. - Menarik sih itu. - Menarik. - Jadi maksudnya biar set-up testing-nya itu sekali jalan. Jadi storybook-an itu sebagai UI atau front-end development. - Iya, platform-nya untuk UI. - Menarik. - Iya. Dan kalau dilihat di usage-nya, ya memang masih kecil banget ya. Karena baru terbit kan. - Jess masih nomor satu. - Dan Jess masih yang mengguli, sudah menyalit dari tahun 2019 ya, menyalit Mocha. Karena Mocha tidak bisa berjalan sendiri, harus ditambahin dengan Chai biasanya. Kalau Jess sudah lengkap, lebih lengkap lah. Lebih lengkap ada MOC-nya, ada SPI tools-nya, macem-macem ada semua. Jadi tinggal sekali install, langsung. - Istanbul nggak ada lagi ya? - Istanbul itu untuk test coverage, masih ada. Jess juga pakai Istanbul di dalam internalnya. Tapi PR-nya adalah Jess ini cukup besar. Kalau npm install ya, package-nya itu lumayan besar. Walaupun... - Tapi kan hanya buat testing. Bukan buat front-end ya. - Iya. Berarti CI-nya aja begitu sudah lewat, sudah aman sebenarnya. Cuman pada saat kita npm install atau apa, atau kita baru install, baru nge-clone, nah itu lumayan lama karena dia install Jess juga di sana. - Makanya pakai podspace dong. - Oke. Sebelum kita ke Eka, kita mau... ada pertanyaan menarik dari Mas Lucky. Kenapa VT nggak jadi ATF untuk angular? - Nanti kita tanya, kita undang GDI angular. - GDI angular ya? Di Indonesia ada nggak sih? Nggak ada ya? - Masuknya web. - Masuknya adalah web kita bertiga doang. - Jesseline sudah pindah. - Jesseline sudah... - Nanti kita undang Jesseline lah sekiranya nanya. Sekiranya nanya aja sama Jesseline. - Tapi kan dia nggak mainin feed dia sekarang. Dia mainin Google Chrome Tools. Mungkin menanti pull request mungkin. Karena ini kan template-template komunitas kan, ada di GitHub kan. Jadi mungkin kalau ada yang pull request atau ada yang isu, taro isu dan ada yang pull request, lumayan tuh. - Lumayan ada taunya atau tentang feed sama angular di feedcon kemarin. Cuma kemaleman udah keburu tiga. - Kemaleman. - Nggak nonton. - Mas Lucky ini pengguna angular ya? Mantap, mantap. Berarti mainannya ini ya di apa? - Enterprise. - Enterprise. Baasanya asik. - Enterprise. Oke. Sekarang kita lanjut ke pembahasan tentang feedcon. Dari Eka, silahkan. Ngebahas yang mana dulu nih? - Ya sesuai. Bahas yang mana ya? Ya bahas feedcon-nya dulu aja. Jadi ini pas banget, minggu lalu. Abis live stream ini. Terus isu ngecek, loh ternyata lagi ada feedcon dan ini kalau buat aku salah satu online conference paling seru sih. - Kenapa? - Karena dari teknologinya feed juga emang lagi naik-naiknya kan, lagi high-high-nya. Terus ini tuh lumayan ekstrim. Nggak ekstrim sih. Maksudnya ini maraton 12 jam. 12 jam. Talk-nya menarik semua, bergisi semua lah. - Laging semua kata orang-orangnya. - Laging semua kata. Emang terus dari maintainer seluruh ekosistem yang berkaitan sama feed. Jadi bukan core feed-nya doang. Cuma ekosistem kan luas banget tuh. Ada framework, ada tooling yang kayak tadi yang kayak apa testing, documentation, terus storybook kayak misalnya visual tools kayak storybook, terus design system. Jadi itu seru banget dan nunjukin gimana bagian-bagian yang berbeda dari ekosistem itu saling berinteraksi dan gimana mereka bisa mengangkatin yang feed ini untuk produk mereka masing-masing. Ada panelnya juga. Cuma ya itu masalah, bukan masalah teknologi semua lah, masalahnya jam 12. Itu kan mulai sekitar jam 7 atau jam 8 malam di waktu Indonesia. Tengah malam ya mulai ngantuk kok dia tinggalin. Jadi mereka running 12 jam. Tapi tayang ulang. Jadi tayang ulang untuk penonton yang di time zone berbeda. Jadi siangnya tuh sebenarnya siangnya tuh jalan lagi. Nah masalah lainnya malam tidur, siang kerja ya kan. Jadi pas siang cuma colongan dengerin yang panel tentang framework sebentar, abis itu nggak kontrol. - Bisa sambil kerja pakai headset? Kayak dengerin radio gitu. - Nggak bisa kontrasi sayangnya. Eh gimana tadi Mas Rizal tanya apa? - Apa ya? Lupa ya. Oh ini, jadi walaupun kita tengah malam dan nggak bisa nonton, kita masih bisa menikmati video on demand-nya ya. Jadi bisa di-check di YouTube. - Iya, ada tayang ulang. Ada videonya. - Baru dua. Kalau yang full streamnya kayaknya ada, cuman nggak full stream beneran yang 12 jam itu nggak ada sih. - Nggak ada ya? Beda ya? - Nggak dipublish kayaknya deh. Maksudnya pas running sih emang nontonnya di YouTube kayaknya unlisted, jadi nggak ada di channelnya. Tapi kayaknya sih kalau di Twitternya fit, mereka janji ya pasti juga bakal dipublish per talk videonya, jadi lebih gampang. - Di-edit dulu ya, dipotong-potong. - Di-edit dikasih judul, dll. Jadi itu, kayaknya baru pernah lihat aja yang conference yang free online tentunya, yang skalanya se-massif ini, sebesar ini, dan se-luas ini dari macem-macem perspektif itu sampai ada hosting dan di-edit segala. Terus jadi kayaknya ini bakal kalau misalnya nanti videonya udah dipublish, bakal banyak kagumateri seru. Terus selain itu, salah satu highlight yang paling menarik buat aku itu ada pengumuman dari StackBlitz. Jadi StackBlitz itu kalau buat teman-teman yang belum pernah pake, produk mereka adalah coding IDE, ya standar lah StackBlitz, Codes & Box, mirip juga sama Skinless, kalau dari niche-nya atau pengelompokan produknya, bahkan sama kayak GitHub Dev, itu yang kita bisa edit kode di browser. Cuma yang menarik, yang menarik ini di Vidconv ini si StackBlitz meluncurkan produk mereka, itu namanya Codeflow. Nah itu dengan Codeflow itu kita bisa berkolaborasi di GitHub dari browser kita. Jadi sebetulnya Skinless mirip dengan GitHub.dev itu. Jadi kita bisa edit kode, terus kalau emang kita punya permisi ke repo itu, ya kita bisa pull request, kita bisa preview segala macem. Cuma apa bedanya dengan produk yang udah ada, produk sejenis yang udah ada, ternyata si Codeflow itu menggunakan dibalik layar, misalnya under the hood, dia menggunakan produknya StackBlitz juga, jadi in-house mereka bikin namanya Web Containers. Web Containers itu menarik banget karena mereka bikin si StackBlitz itu membuat sistem operasi, jadi OS, Operating System, berbasis Wasm, berbasis WebAssembly. Dan OS itu bisa dijalankan dari browser, jadi itu pendekatan yang menarik aja sih. Terus walaupun sebetulnya StackBlitz itu ya perusahaan komersil biasa, maksudnya bukan. Itu bukan web standar atau apapun, jadi itu produknya mereka. Tapi yang bikin menarik itu untuk mereka bisa bikin Web Containers, sistem operasi yang bisa ada node server segala macem jalan di browser, mereka itu sangat memanfaatkan Web API. Dan bahkan di blog postnya mereka, di top dan di blog post mereka, mereka cerita gimana mereka harus bekerja sama dengan erat dengan tim-tim yang mengerjakan web standar dan feature-feature web dari Chromium. Jadi emang mereka pertama kali launching di browser-browser berbasis Chromium karena itu yang paling, apa, feature-nya paling mendukung. Tapi mereka juga membuat beta yang bisa jalan di Firefox. Kan pakai engine yang berbeda, Spider Monkey. Nah, di situ, karena kan ada Chromium, ada Spider Monkey, dan bahkan ke depannya mungkin mereka akan menjajaki Safari juga. Nah, itu semua dipersatukan, ya maksudnya balik lagi ke web standar. Jadi mereka pun harus kerja atau explore balik ke web standar itu sendiri. Itu seru aja sih. Jadi, kalau misalnya tertarik untuk lihat detail teknisnya, bisa cek di talk mereka di Vidcon. Cuma itu buatku menarik karena pendekatan baru yang agak beda dengan selama ini misalnya GitHub dev atau code sandbox itu kan sebetulnya berjalan di server mereka, di proses di server mereka. Nah, kalau di sini itu pendekatannya kayak membuat semacam sandbox di browser kita sendiri. - Mana talk-nya, yang ini ya? Stack Glitz keynote ya? Benar nggak? - Iya, kayak Insta Development workflow. Ada videonya juga di posting sama Stack Glitz juga. - Bisa selesaikan masalah yang pasti saya bilang itu kalau Insta Jest kelamaan, itu udah jalan sendiri itu di browser. Jadi kalau mereka tuh pakai istilahnya \"Build for the web, on the web.\" Itu cara mereka menyebutnya. - Ini menarik sekali ya, karena Node.js adalah sebuah dari browser diambil gitu kan. Ini V8-nya diambil dan dijalankan di server. Server-nya diambil lagi supaya bisa jalan di browser ya. Jadi muter-muter saja ini ya, saling ngambil gitu ya. - Nah, semuanya yang paling bawah hekmas scriptnya, apalagi spesifikasinya. - Oke. Dan yang menarik yang kedua adalah ini mirip modelnya itu hampir seperti Docker ya. Jadi kalau misalkan ada kesalahan dll, kita nggak masalah, maksudnya nggak usah takut gitu ya. Nggak usah takut merusak environment, dia balik lagi ke state awal gitu ya. - Iya. - Iya, kalau udah bingung. - Jadi kalau error, refresh aja. - Refresh aja. - Jadi kayak spin ulang lagi aja. - Berarti bisa, jadi bisa jalan di browser user ya, gitu ya. Bahkan bukan lagi di HCD ya, tapi jalannya di browser. Menarik. - Menarik. - Tapi nggak semua API Node.js disupport kan? - Nah itu punya dia berbasis V8. Kayaknya ada limitation-nya, ada apa gitu yang nggak bisa ada tuh di bloknya mereka. Cuma kurang tahu detailnya apa. Terus sayangnya sih, maksudnya sayangnya encode mark ya. Ini kan proprietary product, kalau sekarang masih free karena beta. Nah mulai 2020 itu mungkin berbayar. Cuma berharap aja, ini kan baru satu player. Kalau misalnya ternyata ini bisa dilakukan, ke depannya ya sukar-sukur banyak yang bikin. Nanti lama-lama juga ada yang free. - Iya, web kontenernya sendiri nggak berbayar kan. Yang berbayar yang StackBlitz code flow-nya kan. - Code flow-nya kelihatannya. Kalau misalnya teman-teman tertarik mau bikin yang versi lebih terjangkau dari code flow, ya bisa pakai web kontenernya punya mereka, ya kan? - Dan itu free untuk, apa sih, justru mereka punya semacam SDK. Nah itu ada talk-nya juga, cuma udah nggak fokus, udah ngantuk atau gimana kayaknya. Jadi kalau code flow kan untuk yang automatic GitHub, itu emang orientasinya untuk enterprise ya. Kalau web kontenernya ini, mereka bikin SDK untuk edukasi, untuk demo kayak misalnya buat tools open source, atau mungkin kayak misalnya kita tuh, kita sebagai JDI sering presentasi kan, itu presentasi bikin code walkthrough. Apa yang terjadi kalau ini dieksekut, kayak bikin sandbox untuk misalnya review cara kerja code, itu bisa dengan web kontenernya. Dan ada talk-nya tentang itu, cuma karena nggak berhatiin lupa yang mana. - Wah menarik sekali. Kalau misalkan orang, apa, teman-teman yang sering bikin workshop pasti ini relat sekali ya. Jadi kita bisa kayak klon, udah sampai di stage berapa atau di level berapa, di materi keberapa. Misalkan ada yang ketinggalan, udah, tinggal klon yang baru, jalanin, oh sampai di sini terakhir, kita bisa lanjut materi berikutnya. Wah seru ya, semakin seru ya dunia web ya. - Nah, terus kalau di feedconf-nya sendiri nih, talk lainnya, apa ya, yang karena sebenarnya aku cuma berhatiin di awal, yang bagian-bagian awal, itu menarik juga sih. Ternyata kan selama ini bundler itu bagian dari teknologi atau tooling yang kerja diem-diem ya, ibaratnya. Kita sebagai web developer pun nggak sepenuhnya aware what it takes, kayak mereka apa aja dan... - Karena cuma set up once, udah, jalan aja terus ya, dia jalan otomatis. Karena kita cuma konfig sekali, ya rata-rata jarang banget kan ganti konfig feed atau ganti konfig webpack. Jarang kan kalau sudah project berjalan, sudah jalan otomatis. - Iya. - Hanya sesekali... - Kecuali kalau misalkan ada migrasi, misalkan ada migrasi. Dari JavaScript mesti ada TypeScript misalkan. - Atau kita butuh scripting atau apalah, customization ya. Nah, karena selama ini nggak terlalu mikir tentang itu, lumayan umis juga sih. Mereka tuh keputusan tentang desain, tentang arsitektur, tentang bagaimana mereka mecahkan suatu masalah itu seru sih. Kayak tadi misalnya contohnya Evan Yu tuh menjelaskan perjalanan dari paling pertama dia punya ide untuk bikin bundler yang memanfaatkan native IS modul. - Iya, IS modul. - Sampai akhirnya, sampai di tahap sekarang feed yang digunakan banyak banget macam-macam framework dan tooling. Lalu ada Anthony Fu. - Oke. - Keliatanya dia juga maintainernya feed ya. - Feed test. - Oh, feed test. Sama Youno CSS ya, kalau nggak salah. Pokoknya macam-macam tooling di ekosistem feed dan view. Nah, beliau tuh cuma lightning talk. Sebenarnya talk-nya tuh singkat banget, cuma 6 menit-an lah. Tapi cukup bisa menjelaskan sebetulnya feed itu apa dan cara kerjanya gimana. Jadi dia menjelaskan apa saja yang dibutuhkan dalam environment dev. Kalau dev apa sih yang kita butuhin? Kode kita kan, kode yang ditulis oleh developer kan sering banget berubahnya. Sementara isi node modul dependensi kita dalam sepanjang development kan hampir nggak berubah sama sekali. Jadi itu kan masuk dalam pertimbangan waktu mereka feed membuat bundler, membuat teknologi. Dan bahkan kalau apa? Ternyata kalau di dev server, mereka tuh nggak membundle kodenya. Jadi emang bundle-less disebutnya, langsung dijalankan. - Langsung jalanin modulnya. - Jadi itu tadi yang sempat dibahas sama Ivan tadi ya. Yang begitu berubah, cepet banget HMR-nya nggak sampai satu detik, langsung berubah. - Langsung kode yang... - Reload stand. Langsung lucu di browser. Jadi itu disebut sama mereka dengan on-demand. Jadi apa yang direplace ya apa yang dibutuhkan aja. Terus berbagai strategi, trade-off mereka. Terus gimana cara mencapai yang mereka mau itu. Itu seru sih. Ada link-nya juga. - Jadi si Antoni Fu ini adalah co-team member dari Feed, VU dan Nax.js. Dan dia yang bikin Vitesse, kreatornya. - Oh, Vitesse yang kita sebut tadi ya? - Iya, kita sebut tadi. - Gokil sih orangnya sih. Mantap sih. Ini tentang apa nih? Oh iya, ini dia. Oh ini yang tentang on-demand nih. Wih, 30 menit. - Dia cerita tentang strategi apa? Tentang pendekatan on-demand, tapi diterapkan untuk bundling. Terus trade-off-nya bagaimana? Jadi \"Only transpile the modules you need.\" - Ini mirip-mirip kayak konsepnya virtual dom-nya. Yang berubah hanya yang berubah saja. Jadi modul-modul yang lain tidak disentuh. Berarti kalau webpack, semuanya jadi fresh. - Masalahnya kalau dia HOC-nya kepanjangan, terlalu banyak, high order component sampai ke atas, yang berubah kecil, selalu trade-nya berubah. - Itu tergantung kitanya juga. - Kalau webpack, begitu dia berubah, dia... - Nge-bundling semua lagi. - Nge-bundling bagian itu, tapi di transpile lagi semua. - Di transpile lagi. - Kalau di-feed, malah kalau di-development, ya udah langsung. Cuma ternyata memang beda antara development sama production. Production itu mereka pakai roll-up dan es-build. Itu dulu sempat nggak paham sih aneh kok es-build sama roll-up bukannya sama, ternyata bukan sama. Bundlingnya tetap roll-up, si es-build itu untuk tree-shaking sama transpile. Roll-up sama feed bukannya satu hal yang sama ya? - Nggak, si feed itu pakai roll-up under the hood. Untuk production. Itu menarik sih seru. - Pantesan si es-build itu lebih memilih menggunakan feed daripada menggunakan snowpack. Es-build kan yang bikin roll-up juga kan? - Oh iya ya, Rich Harris. - Rich Harris yang bikin roll-up. - Oh jadi roll-up digunakan di bagian production-nya kalau mau bundling code untuk production-nya. - Masa ada di dokumentasinya? - Dokumentasinya ada kok. Jadi emang dia punya strategi kalau di-development kita butuh feedback loop yang cepat. Kita ngebahit kode, ya udah kita pengen bisa langsung lihat. Nah, tapi kalau di production, prioritasnya beda lagi. - Iya betul. Oh sengaja ya? Error ini sengaja ya? - Iya sengaja kayaknya. - Enggak, ini emang error. - Oh approve video ya. Playframe mungkin ya. - Terus dibundling. - Itu kalau di traditional approach kayak gitu. - Dia akan selalu rebundle ya untuk setiap kali kita request gitu ya. Setiap request, bukan setiap perubahan kode ya? - Kalau SSR mungkin. - Oh iya SSR, bener-bener. Oh ini udah ngomongin Nux ya. - Nux, iya karena Nux juga kayaknya ya tadi. - Nux itu buat temen-temen yang gak tahu itu adalah next.js-nya Vue. - Next-nya Vue. Itu gak helpful banget definisinya. - Aplikasi framework untuk Vue. - Iya meta framework. - Svelte, Svelte, dan SvelteKit. - Nah pas di announced tuh gue cuma lega satu aja, untung mereka gak ngasih nama Nux. - Nux, kenapa ya lu? - Nggak, kalau react kan, jadi kalau untuk framework react, meta frameworknya next.js, next. Kalau untuk framework Vue, meta frameworknya Nux. Nggak lucu kan kalau untuk Svelte dia bikin Nux, gak lucu. Jadi untungnya gak SvelteKit. - Jadi next Nux-Nix gitu ya. - Sebenernya awalnya kita meta framework itu kayak Ruby, Ruby on Rails gitu ya. - Iya emang based on. Dan bahkan fit ini bisa dijalani di server. Magic juga sih ini. - Iya ajaib sih. - Lila makan apa, Ivan Yui yang bisa bikin kaya gini-gini ya. Yang jelas dia gak makan nasi ya. - Bukan makan nasi. - Oh dia makan nasi. Oh iya dia orang ini ya. - Orang Yui. - Nasi ya dia ya. Oh iya makan nasi kali dia ya. Sama ya. - Ramen, ramen, ramen, atau instant noodle. - Ya banyak-banyak makan ramen lah coba. - Oke. Ada lagi? - Terus masih berhubungan sama Roll Up. Tadi kita bahas Roll Up nih. Ada Mas Siapa ini yang namanya susah? Lukas Tiger Atkinson. Nah, lio itu maintainernya Roll Up. Dan justru di apa? Nah itu udah hashing dilemma, blablabla. Disitu mereka announce launchingnya Roll Up versi 3. Ya intinya sih itu makin sinergis lah, makin nyambung sama cara kerja Fit dan dengan segala kebutuhannya ya. Maksudnya Fit kan juga gak stand alone in the vacuum, tapi semua framework dan tooling yang bergantung sama Fit. Nah Roll Up 3 juga menyesuaikan, dia juga selain ngejelasin tentang Roll Up 3-nya, juga itu menjelaskan tentang hashing dilemma. Nah ini juga menarik karena sebagai web developer yang sehari-hari lebih ke front-end, juga asli gak pernah mikirin ini. Gak pernah secara mendalam mikirin ini. Cuma ternyata itu hal yang cukup major untuk tooling seperti Roll Up. Jadi gimana caranya mereka ngecekkan semua kode atau semua file yang kita import dan kita gunakan, kadang kita ada circular import dan lain-lainnya. Mungkin kode di file A misalnya bergantung dengan value di file B. File B bergantung sama kode di file C dan seterusnya. Nah mereka kan under the hood harus menerapkan sistem hashing biar ngedetek kalau kode di file A berubah, file-file mana aja yang harus dibaca. Nah kalau kode itu kurang optimal, kalau hashingnya kurang optimal, itu menghasilkan isu performa. Jadi kalau big O notation-nya jadi besar banget. Kalau file kita cuma 3 ya oke lah. Kalau misalnya berubah 1, jadi harus ngebah 3-3 nya gak apa-apa. Tapi gimana kalau kita punya 100 file, gimana kalau kita punya 1000 atau sejuta file, termasuk dependencies external. Jadi dia ngejelasin, tapi itu menariknya tauknya gak teknikal yang terlalu sulit banget sih. Jadi dia pakai pseudocode. Oh oke, penjelasannya apa itu pseudocode ya? Tentang pendekatan umumnya aja, terus dia ngasih contoh dengan apa, pakai emoji ikan itu loh, ikan. Dan dia ngejelasin apa yang, gimana mereka ngecek apa aja yang harus berubah. Jadi itu tauknya menarik, sayangnya belum dipublish sih, tauk yang big O stand-alone-nya. Yang ini ya, oke. Nanti kalau itu di-baseskinnya nonton lagi. Nah tuh, teman-teman yang berkecimpung di tooling-t tooling open source kayak gini, dia mikirin gimana caranya aplikasi yang kita buat itu bisa performanya bagus. Kita tinggal pakai doang gitu. Jadi jangan lupa kalau pakai tools-tools ini, ya grateful lah. Ngucapin terima kasih buat mereka juga. Yang udah mikirin kita, sementara kita tidak mikirin mereka. Cuman pakai aja gratis, abis itu kadang-kadang komplain di isu ya. Ini kok lambat, ini kok. Kalau begitu masalah dikit, protes. Protes, bayar juga enggak, donasi juga enggak gitu kan. Ini dia. Tapi bukan berarti kalau donasi juga kita bisa protes kan. Oh iya. Donasi juga kan kita buat ini kan mengapresiasi apa yang mereka lakukan. Oke. Sama sekarang udah banyak banget bander. Maksudnya udah maju. Jadi mas Lucky pakai framework andalannya apa dong? Boleh di-share juga ya. Teman-teman yang ada yang menonton, boleh di-share. Framework atau library favoritnya apa? Pengen tahu juga. Oke. Sekarang kita mungkin bacain pertanyaan kali ya. Saya akan bacain pertanyaan dari yang ada di Slido. Kalau teman-teman yang nonton tapi tidak live, boleh nanya-nya ke Slido atau di bit.ly/ngobrolinweb. Kalau teman-teman yang nonton, bisa langsung nanya ke komentar aja, langsung kita jawab. Oke. Kita menjawab pertanyaan pertama nih. Bagaimana cara mengamankan atau encrypt kode JavaScript misal untuk project react? Bagaimana dengan dibundle menggunakan webpack kode JavaScript jadi aman? Ini pertanyaan dari Mas Anonymous. Mudah-mudahan Mas Anonymousnya nonton. Ada yang mau jawab? Gua bisa menjawab tetapi mungkin nggak semuanya, jadi nanti bisa ditambahin. Jadi kalau kode yang sudah ditransfer atau dibundle itu dengan webpack atau apapun itu, itu kadang ada bahasanya security to obscurity gitu ya. Artinya kodanya sudah di minify, diacak, dan susah dibaca. Tetapi itu bukan berarti satu-satunya, bukan berarti itu adalah aman. Jadi jangan pernah ada API key atau key atau secret di dalam bundler. Itu bukan begitu. - Bisa di cari juga. Bisa di reverse engineering. Pasti bisa di reverse engineering. Jadi jangan pernah ada. Jadi kalau untuk 100%, jangan tidak ada yang bisa mengamankan kode JavaScript. Itu satu. - Iya, karena dia jangan di client. - Betul. - Apapun yang ada di producer, aku bisa dibaca. - Jangan percaya gitu. Dan kalau butuh authentication, ya tetap pakai authentication dengan benar. - Harus ada server side. - Oauth, harus ada server side. Oauth ke JWT ke apapun itulah. JWT itu JSON Web Token. Jadi apapun itu tetap butuh server side authentication kalau memang datanya sensitif dan butuh diproses. Jadi tidak bisa full 100% di client. - Oke. Eka mau namain? - Sebenarnya belum ada pengalaman pribadi entripsi. Cuma kalau pertanyaannya bandel dengan webpack, bandeling ya kayak yang kita tadi barusan udah bahas, bandeling sih fungsi utamanya bukan itu. Jadi kalau tujuannya untuk entripsi, ya itu tadi harus mencari obscure, untuk obscure kode. Cuma mungkin kalau misalnya tujuan. Kan gimana pun kalau udah masuk browser, ya JavaScript-nya bisa dibaca. Cuma mungkin sudah di-minify dan kalau di-obscure lebih jauh lagi, ya apa, mungkin bukan aman atau entripsi tapi nggak human readable ya. Jadi semua kayak yang udah karakter-karakter 1, 2 karakter dan nggak ada spasinya dan lain-lain. Jadi kalau tujuannya cuma untuk menyembunyikan apa ya, kayak kode komponen aslinya, kode react-nya, mungkin masih bisa. Cuma ya tetap bisa di-kan, kalau di-minify atau aglify, itu maksudnya yang spasinya segala macam diilangin, kan bisa di-pretify, bisa di-reverse engineering dengan pretify. -Beautify. -Beautify. -Yaitu bisa dibalikin lagi intinya. -Pretify nggak ada, adanya pretier. -Oh iya. -Iya. -Beautify ya, oh iya. Cuma kalau buat ngumpetin kode react, misalnya kode react atau kode swelled aslinya, ya masih mungkin. -Jadi itu bukan Encrypt tapi ya, nggak tahu kan kalau Encrypt. Encrypt itu kan semacam JWT atau apa ya? Cuma kan nggak punya segala kode di Encrypt. -Mungkin maksudnya gini bahasanya, kalau Encrypt itu, kalau communication, kalau encryption, ya pasti gunakan HTTPS, SSL, KSTS, itu untuk komunikasi antar client dengan server, pakai SSL untuk encryption-nya. Kalau gilakan data payload itu kan sudah bisa mungkin jangan bisa dibaca oleh network admin, ya third party. -Ya, oke. Mau nambahin dikit, mungkin nggak tahu ya, ini relevan atau nggak. Maksudnya Encrypt ini di sini masih agak membingungkan. Encrypt di sini maksudnya apa, tapi kalau dulu sempat ada, misalkan kita bikin aplikasi web nih, tapi server-side ya, PSP misalkan. Nah, zaman dulu itu ada PSP, ada ZEN encoder namanya. -Ada ZEN dan IonCube. -Ya, gitu. Nah, jadi kode PHP-nya kita tanam di server orang misalkan, gitu kan. Dan ketika orang yang punya server itu mau ngambil file PHP-nya itu nggak bisa dibaca, ya memang di Encrypt. Tujuannya supaya misalkan kita diminta untuk bikin aplikasi, tapi bikin aplikasinya aja, tidak disertakan source code-nya. Nah, ini berbeda dengan JavaScript. -Tapi hosting-nya di tempat client. -Sama aja analoginya kayak gini, kita bikin aplikasi, file-nya executable, ya kita kasih kan, pakai diskette, pakai CD, gitu kan. Dan itu nggak bisa dibaca kan dalamnya. -Binary-nya nggak bisa diambil. -Ya, karena itu sudah executable. Kalau Java sudah jadi war file, sudah jadi war. -Ya. -Ketawa banget gua umurnya ya. -Jadi kalau di JavaScript sepertinya nggak bisa, belum bisa, belum ada. Jadi mungkin sekarang juga udah mulai nggak relevan karena nggak perlu install di servernya dia, tinggal taro di cloud, jadikan software as a service. -Sebagai service-nya ya. -Betul. Kalau misalkan dia mau pakai aplikasinya, ya silahkan, register, bayar, kemudian pakai. -Dapat key connect ke situ. -Iya, mungkin solusinya kesana sih, lebih kesana. Dan barusan banget ada yang nanya nih tentang bundler, walaupun mungkin tadi sudah kita jawab secara tidak langsung, tapi boleh kita jawab sekali lagi, kenapa modul bundler itu ada? Apa permasalahan yang ingin diselesaikan? Kenapa nggak pakai CDN aja? Selama pakai CDN sih, selama mungkin aku pakai CDN, silahkan pakai CDN sih. -Karena... -Apa kalau mau import? -Iya, karena semakin... -Apa umurnya modul bundler dengan CDS? -Iya, maksudnya seluruhnya, seluruh library-nya dipanggil dari CDN. -Iya. -Technical-nya bisa. -Iya, misalkan mau pakai RIA, kenapa harus pakai NPM listal, pakai CDN aja, gitu. -Oh ya, nggak apa-apa. -Silahkan kalau masih bisa, kan? -Iya, contohnya yang tadi, yang saya demo-kan tadi, mungkin bisa mundur. Itu plugin yang saya develop, plugin yang untuk di block editor itu di WordPress, itu yang saya bundler cuma kodonya saya. Sisanya dari CDN. Atau dari Core WordPress, ya. Bisa ya, dari Core WordPress, kan external bahasanya ya. External dari Core WordPress, dan nanti ujung-ujungnya Core WordPress itu di-serve oleh CDN. Which is pretty much the same ya, maksudnya konsepnya sama. Dan hanya kodonya saya aja yang saya bundler. Dan itu nanti di-serve via CDN. -Mungkin pertimbangannya beratikan kalau sudah minified, dan kita pasti langsung pakai itu ya. Ya udah, panggil dari CDN aja beratikan. -Iya. -Itu. Ya intinya sebenarnya selama masih bisa pakai CDN dan performanya bagus, silahkan pakai CDN. Nggak usah pakai yang aneh-aneh, gitu ya. -Gak bahaya juga ya, kalau kerjakan web personal, ya nggak apa-apa pakai web CDN. Tapi kalau sudah sampai kelasnya enterprise, kita ada rule-nya atau policy-nya nggak bisa melod dari... -External. -External, itu nggak boleh. Karena ada data yang perlu dijagal, juga ada sniffing atau segala macam, itu perlu ditutup semua. Jadi kita harus di-serve, bahkan font nggak boleh load dari Google Font. -Oh, harus dari internal? Harus serve sendiri? -Ya, font-nya itu kita download, nanti kita serve hosted sendiri. Jadi nggak boleh load dari CDN. Terus kalau CDN-nya down, kayak dulu kan pernah tuh kejadian cloud rate down, terus semuanya... -Iya, selesai. -Semuanya down. -Semuanya nggak enteng-enteng. -Iya. Ya, tapi kalau misalkan proyeknya aman-aman aja menggunakan CDN tadi, silahkan pakai sampai dibutuhkan. Dibutuhkannya kapan? Kalau misalkan katakanlah, sekarang kan aplikasi, kalau misalkan kita bikin website atau company profile, mungkin CDN oke. Tapi kalau misalkan kita bikin aplikasi web, itu dependensinya berapa banyak sih? Misalkan kita pakai React. Terus kita butuh React, apa lagi? React Query. Kita butuh GraphQL, client. Kita butuh apa lagi? Lodes. -GraphQL. -Mungkin, momen JS lah, gitu. Atau apa, gitu kan? Banyak kan? 4-5 dependensi kita load dengan CDN itu performanya nggak bagus. Makanya muncul si web bundler ini untuk menggabungkan. Karena dia akan dikost 5 kali. Plus bundler itu juga ada 3-shaking, kan? Jadi misalkan Lodes pun nggak paling kita gunakan. Lodes itu kan ada banyak isinya, ya. Ngapain, kita import semua, gitu. Jadi perlu 3-shaking, hanya butuh yang dibutuhkan saja. Sampai bahasa internationalization dan lain-lain. A, pusing itu. Kalau momen JS. Cuma mereka kan ada translation, ya. Jadi dari bahasa Azerbaijan sampai bahasa si Bapu yang gitu. A sampai Z, kalau nggak 3-shaking bisa-bisa ke-include semua. Bengkak, ya. Bengkak. Apa, kalau misalkan loading, jQuery. JQuery-nya padahal yang dipakai cuma untuk selektornya doang, gitu kan. Dan lain-lain. Jadi CDN bisa digunakan kalau masih sederhana. Satu atau dua, oke. Tapi kalau udah 3 sampai 5, apalagi 10, terus ada hubungannya dengan dependency. Jadi satu library tergantung ke library yang lain. Nah, itu susah tuh CDN-nya, ya kan? Nah, kalau CDN nggak ada logic, logicnya kita harus enroll. Mungkin kita harus tecek ada library tersebut. Satu lagi, dependency juga bisa bahaya, kan. Kalau misalnya ada dependency yang nggak keload, misalnya masalah network. Iya, betul. Kalau misalnya kita ada 10 request itu karena butuh dependency, 10 request dari CDN. Tapi ada satu yang nggak keload karena masalah network. Ya, jadi api rasinya broken. Iya, jadi kalau misalkan kita kayak npm install react gitu kan, dia udah install react-dom. Tapi kalau misalkan CDN-nya kita pakai react doang, react-dom-nya nggak ada, ya nggak jalan, kan. Jadi itulah yang apa, yang permasalahan yang ingin diselesaikan. Dan kebetulan sekali saya udah pernah bahas sebenarnya di video ya, di salah satu conference ya, conference online ya, WWID. Jadi saya bahas tentang itu yang tadi tentang model bundler. Apa sih model bundler itu dan kenapa diperlukan gitu. Karena ya kalau dulu ya, karena nggak ada export-import yang utama. Loh, iklan, niaga-hostar. Tolong, niaga-hostar, tolong sponsor kita ya. Kita udah nggak punya. Kita bisa skip ads. Ini saya bahas di sini. Kebanyakan yang saya bahas adalah yang era sebelum si Fit ini. Jadi belum ada export-import, belum ada IS modul. Jadi hanya karena dia nggak... Ini talkshare ini yang saya ingat, Pak Stiza. Oh iya, ini WWID, bukan JSConf. Eh, bukan JSID. JS Asia. Yes. Oke. Gimana, kita, kalau pertanyaan-pertanyaan lain ini, kita bisa bikin jadi satu topik sendiri ya. Kalau ini ada tema, terima kasih sarannya. Kita sangat apresiasi. Dan ini kita butuh banget. Karena kita butuh banyak topik nantinya. Terus teknologi ads juga kita akan bahas nanti ya, kapan-kapan. Belain waktu. Ads ini maksudnya? Microsoft Ads. Enggak lah. Ads function. Soalnya pertanyaannya ini muncul setelah kita bahas tentang ads function. Oke, oke, got it. Terus, ini PWA Flutter juga kita akan bahas nanti. Ini juga kebetulan ada dua ya. Kita juga akan mendatangkan ahlinya, mudah-mudahan ya. Doakan saja. Jadi, untuk malam ini, ada lagi yang mau ditambahkan? Dari Ivan atau Eka? Enggak dulu. Enggak, ya. Cukup ya, kita sudah satu jam 19 menit. Bahasanya menarik, bahasa hari ini. Seru, seru. Terima kasih banyak. Terima kasih banyak buat semua. Terima kasih banyak juga buat teman-teman yang sudah komentar dan sudah hadir. Kita ketemu lagi minggu depan. Minggu depan. Kalau ada yang mau follow-follow, bisa follow saya di twitter.com/rizafahmi22 Kalau Ivan, kemana? ifancris.com Karena nama... Gue pernah punya twitter dulu, tapi kena ban. Kok bisa di ban? Politik ya? Enggak. Dulu pakai twitter untuk cari duit, jadi pakai bot gitu. Oh, pakai bot. Kalau Eka, ada di sini ya? Eka FYI. Oke. Kalau gitu, terima kasih banyak. Sampai ketemu lagi minggu depan. Kita pamit. Bye bye. Bye bye. Thank you semua. Selamat malam."
+}

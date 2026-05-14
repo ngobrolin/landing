@@ -1,0 +1,4463 @@
+{
+  "videoId": "LaoReWcsyao",
+  "language": "id",
+  "generatedAt": "2026-05-13T07:09:59.516Z",
+  "segments": [
+    {
+      "start": 0,
+      "end": 12,
+      "text": "(musik)"
+    },
+    {
+      "start": 12,
+      "end": 19,
+      "text": "Halo, halo, halo. Selamat malam."
+    },
+    {
+      "start": 19,
+      "end": 21,
+      "text": "Selamat malam."
+    },
+    {
+      "start": 21,
+      "end": 23,
+      "text": "Gimana kabarnya?"
+    },
+    {
+      "start": 23,
+      "end": 25,
+      "text": "Baik, baik."
+    },
+    {
+      "start": 25,
+      "end": 27,
+      "text": "Hari selasa biasanya kita?"
+    },
+    {
+      "start": 28,
+      "end": 30,
+      "text": "Kita bertiga."
+    },
+    {
+      "start": 30,
+      "end": 33,
+      "text": "Waktunya ngobrolin web."
+    },
+    {
+      "start": 33,
+      "end": 37,
+      "text": "Kita ketemu lagi untuk sekarang berdua."
+    },
+    {
+      "start": 37,
+      "end": 40,
+      "text": "Mudah-mudahan nanti yang satunya nyesul."
+    },
+    {
+      "start": 40,
+      "end": 42,
+      "text": "Yang paling cakep di antara kita bertiga."
+    },
+    {
+      "start": 42,
+      "end": 45,
+      "text": "Gimana kabarnya teman-teman semua?"
+    },
+    {
+      "start": 45,
+      "end": 49,
+      "text": "Wah ini udah ada beberapa orang disini ya yang hadir ya."
+    },
+    {
+      "start": 49,
+      "end": 51,
+      "text": "Boleh ya komen-komen kalau yang hadir ya."
+    },
+    {
+      "start": 52,
+      "end": 60,
+      "text": "Ada yang dari, ini dari mana kamu datang? Ini bukan orang Indonesia sepertinya ya."
+    },
+    {
+      "start": 60,
+      "end": 62,
+      "text": "Pak Mako."
+    },
+    {
+      "start": 62,
+      "end": 64,
+      "text": "Kita dari Indonesia."
+    },
+    {
+      "start": 64,
+      "end": 66,
+      "text": "Ya."
+    },
+    {
+      "start": 66,
+      "end": 68,
+      "text": "Kita menggunakan bahasa Indonesia."
+    },
+    {
+      "start": 68,
+      "end": 70,
+      "text": "Selamat malam Anton."
+    },
+    {
+      "start": 70,
+      "end": 72,
+      "text": "Selamat malam."
+    },
+    {
+      "start": 72,
+      "end": 74,
+      "text": "Gimana kabarnya?"
+    },
+    {
+      "start": 74,
+      "end": 76,
+      "text": "Dan lagi ngulik teknologi web apa nih?"
+    },
+    {
+      "start": 76,
+      "end": 78,
+      "text": "Boleh share-share juga ya teman-teman semua."
+    },
+    {
+      "start": 79,
+      "end": 85,
+      "text": "Yang lagi belajar, yang lagi ngerjain tugas, atau yang lagi ngerjain tugas di kantor gitu kan."
+    },
+    {
+      "start": 85,
+      "end": 87,
+      "text": "Lagi pakai teknologi apa."
+    },
+    {
+      "start": 87,
+      "end": 89,
+      "text": "Ada, ada yang lagi lembur."
+    },
+    {
+      "start": 89,
+      "end": 91,
+      "text": "Ada yang lagi lembur."
+    },
+    {
+      "start": 91,
+      "end": 97,
+      "text": "Ada yang lagi tertarik mau, apa ya, mau eksplor teknologi tertentu, boleh share-share juga."
+    },
+    {
+      "start": 97,
+      "end": 101,
+      "text": "Siapa tahu nanti bisa jadi topik sendiri ya."
+    },
+    {
+      "start": 101,
+      "end": 108,
+      "text": "Oke, kembali lagi seperti biasa ada Ivan, ada saya Riza, dan juga nanti Eka akan nyesul."
+    },
+    {
+      "start": 109,
+      "end": 114,
+      "text": "Kita malam ini akan ngobrolin tentang code review."
+    },
+    {
+      "start": 114,
+      "end": 121,
+      "text": "Nah, disini siapa yang di kantornya belum melakukan code review."
+    },
+    {
+      "start": 121,
+      "end": 123,
+      "text": "Tunjuk tangan, tunjuk tangan."
+    },
+    {
+      "start": 123,
+      "end": 125,
+      "text": "Oh Eka belum ya."
+    },
+    {
+      "start": 125,
+      "end": 127,
+      "text": "Itu Eka."
+    },
+    {
+      "start": 127,
+      "end": 129,
+      "text": "Kata-kata belum ya."
+    },
+    {
+      "start": 129,
+      "end": 131,
+      "text": "Munculnya pas ya."
+    },
+    {
+      "start": 131,
+      "end": 133,
+      "text": "Munculnya pas."
+    },
+    {
+      "start": 133,
+      "end": 137,
+      "text": "Nah ini seru-seru ya teman-teman disini pada eksplor Redwood."
+    },
+    {
+      "start": 138,
+      "end": 139,
+      "text": "Wah Redwood."
+    },
+    {
+      "start": 139,
+      "end": 142,
+      "text": "Lagi asik, kenapa ada yang menarik ya dari Redwood ya."
+    },
+    {
+      "start": 142,
+      "end": 144,
+      "text": "Asik ya."
+    },
+    {
+      "start": 144,
+      "end": 146,
+      "text": "Mungkin salah satu framework favorit personal."
+    },
+    {
+      "start": 146,
+      "end": 148,
+      "text": "Asik."
+    },
+    {
+      "start": 148,
+      "end": 153,
+      "text": "Kapan-kapan kita bikin edisi favorit personal."
+    },
+    {
+      "start": 153,
+      "end": 157,
+      "text": "Edisi favorit personal, oh boleh tuh menarik-menarik."
+    },
+    {
+      "start": 157,
+      "end": 159,
+      "text": "Cetet dulu."
+    },
+    {
+      "start": 159,
+      "end": 165,
+      "text": "Jadi kalau kisih-kisihnya Redwood itu metaframework, metaframework react."
+    },
+    {
+      "start": 166,
+      "end": 172,
+      "text": "Mereka itu ambil perspektif yang kalau menurut gue kayak agak kurang konvensional."
+    },
+    {
+      "start": 172,
+      "end": 178,
+      "text": "Jadi biasanya kan metaframework ya terutama yang baru-baru ya."
+    },
+    {
+      "start": 178,
+      "end": 182,
+      "text": "Kan sudut pandangnya wah ini apa kebebasannya banyak lah."
+    },
+    {
+      "start": 182,
+      "end": 186,
+      "text": "Pokoknya versatile, gampang di modi, bla-bla-bla."
+    },
+    {
+      "start": 186,
+      "end": 188,
+      "text": "Ini opinionated ya."
+    },
+    {
+      "start": 188,
+      "end": 193,
+      "text": "Sangat opinionated dan kalau di bahasa Inggris kan ada istilah itu tuh."
+    },
+    {
+      "start": 194,
+      "end": 196,
+      "text": "Everything but the kitchen sink."
+    },
+    {
+      "start": 196,
+      "end": 204,
+      "text": "Jadi kayak semua dikasih sampai seisi dapur, sampai wastafel bak cuci, bak cuci piring aja dimasukin."
+    },
+    {
+      "start": 204,
+      "end": 210,
+      "text": "Jadi kayak beneran apa aja ada dan semua udah di set up buat kita."
+    },
+    {
+      "start": 210,
+      "end": 212,
+      "text": "Termasuk code generator."
+    },
+    {
+      "start": 212,
+      "end": 216,
+      "text": "Jadi kita kayak mau bikin komponen kalau di Redwood itu istilahnya cell."
+    },
+    {
+      "start": 216,
+      "end": 218,
+      "text": "Udah ada generatornya."
+    },
+    {
+      "start": 218,
+      "end": 220,
+      "text": "Banyak magicnya ya."
+    },
+    {
+      "start": 221,
+      "end": 226,
+      "text": "Magicnya banyak banget dan ya emang belum tentu cocok buat semua proyek."
+    },
+    {
+      "start": 226,
+      "end": 229,
+      "text": "Dan mereka itu fokusnya buat start up."
+    },
+    {
+      "start": 229,
+      "end": 234,
+      "text": "Jadi mereka tuh unik karena beneran kayak nantuin satu niche yang spesifik banget."
+    },
+    {
+      "start": 234,
+      "end": 240,
+      "text": "Jadi apa audiensnya, penggunanya adalah developer, start up kecil."
+    },
+    {
+      "start": 240,
+      "end": 243,
+      "text": "Biasanya start up kalau baru mulai kan kecil ya."
+    },
+    {
+      "start": 243,
+      "end": 247,
+      "text": "Apa karyawannya belum banyak, biasanya full stack."
+    },
+    {
+      "start": 248,
+      "end": 252,
+      "text": "Mungkin pengetahuan nya ya enggak, enggak canggih-canggih amat."
+    },
+    {
+      "start": 252,
+      "end": 256,
+      "text": "Jadi kayak database segala macem udah dikasih ORM, Prisma."
+    },
+    {
+      "start": 256,
+      "end": 259,
+      "text": "Terus punya authentication ada, database ada."
+    },
+    {
+      "start": 259,
+      "end": 262,
+      "text": "Sampai admin dashboard untuk crude ada."
+    },
+    {
+      "start": 262,
+      "end": 264,
+      "text": "Dikasih semua beneran."
+    },
+    {
+      "start": 264,
+      "end": 269,
+      "text": "Oh ini karena backgroundnya ya si Redwood itu kan dibikin sama..."
+    },
+    {
+      "start": 269,
+      "end": 271,
+      "text": "Yang bikin GitHub."
+    },
+    {
+      "start": 271,
+      "end": 273,
+      "text": "Ke foundernya GitHub."
+    },
+    {
+      "start": 273,
+      "end": 275,
+      "text": "Terus abis itu dia bikin dan..."
+    },
+    {
+      "start": 275,
+      "end": 277,
+      "text": "Terus random buat bikin tombol."
+    },
+    {
+      "start": 278,
+      "end": 279,
+      "text": "Itu agen gak nyambung sih."
+    },
+    {
+      "start": 279,
+      "end": 281,
+      "text": "T-O-M-L."
+    },
+    {
+      "start": 281,
+      "end": 283,
+      "text": "Kayak Yamel kan."
+    },
+    {
+      "start": 283,
+      "end": 285,
+      "text": "Namanya dia Tom."
+    },
+    {
+      "start": 285,
+      "end": 287,
+      "text": "Oh gitu."
+    },
+    {
+      "start": 287,
+      "end": 293,
+      "text": "Cuma experience pake Redwood itu mereka pilih niche yang sangat spesifik."
+    },
+    {
+      "start": 293,
+      "end": 298,
+      "text": "Terus mereka pake pendekatan yang sangat berani lah."
+    },
+    {
+      "start": 298,
+      "end": 300,
+      "text": "Mereka bikin keputusan pendekatan yang kayak gitu."
+    },
+    {
+      "start": 300,
+      "end": 306,
+      "text": "Dan kalau emang kebetulan project kita sesuai itu experience nya enak sih."
+    },
+    {
+      "start": 307,
+      "end": 308,
+      "text": "Itu adalah..."
+    },
+    {
+      "start": 308,
+      "end": 311,
+      "text": "Dikapel? Gampang gak?"
+    },
+    {
+      "start": 311,
+      "end": 313,
+      "text": "Susah."
+    },
+    {
+      "start": 313,
+      "end": 316,
+      "text": "Ya bisa teknik lu bisa."
+    },
+    {
+      "start": 316,
+      "end": 318,
+      "text": "Cuma susah ya jangan lah."
+    },
+    {
+      "start": 318,
+      "end": 321,
+      "text": "Dia berangkat dari GitHub kan."
+    },
+    {
+      "start": 321,
+      "end": 324,
+      "text": "GitHub kan sangat Rails banget kan Ruby on Rails kan."
+    },
+    {
+      "start": 324,
+      "end": 327,
+      "text": "Jadi memang framework nya itu ala-ala Ruby on Rails."
+    },
+    {
+      "start": 327,
+      "end": 329,
+      "text": "Jadi banyak magic, lengkap."
+    },
+    {
+      "start": 329,
+      "end": 331,
+      "text": "Terus juga salah satu framework."
+    },
+    {
+      "start": 331,
+      "end": 334,
+      "text": "Oh iya sih kayak Rails tapi untuk ekosistem JS."
+    },
+    {
+      "start": 335,
+      "end": 337,
+      "text": "Oh gak ya backend juga ya?"
+    },
+    {
+      "start": 337,
+      "end": 339,
+      "text": "Full stack."
+    },
+    {
+      "start": 339,
+      "end": 342,
+      "text": "Dan sampai storybook nya aja di settingin."
+    },
+    {
+      "start": 342,
+      "end": 345,
+      "text": "Oh udah testing di settingin."
+    },
+    {
+      "start": 345,
+      "end": 347,
+      "text": "Siap-siap."
+    },
+    {
+      "start": 347,
+      "end": 349,
+      "text": "Harus kita bahas ya."
+    },
+    {
+      "start": 349,
+      "end": 351,
+      "text": "Selain itu juga ada Solid Start."
+    },
+    {
+      "start": 351,
+      "end": 353,
+      "text": "Wah Solid Start."
+    },
+    {
+      "start": 353,
+      "end": 355,
+      "text": "Belum coba."
+    },
+    {
+      "start": 355,
+      "end": 360,
+      "text": "Nah ini siapa nih panggilannya Triadmoko atau Denny atau Fatros?"
+    },
+    {
+      "start": 360,
+      "end": 362,
+      "text": "Belum."
+    },
+    {
+      "start": 363,
+      "end": 365,
+      "text": "Soal krab gitu."
+    },
+    {
+      "start": 365,
+      "end": 369,
+      "text": "Ini jawaban belum untuk code review."
+    },
+    {
+      "start": 369,
+      "end": 374,
+      "text": "Berarti Eka belum melakukan code review."
+    },
+    {
+      "start": 374,
+      "end": 376,
+      "text": "Belum pake."
+    },
+    {
+      "start": 376,
+      "end": 378,
+      "text": "Yang udah berarti Ivan doang ya."
+    },
+    {
+      "start": 378,
+      "end": 380,
+      "text": "Kalau saya gak kode review."
+    },
+    {
+      "start": 380,
+      "end": 382,
+      "text": "Gimana ini?"
+    },
+    {
+      "start": 382,
+      "end": 384,
+      "text": "Ada, ada."
+    },
+    {
+      "start": 384,
+      "end": 390,
+      "text": "Tapi kan saya gak terjun langsung ke tim development kan."
+    },
+    {
+      "start": 390,
+      "end": 392,
+      "text": "Jadi review nya bukan kode."
+    },
+    {
+      "start": 393,
+      "end": 394,
+      "text": "Boom."
+    },
+    {
+      "start": 394,
+      "end": 397,
+      "text": "Iya."
+    },
+    {
+      "start": 397,
+      "end": 401,
+      "text": "Dan malam hari ini kita akan bahas kenapa kode review itu penting."
+    },
+    {
+      "start": 401,
+      "end": 404,
+      "text": "Apa aja opportunity di sana."
+    },
+    {
+      "start": 404,
+      "end": 406,
+      "text": "Kalau kita mendapat kode review."
+    },
+    {
+      "start": 406,
+      "end": 408,
+      "text": "Kan pasti kalau misalkan kita terapin kode review."
+    },
+    {
+      "start": 408,
+      "end": 415,
+      "text": "Arti kan harus menambah main power kan setidaknya kan."
+    },
+    {
+      "start": 415,
+      "end": 417,
+      "text": "Atau memperlambat pekerjaan kan."
+    },
+    {
+      "start": 417,
+      "end": 419,
+      "text": "Gak bisa dipungkiri kan."
+    },
+    {
+      "start": 420,
+      "end": 427,
+      "text": "Tapi di sisi lain kualitas dari produk atau dari kode kita pasti akan meningkat jauh."
+    },
+    {
+      "start": 427,
+      "end": 432,
+      "text": "Karena biasanya kita tidak bisa melihat kesalahan diri kita sendiri."
+    },
+    {
+      "start": 432,
+      "end": 435,
+      "text": "Gitu yang sering terjadi."
+    },
+    {
+      "start": 435,
+      "end": 442,
+      "text": "Bahkan kalau kita pair programming itu kadang kita gak bisa lihat ada typo."
+    },
+    {
+      "start": 442,
+      "end": 446,
+      "text": "Kalau sekarang udah ada, udah lengkap ya udah ada ISD dan lain."
+    },
+    {
+      "start": 446,
+      "end": 448,
+      "text": "Tapi kalau misalkan ada kesalahan logic misalkan."
+    },
+    {
+      "start": 449,
+      "end": 451,
+      "text": "Itu kadang-kadang kita bisa tidak terlihat."
+    },
+    {
+      "start": 451,
+      "end": 454,
+      "text": "Tapi teman kita di samping dia bisa langsung tahu."
+    },
+    {
+      "start": 454,
+      "end": 463,
+      "text": "Dan kira-kira gimana sih cara kode review yang supaya tidak menyakiti ya."
+    },
+    {
+      "start": 463,
+      "end": 465,
+      "text": "Tidak baperan."
+    },
+    {
+      "start": 465,
+      "end": 467,
+      "text": "Yang sehat."
+    },
+    {
+      "start": 467,
+      "end": 469,
+      "text": "Yang sehat."
+    },
+    {
+      "start": 469,
+      "end": 471,
+      "text": "Dan efektif ya gak sih."
+    },
+    {
+      "start": 471,
+      "end": 475,
+      "text": "Biar gak muter-muter terus itu gimana sih selama ini penasaran."
+    },
+    {
+      "start": 475,
+      "end": 477,
+      "text": "Betul."
+    },
+    {
+      "start": 478,
+      "end": 481,
+      "text": "Pertama yang akan kita bahas adalah tentang apa itu code review."
+    },
+    {
+      "start": 481,
+      "end": 483,
+      "text": "Ya."
+    },
+    {
+      "start": 483,
+      "end": 486,
+      "text": "Jadi apa itu dan kenapa gitu ya."
+    },
+    {
+      "start": 486,
+      "end": 492,
+      "text": "Jadi kalau disini di Google."
+    },
+    {
+      "start": 492,
+      "end": 494,
+      "text": "Google best practice ya."
+    },
+    {
+      "start": 494,
+      "end": 499,
+      "text": "Engineering practice nya Google itu tujuan utama dari code review adalah."
+    },
+    {
+      "start": 499,
+      "end": 503,
+      "text": "Supaya memastikan kode kita sehat."
+    },
+    {
+      "start": 503,
+      "end": 505,
+      "text": "Overall."
+    },
+    {
+      "start": 506,
+      "end": 508,
+      "text": "Check up."
+    },
+    {
+      "start": 508,
+      "end": 510,
+      "text": "Ada check and recheck ya."
+    },
+    {
+      "start": 510,
+      "end": 514,
+      "text": "Tapi yang pasti developer harus ngerjain ya."
+    },
+    {
+      "start": 514,
+      "end": 517,
+      "text": "Kalau gak dikerjain apa yang mau di review gitu kan."
+    },
+    {
+      "start": 517,
+      "end": 520,
+      "text": "Maksudnya kalau misalkan ada error ada bugs ada kesalahan."
+    },
+    {
+      "start": 520,
+      "end": 523,
+      "text": "Terus tiba-tiba di review nih tolong nih perbaiki ini."
+    },
+    {
+      "start": 523,
+      "end": 525,
+      "text": "Ya kita harus perbaiki kan."
+    },
+    {
+      "start": 525,
+      "end": 529,
+      "text": "Terus kalau kita gak improve dan tidak submit ya."
+    },
+    {
+      "start": 529,
+      "end": 532,
+      "text": "Tercuma juga ada proses code review kan."
+    },
+    {
+      "start": 532,
+      "end": 534,
+      "text": "Dan begitu juga sebaliknya."
+    },
+    {
+      "start": 535,
+      "end": 536,
+      "text": "Adalah timbal balik ya."
+    },
+    {
+      "start": 536,
+      "end": 541,
+      "text": "Kedua belah pihak itu dua-duanya berperan serta."
+    },
+    {
+      "start": 541,
+      "end": 546,
+      "text": "Untuk melancarkan pekerjaan bukan menghambat."
+    },
+    {
+      "start": 546,
+      "end": 550,
+      "text": "Ini kan ada main kucing-kucingan kan kalau misalkan bukan code review ya."
+    },
+    {
+      "start": 550,
+      "end": 553,
+      "text": "Tester sama developer gitu kan."
+    },
+    {
+      "start": 553,
+      "end": 555,
+      "text": "QA."
+    },
+    {
+      "start": 555,
+      "end": 559,
+      "text": "Kadang-kadang diumpetin sembunyiin terus tiba-tiba testernya tahu."
+    },
+    {
+      "start": 559,
+      "end": 561,
+      "text": "Ini hampir sama sih."
+    },
+    {
+      "start": 562,
+      "end": 565,
+      "text": "Si developer ngerjain begitu udah di review."
+    },
+    {
+      "start": 565,
+      "end": 570,
+      "text": "Yang reviewnya juga harus bukan tidak nge-judge sih orangnya."
+    },
+    {
+      "start": 570,
+      "end": 573,
+      "text": "Ini jelek banget sih kode lu gitu."
+    },
+    {
+      "start": 573,
+      "end": 575,
+      "text": "Sentimen."
+    },
+    {
+      "start": 575,
+      "end": 578,
+      "text": "Waktu kuliah gak belajar coding ya misalkan gitu kan."
+    },
+    {
+      "start": 578,
+      "end": 581,
+      "text": "Itu kan negatif kan."
+    },
+    {
+      "start": 581,
+      "end": 583,
+      "text": "Negatif sekali gitu."
+    },
+    {
+      "start": 583,
+      "end": 585,
+      "text": "Itu menyerang orang kan."
+    },
+    {
+      "start": 585,
+      "end": 587,
+      "text": "Itu gak boleh."
+    },
+    {
+      "start": 588,
+      "end": 592,
+      "text": "Jadi memberi feedback dan menerima feedback dua-duanya sama pentingnya gitu."
+    },
+    {
+      "start": 592,
+      "end": 597,
+      "text": "Bagaimana cara kita memberi feedback yang baik dan bagaimana cara kita menerima feedback."
+    },
+    {
+      "start": 597,
+      "end": 604,
+      "text": "Ya kalau kita baca feedback yang tidak menyerang personal ya bisa aja kan kita tetap baper kan."
+    },
+    {
+      "start": 604,
+      "end": 609,
+      "text": "Tapi kalau kita melihatnya sebagai ini sesuatu yang bisa mengimprove diri kita gitu."
+    },
+    {
+      "start": 609,
+      "end": 613,
+      "text": "Itu juga sesuatu yang harus kita lakukan."
+    },
+    {
+      "start": 615,
+      "end": 619,
+      "text": "Nah kadang ada trikinya juga ya kalau melakukan code review itu."
+    },
+    {
+      "start": 619,
+      "end": 621,
+      "text": "Kita..."
+    },
+    {
+      "start": 621,
+      "end": 626,
+      "text": "Kalau ini bukan kasus saya maksudnya gini."
+    },
+    {
+      "start": 626,
+      "end": 631,
+      "text": "Kita biasanya yang penduduk Asia gitu kan."
+    },
+    {
+      "start": 631,
+      "end": 634,
+      "text": "Kalau misalnya beda level itu sungkanan orangnya."
+    },
+    {
+      "start": 634,
+      "end": 636,
+      "text": "Oh iya."
+    },
+    {
+      "start": 636,
+      "end": 638,
+      "text": "Bener, bener, bener."
+    },
+    {
+      "start": 639,
+      "end": 645,
+      "text": "Jadi kalau misalnya kita nge-review code orang yang lebih senior apalagi owner apalagi orang sakti."
+    },
+    {
+      "start": 645,
+      "end": 649,
+      "text": "Misalnya anggap aja lah FK tiba-tiba nge-review codenya."
+    },
+    {
+      "start": 649,
+      "end": 653,
+      "text": "Siapa yang bikin itu tadi."
+    },
+    {
+      "start": 653,
+      "end": 655,
+      "text": "Yang bikin redwood tadi misalnya."
+    },
+    {
+      "start": 655,
+      "end": 659,
+      "text": "Dia submit PR tiba-tiba salah nih gitu kan."
+    },
+    {
+      "start": 659,
+      "end": 661,
+      "text": "Pasti sungkan gitu ya."
+    },
+    {
+      "start": 661,
+      "end": 663,
+      "text": "Lgtm aja deh lgtm."
+    },
+    {
+      "start": 666,
+      "end": 671,
+      "text": "Itu sindrom yang pertama kali saya dapet kan waktu dulu awal bekerja di dunia proses yang waktu itu."
+    },
+    {
+      "start": 671,
+      "end": 673,
+      "text": "Aduh sungkan gitu."
+    },
+    {
+      "start": 673,
+      "end": 675,
+      "text": "Tapi ternyata enggak."
+    },
+    {
+      "start": 675,
+      "end": 679,
+      "text": "Meskipun sesenior apapun seseorang itu."
+    },
+    {
+      "start": 679,
+      "end": 684,
+      "text": "Pasti dia akan appreciate kalau misalnya di..."
+    },
+    {
+      "start": 684,
+      "end": 689,
+      "text": "Code dia di review dan ditemukan sesuatu yang bisa diimprove."
+    },
+    {
+      "start": 689,
+      "end": 691,
+      "text": "Pasti dia appreciate."
+    },
+    {
+      "start": 692,
+      "end": 697,
+      "text": "Dan dengan saya membaca codenya dia pun saya belajar banyak."
+    },
+    {
+      "start": 697,
+      "end": 702,
+      "text": "Oh ada style nya, ada code style nya sendiri, maksudnya cara coding nya gitu."
+    },
+    {
+      "start": 702,
+      "end": 704,
+      "text": "Karena banyak banget kan itu."
+    },
+    {
+      "start": 704,
+      "end": 712,
+      "text": "Cara orang coding, cara orang apa namanya memberi nama variable."
+    },
+    {
+      "start": 712,
+      "end": 719,
+      "text": "Yang jelas, yang gampang dibaca itu beda banget dari satu engineer ke engineer yang lain."
+    },
+    {
+      "start": 720,
+      "end": 727,
+      "text": "Jadi dengan membaca code orang kita lebih banyak belajar."
+    },
+    {
+      "start": 727,
+      "end": 729,
+      "text": "Lebih banyak belajar."
+    },
+    {
+      "start": 729,
+      "end": 732,
+      "text": "Inilah keuntungan dari code review."
+    },
+    {
+      "start": 732,
+      "end": 734,
+      "text": "Ya salah satunya ya."
+    },
+    {
+      "start": 734,
+      "end": 737,
+      "text": "Jadi kata kuncinya adalah membaca code orang lain."
+    },
+    {
+      "start": 737,
+      "end": 742,
+      "text": "Karena kadang-kadang kita males atau enggak mau, engan gitu ya."
+    },
+    {
+      "start": 742,
+      "end": 747,
+      "text": "Padahal sebenarnya banyak hal yang bisa kita pelajari dari code."
+    },
+    {
+      "start": 748,
+      "end": 751,
+      "text": "Bagaimana seseorang itu berpikir mungkin beda ya dengan cara kita ya."
+    },
+    {
+      "start": 751,
+      "end": 757,
+      "text": "Mungkin dia menyelesaikan masalahnya dengan dari counter clockwise, kalau kita yang clockwise."
+    },
+    {
+      "start": 757,
+      "end": 759,
+      "text": "Tapi ujung-ujungnya sama."
+    },
+    {
+      "start": 759,
+      "end": 761,
+      "text": "Menyelesaikan masalah juga."
+    },
+    {
+      "start": 761,
+      "end": 766,
+      "text": "Justru karena pendekatan yang berbeda, kita bisa jadi dapat pengalaman yang itu juga."
+    },
+    {
+      "start": 766,
+      "end": 768,
+      "text": "Oh ternyata bisa begini ya, enggak hanya begitu."
+    },
+    {
+      "start": 768,
+      "end": 772,
+      "text": "Ada tambahan experience juga di sana kan."
+    },
+    {
+      "start": 773,
+      "end": 782,
+      "text": "Dan benar sekali kita bisa upgrade si junior jadi ke level berikutnya ya salah satunya dengan code reviewnya ya."
+    },
+    {
+      "start": 782,
+      "end": 789,
+      "text": "Karena kita pasti pas ngereview ngasih input yang konstruktif ya."
+    },
+    {
+      "start": 789,
+      "end": 800,
+      "text": "Dan cara ngasih input juga nanti kita bahas lanjutnya supaya bagaimana menghindari blaming."
+    },
+    {
+      "start": 801,
+      "end": 803,
+      "text": "Blaming ya itu enggak boleh."
+    },
+    {
+      "start": 803,
+      "end": 805,
+      "text": "Biar kan git yang nge-blame."
+    },
+    {
+      "start": 805,
+      "end": 812,
+      "text": "Tetapi instead kita nge-construct percakapan."
+    },
+    {
+      "start": 812,
+      "end": 819,
+      "text": "Misalnya kita tahu nih logicnya salah ya, kita tahu wah ini logicnya salah."
+    },
+    {
+      "start": 819,
+      "end": 826,
+      "text": "Ini dia bakal, kalau dia pakai logic ini akan ada kasus yang begini gitu."
+    },
+    {
+      "start": 826,
+      "end": 829,
+      "text": "Atau ada obvious yang sesuatu yang obvious."
+    },
+    {
+      "start": 830,
+      "end": 833,
+      "text": "Ini karena fatal error sih, karena dia enggak handle itu."
+    },
+    {
+      "start": 833,
+      "end": 841,
+      "text": "Tetapi daripada saya mengatakan ini salah, ini perbaiki, ini perbaiki, ini perbaiki itu enggak sehat ngasih code review seperti itu."
+    },
+    {
+      "start": 841,
+      "end": 843,
+      "text": "Oke."
+    },
+    {
+      "start": 843,
+      "end": 854,
+      "text": "Jadi misalnya gini, contohnya aja ada document.queryselector saja, itu document.queryselector class."
+    },
+    {
+      "start": 855,
+      "end": 863,
+      "text": "Kita tahu kalau document.queryselector class itu bisa nul, baliknya bisa nul."
+    },
+    {
+      "start": 863,
+      "end": 870,
+      "text": "Tetapi di bawah constant itu langsung dia pakai, langsung manipulate whatever."
+    },
+    {
+      "start": 870,
+      "end": 874,
+      "text": "Kalau nul kan berarti itu bisa jadi fatal error ya."
+    },
+    {
+      "start": 874,
+      "end": 876,
+      "text": "Apalagi enggak di-try-catch."
+    },
+    {
+      "start": 876,
+      "end": 878,
+      "text": "Nggak di-handle."
+    },
+    {
+      "start": 879,
+      "end": 892,
+      "text": "Ini ketimbang saya ngasih taunya tolong handle sanity check, tolong handle sanity check, please handle sanity check misalnya."
+    },
+    {
+      "start": 892,
+      "end": 895,
+      "text": "Itu menurut saya kurang sehat."
+    },
+    {
+      "start": 895,
+      "end": 901,
+      "text": "Karena lebih baik kita memberi input yang konstruktif."
+    },
+    {
+      "start": 902,
+      "end": 909,
+      "text": "Kita kasih tahu, gimana menurut kamu kalau misalnya elementnya nggak ditumbuhkan dan nul."
+    },
+    {
+      "start": 909,
+      "end": 916,
+      "text": "Karena document.queryselector, document.queryselector itu bisa return nul."
+    },
+    {
+      "start": 916,
+      "end": 922,
+      "text": "Saya langsung biasa kasih link menuju web MDN."
+    },
+    {
+      "start": 922,
+      "end": 924,
+      "text": "Langsung paste."
+    },
+    {
+      "start": 924,
+      "end": 926,
+      "text": "Dokumentasi."
+    },
+    {
+      "start": 926,
+      "end": 929,
+      "text": "Dokumentasinya ini dan taruh di situ."
+    },
+    {
+      "start": 930,
+      "end": 933,
+      "text": "Jadi dia, biar dia mikirin gimana solusinya."
+    },
+    {
+      "start": 933,
+      "end": 936,
+      "text": "Saya nggak perlu ngasih solusi di review."
+    },
+    {
+      "start": 936,
+      "end": 938,
+      "text": "Oke."
+    },
+    {
+      "start": 938,
+      "end": 949,
+      "text": "Unless dia sudah beberapa percakapan dan dia masih nggak dapat, baru saya ngasihin begini loh maksud saya."
+    },
+    {
+      "start": 949,
+      "end": 957,
+      "text": "Bukan langsung bilang, oh ini error, ini salah."
+    },
+    {
+      "start": 958,
+      "end": 962,
+      "text": "Betul, jadi dari sisi quote review, ada dua hal."
+    },
+    {
+      "start": 962,
+      "end": 969,
+      "text": "Pertama dari sisi reviewer, bisa numentorin."
+    },
+    {
+      "start": 969,
+      "end": 974,
+      "text": "Numentorin, nggak peduli level ya, numentorin itu nggak peduli level."
+    },
+    {
+      "start": 975,
+      "end": 988,
+      "text": "Dari sisi reviewer yang menerima feedback itu belajar dan juga berpikir yang berbeda."
+    },
+    {
+      "start": 988,
+      "end": 995,
+      "text": "Berpikir dari orang yang berbeda, menangkap oh maksudnya si orang itu gimana gitu, apa yang bisa diperbaiki."
+    },
+    {
+      "start": 995,
+      "end": 997,
+      "text": "Yes."
+    },
+    {
+      "start": 998,
+      "end": 1006,
+      "text": "Dan kalau misalnya, kadang ada itu ya tulisan need itu, need n-e-t, n-e-t, need p-k-i."
+    },
+    {
+      "start": 1006,
+      "end": 1008,
+      "text": "Oh need p-k-i."
+    },
+    {
+      "start": 1008,
+      "end": 1016,
+      "text": "Nah itu kadang ada kasus-kasus tertentu yang saya punya quote style saya sendiri, yang saya punya demenan."
+    },
+    {
+      "start": 1016,
+      "end": 1023,
+      "text": "Contohnya saya suka written ya kan, supaya itu quote style saya, preferensi saya."
+    },
+    {
+      "start": 1024,
+      "end": 1028,
+      "text": "Tanpa itu sebenarnya code-nya jalan gitu, yang dia bikin itu logicnya jalan."
+    },
+    {
+      "start": 1028,
+      "end": 1034,
+      "text": "Tetapi quote style-nya kurang oke bagi preferensi saya."
+    },
+    {
+      "start": 1034,
+      "end": 1036,
+      "text": "Ngerti nggak maksudnya?"
+    },
+    {
+      "start": 1036,
+      "end": 1045,
+      "text": "Jadi, tapi saya mau feedback dan biasanya karena saya mau feedback dan saya tulisannya need, need p-k-i."
+    },
+    {
+      "start": 1045,
+      "end": 1048,
+      "text": "Artinya apa ya bahasa Indonesia need p-k-i."
+    },
+    {
+      "start": 1048,
+      "end": 1050,
+      "text": "Cari-cari kesalahan."
+    },
+    {
+      "start": 1051,
+      "end": 1054,
+      "text": "Ya gitu lah, ya berusaha cari kesalahan. Ini need p-k-i."
+    },
+    {
+      "start": 1054,
+      "end": 1060,
+      "text": "Lo bisa coba pikirkan bagaimana, need p-k-i kalau bagi gue misalnya,"
+    },
+    {
+      "start": 1060,
+      "end": 1067,
+      "text": "gue lebih suka erliritan supaya, direflektur supaya lebih mudah baca code-nya."
+    },
+    {
+      "start": 1067,
+      "end": 1070,
+      "text": "Tetapi kalau nggak direobah, nggak apa-apa."
+    },
+    {
+      "start": 1070,
+      "end": 1072,
+      "text": "Gak apa-apa."
+    },
+    {
+      "start": 1073,
+      "end": 1084,
+      "text": "Nah bentar, tanya soal need ini, need itu dari sudut pandang personal code reviewer atau dari perspektif tim atau company?"
+    },
+    {
+      "start": 1084,
+      "end": 1086,
+      "text": "Atau organisasi gitu?"
+    },
+    {
+      "start": 1086,
+      "end": 1094,
+      "text": "Biasanya kalau need p-k-i itu dari personal."
+    },
+    {
+      "start": 1094,
+      "end": 1099,
+      "text": "Karena kalau dari company itu biasanya mengatur dengan general atau dari project."
+    },
+    {
+      "start": 1100,
+      "end": 1114,
+      "text": "Biasanya kalau project, sebelum nyampe PR itu saya diassess by get code review kan sudah memenuhi banyak step sebelumnya."
+    },
+    {
+      "start": 1114,
+      "end": 1120,
+      "text": "Contohnya sudah lolos, sudah lolos linter."
+    },
+    {
+      "start": 1120,
+      "end": 1122,
+      "text": "Linting dan lain-lain."
+    },
+    {
+      "start": 1122,
+      "end": 1127,
+      "text": "Lintingnya segala macam kan sudah otomatis tuh, sudah otomatis segala macam sudah pasti lolos."
+    },
+    {
+      "start": 1128,
+      "end": 1132,
+      "text": "Kalau masih minta error, jangan kasih-kasih test aja gitu, percuma."
+    },
+    {
+      "start": 1132,
+      "end": 1135,
+      "text": "Pasti atas saya bilang, benerin dulu linternya."
+    },
+    {
+      "start": 1135,
+      "end": 1143,
+      "text": "Karena kalau sudah saya review, nanti lu benerin lagi linternya, itu centangnya hilang, percuma gitu."
+    },
+    {
+      "start": 1143,
+      "end": 1145,
+      "text": "Jadi benerin dulu nih linternya."
+    },
+    {
+      "start": 1145,
+      "end": 1148,
+      "text": "Terus kemudian unit test-nya."
+    },
+    {
+      "start": 1148,
+      "end": 1152,
+      "text": "Unit test-nya sudah benar, sudah pas semua, baru di review."
+    },
+    {
+      "start": 1153,
+      "end": 1162,
+      "text": "Terus kemudian codenya, biasanya kan codenya itu sudah ada di develop."
+    },
+    {
+      "start": 1162,
+      "end": 1167,
+      "text": "Kita kan ada 3 environment, development, staging, dan production."
+    },
+    {
+      "start": 1167,
+      "end": 1173,
+      "text": "Biasanya codenya sudah dia test dulu, sudah dia test di development."
+    },
+    {
+      "start": 1173,
+      "end": 1177,
+      "text": "Dan sudah dia kasih screenshot-nya atau videonya."
+    },
+    {
+      "start": 1177,
+      "end": 1180,
+      "text": "Dan sudah kasih change list-nya, change log-nya sudah ada."
+    },
+    {
+      "start": 1181,
+      "end": 1189,
+      "text": "Jadi di PR itu sendiri, di batang tubuh PR sudah ada tiketnya."
+    },
+    {
+      "start": 1189,
+      "end": 1200,
+      "text": "Title, tiket, change log, screenshot kalau ada before and after, atau video."
+    },
+    {
+      "start": 1200,
+      "end": 1206,
+      "text": "Steps to test, ada steps to test-nya bagaimana test di development."
+    },
+    {
+      "start": 1207,
+      "end": 1220,
+      "text": "Dan beberapa centang untuk misalnya, saya sudah cek di browser A, sudah cek di browser B, sudah cek di browser C, contohnya."
+    },
+    {
+      "start": 1220,
+      "end": 1222,
+      "text": "Sudah ada centang-centangnya."
+    },
+    {
+      "start": 1222,
+      "end": 1227,
+      "text": "Kalau itu semuanya sudah terpenuhi, baru terakhir code review."
+    },
+    {
+      "start": 1229,
+      "end": 1237,
+      "text": "Jadi yang saya nitpick itu biasanya yang personal pribadi."
+    },
+    {
+      "start": 1237,
+      "end": 1247,
+      "text": "Karena kalau yang sudah code styling, titik koma, spasi, tab, segala macam itu sudah di handle sama sniffer semua."
+    },
+    {
+      "start": 1247,
+      "end": 1253,
+      "text": "Saya tidak melihat dia salah spasi lagi, karena sudah pasti ketangkep."
+    },
+    {
+      "start": 1253,
+      "end": 1256,
+      "text": "Urusannya pre-tier dan e-slint dan lain-lain."
+    },
+    {
+      "start": 1257,
+      "end": 1262,
+      "text": "Kecuali saya lihat itu sengaja di disable, ada itu."
+    },
+    {
+      "start": 1262,
+      "end": 1264,
+      "text": "Ada, ada-ada aja."
+    },
+    {
+      "start": 1264,
+      "end": 1271,
+      "text": "Jadi supaya styling-nya lolos, dia styling disable, enggak enak."
+    },
+    {
+      "start": 1271,
+      "end": 1274,
+      "text": "Iya, iya, iya."
+    },
+    {
+      "start": 1274,
+      "end": 1276,
+      "text": "Nice try."
+    },
+    {
+      "start": 1276,
+      "end": 1279,
+      "text": "Nice try but no."
+    },
+    {
+      "start": 1282,
+      "end": 1290,
+      "text": "Biasanya kan itu juga kalau e-slint dan pre-tier juga bisa di setting kalau belum lolos, enggak bisa di push."
+    },
+    {
+      "start": 1290,
+      "end": 1292,
+      "text": "Bisa commit ke husky."
+    },
+    {
+      "start": 1292,
+      "end": 1294,
+      "text": "Iya, itu juga bisa."
+    },
+    {
+      "start": 1294,
+      "end": 1297,
+      "text": "Oh itu kalau yang husky yang di lokal ya."
+    },
+    {
+      "start": 1297,
+      "end": 1299,
+      "text": "Lokal-lokal ya."
+    },
+    {
+      "start": 1299,
+      "end": 1301,
+      "text": "Bisa di setting lah."
+    },
+    {
+      "start": 1301,
+      "end": 1303,
+      "text": "Post-hook ya."
+    },
+    {
+      "start": 1303,
+      "end": 1305,
+      "text": "Post-hook."
+    },
+    {
+      "start": 1305,
+      "end": 1310,
+      "text": "Itu masuk ke CI dulu atau sebelum CI code review itu?"
+    },
+    {
+      "start": 1313,
+      "end": 1315,
+      "text": "Sudah, sudah CI dong."
+    },
+    {
+      "start": 1315,
+      "end": 1317,
+      "text": "Sudah CI kan ya."
+    },
+    {
+      "start": 1317,
+      "end": 1323,
+      "text": "Jadi begitu push ke github, PR-nya itu kan langsung, github action langsung jalan semua."
+    },
+    {
+      "start": 1323,
+      "end": 1325,
+      "text": "Ya, langsung CI kan."
+    },
+    {
+      "start": 1325,
+      "end": 1328,
+      "text": "Linter, begitu push satu commit, linter jalan otomatis."
+    },
+    {
+      "start": 1328,
+      "end": 1338,
+      "text": "Kita ada linter bot sendiri, kita punya company punya linter bot sendiri yang nge-check PHP, CSS, sama SAS, SCSS."
+    },
+    {
+      "start": 1339,
+      "end": 1344,
+      "text": "Udah pada paham nih, ada husky, ada lean stage ya kalau buat di lokal."
+    },
+    {
+      "start": 1344,
+      "end": 1347,
+      "text": "Kalau jaman dulu kita pakai Jenkins."
+    },
+    {
+      "start": 1347,
+      "end": 1349,
+      "text": "Jenkins."
+    },
+    {
+      "start": 1349,
+      "end": 1353,
+      "text": "Enggak nyamanin."
+    },
+    {
+      "start": 1353,
+      "end": 1355,
+      "text": "Enggak nyamanin."
+    },
+    {
+      "start": 1355,
+      "end": 1357,
+      "text": "Masih ada Jenkins."
+    },
+    {
+      "start": 1357,
+      "end": 1359,
+      "text": "Travis kan."
+    },
+    {
+      "start": 1359,
+      "end": 1362,
+      "text": "Oh kalau Travis pernah pakai."
+    },
+    {
+      "start": 1362,
+      "end": 1366,
+      "text": "Travis CI sendiri, Jenkins sendiri, Jenkinsnya open source."
+    },
+    {
+      "start": 1367,
+      "end": 1370,
+      "text": "Itu satu project kan, satu instansi kan."
+    },
+    {
+      "start": 1370,
+      "end": 1372,
+      "text": "Enggak."
+    },
+    {
+      "start": 1372,
+      "end": 1374,
+      "text": "Iya kayaknya."
+    },
+    {
+      "start": 1374,
+      "end": 1376,
+      "text": "Jenkins itu?"
+    },
+    {
+      "start": 1376,
+      "end": 1384,
+      "text": "Travis itu service nya dia, yang bisa dipakai kalau aplikasi kita open source."
+    },
+    {
+      "start": 1384,
+      "end": 1386,
+      "text": "Kalau nggak open source kan harus bayar."
+    },
+    {
+      "start": 1386,
+      "end": 1389,
+      "text": "Kalau bayar, Travis."
+    },
+    {
+      "start": 1389,
+      "end": 1395,
+      "text": "Oh iya bener, Travis commercial tool, whereas Jenkins is open source."
+    },
+    {
+      "start": 1396,
+      "end": 1397,
+      "text": "Bener kan?"
+    },
+    {
+      "start": 1397,
+      "end": 1399,
+      "text": "Iya, iya, iya."
+    },
+    {
+      "start": 1399,
+      "end": 1403,
+      "text": "Ini kita ngomongin PHP loh, Irfan ngomongin PHP loh, kok nggak bisa relate?"
+    },
+    {
+      "start": 1403,
+      "end": 1406,
+      "text": "Oh mungkin ini kali lean stage husky kali ya."
+    },
+    {
+      "start": 1406,
+      "end": 1408,
+      "text": "Kalau di PHP ada dong, masa nggak ada?"
+    },
+    {
+      "start": 1408,
+      "end": 1413,
+      "text": "Kalau di PHP pakai PHP course sniffer sama PHP."
+    },
+    {
+      "start": 1414,
+      "end": 1430,
+      "text": "Terus kalau saya, kalau di project yang saya selalu set up itu ada dua untuk PHP, PHP course sniffer itu untuk code styling dan pakai PHP stand untuk static analysis."
+    },
+    {
+      "start": 1430,
+      "end": 1435,
+      "text": "Jadi PHP stand, pakai PHP stand."
+    },
+    {
+      "start": 1436,
+      "end": 1456,
+      "text": "Itu udah enak banget kalau udah pakai stand, karena berbagai macam, jadi stand itu bisa ngedetect, misalnya written atau data type, data type yang salah dia bisa tau tuh."
+    },
+    {
+      "start": 1457,
+      "end": 1478,
+      "text": "Kalau pakai stand, ya static analysis. Jadi udah di otomatis sasi juga stand. Terus terakhir adalah human review, which is peer review manusia."
+    },
+    {
+      "start": 1478,
+      "end": 1484,
+      "text": "Nah beberapa, Mas Riza bisa buka apa aja sih yang kita review itu sebenarnya?"
+    },
+    {
+      "start": 1485,
+      "end": 1487,
+      "text": "Oh yang tadi yang ini ya?"
+    },
+    {
+      "start": 1487,
+      "end": 1491,
+      "text": "Ada listnya ya, ada how to do code review, ini kan?"
+    },
+    {
+      "start": 1491,
+      "end": 1495,
+      "text": "Oh bagus ya ada guidelinenya."
+    },
+    {
+      "start": 1495,
+      "end": 1506,
+      "text": "Jadi ada beberapa signal yang kita suka review, saya suka review kan kita."
+    },
+    {
+      "start": 1507,
+      "end": 1525,
+      "text": "Jadi bagaimana design secara keseluruhan, saya nggak akan menangkap kalau saya nak code review, saya tidak akan menangkap, kayak tadi ya titik koma, spasi type itu nggak saya lihat lagi karena itu udah di handle otomatis."
+    },
+    {
+      "start": 1525,
+      "end": 1531,
+      "text": "Sedangkan yang saya tangkap itu adalah design overall, jadi saya lihat secara keseluruhan."
+    },
+    {
+      "start": 1532,
+      "end": 1545,
+      "text": "Ini ticketnya ngapain, terus PR nya ngapain, gitu. Solusinya bagaimana dia buat."
+    },
+    {
+      "start": 1545,
+      "end": 1555,
+      "text": "Saya paling big no itu kalau misalnya PR nya dicampur-campur, misalnya fiturnya A."
+    },
+    {
+      "start": 1556,
+      "end": 1564,
+      "text": "Komitnya sekaligus gitu ya? Komitnya sekaligus, bukan komit, PR nya."
+    },
+    {
+      "start": 1564,
+      "end": 1576,
+      "text": "PR nya satu tetapi isinya itu urusannya modul A, modul B, modul C, atau perbaiki modul A, perbaiki modul B."
+    },
+    {
+      "start": 1577,
+      "end": 1586,
+      "text": "Biasanya kalau satu orang nguruhin ticket banyak, pengen cepet selesai semua, terus males pindah-pindah brand."
+    },
+    {
+      "start": 1586,
+      "end": 1598,
+      "text": "Itu paling big no, karena susah. Jadi gini, saya ngasih taunya dari sisi maintainer, kayak kalau maintain sebuah project yang sudah bertahun-tahun."
+    },
+    {
+      "start": 1599,
+      "end": 1609,
+      "text": "Kalau sudah ada masalah itu nge-tracing nya itu setengah hidup, karena tracing nya, kemana ini kodenya masalah dan sampai di tracing itu,"
+    },
+    {
+      "start": 1609,
+      "end": 1617,
+      "text": "change lock segala macam sampai ke belakang, sampai ketemu itu dimana letaknya, kenapa itu bisa terjadi."
+    },
+    {
+      "start": 1617,
+      "end": 1626,
+      "text": "Karena harus cari route analysis kan. Kalau PR nya dicampur-campur, aduh susahnya minta ampun untuk mencari itu."
+    },
+    {
+      "start": 1627,
+      "end": 1641,
+      "text": "Sebagai best practice kita itu kalau bisa PR itu contoh, jangan campur-campur antara kombo, misalnya gini ya, NPM update sama logic update."
+    },
+    {
+      "start": 1642,
+      "end": 1667,
+      "text": "Soalnya kalau mau NPM update, bikin aja satu pikiran sendiri, NPM update itu pasti approve kan itu. Gak ngapa-ngapain cuma update package lock doang, ya kan. Nah itu kan tapi lebih mudah di trace. Oh ternyata waktu dia di PR ini, ada NPM update dan library yang ke update A, B, C, D, E, F dari A ke B, dari B ke C gitu kan."
+    },
+    {
+      "start": 1668,
+      "end": 1680,
+      "text": "Jadi ada list nya, jadi change list itu pun lengkap di PR. Itu satu PR. Nah, terus banyak yang tanya, pernah ada juga kayak kasus."
+    },
+    {
+      "start": 1680,
+      "end": 1697,
+      "text": "Kalau misalnya fiturnya besar, itu gimana? Berarti PR nya dipecah-pecah, jangan sampai dicampur-campur juga. Gak apa-apa, PR nya itu misalnya PR 1, skeleton nya doang."
+    },
+    {
+      "start": 1698,
+      "end": 1721,
+      "text": "Let's say kita bikin waters plugin, skeleton plugin nya doang, set up skeleton, that's it, masuk satu PR. Terus kemudian bagian fitur yang kecil, buat satu file atau folder, bikin bootstrap nya segala macam, masuk satu."
+    },
+    {
+      "start": 1722,
+      "end": 1731,
+      "text": "Udah, jadi berangkatnya dari kecil-kecil dibangun kecil-kecil, jadi lebih mudah bagi yang ngereview untuk membacanya."
+    },
+    {
+      "start": 1732,
+      "end": 1756,
+      "text": "Kemana arahnya gitu, dan bisa dibagi-bagi. Dan itu, bagusnya ke depannya kalau ada emergency apapun yang tiba-tiba dadakan, taunya panik harus revert, ngebalikinnya gak susah. Iya betul. Atau nge-disable nya jampang. Nah, secara desain nih, desain konsep, ini opinionated saya."
+    },
+    {
+      "start": 1757,
+      "end": 1785,
+      "text": "Jadi jangan jadikan patokan yuk kalian. Kode itu, lokasi dari kode, desainnya dari folder, struktur folder itu sebisa mungkin, kode yang punya tujuan sama itu di satu ini, satu modul, satu tempat gitu."
+    },
+    {
+      "start": 1786,
+      "end": 1799,
+      "text": "Jadi jangan dipisah-pisah satu di WordPress ya, satu di plugin, satu di team, satu di plugin yang mana. Jadi file-file nya udah terpisah-pisah kemana-mana."
+    },
+    {
+      "start": 1799,
+      "end": 1812,
+      "text": "Jadi urusannya kalau misalnya nanti ada mau update atau mau modul itu dihilangkan, atau mau diganti, ngebersihinnya harus kemana-mana. Jangan sampai harus kemana-mana ngebersihin."
+    },
+    {
+      "start": 1813,
+      "end": 1823,
+      "text": "Jadi sebisa mungkin satu tempat gitu. Satu lokasi gitu. Jangan campur-campur."
+    },
+    {
+      "start": 1824,
+      "end": 1847,
+      "text": "Ini pull request ini juga, kita sebagai developer dan kita sebagai reviewer juga, sebenarnya kuncinya adalah empati. Kita berempati gimana kalau kita berada di posisi reviewer. Coba bayangkan kita berada di posisi reviewer, terus perubahannya ada 300 file gitu. Nangis nggak ngereviewnya?"
+    },
+    {
+      "start": 1848,
+      "end": 1854,
+      "text": "Benar-benar. Itu mah percaya bro. Udah percaya. Udah gue percaya lu. Jalan ya, awas kalau gue jalan."
+    },
+    {
+      "start": 1854,
+      "end": 1856,
+      "text": "Terdapat berdasarkan kecayaan gitu."
+    },
+    {
+      "start": 1856,
+      "end": 1864,
+      "text": "Iya. Jadi nggak bisa di review juga, jadi nggak ada yang bisa ditarik pelajaran gitu."
+    },
+    {
+      "start": 1864,
+      "end": 1871,
+      "text": "Kalau 100 baris pun udah cukup besar sebenarnya ya. Tapi masih bisa lah ya 100 ya."
+    },
+    {
+      "start": 1872,
+      "end": 1885,
+      "text": "Eh, tapi berarti esensi dari review itu berarti kita emang harus baca ya. Kita harus memahami kodinganya si rekan kita itu. Jadi nggak bisa misalnya kalau shortcut kan 300 file nih pusing."
+    },
+    {
+      "start": 1886,
+      "end": 1902,
+      "text": "Ya, nggak feasible aja. Nggak baca satu persatu. Udah, gimana kalau kita bikin tes aja sama-sama, tes misalnya pairing atau apa, kita brainstorm, bikin aja dadakan tes A, B, C, D, E. Udah apapunnya kalau itu semua, anggap aja benar."
+    },
+    {
+      "start": 1902,
+      "end": 1907,
+      "text": "Berarti itu nggak masuk. Itu belum bisa dibilang nerapin code review ya?"
+    },
+    {
+      "start": 1908,
+      "end": 1928,
+      "text": "Nggak bisa. Jadi gini, tujuannya kenapa salah satu tujuan dari ujungnya code review itu adalah bagaimana agar si penulis code itu bisa menuliskan code yang maintainable."
+    },
+    {
+      "start": 1929,
+      "end": 1938,
+      "text": "Orang lain bisa baca, orang lain bisa maintain karena nggak selamanya kita hidup. Atau karena kita di, nggak selamanya."
+    },
+    {
+      "start": 1938,
+      "end": 1940,
+      "text": "Di perusahaan itu."
+    },
+    {
+      "start": 1940,
+      "end": 1942,
+      "text": "Di perusahaan itu."
+    },
+    {
+      "start": 1942,
+      "end": 1945,
+      "text": "Itu faktor loh, nggak selamanya juga kita hidup kan."
+    },
+    {
+      "start": 1945,
+      "end": 1948,
+      "text": "Oh iya, kan ada istilah yang..."
+    },
+    {
+      "start": 1948,
+      "end": 1950,
+      "text": "Besok kurik."
+    },
+    {
+      "start": 1950,
+      "end": 1957,
+      "text": "Iya, kalau amit-amit besok kita ketabrak bus, terus kita nggak bisa kerja gimana rekan kita gitu kan."
+    },
+    {
+      "start": 1958,
+      "end": 1965,
+      "text": "Ya atau yang happy lah, yang happy, holiday faktor. Tiba-tiba kita menang, kita liburan ke Las Vegas."
+    },
+    {
+      "start": 1965,
+      "end": 1969,
+      "text": "Bye bye, kita nggak bisa dikontakan lagi naik pesawat. Naik pesawat berapa bulan saja."
+    },
+    {
+      "start": 1969,
+      "end": 1971,
+      "text": "Betul."
+    },
+    {
+      "start": 1971,
+      "end": 1977,
+      "text": "Apakah organisasi kita bakal codebase-nya langsung jatuh karena pada nggak bisa..."
+    },
+    {
+      "start": 1978,
+      "end": 1989,
+      "text": "Ini ada perubahan mindset. Ada perubahan mindset. Karena kalau dulu sebisa mungkin kode kita tidak bisa dibaca sama orang lain supaya kita tetap bekerja di situ."
+    },
+    {
+      "start": 1989,
+      "end": 1992,
+      "text": "Supaya kita tidak tergantikan."
+    },
+    {
+      "start": 1992,
+      "end": 1998,
+      "text": "Kalau kode kita nggak terlalu bagus, ya kan? Orang-orang mengerti, jadi..."
+    },
+    {
+      "start": 1998,
+      "end": 2000,
+      "text": "Kitanya ada pecat."
+    },
+    {
+      "start": 2001,
+      "end": 2014,
+      "text": "Kita bisa tergantikan, bisa dipecat. Padahal sebenarnya, kalau kita menulis kode yang bagus, terus kemudian ada junior yang bisa mengerti dan bisa melanjutkan, kita bisa naik ke atas, jadi senior gitu."
+    },
+    {
+      "start": 2014,
+      "end": 2016,
+      "text": "Malah kebalikan sebenarnya."
+    },
+    {
+      "start": 2016,
+      "end": 2021,
+      "text": "Ya kalau masalah job security, apalagi di winter seperti sekarang, ya memang ada."
+    },
+    {
+      "start": 2021,
+      "end": 2023,
+      "text": "Tapi kan bukan..."
+    },
+    {
+      "start": 2024,
+      "end": 2031,
+      "text": "Ya, justru kalau kita nulis kode-nya ngaco, sulit dibaca, malah dilihat dulu."
+    },
+    {
+      "start": 2031,
+      "end": 2033,
+      "text": "Review-nya malah jelek kan, gitu."
+    },
+    {
+      "start": 2033,
+      "end": 2045,
+      "text": "Kalau dulu saya lebih, lebih apa lagi namanya, kayak reviewzilla lagi kalau sampai commit message pun juga saya pertimbangkan."
+    },
+    {
+      "start": 2045,
+      "end": 2053,
+      "text": "Itu ada salah satu contohnya bagaimana menuliskan commit message yang baik, ada saya kasih link-nya."
+    },
+    {
+      "start": 2054,
+      "end": 2062,
+      "text": "Tapi sebelum itu ini, tadi pagi ngelihat, ngelihat memes ini, siapa yang relate, gitu."
+    },
+    {
+      "start": 2062,
+      "end": 2070,
+      "text": "30 menit mikirin, commit message apa gitu yang perlu ditulis ya, yang cocok."
+    },
+    {
+      "start": 2070,
+      "end": 2073,
+      "text": "Sudah bisa dibantu, sudah bisa dibantu sama co-pilot."
+    },
+    {
+      "start": 2073,
+      "end": 2075,
+      "text": "Eee, CTVT dan lain-lain ya."
+    },
+    {
+      "start": 2075,
+      "end": 2077,
+      "text": "Iya."
+    },
+    {
+      "start": 2078,
+      "end": 2084,
+      "text": "Makanya supaya yang tadi commit message yang bisa membantu kalian coba ya."
+    },
+    {
+      "start": 2084,
+      "end": 2087,
+      "text": "Yang mana? Yang ini ya?"
+    },
+    {
+      "start": 2087,
+      "end": 2089,
+      "text": "Iya."
+    },
+    {
+      "start": 2089,
+      "end": 2096,
+      "text": "Langsung temen-temen baca aja, tapi saya bagian skip yang paling penting, agak bawah sedikit."
+    },
+    {
+      "start": 2096,
+      "end": 2105,
+      "text": "Karena ada kayak 50 karakter, blablabla itu sudah diatur sana, VS code sudah gampang."
+    },
+    {
+      "start": 2106,
+      "end": 2108,
+      "text": "Seven rule of commit message."
+    },
+    {
+      "start": 2108,
+      "end": 2112,
+      "text": "Subject and from body and with blend line."
+    },
+    {
+      "start": 2112,
+      "end": 2115,
+      "text": "Limit the subject, 50 karakter."
+    },
+    {
+      "start": 2115,
+      "end": 2119,
+      "text": "Capitalize subject line, do not end the subject line with a period."
+    },
+    {
+      "start": 2119,
+      "end": 2121,
+      "text": "Use imperative mood."
+    },
+    {
+      "start": 2121,
+      "end": 2124,
+      "text": "Itu, klik itu imperative."
+    },
+    {
+      "start": 2124,
+      "end": 2129,
+      "text": "Nggak boleh pakai deklaratif ya."
+    },
+    {
+      "start": 2130,
+      "end": 2136,
+      "text": "Nggak boleh pakai deklaratif ya."
+    },
+    {
+      "start": 2136,
+      "end": 2137,
+      "text": "Do not end the subject line, do not end the subject line with a period."
+    },
+    {
+      "start": 2137,
+      "end": 2139,
+      "text": "Do not end the subject line, do not end the subject line with a period."
+    },
+    {
+      "start": 2139,
+      "end": 2141,
+      "text": "Do not end the subject line, do not end the subject line with a period."
+    },
+    {
+      "start": 2141,
+      "end": 2143,
+      "text": "Do not end the subject line, do not end the subject line with a period."
+    },
+    {
+      "start": 2143,
+      "end": 2145,
+      "text": "Do not end the subject line, do not end the subject line with a period."
+    },
+    {
+      "start": 2145,
+      "end": 2147,
+      "text": "Do not end the subject line, do not end the subject line with a period."
+    },
+    {
+      "start": 2147,
+      "end": 2149,
+      "text": "Do not end the subject line, do not end the subject line with a period."
+    },
+    {
+      "start": 2149,
+      "end": 2151,
+      "text": "Do not end the subject line, do not end the subject line with a period."
+    },
+    {
+      "start": 2151,
+      "end": 2153,
+      "text": "Do not end the subject line, do not end the subject line with a period."
+    },
+    {
+      "start": 2153,
+      "end": 2155,
+      "text": "Do not end the subject line, do not end the subject line with a period."
+    },
+    {
+      "start": 2156,
+      "end": 2161,
+      "text": "Do not end the subject line, do not end the subject line with a period."
+    },
+    {
+      "start": 2161,
+      "end": 2163,
+      "text": "Do not end the subject line, do not end the subject line with a period."
+    },
+    {
+      "start": 2163,
+      "end": 2165,
+      "text": "Do not end the subject line, do not end the subject line with a period."
+    },
+    {
+      "start": 2165,
+      "end": 2167,
+      "text": "Do not end the subject line, do not end the subject line with a period."
+    },
+    {
+      "start": 2167,
+      "end": 2169,
+      "text": "Do not end the subject line, do not end the subject line with a period."
+    },
+    {
+      "start": 2169,
+      "end": 2171,
+      "text": "Do not end the subject line, do not end the subject line with a period."
+    },
+    {
+      "start": 2171,
+      "end": 2173,
+      "text": "Do not end the subject line, do not end the subject line with a period."
+    },
+    {
+      "start": 2173,
+      "end": 2175,
+      "text": "Do not end the subject line, do not end the subject line with a period."
+    },
+    {
+      "start": 2175,
+      "end": 2177,
+      "text": "Do not end the subject line, do not end the subject line with a period."
+    },
+    {
+      "start": 2177,
+      "end": 2179,
+      "text": "Do not end the subject line, do not end the subject line with a period."
+    },
+    {
+      "start": 2179,
+      "end": 2181,
+      "text": "Do not end the subject line, do not end the subject line with a period."
+    },
+    {
+      "start": 2182,
+      "end": 2187,
+      "text": "Do not end the subject line, do not end the subject line with a period."
+    },
+    {
+      "start": 2187,
+      "end": 2189,
+      "text": "Do not end the subject line, do not end the subject line with a period."
+    },
+    {
+      "start": 2189,
+      "end": 2191,
+      "text": "Do not end the subject line, do not end the subject line with a period."
+    },
+    {
+      "start": 2191,
+      "end": 2193,
+      "text": "Do not end the subject line, do not end the subject line with a period."
+    },
+    {
+      "start": 2193,
+      "end": 2195,
+      "text": "Do not end the subject line, do not end the subject line with a period."
+    },
+    {
+      "start": 2195,
+      "end": 2197,
+      "text": "Do not end the subject line, do not end the subject line with a period."
+    },
+    {
+      "start": 2197,
+      "end": 2199,
+      "text": "Do not end the subject line, do not end the subject line with a period."
+    },
+    {
+      "start": 2199,
+      "end": 2201,
+      "text": "Do not end the subject line, do not end the subject line with a period."
+    },
+    {
+      "start": 2201,
+      "end": 2203,
+      "text": "Do not end the subject line, do not end the subject line with a period."
+    },
+    {
+      "start": 2203,
+      "end": 2205,
+      "text": "Do not end the subject line, do not end the subject line with a period."
+    },
+    {
+      "start": 2205,
+      "end": 2207,
+      "text": "Do not end the subject line, do not end the subject line with a period."
+    },
+    {
+      "start": 2208,
+      "end": 2212,
+      "text": "Do not end the subject line, do not end the subject line with a period."
+    },
+    {
+      "start": 2212,
+      "end": 2214,
+      "text": "Do not end the subject line, do not end the subject line with a period."
+    },
+    {
+      "start": 2214,
+      "end": 2216,
+      "text": "Do not end the subject line, do not end the subject line with a period."
+    },
+    {
+      "start": 2216,
+      "end": 2218,
+      "text": "Do not end the subject line, do not end the subject line with a period."
+    },
+    {
+      "start": 2218,
+      "end": 2220,
+      "text": "Do not end the subject line, do not end the subject line with a period."
+    },
+    {
+      "start": 2220,
+      "end": 2222,
+      "text": "Do not end the subject line, do not end the subject line with a period."
+    },
+    {
+      "start": 2222,
+      "end": 2224,
+      "text": "Do not end the subject line, do not end the subject line with a period."
+    },
+    {
+      "start": 2224,
+      "end": 2226,
+      "text": "Do not end the subject line, do not end the subject line with a period."
+    },
+    {
+      "start": 2226,
+      "end": 2228,
+      "text": "Do not end the subject line, do not end the subject line with a period."
+    },
+    {
+      "start": 2228,
+      "end": 2230,
+      "text": "Do not end the subject line, do not end the subject line with a period."
+    },
+    {
+      "start": 2230,
+      "end": 2232,
+      "text": "Do not end the subject line, do not end the subject line with a period."
+    },
+    {
+      "start": 2233,
+      "end": 2238,
+      "text": "Do not end the subject line, do not end the subject line with a period."
+    },
+    {
+      "start": 2238,
+      "end": 2240,
+      "text": "Do not end the subject line, do not end the subject line with a period."
+    },
+    {
+      "start": 2240,
+      "end": 2242,
+      "text": "Do not end the subject line, do not end the subject line with a period."
+    },
+    {
+      "start": 2242,
+      "end": 2244,
+      "text": "Do not end the subject line, do not end the subject line with a period."
+    },
+    {
+      "start": 2244,
+      "end": 2246,
+      "text": "Do not end the subject line, do not end the subject line with a period."
+    },
+    {
+      "start": 2246,
+      "end": 2248,
+      "text": "Do not end the subject line, do not end the subject line with a period."
+    },
+    {
+      "start": 2248,
+      "end": 2250,
+      "text": "Do not end the subject line, do not end the subject line with a period."
+    },
+    {
+      "start": 2250,
+      "end": 2252,
+      "text": "Do not end the subject line, do not end the subject line with a period."
+    },
+    {
+      "start": 2252,
+      "end": 2254,
+      "text": "Do not end the subject line, do not end the subject line with a period."
+    },
+    {
+      "start": 2254,
+      "end": 2256,
+      "text": "Do not end the subject line, do not end the subject line with a period."
+    },
+    {
+      "start": 2256,
+      "end": 2258,
+      "text": "Do not end the subject line, do not end the subject line with a period."
+    },
+    {
+      "start": 2259,
+      "end": 2265,
+      "text": "Kalau misalnya kalian yang inklu file nya tapi lupa add file nya itu kan fatal error."
+    },
+    {
+      "start": 2265,
+      "end": 2267,
+      "text": "Kalau di commit itu."
+    },
+    {
+      "start": 2267,
+      "end": 2269,
+      "text": "Ya kan kalau di revert ke commit itu."
+    },
+    {
+      "start": 2269,
+      "end": 2270,
+      "text": "Ya."
+    },
+    {
+      "start": 2270,
+      "end": 2276,
+      "text": "Kalau file nya belum ada itu bisa misalnya commit itu akan menghasilkan fatal error."
+    },
+    {
+      "start": 2276,
+      "end": 2280,
+      "text": "Nah jangan sampai commit itu bisa menghasilkan fatal error."
+    },
+    {
+      "start": 2280,
+      "end": 2286,
+      "text": "Pikirkan bagaimana supaya commit itu satu satuan."
+    },
+    {
+      "start": 2287,
+      "end": 2290,
+      "text": "Kalau memang mau add file nya plus kalian include ya boleh."
+    },
+    {
+      "start": 2290,
+      "end": 2292,
+      "text": "Langsung tep gitu."
+    },
+    {
+      "start": 2292,
+      "end": 2302,
+      "text": "Jadi ke mana pun misalnya kita revert commit nya ke commit tertentu."
+    },
+    {
+      "start": 2302,
+      "end": 2306,
+      "text": "Tetap akan program kita jalan-jalan saja."
+    },
+    {
+      "start": 2306,
+      "end": 2310,
+      "text": "Itu dari sisi design."
+    },
+    {
+      "start": 2310,
+      "end": 2314,
+      "text": "Oh itu baru yang ini ya baru yang design nya."
+    },
+    {
+      "start": 2315,
+      "end": 2318,
+      "text": "Desain grand design nya."
+    },
+    {
+      "start": 2318,
+      "end": 2333,
+      "text": "Jadi dari solusinya strukturnya, ngedesign file nya dimana, solusinya alurnya itu satu hal."
+    },
+    {
+      "start": 2333,
+      "end": 2336,
+      "text": "Jadi dipahami sebagai review."
+    },
+    {
+      "start": 2336,
+      "end": 2338,
+      "text": "Sebelum saya lanjut."
+    },
+    {
+      "start": 2338,
+      "end": 2341,
+      "text": "Buka lagi tadi lanjutannya design apa?"
+    },
+    {
+      "start": 2341,
+      "end": 2343,
+      "text": "Functionality."
+    },
+    {
+      "start": 2344,
+      "end": 2350,
+      "text": "Tapi sebelum lanjut ini ada pertanyaan yang bagus yang mau saya highlight."
+    },
+    {
+      "start": 2350,
+      "end": 2359,
+      "text": "Kalau di perusahaan konsultan biasanya nggak penting untuk unit test, nggak penting code quality dan lain-lain."
+    },
+    {
+      "start": 2359,
+      "end": 2363,
+      "text": "Ivan Humanmade bukannya konsultan ya?"
+    },
+    {
+      "start": 2363,
+      "end": 2366,
+      "text": "Konsultan teknologi."
+    },
+    {
+      "start": 2367,
+      "end": 2377,
+      "text": "Iya ini bukan jangan menjenderalisasi semua konsultan seperti ini ya. Ini adalah konsultan yang belum menerapkan best practice."
+    },
+    {
+      "start": 2377,
+      "end": 2380,
+      "text": "Saya mikir-mikir kata-katanya terlalu kasar."
+    },
+    {
+      "start": 2380,
+      "end": 2383,
+      "text": "Lebih ke price range kali ya. Maksudnya kita realistis ya."
+    },
+    {
+      "start": 2383,
+      "end": 2389,
+      "text": "Ini kan code review kan satu, butuh tenaga, butuh SDM ya."
+    },
+    {
+      "start": 2390,
+      "end": 2400,
+      "text": "Maksudnya SDM ya kualitasnya harus relatif tinggi atau minimal willing to upskill. Maksudnya mau mempelajari, mau ngulik hal-hal yang semua tadi Ivan jelasin tuh."
+    },
+    {
+      "start": 2400,
+      "end": 2404,
+      "text": "Itu kan satu SDM nya harus begitu dari segi resource."
+    },
+    {
+      "start": 2404,
+      "end": 2410,
+      "text": "Nah terus resource lainnya yang jelas finance kan, ini kan makan dev hour ya, makan main hour."
+    },
+    {
+      "start": 2410,
+      "end": 2417,
+      "text": "Menghabiskan waktu sekian jam yang kalau misalnya tanpa code review kan dev nya bisa langsung disuruh, udah langsung aja bikin fitur baru lagi."
+    },
+    {
+      "start": 2418,
+      "end": 2421,
+      "text": "Nah ini nggak sekian jam dihabiskan buat code review."
+    },
+    {
+      "start": 2421,
+      "end": 2426,
+      "text": "Nah berarti kan biaya yang dibebankan ke customer bakal lebih tinggi."
+    },
+    {
+      "start": 2426,
+      "end": 2435,
+      "text": "Cuma kan hasilnya juga, ya pasti hasilnya juga beda jadi lebih ke kelas price range ya kali."
+    },
+    {
+      "start": 2435,
+      "end": 2441,
+      "text": "Iya betul. Kadang-kadang juga ada faktor lainnya juga, banyak ya banyak faktor ya."
+    },
+    {
+      "start": 2441,
+      "end": 2446,
+      "text": "Ada konsultan ini mereka lebih memilih yang penting diselesai."
+    },
+    {
+      "start": 2447,
+      "end": 2455,
+      "text": "Mungkin sesuai deadline, tapi tidak memikirkan kalau seandainya si kliennya balik lagi ke klien gitu."
+    },
+    {
+      "start": 2455,
+      "end": 2460,
+      "text": "Seringnya kan dapat proyek ya, proyek limpahan kan."
+    },
+    {
+      "start": 2460,
+      "end": 2466,
+      "text": "Ini dari konsultan yang lain, oh ini codenya ancur banget kita bikin lagi dari awal gitu kan."
+    },
+    {
+      "start": 2466,
+      "end": 2472,
+      "text": "Karena nggak ada apa ya, nggak ada benefit kalau kita melakukan best practice disana."
+    },
+    {
+      "start": 2473,
+      "end": 2477,
+      "text": "Karena tuh juga begitu udah selesai kontraknya mereka cari yang lain gitu, nggak balik lagi ke kita."
+    },
+    {
+      "start": 2477,
+      "end": 2483,
+      "text": "Jadinya ya hal-hal yang kita butuhkan itu tidak penting gitu."
+    },
+    {
+      "start": 2483,
+      "end": 2488,
+      "text": "Mostly karena klien yang di handle itu kan enterprise ya, jadi paper roomnya juga banyak."
+    },
+    {
+      "start": 2488,
+      "end": 2495,
+      "text": "Bahkan di awal project aja mereka sudah minta misalnya test coverage nya 100%."
+    },
+    {
+      "start": 2496,
+      "end": 2504,
+      "text": "Accessibility nya aja sudah minta level AA."
+    },
+    {
+      "start": 2504,
+      "end": 2514,
+      "text": "Jadi waktu udah, apa namanya, sebelum misalnya post production cun."
+    },
+    {
+      "start": 2514,
+      "end": 2519,
+      "text": "Maksudnya post deployment juga kita harus masih cek nggak ada degradation yang terjadi."
+    },
+    {
+      "start": 2519,
+      "end": 2524,
+      "text": "Post production test ini nggak ada. Itu beda lagi, karena permintaan project."
+    },
+    {
+      "start": 2525,
+      "end": 2541,
+      "text": "Itu depends ya, jadi kalau klien yang skala enterprise rata-rata memang minta banyak paper work nya."
+    },
+    {
+      "start": 2541,
+      "end": 2547,
+      "text": "Dan mereka tech savvy ya, berarti relatif walaupun mereka nggak ngerti codenya."
+    },
+    {
+      "start": 2547,
+      "end": 2551,
+      "text": "Tapi mereka punya ekspektasi, mereka tahu konsep test coverage."
+    },
+    {
+      "start": 2552,
+      "end": 2559,
+      "text": "Mereka punya standar accessibility, ya mungkin kalau di luar, mereka bisa dituntut ya kalau kurang accessible."
+    },
+    {
+      "start": 2559,
+      "end": 2564,
+      "text": "Jadi konsultan in house ya, eh punya staff in house."
+    },
+    {
+      "start": 2564,
+      "end": 2568,
+      "text": "Mereka punya staff IT in house, jadi mereka tahu gitu."
+    },
+    {
+      "start": 2568,
+      "end": 2573,
+      "text": "Dan mereka yang ikut membuat best pack ke sini."
+    },
+    {
+      "start": 2573,
+      "end": 2581,
+      "text": "Jadi kita meskipun di hire untuk handle project, tetapi timnya itu bukan cuma kita doang, di project itu."
+    },
+    {
+      "start": 2582,
+      "end": 2588,
+      "text": "Mereka juga punya tim yang lain, yang agency lain, yang bekerja di satu project yang sama."
+    },
+    {
+      "start": 2588,
+      "end": 2601,
+      "text": "Jadi kalau misalnya nggak ada standar ini, nggak ada standar coverage seperti ini ya, codenya kita ya campur aduk berantakan segala macem."
+    },
+    {
+      "start": 2601,
+      "end": 2611,
+      "text": "Nah itu kan jadinya kalau sudah berantakan, ngebenerin yang berantakan itu lebih mahal daripada dari awal sudah dibenerin."
+    },
+    {
+      "start": 2612,
+      "end": 2613,
+      "text": "Des praktisnya."
+    },
+    {
+      "start": 2613,
+      "end": 2622,
+      "text": "Apalagi kalau enterprise, maksudnya ada risiko mereka dituntut lah atau apalah maksudnya kena masalah hukum dan lain-lain."
+    },
+    {
+      "start": 2622,
+      "end": 2632,
+      "text": "Nah kemudian pertanyaan dari Rafki lagi, kalau perusahaannya belum pakai version control, belum pakai collaboration tools."
+    },
+    {
+      "start": 2632,
+      "end": 2636,
+      "text": "Ya mau nggak mau harus peer review ya, bareng-bareng duduk bareng-bareng ya."
+    },
+    {
+      "start": 2637,
+      "end": 2643,
+      "text": "Jadi sebelum di lempar ke FTP ya bareng-bareng gitu, ya solusi yang paling mendekati lah ya."
+    },
+    {
+      "start": 2643,
+      "end": 2653,
+      "text": "Oh tadi pas lagi research word ini, gue jadi baca-baca sejarahnya dan ternyata apa konsep code review yang kayak kita pahamiin sekarang nih,"
+    },
+    {
+      "start": 2653,
+      "end": 2664,
+      "text": "ternyata di-initiate-nya di IBM tahun 1976 dan maksudnya sebelum ada sistem-system kayak sekarang, mereka tuh ngeprint beneran."
+    },
+    {
+      "start": 2665,
+      "end": 2676,
+      "text": "Apa lah, nggak ngerti deploy-nya gimana nih ya, tapi kalaunya si developer-nya si programmer-nya ngeprint fisik, ngeprint kertas yang dia bukun."
+    },
+    {
+      "start": 2676,
+      "end": 2684,
+      "text": "Jadi beneran kayak dituntutin, dibaca, diprint, difotokopi, baca ya kayak misalnya kalau ada komentar, di-highlight."
+    },
+    {
+      "start": 2684,
+      "end": 2687,
+      "text": "Kayak skripsi ya, jadi ingat masa lalu."
+    },
+    {
+      "start": 2687,
+      "end": 2693,
+      "text": "Tapi sampai sekarang peer review juga masih terjadi."
+    },
+    {
+      "start": 2694,
+      "end": 2696,
+      "text": "Peer review? Di jurnal ilmiah?"
+    },
+    {
+      "start": 2696,
+      "end": 2698,
+      "text": "Iya."
+    },
+    {
+      "start": 2698,
+      "end": 2700,
+      "text": "Peer review di-print kan?"
+    },
+    {
+      "start": 2700,
+      "end": 2702,
+      "text": "Oh di-print ya."
+    },
+    {
+      "start": 2702,
+      "end": 2716,
+      "text": "Peer review misalnya kalau jurnal ilmiah ya, istri waktu ngambil program specialis maling itu misalnya dia bikin jurnal ilmiah ya,"
+    },
+    {
+      "start": 2717,
+      "end": 2726,
+      "text": "peer review ke dosen dan segala macemnya itu handwritten semua. Masih, masih peer review."
+    },
+    {
+      "start": 2726,
+      "end": 2729,
+      "text": "Sama aja code review, peer review ya sama."
+    },
+    {
+      "start": 2729,
+      "end": 2731,
+      "text": "Code review ya peer review."
+    },
+    {
+      "start": 2731,
+      "end": 2733,
+      "text": "Sama, sama, sama."
+    },
+    {
+      "start": 2733,
+      "end": 2738,
+      "text": "Nah, dari sisi functionality, terus apa lagi tadi, code style."
+    },
+    {
+      "start": 2738,
+      "end": 2741,
+      "text": "Oh iya, kita lanjut lagi ya, lanjut lagi ya."
+    },
+    {
+      "start": 2741,
+      "end": 2744,
+      "text": "Functionality, functionality udah pasti kan, codenya sesuai nggak?"
+    },
+    {
+      "start": 2745,
+      "end": 2748,
+      "text": "Ini biasanya ada kaitannya sama testing ya?"
+    },
+    {
+      "start": 2748,
+      "end": 2750,
+      "text": "Testingnya bener-bener juga kan?"
+    },
+    {
+      "start": 2750,
+      "end": 2752,
+      "text": "Testingnya di-review kan?"
+    },
+    {
+      "start": 2752,
+      "end": 2754,
+      "text": "Spesifikasinya juga kan?"
+    },
+    {
+      "start": 2754,
+      "end": 2756,
+      "text": "Tests casenya di-review kan?"
+    },
+    {
+      "start": 2756,
+      "end": 2758,
+      "text": "Yes, yes, testsnya di-review."
+    },
+    {
+      "start": 2758,
+      "end": 2771,
+      "text": "Testsnya tuh ini, jangan hanya membuat tests case itu hanya untuk test coverage doang."
+    },
+    {
+      "start": 2771,
+      "end": 2774,
+      "text": "Ya, coveragenya 100% yang penting gitu."
+    },
+    {
+      "start": 2775,
+      "end": 2776,
+      "text": "Gak boleh, gak boleh."
+    },
+    {
+      "start": 2776,
+      "end": 2780,
+      "text": "Gak bisa, jadi harus testnya bener nggak gitu."
+    },
+    {
+      "start": 2780,
+      "end": 2785,
+      "text": "Maksudnya secara logicnya yang mau di-test itu sesuai nggak?"
+    },
+    {
+      "start": 2785,
+      "end": 2788,
+      "text": "Jangan cuman di-test happy part-nya aja."
+    },
+    {
+      "start": 2788,
+      "end": 2792,
+      "text": "Di-test yang error part-nya juga harus di-test."
+    },
+    {
+      "start": 2792,
+      "end": 2797,
+      "text": "Yang paling saya lihat adalah complexity."
+    },
+    {
+      "start": 2797,
+      "end": 2800,
+      "text": "Kalau sampai saya nggak mengerti codenya,"
+    },
+    {
+      "start": 2800,
+      "end": 2802,
+      "text": "something is wrong."
+    },
+    {
+      "start": 2803,
+      "end": 2806,
+      "text": "Ini maksudnya apa sih kok muter-muter gitu."
+    },
+    {
+      "start": 2806,
+      "end": 2809,
+      "text": "Terus abstraksinya kok banyak amat gitu."
+    },
+    {
+      "start": 2809,
+      "end": 2814,
+      "text": "Saya paling bingung kalau misalnya udah abstraksinya sampai kayak 3-4 level."
+    },
+    {
+      "start": 2814,
+      "end": 2816,
+      "text": "Ngapain gitu?"
+    },
+    {
+      "start": 2816,
+      "end": 2825,
+      "text": "Apa bisa disimplerkan, apa bisa dipermudah gitu alurnya gitu."
+    },
+    {
+      "start": 2825,
+      "end": 2830,
+      "text": "Terus komen."
+    },
+    {
+      "start": 2831,
+      "end": 2840,
+      "text": "Gak perlu, saya nggak terlalu, ini pendapat pribadi ya."
+    },
+    {
+      "start": 2840,
+      "end": 2845,
+      "text": "Bukan fans untuk yang nulis komen sebanyak-banyak, seabrak-abrak."
+    },
+    {
+      "start": 2845,
+      "end": 2848,
+      "text": "Jadi setiap lainannya ada komen, nggak perlu."
+    },
+    {
+      "start": 2849,
+      "end": 2863,
+      "text": "Jadi cukup komen itu diberikan di tempat yang misalnya memang ada satu specific case kenapa itu terjadi dan kenapa itu di situ."
+    },
+    {
+      "start": 2863,
+      "end": 2873,
+      "text": "Contohnya, mungkin ada edge cases atau bug yang terjadi dan belum sempat diperbaiki."
+    },
+    {
+      "start": 2874,
+      "end": 2885,
+      "text": "Dan harus men-short circuit, men-short circuit terjadi itu supaya bug itu nggak terjadi, tetapi belum sempat dibenerin."
+    },
+    {
+      "start": 2885,
+      "end": 2887,
+      "text": "Kasihlah komen di situ."
+    },
+    {
+      "start": 2887,
+      "end": 2891,
+      "text": "Jadi yang nge-maintain, oh tahu, oh iya itu kenapa di situ, tahu."
+    },
+    {
+      "start": 2891,
+      "end": 2897,
+      "text": "Jadi nggak perlu, ini tiba-tiba codenya aneh sendiri di sini, ini ngapain?"
+    },
+    {
+      "start": 2897,
+      "end": 2901,
+      "text": "Dikasih fix me, fix me, tapi nggak pernah dilihat lagi."
+    },
+    {
+      "start": 2902,
+      "end": 2911,
+      "text": "Iya, tuduh-tuduh akhirnya kalau dibuka tuduh ini, semua tuduh, tuduh ini apaan gitu."
+    },
+    {
+      "start": 2911,
+      "end": 2920,
+      "text": "Oke, itu kompleksiti ya?"
+    },
+    {
+      "start": 2920,
+      "end": 2923,
+      "text": "Iya kompleksiti."
+    },
+    {
+      "start": 2923,
+      "end": 2929,
+      "text": "Oh, pernah dulu ada rekan kerja walaupun nggak satu tim di kantor pertama."
+    },
+    {
+      "start": 2930,
+      "end": 2936,
+      "text": "Dia sering pake fitur komentar di kodenya, yang komentar isinya puisi."
+    },
+    {
+      "start": 2936,
+      "end": 2939,
+      "text": "Dia mengespresikan puisi."
+    },
+    {
+      "start": 2939,
+      "end": 2944,
+      "text": "Setiap kode yang dia buat itu ada puisi di atasnya."
+    },
+    {
+      "start": 2944,
+      "end": 2947,
+      "text": "Oh itu keren sih."
+    },
+    {
+      "start": 2947,
+      "end": 2953,
+      "text": "Tapi tidak pada tempatnya, mendingan tarah di Google Docs pribadi aja."
+    },
+    {
+      "start": 2953,
+      "end": 2956,
+      "text": "Jangan di kode, kan dibaca orang."
+    },
+    {
+      "start": 2956,
+      "end": 2959,
+      "text": "Kalau lagi galau kan ketauan."
+    },
+    {
+      "start": 2960,
+      "end": 2964,
+      "text": "Oh, cuma puisinya nggak ada dibuka sama kodenya, kirain kayak pantun gitu."
+    },
+    {
+      "start": 2964,
+      "end": 2967,
+      "text": "Nggak ada, kalau pantun mungkin kita ketauan."
+    },
+    {
+      "start": 2967,
+      "end": 2972,
+      "text": "Ke pasar beli manggis, ini penambah apa yang belakangnya is."
+    },
+    {
+      "start": 2972,
+      "end": 2980,
+      "text": "Oh, bagus juga tuh buat commit message, kalau nggak tau pakai apa, empat baris sendiri udah pantun kan."
+    },
+    {
+      "start": 2980,
+      "end": 2988,
+      "text": "Itu kalau jerjit dari upin dan ipin jadi programmer mungkin, kayak gitu, sudah besar."
+    },
+    {
+      "start": 2991,
+      "end": 2994,
+      "text": "Nah, selanjutnya nih, naming nih."
+    },
+    {
+      "start": 2994,
+      "end": 2996,
+      "text": "Naming."
+    },
+    {
+      "start": 2996,
+      "end": 3000,
+      "text": "Ini bisa jadi seluruh episode sendiri ini kayaknya."
+    },
+    {
+      "start": 3000,
+      "end": 3008,
+      "text": "Naming ini salah satu yang susah-susah gampang."
+    },
+    {
+      "start": 3008,
+      "end": 3012,
+      "text": "To do fix me nggak boleh, di PR nggak boleh ada kan."
+    },
+    {
+      "start": 3012,
+      "end": 3015,
+      "text": "Konsolok, print dan lain-lain juga nggak boleh kan."
+    },
+    {
+      "start": 3017,
+      "end": 3020,
+      "text": "Itu tergantung projectnya."
+    },
+    {
+      "start": 3020,
+      "end": 3028,
+      "text": "Kalau konsolok tergantung kalau misalnya memang itu di server dan memang halus di lock sesuatu yang mau dilihat, silahkan."
+    },
+    {
+      "start": 3028,
+      "end": 3035,
+      "text": "Di client juga kadang-kadang ada, kalau teman-teman buka salah satu website misalkan, terus dilihat di inspect elemen tiba-tiba ada."
+    },
+    {
+      "start": 3035,
+      "end": 3037,
+      "text": "Kadang malah career."
+    },
+    {
+      "start": 3037,
+      "end": 3043,
+      "text": "Tergantung ya."
+    },
+    {
+      "start": 3043,
+      "end": 3046,
+      "text": "Nah, balik lagi ke naming."
+    },
+    {
+      "start": 3048,
+      "end": 3054,
+      "text": "Sebisa mungkin kasih nama, function, class, variable, itu yang bermakna aja."
+    },
+    {
+      "start": 3054,
+      "end": 3063,
+      "text": "Nggak usah terlalu yang panjang-panjang A, this variable is for whatever reason, blablabla."
+    },
+    {
+      "start": 3063,
+      "end": 3066,
+      "text": "Nggak usah juga, tapi misalnya kasih nama berbeda."
+    },
+    {
+      "start": 3067,
+      "end": 3077,
+      "text": "Itu kan kadang, itu gejala, kayak gejala dari satu metode yang melakukan terlalu banyak hal, fetch data, update, blablabla."
+    },
+    {
+      "start": 3077,
+      "end": 3079,
+      "text": "Nah, itu berarti kan."
+    },
+    {
+      "start": 3079,
+      "end": 3081,
+      "text": "Berarti udah kebanyakan."
+    },
+    {
+      "start": 3081,
+      "end": 3083,
+      "text": "Udah kebanyakan."
+    },
+    {
+      "start": 3083,
+      "end": 3085,
+      "text": "Udah kebanyakan."
+    },
+    {
+      "start": 3086,
+      "end": 3096,
+      "text": "Karena kan, balik lagi ke clean code kan, apa namanya, prinsipnya clean code kan misalkan, contoh aja nih ya, satu fungsi hanya melakukan satu hal."
+    },
+    {
+      "start": 3096,
+      "end": 3107,
+      "text": "Kalau misalkan fungsinya udah melakukan misalkan login and change flag into true, active sama dengan true."
+    },
+    {
+      "start": 3107,
+      "end": 3111,
+      "text": "Nah itu kan udah dua hal, jadi harus dipisah fungsinya gitu."
+    },
+    {
+      "start": 3112,
+      "end": 3116,
+      "text": "Login and check and report suspicious user."
+    },
+    {
+      "start": 3116,
+      "end": 3119,
+      "text": "Ya, ya gitu lah."
+    },
+    {
+      "start": 3119,
+      "end": 3126,
+      "text": "Jadi sebisa mungkin, apa, nama itu biasanya menggambarkan kompositas, betul."
+    },
+    {
+      "start": 3126,
+      "end": 3131,
+      "text": "Sama satu lagi, disini nggak ada, tetapi konsistensi."
+    },
+    {
+      "start": 3132,
+      "end": 3149,
+      "text": "Saya, saya tipe orang yang bisa mengikuti, meskipun kita satu perusahaan, kadang satu projek dengan projek lain bisa mengandung opinion yang berbeda."
+    },
+    {
+      "start": 3149,
+      "end": 3151,
+      "text": "Ya, opinion yang berbeda."
+    },
+    {
+      "start": 3152,
+      "end": 3163,
+      "text": "Yang set up duluan itu engineer yang lain dan punya opinion berbeda, meskipun nanti kesamaannya ada, karakternya ada, tetapi ada hal yang berbeda."
+    },
+    {
+      "start": 3164,
+      "end": 3184,
+      "text": "Contohnya spasi sebelum, contohnya penggunaan spasi, saya nggak masalah kalau memang itu sudah jadi cost style dan dipakai."
+    },
+    {
+      "start": 3185,
+      "end": 3202,
+      "text": "Masalah yang saya permasalahkan adalah, dua hal yang sama itu tapi tidak konsisten, itu yang saya tangkap."
+    },
+    {
+      "start": 3202,
+      "end": 3209,
+      "text": "Ya kalau bisa dibikin konsisten aja, contohnya dia suka pakai early return, tapi di satu tempat yang nggak pakai early return, kenapa?"
+    },
+    {
+      "start": 3210,
+      "end": 3225,
+      "text": "Satu early return, tapi di bawah, terus di dalam satu block, dia nggak pakai early return, kenapa?"
+    },
+    {
+      "start": 3225,
+      "end": 3233,
+      "text": "Kalau memang mau pakai early return, early return kan semua konsisten dengan code changes-nya."
+    },
+    {
+      "start": 3234,
+      "end": 3246,
+      "text": "Makanya kadang ketahuan, satu dia mungkin tulis sendiri, satu lagi copy dari cgpt, copy dari cgpt atau copy style overflow atau copy dari code yang lain."
+    },
+    {
+      "start": 3246,
+      "end": 3252,
+      "text": "Atau kadang copy dari code yang lain dia roba sedikit dan kesalahan di code lain dia bawa yang sama."
+    },
+    {
+      "start": 3252,
+      "end": 3259,
+      "text": "Nanti dia komen, ini kan gue copy dari tempat lain ya, kalau memang yang tempat lain salah, dulu copy ya salah juga."
+    },
+    {
+      "start": 3260,
+      "end": 3265,
+      "text": "Salah tambah salah bukan jadi benar, salah dan salah itu salah."
+    },
+    {
+      "start": 3265,
+      "end": 3268,
+      "text": "Makin salah, makin salah."
+    },
+    {
+      "start": 3268,
+      "end": 3271,
+      "text": "Saat apa di Liverpool?"
+    },
+    {
+      "start": 3271,
+      "end": 3273,
+      "text": "Iya."
+    },
+    {
+      "start": 3273,
+      "end": 3275,
+      "text": "Masih ya."
+    },
+    {
+      "start": 3275,
+      "end": 3278,
+      "text": "Jadi konsistensi, konsistensi."
+    },
+    {
+      "start": 3278,
+      "end": 3280,
+      "text": "Konsistensi."
+    },
+    {
+      "start": 3280,
+      "end": 3282,
+      "text": "Oke."
+    },
+    {
+      "start": 3282,
+      "end": 3285,
+      "text": "Konsistensi itu bagian dari style guide ya, berarti tadi kan."
+    },
+    {
+      "start": 3285,
+      "end": 3288,
+      "text": "Tapi untungnya beberapa hal."
+    },
+    {
+      "start": 3289,
+      "end": 3290,
+      "text": "Yang mana gimana?"
+    },
+    {
+      "start": 3290,
+      "end": 3292,
+      "text": "Lanjut, lanjut."
+    },
+    {
+      "start": 3292,
+      "end": 3294,
+      "text": "Gimana tadi Eka?"
+    },
+    {
+      "start": 3294,
+      "end": 3296,
+      "text": "Dari style guide."
+    },
+    {
+      "start": 3296,
+      "end": 3298,
+      "text": "Itu kan bawahnya komen ada style tuh."
+    },
+    {
+      "start": 3298,
+      "end": 3309,
+      "text": "Berarti kan itu kan hal yang harusnya ada di style guide dong, yang kayak tadi yang kayak di return lah, atau apalah penamaan, atau casing."
+    },
+    {
+      "start": 3309,
+      "end": 3312,
+      "text": "Nah itu kan ada comment di bawahnya komen tuh."
+    },
+    {
+      "start": 3312,
+      "end": 3315,
+      "text": "Ada yang unwritten rule, ada yang unwritten rule."
+    },
+    {
+      "start": 3316,
+      "end": 3332,
+      "text": "Maksudnya secara dia nulis codenya itu, karena saya tahu sih misalnya kayak ada beberapa engineer itu yang cara modenya ya, copy sana, copy sini, satuin, oba-oba-oba."
+    },
+    {
+      "start": 3332,
+      "end": 3335,
+      "text": "Jadi gitu ada gitu, saya tahu gitu."
+    },
+    {
+      "start": 3335,
+      "end": 3343,
+      "text": "Nah itu akhirnya yang dia copy sana, copy sini, dia oba-oba sedikit itu, kerasa itu bedanya."
+    },
+    {
+      "start": 3344,
+      "end": 3346,
+      "text": "Style nya bukan style nya, ya inconsistensinya."
+    },
+    {
+      "start": 3346,
+      "end": 3348,
+      "text": "Ya inconsistensinya kerasa gitu."
+    },
+    {
+      "start": 3348,
+      "end": 3364,
+      "text": "Jadi, sebisa mungkin ya kalau emang mau, mau contoh kode orang lain, contoh aja tapi konsisten gitu, konsisten dengan apa yang kamu rubah, dengan cara nulisnya sama gitu."
+    },
+    {
+      "start": 3366,
+      "end": 3377,
+      "text": "Itu masalah di fundamental gak sih kalau yang kayak gitu, maksudnya kan kalau copy paste itu kan istilahnya bisa dibilang ini ya, hampir haram gitu ya."
+    },
+    {
+      "start": 3377,
+      "end": 3384,
+      "text": "Copy paste bener-bener copy paste buta gitu, kita gak tahu apa-apa codenya kita copy paste, terus jalanin gak berhasil kita cari yang lain sampai berhasil gitu kan."
+    },
+    {
+      "start": 3384,
+      "end": 3394,
+      "text": "Tapi cara yang benar copy paste atau menyontek yang benar adalah, ya kita pahami, oh maksudnya ini terus kita tulis ulang dengan gaya kita, gitu kan."
+    },
+    {
+      "start": 3395,
+      "end": 3397,
+      "text": "Berarti ada yang salah dengan fundamental nya dia kan."
+    },
+    {
+      "start": 3397,
+      "end": 3404,
+      "text": "Eh ya, itu namanya etos kerja kali ya."
+    },
+    {
+      "start": 3404,
+      "end": 3409,
+      "text": "Atau mungkin karena udah deadline jadi berhubung dan seterusnya dan seterusnya."
+    },
+    {
+      "start": 3409,
+      "end": 3413,
+      "text": "Ya itu malah bikin tambah repot nanti kalau harus ngetumin."
+    },
+    {
+      "start": 3414,
+      "end": 3427,
+      "text": "Itulah yang ditangkap di code review, sebisa mungkin hal-hal yang misalnya tadi kayak contohnya, contohnya saya sakit nih misalnya."
+    },
+    {
+      "start": 3428,
+      "end": 3447,
+      "text": "Tetapi waktu saya mulai sakit tuh minggu lalu hari ragu contohnya, tetapi saya punya satu tiket yang nanggung banget karena cuma sudah setengah saya kerjain. Akhirnya pagi-pagi meskipun domong saya kerjain keter-keter."
+    },
+    {
+      "start": 3448,
+      "end": 3462,
+      "text": "Saya secepat mungkin testing, lihat oke eh udah puster, ternyata waktu di code review ini nya salah, tidak salah sih apa, feedback nya banyak."
+    },
+    {
+      "start": 3463,
+      "end": 3480,
+      "text": "Ya namanya orang yang lagi. Ya gak lah fit belum 100% ya. Tapi akhirnya yang benerin ya tim yang lain. Nah enaknya kalau misalnya kita sudah, itu tadi yang kalau code nya kita rapi terus kemudian strukturnya bagus, konsisten."
+    },
+    {
+      "start": 3480,
+      "end": 3492,
+      "text": "Meskipun ada feedback karena secara design sistemnya kurang oke atau ada X cases yang terjadi. Yang tim yang lain bisa baca dan bisa perbaiki dengan benar."
+    },
+    {
+      "start": 3493,
+      "end": 3502,
+      "text": "Mudah mereka perbaiki aja, tinggal lanjutin code nya saya. Gak ada masalah gitu. Mereka cuma tinggal perlindungi satu atau dua commit, udah selesai gitu."
+    },
+    {
+      "start": 3502,
+      "end": 3515,
+      "text": "Jadi tulis, maksudnya tulis lah code yang sebisa mungkin gampang diterusin orang lain. Dan supaya gampang diterusin orang lain, gampang dibaca orang lain."
+    },
+    {
+      "start": 3516,
+      "end": 3524,
+      "text": "Gampang dimengerti orang lain. Setuju banget ini. Ini balik lagi tadi empati. Video nya hilang."
+    },
+    {
+      "start": 3524,
+      "end": 3528,
+      "text": "Mas Riza lagi berempati."
+    },
+    {
+      "start": 3529,
+      "end": 3550,
+      "text": "Iya harus empati ya. Bukan hanya empati kepada code reviewer dengan tidak commit terlalu banyak dan lain-lain seperti yang kita jelaskan tadi. Kita juga harus berempati kepada sesama engineer. Bayangkan kita berada di posisi dia satu saat, terus code kita berantakan, terus dia gak bisa ngerjain, terus dia jadi blocker buat dia."
+    },
+    {
+      "start": 3551,
+      "end": 3566,
+      "text": "Gak dapat perusahaan, jadi blocker. Gak dapat keuntungan misalkan. Gaji kita dari mana? Sebenarnya kan kalau di tilik kan begitu kan. Ujung-ujungnya kan. Jadi makanya kita harus berusaha sebisa mungkin, ya code memang dikompilasi untuk mesin."
+    },
+    {
+      "start": 3566,
+      "end": 3570,
+      "text": "Tapi code yang kita tulis itu sebisa mungkin dipahami oleh manusia."
+    },
+    {
+      "start": 3571,
+      "end": 3583,
+      "text": "Dan itu sebenarnya kultur apa ya? Kayak apa sih? Lawan katanya lingkaran setan lah. Maksud saya physical kan kalau sudah jelek, tambah jelek, lebih jelek, lebih jelek. Nah lawan katanya apa? Kenapa gak ada ya?"
+    },
+    {
+      "start": 3584,
+      "end": 3602,
+      "text": "Ya lingkaran yang positif lah. Maksud saya kalau udah kebiasa kayak gitu, makin sering kita saling melakukan code review yang konstruktif yang kayak tadi dibahas, kan kita udah kurang lebih, makin lama tuh kayak makin paham lah cara mikir sama cara nulis code teman kita."
+    },
+    {
+      "start": 3602,
+      "end": 3610,
+      "text": "Kalau suatu saat kita harus tiba-tiba take over atau apa, ya udahlah kita punya pengalaman yang kemarin-kemarin tuh kayak instingnya udah kebentuk lah ya."
+    },
+    {
+      "start": 3611,
+      "end": 3620,
+      "text": "Betul, betul. Dan itu kultur itu juga salah satu indikator kita pantas untuk masuk ke perusahaan itu atau enggak."
+    },
+    {
+      "start": 3620,
+      "end": 3630,
+      "text": "Karena percuma juga kita berempati kepada orang lain, tapi orang lain di sekitar kita tidak. Jadi yang nulis code buat orang lain, cuman kita, yang lain gak peduli gitu."
+    },
+    {
+      "start": 3630,
+      "end": 3633,
+      "text": "Ya udahlah kalau gitu tulisin puisi aja."
+    },
+    {
+      "start": 3636,
+      "end": 3644,
+      "text": "Nah itu kan jadi malah, ya itu tadi jadi lingkaran setan tadi kan akhirnya yang tadinya kita berusaha untuk memperbaiki."
+    },
+    {
+      "start": 3644,
+      "end": 3657,
+      "text": "Tapi kita berhubung kita masih baru, mungkin kita posisinya juga masih junior, otoritas kita belum ada gitu kan, kita tulis code rapi-rapi tapi orang lain malah nulis code yang jelek gitu."
+    },
+    {
+      "start": 3657,
+      "end": 3663,
+      "text": "Akhirnya ya jadi terpaksa kita ngikut, ngapain kita capek-capek nulis hal yang bagus gitu, yang lain gak peduli gitu kan."
+    },
+    {
+      "start": 3664,
+      "end": 3679,
+      "text": "Kita juga ngereview code orang juga sepertinya berempati karena gini, kita gak tahu misalnya gini saat dia baca itu, saat dia baca review kita mungkin kondisi dia sedang capek atau sedang stres ya kan."
+    },
+    {
+      "start": 3680,
+      "end": 3701,
+      "text": "Makanya sebisa mungkin review yang kita tulis itu hanya menargetkan codenya, bukan orangnya. Kedua saat kita berikan feedback itu feedback yang konstruktif dan berdasarkan fakta."
+    },
+    {
+      "start": 3702,
+      "end": 3720,
+      "text": "Contohnya kode ini bisa fatal error loh, karena begini, pikirkan case yang begini itu akan benar-benar fatal error. Ini linknya gitu, ini linknya, ini dokumentasi, fungsinya ini bisa written sesuatu yang gak kamu tangkap contohnya, yang gak kamu cek."
+    },
+    {
+      "start": 3722,
+      "end": 3743,
+      "text": "Kita coba bagaimana supaya fungsi ini lebih solid lagi gitu, nanti dia perbaiki. Dan kalau memang nitpicky dan memang kayak wah ini terlalu jelimet codenya jelek atau gak."
+    },
+    {
+      "start": 3744,
+      "end": 3760,
+      "text": "Tapi logicnya jalan gitu, tapi jeling kompleks gitu. Bilang itu kalau itu nitpicky gitu, bilang kalau itu personal province-nya kamu ini kalau bisa direfactor supaya lebih mudah."
+    },
+    {
+      "start": 3761,
+      "end": 3783,
+      "text": "Jadi tadinya fungsinya besar, bisa gak ini dipisah jadi 2-3 fungsi yang lebih solid. Jadi test-nya juga lebih gampang daripada ngetest. Karena fungsinya yang panjang, case-nya jadi lebih sulit, lebih kompleks daripada fungsinya kecil."
+    },
+    {
+      "start": 3784,
+      "end": 3805,
+      "text": "Tapi terlalu kecil juga jadi jelimet juga kebanyakan fungsi. Jadi banyak banget. Tiap return satu string, satu fungsi. Jadi ngaco juga gitu kan, jadi harus ada balance antara berapa banyak abstraction dan berapa banyak..."
+    },
+    {
+      "start": 3807,
+      "end": 3821,
+      "text": "Maksudnya ada yang benar-benar atomic function gitu. Satu fungsi yang cukup satu gitu. Sama satu lagi, code review itu bukan side job."
+    },
+    {
+      "start": 3822,
+      "end": 3839,
+      "text": "Bukan dilakukan di pekerjaan taman di tengah-tengah, ah lagi pusing mudah code review. Bukan! Jangan lakukan code review lagi pusing. Jangan lakukan code review kalau lagi pusing."
+    },
+    {
+      "start": 3840,
+      "end": 3854,
+      "text": "Percuma! Akhirnya cuma antara kalian approve aja atau reject. Code review itu pekerjaan utama."
+    },
+    {
+      "start": 3855,
+      "end": 3870,
+      "text": "Itu kalau di perusahaan gimana si ininya? Siapa yang review atau ada post review yang role-nya? Code reviewer benar-benar yang dedicated atau di rolling?"
+    },
+    {
+      "start": 3871,
+      "end": 3886,
+      "text": "Ya. Jadi bulan ini siapa yang bertugas gitu ya? Gak, gak, gak. Gantian. Kayak diajak disitu. Satu team misalnya gini, siapa yang punya waktu aja. Jadi kan kita distributed team, jadi time zone nya beda-beda."
+    },
+    {
+      "start": 3887,
+      "end": 3906,
+      "text": "Kalau saya suka, code review itu pagi-pagi. Jadi misalnya yang di EMDA, Eropa, sudah kerja nih sekarang. Udah selesai, udah nge-post. Ntar lagi dia nge-post semua tuh, besok paginya saya review pagi-pagi tenang-tenang."
+    },
+    {
+      "start": 3907,
+      "end": 3924,
+      "text": "Nah, kan yang paling lama itu nge-review yang pertama. Setelah feedbacknya selesai, saya gak nge-review semua lagi. Saya cuma nge-review per commit. Per commit nya aja yang saya review. Gak saya review lagi dari awal."
+    },
+    {
+      "start": 3925,
+      "end": 3945,
+      "text": "Gitu. Jadi treat code review itu sama sebagai pekerjaan utama. Memang kalau nge-block time 2 jam untuk code review, ya block aja 2 jam untuk code review. Jadi bukan pekerjaan sampingan."
+    },
+    {
+      "start": 3946,
+      "end": 3956,
+      "text": "Nah, dan bukan beban ya. Bukan sesuatu yang membahannya. Kita tetap kode kita harus nge-coding 8 jam ditambah code review. Gak kan?"
+    },
+    {
+      "start": 3956,
+      "end": 3958,
+      "text": "Nah enggak, itu kan masuk 8 jamnya itu. Kalo emang..."
+    },
+    {
+      "start": 3958,
+      "end": 3970,
+      "text": "Masuk 8 jam. Yang misalkan code review nya 2 jam, ya coding kita waktunya 6 jam gitu kan. Jadi bukan sambilan dan bukan beban yang harus kayak apa ya, bukan lembur ya."
+    },
+    {
+      "start": 3970,
+      "end": 3972,
+      "text": "Bukan amal."
+    },
+    {
+      "start": 3972,
+      "end": 3974,
+      "text": "Amal."
+    },
+    {
+      "start": 3975,
+      "end": 3989,
+      "text": "Tadi ada yang menyinggung juga tentang guideline. Untungnya sekarang tools itu sudah mulai banyak kan. Contohnya kayak yang tadi ya, lean stage, husky, explain, prettier, ya formatter gitu lah ya."
+    },
+    {
+      "start": 3989,
+      "end": 3994,
+      "text": "Itu cukup membantu untuk styling supaya konsisten kan."
+    },
+    {
+      "start": 3995,
+      "end": 4006,
+      "text": "Ya mungkin ada di satu kantor misalkan, di satu team yang satu pakai titik oma, yang satu gak pakai titik oma. Terus begitu masuk per tier udah ditambahin titik oma semua misalkan."
+    },
+    {
+      "start": 4006,
+      "end": 4017,
+      "text": "Jadi kan udah konsisten. Jadi enaknya sekarang salah satunya itu ya. Ini berkaitan juga dengan style guide. Style guide biasanya sekarang udah ada tools nya ya."
+    },
+    {
+      "start": 4018,
+      "end": 4025,
+      "text": "Nah sekarang pertanyaan saya adalah, siapa yang masih pakai komen? Kayaknya sekarang gak trend lagi ya semenjak ada chat GPT dan co-pilot ya."
+    },
+    {
+      "start": 4025,
+      "end": 4028,
+      "text": "Jadi pakai komen-komen-komen gitu. Kalau dulu kan kayak..."
+    },
+    {
+      "start": 4028,
+      "end": 4030,
+      "text": "Ya kan abis itu bisa dihilangin."
+    },
+    {
+      "start": 4030,
+      "end": 4032,
+      "text": "Oh iya."
+    },
+    {
+      "start": 4032,
+      "end": 4042,
+      "text": "Gak tau ya temen-temen setuju atau enggak. Kalau saya sih lebih setuju kalau kode kita gak perlu ada komentarnya, kita udah mengerti itu baru kode yang bagus."
+    },
+    {
+      "start": 4043,
+      "end": 4048,
+      "text": "Kalau butuh komentar artinya itu rumit, kompleks, lebih kompleks."
+    },
+    {
+      "start": 4048,
+      "end": 4051,
+      "text": "Kalau klik yang \"how to do code review\" ini itu kan ada tuh."
+    },
+    {
+      "start": 4051,
+      "end": 4060,
+      "text": "Kila dokumentasi code review aja lengkap banget ya."
+    },
+    {
+      "start": 4060,
+      "end": 4062,
+      "text": "Iya."
+    },
+    {
+      "start": 4062,
+      "end": 4067,
+      "text": "Sorry yang di looking for, what to look for in code review."
+    },
+    {
+      "start": 4067,
+      "end": 4070,
+      "text": "What to look for in code review."
+    },
+    {
+      "start": 4071,
+      "end": 4073,
+      "text": "Oh ini penjelasan dari setiap step nya ya."
+    },
+    {
+      "start": 4073,
+      "end": 4075,
+      "text": "Turun, turun, turun, turun."
+    },
+    {
+      "start": 4075,
+      "end": 4077,
+      "text": "Yup tuh."
+    },
+    {
+      "start": 4077,
+      "end": 4083,
+      "text": "Usually comments are useful when they explain why some code exists."
+    },
+    {
+      "start": 4083,
+      "end": 4085,
+      "text": "Bukan what ya."
+    },
+    {
+      "start": 4085,
+      "end": 4093,
+      "text": "Yang kayak gue bilang tadi kenapa kode itu disitu secara spesifik, tiba-tiba dia nongol disitu, kenapa gitu."
+    },
+    {
+      "start": 4094,
+      "end": 4113,
+      "text": "Karena kita punya konteks, jadi kita ngasih komen itu supaya yang lain atau ngebaca itu gak ngabisin waktu, bongkar-bongkar lagi."
+    },
+    {
+      "start": 4113,
+      "end": 4121,
+      "text": "Jadi, if the code isn't clear enough to explain, then the code should make simpler."
+    },
+    {
+      "start": 4121,
+      "end": 4123,
+      "text": "Iya."
+    },
+    {
+      "start": 4124,
+      "end": 4125,
+      "text": "Tentang kodenya ya."
+    },
+    {
+      "start": 4125,
+      "end": 4130,
+      "text": "Bukan what is the code for, tapi why."
+    },
+    {
+      "start": 4130,
+      "end": 4143,
+      "text": "Tapi itu yang spesifik ya, yang kayak yang spesifik-spesifik komen, spesifik case biasanya."
+    },
+    {
+      "start": 4143,
+      "end": 4153,
+      "text": "Yes. Ini kayaknya dari komentar-komentar temen-temen disini kayaknya banyak sekali yang mengalami bad experience ya dengan perusahaan."
+    },
+    {
+      "start": 4154,
+      "end": 4169,
+      "text": "Teknisnya sih ya, karena kayaknya faktanya rata-rata kalau misalnya perusahaan yang belum punya kultur kayak gini dan mungkin kliennya bukan klien enterprise yang juga udah familiar dengan kultur kayak gini, kayak dunianya beda banget gak sih?"
+    },
+    {
+      "start": 4169,
+      "end": 4171,
+      "text": "Dunia yang berbeda, betul-betul."
+    },
+    {
+      "start": 4171,
+      "end": 4173,
+      "text": "Kayak jauh banget."
+    },
+    {
+      "start": 4174,
+      "end": 4185,
+      "text": "Iya. Konsultan itu identik dengan deadline dan deadline yang ketat dan lembur dan lain-lain ya kalau di Indonesia ya. Kalau di luar, setidaknya sama."
+    },
+    {
+      "start": 4185,
+      "end": 4187,
+      "text": "Ya deadline lah di mana-mana."
+    },
+    {
+      "start": 4188,
+      "end": 4208,
+      "text": "Kerjaan sama, maksudnya apa ya, kalau konsultan itu ya tipes gitu. Jaminan tipes gitu, kerjaannya parah gitu kan, gak sesuai. Kalau deadline ya udah pastilah. Semua yang buat kerja juga pasti ada deadline, kalau gak ada deadline ya gak telat-telar kan."
+    },
+    {
+      "start": 4209,
+      "end": 4221,
+      "text": "Jadi bukan maksudnya ada deadline atau gak ada deadline, lebih ke prosesnya, bagaimana proses mencapai kesanannya."
+    },
+    {
+      "start": 4224,
+      "end": 4239,
+      "text": "Mungkin gak cuma perusahaan tapi kliennya juga, customernya mungkin kalau di luar kan, customernya apa ya, ya mungkin dari yang kelas kerja rodi atau kelas kekeluargaan sampai kelas yang enterprise yang emang semua harus by the book."
+    },
+    {
+      "start": 4240,
+      "end": 4267,
+      "text": "Karena itu juga terikat hukum, hukum di sana kan mungkin lebih ketat juga ya kalau misalnya apalah ada security issue atau apapun itu. Jadi mungkin kalau di internasional ya kayak kita punya, kita sebagai developer punya atau apalah production house, software house atau korporat atau apa kayaknya opsinya tuh macem-macem lebih luas aja mungkin ya daripada di sini."
+    },
+    {
+      "start": 4268,
+      "end": 4278,
+      "text": "Nah ini ada pertanyaan bagus juga, clean code versus performance, mana yang harus didahulukan?"
+    },
+    {
+      "start": 4279,
+      "end": 4306,
+      "text": "Biasanya saling terkait sih, kalau kode kita jelek agak susah tuh memperbaiki performance-nya, bener gak? Performance itu kan ada dua hal, satu performance dalam maintain code-nya dan kecepatan mengandalkan code, dan user dari execution speed dari kode itu sendiri kan."
+    },
+    {
+      "start": 4307,
+      "end": 4319,
+      "text": "Betul, betul. Jadi saya bilang itu bukan versus tapi berbanding lurus. Iya berbanding lurus. Iya. Jadi dua-duanya harus didahulukan."
+    },
+    {
+      "start": 4320,
+      "end": 4339,
+      "text": "Dan ada beberapa lagi yang lain untuk, ini juga pertanyaan menarik nih, kalau untuk fresh grad yang mau ngelamar junior, hal-hal kayak gini itu di-training dulu atau perusahaan sudah berharap bahwa kita udah paham?"
+    },
+    {
+      "start": 4339,
+      "end": 4342,
+      "text": "Ada onboarding pasti di setiap perusahaan."
+    },
+    {
+      "start": 4343,
+      "end": 4354,
+      "text": "Itu kuncinya onboarding. Kalau emang ada, maksudnya kalau emang perusahaan merapuin hal itu. Nah kalau perusahaan kayak kan di komen pada bahas tuh, kalau perusahaan itu kan masih kolot atau biografis atau apa."
+    },
+    {
+      "start": 4354,
+      "end": 4364,
+      "text": "Jangan-jangan malah kita lebih tahu daripada push-push-nya. Nah kalau itu susah ya, karena emang belum ada kulturnya sama sekali. Ya udah itu mau pasang aja kali."
+    },
+    {
+      "start": 4365,
+      "end": 4381,
+      "text": "Ya kalian jadi, kalau belum ada kalian jadi agent of change lah. Betul. Ini juga mengingatkan teman-teman di sini yang udah jadi senior, yang dulu mengalami pembulian tanpa ada mentoring, gak ada code review dan lain-lain."
+    },
+    {
+      "start": 4381,
+      "end": 4389,
+      "text": "Yang udah senior, yang udah punya otoritas di kantornya, tolong dong jangan sampai hal itu kejadian sama teman-teman yang junior gitu ya."
+    },
+    {
+      "start": 4390,
+      "end": 4398,
+      "text": "Jangan bantu junior-nya untuk memecah lingkaran setan menjadi lingkaran yang lebih baik gitu. Jangan malah mengikuti."
+    },
+    {
+      "start": 4398,
+      "end": 4411,
+      "text": "Dan balik lagi ya, kultur onboarding itu biasanya ada di perusahaan-perusahaan tertentu gak di semua. Nah ini ada best practice-nya gak?"
+    },
+    {
+      "start": 4412,
+      "end": 4420,
+      "text": "Buat milih perusahaan yang sudah menerapkan practice-practice yang kita omongin tadi."
+    },
+    {
+      "start": 4424,
+      "end": 4443,
+      "text": "Kecuali emang perusahaannya punya blog dan kebetulan blog post-nya ada mendetailkan code review. Enggendering blog ya. Iya tapi kan gak semua. Kalaupun ada belum tentu mereka nulis blog tentang itu kan."
+    },
+    {
+      "start": 4444,
+      "end": 4456,
+      "text": "Maksudnya realistis lah bergantung ke kita B.U. atau enggak. Maksudnya kita kan misalnya lagi butuh cari kerja nih. Misalnya kita gak, kecuali emang lagi nyari santai, emang udah ada job, nyari-nyari santai."
+    },
+    {
+      "start": 4456,
+      "end": 4470,
+      "text": "Kalau ketemu yang menarik, oke lah coba. Cuma kalau misalnya lagi belum ada kerjaan, B.U. ya udah realistis. Masa nyari yang punya engineering blog dan membahas code review dulu kayaknya."
+    },
+    {
+      "start": 4471,
+      "end": 4482,
+      "text": "Salah satu tipsnya sebenarnya mungkin agak susah dilakukan ya. Terutama buat fresh graduate yang masih malu-malu itu adalah kontak developer yang ada di perusahaan itu."
+    },
+    {
+      "start": 4486,
+      "end": 4505,
+      "text": "Entah mungkin ada teman yang di sana atau bisa contact, cari lewat link-in, langsung call, message gitu ya. Mungkin belum tentu dibalas juga sih ya. Atau pada saat interview atau pada saat datang ke kantor gitu kan."
+    },
+    {
+      "start": 4506,
+      "end": 4518,
+      "text": "- Terus kan ada kayak... - Kita tanya aja, kalau pas interview kan. - Iya, kayak tour gitu kan. Ini developmentnya, yaudah tukar kartu nama atau tukar nomor whatsapp gitu kan. Abis itu tanya-tanya."
+    },
+    {
+      "start": 4518,
+      "end": 4527,
+      "text": "- Gak ada cara lain sih. - Biasanya HR kan kalau saat interview kan pasti diujun ada yang mau ditanya. - Ada pertanyaan gak?"
+    },
+    {
+      "start": 4528,
+      "end": 4536,
+      "text": "- Itu listnya, on-boardingnya gimana, code review. - Kalau sama SR mungkin agak sedikit berbeda ya, tapi mungkin sama..."
+    },
+    {
+      "start": 4536,
+      "end": 4544,
+      "text": "Kalau lowest biasanya kan hapus selanjutnya pasti sama someone dari team engineeringnya."
+    },
+    {
+      "start": 4544,
+      "end": 4554,
+      "text": "Kalian tanya aja, bagaimana proses code review, bagaimana code styling kalian, best practicesnya ada dimana, bisa saya baca gak, tanyain semua tuh."
+    },
+    {
+      "start": 4555,
+      "end": 4562,
+      "text": "- Dan jawab, itu apa ya? - Reflect."
+    },
+    {
+      "start": 4562,
+      "end": 4574,
+      "text": "Kalau cara meyakinkan team product, ya harus di edukasi sih. Sama kayak cara meyakinkan klien, klien dari konsultan tadi."
+    },
+    {
+      "start": 4575,
+      "end": 4585,
+      "text": "Di luar mungkin kliennya sudah lebih di edukasi untuk oh ternyata proses yang benarnya seperti ini, memakan waktu agak lama karena ada testing, ada ini, ada ini tapi..."
+    },
+    {
+      "start": 4585,
+      "end": 4591,
+      "text": "Bugs-nya minimal sehingga delivery-nya in total sama aja sebenarnya, cuma prosesnya mungkin agak lambat di awal gitu kan."
+    },
+    {
+      "start": 4591,
+      "end": 4595,
+      "text": "Itu harus di edukasi sih, kultur lagi, balik lagi ke kultur."
+    },
+    {
+      "start": 4596,
+      "end": 4606,
+      "text": "Kita mesti pinter ngerjemahin ke value ekonomi, kayak misalnya kalau ada bug, tapi mungkin kita harus ngumpulin data ya, ngeresepnya gimana."
+    },
+    {
+      "start": 4606,
+      "end": 4617,
+      "text": "Jadi misalnya kalau, apa begu-beguannya nih, kalau ada bug, ternyata selain panik, dadakan, di jam yang kita gak tahu, belum tentu ada developer on call."
+    },
+    {
+      "start": 4618,
+      "end": 4627,
+      "text": "Bener-nya fixing bug itu butuh main hour, dev hour itu sekian jam. Sedangkan kalau misalnya 3 jam total."
+    },
+    {
+      "start": 4627,
+      "end": 4636,
+      "text": "Ada risiko ketidakpastian dan downtime-nya jadi lama kalau ada isunya di jam yang gak ada yang on call atau apalah."
+    },
+    {
+      "start": 4636,
+      "end": 4645,
+      "text": "Ya agap aja 3 jam dan ini ada dampak negatif. Tapi kalau kita code review, itu cuma 2 jam."
+    },
+    {
+      "start": 4646,
+      "end": 4653,
+      "text": "Kita harus bisa membahasakan itu dengan konkret ya, kalau mau meyakinkan ke apa? Organisasi."
+    },
+    {
+      "start": 4653,
+      "end": 4658,
+      "text": "Tapi lagi-lagi ini hipotesa, gue juga belum pernah nyoba kayak gini sih."
+    },
+    {
+      "start": 4658,
+      "end": 4669,
+      "text": "Tapi kan itu satu-satunya bahasa yang mereka akan paham kan, maksudnya jadi bukan cuma karena pengen-pengenannya engineer atau karena trend."
+    },
+    {
+      "start": 4670,
+      "end": 4678,
+      "text": "Ya jadi ini bukan perkara selera, tapi emang ini praktek yang menguntungkan organisasi. Kita harus bisa membawa angka sih."
+    },
+    {
+      "start": 4678,
+      "end": 4683,
+      "text": "Membawa angka, betul-betul. Apalagi sama tim bisnis ya."
+    },
+    {
+      "start": 4683,
+      "end": 4697,
+      "text": "Yang ini juga apa namanya, ini kasus yang lain. Contohnya anggap aja si company itu menghayat agensi."
+    },
+    {
+      "start": 4698,
+      "end": 4706,
+      "text": "Jadi company itu juga punya tim IT-nya atau tim programmernya yang dimasukin ke projek yang sama."
+    },
+    {
+      "start": 4706,
+      "end": 4711,
+      "text": "Jadi sebenarnya emang kayak transfer knowledge. Transfer knowledge."
+    },
+    {
+      "start": 4711,
+      "end": 4718,
+      "text": "Jadi value editnya kita sebagai agensi, kita saling code review."
+    },
+    {
+      "start": 4718,
+      "end": 4723,
+      "text": "Jadi kita code review kodenya mereka supaya kita pastiin kodenya mereka sesuai dengan standard kita."
+    },
+    {
+      "start": 4724,
+      "end": 4740,
+      "text": "Bagi si company, timnya mereka juga grow karena dari teknologi yang mereka belum bisa, dapat teknologi dari agensi dari third party."
+    },
+    {
+      "start": 4741,
+      "end": 4758,
+      "text": "Sehingga timnya mereka grow juga. Yang ujung-ujungnya mereka lama-lama bisa self sustain untuk maintain code itu kan gak selamanya bisa perlu gontorin dana untuk hire agensinya."
+    },
+    {
+      "start": 4758,
+      "end": 4765,
+      "text": "Jadi sebenarnya sama-sama grow. Itu juga bisa."
+    },
+    {
+      "start": 4766,
+      "end": 4776,
+      "text": "Nah itu kan balik ke duit juga kan. Maksudnya apa, jadi mereka bisa tetap jalan itu gak kebuang, gak sia-sia mereka bisa tetap jalan entah cari agensi lain atau maintain sendiri atau apalah."
+    },
+    {
+      "start": 4776,
+      "end": 4786,
+      "text": "Nah itu kan berarti ada kayak value ekonomi lah finansial yang konkret. Jadi UUD, ujung-ujungnya duit semua."
+    },
+    {
+      "start": 4787,
+      "end": 4800,
+      "text": "Sudah pasti itu. Oke ini pertanyaannya seru-seru ya ternyata ya. Ini ada pertanyaan yang menurut saya menarik tapi masih ada hubungannya ya."
+    },
+    {
+      "start": 4801,
+      "end": 4819,
+      "text": "Satu codebase repository apakah dalam gitflow itu harusnya ada minimal empat brand atau bisa lebih. Maksudnya apakah brand, itu feature ya, develop feature ya harus diapus atau dipertahankan. Mungkin siapa, Charles ya. Saya mau sedikit meluruskan, sedikit meluruskan tentang gitflow."
+    },
+    {
+      "start": 4820,
+      "end": 4832,
+      "text": "Jadi ada artikel yang cukup viral dari Pak Vincent ini. Dulu dia yang menggagas gitflow tapi ada note-nya."
+    },
+    {
+      "start": 4833,
+      "end": 4850,
+      "text": "Tapi di 2020 setelah 10 tahun artikel dia beredar, dia menyatakan bahwa ini bukan untuk semua, bukan best practice lah, bukan best practice lagi."
+    },
+    {
+      "start": 4851,
+      "end": 4867,
+      "text": "Jadi kalau misalkan tim kita sudah melakukan continuous delivery, dia lebih menyarankan untuk mengadopsi workflow yang lebih simple. Contohnya gitflow dengan pull request dan lain-lain, atau pakai trunkbase development."
+    },
+    {
+      "start": 4868,
+      "end": 4883,
+      "text": "Trunkbase ini lebih sederhana karena cuma ada 2, master sama yang featuring ini tadi. Udah itu doang. Jadi nggak ada dev, nggak ada apa-apa, cuma master sama feed-feed aja. Begitu sudah selesai, dimers, yang ini dihapus."
+    },
+    {
+      "start": 4884,
+      "end": 4900,
+      "text": "Itu saja. Jangan cari yang sulit-sulit ya. Yang simpel-simpel aja. Dan benar tadi ya, yang melanjutkan tadi Pak, yang kita approach ke orang yang sudah bekerja di sana."
+    },
+    {
+      "start": 4901,
+      "end": 4914,
+      "text": "Ya kita coba aja ngobrol aja biasa. Kalau dia setelahnya respons-nya bagus, artinya ya berarti ini kayaknya oke juga nih perusahaan. Karena dia memberikan respons-nya bagus."
+    },
+    {
+      "start": 4914,
+      "end": 4917,
+      "text": "Kalau misalkan apaan sih? Belum gabung aja, udah nanya-nanya, nah berarti itu."
+    },
+    {
+      "start": 4918,
+      "end": 4931,
+      "text": "Kayaknya nggak mungkin senyolot itu. Cuman misalnya mereka nggak boleh entah karena alesan apa, nggak boleh. Nggak boleh ngomong. Expose itu kan ya paling ada deh, ya kan paling dijawab ngeles gitu kan."
+    },
+    {
+      "start": 4931,
+      "end": 4936,
+      "text": "Atau kalau emang mereka nggak pengen ngejawab kan ya itu. Kalau chat kan tinggal diignore aja ya."
+    },
+    {
+      "start": 4936,
+      "end": 4941,
+      "text": "Iya kalau chat tinggal diignore. Kayaknya nggak mungkin di marah-marahin."
+    },
+    {
+      "start": 4942,
+      "end": 4950,
+      "text": "Dimarahin sih nggak mungkin. Cuman maksudnya kayak tadi kan nggak boleh ngomong. Kalau nggak boleh kan tinggal ngeles aja."
+    },
+    {
+      "start": 4950,
+      "end": 4960,
+      "text": "Iya kalau chat nggak boleh berarti perusahaannya agak tertutup, nggak open gitu kan. Maksudnya secara kulturnya. Jadi kita bisa nilai juga gitu."
+    },
+    {
+      "start": 4967,
+      "end": 4973,
+      "text": "Yang terakhir itu boleh minta link-nya. Oke, link yang ini ya. - Tadi yang Trunk-based."
+    },
+    {
+      "start": 4973,
+      "end": 4980,
+      "text": "Ini yang Gitflow, yang ini Trunk-based. Siap."
+    },
+    {
+      "start": 4980,
+      "end": 4991,
+      "text": "Oke, tentang code review. Ada lagi yang mau dibahas? - Ini ada coba dibuka yang chat GPP yang di Google Docs."
+    },
+    {
+      "start": 4992,
+      "end": 4997,
+      "text": "Oh iya, iya. Udah dibuka, udah dibuka. Ini kan on-demand review. - Yang on-demand code review."
+    },
+    {
+      "start": 4997,
+      "end": 5001,
+      "text": "Tadi kayaknya ada yang komen chat GPP juga. - Bahu, Bahu."
+    },
+    {
+      "start": 5001,
+      "end": 5008,
+      "text": "Bahu tadi nge-check bahwa bisa jaman sekarang bisa direview oleh AI."
+    },
+    {
+      "start": 5008,
+      "end": 5017,
+      "text": "Dan ini bukan bahas yang tadi ya. Bukan yang apa kayak linting, formatting, bukan apa CI pipeline yang itu."
+    },
+    {
+      "start": 5018,
+      "end": 5022,
+      "text": "Cuma beneran literally please review my code. Ini lucu sih."
+    },
+    {
+      "start": 5022,
+      "end": 5027,
+      "text": "Ya gue belum pernah lihat orang yang beneran kayak gini. Cuma baru lihat di artikel ini."
+    },
+    {
+      "start": 5027,
+      "end": 5032,
+      "text": "Tapi maksudnya dengan adanya large language model kan LLM emang jadi bisa kayak gini."
+    },
+    {
+      "start": 5032,
+      "end": 5039,
+      "text": "Cuma pertanyaannya, ini cuma lucu-lucu artikel seru-seruan doang. Cuma what if, cuma ide doang."
+    },
+    {
+      "start": 5040,
+      "end": 5051,
+      "text": "Atau apakah ini beneran visible gitu. Soalnya si AI ini kan apakah berarti AI mempelajari seluruh code base di organisasi itu atau gimana ya itu?"
+    },
+    {
+      "start": 5051,
+      "end": 5061,
+      "text": "Gak tahu ya. Ini gimana ya. Saya belum pernah sih nyobain tanyain GPT atau LLM."
+    },
+    {
+      "start": 5062,
+      "end": 5070,
+      "text": "Sekarang misalnya ada nggak cowo gitu kalau yang di screenshot ini. Coba deh lihat, scroll ke..."
+    },
+    {
+      "start": 5070,
+      "end": 5075,
+      "text": "Saya sudah coba pakai yang Copilot. Kalau misalnya Copilot itu untuk mengerti seluruh code base, gak bisa."
+    },
+    {
+      "start": 5075,
+      "end": 5080,
+      "text": "Tetapi kalau untuk mengerti satu function itu bagus kok."
+    },
+    {
+      "start": 5081,
+      "end": 5092,
+      "text": "Ini tab bot di Github kan. Pakai GPD. Pakai OpenAI punya gitu ya."
+    },
+    {
+      "start": 5092,
+      "end": 5100,
+      "text": "GPD 3.35. Terus bisa pakai text Da Vinci. Da Vinci itu modelnya siapa ya?"
+    },
+    {
+      "start": 5101,
+      "end": 5111,
+      "text": "Modelnya OpenAI. Udah gak ada. Deprecated. Sekarang yang 3.5. Yang terlama."
+    },
+    {
+      "start": 5111,
+      "end": 5125,
+      "text": "Jadi kalau ada yang PR masuk ke Github. Terus di review oleh review bot. Terus masuk ke git diff. Terus abis itu dia create dynamic prompt and post request."
+    },
+    {
+      "start": 5126,
+      "end": 5138,
+      "text": "Terus bikin promptingnya. Terus request ke API, OpenAI API. Terus dapet review suggestion-nya dikirim balik ke Github."
+    },
+    {
+      "start": 5138,
+      "end": 5147,
+      "text": "Ini maksudnya seru secara konsep. Ini lo malah diseru tuh, nomor satu, add more comments."
+    },
+    {
+      "start": 5151,
+      "end": 5159,
+      "text": "Ini mungkin bisa dibaca sebagai, saya gak ngerti kode kamu, tolong bikinin comment biar saya ngerti bahasa Inggris."
+    },
+    {
+      "start": 5159,
+      "end": 5169,
+      "text": "Ini kan tergantung juga, tadi kan yang kita baca itu contoh aja praktek di Google, satu perusahaan sendiri."
+    },
+    {
+      "start": 5170,
+      "end": 5181,
+      "text": "Soalnya ini kan si LLM-nya ini gak punya opini, gak punya basis, gak punya landasan buat melakukan kode review ya."
+    },
+    {
+      "start": 5181,
+      "end": 5194,
+      "text": "Terus apa ya, LLM itu kan kayak non-deterministik ya. Mungkin gak sih jangan-jangan kita manggil review bot sekarang."
+    },
+    {
+      "start": 5195,
+      "end": 5201,
+      "text": "Terus semua dikasih komen. Oke lah, anggap aja dia standarnya gitu. Minggu depan kita manggil review bot lagi."
+    },
+    {
+      "start": 5201,
+      "end": 5208,
+      "text": "Terus malah jangan kebanyakan komen. Make the variable name obvious. Itu kan malah sampai redaktif ya."
+    },
+    {
+      "start": 5208,
+      "end": 5213,
+      "text": "Dia random kan, ada random-nya kan. Jawabannya bisa beda-beda kan."
+    },
+    {
+      "start": 5213,
+      "end": 5224,
+      "text": "Mungkin ini sebagai starter aja buat guide untuk si reviewer untuk mereview."
+    },
+    {
+      "start": 5226,
+      "end": 5235,
+      "text": "Oh ini ada itu sih di challenge, dia si penulis artikelnya juga ngejelasin kok di bagian challenges."
+    },
+    {
+      "start": 5235,
+      "end": 5238,
+      "text": "Ini dia yang bikin berarti ya? Dia pengen bikin seperti ini gitu ya?"
+    },
+    {
+      "start": 5238,
+      "end": 5248,
+      "text": "Enggak, kayaknya dia pakai package yang udah ada, cuma dia mereview. Dia ngejelasin bisa kayak gini, kita bisa melakukan ini."
+    },
+    {
+      "start": 5249,
+      "end": 5258,
+      "text": "Masalah apa, manfaatnya apa. Terus challenges-nya dia juga ngejelasin nih, ada context, blablabla."
+    },
+    {
+      "start": 5258,
+      "end": 5262,
+      "text": "This is due to a limited understanding of the codebase context."
+    },
+    {
+      "start": 5262,
+      "end": 5269,
+      "text": "Terus yang kedua, security and privacy, ya itu jelas. Sama yang ketiga nih, yang tadi kita bahas."
+    },
+    {
+      "start": 5270,
+      "end": 5281,
+      "text": "Dikit model bias, tergantung training data yang dia pakai. Nah itu kan mesti code yang dia pakai sebagai training data kan bisa lain-lain."
+    },
+    {
+      "start": 5281,
+      "end": 5286,
+      "text": "Itu males juga kalau minggu ini disuruh nambah komen, minggu depan disuruh remove komen."
+    },
+    {
+      "start": 5286,
+      "end": 5297,
+      "text": "Sama itu, halusinasi satu lagi. Biasanya kalau kodenya bahasa-bahasa yang umum gitu ya, itu masih dia masih mengerti."
+    },
+    {
+      "start": 5298,
+      "end": 5304,
+      "text": "Kalau misalkan kodenya, kalau kata mas Arya Hidayat tuh, kalau juur itu ngaco tuh, cat GPT."
+    },
+    {
+      "start": 5304,
+      "end": 5310,
+      "text": "- Karena nggak ada training datanya kali. - Iya sedikit training datanya, sedikit."
+    },
+    {
+      "start": 5310,
+      "end": 5315,
+      "text": "- Terus setiap bingung arang-arang aja udah sisanya. - Iya, halus jadinya kan, gitu."
+    },
+    {
+      "start": 5315,
+      "end": 5326,
+      "text": "Tapi menarik ya. Tools sekarang kan, ya tadi kan dari mulai styling doang, formatting doang, sekarang bahkan udah sampai dependable, itu paling sering."
+    },
+    {
+      "start": 5327,
+      "end": 5329,
+      "text": "Depanda bot, renovate bot."
+    },
+    {
+      "start": 5329,
+      "end": 5341,
+      "text": "Terus sekarang ada untuk reviewer. Jadi sebenarnya ya meskipun kalau dipakai untuk nge-review kayaknya masih belum ya, karena nggak konsisten tadi ada 3-3 problem tadi, 4 lah sama halus."
+    },
+    {
+      "start": 5341,
+      "end": 5351,
+      "text": "Tapi setidaknya kalau kita nggak tahu mau mulai start dari mana untuk nge-review, mungkin kita bisa lihat dulu, oh si review bot ini dia nge-review tentang ini, tentang ini, tentang ini."
+    },
+    {
+      "start": 5351,
+      "end": 5355,
+      "text": "Mungkin kita bisa mulai dari situ untuk belajar cara nge-review code."
+    },
+    {
+      "start": 5356,
+      "end": 5366,
+      "text": "Atau mungkin kalau tempat kerja kita sendiri nggak punya sistem code review, terus kita punya personal project, iseng pengen tahu gimana sih rasanya di code review."
+    },
+    {
+      "start": 5366,
+      "end": 5372,
+      "text": "Walaupun bukan sama orang, lumayan lah latihan di code review sama robot."
+    },
+    {
+      "start": 5372,
+      "end": 5375,
+      "text": "Oh iya benar, benar."
+    },
+    {
+      "start": 5375,
+      "end": 5381,
+      "text": "Kalau halus atau kalau rese, ya udah di-disable, tinggal dimatiin aja kan."
+    },
+    {
+      "start": 5382,
+      "end": 5388,
+      "text": "Benar. Cigpti soal join subquery malah dikasih sintaksnya Laravel, tapi jalan ya."
+    },
+    {
+      "start": 5388,
+      "end": 5396,
+      "text": "Berarti kode Laravel banyak jadi itu ya, jadi training data ya, luar biasa."
+    },
+    {
+      "start": 5396,
+      "end": 5404,
+      "text": "Karena Laravel itu dokumentasinya banyak, berbagi bahasa."
+    },
+    {
+      "start": 5404,
+      "end": 5407,
+      "text": "Dan versi nya udah banyak banget, kan udah puluhan tahun."
+    },
+    {
+      "start": 5407,
+      "end": 5410,
+      "text": "Iya, iya, iya. Benar, benar, benar."
+    },
+    {
+      "start": 5411,
+      "end": 5416,
+      "text": "Oke, ada lagi yang mau disampaikan mengenai code review? Sudah, aman?"
+    },
+    {
+      "start": 5416,
+      "end": 5421,
+      "text": "Udah. Ini ada Marsudi, nanti datang di DevFest Depok tidak."
+    },
+    {
+      "start": 5421,
+      "end": 5425,
+      "text": "Saya absen dulu di Depok, kita ke Bogor loh, kita di Bogor."
+    },
+    {
+      "start": 5425,
+      "end": 5428,
+      "text": "Kita bertiga di Bogor nanti akan ada di Bogor."
+    },
+    {
+      "start": 5428,
+      "end": 5435,
+      "text": "Jadi kalau ada teman-teman yang berada di Bogor dan sekitarnya, Jakarta boleh lah ya main-main ke Bogor."
+    },
+    {
+      "start": 5436,
+      "end": 5441,
+      "text": "Sangal berapa? Sangal 25 November. Yes. Daging."
+    },
+    {
+      "start": 5441,
+      "end": 5446,
+      "text": "Nah ini, daging. Daging apa ya? Kontennya daging. Terima kasih."
+    },
+    {
+      "start": 5446,
+      "end": 5452,
+      "text": "Padahal kalau daging semua bahaya ya, harusnya ada tulang juga, kolester."
+    },
+    {
+      "start": 5452,
+      "end": 5462,
+      "text": "Oke kalau gitu, mungkin udah hand dulu untuk malam hari ini kita ketemu lagi minggu depan dengan topik yang berbeda."
+    },
+    {
+      "start": 5463,
+      "end": 5473,
+      "text": "Buat semuanya yang udah ikutan diskusi juga, seperti biasa kritik saran dan topik bisa kirimkan ke kesana.in/ngobrolinweb."
+    },
+    {
+      "start": 5473,
+      "end": 5483,
+      "text": "Mungkin minggu depan kita akan coba review yang ada di sini, yang ada di Slido untuk topik-topik yang akan kita bahas ke depannya."
+    },
+    {
+      "start": 5483,
+      "end": 5490,
+      "text": "Sekian dulu buat malam hari ini, kita bertiga pamit, sampai jumpa minggu depan."
+    },
+    {
+      "start": 5493,
+      "end": 5495,
+      "text": "Terimakasih sudah menonton."
+    }
+  ],
+  "fullText": "(musik) Halo, halo, halo. Selamat malam. Selamat malam. Gimana kabarnya? Baik, baik. Hari selasa biasanya kita? Kita bertiga. Waktunya ngobrolin web. Kita ketemu lagi untuk sekarang berdua. Mudah-mudahan nanti yang satunya nyesul. Yang paling cakep di antara kita bertiga. Gimana kabarnya teman-teman semua? Wah ini udah ada beberapa orang disini ya yang hadir ya. Boleh ya komen-komen kalau yang hadir ya. Ada yang dari, ini dari mana kamu datang? Ini bukan orang Indonesia sepertinya ya. Pak Mako. Kita dari Indonesia. Ya. Kita menggunakan bahasa Indonesia. Selamat malam Anton. Selamat malam. Gimana kabarnya? Dan lagi ngulik teknologi web apa nih? Boleh share-share juga ya teman-teman semua. Yang lagi belajar, yang lagi ngerjain tugas, atau yang lagi ngerjain tugas di kantor gitu kan. Lagi pakai teknologi apa. Ada, ada yang lagi lembur. Ada yang lagi lembur. Ada yang lagi tertarik mau, apa ya, mau eksplor teknologi tertentu, boleh share-share juga. Siapa tahu nanti bisa jadi topik sendiri ya. Oke, kembali lagi seperti biasa ada Ivan, ada saya Riza, dan juga nanti Eka akan nyesul. Kita malam ini akan ngobrolin tentang code review. Nah, disini siapa yang di kantornya belum melakukan code review. Tunjuk tangan, tunjuk tangan. Oh Eka belum ya. Itu Eka. Kata-kata belum ya. Munculnya pas ya. Munculnya pas. Nah ini seru-seru ya teman-teman disini pada eksplor Redwood. Wah Redwood. Lagi asik, kenapa ada yang menarik ya dari Redwood ya. Asik ya. Mungkin salah satu framework favorit personal. Asik. Kapan-kapan kita bikin edisi favorit personal. Edisi favorit personal, oh boleh tuh menarik-menarik. Cetet dulu. Jadi kalau kisih-kisihnya Redwood itu metaframework, metaframework react. Mereka itu ambil perspektif yang kalau menurut gue kayak agak kurang konvensional. Jadi biasanya kan metaframework ya terutama yang baru-baru ya. Kan sudut pandangnya wah ini apa kebebasannya banyak lah. Pokoknya versatile, gampang di modi, bla-bla-bla. Ini opinionated ya. Sangat opinionated dan kalau di bahasa Inggris kan ada istilah itu tuh. Everything but the kitchen sink. Jadi kayak semua dikasih sampai seisi dapur, sampai wastafel bak cuci, bak cuci piring aja dimasukin. Jadi kayak beneran apa aja ada dan semua udah di set up buat kita. Termasuk code generator. Jadi kita kayak mau bikin komponen kalau di Redwood itu istilahnya cell. Udah ada generatornya. Banyak magicnya ya. Magicnya banyak banget dan ya emang belum tentu cocok buat semua proyek. Dan mereka itu fokusnya buat start up. Jadi mereka tuh unik karena beneran kayak nantuin satu niche yang spesifik banget. Jadi apa audiensnya, penggunanya adalah developer, start up kecil. Biasanya start up kalau baru mulai kan kecil ya. Apa karyawannya belum banyak, biasanya full stack. Mungkin pengetahuan nya ya enggak, enggak canggih-canggih amat. Jadi kayak database segala macem udah dikasih ORM, Prisma. Terus punya authentication ada, database ada. Sampai admin dashboard untuk crude ada. Dikasih semua beneran. Oh ini karena backgroundnya ya si Redwood itu kan dibikin sama... Yang bikin GitHub. Ke foundernya GitHub. Terus abis itu dia bikin dan... Terus random buat bikin tombol. Itu agen gak nyambung sih. T-O-M-L. Kayak Yamel kan. Namanya dia Tom. Oh gitu. Cuma experience pake Redwood itu mereka pilih niche yang sangat spesifik. Terus mereka pake pendekatan yang sangat berani lah. Mereka bikin keputusan pendekatan yang kayak gitu. Dan kalau emang kebetulan project kita sesuai itu experience nya enak sih. Itu adalah... Dikapel? Gampang gak? Susah. Ya bisa teknik lu bisa. Cuma susah ya jangan lah. Dia berangkat dari GitHub kan. GitHub kan sangat Rails banget kan Ruby on Rails kan. Jadi memang framework nya itu ala-ala Ruby on Rails. Jadi banyak magic, lengkap. Terus juga salah satu framework. Oh iya sih kayak Rails tapi untuk ekosistem JS. Oh gak ya backend juga ya? Full stack. Dan sampai storybook nya aja di settingin. Oh udah testing di settingin. Siap-siap. Harus kita bahas ya. Selain itu juga ada Solid Start. Wah Solid Start. Belum coba. Nah ini siapa nih panggilannya Triadmoko atau Denny atau Fatros? Belum. Soal krab gitu. Ini jawaban belum untuk code review. Berarti Eka belum melakukan code review. Belum pake. Yang udah berarti Ivan doang ya. Kalau saya gak kode review. Gimana ini? Ada, ada. Tapi kan saya gak terjun langsung ke tim development kan. Jadi review nya bukan kode. Boom. Iya. Dan malam hari ini kita akan bahas kenapa kode review itu penting. Apa aja opportunity di sana. Kalau kita mendapat kode review. Kan pasti kalau misalkan kita terapin kode review. Arti kan harus menambah main power kan setidaknya kan. Atau memperlambat pekerjaan kan. Gak bisa dipungkiri kan. Tapi di sisi lain kualitas dari produk atau dari kode kita pasti akan meningkat jauh. Karena biasanya kita tidak bisa melihat kesalahan diri kita sendiri. Gitu yang sering terjadi. Bahkan kalau kita pair programming itu kadang kita gak bisa lihat ada typo. Kalau sekarang udah ada, udah lengkap ya udah ada ISD dan lain. Tapi kalau misalkan ada kesalahan logic misalkan. Itu kadang-kadang kita bisa tidak terlihat. Tapi teman kita di samping dia bisa langsung tahu. Dan kira-kira gimana sih cara kode review yang supaya tidak menyakiti ya. Tidak baperan. Yang sehat. Yang sehat. Dan efektif ya gak sih. Biar gak muter-muter terus itu gimana sih selama ini penasaran. Betul. Pertama yang akan kita bahas adalah tentang apa itu code review. Ya. Jadi apa itu dan kenapa gitu ya. Jadi kalau disini di Google. Google best practice ya. Engineering practice nya Google itu tujuan utama dari code review adalah. Supaya memastikan kode kita sehat. Overall. Check up. Ada check and recheck ya. Tapi yang pasti developer harus ngerjain ya. Kalau gak dikerjain apa yang mau di review gitu kan. Maksudnya kalau misalkan ada error ada bugs ada kesalahan. Terus tiba-tiba di review nih tolong nih perbaiki ini. Ya kita harus perbaiki kan. Terus kalau kita gak improve dan tidak submit ya. Tercuma juga ada proses code review kan. Dan begitu juga sebaliknya. Adalah timbal balik ya. Kedua belah pihak itu dua-duanya berperan serta. Untuk melancarkan pekerjaan bukan menghambat. Ini kan ada main kucing-kucingan kan kalau misalkan bukan code review ya. Tester sama developer gitu kan. QA. Kadang-kadang diumpetin sembunyiin terus tiba-tiba testernya tahu. Ini hampir sama sih. Si developer ngerjain begitu udah di review. Yang reviewnya juga harus bukan tidak nge-judge sih orangnya. Ini jelek banget sih kode lu gitu. Sentimen. Waktu kuliah gak belajar coding ya misalkan gitu kan. Itu kan negatif kan. Negatif sekali gitu. Itu menyerang orang kan. Itu gak boleh. Jadi memberi feedback dan menerima feedback dua-duanya sama pentingnya gitu. Bagaimana cara kita memberi feedback yang baik dan bagaimana cara kita menerima feedback. Ya kalau kita baca feedback yang tidak menyerang personal ya bisa aja kan kita tetap baper kan. Tapi kalau kita melihatnya sebagai ini sesuatu yang bisa mengimprove diri kita gitu. Itu juga sesuatu yang harus kita lakukan. Nah kadang ada trikinya juga ya kalau melakukan code review itu. Kita... Kalau ini bukan kasus saya maksudnya gini. Kita biasanya yang penduduk Asia gitu kan. Kalau misalnya beda level itu sungkanan orangnya. Oh iya. Bener, bener, bener. Jadi kalau misalnya kita nge-review code orang yang lebih senior apalagi owner apalagi orang sakti. Misalnya anggap aja lah FK tiba-tiba nge-review codenya. Siapa yang bikin itu tadi. Yang bikin redwood tadi misalnya. Dia submit PR tiba-tiba salah nih gitu kan. Pasti sungkan gitu ya. Lgtm aja deh lgtm. Itu sindrom yang pertama kali saya dapet kan waktu dulu awal bekerja di dunia proses yang waktu itu. Aduh sungkan gitu. Tapi ternyata enggak. Meskipun sesenior apapun seseorang itu. Pasti dia akan appreciate kalau misalnya di... Code dia di review dan ditemukan sesuatu yang bisa diimprove. Pasti dia appreciate. Dan dengan saya membaca codenya dia pun saya belajar banyak. Oh ada style nya, ada code style nya sendiri, maksudnya cara coding nya gitu. Karena banyak banget kan itu. Cara orang coding, cara orang apa namanya memberi nama variable. Yang jelas, yang gampang dibaca itu beda banget dari satu engineer ke engineer yang lain. Jadi dengan membaca code orang kita lebih banyak belajar. Lebih banyak belajar. Inilah keuntungan dari code review. Ya salah satunya ya. Jadi kata kuncinya adalah membaca code orang lain. Karena kadang-kadang kita males atau enggak mau, engan gitu ya. Padahal sebenarnya banyak hal yang bisa kita pelajari dari code. Bagaimana seseorang itu berpikir mungkin beda ya dengan cara kita ya. Mungkin dia menyelesaikan masalahnya dengan dari counter clockwise, kalau kita yang clockwise. Tapi ujung-ujungnya sama. Menyelesaikan masalah juga. Justru karena pendekatan yang berbeda, kita bisa jadi dapat pengalaman yang itu juga. Oh ternyata bisa begini ya, enggak hanya begitu. Ada tambahan experience juga di sana kan. Dan benar sekali kita bisa upgrade si junior jadi ke level berikutnya ya salah satunya dengan code reviewnya ya. Karena kita pasti pas ngereview ngasih input yang konstruktif ya. Dan cara ngasih input juga nanti kita bahas lanjutnya supaya bagaimana menghindari blaming. Blaming ya itu enggak boleh. Biar kan git yang nge-blame. Tetapi instead kita nge-construct percakapan. Misalnya kita tahu nih logicnya salah ya, kita tahu wah ini logicnya salah. Ini dia bakal, kalau dia pakai logic ini akan ada kasus yang begini gitu. Atau ada obvious yang sesuatu yang obvious. Ini karena fatal error sih, karena dia enggak handle itu. Tetapi daripada saya mengatakan ini salah, ini perbaiki, ini perbaiki, ini perbaiki itu enggak sehat ngasih code review seperti itu. Oke. Jadi misalnya gini, contohnya aja ada document.queryselector saja, itu document.queryselector class. Kita tahu kalau document.queryselector class itu bisa nul, baliknya bisa nul. Tetapi di bawah constant itu langsung dia pakai, langsung manipulate whatever. Kalau nul kan berarti itu bisa jadi fatal error ya. Apalagi enggak di-try-catch. Nggak di-handle. Ini ketimbang saya ngasih taunya tolong handle sanity check, tolong handle sanity check, please handle sanity check misalnya. Itu menurut saya kurang sehat. Karena lebih baik kita memberi input yang konstruktif. Kita kasih tahu, gimana menurut kamu kalau misalnya elementnya nggak ditumbuhkan dan nul. Karena document.queryselector, document.queryselector itu bisa return nul. Saya langsung biasa kasih link menuju web MDN. Langsung paste. Dokumentasi. Dokumentasinya ini dan taruh di situ. Jadi dia, biar dia mikirin gimana solusinya. Saya nggak perlu ngasih solusi di review. Oke. Unless dia sudah beberapa percakapan dan dia masih nggak dapat, baru saya ngasihin begini loh maksud saya. Bukan langsung bilang, oh ini error, ini salah. Betul, jadi dari sisi quote review, ada dua hal. Pertama dari sisi reviewer, bisa numentorin. Numentorin, nggak peduli level ya, numentorin itu nggak peduli level. Dari sisi reviewer yang menerima feedback itu belajar dan juga berpikir yang berbeda. Berpikir dari orang yang berbeda, menangkap oh maksudnya si orang itu gimana gitu, apa yang bisa diperbaiki. Yes. Dan kalau misalnya, kadang ada itu ya tulisan need itu, need n-e-t, n-e-t, need p-k-i. Oh need p-k-i. Nah itu kadang ada kasus-kasus tertentu yang saya punya quote style saya sendiri, yang saya punya demenan. Contohnya saya suka written ya kan, supaya itu quote style saya, preferensi saya. Tanpa itu sebenarnya code-nya jalan gitu, yang dia bikin itu logicnya jalan. Tetapi quote style-nya kurang oke bagi preferensi saya. Ngerti nggak maksudnya? Jadi, tapi saya mau feedback dan biasanya karena saya mau feedback dan saya tulisannya need, need p-k-i. Artinya apa ya bahasa Indonesia need p-k-i. Cari-cari kesalahan. Ya gitu lah, ya berusaha cari kesalahan. Ini need p-k-i. Lo bisa coba pikirkan bagaimana, need p-k-i kalau bagi gue misalnya, gue lebih suka erliritan supaya, direflektur supaya lebih mudah baca code-nya. Tetapi kalau nggak direobah, nggak apa-apa. Gak apa-apa. Nah bentar, tanya soal need ini, need itu dari sudut pandang personal code reviewer atau dari perspektif tim atau company? Atau organisasi gitu? Biasanya kalau need p-k-i itu dari personal. Karena kalau dari company itu biasanya mengatur dengan general atau dari project. Biasanya kalau project, sebelum nyampe PR itu saya diassess by get code review kan sudah memenuhi banyak step sebelumnya. Contohnya sudah lolos, sudah lolos linter. Linting dan lain-lain. Lintingnya segala macam kan sudah otomatis tuh, sudah otomatis segala macam sudah pasti lolos. Kalau masih minta error, jangan kasih-kasih test aja gitu, percuma. Pasti atas saya bilang, benerin dulu linternya. Karena kalau sudah saya review, nanti lu benerin lagi linternya, itu centangnya hilang, percuma gitu. Jadi benerin dulu nih linternya. Terus kemudian unit test-nya. Unit test-nya sudah benar, sudah pas semua, baru di review. Terus kemudian codenya, biasanya kan codenya itu sudah ada di develop. Kita kan ada 3 environment, development, staging, dan production. Biasanya codenya sudah dia test dulu, sudah dia test di development. Dan sudah dia kasih screenshot-nya atau videonya. Dan sudah kasih change list-nya, change log-nya sudah ada. Jadi di PR itu sendiri, di batang tubuh PR sudah ada tiketnya. Title, tiket, change log, screenshot kalau ada before and after, atau video. Steps to test, ada steps to test-nya bagaimana test di development. Dan beberapa centang untuk misalnya, saya sudah cek di browser A, sudah cek di browser B, sudah cek di browser C, contohnya. Sudah ada centang-centangnya. Kalau itu semuanya sudah terpenuhi, baru terakhir code review. Jadi yang saya nitpick itu biasanya yang personal pribadi. Karena kalau yang sudah code styling, titik koma, spasi, tab, segala macam itu sudah di handle sama sniffer semua. Saya tidak melihat dia salah spasi lagi, karena sudah pasti ketangkep. Urusannya pre-tier dan e-slint dan lain-lain. Kecuali saya lihat itu sengaja di disable, ada itu. Ada, ada-ada aja. Jadi supaya styling-nya lolos, dia styling disable, enggak enak. Iya, iya, iya. Nice try. Nice try but no. Biasanya kan itu juga kalau e-slint dan pre-tier juga bisa di setting kalau belum lolos, enggak bisa di push. Bisa commit ke husky. Iya, itu juga bisa. Oh itu kalau yang husky yang di lokal ya. Lokal-lokal ya. Bisa di setting lah. Post-hook ya. Post-hook. Itu masuk ke CI dulu atau sebelum CI code review itu? Sudah, sudah CI dong. Sudah CI kan ya. Jadi begitu push ke github, PR-nya itu kan langsung, github action langsung jalan semua. Ya, langsung CI kan. Linter, begitu push satu commit, linter jalan otomatis. Kita ada linter bot sendiri, kita punya company punya linter bot sendiri yang nge-check PHP, CSS, sama SAS, SCSS. Udah pada paham nih, ada husky, ada lean stage ya kalau buat di lokal. Kalau jaman dulu kita pakai Jenkins. Jenkins. Enggak nyamanin. Enggak nyamanin. Masih ada Jenkins. Travis kan. Oh kalau Travis pernah pakai. Travis CI sendiri, Jenkins sendiri, Jenkinsnya open source. Itu satu project kan, satu instansi kan. Enggak. Iya kayaknya. Jenkins itu? Travis itu service nya dia, yang bisa dipakai kalau aplikasi kita open source. Kalau nggak open source kan harus bayar. Kalau bayar, Travis. Oh iya bener, Travis commercial tool, whereas Jenkins is open source. Bener kan? Iya, iya, iya. Ini kita ngomongin PHP loh, Irfan ngomongin PHP loh, kok nggak bisa relate? Oh mungkin ini kali lean stage husky kali ya. Kalau di PHP ada dong, masa nggak ada? Kalau di PHP pakai PHP course sniffer sama PHP. Terus kalau saya, kalau di project yang saya selalu set up itu ada dua untuk PHP, PHP course sniffer itu untuk code styling dan pakai PHP stand untuk static analysis. Jadi PHP stand, pakai PHP stand. Itu udah enak banget kalau udah pakai stand, karena berbagai macam, jadi stand itu bisa ngedetect, misalnya written atau data type, data type yang salah dia bisa tau tuh. Kalau pakai stand, ya static analysis. Jadi udah di otomatis sasi juga stand. Terus terakhir adalah human review, which is peer review manusia. Nah beberapa, Mas Riza bisa buka apa aja sih yang kita review itu sebenarnya? Oh yang tadi yang ini ya? Ada listnya ya, ada how to do code review, ini kan? Oh bagus ya ada guidelinenya. Jadi ada beberapa signal yang kita suka review, saya suka review kan kita. Jadi bagaimana design secara keseluruhan, saya nggak akan menangkap kalau saya nak code review, saya tidak akan menangkap, kayak tadi ya titik koma, spasi type itu nggak saya lihat lagi karena itu udah di handle otomatis. Sedangkan yang saya tangkap itu adalah design overall, jadi saya lihat secara keseluruhan. Ini ticketnya ngapain, terus PR nya ngapain, gitu. Solusinya bagaimana dia buat. Saya paling big no itu kalau misalnya PR nya dicampur-campur, misalnya fiturnya A. Komitnya sekaligus gitu ya? Komitnya sekaligus, bukan komit, PR nya. PR nya satu tetapi isinya itu urusannya modul A, modul B, modul C, atau perbaiki modul A, perbaiki modul B. Biasanya kalau satu orang nguruhin ticket banyak, pengen cepet selesai semua, terus males pindah-pindah brand. Itu paling big no, karena susah. Jadi gini, saya ngasih taunya dari sisi maintainer, kayak kalau maintain sebuah project yang sudah bertahun-tahun. Kalau sudah ada masalah itu nge-tracing nya itu setengah hidup, karena tracing nya, kemana ini kodenya masalah dan sampai di tracing itu, change lock segala macam sampai ke belakang, sampai ketemu itu dimana letaknya, kenapa itu bisa terjadi. Karena harus cari route analysis kan. Kalau PR nya dicampur-campur, aduh susahnya minta ampun untuk mencari itu. Sebagai best practice kita itu kalau bisa PR itu contoh, jangan campur-campur antara kombo, misalnya gini ya, NPM update sama logic update. Soalnya kalau mau NPM update, bikin aja satu pikiran sendiri, NPM update itu pasti approve kan itu. Gak ngapa-ngapain cuma update package lock doang, ya kan. Nah itu kan tapi lebih mudah di trace. Oh ternyata waktu dia di PR ini, ada NPM update dan library yang ke update A, B, C, D, E, F dari A ke B, dari B ke C gitu kan. Jadi ada list nya, jadi change list itu pun lengkap di PR. Itu satu PR. Nah, terus banyak yang tanya, pernah ada juga kayak kasus. Kalau misalnya fiturnya besar, itu gimana? Berarti PR nya dipecah-pecah, jangan sampai dicampur-campur juga. Gak apa-apa, PR nya itu misalnya PR 1, skeleton nya doang. Let's say kita bikin waters plugin, skeleton plugin nya doang, set up skeleton, that's it, masuk satu PR. Terus kemudian bagian fitur yang kecil, buat satu file atau folder, bikin bootstrap nya segala macam, masuk satu. Udah, jadi berangkatnya dari kecil-kecil dibangun kecil-kecil, jadi lebih mudah bagi yang ngereview untuk membacanya. Kemana arahnya gitu, dan bisa dibagi-bagi. Dan itu, bagusnya ke depannya kalau ada emergency apapun yang tiba-tiba dadakan, taunya panik harus revert, ngebalikinnya gak susah. Iya betul. Atau nge-disable nya jampang. Nah, secara desain nih, desain konsep, ini opinionated saya. Jadi jangan jadikan patokan yuk kalian. Kode itu, lokasi dari kode, desainnya dari folder, struktur folder itu sebisa mungkin, kode yang punya tujuan sama itu di satu ini, satu modul, satu tempat gitu. Jadi jangan dipisah-pisah satu di WordPress ya, satu di plugin, satu di team, satu di plugin yang mana. Jadi file-file nya udah terpisah-pisah kemana-mana. Jadi urusannya kalau misalnya nanti ada mau update atau mau modul itu dihilangkan, atau mau diganti, ngebersihinnya harus kemana-mana. Jangan sampai harus kemana-mana ngebersihin. Jadi sebisa mungkin satu tempat gitu. Satu lokasi gitu. Jangan campur-campur. Ini pull request ini juga, kita sebagai developer dan kita sebagai reviewer juga, sebenarnya kuncinya adalah empati. Kita berempati gimana kalau kita berada di posisi reviewer. Coba bayangkan kita berada di posisi reviewer, terus perubahannya ada 300 file gitu. Nangis nggak ngereviewnya? Benar-benar. Itu mah percaya bro. Udah percaya. Udah gue percaya lu. Jalan ya, awas kalau gue jalan. Terdapat berdasarkan kecayaan gitu. Iya. Jadi nggak bisa di review juga, jadi nggak ada yang bisa ditarik pelajaran gitu. Kalau 100 baris pun udah cukup besar sebenarnya ya. Tapi masih bisa lah ya 100 ya. Eh, tapi berarti esensi dari review itu berarti kita emang harus baca ya. Kita harus memahami kodinganya si rekan kita itu. Jadi nggak bisa misalnya kalau shortcut kan 300 file nih pusing. Ya, nggak feasible aja. Nggak baca satu persatu. Udah, gimana kalau kita bikin tes aja sama-sama, tes misalnya pairing atau apa, kita brainstorm, bikin aja dadakan tes A, B, C, D, E. Udah apapunnya kalau itu semua, anggap aja benar. Berarti itu nggak masuk. Itu belum bisa dibilang nerapin code review ya? Nggak bisa. Jadi gini, tujuannya kenapa salah satu tujuan dari ujungnya code review itu adalah bagaimana agar si penulis code itu bisa menuliskan code yang maintainable. Orang lain bisa baca, orang lain bisa maintain karena nggak selamanya kita hidup. Atau karena kita di, nggak selamanya. Di perusahaan itu. Di perusahaan itu. Itu faktor loh, nggak selamanya juga kita hidup kan. Oh iya, kan ada istilah yang... Besok kurik. Iya, kalau amit-amit besok kita ketabrak bus, terus kita nggak bisa kerja gimana rekan kita gitu kan. Ya atau yang happy lah, yang happy, holiday faktor. Tiba-tiba kita menang, kita liburan ke Las Vegas. Bye bye, kita nggak bisa dikontakan lagi naik pesawat. Naik pesawat berapa bulan saja. Betul. Apakah organisasi kita bakal codebase-nya langsung jatuh karena pada nggak bisa... Ini ada perubahan mindset. Ada perubahan mindset. Karena kalau dulu sebisa mungkin kode kita tidak bisa dibaca sama orang lain supaya kita tetap bekerja di situ. Supaya kita tidak tergantikan. Kalau kode kita nggak terlalu bagus, ya kan? Orang-orang mengerti, jadi... Kitanya ada pecat. Kita bisa tergantikan, bisa dipecat. Padahal sebenarnya, kalau kita menulis kode yang bagus, terus kemudian ada junior yang bisa mengerti dan bisa melanjutkan, kita bisa naik ke atas, jadi senior gitu. Malah kebalikan sebenarnya. Ya kalau masalah job security, apalagi di winter seperti sekarang, ya memang ada. Tapi kan bukan... Ya, justru kalau kita nulis kode-nya ngaco, sulit dibaca, malah dilihat dulu. Review-nya malah jelek kan, gitu. Kalau dulu saya lebih, lebih apa lagi namanya, kayak reviewzilla lagi kalau sampai commit message pun juga saya pertimbangkan. Itu ada salah satu contohnya bagaimana menuliskan commit message yang baik, ada saya kasih link-nya. Tapi sebelum itu ini, tadi pagi ngelihat, ngelihat memes ini, siapa yang relate, gitu. 30 menit mikirin, commit message apa gitu yang perlu ditulis ya, yang cocok. Sudah bisa dibantu, sudah bisa dibantu sama co-pilot. Eee, CTVT dan lain-lain ya. Iya. Makanya supaya yang tadi commit message yang bisa membantu kalian coba ya. Yang mana? Yang ini ya? Iya. Langsung temen-temen baca aja, tapi saya bagian skip yang paling penting, agak bawah sedikit. Karena ada kayak 50 karakter, blablabla itu sudah diatur sana, VS code sudah gampang. Seven rule of commit message. Subject and from body and with blend line. Limit the subject, 50 karakter. Capitalize subject line, do not end the subject line with a period. Use imperative mood. Itu, klik itu imperative. Nggak boleh pakai deklaratif ya. Nggak boleh pakai deklaratif ya. Do not end the subject line, do not end the subject line with a period. Do not end the subject line, do not end the subject line with a period. Do not end the subject line, do not end the subject line with a period. Do not end the subject line, do not end the subject line with a period. Do not end the subject line, do not end the subject line with a period. Do not end the subject line, do not end the subject line with a period. Do not end the subject line, do not end the subject line with a period. Do not end the subject line, do not end the subject line with a period. Do not end the subject line, do not end the subject line with a period. Do not end the subject line, do not end the subject line with a period. Do not end the subject line, do not end the subject line with a period. Do not end the subject line, do not end the subject line with a period. Do not end the subject line, do not end the subject line with a period. Do not end the subject line, do not end the subject line with a period. Do not end the subject line, do not end the subject line with a period. Do not end the subject line, do not end the subject line with a period. Do not end the subject line, do not end the subject line with a period. Do not end the subject line, do not end the subject line with a period. Do not end the subject line, do not end the subject line with a period. Do not end the subject line, do not end the subject line with a period. Do not end the subject line, do not end the subject line with a period. Do not end the subject line, do not end the subject line with a period. Do not end the subject line, do not end the subject line with a period. Do not end the subject line, do not end the subject line with a period. Do not end the subject line, do not end the subject line with a period. Do not end the subject line, do not end the subject line with a period. Do not end the subject line, do not end the subject line with a period. Do not end the subject line, do not end the subject line with a period. Do not end the subject line, do not end the subject line with a period. Do not end the subject line, do not end the subject line with a period. Do not end the subject line, do not end the subject line with a period. Do not end the subject line, do not end the subject line with a period. Do not end the subject line, do not end the subject line with a period. Do not end the subject line, do not end the subject line with a period. Do not end the subject line, do not end the subject line with a period. Do not end the subject line, do not end the subject line with a period. Do not end the subject line, do not end the subject line with a period. Do not end the subject line, do not end the subject line with a period. Do not end the subject line, do not end the subject line with a period. Do not end the subject line, do not end the subject line with a period. Do not end the subject line, do not end the subject line with a period. Do not end the subject line, do not end the subject line with a period. Do not end the subject line, do not end the subject line with a period. Do not end the subject line, do not end the subject line with a period. Do not end the subject line, do not end the subject line with a period. Do not end the subject line, do not end the subject line with a period. Do not end the subject line, do not end the subject line with a period. Do not end the subject line, do not end the subject line with a period. Do not end the subject line, do not end the subject line with a period. Do not end the subject line, do not end the subject line with a period. Do not end the subject line, do not end the subject line with a period. Do not end the subject line, do not end the subject line with a period. Do not end the subject line, do not end the subject line with a period. Do not end the subject line, do not end the subject line with a period. Kalau misalnya kalian yang inklu file nya tapi lupa add file nya itu kan fatal error. Kalau di commit itu. Ya kan kalau di revert ke commit itu. Ya. Kalau file nya belum ada itu bisa misalnya commit itu akan menghasilkan fatal error. Nah jangan sampai commit itu bisa menghasilkan fatal error. Pikirkan bagaimana supaya commit itu satu satuan. Kalau memang mau add file nya plus kalian include ya boleh. Langsung tep gitu. Jadi ke mana pun misalnya kita revert commit nya ke commit tertentu. Tetap akan program kita jalan-jalan saja. Itu dari sisi design. Oh itu baru yang ini ya baru yang design nya. Desain grand design nya. Jadi dari solusinya strukturnya, ngedesign file nya dimana, solusinya alurnya itu satu hal. Jadi dipahami sebagai review. Sebelum saya lanjut. Buka lagi tadi lanjutannya design apa? Functionality. Tapi sebelum lanjut ini ada pertanyaan yang bagus yang mau saya highlight. Kalau di perusahaan konsultan biasanya nggak penting untuk unit test, nggak penting code quality dan lain-lain. Ivan Humanmade bukannya konsultan ya? Konsultan teknologi. Iya ini bukan jangan menjenderalisasi semua konsultan seperti ini ya. Ini adalah konsultan yang belum menerapkan best practice. Saya mikir-mikir kata-katanya terlalu kasar. Lebih ke price range kali ya. Maksudnya kita realistis ya. Ini kan code review kan satu, butuh tenaga, butuh SDM ya. Maksudnya SDM ya kualitasnya harus relatif tinggi atau minimal willing to upskill. Maksudnya mau mempelajari, mau ngulik hal-hal yang semua tadi Ivan jelasin tuh. Itu kan satu SDM nya harus begitu dari segi resource. Nah terus resource lainnya yang jelas finance kan, ini kan makan dev hour ya, makan main hour. Menghabiskan waktu sekian jam yang kalau misalnya tanpa code review kan dev nya bisa langsung disuruh, udah langsung aja bikin fitur baru lagi. Nah ini nggak sekian jam dihabiskan buat code review. Nah berarti kan biaya yang dibebankan ke customer bakal lebih tinggi. Cuma kan hasilnya juga, ya pasti hasilnya juga beda jadi lebih ke kelas price range ya kali. Iya betul. Kadang-kadang juga ada faktor lainnya juga, banyak ya banyak faktor ya. Ada konsultan ini mereka lebih memilih yang penting diselesai. Mungkin sesuai deadline, tapi tidak memikirkan kalau seandainya si kliennya balik lagi ke klien gitu. Seringnya kan dapat proyek ya, proyek limpahan kan. Ini dari konsultan yang lain, oh ini codenya ancur banget kita bikin lagi dari awal gitu kan. Karena nggak ada apa ya, nggak ada benefit kalau kita melakukan best practice disana. Karena tuh juga begitu udah selesai kontraknya mereka cari yang lain gitu, nggak balik lagi ke kita. Jadinya ya hal-hal yang kita butuhkan itu tidak penting gitu. Mostly karena klien yang di handle itu kan enterprise ya, jadi paper roomnya juga banyak. Bahkan di awal project aja mereka sudah minta misalnya test coverage nya 100%. Accessibility nya aja sudah minta level AA. Jadi waktu udah, apa namanya, sebelum misalnya post production cun. Maksudnya post deployment juga kita harus masih cek nggak ada degradation yang terjadi. Post production test ini nggak ada. Itu beda lagi, karena permintaan project. Itu depends ya, jadi kalau klien yang skala enterprise rata-rata memang minta banyak paper work nya. Dan mereka tech savvy ya, berarti relatif walaupun mereka nggak ngerti codenya. Tapi mereka punya ekspektasi, mereka tahu konsep test coverage. Mereka punya standar accessibility, ya mungkin kalau di luar, mereka bisa dituntut ya kalau kurang accessible. Jadi konsultan in house ya, eh punya staff in house. Mereka punya staff IT in house, jadi mereka tahu gitu. Dan mereka yang ikut membuat best pack ke sini. Jadi kita meskipun di hire untuk handle project, tetapi timnya itu bukan cuma kita doang, di project itu. Mereka juga punya tim yang lain, yang agency lain, yang bekerja di satu project yang sama. Jadi kalau misalnya nggak ada standar ini, nggak ada standar coverage seperti ini ya, codenya kita ya campur aduk berantakan segala macem. Nah itu kan jadinya kalau sudah berantakan, ngebenerin yang berantakan itu lebih mahal daripada dari awal sudah dibenerin. Des praktisnya. Apalagi kalau enterprise, maksudnya ada risiko mereka dituntut lah atau apalah maksudnya kena masalah hukum dan lain-lain. Nah kemudian pertanyaan dari Rafki lagi, kalau perusahaannya belum pakai version control, belum pakai collaboration tools. Ya mau nggak mau harus peer review ya, bareng-bareng duduk bareng-bareng ya. Jadi sebelum di lempar ke FTP ya bareng-bareng gitu, ya solusi yang paling mendekati lah ya. Oh tadi pas lagi research word ini, gue jadi baca-baca sejarahnya dan ternyata apa konsep code review yang kayak kita pahamiin sekarang nih, ternyata di-initiate-nya di IBM tahun 1976 dan maksudnya sebelum ada sistem-system kayak sekarang, mereka tuh ngeprint beneran. Apa lah, nggak ngerti deploy-nya gimana nih ya, tapi kalaunya si developer-nya si programmer-nya ngeprint fisik, ngeprint kertas yang dia bukun. Jadi beneran kayak dituntutin, dibaca, diprint, difotokopi, baca ya kayak misalnya kalau ada komentar, di-highlight. Kayak skripsi ya, jadi ingat masa lalu. Tapi sampai sekarang peer review juga masih terjadi. Peer review? Di jurnal ilmiah? Iya. Peer review di-print kan? Oh di-print ya. Peer review misalnya kalau jurnal ilmiah ya, istri waktu ngambil program specialis maling itu misalnya dia bikin jurnal ilmiah ya, peer review ke dosen dan segala macemnya itu handwritten semua. Masih, masih peer review. Sama aja code review, peer review ya sama. Code review ya peer review. Sama, sama, sama. Nah, dari sisi functionality, terus apa lagi tadi, code style. Oh iya, kita lanjut lagi ya, lanjut lagi ya. Functionality, functionality udah pasti kan, codenya sesuai nggak? Ini biasanya ada kaitannya sama testing ya? Testingnya bener-bener juga kan? Testingnya di-review kan? Spesifikasinya juga kan? Tests casenya di-review kan? Yes, yes, testsnya di-review. Testsnya tuh ini, jangan hanya membuat tests case itu hanya untuk test coverage doang. Ya, coveragenya 100% yang penting gitu. Gak boleh, gak boleh. Gak bisa, jadi harus testnya bener nggak gitu. Maksudnya secara logicnya yang mau di-test itu sesuai nggak? Jangan cuman di-test happy part-nya aja. Di-test yang error part-nya juga harus di-test. Yang paling saya lihat adalah complexity. Kalau sampai saya nggak mengerti codenya, something is wrong. Ini maksudnya apa sih kok muter-muter gitu. Terus abstraksinya kok banyak amat gitu. Saya paling bingung kalau misalnya udah abstraksinya sampai kayak 3-4 level. Ngapain gitu? Apa bisa disimplerkan, apa bisa dipermudah gitu alurnya gitu. Terus komen. Gak perlu, saya nggak terlalu, ini pendapat pribadi ya. Bukan fans untuk yang nulis komen sebanyak-banyak, seabrak-abrak. Jadi setiap lainannya ada komen, nggak perlu. Jadi cukup komen itu diberikan di tempat yang misalnya memang ada satu specific case kenapa itu terjadi dan kenapa itu di situ. Contohnya, mungkin ada edge cases atau bug yang terjadi dan belum sempat diperbaiki. Dan harus men-short circuit, men-short circuit terjadi itu supaya bug itu nggak terjadi, tetapi belum sempat dibenerin. Kasihlah komen di situ. Jadi yang nge-maintain, oh tahu, oh iya itu kenapa di situ, tahu. Jadi nggak perlu, ini tiba-tiba codenya aneh sendiri di sini, ini ngapain? Dikasih fix me, fix me, tapi nggak pernah dilihat lagi. Iya, tuduh-tuduh akhirnya kalau dibuka tuduh ini, semua tuduh, tuduh ini apaan gitu. Oke, itu kompleksiti ya? Iya kompleksiti. Oh, pernah dulu ada rekan kerja walaupun nggak satu tim di kantor pertama. Dia sering pake fitur komentar di kodenya, yang komentar isinya puisi. Dia mengespresikan puisi. Setiap kode yang dia buat itu ada puisi di atasnya. Oh itu keren sih. Tapi tidak pada tempatnya, mendingan tarah di Google Docs pribadi aja. Jangan di kode, kan dibaca orang. Kalau lagi galau kan ketauan. Oh, cuma puisinya nggak ada dibuka sama kodenya, kirain kayak pantun gitu. Nggak ada, kalau pantun mungkin kita ketauan. Ke pasar beli manggis, ini penambah apa yang belakangnya is. Oh, bagus juga tuh buat commit message, kalau nggak tau pakai apa, empat baris sendiri udah pantun kan. Itu kalau jerjit dari upin dan ipin jadi programmer mungkin, kayak gitu, sudah besar. Nah, selanjutnya nih, naming nih. Naming. Ini bisa jadi seluruh episode sendiri ini kayaknya. Naming ini salah satu yang susah-susah gampang. To do fix me nggak boleh, di PR nggak boleh ada kan. Konsolok, print dan lain-lain juga nggak boleh kan. Itu tergantung projectnya. Kalau konsolok tergantung kalau misalnya memang itu di server dan memang halus di lock sesuatu yang mau dilihat, silahkan. Di client juga kadang-kadang ada, kalau teman-teman buka salah satu website misalkan, terus dilihat di inspect elemen tiba-tiba ada. Kadang malah career. Tergantung ya. Nah, balik lagi ke naming. Sebisa mungkin kasih nama, function, class, variable, itu yang bermakna aja. Nggak usah terlalu yang panjang-panjang A, this variable is for whatever reason, blablabla. Nggak usah juga, tapi misalnya kasih nama berbeda. Itu kan kadang, itu gejala, kayak gejala dari satu metode yang melakukan terlalu banyak hal, fetch data, update, blablabla. Nah, itu berarti kan. Berarti udah kebanyakan. Udah kebanyakan. Udah kebanyakan. Karena kan, balik lagi ke clean code kan, apa namanya, prinsipnya clean code kan misalkan, contoh aja nih ya, satu fungsi hanya melakukan satu hal. Kalau misalkan fungsinya udah melakukan misalkan login and change flag into true, active sama dengan true. Nah itu kan udah dua hal, jadi harus dipisah fungsinya gitu. Login and check and report suspicious user. Ya, ya gitu lah. Jadi sebisa mungkin, apa, nama itu biasanya menggambarkan kompositas, betul. Sama satu lagi, disini nggak ada, tetapi konsistensi. Saya, saya tipe orang yang bisa mengikuti, meskipun kita satu perusahaan, kadang satu projek dengan projek lain bisa mengandung opinion yang berbeda. Ya, opinion yang berbeda. Yang set up duluan itu engineer yang lain dan punya opinion berbeda, meskipun nanti kesamaannya ada, karakternya ada, tetapi ada hal yang berbeda. Contohnya spasi sebelum, contohnya penggunaan spasi, saya nggak masalah kalau memang itu sudah jadi cost style dan dipakai. Masalah yang saya permasalahkan adalah, dua hal yang sama itu tapi tidak konsisten, itu yang saya tangkap. Ya kalau bisa dibikin konsisten aja, contohnya dia suka pakai early return, tapi di satu tempat yang nggak pakai early return, kenapa? Satu early return, tapi di bawah, terus di dalam satu block, dia nggak pakai early return, kenapa? Kalau memang mau pakai early return, early return kan semua konsisten dengan code changes-nya. Makanya kadang ketahuan, satu dia mungkin tulis sendiri, satu lagi copy dari cgpt, copy dari cgpt atau copy style overflow atau copy dari code yang lain. Atau kadang copy dari code yang lain dia roba sedikit dan kesalahan di code lain dia bawa yang sama. Nanti dia komen, ini kan gue copy dari tempat lain ya, kalau memang yang tempat lain salah, dulu copy ya salah juga. Salah tambah salah bukan jadi benar, salah dan salah itu salah. Makin salah, makin salah. Saat apa di Liverpool? Iya. Masih ya. Jadi konsistensi, konsistensi. Konsistensi. Oke. Konsistensi itu bagian dari style guide ya, berarti tadi kan. Tapi untungnya beberapa hal. Yang mana gimana? Lanjut, lanjut. Gimana tadi Eka? Dari style guide. Itu kan bawahnya komen ada style tuh. Berarti kan itu kan hal yang harusnya ada di style guide dong, yang kayak tadi yang kayak di return lah, atau apalah penamaan, atau casing. Nah itu kan ada comment di bawahnya komen tuh. Ada yang unwritten rule, ada yang unwritten rule. Maksudnya secara dia nulis codenya itu, karena saya tahu sih misalnya kayak ada beberapa engineer itu yang cara modenya ya, copy sana, copy sini, satuin, oba-oba-oba. Jadi gitu ada gitu, saya tahu gitu. Nah itu akhirnya yang dia copy sana, copy sini, dia oba-oba sedikit itu, kerasa itu bedanya. Style nya bukan style nya, ya inconsistensinya. Ya inconsistensinya kerasa gitu. Jadi, sebisa mungkin ya kalau emang mau, mau contoh kode orang lain, contoh aja tapi konsisten gitu, konsisten dengan apa yang kamu rubah, dengan cara nulisnya sama gitu. Itu masalah di fundamental gak sih kalau yang kayak gitu, maksudnya kan kalau copy paste itu kan istilahnya bisa dibilang ini ya, hampir haram gitu ya. Copy paste bener-bener copy paste buta gitu, kita gak tahu apa-apa codenya kita copy paste, terus jalanin gak berhasil kita cari yang lain sampai berhasil gitu kan. Tapi cara yang benar copy paste atau menyontek yang benar adalah, ya kita pahami, oh maksudnya ini terus kita tulis ulang dengan gaya kita, gitu kan. Berarti ada yang salah dengan fundamental nya dia kan. Eh ya, itu namanya etos kerja kali ya. Atau mungkin karena udah deadline jadi berhubung dan seterusnya dan seterusnya. Ya itu malah bikin tambah repot nanti kalau harus ngetumin. Itulah yang ditangkap di code review, sebisa mungkin hal-hal yang misalnya tadi kayak contohnya, contohnya saya sakit nih misalnya. Tetapi waktu saya mulai sakit tuh minggu lalu hari ragu contohnya, tetapi saya punya satu tiket yang nanggung banget karena cuma sudah setengah saya kerjain. Akhirnya pagi-pagi meskipun domong saya kerjain keter-keter. Saya secepat mungkin testing, lihat oke eh udah puster, ternyata waktu di code review ini nya salah, tidak salah sih apa, feedback nya banyak. Ya namanya orang yang lagi. Ya gak lah fit belum 100% ya. Tapi akhirnya yang benerin ya tim yang lain. Nah enaknya kalau misalnya kita sudah, itu tadi yang kalau code nya kita rapi terus kemudian strukturnya bagus, konsisten. Meskipun ada feedback karena secara design sistemnya kurang oke atau ada X cases yang terjadi. Yang tim yang lain bisa baca dan bisa perbaiki dengan benar. Mudah mereka perbaiki aja, tinggal lanjutin code nya saya. Gak ada masalah gitu. Mereka cuma tinggal perlindungi satu atau dua commit, udah selesai gitu. Jadi tulis, maksudnya tulis lah code yang sebisa mungkin gampang diterusin orang lain. Dan supaya gampang diterusin orang lain, gampang dibaca orang lain. Gampang dimengerti orang lain. Setuju banget ini. Ini balik lagi tadi empati. Video nya hilang. Mas Riza lagi berempati. Iya harus empati ya. Bukan hanya empati kepada code reviewer dengan tidak commit terlalu banyak dan lain-lain seperti yang kita jelaskan tadi. Kita juga harus berempati kepada sesama engineer. Bayangkan kita berada di posisi dia satu saat, terus code kita berantakan, terus dia gak bisa ngerjain, terus dia jadi blocker buat dia. Gak dapat perusahaan, jadi blocker. Gak dapat keuntungan misalkan. Gaji kita dari mana? Sebenarnya kan kalau di tilik kan begitu kan. Ujung-ujungnya kan. Jadi makanya kita harus berusaha sebisa mungkin, ya code memang dikompilasi untuk mesin. Tapi code yang kita tulis itu sebisa mungkin dipahami oleh manusia. Dan itu sebenarnya kultur apa ya? Kayak apa sih? Lawan katanya lingkaran setan lah. Maksud saya physical kan kalau sudah jelek, tambah jelek, lebih jelek, lebih jelek. Nah lawan katanya apa? Kenapa gak ada ya? Ya lingkaran yang positif lah. Maksud saya kalau udah kebiasa kayak gitu, makin sering kita saling melakukan code review yang konstruktif yang kayak tadi dibahas, kan kita udah kurang lebih, makin lama tuh kayak makin paham lah cara mikir sama cara nulis code teman kita. Kalau suatu saat kita harus tiba-tiba take over atau apa, ya udahlah kita punya pengalaman yang kemarin-kemarin tuh kayak instingnya udah kebentuk lah ya. Betul, betul. Dan itu kultur itu juga salah satu indikator kita pantas untuk masuk ke perusahaan itu atau enggak. Karena percuma juga kita berempati kepada orang lain, tapi orang lain di sekitar kita tidak. Jadi yang nulis code buat orang lain, cuman kita, yang lain gak peduli gitu. Ya udahlah kalau gitu tulisin puisi aja. Nah itu kan jadi malah, ya itu tadi jadi lingkaran setan tadi kan akhirnya yang tadinya kita berusaha untuk memperbaiki. Tapi kita berhubung kita masih baru, mungkin kita posisinya juga masih junior, otoritas kita belum ada gitu kan, kita tulis code rapi-rapi tapi orang lain malah nulis code yang jelek gitu. Akhirnya ya jadi terpaksa kita ngikut, ngapain kita capek-capek nulis hal yang bagus gitu, yang lain gak peduli gitu kan. Kita juga ngereview code orang juga sepertinya berempati karena gini, kita gak tahu misalnya gini saat dia baca itu, saat dia baca review kita mungkin kondisi dia sedang capek atau sedang stres ya kan. Makanya sebisa mungkin review yang kita tulis itu hanya menargetkan codenya, bukan orangnya. Kedua saat kita berikan feedback itu feedback yang konstruktif dan berdasarkan fakta. Contohnya kode ini bisa fatal error loh, karena begini, pikirkan case yang begini itu akan benar-benar fatal error. Ini linknya gitu, ini linknya, ini dokumentasi, fungsinya ini bisa written sesuatu yang gak kamu tangkap contohnya, yang gak kamu cek. Kita coba bagaimana supaya fungsi ini lebih solid lagi gitu, nanti dia perbaiki. Dan kalau memang nitpicky dan memang kayak wah ini terlalu jelimet codenya jelek atau gak. Tapi logicnya jalan gitu, tapi jeling kompleks gitu. Bilang itu kalau itu nitpicky gitu, bilang kalau itu personal province-nya kamu ini kalau bisa direfactor supaya lebih mudah. Jadi tadinya fungsinya besar, bisa gak ini dipisah jadi 2-3 fungsi yang lebih solid. Jadi test-nya juga lebih gampang daripada ngetest. Karena fungsinya yang panjang, case-nya jadi lebih sulit, lebih kompleks daripada fungsinya kecil. Tapi terlalu kecil juga jadi jelimet juga kebanyakan fungsi. Jadi banyak banget. Tiap return satu string, satu fungsi. Jadi ngaco juga gitu kan, jadi harus ada balance antara berapa banyak abstraction dan berapa banyak... Maksudnya ada yang benar-benar atomic function gitu. Satu fungsi yang cukup satu gitu. Sama satu lagi, code review itu bukan side job. Bukan dilakukan di pekerjaan taman di tengah-tengah, ah lagi pusing mudah code review. Bukan! Jangan lakukan code review lagi pusing. Jangan lakukan code review kalau lagi pusing. Percuma! Akhirnya cuma antara kalian approve aja atau reject. Code review itu pekerjaan utama. Itu kalau di perusahaan gimana si ininya? Siapa yang review atau ada post review yang role-nya? Code reviewer benar-benar yang dedicated atau di rolling? Ya. Jadi bulan ini siapa yang bertugas gitu ya? Gak, gak, gak. Gantian. Kayak diajak disitu. Satu team misalnya gini, siapa yang punya waktu aja. Jadi kan kita distributed team, jadi time zone nya beda-beda. Kalau saya suka, code review itu pagi-pagi. Jadi misalnya yang di EMDA, Eropa, sudah kerja nih sekarang. Udah selesai, udah nge-post. Ntar lagi dia nge-post semua tuh, besok paginya saya review pagi-pagi tenang-tenang. Nah, kan yang paling lama itu nge-review yang pertama. Setelah feedbacknya selesai, saya gak nge-review semua lagi. Saya cuma nge-review per commit. Per commit nya aja yang saya review. Gak saya review lagi dari awal. Gitu. Jadi treat code review itu sama sebagai pekerjaan utama. Memang kalau nge-block time 2 jam untuk code review, ya block aja 2 jam untuk code review. Jadi bukan pekerjaan sampingan. Nah, dan bukan beban ya. Bukan sesuatu yang membahannya. Kita tetap kode kita harus nge-coding 8 jam ditambah code review. Gak kan? Nah enggak, itu kan masuk 8 jamnya itu. Kalo emang... Masuk 8 jam. Yang misalkan code review nya 2 jam, ya coding kita waktunya 6 jam gitu kan. Jadi bukan sambilan dan bukan beban yang harus kayak apa ya, bukan lembur ya. Bukan amal. Amal. Tadi ada yang menyinggung juga tentang guideline. Untungnya sekarang tools itu sudah mulai banyak kan. Contohnya kayak yang tadi ya, lean stage, husky, explain, prettier, ya formatter gitu lah ya. Itu cukup membantu untuk styling supaya konsisten kan. Ya mungkin ada di satu kantor misalkan, di satu team yang satu pakai titik oma, yang satu gak pakai titik oma. Terus begitu masuk per tier udah ditambahin titik oma semua misalkan. Jadi kan udah konsisten. Jadi enaknya sekarang salah satunya itu ya. Ini berkaitan juga dengan style guide. Style guide biasanya sekarang udah ada tools nya ya. Nah sekarang pertanyaan saya adalah, siapa yang masih pakai komen? Kayaknya sekarang gak trend lagi ya semenjak ada chat GPT dan co-pilot ya. Jadi pakai komen-komen-komen gitu. Kalau dulu kan kayak... Ya kan abis itu bisa dihilangin. Oh iya. Gak tau ya temen-temen setuju atau enggak. Kalau saya sih lebih setuju kalau kode kita gak perlu ada komentarnya, kita udah mengerti itu baru kode yang bagus. Kalau butuh komentar artinya itu rumit, kompleks, lebih kompleks. Kalau klik yang \"how to do code review\" ini itu kan ada tuh. Kila dokumentasi code review aja lengkap banget ya. Iya. Sorry yang di looking for, what to look for in code review. What to look for in code review. Oh ini penjelasan dari setiap step nya ya. Turun, turun, turun, turun. Yup tuh. Usually comments are useful when they explain why some code exists. Bukan what ya. Yang kayak gue bilang tadi kenapa kode itu disitu secara spesifik, tiba-tiba dia nongol disitu, kenapa gitu. Karena kita punya konteks, jadi kita ngasih komen itu supaya yang lain atau ngebaca itu gak ngabisin waktu, bongkar-bongkar lagi. Jadi, if the code isn't clear enough to explain, then the code should make simpler. Iya. Tentang kodenya ya. Bukan what is the code for, tapi why. Tapi itu yang spesifik ya, yang kayak yang spesifik-spesifik komen, spesifik case biasanya. Yes. Ini kayaknya dari komentar-komentar temen-temen disini kayaknya banyak sekali yang mengalami bad experience ya dengan perusahaan. Teknisnya sih ya, karena kayaknya faktanya rata-rata kalau misalnya perusahaan yang belum punya kultur kayak gini dan mungkin kliennya bukan klien enterprise yang juga udah familiar dengan kultur kayak gini, kayak dunianya beda banget gak sih? Dunia yang berbeda, betul-betul. Kayak jauh banget. Iya. Konsultan itu identik dengan deadline dan deadline yang ketat dan lembur dan lain-lain ya kalau di Indonesia ya. Kalau di luar, setidaknya sama. Ya deadline lah di mana-mana. Kerjaan sama, maksudnya apa ya, kalau konsultan itu ya tipes gitu. Jaminan tipes gitu, kerjaannya parah gitu kan, gak sesuai. Kalau deadline ya udah pastilah. Semua yang buat kerja juga pasti ada deadline, kalau gak ada deadline ya gak telat-telar kan. Jadi bukan maksudnya ada deadline atau gak ada deadline, lebih ke prosesnya, bagaimana proses mencapai kesanannya. Mungkin gak cuma perusahaan tapi kliennya juga, customernya mungkin kalau di luar kan, customernya apa ya, ya mungkin dari yang kelas kerja rodi atau kelas kekeluargaan sampai kelas yang enterprise yang emang semua harus by the book. Karena itu juga terikat hukum, hukum di sana kan mungkin lebih ketat juga ya kalau misalnya apalah ada security issue atau apapun itu. Jadi mungkin kalau di internasional ya kayak kita punya, kita sebagai developer punya atau apalah production house, software house atau korporat atau apa kayaknya opsinya tuh macem-macem lebih luas aja mungkin ya daripada di sini. Nah ini ada pertanyaan bagus juga, clean code versus performance, mana yang harus didahulukan? Biasanya saling terkait sih, kalau kode kita jelek agak susah tuh memperbaiki performance-nya, bener gak? Performance itu kan ada dua hal, satu performance dalam maintain code-nya dan kecepatan mengandalkan code, dan user dari execution speed dari kode itu sendiri kan. Betul, betul. Jadi saya bilang itu bukan versus tapi berbanding lurus. Iya berbanding lurus. Iya. Jadi dua-duanya harus didahulukan. Dan ada beberapa lagi yang lain untuk, ini juga pertanyaan menarik nih, kalau untuk fresh grad yang mau ngelamar junior, hal-hal kayak gini itu di-training dulu atau perusahaan sudah berharap bahwa kita udah paham? Ada onboarding pasti di setiap perusahaan. Itu kuncinya onboarding. Kalau emang ada, maksudnya kalau emang perusahaan merapuin hal itu. Nah kalau perusahaan kayak kan di komen pada bahas tuh, kalau perusahaan itu kan masih kolot atau biografis atau apa. Jangan-jangan malah kita lebih tahu daripada push-push-nya. Nah kalau itu susah ya, karena emang belum ada kulturnya sama sekali. Ya udah itu mau pasang aja kali. Ya kalian jadi, kalau belum ada kalian jadi agent of change lah. Betul. Ini juga mengingatkan teman-teman di sini yang udah jadi senior, yang dulu mengalami pembulian tanpa ada mentoring, gak ada code review dan lain-lain. Yang udah senior, yang udah punya otoritas di kantornya, tolong dong jangan sampai hal itu kejadian sama teman-teman yang junior gitu ya. Jangan bantu junior-nya untuk memecah lingkaran setan menjadi lingkaran yang lebih baik gitu. Jangan malah mengikuti. Dan balik lagi ya, kultur onboarding itu biasanya ada di perusahaan-perusahaan tertentu gak di semua. Nah ini ada best practice-nya gak? Buat milih perusahaan yang sudah menerapkan practice-practice yang kita omongin tadi. Kecuali emang perusahaannya punya blog dan kebetulan blog post-nya ada mendetailkan code review. Enggendering blog ya. Iya tapi kan gak semua. Kalaupun ada belum tentu mereka nulis blog tentang itu kan. Maksudnya realistis lah bergantung ke kita B.U. atau enggak. Maksudnya kita kan misalnya lagi butuh cari kerja nih. Misalnya kita gak, kecuali emang lagi nyari santai, emang udah ada job, nyari-nyari santai. Kalau ketemu yang menarik, oke lah coba. Cuma kalau misalnya lagi belum ada kerjaan, B.U. ya udah realistis. Masa nyari yang punya engineering blog dan membahas code review dulu kayaknya. Salah satu tipsnya sebenarnya mungkin agak susah dilakukan ya. Terutama buat fresh graduate yang masih malu-malu itu adalah kontak developer yang ada di perusahaan itu. Entah mungkin ada teman yang di sana atau bisa contact, cari lewat link-in, langsung call, message gitu ya. Mungkin belum tentu dibalas juga sih ya. Atau pada saat interview atau pada saat datang ke kantor gitu kan. - Terus kan ada kayak... - Kita tanya aja, kalau pas interview kan. - Iya, kayak tour gitu kan. Ini developmentnya, yaudah tukar kartu nama atau tukar nomor whatsapp gitu kan. Abis itu tanya-tanya. - Gak ada cara lain sih. - Biasanya HR kan kalau saat interview kan pasti diujun ada yang mau ditanya. - Ada pertanyaan gak? - Itu listnya, on-boardingnya gimana, code review. - Kalau sama SR mungkin agak sedikit berbeda ya, tapi mungkin sama... Kalau lowest biasanya kan hapus selanjutnya pasti sama someone dari team engineeringnya. Kalian tanya aja, bagaimana proses code review, bagaimana code styling kalian, best practicesnya ada dimana, bisa saya baca gak, tanyain semua tuh. - Dan jawab, itu apa ya? - Reflect. Kalau cara meyakinkan team product, ya harus di edukasi sih. Sama kayak cara meyakinkan klien, klien dari konsultan tadi. Di luar mungkin kliennya sudah lebih di edukasi untuk oh ternyata proses yang benarnya seperti ini, memakan waktu agak lama karena ada testing, ada ini, ada ini tapi... Bugs-nya minimal sehingga delivery-nya in total sama aja sebenarnya, cuma prosesnya mungkin agak lambat di awal gitu kan. Itu harus di edukasi sih, kultur lagi, balik lagi ke kultur. Kita mesti pinter ngerjemahin ke value ekonomi, kayak misalnya kalau ada bug, tapi mungkin kita harus ngumpulin data ya, ngeresepnya gimana. Jadi misalnya kalau, apa begu-beguannya nih, kalau ada bug, ternyata selain panik, dadakan, di jam yang kita gak tahu, belum tentu ada developer on call. Bener-nya fixing bug itu butuh main hour, dev hour itu sekian jam. Sedangkan kalau misalnya 3 jam total. Ada risiko ketidakpastian dan downtime-nya jadi lama kalau ada isunya di jam yang gak ada yang on call atau apalah. Ya agap aja 3 jam dan ini ada dampak negatif. Tapi kalau kita code review, itu cuma 2 jam. Kita harus bisa membahasakan itu dengan konkret ya, kalau mau meyakinkan ke apa? Organisasi. Tapi lagi-lagi ini hipotesa, gue juga belum pernah nyoba kayak gini sih. Tapi kan itu satu-satunya bahasa yang mereka akan paham kan, maksudnya jadi bukan cuma karena pengen-pengenannya engineer atau karena trend. Ya jadi ini bukan perkara selera, tapi emang ini praktek yang menguntungkan organisasi. Kita harus bisa membawa angka sih. Membawa angka, betul-betul. Apalagi sama tim bisnis ya. Yang ini juga apa namanya, ini kasus yang lain. Contohnya anggap aja si company itu menghayat agensi. Jadi company itu juga punya tim IT-nya atau tim programmernya yang dimasukin ke projek yang sama. Jadi sebenarnya emang kayak transfer knowledge. Transfer knowledge. Jadi value editnya kita sebagai agensi, kita saling code review. Jadi kita code review kodenya mereka supaya kita pastiin kodenya mereka sesuai dengan standard kita. Bagi si company, timnya mereka juga grow karena dari teknologi yang mereka belum bisa, dapat teknologi dari agensi dari third party. Sehingga timnya mereka grow juga. Yang ujung-ujungnya mereka lama-lama bisa self sustain untuk maintain code itu kan gak selamanya bisa perlu gontorin dana untuk hire agensinya. Jadi sebenarnya sama-sama grow. Itu juga bisa. Nah itu kan balik ke duit juga kan. Maksudnya apa, jadi mereka bisa tetap jalan itu gak kebuang, gak sia-sia mereka bisa tetap jalan entah cari agensi lain atau maintain sendiri atau apalah. Nah itu kan berarti ada kayak value ekonomi lah finansial yang konkret. Jadi UUD, ujung-ujungnya duit semua. Sudah pasti itu. Oke ini pertanyaannya seru-seru ya ternyata ya. Ini ada pertanyaan yang menurut saya menarik tapi masih ada hubungannya ya. Satu codebase repository apakah dalam gitflow itu harusnya ada minimal empat brand atau bisa lebih. Maksudnya apakah brand, itu feature ya, develop feature ya harus diapus atau dipertahankan. Mungkin siapa, Charles ya. Saya mau sedikit meluruskan, sedikit meluruskan tentang gitflow. Jadi ada artikel yang cukup viral dari Pak Vincent ini. Dulu dia yang menggagas gitflow tapi ada note-nya. Tapi di 2020 setelah 10 tahun artikel dia beredar, dia menyatakan bahwa ini bukan untuk semua, bukan best practice lah, bukan best practice lagi. Jadi kalau misalkan tim kita sudah melakukan continuous delivery, dia lebih menyarankan untuk mengadopsi workflow yang lebih simple. Contohnya gitflow dengan pull request dan lain-lain, atau pakai trunkbase development. Trunkbase ini lebih sederhana karena cuma ada 2, master sama yang featuring ini tadi. Udah itu doang. Jadi nggak ada dev, nggak ada apa-apa, cuma master sama feed-feed aja. Begitu sudah selesai, dimers, yang ini dihapus. Itu saja. Jangan cari yang sulit-sulit ya. Yang simpel-simpel aja. Dan benar tadi ya, yang melanjutkan tadi Pak, yang kita approach ke orang yang sudah bekerja di sana. Ya kita coba aja ngobrol aja biasa. Kalau dia setelahnya respons-nya bagus, artinya ya berarti ini kayaknya oke juga nih perusahaan. Karena dia memberikan respons-nya bagus. Kalau misalkan apaan sih? Belum gabung aja, udah nanya-nanya, nah berarti itu. Kayaknya nggak mungkin senyolot itu. Cuman misalnya mereka nggak boleh entah karena alesan apa, nggak boleh. Nggak boleh ngomong. Expose itu kan ya paling ada deh, ya kan paling dijawab ngeles gitu kan. Atau kalau emang mereka nggak pengen ngejawab kan ya itu. Kalau chat kan tinggal diignore aja ya. Iya kalau chat tinggal diignore. Kayaknya nggak mungkin di marah-marahin. Dimarahin sih nggak mungkin. Cuman maksudnya kayak tadi kan nggak boleh ngomong. Kalau nggak boleh kan tinggal ngeles aja. Iya kalau chat nggak boleh berarti perusahaannya agak tertutup, nggak open gitu kan. Maksudnya secara kulturnya. Jadi kita bisa nilai juga gitu. Yang terakhir itu boleh minta link-nya. Oke, link yang ini ya. - Tadi yang Trunk-based. Ini yang Gitflow, yang ini Trunk-based. Siap. Oke, tentang code review. Ada lagi yang mau dibahas? - Ini ada coba dibuka yang chat GPP yang di Google Docs. Oh iya, iya. Udah dibuka, udah dibuka. Ini kan on-demand review. - Yang on-demand code review. Tadi kayaknya ada yang komen chat GPP juga. - Bahu, Bahu. Bahu tadi nge-check bahwa bisa jaman sekarang bisa direview oleh AI. Dan ini bukan bahas yang tadi ya. Bukan yang apa kayak linting, formatting, bukan apa CI pipeline yang itu. Cuma beneran literally please review my code. Ini lucu sih. Ya gue belum pernah lihat orang yang beneran kayak gini. Cuma baru lihat di artikel ini. Tapi maksudnya dengan adanya large language model kan LLM emang jadi bisa kayak gini. Cuma pertanyaannya, ini cuma lucu-lucu artikel seru-seruan doang. Cuma what if, cuma ide doang. Atau apakah ini beneran visible gitu. Soalnya si AI ini kan apakah berarti AI mempelajari seluruh code base di organisasi itu atau gimana ya itu? Gak tahu ya. Ini gimana ya. Saya belum pernah sih nyobain tanyain GPT atau LLM. Sekarang misalnya ada nggak cowo gitu kalau yang di screenshot ini. Coba deh lihat, scroll ke... Saya sudah coba pakai yang Copilot. Kalau misalnya Copilot itu untuk mengerti seluruh code base, gak bisa. Tetapi kalau untuk mengerti satu function itu bagus kok. Ini tab bot di Github kan. Pakai GPD. Pakai OpenAI punya gitu ya. GPD 3.35. Terus bisa pakai text Da Vinci. Da Vinci itu modelnya siapa ya? Modelnya OpenAI. Udah gak ada. Deprecated. Sekarang yang 3.5. Yang terlama. Jadi kalau ada yang PR masuk ke Github. Terus di review oleh review bot. Terus masuk ke git diff. Terus abis itu dia create dynamic prompt and post request. Terus bikin promptingnya. Terus request ke API, OpenAI API. Terus dapet review suggestion-nya dikirim balik ke Github. Ini maksudnya seru secara konsep. Ini lo malah diseru tuh, nomor satu, add more comments. Ini mungkin bisa dibaca sebagai, saya gak ngerti kode kamu, tolong bikinin comment biar saya ngerti bahasa Inggris. Ini kan tergantung juga, tadi kan yang kita baca itu contoh aja praktek di Google, satu perusahaan sendiri. Soalnya ini kan si LLM-nya ini gak punya opini, gak punya basis, gak punya landasan buat melakukan kode review ya. Terus apa ya, LLM itu kan kayak non-deterministik ya. Mungkin gak sih jangan-jangan kita manggil review bot sekarang. Terus semua dikasih komen. Oke lah, anggap aja dia standarnya gitu. Minggu depan kita manggil review bot lagi. Terus malah jangan kebanyakan komen. Make the variable name obvious. Itu kan malah sampai redaktif ya. Dia random kan, ada random-nya kan. Jawabannya bisa beda-beda kan. Mungkin ini sebagai starter aja buat guide untuk si reviewer untuk mereview. Oh ini ada itu sih di challenge, dia si penulis artikelnya juga ngejelasin kok di bagian challenges. Ini dia yang bikin berarti ya? Dia pengen bikin seperti ini gitu ya? Enggak, kayaknya dia pakai package yang udah ada, cuma dia mereview. Dia ngejelasin bisa kayak gini, kita bisa melakukan ini. Masalah apa, manfaatnya apa. Terus challenges-nya dia juga ngejelasin nih, ada context, blablabla. This is due to a limited understanding of the codebase context. Terus yang kedua, security and privacy, ya itu jelas. Sama yang ketiga nih, yang tadi kita bahas. Dikit model bias, tergantung training data yang dia pakai. Nah itu kan mesti code yang dia pakai sebagai training data kan bisa lain-lain. Itu males juga kalau minggu ini disuruh nambah komen, minggu depan disuruh remove komen. Sama itu, halusinasi satu lagi. Biasanya kalau kodenya bahasa-bahasa yang umum gitu ya, itu masih dia masih mengerti. Kalau misalkan kodenya, kalau kata mas Arya Hidayat tuh, kalau juur itu ngaco tuh, cat GPT. - Karena nggak ada training datanya kali. - Iya sedikit training datanya, sedikit. - Terus setiap bingung arang-arang aja udah sisanya. - Iya, halus jadinya kan, gitu. Tapi menarik ya. Tools sekarang kan, ya tadi kan dari mulai styling doang, formatting doang, sekarang bahkan udah sampai dependable, itu paling sering. Depanda bot, renovate bot. Terus sekarang ada untuk reviewer. Jadi sebenarnya ya meskipun kalau dipakai untuk nge-review kayaknya masih belum ya, karena nggak konsisten tadi ada 3-3 problem tadi, 4 lah sama halus. Tapi setidaknya kalau kita nggak tahu mau mulai start dari mana untuk nge-review, mungkin kita bisa lihat dulu, oh si review bot ini dia nge-review tentang ini, tentang ini, tentang ini. Mungkin kita bisa mulai dari situ untuk belajar cara nge-review code. Atau mungkin kalau tempat kerja kita sendiri nggak punya sistem code review, terus kita punya personal project, iseng pengen tahu gimana sih rasanya di code review. Walaupun bukan sama orang, lumayan lah latihan di code review sama robot. Oh iya benar, benar. Kalau halus atau kalau rese, ya udah di-disable, tinggal dimatiin aja kan. Benar. Cigpti soal join subquery malah dikasih sintaksnya Laravel, tapi jalan ya. Berarti kode Laravel banyak jadi itu ya, jadi training data ya, luar biasa. Karena Laravel itu dokumentasinya banyak, berbagi bahasa. Dan versi nya udah banyak banget, kan udah puluhan tahun. Iya, iya, iya. Benar, benar, benar. Oke, ada lagi yang mau disampaikan mengenai code review? Sudah, aman? Udah. Ini ada Marsudi, nanti datang di DevFest Depok tidak. Saya absen dulu di Depok, kita ke Bogor loh, kita di Bogor. Kita bertiga di Bogor nanti akan ada di Bogor. Jadi kalau ada teman-teman yang berada di Bogor dan sekitarnya, Jakarta boleh lah ya main-main ke Bogor. Sangal berapa? Sangal 25 November. Yes. Daging. Nah ini, daging. Daging apa ya? Kontennya daging. Terima kasih. Padahal kalau daging semua bahaya ya, harusnya ada tulang juga, kolester. Oke kalau gitu, mungkin udah hand dulu untuk malam hari ini kita ketemu lagi minggu depan dengan topik yang berbeda. Buat semuanya yang udah ikutan diskusi juga, seperti biasa kritik saran dan topik bisa kirimkan ke kesana.in/ngobrolinweb. Mungkin minggu depan kita akan coba review yang ada di sini, yang ada di Slido untuk topik-topik yang akan kita bahas ke depannya. Sekian dulu buat malam hari ini, kita bertiga pamit, sampai jumpa minggu depan. Terimakasih sudah menonton."
+}

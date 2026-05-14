@@ -1,0 +1,3073 @@
+{
+  "videoId": "1p7nM1Yr6tw",
+  "language": "id",
+  "generatedAt": "2026-05-13T15:41:39.592Z",
+  "segments": [
+    {
+      "start": 27,
+      "end": 31,
+      "text": "Halo, selamat malam semuanya."
+    },
+    {
+      "start": 31,
+      "end": 35,
+      "text": "Ketemu lagi kita di Ngobrolin Web malam hari ini."
+    },
+    {
+      "start": 35,
+      "end": 41,
+      "text": "Masih bersama saya, Riza, dan 2 teman saya, Ivan dan Eka."
+    },
+    {
+      "start": 41,
+      "end": 48,
+      "text": "Acara ini masih kita ngobrol-ngobrol santai aja seputar web, walaupun kita punya agenda."
+    },
+    {
+      "start": 48,
+      "end": 55,
+      "text": "Tapi kalau teman-teman punya topik-topik yang menarik, bisa juga langsung dikomentar aja."
+    },
+    {
+      "start": 55,
+      "end": 58,
+      "text": "Nanti kita diskusikan bareng-bareng."
+    },
+    {
+      "start": 58,
+      "end": 63,
+      "text": "Oke, kenalan dulu, saya Riza, co-founder-nya Hektivate."
+    },
+    {
+      "start": 63,
+      "end": 65,
+      "text": "Lanjut, Eka."
+    },
+    {
+      "start": 65,
+      "end": 73,
+      "text": "Saya Eka, web developer di NGO yang namanya Atma Connect. Lanjut."
+    },
+    {
+      "start": 73,
+      "end": 79,
+      "text": "Saya Ivan, senior web engineer di agensi namanya Humanmade."
+    },
+    {
+      "start": 79,
+      "end": 85,
+      "text": "Dan kita semua ini adalah Google Developer Expert di bidang web."
+    },
+    {
+      "start": 85,
+      "end": 88,
+      "text": "Makanya ngobrolin web."
+    },
+    {
+      "start": 88,
+      "end": 91,
+      "text": "Makanya ngomongin web."
+    },
+    {
+      "start": 91,
+      "end": 97,
+      "text": "Karena kita butuh update ya, untuk materi-materi yang diisi di berbagai acara."
+    },
+    {
+      "start": 97,
+      "end": 103,
+      "text": "Kita butuh asupan ini ya, asupan topik-topik menarik."
+    },
+    {
+      "start": 103,
+      "end": 111,
+      "text": "Jadi acara ini sebenarnya kita saling berbagi di antara kita, untuk belajar masing-masing."
+    },
+    {
+      "start": 111,
+      "end": 113,
+      "text": "Untuk update masing-masing."
+    },
+    {
+      "start": 113,
+      "end": 115,
+      "text": "Jadi kenapa nggak sekalian di-share aja."
+    },
+    {
+      "start": 115,
+      "end": 117,
+      "text": "Kalau teman-teman mau share juga, boleh."
+    },
+    {
+      "start": 117,
+      "end": 121,
+      "text": "Siapa teman-teman lebih tahu ya, kita belajar dari teman-teman."
+    },
+    {
+      "start": 121,
+      "end": 125,
+      "text": "Di komentar, mungkin ada yang nanya atau mungkin ada yang punya pendapat."
+    },
+    {
+      "start": 125,
+      "end": 135,
+      "text": "Karena web itu cakupannya luas sekali. Dan kalau kita ngikutin update itu nggak bakal bisa benar-benar dapet semuanya."
+    },
+    {
+      "start": 135,
+      "end": 139,
+      "text": "Dan cepet banget kayaknya kita kedik bikin."
+    },
+    {
+      "start": 139,
+      "end": 144,
+      "text": "Ada berita baru atau framework baru, atau library baru, dan lain-lain."
+    },
+    {
+      "start": 144,
+      "end": 146,
+      "text": "Oke, jadi malam ini..."
+    },
+    {
+      "start": 146,
+      "end": 150,
+      "text": "Kedik mata gitu udah ada JavaScript framework baru ya."
+    },
+    {
+      "start": 150,
+      "end": 152,
+      "text": "Setiap berapa detik gitu."
+    },
+    {
+      "start": 152,
+      "end": 158,
+      "text": "Oke, jadi malam ini kita akan ngobrolin tentang apa."
+    },
+    {
+      "start": 158,
+      "end": 160,
+      "text": "Mulai dari Ivan dulu kali ya."
+    },
+    {
+      "start": 160,
+      "end": 161,
+      "text": "Baiklah."
+    },
+    {
+      "start": 161,
+      "end": 163,
+      "text": "Oke, saya sharing dulu nih."
+    },
+    {
+      "start": 163,
+      "end": 167,
+      "text": "Kalau saya kan fokusnya di web performance."
+    },
+    {
+      "start": 167,
+      "end": 172,
+      "text": "Jadi memang sering menggali apa sih yang bisa kita bikin lebih cepet lagi di soal web."
+    },
+    {
+      "start": 172,
+      "end": 176,
+      "text": "Minggu lalu saya bahas mengenai apa itu namanya?"
+    },
+    {
+      "start": 176,
+      "end": 182,
+      "text": "Pakai tools performance insight supaya kita bisa improve core web vital."
+    },
+    {
+      "start": 182,
+      "end": 188,
+      "text": "Yaitu largest content full pain, cumulative layout shift, sama first input delay."
+    },
+    {
+      "start": 188,
+      "end": 192,
+      "text": "Terus, minggu ini saya mau lanjut."
+    },
+    {
+      "start": 192,
+      "end": 196,
+      "text": "Selanjutnya apa sih yang bisa kita lakukan untuk mempercepat performance?"
+    },
+    {
+      "start": 196,
+      "end": 201,
+      "text": "Jadi kayaknya coba share screen."
+    },
+    {
+      "start": 201,
+      "end": 206,
+      "text": "Kalau teman-teman punya web yang mau di-audit, boleh ya."
+    },
+    {
+      "start": 206,
+      "end": 208,
+      "text": "Oh, kali ini bukan di-audit."
+    },
+    {
+      "start": 208,
+      "end": 210,
+      "text": "Jadi saya cuma share informasi."
+    },
+    {
+      "start": 210,
+      "end": 213,
+      "text": "Kalau minggu lalu kan kita itu ya."
+    },
+    {
+      "start": 213,
+      "end": 216,
+      "text": "Langsung demo-audit web ya."
+    },
+    {
+      "start": 216,
+      "end": 217,
+      "text": "Iya."
+    },
+    {
+      "start": 217,
+      "end": 220,
+      "text": "Oke, coba dimasukin ke stream."
+    },
+    {
+      "start": 220,
+      "end": 226,
+      "text": "Oke, so kali ini saya mau share sedikit mengenai quick link."
+    },
+    {
+      "start": 226,
+      "end": 228,
+      "text": "Apa tuh quick link?"
+    },
+    {
+      "start": 228,
+      "end": 238,
+      "text": "Ini sebenarnya gawainnya kayak teman-teman di Google, Adi Osmani dan segala macemnya."
+    },
+    {
+      "start": 238,
+      "end": 245,
+      "text": "Jadi mereka bikin library yang super kecil bagaimana bisa memanfaatkan prefetch."
+    },
+    {
+      "start": 245,
+      "end": 247,
+      "text": "Jadi ada prefetch API ya."
+    },
+    {
+      "start": 247,
+      "end": 252,
+      "text": "Jadi web itu kan bisa prefetch, preload."
+    },
+    {
+      "start": 252,
+      "end": 258,
+      "text": "Apa sih prefetch itu?"
+    },
+    {
+      "start": 258,
+      "end": 269,
+      "text": "Jadi prefetch itu bagaimana si browser bisa melakukan request content saat kita berada di page tertentu."
+    },
+    {
+      "start": 269,
+      "end": 273,
+      "text": "Jadi kalau kita load halaman homepage kita misalnya."
+    },
+    {
+      "start": 273,
+      "end": 282,
+      "text": "Terus kita prefetch, artinya memberi sinyal kepada si browser, kita butuh assets ini loh."
+    },
+    {
+      "start": 282,
+      "end": 288,
+      "text": "Atau kita bisa bilang, kita butuh halaman ini loh selanjutnya, tolong di prefetch."
+    },
+    {
+      "start": 288,
+      "end": 298,
+      "text": "Jadi begitu si user kita lagi membaca halaman yang sekarang, browser sudah mengambil halaman yang selanjutnya."
+    },
+    {
+      "start": 298,
+      "end": 305,
+      "text": "Contohnya mungkin teman-teman kalau di homepage bisa, kayak kita punya ada CTA button yang besar,"
+    },
+    {
+      "start": 305,
+      "end": 310,
+      "text": "di halaman utama yang 80% itu si user akan klik itu."
+    },
+    {
+      "start": 310,
+      "end": 320,
+      "text": "Jadi kalau kita prefetch halaman yang dituju sebelum si user melakukan action terhadap link itu,"
+    },
+    {
+      "start": 320,
+      "end": 326,
+      "text": "artinya mempercepat page load kan, karena sudah di load sebelumnya."
+    },
+    {
+      "start": 326,
+      "end": 331,
+      "text": "Nah, prefetch sudah lama sebenarnya ada di web,"
+    },
+    {
+      "start": 331,
+      "end": 337,
+      "text": "jadi semua web sudah mendukung prefetch, semua browser maksudnya."
+    },
+    {
+      "start": 337,
+      "end": 345,
+      "text": "Apa sih quick link itu? Quick link ini cuma library kecil yang merubah semua html,"
+    },
+    {
+      "start": 345,
+      "end": 351,
+      "text": "semua ahref-ahref itu di prefetch, otomatis."
+    },
+    {
+      "start": 351,
+      "end": 357,
+      "text": "Di saat browser sudah tidak sibuk."
+    },
+    {
+      "start": 357,
+      "end": 361,
+      "text": "Nah, bingung kan apa yang saya bilang kan?"
+    },
+    {
+      "start": 361,
+      "end": 366,
+      "text": "Jadi ketika page load, ya kalau misalnya kita lihat sebuah halaman ini."
+    },
+    {
+      "start": 366,
+      "end": 373,
+      "text": "Ketika page load, yang minggu lalu ingat nggak kita mendemokan performance insight,"
+    },
+    {
+      "start": 373,
+      "end": 377,
+      "text": "jadi saya coba pakai regular 4G, ini artinya page load ya."
+    },
+    {
+      "start": 377,
+      "end": 381,
+      "text": "Saat page load, apa yang terjadi?"
+    },
+    {
+      "start": 381,
+      "end": 387,
+      "text": "Browser request, terus kemudian request halamannya, html-nya,"
+    },
+    {
+      "start": 387,
+      "end": 395,
+      "text": "terus kemudian request asset-assetnya, terus request image-nya, style-nya, font-nya, dan segala macam."
+    },
+    {
+      "start": 395,
+      "end": 400,
+      "text": "Baru kemudian melakukan render terhadap halaman ini."
+    },
+    {
+      "start": 400,
+      "end": 404,
+      "text": "Kita lihat yang di bawah ini ya. Saya gedein dulu deh."
+    },
+    {
+      "start": 404,
+      "end": 408,
+      "text": "Saya lihat yang itu dulu, lihat yang ini dulu."
+    },
+    {
+      "start": 408,
+      "end": 417,
+      "text": "Browser request, terus kemudian html-nya muncul, terus kemudian image-nya muncul."
+    },
+    {
+      "start": 417,
+      "end": 419,
+      "text": "Itu artinya proses rendering."
+    },
+    {
+      "start": 419,
+      "end": 429,
+      "text": "Dan di saat proses rendering, tentunya si browser itu kan pakai CPU main thread namanya."
+    },
+    {
+      "start": 429,
+      "end": 437,
+      "text": "Jadi ada thread-nya, main thread-nya itu sibuk. Artinya jangan sampai kita mengganggu"
+    },
+    {
+      "start": 437,
+      "end": 443,
+      "text": "proses main thread itu melakukan dengan rendering dan kita lakukan prefetch."
+    },
+    {
+      "start": 443,
+      "end": 445,
+      "text": "Jangan sampai seperti itu juga."
+    },
+    {
+      "start": 445,
+      "end": 451,
+      "text": "Jadi quick link ini membantu untuk melakukan prefetch ke halaman yang lain"
+    },
+    {
+      "start": 451,
+      "end": 460,
+      "text": "yang ada ahref-nya, artinya URL-nya, link-nya, dan di prefetch di background saat browser tidak sibuk."
+    },
+    {
+      "start": 460,
+      "end": 462,
+      "text": "Apa sih tanda browser tidak sibuk?"
+    },
+    {
+      "start": 462,
+      "end": 468,
+      "text": "Itu ada API namanya request idle callback."
+    },
+    {
+      "start": 468,
+      "end": 472,
+      "text": "Request idle callback API."
+    },
+    {
+      "start": 472,
+      "end": 482,
+      "text": "API ini memberi sinyal kayak sebuah event, kayak resize observer API, kayak apa lagi API?"
+    },
+    {
+      "start": 482,
+      "end": 488,
+      "text": "Yang kemarin, yang minggu lalu, si Mbak Eka Sher itu adalah sanitizer API."
+    },
+    {
+      "start": 488,
+      "end": 491,
+      "text": "Request idle callback itu events."
+    },
+    {
+      "start": 491,
+      "end": 499,
+      "text": "Events yang akan dipanggil saat si CPU sudah idle."
+    },
+    {
+      "start": 499,
+      "end": 504,
+      "text": "Pertama kali idle, maka CPU akan memanggil idle callback."
+    },
+    {
+      "start": 504,
+      "end": 509,
+      "text": "Hanya itu yang dilakukan API ini."
+    },
+    {
+      "start": 509,
+      "end": 514,
+      "text": "Support-nya saat ini di Chrome pasti karena itu dari timnya Chrome."
+    },
+    {
+      "start": 514,
+      "end": 519,
+      "text": "Terus kemudian Safari belum, masih behind flag."
+    },
+    {
+      "start": 519,
+      "end": 521,
+      "text": "Firefox sudah support."
+    },
+    {
+      "start": 521,
+      "end": 528,
+      "text": "Jadi Chrome-based browser semua sudah support."
+    },
+    {
+      "start": 528,
+      "end": 530,
+      "text": "Hanya tinggal Safari yang behind flag."
+    },
+    {
+      "start": 530,
+      "end": 533,
+      "text": "Jadi, teman-teman sudah bisa memakai ini."
+    },
+    {
+      "start": 533,
+      "end": 540,
+      "text": "Dan untuk si Quicklink sudah include quality fill."
+    },
+    {
+      "start": 540,
+      "end": 543,
+      "text": "Jadi kalau nggak ada akan ada quality fill-nya."
+    },
+    {
+      "start": 543,
+      "end": 546,
+      "text": "Nah, apa sih? Kita lihat dia gimana cara kerjanya."
+    },
+    {
+      "start": 546,
+      "end": 548,
+      "text": "Saya ada 2 demo."
+    },
+    {
+      "start": 548,
+      "end": 553,
+      "text": "Yang pertama, saya hapus dulu case-nya biar..."
+    },
+    {
+      "start": 558,
+      "end": 562,
+      "text": "Yang kiri dan yang kanan."
+    },
+    {
+      "start": 562,
+      "end": 566,
+      "text": "Jadi mini-ecom sama mini-ecom Quicklink."
+    },
+    {
+      "start": 566,
+      "end": 567,
+      "text": "Saya refresh."
+    },
+    {
+      "start": 567,
+      "end": 571,
+      "text": "Untuk reload pertamanya, nggak ada bedanya."
+    },
+    {
+      "start": 571,
+      "end": 574,
+      "text": "Tapi kita lihat kecepatannya."
+    },
+    {
+      "start": 574,
+      "end": 578,
+      "text": "Kalau saya klik ini sekali, ada waktu tunggu ya."
+    },
+    {
+      "start": 578,
+      "end": 582,
+      "text": "Dan kalau saya klik ini, cepat ya."
+    },
+    {
+      "start": 582,
+      "end": 584,
+      "text": "Kalau saya balik, saya klik yang lain."
+    },
+    {
+      "start": 584,
+      "end": 586,
+      "text": "Cepat banget ya."
+    },
+    {
+      "start": 586,
+      "end": 588,
+      "text": "Lihat?"
+    },
+    {
+      "start": 588,
+      "end": 592,
+      "text": "Kalau yang ini, saya balik."
+    },
+    {
+      "start": 592,
+      "end": 594,
+      "text": "Saya klik yang lain, tunggu."
+    },
+    {
+      "start": 594,
+      "end": 596,
+      "text": "Oke."
+    },
+    {
+      "start": 596,
+      "end": 598,
+      "text": "Dan percaya sama saya,"
+    },
+    {
+      "start": 598,
+      "end": 600,
+      "text": "kalau ini yang satu bukan SP ya."
+    },
+    {
+      "start": 600,
+      "end": 602,
+      "text": "Bukan single page application."
+    },
+    {
+      "start": 602,
+      "end": 604,
+      "text": "Sama, kodnya sama."
+    },
+    {
+      "start": 604,
+      "end": 607,
+      "text": "Dan dia hanya melakukan prefetch."
+    },
+    {
+      "start": 607,
+      "end": 611,
+      "text": "Kita bisa lihat prefetch itu di tab other."
+    },
+    {
+      "start": 611,
+      "end": 613,
+      "text": "Sorry."
+    },
+    {
+      "start": 613,
+      "end": 615,
+      "text": "Di network, other."
+    },
+    {
+      "start": 615,
+      "end": 617,
+      "text": "Jadi kalau saya refresh halaman ini,"
+    },
+    {
+      "start": 617,
+      "end": 619,
+      "text": "begitu sudah selesai,"
+    },
+    {
+      "start": 619,
+      "end": 623,
+      "text": "maka dia melakukan prefetch ke semua link yang ada di sini."
+    },
+    {
+      "start": 623,
+      "end": 625,
+      "text": "Product details."
+    },
+    {
+      "start": 625,
+      "end": 627,
+      "text": "Sedangkan halaman ini,"
+    },
+    {
+      "start": 627,
+      "end": 631,
+      "text": "dia tidak lakukan prefetch terhadap apapun."
+    },
+    {
+      "start": 631,
+      "end": 633,
+      "text": "Jadi,"
+    },
+    {
+      "start": 633,
+      "end": 637,
+      "text": "library ini bisa membantu"
+    },
+    {
+      "start": 637,
+      "end": 642,
+      "text": "page speed kita untuk halaman selanjutnya."
+    },
+    {
+      "start": 642,
+      "end": 646,
+      "text": "Jadi kita klik, sudah selesai. Langsung nge-load."
+    },
+    {
+      "start": 646,
+      "end": 648,
+      "text": "Jadi canggih ya."
+    },
+    {
+      "start": 648,
+      "end": 650,
+      "text": "Berasa SPA ya?"
+    },
+    {
+      "start": 650,
+      "end": 652,
+      "text": "Berasa SPA."
+    },
+    {
+      "start": 652,
+      "end": 654,
+      "text": "Nanti saya share lagi,"
+    },
+    {
+      "start": 654,
+      "end": 656,
+      "text": "bagaimana cara supaya kelihatan lebih SPA."
+    },
+    {
+      "start": 656,
+      "end": 658,
+      "text": "Tapi saya lanjut dulu soal quick link ini."
+    },
+    {
+      "start": 658,
+      "end": 662,
+      "text": "Untuk konfigurasinya,"
+    },
+    {
+      "start": 662,
+      "end": 664,
+      "text": "tentunya tidak semana-mana,"
+    },
+    {
+      "start": 664,
+      "end": 666,
+      "text": "begitu install langsung jadi."
+    },
+    {
+      "start": 666,
+      "end": 668,
+      "text": "Meskipun bisa."
+    },
+    {
+      "start": 668,
+      "end": 670,
+      "text": "Tapi saya tidak menyarankannya,"
+    },
+    {
+      "start": 670,
+      "end": 672,
+      "text": "jangan sampai semua link."
+    },
+    {
+      "start": 672,
+      "end": 676,
+      "text": "Kita perlu membatasi hanya domain kita saja."
+    },
+    {
+      "start": 676,
+      "end": 680,
+      "text": "Contohnya kita tidak perlu prefetch external URL, external domain."
+    },
+    {
+      "start": 680,
+      "end": 683,
+      "text": "Atau kita hanya perlu prefetch yang halaman"
+    },
+    {
+      "start": 683,
+      "end": 686,
+      "text": "di dalam body container kita tertentu saja."
+    },
+    {
+      "start": 686,
+      "end": 688,
+      "text": "Terus kita harus limit juga."
+    },
+    {
+      "start": 688,
+      "end": 693,
+      "text": "Jangan sampai kalau misalnya kita buka sebuah halaman news portal"
+    },
+    {
+      "start": 693,
+      "end": 699,
+      "text": "yang satu halaman itu saja sudah ada 100 internal linking."
+    },
+    {
+      "start": 699,
+      "end": 703,
+      "text": "Tentu kita tidak mau 100-nya kita prefetch."
+    },
+    {
+      "start": 703,
+      "end": 707,
+      "text": "Karena jadinya nanti kita ngedidose server kita sendiri."
+    },
+    {
+      "start": 707,
+      "end": 709,
+      "text": "Jangan sampai seperti itu juga."
+    },
+    {
+      "start": 709,
+      "end": 711,
+      "text": "Tentu kita perlu throttle."
+    },
+    {
+      "start": 711,
+      "end": 713,
+      "text": "Jangan sampai kebanyakan."
+    },
+    {
+      "start": 713,
+      "end": 721,
+      "text": "Ini perlu konfigurasi."
+    },
+    {
+      "start": 721,
+      "end": 723,
+      "text": "Dan konfigurasi itu harus disesuaikan"
+    },
+    {
+      "start": 723,
+      "end": 726,
+      "text": "dengan kebutuhan masing-masing web, teman-teman."
+    },
+    {
+      "start": 726,
+      "end": 728,
+      "text": "Oh, satu lagi."
+    },
+    {
+      "start": 728,
+      "end": 735,
+      "text": "Kalau saya misalnya pakai tampilan mobile,"
+    },
+    {
+      "start": 735,
+      "end": 739,
+      "text": "dia menggunakan intersection observer juga."
+    },
+    {
+      "start": 739,
+      "end": 744,
+      "text": "Jadi kalau misalnya hanya above default-nya ada 4 link,"
+    },
+    {
+      "start": 744,
+      "end": 746,
+      "text": "dia hanya nge-load 4 saja."
+    },
+    {
+      "start": 746,
+      "end": 750,
+      "text": "Jadi semakin saya scroll, baru dia nge-load yang lain."
+    },
+    {
+      "start": 750,
+      "end": 753,
+      "text": "Jadi dia pakai intersection observer."
+    },
+    {
+      "start": 753,
+      "end": 757,
+      "text": "Kalau teman-teman pengen tahu apa itu intersection observer,"
+    },
+    {
+      "start": 757,
+      "end": 763,
+      "text": "bisa baca nanti intersection observer API."
+    },
+    {
+      "start": 763,
+      "end": 774,
+      "text": "Artinya hanya intersection observer API ini"
+    },
+    {
+      "start": 774,
+      "end": 778,
+      "text": "adalah API yang membuat elemen tertentu"
+    },
+    {
+      "start": 778,
+      "end": 783,
+      "text": "jika intersect dengan muncul di dalam viewport seperti itu."
+    },
+    {
+      "start": 783,
+      "end": 791,
+      "text": "Jadi kalau kita bisa setting, elemen url-link ini"
+    },
+    {
+      "start": 791,
+      "end": 797,
+      "text": "muncul di dalam viewport baru dia dilakukan callback tertentu."
+    },
+    {
+      "start": 797,
+      "end": 801,
+      "text": "Jadi bisa menggunakan namanya intersection observer API."
+    },
+    {
+      "start": 801,
+      "end": 808,
+      "text": "Dan dia bisa, karena dia cuma library kecil,"
+    },
+    {
+      "start": 808,
+      "end": 814,
+      "text": "mau pakai di React, mau pakai di HTML biasa terserah."
+    },
+    {
+      "start": 814,
+      "end": 817,
+      "text": "Cara kerjanya seperti ini."
+    },
+    {
+      "start": 817,
+      "end": 824,
+      "text": "Visit page, saat idle time, dan saat user scroll dan intersect dengan viewport,"
+    },
+    {
+      "start": 824,
+      "end": 827,
+      "text": "hanya saat itu dia melakukan prefix."
+    },
+    {
+      "start": 827,
+      "end": 833,
+      "text": "Dan kalau user klik link tersebut, maka kecepatannya jadi lebih cepat,"
+    },
+    {
+      "start": 833,
+      "end": 839,
+      "text": "karena aset yang dibutuhkan untuk halaman tersebut seperti HTML"
+    },
+    {
+      "start": 839,
+      "end": 844,
+      "text": "dan segala macam sudah di prefix di background oleh browser."
+    },
+    {
+      "start": 844,
+      "end": 847,
+      "text": "Untuk dukungannya sudah berbagai macam,"
+    },
+    {
+      "start": 847,
+      "end": 851,
+      "text": "bahkan sudah ada dukungan langsung WordPress pluginnya,"
+    },
+    {
+      "start": 851,
+      "end": 858,
+      "text": "tinggal plug, setting, and play, tinggal dipakai."
+    },
+    {
+      "start": 858,
+      "end": 863,
+      "text": "Dan untuk React, Angular, dan Vue sudah ada supportnya juga."
+    },
+    {
+      "start": 863,
+      "end": 874,
+      "text": "Seperti yang saya janjikan, supaya terlihat lagi seperti SPA,"
+    },
+    {
+      "start": 874,
+      "end": 879,
+      "text": "itu bisa menggunakan yang namanya transition API."
+    },
+    {
+      "start": 879,
+      "end": 885,
+      "text": "Pernah tahu transition API? Ini masih behind flag."
+    },
+    {
+      "start": 885,
+      "end": 889,
+      "text": "- Masih flag sayangnya ya. - Iya, masih behind flag."
+    },
+    {
+      "start": 889,
+      "end": 893,
+      "text": "Tetapi kalau itu kita gabung prefix dan transition API,"
+    },
+    {
+      "start": 893,
+      "end": 896,
+      "text": "maka kita bisa niscah ya."
+    },
+    {
+      "start": 896,
+      "end": 902,
+      "text": "Suatu saat kalau ini sudah rilis, akan kelihatan seperti SPA beneran."
+    },
+    {
+      "start": 902,
+      "end": 907,
+      "text": "Saya bisa contohin bagaimana saya reload."
+    },
+    {
+      "start": 907,
+      "end": 913,
+      "text": "Kalau ini masih SPA ya, jadi belum menggunakan prefix segala macam."
+    },
+    {
+      "start": 913,
+      "end": 917,
+      "text": "Tetapi bisa seperti ini transition API-nya."
+    },
+    {
+      "start": 917,
+      "end": 924,
+      "text": "Jadi kalau ini kita gabung antara prefix dan transition API,"
+    },
+    {
+      "start": 924,
+      "end": 927,
+      "text": "maka alaman yang sudah kita download di background"
+    },
+    {
+      "start": 927,
+      "end": 932,
+      "text": "bisa kita munculin secara transition dengan menggunakan transition API."
+    },
+    {
+      "start": 932,
+      "end": 937,
+      "text": "Silahkan nanti baca."
+    },
+    {
+      "start": 937,
+      "end": 943,
+      "text": "Namun ini masih behind flag, hanya ada di Chrome dan perlu diaktifkan secara manual."
+    },
+    {
+      "start": 943,
+      "end": 949,
+      "text": "Jadi saya perlu enable manual."
+    },
+    {
+      "start": 949,
+      "end": 952,
+      "text": "Itu saja paling dari saya."
+    },
+    {
+      "start": 952,
+      "end": 959,
+      "text": "Jadi prefix bisa segera digunakan jika kalian ingin mencoba di web page kalian"
+    },
+    {
+      "start": 959,
+      "end": 965,
+      "text": "untuk meningkatkan kecepatan loading halaman selanjutnya."
+    },
+    {
+      "start": 967,
+      "end": 969,
+      "text": "Ini mirip-mirip sama ini."
+    },
+    {
+      "start": 969,
+      "end": 977,
+      "text": "Waktu dulu sempat ada application frameworknya Svelte juga melakukan reload."
+    },
+    {
+      "start": 977,
+      "end": 983,
+      "text": "Jadi bedanya adalah ketika linknya kita hover, itu dia melakukan reload."
+    },
+    {
+      "start": 983,
+      "end": 986,
+      "text": "Hover baru pre-fetch."
+    },
+    {
+      "start": 986,
+      "end": 992,
+      "text": "Keliatannya memang meta framework apapun built-in routernya pakai strategi yang ini ya."
+    },
+    {
+      "start": 992,
+      "end": 998,
+      "text": "Kayak di Next.js juga kan ada next link itu pakai link komponennya Next."
+    },
+    {
+      "start": 998,
+      "end": 999,
+      "text": "Dia kayak gitu."
+    },
+    {
+      "start": 999,
+      "end": 1007,
+      "text": "Mungkin si quick link ini memungkinkan, ya kan nggak semua orang pakai Svelte kita atau Next.js."
+    },
+    {
+      "start": 1007,
+      "end": 1013,
+      "text": "Jadi mau yang pakai WordPress atau Drupal atau create track app biasa,"
+    },
+    {
+      "start": 1013,
+      "end": 1021,
+      "text": "pokoknya kalau di luar meta framework itu bisa dapatin behavior yang kayak gini."
+    },
+    {
+      "start": 1021,
+      "end": 1024,
+      "text": "Tanpa harus pakai remix."
+    },
+    {
+      "start": 1024,
+      "end": 1027,
+      "text": "Framework anostic."
+    },
+    {
+      "start": 1027,
+      "end": 1031,
+      "text": "Jadi sekiranya seperti itu."
+    },
+    {
+      "start": 1031,
+      "end": 1034,
+      "text": "Cuman kalau hover nggak enaknya di mobile kan nggak bisa hover."
+    },
+    {
+      "start": 1034,
+      "end": 1037,
+      "text": "Iya juga ya. Benar juga ya."
+    },
+    {
+      "start": 1037,
+      "end": 1043,
+      "text": "Kayaknya itu emang responsif deh kalau yang punya Next.js sama Svelte."
+    },
+    {
+      "start": 1043,
+      "end": 1048,
+      "text": "Ya kalau di mobile sama kayak gitu kalau masuk viewport di revenge."
+    },
+    {
+      "start": 1048,
+      "end": 1051,
+      "text": "Betul, betul, betul."
+    },
+    {
+      "start": 1051,
+      "end": 1052,
+      "text": "Konceptnya mirip ya."
+    },
+    {
+      "start": 1052,
+      "end": 1053,
+      "text": "Konceptnya mirip."
+    },
+    {
+      "start": 1053,
+      "end": 1056,
+      "text": "Tapi ini stand alone."
+    },
+    {
+      "start": 1056,
+      "end": 1057,
+      "text": "Stand alone."
+    },
+    {
+      "start": 1057,
+      "end": 1060,
+      "text": "Ini stand alone kecil dan single purpose ya."
+    },
+    {
+      "start": 1060,
+      "end": 1066,
+      "text": "Maksudnya nggak nempel sama framework apapun."
+    },
+    {
+      "start": 1066,
+      "end": 1078,
+      "text": "Oke, ini ada load ke scriptnya berarti ini bukan menjadi API-nya si Chrome atau browser kan ya."
+    },
+    {
+      "start": 1078,
+      "end": 1080,
+      "text": "Jadi tetap third party jatuhnya ya."
+    },
+    {
+      "start": 1080,
+      "end": 1085,
+      "text": "Coba ulang pertanyaan yang gimana."
+    },
+    {
+      "start": 1085,
+      "end": 1089,
+      "text": "Ini kan ada load quicklink.umd.js kan."
+    },
+    {
+      "start": 1089,
+      "end": 1093,
+      "text": "Berarti ini bukan nggak akan disupport oleh browser kan."
+    },
+    {
+      "start": 1093,
+      "end": 1097,
+      "text": "Bukan hanya browser dalam artian API browser."
+    },
+    {
+      "start": 1097,
+      "end": 1100,
+      "text": "Dia hanya meng-enable API browser yang ada."
+    },
+    {
+      "start": 1100,
+      "end": 1103,
+      "text": "Jadi API yang dipakai di sini ada dua."
+    },
+    {
+      "start": 1103,
+      "end": 1107,
+      "text": "Intersection Observer."
+    },
+    {
+      "start": 1107,
+      "end": 1111,
+      "text": "Terus kemudian Request Idle Callback dan Prefetch API."
+    },
+    {
+      "start": 1111,
+      "end": 1114,
+      "text": "Oh Prefetch API-nya itu bawaan dari browser."
+    },
+    {
+      "start": 1114,
+      "end": 1115,
+      "text": "Bawaan browser."
+    },
+    {
+      "start": 1115,
+      "end": 1120,
+      "text": "Tapi untuk melakukan enable itu kita butuh import kan."
+    },
+    {
+      "start": 1120,
+      "end": 1123,
+      "text": "Ini kayak rapper aja berarti ya? Kayak memudahkan aja?"
+    },
+    {
+      "start": 1123,
+      "end": 1124,
+      "text": "Rapper aja."
+    },
+    {
+      "start": 1124,
+      "end": 1125,
+      "text": "Iya betul-betul."
+    },
+    {
+      "start": 1125,
+      "end": 1129,
+      "text": "Hanya kayak listen, terus nanti dia akan jalanin event-nya."
+    },
+    {
+      "start": 1129,
+      "end": 1133,
+      "text": "Sesuai dengan mendeteksi high-time email-nya itu aja."
+    },
+    {
+      "start": 1133,
+      "end": 1135,
+      "text": "Sesuai dengan di intersection Observer."
+    },
+    {
+      "start": 1135,
+      "end": 1138,
+      "text": "Kalau dia mendetek di intersection ada aharef."
+    },
+    {
+      "start": 1138,
+      "end": 1141,
+      "text": "Bakal dia ambil aharef-nya."
+    },
+    {
+      "start": 1141,
+      "end": 1144,
+      "text": "Dia prefetch."
+    },
+    {
+      "start": 1144,
+      "end": 1146,
+      "text": "Semudah itu dia cara kerjanya."
+    },
+    {
+      "start": 1146,
+      "end": 1151,
+      "text": "Seperti itu."
+    },
+    {
+      "start": 1151,
+      "end": 1155,
+      "text": "Ada lagi yang mau ditambahkan?"
+    },
+    {
+      "start": 1155,
+      "end": 1158,
+      "text": "Itu aja. Sudah cukup."
+    },
+    {
+      "start": 1158,
+      "end": 1160,
+      "text": "Tidak usah banyak-banyak dulu."
+    },
+    {
+      "start": 1160,
+      "end": 1163,
+      "text": "Farid nih ada yang nanya sedang bahas apa."
+    },
+    {
+      "start": 1163,
+      "end": 1165,
+      "text": "Tadi bahas Prefetch API ya."
+    },
+    {
+      "start": 1165,
+      "end": 1174,
+      "text": "Jadi gimana caranya kita bisa menyulap aplikasi web kita yang multi-page application menjadi seperti single-page application."
+    },
+    {
+      "start": 1174,
+      "end": 1176,
+      "text": "Seperti."
+    },
+    {
+      "start": 1176,
+      "end": 1178,
+      "text": "Dia bisa mempercepat."
+    },
+    {
+      "start": 1178,
+      "end": 1183,
+      "text": "Berikutnya Eka, silahkan."
+    },
+    {
+      "start": 1183,
+      "end": 1186,
+      "text": "Nah ini mirip-mirip nih."
+    },
+    {
+      "start": 1186,
+      "end": 1189,
+      "text": "Performance juga ngambil area-nya Ivan."
+    },
+    {
+      "start": 1189,
+      "end": 1192,
+      "text": "Jadi ini ada artikel bagus."
+    },
+    {
+      "start": 1192,
+      "end": 1195,
+      "text": "Ini menarik dan ini bikinannya Googler juga."
+    },
+    {
+      "start": 1195,
+      "end": 1200,
+      "text": "Eddie Osmani dan ilustrator Libya Heli, kalau nggak salah."
+    },
+    {
+      "start": 1200,
+      "end": 1212,
+      "text": "Ini patterns.dev ini website yang membahas pendekatan atau pattern-pattern yang ada di arsitektur round-end web."
+    },
+    {
+      "start": 1212,
+      "end": 1216,
+      "text": "Nah salah satunya yang sering mungkin belakangan ini kita sering banget denger nih."
+    },
+    {
+      "start": 1216,
+      "end": 1219,
+      "text": "Ini namanya Islands Architecture."
+    },
+    {
+      "start": 1219,
+      "end": 1222,
+      "text": "Ini artiklenya panjang ya, lumayan."
+    },
+    {
+      "start": 1222,
+      "end": 1225,
+      "text": "Ntar kalau temen-temen penasaran mau baca sendiri aja."
+    },
+    {
+      "start": 1225,
+      "end": 1233,
+      "text": "Cuma intinya Islands Architecture ini adalah suatu filosofi atau pendekatan."
+    },
+    {
+      "start": 1233,
+      "end": 1237,
+      "text": "Approach baru dalam menyosun arsitektur front-end web."
+    },
+    {
+      "start": 1237,
+      "end": 1246,
+      "text": "Jadi ini yang di layar nih ada encourage small focus chunks of interactivity within server-rendered web pages."
+    },
+    {
+      "start": 1246,
+      "end": 1248,
+      "text": "Nah maksudnya itu apa?"
+    },
+    {
+      "start": 1248,
+      "end": 1252,
+      "text": "Nah kita bayangin deh, ini pakai analoginya kan kepulauan."
+    },
+    {
+      "start": 1252,
+      "end": 1255,
+      "text": "Nah kebetulan negara kita negara kepulauan juga kan."
+    },
+    {
+      "start": 1255,
+      "end": 1259,
+      "text": "Jadi kita terbiasa nih, liat di peta nih, peta Indonesia bayangin lah."
+    },
+    {
+      "start": 1259,
+      "end": 1264,
+      "text": "Ada laut kan ya, ada Samudra India, terus ada pulau-pulaunya."
+    },
+    {
+      "start": 1264,
+      "end": 1271,
+      "text": "Nah dengan analogi ini, kalau diterapkan di aplikasi web front-end,"
+    },
+    {
+      "start": 1271,
+      "end": 1281,
+      "text": "seluruh wilayah Indonesia dalam hal ini, maksudnya seluruh wilayah geografis itu baik laut maupun darat, itu aplikasi web kita."
+    },
+    {
+      "start": 1281,
+      "end": 1292,
+      "text": "Nah yang diibaratkan dengan pulau itu adalah bagian-bagian tertentu yang membutuhkan interaktifitas JavaScript."
+    },
+    {
+      "start": 1292,
+      "end": 1299,
+      "text": "Jadi diibaratkan yang bagian laut-lautnya itu yang statik."
+    },
+    {
+      "start": 1299,
+      "end": 1306,
+      "text": "Sementara ada pulau-pulau komponen user interface yang membutuhkan JavaScript."
+    },
+    {
+      "start": 1306,
+      "end": 1311,
+      "text": "Nah kalau kita bayangin pulau ini kan, pulau ada yang besar, ada yang kecil."
+    },
+    {
+      "start": 1311,
+      "end": 1315,
+      "text": "Terus mungkin masing-masing pulau ada iklimnya sendiri, ada kondisinya sendiri."
+    },
+    {
+      "start": 1315,
+      "end": 1321,
+      "text": "Nah itu diibaratkan dengan komponen user interface."
+    },
+    {
+      "start": 1321,
+      "end": 1330,
+      "text": "Terus kenapa bisa sampai ada teknik atau pendekatan seperti ini?"
+    },
+    {
+      "start": 1330,
+      "end": 1333,
+      "text": "Kita lihat tuh ada point 1 dan point 2."
+    },
+    {
+      "start": 1333,
+      "end": 1339,
+      "text": "Nah dengan island architecture ini bisa menyeimbangkan 2 perspektif."
+    },
+    {
+      "start": 1339,
+      "end": 1346,
+      "text": "Yaitu pertama ada CSR, client-side render, dan kedua ada SSR."
+    },
+    {
+      "start": 1346,
+      "end": 1351,
+      "text": "Nah 2 approach ini sebetulnya punya keuntungan masing-masing."
+    },
+    {
+      "start": 1351,
+      "end": 1361,
+      "text": "Jadi kalau CSR itu contohnya yang dulu banget ya, yang paling pertama muncul maksudnya misalnya kita pakai create-react-app atau semacamnya."
+    },
+    {
+      "start": 1361,
+      "end": 1367,
+      "text": "Kan kita cuma punya shell HTML tuh, file index HTML-nya biasanya sangat sederhana."
+    },
+    {
+      "start": 1367,
+      "end": 1373,
+      "text": "Cuma head, body, dalamnya 1 div kosong yang lalu nanti dehydrate."
+    },
+    {
+      "start": 1373,
+      "end": 1377,
+      "text": "Kita harus nge-load sebuah file JavaScript entry point."
+    },
+    {
+      "start": 1377,
+      "end": 1386,
+      "text": "Nah semuanya seisi halaman web kita itu seluruhnya dirender oleh JavaScript ke dalam div kosong itu."
+    },
+    {
+      "start": 1386,
+      "end": 1390,
+      "text": "Nah itu tuh kan pasti punya beberapa kekurangan ya."
+    },
+    {
+      "start": 1390,
+      "end": 1402,
+      "text": "Pertama pasti file JavaScript yang di-download ukurannya sangat besar karena semua-semua kodenya itu untuk merender seisi halaman web itu ada di situ."
+    },
+    {
+      "start": 1402,
+      "end": 1410,
+      "text": "Nah yang kedua juga kan seperti tadi udah dibahas kan browser tuh punya satu main thread."
+    },
+    {
+      "start": 1410,
+      "end": 1419,
+      "text": "Kalau harus ngerender DOM element dari awal semua nih dari tadi halaman kosong, 1 div kosong doang, sampai banyak, sampai ada isinya semua."
+    },
+    {
+      "start": 1419,
+      "end": 1427,
+      "text": "Bahkan browser kerjanya jadi sangat banyak, itu main thread-nya juga harus bekerja keras dalam waktu lama itu kurang bagus untuk performance."
+    },
+    {
+      "start": 1427,
+      "end": 1443,
+      "text": "Nah terus yang kedua nih tadi di, apa, setelah orang sadar kekurangan client-side rendering, ada approach lain yang namanya SSR, server-side rendering."
+    },
+    {
+      "start": 1443,
+      "end": 1452,
+      "text": "Jadi semua DOM element-nya, HTML-nya dirender oleh server. Tapi ada masalah lagi nih kan dari server dikirim ke client."
+    },
+    {
+      "start": 1452,
+      "end": 1462,
+      "text": "Nah terus ada bagian-bagian yang perlu dehydrate karena butuh interaktifitas atau mungkin ada konten yang harus berubah secara real-time."
+    },
+    {
+      "start": 1462,
+      "end": 1473,
+      "text": "Nah sering nih yang terjadi adalah jadi harus kerja dua kali. Pertama apa, dirender oleh server, server render."
+    },
+    {
+      "start": 1473,
+      "end": 1481,
+      "text": "Lalu tetap aja misalnya kita pakai yang paling sering misalnya Next.js atau Remix, kan tetap harus merender ulang."
+    },
+    {
+      "start": 1481,
+      "end": 1493,
+      "text": "Kalau Next.js biasanya dia manggil JSON berisi isi halaman tersebut, lalu dihydrate ulang, dan komponennya direplace dengan hasil kalkulasi react runtime."
+    },
+    {
+      "start": 1493,
+      "end": 1499,
+      "text": "Nah kadang itu juga menghasilkan atau menyebabkan masalah performance."
+    },
+    {
+      "start": 1499,
+      "end": 1513,
+      "text": "Nah sementara kalau kita lihat nih isi suatu aplikasi seperti yang di layar itu, itu kan karakternya macam-macam ya, ada header, ada static menu, ada image carousel, product detail, dan lain-lain."
+    },
+    {
+      "start": 1513,
+      "end": 1522,
+      "text": "Sebetulnya kalau kita lihat, tidak semua komponen UI itu perlu dihydrate dengan JavaScript."
+    },
+    {
+      "start": 1522,
+      "end": 1532,
+      "text": "Nah dengan island architecture ini, kita memiliki kontrol yang lebih, kita bisa lebih fine-tune atau customized."
+    },
+    {
+      "start": 1532,
+      "end": 1541,
+      "text": "Pertama, bagian-bagian mana saja atau ibaratnya pulau mana saja yang ingin kita hydrate dengan JavaScript, itu pertama."
+    },
+    {
+      "start": 1541,
+      "end": 1554,
+      "text": "Lalu kedua, tingkat prioritas, kayak misalnya konten yang above default, pasti harus segera kita hydrate kan, karena itu sudah tampak muncul, udah dilihat oleh user."
+    },
+    {
+      "start": 1554,
+      "end": 1560,
+      "text": "Ini mirip sama yang API-nya masih berhubungan dengan yang dibahas Ivan tadi."
+    },
+    {
+      "start": 1560,
+      "end": 1571,
+      "text": "Sebetulnya kalau konten yang below default, kita bisa loading-nya belakangan saja, nunggu callback dari, apa tadi, request idle callback muncul."
+    },
+    {
+      "start": 1571,
+      "end": 1582,
+      "text": "Kita bisa fine-tune sesuai kebutuhan aplikasi kita. Intinya dari island architecture itu seperti itu."
+    },
+    {
+      "start": 1582,
+      "end": 1593,
+      "text": "Lalu sebetulnya island architecture sendiri itu kan tadi semacam filosofi atau pendekatan saja, tapi dia bukan belum masuk ke implementation detail."
+    },
+    {
+      "start": 1593,
+      "end": 1601,
+      "text": "Nah detail implementasi atau penerapannya seperti apa sih? Itu kayak dikembalikan ke masing-masing framework."
+    },
+    {
+      "start": 1601,
+      "end": 1614,
+      "text": "Jadi kalau yang kasus paling extreme, misalnya kita pengen manually hand roll semua, misalnya kita pasang saja, kita bikin web komponennya, kita bikin modul-modul,"
+    },
+    {
+      "start": 1614,
+      "end": 1630,
+      "text": "terus kita pasang intersection observer, terus kita juga observe request idle callback, terus kita menghydrate seluruh komponen kita secara manual berdasarkan behavior yang kita inginkan."
+    },
+    {
+      "start": 1630,
+      "end": 1643,
+      "text": "Itu ya bisa, cuma mungkin sebagian besar developer nggak punya waktu dan tenaga sebanyak itu. Jadi pada umumnya sih orang menggunakan implementasi dalam bentuk framework yang sudah ada."
+    },
+    {
+      "start": 1643,
+      "end": 1660,
+      "text": "Nah beberapa contoh framework yang menerapkan prinsip atau filosofi island architecture itu, dicontohnya ada Marko, terus yang paling baruni dan mungkin teman-teman sering dengar belakangan ini tuh ada Astro,"
+    },
+    {
+      "start": 1660,
+      "end": 1677,
+      "text": "lalu ada juga yang bikin integrasi, jadi kalau eleventy sendiri kan pure static, tapi ini ada yang bikin integrasi eleventy dan react untuk memperoleh behavior yang si island architecture seperti tadi."
+    },
+    {
+      "start": 1677,
+      "end": 1691,
+      "text": "Kira-kira gitu. Kalau di artikel itu ada contohnya, contoh penerapan atau implementasi yang sederhana di Astro, itu sih sekedar contoh saja."
+    },
+    {
+      "start": 1691,
+      "end": 1707,
+      "text": "Jadi misalnya kalau kita punya artikel atau blog post, artikelnya itu kan sendiri bisa dirender dari server site ya, dirender sebagai konten static HTML biasa aja, jadi yang dikirim dari server di awal mulai dari zero JavaScript."
+    },
+    {
+      "start": 1707,
+      "end": 1722,
+      "text": "Karena isi artikelnya kan mark up seperti itu, tapi contohnya di artikel itu ada komponen atau pulau kecil yang butuh interaktifitas JavaScript, ya itu dalam bentuk kita bisa like atau dislike."
+    },
+    {
+      "start": 1722,
+      "end": 1737,
+      "text": "Jadi ya udah, kita nge-load JavaScriptnya itu setelah dia muncul atau setelah browser main thread sudah tidak sibuk. Jadi intinya sih kita bisa dapetin the best of both worlds."
+    },
+    {
+      "start": 1737,
+      "end": 1752,
+      "text": "Kita bisa dapet halaman yang SEO friendly, performennya bagus, dan lain-lain dengan konten HTML static, tapi kita juga bisa dapetin interaktifitas yang menggunakan JavaScript client-side."
+    },
+    {
+      "start": 1752,
+      "end": 1762,
+      "text": "Apa yang terjadi ketika kita loading seperti ini, si JavaScriptnya kadang-kadang agak lambat, itu dia akan loading spinner dulu ya, berarti ya?"
+    },
+    {
+      "start": 1762,
+      "end": 1771,
+      "text": "Nah itu kita bisa, kita bisa customize sih, biasanya kan kita pakai placeholder ya spinner, atau malah kosong sama sekali."
+    },
+    {
+      "start": 1771,
+      "end": 1782,
+      "text": "Cuma kalau above default itu nggak recommended ya, karena kan nanti jadi CLS-nya begitu dia loading kan jadiin dorong yang lain tuh, geser ke bawah semua."
+    },
+    {
+      "start": 1782,
+      "end": 1790,
+      "text": "Jadi kalau above default, kita harus pastiin pakai placeholder yang ukuran atau dimensinya sama kayak kontennya."
+    },
+    {
+      "start": 1790,
+      "end": 1796,
+      "text": "Tapi kalau di bawah sih ya, bebas. Geser gitu ya. Geser, ntar CLS kayak kemarin."
+    },
+    {
+      "start": 1796,
+      "end": 1806,
+      "text": "Apa CLS? Kepanjangannya? Cumulative Playout Shift. Playout Shift, CLS, oke."
+    },
+    {
+      "start": 1806,
+      "end": 1813,
+      "text": "Pro dan cons, performen sudah pasti kan? Oh iya, pro jelas, performen sih ya."
+    },
+    {
+      "start": 1813,
+      "end": 1822,
+      "text": "Jadi sebenarnya sih kalau yang aku lihat nih, pro-nya ya standar lah. Maksudnya sesuai ekspektasi kita. Kan sebenarnya kita udah punya CSR, punya SSR."
+    },
+    {
+      "start": 1822,
+      "end": 1828,
+      "text": "Nah, kita kayak memadukan keunggulan dari dua approach terhebut."
+    },
+    {
+      "start": 1828,
+      "end": 1838,
+      "text": "Jadi benefit-nya ya apa, tetap bisa interaktif tapi cepat, dan kita bisa memprioritaskan konten yang kita butuhkan."
+    },
+    {
+      "start": 1838,
+      "end": 1846,
+      "text": "Nah, cuma pastinya ada kekurangannya. Cuma yang aku lihat sini, kekurangannya lebih ke human factor-nya ya apa,"
+    },
+    {
+      "start": 1846,
+      "end": 1854,
+      "text": "factor penggunaan. Jadi kayak misalnya apa, kalau kita mau pakai ya, yang tadi itu, kita harus,"
+    },
+    {
+      "start": 1854,
+      "end": 1862,
+      "text": "ini kan karena customized banget ya, yang bisa mengontrol apa, yang bisa mengontrol mana yang harus dihydrate duluan,"
+    },
+    {
+      "start": 1862,
+      "end": 1868,
+      "text": "mana yang harus perlu dihydrate atau enggak, itu kan sangat subjektif tergantung aplikasi kita."
+    },
+    {
+      "start": 1868,
+      "end": 1874,
+      "text": "Jadi ya kita harus pakai framework atau itu tadi kita hand roll semua sendiri dari awal."
+    },
+    {
+      "start": 1874,
+      "end": 1881,
+      "text": "Lalu apa sih, mungkin karena relatif baru ya, jadi belum terlalu banyak nekonon,"
+    },
+    {
+      "start": 1881,
+      "end": 1889,
+      "text": "belum terlalu banyak diskusi tentang pendekatan ini. Terus kalau poin keempat sih ya, itu gimana kita lihat apa,"
+    },
+    {
+      "start": 1889,
+      "end": 1895,
+      "text": "gimana kita memahami produk kita kan. Misalnya nih kalau aplikasi kita semuanya,"
+    },
+    {
+      "start": 1895,
+      "end": 1903,
+      "text": "literally semuanya butuh client-side JavaScript, misalnya kita punya web-based game, kita punya game,"
+    },
+    {
+      "start": 1903,
+      "end": 1907,
+      "text": "atau aplikasi map, atau aplikasi apa... - Figma? - Sosial media."
+    },
+    {
+      "start": 1907,
+      "end": 1915,
+      "text": "Pakai kanvas, ya Figma, pokoknya kalau emang dominan JavaScript ya, ini bukan solusi yang tepat"
+    },
+    {
+      "start": 1915,
+      "end": 1922,
+      "text": "buat aplikasi kita. Jadi itu lebih ke human factor ya, apa? Usage factor."
+    },
+    {
+      "start": 1922,
+      "end": 1927,
+      "text": "- Oke. - Alaman memang rehydration itu adalah"
+    },
+    {
+      "start": 1927,
+      "end": 1932,
+      "text": "proses paling mahal untuk aplikasi JavaScript. - Mungkin bisa dijelaskan rehydration itu apa sih?"
+    },
+    {
+      "start": 1932,
+      "end": 1946,
+      "text": "- Oh ya, rehydration. - Oke, silahkan cek. - Kita punya markup HTML yang kalau berupa HTML"
+    },
+    {
+      "start": 1946,
+      "end": 1954,
+      "text": "pastinya masih statik kan ya. Nah, rehydrate itu ibaratnya disiram atau digelontor oleh JavaScript client-side"
+    },
+    {
+      "start": 1954,
+      "end": 1961,
+      "text": "yang ada event listener-nya mungkin, atau mungkin ada fungsionalitas misalnya nge-fetch konten,"
+    },
+    {
+      "start": 1961,
+      "end": 1967,
+      "text": "ya kayak misalnya like button, biasanya like button itu kan seringnya nampilin jumlah like yang sudah ada,"
+    },
+    {
+      "start": 1967,
+      "end": 1975,
+      "text": "atau mungkin ada avatar atau foto orang user sebelumnya yang sudah like. Nah, itu kalau pas awal kan"
+    },
+    {
+      "start": 1975,
+      "end": 1983,
+      "text": "mungkin hanya berupa button biasa dari apa, yang dikirim oleh server. Setelah dihydrate, setelah digelontor"
+    },
+    {
+      "start": 1983,
+      "end": 1992,
+      "text": "dengan JavaScript atau setelah apa, JavaScript dari konten itu, dari komponen itu berjalan,"
+    },
+    {
+      "start": 1992,
+      "end": 2002,
+      "text": "itu dia akan mereplace atau memodifikasi DOM yang sudah ada, yang tadi dikirim, yang sebelumnya dikirim dari server."
+    },
+    {
+      "start": 2002,
+      "end": 2010,
+      "text": "- Oke. Jadi kayak dilanjutin ya, kerjaannya dilanjutin ya? - Iya, diberi interaktifitas."
+    },
+    {
+      "start": 2010,
+      "end": 2019,
+      "text": "- Hmm, oke. Jadi dikasih layer tambahan untuk interaktifitasnya ya? - Iya, client-side JavaScript."
+    },
+    {
+      "start": 2019,
+      "end": 2025,
+      "text": "- Oke. Kalau link yang kedua ini apa nih? Awesome. - Nah, link yang kedua itu masih berhubungan"
+    },
+    {
+      "start": 2025,
+      "end": 2033,
+      "text": "sama yang tadi. Itu kan tadi artikelnya masih di level apa ya, semi teori ya, penjelasan island itu apa,"
+    },
+    {
+      "start": 2033,
+      "end": 2040,
+      "text": "bla-bla-bla. Nah, cuma kalau kita ingin lihat penerapannya, itu ada beberapa contoh dari berupa framework,"
+    },
+    {
+      "start": 2040,
+      "end": 2046,
+      "text": "terus ada yang sebenarnya bukan framework, tapi misalnya berbasis react to, fresh itu bikinannya apa?"
+    },
+    {
+      "start": 2046,
+      "end": 2056,
+      "text": "Deno. Itu integrate sama Deno. Jadi ini lebih ke contoh bahwa si island architecture ini sekedar filosofi,"
+    },
+    {
+      "start": 2056,
+      "end": 2064,
+      "text": "penerapannya nggak terpaku pada salah satu language atau library atau framework apapun."
+    },
+    {
+      "start": 2064,
+      "end": 2072,
+      "text": "Jadi misalnya bukan perkara react atau weld atau apapun, tapi lebih ke cara menyusun suatu aplikasi,"
+    },
+    {
+      "start": 2072,
+      "end": 2082,
+      "text": "lebih ke architecture. Itu ada yang berupa full meta framework, ada yang berupa library tambahan,"
+    },
+    {
+      "start": 2082,
+      "end": 2091,
+      "text": "bisa dipakai sama react, solid dan lain-lain. - Ada weld juga, kalau mau pakai weld,"
+    },
+    {
+      "start": 2091,
+      "end": 2097,
+      "text": "gampangnya pakai elder JS gitu ya, kalau nggak mau manual gitu ya. - Enak loh pakai elder JS,"
+    },
+    {
+      "start": 2097,
+      "end": 2106,
+      "text": "malah promosi framework. Pernah, pernah. - Oke. Mantap, mantap. Nah, berhubungan sama,"
+    },
+    {
+      "start": 2106,
+      "end": 2112,
+      "text": "masih berhubungan sama pembahasannya tentang EKA, nyambung nih. Saya mau membahas tentang Astro."
+    },
+    {
+      "start": 2112,
+      "end": 2115,
+      "text": "- Yay, lanjut. - Yay, lanjut."
+    },
+    {
+      "start": 2115,
+      "end": 2119,
+      "text": "- Astro baru ini kan? Baru apa? Baru launching. - Baru 1.0."
+    },
+    {
+      "start": 2119,
+      "end": 2127,
+      "text": "- 1.0. Jadi sebenarnya awalnya Astro ini kalau gue lihat adalah dia seperti server-side,"
+    },
+    {
+      "start": 2127,
+      "end": 2135,
+      "text": "static-side generator SSG kan awalnya. Tapi ternyata lebih dari itu ya, ternyata ya."
+    },
+    {
+      "start": 2135,
+      "end": 2141,
+      "text": "Jadi kurang lebih hampir sama, jadi si Astro ini menggunakan konsep si island,"
+    },
+    {
+      "start": 2141,
+      "end": 2148,
+      "text": "walaupun ya, dia sudah menggunakan kata-kata island di sini ya. Jadi kan kalau menurut EKA tadi"
+    },
+    {
+      "start": 2148,
+      "end": 2155,
+      "text": "dan menurut si Astro ini, website kita itu atau aplikasi web kita itu tidak 100% dinamis,"
+    },
+    {
+      "start": 2155,
+      "end": 2160,
+      "text": "kecuali ya tadi game atau Figma atau apa. Ada hal-hal yang tetap static kan,"
+    },
+    {
+      "start": 2160,
+      "end": 2169,
+      "text": "contohnya ini. Menu. Menu jarang sekali dinamis kan. Pasti bisa dibikin statis"
+    },
+    {
+      "start": 2169,
+      "end": 2175,
+      "text": "walaupun akan ada kemungkinan perubahan kan, tapi jarang sekali. Dan hal-hal seperti ini"
+    },
+    {
+      "start": 2175,
+      "end": 2181,
+      "text": "mungkin masih ada hubungannya juga dengan App Shell gitu ya. App Shell itu kan"
+    },
+    {
+      "start": 2181,
+      "end": 2187,
+      "text": "sudah static kan. Yang dinamis itu yang di dalamnya kan. Jadi mungkin perkembangan dari sana."
+    },
+    {
+      "start": 2187,
+      "end": 2195,
+      "text": "Dan si Astro ini ingin menerapkan konsep island tadi ke framework-nya."
+    },
+    {
+      "start": 2195,
+      "end": 2199,
+      "text": "Salah satunya yang dijual adalah ketika di load pertama kali by default itu"
+    },
+    {
+      "start": 2199,
+      "end": 2204,
+      "text": "JavaScript-nya zero atau kosong. Karena seperti yang sudah kita tahu sama-sama,"
+    },
+    {
+      "start": 2204,
+      "end": 2213,
+      "text": "kalau di web itu ada beberapa aset yang paling besar dan bikin loading-nya lama."
+    },
+    {
+      "start": 2213,
+      "end": 2220,
+      "text": "Yang paling lama adalah image. Yang pertama image. Kedua itu font mungkin ya."
+    },
+    {
+      "start": 2220,
+      "end": 2226,
+      "text": "Font yang ketiga itu JavaScript gitu. Jadi belum-belum baru landing page tiba-tiba"
+    },
+    {
+      "start": 2226,
+      "end": 2230,
+      "text": "sudah ada JavaScript yang segedegaban gitu kan. Padahal sebenarnya yang butuh interaksi"
+    },
+    {
+      "start": 2230,
+      "end": 2236,
+      "text": "sebenarnya mungkin di halaman lain gitu. Di halaman kontekah atau di halaman yang"
+    },
+    {
+      "start": 2236,
+      "end": 2240,
+      "text": "ada form-nya, ada button-nya dan lain-lain. Pada saat landing page sebenarnya belum"
+    },
+    {
+      "start": 2240,
+      "end": 2244,
+      "text": "perlu di load JavaScript. Jadi JavaScript-nya bukan benar-benar kita buat"
+    },
+    {
+      "start": 2244,
+      "end": 2249,
+      "text": "aplikasi web tanpa JavaScript. Tidak begitu. Tapi lebih ke di awal JavaScript-nya"
+    },
+    {
+      "start": 2249,
+      "end": 2254,
+      "text": "nol dulu. Tidak ada dulu. Ketika butuh interaksi, ketika kita sudah sampai"
+    },
+    {
+      "start": 2254,
+      "end": 2259,
+      "text": "scroll ke sini, nah itu dia baru load. Seperti preload tadi ya, kurang lebih ya."
+    },
+    {
+      "start": 2259,
+      "end": 2264,
+      "text": "Konsepnya juga masih mirip-mirip ya. Kurang lebih seperti itu."
+    },
+    {
+      "start": 2264,
+      "end": 2271,
+      "text": "Lebih tepatnya lazy load sih. Kalau preload itu artinya saat page load,"
+    },
+    {
+      "start": 2271,
+      "end": 2276,
+      "text": "bukan, sebelum page load, dia mengambil duluan. - Font biasanya itu."
+    },
+    {
+      "start": 2276,
+      "end": 2280,
+      "text": "- Preload itu paling pertama. Ya preload itu paling highest priority itu preload."
+    },
+    {
+      "start": 2280,
+      "end": 2287,
+      "text": "- Oke. Nah disini fitur utamanya ya inilah, sudah kelihatan ya. Component Island,"
+    },
+    {
+      "start": 2287,
+      "end": 2292,
+      "text": "yang tadi sudah kita bahas. Kemudian ada ngomongin hydration juga."
+    },
+    {
+      "start": 2292,
+      "end": 2297,
+      "text": "Zero J is by default. Edge ready ini mungkin bisa jadi topik berikutnya ya"
+    },
+    {
+      "start": 2297,
+      "end": 2300,
+      "text": "tentang edge function gitu ya. - Nah bahas tuh."
+    },
+    {
+      "start": 2300,
+      "end": 2304,
+      "text": "Gue nggak ngerti-ngerti soalnya. - Jadi intinya kita mau bawa"
+    },
+    {
+      "start": 2304,
+      "end": 2310,
+      "text": "fungsi-fungsi yang di belakang layar, kayak back-end gitu ya, itu dekat dengan,"
+    },
+    {
+      "start": 2310,
+      "end": 2316,
+      "text": "sedekat mungkin dengan pengguna. Jadi bisa nempel ke CDN lah, kira-kira kayak gitu."
+    },
+    {
+      "start": 2316,
+      "end": 2322,
+      "text": "Ada Cloudflare Worker, ada banyak lagi yang lain. Si Versal juga punya,"
+    },
+    {
+      "start": 2322,
+      "end": 2328,
+      "text": "ada Deno juga, dan lain-lain. Kita bahas nanti di episode-episode berikutnya."
+    },
+    {
+      "start": 2328,
+      "end": 2332,
+      "text": "Jadi tungguin aja. Subscribe, subscribe. - Oke."
+    },
+    {
+      "start": 2332,
+      "end": 2339,
+      "text": "- Oke. Tadi juga sudah sempat dibahas di Island Architecture. Salah dua-duanya adalah"
+    },
+    {
+      "start": 2339,
+      "end": 2344,
+      "text": "namanya Quick. Ini juga cukup baru ya. Ini malah lebih unik lagi dalam artian,"
+    },
+    {
+      "start": 2344,
+      "end": 2348,
+      "text": "kita tadi ngomongin hydration, sementara Quick ini katanya tidak ada hydration."
+    },
+    {
+      "start": 2348,
+      "end": 2352,
+      "text": "- Oh. - Gimana caranya?"
+    },
+    {
+      "start": 2352,
+      "end": 2358,
+      "text": "Nah itu, saya juga belum tahu, tapi ini menarik gitu ya. Dia sudah support"
+    },
+    {
+      "start": 2358,
+      "end": 2363,
+      "text": "otomatis lazy loading, jadi kita nggak perlu install apa-apa, ada image kah,"
+    },
+    {
+      "start": 2363,
+      "end": 2367,
+      "text": "ada apa dia bikinin lazy loading-nya, dan ada Edge Optimized juga,"
+    },
+    {
+      "start": 2367,
+      "end": 2371,
+      "text": "masih mirip dengan Astro juga. Dan yang menarik adalah yang bikin,"
+    },
+    {
+      "start": 2371,
+      "end": 2376,
+      "text": "mana dia? Oh nggak usah, ntar dulu. Ya ini ya, zero loading, katanya nggak perlu"
+    },
+    {
+      "start": 2376,
+      "end": 2382,
+      "text": "hydration, karena it is resumable, saya belum tahu ini resumable-nya kayak gimana,"
+    },
+    {
+      "start": 2382,
+      "end": 2390,
+      "text": "konsepnya ya. Jadi lazy loading-nya sudah by default, dan lain-lain bisa dibaca sendiri."
+    },
+    {
+      "start": 2390,
+      "end": 2395,
+      "text": "Nah, yang saya mau highlight adalah yang bikin. Yang bikin ini."
+    },
+    {
+      "start": 2395,
+      "end": 2398,
+      "text": "- Yang bikin angular ya? - Dispoiler pre ini adalah yang bikin angular.js."
+    },
+    {
+      "start": 2398,
+      "end": 2403,
+      "text": "Saya nggak tahu, kayaknya dia bikin juga angular 2 ya, angular yang versi"
+    },
+    {
+      "start": 2403,
+      "end": 2407,
+      "text": "berikutnya ya. Dia bekerja di Google, mungkin sekarang sudah nggak ya."
+    },
+    {
+      "start": 2407,
+      "end": 2417,
+      "text": "Terus, si ini, Manu, dia bikin, yang bikin Gin, framework-nya Goleng ya,"
+    },
+    {
+      "start": 2417,
+      "end": 2421,
+      "text": "kalau nggak salah. Terus juga stencil ini adalah framework untuk Web Component."
+    },
+    {
+      "start": 2421,
+      "end": 2426,
+      "text": "- Web Component ya? - Ya. Dan yang ketiga, Adam itu dari Ionic."
+    },
+    {
+      "start": 2426,
+      "end": 2434,
+      "text": "Jadi mereka kayaknya pecahannya angular ya. Ionic kan cukup populer di, apa?"
+    },
+    {
+      "start": 2434,
+      "end": 2438,
+      "text": "Ionic awalnya kan hanya support angular kan, walaupun sekarang sudah bisa semua kan."
+    },
+    {
+      "start": 2438,
+      "end": 2446,
+      "text": "Jadi ini menarik, dan dengar-dengar juga, si Google itu sebenarnya punya"
+    },
+    {
+      "start": 2446,
+      "end": 2451,
+      "text": "framework internal yang tidak dipublish keluar, yang konsepnya adalah seperti ini."
+    },
+    {
+      "start": 2451,
+      "end": 2456,
+      "text": "Seperti Island, seperti Astral, dan seperti Quake. Tapi tidak di open source dan"
+    },
+    {
+      "start": 2456,
+      "end": 2461,
+      "text": "tidak dipublish. Mereka pakai untuk web mereka sendiri. Begitu."
+    },
+    {
+      "start": 2461,
+      "end": 2468,
+      "text": "Jadi cara kerjanya Quake ini, sedikit, yang saya tahu ya, karena saya baru baca-baca."
+    },
+    {
+      "start": 2468,
+      "end": 2478,
+      "text": "- Siap. - Dia Hardtml, maksudnya yang JavaScript yang sudah di-hydrate itu,"
+    },
+    {
+      "start": 2478,
+      "end": 2483,
+      "text": "kan katanya no-hydration. Ya, memang betul. Jadi bisa scroll up,"
+    },
+    {
+      "start": 2483,
+      "end": 2487,
+      "text": "saya lupa namanya. Nanti saya salah ngomong, jadi ini lagi."
+    },
+    {
+      "start": 2487,
+      "end": 2492,
+      "text": "- Semua si Huax. - Atas sedikit, atas sedikit."
+    },
+    {
+      "start": 2492,
+      "end": 2501,
+      "text": "Oke, dia bilang that's summable. Jadi sebenarnya dia sudah secara HTML,"
+    },
+    {
+      "start": 2501,
+      "end": 2506,
+      "text": "di bagian server-side, dia sudah ngerender HTML-nya. Terus yang bagian JavaScript,"
+    },
+    {
+      "start": 2506,
+      "end": 2512,
+      "text": "yang event yang perlu di-handle itu, dia sudah simpan di data attribute,"
+    },
+    {
+      "start": 2512,
+      "end": 2517,
+      "text": "di attribute HTML-nya. Jadi dia tinggal replace."
+    },
+    {
+      "start": 2517,
+      "end": 2523,
+      "text": "Oh, jadi bukan hydration kayak ekspektasi. Kita kan tadi si JavaScript-nya"
+    },
+    {
+      "start": 2523,
+      "end": 2530,
+      "text": "bikin atau mengkalkulasi DOM di-replace. Kita kan bayangin Hydrate gitu."
+    },
+    {
+      "start": 2530,
+      "end": 2534,
+      "text": "Asil kalkulasinya sudah disimpan sebagai data attribute, sehingga data attribute-nya"
+    },
+    {
+      "start": 2534,
+      "end": 2539,
+      "text": "itu gede, tetapi karena data attribute itu tidak perlu dirender oleh browser, ya."
+    },
+    {
+      "start": 2539,
+      "end": 2542,
+      "text": "- Iya, si browser-nya nggak kejauh lagi. - Jadi dia tinggal replace."
+    },
+    {
+      "start": 2542,
+      "end": 2551,
+      "text": "- Oh, oke. Galaxy Brain approach-nya ini. - Ini yang lucunya, ya bukan lucu ya,"
+    },
+    {
+      "start": 2551,
+      "end": 2557,
+      "text": "agak sedikit menyedihkan mungkinnya buat saya. Maksudnya, saya tuh baru tau"
+    },
+    {
+      "start": 2557,
+      "end": 2563,
+      "text": "island stikler ya sekarang-sekarang ini. Tahu astrol memang sudah cukup lama,"
+    },
+    {
+      "start": 2563,
+      "end": 2568,
+      "text": "baru-baru tau ternyata astrol itu pakai island, kan. Dan hydration dan lain-lain"
+    },
+    {
+      "start": 2568,
+      "end": 2572,
+      "text": "juga baru-baru belajar, gitu kan. Eh, ternyata udah ada framework yang sudah"
+    },
+    {
+      "start": 2572,
+      "end": 2577,
+      "text": "menyelesaikan masalah di hydration. Hydration ini katanya lumayan kompleks,"
+    },
+    {
+      "start": 2577,
+      "end": 2585,
+      "text": "ya kan. Terus take several seconds juga, ada loading time-nya juga, kan."
+    },
+    {
+      "start": 2585,
+      "end": 2589,
+      "text": "- Banyak banget. - Iya, dan lain-lain gitu kan."
+    },
+    {
+      "start": 2589,
+      "end": 2594,
+      "text": "Yang menyebabkan performa-nya agak kurang, gitu. Dan sudah ada solusinya di Quick."
+    },
+    {
+      "start": 2594,
+      "end": 2600,
+      "text": "Jadi memang itu tadi yang kita sempat ngomong di belakang layar framework JavaScript itu"
+    },
+    {
+      "start": 2600,
+      "end": 2606,
+      "text": "luar biasa ya perkembangannya, ya. - Jadi pengalaman saya dulu waktu kerja"
+    },
+    {
+      "start": 2606,
+      "end": 2611,
+      "text": "di sebuah project itu headless dan full pakai React application."
+    },
+    {
+      "start": 2611,
+      "end": 2621,
+      "text": "Yang terjadi adalah dia news site, news portal, cukup gede. Dan tentunya"
+    },
+    {
+      "start": 2621,
+      "end": 2625,
+      "text": "kalau dibuild pertama itu kan kecil ya. Tapi makin lama-makin lama komponen"
+    },
+    {
+      "start": 2625,
+      "end": 2633,
+      "text": "makin banyak, terus kemudian feature makin banyak, tambah sini, tambah sana."
+    },
+    {
+      "start": 2633,
+      "end": 2641,
+      "text": "Terus itu ininya apa namanya itu? High order komponen terus kayak sudah berlapis-lapis tuh."
+    },
+    {
+      "start": 2641,
+      "end": 2645,
+      "text": "Hoc-nya itu bisa kayak berlapis-lapis, lapis-lapis. Dan akhirnya... - Oh pusingnya tuh."
+    },
+    {
+      "start": 2645,
+      "end": 2650,
+      "text": "- Kan terus dia ada server-side karena butuh SEO, server-side rendering."
+    },
+    {
+      "start": 2650,
+      "end": 2658,
+      "text": "Saya sampai pusing kepala gimana caranya apa tuh namanya, tree-shaking supaya"
+    },
+    {
+      "start": 2658,
+      "end": 2663,
+      "text": "di halaman home page ini dong. Belum ada, jaman itu belum ada Next.js teman-teman."
+    },
+    {
+      "start": 2663,
+      "end": 2667,
+      "text": "Waktu itu jaman tahun 2000. - Jaman jangil liat ya."
+    },
+    {
+      "start": 2667,
+      "end": 2672,
+      "text": "- Awal-awal liat lah ya, 2000. Saya bukan awal-awal banget."
+    },
+    {
+      "start": 2672,
+      "end": 2678,
+      "text": "Tapi jaman itu Next.js belum se-mampu sekarang, secanggi sekarang."
+    },
+    {
+      "start": 2678,
+      "end": 2688,
+      "text": "Jaman itu masih belum. 2017, 2018 lah. Nah, jadi belum ada Gatsby."
+    },
+    {
+      "start": 2688,
+      "end": 2694,
+      "text": "Masih baru kayak pure application gitu. Nah kita bikin itu supaya,"
+    },
+    {
+      "start": 2694,
+      "end": 2700,
+      "text": "saya setengah waktu itu mahir main dengan webpack 4 atau webpack 4 gimana"
+    },
+    {
+      "start": 2700,
+      "end": 2706,
+      "text": "supaya optimization terus kemudian chunk-nya itu dipisah-pisah."
+    },
+    {
+      "start": 2706,
+      "end": 2712,
+      "text": "Tapi at the end, pusingnya adalah saat dehydration dia itu butuh"
+    },
+    {
+      "start": 2712,
+      "end": 2718,
+      "text": "download semua chunk yang dibutuhkan itu supaya bisa melakukan hydration."
+    },
+    {
+      "start": 2718,
+      "end": 2722,
+      "text": "Untuk download chunk itu segitu banyak. Mau pakai preload kan tetap aja preload."
+    },
+    {
+      "start": 2722,
+      "end": 2728,
+      "text": "Kalau preload 1,4 megabyte ya tetap aja gede. - Iya, jadi memperlambat juga ya."
+    },
+    {
+      "start": 2728,
+      "end": 2736,
+      "text": "- Ke Parsing 1.1 juga browser-nya kerja kan kalau chunk-nya terlalu banyak. - Iya, targetnya 600 kilobytes."
+    },
+    {
+      "start": 2736,
+      "end": 2744,
+      "text": "Sudah sama image ya kan. Ini JavaScript doang, 1.4 megabyte coba."
+    },
+    {
+      "start": 2744,
+      "end": 2751,
+      "text": "- Satu floppy disk itu. - Pusingnya adalah,"
+    },
+    {
+      "start": 2751,
+      "end": 2757,
+      "text": "belum ada yang namanya isiannya partial rehydration. Kan ada tuh ya."
+    },
+    {
+      "start": 2757,
+      "end": 2763,
+      "text": "Kemudian React nggak bisa hydration mahal, terus kemudian Vue muncul,"
+    },
+    {
+      "start": 2763,
+      "end": 2773,
+      "text": "Vue mengeluarkan partial rehydration, akhirnya React support sedikit baru-baru ini partial rehydration."
+    },
+    {
+      "start": 2773,
+      "end": 2777,
+      "text": "- Server component sekarang juga udah bisa. - Jadi..."
+    },
+    {
+      "start": 2777,
+      "end": 2781,
+      "text": "- React server component ya?"
+    },
+    {
+      "start": 2781,
+      "end": 2787,
+      "text": "- Jadi, sekarang saya lihat arah framework itu kaya island pattern ini."
+    },
+    {
+      "start": 2787,
+      "end": 2793,
+      "text": "Kalau bisa first page load, no JavaScript. Itu yang betul."
+    },
+    {
+      "start": 2793,
+      "end": 2801,
+      "text": "First page load, jadi gunakan environment atau gunakan sistem yang sudah ada dari browser."
+    },
+    {
+      "start": 2801,
+      "end": 2806,
+      "text": "Banyak loh API-API browser, mungkin kita bahas minggu depan atau selanjutnya ya."
+    },
+    {
+      "start": 2806,
+      "end": 2813,
+      "text": "Banyak banget API-API browser yang sudah menarik. Contohnya, intersection observer."
+    },
+    {
+      "start": 2813,
+      "end": 2822,
+      "text": "Dulu kan kalau kita mau scroll, kita harus kaya, apa itu istilahnya? Get bound rectangle."
+    },
+    {
+      "start": 2822,
+      "end": 2829,
+      "text": "Untuk tau intersection sekarang, intersection observer. Resize observer."
+    },
+    {
+      "start": 2829,
+      "end": 2839,
+      "text": "Kalau screen-nya di resize, bisa otomatis. Container view, di CSS juga sudah ada container."
+    },
+    {
+      "start": 2839,
+      "end": 2842,
+      "text": "Kemarin kita bahasa. - Container query."
+    },
+    {
+      "start": 2842,
+      "end": 2849,
+      "text": "- Container query, udah canggih. - Ada back-forward cache juga."
+    },
+    {
+      "start": 2849,
+      "end": 2856,
+      "text": "- Oh ya, cache. - Itu juga, gue belum belajar tuh back-forward cache."
+    },
+    {
+      "start": 2856,
+      "end": 2868,
+      "text": "Ada nggak sih framework yang wrapping di atas API-API ini? Yang murni dari wrapper-nya untuk ini aja."
+    },
+    {
+      "start": 2868,
+      "end": 2872,
+      "text": "Karena kan kalau kita pakai satu-satu, capek juga kan? Harus setup satu-satu kan?"
+    },
+    {
+      "start": 2872,
+      "end": 2877,
+      "text": "- Harus digantung kebutuhan atas. - Sebenarnya sih, makin kesini kayaknya"
+    },
+    {
+      "start": 2877,
+      "end": 2886,
+      "text": "makin banyak metaframework yang pakai native web API, ya. Jadi kayak misalnya, remix, ya."
+    },
+    {
+      "start": 2886,
+      "end": 2897,
+      "text": "Astro juga. Jadi Astro itu kan, kalau kita pakai UI, pakai swell, triac, atau pakai JavaScript-based component,"
+    },
+    {
+      "start": 2897,
+      "end": 2906,
+      "text": "kita tuh bisa pakai direktif namanya client, client idle, client visible, sama kalau yang default sih langsung di-hydrate."
+    },
+    {
+      "start": 2906,
+      "end": 2917,
+      "text": "Nah, kalau di Astro nih, si client idle dan client side idle dan client side visible ini juga sebetulnya itu nge-wrap web API."
+    },
+    {
+      "start": 2917,
+      "end": 2924,
+      "text": "Jadi idle itu tadi, request idle callback, visi dari intersection observer."
+    },
+    {
+      "start": 2924,
+      "end": 2933,
+      "text": "Jadi kayaknya sih, dengan makin bagusnya browser interoperability, jadi apa, web API udah mulai banyak diadopsi di browser-browser,"
+    },
+    {
+      "start": 2933,
+      "end": 2940,
+      "text": "kayaknya trend framework dan metaframework dengan sendirinya makin streamline mungkin ya."
+    },
+    {
+      "start": 2940,
+      "end": 2948,
+      "text": "Daripada dia bikin sendiri baru, dia pakai spesifikasi yang udah ada, karena user pun udah familiar."
+    },
+    {
+      "start": 2948,
+      "end": 2957,
+      "text": "- Yes. Tapi kadang-kadang kebalik. Jadi ide muncul awal ide-nya itu adalah dari framework biasanya."
+    },
+    {
+      "start": 2957,
+      "end": 2966,
+      "text": "- Oh. - Preload misalkan. Oh ini, apa namanya, oh JSX kan. Dulu sempat ada wacana katanya JSX masukin dong ke Chrome atau ke browser gitu kan."
+    },
+    {
+      "start": 2966,
+      "end": 2969,
+      "text": "Jadi kita nggak preloading kan ada gitu kan. - Eh nggak jadi ya tuh ya."
+    },
+    {
+      "start": 2969,
+      "end": 2976,
+      "text": "- Jadi sebenarnya yang ngedrive si web API yang ada di browser, salah satunya juga framework kan."
+    },
+    {
+      "start": 2976,
+      "end": 2980,
+      "text": "- Ya juga. - Web itu komunitas, Mas."
+    },
+    {
+      "start": 2980,
+      "end": 2988,
+      "text": "Komunitas web. Web itu komunitas yang ada di seluruh dunia dan kita itu tergabung dalam sebuah ekosistem yang namanya web."
+    },
+    {
+      "start": 2988,
+      "end": 2997,
+      "text": "Dan sebenarnya web itu adalah hanya halaman yang disimpan di mesin yang lain yang terhubung dengan network."
+    },
+    {
+      "start": 2997,
+      "end": 3001,
+      "text": "Ya kan? Bener ya? - Betul."
+    },
+    {
+      "start": 3001,
+      "end": 3010,
+      "text": "- Komunitas terbesar di dunia adalah komunitas web. Pengguna web."
+    },
+    {
+      "start": 3010,
+      "end": 3031,
+      "text": "- Iya. Walaupun kalau dari sisi bisnis, kadang-kadang orang tuh cukup sering berpendapat, berasumsi kalau sebenarnya lebih apa ya, prioritasnya tuh lebih ke mobile. - Tergantung bisnisnya juga sih."
+    },
+    {
+      "start": 3031,
+      "end": 3042,
+      "text": "- Atau familiaritas dari user, kalau yang user awam kan terbiasa nginstall dari Play Store, App Store ya. Tapi itu kan udah mulai bisa diadres dengan TWA."
+    },
+    {
+      "start": 3042,
+      "end": 3045,
+      "text": "- Ya."
+    },
+    {
+      "start": 3045,
+      "end": 3063,
+      "text": "- Belum lama yang gak kedengeran tuh TWA. Gimana nasibnya tuh? Udah mature ya? Yang penting kalau buat web jadi Play Store. - Yang pake sih tetap ada gitu, maksudnya udah gak diomongin lagi, pake-pake aja gitu."
+    },
+    {
+      "start": 3063,
+      "end": 3078,
+      "text": "- TWA, sekarang ada Trusted Web App, itu jadi kayak apa? Ya sebenarnya kayak Android Web View tapi yang lebih powerful lah. Jadi kita tetap nge-deploy web biasa, udah bisa diinstall dari Play Store."
+    },
+    {
+      "start": 3078,
+      "end": 3093,
+      "text": "Kalau secara performa dan secara apa ya, API-API yang kan kadang-kadang Android ataupun iOS itu kan ada butuh akses kamera lah atau apa gitu. Itu aman semua."
+    },
+    {
+      "start": 3093,
+      "end": 3110,
+      "text": "- Ya, tetap pake permission sih. Permissionnya web. Jadi ya flow-nya sih sama aja. Kita yang handle aplikasinya yang handle UI untuk munculin dialog permission."
+    },
+    {
+      "start": 3110,
+      "end": 3119,
+      "text": "- Hmm, oke. Nah ini ada yang menarik juga nih, tambahin dikit ya."
+    },
+    {
+      "start": 3119,
+      "end": 3121,
+      "text": "- Apa tuh?"
+    },
+    {
+      "start": 3121,
+      "end": 3126,
+      "text": "- Ini Astro, dia bahas tentang MPA versus SPA. Ini bisa jadi topik kita."
+    },
+    {
+      "start": 3126,
+      "end": 3129,
+      "text": "- Nah nyambung dong, asik ya nyambung. Topik kita semua nyambung."
+    },
+    {
+      "start": 3129,
+      "end": 3143,
+      "text": "- Banyak sekali ya topik kita ya. Kita harus catat nih. Topiknya banyak sekali yang akan kita bahas. Karena lucu ya, jadi tren itu berputar kan dari awalnya memang MPA, awalnya kan multi-page application gitu kan."
+    },
+    {
+      "start": 3143,
+      "end": 3153,
+      "text": "- Server-side MPA, jadi kayak Laravel, Rubion Rails ya kan. - Terus abis itu bergeser kan trennya ke SPA. Semua server SPA kan."
+    },
+    {
+      "start": 3153,
+      "end": 3158,
+      "text": "- SPA dan Pure Client, client render kan dulu pas awal-awal react."
+    },
+    {
+      "start": 3158,
+      "end": 3165,
+      "text": "- Oh bahasa kerennya, headless, headless, headless gitu ya. Semua headless, tiba-tiba trennya headless."
+    },
+    {
+      "start": 3165,
+      "end": 3176,
+      "text": "- Terus abis itu setelah SPA-nya dirasa performanya kurang bagus, balik lagi ke MPA lagi. Walaupun MPA-nya udah plus-plus ya, udah beda dengan MPA jaman dulu ya."
+    },
+    {
+      "start": 3176,
+      "end": 3197,
+      "text": "- Udah banyak API-API, salah satunya yang tadi, salah duanya yang dibahas Ivan di awal tadi, bisa menyulap dalam tanda kutip multi-page application menjadi seperti, seolah-olah seperti SPA. Secara performa juga jauh lebih cepat, sehingga user itu paling sulit untuk disuruh menunggu kan."
+    },
+    {
+      "start": 3197,
+      "end": 3209,
+      "text": "Kalau nggak ada respon selama beberapa detik udah di-close aja tuh tab-nya, segampang itu. Makanya kita harus baik-baikin tuh si user gimana caranya supaya dia tidak kabur."
+    },
+    {
+      "start": 3209,
+      "end": 3216,
+      "text": "- Gantung kontennya, Mas. - Gantung kontennya. Kalau kontennya apa? Clickbait gitu ya."
+    },
+    {
+      "start": 3216,
+      "end": 3220,
+      "text": "- Kalau kontennya manis. - Kalau kontennya jelek ya nabur."
+    },
+    {
+      "start": 3220,
+      "end": 3228,
+      "text": "- Kalau kontennya banyak gulanya, loh kok gula lagi. - Nanti bisa nggak sih, awas."
+    },
+    {
+      "start": 3228,
+      "end": 3238,
+      "text": "- Kalau si multi-page app ini, Astro itu kan multi-page app, dia belum punya single client-side router kayak Next dan lain-lain."
+    },
+    {
+      "start": 3238,
+      "end": 3252,
+      "text": "Tapi Astro ini kan point of view-nya emang pengen pakai web standar. Jadi dia pakai, bukan si Astro-nya sendiri, cuma ada orang yang pengguna Astro yang bikin eksperimen."
+    },
+    {
+      "start": 3252,
+      "end": 3267,
+      "text": "Itu tadi pakai Shared Element Transition API yang tadi dibahas Ivan Skilas, dikombinasikan sama pre-fetch halaman, dikombinasikan dengan Astro."
+    },
+    {
+      "start": 3267,
+      "end": 3282,
+      "text": "Jadi intinya dia bikin MPA rasa SPA. Jadi emang Astro itu emang sangat perspektifnya itu tadi menggunakan web API yang sudah ada untuk improve performance."
+    },
+    {
+      "start": 3282,
+      "end": 3300,
+      "text": "Jadi mengurangi kerja si JavaScript yang kayak di React Router atau Library Router tradisional, jadi dia lebih ke web API untuk optimasi performance."
+    },
+    {
+      "start": 3300,
+      "end": 3310,
+      "text": "- Kalau bisa, saya lihat trendingnya ke depan, sebisa mungkin pakai environment atau native-nya dari browser itu sendiri."
+    },
+    {
+      "start": 3310,
+      "end": 3319,
+      "text": "Jadi native-browser-nya yang development-nya makin kencang. Saya lihat banyak banget API baru muncul."
+    },
+    {
+      "start": 3319,
+      "end": 3326,
+      "text": "- Remix-nya ini sama seperti remix juga kayaknya ya si Astro ini juga."
+    },
+    {
+      "start": 3326,
+      "end": 3340,
+      "text": "- Emang belum pernah pakai remix tuh? - Iya. Kalau Astro ini kan sudut pandangannya sedikit berbeda. Kalau Astro ini dia lebih dari HTML CSS."
+    },
+    {
+      "start": 3340,
+      "end": 3348,
+      "text": "Kalau butuh JavaScript, baru ditambahkan. - Dan itu islands per komponen. Kalau remix di level aplikasi ya dia?"
+    },
+    {
+      "start": 3348,
+      "end": 3359,
+      "text": "- Di level aplikasi JavaScript. - Optimasinya. - Iya, optimasinya. Terus kemudian menggunakan API web yang ada."
+    },
+    {
+      "start": 3359,
+      "end": 3367,
+      "text": "- Kalau remix itu menariknya di form-nya justru yang gue lihat. Dia punya itu komponen form sendiri kan."
+    },
+    {
+      "start": 3367,
+      "end": 3378,
+      "text": "Dia punya komponen form dengan perspektifnya sama. Kayak itu kalau kita pengen hydrate dengan JavaScript, kita opt-in."
+    },
+    {
+      "start": 3378,
+      "end": 3387,
+      "text": "Tapi by default, komponen form bawaan remix itu menggunakan web API untuk form. Jadi itu bisa dibikin full server side."
+    },
+    {
+      "start": 3387,
+      "end": 3398,
+      "text": "Jadi dia malah jadi kayak Laravel atau Ruby on Rails atau semacamnya. Jadi by default itu HTML, HTML only menggunakan web API yang udah ada."
+    },
+    {
+      "start": 3398,
+      "end": 3408,
+      "text": "Tapi kalau mau kita bisa opt-in untuk hydrate dengan JavaScript. - Terus kalau yang gambar-gambar gitar ini apa?"
+    },
+    {
+      "start": 3408,
+      "end": 3420,
+      "text": "- Itu contoh transisinya. Coba diklik. Cuma flag shared element transisinya udah di-enable atau belum tuh?"
+    },
+    {
+      "start": 3420,
+      "end": 3428,
+      "text": "- Belum. - Kalau belum ya nggak bisa. - Ini masih loading ya? - Ini nih. - Ya, nggak bisa."
+    },
+    {
+      "start": 3428,
+      "end": 3441,
+      "text": "- Bentar, ini flag-nya nih. Lokasi di private chat. Tapi harus reload browser ya. - Oh reload ya, mana? - Iya."
+    },
+    {
+      "start": 3441,
+      "end": 3458,
+      "text": "- Namanya adalah document transition. - Dokumen transition. - Belum ada ini. - Maksudnya pakai edge. - Edge berapa Chrome? Oh belum ada, dia harus Chrome 104. Chrome 104."
+    },
+    {
+      "start": 3458,
+      "end": 3472,
+      "text": "- Belum, belum masuk. - Ada kanari ya kanari? - Nggak usah kenari. Chrome biasa asal pakai flag."
+    },
+    {
+      "start": 3472,
+      "end": 3489,
+      "text": "- Ini flag-nya aja belum ada. 105 versi 105 belum ya? - Iya, udah kok. - Udah harusnya. - Dokumen transition nggak ada. - Chrome 104 adanya. - 105, nggak ada."
+    },
+    {
+      "start": 3489,
+      "end": 3506,
+      "text": "- I use. - Defect. Defect tuh John John versinya. - Coba di masukin stream saya. - Oh ya, sorry. - Oke. Tadi Astro Music ya."
+    },
+    {
+      "start": 3506,
+      "end": 3528,
+      "text": "- Tuh, bisa gitu tuh. Wih keren. Terus dia lazy load juga nih. Cuyung. Wih. Serasa SPI ya. - Ini SPI ya? Oh wow. - Iya, MPA, pure MPA. Cuma pakai web API itu tadi shared document transition."
+    },
+    {
+      "start": 3528,
+      "end": 3548,
+      "text": "Kita lihat ininya. Kita lihat load-nya biar sah gitu ya. Kita kan web. Tuh. Bener nggak ini? Tuh, bener tuh. Dia nge-request tuh. - Oke. - Kita coba yang lain."
+    },
+    {
+      "start": 3548,
+      "end": 3559,
+      "text": "- Itu ada countdown di atas itu buat apa ya? - Supaya ngasih tahu kalau ini nggak pindah halaman. - Oh, nggak pindah halaman. - Bukan, bukan. Supaya ngasih tahu kita nggak pindah halaman."
+    },
+    {
+      "start": 3559,
+      "end": 3579,
+      "text": "Karena kalau di-reload kan jadi nol lagi. - Nol. Jadi behavior-nya beneran kayak client-side routing padahal dia pakai, ya, apa? Ah, ref, anchor, eh, elemen biasa ya. Cakep. - Ini, ini. - Oh, nice."
+    },
+    {
+      "start": 3579,
+      "end": 3603,
+      "text": "- Ya, they load, they load fragment nih. Oh, menarik ini untuk di kulik lagi, ya. - Nah, cuma ngomong-ngomong flag nih, apa, ada nggak sih yang bisa kita kerjain, kita lakuin sebagai developer biar mempercepat si flag ini, apa, feature ini diadopsi oleh browser lainnya."
+    },
+    {
+      "start": 3603,
+      "end": 3614,
+      "text": "Kayak misalnya kita file, kita mungkin ada apa gitu, isu atau apa di browser lain, +1. - Ikut di web konsorsi, pasti ada."
+    },
+    {
+      "start": 3614,
+      "end": 3632,
+      "text": "- Ya, maksudnya kita ramai-ramai bilang, please dong browser lain, please adopt, apa, shared element transition ini secepatnya. Pengen nggak sih bisa pakai itu tadi semua, apa, kalau ini kan sebenarnya cuma demo untuk nunjukin API ini bisa dipakai buat apa sih."
+    },
+    {
+      "start": 3632,
+      "end": 3644,
+      "text": "Tapi kan realistically, masih bakal lama banget kan sampai kita bisa beneran pakai ini, dapetin behavior kayak gini tanpa install library tambahan yang berat."
+    },
+    {
+      "start": 3644,
+      "end": 3659,
+      "text": "- Kayaknya bisa. Kalau nggak salah kan kita di invite, ada di GDE meeting tuh soon. Kan pasti bakal ada, kalau nggak salah di bagian Fugu, Fugu kali ya, Fugu API ya."
+    },
+    {
+      "start": 3659,
+      "end": 3677,
+      "text": "- Oh iya, kita +1 yang banyak gitu. Nah, kalau ini kan sebenarnya dia udah beyond RFC ya, maksudnya ini kan udah masuk di Chrome, terus standarnya juga udah ada di Chromium,"
+    },
+    {
+      "start": 3677,
+      "end": 3693,
+      "text": "tapi kan terserah untuk masing-masing browser untuk mau mengadopsi atau nggak. Nah, berarti kita tuh kayak harus nge-spam, apakah kita harus nge-spam browser-browser lain, please, please dong masukin API ini, kita pengen pakai, ini berguna, ini bagus, dan lain-lain."
+    },
+    {
+      "start": 3693,
+      "end": 3709,
+      "text": "- Kalau untuk khususnya untuk yang dokumen transition ini, nggak tahu ya secara web consort SIM, dia sudah, kan masih draft ya, spesifikasinya ya. Kalau khusus transition ini, dia masih draft spesifikasinya."
+    },
+    {
+      "start": 3709,
+      "end": 3733,
+      "text": "Jadi, masih butuh waktu yang panjang. Masih di diskusi nih bahasannya. - Ah, oke. Ya, sedih. - Tunggu-tunggu. Kalau lo pengennya ini bisa, apa namanya, pengen ini jadi kenyataan, ya kan?"
+    },
+    {
+      "start": 3733,
+      "end": 3749,
+      "text": "Bisa nih ikut di specification, dan developer feedback is really important. - Oh, important. - Kita bisa bantu, kita bantu tes. Kita bantu tes dan kita bantu bikin isu."
+    },
+    {
+      "start": 3749,
+      "end": 3767,
+      "text": "Itu satu. Kedua, coba-coba kita ikut ke consort SIM ini. - Tapi kan ini mostly Chrome, kan? - Nggak, ini W3 standard. No, no, no."
+    },
+    {
+      "start": 3767,
+      "end": 3779,
+      "text": "- Dia kan, pertama kan, memang ini lahirnya dari Chrome, dari CJ Archibald sih. Kan sudah dibikin spesifikasi, dibikin, no, no, no."
+    },
+    {
+      "start": 3779,
+      "end": 3796,
+      "text": "Kalau sudah di-approved dulu di web standard, tuh, draft-nya aja baru update, 2022. Jadi, kalau ini sudah, udah clear semua dan jadi web standard, sudah di-approved nih, masuk nih,"
+    },
+    {
+      "start": 3796,
+      "end": 3812,
+      "text": "jadi web standard, baru web browser lain, adopsi, jadi masih lama nih ceritanya. - Sedih."
+    },
+    {
+      "start": 3812,
+      "end": 3819,
+      "text": "- Tapi bisa bantu untuk ngetes kalau memang kita pengen banget, gitu."
+    },
+    {
+      "start": 3819,
+      "end": 3830,
+      "text": "- Kalau salah satu caranya ini, kan, buat kontribusi ke GitHub-nya atau ke draft-nya atau ke request for comment, kan."
+    },
+    {
+      "start": 3830,
+      "end": 3841,
+      "text": "Kontribusi lain adalah bikin itu, bikin use case yang akhirnya mereka mempercepat, ya itu tadi bikin framework."
+    },
+    {
+      "start": 3841,
+      "end": 3851,
+      "text": "Loh, katanya. - Loh, found. - Sebegitu, absolutely replace. Loh."
+    },
+    {
+      "start": 3851,
+      "end": 3859,
+      "text": "- Ayo, udah nggak ada. - Pindah kali, paling pindah. Apa, ganti URL?"
+    },
+    {
+      "start": 3859,
+      "end": 3873,
+      "text": "- Tapi ya, sebenarnya bagusnya, walaupun ini bakal masih lama, sampai kita bisa pakai yang demo, kayak yang demo kita lihat tadi, bagusnya kan web itu selalu backwards compatible by default."
+    },
+    {
+      "start": 3873,
+      "end": 3893,
+      "text": "Jadi, walaupun si shared element transition API itu belum supported pun tadi, ya kita klik, kita tetap bisa navigasi ke halaman satunya, kan, karena itu fallback-nya adalah, apa, encore a-ref, elemen a-ref biasa, jadi nggak masalah."
+    },
+    {
+      "start": 3893,
+      "end": 3903,
+      "text": "Sementara kalau misalnya kita bergantung PureJS, misalnya kita pakai React Router atau semacamnya, kalau belum supported, ya udah nggak bisa pindah halaman, runyem, kan."
+    },
+    {
+      "start": 3903,
+      "end": 3917,
+      "text": "- Ini minimal bisa pindah halaman meskipun counter-nya ke reset, ya maksudnya. - Ke reset dan nggak secakep, nggak se-WOW yang versi shared element API-nya."
+    },
+    {
+      "start": 3917,
+      "end": 3923,
+      "text": "- MPA. Semi-MPA. - MPA rasa S-P-A."
+    },
+    {
+      "start": 3923,
+      "end": 3933,
+      "text": "- Wah, kita udah sejam lebih loh. - Iya, nggak terasa."
+    },
+    {
+      "start": 3937,
+      "end": 3955,
+      "text": "- Mau main? - Oh iya, buat teman-teman yang mau kasih bantuan untuk topic diskusi atau link-link menarik atau pertanyaan-pertanyaan seputar web, bisa langsung aja di-submit."
+    },
+    {
+      "start": 3955,
+      "end": 3967,
+      "text": "Di-submit di komentar, kalau lagi live, di-komentar, tapi kalau misalkan lagi tidak live, misalkan teman-teman nonton yang recording, yang rekamannya, bisa ke bit.ly/ngobrolinweb, ya."
+    },
+    {
+      "start": 3967,
+      "end": 3975,
+      "text": "Bisa di-submit aja di situ, topik-topik yang mau dibahas. Tadi kita udah banyak banget bahas tentang, apa, tentang..."
+    },
+    {
+      "start": 3975,
+      "end": 3989,
+      "text": "- Yes, quickly. - Iya, private sama tadi, apa, request idle. - Idle callback. - Ya, beberapa web API. - Request idle callback. - Yes. Terus juga bahas tentang island architecture dan beberapa framework yang berkaitan dengan island architecture."
+    },
+    {
+      "start": 3989,
+      "end": 4006,
+      "text": "Tadi juga udah sempet muncul beberapa idle, bahas tentang MPA versus SPA, terus juga ada bahasan tentang edge function, ada apa lagi tadi ya. Itu harus kita catat dan harus kita jadikan topik-topik berikutnya."
+    },
+    {
+      "start": 4006,
+      "end": 4022,
+      "text": "Kritik dan saran juga bisa ya, kirimin ke sini aja. Siapa tahu teman-teman punya apa ya, \"Wah, ini kayaknya formatnya ini lebih bagus kalau ditambahin segmen ini, segmen ini.\" Kita akan terima sekali karena ini baru 2 episode ya, baru 2 episode."
+    },
+    {
+      "start": 4022,
+      "end": 4041,
+      "text": "Dan kita sendiri juga masih belum tahu formatnya yang bagus kayak gimana, jadi kita cuman ya udah ngobrol aja, ngobrol santai. Kalau ada apa, ada yang mau demo-demo dikit, boleh. Kalau nggak, ya kita ngobrol aja, gitu. Karena kembali lagi, tujuan kita adalah untuk up to date, supaya tetap up to date."
+    },
+    {
+      "start": 4041,
+      "end": 4059,
+      "text": "- Kami kita sendiri juga update. - Belajar satu sama lain. - Betul, karena di pekerjaan kita masing-masing sudah mulai menggunakan web API atau framework atau apapun, library, yang itu-itu saja."
+    },
+    {
+      "start": 4059,
+      "end": 4073,
+      "text": "Belum ada, misalkan yang baru-baru kayak apa, tadi query, CSS query apa, ya itulah banyak ya. Container query dan lain-lain. Nah itu kita belum sempat pake, gitu."
+    },
+    {
+      "start": 4073,
+      "end": 4089,
+      "text": "Dan kalau kita mau bahas itu di sini, sekalian belajar, gitu. Kalau nggak, kita nggak ada kesempatan belajar. Jadi, terima kasih buat temen-temen yang sudah hadir, yang sudah nonton, ditunggu juga."
+    },
+    {
+      "start": 4089,
+      "end": 4105,
+      "text": "- Ada yang mau jadi apa, mau ngobrol sama kita juga boleh. - Bintang tamu. Featuring. Collab. - Benar. Mungkin ada yang mau ditanyakan langsung atau ada yang mau kasih pendapat tentang satu topik, silahkan."
+    },
+    {
+      "start": 4105,
+      "end": 4120,
+      "text": "Dan untuk malam ini, kita sudahi dulu, karena sudah jam, sudah satu jam kita ngobrol. Mudah-mudahan kita ketemu lagi di lain kesempatan. - Minggu depan. - Mudah-mudahan minggu depan kita usahakan."
+    },
+    {
+      "start": 4120,
+      "end": 4129,
+      "text": "- Itu aja untuk malam hari ini. Terima kasih dan selamat malam. - Terima kasih semua. - Bye bye."
+    }
+  ],
+  "fullText": "Halo, selamat malam semuanya. Ketemu lagi kita di Ngobrolin Web malam hari ini. Masih bersama saya, Riza, dan 2 teman saya, Ivan dan Eka. Acara ini masih kita ngobrol-ngobrol santai aja seputar web, walaupun kita punya agenda. Tapi kalau teman-teman punya topik-topik yang menarik, bisa juga langsung dikomentar aja. Nanti kita diskusikan bareng-bareng. Oke, kenalan dulu, saya Riza, co-founder-nya Hektivate. Lanjut, Eka. Saya Eka, web developer di NGO yang namanya Atma Connect. Lanjut. Saya Ivan, senior web engineer di agensi namanya Humanmade. Dan kita semua ini adalah Google Developer Expert di bidang web. Makanya ngobrolin web. Makanya ngomongin web. Karena kita butuh update ya, untuk materi-materi yang diisi di berbagai acara. Kita butuh asupan ini ya, asupan topik-topik menarik. Jadi acara ini sebenarnya kita saling berbagi di antara kita, untuk belajar masing-masing. Untuk update masing-masing. Jadi kenapa nggak sekalian di-share aja. Kalau teman-teman mau share juga, boleh. Siapa teman-teman lebih tahu ya, kita belajar dari teman-teman. Di komentar, mungkin ada yang nanya atau mungkin ada yang punya pendapat. Karena web itu cakupannya luas sekali. Dan kalau kita ngikutin update itu nggak bakal bisa benar-benar dapet semuanya. Dan cepet banget kayaknya kita kedik bikin. Ada berita baru atau framework baru, atau library baru, dan lain-lain. Oke, jadi malam ini... Kedik mata gitu udah ada JavaScript framework baru ya. Setiap berapa detik gitu. Oke, jadi malam ini kita akan ngobrolin tentang apa. Mulai dari Ivan dulu kali ya. Baiklah. Oke, saya sharing dulu nih. Kalau saya kan fokusnya di web performance. Jadi memang sering menggali apa sih yang bisa kita bikin lebih cepet lagi di soal web. Minggu lalu saya bahas mengenai apa itu namanya? Pakai tools performance insight supaya kita bisa improve core web vital. Yaitu largest content full pain, cumulative layout shift, sama first input delay. Terus, minggu ini saya mau lanjut. Selanjutnya apa sih yang bisa kita lakukan untuk mempercepat performance? Jadi kayaknya coba share screen. Kalau teman-teman punya web yang mau di-audit, boleh ya. Oh, kali ini bukan di-audit. Jadi saya cuma share informasi. Kalau minggu lalu kan kita itu ya. Langsung demo-audit web ya. Iya. Oke, coba dimasukin ke stream. Oke, so kali ini saya mau share sedikit mengenai quick link. Apa tuh quick link? Ini sebenarnya gawainnya kayak teman-teman di Google, Adi Osmani dan segala macemnya. Jadi mereka bikin library yang super kecil bagaimana bisa memanfaatkan prefetch. Jadi ada prefetch API ya. Jadi web itu kan bisa prefetch, preload. Apa sih prefetch itu? Jadi prefetch itu bagaimana si browser bisa melakukan request content saat kita berada di page tertentu. Jadi kalau kita load halaman homepage kita misalnya. Terus kita prefetch, artinya memberi sinyal kepada si browser, kita butuh assets ini loh. Atau kita bisa bilang, kita butuh halaman ini loh selanjutnya, tolong di prefetch. Jadi begitu si user kita lagi membaca halaman yang sekarang, browser sudah mengambil halaman yang selanjutnya. Contohnya mungkin teman-teman kalau di homepage bisa, kayak kita punya ada CTA button yang besar, di halaman utama yang 80% itu si user akan klik itu. Jadi kalau kita prefetch halaman yang dituju sebelum si user melakukan action terhadap link itu, artinya mempercepat page load kan, karena sudah di load sebelumnya. Nah, prefetch sudah lama sebenarnya ada di web, jadi semua web sudah mendukung prefetch, semua browser maksudnya. Apa sih quick link itu? Quick link ini cuma library kecil yang merubah semua html, semua ahref-ahref itu di prefetch, otomatis. Di saat browser sudah tidak sibuk. Nah, bingung kan apa yang saya bilang kan? Jadi ketika page load, ya kalau misalnya kita lihat sebuah halaman ini. Ketika page load, yang minggu lalu ingat nggak kita mendemokan performance insight, jadi saya coba pakai regular 4G, ini artinya page load ya. Saat page load, apa yang terjadi? Browser request, terus kemudian request halamannya, html-nya, terus kemudian request asset-assetnya, terus request image-nya, style-nya, font-nya, dan segala macam. Baru kemudian melakukan render terhadap halaman ini. Kita lihat yang di bawah ini ya. Saya gedein dulu deh. Saya lihat yang itu dulu, lihat yang ini dulu. Browser request, terus kemudian html-nya muncul, terus kemudian image-nya muncul. Itu artinya proses rendering. Dan di saat proses rendering, tentunya si browser itu kan pakai CPU main thread namanya. Jadi ada thread-nya, main thread-nya itu sibuk. Artinya jangan sampai kita mengganggu proses main thread itu melakukan dengan rendering dan kita lakukan prefetch. Jangan sampai seperti itu juga. Jadi quick link ini membantu untuk melakukan prefetch ke halaman yang lain yang ada ahref-nya, artinya URL-nya, link-nya, dan di prefetch di background saat browser tidak sibuk. Apa sih tanda browser tidak sibuk? Itu ada API namanya request idle callback. Request idle callback API. API ini memberi sinyal kayak sebuah event, kayak resize observer API, kayak apa lagi API? Yang kemarin, yang minggu lalu, si Mbak Eka Sher itu adalah sanitizer API. Request idle callback itu events. Events yang akan dipanggil saat si CPU sudah idle. Pertama kali idle, maka CPU akan memanggil idle callback. Hanya itu yang dilakukan API ini. Support-nya saat ini di Chrome pasti karena itu dari timnya Chrome. Terus kemudian Safari belum, masih behind flag. Firefox sudah support. Jadi Chrome-based browser semua sudah support. Hanya tinggal Safari yang behind flag. Jadi, teman-teman sudah bisa memakai ini. Dan untuk si Quicklink sudah include quality fill. Jadi kalau nggak ada akan ada quality fill-nya. Nah, apa sih? Kita lihat dia gimana cara kerjanya. Saya ada 2 demo. Yang pertama, saya hapus dulu case-nya biar... Yang kiri dan yang kanan. Jadi mini-ecom sama mini-ecom Quicklink. Saya refresh. Untuk reload pertamanya, nggak ada bedanya. Tapi kita lihat kecepatannya. Kalau saya klik ini sekali, ada waktu tunggu ya. Dan kalau saya klik ini, cepat ya. Kalau saya balik, saya klik yang lain. Cepat banget ya. Lihat? Kalau yang ini, saya balik. Saya klik yang lain, tunggu. Oke. Dan percaya sama saya, kalau ini yang satu bukan SP ya. Bukan single page application. Sama, kodnya sama. Dan dia hanya melakukan prefetch. Kita bisa lihat prefetch itu di tab other. Sorry. Di network, other. Jadi kalau saya refresh halaman ini, begitu sudah selesai, maka dia melakukan prefetch ke semua link yang ada di sini. Product details. Sedangkan halaman ini, dia tidak lakukan prefetch terhadap apapun. Jadi, library ini bisa membantu page speed kita untuk halaman selanjutnya. Jadi kita klik, sudah selesai. Langsung nge-load. Jadi canggih ya. Berasa SPA ya? Berasa SPA. Nanti saya share lagi, bagaimana cara supaya kelihatan lebih SPA. Tapi saya lanjut dulu soal quick link ini. Untuk konfigurasinya, tentunya tidak semana-mana, begitu install langsung jadi. Meskipun bisa. Tapi saya tidak menyarankannya, jangan sampai semua link. Kita perlu membatasi hanya domain kita saja. Contohnya kita tidak perlu prefetch external URL, external domain. Atau kita hanya perlu prefetch yang halaman di dalam body container kita tertentu saja. Terus kita harus limit juga. Jangan sampai kalau misalnya kita buka sebuah halaman news portal yang satu halaman itu saja sudah ada 100 internal linking. Tentu kita tidak mau 100-nya kita prefetch. Karena jadinya nanti kita ngedidose server kita sendiri. Jangan sampai seperti itu juga. Tentu kita perlu throttle. Jangan sampai kebanyakan. Ini perlu konfigurasi. Dan konfigurasi itu harus disesuaikan dengan kebutuhan masing-masing web, teman-teman. Oh, satu lagi. Kalau saya misalnya pakai tampilan mobile, dia menggunakan intersection observer juga. Jadi kalau misalnya hanya above default-nya ada 4 link, dia hanya nge-load 4 saja. Jadi semakin saya scroll, baru dia nge-load yang lain. Jadi dia pakai intersection observer. Kalau teman-teman pengen tahu apa itu intersection observer, bisa baca nanti intersection observer API. Artinya hanya intersection observer API ini adalah API yang membuat elemen tertentu jika intersect dengan muncul di dalam viewport seperti itu. Jadi kalau kita bisa setting, elemen url-link ini muncul di dalam viewport baru dia dilakukan callback tertentu. Jadi bisa menggunakan namanya intersection observer API. Dan dia bisa, karena dia cuma library kecil, mau pakai di React, mau pakai di HTML biasa terserah. Cara kerjanya seperti ini. Visit page, saat idle time, dan saat user scroll dan intersect dengan viewport, hanya saat itu dia melakukan prefix. Dan kalau user klik link tersebut, maka kecepatannya jadi lebih cepat, karena aset yang dibutuhkan untuk halaman tersebut seperti HTML dan segala macam sudah di prefix di background oleh browser. Untuk dukungannya sudah berbagai macam, bahkan sudah ada dukungan langsung WordPress pluginnya, tinggal plug, setting, and play, tinggal dipakai. Dan untuk React, Angular, dan Vue sudah ada supportnya juga. Seperti yang saya janjikan, supaya terlihat lagi seperti SPA, itu bisa menggunakan yang namanya transition API. Pernah tahu transition API? Ini masih behind flag. - Masih flag sayangnya ya. - Iya, masih behind flag. Tetapi kalau itu kita gabung prefix dan transition API, maka kita bisa niscah ya. Suatu saat kalau ini sudah rilis, akan kelihatan seperti SPA beneran. Saya bisa contohin bagaimana saya reload. Kalau ini masih SPA ya, jadi belum menggunakan prefix segala macam. Tetapi bisa seperti ini transition API-nya. Jadi kalau ini kita gabung antara prefix dan transition API, maka alaman yang sudah kita download di background bisa kita munculin secara transition dengan menggunakan transition API. Silahkan nanti baca. Namun ini masih behind flag, hanya ada di Chrome dan perlu diaktifkan secara manual. Jadi saya perlu enable manual. Itu saja paling dari saya. Jadi prefix bisa segera digunakan jika kalian ingin mencoba di web page kalian untuk meningkatkan kecepatan loading halaman selanjutnya. Ini mirip-mirip sama ini. Waktu dulu sempat ada application frameworknya Svelte juga melakukan reload. Jadi bedanya adalah ketika linknya kita hover, itu dia melakukan reload. Hover baru pre-fetch. Keliatannya memang meta framework apapun built-in routernya pakai strategi yang ini ya. Kayak di Next.js juga kan ada next link itu pakai link komponennya Next. Dia kayak gitu. Mungkin si quick link ini memungkinkan, ya kan nggak semua orang pakai Svelte kita atau Next.js. Jadi mau yang pakai WordPress atau Drupal atau create track app biasa, pokoknya kalau di luar meta framework itu bisa dapatin behavior yang kayak gini. Tanpa harus pakai remix. Framework anostic. Jadi sekiranya seperti itu. Cuman kalau hover nggak enaknya di mobile kan nggak bisa hover. Iya juga ya. Benar juga ya. Kayaknya itu emang responsif deh kalau yang punya Next.js sama Svelte. Ya kalau di mobile sama kayak gitu kalau masuk viewport di revenge. Betul, betul, betul. Konceptnya mirip ya. Konceptnya mirip. Tapi ini stand alone. Stand alone. Ini stand alone kecil dan single purpose ya. Maksudnya nggak nempel sama framework apapun. Oke, ini ada load ke scriptnya berarti ini bukan menjadi API-nya si Chrome atau browser kan ya. Jadi tetap third party jatuhnya ya. Coba ulang pertanyaan yang gimana. Ini kan ada load quicklink.umd.js kan. Berarti ini bukan nggak akan disupport oleh browser kan. Bukan hanya browser dalam artian API browser. Dia hanya meng-enable API browser yang ada. Jadi API yang dipakai di sini ada dua. Intersection Observer. Terus kemudian Request Idle Callback dan Prefetch API. Oh Prefetch API-nya itu bawaan dari browser. Bawaan browser. Tapi untuk melakukan enable itu kita butuh import kan. Ini kayak rapper aja berarti ya? Kayak memudahkan aja? Rapper aja. Iya betul-betul. Hanya kayak listen, terus nanti dia akan jalanin event-nya. Sesuai dengan mendeteksi high-time email-nya itu aja. Sesuai dengan di intersection Observer. Kalau dia mendetek di intersection ada aharef. Bakal dia ambil aharef-nya. Dia prefetch. Semudah itu dia cara kerjanya. Seperti itu. Ada lagi yang mau ditambahkan? Itu aja. Sudah cukup. Tidak usah banyak-banyak dulu. Farid nih ada yang nanya sedang bahas apa. Tadi bahas Prefetch API ya. Jadi gimana caranya kita bisa menyulap aplikasi web kita yang multi-page application menjadi seperti single-page application. Seperti. Dia bisa mempercepat. Berikutnya Eka, silahkan. Nah ini mirip-mirip nih. Performance juga ngambil area-nya Ivan. Jadi ini ada artikel bagus. Ini menarik dan ini bikinannya Googler juga. Eddie Osmani dan ilustrator Libya Heli, kalau nggak salah. Ini patterns.dev ini website yang membahas pendekatan atau pattern-pattern yang ada di arsitektur round-end web. Nah salah satunya yang sering mungkin belakangan ini kita sering banget denger nih. Ini namanya Islands Architecture. Ini artiklenya panjang ya, lumayan. Ntar kalau temen-temen penasaran mau baca sendiri aja. Cuma intinya Islands Architecture ini adalah suatu filosofi atau pendekatan. Approach baru dalam menyosun arsitektur front-end web. Jadi ini yang di layar nih ada encourage small focus chunks of interactivity within server-rendered web pages. Nah maksudnya itu apa? Nah kita bayangin deh, ini pakai analoginya kan kepulauan. Nah kebetulan negara kita negara kepulauan juga kan. Jadi kita terbiasa nih, liat di peta nih, peta Indonesia bayangin lah. Ada laut kan ya, ada Samudra India, terus ada pulau-pulaunya. Nah dengan analogi ini, kalau diterapkan di aplikasi web front-end, seluruh wilayah Indonesia dalam hal ini, maksudnya seluruh wilayah geografis itu baik laut maupun darat, itu aplikasi web kita. Nah yang diibaratkan dengan pulau itu adalah bagian-bagian tertentu yang membutuhkan interaktifitas JavaScript. Jadi diibaratkan yang bagian laut-lautnya itu yang statik. Sementara ada pulau-pulau komponen user interface yang membutuhkan JavaScript. Nah kalau kita bayangin pulau ini kan, pulau ada yang besar, ada yang kecil. Terus mungkin masing-masing pulau ada iklimnya sendiri, ada kondisinya sendiri. Nah itu diibaratkan dengan komponen user interface. Terus kenapa bisa sampai ada teknik atau pendekatan seperti ini? Kita lihat tuh ada point 1 dan point 2. Nah dengan island architecture ini bisa menyeimbangkan 2 perspektif. Yaitu pertama ada CSR, client-side render, dan kedua ada SSR. Nah 2 approach ini sebetulnya punya keuntungan masing-masing. Jadi kalau CSR itu contohnya yang dulu banget ya, yang paling pertama muncul maksudnya misalnya kita pakai create-react-app atau semacamnya. Kan kita cuma punya shell HTML tuh, file index HTML-nya biasanya sangat sederhana. Cuma head, body, dalamnya 1 div kosong yang lalu nanti dehydrate. Kita harus nge-load sebuah file JavaScript entry point. Nah semuanya seisi halaman web kita itu seluruhnya dirender oleh JavaScript ke dalam div kosong itu. Nah itu tuh kan pasti punya beberapa kekurangan ya. Pertama pasti file JavaScript yang di-download ukurannya sangat besar karena semua-semua kodenya itu untuk merender seisi halaman web itu ada di situ. Nah yang kedua juga kan seperti tadi udah dibahas kan browser tuh punya satu main thread. Kalau harus ngerender DOM element dari awal semua nih dari tadi halaman kosong, 1 div kosong doang, sampai banyak, sampai ada isinya semua. Bahkan browser kerjanya jadi sangat banyak, itu main thread-nya juga harus bekerja keras dalam waktu lama itu kurang bagus untuk performance. Nah terus yang kedua nih tadi di, apa, setelah orang sadar kekurangan client-side rendering, ada approach lain yang namanya SSR, server-side rendering. Jadi semua DOM element-nya, HTML-nya dirender oleh server. Tapi ada masalah lagi nih kan dari server dikirim ke client. Nah terus ada bagian-bagian yang perlu dehydrate karena butuh interaktifitas atau mungkin ada konten yang harus berubah secara real-time. Nah sering nih yang terjadi adalah jadi harus kerja dua kali. Pertama apa, dirender oleh server, server render. Lalu tetap aja misalnya kita pakai yang paling sering misalnya Next.js atau Remix, kan tetap harus merender ulang. Kalau Next.js biasanya dia manggil JSON berisi isi halaman tersebut, lalu dihydrate ulang, dan komponennya direplace dengan hasil kalkulasi react runtime. Nah kadang itu juga menghasilkan atau menyebabkan masalah performance. Nah sementara kalau kita lihat nih isi suatu aplikasi seperti yang di layar itu, itu kan karakternya macam-macam ya, ada header, ada static menu, ada image carousel, product detail, dan lain-lain. Sebetulnya kalau kita lihat, tidak semua komponen UI itu perlu dihydrate dengan JavaScript. Nah dengan island architecture ini, kita memiliki kontrol yang lebih, kita bisa lebih fine-tune atau customized. Pertama, bagian-bagian mana saja atau ibaratnya pulau mana saja yang ingin kita hydrate dengan JavaScript, itu pertama. Lalu kedua, tingkat prioritas, kayak misalnya konten yang above default, pasti harus segera kita hydrate kan, karena itu sudah tampak muncul, udah dilihat oleh user. Ini mirip sama yang API-nya masih berhubungan dengan yang dibahas Ivan tadi. Sebetulnya kalau konten yang below default, kita bisa loading-nya belakangan saja, nunggu callback dari, apa tadi, request idle callback muncul. Kita bisa fine-tune sesuai kebutuhan aplikasi kita. Intinya dari island architecture itu seperti itu. Lalu sebetulnya island architecture sendiri itu kan tadi semacam filosofi atau pendekatan saja, tapi dia bukan belum masuk ke implementation detail. Nah detail implementasi atau penerapannya seperti apa sih? Itu kayak dikembalikan ke masing-masing framework. Jadi kalau yang kasus paling extreme, misalnya kita pengen manually hand roll semua, misalnya kita pasang saja, kita bikin web komponennya, kita bikin modul-modul, terus kita pasang intersection observer, terus kita juga observe request idle callback, terus kita menghydrate seluruh komponen kita secara manual berdasarkan behavior yang kita inginkan. Itu ya bisa, cuma mungkin sebagian besar developer nggak punya waktu dan tenaga sebanyak itu. Jadi pada umumnya sih orang menggunakan implementasi dalam bentuk framework yang sudah ada. Nah beberapa contoh framework yang menerapkan prinsip atau filosofi island architecture itu, dicontohnya ada Marko, terus yang paling baruni dan mungkin teman-teman sering dengar belakangan ini tuh ada Astro, lalu ada juga yang bikin integrasi, jadi kalau eleventy sendiri kan pure static, tapi ini ada yang bikin integrasi eleventy dan react untuk memperoleh behavior yang si island architecture seperti tadi. Kira-kira gitu. Kalau di artikel itu ada contohnya, contoh penerapan atau implementasi yang sederhana di Astro, itu sih sekedar contoh saja. Jadi misalnya kalau kita punya artikel atau blog post, artikelnya itu kan sendiri bisa dirender dari server site ya, dirender sebagai konten static HTML biasa aja, jadi yang dikirim dari server di awal mulai dari zero JavaScript. Karena isi artikelnya kan mark up seperti itu, tapi contohnya di artikel itu ada komponen atau pulau kecil yang butuh interaktifitas JavaScript, ya itu dalam bentuk kita bisa like atau dislike. Jadi ya udah, kita nge-load JavaScriptnya itu setelah dia muncul atau setelah browser main thread sudah tidak sibuk. Jadi intinya sih kita bisa dapetin the best of both worlds. Kita bisa dapet halaman yang SEO friendly, performennya bagus, dan lain-lain dengan konten HTML static, tapi kita juga bisa dapetin interaktifitas yang menggunakan JavaScript client-side. Apa yang terjadi ketika kita loading seperti ini, si JavaScriptnya kadang-kadang agak lambat, itu dia akan loading spinner dulu ya, berarti ya? Nah itu kita bisa, kita bisa customize sih, biasanya kan kita pakai placeholder ya spinner, atau malah kosong sama sekali. Cuma kalau above default itu nggak recommended ya, karena kan nanti jadi CLS-nya begitu dia loading kan jadiin dorong yang lain tuh, geser ke bawah semua. Jadi kalau above default, kita harus pastiin pakai placeholder yang ukuran atau dimensinya sama kayak kontennya. Tapi kalau di bawah sih ya, bebas. Geser gitu ya. Geser, ntar CLS kayak kemarin. Apa CLS? Kepanjangannya? Cumulative Playout Shift. Playout Shift, CLS, oke. Pro dan cons, performen sudah pasti kan? Oh iya, pro jelas, performen sih ya. Jadi sebenarnya sih kalau yang aku lihat nih, pro-nya ya standar lah. Maksudnya sesuai ekspektasi kita. Kan sebenarnya kita udah punya CSR, punya SSR. Nah, kita kayak memadukan keunggulan dari dua approach terhebut. Jadi benefit-nya ya apa, tetap bisa interaktif tapi cepat, dan kita bisa memprioritaskan konten yang kita butuhkan. Nah, cuma pastinya ada kekurangannya. Cuma yang aku lihat sini, kekurangannya lebih ke human factor-nya ya apa, factor penggunaan. Jadi kayak misalnya apa, kalau kita mau pakai ya, yang tadi itu, kita harus, ini kan karena customized banget ya, yang bisa mengontrol apa, yang bisa mengontrol mana yang harus dihydrate duluan, mana yang harus perlu dihydrate atau enggak, itu kan sangat subjektif tergantung aplikasi kita. Jadi ya kita harus pakai framework atau itu tadi kita hand roll semua sendiri dari awal. Lalu apa sih, mungkin karena relatif baru ya, jadi belum terlalu banyak nekonon, belum terlalu banyak diskusi tentang pendekatan ini. Terus kalau poin keempat sih ya, itu gimana kita lihat apa, gimana kita memahami produk kita kan. Misalnya nih kalau aplikasi kita semuanya, literally semuanya butuh client-side JavaScript, misalnya kita punya web-based game, kita punya game, atau aplikasi map, atau aplikasi apa... - Figma? - Sosial media. Pakai kanvas, ya Figma, pokoknya kalau emang dominan JavaScript ya, ini bukan solusi yang tepat buat aplikasi kita. Jadi itu lebih ke human factor ya, apa? Usage factor. - Oke. - Alaman memang rehydration itu adalah proses paling mahal untuk aplikasi JavaScript. - Mungkin bisa dijelaskan rehydration itu apa sih? - Oh ya, rehydration. - Oke, silahkan cek. - Kita punya markup HTML yang kalau berupa HTML pastinya masih statik kan ya. Nah, rehydrate itu ibaratnya disiram atau digelontor oleh JavaScript client-side yang ada event listener-nya mungkin, atau mungkin ada fungsionalitas misalnya nge-fetch konten, ya kayak misalnya like button, biasanya like button itu kan seringnya nampilin jumlah like yang sudah ada, atau mungkin ada avatar atau foto orang user sebelumnya yang sudah like. Nah, itu kalau pas awal kan mungkin hanya berupa button biasa dari apa, yang dikirim oleh server. Setelah dihydrate, setelah digelontor dengan JavaScript atau setelah apa, JavaScript dari konten itu, dari komponen itu berjalan, itu dia akan mereplace atau memodifikasi DOM yang sudah ada, yang tadi dikirim, yang sebelumnya dikirim dari server. - Oke. Jadi kayak dilanjutin ya, kerjaannya dilanjutin ya? - Iya, diberi interaktifitas. - Hmm, oke. Jadi dikasih layer tambahan untuk interaktifitasnya ya? - Iya, client-side JavaScript. - Oke. Kalau link yang kedua ini apa nih? Awesome. - Nah, link yang kedua itu masih berhubungan sama yang tadi. Itu kan tadi artikelnya masih di level apa ya, semi teori ya, penjelasan island itu apa, bla-bla-bla. Nah, cuma kalau kita ingin lihat penerapannya, itu ada beberapa contoh dari berupa framework, terus ada yang sebenarnya bukan framework, tapi misalnya berbasis react to, fresh itu bikinannya apa? Deno. Itu integrate sama Deno. Jadi ini lebih ke contoh bahwa si island architecture ini sekedar filosofi, penerapannya nggak terpaku pada salah satu language atau library atau framework apapun. Jadi misalnya bukan perkara react atau weld atau apapun, tapi lebih ke cara menyusun suatu aplikasi, lebih ke architecture. Itu ada yang berupa full meta framework, ada yang berupa library tambahan, bisa dipakai sama react, solid dan lain-lain. - Ada weld juga, kalau mau pakai weld, gampangnya pakai elder JS gitu ya, kalau nggak mau manual gitu ya. - Enak loh pakai elder JS, malah promosi framework. Pernah, pernah. - Oke. Mantap, mantap. Nah, berhubungan sama, masih berhubungan sama pembahasannya tentang EKA, nyambung nih. Saya mau membahas tentang Astro. - Yay, lanjut. - Yay, lanjut. - Astro baru ini kan? Baru apa? Baru launching. - Baru 1.0. - 1.0. Jadi sebenarnya awalnya Astro ini kalau gue lihat adalah dia seperti server-side, static-side generator SSG kan awalnya. Tapi ternyata lebih dari itu ya, ternyata ya. Jadi kurang lebih hampir sama, jadi si Astro ini menggunakan konsep si island, walaupun ya, dia sudah menggunakan kata-kata island di sini ya. Jadi kan kalau menurut EKA tadi dan menurut si Astro ini, website kita itu atau aplikasi web kita itu tidak 100% dinamis, kecuali ya tadi game atau Figma atau apa. Ada hal-hal yang tetap static kan, contohnya ini. Menu. Menu jarang sekali dinamis kan. Pasti bisa dibikin statis walaupun akan ada kemungkinan perubahan kan, tapi jarang sekali. Dan hal-hal seperti ini mungkin masih ada hubungannya juga dengan App Shell gitu ya. App Shell itu kan sudah static kan. Yang dinamis itu yang di dalamnya kan. Jadi mungkin perkembangan dari sana. Dan si Astro ini ingin menerapkan konsep island tadi ke framework-nya. Salah satunya yang dijual adalah ketika di load pertama kali by default itu JavaScript-nya zero atau kosong. Karena seperti yang sudah kita tahu sama-sama, kalau di web itu ada beberapa aset yang paling besar dan bikin loading-nya lama. Yang paling lama adalah image. Yang pertama image. Kedua itu font mungkin ya. Font yang ketiga itu JavaScript gitu. Jadi belum-belum baru landing page tiba-tiba sudah ada JavaScript yang segedegaban gitu kan. Padahal sebenarnya yang butuh interaksi sebenarnya mungkin di halaman lain gitu. Di halaman kontekah atau di halaman yang ada form-nya, ada button-nya dan lain-lain. Pada saat landing page sebenarnya belum perlu di load JavaScript. Jadi JavaScript-nya bukan benar-benar kita buat aplikasi web tanpa JavaScript. Tidak begitu. Tapi lebih ke di awal JavaScript-nya nol dulu. Tidak ada dulu. Ketika butuh interaksi, ketika kita sudah sampai scroll ke sini, nah itu dia baru load. Seperti preload tadi ya, kurang lebih ya. Konsepnya juga masih mirip-mirip ya. Kurang lebih seperti itu. Lebih tepatnya lazy load sih. Kalau preload itu artinya saat page load, bukan, sebelum page load, dia mengambil duluan. - Font biasanya itu. - Preload itu paling pertama. Ya preload itu paling highest priority itu preload. - Oke. Nah disini fitur utamanya ya inilah, sudah kelihatan ya. Component Island, yang tadi sudah kita bahas. Kemudian ada ngomongin hydration juga. Zero J is by default. Edge ready ini mungkin bisa jadi topik berikutnya ya tentang edge function gitu ya. - Nah bahas tuh. Gue nggak ngerti-ngerti soalnya. - Jadi intinya kita mau bawa fungsi-fungsi yang di belakang layar, kayak back-end gitu ya, itu dekat dengan, sedekat mungkin dengan pengguna. Jadi bisa nempel ke CDN lah, kira-kira kayak gitu. Ada Cloudflare Worker, ada banyak lagi yang lain. Si Versal juga punya, ada Deno juga, dan lain-lain. Kita bahas nanti di episode-episode berikutnya. Jadi tungguin aja. Subscribe, subscribe. - Oke. - Oke. Tadi juga sudah sempat dibahas di Island Architecture. Salah dua-duanya adalah namanya Quick. Ini juga cukup baru ya. Ini malah lebih unik lagi dalam artian, kita tadi ngomongin hydration, sementara Quick ini katanya tidak ada hydration. - Oh. - Gimana caranya? Nah itu, saya juga belum tahu, tapi ini menarik gitu ya. Dia sudah support otomatis lazy loading, jadi kita nggak perlu install apa-apa, ada image kah, ada apa dia bikinin lazy loading-nya, dan ada Edge Optimized juga, masih mirip dengan Astro juga. Dan yang menarik adalah yang bikin, mana dia? Oh nggak usah, ntar dulu. Ya ini ya, zero loading, katanya nggak perlu hydration, karena it is resumable, saya belum tahu ini resumable-nya kayak gimana, konsepnya ya. Jadi lazy loading-nya sudah by default, dan lain-lain bisa dibaca sendiri. Nah, yang saya mau highlight adalah yang bikin. Yang bikin ini. - Yang bikin angular ya? - Dispoiler pre ini adalah yang bikin angular.js. Saya nggak tahu, kayaknya dia bikin juga angular 2 ya, angular yang versi berikutnya ya. Dia bekerja di Google, mungkin sekarang sudah nggak ya. Terus, si ini, Manu, dia bikin, yang bikin Gin, framework-nya Goleng ya, kalau nggak salah. Terus juga stencil ini adalah framework untuk Web Component. - Web Component ya? - Ya. Dan yang ketiga, Adam itu dari Ionic. Jadi mereka kayaknya pecahannya angular ya. Ionic kan cukup populer di, apa? Ionic awalnya kan hanya support angular kan, walaupun sekarang sudah bisa semua kan. Jadi ini menarik, dan dengar-dengar juga, si Google itu sebenarnya punya framework internal yang tidak dipublish keluar, yang konsepnya adalah seperti ini. Seperti Island, seperti Astral, dan seperti Quake. Tapi tidak di open source dan tidak dipublish. Mereka pakai untuk web mereka sendiri. Begitu. Jadi cara kerjanya Quake ini, sedikit, yang saya tahu ya, karena saya baru baca-baca. - Siap. - Dia Hardtml, maksudnya yang JavaScript yang sudah di-hydrate itu, kan katanya no-hydration. Ya, memang betul. Jadi bisa scroll up, saya lupa namanya. Nanti saya salah ngomong, jadi ini lagi. - Semua si Huax. - Atas sedikit, atas sedikit. Oke, dia bilang that's summable. Jadi sebenarnya dia sudah secara HTML, di bagian server-side, dia sudah ngerender HTML-nya. Terus yang bagian JavaScript, yang event yang perlu di-handle itu, dia sudah simpan di data attribute, di attribute HTML-nya. Jadi dia tinggal replace. Oh, jadi bukan hydration kayak ekspektasi. Kita kan tadi si JavaScript-nya bikin atau mengkalkulasi DOM di-replace. Kita kan bayangin Hydrate gitu. Asil kalkulasinya sudah disimpan sebagai data attribute, sehingga data attribute-nya itu gede, tetapi karena data attribute itu tidak perlu dirender oleh browser, ya. - Iya, si browser-nya nggak kejauh lagi. - Jadi dia tinggal replace. - Oh, oke. Galaxy Brain approach-nya ini. - Ini yang lucunya, ya bukan lucu ya, agak sedikit menyedihkan mungkinnya buat saya. Maksudnya, saya tuh baru tau island stikler ya sekarang-sekarang ini. Tahu astrol memang sudah cukup lama, baru-baru tau ternyata astrol itu pakai island, kan. Dan hydration dan lain-lain juga baru-baru belajar, gitu kan. Eh, ternyata udah ada framework yang sudah menyelesaikan masalah di hydration. Hydration ini katanya lumayan kompleks, ya kan. Terus take several seconds juga, ada loading time-nya juga, kan. - Banyak banget. - Iya, dan lain-lain gitu kan. Yang menyebabkan performa-nya agak kurang, gitu. Dan sudah ada solusinya di Quick. Jadi memang itu tadi yang kita sempat ngomong di belakang layar framework JavaScript itu luar biasa ya perkembangannya, ya. - Jadi pengalaman saya dulu waktu kerja di sebuah project itu headless dan full pakai React application. Yang terjadi adalah dia news site, news portal, cukup gede. Dan tentunya kalau dibuild pertama itu kan kecil ya. Tapi makin lama-makin lama komponen makin banyak, terus kemudian feature makin banyak, tambah sini, tambah sana. Terus itu ininya apa namanya itu? High order komponen terus kayak sudah berlapis-lapis tuh. Hoc-nya itu bisa kayak berlapis-lapis, lapis-lapis. Dan akhirnya... - Oh pusingnya tuh. - Kan terus dia ada server-side karena butuh SEO, server-side rendering. Saya sampai pusing kepala gimana caranya apa tuh namanya, tree-shaking supaya di halaman home page ini dong. Belum ada, jaman itu belum ada Next.js teman-teman. Waktu itu jaman tahun 2000. - Jaman jangil liat ya. - Awal-awal liat lah ya, 2000. Saya bukan awal-awal banget. Tapi jaman itu Next.js belum se-mampu sekarang, secanggi sekarang. Jaman itu masih belum. 2017, 2018 lah. Nah, jadi belum ada Gatsby. Masih baru kayak pure application gitu. Nah kita bikin itu supaya, saya setengah waktu itu mahir main dengan webpack 4 atau webpack 4 gimana supaya optimization terus kemudian chunk-nya itu dipisah-pisah. Tapi at the end, pusingnya adalah saat dehydration dia itu butuh download semua chunk yang dibutuhkan itu supaya bisa melakukan hydration. Untuk download chunk itu segitu banyak. Mau pakai preload kan tetap aja preload. Kalau preload 1,4 megabyte ya tetap aja gede. - Iya, jadi memperlambat juga ya. - Ke Parsing 1.1 juga browser-nya kerja kan kalau chunk-nya terlalu banyak. - Iya, targetnya 600 kilobytes. Sudah sama image ya kan. Ini JavaScript doang, 1.4 megabyte coba. - Satu floppy disk itu. - Pusingnya adalah, belum ada yang namanya isiannya partial rehydration. Kan ada tuh ya. Kemudian React nggak bisa hydration mahal, terus kemudian Vue muncul, Vue mengeluarkan partial rehydration, akhirnya React support sedikit baru-baru ini partial rehydration. - Server component sekarang juga udah bisa. - Jadi... - React server component ya? - Jadi, sekarang saya lihat arah framework itu kaya island pattern ini. Kalau bisa first page load, no JavaScript. Itu yang betul. First page load, jadi gunakan environment atau gunakan sistem yang sudah ada dari browser. Banyak loh API-API browser, mungkin kita bahas minggu depan atau selanjutnya ya. Banyak banget API-API browser yang sudah menarik. Contohnya, intersection observer. Dulu kan kalau kita mau scroll, kita harus kaya, apa itu istilahnya? Get bound rectangle. Untuk tau intersection sekarang, intersection observer. Resize observer. Kalau screen-nya di resize, bisa otomatis. Container view, di CSS juga sudah ada container. Kemarin kita bahasa. - Container query. - Container query, udah canggih. - Ada back-forward cache juga. - Oh ya, cache. - Itu juga, gue belum belajar tuh back-forward cache. Ada nggak sih framework yang wrapping di atas API-API ini? Yang murni dari wrapper-nya untuk ini aja. Karena kan kalau kita pakai satu-satu, capek juga kan? Harus setup satu-satu kan? - Harus digantung kebutuhan atas. - Sebenarnya sih, makin kesini kayaknya makin banyak metaframework yang pakai native web API, ya. Jadi kayak misalnya, remix, ya. Astro juga. Jadi Astro itu kan, kalau kita pakai UI, pakai swell, triac, atau pakai JavaScript-based component, kita tuh bisa pakai direktif namanya client, client idle, client visible, sama kalau yang default sih langsung di-hydrate. Nah, kalau di Astro nih, si client idle dan client side idle dan client side visible ini juga sebetulnya itu nge-wrap web API. Jadi idle itu tadi, request idle callback, visi dari intersection observer. Jadi kayaknya sih, dengan makin bagusnya browser interoperability, jadi apa, web API udah mulai banyak diadopsi di browser-browser, kayaknya trend framework dan metaframework dengan sendirinya makin streamline mungkin ya. Daripada dia bikin sendiri baru, dia pakai spesifikasi yang udah ada, karena user pun udah familiar. - Yes. Tapi kadang-kadang kebalik. Jadi ide muncul awal ide-nya itu adalah dari framework biasanya. - Oh. - Preload misalkan. Oh ini, apa namanya, oh JSX kan. Dulu sempat ada wacana katanya JSX masukin dong ke Chrome atau ke browser gitu kan. Jadi kita nggak preloading kan ada gitu kan. - Eh nggak jadi ya tuh ya. - Jadi sebenarnya yang ngedrive si web API yang ada di browser, salah satunya juga framework kan. - Ya juga. - Web itu komunitas, Mas. Komunitas web. Web itu komunitas yang ada di seluruh dunia dan kita itu tergabung dalam sebuah ekosistem yang namanya web. Dan sebenarnya web itu adalah hanya halaman yang disimpan di mesin yang lain yang terhubung dengan network. Ya kan? Bener ya? - Betul. - Komunitas terbesar di dunia adalah komunitas web. Pengguna web. - Iya. Walaupun kalau dari sisi bisnis, kadang-kadang orang tuh cukup sering berpendapat, berasumsi kalau sebenarnya lebih apa ya, prioritasnya tuh lebih ke mobile. - Tergantung bisnisnya juga sih. - Atau familiaritas dari user, kalau yang user awam kan terbiasa nginstall dari Play Store, App Store ya. Tapi itu kan udah mulai bisa diadres dengan TWA. - Ya. - Belum lama yang gak kedengeran tuh TWA. Gimana nasibnya tuh? Udah mature ya? Yang penting kalau buat web jadi Play Store. - Yang pake sih tetap ada gitu, maksudnya udah gak diomongin lagi, pake-pake aja gitu. - TWA, sekarang ada Trusted Web App, itu jadi kayak apa? Ya sebenarnya kayak Android Web View tapi yang lebih powerful lah. Jadi kita tetap nge-deploy web biasa, udah bisa diinstall dari Play Store. Kalau secara performa dan secara apa ya, API-API yang kan kadang-kadang Android ataupun iOS itu kan ada butuh akses kamera lah atau apa gitu. Itu aman semua. - Ya, tetap pake permission sih. Permissionnya web. Jadi ya flow-nya sih sama aja. Kita yang handle aplikasinya yang handle UI untuk munculin dialog permission. - Hmm, oke. Nah ini ada yang menarik juga nih, tambahin dikit ya. - Apa tuh? - Ini Astro, dia bahas tentang MPA versus SPA. Ini bisa jadi topik kita. - Nah nyambung dong, asik ya nyambung. Topik kita semua nyambung. - Banyak sekali ya topik kita ya. Kita harus catat nih. Topiknya banyak sekali yang akan kita bahas. Karena lucu ya, jadi tren itu berputar kan dari awalnya memang MPA, awalnya kan multi-page application gitu kan. - Server-side MPA, jadi kayak Laravel, Rubion Rails ya kan. - Terus abis itu bergeser kan trennya ke SPA. Semua server SPA kan. - SPA dan Pure Client, client render kan dulu pas awal-awal react. - Oh bahasa kerennya, headless, headless, headless gitu ya. Semua headless, tiba-tiba trennya headless. - Terus abis itu setelah SPA-nya dirasa performanya kurang bagus, balik lagi ke MPA lagi. Walaupun MPA-nya udah plus-plus ya, udah beda dengan MPA jaman dulu ya. - Udah banyak API-API, salah satunya yang tadi, salah duanya yang dibahas Ivan di awal tadi, bisa menyulap dalam tanda kutip multi-page application menjadi seperti, seolah-olah seperti SPA. Secara performa juga jauh lebih cepat, sehingga user itu paling sulit untuk disuruh menunggu kan. Kalau nggak ada respon selama beberapa detik udah di-close aja tuh tab-nya, segampang itu. Makanya kita harus baik-baikin tuh si user gimana caranya supaya dia tidak kabur. - Gantung kontennya, Mas. - Gantung kontennya. Kalau kontennya apa? Clickbait gitu ya. - Kalau kontennya manis. - Kalau kontennya jelek ya nabur. - Kalau kontennya banyak gulanya, loh kok gula lagi. - Nanti bisa nggak sih, awas. - Kalau si multi-page app ini, Astro itu kan multi-page app, dia belum punya single client-side router kayak Next dan lain-lain. Tapi Astro ini kan point of view-nya emang pengen pakai web standar. Jadi dia pakai, bukan si Astro-nya sendiri, cuma ada orang yang pengguna Astro yang bikin eksperimen. Itu tadi pakai Shared Element Transition API yang tadi dibahas Ivan Skilas, dikombinasikan sama pre-fetch halaman, dikombinasikan dengan Astro. Jadi intinya dia bikin MPA rasa SPA. Jadi emang Astro itu emang sangat perspektifnya itu tadi menggunakan web API yang sudah ada untuk improve performance. Jadi mengurangi kerja si JavaScript yang kayak di React Router atau Library Router tradisional, jadi dia lebih ke web API untuk optimasi performance. - Kalau bisa, saya lihat trendingnya ke depan, sebisa mungkin pakai environment atau native-nya dari browser itu sendiri. Jadi native-browser-nya yang development-nya makin kencang. Saya lihat banyak banget API baru muncul. - Remix-nya ini sama seperti remix juga kayaknya ya si Astro ini juga. - Emang belum pernah pakai remix tuh? - Iya. Kalau Astro ini kan sudut pandangannya sedikit berbeda. Kalau Astro ini dia lebih dari HTML CSS. Kalau butuh JavaScript, baru ditambahkan. - Dan itu islands per komponen. Kalau remix di level aplikasi ya dia? - Di level aplikasi JavaScript. - Optimasinya. - Iya, optimasinya. Terus kemudian menggunakan API web yang ada. - Kalau remix itu menariknya di form-nya justru yang gue lihat. Dia punya itu komponen form sendiri kan. Dia punya komponen form dengan perspektifnya sama. Kayak itu kalau kita pengen hydrate dengan JavaScript, kita opt-in. Tapi by default, komponen form bawaan remix itu menggunakan web API untuk form. Jadi itu bisa dibikin full server side. Jadi dia malah jadi kayak Laravel atau Ruby on Rails atau semacamnya. Jadi by default itu HTML, HTML only menggunakan web API yang udah ada. Tapi kalau mau kita bisa opt-in untuk hydrate dengan JavaScript. - Terus kalau yang gambar-gambar gitar ini apa? - Itu contoh transisinya. Coba diklik. Cuma flag shared element transisinya udah di-enable atau belum tuh? - Belum. - Kalau belum ya nggak bisa. - Ini masih loading ya? - Ini nih. - Ya, nggak bisa. - Bentar, ini flag-nya nih. Lokasi di private chat. Tapi harus reload browser ya. - Oh reload ya, mana? - Iya. - Namanya adalah document transition. - Dokumen transition. - Belum ada ini. - Maksudnya pakai edge. - Edge berapa Chrome? Oh belum ada, dia harus Chrome 104. Chrome 104. - Belum, belum masuk. - Ada kanari ya kanari? - Nggak usah kenari. Chrome biasa asal pakai flag. - Ini flag-nya aja belum ada. 105 versi 105 belum ya? - Iya, udah kok. - Udah harusnya. - Dokumen transition nggak ada. - Chrome 104 adanya. - 105, nggak ada. - I use. - Defect. Defect tuh John John versinya. - Coba di masukin stream saya. - Oh ya, sorry. - Oke. Tadi Astro Music ya. - Tuh, bisa gitu tuh. Wih keren. Terus dia lazy load juga nih. Cuyung. Wih. Serasa SPI ya. - Ini SPI ya? Oh wow. - Iya, MPA, pure MPA. Cuma pakai web API itu tadi shared document transition. Kita lihat ininya. Kita lihat load-nya biar sah gitu ya. Kita kan web. Tuh. Bener nggak ini? Tuh, bener tuh. Dia nge-request tuh. - Oke. - Kita coba yang lain. - Itu ada countdown di atas itu buat apa ya? - Supaya ngasih tahu kalau ini nggak pindah halaman. - Oh, nggak pindah halaman. - Bukan, bukan. Supaya ngasih tahu kita nggak pindah halaman. Karena kalau di-reload kan jadi nol lagi. - Nol. Jadi behavior-nya beneran kayak client-side routing padahal dia pakai, ya, apa? Ah, ref, anchor, eh, elemen biasa ya. Cakep. - Ini, ini. - Oh, nice. - Ya, they load, they load fragment nih. Oh, menarik ini untuk di kulik lagi, ya. - Nah, cuma ngomong-ngomong flag nih, apa, ada nggak sih yang bisa kita kerjain, kita lakuin sebagai developer biar mempercepat si flag ini, apa, feature ini diadopsi oleh browser lainnya. Kayak misalnya kita file, kita mungkin ada apa gitu, isu atau apa di browser lain, +1. - Ikut di web konsorsi, pasti ada. - Ya, maksudnya kita ramai-ramai bilang, please dong browser lain, please adopt, apa, shared element transition ini secepatnya. Pengen nggak sih bisa pakai itu tadi semua, apa, kalau ini kan sebenarnya cuma demo untuk nunjukin API ini bisa dipakai buat apa sih. Tapi kan realistically, masih bakal lama banget kan sampai kita bisa beneran pakai ini, dapetin behavior kayak gini tanpa install library tambahan yang berat. - Kayaknya bisa. Kalau nggak salah kan kita di invite, ada di GDE meeting tuh soon. Kan pasti bakal ada, kalau nggak salah di bagian Fugu, Fugu kali ya, Fugu API ya. - Oh iya, kita +1 yang banyak gitu. Nah, kalau ini kan sebenarnya dia udah beyond RFC ya, maksudnya ini kan udah masuk di Chrome, terus standarnya juga udah ada di Chromium, tapi kan terserah untuk masing-masing browser untuk mau mengadopsi atau nggak. Nah, berarti kita tuh kayak harus nge-spam, apakah kita harus nge-spam browser-browser lain, please, please dong masukin API ini, kita pengen pakai, ini berguna, ini bagus, dan lain-lain. - Kalau untuk khususnya untuk yang dokumen transition ini, nggak tahu ya secara web consort SIM, dia sudah, kan masih draft ya, spesifikasinya ya. Kalau khusus transition ini, dia masih draft spesifikasinya. Jadi, masih butuh waktu yang panjang. Masih di diskusi nih bahasannya. - Ah, oke. Ya, sedih. - Tunggu-tunggu. Kalau lo pengennya ini bisa, apa namanya, pengen ini jadi kenyataan, ya kan? Bisa nih ikut di specification, dan developer feedback is really important. - Oh, important. - Kita bisa bantu, kita bantu tes. Kita bantu tes dan kita bantu bikin isu. Itu satu. Kedua, coba-coba kita ikut ke consort SIM ini. - Tapi kan ini mostly Chrome, kan? - Nggak, ini W3 standard. No, no, no. - Dia kan, pertama kan, memang ini lahirnya dari Chrome, dari CJ Archibald sih. Kan sudah dibikin spesifikasi, dibikin, no, no, no. Kalau sudah di-approved dulu di web standard, tuh, draft-nya aja baru update, 2022. Jadi, kalau ini sudah, udah clear semua dan jadi web standard, sudah di-approved nih, masuk nih, jadi web standard, baru web browser lain, adopsi, jadi masih lama nih ceritanya. - Sedih. - Tapi bisa bantu untuk ngetes kalau memang kita pengen banget, gitu. - Kalau salah satu caranya ini, kan, buat kontribusi ke GitHub-nya atau ke draft-nya atau ke request for comment, kan. Kontribusi lain adalah bikin itu, bikin use case yang akhirnya mereka mempercepat, ya itu tadi bikin framework. Loh, katanya. - Loh, found. - Sebegitu, absolutely replace. Loh. - Ayo, udah nggak ada. - Pindah kali, paling pindah. Apa, ganti URL? - Tapi ya, sebenarnya bagusnya, walaupun ini bakal masih lama, sampai kita bisa pakai yang demo, kayak yang demo kita lihat tadi, bagusnya kan web itu selalu backwards compatible by default. Jadi, walaupun si shared element transition API itu belum supported pun tadi, ya kita klik, kita tetap bisa navigasi ke halaman satunya, kan, karena itu fallback-nya adalah, apa, encore a-ref, elemen a-ref biasa, jadi nggak masalah. Sementara kalau misalnya kita bergantung PureJS, misalnya kita pakai React Router atau semacamnya, kalau belum supported, ya udah nggak bisa pindah halaman, runyem, kan. - Ini minimal bisa pindah halaman meskipun counter-nya ke reset, ya maksudnya. - Ke reset dan nggak secakep, nggak se-WOW yang versi shared element API-nya. - MPA. Semi-MPA. - MPA rasa S-P-A. - Wah, kita udah sejam lebih loh. - Iya, nggak terasa. - Mau main? - Oh iya, buat teman-teman yang mau kasih bantuan untuk topic diskusi atau link-link menarik atau pertanyaan-pertanyaan seputar web, bisa langsung aja di-submit. Di-submit di komentar, kalau lagi live, di-komentar, tapi kalau misalkan lagi tidak live, misalkan teman-teman nonton yang recording, yang rekamannya, bisa ke bit.ly/ngobrolinweb, ya. Bisa di-submit aja di situ, topik-topik yang mau dibahas. Tadi kita udah banyak banget bahas tentang, apa, tentang... - Yes, quickly. - Iya, private sama tadi, apa, request idle. - Idle callback. - Ya, beberapa web API. - Request idle callback. - Yes. Terus juga bahas tentang island architecture dan beberapa framework yang berkaitan dengan island architecture. Tadi juga udah sempet muncul beberapa idle, bahas tentang MPA versus SPA, terus juga ada bahasan tentang edge function, ada apa lagi tadi ya. Itu harus kita catat dan harus kita jadikan topik-topik berikutnya. Kritik dan saran juga bisa ya, kirimin ke sini aja. Siapa tahu teman-teman punya apa ya, \"Wah, ini kayaknya formatnya ini lebih bagus kalau ditambahin segmen ini, segmen ini.\" Kita akan terima sekali karena ini baru 2 episode ya, baru 2 episode. Dan kita sendiri juga masih belum tahu formatnya yang bagus kayak gimana, jadi kita cuman ya udah ngobrol aja, ngobrol santai. Kalau ada apa, ada yang mau demo-demo dikit, boleh. Kalau nggak, ya kita ngobrol aja, gitu. Karena kembali lagi, tujuan kita adalah untuk up to date, supaya tetap up to date. - Kami kita sendiri juga update. - Belajar satu sama lain. - Betul, karena di pekerjaan kita masing-masing sudah mulai menggunakan web API atau framework atau apapun, library, yang itu-itu saja. Belum ada, misalkan yang baru-baru kayak apa, tadi query, CSS query apa, ya itulah banyak ya. Container query dan lain-lain. Nah itu kita belum sempat pake, gitu. Dan kalau kita mau bahas itu di sini, sekalian belajar, gitu. Kalau nggak, kita nggak ada kesempatan belajar. Jadi, terima kasih buat temen-temen yang sudah hadir, yang sudah nonton, ditunggu juga. - Ada yang mau jadi apa, mau ngobrol sama kita juga boleh. - Bintang tamu. Featuring. Collab. - Benar. Mungkin ada yang mau ditanyakan langsung atau ada yang mau kasih pendapat tentang satu topik, silahkan. Dan untuk malam ini, kita sudahi dulu, karena sudah jam, sudah satu jam kita ngobrol. Mudah-mudahan kita ketemu lagi di lain kesempatan. - Minggu depan. - Mudah-mudahan minggu depan kita usahakan. - Itu aja untuk malam hari ini. Terima kasih dan selamat malam. - Terima kasih semua. - Bye bye."
+}
