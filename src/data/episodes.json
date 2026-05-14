@@ -6,7 +6,10 @@
     "publishedAt": "2026-05-12T23:08:01Z",
     "thumbnail": "https://i.ytimg.com/vi/_BnH4kIsSwk/hqdefault.jpg",
     "position": 0,
-    "duration": "PT1H33M23S"
+    "duration": "PT1H33M23S",
+    "audioUrl": "https://ngobrolinweb-podcast.s3.ap-southeast-1.amazonaws.com/audio/_BnH4kIsSwk.mp3",
+    "audioDuration": 5602,
+    "audioFileSize": 89635151
   },
   {
     "videoId": "4vHgtGtsDFg",
@@ -15,7 +18,10 @@
     "publishedAt": "2026-05-05T22:18:41Z",
     "thumbnail": "https://i.ytimg.com/vi/4vHgtGtsDFg/hqdefault.jpg",
     "position": 1,
-    "duration": "PT1H39M31S"
+    "duration": "PT1H39M31S",
+    "audioUrl": "https://ngobrolinweb-podcast.s3.ap-southeast-1.amazonaws.com/audio/4vHgtGtsDFg.mp3",
+    "audioDuration": 5970,
+    "audioFileSize": 95523778
   },
   {
     "videoId": "Edez-dpX0Hw",
@@ -24,7 +30,10 @@
     "publishedAt": "2026-04-27T07:23:03Z",
     "thumbnail": "https://i.ytimg.com/vi/Edez-dpX0Hw/hqdefault.jpg",
     "position": 2,
-    "duration": "PT1H5M59S"
+    "duration": "PT1H5M59S",
+    "audioUrl": "https://ngobrolinweb-podcast.s3.ap-southeast-1.amazonaws.com/audio/Edez-dpX0Hw.mp3",
+    "audioDuration": 3959,
+    "audioFileSize": 63340085
   },
   {
     "videoId": "g6gKeLGYPQU",
@@ -33,7 +42,10 @@
     "publishedAt": "2026-04-21T14:51:55Z",
     "thumbnail": "https://i.ytimg.com/vi/g6gKeLGYPQU/hqdefault.jpg",
     "position": 3,
-    "duration": "PT1H25M33S"
+    "duration": "PT1H25M33S",
+    "audioUrl": "https://ngobrolinweb-podcast.s3.ap-southeast-1.amazonaws.com/audio/g6gKeLGYPQU.mp3",
+    "audioDuration": 5132,
+    "audioFileSize": 82118991
   },
   {
     "videoId": "YoeCPP6c2LI",
@@ -42,7 +54,10 @@
     "publishedAt": "2026-04-15T02:19:36Z",
     "thumbnail": "https://i.ytimg.com/vi/YoeCPP6c2LI/hqdefault.jpg",
     "position": 4,
-    "duration": "PT1H45M42S"
+    "duration": "PT1H45M42S",
+    "audioUrl": "https://ngobrolinweb-podcast.s3.ap-southeast-1.amazonaws.com/audio/YoeCPP6c2LI.mp3",
+    "audioDuration": 6341,
+    "audioFileSize": 101461306
   },
   {
     "videoId": "KJ96IaRARvQ",
@@ -51,7 +66,10 @@
     "publishedAt": "2026-04-07T15:06:46Z",
     "thumbnail": "https://i.ytimg.com/vi/KJ96IaRARvQ/hqdefault.jpg",
     "position": 5,
-    "duration": "PT1H41M29S"
+    "duration": "PT1H41M29S",
+    "audioUrl": "https://ngobrolinweb-podcast.s3.ap-southeast-1.amazonaws.com/audio/KJ96IaRARvQ.mp3",
+    "audioDuration": 6089,
+    "audioFileSize": 97425074
   },
   {
     "videoId": "qlL_42q4mUE",
@@ -60,7 +78,10 @@
     "publishedAt": "2026-03-31T15:09:25Z",
     "thumbnail": "https://i.ytimg.com/vi/qlL_42q4mUE/hqdefault.jpg",
     "position": 6,
-    "duration": "PT1H51M16S"
+    "duration": "PT1H51M16S",
+    "audioUrl": "https://ngobrolinweb-podcast.s3.ap-southeast-1.amazonaws.com/audio/qlL_42q4mUE.mp3",
+    "audioDuration": 6675,
+    "audioFileSize": 106807422
   },
   {
     "videoId": "UMNXxUqlZS0",
@@ -69,7 +90,10 @@
     "publishedAt": "2026-03-12T10:10:10Z",
     "thumbnail": "https://i.ytimg.com/vi/UMNXxUqlZS0/hqdefault.jpg",
     "position": 7,
-    "duration": "PT1H14M9S"
+    "duration": "PT1H14M9S",
+    "audioUrl": "https://ngobrolinweb-podcast.s3.ap-southeast-1.amazonaws.com/audio/UMNXxUqlZS0.mp3",
+    "audioDuration": 4449,
+    "audioFileSize": 71183925
   },
   {
     "videoId": "00ZHWKLlp5g",
@@ -87,7 +111,10 @@
     "publishedAt": "2026-02-11T05:04:15Z",
     "thumbnail": "https://i.ytimg.com/vi/TdgJMT3NrRM/hqdefault.jpg",
     "position": 9,
-    "duration": "PT1H25M33S"
+    "duration": "PT1H25M33S",
+    "audioUrl": "https://ngobrolinweb-podcast.s3.ap-southeast-1.amazonaws.com/audio/TdgJMT3NrRM.mp3",
+    "audioDuration": 5133,
+    "audioFileSize": 82122335
   },
   {
     "videoId": "c5RSiDy2sRM",
@@ -96,11 +123,14 @@
     "publishedAt": "2026-02-03T15:12:38Z",
     "thumbnail": "https://i.ytimg.com/vi/c5RSiDy2sRM/hqdefault.jpg",
     "position": 10,
-    "duration": "PT2H3M32S"
+    "duration": "PT2H3M32S",
+    "audioUrl": "https://ngobrolinweb-podcast.s3.ap-southeast-1.amazonaws.com/audio/c5RSiDy2sRM.mp3",
+    "audioDuration": 7412,
+    "audioFileSize": 118592617
   },
   {
     "videoId": "Tkh8-LleLws",
-    "title": "Agentic Coding Tools - Ngobrolin WEB",
+    "title": "Alat Pengkodean Agen - Ngobrolin WEB",
     "description": "🗣️🕸️  Selasa malam waktunya #NgobrolinWEB! Malam ini kita akan berbagi bagaimana Eka dan Ivan menggunakan AI Agentic Coding untuk menghasilkan kode yang ciamik. Seru kan?! Mari kita belajar bersama-sama.\n\nEpisode kali ini merupakan hasil kolaborasi dengan DomaiNesia.  \n\nGunakan kode promo: NGOBROLINVPSDN buat diskon 50% langganan Cloud VPS Turbo dan dapat digunakan berkali-kali!",
     "publishedAt": "2026-01-27T22:28:08Z",
     "thumbnail": "https://i.ytimg.com/vi/Tkh8-LleLws/hqdefault.jpg",
