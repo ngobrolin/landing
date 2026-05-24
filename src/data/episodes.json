@@ -102,7 +102,10 @@
     "publishedAt": "2026-02-17T15:23:18Z",
     "thumbnail": "https://i.ytimg.com/vi/00ZHWKLlp5g/hqdefault.jpg",
     "position": 8,
-    "duration": "PT1H58M42S"
+    "duration": "PT1H58M42S",
+    "audioUrl": "https://ngobrolinweb-podcast.s3.ap-southeast-1.amazonaws.com/audio/00ZHWKLlp5g.mp3",
+    "audioDuration": 7122,
+    "audioFileSize": 113949509
   },
   {
     "videoId": "TdgJMT3NrRM",
