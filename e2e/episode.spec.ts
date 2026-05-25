@@ -22,6 +22,7 @@ test.describe('Episode Page', () => {
     await page.goto('/');
     const firstEpisode = page.locator('[data-testid="episode-card"]').first();
     await firstEpisode.click();
+    await expect(page).toHaveURL(/\/episodes\/.+/);
 
     await expect(page.getByRole('link', { name: 'Home' })).toBeVisible();
     await expect(page.getByRole('link', { name: 'Episodes' })).toBeVisible();
