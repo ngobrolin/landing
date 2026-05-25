@@ -9,7 +9,7 @@
     "astro": "astro",
     "test": "vitest",
     "test:unit": "vitest run",
-    "test:e2e": "playwright test",
+    "test:e2e": "npm run build && playwright test",
     "test:e2e:ui": "playwright test --ui",
     "transcribe": "node scripts/transcribe.js",
     "transcribe:openai": "node scripts/transcribe-openai.js"
