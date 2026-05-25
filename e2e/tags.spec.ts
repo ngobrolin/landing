@@ -5,8 +5,13 @@ test.describe('Tags Page', () => {
     // Start from homepage
     await page.goto('/');
 
-    // Click on the "Topik" menu link which goes to /tags
-    await page.getByRole('link', { name: 'Topik' }).click();
+    // Click on the "Topik" navigation link which goes to /tags.
+    // Scope to the nav and use an exact accessible-name match so episode cards
+    // whose description contains "Topik" do not also match in strict mode.
+    await page
+      .getByRole('navigation')
+      .getByRole('link', { name: 'Topik', exact: true })
+      .click();
 
     // Should not be a 404 page
     await expect(page.getByRole('heading', { name: /404/ })).not.toBeVisible();
