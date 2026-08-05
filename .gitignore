@@ -29,3 +29,6 @@ test-results/
 
 # worktrees - isolated development workspaces
 landing.worktrees/
+
+# local visual brainstorming artifacts
+.superpowers/
