@@ -3,38 +3,25 @@
 import { execSync, spawnSync } from "child_process";
 import {
   existsSync,
-  readFileSync,
-  writeFileSync,
-  mkdirSync,
-  unlinkSync,
   createReadStream,
   statSync,
 } from "fs";
-import { join, dirname } from "path";
-import { fileURLToPath } from "url";
+import { join } from "path";
 import OpenAI from "openai";
-
-const __dirname = dirname(fileURLToPath(import.meta.url));
-const ROOT_DIR = join(__dirname, "..");
-const TRANSCRIPTS_DIR = join(ROOT_DIR, "src/data/transcripts");
-const EPISODES_FILE = join(ROOT_DIR, "src/data/episodes.json");
-const TEMP_DIR = join(ROOT_DIR, ".tmp-audio");
+import {
+  ALLOWED_BROWSERS,
+  TEMP_DIR,
+  cleanupFiles,
+  downloadAudio,
+  filterNonConversation,
+  findExecutable,
+  getEpisodes,
+  getExistingTranscripts,
+  saveTranscript,
+} from "./lib/transcribe-common.js";
 
 // Fallback paths for macOS/Linux when not in PATH
 const YT_DLP_FALLBACK = "/Users/riza/.nix-profile/bin/yt-dlp";
-
-function findExecutable(name, fallback) {
-  try {
-    return execSync(`which ${name}`, { encoding: "utf-8" }).trim();
-  } catch {
-    if (existsSync(fallback)) {
-      return fallback;
-    }
-    throw new Error(
-      `Could not find ${name}. Ensure it's installed or check the path: ${fallback}`
-    );
-  }
-}
 
 const YT_DLP = findExecutable("yt-dlp", YT_DLP_FALLBACK);
 
@@ -100,98 +87,6 @@ function splitAudio(audioPath, videoId, chunkDuration) {
     i++;
   }
   return chunks;
-}
-
-// Patterns for non-conversation segments to filter out (same as transcribe.js)
-const NON_CONVERSATION_PATTERNS = [
-  // Music variations
-  /^\[musik\]$/i,
-  /^\[music\]$/i,
-  /^\[musik intro\]$/i,
-  /^\[suara musik\]$/i,
-  /^\[dialog musik\]$/i,
-  // Sound effects
-  /^\[tinggalow\]$/i,
-  /^\[ting tong\]$/i,
-  /^\[tinggil\]$/i,
-  /^\[telolet\]$/i,
-  /^\[ringtone\]$/i,
-  /^\[drinton\]$/i,
-  /^\[suara panggilan\]$/i,
-  /^\[suara nafas\]$/i,
-  // Laughter
-  /^\[tertawa\]$/i,
-  /^\[ketawa\]$/i,
-  /^\[gelak\]$/i,
-  // Applause
-  /^\[tepuk tangan\]$/i,
-  // Outro/intro messages (metadata, not speech)
-  /^\[sampai jumpa di video selanjutnya\]$/i,
-  /^\[tekan like dan subscribe\]$/i,
-];
-
-function isNonConversation(text) {
-  return NON_CONVERSATION_PATTERNS.some((pattern) => pattern.test(text.trim()));
-}
-
-function filterNonConversation(segments) {
-  const filtered = segments.filter((seg) => !isNonConversation(seg.text));
-  const removedCount = segments.length - filtered.length;
-  if (removedCount > 0) {
-    console.log(`  Filtered out ${removedCount} non-conversation segment(s)`);
-  }
-  return filtered;
-}
-
-function getEpisodes() {
-  return JSON.parse(readFileSync(EPISODES_FILE, "utf-8"));
-}
-
-function getExistingTranscripts() {
-  if (!existsSync(TRANSCRIPTS_DIR)) {
-    mkdirSync(TRANSCRIPTS_DIR, { recursive: true });
-    return new Set();
-  }
-  const files = execSync(`ls "${TRANSCRIPTS_DIR}"`, {
-    encoding: "utf-8",
-  }).trim();
-  if (!files) return new Set();
-  return new Set(files.split("\n").map((f) => f.replace(".json", "")));
-}
-
-function downloadAudio(videoId, browser = "brave") {
-  if (!existsSync(TEMP_DIR)) {
-    mkdirSync(TEMP_DIR, { recursive: true });
-  }
-
-  const outputPath = join(TEMP_DIR, `${videoId}.mp3`);
-
-  if (existsSync(outputPath)) {
-    console.log(`  Audio already exists: ${outputPath}`);
-    return outputPath;
-  }
-
-  console.log(`  Downloading audio for ${videoId}...`);
-
-  const url = `https://www.youtube.com/watch?v=${videoId}`;
-  spawnSync(
-    YT_DLP,
-    [
-      "-x",
-      "--audio-format",
-      "mp3",
-      "--audio-quality",
-      "0",
-      "--cookies-from-browser",
-      browser,
-      "-o",
-      outputPath,
-      url,
-    ],
-    { stdio: "inherit" }
-  );
-
-  return outputPath;
 }
 
 const MAX_RETRIES = 3;
@@ -296,34 +191,17 @@ async function transcribe(audioPath, videoId, openai, model) {
         rawSegments.push(...chunkSegments);
       }
     } finally {
-      for (const chunkPath of chunkPaths) {
-        if (existsSync(chunkPath)) unlinkSync(chunkPath);
-      }
+      cleanupFiles(chunkPaths);
     }
   }
 
   const filteredSegments = filterNonConversation(rawSegments);
 
-  const transcript = {
-    videoId,
-    language: "id",
-    generatedAt: new Date().toISOString(),
-    segments: filteredSegments,
-    fullText: filteredSegments.map((seg) => seg.text).join(" "),
-  };
-
-  const outputPath = join(TRANSCRIPTS_DIR, `${videoId}.json`);
-  writeFileSync(outputPath, JSON.stringify(transcript, null, 2));
-  console.log(`  Saved transcript: ${outputPath}`);
-
-  return transcript;
+  return saveTranscript(videoId, filteredSegments);
 }
 
 function cleanup(videoId) {
-  const file = join(TEMP_DIR, `${videoId}.mp3`);
-  if (existsSync(file)) {
-    unlinkSync(file);
-  }
+  cleanupFiles([join(TEMP_DIR, `${videoId}.mp3`)]);
 }
 
 async function main() {
@@ -376,16 +254,6 @@ async function main() {
   }
 
   // Parse --browser argument
-  const ALLOWED_BROWSERS = [
-    "brave",
-    "chrome",
-    "firefox",
-    "safari",
-    "edge",
-    "chromium",
-    "opera",
-    "vivaldi",
-  ];
   let browser = "brave";
   const browserIndex = args.indexOf("--browser");
   if (browserIndex !== -1) {
@@ -442,7 +310,12 @@ async function main() {
     console.log(`\n[${videoId}] ${episode?.title || "Unknown"}`);
 
     try {
-      const audioPath = downloadAudio(videoId, browser);
+      const audioPath = downloadAudio(videoId, {
+        audioFormat: "mp3",
+        browser,
+        outputExtension: "mp3",
+        ytDlpPath: YT_DLP,
+      });
       await transcribe(audioPath, videoId, openai, model);
       cleanup(videoId);
       console.log(`  ✓ Done!`);

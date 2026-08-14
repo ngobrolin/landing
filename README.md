@@ -187,6 +187,35 @@ console.log('fullText length:', t.fullText.length);
 - Per-episode errors are caught and logged — processing continues to the next episode on failure
 - The script checks all requirements (API key, yt-dlp, ffmpeg, ffprobe) before starting and reports any missing ones
 
+#### Experimental diarization
+
+Use the separate diarization script when you want speaker labels in transcript segments. This path is isolated from the stable OpenAI-compatible script because it depends on OpenAI's experimental diarization response format.
+
+```bash
+# Transcribe 3 missing episodes with diarization
+OPENAI_API_KEY=sk-... npm run transcribe:openai:diarize -- \
+  --missing --limit 3 --browser chrome \
+  --known-speaker "Alice=refs/alice.wav" \
+  --known-speaker "Bob=refs/bob.wav" \
+  --response-format diarized_json
+```
+
+| Flag | Description | Default |
+| --- | --- | --- |
+| `--model <name>` | Diarization model name | `gpt-4o-transcribe-diarize` |
+| `--base-url <url>` | Custom OpenAI endpoint base URL | OpenAI default |
+| `--browser <name>` | Browser for cookies (chrome, brave, firefox, etc.) | `brave` |
+| `--limit <number>` | Max number of episodes to process | None (all) |
+| `--known-speaker "Name=path"` | Repeatable speaker reference mapping | None |
+| `--response-format diarized_json` | Required diarized response format | `diarized_json` |
+| `--missing` | Process episodes without transcripts | - |
+| `--all` | Process all episodes | - |
+
+Notes:
+
+- The saved transcript schema stays the same and adds `speaker` only on diarized segments.
+- This script currently requires `gpt-4o-transcribe-diarize`. `gpt-4o-mini-transcribe` is not supported here because it does not return timestamped segments needed by the existing transcript JSON format.
+
 ---
 
 ### Filtering Non-Conversation Elements
