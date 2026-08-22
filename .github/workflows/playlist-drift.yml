@@ -29,16 +29,18 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - uses: pnpm/action-setup@v4
+
       - uses: actions/setup-node@v4
         with:
           node-version: '20'
-          cache: 'npm'
+          cache: 'pnpm'
 
       - name: Install dependencies
-        run: npm ci
+        run: pnpm install --frozen-lockfile
 
       - name: Check playlist for missing episodes
-        run: npx tsx scripts/check-playlist-drift.ts
+        run: pnpm exec tsx scripts/check-playlist-drift.ts
         env:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
           # Only on main: open/update/close the alert issue. Branch runs

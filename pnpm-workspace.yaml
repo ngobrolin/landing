@@ -1,14 +1,11 @@
-# Dependencies allowed to run install/build scripts.
-# The setting was renamed in pnpm 11 (`onlyBuiltDependencies` list -> `allowBuilds` map),
-# and each version silently ignores the other's key. Cloudflare Pages currently builds
-# with pnpm 10.11.1, so both forms are kept until the CI pnpm version is pinned.
+# Dependencies allowed to run install/build scripts. Without this, pnpm skips
+# sharp's build script and Astro's image optimization fails at build time.
+# The setting was renamed in pnpm 11 (`onlyBuiltDependencies` list -> `allowBuilds`
+# map) and each version silently ignores the other's key, so this file must match
+# the pnpm pinned in package.json's `packageManager` field (currently 10.x).
 onlyBuiltDependencies:
   - esbuild
   - sharp
-
-allowBuilds:
-  esbuild: true
-  sharp: true
 
 # Astro bundles its sharp image service into dist/, so the `import('sharp')` it emits
 # resolves from the project root rather than from astro's own node_modules. pnpm's

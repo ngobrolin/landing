@@ -5,6 +5,8 @@ dist/
 
 # dependencies
 node_modules/
+# pnpm is the only package manager here; npm's lockfile must never come back
+package-lock.json
 
 # logs
 npm-debug.log*
