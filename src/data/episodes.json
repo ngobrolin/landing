@@ -6,7 +6,10 @@
     "publishedAt": "2026-08-22T01:47:22Z",
     "thumbnail": "https://i.ytimg.com/vi/qei6_h3wwPY/hqdefault.jpg",
     "position": 0,
-    "duration": "PT1H24M39S"
+    "duration": "PT1H24M39S",
+    "audioUrl": "https://ngobrolinweb-podcast.s3.ap-southeast-1.amazonaws.com/audio/qei6_h3wwPY.mp3",
+    "audioDuration": 5078,
+    "audioFileSize": 81256742
   },
   {
     "videoId": "-TwyNC_SSFY",

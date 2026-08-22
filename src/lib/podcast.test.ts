@@ -166,20 +166,19 @@ describe("audio data integrity (regression: episodes silently missing from feed)
     ).toEqual([]);
   });
 
-  it("has audio for every episode except the knowingly-exempt ones", () => {
+  it("has audio for every episode, with no exemptions", () => {
     // The podcast feed silently omits any episode lacking audio, which is how
-    // 10 episodes went missing for three months. Pin the gap explicitly so a
-    // future episode losing audio fails here instead of vanishing quietly.
+    // 10 episodes went missing for three months. Coverage is now complete, so
+    // this asserts the empty set: a new episode landing without audio fails
+    // here instead of vanishing quietly from the feed.
     //
-    // qei6_h3wwPY ("Model Context Protocol", published 2026-08-19) arrived via
-    // the playlist sync without audio. Backfilling it is deliberately tracked
-    // separately; it is knowingly absent from the podcast feed, not forgotten.
-    const KNOWN_WITHOUT_AUDIO = ["qei6_h3wwPY"];
-
+    // Adding a videoId to an exemption list is not the fix -- run
+    // scripts/extract-audio.ts then scripts/upload-s3.ts and commit the
+    // episodes.json edit (see AGENTS.md, "Podcast audio pipeline").
     const withoutAudio = rawEpisodes.filter((ep) => !ep.audioUrl).map((ep) => ep.videoId);
 
-    expect(withoutAudio.sort()).toEqual([...KNOWN_WITHOUT_AUDIO].sort());
-    expect(withAudioUrl).toHaveLength(rawEpisodes.length - KNOWN_WITHOUT_AUDIO.length);
+    expect(withoutAudio).toEqual([]);
+    expect(withAudioUrl).toHaveLength(rawEpisodes.length);
   });
 
   it("exposes every episode with an audioUrl in the podcast feed", () => {
