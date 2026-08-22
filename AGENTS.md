@@ -121,6 +121,28 @@ Two things worth knowing before touching that path:
 - ❌ **Don't test only initial page load** - View transitions create different execution context
 - ❌ **Don't refactor without E2E coverage** - ShareButtons refactor needed testing protection
 
+## Podcast audio pipeline
+
+`/podcast-rss.xml` includes an episode **only** if `audioUrl`, `audioDuration` and
+`audioFileSize` are all present and truthy (`getPodcastEpisodes()` in
+`src/lib/podcast.ts`). A partially-filled entry is dropped silently — no error,
+just a missing episode. `/rss.xml` is the separate web feed and carries no
+enclosures by design.
+
+Backfilling audio is two steps: `scripts/extract-audio.ts <videoId>` then
+`scripts/upload-s3.ts <videoId>` (bucket `ngobrolinweb-podcast`, key
+`audio/<videoId>.mp3`).
+
+- ⚠️ **`upload-s3.ts` writes `src/data/episodes.json` as its last act. Commit that
+  edit.** If it is lost, S3 holds the mp3 but the repo has no record, and the
+  episode vanishes from the feed with nothing erroring anywhere. This is what
+  silently dropped 10 episodes between May and Aug 2026.
+- `upload-s3.ts` defines `checkS3Exists()` but never calls it, so it will
+  overwrite. Run `aws s3api head-object` yourself before uploading.
+- Encoder output is 128kbps mono = **16000 bytes/sec**. A file-size-to-duration
+  ratio outside that band means a truncated or mismatched file;
+  `src/lib/podcast.test.ts` asserts this invariant across all episodes.
+
 ## Maintaining this file
 
 Keep this file for knowledge useful to almost every future agent session in this project.
