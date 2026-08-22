@@ -33,20 +33,20 @@
 ### Prerequisites
 
 - Node.js (LTS recommended)
-- npm
+- pnpm
 
 ### Key Commands
 
-| Command               | Description                                            |
-| :-------------------- | :----------------------------------------------------- |
-| `npm install`         | Install project dependencies.                          |
-| `npm run dev`         | Start the local development server (Astro).            |
-| `npm run build`       | Build the project for production (outputs to `dist/`). |
-| `npm run preview`     | Preview the production build locally.                  |
-| `npm run test`        | Run unit tests using Vitest.                           |
-| `npm run test:unit`   | Explicitly run unit tests.                             |
-| `npm run test:e2e`    | Run end-to-end tests using Playwright.                 |
-| `npm run test:e2e:ui` | Run Playwright tests with the UI runner.               |
+| Command                | Description                                            |
+| :--------------------- | :----------------------------------------------------- |
+| `pnpm install`         | Install project dependencies.                          |
+| `pnpm run dev`         | Start the local development server (Astro).            |
+| `pnpm run build`       | Build the project for production (outputs to `dist/`). |
+| `pnpm run preview`     | Preview the production build locally.                  |
+| `pnpm run test`        | Run unit tests using Vitest.                           |
+| `pnpm run test:unit`   | Explicitly run unit tests.                             |
+| `pnpm run test:e2e`    | Run end-to-end tests using Playwright.                 |
+| `pnpm run test:e2e:ui` | Run Playwright tests with the UI runner.               |
 
 ### Transcription
 
@@ -120,6 +120,28 @@ Two things worth knowing before touching that path:
 - ❌ **Don't skip initialization guards** - Scripts may run multiple times, prevent duplicate work
 - ❌ **Don't test only initial page load** - View transitions create different execution context
 - ❌ **Don't refactor without E2E coverage** - ShareButtons refactor needed testing protection
+
+## Package manager (pnpm)
+
+Installs use **pnpm**; `pnpm-workspace.yaml` is the authoritative config. Two things there are
+load-bearing and easy to break — both fail only on a **cold** install, never with a warm `node_modules`:
+
+- **Build-script allowance.** The setting was renamed in pnpm 11 (`onlyBuiltDependencies`, a *list*
+  -> `allowBuilds`, a *map*), and each version silently ignores the other's key. Cloudflare Pages
+  builds with pnpm 10.11.1, so both forms are kept. Wrong key/shape = `Ignored build scripts:` and
+  no native binaries.
+- **`publicHoistPattern: [sharp]`.** Astro bundles its sharp image service into `dist/`, so the
+  `import('sharp')` it emits resolves from the project root, not from astro's own `node_modules`.
+  pnpm's strict layout hides transitive deps there; without the hoist the build dies at
+  *generating optimized images* with `MissingSharp`.
+
+Validate any change to install/build config the way CI does, never against a warm tree:
+
+```bash
+rm -rf node_modules && pnpm install --frozen-lockfile && npm run build
+```
+
+Expect no `Ignored build scripts` warning and a build that runs past *generating optimized images*.
 
 ## Maintaining this file
 
