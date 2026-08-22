@@ -135,8 +135,7 @@ Backfilling audio is two steps: `scripts/extract-audio.ts <videoId>` then
 
 - ⚠️ **`upload-s3.ts` writes `src/data/episodes.json` as its last act. Commit that
   edit.** If it is lost, S3 holds the mp3 but the repo has no record, and the
-  episode vanishes from the feed with nothing erroring anywhere. This is what
-  silently dropped 10 episodes between May and Aug 2026.
+  episode vanishes from the feed with nothing erroring anywhere.
 - `upload-s3.ts` defines `checkS3Exists()` but never calls it, so it will
   overwrite. Run `aws s3api head-object` yourself before uploading.
 - Encoder output is 128kbps mono = **16000 bytes/sec**. A file-size-to-duration

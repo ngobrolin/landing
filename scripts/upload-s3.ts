@@ -139,7 +139,7 @@ Options:
   --help      Show this help message
 
 Environment:
-  S3_BUCKET   S3 bucket name (default: ngobrolin-podcast)
+  S3_BUCKET   S3 bucket name (default: ngobrolinweb-podcast)
   S3_REGION   AWS region (default: ap-southeast-1)
   AWS_ACCESS_KEY_ID / AWS_SECRET_ACCESS_KEY or AWS profile
 
