@@ -33,20 +33,20 @@
 ### Prerequisites
 
 - Node.js (LTS recommended)
-- npm
+- pnpm
 
 ### Key Commands
 
-| Command               | Description                                            |
-| :-------------------- | :----------------------------------------------------- |
-| `npm install`         | Install project dependencies.                          |
-| `npm run dev`         | Start the local development server (Astro).            |
-| `npm run build`       | Build the project for production (outputs to `dist/`). |
-| `npm run preview`     | Preview the production build locally.                  |
-| `npm run test`        | Run unit tests using Vitest.                           |
-| `npm run test:unit`   | Explicitly run unit tests.                             |
-| `npm run test:e2e`    | Run end-to-end tests using Playwright.                 |
-| `npm run test:e2e:ui` | Run Playwright tests with the UI runner.               |
+| Command                | Description                                            |
+| :--------------------- | :----------------------------------------------------- |
+| `pnpm install`         | Install project dependencies.                          |
+| `pnpm run dev`         | Start the local development server (Astro).            |
+| `pnpm run build`       | Build the project for production (outputs to `dist/`). |
+| `pnpm run preview`     | Preview the production build locally.                  |
+| `pnpm run test`        | Run unit tests using Vitest.                           |
+| `pnpm run test:unit`   | Explicitly run unit tests.                             |
+| `pnpm run test:e2e`    | Run end-to-end tests using Playwright.                 |
+| `pnpm run test:e2e:ui` | Run Playwright tests with the UI runner.               |
 
 ### Transcription
 
