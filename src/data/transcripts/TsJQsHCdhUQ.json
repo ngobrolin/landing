@@ -1,0 +1,2744 @@
+{
+  "videoId": "TsJQsHCdhUQ",
+  "language": "id",
+  "generatedAt": "2026-08-22T02:15:31.106Z",
+  "source": "youtube-auto",
+  "segments": [
+    {
+      "start": 16.039,
+      "end": 30.99,
+      "text": "perhatian perhatian halo halo halo semua selamat malam Halo selamat malam saya terda belum dibuka Bukain [Tertawa] dong Iya Salama malam selasa malam"
+    },
+    {
+      "start": 31,
+      "end": 48.11,
+      "text": "selasa malam waktunyaakunyaobrolin web mudah-mudahan gak pada Bosan ya ditemin kita bertiga terus Iya karena topik kan Minggu lalu barusan sama"
+    },
+    {
+      "start": 48.12,
+      "end": 64.91,
+      "text": "berempat jadi minggu ini bertiga lagi dan minggu depan berempat lagi siapa yatime Pak ini my ID Wih domainnya keren tuh my ID Halo"
+    },
+    {
+      "start": 64.92,
+      "end": 81.59,
+      "text": "selamat malam naik daun [Tertawa] gambarun Iya jadi malam hari ini kita rencananya mau bahas eh lanjutan dari e"
+    },
+    {
+      "start": 81.6,
+      "end": 92.59,
+      "text": "artikel csap ya karena kemarin belum selesai ya Kir kirain dikit kirain kayak sekali episode bakal habis Ternyata"
+    },
+    {
+      "start": 92.6,
+      "end": 104.38900000000001,
+      "text": "banyak banget ternyata jadi yang belum nonton bisa bisa lihat eal du episode lalu du episode lalu tapi"
+    },
+    {
+      "start": 104.399,
+      "end": 119.87,
+      "text": "nanti aja lihatnya malam ini sekarang lihat kita duluat yang ini dulu kalau gak nyambungakyambung gak ya jadi malam ini E apa ya kali kita e"
+    },
+    {
+      "start": 119.88,
+      "end": 131.51,
+      "text": "pertama saya eh akan ya menyiksa diri untuk menyiksa diri sama saya saya sayairi juga untuk belajar CSS nih"
+    },
+    {
+      "start": 131.52,
+      "end": 141.43,
+      "text": "dipaksa belajar overview dulu dong CSS itu eh apa Kenapa kita eh pilih artikel ini jadi kalau kita enggak ngerti ini"
+    },
+    {
+      "start": 141.44,
+      "end": 152.43,
+      "text": "adalah skill isu [Tertawa] ya artikel web Ini pertama kalinya ya kayaknya sejauh yang kita tahu sih Ini"
+    },
+    {
+      "start": 152.44,
+      "end": 163.27,
+      "text": "pertama kalinya tim devrel dari Chrome eh apa di situs Chrome for developer membuat semacam rekap artikel eh apa"
+    },
+    {
+      "start": 163.28,
+      "end": 172.71,
+      "text": "fitur-fitur CSS apa aja sih yang yang baru eh dan yang menarik Ya pastinya dan yang powerful Maksudnya kita kita pas"
+    },
+    {
+      "start": 172.72,
+      "end": 180.309,
+      "text": "kemungkinan kita enggak tahu selama ini CSS ternyata ada fitur a b c d ya banyak banget tuh sampai z nah ini pertama kali"
+    },
+    {
+      "start": 180.319,
+      "end": 190.11,
+      "text": "ee semuanya direkap dalam satu artikel jadi kan lagi ngetren tuh kayak wap-rap semua apa spotify lah sampai sampai"
+    },
+    {
+      "start": 190.12,
+      "end": 200.55,
+      "text": "recest juga ada wap-nya kan Nah ini juga ada wap apa kayak Kilas Balik lah fitur-fitur CSS yang ada di tahun 2023"
+    },
+    {
+      "start": 200.56,
+      "end": 206.50900000000001,
+      "text": "cuma ini kayak artikelnya tuh yang detail banget sama ada demo demonya jadi kita senang tapi kita bingung juga"
+    },
+    {
+      "start": 206.519,
+      "end": 213.11,
+      "text": "karena selama ini kan maksudnya mungkin di tempat kerja atau apa di production kita gak berani ya pakai fitur CSS yang"
+    },
+    {
+      "start": 213.12,
+      "end": 224.789,
+      "text": "baru atau mungkin gak sempat ngulik nah jadi kita bingung juga karena banyak kita I atau kita jarang menggunakan"
+    },
+    {
+      "start": 224.799,
+      "end": 242.47,
+      "text": "Van Ya sudah dicover sama Framework entah ituot atau yang lagiang k kita enggak banyak tahu karena eh kita"
+    },
+    {
+      "start": 242.48,
+      "end": 253.03,
+      "text": "sudahah terbias framew nah Kalaupun kita pakai Framework atau library CSS kita tetap perlu tahu fiturnya karena eh Ya maksudnya misalnya"
+    },
+    {
+      "start": 253.04,
+      "end": 259.909,
+      "text": "kita pakai tailwin nih Eh kalau kita enggak tahu ada fitur X ya kita enggak bakal nyari itu kan kayak nanti ada"
+    },
+    {
+      "start": 259.919,
+      "end": 269.87,
+      "text": "contohnya sih menarik kontainer heeh ada contohnya iya kalnya ya kayak minggu lalu yang kita kebingungan bersama yaitu"
+    },
+    {
+      "start": 269.88,
+      "end": 284.15,
+      "text": "CSS layer S sekarang ke depannya pun kalau itu di incorporate sama apalah library atau prosessor atau Framework CSS kan kita"
+    },
+    {
+      "start": 284.15999999999997,
+      "end": 290.83,
+      "text": "tetap mesti tahu cara kerjanya biar bisa pakai e apa entar kita bingung juga Pak kita sekarang kita kemarin bingung nih"
+    },
+    {
+      "start": 290.84000000000003,
+      "end": 300.15,
+      "text": "pas lihat yang vanila nanti Misalnya diadopsi sama ya kita bingung juga jadi ya sebaiknya bingungnya diseles dulu"
+    },
+    {
+      "start": 300.16,
+      "end": 311.909,
+      "text": "sekarang dengan yang vanil hal yang bagus juga kalau kita enggak terlalu bergantung kepada Framework misalkan nih butuh apa ya Eh animation eh animation"
+    },
+    {
+      "start": 311.919,
+      "end": 321.79,
+      "text": "sederhana gitu animasi sederhana kayak out karena CSS pun udah bisa animasi gak perlu harus wahal eh apa greenock kah"
+    },
+    {
+      "start": 321.8,
+      "end": 332.909,
+      "text": "library JS gitu ya atau Ewin sudah menyediakan Open sudah menyediakan kalau kita tahu vanilanya kalau hanya butuh satu atau dua suara"
+    },
+    {
+      "start": 332.919,
+      "end": 343.83,
+      "text": "volumenya mas Riza sama Eka naik turun enggak sih atau saya doang putus-putus Siapa yang putus-putus kayak mas Riza naik turun Pas lagi pas lagi"
+    },
+    {
+      "start": 343.84000000000003,
+      "end": 358.469,
+      "text": "ngomong naik turun ada kadang kuat kadang kadang eh mengecil gitu takutnya penonton Iya benar juga katnya jaringan"
+    },
+    {
+      "start": 358.479,
+      "end": 371.51,
+      "text": "deh itu enggak apa namanya kayak mungkin adaptif gitu adaptif adaptif sih enggak resolusinya diturunin dulu coba coba saya ganti"
+    },
+    {
+      "start": 371.52,
+      "end": 385.55,
+      "text": "audio ruce mic mic background noise-nya diunceck cobaudah Iya mungkin dari si itu Dar I settingannya si ini"
+    },
+    {
+      "start": 385.56,
+      "end": 398.51,
+      "text": "streamyardamy kalau Pak l kecil jadinya suaranya halo halo sekarang gimana nah bagus kecil tapi tapi tidak naik turun Nah lancar Heeh"
+    },
+    {
+      "start": 398.52,
+      "end": 409.71,
+      "text": "Iya Naikin aja volumein nah Berarti kayak itu Echo cancelation-nya si streim tuh kayak dia berusaha reduce noise-nya kaliik Iya"
+    },
+    {
+      "start": 409.72,
+      "end": 422.35,
+      "text": "kayak putus-putus sekarang gimana nah lebih lancar bagus cuma tinggal dinaikin aja volumenya volumenya naikin volumenya kurang volume Volume input ya audio I"
+    },
+    {
+      "start": 422.36,
+      "end": 435.869,
+      "text": "110% sudah 114% kurang kok enggak nggak rusik 130 enggak ngaruh k kayak enggak ngeruh deh kayak ada settingan mixer atau apa"
+    },
+    {
+      "start": 435.879,
+      "end": 448.469,
+      "text": "mungkin segini Segini nah cukup sudah Iya lebih enak oke oke Wah masih kurang atau cukup cukup cukup ya oke i i jadi"
+    },
+    {
+      "start": 448.479,
+      "end": 457.909,
+      "text": "eeak banyak fitur-fitur yang mungkin kita enggak tahu dan bahkan CSS pun sekarang sudah apakah sudah bisa dikategorikan sebagai bahasa pemorgaman"
+    },
+    {
+      "start": 457.919,
+      "end": 466.749,
+      "text": "karena Nah itu debat sepanjang masa iya sudah ada trigonometri sudah ada kondisal kan eh media query dan"
+    },
+    {
+      "start": 466.759,
+      "end": 473.629,
+      "text": "query-query lainnya yang bakal kita lihat itu kan kondisional kond sudah ada kondisional lain media query ya Iya"
+    },
+    {
+      "start": 473.639,
+      "end": 483.51,
+      "text": "media kan if screen size bla bla bla nah terus variabel Ah ada nah l nesting nesting juga sudah bisa Heeh betul nah"
+    },
+    {
+      "start": 483.52,
+      "end": 494.149,
+      "text": "Oleh karena itu Mari kita bingung bersama Iya bingung sendiri itu enggak enak jadi bingung bareng-bareng kita ngajak-ajak kalian bingung sebenarnya"
+    },
+    {
+      "start": 494.159,
+      "end": 506.55,
+      "text": "oke nah kemarin tu kita sudah bahas tiga kotak pertama ya Dar arkitectural foundation tipografi sama warna nah malam hari warnanya pun di"
+    },
+    {
+      "start": 506.56,
+      "end": 515.509,
+      "text": "speedrun karena kita udah pernah sebetulnya Kian kita sudah pernah bahas di episode entah Episode berapa tapi pernah berapa ada yang ngomongin warna"
+    },
+    {
+      "start": 515.519,
+      "end": 523.949,
+      "text": "tuh awal-awal ya yang ingat banget tuh Rebecca Purple cerita tentang Rebecca Iya heeh he cerita sedih campur kocak"
+    },
+    {
+      "start": 523.9590000000001,
+      "end": 532.829,
+      "text": "tadinya kocak tahunya sedih tapi ada ininya ada selanjutnya yang kita khusus membahas warna yang komplit ada ya iya"
+    },
+    {
+      "start": 532.8389999999999,
+      "end": 549.389,
+      "text": "ya itu yang HCL HCL hsl okes sama saat bingung bersama juga saat itu okr KPI itu Kerjaan kantor Maaf ya"
+    },
+    {
+      "start": 549.399,
+      "end": 557.35,
+      "text": "salah iya jadi kita terakhir sampai di sini di bagian color nah Malam ini kita akan masuk ke responsive design"
+    },
+    {
+      "start": 557.36,
+      "end": 566.31,
+      "text": "responsive design yang paling seru kalau responsive design ini kayaknya eh sempat dicover juga di Dev kemarin ya sama Pak"
+    },
+    {
+      "start": 566.32,
+      "end": 575.99,
+      "text": "Dika ya Kalau enggak salah ya ngomongin Oh iya iya ya betul jadi yang masuk kategori responsive desain yang pertama adalah S"
+    },
+    {
+      "start": 576,
+      "end": 587.63,
+      "text": "container query ini juga salah satu topik bersejarah karena ee inisiasi I yang pertama bikin kita ngobrolin web"
+    },
+    {
+      "start": 587.64,
+      "end": 599.389,
+      "text": "literally bertiga Iya kita ngumul bertiga terus ketemu eh apa yang baru nih kontainer query kontainer query berul ya tiap minggu gitu Ken kita"
+    },
+    {
+      "start": 599.399,
+      "end": 607.19,
+      "text": "ketemu dan kontener query itu baru 1 hari jadi H plus one gitu H plus one eh kita langsung bahas kontener query"
+    },
+    {
+      "start": 607.2,
+      "end": 614.19,
+      "text": "bersama H dan ternyata Langsung nyambung dari sebelumnya kita kan jarang ketemu juga ya jarang ketemu yang bertiga"
+    },
+    {
+      "start": 614.2,
+      "end": 623.269,
+      "text": "kalaupun ketemu ya kayak basabasilah say ha engak k Emang pernah ketemu bertiga langsung Oh iya di itu ya di acaranya"
+    },
+    {
+      "start": 623.279,
+      "end": 632.31,
+      "text": "web UNC bukan oh iya we UN Iya betul I basa-basi doang nah cuma ternyata ngobrolin web ini kontainer query dan"
+    },
+    {
+      "start": 632.32,
+      "end": 642.23,
+      "text": "ternyata semua browser eh semua browser Major sudah support Ya sudah sudah keajaiban alam eh media query eh"
+    },
+    {
+      "start": 642.24,
+      "end": 654.949,
+      "text": "Sebelumnya kan kita baru punya media query hanya berdasarkan size ire si Iya sekarang berdasarkan kontainernya ukuran kontainer atau elemen yang berada enggak"
+    },
+    {
+      "start": 654.9590000000001,
+      "end": 663.71,
+      "text": "harus immediate parent pokoknya Eh tapi ya harus eh harus enggak sih kayaknya harus gak gak harused parent tapi sesuai"
+    },
+    {
+      "start": 663.72,
+      "end": 672.35,
+      "text": "harus ini ya berarti ya kata kuncinya ya Nah kenapa tuh ada udah ada media query Tapi kenapa harus ada perlu ada lagi"
+    },
+    {
+      "start": 672.36,
+      "end": 687.629,
+      "text": "kontainer query itu karena ya kembali lagi karena layout sekarang kan makin Kompleks ya makin kompleks dan belum tentu e ukuran screen"
+    },
+    {
+      "start": 687.639,
+      "end": 695.31,
+      "text": "size kalau kita misalnya Mik in e blok ya blok blok blok dan ada satu blok misalnya sideb sideb itu hanya bisa"
+    },
+    {
+      "start": 695.32,
+      "end": 704.99,
+      "text": "mungkin e elemen yang dalam sidebar itu ukuran ukuran elemennya kan tergantung sama parentnya yaitu sidebnya kan Tapi"
+    },
+    {
+      "start": 705,
+      "end": 714.47,
+      "text": "kalau misalnya screennya naik turun kan misalnya saat screennya mengecil tentu side barnya turun dan mungkin bentuk ukuran side barnya membesar sedangkan"
+    },
+    {
+      "start": 714.48,
+      "end": 725.629,
+      "text": "ukuran viewpnya mengecil Nah kalau kita menggunakan k kita enggak perlu repot lagi gitu Jadi hanya tidak peduli viewpnya berapa kita"
+    },
+    {
+      "start": 725.639,
+      "end": 739.03,
+      "text": "hanya peduli dengan kontainer parentnya berapa jadi lebih mempermudah hidup si front end lebih fleksib Heeh Enggak banyak apa properti-properti atau kan eh"
+    },
+    {
+      "start": 739.04,
+      "end": 746.47,
+      "text": "Jadi kan sebetulnya prinsip responsif Itu kan mungkin Eh kalau sekilas orang suka salah paham ya responsif cuma Apa"
+    },
+    {
+      "start": 746.48,
+      "end": 753.59,
+      "text": "dikira ukuran viewport aja tapi kan responsif itu banyak termasuk ya Eh misalnya di luar ini ada light mode Dark"
+    },
+    {
+      "start": 753.6,
+      "end": 763.069,
+      "text": "mode ada orientation ngadap mana Nah termasuk eh bukan viewport tapi kontainernya jadi ya kayak contoh sidebar tadi bisa aja apa dibukanya di"
+    },
+    {
+      "start": 763.079,
+      "end": 771.43,
+      "text": "iMac atau apalah yang besar banget tapi eh suatu komponen itu munculnya di sidebar Nah kan enggak lucu kalau"
+    },
+    {
+      "start": 771.44,
+      "end": 781.91,
+      "text": "ditampilinnya besar banget karena yang perlu menyesuaikan ke parentnya yaitu si sidebar yang kecil itu Jadi sebetulnya sih kelanjutan dari prinsip responsif"
+    },
+    {
+      "start": 781.92,
+      "end": 789.15,
+      "text": "ini berguna banget buat Kalau kayak wujud ya ini contohnya di video ini kalau pakai media query setengah mati"
+    },
+    {
+      "start": 789.16,
+      "end": 797.949,
+      "text": "wiinnya banyak banget ini kondisionalnya to be honest kalau enggak pakai container query maksudnya kalau enggak pakai container"
+    },
+    {
+      "start": 797.959,
+      "end": 805.79,
+      "text": "query Oh Pak Med dia kalalin pakai javascript bisa aja kita apa Calculate kan harus query selector dokumen query"
+    },
+    {
+      "start": 805.8,
+      "end": 814.79,
+      "text": "selector ambil wi-nya baru di di kalkulasi diassign kuas Mana yang mau dipakai pakai pakai ini namanya apa"
+    },
+    {
+      "start": 814.8,
+      "end": 832.35,
+      "text": "namanya ada eh ada helper toolnya ya resver apa e eh Res reserver apa istilahnya apa tuh jadi kontainer ini kalau untuk"
+    },
+    {
+      "start": 832.36,
+      "end": 844.629,
+      "text": "ehverserver reses observer Iya observer nah oh js-nya iya i eh ininya api-nya Res ap I api Iya jadi harus ee apa"
+    },
+    {
+      "start": 844.639,
+      "end": 854.47,
+      "text": "namanya kayak ngecek kalau misalnya orientation Berubah kan pakai resess observer H kalau reak tuh ada hooknya malah"
+    },
+    {
+      "start": 854.48,
+      "end": 869.35,
+      "text": "sampai kok gua ma jadi resolver resolver Cris observer ya ada rnya ada vernya iya nah kalau pakai"
+    },
+    {
+      "start": 869.36,
+      "end": 875.71,
+      "text": "tinggal buat pakai add container seperti itu dan semua browser sudah support sudah masuk baseline si belum Ini add"
+    },
+    {
+      "start": 875.72,
+      "end": 883.79,
+      "text": "container masuk Basel Ya enggak tahu dua versi terakhir atau belum Yang ini ya berarti ya Yang Iya"
+    },
+    {
+      "start": 883.8,
+      "end": 893.55,
+      "text": "heeh coba zoom in zoom in Oh yang di zooom in ininya bukan apa namanya mana dia harus diklik dulu berarti di atas"
+    },
+    {
+      "start": 893.56,
+      "end": 907.31,
+      "text": "atas n select dulu ini ya Heeh coba Zoom Zoom enggak bisa Oh gak bisaom itunya e apa yang besar"
+    },
+    {
+      "start": 907.32,
+      "end": 924.03,
+      "text": "Arnya gak ngaruhnya nihennya kita klik aja coba ini dizoom ini diclose bisa gaknya diose itunya JS javascriptnya aja diiz ke"
+    },
+    {
+      "start": 924.04,
+      "end": 936.749,
+      "text": "kanan nahudah ini ya ya iya ya itu kalau kontainernya lebih besar kontainernya lebih besar atau sama dengan 400 wait wait wait wait bacanya"
+    },
+    {
+      "start": 936.759,
+      "end": 949.23,
+      "text": "dari atas dulu defaultnya gak nak benar yang tadi yang tadi yang tadi bawahit defaultnya Which is mobile ya"
+    },
+    {
+      "start": 949.24,
+      "end": 963.749,
+      "text": "mobilenya begitu begitu mulai naik dari 400 Which is kenanya ke tablet ya kena itu terus di atas 600 kenanya yang"
+    },
+    {
+      "start": 963.759,
+      "end": 971.91,
+      "text": "bawah lagi Hm Oke berarti mirip-mirip ktainer query juga cuman ini bukan media query mirip media mirip-mirip media"
+    },
+    {
+      "start": 971.92,
+      "end": 982.509,
+      "text": "query tapi Eh kalau media query berdasarkan ukuran layar atau ukuran browser dia viewport kalau ini berdasarkan Eh"
+    },
+    {
+      "start": 982.519,
+      "end": 995.629,
+      "text": "parentnyaent ada kan biasanya kalau dari Sas itu kan MQ MQ E ini kan sor yang dia e apa namanya packageennya untuk"
+    },
+    {
+      "start": 995.639,
+      "end": 1010.91,
+      "text": "eh mixingnya namanya MQ jadi sampaial mix custom mixnya Iya MQ itu ada ada packagenya jadi sudahfine itu biasanya dari dokumentasi awal sudah"
+    },
+    {
+      "start": 1010.92,
+      "end": 1025.069,
+      "text": "define Oke target kita untuk e biasanya small Iya sudah ditargetkan UN medium terus kemudian tablet segala macam sudah"
+    },
+    {
+      "start": 1025.079,
+      "end": 1034.789,
+      "text": "sudah ada break pos Nah sudah ada break posnya jadi E itu targetnya media media query sedangkan Nanti kalau sudah pakai"
+    },
+    {
+      "start": 1034.799,
+      "end": 1046.309,
+      "text": "ktainer query sudah berkurang eh penggunaan media query karena kita bisa langsung targetkan eh ktainernya oke nah gimana kalau enggak support"
+    },
+    {
+      "start": 1046.319,
+      "end": 1058.59,
+      "text": "Browser yang enggak support eh itu untungnya Maksudnya semua teknologi web platform itu dibikin eh nonbreaking jadi ya kalau browsernya enggak support eh ya"
+    },
+    {
+      "start": 1058.6,
+      "end": 1065.71,
+      "text": "Apa style style yang diapply ya yang di atas itu yang gre auto auto auto Iya heeh gitu doang Maksudnya enggak akan"
+    },
+    {
+      "start": 1065.72,
+      "end": 1076.99,
+      "text": "rusak cuma ya apa tampilannya Al kadernya lah enggak error kecuali H waktu itu bikin eror H bikin error di"
+    },
+    {
+      "start": 1077,
+      "end": 1090.83,
+      "text": "di Firefox ya nanti kita bahas sebelumnya sebelumnya sekarang sekarang sudah stabil sekarang sudah stabil sebelumnya I Oh itu berarti ya"
+    },
+    {
+      "start": 1090.84,
+      "end": 1102.35,
+      "text": "bukan nah udah ada pluginnya juga l ini Coba buka dari Link jadi ini makanya t Tadi bahas apa bahas SS library Jadi"
+    },
+    {
+      "start": 1102.36,
+      "end": 1110.47,
+      "text": "kita tetap perlu tahu yang baru-baru kayak gini biar kalau to kita pakaibrary atau frame eh dan ada pluginnya nah"
+    },
+    {
+      "start": 1110.48,
+      "end": 1114.59,
+      "text": "kalau kita enggak tahu tadi tentang container query dan ggak tahu Cara pakainya kita enggak bakal pakai ini"
+    },
+    {
+      "start": 1114.6,
+      "end": 1123.19,
+      "text": "juga kan ini apa ber ada enggak Twin Twin layer Ada enggak sih ini plugin ya belum k plugin ya terpati pluginnya"
+    },
+    {
+      "start": 1123.2,
+      "end": 1134.35,
+      "text": "Enggak enggak Dar Iya e maksudnya plugin tambahan bukan terparti sor plugin tambahan kita kalau misalkan kita instal pertama kali"
+    },
+    {
+      "start": 1134.36,
+      "end": 1145.909,
+      "text": "kan dia enggak ada kanak ada biasanya biasanya jadi kalauudah ituudah sekitar du versi terakhir bakal di Jadi ceritanya"
+    },
+    {
+      "start": 1145.919,
+      "end": 1154.71,
+      "text": "ceritanya begini caranya biasanya Project open source saya enggak tahu soal Twin tetapi Project open source seperti di WordPress"
+    },
+    {
+      "start": 1154.72,
+      "end": 1165.51,
+      "text": "contohnya kalau misalnya ada suatu fitur dan itu bakal featureature fitur yang e akan masuk ke Core sebelum masuk ke"
+    },
+    {
+      "start": 1165.52,
+      "end": 1177.029,
+      "text": "Core dibikin plugin dulu saya lihat caranya ini sebelum dia sebelum dia stabil dia bikin dia dibuat sebagai plugin dulu yang bisa orang"
+    },
+    {
+      "start": 1177.039,
+      "end": 1186.909,
+      "text": "bebas OP in atau op nah suatu saat perkembangan rilis selanjutnya dia bakal Mer ke cornya nanti ya ke depannya gak"
+    },
+    {
+      "start": 1186.919,
+      "end": 1195.99,
+      "text": "perlu Instal lagi Jadi sebenarnya awalnya semuanya yang las las las ini yang untuk eksperimental dibuat sebagai plugin terlebih"
+    },
+    {
+      "start": 1196,
+      "end": 1205.07,
+      "text": "dahuluah kalautoh kasus contoh kasus yang kayak gitu itu dulu aspek rasio kan di CSS ada aspek rasio ya dulu banget"
+    },
+    {
+      "start": 1205.08,
+      "end": 1223.07,
+      "text": "itu detail berupa plugin ya plugin official setelah apa setelah ST setelah ST saat sekarang aspek rasionyaudah masuk yang jadi emang caranya Ang betul"
+    },
+    {
+      "start": 1223.08,
+      "end": 1233.669,
+      "text": "begituuu terak mungkin ya pemakaiannya basic ya jadi engak perlu Plin macam-macam tapi tetap aja ada NPM package sebenarnya Mas"
+    },
+    {
+      "start": 1233.679,
+      "end": 1242.35,
+      "text": "tetap aja NPM package makud Heeh Ya paling mungkin pakai pakai telwin yang lain yang enggak engakak enggak ngeh"
+    },
+    {
+      "start": 1242.36,
+      "end": 1254.549,
+      "text": "gitu enggak ngak benar benar benar misalkan pakai biasanya langsung loncat ke itu ke UI library Des UI atau pakai apa E flow bit"
+    },
+    {
+      "start": 1254.559,
+      "end": 1266.11,
+      "text": "gitu-gitu tapi enggak tahu di dalamnya dia pakai plugin e t sendiri atau enggak gitu e nah tuh Scroll ke bawah ada contohnya"
+    },
+    {
+      "start": 1266.12,
+      "end": 1274.51,
+      "text": "Ini ya nah jadi sebetulnya ya itu eh di awal kita juga Ah bilang enggak wajib wnya jangan sampai bergantung ke beginian"
+    },
+    {
+      "start": 1274.52,
+      "end": 1282.149,
+      "text": "tapi misalnya kita apa praktiknya ya tim kita semua udah pakai tawin terus kita pengin Cepatlah e tinggal nulis kelas"
+    },
+    {
+      "start": 1282.159,
+      "end": 1289.75,
+      "text": "name ya bisa dipakai juga yang penting kan kita tahu cara kerjanya enggak tiba-tiba bingung apaan nih ada add add"
+    },
+    {
+      "start": 1289.76,
+      "end": 1300.269,
+      "text": "container dalamnya ada add large eh tik2 underl berarti eh yang at large ini akan mengikuti ukuran si kontainer ini"
+    },
+    {
+      "start": 1300.279,
+      "end": 1309.83,
+      "text": "seberapa besar atau seberapa kecil G bukan jika kontainernya large eh maka di isi si di yang Heeh di yang CH itu akan"
+    },
+    {
+      "start": 1309.84,
+      "end": 1315.909,
+      "text": "dikasih garis bawah Tuh kan ada keterangannya tuh when the container is larger than bla bla bla nah lar"
+    },
+    {
+      "start": 1315.919,
+      "end": 1325.789,
+      "text": "small-nya breakpnya itu pakai breakp tailwin Bawan tailwin atau yang bisa kita custom juga LG bisa dicom bisa"
+    },
+    {
+      "start": 1325.799,
+      "end": 1336.83,
+      "text": "dicustom tuh ada tulisnya tuh by default we provide container sizes dari XL sampai 7 XL Oke menarik menarik nah terus"
+    },
+    {
+      "start": 1336.84,
+      "end": 1343.87,
+      "text": "bawahnya tuh kan tadi kita bahas harus immediate parent atau enggak harus makudnya Harus apa ini elemen harus yang"
+    },
+    {
+      "start": 1343.88,
+      "end": 1350.31,
+      "text": "mau disyle harus langsung di dalamnya atau enggak Nah kalau tadi kan by default kita enggak perlu kasih nama"
+    },
+    {
+      "start": 1350.32,
+      "end": 1357.23,
+      "text": "karena apa langsung parent dan child-nya itu langsung tapi kalau misalnya mau ada lengkap satu misalnya lengkap lebih dari"
+    },
+    {
+      "start": 1357.24,
+      "end": 1368.149,
+      "text": "satu gitu enggak immediate parent Child harus dikasih nama Nah itu bisa kita kasih nama seperti itu snxsnya"
+    },
+    {
+      "start": 1368.159,
+      "end": 1382.07,
+      "text": "oke Bisa arbitrary container size lama-lama saya jadi pengikut aliran t ini emang sekarang belum sekarang tergantung Project saya"
+    },
+    {
+      "start": 1382.08,
+      "end": 1394.11,
+      "text": "enggak punya enggak punya preferensi oke Ya kan yang penting ngerti cara kerjanya justifikasi gitu justifikasi loh benar kan misalnya suatu saat"
+    },
+    {
+      "start": 1394.12,
+      "end": 1401.35,
+      "text": "tiba-tiba enggak boleh pakai telwin Ya udah enggak masalah ya aja biasa leh tepatnya lebih tepatnya karena di posisi"
+    },
+    {
+      "start": 1401.36,
+      "end": 1414.549,
+      "text": "saya sekarang kalau misalnya ada yang berat-berat soal ee soal penentuan atau arsitektur untuk front endnya saya panggil orang yang panggil orang yang"
+    },
+    {
+      "start": 1414.559,
+      "end": 1422.95,
+      "text": "ini panggil orang yang lebih jagolong dong I set up dong tinggal bilang sama PMnya Saya butuh orang itu"
+    },
+    {
+      "start": 1422.96,
+      "end": 1438.669,
+      "text": "diesourcing e seminggu untuk beresin ini tinggal gituin Iya kalaug [Tertawa] delegasi-degasiahbang saya ngerjain bisa"
+    },
+    {
+      "start": 1438.679,
+      "end": 1452.909,
+      "text": "sebulan kali Enggak kelar itu fungsinya teamwork tapi harus ngerti karena e minimal kan Setelah dia selesai atau"
+    },
+    {
+      "start": 1452.919,
+      "end": 1461.95,
+      "text": "siapapun Project kan tetap dimaintain Masa cuma update sedikit harus ganti orang kan gak ya Jadi tetap harus"
+    },
+    {
+      "start": 1461.96,
+      "end": 1469.029,
+      "text": "mengerti Lagian kalau kita gak ngerti ya gawat juga mau pakaiwin mau pakai vanila atau apa misalnya contoh yang tadi kalau"
+    },
+    {
+      "start": 1469.039,
+      "end": 1478.269,
+      "text": "child-nya di misalnya harus di Eh suruh dipindahin nah dipindahin tapi parent-nya enggak dipindahin yang yang ada apa class name container query-nya"
+    },
+    {
+      "start": 1478.279,
+      "end": 1489.31,
+      "text": "Ya udah berantakan semua kan Iya yes betul kita lanjut l lanjut style container query Oh masih container query"
+    },
+    {
+      "start": 1489.32,
+      "end": 1499.95,
+      "text": "juga ya Heeh cuma ini lebih kompleks dan beneran suka-suka chromium gitu eh apa vendor lain belum ngasih belum ngasih"
+    },
+    {
+      "start": 1499.96,
+      "end": 1513.389,
+      "text": "Oke sama sekali ya enggak tahu kalau suatu hari mereka tiba-tiba dapeting pencerahan ini tambah mirip bahasa pemrograman jadi yang di dalam itu style"
+    },
+    {
+      "start": 1513.399,
+      "end": 1523.269,
+      "text": "Apa metodnya style kan tuh itu kondisi berdasarkan CSS custom property atau yang kita sering tahunya CSS variab ya"
+    },
+    {
+      "start": 1523.279,
+      "end": 1532.83,
+      "text": "CSS variab atau CSS custom Property Heeh Gimana cara kerjanya ini jadi gini tuh eh contohnya Tuh add"
+    },
+    {
+      "start": 1532.84,
+      "end": 1543.149,
+      "text": "container sty kurung apa Dash Das rain.2 true nah style yang di dalam apa kontainer itu bakal diapply kalau target"
+    },
+    {
+      "start": 1543.159,
+      "end": 1553.789,
+      "text": "elemennya itu punya custom property Rain yang value-nya true t lah true ya entar juga ada contohnya [Musik]"
+    },
+    {
+      "start": 1553.799,
+      "end": 1567.31,
+      "text": "Nah coba kalau t tldr nya itu tadi mendeteksi keberadaan custom property di elemen yang ditargetkan ini yang ke efek yang ini"
+    },
+    {
+      "start": 1567.32,
+      "end": 1577.99,
+      "text": "yang R Heeh jadi eh apa lihat html-nya deh yang di kiriah Li list item Yang Pertama eh"
+    },
+    {
+      "start": 1578,
+      "end": 1590.95,
+      "text": "class card container style sama dengan atas atas up up up Oh iniah Kan ada styennya R tik"
+    },
+    {
+      "start": 1590.96,
+      "end": 1608.99,
+      "text": "eer keatnya itu jugatainer semua tapi yang style ada custom property R Nah jadi gak dipply kan Coba deh Gak cuma eh engak Tapi oh"
+    },
+    {
+      "start": 1609,
+      "end": 1628.149,
+      "text": "gak bisa ya harus [Musik] Ex yang punya anak pasti tahu yang punya anak pasti tahu jok bapak-bapak"
+    },
+    {
+      "start": 1628.159,
+      "end": 1641.549,
+      "text": "Oke berarti Wah semakin Kompleks ya he ya kayak pemrograman ya kan Iya benar Oh ini jadi satu blok sendiri di dalamnya ada eh"
+    },
+    {
+      "start": 1641.559,
+      "end": 1648.31,
+      "text": "enggak ya Iya kan Benar kan satu blok sendiri ya Iya query kan kontainer query kontainer query tapi kan kita tetap"
+    },
+    {
+      "start": 1648.32,
+      "end": 1659.149,
+      "text": "harus mentargetkan suatu selecttor tertentu kan Nah di sini selecttornya weather C kalau tanpa style Bisa enggak kalau tanpa Ini apa bagaimana cara"
+    },
+    {
+      "start": 1659.159,
+      "end": 1667.35,
+      "text": "membuat Ya dikasih id atau apa misalnya tuh yang perama dikasih kas Ya dikasih kas name ya CL name class name-nya C eh"
+    },
+    {
+      "start": 1667.36,
+      "end": 1680.83,
+      "text": "atau card dasd Rain nah cuma itu mah sama aja Iya Jadi ada kondisi ee apa kita nambahin pakai javascript gitu kali"
+    },
+    {
+      "start": 1680.84,
+      "end": 1688.43,
+      "text": "kalau misalkan datanya Rin pakai pakai kassas kan bisa juga sebenarnya cuman He Oh Kenapa butuh container style gitu ya"
+    },
+    {
+      "start": 1688.44,
+      "end": 1704.87,
+      "text": "E Jadi sebenarnya lebih mempersimpel aja ya Iya samaersimpal dari mananya ini malah ribet Kak apa mempersimpal html-nya tapi kompleksitasnya di CSS"
+    },
+    {
+      "start": 1704.88,
+      "end": 1715.549,
+      "text": "atau gimana lebih tepat itu Jadi mempersimp mempersimple kalau anggap aja ini si ktainer style ini sudah satu satu"
+    },
+    {
+      "start": 1715.559,
+      "end": 1724.07,
+      "text": "mixin sendiri satu blok yang unit ya satu unit gitu dan untuk mentargetkannya itu hanya kayak ngasih style apa gitu"
+    },
+    {
+      "start": 1724.08,
+      "end": 1732.07,
+      "text": "misalnya E Das makudnya ini kan contohnya Rain E dan ini custom property kan sebenarnya kan jadi apapun custom"
+    },
+    {
+      "start": 1732.08,
+      "end": 1744.19,
+      "text": "propertynya bisa e anggap aja custom property D atau custom Property like atau dan mungkin accessibility juga custom property untuk accessibility juga"
+    },
+    {
+      "start": 1744.2,
+      "end": 1753.509,
+      "text": "bisa ditargetkan kan Atau mungkin kita udah pakai custom propertynya untuk hal lain mungkin misalnya data visualization apalah kan"
+    },
+    {
+      "start": 1753.519,
+      "end": 1761.11,
+      "text": "banyak tuh misalnya bar chart atau apa Eh value-vue-nya ya Sekarang kan udah mulai banyak yang pakai eh apa custom"
+    },
+    {
+      "start": 1761.12,
+      "end": 1770.789,
+      "text": "properti Nah itu kan kayak mumpung itu udah ada nah bisa lebih jauh lagi di adjust stylingnya Eh pakai CSS dengan"
+    },
+    {
+      "start": 1770.799,
+      "end": 1779.87,
+      "text": "mentargetkan si custom property itu Oh tapi ya jangan senang dulu karena eh browser selain premium masih belum I ini"
+    },
+    {
+      "start": 1779.88,
+      "end": 1787.95,
+      "text": "Kayaknya masih ini ya masih belum ya masih belum di tapi ya masih ada kans ke depannya ya mungkin bisa enggak tahu"
+    },
+    {
+      "start": 1787.96,
+      "end": 1801.71,
+      "text": "2024 2025 2026 ini ini status baselinenya masih Orange ya kuning Heeh belum hijau Eh tadi Kalau yang si apa container query"
+    },
+    {
+      "start": 1801.72,
+      "end": 1813.389,
+      "text": "size eh itunya apa hijau eh biruor biru Wah udah centang itu maksudnya Berarti udah support du versi terakhir apa ya udah"
+    },
+    {
+      "start": 1813.399,
+      "end": 1821.59,
+      "text": "udah stabil lah ya udah bisa siap Sudah Basel sudah baseline Oh udah hampir 1 tahun umurnya tuh tuh ada di paragraf"
+    },
+    {
+      "start": 1821.6,
+      "end": 1832.19,
+      "text": "pertama container queries menjadi stabil di seluruh browser di Valentine day di itu kan 2023 berarti 2024 besok nih"
+    },
+    {
+      "start": 1832.2,
+      "end": 1845.75,
+      "text": "setahun gila ya sudah setahun cuma masih banyak yang belum tahu betul ini baru style dengan eh custom properti Nah kalau kita mau"
+    },
+    {
+      "start": 1845.76,
+      "end": 1854.75,
+      "text": "main kondisi bisa kayak gini juga Nah benar jadi bahasa pemrograman ya in future versions belum Sekarang belum Oh"
+    },
+    {
+      "start": 1854.76,
+      "end": 1862.669,
+      "text": "belum Ya nantinya ya ke depannya ya nah cuma itu makanya kelihatannya bakal ke arah data visualization gitu sih Kan"
+    },
+    {
+      "start": 1862.679,
+      "end": 1872.23,
+      "text": "yang ada angka biasanya yang ada valuevue angka eh chart chartan atau apalah dashboard dashboard widget widget gitu"
+    },
+    {
+      "start": 1872.24,
+      "end": 1881.269,
+      "text": "Paling I benar benar benar kalau angkanya tinggi jadi hijau atau apalah jadi merah Oh iya i sense dan lain-lain"
+    },
+    {
+      "start": 1881.279,
+      "end": 1892.59,
+      "text": "Ya lanjut H nah ini yang salah sat diomongin e udah udah support juga udah biru berarti sudahudah"
+    },
+    {
+      "start": 1892.6,
+      "end": 1904.07,
+      "text": "aman y k eh ini apa eh problem yang mau di ini dulu saya eh apa namanya pernah biasa ya"
+    },
+    {
+      "start": 1904.08,
+      "end": 1912.669,
+      "text": "pengetahuan seorang yang non ahli CSS gimana sih Saya mau ng-estyle parent tetapi berdasarkan value yang ada di"
+    },
+    {
+      "start": 1912.679,
+      "end": 1921.47,
+      "text": "child-nya tu gimana gitu gimana Enggak susah gitu Saya mau ngerubah Child eh saya ngerubah karena di di CH"
+    },
+    {
+      "start": 1921.48,
+      "end": 1932.269,
+      "text": "elementennya itu e apa namanya ada value anggap ya Eh border ya border itu bordernya itu nempel di parent di"
+    },
+    {
+      "start": 1932.279,
+      "end": 1945.23,
+      "text": "container parent tetapi di ee bordernya itu merah kalau sebenarnya nilai saya di dalam itu error atau invalid eror atau ya itu"
+    },
+    {
+      "start": 1945.24,
+      "end": 1956.31,
+      "text": "gimana caranya akhirnya ya harus pakai server rendering yang dikasih Kalau value-nya rendah saya tambahkan di templatingnya ya Iya error"
+    },
+    {
+      "start": 1956.32,
+      "end": 1966.789,
+      "text": "class Kalau sekarang enggak perlu Jadi kalau misalnya di dalam e di dalam elemen itu ada error message otomatis"
+    },
+    {
+      "start": 1966.799,
+      "end": 1977.71,
+      "text": "parentnya menjadi warna backgroundnya warna merah contohnya itu bisa Jadi kalau cardnya punya error message jadi merah kalau kalau di sini contohnya"
+    },
+    {
+      "start": 1977.72,
+      "end": 1988.909,
+      "text": "kalau cardnya punya image jadi Purple Heeh Nah jadi ini selecttor yang ibaratnya ngelawan kadrat lah ngawan kadrat CSS kan jadi kan CSS itu kan"
+    },
+    {
+      "start": 1988.919,
+      "end": 1995.75,
+      "text": "diproses sama layout engine pakai CSS object model Ya semua kan dibaca dari atas ke bawah makanya alasannya dari"
+    },
+    {
+      "start": 1995.76,
+      "end": 2004.99,
+      "text": "kalau CSS lama sebelum has parent bisa ng-estyle child-nya terus sibling apa yang eh apa elemen yang setara sibling"
+    },
+    {
+      "start": 2005,
+      "end": 2013.07,
+      "text": "kayak kakak gitu yang muncul pertama bisa eh ng-estyle eh selecttor eh elemen setelahnya bisa ng-estyling adiknya Tapi"
+    },
+    {
+      "start": 2013.08,
+      "end": 2021.75,
+      "text": "dibalik enggak bisa anak enggak bisa ngestyle orang tua Terus apa sibling Elements adik enggak bisa ngestyle kakaknya atau yang berada di atasnya"
+    },
+    {
+      "start": 2021.76,
+      "end": 2032.11,
+      "text": "dulu sebelum H nah H ini ya memungkinkan eh itu tadi kebalik titik dua H ini apa Istilahnya"
+    },
+    {
+      "start": 2032.12,
+      "end": 2044.35,
+      "text": "ya kalau Shadow elemen kan pakai n kayaknya strtur doang deh ada istilahnya engak sih iya kalau Sud basanya yang dua"
+    },
+    {
+      "start": 2044.36,
+      "end": 2055.23,
+      "text": "kan kalau seperti sama kayak Child juga kan Child juga sama kan caranya Oh iya nth Child ya i ya"
+    },
+    {
+      "start": 2055.24,
+      "end": 2067.389,
+      "text": "Heeh Jadi kalau ini Ini bacanya gimana kita kena kita kena spamentar basmi basmi spam dulu kena spam oh"
+    },
+    {
+      "start": 2067.399,
+      "end": 2083.069,
+      "text": "f f jualan kpto udah ada yang spam Heeh naik level kita sudah ada yang spam sunb sunbardbnya dimatiin gara-gara tadi"
+    },
+    {
+      "start": 2083.079,
+      "end": 2099.31,
+      "text": "trouble mic Kayaknya ada pengaruh di situ bisa diband kalau diband Tuh hilang ya kayaknya baru pernah ya kita biarin aja"
+    },
+    {
+      "start": 2099.32,
+      "end": 2110.47,
+      "text": "ya biarin Hah bangga diband lah pengin pengin lihat Oh diband 70 episode baru pernah Kena apa spam spamot sekarang wah"
+    },
+    {
+      "start": 2110.48,
+      "end": 2125.15,
+      "text": "71 malah semua ye pencapaian ya oke nah Ini bacanya gimana nih ee Ini card kan iya terus kalau card Punya card"
+    },
+    {
+      "start": 2125.16,
+      "end": 2134.15,
+      "text": "media yang atas kan enggak di dalamnyaard ada kard media Heeh yang atas kan enggak ada ya Mak maka dia akan"
+    },
+    {
+      "start": 2134.16,
+      "end": 2143.829,
+      "text": "menjadi colornya 6300 FF ini yang adalah Ungu ya Coba bikin aja dbk Purple gitu Oh iya sama aja"
+    },
+    {
+      "start": 2143.839,
+      "end": 2155.91,
+      "text": "Ungu beres beres apa sih jadi warna apa hijau hijau oh oh iya jadi dia akan mencari card"
+    },
+    {
+      "start": 2155.92,
+      "end": 2165.39,
+      "text": "media ya kard medianya yang ini Oh ya luah aja card media itu jadi card medias gitu tambah s"
+    },
+    {
+      "start": 2165.4,
+      "end": 2175.39,
+      "text": "Nah jadi tap warnanya sama Kena enggak kena ya oh oke dia carinya berarti berdasarkan Oh bisa apa aja kan kalau"
+    },
+    {
+      "start": 2175.4,
+      "end": 2184.27,
+      "text": "IMG Bisa kan Bisa bisa kayak selecttor dia kayak selektoror biasa Selor CSS dalamnya ya selecttor CSS jadi enggak"
+    },
+    {
+      "start": 2184.28,
+      "end": 2193.829,
+      "text": "mestis enggak mesti ini ya bisa class name ya bisa Apapun lah bisa ID name bisa elemen ya i ya oke oke oke"
+    },
+    {
+      "start": 2193.839,
+      "end": 2203.95,
+      "text": "Bisa pakai itu juga misalnya mau bikin kayak eh selecttor yang contohnya do media tapi langsung Pana apa gitu bisa"
+    },
+    {
+      "start": 2203.96,
+      "end": 2216.19,
+      "text": "spesifik juga kok H ee ya bisa spesifik bisa intinya CSnya selecttor dalam itu sebuah selecttor aja luar dalam luar dalam selecttor"
+    },
+    {
+      "start": 2216.2,
+      "end": 2226.829,
+      "text": "semua ini ada pertanyaan dan bisa dibuat dan bisa dibuat has not juga dibuat kebalikannya has not Oh"
+    },
+    {
+      "start": 2226.839,
+      "end": 2237.79,
+      "text": "kalau tidak punya atau kalau tidak berisi bla bla bla kasih sty ini i bisa dibine ini ada pertanyaan dari yang"
+    },
+    {
+      "start": 2237.8,
+      "end": 2248.829,
+      "text": "namanya sama sama saya R bedanya selorwin sama yang dibahas sekarang apa gak ada bedanyawin C juga itu kan cuma class name jadi apa"
+    },
+    {
+      "start": 2248.839,
+      "end": 2262.43,
+      "text": "selecttor tailwin ya berupa class name misalnya apalah m myy-4 Nah tailwin itu menganut pendekatan Atomic utility CSS ya utility class"
+    },
+    {
+      "start": 2262.44,
+      "end": 2274.23,
+      "text": "first ya H jadi satu properti CSS koresponnya ke satu telwin Class name contoh tadi misalnya m m margin gitu m"
+    },
+    {
+      "start": 2274.24,
+      "end": 2286.23,
+      "text": "eh CSS property-nya margin terus dibuat abstraksinya dalam library tailwin berupa class name eh m-4 itu CSS biasanya margin"
+    },
+    {
+      "start": 2286.24,
+      "end": 2297.829,
+      "text": "ti21 Rem jadi ya Eh itu kayak abstraksi aja sih Isinya ya sama CSS biasa juga Iya ujung-ujungnya ke CSS"
+    },
+    {
+      "start": 2297.839,
+      "end": 2306.55,
+      "text": "juga tapi istilah selector diilwin juga sama sama istilah selecttor di CSS kan ya enggak ada beda sama kan itu Kel name"
+    },
+    {
+      "start": 2306.56,
+      "end": 2317.63,
+      "text": "aja kan CL name my4 atau m M4 dan lain-lain ini contoh-contohnya niat banget ya bikinnya ya Iya makanya bagus"
+    },
+    {
+      "start": 2317.64,
+      "end": 2329.19,
+      "text": "senang lihatnya kalau kita kayaknya ini bikin satuik Conto yang ngebikin satu halaman ini kayak kerja tim berapa hari gitu Iya"
+    },
+    {
+      "start": 2329.2,
+      "end": 2339.069,
+      "text": "iniang kerja dia itu ya Iya bikin Conto enak ya k sebulan sendiri untuk Bik satu halaman ini kayaknya ya ya terus lebih"
+    },
+    {
+      "start": 2339.079,
+      "end": 2348.91,
+      "text": "ke apa dapat ada ilustrasi-ilustrasinya iya ilustrasinya terus mikir apa ya kayak estetika warna gua pun yang front end yang sefront end"
+    },
+    {
+      "start": 2348.92,
+      "end": 2354.63,
+      "text": "front end-nya tetap aja bikin contoh merah hijau warnanya tabrak lari yang kan yang penting jelas makudnya eh yang"
+    },
+    {
+      "start": 2354.64,
+      "end": 2361.589,
+      "text": "ditunjukin apa biasanya malah makin jelek makin makin senang karena makin jelas kan nunjukin Oh kalau kayak gini e"
+    },
+    {
+      "start": 2361.599,
+      "end": 2370.43,
+      "text": "kalau case-nya begini jadi munculnya begini orang uiux-nya yang hm cek cek c tuh ada komen dari Mas Abdul"
+    },
+    {
+      "start": 2370.44,
+      "end": 2383.99,
+      "text": "Malik tuh kayak ngecek k Ius sudah dis-support banyak apa nih eh H ya Oh iya h iya ini apaagi le hover hover ini sudah"
+    },
+    {
+      "start": 2384,
+      "end": 2395.23,
+      "text": "lama ya ya itu selector Hah hover hover mah dari dulu Oh iya plusnya atau hovernya ini artinya Li elemen Li punya"
+    },
+    {
+      "start": 2395.24,
+      "end": 2405.27,
+      "text": "punya presidented bukan punya saudara saudara apa Iya punya Iya sibling setelahnya kan tambah itu e buat sibling yang di bawahnya bawa"
+    },
+    {
+      "start": 2405.28,
+      "end": 2413.75,
+      "text": "e sibling setelahnya lagi di hover Oh Nah makanya itu itu kayak dok Coba aja hover kan Coba hover salah satu ini kan"
+    },
+    {
+      "start": 2413.76,
+      "end": 2423.03,
+      "text": "ini kan Nah kan yang samping-sampingnya ikut di style kan iya iya oh iya agak besar sedikit nah selama ini kita kan"
+    },
+    {
+      "start": 2423.04,
+      "end": 2432.309,
+      "text": "gampang ngest yang kanannya yang kanannya ya itu tinggal selecttor apa tanda tambah aja nah ngestyle yang kirinya gimana dulu gak bisa kan kalau"
+    },
+    {
+      "start": 2432.319,
+      "end": 2450.109,
+      "text": "enggak pakai apa javascript sekarang bisa fish Oh itu namanya efek fish ya mikirnya efek apa do eh OS doos do"
+    },
+    {
+      "start": 2450.119,
+      "end": 2464.15,
+      "text": "Oke next update media kalau ini baru tahu baru lihat sekarang ini give you a way to add to refresh rate of device Oh ini gua"
+    },
+    {
+      "start": 2464.16,
+      "end": 2476.349,
+      "text": "gak tahagi belum pernah lihat dan tiba-tiba out of Nowhere semua browser sudahah support semua udah dukung apa sih ini engak pernah ada yang"
+    },
+    {
+      "start": 2476.359,
+      "end": 2488.71,
+      "text": "ngomongin ini juga sih Ya itu refresh rate jadi bisa smooth banget kalau handphone kita sudah atau device kita sudah mendukung"
+    },
+    {
+      "start": 2488.72,
+      "end": 2499.91,
+      "text": "e refresh rate yang tinggi bisa mungkin slow atau eh atau nan bahkan kalau e device kita low"
+    },
+    {
+      "start": 2499.92,
+      "end": 2507.109,
+      "text": "enggak bisa animasi Iya contohnya misalnya kita buka pakai e reader pakai kindle kindle itu kan yang pixel-pixel"
+    },
+    {
+      "start": 2507.119,
+      "end": 2521.829,
+      "text": "gitu kan ini He kalau slow gimana lebih rapat rapet ya kalau non Enggak bisa ya kalau non Enggak bisa Oh kalau slow E apa ya"
+    },
+    {
+      "start": 2521.839,
+      "end": 2529.55,
+      "text": "udah frame-nya lebih sedikit jadi frame-nya ya udah cuma e lihat kiri atau kanan Nah kalau fast kan bisa dibikin"
+    },
+    {
+      "start": 2529.56,
+      "end": 2542.79,
+      "text": "Heeh Gimana caranya Kok bisa sih ya kalau standar kan 60 60 FPS kan render render render render ya standar t pakai"
+    },
+    {
+      "start": 2542.8,
+      "end": 2553.309,
+      "text": "Oh bubelnya sih enggak usah perlu dihat karena kayaknya itu cuma buat ngatur ngatur ininya ngatur html-nya perlu wih ini keren"
+    },
+    {
+      "start": 2553.319,
+      "end": 2563.91,
+      "text": "html-nya svg doang weh itu pakai view Transition enggak ktainer qu container queries plus view Transition gila keren"
+    },
+    {
+      "start": 2563.92,
+      "end": 2572.95,
+      "text": "kita jadi lihat animasi di mana-mana layer demo support nih layer ini apa ayo nah yang kemarin itu"
+    },
+    {
+      "start": 2572.96,
+      "end": 2580.63,
+      "text": "kan ya kita enggak jawab juga sih kita bah kita belum tahu sampai saat ini masih bingung demo support mana dia"
+    },
+    {
+      "start": 2580.64,
+      "end": 2595.309,
+      "text": "media ini ya oh bukan bukan mana atas kayaknya deh atas Oh ini atas nah eh bukan itu scriptnya jangan enggak ada"
+    },
+    {
+      "start": 2595.319,
+      "end": 2607.95,
+      "text": "media querynya gak ada di sini ini Oh itu speed speednya dari mana tuh Coba ke atas deh vari E value speed speed sama"
+    },
+    {
+      "start": 2607.96,
+      "end": 2617.99,
+      "text": "dengan fast speed sama fast kan pilihan di sini Oh iya kalau kita pilih I Nah terus si ss-nya mana Iya mana apa jangan"
+    },
+    {
+      "start": 2618,
+      "end": 2635.069,
+      "text": "yang di html coba diintip enggak ada Jadi gimana nah masih misteri Iya dibuka dokumentasinya coba ke bawah learn more about media"
+    },
+    {
+      "start": 2635.079,
+      "end": 2649.109,
+      "text": "update zoom in ehah itu ada media querynya add media kok di demo tadi ini kan ada tadi"
+    },
+    {
+      "start": 2649.119,
+      "end": 2658.069,
+      "text": "kayaknya di demo ada ya ada tadi media Kita kirain media query padahal ya media query cuma update media"
+    },
+    {
+      "start": 2658.079,
+      "end": 2671.99,
+      "text": "media query untuk update bu bukan mana lagi iya ya Mana Iya mana Gimana sih ini demonya masih"
+    },
+    {
+      "start": 2672,
+      "end": 2689.15,
+      "text": "misteri satu doang lagi kalau di JS memang ada media dia Siapa tahu dia set media media engak ada enggak ada enggak"
+    },
+    {
+      "start": 2689.16,
+      "end": 2702.87,
+      "text": "ada Wah penipuan nih penipuan I pokoknya bentuknya kayak gitu Oh apa jangan-jangan yang ini enggak pakai sebelumnya begitu Gitu enggak ya"
+    },
+    {
+      "start": 2702.88,
+      "end": 2720.309,
+      "text": "Mana dia tadi loh gak ada ini update media he update oh coba slow deh pencet"
+    },
+    {
+      "start": 2720.319,
+      "end": 2734.109,
+      "text": "slow css-nya ada yang ditambahin engak di sini ya I CSS eh salah nih terus slow enggak lah"
+    },
+    {
+      "start": 2734.119,
+      "end": 2745.39,
+      "text": "engak berubah ya enggak bisa di Oh iya k gak bisa ya Nah ini masih misteri misteri lagi"
+    },
+    {
+      "start": 2745.4,
+      "end": 2754.63,
+      "text": "nih gara-gara ini layer ni dia pakai layer jadi misteri di man ya ini media updateennya juga misteri udah kita"
+    },
+    {
+      "start": 2754.64,
+      "end": 2769.069,
+      "text": "tabung aja entar kita bikin bikin edisi remedian misteri CSS misteri membedah demo iya ya di contohnya Beda Soalnya langsung"
+    },
+    {
+      "start": 2769.079,
+      "end": 2777.069,
+      "text": "media update fast media update slow tapi enggak working juga kalau misalnya di demonya enggak ada demonya juga enggak"
+    },
+    {
+      "start": 2777.079,
+      "end": 2784.39,
+      "text": "working kalau misalnya mungkin karena saya Pak Lain nih di ma yang lain nih yang dari dokumentasinya layer"
+    },
+    {
+      "start": 2784.4,
+      "end": 2793.67,
+      "text": "demo terus terus itu ada kalau itu ada media update fast Heeh kalau yang tadi yang e di CS rap itu engak ada kalau"
+    },
+    {
+      "start": 2793.68,
+      "end": 2810.23,
+      "text": "fast kalau slow ya kalau slow Iya lebih slow kurang halus Kalau Non I enggak enggak berubah Enggak berubah kalau slow eh"
+    },
+    {
+      "start": 2810.24,
+      "end": 2823.15,
+      "text": "slow enggak bisa slow enggak bisa kalau fes tadi tadi bisa nah ini F slow tadi enggak bisa ya"
+    },
+    {
+      "start": 2823.16,
+      "end": 2832.43,
+      "text": "slow tuh enggak bisa slow apa janj ada contoh lagi di bawah Oh enggak ada media update slow Oh udah ada slow di"
+    },
+    {
+      "start": 2832.44,
+      "end": 2848.109,
+      "text": "sini di sini F aja slow ada di sini Canvas texs-nya 11 pikel ini berarti masuk yang F Fali"
+    },
+    {
+      "start": 2848.119,
+      "end": 2859.309,
+      "text": "Ya iya lah soalnya ini kan bukanya di browser iya iya ya besok coba tes buka di kindle Oh harus pakai itu oh mungkin"
+    },
+    {
+      "start": 2859.319,
+      "end": 2869.349,
+      "text": "mungkin gara-gara itu dia bikinnya ini yang simulasi aja Jadi sebenarnya enggak dipakai Oh gu cuma cuma tampilannya kayak gitu Oh iya"
+    },
+    {
+      "start": 2869.359,
+      "end": 2881.349,
+      "text": "yailannya seperti itu mungkin ya contoh doang I mungkin i misstery solve Entar dulu belum tahu oke lanjut nah ini yang"
+    },
+    {
+      "start": 2881.359,
+      "end": 2889.67,
+      "text": "lebih berguna eh tap makud supportnya supportnya udah full ya ternyata ya Iya full ya itu tadi magically kita enggak"
+    },
+    {
+      "start": 2889.68,
+      "end": 2897.069,
+      "text": "pernah dengar kayak jarang ada orang yang bahas tiba-tiba semua browser sudah support aja nah ini juga tiba-tiba semua"
+    },
+    {
+      "start": 2897.079,
+      "end": 2906.71,
+      "text": "browser udah support aja sudah Heeh Ini sen Safari Safari versinya rendah sekali ya Yang lain udah 100an"
+    },
+    {
+      "start": 2906.72,
+      "end": 2919.67,
+      "text": "dia masih 17 karena Safari kan setahun sekali bareng sama update e osx Heeh Ini apa sih Iya nestate nestate CSS"
+    },
+    {
+      "start": 2919.68,
+      "end": 2929.23,
+      "text": "itu salah satu juga yang di update di tahun ini ya Heeh tahun lalu Oh iya tahun lalu 2002 2023 Masih berasa 2023"
+    },
+    {
+      "start": 2929.24,
+      "end": 2940.47,
+      "text": "Terus enaknya bisa di apa bisa di colaps expand itu loh kalau di eh po editor w ya Jadi bisa Di bisa lebih fokus"
+    },
+    {
+      "start": 2940.48,
+      "end": 2948.99,
+      "text": "ya descripting media query can be used to check whether or not javascript is available This is very nice for"
+    },
+    {
+      "start": 2949,
+      "end": 2962.39,
+      "text": "progressive enhancement before this media query strategy is if for detec javascript no JS begitu Loading javascriptnya diemove apa"
+    },
+    {
+      "start": 2962.4,
+      "end": 2974.549,
+      "text": "classlistreove body.cllist.remove ini cuma ngedetect itu Ya lumayan ya jadi mudah pakai CSS bisa ngdetect itu I lebih"
+    },
+    {
+      "start": 2974.559,
+      "end": 2987.15,
+      "text": "rapi Inya ya itu scripting enak ya ini beneran kayak if kan kayak if apa kurung bla bla bla ya"
+    },
+    {
+      "start": 2987.16,
+      "end": 2998.39,
+      "text": "kita tulis aja kondisinya conditionnya ini kalau kalau javascripnya di dia akan capacity-nya nol yang ini kan heeh enggak ada uapnya"
+    },
+    {
+      "start": 2998.4,
+      "end": 3014.15,
+      "text": "Iya kalau misalkan ee enable maka ini muncul uapnya Oh gitu layer lagi penasaran sama layer kalau dihapus Gimana Enggak ngaruh Oh"
+    },
+    {
+      "start": 3014.16,
+      "end": 3029.75,
+      "text": "ngaruh Iya enggak bisa ngaruhlah Kirain enggak Ngaru Oke ee lanjut kita ke sebenarnya hal yang simpel hal yang simpel tapi kayak apa ya"
+    },
+    {
+      "start": 3029.76,
+      "end": 3037.549,
+      "text": "ngurangin ketergantungan javascript sama lebih rapi ya penggunaannya gimana apa ya rata-rata kita pakai no JS itu ya"
+    },
+    {
+      "start": 3037.559,
+      "end": 3048.589,
+      "text": "kalau misalnya E No js-nya masih ada kita kasih message gitu ya rata-rata sih begitu ya please enable javascript atau"
+    },
+    {
+      "start": 3048.599,
+      "end": 3055.87,
+      "text": "itu loh misalnya tampilan yang eh dibukanya harusck here to ral yang ada togtog ini itu kalau misal enggak ada"
+    },
+    {
+      "start": 3055.88,
+      "end": 3069.67,
+      "text": "javascript Ya udah dijbrank aja di dalam card kan bisa enggak CSS ngdetect itu add blocker seru tuh kan apa detect blockers"
+    },
+    {
+      "start": 3069.68,
+      "end": 3082.549,
+      "text": "jadi scripting atau add blocker media query C main kucing-kucingan nanti diganti lagi sama si e apa add blockernya terus"
+    },
+    {
+      "start": 3082.559,
+      "end": 3096.15,
+      "text": "aja kalau sebaliknya pernah eh apa kalau lupa deh kalau class name CSS class name bla bla bla ada add eh Dash bla bla bla"
+    },
+    {
+      "start": 3096.16,
+      "end": 3104.95,
+      "text": "itu di beberapa extension add blocker dianggap iklan kena blokir pernah dong enggak sengaja kayak gitu sering jadi"
+    },
+    {
+      "start": 3104.96,
+      "end": 3114.349,
+      "text": "itu cara ngdetect add blocker juga begitu misalnya kayak ada eh apa namanya kayak dumy javascript yang mengandung kata"
+    },
+    {
+      "start": 3114.359,
+      "end": 3122.67,
+      "text": "atau apa gitu akan ngeblok Jadi kalau misalnya dia ada add blocker dia muncul anti add blocker contohnya gitu keluar"
+    },
+    {
+      "start": 3122.68,
+      "end": 3134.829,
+      "text": "pop itu bener kucing kucing-kucingan Iya kucing-kucingan betul ya Jadi ini salah satu cara untuk mendeteksi javascript e di enable atau"
+    },
+    {
+      "start": 3134.839,
+      "end": 3142.91,
+      "text": "disable nah pertanyaannya ya ini m pertanya penting kopi tadi itu logonya Java bukan sih bukan ya logonya Java"
+    },
+    {
+      "start": 3142.92,
+      "end": 3160.71,
+      "text": "kayak gitu kan mirip ya lanjut ya Oh teman-teman di sini Berapa orang yang mable javascript di browser"
+    },
+    {
+      "start": 3160.72,
+      "end": 3177.19,
+      "text": "kayaknya testing karena make kalau misalnya javascriptnya dimatiin yaamanya Gak boleh rusakak browsowud javascript tapi ya tetap"
+    },
+    {
+      "start": 3177.2,
+      "end": 3187.109,
+      "text": "pengin ngetes eh kontennya terrender atau enggak apa ya sama mungkin kalau kalau user user beneran mungkin orang-orang"
+    },
+    {
+      "start": 3187.119,
+      "end": 3195.549,
+      "text": "yang kayak privacy minded gitu ya terutama di luar neg kalau di Indonesia sih enggak terlalu tapi ya mungkin ada i"
+    },
+    {
+      "start": 3195.559,
+      "end": 3209.43,
+      "text": "i benar Mungkin ada yang masih menggunakan apa links sebagai browser itu javpnyaap naator ya G enggak jalan"
+    },
+    {
+      "start": 3209.44,
+      "end": 3220.349,
+      "text": "lah orang di terminal Tex base Kok iya oke lanjut reduce transparansy media query Oh ini masih ada hubungan"
+    },
+    {
+      "start": 3220.359,
+      "end": 3230.63,
+      "text": "sama media query ya cuman ini masih orange masih responsif kan Iya e Firefox masih Bendera Kuning e Safari belum ada"
+    },
+    {
+      "start": 3230.64,
+      "end": 3241.589,
+      "text": "yang meninggal Ya ampun Bendera Kuning bendera bendera orange apa orange ya orange kontrasnya jelek ya heehak Kelihatan ini juga Orange ya Non op"
+    },
+    {
+      "start": 3241.599,
+      "end": 3257.15,
+      "text": "interface can use head or vis struggle forici jadi ini aksesibilitas ya untuk apa eh kelainan Apa fungsi mata fungsi"
+    },
+    {
+      "start": 3257.16,
+      "end": 3274.23,
+      "text": "mata [Musik] ehucear from theu"
+    },
+    {
+      "start": 3274.24,
+      "end": 3292.19,
+      "text": "jadi dia mengikuti prerensi dari settingan kitaang udah ada ya di OS mana gitu yang udah adaak tah Coba ya kalau rtion kan Ang di ya di"
+    },
+    {
+      "start": 3292.2,
+      "end": 3303.15,
+      "text": "windowsudah ada di macos jugaud tahu ada ada ada ini Redu R Trans Redu transparansi sama baru tahu"
+    },
+    {
+      "start": 3303.16,
+      "end": 3311.75,
+      "text": "juga Oh kalau di maksudnya dari OSnya ada gitu kah kalau di Windows ada transparency effecteknya ada On atau Off"
+    },
+    {
+      "start": 3311.76,
+      "end": 3325.029,
+      "text": "tapi kalau kita cari accessibility enggak tahu ya accessibility Enggak ada enggak ada kalau di Maos rasanya ada deh kayak"
+    },
+    {
+      "start": 3325.039,
+      "end": 3337.15,
+      "text": "kayaknya di bagianibility Engak enggak pernah lihat belum belum lihat ya mungkin ke depannya bakal ada di sini udah dia sebut kan di sini"
+    },
+    {
+      "start": 3337.16,
+      "end": 3346.19,
+      "text": "kan remove transfer UI Oh iya udah ada berarti Heeh kita aja engak pernah lihat karena Maksudnya kita kita enggak"
+    },
+    {
+      "start": 3346.2,
+      "end": 3357.67,
+      "text": "ngalamin gangguan pandangan yang kayak gitu mudah-mudahan atau belum bukan belum di belum jadi belum jadi Oh iya ada loh belum"
+    },
+    {
+      "start": 3357.68,
+      "end": 3366.23,
+      "text": "masuk lighth coba mas Riza ya ini silakan Share screen Ma bukan Oh enggak enggak di Mac Siapa yang mau share"
+    },
+    {
+      "start": 3366.24,
+      "end": 3377.549,
+      "text": "screenan saya bisa nih Eh saya lagi caranya gimana Oh ini ini entire application window entire entire gak gak application window kelihatan"
+    },
+    {
+      "start": 3377.559,
+      "end": 3388.309,
+      "text": "enggak diumputin dulu yang perlu diimputin terlihat terlihat tuh ada INF Oh iya W kontras ini bagan display"
+    },
+    {
+      "start": 3388.319,
+      "end": 3404.109,
+      "text": "accessibility benar kanity Dis display Iya ada Invert color R motion Inc contrast transpareny Oh iya ada ada Baru tahu klik jadi apa ya Oh jadi"
+    },
+    {
+      "start": 3404.119,
+      "end": 3416.109,
+      "text": "aneh jadi gelap eh jadi hilang jadi ggak pakai transparansi kan Iya jadi dia op full e op kontras Iya maksudnya kalau"
+    },
+    {
+      "start": 3416.119,
+      "end": 3425.63,
+      "text": "background-nya abu-abu ya abu-abu kalau misalnya transparansi kan itu kayak kebawa ee apa wallpaper di belakangnya kan Oh iya"
+    },
+    {
+      "start": 3425.64,
+      "end": 3440.069,
+      "text": "betul iya oh iya jadi mainan jadi mainan bisa bisa bisa kelihatan kalau saya share eh whole entire screen Oh gitu ar ar tapi"
+    },
+    {
+      "start": 3440.079,
+      "end": 3449.87,
+      "text": "sayangnya Android gah belum ada ya belum coba coba saya sudah oke Google Iya Google Google kelihatan ya ini kelihatan"
+    },
+    {
+      "start": 3449.88,
+      "end": 3459.71,
+      "text": "ya Ada ada belakangnya kan Iya heeh ini STT ini estt buat keindahan cuma kalau misalnya ada klik tuh hilang abuabu"
+    },
+    {
+      "start": 3459.72,
+      "end": 3466.029,
+      "text": "sudah enggak transparan lagi apa istil tapi kan jadi lebih jelas ya background blur ya jadi backgroundnya diblur agak"
+    },
+    {
+      "start": 3466.039,
+      "end": 3478.549,
+      "text": "ngblur gitu kan iya he Heeh efek apa lensa ya Iya secara estetika bagus tapi mungkin kan kalau misalnya yang ada masalah"
+    },
+    {
+      "start": 3478.559,
+      "end": 3485.309,
+      "text": "pandangan atau apa itu kan sebenarnya ngaruh kan maksudnya bikin itu ngaruhin kontras juga kan bikin masa background-nya yang harusnya abu-abu"
+    },
+    {
+      "start": 3485.319,
+      "end": 3495.109,
+      "text": "gelap jadi ada putih-putihnya karena tadi apa gambar langit atau gambar apalah tadi laut Iya e mungkin background atau wallpaper-nya enggak"
+    },
+    {
+      "start": 3495.119,
+      "end": 3510.23,
+      "text": "sesuai biasanya biasanya untuk ini nih paling sering di card depannya card belakangnya Hero terus ada cardnya mungkin sign in sign up gitu kan Eh di"
+    },
+    {
+      "start": 3510.24,
+      "end": 3519.15,
+      "text": "tengah gini ya sign in sign up gitu yang kita bikin estetika bagus ya Kita kasih opacity sehingga apapun backgroundnya si"
+    },
+    {
+      "start": 3519.16,
+      "end": 3528.829,
+      "text": "depannya ini backgroundnya biasanya ada gradien-gradien ya kan yang ngetren biasanya biasanya sunset sunset lah Sunset gitu ya terus atau yang abstrak"
+    },
+    {
+      "start": 3528.839,
+      "end": 3539.349,
+      "text": "kan suka gradien depannya 90% opacitynya udah standar terus kelihatan kan Nah berarti kalau kita reduce transparansi kayak gitu harus udah putih aja"
+    },
+    {
+      "start": 3539.359,
+      "end": 3549.829,
+      "text": "maksudnya apa ya apa kontras kontras Iya background dan teks enggak kepikiran loh baru baru baru tahu sekarang he belum"
+    },
+    {
+      "start": 3549.839,
+      "end": 3561.309,
+      "text": "jadi standar ini soalnya maksudnya standar check aksibilityibility check yang saya pakai belum belum pakai makanya baru tahu apa belum masuk"
+    },
+    {
+      "start": 3561.319,
+      "end": 3570.99,
+      "text": "extension kayak apa Axe itu loh a dan lain-lain mungkin tapi kalau fitur ini sudah ada ya berarti siap-siap aja"
+    },
+    {
+      "start": 3571,
+      "end": 3579.51,
+      "text": "next hari bakal bakal masuk kalau udah biru Ya baseline-nya sudah masuk baseline ya dan OS pun eh apa para"
+    },
+    {
+      "start": 3579.52,
+      "end": 3592.99,
+      "text": "pembuat OS udah menyadari bahwa itu fitur yang diinginkan sama user kan berarti itu ya valuable ya selesai untuk responsif Apakah kita"
+    },
+    {
+      "start": 3593,
+      "end": 3604.23,
+      "text": "akan masuk ke interaction Habisin aja hari ini habisin ya Habisin aja habisin tapi cepat-cepat aja besok besok bakal ada"
+    },
+    {
+      "start": 3604.24,
+      "end": 3613.349,
+      "text": "remedialnya view Transition kita gak usah bahas Ya udah lumayan sering ya Dan jugaudah bahas kemarin kemar ngomongin"
+    },
+    {
+      "start": 3613.359,
+      "end": 3622.63,
+      "text": "ini berapa kali ini kalau mau lebih lanjut Lihat videonya Eka di deves deves Bogor Ada kan Ada"
+    },
+    {
+      "start": 3622.64,
+      "end": 3635.51,
+      "text": "ya Bogor Iya ini juga Eh tapi belum semua ya Eh Firefox sama Safari belum Tapi udah itu udah ngasih eh apa hampir"
+    },
+    {
+      "start": 3635.52,
+      "end": 3644.15,
+      "text": "eh request for position mereka udah eh position-nya tuh Oke jadi eh belum belum berupa komitmen bakal langsung masukin"
+    },
+    {
+      "start": 3644.16,
+      "end": 3654.109,
+      "text": "ke browser Mereka cuma secara esensi eh mereka enggak masalah dengan apa api ini Hm berarti sudah setujuah kira-kira gitu"
+    },
+    {
+      "start": 3654.119,
+      "end": 3665.589,
+      "text": "ya Heeh Oke besar kemungkinan suatu hari bakal masuk browser lain iya tldr-nya iya udah diadaptasi sama framework-framework seperti SP Wah"
+    },
+    {
+      "start": 3665.599,
+      "end": 3675.47,
+      "text": "banyak banget e spellkit Astro NX kalau next masih unofficial sih tapi UD ada pluginnya sampai yang server"
+    },
+    {
+      "start": 3675.48,
+      "end": 3683.75,
+      "text": "side aja kayak Turbo heeh ada ada kalau di Framework ada cuma kalau di sini mah enggak harus bikin sendiri Iya Intinya"
+    },
+    {
+      "start": 3683.76,
+      "end": 3691.47,
+      "text": "kita bisa punya apa ya transisi antar page misalkan page A warnanya merah page B warnanya biru dia bisa"
+    },
+    {
+      "start": 3691.48,
+      "end": 3700.19,
+      "text": "ee kayak bertransformasi dari merah ke biru gitu ya Kay kayak SP tetap elemen Heeh jadi e sebetulnya view Transition"
+    },
+    {
+      "start": 3700.2,
+      "end": 3708.589,
+      "text": "itu ada dua level udah kayak makanan udah kayak penyetan cabe kan kayak makan pedas aja kan ada level-levelnya nah"
+    },
+    {
+      "start": 3708.599,
+      "end": 3717.71,
+      "text": "level 1 level 2 yang level 1 itu masih yang CLI side yang buat spa jadi apa antar elemen lah jadi e Apun itu"
+    },
+    {
+      "start": 3717.72,
+      "end": 3727.63,
+      "text": "elemennya terserah mau kayak gini ini kan cuma ngrender sebenarnya Cuma ngrender svg yang berbeda-beda kan kalau kita klik svg-nya dirender Udah gitu"
+    },
+    {
+      "start": 3727.64,
+      "end": 3737.75,
+      "text": "doang jadi Apun elemen Apun eh Jadi kayak mengconnect antara eh state atau kondisi UI sebelum dan sesudah nah terus"
+    },
+    {
+      "start": 3737.76,
+      "end": 3748.71,
+      "text": "dibuat transisinya kita yang mefine animasinya Seperti apa Nah terus perkara ngumpetin dan kan sebenarnya Anim transisi itu kan terdiri dari dua aspek"
+    },
+    {
+      "start": 3748.72,
+      "end": 3760.47,
+      "text": "kan before after Terus eh apa style animasinya Seperti apa nah eh mengorchestrate before afternya itu dihandle sama Vi Transition nah ini yang"
+    },
+    {
+      "start": 3760.48,
+      "end": 3770.549,
+      "text": "dan itu fully fully CSS kan eh css-nya bahkan optional jadi apa cuma javascript eh start Transition jadi karena ini kan"
+    },
+    {
+      "start": 3770.559,
+      "end": 3780.43,
+      "text": "masih yang level S ya c jadi misalnya kita eh apa eh yaitu show hide eh menampilkan suatu elemen kita ngeklik"
+    },
+    {
+      "start": 3780.44,
+      "end": 3791.23,
+      "text": "terus kita start view Transition Ya udah itu langsung dihandle nah cssnya Buat apa css-nya Buat eh style animasinya"
+    },
+    {
+      "start": 3791.24,
+      "end": 3800.87,
+      "text": "keyfame-nya oh berarti dia lebih ke api javascriptnya ya berarti ya Iya tapi native javascript dan kalau dulu"
+    },
+    {
+      "start": 3800.88,
+      "end": 3812.349,
+      "text": "sebelumnya Eh kalau javascript yang masih workar akal kan sebetulnya itu eh di javascript kita harus menduplicate atau meng-copy elemennya diumpetin"
+    },
+    {
+      "start": 3812.359,
+      "end": 3823.23,
+      "text": "misalnya opacity-nya dinolin biar waktu elemen aslinya hilang itu masih ada terus dianimate e javascript ke eh state yang dari before"
+    },
+    {
+      "start": 3823.24,
+      "end": 3830.15,
+      "text": "ke after habis itu baru dihapus lagi nah kalau ini enggak usah Ya udah kita pokoknya seperti biasa aja mau nge-hide"
+    },
+    {
+      "start": 3830.16,
+      "end": 3841.91,
+      "text": "show e elemen langsung cuma bisa kita harus manggil start view Transition itu ya harus panggil harus harus He Oh oke"
+    },
+    {
+      "start": 3841.92,
+      "end": 3849.91,
+      "text": "nah kalau yang level 2 yang belum nih level 2 itu yang antar halaman itu kelihatannya enggak usah di enggak perlu"
+    },
+    {
+      "start": 3849.92,
+      "end": 3858.43,
+      "text": "dipanggil dari javascript karena server site ya kan Eh tapi harus berada di Origin yang sama nah cuma level 2 ini"
+    },
+    {
+      "start": 3858.44,
+      "end": 3868.43,
+      "text": "sayangnya eh si apa webkit sama Firefox masih banyak ee banyak tanya-tanya masih banyak diskusi jadi seru sih kalau lihat"
+    },
+    {
+      "start": 3868.44,
+      "end": 3876.75,
+      "text": "itu kan semua terbuka ya apa eh di github Heeh kayak yang kita bahas kemarin itu enggak kelar-kelar udah yang"
+    },
+    {
+      "start": 3876.76,
+      "end": 3883.51,
+      "text": "level duanya ini yang salah satu di disayangkan sama Jack archibal itu ya yang view Transition enggak masuk"
+    },
+    {
+      "start": 3883.52,
+      "end": 3891.589,
+      "text": "interup 2024 benar enggak sih emang enggak masuk ya justru divting eh apa enggak masuk enggak masuk Oh enggak"
+    },
+    {
+      "start": 3891.599,
+      "end": 3903.43,
+      "text": "masuk ya ya lebih lama lagi dong I tahun depan Kalau enggak salah ya saya coba cari daripada saya"
+    },
+    {
+      "start": 3903.44,
+      "end": 3913.829,
+      "text": "hoax apa setahua sih yang e diting buat interop 2024 itu yang level 1ya eh kenapa Karena kan maksudnya Firefox dan"
+    },
+    {
+      "start": 3913.839,
+      "end": 3924.75,
+      "text": "Safari udah gimana saya saya saya Hoa eh yang disayangkan dia itu adalah yang navigation api Oh navigation api enggak"
+    },
+    {
+      "start": 3924.76,
+      "end": 3936.51,
+      "text": "masuk e apa namanya enggak masuk Inter Wah kayaknya Besok masesti bahas Inter 2024 kali seru Iya kayaknya bisa"
+    },
+    {
+      "start": 3936.52,
+      "end": 3947.829,
+      "text": "tuh apa Yang dimasukinting gimana gimana ternyata ternyata ada TW selanjutnya view Transition juga gak ikut saya Ben Coba"
+    },
+    {
+      "start": 3947.839,
+      "end": 3959.789,
+      "text": "klik aja a klik aja tter saya itu baah I lebih panjang lagi dong Ininya hah enggak pas Def kemarin itu"
+    },
+    {
+      "start": 3959.799,
+      "end": 3969.63,
+      "text": "itu masuk ke dalam slide yang dipotong biar biar masuk waktak kelihatan ya dia di bagianan kalauak login harus login ya"
+    },
+    {
+      "start": 3969.64,
+      "end": 3980.109,
+      "text": "harus Logi E ini saya kasih a url bawahnya Iya ini bentar Si El Pit ya E kalau misalnya enggak login semua"
+    },
+    {
+      "start": 3980.119,
+      "end": 3989.99,
+      "text": "fungsi-fungsi yang kayak apa sih manggil-manggil Kan biasanya ada rel tweet pokoknya reply apa reply trade dimatiin semua kayaknya lagi ngirit Vi"
+    },
+    {
+      "start": 3990,
+      "end": 4002.069,
+      "text": "Transition isn't being included either dia lebih lebih sedih kalau yang navigationnya lebih sedih yang tadi karena ini kan cuma buat progressive"
+    },
+    {
+      "start": 4002.079,
+      "end": 4012.029,
+      "text": "enhancement nah ini akhir tahun lalu banyak yang eh ng-vote view Transition karena pertimbangannya maksudnya kan eh Framework responnya bagus developer"
+    },
+    {
+      "start": 4012.039,
+      "end": 4026.549,
+      "text": "responnya bagus dan betul h firefoama we jugaudahak masalahudah bilang Oke jadi not masuk tapak masuk sed nextnya Mungkin kita bisa"
+    },
+    {
+      "start": 4026.559,
+      "end": 4038.029,
+      "text": "bahasah tren depan berarti begitu Trans ini sudah masuk berarti kita ketemu lagi nanti di Bali kita bahas akhirnya masuk"
+    },
+    {
+      "start": 4038.039,
+      "end": 4052.15,
+      "text": "g Oh jadiju yaer nextnya ada Vi view Transition dibali lagi Amin mudah-mudahan dapat ini lagi ya Kesempatan lagi buat semoga"
+    },
+    {
+      "start": 4052.16,
+      "end": 4065.71,
+      "text": "didengar sama mas Danang searang mas Danang Muncul lagi Iya dia lanjut lanjut kita berikutnya ke linear eing function ini e animasi ya"
+    },
+    {
+      "start": 4065.72,
+      "end": 4072.91,
+      "text": "Heeh animasi dan ternyata bukan kalau linear kan kita bayanginnya sama gitu yang kayak cuma kalau grafik Ya cuma"
+    },
+    {
+      "start": 4072.92,
+      "end": 4080.269,
+      "text": "begini Nah justru Ini bukan buat itu cuma enggak ngerti sih karena enggak terlalu kebiasaannya masih the linear"
+    },
+    {
+      "start": 4080.279,
+      "end": 4088.589,
+      "text": "function not to be confused with linear keyword allows you to create complex easing fun manle fun jadi itu kayak ada"
+    },
+    {
+      "start": 4088.599,
+      "end": 4097.11,
+      "text": "logaritmanya gitu loh kayak apa ya kayak ada iya linear itu kan maksudnya bukan cuma garis lurus di sini maksudnya"
+    },
+    {
+      "start": 4097.12,
+      "end": 4105.99,
+      "text": "linear ituini doang speed untuk munculnya itu linear konstanst is Iya konstan ising Enggak ada e e out in kan"
+    },
+    {
+      "start": 4106,
+      "end": 4112.59,
+      "text": "biasa kan Kalau udah dekat dia melambat atau kalau dari awal dia lambat dulu baris kencang kan kalau ini langsung Z"
+    },
+    {
+      "start": 4112.6,
+      "end": 4121.63,
+      "text": "stabil gitu stabil I pertanyaannya stabil kan begini Ini kan lebih aneh maksudnya bouncingnya kalau is in e out"
+    },
+    {
+      "start": 4121.64,
+      "end": 4128.95,
+      "text": "kan jelas kan eh lebih cepatnya di awal atau di akhir lah kalau ini ada perhitungannya sendiri kan ini"
+    },
+    {
+      "start": 4128.96,
+      "end": 4136.95,
+      "text": "matematika stabil stabil enggak enggak enggak yang jarak antar titiknya lebih pendek itu lebih cepat Coba lihat deh Oh"
+    },
+    {
+      "start": 4136.96,
+      "end": 4147.63,
+      "text": "ya ini kan jaraknya jauh nih kan tuh jauh pelan dia pelan pelan cepat tuh I kan cepak kelihatan enggak kelihatan oke"
+    },
+    {
+      "start": 4147.64,
+      "end": 4155.47,
+      "text": "nah Ini ada pertanyaan dari saya ini brer supportnya udah support semua nih atau belum Udah semua tapi belum belum"
+    },
+    {
+      "start": 4155.48,
+      "end": 4167.63,
+      "text": "masuk baseline belum masuk bas 17 Titi du tuh Safari Oh baru banget Safari normalnya berapa coba aja cari sekarang browser"
+    },
+    {
+      "start": 4167.64,
+      "end": 4178.87,
+      "text": "today Enggak kan sekarang 17 jadi dia ngbas kalau udah dari 16 bahkan ini keluarnya tuh dari 17.2 kayak semacam"
+    },
+    {
+      "start": 4178.88,
+      "end": 4195.229,
+      "text": "patchnya buka buka browser Happy Nah sekarang 172 sekarangudah 1 tapi kan harusnya kalau dia biru nantiim artinya belum masuk"
+    },
+    {
+      "start": 4195.239,
+      "end": 4204.55,
+      "text": "Iya sudah udah mungkin sudah ini sudah stabil tapi belum masuk baseline Ya mungkin belum masuk ininya Basel kan ada"
+    },
+    {
+      "start": 4204.56,
+      "end": 4218.83,
+      "text": "baseline Tahun berapa belum masuk baseline 2023 Iya mkin nanti dua versi Major terakhir nih broser Happy oa gak termuk"
+    },
+    {
+      "start": 4218.84,
+      "end": 4229.59,
+      "text": "engak ada browser gak ada ya sekarang yang lagi naik down Vivaldi kan ya rata-rata pada dengar Vivaldi itu"
+    },
+    {
+      "start": 4229.6,
+      "end": 4245.47,
+      "text": "for Iya forbnya Opera saya kalian pada pakai browser apa sih fireefox Safari Chrome udah ya Thor lah kalau"
+    },
+    {
+      "start": 4245.48,
+      "end": 4258.11,
+      "text": "buat itu yang aneh-aneh Dark engak Dark juga [Tertawa] sih kalau di nya ya itu Firefox Safari Chrome doang gak pernah pakai semacam Ar"
+    },
+    {
+      "start": 4258.12,
+      "end": 4270.669,
+      "text": "atau Brave atau lain-lain Ini ar nih yang lagi ditampilin chromium ya kayaknya chromium bas Ar ya pada pakai"
+    },
+    {
+      "start": 4270.679,
+      "end": 4285.99,
+      "text": "browser nah tu lar I fungsinya apa ya ini kelihatnya kayak buat game atau apa ya yang grafik- kayak gini tuh nunjukin"
+    },
+    {
+      "start": 4286,
+      "end": 4295.189,
+      "text": "sesuatu atau ya game lah pastinya Ya jarang juga kita bikin-bikin kayak gini ya next Iya Maknya makud Bedanya"
+    },
+    {
+      "start": 4295.199,
+      "end": 4304.669,
+      "text": "apa sih misalnya cuma modal muncul mau is in is out user Emang ngebedain gitu Ada juga yang ngebedain"
+    },
+    {
+      "start": 4304.679,
+      "end": 4313.07,
+      "text": "tergantususus kalau misalkan kita bikin web untuk nampilin I sat video nah yang Mas Yohan bahas kemarin web Based video"
+    },
+    {
+      "start": 4313.08,
+      "end": 4324.75,
+      "text": "editor ya mungkin atau ini ini aja apa bikin slide bikin slide dia ada animasi transisinya kan heeh itu juga bisa he"
+    },
+    {
+      "start": 4324.76,
+      "end": 4332.35,
+      "text": "Oke kita lanjut dulu ya Scroll n Scroll ini kita bisa ngecek Apakah scrollnya udah sampai hampir akhir Udah mentok"
+    },
+    {
+      "start": 4332.36,
+      "end": 4341.43,
+      "text": "atau belum Udah mentok atau belum hampir mentok atau belum kan He enggak sih Eh sudah mentok apa belum sudah mentok atau"
+    },
+    {
+      "start": 4341.44,
+      "end": 4353.189,
+      "text": "belum oke ini juga javascript ternyata ya cuma dimasukinnya ke CSS Karena untuk UI nah sebelum ada SCR and event"
+    },
+    {
+      "start": 4353.199,
+      "end": 4372.43,
+      "text": "bentareterangannya sebel ada event kita harus pakateing"
+    },
+    {
+      "start": 4372.44,
+      "end": 4380.95,
+      "text": "belumak that understands whether a user is still me gesture or not Oh mendeteksi apa dia nge-scrollnya udah"
+    },
+    {
+      "start": 4380.96,
+      "end": 4390.229,
+      "text": "selesai atau belum gitu jarinya udah naik atau belum Iya iya ini javascript ya he Berarti html-nya kita keculinnya"
+    },
+    {
+      "start": 4390.239,
+      "end": 4405.99,
+      "text": "kita bisa nah ini Scroll bit fill ini belum Udah habis ya Scroll Scroll n oke Scroll on Scroll n Oh dia pakai on"
+    },
+    {
+      "start": 4406,
+      "end": 4416.11,
+      "text": "Scroll n ya Heeh on Scroll n itu progressive enhancement-nya itu Iya ini dicek dulu kan udah dukung apa belum"
+    },
+    {
+      "start": 4416.12,
+      "end": 4427.03,
+      "text": "terus udah langsung aja tambahin class has Scroll n jadi muncul yang yang pink ini Nah itu dari Has Scroll n kan ada"
+    },
+    {
+      "start": 4427.04,
+      "end": 4442.83,
+      "text": "t-rex-nya ada t-rex-nya mana txnya H Scroll n mana txnya generated dari javascript enggak itu kalau gak B Kalau"
+    },
+    {
+      "start": 4442.84,
+      "end": 4459.59,
+      "text": "enggak ada kalau enggak support if Scroll He Oh iya oke langsung ja ini to Nah itu to oke"
+    },
+    {
+      "start": 4459.6,
+      "end": 4468.07,
+      "text": "oke semakin seru ya jadi kalau mau bikin kayak paralx gitu bisa perroll gitu ya Sampai Akhir habis itu nanti ada"
+    },
+    {
+      "start": 4468.08,
+      "end": 4477.95,
+      "text": "misalkan eh click to top call to action ya daftarkan Submit your email BL bla and we will sell your email mcp up"
+    },
+    {
+      "start": 4477.96,
+      "end": 4492.39,
+      "text": "muncul pop up untuk paywall biasanya Heeh Oh iya dapatkan konten seperti ini hanya dengan r.700 r000 Senin harga naik Selasa"
+    },
+    {
+      "start": 4492.4,
+      "end": 4508.31,
+      "text": "ngobrolin web boleh tuh jadi baru Iya naik bisa bisa bisa bisa masuk masuk"
+    },
+    {
+      "start": 4508.32,
+      "end": 4519.87,
+      "text": "masuk nanti dicut Mas itu Tine kita yang baru Ben yang tadi saya maksud sebenarnya ini Scroll animation kayak paralx gitu"
+    },
+    {
+      "start": 4519.88,
+      "end": 4529.35,
+      "text": "Kanah I ini keren banget i iya oh dulu saya bikinnya ini yang di atas sama Jav bukan ya Eh I pakai javascript tapi yang"
+    },
+    {
+      "start": 4529.36,
+      "end": 4538.55,
+      "text": "kalau bisa discroll bukan ada kayak bar kita reading progress Saya pernah diminta bikin gituan dulu itu sempat"
+    },
+    {
+      "start": 4538.56,
+      "end": 4544.51,
+      "text": "ngetrend banget gara-gara medium dulu per e kayaknya pertama kali medium deh habis itu medium malah enggak pakai"
+    },
+    {
+      "start": 4544.52,
+      "end": 4554.07,
+      "text": "kayaknya sekarang cuma dulu kayaknya sempat ngetren lupa deh medium atau wordpress atau apa ya pokoknya dulu sempat ngetren gara-gara ada yang pakai"
+    },
+    {
+      "start": 4554.08,
+      "end": 4564.95,
+      "text": "Oh enggak pernah ya iya ya berarti medium pokoknya blogging platform Oh ini bisa dipakai untuk itu ya ada contohnya tuh contohnya lengkap"
+    },
+    {
+      "start": 4564.96,
+      "end": 4576.43,
+      "text": "banget coba deh buka di eh doc eh Scroll driven animation eh style nah ini yang bikin Kalau enggak"
+    },
+    {
+      "start": 4576.44,
+      "end": 4589.83,
+      "text": "salah Mas apa bramus eh dari defel Chrome Bram Mas Bram Mas Bram Kak kenal Oh wow keren sekali itu demo semua itu"
+    },
+    {
+      "start": 4589.84,
+      "end": 4607.07,
+      "text": "apa variasi-variasi penggunaannya cakep Wow tapi sebenarnya cakep tapi ini ngerusak mata walaupun bukan demonya demo harus tapi kalau misalnya di dunia nyata ya"
+    },
+    {
+      "start": 4607.08,
+      "end": 4616.47,
+      "text": "aksesibility jangan lupa ini jadi bikin kayak itu loh yang ingat enggak kalau si ee e Apple punya produk page kalau"
+    },
+    {
+      "start": 4616.48,
+      "end": 4629.87,
+      "text": "diroll terus dia banyak banyak an animasi Nah itu sepertinya mempermudah untuk bikin kayak gitu ya Heeh dan enggak harus pakai"
+    },
+    {
+      "start": 4629.88,
+      "end": 4641.83,
+      "text": "observer enggak pasang observer macam-macam yang custom karena stylingnya ditempelin di elemen itu sendiri kalau misalnya elemen itu masuk"
+    },
+    {
+      "start": 4641.84,
+      "end": 4656.59,
+      "text": "di layar nah di styling gimana Tapi sayang Firefox eh masih benderah orange dan Safar belum orang Safari malah masih masih eo"
+    },
+    {
+      "start": 4656.6,
+      "end": 4664.27,
+      "text": "Oke padahal yang paling butuh Apple ya bikin untuk page begitu ya dia egois dia mau bikin Pakai caranya sendiri kali"
+    },
+    {
+      "start": 4664.28,
+      "end": 4678.59,
+      "text": "jahat banget suzon suzon oke lanjut lagi divert ini enggak ngerti ini apaan apagi ini ini ada hubungannya sama"
+    },
+    {
+      "start": 4678.6,
+      "end": 4694.47,
+      "text": "Scroll animation terus CSS eh Oh ini kayak helper buaten making it limited to Scroll anestors"
+    },
+    {
+      "start": 4694.48,
+      "end": 4704.27,
+      "text": "only the Element need to be Animated is not a child of scroller but an element located in entirely different sub"
+    },
+    {
+      "start": 4704.28,
+      "end": 4716.43,
+      "text": "Apa ini maksudnya knya kayak buat eh ngedeteksi walaupun relasinya kan mungkin bisa nested nested beef ya kelihatannya Oh atau di luar nesting"
+    },
+    {
+      "start": 4716.44,
+      "end": 4731.27,
+      "text": "dipakainya soalnya itu tuh use case-nya karusel gimana gimana Eh karusel terus Timel Scope gallery Scroll El ada contohnya Enggak"
+    },
+    {
+      "start": 4731.28,
+      "end": 4742.31,
+      "text": "coba animation timeline ya itu with Timel Scope declare on the shar parent the Scroll timeline declared on"
+    },
+    {
+      "start": 4742.32,
+      "end": 4752.87,
+      "text": "scroller can be found by the Element That uses The Animation timeline ini kalau kita lihat demonya gimana"
+    },
+    {
+      "start": 4752.88,
+      "end": 4766.669,
+      "text": "nih javascript-nya enggak ada ini pure CSS ya kita bisa Scroll enggak ya enggak bisa scroll bisa ya oh bisa bisa Scroll pakai shift"
+    },
+    {
+      "start": 4766.679,
+      "end": 4780.31,
+      "text": "pakai shift Oh pakai shift maksudnya pencet shift Terus pencet e Mouse Scroll mouse-nya diroll Iya Scroll atas bawah itu jadi ke"
+    },
+    {
+      "start": 4780.32,
+      "end": 4787.55,
+      "text": "samping artinya Iya ke samping kalau pakai ini bukananya ada mouse-nya ada yang ini biasanya ada ada yang kiri"
+    },
+    {
+      "start": 4787.56,
+      "end": 4802.229,
+      "text": "kanan ada Tapi mous saya cuman ada atas bawah ohrollingnya Oh ada penjelasannya di sini nih ada penjelasannya tapi gak ada demonya buka"
+    },
+    {
+      "start": 4802.239,
+      "end": 4818.149,
+      "text": "deh private chat yang ini ada demonya tapi kurang kurang jelas penjelasannya ini ada ini bawahah ataskit"
+    },
+    {
+      "start": 4818.159,
+      "end": 4833.83,
+      "text": "zom nah iniingaca Uhang attaching to nonancestor Scroll timeline Nah kan jadi kalau by default eh apa tadi yang buat Scroll timeline"
+    },
+    {
+      "start": 4833.84,
+      "end": 4842.91,
+      "text": "itu cuma bisa buat ancestornya kayaknya mendeteksi dia eh apa elemennya ngroll in relation to parentnya entah itu body"
+    },
+    {
+      "start": 4842.92,
+      "end": 4855.229,
+      "text": "atau parent apa parent elem nah terus cuma ini kalau kasusnya karusel kan Eh misalnya apa Dot nya itu itu kan di luar"
+    },
+    {
+      "start": 4855.239,
+      "end": 4862.43,
+      "text": "di luar e kontainer buat slide-nya kelihatannya intinya sih untuk itu Nah itu timeline Scope sih pokoknya itu kan"
+    },
+    {
+      "start": 4862.44,
+      "end": 4872.83,
+      "text": "paragraf pertama e sering terjadi elemen yang perlu dianimasi bukan Bukannya si scrollernya itu bukannya si apa kalau"
+    },
+    {
+      "start": 4872.84,
+      "end": 4881.39,
+      "text": "misal karusel Kan Bukannya si tempat gambar-gambar karusel itu kan Nah jadi pakainya timeline Scope si bla bla bla"
+    },
+    {
+      "start": 4881.4,
+      "end": 4894.149,
+      "text": "itu intinya Timel SC oke oke karena belum biasa bingung ya Belum mendailnya lagi agak nangkap sih maksudnya apa cuman casnya mungkin ya"
+    },
+    {
+      "start": 4894.159,
+      "end": 4902.709,
+      "text": "sekilas udah paham cuma makudnya kalau suruh bikin ya bingung i gak tahu juga bingung juga juga ya kita lanjut lagi"
+    },
+    {
+      "start": 4902.719,
+      "end": 4918.229,
+      "text": "discreete property animation another new capabilityility to Animate discre animationre animation apa ya dulu kan gak bisa jadi sekarang bisa"
+    },
+    {
+      "start": 4918.239,
+      "end": 4934.31,
+      "text": "gitu wowak ada warna-warni gitu Ini bukan jadi hilang displ I ada danada dulu kan gak bisa dulu sudah ada Ada Dan Tiada lag"
+    },
+    {
+      "start": 4934.32,
+      "end": 4952.79,
+      "text": "isi isi adalah kos biasanya opacity ya balik layus Spin out Terus opacity Nol display n display n keyframe-nya f out F"
+    },
+    {
+      "start": 4952.8,
+      "end": 4967.149,
+      "text": "minus out yang ini kan iya he oke terus ada Spin and Delete nah Spin and delete ini transp filter Oh ini yang ininya ya"
+    },
+    {
+      "start": 4967.159,
+      "end": 4976.87,
+      "text": "apa E progressnya ya Iya frame-nya itu ada display non-nya juga kalau udah selesai display Iya kalau udah"
+    },
+    {
+      "start": 4976.88,
+      "end": 4988.189,
+      "text": "100% Terus tadi Eh elemennya apa loh l salah elemennya apa eh ininya discrp property animation display none content"
+    },
+    {
+      "start": 4988.199,
+      "end": 4996.51,
+      "text": "visibility Oh dia cuman ini ya kita jadi bisa menganimate display dulu kan belum bisa Allo discrete maksudnya tapi harus"
+    },
+    {
+      "start": 4996.52,
+      "end": 5012.91,
+      "text": "allow discrete gimana allow discrete coba disarch halo not found enggak"
+    },
+    {
+      "start": 5012.92,
+      "end": 5031.47,
+      "text": "Ada halo enggak ada ya ini demo misterius lagi enggak ada di sini enggak mungkin ha hah demo macam apa"
+    },
+    {
+      "start": 5031.48,
+      "end": 5046.99,
+      "text": "ini joba ya lagi"
+    },
+    {
+      "start": 5047,
+      "end": 5065.11,
+      "text": "ada ini perkaranya jadi bisa anerti displ atau ada properti khususakudah itu doang loh tapi caranya"
+    },
+    {
+      "start": 5065.12,
+      "end": 5076.189,
+      "text": "gimana di sini enggak ini juga tuh gimana caranya dia rotaterotate doang ada display non itu dihapus oh ini on"
+    },
+    {
+      "start": 5076.199,
+      "end": 5087.109,
+      "text": "cck kan ketika diklik Heeh dokumen delete ini maka ditambahin fade out I kan F out dan spin out dan spin out jadi"
+    },
+    {
+      "start": 5087.119,
+      "end": 5096.35,
+      "text": "ini Fed out dan spin Oke Fed out di sini kan Animate He iya Animate dot F out CL"
+    },
+    {
+      "start": 5096.36,
+      "end": 5104.669,
+      "text": "F out animationnya F out yang dibikin sendiri dari sini He nah itu ada display nnya Kayaknya cuma perkara bisa"
+    },
+    {
+      "start": 5104.679,
+      "end": 5116.03,
+      "text": "menganimate gara-gara ada displ jadi dia jadi keanimasi secara otomatis gitu ya ya Jadi bisa e display kan standarnya"
+    },
+    {
+      "start": 5116.04,
+      "end": 5128.03,
+      "text": "blok mungkin jadi blok kanan ya mungkin jadi hangus displnya dis nya kita hapus iyanya harusnya putarpar putar aja loh"
+    },
+    {
+      "start": 5128.04,
+      "end": 5140.109,
+      "text": "ya Coba e inspect inspect deh inspect elemen bisa ya Bisa dong kan Nah itu kan opacity-nya Nol"
+    },
+    {
+      "start": 5140.119,
+      "end": 5154.07,
+      "text": "tapi masih ada mana Tadi kayaknya keeselect deh tuh Nah itu tuh tuh tuh tuh tu tu tu"
+    },
+    {
+      "start": 5154.08,
+      "end": 5163.51,
+      "text": "tuh ada kan Nah sedangkan kalau ada display non-nya ya jadi hilang enggak ada lagi itu Iya katnya perkaranya cuma itu deh"
+    },
+    {
+      "start": 5163.52,
+      "end": 5175.31,
+      "text": "dulu display enggak bisa enggak bisa dimasukin keyframe sekarang jadi bisa Oh curiganya gitu Oh iya bisa jadi"
+    },
+    {
+      "start": 5175.32,
+      "end": 5198.75,
+      "text": "oke lanjut lanjut lanjuty apa lagi ini belum pernah lihat sty nah ini masih berkaitan sama tadi kayaknya animating to and"
+    },
+    {
+      "start": 5198.76,
+      "end": 5213.87,
+      "text": "from dia bisa tahu ketika elemennya belum dibuka Oh ini video yaak bisa Diak Oke kita lihat di sini ya Tapi"
+    },
+    {
+      "start": 5213.88,
+      "end": 5223.47,
+      "text": "harusnya unya juga begitu loh ke mana ini oh ini kita pakai ini aja Nah ini kan misalkan kalau kita klik"
+    },
+    {
+      "start": 5223.48,
+      "end": 5233.149,
+      "text": "dia akan animasi dulu sebelum tampil Heeh gitu kan heeh ini Click the button Open dialog Mana dia Ini dialognya"
+    },
+    {
+      "start": 5233.159,
+      "end": 5242.709,
+      "text": "dialognya Udah Na ya buttonnya Ada onccknya buttonnya ada Open dialognya ini onccknya show modal modal nya ini"
+    },
+    {
+      "start": 5242.719,
+      "end": 5260.109,
+      "text": "kan Terus yang jadi beda beda adalah transis ada display non Enggak tadi ada allow discrip Oh iya itu tu Akhirnya"
+    },
+    {
+      "start": 5260.119,
+      "end": 5276.189,
+      "text": "ketemu di dalam Transition dialog hal di screen hari Coba hapus all di"
+    },
+    {
+      "start": 5276.199,
+      "end": 5291.83,
+      "text": "scrip-nya eh bentar ini Trans iya iya nah I taruh Enggak loh kok tutup gitu enggak enggak enggak Engak enggak yang ini nih Iya dia"
+    },
+    {
+      "start": 5291.84,
+      "end": 5298.43,
+      "text": "kan dia kan exit state exit state-nya Heeh kalau hilang by default kalau hilang ya hilang aja kan enggak"
+    },
+    {
+      "start": 5298.44,
+      "end": 5306.149,
+      "text": "dianimate out kalau ini i gak bisa gak bisa Iya dia turun ke bawah tuh nah bawah itu"
+    },
+    {
+      "start": 5306.159,
+      "end": 5317.47,
+      "text": "dan enggak pakai javascript sama sekali js-nya kosong kos Wow keren ya keren tapi belum bisa di belum bisa di belum bisa diafari belum"
+    },
+    {
+      "start": 5317.48,
+      "end": 5328.75,
+      "text": "bisa diowser lain belum ada yang mau Firefox juga engak mau belum belum ya Ya lumayan lah lanjut overlay Wah sama nih"
+    },
+    {
+      "start": 5328.76,
+      "end": 5337.91,
+      "text": "statusnya new CSS overlay property can be Transition to enable Element with top layer Styles Oh iya Ini bagus deh udah"
+    },
+    {
+      "start": 5337.92,
+      "end": 5346.39,
+      "text": "pernah Eh lihat demonya Oh iya jadi jadi warnanya agak hitam itu ya yang overlay itu ya Kalau agak hitamnya pakai pakai"
+    },
+    {
+      "start": 5346.4,
+      "end": 5355.03,
+      "text": "CSS itu kita style pakai CSS tapi e ngaruh ke accessibility juga jadi tahu kan kalau kita e buka modal dialog kan"
+    },
+    {
+      "start": 5355.04,
+      "end": 5361.43,
+      "text": "belakangnya semua harus kita freeze kan harus enggak bisa disroll harus POnya enggak bisa diap enggak bisa interaksi"
+    },
+    {
+      "start": 5361.44,
+      "end": 5368.87,
+      "text": "Apun Kalau dulu kan harus pakai javascript ya buat apa kita harus ngeset itu manual Sekarang udah enggak dihandle"
+    },
+    {
+      "start": 5368.88,
+      "end": 5378.91,
+      "text": "sama CSS Eh sama apa html malah jadi ini unik sih sebenarnya ya kalau mau ditarget pakai CSS boleh tapi ini berupa"
+    },
+    {
+      "start": 5378.92,
+      "end": 5395.91,
+      "text": "e atribut html buka e mana"
+    },
+    {
+      "start": 5395.92,
+      "end": 5406.669,
+      "text": "dia overlay to hal discrete lagi Oh iya ini buat animasinya kali Iya ya buat apa E buat e"
+    },
+    {
+      "start": 5406.679,
+      "end": 5420.83,
+      "text": "muncul sama nah buat pasti closnya kan Mana html ya show entar mana ya action bar taruhnya di mana tulisannya gimana"
+    },
+    {
+      "start": 5420.84,
+      "end": 5434.75,
+      "text": "oh drop itu isolation mode tadi backop bukan Iya backdrop ini ya backdrop ya backdrop itu bagian dari e api-nya"
+    },
+    {
+      "start": 5434.76,
+      "end": 5442.95,
+      "text": "overlay jadi ada ada beberapa ya Ada beberapa Nah bentar dulu kayaknya ngihat demonya lebih jelas deh cuma lihat lihat"
+    },
+    {
+      "start": 5442.96,
+      "end": 5459.79,
+      "text": "di mana Lupa mana ya Iya besok-besok de ada komponen W masih ada komponen banyak Eh ini juga Besok bahas"
+    },
+    {
+      "start": 5459.8,
+      "end": 5469.03,
+      "text": "kapan-kapan Saya bahas Open UI aja kali ya ini kan Soalnya e apa sih Ada working group ya working group namanya Open UI"
+    },
+    {
+      "start": 5469.04,
+      "end": 5478.47,
+      "text": "untuk eh mereka itu dari itu asalnya dari berbagai vendor browser jadi tujuannya ya Ini buat memajukan apa ya"
+    },
+    {
+      "start": 5478.48,
+      "end": 5487.59,
+      "text": "web platform tapi pakai UI yang ya sesuai kebutuhan aplikasi modern lah J pop pop over ini pop over dan"
+    },
+    {
+      "start": 5487.6,
+      "end": 5496.51,
+      "text": "teman-temannya Kalau enggak salah termasuk eh hasil brainstorming si kelompok Open UI ini Nah mungkin besok-besok kita bahas kita bisa bahas"
+    },
+    {
+      "start": 5496.52,
+      "end": 5506.47,
+      "text": "Open UI termasuk include eh si pop over ini Oke siap nah terakhir masih ada ini ya masih"
+    },
+    {
+      "start": 5506.48,
+      "end": 5516.189,
+      "text": "ada satu ee bab lagi ya componen p kita cepetin aja dikit sih dikit cuman dikit kok pop over yang tadi"
+    },
+    {
+      "start": 5516.199,
+      "end": 5525.109,
+      "text": "ya pop over ya Heeh pop over Nanti aja Hah nanti ini powerover itu yang hamburger menu ini ya iya bukan Iya iya"
+    },
+    {
+      "start": 5525.119,
+      "end": 5536.07,
+      "text": "betulbetul jadi powerover dia dialog ya itu ya bukan Ya intinya sih semacam dialog cuma kelihatnya ada pembedanya deh ee bedanya"
+    },
+    {
+      "start": 5536.08,
+      "end": 5546.709,
+      "text": "ini apa dia bisa aksesibity jadi kalau pakai ke bisa bisa interaksi atau engak ada keyboard binding-nya by default Oke"
+    },
+    {
+      "start": 5546.719,
+      "end": 5559.47,
+      "text": "next horizontal Rul in select horizontal rule Oh bisa diroll bukan itu ada ininya Itu ada garis-garisnya sekarang oh nah select a"
+    },
+    {
+      "start": 5559.48,
+      "end": 5567.03,
+      "text": "favorite feature Nah kan bawahnya tuh ada opsi-opsinya tuh kan dipisahin sama garis horizontal i i Oke hal sesimpel"
+    },
+    {
+      "start": 5567.04,
+      "end": 5578.99,
+      "text": "itu selama ini kan eh developer harus bikin apa send ya kalunak bikin sendiri kan kita harus insty demi estetika visual karena"
+    },
+    {
+      "start": 5579,
+      "end": 5589.59,
+      "text": "mungkin kita harus ngikutin apa desain yang udah dibuat sama orang UI kan Nah sekarang udah bisa Apa web platform"
+    },
+    {
+      "start": 5589.6,
+      "end": 5598.27,
+      "text": "terus ini sih yang menarik browser supportnya ya tanget kombinasinya Safari and Chrome itu tu Ini engak ada brow Iya"
+    },
+    {
+      "start": 5598.28,
+      "end": 5613.31,
+      "text": "cuma di keterangannyar and Safari baru pernah kan Lihat kombinasi browser support Chrome and Safari Iya Firefox justru ketinggalan ya ini ya"
+    },
+    {
+      "start": 5613.32,
+      "end": 5623.39,
+      "text": "pun belum Chrome yang ketinggalanrium kan Ya cuma kalau misalnya ednya belum mau masukin ini kan baru disupport oleh"
+    },
+    {
+      "start": 5623.4,
+      "end": 5637.189,
+      "text": "Safari dan Chrome Chrome berarti maksudnya walaupun premium udah ada -nya gak mau kali masih diud SR Oke lanjut nah ini udah bisa"
+    },
+    {
+      "start": 5637.199,
+      "end": 5659.109,
+      "text": "semua valid and invalid sebelumnyaudah ada validalid kanudah ada ini ada user valid us invalid itu maksudnya kalau formbrary"
+    },
+    {
+      "start": 5659.119,
+      "end": 5669.83,
+      "text": "dirakanyaak Dar itu ada istilah eh dirty itu kalau user udah berinteraksi sama input tersebut jadi by default kan"
+    },
+    {
+      "start": 5669.84,
+      "end": 5679.109,
+      "text": "misalnya input t masih kosong itu kan kalau dari sudut pandang kita developer logic logic logiknya kan itu invalid"
+    },
+    {
+      "start": 5679.119,
+      "end": 5692.43,
+      "text": "karena gak boleh kosong tapi kalau dari perspektif user UX diisi aja belum Masa tibati udah merah error ituak S setelah userisi baru kalau"
+    },
+    {
+      "start": 5692.44,
+      "end": 5702.79,
+      "text": "misalnya engak memenuhi apa validasi baru kita Tunjukkan bahwa itu invalid dan itu pakai CSS aja ya iya"
+    },
+    {
+      "start": 5702.8,
+      "end": 5718.87,
+      "text": "keren ya jadi Green jadi merah invalid tapi dia belum merah ya ini merah kan udah diklikudah ini valid"
+    },
+    {
+      "start": 5718.88,
+      "end": 5729.149,
+      "text": "kalaunya ya biar enggak valid Oh kosongin aja karena kita udah apa Kar kita udah ngetik kita udah ngetik tapiuhi kriteria"
+    },
+    {
+      "start": 5729.159,
+      "end": 5738.99,
+      "text": "I tapi kalau belum dia masih tetap normal Ya normal Oh ini hanya dan selama ini kan cuma bisa dari apa cuma bisa"
+    },
+    {
+      "start": 5739,
+      "end": 5748.35,
+      "text": "dari apa eh form library atau custom script lah custom JS Nah sekarang di CSS udah ada invalid invalid ini masih state"
+    },
+    {
+      "start": 5748.36,
+      "end": 5757.91,
+      "text": "normal tapi kalau kita udah terus kita hapus dia kamera Nah Enggak bisa salah ih asli baru tahu entar semua browser"
+    },
+    {
+      "start": 5757.92,
+      "end": 5766.95,
+      "text": "udah tadi udah udah sudah full semuanya ye sudah baseline lagi Sudah lama ini Iya Firefox juga Firefox duluan berarti"
+    },
+    {
+      "start": 5766.96,
+      "end": 5779.75,
+      "text": "ini ya Oh iya udah dari lama lagi Iya ini kayaknya ini baru ada di Chrome baru ada di Chrome balik ya Heeh alright next"
+    },
+    {
+      "start": 5779.76,
+      "end": 5789.87,
+      "text": "exclusif akordon ada-ada aja eh cuma itu lumayan sering sih maksudnya itu opsi yang sering dan biasanya kita jadi harus pakai custom"
+    },
+    {
+      "start": 5789.88,
+      "end": 5799.35,
+      "text": "javascript juga kan custom UI eh library atau custom javascript walaupun udah ada elemen details baru bisa di"
+    },
+    {
+      "start": 5799.36,
+      "end": 5814.43,
+      "text": "chromium ini sebutnya udah padahal Iya apa si dan Safari juga udah tapi dia nyebutnya new Chrome namerib for detail"
+    },
+    {
+      "start": 5814.44,
+      "end": 5827.03,
+      "text": "Jadi gimana nih ya itu C kalau satu dibuka eh yang lain nutup Maksudnya Coba aja bukabuka eh enggak MP ini"
+    },
+    {
+      "start": 5827.04,
+      "end": 5846.55,
+      "text": "MP kalau ini yang with name Oh ini CSS doang CSS doang berarti atau html doang ada js-nya juga tuh jsnya UNT"
+    },
+    {
+      "start": 5846.56,
+      "end": 5856.99,
+      "text": "apa ini kayaknya enggak bukan buat itu deh Event to pof ini pofil pofil Oh Baca a di atas"
+    },
+    {
+      "start": 5857,
+      "end": 5866.91,
+      "text": "tadi ada polyfil Oh iya i aslinya kan sebenarnya pakai detail ada detail name ya Mana detail name bawah"
+    },
+    {
+      "start": 5866.92,
+      "end": 5876.35,
+      "text": "bawah name myordeon Jadi kalau ini di kelompok dengan name maka dia akan E hanya bisa membuka satu dalam satu waktu ya kalau"
+    },
+    {
+      "start": 5876.36,
+      "end": 5892.87,
+      "text": "satu di toogle yang lain tutup seru ser selesai conclusion [Tepuk tangan] akirnya 2023 banyak banget ya update-nya"
+    },
+    {
+      "start": 5892.88,
+      "end": 5908.39,
+      "text": "ya banyak itu banyak yang kita ggak tahu ya yang kita tahu cuman kayak transer kontainer query Iya jadi ini yang bikin dari Chrom"
+    },
+    {
+      "start": 5908.4,
+      "end": 5919.229,
+      "text": "Dev ada Mbak Una ada Mas Bram dan ada Mas Adam Mantap Jadi kayak orang Indonesia ya Mas Adam Mas kita ketemu Mbak Una kan"
+    },
+    {
+      "start": 5919.239,
+      "end": 5932.149,
+      "text": "ya di Iya kalian kalian Saya tidak belum Makanya saya bilang kita kita saya Mbak Eka oke oke benar benar oke"
+    },
+    {
+      "start": 5932.159,
+      "end": 5949.31,
+      "text": "Jadi gimana sudah puas dengan CSS sudah bingung puyeng ianya puyeng Iya puyang ya kapan-kapan episode khusus layerah khusus yang hal-hal yang kita"
+    },
+    {
+      "start": 5949.32,
+      "end": 5959.55,
+      "text": "skip tadi Iya karena Tujuan kita kan belajar bersama Iya undang Siapa ya yang bisa bahas yang bisa yang yang expert di"
+    },
+    {
+      "start": 5959.56,
+      "end": 5969.589,
+      "text": "bidang layer kalau enggak Mas ad BR atau M mbak UN Iya kayaknya mas masmas atau mbak yang"
+    },
+    {
+      "start": 5969.599,
+      "end": 5982.91,
+      "text": "di sini ya kali ya bisa gak ya kita undang mereka ya Ya siapa tahu dulu wishing ajaing mudah-mudahan didengar sama"
+    },
+    {
+      "start": 5982.92,
+      "end": 5997.589,
+      "text": "masang masang lagi banyak teman-teman yang gakak tahu nih k Mas Dang Ini siapa sih kadang muncul kan iya ya tetap"
+    },
+    {
+      "start": 5997.599,
+      "end": 6004.31,
+      "text": "enggak tahu tetap bingung tetap engak tahu kan siapa dia muncul siapa he Oke kalau gitu terima kasih banyak"
+    },
+    {
+      "start": 6004.32,
+      "end": 6012.669,
+      "text": "buat semuanya Terima kasih sudah berpusing-pusing Ria bersama kita ya jadi minggu depan kita tidak akan membahas CSS lagi Eh kita ada bahas"
+    },
+    {
+      "start": 6012.679,
+      "end": 6020.31,
+      "text": "CS karena udah pusing Karang udah pusing jadi kita stop dulu bahas CSS ya ganti dulu biar enggak bosan Heeh kapan-kapan"
+    },
+    {
+      "start": 6020.32,
+      "end": 6029.39,
+      "text": "ee beberapa hal yang menarik contohnya tadi apa eh UI Open ui ya Open UI iniisia Open UI interop belum lagi"
+    },
+    {
+      "start": 6029.4,
+      "end": 6038.27,
+      "text": "minggu depan special guestal kalau interog sudah ada sudah ada ininya kayaknya bisa kita bahas kalau sudah sudah rilis ya iya iya kalau udah rilis"
+    },
+    {
+      "start": 6038.28,
+      "end": 6044.589,
+      "text": "karena menarik juga dibahas di awal tahun betul nanti di akhir tahun kayak rap lagi ya atau di awal tahun depan"
+    },
+    {
+      "start": 6044.599,
+      "end": 6058.95,
+      "text": "gitu ya I oke terima hari lalu oke than kalau ada yang mau apa ngide ada yang mau ngide bisa ke"
+    },
+    {
+      "start": 6058.96,
+      "end": 6068.51,
+      "text": "pesana.in/ngobrolin ini the topik ataupun narasumber ya bikin aja gthub isue eh bukan isu discussion G dision di"
+    },
+    {
+      "start": 6068.52,
+      "end": 6077.87,
+      "text": "repo kita nanti e atau kalau ada topik yang menarik bisa diupad ya jangan lupa login dulu ke github-nya itu aja dari"
+    },
+    {
+      "start": 6077.88,
+      "end": 6092.8,
+      "text": "kita malam hari ini eh selamat malam sampai jumpa lagi minggu depan by bye bye"
+    }
+  ],
+  "fullText": "perhatian perhatian halo halo halo semua selamat malam Halo selamat malam saya terda belum dibuka Bukain [Tertawa] dong Iya Salama malam selasa malam selasa malam waktunyaakunyaobrolin web mudah-mudahan gak pada Bosan ya ditemin kita bertiga terus Iya karena topik kan Minggu lalu barusan sama berempat jadi minggu ini bertiga lagi dan minggu depan berempat lagi siapa yatime Pak ini my ID Wih domainnya keren tuh my ID Halo selamat malam naik daun [Tertawa] gambarun Iya jadi malam hari ini kita rencananya mau bahas eh lanjutan dari e artikel csap ya karena kemarin belum selesai ya Kir kirain dikit kirain kayak sekali episode bakal habis Ternyata banyak banget ternyata jadi yang belum nonton bisa bisa lihat eal du episode lalu du episode lalu tapi nanti aja lihatnya malam ini sekarang lihat kita duluat yang ini dulu kalau gak nyambungakyambung gak ya jadi malam ini E apa ya kali kita e pertama saya eh akan ya menyiksa diri untuk menyiksa diri sama saya saya sayairi juga untuk belajar CSS nih dipaksa belajar overview dulu dong CSS itu eh apa Kenapa kita eh pilih artikel ini jadi kalau kita enggak ngerti ini adalah skill isu [Tertawa] ya artikel web Ini pertama kalinya ya kayaknya sejauh yang kita tahu sih Ini pertama kalinya tim devrel dari Chrome eh apa di situs Chrome for developer membuat semacam rekap artikel eh apa fitur-fitur CSS apa aja sih yang yang baru eh dan yang menarik Ya pastinya dan yang powerful Maksudnya kita kita pas kemungkinan kita enggak tahu selama ini CSS ternyata ada fitur a b c d ya banyak banget tuh sampai z nah ini pertama kali ee semuanya direkap dalam satu artikel jadi kan lagi ngetren tuh kayak wap-rap semua apa spotify lah sampai sampai recest juga ada wap-nya kan Nah ini juga ada wap apa kayak Kilas Balik lah fitur-fitur CSS yang ada di tahun 2023 cuma ini kayak artikelnya tuh yang detail banget sama ada demo demonya jadi kita senang tapi kita bingung juga karena selama ini kan maksudnya mungkin di tempat kerja atau apa di production kita gak berani ya pakai fitur CSS yang baru atau mungkin gak sempat ngulik nah jadi kita bingung juga karena banyak kita I atau kita jarang menggunakan Van Ya sudah dicover sama Framework entah ituot atau yang lagiang k kita enggak banyak tahu karena eh kita sudahah terbias framew nah Kalaupun kita pakai Framework atau library CSS kita tetap perlu tahu fiturnya karena eh Ya maksudnya misalnya kita pakai tailwin nih Eh kalau kita enggak tahu ada fitur X ya kita enggak bakal nyari itu kan kayak nanti ada contohnya sih menarik kontainer heeh ada contohnya iya kalnya ya kayak minggu lalu yang kita kebingungan bersama yaitu CSS layer S sekarang ke depannya pun kalau itu di incorporate sama apalah library atau prosessor atau Framework CSS kan kita tetap mesti tahu cara kerjanya biar bisa pakai e apa entar kita bingung juga Pak kita sekarang kita kemarin bingung nih pas lihat yang vanila nanti Misalnya diadopsi sama ya kita bingung juga jadi ya sebaiknya bingungnya diseles dulu sekarang dengan yang vanil hal yang bagus juga kalau kita enggak terlalu bergantung kepada Framework misalkan nih butuh apa ya Eh animation eh animation sederhana gitu animasi sederhana kayak out karena CSS pun udah bisa animasi gak perlu harus wahal eh apa greenock kah library JS gitu ya atau Ewin sudah menyediakan Open sudah menyediakan kalau kita tahu vanilanya kalau hanya butuh satu atau dua suara volumenya mas Riza sama Eka naik turun enggak sih atau saya doang putus-putus Siapa yang putus-putus kayak mas Riza naik turun Pas lagi pas lagi ngomong naik turun ada kadang kuat kadang kadang eh mengecil gitu takutnya penonton Iya benar juga katnya jaringan deh itu enggak apa namanya kayak mungkin adaptif gitu adaptif adaptif sih enggak resolusinya diturunin dulu coba coba saya ganti audio ruce mic mic background noise-nya diunceck cobaudah Iya mungkin dari si itu Dar I settingannya si ini streamyardamy kalau Pak l kecil jadinya suaranya halo halo sekarang gimana nah bagus kecil tapi tapi tidak naik turun Nah lancar Heeh Iya Naikin aja volumein nah Berarti kayak itu Echo cancelation-nya si streim tuh kayak dia berusaha reduce noise-nya kaliik Iya kayak putus-putus sekarang gimana nah lebih lancar bagus cuma tinggal dinaikin aja volumenya volumenya naikin volumenya kurang volume Volume input ya audio I 110% sudah 114% kurang kok enggak nggak rusik 130 enggak ngaruh k kayak enggak ngeruh deh kayak ada settingan mixer atau apa mungkin segini Segini nah cukup sudah Iya lebih enak oke oke Wah masih kurang atau cukup cukup cukup ya oke i i jadi eeak banyak fitur-fitur yang mungkin kita enggak tahu dan bahkan CSS pun sekarang sudah apakah sudah bisa dikategorikan sebagai bahasa pemorgaman karena Nah itu debat sepanjang masa iya sudah ada trigonometri sudah ada kondisal kan eh media query dan query-query lainnya yang bakal kita lihat itu kan kondisional kond sudah ada kondisional lain media query ya Iya media kan if screen size bla bla bla nah terus variabel Ah ada nah l nesting nesting juga sudah bisa Heeh betul nah Oleh karena itu Mari kita bingung bersama Iya bingung sendiri itu enggak enak jadi bingung bareng-bareng kita ngajak-ajak kalian bingung sebenarnya oke nah kemarin tu kita sudah bahas tiga kotak pertama ya Dar arkitectural foundation tipografi sama warna nah malam hari warnanya pun di speedrun karena kita udah pernah sebetulnya Kian kita sudah pernah bahas di episode entah Episode berapa tapi pernah berapa ada yang ngomongin warna tuh awal-awal ya yang ingat banget tuh Rebecca Purple cerita tentang Rebecca Iya heeh he cerita sedih campur kocak tadinya kocak tahunya sedih tapi ada ininya ada selanjutnya yang kita khusus membahas warna yang komplit ada ya iya ya itu yang HCL HCL hsl okes sama saat bingung bersama juga saat itu okr KPI itu Kerjaan kantor Maaf ya salah iya jadi kita terakhir sampai di sini di bagian color nah Malam ini kita akan masuk ke responsive design responsive design yang paling seru kalau responsive design ini kayaknya eh sempat dicover juga di Dev kemarin ya sama Pak Dika ya Kalau enggak salah ya ngomongin Oh iya iya ya betul jadi yang masuk kategori responsive desain yang pertama adalah S container query ini juga salah satu topik bersejarah karena ee inisiasi I yang pertama bikin kita ngobrolin web literally bertiga Iya kita ngumul bertiga terus ketemu eh apa yang baru nih kontainer query kontainer query berul ya tiap minggu gitu Ken kita ketemu dan kontener query itu baru 1 hari jadi H plus one gitu H plus one eh kita langsung bahas kontener query bersama H dan ternyata Langsung nyambung dari sebelumnya kita kan jarang ketemu juga ya jarang ketemu yang bertiga kalaupun ketemu ya kayak basabasilah say ha engak k Emang pernah ketemu bertiga langsung Oh iya di itu ya di acaranya web UNC bukan oh iya we UN Iya betul I basa-basi doang nah cuma ternyata ngobrolin web ini kontainer query dan ternyata semua browser eh semua browser Major sudah support Ya sudah sudah keajaiban alam eh media query eh Sebelumnya kan kita baru punya media query hanya berdasarkan size ire si Iya sekarang berdasarkan kontainernya ukuran kontainer atau elemen yang berada enggak harus immediate parent pokoknya Eh tapi ya harus eh harus enggak sih kayaknya harus gak gak harused parent tapi sesuai harus ini ya berarti ya kata kuncinya ya Nah kenapa tuh ada udah ada media query Tapi kenapa harus ada perlu ada lagi kontainer query itu karena ya kembali lagi karena layout sekarang kan makin Kompleks ya makin kompleks dan belum tentu e ukuran screen size kalau kita misalnya Mik in e blok ya blok blok blok dan ada satu blok misalnya sideb sideb itu hanya bisa mungkin e elemen yang dalam sidebar itu ukuran ukuran elemennya kan tergantung sama parentnya yaitu sidebnya kan Tapi kalau misalnya screennya naik turun kan misalnya saat screennya mengecil tentu side barnya turun dan mungkin bentuk ukuran side barnya membesar sedangkan ukuran viewpnya mengecil Nah kalau kita menggunakan k kita enggak perlu repot lagi gitu Jadi hanya tidak peduli viewpnya berapa kita hanya peduli dengan kontainer parentnya berapa jadi lebih mempermudah hidup si front end lebih fleksib Heeh Enggak banyak apa properti-properti atau kan eh Jadi kan sebetulnya prinsip responsif Itu kan mungkin Eh kalau sekilas orang suka salah paham ya responsif cuma Apa dikira ukuran viewport aja tapi kan responsif itu banyak termasuk ya Eh misalnya di luar ini ada light mode Dark mode ada orientation ngadap mana Nah termasuk eh bukan viewport tapi kontainernya jadi ya kayak contoh sidebar tadi bisa aja apa dibukanya di iMac atau apalah yang besar banget tapi eh suatu komponen itu munculnya di sidebar Nah kan enggak lucu kalau ditampilinnya besar banget karena yang perlu menyesuaikan ke parentnya yaitu si sidebar yang kecil itu Jadi sebetulnya sih kelanjutan dari prinsip responsif ini berguna banget buat Kalau kayak wujud ya ini contohnya di video ini kalau pakai media query setengah mati wiinnya banyak banget ini kondisionalnya to be honest kalau enggak pakai container query maksudnya kalau enggak pakai container query Oh Pak Med dia kalalin pakai javascript bisa aja kita apa Calculate kan harus query selector dokumen query selector ambil wi-nya baru di di kalkulasi diassign kuas Mana yang mau dipakai pakai pakai ini namanya apa namanya ada eh ada helper toolnya ya resver apa e eh Res reserver apa istilahnya apa tuh jadi kontainer ini kalau untuk ehverserver reses observer Iya observer nah oh js-nya iya i eh ininya api-nya Res ap I api Iya jadi harus ee apa namanya kayak ngecek kalau misalnya orientation Berubah kan pakai resess observer H kalau reak tuh ada hooknya malah sampai kok gua ma jadi resolver resolver Cris observer ya ada rnya ada vernya iya nah kalau pakai tinggal buat pakai add container seperti itu dan semua browser sudah support sudah masuk baseline si belum Ini add container masuk Basel Ya enggak tahu dua versi terakhir atau belum Yang ini ya berarti ya Yang Iya heeh coba zoom in zoom in Oh yang di zooom in ininya bukan apa namanya mana dia harus diklik dulu berarti di atas atas n select dulu ini ya Heeh coba Zoom Zoom enggak bisa Oh gak bisaom itunya e apa yang besar Arnya gak ngaruhnya nihennya kita klik aja coba ini dizoom ini diclose bisa gaknya diose itunya JS javascriptnya aja diiz ke kanan nahudah ini ya ya iya ya itu kalau kontainernya lebih besar kontainernya lebih besar atau sama dengan 400 wait wait wait wait bacanya dari atas dulu defaultnya gak nak benar yang tadi yang tadi yang tadi bawahit defaultnya Which is mobile ya mobilenya begitu begitu mulai naik dari 400 Which is kenanya ke tablet ya kena itu terus di atas 600 kenanya yang bawah lagi Hm Oke berarti mirip-mirip ktainer query juga cuman ini bukan media query mirip media mirip-mirip media query tapi Eh kalau media query berdasarkan ukuran layar atau ukuran browser dia viewport kalau ini berdasarkan Eh parentnyaent ada kan biasanya kalau dari Sas itu kan MQ MQ E ini kan sor yang dia e apa namanya packageennya untuk eh mixingnya namanya MQ jadi sampaial mix custom mixnya Iya MQ itu ada ada packagenya jadi sudahfine itu biasanya dari dokumentasi awal sudah define Oke target kita untuk e biasanya small Iya sudah ditargetkan UN medium terus kemudian tablet segala macam sudah sudah ada break pos Nah sudah ada break posnya jadi E itu targetnya media media query sedangkan Nanti kalau sudah pakai ktainer query sudah berkurang eh penggunaan media query karena kita bisa langsung targetkan eh ktainernya oke nah gimana kalau enggak support Browser yang enggak support eh itu untungnya Maksudnya semua teknologi web platform itu dibikin eh nonbreaking jadi ya kalau browsernya enggak support eh ya Apa style style yang diapply ya yang di atas itu yang gre auto auto auto Iya heeh gitu doang Maksudnya enggak akan rusak cuma ya apa tampilannya Al kadernya lah enggak error kecuali H waktu itu bikin eror H bikin error di di Firefox ya nanti kita bahas sebelumnya sebelumnya sekarang sekarang sudah stabil sekarang sudah stabil sebelumnya I Oh itu berarti ya bukan nah udah ada pluginnya juga l ini Coba buka dari Link jadi ini makanya t Tadi bahas apa bahas SS library Jadi kita tetap perlu tahu yang baru-baru kayak gini biar kalau to kita pakaibrary atau frame eh dan ada pluginnya nah kalau kita enggak tahu tadi tentang container query dan ggak tahu Cara pakainya kita enggak bakal pakai ini juga kan ini apa ber ada enggak Twin Twin layer Ada enggak sih ini plugin ya belum k plugin ya terpati pluginnya Enggak enggak Dar Iya e maksudnya plugin tambahan bukan terparti sor plugin tambahan kita kalau misalkan kita instal pertama kali kan dia enggak ada kanak ada biasanya biasanya jadi kalauudah ituudah sekitar du versi terakhir bakal di Jadi ceritanya ceritanya begini caranya biasanya Project open source saya enggak tahu soal Twin tetapi Project open source seperti di WordPress contohnya kalau misalnya ada suatu fitur dan itu bakal featureature fitur yang e akan masuk ke Core sebelum masuk ke Core dibikin plugin dulu saya lihat caranya ini sebelum dia sebelum dia stabil dia bikin dia dibuat sebagai plugin dulu yang bisa orang bebas OP in atau op nah suatu saat perkembangan rilis selanjutnya dia bakal Mer ke cornya nanti ya ke depannya gak perlu Instal lagi Jadi sebenarnya awalnya semuanya yang las las las ini yang untuk eksperimental dibuat sebagai plugin terlebih dahuluah kalautoh kasus contoh kasus yang kayak gitu itu dulu aspek rasio kan di CSS ada aspek rasio ya dulu banget itu detail berupa plugin ya plugin official setelah apa setelah ST setelah ST saat sekarang aspek rasionyaudah masuk yang jadi emang caranya Ang betul begituuu terak mungkin ya pemakaiannya basic ya jadi engak perlu Plin macam-macam tapi tetap aja ada NPM package sebenarnya Mas tetap aja NPM package makud Heeh Ya paling mungkin pakai pakai telwin yang lain yang enggak engakak enggak ngeh gitu enggak ngak benar benar benar misalkan pakai biasanya langsung loncat ke itu ke UI library Des UI atau pakai apa E flow bit gitu-gitu tapi enggak tahu di dalamnya dia pakai plugin e t sendiri atau enggak gitu e nah tuh Scroll ke bawah ada contohnya Ini ya nah jadi sebetulnya ya itu eh di awal kita juga Ah bilang enggak wajib wnya jangan sampai bergantung ke beginian tapi misalnya kita apa praktiknya ya tim kita semua udah pakai tawin terus kita pengin Cepatlah e tinggal nulis kelas name ya bisa dipakai juga yang penting kan kita tahu cara kerjanya enggak tiba-tiba bingung apaan nih ada add add container dalamnya ada add large eh tik2 underl berarti eh yang at large ini akan mengikuti ukuran si kontainer ini seberapa besar atau seberapa kecil G bukan jika kontainernya large eh maka di isi si di yang Heeh di yang CH itu akan dikasih garis bawah Tuh kan ada keterangannya tuh when the container is larger than bla bla bla nah lar small-nya breakpnya itu pakai breakp tailwin Bawan tailwin atau yang bisa kita custom juga LG bisa dicom bisa dicustom tuh ada tulisnya tuh by default we provide container sizes dari XL sampai 7 XL Oke menarik menarik nah terus bawahnya tuh kan tadi kita bahas harus immediate parent atau enggak harus makudnya Harus apa ini elemen harus yang mau disyle harus langsung di dalamnya atau enggak Nah kalau tadi kan by default kita enggak perlu kasih nama karena apa langsung parent dan child-nya itu langsung tapi kalau misalnya mau ada lengkap satu misalnya lengkap lebih dari satu gitu enggak immediate parent Child harus dikasih nama Nah itu bisa kita kasih nama seperti itu snxsnya oke Bisa arbitrary container size lama-lama saya jadi pengikut aliran t ini emang sekarang belum sekarang tergantung Project saya enggak punya enggak punya preferensi oke Ya kan yang penting ngerti cara kerjanya justifikasi gitu justifikasi loh benar kan misalnya suatu saat tiba-tiba enggak boleh pakai telwin Ya udah enggak masalah ya aja biasa leh tepatnya lebih tepatnya karena di posisi saya sekarang kalau misalnya ada yang berat-berat soal ee soal penentuan atau arsitektur untuk front endnya saya panggil orang yang panggil orang yang ini panggil orang yang lebih jagolong dong I set up dong tinggal bilang sama PMnya Saya butuh orang itu diesourcing e seminggu untuk beresin ini tinggal gituin Iya kalaug [Tertawa] delegasi-degasiahbang saya ngerjain bisa sebulan kali Enggak kelar itu fungsinya teamwork tapi harus ngerti karena e minimal kan Setelah dia selesai atau siapapun Project kan tetap dimaintain Masa cuma update sedikit harus ganti orang kan gak ya Jadi tetap harus mengerti Lagian kalau kita gak ngerti ya gawat juga mau pakaiwin mau pakai vanila atau apa misalnya contoh yang tadi kalau child-nya di misalnya harus di Eh suruh dipindahin nah dipindahin tapi parent-nya enggak dipindahin yang yang ada apa class name container query-nya Ya udah berantakan semua kan Iya yes betul kita lanjut l lanjut style container query Oh masih container query juga ya Heeh cuma ini lebih kompleks dan beneran suka-suka chromium gitu eh apa vendor lain belum ngasih belum ngasih Oke sama sekali ya enggak tahu kalau suatu hari mereka tiba-tiba dapeting pencerahan ini tambah mirip bahasa pemrograman jadi yang di dalam itu style Apa metodnya style kan tuh itu kondisi berdasarkan CSS custom property atau yang kita sering tahunya CSS variab ya CSS variab atau CSS custom Property Heeh Gimana cara kerjanya ini jadi gini tuh eh contohnya Tuh add container sty kurung apa Dash Das rain.2 true nah style yang di dalam apa kontainer itu bakal diapply kalau target elemennya itu punya custom property Rain yang value-nya true t lah true ya entar juga ada contohnya [Musik] Nah coba kalau t tldr nya itu tadi mendeteksi keberadaan custom property di elemen yang ditargetkan ini yang ke efek yang ini yang R Heeh jadi eh apa lihat html-nya deh yang di kiriah Li list item Yang Pertama eh class card container style sama dengan atas atas up up up Oh iniah Kan ada styennya R tik eer keatnya itu jugatainer semua tapi yang style ada custom property R Nah jadi gak dipply kan Coba deh Gak cuma eh engak Tapi oh gak bisa ya harus [Musik] Ex yang punya anak pasti tahu yang punya anak pasti tahu jok bapak-bapak Oke berarti Wah semakin Kompleks ya he ya kayak pemrograman ya kan Iya benar Oh ini jadi satu blok sendiri di dalamnya ada eh enggak ya Iya kan Benar kan satu blok sendiri ya Iya query kan kontainer query kontainer query tapi kan kita tetap harus mentargetkan suatu selecttor tertentu kan Nah di sini selecttornya weather C kalau tanpa style Bisa enggak kalau tanpa Ini apa bagaimana cara membuat Ya dikasih id atau apa misalnya tuh yang perama dikasih kas Ya dikasih kas name ya CL name class name-nya C eh atau card dasd Rain nah cuma itu mah sama aja Iya Jadi ada kondisi ee apa kita nambahin pakai javascript gitu kali kalau misalkan datanya Rin pakai pakai kassas kan bisa juga sebenarnya cuman He Oh Kenapa butuh container style gitu ya E Jadi sebenarnya lebih mempersimpel aja ya Iya samaersimpal dari mananya ini malah ribet Kak apa mempersimpal html-nya tapi kompleksitasnya di CSS atau gimana lebih tepat itu Jadi mempersimp mempersimple kalau anggap aja ini si ktainer style ini sudah satu satu mixin sendiri satu blok yang unit ya satu unit gitu dan untuk mentargetkannya itu hanya kayak ngasih style apa gitu misalnya E Das makudnya ini kan contohnya Rain E dan ini custom property kan sebenarnya kan jadi apapun custom propertynya bisa e anggap aja custom property D atau custom Property like atau dan mungkin accessibility juga custom property untuk accessibility juga bisa ditargetkan kan Atau mungkin kita udah pakai custom propertynya untuk hal lain mungkin misalnya data visualization apalah kan banyak tuh misalnya bar chart atau apa Eh value-vue-nya ya Sekarang kan udah mulai banyak yang pakai eh apa custom properti Nah itu kan kayak mumpung itu udah ada nah bisa lebih jauh lagi di adjust stylingnya Eh pakai CSS dengan mentargetkan si custom property itu Oh tapi ya jangan senang dulu karena eh browser selain premium masih belum I ini Kayaknya masih ini ya masih belum ya masih belum di tapi ya masih ada kans ke depannya ya mungkin bisa enggak tahu 2024 2025 2026 ini ini status baselinenya masih Orange ya kuning Heeh belum hijau Eh tadi Kalau yang si apa container query size eh itunya apa hijau eh biruor biru Wah udah centang itu maksudnya Berarti udah support du versi terakhir apa ya udah udah stabil lah ya udah bisa siap Sudah Basel sudah baseline Oh udah hampir 1 tahun umurnya tuh tuh ada di paragraf pertama container queries menjadi stabil di seluruh browser di Valentine day di itu kan 2023 berarti 2024 besok nih setahun gila ya sudah setahun cuma masih banyak yang belum tahu betul ini baru style dengan eh custom properti Nah kalau kita mau main kondisi bisa kayak gini juga Nah benar jadi bahasa pemrograman ya in future versions belum Sekarang belum Oh belum Ya nantinya ya ke depannya ya nah cuma itu makanya kelihatannya bakal ke arah data visualization gitu sih Kan yang ada angka biasanya yang ada valuevue angka eh chart chartan atau apalah dashboard dashboard widget widget gitu Paling I benar benar benar kalau angkanya tinggi jadi hijau atau apalah jadi merah Oh iya i sense dan lain-lain Ya lanjut H nah ini yang salah sat diomongin e udah udah support juga udah biru berarti sudahudah aman y k eh ini apa eh problem yang mau di ini dulu saya eh apa namanya pernah biasa ya pengetahuan seorang yang non ahli CSS gimana sih Saya mau ng-estyle parent tetapi berdasarkan value yang ada di child-nya tu gimana gitu gimana Enggak susah gitu Saya mau ngerubah Child eh saya ngerubah karena di di CH elementennya itu e apa namanya ada value anggap ya Eh border ya border itu bordernya itu nempel di parent di container parent tetapi di ee bordernya itu merah kalau sebenarnya nilai saya di dalam itu error atau invalid eror atau ya itu gimana caranya akhirnya ya harus pakai server rendering yang dikasih Kalau value-nya rendah saya tambahkan di templatingnya ya Iya error class Kalau sekarang enggak perlu Jadi kalau misalnya di dalam e di dalam elemen itu ada error message otomatis parentnya menjadi warna backgroundnya warna merah contohnya itu bisa Jadi kalau cardnya punya error message jadi merah kalau kalau di sini contohnya kalau cardnya punya image jadi Purple Heeh Nah jadi ini selecttor yang ibaratnya ngelawan kadrat lah ngawan kadrat CSS kan jadi kan CSS itu kan diproses sama layout engine pakai CSS object model Ya semua kan dibaca dari atas ke bawah makanya alasannya dari kalau CSS lama sebelum has parent bisa ng-estyle child-nya terus sibling apa yang eh apa elemen yang setara sibling kayak kakak gitu yang muncul pertama bisa eh ng-estyle eh selecttor eh elemen setelahnya bisa ng-estyling adiknya Tapi dibalik enggak bisa anak enggak bisa ngestyle orang tua Terus apa sibling Elements adik enggak bisa ngestyle kakaknya atau yang berada di atasnya dulu sebelum H nah H ini ya memungkinkan eh itu tadi kebalik titik dua H ini apa Istilahnya ya kalau Shadow elemen kan pakai n kayaknya strtur doang deh ada istilahnya engak sih iya kalau Sud basanya yang dua kan kalau seperti sama kayak Child juga kan Child juga sama kan caranya Oh iya nth Child ya i ya Heeh Jadi kalau ini Ini bacanya gimana kita kena kita kena spamentar basmi basmi spam dulu kena spam oh f f jualan kpto udah ada yang spam Heeh naik level kita sudah ada yang spam sunb sunbardbnya dimatiin gara-gara tadi trouble mic Kayaknya ada pengaruh di situ bisa diband kalau diband Tuh hilang ya kayaknya baru pernah ya kita biarin aja ya biarin Hah bangga diband lah pengin pengin lihat Oh diband 70 episode baru pernah Kena apa spam spamot sekarang wah 71 malah semua ye pencapaian ya oke nah Ini bacanya gimana nih ee Ini card kan iya terus kalau card Punya card media yang atas kan enggak di dalamnyaard ada kard media Heeh yang atas kan enggak ada ya Mak maka dia akan menjadi colornya 6300 FF ini yang adalah Ungu ya Coba bikin aja dbk Purple gitu Oh iya sama aja Ungu beres beres apa sih jadi warna apa hijau hijau oh oh iya jadi dia akan mencari card media ya kard medianya yang ini Oh ya luah aja card media itu jadi card medias gitu tambah s Nah jadi tap warnanya sama Kena enggak kena ya oh oke dia carinya berarti berdasarkan Oh bisa apa aja kan kalau IMG Bisa kan Bisa bisa kayak selecttor dia kayak selektoror biasa Selor CSS dalamnya ya selecttor CSS jadi enggak mestis enggak mesti ini ya bisa class name ya bisa Apapun lah bisa ID name bisa elemen ya i ya oke oke oke Bisa pakai itu juga misalnya mau bikin kayak eh selecttor yang contohnya do media tapi langsung Pana apa gitu bisa spesifik juga kok H ee ya bisa spesifik bisa intinya CSnya selecttor dalam itu sebuah selecttor aja luar dalam luar dalam selecttor semua ini ada pertanyaan dan bisa dibuat dan bisa dibuat has not juga dibuat kebalikannya has not Oh kalau tidak punya atau kalau tidak berisi bla bla bla kasih sty ini i bisa dibine ini ada pertanyaan dari yang namanya sama sama saya R bedanya selorwin sama yang dibahas sekarang apa gak ada bedanyawin C juga itu kan cuma class name jadi apa selecttor tailwin ya berupa class name misalnya apalah m myy-4 Nah tailwin itu menganut pendekatan Atomic utility CSS ya utility class first ya H jadi satu properti CSS koresponnya ke satu telwin Class name contoh tadi misalnya m m margin gitu m eh CSS property-nya margin terus dibuat abstraksinya dalam library tailwin berupa class name eh m-4 itu CSS biasanya margin ti21 Rem jadi ya Eh itu kayak abstraksi aja sih Isinya ya sama CSS biasa juga Iya ujung-ujungnya ke CSS juga tapi istilah selector diilwin juga sama sama istilah selecttor di CSS kan ya enggak ada beda sama kan itu Kel name aja kan CL name my4 atau m M4 dan lain-lain ini contoh-contohnya niat banget ya bikinnya ya Iya makanya bagus senang lihatnya kalau kita kayaknya ini bikin satuik Conto yang ngebikin satu halaman ini kayak kerja tim berapa hari gitu Iya iniang kerja dia itu ya Iya bikin Conto enak ya k sebulan sendiri untuk Bik satu halaman ini kayaknya ya ya terus lebih ke apa dapat ada ilustrasi-ilustrasinya iya ilustrasinya terus mikir apa ya kayak estetika warna gua pun yang front end yang sefront end front end-nya tetap aja bikin contoh merah hijau warnanya tabrak lari yang kan yang penting jelas makudnya eh yang ditunjukin apa biasanya malah makin jelek makin makin senang karena makin jelas kan nunjukin Oh kalau kayak gini e kalau case-nya begini jadi munculnya begini orang uiux-nya yang hm cek cek c tuh ada komen dari Mas Abdul Malik tuh kayak ngecek k Ius sudah dis-support banyak apa nih eh H ya Oh iya h iya ini apaagi le hover hover ini sudah lama ya ya itu selector Hah hover hover mah dari dulu Oh iya plusnya atau hovernya ini artinya Li elemen Li punya punya presidented bukan punya saudara saudara apa Iya punya Iya sibling setelahnya kan tambah itu e buat sibling yang di bawahnya bawa e sibling setelahnya lagi di hover Oh Nah makanya itu itu kayak dok Coba aja hover kan Coba hover salah satu ini kan ini kan Nah kan yang samping-sampingnya ikut di style kan iya iya oh iya agak besar sedikit nah selama ini kita kan gampang ngest yang kanannya yang kanannya ya itu tinggal selecttor apa tanda tambah aja nah ngestyle yang kirinya gimana dulu gak bisa kan kalau enggak pakai apa javascript sekarang bisa fish Oh itu namanya efek fish ya mikirnya efek apa do eh OS doos do Oke next update media kalau ini baru tahu baru lihat sekarang ini give you a way to add to refresh rate of device Oh ini gua gak tahagi belum pernah lihat dan tiba-tiba out of Nowhere semua browser sudahah support semua udah dukung apa sih ini engak pernah ada yang ngomongin ini juga sih Ya itu refresh rate jadi bisa smooth banget kalau handphone kita sudah atau device kita sudah mendukung e refresh rate yang tinggi bisa mungkin slow atau eh atau nan bahkan kalau e device kita low enggak bisa animasi Iya contohnya misalnya kita buka pakai e reader pakai kindle kindle itu kan yang pixel-pixel gitu kan ini He kalau slow gimana lebih rapat rapet ya kalau non Enggak bisa ya kalau non Enggak bisa Oh kalau slow E apa ya udah frame-nya lebih sedikit jadi frame-nya ya udah cuma e lihat kiri atau kanan Nah kalau fast kan bisa dibikin Heeh Gimana caranya Kok bisa sih ya kalau standar kan 60 60 FPS kan render render render render ya standar t pakai Oh bubelnya sih enggak usah perlu dihat karena kayaknya itu cuma buat ngatur ngatur ininya ngatur html-nya perlu wih ini keren html-nya svg doang weh itu pakai view Transition enggak ktainer qu container queries plus view Transition gila keren kita jadi lihat animasi di mana-mana layer demo support nih layer ini apa ayo nah yang kemarin itu kan ya kita enggak jawab juga sih kita bah kita belum tahu sampai saat ini masih bingung demo support mana dia media ini ya oh bukan bukan mana atas kayaknya deh atas Oh ini atas nah eh bukan itu scriptnya jangan enggak ada media querynya gak ada di sini ini Oh itu speed speednya dari mana tuh Coba ke atas deh vari E value speed speed sama dengan fast speed sama fast kan pilihan di sini Oh iya kalau kita pilih I Nah terus si ss-nya mana Iya mana apa jangan yang di html coba diintip enggak ada Jadi gimana nah masih misteri Iya dibuka dokumentasinya coba ke bawah learn more about media update zoom in ehah itu ada media querynya add media kok di demo tadi ini kan ada tadi kayaknya di demo ada ya ada tadi media Kita kirain media query padahal ya media query cuma update media media query untuk update bu bukan mana lagi iya ya Mana Iya mana Gimana sih ini demonya masih misteri satu doang lagi kalau di JS memang ada media dia Siapa tahu dia set media media engak ada enggak ada enggak ada Wah penipuan nih penipuan I pokoknya bentuknya kayak gitu Oh apa jangan-jangan yang ini enggak pakai sebelumnya begitu Gitu enggak ya Mana dia tadi loh gak ada ini update media he update oh coba slow deh pencet slow css-nya ada yang ditambahin engak di sini ya I CSS eh salah nih terus slow enggak lah engak berubah ya enggak bisa di Oh iya k gak bisa ya Nah ini masih misteri misteri lagi nih gara-gara ini layer ni dia pakai layer jadi misteri di man ya ini media updateennya juga misteri udah kita tabung aja entar kita bikin bikin edisi remedian misteri CSS misteri membedah demo iya ya di contohnya Beda Soalnya langsung media update fast media update slow tapi enggak working juga kalau misalnya di demonya enggak ada demonya juga enggak working kalau misalnya mungkin karena saya Pak Lain nih di ma yang lain nih yang dari dokumentasinya layer demo terus terus itu ada kalau itu ada media update fast Heeh kalau yang tadi yang e di CS rap itu engak ada kalau fast kalau slow ya kalau slow Iya lebih slow kurang halus Kalau Non I enggak enggak berubah Enggak berubah kalau slow eh slow enggak bisa slow enggak bisa kalau fes tadi tadi bisa nah ini F slow tadi enggak bisa ya slow tuh enggak bisa slow apa janj ada contoh lagi di bawah Oh enggak ada media update slow Oh udah ada slow di sini di sini F aja slow ada di sini Canvas texs-nya 11 pikel ini berarti masuk yang F Fali Ya iya lah soalnya ini kan bukanya di browser iya iya ya besok coba tes buka di kindle Oh harus pakai itu oh mungkin mungkin gara-gara itu dia bikinnya ini yang simulasi aja Jadi sebenarnya enggak dipakai Oh gu cuma cuma tampilannya kayak gitu Oh iya yailannya seperti itu mungkin ya contoh doang I mungkin i misstery solve Entar dulu belum tahu oke lanjut nah ini yang lebih berguna eh tap makud supportnya supportnya udah full ya ternyata ya Iya full ya itu tadi magically kita enggak pernah dengar kayak jarang ada orang yang bahas tiba-tiba semua browser sudah support aja nah ini juga tiba-tiba semua browser udah support aja sudah Heeh Ini sen Safari Safari versinya rendah sekali ya Yang lain udah 100an dia masih 17 karena Safari kan setahun sekali bareng sama update e osx Heeh Ini apa sih Iya nestate nestate CSS itu salah satu juga yang di update di tahun ini ya Heeh tahun lalu Oh iya tahun lalu 2002 2023 Masih berasa 2023 Terus enaknya bisa di apa bisa di colaps expand itu loh kalau di eh po editor w ya Jadi bisa Di bisa lebih fokus ya descripting media query can be used to check whether or not javascript is available This is very nice for progressive enhancement before this media query strategy is if for detec javascript no JS begitu Loading javascriptnya diemove apa classlistreove body.cllist.remove ini cuma ngedetect itu Ya lumayan ya jadi mudah pakai CSS bisa ngdetect itu I lebih rapi Inya ya itu scripting enak ya ini beneran kayak if kan kayak if apa kurung bla bla bla ya kita tulis aja kondisinya conditionnya ini kalau kalau javascripnya di dia akan capacity-nya nol yang ini kan heeh enggak ada uapnya Iya kalau misalkan ee enable maka ini muncul uapnya Oh gitu layer lagi penasaran sama layer kalau dihapus Gimana Enggak ngaruh Oh ngaruh Iya enggak bisa ngaruhlah Kirain enggak Ngaru Oke ee lanjut kita ke sebenarnya hal yang simpel hal yang simpel tapi kayak apa ya ngurangin ketergantungan javascript sama lebih rapi ya penggunaannya gimana apa ya rata-rata kita pakai no JS itu ya kalau misalnya E No js-nya masih ada kita kasih message gitu ya rata-rata sih begitu ya please enable javascript atau itu loh misalnya tampilan yang eh dibukanya harusck here to ral yang ada togtog ini itu kalau misal enggak ada javascript Ya udah dijbrank aja di dalam card kan bisa enggak CSS ngdetect itu add blocker seru tuh kan apa detect blockers jadi scripting atau add blocker media query C main kucing-kucingan nanti diganti lagi sama si e apa add blockernya terus aja kalau sebaliknya pernah eh apa kalau lupa deh kalau class name CSS class name bla bla bla ada add eh Dash bla bla bla itu di beberapa extension add blocker dianggap iklan kena blokir pernah dong enggak sengaja kayak gitu sering jadi itu cara ngdetect add blocker juga begitu misalnya kayak ada eh apa namanya kayak dumy javascript yang mengandung kata atau apa gitu akan ngeblok Jadi kalau misalnya dia ada add blocker dia muncul anti add blocker contohnya gitu keluar pop itu bener kucing kucing-kucingan Iya kucing-kucingan betul ya Jadi ini salah satu cara untuk mendeteksi javascript e di enable atau disable nah pertanyaannya ya ini m pertanya penting kopi tadi itu logonya Java bukan sih bukan ya logonya Java kayak gitu kan mirip ya lanjut ya Oh teman-teman di sini Berapa orang yang mable javascript di browser kayaknya testing karena make kalau misalnya javascriptnya dimatiin yaamanya Gak boleh rusakak browsowud javascript tapi ya tetap pengin ngetes eh kontennya terrender atau enggak apa ya sama mungkin kalau kalau user user beneran mungkin orang-orang yang kayak privacy minded gitu ya terutama di luar neg kalau di Indonesia sih enggak terlalu tapi ya mungkin ada i i benar Mungkin ada yang masih menggunakan apa links sebagai browser itu javpnyaap naator ya G enggak jalan lah orang di terminal Tex base Kok iya oke lanjut reduce transparansy media query Oh ini masih ada hubungan sama media query ya cuman ini masih orange masih responsif kan Iya e Firefox masih Bendera Kuning e Safari belum ada yang meninggal Ya ampun Bendera Kuning bendera bendera orange apa orange ya orange kontrasnya jelek ya heehak Kelihatan ini juga Orange ya Non op interface can use head or vis struggle forici jadi ini aksesibilitas ya untuk apa eh kelainan Apa fungsi mata fungsi mata [Musik] ehucear from theu jadi dia mengikuti prerensi dari settingan kitaang udah ada ya di OS mana gitu yang udah adaak tah Coba ya kalau rtion kan Ang di ya di windowsudah ada di macos jugaud tahu ada ada ada ini Redu R Trans Redu transparansi sama baru tahu juga Oh kalau di maksudnya dari OSnya ada gitu kah kalau di Windows ada transparency effecteknya ada On atau Off tapi kalau kita cari accessibility enggak tahu ya accessibility Enggak ada enggak ada kalau di Maos rasanya ada deh kayak kayaknya di bagianibility Engak enggak pernah lihat belum belum lihat ya mungkin ke depannya bakal ada di sini udah dia sebut kan di sini kan remove transfer UI Oh iya udah ada berarti Heeh kita aja engak pernah lihat karena Maksudnya kita kita enggak ngalamin gangguan pandangan yang kayak gitu mudah-mudahan atau belum bukan belum di belum jadi belum jadi Oh iya ada loh belum masuk lighth coba mas Riza ya ini silakan Share screen Ma bukan Oh enggak enggak di Mac Siapa yang mau share screenan saya bisa nih Eh saya lagi caranya gimana Oh ini ini entire application window entire entire gak gak application window kelihatan enggak diumputin dulu yang perlu diimputin terlihat terlihat tuh ada INF Oh iya W kontras ini bagan display accessibility benar kanity Dis display Iya ada Invert color R motion Inc contrast transpareny Oh iya ada ada Baru tahu klik jadi apa ya Oh jadi aneh jadi gelap eh jadi hilang jadi ggak pakai transparansi kan Iya jadi dia op full e op kontras Iya maksudnya kalau background-nya abu-abu ya abu-abu kalau misalnya transparansi kan itu kayak kebawa ee apa wallpaper di belakangnya kan Oh iya betul iya oh iya jadi mainan jadi mainan bisa bisa bisa kelihatan kalau saya share eh whole entire screen Oh gitu ar ar tapi sayangnya Android gah belum ada ya belum coba coba saya sudah oke Google Iya Google Google kelihatan ya ini kelihatan ya Ada ada belakangnya kan Iya heeh ini STT ini estt buat keindahan cuma kalau misalnya ada klik tuh hilang abuabu sudah enggak transparan lagi apa istil tapi kan jadi lebih jelas ya background blur ya jadi backgroundnya diblur agak ngblur gitu kan iya he Heeh efek apa lensa ya Iya secara estetika bagus tapi mungkin kan kalau misalnya yang ada masalah pandangan atau apa itu kan sebenarnya ngaruh kan maksudnya bikin itu ngaruhin kontras juga kan bikin masa background-nya yang harusnya abu-abu gelap jadi ada putih-putihnya karena tadi apa gambar langit atau gambar apalah tadi laut Iya e mungkin background atau wallpaper-nya enggak sesuai biasanya biasanya untuk ini nih paling sering di card depannya card belakangnya Hero terus ada cardnya mungkin sign in sign up gitu kan Eh di tengah gini ya sign in sign up gitu yang kita bikin estetika bagus ya Kita kasih opacity sehingga apapun backgroundnya si depannya ini backgroundnya biasanya ada gradien-gradien ya kan yang ngetren biasanya biasanya sunset sunset lah Sunset gitu ya terus atau yang abstrak kan suka gradien depannya 90% opacitynya udah standar terus kelihatan kan Nah berarti kalau kita reduce transparansi kayak gitu harus udah putih aja maksudnya apa ya apa kontras kontras Iya background dan teks enggak kepikiran loh baru baru baru tahu sekarang he belum jadi standar ini soalnya maksudnya standar check aksibilityibility check yang saya pakai belum belum pakai makanya baru tahu apa belum masuk extension kayak apa Axe itu loh a dan lain-lain mungkin tapi kalau fitur ini sudah ada ya berarti siap-siap aja next hari bakal bakal masuk kalau udah biru Ya baseline-nya sudah masuk baseline ya dan OS pun eh apa para pembuat OS udah menyadari bahwa itu fitur yang diinginkan sama user kan berarti itu ya valuable ya selesai untuk responsif Apakah kita akan masuk ke interaction Habisin aja hari ini habisin ya Habisin aja habisin tapi cepat-cepat aja besok besok bakal ada remedialnya view Transition kita gak usah bahas Ya udah lumayan sering ya Dan jugaudah bahas kemarin kemar ngomongin ini berapa kali ini kalau mau lebih lanjut Lihat videonya Eka di deves deves Bogor Ada kan Ada ya Bogor Iya ini juga Eh tapi belum semua ya Eh Firefox sama Safari belum Tapi udah itu udah ngasih eh apa hampir eh request for position mereka udah eh position-nya tuh Oke jadi eh belum belum berupa komitmen bakal langsung masukin ke browser Mereka cuma secara esensi eh mereka enggak masalah dengan apa api ini Hm berarti sudah setujuah kira-kira gitu ya Heeh Oke besar kemungkinan suatu hari bakal masuk browser lain iya tldr-nya iya udah diadaptasi sama framework-framework seperti SP Wah banyak banget e spellkit Astro NX kalau next masih unofficial sih tapi UD ada pluginnya sampai yang server side aja kayak Turbo heeh ada ada kalau di Framework ada cuma kalau di sini mah enggak harus bikin sendiri Iya Intinya kita bisa punya apa ya transisi antar page misalkan page A warnanya merah page B warnanya biru dia bisa ee kayak bertransformasi dari merah ke biru gitu ya Kay kayak SP tetap elemen Heeh jadi e sebetulnya view Transition itu ada dua level udah kayak makanan udah kayak penyetan cabe kan kayak makan pedas aja kan ada level-levelnya nah level 1 level 2 yang level 1 itu masih yang CLI side yang buat spa jadi apa antar elemen lah jadi e Apun itu elemennya terserah mau kayak gini ini kan cuma ngrender sebenarnya Cuma ngrender svg yang berbeda-beda kan kalau kita klik svg-nya dirender Udah gitu doang jadi Apun elemen Apun eh Jadi kayak mengconnect antara eh state atau kondisi UI sebelum dan sesudah nah terus dibuat transisinya kita yang mefine animasinya Seperti apa Nah terus perkara ngumpetin dan kan sebenarnya Anim transisi itu kan terdiri dari dua aspek kan before after Terus eh apa style animasinya Seperti apa nah eh mengorchestrate before afternya itu dihandle sama Vi Transition nah ini yang dan itu fully fully CSS kan eh css-nya bahkan optional jadi apa cuma javascript eh start Transition jadi karena ini kan masih yang level S ya c jadi misalnya kita eh apa eh yaitu show hide eh menampilkan suatu elemen kita ngeklik terus kita start view Transition Ya udah itu langsung dihandle nah cssnya Buat apa css-nya Buat eh style animasinya keyfame-nya oh berarti dia lebih ke api javascriptnya ya berarti ya Iya tapi native javascript dan kalau dulu sebelumnya Eh kalau javascript yang masih workar akal kan sebetulnya itu eh di javascript kita harus menduplicate atau meng-copy elemennya diumpetin misalnya opacity-nya dinolin biar waktu elemen aslinya hilang itu masih ada terus dianimate e javascript ke eh state yang dari before ke after habis itu baru dihapus lagi nah kalau ini enggak usah Ya udah kita pokoknya seperti biasa aja mau nge-hide show e elemen langsung cuma bisa kita harus manggil start view Transition itu ya harus panggil harus harus He Oh oke nah kalau yang level 2 yang belum nih level 2 itu yang antar halaman itu kelihatannya enggak usah di enggak perlu dipanggil dari javascript karena server site ya kan Eh tapi harus berada di Origin yang sama nah cuma level 2 ini sayangnya eh si apa webkit sama Firefox masih banyak ee banyak tanya-tanya masih banyak diskusi jadi seru sih kalau lihat itu kan semua terbuka ya apa eh di github Heeh kayak yang kita bahas kemarin itu enggak kelar-kelar udah yang level duanya ini yang salah satu di disayangkan sama Jack archibal itu ya yang view Transition enggak masuk interup 2024 benar enggak sih emang enggak masuk ya justru divting eh apa enggak masuk enggak masuk Oh enggak masuk ya ya lebih lama lagi dong I tahun depan Kalau enggak salah ya saya coba cari daripada saya hoax apa setahua sih yang e diting buat interop 2024 itu yang level 1ya eh kenapa Karena kan maksudnya Firefox dan Safari udah gimana saya saya saya Hoa eh yang disayangkan dia itu adalah yang navigation api Oh navigation api enggak masuk e apa namanya enggak masuk Inter Wah kayaknya Besok masesti bahas Inter 2024 kali seru Iya kayaknya bisa tuh apa Yang dimasukinting gimana gimana ternyata ternyata ada TW selanjutnya view Transition juga gak ikut saya Ben Coba klik aja a klik aja tter saya itu baah I lebih panjang lagi dong Ininya hah enggak pas Def kemarin itu itu masuk ke dalam slide yang dipotong biar biar masuk waktak kelihatan ya dia di bagianan kalauak login harus login ya harus Logi E ini saya kasih a url bawahnya Iya ini bentar Si El Pit ya E kalau misalnya enggak login semua fungsi-fungsi yang kayak apa sih manggil-manggil Kan biasanya ada rel tweet pokoknya reply apa reply trade dimatiin semua kayaknya lagi ngirit Vi Transition isn't being included either dia lebih lebih sedih kalau yang navigationnya lebih sedih yang tadi karena ini kan cuma buat progressive enhancement nah ini akhir tahun lalu banyak yang eh ng-vote view Transition karena pertimbangannya maksudnya kan eh Framework responnya bagus developer responnya bagus dan betul h firefoama we jugaudahak masalahudah bilang Oke jadi not masuk tapak masuk sed nextnya Mungkin kita bisa bahasah tren depan berarti begitu Trans ini sudah masuk berarti kita ketemu lagi nanti di Bali kita bahas akhirnya masuk g Oh jadiju yaer nextnya ada Vi view Transition dibali lagi Amin mudah-mudahan dapat ini lagi ya Kesempatan lagi buat semoga didengar sama mas Danang searang mas Danang Muncul lagi Iya dia lanjut lanjut kita berikutnya ke linear eing function ini e animasi ya Heeh animasi dan ternyata bukan kalau linear kan kita bayanginnya sama gitu yang kayak cuma kalau grafik Ya cuma begini Nah justru Ini bukan buat itu cuma enggak ngerti sih karena enggak terlalu kebiasaannya masih the linear function not to be confused with linear keyword allows you to create complex easing fun manle fun jadi itu kayak ada logaritmanya gitu loh kayak apa ya kayak ada iya linear itu kan maksudnya bukan cuma garis lurus di sini maksudnya linear ituini doang speed untuk munculnya itu linear konstanst is Iya konstan ising Enggak ada e e out in kan biasa kan Kalau udah dekat dia melambat atau kalau dari awal dia lambat dulu baris kencang kan kalau ini langsung Z stabil gitu stabil I pertanyaannya stabil kan begini Ini kan lebih aneh maksudnya bouncingnya kalau is in e out kan jelas kan eh lebih cepatnya di awal atau di akhir lah kalau ini ada perhitungannya sendiri kan ini matematika stabil stabil enggak enggak enggak yang jarak antar titiknya lebih pendek itu lebih cepat Coba lihat deh Oh ya ini kan jaraknya jauh nih kan tuh jauh pelan dia pelan pelan cepat tuh I kan cepak kelihatan enggak kelihatan oke nah Ini ada pertanyaan dari saya ini brer supportnya udah support semua nih atau belum Udah semua tapi belum belum masuk baseline belum masuk bas 17 Titi du tuh Safari Oh baru banget Safari normalnya berapa coba aja cari sekarang browser today Enggak kan sekarang 17 jadi dia ngbas kalau udah dari 16 bahkan ini keluarnya tuh dari 17.2 kayak semacam patchnya buka buka browser Happy Nah sekarang 172 sekarangudah 1 tapi kan harusnya kalau dia biru nantiim artinya belum masuk Iya sudah udah mungkin sudah ini sudah stabil tapi belum masuk baseline Ya mungkin belum masuk ininya Basel kan ada baseline Tahun berapa belum masuk baseline 2023 Iya mkin nanti dua versi Major terakhir nih broser Happy oa gak termuk engak ada browser gak ada ya sekarang yang lagi naik down Vivaldi kan ya rata-rata pada dengar Vivaldi itu for Iya forbnya Opera saya kalian pada pakai browser apa sih fireefox Safari Chrome udah ya Thor lah kalau buat itu yang aneh-aneh Dark engak Dark juga [Tertawa] sih kalau di nya ya itu Firefox Safari Chrome doang gak pernah pakai semacam Ar atau Brave atau lain-lain Ini ar nih yang lagi ditampilin chromium ya kayaknya chromium bas Ar ya pada pakai browser nah tu lar I fungsinya apa ya ini kelihatnya kayak buat game atau apa ya yang grafik- kayak gini tuh nunjukin sesuatu atau ya game lah pastinya Ya jarang juga kita bikin-bikin kayak gini ya next Iya Maknya makud Bedanya apa sih misalnya cuma modal muncul mau is in is out user Emang ngebedain gitu Ada juga yang ngebedain tergantususus kalau misalkan kita bikin web untuk nampilin I sat video nah yang Mas Yohan bahas kemarin web Based video editor ya mungkin atau ini ini aja apa bikin slide bikin slide dia ada animasi transisinya kan heeh itu juga bisa he Oke kita lanjut dulu ya Scroll n Scroll ini kita bisa ngecek Apakah scrollnya udah sampai hampir akhir Udah mentok atau belum Udah mentok atau belum hampir mentok atau belum kan He enggak sih Eh sudah mentok apa belum sudah mentok atau belum oke ini juga javascript ternyata ya cuma dimasukinnya ke CSS Karena untuk UI nah sebelum ada SCR and event bentareterangannya sebel ada event kita harus pakateing belumak that understands whether a user is still me gesture or not Oh mendeteksi apa dia nge-scrollnya udah selesai atau belum gitu jarinya udah naik atau belum Iya iya ini javascript ya he Berarti html-nya kita keculinnya kita bisa nah ini Scroll bit fill ini belum Udah habis ya Scroll Scroll n oke Scroll on Scroll n Oh dia pakai on Scroll n ya Heeh on Scroll n itu progressive enhancement-nya itu Iya ini dicek dulu kan udah dukung apa belum terus udah langsung aja tambahin class has Scroll n jadi muncul yang yang pink ini Nah itu dari Has Scroll n kan ada t-rex-nya ada t-rex-nya mana txnya H Scroll n mana txnya generated dari javascript enggak itu kalau gak B Kalau enggak ada kalau enggak support if Scroll He Oh iya oke langsung ja ini to Nah itu to oke oke semakin seru ya jadi kalau mau bikin kayak paralx gitu bisa perroll gitu ya Sampai Akhir habis itu nanti ada misalkan eh click to top call to action ya daftarkan Submit your email BL bla and we will sell your email mcp up muncul pop up untuk paywall biasanya Heeh Oh iya dapatkan konten seperti ini hanya dengan r.700 r000 Senin harga naik Selasa ngobrolin web boleh tuh jadi baru Iya naik bisa bisa bisa bisa masuk masuk masuk nanti dicut Mas itu Tine kita yang baru Ben yang tadi saya maksud sebenarnya ini Scroll animation kayak paralx gitu Kanah I ini keren banget i iya oh dulu saya bikinnya ini yang di atas sama Jav bukan ya Eh I pakai javascript tapi yang kalau bisa discroll bukan ada kayak bar kita reading progress Saya pernah diminta bikin gituan dulu itu sempat ngetrend banget gara-gara medium dulu per e kayaknya pertama kali medium deh habis itu medium malah enggak pakai kayaknya sekarang cuma dulu kayaknya sempat ngetren lupa deh medium atau wordpress atau apa ya pokoknya dulu sempat ngetren gara-gara ada yang pakai Oh enggak pernah ya iya ya berarti medium pokoknya blogging platform Oh ini bisa dipakai untuk itu ya ada contohnya tuh contohnya lengkap banget coba deh buka di eh doc eh Scroll driven animation eh style nah ini yang bikin Kalau enggak salah Mas apa bramus eh dari defel Chrome Bram Mas Bram Mas Bram Kak kenal Oh wow keren sekali itu demo semua itu apa variasi-variasi penggunaannya cakep Wow tapi sebenarnya cakep tapi ini ngerusak mata walaupun bukan demonya demo harus tapi kalau misalnya di dunia nyata ya aksesibility jangan lupa ini jadi bikin kayak itu loh yang ingat enggak kalau si ee e Apple punya produk page kalau diroll terus dia banyak banyak an animasi Nah itu sepertinya mempermudah untuk bikin kayak gitu ya Heeh dan enggak harus pakai observer enggak pasang observer macam-macam yang custom karena stylingnya ditempelin di elemen itu sendiri kalau misalnya elemen itu masuk di layar nah di styling gimana Tapi sayang Firefox eh masih benderah orange dan Safar belum orang Safari malah masih masih eo Oke padahal yang paling butuh Apple ya bikin untuk page begitu ya dia egois dia mau bikin Pakai caranya sendiri kali jahat banget suzon suzon oke lanjut lagi divert ini enggak ngerti ini apaan apagi ini ini ada hubungannya sama Scroll animation terus CSS eh Oh ini kayak helper buaten making it limited to Scroll anestors only the Element need to be Animated is not a child of scroller but an element located in entirely different sub Apa ini maksudnya knya kayak buat eh ngedeteksi walaupun relasinya kan mungkin bisa nested nested beef ya kelihatannya Oh atau di luar nesting dipakainya soalnya itu tuh use case-nya karusel gimana gimana Eh karusel terus Timel Scope gallery Scroll El ada contohnya Enggak coba animation timeline ya itu with Timel Scope declare on the shar parent the Scroll timeline declared on scroller can be found by the Element That uses The Animation timeline ini kalau kita lihat demonya gimana nih javascript-nya enggak ada ini pure CSS ya kita bisa Scroll enggak ya enggak bisa scroll bisa ya oh bisa bisa Scroll pakai shift pakai shift Oh pakai shift maksudnya pencet shift Terus pencet e Mouse Scroll mouse-nya diroll Iya Scroll atas bawah itu jadi ke samping artinya Iya ke samping kalau pakai ini bukananya ada mouse-nya ada yang ini biasanya ada ada yang kiri kanan ada Tapi mous saya cuman ada atas bawah ohrollingnya Oh ada penjelasannya di sini nih ada penjelasannya tapi gak ada demonya buka deh private chat yang ini ada demonya tapi kurang kurang jelas penjelasannya ini ada ini bawahah ataskit zom nah iniingaca Uhang attaching to nonancestor Scroll timeline Nah kan jadi kalau by default eh apa tadi yang buat Scroll timeline itu cuma bisa buat ancestornya kayaknya mendeteksi dia eh apa elemennya ngroll in relation to parentnya entah itu body atau parent apa parent elem nah terus cuma ini kalau kasusnya karusel kan Eh misalnya apa Dot nya itu itu kan di luar di luar e kontainer buat slide-nya kelihatannya intinya sih untuk itu Nah itu timeline Scope sih pokoknya itu kan paragraf pertama e sering terjadi elemen yang perlu dianimasi bukan Bukannya si scrollernya itu bukannya si apa kalau misal karusel Kan Bukannya si tempat gambar-gambar karusel itu kan Nah jadi pakainya timeline Scope si bla bla bla itu intinya Timel SC oke oke karena belum biasa bingung ya Belum mendailnya lagi agak nangkap sih maksudnya apa cuman casnya mungkin ya sekilas udah paham cuma makudnya kalau suruh bikin ya bingung i gak tahu juga bingung juga juga ya kita lanjut lagi discreete property animation another new capabilityility to Animate discre animationre animation apa ya dulu kan gak bisa jadi sekarang bisa gitu wowak ada warna-warni gitu Ini bukan jadi hilang displ I ada danada dulu kan gak bisa dulu sudah ada Ada Dan Tiada lag isi isi adalah kos biasanya opacity ya balik layus Spin out Terus opacity Nol display n display n keyframe-nya f out F minus out yang ini kan iya he oke terus ada Spin and Delete nah Spin and delete ini transp filter Oh ini yang ininya ya apa E progressnya ya Iya frame-nya itu ada display non-nya juga kalau udah selesai display Iya kalau udah 100% Terus tadi Eh elemennya apa loh l salah elemennya apa eh ininya discrp property animation display none content visibility Oh dia cuman ini ya kita jadi bisa menganimate display dulu kan belum bisa Allo discrete maksudnya tapi harus allow discrete gimana allow discrete coba disarch halo not found enggak Ada halo enggak ada ya ini demo misterius lagi enggak ada di sini enggak mungkin ha hah demo macam apa ini joba ya lagi ada ini perkaranya jadi bisa anerti displ atau ada properti khususakudah itu doang loh tapi caranya gimana di sini enggak ini juga tuh gimana caranya dia rotaterotate doang ada display non itu dihapus oh ini on cck kan ketika diklik Heeh dokumen delete ini maka ditambahin fade out I kan F out dan spin out dan spin out jadi ini Fed out dan spin Oke Fed out di sini kan Animate He iya Animate dot F out CL F out animationnya F out yang dibikin sendiri dari sini He nah itu ada display nnya Kayaknya cuma perkara bisa menganimate gara-gara ada displ jadi dia jadi keanimasi secara otomatis gitu ya ya Jadi bisa e display kan standarnya blok mungkin jadi blok kanan ya mungkin jadi hangus displnya dis nya kita hapus iyanya harusnya putarpar putar aja loh ya Coba e inspect inspect deh inspect elemen bisa ya Bisa dong kan Nah itu kan opacity-nya Nol tapi masih ada mana Tadi kayaknya keeselect deh tuh Nah itu tuh tuh tuh tuh tu tu tu tuh ada kan Nah sedangkan kalau ada display non-nya ya jadi hilang enggak ada lagi itu Iya katnya perkaranya cuma itu deh dulu display enggak bisa enggak bisa dimasukin keyframe sekarang jadi bisa Oh curiganya gitu Oh iya bisa jadi oke lanjut lanjut lanjuty apa lagi ini belum pernah lihat sty nah ini masih berkaitan sama tadi kayaknya animating to and from dia bisa tahu ketika elemennya belum dibuka Oh ini video yaak bisa Diak Oke kita lihat di sini ya Tapi harusnya unya juga begitu loh ke mana ini oh ini kita pakai ini aja Nah ini kan misalkan kalau kita klik dia akan animasi dulu sebelum tampil Heeh gitu kan heeh ini Click the button Open dialog Mana dia Ini dialognya dialognya Udah Na ya buttonnya Ada onccknya buttonnya ada Open dialognya ini onccknya show modal modal nya ini kan Terus yang jadi beda beda adalah transis ada display non Enggak tadi ada allow discrip Oh iya itu tu Akhirnya ketemu di dalam Transition dialog hal di screen hari Coba hapus all di scrip-nya eh bentar ini Trans iya iya nah I taruh Enggak loh kok tutup gitu enggak enggak enggak Engak enggak yang ini nih Iya dia kan dia kan exit state exit state-nya Heeh kalau hilang by default kalau hilang ya hilang aja kan enggak dianimate out kalau ini i gak bisa gak bisa Iya dia turun ke bawah tuh nah bawah itu dan enggak pakai javascript sama sekali js-nya kosong kos Wow keren ya keren tapi belum bisa di belum bisa di belum bisa diafari belum bisa diowser lain belum ada yang mau Firefox juga engak mau belum belum ya Ya lumayan lah lanjut overlay Wah sama nih statusnya new CSS overlay property can be Transition to enable Element with top layer Styles Oh iya Ini bagus deh udah pernah Eh lihat demonya Oh iya jadi jadi warnanya agak hitam itu ya yang overlay itu ya Kalau agak hitamnya pakai pakai CSS itu kita style pakai CSS tapi e ngaruh ke accessibility juga jadi tahu kan kalau kita e buka modal dialog kan belakangnya semua harus kita freeze kan harus enggak bisa disroll harus POnya enggak bisa diap enggak bisa interaksi Apun Kalau dulu kan harus pakai javascript ya buat apa kita harus ngeset itu manual Sekarang udah enggak dihandle sama CSS Eh sama apa html malah jadi ini unik sih sebenarnya ya kalau mau ditarget pakai CSS boleh tapi ini berupa e atribut html buka e mana dia overlay to hal discrete lagi Oh iya ini buat animasinya kali Iya ya buat apa E buat e muncul sama nah buat pasti closnya kan Mana html ya show entar mana ya action bar taruhnya di mana tulisannya gimana oh drop itu isolation mode tadi backop bukan Iya backdrop ini ya backdrop ya backdrop itu bagian dari e api-nya overlay jadi ada ada beberapa ya Ada beberapa Nah bentar dulu kayaknya ngihat demonya lebih jelas deh cuma lihat lihat di mana Lupa mana ya Iya besok-besok de ada komponen W masih ada komponen banyak Eh ini juga Besok bahas kapan-kapan Saya bahas Open UI aja kali ya ini kan Soalnya e apa sih Ada working group ya working group namanya Open UI untuk eh mereka itu dari itu asalnya dari berbagai vendor browser jadi tujuannya ya Ini buat memajukan apa ya web platform tapi pakai UI yang ya sesuai kebutuhan aplikasi modern lah J pop pop over ini pop over dan teman-temannya Kalau enggak salah termasuk eh hasil brainstorming si kelompok Open UI ini Nah mungkin besok-besok kita bahas kita bisa bahas Open UI termasuk include eh si pop over ini Oke siap nah terakhir masih ada ini ya masih ada satu ee bab lagi ya componen p kita cepetin aja dikit sih dikit cuman dikit kok pop over yang tadi ya pop over ya Heeh pop over Nanti aja Hah nanti ini powerover itu yang hamburger menu ini ya iya bukan Iya iya betulbetul jadi powerover dia dialog ya itu ya bukan Ya intinya sih semacam dialog cuma kelihatnya ada pembedanya deh ee bedanya ini apa dia bisa aksesibity jadi kalau pakai ke bisa bisa interaksi atau engak ada keyboard binding-nya by default Oke next horizontal Rul in select horizontal rule Oh bisa diroll bukan itu ada ininya Itu ada garis-garisnya sekarang oh nah select a favorite feature Nah kan bawahnya tuh ada opsi-opsinya tuh kan dipisahin sama garis horizontal i i Oke hal sesimpel itu selama ini kan eh developer harus bikin apa send ya kalunak bikin sendiri kan kita harus insty demi estetika visual karena mungkin kita harus ngikutin apa desain yang udah dibuat sama orang UI kan Nah sekarang udah bisa Apa web platform terus ini sih yang menarik browser supportnya ya tanget kombinasinya Safari and Chrome itu tu Ini engak ada brow Iya cuma di keterangannyar and Safari baru pernah kan Lihat kombinasi browser support Chrome and Safari Iya Firefox justru ketinggalan ya ini ya pun belum Chrome yang ketinggalanrium kan Ya cuma kalau misalnya ednya belum mau masukin ini kan baru disupport oleh Safari dan Chrome Chrome berarti maksudnya walaupun premium udah ada -nya gak mau kali masih diud SR Oke lanjut nah ini udah bisa semua valid and invalid sebelumnyaudah ada validalid kanudah ada ini ada user valid us invalid itu maksudnya kalau formbrary dirakanyaak Dar itu ada istilah eh dirty itu kalau user udah berinteraksi sama input tersebut jadi by default kan misalnya input t masih kosong itu kan kalau dari sudut pandang kita developer logic logic logiknya kan itu invalid karena gak boleh kosong tapi kalau dari perspektif user UX diisi aja belum Masa tibati udah merah error ituak S setelah userisi baru kalau misalnya engak memenuhi apa validasi baru kita Tunjukkan bahwa itu invalid dan itu pakai CSS aja ya iya keren ya jadi Green jadi merah invalid tapi dia belum merah ya ini merah kan udah diklikudah ini valid kalaunya ya biar enggak valid Oh kosongin aja karena kita udah apa Kar kita udah ngetik kita udah ngetik tapiuhi kriteria I tapi kalau belum dia masih tetap normal Ya normal Oh ini hanya dan selama ini kan cuma bisa dari apa cuma bisa dari apa eh form library atau custom script lah custom JS Nah sekarang di CSS udah ada invalid invalid ini masih state normal tapi kalau kita udah terus kita hapus dia kamera Nah Enggak bisa salah ih asli baru tahu entar semua browser udah tadi udah udah sudah full semuanya ye sudah baseline lagi Sudah lama ini Iya Firefox juga Firefox duluan berarti ini ya Oh iya udah dari lama lagi Iya ini kayaknya ini baru ada di Chrome baru ada di Chrome balik ya Heeh alright next exclusif akordon ada-ada aja eh cuma itu lumayan sering sih maksudnya itu opsi yang sering dan biasanya kita jadi harus pakai custom javascript juga kan custom UI eh library atau custom javascript walaupun udah ada elemen details baru bisa di chromium ini sebutnya udah padahal Iya apa si dan Safari juga udah tapi dia nyebutnya new Chrome namerib for detail Jadi gimana nih ya itu C kalau satu dibuka eh yang lain nutup Maksudnya Coba aja bukabuka eh enggak MP ini MP kalau ini yang with name Oh ini CSS doang CSS doang berarti atau html doang ada js-nya juga tuh jsnya UNT apa ini kayaknya enggak bukan buat itu deh Event to pof ini pofil pofil Oh Baca a di atas tadi ada polyfil Oh iya i aslinya kan sebenarnya pakai detail ada detail name ya Mana detail name bawah bawah name myordeon Jadi kalau ini di kelompok dengan name maka dia akan E hanya bisa membuka satu dalam satu waktu ya kalau satu di toogle yang lain tutup seru ser selesai conclusion [Tepuk tangan] akirnya 2023 banyak banget ya update-nya ya banyak itu banyak yang kita ggak tahu ya yang kita tahu cuman kayak transer kontainer query Iya jadi ini yang bikin dari Chrom Dev ada Mbak Una ada Mas Bram dan ada Mas Adam Mantap Jadi kayak orang Indonesia ya Mas Adam Mas kita ketemu Mbak Una kan ya di Iya kalian kalian Saya tidak belum Makanya saya bilang kita kita saya Mbak Eka oke oke benar benar oke Jadi gimana sudah puas dengan CSS sudah bingung puyeng ianya puyeng Iya puyang ya kapan-kapan episode khusus layerah khusus yang hal-hal yang kita skip tadi Iya karena Tujuan kita kan belajar bersama Iya undang Siapa ya yang bisa bahas yang bisa yang yang expert di bidang layer kalau enggak Mas ad BR atau M mbak UN Iya kayaknya mas masmas atau mbak yang di sini ya kali ya bisa gak ya kita undang mereka ya Ya siapa tahu dulu wishing ajaing mudah-mudahan didengar sama masang masang lagi banyak teman-teman yang gakak tahu nih k Mas Dang Ini siapa sih kadang muncul kan iya ya tetap enggak tahu tetap bingung tetap engak tahu kan siapa dia muncul siapa he Oke kalau gitu terima kasih banyak buat semuanya Terima kasih sudah berpusing-pusing Ria bersama kita ya jadi minggu depan kita tidak akan membahas CSS lagi Eh kita ada bahas CS karena udah pusing Karang udah pusing jadi kita stop dulu bahas CSS ya ganti dulu biar enggak bosan Heeh kapan-kapan ee beberapa hal yang menarik contohnya tadi apa eh UI Open ui ya Open UI iniisia Open UI interop belum lagi minggu depan special guestal kalau interog sudah ada sudah ada ininya kayaknya bisa kita bahas kalau sudah sudah rilis ya iya iya kalau udah rilis karena menarik juga dibahas di awal tahun betul nanti di akhir tahun kayak rap lagi ya atau di awal tahun depan gitu ya I oke terima hari lalu oke than kalau ada yang mau apa ngide ada yang mau ngide bisa ke pesana.in/ngobrolin ini the topik ataupun narasumber ya bikin aja gthub isue eh bukan isu discussion G dision di repo kita nanti e atau kalau ada topik yang menarik bisa diupad ya jangan lupa login dulu ke github-nya itu aja dari kita malam hari ini eh selamat malam sampai jumpa lagi minggu depan by bye bye"
+}

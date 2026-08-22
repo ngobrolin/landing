@@ -1,0 +1,48 @@
+name: Playlist Drift Check
+
+# Detects episodes published to the channel but never added to the playlist the
+# site builds from. Lives apart from `fetch-playlist.yml` so a drift alert never
+# muddies the sync's own status, and so it can run daily: the sync runs weekly,
+# which would leave an episode published on a Wednesday afternoon unflagged for
+# a week.
+
+on:
+  schedule:
+    # Daily at 08:30 WIB (01:30 UTC), half an hour after the weekly sync.
+    - cron: '30 1 * * *'
+  workflow_dispatch:
+  # Re-run the check whenever the check itself changes, so a change to the
+  # matching rule or the API calls is exercised against live data in the PR.
+  push:
+    paths:
+      - 'scripts/check-playlist-drift.ts'
+      - 'scripts/lib/playlist-drift.ts'
+      - '.github/workflows/playlist-drift.yml'
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Check playlist for missing episodes
+        run: npx tsx scripts/check-playlist-drift.ts
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+          # Only on main: open/update/close the alert issue. Branch runs
+          # (including PR pushes that exercise this workflow) report to the log
+          # instead, so testing a change to the check cannot open an issue.
+          GITHUB_TOKEN: ${{ github.ref == 'refs/heads/main' && secrets.GITHUB_TOKEN || '' }}
+          GITHUB_REPOSITORY: ${{ github.repository }}

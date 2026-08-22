@@ -22,9 +22,10 @@
   - Raw data is stored in `src/data/episodes.json`.
   - `src/lib/episodes.ts` acts as the data access layer, handling sorting, slug generation, and retrieval by ID/slug.
   - `scripts/fetch-playlist.ts` is a utility script to fetch fresh data from the YouTube API.
+  - Transcripts live in `src/data/transcripts/<videoId>.json` and are rendered by `src/components/Transcript.astro`. A `source` field records provenance; it is absent on transcripts generated before the field existed, so treat it as optional everywhere.
 - **Components:** UI components in `src/components/` (e.g., `EpisodeCard.astro`, `YouTubeEmbed.astro`).
 - **Testing:**
-  - **Unit Tests:** Vitest for logic in `src/lib/`.
+  - **Unit Tests:** Vitest for logic in `src/lib/` and `scripts/lib/`.
   - **E2E Tests:** Playwright for browser-based testing (`e2e/` folder).
 
 ## Development Workflow
@@ -47,6 +48,24 @@
 | `pnpm run test:e2e`    | Run end-to-end tests using Playwright.                 |
 | `pnpm run test:e2e:ui` | Run Playwright tests with the UI runner.               |
 
+### Transcription
+
+Three generators write the same transcript shape — pick by cost, not by preference:
+
+| Script | Method | Cost / requirements |
+| :--- | :--- | :--- |
+| `npm run transcribe:youtube` | YouTube auto-captions via `yt-dlp` | Free; no API key, no cookies, no media download. **Default for new episodes.** |
+| `npm run transcribe` | Local `whisper-cli` | Free but slow; needs a whisper model and browser cookies. Path is hardcoded to a local nix profile. |
+| `npm run transcribe:openai` | OpenAI Whisper API | Needs `OPENAI_API_KEY`, `ffmpeg`. |
+
+Do not regenerate existing transcripts with `transcribe:youtube` — whisper output is
+cleaner than deduplicated rolling captions, so overwriting is a downgrade. The script
+requires `--force` to overwrite for this reason.
+
+`scripts/lib/vtt.ts` holds the non-obvious part: YouTube auto-captions are *rolling*
+captions that repeat each spoken line across several cues. See the module comment there
+for the reconstruction rule and why it is exact rather than fuzzy.
+
 ### Data Fetching
 
 To update the episode list from YouTube:
@@ -63,9 +82,26 @@ To update the episode list from YouTube:
 - **TypeScript:** Strict typing is encouraged. Use interfaces for data models (e.g., `Episode` interface in `src/lib/episodes.ts`).
 - **Styling:** Use Tailwind CSS utility classes directly in markup. Configuration is handled via the `@tailwindcss/vite` plugin in `astro.config.mjs`.
 - **Testing:**
-  - Write unit tests for utility functions in `src/lib/` alongside the source file (e.g., `episodes.test.ts`).
+  - Write unit tests for utility functions in `src/lib/` or `scripts/lib/` alongside the source file (e.g., `episodes.test.ts`, `playlist-drift.test.ts`).
   - Write E2E tests in `e2e/` for page navigation and user flows.
 - **Routing:** Use Astro's file-based routing. Dynamic parameters are handled with square brackets (e.g., `[slug].astro`).
+
+## Episode pipeline: the playlist is the source of truth
+
+Everything the site shows — pages, RSS, sitemap — derives from one YouTube playlist
+(`PLTY2nW4jwtG8Sx2Bw6QShC271PzX31CtT`) via `scripts/fetch-playlist.ts`. A video published to
+the channel but never added to that playlist is invisible to the whole pipeline while the site
+and feed still look healthy. `scripts/check-playlist-drift.ts` (daily via
+`.github/workflows/playlist-drift.yml`) detects that gap and opens a GitHub issue.
+
+Two things worth knowing before touching that path:
+
+- Episode titles do **not** follow one clean convention. Alongside `<topic> - Ngobrolin WEB`
+  the playlist holds `... - Ngobrolin WEB ep51`, `... - Ngobrolin WEB & @handle`, a
+  `Ngborlin WEB` typo, and 2022–2024 one-offs with no suffix at all. Any title-based rule
+  belongs in `EPISODE_TITLE_PATTERN` (`scripts/lib/playlist-drift.ts`) and nowhere else.
+- `YOUTUBE_API_KEY` is read-only for playlists. Adding a video needs OAuth the repo does not
+  have, so tooling can detect drift but never fix it — that stays a human action in YouTube.
 
 ## Learnings & Best Practices
 

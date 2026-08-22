@@ -40,9 +40,52 @@ This will update `src/data/episodes.json` with all playlist videos.
 
 ## Transcription
 
-Two transcription backends are available — local (whisper.cpp) and cloud (OpenAI API).
+Three transcription backends write the same transcript JSON shape. Prefer YouTube
+auto-captions for new/missing episodes (free, no cookies, no media download). Use
+local Whisper or the OpenAI API when you want higher quality and accept their
+setup or cost. Existing Whisper transcripts should not be overwritten with
+YouTube captions — pass `--force` only when you intentionally want that.
 
-### Option A: Local Whisper (whisper.cpp)
+### Option A: YouTube auto-captions (default for new episodes)
+
+Uses `yt-dlp` to fetch Indonesian auto-generated subtitles only — no API key,
+browser cookies, or media download. Writes `source: "youtube-auto"` for
+provenance; older Whisper transcripts omit that field and stay unlabeled.
+
+```bash
+# Transcribe next episode without transcript
+npm run transcribe:youtube
+
+# Transcribe all missing episodes
+npm run transcribe:youtube -- --missing
+
+# Transcribe specific episode(s)
+npm run transcribe:youtube -- <videoId> [...]
+
+# Re-transcribe everything (overwrites existing files)
+npm run transcribe:youtube -- --all --force
+```
+
+#### Options
+
+| Flag            | Description                                         | Default |
+| --------------- | --------------------------------------------------- | ------- |
+| `--limit <n>`   | Max number of episodes to process                   | None    |
+| `--lang <code>` | Subtitle language to request                        | `id`    |
+| `--force`       | Overwrite transcripts that already exist            | Off     |
+| `--delay <s>`   | Seconds to wait between episodes (avoids HTTP 429)  | `3`     |
+| `--missing`     | Process episodes without transcripts                | -       |
+| `--all`         | Process all episodes (use with `--force` to overwrite) | -    |
+
+#### Requirements
+
+- **yt-dlp**: Install via `brew install yt-dlp` ([GitHub](https://github.com/yt-dlp/yt-dlp))
+
+Rolling-caption reconstruction lives in `scripts/lib/vtt.ts` (module comment).
+
+---
+
+### Option B: Local Whisper (whisper.cpp)
 
 Runs entirely offline. Requires a local model file and `whisper-cli` installed.
 
@@ -108,7 +151,7 @@ npm run transcribe -- --missing --suppress-nst
 
 ---
 
-### Option B: OpenAI Whisper API (cloud)
+### Option C: OpenAI Whisper API (cloud)
 
 Uses the OpenAI Whisper API (or any OpenAI-compatible endpoint, e.g. Groq). No local model needed — requires an API key and internet access. Downloads audio as mp3.
 
@@ -191,11 +234,15 @@ console.log('fullText length:', t.fullText.length);
 
 ### Filtering Non-Conversation Elements
 
-Both scripts automatically filter out non-conversation segments like `[Musik]`, `[Music]`, `[tertawa]`, etc. from the final transcript.
+The Whisper backends (Options B and C) automatically filter out non-conversation
+segments like `[Musik]`, `[Music]`, `[tertawa]`, etc. from the final transcript.
+YouTube auto-captions (Option A) keep caption text as emitted after rolling-cue
+reconstruction — they do not apply that post-filter.
 
-The local script additionally supports `--suppress-nst` to use Whisper's native `-sns` flag during transcription instead of post-filtering.
+The local Whisper script additionally supports `--suppress-nst` to use Whisper's
+native `-sns` flag during transcription instead of post-filtering.
 
-The script automatically finds executables in your PATH, with fallback to hardcoded paths if needed.
+Each script finds executables in your PATH, with fallback to hardcoded paths if needed.
 
 ## Audio Podcast
 
