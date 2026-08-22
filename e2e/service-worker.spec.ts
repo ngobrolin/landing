@@ -151,24 +151,23 @@ test.describe('Service Worker', () => {
   });
 
   test('works with view transitions', async ({ page }) => {
-    // Start at episodes list
+    // Start at episodes list. Avoid networkidle: with an active SW,
+    // background cache.put / asset fetches can prevent idle indefinitely.
     await page.goto('/episodes/');
-    await page.waitForLoadState('networkidle');
+    const firstEpisodeLink = page.locator('a[href^="/episodes/"]').first();
+    await expect(firstEpisodeLink).toBeVisible();
 
     // Click first episode (triggers view transition)
-    const firstEpisodeLink = page.locator('a[href^="/episodes/"]').first();
     await firstEpisodeLink.click();
 
-    // Wait for transition to complete
-    await page.waitForLoadState('networkidle');
+    // Wait for transition to complete via content, not network activity
+    await expect(page).toHaveURL(/\/episodes\/.+/);
+    await expect(page.locator('h1')).toBeVisible();
 
     // SW should still be active
     const swActive = await page.evaluate(() => {
       return navigator.serviceWorker.controller !== null;
     });
     expect(swActive).toBe(true);
-
-    // Page should have loaded successfully
-    await expect(page.locator('h1')).toBeVisible();
   });
 });
