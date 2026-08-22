@@ -12,16 +12,16 @@ Website untuk video podcast Ngobrolin WEB - hadir setiap Selasa malam jam 20:00 
 
 ```bash
 # Install dependencies
-npm install # or pnpm install
+pnpm install
 
 # Start dev server
-npm run dev # or pnpm run dev
+pnpm run dev
 
 # Build for production
-npm run build # or pnpm run build
+pnpm run build
 
 # Preview production build
-npm run preview # or pnpm run build
+pnpm run preview
 ```
 
 ## Fetch YouTube Playlist Data
