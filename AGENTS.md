@@ -33,7 +33,22 @@
 ### Prerequisites
 
 - Node.js (LTS recommended)
-- pnpm
+- pnpm, pinned by the `packageManager` field in `package.json`
+
+pnpm is the only package manager here: every GitHub Actions workflow installs with
+`pnpm install --frozen-lockfile`, and `package-lock.json` is gitignored so a stray
+`npm install` cannot reintroduce a second lockfile. `pnpm/action-setup` reads the
+version from `packageManager`, so bumping that one field moves CI, Cloudflare and
+local machines together.
+
+Two traps around this:
+
+- Do **not** add `package-lock=false` to `.npmrc` to stop npm writing a lockfile.
+  pnpm reads `package-lock` as an alias of its own `lockfile` setting, and
+  `pnpm install --frozen-lockfile` then fails with `ERR_PNPM_NO_LOCKFILE`.
+- `pnpm-workspace.yaml` must match the pinned major: the allowed-build-scripts
+  setting was renamed between pnpm 10 and 11 and each version silently ignores the
+  other's key. See the comments in that file.
 
 ### Key Commands
 
@@ -54,9 +69,9 @@ Three generators write the same transcript shape — pick by cost, not by prefer
 
 | Script | Method | Cost / requirements |
 | :--- | :--- | :--- |
-| `npm run transcribe:youtube` | YouTube auto-captions via `yt-dlp` | Free; no API key, no cookies, no media download. **Default for new episodes.** |
-| `npm run transcribe` | Local `whisper-cli` | Free but slow; needs a whisper model and browser cookies. Path is hardcoded to a local nix profile. |
-| `npm run transcribe:openai` | OpenAI Whisper API | Needs `OPENAI_API_KEY`, `ffmpeg`. |
+| `pnpm run transcribe:youtube` | YouTube auto-captions via `yt-dlp` | Free; no API key, no cookies, no media download. **Default for new episodes.** |
+| `pnpm run transcribe` | Local `whisper-cli` | Free but slow; needs a whisper model and browser cookies. Path is hardcoded to a local nix profile. |
+| `pnpm run transcribe:openai` | OpenAI Whisper API | Needs `OPENAI_API_KEY`, `ffmpeg`. |
 
 Do not regenerate existing transcripts with `transcribe:youtube` — whisper output is
 cleaner than deduplicated rolling captions, so overwriting is a downgrade. The script
