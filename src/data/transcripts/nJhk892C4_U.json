@@ -1,0 +1,3269 @@
+{
+  "videoId": "nJhk892C4_U",
+  "language": "id",
+  "generatedAt": "2026-08-22T02:07:14.586Z",
+  "source": "youtube-auto",
+  "segments": [
+    {
+      "start": 2.619,
+      "end": 20.95,
+      "text": "[musik] Dapatkan hanya di domainesia."
+    },
+    {
+      "start": 30.8,
+      "end": 39.75,
+      "text": "Halo. Halo. Selamat malam. Halo. Apa kabarnya? Ketemu lagi. Kita sudah 2 minggu ya."
+    },
+    {
+      "start": 39.76,
+      "end": 42.15,
+      "text": "2 minggu tidak bertemu. Sudah ada Audi."
+    },
+    {
+      "start": 42.16,
+      "end": 52.75,
+      "text": "Ee kita malam ini Ivan lagi liburan ya? Baru selesai liburan. Baru selesai liburan."
+    },
+    {
+      "start": 52.76,
+      "end": 64.835,
+      "text": "Katanya badannya remuk katanya tepar. Heeh. Tepar. Orang liburan biasanya refreshing gitu ya. Ini [tertawa] malah libur di kelompok usia kelompok usia"
+    },
+    {
+      "start": 64.845,
+      "end": 68.83,
+      "text": "[tertawa] segitu ini kalian semua ditonton ini. Heeh."
+    },
+    {
+      "start": 68.84,
+      "end": 75.03,
+      "text": "Suatu hari kalian juga bakal ngerasain apa nih? Hilang. Apanya yang hilang?"
+    },
+    {
+      "start": 75.03999999999999,
+      "end": 84.19,
+      "text": "Hilang satu. Hilang satu. Oh kemarin minggu lalu. Iya minggu lalu ee saya yang presenternya juga hilang satu. Off by one error"
+    },
+    {
+      "start": 84.2,
+      "end": 91.31,
+      "text": "senternya. Off by one error. Iya, tapi jangan khawatir nanti kita ngundang-ngundang ini narasumber lah ya malam hari ini"
+    },
+    {
+      "start": 91.32,
+      "end": 101.38900000000001,
+      "text": "kita ada work around ya. Work aroundnya ya. Jadi biar cepat ya kita langsung aja. E jadi episode kali ini kita akan"
+    },
+    {
+      "start": 101.399,
+      "end": 108.069,
+      "text": "bahas tentang Anvia. Anvia itu apa? Itu framework. Tapi detailnya apa? nanti kita tanya langsung sama yang bikin."
+    },
+    {
+      "start": 108.07900000000001,
+      "end": 118.50999999999999,
+      "text": "Tapi sebelum itu ee seperti biasa ee episode ini ee hasil kolaborasi dengan Dominesia. Jadi kalau teman-teman mau beli layanan hosting ee"
+    },
+    {
+      "start": 118.52000000000001,
+      "end": 127.35,
+      "text": "di Dominesia bisa pakai promo code ngobrolin web DN itu enggak cuman buat HTML, CSS atau PHP. Sekarang udah bisa"
+    },
+    {
+      "start": 127.36,
+      "end": 139.27,
+      "text": "GO, bisa Rus, pokoknya yang Linux base tuh dia bisa juga. Jadi kalau mau hosting ee diskonnya 10% ee diskonnya"
+    },
+    {
+      "start": 139.28,
+      "end": 141.27,
+      "text": "berlaku untuk siklus 1 atau 2 tahun."
+    },
+    {
+      "start": 141.28,
+      "end": 149.67000000000002,
+      "text": "Nah, kalau yang cloud yang mungkin teman-teman lebih familiar ya dengan cloud bisa pakai eh cloud VPS Turbo"
+    },
+    {
+      "start": 149.68,
+      "end": 160.91,
+      "text": "Dominesia itu diskonnya 50% ya. Promo code-nya ini nih ngobrolin VPS DN tuh 50% dan diskon ini berlaku untuk semua"
+    },
+    {
+      "start": 160.92000000000002,
+      "end": 169.03,
+      "text": "paket dan semua siklus. ee bisa dipakai lebih dari satu kali akunnya yang sama. Jadi enggak perlu ganti-ganti account ya. Jadi terima"
+    },
+    {
+      "start": 169.04,
+      "end": 178.55,
+      "text": "kasih Dominesia. Nah, narasumber kita malam ini dia yang bikin Anvia. Teman-teman pada familiar enggak? Coba digoogling dulu, tapi"
+    },
+    {
+      "start": 178.56,
+      "end": 181.75,
+      "text": "langsung ketik aja ya. Anvia.dev ya."
+    },
+    {
+      "start": 181.76,
+      "end": 188.949,
+      "text": "Ya, enggak usah [tertawa] googling. Enggak usah googling ya. Maksudnya ditulis di URL gitu ya. Ditulis aja anvia."
+    },
+    {
+      "start": 188.959,
+      "end": 199.47,
+      "text": "Biar jangan salah. Heeh. karena banyak yang lainnya ya, bukan cuman ee developer tools ya. Nah, ini ee saya punya apa ya cerita yang"
+    },
+    {
+      "start": 199.48,
+      "end": 206.35,
+      "text": "menarik. Jadi beberapa setahun yang lalu atau beberapa tahun yang lalu gitu ya, saya sempat mengundang Mas Indra ini"
+    },
+    {
+      "start": 206.36,
+      "end": 220.39,
+      "text": "buat ee bedah framework sebenarnya Lito JS. Tapi ee saya coba ee kontak via GitHub sama Twitter ee"
+    },
+    {
+      "start": 220.4,
+      "end": 228.91,
+      "text": "enggak ada respon. Terus tiba-tiba ee Mas Indra yang ini sendiri muncul sendiri di Gitab kita. Jadi ee senang"
+    },
+    {
+      "start": 228.92000000000002,
+      "end": 232.35,
+      "text": "sekali akhirnya bisa mendatangkan Mas Indra. Halo Mas Indra."
+    },
+    {
+      "start": 232.36,
+      "end": 238.309,
+      "text": "We halo. Taruh tengah dong. Happy aku ketemu Mas."
+    },
+    {
+      "start": 238.31900000000002,
+      "end": 243.589,
+      "text": "Taruh tengah. Taruh tengah. Taruh tengah."
+    },
+    {
+      "start": 243.599,
+      "end": 245.99,
+      "text": "Yang mana ya? Ini ya. Nah."
+    },
+    {
+      "start": 246,
+      "end": 251.83,
+      "text": "Weh. Wah gede banget. Oke. [tertawa] Bertig aja."
+    },
+    {
+      "start": 251.84,
+      "end": 258.71,
+      "text": "Ee Mas Indra. Em mungkin buat teman-teman yang belum familiar ya ee sebagian mungkin sudah tapi yang belum"
+    },
+    {
+      "start": 258.72,
+      "end": 264.59,
+      "text": "boleh kenalan singkat dong. Halo teman-teman, eh nama aku Indra."
+    },
+    {
+      "start": 264.6,
+      "end": 275.27,
+      "text": "Saat ini aku kerja sebagai AI Engineering Lead di salah satu company fintech di Jepang."
+    },
+    {
+      "start": 275.28,
+      "end": 284.909,
+      "text": "Ya, aku hari ini mau share-share dengan teman-teman tentang Anvia, salah satu framework yang aku bikin ee untuk"
+    },
+    {
+      "start": 284.919,
+      "end": 291.51,
+      "text": "ngembangun open source ya ini. Yes, open source."
+    },
+    {
+      "start": 291.52,
+      "end": 302.87,
+      "text": "I sudah ya. [tertawa] Jadi saya sebenarnya penasaran Mas Indra ini kan Mas Indra kerjanya di Jepang gitu ya ee sebagai eh"
+    },
+    {
+      "start": 302.88,
+      "end": 311.909,
+      "text": "AI engineer lah gitu ya bagian dari AI engineer itu ee kalau lowongan pekerjaan AI engineer atau yang berhubungan dengan"
+    },
+    {
+      "start": 311.919,
+      "end": 317.909,
+      "text": "AI engineer tuh di Indonesia tuh sudah mulai banyak atau masih jarang sih?"
+    },
+    {
+      "start": 317.919,
+      "end": 322.909,
+      "text": "Ituas Mas Riza. Aku tuh sudah enggak kerja di Indonesia tuh sejak 2013."
+    },
+    {
+      "start": 322.919,
+      "end": 326.23,
+      "text": "Waduh. Jadi enggak ngikutin ya? Totali enggak ngerti. Totali enggak ngerti."
+    },
+    {
+      "start": 326.24,
+      "end": 332.029,
+      "text": "Kitanya juga enggak tahu. Enggak tahu ya. Enggak enggak pernah nyari kanan Indonesia ya."
+    },
+    {
+      "start": 332.039,
+      "end": 336.71,
+      "text": "Enggak pernah nyari di Indonesia. Luar biasa."
+    },
+    {
+      "start": 336.72,
+      "end": 343.27,
+      "text": "Tuh ada pertanyaan tuh. E engineer apakah menggunakan bahasa Jepang?"
+    },
+    {
+      "start": 343.28,
+      "end": 349.67,
+      "text": "Enggaklah. Enggaklah. Enggaklah. Ya, tapi ada syarat bisa harus bisa berbahasa Jepang atau gimana?"
+    },
+    {
+      "start": 349.68,
+      "end": 359.27,
+      "text": "Enggak. Enggak di case aku. Jadi kantor aku dulu tuh di Singapura terus kemudian kita ganti nama dan HQ-nya pindah ke Jepang."
+    },
+    {
+      "start": 359.28,
+      "end": 367.43,
+      "text": "Oke. I tapi emang kantornya internasional anyway ya. Jadi ee Mosnya mau di mana tetap ee bahasa komunikasinya Inggris"
+    },
+    {
+      "start": 367.44,
+      "end": 376.629,
+      "text": "kan. Inggris ya. Inggris. Inggris. Mm. Iya. Iya. ya. Nah, ini ee tadi saya penasaran banget dari awal kita sebelum"
+    },
+    {
+      "start": 376.639,
+      "end": 384.87,
+      "text": "live ya kan Mas Indra sudah bikin tools yang bisa dibilang udah ee di atas level minimal di atas level kita bertiga lah"
+    },
+    {
+      "start": 384.88,
+      "end": 386.87,
+      "text": "gitu ya. Sudah bisa sudah bikin tools."
+    },
+    {
+      "start": 386.88,
+      "end": 393.83,
+      "text": "Kalau kita masih pemakai tools gitu ya, tools AI. Nah, ini Mas IND tuh belajar AI pertama kali itu gimana [berdehem]"
+    },
+    {
+      "start": 393.84000000000003,
+      "end": 397.43,
+      "text": "ya? kita dari developer eh software biasa."
+    },
+    {
+      "start": 397.44,
+      "end": 403.43,
+      "text": "Mas juga tadi kata Mas dari software developer biasa lah ma ngoding biasa."
+    },
+    {
+      "start": 403.44,
+      "end": 412.909,
+      "text": "Nah, [berdehem] kita bertiga tuh agak stuck ngoding pakai AI ya. Mungkin mengoptimalkan penggunaan AI lumayan bisa tapi belum beralih ke"
+    },
+    {
+      "start": 412.919,
+      "end": 419.469,
+      "text": "ee bikin produk atau bikin sesu ee bikin pipeline. Heeh. Pipeline dan lain-lain."
+    },
+    {
+      "start": 419.479,
+      "end": 425.189,
+      "text": "Nah, itu transformasi evolusinya kayak gimana tuh? Oke."
+    },
+    {
+      "start": 425.199,
+      "end": 435.99,
+      "text": "Em, aku tuh mungkin bisa dibilang beruntung ya. Aku tuh sebelumnya dari 2020 kan kerja di Kanada dan di Kanada itu kita di zaman itu ya"
+    },
+    {
+      "start": 436,
+      "end": 449.189,
+      "text": "di 2020 itu kita sudah ada AI engineer sudah ada EA engineer dan salah satunya yang yang yang banyak ngajarin aku adalah Luis"
+    },
+    {
+      "start": 449.199,
+      "end": 457.43,
+      "text": "Francois. Jadi dia salah satu pembicara di channel AI Engineer kalau tahu ya."
+    },
+    {
+      "start": 457.44,
+      "end": 465.55,
+      "text": "Iya, yang ada di YouTube itu itu dia salah satu salah satu pembicara di sana dan dia yang sering ngasih kita."
+    },
+    {
+      "start": 465.56,
+      "end": 473.23,
+      "text": "Jadi di dulu tuh di di kantor tuh setiap hari Jumat itu ada kayak ee kita boleh book sama siapa gitu. Sharing"
+    },
+    {
+      "start": 473.24,
+      "end": 479.589,
+      "text": "session. I jadi ada sharing session dan di kantor kita ada empat waktu itu kalau enggak salah. Ada Luis Franois, satu"
+    },
+    {
+      "start": 479.599,
+      "end": 484.869,
+      "text": "lagi dari Argentina dan dua dari ee dari Prancis."
+    },
+    {
+      "start": 484.879,
+      "end": 492.95,
+      "text": "dari Prancis itu sudah di zaman itu sudah kita sudah ngobrolnya adalah eh engine udah udah jadi kayak bikin bukan"
+    },
+    {
+      "start": 492.96,
+      "end": 497.189,
+      "text": "LLM ya waktu itu kita masih nyebutnya adalah machine learning gitu."
+    },
+    {
+      "start": 497.199,
+      "end": 501.55,
+      "text": "Karena kita tahu ya AI itu AI engineer itu ada dua path."
+    },
+    {
+      "start": 501.56,
+      "end": 510.309,
+      "text": "Ada dua path. Pth yang pertama yang lebih low level yang lebih dekat dengan machine learning. Jadi machine learning"
+    },
+    {
+      "start": 510.319,
+      "end": 520.55,
+      "text": "produce eh produce modelnya. Tapi yang kedua itu yang P implementasinya yang lebih dekat dengan software engineering, tapi masih"
+    },
+    {
+      "start": 520.56,
+      "end": 530.99,
+      "text": "related sama LLM. Iya. Oke. Jadi aku beruntungnya di situ, Mas. Aku banyak [berdehem] belajar sama orang-orang yang"
+    },
+    {
+      "start": 531,
+      "end": 532.99,
+      "text": "waktu itu aku enggak ngerti dunianya."
+    },
+    {
+      "start": 533,
+      "end": 538.71,
+      "text": "Ngerti Learning, tapi enggak ngerti dunia kayak mereka sejago itu. Karena dia sudah di zaman itu dia sudah ambil"
+    },
+    {
+      "start": 538.72,
+      "end": 544.71,
+      "text": "PhD. Siifulis Frano ini PhD. Wow."
+    },
+    {
+      "start": 544.72,
+      "end": 553.59,
+      "text": "Dan ya beruntung beruntung ya. Jadi kayak terbuka cakrawalanya ya lebih cepat ya dibandingkan kita di sini di Indonesia"
+    },
+    {
+      "start": 553.6,
+      "end": 558.71,
+      "text": "ya. Di sini mungkin 2020 masih chat GPT enggak sih?"
+    },
+    {
+      "start": 558.72,
+      "end": 566.15,
+      "text": "Belum. 2020. Oh belum. Belum. 2020 kan ini ya pandemi ya belum ya? Masih jauh ya."
+    },
+    {
+      "start": 566.16,
+      "end": 571.55,
+      "text": "Masih jauh. He chatt pertama kali muncul tuh 2002 akhir."
+    },
+    {
+      "start": 571.56,
+      "end": 582.15,
+      "text": "22 2022 akhir. Iya ya iya iya. Oke. Terus ee step-step belajarnya kan ini udah apa namanya udah"
+    },
+    {
+      "start": 582.16,
+      "end": 588.91,
+      "text": "terinspirasi. Wah pengin belajar nih ya engineer. Terus ee step yang diambil pada saat itu belajarnya gimana? Dari"
+    },
+    {
+      "start": 588.92,
+      "end": 597.03,
+      "text": "mulai belajar apa dulu? Kan ada yang ee ada yang bilang oh harus belajar matematika, teori machine learning. gitu"
+    },
+    {
+      "start": 597.04,
+      "end": 601.509,
+      "text": "atau langsung implementasi coba API-nya pakai bikin sesuatu atau gimana?"
+    },
+    {
+      "start": 601.519,
+      "end": 608.35,
+      "text": "Bikin sesuatu. Ee gini yang yang kita ambil waktu itu semua di kantor tuh kan ada dibagi dua"
+    },
+    {
+      "start": 608.36,
+      "end": 615.31,
+      "text": "ya, dibagi jadi tim kita tuh ada 12 engineer dan ada empat e-engine engineer. Jadi yang 12 engineer itu"
+    },
+    {
+      "start": 615.32,
+      "end": 626.35,
+      "text": "fokusnya diimplementasi memang ee jadi h kayak bikin bikin berbagai macam Iya. I mean kalau kalau mungkin gampangnya"
+    },
+    {
+      "start": 626.36,
+      "end": 628.71,
+      "text": "bahasa gampangnya mungkin waper kali ya."
+    },
+    {
+      "start": 628.72,
+      "end": 636.79,
+      "text": "rapper. Tapi [tertawa] makin makin makin lama makin ke sini yang kita pelajari udah enggak lagi kayak di level uper kayak harness"
+    },
+    {
+      "start": 636.8,
+      "end": 648.75,
+      "text": "totally hardness eh engineering jadi agak lebih deep tapi belajarnya paling basic dulu tuh kita belajar ee implementasi dulu kita belajar"
+    },
+    {
+      "start": 648.76,
+      "end": 656.75,
+      "text": "implementasi dari chatt dari chatt itu kita waktu itu setiap setiap 6 bulan tuh ada di kantor tuh"
+    },
+    {
+      "start": 656.76,
+      "end": 658.949,
+      "text": "kayak semacam hak katon gitu gitu."
+    },
+    {
+      "start": 658.9590000000001,
+      "end": 670.35,
+      "text": "Siapapun itu kayak termasuk juga bahkan ee orang-orang HR itu harus bikin produk. Jadi ada sedikit dan dan itu kita dikasih waktu kayak 24 jam"
+    },
+    {
+      "start": 670.36,
+      "end": 678.75,
+      "text": "ee di hari di hari Jumat itu kita boleh pesan apa aja dia di rumah semuanya live dan kita bikin bikin tools-tools dan"
+    },
+    {
+      "start": 678.76,
+      "end": 688.03,
+      "text": "waktu itu aku bikin tools-nya ya comon ya kayak chat biasa tapi ada ini ee apa namanya ada"
+    },
+    {
+      "start": 688.04,
+      "end": 694.949,
+      "text": "kayak kita bisa milih persona gitu siapa yang mau kita chat ya zaman zaman itu kan enggak sepintar"
+    },
+    {
+      "start": 694.9590000000001,
+      "end": 702.35,
+      "text": "sekarang 2020 ya. Heeh. 2022 awal-awal tuh 2022 ya. Iya iya."
+    },
+    {
+      "start": 702.36,
+      "end": 711.71,
+      "text": "Enggak secanggih itu kalau zaman sekarang ya mungkin ee aku bisa bilang hello world-nya AI engineer yang implementasi adalah rak."
+    },
+    {
+      "start": 711.72,
+      "end": 719.389,
+      "text": "Iya harusnya r rag ya. Rag itu aku bisa bilang wordnya itu ya."
+    },
+    {
+      "start": 719.399,
+      "end": 729.949,
+      "text": "Hello wordnya. Wah. Astagfirullahalazim. I. Oke. Oke. Set ee jadi memang berawal dari rapper dulu ya, bikin bikin seperti"
+    },
+    {
+      "start": 729.959,
+      "end": 734.43,
+      "text": "chat GPT pakai API-nya chat GPT, habis itu baru berkembang berkembang, berkembang gitu ya."
+    },
+    {
+      "start": 734.44,
+      "end": 740.87,
+      "text": "Iya. Iya. Lah dulu kan belum ada API chat GPT juga kan. Berarti pakai servis pakai apa?"
+    },
+    {
+      "start": 740.88,
+      "end": 745.91,
+      "text": "Jalanin model di suatu tempat lokal enggak? Jadi jadi menariknya gini."
+    },
+    {
+      "start": 745.92,
+      "end": 756.23,
+      "text": "Menariknya gini. Kalau di Kanada ada CEO kita itu CEO kita itu yang sekarang ya yang waktu itu eh kita tuh kayak dapat"
+    },
+    {
+      "start": 756.24,
+      "end": 767.15,
+      "text": "jadi mereka tuh kayak ngroll nge-roll out API tapi kayak hanya beberapa company hanya di underi tertentu kayak underisi tertentu itu"
+    },
+    {
+      "start": 767.16,
+      "end": 772.629,
+      "text": "sering banget terjadi. Sering banget. Hm. Berarti keberuntungan kedua itu ya."
+    },
+    {
+      "start": 772.639,
+      "end": 777.269,
+      "text": "Jadi, API-nya keekpos duluan sebelum teman-teman ini ya, sebelum teman-teman yang lain yang publis."
+    },
+    {
+      "start": 777.279,
+      "end": 780.189,
+      "text": "Sebelum sebelum yang lain muncul. Iya, sebelum yang lain muncul."
+    },
+    {
+      "start": 780.199,
+      "end": 787.269,
+      "text": "Mungkin karena pertimbangan ee si kerjanya juga emang apa ee punya kutip sama punya kebiasaan yang forward yang"
+    },
+    {
+      "start": 787.279,
+      "end": 790.509,
+      "text": "maksudnya yang progresif lah di bidang eksplorasi."
+    },
+    {
+      "start": 790.519,
+      "end": 794.47,
+      "text": "Mungkin ada partnership atau semacamnya kali ya."
+    },
+    {
+      "start": 794.48,
+      "end": 803.269,
+      "text": "Iya. waktu itu ini ee CEO kita itu salah satu mungkin salah satu orang yang paling ini ya paling berpengaruh ya di"
+    },
+    {
+      "start": 803.279,
+      "end": 810.91,
+      "text": "dunia startup di Kanada itu dan belah satu salah satu investornya Versell."
+    },
+    {
+      "start": 810.92,
+      "end": 815.99,
+      "text": "Investornya Vsell. Jadi channelnya ke mana-mana."
+    },
+    {
+      "start": 816,
+      "end": 821.59,
+      "text": "Channelnya ke mana-mana. Iya iya iya iya iya. Oke menarik menarik."
+    },
+    {
+      "start": 821.6,
+      "end": 830.629,
+      "text": "Nah, sekarang eh sebelum kita bahas tentang lebih lanjut tentang Anvia, kan Anvia ini adalah eh tools buat bikin AI"
+    },
+    {
+      "start": 830.639,
+      "end": 845.43,
+      "text": "agent kan buat refreshing lah kira-kira sebenarnya AI agent itu apa sih AI agent? AI agent itu full manage runtime. Full manage"
+    },
+    {
+      "start": 845.44,
+      "end": 854.069,
+      "text": "runtime. Jadi beda kayak sama completion ya, completion bahkan even completion plus tool calling atau function call itu"
+    },
+    {
+      "start": 854.079,
+      "end": 864.829,
+      "text": "hanya ngasih kita oke this is the di request respon ya request respon hanya ngasih hanya ngasih nama nama function yang harus dipanggil"
+    },
+    {
+      "start": 864.8389999999999,
+      "end": 873.269,
+      "text": "dan argumennya. That's it. Tanya jawab ya. untuk untuk eksekusinya kita harus eksekusi sendiri."
+    },
+    {
+      "start": 873.279,
+      "end": 882.87,
+      "text": "kita harus eksekusi sendiri. Tapi kalau agent full manage runime. Jadi udah di dalamnya ada reasoning tool tool set dan"
+    },
+    {
+      "start": 882.88,
+      "end": 890.59,
+      "text": "berbagai macam loop dan semua kebutuhan kayak contoh hooks ya kayak on run, on call, on tool call,"
+    },
+    {
+      "start": 890.6,
+      "end": 894.47,
+      "text": "on completion dan lain sebagainya itu semuanya harus ada."
+    },
+    {
+      "start": 894.48,
+      "end": 898.949,
+      "text": "Harus ada kalau kita mau mau bikin agen."
+    },
+    {
+      "start": 898.9590000000001,
+      "end": 907.79,
+      "text": "Hm. Oke, jadi mungkin gini ya, kalau misalkan bisa dibilang agent itu a system in itself ya. Dia kan berarti punya sistem"
+    },
+    {
+      "start": 907.8,
+      "end": 917.269,
+      "text": "kan maksudnya dia tahu kapan manggil eh tuh ini tuh itu hook kapan ngeloop eh kapan loop-nya harus ee pindah ke"
+    },
+    {
+      "start": 917.279,
+      "end": 925.389,
+      "text": "desktop. Heeh. Itu kan kayak aplikasi tersendiri kan. Maksudnya kalau dari bahasa yang familiar buat developer itu kan sistem atau aplikasi."
+    },
+    {
+      "start": 925.399,
+      "end": 928.55,
+      "text": "Iya. Kita nyebutnya runtime ya. Runtime."
+    },
+    {
+      "start": 928.56,
+      "end": 937.87,
+      "text": "Oke. Oh. nyebutnya rantai. Iya. Sip. Oke. Nah, ee oke. Sekarang kita masuk ke anvianya sendiri. Kita share"
+    },
+    {
+      "start": 937.88,
+      "end": 943.03,
+      "text": "screen kali ya. Nih. Loh, mana? Belum belum di-share screen."
+    },
+    {
+      "start": 943.04,
+      "end": 955.189,
+      "text": "Oke, boleh dijelaskan sambil saya share screen Anvia itu apa dan ee latar belakang dibangunnya Anvia itu buat apa"
+    },
+    {
+      "start": 955.199,
+      "end": 964.389,
+      "text": "ya? Em, Anvia. Anvia ini salah satu framework ya, framework yang aku bikin untuk ngebantu sebenarnya ngebantu aku"
+    },
+    {
+      "start": 964.399,
+      "end": 975.59,
+      "text": "pribadi untuk bikin agen karena aku sudah ada mungkin sudah ada pengalaman bikin puluhan AI agen yang memang dipakai di real production"
+    },
+    {
+      "start": 975.6,
+      "end": 984.35,
+      "text": "dan selama aku pakai berbagai macam tools aku nemu banyak sekali problem yau banyak sekali problem bukan berarti"
+    },
+    {
+      "start": 984.36,
+      "end": 995.47,
+      "text": "semuanya bisa solving dengan Tapi he apa yang ku bikin di Anvia tuh kayak totally totally eh solving dulu problem yang aku temuin."
+    },
+    {
+      "start": 995.48,
+      "end": 1004.59,
+      "text": "Real problemnya scratching scratching your own ya biasa istilahnyauk menggaruk. Iya. Sebenarnya kan kalau kalau kita bicara ekosistem ya,"
+    },
+    {
+      "start": 1004.6,
+      "end": 1013.389,
+      "text": "Typecript di Typecript sendiri ada banyak sebenarnya kalau kita bicara [berdehem] agent yang mungkin aku bisa bilang lebih bukan lebih mature tapi"
+    },
+    {
+      "start": 1013.399,
+      "end": 1023.389,
+      "text": "lebih strong ya karena mereka di-backup dengan duit yang gede eh company-komany besar. Jadi, Anvia sendiri bukan bukan"
+    },
+    {
+      "start": 1023.399,
+      "end": 1038.75,
+      "text": "datang untuk ngalahin mereka sebenarnya. Bukan kayak kita bersaing dengan fitur ceklist, tapi Anvia itu datang untuk ee untuk ngasih pilihan. untuk ngasih"
+    },
+    {
+      "start": 1038.76,
+      "end": 1046.51,
+      "text": "pilihan bahwasanya kita enggak harus memaksa aplikasi kita yang kita mungkin sudah punya sekarang itu untuk masuk ke"
+    },
+    {
+      "start": 1046.52,
+      "end": 1058.75,
+      "text": "satu platform tertentu. Satu platform tertentu. Jadi kayak kayak contoh di ada Versel ya, Versel eh open source sama juga"
+    },
+    {
+      "start": 1058.76,
+      "end": 1063.51,
+      "text": "mereka fully platform ya kayak fully fullyor login lah ya. Vendor login ya."
+    },
+    {
+      "start": 1063.52,
+      "end": 1065.15,
+      "text": "Aku enggak bisa bilang vendor login ya."
+    },
+    {
+      "start": 1065.16,
+      "end": 1077.35,
+      "text": "Tapi yang yang aku rasain ketika pakai pakai si ee FL sendiri IS sendiri itu mungkin mungkin aku karena enggak cocok"
+    },
+    {
+      "start": 1077.36,
+      "end": 1084.39,
+      "text": "ya cara cara iniya eh desain DX-nya, developer experience-nya."
+    },
+    {
+      "start": 1084.4,
+      "end": 1091.909,
+      "text": "Jadi aku kurang kurang nyaman aja cara pakainya. Itulah kenapa agak agak sedikit beda di Anvia yang aku bikin itu"
+    },
+    {
+      "start": 1091.919,
+      "end": 1096.19,
+      "text": "agak sedikit beda karena nyesuai dengan apa yang aku temuin sebenarnya."
+    },
+    {
+      "start": 1096.2,
+      "end": 1108.39,
+      "text": "Eh apa yang aku temuin dan sampai hari ini Anvia sudah punya 22 package open source MIT eh hampir untuk seluruh kebutuhan."
+    },
+    {
+      "start": 1108.4,
+      "end": 1116.95,
+      "text": "Hampir untuk seluruh kebutuhan. mau pakai comon eh common SDK ya under the hood-nya tetap pakai open AI pakai Mral"
+    },
+    {
+      "start": 1116.96,
+      "end": 1128.75,
+      "text": "pakai Grock pakai Gemini tapi aku ngedesain si Anvia itu untuk jadi full package gitu full ekosistem jadi"
+    },
+    {
+      "start": 1128.76,
+      "end": 1138.11,
+      "text": "kalau kita mau butuh butuh oke mau butuh bikin Aagen untuk coding agent kamu kita punya kita punya core-nya kita punya"
+    },
+    {
+      "start": 1138.12,
+      "end": 1146.95,
+      "text": "build primitive bloknya. Kalau kita mau bikin bikin let's say bikin RG, kita sudah kasih bloknya tinggal mau pakai"
+    },
+    {
+      "start": 1146.96,
+      "end": 1155.63,
+      "text": "storage yang mana gitu. Kalau mau kita develop ke UI kita punya server dan React, kita juga punya React"
+    },
+    {
+      "start": 1155.64,
+      "end": 1159.43,
+      "text": "UI dan React UI ini headless totally."
+    },
+    {
+      "start": 1159.44,
+      "end": 1169.27,
+      "text": "Jadi kita bisa bikin kayak bisa ngekompus kayak apapun yang kita mau."
+    },
+    {
+      "start": 1169.28,
+      "end": 1176.47,
+      "text": "Ini full modular ya berarti kita kan apa pilih aja apa yang sesuai apa yang mau di e yang sesuai sama stack kita sama"
+    },
+    {
+      "start": 1176.48,
+      "end": 1181.31,
+      "text": "yang mau dibikin kan. Yes. Bisa dicombine ee sesuka."
+    },
+    {
+      "start": 1181.32,
+      "end": 1190.71,
+      "text": "Ah menarik menarik. Jadi enggak enggak semua begitu diinstal langsung semua dapat tapi satu-satu yang dibutuhin aja ya. dibutuhin aja. Yang dibutuhin aja."
+    },
+    {
+      "start": 1190.72,
+      "end": 1199.35,
+      "text": "Oke, kita ada sunbox yang baru ini ini beberapa baru be baru rilis beberapa minggu lalu kalau enggak salah"
+    },
+    {
+      "start": 1199.36,
+      "end": 1204.909,
+      "text": "sunbox basically kayak bikin sunbox tool untuk code execution."
+    },
+    {
+      "start": 1204.919,
+      "end": 1209.11,
+      "text": "Eh, biar enggak ini ya, biar enggak berbahaya ya kalau ada kode-kode yang aneh ya."
+    },
+    {
+      "start": 1209.12,
+      "end": 1213.59,
+      "text": "Iya. Iya. Karena dari pengalamanku kita kita ada case-case seperti itu."
+    },
+    {
+      "start": 1213.6,
+      "end": 1222.87,
+      "text": "Ada kejadian. Ada kejadian. ada kejadian. Tapi bukan bukan karena orangnya yang memang sedang ingin mencuri atau melakukan apa ya ee"
+    },
+    {
+      "start": 1222.88,
+      "end": 1229.83,
+      "text": "user kita ya. Tapi yang aku lihat dia kayak kayak dengar sesuatu yang baru kan AI itu hype ya kayak banyak sekali"
+    },
+    {
+      "start": 1229.84,
+      "end": 1237.87,
+      "text": "hype-hype baru gitu. Setiap dia dengar waktu itu dia dengar tentang eh satu tulisannya si Jim ini kalau enggak salah"
+    },
+    {
+      "start": 1237.88,
+      "end": 1241.19,
+      "text": "di Google dia nemu tulisan debate agent."
+    },
+    {
+      "start": 1241.2,
+      "end": 1247.59,
+      "text": "Jadi dia debate agent terus dia bikin kayak script gitu untuk ngebaca ENV kita. Tapi waktu itu sudah aku sudah"
+    },
+    {
+      "start": 1247.6,
+      "end": 1253.11,
+      "text": "tahu eh aku harus bikin sunbox. Ada juga studio."
+    },
+    {
+      "start": 1253.12,
+      "end": 1264.71,
+      "text": "Studio runtime. Jadi studio UI ini bisa dipakai tanpa kita harus mikirin ee mikirin tes. Ya, contoh gini, kalau kita"
+    },
+    {
+      "start": 1264.72,
+      "end": 1272.51,
+      "text": "mau bikin AI agent, mau enggak mau cara tesnya adalah building the full flatch app. I enggak kita enggak bisa kayak bikin oke jadi"
+    },
+    {
+      "start": 1272.52,
+      "end": 1279.87,
+      "text": "satu dulu baru baru mikirin gitu enggak bisa tapi kalau dengan ini [mendengus] kita pikirin dulu agen-nya mau keekompos"
+    },
+    {
+      "start": 1279.88,
+      "end": 1289.39,
+      "text": "kayak apa, pasang satu line aja tambahan pakai studio udah kita bisa punya tracing, kita sudah punya eh chat UI,"
+    },
+    {
+      "start": 1289.4,
+      "end": 1295.75,
+      "text": "kita bisa ngelihat usage. Kalau seandainya halo kita bisa lihat kenapa."
+    },
+    {
+      "start": 1295.76,
+      "end": 1304.11,
+      "text": "Oh, kayak dashboard ya dibikin gu dashboard-nya. Betul kayak dashboard biar kita enggak harus nyari-nyari lock entah di mana."
+    },
+    {
+      "start": 1304.12,
+      "end": 1308.549,
+      "text": "Betul betul. Oh. Oh, ini kayak dashboard-nya ya berarti ya."
+    },
+    {
+      "start": 1308.559,
+      "end": 1317.39,
+      "text": "Yes. Nah, biasanya kalau di di di kayak contoh di Mastra ya ini ada Heeh. Ada dan mereka kayak ada punya"
+    },
+    {
+      "start": 1317.4,
+      "end": 1327.69,
+      "text": "full platformnya. Jadi mereka punya ee Mastra itu punya si studio juga kalau enggak salah namanya atau OS gitu."
+    },
+    {
+      "start": 1327.7,
+      "end": 1335.71,
+      "text": "[berdehem] Kalau ini Mastra ini eh framework juga ya, framework buat AI agent juga ya berarti ya."
+    },
+    {
+      "start": 1335.72,
+      "end": 1343.029,
+      "text": "Iya, full platform. Jadi dia manage manage platform. Jadi kalau kita mau pakai framework dia biasa digabung sama"
+    },
+    {
+      "start": 1343.039,
+      "end": 1352.59,
+      "text": "FEL juga dan mereka punya kayak mereka punya fully manage platform gitu. Kalau aku enggak mau di sini maksudnya ver AI bukan sih?"
+    },
+    {
+      "start": 1352.6,
+      "end": 1359.11,
+      "text": "Iya versel AI. Jadi under the hood-nya under the hoodnya mereka pakai mereka library."
+    },
+    {
+      "start": 1359.12,
+      "end": 1370.43,
+      "text": "Oke ya. Ini ini kalau enggak salah salah satu library yang lumayan cukup dikenal juga setelah sebelumnya itu yang naik"
+    },
+    {
+      "start": 1370.44,
+      "end": 1378.95,
+      "text": "itu kan awalnya kan kalau enggak salah siapa namanya? Langcen awalnya langcen ya kan habis itu ada lama indeks ada"
+    },
+    {
+      "start": 1378.96,
+      "end": 1384.59,
+      "text": "baru muncul mastra yang type script yang benar-benar dari Type script kan kalau Lin kalau enggak salah awalnya Python"
+    },
+    {
+      "start": 1384.6,
+      "end": 1388.789,
+      "text": "habis itu di eh bikin versi TypeScript atau JavaScript-nya ya."
+    },
+    {
+      "start": 1388.799,
+      "end": 1395.35,
+      "text": "Iya. Hm. [berdehem] Oke. Wah, menarik."
+    },
+    {
+      "start": 1395.36,
+      "end": 1403.19,
+      "text": "Nah, ini ee pertanyaan kenapa satu persatu ini. Habis ini pasti semua yang nonton. Semua yang nonton termasuk"
+    },
+    {
+      "start": 1403.2,
+      "end": 1410.83,
+      "text": "kita nyobain hopefully ya. Hopefully. Nih ya. Iya. Ee ini ada pertanyaan bagus [berdehem] juga nih. Nah, ini kan"
+    },
+    {
+      "start": 1410.84,
+      "end": 1419.029,
+      "text": "dipakai di pekerjaan di kantor untuk klien gitu kan. Terus apakah Mas Indra dikasih alokasi waktu jam kerja tertentu"
+    },
+    {
+      "start": 1419.039,
+      "end": 1422.63,
+      "text": "untuk maintenance atau untuk membuat ee project?"
+    },
+    {
+      "start": 1422.64,
+      "end": 1433.31,
+      "text": "Sekian jam dalam seminggu. Heeh. Enggak, karena ini bukan sebenarnya bukan bukan project kantor ya. Jadi of course aku mungkin agak beda caraku"
+    },
+    {
+      "start": 1433.32,
+      "end": 1442.669,
+      "text": "kerja mungkin ya. Aku tadi sempat singgung caraku kerja agak beda. Aku sudah hampir tidak pernah ngelihat membaca kode"
+    },
+    {
+      "start": 1442.679,
+      "end": 1450.71,
+      "text": "ID ID ID mungkin ya. Tapi kalau kode baca aku baca di review ya. Tapi ada ada berbagai macam gate yang aku punya"
+    },
+    {
+      "start": 1450.72,
+      "end": 1458.789,
+      "text": "gitu untuk make sure aku enggak buang-buang waktu lagi. Jadi mindsetnya mungkin agak beda karena kita kita ada di masa transisi ya. Kalau kita"
+    },
+    {
+      "start": 1458.799,
+      "end": 1465.669,
+      "text": "pakai selama ini kan mostly ya. Mostly yang aku tahu ya. kayak kita pakai coding agent ya sudah kita pakai coding"
+    },
+    {
+      "start": 1465.679,
+      "end": 1473.35,
+      "text": "agent bantu ngetik lah bantu ngetik untuk lebih cepat bantu ngetik bantu mikir tapi in theend of the day kita akhirnya"
+    },
+    {
+      "start": 1473.36,
+      "end": 1481.789,
+      "text": "jadi bottlen neck iya jadi bottlen untuk ng-review segitu gede segitu gede dan karena ini cepat banget kan hasilnya ya"
+    },
+    {
+      "start": 1481.799,
+      "end": 1492.909,
+      "text": "kalau kita ngacak ke company-comany yang besar kayak sekarang ada ada istilah namanya loop engineering lah mereka bisa ribuan dalam sat hari pasti"
+    },
+    {
+      "start": 1492.919,
+      "end": 1500.75,
+      "text": "ada yang beda pasti ada yang beda mindsetnya. Jadi yang selama ini mungkin kita jadi botle neck harus harus di"
+    },
+    {
+      "start": 1500.76,
+      "end": 1507.59,
+      "text": "harus diganti mungkin ya cara kita harus ngevu dan ngreview kode yang bukan enggak kita tulis terus apa maksudnya"
+    },
+    {
+      "start": 1507.6,
+      "end": 1515.43,
+      "text": "kadang overwhelming kadang slop kadang maksudnya kalau enggak dikontrol kan ee ke mana-mana enggak karuan kita ng-review-nya juga apa eh overwhelmed"
+    },
+    {
+      "start": 1515.44,
+      "end": 1521.63,
+      "text": "banget kan. Iya. Iya, itulah itu itu mungkin kalau zaman dulu kita make it make it make it"
+    },
+    {
+      "start": 1521.64,
+      "end": 1524.11,
+      "text": "work, make it right, and make it fast."
+    },
+    {
+      "start": 1524.12,
+      "end": 1529.51,
+      "text": "Kalau zaman sekarang make it work, make it slop, make it unflop, make it unlop, make it unlop. [tertawa]"
+    },
+    {
+      "start": 1529.52,
+      "end": 1536.59,
+      "text": "Iya, iya, iya, i. Oh, berarti kalau apa proses review-nya tidak dilakukan oleh manusia, berarti AI juga yang me-review"
+    },
+    {
+      "start": 1536.6,
+      "end": 1545.51,
+      "text": "gitu ya di sekarang ya. Kalau aku iya aku aku ada dua gate kayak di lokal tuh ada aku punya satu tools"
+    },
+    {
+      "start": 1545.52,
+      "end": 1555.389,
+      "text": "sendiri untuk ng-review dan otomatis ngebikin PR otomatis ngebikin PR ada di salah satu contohnya di salah satu e PR-nya Anvia"
+    },
+    {
+      "start": 1555.399,
+      "end": 1561.149,
+      "text": "itu. Oke. Eh dia akan bikin dia akan bikin coba bukan di situ mungkin ya. Oh, I yang"
+    },
+    {
+      "start": 1561.159,
+      "end": 1563.71,
+      "text": "diclose yang sudah diclose yang diclose?"
+    },
+    {
+      "start": 1563.72,
+      "end": 1569.95,
+      "text": "Oh, oke. Coba ini berarti fully dibangun dengan AI ini ya berarti dengan AI agent ya."
+    },
+    {
+      "start": 1569.96,
+      "end": 1577.19,
+      "text": "Yes, of course. Aku tahu apa yang harus aku lakuin karena aku punya punya sudah punya pengalaman untuk membangun"
+    },
+    {
+      "start": 1577.2,
+      "end": 1585.19,
+      "text": "agak Little JS waktu itu enggak waktu bikin Little JS itu kan totally scratch pakai tangan ya. Eh, waktu itu ideanya"
+    },
+    {
+      "start": 1585.2,
+      "end": 1590.87,
+      "text": "adalah bikin framework JavaScript yang filosofinya kayak Laravel gitu."
+    },
+    {
+      "start": 1590.88,
+      "end": 1594.19,
+      "text": "Everything is one tool box gitu."
+    },
+    {
+      "start": 1594.2,
+      "end": 1603.149,
+      "text": "Tapi kalau sekarang eh kayaknya orang-orang enggak butuh deh eh untuk bikin [tertawa] pakai untuk bikin sudah pakai yang umum"
+    },
+    {
+      "start": 1603.159,
+      "end": 1605.95,
+      "text": "aja yang comen aja yang umum."
+    },
+    {
+      "start": 1605.96,
+      "end": 1619.029,
+      "text": "Oke, [berdehem] coba ke bawah ke bawah ini bot ke bawah. ke bawah. Coba cari bawah e eh line eh ini provider ini coba."
+    },
+    {
+      "start": 1619.039,
+      "end": 1627.149,
+      "text": "Align provider yang kedua itu ya."
+    },
+    {
+      "start": 1627.159,
+      "end": 1634.669,
+      "text": "Coba lihat di file change. File change."
+    },
+    {
+      "start": 1634.679,
+      "end": 1638.87,
+      "text": "Oke. Eh, bukan ini kayaknya. Aku cari deh."
+    },
+    {
+      "start": 1638.88,
+      "end": 1643.31,
+      "text": "Aku cari deh nanti. Nanti di-share di private chat aja."
+    },
+    {
+      "start": 1643.32,
+      "end": 1655.269,
+      "text": "Boleh. Boleh. Oke. Berarti ini ee untuk proses development-nya ee gimana ininya flow-nya? Apakah menggunakan isu di sini? Nanti agen-nya ngambil isu di sini"
+    },
+    {
+      "start": 1655.279,
+      "end": 1661.75,
+      "text": "terus dia kerjain atau gimana? Jadi karena dipakainya sambil jalan ya."
+    },
+    {
+      "start": 1661.76,
+      "end": 1669.549,
+      "text": "Jadi setiap setiap problem tuh yang aku temuin oke aku pakai ee aku pakai A B C D gitu. Terus setiap problem yang aku"
+    },
+    {
+      "start": 1669.559,
+      "end": 1677.47,
+      "text": "temuin di real production aku akan lihat mana problemnya. Problemnya ada di app layer kah di atau di unvia layer gitu."
+    },
+    {
+      "start": 1677.48,
+      "end": 1683.83,
+      "text": "Kalau terjadi di unvia layer tanpa harus mikir panjang aku akan soft. Karena akuudah ada pengalaman aku tuh"
+    },
+    {
+      "start": 1683.84,
+      "end": 1693.149,
+      "text": "sebelumnya jadi kontributornya kalau tahu eh framework RCK dari RAS, AI agent dari RAS. Ee enggak tahu sih"
+    },
+    {
+      "start": 1693.159,
+      "end": 1698.424,
+      "text": "aku. Iya ada coba cari namanya Ras eh Rik."
+    },
+    {
+      "start": 1698.434,
+      "end": 1705.95,
+      "text": "[tertawa] Ras apa? Ras Rik. Ras R I R I G K G O R I G."
+    },
+    {
+      "start": 1705.96,
+      "end": 1715.99,
+      "text": "Oke. Oh Rick.rs. Oh iya. Jadi dulu tuh aku ada pakai ini kalau di rus yang kayak contoh yang"
+    },
+    {
+      "start": 1716,
+      "end": 1724.19,
+      "text": "agents OS yang aku bikin itu aku masih pakai ini dan mirip desainnya mirip aku aku juga eh contribute ke sini"
+    },
+    {
+      "start": 1724.2,
+      "end": 1733.35,
+      "text": "contribute ke eh Rick dan seringkiali kayak nung harus nunggu aku untuk solving problem aja itu harus nunggu"
+    },
+    {
+      "start": 1733.36,
+      "end": 1743.029,
+      "text": "kalau sekarang oke aku pakai Anvia ada problem aku bisa langsung sikat habis langsung beres gitu langsung aku rilis aku pakai"
+    },
+    {
+      "start": 1743.039,
+      "end": 1752.59,
+      "text": "Oke, sip sip. Nah, kalau ee apa namanya? Ini kan open source ya."
+    },
+    {
+      "start": 1752.6,
+      "end": 1761.549,
+      "text": "ee gimana ada rencana ke depannya untuk supaya tetap sustain gitu dengan ya selain ya kalau ini kan kayaknya agak"
+    },
+    {
+      "start": 1761.559,
+      "end": 1770.029,
+      "text": "ee case-nya agak berbeda ya karena dipakai di kantor pasti ee case-nya bakal ada terus dan mungkin akan ee tetap sustain. Tapi kan"
+    },
+    {
+      "start": 1770.039,
+      "end": 1778.789,
+      "text": "kadang-kadang kita butuh kayak misalkan ee G sponsor kah atau funding atau ada monetisasi yang lain rencana. Heeh. Cari"
+    },
+    {
+      "start": 1778.799,
+      "end": 1788.87,
+      "text": "visi. Eh, cari visi. Aku enggak kepikiran sampai sana tuh, Bianus ya. Aku aku sementara ini kayak untuk sponsor"
+    },
+    {
+      "start": 1788.88,
+      "end": 1802.47,
+      "text": "kita ada sponsor dari Jatvo kita dapat dapat eh aku bisa bilang almost unlimited ya token dari oh ini ya sponsor ya."
+    },
+    {
+      "start": 1802.48,
+      "end": 1812.549,
+      "text": "Heeh. dari dari Jatvo untuk ngebantu ngetes lah. Aku kan punya ee si siiap kali aku mau rilis tuh aku harus tes"
+    },
+    {
+      "start": 1812.559,
+      "end": 1815.87,
+      "text": "semuanya dan itu harus butuh butuh LLM call."
+    },
+    {
+      "start": 1815.88,
+      "end": 1822.99,
+      "text": "Karena kalau aku hanya sekedar bikin smoke test [tertawa] ya, smoke test itu aku enggak gak enggak yakin."
+    },
+    {
+      "start": 1823,
+      "end": 1830.909,
+      "text": "Enggak yakin ya. Yang yang dites adalah cara kerja AI-nya ya. Enggak bisa kayak unit test kode yang deterministik. bisa aja kalau"
+    },
+    {
+      "start": 1830.919,
+      "end": 1838.99,
+      "text": "deterministik secara secara kalau kita pakai type check dan test build itu bisa aja tapi kadang-kadang enggak ada aja"
+    },
+    {
+      "start": 1839,
+      "end": 1844.909,
+      "text": "enggak ketangkap jadi aku harus [berdehem] tes kayak cookbook tuh aku jalanin semua."
+    },
+    {
+      "start": 1844.919,
+      "end": 1854.31,
+      "text": "Hmm. Oke. Oke. Ini berarti JTVO ini ee provider AI ya?"
+    },
+    {
+      "start": 1854.32,
+      "end": 1857.19,
+      "text": "Provider AI kayak open router gitu ya. Benar enggak sih?"
+    },
+    {
+      "start": 1857.2,
+      "end": 1860.149,
+      "text": "Yes. Kayak sumop gitu. Heeh. Heeh."
+    },
+    {
+      "start": 1860.159,
+      "end": 1863.029,
+      "text": "Sumopot ya? Sumopot Jevo. Iya. Sama mirip-mirip."
+    },
+    {
+      "start": 1864.96,
+      "end": 1872.95,
+      "text": "Oke. Wah, seru juga ya. Oh, berarti ee salah satu tantangannya kalau bikin AI tool seperti ini, Iya. Tokennya mesti"
+    },
+    {
+      "start": 1872.96,
+      "end": 1880.95,
+      "text": "ini ya, mesti siap banyak ya untuk testing ya. Almost unlimited ya. Wah, modelnya gede sekali tuh. Dan kita kan"
+    },
+    {
+      "start": 1880.96,
+      "end": 1888.87,
+      "text": "pakai pakai multiple ini ya, multiple provider ya. dan enggak bisa kayak relay sama relay sama gateway itu enggak"
+    },
+    {
+      "start": 1888.88,
+      "end": 1897.029,
+      "text": "bisa. Kayak contoh pakai open router, yes bisa. Tapi yang kepakai nanti adalah si open AI SDK-nya aja."
+    },
+    {
+      "start": 1897.039,
+      "end": 1902.029,
+      "text": "Iya iya iya. Oke. Misral dan City enggak kepakai."
+    },
+    {
+      "start": 1902.039,
+      "end": 1908.95,
+      "text": "Berarti eh disponsori oleh Jatvo tapi dari kantornya sendiri enggak ada provide token atau gimana?"
+    },
+    {
+      "start": 1908.96,
+      "end": 1914.11,
+      "text": "Ada pasti. Oh ada kantor ada juga."
+    },
+    {
+      "start": 1914.12,
+      "end": 1926.47,
+      "text": "subscription salah satunya subscription kita sering dapat dapat ini dapat dari Azure terakhir dapat tadi Azure itu 50"
+    },
+    {
+      "start": 1926.48,
+      "end": 1939.59,
+      "text": "oke oke kalau boleh tahu Anvia ini udah digunakan untuk bikin agen apa aja ini dari yang aku pakai ya dari yang aku"
+    },
+    {
+      "start": 1939.6,
+      "end": 1951.789,
+      "text": "pakai ya pertama ada coding agent aku pakai aku bikin coding agent sendiri sendiri ee according agent ee terus kita ada platform kayak kayak"
+    },
+    {
+      "start": 1951.799,
+      "end": 1962.83,
+      "text": "lovable untuk generate untuk building building building building application for UMKM ya mungkin aku bisa bilang UMKM eh mereka bisa generate website dan"
+    },
+    {
+      "start": 1962.84,
+      "end": 1974.59,
+      "text": "otomatis otomatis dihost sama kita. Em itu itu kemarin ada tapi sama si Jatvo. Jadi itu kayak kerja sama dengan"
+    },
+    {
+      "start": 1974.6,
+      "end": 1983.389,
+      "text": "Jatvo. Eh Jevo tuh punya satu produk lagi baru aku bisa enggak bisa bilang cuman eh yang kita bikin kayak mirip lovable gitu"
+    },
+    {
+      "start": 1983.399,
+      "end": 1990.11,
+      "text": "kayak repit lah. Sudah ada include, sudah ada database-nya, sudah ada ee hampir apapun yang kita butuhin."
+    },
+    {
+      "start": 1990.12,
+      "end": 1996.789,
+      "text": "Terus kita di kantor ada salah satu produk yang paling susah aku bikin, paling rumit ya."
+    },
+    {
+      "start": 1996.799,
+      "end": 2008.75,
+      "text": "adalah Heeh. adalah debate agent. Jadi karena kantor jadi kantor kita itu produknya mostly ngebantu para investor untuk trading open company kayak public"
+    },
+    {
+      "start": 2008.76,
+      "end": 2017.19,
+      "text": "company. Oh, trading public company. Dan yang kita bikin eh salah satu yang paling rumit itu debate agent. Jadi debate agent tuh"
+    },
+    {
+      "start": 2017.2,
+      "end": 2022.43,
+      "text": "inputnya simpel. Kayak hari ini aku beli Nvidia atau enggak."
+    },
+    {
+      "start": 2022.44,
+      "end": 2028.83,
+      "text": "Oh, sesimpel itu. Sesimpel itu. Tapi dari parentnya akan akan melakukan mapping."
+    },
+    {
+      "start": 2028.84,
+      "end": 2033.549,
+      "text": "Dia akan ng-define subagens untuk punya konteks, untuk punya pertukaran."
+    },
+    {
+      "start": 2033.559,
+      "end": 2044.19,
+      "text": "masing-masing punya perspektif apa kayak ngresearch dari apa kayak tchnical analisis fundamental apa yang satu optimis yang bukan pesis tapi"
+    },
+    {
+      "start": 2044.2,
+      "end": 2055.19,
+      "text": "lebih ke ee ke satu bully satu berry satu satu sabung ag terus mereka nanti dilihat setelah dapat"
+    },
+    {
+      "start": 2055.2,
+      "end": 2064.99,
+      "text": "masing-masing perspektifnya itu ditukar perspektifnya jadi ada dia nentukin ada beberapa kali round jadi kalau ada dan itu pesanan dari dari"
+    },
+    {
+      "start": 2065,
+      "end": 2072.03,
+      "text": "salah satu company di Jepang. Kita ada kerja sama dengan salah satu company di Jepang yang aplikasi mereka sudah"
+    },
+    {
+      "start": 2072.04,
+      "end": 2082.27,
+      "text": "dipakai sekitar 4 juta orang di Jepang itu untuk ngebantu analisa yang bantu analisa."
+    },
+    {
+      "start": 2082.28,
+      "end": 2086.149,
+      "text": "Jadi itu salah satu yang kita bikin."
+    },
+    {
+      "start": 2086.159,
+      "end": 2097.51,
+      "text": "Oke. Oke. Wah seru ya. Ada ada yang yang aku bikin yang yang AI agent untuk coding agent itu"
+    },
+    {
+      "start": 2097.52,
+      "end": 2099.71,
+      "text": "sedang di private sebenarnya ada namanya."
+    },
+    {
+      "start": 2099.72,
+      "end": 2106.47,
+      "text": "Oh di privat ya. Masih masih aku godok ni. Masih aku totali pakai Anvia tapi aku bisa kasih"
+    },
+    {
+      "start": 2106.48,
+      "end": 2112.23,
+      "text": "lihat kalau mirip. Boleh boleh mau mau lihat mau."
+    },
+    {
+      "start": 2112.24,
+      "end": 2120.79,
+      "text": "Boleh. Kita paling sukaah. Demoin demoin anvia lah sekalian ya. Demo cara penggunaan apa nih? Cara bebas [berdehem] bebas."
+    },
+    {
+      "start": 2120.8,
+      "end": 2127.31,
+      "text": "dari awal. Hello world boleh atau hal-hal yang menarik apapun sih yang boleh diekspos ke publik."
+    },
+    {
+      "start": 2127.32,
+      "end": 2129.79,
+      "text": "Berarti aku aku langsung langsung kasih demo aja."
+    },
+    {
+      "start": 2129.8,
+      "end": 2131.47,
+      "text": "Share screen aja. Share screen aja."
+    },
+    {
+      "start": 2131.48,
+      "end": 2142.95,
+      "text": "Heeh. Langsung. Oke. Share screen ini kali ya."
+    },
+    {
+      "start": 2142.96,
+      "end": 2150.43,
+      "text": "entire screen. Nanti kalau sudah rilis tolong diberitahu. Ini sudah rilis kan Anvia."
+    },
+    {
+      "start": 2150.44,
+      "end": 2157.03,
+      "text": "Udah langsung pakai aja. Langsung pakai enggak kelihatannya maksudnya yang tadi trading trading system itu."
+    },
+    {
+      "start": 2157.04,
+      "end": 2162.99,
+      "text": "Oh, trading. Eh, enggak tahu enggak tahu enggak kan private itu enggak bisa."
+    },
+    {
+      "start": 2163,
+      "end": 2169.67,
+      "text": "Enggak boleh enggak boleh. Aku enggak bisa kasih lihat. Tapi tapi itu salah satu yang paling susah aku"
+    },
+    {
+      "start": 2169.68,
+      "end": 2182.79,
+      "text": "bikin bukan karena bukan karena tapi karena perpindahan kayak mikirin perpindahan konteks memori pertukaran memori jadi agak di agen itu kayak lm bukan sih"
+    },
+    {
+      "start": 2182.8,
+      "end": 2193.43,
+      "text": "banyak apa konteksnya banyak rawan korup ya rawan halu iya iya salah satunya ya salah satunya em ya banyak yang kita bikin kita ada"
+    },
+    {
+      "start": 2193.44,
+      "end": 2202.39,
+      "text": "ada banyak sekali tapi mostly tools yang kita pakai itu atau yang kita mohon maaf ee yang kita bikin itu mostly untuk ee"
+    },
+    {
+      "start": 2202.4,
+      "end": 2213.43,
+      "text": "trader untuk trading. Hm. Trading nih. Bentar share screen ya. Udah bisa dinaikin sudah bisa share screen."
+    },
+    {
+      "start": 2213.44,
+      "end": 2223.51,
+      "text": "Udah aku oke aku kasih mungkin tunjuk apa dari scratch kah? [tertawa] Ya boleh ya terserah. Bebas, bebas yang,"
+    },
+    {
+      "start": 2223.52,
+      "end": 2233.589,
+      "text": "yang nyaman aja enggak usah terlalu rapi yang polish. Ee kayak demo, kayak demo yang proper [berdehem] demo kat eh sini demo."
+    },
+    {
+      "start": 2233.599,
+      "end": 2239.99,
+      "text": "Em aku pakai Z aku set up dari Scratch."
+    },
+    {
+      "start": 2240,
+      "end": 2242.63,
+      "text": "Team Z. Oh, Eka sekarang pakai Z."
+    },
+    {
+      "start": 2242.64,
+      "end": 2251.27,
+      "text": "Iya dong. Z plus Gusti. [berdehem] Oh, type script."
+    },
+    {
+      "start": 2251.28,
+      "end": 2256.71,
+      "text": "Dengan tidak perlunya kita membaca kode Z. Buat apa dong?"
+    },
+    {
+      "start": 2256.72,
+      "end": 2257.95,
+      "text": "Aku pakai [tertawa] hanya untuk ngajar."
+    },
+    {
+      "start": 2257.96,
+      "end": 2261.91,
+      "text": "Tebanas. Eh, pakai untuk apa? Sori."
+    },
+    {
+      "start": 2261.92,
+      "end": 2266.23,
+      "text": "Hanya untuk ngajar. Untuk ngajar. Contohnya."
+    },
+    {
+      "start": 2266.24,
+      "end": 2267.95,
+      "text": "Oh, iya. I ngerti. Inget. Ngerti."
+    },
+    {
+      "start": 2267.96,
+      "end": 2274.39,
+      "text": "Jadi bisa dibaca kodenya ya. Iya. Kalau enggak ya kasihan."
+    },
+    {
+      "start": 2274.4,
+      "end": 2280.87,
+      "text": "studennya. Kalau gua kadang set juga sekarang lebih banyak buat kopas-kopas aja. Misalnya dari SL ada informasi apa"
+    },
+    {
+      "start": 2280.88,
+      "end": 2285.829,
+      "text": "dikopas aja di situ buat buat buka markdown lah, buat buka apa."
+    },
+    {
+      "start": 2285.839,
+      "end": 2289.15,
+      "text": "Aku mungkin ada yang menarik nih."
+    },
+    {
+      "start": 2289.16,
+      "end": 2295.43,
+      "text": "NVInya ada yang menarik eh by default eh ininya pakai PNPM ya, bukan npm gitu ya."
+    },
+    {
+      "start": 2295.44,
+      "end": 2301.51,
+      "text": "Iya aku desain pakai PNPM. Aku pakai PNPM dari 2018 kali ya."
+    },
+    {
+      "start": 2301.52,
+      "end": 2310.95,
+      "text": "H emang ada yang berbeda secara signifikan antara kalau misalkan anggaplah multi misalkan kita bisa pakai npm, pakai PNPM atau pakai boot atau"
+    },
+    {
+      "start": 2310.96,
+      "end": 2319.069,
+      "text": "apa. ada secara secara desain ee secara desain kayak waktu aku rilis pertama kali studio studio itu aku"
+    },
+    {
+      "start": 2319.079,
+      "end": 2328.19,
+      "text": "secara otomatis by default ada SQ Lite eh SQ Lite DB yang terus kemudian ada salah satu salah satu teman di Twitter"
+    },
+    {
+      "start": 2328.2,
+      "end": 2338.43,
+      "text": "pakai Mas aku ada problem kena diban aku ternyata waktu aku lihat yang aku pakai adalah memang desainnya importnya dari No CS"
+    },
+    {
+      "start": 2338.44,
+      "end": 2344.109,
+      "text": "dan itu enggak bisa enggak bisa di enggak Enggak bisa diganti kecuali aku harus jadi modular."
+    },
+    {
+      "start": 2344.119,
+      "end": 2352.39,
+      "text": "He sistem-nya ada yang lain. Pernah gua pernah ke Heeh. pernah ke Serimpet itu juga pakai turbo repo gara-gara pakai"
+    },
+    {
+      "start": 2352.4,
+      "end": 2359.55,
+      "text": "turbo repo. [tertawa] Nah, kata-katanya jarang dengar ini."
+    },
+    {
+      "start": 2359.56,
+      "end": 2372.19,
+      "text": "Ini sama seperti Langgraf, Line, Chin, Mastra. Apa bedanya? Perbedaan signifikannya apa, Mas? Kira-kira Mas perbedaan paling signifikan adalah"
+    },
+    {
+      "start": 2372.2,
+      "end": 2382.39,
+      "text": "scope. Scope. Jadi Anvia itu ngambil pendekatan yang lebih kecil. Jadi enggak kayak Forsel eh Langchain dan Mastra."
+    },
+    {
+      "start": 2382.4,
+      "end": 2388.91,
+      "text": "Heeh. They are a big platform. Ya. Jadi aplikasi kita yang masuk ke sana."
+    },
+    {
+      "start": 2388.92,
+      "end": 2392.95,
+      "text": "Aplikasi kita yang masuk ke sana kita ngikutin mereka gitu ya. Yes. Yes."
+    },
+    {
+      "start": 2392.96,
+      "end": 2400.71,
+      "text": "Tapi kalau kalau Anvia you have the kita butuhnya apa kita pakai gitu, kita e instal gitu. Kalau enggak butuh ya"
+    },
+    {
+      "start": 2400.72,
+      "end": 2407.79,
+      "text": "enggak usah. Enggak enggak kita sudah punya app, kita sudah punya berbagai macam dan scope ya, berbagai macam"
+    },
+    {
+      "start": 2407.8,
+      "end": 2416.71,
+      "text": "service dan scope. Kita tinggal pasang primitifnya. Jadi kita kasih nih building blocknya udah pakai sendiri gitu."
+    },
+    {
+      "start": 2416.72,
+      "end": 2424.19,
+      "text": "Dan under the hood-nya masih pakai masih pakai common SD K kayak open AI eh terus eh Mistral dan lain sebagainya."
+    },
+    {
+      "start": 2424.2,
+      "end": 2433.47,
+      "text": "Antropik ya. Iya iya betul. Jadi aku contohin sedikit ya. Jadi mungkin ada beberapa case yang mungkin common lah. Comon. Jadi ya aku coba"
+    },
+    {
+      "start": 2433.48,
+      "end": 2441.858,
+      "text": "untuk kasih lihat aku punya shirt di sini dan kita bikin utils."
+    },
+    {
+      "start": 2441.868,
+      "end": 2453.51,
+      "text": "[berdehem] Jadi cara paling umum yang kita pakai kan ini ya eh open AI. Aku coba untuk instal anvia sl eh core"
+    },
+    {
+      "start": 2453.52,
+      "end": 2458.829,
+      "text": "dan anvia open Ai. Jadi eh aku core akan selalu dibutuhkan."
+    },
+    {
+      "start": 2458.839,
+      "end": 2462.91,
+      "text": "Dan kita punya open AI untuk untuk adapternya."
+    },
+    {
+      "start": 2462.92,
+      "end": 2467.069,
+      "text": "Oh, bahkan adapternya pun enggak enggak masuk semua ya, satu-satu gitu ya."
+    },
+    {
+      "start": 2467.079,
+      "end": 2472.47,
+      "text": "Enggak satu. Itu tadi kan kalau kita pakai ya, install yang i."
+    },
+    {
+      "start": 2472.48,
+      "end": 2482.309,
+      "text": "Jadi di sini aku coba install dulu si DNF biar kita bisa pakai terusan. Jadi, eh cara bikinnya cukup mudah sama kayak"
+    },
+    {
+      "start": 2482.319,
+      "end": 2491.23,
+      "text": "open AI client pada umumnya dari open AI terus di sini kita bikin aja kayak client terus new open AI tinggal"
+    },
+    {
+      "start": 2491.24,
+      "end": 2501.43,
+      "text": "dipasang kalau ada base URL-nya atau ada API-nya dan kita tinggal pasang proses CNV let's say open AI API client gitu"
+    },
+    {
+      "start": 2501.44,
+      "end": 2511.069,
+      "text": "ya APQ terus baru bikin modelnya kayak contoh eh kita punya multiple model gitu ya kita bisa aja bikin kayak get model,"
+    },
+    {
+      "start": 2511.079,
+      "end": 2522.55,
+      "text": "get model terus kemudian modelnya adalah string. Default-nya let's say GPT 5.4 mini gitu contoh. Kemudian kita tinggal"
+    },
+    {
+      "start": 2522.56,
+      "end": 2533.39,
+      "text": "return client. Jadi kita sudah siapin multimodal kita ada completion, ada embeddings, ada audio, ada image, ada transcription. Eh,"
+    },
+    {
+      "start": 2533.4,
+      "end": 2543.67,
+      "text": "kita pakai si eh completion model dan ini sudah bisa dipakai nanti. Dan kita punya Anvi tuh punya primitif untuk"
+    },
+    {
+      "start": 2543.68,
+      "end": 2553.47,
+      "text": "completion dan agent. Aku tunjukin di completion dulu. Jadi, Anvia itu kita ada konsep namanya dependency injection."
+    },
+    {
+      "start": 2553.48,
+      "end": 2556.43,
+      "text": "Eh, salah satu favorit aku ya."
+    },
+    {
+      "start": 2556.44,
+      "end": 2561.724,
+      "text": "Jadi, contoh kita pernah bahas ini dulu di episode mana ya. Ya, pokoknya pernahlah."
+    },
+    {
+      "start": 2561.734,
+      "end": 2568.63,
+      "text": "[tertawa] contoh e bahasnya juga emang pakai persel AI sih emang kelihatnya itu contoh yang paling obvious ya."
+    },
+    {
+      "start": 2568.64,
+      "end": 2573.91,
+      "text": "Lanjut. Jadi contoh eh ini yang paling umum kayak contoh eh completion gitu ya."
+    },
+    {
+      "start": 2573.92,
+      "end": 2582.309,
+      "text": "Completion sama dengan a create completion kemudian kita masukin modelnya apa. Eh let's say get model."
+    },
+    {
+      "start": 2582.319,
+      "end": 2587.27,
+      "text": "Terus kemudian kita punya input dan instruction. Ini paling umum ya. Hello."
+    },
+    {
+      "start": 2587.28,
+      "end": 2591.99,
+      "text": "H kita panggil console log eh completion."
+    },
+    {
+      "start": 2592,
+      "end": 2600.589,
+      "text": "Dan kita punya juga usage gitu. Jadi ini paling mudah, paling standarnya hello word-nya lah ya."
+    },
+    {
+      "start": 2600.599,
+      "end": 2616.23,
+      "text": "Eh aku coba untuk dulu. Model sama dengan get model and then aku coba jalankan. PNPMTSXC/zero"
+    },
+    {
+      "start": 2616.24,
+      "end": 2633.775,
+      "text": "one basic openingnya enggak kebacain dulu layarnya and config invv kelihatan nanti dihapus ya habis ini ya. [tertawa]"
+    },
+    {
+      "start": 2633.785,
+      "end": 2637.71,
+      "text": "[berdehem] Nah, ini contoh contoh paling sederhana."
+    },
+    {
+      "start": 2637.72,
+      "end": 2648.63,
+      "text": "Kita punya tiga yang paling paling standar. Ada create completion, ada create parts completion. Untuk bikin structured output pakai zod common"
+    },
+    {
+      "start": 2648.64,
+      "end": 2660.23,
+      "text": "ya. Pakai znya comon. Jadi kita bisa bikin ee kasih contoh mungkin render custom mau mau return jason doang"
+    },
+    {
+      "start": 2660.24,
+      "end": 2662.79,
+      "text": "gitu ya, enggak boleh return string gitu ya."
+    },
+    {
+      "start": 2662.8,
+      "end": 2673.91,
+      "text": "Yes, betul. yang standar wether lah ya cuaca kita bikin weather card movie ini movie contohcontoh paling paling ya paling"
+    },
+    {
+      "start": 2673.92,
+      "end": 2683.23,
+      "text": "standar lah ya eh kita punya movie kita punya parts completion dan dia akan diekstrak berdasarkan si movie-nya"
+    },
+    {
+      "start": 2683.24,
+      "end": 2697.43,
+      "text": "sentimen analysis iya jadi skemanya tinggal disupply pakai skimanya zod jadi kita ikutin ikutin industri standarpm MSX dan kita sudah punya si par eh"
+    },
+    {
+      "start": 2697.44,
+      "end": 2705.23,
+      "text": "completion ya. Jadi kita akan dapetin dari datanya langsung dalam bentuk Jason e sesuai dengan skema yang kita bikin."
+    },
+    {
+      "start": 2705.24,
+      "end": 2711.829,
+      "text": "Ini ini si pars completion dan ada satu lagi namanya completion streaming."
+    },
+    {
+      "start": 2711.839,
+      "end": 2722.27,
+      "text": "Let's say streaming. Aku pisahin. Em kita copy. Kita kasih create completion."
+    },
+    {
+      "start": 2722.28,
+      "end": 2733.15,
+      "text": "streaming yang create completion streaming ini untuk bikin stream. Jadi kayak contoh kita bikin eh function main let's say and then"
+    },
+    {
+      "start": 2733.16,
+      "end": 2746.71,
+      "text": "kita punya ons input sama something. Terus kita bikin con saja stream sama create completion stream. ini eh"
+    },
+    {
+      "start": 2746.72,
+      "end": 2762.19,
+      "text": "function generator. Jadi kita bisa ee punya input inputnya si input tinggal kita bikin si eh loop-nya. Jadi bikin for a ya for a"
+    },
+    {
+      "start": 2762.2,
+      "end": 2775.15,
+      "text": "karena ini pakai ait kita butuh ingink jadi kita bikin aja constang of stream stream ya stream terus kita bisa"
+    },
+    {
+      "start": 2775.16,
+      "end": 2786.03,
+      "text": "masih hafal sintaks ya walaupun sehari-hari udah enggak ngoding manual eh sometimes I do manual just for trying to be sharp"
+    },
+    {
+      "start": 2786.04,
+      "end": 2797.03,
+      "text": "itu itu penting juga lama-lama D. STD out kemudian DR gitu ya dhang.dta."
+    },
+    {
+      "start": 2797.04,
+      "end": 2806.27,
+      "text": "Jadi ini common common eh common pattern ya. Kalau kita mau bikin yang lebih lebih eh punya input ya. Let's say kita"
+    },
+    {
+      "start": 2806.28,
+      "end": 2818.23,
+      "text": "pakai inquirer. Inquire ini common. Kita bisa aja bikin kayak import from add inquire proms. Kita punya I"
+    },
+    {
+      "start": 2818.24,
+      "end": 2827.19,
+      "text": "think input. Jadi ini tambahin aja user input kita kasih a input."
+    },
+    {
+      "start": 2827.2,
+      "end": 2836.87,
+      "text": "Kemudian ada message-nya let's say adalah dua com. Terus ini user input-nya kita masukin ke sini dan kita punya looping."
+    },
+    {
+      "start": 2836.88,
+      "end": 2840.71,
+      "text": "Jadi kita kasih looping while through."
+    },
+    {
+      "start": 2840.72,
+      "end": 2851.27,
+      "text": "Ini udah udah harusnya udah ada percakapan, sudah bisa dipakai untuk percakapan. Jadi setiap kali kita punya kita punya penutup untuk bikin break"
+    },
+    {
+      "start": 2851.28,
+      "end": 2868.23,
+      "text": "lines. Jadi kalau kita jalankan PNPM TSX SRC02 streaming say hello oh wow"
+    },
+    {
+      "start": 2868.24,
+      "end": 2877.19,
+      "text": "nah cuman kalau seperti yang kita tahu ya si si eh completion stream ini hanya sekedar completion dan kita enggak punya memori"
+    },
+    {
+      "start": 2877.2,
+      "end": 2886.19,
+      "text": "gitu kayak contoh aku minta dia untuk eh summarize gitu."
+    },
+    {
+      "start": 2886.2,
+      "end": 2888.309,
+      "text": "Engak punya dia bingung enggak ada konteksnya."
+    },
+    {
+      "start": 2888.319,
+      "end": 2900.47,
+      "text": "Iya. Jadi itulah kenapa kenapa aku punya satu eh utility untuk bikin message. Jadi message pakaian via core dalam bentuk"
+    },
+    {
+      "start": 2900.48,
+      "end": 2911.63,
+      "text": "array kita kasih seperti ini. Jadi kita punya namanya mis jadi bukan inject context tapi lebih ke Oh ngirim pas messages-nya otomatis sih"
+    },
+    {
+      "start": 2911.64,
+      "end": 2919.67,
+      "text": "history history kirim semua. Betul. Jadi eh di case ini kayak contoh kita setelah selesai consol lock kita bisa tambahin"
+    },
+    {
+      "start": 2919.68,
+      "end": 2931.99,
+      "text": "message dush sama [mendengus] push eh iya message dous user sama dengan user input sama si satu lagi si message"
+    },
+    {
+      "start": 2932,
+      "end": 2950.829,
+      "text": "assistant si kita harus tampung dulu karena dia bentuknya [mendengus] stream assist respon iniahin ke sini nih ee assistant response"
+    },
+    {
+      "start": 2950.839,
+      "end": 2957.789,
+      "text": "masukin ke sini. And harusnya kita sudah punya percakapan, sudah punya memori gitu. Jadi kalau kita jalanin lagi"
+    },
+    {
+      "start": 2957.799,
+      "end": 2967.75,
+      "text": "history. Iya. Hello. Do you know about Tokyo?"
+    },
+    {
+      "start": 2967.76,
+      "end": 2981.47,
+      "text": "What is their favorite dishes? dia sudah aware dengan Tokyo karena di dalamnya sudah ada sudah ada ini"
+    },
+    {
+      "start": 2981.48,
+      "end": 2989.63,
+      "text": "ya ini ini ini layer DX-nya itu banget ya convenience banget maksudnya tinggal tadi kan dua tinggal nambah tinggal"
+    },
+    {
+      "start": 2989.64,
+      "end": 3000.069,
+      "text": "nambah satu input satu deklarasi terus masukin apa nampung di satu variabel message-nya di ya iya ini hanya ini tinggal tinggal"
+    },
+    {
+      "start": 3000.079,
+      "end": 3008.27,
+      "text": "dimasukin ke database kalau kita mau bikin single turn eh single turn chartbot ya, single turn bukan pure eh agent gitu."
+    },
+    {
+      "start": 3008.28,
+      "end": 3016.309,
+      "text": "Nah, agen sedikit berbeda. Jadi agent karena agent tuh bentuknya full time e full manage run time. Jadi kita bikin"
+    },
+    {
+      "start": 3016.319,
+      "end": 3026.87,
+      "text": "contohnya agent eh agent.ts gitu. Terus kita coba ee copy aja."
+    },
+    {
+      "start": 3026.88,
+      "end": 3034.15,
+      "text": "Dan kita punya namanya adalah agent builder. Jadi yang kita expos tuh bukan agent-nya, tapi buildernya. Karena dari"
+    },
+    {
+      "start": 3034.16,
+      "end": 3046.829,
+      "text": "pengalaman aku, aku punya ee seringki kita bikin agent-nya itu eh composible. Jadi agak susah kalau pakai punya si ee punya si Mastra dan eh dan"
+    },
+    {
+      "start": 3046.839,
+      "end": 3057.75,
+      "text": "si Versel ya dari pengalaman ya. Mungkin mungkin karena mungkin karena eh skill isue [tertawa] model eh get model"
+    },
+    {
+      "start": 3057.76,
+      "end": 3067.27,
+      "text": "cons agent sama dengan new agent builder dan di agent builder kita bisa masukin si eh ID ya contohnya adalah assistant"
+    },
+    {
+      "start": 3067.28,
+      "end": 3077.15,
+      "text": "and then modelnya dan ini tinggal kita kasih instruction let's say instructionnya adalah you are a helpful assistant"
+    },
+    {
+      "start": 3077.16,
+      "end": 3088.67,
+      "text": "and then we to build. [berdehem] Jadi ini adalah eh primitifnya agent paling basic primitifnya agen dan baru"
+    },
+    {
+      "start": 3088.68,
+      "end": 3099.109,
+      "text": "kita bisa eh contohnya adalah let's say response kita tinggal pakai await agent prom ini adalah prom kita let's say"
+    },
+    {
+      "start": 3099.119,
+      "end": 3113.67,
+      "text": "hello gitu. Kemudian ada tinggal kita punya sendur lagi namanya setir. Untuk ng-etiring prom ini aku belum lihat ada di SDK yang"
+    },
+    {
+      "start": 3113.68,
+      "end": 3119.91,
+      "text": "lain. Eh, jadi aku coba untuk send."
+    },
+    {
+      "start": 3119.92,
+      "end": 3131.549,
+      "text": "Output and harusnya bisa dipakai src/zero agen gitu."
+    },
+    {
+      "start": 3131.559,
+      "end": 3138.03,
+      "text": "Nah, ini contohnya. Nah, biasanya kita itu kalau mau bikin bikin agent yang harus kita lakukan adalah bikin"
+    },
+    {
+      "start": 3138.04,
+      "end": 3146.069,
+      "text": "agent-nya dulu terus bikin fully harness-nya. Kita butuh front end-nya, butuh back endnya. Dan sebenarnya yang aku kalau kita bikin agent fokusnya"
+    },
+    {
+      "start": 3146.079,
+      "end": 3155.349,
+      "text": "harusnya adalah setelah bikin agent itu adalah benchmark. Kita tahu kayak ada terminal benchmark, ada eh SW bench ya,"
+    },
+    {
+      "start": 3155.359,
+      "end": 3157.19,
+      "text": "ada S bench dan lain sebagainya."
+    },
+    {
+      "start": 3157.2,
+      "end": 3164.789,
+      "text": "Harusnya kalau kita mau bikin agen harusnya di benchmark dulu sebelum kita bikin eh full flatchnya. Iya, full"
+    },
+    {
+      "start": 3164.799,
+      "end": 3173.069,
+      "text": "flatch-nya. Itulah kenapa itu kayak test driven development ya, cuma versi di dunia identik tapi maksud saya mindsetd."
+    },
+    {
+      "start": 3173.079,
+      "end": 3181.03,
+      "text": "Oh iya, EVAL. Bisa bisa dibilang evals ya. Aku aku pernah yang K bikin tu pernah kita kita"
+    },
+    {
+      "start": 3181.04,
+      "end": 3188.109,
+      "text": "pernah coba pakai si terminal bench kalau enggak salah ada di terminal bench itu ada 80 case. Itu susah-susah sekali"
+    },
+    {
+      "start": 3188.119,
+      "end": 3194.87,
+      "text": "memang untuk disolve. Tapi kalau kita pakai yang lain lagi agak susah ngbreakdown bikin agent tuh kayak satu"
+    },
+    {
+      "start": 3194.88,
+      "end": 3203.15,
+      "text": "pakai sendiri. Aku tuh terbiasa pakai ini Monorepo. Jadi aku harus bikin agen [berdehem] itu sharable atau installable ke semua"
+    },
+    {
+      "start": 3203.16,
+      "end": 3212.549,
+      "text": "project. Ya itulah dapat ng desainnya begini gitu. Nah, iya iya sebelum nah ketika kita sudah punya agent, kita bisa pakai"
+    },
+    {
+      "start": 3212.559,
+      "end": 3225.03,
+      "text": "sih em Anvia Studio. Anvia Studio di mana Anvia Studio ini fungsinya untuk ngasih kita si full flatch app-nya gitu untuk ngetes sebelum"
+    },
+    {
+      "start": 3225.04,
+      "end": 3229.87,
+      "text": "kita terlalu jauh. Jadi cara pakainya pun mudah."
+    },
+    {
+      "start": 3229.88,
+      "end": 3239.87,
+      "text": "fromvia studio. Terus kita tinggal import si studio dan kita tinggal tambahin satu line di sini. New e"
+    },
+    {
+      "start": 3239.88,
+      "end": 3252.63,
+      "text": "new studio H eh studio sama new studio. Masukin aja agen-nya dan start."
+    },
+    {
+      "start": 3252.64,
+      "end": 3262.91,
+      "text": "Ini aku hapus. Jadi kita hanya butuh ini. Jadi import dan pakai. Dan setelah kita ee jalankan PNPM"
+    },
+    {
+      "start": 3262.92,
+      "end": 3275.63,
+      "text": "eh PNPM TSX kita akan punya si UI. Jadi ini adalah UI-nya yang kita bisa langsung bisa langsung"
+    },
+    {
+      "start": 3275.64,
+      "end": 3284.27,
+      "text": "tes kayak contoh hello [berdehem] ya. dia akan tes dan kita bisa lihat dari costnya terus kemudian tracing-nya"
+    },
+    {
+      "start": 3284.28,
+      "end": 3295.349,
+      "text": "kayak halo how you doing mate dan kita bisa langsung lihat dari trace-nya kayak contoh di trace ini eh"
+    },
+    {
+      "start": 3295.359,
+      "end": 3305.75,
+      "text": "kita bisa cek di session ya ini bisa kita inspect input output metadata, semuanya kita bisa inspect kalau seandainya ada case di mana"
+    },
+    {
+      "start": 3305.76,
+      "end": 3313.47,
+      "text": "ee di mana kalau kita seandainya ada case contoh e ada yang pasti ada salah satu salah satu step yang berkontribusi"
+    },
+    {
+      "start": 3313.48,
+      "end": 3321.71,
+      "text": "gitu. itu harus kita harus bisa cari ee outputnya yang mana yang halu gitu. Dan ini tanpa kita harus setup berbagai macam"
+    },
+    {
+      "start": 3321.72,
+      "end": 3330.109,
+      "text": "ini ya kayak contoh harus bikin langs, harus setup itu aku alamin di itu di di pekerjaan dan aku enggak mau sesusah"
+    },
+    {
+      "start": 3330.119,
+      "end": 3342.549,
+      "text": "itu. Aku penginnya satu bikin agen dulu terus bikin dulu si ininya apa? E bikin dulu si benchmarknya bukan? Oh benchmark."
+    },
+    {
+      "start": 3342.559,
+      "end": 3350.349,
+      "text": "Iya benchmark. Jadi ini bisa kita pakai untuk e benchmark gitu. Dan kita punya berbagai macam berbagai macam fitur. Ada tools,"
+    },
+    {
+      "start": 3350.359,
+      "end": 3359.349,
+      "text": "ada MCP, ada static context untuk nambahin static kayak kita nyebutnya mungkin contex injection, ada dnamic context untuk rak. Kita juga punya"
+    },
+    {
+      "start": 3359.359,
+      "end": 3367.549,
+      "text": "dynamic tools. Jadi dynamic tools itu ini aku bikin dari pengalaman aku. Jadi di kantor itu kita punya tools itu"
+    },
+    {
+      "start": 3367.559,
+      "end": 3376.43,
+      "text": "enggak satu du enggak enggak 10 gitu bahkan ratusan. ada 189 tools yang aku hitung dan itu enggak efektif"
+    },
+    {
+      "start": 3376.44,
+      "end": 3385.069,
+      "text": "of course ya kalau kita bikin harness itu enggak efektif. Jadi dynamic tools itu akan ng ngerubah tools menjadi embeddings. Jadi"
+    },
+    {
+      "start": 3385.079,
+      "end": 3393.71,
+      "text": "untuk disarch dixing dulu. Oh dan dia akan ng jadi selama ini kan metadatanya cuma diinject metadata masing-masing tools"
+    },
+    {
+      "start": 3393.72,
+      "end": 3400.549,
+      "text": "kayak deskripsi doang. Nah, kebanyakan si A-nya bingung. Jadi pakai juga pengalaman. Iya."
+    },
+    {
+      "start": 3400.559,
+      "end": 3409.23,
+      "text": "Iya. Pakai beding juga. Jadi ini salah satu salah satu mungkin yang bisa useful bahkan sebelum kita kita pakai ya. Jadi"
+    },
+    {
+      "start": 3409.24,
+      "end": 3414.349,
+      "text": "contoh begini, kalau kita mau tambahin let's say tambahin e aku stop dulu."
+    },
+    {
+      "start": 3414.359,
+      "end": 3421.309,
+      "text": "Tambahin eh tools gitu ya. SL paling umum lah ya. Get weather gitu."
+    },
+    {
+      "start": 3421.319,
+      "end": 3430.99,
+      "text": "create full dan kemudian kita punya name. Let's say name-nya adalah get weather."
+    },
+    {
+      "start": 3431,
+      "end": 3446.27,
+      "text": "Description-nya adalah use this eh if you are asking about real time we kemudian kita inputnya itu pakai Z skema"
+    },
+    {
+      "start": 3446.28,
+      "end": 3456.51,
+      "text": "jadi lebih gampang harusnya. Jadi kalau kita mau bikin eh contoh Z dari Z. Terus di dalamnya ada location gitu contohnya"
+    },
+    {
+      "start": 3456.52,
+      "end": 3463.87,
+      "text": "location E string. Heeh. Terus kemudian kita tinggal tambahin satu lagi yaitu execute."
+    },
+    {
+      "start": 3463.88,
+      "end": 3476.63,
+      "text": "Jadi ketika dijalankan dia ngapain? Contoh kita return satu eh string ini kita bisa ambil ya kayak location bisa"
+    },
+    {
+      "start": 3476.64,
+      "end": 3483.51,
+      "text": "kita ambil langsung. Contohnya adalah the weather sun gitu."
+    },
+    {
+      "start": 3483.52,
+      "end": 3493.67,
+      "text": "Jadi ini tinggal kita pasang. Jadi kita tinggal pasang D tools masukin and that's it. Jadi kita bisa"
+    },
+    {
+      "start": 3493.68,
+      "end": 3505.27,
+      "text": "cobain di sini aku refresh. Eh what is the weather in Surabaya?"
+    },
+    {
+      "start": 3505.28,
+      "end": 3515.75,
+      "text": "Gitu. dia akan ee melakukan tool calling dan harusnya dia akan muncul di sini ya dan dia akan nambahin"
+    },
+    {
+      "start": 3515.76,
+      "end": 3523.029,
+      "text": "i kalau kita punya kalau kalau kita pakai model-model China yang kelihatan yang yang di streaming si reasoning-nya dia"
+    },
+    {
+      "start": 3523.039,
+      "end": 3531.27,
+      "text": "akan muncul juga di sini the user ask me about the weather I should be calling [tertawa] apa"
+    },
+    {
+      "start": 3531.28,
+      "end": 3539.23,
+      "text": "reasoningnya suka lucu gitu kan suka ribet banget dan kalau kita punya punya multiple kayak ngerasa oke di sini ada ngelihat"
+    },
+    {
+      "start": 3539.24,
+      "end": 3545.23,
+      "text": "ee ngelihat trace-nya ya seandainya kita ngelihat trace-nya kayaknya kenapa ini halu ya gitu ya kenapa ini halu kita"
+    },
+    {
+      "start": 3545.24,
+      "end": 3557.349,
+      "text": "bisa tes langsung di dalam tools dan ini sudah ada location jadi kita bisa invoke si si tools tanpa harus pakai argumen"
+    },
+    {
+      "start": 3557.359,
+      "end": 3568.71,
+      "text": "harus bikin sendiri kayak Surabaya tanpa harus dibak-dbak konsolok ya betul betul gitu Jadi memang memang aku butuhnya begitu. Jadi aku bikinnya"
+    },
+    {
+      "start": 3568.72,
+      "end": 3574.109,
+      "text": "begini ya. I ee jadi ya seperti inilah."
+    },
+    {
+      "start": 3574.119,
+      "end": 3577.789,
+      "text": "Luar biasa. Mau lihat contoh benchmark dong."
+    },
+    {
+      "start": 3577.799,
+      "end": 3581.309,
+      "text": "Saya bikin benchmark [berdehem] di situ kayak gimana?"
+    },
+    {
+      "start": 3581.319,
+      "end": 3589.789,
+      "text": "Em kalau kita bikin benchmark agak panjang ya. Agak panjang. Tapi kita ada di dalam di dalam Anvia kita sudah kasih"
+    },
+    {
+      "start": 3589.799,
+      "end": 3601.549,
+      "text": "eh evals. Aku bisa bukain eh cookbook aku. Jadi Anvia ini adalah Anvia dan di sini ada eh cookbook. Jadi"
+    },
+    {
+      "start": 3601.559,
+      "end": 3611.23,
+      "text": "ada sudah aku kasih contoh ada kalau mau bikin basic matriks tuh kayak apa ee apa yang mau dites"
+    },
+    {
+      "start": 3611.24,
+      "end": 3620.87,
+      "text": "ada di git ada di cookbooknya ada di dokumentasi contoh ee di dokumentasi ada di cookbook ada jadi di cookbook lebih lebih pragmatikal"
+    },
+    {
+      "start": 3620.88,
+      "end": 3631.63,
+      "text": "lebih i lebih pragmatis yang dibutuhkan termasuk juga kita punya pipelines ya jadi pipelines ini eh pipeline builder aku kasih contoh"
+    },
+    {
+      "start": 3631.64,
+      "end": 3644.19,
+      "text": "Eh, PNPMbook pipeline pipelin e [berdehem] 05."
+    },
+    {
+      "start": 3644.2,
+      "end": 3653.27,
+      "text": "Nah, ini nih PNPM cuman bisa monorepo ya buat PNPM lebih support ya."
+    },
+    {
+      "start": 3653.28,
+      "end": 3665.43,
+      "text": "Iya. Studio di studio PNPM Cookbook studio 05. Jadi di PNPM jadi di dalam studio itu kita juga punya yang"
+    },
+    {
+      "start": 3665.44,
+      "end": 3677.109,
+      "text": "namanya ee pipelines ya. Oh, aku harus matikan dulu yang aku bikin tadi."
+    },
+    {
+      "start": 3677.119,
+      "end": 3693.789,
+      "text": "Jadi, PNPM Cookebook. Ee bentar bentar aku 7 0 7."
+    },
+    {
+      "start": 3693.799,
+      "end": 3703.23,
+      "text": "Jadi kita punya pipelines. Jadi kalau kita mau bikin pipelines ini sudah bisa kelihatan langsung dites kayak kita bikin genentic workflow ya."
+    },
+    {
+      "start": 3703.24,
+      "end": 3711.309,
+      "text": "Kita sudah bisa ngelihat ee stepnya apa aja paralel kah terus nanti kemudian apa apa gitu. Jadi tinggal kita oke kita cek"
+    },
+    {
+      "start": 3711.319,
+      "end": 3720.349,
+      "text": "gitu kayak contoh eh hello kita bisa running dan dia akan jalan. Setelah dia jalan ee kita akan dapetin output-nya nanti."
+    },
+    {
+      "start": 3720.359,
+      "end": 3723.67,
+      "text": "Nah setelah outputnya ini kayak N8N ya."
+    },
+    {
+      "start": 3723.68,
+      "end": 3732.71,
+      "text": "Iya mirip yang berbeda ini diterjemahkan dari kode gitu aja. Jadi ini hanya diterjemahkan dari kode kita punya ee kita punya"
+    },
+    {
+      "start": 3732.72,
+      "end": 3735.99,
+      "text": "aslinya kode tapi visualisasinya aja berarti ya."
+    },
+    {
+      "start": 3736,
+      "end": 3741.67,
+      "text": "Yes. Betul. Jadi biar ya biar gantengan aja dikit biar kelihatan. [tertawa] Iya iya iya."
+    },
+    {
+      "start": 3741.68,
+      "end": 3749.71,
+      "text": "Nah, cuma ini enaknya kan ramah ramah non coder kan maksudnya ee apa dalam tim kita punya orang QA yang enggak exactly"
+    },
+    {
+      "start": 3749.72,
+      "end": 3756.43,
+      "text": "ngoding AI atau ngoding typescript atau apapun ya. Cuma QA kan harus familiar sama pipeline-nya. Bahkan orang produk"
+    },
+    {
+      "start": 3756.44,
+      "end": 3761.19,
+      "text": "pun kalau yang tex CV masih bisa ya bisa paham lihat ini kan."
+    },
+    {
+      "start": 3761.2,
+      "end": 3770.269,
+      "text": "Iya. Iya. Jadi Iya. Eh cukup cukup useful ya. I mean even kalau kita mau bikin rak pun bisa pakai pakai"
+    },
+    {
+      "start": 3770.279,
+      "end": 3780.91,
+      "text": "Anvia sudah aku sediakan. Jadi cukup bisa dicoba lah bisa dilihat cookbook-nya. Kalau ada something yang enggak works"
+    },
+    {
+      "start": 3780.92,
+      "end": 3785.19,
+      "text": "bisa bikin bisa request request isu isu atau request ya."
+    },
+    {
+      "start": 3785.2,
+      "end": 3796.309,
+      "text": "Issue issue. Boleh dokumentasinya lengkap banget. Ini salah satu hal paling positif. Kadang kan ee banyak software yang sebetulnya bagus, kodenya"
+    },
+    {
+      "start": 3796.319,
+      "end": 3805.15,
+      "text": "bagus, cuma kalau dokumentasi atau contohnya kurang lengkap yang bisa pakai ya yang otak dan atau ee jatah tokennya cukup"
+    },
+    {
+      "start": 3805.16,
+      "end": 3813.43,
+      "text": "mumpuni buat ee ngira-ngira dari Heeh. dari kodenya. Kalau ini kalau sudah dijelasin sedetail ini kan ya apa"
+    },
+    {
+      "start": 3813.44,
+      "end": 3817.39,
+      "text": "most users, mouse developers bakal bisa pakai."
+    },
+    {
+      "start": 3817.4,
+      "end": 3822.109,
+      "text": "Iya, aku paling banyak ngabisin waktu di dokumentasi sebenarnya."
+    },
+    {
+      "start": 3822.119,
+      "end": 3831.95,
+      "text": "kelihatan sih. Kelihatan banget sih kalau bikin [tertawa] bikin kodenya tuh gampang kalau bikin kodenya. Okelah Claude Kodex sudah secerdas itu gitu ya."
+    },
+    {
+      "start": 3831.96,
+      "end": 3841.309,
+      "text": "Tapi kalau bikin bikin ee bikin si dokumentasinya aku harus baca satu-satu. Make sure aku menempatkan diri as a user atau"
+    },
+    {
+      "start": 3841.319,
+      "end": 3848.67,
+      "text": "ngelihat oke aku ngelihat ada library baru nih mau pakai. Kira-kira ini yang aku baca sudah bisa dijalankan enggak"
+    },
+    {
+      "start": 3848.68,
+      "end": 3851.589,
+      "text": "kalau aku coba copy paste gitu?"
+    },
+    {
+      "start": 3851.599,
+      "end": 3857.91,
+      "text": "itu yang pikirin. Iya, iya ya, ya. Eh, kadang-kadang itu yang susah soalnya kan ee apa yang kita"
+    },
+    {
+      "start": 3857.92,
+      "end": 3859.67,
+      "text": "buat kan ada di kepala kita semua kan."
+    },
+    {
+      "start": 3859.68,
+      "end": 3868.309,
+      "text": "Kalau kita tidak mengap tidak memakai topi sebagai user kadang-kadang banyak yang terlewat karena asumsinya ini kita sudah tahu"
+    },
+    {
+      "start": 3868.319,
+      "end": 3875.069,
+      "text": "gitu. itu yang memang makanya tadi di awal kan saya sempat bilang kan ini produknya atau website dan"
+    },
+    {
+      "start": 3875.079,
+      "end": 3883.269,
+      "text": "dokumentasinya itu udah udah mature dalam artian udah kelihatan kayak produk jadi bukan kaya sudah kelihatan seperti produk jadi gitu. Jadi"
+    },
+    {
+      "start": 3883.279,
+      "end": 3890.51,
+      "text": "memang ternyata memang filosofinya memang ee ngejarnya ke dokumentasi ya."
+    },
+    {
+      "start": 3890.52,
+      "end": 3899.069,
+      "text": "Iya, betul. Ngejarnya ke dokumentasi hanya untuk make sure yang pakai ya ikut ikut nyamanlah. Ikut nyaman. Aku aku"
+    },
+    {
+      "start": 3899.079,
+      "end": 3906.47,
+      "text": "enggak enggak enggak punya mimpi untuk oke ini dipakai orang banyak, dipakai company besar. Ee tapi aku hanya pengin"
+    },
+    {
+      "start": 3906.48,
+      "end": 3913.029,
+      "text": "bikin something yang oke useful aku pakai. Orang kalau mau pakai happy gitu."
+    },
+    {
+      "start": 3913.039,
+      "end": 3915.91,
+      "text": "Hm. Dah gitu aja mimpinya kecil aja."
+    },
+    {
+      "start": 3915.92,
+      "end": 3923.309,
+      "text": "Cuma ini secara apa? secara approach, secara ya bisa dibilang kayak filosofi menarik enggak sih? Jadi kayak misalnya"
+    },
+    {
+      "start": 3923.319,
+      "end": 3930.789,
+      "text": "kan dari tadi udah banyak dibahas tuh ee Mas Indra udah jarang ngoding manual sendiri ya udah biarnya yang bikin."
+    },
+    {
+      "start": 3930.799,
+      "end": 3935.99,
+      "text": "Bahkan produk yang dibikin pun ee untuk enable eh workflow yang kayak gitu kan."
+    },
+    {
+      "start": 3936,
+      "end": 3942.47,
+      "text": "Jadi maksudnya ya udahlah ee ya kayak Steve ya gue bilang gitulah kode itu murah sekarang disposable kode murah"
+    },
+    {
+      "start": 3942.48,
+      "end": 3950.91,
+      "text": "tapi komunikasi mahal ya enggak sih? mau saya apa ee buat bikin ee contoh-contoh ee contoh sama dokumentasi sama kayak"
+    },
+    {
+      "start": 3950.92,
+      "end": 3959.39,
+      "text": "ibaratnya onboarding flow yang dibikin di Anvia ini kan. Nah, kayaknya skill skill set developer yang mahal tuh"
+    },
+    {
+      "start": 3959.4,
+      "end": 3968.029,
+      "text": "sekarang bukan ngodingnya tapi ininya ya kayak gimana apa ee ngedesain suatu produk. Ini kan produk nih si Anvia"
+    },
+    {
+      "start": 3968.039,
+      "end": 3979.109,
+      "text": "packages-nya gimana ngedesainnya? Gimana mecah-mecahnya bahkan apa bikin dibikin macam-macam. package itu fungsinya buat apa? Terus kayak ee kenapa de buat"
+    },
+    {
+      "start": 3979.119,
+      "end": 3985.829,
+      "text": "dibikin studio terus sih studionya bisa ngapain aja? itu kayak maksud saya mikir ee ngerancang kayak gitunya yang mahal"
+    },
+    {
+      "start": 3985.839,
+      "end": 3995.99,
+      "text": "dan apa nyampeinnya maksudnya ini di example-nya kenapa example kenapa contoh-contohnya eh misalnya apa basic tool structured output pipelines kenapa"
+    },
+    {
+      "start": 3996,
+      "end": 4002.549,
+      "text": "contoh-contohnya ini itu kayaknya skill yang belum bisa sepenuhnya di-offload ke AI ya betul enggak sih yang Mas Indra"
+    },
+    {
+      "start": 4002.559,
+      "end": 4012.19,
+      "text": "rasain yes I mean setengahnya setengahnya aku harus effort sendiri kayak kebanyakan aku marah-marah sama si coding Agent itu"
+    },
+    {
+      "start": 4012.2,
+      "end": 4015.95,
+      "text": "kebanyakan [tertawa] karena si dokumentasinya enggak jelas gitu."
+    },
+    {
+      "start": 4015.96,
+      "end": 4018.67,
+      "text": "Enggak, aku enggak mau begini, aku maunya begini, aku maunya begini gitu."
+    },
+    {
+      "start": 4018.68,
+      "end": 4026.19,
+      "text": "Kayak ada kata atau struktur snipet aja yang salah. Aku minta dia benerin. Aku maunya begini begini begini begini."
+    },
+    {
+      "start": 4026.2,
+      "end": 4037.549,
+      "text": "He. Jadi banyakan banyakan memang habisin waktunya di ee dokumentasi dan target aku memang yang sekarang ya karena mostly apa yang"
+    },
+    {
+      "start": 4037.559,
+      "end": 4041.789,
+      "text": "ada di ANVIA sekarang sudah bisa dipakai untuk production."
+    },
+    {
+      "start": 4041.799,
+      "end": 4051.67,
+      "text": "dan sudah mencukupi untuk kebutuhan common case ya, common case mau bikin agent apapun common case-nya sudah cukup. Jadi fokusnya adalah bug fixing"
+    },
+    {
+      "start": 4051.68,
+      "end": 4061.15,
+      "text": "sama dokumentasi instead of nambahin fitur bufing sama dokumentasi sama maintain ya kali ya maintain tuh aku setiap 2 hari"
+    },
+    {
+      "start": 4061.16,
+      "end": 4070.43,
+      "text": "sekali kita ada script untuk ngecek dependency kita kan underlying-nya pakai kayak openc antropic dan lain sebagainya itu"
+    },
+    {
+      "start": 4070.44,
+      "end": 4078.829,
+      "text": "harus selalu update setiap 2 hari sekali dan itu harus jalan otomatis dan dia akan bikin bikin ee dia akan ng ng ngf"
+    },
+    {
+      "start": 4078.839,
+      "end": 4089.19,
+      "text": "Fetch, nginstal versi baru, running semua tes dan eh bikin PR. [berdehem] Eh apa namanya? Eh continuous integration ya. C"
+    },
+    {
+      "start": 4089.2,
+      "end": 4098.189,
+      "text": "C C Iya, C I ya. Mungkin ini ya apa ee kalau tadi ngelihat gimana apa Mas Indra mendemokan"
+    },
+    {
+      "start": 4098.199,
+      "end": 4105.577,
+      "text": "gitu ya, itulah perbedaannya antara kita yang pakai doang sama Mas Indra yang sudah sering bikin gitu ya. Udah"
+    },
+    {
+      "start": 4105.587,
+      "end": 4112.59,
+      "text": "[tertawa] lancar banget. Inspiring sih. Maksudnya kita harus kita harus jadi developer yang kayak gini. Maksudnya apa value-nya developer?"
+    },
+    {
+      "start": 4112.6,
+      "end": 4124.269,
+      "text": "Kalau dulu kan cuma ngerti caranya ngoding, ngerti caranya ngebalik-balikin trik, ngerti caranya apalah ee ya apa bikin ee bikin di jadi ke tengah kalau"
+    },
+    {
+      "start": 4124.279,
+      "end": 4131.63,
+      "text": "front end. Tapi kan ya itu sekarang karena itu sudah jadi murah kita harus nambah ya kayak memperluas lagi kan."
+    },
+    {
+      "start": 4131.64,
+      "end": 4135.43,
+      "text": "Iya, skill setnya naiknya kayak gini nih."
+    },
+    {
+      "start": 4135.44,
+      "end": 4146.91,
+      "text": "Iya, makanya sama Anvia ini karena sudah dipakai di e pekerjaan sehari-hari use case-nya banyak makanya example-nya lengkap kan, cookbooknya juga lengkap"
+    },
+    {
+      "start": 4146.92,
+      "end": 4149.87,
+      "text": "gitu karena ada case yang beneran gitu."
+    },
+    {
+      "start": 4149.88,
+      "end": 4157.189,
+      "text": "Itulah mungkin itu yang membedakan antara library atau framework yang kita buat tapi sedang mencari use case."
+    },
+    {
+      "start": 4157.199,
+      "end": 4162.99,
+      "text": "Sementara yang ini kayaknya kalau di startup itu istilahnya apa ya? produk market fit lah ya. Jadi ini udah udah"
+    },
+    {
+      "start": 4163,
+      "end": 4167.91,
+      "text": "ada usernya, sudah dipakai gitu dan eh use case-nya cukup lengkap."
+    },
+    {
+      "start": 4167.92,
+      "end": 4178.47,
+      "text": "Iya. Ini salah satu aku bisa kasih contoh salah satu ee salah satu produk yang sedang aku sedang aku bikin ya ee yang"
+    },
+    {
+      "start": 4178.48,
+      "end": 4187.07,
+      "text": "sedang diedevelop pakai Anvia itu adalah si Aven ini aku sudah share screen kayaknya ya. Sudah."
+    },
+    {
+      "start": 4187.08,
+      "end": 4194.79,
+      "text": "Iya. E jadi even ini kayak semacam sama aja kayak kayak common common coding agent. Jadi dia bisa"
+    },
+    {
+      "start": 4194.8,
+      "end": 4200.35,
+      "text": "Oh ini yang coding agent tadi ya. Oh iya coding agent dia underlying-nya pakai anvia."
+    },
+    {
+      "start": 4200.36,
+      "end": 4206.79,
+      "text": "Eh tapi masih private ya masih private. Nanti akan open source dan MIT license."
+    },
+    {
+      "start": 4206.8,
+      "end": 4217.47,
+      "text": "Jadi sudah ada sudah ada MCP Lexa aku including as as eh default lah default install skills dan lain sebagainya."
+    },
+    {
+      "start": 4217.48,
+      "end": 4231.669,
+      "text": "Dan ini kayak contoh ee jadi dia sudah punya punya berbagai macam tools ya kayak e what tools do you have kita juga di"
+    },
+    {
+      "start": 4231.679,
+      "end": 4241.55,
+      "text": "dalam ANVIA itu sudah ada approval tool approval terus hook dan lain sebagainya eh to callingnya apa aja"
+    },
+    {
+      "start": 4241.56,
+      "end": 4248.95,
+      "text": "read I eh bas I edit ya."
+    },
+    {
+      "start": 4248.96,
+      "end": 4253.99,
+      "text": "Ada subag ask question. Yes. Wah lengkap ya."
+    },
+    {
+      "start": 4254,
+      "end": 4259.35,
+      "text": "Ask questions to. Ini pakai apa? Tauri bukan."
+    },
+    {
+      "start": 4259.36,
+      "end": 4263.51,
+      "text": "Oh enggak. Ini pakai elektron. Oh elektron."
+    },
+    {
+      "start": 4263.52,
+      "end": 4273.669,
+      "text": "Yang yang tauri yang aku bikin itu adalah si agen OS. Ini underline-nya pakai pakai ee pakai Rick tadi. Jadi dia ee"
+    },
+    {
+      "start": 4273.679,
+      "end": 4279.75,
+      "text": "Taa Ah. Back-nya Rus, eh, front end-nya React."
+    },
+    {
+      "start": 4279.76,
+      "end": 4291.229,
+      "text": "H yang ini kayak versi barunya lah untuk aku mau proving bahwasanya si Envia itu em enggak hanya sekedar library yang hanya"
+    },
+    {
+      "start": 4291.239,
+      "end": 4296.59,
+      "text": "bisa dipakai untuk toy app, tapi bisa dipakai untuk production."
+    },
+    {
+      "start": 4296.6,
+      "end": 4305.59,
+      "text": "I see question about this project gitu."
+    },
+    {
+      "start": 4305.6,
+      "end": 4307.35,
+      "text": "dia bisa to call dan lain sebagainya."
+    },
+    {
+      "start": 4307.36,
+      "end": 4318.87,
+      "text": "Dia punya prom steering yang tadi aku sempat sempat bilang. Jadi, ya cukup cukup useful dan ini bisa ganti-ganti"
+    },
+    {
+      "start": 4318.88,
+      "end": 4323.629,
+      "text": "ee tema standar ya. Standar lah."
+    },
+    {
+      "start": 4323.639,
+      "end": 4328.279,
+      "text": "Enggak, enggak standar dan aku suka kodik saja enggak [tertawa] ada."
+    },
+    {
+      "start": 4328.289,
+      "end": 4337.07,
+      "text": "[terkesiap] Aku suka. Jadi kan penting itu apa I kan spark spark joy maksudnya sekarang kan aplikasi atau"
+    },
+    {
+      "start": 4337.08,
+      "end": 4342.189,
+      "text": "software yang slop ya udah banyak banget pembedanya kan ini kan human touch ini."
+    },
+    {
+      "start": 4342.199,
+      "end": 4350.07,
+      "text": "Yes. Eh, jadi ada e ini kayak broken kayak aku belum belum sempat benerin kita bisa punya Fly"
+    },
+    {
+      "start": 4350.08,
+      "end": 4364.669,
+      "text": "kita bisa pindahin jadi kita bisa eh mention mention file iya mention dan lain sebagainya ya comon lah ya comon tapi"
+    },
+    {
+      "start": 4364.679,
+      "end": 4376.51,
+      "text": "yang yang aku mau tunjukin dari event ini semuanya pakai produknya si Anvia jadi punya e si coding agent sama si Lexa"
+    },
+    {
+      "start": 4376.52,
+      "end": 4382.229,
+      "text": "yang aku share tadi. Jadi Lexa ini super helpful."
+    },
+    {
+      "start": 4382.239,
+      "end": 4388.91,
+      "text": "Jadi gampangnya untuk ngeindeks belum jadi embeding. Jadi dia enggak akan jadi embedings tapi kita ada ada tahu AT"
+    },
+    {
+      "start": 4388.92,
+      "end": 4392.51,
+      "text": "enggak sih? Rasanya IS comon [berdehem] ya comon."
+    },
+    {
+      "start": 4392.52,
+      "end": 4403.189,
+      "text": "Jadi abstrak saksry. Yes. Abstrak saksry. Jadi, aku manfaatin itu untuk bisa dapetin ee contoh kayak nge-audit ini bisa ngelihat total"
+    },
+    {
+      "start": 4403.199,
+      "end": 4414.59,
+      "text": "konteksnya. Kayak contoh ngere eh ngelihat fan out-nya tex search ini dipanggil dari mana aja tinggal dipasang di skills. Jadi, leanya"
+    },
+    {
+      "start": 4414.6,
+      "end": 4419.55,
+      "text": "diinstal dulu dipasang di skills. Di skillsnya dipasang tinggal suruh pakai."
+    },
+    {
+      "start": 4419.56,
+      "end": 4427.11,
+      "text": "And that's it. Wow, menarik nih."
+    },
+    {
+      "start": 4427.12,
+      "end": 4437.189,
+      "text": "Iya. Eh, I mean ya masih aku maintain terus k aku butuh ada yang salah atau ada yang jadi isue. Tapi mostly aku"
+    },
+    {
+      "start": 4437.199,
+      "end": 4443.229,
+      "text": "pakai day to day. [berdehem] Day to day pakai ya. Wah berarti proven lah ya. Mantap."
+    },
+    {
+      "start": 4443.239,
+      "end": 4448.59,
+      "text": "Iya. Termasuk juga muk muk aku lihatin muks ya."
+    },
+    {
+      "start": 4448.6,
+      "end": 4457.79,
+      "text": "Boleh, boleh, boleh, boleh, boleh dong. Ee yang kita suka justru ini yang demo-demo random aja."
+    },
+    {
+      "start": 4457.8,
+      "end": 4468.229,
+      "text": "Bentar ya. Jadi ee bentar. Oke. Add to stage sudah."
+    },
+    {
+      "start": 4468.239,
+      "end": 4478.229,
+      "text": "Jadi basically mooks ini gateway. Jadi gateway untuk bikin multiple providers eh kayak kayak N router atau light LLM"
+    },
+    {
+      "start": 4478.239,
+      "end": 4491.75,
+      "text": "lah ya. Light LLM. Oke. Iya. Light LLM. Jadi eh kita bisa setup provider ada sekitar eh 100 lebih providers yang kita siapin. Eh"
+    },
+    {
+      "start": 4491.76,
+      "end": 4499.31,
+      "text": "kita bisa bikin user dan lain sebagainya. Tapi intinya dipakai kalau kita mau dari internal. Kalau pakai light LLM itu bagus, cuman [berdehem]"
+    },
+    {
+      "start": 4499.32,
+      "end": 4504.79,
+      "text": "sekarang bloated sekali kayak campur-campur. Yang dulunya fokusnya adalah di API gateway."
+    },
+    {
+      "start": 4504.8,
+      "end": 4511.03,
+      "text": "Eh, sekarang sekarang jadi jadi eh ini jadi fully flash kayak ada evals-nya."
+    },
+    {
+      "start": 4511.04,
+      "end": 4514.11,
+      "text": "Aku enggak suka sekali. Iya. I."
+    },
+    {
+      "start": 4514.12,
+      "end": 4519.59,
+      "text": "Jadi [berdehem] yang aku coba untuk bikin di di Anvia itu adalah ekosistem yang aku butuhin kalau seandainya aku"
+    },
+    {
+      "start": 4519.6,
+      "end": 4527.95,
+      "text": "harus jadi harus jadi lead implement eh implement AI dari scratch di company."
+    },
+    {
+      "start": 4527.96,
+      "end": 4536.629,
+      "text": "Jadi semuanya aku punya gitu. [berdehem] J jadi kayak apa ya, armori gitu ya, kayak senjata pokoknya kayak apa udah ada"
+    },
+    {
+      "start": 4536.639,
+      "end": 4546.709,
+      "text": "gudang tinggal pilih tools yang dibutuhin dari situ. Tapi itu semua udah di eh custom custom dan disesuainin sama kebutuhan eh"
+    },
+    {
+      "start": 4546.719,
+      "end": 4556.222,
+      "text": "company, kebutuhan project. Kebutuhan project. Oke. Oke. Nah, enggak berasa ya sudah 1 jam lebih."
+    },
+    {
+      "start": 4556.232,
+      "end": 4563.99,
+      "text": "[tertawa] Nah, ini mungkin ee beberapa inilah beberapa ee topik terakhir ya. Kalau misalkan teman-teman tuh seperti kita"
+    },
+    {
+      "start": 4564,
+      "end": 4572.55,
+      "text": "yang levelnya masih pengguna gitu, kalau mau belajar agen itu boleh ada saran enggak sih belajarnya dari mana? Apakah"
+    },
+    {
+      "start": 4572.56,
+      "end": 4578.59,
+      "text": "iya apakah kita harus belajar bikin agen dari Scratch atau langsung boleh langsung pakai Library of Framework atau"
+    },
+    {
+      "start": 4578.6,
+      "end": 4588.87,
+      "text": "gimana? Yang penting paham prinsipnya ya. Kalau aku, kalau aku ngajarin, kalau aku ngajarin studen aku enggak harus bikin dari scratch ya."
+    },
+    {
+      "start": 4588.88,
+      "end": 4598.11,
+      "text": "Enggak harus bikin dari skratch. aku ajarinnya adalah oke prinsipnya dipahami. Kayak kita di zaman sekarang tuh ee ini enggak perlu belajar"
+    },
+    {
+      "start": 4598.12,
+      "end": 4607.39,
+      "text": "yang deep sekali tentang bukan aku enggak bicara enggak butuh fundamental ya, tapi kita yang penting good enough"
+    },
+    {
+      "start": 4607.4,
+      "end": 4616.59,
+      "text": "untuk tahu sebuah topik baru di baru di eh diimplement. Kayak contoh start dari awal belajar completion itu jangan"
+    },
+    {
+      "start": 4616.6,
+      "end": 4624.31,
+      "text": "belajar oke aku tahu cara pakai SDK-nya that's it gitu tapi enggak tahu common pattern-nya kayak apa."
+    },
+    {
+      "start": 4624.32,
+      "end": 4636.95,
+      "text": "H yang dipelajari adalah common pattern-nya. Kalau Oke common pattern kalau bikin di bikin eh aplikasi aplikasi workflow lah. Agentic"
+    },
+    {
+      "start": 4636.96,
+      "end": 4641.669,
+      "text": "workflow satu pipelines yang panjang pakai AI gitu."
+    },
+    {
+      "start": 4641.679,
+      "end": 4650.35,
+      "text": "aku harus ngapain nih gitu. Mostly ya sudah bikin completion, bikin completion, structured output dan lain sebagainya. Tapi yang harus dipahami"
+    },
+    {
+      "start": 4650.36,
+      "end": 4654.03,
+      "text": "adalah case apa, butuh pattern apa."
+    },
+    {
+      "start": 4654.04,
+      "end": 4662.189,
+      "text": "Hm. Itu yang yang harus dipelajarin. Jadi tahu kapan butuh dan tahu cara pakainya."
+    },
+    {
+      "start": 4662.199,
+      "end": 4664.07,
+      "text": "Tahu kapan butuh dan tahu cara pakainya."
+    },
+    {
+      "start": 4664.08,
+      "end": 4671.99,
+      "text": "Jadi enggak enggak perlu sedalam. Oke, aku harus harus harus ngelihat underlying-nya si Open Aa ini apaan di"
+    },
+    {
+      "start": 4672,
+      "end": 4680.51,
+      "text": "SD kayaknya ada apaan. Enggak harus enggak harus. Oke. [berdehem] Berarti ee apa disesuaikan sama case-nya aja ya"
+    },
+    {
+      "start": 4680.52,
+      "end": 4683.75,
+      "text": "kebutuhan ya. Tahu kapan pakai gitu ya."
+    },
+    {
+      "start": 4683.76,
+      "end": 4688.43,
+      "text": "Betul. Betul. Ee pragmatis saja. Pragmatis."
+    },
+    {
+      "start": 4688.44,
+      "end": 4698.91,
+      "text": "Zaman zaman kayak zaman dulu harus belajar dari zero totally zero harus naiknya tangganya satu-satu. Kalau aku sekarang ada lebih pragmatis saja"
+    },
+    {
+      "start": 4698.92,
+      "end": 4706.07,
+      "text": "yang kepakai mana yang kita ya kayak kayak kita ada istilah namanya black box learning kan ya."
+    },
+    {
+      "start": 4706.08,
+      "end": 4709.75,
+      "text": "Iya iya kita enggak perlu tahu dalamannya yang penting tahu cara kerjanya gitu ya."
+    },
+    {
+      "start": 4709.76,
+      "end": 4719.55,
+      "text": "Tahu tahu cara kerjanya dulu nanti kalaupun kita ambil pet yang harus tahu dalamnya baru nyemplung gitu baru deep dive ya. Hm. Iya sih. Berarti"
+    },
+    {
+      "start": 4719.56,
+      "end": 4726.47,
+      "text": "em proses apa atau cara kita belajar tuh sekarang berarti sudah shifting juga ya, sudah berubah ya? Enggak kayak dulu ya."
+    },
+    {
+      "start": 4726.48,
+      "end": 4734.03,
+      "text": "Kalau dulu apa-apa harus belajar dari awal banget gitu ya. Fundamental gitu ya. [berdehem][batuk] Iya. Ada ada sebagian"
+    },
+    {
+      "start": 4734.04,
+      "end": 4742.189,
+      "text": "ada masalnya kalau kita bicara bicara engineering ee ada masalnya kita butuh deep dev. Tapi kalau kita bicara topik-topik lainnya"
+    },
+    {
+      "start": 4742.199,
+      "end": 4749.31,
+      "text": "kayak contoh di kantor aku, kita asineer tuh seringki enggak paham tentang dunia trading. Totally. Aku tuh enggak paham"
+    },
+    {
+      "start": 4749.32,
+      "end": 4755.39,
+      "text": "dan aku harus belajar itu. Itu enggak bisa enggak bisa kayak tahu kulit-kulitnya aja. Aku harus harus call"
+    },
+    {
+      "start": 4755.4,
+      "end": 4764.149,
+      "text": "sama si expertnya untuk jelasin istilah notional tuh apa, istilah delta tuh apa di dalam trading, istilah e PM2"
+    },
+    {
+      "start": 4764.159,
+      "end": 4772.629,
+      "text": "PM33 strategy itu apa itu harus tahu dan sebagai engineer aku enggak bisa enggak bisa kayak oke pragmatis yang penting tahu"
+    },
+    {
+      "start": 4772.639,
+      "end": 4782.229,
+      "text": "kulit-kulitnya enggak bisa [berdehem] harus deep dive ya deep dive langsung karena bikin tuling untuk kebutuhan itu kan maksudnya kalau enggak ngerti itu"
+    },
+    {
+      "start": 4782.239,
+      "end": 4790.35,
+      "text": "Iya. Dan itahik salah ada produk yang kita bikin tidak ada toleransi untuk salah. Kayak kemarin ada case"
+    },
+    {
+      "start": 4790.36,
+      "end": 4796.61,
+      "text": "beda 0,01 senya 2 juta dolar."
+    },
+    {
+      "start": 4796.62,
+      "end": 4804.47,
+      "text": "[tertawa] Enggak itu seram. Yes. Itu itu enggak boleh langsung dicen bisa beda gitu. Wah, ternyata ada salah"
+    },
+    {
+      "start": 4804.48,
+      "end": 4808.75,
+      "text": "satu cash yang salah gitu. Salah floating point."
+    },
+    {
+      "start": 4808.76,
+      "end": 4811.79,
+      "text": "Ngeri juga ya karena menyangkut uang ya."
+    },
+    {
+      "start": 4811.8,
+      "end": 4817.35,
+      "text": "menyangkut uang. Uang dan uang banyak orang. Uang banyak orang dalam kuantitas besar."
+    },
+    {
+      "start": 4817.36,
+      "end": 4827.229,
+      "text": "Betul. He. He. He. Wow. Oke. Oke. Oke. Nah, eh rencana ke depan nih. Rencana ke depan untuk ee Mas"
+    },
+    {
+      "start": 4827.239,
+      "end": 4838.149,
+      "text": "Indra, untuk Anvia atau ee ada projek-projek yang lain yang e menarik mungkin?"
+    },
+    {
+      "start": 4838.159,
+      "end": 4841.95,
+      "text": "Sementara ini fokus aku ke AN ya."
+    },
+    {
+      "start": 4841.96,
+      "end": 4847.79,
+      "text": "Sementara ini fokus aku ke Anvia dan akan banyak lagi."
+    },
+    {
+      "start": 4847.8,
+      "end": 4855.47,
+      "text": "Aku pengin bikin banyak open source project e untuk common case kayak yang yang sedang aku kejar sekarang kayak"
+    },
+    {
+      "start": 4855.48,
+      "end": 4861.11,
+      "text": "untuk open web UI kayak open web UI tahu ya open web UI untuk bikin itu tapi underlying-nya"
+    },
+    {
+      "start": 4861.12,
+      "end": 4863.95,
+      "text": "adalah si Anvia gitu. Anvia. Hm. He."
+    },
+    {
+      "start": 4863.96,
+      "end": 4876.43,
+      "text": "Itu yang aku sedang coba untuk bikin pelan-pelan sama kalau nanti sudah mungkin kayaknya tahun depan itu aku akan start ee bikin bikin"
+    },
+    {
+      "start": 4876.44,
+      "end": 4885.31,
+      "text": "anvia platform untuk monetisasi kalaupun ada yang mau ya. Ee he tapi enggak enggak aku vendor lock. Jadi"
+    },
+    {
+      "start": 4885.32,
+      "end": 4891.27,
+      "text": "prinsip prinsip aku adalah aku sebagai pengguna bukan sebagai company. Karena aku sebenarnya apa yang dapat aku apa"
+    },
+    {
+      "start": 4891.28,
+      "end": 4899.51,
+      "text": "yang aku dapat dari duit kerjaan atau side job tuh sudah lebih dari cukup dan lebih dari cukup ya. Ya, aku rasa"
+    },
+    {
+      "start": 4899.52,
+      "end": 4908.709,
+      "text": "Anvia, aku rasa aku rasa akan jadi senjata aku untuk mungkin berkarir ke depannya, mau pindah job atau de karena"
+    },
+    {
+      "start": 4908.719,
+      "end": 4919.79,
+      "text": "aku sudah coba-coba untuk lihat ya, maksudnya aku coba untuk ee kirim ini ke beberapa company termasuk lovable dan"
+    },
+    {
+      "start": 4919.8,
+      "end": 4925.91,
+      "text": "mereka impress impress dengan apa yang kita bikin gitu."
+    },
+    {
+      "start": 4925.92,
+      "end": 4931.35,
+      "text": "Oh, oke. Loveik menarik. Iya, I ya."
+    },
+    {
+      "start": 4931.36,
+      "end": 4938.229,
+      "text": "Oke. Oke. Mungkin ee sekian dulu kali ya buat ini ee episode kali ini seru banget."
+    },
+    {
+      "start": 4938.239,
+      "end": 4944.83,
+      "text": "Ada satu komen paling bawah tuh yang paling mewakili semua. Enggak lihat deh komen yang paling bawah. Video ini pasti"
+    },
+    {
+      "start": 4944.84,
+      "end": 4957.31,
+      "text": "di bookmark. Di bookmark. Jangan di bookmark aja, ditonton. Kapan lagi lihat Mas Indra demoin langsung enggak [tertawa] pakai script kan?"
+    },
+    {
+      "start": 4957.32,
+      "end": 4964.39,
+      "text": "Dan lancar banget gitu. Lancar banget bikin agen dan lain-lain ya. Kelihatan apa yang termasuk kita semua sih kayak gua"
+    },
+    {
+      "start": 4964.4,
+      "end": 4971.47,
+      "text": "sendiri ngerasa apa ya [berdehem] kayak belajar ee nah kan tadi ee bahas tuh belajar dan pragmatis saja ya. Contoh"
+    },
+    {
+      "start": 4971.48,
+      "end": 4979.229,
+      "text": "salah satu ee media belajar paling perfect malah masalnya di luar kursus atau apa. Kalau kurs tutorial kan ya"
+    },
+    {
+      "start": 4979.239,
+      "end": 4986.55,
+      "text": "mungkin cocok-cocokan. Nah, kalau ini kan ee kita bisa lihat kodenya terus sekaligus kodenya kan ee apa package-nya"
+    },
+    {
+      "start": 4986.56,
+      "end": 4992.27,
+      "text": "bisa dijalanin juga kan. Jadi k yang kayak tadi yang kayak tips dari Mas Indra belajar tentang completion ya"
+    },
+    {
+      "start": 4992.28,
+      "end": 5000.95,
+      "text": "berarti kita lihat aja nih kode package buat completion kan kodenya kayak gimana, behavior-nya kayak gimana itu kayaknya membantu banget sih [berdehem]"
+    },
+    {
+      "start": 5000.96,
+      "end": 5006.47,
+      "text": "ya. Oke kalau gitu ee terima kasih banyak Mas Indra sudah mampir-mampir."
+    },
+    {
+      "start": 5006.48,
+      "end": 5013.417,
+      "text": "Terima kasih sudah diajakin ngobrol Anvia. Ini kayak baru pertama dia jalikin ngobrol tentang Anvia. Enggak banyak orang Indonesia yang tahu."
+    },
+    {
+      "start": 5013.427,
+      "end": 5021.99,
+      "text": "[tertawa] Iya. Kalau kalau enggak di harus harus banyak itu ya produk-produk ee apa orang-orang dari Indonesia yang"
+    },
+    {
+      "start": 5022,
+      "end": 5031.47,
+      "text": "harus di-highlight juga ya karena jadi bisa kita aware gitu daripada pakai punya luar, mendingan pakai punya teman-teman kita kan"
+    },
+    {
+      "start": 5031.48,
+      "end": 5037.149,
+      "text": "ya. Ditunggu ya ini produk-produk lainnya yang apa tadi? coding ag eh coding agent kalau sudahud publish sudah"
+    },
+    {
+      "start": 5037.159,
+      "end": 5046.03,
+      "text": "rilis mungkin bisa kontak-kontak lagi siapa tahu nanti kita undang lagi kita [tertawa] follow eh GHub-nya lah Anvia."
+    },
+    {
+      "start": 5046.04,
+      "end": 5053.43,
+      "text": "Iya yang mau follow-follow Mas Indra gitu mau apa ee interaksi eh sosial media yang paling aktif di mana, Mas?"
+    },
+    {
+      "start": 5053.44,
+      "end": 5058.43,
+      "text": "Boleh di Twitter dan di Linkin. Di Twitter agak agak sepi. Aku jarang post sekarang sepi ya."
+    },
+    {
+      "start": 5058.44,
+      "end": 5068.189,
+      "text": "Ee diinkin aja ya. Ya, penuh dengan penuh dengan timeline. Dosa drama [tertawa] kok dosa sekarang lebih banyak aktif di linkin"
+    },
+    {
+      "start": 5068.199,
+      "end": 5073.91,
+      "text": "boleh e connection ke Indra Zulfi."
+    },
+    {
+      "start": 5073.92,
+      "end": 5077.75,
+      "text": "Oke, siap siap siap. Terima kasih juga buat teman-teman yang sudah nonton nih."
+    },
+    {
+      "start": 5077.76,
+      "end": 5087.229,
+      "text": "Kayaknya beberapa ada yang bermasalah. Saya enggak tahu nih yang bermasalah apakah kayaknya koneksi saya ya. Jadi ada yang muter-muter katanya."
+    },
+    {
+      "start": 5087.239,
+      "end": 5094.109,
+      "text": "Maaf ya kalau ternyata koneksinya kurang bagus malam hari ini. Ee mudah-mudahan nanti replay-nya bagus ya di YouTube"
+    },
+    {
+      "start": 5094.119,
+      "end": 5097.189,
+      "text": "nanti ada ininya. Oke, segitu aja."
+    },
+    {
+      "start": 5097.199,
+      "end": 5101.03,
+      "text": "Terima kasih banyak ee semuanya. Terima kasih banyak sekali lagi buat Mas Indra."
+    },
+    {
+      "start": 5101.04,
+      "end": 5107.51,
+      "text": "Nanti kita ngobrol-ngobrol lagi. Ee selamat malam, sampai jumpa. Bye bye. Bye bye."
+    },
+    {
+      "start": 5107.52,
+      "end": 5115.83,
+      "text": "Apakah Anda baru pertama kali melihat tayangan dan halaman ini atau mungkin telah kesekian kali melihat untuk membandingkan kembali dengan lainnya?"
+    },
+    {
+      "start": 5115.84,
+      "end": 5122.43,
+      "text": "Jika Anda mencari tahu mengenai layanan web hosting terbaik, kami pastikan Anda berada di tempat yang tepat. Dengan"
+    },
+    {
+      "start": 5122.44,
+      "end": 5130.189,
+      "text": "domainia, dapatkan pengalaman menggunakan layanan hosting yang [musik] lebih baik dengan SSD berperform tinggi dalam infrastruktur cloud yang telah"
+    },
+    {
+      "start": 5130.199,
+      "end": 5138.31,
+      "text": "dioptimalkan untuk kebutuhan personal maupun bisnis. Teknologi ini memungkinkan Anda memperoleh layanan [musik] yang lebih stabil serta proteksi"
+    },
+    {
+      "start": 5138.32,
+      "end": 5146.43,
+      "text": "dari korupsi data. Posting domain Asia juga telah mendukung Nots, Python, Ruby, [musik] Go, PHP. Java serta Binary"
+    },
+    {
+      "start": 5146.44,
+      "end": 5154.79,
+      "text": "Linux. Lebih dari [musik] 200.000 pelanggan telah mempercayakan layanan hosting di domainia. Kepercayaan yang kami jaga dengan garansi [musik] up"
+    },
+    {
+      "start": 5154.8,
+      "end": 5160.149,
+      "text": "99,9% serta garansi uang kembali 100%."
+    },
+    {
+      "start": 5160.159,
+      "end": 5166.36,
+      "text": "Buat Anda [musik] lebih mendunia, segera beralih ke web posting Domainesia."
+    }
+  ],
+  "fullText": "[musik] Dapatkan hanya di domainesia. Halo. Halo. Selamat malam. Halo. Apa kabarnya? Ketemu lagi. Kita sudah 2 minggu ya. 2 minggu tidak bertemu. Sudah ada Audi. Ee kita malam ini Ivan lagi liburan ya? Baru selesai liburan. Baru selesai liburan. Katanya badannya remuk katanya tepar. Heeh. Tepar. Orang liburan biasanya refreshing gitu ya. Ini [tertawa] malah libur di kelompok usia kelompok usia [tertawa] segitu ini kalian semua ditonton ini. Heeh. Suatu hari kalian juga bakal ngerasain apa nih? Hilang. Apanya yang hilang? Hilang satu. Hilang satu. Oh kemarin minggu lalu. Iya minggu lalu ee saya yang presenternya juga hilang satu. Off by one error senternya. Off by one error. Iya, tapi jangan khawatir nanti kita ngundang-ngundang ini narasumber lah ya malam hari ini kita ada work around ya. Work aroundnya ya. Jadi biar cepat ya kita langsung aja. E jadi episode kali ini kita akan bahas tentang Anvia. Anvia itu apa? Itu framework. Tapi detailnya apa? nanti kita tanya langsung sama yang bikin. Tapi sebelum itu ee seperti biasa ee episode ini ee hasil kolaborasi dengan Dominesia. Jadi kalau teman-teman mau beli layanan hosting ee di Dominesia bisa pakai promo code ngobrolin web DN itu enggak cuman buat HTML, CSS atau PHP. Sekarang udah bisa GO, bisa Rus, pokoknya yang Linux base tuh dia bisa juga. Jadi kalau mau hosting ee diskonnya 10% ee diskonnya berlaku untuk siklus 1 atau 2 tahun. Nah, kalau yang cloud yang mungkin teman-teman lebih familiar ya dengan cloud bisa pakai eh cloud VPS Turbo Dominesia itu diskonnya 50% ya. Promo code-nya ini nih ngobrolin VPS DN tuh 50% dan diskon ini berlaku untuk semua paket dan semua siklus. ee bisa dipakai lebih dari satu kali akunnya yang sama. Jadi enggak perlu ganti-ganti account ya. Jadi terima kasih Dominesia. Nah, narasumber kita malam ini dia yang bikin Anvia. Teman-teman pada familiar enggak? Coba digoogling dulu, tapi langsung ketik aja ya. Anvia.dev ya. Ya, enggak usah [tertawa] googling. Enggak usah googling ya. Maksudnya ditulis di URL gitu ya. Ditulis aja anvia. Biar jangan salah. Heeh. karena banyak yang lainnya ya, bukan cuman ee developer tools ya. Nah, ini ee saya punya apa ya cerita yang menarik. Jadi beberapa setahun yang lalu atau beberapa tahun yang lalu gitu ya, saya sempat mengundang Mas Indra ini buat ee bedah framework sebenarnya Lito JS. Tapi ee saya coba ee kontak via GitHub sama Twitter ee enggak ada respon. Terus tiba-tiba ee Mas Indra yang ini sendiri muncul sendiri di Gitab kita. Jadi ee senang sekali akhirnya bisa mendatangkan Mas Indra. Halo Mas Indra. We halo. Taruh tengah dong. Happy aku ketemu Mas. Taruh tengah. Taruh tengah. Taruh tengah. Yang mana ya? Ini ya. Nah. Weh. Wah gede banget. Oke. [tertawa] Bertig aja. Ee Mas Indra. Em mungkin buat teman-teman yang belum familiar ya ee sebagian mungkin sudah tapi yang belum boleh kenalan singkat dong. Halo teman-teman, eh nama aku Indra. Saat ini aku kerja sebagai AI Engineering Lead di salah satu company fintech di Jepang. Ya, aku hari ini mau share-share dengan teman-teman tentang Anvia, salah satu framework yang aku bikin ee untuk ngembangun open source ya ini. Yes, open source. I sudah ya. [tertawa] Jadi saya sebenarnya penasaran Mas Indra ini kan Mas Indra kerjanya di Jepang gitu ya ee sebagai eh AI engineer lah gitu ya bagian dari AI engineer itu ee kalau lowongan pekerjaan AI engineer atau yang berhubungan dengan AI engineer tuh di Indonesia tuh sudah mulai banyak atau masih jarang sih? Ituas Mas Riza. Aku tuh sudah enggak kerja di Indonesia tuh sejak 2013. Waduh. Jadi enggak ngikutin ya? Totali enggak ngerti. Totali enggak ngerti. Kitanya juga enggak tahu. Enggak tahu ya. Enggak enggak pernah nyari kanan Indonesia ya. Enggak pernah nyari di Indonesia. Luar biasa. Tuh ada pertanyaan tuh. E engineer apakah menggunakan bahasa Jepang? Enggaklah. Enggaklah. Enggaklah. Ya, tapi ada syarat bisa harus bisa berbahasa Jepang atau gimana? Enggak. Enggak di case aku. Jadi kantor aku dulu tuh di Singapura terus kemudian kita ganti nama dan HQ-nya pindah ke Jepang. Oke. I tapi emang kantornya internasional anyway ya. Jadi ee Mosnya mau di mana tetap ee bahasa komunikasinya Inggris kan. Inggris ya. Inggris. Inggris. Mm. Iya. Iya. ya. Nah, ini ee tadi saya penasaran banget dari awal kita sebelum live ya kan Mas Indra sudah bikin tools yang bisa dibilang udah ee di atas level minimal di atas level kita bertiga lah gitu ya. Sudah bisa sudah bikin tools. Kalau kita masih pemakai tools gitu ya, tools AI. Nah, ini Mas IND tuh belajar AI pertama kali itu gimana [berdehem] ya? kita dari developer eh software biasa. Mas juga tadi kata Mas dari software developer biasa lah ma ngoding biasa. Nah, [berdehem] kita bertiga tuh agak stuck ngoding pakai AI ya. Mungkin mengoptimalkan penggunaan AI lumayan bisa tapi belum beralih ke ee bikin produk atau bikin sesu ee bikin pipeline. Heeh. Pipeline dan lain-lain. Nah, itu transformasi evolusinya kayak gimana tuh? Oke. Em, aku tuh mungkin bisa dibilang beruntung ya. Aku tuh sebelumnya dari 2020 kan kerja di Kanada dan di Kanada itu kita di zaman itu ya di 2020 itu kita sudah ada AI engineer sudah ada EA engineer dan salah satunya yang yang yang banyak ngajarin aku adalah Luis Francois. Jadi dia salah satu pembicara di channel AI Engineer kalau tahu ya. Iya, yang ada di YouTube itu itu dia salah satu salah satu pembicara di sana dan dia yang sering ngasih kita. Jadi di dulu tuh di di kantor tuh setiap hari Jumat itu ada kayak ee kita boleh book sama siapa gitu. Sharing session. I jadi ada sharing session dan di kantor kita ada empat waktu itu kalau enggak salah. Ada Luis Franois, satu lagi dari Argentina dan dua dari ee dari Prancis. dari Prancis itu sudah di zaman itu sudah kita sudah ngobrolnya adalah eh engine udah udah jadi kayak bikin bukan LLM ya waktu itu kita masih nyebutnya adalah machine learning gitu. Karena kita tahu ya AI itu AI engineer itu ada dua path. Ada dua path. Pth yang pertama yang lebih low level yang lebih dekat dengan machine learning. Jadi machine learning produce eh produce modelnya. Tapi yang kedua itu yang P implementasinya yang lebih dekat dengan software engineering, tapi masih related sama LLM. Iya. Oke. Jadi aku beruntungnya di situ, Mas. Aku banyak [berdehem] belajar sama orang-orang yang waktu itu aku enggak ngerti dunianya. Ngerti Learning, tapi enggak ngerti dunia kayak mereka sejago itu. Karena dia sudah di zaman itu dia sudah ambil PhD. Siifulis Frano ini PhD. Wow. Dan ya beruntung beruntung ya. Jadi kayak terbuka cakrawalanya ya lebih cepat ya dibandingkan kita di sini di Indonesia ya. Di sini mungkin 2020 masih chat GPT enggak sih? Belum. 2020. Oh belum. Belum. 2020 kan ini ya pandemi ya belum ya? Masih jauh ya. Masih jauh. He chatt pertama kali muncul tuh 2002 akhir. 22 2022 akhir. Iya ya iya iya. Oke. Terus ee step-step belajarnya kan ini udah apa namanya udah terinspirasi. Wah pengin belajar nih ya engineer. Terus ee step yang diambil pada saat itu belajarnya gimana? Dari mulai belajar apa dulu? Kan ada yang ee ada yang bilang oh harus belajar matematika, teori machine learning. gitu atau langsung implementasi coba API-nya pakai bikin sesuatu atau gimana? Bikin sesuatu. Ee gini yang yang kita ambil waktu itu semua di kantor tuh kan ada dibagi dua ya, dibagi jadi tim kita tuh ada 12 engineer dan ada empat e-engine engineer. Jadi yang 12 engineer itu fokusnya diimplementasi memang ee jadi h kayak bikin bikin berbagai macam Iya. I mean kalau kalau mungkin gampangnya bahasa gampangnya mungkin waper kali ya. rapper. Tapi [tertawa] makin makin makin lama makin ke sini yang kita pelajari udah enggak lagi kayak di level uper kayak harness totally hardness eh engineering jadi agak lebih deep tapi belajarnya paling basic dulu tuh kita belajar ee implementasi dulu kita belajar implementasi dari chatt dari chatt itu kita waktu itu setiap setiap 6 bulan tuh ada di kantor tuh kayak semacam hak katon gitu gitu. Siapapun itu kayak termasuk juga bahkan ee orang-orang HR itu harus bikin produk. Jadi ada sedikit dan dan itu kita dikasih waktu kayak 24 jam ee di hari di hari Jumat itu kita boleh pesan apa aja dia di rumah semuanya live dan kita bikin bikin tools-tools dan waktu itu aku bikin tools-nya ya comon ya kayak chat biasa tapi ada ini ee apa namanya ada kayak kita bisa milih persona gitu siapa yang mau kita chat ya zaman zaman itu kan enggak sepintar sekarang 2020 ya. Heeh. 2022 awal-awal tuh 2022 ya. Iya iya. Enggak secanggih itu kalau zaman sekarang ya mungkin ee aku bisa bilang hello world-nya AI engineer yang implementasi adalah rak. Iya harusnya r rag ya. Rag itu aku bisa bilang wordnya itu ya. Hello wordnya. Wah. Astagfirullahalazim. I. Oke. Oke. Set ee jadi memang berawal dari rapper dulu ya, bikin bikin seperti chat GPT pakai API-nya chat GPT, habis itu baru berkembang berkembang, berkembang gitu ya. Iya. Iya. Lah dulu kan belum ada API chat GPT juga kan. Berarti pakai servis pakai apa? Jalanin model di suatu tempat lokal enggak? Jadi jadi menariknya gini. Menariknya gini. Kalau di Kanada ada CEO kita itu CEO kita itu yang sekarang ya yang waktu itu eh kita tuh kayak dapat jadi mereka tuh kayak ngroll nge-roll out API tapi kayak hanya beberapa company hanya di underi tertentu kayak underisi tertentu itu sering banget terjadi. Sering banget. Hm. Berarti keberuntungan kedua itu ya. Jadi, API-nya keekpos duluan sebelum teman-teman ini ya, sebelum teman-teman yang lain yang publis. Sebelum sebelum yang lain muncul. Iya, sebelum yang lain muncul. Mungkin karena pertimbangan ee si kerjanya juga emang apa ee punya kutip sama punya kebiasaan yang forward yang maksudnya yang progresif lah di bidang eksplorasi. Mungkin ada partnership atau semacamnya kali ya. Iya. waktu itu ini ee CEO kita itu salah satu mungkin salah satu orang yang paling ini ya paling berpengaruh ya di dunia startup di Kanada itu dan belah satu salah satu investornya Versell. Investornya Vsell. Jadi channelnya ke mana-mana. Channelnya ke mana-mana. Iya iya iya iya iya. Oke menarik menarik. Nah, sekarang eh sebelum kita bahas tentang lebih lanjut tentang Anvia, kan Anvia ini adalah eh tools buat bikin AI agent kan buat refreshing lah kira-kira sebenarnya AI agent itu apa sih AI agent? AI agent itu full manage runtime. Full manage runtime. Jadi beda kayak sama completion ya, completion bahkan even completion plus tool calling atau function call itu hanya ngasih kita oke this is the di request respon ya request respon hanya ngasih hanya ngasih nama nama function yang harus dipanggil dan argumennya. That's it. Tanya jawab ya. untuk untuk eksekusinya kita harus eksekusi sendiri. kita harus eksekusi sendiri. Tapi kalau agent full manage runime. Jadi udah di dalamnya ada reasoning tool tool set dan berbagai macam loop dan semua kebutuhan kayak contoh hooks ya kayak on run, on call, on tool call, on completion dan lain sebagainya itu semuanya harus ada. Harus ada kalau kita mau mau bikin agen. Hm. Oke, jadi mungkin gini ya, kalau misalkan bisa dibilang agent itu a system in itself ya. Dia kan berarti punya sistem kan maksudnya dia tahu kapan manggil eh tuh ini tuh itu hook kapan ngeloop eh kapan loop-nya harus ee pindah ke desktop. Heeh. Itu kan kayak aplikasi tersendiri kan. Maksudnya kalau dari bahasa yang familiar buat developer itu kan sistem atau aplikasi. Iya. Kita nyebutnya runtime ya. Runtime. Oke. Oh. nyebutnya rantai. Iya. Sip. Oke. Nah, ee oke. Sekarang kita masuk ke anvianya sendiri. Kita share screen kali ya. Nih. Loh, mana? Belum belum di-share screen. Oke, boleh dijelaskan sambil saya share screen Anvia itu apa dan ee latar belakang dibangunnya Anvia itu buat apa ya? Em, Anvia. Anvia ini salah satu framework ya, framework yang aku bikin untuk ngebantu sebenarnya ngebantu aku pribadi untuk bikin agen karena aku sudah ada mungkin sudah ada pengalaman bikin puluhan AI agen yang memang dipakai di real production dan selama aku pakai berbagai macam tools aku nemu banyak sekali problem yau banyak sekali problem bukan berarti semuanya bisa solving dengan Tapi he apa yang ku bikin di Anvia tuh kayak totally totally eh solving dulu problem yang aku temuin. Real problemnya scratching scratching your own ya biasa istilahnyauk menggaruk. Iya. Sebenarnya kan kalau kalau kita bicara ekosistem ya, Typecript di Typecript sendiri ada banyak sebenarnya kalau kita bicara [berdehem] agent yang mungkin aku bisa bilang lebih bukan lebih mature tapi lebih strong ya karena mereka di-backup dengan duit yang gede eh company-komany besar. Jadi, Anvia sendiri bukan bukan datang untuk ngalahin mereka sebenarnya. Bukan kayak kita bersaing dengan fitur ceklist, tapi Anvia itu datang untuk ee untuk ngasih pilihan. untuk ngasih pilihan bahwasanya kita enggak harus memaksa aplikasi kita yang kita mungkin sudah punya sekarang itu untuk masuk ke satu platform tertentu. Satu platform tertentu. Jadi kayak kayak contoh di ada Versel ya, Versel eh open source sama juga mereka fully platform ya kayak fully fullyor login lah ya. Vendor login ya. Aku enggak bisa bilang vendor login ya. Tapi yang yang aku rasain ketika pakai pakai si ee FL sendiri IS sendiri itu mungkin mungkin aku karena enggak cocok ya cara cara iniya eh desain DX-nya, developer experience-nya. Jadi aku kurang kurang nyaman aja cara pakainya. Itulah kenapa agak agak sedikit beda di Anvia yang aku bikin itu agak sedikit beda karena nyesuai dengan apa yang aku temuin sebenarnya. Eh apa yang aku temuin dan sampai hari ini Anvia sudah punya 22 package open source MIT eh hampir untuk seluruh kebutuhan. Hampir untuk seluruh kebutuhan. mau pakai comon eh common SDK ya under the hood-nya tetap pakai open AI pakai Mral pakai Grock pakai Gemini tapi aku ngedesain si Anvia itu untuk jadi full package gitu full ekosistem jadi kalau kita mau butuh butuh oke mau butuh bikin Aagen untuk coding agent kamu kita punya kita punya core-nya kita punya build primitive bloknya. Kalau kita mau bikin bikin let's say bikin RG, kita sudah kasih bloknya tinggal mau pakai storage yang mana gitu. Kalau mau kita develop ke UI kita punya server dan React, kita juga punya React UI dan React UI ini headless totally. Jadi kita bisa bikin kayak bisa ngekompus kayak apapun yang kita mau. Ini full modular ya berarti kita kan apa pilih aja apa yang sesuai apa yang mau di e yang sesuai sama stack kita sama yang mau dibikin kan. Yes. Bisa dicombine ee sesuka. Ah menarik menarik. Jadi enggak enggak semua begitu diinstal langsung semua dapat tapi satu-satu yang dibutuhin aja ya. dibutuhin aja. Yang dibutuhin aja. Oke, kita ada sunbox yang baru ini ini beberapa baru be baru rilis beberapa minggu lalu kalau enggak salah sunbox basically kayak bikin sunbox tool untuk code execution. Eh, biar enggak ini ya, biar enggak berbahaya ya kalau ada kode-kode yang aneh ya. Iya. Iya. Karena dari pengalamanku kita kita ada case-case seperti itu. Ada kejadian. Ada kejadian. ada kejadian. Tapi bukan bukan karena orangnya yang memang sedang ingin mencuri atau melakukan apa ya ee user kita ya. Tapi yang aku lihat dia kayak kayak dengar sesuatu yang baru kan AI itu hype ya kayak banyak sekali hype-hype baru gitu. Setiap dia dengar waktu itu dia dengar tentang eh satu tulisannya si Jim ini kalau enggak salah di Google dia nemu tulisan debate agent. Jadi dia debate agent terus dia bikin kayak script gitu untuk ngebaca ENV kita. Tapi waktu itu sudah aku sudah tahu eh aku harus bikin sunbox. Ada juga studio. Studio runtime. Jadi studio UI ini bisa dipakai tanpa kita harus mikirin ee mikirin tes. Ya, contoh gini, kalau kita mau bikin AI agent, mau enggak mau cara tesnya adalah building the full flatch app. I enggak kita enggak bisa kayak bikin oke jadi satu dulu baru baru mikirin gitu enggak bisa tapi kalau dengan ini [mendengus] kita pikirin dulu agen-nya mau keekompos kayak apa, pasang satu line aja tambahan pakai studio udah kita bisa punya tracing, kita sudah punya eh chat UI, kita bisa ngelihat usage. Kalau seandainya halo kita bisa lihat kenapa. Oh, kayak dashboard ya dibikin gu dashboard-nya. Betul kayak dashboard biar kita enggak harus nyari-nyari lock entah di mana. Betul betul. Oh. Oh, ini kayak dashboard-nya ya berarti ya. Yes. Nah, biasanya kalau di di di kayak contoh di Mastra ya ini ada Heeh. Ada dan mereka kayak ada punya full platformnya. Jadi mereka punya ee Mastra itu punya si studio juga kalau enggak salah namanya atau OS gitu. [berdehem] Kalau ini Mastra ini eh framework juga ya, framework buat AI agent juga ya berarti ya. Iya, full platform. Jadi dia manage manage platform. Jadi kalau kita mau pakai framework dia biasa digabung sama FEL juga dan mereka punya kayak mereka punya fully manage platform gitu. Kalau aku enggak mau di sini maksudnya ver AI bukan sih? Iya versel AI. Jadi under the hood-nya under the hoodnya mereka pakai mereka library. Oke ya. Ini ini kalau enggak salah salah satu library yang lumayan cukup dikenal juga setelah sebelumnya itu yang naik itu kan awalnya kan kalau enggak salah siapa namanya? Langcen awalnya langcen ya kan habis itu ada lama indeks ada baru muncul mastra yang type script yang benar-benar dari Type script kan kalau Lin kalau enggak salah awalnya Python habis itu di eh bikin versi TypeScript atau JavaScript-nya ya. Iya. Hm. [berdehem] Oke. Wah, menarik. Nah, ini ee pertanyaan kenapa satu persatu ini. Habis ini pasti semua yang nonton. Semua yang nonton termasuk kita nyobain hopefully ya. Hopefully. Nih ya. Iya. Ee ini ada pertanyaan bagus [berdehem] juga nih. Nah, ini kan dipakai di pekerjaan di kantor untuk klien gitu kan. Terus apakah Mas Indra dikasih alokasi waktu jam kerja tertentu untuk maintenance atau untuk membuat ee project? Sekian jam dalam seminggu. Heeh. Enggak, karena ini bukan sebenarnya bukan bukan project kantor ya. Jadi of course aku mungkin agak beda caraku kerja mungkin ya. Aku tadi sempat singgung caraku kerja agak beda. Aku sudah hampir tidak pernah ngelihat membaca kode ID ID ID mungkin ya. Tapi kalau kode baca aku baca di review ya. Tapi ada ada berbagai macam gate yang aku punya gitu untuk make sure aku enggak buang-buang waktu lagi. Jadi mindsetnya mungkin agak beda karena kita kita ada di masa transisi ya. Kalau kita pakai selama ini kan mostly ya. Mostly yang aku tahu ya. kayak kita pakai coding agent ya sudah kita pakai coding agent bantu ngetik lah bantu ngetik untuk lebih cepat bantu ngetik bantu mikir tapi in theend of the day kita akhirnya jadi bottlen neck iya jadi bottlen untuk ng-review segitu gede segitu gede dan karena ini cepat banget kan hasilnya ya kalau kita ngacak ke company-comany yang besar kayak sekarang ada ada istilah namanya loop engineering lah mereka bisa ribuan dalam sat hari pasti ada yang beda pasti ada yang beda mindsetnya. Jadi yang selama ini mungkin kita jadi botle neck harus harus di harus diganti mungkin ya cara kita harus ngevu dan ngreview kode yang bukan enggak kita tulis terus apa maksudnya kadang overwhelming kadang slop kadang maksudnya kalau enggak dikontrol kan ee ke mana-mana enggak karuan kita ng-review-nya juga apa eh overwhelmed banget kan. Iya. Iya, itulah itu itu mungkin kalau zaman dulu kita make it make it make it work, make it right, and make it fast. Kalau zaman sekarang make it work, make it slop, make it unflop, make it unlop, make it unlop. [tertawa] Iya, iya, iya, i. Oh, berarti kalau apa proses review-nya tidak dilakukan oleh manusia, berarti AI juga yang me-review gitu ya di sekarang ya. Kalau aku iya aku aku ada dua gate kayak di lokal tuh ada aku punya satu tools sendiri untuk ng-review dan otomatis ngebikin PR otomatis ngebikin PR ada di salah satu contohnya di salah satu e PR-nya Anvia itu. Oke. Eh dia akan bikin dia akan bikin coba bukan di situ mungkin ya. Oh, I yang diclose yang sudah diclose yang diclose? Oh, oke. Coba ini berarti fully dibangun dengan AI ini ya berarti dengan AI agent ya. Yes, of course. Aku tahu apa yang harus aku lakuin karena aku punya punya sudah punya pengalaman untuk membangun agak Little JS waktu itu enggak waktu bikin Little JS itu kan totally scratch pakai tangan ya. Eh, waktu itu ideanya adalah bikin framework JavaScript yang filosofinya kayak Laravel gitu. Everything is one tool box gitu. Tapi kalau sekarang eh kayaknya orang-orang enggak butuh deh eh untuk bikin [tertawa] pakai untuk bikin sudah pakai yang umum aja yang comen aja yang umum. Oke, [berdehem] coba ke bawah ke bawah ini bot ke bawah. ke bawah. Coba cari bawah e eh line eh ini provider ini coba. Align provider yang kedua itu ya. Coba lihat di file change. File change. Oke. Eh, bukan ini kayaknya. Aku cari deh. Aku cari deh nanti. Nanti di-share di private chat aja. Boleh. Boleh. Oke. Berarti ini ee untuk proses development-nya ee gimana ininya flow-nya? Apakah menggunakan isu di sini? Nanti agen-nya ngambil isu di sini terus dia kerjain atau gimana? Jadi karena dipakainya sambil jalan ya. Jadi setiap setiap problem tuh yang aku temuin oke aku pakai ee aku pakai A B C D gitu. Terus setiap problem yang aku temuin di real production aku akan lihat mana problemnya. Problemnya ada di app layer kah di atau di unvia layer gitu. Kalau terjadi di unvia layer tanpa harus mikir panjang aku akan soft. Karena akuudah ada pengalaman aku tuh sebelumnya jadi kontributornya kalau tahu eh framework RCK dari RAS, AI agent dari RAS. Ee enggak tahu sih aku. Iya ada coba cari namanya Ras eh Rik. [tertawa] Ras apa? Ras Rik. Ras R I R I G K G O R I G. Oke. Oh Rick.rs. Oh iya. Jadi dulu tuh aku ada pakai ini kalau di rus yang kayak contoh yang agents OS yang aku bikin itu aku masih pakai ini dan mirip desainnya mirip aku aku juga eh contribute ke sini contribute ke eh Rick dan seringkiali kayak nung harus nunggu aku untuk solving problem aja itu harus nunggu kalau sekarang oke aku pakai Anvia ada problem aku bisa langsung sikat habis langsung beres gitu langsung aku rilis aku pakai Oke, sip sip. Nah, kalau ee apa namanya? Ini kan open source ya. ee gimana ada rencana ke depannya untuk supaya tetap sustain gitu dengan ya selain ya kalau ini kan kayaknya agak ee case-nya agak berbeda ya karena dipakai di kantor pasti ee case-nya bakal ada terus dan mungkin akan ee tetap sustain. Tapi kan kadang-kadang kita butuh kayak misalkan ee G sponsor kah atau funding atau ada monetisasi yang lain rencana. Heeh. Cari visi. Eh, cari visi. Aku enggak kepikiran sampai sana tuh, Bianus ya. Aku aku sementara ini kayak untuk sponsor kita ada sponsor dari Jatvo kita dapat dapat eh aku bisa bilang almost unlimited ya token dari oh ini ya sponsor ya. Heeh. dari dari Jatvo untuk ngebantu ngetes lah. Aku kan punya ee si siiap kali aku mau rilis tuh aku harus tes semuanya dan itu harus butuh butuh LLM call. Karena kalau aku hanya sekedar bikin smoke test [tertawa] ya, smoke test itu aku enggak gak enggak yakin. Enggak yakin ya. Yang yang dites adalah cara kerja AI-nya ya. Enggak bisa kayak unit test kode yang deterministik. bisa aja kalau deterministik secara secara kalau kita pakai type check dan test build itu bisa aja tapi kadang-kadang enggak ada aja enggak ketangkap jadi aku harus [berdehem] tes kayak cookbook tuh aku jalanin semua. Hmm. Oke. Oke. Ini berarti JTVO ini ee provider AI ya? Provider AI kayak open router gitu ya. Benar enggak sih? Yes. Kayak sumop gitu. Heeh. Heeh. Sumopot ya? Sumopot Jevo. Iya. Sama mirip-mirip. Oke. Wah, seru juga ya. Oh, berarti ee salah satu tantangannya kalau bikin AI tool seperti ini, Iya. Tokennya mesti ini ya, mesti siap banyak ya untuk testing ya. Almost unlimited ya. Wah, modelnya gede sekali tuh. Dan kita kan pakai pakai multiple ini ya, multiple provider ya. dan enggak bisa kayak relay sama relay sama gateway itu enggak bisa. Kayak contoh pakai open router, yes bisa. Tapi yang kepakai nanti adalah si open AI SDK-nya aja. Iya iya iya. Oke. Misral dan City enggak kepakai. Berarti eh disponsori oleh Jatvo tapi dari kantornya sendiri enggak ada provide token atau gimana? Ada pasti. Oh ada kantor ada juga. subscription salah satunya subscription kita sering dapat dapat ini dapat dari Azure terakhir dapat tadi Azure itu 50 oke oke kalau boleh tahu Anvia ini udah digunakan untuk bikin agen apa aja ini dari yang aku pakai ya dari yang aku pakai ya pertama ada coding agent aku pakai aku bikin coding agent sendiri sendiri ee according agent ee terus kita ada platform kayak kayak lovable untuk generate untuk building building building building application for UMKM ya mungkin aku bisa bilang UMKM eh mereka bisa generate website dan otomatis otomatis dihost sama kita. Em itu itu kemarin ada tapi sama si Jatvo. Jadi itu kayak kerja sama dengan Jatvo. Eh Jevo tuh punya satu produk lagi baru aku bisa enggak bisa bilang cuman eh yang kita bikin kayak mirip lovable gitu kayak repit lah. Sudah ada include, sudah ada database-nya, sudah ada ee hampir apapun yang kita butuhin. Terus kita di kantor ada salah satu produk yang paling susah aku bikin, paling rumit ya. adalah Heeh. adalah debate agent. Jadi karena kantor jadi kantor kita itu produknya mostly ngebantu para investor untuk trading open company kayak public company. Oh, trading public company. Dan yang kita bikin eh salah satu yang paling rumit itu debate agent. Jadi debate agent tuh inputnya simpel. Kayak hari ini aku beli Nvidia atau enggak. Oh, sesimpel itu. Sesimpel itu. Tapi dari parentnya akan akan melakukan mapping. Dia akan ng-define subagens untuk punya konteks, untuk punya pertukaran. masing-masing punya perspektif apa kayak ngresearch dari apa kayak tchnical analisis fundamental apa yang satu optimis yang bukan pesis tapi lebih ke ee ke satu bully satu berry satu satu sabung ag terus mereka nanti dilihat setelah dapat masing-masing perspektifnya itu ditukar perspektifnya jadi ada dia nentukin ada beberapa kali round jadi kalau ada dan itu pesanan dari dari salah satu company di Jepang. Kita ada kerja sama dengan salah satu company di Jepang yang aplikasi mereka sudah dipakai sekitar 4 juta orang di Jepang itu untuk ngebantu analisa yang bantu analisa. Jadi itu salah satu yang kita bikin. Oke. Oke. Wah seru ya. Ada ada yang yang aku bikin yang yang AI agent untuk coding agent itu sedang di private sebenarnya ada namanya. Oh di privat ya. Masih masih aku godok ni. Masih aku totali pakai Anvia tapi aku bisa kasih lihat kalau mirip. Boleh boleh mau mau lihat mau. Boleh. Kita paling sukaah. Demoin demoin anvia lah sekalian ya. Demo cara penggunaan apa nih? Cara bebas [berdehem] bebas. dari awal. Hello world boleh atau hal-hal yang menarik apapun sih yang boleh diekspos ke publik. Berarti aku aku langsung langsung kasih demo aja. Share screen aja. Share screen aja. Heeh. Langsung. Oke. Share screen ini kali ya. entire screen. Nanti kalau sudah rilis tolong diberitahu. Ini sudah rilis kan Anvia. Udah langsung pakai aja. Langsung pakai enggak kelihatannya maksudnya yang tadi trading trading system itu. Oh, trading. Eh, enggak tahu enggak tahu enggak kan private itu enggak bisa. Enggak boleh enggak boleh. Aku enggak bisa kasih lihat. Tapi tapi itu salah satu yang paling susah aku bikin bukan karena bukan karena tapi karena perpindahan kayak mikirin perpindahan konteks memori pertukaran memori jadi agak di agen itu kayak lm bukan sih banyak apa konteksnya banyak rawan korup ya rawan halu iya iya salah satunya ya salah satunya em ya banyak yang kita bikin kita ada ada banyak sekali tapi mostly tools yang kita pakai itu atau yang kita mohon maaf ee yang kita bikin itu mostly untuk ee trader untuk trading. Hm. Trading nih. Bentar share screen ya. Udah bisa dinaikin sudah bisa share screen. Udah aku oke aku kasih mungkin tunjuk apa dari scratch kah? [tertawa] Ya boleh ya terserah. Bebas, bebas yang, yang nyaman aja enggak usah terlalu rapi yang polish. Ee kayak demo, kayak demo yang proper [berdehem] demo kat eh sini demo. Em aku pakai Z aku set up dari Scratch. Team Z. Oh, Eka sekarang pakai Z. Iya dong. Z plus Gusti. [berdehem] Oh, type script. Dengan tidak perlunya kita membaca kode Z. Buat apa dong? Aku pakai [tertawa] hanya untuk ngajar. Tebanas. Eh, pakai untuk apa? Sori. Hanya untuk ngajar. Untuk ngajar. Contohnya. Oh, iya. I ngerti. Inget. Ngerti. Jadi bisa dibaca kodenya ya. Iya. Kalau enggak ya kasihan. studennya. Kalau gua kadang set juga sekarang lebih banyak buat kopas-kopas aja. Misalnya dari SL ada informasi apa dikopas aja di situ buat buat buka markdown lah, buat buka apa. Aku mungkin ada yang menarik nih. NVInya ada yang menarik eh by default eh ininya pakai PNPM ya, bukan npm gitu ya. Iya aku desain pakai PNPM. Aku pakai PNPM dari 2018 kali ya. H emang ada yang berbeda secara signifikan antara kalau misalkan anggaplah multi misalkan kita bisa pakai npm, pakai PNPM atau pakai boot atau apa. ada secara secara desain ee secara desain kayak waktu aku rilis pertama kali studio studio itu aku secara otomatis by default ada SQ Lite eh SQ Lite DB yang terus kemudian ada salah satu salah satu teman di Twitter pakai Mas aku ada problem kena diban aku ternyata waktu aku lihat yang aku pakai adalah memang desainnya importnya dari No CS dan itu enggak bisa enggak bisa di enggak Enggak bisa diganti kecuali aku harus jadi modular. He sistem-nya ada yang lain. Pernah gua pernah ke Heeh. pernah ke Serimpet itu juga pakai turbo repo gara-gara pakai turbo repo. [tertawa] Nah, kata-katanya jarang dengar ini. Ini sama seperti Langgraf, Line, Chin, Mastra. Apa bedanya? Perbedaan signifikannya apa, Mas? Kira-kira Mas perbedaan paling signifikan adalah scope. Scope. Jadi Anvia itu ngambil pendekatan yang lebih kecil. Jadi enggak kayak Forsel eh Langchain dan Mastra. Heeh. They are a big platform. Ya. Jadi aplikasi kita yang masuk ke sana. Aplikasi kita yang masuk ke sana kita ngikutin mereka gitu ya. Yes. Yes. Tapi kalau kalau Anvia you have the kita butuhnya apa kita pakai gitu, kita e instal gitu. Kalau enggak butuh ya enggak usah. Enggak enggak kita sudah punya app, kita sudah punya berbagai macam dan scope ya, berbagai macam service dan scope. Kita tinggal pasang primitifnya. Jadi kita kasih nih building blocknya udah pakai sendiri gitu. Dan under the hood-nya masih pakai masih pakai common SD K kayak open AI eh terus eh Mistral dan lain sebagainya. Antropik ya. Iya iya betul. Jadi aku contohin sedikit ya. Jadi mungkin ada beberapa case yang mungkin common lah. Comon. Jadi ya aku coba untuk kasih lihat aku punya shirt di sini dan kita bikin utils. [berdehem] Jadi cara paling umum yang kita pakai kan ini ya eh open AI. Aku coba untuk instal anvia sl eh core dan anvia open Ai. Jadi eh aku core akan selalu dibutuhkan. Dan kita punya open AI untuk untuk adapternya. Oh, bahkan adapternya pun enggak enggak masuk semua ya, satu-satu gitu ya. Enggak satu. Itu tadi kan kalau kita pakai ya, install yang i. Jadi di sini aku coba install dulu si DNF biar kita bisa pakai terusan. Jadi, eh cara bikinnya cukup mudah sama kayak open AI client pada umumnya dari open AI terus di sini kita bikin aja kayak client terus new open AI tinggal dipasang kalau ada base URL-nya atau ada API-nya dan kita tinggal pasang proses CNV let's say open AI API client gitu ya APQ terus baru bikin modelnya kayak contoh eh kita punya multiple model gitu ya kita bisa aja bikin kayak get model, get model terus kemudian modelnya adalah string. Default-nya let's say GPT 5.4 mini gitu contoh. Kemudian kita tinggal return client. Jadi kita sudah siapin multimodal kita ada completion, ada embeddings, ada audio, ada image, ada transcription. Eh, kita pakai si eh completion model dan ini sudah bisa dipakai nanti. Dan kita punya Anvi tuh punya primitif untuk completion dan agent. Aku tunjukin di completion dulu. Jadi, Anvia itu kita ada konsep namanya dependency injection. Eh, salah satu favorit aku ya. Jadi, contoh kita pernah bahas ini dulu di episode mana ya. Ya, pokoknya pernahlah. [tertawa] contoh e bahasnya juga emang pakai persel AI sih emang kelihatnya itu contoh yang paling obvious ya. Lanjut. Jadi contoh eh ini yang paling umum kayak contoh eh completion gitu ya. Completion sama dengan a create completion kemudian kita masukin modelnya apa. Eh let's say get model. Terus kemudian kita punya input dan instruction. Ini paling umum ya. Hello. H kita panggil console log eh completion. Dan kita punya juga usage gitu. Jadi ini paling mudah, paling standarnya hello word-nya lah ya. Eh aku coba untuk dulu. Model sama dengan get model and then aku coba jalankan. PNPMTSXC/zero one basic openingnya enggak kebacain dulu layarnya and config invv kelihatan nanti dihapus ya habis ini ya. [tertawa] [berdehem] Nah, ini contoh contoh paling sederhana. Kita punya tiga yang paling paling standar. Ada create completion, ada create parts completion. Untuk bikin structured output pakai zod common ya. Pakai znya comon. Jadi kita bisa bikin ee kasih contoh mungkin render custom mau mau return jason doang gitu ya, enggak boleh return string gitu ya. Yes, betul. yang standar wether lah ya cuaca kita bikin weather card movie ini movie contohcontoh paling paling ya paling standar lah ya eh kita punya movie kita punya parts completion dan dia akan diekstrak berdasarkan si movie-nya sentimen analysis iya jadi skemanya tinggal disupply pakai skimanya zod jadi kita ikutin ikutin industri standarpm MSX dan kita sudah punya si par eh completion ya. Jadi kita akan dapetin dari datanya langsung dalam bentuk Jason e sesuai dengan skema yang kita bikin. Ini ini si pars completion dan ada satu lagi namanya completion streaming. Let's say streaming. Aku pisahin. Em kita copy. Kita kasih create completion. streaming yang create completion streaming ini untuk bikin stream. Jadi kayak contoh kita bikin eh function main let's say and then kita punya ons input sama something. Terus kita bikin con saja stream sama create completion stream. ini eh function generator. Jadi kita bisa ee punya input inputnya si input tinggal kita bikin si eh loop-nya. Jadi bikin for a ya for a karena ini pakai ait kita butuh ingink jadi kita bikin aja constang of stream stream ya stream terus kita bisa masih hafal sintaks ya walaupun sehari-hari udah enggak ngoding manual eh sometimes I do manual just for trying to be sharp itu itu penting juga lama-lama D. STD out kemudian DR gitu ya dhang.dta. Jadi ini common common eh common pattern ya. Kalau kita mau bikin yang lebih lebih eh punya input ya. Let's say kita pakai inquirer. Inquire ini common. Kita bisa aja bikin kayak import from add inquire proms. Kita punya I think input. Jadi ini tambahin aja user input kita kasih a input. Kemudian ada message-nya let's say adalah dua com. Terus ini user input-nya kita masukin ke sini dan kita punya looping. Jadi kita kasih looping while through. Ini udah udah harusnya udah ada percakapan, sudah bisa dipakai untuk percakapan. Jadi setiap kali kita punya kita punya penutup untuk bikin break lines. Jadi kalau kita jalankan PNPM TSX SRC02 streaming say hello oh wow nah cuman kalau seperti yang kita tahu ya si si eh completion stream ini hanya sekedar completion dan kita enggak punya memori gitu kayak contoh aku minta dia untuk eh summarize gitu. Engak punya dia bingung enggak ada konteksnya. Iya. Jadi itulah kenapa kenapa aku punya satu eh utility untuk bikin message. Jadi message pakaian via core dalam bentuk array kita kasih seperti ini. Jadi kita punya namanya mis jadi bukan inject context tapi lebih ke Oh ngirim pas messages-nya otomatis sih history history kirim semua. Betul. Jadi eh di case ini kayak contoh kita setelah selesai consol lock kita bisa tambahin message dush sama [mendengus] push eh iya message dous user sama dengan user input sama si satu lagi si message assistant si kita harus tampung dulu karena dia bentuknya [mendengus] stream assist respon iniahin ke sini nih ee assistant response masukin ke sini. And harusnya kita sudah punya percakapan, sudah punya memori gitu. Jadi kalau kita jalanin lagi history. Iya. Hello. Do you know about Tokyo? What is their favorite dishes? dia sudah aware dengan Tokyo karena di dalamnya sudah ada sudah ada ini ya ini ini ini layer DX-nya itu banget ya convenience banget maksudnya tinggal tadi kan dua tinggal nambah tinggal nambah satu input satu deklarasi terus masukin apa nampung di satu variabel message-nya di ya iya ini hanya ini tinggal tinggal dimasukin ke database kalau kita mau bikin single turn eh single turn chartbot ya, single turn bukan pure eh agent gitu. Nah, agen sedikit berbeda. Jadi agent karena agent tuh bentuknya full time e full manage run time. Jadi kita bikin contohnya agent eh agent.ts gitu. Terus kita coba ee copy aja. Dan kita punya namanya adalah agent builder. Jadi yang kita expos tuh bukan agent-nya, tapi buildernya. Karena dari pengalaman aku, aku punya ee seringki kita bikin agent-nya itu eh composible. Jadi agak susah kalau pakai punya si ee punya si Mastra dan eh dan si Versel ya dari pengalaman ya. Mungkin mungkin karena mungkin karena eh skill isue [tertawa] model eh get model cons agent sama dengan new agent builder dan di agent builder kita bisa masukin si eh ID ya contohnya adalah assistant and then modelnya dan ini tinggal kita kasih instruction let's say instructionnya adalah you are a helpful assistant and then we to build. [berdehem] Jadi ini adalah eh primitifnya agent paling basic primitifnya agen dan baru kita bisa eh contohnya adalah let's say response kita tinggal pakai await agent prom ini adalah prom kita let's say hello gitu. Kemudian ada tinggal kita punya sendur lagi namanya setir. Untuk ng-etiring prom ini aku belum lihat ada di SDK yang lain. Eh, jadi aku coba untuk send. Output and harusnya bisa dipakai src/zero agen gitu. Nah, ini contohnya. Nah, biasanya kita itu kalau mau bikin bikin agent yang harus kita lakukan adalah bikin agent-nya dulu terus bikin fully harness-nya. Kita butuh front end-nya, butuh back endnya. Dan sebenarnya yang aku kalau kita bikin agent fokusnya harusnya adalah setelah bikin agent itu adalah benchmark. Kita tahu kayak ada terminal benchmark, ada eh SW bench ya, ada S bench dan lain sebagainya. Harusnya kalau kita mau bikin agen harusnya di benchmark dulu sebelum kita bikin eh full flatchnya. Iya, full flatch-nya. Itulah kenapa itu kayak test driven development ya, cuma versi di dunia identik tapi maksud saya mindsetd. Oh iya, EVAL. Bisa bisa dibilang evals ya. Aku aku pernah yang K bikin tu pernah kita kita pernah coba pakai si terminal bench kalau enggak salah ada di terminal bench itu ada 80 case. Itu susah-susah sekali memang untuk disolve. Tapi kalau kita pakai yang lain lagi agak susah ngbreakdown bikin agent tuh kayak satu pakai sendiri. Aku tuh terbiasa pakai ini Monorepo. Jadi aku harus bikin agen [berdehem] itu sharable atau installable ke semua project. Ya itulah dapat ng desainnya begini gitu. Nah, iya iya sebelum nah ketika kita sudah punya agent, kita bisa pakai sih em Anvia Studio. Anvia Studio di mana Anvia Studio ini fungsinya untuk ngasih kita si full flatch app-nya gitu untuk ngetes sebelum kita terlalu jauh. Jadi cara pakainya pun mudah. fromvia studio. Terus kita tinggal import si studio dan kita tinggal tambahin satu line di sini. New e new studio H eh studio sama new studio. Masukin aja agen-nya dan start. Ini aku hapus. Jadi kita hanya butuh ini. Jadi import dan pakai. Dan setelah kita ee jalankan PNPM eh PNPM TSX kita akan punya si UI. Jadi ini adalah UI-nya yang kita bisa langsung bisa langsung tes kayak contoh hello [berdehem] ya. dia akan tes dan kita bisa lihat dari costnya terus kemudian tracing-nya kayak halo how you doing mate dan kita bisa langsung lihat dari trace-nya kayak contoh di trace ini eh kita bisa cek di session ya ini bisa kita inspect input output metadata, semuanya kita bisa inspect kalau seandainya ada case di mana ee di mana kalau kita seandainya ada case contoh e ada yang pasti ada salah satu salah satu step yang berkontribusi gitu. itu harus kita harus bisa cari ee outputnya yang mana yang halu gitu. Dan ini tanpa kita harus setup berbagai macam ini ya kayak contoh harus bikin langs, harus setup itu aku alamin di itu di di pekerjaan dan aku enggak mau sesusah itu. Aku penginnya satu bikin agen dulu terus bikin dulu si ininya apa? E bikin dulu si benchmarknya bukan? Oh benchmark. Iya benchmark. Jadi ini bisa kita pakai untuk e benchmark gitu. Dan kita punya berbagai macam berbagai macam fitur. Ada tools, ada MCP, ada static context untuk nambahin static kayak kita nyebutnya mungkin contex injection, ada dnamic context untuk rak. Kita juga punya dynamic tools. Jadi dynamic tools itu ini aku bikin dari pengalaman aku. Jadi di kantor itu kita punya tools itu enggak satu du enggak enggak 10 gitu bahkan ratusan. ada 189 tools yang aku hitung dan itu enggak efektif of course ya kalau kita bikin harness itu enggak efektif. Jadi dynamic tools itu akan ng ngerubah tools menjadi embeddings. Jadi untuk disarch dixing dulu. Oh dan dia akan ng jadi selama ini kan metadatanya cuma diinject metadata masing-masing tools kayak deskripsi doang. Nah, kebanyakan si A-nya bingung. Jadi pakai juga pengalaman. Iya. Iya. Pakai beding juga. Jadi ini salah satu salah satu mungkin yang bisa useful bahkan sebelum kita kita pakai ya. Jadi contoh begini, kalau kita mau tambahin let's say tambahin e aku stop dulu. Tambahin eh tools gitu ya. SL paling umum lah ya. Get weather gitu. create full dan kemudian kita punya name. Let's say name-nya adalah get weather. Description-nya adalah use this eh if you are asking about real time we kemudian kita inputnya itu pakai Z skema jadi lebih gampang harusnya. Jadi kalau kita mau bikin eh contoh Z dari Z. Terus di dalamnya ada location gitu contohnya location E string. Heeh. Terus kemudian kita tinggal tambahin satu lagi yaitu execute. Jadi ketika dijalankan dia ngapain? Contoh kita return satu eh string ini kita bisa ambil ya kayak location bisa kita ambil langsung. Contohnya adalah the weather sun gitu. Jadi ini tinggal kita pasang. Jadi kita tinggal pasang D tools masukin and that's it. Jadi kita bisa cobain di sini aku refresh. Eh what is the weather in Surabaya? Gitu. dia akan ee melakukan tool calling dan harusnya dia akan muncul di sini ya dan dia akan nambahin i kalau kita punya kalau kalau kita pakai model-model China yang kelihatan yang yang di streaming si reasoning-nya dia akan muncul juga di sini the user ask me about the weather I should be calling [tertawa] apa reasoningnya suka lucu gitu kan suka ribet banget dan kalau kita punya punya multiple kayak ngerasa oke di sini ada ngelihat ee ngelihat trace-nya ya seandainya kita ngelihat trace-nya kayaknya kenapa ini halu ya gitu ya kenapa ini halu kita bisa tes langsung di dalam tools dan ini sudah ada location jadi kita bisa invoke si si tools tanpa harus pakai argumen harus bikin sendiri kayak Surabaya tanpa harus dibak-dbak konsolok ya betul betul gitu Jadi memang memang aku butuhnya begitu. Jadi aku bikinnya begini ya. I ee jadi ya seperti inilah. Luar biasa. Mau lihat contoh benchmark dong. Saya bikin benchmark [berdehem] di situ kayak gimana? Em kalau kita bikin benchmark agak panjang ya. Agak panjang. Tapi kita ada di dalam di dalam Anvia kita sudah kasih eh evals. Aku bisa bukain eh cookbook aku. Jadi Anvia ini adalah Anvia dan di sini ada eh cookbook. Jadi ada sudah aku kasih contoh ada kalau mau bikin basic matriks tuh kayak apa ee apa yang mau dites ada di git ada di cookbooknya ada di dokumentasi contoh ee di dokumentasi ada di cookbook ada jadi di cookbook lebih lebih pragmatikal lebih i lebih pragmatis yang dibutuhkan termasuk juga kita punya pipelines ya jadi pipelines ini eh pipeline builder aku kasih contoh Eh, PNPMbook pipeline pipelin e [berdehem] 05. Nah, ini nih PNPM cuman bisa monorepo ya buat PNPM lebih support ya. Iya. Studio di studio PNPM Cookbook studio 05. Jadi di PNPM jadi di dalam studio itu kita juga punya yang namanya ee pipelines ya. Oh, aku harus matikan dulu yang aku bikin tadi. Jadi, PNPM Cookebook. Ee bentar bentar aku 7 0 7. Jadi kita punya pipelines. Jadi kalau kita mau bikin pipelines ini sudah bisa kelihatan langsung dites kayak kita bikin genentic workflow ya. Kita sudah bisa ngelihat ee stepnya apa aja paralel kah terus nanti kemudian apa apa gitu. Jadi tinggal kita oke kita cek gitu kayak contoh eh hello kita bisa running dan dia akan jalan. Setelah dia jalan ee kita akan dapetin output-nya nanti. Nah setelah outputnya ini kayak N8N ya. Iya mirip yang berbeda ini diterjemahkan dari kode gitu aja. Jadi ini hanya diterjemahkan dari kode kita punya ee kita punya aslinya kode tapi visualisasinya aja berarti ya. Yes. Betul. Jadi biar ya biar gantengan aja dikit biar kelihatan. [tertawa] Iya iya iya. Nah, cuma ini enaknya kan ramah ramah non coder kan maksudnya ee apa dalam tim kita punya orang QA yang enggak exactly ngoding AI atau ngoding typescript atau apapun ya. Cuma QA kan harus familiar sama pipeline-nya. Bahkan orang produk pun kalau yang tex CV masih bisa ya bisa paham lihat ini kan. Iya. Iya. Jadi Iya. Eh cukup cukup useful ya. I mean even kalau kita mau bikin rak pun bisa pakai pakai Anvia sudah aku sediakan. Jadi cukup bisa dicoba lah bisa dilihat cookbook-nya. Kalau ada something yang enggak works bisa bikin bisa request request isu isu atau request ya. Issue issue. Boleh dokumentasinya lengkap banget. Ini salah satu hal paling positif. Kadang kan ee banyak software yang sebetulnya bagus, kodenya bagus, cuma kalau dokumentasi atau contohnya kurang lengkap yang bisa pakai ya yang otak dan atau ee jatah tokennya cukup mumpuni buat ee ngira-ngira dari Heeh. dari kodenya. Kalau ini kalau sudah dijelasin sedetail ini kan ya apa most users, mouse developers bakal bisa pakai. Iya, aku paling banyak ngabisin waktu di dokumentasi sebenarnya. kelihatan sih. Kelihatan banget sih kalau bikin [tertawa] bikin kodenya tuh gampang kalau bikin kodenya. Okelah Claude Kodex sudah secerdas itu gitu ya. Tapi kalau bikin bikin ee bikin si dokumentasinya aku harus baca satu-satu. Make sure aku menempatkan diri as a user atau ngelihat oke aku ngelihat ada library baru nih mau pakai. Kira-kira ini yang aku baca sudah bisa dijalankan enggak kalau aku coba copy paste gitu? itu yang pikirin. Iya, iya ya, ya. Eh, kadang-kadang itu yang susah soalnya kan ee apa yang kita buat kan ada di kepala kita semua kan. Kalau kita tidak mengap tidak memakai topi sebagai user kadang-kadang banyak yang terlewat karena asumsinya ini kita sudah tahu gitu. itu yang memang makanya tadi di awal kan saya sempat bilang kan ini produknya atau website dan dokumentasinya itu udah udah mature dalam artian udah kelihatan kayak produk jadi bukan kaya sudah kelihatan seperti produk jadi gitu. Jadi memang ternyata memang filosofinya memang ee ngejarnya ke dokumentasi ya. Iya, betul. Ngejarnya ke dokumentasi hanya untuk make sure yang pakai ya ikut ikut nyamanlah. Ikut nyaman. Aku aku enggak enggak enggak punya mimpi untuk oke ini dipakai orang banyak, dipakai company besar. Ee tapi aku hanya pengin bikin something yang oke useful aku pakai. Orang kalau mau pakai happy gitu. Hm. Dah gitu aja mimpinya kecil aja. Cuma ini secara apa? secara approach, secara ya bisa dibilang kayak filosofi menarik enggak sih? Jadi kayak misalnya kan dari tadi udah banyak dibahas tuh ee Mas Indra udah jarang ngoding manual sendiri ya udah biarnya yang bikin. Bahkan produk yang dibikin pun ee untuk enable eh workflow yang kayak gitu kan. Jadi maksudnya ya udahlah ee ya kayak Steve ya gue bilang gitulah kode itu murah sekarang disposable kode murah tapi komunikasi mahal ya enggak sih? mau saya apa ee buat bikin ee contoh-contoh ee contoh sama dokumentasi sama kayak ibaratnya onboarding flow yang dibikin di Anvia ini kan. Nah, kayaknya skill skill set developer yang mahal tuh sekarang bukan ngodingnya tapi ininya ya kayak gimana apa ee ngedesain suatu produk. Ini kan produk nih si Anvia packages-nya gimana ngedesainnya? Gimana mecah-mecahnya bahkan apa bikin dibikin macam-macam. package itu fungsinya buat apa? Terus kayak ee kenapa de buat dibikin studio terus sih studionya bisa ngapain aja? itu kayak maksud saya mikir ee ngerancang kayak gitunya yang mahal dan apa nyampeinnya maksudnya ini di example-nya kenapa example kenapa contoh-contohnya eh misalnya apa basic tool structured output pipelines kenapa contoh-contohnya ini itu kayaknya skill yang belum bisa sepenuhnya di-offload ke AI ya betul enggak sih yang Mas Indra rasain yes I mean setengahnya setengahnya aku harus effort sendiri kayak kebanyakan aku marah-marah sama si coding Agent itu kebanyakan [tertawa] karena si dokumentasinya enggak jelas gitu. Enggak, aku enggak mau begini, aku maunya begini, aku maunya begini gitu. Kayak ada kata atau struktur snipet aja yang salah. Aku minta dia benerin. Aku maunya begini begini begini begini. He. Jadi banyakan banyakan memang habisin waktunya di ee dokumentasi dan target aku memang yang sekarang ya karena mostly apa yang ada di ANVIA sekarang sudah bisa dipakai untuk production. dan sudah mencukupi untuk kebutuhan common case ya, common case mau bikin agent apapun common case-nya sudah cukup. Jadi fokusnya adalah bug fixing sama dokumentasi instead of nambahin fitur bufing sama dokumentasi sama maintain ya kali ya maintain tuh aku setiap 2 hari sekali kita ada script untuk ngecek dependency kita kan underlying-nya pakai kayak openc antropic dan lain sebagainya itu harus selalu update setiap 2 hari sekali dan itu harus jalan otomatis dan dia akan bikin bikin ee dia akan ng ng ngf Fetch, nginstal versi baru, running semua tes dan eh bikin PR. [berdehem] Eh apa namanya? Eh continuous integration ya. C C C Iya, C I ya. Mungkin ini ya apa ee kalau tadi ngelihat gimana apa Mas Indra mendemokan gitu ya, itulah perbedaannya antara kita yang pakai doang sama Mas Indra yang sudah sering bikin gitu ya. Udah [tertawa] lancar banget. Inspiring sih. Maksudnya kita harus kita harus jadi developer yang kayak gini. Maksudnya apa value-nya developer? Kalau dulu kan cuma ngerti caranya ngoding, ngerti caranya ngebalik-balikin trik, ngerti caranya apalah ee ya apa bikin ee bikin di jadi ke tengah kalau front end. Tapi kan ya itu sekarang karena itu sudah jadi murah kita harus nambah ya kayak memperluas lagi kan. Iya, skill setnya naiknya kayak gini nih. Iya, makanya sama Anvia ini karena sudah dipakai di e pekerjaan sehari-hari use case-nya banyak makanya example-nya lengkap kan, cookbooknya juga lengkap gitu karena ada case yang beneran gitu. Itulah mungkin itu yang membedakan antara library atau framework yang kita buat tapi sedang mencari use case. Sementara yang ini kayaknya kalau di startup itu istilahnya apa ya? produk market fit lah ya. Jadi ini udah udah ada usernya, sudah dipakai gitu dan eh use case-nya cukup lengkap. Iya. Ini salah satu aku bisa kasih contoh salah satu ee salah satu produk yang sedang aku sedang aku bikin ya ee yang sedang diedevelop pakai Anvia itu adalah si Aven ini aku sudah share screen kayaknya ya. Sudah. Iya. E jadi even ini kayak semacam sama aja kayak kayak common common coding agent. Jadi dia bisa Oh ini yang coding agent tadi ya. Oh iya coding agent dia underlying-nya pakai anvia. Eh tapi masih private ya masih private. Nanti akan open source dan MIT license. Jadi sudah ada sudah ada MCP Lexa aku including as as eh default lah default install skills dan lain sebagainya. Dan ini kayak contoh ee jadi dia sudah punya punya berbagai macam tools ya kayak e what tools do you have kita juga di dalam ANVIA itu sudah ada approval tool approval terus hook dan lain sebagainya eh to callingnya apa aja read I eh bas I edit ya. Ada subag ask question. Yes. Wah lengkap ya. Ask questions to. Ini pakai apa? Tauri bukan. Oh enggak. Ini pakai elektron. Oh elektron. Yang yang tauri yang aku bikin itu adalah si agen OS. Ini underline-nya pakai pakai ee pakai Rick tadi. Jadi dia ee Taa Ah. Back-nya Rus, eh, front end-nya React. H yang ini kayak versi barunya lah untuk aku mau proving bahwasanya si Envia itu em enggak hanya sekedar library yang hanya bisa dipakai untuk toy app, tapi bisa dipakai untuk production. I see question about this project gitu. dia bisa to call dan lain sebagainya. Dia punya prom steering yang tadi aku sempat sempat bilang. Jadi, ya cukup cukup useful dan ini bisa ganti-ganti ee tema standar ya. Standar lah. Enggak, enggak standar dan aku suka kodik saja enggak [tertawa] ada. [terkesiap] Aku suka. Jadi kan penting itu apa I kan spark spark joy maksudnya sekarang kan aplikasi atau software yang slop ya udah banyak banget pembedanya kan ini kan human touch ini. Yes. Eh, jadi ada e ini kayak broken kayak aku belum belum sempat benerin kita bisa punya Fly kita bisa pindahin jadi kita bisa eh mention mention file iya mention dan lain sebagainya ya comon lah ya comon tapi yang yang aku mau tunjukin dari event ini semuanya pakai produknya si Anvia jadi punya e si coding agent sama si Lexa yang aku share tadi. Jadi Lexa ini super helpful. Jadi gampangnya untuk ngeindeks belum jadi embeding. Jadi dia enggak akan jadi embedings tapi kita ada ada tahu AT enggak sih? Rasanya IS comon [berdehem] ya comon. Jadi abstrak saksry. Yes. Abstrak saksry. Jadi, aku manfaatin itu untuk bisa dapetin ee contoh kayak nge-audit ini bisa ngelihat total konteksnya. Kayak contoh ngere eh ngelihat fan out-nya tex search ini dipanggil dari mana aja tinggal dipasang di skills. Jadi, leanya diinstal dulu dipasang di skills. Di skillsnya dipasang tinggal suruh pakai. And that's it. Wow, menarik nih. Iya. Eh, I mean ya masih aku maintain terus k aku butuh ada yang salah atau ada yang jadi isue. Tapi mostly aku pakai day to day. [berdehem] Day to day pakai ya. Wah berarti proven lah ya. Mantap. Iya. Termasuk juga muk muk aku lihatin muks ya. Boleh, boleh, boleh, boleh, boleh dong. Ee yang kita suka justru ini yang demo-demo random aja. Bentar ya. Jadi ee bentar. Oke. Add to stage sudah. Jadi basically mooks ini gateway. Jadi gateway untuk bikin multiple providers eh kayak kayak N router atau light LLM lah ya. Light LLM. Oke. Iya. Light LLM. Jadi eh kita bisa setup provider ada sekitar eh 100 lebih providers yang kita siapin. Eh kita bisa bikin user dan lain sebagainya. Tapi intinya dipakai kalau kita mau dari internal. Kalau pakai light LLM itu bagus, cuman [berdehem] sekarang bloated sekali kayak campur-campur. Yang dulunya fokusnya adalah di API gateway. Eh, sekarang sekarang jadi jadi eh ini jadi fully flash kayak ada evals-nya. Aku enggak suka sekali. Iya. I. Jadi [berdehem] yang aku coba untuk bikin di di Anvia itu adalah ekosistem yang aku butuhin kalau seandainya aku harus jadi harus jadi lead implement eh implement AI dari scratch di company. Jadi semuanya aku punya gitu. [berdehem] J jadi kayak apa ya, armori gitu ya, kayak senjata pokoknya kayak apa udah ada gudang tinggal pilih tools yang dibutuhin dari situ. Tapi itu semua udah di eh custom custom dan disesuainin sama kebutuhan eh company, kebutuhan project. Kebutuhan project. Oke. Oke. Nah, enggak berasa ya sudah 1 jam lebih. [tertawa] Nah, ini mungkin ee beberapa inilah beberapa ee topik terakhir ya. Kalau misalkan teman-teman tuh seperti kita yang levelnya masih pengguna gitu, kalau mau belajar agen itu boleh ada saran enggak sih belajarnya dari mana? Apakah iya apakah kita harus belajar bikin agen dari Scratch atau langsung boleh langsung pakai Library of Framework atau gimana? Yang penting paham prinsipnya ya. Kalau aku, kalau aku ngajarin, kalau aku ngajarin studen aku enggak harus bikin dari scratch ya. Enggak harus bikin dari skratch. aku ajarinnya adalah oke prinsipnya dipahami. Kayak kita di zaman sekarang tuh ee ini enggak perlu belajar yang deep sekali tentang bukan aku enggak bicara enggak butuh fundamental ya, tapi kita yang penting good enough untuk tahu sebuah topik baru di baru di eh diimplement. Kayak contoh start dari awal belajar completion itu jangan belajar oke aku tahu cara pakai SDK-nya that's it gitu tapi enggak tahu common pattern-nya kayak apa. H yang dipelajari adalah common pattern-nya. Kalau Oke common pattern kalau bikin di bikin eh aplikasi aplikasi workflow lah. Agentic workflow satu pipelines yang panjang pakai AI gitu. aku harus ngapain nih gitu. Mostly ya sudah bikin completion, bikin completion, structured output dan lain sebagainya. Tapi yang harus dipahami adalah case apa, butuh pattern apa. Hm. Itu yang yang harus dipelajarin. Jadi tahu kapan butuh dan tahu cara pakainya. Tahu kapan butuh dan tahu cara pakainya. Jadi enggak enggak perlu sedalam. Oke, aku harus harus harus ngelihat underlying-nya si Open Aa ini apaan di SD kayaknya ada apaan. Enggak harus enggak harus. Oke. [berdehem] Berarti ee apa disesuaikan sama case-nya aja ya kebutuhan ya. Tahu kapan pakai gitu ya. Betul. Betul. Ee pragmatis saja. Pragmatis. Zaman zaman kayak zaman dulu harus belajar dari zero totally zero harus naiknya tangganya satu-satu. Kalau aku sekarang ada lebih pragmatis saja yang kepakai mana yang kita ya kayak kayak kita ada istilah namanya black box learning kan ya. Iya iya kita enggak perlu tahu dalamannya yang penting tahu cara kerjanya gitu ya. Tahu tahu cara kerjanya dulu nanti kalaupun kita ambil pet yang harus tahu dalamnya baru nyemplung gitu baru deep dive ya. Hm. Iya sih. Berarti em proses apa atau cara kita belajar tuh sekarang berarti sudah shifting juga ya, sudah berubah ya? Enggak kayak dulu ya. Kalau dulu apa-apa harus belajar dari awal banget gitu ya. Fundamental gitu ya. [berdehem][batuk] Iya. Ada ada sebagian ada masalnya kalau kita bicara bicara engineering ee ada masalnya kita butuh deep dev. Tapi kalau kita bicara topik-topik lainnya kayak contoh di kantor aku, kita asineer tuh seringki enggak paham tentang dunia trading. Totally. Aku tuh enggak paham dan aku harus belajar itu. Itu enggak bisa enggak bisa kayak tahu kulit-kulitnya aja. Aku harus harus call sama si expertnya untuk jelasin istilah notional tuh apa, istilah delta tuh apa di dalam trading, istilah e PM2 PM33 strategy itu apa itu harus tahu dan sebagai engineer aku enggak bisa enggak bisa kayak oke pragmatis yang penting tahu kulit-kulitnya enggak bisa [berdehem] harus deep dive ya deep dive langsung karena bikin tuling untuk kebutuhan itu kan maksudnya kalau enggak ngerti itu Iya. Dan itahik salah ada produk yang kita bikin tidak ada toleransi untuk salah. Kayak kemarin ada case beda 0,01 senya 2 juta dolar. [tertawa] Enggak itu seram. Yes. Itu itu enggak boleh langsung dicen bisa beda gitu. Wah, ternyata ada salah satu cash yang salah gitu. Salah floating point. Ngeri juga ya karena menyangkut uang ya. menyangkut uang. Uang dan uang banyak orang. Uang banyak orang dalam kuantitas besar. Betul. He. He. He. Wow. Oke. Oke. Oke. Nah, eh rencana ke depan nih. Rencana ke depan untuk ee Mas Indra, untuk Anvia atau ee ada projek-projek yang lain yang e menarik mungkin? Sementara ini fokus aku ke AN ya. Sementara ini fokus aku ke Anvia dan akan banyak lagi. Aku pengin bikin banyak open source project e untuk common case kayak yang yang sedang aku kejar sekarang kayak untuk open web UI kayak open web UI tahu ya open web UI untuk bikin itu tapi underlying-nya adalah si Anvia gitu. Anvia. Hm. He. Itu yang aku sedang coba untuk bikin pelan-pelan sama kalau nanti sudah mungkin kayaknya tahun depan itu aku akan start ee bikin bikin anvia platform untuk monetisasi kalaupun ada yang mau ya. Ee he tapi enggak enggak aku vendor lock. Jadi prinsip prinsip aku adalah aku sebagai pengguna bukan sebagai company. Karena aku sebenarnya apa yang dapat aku apa yang aku dapat dari duit kerjaan atau side job tuh sudah lebih dari cukup dan lebih dari cukup ya. Ya, aku rasa Anvia, aku rasa aku rasa akan jadi senjata aku untuk mungkin berkarir ke depannya, mau pindah job atau de karena aku sudah coba-coba untuk lihat ya, maksudnya aku coba untuk ee kirim ini ke beberapa company termasuk lovable dan mereka impress impress dengan apa yang kita bikin gitu. Oh, oke. Loveik menarik. Iya, I ya. Oke. Oke. Mungkin ee sekian dulu kali ya buat ini ee episode kali ini seru banget. Ada satu komen paling bawah tuh yang paling mewakili semua. Enggak lihat deh komen yang paling bawah. Video ini pasti di bookmark. Di bookmark. Jangan di bookmark aja, ditonton. Kapan lagi lihat Mas Indra demoin langsung enggak [tertawa] pakai script kan? Dan lancar banget gitu. Lancar banget bikin agen dan lain-lain ya. Kelihatan apa yang termasuk kita semua sih kayak gua sendiri ngerasa apa ya [berdehem] kayak belajar ee nah kan tadi ee bahas tuh belajar dan pragmatis saja ya. Contoh salah satu ee media belajar paling perfect malah masalnya di luar kursus atau apa. Kalau kurs tutorial kan ya mungkin cocok-cocokan. Nah, kalau ini kan ee kita bisa lihat kodenya terus sekaligus kodenya kan ee apa package-nya bisa dijalanin juga kan. Jadi k yang kayak tadi yang kayak tips dari Mas Indra belajar tentang completion ya berarti kita lihat aja nih kode package buat completion kan kodenya kayak gimana, behavior-nya kayak gimana itu kayaknya membantu banget sih [berdehem] ya. Oke kalau gitu ee terima kasih banyak Mas Indra sudah mampir-mampir. Terima kasih sudah diajakin ngobrol Anvia. Ini kayak baru pertama dia jalikin ngobrol tentang Anvia. Enggak banyak orang Indonesia yang tahu. [tertawa] Iya. Kalau kalau enggak di harus harus banyak itu ya produk-produk ee apa orang-orang dari Indonesia yang harus di-highlight juga ya karena jadi bisa kita aware gitu daripada pakai punya luar, mendingan pakai punya teman-teman kita kan ya. Ditunggu ya ini produk-produk lainnya yang apa tadi? coding ag eh coding agent kalau sudahud publish sudah rilis mungkin bisa kontak-kontak lagi siapa tahu nanti kita undang lagi kita [tertawa] follow eh GHub-nya lah Anvia. Iya yang mau follow-follow Mas Indra gitu mau apa ee interaksi eh sosial media yang paling aktif di mana, Mas? Boleh di Twitter dan di Linkin. Di Twitter agak agak sepi. Aku jarang post sekarang sepi ya. Ee diinkin aja ya. Ya, penuh dengan penuh dengan timeline. Dosa drama [tertawa] kok dosa sekarang lebih banyak aktif di linkin boleh e connection ke Indra Zulfi. Oke, siap siap siap. Terima kasih juga buat teman-teman yang sudah nonton nih. Kayaknya beberapa ada yang bermasalah. Saya enggak tahu nih yang bermasalah apakah kayaknya koneksi saya ya. Jadi ada yang muter-muter katanya. Maaf ya kalau ternyata koneksinya kurang bagus malam hari ini. Ee mudah-mudahan nanti replay-nya bagus ya di YouTube nanti ada ininya. Oke, segitu aja. Terima kasih banyak ee semuanya. Terima kasih banyak sekali lagi buat Mas Indra. Nanti kita ngobrol-ngobrol lagi. Ee selamat malam, sampai jumpa. Bye bye. Bye bye. Apakah Anda baru pertama kali melihat tayangan dan halaman ini atau mungkin telah kesekian kali melihat untuk membandingkan kembali dengan lainnya? Jika Anda mencari tahu mengenai layanan web hosting terbaik, kami pastikan Anda berada di tempat yang tepat. Dengan domainia, dapatkan pengalaman menggunakan layanan hosting yang [musik] lebih baik dengan SSD berperform tinggi dalam infrastruktur cloud yang telah dioptimalkan untuk kebutuhan personal maupun bisnis. Teknologi ini memungkinkan Anda memperoleh layanan [musik] yang lebih stabil serta proteksi dari korupsi data. Posting domain Asia juga telah mendukung Nots, Python, Ruby, [musik] Go, PHP. Java serta Binary Linux. Lebih dari [musik] 200.000 pelanggan telah mempercayakan layanan hosting di domainia. Kepercayaan yang kami jaga dengan garansi [musik] up 99,9% serta garansi uang kembali 100%. Buat Anda [musik] lebih mendunia, segera beralih ke web posting Domainesia."
+}

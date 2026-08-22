@@ -1,0 +1,2649 @@
+{
+  "videoId": "-ThmdHbkH-c",
+  "language": "id",
+  "generatedAt": "2026-08-22T01:54:02.479Z",
+  "source": "youtube-auto",
+  "segments": [
+    {
+      "start": 14.679,
+      "end": 26.429,
+      "text": "halo halo halo selamat malam selamat malam kita kembali ke setelan pabrik kita bertiga online dan di rumah"
+    },
+    {
+      "start": 26.439,
+      "end": 40.75,
+      "text": "masing-masing Oh selasa malam wak kita kafe waktunya kita ngapain ngobrol ngobrolin ngobrolin web gimana nih yang habis dari Makassar"
+    },
+    {
+      "start": 40.76,
+      "end": 50.31,
+      "text": "Makassar Ada cerita-cerita apa ser Iya seru ya teman-teman Yang yang ini ya yang apa yang nontonin kita juga"
+    },
+    {
+      "start": 50.32,
+      "end": 60.11,
+      "text": "ya mungkin ada teman-teman di sini yang dari Makassar boleh ini ya si boleh komen-komen ya ini ada siapa nih tomat Nah ni tip abset"
+    },
+    {
+      "start": 60.12,
+      "end": 71.71000000000001,
+      "text": "dikira kuliah ya selamat datang ya jadi seperti biasa kita kembali ke format awal kita bertiga dan di selasa malam jam .00 kita akan"
+    },
+    {
+      "start": 71.72,
+      "end": 80.71000000000001,
+      "text": "ngobrolin ee sesuatu yang berhubungan dengan web atau tidak seperti malam ini tidak hanya ee bisa digunakan di aplikasi web atau"
+    },
+    {
+      "start": 80.72,
+      "end": 89.95,
+      "text": "di proek-proek yang berhubungan dengan web tapi juga projek secara umum hubungan sama pemrograman apapun sama kode Heeh sama pemrograman apapun yang"
+    },
+    {
+      "start": 89.96000000000001,
+      "end": 102.429,
+      "text": "ee Biasanya kalau kita bikin kode itu kan kita sering e coba-coba Terus misalkan e bikin fitur baru terus habis itu Eh kayaknya yang"
+    },
+    {
+      "start": 102.439,
+      "end": 111.67,
+      "text": "kemarin e solusinya lebih bagus kita harus kembali lagi ke versi sebelumnya ada apa ya e ada beberapa orang ngerjain"
+    },
+    {
+      "start": 111.68,
+      "end": 124.83,
+      "text": "fitur yang berbeda juga e Apa harus harus sama harus bekerja sama he e kolaborasi nih biangnya Makassar"
+    },
+    {
+      "start": 124.84,
+      "end": 136.55,
+      "text": "nih Apa kabar Mi apaar lancar nih Bahasa Makassarnya ya sabar enggak yang yang keingat cuma kalau misalnya lagi di jalan macet terus"
+    },
+    {
+      "start": 136.56,
+      "end": 144.85,
+      "text": "mau disalip e Bilang apa bilang orang biar sabar tuh baik versi sopan versi nyolot udah tahu caranya itu doang yang"
+    },
+    {
+      "start": 144.86,
+      "end": 159.43,
+      "text": "[Tertawa] nempel banget ya Oh berarti berarti Eka next time-nya harus ke Medan oh kalau itu beda Itu enggak ada versi-versinya"
+    },
+    {
+      "start": 159.44,
+      "end": 172.949,
+      "text": "nyolot semua udah oh oke nyol nyolot banget oke ya jadi malam hari ini kita akan ngobrolin tentang e manajemen eh source"
+    },
+    {
+      "start": 172.959,
+      "end": 184.63,
+      "text": "code Ya gimana cara kita manage Gimana cara kita mengelola eh baik itu rilis versi ee mungkin bisa menampung isu atau"
+    },
+    {
+      "start": 184.64,
+      "end": 192.75,
+      "text": "baks yang apa yang muncul ee misalkan kita bikin Project open source ataupun Project di kantor gitu ya Eh Apakah"
+    },
+    {
+      "start": 192.76,
+      "end": 204.19,
+      "text": "pakai semacam ekosistem pendukung kolaborasinya ya jadi di luar kodenya sendiri apa yang memudahkan kita eh ngetack kode kita sama kolaborasi dengan"
+    },
+    {
+      "start": 204.2,
+      "end": 216.309,
+      "text": "Eh teammate teman setim biasanya biasanya kan kalau kalau kode kons itu kan biasanya kita Kirimnya via email kan ya Misalnya versi versi 1.0"
+    },
+    {
+      "start": 216.31900000000002,
+      "end": 231.91,
+      "text": "kita kirim he versi 1.0 terakhir terus nanti terakhir dua sumpah sumpah ini yang terakhir atau pleas jangan diganti"
+    },
+    {
+      "start": 231.92000000000002,
+      "end": 243.19,
+      "text": "lagi Iya Ya mungkin mungkin teman-teman yang yang apa yang sekarang mungkin udah udah udah Kay I sesuatu yang wajib"
+    },
+    {
+      "start": 243.2,
+      "end": 258.469,
+      "text": "menguasai gitu ya I Kayaknya begitu mulai begitu mulai buka komputer lihat tutorial langsung Git kalau sekarang R tapi kadang-kadang saya juga sering"
+    },
+    {
+      "start": 258.479,
+      "end": 271.15,
+      "text": "lupa bikin proek baru bikin ini ya diitudahudahahnyaah jadiengah fitur atudah jadi fituruingit kadangadang jug ser sih jadi"
+    },
+    {
+      "start": 271.16,
+      "end": 278.909,
+      "text": "di komnya pas sudah selesai semua itu enggak ngaruh ya tapi itu bisa nanti kita itu ada caranya kalau"
+    },
+    {
+      "start": 278.919,
+      "end": 288.11,
+      "text": "misalnya mas Li mau iyaanya yes yes ya jadi eh apa eh enggak usah eh khawatir karena bukan hanya Git yang kita akan"
+    },
+    {
+      "start": 288.12,
+      "end": 297.35,
+      "text": "bahas malam hari ini jadi kita akan bahas mungkin dari dari sejarahnya dulu ya eh di awal gimana Terus eh apa ada"
+    },
+    {
+      "start": 297.36,
+      "end": 313.469,
+      "text": "solusi-solusi yang belum distributed nah seperti SPN SPN ini udah distribut ya sudah udah distribah Mas ada yang desentral masing-masing"
+    },
+    {
+      "start": 313.479,
+      "end": 323.51,
+      "text": "punya Bisa apa gak perluron jadi kalau saya dulu pakai SPN juga tiap mulai kerja tuh harus Refresh duluron dulu"
+    },
+    {
+      "start": 323.52,
+      "end": 334.23,
+      "text": "semuanya habis itu baru mulai kerja ya kan Habis ituah selesai dikitis nanti lagi jadi kok enggak ngejamanin sama"
+    },
+    {
+      "start": 334.24,
+      "end": 344.79,
+      "text": "sekali sih pakai super Iya ini di sini teman-teman yang apa yang nonton mungkin bisa share eh pertama kali pakai version control apa"
+    },
+    {
+      "start": 344.8,
+      "end": 352.15,
+      "text": "apa ya coba ya pernah pakai version control apa aja ya Git udah pastilah ya kayaknya udah semua pakai Git gitu ya"
+    },
+    {
+      "start": 352.15999999999997,
+      "end": 362.51,
+      "text": "mungkin ada yang pakaial pernah pakai sour kol apa aja sebel selain Git nah selain Git ya mungkin ada yang pakai"
+    },
+    {
+      "start": 362.52,
+      "end": 374.67,
+      "text": "eh cvs bukan CSS cscurent version serv apa github beda lagi G Git sama github beda ya tolong"
+    },
+    {
+      "start": 374.68,
+      "end": 391.029,
+      "text": "dibedakan ya kalau kalau github itu hostingnya saja hosting untuk github lelayanannyanya jadi kalau proek kita ada diit kitaak mesti punya punya opsi"
+    },
+    {
+      "start": 391.039,
+      "end": 402.55,
+      "text": "untuk taruh di github bisa taruh di bitbet bisa taruh di Git sistemnya Git itu sistemnya terus ada banyak e perusahaan yang membuat"
+    },
+    {
+      "start": 402.56,
+      "end": 413.029,
+      "text": "layanan eh memudahkan kita pakai Git ya itu tadi apa nah nanti kita bahas ibaratnya kayak hosting lah ya jadi Project kita"
+    },
+    {
+      "start": 413.039,
+      "end": 424.629,
+      "text": "dihosting di satu tempat itulah github gitlab dan lain sebagai apa fitur tambahan yang ya springnya lah betul"
+    },
+    {
+      "start": 424.639,
+      "end": 433.749,
+      "text": "Eh si cvs SPN juga ada ada service atau ada hostingnya juga kan gitu Jadi masing-masing ada gitu apalagi yang"
+    },
+    {
+      "start": 433.759,
+      "end": 444.39,
+      "text": "sudah e terdistribusi yang sudah eh apa namanya yang sudah e untuk kolaborasi pasti ada nah ini udaki dia"
+    },
+    {
+      "start": 444.4,
+      "end": 452.869,
+      "text": "pakai svn svn lumayan banyak juga ya yang pakai ya Enggak banyak sih bar ada yang Pak ada yang pakai Git terus"
+    },
+    {
+      "start": 452.879,
+      "end": 463.629,
+      "text": "disink ke Dropbox bisa bisa Iya dulu saya juga melakukan karena takut I biar punya personal cop Iya kita tiba-tiba dikick"
+    },
+    {
+      "start": 463.639,
+      "end": 477.11,
+      "text": "dari organation tempat kerja g amit-amit Itu kan folder gitnya gede ya cuma penasaran sih apa sekilas nih e"
+    },
+    {
+      "start": 477.12,
+      "end": 488.23,
+      "text": "sistem-sistem lain sebelum naik banget kayak sekarang itu sistem-sistem lain kayak subvion dan lain-lain itu sewidpread e Git sekarang engak sih Eh"
+    },
+    {
+      "start": 488.24,
+      "end": 496.83,
+      "text": "Manya itu cuma di tempat kerja aja eh Manya di setting profesional atau kalau orang baru belajar juga eh apa banyak"
+    },
+    {
+      "start": 496.84,
+      "end": 505.909,
+      "text": "tutorial buat pakai sistem-sistem kayak gitu soalnya gue pribadi pas baru belajar kayak engak pernah sama sekali gak pernah nemuin tutorial tentang"
+    },
+    {
+      "start": 505.919,
+      "end": 516.029,
+      "text": "version control sebelum ke G ya dulu kayaknya cum disuruh pakai FTP aja FTV atau biasanya kan panel hosting apa eh"
+    },
+    {
+      "start": 516.039,
+      "end": 524.63,
+      "text": "software hosting segala umat tuh sejuta umat Tuh kan ada file editornya ya biasanya Cuma suruhet up FTV atau pakai"
+    },
+    {
+      "start": 524.64,
+      "end": 535.949,
+      "text": "file editor Udah gitu doang duluakorialnya salah satu apa ya salah satu pencetusal coding Adah github jadi yang"
+    },
+    {
+      "start": 535.9590000000001,
+      "end": 547.389,
+      "text": "mempopulerkan e sebuah proek ditaruh secara publik itu kayaknya dimulai baru diperkenalkan secara luas baru orang banyak kenal itu"
+    },
+    {
+      "start": 547.399,
+      "end": 554.389,
+      "text": "dari github walaupun sebelumnya ada ya E kalau gak salah Google Google code dulu ada Google code itu bisa pakai SPN kalau"
+    },
+    {
+      "start": 554.399,
+      "end": 563.47,
+      "text": "gak salah ya SPN apa merkurial pas udah meninggal juga itu pasti merurial Google itu merkurial Iya terus ada juga yang"
+    },
+    {
+      "start": 563.48,
+      "end": 571.509,
+      "text": "namanya source Project eh source Force source Force itu juga e itu buat manajemen juga ya Selain buat download"
+    },
+    {
+      "start": 571.519,
+      "end": 584.75,
+      "text": "ya Eh sour V itu kayak ya kayak giitub lah benar benar benar benar gitu benar benar tapi sering banget eh kalau ke S"
+    },
+    {
+      "start": 584.76,
+      "end": 592.31,
+      "text": "SP itu biasanya buat download download Iya karena tinggal nyedot aja kan ada lagi yang namanya code Project"
+    },
+    {
+      "start": 592.32,
+      "end": 598.67,
+      "text": "tapi sekarang code Project sudah jadi artikel doang yang saya lihat dulu ada kalau code Project itu sudah Ee bisa"
+    },
+    {
+      "start": 598.68,
+      "end": 606.31,
+      "text": "kayak ya kita ng-hosting open source produknya kita bisa di sana dulu sekarang enggak tahu lagi nih Saya"
+    },
+    {
+      "start": 606.32,
+      "end": 615.91,
+      "text": "sekarang Project Iya sudah banyak digilas oleh github dan teman-teman Oke kita mulai dari mana nih mulai dari mana nih"
+    },
+    {
+      "start": 615.92,
+      "end": 624.71,
+      "text": "bahasnya mulai dari linknya Ian lah soalnya yang lain yang lain enggak ada linknya ya history dulu history history"
+    },
+    {
+      "start": 624.72,
+      "end": 644.629,
+      "text": "mana dia Bentar ya ayo buka eh history Nah jadi awal-awal dari 1960 Iya zom in zoom in mulai dari tahun 160 tuh jadi IBM itu"
+    },
+    {
+      "start": 644.639,
+      "end": 655.389,
+      "text": "system Heeh mulai mulai bikin apa kayak bagaimana mengontrol version control di lokal mereka sih sebenarnya ya m belum"
+    },
+    {
+      "start": 655.399,
+      "end": 672.269,
+      "text": "ada internet kan ya belum merekaulis nya Eh diprinth yang Mes ABS kayak mesin"
+    },
+    {
+      "start": 672.279,
+      "end": 682.03,
+      "text": "absenak nah itu yang pertama kali sode control system itu sccs tuh SCM nah terus gu gak pernah pakai danak bukan"
+    },
+    {
+      "start": 682.04,
+      "end": 691.269,
+      "text": "gak pernah pakai dan gak tahu gimana ada linknya sih Coba buka linknya itu situsnya udah lama banget masih ada ya"
+    },
+    {
+      "start": 691.279,
+      "end": 703.03,
+      "text": "tops ee ada di itu tadi di udah hebat masih masih ada GR ini linknya ini jadi ya Open eh dia si iand aja sebenarnya"
+    },
+    {
+      "start": 703.04,
+      "end": 717.069,
+      "text": "Cuma bagaimana cara kerjanya sistemnya kayaknya ya pakai folder system jadi Sudah ada folder foldering system Bagaimana cara kerja Saya tak"
+    },
+    {
+      "start": 717.079,
+      "end": 725.949,
+      "text": "tahu kayaknya dari yang sekarang masih hiup kayaknya enggak ada yang tahu iya karena yang pakai dulu kan ya minimal"
+    },
+    {
+      "start": 725.959,
+      "end": 737.829,
+      "text": "pensiun lah semua yang dulu pakai ini Iya terus keluar RCS itu dari genu genu bikin RCS efficient control system Iya ini"
+    },
+    {
+      "start": 737.8389999999999,
+      "end": 750.11,
+      "text": "dari gu Project jadi karena ada Linux kan Linux itu kan sebenarnya eh kernelnya yang dibikinelnya nya dan"
+    },
+    {
+      "start": 750.12,
+      "end": 762.269,
+      "text": "di atasnya ada g g Linux kan nah eh dia bikin RCS jadi komand Line juga sebenarnya untuk untuk kontrol e source"
+    },
+    {
+      "start": 762.279,
+      "end": 774.389,
+      "text": "code dan ini sistemnya Sebenarnya dia bundling bukan bundling sih sebenarnya komen-komennya itu enggak cuma RCS tetapi ada Div patches patch ya Pat"
+    },
+    {
+      "start": 774.399,
+      "end": 782.829,
+      "text": "Sampai sekarang masih digunakan loh jug digit belakangnya itu ada patch ya itu kalau misalnya kita Git merge apa"
+    },
+    {
+      "start": 782.839,
+      "end": 793.829,
+      "text": "gitu dia masih pakai masih pakai komen itu patches jadi gen yang dipakai Div Terus apaagi merch eh"
+    },
+    {
+      "start": 793.839,
+      "end": 811.91,
+      "text": "reverse macam-macam Oh dari situ ya Berarti konsep-konsep kayak Iya lalu itu kan masih lokal lokal SCM ya maner ya masih lokal terus mulai ada"
+    },
+    {
+      "start": 811.92,
+      "end": 826.79,
+      "text": "kebutuhan makin besar kan jadi mulai ada dibuat ee distributed lahirlah yang namanya cvn eh tahun 86 Eh cvs cvs nah cvs tahun '86"
+    },
+    {
+      "start": 826.8,
+      "end": 839.269,
+      "text": "itu cvs e dan kayaknya cvs mulai banyak yang pakai sampai 2000 ada svn nanti ada juga ee merkur"
+    },
+    {
+      "start": 839.279,
+      "end": 849.03,
+      "text": "Ya ada merkurial juga itu kalau merkurial itu pakai HG ya karena hidr girum hidragum itu merkuri merkur I ada"
+    },
+    {
+      "start": 849.04,
+      "end": 861.829,
+      "text": "yang pahamak kenapa dia HG ya kan di tabel elemen HG adalah merkurri jadi merkurial nah HG itu jadi cvs"
+    },
+    {
+      "start": 861.8389999999999,
+      "end": 879.389,
+      "text": "merkurial HG Sor cvs subvion merkurial itu sudah distributed S scee management system Ar makudnya nah gimana ada kalau saya gak tahu cara"
+    },
+    {
+      "start": 879.399,
+      "end": 888.55,
+      "text": "kerjanya merkurial ya karena ini masih fokusnya cvn sama subvion jadi nanti daripada saya Sal ngomong kalau svn itu"
+    },
+    {
+      "start": 888.56,
+      "end": 900.11,
+      "text": "sentraliz jadi ada server jadi harus kalau svn itu harus ada server svn cvs harus ada servernya ada servnya dan e"
+    },
+    {
+      "start": 900.12,
+      "end": 909.23,
+      "text": "kodenya kita ituh sebenarnya versioning dan segala macamnya ada di server yang di lokal kita hanya bisa sedot dan hanya"
+    },
+    {
+      "start": 909.24,
+      "end": 916.949,
+      "text": "bisa pakai di lokal kalau sudah selesai kita hanya bisa kirim jadi e sebenarnya kita enggak punya lokal"
+    },
+    {
+      "start": 916.959,
+      "end": 927.11,
+      "text": "copi sebenarnya Tapi saya bagaimana cara dia ngaturnya enggak tahu e beda sama berarti itu kalau dihosting di sistemnya dia ya kalau kita perlu"
+    },
+    {
+      "start": 927.12,
+      "end": 937.309,
+      "text": "baru kita nyedot terus kita kayak ng lagi M Jadi kalau sudah selesai kita kan ee Kalau di subvion apa ya komit-nya ya"
+    },
+    {
+      "start": 937.319,
+      "end": 947.79,
+      "text": "Bentar gua lupa svn comit itu kalau enggak salah namanya komit jugaah ee Iya svn itu ada ada ada bahasanya"
+    },
+    {
+      "start": 947.8,
+      "end": 956.59,
+      "text": "komit Saya kurang tahu komen lainnya kalau di svn karena saya dulu sukanya pakai tortoise tortoise i jadi enggak"
+    },
+    {
+      "start": 956.6,
+      "end": 971.91,
+      "text": "perlu enggak perlu komen LINE kan iyaoldernya terus kan jadi enggak ini dia svn adalah yang source code manajemen yang pertama kali saya"
+    },
+    {
+      "start": 971.92,
+      "end": 986.91,
+      "text": "pakai zaman itu terus kemudian eh si eh Oh masih ada satu lagi namanya Beat keeper itu jarang ada yang tahu"
+    },
+    {
+      "start": 986.92,
+      "end": 1002.03,
+      "text": "Kayaknya Beat keeper Iya belum belum pernah dengar Iya juga ituer Oh ini kayak kayak gitub"
+    },
+    {
+      "start": 1002.04,
+      "end": 1019.069,
+      "text": "gini ya I ini sebenarnya si e si Lin yang buat yang buat Git itu Awalnya si Lin ya linor ya e"
+    },
+    {
+      "start": 1019.079,
+      "end": 1031.549,
+      "text": "jadi dia ee ada videonya nanti silakan tonton dia tuh sangat tidak suka dengan cvs dan sangat tidak suka dengan"
+    },
+    {
+      "start": 1031.559,
+      "end": 1044.949,
+      "text": "subversion jadi daripada daripada dia tidak daripada dia daripada dia dia sampai mengatakan kalau ee siapapun yang suka pakai cvs harus"
+    },
+    {
+      "start": 1044.959,
+      "end": 1059.63,
+      "text": "masuk mental institution sampai begitunya [Tertawa] Nah jadi em dan kalau misalnya dia harus milih katanya bla bla bla dia eh apa dia"
+    },
+    {
+      "start": 1059.64,
+      "end": 1068.07,
+      "text": "terinspirasi sama Beat keeper eh cara distributnya meskipun Git tidak pakai apapun dari Beat keepeper ya jadi Git"
+    },
+    {
+      "start": 1068.08,
+      "end": 1078.35,
+      "text": "wau dia buat itu adalah murni cara eh dari nol dia eh dia dia kayak from scatch Apun yang e"
+    },
+    {
+      "start": 1078.36,
+      "end": 1086.95,
+      "text": "e apa secara konsep kayak dia punya konsep sendiri dia k ah yang lain jelek semua jelek visi gu doang yang paling Oke"
+    },
+    {
+      "start": 1086.96,
+      "end": 1094.35,
+      "text": "yaudah Cuma maksudnya dia kayak gitu dia mempertanggung jawabkan dia beneran bikin Iya betul meskipun dia cuma bikin"
+    },
+    {
+      "start": 1094.36,
+      "end": 1111.87,
+      "text": "doang awalnya ya selanjutnya diterusin sama gitu kalau gak salah nah terus git itu punya satu Kenapa dia e kenapa dia bisa berbeda"
+    },
+    {
+      "start": 1111.88,
+      "end": 1123.39,
+      "text": "sendiri itu local and distributed SCM jadi dia bisa berdiri sendiri dia enggak butuh server ya Git itu tidak butuh server"
+    },
+    {
+      "start": 1123.4,
+      "end": 1136.789,
+      "text": "e dia dia e sebenarnya isi perut Git itu cuma file sistem enggak ada database databasean di situ dan itu cuma beneran murni data e"
+    },
+    {
+      "start": 1136.799,
+      "end": 1148.75,
+      "text": "murni file saja file isinya file itu file yang mana isinya adalah node graf yang ada pointer ke mana-mana t file aja kalau"
+    },
+    {
+      "start": 1148.76,
+      "end": 1156.75,
+      "text": "teman-teman ada yang belum pernah ada yang belum lihat Coba di aja do file ya buka aja do itu di semua folder kita"
+    },
+    {
+      "start": 1156.76,
+      "end": 1165.669,
+      "text": "yang folder repo itu kan ada dotgnya terus di root juga ada ya yang buat apa yang global"
+    },
+    {
+      "start": 1165.679,
+      "end": 1183.83,
+      "text": "di tetapi di ee ada nah E itu biasa J bedanya antara Git dan yang subvion"
+    },
+    {
+      "start": 1183.84,
+      "end": 1196.35,
+      "text": "atau saya gak tahu merk nanti salah ngomong lagi Git dan E subvion atau cvs dia bisa berdiri sendiri Mak"
+    },
+    {
+      "start": 1196.36,
+      "end": 1209.35,
+      "text": "ininyabentral jadi siapun yang ngekone eh siapun yang ngeklone e kode kita ya udah itu adalah murni semua copi ada di"
+    },
+    {
+      "start": 1209.36,
+      "end": 1223.83,
+      "text": "situ jadi bulat-bulat gitu copi bulat-bulat J benar-benar distributed nah dan dia karena enggak butuh yang namanya database Jak pakai Apun jadi"
+    },
+    {
+      "start": 1223.84,
+      "end": 1231.95,
+      "text": "benar-benar hanya file sistem makanya dia bisa cepat banget dan bisa e kompatib ke banyak ke banyak operating"
+    },
+    {
+      "start": 1231.96,
+      "end": 1243.19,
+      "text": "system kan karena cuma connectnya ke operating system udah lahirlah Setelah dari git ini barulah lahir yang version-vion e"
+    },
+    {
+      "start": 1243.2,
+      "end": 1258.71,
+      "text": "service yang kayak github bitbet e gitlab apagi gitlab kalau mau private itu kan Itu online ya ya atau kalau"
+    },
+    {
+      "start": 1258.72,
+      "end": 1264.99,
+      "text": "enggak mau publ berbayar ya kalau mau private dia berbayar Kalau mau yang open source beneran yang bisa kalian hosting"
+    },
+    {
+      "start": 1265,
+      "end": 1275.51,
+      "text": "sendiri itu Git laab Git Git Gab juga ada ada hosting service-nya ada Open source-nya bisa di dimanage sendiri bisa"
+    },
+    {
+      "start": 1275.52,
+      "end": 1282.269,
+      "text": "dimanage sama si gitabnya I ada yang murni Hanya gity itu yang murni open source yang kalian hosting sendiri itu"
+    },
+    {
+      "start": 1282.279,
+      "end": 1295.31,
+      "text": "namanya Git Iya g apa coba bukan deh Git ya teh teh Git Oh Teh Git oh g"
+    },
+    {
+      "start": 1295.32,
+      "end": 1306.71,
+      "text": "g tuh saya pakai ini di local server home saya untuk hosting yang gak bisa keluar dari rumah ini ada GT Cloud ya"
+    },
+    {
+      "start": 1306.72,
+      "end": 1318.11,
+      "text": "biasa kan open source pertama dia bikin keren dulu habis itu bikinnya cari makan Iya kalau enggak Siapa yang bayarin berarti sama kayak"
+    },
+    {
+      "start": 1318.12,
+      "end": 1326.269,
+      "text": "gitab juga mirip-mirip Iya cuma kayaknya ini dia gak ada ininya kan gak ada yang public source Coba"
+    },
+    {
+      "start": 1326.279,
+      "end": 1338.71,
+      "text": "lihat atau public Beneran dia hanya khusus untuk enterprise company yang mau pakai internali aja Iya beda target"
+    },
+    {
+      "start": 1338.72,
+      "end": 1350.029,
+      "text": "Nah apaagi ya Tapi semua serv itu kayak cuma mengemas lah kayak mengemas sistem tadi kan jadi cara cara ngomit itu kan"
+    },
+    {
+      "start": 1350.039,
+      "end": 1362.11,
+      "text": "tetap sama ya Iya itu sebenarnya terinspirasi dari zaman dulu yang namanya patches jadi kalau misalnya kita ee sampai sekarang ya sampai sekarang"
+    },
+    {
+      "start": 1362.12,
+      "end": 1380.07,
+      "text": "itu si e apa namanya si projectnya WordPress itu masih pakai subvion Nah kalau saya mau kirim"
+    },
+    {
+      "start": 1380.08,
+      "end": 1388.23,
+      "text": "Sampai sekarang masih pakai meskipun dia ada ada mirrornya sudah ke github ya tetapi source code utamanya WordPress"
+    },
+    {
+      "start": 1388.24,
+      "end": 1403.43,
+      "text": "itu masih di subversion ininya eh yang apa bahasanya yang originalnya nah e kalau kita Kalau sekarang sih sudah beda"
+    },
+    {
+      "start": 1403.44,
+      "end": 1411.31,
+      "text": "flow-nya sekarangsekarang bukanya di github pr-nya jadi nanti sudah ada automation nya jadi kayak Kalau PR yang sudah sudahudah diapprove nanti dibikin"
+    },
+    {
+      "start": 1411.32,
+      "end": 1420.669,
+      "text": "automationnya terus jadi patch dikirim ke e tiket jadi kalau di zaman sebelum dia connect ada flowfow ke github kalau"
+    },
+    {
+      "start": 1420.679,
+      "end": 1429.83,
+      "text": "saya mau submit submit kode ke WordPress Core itu saya benerin dulu disionnya sudah jadi semuanya di-nya itu saya"
+    },
+    {
+      "start": 1429.84,
+      "end": 1439.31,
+      "text": "export jadi patch jadi jadi patch file ya jadi satu file doang jadi P filenya itulah yang saya kirim ke ke tiket nanti"
+    },
+    {
+      "start": 1439.32,
+      "end": 1450.23,
+      "text": "saya attach jadi tiket nanti yang komitternya yang download patch-nya itu komit ke sionnya Nah itu caranya masih Sampai"
+    },
+    {
+      "start": 1450.24,
+      "end": 1462.59,
+      "text": "sekarang masih kayak gitu juga dia pakai custom pipeline yang ribet juga ya sebetulnya Iya Bet zamannya si Linus waktu dia eh"
+    },
+    {
+      "start": 1462.6,
+      "end": 1470.669,
+      "text": "knernel Jadi sebenarnya knernelnya itu hanya ada di Lal lookal file syistemnya dia ya kan Di mungkin di laptopnya dia"
+    },
+    {
+      "start": 1470.679,
+      "end": 1476.87,
+      "text": "atau di Hard disknya dia Jadi kalau dia mau menerima page itu dari email kan mereka punya email apa namanya email"
+    },
+    {
+      "start": 1476.88,
+      "end": 1488.389,
+      "text": "exchange kayak grup gitu ya Maing list kan Iya mailing listnya itu kan berkirim di berkirim di file sor kirim patch"
+    },
+    {
+      "start": 1488.399,
+      "end": 1501.43,
+      "text": "filya jadi patch filenya sama tarb yang di tarb I nanti dia sedotbnya dia running test nya di lokal dia patch e"
+    },
+    {
+      "start": 1501.44,
+      "end": 1510.669,
+      "text": "sour cod-nya dia terus dia kirim lagi ke Maing list tarb updateannya dia mernya has mernya yo jadi begitulah cara mereka"
+    },
+    {
+      "start": 1510.679,
+      "end": 1522.07,
+      "text": "mengurus e Kernel zaman itu dan karena capek ya Mulai banyak timnya kalau masih 10 orang yang kribute gampang kalau sudah ratusan"
+    },
+    {
+      "start": 1522.08,
+      "end": 1536.63,
+      "text": "yang contribute atau ribuan kalauelux ya ribuan that's why dia bikin g Karena dia sudah megap ng itu doang belum lagi Yang"
+    },
+    {
+      "start": 1536.64,
+      "end": 1549.51,
+      "text": "namanyali Kan kalau biasa itu bisa juga kan Nah kalau kan pusing dia I itu ya jadi si apa Git ini memang dibangun"
+    },
+    {
+      "start": 1549.52,
+      "end": 1566.43,
+      "text": "awalnyaus untuk [Tepuk tangan] menanganienganguxengang Linux Ya iya i karena keistimewaannya adalah bisa punya local file copy completely distributed"
+    },
+    {
+      "start": 1566.44,
+      "end": 1577.63,
+      "text": "someone else bisa punya Kernel source code dan contribute ke dia punya e dia maksudnya si Linus punya dan"
+    },
+    {
+      "start": 1577.64,
+      "end": 1588.31,
+      "text": "eh bisa forking sama satu lagi bisa itu loh e merge strateginya dia yang keren merging strateginya dia yang keren di"
+    },
+    {
+      "start": 1588.32,
+      "end": 1604.87,
+      "text": "situlah Kenapa Git Excellence merging strategy sama distributed copy itu konsep utamanya Sayangnya kita belum ada"
+    },
+    {
+      "start": 1604.88,
+      "end": 1615.149,
+      "text": "pengalaman menggunakan eh merkurial dan lain-lain ya perah Pak kalau dulu Google Project kan pakai merkurial Gua pernah pakai"
+    },
+    {
+      "start": 1615.159,
+      "end": 1627.43,
+      "text": "merkurial sih HG Iya maksudnya kita bandingin eh bandingin dengan Git gitu coba aja Bu ke dokumentasinya Mercurial apa kayak semacam tutorialnya"
+    },
+    {
+      "start": 1627.44,
+      "end": 1637.87,
+      "text": "Mercurial eh bukan maksudnya lebih ke ini kalau cara penggunaannya e komit dan lain-lain kayaknya itu hanya bisa dirasakan kalau"
+    },
+    {
+      "start": 1637.88,
+      "end": 1644.63,
+      "text": "kita udah ee pakai itu di Project gitu Kalau cuman lihat tutorialnya atau ininya sih kayaknya enggak Berasa ya"
+    },
+    {
+      "start": 1644.64,
+      "end": 1660.029,
+      "text": "tapi bolehlah kita coba ya Iya [Tertawa] Dar gak tah sama itu cuma mungk kalau yangah perah pakat bisa kayak bagusnya di mana"
+    },
+    {
+      "start": 1660.039,
+      "end": 1676.509,
+      "text": "Kelebihannya apa cocoknya dipakai kalau apam eierter dianyaisa"
+    },
+    {
+      "start": 1676.519,
+      "end": 1690.87,
+      "text": "di ged ya yang gede bisa paket ia iya gak bisa guide misalkan tutorial kalau ngihat sini sih rasanya"
+    },
+    {
+      "start": 1690.88,
+      "end": 1706.43,
+      "text": "sama-sama aja mana dia tutorialnya kalau baca ininya apa Gua barusan search di Google different speama"
+    },
+    {
+      "start": 1706.44,
+      "end": 1721.99,
+      "text": "HG Oke kalau merkurial enggak boleh enggak bisa rubah change history cuman itu iya change history itu"
+    },
+    {
+      "start": 1722,
+      "end": 1731.789,
+      "text": "maksudnya kita balik ke komit lama terus kita bikin apa kayak branch atau apalah komit Baru dari situ atau"
+    },
+    {
+      "start": 1731.799,
+      "end": 1747.149,
+      "text": "gimana Eh ini deh bisa kita baca sama-sama ini sih dari"
+    },
+    {
+      "start": 1747.159,
+      "end": 1766.31,
+      "text": "inianyaanyaat tuh ada di Git itu lebih powerful merkurial lebih"
+    },
+    {
+      "start": 1766.32,
+      "end": 1778.909,
+      "text": "simplerler power biasanya by Banyak ininya banyak kita B banyak fiturnya dan g Itu sebenarnya karena kita punya Lal copi kita terserah"
+    },
+    {
+      "start": 1778.919,
+      "end": 1796.31,
+      "text": "deh mau ngapain samaalop Kita tap sama kan Mer juga gitu kan merkri lebih terbatas lebih banyak di lebih"
+    },
+    {
+      "start": 1796.32,
+      "end": 1808.35,
+      "text": "op terus dibalikin ke Central server lagi Oh enggak juga sama cuma coba turun turun turun dikit itu kan what have in common Ini"
+    },
+    {
+      "start": 1808.36,
+      "end": 1818.87,
+      "text": "sama ini sama hal yang sama ini yang berbeda ability Git tuh lebih kompleks dengan banyak komen Iya Fiturnya banyak oh"
+    },
+    {
+      "start": 1818.88,
+      "end": 1826.789,
+      "text": "Justru lebih lebih ribet Git ya Iya lebih ribet jadinya kalau untuk ee apa ee pengguna yang baru menggunakan"
+    },
+    {
+      "start": 1826.799,
+      "end": 1843.11,
+      "text": "mungkin iyaar curnya lebih tinggi berarti ya betul betul is better for exper branching branching means Working"
+    },
+    {
+      "start": 1843.12,
+      "end": 1856.35,
+      "text": "with fil source code that to modif branching model is more effective Mer branching model confusion brand saja kadang bingung"
+    },
+    {
+      "start": 1856.36,
+      "end": 1875.269,
+      "text": "gimana kalau Iya fundament and meril vcs they just designently and require different level of expertise has become industrial standard Mer that easy"
+    },
+    {
+      "start": 1875.279,
+      "end": 1893.269,
+      "text": "to learn jadi eh kesimpulannya A itu mix aset timnya jumlah timnya besar di seluruh dunia atau kebutuhan keamanan"
+    },
+    {
+      "start": 1893.279,
+      "end": 1902.269,
+      "text": "yang tetap Yes nah ini pertanyaan nih buat yang di sini sama yang di online yang kalau pakai Git itu"
+    },
+    {
+      "start": 1902.279,
+      "end": 1914.59,
+      "text": "pakai pakai UI atau pakai comand Line enggak comand line com l Oh pada comand Line semua sini ya sama teman-teman pakai ini"
+    },
+    {
+      "start": 1914.6,
+      "end": 1924.629,
+      "text": "enggak pakai UI enggak pakai github desktop atau pakai yang divual sebah Ki jangan-jangan pada e Enggak tahu ada apa github ada"
+    },
+    {
+      "start": 1924.639,
+      "end": 1932.75,
+      "text": "aplikasinya ada di handone juga ada handphone juga ada banyak yang belum atau di langsung di vs Code"
+    },
+    {
+      "start": 1932.76,
+      "end": 1939.83,
+      "text": "mungkin di vs Code karena udah ada kan Oh kalau di vs Code extension-nya pakai itu enak sih Kan udah eh udah langsung"
+    },
+    {
+      "start": 1939.84,
+      "end": 1948.99,
+      "text": "ya udah ada Heeh di sidebar i i enak nge-adnya kayak visual kita nge-ad satu per satu tuh foldernya Terus kalau ee"
+    },
+    {
+      "start": 1949,
+      "end": 1954.95,
+      "text": "kalau misalnya ada yang kita lupa Ini apaan sih bisa langsung dibuka kan langsung view-nya tampilannya jadi Div"
+    },
+    {
+      "start": 1954.96,
+      "end": 1967.23,
+      "text": "kan di antara apa eh file baru sama file yang eh terakhir diit tuh kalau Alif pakai comand Line kalau"
+    },
+    {
+      "start": 1967.24,
+      "end": 1977.99,
+      "text": "daily spirit pakai sidebar vs Code Damar juga pakai sideb vs Code enggak pakai github desktop lebih C Flex Bro Nah itu"
+    },
+    {
+      "start": 1978,
+      "end": 1992.19,
+      "text": "Bro ada temannya namanya greit Bro lagi engak datang kalau belajar Git diimana sih ehajar itu tadi GSM sih Nah ada beberapa"
+    },
+    {
+      "start": 1992.2,
+      "end": 2002.71,
+      "text": "tuh linknya Coba lihat deh di Ada Ada Git tutor kan iya iya iya ada Git tutor pernah perahm tadi Bentar enggak"
+    },
+    {
+      "start": 2002.72,
+      "end": 2015.509,
+      "text": "enggak tahu enggak enggak tahu [Musik] gimana ya Aku gua lupa guudu belajar di tutor tapi di mana Iya dulu ada"
+    },
+    {
+      "start": 2015.519,
+      "end": 2028.669,
+      "text": "interaktif eh interaktif tutorialnya gitu desktopnya ada tapi enggak pakai biasanya pernah lihat enggak pernah lihat sih Git and github learning"
+    },
+    {
+      "start": 2028.679,
+      "end": 2044.23,
+      "text": "resource du sih pertama kali cuma baca apa dokumentasinya di apa git-scm itu git-scm.com eh dokumentasi Ah ada sih mungkin iya mungkin saking e"
+    },
+    {
+      "start": 2044.24,
+      "end": 2054.27,
+      "text": "saking kompleksnya si Git tadi seperti yang di eh utarakan oleh artikel yang versus merkurial tadi Eh jadi banyak"
+    },
+    {
+      "start": 2054.28,
+      "end": 2065.55,
+      "text": "cabang-cabang atau banyak flow untuk menggunakan Git ada github flow kalau dulu ada gitfow gitfow dulu gua pakai itu"
+    },
+    {
+      "start": 2065.56,
+      "end": 2075.149,
+      "text": "gitfow kayaknya pertama ee pas pertama banget belajar disuruh diharus-harusin banget belajar Git low ya tapi ternyata kayaknya yang bikin juga bilang ah udah"
+    },
+    {
+      "start": 2075.159,
+      "end": 2084.71,
+      "text": "sampai itu maksudnya itu memenuhi kebutuhan dulu kondisi dulu pas dia Mencetuskan itulah Terus lama-lama Seiring berjalannya waktu udah kayak 10"
+    },
+    {
+      "start": 2084.72,
+      "end": 2094.669,
+      "text": "tahun e sekian tahun kemudian kayak Oh ya Ternyata realitanya itu udah bukan flow yang ideal I Siapa yang"
+    },
+    {
+      "start": 2094.679,
+      "end": 2104.109,
+      "text": "masow iya ya Siapa yang di sini masih pakai gitflow eh Tolong baca lagi artikelnya karena yang bikin sudah"
+    },
+    {
+      "start": 2104.119,
+      "end": 2113.75,
+      "text": "mengupdate di Mares 2020 bahwa model yang dia bikin E gitflow itu e berlaku sudah 10 tahun yang lalu dan tidak eh"
+    },
+    {
+      "start": 2113.76,
+      "end": 2125.349,
+      "text": "disarankan digunakan lagi Iya karena branchingnya jadi ribet jadi ribet nah yang simpel kalau sekarang lagi ngetren itu Trun base kan"
+    },
+    {
+      "start": 2125.359,
+      "end": 2136.27,
+      "text": "I semuanya semuanya at semuanya e jadi hanya dimanage yang main doang ya kan He selebihnya nanti kalau mau bikin fitur"
+    },
+    {
+      "start": 2136.28,
+      "end": 2144.27,
+      "text": "ya bikin branching sat gabung lagi ke main jadi gak ada Def gak ada main Cum ada satu main aja yang menjadi sumber"
+    },
+    {
+      "start": 2144.28,
+      "end": 2155.79,
+      "text": "apa E sumber utama Jadi gak perlu kitanya kita S dulu dengan main gitu kan dan lainain cuma itu berarti"
+    },
+    {
+      "start": 2155.8,
+      "end": 2169.19,
+      "text": "eelopernya menit sekali kudu kali ya enggak juga kan bisa Dim atau biarak kebanyakan Biasanya rebase sih biasanya"
+    },
+    {
+      "start": 2169.2,
+      "end": 2182.51,
+      "text": "rebase Jadi sebelum sebelum dimge itu dibase dulu benar enggak sih di ya di merge dulu di di merge ke di lokal kan di di"
+    },
+    {
+      "start": 2182.52,
+      "end": 2190.349,
+      "text": "lokal dulu Iya J terangnya diupdate dulu dari dari sor lal Update dulu dari terang terus di Ya merch itu kan ada"
+    },
+    {
+      "start": 2190.359,
+      "end": 2198.63,
+      "text": "fastw sama ada rebase jadi t Yes ada rebase Heeh jadi gitu eh ya teman-teman bisa baca sendiri cari"
+    },
+    {
+      "start": 2198.64,
+      "end": 2211.19,
+      "text": "aja trank base eh development kalau dulu kaken Iya kalau dulu ini menjadi salah satu sumber ya kalau sekarang github"
+    },
+    {
+      "start": 2211.2,
+      "end": 2222.75,
+      "text": "Eh 2010 artikelnya terus dia update note from 2000 iya iya kalau gow itu lebih ke pakai PR ya request ya Modelnya po"
+    },
+    {
+      "start": 2222.76,
+      "end": 2234.43,
+      "text": "request heeh heeh jadi eh manajemennya ada di gitub gitlab gitlab merch re merch requ re request bahasanyaamp"
+    },
+    {
+      "start": 2234.44,
+      "end": 2245.109,
+      "text": "full request ya mirip-miriplah 11 12 jadi trennya ke E makin ke sini service gitu apa mengedepankan unsur sosialnya"
+    },
+    {
+      "start": 2245.119,
+      "end": 2259.109,
+      "text": "ya kayak si apa itu kan PR itu kan ada Unya kan maksudnya Ada apa sebelumnya ada isu Isya ada id-nya"
+    },
+    {
+      "start": 2259.119,
+      "end": 2275.589,
+      "text": "kita dilanju Nom IDnya is itu kan itu kayak apa ya itu UI banget ya u"
+    },
+    {
+      "start": 2275.599,
+      "end": 2290.79,
+      "text": "danemudahkan ini pernah ngkomit dan ngpush Photoshop file yang 100an Mega saya per pernah gak sengaja terus karena lama"
+    },
+    {
+      "start": 2290.8,
+      "end": 2302.43,
+      "text": "banget lama banget jadi Sar salah pernah gak sengaja ngomit juga untung apa Project pribadi ya Langsung diik"
+    },
+    {
+      "start": 2302.44,
+      "end": 2313.589,
+      "text": "langsung Iya ini ada pertanyaan bagus nih dari yang dari Cloud provider kayak Azure Google Cloud atau aws peruntukannya gimana peruntukannya"
+    },
+    {
+      "start": 2313.599,
+      "end": 2323.19,
+      "text": "untuk integrasi mereka biasanya pakai Git juga tapi lebih terintegrasi integrasinya lebih gampang karena- itu lebih banyak yang bisa"
+    },
+    {
+      "start": 2323.2,
+      "end": 2337.95,
+      "text": "diintegrasikan Sara kalau punend jug ada sendiri betul kalau github kan mungkin terbatas Yaya sebb keb yang ini dia bisa langsung kect"
+    },
+    {
+      "start": 2337.96,
+      "end": 2344.47,
+      "text": "enggak perlu mungkin ee pakai web Hook juga di belakang layar saya enggak tahu tapi kita bisa pilih kalau ada yang"
+    },
+    {
+      "start": 2344.48,
+      "end": 2355.55,
+      "text": "dipush ya kayak inilah ya kayak kita bikin peline sendiri tapi ini lebih otoma lebih otomatis gitu Jadi itu peruntukannya ke sana sih"
+    },
+    {
+      "start": 2355.56,
+      "end": 2362.309,
+      "text": "bukan untuk e gaya-gayaan ya dalam tanda kutip ya kalau github kan buat gaya-gayaan kan kalau reponya publ tapi"
+    },
+    {
+      "start": 2362.319,
+      "end": 2371.23,
+      "text": "kalau reponya private juga enggak bisa digaya-gayain enggak kelihatan iya terus kalau komitnya ke apa private repo dari"
+    },
+    {
+      "start": 2371.24,
+      "end": 2380.19,
+      "text": "private dari organization tuh enggak masuk hijau-hijau kita lagi masuk bisa dietting ada settingannya B bisa B bisa"
+    },
+    {
+      "start": 2380.2,
+      "end": 2397.71,
+      "text": "cumanak kelihatan gak kelihatanel Cum jojonya aja Iya Iya yang gua suka itu eh pernah push"
+    },
+    {
+      "start": 2397.72,
+      "end": 2408.87,
+      "text": "Indah Siap Mas Flex Bro semua juga kayaknya pernah ya senas E yang apa namanya tadi yang engak suka"
+    },
+    {
+      "start": 2408.88,
+      "end": 2414.79,
+      "text": "itu si siapa namanya heroku tuh ya begitu mulai aja dia udah langsung ngasih Git reponya dia kan kayak heroku"
+    },
+    {
+      "start": 2414.8,
+      "end": 2422.51,
+      "text": "Init aja langsung kasih gitnya kita komit dia langsung deploy otomatis itu enak banget developer experience Her iya"
+    },
+    {
+      "start": 2422.52,
+      "end": 2433.39,
+      "text": "itu continuous delivery-nya ya bagus ya Iya sayang sekali ada pertanyaan dari Mas Danar Mas dan Damar ada alasan"
+    },
+    {
+      "start": 2433.4,
+      "end": 2446.069,
+      "text": "enggak ada enggak enggak Pak coba diklik dulu lambat diklik ada alasan enggak alasan untuk enggak pakai gui kan tadi kita"
+    },
+    {
+      "start": 2446.079,
+      "end": 2460.069,
+      "text": "bilang enggak pakai gui Iya iya alasanbih C biar cepat ya dan plus gini cepat perah saya kalau"
+    },
+    {
+      "start": 2460.079,
+      "end": 2468.589,
+      "text": "pakai enggak salah engak ada hal baru yang perlu dipelajari oh bukan enggak salah komitak salah komit Iya jadi saya"
+    },
+    {
+      "start": 2468.599,
+      "end": 2476.71,
+      "text": "tuh enggak pernah pakai Git comit Min am gititnya satu-satu Git add-nya satu-satu Iya bahkan Git comit minp"
+    },
+    {
+      "start": 2476.72,
+      "end": 2485.15,
+      "text": "pernah pakai enggak Git comit minp Apa itu P jadi Pak Nah kita demo aja ya cari Pik bukan"
+    },
+    {
+      "start": 2485.16,
+      "end": 2493.95,
+      "text": "sor bukan cari PIK tetapi pernah enggak kayak mas Riza bilang tadi kalau misalnya ng-develop feature tapi lupa"
+    },
+    {
+      "start": 2493.96,
+      "end": 2503.71,
+      "text": "ngekomit jadi sudah jadi feature-nya tapi belum dikomit-komit H pernah kan Gimana tuh pernah pernah terus Masa mau"
+    },
+    {
+      "start": 2503.72,
+      "end": 2515.55,
+      "text": "dikomit semua file itu juga susah ngetraceb-nya ya kan i jadi kayak lebih komit itu harusnya kecil-kecil dan lebih"
+    },
+    {
+      "start": 2515.56,
+      "end": 2523.589,
+      "text": "unit ya kalau memang rubahnya a b c saja dan satu dikumpulin ke satu fitur yang berubah aja gitu ya Jangan semua yang"
+    },
+    {
+      "start": 2523.599,
+      "end": 2537.19,
+      "text": "beda-beda diubah Nah kalau itu kita bisa ngepik Mana yang mau di di ini mana yang mau diubah"
+    },
+    {
+      "start": 2537.2,
+      "end": 2556.589,
+      "text": "iyau kita coba demo gak boleh bo Coba tes aja ya t screen bisa lihat"
+    },
+    {
+      "start": 2556.599,
+      "end": 2574.109,
+      "text": "ya kita pindahin dulu ke sini manana sih dia enggak mau ditutuplah oke terus"
+    },
+    {
+      "start": 2574.119,
+      "end": 2596.79,
+      "text": "Eh ini aja L nah tentunya Git Init dulu ya terus t file [Musik] 1t ya kan Terus"
+    },
+    {
+      "start": 2596.8,
+      "end": 2612.03,
+      "text": "kita apa ya hell from file Oke File"
+    },
+    {
+      "start": 2612.04,
+      "end": 2627.62,
+      "text": "2 Hello World from file 2 ya terus kita status brandnya apa brnya main"
+    },
+    {
+      "start": 2627.63,
+      "end": 2638.589,
+      "text": "[Tepuk tangan] ya kosong ya Jadi kita pertama kali kalau misalnya kalau mauit satu fileit eh salah Git add titik Ya kalau"
+    },
+    {
+      "start": 2638.599,
+      "end": 2649.589,
+      "text": "mau semua atau Min all tapi ini menurut saya agak terlarang Kalau mau jangan G admin itulah terjadi kenapa"
+    },
+    {
+      "start": 2649.599,
+      "end": 2659.589,
+      "text": "Photoshop bisa ke komit i jadi biasanya fil-enya ya G kalau ini kan ini kan dia baru diage change ya kalau belum Belum"
+    },
+    {
+      "start": 2659.599,
+      "end": 2674.63,
+      "text": "dicomit baru bisa juga stage file jadi Alah kok kan reset bukan iya"
+    },
+    {
+      "start": 2674.64,
+      "end": 2694.95,
+      "text": "reset itu exak banget yang di reset ya file 1 ya kan [Musik]"
+    },
+    {
+      "start": 2694.96,
+      "end": 2711.069,
+      "text": "terusit Oke kita add File 2 dulu deh gitu ya biar nanti bisa barenganit add file Oke sekarang kita sudah di BL terus kita"
+    },
+    {
+      "start": 2711.079,
+      "end": 2726.99,
+      "text": "kemudian ubah ini gitf File 2 modify in File 2 terus kemudian e"
+    },
+    {
+      "start": 2727,
+      "end": 2742.109,
+      "text": "kita rubah lagi Kita rubah lagi ada tambahan terakhir nih revisi eah gitu yaisi tetapi sebenarnya"
+    },
+    {
+      "start": 2742.119,
+      "end": 2753.03,
+      "text": "Eh Yang Yang line ini sama Line yang ini itu beda fitur bed harusnya beda komit karena dia beda enggak Bole maksudnya"
+    },
+    {
+      "start": 2753.04,
+      "end": 2765.309,
+      "text": "dia sesuatu yang completely different Thing kayak ngerjain hal yang berbeda ya Iya jadi Git comit minp nanti dia tanya ini"
+    },
+    {
+      "start": 2765.319,
+      "end": 2773.67,
+      "text": "mau di stage hang ini enggak gitu Kalau enggak ya No gitu cuma ini karena terlalu dekat ngerti ngertierti karena"
+    },
+    {
+      "start": 2773.68,
+      "end": 2781.39,
+      "text": "terlalu terlalu dekat jadi dihitung satu tapi dianggap satu iya dianggap satu tapi kalau misalnya filenya kita besar"
+    },
+    {
+      "start": 2781.4,
+      "end": 2790.43,
+      "text": "kita bisa ngstage h satu-satu i kita bisa ambil dari Eh gini deh gini deh sor e namanya apa P itu apa"
+    },
+    {
+      "start": 2790.44,
+      "end": 2808.309,
+      "text": "artinya kepanjangannya yes no P itu adalah oh P patch Interactive patch Oh Interactive patch interac patch Nah bisa juga kita"
+    },
+    {
+      "start": 2808.319,
+      "end": 2825.15,
+      "text": "file satu file S eh gini ya edit Inv eh in lah ini tangan lagi"
+    },
+    {
+      "start": 2825.16,
+      "end": 2835.109,
+      "text": "ngaco terus kemudian kita gini Git comit minp saya punya banyak alias-alias keren-keren lagi Eh kit kalau pakai Om"
+    },
+    {
+      "start": 2835.119,
+      "end": 2848.15,
+      "text": "CSH mah bawaan maksudnya bisa install plugin aliasnya otomatis di ditambahin ke situ kan E saya banyak alias lucu-lucu G GSP G"
+    },
+    {
+      "start": 2848.16,
+      "end": 2861.23,
+      "text": "publish pulsi [Musik] clear kit 3 itu bisa kalau pakai kalau pakai mesin orang jadi bingung karena udah terbiasa"
+    },
+    {
+      "start": 2861.24,
+      "end": 2878.589,
+      "text": "GST langsung eror semua gu enggak ada coba ya kita ke paski ya Tuh bisa apa"
+    },
+    {
+      "start": 2878.599,
+      "end": 2888.67,
+      "text": "namanya ya dan enaknya G itu bisa tambahin apa namanya Bisa tambahin e alias jadi bisa bikin komen-komen"
+    },
+    {
+      "start": 2888.68,
+      "end": 2897.109,
+      "text": "sendiri nah ini kembali lagi ya ke pertanyaan Damar ya Ken ada enggak alasan enggak pakai GUI karena editor"
+    },
+    {
+      "start": 2897.119,
+      "end": 2906.39,
+      "text": "kita aja enggak di GUI Mas jadi editor kita aja di comand Line Masa kita pakai gitnya pakai GUI itu hal yang lucu itu"
+    },
+    {
+      "start": 2906.4,
+      "end": 2914.71,
+      "text": "nambahin urusan aja sih nambahin hal yang harus dibuka dan dipelajari kan kita apa kayak ada apa itu kayak reflex"
+    },
+    {
+      "start": 2914.72,
+      "end": 2924.47,
+      "text": "lah memory yang kayak Yaudah ngti kan atau g gitu kan udah muscle memory tapi kalau harus pakai GUI lagi kan harus"
+    },
+    {
+      "start": 2924.48,
+      "end": 2942.23,
+      "text": "ngebiasain tuh Mana yang diklik shortcutcutnya iyaakakituitnya pakai gitab stop kan aneh ya Enggak sih kadang ada kadang ada"
+    },
+    {
+      "start": 2942.24,
+      "end": 2954.27,
+      "text": "ada orang yang visualize ada orang yang visualize lebih mengerti dan bisa lebih apa lebih lebih careful kalau dia lihat visualnya"
+    },
+    {
+      "start": 2954.28,
+      "end": 2968.99,
+      "text": "ada yang kalau saya lebih lebih ribet kalau harus buka lagi aplikasi itu bahkan sekarang kalau kayak ngit apa sor kalau match confli aja via"
+    },
+    {
+      "start": 2969,
+      "end": 2978.589,
+      "text": "vs Code Saya bingung lebih gampang via Maaf ya Iya karena itu sih kalau orang baru belajar kan kalau belajarnya"
+    },
+    {
+      "start": 2978.599,
+      "end": 2989.03,
+      "text": "pertama dari e GUI Apa aplikasi desktop ya apa mental mental muscle memoryya mental modelnya shortcut yang apa"
+    },
+    {
+      "start": 2989.04,
+      "end": 2994.91,
+      "text": "keyboard shortcut yang dihafalin Ya udah itu mah kayak udah teranjur Cum Maksudnya kita engak pas belajar Enggak"
+    },
+    {
+      "start": 2994.92,
+      "end": 3004.99,
+      "text": "dari situ kali ya mas konfliknya si vscoode tuh membingungkan deh saya lebih senang pakai yang si kalau ui ya pakai"
+    },
+    {
+      "start": 3005,
+      "end": 3017.549,
+      "text": "si jetbin punya Oh jetbin jetbin enggak jet Brain itu si ya PHP Storm webstormya tah tah itu match"
+    },
+    {
+      "start": 3017.559,
+      "end": 3031.91,
+      "text": "confflict resolvernya lebih keren lebih mudah di dilihat daripada cvs code ada yang pernah enggak sengaja ngekomit yang apa masih masih ada"
+    },
+    {
+      "start": 3031.92,
+      "end": 3041.27,
+      "text": "konfliknya enggak jjan gua doang yang masih ada itu e kan kalau konflik ada tanda ada penanda konfliknya tuh yang"
+    },
+    {
+      "start": 3041.28,
+      "end": 3053.71,
+      "text": "tanda lebih besar oh iak lebih besar lebih besar lebih besar gitu sering langsung Tan karena langsung engak Jalan fatal error fatal error tuh"
+    },
+    {
+      "start": 3053.72,
+      "end": 3062.71,
+      "text": "diminta demoin tuh coba INT Waduh enggak punya intelijen Oh enggak punya katanya pakai kan pakainya PS p stom sama"
+    },
+    {
+      "start": 3062.72,
+      "end": 3071.43,
+      "text": "webstom sempat punya tapiak gak instal yang intelijennya sama aja kayaknya iya iya ini ini benar sih nanya yang pakai"
+    },
+    {
+      "start": 3071.44,
+      "end": 3081.03,
+      "text": "vs Code ya Kenapa pakai vs Code tapi gitnya masih di Li gitu ya itu lebih masuk sih kalau yang pakai pai du-duanya"
+    },
+    {
+      "start": 3081.04,
+      "end": 3092.91,
+      "text": "sih du-duanya i adang kalau misalkan kita belajar dari CLI kadang-kadang kita gak tahu cara pakai guya begitu juga"
+    },
+    {
+      "start": 3092.92,
+      "end": 3103.67,
+      "text": "sebaliknya Jadi tergantung kita belajarnya mulai dari mana Biasanya sih sama satu lagi kalau misalnya alasan kuat pakai"
+    },
+    {
+      "start": 3103.68,
+      "end": 3119.15,
+      "text": "portability contohnya suatu saat kita mau di Cloud atau diver ke bas gitu ya kalau misalnya di"
+    },
+    {
+      "start": 3119.16,
+      "end": 3126.91,
+      "text": "bas kan biasa ya kalau Koboy kan kobboy cakep Koboy Koboy ganteng itu biasanya kalau benerin di production itu enggak"
+    },
+    {
+      "start": 3126.92,
+      "end": 3138.47,
+      "text": "pakai CCD tapi langsung ngebas ke production aja di server file ini eh fil-ya di-update dicomit dan push dari"
+    },
+    {
+      "start": 3138.48,
+      "end": 3152.75,
+      "text": "server ke ke gitar itu namanya Koboy ganteng nah itu siapanya lebah ganteng iya kalau lewat cicd semua kelamaan jadi kalau benerin"
+    },
+    {
+      "start": 3152.76,
+      "end": 3163.349,
+      "text": "sesuatu di production ini rasis Siapa tahu yang yang perbaiki cewek masa ganteng juga ya udah kobboy ko cakepoy"
+    },
+    {
+      "start": 3163.359,
+      "end": 3174.23,
+      "text": "cakep kobboy handle tapi kan benar ya kobboy kan Cowboy kan sudah benar kowboy itu harus ganteng Jadi"
+    },
+    {
+      "start": 3174.24,
+      "end": 3185.23,
+      "text": "sebenarnya malah bahas bahasa coba ya Maksudnya tadi portability kayak code spaces Ya kan kalau kita di code spaces"
+    },
+    {
+      "start": 3185.24,
+      "end": 3201.27,
+      "text": "atau di apa tuh yang biasanya kita yang buat ngetes javascript CSS html yang online yang ada"
+    },
+    {
+      "start": 3201.28,
+      "end": 3209.789,
+      "text": "kontennya kan dia conectnya ke github atau ke gitlab kan ng ngful code kan Jadi kalau misal dari sana kan kita"
+    },
+    {
+      "start": 3209.799,
+      "end": 3218.91,
+      "text": "enggak belum tentu ada guinnya kan Nah atau misalnya ada guinnya beda gitu Jadi kalau pakai S comand Line tuh lebih"
+    },
+    {
+      "start": 3218.92,
+      "end": 3231.19,
+      "text": "lebih portability jadi bisa ke mana-mana intinya kalau pakai eh CLI itu lebih bisa flexing flexing tapi k fleksibel gitu"
+    },
+    {
+      "start": 3231.2,
+      "end": 3238.99,
+      "text": "tanya flexing dong sama itu satu laginya kalau buat buat bikin dokumentasi atau tutorial atau artikel bayangin deh"
+    },
+    {
+      "start": 3239,
+      "end": 3249.39,
+      "text": "ribetnya kalau pakai CLI eh buka sidebar yang kiri kiri atas pencet yang mana Kan susah kalau misalnya apa pakai komen kan"
+    },
+    {
+      "start": 3249.4,
+      "end": 3263.349,
+      "text": "tinggal tulis saja Git add atau apalah Iya betul oke nah sebelum apa ini kan kayaknya sekarang Eh apa ya De factonya adalah"
+    },
+    {
+      "start": 3263.359,
+      "end": 3275.75,
+      "text": "Git ya eh apa manajemen kode sumber itu atau eh SCM ya manajemen itu pemenangnya pemenangnya adalah Git ya untuk saat ini"
+    },
+    {
+      "start": 3275.76,
+      "end": 3288.309,
+      "text": "karena pengguna yang paling banyak serv yang paling populer juga github dan teman-temannya eh tapi di Apa ya Eh"
+    },
+    {
+      "start": 3288.319,
+      "end": 3299.27,
+      "text": "beberapa bulan atau beberapa tahun yang lalu ada satu SCM yang cukup menarik sebenarnya tapi belum pernah kesempatan nyoba namanya"
+    },
+    {
+      "start": 3299.28,
+      "end": 3308.789,
+      "text": "fosil fosil ini kayak merek G ya Eh merek apa sih Iya gitu deh iya jam fosil ini dikembangkan setahun setelah Git"
+    },
+    {
+      "start": 3308.799,
+      "end": 3319.75,
+      "text": "jadi dia keluarnya 2006 Git itu 2005 ya Kalau enggak salah ya I 200 dia ini 2006 ee dia lebih"
+    },
+    {
+      "start": 3319.76,
+      "end": 3340.27,
+      "text": "simpel karena ee apa ya Ee dia sama ama k Mer tapi ketika kita gunak langsung sudahenduk"
+    },
+    {
+      "start": 3340.28,
+      "end": 3358.91,
+      "text": "for kayak frameame ada Iya bisa self hosted bisa ditaruh di"
+    },
+    {
+      "start": 3358.92,
+      "end": 3374.349,
+      "text": "eh web server atau di server Gitu ya Nah contohnya Ini dia mengelola eh source code-nya dengan"
+    },
+    {
+      "start": 3374.359,
+      "end": 3385.309,
+      "text": "typo ini ada komit message-nya di sini ada ada forumnya juga mau lihat kodenya juga ada semuanya ada di sini jadi"
+    },
+    {
+      "start": 3385.319,
+      "end": 3394.549,
+      "text": "begitu kita lakukan e fosil Init dia akan kita akan dapatkan ini secara gratis jadi ini sebetulnya kalau github"
+    },
+    {
+      "start": 3394.559,
+      "end": 3403.39,
+      "text": "kan bikin produk berdasarkan hal-hal ini fitur-fitur ini adalah e kayak offering atau fasilitas atau fiturnya si github"
+    },
+    {
+      "start": 3403.4,
+      "end": 3415.589,
+      "text": "kan Nah kalau fosil ini kayak buildin ya fasilitas itu fitur-fitur itu Kak udah build di sistemnya diaul dan yang bikin fosil ini adalah"
+    },
+    {
+      "start": 3415.599,
+      "end": 3438.15,
+      "text": "orang yang sama yang bikin [Musik] Nam bukan kok gambarnya"
+    },
+    {
+      "start": 3438.16,
+      "end": 3454.91,
+      "text": "celeton diaang umab dia mempimp e dia bikinas yang"
+    },
+    {
+      "start": 3454.92,
+      "end": 3473.789,
+      "text": "lebihederh buat SQL dibanding Kay ini pakq [Tertawa] Iyam ini dia Bik solusi yang lebih"
+    },
+    {
+      "start": 3473.799,
+      "end": 3501.59,
+      "text": "rumit dia bikin Git untuk Linux untuk Man Linux di"
+    },
+    {
+      "start": 3501.6,
+      "end": 3519.19,
+      "text": "[Musik] sebelah ehal dan lain-lain eh perbedaan utamanya ada di sini ini ada banyakak tah adaah itu kan"
+    },
+    {
+      "start": 3519.2,
+      "end": 3537.47,
+      "text": "fitur-fitur kolaborasi itu kan Inya fasilitas giub segala add giub dia masukin situ I kalau ini content stand executable custom key"
+    },
+    {
+      "start": 3537.48,
+      "end": 3549.549,
+      "text": "value data store oh g pakai custom key value dat Store ya itu tadi yang di folder yangolder Iya fosil"
+    },
+    {
+      "start": 3549.559,
+      "end": 3561.75,
+      "text": "pakai ya sambilamb redis juga bikin yang sama nanti sebenarnya yang yang menjadi pertanyaan menarik adalah ini buat saya"
+    },
+    {
+      "start": 3561.76,
+      "end": 3579.43,
+      "text": "bazar style development samaal gak tah Bedanya apa apaan sih yang Med ini cont"
+    },
+    {
+      "start": 3579.44,
+      "end": 3599.549,
+      "text": "contb BR onck yang lain ya bisa dibaca sendiri ya tapi menarik banget ini ini ada ada tu Oh ya I udah sama tuh oke iya itu"
+    },
+    {
+      "start": 3599.559,
+      "end": 3615.71,
+      "text": "paling atas coba zoom in Zoom Inan"
+    },
+    {
+      "start": 3615.72,
+      "end": 3631.109,
+      "text": "yang menggambarkan cara development apa Model developmental itual yang lain ggak terlibat kalau barar Oh ya barar kan"
+    },
+    {
+      "start": 3631.119,
+      "end": 3646.19,
+      "text": "ramai semua terlibat terbuka apa terbuka siapun bisa terlibat tanpa berarti di fosil gak bisa forking karena dia cuma satu jadi gak ada"
+    },
+    {
+      "start": 3646.2,
+      "end": 3656.67,
+      "text": "forking contohnya kalau di di github atau gitlab kita bisa ng punya orang kita bisa berdiri sendiri dan gak"
+    },
+    {
+      "start": 3656.68,
+      "end": 3665.87,
+      "text": "peduli Mau ini kribute balik sini ini kontribute balik ke kita sama aja gitu itu mau kita tutup juga bisa Oh Nah"
+    },
+    {
+      "start": 3665.88,
+      "end": 3673.39,
+      "text": "kalau ini kalau caranya si fosil berarti gak boleh ng tapi kalau misal kita punya ide Gimana caranya kita harus musyawarah"
+    },
+    {
+      "start": 3673.4,
+      "end": 3684.589,
+      "text": "sampai ketemu mufakat entah itu fitur bakal di atau Emang kalau apa akhirnya pada gak mau yaudah gak boleh gak boleh gak bisa di"
+    },
+    {
+      "start": 3684.599,
+      "end": 3704.549,
+      "text": "bikin sendiri ya lucu juga ya menarik ya menarik ya No rebasing Nah kalau g kan S"
+    },
+    {
+      "start": 3704.559,
+      "end": 3717.51,
+      "text": "over Oh jadi dia pakai Sinking ya over push branch name S branch bisa tapi ggak bisa rebase"
+    },
+    {
+      "start": 3717.52,
+      "end": 3731.87,
+      "text": "ada autosing juga private brand are rare ya teman-teman bisa baca sendiri ya Kita kasih linknya aja ya buat"
+    },
+    {
+      "start": 3731.88,
+      "end": 3747.789,
+      "text": "teman-teman Ya siapa tahu bisa menambah cocok buat Ind bisa mau bikin SCM baru penasaran tapi ya menarik menarik"
+    },
+    {
+      "start": 3747.799,
+      "end": 3756.47,
+      "text": "ya one versus many check out per repo yang kayak gini tuh menariknya adalah mengerti pendapat atau pola pikir orang"
+    },
+    {
+      "start": 3756.48,
+      "end": 3766.87,
+      "text": "lainah karena konsep sama dia pakai itu buat mecahin masalah kayak apa sih Apa dia ngerasa yang lain kan berarti solusi yang sudah"
+    },
+    {
+      "start": 3766.88,
+      "end": 3775.789,
+      "text": "ada gak cukup terus dia punya kebutuhan apa sampai dia bikin sendiri betul ada videonya kok yang apa eh yang dia"
+    },
+    {
+      "start": 3775.799,
+      "end": 3782.47,
+      "text": "mengungkapkan alasan kenapa dia Enggak pakai Git padahal Git kan sudah muncul setahun sebelum e adanya fosil ini kan"
+    },
+    {
+      "start": 3782.48,
+      "end": 3791.39,
+      "text": "dan menurut dia enggak cocok digunakan untuk Project SK gitu Alasannya kenapa ya Eh bisa nonton sendiri oh wait baru"
+    },
+    {
+      "start": 3791.4,
+      "end": 3802.109,
+      "text": "sadar kan Git muncul 2005 terus e dia bikin fosil setahun sudahnya gi dengan segala feurnya sekarang kan munculnya baru ya pasti"
+    },
+    {
+      "start": 3802.119,
+      "end": 3813.109,
+      "text": "baru sekian tahun kemudian kan berarti dia visioner banget tu semua fitur-fiturnya apa fitur-fiturnya github kayak fitur kolaboratifnya itu dia yang"
+    },
+    {
+      "start": 3813.119,
+      "end": 3820.39,
+      "text": "kepikiran itu duluan ya sebetulnya karena dia bikin itu integr kar karena dia Mas punya masalah itu karena waktu"
+    },
+    {
+      "start": 3820.4,
+      "end": 3830.91,
+      "text": "lagi lagi ngebuat ee SK light orang mau puluh request gimana Iya iya dia kan meng-copify itu dia bikin sistemnya apa"
+    },
+    {
+      "start": 3830.92,
+      "end": 3839.43,
+      "text": "tiket kan tadi ya mungkin pakai istilah tickets ya dan lain-lain lah pokoknya Wiki tiket itu dia eh apa dia udah dia"
+    },
+    {
+      "start": 3839.44,
+      "end": 3849.269,
+      "text": "sudah mikirin itu dan mengintegrasikan ke sistemnya dia sebelum ada produk-produk yang kita tahu sekarang kayak apa giththub sama bitbcket dan"
+    },
+    {
+      "start": 3849.279,
+      "end": 3863.19,
+      "text": "lain-lain iya he juga ada yang setara Git github untuk fosil dia self hosted jadi ketika kita pakai Katanya kita sudah dilengkapi"
+    },
+    {
+      "start": 3863.2,
+      "end": 3881.349,
+      "text": "dengan semua Wi dan lain-ain betul Eh Coba kita lihat kode sumber eskelet di mana ya Ini dia Mana ada bentar Nah ini nih ESET tuh"
+    },
+    {
+      "start": 3881.359,
+      "end": 3897.71,
+      "text": "ada di sini jadi Kay fosil ini kayak Pak fosil ya Iya jadi dia sendiri"
+    },
+    {
+      "start": 3897.72,
+      "end": 3907.39,
+      "text": "Iya tapi bisa kompatibel ggak sih Coba kalau mau CK G check out dia bisa enggak gak bisa"
+    },
+    {
+      "start": 3907.4,
+      "end": 3920.51,
+      "text": "ada kecuali iniate rep di situ juga kali kita coba ini ya Nah ini fosil Init matiin dulu tuh"
+    },
+    {
+      "start": 3920.52,
+      "end": 3933.269,
+      "text": "barakelihatosilil openil komit kemudian ada fosil UI untuk nampilin itu kayaknya ya ohnya Heeh fosil itu kepanjangan gu diketik"
+    },
+    {
+      "start": 3933.279,
+      "end": 3946.91,
+      "text": "tuh pasti ada yang bikin aliasnya FS fo orang Git aja dibikin alias jadi G apalagi posil fil Git itu artinya apa ya penangut Eh"
+    },
+    {
+      "start": 3946.92,
+      "end": 3962.71,
+      "text": "JJ singkatanak iya oh Iya orang pemarah Oh kayaknya bukan deh bukan orang nbin kayak Iya"
+    },
+    {
+      "start": 3962.72,
+      "end": 3974.589,
+      "text": "stupid actually dari ini dari cambrid ini iya iya maksudnya e si Git SCM itu beneran diambil dari kata itu Iya iya nanti"
+    },
+    {
+      "start": 3974.599,
+      "end": 3985.029,
+      "text": "nonton deh itu yang punya si ini kenapa nama adalah doa Kenapa dikasih nama jelek si Git oh"
+    },
+    {
+      "start": 3985.039,
+      "end": 4001.67,
+      "text": "jadi maksud masit fosil Init kemudian nama foldernya beda ya ini ya Iya new repository gini gak ada terus kasih"
+    },
+    {
+      "start": 4001.68,
+      "end": 4020.19,
+      "text": "nama kasih nama apaagiil tuh ada password-nya simpan dulu dah terus Wah nanti dihack orang nih fosil Masa Gitu aneh"
+    },
+    {
+      "start": 4020.2,
+      "end": 4036.029,
+      "text": "banget e coba fosil fosil Open fil Open tik Oh gak bisa slashash"
+    },
+    {
+      "start": 4036.039,
+      "end": 4054.95,
+      "text": "coba aja nah orang masih kosong masih kosong eh touch Oh dia otomatis initialize esqate database dong tuh config DB ini ya"
+    },
+    {
+      "start": 4054.96,
+      "end": 4070.87,
+      "text": "He Oh iya Eh File 2 txt Terus apa nih Git commit ya Git add status"
+    },
+    {
+      "start": 4070.88,
+      "end": 4086.269,
+      "text": "k fil file S fosil add File 2 fil komit fil status status dulu coba"
+    },
+    {
+      "start": 4086.279,
+      "end": 4102.829,
+      "text": "Oh status ada engak entar ada yang enggak pakai fosil terus dialias jadi Git Iya ituootic evangitnya"
+    },
+    {
+      "start": 4102.839,
+      "end": 4116.749,
+      "text": "de di Alas ngerjain komputer orang asik kali ya kita bikin alias apa gitu alias aliasnya RM RF aja bukan rm- RF Git gitu"
+    },
+    {
+      "start": 4116.759,
+      "end": 4129.39,
+      "text": "jadi aliasnya Git Jadi kalau misalnya di Git apa Git titik g titik Ya udah hilang semua nih fosil UI tuh local host"
+    },
+    {
+      "start": 4129.4,
+      "end": 4146.59,
+      "text": "808 engak tadi password-nya apa diklik ee e Iya udah dicopy e mudah-mudahan ada di nah ini udah ada nih"
+    },
+    {
+      "start": 4146.6,
+      "end": 4162.709,
+      "text": "we file file S kos file 2os admin langsung ada itunya ya Ada wiknya ada isu isu ada gak isu is ada"
+    },
+    {
+      "start": 4162.719,
+      "end": 4179.269,
+      "text": "namanya I langsung dikasih SQL ada timeline eh timelnya Cuman segini ya Iya belum ngapa-ngapain tapi seru juga ya langsung"
+    },
+    {
+      "start": 4179.279,
+      "end": 4192.709,
+      "text": "bisa dapat begitu ya menarik menarik dia itu terlalu maju giub sebelum giubub sebelum github berarti github nerapin fitur fosil i salah"
+    },
+    {
+      "start": 4192.719,
+      "end": 4203.669,
+      "text": "satunya Enggak tahu juga ya tapi ya Bisa bukan bukan maksudnya github eolah-olah kebutuhannya e bukan terinspirasi sih lebih mungkin ee dia"
+    },
+    {
+      "start": 4203.679,
+      "end": 4214.11,
+      "text": "menciptakan sesuatu yang si fosilnya juga bikin di internalnya di di buildin-nya sementara kita bikin buat eksternal buat terparti gitu lebih ke"
+    },
+    {
+      "start": 4214.12,
+      "end": 4225.79,
+      "text": "sana kira-kira bisa Kom ya Loh enggak ya Git dan fosil ya itu Git a duuanya bisa G bisa tapi ya pusing"
+    },
+    {
+      "start": 4225.8,
+      "end": 4235.07,
+      "text": "Buat apa Buat apa Heeh Buat apa eh pindah bentar ada engak ya kasus Eh misalnya satu organisasi atau perusahaan"
+    },
+    {
+      "start": 4235.08,
+      "end": 4247.99,
+      "text": "e reponya tadinya pakai apalah fosil mercurialvion itu harus migrasi ke eh source code manajemen baru SCM baru itu"
+    },
+    {
+      "start": 4248,
+      "end": 4256.149,
+      "text": "seribet apa ya atau biasanya mungkin malah Ya udahlah biarin nanti kalau bikin ek baru baru pakai ee sistem yang"
+    },
+    {
+      "start": 4256.159,
+      "end": 4267.31,
+      "text": "baru ada yang pernah punya pengalaman pindah migrasi SCM ee dalam satu repo ya kalau history Enggak penting gampang Iya"
+    },
+    {
+      "start": 4267.32,
+      "end": 4278.43,
+      "text": "ya udah Kom semuaf.git iya iniisial iya iniisial kalau history histori Enggak penting Ya gampang tapi kalau history penting itu"
+    },
+    {
+      "start": 4278.44,
+      "end": 4285.43,
+      "text": "yang susah karena kalau ngambil dari subvion tuh historyinya susah kan dia punya send proseselop jadi yang lain"
+    },
+    {
+      "start": 4285.44,
+      "end": 4297.189,
+      "text": "masih ada yang lagi ngerjain mungkin ada developer lain yang lagi ngerjainak enggak bisa itu keos itu umumnya kalau mau sebuah Project"
+    },
+    {
+      "start": 4297.199,
+      "end": 4305.27,
+      "text": "misalkan contohnya ya ini engak tahu ini rel atau enggak ya satu perusahaan tadinya dia private eh proeknya private"
+    },
+    {
+      "start": 4305.28,
+      "end": 4315.87,
+      "text": "terus tiba-tiba Mau dijadiin Mau dijadiin open source contohnya rect contohnya kubernes dan lain-lain itu biasanya nya mereka"
+    },
+    {
+      "start": 4315.88,
+      "end": 4322.55,
+      "text": "ee stop di satu titik kemudian e ganti karena kan mereka enggak pakai Git dan enggak pakai e itu kan pakai internal"
+    },
+    {
+      "start": 4322.56,
+      "end": 4331.59,
+      "text": "tools kan jadi begitu mau diop source itu mereka baru inial eh inial komitnya di situ di posisi itu"
+    },
+    {
+      "start": 4331.6,
+      "end": 4339.27,
+      "text": "gitu Kalau pindah dari github ke git bitbcket lebih gampang karena itu hanya servisnya aja ini kita ngomongin"
+    },
+    {
+      "start": 4339.28,
+      "end": 4349.99,
+      "text": "tinggalnyaal diganti aja kan pakai Git ya sekarang ya Iya batbet pakai Git dan merurial merah masih kan merkurial masih masih bisa"
+    },
+    {
+      "start": 4350,
+      "end": 4357.99,
+      "text": "dua-duanya bisa duanya bisa pilih kali ya kayaknya kalau bikin baru Nah ini ada yang menarik lagi nih dari fosil"
+    },
+    {
+      "start": 4358,
+      "end": 4374.47,
+      "text": "ternyata jadi kalau kita ke admin terus di sini ada SQL kita bisa query data kita Dias ininyaemanya kalau mau main-main dengan"
+    },
+    {
+      "start": 4374.48,
+      "end": 4384.07,
+      "text": "e apa laporan misalkan mau cari kode ini nih gitu bisa pakai SQL com kok jag banget sih Pak SQL hardore sekali"
+    },
+    {
+      "start": 4384.08,
+      "end": 4399.03,
+      "text": "hardcore sekali I dia yang bikinq SQL myion gila mantap ini kalau buat proek-proek pribadi kayaknya lebih menarik pakai ini"
+    },
+    {
+      "start": 4399.04,
+      "end": 4409.35,
+      "text": "deh enggak sih kalau gua G aja biasa aja kan kalau KJA pribadi kan enggak butuh ya Tergantung ya kalau mau"
+    },
+    {
+      "start": 4409.36,
+      "end": 4418.229,
+      "text": "online sih beda ya kalau ada wiki-wikiannya ee Iya kalau makanya dulu Ada itu makanya dulu pakainya itu saya"
+    },
+    {
+      "start": 4418.239,
+      "end": 4426.55,
+      "text": "kalau apa bukan saya sih saya ada sourcefors sourfor itu kan memang ada wik-nya ada download-nya ada satu lagi"
+    },
+    {
+      "start": 4426.56,
+      "end": 4438.189,
+      "text": "sourfor.net Iya SP iya ada ada namanya track track apa entar track bukan TR J lupa lanjut aja"
+    },
+    {
+      "start": 4438.199,
+      "end": 4461.27,
+      "text": "ngomong is open source weas Project management nah ini Ben Oh TR ya kayaknyaah ini itu masih dipakai ini"
+    },
+    {
+      "start": 4461.28,
+      "end": 4468.75,
+      "text": "samapressnyaak perah Pak tah itu apa Nah ini kayak SPN gitu-gitu kan pakai ini sebagai gththub-nya kan sebagai"
+    },
+    {
+      "start": 4468.76,
+      "end": 4478.95,
+      "text": "github-nya kan benar enggak Iya karena SPN ya servernya enggak bisa sembarangan kayak ada web interface kan buka ini nih"
+    },
+    {
+      "start": 4478.96,
+      "end": 4493.87,
+      "text": "mas Riza ini WordPress pasti pakai itu si silakan kalau teman-teman mau lihat [Musik] tiket-tiketnya ee langsung ke itu sudut"
+    },
+    {
+      "start": 4493.88,
+      "end": 4503.75,
+      "text": "atas tickets tuh kanan a di di menu Iya tuh semua kan open source Kan semuanya bisa dilihat kodenya mana Kalau mau"
+    },
+    {
+      "start": 4503.76,
+      "end": 4516.43,
+      "text": "lihat kodenya ada browource ya y ini ya tuh y tuh cuma ini customnya si WordPress sendiri ya dari tracknya ini bukan UI"
+    },
+    {
+      "start": 4516.44,
+      "end": 4524.669,
+      "text": "ini bukan dari tracknya CSnya diganti CSS sudah diganti tapi servernya masih track ini semua Iya ini masih masih"
+    },
+    {
+      "start": 4524.679,
+      "end": 4530.91,
+      "text": "kode-kodenya apa gaya-gayanya trk yang tadi tuh mirip-mirip lah Cuman ganti warna doang nih yang seperti saya bilang"
+    },
+    {
+      "start": 4530.92,
+      "end": 4546.669,
+      "text": "tadi contohnya masisa ke tiket deh ke tiket tiket coba cari e contohnya Oke E itu getting"
+    },
+    {
+      "start": 4546.679,
+      "end": 4555.55,
+      "text": "started yang getting started patches testing kan sudah ada patches-nya ya ini semua tiket yang sudah ada pnya"
+    },
+    {
+      "start": 4555.56,
+      "end": 4563.03,
+      "text": "klik aja satu salah satu ada workflow-nya dia sudah bikin h p Tuh lihat tuh ada patch.dif jadi"
+    },
+    {
+      "start": 4563.04,
+      "end": 4572.629,
+      "text": "WordPress pun sekarang masih tetap pakai kirim divnya file ini untuk kita apa namanya kita enggak ada puluh-pul"
+    },
+    {
+      "start": 4572.639,
+      "end": 4586.83,
+      "text": "request di sini gitu Mas sampai masih pakai e ini nanti kalau sudah okeudahudahudah esting segala macam nanti yang Core comuternya yang si Core"
+    },
+    {
+      "start": 4586.84,
+      "end": 4593.47,
+      "text": "komuter itu punya bagian masing-masing ada modul-modul yang dia punya sendiri jadi dia yang ambil patch ini dia e"
+    },
+    {
+      "start": 4593.48,
+      "end": 4605.79,
+      "text": "comit ke subvion manual manual mau tanya manual atau ada itunya Kom makanya nanti ada yang testing kan"
+    },
+    {
+      "start": 4605.8,
+      "end": 4622.35,
+      "text": "di sini hasil tes juga ada n Wow komunitas komunitas ngetes bisa Pak G Iya bisa"
+    },
+    {
+      "start": 4622.36,
+      "end": 4635.149,
+      "text": "kan dia bisa Pak karena dia punya mirror miror ke github Jadi kalau ada yang gak gak bisa tetap aja bisa P dari github"
+    },
+    {
+      "start": 4635.159,
+      "end": 4649.43,
+      "text": "ambil di yang tadi Git i i Nah ini apa nih di perusahaan sekarang banyak pakai Git atau fosil Git"
+    },
+    {
+      "start": 4649.44,
+      "end": 4665.39,
+      "text": "fosil jarang kaynya baru dengar fosil sekarang ini kalau ke mall sering lihat fosil Tapi"
+    },
+    {
+      "start": 4665.4,
+      "end": 4676.55,
+      "text": "beliak kalau buat game kayaknya bagus ya mungk juga sih yaungk juga nah pertanyaannya kalau subvsion Oh sorry versioning untuk image pakai"
+    },
+    {
+      "start": 4676.56,
+      "end": 4690.75,
+      "text": "apa image Iya enggak tahu Iya Git juga cuma kalau besar banget itu kan ada lfs kan itu apa ya namanya ya gua kok lupa"
+    },
+    {
+      "start": 4690.76,
+      "end": 4702.51,
+      "text": "sih ee dia beneran bisa ngebedain apaandingage gu ad ada Adobe dulu Adobe punya produk untuk untuk versioning"
+    },
+    {
+      "start": 4702.52,
+      "end": 4715.629,
+      "text": "image dan Gak cuma image ya Jadi bisa e Photoshop F juga bisa di dia bisa verion apa"
+    },
+    {
+      "start": 4715.639,
+      "end": 4731.91,
+      "text": "yasion cobating Adobe version Adobe"
+    },
+    {
+      "start": 4731.92,
+      "end": 4749.83,
+      "text": "Adobe revision iya iya muncul ad B version Nah ya itu dulu pernah saya adminin ngadmin ini setengah"
+    },
+    {
+      "start": 4749.84,
+      "end": 4761.83,
+      "text": "Pusing kenapa gitu karena harus ngebandingin imagenya tapi kan image kan kalau kode dia gak ada dia gakak ada di"
+    },
+    {
+      "start": 4761.84,
+      "end": 4770.87,
+      "text": "kalau version S version 2 version 3 version 4 Jadi kalau masukin photosh file Iya bisa dievert jadi kalau"
+    },
+    {
+      "start": 4770.88,
+      "end": 4780.91,
+      "text": "misalnya ngck out photos ngcheck out bisa dapat versionnya gitu daripada simpan di folder setiap diave dia Kayak bikin dia kayak ngsave"
+    },
+    {
+      "start": 4780.92,
+      "end": 4791.83,
+      "text": "copy dan dikasih metadata tertentu gitu biar bisa dipanggil lagi kayak di tagging ya itu lebih kaging syem kan"
+    },
+    {
+      "start": 4791.84,
+      "end": 4804.709,
+      "text": "berarti final one tuh final S final x final 2023 revisi 1 revisi 2 revisi 3 revisi lagi Mak daripada lagi kalau"
+    },
+    {
+      "start": 4804.719,
+      "end": 4811.79,
+      "text": "Adobe kalau Photoshop file sekarang sih G gak pakai Photoshop file lagi pakai figm ya rata-rata ya kalau masih pakai"
+    },
+    {
+      "start": 4811.8,
+      "end": 4823.39,
+      "text": "yang Photoshop file itu atau Corel Draw segala macam ya makanya di versioningnya pakai ee kayak version Q tadi"
+    },
+    {
+      "start": 4823.4,
+      "end": 4837.91,
+      "text": "daripada difolderin i i i nah ini ada pertanyaan bagus nih strategi Git untuk WordPress plugin gimanaak atau satu Project WordPress"
+    },
+    {
+      "start": 4837.92,
+      "end": 4848.07,
+      "text": "eh saya asumsinya ini e maksudnya plugin yang ada di instalasi WordPress yang sedang berjalan ya bukan plugin"
+    },
+    {
+      "start": 4848.08,
+      "end": 4862.39,
+      "text": "development Jadi kalau di WordPress itu supaya kalau sayaage WordPress itu hanya yang masuko itu adalah kode yang saya"
+    },
+    {
+      "start": 4862.4,
+      "end": 4870.83,
+      "text": "maintain yang tidak saya main gak masuko contohnya WordPress scnya sendiri kan gak saya maintain jadi masuk yang saya"
+    },
+    {
+      "start": 4870.84,
+      "end": 4885.07,
+      "text": "main itu cuman plugin yang saya tulis sendiri atau yang saya buat sendiri sisanya Vi jadi nya sudah ada di komposer tinggal"
+    },
+    {
+      "start": 4885.08,
+      "end": 4897.47,
+      "text": "diinstal pakai komposer kalau pluginpluginnya sudah ada pakai komposer juga pakai via namanya WP packages ya kan kalau komposer eh file"
+    },
+    {
+      "start": 4897.48,
+      "end": 4906.229,
+      "text": "yang bukan Non WordPress kan di packages ya WordPress juga punya WP packages jadi semuanya tinggal diinstal e pakai"
+    },
+    {
+      "start": 4906.239,
+      "end": 4919.39,
+      "text": "komposer Jadi kalau Instal plugin-plugin apa ya kayak Yos atau yang sudah publ yang ada Diya si plugin WordPress itu tinggal"
+    },
+    {
+      "start": 4919.4,
+      "end": 4926.31,
+      "text": "pakai WP packag sudah pasti ada Dan kalau misalnya dia gak ada tapi adanya di github ya kan si komposer sudah bisa"
+    },
+    {
+      "start": 4926.32,
+      "end": 4943.55,
+      "text": "Ngot ke github ke ke git jadi tetap bisa jadi itu strateginya Iya jadi hanya TR kode yang kamu tulis sendiri saja"
+    },
+    {
+      "start": 4943.56,
+      "end": 4957.91,
+      "text": "atau yang mau kamu maintain yang enggak perlu dimaintain jangan dimasukin ke ripo nah ngomongin tentang eh apa"
+    },
+    {
+      "start": 4957.92,
+      "end": 4966.669,
+      "text": "manajemen meskipun eh apa ngobrolin web belum ada source cod-nya kita udah ada github-nya loh jadi teman-teman bisa"
+    },
+    {
+      "start": 4966.679,
+      "end": 4979.39,
+      "text": "main sini untuk diskusi ke GI bisa dimasukin ke I Oh masih ada sampel posnya gitu hapus dulu gimana sih"
+    },
+    {
+      "start": 4979.4,
+      "end": 4987.75,
+      "text": "cara hapus itu kok gak bisa hapus itu samp discion itu iniah masa gak bisa sudah close tapi gua gak tahu cara"
+    },
+    {
+      "start": 4987.76,
+      "end": 4995.51,
+      "text": "hapusnyaah CL ini sudahudah answer kan Iya Jadi kalau teman-teman mau nanya nanya Apun yang berhubungan dengan web"
+    },
+    {
+      "start": 4995.52,
+      "end": 5005.43,
+      "text": "Ya pastinya ya bisaion terus bisa pilih kalau mau ide klik e ide kalau mau q& apa pertanya tanya jawab silakan"
+    },
+    {
+      "start": 5005.44,
+      "end": 5013.47,
+      "text": "q& kalau mau up juga bisa kalau maksudnya idenya Sudah diposting sama orang ini sudah saya tambahin nih banyak"
+    },
+    {
+      "start": 5013.48,
+      "end": 5023.75,
+      "text": "nih ya Jadi sedikit kisi-kisi buat teman-teman the next topic yang kita akan angkat adalah yang paling banyak upford-nya di discussion"
+    },
+    {
+      "start": 5023.76,
+      "end": 5034.229,
+      "text": "ini jadi semakin maksudnya semakin banyak up semakin banyak detailnya itu kita kita angkat Ada kemungkinan dikonsiderasi lebih cepat ya lebih ya"
+    },
+    {
+      "start": 5034.239,
+      "end": 5045.229,
+      "text": "dieksekusi lebih cepat boleh tambahin topik serverless boleh aja mas i kalau bisa sekalian tambahin ngundang Siapa yang jago serverless G"
+    },
+    {
+      "start": 5045.239,
+      "end": 5056.03,
+      "text": "jadi kita bisa orangnya harus mau juga iya harus mau kalau kalau orangnya enggak mau ya kita bahas antara kita aja bertiga gitu"
+    },
+    {
+      "start": 5056.04,
+      "end": 5065.79,
+      "text": "kita itu I Oke jadi ini bisa kita manfaatkan untuk diskusi di luar hari selasa malam kalau teman-teman ada"
+    },
+    {
+      "start": 5065.8,
+      "end": 5074.79,
+      "text": "kepikiran Wah kayaknya bahas ini menarik nih Wah kalau tiba-tiba ada problem di kantor yang butuh eh apa E diskusi juga"
+    },
+    {
+      "start": 5074.8,
+      "end": 5080.149,
+      "text": "bisa di sini jadi nanti mungkin kita akan bahas juga di pada saat selasa malam gitu ya kalau topiknya juga"
+    },
+    {
+      "start": 5080.159,
+      "end": 5091.109,
+      "text": "menarik itu contohnya Barusan saya keingatan kita belum bahas tentang monorepo Saya juga punya ketertarikan di sana Ini apa ya gitu dan kenapa"
+    },
+    {
+      "start": 5091.119,
+      "end": 5104.83,
+      "text": "digunakan gitu jadi kayaknya menarik ya buat dibahas toololnya apa ya langsung ditulis saja Oke mungkin untuk pembahasan tentang manement ada lagi"
+    },
+    {
+      "start": 5104.84,
+      "end": 5115.229,
+      "text": "yang mau ditambahkan eh bentar bonus Bonus apa buat belajar buat belajar bisa pakai apa kalau misalnya ada teman-teman yang"
+    },
+    {
+      "start": 5115.239,
+      "end": 5130.83,
+      "text": "pengin lebih atama gitnya eh mungkin sekarang yang direkomendasiin saya yang dulu aku pakai belajar sih yang dari github sih itu"
+    },
+    {
+      "start": 5130.84,
+      "end": 5141.95,
+      "text": "udah lengkap banget step by step eh enak buat diikutin itu recommended sama ada satu lagi tuh e"
+    },
+    {
+      "start": 5141.96,
+      "end": 5155.629,
+      "text": "link bawahnya oke nah Ini pokoknya Eh kalau misalnya kayak bikin brand gimana sih masih e belum masih belum lancar bisa ikutin itu"
+    },
+    {
+      "start": 5155.639,
+      "end": 5164.669,
+      "text": "cuma satu lagi kalau ini lebih singkat sih beneran basicnya doang cuma tampilannya lucu nyenengin yang mana Nah"
+    },
+    {
+      "start": 5164.679,
+      "end": 5175.709,
+      "text": "yang ini yang sekarang lagi di-share Oh ini Heeh kalau enggak salah dulu sempat belajar dari web tapi bisa diketik"
+    },
+    {
+      "start": 5175.719,
+      "end": 5186.39,
+      "text": "perintahnya Iya tutor tahu gu tap apa ya tutor ya gua belum pernah itu coba atau itu tutor"
+    },
+    {
+      "start": 5186.4,
+      "end": 5201.229,
+      "text": "Ya jangan kebalik-balik dong Nah itu beda banget loh Itu jauhjauh itu tor Bukan kayaknya Bukan Ya bukan namanya beda apa"
+    },
+    {
+      "start": 5201.239,
+      "end": 5211.109,
+      "text": "ya Soalnya kalau disit itu misteri gitu kalian ber ngasa pernah lihat itu gua doang yang gak pernah maksudnya engak ada bayangan sama"
+    },
+    {
+      "start": 5211.119,
+      "end": 5227.03,
+      "text": "sekali pernah pakai itu tuh Oh my Git bukan oh Hah itu oh mysh oh iya benar Bu Ben buka tuh bukan Bu ya Oh"
+    },
+    {
+      "start": 5227.04,
+      "end": 5239.43,
+      "text": "kirain itu eh lucu tapi itu juga lucu sih game Oh iya ini lucu tapi bukan itu apa"
+    },
+    {
+      "start": 5239.44,
+      "end": 5256.83,
+      "text": "ya teman-teman belajar Git dari mana sih m ada yang sumpah ini penasaran banget Kocak jadiut penasaran Coba tanya chat"
+    },
+    {
+      "start": 5256.84,
+      "end": 5273.03,
+      "text": "at Iya bagus tutorial [Musik] website"
+    },
+    {
+      "start": 5273.04,
+      "end": 5287.91,
+      "text": "ada enggak belum learn getate branching learn get branching Bukan bukan oh iya kayaknya lear branching deh itu ada e bisa diketik"
+    },
+    {
+      "start": 5287.92,
+      "end": 5302.07,
+      "text": "gitu Oh iya benar benar benar benar i i ini dulu belajar ini ini ini ljur l birdnya Ih malah berdu tahu ya teranjur"
+    },
+    {
+      "start": 5302.08,
+      "end": 5315.27,
+      "text": "teranjur bisa enggak apa-apa kali komit Naka cuma kan saya rasa senang belajar hal baru dari source yang interaktifnya kurangs"
+    },
+    {
+      "start": 5315.28,
+      "end": 5324.87,
+      "text": "dulu dulu website-nya bukan ini djs.org bukan ini dia enggak ada js-js-an sama sekali Mungkin dia enggak punya duit"
+    },
+    {
+      "start": 5324.88,
+      "end": 5333.35,
+      "text": "buat ini ya buat engak punya duit Bu domainnya expire Terus mungkin ya si js.org itu kan emang dia apa domain"
+    },
+    {
+      "start": 5333.36,
+      "end": 5345.59,
+      "text": "Emang tersedia gratis non profit kan ini pakai iui Yai ya kali ya Iya ini kayak frameworknya buat bikin begini kayaknya"
+    },
+    {
+      "start": 5345.6,
+      "end": 5368.109,
+      "text": "sih frwnya iya oh yang bikin si ini nih Yui JS itu siapa libraryori library kayakkayaknya sih Yui"
+    },
+    {
+      "start": 5368.119,
+      "end": 5381.669,
+      "text": "Keren ya Keren k tapi ada satu lag belajarnya di channelnya katanya Oh iya ada satu lagi maksudnya bukan cuman"
+    },
+    {
+      "start": 5381.679,
+      "end": 5400.43,
+      "text": "branching dari awal dari yang G init [Musik] gituajarak ada lag Ben ya banyak"
+    },
+    {
+      "start": 5400.44,
+      "end": 5417.99,
+      "text": "am gak ada ada tretjs.orol nah ini benergthub.com ohudah diambil"
+    },
+    {
+      "start": 5418,
+      "end": 5429.07,
+      "text": "giudahak ada berudah gak adaudahak ada dulu kayak gini nih Iya kayak gini dulu dulu kayak gini nih jadi Git ini"
+    },
+    {
+      "start": 5429.08,
+      "end": 5444.109,
+      "text": "kita tulis di bawah kita ketik sekarang udah enggak ada Dih Ya diganti sama tutorial masih ada enggak kodenyaak ada"
+    },
+    {
+      "start": 5444.119,
+      "end": 5461.39,
+      "text": "ada tuh tapi..com gak ada yair ke tutorial yang baru he He Oh mungkin udah outdated kali"
+    },
+    {
+      "start": 5461.4,
+      "end": 5472.03,
+      "text": "yaap kelamaan kita nanti ini teman-teman semuanya udah pada belajar dari YouTube juga ya kita doang yang belajar dari"
+    },
+    {
+      "start": 5472.04,
+      "end": 5487.83,
+      "text": "website dulu ya Dari dokumentasinya apa Git SCM sama github Itus sama leing iya itu menarik sih J lumayan"
+    },
+    {
+      "start": 5487.84,
+      "end": 5500.75,
+      "text": "membantu terutama buat belajar mungkin github lebih ngpush pakai GUI mereka jadi dulu itu COD school yang bikin COD school itu e kayak online"
+    },
+    {
+      "start": 5500.76,
+      "end": 5512.43,
+      "text": "learning platform yang sekarang sudahah dibeli sama eh salah satu online learning platform yang lebih besar ehural S namanya terus habis itu itu"
+    },
+    {
+      "start": 5512.44,
+      "end": 5521.83,
+      "text": "dipindah ke try.gthub.com diambil sama github Nah sekarang mungkin github-nya eh apa mungkin ada fitur-fitur tambahan atau sudah outdated jadi mungkin dite"
+    },
+    {
+      "start": 5521.84,
+      "end": 5536.35,
+      "text": "out kali ya bisa jadi iya kalau kalau video apa kekurangannya video yang bisa kita maksudnya dibandingkan dengan trigit seperti tadi"
+    },
+    {
+      "start": 5536.36,
+      "end": 5545.43,
+      "text": "belajar dari video yang membedakan Iya itu subjektif juga cuma kecenderungan pasifnya lebih tinggi ya karena kita enggak harus nyoba"
+    },
+    {
+      "start": 5545.44,
+      "end": 5554.91,
+      "text": "sendiri jadi Oh ya kita lihat terus nontonnya dicepetin terus ngangguk-ngangguk doang Oke ngetik itu doang mah ngerti ya ya ya ngerti Ngerti"
+    },
+    {
+      "start": 5554.92,
+      "end": 5562.99,
+      "text": "giliran pas Harus praktik E apa ya tadi kayak enggak masuk aja kalau kita harus ngetik sendiri kan Minimal kita udah"
+    },
+    {
+      "start": 5563,
+      "end": 5571.149,
+      "text": "nyoba lah sekali ya berarti harus diikutin ya semua yang ada di videonya iya iya Kalaupun kita nonton video Ya"
+    },
+    {
+      "start": 5571.159,
+      "end": 5578.91,
+      "text": "kita harus Terus eh bereffort kita pause dulu eh kan Lihat tuh yang di layar apa atau mungkin di deskripsi videonya Kan"
+    },
+    {
+      "start": 5578.92,
+      "end": 5590.47,
+      "text": "Mungkin Ada apa Ada linknya ke artikel kalau video hasilnya bisa dua saat saat Nonton videonya bisa pas lagi tidur atau"
+    },
+    {
+      "start": 5590.48,
+      "end": 5598.55,
+      "text": "lagi di toilet jadi enggak ngapa-ngapain cuma lewat aja bisa jadi nonton videonya sambil di depan komputer jadi"
+    },
+    {
+      "start": 5598.56,
+      "end": 5610.47,
+      "text": "dipost-post videonya benaran Iya itu dip kita video ngomong apa kitatikin Dan kalau yang pertama nontonnya hanya masuk ingat sebentar"
+    },
+    {
+      "start": 5610.48,
+      "end": 5622.35,
+      "text": "lupa Cuma mungkin kalau disetel sambil tidur kebawaah mimpi Mungkin kita jadi Git Iya nah ini dulu saya ngambil Nih 11"
+    },
+    {
+      "start": 5622.36,
+      "end": 5631.99,
+      "text": "tahun yang lalu komitnya weh belajar trit di foring kan disuruh forking kan ada ada emang bagian Finya"
+    },
+    {
+      "start": 5632,
+      "end": 5642.27,
+      "text": "ya ada bagian reporing-nya terus kita inilah nambahin file-file gitu ternyata masih ada itu yang first first commit Ada enggak sih Apa tuh"
+    },
+    {
+      "start": 5642.28,
+      "end": 5650.43,
+      "text": "github first commit Oh github first commit ya iya iya dulu ada tuh ada apa apa namanya first Git comitnya Iya apa"
+    },
+    {
+      "start": 5650.44,
+      "end": 5658.87,
+      "text": "sih namanya yang ngecek Eh pas nonton video Git Di wpu bingung itu ngapain cumanak pas kuliah tiba-tiba"
+    },
+    {
+      "start": 5658.88,
+      "end": 5671.83,
+      "text": "disuruh kirim tugas ke git Wah kirim tugasnya pakai Git luar biasa eh seru ya ini kalau kita cari kalau kita cari"
+    },
+    {
+      "start": 5671.84,
+      "end": 5684.51,
+      "text": "di Google Eh tryit itu ada sekitar 9.500 hasilnya ada 9.500 orang yang eh ngclone ngclone itu iya"
+    },
+    {
+      "start": 5684.52,
+      "end": 5694.91,
+      "text": "i hottek hottek opini panas opini panas belum dibahas nih opini Oh iya opini pedas tentang Git Nah siapa di"
+    },
+    {
+      "start": 5694.92,
+      "end": 5707.03,
+      "text": "sini yang mengalami kesulitan belajar Git teman-teman Di sini kesulitan engak sih waktu belajar Git enggak enggakah kesulitan metodenya workfownya"
+    },
+    {
+      "start": 5707.04,
+      "end": 5716.31,
+      "text": "yang sulit bingung ya ngompakin sama e tem kalau kalau pakainya lurus-lurus aja Enggak Susah kalau susahnya Itu kalau"
+    },
+    {
+      "start": 5716.32,
+      "end": 5732.669,
+      "text": "sudah masih konflik atau sudah salah terus mernya tiba-tiba gagal abardnya gimana ya kan sulit ya Nah ini ada opini dari e seseorang yang"
+    },
+    {
+      "start": 5732.679,
+      "end": 5743.109,
+      "text": "lumayan kontroversial juga sih sebenarnya ya jadi harus didengarin baik-baik juga seru ini Iya namanya Steve y ini dia e alumninya Google dia"
+    },
+    {
+      "start": 5743.119,
+      "end": 5752.07,
+      "text": "pernah kerja di Google di grab juga kalau gak salah ya menurut dia Git itu menyusahkan github kurang bagus karena"
+    },
+    {
+      "start": 5752.08,
+      "end": 5761.35,
+      "text": "eh di Google mereka pakai tools internal tidak di-share di tidak di open source enggak disshare di luar dan menurut dia"
+    },
+    {
+      "start": 5761.36,
+      "end": 5766.91,
+      "text": "itu yang paling bagus gitu Walaupun dia udah sekarang gak di Google dia bikin perusahaan sendiri atau dia kerja di"
+    },
+    {
+      "start": 5766.92,
+      "end": 5773.189,
+      "text": "perusahaan yang lain tapi dia masih tetap terngiang-ngiang enggak bisa move on dari toolsnya Google kayaknya ya jadi"
+    },
+    {
+      "start": 5773.199,
+      "end": 5796.709,
+      "text": "ketika dia pakai Git dia kesulitan Git silakan ditonton sendiri Oh boleh RR juga [Tertawa]"
+    },
+    {
+      "start": 5796.719,
+      "end": 5815.47,
+      "text": "bolehond di silak Dit sendiri aja bikin eh SCM apa source code mau"
+    },
+    {
+      "start": 5815.48,
+      "end": 5823.55,
+      "text": "bikin sendiri jadi dia jualannya adalah dengan menjelek-jelekkan Terus yang lain tapi kan itu alur yang natural kan kayak"
+    },
+    {
+      "start": 5823.56,
+      "end": 5832.03,
+      "text": "si siapa Si mas si Pak Linus tadi juga Iya pokoknya kayak enggak cocoklah sama semua cocok dengan SN sampaiikin baru"
+    },
+    {
+      "start": 5832.04,
+      "end": 5844.87,
+      "text": "Heeh akhirnya dibikin baru semua jadi mudah gara-gara chat GPT betul memang ada yanganya Gimana cara e Mer misalkan Pak"
+    },
+    {
+      "start": 5844.88,
+      "end": 5857.59,
+      "text": "iah itu justru yang bagus banget sih yang kayak hal-hal yang kayak gitu misalnya eh salah salah ngekomit file gimana cara rever-nya atau"
+    },
+    {
+      "start": 5857.6,
+      "end": 5866.79,
+      "text": "biar itu enggak kesimpan di history ya hal-hal yang ada gitu Y yang susah tuh kalau pakai Git"
+    },
+    {
+      "start": 5866.8,
+      "end": 5879.51,
+      "text": "kalau historyya udah berantakan terus chry Pik lagi benerin lagi pusing sama yang ini kalau yang udah keburu e upload file besar Gimana cara"
+    },
+    {
+      "start": 5879.52,
+      "end": 5889.229,
+      "text": "hapusnya Nah itu susah susah ya ada ada ada ada ada toolsnya kan ada ada komen lainnya toolsnya jadi kayak bisa kayak"
+    },
+    {
+      "start": 5889.239,
+      "end": 5898.55,
+      "text": "dia per dia akan Nob per komit nghapusin link ke file yang besar itu Jadi kalau filenyaudahudah 1000 komit ke belakang"
+    },
+    {
+      "start": 5898.56,
+      "end": 5917.149,
+      "text": "dia harus ngrite ngevisi selur komit ke belakang I nah ini ada beritanya nih barusan join S berarti lah tadinya udah pensiun terus"
+    },
+    {
+      "start": 5917.159,
+      "end": 5928.27,
+      "text": "gabung ke source graf he source gra itu keren loh source graf ini apa Hah Jadi kamu punya kamu punya"
+    },
+    {
+      "start": 5928.28,
+      "end": 5939.55,
+      "text": "repository heeh heeh terus kemudian Jadi kalau contohnya kita punya di AG punya banyak Pro terus pengin tahu Conto"
+    },
+    {
+      "start": 5939.56,
+      "end": 5953.709,
+      "text": "kode X ini perah dipakai Pro lain carinya jadi dia bis seluruh kode yang ada diository priv ini jadi kayak repository juga"
+    },
+    {
+      "start": 5953.719,
+      "end": 5967.75,
+      "text": "kayak Giar untuk kode yang ada di repository Oh public search ini ada publicarnya dia Contohnya kamu mau searching deh kamu"
+    },
+    {
+      "start": 5967.76,
+      "end": 5984.669,
+      "text": "cari e yang Project yang pakai apa kemarin contohnya pakai redwood redwood JS red tuh kelihatan kan yang pakai"
+    },
+    {
+      "start": 5984.679,
+      "end": 5998.709,
+      "text": "redwood maksudnya ap bisa ada filter-filternya juga filternya mau pakai dijs aja mau apa bisa macam-macam saya pakai ini di company"
+    },
+    {
+      "start": 5998.719,
+      "end": 6006.43,
+      "text": "karena misalnya ada kita kan pakai share komponen nah cuma Enggak tahu nih dokumentasinya mungkin kurang jelas cuma"
+    },
+    {
+      "start": 6006.44,
+      "end": 6012.99,
+      "text": "pengin tahu Project Line pakai share komponen ini gimana caranya ya udah pergi ke sra cari eh dapat tuh"
+    },
+    {
+      "start": 6013,
+      "end": 6022.709,
+      "text": "referensinya di Project Line jadiak Within the company atau public yang semua with the company Within The Company oh carara manualnya adalah clone"
+    },
+    {
+      "start": 6022.719,
+      "end": 6034.35,
+      "text": "satu-satu terus cari gitu ya satuu Iya atau kalau kita punya ee perusahaannya punya satu repository di itu Misalkan kayak github atau gitlab"
+    },
+    {
+      "start": 6034.36,
+      "end": 6047.95,
+      "text": "lah gitlab.com/ something gitu ya Eh itu bisa juga Sama ya bisa bisa bisa kan ya i i tetapi Sof more than that ya more than"
+    },
+    {
+      "start": 6047.96,
+      "end": 6064.99,
+      "text": "that ada sekarang se e I tap sehari-hari Pak itu mantaph oke kodi ya prod Cum"
+    },
+    {
+      "start": 6065,
+      "end": 6082.709,
+      "text": "iniodi sama codar ajaerise resour mungkin searchnya lebih ke search yang ini kali ya yang apa namanya yang"
+    },
+    {
+      "start": 6082.719,
+      "end": 6099.47,
+      "text": "e lebih pintar kayak konteks tapi searching kode kode I ngerti Al mungkin"
+    },
+    {
+      "start": 6099.48,
+      "end": 6111.91,
+      "text": "itu menungu di sama Dib itu ya sebenarnya hal yang sama cuma istilahnya lebih halus sa diakisi diakisi Eh tapi kan enggak ada masalah"
+    },
+    {
+      "start": 6111.92,
+      "end": 6120.589,
+      "text": "kan maksudnya banyak juga orang-orang yang EE tujuan akhirnya itu exit di entah dibeli Entah diakisisi entah ee"
+    },
+    {
+      "start": 6120.599,
+      "end": 6130.87,
+      "text": "apa gitu kan itu kan adagantung he sama aja kayak ya itulah apa ya Ee resiko membangun sesuatu di"
+    },
+    {
+      "start": 6130.88,
+      "end": 6143.629,
+      "text": "atas platform orang kayak github gitu kan atau bahkan ee membangun sesuatu di atas cat GPT eh apa eh Open Ai Open Ai Kalau dulu kita"
+    },
+    {
+      "start": 6143.639,
+      "end": 6152.83,
+      "text": "bisa bikin eh summariz PDF ini gitu sekarang sudah bisa kan dari Open a sendiri kan itu ST itu pada"
+    },
+    {
+      "start": 6152.84,
+      "end": 6161.27,
+      "text": "mati tapi enggak juga karena banyak juga orang yang enggak tahu enggak Kalau ada Open a kan I atau sekarang yang banyak"
+    },
+    {
+      "start": 6161.28,
+      "end": 6172.589,
+      "text": "kan bikin produk turunan pakai api-nya apa Open Ai tapi dikhususin buat cas tertentu atau dikasih UI yang"
+    },
+    {
+      "start": 6172.599,
+      "end": 6182.149,
+      "text": "yang enak dipakai user he benar benar jadi usernya juga belum tentu ngeh kalau ternyata Open Ai bisa menggunakan itu"
+    },
+    {
+      "start": 6182.159,
+      "end": 6188.99,
+      "text": "jadi ya itu resiko dari menggunakan platform orang gitu bisa aja dilihat Wah ini idenya bagus kita bikin yuk akhirnya"
+    },
+    {
+      "start": 6189,
+      "end": 6200.79,
+      "text": "Ya terbunuhlah ide kita resiko bikin produkah Cash in mumpung masih bisaah apa mau diapisisi kek dibeli kek Yes p"
+    },
+    {
+      "start": 6200.8,
+      "end": 6212.27,
+      "text": "Oke kalau gitu udahan dulu y udahan dulu sampai jumpa minggu depan eh itu github jangan lupa ke github kita tadi yang mau"
+    },
+    {
+      "start": 6212.28,
+      "end": 6222.109,
+      "text": "ngajuin topik belum ada teksnya ya Oh iya belum Belum apa biasanya pakai bitly apa keesanaain kan pakai I belum kita"
+    },
+    {
+      "start": 6222.119,
+      "end": 6236.83,
+      "text": "pindahin belum migrasi jadi kita tulis manual aja dulu github.com/ngobrolin terus ke discusion saya kasih saya kasih ininya linknya Ya sudah"
+    },
+    {
+      "start": 6236.84,
+      "end": 6247.43,
+      "text": "Difollow terima kasih Jangan lupa ke sini kalau teman-teman mau diskusi mau nambahin topik tuh Wah monudah paling"
+    },
+    {
+      "start": 6247.44,
+      "end": 6263.149,
+      "text": "atas yang jadi kitaisa diskusi di sana Diar jam Hari apa Jam .00 Malam dan hari"
+    },
+    {
+      "start": 6263.159,
+      "end": 6270.79,
+      "text": "selasa malam siapa tahu nanti topik-topik yang ada di sini bisa kita angkat ke ee live kita oke itu aja untuk"
+    },
+    {
+      "start": 6270.8,
+      "end": 6277.27,
+      "text": "malam hari ini Terima kasih banyak buat semuanya yang sudah diskusi malam hari ini ee sampai ketemu lagi minggu depan"
+    },
+    {
+      "start": 6277.28,
+      "end": 6286.96,
+      "text": "Bye bye bye"
+    }
+  ],
+  "fullText": "halo halo halo selamat malam selamat malam kita kembali ke setelan pabrik kita bertiga online dan di rumah masing-masing Oh selasa malam wak kita kafe waktunya kita ngapain ngobrol ngobrolin ngobrolin web gimana nih yang habis dari Makassar Makassar Ada cerita-cerita apa ser Iya seru ya teman-teman Yang yang ini ya yang apa yang nontonin kita juga ya mungkin ada teman-teman di sini yang dari Makassar boleh ini ya si boleh komen-komen ya ini ada siapa nih tomat Nah ni tip abset dikira kuliah ya selamat datang ya jadi seperti biasa kita kembali ke format awal kita bertiga dan di selasa malam jam .00 kita akan ngobrolin ee sesuatu yang berhubungan dengan web atau tidak seperti malam ini tidak hanya ee bisa digunakan di aplikasi web atau di proek-proek yang berhubungan dengan web tapi juga projek secara umum hubungan sama pemrograman apapun sama kode Heeh sama pemrograman apapun yang ee Biasanya kalau kita bikin kode itu kan kita sering e coba-coba Terus misalkan e bikin fitur baru terus habis itu Eh kayaknya yang kemarin e solusinya lebih bagus kita harus kembali lagi ke versi sebelumnya ada apa ya e ada beberapa orang ngerjain fitur yang berbeda juga e Apa harus harus sama harus bekerja sama he e kolaborasi nih biangnya Makassar nih Apa kabar Mi apaar lancar nih Bahasa Makassarnya ya sabar enggak yang yang keingat cuma kalau misalnya lagi di jalan macet terus mau disalip e Bilang apa bilang orang biar sabar tuh baik versi sopan versi nyolot udah tahu caranya itu doang yang [Tertawa] nempel banget ya Oh berarti berarti Eka next time-nya harus ke Medan oh kalau itu beda Itu enggak ada versi-versinya nyolot semua udah oh oke nyol nyolot banget oke ya jadi malam hari ini kita akan ngobrolin tentang e manajemen eh source code Ya gimana cara kita manage Gimana cara kita mengelola eh baik itu rilis versi ee mungkin bisa menampung isu atau baks yang apa yang muncul ee misalkan kita bikin Project open source ataupun Project di kantor gitu ya Eh Apakah pakai semacam ekosistem pendukung kolaborasinya ya jadi di luar kodenya sendiri apa yang memudahkan kita eh ngetack kode kita sama kolaborasi dengan Eh teammate teman setim biasanya biasanya kan kalau kalau kode kons itu kan biasanya kita Kirimnya via email kan ya Misalnya versi versi 1.0 kita kirim he versi 1.0 terakhir terus nanti terakhir dua sumpah sumpah ini yang terakhir atau pleas jangan diganti lagi Iya Ya mungkin mungkin teman-teman yang yang apa yang sekarang mungkin udah udah udah Kay I sesuatu yang wajib menguasai gitu ya I Kayaknya begitu mulai begitu mulai buka komputer lihat tutorial langsung Git kalau sekarang R tapi kadang-kadang saya juga sering lupa bikin proek baru bikin ini ya diitudahudahahnyaah jadiengah fitur atudah jadi fituruingit kadangadang jug ser sih jadi di komnya pas sudah selesai semua itu enggak ngaruh ya tapi itu bisa nanti kita itu ada caranya kalau misalnya mas Li mau iyaanya yes yes ya jadi eh apa eh enggak usah eh khawatir karena bukan hanya Git yang kita akan bahas malam hari ini jadi kita akan bahas mungkin dari dari sejarahnya dulu ya eh di awal gimana Terus eh apa ada solusi-solusi yang belum distributed nah seperti SPN SPN ini udah distribut ya sudah udah distribah Mas ada yang desentral masing-masing punya Bisa apa gak perluron jadi kalau saya dulu pakai SPN juga tiap mulai kerja tuh harus Refresh duluron dulu semuanya habis itu baru mulai kerja ya kan Habis ituah selesai dikitis nanti lagi jadi kok enggak ngejamanin sama sekali sih pakai super Iya ini di sini teman-teman yang apa yang nonton mungkin bisa share eh pertama kali pakai version control apa apa ya coba ya pernah pakai version control apa aja ya Git udah pastilah ya kayaknya udah semua pakai Git gitu ya mungkin ada yang pakaial pernah pakai sour kol apa aja sebel selain Git nah selain Git ya mungkin ada yang pakai eh cvs bukan CSS cscurent version serv apa github beda lagi G Git sama github beda ya tolong dibedakan ya kalau kalau github itu hostingnya saja hosting untuk github lelayanannyanya jadi kalau proek kita ada diit kitaak mesti punya punya opsi untuk taruh di github bisa taruh di bitbet bisa taruh di Git sistemnya Git itu sistemnya terus ada banyak e perusahaan yang membuat layanan eh memudahkan kita pakai Git ya itu tadi apa nah nanti kita bahas ibaratnya kayak hosting lah ya jadi Project kita dihosting di satu tempat itulah github gitlab dan lain sebagai apa fitur tambahan yang ya springnya lah betul Eh si cvs SPN juga ada ada service atau ada hostingnya juga kan gitu Jadi masing-masing ada gitu apalagi yang sudah e terdistribusi yang sudah eh apa namanya yang sudah e untuk kolaborasi pasti ada nah ini udaki dia pakai svn svn lumayan banyak juga ya yang pakai ya Enggak banyak sih bar ada yang Pak ada yang pakai Git terus disink ke Dropbox bisa bisa Iya dulu saya juga melakukan karena takut I biar punya personal cop Iya kita tiba-tiba dikick dari organation tempat kerja g amit-amit Itu kan folder gitnya gede ya cuma penasaran sih apa sekilas nih e sistem-sistem lain sebelum naik banget kayak sekarang itu sistem-sistem lain kayak subvion dan lain-lain itu sewidpread e Git sekarang engak sih Eh Manya itu cuma di tempat kerja aja eh Manya di setting profesional atau kalau orang baru belajar juga eh apa banyak tutorial buat pakai sistem-sistem kayak gitu soalnya gue pribadi pas baru belajar kayak engak pernah sama sekali gak pernah nemuin tutorial tentang version control sebelum ke G ya dulu kayaknya cum disuruh pakai FTP aja FTV atau biasanya kan panel hosting apa eh software hosting segala umat tuh sejuta umat Tuh kan ada file editornya ya biasanya Cuma suruhet up FTV atau pakai file editor Udah gitu doang duluakorialnya salah satu apa ya salah satu pencetusal coding Adah github jadi yang mempopulerkan e sebuah proek ditaruh secara publik itu kayaknya dimulai baru diperkenalkan secara luas baru orang banyak kenal itu dari github walaupun sebelumnya ada ya E kalau gak salah Google Google code dulu ada Google code itu bisa pakai SPN kalau gak salah ya SPN apa merkurial pas udah meninggal juga itu pasti merurial Google itu merkurial Iya terus ada juga yang namanya source Project eh source Force source Force itu juga e itu buat manajemen juga ya Selain buat download ya Eh sour V itu kayak ya kayak giitub lah benar benar benar benar gitu benar benar tapi sering banget eh kalau ke S SP itu biasanya buat download download Iya karena tinggal nyedot aja kan ada lagi yang namanya code Project tapi sekarang code Project sudah jadi artikel doang yang saya lihat dulu ada kalau code Project itu sudah Ee bisa kayak ya kita ng-hosting open source produknya kita bisa di sana dulu sekarang enggak tahu lagi nih Saya sekarang Project Iya sudah banyak digilas oleh github dan teman-teman Oke kita mulai dari mana nih mulai dari mana nih bahasnya mulai dari linknya Ian lah soalnya yang lain yang lain enggak ada linknya ya history dulu history history mana dia Bentar ya ayo buka eh history Nah jadi awal-awal dari 1960 Iya zom in zoom in mulai dari tahun 160 tuh jadi IBM itu system Heeh mulai mulai bikin apa kayak bagaimana mengontrol version control di lokal mereka sih sebenarnya ya m belum ada internet kan ya belum merekaulis nya Eh diprinth yang Mes ABS kayak mesin absenak nah itu yang pertama kali sode control system itu sccs tuh SCM nah terus gu gak pernah pakai danak bukan gak pernah pakai dan gak tahu gimana ada linknya sih Coba buka linknya itu situsnya udah lama banget masih ada ya tops ee ada di itu tadi di udah hebat masih masih ada GR ini linknya ini jadi ya Open eh dia si iand aja sebenarnya Cuma bagaimana cara kerjanya sistemnya kayaknya ya pakai folder system jadi Sudah ada folder foldering system Bagaimana cara kerja Saya tak tahu kayaknya dari yang sekarang masih hiup kayaknya enggak ada yang tahu iya karena yang pakai dulu kan ya minimal pensiun lah semua yang dulu pakai ini Iya terus keluar RCS itu dari genu genu bikin RCS efficient control system Iya ini dari gu Project jadi karena ada Linux kan Linux itu kan sebenarnya eh kernelnya yang dibikinelnya nya dan di atasnya ada g g Linux kan nah eh dia bikin RCS jadi komand Line juga sebenarnya untuk untuk kontrol e source code dan ini sistemnya Sebenarnya dia bundling bukan bundling sih sebenarnya komen-komennya itu enggak cuma RCS tetapi ada Div patches patch ya Pat Sampai sekarang masih digunakan loh jug digit belakangnya itu ada patch ya itu kalau misalnya kita Git merge apa gitu dia masih pakai masih pakai komen itu patches jadi gen yang dipakai Div Terus apaagi merch eh reverse macam-macam Oh dari situ ya Berarti konsep-konsep kayak Iya lalu itu kan masih lokal lokal SCM ya maner ya masih lokal terus mulai ada kebutuhan makin besar kan jadi mulai ada dibuat ee distributed lahirlah yang namanya cvn eh tahun 86 Eh cvs cvs nah cvs tahun '86 itu cvs e dan kayaknya cvs mulai banyak yang pakai sampai 2000 ada svn nanti ada juga ee merkur Ya ada merkurial juga itu kalau merkurial itu pakai HG ya karena hidr girum hidragum itu merkuri merkur I ada yang pahamak kenapa dia HG ya kan di tabel elemen HG adalah merkurri jadi merkurial nah HG itu jadi cvs merkurial HG Sor cvs subvion merkurial itu sudah distributed S scee management system Ar makudnya nah gimana ada kalau saya gak tahu cara kerjanya merkurial ya karena ini masih fokusnya cvn sama subvion jadi nanti daripada saya Sal ngomong kalau svn itu sentraliz jadi ada server jadi harus kalau svn itu harus ada server svn cvs harus ada servernya ada servnya dan e kodenya kita ituh sebenarnya versioning dan segala macamnya ada di server yang di lokal kita hanya bisa sedot dan hanya bisa pakai di lokal kalau sudah selesai kita hanya bisa kirim jadi e sebenarnya kita enggak punya lokal copi sebenarnya Tapi saya bagaimana cara dia ngaturnya enggak tahu e beda sama berarti itu kalau dihosting di sistemnya dia ya kalau kita perlu baru kita nyedot terus kita kayak ng lagi M Jadi kalau sudah selesai kita kan ee Kalau di subvion apa ya komit-nya ya Bentar gua lupa svn comit itu kalau enggak salah namanya komit jugaah ee Iya svn itu ada ada ada bahasanya komit Saya kurang tahu komen lainnya kalau di svn karena saya dulu sukanya pakai tortoise tortoise i jadi enggak perlu enggak perlu komen LINE kan iyaoldernya terus kan jadi enggak ini dia svn adalah yang source code manajemen yang pertama kali saya pakai zaman itu terus kemudian eh si eh Oh masih ada satu lagi namanya Beat keeper itu jarang ada yang tahu Kayaknya Beat keeper Iya belum belum pernah dengar Iya juga ituer Oh ini kayak kayak gitub gini ya I ini sebenarnya si e si Lin yang buat yang buat Git itu Awalnya si Lin ya linor ya e jadi dia ee ada videonya nanti silakan tonton dia tuh sangat tidak suka dengan cvs dan sangat tidak suka dengan subversion jadi daripada daripada dia tidak daripada dia daripada dia dia sampai mengatakan kalau ee siapapun yang suka pakai cvs harus masuk mental institution sampai begitunya [Tertawa] Nah jadi em dan kalau misalnya dia harus milih katanya bla bla bla dia eh apa dia terinspirasi sama Beat keeper eh cara distributnya meskipun Git tidak pakai apapun dari Beat keepeper ya jadi Git wau dia buat itu adalah murni cara eh dari nol dia eh dia dia kayak from scatch Apun yang e e apa secara konsep kayak dia punya konsep sendiri dia k ah yang lain jelek semua jelek visi gu doang yang paling Oke yaudah Cuma maksudnya dia kayak gitu dia mempertanggung jawabkan dia beneran bikin Iya betul meskipun dia cuma bikin doang awalnya ya selanjutnya diterusin sama gitu kalau gak salah nah terus git itu punya satu Kenapa dia e kenapa dia bisa berbeda sendiri itu local and distributed SCM jadi dia bisa berdiri sendiri dia enggak butuh server ya Git itu tidak butuh server e dia dia e sebenarnya isi perut Git itu cuma file sistem enggak ada database databasean di situ dan itu cuma beneran murni data e murni file saja file isinya file itu file yang mana isinya adalah node graf yang ada pointer ke mana-mana t file aja kalau teman-teman ada yang belum pernah ada yang belum lihat Coba di aja do file ya buka aja do itu di semua folder kita yang folder repo itu kan ada dotgnya terus di root juga ada ya yang buat apa yang global di tetapi di ee ada nah E itu biasa J bedanya antara Git dan yang subvion atau saya gak tahu merk nanti salah ngomong lagi Git dan E subvion atau cvs dia bisa berdiri sendiri Mak ininyabentral jadi siapun yang ngekone eh siapun yang ngeklone e kode kita ya udah itu adalah murni semua copi ada di situ jadi bulat-bulat gitu copi bulat-bulat J benar-benar distributed nah dan dia karena enggak butuh yang namanya database Jak pakai Apun jadi benar-benar hanya file sistem makanya dia bisa cepat banget dan bisa e kompatib ke banyak ke banyak operating system kan karena cuma connectnya ke operating system udah lahirlah Setelah dari git ini barulah lahir yang version-vion e service yang kayak github bitbet e gitlab apagi gitlab kalau mau private itu kan Itu online ya ya atau kalau enggak mau publ berbayar ya kalau mau private dia berbayar Kalau mau yang open source beneran yang bisa kalian hosting sendiri itu Git laab Git Git Gab juga ada ada hosting service-nya ada Open source-nya bisa di dimanage sendiri bisa dimanage sama si gitabnya I ada yang murni Hanya gity itu yang murni open source yang kalian hosting sendiri itu namanya Git Iya g apa coba bukan deh Git ya teh teh Git Oh Teh Git oh g g tuh saya pakai ini di local server home saya untuk hosting yang gak bisa keluar dari rumah ini ada GT Cloud ya biasa kan open source pertama dia bikin keren dulu habis itu bikinnya cari makan Iya kalau enggak Siapa yang bayarin berarti sama kayak gitab juga mirip-mirip Iya cuma kayaknya ini dia gak ada ininya kan gak ada yang public source Coba lihat atau public Beneran dia hanya khusus untuk enterprise company yang mau pakai internali aja Iya beda target Nah apaagi ya Tapi semua serv itu kayak cuma mengemas lah kayak mengemas sistem tadi kan jadi cara cara ngomit itu kan tetap sama ya Iya itu sebenarnya terinspirasi dari zaman dulu yang namanya patches jadi kalau misalnya kita ee sampai sekarang ya sampai sekarang itu si e apa namanya si projectnya WordPress itu masih pakai subvion Nah kalau saya mau kirim Sampai sekarang masih pakai meskipun dia ada ada mirrornya sudah ke github ya tetapi source code utamanya WordPress itu masih di subversion ininya eh yang apa bahasanya yang originalnya nah e kalau kita Kalau sekarang sih sudah beda flow-nya sekarangsekarang bukanya di github pr-nya jadi nanti sudah ada automation nya jadi kayak Kalau PR yang sudah sudahudah diapprove nanti dibikin automationnya terus jadi patch dikirim ke e tiket jadi kalau di zaman sebelum dia connect ada flowfow ke github kalau saya mau submit submit kode ke WordPress Core itu saya benerin dulu disionnya sudah jadi semuanya di-nya itu saya export jadi patch jadi jadi patch file ya jadi satu file doang jadi P filenya itulah yang saya kirim ke ke tiket nanti saya attach jadi tiket nanti yang komitternya yang download patch-nya itu komit ke sionnya Nah itu caranya masih Sampai sekarang masih kayak gitu juga dia pakai custom pipeline yang ribet juga ya sebetulnya Iya Bet zamannya si Linus waktu dia eh knernel Jadi sebenarnya knernelnya itu hanya ada di Lal lookal file syistemnya dia ya kan Di mungkin di laptopnya dia atau di Hard disknya dia Jadi kalau dia mau menerima page itu dari email kan mereka punya email apa namanya email exchange kayak grup gitu ya Maing list kan Iya mailing listnya itu kan berkirim di berkirim di file sor kirim patch filya jadi patch filenya sama tarb yang di tarb I nanti dia sedotbnya dia running test nya di lokal dia patch e sour cod-nya dia terus dia kirim lagi ke Maing list tarb updateannya dia mernya has mernya yo jadi begitulah cara mereka mengurus e Kernel zaman itu dan karena capek ya Mulai banyak timnya kalau masih 10 orang yang kribute gampang kalau sudah ratusan yang contribute atau ribuan kalauelux ya ribuan that's why dia bikin g Karena dia sudah megap ng itu doang belum lagi Yang namanyali Kan kalau biasa itu bisa juga kan Nah kalau kan pusing dia I itu ya jadi si apa Git ini memang dibangun awalnyaus untuk [Tepuk tangan] menanganienganguxengang Linux Ya iya i karena keistimewaannya adalah bisa punya local file copy completely distributed someone else bisa punya Kernel source code dan contribute ke dia punya e dia maksudnya si Linus punya dan eh bisa forking sama satu lagi bisa itu loh e merge strateginya dia yang keren merging strateginya dia yang keren di situlah Kenapa Git Excellence merging strategy sama distributed copy itu konsep utamanya Sayangnya kita belum ada pengalaman menggunakan eh merkurial dan lain-lain ya perah Pak kalau dulu Google Project kan pakai merkurial Gua pernah pakai merkurial sih HG Iya maksudnya kita bandingin eh bandingin dengan Git gitu coba aja Bu ke dokumentasinya Mercurial apa kayak semacam tutorialnya Mercurial eh bukan maksudnya lebih ke ini kalau cara penggunaannya e komit dan lain-lain kayaknya itu hanya bisa dirasakan kalau kita udah ee pakai itu di Project gitu Kalau cuman lihat tutorialnya atau ininya sih kayaknya enggak Berasa ya tapi bolehlah kita coba ya Iya [Tertawa] Dar gak tah sama itu cuma mungk kalau yangah perah pakat bisa kayak bagusnya di mana Kelebihannya apa cocoknya dipakai kalau apam eierter dianyaisa di ged ya yang gede bisa paket ia iya gak bisa guide misalkan tutorial kalau ngihat sini sih rasanya sama-sama aja mana dia tutorialnya kalau baca ininya apa Gua barusan search di Google different speama HG Oke kalau merkurial enggak boleh enggak bisa rubah change history cuman itu iya change history itu maksudnya kita balik ke komit lama terus kita bikin apa kayak branch atau apalah komit Baru dari situ atau gimana Eh ini deh bisa kita baca sama-sama ini sih dari inianyaanyaat tuh ada di Git itu lebih powerful merkurial lebih simplerler power biasanya by Banyak ininya banyak kita B banyak fiturnya dan g Itu sebenarnya karena kita punya Lal copi kita terserah deh mau ngapain samaalop Kita tap sama kan Mer juga gitu kan merkri lebih terbatas lebih banyak di lebih op terus dibalikin ke Central server lagi Oh enggak juga sama cuma coba turun turun turun dikit itu kan what have in common Ini sama ini sama hal yang sama ini yang berbeda ability Git tuh lebih kompleks dengan banyak komen Iya Fiturnya banyak oh Justru lebih lebih ribet Git ya Iya lebih ribet jadinya kalau untuk ee apa ee pengguna yang baru menggunakan mungkin iyaar curnya lebih tinggi berarti ya betul betul is better for exper branching branching means Working with fil source code that to modif branching model is more effective Mer branching model confusion brand saja kadang bingung gimana kalau Iya fundament and meril vcs they just designently and require different level of expertise has become industrial standard Mer that easy to learn jadi eh kesimpulannya A itu mix aset timnya jumlah timnya besar di seluruh dunia atau kebutuhan keamanan yang tetap Yes nah ini pertanyaan nih buat yang di sini sama yang di online yang kalau pakai Git itu pakai pakai UI atau pakai comand Line enggak comand line com l Oh pada comand Line semua sini ya sama teman-teman pakai ini enggak pakai UI enggak pakai github desktop atau pakai yang divual sebah Ki jangan-jangan pada e Enggak tahu ada apa github ada aplikasinya ada di handone juga ada handphone juga ada banyak yang belum atau di langsung di vs Code mungkin di vs Code karena udah ada kan Oh kalau di vs Code extension-nya pakai itu enak sih Kan udah eh udah langsung ya udah ada Heeh di sidebar i i enak nge-adnya kayak visual kita nge-ad satu per satu tuh foldernya Terus kalau ee kalau misalnya ada yang kita lupa Ini apaan sih bisa langsung dibuka kan langsung view-nya tampilannya jadi Div kan di antara apa eh file baru sama file yang eh terakhir diit tuh kalau Alif pakai comand Line kalau daily spirit pakai sidebar vs Code Damar juga pakai sideb vs Code enggak pakai github desktop lebih C Flex Bro Nah itu Bro ada temannya namanya greit Bro lagi engak datang kalau belajar Git diimana sih ehajar itu tadi GSM sih Nah ada beberapa tuh linknya Coba lihat deh di Ada Ada Git tutor kan iya iya iya ada Git tutor pernah perahm tadi Bentar enggak enggak tahu enggak enggak tahu [Musik] gimana ya Aku gua lupa guudu belajar di tutor tapi di mana Iya dulu ada interaktif eh interaktif tutorialnya gitu desktopnya ada tapi enggak pakai biasanya pernah lihat enggak pernah lihat sih Git and github learning resource du sih pertama kali cuma baca apa dokumentasinya di apa git-scm itu git-scm.com eh dokumentasi Ah ada sih mungkin iya mungkin saking e saking kompleksnya si Git tadi seperti yang di eh utarakan oleh artikel yang versus merkurial tadi Eh jadi banyak cabang-cabang atau banyak flow untuk menggunakan Git ada github flow kalau dulu ada gitfow gitfow dulu gua pakai itu gitfow kayaknya pertama ee pas pertama banget belajar disuruh diharus-harusin banget belajar Git low ya tapi ternyata kayaknya yang bikin juga bilang ah udah sampai itu maksudnya itu memenuhi kebutuhan dulu kondisi dulu pas dia Mencetuskan itulah Terus lama-lama Seiring berjalannya waktu udah kayak 10 tahun e sekian tahun kemudian kayak Oh ya Ternyata realitanya itu udah bukan flow yang ideal I Siapa yang masow iya ya Siapa yang di sini masih pakai gitflow eh Tolong baca lagi artikelnya karena yang bikin sudah mengupdate di Mares 2020 bahwa model yang dia bikin E gitflow itu e berlaku sudah 10 tahun yang lalu dan tidak eh disarankan digunakan lagi Iya karena branchingnya jadi ribet jadi ribet nah yang simpel kalau sekarang lagi ngetren itu Trun base kan I semuanya semuanya at semuanya e jadi hanya dimanage yang main doang ya kan He selebihnya nanti kalau mau bikin fitur ya bikin branching sat gabung lagi ke main jadi gak ada Def gak ada main Cum ada satu main aja yang menjadi sumber apa E sumber utama Jadi gak perlu kitanya kita S dulu dengan main gitu kan dan lainain cuma itu berarti eelopernya menit sekali kudu kali ya enggak juga kan bisa Dim atau biarak kebanyakan Biasanya rebase sih biasanya rebase Jadi sebelum sebelum dimge itu dibase dulu benar enggak sih di ya di merge dulu di di merge ke di lokal kan di di lokal dulu Iya J terangnya diupdate dulu dari dari sor lal Update dulu dari terang terus di Ya merch itu kan ada fastw sama ada rebase jadi t Yes ada rebase Heeh jadi gitu eh ya teman-teman bisa baca sendiri cari aja trank base eh development kalau dulu kaken Iya kalau dulu ini menjadi salah satu sumber ya kalau sekarang github Eh 2010 artikelnya terus dia update note from 2000 iya iya kalau gow itu lebih ke pakai PR ya request ya Modelnya po request heeh heeh jadi eh manajemennya ada di gitub gitlab gitlab merch re merch requ re request bahasanyaamp full request ya mirip-miriplah 11 12 jadi trennya ke E makin ke sini service gitu apa mengedepankan unsur sosialnya ya kayak si apa itu kan PR itu kan ada Unya kan maksudnya Ada apa sebelumnya ada isu Isya ada id-nya kita dilanju Nom IDnya is itu kan itu kayak apa ya itu UI banget ya u danemudahkan ini pernah ngkomit dan ngpush Photoshop file yang 100an Mega saya per pernah gak sengaja terus karena lama banget lama banget jadi Sar salah pernah gak sengaja ngomit juga untung apa Project pribadi ya Langsung diik langsung Iya ini ada pertanyaan bagus nih dari yang dari Cloud provider kayak Azure Google Cloud atau aws peruntukannya gimana peruntukannya untuk integrasi mereka biasanya pakai Git juga tapi lebih terintegrasi integrasinya lebih gampang karena- itu lebih banyak yang bisa diintegrasikan Sara kalau punend jug ada sendiri betul kalau github kan mungkin terbatas Yaya sebb keb yang ini dia bisa langsung kect enggak perlu mungkin ee pakai web Hook juga di belakang layar saya enggak tahu tapi kita bisa pilih kalau ada yang dipush ya kayak inilah ya kayak kita bikin peline sendiri tapi ini lebih otoma lebih otomatis gitu Jadi itu peruntukannya ke sana sih bukan untuk e gaya-gayaan ya dalam tanda kutip ya kalau github kan buat gaya-gayaan kan kalau reponya publ tapi kalau reponya private juga enggak bisa digaya-gayain enggak kelihatan iya terus kalau komitnya ke apa private repo dari private dari organization tuh enggak masuk hijau-hijau kita lagi masuk bisa dietting ada settingannya B bisa B bisa cumanak kelihatan gak kelihatanel Cum jojonya aja Iya Iya yang gua suka itu eh pernah push Indah Siap Mas Flex Bro semua juga kayaknya pernah ya senas E yang apa namanya tadi yang engak suka itu si siapa namanya heroku tuh ya begitu mulai aja dia udah langsung ngasih Git reponya dia kan kayak heroku Init aja langsung kasih gitnya kita komit dia langsung deploy otomatis itu enak banget developer experience Her iya itu continuous delivery-nya ya bagus ya Iya sayang sekali ada pertanyaan dari Mas Danar Mas dan Damar ada alasan enggak ada enggak enggak Pak coba diklik dulu lambat diklik ada alasan enggak alasan untuk enggak pakai gui kan tadi kita bilang enggak pakai gui Iya iya alasanbih C biar cepat ya dan plus gini cepat perah saya kalau pakai enggak salah engak ada hal baru yang perlu dipelajari oh bukan enggak salah komitak salah komit Iya jadi saya tuh enggak pernah pakai Git comit Min am gititnya satu-satu Git add-nya satu-satu Iya bahkan Git comit minp pernah pakai enggak Git comit minp Apa itu P jadi Pak Nah kita demo aja ya cari Pik bukan sor bukan cari PIK tetapi pernah enggak kayak mas Riza bilang tadi kalau misalnya ng-develop feature tapi lupa ngekomit jadi sudah jadi feature-nya tapi belum dikomit-komit H pernah kan Gimana tuh pernah pernah terus Masa mau dikomit semua file itu juga susah ngetraceb-nya ya kan i jadi kayak lebih komit itu harusnya kecil-kecil dan lebih unit ya kalau memang rubahnya a b c saja dan satu dikumpulin ke satu fitur yang berubah aja gitu ya Jangan semua yang beda-beda diubah Nah kalau itu kita bisa ngepik Mana yang mau di di ini mana yang mau diubah iyau kita coba demo gak boleh bo Coba tes aja ya t screen bisa lihat ya kita pindahin dulu ke sini manana sih dia enggak mau ditutuplah oke terus Eh ini aja L nah tentunya Git Init dulu ya terus t file [Musik] 1t ya kan Terus kita apa ya hell from file Oke File 2 Hello World from file 2 ya terus kita status brandnya apa brnya main [Tepuk tangan] ya kosong ya Jadi kita pertama kali kalau misalnya kalau mauit satu fileit eh salah Git add titik Ya kalau mau semua atau Min all tapi ini menurut saya agak terlarang Kalau mau jangan G admin itulah terjadi kenapa Photoshop bisa ke komit i jadi biasanya fil-enya ya G kalau ini kan ini kan dia baru diage change ya kalau belum Belum dicomit baru bisa juga stage file jadi Alah kok kan reset bukan iya reset itu exak banget yang di reset ya file 1 ya kan [Musik] terusit Oke kita add File 2 dulu deh gitu ya biar nanti bisa barenganit add file Oke sekarang kita sudah di BL terus kita kemudian ubah ini gitf File 2 modify in File 2 terus kemudian e kita rubah lagi Kita rubah lagi ada tambahan terakhir nih revisi eah gitu yaisi tetapi sebenarnya Eh Yang Yang line ini sama Line yang ini itu beda fitur bed harusnya beda komit karena dia beda enggak Bole maksudnya dia sesuatu yang completely different Thing kayak ngerjain hal yang berbeda ya Iya jadi Git comit minp nanti dia tanya ini mau di stage hang ini enggak gitu Kalau enggak ya No gitu cuma ini karena terlalu dekat ngerti ngertierti karena terlalu terlalu dekat jadi dihitung satu tapi dianggap satu iya dianggap satu tapi kalau misalnya filenya kita besar kita bisa ngstage h satu-satu i kita bisa ambil dari Eh gini deh gini deh sor e namanya apa P itu apa artinya kepanjangannya yes no P itu adalah oh P patch Interactive patch Oh Interactive patch interac patch Nah bisa juga kita file satu file S eh gini ya edit Inv eh in lah ini tangan lagi ngaco terus kemudian kita gini Git comit minp saya punya banyak alias-alias keren-keren lagi Eh kit kalau pakai Om CSH mah bawaan maksudnya bisa install plugin aliasnya otomatis di ditambahin ke situ kan E saya banyak alias lucu-lucu G GSP G publish pulsi [Musik] clear kit 3 itu bisa kalau pakai kalau pakai mesin orang jadi bingung karena udah terbiasa GST langsung eror semua gu enggak ada coba ya kita ke paski ya Tuh bisa apa namanya ya dan enaknya G itu bisa tambahin apa namanya Bisa tambahin e alias jadi bisa bikin komen-komen sendiri nah ini kembali lagi ya ke pertanyaan Damar ya Ken ada enggak alasan enggak pakai GUI karena editor kita aja enggak di GUI Mas jadi editor kita aja di comand Line Masa kita pakai gitnya pakai GUI itu hal yang lucu itu nambahin urusan aja sih nambahin hal yang harus dibuka dan dipelajari kan kita apa kayak ada apa itu kayak reflex lah memory yang kayak Yaudah ngti kan atau g gitu kan udah muscle memory tapi kalau harus pakai GUI lagi kan harus ngebiasain tuh Mana yang diklik shortcutcutnya iyaakakituitnya pakai gitab stop kan aneh ya Enggak sih kadang ada kadang ada ada orang yang visualize ada orang yang visualize lebih mengerti dan bisa lebih apa lebih lebih careful kalau dia lihat visualnya ada yang kalau saya lebih lebih ribet kalau harus buka lagi aplikasi itu bahkan sekarang kalau kayak ngit apa sor kalau match confli aja via vs Code Saya bingung lebih gampang via Maaf ya Iya karena itu sih kalau orang baru belajar kan kalau belajarnya pertama dari e GUI Apa aplikasi desktop ya apa mental mental muscle memoryya mental modelnya shortcut yang apa keyboard shortcut yang dihafalin Ya udah itu mah kayak udah teranjur Cum Maksudnya kita engak pas belajar Enggak dari situ kali ya mas konfliknya si vscoode tuh membingungkan deh saya lebih senang pakai yang si kalau ui ya pakai si jetbin punya Oh jetbin jetbin enggak jet Brain itu si ya PHP Storm webstormya tah tah itu match confflict resolvernya lebih keren lebih mudah di dilihat daripada cvs code ada yang pernah enggak sengaja ngekomit yang apa masih masih ada konfliknya enggak jjan gua doang yang masih ada itu e kan kalau konflik ada tanda ada penanda konfliknya tuh yang tanda lebih besar oh iak lebih besar lebih besar lebih besar gitu sering langsung Tan karena langsung engak Jalan fatal error fatal error tuh diminta demoin tuh coba INT Waduh enggak punya intelijen Oh enggak punya katanya pakai kan pakainya PS p stom sama webstom sempat punya tapiak gak instal yang intelijennya sama aja kayaknya iya iya ini ini benar sih nanya yang pakai vs Code ya Kenapa pakai vs Code tapi gitnya masih di Li gitu ya itu lebih masuk sih kalau yang pakai pai du-duanya sih du-duanya i adang kalau misalkan kita belajar dari CLI kadang-kadang kita gak tahu cara pakai guya begitu juga sebaliknya Jadi tergantung kita belajarnya mulai dari mana Biasanya sih sama satu lagi kalau misalnya alasan kuat pakai portability contohnya suatu saat kita mau di Cloud atau diver ke bas gitu ya kalau misalnya di bas kan biasa ya kalau Koboy kan kobboy cakep Koboy Koboy ganteng itu biasanya kalau benerin di production itu enggak pakai CCD tapi langsung ngebas ke production aja di server file ini eh fil-ya di-update dicomit dan push dari server ke ke gitar itu namanya Koboy ganteng nah itu siapanya lebah ganteng iya kalau lewat cicd semua kelamaan jadi kalau benerin sesuatu di production ini rasis Siapa tahu yang yang perbaiki cewek masa ganteng juga ya udah kobboy ko cakepoy cakep kobboy handle tapi kan benar ya kobboy kan Cowboy kan sudah benar kowboy itu harus ganteng Jadi sebenarnya malah bahas bahasa coba ya Maksudnya tadi portability kayak code spaces Ya kan kalau kita di code spaces atau di apa tuh yang biasanya kita yang buat ngetes javascript CSS html yang online yang ada kontennya kan dia conectnya ke github atau ke gitlab kan ng ngful code kan Jadi kalau misal dari sana kan kita enggak belum tentu ada guinnya kan Nah atau misalnya ada guinnya beda gitu Jadi kalau pakai S comand Line tuh lebih lebih portability jadi bisa ke mana-mana intinya kalau pakai eh CLI itu lebih bisa flexing flexing tapi k fleksibel gitu tanya flexing dong sama itu satu laginya kalau buat buat bikin dokumentasi atau tutorial atau artikel bayangin deh ribetnya kalau pakai CLI eh buka sidebar yang kiri kiri atas pencet yang mana Kan susah kalau misalnya apa pakai komen kan tinggal tulis saja Git add atau apalah Iya betul oke nah sebelum apa ini kan kayaknya sekarang Eh apa ya De factonya adalah Git ya eh apa manajemen kode sumber itu atau eh SCM ya manajemen itu pemenangnya pemenangnya adalah Git ya untuk saat ini karena pengguna yang paling banyak serv yang paling populer juga github dan teman-temannya eh tapi di Apa ya Eh beberapa bulan atau beberapa tahun yang lalu ada satu SCM yang cukup menarik sebenarnya tapi belum pernah kesempatan nyoba namanya fosil fosil ini kayak merek G ya Eh merek apa sih Iya gitu deh iya jam fosil ini dikembangkan setahun setelah Git jadi dia keluarnya 2006 Git itu 2005 ya Kalau enggak salah ya I 200 dia ini 2006 ee dia lebih simpel karena ee apa ya Ee dia sama ama k Mer tapi ketika kita gunak langsung sudahenduk for kayak frameame ada Iya bisa self hosted bisa ditaruh di eh web server atau di server Gitu ya Nah contohnya Ini dia mengelola eh source code-nya dengan typo ini ada komit message-nya di sini ada ada forumnya juga mau lihat kodenya juga ada semuanya ada di sini jadi begitu kita lakukan e fosil Init dia akan kita akan dapatkan ini secara gratis jadi ini sebetulnya kalau github kan bikin produk berdasarkan hal-hal ini fitur-fitur ini adalah e kayak offering atau fasilitas atau fiturnya si github kan Nah kalau fosil ini kayak buildin ya fasilitas itu fitur-fitur itu Kak udah build di sistemnya diaul dan yang bikin fosil ini adalah orang yang sama yang bikin [Musik] Nam bukan kok gambarnya celeton diaang umab dia mempimp e dia bikinas yang lebihederh buat SQL dibanding Kay ini pakq [Tertawa] Iyam ini dia Bik solusi yang lebih rumit dia bikin Git untuk Linux untuk Man Linux di [Musik] sebelah ehal dan lain-lain eh perbedaan utamanya ada di sini ini ada banyakak tah adaah itu kan fitur-fitur kolaborasi itu kan Inya fasilitas giub segala add giub dia masukin situ I kalau ini content stand executable custom key value data store oh g pakai custom key value dat Store ya itu tadi yang di folder yangolder Iya fosil pakai ya sambilamb redis juga bikin yang sama nanti sebenarnya yang yang menjadi pertanyaan menarik adalah ini buat saya bazar style development samaal gak tah Bedanya apa apaan sih yang Med ini cont contb BR onck yang lain ya bisa dibaca sendiri ya tapi menarik banget ini ini ada ada tu Oh ya I udah sama tuh oke iya itu paling atas coba zoom in Zoom Inan yang menggambarkan cara development apa Model developmental itual yang lain ggak terlibat kalau barar Oh ya barar kan ramai semua terlibat terbuka apa terbuka siapun bisa terlibat tanpa berarti di fosil gak bisa forking karena dia cuma satu jadi gak ada forking contohnya kalau di di github atau gitlab kita bisa ng punya orang kita bisa berdiri sendiri dan gak peduli Mau ini kribute balik sini ini kontribute balik ke kita sama aja gitu itu mau kita tutup juga bisa Oh Nah kalau ini kalau caranya si fosil berarti gak boleh ng tapi kalau misal kita punya ide Gimana caranya kita harus musyawarah sampai ketemu mufakat entah itu fitur bakal di atau Emang kalau apa akhirnya pada gak mau yaudah gak boleh gak boleh gak bisa di bikin sendiri ya lucu juga ya menarik ya menarik ya No rebasing Nah kalau g kan S over Oh jadi dia pakai Sinking ya over push branch name S branch bisa tapi ggak bisa rebase ada autosing juga private brand are rare ya teman-teman bisa baca sendiri ya Kita kasih linknya aja ya buat teman-teman Ya siapa tahu bisa menambah cocok buat Ind bisa mau bikin SCM baru penasaran tapi ya menarik menarik ya one versus many check out per repo yang kayak gini tuh menariknya adalah mengerti pendapat atau pola pikir orang lainah karena konsep sama dia pakai itu buat mecahin masalah kayak apa sih Apa dia ngerasa yang lain kan berarti solusi yang sudah ada gak cukup terus dia punya kebutuhan apa sampai dia bikin sendiri betul ada videonya kok yang apa eh yang dia mengungkapkan alasan kenapa dia Enggak pakai Git padahal Git kan sudah muncul setahun sebelum e adanya fosil ini kan dan menurut dia enggak cocok digunakan untuk Project SK gitu Alasannya kenapa ya Eh bisa nonton sendiri oh wait baru sadar kan Git muncul 2005 terus e dia bikin fosil setahun sudahnya gi dengan segala feurnya sekarang kan munculnya baru ya pasti baru sekian tahun kemudian kan berarti dia visioner banget tu semua fitur-fiturnya apa fitur-fiturnya github kayak fitur kolaboratifnya itu dia yang kepikiran itu duluan ya sebetulnya karena dia bikin itu integr kar karena dia Mas punya masalah itu karena waktu lagi lagi ngebuat ee SK light orang mau puluh request gimana Iya iya dia kan meng-copify itu dia bikin sistemnya apa tiket kan tadi ya mungkin pakai istilah tickets ya dan lain-lain lah pokoknya Wiki tiket itu dia eh apa dia udah dia sudah mikirin itu dan mengintegrasikan ke sistemnya dia sebelum ada produk-produk yang kita tahu sekarang kayak apa giththub sama bitbcket dan lain-lain iya he juga ada yang setara Git github untuk fosil dia self hosted jadi ketika kita pakai Katanya kita sudah dilengkapi dengan semua Wi dan lain-ain betul Eh Coba kita lihat kode sumber eskelet di mana ya Ini dia Mana ada bentar Nah ini nih ESET tuh ada di sini jadi Kay fosil ini kayak Pak fosil ya Iya jadi dia sendiri Iya tapi bisa kompatibel ggak sih Coba kalau mau CK G check out dia bisa enggak gak bisa ada kecuali iniate rep di situ juga kali kita coba ini ya Nah ini fosil Init matiin dulu tuh barakelihatosilil openil komit kemudian ada fosil UI untuk nampilin itu kayaknya ya ohnya Heeh fosil itu kepanjangan gu diketik tuh pasti ada yang bikin aliasnya FS fo orang Git aja dibikin alias jadi G apalagi posil fil Git itu artinya apa ya penangut Eh JJ singkatanak iya oh Iya orang pemarah Oh kayaknya bukan deh bukan orang nbin kayak Iya stupid actually dari ini dari cambrid ini iya iya maksudnya e si Git SCM itu beneran diambil dari kata itu Iya iya nanti nonton deh itu yang punya si ini kenapa nama adalah doa Kenapa dikasih nama jelek si Git oh jadi maksud masit fosil Init kemudian nama foldernya beda ya ini ya Iya new repository gini gak ada terus kasih nama kasih nama apaagiil tuh ada password-nya simpan dulu dah terus Wah nanti dihack orang nih fosil Masa Gitu aneh banget e coba fosil fosil Open fil Open tik Oh gak bisa slashash coba aja nah orang masih kosong masih kosong eh touch Oh dia otomatis initialize esqate database dong tuh config DB ini ya He Oh iya Eh File 2 txt Terus apa nih Git commit ya Git add status k fil file S fosil add File 2 fil komit fil status status dulu coba Oh status ada engak entar ada yang enggak pakai fosil terus dialias jadi Git Iya ituootic evangitnya de di Alas ngerjain komputer orang asik kali ya kita bikin alias apa gitu alias aliasnya RM RF aja bukan rm- RF Git gitu jadi aliasnya Git Jadi kalau misalnya di Git apa Git titik g titik Ya udah hilang semua nih fosil UI tuh local host 808 engak tadi password-nya apa diklik ee e Iya udah dicopy e mudah-mudahan ada di nah ini udah ada nih we file file S kos file 2os admin langsung ada itunya ya Ada wiknya ada isu isu ada gak isu is ada namanya I langsung dikasih SQL ada timeline eh timelnya Cuman segini ya Iya belum ngapa-ngapain tapi seru juga ya langsung bisa dapat begitu ya menarik menarik dia itu terlalu maju giub sebelum giubub sebelum github berarti github nerapin fitur fosil i salah satunya Enggak tahu juga ya tapi ya Bisa bukan bukan maksudnya github eolah-olah kebutuhannya e bukan terinspirasi sih lebih mungkin ee dia menciptakan sesuatu yang si fosilnya juga bikin di internalnya di di buildin-nya sementara kita bikin buat eksternal buat terparti gitu lebih ke sana kira-kira bisa Kom ya Loh enggak ya Git dan fosil ya itu Git a duuanya bisa G bisa tapi ya pusing Buat apa Buat apa Heeh Buat apa eh pindah bentar ada engak ya kasus Eh misalnya satu organisasi atau perusahaan e reponya tadinya pakai apalah fosil mercurialvion itu harus migrasi ke eh source code manajemen baru SCM baru itu seribet apa ya atau biasanya mungkin malah Ya udahlah biarin nanti kalau bikin ek baru baru pakai ee sistem yang baru ada yang pernah punya pengalaman pindah migrasi SCM ee dalam satu repo ya kalau history Enggak penting gampang Iya ya udah Kom semuaf.git iya iniisial iya iniisial kalau history histori Enggak penting Ya gampang tapi kalau history penting itu yang susah karena kalau ngambil dari subvion tuh historyinya susah kan dia punya send proseselop jadi yang lain masih ada yang lagi ngerjain mungkin ada developer lain yang lagi ngerjainak enggak bisa itu keos itu umumnya kalau mau sebuah Project misalkan contohnya ya ini engak tahu ini rel atau enggak ya satu perusahaan tadinya dia private eh proeknya private terus tiba-tiba Mau dijadiin Mau dijadiin open source contohnya rect contohnya kubernes dan lain-lain itu biasanya nya mereka ee stop di satu titik kemudian e ganti karena kan mereka enggak pakai Git dan enggak pakai e itu kan pakai internal tools kan jadi begitu mau diop source itu mereka baru inial eh inial komitnya di situ di posisi itu gitu Kalau pindah dari github ke git bitbcket lebih gampang karena itu hanya servisnya aja ini kita ngomongin tinggalnyaal diganti aja kan pakai Git ya sekarang ya Iya batbet pakai Git dan merurial merah masih kan merkurial masih masih bisa dua-duanya bisa duanya bisa pilih kali ya kayaknya kalau bikin baru Nah ini ada yang menarik lagi nih dari fosil ternyata jadi kalau kita ke admin terus di sini ada SQL kita bisa query data kita Dias ininyaemanya kalau mau main-main dengan e apa laporan misalkan mau cari kode ini nih gitu bisa pakai SQL com kok jag banget sih Pak SQL hardore sekali hardcore sekali I dia yang bikinq SQL myion gila mantap ini kalau buat proek-proek pribadi kayaknya lebih menarik pakai ini deh enggak sih kalau gua G aja biasa aja kan kalau KJA pribadi kan enggak butuh ya Tergantung ya kalau mau online sih beda ya kalau ada wiki-wikiannya ee Iya kalau makanya dulu Ada itu makanya dulu pakainya itu saya kalau apa bukan saya sih saya ada sourcefors sourfor itu kan memang ada wik-nya ada download-nya ada satu lagi sourfor.net Iya SP iya ada ada namanya track track apa entar track bukan TR J lupa lanjut aja ngomong is open source weas Project management nah ini Ben Oh TR ya kayaknyaah ini itu masih dipakai ini samapressnyaak perah Pak tah itu apa Nah ini kayak SPN gitu-gitu kan pakai ini sebagai gththub-nya kan sebagai github-nya kan benar enggak Iya karena SPN ya servernya enggak bisa sembarangan kayak ada web interface kan buka ini nih mas Riza ini WordPress pasti pakai itu si silakan kalau teman-teman mau lihat [Musik] tiket-tiketnya ee langsung ke itu sudut atas tickets tuh kanan a di di menu Iya tuh semua kan open source Kan semuanya bisa dilihat kodenya mana Kalau mau lihat kodenya ada browource ya y ini ya tuh y tuh cuma ini customnya si WordPress sendiri ya dari tracknya ini bukan UI ini bukan dari tracknya CSnya diganti CSS sudah diganti tapi servernya masih track ini semua Iya ini masih masih kode-kodenya apa gaya-gayanya trk yang tadi tuh mirip-mirip lah Cuman ganti warna doang nih yang seperti saya bilang tadi contohnya masisa ke tiket deh ke tiket tiket coba cari e contohnya Oke E itu getting started yang getting started patches testing kan sudah ada patches-nya ya ini semua tiket yang sudah ada pnya klik aja satu salah satu ada workflow-nya dia sudah bikin h p Tuh lihat tuh ada patch.dif jadi WordPress pun sekarang masih tetap pakai kirim divnya file ini untuk kita apa namanya kita enggak ada puluh-pul request di sini gitu Mas sampai masih pakai e ini nanti kalau sudah okeudahudahudah esting segala macam nanti yang Core comuternya yang si Core komuter itu punya bagian masing-masing ada modul-modul yang dia punya sendiri jadi dia yang ambil patch ini dia e comit ke subvion manual manual mau tanya manual atau ada itunya Kom makanya nanti ada yang testing kan di sini hasil tes juga ada n Wow komunitas komunitas ngetes bisa Pak G Iya bisa kan dia bisa Pak karena dia punya mirror miror ke github Jadi kalau ada yang gak gak bisa tetap aja bisa P dari github ambil di yang tadi Git i i Nah ini apa nih di perusahaan sekarang banyak pakai Git atau fosil Git fosil jarang kaynya baru dengar fosil sekarang ini kalau ke mall sering lihat fosil Tapi beliak kalau buat game kayaknya bagus ya mungk juga sih yaungk juga nah pertanyaannya kalau subvsion Oh sorry versioning untuk image pakai apa image Iya enggak tahu Iya Git juga cuma kalau besar banget itu kan ada lfs kan itu apa ya namanya ya gua kok lupa sih ee dia beneran bisa ngebedain apaandingage gu ad ada Adobe dulu Adobe punya produk untuk untuk versioning image dan Gak cuma image ya Jadi bisa e Photoshop F juga bisa di dia bisa verion apa yasion cobating Adobe version Adobe Adobe revision iya iya muncul ad B version Nah ya itu dulu pernah saya adminin ngadmin ini setengah Pusing kenapa gitu karena harus ngebandingin imagenya tapi kan image kan kalau kode dia gak ada dia gakak ada di kalau version S version 2 version 3 version 4 Jadi kalau masukin photosh file Iya bisa dievert jadi kalau misalnya ngck out photos ngcheck out bisa dapat versionnya gitu daripada simpan di folder setiap diave dia Kayak bikin dia kayak ngsave copy dan dikasih metadata tertentu gitu biar bisa dipanggil lagi kayak di tagging ya itu lebih kaging syem kan berarti final one tuh final S final x final 2023 revisi 1 revisi 2 revisi 3 revisi lagi Mak daripada lagi kalau Adobe kalau Photoshop file sekarang sih G gak pakai Photoshop file lagi pakai figm ya rata-rata ya kalau masih pakai yang Photoshop file itu atau Corel Draw segala macam ya makanya di versioningnya pakai ee kayak version Q tadi daripada difolderin i i i nah ini ada pertanyaan bagus nih strategi Git untuk WordPress plugin gimanaak atau satu Project WordPress eh saya asumsinya ini e maksudnya plugin yang ada di instalasi WordPress yang sedang berjalan ya bukan plugin development Jadi kalau di WordPress itu supaya kalau sayaage WordPress itu hanya yang masuko itu adalah kode yang saya maintain yang tidak saya main gak masuko contohnya WordPress scnya sendiri kan gak saya maintain jadi masuk yang saya main itu cuman plugin yang saya tulis sendiri atau yang saya buat sendiri sisanya Vi jadi nya sudah ada di komposer tinggal diinstal pakai komposer kalau pluginpluginnya sudah ada pakai komposer juga pakai via namanya WP packages ya kan kalau komposer eh file yang bukan Non WordPress kan di packages ya WordPress juga punya WP packages jadi semuanya tinggal diinstal e pakai komposer Jadi kalau Instal plugin-plugin apa ya kayak Yos atau yang sudah publ yang ada Diya si plugin WordPress itu tinggal pakai WP packag sudah pasti ada Dan kalau misalnya dia gak ada tapi adanya di github ya kan si komposer sudah bisa Ngot ke github ke ke git jadi tetap bisa jadi itu strateginya Iya jadi hanya TR kode yang kamu tulis sendiri saja atau yang mau kamu maintain yang enggak perlu dimaintain jangan dimasukin ke ripo nah ngomongin tentang eh apa manajemen meskipun eh apa ngobrolin web belum ada source cod-nya kita udah ada github-nya loh jadi teman-teman bisa main sini untuk diskusi ke GI bisa dimasukin ke I Oh masih ada sampel posnya gitu hapus dulu gimana sih cara hapus itu kok gak bisa hapus itu samp discion itu iniah masa gak bisa sudah close tapi gua gak tahu cara hapusnyaah CL ini sudahudah answer kan Iya Jadi kalau teman-teman mau nanya nanya Apun yang berhubungan dengan web Ya pastinya ya bisaion terus bisa pilih kalau mau ide klik e ide kalau mau q& apa pertanya tanya jawab silakan q& kalau mau up juga bisa kalau maksudnya idenya Sudah diposting sama orang ini sudah saya tambahin nih banyak nih ya Jadi sedikit kisi-kisi buat teman-teman the next topic yang kita akan angkat adalah yang paling banyak upford-nya di discussion ini jadi semakin maksudnya semakin banyak up semakin banyak detailnya itu kita kita angkat Ada kemungkinan dikonsiderasi lebih cepat ya lebih ya dieksekusi lebih cepat boleh tambahin topik serverless boleh aja mas i kalau bisa sekalian tambahin ngundang Siapa yang jago serverless G jadi kita bisa orangnya harus mau juga iya harus mau kalau kalau orangnya enggak mau ya kita bahas antara kita aja bertiga gitu kita itu I Oke jadi ini bisa kita manfaatkan untuk diskusi di luar hari selasa malam kalau teman-teman ada kepikiran Wah kayaknya bahas ini menarik nih Wah kalau tiba-tiba ada problem di kantor yang butuh eh apa E diskusi juga bisa di sini jadi nanti mungkin kita akan bahas juga di pada saat selasa malam gitu ya kalau topiknya juga menarik itu contohnya Barusan saya keingatan kita belum bahas tentang monorepo Saya juga punya ketertarikan di sana Ini apa ya gitu dan kenapa digunakan gitu jadi kayaknya menarik ya buat dibahas toololnya apa ya langsung ditulis saja Oke mungkin untuk pembahasan tentang manement ada lagi yang mau ditambahkan eh bentar bonus Bonus apa buat belajar buat belajar bisa pakai apa kalau misalnya ada teman-teman yang pengin lebih atama gitnya eh mungkin sekarang yang direkomendasiin saya yang dulu aku pakai belajar sih yang dari github sih itu udah lengkap banget step by step eh enak buat diikutin itu recommended sama ada satu lagi tuh e link bawahnya oke nah Ini pokoknya Eh kalau misalnya kayak bikin brand gimana sih masih e belum masih belum lancar bisa ikutin itu cuma satu lagi kalau ini lebih singkat sih beneran basicnya doang cuma tampilannya lucu nyenengin yang mana Nah yang ini yang sekarang lagi di-share Oh ini Heeh kalau enggak salah dulu sempat belajar dari web tapi bisa diketik perintahnya Iya tutor tahu gu tap apa ya tutor ya gua belum pernah itu coba atau itu tutor Ya jangan kebalik-balik dong Nah itu beda banget loh Itu jauhjauh itu tor Bukan kayaknya Bukan Ya bukan namanya beda apa ya Soalnya kalau disit itu misteri gitu kalian ber ngasa pernah lihat itu gua doang yang gak pernah maksudnya engak ada bayangan sama sekali pernah pakai itu tuh Oh my Git bukan oh Hah itu oh mysh oh iya benar Bu Ben buka tuh bukan Bu ya Oh kirain itu eh lucu tapi itu juga lucu sih game Oh iya ini lucu tapi bukan itu apa ya teman-teman belajar Git dari mana sih m ada yang sumpah ini penasaran banget Kocak jadiut penasaran Coba tanya chat at Iya bagus tutorial [Musik] website ada enggak belum learn getate branching learn get branching Bukan bukan oh iya kayaknya lear branching deh itu ada e bisa diketik gitu Oh iya benar benar benar benar i i ini dulu belajar ini ini ini ljur l birdnya Ih malah berdu tahu ya teranjur teranjur bisa enggak apa-apa kali komit Naka cuma kan saya rasa senang belajar hal baru dari source yang interaktifnya kurangs dulu dulu website-nya bukan ini djs.org bukan ini dia enggak ada js-js-an sama sekali Mungkin dia enggak punya duit buat ini ya buat engak punya duit Bu domainnya expire Terus mungkin ya si js.org itu kan emang dia apa domain Emang tersedia gratis non profit kan ini pakai iui Yai ya kali ya Iya ini kayak frameworknya buat bikin begini kayaknya sih frwnya iya oh yang bikin si ini nih Yui JS itu siapa libraryori library kayakkayaknya sih Yui Keren ya Keren k tapi ada satu lag belajarnya di channelnya katanya Oh iya ada satu lagi maksudnya bukan cuman branching dari awal dari yang G init [Musik] gituajarak ada lag Ben ya banyak am gak ada ada tretjs.orol nah ini benergthub.com ohudah diambil giudahak ada berudah gak adaudahak ada dulu kayak gini nih Iya kayak gini dulu dulu kayak gini nih jadi Git ini kita tulis di bawah kita ketik sekarang udah enggak ada Dih Ya diganti sama tutorial masih ada enggak kodenyaak ada ada tuh tapi..com gak ada yair ke tutorial yang baru he He Oh mungkin udah outdated kali yaap kelamaan kita nanti ini teman-teman semuanya udah pada belajar dari YouTube juga ya kita doang yang belajar dari website dulu ya Dari dokumentasinya apa Git SCM sama github Itus sama leing iya itu menarik sih J lumayan membantu terutama buat belajar mungkin github lebih ngpush pakai GUI mereka jadi dulu itu COD school yang bikin COD school itu e kayak online learning platform yang sekarang sudahah dibeli sama eh salah satu online learning platform yang lebih besar ehural S namanya terus habis itu itu dipindah ke try.gthub.com diambil sama github Nah sekarang mungkin github-nya eh apa mungkin ada fitur-fitur tambahan atau sudah outdated jadi mungkin dite out kali ya bisa jadi iya kalau kalau video apa kekurangannya video yang bisa kita maksudnya dibandingkan dengan trigit seperti tadi belajar dari video yang membedakan Iya itu subjektif juga cuma kecenderungan pasifnya lebih tinggi ya karena kita enggak harus nyoba sendiri jadi Oh ya kita lihat terus nontonnya dicepetin terus ngangguk-ngangguk doang Oke ngetik itu doang mah ngerti ya ya ya ngerti Ngerti giliran pas Harus praktik E apa ya tadi kayak enggak masuk aja kalau kita harus ngetik sendiri kan Minimal kita udah nyoba lah sekali ya berarti harus diikutin ya semua yang ada di videonya iya iya Kalaupun kita nonton video Ya kita harus Terus eh bereffort kita pause dulu eh kan Lihat tuh yang di layar apa atau mungkin di deskripsi videonya Kan Mungkin Ada apa Ada linknya ke artikel kalau video hasilnya bisa dua saat saat Nonton videonya bisa pas lagi tidur atau lagi di toilet jadi enggak ngapa-ngapain cuma lewat aja bisa jadi nonton videonya sambil di depan komputer jadi dipost-post videonya benaran Iya itu dip kita video ngomong apa kitatikin Dan kalau yang pertama nontonnya hanya masuk ingat sebentar lupa Cuma mungkin kalau disetel sambil tidur kebawaah mimpi Mungkin kita jadi Git Iya nah ini dulu saya ngambil Nih 11 tahun yang lalu komitnya weh belajar trit di foring kan disuruh forking kan ada ada emang bagian Finya ya ada bagian reporing-nya terus kita inilah nambahin file-file gitu ternyata masih ada itu yang first first commit Ada enggak sih Apa tuh github first commit Oh github first commit ya iya iya dulu ada tuh ada apa apa namanya first Git comitnya Iya apa sih namanya yang ngecek Eh pas nonton video Git Di wpu bingung itu ngapain cumanak pas kuliah tiba-tiba disuruh kirim tugas ke git Wah kirim tugasnya pakai Git luar biasa eh seru ya ini kalau kita cari kalau kita cari di Google Eh tryit itu ada sekitar 9.500 hasilnya ada 9.500 orang yang eh ngclone ngclone itu iya i hottek hottek opini panas opini panas belum dibahas nih opini Oh iya opini pedas tentang Git Nah siapa di sini yang mengalami kesulitan belajar Git teman-teman Di sini kesulitan engak sih waktu belajar Git enggak enggakah kesulitan metodenya workfownya yang sulit bingung ya ngompakin sama e tem kalau kalau pakainya lurus-lurus aja Enggak Susah kalau susahnya Itu kalau sudah masih konflik atau sudah salah terus mernya tiba-tiba gagal abardnya gimana ya kan sulit ya Nah ini ada opini dari e seseorang yang lumayan kontroversial juga sih sebenarnya ya jadi harus didengarin baik-baik juga seru ini Iya namanya Steve y ini dia e alumninya Google dia pernah kerja di Google di grab juga kalau gak salah ya menurut dia Git itu menyusahkan github kurang bagus karena eh di Google mereka pakai tools internal tidak di-share di tidak di open source enggak disshare di luar dan menurut dia itu yang paling bagus gitu Walaupun dia udah sekarang gak di Google dia bikin perusahaan sendiri atau dia kerja di perusahaan yang lain tapi dia masih tetap terngiang-ngiang enggak bisa move on dari toolsnya Google kayaknya ya jadi ketika dia pakai Git dia kesulitan Git silakan ditonton sendiri Oh boleh RR juga [Tertawa] bolehond di silak Dit sendiri aja bikin eh SCM apa source code mau bikin sendiri jadi dia jualannya adalah dengan menjelek-jelekkan Terus yang lain tapi kan itu alur yang natural kan kayak si siapa Si mas si Pak Linus tadi juga Iya pokoknya kayak enggak cocoklah sama semua cocok dengan SN sampaiikin baru Heeh akhirnya dibikin baru semua jadi mudah gara-gara chat GPT betul memang ada yanganya Gimana cara e Mer misalkan Pak iah itu justru yang bagus banget sih yang kayak hal-hal yang kayak gitu misalnya eh salah salah ngekomit file gimana cara rever-nya atau biar itu enggak kesimpan di history ya hal-hal yang ada gitu Y yang susah tuh kalau pakai Git kalau historyya udah berantakan terus chry Pik lagi benerin lagi pusing sama yang ini kalau yang udah keburu e upload file besar Gimana cara hapusnya Nah itu susah susah ya ada ada ada ada ada toolsnya kan ada ada komen lainnya toolsnya jadi kayak bisa kayak dia per dia akan Nob per komit nghapusin link ke file yang besar itu Jadi kalau filenyaudahudah 1000 komit ke belakang dia harus ngrite ngevisi selur komit ke belakang I nah ini ada beritanya nih barusan join S berarti lah tadinya udah pensiun terus gabung ke source graf he source gra itu keren loh source graf ini apa Hah Jadi kamu punya kamu punya repository heeh heeh terus kemudian Jadi kalau contohnya kita punya di AG punya banyak Pro terus pengin tahu Conto kode X ini perah dipakai Pro lain carinya jadi dia bis seluruh kode yang ada diository priv ini jadi kayak repository juga kayak Giar untuk kode yang ada di repository Oh public search ini ada publicarnya dia Contohnya kamu mau searching deh kamu cari e yang Project yang pakai apa kemarin contohnya pakai redwood redwood JS red tuh kelihatan kan yang pakai redwood maksudnya ap bisa ada filter-filternya juga filternya mau pakai dijs aja mau apa bisa macam-macam saya pakai ini di company karena misalnya ada kita kan pakai share komponen nah cuma Enggak tahu nih dokumentasinya mungkin kurang jelas cuma pengin tahu Project Line pakai share komponen ini gimana caranya ya udah pergi ke sra cari eh dapat tuh referensinya di Project Line jadiak Within the company atau public yang semua with the company Within The Company oh carara manualnya adalah clone satu-satu terus cari gitu ya satuu Iya atau kalau kita punya ee perusahaannya punya satu repository di itu Misalkan kayak github atau gitlab lah gitlab.com/ something gitu ya Eh itu bisa juga Sama ya bisa bisa bisa kan ya i i tetapi Sof more than that ya more than that ada sekarang se e I tap sehari-hari Pak itu mantaph oke kodi ya prod Cum iniodi sama codar ajaerise resour mungkin searchnya lebih ke search yang ini kali ya yang apa namanya yang e lebih pintar kayak konteks tapi searching kode kode I ngerti Al mungkin itu menungu di sama Dib itu ya sebenarnya hal yang sama cuma istilahnya lebih halus sa diakisi diakisi Eh tapi kan enggak ada masalah kan maksudnya banyak juga orang-orang yang EE tujuan akhirnya itu exit di entah dibeli Entah diakisisi entah ee apa gitu kan itu kan adagantung he sama aja kayak ya itulah apa ya Ee resiko membangun sesuatu di atas platform orang kayak github gitu kan atau bahkan ee membangun sesuatu di atas cat GPT eh apa eh Open Ai Open Ai Kalau dulu kita bisa bikin eh summariz PDF ini gitu sekarang sudah bisa kan dari Open a sendiri kan itu ST itu pada mati tapi enggak juga karena banyak juga orang yang enggak tahu enggak Kalau ada Open a kan I atau sekarang yang banyak kan bikin produk turunan pakai api-nya apa Open Ai tapi dikhususin buat cas tertentu atau dikasih UI yang yang enak dipakai user he benar benar jadi usernya juga belum tentu ngeh kalau ternyata Open Ai bisa menggunakan itu jadi ya itu resiko dari menggunakan platform orang gitu bisa aja dilihat Wah ini idenya bagus kita bikin yuk akhirnya Ya terbunuhlah ide kita resiko bikin produkah Cash in mumpung masih bisaah apa mau diapisisi kek dibeli kek Yes p Oke kalau gitu udahan dulu y udahan dulu sampai jumpa minggu depan eh itu github jangan lupa ke github kita tadi yang mau ngajuin topik belum ada teksnya ya Oh iya belum Belum apa biasanya pakai bitly apa keesanaain kan pakai I belum kita pindahin belum migrasi jadi kita tulis manual aja dulu github.com/ngobrolin terus ke discusion saya kasih saya kasih ininya linknya Ya sudah Difollow terima kasih Jangan lupa ke sini kalau teman-teman mau diskusi mau nambahin topik tuh Wah monudah paling atas yang jadi kitaisa diskusi di sana Diar jam Hari apa Jam .00 Malam dan hari selasa malam siapa tahu nanti topik-topik yang ada di sini bisa kita angkat ke ee live kita oke itu aja untuk malam hari ini Terima kasih banyak buat semuanya yang sudah diskusi malam hari ini ee sampai ketemu lagi minggu depan Bye bye bye"
+}

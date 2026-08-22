@@ -1,0 +1,2539 @@
+{
+  "videoId": "lb6jvnmDM6I",
+  "language": "id",
+  "generatedAt": "2026-08-22T01:52:15.563Z",
+  "source": "youtube-auto",
+  "segments": [
+    {
+      "start": 15.08,
+      "end": 27.589,
+      "text": "halo halo halo selamat malam semua selamat malam Wih RAM engak bertemu lagi kita Heeh Oh rame ya"
+    },
+    {
+      "start": 27.599,
+      "end": 36.15,
+      "text": "bertemu lagi kita malam hari ini di seperti biasa di selasa malam waktunya apa waktunya ngobrolin we ngobrolin"
+    },
+    {
+      "start": 36.16,
+      "end": 51.27,
+      "text": "webat lagi pakepanganong Oh iya ini I Ini masalah masalah latensi ya masalah latensi itu sulit ya I dan sesuai banget"
+    },
+    {
+      "start": 51.28,
+      "end": 62.229,
+      "text": "sama topik kita malam ini kita akan bahas tentang segala hal yang berkaitan dengan Real timeunic eh terus apaagi ya"
+    },
+    {
+      "start": 62.239,
+      "end": 76.27,
+      "text": "Eh bisa apa aplikasinya bisa banyak ya bisa buat game bisa buat ehabora ediabora Edi betul Eh setting dashboard ya bisa"
+    },
+    {
+      "start": 76.28,
+      "end": 83.63,
+      "text": "banyaklah ya dan sebenarnya topik ini sudah cukup lama kita tahan karena kita belum punya expertise ke sana dan"
+    },
+    {
+      "start": 83.64,
+      "end": 91.429,
+      "text": "akhirnya bisa dapat orang yang cepat yang lagi bikin produk juga kan yang berkaitan dengan ee yang kita"
+    },
+    {
+      "start": 91.439,
+      "end": 101.38900000000001,
+      "text": "sebutin tadi ada web apa Nam POnya payung Real Time communication dan lain lain Iya eh dan sudah banyak juga nih"
+    },
+    {
+      "start": 101.399,
+      "end": 112.38900000000001,
+      "text": "yang apa yang ada di chat haloo semuanya ada Rahmat ada Rico Selamat malam dan eh sebelum kita bahas lebih lanjut kita"
+    },
+    {
+      "start": 112.399,
+      "end": 128.35,
+      "text": "bahas ke ininya dulu ya narasumbernya dulu ya kita langsung undang aja ya beri tepuk tangan yang meriah gua"
+    },
+    {
+      "start": 128.36,
+      "end": 142.869,
+      "text": "hal ya operatornya haloo Gimana kabarnya Mas Yohan sehatsat lamaak ketemu kita ya terakhir ketemu di Jogja kayaknya atau di Malang"
+    },
+    {
+      "start": 142.879,
+      "end": 159.869,
+      "text": "ya malamang ada ada pertama kali pertama banget banget banget ikut e acara community belum jadi Oh sebelum"
+    },
+    {
+      "start": 159.879,
+      "end": 177.27,
+      "text": "jadi J ya masan ini adalah orang yang bertanggung jawab untuk menjadikan kita J ya yang menung"
+    },
+    {
+      "start": 177.28,
+      "end": 192.55,
+      "text": "kitais ya darile ya kan udah ada ini Apa udah ada kalian udahlah lepas tangan di sini kayaknya masanya masan"
+    },
+    {
+      "start": 192.56,
+      "end": 212.22899999999998,
+      "text": "banyak ya tapi mungkin ada yang mungkin belum kenal gitu ya mungkin boleh perkenalan singkat [Tertawa] dongal di di I sama Eka untuk ikutan"
+    },
+    {
+      "start": 212.239,
+      "end": 222.71,
+      "text": "ngobrol hari ini kita B ngobrolin eh web Real Time communication dan karena kebetulan saat ini kesibukannya adalah"
+    },
+    {
+      "start": 222.72,
+      "end": 235.19,
+      "text": "lagi ngembangin startup yang menggunakan wec dan live streaming yaitu inl jadi mudah-mudahan pengalaman ngedevelop inl ini bisa dipakai buat sharing ke"
+    },
+    {
+      "start": 235.2,
+      "end": 252.309,
+      "text": "teman-teman di itu mungkin intronya ya app ya ininya ya betul ini sudah dikembangin Berapa lama [Musik] mas kayaknya udah jalan setahunan jalan"
+    },
+    {
+      "start": 252.319,
+      "end": 266.59,
+      "text": "setahunan dan produknya itu sendiri Sebenarnya ada yang pertamaaming berbasisn Terus yang kedua itu adalah Eh kita bilangnya communic sama kayak"
+    },
+    {
+      "start": 266.6,
+      "end": 273.43,
+      "text": "streamyard atau sama kayak Google meet Ini jadi yang itu untuk live streaming yang satunya tuh lebih buat live"
+    },
+    {
+      "start": 273.44,
+      "end": 285.99,
+      "text": "streaming kayak sekarang kita kayak Zoom berarti juga yaom Zoom betul betul yang pertama itu lebih mirip kayak YouTube live kurang lebih ya Tapi"
+    },
+    {
+      "start": 286,
+      "end": 298.15,
+      "text": "bisa di website sendiri gitu oke yang mau disol apa sih dari ini in ini Jadi sebenarnya kan permasalahan di"
+    },
+    {
+      "start": 298.15999999999997,
+      "end": 308.23,
+      "text": "Indonesia itu kita terlalu banyak Pai eh apa ya Pas pandemi kemarin Banyak pai Zoom eh Google meet eh kemudian live di"
+    },
+    {
+      "start": 308.24,
+      "end": 315.87,
+      "text": "mana-mana ya di twitch YouTube dan segala macam gitu webinar ya Iya webinar dan macam-macam gitu kan Nah kita"
+    },
+    {
+      "start": 315.88,
+      "end": 323.23,
+      "text": "sendiri Eh waktu itu kan lagi ngebantuin asumsi eh asumsi sendiri kan sebagai media online itu tuh Dia punya konten"
+    },
+    {
+      "start": 323.24,
+      "end": 330.309,
+      "text": "sangat banyak yang berbasis video gitu kan dan mereka waktu itu pandemi juga banyak bikin live event nah waktu pengin"
+    },
+    {
+      "start": 330.319,
+      "end": 339.469,
+      "text": "mencoba monetize konten videonya terus pengin ng-develop produk yang terkait dengan eh live event live streaming dan lain-lain kendala utamanya tuh selalu"
+    },
+    {
+      "start": 339.479,
+      "end": 353.99,
+      "text": "kayak hitung-hitungan biaya itu pasti mahal banget karena semua produk api yang bisa kita pakai itu semua basisnya ada di luar dan semua"
+    },
+    {
+      "start": 354,
+      "end": 364.189,
+      "text": "pricing-nya itu ya pakai pricing luar gitu gambarannya dan kalau kita UMR UMR lokal enggak bisa ya Iya betul jadi"
+    },
+    {
+      "start": 364.199,
+      "end": 373.79,
+      "text": "kalau kita ng-develop sesuatu yang costnya sendiri udah mahal terus kita pengin coba jual di Indonesia itu hitung-hitungan marginnya itu susah"
+    },
+    {
+      "start": 373.8,
+      "end": 382.71,
+      "text": "banget masuknya Nah akhirnya kepikiran karena di Indonesia itu enggak ada eh api yang kita bisa pakai untuk ngdevelop"
+    },
+    {
+      "start": 382.72,
+      "end": 392.469,
+      "text": "eh produc live streaming kemudian juga Eh kayak Google meet atau telemedicine atau consultation dan lain-lain akhirnya Ya udah waktu itu penasaran"
+    },
+    {
+      "start": 392.479,
+      "end": 402.629,
+      "text": "dengan wprtc dan udah ngoprek wprtc dari 2016 anyway yang bikin dulu pertama kali jadi GD itu sebenarnya demo web RTC jadi"
+    },
+    {
+      "start": 402.639,
+      "end": 413.43,
+      "text": "ada ada dulu tuh ada e istilahnya ada J with Chrome jadi kita main band main music gitu ya itu pakai"
+    },
+    {
+      "start": 413.44,
+      "end": 421.629,
+      "text": "webt jadi eh tinggal buka browser terus kita pilih eh toolsnya mau pakai pakai drum mau pakai gitar mau pakai piano"
+    },
+    {
+      "start": 421.639,
+      "end": 428.869,
+      "text": "gitu kan Terus kita nyambungnya lewat wprtc itu waktu itu buat saya amaz banget dan akhirnya jadi penasaran buat"
+    },
+    {
+      "start": 428.879,
+      "end": 437.589,
+      "text": "explore wetc nah Karena itulah Berhubung ada kern terkait infra api kita di Indonesia enggak ada pengin develop"
+    },
+    {
+      "start": 437.599,
+      "end": 446.99,
+      "text": "something susah mahal gitu ya terus lagi passionate ke weprtc Ya udah akhirnya mutusin Ya udah develop aja l eh sendiri ketimbang"
+    },
+    {
+      "start": 447,
+      "end": 455.469,
+      "text": "nungguin yang luar gitu h gitulah kurang lebih e idenya gitu Oke berarti web ini udah lama banget"
+    },
+    {
+      "start": 455.479,
+      "end": 467.51,
+      "text": "sebenarnya yaarting from 2012 2011an yaah itu Jadi kalau misalnya apa kita tahu get user media tuh media streams and capture api"
+    },
+    {
+      "start": 467.52,
+      "end": 476.629,
+      "text": "itu yang buat apa E ngambil gambar dari webcam dan mikrofon dan sebagainya itu kayak foundationnya landasan buat itu"
+    },
+    {
+      "start": 476.639,
+      "end": 485.43,
+      "text": "kayak di konsep sebagai bagian dari web RC api kan Ya jadi itu kayak nyiapin untuk ke depannya webtisc jadi emang"
+    },
+    {
+      "start": 485.44,
+      "end": 493.07,
+      "text": "kayaknya ini salah satu hal yang udah dikejar dan udah dipengin banyak pihak dari dulu ya ber karena kan kalau gak"
+    },
+    {
+      "start": 493.08,
+      "end": 507.469,
+      "text": "bisa capture video kan apa yang bisa dikirim buat kalauudah bisa akirnya kan bisa tinggal dikir lewat Network"
+    },
+    {
+      "start": 507.479,
+      "end": 517.469,
+      "text": "itend di sedikit tentang webt itu apa dan cas-nya bisa dipakai buat apa aja Oke jadi webtc itu ya nama singkatan kan"
+    },
+    {
+      "start": 517.479,
+      "end": 528.99,
+      "text": "sebenarnya web Real Time communication ya Eh pada dasarnya ini adalah protokol yang memungkinkan kita tuh ngdevelop aplikasi yang"
+    },
+    {
+      "start": 529,
+      "end": 544.19,
+      "text": "menggunakan komunikasi dua arah berbasis Iya berbasis media atau data dan eh Karena yang namanya real ada jadi"
+    },
+    {
+      "start": 544.2,
+      "end": 568.11,
+      "text": "diperlukan yang sangat rendah kalau kitaobrol Kayak ginya idealnyaak Bo lebih dari 200 kar dari 200r jadi kayak an gitu kayak"
+    },
+    {
+      "start": 568.12,
+      "end": 581.269,
+      "text": "ada Nah inilah yang sebenarnya eh di eh develop sebagai protokol standar sehingga semua browser itu bisa berkomunikasi karena kan kalau enggak"
+    },
+    {
+      "start": 581.279,
+      "end": 591.79,
+      "text": "distandarisasi masing-masing pakai protokol berbeda semua bikin sendiri rep Iya akhirnya kan W enggak bisa eh jalan kan enggak bisa satu pakai Firefox"
+    },
+    {
+      "start": 591.8,
+      "end": 601.15,
+      "text": "kemudian satu pakai Chrome satu Pakai safari engak bisa nyambung kalau misalnya kita pengin ngobrol kayak sekarang Nah itulah kenapa Eh dievelop"
+    },
+    {
+      "start": 601.16,
+      "end": 612.87,
+      "text": "yang namanya webrtc tujuannya itu untuk memudahkan kita menggunakan api standar ini ngevelop aplikasi web walaupun sekarang juga dipakai ya librarynya di"
+    },
+    {
+      "start": 612.88,
+      "end": 623.91,
+      "text": "mobile di natif gitu tapi awalnya memang Tujuannya adalah untuk digunakan di browser sehingga kita bisa communicate Real Time berbasis media atau data"
+    },
+    {
+      "start": 623.92,
+      "end": 644.23,
+      "text": "itu beradi Yang sekarang kita ini berarti kan kita nih antara masan berarti dari sayanya ke"
+    },
+    {
+      "start": 644.24,
+      "end": 660.19,
+      "text": "Yohan jadi jaditc itu memang pada dasarnya adalah aplikasi yang didesain untuk jadi bisaja kitaangobsatver yang sekarang dalam"
+    },
+    {
+      "start": 660.2,
+      "end": 671.99,
+      "text": "artian lebih dari satu kalau satu satu e 101 itu memang idealnya biasanya itu dibuat e pe to jadi server itu cuman"
+    },
+    {
+      "start": 672,
+      "end": 683.03,
+      "text": "buat e ngasih tahu Oh alamatnya Eka ini alamatnya ya betul jadi e ons sudah saling tahu alamatnya itu langsung akan"
+    },
+    {
+      "start": 683.04,
+      "end": 690.87,
+      "text": "terkubung to Nah Tapi kalau dalam konteks kita sekarang karena lebih dari satu Biasanya kalau udah lebih dari satu"
+    },
+    {
+      "start": 690.88,
+      "end": 704.03,
+      "text": "dibikin to itu bandwinya gak cukup karena kalau misalnya juga harus i betul jadi kayak kalau misalnya kita mau bikin"
+    },
+    {
+      "start": 704.04,
+      "end": 721.949,
+      "text": "semua kita pakai 720 gitu ya dengan bitate 3 megb per artinya ini saya ke keama 9 megb per yang dibutuhkan gak"
+    },
+    {
+      "start": 721.959,
+      "end": 736.11,
+      "text": "ideal kan sehingga dielop bu bukan Protol tapi ada metode yaitu yang namanya selec forwarding unit atau sfu Jadi sebenarnya kita tuh ngirim"
+    },
+    {
+      "start": 736.12,
+      "end": 751.75,
+      "text": "video ke server server ini tugasnya yang ngbroadcast ke yang lain tapi dia cum nurusinnya adaingakah ini ini yang menarik eh zaman"
+    },
+    {
+      "start": 751.76,
+      "end": 762.949,
+      "text": "dulu encoding itu terjadi di serverver di server jadi dulu pada zaman Skype terus apaagi ya yang zaman dulu"
+    },
+    {
+      "start": 762.9590000000001,
+      "end": 779.509,
+      "text": "tuh Microsoft punya apa ya D Skype ya zaman dulu gitu ya tuleang engakang ituudah"
+    },
+    {
+      "start": 779.519,
+      "end": 791.509,
+      "text": "awal-awal 2016 gitu hangout mungkin awal-awal sempat eh di dulu jadi ada namanya MCU saya lupa namanya si panjangannya"
+    },
+    {
+      "start": 791.519,
+      "end": 805.59,
+      "text": "apa tapi MCU itu pada dasarnya diacode semua video kemudian video encoding itu diforward ke yang lain Jadi"
+    },
+    {
+      "start": 805.6,
+      "end": 818.829,
+      "text": "itu nambahens sat eh Terus yang kedua Tapi eh Ya nambah beban server juga jadi sekarang sih enggak kalau dalam"
+    },
+    {
+      "start": 818.8389999999999,
+      "end": 832.269,
+      "text": "konteks yang kita lakuin sudah tinggal diforward aja videonya gitu berarti sudah sudah terjadi encoding di oke oke nah teknologi yang"
+    },
+    {
+      "start": 832.279,
+      "end": 842.269,
+      "text": "digunakan selain web RTC di in apa aja ya Eh saat ini sebenarnya kita kan ada dua produk"
+    },
+    {
+      "start": 842.279,
+      "end": 856.59,
+      "text": "jadi produk yang pertama itu kan kita sama persis kayak ini jadi kemudian ini ke Youtube kan ya yang pertama kita itu pada dasarnya"
+    },
+    {
+      "start": 856.6,
+      "end": 872.389,
+      "text": "mirip kayak gini jadi dia capture video menggunakancemud divernyavernya jadi format hls sama"
+    },
+    {
+      "start": 872.399,
+      "end": 888.829,
+      "text": "Das nah hls sama Das Ini format standar live streaming sebenarnya yang digunakan di YouTube live juga Jadi itu kita combine antara WC f sama"
+    },
+    {
+      "start": 888.8389999999999,
+      "end": 902.47,
+      "text": "hls nah yang produk kedua itu murni web RTC dengan menggunakan sfu tadi yang selec forward Jadi kalau yang produk kedua itu"
+    },
+    {
+      "start": 902.48,
+      "end": 912.03,
+      "text": "memungkinkan kita ya bikin kayak streamyard kayak gini ada banyak orang atau mau bikin telemedicine mau bikin Google meet mau"
+    },
+    {
+      "start": 912.04,
+      "end": 925.59,
+      "text": "bikin webinar gitu Nah itu pada dasarnya teknologi sebagian besar lebih banyak menggunakan WTC tapi dalam dalam konteks itu tuh"
+    },
+    {
+      "start": 925.6,
+      "end": 934.629,
+      "text": "luas banget sebenarnya jadi engak cukup cuman dengan eh kita capture terus kemudian kirim yang paling ribet itu"
+    },
+    {
+      "start": 934.639,
+      "end": 942.949,
+      "text": "dari webrtc eh terutama kalau kita banyak orang kayak gini itu ada istilah namanya e congestion controller Jadi"
+    },
+    {
+      "start": 942.9590000000001,
+      "end": 957.59,
+      "text": "kalau misalnya saya tu video 720 nih ceritanya terus kan bandwinya ek ternyata cuman muat 360 nah video saya kan berarti harus"
+    },
+    {
+      "start": 957.6,
+      "end": 972.829,
+      "text": "ditunin I nah diturunin itu itu sebenarnya gak die ulang jadi dic ada namanya selectif eh"
+    },
+    {
+      "start": 972.839,
+      "end": 984.309,
+      "text": "video namanyac eh Smart video coding kalau gak salah saya lupaanjangannya apa Eh ini yang diterapin di vp9 kalau di h264 itu belum"
+    },
+    {
+      "start": 984.319,
+      "end": 994.59,
+      "text": "bisa tapi kalau di ada namanyac Jadi saya tapi di server itu kita bisa ngakalin yang mau dikirim ke ek ini mau"
+    },
+    {
+      "start": 994.6,
+      "end": 1009.03,
+      "text": "360 atau yang 180 Ul berver itu kayakoses on the gitu i betul Jadi pada dasarnya pada saat kita"
+    },
+    {
+      "start": 1009.04,
+      "end": 1023.71,
+      "text": "ngirim video itu kan yang dikirim sebenarnya adalah paketaketakak misalnya Oh Eka ini cuman bisa terima 360 artinya setelah saya"
+    },
+    {
+      "start": 1023.72,
+      "end": 1033.429,
+      "text": "ngirim 360 ke Eka video sisa paketnya itu didrop di server karena kalau dikirim juga Eka jadinya terima"
+    },
+    {
+      "start": 1033.439,
+      "end": 1045.71,
+      "text": "720 Oh gitu jadi ada mekanisme Gimana caranya kita ng-drop paket yang kira-kira tidak dibutuhkan oleh Eka sehingga tidak perlu render videonya"
+    },
+    {
+      "start": 1045.72,
+      "end": 1057.51,
+      "text": "sampai 720 cuman sampai 360 aja gitu Nah itulah itulah fungsi eh dari wepertis eh kodek yang vp9 itu punya"
+    },
+    {
+      "start": 1057.52,
+      "end": 1065.15,
+      "text": "Google eh terus kemudian ada lagi teknologi simulkas gitu ya itu tuh kalau simulkas ini agak kompleks ya karena"
+    },
+    {
+      "start": 1065.16,
+      "end": 1077.47,
+      "text": "simulkas ini kita ngirim video itu tiga jenis sekaligus jadi ada 720 kemudian ada 360 kemudian 180 nah di server itu"
+    },
+    {
+      "start": 1077.48,
+      "end": 1085.35,
+      "text": "server yang milih ini dari tiga Stream yang saya punya mana yang saya harus forward ke ek sesuai dengan"
+    },
+    {
+      "start": 1085.36,
+      "end": 1097.95,
+      "text": "bandwidnya Nah itu untuk memastikan biar biar apa Eka tuh bisa terima video Tapi bandwidnya tuh gak Bu diili i betul biar"
+    },
+    {
+      "start": 1097.96,
+      "end": 1113.149,
+      "text": "gak mampet gitu gambar jadi bisa dibilang ya kalau kita peng ngevelop ei server buat wetc weend itu sebenarnya bisa selesai prototypenya"
+    },
+    {
+      "start": 1113.159,
+      "end": 1123.43,
+      "text": "ya prototypenya aja gitu tapi untuk ngdevelop wetc server yang bisa jalan di semua kondisi Wah itu tuh never ending"
+    },
+    {
+      "start": 1123.44,
+      "end": 1131.51,
+      "text": "Journey sih sampai sekarang kita masih ngulik-ngulik nih kalau misalnya contoh gitu ya oh bandwidnya sekian tapi paket"
+    },
+    {
+      "start": 1131.52,
+      "end": 1142.11,
+      "text": "losnya tinggi misalnya gimana nihaliin Kalau paket Los tinggi Nah itu ada lagi teknologinya macam-macam kalau videonya banyak hilang paketnya"
+    },
+    {
+      "start": 1142.12,
+      "end": 1149.909,
+      "text": "kan videonya jadi pixelated atau ngfreze gitu kan Nah itu tuh ada ada caranya buat ngakalin walaupun paket Los hilang"
+    },
+    {
+      "start": 1149.919,
+      "end": 1161.11,
+      "text": "itu video masih bisa smoo itu ada caranya pakai Aak ada ada yang lagi dievelop jadi Google itu lagi punya kalau buat audio"
+    },
+    {
+      "start": 1161.12,
+      "end": 1170.029,
+      "text": "ada namanya e kan sekarang kodek yang kita pakai ini namanya Opus ya kodeknya Oh i op heeh Google itu sudah ngerilis"
+    },
+    {
+      "start": 1170.039,
+      "end": 1179.149,
+      "text": "ada kodek yang namanya likra Lira saya lupa Lira Kalau enggak salah itu tuh dia pakai eh ai Jadi kalau ada paket loss"
+    },
+    {
+      "start": 1179.159,
+      "end": 1191.11,
+      "text": "paketnya itu direcover pakai Ai sehingga walaupun koneksinya jelek audio kita tetap jelas karena dia tuh memprediksi bahwa kalau bilang Misalnya"
+    },
+    {
+      "start": 1191.12,
+      "end": 1200.19,
+      "text": "Saya mau bilang Apple nih ya baru yang kedapat itu cuman up tapi dia UD nebak Berikutnya ini Apple nih apa Oh bukan"
+    },
+    {
+      "start": 1200.2,
+      "end": 1210.63,
+      "text": "app Iya gitu sama kayak large language model aja prediksi yang hilang itu dia memprediksi Oh apa sih kira-kira yang"
+    },
+    {
+      "start": 1210.64,
+      "end": 1223.31,
+      "text": "hilang ini gitu itu Eh kodeknya udah masuk dalam eksperimen sih sekarang H gitu Nah kalau web ATC ini"
+    },
+    {
+      "start": 1223.32,
+      "end": 1231.47,
+      "text": "sendiri bukan cuman buat multimedia kan bisa buat yang lain juga kan use case-nya kan Ya I teks juga bisa kan"
+    },
+    {
+      "start": 1231.48,
+      "end": 1241.43,
+      "text": "teks juga bisa nah teks juga bisa di web RTC itu kan ada data channel Oh datanya data channel Iya yang menarik ini yang"
+    },
+    {
+      "start": 1241.44,
+      "end": 1253.19,
+      "text": "paling menarik ya jadi Zoom itu dia pakai webtis-nya tuh aneh agak nyeleneh jadi Zoom itu dia capturing"
+    },
+    {
+      "start": 1253.2,
+      "end": 1268.59,
+      "text": "video itu menggunakan h264 He tapi permasalahannya kodek yang dipakai oleh Zoom itu gak disupport samatc jadi dia punya h264 ini kan ada"
+    },
+    {
+      "start": 1268.6,
+      "end": 1278.95,
+      "text": "banyak ya ada yang Open gitu ya ada yang [Musik] e jadi Zoom itu pakai yang komersial atau bukan yang non Open gitu memang ada"
+    },
+    {
+      "start": 1278.96,
+      "end": 1289.35,
+      "text": "kelebihannya kelebihannya itu mirip kayak spc-nya VPN tadi jadi bisa ngropedrop paket itu Eh jadi Zoom itu ngakalinnya dia pakai wetisc video"
+    },
+    {
+      "start": 1289.36,
+      "end": 1305.87,
+      "text": "kodeknya itu dikirim lewat data channel jadi dikirim Iya dikirim berupa binary stream dikirim lewat data channel gitu Nah yang yang yang menarik"
+    },
+    {
+      "start": 1305.88,
+      "end": 1314.59,
+      "text": "lagi adalah Kenapa dia ngirim data channel dan kenapa dia butuh wec jatuhnya Kenapa dia gak kirim pakai webset aja kalau"
+    },
+    {
+      "start": 1314.6,
+      "end": 1326.669,
+      "text": "gitu Iya i engak pakai karena kan websocket bisa ngirim binari juga kan dasarnya Iya kan Nah ini ini"
+    },
+    {
+      "start": 1326.679,
+      "end": 1336.87,
+      "text": "yang paling menarik kalau pakai websocket bisa dipastikan kita enggak bisa ngobrol kayak sekarang kalau pakai websocket delay karena latensi lat"
+    },
+    {
+      "start": 1336.88,
+      "end": 1350.11,
+      "text": "karena latensy betul Jadi sebelum kita melihat perbedaan webscket dan wetisc ya yang paling harus dipahami itu sebenarnya nya adalah perbedaan antara"
+    },
+    {
+      "start": 1350.12,
+      "end": 1365.029,
+      "text": "TCP dan udp udp I Protocol layer network I versus udp Yes betul jadi kalau di jaringan itu ada dua jenis protokol satu"
+    },
+    {
+      "start": 1365.039,
+      "end": 1373.95,
+      "text": "TCP atau kita bilangnya TCP ini adalah reliable Network jadi apa yang kita kirim itu akan dikontrol dan dipastikan"
+    },
+    {
+      "start": 1373.96,
+      "end": 1386.909,
+      "text": "selalu diterima di ujung I ada ack-nya iya ada ak-nya knowledge Ya tapi kalau yang udp itu tuh dia kirim kirim kirim kirim"
+    },
+    {
+      "start": 1386.919,
+      "end": 1395.75,
+      "text": "tapi enggak peduli terima sana sana terima atau enggak enggak peduli pokoknya kirim kirim kirim aja enggak ada statusnya Iya betul nah jadi yang"
+    },
+    {
+      "start": 1395.76,
+      "end": 1403.39,
+      "text": "menarik adalah kan kita tahu tadi video atau data apapun kalau dikirim kan selalu paket-paket ya He nah kalau"
+    },
+    {
+      "start": 1403.4,
+      "end": 1412.31,
+      "text": "dikirim lewat webscket itu tuh Cara kirimnya tuh bakal kayak gini paket satu kirim server itu dia harus ngjawab dulu"
+    },
+    {
+      "start": 1412.32,
+      "end": 1420.029,
+      "text": "saya terima ya paket sat terus dikirim balik begitu sudah dikasih tahu udah dikirim Bik ohudah diterima paket oke"
+    },
+    {
+      "start": 1420.039,
+      "end": 1436.87,
+      "text": "Ini paket nunggu lagi dijawab dari server dan kalau server bilang Eh gua gak terima kita h"
+    },
+    {
+      "start": 1436.88,
+      "end": 1448.59,
+      "text": "inter50 jadi kita ngirim nih ke sana 50 m terus dikasih tahu I balik lagi 50 gitu kan itu"
+    },
+    {
+      "start": 1448.6,
+      "end": 1460.549,
+      "text": "kanudah 100 m jadi belum lagi kalau yang tadi Bil ada yang missing terus dia harus kirim ulang terus Bik lagi ituudah 200 kalau"
+    },
+    {
+      "start": 1460.559,
+      "end": 1476.47,
+      "text": "sekaliir ulangingkanudp yangaketnya jedanya itu bisa nanose second bukan milisec lagi W Oke biasanya ngirim paket udp eh yang berbasis video"
+    },
+    {
+      "start": 1476.48,
+      "end": 1486.389,
+      "text": "itu eh waktu yang diperlukan kurang lebih jarak antar paket cuman 50 nan jadi bisa dikirim tu pak inst paket"
+    },
+    {
+      "start": 1486.399,
+      "end": 1495.43,
+      "text": "paket paket benan terus gu ya jadi dia cuman ngirim paket paket pak paket per 50 Nan dia ngirim paket terus gitu ya"
+    },
+    {
+      "start": 1495.44,
+      "end": 1503.35,
+      "text": "kalau nanti dari sana ngasih tahu ada yang missing baru dia kirim ulang jadi enggak ada tektokan sifatnya"
+    },
+    {
+      "start": 1503.36,
+      "end": 1510.83,
+      "text": "oke tapi itu kan lebih baik kalau misalnya di video streaming kan kalau misalnya kayak chat text base sedangkan"
+    },
+    {
+      "start": 1510.84,
+      "end": 1522.51,
+      "text": "urutan itu kan penting ya apakah lebih baik kalau chat atau e colaborative editing kayak Google doc kalau yang datanya harus bener ya harus"
+    },
+    {
+      "start": 1522.52,
+      "end": 1532.07,
+      "text": "perfect ya apalagi misalnya k ada Collision detection nih kalau misalnya iya ya itu kan harus kayak data yang diedit bersama"
+    },
+    {
+      "start": 1532.08,
+      "end": 1543.149,
+      "text": "itu kan bisa terjadi colision I kalau misalnya kirimk k kflik gitu Jadi apa lebih baik workshop atau WTC gitu Kalau"
+    },
+    {
+      "start": 1543.159,
+      "end": 1554.11,
+      "text": "misalnya datanya itu kita bisa kirim cuman satu paket gitu ya dalam artian enggak lebih dari 1500 byte Kenapa 1500"
+    },
+    {
+      "start": 1554.12,
+      "end": 1561.669,
+      "text": "byte Jadi biasanya kalau yang suka main ya kalau yang yang suka main game Itu kan eh cara ngakal-ngakalin Network"
+    },
+    {
+      "start": 1561.679,
+      "end": 1569.789,
+      "text": "latensi itu kadang coba tuh adjust mtu-nya di router Iya kan itu maksimum transmission unit jadi satu paket itu"
+    },
+    {
+      "start": 1569.799,
+      "end": 1578.83,
+      "text": "maksimum dikirim berapa ya itu biasanya 1500 byte itu Nah kalau paket data yang berupa teks atau kalau kita main game"
+    },
+    {
+      "start": 1578.84,
+      "end": 1589.31,
+      "text": "online kayak Dota gitu kan itu kan dia cuman ngirim koordinat kan koordinat terus ngirim ee apa eh data biasanya AC"
+    },
+    {
+      "start": 1589.32,
+      "end": 1601.149,
+      "text": "Iya action kayak up down e left gitu kan itu kan sebenarnya dikirim satu paket eh berulang itu sebenarnya ok gitu karena"
+    },
+    {
+      "start": 1601.159,
+      "end": 1613.909,
+      "text": "enggak perlu ada satu paket dikirim langsung banyak beda dengan video video video itu kalau kita kirim kefame"
+    },
+    {
+      "start": 1613.919,
+      "end": 1624.35,
+      "text": "atau gambar full itu tuh dia butuh mungkin kurang lebih ada Li paket sekaligus yang akan dikirim sehingga ini tuh enggak boleh"
+    },
+    {
+      "start": 1624.36,
+      "end": 1633.549,
+      "text": "ada delay enggak boleh ada yang hilang sehingga kalau pakai eh ngirim lima paket sekaligus dan harus diterima"
+    },
+    {
+      "start": 1633.559,
+      "end": 1648.59,
+      "text": "secepat mungkin itu tuh Enggak mungkin pakai TCP terlalu lambat Oke Kecuali Kecuali konsepnya itu adalah live streaming yang delay itu"
+    },
+    {
+      "start": 1648.6,
+      "end": 1656.029,
+      "text": "kayak satu arah kayak YouTube itu kan satu arah kan YouTube live ya ya I YouTube itu kan protokolnya masih http"
+    },
+    {
+      "start": 1656.039,
+      "end": 1665.63,
+      "text": "walaupun Ah ada http 3 yang berbasis udp gitu ya tapi YouTube itu dengan http 2 juga itu pada dasarnya TCP kan I dan itu"
+    },
+    {
+      "start": 1665.64,
+      "end": 1675.909,
+      "text": "kan ngstream video betul Dan itu enggak masalah kenapa karena sebenarnya delaynya tuh sampai 2 detik tapi kalau kita ngobrol kayak gini"
+    },
+    {
+      "start": 1675.919,
+      "end": 1685.83,
+      "text": "kan gak boleh ada delay 2 detik jauh sekali ya I Nah itulah Kenapa kalau kita yang berbasis video karena"
+    },
+    {
+      "start": 1685.84,
+      "end": 1694.83,
+      "text": "datanya streamnya itu gede dan banyak gitu ya itu hampir enggak mungkin kita pakai TCP H kalau jaringannya sangat Oke"
+    },
+    {
+      "start": 1694.84,
+      "end": 1703.35,
+      "text": "mungkin masih Mungkin gitu ya tapi most likely sebenarnya sebagus-bagus apanya jaringan kita tapi kalau WiFi kita aja"
+    },
+    {
+      "start": 1703.36,
+      "end": 1711.669,
+      "text": "tabrakan sama punya tetangga iya iya itu pasti paket loss-nya udah hilang duluan di rumah Gitu sebelum dikirim"
+    },
+    {
+      "start": 1711.679,
+      "end": 1721.149,
+      "text": "hmm yup yup paket loss itu terjadi ya Oh berarti web itu pakai udp Terus kalau webscket itu pakai TCP"
+    },
+    {
+      "start": 1721.159,
+      "end": 1734.35,
+      "text": "berarti ya Iya betul gitu bedanya nah kebutuhan untuk web RTC itu kan kalau secara infrastruktur kan ya"
+    },
+    {
+      "start": 1734.36,
+      "end": 1751.43,
+      "text": "E pertama butuh signaling yang mendaftarkan address dari pasih tahu Oh Mas Yohan detail networknya di sinii supaya kita bisaect"
+    },
+    {
+      "start": 1751.44,
+      "end": 1763.029,
+      "text": "terkunikasi Lalu ada yang disebut dengan kayak Stone atau senya buat apa sih oke nah Ini yang Menar"
+    },
+    {
+      "start": 1763.039,
+      "end": 1776.549,
+      "text": "Kenapa but dan server buat sign sedangkan websocket enggak pada dasarnya karena pe to yang web RTC itu"
+    },
+    {
+      "start": 1776.559,
+      "end": 1796.31,
+      "text": "gak butuh IP public jadi tidak memerlukan atau tadi Kalau weet kan kita yang penting ipnya berapa"
+    },
+    {
+      "start": 1796.32,
+      "end": 1806.389,
+      "text": "kanverver jadi kita beneran nembak satu IP dan langsung connect kan Iya dan itu jadi kita untuk bisa connect ke server"
+    },
+    {
+      "start": 1806.399,
+      "end": 1819.23,
+      "text": "web socket itu tuh beneran ya tembak aja ke sana tapi kalau yang namanya webtc terutama yang 101 ya kayak eh saya Eh"
+    },
+    {
+      "start": 1819.24,
+      "end": 1830.07,
+      "text": "kita mau communicate Berempat nih ini tuh udah pasti Eh kalau sor kalau kalau beremp ini kan sama server jadi kita"
+    },
+    {
+      "start": 1830.08,
+      "end": 1837.75,
+      "text": "sekarang connectnya itu kan ke streamy server Kalau ama streamy server itu kita bisa enggak pakai stun dan ggak usah"
+    },
+    {
+      "start": 1837.76,
+      "end": 1851.389,
+      "text": "pakai turn Kenapa karena kan punya IP public Oh ya kan Oke gitu Jadi bisa aja yang diperlukan"
+    },
+    {
+      "start": 1851.399,
+      "end": 1865.389,
+      "text": "itu cuman off SDP session description Protocol yang isinya tuh cuman menjabarkan alamat saya tu e servernya di mana terus kemudian saya"
+    },
+    {
+      "start": 1865.399,
+      "end": 1875.789,
+      "text": "pakai kodeknya apa aja terus saya kasih nih ke r r terima tuh dia bilang oh Yohan kodeknya VP ya Oh oke saya support"
+    },
+    {
+      "start": 1875.799,
+      "end": 1887.23,
+      "text": "kok VP nanti R akan balas dia ngasihare SDP namanya SP itu isinya sama kayak SDP isinya juga cuman Oh alamat saya terus"
+    },
+    {
+      "start": 1887.24,
+      "end": 1896.07,
+      "text": "kemudian kodek yang saya support itu ini Nah nanti itu di matchming Oh jadi nanti saya ngirim video ke Risa itu tuh"
+    },
+    {
+      "start": 1896.08,
+      "end": 1906.669,
+      "text": "kodeknya udah pasti bisa diterima sama Risa Karena dia udah ngasih tahu kan sebelumnya gitu Jadi kalau misalnya"
+    },
+    {
+      "start": 1906.679,
+      "end": 1917.19,
+      "text": "dalam konteks streamyard itu tuh mungkin kita enggak perlu stun dan turn tadi karena stream punya public IP kalau in"
+    },
+    {
+      "start": 1917.2,
+      "end": 1929.47,
+      "text": "juga sama kasusnya eh inl itu itu kita pakai eh turn server stunnya enggak dipakai gitu Kenapa karena kita ngdeply"
+    },
+    {
+      "start": 1929.48,
+      "end": 1942.629,
+      "text": "inl server itu di belakang kubernetes Oh berarti Ada proxi ya Ada nutsnya kan jadin Ada ada ada I Iya jadi"
+    },
+    {
+      "start": 1942.639,
+      "end": 1952.669,
+      "text": "servernya in sendiri itu sebenarnya enggak punya IP publ H gitu karena dia lewat load balancer-nya kubernetes kita"
+    },
+    {
+      "start": 1952.679,
+      "end": 1963.95,
+      "text": "kan gitu nah itu makanya kita cuma pakai turn tapi kita enggak pakai e stun Kenapa karena eh kita lagi-lagi eh turn kita itu punya"
+    },
+    {
+      "start": 1963.96,
+      "end": 1976.59,
+      "text": "IP publ jadi bisa langsung connect aja ke turn gitu nah web socket itu enggak perlu turn dan Stone sesimpel karena ya"
+    },
+    {
+      "start": 1976.6,
+      "end": 1987.389,
+      "text": "itu tadi dia sudah tahu IP publiknya ya karena dia sebenarnya Cuma connect ke ya itu websocket Protocol wss biasanya"
+    },
+    {
+      "start": 1987.399,
+      "end": 1998.23,
+      "text": "websocket secure websocket Protocol dan langsung IP atau domain yang sudah public yang ada service websocketnya kan sebenarnya i betul nah bedanya"
+    },
+    {
+      "start": 1998.24,
+      "end": 2008.43,
+      "text": "sebenarnya cuman stun itu itu sebenarnya untuk ngasih tahu IP saya itu berapa sih Oh jadi ini tuh paling sederhana kayak"
+    },
+    {
+      "start": 2008.44,
+      "end": 2025.59,
+      "text": "gini ya bentar e boleh screen sharing engak boleh Boleh silakan silakan Oke jadiama politik kan apa"
+    },
+    {
+      "start": 2025.6,
+      "end": 2041.269,
+      "text": "iniama jadi misalnya bentar screen sharing dulu jadi contoh nih ini tuh ada e website kalian bisa cari aja trickle I"
+    },
+    {
+      "start": 2041.279,
+      "end": 2052.909,
+      "text": "gitu ya Ini tuh untuk ngecek eh IP address kita dari stun servernya Google jadi misalnya kita get kandidat"
+    },
+    {
+      "start": 2052.919,
+      "end": 2068.149,
+      "text": "di bawah ini gitu ya running Nah ini kan kalau dilihat ini tuh eh ada dua IP address ya kan IP sama ip4 ya"
+    },
+    {
+      "start": 2068.159,
+      "end": 2081.909,
+      "text": "Iya betul nah ini ini adalah IP address router saya yang bawah itu oke seh tapi bukan IP public kan Mas Mas"
+    },
+    {
+      "start": 2081.919,
+      "end": 2090.43,
+      "text": "Yohan bukan IP public kan itu oh routernya kebetulan paketan gaming jadi itu I public memang routernya bagian di"
+    },
+    {
+      "start": 2090.44,
+      "end": 2104.91,
+      "text": "belakang bisa juga di belakang n sih Iya nah eh bisa jadi justru memang sebenarnya stun itu itu untuk ngetrace IP kita dari"
+    },
+    {
+      "start": 2104.92,
+      "end": 2113.75,
+      "text": "dari laptop Terus nyambung ke router Terus nyambung lagi ke routernya ISP Terus nyambung lagi ke mana sampai IP"
+    },
+    {
+      "start": 2113.76,
+      "end": 2123.95,
+      "text": "publ yang kira-kira bisa diakses sama Pir Pir sebelah kita gitu Hm jadi fungsi kayak untuk buka connection ya jadi"
+    },
+    {
+      "start": 2123.96,
+      "end": 2133.27,
+      "text": "kayak cari pintunya gitu e bu biar bisa saling nanti keluar masuk sendiri Tapi harus tahu pintunya dari kedua kedua"
+    },
+    {
+      "start": 2133.28,
+      "end": 2144.069,
+      "text": "pihak G betul karena ada istilahnya kalau di jaringan Tu ada punch punching jadi kayak nusuk lubang ke"
+    },
+    {
+      "start": 2144.079,
+      "end": 2158.109,
+      "text": "dalam nuts Jadi sebenarnya caranya itu adalah Eh kita ituect ke e ST server pada saat kita ke ST server let's"
+    },
+    {
+      "start": 2158.119,
+      "end": 2167.19,
+      "text": "say di port di situ tuh 59 1600 ya Iya port itu tuh otomatis di eh router itu"
+    },
+    {
+      "start": 2167.2,
+      "end": 2177.589,
+      "text": "kan kebuka Iya nah port itu dibuka sebenarnya untuk nanti pir dari sana itu bisa lewat port itu karena by default"
+    },
+    {
+      "start": 2177.599,
+      "end": 2185.47,
+      "text": "nuts itu kalau tidak ada koneksi dari dalam dia enggak akan mau ngebuka port itu pasti keblok sama firewall kan atau"
+    },
+    {
+      "start": 2185.48,
+      "end": 2194.27,
+      "text": "keblok sama nnya Oh iya iya berarti harus dari dalam dulu yang request betul jadi stun itu sebenarnya"
+    },
+    {
+      "start": 2194.28,
+      "end": 2205.87,
+      "text": "mekanismenya adalah ngebukain jalur biar pir dari sana itu bisa lewat ke jalur yang sudah dibukain Oke gitu gambarannya nah yang terjadi"
+    },
+    {
+      "start": 2205.88,
+      "end": 2217.43,
+      "text": "juga sometimes kalau ini kasusnya kayak enterprise yang di mana secara security companynya itu membutuhkan karyawannya Pak pakai"
+    },
+    {
+      "start": 2217.44,
+      "end": 2226.55,
+      "text": "VPN web artis itu juga masalah kan dengan Iya koneksi yang di behind VPN gitu Nah karena bingung ini sekarang i"
+    },
+    {
+      "start": 2226.56,
+      "end": 2234.03,
+      "text": "betul companynya sama-sama vpn-nya IP publicnya sama misalnya kita semua di sini pakai VPN yang sama yang dari"
+    },
+    {
+      "start": 2234.04,
+      "end": 2244.99,
+      "text": "company I public kita sama semua tuh nah itu yang Iya betul maksud saya nah salah satu kelemahan Al mungkin masalah Iya nah"
+    },
+    {
+      "start": 2245,
+      "end": 2253.91,
+      "text": "tapi itulah fungsi dari turn server kalau tadi kan turn server kan Oh oke bus punya turn server lagium Iya ada"
+    },
+    {
+      "start": 2253.92,
+      "end": 2262.87,
+      "text": "lagi turn server karena turn server ini sebenarnya kita bisa bilang sebagai relay server atau proxy server H yang"
+    },
+    {
+      "start": 2262.88,
+      "end": 2269.79,
+      "text": "bisa kita pakai untuk terhubung karena turn server ini udah pasti punya IP public jadi sama kayak webscket aja"
+    },
+    {
+      "start": 2269.8,
+      "end": 2278.069,
+      "text": "connect-nya H gitu tinggal tinggal nembak aja ke IP publnya kan I berarti snya ngasih tahu kita posisinya di mana"
+    },
+    {
+      "start": 2278.079,
+      "end": 2285.87,
+      "text": "Oh berarti masing-masing device eh connect ke si turn server si proxy servernya dulu kan kalau pakai turn kita"
+    },
+    {
+      "start": 2285.88,
+      "end": 2299.79,
+      "text": "itu enggak peer to peer lagi semuanya itu lewat turn server Jadi udah kayak relay aja gitu gambarannya nah kurang lebih gitu sih"
+    },
+    {
+      "start": 2299.8,
+      "end": 2309.87,
+      "text": "kenapa Eh apa kita butuh eh stun dan eh turn itu sebenarnya untuk bisa peir toir ya ngakalin peir toirnya"
+    },
+    {
+      "start": 2309.88,
+      "end": 2318.349,
+      "text": "Itu karena tanpa stun e tanpa stun dan turn kalau kita ggak punya public IP artinya kan kita gak bisa dihubungi dari"
+    },
+    {
+      "start": 2318.359,
+      "end": 2331.75,
+      "text": "luar kan I Nah itulah fungsi stun dan turn pada saat bikin hubungan e wtis gitu Oke kita pause dulu udah pada pusing"
+    },
+    {
+      "start": 2331.76,
+      "end": 2345.95,
+      "text": "pada binganya tanya a silakan ini ya ini mungkin kalau kita ngomongin teknisnya mungkin buat yang baru-baru itu pasti akan sangat"
+    },
+    {
+      "start": 2345.96,
+      "end": 2354.95,
+      "text": "kompleks akan sangat rumit Iya mungkin bet eh enaknya ke ke sesi berikutnya itu kita bahas saja ini sebenarnya web itu"
+    },
+    {
+      "start": 2354.96,
+      "end": 2364.15,
+      "text": "bisa diapain sih kemudian webet tu eh kira-kira komarable enggak sih dengan web RTC jadi kita ngomongin produk lah"
+    },
+    {
+      "start": 2364.16,
+      "end": 2374.43,
+      "text": "yang kita bisa explore yang berbasis webtc itu kita coba aja nah inl sendiri eh target marketnya itu B2B atau b2c ya"
+    },
+    {
+      "start": 2374.44,
+      "end": 2385.99,
+      "text": "Eh saat awal-awal kita mulai awalnya kan kita jualan api ya jualan api api send I api sendiri itu kan pada dasarnya B2B"
+    },
+    {
+      "start": 2386,
+      "end": 2395.43,
+      "text": "awalnya tapi kalau jualan B2B itu pasti e kita sudah ngerasain itu susahnya minta ampun Kenapa karena akan selalu ee"
+    },
+    {
+      "start": 2395.44,
+      "end": 2405.15,
+      "text": "setiap ada perusahaan yang kita tawarin selalu akan nanya kliennya siapa ya itu selalu jadi pertanyaan Sara belum ada"
+    },
+    {
+      "start": 2405.16,
+      "end": 2413.51,
+      "text": "kita baru mulai gitu kan Oh ini ya masalah yang sama ya apa kayak ayam sama telur ya Yang mana yang duluan Iya betul"
+    },
+    {
+      "start": 2413.52,
+      "end": 2426.79,
+      "text": "betul betul I nah atau kayak lamar kerja butuh pengalaman kerja pengalaman I itulah fungsinya internship kan sebenarnya ada pengalaman kerja oke oke"
+    },
+    {
+      "start": 2426.8,
+      "end": 2438.19,
+      "text": "sehingga kita tuh eh terinspirasi dari tiktok sebenarnya jadi tiktok itu kan e B2 ya jadi dia consumer bas app yang dipakai masif gitu"
+    },
+    {
+      "start": 2438.2,
+      "end": 2449.51,
+      "text": "di dunia terus sekarang behind the scene itu sebennya B dance atau induk dari tiktok sendiri itu nawarin nawarin Fi yang sama dengan Fi"
+    },
+    {
+      "start": 2449.52,
+      "end": 2464.75,
+      "text": "in itu ke perusahaan-perusahaan untuk nawarin ngevelop live streaming live shopping eh or anything live live video gitu ya terus kalau kliennya nanya"
+    },
+    {
+      "start": 2464.76,
+      "end": 2474.63,
+      "text": "nanya portfolio mana iniurak Peru Engak perluak enggak perlu udah ada gitu kan Nah itulah Kenapa inl akhirnya mutusin"
+    },
+    {
+      "start": 2474.64,
+      "end": 2483.51,
+      "text": "Oh better kita coba eh fokus untuk ng-solve eh apa yang kita lihat dulu di teman-teman kita sehingga kita saat ini"
+    },
+    {
+      "start": 2483.52,
+      "end": 2494.55,
+      "text": "e fokus eh coba naikin b2c jadi eh ada satu aplikasi yang namanya e inl room yang kita develop itu bisa dibuka di"
+    },
+    {
+      "start": 2494.56,
+      "end": 2502.51,
+      "text": "room.inl.pp pada dasarnya ini mirip kayak Google meet tapi kita gak Pengin compit sama Google meet atau Zoom atau"
+    },
+    {
+      "start": 2502.52,
+      "end": 2515.23,
+      "text": "eh Microsoft team eh Fokus utama dari in live room ke depannya itu lebih buat webinar sebenarnya Jadi kurang lebih kita peng ngegabungin"
+    },
+    {
+      "start": 2515.24,
+      "end": 2531.51,
+      "text": "e .com kemudian eh Zoom kemudian paymentnya juga sekaligus jadi orang bisa bikin webinar webinar berbayar jual tiket di situ terus"
+    },
+    {
+      "start": 2531.52,
+      "end": 2543.069,
+      "text": "kemudian joinnya juga kelasnya ya langsung di situ berarti bisa Jadi kalau misalnya ada bikinusif S apa ya lagi nontonplay yang ikut nontonay"
+    },
+    {
+      "start": 2543.079,
+      "end": 2559.549,
+      "text": "rekamin Pak in jadi di broadc bisa join Iya terus diset diseretam lah diseret kalau bajakan itu wah ini tampilannya juga mirip-mirip"
+    },
+    {
+      "start": 2559.559,
+      "end": 2572.23,
+      "text": "e Google meet ya langsung ada i inspir i sense nah ini ada pertanyaan nih dari Rahmat nih in in life support I enggak"
+    },
+    {
+      "start": 2572.24,
+      "end": 2588.75,
+      "text": "apa ya n Oh bukan Iya Jadi sebenarnya untuk n2ncription eh inl sendiri saat ini memutuskan belum mensupport Kenapa ada ada alasannya"
+    },
+    {
+      "start": 2588.76,
+      "end": 2600.109,
+      "text": "sebenarnya jadi Eh toend encryption ini membuat kita sebagai server itu tidak bisa membaca apa yang lewat di server"
+    },
+    {
+      "start": 2600.119,
+      "end": 2612.79,
+      "text": "kita karena kita cuman bisa nge-forward aja kan Nah sedangkan karena tadi fokus kitaal pengel webinar di mana Kalau webinar ini kan ke"
+    },
+    {
+      "start": 2612.8,
+      "end": 2635.069,
+      "text": "depannya berapa fitur yang mungan diukan misalnya salah satunyaud jadi audio yang lewat itu bisaah jadi misak"
+    },
+    {
+      "start": 2635.079,
+      "end": 2642.47,
+      "text": "mungakisaver support juga itu yaitu namanya eh Voice detection jadi pada saat kita ngomong itu bisa keedetect Oh"
+    },
+    {
+      "start": 2642.48,
+      "end": 2653.15,
+      "text": "ini lagi ngomong nah kalau pakai n encryption lagi-lagi itu enggak bisa didetect kita enggak bisa baca yes gitu akhirnya saat"
+    },
+    {
+      "start": 2653.16,
+      "end": 2661.27,
+      "text": "ini kita memutuskan Oke kita eh untuk kebutuhan inl room kita enggak perlu ngerjain end to end encryption dulu Tapi"
+    },
+    {
+      "start": 2661.28,
+      "end": 2676.95,
+      "text": "nanti kalau ada kebutuhan itu bukan hal yang sulit kenapa ituudah punyai Yangi yang memungk"
+    },
+    {
+      "start": 2676.96,
+      "end": 2692.27,
+      "text": "kita sangudah karudah ada Diah sejauh ini yang apa yangudah"
+    },
+    {
+      "start": 2692.28,
+      "end": 2705.549,
+      "text": "ituudah ada Eh kalau kemarin-kemarin sih kita memang lebih pakai buat meeting gitu Iya lebih pakai buat meeting terus"
+    },
+    {
+      "start": 2705.559,
+      "end": 2715.47,
+      "text": "eh beberapa klien yang kita ngobrol itu itu sebenarnya ada yang Eh lagi explore untuk penggunaan jalur komunikasi"
+    },
+    {
+      "start": 2715.48,
+      "end": 2728.47,
+      "text": "ofisial untuk perbankan jadi i jadi kan Eh ini sebenarnya Eh kayak dalam konteks misalnya ee semua komunikasi perusahaan kan saat ini"
+    },
+    {
+      "start": 2728.48,
+      "end": 2744.27,
+      "text": "biasanya lewat Whatsapp ya terus bank kalau ngak kli itu tuh biasanya kalau lewat jalur personal gak punya legalitas dan gak bisa"
+    },
+    {
+      "start": 2744.28,
+      "end": 2757.91,
+      "text": "dipertanggungjawabkan dan gak bisaord I bisaord Tapi itu kan manual semuanya gitu Jadi ada satal kita yang lagi ngobrol pada dasarnya dia pengin"
+    },
+    {
+      "start": 2757.92,
+      "end": 2767.75,
+      "text": "ngdevelop eh aplikasi mirip kayak WhatsApp Which is possible dengan inl api Eh tapi fungsinya memang untuk internal"
+    },
+    {
+      "start": 2767.76,
+      "end": 2779.71,
+      "text": "communication jadi setiap obrolan di situ setiap chat itu bisa kerecord di server sehingga apapun yang dikomunikasikan itu bisa"
+    },
+    {
+      "start": 2779.72,
+      "end": 2790.03,
+      "text": "dipertanggungjawabkan Oke berarti ibarat ini salah satu use case di luar Google meeting tadi makanya dengan bantuan in bisa kita itu bisa"
+    },
+    {
+      "start": 2790.04,
+      "end": 2798.67,
+      "text": "membuat serv WhatsApp sendiri atau telegram sendiri di mana bisa ada video call bisa ada chat juga ya"
+    },
+    {
+      "start": 2798.68,
+      "end": 2809.15,
+      "text": "betul gitu nah ini ada pertanyaan lagi Oh lanjut lanjut lanjut langsung aja Oh langsung oke ini eh salah satu fitur yang sulit"
+    },
+    {
+      "start": 2809.16,
+      "end": 2817.03,
+      "text": "diimplementasi adalah dedicated room for video streaming Apakah in support untuk dihost di server sendiri i ya Eh pada"
+    },
+    {
+      "start": 2817.04,
+      "end": 2827.43,
+      "text": "dasarnya Core teknologi dari inlife itu sendiri itu tuh open source H jadi kalau bisa tolong dibantu dibukain ke github"
+    },
+    {
+      "start": 2827.44,
+      "end": 2841.51,
+      "text": "kita ada inl Death itu tuh kitab Iya eh inl dep/sfw eh bukan ini ya coba yang di"
+    },
+    {
+      "start": 2841.52,
+      "end": 2860.109,
+      "text": "private chat eh private chat ini bisendiri ya ya room itu yangadi jadi room itu"
+    },
+    {
+      "start": 2860.119,
+      "end": 2879.39,
+      "text": "openour open souralus [Musik] dariver kita Oh jadi bahkan kalau buka"
+    },
+    {
+      "start": 2879.4,
+      "end": 2892.309,
+      "text": "ada example http websocket itu tuh kita bisa ng-running langsung eh aplikasi mirip kayak streamyard atau Google meet very simple layout-nya very"
+    },
+    {
+      "start": 2892.319,
+      "end": 2899.75,
+      "text": "basic gitu ya tapi ya nunjukin nunjukin fungsi sfu tadi yang nge-forward kita ngirim video kemudian di broadcast yang"
+    },
+    {
+      "start": 2899.76,
+      "end": 2910.87,
+      "text": "lain yang ada di dalam room itu gitu i i jadi pertanyaan yang tadi sebenarnya kita kita Open untuk dihost di server"
+    },
+    {
+      "start": 2910.88,
+      "end": 2922.91,
+      "text": "sendiri jadi kita nerapin e ada istilahnya namanya kita ya Bilangnya erprise lic jadi sifatnya itu memang kita nghost di servernya mereka"
+    },
+    {
+      "start": 2922.92,
+      "end": 2940.309,
+      "text": "sendiri ya bayarnya tuh per Instance per tahun Biayanya berapa ya itu silakisaverend dengan infra sendiri tapi makai e server kita itu bisa tapi"
+    },
+    {
+      "start": 2940.319,
+      "end": 2950.87,
+      "text": "biasanya eh running server sendiri itu jauh lebih kompleks Kalau udah ngerti kita juga provide support Kalau udah ngerti ya"
+    },
+    {
+      "start": 2950.88,
+      "end": 2960.99,
+      "text": "silakan sih bisa-bisa aja tapi eh Kalau agak rumit ya better pakai yang Cloud api kita aja gitu Oh jadi ada ada"
+    },
+    {
+      "start": 2961,
+      "end": 2970.03,
+      "text": "ininya ya ada apa ada bisnis modelnya seperti itu ya mau yang he tinggal terus habis itu deploy atau pakai service yang"
+    },
+    {
+      "start": 2970.04,
+      "end": 2977.75,
+      "text": "sudah disediakan oleh in ya i betul betul tanyaannya Kalau kayak kalau pakai dari inl kan dihostingin juga kan ada"
+    },
+    {
+      "start": 2977.76,
+      "end": 2985.87,
+      "text": "ada servernya kan bisa kect pokoknya enggak perlu mikir infra atau apalah deploy-deployan ya kayak met karena Iya"
+    },
+    {
+      "start": 2985.88,
+      "end": 2994.069,
+      "text": "karena sebenarnya ya masalah kita nge-host server itu terutama kalau kalian nge-hostnya itu kayak di Google Cloud di Amazon dan lain-lain the most"
+    },
+    {
+      "start": 2994.079,
+      "end": 3006.349,
+      "text": "Painful part itu sebenarnya adalah bandwid-nya H bandwid-nya Google Cloud Amazon dan kawan-kawan itu super mahal Bay sangat mahal Iya Oh berarti inl"
+    },
+    {
+      "start": 3006.359,
+      "end": 3018.03,
+      "text": "enggak enggak di Cloud ya enggak di cloud-nya yang tadi disebutkan enggak onprame ya oke Karena dedicated Line di Indonesia tuh enggak"
+    },
+    {
+      "start": 3018.04,
+      "end": 3026.23,
+      "text": "di enggak bayar per bandwid cuma bayar Sori enggak baw enggak bayar per per toal bandwi yang digun"
+    },
+    {
+      "start": 3026.24,
+      "end": 3036.39,
+      "text": "I jalur B yang berpulan jadinya per capacity gitu yes gitu Betul tapi ya Feel Free aja sesuai"
+    },
+    {
+      "start": 3036.4,
+      "end": 3043.95,
+      "text": "kebutuhan kalau band yang dipakai masih kecil ya buat personal gitu Ya bikin kelas online seminggu cuman satu kali"
+    },
+    {
+      "start": 3043.96,
+      "end": 3055.51,
+      "text": "dua kali di Google Cloud itu masih affordable kok pakai aja yang open source atau bisa ngobrol gitu question kalau misalnya"
+    },
+    {
+      "start": 3055.52,
+      "end": 3063.75,
+      "text": "komunitas kayak kita nih ngobrolin web pengin pakai inl teknisnya gimana nah yang bisa bisa dibroadcast ke Youtube"
+    },
+    {
+      "start": 3063.76,
+      "end": 3072.71,
+      "text": "juga ya Nah saat ini kita belum support broadcast ke Youtube gitu karena belum ada klien yang minta"
+    },
+    {
+      "start": 3072.72,
+      "end": 3081.589,
+      "text": "Oke jadi kita e belum buattin Tapi pada dasarnya ngebuatin itu tuh eh sebenarnya konteksnya sederhana dan masihib juga"
+    },
+    {
+      "start": 3081.599,
+      "end": 3091.43,
+      "text": "kita lakuin eh bedanya itu adalah e kita pada dasarnya Ya sama aja kayak masuk ke inl room tadi tapi kan itu sama aja"
+    },
+    {
+      "start": 3091.44,
+      "end": 3101.349,
+      "text": "kayak kita masuk ke Zoom atau kita masuk ke eh Google meet gitu ya Nah kemudian ya dicapture Pai eh obs kemudian"
+    },
+    {
+      "start": 3101.359,
+      "end": 3110.549,
+      "text": "ditbakin gitu nah tapi kan kalau dalam konteks kayak gitu itu kan biasanya butuh PC yang powerful ya biar bisa"
+    },
+    {
+      "start": 3110.559,
+      "end": 3120.47,
+      "text": "eh capture pakai obs kemudian ditembakin ke ee e YouTube ya Nah Kara butuh Juga misalnya kayak misalnya pakai PC siapa"
+    },
+    {
+      "start": 3120.48,
+      "end": 3129.15,
+      "text": "misalnya saya gitu berarti kan harus ada audio feedback juga karena harus bisa dapat audio yang Saya dengar masuk ke"
+    },
+    {
+      "start": 3129.16,
+      "end": 3137.27,
+      "text": "obs baru Tebak itu Kalau enggak ya i betul ada videonya Enggak ada enggak Ada audionya gitu juga susah tapi buat"
+    },
+    {
+      "start": 3137.28,
+      "end": 3150.95,
+      "text": "kalian karena biar kita bisa ngobrol di live room enggak usah pakai stream lagi nanti saya bikinin deh sanggur sanggur"
+    },
+    {
+      "start": 3150.96,
+      "end": 3167.43,
+      "text": "sangur bikin itu tuh harusnya itu harusnya Harusnya gak runith Karena pada dasarnya dia cuman e apa ngerekam Chrome headless kayak gini"
+    },
+    {
+      "start": 3167.44,
+      "end": 3179.549,
+      "text": "terus ya ditembakin aja ke itu e youtube-nya gitu jadi bisa kita buatin di berarti kita nembak langsung nih ya"
+    },
+    {
+      "start": 3179.559,
+      "end": 3192.03,
+      "text": "minta disponsorin kita buat contoh k kita harus nanti itunya mau enggak mau pasti akan dibutuhin kan kita sebenarnya dalam"
+    },
+    {
+      "start": 3192.04,
+      "end": 3200.39,
+      "text": "roadmap-nya eh inl group sendiri karena itu kan kita penginnya sebagai webinar ya H eh itu memang eh fitur kayak"
+    },
+    {
+      "start": 3200.4,
+      "end": 3212.43,
+      "text": "streamyard itu memang sudah ada di pipeline Oh Tapi saat ini yang lagi kita fokusin itu adalah eh untuk bisa register"
+    },
+    {
+      "start": 3212.44,
+      "end": 3221.67,
+      "text": "participan kemudian terima pembayaran itu yang lagi kita kerjain sekarang oke oke karena kan kalau sekarang kan teman-teman bikin webinar kan daftarnya"
+    },
+    {
+      "start": 3221.68,
+      "end": 3230.349,
+      "text": "di mana Terus webinarnya di mana Iya gitu kan Terus enggak enggak enggak kecatat juga tuh eh kadang tuh kalau"
+    },
+    {
+      "start": 3230.359,
+      "end": 3241.27,
+      "text": "webinar ini ya kalau webinar pemerintahan itu biasanya begitu masuk Dis dulu satu-satu p Pang dulu satu-satu i i i i i Nah nanti di live room Heh"
+    },
+    {
+      "start": 3241.28,
+      "end": 3250.03,
+      "text": "lanjut lanjut lanjut di live room itu kita penginnya nanti kita bisa langsung lihat yang siapa aja ya terus kemudian"
+    },
+    {
+      "start": 3250.04,
+      "end": 3260.19,
+      "text": "yang e join itu durasinya masing-masing per orang itu berapa lama oh r Cuman 30 menit Ian cuman 45 menit ek 20 menit"
+    },
+    {
+      "start": 3260.2,
+      "end": 3267.39,
+      "text": "misalnya ketahuan terus kita juga karena kita ada voice activity detection jadi kita juga lagi ngerjain Gimana caranya"
+    },
+    {
+      "start": 3267.4,
+      "end": 3278.349,
+      "text": "kita bisa ngitung engagement speaking Jadi ketahuan Oh an ngobr Iya jadi ada analtis Oh Risa tuh Ngobrol"
+    },
+    {
+      "start": 3278.359,
+      "end": 3287.87,
+      "text": "sekian menitan sekian menit saya sekian menit gitu jadi the whole webinar kita bisa tahu untuk planning next berikutnya"
+    },
+    {
+      "start": 3287.88,
+      "end": 3296.51,
+      "text": "itu seperti apa berdasarkan data-data ituit Wah keren itu yang lagi kita kerjain sebenarnya untuk nanti next sama"
+    },
+    {
+      "start": 3296.52,
+      "end": 3312.589,
+      "text": "mas Danang kita semua jdg yang live-nya pakaiin live [Tertawa] nantiusingar haarak usah Pak"
+    },
+    {
+      "start": 3312.599,
+      "end": 3324.589,
+      "text": "googleak itu berat Iya Wah menarik ya Iya soalnya kemarin itu sempat e kepikiran kan e ini kan streamyard kita pakai streamyard"
+    },
+    {
+      "start": 3324.599,
+      "end": 3330.39,
+      "text": "terus eh mikir ini mau diperpanjang lagi soalnya sudah mau habis kan eh mikir-mikir ada enggak solusi yang"
+    },
+    {
+      "start": 3330.4,
+      "end": 3337.63,
+      "text": "gratisan gitu ada namanya video Ninja itu kalau enggak salah pakai webtc juga tapi tetap tadi harus dibroadcast"
+    },
+    {
+      "start": 3337.64,
+      "end": 3345.23,
+      "text": "melalui obs nah takutnya enggak kuat karena kan si eh videonya sendiri kan kita harus download dan upload kan gitu"
+    },
+    {
+      "start": 3345.24,
+      "end": 3352.67,
+      "text": "kan butuh bandwid kan untuk ngumpulin orang-orang ini habis itu baru di broadcast lagi jadi ada dua kali e"
+    },
+    {
+      "start": 3352.68,
+      "end": 3366.109,
+      "text": "bandwid yang harus dipakai gitu kan apalagi apa saya sebagai operatornya eh koneksi Internetnya upload-nya kurang bagus Gitu Ee jadi agak khawatir di sana"
+    },
+    {
+      "start": 3366.119,
+      "end": 3371.789,
+      "text": "makanya si apa solusi streamyard ini luar biasa bagus karena dia kan di server jadi kita enggak enggak terlalu"
+    },
+    {
+      "start": 3371.799,
+      "end": 3379.349,
+      "text": "ngatur jumlah buitnya terlalu banyak gitu kalau hostnya mati paling enggak Ivan sama Eka kan masih bisa ketangkap"
+    },
+    {
+      "start": 3379.359,
+      "end": 3389.109,
+      "text": "masih bisa ngomong selama ini sering kayak gitu sering terjadi ya ya Mari Mari kita coba let's say nanti 1"
+    },
+    {
+      "start": 3389.119,
+      "end": 3397.829,
+      "text": "bulan ke depan mudah-mudahan ada prototyp-ya Asik as Oh iya ini masih ada pertanyaan lagi nih dari Rahmat lagi nihentar bentar"
+    },
+    {
+      "start": 3397.839,
+      "end": 3406.829,
+      "text": "sebagai gantinya kalau misalnya butuh beta tester dan misalnya oh eh kita coba-coba dan open open V pakai ap-nya"
+    },
+    {
+      "start": 3406.839,
+      "end": 3418.069,
+      "text": "welcome kah kalau kita Open V Oh isu dan very welcome very welcome very welcome nah ini ini juga ada ini salah satu apa"
+    },
+    {
+      "start": 3418.079,
+      "end": 3425.95,
+      "text": "salah satu yang tidak eh jarang orang tahu adalah inl itu ternyata open source itu saya juga baru tahu sekarang nih"
+    },
+    {
+      "start": 3425.96,
+      "end": 3435.789,
+      "text": "karena kayaknya belum terlalu dihighlight ya jadi tahunya inl itu ya produk berbayar atau bisa trial ada sdk-nya ada api-nya bisa kita bisa"
+    },
+    {
+      "start": 3435.799,
+      "end": 3450.309,
+      "text": "berkreasi di sana ternyata enya pun sampai di open source gitu jadi luar biasa sekali actually This is a win for everyone Jadi"
+    },
+    {
+      "start": 3450.319,
+      "end": 3458.71,
+      "text": "sebenarnya pengin Nyoba juga pengin main-main ya He kalau memang nanti ada yang bisa di beta testing kita siap Iya"
+    },
+    {
+      "start": 3458.72,
+      "end": 3471.309,
+      "text": "salah satu yang Open juga ada yang namanya jutsuid ya Beberapa bukan Jutsu jitsi itu Jitsu Jitsu jutsuu apa Jitsu"
+    },
+    {
+      "start": 3471.319,
+      "end": 3486.109,
+      "text": "Jitsu iya coba ya jitsu itupo ada komennya jits iya jitsi jitsi jits i jits ya itu apakah"
+    },
+    {
+      "start": 3486.119,
+      "end": 3500.47,
+      "text": "I mempunyai pendekatan berbeda dari segi arsitektur Apakah sama Iya sebenarnya dari segi arsitektur eh jitsi Google meet eh Zoom eh dan yang"
+    },
+    {
+      "start": 3500.48,
+      "end": 3512.47,
+      "text": "serupa itu pada dasarnya arsitekturnya sama pendekatannya adalah menggunakan sfu tadi selective forwarder unit tadi Oh jadi secara arsitektur pada dasarnya"
+    },
+    {
+      "start": 3512.48,
+      "end": 3522.589,
+      "text": "semua sama bedanya Mungkin ada yang difokusin buat meeting ada yang difokusin untuk apa ada yang difokusin untuk apa jadi masing-masing use case"
+    },
+    {
+      "start": 3522.599,
+      "end": 3536.029,
+      "text": "itu memang beda-beda sehingga fitur yang bisa dievelop di dalam api-nya sendiri itu beda-beda tergantitu itu kan pada dasarnya ya"
+    },
+    {
+      "start": 3536.039,
+      "end": 3547.309,
+      "text": "memang live room virtual tapi bukan bukan berarti bahwa semua video yang kita broadcast ke sana itu semuanya otomatis diboadcast ya kita"
+    },
+    {
+      "start": 3547.319,
+      "end": 3555.15,
+      "text": "tuh bisa milih servernya handling Iya jadi kita bisa milih misalnya ya contoh saya tuh punya dua video satu screen"
+    },
+    {
+      "start": 3555.16,
+      "end": 3564.71,
+      "text": "sharing satu lagi e video eh kamera gitu ya itu tuh kalian tuh nanti akan dapat dari akan dapat info bahwa Ohan punya"
+    },
+    {
+      "start": 3564.72,
+      "end": 3574.51,
+      "text": "nya dua e video nih mau ditampilin enggak dua-duanya atau satu aja jadi bisa milih nah ini fungsinya buat apa"
+    },
+    {
+      "start": 3574.52,
+      "end": 3585.43,
+      "text": "itu salah satu misalnya kita mau bikin Breakout room jadi eh satu sesi tapi ruangan-ruangan kecil gitu ya"
+    },
+    {
+      "start": 3585.44,
+      "end": 3594.789,
+      "text": "itu jadi manual subscription ke video nah fitur tadi yang menarik lagi itu adalah lagi kepikiran kemarin ngobrol"
+    },
+    {
+      "start": 3594.799,
+      "end": 3605.87,
+      "text": "sama teman bikin ini eh video interview antrian video interview Jadi kalian tahu kalau orang-orang yang kerja ker biru"
+    },
+    {
+      "start": 3605.88,
+      "end": 3613.589,
+      "text": "yang di kafe nyari pegawai magang di kafe apa dan segala macam itu tuh Kalau ngelamar kerja mereka kan yang ngantri"
+    },
+    {
+      "start": 3613.599,
+      "end": 3622.39,
+      "text": "itu bisa ratusan kan karena mereka kan mereka kan in interview kan video itu sebenarnya bisa kita pakai"
+    },
+    {
+      "start": 3622.4,
+      "end": 3634.71,
+      "text": "untuk interview pendekatannya itu sama kayak Breakout jadi saya tuh sekarang misalnya sendiri nih dalam room ini masukin aja"
+    },
+    {
+      "start": 3634.72,
+      "end": 3646.71,
+      "text": "tuh orang yang pertama join tadi siapa masukin ke room ini Terus nanti kalauudah selesai ngobrol iniutnya I masuk lagi itual di"
+    },
+    {
+      "start": 3646.72,
+      "end": 3661.19,
+      "text": "Dar jadi kita bisa bikin interview 10 menit kan paling interviewnya iya iya gitu itu use case use case yang kita"
+    },
+    {
+      "start": 3661.2,
+      "end": 3671.309,
+      "text": "harapkannya itu bisa custom logic ya berarti ya betul sebenarnya logiknya tuh bukan di server logicnya itu di kalian"
+    },
+    {
+      "start": 3671.319,
+      "end": 3680.39,
+      "text": "di apps ya ya ya Oh kita bikin Apps pakai api-nya soalnya ya Ca peduli ya itu tadi mengatur"
+    },
+    {
+      "start": 3680.4,
+      "end": 3689.51,
+      "text": "traffic data In And Out I karena kan kita yang ngasih tahu kan ini kliennya ada sekian ee yang ini duluan ini E ini"
+    },
+    {
+      "start": 3689.52,
+      "end": 3697.71,
+      "text": "kedua ini ketiga ini keempat Nah kita tuh yang ngatur tuh Oh ini masukin ini masukin e javascript ya sdk-nya"
+    },
+    {
+      "start": 3697.72,
+      "end": 3710.15,
+      "text": "javascript javascript saat ini sdk-nya javascrip javascript masih javascript aja ya we senang Iya biar anak front end bisa"
+    },
+    {
+      "start": 3710.16,
+      "end": 3719.51,
+      "text": "ikutan juga ya Maaf saya masih Bisanya cuman JavaScript kurius berarti server ini go bisa Oh iya itu kan yang backend kalau yang"
+    },
+    {
+      "start": 3719.52,
+      "end": 3733.43,
+      "text": "depan-depan bis belum bisa plutter belum bisa e switch belum pakai r kan sekarang semua di kurius inl servernya berarti Bisa"
+    },
+    {
+      "start": 3733.44,
+      "end": 3746.269,
+      "text": "bisa jadi server game online juga Oh bisa tapi ada eh ada pendekatan yang agak beda dengan ee game server jadi eh"
+    },
+    {
+      "start": 3746.279,
+      "end": 3754.269,
+      "text": "invidia itu kan punya apa gitu tapi dulu kan Google punya Google studia gitu ya Iya nah eh ada beberapa fitur yang e"
+    },
+    {
+      "start": 3754.279,
+      "end": 3763.549,
+      "text": "perlu dievelop lagi kalau misalnya pengin eh ng-develop Cloud gaming tapi Cloud gaming itu basisnya itu webrtc Iya"
+    },
+    {
+      "start": 3763.559,
+      "end": 3774.63,
+      "text": "jadi eh salah satu yang paling penting dari Cloud gaming itu itu adalah lateny I nah latency ini di server eh itu itu"
+    },
+    {
+      "start": 3774.64,
+      "end": 3786.029,
+      "text": "beda antara Cloud gaming dengan video call kayak gini dia harus dibawa 20 20 milit second kan eh yes itu tapi sebenarnya E lebih"
+    },
+    {
+      "start": 3786.039,
+      "end": 3794.15,
+      "text": "masalah dari jitter buffer jadi jiter buffer itu Jit DFF itu istilahnya kayak gini kan kalau kita ngirim paket eh"
+    },
+    {
+      "start": 3794.16,
+      "end": 3800.63,
+      "text": "video untuk satu gambar let's say itu ada lima paket kan itu pada saat dikirim itu tuh belum tentu diterimanya tuh"
+    },
+    {
+      "start": 3800.64,
+      "end": 3808.75,
+      "text": "berurutan 1 2 3 4 5 Belum tentu i bisa jadi paket tigond sampai duluan Iya bisa jadi paket"
+    },
+    {
+      "start": 3808.76,
+      "end": 3815.349,
+      "text": "tig sampai duluan bisa jadi paket dua sampai duluan jadi kadang enggak berurutan jiter buffer itu adalah Berapa"
+    },
+    {
+      "start": 3815.359,
+      "end": 3828.51,
+      "text": "lama kita mau nunggu lima paket ini nyampai semua Oh oke Biasanya sih kecil cuman kayak 20 MS atau 30 MS nah ini ini"
+    },
+    {
+      "start": 3828.52,
+      "end": 3836.829,
+      "text": "kadang perlu adjustment kalau untuk video call kayak kita itu biasanya jiter buffnya itu di range di sekitar 30 samp"
+    },
+    {
+      "start": 3836.839,
+      "end": 3853.91,
+      "text": "50 tapi kayak tadi Ean bilang kalau Cloud gamingatya itu beneran bisa jadi ggak pakai Buff karena ada teknik lagi yang namanya"
+    },
+    {
+      "start": 3853.92,
+      "end": 3873.15,
+      "text": "forward encoding correction atau tu dipak Kalau ada paket Miss paket itu"
+    },
+    {
+      "start": 3873.16,
+      "end": 3893.15,
+      "text": "bover jadiak pakend Tapi perlu ada teknologi itu untuk memastikan Videonya bisa nah ini"
+    },
+    {
+      "start": 3893.16,
+      "end": 3905.549,
+      "text": "adaudud iat arah I rtmp itu TCP anyway jadi dia pasti latensinya tinggi dan memang tujuannya cuman satu arah kalau satu"
+    },
+    {
+      "start": 3905.559,
+      "end": 3916.789,
+      "text": "arah ada latensi itu masih oke kan Iya kayak YouTube eh live streaming atau twitch ya twitch ya ya ya ya RTM Karena"
+    },
+    {
+      "start": 3916.799,
+      "end": 3925.67,
+      "text": "dia satu Ara enggak butuh dua arah gitu jadi katensi 2 detik 5 detik bahkan itu oke sebenarnya"
+    },
+    {
+      "start": 3925.68,
+      "end": 3944.63,
+      "text": "ini ada pertanyaan lagi Apakah saat ini dan ini kita P semua atau MTI dari"
+    },
+    {
+      "start": 3944.64,
+      "end": 3960.069,
+      "text": "itu [Musik] kalauakver fitur yang bakal missing salah satunya itu kayak voice activity detection itu enggak bisa dilakukan di"
+    },
+    {
+      "start": 3960.079,
+      "end": 3969.91,
+      "text": "web saat ini karena kalau kita lakuin di web itu jadi harus ngelakuin audio Processing sedangkan kalau di server itu"
+    },
+    {
+      "start": 3969.92,
+      "end": 3978.549,
+      "text": "tuh kita enggak kita tuh enggak ngcapture audio ya jadi di di paket datanya audio kalau lewat di server itu"
+    },
+    {
+      "start": 3978.559,
+      "end": 3988.75,
+      "text": "tuh ada udah ada desibelnya tuh berapa jadi kita cuman ngelihat data itubaca doang oh ngebaca doang jadi"
+    },
+    {
+      "start": 3988.76,
+      "end": 3998.91,
+      "text": "eh kita ngelihat Oh untuk eh activity voice activity detection terus analytic dan itu kayaknya Walaupun dia one1 itu"
+    },
+    {
+      "start": 3998.92,
+      "end": 4006.43,
+      "text": "tetap kita lewatin server aja daripada kalian harus bikin audio Processing di web untuk tahu dia lagi ngomong atau"
+    },
+    {
+      "start": 4006.44,
+      "end": 4016.51,
+      "text": "enggak ret atau mau bikin transcription misalnya proses sendiri kalau blur background kayak Mas ini di server apa"
+    },
+    {
+      "start": 4016.52,
+      "end": 4031.15,
+      "text": "dari klien [Musik] blurli berarti dari web Ini Masnya dari si streamy ini menyediakan oh enggak ini Kebetulan eh Mac OS yang"
+    },
+    {
+      "start": 4031.16,
+      "end": 4040.069,
+      "text": "versi enggak tahu ke berapa gitu ya yang agak-agak baru gitu itu mereka punya fitur untuk ngeblur semua video capture"
+    },
+    {
+      "start": 4040.079,
+      "end": 4050.87,
+      "text": "web RTC Oh berarti itu natif ya kayaki integrasi natifs kan iya iya bahkan ee dia tuh punya efek-efek kayak"
+    },
+    {
+      "start": 4050.88,
+      "end": 4060.309,
+      "text": "gini nih bentar ya Ini bukan kampanye ya bentar biasanya ada reaction gitu Oh ini Oh iya iya iya dia bisa"
+    },
+    {
+      "start": 4060.319,
+      "end": 4068.63,
+      "text": "kayak betul-betul dia kan Oh iya loh Oh ini m OS ya m OS ya mic OS m OS atau"
+    },
+    {
+      "start": 4068.64,
+      "end": 4075.549,
+      "text": "misalnya kayak gini i i Iya ketemu pernah lihat di mid kirain itu punyanya mid bukan sih kalau gini enggak bisa"
+    },
+    {
+      "start": 4075.559,
+      "end": 4084.71,
+      "text": "gini harus diaktifin Jadi kalau kalian pakai Mac os os baru gitu ya di atas itu kan ada icon kamera warna hijau itu tuh"
+    },
+    {
+      "start": 4084.72,
+      "end": 4096.229,
+      "text": "harus diaktifin reaction-nya ah gua enggak adaak bisa termasuk bisa kayak gitu guok enggak ada kok enggak munculnya jempol enggak Kalau belum"
+    },
+    {
+      "start": 4096.239,
+      "end": 4110.95,
+      "text": "engak bisa ini tertentu ya keren tapi ini ini tuhib juga dibikin di web very easy kalau mau dibikin di web"
+    },
+    {
+      "start": 4110.96,
+      "end": 4120.229,
+      "text": "Sebenarnya ya cuma kalau di support mah ya enggak usah iya kalau os-nya enggak support Ya bisa aja kita Oh ber tensor"
+    },
+    {
+      "start": 4120.239,
+      "end": 4132.789,
+      "text": "flow JS tensor flow JS berarti tahun depan pbicaraan kita adalah Add on di marketplace-nya inl untuk nambah-nambahin efek filter filter"
+    },
+    {
+      "start": 4132.799,
+      "end": 4146.91,
+      "text": "filter jadi in punya marketplace bisa Add on on I kalau udah adaikinnya kan bisa plugin plugin ceritanya extension"
+    },
+    {
+      "start": 4146.92,
+      "end": 4163.229,
+      "text": "plugin Oh I kalaui yang nuk muka semua peserta jadi kayak gini Gu ti-ba Jadi Pak mukanya kalau discord sendiri itu pak"
+    },
+    {
+      "start": 4163.239,
+      "end": 4168.91,
+      "text": "juga gak soalnya kan discord terkenal ringan ya walaupun kalau videonya gak tahu tapi kalau audionya kan terkenal"
+    },
+    {
+      "start": 4168.92,
+      "end": 4179.39,
+      "text": "ringan ya apalagi buat gamer kan gamer kan resourudah banyak di game terus kita masih bisa lancar berkomunikasiudah"
+    },
+    {
+      "start": 4179.4,
+      "end": 4195.189,
+      "text": "perahisetak semua communication di aplikasi Manun itu karena kenapaat ini dan banyakinnya yang gunakan untuk"
+    },
+    {
+      "start": 4195.199,
+      "end": 4208.75,
+      "text": "ngdevelop two way communication kayak gini jadi wepertis itu sebenarnya kumpulan protokol di mana itu keperluannya memang untuk Real Time communication"
+    },
+    {
+      "start": 4208.76,
+      "end": 4220.83,
+      "text": "jadi saya enggak ngelihat enggak pernah ngelihat ada yang pakai eh teknologi selain webtisc Walaupun mungkin enggak semua ya kayak tadi kan Zoom itu"
+    },
+    {
+      "start": 4220.84,
+      "end": 4232.709,
+      "text": "ngakalin kan Jadi pakai wetisc tapi data channel-nya aja gitu tapi hampir semuanya itu pakai itu kalau Zoom kan ada ada apa namanya"
+    },
+    {
+      "start": 4232.719,
+      "end": 4241.149,
+      "text": "ada aplikasi desktopnya juga yang natif kan Ya itu juga tetap wwti si ya protokolnya ya Eh ya itu tadi dia pakai"
+    },
+    {
+      "start": 4241.159,
+      "end": 4251.11,
+      "text": "yang data channel data data channel ya kenapa kenapa dia pakai ini eh aplikasi desktop atau natif-nya karena kalau dia"
+    },
+    {
+      "start": 4251.12,
+      "end": 4268.59,
+      "text": "pakai browser browser itu kan enggak punya ya proper yangadial yang komersial itu gitu Jadi mereevel theod h264"
+    },
+    {
+      "start": 4268.6,
+      "end": 4286.51,
+      "text": "yangware optim dioritasic tapi dia atauing ada VP"
+    },
+    {
+      "start": 4286.52,
+      "end": 4300.87,
+      "text": "Oh di h264 biasa itu gak ada Oh jadi kayak Hybrid gitu antara VP sama karenak ini yaakareel makanya kalau kitating Pak"
+    },
+    {
+      "start": 4300.88,
+      "end": 4318.55,
+      "text": "Google meet itu suka panas it ini Pak Apa ya itu pakai teknologi Apa itu sebenarnya ada caranya Caranya adalah"
+    },
+    {
+      "start": 4318.56,
+      "end": 4331.47,
+      "text": "mauo demo live tapi kalau J kalau apa kalau kita cobain di sini terus dibuka Network apa dibuka Ininya"
+    },
+    {
+      "start": 4331.48,
+      "end": 4342.47,
+      "text": "Oh beda ya Bukan bukan pakai inspect elemen ya Enggak enggak Jadi kalian masuk eh ini ngetiknya tuh"
+    },
+    {
+      "start": 4342.48,
+      "end": 4353.83,
+      "text": "chrome2/ webrtc internal di situ kalian bisa lihat semua yang pakai webrtc termasuk streamyard Jadi kalau lihat kayak gini"
+    },
+    {
+      "start": 4353.84,
+      "end": 4361.95,
+      "text": "kita jadi tahu kan Oh dia pakai turn kemudian dia pakai e terus kita bisa lihat juga IP server"
+    },
+    {
+      "start": 4361.96,
+      "end": 4372.43,
+      "text": "dia itu berapa Terus bisa kelihatan semua data-datanya misalnya contoh ya saya pakai kodeknya itu apa lihat aja di"
+    },
+    {
+      "start": 4372.44,
+      "end": 4382.79,
+      "text": "outboundnyaah ini outbound RTV video Pakai l vpx vp8 ternyata dia pakainya ya bitrate-nya berapa bisa kelihatan juga"
+    },
+    {
+      "start": 4382.8,
+      "end": 4395.189,
+      "text": "Oh ini bitrate per secondnya by per second itu ya Ini 1 megaan dan ada grafisnya juga bisa bisa"
+    },
+    {
+      "start": 4395.199,
+      "end": 4407.83,
+      "text": "kelihatan nih grafisnya tuh paket saya Kenapa kita engak tahu ini ya Iya kita tadi mau ngecek di inspect"
+    },
+    {
+      "start": 4407.84,
+      "end": 4418.03,
+      "text": "Element tapi kan harus direfresh jadi keluar darii streamy dulu jadi tinggal pakai Chrome we RTC internal ya hampir semua"
+    },
+    {
+      "start": 4418.04,
+      "end": 4432.35,
+      "text": "browser itu punya cara untuk termasuk Firefox berarti ya Ada juga ya harusnya ada tapi biasanya beda-beda e detailnya itu"
+    },
+    {
+      "start": 4432.36,
+      "end": 4444.59,
+      "text": "beda-beda Oke ini ada pertanyaan sambungan mitos atau fakta lewat itu engak optimal Danan Res pada dasarnya kan Apun yang kalau"
+    },
+    {
+      "start": 4444.6,
+      "end": 4457.43,
+      "text": "kita ngembangin suatu fitur itu padaarnya kan selalu ada untuk sesuatu yang kita devel benit yang kita daptin itu adanya Jadi kalau"
+    },
+    {
+      "start": 4457.44,
+      "end": 4472.07,
+      "text": "dibilang ituak optimal Danan resour memang ada yang jadi eh berkurang jadi misalnya latensinya bertambah gitu tapi kan kita tadi bisa menggunain analytics"
+    },
+    {
+      "start": 4472.08,
+      "end": 4480.149,
+      "text": "kita bisa offload beban dari klien ke server karena kan tadi Eh ada beberapa juga nanti mungkin kalau teman-teman"
+    },
+    {
+      "start": 4480.159,
+      "end": 4487.91,
+      "text": "lihat di chatnya kan itu juga yang kayak masalah bisa enggak sih filter-filter itu dipindahin ke server bisa"
+    },
+    {
+      "start": 4487.92,
+      "end": 4496.39,
+      "text": "aja tapi kalau iya itu Tapi kalau Kita mindahin ke server yang sifat nya itu eh video Processing audio pressing"
+    },
+    {
+      "start": 4496.4,
+      "end": 4505.83,
+      "text": "latensiah ber nambah latensi lagi gitu Iya jadi oh selalu ada thre off untuk apapun yang kita lakuin Kalau dibilang"
+    },
+    {
+      "start": 4505.84,
+      "end": 4516.55,
+      "text": "enggak optimal eh video bridge tergantung dari arsitekturnya ya kalau arsitekturnya itu adalah sfu atau selective forwarder tadi"
+    },
+    {
+      "start": 4516.56,
+      "end": 4526.55,
+      "text": "jadi dia cuma nerusin e video stream kita itu menurut saya itu paling optimal untuk saat ini dan mayoritas developer WTC itu juga"
+    },
+    {
+      "start": 4526.56,
+      "end": 4539.11,
+      "text": "agree bahwa sfu is the most optimal arsitectture untuk saat ini kalau pakai yang video bridge yang versi lama atau MCU jadi dia multiple"
+    },
+    {
+      "start": 4539.12,
+      "end": 4548.189,
+      "text": "coding something gitu ya jadi dia tuh mengencode video yang masuk kemudian satu video itu yang baru dikirim ke"
+    },
+    {
+      "start": 4548.199,
+      "end": 4557.99,
+      "text": "orang yang nonton Nah itu kan ada lateny di server ya I gitu jadi ya selalu ada thread off for"
+    },
+    {
+      "start": 4558,
+      "end": 4566.629,
+      "text": "everything pintar-pintaran kita aja milih untuk setiap use cas-nya kan Oke Oh kalau diproses di klien Berarti ada"
+    },
+    {
+      "start": 4566.639,
+      "end": 4579.11,
+      "text": "kemungkinan bisa pakai ini dong web assembly bisa ada beberapa ada beberapa eh web RTC api itu tuh dia pakai e web"
+    },
+    {
+      "start": 4579.12,
+      "end": 4590.75,
+      "text": "ass eh bahkan Zoom itu kalau gak salah ngelakuin itu deh Oh i jadi Iya eh coba cari Ada"
+    },
+    {
+      "start": 4590.76,
+      "end": 4601.669,
+      "text": "website namanya tuh blog ge webrtc coba Googling aja blog wetc dia tuh di situ ngebahas banyak rever engineering"
+    },
+    {
+      "start": 4601.679,
+      "end": 4617.83,
+      "text": "beberapa aplikasi berbas termasuk ini Bu betul betul Coba lihat bloknya blok itu dia ngebahas itu semuanya"
+    },
+    {
+      "start": 4617.84,
+      "end": 4631.189,
+      "text": "tentang webr RTC Dan harusnya ada ada tentang zoom di antara blog-blog po itu Zoom Ya silakan teman-teman cari aja"
+    },
+    {
+      "start": 4631.199,
+      "end": 4639.87,
+      "text": "saya shareink a ya dia reverse engineering Google meet juga dia dia banyak R engineering dari situ justru"
+    },
+    {
+      "start": 4639.88,
+      "end": 4648.55,
+      "text": "jadi belajar oh Google meet tuh gitu ya oh Zoom tuh gitu ya terus Kopi bikin di ATM amati"
+    },
+    {
+      "start": 4648.56,
+      "end": 4662.55,
+      "text": "tiru seru banget ya gaming yaah Iya seru banget Wah ini keren ini bisa Nah itu tuh tadi yang FC yang"
+    },
+    {
+      "start": 4662.56,
+      "end": 4673.43,
+      "text": "tadi saya bilang buat Cloud gaming The R ofc Wah menarikarik kalau di in sekarang saat ini yang kitaah terapin ologinya"
+    },
+    {
+      "start": 4673.44,
+      "end": 4684.11,
+      "text": "itu eh red eh buat audionya ya tapi jadi redudansi encoding data gitu Jadi pada dasarnya walaupun paket audio kita Miss"
+    },
+    {
+      "start": 4684.12,
+      "end": 4695.83,
+      "text": "atau Lost itu sampai 40% kita masih bisa ngobrol clear karena audio audio yang missing itu bisa dicover di audio berikutnya audio paket"
+    },
+    {
+      "start": 4695.84,
+      "end": 4705.35,
+      "text": "berikutnya Oh diikutin ke paket berikutnya ya Iya jadi selalu setiap paket itu dikirim tuh dobel paket yang sebelumnya dikirim juga"
+    },
+    {
+      "start": 4705.36,
+      "end": 4715.83,
+      "text": "bersamaan dengan paket berikutnya Oh jadi kalau ada yang ya selalu dapat yang sebelumnya Iya betul jadi dia tuh kalau ada yang"
+    },
+    {
+      "start": 4715.84,
+      "end": 4727.79,
+      "text": "missing dia bisa cari dia nunggu aja yang datang setelahnya gitu kan karena dia bisa ngambil dari situ besarnya dua kali lipat dong I"
+    },
+    {
+      "start": 4727.8,
+      "end": 4735.87,
+      "text": "bitnya naik jadi dua kali lipat tapi kan audio itu kecil makanya yang redundan encoding itu cuma diterapin di"
+    },
+    {
+      "start": 4735.88,
+      "end": 4748.27,
+      "text": "audio untuk video video jebol jebol pasti untuk video makanya tadi pakai fact tadi forward encoding correction Nah itu metode"
+    },
+    {
+      "start": 4748.28,
+      "end": 4759.95,
+      "text": "terpisah untuk recover video yang hilang gitu dan dan enggak makan masih nambah bandwid tapi mungkin cuman 20% 30% jadi"
+    },
+    {
+      "start": 4759.96,
+      "end": 4771.87,
+      "text": "enggak sampai dobel oke oke gitu for the sake of Good video ya over bad Network gitu Nah kalau ada teman-teman yang"
+    },
+    {
+      "start": 4771.88,
+      "end": 4785.189,
+      "text": "nonton mau getting started mau ngulik e web rtisc sebaiknya ke mana kayak kayaknya paling enak dulu tuh kalau misalnya eh"
+    },
+    {
+      "start": 4785.199,
+      "end": 4794.189,
+      "text": "ngdevelop webrtc itu kan langsung aja bikin aplikasi langsung bikin aplikasi Nah ini kayak ada demo sejuta umat itu"
+    },
+    {
+      "start": 4794.199,
+      "end": 4801.11,
+      "text": "kan yang dari dulu banget udah ada priv Cho sejutaat pasti semua orang pernah pokoknya Pasti kalian semua"
+    },
+    {
+      "start": 4801.12,
+      "end": 4810.83,
+      "text": "pernah deh kayak cuma nyoba-nyoba habis itu ah Ya udah enggak enggak dipakai Nah itu tuh bisa bisa bikin itu karena kan"
+    },
+    {
+      "start": 4810.84,
+      "end": 4815.55,
+      "text": "kan ada kalau kita bikin aplikasi kan ada beberapa tahapan Ya misalnya kayak kita let's say kita mau bikin Google"
+    },
+    {
+      "start": 4815.56,
+      "end": 4822.31,
+      "text": "meet like gitu ya ya pasti kan yang pertama kayak capture dulu audio videonya terus habis itu Gimana caranya"
+    },
+    {
+      "start": 4822.32,
+      "end": 4830.55,
+      "text": "meng hubungkan pe toir-nya terus habis itu gimana caranya ngirim video yang kita capture tadi ke Pi sebelahnya terus"
+    },
+    {
+      "start": 4830.56,
+      "end": 4838.31,
+      "text": "gimana playing the video tadi dari yang kita terima jadi ya step by stepnya kurang lebih kayak gitu aja coba develop"
+    },
+    {
+      "start": 4838.32,
+      "end": 4847.99,
+      "text": "satu aplikasi aja resournya udah banyaklah tutorialnya juga udah banyak tapi coba aja develop terus setiap kepentok sama istilah-istilah tertentu"
+    },
+    {
+      "start": 4848,
+      "end": 4859.99,
+      "text": "gitu ya kayak ST turn apa Googling cari aja dokumentasinya udah udah banyak yaang lagi mas Johan pakai b nanya ke"
+    },
+    {
+      "start": 4860,
+      "end": 4871.03,
+      "text": "banya ke bisa bisa bisa atau ke saya kemarin juga kerjaannya gitu jadi baca bacain Code orang gitu kan"
+    },
+    {
+      "start": 4871.04,
+      "end": 4881.629,
+      "text": "Terus nyari istilahnya terus coba reverse engineering terus baca SPC dokumen terus diterapin ya pasti harus kayak gitu sih karena web RTC itu"
+    },
+    {
+      "start": 4881.639,
+      "end": 4891.91,
+      "text": "kompleksitasnya eh sangat kompleks karena terlalu banyak protokolnya yang harus dipahami jadi enggak kalau harus belajar protokol dulu pasti kebur puyong"
+    },
+    {
+      "start": 4891.92,
+      "end": 4903.31,
+      "text": "duluan jadi i better langsung bikin aplikasinya aja belajar protokolnya belakangan pas dibutuhkan aja gitu H ya bikin aplikasi kayak apa ya kayak"
+    },
+    {
+      "start": 4903.32,
+      "end": 4915.39,
+      "text": "tampilin webcam Terus mungkin tambahin filter habis itu gimana caroke Belum ada kan I atau paling ini kan ini aja apa ee"
+    },
+    {
+      "start": 4915.4,
+      "end": 4922.51,
+      "text": "paling gampang kayaknya paling ee ini ya paling sederhana gitu ya bukan paling gampang itu bikin aja aplikasi peer to"
+    },
+    {
+      "start": 4922.52,
+      "end": 4933.91,
+      "text": "peer kayak FaceTime yang beneran jadi itu benaran peer topir Kita cuman butuh signaling server aja jadi enggak"
+    },
+    {
+      "start": 4933.92,
+      "end": 4942.87,
+      "text": "perlu server kan sign signal server juga banyak yang publ dan gratis kan yang dari Google iya iya betul Eh nya bisa"
+    },
+    {
+      "start": 4942.88,
+      "end": 4950.11,
+      "text": "pakai Google tapi signaling server itu pakai http server biasa itu bisa bisa bahkan bahkan Sebenarnya ya Ada beberapa"
+    },
+    {
+      "start": 4950.12,
+      "end": 4962.87,
+      "text": "exampel eh itu yang beneran dicopy paste sinyalnya Oh sinyalnya over sdp-nya jadi kan e semua web RTC itu biar bisa terhubung kita tuh"
+    },
+    {
+      "start": 4962.88,
+      "end": 4972.669,
+      "text": "saling bertukar sinyal sinyal ini itu ada dua jenis off session description Protocol sama ANS jadi sama-sama SDP"
+    },
+    {
+      "start": 4972.679,
+      "end": 4983.149,
+      "text": "gitu ya jadi ini aja ditukar SDP ini basisnya teks jadi pada saat sudah diprint gitu ya kasih aja ke sebelahnya"
+    },
+    {
+      "start": 4983.159,
+      "end": 4991.709,
+      "text": "ini nih over masukin aja ke situ nanti di sana dimasukin dia akan generate answer kan answerwer-nya itu teks juga"
+    },
+    {
+      "start": 4991.719,
+      "end": 5001.669,
+      "text": "berutah SDP Oh gitu Ini kurang lebih gini nih e tunjukin ya ke kalian ya ini share screen boleh boleh kalau kalau"
+    },
+    {
+      "start": 5001.679,
+      "end": 5011.87,
+      "text": "lihat di sini ini kan streamyard pada saat kita connect ini bisa dilihat dia itu masukin sor digedein dulu ini tuh dia masukin"
+    },
+    {
+      "start": 5011.88,
+      "end": 5022.27,
+      "text": "audio video terus bikin over kan over ini itu adalah SDP di mana formatnya itu teks sebenarnya kayak gini teks kayak"
+    },
+    {
+      "start": 5022.28,
+      "end": 5038.189,
+      "text": "gini ini sebenarnya kalau kalian copy copy ni terus Iya dimasukin aja di pe connection kalau gak salah pe connection set over"
+    },
+    {
+      "start": 5038.199,
+      "end": 5049.59,
+      "text": "set local description masukin ini terus setelah text BX ya tinggal buat textve Iya betul setelah kita set local"
+    },
+    {
+      "start": 5049.6,
+      "end": 5059.149,
+      "text": "description itu tuh kita panggil lagi api-nya Eh apa generate answer atau apa pokoknya dapetin answernya kan ya annya"
+    },
+    {
+      "start": 5059.159,
+      "end": 5068.669,
+      "text": "itu formatnya sama kayak gini nih ini kelihatan juganya tu nih set local description tapi ada lagi set remote"
+    },
+    {
+      "start": 5068.679,
+      "end": 5083.109,
+      "text": "description Nah ini kan answernya nih Iya copy aja ini semuanya kasihin ke sebelah lagis kita udah sama-sama"
+    },
+    {
+      "start": 5083.119,
+      "end": 5097.91,
+      "text": "masukin ini itu dia akan mencoba terhubung satu sama lain oh ya Iya sesederhana itu sebenarnya nukrin SDP tukan He ini over saya ini"
+    },
+    {
+      "start": 5097.92,
+      "end": 5110.31,
+      "text": "over yang sana gitu Tuan nanti setelah dia tukan itu akan coba conect Sendirinya udah otomatis ya udah"
+    },
+    {
+      "start": 5110.32,
+      "end": 5125.229,
+      "text": "otomatis nah udah conect ya nanti itu connection itu akan ada event yang kitag Capt evnya itu nah ini video yang kita video Iya"
+    },
+    {
+      "start": 5125.239,
+      "end": 5134.91,
+      "text": "tinggal masukin ke video elementender aja Oh iya play sudahah hmm gitu Ini formatnya kayak ini ya kayak m3u8 gitu"
+    },
+    {
+      "start": 5134.92,
+      "end": 5143.229,
+      "text": "juga ya format-format mirip-miripya ini kan is ini kan isinya dia ngasih tahu bahwa eh IP saya itu ini ya ini alamat"
+    },
+    {
+      "start": 5143.239,
+      "end": 5158.51,
+      "text": "ip-nya kandidatnya gitu kan Terus dia tuh ngasih tahu kodek-kodek yang dia support tuh apa I streamer ya vp8 gu ya oke Iya Jadi intinya SDP"
+    },
+    {
+      "start": 5158.52,
+      "end": 5169.07,
+      "text": "itu ngasih tahu alamat sama eh fitur-fitur yang dia support sama eh teknologinya atau kodeknya gitu H terus"
+    },
+    {
+      "start": 5169.08,
+      "end": 5175.79,
+      "text": "ya sudahah dia akan terhubung satu sama lain oke Ini ada pertanyaan lagi nih implementen web RTC di sisi server dari"
+    },
+    {
+      "start": 5175.8,
+      "end": 5189.149,
+      "text": "rfc apakah worthed atau pakai library yang sudah jadi aja kayak pion tergantung e pengennya itu e ngapain"
+    },
+    {
+      "start": 5189.159,
+      "end": 5199.149,
+      "text": "Kalau misalnya pengin belajar e kayaknya silakan mau mulai dari awal tapi dulu Saya justru mulainya dari pion"
+    },
+    {
+      "start": 5199.159,
+      "end": 5209.189,
+      "text": "itu sendiri kalau lihat S Open sourcnya in itu basisnya juga itu pion itu karenaampelnya ada banyak gitu kan"
+    },
+    {
+      "start": 5209.199,
+      "end": 5223.39,
+      "text": "kemudian Ya dokumentasinya lumayan eh community-nya juga well support gitu jadi menurut saya mulai dari situ Kenapa mulai dari situ karena jadi kita enggak"
+    },
+    {
+      "start": 5223.4,
+      "end": 5233.95,
+      "text": "perlu Terlalu deep down kepprotokol kayak dtls dtls ini datagam TLS jadi istilahnya udp yang dibikin secure kayak"
+    },
+    {
+      "start": 5233.96,
+      "end": 5243.03,
+      "text": "kayak https atau SSL lah itu kita kan enggak mau belajar dtls lagi protokol gitu kan malas gitu kita tuh penginnya"
+    },
+    {
+      "start": 5243.04,
+      "end": 5250.95,
+      "text": "web rtc-nya aja nah belum lagi ada lagi protokol RTP misalnya tapi RTP itu mau enggak mau pasti akan akan harus"
+    },
+    {
+      "start": 5250.96,
+      "end": 5258.99,
+      "text": "dipelajari sih Pada saat kita ngolah paket ee datanya itu harus mau enggak mau RTP tapi habis itu ada banyak Ice"
+    },
+    {
+      "start": 5259,
+      "end": 5265.87,
+      "text": "Protocol Apakah kita harus pelajari Ice Protocol kayaknya jangan deh tapi mau enggak mau pasti akan akan masuk ke sana"
+    },
+    {
+      "start": 5265.88,
+      "end": 5277.39,
+      "text": "tapi kalau kita langsung kalau ketemu ya sudahudah ketemu berar po tertentu Ya udah ketemunya kan Iya betul pada saat dibutuhin aja baru"
+    },
+    {
+      "start": 5277.4,
+      "end": 5287.83,
+      "text": "belajar tapi kalau dari awal langsung dari rfc implement sendiri Wah berat kayaknya kayaknya keburu bosan itu bikinnya Kecu"
+    },
+    {
+      "start": 5287.84,
+      "end": 5304.189,
+      "text": "orang banget senang banget sama urusan artisi-artisian ini itu kalau biasa kayaknya ya itu ngantuk duluanh iya"
+    },
+    {
+      "start": 5304.199,
+      "end": 5312.83,
+      "text": "bosankan i ya ya Nah ee next-nya buat Mas Yohan apaagi nih kan jadi GDI Google developer expert udah"
+    },
+    {
+      "start": 5312.84,
+      "end": 5320.31,
+      "text": "eh jadi googler Udah jadi googler Udah Iya apa join Google juga udah Terus sekarang bikin produk udah apa e"
+    },
+    {
+      "start": 5320.32,
+      "end": 5327.59,
+      "text": "next-nya mauu ada rencana apa lagi ke depannya belum ini bikin produk Oh belum ya ini belum ya belum ya ini ini lagi"
+    },
+    {
+      "start": 5327.6,
+      "end": 5337.83,
+      "text": "gambling ini gambling I iya I I Iya jadi lagi gambling gitu ya ng-develop produk gitu kan yang masih belum take off masih"
+    },
+    {
+      "start": 5337.84,
+      "end": 5349.47,
+      "text": "ongoing gitu produk market fitnya Udah dapat belum Eh kita ngerasa produk market fit-nya itu belum jadi eh kita kan masih bingung"
+    },
+    {
+      "start": 5349.48,
+      "end": 5356.47,
+      "text": "juga antara Oke kita b2c k atau B2B kayaknya ya udah saat ini kan kita lagi coba fokus B2B tapi kan kita belum tahu"
+    },
+    {
+      "start": 5356.48,
+      "end": 5364.87,
+      "text": "juga nih use case yang kita mau fokusin tuh yang mana dulu gitu kan ada banyak kayak contoh Kalau ngelihat case eh sor"
+    },
+    {
+      "start": 5364.88,
+      "end": 5377.59,
+      "text": "case web di Indonesia sendiri itu ada eh edutch telemedicine eh customer call call center inpp call center terus"
+    },
+    {
+      "start": 5377.6,
+      "end": 5390.91,
+      "text": "monitoring CCTV video dan eh terus kayak gojek kolonal font kita lewat aplikasi itu kan we juga oh"
+    },
+    {
+      "start": 5390.92,
+      "end": 5402.51,
+      "text": "pakang kitaak engak ke Iya live streaming so many use case gitu kan Makanya kita belum e tahu nih e mana"
+    },
+    {
+      "start": 5402.52,
+      "end": 5409.189,
+      "text": "industri yang kita pengin fokusin Tapi karena kita tuh paling dekatnya dengan teman-teman kayak kalian yaitu yang suka"
+    },
+    {
+      "start": 5409.199,
+      "end": 5416.189,
+      "text": "bikin webinar gitu atau suka sharing makanya kita coba fokus di webinar atau edutch dulu saat ini gitu nanti kita"
+    },
+    {
+      "start": 5416.199,
+      "end": 5427.629,
+      "text": "lihat demnya Seperti apa ya kita coba explore tuh cas Oke kalau yang mau follow followollow Mas Yohan eh aktifnya di sosial media"
+    },
+    {
+      "start": 5427.639,
+      "end": 5435.709,
+      "text": "mana Di kalau ini Twitter kalau kalian pengin nanya-nanya everything web partis karena kalau nanya ke Instagram enggak"
+    },
+    {
+      "start": 5435.719,
+      "end": 5447.709,
+      "text": "akan dijawab gitu ya kecuali kalau kalian nanya jalur sepeda atau Oh jadi tiap ak sosm ada temanya ya Ada fokus puj festival Puji"
+    },
+    {
+      "start": 5447.719,
+      "end": 5461.87,
+      "text": "festival bisa nanya lewat Instagram hobi-hobi di Instagram gitu Ya Sisanya itu di Twitter I semuanya itu di Twitter hobi di Instagram ya semuanya"
+    },
+    {
+      "start": 5461.88,
+      "end": 5469.83,
+      "text": "Tapi di Twitter semuanya di Twitter Oh di Twitter hobi juga ada ya ngomongin hobi hobi juga ada"
+    },
+    {
+      "start": 5469.84,
+      "end": 5482.79,
+      "text": "ya lah tim in sekarang berapa orang develop development tenya ada EMP orang sat eh desainer du Engineer tiga engineer"
+    },
+    {
+      "start": 5482.8,
+      "end": 5493.03,
+      "text": "termasuk saya jadi total berempat Wah mantap mantap oke kalau gitu semua ya serus oh nging semua ya masan juga masih"
+    },
+    {
+      "start": 5493.04,
+      "end": 5501.91,
+      "text": "nging ya Luar biasa ya itu kan kalau apa backendnya kan Hampir saya semua sebenarnya ngerjain Oke I karena yang"
+    },
+    {
+      "start": 5501.92,
+      "end": 5510.75,
+      "text": "engineer kita full stack sama front end sebenarnya Oh oke oke oke mantap mantap mantap bisa kelihatan kok"
+    },
+    {
+      "start": 5510.76,
+      "end": 5517.669,
+      "text": "dionya i ya ya ya oke ee kalau gitu terima kasih banyak Mas Yohan untuk waktunya malam hari ini Terima kasih"
+    },
+    {
+      "start": 5517.679,
+      "end": 5528.91,
+      "text": "terima kasih terima kasih n b ilmu mudahudan e Iya luar biasa ya wis Kok enggak bisa B"
+    },
+    {
+      "start": 5528.92,
+      "end": 5538.55,
+      "text": "belum mudah-mudahan Nanti ada ada apa kesempatan untuk kita ngobrol-ngobrol lagi Eh tentang banyak hal ini ada Ada"
+    },
+    {
+      "start": 5538.56,
+      "end": 5547.95,
+      "text": "komunitasnya enggak sih wtisc apa komunitas web biasa aja ya pada umumnya ya Eh saat ini itu komunitasnya belum ada belum ada"
+    },
+    {
+      "start": 5547.96,
+      "end": 5560.59,
+      "text": "ya tapi kalau kalian e yang pakai golang itu ya mungkin Saran saya coba cari channelnya ini e pion di goper jadi kan"
+    },
+    {
+      "start": 5560.6,
+      "end": 5569.43,
+      "text": "e Iya golang itu kan punya channel Nah cari aja di dalam channelnya itu ada channelnyaion di situ kalian kalau"
+    },
+    {
+      "start": 5569.44,
+      "end": 5578.47,
+      "text": "pengin belajar itu kata saya sih diu gu Tapi ke depannya ee saya ada wacana juga bakal bikin webinar rutin sekalian doc"
+    },
+    {
+      "start": 5578.48,
+      "end": 5588.99,
+      "text": "fooding in live room sendiri jadi e live mungkin belajar ya ngdevelop wetc app lewat webinar nah ini menarik nih jadi"
+    },
+    {
+      "start": 5589,
+      "end": 5598.55,
+      "text": "pantengin aja ya twitter-nya Mas Yohan ya @ Yohan ya info-infonya lengkap di sana Yohan ya Te Yohan Oke kalau gitu terima"
+    },
+    {
+      "start": 5598.56,
+      "end": 5607.39,
+      "text": "kasih banyak buat teman-teman semua Terima kasih byak asih yang sudah nonton thank kita ketemu lagi ee minggu depan"
+    },
+    {
+      "start": 5607.4,
+      "end": 5621.79,
+      "text": "minggu depan minggu depan di waktu dan jam yang sama di waktu dan jam yang sama Thank you sampai jumpa lagi bye"
+    },
+    {
+      "start": 5621.8,
+      "end": 5624.8,
+      "text": "bye"
+    }
+  ],
+  "fullText": "halo halo halo selamat malam semua selamat malam Wih RAM engak bertemu lagi kita Heeh Oh rame ya bertemu lagi kita malam hari ini di seperti biasa di selasa malam waktunya apa waktunya ngobrolin we ngobrolin webat lagi pakepanganong Oh iya ini I Ini masalah masalah latensi ya masalah latensi itu sulit ya I dan sesuai banget sama topik kita malam ini kita akan bahas tentang segala hal yang berkaitan dengan Real timeunic eh terus apaagi ya Eh bisa apa aplikasinya bisa banyak ya bisa buat game bisa buat ehabora ediabora Edi betul Eh setting dashboard ya bisa banyaklah ya dan sebenarnya topik ini sudah cukup lama kita tahan karena kita belum punya expertise ke sana dan akhirnya bisa dapat orang yang cepat yang lagi bikin produk juga kan yang berkaitan dengan ee yang kita sebutin tadi ada web apa Nam POnya payung Real Time communication dan lain lain Iya eh dan sudah banyak juga nih yang apa yang ada di chat haloo semuanya ada Rahmat ada Rico Selamat malam dan eh sebelum kita bahas lebih lanjut kita bahas ke ininya dulu ya narasumbernya dulu ya kita langsung undang aja ya beri tepuk tangan yang meriah gua hal ya operatornya haloo Gimana kabarnya Mas Yohan sehatsat lamaak ketemu kita ya terakhir ketemu di Jogja kayaknya atau di Malang ya malamang ada ada pertama kali pertama banget banget banget ikut e acara community belum jadi Oh sebelum jadi J ya masan ini adalah orang yang bertanggung jawab untuk menjadikan kita J ya yang menung kitais ya darile ya kan udah ada ini Apa udah ada kalian udahlah lepas tangan di sini kayaknya masanya masan banyak ya tapi mungkin ada yang mungkin belum kenal gitu ya mungkin boleh perkenalan singkat [Tertawa] dongal di di I sama Eka untuk ikutan ngobrol hari ini kita B ngobrolin eh web Real Time communication dan karena kebetulan saat ini kesibukannya adalah lagi ngembangin startup yang menggunakan wec dan live streaming yaitu inl jadi mudah-mudahan pengalaman ngedevelop inl ini bisa dipakai buat sharing ke teman-teman di itu mungkin intronya ya app ya ininya ya betul ini sudah dikembangin Berapa lama [Musik] mas kayaknya udah jalan setahunan jalan setahunan dan produknya itu sendiri Sebenarnya ada yang pertamaaming berbasisn Terus yang kedua itu adalah Eh kita bilangnya communic sama kayak streamyard atau sama kayak Google meet Ini jadi yang itu untuk live streaming yang satunya tuh lebih buat live streaming kayak sekarang kita kayak Zoom berarti juga yaom Zoom betul betul yang pertama itu lebih mirip kayak YouTube live kurang lebih ya Tapi bisa di website sendiri gitu oke yang mau disol apa sih dari ini in ini Jadi sebenarnya kan permasalahan di Indonesia itu kita terlalu banyak Pai eh apa ya Pas pandemi kemarin Banyak pai Zoom eh Google meet eh kemudian live di mana-mana ya di twitch YouTube dan segala macam gitu webinar ya Iya webinar dan macam-macam gitu kan Nah kita sendiri Eh waktu itu kan lagi ngebantuin asumsi eh asumsi sendiri kan sebagai media online itu tuh Dia punya konten sangat banyak yang berbasis video gitu kan dan mereka waktu itu pandemi juga banyak bikin live event nah waktu pengin mencoba monetize konten videonya terus pengin ng-develop produk yang terkait dengan eh live event live streaming dan lain-lain kendala utamanya tuh selalu kayak hitung-hitungan biaya itu pasti mahal banget karena semua produk api yang bisa kita pakai itu semua basisnya ada di luar dan semua pricing-nya itu ya pakai pricing luar gitu gambarannya dan kalau kita UMR UMR lokal enggak bisa ya Iya betul jadi kalau kita ng-develop sesuatu yang costnya sendiri udah mahal terus kita pengin coba jual di Indonesia itu hitung-hitungan marginnya itu susah banget masuknya Nah akhirnya kepikiran karena di Indonesia itu enggak ada eh api yang kita bisa pakai untuk ngdevelop eh produc live streaming kemudian juga Eh kayak Google meet atau telemedicine atau consultation dan lain-lain akhirnya Ya udah waktu itu penasaran dengan wprtc dan udah ngoprek wprtc dari 2016 anyway yang bikin dulu pertama kali jadi GD itu sebenarnya demo web RTC jadi ada ada dulu tuh ada e istilahnya ada J with Chrome jadi kita main band main music gitu ya itu pakai webt jadi eh tinggal buka browser terus kita pilih eh toolsnya mau pakai pakai drum mau pakai gitar mau pakai piano gitu kan Terus kita nyambungnya lewat wprtc itu waktu itu buat saya amaz banget dan akhirnya jadi penasaran buat explore wetc nah Karena itulah Berhubung ada kern terkait infra api kita di Indonesia enggak ada pengin develop something susah mahal gitu ya terus lagi passionate ke weprtc Ya udah akhirnya mutusin Ya udah develop aja l eh sendiri ketimbang nungguin yang luar gitu h gitulah kurang lebih e idenya gitu Oke berarti web ini udah lama banget sebenarnya yaarting from 2012 2011an yaah itu Jadi kalau misalnya apa kita tahu get user media tuh media streams and capture api itu yang buat apa E ngambil gambar dari webcam dan mikrofon dan sebagainya itu kayak foundationnya landasan buat itu kayak di konsep sebagai bagian dari web RC api kan Ya jadi itu kayak nyiapin untuk ke depannya webtisc jadi emang kayaknya ini salah satu hal yang udah dikejar dan udah dipengin banyak pihak dari dulu ya ber karena kan kalau gak bisa capture video kan apa yang bisa dikirim buat kalauudah bisa akirnya kan bisa tinggal dikir lewat Network itend di sedikit tentang webt itu apa dan cas-nya bisa dipakai buat apa aja Oke jadi webtc itu ya nama singkatan kan sebenarnya web Real Time communication ya Eh pada dasarnya ini adalah protokol yang memungkinkan kita tuh ngdevelop aplikasi yang menggunakan komunikasi dua arah berbasis Iya berbasis media atau data dan eh Karena yang namanya real ada jadi diperlukan yang sangat rendah kalau kitaobrol Kayak ginya idealnyaak Bo lebih dari 200 kar dari 200r jadi kayak an gitu kayak ada Nah inilah yang sebenarnya eh di eh develop sebagai protokol standar sehingga semua browser itu bisa berkomunikasi karena kan kalau enggak distandarisasi masing-masing pakai protokol berbeda semua bikin sendiri rep Iya akhirnya kan W enggak bisa eh jalan kan enggak bisa satu pakai Firefox kemudian satu pakai Chrome satu Pakai safari engak bisa nyambung kalau misalnya kita pengin ngobrol kayak sekarang Nah itulah kenapa Eh dievelop yang namanya webrtc tujuannya itu untuk memudahkan kita menggunakan api standar ini ngevelop aplikasi web walaupun sekarang juga dipakai ya librarynya di mobile di natif gitu tapi awalnya memang Tujuannya adalah untuk digunakan di browser sehingga kita bisa communicate Real Time berbasis media atau data itu beradi Yang sekarang kita ini berarti kan kita nih antara masan berarti dari sayanya ke Yohan jadi jaditc itu memang pada dasarnya adalah aplikasi yang didesain untuk jadi bisaja kitaangobsatver yang sekarang dalam artian lebih dari satu kalau satu satu e 101 itu memang idealnya biasanya itu dibuat e pe to jadi server itu cuman buat e ngasih tahu Oh alamatnya Eka ini alamatnya ya betul jadi e ons sudah saling tahu alamatnya itu langsung akan terkubung to Nah Tapi kalau dalam konteks kita sekarang karena lebih dari satu Biasanya kalau udah lebih dari satu dibikin to itu bandwinya gak cukup karena kalau misalnya juga harus i betul jadi kayak kalau misalnya kita mau bikin semua kita pakai 720 gitu ya dengan bitate 3 megb per artinya ini saya ke keama 9 megb per yang dibutuhkan gak ideal kan sehingga dielop bu bukan Protol tapi ada metode yaitu yang namanya selec forwarding unit atau sfu Jadi sebenarnya kita tuh ngirim video ke server server ini tugasnya yang ngbroadcast ke yang lain tapi dia cum nurusinnya adaingakah ini ini yang menarik eh zaman dulu encoding itu terjadi di serverver di server jadi dulu pada zaman Skype terus apaagi ya yang zaman dulu tuh Microsoft punya apa ya D Skype ya zaman dulu gitu ya tuleang engakang ituudah awal-awal 2016 gitu hangout mungkin awal-awal sempat eh di dulu jadi ada namanya MCU saya lupa namanya si panjangannya apa tapi MCU itu pada dasarnya diacode semua video kemudian video encoding itu diforward ke yang lain Jadi itu nambahens sat eh Terus yang kedua Tapi eh Ya nambah beban server juga jadi sekarang sih enggak kalau dalam konteks yang kita lakuin sudah tinggal diforward aja videonya gitu berarti sudah sudah terjadi encoding di oke oke nah teknologi yang digunakan selain web RTC di in apa aja ya Eh saat ini sebenarnya kita kan ada dua produk jadi produk yang pertama itu kan kita sama persis kayak ini jadi kemudian ini ke Youtube kan ya yang pertama kita itu pada dasarnya mirip kayak gini jadi dia capture video menggunakancemud divernyavernya jadi format hls sama Das nah hls sama Das Ini format standar live streaming sebenarnya yang digunakan di YouTube live juga Jadi itu kita combine antara WC f sama hls nah yang produk kedua itu murni web RTC dengan menggunakan sfu tadi yang selec forward Jadi kalau yang produk kedua itu memungkinkan kita ya bikin kayak streamyard kayak gini ada banyak orang atau mau bikin telemedicine mau bikin Google meet mau bikin webinar gitu Nah itu pada dasarnya teknologi sebagian besar lebih banyak menggunakan WTC tapi dalam dalam konteks itu tuh luas banget sebenarnya jadi engak cukup cuman dengan eh kita capture terus kemudian kirim yang paling ribet itu dari webrtc eh terutama kalau kita banyak orang kayak gini itu ada istilah namanya e congestion controller Jadi kalau misalnya saya tu video 720 nih ceritanya terus kan bandwinya ek ternyata cuman muat 360 nah video saya kan berarti harus ditunin I nah diturunin itu itu sebenarnya gak die ulang jadi dic ada namanya selectif eh video namanyac eh Smart video coding kalau gak salah saya lupaanjangannya apa Eh ini yang diterapin di vp9 kalau di h264 itu belum bisa tapi kalau di ada namanyac Jadi saya tapi di server itu kita bisa ngakalin yang mau dikirim ke ek ini mau 360 atau yang 180 Ul berver itu kayakoses on the gitu i betul Jadi pada dasarnya pada saat kita ngirim video itu kan yang dikirim sebenarnya adalah paketaketakak misalnya Oh Eka ini cuman bisa terima 360 artinya setelah saya ngirim 360 ke Eka video sisa paketnya itu didrop di server karena kalau dikirim juga Eka jadinya terima 720 Oh gitu jadi ada mekanisme Gimana caranya kita ng-drop paket yang kira-kira tidak dibutuhkan oleh Eka sehingga tidak perlu render videonya sampai 720 cuman sampai 360 aja gitu Nah itulah itulah fungsi eh dari wepertis eh kodek yang vp9 itu punya Google eh terus kemudian ada lagi teknologi simulkas gitu ya itu tuh kalau simulkas ini agak kompleks ya karena simulkas ini kita ngirim video itu tiga jenis sekaligus jadi ada 720 kemudian ada 360 kemudian 180 nah di server itu server yang milih ini dari tiga Stream yang saya punya mana yang saya harus forward ke ek sesuai dengan bandwidnya Nah itu untuk memastikan biar biar apa Eka tuh bisa terima video Tapi bandwidnya tuh gak Bu diili i betul biar gak mampet gitu gambar jadi bisa dibilang ya kalau kita peng ngevelop ei server buat wetc weend itu sebenarnya bisa selesai prototypenya ya prototypenya aja gitu tapi untuk ngdevelop wetc server yang bisa jalan di semua kondisi Wah itu tuh never ending Journey sih sampai sekarang kita masih ngulik-ngulik nih kalau misalnya contoh gitu ya oh bandwidnya sekian tapi paket losnya tinggi misalnya gimana nihaliin Kalau paket Los tinggi Nah itu ada lagi teknologinya macam-macam kalau videonya banyak hilang paketnya kan videonya jadi pixelated atau ngfreze gitu kan Nah itu tuh ada ada caranya buat ngakalin walaupun paket Los hilang itu video masih bisa smoo itu ada caranya pakai Aak ada ada yang lagi dievelop jadi Google itu lagi punya kalau buat audio ada namanya e kan sekarang kodek yang kita pakai ini namanya Opus ya kodeknya Oh i op heeh Google itu sudah ngerilis ada kodek yang namanya likra Lira saya lupa Lira Kalau enggak salah itu tuh dia pakai eh ai Jadi kalau ada paket loss paketnya itu direcover pakai Ai sehingga walaupun koneksinya jelek audio kita tetap jelas karena dia tuh memprediksi bahwa kalau bilang Misalnya Saya mau bilang Apple nih ya baru yang kedapat itu cuman up tapi dia UD nebak Berikutnya ini Apple nih apa Oh bukan app Iya gitu sama kayak large language model aja prediksi yang hilang itu dia memprediksi Oh apa sih kira-kira yang hilang ini gitu itu Eh kodeknya udah masuk dalam eksperimen sih sekarang H gitu Nah kalau web ATC ini sendiri bukan cuman buat multimedia kan bisa buat yang lain juga kan use case-nya kan Ya I teks juga bisa kan teks juga bisa nah teks juga bisa di web RTC itu kan ada data channel Oh datanya data channel Iya yang menarik ini yang paling menarik ya jadi Zoom itu dia pakai webtis-nya tuh aneh agak nyeleneh jadi Zoom itu dia capturing video itu menggunakan h264 He tapi permasalahannya kodek yang dipakai oleh Zoom itu gak disupport samatc jadi dia punya h264 ini kan ada banyak ya ada yang Open gitu ya ada yang [Musik] e jadi Zoom itu pakai yang komersial atau bukan yang non Open gitu memang ada kelebihannya kelebihannya itu mirip kayak spc-nya VPN tadi jadi bisa ngropedrop paket itu Eh jadi Zoom itu ngakalinnya dia pakai wetisc video kodeknya itu dikirim lewat data channel jadi dikirim Iya dikirim berupa binary stream dikirim lewat data channel gitu Nah yang yang yang menarik lagi adalah Kenapa dia ngirim data channel dan kenapa dia butuh wec jatuhnya Kenapa dia gak kirim pakai webset aja kalau gitu Iya i engak pakai karena kan websocket bisa ngirim binari juga kan dasarnya Iya kan Nah ini ini yang paling menarik kalau pakai websocket bisa dipastikan kita enggak bisa ngobrol kayak sekarang kalau pakai websocket delay karena latensi lat karena latensy betul Jadi sebelum kita melihat perbedaan webscket dan wetisc ya yang paling harus dipahami itu sebenarnya nya adalah perbedaan antara TCP dan udp udp I Protocol layer network I versus udp Yes betul jadi kalau di jaringan itu ada dua jenis protokol satu TCP atau kita bilangnya TCP ini adalah reliable Network jadi apa yang kita kirim itu akan dikontrol dan dipastikan selalu diterima di ujung I ada ack-nya iya ada ak-nya knowledge Ya tapi kalau yang udp itu tuh dia kirim kirim kirim kirim tapi enggak peduli terima sana sana terima atau enggak enggak peduli pokoknya kirim kirim kirim aja enggak ada statusnya Iya betul nah jadi yang menarik adalah kan kita tahu tadi video atau data apapun kalau dikirim kan selalu paket-paket ya He nah kalau dikirim lewat webscket itu tuh Cara kirimnya tuh bakal kayak gini paket satu kirim server itu dia harus ngjawab dulu saya terima ya paket sat terus dikirim balik begitu sudah dikasih tahu udah dikirim Bik ohudah diterima paket oke Ini paket nunggu lagi dijawab dari server dan kalau server bilang Eh gua gak terima kita h inter50 jadi kita ngirim nih ke sana 50 m terus dikasih tahu I balik lagi 50 gitu kan itu kanudah 100 m jadi belum lagi kalau yang tadi Bil ada yang missing terus dia harus kirim ulang terus Bik lagi ituudah 200 kalau sekaliir ulangingkanudp yangaketnya jedanya itu bisa nanose second bukan milisec lagi W Oke biasanya ngirim paket udp eh yang berbasis video itu eh waktu yang diperlukan kurang lebih jarak antar paket cuman 50 nan jadi bisa dikirim tu pak inst paket paket paket benan terus gu ya jadi dia cuman ngirim paket paket pak paket per 50 Nan dia ngirim paket terus gitu ya kalau nanti dari sana ngasih tahu ada yang missing baru dia kirim ulang jadi enggak ada tektokan sifatnya oke tapi itu kan lebih baik kalau misalnya di video streaming kan kalau misalnya kayak chat text base sedangkan urutan itu kan penting ya apakah lebih baik kalau chat atau e colaborative editing kayak Google doc kalau yang datanya harus bener ya harus perfect ya apalagi misalnya k ada Collision detection nih kalau misalnya iya ya itu kan harus kayak data yang diedit bersama itu kan bisa terjadi colision I kalau misalnya kirimk k kflik gitu Jadi apa lebih baik workshop atau WTC gitu Kalau misalnya datanya itu kita bisa kirim cuman satu paket gitu ya dalam artian enggak lebih dari 1500 byte Kenapa 1500 byte Jadi biasanya kalau yang suka main ya kalau yang yang suka main game Itu kan eh cara ngakal-ngakalin Network latensi itu kadang coba tuh adjust mtu-nya di router Iya kan itu maksimum transmission unit jadi satu paket itu maksimum dikirim berapa ya itu biasanya 1500 byte itu Nah kalau paket data yang berupa teks atau kalau kita main game online kayak Dota gitu kan itu kan dia cuman ngirim koordinat kan koordinat terus ngirim ee apa eh data biasanya AC Iya action kayak up down e left gitu kan itu kan sebenarnya dikirim satu paket eh berulang itu sebenarnya ok gitu karena enggak perlu ada satu paket dikirim langsung banyak beda dengan video video video itu kalau kita kirim kefame atau gambar full itu tuh dia butuh mungkin kurang lebih ada Li paket sekaligus yang akan dikirim sehingga ini tuh enggak boleh ada delay enggak boleh ada yang hilang sehingga kalau pakai eh ngirim lima paket sekaligus dan harus diterima secepat mungkin itu tuh Enggak mungkin pakai TCP terlalu lambat Oke Kecuali Kecuali konsepnya itu adalah live streaming yang delay itu kayak satu arah kayak YouTube itu kan satu arah kan YouTube live ya ya I YouTube itu kan protokolnya masih http walaupun Ah ada http 3 yang berbasis udp gitu ya tapi YouTube itu dengan http 2 juga itu pada dasarnya TCP kan I dan itu kan ngstream video betul Dan itu enggak masalah kenapa karena sebenarnya delaynya tuh sampai 2 detik tapi kalau kita ngobrol kayak gini kan gak boleh ada delay 2 detik jauh sekali ya I Nah itulah Kenapa kalau kita yang berbasis video karena datanya streamnya itu gede dan banyak gitu ya itu hampir enggak mungkin kita pakai TCP H kalau jaringannya sangat Oke mungkin masih Mungkin gitu ya tapi most likely sebenarnya sebagus-bagus apanya jaringan kita tapi kalau WiFi kita aja tabrakan sama punya tetangga iya iya itu pasti paket loss-nya udah hilang duluan di rumah Gitu sebelum dikirim hmm yup yup paket loss itu terjadi ya Oh berarti web itu pakai udp Terus kalau webscket itu pakai TCP berarti ya Iya betul gitu bedanya nah kebutuhan untuk web RTC itu kan kalau secara infrastruktur kan ya E pertama butuh signaling yang mendaftarkan address dari pasih tahu Oh Mas Yohan detail networknya di sinii supaya kita bisaect terkunikasi Lalu ada yang disebut dengan kayak Stone atau senya buat apa sih oke nah Ini yang Menar Kenapa but dan server buat sign sedangkan websocket enggak pada dasarnya karena pe to yang web RTC itu gak butuh IP public jadi tidak memerlukan atau tadi Kalau weet kan kita yang penting ipnya berapa kanverver jadi kita beneran nembak satu IP dan langsung connect kan Iya dan itu jadi kita untuk bisa connect ke server web socket itu tuh beneran ya tembak aja ke sana tapi kalau yang namanya webtc terutama yang 101 ya kayak eh saya Eh kita mau communicate Berempat nih ini tuh udah pasti Eh kalau sor kalau kalau beremp ini kan sama server jadi kita sekarang connectnya itu kan ke streamy server Kalau ama streamy server itu kita bisa enggak pakai stun dan ggak usah pakai turn Kenapa karena kan punya IP public Oh ya kan Oke gitu Jadi bisa aja yang diperlukan itu cuman off SDP session description Protocol yang isinya tuh cuman menjabarkan alamat saya tu e servernya di mana terus kemudian saya pakai kodeknya apa aja terus saya kasih nih ke r r terima tuh dia bilang oh Yohan kodeknya VP ya Oh oke saya support kok VP nanti R akan balas dia ngasihare SDP namanya SP itu isinya sama kayak SDP isinya juga cuman Oh alamat saya terus kemudian kodek yang saya support itu ini Nah nanti itu di matchming Oh jadi nanti saya ngirim video ke Risa itu tuh kodeknya udah pasti bisa diterima sama Risa Karena dia udah ngasih tahu kan sebelumnya gitu Jadi kalau misalnya dalam konteks streamyard itu tuh mungkin kita enggak perlu stun dan turn tadi karena stream punya public IP kalau in juga sama kasusnya eh inl itu itu kita pakai eh turn server stunnya enggak dipakai gitu Kenapa karena kita ngdeply inl server itu di belakang kubernetes Oh berarti Ada proxi ya Ada nutsnya kan jadin Ada ada ada I Iya jadi servernya in sendiri itu sebenarnya enggak punya IP publ H gitu karena dia lewat load balancer-nya kubernetes kita kan gitu nah itu makanya kita cuma pakai turn tapi kita enggak pakai e stun Kenapa karena eh kita lagi-lagi eh turn kita itu punya IP publ jadi bisa langsung connect aja ke turn gitu nah web socket itu enggak perlu turn dan Stone sesimpel karena ya itu tadi dia sudah tahu IP publiknya ya karena dia sebenarnya Cuma connect ke ya itu websocket Protocol wss biasanya websocket secure websocket Protocol dan langsung IP atau domain yang sudah public yang ada service websocketnya kan sebenarnya i betul nah bedanya sebenarnya cuman stun itu itu sebenarnya untuk ngasih tahu IP saya itu berapa sih Oh jadi ini tuh paling sederhana kayak gini ya bentar e boleh screen sharing engak boleh Boleh silakan silakan Oke jadiama politik kan apa iniama jadi misalnya bentar screen sharing dulu jadi contoh nih ini tuh ada e website kalian bisa cari aja trickle I gitu ya Ini tuh untuk ngecek eh IP address kita dari stun servernya Google jadi misalnya kita get kandidat di bawah ini gitu ya running Nah ini kan kalau dilihat ini tuh eh ada dua IP address ya kan IP sama ip4 ya Iya betul nah ini ini adalah IP address router saya yang bawah itu oke seh tapi bukan IP public kan Mas Mas Yohan bukan IP public kan itu oh routernya kebetulan paketan gaming jadi itu I public memang routernya bagian di belakang bisa juga di belakang n sih Iya nah eh bisa jadi justru memang sebenarnya stun itu itu untuk ngetrace IP kita dari dari laptop Terus nyambung ke router Terus nyambung lagi ke routernya ISP Terus nyambung lagi ke mana sampai IP publ yang kira-kira bisa diakses sama Pir Pir sebelah kita gitu Hm jadi fungsi kayak untuk buka connection ya jadi kayak cari pintunya gitu e bu biar bisa saling nanti keluar masuk sendiri Tapi harus tahu pintunya dari kedua kedua pihak G betul karena ada istilahnya kalau di jaringan Tu ada punch punching jadi kayak nusuk lubang ke dalam nuts Jadi sebenarnya caranya itu adalah Eh kita ituect ke e ST server pada saat kita ke ST server let's say di port di situ tuh 59 1600 ya Iya port itu tuh otomatis di eh router itu kan kebuka Iya nah port itu dibuka sebenarnya untuk nanti pir dari sana itu bisa lewat port itu karena by default nuts itu kalau tidak ada koneksi dari dalam dia enggak akan mau ngebuka port itu pasti keblok sama firewall kan atau keblok sama nnya Oh iya iya berarti harus dari dalam dulu yang request betul jadi stun itu sebenarnya mekanismenya adalah ngebukain jalur biar pir dari sana itu bisa lewat ke jalur yang sudah dibukain Oke gitu gambarannya nah yang terjadi juga sometimes kalau ini kasusnya kayak enterprise yang di mana secara security companynya itu membutuhkan karyawannya Pak pakai VPN web artis itu juga masalah kan dengan Iya koneksi yang di behind VPN gitu Nah karena bingung ini sekarang i betul companynya sama-sama vpn-nya IP publicnya sama misalnya kita semua di sini pakai VPN yang sama yang dari company I public kita sama semua tuh nah itu yang Iya betul maksud saya nah salah satu kelemahan Al mungkin masalah Iya nah tapi itulah fungsi dari turn server kalau tadi kan turn server kan Oh oke bus punya turn server lagium Iya ada lagi turn server karena turn server ini sebenarnya kita bisa bilang sebagai relay server atau proxy server H yang bisa kita pakai untuk terhubung karena turn server ini udah pasti punya IP public jadi sama kayak webscket aja connect-nya H gitu tinggal tinggal nembak aja ke IP publnya kan I berarti snya ngasih tahu kita posisinya di mana Oh berarti masing-masing device eh connect ke si turn server si proxy servernya dulu kan kalau pakai turn kita itu enggak peer to peer lagi semuanya itu lewat turn server Jadi udah kayak relay aja gitu gambarannya nah kurang lebih gitu sih kenapa Eh apa kita butuh eh stun dan eh turn itu sebenarnya untuk bisa peir toir ya ngakalin peir toirnya Itu karena tanpa stun e tanpa stun dan turn kalau kita ggak punya public IP artinya kan kita gak bisa dihubungi dari luar kan I Nah itulah fungsi stun dan turn pada saat bikin hubungan e wtis gitu Oke kita pause dulu udah pada pusing pada binganya tanya a silakan ini ya ini mungkin kalau kita ngomongin teknisnya mungkin buat yang baru-baru itu pasti akan sangat kompleks akan sangat rumit Iya mungkin bet eh enaknya ke ke sesi berikutnya itu kita bahas saja ini sebenarnya web itu bisa diapain sih kemudian webet tu eh kira-kira komarable enggak sih dengan web RTC jadi kita ngomongin produk lah yang kita bisa explore yang berbasis webtc itu kita coba aja nah inl sendiri eh target marketnya itu B2B atau b2c ya Eh saat awal-awal kita mulai awalnya kan kita jualan api ya jualan api api send I api sendiri itu kan pada dasarnya B2B awalnya tapi kalau jualan B2B itu pasti e kita sudah ngerasain itu susahnya minta ampun Kenapa karena akan selalu ee setiap ada perusahaan yang kita tawarin selalu akan nanya kliennya siapa ya itu selalu jadi pertanyaan Sara belum ada kita baru mulai gitu kan Oh ini ya masalah yang sama ya apa kayak ayam sama telur ya Yang mana yang duluan Iya betul betul betul I nah atau kayak lamar kerja butuh pengalaman kerja pengalaman I itulah fungsinya internship kan sebenarnya ada pengalaman kerja oke oke sehingga kita tuh eh terinspirasi dari tiktok sebenarnya jadi tiktok itu kan e B2 ya jadi dia consumer bas app yang dipakai masif gitu di dunia terus sekarang behind the scene itu sebennya B dance atau induk dari tiktok sendiri itu nawarin nawarin Fi yang sama dengan Fi in itu ke perusahaan-perusahaan untuk nawarin ngevelop live streaming live shopping eh or anything live live video gitu ya terus kalau kliennya nanya nanya portfolio mana iniurak Peru Engak perluak enggak perlu udah ada gitu kan Nah itulah Kenapa inl akhirnya mutusin Oh better kita coba eh fokus untuk ng-solve eh apa yang kita lihat dulu di teman-teman kita sehingga kita saat ini e fokus eh coba naikin b2c jadi eh ada satu aplikasi yang namanya e inl room yang kita develop itu bisa dibuka di room.inl.pp pada dasarnya ini mirip kayak Google meet tapi kita gak Pengin compit sama Google meet atau Zoom atau eh Microsoft team eh Fokus utama dari in live room ke depannya itu lebih buat webinar sebenarnya Jadi kurang lebih kita peng ngegabungin e .com kemudian eh Zoom kemudian paymentnya juga sekaligus jadi orang bisa bikin webinar webinar berbayar jual tiket di situ terus kemudian joinnya juga kelasnya ya langsung di situ berarti bisa Jadi kalau misalnya ada bikinusif S apa ya lagi nontonplay yang ikut nontonay rekamin Pak in jadi di broadc bisa join Iya terus diset diseretam lah diseret kalau bajakan itu wah ini tampilannya juga mirip-mirip e Google meet ya langsung ada i inspir i sense nah ini ada pertanyaan nih dari Rahmat nih in in life support I enggak apa ya n Oh bukan Iya Jadi sebenarnya untuk n2ncription eh inl sendiri saat ini memutuskan belum mensupport Kenapa ada ada alasannya sebenarnya jadi Eh toend encryption ini membuat kita sebagai server itu tidak bisa membaca apa yang lewat di server kita karena kita cuman bisa nge-forward aja kan Nah sedangkan karena tadi fokus kitaal pengel webinar di mana Kalau webinar ini kan ke depannya berapa fitur yang mungan diukan misalnya salah satunyaud jadi audio yang lewat itu bisaah jadi misak mungakisaver support juga itu yaitu namanya eh Voice detection jadi pada saat kita ngomong itu bisa keedetect Oh ini lagi ngomong nah kalau pakai n encryption lagi-lagi itu enggak bisa didetect kita enggak bisa baca yes gitu akhirnya saat ini kita memutuskan Oke kita eh untuk kebutuhan inl room kita enggak perlu ngerjain end to end encryption dulu Tapi nanti kalau ada kebutuhan itu bukan hal yang sulit kenapa ituudah punyai Yangi yang memungk kita sangudah karudah ada Diah sejauh ini yang apa yangudah ituudah ada Eh kalau kemarin-kemarin sih kita memang lebih pakai buat meeting gitu Iya lebih pakai buat meeting terus eh beberapa klien yang kita ngobrol itu itu sebenarnya ada yang Eh lagi explore untuk penggunaan jalur komunikasi ofisial untuk perbankan jadi i jadi kan Eh ini sebenarnya Eh kayak dalam konteks misalnya ee semua komunikasi perusahaan kan saat ini biasanya lewat Whatsapp ya terus bank kalau ngak kli itu tuh biasanya kalau lewat jalur personal gak punya legalitas dan gak bisa dipertanggungjawabkan dan gak bisaord I bisaord Tapi itu kan manual semuanya gitu Jadi ada satal kita yang lagi ngobrol pada dasarnya dia pengin ngdevelop eh aplikasi mirip kayak WhatsApp Which is possible dengan inl api Eh tapi fungsinya memang untuk internal communication jadi setiap obrolan di situ setiap chat itu bisa kerecord di server sehingga apapun yang dikomunikasikan itu bisa dipertanggungjawabkan Oke berarti ibarat ini salah satu use case di luar Google meeting tadi makanya dengan bantuan in bisa kita itu bisa membuat serv WhatsApp sendiri atau telegram sendiri di mana bisa ada video call bisa ada chat juga ya betul gitu nah ini ada pertanyaan lagi Oh lanjut lanjut lanjut langsung aja Oh langsung oke ini eh salah satu fitur yang sulit diimplementasi adalah dedicated room for video streaming Apakah in support untuk dihost di server sendiri i ya Eh pada dasarnya Core teknologi dari inlife itu sendiri itu tuh open source H jadi kalau bisa tolong dibantu dibukain ke github kita ada inl Death itu tuh kitab Iya eh inl dep/sfw eh bukan ini ya coba yang di private chat eh private chat ini bisendiri ya ya room itu yangadi jadi room itu openour open souralus [Musik] dariver kita Oh jadi bahkan kalau buka ada example http websocket itu tuh kita bisa ng-running langsung eh aplikasi mirip kayak streamyard atau Google meet very simple layout-nya very basic gitu ya tapi ya nunjukin nunjukin fungsi sfu tadi yang nge-forward kita ngirim video kemudian di broadcast yang lain yang ada di dalam room itu gitu i i jadi pertanyaan yang tadi sebenarnya kita kita Open untuk dihost di server sendiri jadi kita nerapin e ada istilahnya namanya kita ya Bilangnya erprise lic jadi sifatnya itu memang kita nghost di servernya mereka sendiri ya bayarnya tuh per Instance per tahun Biayanya berapa ya itu silakisaverend dengan infra sendiri tapi makai e server kita itu bisa tapi biasanya eh running server sendiri itu jauh lebih kompleks Kalau udah ngerti kita juga provide support Kalau udah ngerti ya silakan sih bisa-bisa aja tapi eh Kalau agak rumit ya better pakai yang Cloud api kita aja gitu Oh jadi ada ada ininya ya ada apa ada bisnis modelnya seperti itu ya mau yang he tinggal terus habis itu deploy atau pakai service yang sudah disediakan oleh in ya i betul betul tanyaannya Kalau kayak kalau pakai dari inl kan dihostingin juga kan ada ada servernya kan bisa kect pokoknya enggak perlu mikir infra atau apalah deploy-deployan ya kayak met karena Iya karena sebenarnya ya masalah kita nge-host server itu terutama kalau kalian nge-hostnya itu kayak di Google Cloud di Amazon dan lain-lain the most Painful part itu sebenarnya adalah bandwid-nya H bandwid-nya Google Cloud Amazon dan kawan-kawan itu super mahal Bay sangat mahal Iya Oh berarti inl enggak enggak di Cloud ya enggak di cloud-nya yang tadi disebutkan enggak onprame ya oke Karena dedicated Line di Indonesia tuh enggak di enggak bayar per bandwid cuma bayar Sori enggak baw enggak bayar per per toal bandwi yang digun I jalur B yang berpulan jadinya per capacity gitu yes gitu Betul tapi ya Feel Free aja sesuai kebutuhan kalau band yang dipakai masih kecil ya buat personal gitu Ya bikin kelas online seminggu cuman satu kali dua kali di Google Cloud itu masih affordable kok pakai aja yang open source atau bisa ngobrol gitu question kalau misalnya komunitas kayak kita nih ngobrolin web pengin pakai inl teknisnya gimana nah yang bisa bisa dibroadcast ke Youtube juga ya Nah saat ini kita belum support broadcast ke Youtube gitu karena belum ada klien yang minta Oke jadi kita e belum buattin Tapi pada dasarnya ngebuatin itu tuh eh sebenarnya konteksnya sederhana dan masihib juga kita lakuin eh bedanya itu adalah e kita pada dasarnya Ya sama aja kayak masuk ke inl room tadi tapi kan itu sama aja kayak kita masuk ke Zoom atau kita masuk ke eh Google meet gitu ya Nah kemudian ya dicapture Pai eh obs kemudian ditbakin gitu nah tapi kan kalau dalam konteks kayak gitu itu kan biasanya butuh PC yang powerful ya biar bisa eh capture pakai obs kemudian ditembakin ke ee e YouTube ya Nah Kara butuh Juga misalnya kayak misalnya pakai PC siapa misalnya saya gitu berarti kan harus ada audio feedback juga karena harus bisa dapat audio yang Saya dengar masuk ke obs baru Tebak itu Kalau enggak ya i betul ada videonya Enggak ada enggak Ada audionya gitu juga susah tapi buat kalian karena biar kita bisa ngobrol di live room enggak usah pakai stream lagi nanti saya bikinin deh sanggur sanggur sangur bikin itu tuh harusnya itu harusnya Harusnya gak runith Karena pada dasarnya dia cuman e apa ngerekam Chrome headless kayak gini terus ya ditembakin aja ke itu e youtube-nya gitu jadi bisa kita buatin di berarti kita nembak langsung nih ya minta disponsorin kita buat contoh k kita harus nanti itunya mau enggak mau pasti akan dibutuhin kan kita sebenarnya dalam roadmap-nya eh inl group sendiri karena itu kan kita penginnya sebagai webinar ya H eh itu memang eh fitur kayak streamyard itu memang sudah ada di pipeline Oh Tapi saat ini yang lagi kita fokusin itu adalah eh untuk bisa register participan kemudian terima pembayaran itu yang lagi kita kerjain sekarang oke oke karena kan kalau sekarang kan teman-teman bikin webinar kan daftarnya di mana Terus webinarnya di mana Iya gitu kan Terus enggak enggak enggak kecatat juga tuh eh kadang tuh kalau webinar ini ya kalau webinar pemerintahan itu biasanya begitu masuk Dis dulu satu-satu p Pang dulu satu-satu i i i i i Nah nanti di live room Heh lanjut lanjut lanjut di live room itu kita penginnya nanti kita bisa langsung lihat yang siapa aja ya terus kemudian yang e join itu durasinya masing-masing per orang itu berapa lama oh r Cuman 30 menit Ian cuman 45 menit ek 20 menit misalnya ketahuan terus kita juga karena kita ada voice activity detection jadi kita juga lagi ngerjain Gimana caranya kita bisa ngitung engagement speaking Jadi ketahuan Oh an ngobr Iya jadi ada analtis Oh Risa tuh Ngobrol sekian menitan sekian menit saya sekian menit gitu jadi the whole webinar kita bisa tahu untuk planning next berikutnya itu seperti apa berdasarkan data-data ituit Wah keren itu yang lagi kita kerjain sebenarnya untuk nanti next sama mas Danang kita semua jdg yang live-nya pakaiin live [Tertawa] nantiusingar haarak usah Pak googleak itu berat Iya Wah menarik ya Iya soalnya kemarin itu sempat e kepikiran kan e ini kan streamyard kita pakai streamyard terus eh mikir ini mau diperpanjang lagi soalnya sudah mau habis kan eh mikir-mikir ada enggak solusi yang gratisan gitu ada namanya video Ninja itu kalau enggak salah pakai webtc juga tapi tetap tadi harus dibroadcast melalui obs nah takutnya enggak kuat karena kan si eh videonya sendiri kan kita harus download dan upload kan gitu kan butuh bandwid kan untuk ngumpulin orang-orang ini habis itu baru di broadcast lagi jadi ada dua kali e bandwid yang harus dipakai gitu kan apalagi apa saya sebagai operatornya eh koneksi Internetnya upload-nya kurang bagus Gitu Ee jadi agak khawatir di sana makanya si apa solusi streamyard ini luar biasa bagus karena dia kan di server jadi kita enggak enggak terlalu ngatur jumlah buitnya terlalu banyak gitu kalau hostnya mati paling enggak Ivan sama Eka kan masih bisa ketangkap masih bisa ngomong selama ini sering kayak gitu sering terjadi ya ya Mari Mari kita coba let's say nanti 1 bulan ke depan mudah-mudahan ada prototyp-ya Asik as Oh iya ini masih ada pertanyaan lagi nih dari Rahmat lagi nihentar bentar sebagai gantinya kalau misalnya butuh beta tester dan misalnya oh eh kita coba-coba dan open open V pakai ap-nya welcome kah kalau kita Open V Oh isu dan very welcome very welcome very welcome nah ini ini juga ada ini salah satu apa salah satu yang tidak eh jarang orang tahu adalah inl itu ternyata open source itu saya juga baru tahu sekarang nih karena kayaknya belum terlalu dihighlight ya jadi tahunya inl itu ya produk berbayar atau bisa trial ada sdk-nya ada api-nya bisa kita bisa berkreasi di sana ternyata enya pun sampai di open source gitu jadi luar biasa sekali actually This is a win for everyone Jadi sebenarnya pengin Nyoba juga pengin main-main ya He kalau memang nanti ada yang bisa di beta testing kita siap Iya salah satu yang Open juga ada yang namanya jutsuid ya Beberapa bukan Jutsu jitsi itu Jitsu Jitsu jutsuu apa Jitsu Jitsu iya coba ya jitsu itupo ada komennya jits iya jitsi jitsi jits i jits ya itu apakah I mempunyai pendekatan berbeda dari segi arsitektur Apakah sama Iya sebenarnya dari segi arsitektur eh jitsi Google meet eh Zoom eh dan yang serupa itu pada dasarnya arsitekturnya sama pendekatannya adalah menggunakan sfu tadi selective forwarder unit tadi Oh jadi secara arsitektur pada dasarnya semua sama bedanya Mungkin ada yang difokusin buat meeting ada yang difokusin untuk apa ada yang difokusin untuk apa jadi masing-masing use case itu memang beda-beda sehingga fitur yang bisa dievelop di dalam api-nya sendiri itu beda-beda tergantitu itu kan pada dasarnya ya memang live room virtual tapi bukan bukan berarti bahwa semua video yang kita broadcast ke sana itu semuanya otomatis diboadcast ya kita tuh bisa milih servernya handling Iya jadi kita bisa milih misalnya ya contoh saya tuh punya dua video satu screen sharing satu lagi e video eh kamera gitu ya itu tuh kalian tuh nanti akan dapat dari akan dapat info bahwa Ohan punya nya dua e video nih mau ditampilin enggak dua-duanya atau satu aja jadi bisa milih nah ini fungsinya buat apa itu salah satu misalnya kita mau bikin Breakout room jadi eh satu sesi tapi ruangan-ruangan kecil gitu ya itu jadi manual subscription ke video nah fitur tadi yang menarik lagi itu adalah lagi kepikiran kemarin ngobrol sama teman bikin ini eh video interview antrian video interview Jadi kalian tahu kalau orang-orang yang kerja ker biru yang di kafe nyari pegawai magang di kafe apa dan segala macam itu tuh Kalau ngelamar kerja mereka kan yang ngantri itu bisa ratusan kan karena mereka kan mereka kan in interview kan video itu sebenarnya bisa kita pakai untuk interview pendekatannya itu sama kayak Breakout jadi saya tuh sekarang misalnya sendiri nih dalam room ini masukin aja tuh orang yang pertama join tadi siapa masukin ke room ini Terus nanti kalauudah selesai ngobrol iniutnya I masuk lagi itual di Dar jadi kita bisa bikin interview 10 menit kan paling interviewnya iya iya gitu itu use case use case yang kita harapkannya itu bisa custom logic ya berarti ya betul sebenarnya logiknya tuh bukan di server logicnya itu di kalian di apps ya ya ya Oh kita bikin Apps pakai api-nya soalnya ya Ca peduli ya itu tadi mengatur traffic data In And Out I karena kan kita yang ngasih tahu kan ini kliennya ada sekian ee yang ini duluan ini E ini kedua ini ketiga ini keempat Nah kita tuh yang ngatur tuh Oh ini masukin ini masukin e javascript ya sdk-nya javascript javascript saat ini sdk-nya javascrip javascript masih javascript aja ya we senang Iya biar anak front end bisa ikutan juga ya Maaf saya masih Bisanya cuman JavaScript kurius berarti server ini go bisa Oh iya itu kan yang backend kalau yang depan-depan bis belum bisa plutter belum bisa e switch belum pakai r kan sekarang semua di kurius inl servernya berarti Bisa bisa jadi server game online juga Oh bisa tapi ada eh ada pendekatan yang agak beda dengan ee game server jadi eh invidia itu kan punya apa gitu tapi dulu kan Google punya Google studia gitu ya Iya nah eh ada beberapa fitur yang e perlu dievelop lagi kalau misalnya pengin eh ng-develop Cloud gaming tapi Cloud gaming itu basisnya itu webrtc Iya jadi eh salah satu yang paling penting dari Cloud gaming itu itu adalah lateny I nah latency ini di server eh itu itu beda antara Cloud gaming dengan video call kayak gini dia harus dibawa 20 20 milit second kan eh yes itu tapi sebenarnya E lebih masalah dari jitter buffer jadi jiter buffer itu Jit DFF itu istilahnya kayak gini kan kalau kita ngirim paket eh video untuk satu gambar let's say itu ada lima paket kan itu pada saat dikirim itu tuh belum tentu diterimanya tuh berurutan 1 2 3 4 5 Belum tentu i bisa jadi paket tigond sampai duluan Iya bisa jadi paket tig sampai duluan bisa jadi paket dua sampai duluan jadi kadang enggak berurutan jiter buffer itu adalah Berapa lama kita mau nunggu lima paket ini nyampai semua Oh oke Biasanya sih kecil cuman kayak 20 MS atau 30 MS nah ini ini kadang perlu adjustment kalau untuk video call kayak kita itu biasanya jiter buffnya itu di range di sekitar 30 samp 50 tapi kayak tadi Ean bilang kalau Cloud gamingatya itu beneran bisa jadi ggak pakai Buff karena ada teknik lagi yang namanya forward encoding correction atau tu dipak Kalau ada paket Miss paket itu bover jadiak pakend Tapi perlu ada teknologi itu untuk memastikan Videonya bisa nah ini adaudud iat arah I rtmp itu TCP anyway jadi dia pasti latensinya tinggi dan memang tujuannya cuman satu arah kalau satu arah ada latensi itu masih oke kan Iya kayak YouTube eh live streaming atau twitch ya twitch ya ya ya ya RTM Karena dia satu Ara enggak butuh dua arah gitu jadi katensi 2 detik 5 detik bahkan itu oke sebenarnya ini ada pertanyaan lagi Apakah saat ini dan ini kita P semua atau MTI dari itu [Musik] kalauakver fitur yang bakal missing salah satunya itu kayak voice activity detection itu enggak bisa dilakukan di web saat ini karena kalau kita lakuin di web itu jadi harus ngelakuin audio Processing sedangkan kalau di server itu tuh kita enggak kita tuh enggak ngcapture audio ya jadi di di paket datanya audio kalau lewat di server itu tuh ada udah ada desibelnya tuh berapa jadi kita cuman ngelihat data itubaca doang oh ngebaca doang jadi eh kita ngelihat Oh untuk eh activity voice activity detection terus analytic dan itu kayaknya Walaupun dia one1 itu tetap kita lewatin server aja daripada kalian harus bikin audio Processing di web untuk tahu dia lagi ngomong atau enggak ret atau mau bikin transcription misalnya proses sendiri kalau blur background kayak Mas ini di server apa dari klien [Musik] blurli berarti dari web Ini Masnya dari si streamy ini menyediakan oh enggak ini Kebetulan eh Mac OS yang versi enggak tahu ke berapa gitu ya yang agak-agak baru gitu itu mereka punya fitur untuk ngeblur semua video capture web RTC Oh berarti itu natif ya kayaki integrasi natifs kan iya iya bahkan ee dia tuh punya efek-efek kayak gini nih bentar ya Ini bukan kampanye ya bentar biasanya ada reaction gitu Oh ini Oh iya iya iya dia bisa kayak betul-betul dia kan Oh iya loh Oh ini m OS ya m OS ya mic OS m OS atau misalnya kayak gini i i Iya ketemu pernah lihat di mid kirain itu punyanya mid bukan sih kalau gini enggak bisa gini harus diaktifin Jadi kalau kalian pakai Mac os os baru gitu ya di atas itu kan ada icon kamera warna hijau itu tuh harus diaktifin reaction-nya ah gua enggak adaak bisa termasuk bisa kayak gitu guok enggak ada kok enggak munculnya jempol enggak Kalau belum engak bisa ini tertentu ya keren tapi ini ini tuhib juga dibikin di web very easy kalau mau dibikin di web Sebenarnya ya cuma kalau di support mah ya enggak usah iya kalau os-nya enggak support Ya bisa aja kita Oh ber tensor flow JS tensor flow JS berarti tahun depan pbicaraan kita adalah Add on di marketplace-nya inl untuk nambah-nambahin efek filter filter filter jadi in punya marketplace bisa Add on on I kalau udah adaikinnya kan bisa plugin plugin ceritanya extension plugin Oh I kalaui yang nuk muka semua peserta jadi kayak gini Gu ti-ba Jadi Pak mukanya kalau discord sendiri itu pak juga gak soalnya kan discord terkenal ringan ya walaupun kalau videonya gak tahu tapi kalau audionya kan terkenal ringan ya apalagi buat gamer kan gamer kan resourudah banyak di game terus kita masih bisa lancar berkomunikasiudah perahisetak semua communication di aplikasi Manun itu karena kenapaat ini dan banyakinnya yang gunakan untuk ngdevelop two way communication kayak gini jadi wepertis itu sebenarnya kumpulan protokol di mana itu keperluannya memang untuk Real Time communication jadi saya enggak ngelihat enggak pernah ngelihat ada yang pakai eh teknologi selain webtisc Walaupun mungkin enggak semua ya kayak tadi kan Zoom itu ngakalin kan Jadi pakai wetisc tapi data channel-nya aja gitu tapi hampir semuanya itu pakai itu kalau Zoom kan ada ada apa namanya ada aplikasi desktopnya juga yang natif kan Ya itu juga tetap wwti si ya protokolnya ya Eh ya itu tadi dia pakai yang data channel data data channel ya kenapa kenapa dia pakai ini eh aplikasi desktop atau natif-nya karena kalau dia pakai browser browser itu kan enggak punya ya proper yangadial yang komersial itu gitu Jadi mereevel theod h264 yangware optim dioritasic tapi dia atauing ada VP Oh di h264 biasa itu gak ada Oh jadi kayak Hybrid gitu antara VP sama karenak ini yaakareel makanya kalau kitating Pak Google meet itu suka panas it ini Pak Apa ya itu pakai teknologi Apa itu sebenarnya ada caranya Caranya adalah mauo demo live tapi kalau J kalau apa kalau kita cobain di sini terus dibuka Network apa dibuka Ininya Oh beda ya Bukan bukan pakai inspect elemen ya Enggak enggak Jadi kalian masuk eh ini ngetiknya tuh chrome2/ webrtc internal di situ kalian bisa lihat semua yang pakai webrtc termasuk streamyard Jadi kalau lihat kayak gini kita jadi tahu kan Oh dia pakai turn kemudian dia pakai e terus kita bisa lihat juga IP server dia itu berapa Terus bisa kelihatan semua data-datanya misalnya contoh ya saya pakai kodeknya itu apa lihat aja di outboundnyaah ini outbound RTV video Pakai l vpx vp8 ternyata dia pakainya ya bitrate-nya berapa bisa kelihatan juga Oh ini bitrate per secondnya by per second itu ya Ini 1 megaan dan ada grafisnya juga bisa bisa kelihatan nih grafisnya tuh paket saya Kenapa kita engak tahu ini ya Iya kita tadi mau ngecek di inspect Element tapi kan harus direfresh jadi keluar darii streamy dulu jadi tinggal pakai Chrome we RTC internal ya hampir semua browser itu punya cara untuk termasuk Firefox berarti ya Ada juga ya harusnya ada tapi biasanya beda-beda e detailnya itu beda-beda Oke ini ada pertanyaan sambungan mitos atau fakta lewat itu engak optimal Danan Res pada dasarnya kan Apun yang kalau kita ngembangin suatu fitur itu padaarnya kan selalu ada untuk sesuatu yang kita devel benit yang kita daptin itu adanya Jadi kalau dibilang ituak optimal Danan resour memang ada yang jadi eh berkurang jadi misalnya latensinya bertambah gitu tapi kan kita tadi bisa menggunain analytics kita bisa offload beban dari klien ke server karena kan tadi Eh ada beberapa juga nanti mungkin kalau teman-teman lihat di chatnya kan itu juga yang kayak masalah bisa enggak sih filter-filter itu dipindahin ke server bisa aja tapi kalau iya itu Tapi kalau Kita mindahin ke server yang sifat nya itu eh video Processing audio pressing latensiah ber nambah latensi lagi gitu Iya jadi oh selalu ada thre off untuk apapun yang kita lakuin Kalau dibilang enggak optimal eh video bridge tergantung dari arsitekturnya ya kalau arsitekturnya itu adalah sfu atau selective forwarder tadi jadi dia cuma nerusin e video stream kita itu menurut saya itu paling optimal untuk saat ini dan mayoritas developer WTC itu juga agree bahwa sfu is the most optimal arsitectture untuk saat ini kalau pakai yang video bridge yang versi lama atau MCU jadi dia multiple coding something gitu ya jadi dia tuh mengencode video yang masuk kemudian satu video itu yang baru dikirim ke orang yang nonton Nah itu kan ada lateny di server ya I gitu jadi ya selalu ada thread off for everything pintar-pintaran kita aja milih untuk setiap use cas-nya kan Oke Oh kalau diproses di klien Berarti ada kemungkinan bisa pakai ini dong web assembly bisa ada beberapa ada beberapa eh web RTC api itu tuh dia pakai e web ass eh bahkan Zoom itu kalau gak salah ngelakuin itu deh Oh i jadi Iya eh coba cari Ada website namanya tuh blog ge webrtc coba Googling aja blog wetc dia tuh di situ ngebahas banyak rever engineering beberapa aplikasi berbas termasuk ini Bu betul betul Coba lihat bloknya blok itu dia ngebahas itu semuanya tentang webr RTC Dan harusnya ada ada tentang zoom di antara blog-blog po itu Zoom Ya silakan teman-teman cari aja saya shareink a ya dia reverse engineering Google meet juga dia dia banyak R engineering dari situ justru jadi belajar oh Google meet tuh gitu ya oh Zoom tuh gitu ya terus Kopi bikin di ATM amati tiru seru banget ya gaming yaah Iya seru banget Wah ini keren ini bisa Nah itu tuh tadi yang FC yang tadi saya bilang buat Cloud gaming The R ofc Wah menarikarik kalau di in sekarang saat ini yang kitaah terapin ologinya itu eh red eh buat audionya ya tapi jadi redudansi encoding data gitu Jadi pada dasarnya walaupun paket audio kita Miss atau Lost itu sampai 40% kita masih bisa ngobrol clear karena audio audio yang missing itu bisa dicover di audio berikutnya audio paket berikutnya Oh diikutin ke paket berikutnya ya Iya jadi selalu setiap paket itu dikirim tuh dobel paket yang sebelumnya dikirim juga bersamaan dengan paket berikutnya Oh jadi kalau ada yang ya selalu dapat yang sebelumnya Iya betul jadi dia tuh kalau ada yang missing dia bisa cari dia nunggu aja yang datang setelahnya gitu kan karena dia bisa ngambil dari situ besarnya dua kali lipat dong I bitnya naik jadi dua kali lipat tapi kan audio itu kecil makanya yang redundan encoding itu cuma diterapin di audio untuk video video jebol jebol pasti untuk video makanya tadi pakai fact tadi forward encoding correction Nah itu metode terpisah untuk recover video yang hilang gitu dan dan enggak makan masih nambah bandwid tapi mungkin cuman 20% 30% jadi enggak sampai dobel oke oke gitu for the sake of Good video ya over bad Network gitu Nah kalau ada teman-teman yang nonton mau getting started mau ngulik e web rtisc sebaiknya ke mana kayak kayaknya paling enak dulu tuh kalau misalnya eh ngdevelop webrtc itu kan langsung aja bikin aplikasi langsung bikin aplikasi Nah ini kayak ada demo sejuta umat itu kan yang dari dulu banget udah ada priv Cho sejutaat pasti semua orang pernah pokoknya Pasti kalian semua pernah deh kayak cuma nyoba-nyoba habis itu ah Ya udah enggak enggak dipakai Nah itu tuh bisa bisa bikin itu karena kan kan ada kalau kita bikin aplikasi kan ada beberapa tahapan Ya misalnya kayak kita let's say kita mau bikin Google meet like gitu ya ya pasti kan yang pertama kayak capture dulu audio videonya terus habis itu Gimana caranya meng hubungkan pe toir-nya terus habis itu gimana caranya ngirim video yang kita capture tadi ke Pi sebelahnya terus gimana playing the video tadi dari yang kita terima jadi ya step by stepnya kurang lebih kayak gitu aja coba develop satu aplikasi aja resournya udah banyaklah tutorialnya juga udah banyak tapi coba aja develop terus setiap kepentok sama istilah-istilah tertentu gitu ya kayak ST turn apa Googling cari aja dokumentasinya udah udah banyak yaang lagi mas Johan pakai b nanya ke banya ke bisa bisa bisa atau ke saya kemarin juga kerjaannya gitu jadi baca bacain Code orang gitu kan Terus nyari istilahnya terus coba reverse engineering terus baca SPC dokumen terus diterapin ya pasti harus kayak gitu sih karena web RTC itu kompleksitasnya eh sangat kompleks karena terlalu banyak protokolnya yang harus dipahami jadi enggak kalau harus belajar protokol dulu pasti kebur puyong duluan jadi i better langsung bikin aplikasinya aja belajar protokolnya belakangan pas dibutuhkan aja gitu H ya bikin aplikasi kayak apa ya kayak tampilin webcam Terus mungkin tambahin filter habis itu gimana caroke Belum ada kan I atau paling ini kan ini aja apa ee paling gampang kayaknya paling ee ini ya paling sederhana gitu ya bukan paling gampang itu bikin aja aplikasi peer to peer kayak FaceTime yang beneran jadi itu benaran peer topir Kita cuman butuh signaling server aja jadi enggak perlu server kan sign signal server juga banyak yang publ dan gratis kan yang dari Google iya iya betul Eh nya bisa pakai Google tapi signaling server itu pakai http server biasa itu bisa bisa bahkan bahkan Sebenarnya ya Ada beberapa exampel eh itu yang beneran dicopy paste sinyalnya Oh sinyalnya over sdp-nya jadi kan e semua web RTC itu biar bisa terhubung kita tuh saling bertukar sinyal sinyal ini itu ada dua jenis off session description Protocol sama ANS jadi sama-sama SDP gitu ya jadi ini aja ditukar SDP ini basisnya teks jadi pada saat sudah diprint gitu ya kasih aja ke sebelahnya ini nih over masukin aja ke situ nanti di sana dimasukin dia akan generate answer kan answerwer-nya itu teks juga berutah SDP Oh gitu Ini kurang lebih gini nih e tunjukin ya ke kalian ya ini share screen boleh boleh kalau kalau lihat di sini ini kan streamyard pada saat kita connect ini bisa dilihat dia itu masukin sor digedein dulu ini tuh dia masukin audio video terus bikin over kan over ini itu adalah SDP di mana formatnya itu teks sebenarnya kayak gini teks kayak gini ini sebenarnya kalau kalian copy copy ni terus Iya dimasukin aja di pe connection kalau gak salah pe connection set over set local description masukin ini terus setelah text BX ya tinggal buat textve Iya betul setelah kita set local description itu tuh kita panggil lagi api-nya Eh apa generate answer atau apa pokoknya dapetin answernya kan ya annya itu formatnya sama kayak gini nih ini kelihatan juganya tu nih set local description tapi ada lagi set remote description Nah ini kan answernya nih Iya copy aja ini semuanya kasihin ke sebelah lagis kita udah sama-sama masukin ini itu dia akan mencoba terhubung satu sama lain oh ya Iya sesederhana itu sebenarnya nukrin SDP tukan He ini over saya ini over yang sana gitu Tuan nanti setelah dia tukan itu akan coba conect Sendirinya udah otomatis ya udah otomatis nah udah conect ya nanti itu connection itu akan ada event yang kitag Capt evnya itu nah ini video yang kita video Iya tinggal masukin ke video elementender aja Oh iya play sudahah hmm gitu Ini formatnya kayak ini ya kayak m3u8 gitu juga ya format-format mirip-miripya ini kan is ini kan isinya dia ngasih tahu bahwa eh IP saya itu ini ya ini alamat ip-nya kandidatnya gitu kan Terus dia tuh ngasih tahu kodek-kodek yang dia support tuh apa I streamer ya vp8 gu ya oke Iya Jadi intinya SDP itu ngasih tahu alamat sama eh fitur-fitur yang dia support sama eh teknologinya atau kodeknya gitu H terus ya sudahah dia akan terhubung satu sama lain oke Ini ada pertanyaan lagi nih implementen web RTC di sisi server dari rfc apakah worthed atau pakai library yang sudah jadi aja kayak pion tergantung e pengennya itu e ngapain Kalau misalnya pengin belajar e kayaknya silakan mau mulai dari awal tapi dulu Saya justru mulainya dari pion itu sendiri kalau lihat S Open sourcnya in itu basisnya juga itu pion itu karenaampelnya ada banyak gitu kan kemudian Ya dokumentasinya lumayan eh community-nya juga well support gitu jadi menurut saya mulai dari situ Kenapa mulai dari situ karena jadi kita enggak perlu Terlalu deep down kepprotokol kayak dtls dtls ini datagam TLS jadi istilahnya udp yang dibikin secure kayak kayak https atau SSL lah itu kita kan enggak mau belajar dtls lagi protokol gitu kan malas gitu kita tuh penginnya web rtc-nya aja nah belum lagi ada lagi protokol RTP misalnya tapi RTP itu mau enggak mau pasti akan akan harus dipelajari sih Pada saat kita ngolah paket ee datanya itu harus mau enggak mau RTP tapi habis itu ada banyak Ice Protocol Apakah kita harus pelajari Ice Protocol kayaknya jangan deh tapi mau enggak mau pasti akan akan masuk ke sana tapi kalau kita langsung kalau ketemu ya sudahudah ketemu berar po tertentu Ya udah ketemunya kan Iya betul pada saat dibutuhin aja baru belajar tapi kalau dari awal langsung dari rfc implement sendiri Wah berat kayaknya kayaknya keburu bosan itu bikinnya Kecu orang banget senang banget sama urusan artisi-artisian ini itu kalau biasa kayaknya ya itu ngantuk duluanh iya bosankan i ya ya Nah ee next-nya buat Mas Yohan apaagi nih kan jadi GDI Google developer expert udah eh jadi googler Udah jadi googler Udah Iya apa join Google juga udah Terus sekarang bikin produk udah apa e next-nya mauu ada rencana apa lagi ke depannya belum ini bikin produk Oh belum ya ini belum ya belum ya ini ini lagi gambling ini gambling I iya I I Iya jadi lagi gambling gitu ya ng-develop produk gitu kan yang masih belum take off masih ongoing gitu produk market fitnya Udah dapat belum Eh kita ngerasa produk market fit-nya itu belum jadi eh kita kan masih bingung juga antara Oke kita b2c k atau B2B kayaknya ya udah saat ini kan kita lagi coba fokus B2B tapi kan kita belum tahu juga nih use case yang kita mau fokusin tuh yang mana dulu gitu kan ada banyak kayak contoh Kalau ngelihat case eh sor case web di Indonesia sendiri itu ada eh edutch telemedicine eh customer call call center inpp call center terus monitoring CCTV video dan eh terus kayak gojek kolonal font kita lewat aplikasi itu kan we juga oh pakang kitaak engak ke Iya live streaming so many use case gitu kan Makanya kita belum e tahu nih e mana industri yang kita pengin fokusin Tapi karena kita tuh paling dekatnya dengan teman-teman kayak kalian yaitu yang suka bikin webinar gitu atau suka sharing makanya kita coba fokus di webinar atau edutch dulu saat ini gitu nanti kita lihat demnya Seperti apa ya kita coba explore tuh cas Oke kalau yang mau follow followollow Mas Yohan eh aktifnya di sosial media mana Di kalau ini Twitter kalau kalian pengin nanya-nanya everything web partis karena kalau nanya ke Instagram enggak akan dijawab gitu ya kecuali kalau kalian nanya jalur sepeda atau Oh jadi tiap ak sosm ada temanya ya Ada fokus puj festival Puji festival bisa nanya lewat Instagram hobi-hobi di Instagram gitu Ya Sisanya itu di Twitter I semuanya itu di Twitter hobi di Instagram ya semuanya Tapi di Twitter semuanya di Twitter Oh di Twitter hobi juga ada ya ngomongin hobi hobi juga ada ya lah tim in sekarang berapa orang develop development tenya ada EMP orang sat eh desainer du Engineer tiga engineer termasuk saya jadi total berempat Wah mantap mantap oke kalau gitu semua ya serus oh nging semua ya masan juga masih nging ya Luar biasa ya itu kan kalau apa backendnya kan Hampir saya semua sebenarnya ngerjain Oke I karena yang engineer kita full stack sama front end sebenarnya Oh oke oke oke mantap mantap mantap bisa kelihatan kok dionya i ya ya ya oke ee kalau gitu terima kasih banyak Mas Yohan untuk waktunya malam hari ini Terima kasih terima kasih terima kasih n b ilmu mudahudan e Iya luar biasa ya wis Kok enggak bisa B belum mudah-mudahan Nanti ada ada apa kesempatan untuk kita ngobrol-ngobrol lagi Eh tentang banyak hal ini ada Ada komunitasnya enggak sih wtisc apa komunitas web biasa aja ya pada umumnya ya Eh saat ini itu komunitasnya belum ada belum ada ya tapi kalau kalian e yang pakai golang itu ya mungkin Saran saya coba cari channelnya ini e pion di goper jadi kan e Iya golang itu kan punya channel Nah cari aja di dalam channelnya itu ada channelnyaion di situ kalian kalau pengin belajar itu kata saya sih diu gu Tapi ke depannya ee saya ada wacana juga bakal bikin webinar rutin sekalian doc fooding in live room sendiri jadi e live mungkin belajar ya ngdevelop wetc app lewat webinar nah ini menarik nih jadi pantengin aja ya twitter-nya Mas Yohan ya @ Yohan ya info-infonya lengkap di sana Yohan ya Te Yohan Oke kalau gitu terima kasih banyak buat teman-teman semua Terima kasih byak asih yang sudah nonton thank kita ketemu lagi ee minggu depan minggu depan minggu depan di waktu dan jam yang sama di waktu dan jam yang sama Thank you sampai jumpa lagi bye bye"
+}
