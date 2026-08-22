@@ -176,23 +176,27 @@ function cleanup(videoId: string, lang: string): void {
 }
 
 async function transcribe(videoId: string, lang: string): Promise<void> {
-  const vtt = await downloadSubtitles(videoId, lang);
+  try {
+    const vtt = await downloadSubtitles(videoId, lang);
 
-  if (vtt === null) {
-    throw new Error(
-      `No "${lang}" auto-captions available on YouTube for this video`
+    if (vtt === null) {
+      throw new Error(
+        `No "${lang}" auto-captions available on YouTube for this video`
+      );
+    }
+
+    const transcript = vttToTranscript(vtt, { videoId, language: lang });
+
+    const outputPath = join(TRANSCRIPTS_DIR, `${videoId}.json`);
+    writeFileSync(outputPath, JSON.stringify(transcript, null, 2));
+
+    const words = transcript.fullText.split(/\s+/).length;
+    console.log(
+      `  Saved transcript: ${outputPath} (${transcript.segments.length} segments, ${words} words)`
     );
+  } finally {
+    cleanup(videoId, lang);
   }
-
-  const transcript = vttToTranscript(vtt, { videoId, language: lang });
-
-  const outputPath = join(TRANSCRIPTS_DIR, `${videoId}.json`);
-  writeFileSync(outputPath, JSON.stringify(transcript, null, 2));
-
-  const words = transcript.fullText.split(/\s+/).length;
-  console.log(
-    `  Saved transcript: ${outputPath} (${transcript.segments.length} segments, ${words} words)`
-  );
 }
 
 function parseValueFlag(args: string[], flag: string): string | null {
@@ -300,7 +304,6 @@ async function main(): Promise<void> {
 
     try {
       await transcribe(videoId, lang);
-      cleanup(videoId, lang);
       console.log(`  ✓ Done!`);
     } catch (error) {
       failed++;
