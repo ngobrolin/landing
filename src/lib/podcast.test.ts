@@ -166,6 +166,22 @@ describe("audio data integrity (regression: episodes silently missing from feed)
     ).toEqual([]);
   });
 
+  it("has audio for every episode except the knowingly-exempt ones", () => {
+    // The podcast feed silently omits any episode lacking audio, which is how
+    // 10 episodes went missing for three months. Pin the gap explicitly so a
+    // future episode losing audio fails here instead of vanishing quietly.
+    //
+    // qei6_h3wwPY ("Model Context Protocol", published 2026-08-19) arrived via
+    // the playlist sync without audio. Backfilling it is deliberately tracked
+    // separately; it is knowingly absent from the podcast feed, not forgotten.
+    const KNOWN_WITHOUT_AUDIO = ["qei6_h3wwPY"];
+
+    const withoutAudio = rawEpisodes.filter((ep) => !ep.audioUrl).map((ep) => ep.videoId);
+
+    expect(withoutAudio.sort()).toEqual([...KNOWN_WITHOUT_AUDIO].sort());
+    expect(withAudioUrl).toHaveLength(rawEpisodes.length - KNOWN_WITHOUT_AUDIO.length);
+  });
+
   it("exposes every episode with an audioUrl in the podcast feed", () => {
     const feedVideoIds = new Set(getPodcastEpisodes().map((ep) => ep.videoId));
     const dropped = withAudioUrl
