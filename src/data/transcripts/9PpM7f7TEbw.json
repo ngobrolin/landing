@@ -1,0 +1,2899 @@
+{
+  "videoId": "9PpM7f7TEbw",
+  "language": "id",
+  "generatedAt": "2026-08-22T02:14:05.568Z",
+  "source": "youtube-auto",
+  "segments": [
+    {
+      "start": 15.08,
+      "end": 28.509,
+      "text": "Hai selamat malam selamat malam Gimana kabarnya semua semoga sehat-sehat Ya baikbaik semua he Ya seperti biasa ya"
+    },
+    {
+      "start": 28.519,
+      "end": 38.91,
+      "text": "Ee malam ini adalah ee waktu yang tepat buat kita untuk menguji kekompakan kita sebagai panelis karena malam ini adalah selasa"
+    },
+    {
+      "start": 38.92,
+      "end": 55.069,
+      "text": "malam biasanya selasa malam itu waktunya ngapain ya waktunya waktunya ngobrol oke ya Maaf telat cari pencetnya dulu"
+    },
+    {
+      "start": 55.079,
+      "end": 67.87,
+      "text": "tadi bentuknya kayak gimana sih Soundboard kayak kotak Soundboard hah gak pernah gu kayak drumad enggak iniak ini software software"
+    },
+    {
+      "start": 67.88,
+      "end": 83.77,
+      "text": "Oh iya selama ini bayanginnya kayak Berarti Pak iniong Tuh softwnya jadi mau eror mau apa"
+    },
+    {
+      "start": 83.78,
+      "end": 99.87,
+      "text": "[Tertawa] itu Oke cukup cukup ya behind the sc-nya ya ya Jadi ketemu lagi kita masih bareng eh"
+    },
+    {
+      "start": 99.88,
+      "end": 110.10900000000001,
+      "text": "Eka Ivan dan Heeh kita bertiga masih Trio webweb ya Dan mungkin buat refreshing buat teman-teman yang mungkin"
+    },
+    {
+      "start": 110.119,
+      "end": 117.99000000000001,
+      "text": "baru baru join gitu ya mungkin kita bisa Refresh dulu ini acaranya tentang apa sih ngobrolin web ini tentang apa kalau"
+    },
+    {
+      "start": 118,
+      "end": 130.19,
+      "text": "judulnya ngobrolin web iya iya biasa Biasanya kita teknologi kongkkongk Heeh teknologi web kan itu ee cakupannya luas"
+    },
+    {
+      "start": 130.2,
+      "end": 137.67000000000002,
+      "text": "sekali ya kalau kita belajar semuanya sendiri kayaknya enggak bakal enggak bakal 0an sampai yang paling baru enggak"
+    },
+    {
+      "start": 137.68,
+      "end": 147.71,
+      "text": "habis-habis Kalau dipelajarin iya mungkin makanya ada acara mingguan ini biar kita juga update ya kadang teman-teman di chat lebih"
+    },
+    {
+      "start": 147.72,
+      "end": 156.309,
+      "text": "update dari kita betul betul Iya e dan tujuannya adalah supaya kita enggak kehabisan ide kalau disuruh ee mengisi"
+    },
+    {
+      "start": 156.31900000000002,
+      "end": 164.149,
+      "text": "acara di baik deves Google iu ataupun meap-mitap di sekitar ya karena kita sudah mulai kehabisan materi jadi kita"
+    },
+    {
+      "start": 164.159,
+      "end": 173.79,
+      "text": "mau menggali ee apa teknologi-teknologi baru atau teknologi lama ya yang mungkin belum pernah atau jarang di cover jarang"
+    },
+    {
+      "start": 173.8,
+      "end": 183.35,
+      "text": "di ee bicarakan ya kita bisa bicarakan di sini oke ada jadi pilihannya ant kehabisan topik atau kebanyakan topik giliran betul"
+    },
+    {
+      "start": 183.36,
+      "end": 188.789,
+      "text": "betul betul betul kebanyakan topik ya giliran ada yang seru banyak banget bingung milihnya giliran gada ide pusing"
+    },
+    {
+      "start": 188.799,
+      "end": 199.47,
+      "text": "juga ya susah jadi manusia enakan jadi sendal hari ini hari ini eh dia itu ya udah tahu konsep promis ya jadi eh"
+    },
+    {
+      "start": 199.48,
+      "end": 211.429,
+      "text": "langsung Apa ya Eh ini Ya Jalanin duluend jalanin dulu n hasilnya callback Ya kalau event base sendalnya lempar"
+    },
+    {
+      "start": 211.439,
+      "end": 222.03,
+      "text": "balik iya iya iya i Oke siap nah Malam ini kita mau bahas ee mungkin topik yang cukup fundamental"
+    },
+    {
+      "start": 222.04,
+      "end": 234.149,
+      "text": "ya tentang konsep Iya konsep pemograman funional di javascript karena kan mungkin ee sebagian dari kita tahu bahwa eh"
+    },
+    {
+      "start": 234.159,
+      "end": 242.11,
+      "text": "javascript itu op loh iya ada benarnya E tapi javascript juga kayaknya nya funsional loh konsep funionalnya banyak"
+    },
+    {
+      "start": 242.12,
+      "end": 252.27,
+      "text": "loh yang diterapkan apalagi kalau ah main-main react ya Eh konsep komponen pure function apalagi tuh immutability kalau pakai redux kan harus eh immutable"
+    },
+    {
+      "start": 252.28,
+      "end": 261.189,
+      "text": "kan e tipe datanya dan lain-lain loh ini functional semua gitu kan Tapi ada kelasnya juga gitu jadi ya memang"
+    },
+    {
+      "start": 261.199,
+      "end": 271.029,
+      "text": "eh apa namanya si javascript ini ya memang dia bisa banyak ee ini ya bunglon ya bisa menyamar sesuai ar sesuai"
+    },
+    {
+      "start": 271.039,
+      "end": 278.83,
+      "text": "kebutuhan Nah mungkin kita akan mulai dari ee sedikit sejarahnya dulu sejarah si javascripnya Kenapa si javascript ini"
+    },
+    {
+      "start": 278.84000000000003,
+      "end": 286.629,
+      "text": "bisa bunglon ya Ada tuh jadi beberapa minggu yang lalu saya ketemu sebuah paper judulnya javascript The First 20"
+    },
+    {
+      "start": 286.639,
+      "end": 297.189,
+      "text": "years ini yang bikin yang nulis adalah yang bikin javascript juga Pak Brendan Iya bikinnya 7 hari doang"
+    },
+    {
+      "start": 297.199,
+      "end": 306.35,
+      "text": "Ya bikin papernya mungkin lebih lama daripada bikin javascriptnya ya Oh iya bikin javascriptnya 7 hari bikin javascript-nya Kejar Tayang bikin"
+    },
+    {
+      "start": 306.36,
+      "end": 314.23,
+      "text": "papernya lama ini mungkin banyak biasanya gitu ya i i ya E ini saya share juga apa namanya kalau teman-teman mau"
+    },
+    {
+      "start": 314.24,
+      "end": 323.79,
+      "text": "baca kita enggak bakal baca sampai habis ya Kita cuman menunjukkan beberapa bagian-bagian penting yang berhubungan dengan e obrolan kita malam hari ini"
+    },
+    {
+      "start": 323.8,
+      "end": 332.83,
+      "text": "jadi teman-teman bisa download di sini acm.org nah ini kita scollr aja saya sudah Tandain ini adalah tentang cerita"
+    },
+    {
+      "start": 332.84000000000003,
+      "end": 345.35,
+      "text": "pembuatan desain dan evolusi javascript dari 99 95 sampai 2015 terus seperti yang kita tahu Eh javascript itu dimulai dari apa ini"
+    },
+    {
+      "start": 345.36,
+      "end": 357.39,
+      "text": "ya enggak ada ya oh bukan yang ini ini ee kok mana ya Kok kehilang saya kehilangan highlight ya Nah ini aja nih"
+    },
+    {
+      "start": 357.4,
+      "end": 372.23,
+      "text": "is1 Itu di 97 is298 is399 habis itu mulai ee Kehilangan Arah sampai is lima baru mulai drama Iya 10 tahunan"
+    },
+    {
+      "start": 372.24,
+      "end": 384.309,
+      "text": "itu kayak ee terombang Ambing ya sengketa sampai akhirnya ee kemb Ini zamannya zaman kelamnya javascript kan ya sampai sempat ada yang namanya yang"
+    },
+    {
+      "start": 384.319,
+      "end": 394.35,
+      "text": "ada bikin tandingan Apa itu uplet silverl iya Iya flash flash flash action script Nah itu juga jawript kan"
+    },
+    {
+      "start": 394.36,
+      "end": 405.749,
+      "text": "sebenarnya kan turunannyaya Iya dan Ya banyaklah dramanya banyak ya Nah seperti yang kita tahu ya di tahun 89 sampai 91"
+    },
+    {
+      "start": 405.759,
+      "end": 419.749,
+      "text": "eh www world web itu muncul diperkasai oleh tim bernerser lalu kemudian nah ini menariknya di 95 si Pak Brandon ini"
+    },
+    {
+      "start": 419.759,
+      "end": 429.35,
+      "text": "direkrut oleh netscape dengan iming-iming Ayo join ke netscape bisa bikin E skim di browser skim itu adalah"
+    },
+    {
+      "start": 429.36,
+      "end": 443.55,
+      "text": "bahasa pemograman funal eh yang satu satu family satu keluarga dengan lispi yang banyak kurung itu ya jadi e"
+    },
+    {
+      "start": 443.56,
+      "end": 452.589,
+      "text": "dia diiming-imingi suruh bikin bahasa pemrograman mirip skim untuk browser Join lah dia Wah dia tertarik sekali karena memang dia mungkin ngefans"
+    },
+    {
+      "start": 452.599,
+      "end": 460.67,
+      "text": "ya sama skim ini atau berarti dari awal dia emang mindsetnya funional ya funional betul kandidat untuk bahasanya"
+    },
+    {
+      "start": 460.68,
+      "end": 469.469,
+      "text": "ada banyak waktu itu ada pe ada Python ada TCL ada e Visual Basic juga karena si netscape juga ada Ada apa ya menjalin"
+    },
+    {
+      "start": 469.479,
+      "end": 479.99,
+      "text": "kerja sama dengan Microsoft juga pada saat itu ya Tapi semua berubah ketika 95 Sun microsstem bikin E kampanye gila"
+    },
+    {
+      "start": 480,
+      "end": 495.99,
+      "text": "Gaan yang mau ngpublish atau e merilis Java walaupun belum dirilis ya baru apa ya baru teaser gitu sampai akhirnya e beberapa orang di"
+    },
+    {
+      "start": 496,
+      "end": 509.27,
+      "text": "netcap memutuskan untuk Yuk kita ikutin Java aja supaya kita bisa ikut hyp gitu karena lagi nget Iya jadi e apa"
+    },
+    {
+      "start": 509.28,
+      "end": 515.949,
+      "text": "namanya eh diharapkan si javascript ini yang namanya belum javascript ya E namanya masih yang lain ya Moka pada"
+    },
+    {
+      "start": 515.9590000000001,
+      "end": 530.269,
+      "text": "saat itu eh pokoknya bahasanya mirip Java seperti Java tapi object base bukan class base ya ini beda ya object base itu ya"
+    },
+    {
+      "start": 530.279,
+      "end": 539.15,
+      "text": "kayak javascript dulu ya pakai Prototype itu kan objek ya E lua juga sama itu op tapi dia object base gak ada kelas"
+    },
+    {
+      "start": 539.16,
+      "end": 545.43,
+      "text": "javascript ada kelas itu juga synaktic sugar kan sebenarnya kan ya sekarang ya di baliknya itu di belakangnya"
+    },
+    {
+      "start": 545.44,
+      "end": 553.99,
+      "text": "sebenarnya di dalamnya function juga object dan function ya Iya object dan function Nah akhirnya eh dia Bikinlah"
+    },
+    {
+      "start": 554,
+      "end": 563.87,
+      "text": "Prototype eh Moka itu yang 7 hari itu ya demonya lumayan eh berhasil dan membuat Apa teman-teman di netscape itu sangat"
+    },
+    {
+      "start": 563.88,
+      "end": 577.31,
+      "text": "apa ya bergairah gitu semangat gitu ya dan EE akhirnya Walaupun dia tidak berhasil apa E mewujudkan impiannya tapi dia cuma"
+    },
+    {
+      "start": 577.32,
+      "end": 588.19,
+      "text": "dikasih waktu bikin bite code di compiler in his 10 days sprint kita bisa bikin apa ya 10 hari ya"
+    },
+    {
+      "start": 588.2,
+      "end": 604.949,
+      "text": "dia bisa bikin bahasa ya lah ment di i jadi bisa inilah buat start create re app terus kemudian bisa"
+    },
+    {
+      "start": 604.959,
+      "end": 618.67,
+      "text": "jadi Hello itu bisa Oh I 10 hari oke nah Jadi intinya sebenarnya yang mau digaris bawahi dengan apa dari sejarah"
+    },
+    {
+      "start": 618.68,
+      "end": 633.31,
+      "text": "yang singkat ini adalah javascript itu sebenarnya awalnya ditujukan untuk e untuk dibuat untuk eh funsional dan Berhubung ada apa ya E pertemuan antara"
+    },
+    {
+      "start": 633.32,
+      "end": 643.71,
+      "text": "pragmatisme dan idealisme di tengah-tengahnya jadi duadanya malah ya jadinya sekarang ya ya sekaligus buat itu mengambil hati"
+    },
+    {
+      "start": 643.72,
+      "end": 653.99,
+      "text": "developer yang ada developer yang suka oh karena mungkin awalnya belajar dari apalah bahasa yang ada yang Emang I dari awal"
+    },
+    {
+      "start": 654,
+      "end": 662.509,
+      "text": "fun udah senang udah puas Ada yang min min objek pengin objek oriented nah kayaknya berusaha memuaskan semua orang"
+    },
+    {
+      "start": 662.519,
+      "end": 674.19,
+      "text": "itu semua pihak gitu ya he gampang-gampang susah ya Iya susah-susah gampang susah-susah lebih banyak susahnya jadi ketika ee mungkin ya Tim"
+    },
+    {
+      "start": 674.2,
+      "end": 682.389,
+      "text": "apa orang yang pertama kali men-ghire si pak branden ini bilang Oh I Yuk kita idealisme mewujudkan eh lispy style"
+    },
+    {
+      "start": 682.399,
+      "end": 691.71,
+      "text": "programming untuk scripting di browser terus begitu apa begitu ketemu sama iya yang di industri kebetulan yang lagi"
+    },
+    {
+      "start": 691.72,
+      "end": 704.15,
+      "text": "naik down yang mulai naik down itu Java akhirnya Ya ada apa namanya eh ya ber inilah ya eh apa eh berkompromiah supaya"
+    },
+    {
+      "start": 704.16,
+      "end": 711.91,
+      "text": "adaptasi kompromi Iya beradaptasi kompromi supaya ya bahasanya bisa dipakai daripada dia bikin dia mewujudkan idealisme terus enggak"
+    },
+    {
+      "start": 711.92,
+      "end": 720.87,
+      "text": "dipakai kan akhirnya jadi mati juga kan itu jadinya karya seni bukan bukan produk bikin buat ekspresi diri"
+    },
+    {
+      "start": 720.88,
+      "end": 729.19,
+      "text": "aja makanya javascript dibilang functional Iya object oriented juga iya gitu kan eh semua bisa masuk sem mau ke"
+    },
+    {
+      "start": 729.2,
+      "end": 736.47,
+      "text": "mana Iya begitu juga dengan react Kalau enggak salah dulu sempat ada Saya dengar di salah satu podcast gitu ya react dulu"
+    },
+    {
+      "start": 736.48,
+      "end": 744.03,
+      "text": "awal-awal kan ada class base ya jadi bikin komponen pakai kasu pertama banget belajar react tuh kayak gitu pas masih"
+    },
+    {
+      "start": 744.04,
+      "end": 757.75,
+      "text": "class base terus semua pakai Dis itu apa komponen moun komponen berubah berah jadi terus karena maksudnya belajarnya"
+    },
+    {
+      "start": 757.76,
+      "end": 768.43,
+      "text": "dadakan engak apa belum mempelajarin fundamental asli bingung tiba-tiba kopas-kopas kode cuma mindahin dari satu tempat ke tempat lain ya jelas kalau"
+    },
+    {
+      "start": 768.44,
+      "end": 781.829,
+      "text": "pakai Dis ya ggak l gak jalan fun pernah pernah bikin Dis sama dengan De gak sih samaama dipindahin ke variabel"
+    },
+    {
+      "start": 781.839,
+      "end": 791.47,
+      "text": "lain itu gaya-gaya jaquery sekali ya nah eh iya itu kelebihannya javascript dan juga sekaligus kekurangannya orang jadi"
+    },
+    {
+      "start": 791.48,
+      "end": 799.35,
+      "text": "bingung kan e jadi ada plus minusnya Scope hoisting kan itu ya masalahnya iya iya Scope hoisting pernah kita bahas"
+    },
+    {
+      "start": 799.36,
+      "end": 815.189,
+      "text": "pernah kita bahas dulu kita pernah kita belum pernah bahas Pernah Pernah pernahamental Ya di beberapa yang dulu iya Padahal di apa ada kayaknya ada"
+    },
+    {
+      "start": 815.199,
+      "end": 822.43,
+      "text": "beberapa yang kontribusi ke react itu sempat bilang saya pernah dengar di satu podcast katanya Salah satu tujuan kita"
+    },
+    {
+      "start": 822.44,
+      "end": 832.99,
+      "text": "membuat CL base seperti itu adalah untuk eh menjebak orang-orang Java yang tadinya codingnya Java Oop supaya mau"
+    },
+    {
+      "start": 833,
+      "end": 841.15,
+      "text": "icip-icip R Habis itu habis itu terjebak dia Oh harus ikutin funional nih harus pakai redux terus konsep funsional"
+    },
+    {
+      "start": 841.16,
+      "end": 856.749,
+      "text": "dikenalin sedikit-sedikit lama-lama yang kelasnya hilang ya terus mereka pindah terus mereka pindah ke angular Oh enggak ya Iya jadi ya salah satu mungkin salah"
+    },
+    {
+      "start": 856.759,
+      "end": 865.43,
+      "text": "satu visi misinya re juga untuk itu ya untuk apa mengembangkan funal e di sisi javascrip begitulah seperti Damar yang"
+    },
+    {
+      "start": 865.44,
+      "end": 877.23,
+      "text": "gak suka sempat sebut nyebut kata jaquery jaquery baru rilis loh bulan ini jaquer empya jaquer 4 dan backbon juga rilis"
+    },
+    {
+      "start": 877.24,
+      "end": 886.59,
+      "text": "Ada angin apa ini Iya ada angin ada angin angin kedua masa lalu bertiup bertiup kembali I tren itu kan muter kan"
+    },
+    {
+      "start": 886.6,
+      "end": 893.79,
+      "text": "tahu kan kayak fashion tiba-tiba fashion 90-an ngetren lagi Tapi enggak juga sih ya kalau saya lihat ya 30 tahun sekali"
+    },
+    {
+      "start": 893.8,
+      "end": 904.069,
+      "text": "Mungkin mereka baca Almanak kali ya mereka baca web Almanak mulai dari masih Domin 2021 2022 2023 Terus mungkin sudah"
+    },
+    {
+      "start": 904.079,
+      "end": 914.87,
+      "text": "dapat bocoran 2024 kayak gimana kayaknya trend jqu enggak turun-turun ya udah rilis aja sesuatu yang baru memodernisasi karena masih banyak banget"
+    },
+    {
+      "start": 914.88,
+      "end": 925.31,
+      "text": "yang pakai it makes sense kalau dirilis yang baru betul apalagi sekarang kan ada apa Ya mulai ada pergerakan Mungkin beberapa"
+    },
+    {
+      "start": 925.32,
+      "end": 934.03,
+      "text": "untuk beberapa kalangan udah kayak apa ya Framework fatigu ya Istilahnya ya lelah ya mengikuti Framework akhirnya banyak yang lari ke vanila kan lebih"
+    },
+    {
+      "start": 934.04,
+      "end": 949.509,
+      "text": "tepatnya semua Framework sudah semua Framework yang Major ya H baik itu reax Fa view apalagi angular angular segala macam ujung-ujungnya"
+    },
+    {
+      "start": 949.519,
+      "end": 962.749,
+      "text": "sudah k memiliki fitur yang mirip-mirip oh I benar sudah ada sudahak keluar compilernya contohnya sudah mau keluariner yang punya compiler Jadi"
+    },
+    {
+      "start": 962.759,
+      "end": 972.59,
+      "text": "sebenarnya nanti ujung-ujungnya punya punya pakai signyal semuanya pakai signyal gitu ya Iya fitur yang sama semua jadi ya Ah sudahlah jquery gua"
+    },
+    {
+      "start": 972.6,
+      "end": 980.269,
+      "text": "keluarin aja nih drop semua bikin lebih baik bikin performer lebih baik semuanya Win Betul kan ada apa ada ya ada"
+    },
+    {
+      "start": 980.279,
+      "end": 987.829,
+      "text": "beberapa Framework juga atau library yang seperti Alpine htmx yang e butuh apa ya landing page cuman butuh"
+    },
+    {
+      "start": 987.8389999999999,
+      "end": 995.509,
+      "text": "interaksinya Enggak banyak gitu Ngapain kita introduce satu Framework gitu kan Ya betulah hal-hal seperti jquery dan teman-temannya"
+    },
+    {
+      "start": 995.519,
+      "end": 1009.23,
+      "text": "ya hidupery cquery never [Tertawa] Day Nah jadi sekarang malam ini kita akan coba ee apa ya menggali lebih dalam"
+    },
+    {
+      "start": 1009.24,
+      "end": 1019.99,
+      "text": "ini serbabih fional ya funional ini bisa diterapkan di di ee javascript atau enggak pasti bisa karena sudah banyak yang mengalami juga"
+    },
+    {
+      "start": 1020,
+      "end": 1028.789,
+      "text": "sudah banyak yang menggunakan juga cuman ee Apakah teman-teman tahu semua ee tahu ee apa ya fundamental dari funional itu"
+    },
+    {
+      "start": 1028.799,
+      "end": 1036.429,
+      "text": "apa aja sih gitu nah ini yang akan kita tahu cara kerjanya kitaak istilahnya Iya kita enggak tahu"
+    },
+    {
+      "start": 1036.439,
+      "end": 1044.87,
+      "text": "istilahnya Jadi pas lihat Oh maksudnya itu bilang biasanya gitu kan yang setara dengan kalau misalnya kayak kalau kita"
+    },
+    {
+      "start": 1044.88,
+      "end": 1052.59,
+      "text": "bandingin sama PHP sebenarnya PHP bisa fsional juga juga kan bisa funsional bisa Oop juga ba semua kayaknya hampir"
+    },
+    {
+      "start": 1052.6,
+      "end": 1061.27,
+      "text": "semua bahasa bisa ruby juga Walaupun dia Oop tapi bisa funsional e Python juga bisa Java B c++ juga bisa c+ asal bisa"
+    },
+    {
+      "start": 1061.28,
+      "end": 1076.31,
+      "text": "nyimpan function di variabel technically bisa function kan tapi tapi kan ada apa ya Ada beberapa beberapa ee fitur yang EE kalau fitur"
+    },
+    {
+      "start": 1076.32,
+      "end": 1084.63,
+      "text": "itu pun ee dipunyai oleh B sebuah bahasa baru bisa disebut sebagai bahasa funional mungkin ee apa ya kayak apa ya"
+    },
+    {
+      "start": 1084.64,
+      "end": 1094.99,
+      "text": "functional flavor kayak jenis musik lah ya kayak musik gitu ini jazzy tapi bukan Jazz kan Cum bernuansa Jaz ada bernuansa jazz"
+    },
+    {
+      "start": 1095,
+      "end": 1104.51,
+      "text": "gitu belum tentu dia jazz gitu He musik pop tapi kayak ada apanya yang mirip-mirip e Jaz musik rock dipadukan"
+    },
+    {
+      "start": 1104.52,
+      "end": 1110.19,
+      "text": "dengan dangdut jadi Rock Dut gitu kan Oh udah beda lagi nih berarti bisa kita bahas nanti next selainja vask apalagi"
+    },
+    {
+      "start": 1110.2,
+      "end": 1120.789,
+      "text": "bahasa-bahasa yang fungsional bisa fungsional Oke berarti kita harus tahu dulu apa itu functional Iya fun Emang kita kita bisa ada yang bisa bahasa lain"
+    },
+    {
+      "start": 1120.799,
+      "end": 1128.51,
+      "text": "enggak kok enggak bisa masalahnya ada saya bisa bahasa b HP Oh bahasa Indonesia bahasa Indonesia bisa bahasa"
+    },
+    {
+      "start": 1128.52,
+      "end": 1136.71,
+      "text": "Batak bisa Jawa Bahasa Jawa bukan ja dulu kan ada ya bahasa pemrograman namanya Batak Oh gak tahu masa sih oh"
+    },
+    {
+      "start": 1136.72,
+      "end": 1145.75,
+      "text": "coba cari Ada iya gimana sih itu Inside J orang Indonesia ya kayaknya kalau orang orang luar Indonesia bingung I"
+    },
+    {
+      "start": 1145.76,
+      "end": 1158.71,
+      "text": "jangan bilang cuma bisa jalan di blangkon loh ini jadi cross ini ya ulos os-nya namanya ulos ulos"
+    },
+    {
+      "start": 1158.72,
+      "end": 1172.87,
+      "text": "ulos ya Oh iya benar jugaya keren tuh ulos ya Ul ulos menarik menarik menarik ya Nah functional programming adalah paradigma"
+    },
+    {
+      "start": 1172.88,
+      "end": 1181.31,
+      "text": "ya paradigma eh Oop paradigma apalagi paradigma pemrograman itu apa apa aja ya op functional event driven masuk engak"
+    },
+    {
+      "start": 1181.32,
+      "end": 1192.75,
+      "text": "ya Eh prosedural proseduralosedal prosedural yang mungkin teman-teman e yang pertama ngalamin yang terutama yang kuliah ya prosedural ya E"
+    },
+    {
+      "start": 1192.76,
+      "end": 1204.63,
+      "text": "Pascal C ya Eh vibi itu kayak imperatif atau apa sih imperaera hanya fungsi-fungsi aja walaupun dia bisa berjalan di fungsi"
+    },
+    {
+      "start": 1204.64,
+      "end": 1213.669,
+      "text": "tapi ya belum bisa disebut funsional Kenapa karena ada beberapa hal yang e enggak disupport gu ya Eh yang pertama"
+    },
+    {
+      "start": 1213.679,
+      "end": 1226.149,
+      "text": "adalah Eh ini pure function I pure pure function pure function itu artinya Apa artinya adalah eh mana dia Kok gak ada tulisannya nah"
+    },
+    {
+      "start": 1226.159,
+      "end": 1234.669,
+      "text": "ini akan selalu mengembalikan nilai yang sama kalau argumen sama kalau inputnya sama jadi inputnya selalu itu outputnya"
+    },
+    {
+      "start": 1234.679,
+      "end": 1245.51,
+      "text": "selalu pasti sama enggak pernah berubah hmm ini F kalau misal tahu rumus matematika fx = x +"
+    },
+    {
+      "start": 1245.52,
+      "end": 1256.07,
+      "text": "1 Jadi kalau x-nya 1 sudah pasti hasilnya harus dua harus pasti dua dan enggak mempengaruhi hal lain di luar itu"
+    },
+    {
+      "start": 1256.08,
+      "end": 1269.39,
+      "text": "Side Effect itu kedua apa ini enggak terpengaruh oleh apapun dari luar dan ee enggak mempengaruhi apapun keluar tchat banyak bahasa baru Yai lagi"
+    },
+    {
+      "start": 1269.4,
+      "end": 1285.83,
+      "text": "banyak bahasa baru ya ide-idenya menarik ya Magelang Eh ada Beneran itu katanya belalang kut hilang hilang hilanguh luar"
+    },
+    {
+      "start": 1285.84,
+      "end": 1297.87,
+      "text": "biasa hebat-hebat emang dan ya satu itu ya Ee ketika kita masukkan parameter atau argumennya dengan nilai yang sama dia akan secara"
+    },
+    {
+      "start": 1297.88,
+      "end": 1307.39,
+      "text": "konsisten menghasilkan nilai ee keluaran yang sama juga 1 + 1 harus selalu dua gitu ya terlihat terlalu simpel ya tapi"
+    },
+    {
+      "start": 1307.4,
+      "end": 1319.39,
+      "text": "kadang-kadang ada ee satu fungsi yang parameternya dua tapi ternyata di dalamnya dia menggunakan Global variabel yang menyebabkan atau variabel dari apa scop"
+    },
+    {
+      "start": 1319.4,
+      "end": 1327.23,
+      "text": "di atasnya atau Apun yang menyebabkan sat+ah satu tidak lagi menjadi dua itu sudah tidak pure lagi bukan enggak boleh"
+    },
+    {
+      "start": 1327.24,
+      "end": 1335.149,
+      "text": "tapi bukan pure function jadinya atau kalau misalnya konteksnya web nih Eh apa entah fetching data dari luar kita"
+    },
+    {
+      "start": 1335.159,
+      "end": 1342.99,
+      "text": "manggil data dari api itu udah jelas enggak pure karena ya karena kan datanya pasti berubah ee belum tentu servernya"
+    },
+    {
+      "start": 1343,
+      "end": 1351.31,
+      "text": "nyala belum tentu responnya oke terus atau kita berinteraksi sama dom nah nah ee atau sama apapunlah UI yang di layar"
+    },
+    {
+      "start": 1351.32,
+      "end": 1358.19,
+      "text": "atau sama service worker atau web worker atau apapunlah pokoknya itu jelas enggak pure karena pasti kan bisa berubah-ubah"
+    },
+    {
+      "start": 1358.2,
+      "end": 1366.269,
+      "text": "ya Iya nah salah satu kekurangannya javascript kan Scope scoping itu ya Jadi kalau misalnya misalnya variabel itu"
+    },
+    {
+      "start": 1366.279,
+      "end": 1379.75,
+      "text": "didefinisikan sebelum function itu secara variabel bisa diakses dari dalam function tanpa perlu menjadi parameter He nah itu Iya itu bahaya ya yang"
+    },
+    {
+      "start": 1379.76,
+      "end": 1389.269,
+      "text": "menyebabkan lag saya enggak tahu itu kelebihan apa kekurangan saya enggak tahu kelebihan dan kekurangan itu karakter gimana kita"
+    },
+    {
+      "start": 1389.279,
+      "end": 1401.51,
+      "text": "menafsirkannya apa sih bagaimana kita memanfaatkan kekurangan itu menjadi kelebihan asik enggak itu ngebantu itu ngebantu praktikal jadi bijak ya karena"
+    },
+    {
+      "start": 1401.52,
+      "end": 1411.43,
+      "text": "S minum teh ini minum teh tuh jadi dewasa Nah apa tadi itu ya kan kita perlu nih kita perlu eh apa manipulasi"
+    },
+    {
+      "start": 1411.44,
+      "end": 1419.75,
+      "text": "atau pakai atau bikin kalkulasi pakai variabel dari scop e atasnya luarnya entah itu Global atau apa kan terbantu"
+    },
+    {
+      "start": 1419.76,
+      "end": 1429.43,
+      "text": "banget nah sekalinya itu funnya itu dipindahin digeser naik ke atas ke bawah keluar ke dalam Ya udah bubar semua jadi"
+    },
+    {
+      "start": 1429.44,
+      "end": 1438.75,
+      "text": "ada Rikonya tapi gara-gara javap si PHP jadi ikut-ikutan l untuk yang global variabel Ini masa iya jadi si PHP itu"
+    },
+    {
+      "start": 1438.76,
+      "end": 1447.19,
+      "text": "kan kita bisa pakai variabel dari luar Scope si function dengan pakai keyword use jadi function a b c d terus ada"
+    },
+    {
+      "start": 1447.2,
+      "end": 1457.029,
+      "text": "parameter terus use variabel dari luar Nanti variabel yang di dalam use itu keyword use itu bisa ngakses dari luar"
+    },
+    {
+      "start": 1457.039,
+      "end": 1469.07,
+      "text": "function ka si javascript ini Oke tapi berarti berguna dong Maksudnya kalau sampai Apa maksudnya javascript [Musik] pakai loh I"
+    },
+    {
+      "start": 1469.08,
+      "end": 1479.269,
+      "text": "Eka ng-freeze tuh Iya dia pakai Global variable soalnya untung Iya untung posya lagi bagus ya oke sambil menunggu Eka eh"
+    },
+    {
+      "start": 1479.279,
+      "end": 1486.549,
+      "text": "di sini eh tadi kita sudah meng-highlight same result ya tapi ada satu kata kunci lagi yang Jangan sampai"
+    },
+    {
+      "start": 1486.559,
+      "end": 1495.549,
+      "text": "kita lupakan yaitu adalah return full function itu harus ada return kan Ya enggak bisa void ya enggak bisa void kan"
+    },
+    {
+      "start": 1495.559,
+      "end": 1507.029,
+      "text": "dan enggak bisa javascript secara bahasa Sebenarnya dia e sudah pasti ada return kalau gak percaya coba function"
+    },
+    {
+      "start": 1507.039,
+      "end": 1518.43,
+      "text": "print dalamnya cons pasti dia akan return dua kali kan consnya sendiri ada returnnya return kos Nul atau undefine"
+    },
+    {
+      "start": 1518.44,
+      "end": 1526.75,
+      "text": "atau apa gitu nah jadi kalau teman-teman mau bikin pure function ya function itu biasakanlah ada returnnya kalau mau"
+    },
+    {
+      "start": 1526.76,
+      "end": 1537.269,
+      "text": "ngprint ya di luar function-nya jadi jangan Boleh aja sih kalau buat dibugging sih enggak masalah ya gitu return undefine betul Maulana betul"
+    },
+    {
+      "start": 1537.279,
+      "end": 1545.029,
+      "text": "dia selalu return undefine kalau kita tidak ada return value-nya kita tidak m-deefine return istilahnya apa implicit return ya implicit return ada eksplisit"
+    },
+    {
+      "start": 1545.039,
+      "end": 1554.389,
+      "text": "ada implisit undefine itu tipe datanya apa ya Hah undefine e undefine Iya undefine sama kayak Nul Nul juga tipe"
+    },
+    {
+      "start": 1554.399,
+      "end": 1565.63,
+      "text": "datanya Nul bedanya N0 sama Nan n oh n beda lagi ya not number Iya beda lagi Iya satu tadi harus ada return-nya"
+    },
+    {
+      "start": 1565.64,
+      "end": 1573.029,
+      "text": "kemudian nilainya tetap sama yang kedua adalah eh Side Effect Nah ada bisa menjelaskan Side Effect nah Eka tadi mau"
+    },
+    {
+      "start": 1573.039,
+      "end": 1583.07,
+      "text": "jelasin tentang apa tadi udah kelew PP udah udah Kok PP Oh udah oke Side Effect Side Effect ini apa ya"
+    },
+    {
+      "start": 1583.08,
+      "end": 1591.669,
+      "text": "menjelaskannya gimana ya itu tadi hal hal apapun yang di luar si function itu terjemahan Masud Apun yang di luar"
+    },
+    {
+      "start": 1591.679,
+      "end": 1600.75,
+      "text": "function itu sendiri Iya Iya Kayak misalnya kalau contoh eh konteks di web nih apa javascript di browser Dom"
+    },
+    {
+      "start": 1600.76,
+      "end": 1611.31,
+      "text": "manipulation Heeh kita memanipulasi domome atau misalnya ee mengubah apa ya I ngubah ngubah eint kol save ke"
+    },
+    {
+      "start": 1611.32,
+      "end": 1621.029,
+      "text": "database banyak Iya kita ngirim pesan ke service worker bikin request ya kan itu mempengaruhi hal-hal di luar function"
+    },
+    {
+      "start": 1621.039,
+      "end": 1630.19,
+      "text": "itu sendiri Nah apa makud terus kenapa nah kenapanya jadi misalnya kita bikin kita mengupdate data rownya tadinya t"
+    },
+    {
+      "start": 1630.2,
+      "end": 1637.87,
+      "text": "jumlahnya jadi 4 row kan kalau habis itu kita ngjalanin function yang sama itu lagi hasilnya otomatis beda kan karena"
+    },
+    {
+      "start": 1637.88,
+      "end": 1645.389,
+      "text": "tadi sekarang jadi EMP e Terus kalau dijalan lagi jadi l Nah itu tuh udah masuk Side Effect semua kalau konteksnya"
+    },
+    {
+      "start": 1645.399,
+      "end": 1656.669,
+      "text": "web i tapi kalau kita konteksnya web lagi kalau misalkan kita bikin aplikasi yang e harus e manipulasi Dom atau"
+    },
+    {
+      "start": 1656.679,
+      "end": 1666.909,
+      "text": "Simpan ke database itu udah pasti ada fungsi-fungsi yang ada side effectnya enggak mungkin enggakak salahak salah bukan bukan bukan"
+    },
+    {
+      "start": 1666.919,
+      "end": 1675.23,
+      "text": "dihindarin sama sekali Cuma maksudnya apa kalau kita punya kan kita kadang E mecah-mecah jadi beberapa function nih"
+    },
+    {
+      "start": 1675.24,
+      "end": 1683.83,
+      "text": "Nah terus kalau misalnya itu function semua itu Ya lumayan ribet ya Kenapa karena urutan 1 2 3 kalau ditukar ini"
+    },
+    {
+      "start": 1683.84,
+      "end": 1694.11,
+      "text": "bisa bisa berubah hasilnya kan kalau impure function semua jadi Biasanya sih yang paling luar misalnya impure function tapi kayak helper atau utility"
+    },
+    {
+      "start": 1694.12,
+      "end": 1703.71,
+      "text": "function-nya itu biasanya pure function semua karena itu larinya ke testing juga [Musik] kan betul yang penting kita sadar bahwa"
+    },
+    {
+      "start": 1703.72,
+      "end": 1717.029,
+      "text": "ini pure samaure kayak apav dong MV mvc eh model view controller Iya gimana tuh ya contohnya controller ya yang"
+    },
+    {
+      "start": 1717.039,
+      "end": 1728.029,
+      "text": "memanggil khusus yang untuk model dan view-nya terus modelnya hanya khusus datanya view-nya khusus uinya Heeh maybe kalau mau dibikin pure function"
+    },
+    {
+      "start": 1728.039,
+      "end": 1739.909,
+      "text": "semua eh modelnya yang harus itu kan tetap tetap eh set effect kan Iya sih tetap set effect mungkin yang yang paling make"
+    },
+    {
+      "start": 1739.919,
+      "end": 1754.11,
+      "text": "sense untuk e pure functional adalah view-nya seperti react komponen ada yang ee oh D komponen sama Smart komponen"
+    },
+    {
+      "start": 1754.12,
+      "end": 1764.269,
+      "text": "komponen bego komponen bego komponen pintar masih masih itu enggak sih konsepnya sekarang masih relevan enggak sih masih masih masih Iya karena lebih"
+    },
+    {
+      "start": 1764.279,
+      "end": 1777.59,
+      "text": "enak pakai Dam komponen Jadi benar aja ya Iya sesuai props nah ini beberapa contoh yang tidak pure ya reading fast random number"
+    },
+    {
+      "start": 1777.6,
+      "end": 1789.149,
+      "text": "Generation Enggak mungkin kan kita tes kan random number gimana ngetesnya kan bingung eh terus kalau counter itu Global"
+    },
+    {
+      "start": 1789.159,
+      "end": 1798.71,
+      "text": "variable salah satunya eh dan kita mengubah Global variable ya salah satunya contoh dari juga mempengaruhi hal lain di luar function itu sendiri"
+    },
+    {
+      "start": 1798.72,
+      "end": 1807.87,
+      "text": "Iya benefitnya udah jelas ya Apa kode kita jadi lebih bisa kita prediksi Heeh unit testingnya Ya udah langsung kita"
+    },
+    {
+      "start": 1807.88,
+      "end": 1819.35,
+      "text": "expect expect kita bikin assertion kalau 1 d 1 ya hasilnya harus 2 enggak bisa 3 enggak bisa 0 nah 5 kur 7 hasilnya -2"
+    },
+    {
+      "start": 1819.36,
+      "end": 1827.99,
+      "text": "enggak boleh lainnya tapi kalau misalnya udah implementasi ini penerapan kita ke ATM saldo kita tinggal 10.000 kita tarik"
+    },
+    {
+      "start": 1828,
+      "end": 1836.909,
+      "text": "satuannya r50.000 ya gak bisa kan ggak keluar saldo kita tetap 10.000 i ya gak bisa r.000 kurang r50.000 kan harusnya"
+    },
+    {
+      "start": 1836.919,
+      "end": 1845.23,
+      "text": "Min minus r.000 ya cuma kalau udah e di penerapan ya itu contoh yang impure function kan karena duitnya enggak bisa"
+    },
+    {
+      "start": 1845.24,
+      "end": 1856.35,
+      "text": "keluar ya udah tetap segitu Tapi kalau pure function ya enggak ada itu kalkulasi aja i ya kemudian imutability nah"
+    },
+    {
+      "start": 1856.36,
+      "end": 1871.43,
+      "text": "imutability ini [Musik] juga Apa itu jelasin dulu apa beda imutability dan mutability imutability kalau pakai"
+    },
+    {
+      "start": 1871.44,
+      "end": 1888.75,
+      "text": "sederhananya tidak bisa berubah setelah dibuat imut e kalau imutable itu biasanya dia imut-imut gakakak ya kita sudah asign variabel eh"
+    },
+    {
+      "start": 1888.76,
+      "end": 1900.549,
+      "text": "variabelnya akan tetap seperti itu secara konstan nah gimana ee sebuah bahasa pemrograman funional bisa hidup dengan imutability adalah dengan"
+    },
+    {
+      "start": 1900.559,
+      "end": 1912.269,
+      "text": "memanfaatkan yang tadi Eh return value tadi misalkan kalau kita pakai javascript nih eh apa ya Eh array push 1"
+    },
+    {
+      "start": 1912.279,
+      "end": 1929.31,
+      "text": "3.push 4 itu Dia akan mengubahai awal yang 1 2 3 menjadi 1 3 4 I kan kalau kita pakai aray."
+    },
+    {
+      "start": 1929.32,
+      "end": 1939.11,
+      "text": "conet dia tidak akan mengubah 123nya tapi dia akan melahirkan seb sebuah Aray baru yang 1 3 4 itu"
+    },
+    {
+      "start": 1939.12,
+      "end": 1955.43,
+      "text": "perbedaan antara mable sama untuk struktur data jadi lebih namanya tujuannya supaya variabel itu value dari variabel itu tidak berubah sepanjang eksekusi"
+    },
+    {
+      "start": 1955.44,
+      "end": 1968.269,
+      "text": "jadi lebih terprediksi hasilnya Iya kembali lagi funional itu eh secara visi adalah itu prediksi bisa diprediksi dengan kita asumsi bahwa ini begini ya"
+    },
+    {
+      "start": 1968.279,
+      "end": 1976.99,
+      "text": "udah sampai ke bawah ya begitu gitu Jadi udah bisa lebih kita prediksi secara ininya ya Ee karena"
+    },
+    {
+      "start": 1977,
+      "end": 1987.669,
+      "text": "kembali lagi contohnya contohnya beini eh salah [Musik] satu kembali lagi keuntungan dan kerugian menggunakan javascript contohnya di"
+    },
+    {
+      "start": 1987.679,
+      "end": 2000.59,
+      "text": "Window object kita bisa menaruh variabel di Window object kalau browser ya di browser Windows isinya abcd sama bar Nah iya"
+    },
+    {
+      "start": 2000.6,
+      "end": 2015.669,
+      "text": "sama batus Kita e apa namanya ini nya bar itu contohnya isinya bar tetapi dan kita mengharapkan itu selalu bar namun ada terpy ada"
+    },
+    {
+      "start": 2015.679,
+      "end": 2028.07,
+      "text": "function lain ya Oh I bisa juga lebihah lagi party party itu ternyata menggunakan variab name yang sama di Window object buat urusannya"
+    },
+    {
+      "start": 2028.08,
+      "end": 2038.029,
+      "text": "sendiri untuk urusannya dia terus jadi bug loh kok variabel gua ada yang ngerubah siapa ini mau sampai susah"
+    },
+    {
+      "start": 2038.039,
+      "end": 2048.19,
+      "text": "banget itu Dib Siapa yang ngubah gitu susah banget Susah banget itu mau dicari ke mana karena yang party itu bisa jadi kodenya"
+    },
+    {
+      "start": 2048.2,
+      "end": 2062.389,
+      "text": "di minifight i i tiba-tiba sudah berubah aja Nah makanya butuh namanya imutability itulah pentingnya ya Nah ini ada pertanyaan dari Maulana"
+    },
+    {
+      "start": 2062.399,
+      "end": 2071.869,
+      "text": "ini menarik nih imutability itu ada hubungannya sama by reference gak ref sama pass by value ya ada dua kan"
+    },
+    {
+      "start": 2071.879,
+      "end": 2080.869,
+      "text": "ada dua beda si ya imability artinya variabelnya Gak bisa dirubah jadi konstan kalau di PHP itu namanya konstan"
+    },
+    {
+      "start": 2080.879,
+      "end": 2092.23,
+      "text": "definition Def Jadi kalau sudah kalau di php kan ada define tuh kalau sudah didefine konstannya sampai sepanjang eksekusi"
+    },
+    {
+      "start": 2092.24,
+      "end": 2106.31,
+      "text": "variabel itu gak akan bisa dirubah itu namanya Nah kalau di javascript di functional programming ya menggunakan yang namanya Flor Im"
+    },
+    {
+      "start": 2106.32,
+      "end": 2118.27,
+      "text": "semuanya harus Diak semuanya sih ya tetapi pola pikirnya semuanya IB I ada beberapa kali kejadian yang ini"
+    },
+    {
+      "start": 2118.28,
+      "end": 2128.03,
+      "text": "sih apa namanya E menyebabkan B salah satunya ya misalkan tadi ya saya sebkan ya misalkan kita punya Apa ya Eh array"
+    },
+    {
+      "start": 2128.04,
+      "end": 2143.27,
+      "text": "ya cons Oh cons misalkan arr = 1 2 3 gitu kan Terus tadi Eh array.push at gitu kan empat Nah"
+    },
+    {
+      "start": 2143.28,
+      "end": 2155.19,
+      "text": "ehberapa orang bisa menuliskan seperti ini hasilnya berapa enggak bisa ya karena enggak bisa enggak Nah itu pengamanan kan jadi biar enggak"
+    },
+    {
+      "start": 2155.2,
+      "end": 2169.03,
+      "text": "aneh-aneh gitu Iya salah ya Oh enggak bisa juga harusfresh I let let something else aja LED R2 LED"
+    },
+    {
+      "start": 2169.04,
+      "end": 2187.349,
+      "text": "R2 Ya ampun Ini susahnya funional ya R2 push Oh iya R2 r 2 ini kan ya push 4 hasilnya berapa hasilnya"
+    },
+    {
+      "start": 2187.359,
+      "end": 2202.43,
+      "text": "adalah EMP EMP R2 karena dot push ini bukan merreturn hasilnya tapi mereturn jumlah leng darisung langsung nimpa ya Iya dia Ray"
+    },
+    {
+      "start": 2202.44,
+      "end": 2210.03,
+      "text": "duanya udah 1 2 3 4 i2nya Jadi kalau misalkan kita tambahin lagi pus 5 dia akan jadi Oh enggak bisa"
+    },
+    {
+      "start": 2210.04,
+      "end": 2220.27,
+      "text": "lagi ya Kok enggak bisa karena R2 itu sudah kan udah bukan R jadi intejer Oh iya udah jadi kan enggak strily type ya"
+    },
+    {
+      "start": 2220.28,
+      "end": 2230.829,
+      "text": "javrip ini Ang derita Ti akhir tapi enak dipakainya berarti ini ya tadi ya ini ya R2 terus kita push lagi Ya Nah dia akan"
+    },
+    {
+      "start": 2230.839,
+      "end": 2239.95,
+      "text": "jadi lma atau biar lebih gamblang lagi kita tambahin 15 Oh enggak bisa lagi kita ulang lagi 4 terus kita tambahin 15"
+    },
+    {
+      "start": 2239.96,
+      "end": 2251.71,
+      "text": "dia Isinya l karena length-nya dia menghitung lengthnya jadi push akan mengembalikan jumlah itemnya adalahnya Aray baru bukan Aray"
+    },
+    {
+      "start": 2251.72,
+      "end": 2258.87,
+      "text": "baru dia melakukan dua hal ya sebennya Dia ngerjain dua hal waktu kita jalanin metod Push metod Push itu ngpush"
+    },
+    {
+      "start": 2258.88,
+      "end": 2269.87,
+      "text": "nambahin value itu ke dalam variabel Aray itu tapi yang Dir return adalah length dari array itu nah mampus nah"
+    },
+    {
+      "start": 2269.88,
+      "end": 2279.15,
+      "text": "kalau mau kita seperti ini kita bisa melakukan dengan kket kket itu akan Mer eay yang baru Iya hasil array yang hasil"
+    },
+    {
+      "start": 2279.16,
+      "end": 2287.23,
+      "text": "gabungannya ya value baru Iya 1 2 3 4 15 Aray duanya masih aman tidak terjadi apa-apa kalau kita mau balik itu kayak"
+    },
+    {
+      "start": 2287.24,
+      "end": 2295.95,
+      "text": "occupy itu baru kan kayak nulis di sektor baru kalau gini kan bisa aja kan e jadi array Dunya kita override menjadi"
+    },
+    {
+      "start": 2295.96,
+      "end": 2304.27,
+      "text": "array yang baru I itu boleh kan aman boleh tetapi bikin data baru kalau kalau di immutable itu misalnya ini kan bukan"
+    },
+    {
+      "start": 2304.28,
+      "end": 2313.349,
+      "text": "immutable ini mutable kalau ini gak n coba tadi yang balik lagi ke ko kalau imutable itu kan caranya kan kita harus"
+    },
+    {
+      "start": 2313.359,
+      "end": 2325.43,
+      "text": "ngeclone hilang Iya hilang jadi contohnya cons Heeh pakai cons R1 R aja 1 2 3 ini ya"
+    },
+    {
+      "start": 2325.44,
+      "end": 2339.23,
+      "text": "Iya nah kalau mau apa namanya biasanya k R2 he itu pakai ee kk do concet atau spread operator"
+    },
+    {
+      "start": 2339.24,
+      "end": 2352.39,
+      "text": "Biasanya sih spread operator kalau yang barunya yang kerennya sekarang Iya R koma 15 I Oh kam bisa kan tadi UD Karen sudah"
+    },
+    {
+      "start": 2352.4,
+      "end": 2358.19,
+      "text": "di definis di atas R3 deh R3 R3 R3 Oh tadi error itu juga tetap ini ya padahal"
+    },
+    {
+      "start": 2358.2,
+      "end": 2371.63,
+      "text": "ini sintaks error ya tetap dieksekusi ya Iya itu kan Ben oke jadi eh di ini imutable rtignya selalu"
+    },
+    {
+      "start": 2371.64,
+      "end": 2381.75,
+      "text": "kepikiran di kita melihat kodenya pasti isinya eh tidak ada nyampur-nyampur Jadi kita tetap punya variabel r dan variabel"
+    },
+    {
+      "start": 2381.76,
+      "end": 2393.19,
+      "text": "R du atau ar3 Iya dan bisa diisi di mana aja ya di depan di belakang ya Oh iya benar ya spread operator ya"
+    },
+    {
+      "start": 2393.2,
+      "end": 2403.91,
+      "text": "lupa ya dengan spread operator referensial transparany function S nah ini eh apa namanya prinsip yang kedua yang tadi kan pure"
+    },
+    {
+      "start": 2403.92,
+      "end": 2414.79,
+      "text": "function yang pertama kedua immutability yang ketiga berarti yang ketiga adalah first class entities function eh setara dengan variabel kalau di bahasa"
+    },
+    {
+      "start": 2414.8,
+      "end": 2425.829,
+      "text": "fungsional dan juga javascript jadi setara dengan primitif lainnya apa setaran nilai primitif atau objek atau apalah Jadi kalau misalnya string bisa"
+    },
+    {
+      "start": 2425.839,
+      "end": 2434.87,
+      "text": "di ke variabel cons R sama Heeh cons R sama cons name ama Eka cons R sama tadi"
+    },
+    {
+      "start": 2434.88,
+      "end": 2444.51,
+      "text": "apa 1 2 3 eh cons my function sama dengan nah isinya function bisa diassign ke variabel bisa dimasukkan ke dalam"
+    },
+    {
+      "start": 2444.52,
+      "end": 2454.51,
+      "text": "function lain sebagai argumen bisa apa ya Ya semua bisal bisa Di bisa sebagai return value jadi bisa dimasukin ke"
+    },
+    {
+      "start": 2454.52,
+      "end": 2462.75,
+      "text": "function lain bisa dikeluarin Dar dari bisa dirreturn oleh fungsi lain B sebut makanya sebutannya higher order function"
+    },
+    {
+      "start": 2462.76,
+      "end": 2472.91,
+      "text": "iya ini ini istilah kerennya ya higher order function jadi e fungsi itu bisa jadi kayak fungsi anonimus yang kita"
+    },
+    {
+      "start": 2472.92,
+      "end": 2482.109,
+      "text": "assign ke value eh sor ke variabel kemudian bisa jadi parameter atau argumen di satu fungsi dan bisa ee dan"
+    },
+    {
+      "start": 2482.119,
+      "end": 2489.19,
+      "text": "sebuah fungsi bisa meritan fungsi yang lain kalau yang anonimus itu pasti semua orang yang pernah ngoding web pasti"
+    },
+    {
+      "start": 2489.2,
+      "end": 2496.349,
+      "text": "pernah pakai Enggak mungkin enggak pernah pakai Soalnya di apa event event itu kan Ee isinya kan eh function kan"
+    },
+    {
+      "start": 2496.359,
+      "end": 2506.109,
+      "text": "oncilick misalnya onclick argumennya kan itu function atau on on Scroll atau on apalah pokoknya event eh elemen web"
+    },
+    {
+      "start": 2506.119,
+      "end": 2512.91,
+      "text": "Apapun kan itu dalamnya argumennya function tuh Iya itu udah sering kita pakai tapi kita enggak tahu istilahnya"
+    },
+    {
+      "start": 2512.92,
+      "end": 2521.23,
+      "text": "biasanya saya dulu begitu ya Nah tuh kalau interview kerja tiba-tiba ditanyain Apa maksudnya javascript adalah first first class Apa tadi"
+    },
+    {
+      "start": 2521.24,
+      "end": 2532.55,
+      "text": "namanya pesawat aja first class Citizen first class first class fun first class C first class entities first class apa"
+    },
+    {
+      "start": 2532.56,
+      "end": 2543.75,
+      "text": "entity kok Citizen ctizen Iya ada istilahnya first Citizen juga kalau untuk bahasa fungsional ya yang cukup sering juga ini kan Set time out kan"
+    },
+    {
+      "start": 2543.76,
+      "end": 2554.03,
+      "text": "atau set interval Set time out itu kan ada dua dua parameter ya handler ini adalah fungsi Heeh dan kemudian e time"
+    },
+    {
+      "start": 2554.04,
+      "end": 2566.549,
+      "text": "outnya Berapa lama ya kan fungsi di sini kan bukan misalkan kita punya fungsi apa ya E Oh pakai itu ya k apa nih e print sama"
+    },
+    {
+      "start": 2566.559,
+      "end": 2580.87,
+      "text": "dengan ini ya kol log Oh printnya pakai ini dong t asik Mas gitu Heeh dan kemudian kita Set time"
+    },
+    {
+      "start": 2580.88,
+      "end": 2592.79,
+      "text": "out ya Set time out print print Iya kan koma misalkan du eh 1 detik 1000 MS harus salnya per lah"
+    },
+    {
+      "start": 2592.8,
+      "end": 2602.589,
+      "text": "argumennya masukin argumennya aja dong Oh iya enggak bisa kan harus enggak e Halo gini kan enggak di argumen ketiga"
+    },
+    {
+      "start": 2602.599,
+      "end": 2614.43,
+      "text": "argumen ketiga oh bisa ketig bisa i oh sebagai OB lah lah itu di Pop upnya ada tulisannya Iya sih sebagai obek iya Gini"
+    },
+    {
+      "start": 2614.44,
+      "end": 2628.069,
+      "text": "objek atau apa ini titik titik titik apa spread spread operator SPR operator array coba dulu ya ya cobaan Coba aja ho"
+    },
+    {
+      "start": 2628.079,
+      "end": 2639.549,
+      "text": "halo kan enggak strictly type tetap kalau bisa di-lock dia bakal nge-lock i bukan t t aja I langsung t aja Iya"
+    },
+    {
+      "start": 2639.559,
+      "end": 2649.71,
+      "text": "setelah 1 detik dia akan nge-print itu 850 itu adalah ID id-nya Iya dia Mer id-nya jadi Biasanya kita bisa Set di"
+    },
+    {
+      "start": 2649.72,
+      "end": 2658.43,
+      "text": "sini ya ID gitu kan iya kan iya nah sebenarnya yang mau Saya tunjukkan adalah di sini di sini ini print Ini adalah sebuah"
+    },
+    {
+      "start": 2658.44,
+      "end": 2670.829,
+      "text": "seolah-olah sebuah variabel kan kalau misalkan kita tap Is betul Eh ini kan fungsi time out ini adalah kita akan mengeksekusi"
+    },
+    {
+      "start": 2670.839,
+      "end": 2679.67,
+      "text": "fungsi yang dikirimkan di sini setelah 1 detik kemudian ya kan apa yang terjadi kalau di sini saya"
+    },
+    {
+      "start": 2679.68,
+      "end": 2689.67,
+      "text": "langsung Halo ada yang bisa tebak ya langsung print enggak bis Langsung jalan Langsung print halo langsung jalan Kenapa ini kan"
+    },
+    {
+      "start": 2689.68,
+      "end": 2698.109,
+      "text": "dieksekusi sementara ini enggak dieksekusi ini disimpan dulu sampai sat detik kemudian baru di kayak gimana Yang mengeksekusi adalah"
+    },
+    {
+      "start": 2698.119,
+      "end": 2711.03,
+      "text": "dia kayak si apa engine-nya ya si event loop-nya itu betul betul gitulah kira-kira jadi ee apa namanya ini sebenarnya fungsi tapi tidak"
+    },
+    {
+      "start": 2711.04,
+      "end": 2721.47,
+      "text": "langsung dieksekusi dan higher order function ini atau first class Eh entities ini tidak semua bahasa punya makanya itu yang membedakan antara"
+    },
+    {
+      "start": 2721.48,
+      "end": 2729.95,
+      "text": "bahasa fungsional dan tidak fungsional Oh makanya javascript itu fungsional beneran Kayak misalnya tadi Kalau e musik lagu kalau si Pascal rasanya Iya"
+    },
+    {
+      "start": 2729.96,
+      "end": 2737.75,
+      "text": "si Pascal rasanya enggak ada kayak gini Heeh enggak bisa dia PHP PHP coba cari wait wait wa callback I istilahnya"
+    },
+    {
+      "start": 2737.76,
+      "end": 2749.75,
+      "text": "adalah callback betul sekali callback function callback he dan gara-gara nonton ini kenapa Eh lanjut lanjut lanjut gara-gara"
+    },
+    {
+      "start": 2749.76,
+      "end": 2759.67,
+      "text": "nonton ini jadi sering pakai immediate immediate info function iya funpr Itu juga salah satu salah satu identitas"
+    },
+    {
+      "start": 2759.68,
+      "end": 2767.95,
+      "text": "dari functional programming juga Karena tidak semua bahas kalau enggak funional enggak bisa jalan enggak bisa apa namanya hal ini juga yang bisa membikin"
+    },
+    {
+      "start": 2767.96,
+      "end": 2777.63,
+      "text": "Eh pakai high order ini bisa membuat menjadi imperatif ya benar enggak sih imperatif iya k imperatif apa"
+    },
+    {
+      "start": 2777.64,
+      "end": 2789.829,
+      "text": "deklaratif deklaratif ya Coba deklar deklaratif tuh yang step by step Bu Kan sih yes imperatif i bisa jadi imperative approach jadi"
+    },
+    {
+      "start": 2789.839,
+      "end": 2799.71,
+      "text": "kayak Oh masing-masing perintah itu kan ada functionnya nah itu dip dimasukin satu persatu enggak Kalau imperatif justru"
+    },
+    {
+      "start": 2799.72,
+      "end": 2808.39,
+      "text": "bukan funional kan deklaratif yang fsional coba baca dulu di bawah yang step by step tuh yang mana sih yang"
+    },
+    {
+      "start": 2808.4,
+      "end": 2823.67,
+      "text": "makudnya apa E step by step itu step by step itu deklaratif kan lakukan ini setelah itu lakukan ini"
+    },
+    {
+      "start": 2823.68,
+      "end": 2834.47,
+      "text": "he Red dan lain-lain Oke kita mungkin cari bahasan yang lain dulu ya Nah bentar si higher order Ini itu"
+    },
+    {
+      "start": 2834.48,
+      "end": 2843.349,
+      "text": "sebenarnya kita pasti pernah lihat kalau pakai react react komponen kan sebenarnya sekarang react itu functionalonen kan export cons function"
+    },
+    {
+      "start": 2843.359,
+      "end": 2850.99,
+      "text": "bla bla bla eh sat function pokoknya komponen itu kan sebenarnya itu function kan function yang bisa merender UI nah"
+    },
+    {
+      "start": 2851,
+      "end": 2860.589,
+      "text": "kita kan bisa tuh apa E masukin suatu komponen sebagai prop sebagai argumen ke di komponen atau di bagian kode lainnya"
+    },
+    {
+      "start": 2860.599,
+      "end": 2874.71,
+      "text": "Nah jadi kita tuh kalau pernahing di pasti pernahihat implementasi dari high order function sedikit Kalau yang untuk"
+    },
+    {
+      "start": 2874.72,
+      "end": 2883.23,
+      "text": "yangembuat menggunakan functional programming ini itu declarative approach Jadi kalau misalnya kita mau sorting array contohnya kan array filter array"
+    },
+    {
+      "start": 2883.24,
+      "end": 2891.71,
+      "text": "Redu segala macam kita tinggal memanggil function-function itu kita tinggal mapping bahkan bisa di chaining kan bisa di chaining langsung Kalau sedangkan"
+    },
+    {
+      "start": 2891.72,
+      "end": 2901.589,
+      "text": "kalau kita pakai imperatif kan dia pakai for loop-nya kita sendiri kita kita bikin perintah-intahnya Gimana caranya membandingkan e apa misalnya"
+    },
+    {
+      "start": 2901.599,
+      "end": 2910.03,
+      "text": "sorting lebih besar atau lebih kecil di return gitu ya bisa jadi gini contoh ada ya kita mau bikin"
+    },
+    {
+      "start": 2910.04,
+      "end": 2925.87,
+      "text": "E e apa namanya hilang l Lan l e contoh kasusnya gini ada ada array of number dan kita mau"
+    },
+    {
+      "start": 2925.88,
+      "end": 2937.349,
+      "text": "menjumlahkan angka yang genap saja Oke jadi misalnya kita punyaay 1 3 4 sampai 10 dan kita mau menjumlahkan"
+    },
+    {
+      "start": 2937.359,
+      "end": 2946.39,
+      "text": "angka yang genap saja kalau imperatif kita bikin for Iya for loop-nya satu kali apa dua kali satu kali tapi ada"
+    },
+    {
+      "start": 2946.4,
+      "end": 2954.39,
+      "text": "kondisional di dalamnya ada if Iya ada if iya i kan sedangkan kalau pakai deklarative approach kita bisa pakai"
+    },
+    {
+      "start": 2954.4,
+      "end": 2963.069,
+      "text": "eh function yang namanya radius tetapi di dalam radius kita Panggil filter event out atau event number only jadi"
+    },
+    {
+      "start": 2963.079,
+      "end": 2977.309,
+      "text": "event event number ini Iya even number ini akan mengcallback isi array yang genap saja dan saat direduce"
+    },
+    {
+      "start": 2977.319,
+      "end": 2990.789,
+      "text": "atau itu akan mereduce array menjadi integer genap sa penjumlahannya saja jadi lebih indah kalau pakai deklaratif karena hanya manggil dua"
+    },
+    {
+      "start": 2990.799,
+      "end": 3001.47,
+      "text": "fungsi gitu itu contohnya Tapi ifnyanya juga juga kalau di imperatif if-nya bisa ditaruh di fungsi juga kan bis"
+    },
+    {
+      "start": 3001.48,
+      "end": 3013.27,
+      "text": "bis bisa tapi jadi funsional kan kita Coba aja kita coba gimana coba kita bikin yang imperatif dulu apa"
+    },
+    {
+      "start": 3013.28,
+      "end": 3027.23,
+      "text": "deklaratif dulu eh bikin imperatif dulu imperatif ya I eh belum di-share Oh iya belum di-share Sorry ee eh mana dia"
+    },
+    {
+      "start": 3027.24,
+      "end": 3044.95,
+      "text": "eh Ini oke Ya coba isi 1 sampai 10 ada enggak Oh udah ada Aray refresh aja malas oke Aray 1 sampai 10 du t ada cara"
+    },
+    {
+      "start": 3044.96,
+      "end": 3056.39,
+      "text": "cepat enggak EMP e belum ada range ada engak sih ada 10 oke Ada punya snip nya cuma enggak"
+    },
+    {
+      "start": 3056.4,
+      "end": 3072.27,
+      "text": "ingat clearnya pakai ini ya dahah E Aray oke terus kalau imperatif for i =0 i = 0 I lebih kecil dari R 10 r"
+    },
+    {
+      "start": 3072.28,
+      "end": 3084.75,
+      "text": "r l leng leng I ama I plus plus sat gitu kan i++ ya samalah ya Ini pakai shift atau enggak Oh pakai"
+    },
+    {
+      "start": 3084.76,
+      "end": 3106.7,
+      "text": "shift harus pakai shift ya terus di sini If Ya if if r r i di"
+    },
+    {
+      "start": 3106.71,
+      "end": 3120.349,
+      "text": "[Musik] modama0 apa tuh e mungkin bikin variabel sat dulu di atasnya l apa gitu l di dalam eh LED l hasil Heeh hasil sama"
+    },
+    {
+      "start": 3120.359,
+      "end": 3129.109,
+      "text": "dengan I gini no no langsung aja hasilnya no oh diam mau diam ya Iya mau langsung diam eh ada"
+    },
+    {
+      "start": 3129.119,
+      "end": 3143.549,
+      "text": "petik nah ini I 0 plus a 0 plus sama Oh I sama plus sama plus sama Oh"
+    },
+    {
+      "start": 3143.559,
+      "end": 3159.23,
+      "text": "Boh sama aja biar singkat biar singkat i i i gitu ya Iya betul hasilnya error token"
+    },
+    {
+      "start": 3159.24,
+      "end": 3175.349,
+      "text": "tokenang apa nih kurang koma koma koma koma ah iyaahah 30 I ini apa imperatif atau ini ini imperatif sebentar kalau saya saya"
+    },
+    {
+      "start": 3175.359,
+      "end": 3188.03,
+      "text": "if-nya mau saya jadikan fungsi misalkan function apa nih e genap ya cek if genap tuh evenent atau evenent Iya eh number"
+    },
+    {
+      "start": 3188.04,
+      "end": 3199.829,
+      "text": "even Iya number Heeh eh berarti ini kan return Oh iya return Oh langsung return aja ya return 6 modulus"
+    },
+    {
+      "start": 3199.839,
+      "end": 3212.67,
+      "text": "2 Return en return 6 Modul 2 = 0 true or false kan iya He sudahah gini Iya gini"
+    },
+    {
+      "start": 3212.68,
+      "end": 3225.23,
+      "text": "ya dan sekarang for loop-nya if gimana tuh if pakai if juga if if Iyalah pakai Iyalah Oh iyain if-nya mau dipindah ke"
+    },
+    {
+      "start": 3225.24,
+      "end": 3236.349,
+      "text": "sini enggak bisa if event if event EV dalam kur Heeh Ee isinya r r i heeh he I"
+    },
+    {
+      "start": 3236.359,
+      "end": 3250.95,
+      "text": "Sudah sama ya Iya salah lagi Ayo loh ini susahnya enggak pakai editor Ya kurang satu kurang kurang Heeh"
+    },
+    {
+      "start": 3250.96,
+      "end": 3265.349,
+      "text": "kurang tutup kurung yang habis event R nah kok 60 karenanyaahin i i 60 R sama0 dulu kalau"
+    },
+    {
+      "start": 3265.359,
+      "end": 3277.27,
+      "text": "if ini saya mau hilangin pindahin ke function enggak bisa ya enggak bisa ini imperatif enggak bisa soalnya itu kan ada S effect bisa"
+    },
+    {
+      "start": 3277.28,
+      "end": 3289.789,
+      "text": "bisa kalau mau dibikin itu jadi bikin satu lagi satu lagi function lagi check if even no no no su Oh Sam eh function I"
+    },
+    {
+      "start": 3289.799,
+      "end": 3298.47,
+      "text": "kalau S mas44-nya masuk ke buat yang ini kan buat yang ini Sam kan Bukan buat buat yang if kan Iya gak bisa oke oke"
+    },
+    {
+      "start": 3298.48,
+      "end": 3313.309,
+      "text": "oke anyway Coba kita yang cara e deklaratif I ini kita udah punya fun event I Sekarang kita mau p yang fun"
+    },
+    {
+      "start": 3313.319,
+      "end": 3331.19,
+      "text": "functionnya Iya e [Musik] benar ya benar benar benar benar Arnya Belum"
+    },
+    {
+      "start": 3331.2,
+      "end": 3349.789,
+      "text": "difine kan bukan Aray kan number bukannya Iya ini sound Aray Boh Aray aja array tulis aja Iya terus"
+    },
+    {
+      "start": 3349.799,
+      "end": 3365.069,
+      "text": "di Loop Loop for tadi iya i lebih kecil dari array.leng i i plus+ iya oke"
+    },
+    {
+      "start": 3365.079,
+      "end": 3376.829,
+      "text": "eh di dalamnya nanti di dalam function itu ada led led hasil atau LED apal LED R LED Res juga boleh nol gini sama aja"
+    },
+    {
+      "start": 3376.839,
+      "end": 3392.67,
+      "text": "kayak tadi ya iya sama kayak tadi plus sama e Oke ini tutup ini tutupah punyaang tadi yang tadi"
+    },
+    {
+      "start": 3392.68,
+      "end": 3406.549,
+      "text": "e yang event itu salah itu kan cuma is event yang benar itu adalah event Yangnya array jadi function sekarang bikin"
+    },
+    {
+      "start": 3406.559,
+      "end": 3421.829,
+      "text": "function is event yang ini adalah buat LED"
+    },
+    {
+      "start": 3421.839,
+      "end": 3434.91,
+      "text": "result sama dengan array k0 array kos Iya Terus eh for kembali lagi for-nya sama let I ="
+    },
+    {
+      "start": 3434.92,
+      "end": 3452.75,
+      "text": "0 berulang lagi ya Iya Aray l Oh iya lupa tuh return functionnya nanti betul e tutup e Oh iya belum"
+    },
+    {
+      "start": 3452.76,
+      "end": 3468.19,
+      "text": "dibalikinnya if if eh I Oh i i modus"
+    },
+    {
+      "start": 3468.2,
+      "end": 3485.15,
+      "text": "eh terus epush push are e are e tutup loh tutupnya Oh kurang tutup tutup"
+    },
+    {
+      "start": 3485.16,
+      "end": 3501.75,
+      "text": "ya Tutup itu sama tutup for return result return result G Heeh"
+    },
+    {
+      "start": 3501.76,
+      "end": 3511.63,
+      "text": "Oke ber nah perbaiki dulu perbaiki dulu yang S nah Eng ada return-nya ya Bisa enggak return paling bawah bisa kok return R"
+    },
+    {
+      "start": 3511.64,
+      "end": 3526.67,
+      "text": "bisa kan function function boleh ditim Nah jadi ini tinggal su manggilnya su he he buka terus gak r eh su sorry if itu"
+    },
+    {
+      "start": 3526.68,
+      "end": 3536.549,
+      "text": "apa tadi nama functionnya is event su is event some some is event is event event kan R"
+    },
+    {
+      "start": 3536.559,
+      "end": 3551.63,
+      "text": "Heeh udah selesai Oh iya R ini 1 10 Heeh benar-benar EV gini ya that's it Iya tapi for"
+    },
+    {
+      "start": 3551.64,
+      "end": 3560.91,
+      "text": "loop-nya ada dua ya jadinya ya Yes Ya karena dua hal yang dikerjain kan menjumlahkan sama ngecek apa eh"
+    },
+    {
+      "start": 3560.92,
+      "end": 3572.23,
+      "text": "ngecek yang event yang ini hasil dari su dan hasil dari dari is event itu pure function H Heeh"
+    },
+    {
+      "start": 3572.24,
+      "end": 3581.309,
+      "text": "Apun dimasukin pasti hasil e event enggak ada Side Effect kalau yang Dar t bisa Di bisa diit kalau tadi kanengarin"
+    },
+    {
+      "start": 3581.319,
+      "end": 3593.27,
+      "text": "result yang paling atas kan Makanya t pas ah 22 kali 60 Iya mas Riza bisa 60 itu Side Effect jadi kita sudah"
+    },
+    {
+      "start": 3593.28,
+      "end": 3602.67,
+      "text": "membahasrnya Nah ini ada nih dari Yoga imperatif Bagaimana caranya kalau deklaroratif apa yang ingin dicapai saya peng Nah itu Dar tadi kita bisa ngomong"
+    },
+    {
+      "start": 3602.68,
+      "end": 3615.19,
+      "text": "yang bagus gini nih Iya imperatif itu How deklaratif itu what what to do Iya yes Tapi kalau pakai apa"
+    },
+    {
+      "start": 3615.2,
+      "end": 3628.789,
+      "text": "reduce sama berarti kalau mau diubah langsung arr.filter terus J langsung filter langsung R Iya entah itu filter ridus"
+    },
+    {
+      "start": 3628.799,
+      "end": 3647.67,
+      "text": "itu kan sebenarnya helper deklaratif kan I function en langsung a ya y item mod 2 eh item item return return item mod 2"
+    },
+    {
+      "start": 3647.68,
+      "end": 3660.029,
+      "text": "harus return ya harus ada itemama item item dulu Oh iya hitam Oh iya hitem modulus 2 hitem modulus 2 ama"
+    },
+    {
+      "start": 3660.039,
+      "end": 3673.549,
+      "text": "0 gitu I koma ya tutup tutup tutup tutup kurung dot udah mau diapain lagi dot redus ya"
+    },
+    {
+      "start": 3673.559,
+      "end": 3690.51,
+      "text": "he redus enggak bisa komplit red eh function terus ehameter pertama itu yangor pertama itu yang ininya kan Yang inisiatornya ya"
+    },
+    {
+      "start": 3690.52,
+      "end": 3706.99,
+      "text": "inisial eh akumulatornya ininya 0 hitam hitem koma ACC benar enggak sebentar Ayo loh enggak"
+    },
+    {
+      "start": 3707,
+      "end": 3724.109,
+      "text": "lulus tes interview kan enggak hafal JavaScript kan ada copilot Oh iya ya akumulatornya di awal akumulator di awal makanya makanya Mas"
+    },
+    {
+      "start": 3724.119,
+      "end": 3733.67,
+      "text": "bikin aku si bingung kan akumulator di awal itu sudah benar Iya tapi ACC i ya udah benar"
+    },
+    {
+      "start": 3733.68,
+      "end": 3748.829,
+      "text": "hem item nol Ya enggak enggak itu oh inial value ya inial value betulbetul I terus udah plus return"
+    },
+    {
+      "start": 3748.839,
+      "end": 3761.39,
+      "text": "he ACC plus e salah salah gini a bukan bukan salah ee nolnya itu di belakang function di luar ya di luar abis fun Iya"
+    },
+    {
+      "start": 3761.4,
+      "end": 3769.87,
+      "text": "di luar Iya itu function-nya itu menerima akumulator sama item koma nol Yes dan itu optionional bahkan tadi"
+    },
+    {
+      "start": 3769.88,
+      "end": 3780.47,
+      "text": "waktu nolnya belum neketif sudahud betul 30 30 heeh nah bahkan itu bisa di bisa disingkat lagi enggak sih R the filter eh terus"
+    },
+    {
+      "start": 3780.48,
+      "end": 3791.15,
+      "text": "dalamnya is is event kan bisa enggak usah fun benar yes yes R filter Heeh Ayo r is"
+    },
+    {
+      "start": 3791.16,
+      "end": 3799.549,
+      "text": "event I is EV is event enggak usah nah udah langsung nah terus redus-nya sih sama eh redus-nya kopas aja dari yang"
+    },
+    {
+      "start": 3799.559,
+      "end": 3813.71,
+      "text": "atas Sam ada Sam kan enggak bisa beda beda kan butuh dua argumen kok Pasnya di atas aja udah oke siap nah 55 oh karena"
+    },
+    {
+      "start": 3813.72,
+      "end": 3822.829,
+      "text": "array-nya arraynya Side Effect ya Arnya Side Effect iya i eh Kok beda sih eh oh iya ya Kok beda cob bentar coba rrnya"
+    },
+    {
+      "start": 3822.839,
+      "end": 3831.99,
+      "text": "Apa isinya sekarang S sampai 10 masih kok salah nih kok bed salah is event-nya salah Heeh mana is"
+    },
+    {
+      "start": 3832,
+      "end": 3841.63,
+      "text": "eventnya pakai lagi di dalamnya coba pakai ini pakai are oh bukan isi event event doang event doang"
+    },
+    {
+      "start": 3841.64,
+      "end": 3850.309,
+      "text": "enggak itu 30 oh iya oh iya betul EV event ini kan yang ini kan tuh yang langsung return ini kalau ini dia pakai"
+    },
+    {
+      "start": 3850.319,
+      "end": 3857.39,
+      "text": "for Loop iya iya i tu pakai for Loop he harus yang trutti yang bulean ya iya ya"
+    },
+    {
+      "start": 3857.4,
+      "end": 3867.309,
+      "text": "cuma gitulah pokoknya bentuknya gitu ya kira-kira berarti pusing kan n eh cuma kalau udah kayak gini pasti jadi ingat kalau"
+    },
+    {
+      "start": 3867.319,
+      "end": 3878.069,
+      "text": "besok-besok ditanya pasti kalau misalnya kita ngfalin definisi i kecuali yang kecuali ngfalinnya emang baru semalam pas lagi mau interview eh ya pasti"
+    },
+    {
+      "start": 3878.079,
+      "end": 3887.87,
+      "text": "Berapa hari pasti hilanglah tapi kalau pernah ngetik G kemungkinan nempel lebih kuat ya ya ya ya oke terus kita bahas"
+    },
+    {
+      "start": 3887.88,
+      "end": 3897.99,
+      "text": "apa lagi nih Sudah bahas ada ada itu Yuk kita sebentar ramda JS lucu Oh iya sebelum sebelum ke"
+    },
+    {
+      "start": 3898,
+      "end": 3909.95,
+      "text": "ramda ee oh I ramda JS dulu deh ramda JS dulu ada yang pakai ramdas di sini Iya ini functional"
+    },
+    {
+      "start": 3909.96,
+      "end": 3920.269,
+      "text": "library lucu ada lagi kan yang lain kan ada beberapa ya Ada ada unders oh bukan bukan ada ini tuh kayak undersore bukan"
+    },
+    {
+      "start": 3920.279,
+      "end": 3935.789,
+      "text": "bukan ada ee satu lagi namanya apa ya yang sering dipakai di react juga kalau enggak salah imut imutable JS Ah iya Eh imutable JS"
+    },
+    {
+      "start": 3935.799,
+      "end": 3946.789,
+      "text": "Itu bukan Iya benar imutable JS benar benar benar ini Ngasih nama ranc nama kayak konsep itu nyebulin deh"
+    },
+    {
+      "start": 3946.799,
+      "end": 3960.39,
+      "text": "Oh iya betul Iya tuh iya kan Oh belum pernah nyobain pakai belum ya ini sama ya konsepnya ya cuman ramda"
+    },
+    {
+      "start": 3960.4,
+      "end": 3972.549,
+      "text": "Kayaknya lebih lebih baru ya lebih modern Enggak coba documentationnya dia jauh lebih banyak functionnya Iya lebih komprehensif dia oh banyak helpernya ya"
+    },
+    {
+      "start": 3972.559,
+      "end": 3988.91,
+      "text": "iya iya kayak und jadinya Oh yang ada pip juga ya P itu pip Yang bakal keluar Hah left pad left pad left pad itu loh"
+    },
+    {
+      "start": 3988.92,
+      "end": 3998.75,
+      "text": "yang dulu apa NPM dependeny juta umat ini enggak ada P Itu yang kemarin kita bahas yang bakal ada di javascript jadi"
+    },
+    {
+      "start": 3998.76,
+      "end": 4011.43,
+      "text": "habis dari sini eh return-nya akan masuk ke sini Oh yang bacanya dari kanan kiri itu Iya ini kan kita mau bikin e 3^ 4 +"
+    },
+    {
+      "start": 4011.44,
+      "end": 4021.589,
+      "text": "1 mengerjakan tig hal jadi kurangin I 3^ 4 Yes gitulah pipe itu pipe Terus apa lagi ya"
+    },
+    {
+      "start": 4021.599,
+      "end": 4035.51,
+      "text": "Eh kuri kuri kuri King karing fungsi Ken namanyaekekusi lagi dieksekusi lagi ini e IV tapi e Next"
+    },
+    {
+      "start": 4035.52,
+      "end": 4050.75,
+      "text": "Level Ya next level ada itu enggak Ar Mer Mer ada engak merge ada ya all Mer Mer kayaknya segala yang"
+    },
+    {
+      "start": 4050.76,
+      "end": 4061.51,
+      "text": "mering karena javascript mering itu kalauudah n properties pusing juga ya I ih keren juga ini ya Mas gua baru pernah"
+    },
+    {
+      "start": 4061.52,
+      "end": 4072.91,
+      "text": "dengar doang tapi belum pernah Pak Ini Pak ini gak ya Ada tulisannyaak sih kalau hajarlah Project selanjutnya harus pakai"
+    },
+    {
+      "start": 4072.92,
+      "end": 4089.19,
+      "text": "ini ramda shaking Iya loh gambarnya pohon beneran lbel profit froming"
+    },
+    {
+      "start": 4089.2,
+      "end": 4103.349,
+      "text": "in tuh bundle like weack anding drop undae and bundle size iya bisa itu di hasil kedua hasil kedua k"
+    },
+    {
+      "start": 4103.359,
+      "end": 4114.99,
+      "text": "iya j i Oh I ada penjelasannya coba cari tre shcking tre shcking ini apa sih buat ngilangin yang enggak dipakai ya iya iya"
+    },
+    {
+      "start": 4115,
+      "end": 4120.749,
+      "text": "kan Itu banyak banget tuh metodennya jadi maksudnya jangan khawatir e kalau kita cuma pakai satu yang dicompile e"
+    },
+    {
+      "start": 4120.759,
+      "end": 4126.829,
+      "text": "maksudnya yang masuk yang masuk yang di shipping production code-nya ya cuma satu yang kita pakai itu itu kan"
+    },
+    {
+      "start": 4126.839,
+      "end": 4135.709,
+      "text": "halangan Biasanya kalau kalau pakai utility library kayak gini kan halangannya takutnya tiba-tiba besar banget bengkak hasil apa buildnya"
+    },
+    {
+      "start": 4135.719,
+      "end": 4148.51,
+      "text": "gara-gara masuk semua Nah kalau adaaking Ya udah gak usah gak usah khawatir ya ya oke menarik menarik"
+    },
+    {
+      "start": 4148.52,
+      "end": 4160.47,
+      "text": "Wah bisa jadi alternatif saya ini untuk asik nih kita kita mal mal Iya benar Ya lagianudnya udah"
+    },
+    {
+      "start": 4160.48,
+      "end": 4171.95,
+      "text": "ada yang bikin ngapain kita bikin lagi apa Do not repeat yourself Iya dry nah ini juga sama kan apa eh"
+    },
+    {
+      "start": 4171.96,
+      "end": 4186.749,
+      "text": "typesript typesript juga bisa eh menggunakan konsep-konsep funional tapi dia bukan bahasa fungsional kan maksudnya gimana tuh Hah"
+    },
+    {
+      "start": 4186.759,
+      "end": 4195.229,
+      "text": "compiler Ya tapi kan dia ada ada objeknya juga ada kelasnya juga ya kan he he esript kan"
+    },
+    {
+      "start": 4195.239,
+      "end": 4212.43,
+      "text": "javascript Iya sih bahasa apa lagi ya yang dikompile ke javascript rescript resript itu funional Ras Ras bukan"
+    },
+    {
+      "start": 4212.44,
+      "end": 4222.03,
+      "text": "elikir funsional nah ngomongin elikir asik Saya punya nih beberapa tahun yang lalu 2015 Saya pernah bikin eh blog"
+    },
+    {
+      "start": 4222.04,
+      "end": 4230.79,
+      "text": "tentang eh fiturnya sama ya first class function higher order function closure udah enggak ada gitu sampai bukanya dari"
+    },
+    {
+      "start": 4230.8,
+      "end": 4242.79,
+      "text": "apa Kenapa kok hilang Iya markdownnya masih ada tapi kan jelek ya yang diliat maksudnya El eldos.com-nya enggak diperpanjang udahak"
+    },
+    {
+      "start": 4242.8,
+      "end": 4250.75,
+      "text": "udah enggak dilanjut udah enggak dilanjut sama siapa sama gue udah enggak dilanjut Oh udah gua matiin lu mau bayar"
+    },
+    {
+      "start": 4250.76,
+      "end": 4260.83,
+      "text": "2015 udah enggak enggak ada bandwid lagi buat bikin-bikin Ask nah ini ini first class function yang tadi ya function"
+    },
+    {
+      "start": 4260.84,
+      "end": 4270.87,
+      "text": "bisa dimasukin ke fungsi yang lain minimalisnya bahasanya gak ada apa makudnya dipisahin line Break doang kagak ada bracket gak ada apa minim"
+    },
+    {
+      "start": 4270.88,
+      "end": 4282.55,
+      "text": "tutup kur Opal Opal I higher order function beda lagi ternyata jadi prinsipnya Sama tapi ya maksudnya itu"
+    },
+    {
+      "start": 4282.56,
+      "end": 4292.31,
+      "text": "kan jadi bisa ngejalanin fungsi di dalam fungsi ya cuma bentuknya doang Map ya tadiya filter reduce juga itu adalah"
+    },
+    {
+      "start": 4292.32,
+      "end": 4304.51,
+      "text": "higher order contoh higher order function closure itu yang tadi di javascript juga ada konsep closure kan heeh bisa mengakses variabel dari Scope"
+    },
+    {
+      "start": 4304.52,
+      "end": 4315.11,
+      "text": "Child Scope ya value dari Child Scope dari atasnya betul dari luarnya sor yang jelas maksud program itu juga goleng kan"
+    },
+    {
+      "start": 4315.12,
+      "end": 4326.79,
+      "text": "ya goleng tidak goleng op tapi op-nya juga beda strck base dia [Musik] ohutable tadi kita ah bahas ya antara"
+    },
+    {
+      "start": 4326.8,
+      "end": 4339.27,
+      "text": "dotpush sama do concet ya dia menghasilkan objek baru ini juga sama apagi ya e udah selesai I inikel"
+    },
+    {
+      "start": 4339.28,
+      "end": 4351.39,
+      "text": "okel okel juga ada objeknya makanya ada Oya depannya objek berarti cel cel doang Cel funal objektif camel I OB Cel Eh iya pe"
+    },
+    {
+      "start": 4351.4,
+      "end": 4363.35,
+      "text": "pel Pearl enggak tahu Kayaknya Pearl itu masih prosedural kayaknya enggak tahu enggak tahu enggak tahu iya iya"
+    },
+    {
+      "start": 4363.36,
+      "end": 4369.99,
+      "text": "iya tapi ini ada cerita lucu nih dari blog ini ya ini kan ada ada dua orang ya"
+    },
+    {
+      "start": 4370,
+      "end": 4378.07,
+      "text": "masih aktif Enggak Orangnya nah ini Jadi ee saya waktu itu bikin blog ini tujuannya Adah untuk belajar karena"
+    },
+    {
+      "start": 4378.08,
+      "end": 4386.709,
+      "text": "tertarik kan di 2012an itu tertarik sama functional sama sama elixirnya cuman mem maksa belajar Gimana caranya ya udah e"
+    },
+    {
+      "start": 4386.719,
+      "end": 4394.51,
+      "text": "ngblok aja tiap minggu e jalan apa minggu kedua sekarang ya Iya minggu kedua minggu ketiga tiba-tiba ada yang"
+    },
+    {
+      "start": 4394.52,
+      "end": 4403.43,
+      "text": "email namanya Pak Augi ini dia bilang gini kurang lebih ya e bahasaingkatnya he bro Gua suka blog lu artikel lu tapi"
+    },
+    {
+      "start": 4403.44,
+      "end": 4409.149,
+      "text": "bahasanya ngacau bahasa Inggrisnya karena gua pakai bahasa Inggris dia kan orang Amerika orang was belum ada belum"
+    },
+    {
+      "start": 4409.159,
+      "end": 4417.99,
+      "text": "ada chat GPT tapi ya buat Kalau sekarang kan udah tinggal ee bagusin kata-katanya iya ee gua mau deh jadi editor lu gua"
+    },
+    {
+      "start": 4418,
+      "end": 4429.35,
+      "text": "bagusin sebelum lu publish gitu Akhirnya akhirnya dia selama dari 2 sampai 2015 ya kita kerja bareng gitu"
+    },
+    {
+      "start": 4429.36,
+      "end": 4439.07,
+      "text": "wiih ceritanya menarik juga jadi ya apa ee karena memang elir di Indonesia waktu itu bahkan sampai sekarang juga sepi kan"
+    },
+    {
+      "start": 4439.08,
+      "end": 4449.83,
+      "text": "tapi banyakan yang akses dari luar jadi ya seru sih seru ya begitulah terus enggak dipasang Adsense sih Heeh enggak"
+    },
+    {
+      "start": 4449.84,
+      "end": 4460.149,
+      "text": "dipasang iya jadinya orang tujuannya apa loh kan Bayar buat bayar buat bayar domain dan bayar server Iya sih bukan"
+    },
+    {
+      "start": 4460.159,
+      "end": 4468.229,
+      "text": "buat hal yang lain iya i Harus bisa self sustain He Oh iya bahasa yang lain ada lagi"
+    },
+    {
+      "start": 4468.239,
+      "end": 4479.669,
+      "text": "ee kalau PHP bisa ketiga itu enggak atau keempat eh apa eh syarat atau syarat ya princiiple princisipel dari pure function pasti"
+    },
+    {
+      "start": 4479.679,
+      "end": 4491.39,
+      "text": "bisa kan pure function bisa higher order function bisa enggak udah ngecek belum fangen eh PHP manggil bisa sih"
+    },
+    {
+      "start": 4491.4,
+      "end": 4510.11,
+      "text": "taruh di variabel taruh di as asal bisaave di variab berartiisi php bisa bisa Nah wupun bisa setah di ke fun bisa dijalan"
+    },
+    {
+      "start": 4510.12,
+      "end": 4525.95,
+      "text": "darinyaak Kalau enggak ya berarti gak bisaak bisa order fction namanya"
+    },
+    {
+      "start": 4525.96,
+      "end": 4538.39,
+      "text": "ini tapi harus ada call a ini ya Oh indikatornya colable apa variabelnya namanya func F Iya itu high order"
+    },
+    {
+      "start": 4538.4,
+      "end": 4551.59,
+      "text": "function udah iya ini callback kan callback gua tanya jemenai programming language yang mendukung mendukung functional program skal pasti"
+    },
+    {
+      "start": 4551.6,
+      "end": 4566.35,
+      "text": "Iya closure eliksir FS F ya rusl Iya Rus kotlin bisa itu yang mendukung kan Oh Rus while"
+    },
+    {
+      "start": 4566.36,
+      "end": 4582.11,
+      "text": "not purely functional language Tapi dia bisa kotlin Swift skim"
+    },
+    {
+      "start": 4582.12,
+      "end": 4592.189,
+      "text": "okelm Idris dan pure script apaagi pure script ini Idris pure script itu eh sintaksnya seperti haskel tapi"
+    },
+    {
+      "start": 4592.199,
+      "end": 4608.79,
+      "text": "dikompilasi ke javascript kalian bisa bahasa"
+    },
+    {
+      "start": 4608.8,
+      "end": 4621.83,
+      "text": "permograman apa aja jadi jadi CSS lagiakage ini yang lebih lebih parah lagi nih eskalasi Apakah html bahasar"
+    },
+    {
+      "start": 4621.84,
+      "end": 4637.87,
+      "text": "berarti scss F program engak yang menjadklara deklaratif kan berarti apa yang ingin dituju hasilnya [Musik]"
+    },
+    {
+      "start": 4637.88,
+      "end": 4652.39,
+      "text": "gimana bahasa yang deklaratif lagi adalah SQL itu deklar ye select drop table GR by order by Yes"
+    },
+    {
+      "start": 4652.4,
+      "end": 4661.709,
+      "text": "Oke jadi eh di sini e Apa tujuannya bukan memaksa teman-teman untuk berpindah ke bahasa fungsional tapi e"
+    },
+    {
+      "start": 4661.719,
+      "end": 4668.87,
+      "text": "enggak ada salahnya belajar paradigma atau paradigma baru bukan hanya funsional mungkin ada paradigma yang lain yang kita enggak tahu ya Selain op"
+    },
+    {
+      "start": 4668.88,
+      "end": 4677.31,
+      "text": "dan funional itu bisa memperkaya pengalaman kita jadi ketika kita ee misalkan kita belajar funional nih kalau kita ketemu kita ngenalin kita recognize"
+    },
+    {
+      "start": 4677.32,
+      "end": 4683.629,
+      "text": "Oh ini begini terus kita bisa masuk ke mindsetnya Oh berarti ini urut-urutannya kita bacanya gampang Kalau tuh kita baca"
+    },
+    {
+      "start": 4683.639,
+      "end": 4690.39,
+      "text": "kode orang lain atau baca library eksternal itu kita bisa ngerti karena kita bisa tahu mindset eh functional"
+    },
+    {
+      "start": 4690.4,
+      "end": 4701.91,
+      "text": "programming waupun kita mal kita engak sukaok besok langsung Project di kantor kalian diaktor aja jadi functional tiba-tiba Enggak gitu juga"
+    },
+    {
+      "start": 4701.92,
+      "end": 4713.629,
+      "text": "kali masih pakai disk mbak As pakai Fa programming disnya Iya memang kalau pakai functional programming tapi ada disk ketinggalan"
+    },
+    {
+      "start": 4713.639,
+      "end": 4725.229,
+      "text": "Global kan yang masuk Iya iya jadi ee kalaupun eh di pekerjaan kita sehari-hari menggunakan op kita bisa implementasi beberapa fungsi-fungsi"
+    },
+    {
+      "start": 4725.239,
+      "end": 4737.669,
+      "text": "yang ada di functional programming salah satunya perion dan lain-lain SP1 SP1 gara-gara ngubah semua jadi funal programing tapi disnya"
+    },
+    {
+      "start": 4737.679,
+      "end": 4747.79,
+      "text": "ditinggal I itulah kekurangan dari bahasa yang tidak pure funional ya Jadi bisa nyampur-nyampur cuman ya pasti ada apa"
+    },
+    {
+      "start": 4747.8,
+      "end": 4757.75,
+      "text": "ya begitu juga sebaliknya mungkin kita sehari-hari mungkin bekerja sebagai em yang menggunakan funional paradigma funional gitu ya pakai bahasa funsional"
+    },
+    {
+      "start": 4757.76,
+      "end": 4762.91,
+      "text": "tapi kita belajar Oop enggak ada salahnya dan ber kapan-kapan kita kita pernah enggak sih punya episode Oop tapi"
+    },
+    {
+      "start": 4762.92,
+      "end": 4770.79,
+      "text": "yang kayak gini nih yang kayak beneran diudah satu persatu Nah berarti bisa jadi belum nextnya bisa yang paling saya"
+    },
+    {
+      "start": 4770.8,
+      "end": 4779.03,
+      "text": "yang paling saya kalau kalian mau memilih Ya janganlah dicampur-campur yang paling saya anti itu kalau konsepnya sudah dibuat funional tapi"
+    },
+    {
+      "start": 4779.04,
+      "end": 4789.11,
+      "text": "nanti pakai Oop di sebagian tempat nanti di main terus udah ada Oop tapi pakai nanti konsep fungsional ini kenapa"
+    },
+    {
+      "start": 4789.12,
+      "end": 4797.43,
+      "text": "dicampur-campur gitu kalau mau stay stay aja satu tempat jangan camp kalau pakai Oop jangan pakai filter jangan pakai redus"
+    },
+    {
+      "start": 4797.44,
+      "end": 4808.79,
+      "text": "jangan pakai map gitu maksudnya Bukan maksudnya konsepnya yang kalau memang opop ya Ee ya rapi pemanggilannya kayak pakai"
+    },
+    {
+      "start": 4808.8,
+      "end": 4824.07,
+      "text": "abstruction terus kemudian pakai objek eh inherit iya jadi yang maksud saya jangan dicampur-campur adalah ee sudah pakai fun programming tetapi untuk"
+    },
+    {
+      "start": 4824.08,
+      "end": 4834.51,
+      "text": "memanggil function callback-nya itu adalah eh objek eh S kelas pakai kelas Static function k Static function dari kelas"
+    },
+    {
+      "start": 4834.52,
+      "end": 4844.83,
+      "text": "lagi ya kan iya i i nah cuma jadi si Ken pernah mempromote kayak dia kurang Entah kenapa"
+    },
+    {
+      "start": 4844.84,
+      "end": 4855.03,
+      "text": "kurang suka kelas dia mempromote factory tapi kalau itu udah masuk P funional sih jadinya banyak banyak juga kepikin"
+    },
+    {
+      "start": 4855.04,
+      "end": 4865.27,
+      "text": "obtor bak juga apa polyorphism Jadi dia misalnya pakai facttory ya satu satu e interface jadi factory terus kemudian"
+    },
+    {
+      "start": 4865.28,
+      "end": 4873.51,
+      "text": "implementen dari interface itu tinggal pakai factory mau jadi apa aja itu Nam kan polymorfism kalau di iya he cuma"
+    },
+    {
+      "start": 4873.52,
+      "end": 4881.629,
+      "text": "jadi enggak instanate kayak new apa user sama dengan New user gitu ggak pakai kayak gitu yang yang instanate si"
+    },
+    {
+      "start": 4881.639,
+      "end": 4894.99,
+      "text": "factorynya Iya sudah dibungkus user sama dengan create user eh apa tanda kurung I tapi harus hati-hati juga serh karena Iya"
+    },
+    {
+      "start": 4895,
+      "end": 4906.709,
+      "text": "karena kalau apa e ada yang bilang wah ribet ya harus ada apa harus belajar inheritance polorism bla bla bla gitu kan funal"
+    },
+    {
+      "start": 4906.719,
+      "end": 4918.39,
+      "text": "simpel gitu kan tapi engak juga belum ketemu monat aja Belum ketemu apa tadi factory method eh factory atau ada funors ada"
+    },
+    {
+      "start": 4918.4,
+      "end": 4926.35,
+      "text": "macam-macam konsepnya maksudnya istilahnya itu banyak juga sebenarnya Dan satu hal yang eh mungkin akan membuat kita sedikit jengkel dengan"
+    },
+    {
+      "start": 4926.36,
+      "end": 4934.35,
+      "text": "functional programming adalah nanti argumen dari parameter dari dari fungsinya itu banyak karena harus diikutin semua kan harus ada di"
+    },
+    {
+      "start": 4934.36,
+      "end": 4942.03,
+      "text": "parameter itu untuk mengubah sebuah data kan Makanya argumennya pakai objek jadi cuma satu n tu seobjek Heeh masukin"
+    },
+    {
+      "start": 4942.04,
+      "end": 4951.189,
+      "text": "seobjek obeknya kalau itu gimana kita ngedesainnya aja sih ya Iya memang cuman di dalam objeknya kan ada banyak"
+    },
+    {
+      "start": 4951.199,
+      "end": 4960.11,
+      "text": "juga nah itu tergantung apa yang mau diubah itu Side Effect juga enggak sih Kalau ngubah satu properti dari data"
+    },
+    {
+      "start": 4960.12,
+      "end": 4970.47,
+      "text": "user properti lainnya banyak yang berubah Juga misalnya kalau user misalnya poinnya skornya di atas 3.000 itu jadi ada properti lain yang berubah"
+    },
+    {
+      "start": 4970.48,
+      "end": 4983.229,
+      "text": "Nah itu saya sebenarnya bisa di dianggap Side Effect kan H benar benar Nah itu jadi ujung-ujungnya ribet juga cuma ribetnya"
+    },
+    {
+      "start": 4983.239,
+      "end": 4995.55,
+      "text": "bentuknya gimana dan Kapan ketemunya Oh op enggak ribet nih malas belajar aja Oh iya iya deh jujur menurut saya sih ribet ya tapi"
+    },
+    {
+      "start": 4995.56,
+      "end": 5008.51,
+      "text": "enggak tahu ini masmas orang ya masing-masing orang nah ini kalau pakai package Seperti ramda apakah penggunaan memori bisa lebih"
+    },
+    {
+      "start": 5008.52,
+      "end": 5018.87,
+      "text": "kecil Iya tergantung kalau kita nulis kode sendiri kode yang sama kode kita apa bpotan panjang banget Terus kalau"
+    },
+    {
+      "start": 5018.88,
+      "end": 5027.07,
+      "text": "kita ganti pakai ramda ternyata lebih rapi lebih pendek ya lebih kecil dong Maksudnya technically formally entah lebih kecilnya berapa byit beda berapa"
+    },
+    {
+      "start": 5027.08,
+      "end": 5033.709,
+      "text": "ba doang pasti lebih kecil kan Tapi kalau kita bisa bikin kode yang lebih ringkes lebih lebih efisien harusnya"
+    },
+    {
+      "start": 5033.719,
+      "end": 5042.189,
+      "text": "lebih ya kode kita sendiri enggak usah pakai ramda lebih kecil tapi kan secara realistis perlu waktu juga nulis kodenya"
+    },
+    {
+      "start": 5042.199,
+      "end": 5053.31,
+      "text": "jadi di luar m ada kalau memilih penggunaan library itu adalah untuk menghemat waktu untuk ng-develop-nya karena fungsi-fungsi yang"
+    },
+    {
+      "start": 5053.32,
+      "end": 5060.35,
+      "text": "dasar yang kita enggak sudah dibuat orang sudah sudah dibuatin orang jadi kita hanya fokus S tesnya juga yang"
+    },
+    {
+      "start": 5060.36,
+      "end": 5066.189,
+      "text": "ngetes kan dia I dia sudah Dia sudah ngetes dan kita hanya tes yang perlu kita buat aja Jadi sebenarnya lebih"
+    },
+    {
+      "start": 5066.199,
+      "end": 5076.709,
+      "text": "mempercepat waktu untuk ngdevelop dan betul yang kita maintain adalah fungsi-fungsi atau eh kode yang hanya berhubungan sama"
+    },
+    {
+      "start": 5076.719,
+      "end": 5091.35,
+      "text": "bisnis prosesnya kita saja oh oke ya ya I Ya baiklah ada pertanyaan yang belum terjawab banyak pertanyaan Oh iya yang di fanboy"
+    },
+    {
+      "start": 5091.36,
+      "end": 5101.35,
+      "text": "JavaScript gara-gara Wah mantap Mas jangan jangan fanboy ya jangan fanboy ya jangan sampai fanboy eh ya kalau lagi"
+    },
+    {
+      "start": 5101.36,
+      "end": 5109.79,
+      "text": "suka Jav ya suka aja nanti kalau misalkan tiba-tiba ketemu bahasa lain ya UD Jang to jangan toksik ah ini"
+    },
+    {
+      "start": 5109.8,
+      "end": 5116.189,
+      "text": "pertanyaan menarik nih dari kacang rebus Wah namanya bikin Lapas ada engak sih bahasanya bisa ganti javascript secara"
+    },
+    {
+      "start": 5116.199,
+      "end": 5125.149,
+      "text": "full secara full belum ada ya belum ada ras pun ras itu bisa jalan di browser enggak sih harus dicompile ya Belum"
+    },
+    {
+      "start": 5125.159,
+      "end": 5131.669,
+      "text": "belumin kan enggak bisa bikin UI kan enggak bisa e enggak bisa jalan diiteak bisaong manipulasi Dom I belum bisa"
+    },
+    {
+      "start": 5131.679,
+      "end": 5144.31,
+      "text": "manipulas manipulasi Dom bisa dulu sempat ada ada apa ada wacana untuk mengkodeta javascript di browser salah satunya ya"
+    },
+    {
+      "start": 5144.32,
+      "end": 5152.75,
+      "text": "tadi silverlight apagi e flash action script UPL tapi masing-masing browser punya itu sendiri ya jadi kayak sama"
+    },
+    {
+      "start": 5152.76,
+      "end": 5163.189,
+      "text": "satu lagi yang hampir ya yang hampir berhasil mengkodeta adalah dart sebenarnya iya tapi G itu mau dimasukin ke Chrome"
+    },
+    {
+      "start": 5163.199,
+      "end": 5177.47,
+      "text": "tadinya cuman Entah kenapa enggak jadi akhirnya jadilah flut enggak tahu bukan angular ya dia lahir dari angularrip Oh jadi flutter"
+    },
+    {
+      "start": 5177.48,
+      "end": 5185.07,
+      "text": "Rip jadi flut jadi dipakai di flatter maksudnya bukan jadi flut ya he CL di komponen di react menurut saya"
+    },
+    {
+      "start": 5185.08,
+      "end": 5196.189,
+      "text": "lebih clean Jadi gak perlu use memo use callb dan lain-lain Iya kalau sudah bentar lagi sudah ada re compiler memo sudah gak"
+    },
+    {
+      "start": 5196.199,
+      "end": 5208.229,
+      "text": "perlu sudah gak per tapi juga gara-gara kebanyakan pakai konsep programming itu jadi overuse ya Benar gak sih pakai ini gitu kan"
+    },
+    {
+      "start": 5208.239,
+      "end": 5220.629,
+      "text": "jadi itu kannya juga kan itu utility function kan Hook sebetulnya Iya betul untuk memudahkan sebenarnya kalau menjadi"
+    },
+    {
+      "start": 5220.639,
+      "end": 5231.27,
+      "text": "sulit ya jangan digunakan gitu aja ya tujuannya kan asal jangan dicampur-campur udah itu asal jangancampurcampur ya Apakah eh di masa"
+    },
+    {
+      "start": 5231.28,
+      "end": 5239.35,
+      "text": "depan nojs bisa run typ script out of the box bisa jadi iya Deno udah bisa e Bun Kayaknya"
+    },
+    {
+      "start": 5239.36,
+      "end": 5246.87,
+      "text": "udah bisa juga cuma berarti kayaknya not unlike deh maksudnya note kan mengutamakan stabilitas ya Ee dari apa"
+    },
+    {
+      "start": 5246.88,
+      "end": 5254.669,
+      "text": "filosofinya stand heeh heeh jadi paling Eh kalau pada mau coba-coba di runtime pengin bikin runtime yang mak saya yang"
+    },
+    {
+      "start": 5254.679,
+      "end": 5265.149,
+      "text": "lebih lebih out of the box eh typesript itu paling diband sama Deno berharapnya enggak eh konsep-konsep beberapa konsep"
+    },
+    {
+      "start": 5265.159,
+      "end": 5274.55,
+      "text": "typ script sendiri juga ada kemungkinan masuk ke javascript secara umum kan javascript jadi kayak misalkan Ada kemarin beberapa tahun yang lalu eh typ"
+    },
+    {
+      "start": 5274.56,
+      "end": 5284.27,
+      "text": "mau di mau diintroduce di javascript gitu Jadi bisa aja bisa aja kalau masuk lewat ript terutama ya kalau udah standariz"
+    },
+    {
+      "start": 5284.28,
+      "end": 5299.43,
+      "text": "lah He nah ada satu lagi yang banyak pertanyaan yang menyangkut dengan functional programming kan kita pakai imutable variabutable data typesutable e"
+    },
+    {
+      "start": 5299.44,
+      "end": 5309.35,
+      "text": "data structure Apakah itu akan memakan memori lebih banyak daripada kita mutable karena kan harus punya variabel yang banyak gitu lebih banyak ya okup"
+    },
+    {
+      "start": 5309.36,
+      "end": 5321.07,
+      "text": "memori pasti kan pasti Ya pasti pasti Iya lebih banyak cuman enggak signifikan benar enggak sih Heeh tergantung kita sebanyak apa kalau"
+    },
+    {
+      "start": 5321.08,
+      "end": 5330.43,
+      "text": "ya itu harus harus testing beneran sih kalau udah berapa ratus berapa ribu ya pasti Makan memori signifikan karena ada pengalaman itu"
+    },
+    {
+      "start": 5330.44,
+      "end": 5340.709,
+      "text": "enggak ada Jav sudahya ada collector Ya jadi Ya iya tapi kan kalau masih dipakai ada function yang jalan yang pakai itu semua"
+    },
+    {
+      "start": 5340.719,
+      "end": 5350.229,
+      "text": "ya belum bisa Justru karena dia imutable dan dia hanya live dalam satu function jadinya yang misalnya fun itu"
+    },
+    {
+      "start": 5350.239,
+      "end": 5358.669,
+      "text": "sudahudah selesai dipanggil dan yang Tad di dalam sudah begitu begitu functionnya udah selesai kan dia ada cycelnya untuk"
+    },
+    {
+      "start": 5358.679,
+      "end": 5367.75,
+      "text": "garbor untuk he ngumpulin sampah Jadi sebenarnya ya Not much enggak enggak terlalu signifikan ya lebih penting kita"
+    },
+    {
+      "start": 5367.76,
+      "end": 5376.99,
+      "text": "enggak bakal ngerasa kecuali kita ada function yang ekstrem banget Maknya kerjaan yang lama berat banget yang ekstrem Iya salah satu benefitnya"
+    },
+    {
+      "start": 5377,
+      "end": 5384.79,
+      "text": "mungkin dari functional programming adalah kode kita lebih mudah dipahami dan lebih mudah diprediksi hasilnya ya Meskipun secara performa"
+    },
+    {
+      "start": 5384.8,
+      "end": 5396.47,
+      "text": "mungkin agak sedikit lebih tingi 0,00 detik lebihambat belum tahu bisa harus dicoba dan tergantung kasus ya karena kalau sudah bermain matriks kayak"
+    },
+    {
+      "start": 5396.48,
+      "end": 5404.79,
+      "text": "kayak matriks jarang yang gede-gede mungkin Heeh efek kali ya sama apa kayak big notation-nya maksudnya kalau kalau"
+    },
+    {
+      "start": 5404.8,
+      "end": 5415.629,
+      "text": "datanya dua kali lipat Gimana kalau datanya 10 kali lipat eh itunya kayak gimana harus ditonya kayakangun datanya kita kayak membuat"
+    },
+    {
+      "start": 5415.639,
+      "end": 5428.669,
+      "text": "aplikasi spreadsheet contohnya ya mungkin he e mungkin akan terasa kalau misalnya ada formula segala macam kayak gitu kalau dan dataanyatiap sel ada"
+    },
+    {
+      "start": 5428.679,
+      "end": 5442.109,
+      "text": "formulanya Rib Oke Oh I ada satu lagii kalauak iya ada ada satu lagi keunggulan functional programming eh dibandingkan"
+    },
+    {
+      "start": 5442.119,
+      "end": 5458.629,
+      "text": "eh nonfunctional programming eh conuren itu karena kan datanya imutable kan jadi ee setiap fungsi yang dijalankan di misalkan berbarengan"
+    },
+    {
+      "start": 5458.639,
+      "end": 5464.669,
+      "text": "paralel itu dia tidak akan mempengaruhi karena enggak ada Global variable kan H enggak ada R condition kan enggak ada"
+    },
+    {
+      "start": 5464.679,
+      "end": 5474.709,
+      "text": "yang ketimpa Hah Heeh yes gitu Bisa jadi bisa stand alone ya hm Jadi dia berdiri sendiri punya state"
+    },
+    {
+      "start": 5474.719,
+      "end": 5481.91,
+      "text": "masing-masing tidak mengganggu state yang lain begitu Ee apa prosesnya sudah selesai dia kirimin ke fungsi yang lain"
+    },
+    {
+      "start": 5481.92,
+      "end": 5494.51,
+      "text": "untuk diproses gitu Itu juga salah satunya yang membuat bahasa fungsional itu menjadi lebih menarik eh terakhir saya mau nunjukin salah satu"
+    },
+    {
+      "start": 5494.52,
+      "end": 5501.189,
+      "text": "tadi ini kita sempat Bahas eh apa yang variabel variabel yang imutable ya Eh itu mempengaruhi performance atau enggak"
+    },
+    {
+      "start": 5501.199,
+      "end": 5516.07,
+      "text": "eh sepertinya berpengaruh terutama tergantung ini ya Tergantung scale-nya ya jangan di di generalisir ya ini ada Har eh yang e dari discord mereka punya"
+    },
+    {
+      "start": 5516.08,
+      "end": 5530.75,
+      "text": "masalah eh mereka pakai elixir secara bahasaramannya 11 juta I mereka akhirnya terpaksa pakai ras karena eh data struktur"
+    },
+    {
+      "start": 5530.76,
+      "end": 5544.87,
+      "text": "di Iya jadi mereka coba E untuk e ngpush berapa nih ya mereka tujuannya ini nih mana dia e memberly"
+    },
+    {
+      "start": 5544.88,
+      "end": 5560.39,
+      "text": "rp00.000 mau Oh bukan mana ya Ada ada ininya angka-angkanya Itu kayaknya deh benchmark benchmark tes benchm ya ini baah 500 MS ya enggak ada kayak"
+    },
+    {
+      "start": 5560.4,
+      "end": 5570.83,
+      "text": "mereka mau melakukan apa gitu ada satu fungsi yang membuat mereka harus ee optimasi mana ya itu tadi Kak misalnya"
+    },
+    {
+      "start": 5570.84,
+      "end": 5578.669,
+      "text": "kalau ada server yang anggotanya 100.000 ada satu orang baru join harus bikin baru lagi we would have to build a new"
+    },
+    {
+      "start": 5578.679,
+      "end": 5591.43,
+      "text": "list benar benar membernya 100.001 Iya jadi itu yang dan eh apa mereka bikin itu eh worst cas-nya"
+    },
+    {
+      "start": 5591.44,
+      "end": 5606.95,
+      "text": "eh best case-nya 500 MS mili apa mikro nih mikro mikrosc ya mikr sama 170.000 mikr kalau kalau kita 500 mikros eh 170"
+    },
+    {
+      "start": 5606.96,
+      "end": 5616.39,
+      "text": "Kayaknya masih oke lah ya enggak tahu ya ini tergantung aplikasinya juga kan real itu kan satu dikalikan 11 juta ya bed"
+    },
+    {
+      "start": 5616.4,
+      "end": 5628.79,
+      "text": "Lah iya kas dan dan akhirnya mereka menggunakan Eh ini Si ras untuk manggil jadi dari elikir manggil fungsi keras Habis itu"
+    },
+    {
+      "start": 5628.8,
+      "end": 5637.51,
+      "text": "dia proses dibalikin lagi ke elikirnya berarti tambal sulam ya gak engak semua sekaligus bisa langsung dirfaktor jadi"
+    },
+    {
+      "start": 5637.52,
+      "end": 5645.669,
+      "text": "rest kan Iya enggak enggak mereka enggak melakukan refaor jadi e elixir itu bagus untuk Real Time kan untuk di front"
+    },
+    {
+      "start": 5645.679,
+      "end": 5655.31,
+      "text": "endnya back endnya proses-proses berat itu bisa diarahkan ke e bahasa yang low level seperti si Rus e Go dan"
+    },
+    {
+      "start": 5655.32,
+      "end": 5666.87,
+      "text": "lain-lain nah kebetulan elikir bisa ini e native implement function jadi function-nya itu ditulis dengan si at ras bisa di langsung dipanggil gu kayak"
+    },
+    {
+      "start": 5666.88,
+      "end": 5676.79,
+      "text": "di info gitu ya jadi info kayak info komen komen laine ya berarti ya betul nah itu jadi ee kalau ditanya yang tadi"
+    },
+    {
+      "start": 5676.8,
+      "end": 5685.79,
+      "text": "pertanyaan tadi Apakah berpengaruh Iya tapi kalau udah faktor pengalinnya sangat besar seperti discord itu baru itu berasa gitu baru worth it dibikin"
+    },
+    {
+      "start": 5685.8,
+      "end": 5695.59,
+      "text": "kayak gitu Ya bikin satu serv Iya nih ada yang pengalaman pakai ras enggak kita belum ada yang pakai sudah pakai"
+    },
+    {
+      "start": 5695.6,
+      "end": 5707.59,
+      "text": "hanya sekedar nulis-nulis baru kayak ikut lesson coursesnya Oh more than hello world lah more than hell World tapi belum"
+    },
+    {
+      "start": 5707.6,
+      "end": 5725.149,
+      "text": "Iya more than hello world gampang susah eh bisa ngikutin eh tergantung gampang gampang susah karena harus"
+    },
+    {
+      "start": 5725.159,
+      "end": 5734.07,
+      "text": "mengerti mengerti pola pikirnya Si ras karena completely different sama javasp ataupun PHP paradigmanya harus dipelajari ya paradigma sebuah bahasa"
+    },
+    {
+      "start": 5734.08,
+      "end": 5744.189,
+      "text": "juga harus dipelajariw tuh bawel banget oh compilernya bawel ya itu terkenal ya Jadi kalau belajar bahasa itu ya Enggak"
+    },
+    {
+      "start": 5744.199,
+      "end": 5755.31,
+      "text": "cuman belajar sintaksnya tapi belajar e ininya filosofinya kalau go katanya kan oriented tapi eh apa namanya pakai eh"
+    },
+    {
+      "start": 5755.32,
+      "end": 5766.75,
+      "text": "base-nya itu bukan bukan class base dia enggak ada kelas tapi ada metod I bas e struck base ya jadi itu yang harus"
+    },
+    {
+      "start": 5766.76,
+      "end": 5778.43,
+      "text": "interface STR itu Kak interface Ya kurang lebih Oh enggak bed bukan interface itu functionnya enggak ada jadi cuma interface itu funnya cuma"
+    },
+    {
+      "start": 5778.44,
+      "end": 5791.47,
+      "text": "definisi aja kalau strck itu e kayak kelas dan dia ada satu satu satu function kelas dan method tetapi anggap"
+    },
+    {
+      "start": 5791.48,
+      "end": 5800.109,
+      "text": "itu nama kelas itu adalah STR jadi di kelas yang besarnya itu adalah STR itu implement STR ini STR ini jadi kelas itu"
+    },
+    {
+      "start": 5800.119,
+      "end": 5811.229,
+      "text": "punya banyakam Oh isinya bisa ada Properti apa kayak adaodnya di dalam STR itu di php juga sudah bisa STR kalau"
+    },
+    {
+      "start": 5811.239,
+      "end": 5821.709,
+      "text": "kalau mau main oke ada PHP sudah adap itu modern loh Swift juga struck base Kalau enggak salah kalau enggak salah ya op-nya strck"
+    },
+    {
+      "start": 5821.719,
+      "end": 5830.229,
+      "text": "base jadi ya ya itunya yang juga harus dipelajari Enggak cuman sintaksnya doang eh bentar ngomong bahasa programan"
+    },
+    {
+      "start": 5830.239,
+      "end": 5837.31,
+      "text": "macam-macam jadi ingat komik ini deh Udah pada lihat belum Coba deh buka di chat Oh pernah pernah pernah"
+    },
+    {
+      "start": 5837.32,
+      "end": 5844.79,
+      "text": "Oke tuh lihat ini enggak ngerti Cuma karena engak nguasain bahasa lain Jadi kurang lucu sih jadi bingung Oh jadi"
+    },
+    {
+      "start": 5844.8,
+      "end": 5851.79,
+      "text": "engak relate ya Ya maksudnya kalau enggak pakai bahasa itu kan gak tahu lucunya di mana selain javascript coba"
+    },
+    {
+      "start": 5851.8,
+      "end": 5864.589,
+      "text": "zoom in zoom in javascript kan hipster udah Bik P Pak library gitu ya Pak Framework Set upnya lama bikin"
+    },
+    {
+      "start": 5864.599,
+      "end": 5877.91,
+      "text": "Framework e apa jadi misinya adalah siria harus menyelamatkan Princess kan Princess ditawan di benteng Nah kalau pakai javascript apa"
+    },
+    {
+      "start": 5877.92,
+      "end": 5889.95,
+      "text": "bentengnya udah keburu ditinggal si princessnya udah pindah udah hilang Oke kemudian kalau kalau bahasa lain gua gak ngerti"
+    },
+    {
+      "start": 5889.96,
+      "end": 5905.87,
+      "text": "sih gak ngerti lucunya di mana The Princess entireard Oh ini e kayaknya terlalu lengkap ya terlalu lengkap cuma gak bisa berhenti sulit"
+    },
+    {
+      "start": 5905.88,
+      "end": 5916.629,
+      "text": "diop eh si si bukan op kan kalau op itu yang ada memesnya juga nanti coba kita lihat"
+    },
+    {
+      "start": 5916.639,
+      "end": 5934.43,
+      "text": "ya the en kayaknya in jennya Inside jokennya orang i nah pakai Java udah"
+    },
+    {
+      "start": 5934.44,
+      "end": 5947.83,
+      "text": "buru-buru ada dua dua k tapi gak ada princess-nya kalau Lis Ya udah ini doang ya kurung Kurau apa kayaknya itu bahasa"
+    },
+    {
+      "start": 5947.84,
+      "end": 5958.27,
+      "text": "yang penuh apa bracket apa tanda kurung terus kebolak-balik ya kayaknya jadi apa kudanya naik orang kudanya naik prin"
+    },
+    {
+      "start": 5958.28,
+      "end": 5968.709,
+      "text": "naik orang kebalik-balik ya i we don't support freeing capturing Princess We already have this free Princess in standard library standard"
+    },
+    {
+      "start": 5968.719,
+      "end": 5977.91,
+      "text": "library Is this the princess From The Java panel from Java kan tadi Java panel ktilnya dua princessnya princessnya di"
+    },
+    {
+      "start": 5977.92,
+      "end": 5985.189,
+      "text": "situ you declare your princess and Castel and rescue plan then you go for a drink forget about the implementation Oh"
+    },
+    {
+      "start": 5985.199,
+      "end": 5999.79,
+      "text": "cuman diclare doang gak di jalan kasihanang Im image-nya kayaknya PHP Mas buruk sekali ya bisa ternyata bisa tadi kan Ya"
+    },
+    {
+      "start": 5999.8,
+      "end": 6005.51,
+      "text": "mungkin persepsi populer ya orang yang gak pakai PHP enggak tahu fitur-fitur itu ada berarti Emang kurang Ambassador"
+    },
+    {
+      "start": 6005.52,
+      "end": 6020.99,
+      "text": "aja betul kurang Def aja Masti nanti jadi [Tertawa] PHP Janganlah PHP tetap berkembang iya"
+    },
+    {
+      "start": 6021,
+      "end": 6036.149,
+      "text": "banyak kok apa E bahasa-bahasa yang lain juga banyak tetap berkembang kadang-kadang juga del del 84 loh Iya dari tahun berapa tuh PHP dibilang"
+    },
+    {
+      "start": 6036.159,
+      "end": 6044.35,
+      "text": "bakal mati bakal mati tapi enggak mati kanak ada juga bahasa yang yang awalnya Mungkin sedikit populer terus kemudian"
+    },
+    {
+      "start": 6044.36,
+      "end": 6051.75,
+      "text": "enggak didengar terus tiba-tiba muncul gitu kan banyak kan eh tiba-tiba mati Muncul lagi gu juga B banyak"
+    },
+    {
+      "start": 6051.76,
+      "end": 6063.709,
+      "text": "kan 83 yang sudah rilis 84 tuh masih tahun ini tetapi 83 November lalu I mungkin eh salah satu eh apa"
+    },
+    {
+      "start": 6063.719,
+      "end": 6074.109,
+      "text": "namanya kesulitan belajar Rus tergantung dari eh background kita kalau background kita mungkin udah menggunakan bahasa yang type language seperti Java atau"
+    },
+    {
+      "start": 6074.119,
+      "end": 6087.75,
+      "text": "typesript mungkin itu mungkin kayaknya cenderung lebih mudah ya cuman konsep-konsepnya itu banyak yang berbeda contohnya boro cheker boroeker juga beda ya itu nah ya"
+    },
+    {
+      "start": 6087.76,
+      "end": 6096.149,
+      "text": "Saya juga gak tahu itu apa jadi banyak e banyak apa ya sama kayak Oop banyak yang dipelajari e apa istilahnya e"
+    },
+    {
+      "start": 6096.159,
+      "end": 6105.07,
+      "text": "konsep-konsepnya mungkin itu by the way kita sudah hampir 2 jam ternyata ternyata bisa ngomin gini doang bisa"
+    },
+    {
+      "start": 6105.08,
+      "end": 6113.83,
+      "text": "lama he seru lagi seru ya mungkin next timeennya kita akan bahas op di Java skriip kali ya Biar adil Kalau bahas"
+    },
+    {
+      "start": 6113.84,
+      "end": 6126.43,
+      "text": "biar adil Kalau bahas PHP Nanti bahas Pak amayumudim apa tuh Oh kalau enggak tahu ya berarti harus cari apa itu"
+    },
+    {
+      "start": 6126.44,
+      "end": 6135.27,
+      "text": "oke e Nantilah itu itu scop operator masalah masalah di scop operator oh nah seru ini Iya sebenarnya kan kita mau"
+    },
+    {
+      "start": 6135.28,
+      "end": 6143.87,
+      "text": "bahas PHP kan tapi mau ngundang siapa gitu kan mau belum ketemu narasumbernya mungkin teman DII punya kenalan yang"
+    },
+    {
+      "start": 6143.88,
+      "end": 6156.99,
+      "text": "bisa diajak ngobrol di sini boleh ya kita e undangang nanti apa Nah ini Bu entar buat episode PHP lah oke untuk"
+    },
+    {
+      "start": 6157,
+      "end": 6169.75,
+      "text": "malam ini mungkin kita udahan dulu e jangan lupa kita bisa diskusi lebih lanjut ya di githubnya kitaapcom/obrolin atau"
+    },
+    {
+      "start": 6169.76,
+      "end": 6178.709,
+      "text": "ke/obrol Jadi sebenarnya bisa ee apa suggest topic atau bisa mau diskusi misalkan Saya pengin tahu dong eh cara"
+    },
+    {
+      "start": 6178.719,
+      "end": 6186.43,
+      "text": "penggunaan Apa ya Eh use memo itu kayak gimana gitu ya kalau kalau sempat nanti kita akan jawab mungkin kita akan bikin"
+    },
+    {
+      "start": 6186.44,
+      "end": 6194.35,
+      "text": "episode khusus untuk menjawab pertanyaan-pertanyaan yang ada di sana itu menarik juga kan Ya woh udah muncul nih nama-namanya pak Sandika"
+    },
+    {
+      "start": 6194.36,
+      "end": 6202.07,
+      "text": "gali e Mas Petra Oh iya benar kalau Pak Sandika gali lebih gampang Kalau lebih gampang ya Heeh tapi dia enggak mau"
+    },
+    {
+      "start": 6202.08,
+      "end": 6215.39,
+      "text": "diajak bahas PHP itu enggak mau coba mungkin set Mungkin setelah nonton ini mau ah ya mudah-mudahan dengan PHP bisa beli lambo Wah lambo JS"
+    },
+    {
+      "start": 6215.4,
+      "end": 6225.47,
+      "text": "BRB belajar PHP lambo JS ya lambo JS yang beli kan yang bikin Framework kan ya bukan yang menggunakan"
+    },
+    {
+      "start": 6225.48,
+      "end": 6236.91,
+      "text": "frameweloper yang ini bahasanyaan mimpi sebelum kalian bikin Framework Oke Jadi silakan berlomba-lomba bikin Framework ya ya itu"
+    },
+    {
+      "start": 6236.92,
+      "end": 6250.51,
+      "text": "tadi nama nama bahasanya sudah ada ide kan di atas ada ada apa kutilang ditilang ditilang Iya Jadi mungkin untuk malam"
+    },
+    {
+      "start": 6250.52,
+      "end": 6258.95,
+      "text": "ini kita udahan dulu sebelum semakin ngaco ya terima kasih buat semuanya yang sudah meramaikan Ee mudah-mudahan kita"
+    },
+    {
+      "start": 6258.96,
+      "end": 6266.99,
+      "text": "dapat sesuatulah ya dari sesi malam ini Enggak cuman ee saling mengejek ya jangan ya Enggak boleh ya Loh kan Enggak"
+    },
+    {
+      "start": 6267,
+      "end": 6279.07,
+      "text": "ngejek kita mengapresiasi mengapresiasi betul betul oke kita ketemu lagi minggu depan minggu depan tanggal tanggal 5 berarti minggu depan"
+    },
+    {
+      "start": 6279.08,
+      "end": 6286.629,
+      "text": "ada bintang tamu spesial siapa kita tunggu saja seru banget Iya topiknya juga lagi Hype ya jadi ditunggu"
+    },
+    {
+      "start": 6286.639,
+      "end": 6296.79,
+      "text": "aja Ee Kita tanggal 5 ya tanggal 5 ya tanggal 5 Oke dan untuk malam ini sekian terima kasih banyak Sampai jumpa minggu"
+    },
+    {
+      "start": 6296.8,
+      "end": 6307.599,
+      "text": "depan Bye bye bye bye"
+    }
+  ],
+  "fullText": "Hai selamat malam selamat malam Gimana kabarnya semua semoga sehat-sehat Ya baikbaik semua he Ya seperti biasa ya Ee malam ini adalah ee waktu yang tepat buat kita untuk menguji kekompakan kita sebagai panelis karena malam ini adalah selasa malam biasanya selasa malam itu waktunya ngapain ya waktunya waktunya ngobrol oke ya Maaf telat cari pencetnya dulu tadi bentuknya kayak gimana sih Soundboard kayak kotak Soundboard hah gak pernah gu kayak drumad enggak iniak ini software software Oh iya selama ini bayanginnya kayak Berarti Pak iniong Tuh softwnya jadi mau eror mau apa [Tertawa] itu Oke cukup cukup ya behind the sc-nya ya ya Jadi ketemu lagi kita masih bareng eh Eka Ivan dan Heeh kita bertiga masih Trio webweb ya Dan mungkin buat refreshing buat teman-teman yang mungkin baru baru join gitu ya mungkin kita bisa Refresh dulu ini acaranya tentang apa sih ngobrolin web ini tentang apa kalau judulnya ngobrolin web iya iya biasa Biasanya kita teknologi kongkkongk Heeh teknologi web kan itu ee cakupannya luas sekali ya kalau kita belajar semuanya sendiri kayaknya enggak bakal enggak bakal 0an sampai yang paling baru enggak habis-habis Kalau dipelajarin iya mungkin makanya ada acara mingguan ini biar kita juga update ya kadang teman-teman di chat lebih update dari kita betul betul Iya e dan tujuannya adalah supaya kita enggak kehabisan ide kalau disuruh ee mengisi acara di baik deves Google iu ataupun meap-mitap di sekitar ya karena kita sudah mulai kehabisan materi jadi kita mau menggali ee apa teknologi-teknologi baru atau teknologi lama ya yang mungkin belum pernah atau jarang di cover jarang di ee bicarakan ya kita bisa bicarakan di sini oke ada jadi pilihannya ant kehabisan topik atau kebanyakan topik giliran betul betul betul betul kebanyakan topik ya giliran ada yang seru banyak banget bingung milihnya giliran gada ide pusing juga ya susah jadi manusia enakan jadi sendal hari ini hari ini eh dia itu ya udah tahu konsep promis ya jadi eh langsung Apa ya Eh ini Ya Jalanin duluend jalanin dulu n hasilnya callback Ya kalau event base sendalnya lempar balik iya iya iya i Oke siap nah Malam ini kita mau bahas ee mungkin topik yang cukup fundamental ya tentang konsep Iya konsep pemograman funional di javascript karena kan mungkin ee sebagian dari kita tahu bahwa eh javascript itu op loh iya ada benarnya E tapi javascript juga kayaknya nya funsional loh konsep funionalnya banyak loh yang diterapkan apalagi kalau ah main-main react ya Eh konsep komponen pure function apalagi tuh immutability kalau pakai redux kan harus eh immutable kan e tipe datanya dan lain-lain loh ini functional semua gitu kan Tapi ada kelasnya juga gitu jadi ya memang eh apa namanya si javascript ini ya memang dia bisa banyak ee ini ya bunglon ya bisa menyamar sesuai ar sesuai kebutuhan Nah mungkin kita akan mulai dari ee sedikit sejarahnya dulu sejarah si javascripnya Kenapa si javascript ini bisa bunglon ya Ada tuh jadi beberapa minggu yang lalu saya ketemu sebuah paper judulnya javascript The First 20 years ini yang bikin yang nulis adalah yang bikin javascript juga Pak Brendan Iya bikinnya 7 hari doang Ya bikin papernya mungkin lebih lama daripada bikin javascriptnya ya Oh iya bikin javascriptnya 7 hari bikin javascript-nya Kejar Tayang bikin papernya lama ini mungkin banyak biasanya gitu ya i i ya E ini saya share juga apa namanya kalau teman-teman mau baca kita enggak bakal baca sampai habis ya Kita cuman menunjukkan beberapa bagian-bagian penting yang berhubungan dengan e obrolan kita malam hari ini jadi teman-teman bisa download di sini acm.org nah ini kita scollr aja saya sudah Tandain ini adalah tentang cerita pembuatan desain dan evolusi javascript dari 99 95 sampai 2015 terus seperti yang kita tahu Eh javascript itu dimulai dari apa ini ya enggak ada ya oh bukan yang ini ini ee kok mana ya Kok kehilang saya kehilangan highlight ya Nah ini aja nih is1 Itu di 97 is298 is399 habis itu mulai ee Kehilangan Arah sampai is lima baru mulai drama Iya 10 tahunan itu kayak ee terombang Ambing ya sengketa sampai akhirnya ee kemb Ini zamannya zaman kelamnya javascript kan ya sampai sempat ada yang namanya yang ada bikin tandingan Apa itu uplet silverl iya Iya flash flash flash action script Nah itu juga jawript kan sebenarnya kan turunannyaya Iya dan Ya banyaklah dramanya banyak ya Nah seperti yang kita tahu ya di tahun 89 sampai 91 eh www world web itu muncul diperkasai oleh tim bernerser lalu kemudian nah ini menariknya di 95 si Pak Brandon ini direkrut oleh netscape dengan iming-iming Ayo join ke netscape bisa bikin E skim di browser skim itu adalah bahasa pemograman funal eh yang satu satu family satu keluarga dengan lispi yang banyak kurung itu ya jadi e dia diiming-imingi suruh bikin bahasa pemrograman mirip skim untuk browser Join lah dia Wah dia tertarik sekali karena memang dia mungkin ngefans ya sama skim ini atau berarti dari awal dia emang mindsetnya funional ya funional betul kandidat untuk bahasanya ada banyak waktu itu ada pe ada Python ada TCL ada e Visual Basic juga karena si netscape juga ada Ada apa ya menjalin kerja sama dengan Microsoft juga pada saat itu ya Tapi semua berubah ketika 95 Sun microsstem bikin E kampanye gila Gaan yang mau ngpublish atau e merilis Java walaupun belum dirilis ya baru apa ya baru teaser gitu sampai akhirnya e beberapa orang di netcap memutuskan untuk Yuk kita ikutin Java aja supaya kita bisa ikut hyp gitu karena lagi nget Iya jadi e apa namanya eh diharapkan si javascript ini yang namanya belum javascript ya E namanya masih yang lain ya Moka pada saat itu eh pokoknya bahasanya mirip Java seperti Java tapi object base bukan class base ya ini beda ya object base itu ya kayak javascript dulu ya pakai Prototype itu kan objek ya E lua juga sama itu op tapi dia object base gak ada kelas javascript ada kelas itu juga synaktic sugar kan sebenarnya kan ya sekarang ya di baliknya itu di belakangnya sebenarnya di dalamnya function juga object dan function ya Iya object dan function Nah akhirnya eh dia Bikinlah Prototype eh Moka itu yang 7 hari itu ya demonya lumayan eh berhasil dan membuat Apa teman-teman di netscape itu sangat apa ya bergairah gitu semangat gitu ya dan EE akhirnya Walaupun dia tidak berhasil apa E mewujudkan impiannya tapi dia cuma dikasih waktu bikin bite code di compiler in his 10 days sprint kita bisa bikin apa ya 10 hari ya dia bisa bikin bahasa ya lah ment di i jadi bisa inilah buat start create re app terus kemudian bisa jadi Hello itu bisa Oh I 10 hari oke nah Jadi intinya sebenarnya yang mau digaris bawahi dengan apa dari sejarah yang singkat ini adalah javascript itu sebenarnya awalnya ditujukan untuk e untuk dibuat untuk eh funsional dan Berhubung ada apa ya E pertemuan antara pragmatisme dan idealisme di tengah-tengahnya jadi duadanya malah ya jadinya sekarang ya ya sekaligus buat itu mengambil hati developer yang ada developer yang suka oh karena mungkin awalnya belajar dari apalah bahasa yang ada yang Emang I dari awal fun udah senang udah puas Ada yang min min objek pengin objek oriented nah kayaknya berusaha memuaskan semua orang itu semua pihak gitu ya he gampang-gampang susah ya Iya susah-susah gampang susah-susah lebih banyak susahnya jadi ketika ee mungkin ya Tim apa orang yang pertama kali men-ghire si pak branden ini bilang Oh I Yuk kita idealisme mewujudkan eh lispy style programming untuk scripting di browser terus begitu apa begitu ketemu sama iya yang di industri kebetulan yang lagi naik down yang mulai naik down itu Java akhirnya Ya ada apa namanya eh ya ber inilah ya eh apa eh berkompromiah supaya adaptasi kompromi Iya beradaptasi kompromi supaya ya bahasanya bisa dipakai daripada dia bikin dia mewujudkan idealisme terus enggak dipakai kan akhirnya jadi mati juga kan itu jadinya karya seni bukan bukan produk bikin buat ekspresi diri aja makanya javascript dibilang functional Iya object oriented juga iya gitu kan eh semua bisa masuk sem mau ke mana Iya begitu juga dengan react Kalau enggak salah dulu sempat ada Saya dengar di salah satu podcast gitu ya react dulu awal-awal kan ada class base ya jadi bikin komponen pakai kasu pertama banget belajar react tuh kayak gitu pas masih class base terus semua pakai Dis itu apa komponen moun komponen berubah berah jadi terus karena maksudnya belajarnya dadakan engak apa belum mempelajarin fundamental asli bingung tiba-tiba kopas-kopas kode cuma mindahin dari satu tempat ke tempat lain ya jelas kalau pakai Dis ya ggak l gak jalan fun pernah pernah bikin Dis sama dengan De gak sih samaama dipindahin ke variabel lain itu gaya-gaya jaquery sekali ya nah eh iya itu kelebihannya javascript dan juga sekaligus kekurangannya orang jadi bingung kan e jadi ada plus minusnya Scope hoisting kan itu ya masalahnya iya iya Scope hoisting pernah kita bahas pernah kita bahas dulu kita pernah kita belum pernah bahas Pernah Pernah pernahamental Ya di beberapa yang dulu iya Padahal di apa ada kayaknya ada beberapa yang kontribusi ke react itu sempat bilang saya pernah dengar di satu podcast katanya Salah satu tujuan kita membuat CL base seperti itu adalah untuk eh menjebak orang-orang Java yang tadinya codingnya Java Oop supaya mau icip-icip R Habis itu habis itu terjebak dia Oh harus ikutin funional nih harus pakai redux terus konsep funsional dikenalin sedikit-sedikit lama-lama yang kelasnya hilang ya terus mereka pindah terus mereka pindah ke angular Oh enggak ya Iya jadi ya salah satu mungkin salah satu visi misinya re juga untuk itu ya untuk apa mengembangkan funal e di sisi javascrip begitulah seperti Damar yang gak suka sempat sebut nyebut kata jaquery jaquery baru rilis loh bulan ini jaquer empya jaquer 4 dan backbon juga rilis Ada angin apa ini Iya ada angin ada angin angin kedua masa lalu bertiup bertiup kembali I tren itu kan muter kan tahu kan kayak fashion tiba-tiba fashion 90-an ngetren lagi Tapi enggak juga sih ya kalau saya lihat ya 30 tahun sekali Mungkin mereka baca Almanak kali ya mereka baca web Almanak mulai dari masih Domin 2021 2022 2023 Terus mungkin sudah dapat bocoran 2024 kayak gimana kayaknya trend jqu enggak turun-turun ya udah rilis aja sesuatu yang baru memodernisasi karena masih banyak banget yang pakai it makes sense kalau dirilis yang baru betul apalagi sekarang kan ada apa Ya mulai ada pergerakan Mungkin beberapa untuk beberapa kalangan udah kayak apa ya Framework fatigu ya Istilahnya ya lelah ya mengikuti Framework akhirnya banyak yang lari ke vanila kan lebih tepatnya semua Framework sudah semua Framework yang Major ya H baik itu reax Fa view apalagi angular angular segala macam ujung-ujungnya sudah k memiliki fitur yang mirip-mirip oh I benar sudah ada sudahak keluar compilernya contohnya sudah mau keluariner yang punya compiler Jadi sebenarnya nanti ujung-ujungnya punya punya pakai signyal semuanya pakai signyal gitu ya Iya fitur yang sama semua jadi ya Ah sudahlah jquery gua keluarin aja nih drop semua bikin lebih baik bikin performer lebih baik semuanya Win Betul kan ada apa ada ya ada beberapa Framework juga atau library yang seperti Alpine htmx yang e butuh apa ya landing page cuman butuh interaksinya Enggak banyak gitu Ngapain kita introduce satu Framework gitu kan Ya betulah hal-hal seperti jquery dan teman-temannya ya hidupery cquery never [Tertawa] Day Nah jadi sekarang malam ini kita akan coba ee apa ya menggali lebih dalam ini serbabih fional ya funional ini bisa diterapkan di di ee javascript atau enggak pasti bisa karena sudah banyak yang mengalami juga sudah banyak yang menggunakan juga cuman ee Apakah teman-teman tahu semua ee tahu ee apa ya fundamental dari funional itu apa aja sih gitu nah ini yang akan kita tahu cara kerjanya kitaak istilahnya Iya kita enggak tahu istilahnya Jadi pas lihat Oh maksudnya itu bilang biasanya gitu kan yang setara dengan kalau misalnya kayak kalau kita bandingin sama PHP sebenarnya PHP bisa fsional juga juga kan bisa funsional bisa Oop juga ba semua kayaknya hampir semua bahasa bisa ruby juga Walaupun dia Oop tapi bisa funsional e Python juga bisa Java B c++ juga bisa c+ asal bisa nyimpan function di variabel technically bisa function kan tapi tapi kan ada apa ya Ada beberapa beberapa ee fitur yang EE kalau fitur itu pun ee dipunyai oleh B sebuah bahasa baru bisa disebut sebagai bahasa funional mungkin ee apa ya kayak apa ya functional flavor kayak jenis musik lah ya kayak musik gitu ini jazzy tapi bukan Jazz kan Cum bernuansa Jaz ada bernuansa jazz gitu belum tentu dia jazz gitu He musik pop tapi kayak ada apanya yang mirip-mirip e Jaz musik rock dipadukan dengan dangdut jadi Rock Dut gitu kan Oh udah beda lagi nih berarti bisa kita bahas nanti next selainja vask apalagi bahasa-bahasa yang fungsional bisa fungsional Oke berarti kita harus tahu dulu apa itu functional Iya fun Emang kita kita bisa ada yang bisa bahasa lain enggak kok enggak bisa masalahnya ada saya bisa bahasa b HP Oh bahasa Indonesia bahasa Indonesia bisa bahasa Batak bisa Jawa Bahasa Jawa bukan ja dulu kan ada ya bahasa pemrograman namanya Batak Oh gak tahu masa sih oh coba cari Ada iya gimana sih itu Inside J orang Indonesia ya kayaknya kalau orang orang luar Indonesia bingung I jangan bilang cuma bisa jalan di blangkon loh ini jadi cross ini ya ulos os-nya namanya ulos ulos ulos ya Oh iya benar jugaya keren tuh ulos ya Ul ulos menarik menarik menarik ya Nah functional programming adalah paradigma ya paradigma eh Oop paradigma apalagi paradigma pemrograman itu apa apa aja ya op functional event driven masuk engak ya Eh prosedural proseduralosedal prosedural yang mungkin teman-teman e yang pertama ngalamin yang terutama yang kuliah ya prosedural ya E Pascal C ya Eh vibi itu kayak imperatif atau apa sih imperaera hanya fungsi-fungsi aja walaupun dia bisa berjalan di fungsi tapi ya belum bisa disebut funsional Kenapa karena ada beberapa hal yang e enggak disupport gu ya Eh yang pertama adalah Eh ini pure function I pure pure function pure function itu artinya Apa artinya adalah eh mana dia Kok gak ada tulisannya nah ini akan selalu mengembalikan nilai yang sama kalau argumen sama kalau inputnya sama jadi inputnya selalu itu outputnya selalu pasti sama enggak pernah berubah hmm ini F kalau misal tahu rumus matematika fx = x + 1 Jadi kalau x-nya 1 sudah pasti hasilnya harus dua harus pasti dua dan enggak mempengaruhi hal lain di luar itu Side Effect itu kedua apa ini enggak terpengaruh oleh apapun dari luar dan ee enggak mempengaruhi apapun keluar tchat banyak bahasa baru Yai lagi banyak bahasa baru ya ide-idenya menarik ya Magelang Eh ada Beneran itu katanya belalang kut hilang hilang hilanguh luar biasa hebat-hebat emang dan ya satu itu ya Ee ketika kita masukkan parameter atau argumennya dengan nilai yang sama dia akan secara konsisten menghasilkan nilai ee keluaran yang sama juga 1 + 1 harus selalu dua gitu ya terlihat terlalu simpel ya tapi kadang-kadang ada ee satu fungsi yang parameternya dua tapi ternyata di dalamnya dia menggunakan Global variabel yang menyebabkan atau variabel dari apa scop di atasnya atau Apun yang menyebabkan sat+ah satu tidak lagi menjadi dua itu sudah tidak pure lagi bukan enggak boleh tapi bukan pure function jadinya atau kalau misalnya konteksnya web nih Eh apa entah fetching data dari luar kita manggil data dari api itu udah jelas enggak pure karena ya karena kan datanya pasti berubah ee belum tentu servernya nyala belum tentu responnya oke terus atau kita berinteraksi sama dom nah nah ee atau sama apapunlah UI yang di layar atau sama service worker atau web worker atau apapunlah pokoknya itu jelas enggak pure karena pasti kan bisa berubah-ubah ya Iya nah salah satu kekurangannya javascript kan Scope scoping itu ya Jadi kalau misalnya misalnya variabel itu didefinisikan sebelum function itu secara variabel bisa diakses dari dalam function tanpa perlu menjadi parameter He nah itu Iya itu bahaya ya yang menyebabkan lag saya enggak tahu itu kelebihan apa kekurangan saya enggak tahu kelebihan dan kekurangan itu karakter gimana kita menafsirkannya apa sih bagaimana kita memanfaatkan kekurangan itu menjadi kelebihan asik enggak itu ngebantu itu ngebantu praktikal jadi bijak ya karena S minum teh ini minum teh tuh jadi dewasa Nah apa tadi itu ya kan kita perlu nih kita perlu eh apa manipulasi atau pakai atau bikin kalkulasi pakai variabel dari scop e atasnya luarnya entah itu Global atau apa kan terbantu banget nah sekalinya itu funnya itu dipindahin digeser naik ke atas ke bawah keluar ke dalam Ya udah bubar semua jadi ada Rikonya tapi gara-gara javap si PHP jadi ikut-ikutan l untuk yang global variabel Ini masa iya jadi si PHP itu kan kita bisa pakai variabel dari luar Scope si function dengan pakai keyword use jadi function a b c d terus ada parameter terus use variabel dari luar Nanti variabel yang di dalam use itu keyword use itu bisa ngakses dari luar function ka si javascript ini Oke tapi berarti berguna dong Maksudnya kalau sampai Apa maksudnya javascript [Musik] pakai loh I Eka ng-freeze tuh Iya dia pakai Global variable soalnya untung Iya untung posya lagi bagus ya oke sambil menunggu Eka eh di sini eh tadi kita sudah meng-highlight same result ya tapi ada satu kata kunci lagi yang Jangan sampai kita lupakan yaitu adalah return full function itu harus ada return kan Ya enggak bisa void ya enggak bisa void kan dan enggak bisa javascript secara bahasa Sebenarnya dia e sudah pasti ada return kalau gak percaya coba function print dalamnya cons pasti dia akan return dua kali kan consnya sendiri ada returnnya return kos Nul atau undefine atau apa gitu nah jadi kalau teman-teman mau bikin pure function ya function itu biasakanlah ada returnnya kalau mau ngprint ya di luar function-nya jadi jangan Boleh aja sih kalau buat dibugging sih enggak masalah ya gitu return undefine betul Maulana betul dia selalu return undefine kalau kita tidak ada return value-nya kita tidak m-deefine return istilahnya apa implicit return ya implicit return ada eksplisit ada implisit undefine itu tipe datanya apa ya Hah undefine e undefine Iya undefine sama kayak Nul Nul juga tipe datanya Nul bedanya N0 sama Nan n oh n beda lagi ya not number Iya beda lagi Iya satu tadi harus ada return-nya kemudian nilainya tetap sama yang kedua adalah eh Side Effect Nah ada bisa menjelaskan Side Effect nah Eka tadi mau jelasin tentang apa tadi udah kelew PP udah udah Kok PP Oh udah oke Side Effect Side Effect ini apa ya menjelaskannya gimana ya itu tadi hal hal apapun yang di luar si function itu terjemahan Masud Apun yang di luar function itu sendiri Iya Iya Kayak misalnya kalau contoh eh konteks di web nih apa javascript di browser Dom manipulation Heeh kita memanipulasi domome atau misalnya ee mengubah apa ya I ngubah ngubah eint kol save ke database banyak Iya kita ngirim pesan ke service worker bikin request ya kan itu mempengaruhi hal-hal di luar function itu sendiri Nah apa makud terus kenapa nah kenapanya jadi misalnya kita bikin kita mengupdate data rownya tadinya t jumlahnya jadi 4 row kan kalau habis itu kita ngjalanin function yang sama itu lagi hasilnya otomatis beda kan karena tadi sekarang jadi EMP e Terus kalau dijalan lagi jadi l Nah itu tuh udah masuk Side Effect semua kalau konteksnya web i tapi kalau kita konteksnya web lagi kalau misalkan kita bikin aplikasi yang e harus e manipulasi Dom atau Simpan ke database itu udah pasti ada fungsi-fungsi yang ada side effectnya enggak mungkin enggakak salahak salah bukan bukan bukan dihindarin sama sekali Cuma maksudnya apa kalau kita punya kan kita kadang E mecah-mecah jadi beberapa function nih Nah terus kalau misalnya itu function semua itu Ya lumayan ribet ya Kenapa karena urutan 1 2 3 kalau ditukar ini bisa bisa berubah hasilnya kan kalau impure function semua jadi Biasanya sih yang paling luar misalnya impure function tapi kayak helper atau utility function-nya itu biasanya pure function semua karena itu larinya ke testing juga [Musik] kan betul yang penting kita sadar bahwa ini pure samaure kayak apav dong MV mvc eh model view controller Iya gimana tuh ya contohnya controller ya yang memanggil khusus yang untuk model dan view-nya terus modelnya hanya khusus datanya view-nya khusus uinya Heeh maybe kalau mau dibikin pure function semua eh modelnya yang harus itu kan tetap tetap eh set effect kan Iya sih tetap set effect mungkin yang yang paling make sense untuk e pure functional adalah view-nya seperti react komponen ada yang ee oh D komponen sama Smart komponen komponen bego komponen bego komponen pintar masih masih itu enggak sih konsepnya sekarang masih relevan enggak sih masih masih masih Iya karena lebih enak pakai Dam komponen Jadi benar aja ya Iya sesuai props nah ini beberapa contoh yang tidak pure ya reading fast random number Generation Enggak mungkin kan kita tes kan random number gimana ngetesnya kan bingung eh terus kalau counter itu Global variable salah satunya eh dan kita mengubah Global variable ya salah satunya contoh dari juga mempengaruhi hal lain di luar function itu sendiri Iya benefitnya udah jelas ya Apa kode kita jadi lebih bisa kita prediksi Heeh unit testingnya Ya udah langsung kita expect expect kita bikin assertion kalau 1 d 1 ya hasilnya harus 2 enggak bisa 3 enggak bisa 0 nah 5 kur 7 hasilnya -2 enggak boleh lainnya tapi kalau misalnya udah implementasi ini penerapan kita ke ATM saldo kita tinggal 10.000 kita tarik satuannya r50.000 ya gak bisa kan ggak keluar saldo kita tetap 10.000 i ya gak bisa r.000 kurang r50.000 kan harusnya Min minus r.000 ya cuma kalau udah e di penerapan ya itu contoh yang impure function kan karena duitnya enggak bisa keluar ya udah tetap segitu Tapi kalau pure function ya enggak ada itu kalkulasi aja i ya kemudian imutability nah imutability ini [Musik] juga Apa itu jelasin dulu apa beda imutability dan mutability imutability kalau pakai sederhananya tidak bisa berubah setelah dibuat imut e kalau imutable itu biasanya dia imut-imut gakakak ya kita sudah asign variabel eh variabelnya akan tetap seperti itu secara konstan nah gimana ee sebuah bahasa pemrograman funional bisa hidup dengan imutability adalah dengan memanfaatkan yang tadi Eh return value tadi misalkan kalau kita pakai javascript nih eh apa ya Eh array push 1 3.push 4 itu Dia akan mengubahai awal yang 1 2 3 menjadi 1 3 4 I kan kalau kita pakai aray. conet dia tidak akan mengubah 123nya tapi dia akan melahirkan seb sebuah Aray baru yang 1 3 4 itu perbedaan antara mable sama untuk struktur data jadi lebih namanya tujuannya supaya variabel itu value dari variabel itu tidak berubah sepanjang eksekusi jadi lebih terprediksi hasilnya Iya kembali lagi funional itu eh secara visi adalah itu prediksi bisa diprediksi dengan kita asumsi bahwa ini begini ya udah sampai ke bawah ya begitu gitu Jadi udah bisa lebih kita prediksi secara ininya ya Ee karena kembali lagi contohnya contohnya beini eh salah [Musik] satu kembali lagi keuntungan dan kerugian menggunakan javascript contohnya di Window object kita bisa menaruh variabel di Window object kalau browser ya di browser Windows isinya abcd sama bar Nah iya sama batus Kita e apa namanya ini nya bar itu contohnya isinya bar tetapi dan kita mengharapkan itu selalu bar namun ada terpy ada function lain ya Oh I bisa juga lebihah lagi party party itu ternyata menggunakan variab name yang sama di Window object buat urusannya sendiri untuk urusannya dia terus jadi bug loh kok variabel gua ada yang ngerubah siapa ini mau sampai susah banget itu Dib Siapa yang ngubah gitu susah banget Susah banget itu mau dicari ke mana karena yang party itu bisa jadi kodenya di minifight i i tiba-tiba sudah berubah aja Nah makanya butuh namanya imutability itulah pentingnya ya Nah ini ada pertanyaan dari Maulana ini menarik nih imutability itu ada hubungannya sama by reference gak ref sama pass by value ya ada dua kan ada dua beda si ya imability artinya variabelnya Gak bisa dirubah jadi konstan kalau di PHP itu namanya konstan definition Def Jadi kalau sudah kalau di php kan ada define tuh kalau sudah didefine konstannya sampai sepanjang eksekusi variabel itu gak akan bisa dirubah itu namanya Nah kalau di javascript di functional programming ya menggunakan yang namanya Flor Im semuanya harus Diak semuanya sih ya tetapi pola pikirnya semuanya IB I ada beberapa kali kejadian yang ini sih apa namanya E menyebabkan B salah satunya ya misalkan tadi ya saya sebkan ya misalkan kita punya Apa ya Eh array ya cons Oh cons misalkan arr = 1 2 3 gitu kan Terus tadi Eh array.push at gitu kan empat Nah ehberapa orang bisa menuliskan seperti ini hasilnya berapa enggak bisa ya karena enggak bisa enggak Nah itu pengamanan kan jadi biar enggak aneh-aneh gitu Iya salah ya Oh enggak bisa juga harusfresh I let let something else aja LED R2 LED R2 Ya ampun Ini susahnya funional ya R2 push Oh iya R2 r 2 ini kan ya push 4 hasilnya berapa hasilnya adalah EMP EMP R2 karena dot push ini bukan merreturn hasilnya tapi mereturn jumlah leng darisung langsung nimpa ya Iya dia Ray duanya udah 1 2 3 4 i2nya Jadi kalau misalkan kita tambahin lagi pus 5 dia akan jadi Oh enggak bisa lagi ya Kok enggak bisa karena R2 itu sudah kan udah bukan R jadi intejer Oh iya udah jadi kan enggak strily type ya javrip ini Ang derita Ti akhir tapi enak dipakainya berarti ini ya tadi ya ini ya R2 terus kita push lagi Ya Nah dia akan jadi lma atau biar lebih gamblang lagi kita tambahin 15 Oh enggak bisa lagi kita ulang lagi 4 terus kita tambahin 15 dia Isinya l karena length-nya dia menghitung lengthnya jadi push akan mengembalikan jumlah itemnya adalahnya Aray baru bukan Aray baru dia melakukan dua hal ya sebennya Dia ngerjain dua hal waktu kita jalanin metod Push metod Push itu ngpush nambahin value itu ke dalam variabel Aray itu tapi yang Dir return adalah length dari array itu nah mampus nah kalau mau kita seperti ini kita bisa melakukan dengan kket kket itu akan Mer eay yang baru Iya hasil array yang hasil gabungannya ya value baru Iya 1 2 3 4 15 Aray duanya masih aman tidak terjadi apa-apa kalau kita mau balik itu kayak occupy itu baru kan kayak nulis di sektor baru kalau gini kan bisa aja kan e jadi array Dunya kita override menjadi array yang baru I itu boleh kan aman boleh tetapi bikin data baru kalau kalau di immutable itu misalnya ini kan bukan immutable ini mutable kalau ini gak n coba tadi yang balik lagi ke ko kalau imutable itu kan caranya kan kita harus ngeclone hilang Iya hilang jadi contohnya cons Heeh pakai cons R1 R aja 1 2 3 ini ya Iya nah kalau mau apa namanya biasanya k R2 he itu pakai ee kk do concet atau spread operator Biasanya sih spread operator kalau yang barunya yang kerennya sekarang Iya R koma 15 I Oh kam bisa kan tadi UD Karen sudah di definis di atas R3 deh R3 R3 R3 Oh tadi error itu juga tetap ini ya padahal ini sintaks error ya tetap dieksekusi ya Iya itu kan Ben oke jadi eh di ini imutable rtignya selalu kepikiran di kita melihat kodenya pasti isinya eh tidak ada nyampur-nyampur Jadi kita tetap punya variabel r dan variabel R du atau ar3 Iya dan bisa diisi di mana aja ya di depan di belakang ya Oh iya benar ya spread operator ya lupa ya dengan spread operator referensial transparany function S nah ini eh apa namanya prinsip yang kedua yang tadi kan pure function yang pertama kedua immutability yang ketiga berarti yang ketiga adalah first class entities function eh setara dengan variabel kalau di bahasa fungsional dan juga javascript jadi setara dengan primitif lainnya apa setaran nilai primitif atau objek atau apalah Jadi kalau misalnya string bisa di ke variabel cons R sama Heeh cons R sama cons name ama Eka cons R sama tadi apa 1 2 3 eh cons my function sama dengan nah isinya function bisa diassign ke variabel bisa dimasukkan ke dalam function lain sebagai argumen bisa apa ya Ya semua bisal bisa Di bisa sebagai return value jadi bisa dimasukin ke function lain bisa dikeluarin Dar dari bisa dirreturn oleh fungsi lain B sebut makanya sebutannya higher order function iya ini ini istilah kerennya ya higher order function jadi e fungsi itu bisa jadi kayak fungsi anonimus yang kita assign ke value eh sor ke variabel kemudian bisa jadi parameter atau argumen di satu fungsi dan bisa ee dan sebuah fungsi bisa meritan fungsi yang lain kalau yang anonimus itu pasti semua orang yang pernah ngoding web pasti pernah pakai Enggak mungkin enggak pernah pakai Soalnya di apa event event itu kan Ee isinya kan eh function kan oncilick misalnya onclick argumennya kan itu function atau on on Scroll atau on apalah pokoknya event eh elemen web Apapun kan itu dalamnya argumennya function tuh Iya itu udah sering kita pakai tapi kita enggak tahu istilahnya biasanya saya dulu begitu ya Nah tuh kalau interview kerja tiba-tiba ditanyain Apa maksudnya javascript adalah first first class Apa tadi namanya pesawat aja first class Citizen first class first class fun first class C first class entities first class apa entity kok Citizen ctizen Iya ada istilahnya first Citizen juga kalau untuk bahasa fungsional ya yang cukup sering juga ini kan Set time out kan atau set interval Set time out itu kan ada dua dua parameter ya handler ini adalah fungsi Heeh dan kemudian e time outnya Berapa lama ya kan fungsi di sini kan bukan misalkan kita punya fungsi apa ya E Oh pakai itu ya k apa nih e print sama dengan ini ya kol log Oh printnya pakai ini dong t asik Mas gitu Heeh dan kemudian kita Set time out ya Set time out print print Iya kan koma misalkan du eh 1 detik 1000 MS harus salnya per lah argumennya masukin argumennya aja dong Oh iya enggak bisa kan harus enggak e Halo gini kan enggak di argumen ketiga argumen ketiga oh bisa ketig bisa i oh sebagai OB lah lah itu di Pop upnya ada tulisannya Iya sih sebagai obek iya Gini objek atau apa ini titik titik titik apa spread spread operator SPR operator array coba dulu ya ya cobaan Coba aja ho halo kan enggak strictly type tetap kalau bisa di-lock dia bakal nge-lock i bukan t t aja I langsung t aja Iya setelah 1 detik dia akan nge-print itu 850 itu adalah ID id-nya Iya dia Mer id-nya jadi Biasanya kita bisa Set di sini ya ID gitu kan iya kan iya nah sebenarnya yang mau Saya tunjukkan adalah di sini di sini ini print Ini adalah sebuah seolah-olah sebuah variabel kan kalau misalkan kita tap Is betul Eh ini kan fungsi time out ini adalah kita akan mengeksekusi fungsi yang dikirimkan di sini setelah 1 detik kemudian ya kan apa yang terjadi kalau di sini saya langsung Halo ada yang bisa tebak ya langsung print enggak bis Langsung jalan Langsung print halo langsung jalan Kenapa ini kan dieksekusi sementara ini enggak dieksekusi ini disimpan dulu sampai sat detik kemudian baru di kayak gimana Yang mengeksekusi adalah dia kayak si apa engine-nya ya si event loop-nya itu betul betul gitulah kira-kira jadi ee apa namanya ini sebenarnya fungsi tapi tidak langsung dieksekusi dan higher order function ini atau first class Eh entities ini tidak semua bahasa punya makanya itu yang membedakan antara bahasa fungsional dan tidak fungsional Oh makanya javascript itu fungsional beneran Kayak misalnya tadi Kalau e musik lagu kalau si Pascal rasanya Iya si Pascal rasanya enggak ada kayak gini Heeh enggak bisa dia PHP PHP coba cari wait wait wa callback I istilahnya adalah callback betul sekali callback function callback he dan gara-gara nonton ini kenapa Eh lanjut lanjut lanjut gara-gara nonton ini jadi sering pakai immediate immediate info function iya funpr Itu juga salah satu salah satu identitas dari functional programming juga Karena tidak semua bahas kalau enggak funional enggak bisa jalan enggak bisa apa namanya hal ini juga yang bisa membikin Eh pakai high order ini bisa membuat menjadi imperatif ya benar enggak sih imperatif iya k imperatif apa deklaratif deklaratif ya Coba deklar deklaratif tuh yang step by step Bu Kan sih yes imperatif i bisa jadi imperative approach jadi kayak Oh masing-masing perintah itu kan ada functionnya nah itu dip dimasukin satu persatu enggak Kalau imperatif justru bukan funional kan deklaratif yang fsional coba baca dulu di bawah yang step by step tuh yang mana sih yang makudnya apa E step by step itu step by step itu deklaratif kan lakukan ini setelah itu lakukan ini he Red dan lain-lain Oke kita mungkin cari bahasan yang lain dulu ya Nah bentar si higher order Ini itu sebenarnya kita pasti pernah lihat kalau pakai react react komponen kan sebenarnya sekarang react itu functionalonen kan export cons function bla bla bla eh sat function pokoknya komponen itu kan sebenarnya itu function kan function yang bisa merender UI nah kita kan bisa tuh apa E masukin suatu komponen sebagai prop sebagai argumen ke di komponen atau di bagian kode lainnya Nah jadi kita tuh kalau pernahing di pasti pernahihat implementasi dari high order function sedikit Kalau yang untuk yangembuat menggunakan functional programming ini itu declarative approach Jadi kalau misalnya kita mau sorting array contohnya kan array filter array Redu segala macam kita tinggal memanggil function-function itu kita tinggal mapping bahkan bisa di chaining kan bisa di chaining langsung Kalau sedangkan kalau kita pakai imperatif kan dia pakai for loop-nya kita sendiri kita kita bikin perintah-intahnya Gimana caranya membandingkan e apa misalnya sorting lebih besar atau lebih kecil di return gitu ya bisa jadi gini contoh ada ya kita mau bikin E e apa namanya hilang l Lan l e contoh kasusnya gini ada ada array of number dan kita mau menjumlahkan angka yang genap saja Oke jadi misalnya kita punyaay 1 3 4 sampai 10 dan kita mau menjumlahkan angka yang genap saja kalau imperatif kita bikin for Iya for loop-nya satu kali apa dua kali satu kali tapi ada kondisional di dalamnya ada if Iya ada if iya i kan sedangkan kalau pakai deklarative approach kita bisa pakai eh function yang namanya radius tetapi di dalam radius kita Panggil filter event out atau event number only jadi event event number ini Iya even number ini akan mengcallback isi array yang genap saja dan saat direduce atau itu akan mereduce array menjadi integer genap sa penjumlahannya saja jadi lebih indah kalau pakai deklaratif karena hanya manggil dua fungsi gitu itu contohnya Tapi ifnyanya juga juga kalau di imperatif if-nya bisa ditaruh di fungsi juga kan bis bis bisa tapi jadi funsional kan kita Coba aja kita coba gimana coba kita bikin yang imperatif dulu apa deklaratif dulu eh bikin imperatif dulu imperatif ya I eh belum di-share Oh iya belum di-share Sorry ee eh mana dia eh Ini oke Ya coba isi 1 sampai 10 ada enggak Oh udah ada Aray refresh aja malas oke Aray 1 sampai 10 du t ada cara cepat enggak EMP e belum ada range ada engak sih ada 10 oke Ada punya snip nya cuma enggak ingat clearnya pakai ini ya dahah E Aray oke terus kalau imperatif for i =0 i = 0 I lebih kecil dari R 10 r r l leng leng I ama I plus plus sat gitu kan i++ ya samalah ya Ini pakai shift atau enggak Oh pakai shift harus pakai shift ya terus di sini If Ya if if r r i di [Musik] modama0 apa tuh e mungkin bikin variabel sat dulu di atasnya l apa gitu l di dalam eh LED l hasil Heeh hasil sama dengan I gini no no langsung aja hasilnya no oh diam mau diam ya Iya mau langsung diam eh ada petik nah ini I 0 plus a 0 plus sama Oh I sama plus sama plus sama Oh Boh sama aja biar singkat biar singkat i i i gitu ya Iya betul hasilnya error token tokenang apa nih kurang koma koma koma koma ah iyaahah 30 I ini apa imperatif atau ini ini imperatif sebentar kalau saya saya if-nya mau saya jadikan fungsi misalkan function apa nih e genap ya cek if genap tuh evenent atau evenent Iya eh number even Iya number Heeh eh berarti ini kan return Oh iya return Oh langsung return aja ya return 6 modulus 2 Return en return 6 Modul 2 = 0 true or false kan iya He sudahah gini Iya gini ya dan sekarang for loop-nya if gimana tuh if pakai if juga if if Iyalah pakai Iyalah Oh iyain if-nya mau dipindah ke sini enggak bisa if event if event EV dalam kur Heeh Ee isinya r r i heeh he I Sudah sama ya Iya salah lagi Ayo loh ini susahnya enggak pakai editor Ya kurang satu kurang kurang Heeh kurang tutup kurung yang habis event R nah kok 60 karenanyaahin i i 60 R sama0 dulu kalau if ini saya mau hilangin pindahin ke function enggak bisa ya enggak bisa ini imperatif enggak bisa soalnya itu kan ada S effect bisa bisa kalau mau dibikin itu jadi bikin satu lagi satu lagi function lagi check if even no no no su Oh Sam eh function I kalau S mas44-nya masuk ke buat yang ini kan buat yang ini Sam kan Bukan buat buat yang if kan Iya gak bisa oke oke oke anyway Coba kita yang cara e deklaratif I ini kita udah punya fun event I Sekarang kita mau p yang fun functionnya Iya e [Musik] benar ya benar benar benar benar Arnya Belum difine kan bukan Aray kan number bukannya Iya ini sound Aray Boh Aray aja array tulis aja Iya terus di Loop Loop for tadi iya i lebih kecil dari array.leng i i plus+ iya oke eh di dalamnya nanti di dalam function itu ada led led hasil atau LED apal LED R LED Res juga boleh nol gini sama aja kayak tadi ya iya sama kayak tadi plus sama e Oke ini tutup ini tutupah punyaang tadi yang tadi e yang event itu salah itu kan cuma is event yang benar itu adalah event Yangnya array jadi function sekarang bikin function is event yang ini adalah buat LED result sama dengan array k0 array kos Iya Terus eh for kembali lagi for-nya sama let I = 0 berulang lagi ya Iya Aray l Oh iya lupa tuh return functionnya nanti betul e tutup e Oh iya belum dibalikinnya if if eh I Oh i i modus eh terus epush push are e are e tutup loh tutupnya Oh kurang tutup tutup ya Tutup itu sama tutup for return result return result G Heeh Oke ber nah perbaiki dulu perbaiki dulu yang S nah Eng ada return-nya ya Bisa enggak return paling bawah bisa kok return R bisa kan function function boleh ditim Nah jadi ini tinggal su manggilnya su he he buka terus gak r eh su sorry if itu apa tadi nama functionnya is event su is event some some is event is event event kan R Heeh udah selesai Oh iya R ini 1 10 Heeh benar-benar EV gini ya that's it Iya tapi for loop-nya ada dua ya jadinya ya Yes Ya karena dua hal yang dikerjain kan menjumlahkan sama ngecek apa eh ngecek yang event yang ini hasil dari su dan hasil dari dari is event itu pure function H Heeh Apun dimasukin pasti hasil e event enggak ada Side Effect kalau yang Dar t bisa Di bisa diit kalau tadi kanengarin result yang paling atas kan Makanya t pas ah 22 kali 60 Iya mas Riza bisa 60 itu Side Effect jadi kita sudah membahasrnya Nah ini ada nih dari Yoga imperatif Bagaimana caranya kalau deklaroratif apa yang ingin dicapai saya peng Nah itu Dar tadi kita bisa ngomong yang bagus gini nih Iya imperatif itu How deklaratif itu what what to do Iya yes Tapi kalau pakai apa reduce sama berarti kalau mau diubah langsung arr.filter terus J langsung filter langsung R Iya entah itu filter ridus itu kan sebenarnya helper deklaratif kan I function en langsung a ya y item mod 2 eh item item return return item mod 2 harus return ya harus ada itemama item item dulu Oh iya hitam Oh iya hitem modulus 2 hitem modulus 2 ama 0 gitu I koma ya tutup tutup tutup tutup kurung dot udah mau diapain lagi dot redus ya he redus enggak bisa komplit red eh function terus ehameter pertama itu yangor pertama itu yang ininya kan Yang inisiatornya ya inisial eh akumulatornya ininya 0 hitam hitem koma ACC benar enggak sebentar Ayo loh enggak lulus tes interview kan enggak hafal JavaScript kan ada copilot Oh iya ya akumulatornya di awal akumulator di awal makanya makanya Mas bikin aku si bingung kan akumulator di awal itu sudah benar Iya tapi ACC i ya udah benar hem item nol Ya enggak enggak itu oh inial value ya inial value betulbetul I terus udah plus return he ACC plus e salah salah gini a bukan bukan salah ee nolnya itu di belakang function di luar ya di luar abis fun Iya di luar Iya itu function-nya itu menerima akumulator sama item koma nol Yes dan itu optionional bahkan tadi waktu nolnya belum neketif sudahud betul 30 30 heeh nah bahkan itu bisa di bisa disingkat lagi enggak sih R the filter eh terus dalamnya is is event kan bisa enggak usah fun benar yes yes R filter Heeh Ayo r is event I is EV is event enggak usah nah udah langsung nah terus redus-nya sih sama eh redus-nya kopas aja dari yang atas Sam ada Sam kan enggak bisa beda beda kan butuh dua argumen kok Pasnya di atas aja udah oke siap nah 55 oh karena array-nya arraynya Side Effect ya Arnya Side Effect iya i eh Kok beda sih eh oh iya ya Kok beda cob bentar coba rrnya Apa isinya sekarang S sampai 10 masih kok salah nih kok bed salah is event-nya salah Heeh mana is eventnya pakai lagi di dalamnya coba pakai ini pakai are oh bukan isi event event doang event doang enggak itu 30 oh iya oh iya betul EV event ini kan yang ini kan tuh yang langsung return ini kalau ini dia pakai for Loop iya iya i tu pakai for Loop he harus yang trutti yang bulean ya iya ya cuma gitulah pokoknya bentuknya gitu ya kira-kira berarti pusing kan n eh cuma kalau udah kayak gini pasti jadi ingat kalau besok-besok ditanya pasti kalau misalnya kita ngfalin definisi i kecuali yang kecuali ngfalinnya emang baru semalam pas lagi mau interview eh ya pasti Berapa hari pasti hilanglah tapi kalau pernah ngetik G kemungkinan nempel lebih kuat ya ya ya ya oke terus kita bahas apa lagi nih Sudah bahas ada ada itu Yuk kita sebentar ramda JS lucu Oh iya sebelum sebelum ke ramda ee oh I ramda JS dulu deh ramda JS dulu ada yang pakai ramdas di sini Iya ini functional library lucu ada lagi kan yang lain kan ada beberapa ya Ada ada unders oh bukan bukan ada ini tuh kayak undersore bukan bukan ada ee satu lagi namanya apa ya yang sering dipakai di react juga kalau enggak salah imut imutable JS Ah iya Eh imutable JS Itu bukan Iya benar imutable JS benar benar benar ini Ngasih nama ranc nama kayak konsep itu nyebulin deh Oh iya betul Iya tuh iya kan Oh belum pernah nyobain pakai belum ya ini sama ya konsepnya ya cuman ramda Kayaknya lebih lebih baru ya lebih modern Enggak coba documentationnya dia jauh lebih banyak functionnya Iya lebih komprehensif dia oh banyak helpernya ya iya iya kayak und jadinya Oh yang ada pip juga ya P itu pip Yang bakal keluar Hah left pad left pad left pad itu loh yang dulu apa NPM dependeny juta umat ini enggak ada P Itu yang kemarin kita bahas yang bakal ada di javascript jadi habis dari sini eh return-nya akan masuk ke sini Oh yang bacanya dari kanan kiri itu Iya ini kan kita mau bikin e 3^ 4 + 1 mengerjakan tig hal jadi kurangin I 3^ 4 Yes gitulah pipe itu pipe Terus apa lagi ya Eh kuri kuri kuri King karing fungsi Ken namanyaekekusi lagi dieksekusi lagi ini e IV tapi e Next Level Ya next level ada itu enggak Ar Mer Mer ada engak merge ada ya all Mer Mer kayaknya segala yang mering karena javascript mering itu kalauudah n properties pusing juga ya I ih keren juga ini ya Mas gua baru pernah dengar doang tapi belum pernah Pak Ini Pak ini gak ya Ada tulisannyaak sih kalau hajarlah Project selanjutnya harus pakai ini ramda shaking Iya loh gambarnya pohon beneran lbel profit froming in tuh bundle like weack anding drop undae and bundle size iya bisa itu di hasil kedua hasil kedua k iya j i Oh I ada penjelasannya coba cari tre shcking tre shcking ini apa sih buat ngilangin yang enggak dipakai ya iya iya kan Itu banyak banget tuh metodennya jadi maksudnya jangan khawatir e kalau kita cuma pakai satu yang dicompile e maksudnya yang masuk yang masuk yang di shipping production code-nya ya cuma satu yang kita pakai itu itu kan halangan Biasanya kalau kalau pakai utility library kayak gini kan halangannya takutnya tiba-tiba besar banget bengkak hasil apa buildnya gara-gara masuk semua Nah kalau adaaking Ya udah gak usah gak usah khawatir ya ya oke menarik menarik Wah bisa jadi alternatif saya ini untuk asik nih kita kita mal mal Iya benar Ya lagianudnya udah ada yang bikin ngapain kita bikin lagi apa Do not repeat yourself Iya dry nah ini juga sama kan apa eh typesript typesript juga bisa eh menggunakan konsep-konsep funional tapi dia bukan bahasa fungsional kan maksudnya gimana tuh Hah compiler Ya tapi kan dia ada ada objeknya juga ada kelasnya juga ya kan he he esript kan javascript Iya sih bahasa apa lagi ya yang dikompile ke javascript rescript resript itu funional Ras Ras bukan elikir funsional nah ngomongin elikir asik Saya punya nih beberapa tahun yang lalu 2015 Saya pernah bikin eh blog tentang eh fiturnya sama ya first class function higher order function closure udah enggak ada gitu sampai bukanya dari apa Kenapa kok hilang Iya markdownnya masih ada tapi kan jelek ya yang diliat maksudnya El eldos.com-nya enggak diperpanjang udahak udah enggak dilanjut udah enggak dilanjut sama siapa sama gue udah enggak dilanjut Oh udah gua matiin lu mau bayar 2015 udah enggak enggak ada bandwid lagi buat bikin-bikin Ask nah ini ini first class function yang tadi ya function bisa dimasukin ke fungsi yang lain minimalisnya bahasanya gak ada apa makudnya dipisahin line Break doang kagak ada bracket gak ada apa minim tutup kur Opal Opal I higher order function beda lagi ternyata jadi prinsipnya Sama tapi ya maksudnya itu kan jadi bisa ngejalanin fungsi di dalam fungsi ya cuma bentuknya doang Map ya tadiya filter reduce juga itu adalah higher order contoh higher order function closure itu yang tadi di javascript juga ada konsep closure kan heeh bisa mengakses variabel dari Scope Child Scope ya value dari Child Scope dari atasnya betul dari luarnya sor yang jelas maksud program itu juga goleng kan ya goleng tidak goleng op tapi op-nya juga beda strck base dia [Musik] ohutable tadi kita ah bahas ya antara dotpush sama do concet ya dia menghasilkan objek baru ini juga sama apagi ya e udah selesai I inikel okel okel juga ada objeknya makanya ada Oya depannya objek berarti cel cel doang Cel funal objektif camel I OB Cel Eh iya pe pel Pearl enggak tahu Kayaknya Pearl itu masih prosedural kayaknya enggak tahu enggak tahu enggak tahu iya iya iya tapi ini ada cerita lucu nih dari blog ini ya ini kan ada ada dua orang ya masih aktif Enggak Orangnya nah ini Jadi ee saya waktu itu bikin blog ini tujuannya Adah untuk belajar karena tertarik kan di 2012an itu tertarik sama functional sama sama elixirnya cuman mem maksa belajar Gimana caranya ya udah e ngblok aja tiap minggu e jalan apa minggu kedua sekarang ya Iya minggu kedua minggu ketiga tiba-tiba ada yang email namanya Pak Augi ini dia bilang gini kurang lebih ya e bahasaingkatnya he bro Gua suka blog lu artikel lu tapi bahasanya ngacau bahasa Inggrisnya karena gua pakai bahasa Inggris dia kan orang Amerika orang was belum ada belum ada chat GPT tapi ya buat Kalau sekarang kan udah tinggal ee bagusin kata-katanya iya ee gua mau deh jadi editor lu gua bagusin sebelum lu publish gitu Akhirnya akhirnya dia selama dari 2 sampai 2015 ya kita kerja bareng gitu wiih ceritanya menarik juga jadi ya apa ee karena memang elir di Indonesia waktu itu bahkan sampai sekarang juga sepi kan tapi banyakan yang akses dari luar jadi ya seru sih seru ya begitulah terus enggak dipasang Adsense sih Heeh enggak dipasang iya jadinya orang tujuannya apa loh kan Bayar buat bayar buat bayar domain dan bayar server Iya sih bukan buat hal yang lain iya i Harus bisa self sustain He Oh iya bahasa yang lain ada lagi ee kalau PHP bisa ketiga itu enggak atau keempat eh apa eh syarat atau syarat ya princiiple princisipel dari pure function pasti bisa kan pure function bisa higher order function bisa enggak udah ngecek belum fangen eh PHP manggil bisa sih taruh di variabel taruh di as asal bisaave di variab berartiisi php bisa bisa Nah wupun bisa setah di ke fun bisa dijalan darinyaak Kalau enggak ya berarti gak bisaak bisa order fction namanya ini tapi harus ada call a ini ya Oh indikatornya colable apa variabelnya namanya func F Iya itu high order function udah iya ini callback kan callback gua tanya jemenai programming language yang mendukung mendukung functional program skal pasti Iya closure eliksir FS F ya rusl Iya Rus kotlin bisa itu yang mendukung kan Oh Rus while not purely functional language Tapi dia bisa kotlin Swift skim okelm Idris dan pure script apaagi pure script ini Idris pure script itu eh sintaksnya seperti haskel tapi dikompilasi ke javascript kalian bisa bahasa permograman apa aja jadi jadi CSS lagiakage ini yang lebih lebih parah lagi nih eskalasi Apakah html bahasar berarti scss F program engak yang menjadklara deklaratif kan berarti apa yang ingin dituju hasilnya [Musik] gimana bahasa yang deklaratif lagi adalah SQL itu deklar ye select drop table GR by order by Yes Oke jadi eh di sini e Apa tujuannya bukan memaksa teman-teman untuk berpindah ke bahasa fungsional tapi e enggak ada salahnya belajar paradigma atau paradigma baru bukan hanya funsional mungkin ada paradigma yang lain yang kita enggak tahu ya Selain op dan funional itu bisa memperkaya pengalaman kita jadi ketika kita ee misalkan kita belajar funional nih kalau kita ketemu kita ngenalin kita recognize Oh ini begini terus kita bisa masuk ke mindsetnya Oh berarti ini urut-urutannya kita bacanya gampang Kalau tuh kita baca kode orang lain atau baca library eksternal itu kita bisa ngerti karena kita bisa tahu mindset eh functional programming waupun kita mal kita engak sukaok besok langsung Project di kantor kalian diaktor aja jadi functional tiba-tiba Enggak gitu juga kali masih pakai disk mbak As pakai Fa programming disnya Iya memang kalau pakai functional programming tapi ada disk ketinggalan Global kan yang masuk Iya iya jadi ee kalaupun eh di pekerjaan kita sehari-hari menggunakan op kita bisa implementasi beberapa fungsi-fungsi yang ada di functional programming salah satunya perion dan lain-lain SP1 SP1 gara-gara ngubah semua jadi funal programing tapi disnya ditinggal I itulah kekurangan dari bahasa yang tidak pure funional ya Jadi bisa nyampur-nyampur cuman ya pasti ada apa ya begitu juga sebaliknya mungkin kita sehari-hari mungkin bekerja sebagai em yang menggunakan funional paradigma funional gitu ya pakai bahasa funsional tapi kita belajar Oop enggak ada salahnya dan ber kapan-kapan kita kita pernah enggak sih punya episode Oop tapi yang kayak gini nih yang kayak beneran diudah satu persatu Nah berarti bisa jadi belum nextnya bisa yang paling saya yang paling saya kalau kalian mau memilih Ya janganlah dicampur-campur yang paling saya anti itu kalau konsepnya sudah dibuat funional tapi nanti pakai Oop di sebagian tempat nanti di main terus udah ada Oop tapi pakai nanti konsep fungsional ini kenapa dicampur-campur gitu kalau mau stay stay aja satu tempat jangan camp kalau pakai Oop jangan pakai filter jangan pakai redus jangan pakai map gitu maksudnya Bukan maksudnya konsepnya yang kalau memang opop ya Ee ya rapi pemanggilannya kayak pakai abstruction terus kemudian pakai objek eh inherit iya jadi yang maksud saya jangan dicampur-campur adalah ee sudah pakai fun programming tetapi untuk memanggil function callback-nya itu adalah eh objek eh S kelas pakai kelas Static function k Static function dari kelas lagi ya kan iya i i nah cuma jadi si Ken pernah mempromote kayak dia kurang Entah kenapa kurang suka kelas dia mempromote factory tapi kalau itu udah masuk P funional sih jadinya banyak banyak juga kepikin obtor bak juga apa polyorphism Jadi dia misalnya pakai facttory ya satu satu e interface jadi factory terus kemudian implementen dari interface itu tinggal pakai factory mau jadi apa aja itu Nam kan polymorfism kalau di iya he cuma jadi enggak instanate kayak new apa user sama dengan New user gitu ggak pakai kayak gitu yang yang instanate si factorynya Iya sudah dibungkus user sama dengan create user eh apa tanda kurung I tapi harus hati-hati juga serh karena Iya karena kalau apa e ada yang bilang wah ribet ya harus ada apa harus belajar inheritance polorism bla bla bla gitu kan funal simpel gitu kan tapi engak juga belum ketemu monat aja Belum ketemu apa tadi factory method eh factory atau ada funors ada macam-macam konsepnya maksudnya istilahnya itu banyak juga sebenarnya Dan satu hal yang eh mungkin akan membuat kita sedikit jengkel dengan functional programming adalah nanti argumen dari parameter dari dari fungsinya itu banyak karena harus diikutin semua kan harus ada di parameter itu untuk mengubah sebuah data kan Makanya argumennya pakai objek jadi cuma satu n tu seobjek Heeh masukin seobjek obeknya kalau itu gimana kita ngedesainnya aja sih ya Iya memang cuman di dalam objeknya kan ada banyak juga nah itu tergantung apa yang mau diubah itu Side Effect juga enggak sih Kalau ngubah satu properti dari data user properti lainnya banyak yang berubah Juga misalnya kalau user misalnya poinnya skornya di atas 3.000 itu jadi ada properti lain yang berubah Nah itu saya sebenarnya bisa di dianggap Side Effect kan H benar benar Nah itu jadi ujung-ujungnya ribet juga cuma ribetnya bentuknya gimana dan Kapan ketemunya Oh op enggak ribet nih malas belajar aja Oh iya iya deh jujur menurut saya sih ribet ya tapi enggak tahu ini masmas orang ya masing-masing orang nah ini kalau pakai package Seperti ramda apakah penggunaan memori bisa lebih kecil Iya tergantung kalau kita nulis kode sendiri kode yang sama kode kita apa bpotan panjang banget Terus kalau kita ganti pakai ramda ternyata lebih rapi lebih pendek ya lebih kecil dong Maksudnya technically formally entah lebih kecilnya berapa byit beda berapa ba doang pasti lebih kecil kan Tapi kalau kita bisa bikin kode yang lebih ringkes lebih lebih efisien harusnya lebih ya kode kita sendiri enggak usah pakai ramda lebih kecil tapi kan secara realistis perlu waktu juga nulis kodenya jadi di luar m ada kalau memilih penggunaan library itu adalah untuk menghemat waktu untuk ng-develop-nya karena fungsi-fungsi yang dasar yang kita enggak sudah dibuat orang sudah sudah dibuatin orang jadi kita hanya fokus S tesnya juga yang ngetes kan dia I dia sudah Dia sudah ngetes dan kita hanya tes yang perlu kita buat aja Jadi sebenarnya lebih mempercepat waktu untuk ngdevelop dan betul yang kita maintain adalah fungsi-fungsi atau eh kode yang hanya berhubungan sama bisnis prosesnya kita saja oh oke ya ya I Ya baiklah ada pertanyaan yang belum terjawab banyak pertanyaan Oh iya yang di fanboy JavaScript gara-gara Wah mantap Mas jangan jangan fanboy ya jangan fanboy ya jangan sampai fanboy eh ya kalau lagi suka Jav ya suka aja nanti kalau misalkan tiba-tiba ketemu bahasa lain ya UD Jang to jangan toksik ah ini pertanyaan menarik nih dari kacang rebus Wah namanya bikin Lapas ada engak sih bahasanya bisa ganti javascript secara full secara full belum ada ya belum ada ras pun ras itu bisa jalan di browser enggak sih harus dicompile ya Belum belumin kan enggak bisa bikin UI kan enggak bisa e enggak bisa jalan diiteak bisaong manipulasi Dom I belum bisa manipulas manipulasi Dom bisa dulu sempat ada ada apa ada wacana untuk mengkodeta javascript di browser salah satunya ya tadi silverlight apagi e flash action script UPL tapi masing-masing browser punya itu sendiri ya jadi kayak sama satu lagi yang hampir ya yang hampir berhasil mengkodeta adalah dart sebenarnya iya tapi G itu mau dimasukin ke Chrome tadinya cuman Entah kenapa enggak jadi akhirnya jadilah flut enggak tahu bukan angular ya dia lahir dari angularrip Oh jadi flutter Rip jadi flut jadi dipakai di flatter maksudnya bukan jadi flut ya he CL di komponen di react menurut saya lebih clean Jadi gak perlu use memo use callb dan lain-lain Iya kalau sudah bentar lagi sudah ada re compiler memo sudah gak perlu sudah gak per tapi juga gara-gara kebanyakan pakai konsep programming itu jadi overuse ya Benar gak sih pakai ini gitu kan jadi itu kannya juga kan itu utility function kan Hook sebetulnya Iya betul untuk memudahkan sebenarnya kalau menjadi sulit ya jangan digunakan gitu aja ya tujuannya kan asal jangan dicampur-campur udah itu asal jangancampurcampur ya Apakah eh di masa depan nojs bisa run typ script out of the box bisa jadi iya Deno udah bisa e Bun Kayaknya udah bisa juga cuma berarti kayaknya not unlike deh maksudnya note kan mengutamakan stabilitas ya Ee dari apa filosofinya stand heeh heeh jadi paling Eh kalau pada mau coba-coba di runtime pengin bikin runtime yang mak saya yang lebih lebih out of the box eh typesript itu paling diband sama Deno berharapnya enggak eh konsep-konsep beberapa konsep typ script sendiri juga ada kemungkinan masuk ke javascript secara umum kan javascript jadi kayak misalkan Ada kemarin beberapa tahun yang lalu eh typ mau di mau diintroduce di javascript gitu Jadi bisa aja bisa aja kalau masuk lewat ript terutama ya kalau udah standariz lah He nah ada satu lagi yang banyak pertanyaan yang menyangkut dengan functional programming kan kita pakai imutable variabutable data typesutable e data structure Apakah itu akan memakan memori lebih banyak daripada kita mutable karena kan harus punya variabel yang banyak gitu lebih banyak ya okup memori pasti kan pasti Ya pasti pasti Iya lebih banyak cuman enggak signifikan benar enggak sih Heeh tergantung kita sebanyak apa kalau ya itu harus harus testing beneran sih kalau udah berapa ratus berapa ribu ya pasti Makan memori signifikan karena ada pengalaman itu enggak ada Jav sudahya ada collector Ya jadi Ya iya tapi kan kalau masih dipakai ada function yang jalan yang pakai itu semua ya belum bisa Justru karena dia imutable dan dia hanya live dalam satu function jadinya yang misalnya fun itu sudahudah selesai dipanggil dan yang Tad di dalam sudah begitu begitu functionnya udah selesai kan dia ada cycelnya untuk garbor untuk he ngumpulin sampah Jadi sebenarnya ya Not much enggak enggak terlalu signifikan ya lebih penting kita enggak bakal ngerasa kecuali kita ada function yang ekstrem banget Maknya kerjaan yang lama berat banget yang ekstrem Iya salah satu benefitnya mungkin dari functional programming adalah kode kita lebih mudah dipahami dan lebih mudah diprediksi hasilnya ya Meskipun secara performa mungkin agak sedikit lebih tingi 0,00 detik lebihambat belum tahu bisa harus dicoba dan tergantung kasus ya karena kalau sudah bermain matriks kayak kayak matriks jarang yang gede-gede mungkin Heeh efek kali ya sama apa kayak big notation-nya maksudnya kalau kalau datanya dua kali lipat Gimana kalau datanya 10 kali lipat eh itunya kayak gimana harus ditonya kayakangun datanya kita kayak membuat aplikasi spreadsheet contohnya ya mungkin he e mungkin akan terasa kalau misalnya ada formula segala macam kayak gitu kalau dan dataanyatiap sel ada formulanya Rib Oke Oh I ada satu lagii kalauak iya ada ada satu lagi keunggulan functional programming eh dibandingkan eh nonfunctional programming eh conuren itu karena kan datanya imutable kan jadi ee setiap fungsi yang dijalankan di misalkan berbarengan paralel itu dia tidak akan mempengaruhi karena enggak ada Global variable kan H enggak ada R condition kan enggak ada yang ketimpa Hah Heeh yes gitu Bisa jadi bisa stand alone ya hm Jadi dia berdiri sendiri punya state masing-masing tidak mengganggu state yang lain begitu Ee apa prosesnya sudah selesai dia kirimin ke fungsi yang lain untuk diproses gitu Itu juga salah satunya yang membuat bahasa fungsional itu menjadi lebih menarik eh terakhir saya mau nunjukin salah satu tadi ini kita sempat Bahas eh apa yang variabel variabel yang imutable ya Eh itu mempengaruhi performance atau enggak eh sepertinya berpengaruh terutama tergantung ini ya Tergantung scale-nya ya jangan di di generalisir ya ini ada Har eh yang e dari discord mereka punya masalah eh mereka pakai elixir secara bahasaramannya 11 juta I mereka akhirnya terpaksa pakai ras karena eh data struktur di Iya jadi mereka coba E untuk e ngpush berapa nih ya mereka tujuannya ini nih mana dia e memberly rp00.000 mau Oh bukan mana ya Ada ada ininya angka-angkanya Itu kayaknya deh benchmark benchmark tes benchm ya ini baah 500 MS ya enggak ada kayak mereka mau melakukan apa gitu ada satu fungsi yang membuat mereka harus ee optimasi mana ya itu tadi Kak misalnya kalau ada server yang anggotanya 100.000 ada satu orang baru join harus bikin baru lagi we would have to build a new list benar benar membernya 100.001 Iya jadi itu yang dan eh apa mereka bikin itu eh worst cas-nya eh best case-nya 500 MS mili apa mikro nih mikro mikrosc ya mikr sama 170.000 mikr kalau kalau kita 500 mikros eh 170 Kayaknya masih oke lah ya enggak tahu ya ini tergantung aplikasinya juga kan real itu kan satu dikalikan 11 juta ya bed Lah iya kas dan dan akhirnya mereka menggunakan Eh ini Si ras untuk manggil jadi dari elikir manggil fungsi keras Habis itu dia proses dibalikin lagi ke elikirnya berarti tambal sulam ya gak engak semua sekaligus bisa langsung dirfaktor jadi rest kan Iya enggak enggak mereka enggak melakukan refaor jadi e elixir itu bagus untuk Real Time kan untuk di front endnya back endnya proses-proses berat itu bisa diarahkan ke e bahasa yang low level seperti si Rus e Go dan lain-lain nah kebetulan elikir bisa ini e native implement function jadi function-nya itu ditulis dengan si at ras bisa di langsung dipanggil gu kayak di info gitu ya jadi info kayak info komen komen laine ya berarti ya betul nah itu jadi ee kalau ditanya yang tadi pertanyaan tadi Apakah berpengaruh Iya tapi kalau udah faktor pengalinnya sangat besar seperti discord itu baru itu berasa gitu baru worth it dibikin kayak gitu Ya bikin satu serv Iya nih ada yang pengalaman pakai ras enggak kita belum ada yang pakai sudah pakai hanya sekedar nulis-nulis baru kayak ikut lesson coursesnya Oh more than hello world lah more than hell World tapi belum Iya more than hello world gampang susah eh bisa ngikutin eh tergantung gampang gampang susah karena harus mengerti mengerti pola pikirnya Si ras karena completely different sama javasp ataupun PHP paradigmanya harus dipelajari ya paradigma sebuah bahasa juga harus dipelajariw tuh bawel banget oh compilernya bawel ya itu terkenal ya Jadi kalau belajar bahasa itu ya Enggak cuman belajar sintaksnya tapi belajar e ininya filosofinya kalau go katanya kan oriented tapi eh apa namanya pakai eh base-nya itu bukan bukan class base dia enggak ada kelas tapi ada metod I bas e struck base ya jadi itu yang harus interface STR itu Kak interface Ya kurang lebih Oh enggak bed bukan interface itu functionnya enggak ada jadi cuma interface itu funnya cuma definisi aja kalau strck itu e kayak kelas dan dia ada satu satu satu function kelas dan method tetapi anggap itu nama kelas itu adalah STR jadi di kelas yang besarnya itu adalah STR itu implement STR ini STR ini jadi kelas itu punya banyakam Oh isinya bisa ada Properti apa kayak adaodnya di dalam STR itu di php juga sudah bisa STR kalau kalau mau main oke ada PHP sudah adap itu modern loh Swift juga struck base Kalau enggak salah kalau enggak salah ya op-nya strck base jadi ya ya itunya yang juga harus dipelajari Enggak cuman sintaksnya doang eh bentar ngomong bahasa programan macam-macam jadi ingat komik ini deh Udah pada lihat belum Coba deh buka di chat Oh pernah pernah pernah Oke tuh lihat ini enggak ngerti Cuma karena engak nguasain bahasa lain Jadi kurang lucu sih jadi bingung Oh jadi engak relate ya Ya maksudnya kalau enggak pakai bahasa itu kan gak tahu lucunya di mana selain javascript coba zoom in zoom in javascript kan hipster udah Bik P Pak library gitu ya Pak Framework Set upnya lama bikin Framework e apa jadi misinya adalah siria harus menyelamatkan Princess kan Princess ditawan di benteng Nah kalau pakai javascript apa bentengnya udah keburu ditinggal si princessnya udah pindah udah hilang Oke kemudian kalau kalau bahasa lain gua gak ngerti sih gak ngerti lucunya di mana The Princess entireard Oh ini e kayaknya terlalu lengkap ya terlalu lengkap cuma gak bisa berhenti sulit diop eh si si bukan op kan kalau op itu yang ada memesnya juga nanti coba kita lihat ya the en kayaknya in jennya Inside jokennya orang i nah pakai Java udah buru-buru ada dua dua k tapi gak ada princess-nya kalau Lis Ya udah ini doang ya kurung Kurau apa kayaknya itu bahasa yang penuh apa bracket apa tanda kurung terus kebolak-balik ya kayaknya jadi apa kudanya naik orang kudanya naik prin naik orang kebalik-balik ya i we don't support freeing capturing Princess We already have this free Princess in standard library standard library Is this the princess From The Java panel from Java kan tadi Java panel ktilnya dua princessnya princessnya di situ you declare your princess and Castel and rescue plan then you go for a drink forget about the implementation Oh cuman diclare doang gak di jalan kasihanang Im image-nya kayaknya PHP Mas buruk sekali ya bisa ternyata bisa tadi kan Ya mungkin persepsi populer ya orang yang gak pakai PHP enggak tahu fitur-fitur itu ada berarti Emang kurang Ambassador aja betul kurang Def aja Masti nanti jadi [Tertawa] PHP Janganlah PHP tetap berkembang iya banyak kok apa E bahasa-bahasa yang lain juga banyak tetap berkembang kadang-kadang juga del del 84 loh Iya dari tahun berapa tuh PHP dibilang bakal mati bakal mati tapi enggak mati kanak ada juga bahasa yang yang awalnya Mungkin sedikit populer terus kemudian enggak didengar terus tiba-tiba muncul gitu kan banyak kan eh tiba-tiba mati Muncul lagi gu juga B banyak kan 83 yang sudah rilis 84 tuh masih tahun ini tetapi 83 November lalu I mungkin eh salah satu eh apa namanya kesulitan belajar Rus tergantung dari eh background kita kalau background kita mungkin udah menggunakan bahasa yang type language seperti Java atau typesript mungkin itu mungkin kayaknya cenderung lebih mudah ya cuman konsep-konsepnya itu banyak yang berbeda contohnya boro cheker boroeker juga beda ya itu nah ya Saya juga gak tahu itu apa jadi banyak e banyak apa ya sama kayak Oop banyak yang dipelajari e apa istilahnya e konsep-konsepnya mungkin itu by the way kita sudah hampir 2 jam ternyata ternyata bisa ngomin gini doang bisa lama he seru lagi seru ya mungkin next timeennya kita akan bahas op di Java skriip kali ya Biar adil Kalau bahas biar adil Kalau bahas PHP Nanti bahas Pak amayumudim apa tuh Oh kalau enggak tahu ya berarti harus cari apa itu oke e Nantilah itu itu scop operator masalah masalah di scop operator oh nah seru ini Iya sebenarnya kan kita mau bahas PHP kan tapi mau ngundang siapa gitu kan mau belum ketemu narasumbernya mungkin teman DII punya kenalan yang bisa diajak ngobrol di sini boleh ya kita e undangang nanti apa Nah ini Bu entar buat episode PHP lah oke untuk malam ini mungkin kita udahan dulu e jangan lupa kita bisa diskusi lebih lanjut ya di githubnya kitaapcom/obrolin atau ke/obrol Jadi sebenarnya bisa ee apa suggest topic atau bisa mau diskusi misalkan Saya pengin tahu dong eh cara penggunaan Apa ya Eh use memo itu kayak gimana gitu ya kalau kalau sempat nanti kita akan jawab mungkin kita akan bikin episode khusus untuk menjawab pertanyaan-pertanyaan yang ada di sana itu menarik juga kan Ya woh udah muncul nih nama-namanya pak Sandika gali e Mas Petra Oh iya benar kalau Pak Sandika gali lebih gampang Kalau lebih gampang ya Heeh tapi dia enggak mau diajak bahas PHP itu enggak mau coba mungkin set Mungkin setelah nonton ini mau ah ya mudah-mudahan dengan PHP bisa beli lambo Wah lambo JS BRB belajar PHP lambo JS ya lambo JS yang beli kan yang bikin Framework kan ya bukan yang menggunakan frameweloper yang ini bahasanyaan mimpi sebelum kalian bikin Framework Oke Jadi silakan berlomba-lomba bikin Framework ya ya itu tadi nama nama bahasanya sudah ada ide kan di atas ada ada apa kutilang ditilang ditilang Iya Jadi mungkin untuk malam ini kita udahan dulu sebelum semakin ngaco ya terima kasih buat semuanya yang sudah meramaikan Ee mudah-mudahan kita dapat sesuatulah ya dari sesi malam ini Enggak cuman ee saling mengejek ya jangan ya Enggak boleh ya Loh kan Enggak ngejek kita mengapresiasi mengapresiasi betul betul oke kita ketemu lagi minggu depan minggu depan tanggal tanggal 5 berarti minggu depan ada bintang tamu spesial siapa kita tunggu saja seru banget Iya topiknya juga lagi Hype ya jadi ditunggu aja Ee Kita tanggal 5 ya tanggal 5 ya tanggal 5 Oke dan untuk malam ini sekian terima kasih banyak Sampai jumpa minggu depan Bye bye bye bye"
+}

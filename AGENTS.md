@@ -22,6 +22,7 @@
   - Raw data is stored in `src/data/episodes.json`.
   - `src/lib/episodes.ts` acts as the data access layer, handling sorting, slug generation, and retrieval by ID/slug.
   - `scripts/fetch-playlist.ts` is a utility script to fetch fresh data from the YouTube API.
+  - Transcripts live in `src/data/transcripts/<videoId>.json` and are rendered by `src/components/Transcript.astro`. A `source` field records provenance; it is absent on transcripts generated before the field existed, so treat it as optional everywhere.
 - **Components:** UI components in `src/components/` (e.g., `EpisodeCard.astro`, `YouTubeEmbed.astro`).
 - **Testing:**
   - **Unit Tests:** Vitest for logic in `src/lib/`.
@@ -46,6 +47,24 @@
 | `npm run test:unit`   | Explicitly run unit tests.                             |
 | `npm run test:e2e`    | Run end-to-end tests using Playwright.                 |
 | `npm run test:e2e:ui` | Run Playwright tests with the UI runner.               |
+
+### Transcription
+
+Three generators write the same transcript shape — pick by cost, not by preference:
+
+| Script | Method | Cost / requirements |
+| :--- | :--- | :--- |
+| `npm run transcribe:youtube` | YouTube auto-captions via `yt-dlp` | Free; no API key, no cookies, no media download. **Default for new episodes.** |
+| `npm run transcribe` | Local `whisper-cli` | Free but slow; needs a whisper model and browser cookies. Path is hardcoded to a local nix profile. |
+| `npm run transcribe:openai` | OpenAI Whisper API | Needs `OPENAI_API_KEY`, `ffmpeg`. |
+
+Do not regenerate existing transcripts with `transcribe:youtube` — whisper output is
+cleaner than deduplicated rolling captions, so overwriting is a downgrade. The script
+requires `--force` to overwrite for this reason.
+
+`scripts/lib/vtt.ts` holds the non-obvious part: YouTube auto-captions are *rolling*
+captions that repeat each spoken line across several cues. See the module comment there
+for the reconstruction rule and why it is exact rather than fuzzy.
 
 ### Data Fetching
 
@@ -84,3 +103,10 @@ To update the episode list from YouTube:
 - ❌ **Don't skip initialization guards** - Scripts may run multiple times, prevent duplicate work
 - ❌ **Don't test only initial page load** - View transitions create different execution context
 - ❌ **Don't refactor without E2E coverage** - ShareButtons refactor needed testing protection
+
+## Maintaining this file
+
+Keep this file for knowledge useful to almost every future agent session in this project.
+Do not repeat what the codebase already shows; point to the authoritative file or command instead.
+Prefer rewriting or pruning existing entries over appending new ones.
+When updating this file, preserve this bar for all agents and keep entries concise.

@@ -1,0 +1,1919 @@
+{
+  "videoId": "7JewigkI4Do",
+  "language": "id",
+  "generatedAt": "2026-08-22T02:14:33.236Z",
+  "source": "youtube-auto",
+  "segments": [
+    {
+      "start": 10.47,
+      "end": 27.669,
+      "text": "[Musik] halo halo halo selamat malam selamat malam ketemu lagi dengan kita bertiga di selasa malam waktunya"
+    },
+    {
+      "start": 27.679,
+      "end": 42.91,
+      "text": "ngobrolinobr bisa bisa kompak eh Oh sudah udah udah bagus soundboard-nya udah udah dong udah [Tepuk tangan] diperbaiki Gimana kabarnya mudah-mudahan"
+    },
+    {
+      "start": 42.92,
+      "end": 51.31,
+      "text": "teman-teman sehat-sehat semua seperti biasa kita eh bertiga lagi dengan format bertiga ada Ivan ada Eka dan ada saya"
+    },
+    {
+      "start": 51.32,
+      "end": 64.63,
+      "text": "Riza eh untuk ee episode ini tayang di tanggal 20 Februari ya walaupun I EE edisi rekaman lagi-lagi rekaman ee Kalau kemarin"
+    },
+    {
+      "start": 64.64,
+      "end": 72.67,
+      "text": "karena ada narasumbernya ee jauh di belahan dunia yang berbeda Heeh ee kali ini kita rekaman karena kita"
+    },
+    {
+      "start": 72.68,
+      "end": 81.95,
+      "text": "tiga-tiganya enggak bisa Besok hari Selasa jadi terpaksa kita rekaman mudah-mudahan minggu depan kita bisa live lagi ya Iya ada meeting bersama ya"
+    },
+    {
+      "start": 81.96000000000001,
+      "end": 92.27000000000001,
+      "text": "oh meeting bersama oke nah malam hari ini kita akan mumpung masih ini ya masih bulan Februari kan"
+    },
+    {
+      "start": 92.28,
+      "end": 101.22999999999999,
+      "text": "masih awal tahun ya jadi ee apa kita akan coba bahas tentang ini kayak masih Kayaknya masih masuk preview"
+    },
+    {
+      "start": 101.24000000000001,
+      "end": 110.31,
+      "text": "ya preview yang waktu kita awal tahun kemarin ini preview tapi vers bukan preview ya apa ya ini kayak kalau yang"
+    },
+    {
+      "start": 110.32,
+      "end": 118.83,
+      "text": "kemarin itu kan kita jadi ibaratnya memprediksi kalau yang kali ini itu seper bukan lebih prediksi lagi Sudah"
+    },
+    {
+      "start": 118.84,
+      "end": 127.51,
+      "text": "sudah kejadian Kinan kemungkinan besar akan arahnya ke sana kemungkinan besar akan sudah ada tindakan Nata sudah iya"
+    },
+    {
+      "start": 127.52,
+      "end": 139.869,
+      "text": "tindakannyaata Selanjutnya perkembangan web itu akan mengarah ke sana tinggal disesuaikan dengan face masing-masing browser sanggup enggak menyelesaikan"
+    },
+    {
+      "start": 139.879,
+      "end": 152.71,
+      "text": "Eh featurefeature ini feature-feature yang akan dibawakan tapi sudah disepakati bersama ee empat Major browser sudah sepakat ini hal yang akan kita develop bersama"
+    },
+    {
+      "start": 152.72,
+      "end": 163.309,
+      "text": "di 2024 2024 Iya namanya adalah interop 2024 projectnya namanya interop kita pernah bahas ya di episode Entah berapa"
+    },
+    {
+      "start": 163.31900000000002,
+      "end": 173.309,
+      "text": "2 22 Nah ini dia preview-nya kita melihat foto kita sendiri di tahun 2000 tahun lalu ini kita bahas tentang"
+    },
+    {
+      "start": 173.31900000000002,
+      "end": 185.71,
+      "text": "eh interop 2023 ya interop 2023 dan malam hari ini kita akan bahas tentang interop 2022 eh 200 2024 ya"
+    },
+    {
+      "start": 185.72,
+      "end": 195.83,
+      "text": "mungkin buat penyegaran awal tahun akan di eh Setiap awal tahun Emang diounce eh eh interopnya Nah buat penyegaran eh ada"
+    },
+    {
+      "start": 195.84,
+      "end": 205.27,
+      "text": "yang bisa menjelaskan enggak tentang Apa itu introp B Pro ini apa sih ek ek karena ini topik topik topik a extendednya"
+    },
+    {
+      "start": 205.28,
+      "end": 213.07,
+      "text": "banget ya pernah bikin slide tentang ini sih ya sebetulnya topiknya sih tentang macam-macam kerja sama antar browser"
+    },
+    {
+      "start": 213.07999999999998,
+      "end": 222.19,
+      "text": "jadi salah satunya si Project Inter ini jadi eh apa vendor tig vendor browser e Major sekarang empat ya sekarang empat"
+    },
+    {
+      "start": 222.2,
+      "end": 232.27,
+      "text": "sekarang jadi empat sudah empatemp Chrome Chrome Ed eh Firefox sama Safari itu kerja sama untuk eh jadi gambaran"
+    },
+    {
+      "start": 232.28,
+      "end": 242.83,
+      "text": "besarnya adalah mengimprove meningkatkan interoperability of the web Apa itu interoperability ya itu eh di setiap browser sama karena selama ini kan"
+    },
+    {
+      "start": 242.84,
+      "end": 252.63,
+      "text": "stigmanya Eh kalau webdve itu terutama UI Heeh Malas kalau misalnya eh css-nya begini itu sering ada apa sih hack-nya"
+    },
+    {
+      "start": 252.64,
+      "end": 259.39,
+      "text": "yang depannya ada prefix harus di Dash web Oh I mungkin teman-teman yang sekarang udah enggak ngejamanin ya tapi"
+    },
+    {
+      "start": 259.4,
+      "end": 267.749,
+      "text": "dulu banyak banget workround yang kayak gitu bahkan kalau sekarang sudah pakai po CSS jadi Sudah otomatis biasanya Heeh"
+    },
+    {
+      "start": 267.759,
+      "end": 277.79,
+      "text": "Iya apalagi pakai T enggak Berasa ya iya ya ya pokoknya dulu orang zaman dulu tuh eh apa banyak masalah karena orang zaman"
+    },
+    {
+      "start": 277.8,
+      "end": 286.79,
+      "text": "dulu Enggak dulu-dulu banget antar browser itu bukan cuma CSS tapi misalnya E web api yang javascript juga kadang"
+    },
+    {
+      "start": 286.8,
+      "end": 295.31,
+      "text": "ada beda-beda tipis lah behaviornya atau misalnya kalau CSS paling banyak behavior capsingnya atau apa dan kadang itu hal-hal yang kecil jadi kita gak"
+    },
+    {
+      "start": 295.32,
+      "end": 304.11,
+      "text": "langsung tahu waktu dites enggak muncul nanti tiba-tiba di Production ya ada yang komplain di Firefox atau di iPhone"
+    },
+    {
+      "start": 304.12,
+      "end": 311.749,
+      "text": "tiba-tiba beda jadi itu stigmanya sekarang terus kan orang itu kan kurang bagus buat perkembangan web secara umum"
+    },
+    {
+      "start": 311.759,
+      "end": 318.909,
+      "text": "jadi ggak bagus buat mereka si semua stakeholder itu juga Makanya dibikin kayak kesepakatan Ya udah kita bikin"
+    },
+    {
+      "start": 318.919,
+      "end": 330.39,
+      "text": "proek bersama yang tujuannya e membuat yang ngompakin lah ngompakin e cara kerja fitur-fitur web platform di masing-masing browser nah terakhir yang"
+    },
+    {
+      "start": 330.4,
+      "end": 338.189,
+      "text": "di kanan tuh How Bagaimana Nah jadi eh di awal Jadi sebenarnya bukan bagian langsung dari project ini ada yang"
+    },
+    {
+      "start": 338.199,
+      "end": 348.55,
+      "text": "namanya research research dari community group yang namanya webdx community group jadi kayak bentuknya macam-macam jadi kayak ada yang paling yang paling publ"
+    },
+    {
+      "start": 348.56,
+      "end": 358.51,
+      "text": "tuh ada github-nya kayak bikin apa ya E bikin isue gitulah eh buat developer pada voting eh fitur apa yang eh buat"
+    },
+    {
+      "start": 358.52,
+      "end": 366.589,
+      "text": "mereka paling penting dan kelihatannya e behaviiernya di antar browser tuh kayak masih kurang terus ada riset mungkin"
+    },
+    {
+      "start": 366.599,
+      "end": 376.71,
+      "text": "teman-teman juga sering dengar atau sering lihat kan kita developer suruh ngisi-isi survei-survei begituan lah surve developer terus secara publ ada"
+    },
+    {
+      "start": 376.72,
+      "end": 389.43,
+      "text": "githubnya ada diskusi-diskusinya juga ya gitu nah terus itu kan sebelum selama Project berlangsung itu dijalaninya di yang namanya proek lain yang namanya web"
+    },
+    {
+      "start": 389.44,
+      "end": 398.87,
+      "text": "form tes nah oke wpt tampilannya kayak gini nih skilles ini dashboard-nya nah fokus area itu yang di kanan ya bisa"
+    },
+    {
+      "start": 398.88,
+      "end": 408.029,
+      "text": "dilihat tuh ada item-itemnya jadi berdasarkan hasil survei di awal tadi Eh seluruh browser ini sepakat Oh kita"
+    },
+    {
+      "start": 408.039,
+      "end": 416.749,
+      "text": "ngerjain ini ini ini border image color Space function bla bla bla terus angka angka itu dari mana tuh nah itu dari tes"
+    },
+    {
+      "start": 416.759,
+      "end": 427.55,
+      "text": "yang pasting jadi ini bisa dibilang kayak senario he test Den development lah jadi eh apa UN unit tes iya mereka"
+    },
+    {
+      "start": 427.56,
+      "end": 437.43,
+      "text": "semua e sepakat eh bikin tesnya bikin t tes yang sama gitu ya Heeh tesnya sama jadi kan sebenarnya browsernya beda ya"
+    },
+    {
+      "start": 437.44,
+      "end": 448.11,
+      "text": "programnya juga apa codingannya juga beda kan masing-masing browser itu enggak masalah yang penting tesnya passing bagi teman-tem bagi teman-teman yang ingin"
+    },
+    {
+      "start": 448.12,
+      "end": 459.51,
+      "text": "mengerti lebih dalam Jadi sebenarnya dari sisi web consorium itu web specification namanya web web specification web api specification itu"
+    },
+    {
+      "start": 459.52,
+      "end": 472.83,
+      "text": "hanya eh dokumentasinya itu hanya menyatakan eh sebuah feature behaviornya seperti ini expected-nya bagaimana terus kemudian fitur itu untuk apa itu hanya"
+    },
+    {
+      "start": 472.84000000000003,
+      "end": 486.469,
+      "text": "dokument itu yang ada di api documentation-nya sedangkan Bagaimana implementasinya di browser implementasi secara coding ya Ee secara code-nya itu tiap browser"
+    },
+    {
+      "start": 486.479,
+      "end": 499.07,
+      "text": "beda-beda beda-beda karena engine-nya berbeda contohnya kalau di di chromium base itu kan engine-nya blink kalau di Firefox pakai Geek enginenya rendering"
+    },
+    {
+      "start": 499.08,
+      "end": 515.35,
+      "text": "engine ya sini maksudnya rendering engin pak web kit dan itu benar-benar beda arsitektur beda ee beda code base jadi Iya supaya kita"
+    },
+    {
+      "start": 515.36,
+      "end": 527.07,
+      "text": "sebagai web developer itu punya kesamaan contohnya mau pakai border image ee saat dirender di eh Safari ataupun"
+    },
+    {
+      "start": 527.08,
+      "end": 536.31,
+      "text": "saat diender Firefox Harusnya sama kodenya sama harusnya hasilnya sama Nah itu maksudnya project interop ini H jadi"
+    },
+    {
+      "start": 536.32,
+      "end": 542.75,
+      "text": "dari sisi developer enggak usah mikir lagi nih borderer image di safari tuh harus diginiin di Chrome harus"
+    },
+    {
+      "start": 542.76,
+      "end": 555.67,
+      "text": "digimanain Ya udah behavnya selalu enggak ada lagi akal-akalan montir nah ini kiri itu percentage eh passing test tadi sudah dibahas nah"
+    },
+    {
+      "start": 555.68,
+      "end": 564.99,
+      "text": "terus ini kenapa ya kemarin Oh kita bisa lihat ini teman-teman bisa lihat di wpt.fyi itu web platform test Nah kita"
+    },
+    {
+      "start": 565,
+      "end": 574.11,
+      "text": "bisa lihat tuh test case-nya dan ini enggak pakai Framework eh eh react atau Apun ini e test case-nya itu ini hal"
+    },
+    {
+      "start": 574.12,
+      "end": 582.269,
+      "text": "yang paling menarik sih buat gua e bahwa test case-nya html CSS javascript biasa Beneran itu bisa dibuka filenya langsung"
+    },
+    {
+      "start": 582.279,
+      "end": 591.269,
+      "text": "jadi ini contohnya nih kita ngeklik container queries terus muncul Tuh semua test cas-nya Eh apa Test suit lah"
+    },
+    {
+      "start": 591.279,
+      "end": 601.47,
+      "text": "semacam test Suit dan eh itu banyak hal-hal yang kita kayaknya enggak mikirin kayak misalnya ktainer queries kalau di anime m eh kan parentnya bisa"
+    },
+    {
+      "start": 601.48,
+      "end": 611.03,
+      "text": "berubah tuh ukurannya Terus gimana dong Nah itu tuh eh para para pembuat browser itu mengantisipasi berbagai skenario dan"
+    },
+    {
+      "start": 611.04,
+      "end": 620.389,
+      "text": "mereka mensepakati eh apa expected-nya Harusnya kayak gimana ya kalau tertarik bisa di eh lihat sendiri Ini kan 2023"
+    },
+    {
+      "start": 620.399,
+      "end": 629.15,
+      "text": "nih contohnya karena ini slide dari tahun lalu Nanti kita bakal lihat yang 2024 nah terus eh apa gunanya buat kita"
+    },
+    {
+      "start": 629.16,
+      "end": 637.389,
+      "text": "developer ya itu tadi udah dibahas sama Ivan juga yang pertama ngurangin akal-akalan montir jadi kan Ya udah"
+    },
+    {
+      "start": 637.399,
+      "end": 647.389,
+      "text": "codingannya sekali konsisten di semua Browser yang kedua ya dari sisi user juga kan mengurangi bug performanya lebih bagus karena enggak ada"
+    },
+    {
+      "start": 647.399,
+      "end": 654.03,
+      "text": "akal-akalan montir seperti tadi nah yang ketiga nih yang agak abstrak yang kita enggak terlalu notis Jadi biasanya kalau"
+    },
+    {
+      "start": 654.04,
+      "end": 661.389,
+      "text": "ada fitur-fitur baru walaupun kita tahu ada fitur baru kan kita malas kita ragu-ragu karena kita mikir ah"
+    },
+    {
+      "start": 661.399,
+      "end": 670.87,
+      "text": "jangan-jangan belum disupport atau belum disupport dengan baik atau konsisten di semua browser kita malaseloper Mal mengadopsi Fur baru Nah"
+    },
+    {
+      "start": 670.88,
+      "end": 681.829,
+      "text": "mau mengurangi mengurangi kecenderungan seperti itu juga dan yang keat ya ekosistem library Framework seperti atau apa juga majunya lebih"
+    },
+    {
+      "start": 681.8389999999999,
+      "end": 696.629,
+      "text": "cepat karena kita kinggauinggualunyai Eh kalau misalnya udah stabil di semua browser eh library seperti tawin juga akan mengintegrasikan"
+    },
+    {
+      "start": 696.639,
+      "end": 707.03,
+      "text": "fiturfitur mereka Jadi ya semua terbantu kira-kira planningnya juga lebih jelas kan ya jadi misalkan kita bikin library"
+    },
+    {
+      "start": 707.04,
+      "end": 714.35,
+      "text": "seperti twin oh ini e view Transition nih bentar lagi nih kita siap-siap atau gimana gitu kan jadi bisa diantisipasi"
+    },
+    {
+      "start": 714.36,
+      "end": 723.509,
+      "text": "dengan lebih cepat gitu ya oke nah terus juga ini apa ada ada prosesnya tuh kayak gimana ya Katanya"
+    },
+    {
+      "start": 723.519,
+      "end": 736.47,
+      "text": "ada votevote gitu ya Ada macam-macam sih ada yang dari kayak tadi developer survei jadi ngisi survei ada yang dari github repo Coba ada engak"
+    },
+    {
+      "start": 736.48,
+      "end": 745.43,
+      "text": "reponya Kalau ini Kalau enggak salah ya dari github repo nih tuh ada eh kalau diklik Dia akan menuju ke"
+    },
+    {
+      "start": 745.44,
+      "end": 756.069,
+      "text": "github.com/webplatform test/ gitu JPEG XL Apa itu oh JPG XL ini tadi kita ah sempat Iya udah sempat kita ngobrol tadi"
+    },
+    {
+      "start": 756.079,
+      "end": 767.79,
+      "text": "di belakang layar ya jadi eh dulu kan Iya dulu kan yang di-support sama browser kan hanya PNG JPG Eh svg"
+    },
+    {
+      "start": 767.8,
+      "end": 779.31,
+      "text": "sama apaagi ya BMP mungkin ya enggak tahu BMP gif BMP gif ya gif ya I nah kemudian kan kan"
+    },
+    {
+      "start": 779.32,
+      "end": 788.55,
+      "text": "muncul kan ini wep avif terus apaalagi tuh macam-macam yang baru-baru nah pada saat Google Chrome mengeluarkan avif"
+    },
+    {
+      "start": 788.56,
+      "end": 799.31,
+      "text": "avif apa avif ya ya itulah pokoknya ya avif ya Eh mereka ngedrop support untuk gpeg XL oh oh I"
+    },
+    {
+      "start": 799.32,
+      "end": 807.11,
+      "text": "iak ini I entah Alasan apa ya kita enggak tahu ya entah alasan apa dia ngdrop e JPEG XL eh jadi enggak bisa tuh"
+    },
+    {
+      "start": 807.12,
+      "end": 820.35,
+      "text": "di Chrome ee e padahal menurut pengakuan beberapa orang jpl itu katanya lebih e optimiz lebih kecil dibandingkanif gitu entah kenapa"
+    },
+    {
+      "start": 820.36,
+      "end": 830.15,
+      "text": "sih Chrome gak mau kita gak tahu nah e bukan ya uniknya di Inter 2024 ini paling tinggi"
+    },
+    {
+      "start": 830.16,
+      "end": 842.31,
+      "text": "votnya balik Jadi ada kemungkinan Iya ada kemungkinan Chrome akan ulang lagi si GP exl ini dia kan belum tentu tapi belum tent"
+    },
+    {
+      "start": 842.32,
+      "end": 851.11,
+      "text": "boleh boleh voting betul berharap ya berharap Heeh Iya eh coba lihat e reponya lagi deh nih Itu tadi yang ada"
+    },
+    {
+      "start": 851.12,
+      "end": 862.11,
+      "text": "yang ada votingnya nah lihat is ini votingnya di mana ini isu nih kegedean ya Iya itu berupa isu Oke ini udah dua"
+    },
+    {
+      "start": 862.12,
+      "end": 873.269,
+      "text": "dari t ada thumbs up thumbs downnya tuh tu tuh 6nya 600 Hah 600 ini berapa di sini 400 Oh belum"
+    },
+    {
+      "start": 873.279,
+      "end": 885.069,
+      "text": "di-update ya ini kan block Po ya masih 400 Cuma yang jelas itu populer liat bawahnya orang pada ngobrol apaan"
+    },
+    {
+      "start": 885.079,
+      "end": 892.71,
+      "text": "komentarnya please make the case here this issue is what will be considered and discuss Oh jadi di situ bisa bikin"
+    },
+    {
+      "start": 892.72,
+      "end": 902.509,
+      "text": "isu terus bilang Kenapa itu penting I ini itu ini di sini bisa di-highlight nih bla bla bla blaa salah satu yang"
+    },
+    {
+      "start": 902.519,
+      "end": 913.629,
+      "text": "menurut dia Baguslah gitu Nah ya argumennya kenapa ini perlu diutamakan eh dimasukkan ke project interop karena kan enggak mungkin eh"
+    },
+    {
+      "start": 913.639,
+      "end": 924.389,
+      "text": "semua fitur baru langsung sekaligus segambreng masukin inop kan harus ada e pilih beberapa untuk prioritas betul makanya ini juga interop juga salah satu"
+    },
+    {
+      "start": 924.399,
+      "end": 937.749,
+      "text": "cara untuk eh si E Browser Developer untuk eh prioritas heioritaskan apa yang banyak dipakai dan penting buat developer"
+    },
+    {
+      "start": 937.759,
+      "end": 945.43,
+      "text": "betul itu terus yang lain apa isnya Coba lihat deh Eh view Transition Kalau enggak salah yang kedua nih view"
+    },
+    {
+      "start": 945.44,
+      "end": 954.389,
+      "text": "Transition level 1 Nah ini bisa jelasin Apa tuh maksudnya level 1 level 2 karena topiknya Eka lagi nih"
+    },
+    {
+      "start": 954.399,
+      "end": 965.829,
+      "text": "Dit udah dibahas ya tapi Boleh diulang sedikit lah ya he itu intinya bikin animasi dari satu state ke state lainnya"
+    },
+    {
+      "start": 965.839,
+      "end": 979.309,
+      "text": "nah Ate itu kan bisa macam-macam ya kita ngeklik tombol muncul modal atau Muncul apukaardah itu tuh dihle di level 1 S"
+    },
+    {
+      "start": 979.319,
+      "end": 992.389,
+      "text": "jadi navigation Juga misalnya kita punya spaleage ya atau misalnya kita pak Framework yang punya semacam kit atau nextjs itu kan Eh kalau"
+    },
+    {
+      "start": 992.399,
+      "end": 1004.069,
+      "text": "CLI kalau javascriptnya aktif dia menhack kan maksudnya kalau kita nglik suatu link eh yang jalan adal yanginterck eventnya adalah routernya"
+    },
+    {
+      "start": 1004.079,
+      "end": 1013.749,
+      "text": "nexts misalnya nah itu view Transition yang level 1 menhandle yang di CLI tapi yang level 2 akan menghandle yang"
+    },
+    {
+      "start": 1013.759,
+      "end": 1026.99,
+      "text": "serverasink hperink bias bla itu bisa langsung ada animasinya nah yang sekarang Cuma yang level 1 yang level 1 Udah lumayan matang lah di"
+    },
+    {
+      "start": 1027,
+      "end": 1037.35,
+      "text": "Chrome sudahudah shipping eh vendor browser lain walaupun belum shipping sudah menyatakan eh persetujuan mereka udah bilang Oh ya boleh deh kapan-kapan"
+    },
+    {
+      "start": 1037.36,
+      "end": 1044.87,
+      "text": "kita adopsi walaupun belum Nah cuma kalau yang level 2 masih belum ada kesepakatan seperti itu masih digodok"
+    },
+    {
+      "start": 1044.88,
+      "end": 1054.75,
+      "text": "jadi yang makanya E itu kenapa yang diop untuk introp 2024 ini adalah yang level 1 yang udah shipping dan browser semua"
+    },
+    {
+      "start": 1054.76,
+      "end": 1064.63,
+      "text": "browser lain juga udah bilang Okelah tetapi Eh tapi tidak terpilih nih tulisannya Heeh i ya kan developer"
+    },
+    {
+      "start": 1064.64,
+      "end": 1075.27,
+      "text": "berusaha eh para browser vendor menentukan Eh kalau yang tadi diterima enggak ya GP Excel ini JP Excel terima"
+    },
+    {
+      "start": 1075.28,
+      "end": 1088.549,
+      "text": "ya ke bawah ada enggak jawabannya Oh paling bawah ya ya cus I palingwa kan cobaly Chrome reconsider ininya Coba lihat"
+    },
+    {
+      "start": 1088.559,
+      "end": 1101.149,
+      "text": "wpt Iya dari kata-kat I'm also nah wpt.in I dia ininya apa namanya si yang balasnya kan yang balasnya kan wpt. impr"
+    },
+    {
+      "start": 1101.159,
+      "end": 1112.71,
+      "text": "Engak enggak ada enggak ada ee kata-katanya aja kata-katanya aja apa ee itu itu WP coba coba carinya iyaya tadi"
+    },
+    {
+      "start": 1112.72,
+      "end": 1125.35,
+      "text": "titik ada nih n sama ini ini bot ini kayaknya ya iya kata-katanya sama tidak ya oh iyaal selection-nya"
+    },
+    {
+      "start": 1125.36,
+      "end": 1134.27,
+      "text": "diklik dong diklik for an overview of our process si proposal selection Oh prosesnya ini dia tanya kalau kalau"
+    },
+    {
+      "start": 1134.28,
+      "end": 1141.549,
+      "text": "teman-teman pengin tahu prosesnya Seperti apa Terus tadi kan kita nanya juga tuh gimana cara milih milih ee"
+    },
+    {
+      "start": 1141.559,
+      "end": 1152.47,
+      "text": "fitur buat fokus areasnya nah jawabannya ada di situ Iya jadi udah di sudahudah decide ya Desember 1 sampai 14 Ya sudah selesai"
+    },
+    {
+      "start": 1152.48,
+      "end": 1162.27,
+      "text": "ya diannounce-nya Di Januari nah tapi sebelum kita lanjut lagi yang menarik-menarik menurut kita ini ada yang baru nih dari dari apa dari si"
+    },
+    {
+      "start": 1162.28,
+      "end": 1172.669,
+      "text": "interop 2024 ya walaupun tadi sudah sempat dibahas sedikit 2023 kan si Chrome sama itu jadi satu ya dekatan gitu ya karena"
+    },
+    {
+      "start": 1172.679,
+      "end": 1183.23,
+      "text": "diaium base bukan jadi bar Bu dekatan jadi kolomnya cuma satu karena chromium kan kolomnya satu kalau sekarang k satu"
+    },
+    {
+      "start": 1183.24,
+      "end": 1192.99,
+      "text": "jadi sekarang punya kolom sendiri Iya berarti artinya ya kita enggak tahu ya kita enggak tahu layout engine yang"
+    },
+    {
+      "start": 1193,
+      "end": 1201.83,
+      "text": "dipakai ge sudah berbeda lihat aja contohnya di di section layout ya lihat cuma itu hasilnya sama semua"
+    },
+    {
+      "start": 1201.84,
+      "end": 1208.71,
+      "text": "sih beda beda beda ini beda bed Oh iya beda deh Oh i si saat ini si itu sudah"
+    },
+    {
+      "start": 1208.72,
+      "end": 1221.19,
+      "text": "ngforking dari Blink mulai forking I sudah forking sudah beda iya Betul apa yang terjadi di sini wah seru seru ya"
+    },
+    {
+      "start": 1221.2,
+      "end": 1229.83,
+      "text": "kalau bapak new Chrome enggak eh buat informasi juga kan Kayaknya Minggu lalu ya sempat kita bahas wau mungkin enggak"
+    },
+    {
+      "start": 1229.84,
+      "end": 1238.789,
+      "text": "enggak dibahas di waktu rekamannya waktu di belakang layar mungkin ya Kalau enggak salah jadi si webkit itu kan dari"
+    },
+    {
+      "start": 1238.799,
+      "end": 1247.87,
+      "text": "eh kde kan dari Linux kan eh k browser namanya kan habis itu engine-nya namanya webkit habis itu"
+    },
+    {
+      "start": 1247.88,
+      "end": 1260.83,
+      "text": "webkit ini dipakai sama safariink iya dan kemudian setelah dipakai sama Safari difork jadi Blink akhirnya jadilah Chrome I kan Iya jadi"
+    },
+    {
+      "start": 1260.84,
+      "end": 1273.63,
+      "text": "ini juga ada kemungkinan Kenapa ini dipisah Ada kemungkinan e si ge ini bisaemodifikasi mungkin basennya sama basisnya sama sama-sama chromium tapi"
+    },
+    {
+      "start": 1273.64,
+      "end": 1282.149,
+      "text": "dia memodifikasi mungkin ada beberapa hal yang dioptimiz atau ada yang dikurangin ada ditambahin untuk e optimasi disesuaikan dengan mungkin"
+    },
+    {
+      "start": 1282.159,
+      "end": 1295.909,
+      "text": "os-nya ya Windows gitu ya jadi lebih optimal akhirnya menjadi engine tersendiri yang sedikit berbeda dengan Chrome mungkin kar kita tahu juga sudah pasti"
+    },
+    {
+      "start": 1295.919,
+      "end": 1304.23,
+      "text": "ya kalau sudah beda hasilnya Coba aja eksperimentalnya Iya si pencet di Tab eksperimental Iya kalau hasilnya beda"
+    },
+    {
+      "start": 1304.24,
+      "end": 1315.909,
+      "text": "Berarti ada yang beda tuh Chrome Canar sama Def itu beda berarti ada minimal berarti mereka kan sudah ngforking sudah punya repo"
+    },
+    {
+      "start": 1315.919,
+      "end": 1327.87,
+      "text": "sendiri e mere ngevelop samping dan mereka belum belum enggak enggak ngambil lagiak mereka enggak ng Enggak enggak ngbackport lagi berarti"
+    },
+    {
+      "start": 1327.88,
+      "end": 1334.83,
+      "text": "mereka sudah jalan sendiri Oh mereka enggak enggak fetch lagi ya Enggak enggak P ya enggak P dari chromium ya eh"
+    },
+    {
+      "start": 1334.84,
+      "end": 1343.31,
+      "text": "loh bisa aja mereka ngpull lagi cuma mereka Jadi mereka ngambil update-an chromium kan bisa aja dan sah aja tapi"
+    },
+    {
+      "start": 1343.32,
+      "end": 1352.669,
+      "text": "yang mereka develop tambahan bumbunya mereka sendiri itu enggak di Enggak diing enggak dipush ke chromium ya Bumbu"
+    },
+    {
+      "start": 1352.679,
+      "end": 1358.71,
+      "text": "mereka ya buat mereka sendiri aja jadi bisa-bisa tapi misalnya chromium ada development baru nih ya mereka ngambil"
+    },
+    {
+      "start": 1358.72,
+      "end": 1369.39,
+      "text": "lagi e mereka bisa jadiis kan sama-sama op wait Sebelum saya saya ngomong saya enggak tahu browser Ed itu open source apa enggak"
+    },
+    {
+      "start": 1369.4,
+      "end": 1381.35,
+      "text": "Enggak tahu juga sama enggak tahunya enggak deh chromiumnya yang open source mungkin engine-nya iya tapi edge-nya enggak"
+    },
+    {
+      "start": 1381.36,
+      "end": 1398.99,
+      "text": "saya Googling secepatnya dulu iya jangan Googling lah B Oh Microsoft e seemims like open source Sims like why"
+    },
+    {
+      "start": 1399,
+      "end": 1412.35,
+      "text": "kenapa kenapa kenapa seperti open source karena belum tahu benar enggak salah ngomong itu ada ininya ya tu ada PIN paling atas kiri Microsoft ya"
+    },
+    {
+      "start": 1412.36,
+      "end": 1422.47,
+      "text": "msh Oh ada github-nya tapi itu cuma licens doang belum bukan iya ya enggak di update-nya 4 tahun 4 tahun lalu enggak ada sursnya"
+    },
+    {
+      "start": 1422.48,
+      "end": 1433.029,
+      "text": "bukan browsernya ini apa msh I itu doang oh liens gapdate-nya 4 tahun lalu web viieew-nya Enggak ada enggak tahu yang"
+    },
+    {
+      "start": 1433.039,
+      "end": 1443.87,
+      "text": "mana Enggak ada tuh Makanya saya bilang saya enggak yakin Iya ini kan Microsoft juga Melak enggak tahu ya Apakah melakukan hal yang sama"
+    },
+    {
+      "start": 1443.88,
+      "end": 1454.549,
+      "text": "dengan vscode vscode kan sebenarnya open source source-nya bisa dilihat tapi yang kita pakai yang sudah dikompilasi itu"
+    },
+    {
+      "start": 1454.559,
+      "end": 1464.11,
+      "text": "beda Eh beda ya sama dengan Chrome yang aslinya Chrome betul betul betul betul betul I irum Ben Ben benar Iya yang Open"
+    },
+    {
+      "start": 1464.12,
+      "end": 1472.35,
+      "text": "sour itu chromium bukan Google Chrome Heeh Iya jadi kalau kita mau pakai mau pakai vs Code yang versi open source-nya"
+    },
+    {
+      "start": 1472.36,
+      "end": 1481.029,
+      "text": "kita harus compile sendiri enggak disediain tuh gitu maksudnya kita compile di mesin kita sendiri kalau yang sudah dijadikan"
+    },
+    {
+      "start": 1481.039,
+      "end": 1489.669,
+      "text": "exekutable baik itu apa namanya XC atau kalau di Mac itu mungkin do app atau di Linux apa gitu"
+    },
+    {
+      "start": 1489.679,
+      "end": 1499.63,
+      "text": "ya Dan lain-ain itu ah racikan Microsoft Iya gitu mungkin hal yang sama bakal ee eh terjadi juga di Microsoft Edge kita"
+    },
+    {
+      "start": 1499.64,
+      "end": 1508.789,
+      "text": "enggak tahu ya ditambah lagi kemarin eh ada itu kan ada info dari orang dalam kan katanya Eh apa Tim Google Chrome"
+    },
+    {
+      "start": 1508.799,
+      "end": 1518.63,
+      "text": "Bedul Desa ke Microsoft ge nah ini tanda-tandanya juga sudah sangat jelas gitu ya Nah seru ini seru biar makin"
+    },
+    {
+      "start": 1518.64,
+      "end": 1529.75,
+      "text": "banyak ya biar makin banyak browser kalau dulu eh mungkin hanya apa didominasi oleh chromium base termasuk juga Opera ya ya"
+    },
+    {
+      "start": 1529.76,
+      "end": 1539.23,
+      "text": "Ee Terus sekarang sudah ada empat lagi kalau kemarin tiga makin banyak kerjaan enggak ya mungkin mudah-mudahan sih dengan adanya"
+    },
+    {
+      "start": 1539.24,
+      "end": 1546.87,
+      "text": "interop jadi semakin berkurang ya kita cukup tes mungkin di salah satu atau salah dua browser udah cukup mewakili"
+    },
+    {
+      "start": 1546.88,
+      "end": 1555.31,
+      "text": "gitu ya Tes di semua tapi kan enggak banyak yang harus difix hm ya i ya karena udah"
+    },
+    {
+      "start": 1555.32,
+      "end": 1564.87,
+      "text": "seragam gitu ya kira-kira Gitu ya He mudah-mudahan niatnya begitu niatnya begitu mudahmud oke niatnya begitu nah yang menarik apa lagi nih tadi JPK exl"
+    },
+    {
+      "start": 1564.88,
+      "end": 1573.029,
+      "text": "sudah view transision udah eh navigation api enggak masuk ya Coba coba lihat balik ke web navigation api"
+    },
+    {
+      "start": 1573.039,
+      "end": 1579.269,
+      "text": "ini yang kita bahas 2 minggu yang lalu Kalau enggak salah ya bahas waktu itu he dan ini apa tapi enggak masuk enggak"
+    },
+    {
+      "start": 1579.279,
+      "end": 1598.31,
+      "text": "masuk sepertinya apa tadi ininya eh wpt interop nih Iya ini kopasan anda tidak terpili Anda tidak beruntung apagi"
+    },
+    {
+      "start": 1598.32,
+      "end": 1616.59,
+      "text": "apagi masuk Oh kita mau lihat nih kata-katanya Apa nih oh ini proposal has"
+    },
+    {
+      "start": 1616.6,
+      "end": 1629.71,
+      "text": "AC is isu semuanya Heeh Iya oh 27 Enggak banyak ya Kir sampai R Masih open Enggak itu itu beda deh kalau"
+    },
+    {
+      "start": 1629.72,
+      "end": 1637.31,
+      "text": "yangudah Heeh begitu direspon selamat terpilih atau Maaf tidak terpilih itu di yang tidak terpilih diclose Oh iya benar"
+    },
+    {
+      "start": 1637.32,
+      "end": 1650.11,
+      "text": "benar ben semua diose kayaknya ininya apa E mungkin ada tag tertentu fokus area proposal ya Oh iya"
+    },
+    {
+      "start": 1650.12,
+      "end": 1658.07,
+      "text": "fokus area proposal Kita klik aja klik aja tuh Hah Enggak ada udah selesai kan enggak is open-nya hilangin di"
+    },
+    {
+      "start": 1658.08,
+      "end": 1674.47,
+      "text": "search-nya nah 214 Berarti ada ada 214 e isu isu Oke CSS modul script J modul script starting style Apa itu asli belum"
+    },
+    {
+      "start": 1674.48,
+      "end": 1685.87,
+      "text": "pernah lihat starting style halo SR ins select udah bisa ya sekarang ya kemarin belum belum itu kan itu kan proposal"
+    },
+    {
+      "start": 1685.88,
+      "end": 1691.789,
+      "text": "coba aja lihat ininya keterima Enggak Oh iya kita enggak lihat terima atau enggak Ya semua dicl aja gitu ya coba tadi"
+    },
+    {
+      "start": 1691.799,
+      "end": 1701.23,
+      "text": "lihat yang CSS nesting diterima ataupun Enggak diclose Oh iya ini ada Oh yang udah ini apa ini Kayaknya belum ya coba"
+    },
+    {
+      "start": 1701.24,
+      "end": 1717.31,
+      "text": "cari wpt intro engak ada enggak ada gak ada tuh habis tuh tu disp yang balas itu tuh si gsnya Oh ini"
+    },
+    {
+      "start": 1717.32,
+      "end": 1728.11,
+      "text": "masih belum itu masih belum bot ini masih orang nih he lama-lama capek dia harus terus buat ngjawab lama-lama"
+    },
+    {
+      "start": 1728.12,
+      "end": 1743.35,
+      "text": "di lucu juga Yar bar search apa coba itu scrollbnya bisa di diyling digedeinkecilin"
+    },
+    {
+      "start": 1743.36,
+      "end": 1753.509,
+      "text": "kan Tapi bagus juga sih kalau bisa ada ya Iya di mobile ini baru bisa di gek baru bisa di Firefox ya kar"
+    },
+    {
+      "start": 1753.519,
+      "end": 1767.389,
+      "text": "implementation ini Coba tebak ini diterima atau tidak udah tahu t kita udah lihat juga sih dasbnya Iya tapi itu udah Bisa ketebak juga eh"
+    },
+    {
+      "start": 1767.399,
+      "end": 1780.71,
+      "text": "ini masih ini diterima Oh diterim diterima l salah mana lagi Oh bukan ni coba ada coba coba lihat dashboard-nya Ada enggak"
+    },
+    {
+      "start": 1780.72,
+      "end": 1792.99,
+      "text": "sih ada dasb iya ada diterima kan kita aja enggak lihat Heeh oh tuh scrollb styling tuh scoll styling Oh ini 73%"
+    },
+    {
+      "start": 1793,
+      "end": 1806.31,
+      "text": "tadi di Geko yang banyak I 85% Heeh Iya karena dia dulu Safari belum ketinggalan zaman dia itu apa sih yang safari ini banget"
+    },
+    {
+      "start": 1806.32,
+      "end": 1818.95,
+      "text": "berantakan banget 18% 18% starting style Transition behavior beneran starting style itu apa sih benaran punyanya punyanya si Chrome itu drower lain belum"
+    },
+    {
+      "start": 1818.96,
+      "end": 1827.87,
+      "text": "Belum start sama sekali Iya iya tapi browser lain e maksudnya vendor browser lain udah pada mau menarik ya"
+    },
+    {
+      "start": 1827.88,
+      "end": 1834.31,
+      "text": "kalau sudah masuk di sini kalau sudah masuk di sini berarti sudah setuju inilah yang parah wupun yang lain"
+    },
+    {
+      "start": 1834.32,
+      "end": 1843.789,
+      "text": "sudahah mau 100% dia masih 7% ni custom property belum parah makanya Iya Bet Bu belum jadi yang di interop ini bukan"
+    },
+    {
+      "start": 1843.799,
+      "end": 1852.11,
+      "text": "selalu belum diadopsi tapi Maksudnya udah diadopsi tapi bisa aja speknya Tuh kurang jelas speknya rancu jadi Chrome X"
+    },
+    {
+      "start": 1852.12,
+      "end": 1864.99,
+      "text": "dan Safari menginterpretasi spesifikasi yang di W apa3 C ya itu ee menafsirkannya a eh terus Firefox menafsirkannya B karena mungkin speknya"
+    },
+    {
+      "start": 1865,
+      "end": 1873.43,
+      "text": "belum jelas bisa aja ada kasus kayak gitu Jadi mereka akan eh kerja sama buat memperjelas spesifikasinya juga Biar"
+    },
+    {
+      "start": 1873.44,
+      "end": 1884.99,
+      "text": "expectednya enggak rancu bisa kayak gitu atau bisa Maksudnya sudahudah disupport tapi kayak behavornya lain sendiri agak lain coba Coba klik dong custom property"
+    },
+    {
+      "start": 1885,
+      "end": 1896.11,
+      "text": "seriusan coba klik custom Property ya Mas Risa ada Firefox Enggak di sini enggak ada ee downad coba saya coba Saya coba"
+    },
+    {
+      "start": 1896.12,
+      "end": 1908.83,
+      "text": "tempat saya jadi Mas Lisa buka di Mas la pakai apa ini sekarang Chrome eh Ed Edge Edge Iya kalau saya coba apa yang"
+    },
+    {
+      "start": 1908.84,
+      "end": 1920.11,
+      "text": "tesnya banyak itu ee 7 OF 39 add property CSS Om Oh oke CSS object manajer ya CS obj mod objek"
+    },
+    {
+      "start": 1920.12,
+      "end": 1935.909,
+      "text": "model coba saya buka pakai Chrome Eh pakai Firefox Mas R buka pakai itu tuh linknya buka pakai Iya Terus nanti kita bandingkan"
+    },
+    {
+      "start": 1935.919,
+      "end": 1951.31,
+      "text": "ini oh e ada ininya kan R run in your browser on wpt. paling atas mana paling atas"
+    },
+    {
+      "start": 1951.32,
+      "end": 1959.95,
+      "text": "eh masuk dulu add property csom buka dibuka salah satu terus di atas itu ada run in your browser tuh tuh atas yang"
+    },
+    {
+      "start": 1959.96,
+      "end": 1973.35,
+      "text": "ada Bullet bawah Oh ini iniah Iya Nah kita bisa lihat tuh pas pas pas pas pas kan iyaah kalau Diang saya saya coba"
+    },
+    {
+      "start": 1973.36,
+      "end": 1989.31,
+      "text": "Saya coba pakai Firefox eh nih tuh pas pas pas pas pas pas pas"
+    },
+    {
+      "start": 1989.32,
+      "end": 2000.43,
+      "text": "terus fail fail fail fail apa yang dijalankan juga bisa kelihatan nah ini kalau teman-teman pengin lihat hasilnya itu bisa lihat"
+    },
+    {
+      "start": 2000.44,
+      "end": 2011.549,
+      "text": "langsung Vi page source Bagaimana cara ngetesnya kelihatan itu ada heeh ada ass ada assertionnya jadi ada CSS property valid CSS property"
+    },
+    {
+      "start": 2011.559,
+      "end": 2022.43,
+      "text": "valid reverse valid ini ini ibaratnya styling CSS objek ini objectek model kan Ya ini custom property-nya intinya ya"
+    },
+    {
+      "start": 2022.44,
+      "end": 2037.87,
+      "text": "kan gedein gedein Zoom Zoom Zoom Oh iya maaf maaf nah n nice ini custom property-nya terus di di"
+    },
+    {
+      "start": 2037.88,
+      "end": 2052.47,
+      "text": "t invalid t csset rnya jadi dites satu-satu nih car No descriptor Ada gak sih no descriptor ada"
+    },
+    {
+      "start": 2052.48,
+      "end": 2069.75,
+      "text": "nihetes apaertiptor itunya Jadi kalau noriptorptor dia invalid ya kanet aset TR kelihatan Jadi kalau"
+    },
+    {
+      "start": 2069.76,
+      "end": 2081.51,
+      "text": "teman-teman pengin belajar tuh bagaimana cara ngetes tanpa perlu ada mokah bisa ya kan iya iya iya iya iya"
+    },
+    {
+      "start": 2081.52,
+      "end": 2091.909,
+      "text": "karena cuma aset kalau Acer doang kan ada sebenarnya dari javascript eh is Yes is5 sudah ada Kalau iya iya jadi enggak"
+    },
+    {
+      "start": 2091.919,
+      "end": 2103.109,
+      "text": "perlu Moka dan ini ngetesnya ya di browser ya itu itu beneran cuma html CSS javascript Kiran kelihatan"
+    },
+    {
+      "start": 2103.119,
+      "end": 2112.95,
+      "text": "Oke oke menarik dan bisa beribu-ribu beribu-ribu test case senenario yang lainnya jadi pelajar tiap hari kan mereka ngejalanin itu mereka"
+    },
+    {
+      "start": 2112.96,
+      "end": 2121.15,
+      "text": "punya kayak test suit automation lah semacam eh seperti itu di ada kayaknya source juga tuh di github-nya web"
+    },
+    {
+      "start": 2121.16,
+      "end": 2130.75,
+      "text": "platform test ya tiap hari kerjanya cuma kayak gitu ngbotinguk versi terbaru masing-masing browser dia jalanin itu semua terus"
+    },
+    {
+      "start": 2130.76,
+      "end": 2142.95,
+      "text": "ngupdate angkanya dengan kata lain dengan kata lain kalau jadi browser eh tester developer tinggal nulis kodenya aja"
+    },
+    {
+      "start": 2142.96,
+      "end": 2154.47,
+      "text": "sudah udah ada orang lain yang nulisin tes tes case senenarionya ini tinggal ya tinggal koden a tinggal kodenya aja"
+    },
+    {
+      "start": 2154.48,
+      "end": 2163.27,
+      "text": "gitu Itu yang susah itu yang banyak menggampangkan sih ya hidup kita sudah susah jangan dibikin susah lagiah"
+    },
+    {
+      "start": 2163.28,
+      "end": 2174.309,
+      "text": "dibantu mereka gitu loh Nah si web platform tes ini wpt ini juga eh kolaborasi sebenarnya projek kolaborasi ya orang-orangnya sebenarnya"
+    },
+    {
+      "start": 2174.319,
+      "end": 2184.27,
+      "text": "ya orang yang kerja di Chrome orang yang kerja di safari juga ini kan ini kan Mozilla itu mros itunya tapi beda belum"
+    },
+    {
+      "start": 2184.28,
+      "end": 2193.75,
+      "text": "tentu sama loh Eka karena iya si si developer untuk nulis implementasi itu DC sedangkan yang nulis ini kan di"
+    },
+    {
+      "start": 2193.76,
+      "end": 2202.47,
+      "text": "javascript beda orang sekantor Iya beda orang tapi sekantor i i i Nah apa lagi yang menarik ya kalau"
+    },
+    {
+      "start": 2202.48,
+      "end": 2212.15,
+      "text": "buat saya ini salah satu yang menarik itu ada ini https url for web socket ye karena kan selama ini selama ini kan"
+    },
+    {
+      "start": 2212.16,
+      "end": 2223.55,
+      "text": "ws.2/ashash kan jadi sekarang wsss wss sudah ada kan lama ya belum konsisten sa Safari udah 100% tuh Safari sudahudah"
+    },
+    {
+      "start": 2223.56,
+      "end": 2234.829,
+      "text": "100% loh yang lain ketinggalan jauh tuh jauhjauhin belum bikin itu masih masih merah-merah tu% ini gimana kodenya kita lihat aja ya"
+    },
+    {
+      "start": 2234.839,
+      "end": 2242.51,
+      "text": "Yang mana nih boleh yang gagal nih si Gimana ada kodenya enggak kelihatan enggak itu run in your browser"
+    },
+    {
+      "start": 2242.52,
+      "end": 2256.91,
+      "text": "on WP pasih ada karena semuanya kayaknya semuanya kodenya ada di ini kok ada kodenya ada di github ini ya"
+    },
+    {
+      "start": 2256.92,
+      "end": 2267.55,
+      "text": "He ini cara ngetesnya kita bisa tahu dia pakai WS atau wss Oh ini dia url Protocol I kan terus itu asetnya apa tuh"
+    },
+    {
+      "start": 2267.56,
+      "end": 2280.71,
+      "text": "WS equ kalau WS url ws.url yang dari webet ini url kalau htps dia otatis wss kan dia tesnya gitu kan Ya WS url ini"
+    },
+    {
+      "start": 2280.72,
+      "end": 2293.069,
+      "text": "apa url.rf Eh kalau ini wss jadi yang dites adalah Apakah url-nya WS kalau http kalau https e url-nya https maka yang"
+    },
+    {
+      "start": 2293.079,
+      "end": 2305.51,
+      "text": "dites Apakah sama wss ya gitu Oh berarti otomatis diconvert ya Iya tergantung sama pas kita buka web-nya pertama"
+    },
+    {
+      "start": 2305.52,
+      "end": 2316.829,
+      "text": "kali dan si Safari safari sudah support 100 sudah selesai sudah selesai kerjaannya tapi menarik ya ada yang"
+    },
+    {
+      "start": 2316.839,
+      "end": 2325.67,
+      "text": "Chrome yang Chrome dan Edge yang udah udah kelar 100% atau 90 sekian yang lain ketinggalan ada yang Safari yang udah"
+    },
+    {
+      "start": 2325.68,
+      "end": 2337.87,
+      "text": "selesai yang lain eh harus nyusul Iya kan masing-masing punya kepentingan jadi mana prioritasnya Heeh jadi kelihatan kan proek ini bukan"
+    },
+    {
+      "start": 2337.88,
+      "end": 2351.43,
+      "text": "dominasi dominasi Pro bukan dominasi provider tertentu i betul dan kayaknya yang mereka gak bisa menerima semua proposal karena bisa"
+    },
+    {
+      "start": 2351.44,
+      "end": 2367.91,
+      "text": "jadi kayak tadi JP Exel gitu mungkin chromnya merasa enggakakak iniak ptingak [Musik] ptingakakak mauakaonsakisaus masih suortin Afif"
+    },
+    {
+      "start": 2367.92,
+      "end": 2379.95,
+      "text": "mungkin iya i tapi kalau dan ini adalah kumpulan proposal yang secara serentak berempat mengatakan yes gitu oke E dan"
+    },
+    {
+      "start": 2379.96,
+      "end": 2389.069,
+      "text": "apa istilahnya kayak komit gitu ya komit untuk menyelesaikan ini tahun tahun ini gitu karena di tahun 2003 kayaknya lolos"
+    },
+    {
+      "start": 2389.079,
+      "end": 2399.309,
+      "text": "semua deh coba eh ada enggak sih yang cross yang fail over ada ada yang di Cross ya kayaknya adaak"
+    },
+    {
+      "start": 2399.319,
+      "end": 2409.91,
+      "text": "mungkin selesai semua sih pasti banyak yang Carry over Tuh kan masih banyak yang belum 100agus bang Lihat dong fokus area dari"
+    },
+    {
+      "start": 2409.92,
+      "end": 2421.51,
+      "text": "graf grafnya itu kan bagus banget tuh Oh ini iya ya ada perkembangan pasti tapi enggak 100 belum 100% Ini"
+    },
+    {
+      "start": 2421.52,
+      "end": 2430.03,
+      "text": "82 E tapi kalau eksperimentalnya udah udah rata-rata di atas 0 kan ini Carry over nih custom properties Carry over"
+    },
+    {
+      "start": 2430.04,
+      "end": 2447.309,
+      "text": "nih iya iya tuh Berarti si si firfox [Musik] e kalau eksperimentalnya ya Ada at least ada f sih Oh berarti ibaratnya bakal"
+    },
+    {
+      "start": 2447.319,
+      "end": 2461.15,
+      "text": "rilis Iya yang 2024 2024 ini mungkin belum kelar Harusnya kan 100% semua Oh I benar Coba kita lihat customnya tuju tujuannya 100"
+    },
+    {
+      "start": 2461.16,
+      "end": 2473.27,
+      "text": "custom property 90 Oh iya sedikit lagi nih sekarang udah berapa oh eksperimentalnya udah tapi yang di sininya belum Oh tinggal rilis"
+    },
+    {
+      "start": 2473.28,
+      "end": 2483.79,
+      "text": "ya sabar melatih melatih kesabaran juga ya ngelihatin ini udah hampir banget ini kan udah dibikin ya kodenya cuma kapan"
+    },
+    {
+      "start": 2483.8,
+      "end": 2495.91,
+      "text": "sih rilisnya itu loh kelihatan tuh jadi enggak perlu di itu kan kelihatan tuh preview fokus area tuh berarti tahun 2023 Yang Yang"
+    },
+    {
+      "start": 2495.92,
+      "end": 2507.03,
+      "text": "Sori 2000 diroll bawah preview Fus are ada kanan bawah berarti yang 20022 sama 2021 kumpulannya ada di sini semua tuh"
+    },
+    {
+      "start": 2507.04,
+      "end": 2515.23,
+      "text": "berarti makin lama bakal makin panjang ya yang bagian itu ya karena butuh tetap dites juga bisa jadi ada regression kan"
+    },
+    {
+      "start": 2515.24,
+      "end": 2524.75,
+      "text": "he tapi udah bagus-bagus kok rata-rata 90-an ke atas semua itu ada yang tapi ini ada yang menarik nih si Firefox nih"
+    },
+    {
+      "start": 2524.76,
+      "end": 2533.349,
+      "text": "E ini posisinya di bawah di bawah di bawah tiba-tiba naik nih Ting meny sama yang lain Ris dia"
+    },
+    {
+      "start": 2533.359,
+      "end": 2541.87,
+      "text": "adaya itu siapa sih yang paling bawah apa sih interop interop oh interopnya e total rata-rata Total ya enggak bisa"
+    },
+    {
+      "start": 2541.88,
+      "end": 2555.829,
+      "text": "dizoom ya gak bisa dizoom ya buka PR biar bikin graf yang lebih bagus oke apa lagi yang menarik yang"
+    },
+    {
+      "start": 2555.839,
+      "end": 2565.829,
+      "text": "menarik gua index TV bisa Ind TB Kok bisa Bukannya itu sudah stabil gitu Kenapa masuk lagi apa yang apa yang"
+    },
+    {
+      "start": 2565.839,
+      "end": 2575.15,
+      "text": "belum apa yang masih fail kita lihat ya Coba Oh ini Def ya yang interop Stable udah belum hampir"
+    },
+    {
+      "start": 2575.16,
+      "end": 2588.549,
+      "text": "ya ya itu udah tertentu kaliail banget oh back forward case jadi berhubungan sama fitur yang lain ternyata index tb-nya mungkin belum"
+    },
+    {
+      "start": 2588.559,
+      "end": 2602.99,
+      "text": "support kita lihat di sini tesnya mana ini ya apa yang dites sama dia kok ada pop upnya loh loh loh"
+    },
+    {
+      "start": 2603,
+      "end": 2612.39,
+      "text": "Berarti ada ada ininya Coba klik pop up mungkin ada forward cas-nya untuk ngetes pack forward cas berarti itu mana Iya"
+    },
+    {
+      "start": 2612.4,
+      "end": 2625.99,
+      "text": "ini itu ada ada tanda tanda merah tuh kanan kanan atas url Oh ini ur iya kena blok dahudah refresh ya refresh I"
+    },
+    {
+      "start": 2626,
+      "end": 2645.99,
+      "text": "he Oh iya benar ada buka loh Enggak ada apa-apa udah ah mana ini kosong kosong kosong kosong Oh"
+    },
+    {
+      "start": 2646,
+      "end": 2656.63,
+      "text": "ini passing ya kalau lihat kodenya yang tadi ya Yang mana dia test harness t harness apa yang"
+    },
+    {
+      "start": 2656.64,
+      "end": 2668.069,
+      "text": "dites ya itulah ya kira-kira ya back forward itu kan kalau kita forward misalkan kita ada di sini terus kita"
+    },
+    {
+      "start": 2668.079,
+      "end": 2674.39,
+      "text": "ini ni nih Nah kalau kita balik lagi dia sudah diage Nah sepertinya si index DB ini belum"
+    },
+    {
+      "start": 2674.4,
+      "end": 2685.03,
+      "text": "support sepertinya ya belum support untuk semua cas e kasus-kasus tertentu Mungkin ada yang belum mungk mungkin support tapi ada ada skenario tertentu"
+    },
+    {
+      "start": 2685.04,
+      "end": 2693.309,
+      "text": "yang jeb menyebabkan dia tidak bekerja he waktu ya waktu bikin slide yang tahun lalu itu kan ngelihat lihat"
+    },
+    {
+      "start": 2693.319,
+      "end": 2700.47,
+      "text": "contoh-contoh test cas-nya detail banget semua skenario hal yang kita gak ggak pernah keebayangin itu dibuat semua jadi"
+    },
+    {
+      "start": 2700.48,
+      "end": 2711.309,
+      "text": "emang menyeluruh e menyeluruh bangetlah tesnya Coba lihat Tek directionality apa sih emang bisa kayak atas bawah gitu Iya"
+    },
+    {
+      "start": 2711.319,
+      "end": 2723.47,
+      "text": "kan diagonal lihat aja yang cari yang belum dari kanan ke kiri kaliudah atas ke bawah kan bisa bahasa bahasa kayak Arab"
+    },
+    {
+      "start": 2723.48,
+      "end": 2732.47,
+      "text": "gitu kan kanan kiri he Arab hebu kanan ke kiri nah eh bahasa Asia Timur itu kayak ada yang dari atas ke bawah"
+    },
+    {
+      "start": 2732.48,
+      "end": 2745.67,
+      "text": "passing Oh iya sih apa yang atas bawah atas bawah enggak t atas ke bawah maksudnya Direction Oh emang ada ya baru"
+    },
+    {
+      "start": 2745.68,
+      "end": 2755.39,
+      "text": "tahu kayaknya ada deh ini apa nihin tes passes if the two boxes below look exactly the same Ya udah berarti pas itu"
+    },
+    {
+      "start": 2755.4,
+      "end": 2762.39,
+      "text": "kan ini enggak pas itu pas pas Oh iya pas ya enggak pas harus sama lah itu pas"
+    },
+    {
+      "start": 2762.4,
+      "end": 2774.069,
+      "text": "semua Pas semua tuh tuh yang ada kuning yang ada kuning tuh yang merah merah kuning ini apa yang cari Iya ini pas"
+    },
+    {
+      "start": 2774.079,
+      "end": 2791.39,
+      "text": "semua belum coba pas semua tuh 22 pas Run pas semua berarti udah Ini yang mana Mas Klik yang ini yang"
+    },
+    {
+      "start": 2791.4,
+      "end": 2810.43,
+      "text": "kuning oh nih De auto form associated window Apa itu kalau melihat beginian tuh saya merasa pengetahuan webd saya cetek amat"
+    },
+    {
+      "start": 2810.44,
+      "end": 2818.829,
+      "text": "ya Ini apa Terus pas dibaca sebenarnya kalau udah dibacaiatin Tuh ngerti cuma kek selama ini kita enggak mikir nyampai"
+    },
+    {
+      "start": 2818.839,
+      "end": 2827.95,
+      "text": "situ deh karena kita enggak pernah mengalami belum pernah mengalami atau kita mungkin mengalami tapi kita enggak bisa enggak tahu keyword untuk nyari ini"
+    },
+    {
+      "start": 2827.96,
+      "end": 2835.47,
+      "text": "itu apa gitu ya ini kan apes-apesan Mungkin ada satu orang yang dapat bug ini nah bagusnya si web platform tes ini"
+    },
+    {
+      "start": 2835.48,
+      "end": 2842.99,
+      "text": "kan menjembatani dari sudut pandang si developer browser orang yang ngoding browser tadi yang pakai c+ plus atau"
+    },
+    {
+      "start": 2843,
+      "end": 2855.47,
+      "text": "apalah bahasa-bahasa eh low level sama dari sisi developer web nah kode yang ditulis yang apa m-rigger masing-masing skenario itu nah kan"
+    },
+    {
+      "start": 2855.48,
+      "end": 2862.99,
+      "text": "sebenarnya menghubungkannya maksudnya biar kayak speaking the same language lah itu ya pakai test test Itu kan kalau"
+    },
+    {
+      "start": 2863,
+      "end": 2873.43,
+      "text": "kita mau tahu ini apa itu ada informasinya di mana ya Itu makanya buka itu dong yang web kit eh blog yang"
+    },
+    {
+      "start": 2873.44,
+      "end": 2887.15,
+      "text": "di Nah iya ya itu ada ada ringkasannya kan ada penjelasannya kan Oh ada di sini Te directionality in which text flow is a"
+    },
+    {
+      "start": 2887.16,
+      "end": 2895.91,
+      "text": "vital aspect of type setting in web some language flow from left to right while other right to left benar kan berarti"
+    },
+    {
+      "start": 2895.92,
+      "end": 2910.71,
+      "text": "kan one of many bits of Technology supporting text directional is the dear attribute iya left right atau auto Iya Nah ini mungkin"
+    },
+    {
+      "start": 2910.72,
+      "end": 2924.99,
+      "text": "udah ribet pas Apa itu e shtion ofality and Shadow Oh buat ngender shadownya kali ya kalau ada teksnya yang pakai Shadow gitu"
+    },
+    {
+      "start": 2925,
+      "end": 2942.47,
+      "text": "bukan bukanya yang dokumen objekadadow mungk ituayakak enggak ngebaca selama ini mungkin enggak ngeinherit Eh itu kan jadi e semua diasumsikan ditebak left to"
+    },
+    {
+      "start": 2942.48,
+      "end": 2954.75,
+      "text": "right semua jadi mungkin eh proses renderingnya jadi ngacau ya Jadi kurang optimal ya karena semua dianggap dari"
+    },
+    {
+      "start": 2954.76,
+      "end": 2968.39,
+      "text": "dari kiri ke kanan gitu ya bagian-bagianang buat jarang buat situs bahasa Arab atau bahasa heu sih Iya kliennya belum ada dari"
+    },
+    {
+      "start": 2968.4,
+      "end": 2983.309,
+      "text": "sana request video frame callback Nah ini apa ini cari lagi dibuka aja itu lihat apa kalau internya itu adalah minimum value ya"
+    },
+    {
+      "start": 2983.319,
+      "end": 2992.589,
+      "text": "bukan rata-rata ya iya ya makanya tadi paling bawah kan di grafit padahal logikanya kalau semua yang lain di atas kan"
+    },
+    {
+      "start": 2992.599,
+      "end": 3009.309,
+      "text": "harusnya Ben sih kalauability kalau value interability adalah the lowest value kalau bukan bukan average Berarti benar ber oke Ada lagi Ada"
+    },
+    {
+      "start": 3009.319,
+      "end": 3023.47,
+      "text": "lagi Nah untuk overall Berarti sekarang sebagian besar sudah 70 apa url itu apa lagi sih Masalahnya ur kan adaailnya"
+    },
+    {
+      "start": 3023.48,
+      "end": 3040.67,
+      "text": "Coba ke bawah ur"
+    },
+    {
+      "start": 3040.68,
+      "end": 3057.51,
+      "text": "BL jadi ini kurangnya di standarisasi gitu dokumen standaris belum ada speknya"
+    },
+    {
+      "start": 3057.52,
+      "end": 3072.63,
+      "text": "apa belum terstandarisasi kali belum ada dokumentasinya gitum spesifikasi Iya atau ada fitur-fitur baru dari URL yang belum didukung tuh"
+    },
+    {
+      "start": 3072.64,
+      "end": 3084.349,
+      "text": "pass rate-nya 77 sampai 85 Iya coba aja lihat E itunya apa isinya url baru Safari doang yang"
+    },
+    {
+      "start": 3084.359,
+      "end": 3100.19,
+      "text": "pas Oh banyakakah banyak banget tes I udah hampir semua exclude file javascript mail to apa ini ya kan protokol-protokol banyak tuh"
+    },
+    {
+      "start": 3100.2,
+      "end": 3121.03,
+      "text": "ada Ma titik coba yang Man langs ke paling atas masak bisaak Bisa bukan gak bisa lama ha lama oh iya mana ya udahlahak t"
+    },
+    {
+      "start": 3121.04,
+      "end": 3134.71,
+      "text": "Coba lihat ke bawah engak ada eror berar in yang ditesnya apa tesnya error ini ya varian itu paling bawah paling bawah"
+    },
+    {
+      "start": 3134.72,
+      "end": 3150.109,
+      "text": "a elemen Bukan ini ya Iya resources resour nah [Musik]"
+    },
+    {
+      "start": 3150.119,
+      "end": 3165.63,
+      "text": "l Run skip bikin bikin elemen link Iya ini nih nih itunya tes cas pakai Jason tuh paling atas tuh coba paling atas di"
+    },
+    {
+      "start": 3165.64,
+      "end": 3181.109,
+      "text": "ambil dari URL test data [Musik] Iya dari resources resources ada Oh iya iya ini Oh bisa ini juga ada username"
+    },
+    {
+      "start": 3181.119,
+      "end": 3191.87,
+      "text": "password http ada usern password Nah ini mungkin hal-hal kayak gini Belum didokumentasiin kan selama ini mungkin belum spesifikasinya"
+    },
+    {
+      "start": 3191.88,
+      "end": 3200.43,
+      "text": "Udah kayaknya deh Udah ya udah deh support Harusnya sih udah ya kalau kita ada episode url Kan dulu itu apaagi"
+    },
+    {
+      "start": 3200.44,
+      "end": 3218.27,
+      "text": "input http tes.2 Oh itu us password passwordnya kosong Apakah dia dukung atau enggak banyak sekali kayak oke pas dilihat kita kan"
+    },
+    {
+      "start": 3218.28,
+      "end": 3228.39,
+      "text": "paham nih ngerti oh maksudnya tadi tadi kode tesnya kayak gimana Terus ini apa furnya eh apa datanya kayak gimana kita"
+    },
+    {
+      "start": 3228.4,
+      "end": 3241.309,
+      "text": "ngerti Cuma selama ini ya Gak pernah mikir sejauh ini Paling nonal apa C apa Non spesal Nah ini kan jadi"
+    },
+    {
+      "start": 3241.319,
+      "end": 3253.23,
+      "text": "ngompakin karena dengan ngetes segala macam kayaknya sambil mereka nulis spesifikasinya technical apa technical spificationnya untuk si url itu kalau"
+    },
+    {
+      "start": 3253.24,
+      "end": 3264.19,
+      "text": "kejadiannya begini gimana suatu browser harus eh apa merenderingnya nkpnya kalau ke depannya besok ada yang bikin browser layout"
+    },
+    {
+      "start": 3264.2,
+      "end": 3278.87,
+      "text": "engine baru ya harus ada ada patokan yang mudah untuk diikuti Nah di sini ada enggak di sini"
+    },
+    {
+      "start": 3278.88,
+      "end": 3289.309,
+      "text": "dijelas di Pro mereka ngebangun banyak juga tes seap harinya ya Oh iya Ada yang kerjaannya nulisin test"
+    },
+    {
+      "start": 3289.319,
+      "end": 3302.19,
+      "text": "case ya capek ggak sih kayak gitu I dibayar kan kerjaannya ya kan kerjanya itu memang kerjanya begitu sama aja kayak e"
+    },
+    {
+      "start": 3302.2,
+      "end": 3311.789,
+      "text": "mungkin ee mereka juga mikir capek enggak sih bikin krut-krut aja kerjaannya bikin kut-kut doang Ti tiap hari ngoding tiap hari ngoding atau"
+    },
+    {
+      "start": 3311.799,
+      "end": 3322.39,
+      "text": "ngodingon Heeh pasti mikirnya capek kan Wow nih bukan ini nih ada ada berarti ada problem di url parsing kayak tadi"
+    },
+    {
+      "start": 3322.4,
+      "end": 3337.19,
+      "text": "ada yang pakai username ada yang username-nya kosong ada ada beberapa use case yang belum tercover buka Hah wpt buka githubnya wpt untuk"
+    },
+    {
+      "start": 3337.2,
+      "end": 3348.39,
+      "text": "semua code base di itu ya di chat private Oh itu tuh langsung wpt wpt itu kan semua code base-nya ada di situ Ki"
+    },
+    {
+      "start": 3348.4,
+      "end": 3360.67,
+      "text": "kiri tuh nah ini siest suitnya iya test suitnya semua ada di sini banyak banget isunya aja ada 1300 10 requestnya 1200"
+    },
+    {
+      "start": 3360.68,
+      "end": 3368.829,
+      "text": "dong nah itu yang kerjanya sehari-hari buat ngurus itu lumayan pusing juga ya kita lihat ya orangnya siapa ya ada yang"
+    },
+    {
+      "start": 3368.839,
+      "end": 3379.71,
+      "text": "dikenal enggak iya banyak 1600 juga kontribusi tertinggi adalah ms2 gear wptpbot tuh paling B yang paling sibuk"
+    },
+    {
+      "start": 3379.72,
+      "end": 3393.51,
+      "text": "PR fulip ini tadi yang jawabin nih oh Mozilla yang kiri itu Google Chrome Opera ini gak tahu"
+    },
+    {
+      "start": 3393.52,
+      "end": 3405.27,
+      "text": "siapa ada masahi ggak enggak nah ini juga tadi yang jawabin nih dari mana dia oh gak enggak dikasih tahu dia ini"
+    },
+    {
+      "start": 3405.28,
+      "end": 3421.109,
+      "text": "imigran imigran Geko hacker gek hacker jadi masing-masing ada spesialisasinya juga yanya yang"
+    },
+    {
+      "start": 3421.119,
+      "end": 3433.589,
+      "text": "apa ngerjain buat bagbagan yang itu yang Yao nih browser Lay engine developer spesifik sekali ya berarti yang dia yang"
+    },
+    {
+      "start": 3433.599,
+      "end": 3449.109,
+      "text": "ngurusin FX gitu ya adaak kitaak tahu ininya ah enggak"
+    },
+    {
+      "start": 3449.119,
+      "end": 3468.549,
+      "text": "ada itu gugur tuh e yang FR Bu yang sampingnya yang kanannya Oh iya yang yang Inter Jin Oh oh wow"
+    },
+    {
+      "start": 3468.559,
+      "end": 3483.109,
+      "text": "oh mantaplah mantap ini web kit Oke overall sudah 75% ya walaupun masih bulan Februari ya tapi kita kan gak tahu"
+    },
+    {
+      "start": 3483.119,
+      "end": 3492.829,
+      "text": "ya progressnya ya overall 75 73 5875 jadi yang masih Tertinggal itu Firefox tapi karena Firefox belum rilis ya kalau"
+    },
+    {
+      "start": 3492.839,
+      "end": 3502.71,
+      "text": "kita lihat eksperimentalnya dia lumay tinggi juga lumayan tinggi juga walaupun masih setara sama set setara sama sama"
+    },
+    {
+      "start": 3502.72,
+      "end": 3512.789,
+      "text": "dan Chrome juga ggak terlalu jauh bedanya he Nah mungkin jadwal rilis dari night ke stableennya dia kayaknya"
+    },
+    {
+      "start": 3512.799,
+      "end": 3526.789,
+      "text": "lebih lebih jarang ya gak sesering Apar Chrome sama Safari dong yang lebih susah ngerilis tiap tahun dia risnya setahun sekali"
+    },
+    {
+      "start": 3526.799,
+      "end": 3534.19,
+      "text": "kalau gak hot fix kalau gak hot fix dia Gak Ris tuhak kok bisa kok kalau update Iya Update kok suka sering update kok"
+    },
+    {
+      "start": 3534.2,
+      "end": 3539.19,
+      "text": "engakak Enggak sering-sering banget tapi ada gitu enggak enggak tiap hari sih sebulan sekali gitu sebulan 2 bulan"
+    },
+    {
+      "start": 3539.2,
+      "end": 3548.549,
+      "text": "sekali ada k iya ada ada ada ada update tapi kalau yang kalau yang Major Ya emang setun sekali"
+    },
+    {
+      "start": 3548.559,
+      "end": 3558.23,
+      "text": "Hm oke Apa lagi yang mau kita bahas favorit favorit masing-masing kalau gua yang e eh yang Oke pop over"
+    },
+    {
+      "start": 3558.24,
+      "end": 3572.87,
+      "text": "nih akhirnya Maksudnya enggak nyangka secepat itu ee apa ee masuk adaptasi Heeh semua browser nganggap Oke dan e masuk ke interop popover itu ya"
+    },
+    {
+      "start": 3572.88,
+      "end": 3581.91,
+      "text": "itu apa Shadow custom Element tapi yang bawaan di browser yang buat tool tip dan model dan lainlin ya kalau gak salah"
+    },
+    {
+      "start": 3581.92,
+      "end": 3598.789,
+      "text": "coba deh buka di apa E blog [Musik] webkitnya pjelasanover will into the browser way to have Element pop on to the top layer"
+    },
+    {
+      "start": 3598.799,
+      "end": 3605.63,
+      "text": "of page jadi kayak adaya sih dialog model dan teman-temannya Iya kalau di hover terus tiba-tiba muncul dialog gitu"
+    },
+    {
+      "start": 3605.64,
+      "end": 3615.63,
+      "text": "ya Ada tool tipnya atau semacamnya tool tip ya tool tip ya tool tip dan ini udah jadi itu ya Shadow Dom ya He iya ini"
+    },
+    {
+      "start": 3615.64,
+      "end": 3622.39,
+      "text": "custom elementen ya Heeh Ini kan kayak enggak hampir enggak ada website atau web app apapun yang enggak pernah ada"
+    },
+    {
+      "start": 3622.4,
+      "end": 3630.43,
+      "text": "pop upnya sama sekali Kan itu maksudnya itu cas yang hampir semua developer bakal ketemu dan selama ini kan Eh ya"
+    },
+    {
+      "start": 3630.44,
+      "end": 3640.549,
+      "text": "masih relatif banyak bergantung sama library kan Nah ini nih kalau popovernya udah interoperable itu ya bakal lebih gampang"
+    },
+    {
+      "start": 3640.559,
+      "end": 3658.109,
+      "text": "Eh dibuat tanpa ernal library Oke kalau gak tahu karena semuanya bingung tapi textap Balance itu salah satu yang"
+    },
+    {
+      "start": 3658.119,
+      "end": 3674.23,
+      "text": "Oh saya looking for pas CSS karena saya orangnya developer yang lemah untuk untuk Bagaimana menyesuaikan layout supaya gitu ngabisin waktu dengan ada t"
+    },
+    {
+      "start": 3674.24,
+      "end": 3688.589,
+      "text": "Balance mungkin mempermudah hidup saya tahun ini I kalau saya tadi ya apa e webscket attpsurl for web socket itu"
+    },
+    {
+      "start": 3688.599,
+      "end": 3697.43,
+      "text": "sih ada pointer dan Mouse event itu apaan sih sama CSS nesting juga menarik sih tapi Oh iya CSS nesting"
+    },
+    {
+      "start": 3697.44,
+      "end": 3708.47,
+      "text": "juga CSS nesting kita bahas juga ya kemarin pas ya E episodeap apa tadi Eh Ivan pointer and"
+    },
+    {
+      "start": 3708.48,
+      "end": 3719.91,
+      "text": "mouse Iya mous event Iya kan bisa dibuat bisa eh bisa dibuat apa kayak behaviornya behavior waktu kita Mouse"
+    },
+    {
+      "start": 3719.92,
+      "end": 3737.67,
+      "text": "over bisa diklik atau enggak Mouse P stylus or touching karena ada touchnya yang kita enggak enggak kepikiran bahwa sekarang"
+    },
+    {
+      "start": 3737.68,
+      "end": 3746.71,
+      "text": "Kalau dulu kan Mouse Ya udah Mouse gitu kan i k tabl gak dapat ada EV kalau P stylus touch with"
+    },
+    {
+      "start": 3746.72,
+      "end": 3755.87,
+      "text": "one or more fingers nah eventnya gimana tuh Iya kalau touch kan enggak bisa klik eh enggak bisa Klik enggak bisa apa ya"
+    },
+    {
+      "start": 3755.88,
+      "end": 3765.19,
+      "text": "Ee Klik Kanan gitu susah enggak bisa Klik Kanan bisa dong sebelum itu ada bukan ada sepersekian detik pasti ada"
+    },
+    {
+      "start": 3765.2,
+      "end": 3772.829,
+      "text": "hitungannya lah e Kita enggak ngerti kan Oh iya berapa kan nahan jadi ee kalau misal and hold ya and hold ya kita"
+    },
+    {
+      "start": 3772.839,
+      "end": 3780.789,
+      "text": "ngetap itu kan kayak left klik kalau kita eh tab and hold itu kayak right Click ya itu berarti kan harus harus"
+    },
+    {
+      "start": 3780.799,
+      "end": 3792.269,
+      "text": "disesuain buat kasus-kasus seperti itu Iya dan ternyata kalau ini nyambungnya ke accsesibility nih kalau buat apa orang yang penglihatannya kurang Terus"
+    },
+    {
+      "start": 3792.279,
+      "end": 3801.87,
+      "text": "pakai apa semacam voice over atau eh semacamnya kalau di HP kalau di eh laptop desktop kan tinggal ngetap ya Tab"
+    },
+    {
+      "start": 3801.88,
+      "end": 3813.91,
+      "text": "atau Mouse over nah kalau e di mobile itu emang caranya dengan cara ngetap lama ngetap lama dia baca itu apa jadi"
+    },
+    {
+      "start": 3813.92,
+      "end": 3828.109,
+      "text": "Emang ya perlu penyesuaianah Nah mungkin ini juga mauamav iya inilah Salah satu alasan kenapa platform web berasa update-nya agak lambat gitu"
+    },
+    {
+      "start": 3828.119,
+      "end": 3837.23,
+      "text": "karena dia e in itu kan bisa dibuka di semua platform kan gitu Enggak cuman desktop doang kalau desop doang eh"
+    },
+    {
+      "start": 3837.24,
+      "end": 3847.269,
+      "text": "dengan segala jenis manusia yang OS yang berbeda-beda he os-nya lain-lain terus e Heeh orangnya juga lain-lain dari yang"
+    },
+    {
+      "start": 3847.279,
+      "end": 3855.87,
+      "text": "bahasanya kiri ke kanan kanan ke kiri dari yang dari Yangnya fisiknya eh apa indranya lengkap semua sampai yang perlu"
+    },
+    {
+      "start": 3855.88,
+      "end": 3866.789,
+      "text": "bantuan assistive device nah gimana tuhender semua harus diakomodasi Heeh harus bisa adaptasi untuk itu semua dan antar harus kompak ya sekompak mungkin"
+    },
+    {
+      "start": 3866.799,
+      "end": 3880.309,
+      "text": "Nah makanya tadi tesnya sampai ada ratusan ribuan buat mengakomodasi itu semua Hm gitu jadi keingat pesannya Mas Arya"
+    },
+    {
+      "start": 3880.319,
+      "end": 3890.589,
+      "text": "kayak ngebangun apa yang waktu dia buat sebuah Phantom JS itu test casnya itu banyak banget ya kan Iya untuk"
+    },
+    {
+      "start": 3890.599,
+      "end": 3901.71,
+      "text": "stabilitas dan backward compatibility betul backatibility itu yang yang terus dijaga ya sama platform web ya Iya dan kalau dalam kasus ini ya"
+    },
+    {
+      "start": 3901.72,
+      "end": 3910.309,
+      "text": "Cara apa Cara komunikasi cara ngompakin keempat browser Ya cuma ini kan satu-satunya tes iya iya jadi kayak dari"
+    },
+    {
+      "start": 3910.319,
+      "end": 3917.269,
+      "text": "end user lah dari end user masing-masing browser kayak tadi dibuka dari Firefox ternyata fail Nah kan itu udah karena"
+    },
+    {
+      "start": 3917.279,
+      "end": 3924.99,
+      "text": "kalau kode kan enggak bisa diamline ah masing-masing punya sendiri ya udah ini hasil akhirnya yang dites h"
+    },
+    {
+      "start": 3925,
+      "end": 3939.91,
+      "text": "relative color syntax masuk interop Siapa ini yang push relative color syntax itu apa ya itu yang yang itu HC kemarin"
+    },
+    {
+      "start": 3939.92,
+      "end": 3953.349,
+      "text": "kemarin Oh yang ngepus pasti Adam Argil cuma masih rendah semua gini skornya rendah ya I kan Ini baru baru"
+    },
+    {
+      "start": 3953.359,
+      "end": 3963.309,
+      "text": "baru kan Kalau eksperimentalnya gimana eksperimental sudah sudah pada relatif ada enggak ada enggak ada pergerakan sedikitsedikit cuma"
+    },
+    {
+      "start": 3963.319,
+      "end": 3971.43,
+      "text": "0,3% ya berarti emang dibik kenapa ini dia Enggak penting ya Kenapa dimasukin gitu ya kenapa dia Enggak penting Iya"
+    },
+    {
+      "start": 3971.44,
+      "end": 3984.39,
+      "text": "karena semua brer ngerasa itu penting Nah iya kenapa penting kenapa kenapa penting Nah itu cari di isunya isu Inter ada gak n"
+    },
+    {
+      "start": 3984.4,
+      "end": 3995.91,
+      "text": "ada cob Kenapa kan banyak berarti banyak yang tu tadi di atas ada argumennya Oh argumen accessibility impact"
+    },
+    {
+      "start": 3995.92,
+      "end": 4012.99,
+      "text": "berarti toated from origor manipul with oh ini deskripsi doang nah ke bawah alasannya accessibility terus pada bilang apa"
+    },
+    {
+      "start": 4013,
+      "end": 4032.95,
+      "text": "tuh gak ada gak ada ininya diter ya itu berarti mungkin penjelasan yang masuk yang apa"
+    },
+    {
+      "start": 4032.96,
+      "end": 4051.39,
+      "text": "kemungkinanob turun diitnya apa Gang Bu [Musik] Bik Nah kan kontras kan jadi karena udah ada hitungannya yang ada algoritma bikin"
+    },
+    {
+      "start": 4051.4,
+      "end": 4072.91,
+      "text": "warna yang brow jadihangikinnyaaki yang"
+    },
+    {
+      "start": 4072.92,
+      "end": 4088.71,
+      "text": "kont nya 30% lebih terang Iya ya mengerti tujuannya tapi masih belumat mengapa mengapa pentingnya gitu belum bisa terima karena masih baru juga kan"
+    },
+    {
+      "start": 4088.72,
+      "end": 4097.11,
+      "text": "Ya iya ya pentingnya itu jadi Ee Kita kan mikir kita pas bikin CSS Ya sudah mikir ada standarnya misalnya 0,3 atau"
+    },
+    {
+      "start": 4097.12,
+      "end": 4108.55,
+      "text": "30% lebih terang bayangin deh kalau kita harus mikir Eh misalnya abu-abu Abu apa H ddd itu abu-abu e e e abu-abu aaa"
+    },
+    {
+      "start": 4108.56,
+      "end": 4115.669,
+      "text": "abu-abu juga buat kita maksudnya buat web developer itu semua abu-abu kan walaupun Kalau mungkin kalau UI desainer"
+    },
+    {
+      "start": 4115.679,
+      "end": 4125.95,
+      "text": "kan lebih lebih paham kalau buat kita mau apa Kalau pakai hex aaa bbb ccc ddd itu semua abu-abu kita engak bisa bedain"
+    },
+    {
+      "start": 4125.96,
+      "end": 4134.03,
+      "text": "nah ini dikasih bahasa yang lebih lebih lebih mudah dan lebih bisa lebih terstreaml buat kita bahwa kontras nya"
+    },
+    {
+      "start": 4134.04,
+      "end": 4146.749,
+      "text": "tuh 0,3 Misnya 30% lebih terang ya lebih bagus aja sih kayaknya buat aksesibilitas yes oke Ada lagi yang mau kita bahas mungkin"
+    },
+    {
+      "start": 4146.759,
+      "end": 4158.47,
+      "text": "sebelum mungkin kita sudahi terakhir itu aja dulu itu dulu ya Oke berarti untuk malam ini topiknya loh ivannya hilang"
+    },
+    {
+      "start": 4158.48,
+      "end": 4170.59,
+      "text": "Ian hilang kita ngomongnya samaan ya untuk malam ini mungkin ee udahan dulu topik tentang interop 2024 mungkin nanti tahun depan kita lihat"
+    },
+    {
+      "start": 4170.6,
+      "end": 4179.309,
+      "text": "lagi review lagi mungkin sekalian kita masukin ke topik review kali ya Eh preview dan review kali ya Heeh kalau"
+    },
+    {
+      "start": 4179.319,
+      "end": 4185.51,
+      "text": "emang udah selesai gitu maksudnya kan Januari itu ah selesai ya mungkin agak diundur sedikit supaya kita bisa"
+    },
+    {
+      "start": 4185.52,
+      "end": 4196.07,
+      "text": "sekalian review juga nah buat teman-teman yang e mau Apa mau kasih-kasih ide top caran atau ada yang"
+    },
+    {
+      "start": 4196.08,
+      "end": 4205.47,
+      "text": "mau nanya tentang Seputar Dunia web bisa langsung ke kesana.in/ngobrolin nanti eh langsung aja di discussion ditanyain Apa"
+    },
+    {
+      "start": 4205.48,
+      "end": 4213.55,
+      "text": "pertanyaannya atau ada topik yang mau di apa disarankan ke kita atau ada narasumber yang mau diundang silakan"
+    },
+    {
+      "start": 4213.56,
+      "end": 4223.83,
+      "text": "narasumber Heeh misal narasumbernya mau kalau perlu dimion atau di kalian Oke Ian Ada apa Eh ada masalah dengan teknis"
+    },
+    {
+      "start": 4223.84,
+      "end": 4231.87,
+      "text": "komputernya Iya jadi Ivan udah cabut duluan dan sekarang kita tinggal berdua kalau begitu kita juga udahan kita"
+    },
+    {
+      "start": 4231.88,
+      "end": 4237.03,
+      "text": "ketemu lagi minggu depan mudah-mudahan minggu depan kita sudah bisa live lagi dengan topik yang berbeda selamat malam"
+    },
+    {
+      "start": 4237.04,
+      "end": 4250,
+      "text": "selamat istirahat sampai jumpa bye bye"
+    }
+  ],
+  "fullText": "[Musik] halo halo halo selamat malam selamat malam ketemu lagi dengan kita bertiga di selasa malam waktunya ngobrolinobr bisa bisa kompak eh Oh sudah udah udah bagus soundboard-nya udah udah dong udah [Tepuk tangan] diperbaiki Gimana kabarnya mudah-mudahan teman-teman sehat-sehat semua seperti biasa kita eh bertiga lagi dengan format bertiga ada Ivan ada Eka dan ada saya Riza eh untuk ee episode ini tayang di tanggal 20 Februari ya walaupun I EE edisi rekaman lagi-lagi rekaman ee Kalau kemarin karena ada narasumbernya ee jauh di belahan dunia yang berbeda Heeh ee kali ini kita rekaman karena kita tiga-tiganya enggak bisa Besok hari Selasa jadi terpaksa kita rekaman mudah-mudahan minggu depan kita bisa live lagi ya Iya ada meeting bersama ya oh meeting bersama oke nah malam hari ini kita akan mumpung masih ini ya masih bulan Februari kan masih awal tahun ya jadi ee apa kita akan coba bahas tentang ini kayak masih Kayaknya masih masuk preview ya preview yang waktu kita awal tahun kemarin ini preview tapi vers bukan preview ya apa ya ini kayak kalau yang kemarin itu kan kita jadi ibaratnya memprediksi kalau yang kali ini itu seper bukan lebih prediksi lagi Sudah sudah kejadian Kinan kemungkinan besar akan arahnya ke sana kemungkinan besar akan sudah ada tindakan Nata sudah iya tindakannyaata Selanjutnya perkembangan web itu akan mengarah ke sana tinggal disesuaikan dengan face masing-masing browser sanggup enggak menyelesaikan Eh featurefeature ini feature-feature yang akan dibawakan tapi sudah disepakati bersama ee empat Major browser sudah sepakat ini hal yang akan kita develop bersama di 2024 2024 Iya namanya adalah interop 2024 projectnya namanya interop kita pernah bahas ya di episode Entah berapa 2 22 Nah ini dia preview-nya kita melihat foto kita sendiri di tahun 2000 tahun lalu ini kita bahas tentang eh interop 2023 ya interop 2023 dan malam hari ini kita akan bahas tentang interop 2022 eh 200 2024 ya mungkin buat penyegaran awal tahun akan di eh Setiap awal tahun Emang diounce eh eh interopnya Nah buat penyegaran eh ada yang bisa menjelaskan enggak tentang Apa itu introp B Pro ini apa sih ek ek karena ini topik topik topik a extendednya banget ya pernah bikin slide tentang ini sih ya sebetulnya topiknya sih tentang macam-macam kerja sama antar browser jadi salah satunya si Project Inter ini jadi eh apa vendor tig vendor browser e Major sekarang empat ya sekarang empat sekarang jadi empat sudah empatemp Chrome Chrome Ed eh Firefox sama Safari itu kerja sama untuk eh jadi gambaran besarnya adalah mengimprove meningkatkan interoperability of the web Apa itu interoperability ya itu eh di setiap browser sama karena selama ini kan stigmanya Eh kalau webdve itu terutama UI Heeh Malas kalau misalnya eh css-nya begini itu sering ada apa sih hack-nya yang depannya ada prefix harus di Dash web Oh I mungkin teman-teman yang sekarang udah enggak ngejamanin ya tapi dulu banyak banget workround yang kayak gitu bahkan kalau sekarang sudah pakai po CSS jadi Sudah otomatis biasanya Heeh Iya apalagi pakai T enggak Berasa ya iya ya ya pokoknya dulu orang zaman dulu tuh eh apa banyak masalah karena orang zaman dulu Enggak dulu-dulu banget antar browser itu bukan cuma CSS tapi misalnya E web api yang javascript juga kadang ada beda-beda tipis lah behaviornya atau misalnya kalau CSS paling banyak behavior capsingnya atau apa dan kadang itu hal-hal yang kecil jadi kita gak langsung tahu waktu dites enggak muncul nanti tiba-tiba di Production ya ada yang komplain di Firefox atau di iPhone tiba-tiba beda jadi itu stigmanya sekarang terus kan orang itu kan kurang bagus buat perkembangan web secara umum jadi ggak bagus buat mereka si semua stakeholder itu juga Makanya dibikin kayak kesepakatan Ya udah kita bikin proek bersama yang tujuannya e membuat yang ngompakin lah ngompakin e cara kerja fitur-fitur web platform di masing-masing browser nah terakhir yang di kanan tuh How Bagaimana Nah jadi eh di awal Jadi sebenarnya bukan bagian langsung dari project ini ada yang namanya research research dari community group yang namanya webdx community group jadi kayak bentuknya macam-macam jadi kayak ada yang paling yang paling publ tuh ada github-nya kayak bikin apa ya E bikin isue gitulah eh buat developer pada voting eh fitur apa yang eh buat mereka paling penting dan kelihatannya e behaviiernya di antar browser tuh kayak masih kurang terus ada riset mungkin teman-teman juga sering dengar atau sering lihat kan kita developer suruh ngisi-isi survei-survei begituan lah surve developer terus secara publ ada githubnya ada diskusi-diskusinya juga ya gitu nah terus itu kan sebelum selama Project berlangsung itu dijalaninya di yang namanya proek lain yang namanya web form tes nah oke wpt tampilannya kayak gini nih skilles ini dashboard-nya nah fokus area itu yang di kanan ya bisa dilihat tuh ada item-itemnya jadi berdasarkan hasil survei di awal tadi Eh seluruh browser ini sepakat Oh kita ngerjain ini ini ini border image color Space function bla bla bla terus angka angka itu dari mana tuh nah itu dari tes yang pasting jadi ini bisa dibilang kayak senario he test Den development lah jadi eh apa UN unit tes iya mereka semua e sepakat eh bikin tesnya bikin t tes yang sama gitu ya Heeh tesnya sama jadi kan sebenarnya browsernya beda ya programnya juga apa codingannya juga beda kan masing-masing browser itu enggak masalah yang penting tesnya passing bagi teman-tem bagi teman-teman yang ingin mengerti lebih dalam Jadi sebenarnya dari sisi web consorium itu web specification namanya web web specification web api specification itu hanya eh dokumentasinya itu hanya menyatakan eh sebuah feature behaviornya seperti ini expected-nya bagaimana terus kemudian fitur itu untuk apa itu hanya dokument itu yang ada di api documentation-nya sedangkan Bagaimana implementasinya di browser implementasi secara coding ya Ee secara code-nya itu tiap browser beda-beda beda-beda karena engine-nya berbeda contohnya kalau di di chromium base itu kan engine-nya blink kalau di Firefox pakai Geek enginenya rendering engine ya sini maksudnya rendering engin pak web kit dan itu benar-benar beda arsitektur beda ee beda code base jadi Iya supaya kita sebagai web developer itu punya kesamaan contohnya mau pakai border image ee saat dirender di eh Safari ataupun saat diender Firefox Harusnya sama kodenya sama harusnya hasilnya sama Nah itu maksudnya project interop ini H jadi dari sisi developer enggak usah mikir lagi nih borderer image di safari tuh harus diginiin di Chrome harus digimanain Ya udah behavnya selalu enggak ada lagi akal-akalan montir nah ini kiri itu percentage eh passing test tadi sudah dibahas nah terus ini kenapa ya kemarin Oh kita bisa lihat ini teman-teman bisa lihat di wpt.fyi itu web platform test Nah kita bisa lihat tuh test case-nya dan ini enggak pakai Framework eh eh react atau Apun ini e test case-nya itu ini hal yang paling menarik sih buat gua e bahwa test case-nya html CSS javascript biasa Beneran itu bisa dibuka filenya langsung jadi ini contohnya nih kita ngeklik container queries terus muncul Tuh semua test cas-nya Eh apa Test suit lah semacam test Suit dan eh itu banyak hal-hal yang kita kayaknya enggak mikirin kayak misalnya ktainer queries kalau di anime m eh kan parentnya bisa berubah tuh ukurannya Terus gimana dong Nah itu tuh eh para para pembuat browser itu mengantisipasi berbagai skenario dan mereka mensepakati eh apa expected-nya Harusnya kayak gimana ya kalau tertarik bisa di eh lihat sendiri Ini kan 2023 nih contohnya karena ini slide dari tahun lalu Nanti kita bakal lihat yang 2024 nah terus eh apa gunanya buat kita developer ya itu tadi udah dibahas sama Ivan juga yang pertama ngurangin akal-akalan montir jadi kan Ya udah codingannya sekali konsisten di semua Browser yang kedua ya dari sisi user juga kan mengurangi bug performanya lebih bagus karena enggak ada akal-akalan montir seperti tadi nah yang ketiga nih yang agak abstrak yang kita enggak terlalu notis Jadi biasanya kalau ada fitur-fitur baru walaupun kita tahu ada fitur baru kan kita malas kita ragu-ragu karena kita mikir ah jangan-jangan belum disupport atau belum disupport dengan baik atau konsisten di semua browser kita malaseloper Mal mengadopsi Fur baru Nah mau mengurangi mengurangi kecenderungan seperti itu juga dan yang keat ya ekosistem library Framework seperti atau apa juga majunya lebih cepat karena kita kinggauinggualunyai Eh kalau misalnya udah stabil di semua browser eh library seperti tawin juga akan mengintegrasikan fiturfitur mereka Jadi ya semua terbantu kira-kira planningnya juga lebih jelas kan ya jadi misalkan kita bikin library seperti twin oh ini e view Transition nih bentar lagi nih kita siap-siap atau gimana gitu kan jadi bisa diantisipasi dengan lebih cepat gitu ya oke nah terus juga ini apa ada ada prosesnya tuh kayak gimana ya Katanya ada votevote gitu ya Ada macam-macam sih ada yang dari kayak tadi developer survei jadi ngisi survei ada yang dari github repo Coba ada engak reponya Kalau ini Kalau enggak salah ya dari github repo nih tuh ada eh kalau diklik Dia akan menuju ke github.com/webplatform test/ gitu JPEG XL Apa itu oh JPG XL ini tadi kita ah sempat Iya udah sempat kita ngobrol tadi di belakang layar ya jadi eh dulu kan Iya dulu kan yang di-support sama browser kan hanya PNG JPG Eh svg sama apaagi ya BMP mungkin ya enggak tahu BMP gif BMP gif ya gif ya I nah kemudian kan kan muncul kan ini wep avif terus apaalagi tuh macam-macam yang baru-baru nah pada saat Google Chrome mengeluarkan avif avif apa avif ya ya itulah pokoknya ya avif ya Eh mereka ngedrop support untuk gpeg XL oh oh I iak ini I entah Alasan apa ya kita enggak tahu ya entah alasan apa dia ngdrop e JPEG XL eh jadi enggak bisa tuh di Chrome ee e padahal menurut pengakuan beberapa orang jpl itu katanya lebih e optimiz lebih kecil dibandingkanif gitu entah kenapa sih Chrome gak mau kita gak tahu nah e bukan ya uniknya di Inter 2024 ini paling tinggi votnya balik Jadi ada kemungkinan Iya ada kemungkinan Chrome akan ulang lagi si GP exl ini dia kan belum tentu tapi belum tent boleh boleh voting betul berharap ya berharap Heeh Iya eh coba lihat e reponya lagi deh nih Itu tadi yang ada yang ada votingnya nah lihat is ini votingnya di mana ini isu nih kegedean ya Iya itu berupa isu Oke ini udah dua dari t ada thumbs up thumbs downnya tuh tu tuh 6nya 600 Hah 600 ini berapa di sini 400 Oh belum di-update ya ini kan block Po ya masih 400 Cuma yang jelas itu populer liat bawahnya orang pada ngobrol apaan komentarnya please make the case here this issue is what will be considered and discuss Oh jadi di situ bisa bikin isu terus bilang Kenapa itu penting I ini itu ini di sini bisa di-highlight nih bla bla bla blaa salah satu yang menurut dia Baguslah gitu Nah ya argumennya kenapa ini perlu diutamakan eh dimasukkan ke project interop karena kan enggak mungkin eh semua fitur baru langsung sekaligus segambreng masukin inop kan harus ada e pilih beberapa untuk prioritas betul makanya ini juga interop juga salah satu cara untuk eh si E Browser Developer untuk eh prioritas heioritaskan apa yang banyak dipakai dan penting buat developer betul itu terus yang lain apa isnya Coba lihat deh Eh view Transition Kalau enggak salah yang kedua nih view Transition level 1 Nah ini bisa jelasin Apa tuh maksudnya level 1 level 2 karena topiknya Eka lagi nih Dit udah dibahas ya tapi Boleh diulang sedikit lah ya he itu intinya bikin animasi dari satu state ke state lainnya nah Ate itu kan bisa macam-macam ya kita ngeklik tombol muncul modal atau Muncul apukaardah itu tuh dihle di level 1 S jadi navigation Juga misalnya kita punya spaleage ya atau misalnya kita pak Framework yang punya semacam kit atau nextjs itu kan Eh kalau CLI kalau javascriptnya aktif dia menhack kan maksudnya kalau kita nglik suatu link eh yang jalan adal yanginterck eventnya adalah routernya nexts misalnya nah itu view Transition yang level 1 menhandle yang di CLI tapi yang level 2 akan menghandle yang serverasink hperink bias bla itu bisa langsung ada animasinya nah yang sekarang Cuma yang level 1 yang level 1 Udah lumayan matang lah di Chrome sudahudah shipping eh vendor browser lain walaupun belum shipping sudah menyatakan eh persetujuan mereka udah bilang Oh ya boleh deh kapan-kapan kita adopsi walaupun belum Nah cuma kalau yang level 2 masih belum ada kesepakatan seperti itu masih digodok jadi yang makanya E itu kenapa yang diop untuk introp 2024 ini adalah yang level 1 yang udah shipping dan browser semua browser lain juga udah bilang Okelah tetapi Eh tapi tidak terpilih nih tulisannya Heeh i ya kan developer berusaha eh para browser vendor menentukan Eh kalau yang tadi diterima enggak ya GP Excel ini JP Excel terima ya ke bawah ada enggak jawabannya Oh paling bawah ya ya cus I palingwa kan cobaly Chrome reconsider ininya Coba lihat wpt Iya dari kata-kat I'm also nah wpt.in I dia ininya apa namanya si yang balasnya kan yang balasnya kan wpt. impr Engak enggak ada enggak ada ee kata-katanya aja kata-katanya aja apa ee itu itu WP coba coba carinya iyaya tadi titik ada nih n sama ini ini bot ini kayaknya ya iya kata-katanya sama tidak ya oh iyaal selection-nya diklik dong diklik for an overview of our process si proposal selection Oh prosesnya ini dia tanya kalau kalau teman-teman pengin tahu prosesnya Seperti apa Terus tadi kan kita nanya juga tuh gimana cara milih milih ee fitur buat fokus areasnya nah jawabannya ada di situ Iya jadi udah di sudahudah decide ya Desember 1 sampai 14 Ya sudah selesai ya diannounce-nya Di Januari nah tapi sebelum kita lanjut lagi yang menarik-menarik menurut kita ini ada yang baru nih dari dari apa dari si interop 2024 ya walaupun tadi sudah sempat dibahas sedikit 2023 kan si Chrome sama itu jadi satu ya dekatan gitu ya karena diaium base bukan jadi bar Bu dekatan jadi kolomnya cuma satu karena chromium kan kolomnya satu kalau sekarang k satu jadi sekarang punya kolom sendiri Iya berarti artinya ya kita enggak tahu ya kita enggak tahu layout engine yang dipakai ge sudah berbeda lihat aja contohnya di di section layout ya lihat cuma itu hasilnya sama semua sih beda beda beda ini beda bed Oh iya beda deh Oh i si saat ini si itu sudah ngforking dari Blink mulai forking I sudah forking sudah beda iya Betul apa yang terjadi di sini wah seru seru ya kalau bapak new Chrome enggak eh buat informasi juga kan Kayaknya Minggu lalu ya sempat kita bahas wau mungkin enggak enggak dibahas di waktu rekamannya waktu di belakang layar mungkin ya Kalau enggak salah jadi si webkit itu kan dari eh kde kan dari Linux kan eh k browser namanya kan habis itu engine-nya namanya webkit habis itu webkit ini dipakai sama safariink iya dan kemudian setelah dipakai sama Safari difork jadi Blink akhirnya jadilah Chrome I kan Iya jadi ini juga ada kemungkinan Kenapa ini dipisah Ada kemungkinan e si ge ini bisaemodifikasi mungkin basennya sama basisnya sama sama-sama chromium tapi dia memodifikasi mungkin ada beberapa hal yang dioptimiz atau ada yang dikurangin ada ditambahin untuk e optimasi disesuaikan dengan mungkin os-nya ya Windows gitu ya jadi lebih optimal akhirnya menjadi engine tersendiri yang sedikit berbeda dengan Chrome mungkin kar kita tahu juga sudah pasti ya kalau sudah beda hasilnya Coba aja eksperimentalnya Iya si pencet di Tab eksperimental Iya kalau hasilnya beda Berarti ada yang beda tuh Chrome Canar sama Def itu beda berarti ada minimal berarti mereka kan sudah ngforking sudah punya repo sendiri e mere ngevelop samping dan mereka belum belum enggak enggak ngambil lagiak mereka enggak ng Enggak enggak ngbackport lagi berarti mereka sudah jalan sendiri Oh mereka enggak enggak fetch lagi ya Enggak enggak P ya enggak P dari chromium ya eh loh bisa aja mereka ngpull lagi cuma mereka Jadi mereka ngambil update-an chromium kan bisa aja dan sah aja tapi yang mereka develop tambahan bumbunya mereka sendiri itu enggak di Enggak diing enggak dipush ke chromium ya Bumbu mereka ya buat mereka sendiri aja jadi bisa-bisa tapi misalnya chromium ada development baru nih ya mereka ngambil lagi e mereka bisa jadiis kan sama-sama op wait Sebelum saya saya ngomong saya enggak tahu browser Ed itu open source apa enggak Enggak tahu juga sama enggak tahunya enggak deh chromiumnya yang open source mungkin engine-nya iya tapi edge-nya enggak saya Googling secepatnya dulu iya jangan Googling lah B Oh Microsoft e seemims like open source Sims like why kenapa kenapa kenapa seperti open source karena belum tahu benar enggak salah ngomong itu ada ininya ya tu ada PIN paling atas kiri Microsoft ya msh Oh ada github-nya tapi itu cuma licens doang belum bukan iya ya enggak di update-nya 4 tahun 4 tahun lalu enggak ada sursnya bukan browsernya ini apa msh I itu doang oh liens gapdate-nya 4 tahun lalu web viieew-nya Enggak ada enggak tahu yang mana Enggak ada tuh Makanya saya bilang saya enggak yakin Iya ini kan Microsoft juga Melak enggak tahu ya Apakah melakukan hal yang sama dengan vscode vscode kan sebenarnya open source source-nya bisa dilihat tapi yang kita pakai yang sudah dikompilasi itu beda Eh beda ya sama dengan Chrome yang aslinya Chrome betul betul betul betul betul I irum Ben Ben benar Iya yang Open sour itu chromium bukan Google Chrome Heeh Iya jadi kalau kita mau pakai mau pakai vs Code yang versi open source-nya kita harus compile sendiri enggak disediain tuh gitu maksudnya kita compile di mesin kita sendiri kalau yang sudah dijadikan exekutable baik itu apa namanya XC atau kalau di Mac itu mungkin do app atau di Linux apa gitu ya Dan lain-ain itu ah racikan Microsoft Iya gitu mungkin hal yang sama bakal ee eh terjadi juga di Microsoft Edge kita enggak tahu ya ditambah lagi kemarin eh ada itu kan ada info dari orang dalam kan katanya Eh apa Tim Google Chrome Bedul Desa ke Microsoft ge nah ini tanda-tandanya juga sudah sangat jelas gitu ya Nah seru ini seru biar makin banyak ya biar makin banyak browser kalau dulu eh mungkin hanya apa didominasi oleh chromium base termasuk juga Opera ya ya Ee Terus sekarang sudah ada empat lagi kalau kemarin tiga makin banyak kerjaan enggak ya mungkin mudah-mudahan sih dengan adanya interop jadi semakin berkurang ya kita cukup tes mungkin di salah satu atau salah dua browser udah cukup mewakili gitu ya Tes di semua tapi kan enggak banyak yang harus difix hm ya i ya karena udah seragam gitu ya kira-kira Gitu ya He mudah-mudahan niatnya begitu niatnya begitu mudahmud oke niatnya begitu nah yang menarik apa lagi nih tadi JPK exl sudah view transision udah eh navigation api enggak masuk ya Coba coba lihat balik ke web navigation api ini yang kita bahas 2 minggu yang lalu Kalau enggak salah ya bahas waktu itu he dan ini apa tapi enggak masuk enggak masuk sepertinya apa tadi ininya eh wpt interop nih Iya ini kopasan anda tidak terpili Anda tidak beruntung apagi apagi masuk Oh kita mau lihat nih kata-katanya Apa nih oh ini proposal has AC is isu semuanya Heeh Iya oh 27 Enggak banyak ya Kir sampai R Masih open Enggak itu itu beda deh kalau yangudah Heeh begitu direspon selamat terpilih atau Maaf tidak terpilih itu di yang tidak terpilih diclose Oh iya benar benar ben semua diose kayaknya ininya apa E mungkin ada tag tertentu fokus area proposal ya Oh iya fokus area proposal Kita klik aja klik aja tuh Hah Enggak ada udah selesai kan enggak is open-nya hilangin di search-nya nah 214 Berarti ada ada 214 e isu isu Oke CSS modul script J modul script starting style Apa itu asli belum pernah lihat starting style halo SR ins select udah bisa ya sekarang ya kemarin belum belum itu kan itu kan proposal coba aja lihat ininya keterima Enggak Oh iya kita enggak lihat terima atau enggak Ya semua dicl aja gitu ya coba tadi lihat yang CSS nesting diterima ataupun Enggak diclose Oh iya ini ada Oh yang udah ini apa ini Kayaknya belum ya coba cari wpt intro engak ada enggak ada gak ada tuh habis tuh tu disp yang balas itu tuh si gsnya Oh ini masih belum itu masih belum bot ini masih orang nih he lama-lama capek dia harus terus buat ngjawab lama-lama di lucu juga Yar bar search apa coba itu scrollbnya bisa di diyling digedeinkecilin kan Tapi bagus juga sih kalau bisa ada ya Iya di mobile ini baru bisa di gek baru bisa di Firefox ya kar implementation ini Coba tebak ini diterima atau tidak udah tahu t kita udah lihat juga sih dasbnya Iya tapi itu udah Bisa ketebak juga eh ini masih ini diterima Oh diterim diterima l salah mana lagi Oh bukan ni coba ada coba coba lihat dashboard-nya Ada enggak sih ada dasb iya ada diterima kan kita aja enggak lihat Heeh oh tuh scrollb styling tuh scoll styling Oh ini 73% tadi di Geko yang banyak I 85% Heeh Iya karena dia dulu Safari belum ketinggalan zaman dia itu apa sih yang safari ini banget berantakan banget 18% 18% starting style Transition behavior beneran starting style itu apa sih benaran punyanya punyanya si Chrome itu drower lain belum Belum start sama sekali Iya iya tapi browser lain e maksudnya vendor browser lain udah pada mau menarik ya kalau sudah masuk di sini kalau sudah masuk di sini berarti sudah setuju inilah yang parah wupun yang lain sudahah mau 100% dia masih 7% ni custom property belum parah makanya Iya Bet Bu belum jadi yang di interop ini bukan selalu belum diadopsi tapi Maksudnya udah diadopsi tapi bisa aja speknya Tuh kurang jelas speknya rancu jadi Chrome X dan Safari menginterpretasi spesifikasi yang di W apa3 C ya itu ee menafsirkannya a eh terus Firefox menafsirkannya B karena mungkin speknya belum jelas bisa aja ada kasus kayak gitu Jadi mereka akan eh kerja sama buat memperjelas spesifikasinya juga Biar expectednya enggak rancu bisa kayak gitu atau bisa Maksudnya sudahudah disupport tapi kayak behavornya lain sendiri agak lain coba Coba klik dong custom property seriusan coba klik custom Property ya Mas Risa ada Firefox Enggak di sini enggak ada ee downad coba saya coba Saya coba tempat saya jadi Mas Lisa buka di Mas la pakai apa ini sekarang Chrome eh Ed Edge Edge Iya kalau saya coba apa yang tesnya banyak itu ee 7 OF 39 add property CSS Om Oh oke CSS object manajer ya CS obj mod objek model coba saya buka pakai Chrome Eh pakai Firefox Mas R buka pakai itu tuh linknya buka pakai Iya Terus nanti kita bandingkan ini oh e ada ininya kan R run in your browser on wpt. paling atas mana paling atas eh masuk dulu add property csom buka dibuka salah satu terus di atas itu ada run in your browser tuh tuh atas yang ada Bullet bawah Oh ini iniah Iya Nah kita bisa lihat tuh pas pas pas pas pas kan iyaah kalau Diang saya saya coba Saya coba pakai Firefox eh nih tuh pas pas pas pas pas pas pas terus fail fail fail fail apa yang dijalankan juga bisa kelihatan nah ini kalau teman-teman pengin lihat hasilnya itu bisa lihat langsung Vi page source Bagaimana cara ngetesnya kelihatan itu ada heeh ada ass ada assertionnya jadi ada CSS property valid CSS property valid reverse valid ini ini ibaratnya styling CSS objek ini objectek model kan Ya ini custom property-nya intinya ya kan gedein gedein Zoom Zoom Zoom Oh iya maaf maaf nah n nice ini custom property-nya terus di di t invalid t csset rnya jadi dites satu-satu nih car No descriptor Ada gak sih no descriptor ada nihetes apaertiptor itunya Jadi kalau noriptorptor dia invalid ya kanet aset TR kelihatan Jadi kalau teman-teman pengin belajar tuh bagaimana cara ngetes tanpa perlu ada mokah bisa ya kan iya iya iya iya iya karena cuma aset kalau Acer doang kan ada sebenarnya dari javascript eh is Yes is5 sudah ada Kalau iya iya jadi enggak perlu Moka dan ini ngetesnya ya di browser ya itu itu beneran cuma html CSS javascript Kiran kelihatan Oke oke menarik dan bisa beribu-ribu beribu-ribu test case senenario yang lainnya jadi pelajar tiap hari kan mereka ngejalanin itu mereka punya kayak test suit automation lah semacam eh seperti itu di ada kayaknya source juga tuh di github-nya web platform test ya tiap hari kerjanya cuma kayak gitu ngbotinguk versi terbaru masing-masing browser dia jalanin itu semua terus ngupdate angkanya dengan kata lain dengan kata lain kalau jadi browser eh tester developer tinggal nulis kodenya aja sudah udah ada orang lain yang nulisin tes tes case senenarionya ini tinggal ya tinggal koden a tinggal kodenya aja gitu Itu yang susah itu yang banyak menggampangkan sih ya hidup kita sudah susah jangan dibikin susah lagiah dibantu mereka gitu loh Nah si web platform tes ini wpt ini juga eh kolaborasi sebenarnya projek kolaborasi ya orang-orangnya sebenarnya ya orang yang kerja di Chrome orang yang kerja di safari juga ini kan ini kan Mozilla itu mros itunya tapi beda belum tentu sama loh Eka karena iya si si developer untuk nulis implementasi itu DC sedangkan yang nulis ini kan di javascript beda orang sekantor Iya beda orang tapi sekantor i i i Nah apa lagi yang menarik ya kalau buat saya ini salah satu yang menarik itu ada ini https url for web socket ye karena kan selama ini selama ini kan ws.2/ashash kan jadi sekarang wsss wss sudah ada kan lama ya belum konsisten sa Safari udah 100% tuh Safari sudahudah 100% loh yang lain ketinggalan jauh tuh jauhjauhin belum bikin itu masih masih merah-merah tu% ini gimana kodenya kita lihat aja ya Yang mana nih boleh yang gagal nih si Gimana ada kodenya enggak kelihatan enggak itu run in your browser on WP pasih ada karena semuanya kayaknya semuanya kodenya ada di ini kok ada kodenya ada di github ini ya He ini cara ngetesnya kita bisa tahu dia pakai WS atau wss Oh ini dia url Protocol I kan terus itu asetnya apa tuh WS equ kalau WS url ws.url yang dari webet ini url kalau htps dia otatis wss kan dia tesnya gitu kan Ya WS url ini apa url.rf Eh kalau ini wss jadi yang dites adalah Apakah url-nya WS kalau http kalau https e url-nya https maka yang dites Apakah sama wss ya gitu Oh berarti otomatis diconvert ya Iya tergantung sama pas kita buka web-nya pertama kali dan si Safari safari sudah support 100 sudah selesai sudah selesai kerjaannya tapi menarik ya ada yang Chrome yang Chrome dan Edge yang udah udah kelar 100% atau 90 sekian yang lain ketinggalan ada yang Safari yang udah selesai yang lain eh harus nyusul Iya kan masing-masing punya kepentingan jadi mana prioritasnya Heeh jadi kelihatan kan proek ini bukan dominasi dominasi Pro bukan dominasi provider tertentu i betul dan kayaknya yang mereka gak bisa menerima semua proposal karena bisa jadi kayak tadi JP Exel gitu mungkin chromnya merasa enggakakak iniak ptingak [Musik] ptingakakak mauakaonsakisaus masih suortin Afif mungkin iya i tapi kalau dan ini adalah kumpulan proposal yang secara serentak berempat mengatakan yes gitu oke E dan apa istilahnya kayak komit gitu ya komit untuk menyelesaikan ini tahun tahun ini gitu karena di tahun 2003 kayaknya lolos semua deh coba eh ada enggak sih yang cross yang fail over ada ada yang di Cross ya kayaknya adaak mungkin selesai semua sih pasti banyak yang Carry over Tuh kan masih banyak yang belum 100agus bang Lihat dong fokus area dari graf grafnya itu kan bagus banget tuh Oh ini iya ya ada perkembangan pasti tapi enggak 100 belum 100% Ini 82 E tapi kalau eksperimentalnya udah udah rata-rata di atas 0 kan ini Carry over nih custom properties Carry over nih iya iya tuh Berarti si si firfox [Musik] e kalau eksperimentalnya ya Ada at least ada f sih Oh berarti ibaratnya bakal rilis Iya yang 2024 2024 ini mungkin belum kelar Harusnya kan 100% semua Oh I benar Coba kita lihat customnya tuju tujuannya 100 custom property 90 Oh iya sedikit lagi nih sekarang udah berapa oh eksperimentalnya udah tapi yang di sininya belum Oh tinggal rilis ya sabar melatih melatih kesabaran juga ya ngelihatin ini udah hampir banget ini kan udah dibikin ya kodenya cuma kapan sih rilisnya itu loh kelihatan tuh jadi enggak perlu di itu kan kelihatan tuh preview fokus area tuh berarti tahun 2023 Yang Yang Sori 2000 diroll bawah preview Fus are ada kanan bawah berarti yang 20022 sama 2021 kumpulannya ada di sini semua tuh berarti makin lama bakal makin panjang ya yang bagian itu ya karena butuh tetap dites juga bisa jadi ada regression kan he tapi udah bagus-bagus kok rata-rata 90-an ke atas semua itu ada yang tapi ini ada yang menarik nih si Firefox nih E ini posisinya di bawah di bawah di bawah tiba-tiba naik nih Ting meny sama yang lain Ris dia adaya itu siapa sih yang paling bawah apa sih interop interop oh interopnya e total rata-rata Total ya enggak bisa dizoom ya gak bisa dizoom ya buka PR biar bikin graf yang lebih bagus oke apa lagi yang menarik yang menarik gua index TV bisa Ind TB Kok bisa Bukannya itu sudah stabil gitu Kenapa masuk lagi apa yang apa yang belum apa yang masih fail kita lihat ya Coba Oh ini Def ya yang interop Stable udah belum hampir ya ya itu udah tertentu kaliail banget oh back forward case jadi berhubungan sama fitur yang lain ternyata index tb-nya mungkin belum support kita lihat di sini tesnya mana ini ya apa yang dites sama dia kok ada pop upnya loh loh loh Berarti ada ada ininya Coba klik pop up mungkin ada forward cas-nya untuk ngetes pack forward cas berarti itu mana Iya ini itu ada ada tanda tanda merah tuh kanan kanan atas url Oh ini ur iya kena blok dahudah refresh ya refresh I he Oh iya benar ada buka loh Enggak ada apa-apa udah ah mana ini kosong kosong kosong kosong Oh ini passing ya kalau lihat kodenya yang tadi ya Yang mana dia test harness t harness apa yang dites ya itulah ya kira-kira ya back forward itu kan kalau kita forward misalkan kita ada di sini terus kita ini ni nih Nah kalau kita balik lagi dia sudah diage Nah sepertinya si index DB ini belum support sepertinya ya belum support untuk semua cas e kasus-kasus tertentu Mungkin ada yang belum mungk mungkin support tapi ada ada skenario tertentu yang jeb menyebabkan dia tidak bekerja he waktu ya waktu bikin slide yang tahun lalu itu kan ngelihat lihat contoh-contoh test cas-nya detail banget semua skenario hal yang kita gak ggak pernah keebayangin itu dibuat semua jadi emang menyeluruh e menyeluruh bangetlah tesnya Coba lihat Tek directionality apa sih emang bisa kayak atas bawah gitu Iya kan diagonal lihat aja yang cari yang belum dari kanan ke kiri kaliudah atas ke bawah kan bisa bahasa bahasa kayak Arab gitu kan kanan kiri he Arab hebu kanan ke kiri nah eh bahasa Asia Timur itu kayak ada yang dari atas ke bawah passing Oh iya sih apa yang atas bawah atas bawah enggak t atas ke bawah maksudnya Direction Oh emang ada ya baru tahu kayaknya ada deh ini apa nihin tes passes if the two boxes below look exactly the same Ya udah berarti pas itu kan ini enggak pas itu pas pas Oh iya pas ya enggak pas harus sama lah itu pas semua Pas semua tuh tuh yang ada kuning yang ada kuning tuh yang merah merah kuning ini apa yang cari Iya ini pas semua belum coba pas semua tuh 22 pas Run pas semua berarti udah Ini yang mana Mas Klik yang ini yang kuning oh nih De auto form associated window Apa itu kalau melihat beginian tuh saya merasa pengetahuan webd saya cetek amat ya Ini apa Terus pas dibaca sebenarnya kalau udah dibacaiatin Tuh ngerti cuma kek selama ini kita enggak mikir nyampai situ deh karena kita enggak pernah mengalami belum pernah mengalami atau kita mungkin mengalami tapi kita enggak bisa enggak tahu keyword untuk nyari ini itu apa gitu ya ini kan apes-apesan Mungkin ada satu orang yang dapat bug ini nah bagusnya si web platform tes ini kan menjembatani dari sudut pandang si developer browser orang yang ngoding browser tadi yang pakai c+ plus atau apalah bahasa-bahasa eh low level sama dari sisi developer web nah kode yang ditulis yang apa m-rigger masing-masing skenario itu nah kan sebenarnya menghubungkannya maksudnya biar kayak speaking the same language lah itu ya pakai test test Itu kan kalau kita mau tahu ini apa itu ada informasinya di mana ya Itu makanya buka itu dong yang web kit eh blog yang di Nah iya ya itu ada ada ringkasannya kan ada penjelasannya kan Oh ada di sini Te directionality in which text flow is a vital aspect of type setting in web some language flow from left to right while other right to left benar kan berarti kan one of many bits of Technology supporting text directional is the dear attribute iya left right atau auto Iya Nah ini mungkin udah ribet pas Apa itu e shtion ofality and Shadow Oh buat ngender shadownya kali ya kalau ada teksnya yang pakai Shadow gitu bukan bukanya yang dokumen objekadadow mungk ituayakak enggak ngebaca selama ini mungkin enggak ngeinherit Eh itu kan jadi e semua diasumsikan ditebak left to right semua jadi mungkin eh proses renderingnya jadi ngacau ya Jadi kurang optimal ya karena semua dianggap dari dari kiri ke kanan gitu ya bagian-bagianang buat jarang buat situs bahasa Arab atau bahasa heu sih Iya kliennya belum ada dari sana request video frame callback Nah ini apa ini cari lagi dibuka aja itu lihat apa kalau internya itu adalah minimum value ya bukan rata-rata ya iya ya makanya tadi paling bawah kan di grafit padahal logikanya kalau semua yang lain di atas kan harusnya Ben sih kalauability kalau value interability adalah the lowest value kalau bukan bukan average Berarti benar ber oke Ada lagi Ada lagi Nah untuk overall Berarti sekarang sebagian besar sudah 70 apa url itu apa lagi sih Masalahnya ur kan adaailnya Coba ke bawah ur BL jadi ini kurangnya di standarisasi gitu dokumen standaris belum ada speknya apa belum terstandarisasi kali belum ada dokumentasinya gitum spesifikasi Iya atau ada fitur-fitur baru dari URL yang belum didukung tuh pass rate-nya 77 sampai 85 Iya coba aja lihat E itunya apa isinya url baru Safari doang yang pas Oh banyakakah banyak banget tes I udah hampir semua exclude file javascript mail to apa ini ya kan protokol-protokol banyak tuh ada Ma titik coba yang Man langs ke paling atas masak bisaak Bisa bukan gak bisa lama ha lama oh iya mana ya udahlahak t Coba lihat ke bawah engak ada eror berar in yang ditesnya apa tesnya error ini ya varian itu paling bawah paling bawah a elemen Bukan ini ya Iya resources resour nah [Musik] l Run skip bikin bikin elemen link Iya ini nih nih itunya tes cas pakai Jason tuh paling atas tuh coba paling atas di ambil dari URL test data [Musik] Iya dari resources resources ada Oh iya iya ini Oh bisa ini juga ada username password http ada usern password Nah ini mungkin hal-hal kayak gini Belum didokumentasiin kan selama ini mungkin belum spesifikasinya Udah kayaknya deh Udah ya udah deh support Harusnya sih udah ya kalau kita ada episode url Kan dulu itu apaagi input http tes.2 Oh itu us password passwordnya kosong Apakah dia dukung atau enggak banyak sekali kayak oke pas dilihat kita kan paham nih ngerti oh maksudnya tadi tadi kode tesnya kayak gimana Terus ini apa furnya eh apa datanya kayak gimana kita ngerti Cuma selama ini ya Gak pernah mikir sejauh ini Paling nonal apa C apa Non spesal Nah ini kan jadi ngompakin karena dengan ngetes segala macam kayaknya sambil mereka nulis spesifikasinya technical apa technical spificationnya untuk si url itu kalau kejadiannya begini gimana suatu browser harus eh apa merenderingnya nkpnya kalau ke depannya besok ada yang bikin browser layout engine baru ya harus ada ada patokan yang mudah untuk diikuti Nah di sini ada enggak di sini dijelas di Pro mereka ngebangun banyak juga tes seap harinya ya Oh iya Ada yang kerjaannya nulisin test case ya capek ggak sih kayak gitu I dibayar kan kerjaannya ya kan kerjanya itu memang kerjanya begitu sama aja kayak e mungkin ee mereka juga mikir capek enggak sih bikin krut-krut aja kerjaannya bikin kut-kut doang Ti tiap hari ngoding tiap hari ngoding atau ngodingon Heeh pasti mikirnya capek kan Wow nih bukan ini nih ada ada berarti ada problem di url parsing kayak tadi ada yang pakai username ada yang username-nya kosong ada ada beberapa use case yang belum tercover buka Hah wpt buka githubnya wpt untuk semua code base di itu ya di chat private Oh itu tuh langsung wpt wpt itu kan semua code base-nya ada di situ Ki kiri tuh nah ini siest suitnya iya test suitnya semua ada di sini banyak banget isunya aja ada 1300 10 requestnya 1200 dong nah itu yang kerjanya sehari-hari buat ngurus itu lumayan pusing juga ya kita lihat ya orangnya siapa ya ada yang dikenal enggak iya banyak 1600 juga kontribusi tertinggi adalah ms2 gear wptpbot tuh paling B yang paling sibuk PR fulip ini tadi yang jawabin nih oh Mozilla yang kiri itu Google Chrome Opera ini gak tahu siapa ada masahi ggak enggak nah ini juga tadi yang jawabin nih dari mana dia oh gak enggak dikasih tahu dia ini imigran imigran Geko hacker gek hacker jadi masing-masing ada spesialisasinya juga yanya yang apa ngerjain buat bagbagan yang itu yang Yao nih browser Lay engine developer spesifik sekali ya berarti yang dia yang ngurusin FX gitu ya adaak kitaak tahu ininya ah enggak ada itu gugur tuh e yang FR Bu yang sampingnya yang kanannya Oh iya yang yang Inter Jin Oh oh wow oh mantaplah mantap ini web kit Oke overall sudah 75% ya walaupun masih bulan Februari ya tapi kita kan gak tahu ya progressnya ya overall 75 73 5875 jadi yang masih Tertinggal itu Firefox tapi karena Firefox belum rilis ya kalau kita lihat eksperimentalnya dia lumay tinggi juga lumayan tinggi juga walaupun masih setara sama set setara sama sama dan Chrome juga ggak terlalu jauh bedanya he Nah mungkin jadwal rilis dari night ke stableennya dia kayaknya lebih lebih jarang ya gak sesering Apar Chrome sama Safari dong yang lebih susah ngerilis tiap tahun dia risnya setahun sekali kalau gak hot fix kalau gak hot fix dia Gak Ris tuhak kok bisa kok kalau update Iya Update kok suka sering update kok engakak Enggak sering-sering banget tapi ada gitu enggak enggak tiap hari sih sebulan sekali gitu sebulan 2 bulan sekali ada k iya ada ada ada ada update tapi kalau yang kalau yang Major Ya emang setun sekali Hm oke Apa lagi yang mau kita bahas favorit favorit masing-masing kalau gua yang e eh yang Oke pop over nih akhirnya Maksudnya enggak nyangka secepat itu ee apa ee masuk adaptasi Heeh semua browser nganggap Oke dan e masuk ke interop popover itu ya itu apa Shadow custom Element tapi yang bawaan di browser yang buat tool tip dan model dan lainlin ya kalau gak salah coba deh buka di apa E blog [Musik] webkitnya pjelasanover will into the browser way to have Element pop on to the top layer of page jadi kayak adaya sih dialog model dan teman-temannya Iya kalau di hover terus tiba-tiba muncul dialog gitu ya Ada tool tipnya atau semacamnya tool tip ya tool tip ya tool tip dan ini udah jadi itu ya Shadow Dom ya He iya ini custom elementen ya Heeh Ini kan kayak enggak hampir enggak ada website atau web app apapun yang enggak pernah ada pop upnya sama sekali Kan itu maksudnya itu cas yang hampir semua developer bakal ketemu dan selama ini kan Eh ya masih relatif banyak bergantung sama library kan Nah ini nih kalau popovernya udah interoperable itu ya bakal lebih gampang Eh dibuat tanpa ernal library Oke kalau gak tahu karena semuanya bingung tapi textap Balance itu salah satu yang Oh saya looking for pas CSS karena saya orangnya developer yang lemah untuk untuk Bagaimana menyesuaikan layout supaya gitu ngabisin waktu dengan ada t Balance mungkin mempermudah hidup saya tahun ini I kalau saya tadi ya apa e webscket attpsurl for web socket itu sih ada pointer dan Mouse event itu apaan sih sama CSS nesting juga menarik sih tapi Oh iya CSS nesting juga CSS nesting kita bahas juga ya kemarin pas ya E episodeap apa tadi Eh Ivan pointer and mouse Iya mous event Iya kan bisa dibuat bisa eh bisa dibuat apa kayak behaviornya behavior waktu kita Mouse over bisa diklik atau enggak Mouse P stylus or touching karena ada touchnya yang kita enggak enggak kepikiran bahwa sekarang Kalau dulu kan Mouse Ya udah Mouse gitu kan i k tabl gak dapat ada EV kalau P stylus touch with one or more fingers nah eventnya gimana tuh Iya kalau touch kan enggak bisa klik eh enggak bisa Klik enggak bisa apa ya Ee Klik Kanan gitu susah enggak bisa Klik Kanan bisa dong sebelum itu ada bukan ada sepersekian detik pasti ada hitungannya lah e Kita enggak ngerti kan Oh iya berapa kan nahan jadi ee kalau misal and hold ya and hold ya kita ngetap itu kan kayak left klik kalau kita eh tab and hold itu kayak right Click ya itu berarti kan harus harus disesuain buat kasus-kasus seperti itu Iya dan ternyata kalau ini nyambungnya ke accsesibility nih kalau buat apa orang yang penglihatannya kurang Terus pakai apa semacam voice over atau eh semacamnya kalau di HP kalau di eh laptop desktop kan tinggal ngetap ya Tab atau Mouse over nah kalau e di mobile itu emang caranya dengan cara ngetap lama ngetap lama dia baca itu apa jadi Emang ya perlu penyesuaianah Nah mungkin ini juga mauamav iya inilah Salah satu alasan kenapa platform web berasa update-nya agak lambat gitu karena dia e in itu kan bisa dibuka di semua platform kan gitu Enggak cuman desktop doang kalau desop doang eh dengan segala jenis manusia yang OS yang berbeda-beda he os-nya lain-lain terus e Heeh orangnya juga lain-lain dari yang bahasanya kiri ke kanan kanan ke kiri dari yang dari Yangnya fisiknya eh apa indranya lengkap semua sampai yang perlu bantuan assistive device nah gimana tuhender semua harus diakomodasi Heeh harus bisa adaptasi untuk itu semua dan antar harus kompak ya sekompak mungkin Nah makanya tadi tesnya sampai ada ratusan ribuan buat mengakomodasi itu semua Hm gitu jadi keingat pesannya Mas Arya kayak ngebangun apa yang waktu dia buat sebuah Phantom JS itu test casnya itu banyak banget ya kan Iya untuk stabilitas dan backward compatibility betul backatibility itu yang yang terus dijaga ya sama platform web ya Iya dan kalau dalam kasus ini ya Cara apa Cara komunikasi cara ngompakin keempat browser Ya cuma ini kan satu-satunya tes iya iya jadi kayak dari end user lah dari end user masing-masing browser kayak tadi dibuka dari Firefox ternyata fail Nah kan itu udah karena kalau kode kan enggak bisa diamline ah masing-masing punya sendiri ya udah ini hasil akhirnya yang dites h relative color syntax masuk interop Siapa ini yang push relative color syntax itu apa ya itu yang yang itu HC kemarin kemarin Oh yang ngepus pasti Adam Argil cuma masih rendah semua gini skornya rendah ya I kan Ini baru baru baru kan Kalau eksperimentalnya gimana eksperimental sudah sudah pada relatif ada enggak ada enggak ada pergerakan sedikitsedikit cuma 0,3% ya berarti emang dibik kenapa ini dia Enggak penting ya Kenapa dimasukin gitu ya kenapa dia Enggak penting Iya karena semua brer ngerasa itu penting Nah iya kenapa penting kenapa kenapa penting Nah itu cari di isunya isu Inter ada gak n ada cob Kenapa kan banyak berarti banyak yang tu tadi di atas ada argumennya Oh argumen accessibility impact berarti toated from origor manipul with oh ini deskripsi doang nah ke bawah alasannya accessibility terus pada bilang apa tuh gak ada gak ada ininya diter ya itu berarti mungkin penjelasan yang masuk yang apa kemungkinanob turun diitnya apa Gang Bu [Musik] Bik Nah kan kontras kan jadi karena udah ada hitungannya yang ada algoritma bikin warna yang brow jadihangikinnyaaki yang kont nya 30% lebih terang Iya ya mengerti tujuannya tapi masih belumat mengapa mengapa pentingnya gitu belum bisa terima karena masih baru juga kan Ya iya ya pentingnya itu jadi Ee Kita kan mikir kita pas bikin CSS Ya sudah mikir ada standarnya misalnya 0,3 atau 30% lebih terang bayangin deh kalau kita harus mikir Eh misalnya abu-abu Abu apa H ddd itu abu-abu e e e abu-abu aaa abu-abu juga buat kita maksudnya buat web developer itu semua abu-abu kan walaupun Kalau mungkin kalau UI desainer kan lebih lebih paham kalau buat kita mau apa Kalau pakai hex aaa bbb ccc ddd itu semua abu-abu kita engak bisa bedain nah ini dikasih bahasa yang lebih lebih lebih mudah dan lebih bisa lebih terstreaml buat kita bahwa kontras nya tuh 0,3 Misnya 30% lebih terang ya lebih bagus aja sih kayaknya buat aksesibilitas yes oke Ada lagi yang mau kita bahas mungkin sebelum mungkin kita sudahi terakhir itu aja dulu itu dulu ya Oke berarti untuk malam ini topiknya loh ivannya hilang Ian hilang kita ngomongnya samaan ya untuk malam ini mungkin ee udahan dulu topik tentang interop 2024 mungkin nanti tahun depan kita lihat lagi review lagi mungkin sekalian kita masukin ke topik review kali ya Eh preview dan review kali ya Heeh kalau emang udah selesai gitu maksudnya kan Januari itu ah selesai ya mungkin agak diundur sedikit supaya kita bisa sekalian review juga nah buat teman-teman yang e mau Apa mau kasih-kasih ide top caran atau ada yang mau nanya tentang Seputar Dunia web bisa langsung ke kesana.in/ngobrolin nanti eh langsung aja di discussion ditanyain Apa pertanyaannya atau ada topik yang mau di apa disarankan ke kita atau ada narasumber yang mau diundang silakan narasumber Heeh misal narasumbernya mau kalau perlu dimion atau di kalian Oke Ian Ada apa Eh ada masalah dengan teknis komputernya Iya jadi Ivan udah cabut duluan dan sekarang kita tinggal berdua kalau begitu kita juga udahan kita ketemu lagi minggu depan mudah-mudahan minggu depan kita sudah bisa live lagi dengan topik yang berbeda selamat malam selamat istirahat sampai jumpa bye bye"
+}
