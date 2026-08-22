@@ -21,6 +21,7 @@
 - **Cloudflare Pages** - Git integration, build: `npm run build`, output: `dist`
 - **GitHub Actions**:
   - `fetch-playlist.yml` - Weekly YouTube sync (Wed 08:00 WIB)
+  - `playlist-drift.yml` - Daily check for episodes published but missing from the playlist
   - `test.yml` - Unit + E2E tests on PR
 
 ## Scripts
