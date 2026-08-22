@@ -84,3 +84,32 @@ To update the episode list from YouTube:
 - ❌ **Don't skip initialization guards** - Scripts may run multiple times, prevent duplicate work
 - ❌ **Don't test only initial page load** - View transitions create different execution context
 - ❌ **Don't refactor without E2E coverage** - ShareButtons refactor needed testing protection
+
+## Package manager (pnpm)
+
+Installs use **pnpm**; `pnpm-workspace.yaml` is the authoritative config. Two things there are
+load-bearing and easy to break — both fail only on a **cold** install, never with a warm `node_modules`:
+
+- **Build-script allowance.** The setting was renamed in pnpm 11 (`onlyBuiltDependencies`, a *list*
+  -> `allowBuilds`, a *map*), and each version silently ignores the other's key. Cloudflare Pages
+  builds with pnpm 10.11.1, so both forms are kept. Wrong key/shape = `Ignored build scripts:` and
+  no native binaries.
+- **`publicHoistPattern: [sharp]`.** Astro bundles its sharp image service into `dist/`, so the
+  `import('sharp')` it emits resolves from the project root, not from astro's own `node_modules`.
+  pnpm's strict layout hides transitive deps there; without the hoist the build dies at
+  *generating optimized images* with `MissingSharp`.
+
+Validate any change to install/build config the way CI does, never against a warm tree:
+
+```bash
+rm -rf node_modules && pnpm install --frozen-lockfile && npm run build
+```
+
+Expect no `Ignored build scripts` warning and a build that runs past *generating optimized images*.
+
+## Maintaining this file
+
+Keep this file for knowledge useful to almost every future agent session in this project.
+Do not repeat what the codebase already shows; point to the authoritative file or command instead.
+Prefer rewriting or pruning existing entries over appending new ones.
+When updating this file, preserve this bar for all agents and keep entries concise.
