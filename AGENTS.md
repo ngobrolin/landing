@@ -86,6 +86,23 @@ To update the episode list from YouTube:
   - Write E2E tests in `e2e/` for page navigation and user flows.
 - **Routing:** Use Astro's file-based routing. Dynamic parameters are handled with square brackets (e.g., `[slug].astro`).
 
+## Episode pipeline: the playlist is the source of truth
+
+Everything the site shows — pages, RSS, sitemap — derives from one YouTube playlist
+(`PLTY2nW4jwtG8Sx2Bw6QShC271PzX31CtT`) via `scripts/fetch-playlist.ts`. A video published to
+the channel but never added to that playlist is invisible to the whole pipeline, and the site
+and feed look perfectly healthy while going stale. That happened once and went unnoticed for
+eleven days, which is why `scripts/check-playlist-drift.ts` exists (daily, opens a GitHub issue).
+
+Two things worth knowing before touching that path:
+
+- Episode titles do **not** follow one clean convention. Alongside `<topic> - Ngobrolin WEB`
+  the playlist holds `... - Ngobrolin WEB ep51`, `... - Ngobrolin WEB & @handle`, a
+  `Ngborlin WEB` typo, and 2022–2024 one-offs with no suffix at all. Any title-based rule
+  belongs in `EPISODE_TITLE_PATTERN` (`scripts/lib/playlist-drift.ts`) and nowhere else.
+- `YOUTUBE_API_KEY` is read-only for playlists. Adding a video needs OAuth the repo does not
+  have, so tooling can detect drift but never fix it — that stays a human action in YouTube.
+
 ## Learnings & Best Practices
 
 ### ✅ DO's
