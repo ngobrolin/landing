@@ -121,27 +121,26 @@ Two things worth knowing before touching that path:
 - ❌ **Don't test only initial page load** - View transitions create different execution context
 - ❌ **Don't refactor without E2E coverage** - ShareButtons refactor needed testing protection
 
-## Package manager (pnpm)
+## Podcast audio pipeline
 
-Installs use **pnpm**; `pnpm-workspace.yaml` is the authoritative config. Two things there are
-load-bearing and easy to break — both fail only on a **cold** install, never with a warm `node_modules`:
+`/podcast-rss.xml` includes an episode **only** if `audioUrl`, `audioDuration` and
+`audioFileSize` are all present and truthy (`getPodcastEpisodes()` in
+`src/lib/podcast.ts`). A partially-filled entry is dropped silently — no error,
+just a missing episode. `/rss.xml` is the separate web feed and carries no
+enclosures by design.
 
-- **Build-script allowance.** The setting was renamed in pnpm 11 (`onlyBuiltDependencies`, a *list*
-  -> `allowBuilds`, a *map*), and each version silently ignores the other's key. Cloudflare Pages
-  builds with pnpm 10.11.1, so both forms are kept. Wrong key/shape = `Ignored build scripts:` and
-  no native binaries.
-- **`publicHoistPattern: [sharp]`.** Astro bundles its sharp image service into `dist/`, so the
-  `import('sharp')` it emits resolves from the project root, not from astro's own `node_modules`.
-  pnpm's strict layout hides transitive deps there; without the hoist the build dies at
-  *generating optimized images* with `MissingSharp`.
+Backfilling audio is two steps: `scripts/extract-audio.ts <videoId>` then
+`scripts/upload-s3.ts <videoId>` (bucket `ngobrolinweb-podcast`, key
+`audio/<videoId>.mp3`).
 
-Validate any change to install/build config the way CI does, never against a warm tree:
-
-```bash
-rm -rf node_modules && pnpm install --frozen-lockfile && npm run build
-```
-
-Expect no `Ignored build scripts` warning and a build that runs past *generating optimized images*.
+- ⚠️ **`upload-s3.ts` writes `src/data/episodes.json` as its last act. Commit that
+  edit.** If it is lost, S3 holds the mp3 but the repo has no record, and the
+  episode vanishes from the feed with nothing erroring anywhere.
+- `upload-s3.ts` defines `checkS3Exists()` but never calls it, so it will
+  overwrite. Run `aws s3api head-object` yourself before uploading.
+- Encoder output is 128kbps mono = **16000 bytes/sec**. A file-size-to-duration
+  ratio outside that band means a truncated or mismatched file;
+  `src/lib/podcast.test.ts` asserts this invariant across all episodes.
 
 ## Maintaining this file
 

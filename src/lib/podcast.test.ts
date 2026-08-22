@@ -6,6 +6,7 @@ import {
   type PodcastEpisode,
   type PodcastMetadata,
 } from "./podcast";
+import episodesData from "../data/episodes.json";
 
 describe("formatPodcastDuration", () => {
   it("formats seconds to HH:MM:SS", () => {
@@ -131,5 +132,99 @@ describe("generatePodcastRssXml", () => {
     const xml = generatePodcastRssXml(mockMetadata, []);
     expect(xml).toContain("<channel>");
     expect(xml).not.toContain("<item>");
+  });
+});
+
+describe("audio data integrity (regression: episodes silently missing from feed)", () => {
+  const rawEpisodes = episodesData as Array<{
+    videoId: string;
+    title: string;
+    audioUrl?: string;
+    audioDuration?: number;
+    audioFileSize?: number;
+  }>;
+
+  const withAudioUrl = rawEpisodes.filter((ep) => ep.audioUrl);
+
+  it("every episode with an audioUrl has complete, well-formed audio fields", () => {
+    // getPodcastEpisodes() requires audioUrl, audioDuration AND audioFileSize to
+    // all be truthy. A partially-filled entry is dropped from the podcast feed
+    // silently -- no error, just a missing episode. Guard the whole shape.
+    const malformed = withAudioUrl.filter(
+      (ep) =>
+        !/^https:\/\/\S+\.mp3$/.test(ep.audioUrl!) ||
+        typeof ep.audioDuration !== "number" ||
+        !Number.isInteger(ep.audioDuration) ||
+        ep.audioDuration <= 0 ||
+        typeof ep.audioFileSize !== "number" ||
+        !Number.isInteger(ep.audioFileSize) ||
+        ep.audioFileSize <= 0
+    );
+
+    expect(
+      malformed.map((ep) => `${ep.videoId}: ${JSON.stringify(ep.audioUrl)} / ${ep.audioDuration} / ${ep.audioFileSize}`)
+    ).toEqual([]);
+  });
+
+  it("has audio for every episode except the knowingly-exempt ones", () => {
+    // The podcast feed silently omits any episode lacking audio, which is how
+    // 10 episodes went missing for three months. Pin the gap explicitly so a
+    // future episode losing audio fails here instead of vanishing quietly.
+    //
+    // qei6_h3wwPY ("Model Context Protocol", published 2026-08-19) arrived via
+    // the playlist sync without audio. Backfilling it is deliberately tracked
+    // separately; it is knowingly absent from the podcast feed, not forgotten.
+    const KNOWN_WITHOUT_AUDIO = ["qei6_h3wwPY"];
+
+    const withoutAudio = rawEpisodes.filter((ep) => !ep.audioUrl).map((ep) => ep.videoId);
+
+    expect(withoutAudio.sort()).toEqual([...KNOWN_WITHOUT_AUDIO].sort());
+    expect(withAudioUrl).toHaveLength(rawEpisodes.length - KNOWN_WITHOUT_AUDIO.length);
+  });
+
+  it("exposes every episode with an audioUrl in the podcast feed", () => {
+    const feedVideoIds = new Set(getPodcastEpisodes().map((ep) => ep.videoId));
+    const dropped = withAudioUrl
+      .filter((ep) => !feedVideoIds.has(ep.videoId))
+      .map((ep) => ep.videoId);
+
+    expect(dropped).toEqual([]);
+  });
+
+  it("renders a well-formed enclosure for every episode with an audioUrl", () => {
+    const episodes = getPodcastEpisodes();
+    const metadata: PodcastMetadata = {
+      title: "Ngobrolin WEB",
+      description: "Podcast",
+      author: "Riza Fahmi",
+      email: "test@example.com",
+      siteUrl: "https://ngobrol.in",
+      feedUrl: "https://ngobrol.in/podcast-rss.xml",
+      imageUrl: "https://ngobrol.in/cover.jpg",
+      language: "id",
+      category: "Technology",
+      explicit: false,
+    };
+    const xml = generatePodcastRssXml(metadata, episodes);
+
+    const enclosures = [...xml.matchAll(/<enclosure url="([^"]+)" length="([^"]+)" type="([^"]+)"\/>/g)];
+
+    expect(enclosures).toHaveLength(withAudioUrl.length);
+
+    enclosures.forEach(([, url, length, type]) => {
+      expect(url).toMatch(/^https:\/\/\S+\.mp3$/);
+      expect(Number(length)).toBeGreaterThan(0);
+      expect(type).toBe("audio/mpeg");
+    });
+  });
+
+  it("audio file size is consistent with duration at the pipeline's 128kbps mono bitrate", () => {
+    // extract-audio.ts encodes -ab 128k mono => 16000 bytes/sec. A wildly
+    // different ratio means a truncated upload or a mismatched file.
+    withAudioUrl.forEach((ep) => {
+      const bytesPerSecond = ep.audioFileSize! / ep.audioDuration!;
+      expect(bytesPerSecond).toBeGreaterThan(14000);
+      expect(bytesPerSecond).toBeLessThan(18000);
+    });
   });
 });

@@ -107,9 +107,9 @@ This requires:
 
 ## Implementation
 
-See: [docs/plans/2025-02-01-audio-podcast-distribution.md](../plans/2025-02-01-audio-podcast-distribution.md)
+Operational pipeline details: AGENTS.md (Podcast audio pipeline).
 
-### Scripts to Create
+### Scripts
 
 1. `scripts/extract-audio.ts` - Download and convert to MP3
 2. `scripts/upload-s3.ts` - Upload to S3, update episodes.json
@@ -117,10 +117,8 @@ See: [docs/plans/2025-02-01-audio-podcast-distribution.md](../plans/2025-02-01-a
 
 ### S3 Bucket Configuration
 
-- **Bucket name**: `ngobrolin-podcast` (or similar)
-- **Region**: ap-southeast-1 (Singapore)
-- **Access**: Public read for objects
-- **Structure**: `/{videoId}.mp3`
+Authoritative current bucket name, object key layout, and upload invariants:
+AGENTS.md (Podcast audio pipeline) and `scripts/upload-s3.ts`.
 
 ## References
 
