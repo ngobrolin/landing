@@ -41,8 +41,8 @@ jobs:
         run: npx tsx scripts/check-playlist-drift.ts
         env:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
-          # Only the scheduled run on the default branch opens/updates/closes the
-          # alert issue. Runs from a branch report to the log instead, so testing
-          # a change to the check cannot open an issue.
+          # Only on main: open/update/close the alert issue. Branch runs
+          # (including PR pushes that exercise this workflow) report to the log
+          # instead, so testing a change to the check cannot open an issue.
           GITHUB_TOKEN: ${{ github.ref == 'refs/heads/main' && secrets.GITHUB_TOKEN || '' }}
           GITHUB_REPOSITORY: ${{ github.repository }}

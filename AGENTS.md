@@ -24,7 +24,7 @@
   - `scripts/fetch-playlist.ts` is a utility script to fetch fresh data from the YouTube API.
 - **Components:** UI components in `src/components/` (e.g., `EpisodeCard.astro`, `YouTubeEmbed.astro`).
 - **Testing:**
-  - **Unit Tests:** Vitest for logic in `src/lib/`.
+  - **Unit Tests:** Vitest for logic in `src/lib/` and `scripts/lib/`.
   - **E2E Tests:** Playwright for browser-based testing (`e2e/` folder).
 
 ## Development Workflow
@@ -63,7 +63,7 @@ To update the episode list from YouTube:
 - **TypeScript:** Strict typing is encouraged. Use interfaces for data models (e.g., `Episode` interface in `src/lib/episodes.ts`).
 - **Styling:** Use Tailwind CSS utility classes directly in markup. Configuration is handled via the `@tailwindcss/vite` plugin in `astro.config.mjs`.
 - **Testing:**
-  - Write unit tests for utility functions in `src/lib/` alongside the source file (e.g., `episodes.test.ts`).
+  - Write unit tests for utility functions in `src/lib/` or `scripts/lib/` alongside the source file (e.g., `episodes.test.ts`, `playlist-drift.test.ts`).
   - Write E2E tests in `e2e/` for page navigation and user flows.
 - **Routing:** Use Astro's file-based routing. Dynamic parameters are handled with square brackets (e.g., `[slug].astro`).
 
@@ -71,9 +71,9 @@ To update the episode list from YouTube:
 
 Everything the site shows — pages, RSS, sitemap — derives from one YouTube playlist
 (`PLTY2nW4jwtG8Sx2Bw6QShC271PzX31CtT`) via `scripts/fetch-playlist.ts`. A video published to
-the channel but never added to that playlist is invisible to the whole pipeline, and the site
-and feed look perfectly healthy while going stale. That happened once and went unnoticed for
-eleven days, which is why `scripts/check-playlist-drift.ts` exists (daily, opens a GitHub issue).
+the channel but never added to that playlist is invisible to the whole pipeline while the site
+and feed still look healthy. `scripts/check-playlist-drift.ts` (daily via
+`.github/workflows/playlist-drift.yml`) detects that gap and opens a GitHub issue.
 
 Two things worth knowing before touching that path:
 
