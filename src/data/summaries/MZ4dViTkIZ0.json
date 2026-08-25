@@ -1,0 +1,14 @@
+{
+  "videoId": "MZ4dViTkIZ0",
+  "generatedAt": "2026-08-26T00:00:00.000Z",
+  "brief": "Topik ini muncul dari kejadian nyata: sebuah situs yang baru dipasang ternyata selalu dialihkan ke sambungan terenkripsi, padahal tidak ada pengaturan apa pun yang menyuruhnya. Penyebabnya ternyata akhiran domain yang dipakai memang memaksakan itu di tingkat browser. Dari situ obrolannya melebar ke protokol yang menopang seluruh web, sekaligus keheranan bahwa hal sedasar ini jarang benar-benar diajarkan.\n\nSejarahnya ditelusuri dari versi paling awal yang luar biasa sederhana: hanya satu jenis permintaan, tidak ada header, tidak ada kode status, tidak ada penanganan galat. Server menjawab dengan dokumen, lalu sambungannya langsung ditutup. Saat itu belum ada browser sama sekali — permintaan dikirim lewat perkakas baris perintah serbaguna yang bisa berbicara dengan protokol apa pun, semacam nenek moyang perkakas pengujian API yang kita pakai sekarang.\n\nVersi berikutnya menambahkan hampir semua yang kita kenal hari ini: nomor versi, kode status, jenis isi yang diminta dan diberikan, pemadatan, pengaturan cache, sampai unggahan berkas. Yang menarik justru pengamatan di sela-selanya — bahwa membangun protokol seperti ini bukan soal menulis kode, melainkan menyusun spesifikasi dan mengambil keputusan lebih dulu, karena semua orang harus sepakat sebelum ada yang mengimplementasikan. Ada juga saran keamanan kecil tapi praktis: jangan bocorkan identitas perangkat lunak server di balasannya, atau sekalian isi dengan yang mengecoh. Ditutup dengan kenyataan bahwa banyak situs besar sudah berjalan di versi yang lebih baru tanpa kita sadari.",
+  "keyPoints": [
+    "Sebuah situs bisa selalu dialihkan ke sambungan terenkripsi tanpa pengaturan apa pun, karena akhiran domain tertentu memang memaksakannya di tingkat browser",
+    "Versi paling awal protokolnya luar biasa sederhana: satu jenis permintaan, tanpa header, tanpa kode status, tanpa penanganan galat, dan sambungan langsung ditutup setelah dijawab",
+    "Saat itu belum ada browser — permintaan dikirim lewat perkakas baris perintah serbaguna yang bisa berbicara dengan protokol apa pun",
+    "Browser lahir sebagai jenis perangkat lunak baru yang menerjemahkan balasan server menjadi tampilan yang bisa dibaca manusia",
+    "Versi berikutnya menambahkan hampir semua yang kita kenal: kode status, jenis isi, pemadatan, pengaturan cache, sampai unggahan berkas",
+    "Membangun protokol semacam ini bukan soal menulis kode melainkan menyusun spesifikasi dan mengambil keputusan lebih dulu, karena semua pihak harus sepakat sebelum ada yang mengimplementasikan",
+    "Saran keamanan kecil tapi praktis: jangan bocorkan identitas perangkat lunak server di balasan, atau sekalian isi dengan yang mengecoh"
+  ]
+}
