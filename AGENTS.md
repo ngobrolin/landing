@@ -83,14 +83,8 @@ for the reconstruction rule and why it is exact rather than fuzzy.
 
 ### Data Fetching
 
-To update the episode list from YouTube:
-
-1.  Obtain a **YouTube Data API Key**.
-2.  Run the fetch script:
-    ```bash
-    YOUTUBE_API_KEY=your_api_key_here npx tsx scripts/fetch-playlist.ts
-    ```
-    This updates `src/data/episodes.json`.
+See "Fetch YouTube Playlist Data" in `README.md` for how to run
+`scripts/fetch-playlist.ts` against the playlist.
 
 ## Coding Conventions
 
