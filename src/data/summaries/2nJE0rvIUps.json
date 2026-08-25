@@ -1,0 +1,14 @@
+{
+  "videoId": "2nJE0rvIUps",
+  "generatedAt": "2026-08-26T00:00:00.000Z",
+  "brief": "Episode ini menyusuri teknologi web yang sudah wafat, sekarat, atau sekadar tak lagi ramai — sebuah obituari yang dibawakan sambil bernostalgia. Bintang utamanya Flash, yang aslinya perkakas animasi berbasis timeline tapi banyak dipakai membangun situs karena antarmukanya mudah dan perilakunya konsisten di semua browser, saat manipulasi DOM masih menyakitkan dan browser belum seragam. Harganya: tidak ada aksesibilitas sama sekali, dan pengunjung harus menunggu seluruh isinya terunduh dulu — kebalikan dari filosofi web sekarang.\n\nAda benang merah yang menghubungkan hampir semua yang dibahas. Flash, ActiveX, Java Applet, Silverlight, dan Adobe Air sama-sama dibangun sendiri oleh masing-masing perusahaan, dan sama-sama berakhir. Justru dari kegagalan berpencar itulah standar web bersama menjadi jalan keluarnya. Menariknya, bahasa skrip di dalam Flash punya sintaks yang sangat mirip JavaScript dan ikut memengaruhi arah standarnya — jadi sesuatu darinya tetap hidup.\n\nSisanya berisi kenangan lain: perkakas penyunting drag and drop yang lalu ditinggalkan orang demi mengetik kode sendiri, meski sekarang perkakas serupa muncul lagi dalam wujud baru; pustaka pembungkus yang dulu satu-satunya cara mengakses kamera dan GPS dari kode web, kini tergantikan karena web sendiri sudah mampu; serta protokol pertukaran data berbasis XML yang menghilang begitu format yang lebih sederhana terasa lebih masuk akal. Ditutup dengan elemen HTML yang membuat teks berjalan — masih hidup sampai sekarang, bukti bahwa kompatibilitas mundur benar-benar dijaga.",
+  "keyPoints": [
+    "Flash aslinya perkakas animasi, tapi dipakai membangun situs karena perilakunya konsisten di semua browser saat manipulasi DOM masih menyakitkan dan browser belum seragam",
+    "Harganya mahal: situs berbasis Flash tidak punya aksesibilitas sama sekali, dan pengunjung harus menunggu seluruh isinya terunduh sebelum apa pun tampil",
+    "Flash, ActiveX, Java Applet, dan Adobe Air punya benang merah yang sama — dibangun sendiri oleh masing-masing perusahaan, dan semuanya berakhir; dari situlah standar web bersama jadi jalan keluar",
+    "Bahasa skrip di dalam Flash bersintaks sangat mirip JavaScript dan ikut memengaruhi arah standarnya, jadi sebagian darinya tetap hidup sampai sekarang",
+    "Perkakas penyunting drag and drop sempat ditinggalkan orang demi mengetik kode sendiri karena hasilnya berantakan — meski sekarang perkakas serupa muncul lagi dalam wujud baru",
+    "Pustaka pembungkus mobile dulu satu-satunya cara mengakses kamera dan GPS dari kode web; ia surut karena web sendiri akhirnya punya kemampuan itu",
+    "Elemen teks berjalan masih tetap jalan sampai sekarang meski jelas mengganggu — bukti bahwa browser benar-benar menjaga kompatibilitas mundur"
+  ]
+}

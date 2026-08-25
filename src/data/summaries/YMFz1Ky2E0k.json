@@ -1,0 +1,14 @@
+{
+  "videoId": "YMFz1Ky2E0k",
+  "generatedAt": "2026-08-26T00:00:00.000Z",
+  "brief": "Proyek Fugu adalah nama panggilan yang lebih catchy untuk web capabilities project — upaya menutup jarak antara apa yang bisa dilakukan aplikasi native dan apa yang bisa dilakukan web. Dulu web hanya bisa menampilkan dokumen, sementara perangkat punya kamera, sensor, Bluetooth, NFC, USB, dan akses berkas. Peran itu sempat diisi oleh pustaka pembungkus dari pihak ketiga yang menyediakan jembatannya sendiri; sekarang kemampuan itu digarap langsung di lapisan browsernya.\n\nNama ikan buntal Jepang itu dipilih bukan tanpa alasan: ikannya beracun dan bisa mematikan kalau disiapkan sembarangan, tapi konon lezat kalau disiapkan dengan hati-hati. Begitu pula API-nya. Yang membuatnya perlu ekstra hati-hati adalah betapa rendahnya ambang masuk web: sebuah aplikasi cukup dibuka lewat tautan, tanpa langkah sadar mengunduh dan memasang seperti aplikasi biasa. Maka akses berkas, papan klip, dan perangkat keras harus dijaga ketat agar tidak jadi jalan bagi penyalahgunaan.\n\nSetiap API melewati tahapan yang jelas dan bisa dilacak terbuka: dari sekadar usulan, ke percobaan yang harus diaktifkan sendiri oleh pengguna lewat flag, ke origin trial yang didaftarkan pemilik situs sehingga pengunjungnya tidak perlu melakukan apa-apa, sampai akhirnya stabil. Ada pula galeri contoh aplikasi nyata yang memakainya — berguna bukan hanya untuk belajar, tapi juga untuk meyakinkan tim bahwa hal seperti ini memang bisa dibangun di web. Kekhawatiran bahwa semua ini hanya jalan di satu keluarga browser diakui wajar, tapi karena bentuknya spesifikasi terbuka, adopsi oleh vendor lain sudah terjadi pada beberapa API.",
+  "keyPoints": [
+    "Fugu adalah nama panggilan dari web capabilities project: menutup jarak antara kemampuan aplikasi native dan web, mulai dari kamera, Bluetooth, NFC, USB, sampai akses berkas",
+    "Namanya diambil dari ikan buntal yang beracun kalau disiapkan sembarangan tapi lezat kalau hati-hati — persis seperti API yang powerful tapi rawan disalahgunakan",
+    "Ambang masuk web sangat rendah karena cukup dibuka lewat tautan, tanpa langkah sadar mengunduh dan memasang seperti aplikasi biasa — itulah alasan keamanannya harus lebih ketat",
+    "Tahapannya berjenjang dan terbuka: usulan, percobaan lewat flag yang harus diaktifkan pengguna sendiri, origin trial yang didaftarkan pemilik situs, lalu stabil",
+    "Origin trial berarti pemilik situs yang mendaftar dan pengunjungnya tidak perlu melakukan apa-apa, sedangkan flag berarti penggunanya sendiri yang harus mengaktifkan",
+    "Galeri contoh aplikasi nyata berguna bukan hanya untuk belajar tapi juga untuk meyakinkan tim bahwa hal seperti itu benar-benar bisa dibangun di web",
+    "Kekhawatiran bahwa semuanya hanya jalan di satu keluarga browser wajar, tapi karena bentuknya spesifikasi terbuka, beberapa API sudah diadopsi vendor lain"
+  ]
+}
