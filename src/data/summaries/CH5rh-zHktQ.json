@@ -1,0 +1,14 @@
+{
+  "videoId": "CH5rh-zHktQ",
+  "generatedAt": "2026-08-26T00:00:00.000Z",
+  "brief": "Episode ini membahas Intl, Web API untuk internationalization yang membuat pemformatan tanggal, angka, dan mata uang sesuai kebiasaan tiap negara jadi urusan satu baris kode. Masalah yang diselesaikannya nyata: desimal di Indonesia memakai koma sementara di Amerika memakai titik, urutan tanggal berbeda-beda, dan bentuk jamak berbeda di tiap bahasa. Dulu semua itu dikerjakan dengan membuat array nama bulan sendiri untuk tiap bahasa, atau mengganti titik dan koma secara manual — pendekatan yang berbahaya ketika menyangkut uang.\n\nIntl juga sudah punya RelativeTimeFormat untuk menampilkan \"satu hari yang lalu\", kebutuhan yang hampir selalu muncul di produk yang menghadap pengguna dan dulu menjadi alasan memasang moment.js yang berukuran ratusan kilobyte.\n\nBagian terbaiknya adalah diskusi tentang kapan memakai library. Urutannya: pakai Web API yang sudah ada dulu, baru cari library sekecil mungkin kalau memang belum ada. Pertimbangan lain yang jarang dibicarakan adalah biaya perawatan — library pihak ketiga bisa punya celah keamanan, bisa berhenti dirawat, dan kalau kita tidak paham kodenya kita tidak bisa mem-fork dan menyesuaikannya saat darurat. Ada juga temuan menarik dari benchmark: library pihak ketiga ternyata bisa lebih cepat daripada Web API, tetapi itu tidak sebanding dengan biaya mengunduh ratusan kilobyte lebih dulu.",
+  "keyPoints": [
+    "Intl menangani perbedaan format desimal, urutan tanggal, nama bulan, dan mata uang tanpa perlu memasang library — cukup panggil langsung karena sudah ada di browser",
+    "Argumen locale bisa berupa array sebagai fallback berjenjang: kalau bahasa daerah tidak didukung browser, ia jatuh ke bahasa yang lebih umum",
+    "Jangan pernah mengganti titik dan koma secara manual untuk memformat uang — satu kesalahan koma bisa mengubah nominal seribu kali lipat",
+    "Urutan memilih tooling: pakai Web API yang sudah ada dulu, baru cari library sekecil mungkin — dan kalau yang dibutuhkan hanya satu fungsi kecil, membuka kodenya dan menyalin bagian itu dengan kredit sering lebih masuk akal daripada memasang seluruh library",
+    "Biaya library pihak ketiga bukan hanya ukurannya tetapi perawatannya: bisa muncul celah keamanan, bisa berhenti dirawat, dan kalau kita tidak paham kodenya kita tidak bisa mem-fork saat darurat",
+    "Benchmark menunjukkan library pihak ketiga bisa lebih cepat daripada Web API karena mereka bebas mengambil trade-off yang tidak boleh diambil browser — tetapi kecepatan itu tidak sebanding dengan biaya mengunduhnya lebih dulu",
+    "Uji ketahanan dengan memblokir request di DevTools: kalau CDN atau script analytics diblokir ad blocker, pastikan aplikasi tidak ikut rusak"
+  ]
+}

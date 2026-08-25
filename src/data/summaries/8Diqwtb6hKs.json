@@ -1,0 +1,14 @@
+{
+  "videoId": "8Diqwtb6hKs",
+  "generatedAt": "2026-08-26T00:00:00.000Z",
+  "brief": "Episode ini membahas Vite dan ViteConf yang baru saja digelar. Dimulai dari pertanyaan mendasar: kenapa kita butuh bundler? Karena kode yang kita tulis belum tentu bisa langsung dijalankan browser — ada sintaks TypeScript, fitur ECMAScript yang belum didukung, import dan export, tree shaking, minifikasi, sampai SASS yang harus di-transpile jadi CSS. Bundler adalah alat yang membaca semua itu dan mengolahnya menjadi bentuk yang bisa dijalankan.\n\nYang membuat Vite berbeda adalah momen kemunculannya: ES module akhirnya didukung browser, sehingga sebagian pekerjaan yang dulu harus dikerjakan bundler kini bisa diserahkan ke browser. Di mode development Vite bahkan tidak melakukan bundling sama sekali — modulnya dijalankan langsung, dan itulah kenapa hot module reload-nya terasa instan. Untuk produksi ceritanya berbeda: Vite memakai Rollup untuk bundling dan esbuild untuk transpile serta tree shaking, karena prioritas development dan produksi memang berbeda.\n\nAda juga cerita Snowpack yang sempat diumumkan akan dipakai SvelteKit lalu batal, dan timnya justru kini mengerjakan Astro yang memakai Vite. Dibahas juga Vitest sebagai alternatif Jest yang lebih kompatibel dengan ES module, dan pengumuman WebContainers dari StackBlitz — sistem operasi berbasis WebAssembly yang berjalan di dalam browser, dibangun dengan bekerja erat bersama tim standar web. Ditutup dengan menjawab pertanyaan penonton: kode JavaScript di sisi klien tidak bisa benar-benar diamankan, dan CDN masih masuk akal selama dependensinya sedikit.",
+  "keyPoints": [
+    "Vite tidak melakukan bundling sama sekali di mode development — modulnya dijalankan langsung, dan itulah sumber hot module reload yang terasa instan",
+    "Di produksi Vite memakai Rollup untuk bundling dan esbuild untuk transpile serta tree shaking, karena prioritas development (feedback cepat) berbeda dari prioritas produksi",
+    "Yang memungkinkan generasi bundler baru adalah dukungan ES module di browser — sebagian pekerjaan yang dulu wajib dikerjakan bundler kini bisa diserahkan ke browser",
+    "Kode JavaScript di sisi klien tidak bisa benar-benar diamankan; minifikasi hanyalah security through obscurity, jadi jangan pernah menaruh API key di dalam bundle",
+    "CDN masih masuk akal untuk satu atau dua dependensi, tetapi begitu ada lima sampai sepuluh library yang saling bergantung, satu request yang gagal membuat seluruh aplikasi rusak — dan tidak ada tree shaking",
+    "WebContainers dari StackBlitz menjalankan sistem operasi berbasis WebAssembly di dalam browser, dibangun dengan bekerja erat bersama tim standar web agar bisa lintas engine",
+    "Bundler bekerja diam-diam sehingga jarang dipikirkan, padahal di dalamnya ada keputusan arsitektur yang serius seperti strategi hashing untuk mendeteksi file mana yang harus diproses ulang saat satu file berubah"
+  ]
+}

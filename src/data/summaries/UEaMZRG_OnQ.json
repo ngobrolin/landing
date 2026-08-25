@@ -1,0 +1,14 @@
+{
+  "videoId": "UEaMZRG_OnQ",
+  "generatedAt": "2026-08-26T00:00:00.000Z",
+  "brief": "Episode ini membedah Web Almanac 2022, laporan tahunan tentang keadaan web yang datanya berasal dari HTTP Archive. Yang membedakannya dari survei seperti State of JS adalah metodenya: ini field report, bukan kuesioner. Datanya berasal dari URL yang benar-benar diakses pengguna Chrome lewat Chrome UX Report, lalu tiap bulan URL-urL itu diuji dengan sejumlah tools dan disimpan di BigQuery yang bisa dikueri siapa saja.\n\nTemuan dari sisi JavaScript: jumlah JavaScript yang dimuat justru naik dibanding tahun sebelumnya, webpack masih memimpin sebagai bundler, dan jQuery masih jauh di atas React — sebagian besar karena WordPress yang dipakai sekitar 35% situs. Sisi lain dari popularitas jQuery adalah ia jadi penyumbang celah keamanan terbesar. Yang cukup memprihatinkan, 77% halaman mobile masih memuat script yang render blocking, padahal atribut async sudah lama tersedia.\n\nAdopsi PWA naik stabil sejak 2019, dan datanya menunjukkan jenis situs yang paling banyak memakainya adalah shopping dan news. Ada temuan praktis soal ikon: meski variasi ukurannya membingungkan, hanya dua ukuran yang benar-benar dominan. Ditutup dengan pembahasan kenapa laporan seperti ini berguna — bukan sekadar tahu tren, tetapi punya data untuk mendukung keputusan teknis di hadapan pemegang keputusan, dan tahu di mana posisi kita dibanding rata-rata.",
+  "keyPoints": [
+    "Web Almanac adalah field report, bukan survei — datanya dari URL yang benar-benar diakses pengguna Chrome, sehingga bebas dari bias lingkaran pertemanan pembuat survei",
+    "Datanya terbuka di BigQuery dan bisa dikueri siapa saja untuk analisis sendiri, misalnya melihat pertumbuhan teknologi tertentu di situs yang diakses dari Indonesia — gratis sampai satu terabyte sebulan",
+    "jQuery masih jauh di atas React, sebagian besar karena WordPress yang dipakai sekitar 35% situs — dan popularitas itu pula yang membuatnya jadi penyumbang celah keamanan terbesar",
+    "77% halaman mobile masih memuat script yang render blocking padahal atribut async sudah lama tersedia — salah satu celah perbaikan terbesar yang datanya jelas",
+    "Adopsi PWA naik stabil sejak 2019, bukan tren sesaat, dan paling banyak dipakai situs shopping serta news",
+    "Untuk web manifest, meski variasi ukuran ikon membingungkan, hanya dua ukuran yang benar-benar dominan — sisanya hanya perlu kalau memang menyasar browser lama",
+    "Angkanya perlu dibaca dengan hati-hati: metriknya diukur dengan lab tools dalam kondisi cache kosong dan tidak login, dan framework tanpa runtime seperti Svelte sulit terdeteksi karena jejaknya hilang setelah di-build"
+  ]
+}
