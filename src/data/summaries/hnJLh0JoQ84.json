@@ -1,0 +1,14 @@
+{
+  "videoId": "hnJLh0JoQ84",
+  "generatedAt": "2026-08-26T00:00:00.000Z",
+  "brief": "Episode ini menghadirkan seorang developer asal Jakarta yang kini bekerja di sebuah bank di Belanda, dan obrolannya berjalan santai — mulai dari pola kerja hibrida di sana yang bahkan diatur per sektor supaya kereta tidak terlalu penuh, sampai cerita soal sepeda yang dipreteli bagian demi bagian meski sudah dikunci di dua titik.\n\nBagian teknisnya soal pengalaman memakai Flutter sejak versinya masih beta pada 2018, untuk sebuah aplikasi loyalitas berskala besar yang selesai dalam tiga sampai empat bulan dan langsung terbit di dua platform sekaligus. Datang dari latar pengembangan Android asli, yang paling ia sukai adalah menyusutnya jumlah berkas yang harus diurus: dulu satu fitur berarti berkas tampilan terpisah, berkas logika terpisah, dan berkas animasi terpisah lagi; kini semuanya berada di satu tempat.\n\nKelemahannya juga disebut jujur. Sebagai teknologi yang masih mencari bentuk, banyak hal yang belum diputuskan — terutama soal pengelolaan state dan arsitektur, di mana tim pembuatnya sengaja tidak menetapkan satu cara yang direkomendasikan. Bagi pendatang baru itu membingungkan, dan diakui setara dengan orang yang belajar web tapi langsung masuk ke sebuah pustaka antarmuka tanpa panduan pola. Bagian penutupnya soal konferensi di Berlin: pusat pengembangan ekosistemnya ternyata banyak berada di Eropa, sehingga bisa berbincang langsung dengan orang-orang yang pustakanya selama ini hanya kita pakai. Ada pula pengamatan bahwa penyelenggara di sana memperlakukan konferensi sebagai bisnis sungguhan, berbeda dari kebiasaan di Indonesia yang lebih sebagai wadah berbagi.",
+  "keyPoints": [
+    "Sebuah aplikasi loyalitas berskala besar diselesaikan dalam tiga sampai empat bulan dan langsung terbit di dua platform sekaligus, memakai Flutter yang saat itu masih versi beta",
+    "Datang dari pengembangan Android asli, yang paling terasa adalah menyusutnya berkas yang harus diurus — dulu satu fitur berarti berkas tampilan, logika, dan animasi terpisah-pisah",
+    "Kelemahannya jujur diakui: sebagai teknologi yang masih mencari bentuk, banyak hal belum diputuskan, terutama pengelolaan state dan arsitektur",
+    "Tim pembuatnya sengaja tidak menetapkan satu cara yang direkomendasikan — membingungkan bagi pendatang baru, dan setara dengan belajar web langsung lewat pustaka antarmuka tanpa panduan pola",
+    "Pusat pengembangan ekosistemnya banyak berada di Eropa, sehingga hadir di konferensi sana berarti bisa berbincang langsung dengan orang-orang yang pustakanya selama ini hanya kita pakai",
+    "Konferensi Flutter dan Android di sana berdampingan, bukan bersaing — ruangan sesinya bahkan bersebelahan dan pembicaranya saling mengobrol",
+    "Penyelenggara di sana memperlakukan konferensi sebagai bisnis sungguhan dengan tiket yang mahal, berbeda dari kebiasaan di Indonesia yang lebih sebagai wadah berbagi"
+  ]
+}
