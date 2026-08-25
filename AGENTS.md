@@ -83,14 +83,8 @@ for the reconstruction rule and why it is exact rather than fuzzy.
 
 ### Data Fetching
 
-To update the episode list from YouTube:
-
-1.  Obtain a **YouTube Data API Key**.
-2.  Run the fetch script:
-    ```bash
-    YOUTUBE_API_KEY=your_api_key_here npx tsx scripts/fetch-playlist.ts
-    ```
-    This updates `src/data/episodes.json`.
+See "Fetch YouTube Playlist Data" in `README.md` for how to run
+`scripts/fetch-playlist.ts` against the playlist.
 
 ## Coding Conventions
 
@@ -117,6 +111,12 @@ Two things worth knowing before touching that path:
   belongs in `EPISODE_TITLE_PATTERN` (`scripts/lib/playlist-drift.ts`) and nowhere else.
 - `YOUTUBE_API_KEY` is read-only for playlists. Adding a video needs OAuth the repo does not
   have, so tooling can detect drift but never fix it — that stays a human action in YouTube.
+- A playlist item's `publishedAt` is when the video joined the *playlist*, not when it aired,
+  and one video can sit in the playlist twice. Both have shipped as bugs (a back-added episode
+  dated today and floated to the top of both feeds; one video emitted as two pages on the same
+  slug). `scripts/lib/playlist-episodes.ts` owns both rules — air date from the video's own
+  snippet, one episode per `videoId` — and is unit-tested without the network, because
+  `YOUTUBE_API_KEY` is a GitHub Actions secret and `fetch-playlist.ts` cannot run locally.
 
 ## Learnings & Best Practices
 

@@ -33,7 +33,7 @@ To fetch all episodes from the YouTube playlist:
 # https://console.cloud.google.com/apis/library/youtube.googleapis.com
 
 # Run the fetch script
-YOUTUBE_API_KEY=your_api_key npx tsx scripts/fetch-playlist.ts
+YOUTUBE_API_KEY=your_api_key pnpm exec tsx scripts/fetch-playlist.ts
 ```
 
 This will update `src/data/episodes.json` with all playlist videos.
