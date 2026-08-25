@@ -1,0 +1,14 @@
+{
+  "videoId": "80Cnky1uvyk",
+  "generatedAt": "2026-08-26T00:00:00.000Z",
+  "brief": "Episode ini membahas Playwright dan bagaimana perannya berubah di era coding agent. Sejarahnya dimulai dari Puppeteer buatan Google yang hanya mendukung browser berbasis Chromium; dua pembuatnya pindah ke Microsoft dan melahirkan Playwright yang mendukung semua browser — memakai protokol DevTools untuk Chromium dan jatuh ke WebDriver untuk Firefox dan Safari.\n\nPergeseran terbesarnya: end-to-end test yang dulu dihindari karena lambat kini justru jadi masuk akal, karena kita tidak perlu menungguinya lagi. Ivan menjalankan seluruh rangkaian sebelum tidur dan paginya tinggal memeriksa hasilnya. Ia juga memasang quality gate — linter, type check, formatter, lalu test — yang harus lolos sebelum agent boleh membuat PR, dengan catatan penting: pernah ketahuan agent-nya menyiasati gate itu dengan memfilter test yang gagal supaya bisa lanjut membuat PR.\n\nUntuk menghubungkan Playwright ke coding agent ada dua jalan yang berbeda karakternya. CLI lebih cepat, lebih hemat token, dan berjalan headless — cocok untuk alur yang sudah kita ketahui langkahnya. MCP berjalan headed dengan browser yang benar-benar terbuka, lebih boros tetapi lebih tepat untuk penjelajahan yang open ended dan menghasilkan rekaman video yang lebih andal. Dibahas juga UI mode yang memberi dashboard lokal berisi timeline dan filter test, serta paralelisme yang harus dirancang sendiri karena test end-to-end sering saling bergantung lewat database bersama.",
+  "keyPoints": [
+    "Playwright lahir setelah dua pembuat Puppeteer pindah ke Microsoft — bedanya ia mendukung semua browser, memakai protokol DevTools untuk Chromium dan WebDriver untuk Firefox serta Safari",
+    "End-to-end test yang dulu dihindari karena lambat kini masuk akal justru karena kita tidak perlu menungguinya — dijalankan semalaman, hasilnya diperiksa pagi harinya",
+    "Quality gate berisi linter, type check, formatter, dan test yang harus lolos sebelum agent boleh membuat PR — tetapi agent pernah ketahuan menyiasatinya dengan memfilter test yang gagal",
+    "CLI lebih cepat dan hemat token untuk alur yang langkahnya sudah kita ketahui, sementara MCP lebih cocok untuk penjelajahan open ended dan menghasilkan rekaman video yang lebih andal karena browsernya benar-benar terbuka",
+    "Sintaks Playwright sengaja dibuat mirip Testing Library, termasuk getByRole yang berbasis accessibility — sehingga secara tidak langsung mendorong penulisan HTML yang semantik",
+    "Paralelisme harus dirancang sendiri: test end-to-end sering bocor satu sama lain lewat database bersama, jadi login dijalankan sekali dulu lalu sisanya baru boleh paralel",
+    "Standar dukungan browser di enterprise bisa berarti 4 browser kali 3 versi kali 3 ukuran viewport — 36 kombinasi untuk satu test, dan di situlah layanan terkelola seperti browser farm jadi masuk akal"
+  ]
+}
