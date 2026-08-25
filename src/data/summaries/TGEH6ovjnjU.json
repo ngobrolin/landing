@@ -1,0 +1,14 @@
+{
+  "videoId": "TGEH6ovjnjU",
+  "generatedAt": "2026-08-26T00:00:00.000Z",
+  "brief": "Episode ini menyeberang ke dunia Android bersama tiga Google Developer Expert di bidang itu: Andrew, Budi, dan Sidik. Pembukanya cerita masing-masing tentang bagaimana mereka menjadi GDE — prosesnya bukan mengirim lamaran, melainkan direkomendasikan lalu melewati beberapa kali wawancara: dengan sesama GDE yang menggali sisi komunitas, dan dengan Googler yang justru menanyakan hal teknis serta masukan terhadap produk yang dipakai.\n\nPertanyaan utamanya soal masa depan Java. Jawabannya: Java masih akan bertahan lama karena bahasanya matang dan penggunanya luas, dan di banyak proyek ia hidup berdampingan dengan Kotlin dalam satu codebase. Kotlin hadir bukan untuk menggantikan melainkan mengobati keluhan utama Java — terutama null pointer yang dulu ditangani dengan berbagai pre-condition. Dibahas juga sisi politiknya: perselisihan Oracle membuat lahir banyak varian OpenJDK dari berbagai pihak.\n\nBagian tentang Jetpack Compose menarik karena mengakui asal-usulnya: developer mobile beralih dari imperatif ke deklaratif setelah melihat cara kerja web, dan XML di Android sendiri dulu dipilih justru agar terasa akrab bagi developer web yang sudah terbiasa dengan HTML. Compose membuat hal yang dulu rumit jadi sederhana — membuat list tidak lagi butuh RecyclerView beserta adapter dan view holder-nya. Ditutup dengan Kotlin Multiplatform yang membagi business logic bersama tetapi membiarkan lapisan tampilan tetap native, plus pesan soal menjadi agnostik: pelajari lebih dari satu platform supaya kita sendiri yang jadi multiplatform.",
+  "keyPoints": [
+    "Menjadi GDE bukan lewat lamaran melainkan rekomendasi, lalu beberapa wawancara: sesama GDE menggali sisi komunitas, sementara Googler menanyakan hal teknis dan masukan terhadap produknya",
+    "Java dan Kotlin bisa hidup berdampingan dalam satu codebase, dan itulah yang terjadi di banyak proyek nyata — Kotlin hadir untuk mengobati keluhan utama Java seperti null pointer, bukan menggantikannya",
+    "Perselisihan dengan Oracle melahirkan banyak varian OpenJDK dari berbagai pihak yang ingin mengembalikan Java ke jalur open source",
+    "Jetpack Compose membuat hal yang dulu rumit jadi sederhana: membuat list tidak lagi butuh RecyclerView beserta adapter dan view holder, cukup lazy column",
+    "XML di Android dulu dipilih justru agar terasa akrab bagi developer web yang sudah terbiasa HTML — dan kini developer mobile beralih ke deklaratif setelah melihat cara kerja web",
+    "Kotlin Multiplatform membagi business logic bersama tetapi membiarkan lapisan tampilan tetap native, sehingga akses ke API platform masing-masing tidak perlu lewat bridge",
+    "Menjadi agnostik itu menguntungkan: kita tahu kelemahan tiap tools dan bisa memilih sesuai kebutuhan — jadikan diri sendiri yang multiplatform, dengan bentuk keahlian seperti huruf T"
+  ]
+}
