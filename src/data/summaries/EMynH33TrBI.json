@@ -1,0 +1,14 @@
+{
+  "videoId": "EMynH33TrBI",
+  "generatedAt": "2026-08-26T00:00:00.000Z",
+  "brief": "Episode ini bagian dari niat baru mereka: menyelipkan topik yang benar-benar mendasar setidaknya sebulan sekali, alih-alih terus mengejar yang sedang ramai. Alasannya sederhana — framework datang dan pergi, sementara yang mendasar bertahan; alamat web yang bentuknya kita pakai hari ini sudah ada sejak awal 90-an.\n\nAlamat itu dibedah bagian per bagian: skema di depan, informasi pengguna yang jarang dipakai, host yang sendirinya terdiri dari subdomain, nama domain, dan akhiran; lalu port yang biasanya tersembunyi karena sudah ada nilai bawaannya, jalur, parameter kueri, dan potongan penanda di paling belakang. Yang terakhir itu ternyata punya kemampuan bawaan yang sering dilupakan: menautkan ke sebuah penanda yang cocok dengan id sebuah elemen akan membuat browser menggulir ke sana dengan sendirinya, tanpa pustaka tambahan apa pun.\n\nAlasan kenapa ini perlu dipahami juga dijelaskan dengan membumi: tanpa tahu nama-nama bagiannya, kita tidak bisa bertanya dengan jelas ketika minta bantuan, dan tidak bisa membaca artikel teknis dengan tepat. Bagian penutupnya meluruskan istilah yang sering tertukar — yang paling luas adalah pengenal sumber daya secara umum, dan alamat web hanyalah salah satu jenisnya, yaitu yang menunjuk berdasarkan lokasi. Ada saudaranya yang menunjuk berdasarkan nama, dan itu lazim dijumpai pada berkas konfigurasi untuk masuk sekali ke banyak layanan. Disebut juga bahwa panjang maksimum sebuah alamat berbeda-beda antar browser — peringatan yang relevan saat orang tergoda menyelipkan token panjang ke dalamnya.",
+  "keyPoints": [
+    "Topik mendasar sengaja diselipkan rutin karena framework datang dan pergi sementara yang mendasar bertahan — bentuk alamat web hari ini sudah ada sejak awal 90-an",
+    "Sebuah alamat terdiri dari skema, informasi pengguna, host, port, jalur, parameter kueri, dan potongan penanda — masing-masing punya pemisah dan aturannya sendiri",
+    "Menautkan ke penanda yang cocok dengan id sebuah elemen membuat browser menggulir ke sana dengan sendirinya, tanpa pustaka tambahan apa pun",
+    "Memahami nama tiap bagiannya penting untuk hal yang membumi: tanpa itu kita tidak bisa bertanya dengan jelas saat minta bantuan atau membaca artikel teknis dengan tepat",
+    "Segala sesuatu setelah tanda tanya bukan lagi bagian jalur, sehingga garis miring di dalam parameter kueri tidak dianggap sebagai jalur",
+    "Panjang maksimum sebuah alamat berbeda-beda antar browser dan sangat timpang — jadi berhati-hatilah menyelipkan token panjang ke dalamnya",
+    "Istilah yang sering tertukar diluruskan: yang paling luas adalah pengenal sumber daya, dan alamat web hanya salah satu jenisnya — yang menunjuk berdasarkan lokasi, bukan berdasarkan nama"
+  ]
+}
