@@ -2,11 +2,19 @@
  * Fetch YouTube playlist data and save to episodes.json
  * 
  * Usage: 
- *   YOUTUBE_API_KEY=your_api_key npx tsx scripts/fetch-playlist.ts
+ *   YOUTUBE_API_KEY=your_api_key pnpm exec tsx scripts/fetch-playlist.ts
  * 
  * Or set the API key in .env file:
  *   YOUTUBE_API_KEY=your_api_key
  */
+
+import {
+  buildEpisodes,
+  isUnavailableVideo,
+  type Episode as BuiltEpisode,
+  type PlaylistEntry,
+  type VideoDetail,
+} from './lib/playlist-episodes';
 
 const PLAYLIST_ID = 'PLTY2nW4jwtG8Sx2Bw6QShC271PzX31CtT';
 const API_KEY = process.env.YOUTUBE_API_KEY;
@@ -29,24 +37,18 @@ interface PlaylistItem {
   };
 }
 
-interface Episode {
-  videoId: string;
-  title: string;
-  description: string;
-  publishedAt: string;
-  thumbnail: string;
-  position: number;
-  duration?: string;  // ADD THIS
-}
-
-interface VideoDetails {
-  videoId: string;
-  duration: string;  // ISO 8601 format from YouTube: PT4M13S
-}
+type Episode = BuiltEpisode & {
+  audioUrl?: string;
+  audioDuration?: number;
+  audioFileSize?: number;
+};
 
 interface VideosApiResponse {
   items: Array<{
     id: string;
+    snippet: {
+      publishedAt: string;
+    };
     contentDetails: {
       duration: string;
     };
@@ -54,17 +56,20 @@ interface VideosApiResponse {
 }
 
 /**
- * Fetch video details (duration) from YouTube Videos API
- * Batch requests up to 50 video IDs per call
+ * Fetch video details from the YouTube Videos API, batched 50 ids per call.
+ *
+ * `snippet` rides along on the request that already fetches `contentDetails`,
+ * so the video's own publish date — the air date — costs no extra quota. See
+ * `scripts/lib/playlist-episodes.ts` for why the playlist item's date will not do.
  */
-async function fetchVideoDetails(videoIds: string[]): Promise<Record<string, VideoDetails>> {
-  const result: Record<string, VideoDetails> = {};
+async function fetchVideoDetails(videoIds: string[]): Promise<Record<string, VideoDetail>> {
+  const result: Record<string, VideoDetail> = {};
   const batchSize = 50;
 
   for (let i = 0; i < videoIds.length; i += batchSize) {
     const batch = videoIds.slice(i, i + batchSize);
     const params = new URLSearchParams({
-      part: 'contentDetails',
+      part: 'snippet,contentDetails',
       id: batch.join(','),
       key: API_KEY!,
     });
@@ -81,6 +86,7 @@ async function fetchVideoDetails(videoIds: string[]): Promise<Record<string, Vid
       result[item.id] = {
         videoId: item.id,
         duration: item.contentDetails.duration,
+        publishedAt: item.snippet.publishedAt,
       };
     }
   }
@@ -109,22 +115,22 @@ async function fetchPlaylistItems(pageToken?: string): Promise<{ items: Playlist
   return response.json();
 }
 
-async function fetchAllPlaylistItems(): Promise<Episode[]> {
-  const episodes: Episode[] = [];
+async function fetchAllPlaylistEntries(): Promise<PlaylistEntry[]> {
+  const entries: PlaylistEntry[] = [];
   let pageToken: string | undefined;
 
   do {
     const data = await fetchPlaylistItems(pageToken);
-    
+
     for (const item of data.items) {
       const { snippet } = item;
-      
+
       // Skip private/deleted videos
-      if (snippet.title === 'Private video' || snippet.title === 'Deleted video') {
+      if (isUnavailableVideo(snippet.title)) {
         continue;
       }
 
-      episodes.push({
+      entries.push({
         videoId: snippet.resourceId.videoId,
         title: snippet.title,
         description: snippet.description.slice(0, 500),
@@ -137,32 +143,36 @@ async function fetchAllPlaylistItems(): Promise<Episode[]> {
     pageToken = data.nextPageToken;
   } while (pageToken);
 
-  return episodes;
+  return entries;
 }
 
 async function main() {
   if (!API_KEY) {
     console.error('Error: YOUTUBE_API_KEY environment variable is required');
     console.log('\nUsage:');
-    console.log('  YOUTUBE_API_KEY=your_api_key npx tsx scripts/fetch-playlist.ts');
+    console.log('  YOUTUBE_API_KEY=your_api_key pnpm exec tsx scripts/fetch-playlist.ts');
     process.exit(1);
   }
 
   console.log('Fetching playlist items from YouTube...');
 
   try {
-    const episodes = await fetchAllPlaylistItems();
+    const entries = await fetchAllPlaylistEntries();
 
-    // Fetch video details (duration)
-    console.log('Fetching video details for duration...');
-    const videoIds = episodes.map(e => e.videoId);
+    // Fetch video details (duration + the real air date)
+    console.log('Fetching video details for duration and publish date...');
+    const videoIds = [...new Set(entries.map(e => e.videoId))];
     const videoDetails = await fetchVideoDetails(videoIds);
 
-    // Merge duration into episodes
-    const episodesWithDuration = episodes.map(ep => ({
-      ...ep,
-      duration: videoDetails[ep.videoId]?.duration,
-    }));
+    const { episodes: episodesWithDuration, duplicates, missingDetails } = buildEpisodes(entries, videoDetails);
+
+    for (const dup of duplicates) {
+      console.warn(`⚠ ${dup.videoId} appears more than once in the playlist (positions ${dup.keptPosition} and ${dup.droppedPosition}); dropping ${dup.droppedPosition}.`);
+    }
+
+    for (const videoId of missingDetails) {
+      console.warn(`⚠ No video detail for ${videoId}; falling back to the playlist item's date, which is when it was added to the playlist, not when it aired.`);
+    }
 
     const outputPath = new URL('../src/data/episodes.json', import.meta.url);
     const fs = await import('fs');
@@ -170,7 +180,7 @@ async function main() {
     // Check for new episodes and preserve existing metadata (like audioUrl)
     let existingEpisodes: Episode[] = [];
     try {
-      existingEpisodes = JSON.parse(fs.readFileSync(outputPath, 'utf-8')) as (Episode & { audioUrl?: string; audioDuration?: number; audioFileSize?: number })[];
+      existingEpisodes = JSON.parse(fs.readFileSync(outputPath, 'utf-8')) as Episode[];
     } catch {
       // No existing file
     }
@@ -184,9 +194,9 @@ async function main() {
       if (existing) {
         return {
           ...newEp,
-          audioUrl: (existing as any).audioUrl,
-          audioDuration: (existing as any).audioDuration,
-          audioFileSize: (existing as any).audioFileSize,
+          audioUrl: existing.audioUrl,
+          audioDuration: existing.audioDuration,
+          audioFileSize: existing.audioFileSize,
         };
       }
       return newEp;
@@ -205,7 +215,7 @@ async function main() {
     if (newEpisodes.length > 0) {
       console.log(`\n📌 Found ${newEpisodes.length} new episode(s), extracting tags...`);
       const { execSync } = await import('child_process');
-      execSync('npx tsx scripts/extract-tags.ts', {
+      execSync('pnpm exec tsx scripts/extract-tags.ts', {
         stdio: 'inherit',
         cwd: new URL('..', import.meta.url).pathname
       });
