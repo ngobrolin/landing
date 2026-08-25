@@ -1,0 +1,14 @@
+{
+  "videoId": "2dqsz5Y4Mlk",
+  "generatedAt": "2026-08-26T00:00:00.000Z",
+  "brief": "Sebelum masuk topik, mereka sempat berbagi soal kenapa acara ini terasa berbeda dari podcast yang pernah mereka buat: tidak ada beban mencari narasumber dan menyiapkan pertanyaan tiap minggu, dan justru menjadi alasan yang sah untuk mengulik hal-hal yang di pekerjaan sehari-hari tidak mungkin disentuh. Kuncinya, kata mereka, harus ada teman — dan temannya pun harus sama-sama berkomitmen.\n\nTopik malam itu analisis kode statis, atau yang lazim disebut linter. Definisinya sederhana: memeriksa kode tanpa menjalankannya. Nilainya justru di situ — pada bahasa yang tipenya longgar, kesalahan seperti salah ketik baru ketahuan ketika program sudah berjalan, dan itu berarti penggunanya yang melihatnya lebih dulu. Linter menangkapnya sedini mungkin, entah lewat garis merah di editor atau lewat pemeriksaan otomatis sebelum kode digabungkan.\n\nPenempatannya dalam gambaran besar juga dijelaskan: ia adalah lapisan paling dasar dari upaya menjaga kualitas, di bawah pengujian unit dan jauh di bawah pengujian menyeluruh. Yang menarik, tinjauan kode oleh manusia pun sebenarnya sejenis pemeriksaan statis — kode dibaca tanpa dijalankan — maka masuk akal kalau pemeriksaan otomatisnya diselesaikan lebih dulu sebelum merepotkan mata manusia. Ada pula pengamatan bahwa bahasa yang lebih muda biasanya sudah menyertakan perkakas semacam ini sejak awal, sementara JavaScript harus menunggu komunitasnya yang membuatnya sendiri — karena bahasanya memang tidak dirancang untuk aplikasi sebesar sekarang.",
+  "keyPoints": [
+    "Format obrolan mingguan bertahan justru karena tidak membebani: tidak perlu mencari narasumber atau menyiapkan pertanyaan, dan jadi alasan sah untuk mengulik hal di luar pekerjaan",
+    "Kuncinya konsistensi adalah punya teman yang sama-sama berkomitmen — sendirian, alasan untuk berhenti selalu ada",
+    "Analisis kode statis memeriksa kode tanpa menjalankannya, sehingga salah ketik tertangkap sebelum penggunanya yang lebih dulu melihatnya",
+    "Ia adalah lapisan paling dasar dari penjagaan kualitas, di bawah pengujian unit dan jauh di bawah pengujian menyeluruh",
+    "Tinjauan kode oleh manusia sebenarnya sejenis pemeriksaan statis juga — maka masuk akal menyelesaikan pemeriksaan otomatisnya lebih dulu sebelum merepotkan mata manusia",
+    "Bahasa yang lebih muda biasanya menyertakan pemformat dan pemeriksa sejak awal, sementara JavaScript harus menunggu komunitasnya membuat sendiri",
+    "Aturan yang terasa merepotkan biasanya warisan pengaturan awal proyek, saat orang masih idealis sebelum dikejar tenggat"
+  ]
+}
