@@ -1,0 +1,14 @@
+{
+  "videoId": "WC230bL6YnY",
+  "generatedAt": "2026-08-26T00:00:00.000Z",
+  "brief": "Salah satu permintaan topik paling awal akhirnya dibahas: kumpulan singkatan yang membingungkan seputar cara halaman web dirender. SSR dan SSG kebetulan sama-sama diawali dua huruf S, padahal maknanya berbeda sepenuhnya — dan pesannya adalah jangan terjebak menghafal singkatan, melainkan pahami urutan sejarahnya, karena definisinya sering tumpang tindih dan satu situs bisa memakai beberapa cara sekaligus.\n\nCeritanya dimulai dari halaman web yang benar-benar berupa berkas statis: setiap dokumen diketik manual, dan menambah satu artikel berarti menyunting navigasi di semua halaman satu per satu. Dari kerepotan itu lahir server-side scripting — mula-mula Perl lewat CGI, lalu PHP yang merajai karena kemudahannya — di mana halaman dirakit di server dari basis data setiap kali diminta. Lalu perangkat pengguna makin kuat dan muncul gagasan menyerahkan perakitan itu ke browser; yang dikirim cukup datanya saja. Gmail disebut sebagai contoh awal yang membuat orang tertarik, dan jauh sebelum itu ada Java applet, ActiveX, dan Flash yang bahasanya justru masih satu turunan dengan JavaScript.\n\nSetiap ayunan menyelesaikan masalah lama dan memunculkan yang baru. Client-side rendering membuat halaman awal terkirim kosong dan pengunjung menunggu, sekaligus menyulitkan mesin pencari yang saat itu belum bisa menjalankan JavaScript — solusinya mula-mula pre-render khusus untuk bot, yang kemudian berkembang jadi static site generation. Tapi menghasilkan halaman statis pun tidak berskala untuk situs berita dengan jutaan artikel, sebab mengubah satu menu berarti membangun ulang semuanya.",
+  "keyPoints": [
+    "SSR dan SSG kebetulan sama-sama berawalan dua huruf S padahal maknanya berbeda sepenuhnya — pahami urutan sejarahnya, jangan menghafal singkatannya",
+    "Halaman web mula-mula benar-benar berkas statis yang diketik manual, dan menambah satu artikel berarti menyunting navigasi di semua halaman satu per satu",
+    "Server-side scripting lahir dari kerepotan itu — dimulai dari Perl lewat CGI, lalu PHP merajai karena kemudahannya dibanding Perl yang kurvanya curam",
+    "Perpindahan ke sisi klien terjadi bukan terutama karena soal cepat-lambat, melainkan karena kebutuhan pembaruan real-time — dan Gmail disebut sebagai contoh awal yang membuat orang tertarik",
+    "Flash punya bahasa skripnya sendiri yang masih satu turunan dengan JavaScript modern, dan justru interaktivitasnya yang mendorong JavaScript naik dari sekadar pembantu validasi form",
+    "Static site generation berakar dari pre-render: dulu HTML khusus disiapkan untuk bot karena mesin pencari belum bisa menjalankan JavaScript, lalu disadari lebih baik dikirim ke pengunjung juga",
+    "Menghasilkan halaman statis tidak berskala untuk situs berita dengan jutaan artikel, sebab mengubah satu menu berarti membangun ulang seluruhnya"
+  ]
+}

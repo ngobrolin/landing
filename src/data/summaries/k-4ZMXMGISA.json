@@ -1,0 +1,14 @@
+{
+  "videoId": "k-4ZMXMGISA",
+  "generatedAt": "2026-08-26T00:00:00.000Z",
+  "brief": "Melanjutkan episode cookie minggu sebelumnya, pembahasan bergeser ke tempat penyimpanan lain yang tersedia di browser — bukan basis data di sisi server, melainkan yang benar-benar tinggal di perangkat pengguna. Local storage dan session storage bersaudara dengan API yang sama; bedanya hanya umur: yang satu hilang begitu tab ditutup, yang satu bertahan sampai dihapus. Keduanya menempel pada domain, jadi data yang disimpan satu situs tidak bisa dibaca situs lain.\n\nContoh paling membumi adalah kejengkelan lama: sudah menulis panjang di kolom komentar atau email, lalu koneksi bermasalah dan semuanya hilang setelah refresh. Sekarang hal itu jarang terjadi karena aplikasi menyimpan draft ke penyimpanan lokal, dan itu disebut sebagai cara tercepat menaikkan pengalaman pengguna secara tajam. Contoh lain adalah preferensi mode gelap, yang memang tidak perlu ikut dikirim ke server di setiap request seperti cookie.\n\nUntuk kebutuhan yang lebih berat ada IndexedDB, yang berperilaku seperti basis data sungguhan: punya indeks, jauh lebih cepat, dan bisa menyimpan blob yang tidak bisa ditampung penyimpanan lain. Kapasitasnya sangat besar — di browser berbasis Chromium bisa memakai sebagian besar ruang disk — tapi berbeda-beda tiap perangkat, jadi transaksinya harus tetap ditangani kalau gagal. Sintaksnya diakui kurang menarik, dan dari situlah pustaka seperti PouchDB dan RxDB menawarkan lapisan yang lebih nyaman sekaligus kemampuan sinkronisasi ketika koneksi kembali ada.",
+  "keyPoints": [
+    "Local storage dan session storage punya API yang sama dan bedanya hanya umur: session hilang saat tab ditutup, local bertahan sampai dihapus pengguna",
+    "Keduanya menempel pada domain, jadi data yang ditulis satu situs tidak bisa dibaca situs lain — mirip perilaku cookie",
+    "Menyimpan draft tulisan ke penyimpanan lokal adalah cara tercepat menaikkan pengalaman pengguna: teks panjang tidak lagi hilang saat halaman ter-reload sebelum sempat terkirim",
+    "Preferensi seperti mode gelap cocok di local storage justru karena tidak perlu ikut menempel di setiap request seperti cookie",
+    "IndexedDB berperilaku seperti basis data sungguhan — punya indeks, lebih cepat, dan satu-satunya yang bisa menyimpan blob",
+    "Kapasitas IndexedDB sangat besar, di browser Chromium bisa sampai sebagian besar ruang disk, tapi berbeda tiap perangkat sehingga kegagalan transaksi tetap harus ditangani",
+    "Isi keranjang belanja sebaiknya tetap disinkronkan ke server, bukan hanya lokal, supaya tetap sama ketika dibuka dari perangkat lain"
+  ]
+}

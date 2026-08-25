@@ -1,0 +1,14 @@
+{
+  "videoId": "H-NPmffVrcw",
+  "generatedAt": "2026-08-26T00:00:00.000Z",
+  "brief": "Otentikasi dibedakan tegas dari otorisasi lewat analogi bandara: mencocokkan wajah dengan paspor dan tiket itu otentikasi — memastikan orangnya memang dia; sementara boleh masuk gerbang yang mana dan boleh melakukan apa itu otorisasi. Seorang pilot dan seorang penumpang sama-sama terverifikasi identitasnya, tapi izin yang mereka punya berbeda. Kebutuhannya sendiri muncul karena HTTP itu stateless: server tidak tahu siapa yang datang kalau tidak diberitahu, dan hanya sebagian sumber daya yang boleh diakses semua orang.\n\nEmpat pendekatan dibahas. API key membedakan kunci publik yang boleh tertanam di sisi klien dan kunci privat yang haram keluar dari server — inilah alasan layanan seperti payment gateway mengharuskan kita punya server, dan mengapa meta framework atau serverless function jadi jalan keluar bagi yang sebelumnya hanya punya aplikasi sisi klien. Skema dasar HTTP juga dibandingkan: basic sekadar mengirim nama pengguna dan kata sandi dalam bentuk base64, sedangkan bearer mengirim token yang bisa dibatalkan dan punya masa berlaku.\n\nOAuth dijelaskan lewat alur single sign-on: ada server otentikasi tersendiri, dan setiap domain lain mengalihkan pengguna ke sana lalu menerima token sebagai jawaban — sehingga satu kali masuk cukup untuk banyak layanan. Diakui pula bahwa OAuth mudah bagi pengguna tapi merepotkan bagi yang mengimplementasikannya. Terakhir JWT, dengan satu penekanan penting: bagian payload-nya bisa dibaca siapa saja, yang menjaga keamanan adalah tanda tangannya.",
+  "keyPoints": [
+    "Otentikasi memastikan siapa kita, otorisasi menentukan apa yang boleh kita lakukan — pilot dan penumpang sama-sama terverifikasi tapi izinnya berbeda",
+    "Kunci privat tidak boleh ada di sisi klien karena bisa dilihat lewat view source; inilah alasan payment gateway mengharuskan kita punya server",
+    "Meta framework dan serverless function menjadi jalan keluar bagi aplikasi yang tadinya murni sisi klien tapi butuh operasi yang harus terjadi di server",
+    "Bearer lebih aman daripada basic karena yang dikirim berulang kali adalah token yang bisa dibatalkan dan punya masa berlaku, bukan nama pengguna dan kata sandi asli",
+    "Single sign-on bekerja lewat server otentikasi tersendiri: domain lain mengalihkan pengguna ke sana, lalu menerima token untuk diverifikasi antar server",
+    "OAuth mengembalikan access token berumur pendek beserta refresh token berumur panjang, dan izin yang lebih sensitif harus diminta lewat scope terpisah",
+    "Payload JWT bisa dibaca siapa saja — yang menjaga keamanannya adalah tanda tangan, jadi server harus menolak permintaan yang signature-nya tidak terverifikasi"
+  ]
+}
