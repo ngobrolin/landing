@@ -1,0 +1,14 @@
+{
+  "videoId": "JUu7WUGt1eU",
+  "generatedAt": "2026-08-26T00:00:00.000Z",
+  "brief": "Episode ini membedah teknik optimasi JavaScript, dimulai dari prinsip paling mendasar: avoid work. Cara paling efektif mempercepat JavaScript adalah tidak menjalankannya sama sekali, dan tiap tahun daftar hal yang bisa dipindahkan ke platform bertambah — animasi, view transition, date picker, combo box yang bisa dicari, dan sebentar lagi carousel, semuanya kini punya padanan HTML atau CSS tanpa library.\n\nDari sisi mesin, dibahas kenapa membandingkan integer lebih murah daripada string, dan kenapa bentuk objek sebaiknya konsisten. JavaScript engine berspekulasi bahwa objek berikutnya akan punya shape yang sama dengan yang sudah ia lihat, lalu menghasilkan machine code yang dioptimasi untuk asumsi itu — kode monomorfik cepat, polimorfik lebih lambat, megamorfik paling lambat. Urutan properti pun ikut menentukan shape, sehingga dua objek dengan field yang sama tetapi urutan berbeda dianggap berbeda.\n\nDiskusi terpanjangnya justru soal gaya: rantai map-filter-reduce membuat salinan array di setiap langkah, sementara satu loop imperatif tidak. Kesimpulannya pragmatis — kalau ukuran data terkontrol karena API-nya sudah dibatasi, tulis yang paling mudah dibaca; kalau datanya bisa puluhan ribu baris seperti pada CLI migrasi atau sinkronisasi, tulis imperatif. Bagian penutup soal benchmarking sama pentingnya: optimalkan bagian yang paling banyak memakan waktu lebih dulu, hindari micro benchmark, jalankan di production mode, pakai profil browser yang bersih tanpa extension, dan berusahalah membuktikan hasil sendiri salah alih-alih membenarkannya.",
+  "keyPoints": [
+    "Optimasi terbaik adalah avoid work — cek ulang tiap tahun kode JavaScript mana yang kini bisa digantikan CSS atau HTML native seperti animasi, view transition, dan date picker",
+    "JavaScript engine berspekulasi bahwa objek berikutnya punya shape yang sama dan menghasilkan machine code untuk asumsi itu; kode monomorfik paling cepat, megamorfik paling lambat — dan urutan properti ikut menentukan shape",
+    "Bandingkan integer atau enum, bukan string: integer umumnya dilewatkan by value sehingga perbandingannya jauh lebih murah",
+    "Rantai map-filter-reduce membuat salinan array di setiap langkah; satu loop imperatif tidak — dan forEach lebih lambat dari for biasa",
+    "Pilihan gaya itu kontekstual: kalau ukuran data sudah terkontrol oleh API pakai yang paling mudah dibaca, tetapi untuk CLI migrasi atau sinkronisasi yang memproses puluhan ribu baris tulis imperatif",
+    "Mulai optimasi dari bagian yang paling banyak memakan waktu — mengoptimasi kode yang cuma dipanggil sekali adalah membuang waktu",
+    "Benchmark harus di production mode dengan data yang representatif dan profil browser bersih tanpa extension; dan alih-alih membenarkan hasil sendiri, berusahalah membuktikan hasil itu keliru"
+  ]
+}

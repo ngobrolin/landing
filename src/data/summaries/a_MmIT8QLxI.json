@@ -1,0 +1,14 @@
+{
+  "videoId": "a_MmIT8QLxI",
+  "generatedAt": "2026-08-26T00:00:00.000Z",
+  "brief": "Episode ini membahas Web Worker, saudara Service Worker yang jauh kurang populer padahal memecahkan masalah yang sangat nyata. Titik berangkatnya adalah sifat browser yang single-threaded: main thread hanya bisa mengerjakan satu hal dalam satu waktu, seperti satu orang yang merangkap kasir, tukang masak, dan tukang bungkus di satu warung. Kalau ia sibuk menghitung sesuatu yang berat, ia tidak sempat me-render, dan scroll pun terasa tersendat.\n\nSatu thread dipertahankan bukan karena keterbatasan perangkat keras zaman dulu, melainkan karena DOM akan kacau kalau banyak thread mengubahnya bersamaan. Itu sebabnya Web Worker tetap tidak boleh menyentuh DOM — ia hanya bisa berkirim pesan lewat postMessage, dan main thread yang menindaklanjuti.\n\nPerbedaan pentingnya dengan Service Worker dibedah satu per satu: Web Worker menempel pada satu tab dan mati begitu tab ditutup, bisa banyak sekaligus, cocok untuk kerja berat seperti kompresi gambar, WebAssembly, physics engine, atau memindahkan script analitik pihak ketiga keluar dari main thread; Service Worker menempel pada origin, hanya boleh satu, bertahan meski tab ditutup, dan bekerja sebagai proxy jaringan untuk offline support, caching, dan push notification. Karena postMessage terasa low level, ada dua library yang mempermudah: Comlink dari Surma yang membuat pemanggilan worker terasa seperti memanggil fungsi biasa, dan Party Town yang memindahkan script pihak ketiga ke worker sekaligus mengurung aksesnya ke API browser.",
+  "keyPoints": [
+    "Browser hanya punya satu main thread, jadi kalkulasi berat membuat scroll tersendat karena thread yang sama tidak sempat menggambar ulang layar",
+    "Alasan DOM tetap single-threaded bukan keterbatasan hardware lama tetapi karena banyak thread yang mengubah DOM bersamaan akan berantakan — karena itu Web Worker hanya boleh berkirim pesan, bukan menyentuh DOM",
+    "Web Worker menempel pada satu tab dan mati saat tab ditutup, sedangkan Service Worker menempel pada origin, hanya boleh satu, dan tetap hidup setelah tab ditutup — inilah yang memungkinkan push notification dan background sync",
+    "Web Worker bisa dijalankan banyak sekaligus untuk kerja paralel, sementara Service Worker hanya satu per origin dalam satu waktu",
+    "Service Worker pada dasarnya adalah proxy jaringan: ia bisa mencegat setiap request dan memutuskan mana yang diambil dari internet dan mana yang dilayani dari cache, per halaman sekalipun",
+    "Comlink dari Surma menyembunyikan postMessage sehingga memanggil worker terasa seperti memanggil fungsi biasa, sedangkan Party Town memindahkan script pihak ketiga seperti analitik ke worker sekaligus membatasi aksesnya ke API browser",
+    "Daftar service worker yang pernah terdaftar di browser bisa dilihat lewat tab Application di DevTools — kebanyakan isinya justru berasal dari Chrome extension"
+  ]
+}
