@@ -1,0 +1,14 @@
+{
+  "videoId": "mUrwxwrehqE",
+  "generatedAt": "2026-08-26T00:00:00.000Z",
+  "brief": "Episode ini merangkum apa yang menarik dari Google I/O tahun itu, khususnya sisi web. Pembukanya sebuah pengamatan iseng tapi telak: tahun-tahun sebelumnya semua orang bicara web3, sekarang tidak ada yang menyebutnya lagi dan semua beralih ke AI. Bedanya, yang diumumkan di ajang seperti ini bukan sekadar hype melainkan produk yang benar-benar ada.\n\nTopik yang paling banyak dibahas adalah otentikasi. Passkey — yang API-nya sendiri bernama berbeda dan lebih sulit disebut — memungkinkan aplikasi web memakai sidik jari, pengenalan wajah, atau kunci fisik langsung lewat web API, tanpa pustaka tambahan. Posisinya bukan pengganti kata sandi melainkan pengganti faktor kedua, jadi tetap ada jalan cadangan. Dibahas pula bahwa alur masuk yang terlalu berlapis justru membuat orang enggan, dan tren sekarang bergeser ke tautan sekali pakai yang dikirim lewat surel — yang pada dasarnya sekerabat dengan kode sekali pakai.\n\nBagian privasinya menjelaskan kenapa persoalannya tidak selesai hanya dengan menghapus cookie pihak ketiga. Ada teknik yang membaca detail-detail perangkat dan browser lalu merangkumnya jadi satu sidik unik — dan sidik itu tetap sama meski kita berpindah ke mode penyamaran, karena browsernya toh sama. Itulah yang coba dijawab oleh inisiatif privasi baru, mengikuti pengetatan aturan data di banyak negara. Disinggung juga alat analitik alternatif yang mengedepankan privasi, dengan catatan jujur bahwa skalanya belum tentu meyakinkan bagi perusahaan.",
+  "keyPoints": [
+    "Pengamatan pembuka yang telak: web3 tak lagi disebut siapa pun dan semua beralih ke AI — bedanya yang diumumkan di ajang seperti ini adalah produk nyata, bukan sekadar hype",
+    "Passkey memungkinkan aplikasi web memakai sidik jari, pengenalan wajah, atau kunci fisik langsung lewat web API tanpa pustaka tambahan",
+    "Posisinya bukan pengganti kata sandi melainkan pengganti faktor kedua, jadi jalan cadangan tetap harus disediakan",
+    "Alur masuk yang terlalu berlapis justru membuat orang enggan — dan tren bergeser ke tautan sekali pakai lewat surel, yang pada dasarnya sekerabat dengan kode sekali pakai",
+    "Menghapus cookie pihak ketiga tidak menyelesaikan pelacakan: detail perangkat dan browser bisa dirangkum jadi satu sidik unik yang tetap sama meski kita berpindah ke mode penyamaran",
+    "Inisiatif privasi baru dari tim browser muncul mengikuti pengetatan aturan data di banyak negara, bukan sekadar inisiatif teknis",
+    "Ada alat analitik alternatif yang mengedepankan privasi dan sebagian open source, meski skalanya belum tentu meyakinkan bagi perusahaan besar"
+  ]
+}
