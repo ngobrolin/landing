@@ -9,7 +9,7 @@
   `src/lib/search.ts` for what is indexed and why short queries bypass Fuse
 
 ### Transcription & Summarization
-- **Transcription** - Local Whisper pipeline via `npm run transcribe`
+- **Transcription** - Local Whisper pipeline via `pnpm run transcribe`
 - **Summarization** - AI-assisted via `SUMMARIZE.md` instructions
 - **Display** - Summary + collapsible transcript on episode pages
 
@@ -19,7 +19,7 @@
 - **Transcript indexing** - Full text in schema for Google
 
 ### Infrastructure
-- **Cloudflare Pages** - Git integration, build: `npm run build`, output: `dist`
+- **Cloudflare Pages** - Git integration, build: `pnpm run build`, output: `dist`
 - **GitHub Actions**:
   - `fetch-playlist.yml` - Weekly YouTube sync (Wed 08:00 WIB)
   - `playlist-drift.yml` - Daily check for episodes published but missing from the playlist
@@ -29,11 +29,11 @@
 
 | Command | Description |
 |---------|-------------|
-| `npm run transcribe` | Transcribe next episode (local Whisper) |
-| `npm run transcribe --missing` | Transcribe all missing |
-| `npm run build` | Build for production |
-| `npm run test:unit` | Run Vitest unit tests |
-| `npm run test:e2e` | Run Playwright E2E tests |
+| `pnpm run transcribe` | Transcribe next episode (local Whisper) |
+| `pnpm run transcribe --missing` | Transcribe all missing |
+| `pnpm run build` | Build for production |
+| `pnpm run test:unit` | Run Vitest unit tests |
+| `pnpm run test:e2e` | Run Playwright E2E tests |
 
 ## Future Ideas
 

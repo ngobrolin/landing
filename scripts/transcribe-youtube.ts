@@ -1,4 +1,4 @@
-#!/usr/bin/env npx tsx
+#!/usr/bin/env pnpm exec tsx
 
 /**
  * Generate transcripts from YouTube's free auto-generated subtitles.
@@ -14,10 +14,10 @@
  * See scripts/lib/vtt.ts for how rolling captions are reconstructed.
  *
  * Usage:
- *   npx tsx scripts/transcribe-youtube.ts                 # next missing episode
- *   npx tsx scripts/transcribe-youtube.ts --missing        # every missing episode
- *   npx tsx scripts/transcribe-youtube.ts <videoId> [...]  # specific episodes
- *   npx tsx scripts/transcribe-youtube.ts --all --force    # regenerate everything
+ *   pnpm exec tsx scripts/transcribe-youtube.ts                  # next missing episode
+ *   pnpm exec tsx scripts/transcribe-youtube.ts --missing        # every missing episode
+ *   pnpm exec tsx scripts/transcribe-youtube.ts <videoId> [...]  # specific episodes
+ *   pnpm exec tsx scripts/transcribe-youtube.ts --all --force    # regenerate everything
  *
  * Options:
  *   --limit <n>    Process at most n episodes

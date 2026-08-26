@@ -36,7 +36,20 @@ To fetch all episodes from the YouTube playlist:
 YOUTUBE_API_KEY=your_api_key pnpm exec tsx scripts/fetch-playlist.ts
 ```
 
-This will update `src/data/episodes.json` with all playlist videos.
+This merges the playlist into `src/data/episodes.json`. It never deletes a record: an
+episode the playlist stops returning (private, deleted, or simply removed) keeps its
+entry — slug, audio metadata and all — and is marked `absentFromPlaylistSince`, so it
+stays on the site and in the podcast feed. Every retention, reappearance and
+private/deleted video is logged.
+
+The script refuses to write and exits non-zero when the result would be untrustworthy —
+an unreadable or empty `episodes.json`, a sync returning nothing, or a shrink beyond its
+floor. Where an override exists it is printed with the refusal, already filled in and
+copy-pasteable (`ALLOW_SYNC_SHRINK=<count>`, `ALLOW_EMPTY_BASELINE=1`); both are per-run
+only, and a sync returning zero entries takes no override at all.
+Use the printed command rather than deleting `episodes.json`, which would re-derive every
+slug from its current YouTube title and move published URLs. The weekly workflow takes the
+shrink override through its `allow_shrink` `workflow_dispatch` input.
 
 ## Transcription
 
@@ -54,16 +67,16 @@ provenance; older Whisper transcripts omit that field and stay unlabeled.
 
 ```bash
 # Transcribe next episode without transcript
-npm run transcribe:youtube
+pnpm run transcribe:youtube
 
 # Transcribe all missing episodes
-npm run transcribe:youtube -- --missing
+pnpm run transcribe:youtube --missing
 
 # Transcribe specific episode(s)
-npm run transcribe:youtube -- <videoId> [...]
+pnpm run transcribe:youtube <videoId> [...]
 
 # Re-transcribe everything (overwrites existing files)
-npm run transcribe:youtube -- --all --force
+pnpm run transcribe:youtube --all --force
 ```
 
 #### Options
@@ -91,16 +104,16 @@ Runs entirely offline. Requires a local model file and `whisper-cli` installed.
 
 ```bash
 # Transcribe next episode without transcript
-npm run transcribe
+pnpm run transcribe
 
 # Transcribe specific episode
-npm run transcribe -- <videoId>
+pnpm run transcribe <videoId>
 
 # Transcribe all missing episodes
-npm run transcribe -- --missing
+pnpm run transcribe --missing
 
 # Re-transcribe all episodes
-npm run transcribe -- --all
+pnpm run transcribe --all
 ```
 
 #### Options
@@ -118,16 +131,16 @@ npm run transcribe -- --all
 
 ```bash
 # Transcribe 5 missing episodes with custom model
-npm run transcribe -- --missing --limit 5 --model ~/Downloads/ggml-medium.bin
+pnpm run transcribe --missing --limit 5 --model ~/Downloads/ggml-medium.bin
 
 # Transcribe all missing using Chrome cookies
-npm run transcribe -- --missing --browser chrome
+pnpm run transcribe --missing --browser chrome
 
 # Transcribe specific episode with all options
-npm run transcribe -- abc123xyz --model ~/models/ggml-large.bin --browser firefox --limit 1
+pnpm run transcribe abc123xyz --model ~/models/ggml-large.bin --browser firefox --limit 1
 
 # Transcribe with Whisper's native non-speech suppression (faster, no post-filter)
-npm run transcribe -- --missing --suppress-nst
+pnpm run transcribe --missing --suppress-nst
 ```
 
 #### Requirements
@@ -165,16 +178,16 @@ Uses the OpenAI Whisper API (or any OpenAI-compatible endpoint, e.g. Groq). No l
 
 ```bash
 # Transcribe next missing episode
-OPENAI_API_KEY=sk-... npm run transcribe:openai
+OPENAI_API_KEY=sk-... pnpm run transcribe:openai
 
 # Transcribe specific episode
-OPENAI_API_KEY=sk-... npm run transcribe:openai -- <videoId>
+OPENAI_API_KEY=sk-... pnpm run transcribe:openai <videoId>
 
 # Transcribe all missing episodes
-OPENAI_API_KEY=sk-... npm run transcribe:openai -- --missing
+OPENAI_API_KEY=sk-... pnpm run transcribe:openai --missing
 
 # Re-transcribe all episodes
-OPENAI_API_KEY=sk-... npm run transcribe:openai -- --all
+OPENAI_API_KEY=sk-... pnpm run transcribe:openai --all
 ```
 
 #### Options
@@ -192,19 +205,19 @@ OPENAI_API_KEY=sk-... npm run transcribe:openai -- --all
 
 ```bash
 # Transcribe 3 missing episodes
-OPENAI_API_KEY=sk-... npm run transcribe:openai -- --missing --limit 3
+OPENAI_API_KEY=sk-... pnpm run transcribe:openai --missing --limit 3
 
 # Use a different browser for cookies
-OPENAI_API_KEY=sk-... npm run transcribe:openai -- --missing --browser chrome
+OPENAI_API_KEY=sk-... pnpm run transcribe:openai --missing --browser chrome
 
 # Use Groq's OpenAI-compatible endpoint (whisper-large-v3)
-OPENAI_API_KEY=gsk_... npm run transcribe:openai -- \
+OPENAI_API_KEY=gsk_... pnpm run transcribe:openai \
   --base-url https://api.groq.com/openai/v1 \
   --model whisper-large-v3 \
   --missing
 
 # Smoke test: re-transcribe one known episode to verify output
-OPENAI_API_KEY=sk-... npm run transcribe:openai -- 0o-PcX6pR2E
+OPENAI_API_KEY=sk-... pnpm run transcribe:openai 0o-PcX6pR2E
 ```
 
 #### Verifying output
@@ -250,20 +263,20 @@ Extract audio from YouTube and upload to S3 for Apple Podcasts/Spotify distribut
 
 ```bash
 # Check status
-npx tsx scripts/extract-audio.ts --status
-npx tsx scripts/upload-s3.ts --status
+pnpm exec tsx scripts/extract-audio.ts --status
+pnpm exec tsx scripts/upload-s3.ts --status
 
 # Extract next episode (oldest first)
-npx tsx scripts/extract-audio.ts
+pnpm exec tsx scripts/extract-audio.ts
 
 # Extract all missing
-npx tsx scripts/extract-audio.ts --missing
+pnpm exec tsx scripts/extract-audio.ts --missing
 
 # Upload to S3 (requires AWS credentials)
-npx tsx scripts/upload-s3.ts
+pnpm exec tsx scripts/upload-s3.ts
 
 # Upload all extracted
-npx tsx scripts/upload-s3.ts --missing
+pnpm exec tsx scripts/upload-s3.ts --missing
 ```
 
 Requires `yt-dlp` and `ffmpeg` installed locally. AWS credentials via `~/.aws/credentials` or environment variables.
@@ -320,7 +333,7 @@ In any AI tool (Amp, Claude, Gemini CLI):
 
 Deploy to any static hosting:
 
-- **Cloudflare Pages**: Connect repo, build command `npm run build`, output `dist`
+- **Cloudflare Pages**: Connect repo, build command `pnpm run build`, output `dist`
 - **Netlify**: Same settings
 - **Vercel**: Auto-detected
 

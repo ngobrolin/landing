@@ -1,4 +1,4 @@
-#!/usr/bin/env npx tsx
+#!/usr/bin/env pnpm exec tsx
 
 import { S3Client, PutObjectCommand, HeadObjectCommand } from "@aws-sdk/client-s3";
 import { execSync } from "child_process";
@@ -130,7 +130,7 @@ async function main() {
       return;
     } else if (args[0] === "--help") {
       console.log(`
-Usage: npx tsx scripts/upload-s3.ts [options] [videoId...]
+Usage: pnpm exec tsx scripts/upload-s3.ts [options] [videoId...]
 
 Options:
   --missing   Upload all local audio files not yet in S3
@@ -144,9 +144,9 @@ Environment:
   AWS_ACCESS_KEY_ID / AWS_SECRET_ACCESS_KEY or AWS profile
 
 Examples:
-  npx tsx scripts/upload-s3.ts                  # Upload next missing
-  npx tsx scripts/upload-s3.ts --missing        # Upload all missing
-  npx tsx scripts/upload-s3.ts Tkh8-LleLws      # Upload specific episode
+  pnpm exec tsx scripts/upload-s3.ts              # Upload next missing
+  pnpm exec tsx scripts/upload-s3.ts --missing    # Upload all missing
+  pnpm exec tsx scripts/upload-s3.ts Tkh8-LleLws  # Upload specific episode
 `);
       return;
     } else {

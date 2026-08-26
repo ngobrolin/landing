@@ -3,7 +3,7 @@
  * site builds from, and raise a GitHub issue about them.
  *
  * Usage:
- *   YOUTUBE_API_KEY=your_api_key npx tsx scripts/check-playlist-drift.ts
+ *   YOUTUBE_API_KEY=your_api_key pnpm exec tsx scripts/check-playlist-drift.ts
  *
  * Add GITHUB_TOKEN and GITHUB_REPOSITORY (both provided by GitHub Actions) to
  * open/update/close the alert issue. Without them the check just prints its
@@ -218,7 +218,7 @@ async function main() {
   if (!API_KEY) {
     console.error("Error: YOUTUBE_API_KEY environment variable is required");
     console.log("\nUsage:");
-    console.log("  YOUTUBE_API_KEY=your_api_key npx tsx scripts/check-playlist-drift.ts");
+    console.log("  YOUTUBE_API_KEY=your_api_key pnpm exec tsx scripts/check-playlist-drift.ts");
     process.exit(1);
   }
 
