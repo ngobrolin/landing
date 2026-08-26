@@ -192,10 +192,13 @@ Backfilling audio is two steps: `scripts/extract-audio.ts <videoId>` then
   cross-checks ffprobe's `audioDuration` against the YouTube snippet's
   `duration`; the two come from different systems and across the archive never
   differ by more than a second.
-- `extract-audio.ts` has yt-dlp write an *uncompressed WAV* intermediate before
-  ffmpeg re-encodes it to 128kbps mono, so a two-hour episode costs on the order
-  of a gigabyte of temp disk and ~10 minutes. Run the two steps as background
-  work rather than waiting on them.
+- `extract-audio.ts` is expensive twice over. These episodes are livestream VODs
+  served as muxed HLS with **no audio-only format at all** (check with
+  `yt-dlp -F`), so `-x`'s `bestaudio/best` falls back to `best` and downloads the
+  full video; yt-dlp then writes an *uncompressed WAV* intermediate for ffmpeg to
+  re-encode to 128kbps mono. A 110-minute episode measured 784 MB of `.temp.mp4`
+  plus 969 MB of `.temp.wav` and ~10 minutes. Run the two steps as background work
+  rather than waiting on them.
 
 ## Maintaining this file
 
