@@ -18,6 +18,7 @@ import { getRelatedEpisodes } from "../../lib/related";
 import EpisodeCard from "../../components/EpisodeCard.astro";
 import Comments from "../../components/Comments.astro";
 import ShareButtons from "../../components/ShareButtons.astro";
+import EpisodeTopics from "../../components/EpisodeTopics.astro";
 
 export async function getStaticPaths() {
     const episodes = getEpisodes();
@@ -144,22 +145,75 @@ const episodeUrl = `${siteUrl}/episodes/${episode.slug}`;
                         {episode.title}
                     </h1>
 
-                    <!-- Share Buttons -->
+                    <!--
+                        Topics sit directly under the title, where the share row
+                        used to be. This is the page's only outbound path into
+                        the subject archive, and it is what gives the 36 tag
+                        pages inbound links.
+                    -->
                     <div class="mb-6">
-                        <ShareButtons url={episodeUrl} title={episode.title} />
+                        <EpisodeTopics videoId={episode.videoId} />
                     </div>
 
-                    <p
-                        class="text-gray-300 leading-relaxed whitespace-pre-line"
-                    >
-                        {episode.description}
-                    </p>
-
-                    <!-- Summary -->
+                    <!--
+                        Summary first, then transcript, then the raw YouTube
+                        description. The description is the weakest of the three
+                        for a reader: 109 of 178 are boilerplate, and it carries
+                        sponsor ad copy that rendered at full body weight above
+                        the editorial summary.
+                    -->
                     <Summary videoId={episode.videoId} />
 
                     <!-- Transcript -->
                     <Transcript videoId={episode.videoId} />
+
+                    <details class="mt-8 group">
+                        <summary
+                            class="cursor-pointer text-gray-400 hover:text-white transition text-sm font-medium"
+                        >
+                            Deskripsi asli dari YouTube
+                        </summary>
+                        <p
+                            class="text-gray-300 leading-relaxed whitespace-pre-line mt-3"
+                        >
+                            {episode.description}
+                        </p>
+                    </details>
+
+                </div>
+
+                <!-- Related Episodes -->
+                {
+                    relatedEpisodes.length > 0 && (
+                        <section class="mt-12 pt-8 border-t border-dark-border">
+                            <h2 class="text-xl font-bold text-white mb-6">
+                                Episode Terkait
+                            </h2>
+                            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                                {relatedEpisodes.map((ep) => (
+                                    <EpisodeCard
+                                        title={ep.title}
+                                        description={ep.description}
+                                        publishedAt={ep.publishedAt}
+                                        thumbnail={ep.thumbnail}
+                                        episodeNumber={ep.episodeNumber}
+                                        slug={ep.slug}
+                                    />
+                                ))}
+                            </div>
+                        </section>
+                    )
+                }
+
+                <!-- Share -->
+                <!--
+                    Share sits AFTER the content and the related grid. It used
+                    to be the first interactive thing under the H1, which asked
+                    a first-time visitor to share an episode they had not read.
+                -->
+                <section class="mt-12 pt-8 border-t border-dark-border">
+                    <ShareButtons url={episodeUrl} title={episode.title} />
+                </section>
 
                     <!-- CTA Section -->
                     <div
@@ -218,30 +272,6 @@ const episodeUrl = `${siteUrl}/episodes/${episode.slug}`;
                             Diskusikan episode ini di GitHub
                         </a>
                     </div>
-                </div>
-
-                <!-- Related Episodes -->
-                {
-                    relatedEpisodes.length > 0 && (
-                        <section class="mt-12 pt-8 border-t border-dark-border">
-                            <h2 class="text-xl font-bold text-white mb-6">
-                                Episode Terkait
-                            </h2>
-                            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-                                {relatedEpisodes.map((ep) => (
-                                    <EpisodeCard
-                                        title={ep.title}
-                                        description={ep.description}
-                                        publishedAt={ep.publishedAt}
-                                        thumbnail={ep.thumbnail}
-                                        episodeNumber={ep.episodeNumber}
-                                        slug={ep.slug}
-                                    />
-                                ))}
-                            </div>
-                        </section>
-                    )
-                }
 
                 <!-- Comments -->
                 <Comments />

@@ -1,0 +1,41 @@
+---
+import { getEpisodeTags, formatTagLabel } from "../lib/tags";
+
+interface Props {
+  videoId: string;
+  /** Heading text for screen readers; the chips are self-evident visually. */
+  label?: string;
+}
+
+const { videoId, label = "Topik episode ini" } = Astro.props;
+
+// 81 of 178 episodes carry no tags, weighted toward the newest ones, so the
+// empty case is the majority case at the front of the archive. Render nothing
+// at all rather than an empty shell with a heading and no chips.
+const tags = getEpisodeTags(videoId);
+---
+
+{
+  tags.length > 0 && (
+    <nav
+      class="flex flex-wrap items-center gap-2"
+      aria-label={label}
+      data-testid="episode-topics"
+    >
+      {tags.map((tag) => (
+        <a
+          href={`/tags/${tag}`}
+          class="bg-dark-border text-gray-300 hover:text-white hover:bg-primary/30 border border-transparent hover:border-primary/50 px-3 py-1 rounded-full text-sm transition"
+          data-analytics-event="topic_click"
+          data-analytics-props={JSON.stringify({
+            tag,
+            location: "episode_page",
+            videoId,
+          })}
+        >
+          {formatTagLabel(tag)}
+        </a>
+      ))}
+    </nav>
+  )
+}
