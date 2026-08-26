@@ -36,3 +36,7 @@ landing.worktrees/
 
 # local visual brainstorming artifacts
 .superpowers/
+
+# Impeccable design-hook per-session cache: machine-absolute paths and
+# session UUIDs, regenerated locally. Never useful in version control.
+.impeccable/hook.cache.json
