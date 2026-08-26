@@ -14,13 +14,15 @@ const repoRoot = path.resolve(
  * `npm run` left in a script, a doc, or a shebang is either a stale instruction
  * or executable code that bypasses the pinned `packageManager` field.
  *
- * Excluded on purpose, by the "live instruction or historical record?" test:
- *   - `docs/plans/` — dated design records of what was decided and run at the
- *     time. Rewriting their commands falsifies the record.
- *   - `.agents/` — agent skill files are their own instruction surface with
- *     their own contract, not project documentation.
+ * One exclusion, by the "live instruction or historical record?" test:
+ * `docs/plans/` holds dated design records of what was decided and run at the
+ * time. Rewriting their commands falsifies the record.
+ *
+ * Note what is deliberately NOT excluded: `.agents/skills/`. A skill living
+ * inside this repo tells whoever reads it to run a command against this repo
+ * today, so it is a live instruction and the rule applies to it like any doc.
  */
-const ALLOWED_PREFIXES = ["docs/plans/", ".agents/"];
+const ALLOWED_PREFIXES = ["docs/plans/"];
 
 /**
  * Files that quote the forbidden forms in order to forbid them: AGENTS.md states

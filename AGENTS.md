@@ -54,9 +54,8 @@ Three traps around this:
   4321` reaches astro as `astro preview -- --port 4321`, which silently ignores every
   flag after the separator, and a script that reads positional args as video IDs takes
   `--` for one. Drop the separator. `scripts/lib/package-manager.test.ts` guards this
-  and the pnpm-only rule; it exempts `docs/plans/` (dated records of what was run at
-  the time, not live instructions) and `.agents/` (a skill instruction surface with its
-  own contract).
+  and the pnpm-only rule; it exempts only `docs/plans/` (dated records of what
+  was run at the time, not live instructions).
 
 ### Key Commands
 
