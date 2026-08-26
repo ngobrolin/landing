@@ -97,7 +97,9 @@ export function parseShrinkAuthorization(raw: string | undefined): ShrinkAuthori
   if (!/^\d+$/.test(value)) return { kind: "invalid", raw: value };
 
   const count = Number(value);
-  if (count < 1) return { kind: "invalid", raw: value };
+  if (!Number.isSafeInteger(count) || count < 1) {
+    return { kind: "invalid", raw: value };
+  }
 
   return { kind: "authorized", count };
 }
