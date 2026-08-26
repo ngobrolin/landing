@@ -43,10 +43,10 @@ const homepageSchema = generateHomepageSchema(
   <section class="py-16 md:py-20">
     <div class="container mx-auto px-4">
       <div class="max-w-3xl">
-        <h1 class="text-4xl md:text-6xl font-bold text-white mb-6">
-          Ngobrolin <span class="text-primary-light">WEB</span>
+        <h1 class="text-4xl md:text-6xl font-bold text-ink mb-6">
+          Ngobrolin <span class="text-accent-text">WEB</span>
         </h1>
-        <p class="text-xl text-gray-300 mb-4">
+        <p class="text-xl text-ink-body mb-4">
           Video podcast seputar web development dalam Bahasa Indonesia.
         </p>
 
@@ -56,13 +56,13 @@ const homepageSchema = generateHomepageSchema(
           can say, and it appeared nowhere on the site. Both numbers are
           derived; hardcoding is how /partners came to advertise "164+".
         -->
-        <p class="text-gray-300 mb-8" data-testid="archive-scale">
-          <span class="text-white font-semibold">{episodeCount} episode</span>
+        <p class="text-ink-body mb-8" data-testid="archive-scale">
+          <span class="text-ink font-semibold">{episodeCount} episode</span>
           {fullyTranscribed
             ? ', semuanya dengan transkrip lengkap.'
             : `, ${transcriptCount} di antaranya dengan transkrip lengkap.`}
-          <span class="text-gray-400">
-            Episode baru setiap <span class="text-primary-light font-medium">Selasa malam jam 20:00 WIB</span>.
+          <span class="text-ink-muted">
+            Episode baru setiap <span class="text-accent-text font-medium">Selasa malam jam 20:00 WIB</span>.
           </span>
         </p>
 
@@ -85,10 +85,10 @@ const homepageSchema = generateHomepageSchema(
               id="home-search-input"
               name="q"
               placeholder={`Cari di ${episodeCount} episode...`}
-              class="w-full bg-dark-card border border-dark-border rounded-lg px-4 py-3 pl-12 pr-24 text-white placeholder-gray-500 focus:outline-none focus:border-primary transition"
+              class="w-full bg-surface-raised border border-surface-border-strong rounded-lg px-4 py-3 pl-12 pr-24 text-ink placeholder-ink-subtle focus:border-accent-text transition"
             />
             <svg
-              class="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-gray-500"
+              class="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-ink-subtle"
               fill="none"
               stroke="currentColor"
               viewBox="0 0 24 24"
@@ -102,7 +102,7 @@ const homepageSchema = generateHomepageSchema(
             </svg>
             <button
               type="submit"
-              class="absolute right-2 top-1/2 -translate-y-1/2 bg-primary hover:bg-primary-light text-white px-4 py-1.5 rounded-md text-sm font-medium transition"
+              class="absolute right-2 top-1/2 -translate-y-1/2 bg-accent-strong hover:bg-highlight-strong text-ink px-4 py-1.5 rounded-md text-sm font-medium transition"
             >
               Cari
             </button>
@@ -112,7 +112,7 @@ const homepageSchema = generateHomepageSchema(
         <div class="flex flex-wrap gap-4">
           <a
             href="/episodes"
-            class="bg-primary hover:bg-primary-light text-white px-6 py-3 rounded-lg font-medium transition"
+            class="bg-accent-strong hover:bg-highlight-strong text-ink px-6 py-3 rounded-lg font-medium transition"
           >
             Lihat Semua Episode
           </a>
@@ -127,7 +127,7 @@ const homepageSchema = generateHomepageSchema(
             href="https://www.youtube.com/@RizaFahmi?sub_confirmation=1"
             target="_blank"
             rel="noopener noreferrer"
-            class="border border-gray-600 hover:border-white text-white px-6 py-3 rounded-lg font-medium transition"
+            class="border border-surface-border-strong hover:border-accent-text hover:text-accent-text text-ink px-6 py-3 rounded-lg font-medium transition"
             data-analytics-event="subscribe_click"
             data-analytics-props={JSON.stringify({
               dest: 'youtube',
@@ -145,8 +145,8 @@ const homepageSchema = generateHomepageSchema(
   <section class="py-12">
     <div class="container mx-auto px-4">
       <div class="flex items-center justify-between mb-8">
-        <h2 class="text-2xl font-bold text-white">Episode Terbaru</h2>
-        <a href="/episodes" class="text-primary-light hover:text-white transition">
+        <h2 class="text-2xl font-bold text-ink">Episode Terbaru</h2>
+        <a href="/episodes" class="text-accent-text hover:text-ink transition">
           Lihat semua →
         </a>
       </div>
@@ -178,11 +178,11 @@ const homepageSchema = generateHomepageSchema(
     the real tag index, so every chip here has a page behind it.
   -->
   {topTags.length > 0 && (
-    <section class="py-12 bg-dark-card/50">
+    <section class="py-12 bg-surface-raised/50">
       <div class="container mx-auto px-4">
         <div class="flex items-center justify-between mb-8">
-          <h2 class="text-2xl font-bold text-white">Jelajahi Topik</h2>
-          <a href="/tags" class="text-primary-light hover:text-white transition">
+          <h2 class="text-2xl font-bold text-ink">Jelajahi Topik</h2>
+          <a href="/tags" class="text-accent-text hover:text-ink transition">
             Semua topik →
           </a>
         </div>
@@ -191,14 +191,14 @@ const homepageSchema = generateHomepageSchema(
           {topTags.map(({ tag, count }) => (
             <a
               href={`/tags/${tag}`}
-              class="group flex items-baseline gap-2 bg-dark-card border border-dark-border hover:border-primary/50 px-4 py-2 rounded-lg transition"
+              class="group flex items-baseline gap-2 bg-surface-raised border border-surface-border hover:border-accent/50 px-4 py-2 rounded-lg transition"
               data-analytics-event="topic_click"
               data-analytics-props={JSON.stringify({ tag, location: 'home' })}
             >
-              <span class="text-gray-300 group-hover:text-white transition">
+              <span class="text-ink-body group-hover:text-ink transition">
                 {formatTagLabel(tag)}
               </span>
-              <span class="text-gray-500 text-sm">{count}</span>
+              <span class="text-ink-subtle text-sm">{count}</span>
             </a>
           ))}
         </div>
@@ -213,7 +213,7 @@ const homepageSchema = generateHomepageSchema(
   -->
   <section class="py-12">
     <div class="container mx-auto px-4">
-      <h2 class="text-2xl font-bold text-white mb-8">Jelajahi per Tahun</h2>
+      <h2 class="text-2xl font-bold text-ink mb-8">Jelajahi per Tahun</h2>
 
       <div
         class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4"
@@ -222,12 +222,12 @@ const homepageSchema = generateHomepageSchema(
         {years.map(({ year, count }) => (
           <a
             href={`/episodes/${year}`}
-            class="group block p-4 bg-dark-card border border-dark-border rounded-lg hover:border-primary/50 transition"
+            class="group block p-4 bg-surface-raised border border-surface-border rounded-lg hover:border-accent/50 transition"
           >
-            <div class="text-2xl font-bold text-white group-hover:text-primary-light transition">
+            <div class="text-2xl font-bold text-ink group-hover:text-accent-text transition">
               {year}
             </div>
-            <div class="text-sm text-gray-500">{count} episode</div>
+            <div class="text-sm text-ink-subtle">{count} episode</div>
           </a>
         ))}
       </div>
@@ -235,15 +235,15 @@ const homepageSchema = generateHomepageSchema(
   </section>
 
   <!-- About -->
-  <section class="py-16 bg-dark-card/50">
+  <section class="py-16 bg-surface-raised/50">
     <div class="container mx-auto px-4">
       <div class="max-w-2xl mx-auto text-center">
-        <h2 class="text-2xl font-bold text-white mb-4">Tentang Ngobrolin WEB</h2>
-        <p class="text-gray-300 mb-6">
+        <h2 class="text-2xl font-bold text-ink mb-4">Tentang Ngobrolin WEB</h2>
+        <p class="text-ink-body mb-6">
           Podcast mingguan yang membahas berbagai topik seputar web development,
           mulai dari framework modern, best practices, hingga pengalaman dari praktisi industri.
         </p>
-        <a href="/about" class="text-primary-light hover:text-white transition">
+        <a href="/about" class="text-accent-text hover:text-ink transition">
           Selengkapnya tentang kami →
         </a>
       </div>

@@ -326,6 +326,33 @@ not everything on it is countable from the repo. Three rules hold it together:
 The page is Indonesian-only by decision; do not add an English version or a
 language switcher.
 
+## The palette comes from the podcast cover
+
+`src/styles/global.css` is the only place a colour is decided. Every token there
+is either sampled from `public/podcast-cover.jpg` or a lightness step along a
+sampled hue, and `DESIGN.md` explains which is which and what each one is for.
+Two guards keep it honest, and both assert rules rather than today's values:
+`src/styles/contrast.test.ts` (the WCAG floors each pairing was chosen to clear)
+and `src/styles/palette-literals.test.ts` (no source file writes a literal from
+the retired pre-cover palette).
+
+Four surfaces cannot read that stylesheet and therefore restate the tokens by
+hand — `public/offline.html` (served by the service worker without the Astro
+bundle), `public/og-image.svg`, `public/favicon.svg` and `src/lib/partner-card.ts`
+(librsvg has no stylesheet). Move a token and you must move it in those too; the
+literals test catches only the retired values, not drift in the new ones.
+
+Two traps this repaint hit:
+
+- **The sampled accents are too light to sit under text.** The cover blue
+  measures 3.2:1 under white. Filled controls use the darkened `-strong` pair;
+  the bare token is for icons, tints and borders, and `-text` is for type. This
+  is the split the previous palette got wrong on every primary button.
+- **Never select an element by a colour utility class in a test.** Two e2e
+  assertions used `p.text-gray-400` to find an episode's date and went red on a
+  repaint that had nothing to do with what they were checking. Use a
+  `data-testid`.
+
 ## Episode titles
 
 Most titles carry a trailing show-name credit, in dozens of distinct shapes

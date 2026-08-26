@@ -2,11 +2,11 @@
 // ScrollButtons.astro
 // Floating scroll-to-top and scroll-to-bottom buttons.
 //
-// These were white, shadowed and English-labelled on a #0f0f0f Indonesian
+// These were white, shadowed and English-labelled on a near-black Indonesian
 // site - the brightest object on every screen, and on a phone they sat
 // permanently over content in the thumb zone. Repainted into the existing
-// palette (dark-card surface, dark-border hairline, flat at rest) and hidden
-// below `md`, where native scrolling already does the job. No new tokens.
+// palette (raised surface, hairline border, flat at rest) and hidden below
+// `md`, where native scrolling already does the job. No new tokens.
 ---
 
 <div
@@ -17,7 +17,7 @@
   <!-- Scroll to Top Button -->
   <button
     id="scroll-to-top"
-    class="scroll-button flex items-center justify-center w-11 h-11 text-gray-400 hover:text-white bg-dark-card hover:border-primary/50 rounded-lg border border-dark-border transition-all duration-200 ease-out focus-visible:outline-none focus-visible:border-primary"
+    class="scroll-button flex items-center justify-center w-11 h-11 text-ink-muted hover:text-ink bg-surface-raised hover:bg-surface-overlay hover:border-accent rounded-lg border border-surface-border transition-all duration-200 ease-out"
     aria-label="Ke atas halaman"
     title="Ke atas halaman"
     type="button"
@@ -31,7 +31,7 @@
   <!-- Scroll to Bottom Button -->
   <button
     id="scroll-to-bottom"
-    class="scroll-button flex items-center justify-center w-11 h-11 text-gray-400 hover:text-white bg-dark-card hover:border-primary/50 rounded-lg border border-dark-border transition-all duration-200 ease-out focus-visible:outline-none focus-visible:border-primary"
+    class="scroll-button flex items-center justify-center w-11 h-11 text-ink-muted hover:text-ink bg-surface-raised hover:bg-surface-overlay hover:border-accent rounded-lg border border-surface-border transition-all duration-200 ease-out"
     aria-label="Ke bawah halaman"
     title="Ke bawah halaman"
     type="button"

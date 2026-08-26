@@ -13,13 +13,13 @@ const { url, title } = Astro.props;
   data-page-url={url}
   data-page-title={title}
 >
-  <span class="text-gray-400 text-sm">Bagikan:</span>
+  <span class="text-ink-muted text-sm">Bagikan:</span>
 
   <button
     type="button"
     class="action-btn hidden"
     data-platform="native"
-    style="background: linear-gradient(135deg, #6366f1, #8b5cf6);"
+    style="background: linear-gradient(135deg, var(--color-accent-strong), var(--color-highlight-strong));"
     title="Bagikan"
   >
     <svg class="action-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -45,7 +45,7 @@ const { url, title } = Astro.props;
     type="button"
     class="action-btn"
     data-platform="x"
-    style="background-color: #000000; border: 1px solid #374151;"
+    style="background-color: #000000; border: 1px solid var(--color-surface-border);"
     title="Bagikan ke X"
   >
     <svg class="action-icon" fill="currentColor" viewBox="0 0 24 24">
@@ -71,7 +71,7 @@ const { url, title } = Astro.props;
     type="button"
     class="action-btn"
     data-platform="copy"
-    style="background-color: #1f2937; border: 1px solid #374151;"
+    style="background-color: var(--color-surface-overlay); border: 1px solid var(--color-surface-border);"
     title="Salin tautan"
   >
     <svg class="action-icon copy-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">

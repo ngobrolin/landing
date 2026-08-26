@@ -1,9 +1,17 @@
 <svg width="1200" height="630" xmlns="http://www.w3.org/2000/svg">
-  <rect width="1200" height="630" fill="#0f0f0f"/>
-  <rect x="60" y="60" width="8" height="510" fill="#6366f1" rx="4"/>
-  <text x="100" y="280" font-family="system-ui, -apple-system, sans-serif" font-size="72" font-weight="bold" fill="white">Ngobrolin</text>
-  <text x="100" y="370" font-family="system-ui, -apple-system, sans-serif" font-size="72" font-weight="bold" fill="#6366f1">WEB</text>
-  <text x="100" y="450" font-family="system-ui, -apple-system, sans-serif" font-size="28" fill="#9ca3af">Video podcast web development • Setiap Selasa 20:00 WIB</text>
-  <circle cx="1080" cy="315" r="80" fill="#6366f1" opacity="0.2"/>
-  <circle cx="1000" cy="400" r="40" fill="#6366f1" opacity="0.1"/>
+  <!-- Colours are the tokens from src/styles/global.css, restated because a
+       standalone SVG has no stylesheet to read. Keep the two in step by hand. -->
+  <defs>
+    <linearGradient id="brand-band" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#6588fe"/>
+      <stop offset="100%" stop-color="#a76ab7"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="#0e1122"/>
+  <rect x="60" y="60" width="8" height="510" fill="url(#brand-band)" rx="4"/>
+  <text x="100" y="280" font-family="system-ui, -apple-system, sans-serif" font-size="72" font-weight="bold" fill="#f2f4fd">Ngobrolin</text>
+  <text x="100" y="370" font-family="system-ui, -apple-system, sans-serif" font-size="72" font-weight="bold" fill="#86a2fe">WEB</text>
+  <text x="100" y="450" font-family="system-ui, -apple-system, sans-serif" font-size="28" fill="#a8b0d2">Video podcast web development • Setiap Selasa 20:00 WIB</text>
+  <circle cx="1080" cy="315" r="80" fill="#a76ab7" opacity="0.25"/>
+  <circle cx="1000" cy="400" r="40" fill="#6588fe" opacity="0.2"/>
 </svg>

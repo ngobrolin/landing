@@ -230,18 +230,18 @@ const jsonLd = {
     -->
     <a
       href="#main-content"
-      class="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:z-50 focus:bg-dark-card focus:text-white focus:border focus:border-primary focus:px-4 focus:py-2 focus:rounded-lg"
+      class="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:z-50 focus:bg-surface-overlay focus:text-ink focus:border focus:border-accent-text focus:px-4 focus:py-2 focus:rounded-lg"
     >
       Lompat ke konten utama
     </a>
 
-    <header class="border-b border-dark-border">
+    <header class="border-b border-surface-border">
       <nav
         class="container mx-auto px-4 py-4 flex items-center justify-between"
       >
         <a
           href="/"
-          class="text-xl font-bold text-white hover:text-primary-light transition"
+          class="text-xl font-bold text-ink hover:text-accent-text transition"
           aria-current={currentMarker("/")}
         >
           Ngobrolin WEB
@@ -251,19 +251,19 @@ const jsonLd = {
         <div class="hidden md:flex items-center gap-6">
           <a
             href="/episodes"
-            class="text-gray-300 hover:text-white transition"
+            class="text-ink-body hover:text-ink transition"
             aria-current={currentMarker("/episodes")}
             >Episode</a
           >
           <a
             href="/tags"
-            class="text-gray-300 hover:text-white transition"
+            class="text-ink-body hover:text-ink transition"
             aria-current={currentMarker("/tags")}
             >Topik</a
           >
           <a
             href="/partners"
-            class="text-gray-300 hover:text-white transition"
+            class="text-ink-body hover:text-ink transition"
             aria-current={currentMarker("/partners")}
             >Partner</a
           >
@@ -271,7 +271,7 @@ const jsonLd = {
             href="https://github.com/orgs/ngobrolin/discussions"
             target="_blank"
             rel="noopener noreferrer"
-            class="text-gray-300 hover:text-white transition"
+            class="text-ink-body hover:text-ink transition"
             data-analytics-event="outbound_click"
             data-analytics-props={JSON.stringify({
               dest: "github_discussions",
@@ -280,7 +280,7 @@ const jsonLd = {
           >
           <a
             href="/about"
-            class="text-gray-300 hover:text-white transition"
+            class="text-ink-body hover:text-ink transition"
             aria-current={currentMarker("/about")}
             >Tentang</a
           >
@@ -301,7 +301,7 @@ const jsonLd = {
         <!-- Mobile Menu Button -->
         <button
           type="button"
-          class="md:hidden p-2 text-gray-300 hover:text-white transition"
+          class="md:hidden p-2 text-ink-body hover:text-ink transition"
           id="mobile-menu-btn"
           aria-label="Buka menu"
           aria-expanded="false"
@@ -336,29 +336,29 @@ const jsonLd = {
       <!-- Mobile Navigation Overlay -->
       <div
         id="mobile-menu"
-        class="hidden md:hidden bg-dark border-t border-dark-border"
+        class="hidden md:hidden bg-surface-overlay border-t border-surface-border"
       >
         <div class="container mx-auto px-4 py-4 flex flex-col gap-4">
           <a
             href="/episodes"
-            class="text-gray-300 hover:text-white transition py-2"
+            class="text-ink-body hover:text-ink transition py-2"
             aria-current={currentMarker("/episodes")}>Episode</a
           >
           <a
             href="/tags"
-            class="text-gray-300 hover:text-white transition py-2"
+            class="text-ink-body hover:text-ink transition py-2"
             aria-current={currentMarker("/tags")}>Topik</a
           >
           <a
             href="/partners"
-            class="text-gray-300 hover:text-white transition py-2"
+            class="text-ink-body hover:text-ink transition py-2"
             aria-current={currentMarker("/partners")}>Partner</a
           >
           <a
             href="https://github.com/orgs/ngobrolin/discussions"
             target="_blank"
             rel="noopener noreferrer"
-            class="text-gray-300 hover:text-white transition py-2"
+            class="text-ink-body hover:text-ink transition py-2"
             data-analytics-event="outbound_click"
             data-analytics-props={JSON.stringify({
               dest: "github_discussions",
@@ -367,7 +367,7 @@ const jsonLd = {
           >
           <a
             href="/about"
-            class="text-gray-300 hover:text-white transition py-2"
+            class="text-ink-body hover:text-ink transition py-2"
             aria-current={currentMarker("/about")}>Tentang</a
           >
           <a
@@ -397,12 +397,12 @@ const jsonLd = {
       <slot />
     </main>
 
-    <footer class="border-t border-dark-border mt-16">
+    <footer class="border-t border-surface-border mt-16">
       <div class="container mx-auto px-4 py-8">
         <div
           class="flex flex-col md:flex-row justify-between items-center gap-4"
         >
-          <p class="text-gray-400 text-sm">
+          <p class="text-ink-muted text-sm">
             © {new Date().getFullYear()} Ngobrolin WEB. Hadir setiap Selasa 20:00
             WIB.
           </p>
@@ -411,7 +411,7 @@ const jsonLd = {
               href="https://github.com/ngobrolin/landing"
               target="_blank"
               rel="noopener noreferrer"
-              class="text-gray-400 hover:text-white transition flex items-center gap-1"
+              class="text-ink-muted hover:text-ink transition flex items-center gap-1"
               title="GitHub Repository"
               data-analytics-event="outbound_click"
               data-analytics-props={JSON.stringify({
@@ -428,7 +428,7 @@ const jsonLd = {
               href="https://www.youtube.com/@RizaFahmi"
               target="_blank"
               rel="noopener noreferrer"
-              class="text-gray-400 hover:text-white transition"
+              class="text-ink-muted hover:text-ink transition"
               data-analytics-event="outbound_click"
               data-analytics-props={JSON.stringify({
                 dest: "youtube_channel",
@@ -441,7 +441,7 @@ const jsonLd = {
               href="https://x.com/search?q=%23ngobrolinweb&f=live"
               target="_blank"
               rel="noopener noreferrer"
-              class="text-gray-400 hover:text-white transition"
+              class="text-ink-muted hover:text-ink transition"
               data-analytics-event="outbound_click"
               data-analytics-props={JSON.stringify({
                 dest: "x_hashtag",
@@ -454,7 +454,7 @@ const jsonLd = {
               href="https://open.spotify.com/show/1o2d75xrADb9x0AahDO0Ai"
               target="_blank"
               rel="noopener noreferrer"
-              class="text-gray-400 hover:text-[#1DB954] transition flex items-center gap-1"
+              class="text-ink-muted hover:text-[#1DB954] transition flex items-center gap-1"
               title="Spotify"
               data-analytics-event="outbound_click"
               data-analytics-props={JSON.stringify({
@@ -469,7 +469,7 @@ const jsonLd = {
             </a>
             <a
               href="/podcast-rss.xml"
-              class="text-gray-400 hover:text-orange-500 transition flex items-center gap-1"
+              class="text-ink-muted hover:text-orange-500 transition flex items-center gap-1"
               title="Podcast RSS Feed"
             >
               <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">

@@ -58,51 +58,51 @@ const shareCardAlt = `Ngobrolin WEB — sponsor & pasang iklan: ${getPartnerCard
   <section class="py-20 md:py-28">
     <div class="container mx-auto px-4">
       <div class="max-w-4xl mx-auto text-center">
-        <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight">
-          Sponsor &amp; pasang iklan di <span class="text-primary-light">Ngobrolin WEB</span>
+        <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-ink mb-6 leading-tight">
+          Sponsor &amp; pasang iklan di <span class="text-accent-text">Ngobrolin WEB</span>
         </h1>
-        <p class="text-xl md:text-2xl text-gray-400 mb-6 max-w-3xl mx-auto" data-testid="partners-lead">
+        <p class="text-xl md:text-2xl text-ink-muted mb-6 max-w-3xl mx-auto" data-testid="partners-lead">
           Podcast developer Indonesia yang tayang setiap Selasa malam. Brand Anda bisa
           sponsor episode, pasang iklan, endorse produk, atau kerja sama sebagai
           media partner komunitas developer.
         </p>
-        <p class="text-gray-500 mb-8">
+        <p class="text-ink-subtle mb-8">
           {episodesTile.value} episode sejak {firstYear}. Angka lengkapnya ada di bawah.
         </p>
         <a
           href={CONTACT_HREF}
           data-testid="partners-cta"
-          class="inline-block bg-primary hover:bg-primary-light text-white px-8 py-4 rounded-lg font-semibold text-lg transition"
+          class="inline-block bg-accent-strong hover:bg-highlight-strong text-ink px-8 py-4 rounded-lg font-semibold text-lg transition"
           data-analytics-event="cta_click"
           data-analytics-props={JSON.stringify({ cta: "partnership_contact", location: "hero" })}
         >
           Diskusikan Kerja Sama →
         </a>
-        <p class="mt-4 text-sm text-gray-500">
-          Langsung ke <span class="text-gray-300" data-testid="partners-contact-address">{CONTACT_EMAIL}</span> · dibalas dalam 2 hari kerja.
+        <p class="mt-4 text-sm text-ink-subtle">
+          Langsung ke <span class="text-ink-body" data-testid="partners-contact-address">{CONTACT_EMAIL}</span> · dibalas dalam 2 hari kerja.
         </p>
       </div>
     </div>
   </section>
 
   <!-- Stats Section -->
-  <section class="py-16 border-y border-dark-border bg-dark-card/50">
+  <section class="py-16 border-y border-surface-border bg-surface-raised">
     <div class="container mx-auto px-4">
       <div class="grid grid-cols-2 md:grid-cols-4 gap-8 max-w-4xl mx-auto">
         {tiles.map(stat => (
           <div class="text-center" data-testid="stat-tile">
-            <div class="text-xs uppercase tracking-wide text-gray-500 mb-1" data-testid="stat-scope">{stat.scope}</div>
-            <div class="text-4xl md:text-5xl font-bold text-primary-light mb-2" data-testid={`stat-${stat.id}`}>{stat.value}</div>
-            <div class="text-gray-400" data-testid={`stat-${stat.id}-label`}>{stat.label}</div>
+            <div class="text-xs uppercase tracking-wide text-ink-subtle mb-1" data-testid="stat-scope">{stat.scope}</div>
+            <div class="text-4xl md:text-5xl font-bold text-accent-text mb-2" data-testid={`stat-${stat.id}`}>{stat.value}</div>
+            <div class="text-ink-muted" data-testid={`stat-${stat.id}-label`}>{stat.label}</div>
           </div>
         ))}
       </div>
 
-      <p class="max-w-4xl mx-auto mt-10 text-center text-sm text-gray-400" data-testid="stat-supporting">
+      <p class="max-w-4xl mx-auto mt-10 text-center text-sm text-ink-muted" data-testid="stat-supporting">
         <span data-testid="stat-supporting-scope">{supportingScope}</span> {supporting}
       </p>
 
-      <p class="max-w-4xl mx-auto mt-3 text-center text-xs text-gray-500" data-testid="stat-attribution">
+      <p class="max-w-4xl mx-auto mt-3 text-center text-xs text-ink-subtle" data-testid="stat-attribution">
         {attribution}
       </p>
     </div>
@@ -112,7 +112,7 @@ const shareCardAlt = `Ngobrolin WEB — sponsor & pasang iklan: ${getPartnerCard
   {goldPartners.length > 0 && (
     <section class="py-16">
       <div class="container mx-auto px-4">
-        <p class="text-center text-gray-400 mb-8">Dipercaya oleh:</p>
+        <p class="text-center text-ink-muted mb-8">Dipercaya oleh:</p>
         <div class="flex flex-wrap justify-center items-center gap-12">
           {goldPartners.map(partner => (
             <a 
@@ -137,89 +137,89 @@ const shareCardAlt = `Ngobrolin WEB — sponsor & pasang iklan: ${getPartnerCard
   <section class="py-20">
     <div class="container mx-auto px-4">
       <div class="max-w-3xl mx-auto text-center mb-16">
-        <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">
+        <h2 class="text-3xl md:text-4xl font-bold text-ink mb-4">
           Mengapa Bermitra dengan Ngobrolin WEB?
         </h2>
-        <p class="text-gray-400 text-lg">
+        <p class="text-ink-muted text-lg">
           Audiens kami adalah developer profesional dan tech enthusiast yang aktif mencari tools dan solusi untuk pekerjaan mereka.
         </p>
       </div>
 
       <div class="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
-        <div class="p-6 bg-dark-card border border-dark-border rounded-xl">
-          <div class="w-12 h-12 bg-primary/20 rounded-lg flex items-center justify-center mb-4">
-            <svg class="w-6 h-6 text-primary-light" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <div class="p-6 bg-surface-raised border border-surface-border rounded-xl">
+          <div class="w-12 h-12 bg-accent/20 rounded-lg flex items-center justify-center mb-4">
+            <svg class="w-6 h-6 text-accent-text" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path>
             </svg>
           </div>
-          <h3 class="text-white font-semibold text-lg mb-2">Audiens Berkualitas</h3>
-          <p class="text-gray-400">Developer profesional, tech lead, dan decision maker dari berbagai perusahaan teknologi Indonesia.</p>
+          <h3 class="text-ink font-semibold text-lg mb-2">Audiens Berkualitas</h3>
+          <p class="text-ink-muted">Developer profesional, tech lead, dan decision maker dari berbagai perusahaan teknologi Indonesia.</p>
         </div>
 
-        <div class="p-6 bg-dark-card border border-dark-border rounded-xl">
-          <div class="w-12 h-12 bg-primary/20 rounded-lg flex items-center justify-center mb-4">
-            <svg class="w-6 h-6 text-primary-light" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <div class="p-6 bg-surface-raised border border-surface-border rounded-xl">
+          <div class="w-12 h-12 bg-accent/20 rounded-lg flex items-center justify-center mb-4">
+            <svg class="w-6 h-6 text-accent-text" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z"></path>
             </svg>
           </div>
-          <h3 class="text-white font-semibold text-lg mb-2">Format Video Premium</h3>
-          <p class="text-gray-400">Konten video berkualitas tinggi dengan produksi profesional yang menarik perhatian audiens.</p>
+          <h3 class="text-ink font-semibold text-lg mb-2">Format Video Premium</h3>
+          <p class="text-ink-muted">Konten video berkualitas tinggi dengan produksi profesional yang menarik perhatian audiens.</p>
         </div>
 
-        <div class="p-6 bg-dark-card border border-dark-border rounded-xl">
-          <div class="w-12 h-12 bg-primary/20 rounded-lg flex items-center justify-center mb-4">
-            <svg class="w-6 h-6 text-primary-light" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <div class="p-6 bg-surface-raised border border-surface-border rounded-xl">
+          <div class="w-12 h-12 bg-accent/20 rounded-lg flex items-center justify-center mb-4">
+            <svg class="w-6 h-6 text-accent-text" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
             </svg>
           </div>
-          <h3 class="text-white font-semibold text-lg mb-2" data-testid="consistency-heading">Konsisten sejak <span data-testid="consistency-year">{firstYear}</span></h3>
-          <p class="text-gray-400">Track record yang terbukti dengan <span data-testid="prose-episode-count">{episodesTile.value}</span> episode dan komunitas yang loyal sejak <span data-testid="prose-first-year">{firstYear}</span>.</p>
+          <h3 class="text-ink font-semibold text-lg mb-2" data-testid="consistency-heading">Konsisten sejak <span data-testid="consistency-year">{firstYear}</span></h3>
+          <p class="text-ink-muted">Track record yang terbukti dengan <span data-testid="prose-episode-count">{episodesTile.value}</span> episode dan komunitas yang loyal sejak <span data-testid="prose-first-year">{firstYear}</span>.</p>
         </div>
       </div>
     </div>
   </section>
 
   <!-- Sponsorship Options -->
-  <section class="py-20 bg-dark-card/30">
+  <section class="py-20 bg-surface-raised/30">
     <div class="container mx-auto px-4">
       <div class="max-w-3xl mx-auto text-center mb-16">
-        <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">
+        <h2 class="text-3xl md:text-4xl font-bold text-ink mb-4">
           Paket Partnership
         </h2>
-        <p class="text-gray-400 text-lg">
+        <p class="text-ink-muted text-lg">
           Pilih format yang sesuai dengan kebutuhan dan budget marketing Anda.
         </p>
       </div>
 
       <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
         <!-- Sponsor Episode -->
-        <div class="p-8 bg-dark-card border border-dark-border rounded-xl hover:border-primary/50 transition">
-          <div class="text-primary-light font-semibold mb-2">Paling Populer</div>
-          <h3 class="text-2xl font-bold text-white mb-4">Sponsor Episode</h3>
-          <p class="text-gray-400 mb-6">
+        <div class="p-8 bg-surface-raised border border-surface-border rounded-xl hover:border-accent/50 transition">
+          <div class="text-highlight-text font-semibold mb-2">Paling Populer</div>
+          <h3 class="text-2xl font-bold text-ink mb-4">Sponsor Episode</h3>
+          <p class="text-ink-muted mb-6">
             Sponsor penuh satu episode dengan mention di awal, tengah, dan akhir video. Logo ditampilkan sepanjang episode.
           </p>
           <ul class="space-y-3 mb-8">
-            <li class="flex items-center text-gray-300">
-              <svg class="w-5 h-5 text-primary-light mr-3" fill="currentColor" viewBox="0 0 20 20">
+            <li class="flex items-center text-ink-body">
+              <svg class="w-5 h-5 text-accent-text mr-3" fill="currentColor" viewBox="0 0 20 20">
                 <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
               </svg>
               Mention 3x per episode
             </li>
-            <li class="flex items-center text-gray-300">
-              <svg class="w-5 h-5 text-primary-light mr-3" fill="currentColor" viewBox="0 0 20 20">
+            <li class="flex items-center text-ink-body">
+              <svg class="w-5 h-5 text-accent-text mr-3" fill="currentColor" viewBox="0 0 20 20">
                 <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
               </svg>
               Logo di video overlay
             </li>
-            <li class="flex items-center text-gray-300">
-              <svg class="w-5 h-5 text-primary-light mr-3" fill="currentColor" viewBox="0 0 20 20">
+            <li class="flex items-center text-ink-body">
+              <svg class="w-5 h-5 text-accent-text mr-3" fill="currentColor" viewBox="0 0 20 20">
                 <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
               </svg>
               Link di deskripsi video
             </li>
-            <li class="flex items-center text-gray-300">
-              <svg class="w-5 h-5 text-primary-light mr-3" fill="currentColor" viewBox="0 0 20 20">
+            <li class="flex items-center text-ink-body">
+              <svg class="w-5 h-5 text-accent-text mr-3" fill="currentColor" viewBox="0 0 20 20">
                 <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
               </svg>
               Promosi di social media
@@ -228,27 +228,27 @@ const shareCardAlt = `Ngobrolin WEB — sponsor & pasang iklan: ${getPartnerCard
         </div>
 
         <!-- Penempatan Logo -->
-        <div class="p-8 bg-dark-card border border-dark-border rounded-xl hover:border-primary/50 transition">
-          <div class="text-gray-500 font-semibold mb-2">Hemat Budget</div>
-          <h3 class="text-2xl font-bold text-white mb-4">Penempatan Logo</h3>
-          <p class="text-gray-400 mb-6">
+        <div class="p-8 bg-surface-raised border border-surface-border rounded-xl hover:border-accent/50 transition">
+          <div class="text-ink-subtle font-semibold mb-2">Hemat Budget</div>
+          <h3 class="text-2xl font-bold text-ink mb-4">Penempatan Logo</h3>
+          <p class="text-ink-muted mb-6">
             Logo brand Anda ditampilkan di setiap episode selama periode tertentu. Cocok untuk brand awareness jangka panjang.
           </p>
           <ul class="space-y-3 mb-8">
-            <li class="flex items-center text-gray-300">
-              <svg class="w-5 h-5 text-primary-light mr-3" fill="currentColor" viewBox="0 0 20 20">
+            <li class="flex items-center text-ink-body">
+              <svg class="w-5 h-5 text-accent-text mr-3" fill="currentColor" viewBox="0 0 20 20">
                 <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
               </svg>
               Logo di intro/outro
             </li>
-            <li class="flex items-center text-gray-300">
-              <svg class="w-5 h-5 text-primary-light mr-3" fill="currentColor" viewBox="0 0 20 20">
+            <li class="flex items-center text-ink-body">
+              <svg class="w-5 h-5 text-accent-text mr-3" fill="currentColor" viewBox="0 0 20 20">
                 <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
               </svg>
               Logo di website
             </li>
-            <li class="flex items-center text-gray-300">
-              <svg class="w-5 h-5 text-primary-light mr-3" fill="currentColor" viewBox="0 0 20 20">
+            <li class="flex items-center text-ink-body">
+              <svg class="w-5 h-5 text-accent-text mr-3" fill="currentColor" viewBox="0 0 20 20">
                 <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
               </svg>
               Eksposur berkelanjutan
@@ -257,33 +257,33 @@ const shareCardAlt = `Ngobrolin WEB — sponsor & pasang iklan: ${getPartnerCard
         </div>
 
         <!-- Integrasi Khusus -->
-        <div class="p-8 bg-dark-card border border-primary/30 rounded-xl hover:border-primary/50 transition">
-          <div class="text-primary-light font-semibold mb-2">Dampak Maksimal</div>
-          <h3 class="text-2xl font-bold text-white mb-4">Integrasi Khusus</h3>
-          <p class="text-gray-400 mb-6">
+        <div class="p-8 bg-surface-raised border border-accent/30 rounded-xl hover:border-accent/50 transition">
+          <div class="text-highlight-text font-semibold mb-2">Dampak Maksimal</div>
+          <h3 class="text-2xl font-bold text-ink mb-4">Integrasi Khusus</h3>
+          <p class="text-ink-muted mb-6">
             Episode khusus yang membahas produk atau teknologi Anda secara mendalam. Demo langsung dengan host.
           </p>
           <ul class="space-y-3 mb-8">
-            <li class="flex items-center text-gray-300">
-              <svg class="w-5 h-5 text-primary-light mr-3" fill="currentColor" viewBox="0 0 20 20">
+            <li class="flex items-center text-ink-body">
+              <svg class="w-5 h-5 text-accent-text mr-3" fill="currentColor" viewBox="0 0 20 20">
                 <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
               </svg>
               Episode khusus
             </li>
-            <li class="flex items-center text-gray-300">
-              <svg class="w-5 h-5 text-primary-light mr-3" fill="currentColor" viewBox="0 0 20 20">
+            <li class="flex items-center text-ink-body">
+              <svg class="w-5 h-5 text-accent-text mr-3" fill="currentColor" viewBox="0 0 20 20">
                 <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
               </svg>
               Live demo produk
             </li>
-            <li class="flex items-center text-gray-300">
-              <svg class="w-5 h-5 text-primary-light mr-3" fill="currentColor" viewBox="0 0 20 20">
+            <li class="flex items-center text-ink-body">
+              <svg class="w-5 h-5 text-accent-text mr-3" fill="currentColor" viewBox="0 0 20 20">
                 <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
               </svg>
               Tutorial atau review
             </li>
-            <li class="flex items-center text-gray-300">
-              <svg class="w-5 h-5 text-primary-light mr-3" fill="currentColor" viewBox="0 0 20 20">
+            <li class="flex items-center text-ink-body">
+              <svg class="w-5 h-5 text-accent-text mr-3" fill="currentColor" viewBox="0 0 20 20">
                 <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
               </svg>
               Semua keuntungan lainnya
@@ -293,14 +293,14 @@ const shareCardAlt = `Ngobrolin WEB — sponsor & pasang iklan: ${getPartnerCard
       </div>
 
       <div class="max-w-3xl mx-auto mt-12 text-center" data-testid="partners-packages-cta">
-        <p class="text-gray-400 mb-4">
+        <p class="text-ink-muted mb-4">
           Belum yakin paket mana yang cocok? Ceritakan target dan budget Anda, kami
           bantu susun formatnya.
         </p>
         <a
           href={CONTACT_HREF}
           data-testid="partners-cta"
-          class="inline-block bg-primary hover:bg-primary-light text-white px-8 py-4 rounded-lg font-semibold text-lg transition"
+          class="inline-block bg-accent-strong hover:bg-highlight-strong text-ink px-8 py-4 rounded-lg font-semibold text-lg transition"
           data-analytics-event="cta_click"
           data-analytics-props={JSON.stringify({ cta: "partnership_contact", location: "packages" })}
         >
@@ -314,33 +314,33 @@ const shareCardAlt = `Ngobrolin WEB — sponsor & pasang iklan: ${getPartnerCard
   <section class="py-20">
     <div class="container mx-auto px-4">
       <div class="max-w-3xl mx-auto text-center mb-16">
-        <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">
+        <h2 class="text-3xl md:text-4xl font-bold text-ink mb-4">
           Apa Kata Penonton
         </h2>
-        <p class="text-gray-400 text-lg">
+        <p class="text-ink-muted text-lg">
           Feedback langsung dari komunitas developer Indonesia
         </p>
       </div>
 
       <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
         {featuredTestimonials.map(testimonial => (
-          <div class="p-6 bg-dark-card border border-dark-border rounded-xl hover:border-primary/30 transition">
-            <div class="flex items-center gap-2 text-primary-light mb-4">
+          <div class="p-6 bg-surface-raised border border-surface-border rounded-xl hover:border-accent/30 transition">
+            <div class="flex items-center gap-2 text-highlight mb-4">
               <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
                 <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/>
               </svg>
             </div>
-            <p class="text-gray-300 mb-6">
+            <p class="text-ink-body mb-6">
               "{testimonial.text}"
             </p>
             <div class="flex items-center justify-between">
               <div class="flex items-center gap-3">
-                <div class="w-10 h-10 bg-primary/20 rounded-full flex items-center justify-center">
-                  <span class="text-primary-light font-bold text-sm">{testimonial.name.charAt(0)}</span>
+                <div class="w-10 h-10 bg-accent/20 rounded-full flex items-center justify-center">
+                  <span class="text-accent-text font-bold text-sm">{testimonial.name.charAt(0)}</span>
                 </div>
                 <div>
-                  <div class="text-white font-medium text-sm">{testimonial.name}</div>
-                  <div class="text-gray-500 text-xs">{testimonial.source}</div>
+                  <div class="text-ink font-medium text-sm">{testimonial.name}</div>
+                  <div class="text-ink-subtle text-xs">{testimonial.source}</div>
                 </div>
               </div>
             </div>
@@ -351,13 +351,13 @@ const shareCardAlt = `Ngobrolin WEB — sponsor & pasang iklan: ${getPartnerCard
   </section>
 
   <!-- Final CTA -->
-  <section class="py-20 bg-gradient-to-b from-dark to-dark-card">
+  <section class="py-20 bg-gradient-to-b from-surface to-surface-raised">
     <div class="container mx-auto px-4">
       <div class="max-w-3xl mx-auto text-center">
-        <h2 class="text-3xl md:text-4xl font-bold text-white mb-6">
+        <h2 class="text-3xl md:text-4xl font-bold text-ink mb-6">
           Siap Menjangkau Developer Indonesia?
         </h2>
-        <p class="text-xl text-gray-400 mb-8">
+        <p class="text-xl text-ink-muted mb-8">
           Kirim email berisi brand, produk, dan target kampanye Anda. Kami balas
           dengan opsi sponsor, iklan, atau kerja sama yang paling masuk akal.
         </p>
@@ -365,7 +365,7 @@ const shareCardAlt = `Ngobrolin WEB — sponsor & pasang iklan: ${getPartnerCard
           <a
             href={CONTACT_HREF}
             data-testid="partners-cta"
-            class="inline-block bg-primary hover:bg-primary-light text-white px-8 py-4 rounded-lg font-semibold text-lg transition"
+            class="inline-block bg-accent-strong hover:bg-highlight-strong text-ink px-8 py-4 rounded-lg font-semibold text-lg transition"
             data-analytics-event="cta_click"
             data-analytics-props={JSON.stringify({ cta: "partnership_contact", location: "footer" })}
           >
@@ -375,7 +375,7 @@ const shareCardAlt = `Ngobrolin WEB — sponsor & pasang iklan: ${getPartnerCard
             href="https://www.youtube.com/@RizaFahmi"
             target="_blank"
             rel="noopener noreferrer"
-            class="inline-block bg-dark-card border border-dark-border hover:border-primary/50 text-white px-8 py-4 rounded-lg font-semibold text-lg transition"
+            class="inline-block bg-surface-raised border border-surface-border hover:border-accent/50 text-ink px-8 py-4 rounded-lg font-semibold text-lg transition"
           >
             Lihat Channel YouTube
           </a>

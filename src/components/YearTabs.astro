@@ -14,8 +14,8 @@ const isActive = (year: number | undefined) => activeYear === year;
       href="/episodes"
       class={`px-4 py-2 rounded-lg font-medium transition ${
         isActive(undefined)
-          ? 'bg-primary text-white'
-          : 'bg-dark-card text-gray-400 hover:text-white hover:border-primary border border-dark-border'
+          ? 'bg-accent-strong text-ink'
+          : 'bg-surface-raised text-ink-muted hover:text-ink hover:border-accent border border-surface-border'
       }`}
       aria-current={isActive(undefined) ? 'page' : undefined}
     >
@@ -26,8 +26,8 @@ const isActive = (year: number | undefined) => activeYear === year;
         href={`/episodes/${year}`}
         class={`px-4 py-2 rounded-lg font-medium transition ${
           isActive(year)
-            ? 'bg-primary text-white'
-            : 'bg-dark-card text-gray-400 hover:text-white hover:border-primary border border-dark-border'
+            ? 'bg-accent-strong text-ink'
+            : 'bg-surface-raised text-ink-muted hover:text-ink hover:border-accent border border-surface-border'
         }`}
         aria-current={isActive(year) ? 'page' : undefined}
       >

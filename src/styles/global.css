@@ -1,11 +1,56 @@
 @import "tailwindcss";
 
+/*
+ * The palette is sampled from public/podcast-cover.jpg - the artwork already on
+ * every podcast directory carrying this show - so the site, the channel and the
+ * feed read as one property. Quantising the cover to 16 colours yields four that
+ * account for almost all of it:
+ *
+ *   #6588fe  blue    (the outer vertical bands)
+ *   #a76ab7  purple  (the inner vertical bands)
+ *   #191d3a  navy    (the centre panel the title sits on)
+ *   #fefefe  white   (the wordmark)
+ *
+ * Two rules follow from that, and everything below is derived from them:
+ *
+ * 1. The navy is a *stage*, not a background tint. Every surface step below is
+ *    the sampled navy at a different lightness, hue and saturation held at the
+ *    navy's own (hsl 233, 40%). That is why the steps read as one material
+ *    rather than as three near-identical greys.
+ * 2. The cover sets blue and purple side by side as hard bands - it is not a
+ *    gradient, whatever it looks like at thumbnail size. So the site gives them
+ *    two distinct jobs rather than blending them everywhere:
+ *      blue   = interactive (links, focus, primary buttons, active state)
+ *      purple = categorical / decorative (tags, topics, secondary emphasis)
+ *    The blue-to-purple gradient is reserved for the few large brand moments
+ *    where the cover's own framing is being quoted: the partners share card and
+ *    the page hero rules.
+ *
+ * Contrast is measured, not eyeballed. src/styles/contrast.test.ts asserts the
+ * WCAG AA floors these values were chosen to clear; change a value there and the
+ * test tells you which pairing you broke.
+ */
 @theme {
-  --color-primary: #5c5fed;
-  --color-primary-light: #818cf8;
-  --color-dark: #0f0f0f;
-  --color-dark-card: #1a1a1a;
-  --color-dark-border: #2a2a2a;
+  /* Surfaces: the cover navy, extended into a real elevation scale. */
+  --color-surface: #0e1122; /* page */
+  --color-surface-raised: #191d3a; /* cards - sampled straight from the cover */
+  --color-surface-overlay: #242b4d; /* menus, inputs, hover fills */
+  --color-surface-border: #333c66;
+  --color-surface-border-strong: #6b76a8; /* control outlines - 3:1 on both surfaces */
+
+  /* Text, in descending emphasis. Every step clears AA on every surface. */
+  --color-ink: #f2f4fd; /* headings - the cover white, cooled to the navy hue */
+  --color-ink-body: #c3c9e6; /* body copy */
+  --color-ink-muted: #a8b0d2; /* secondary copy, labels */
+  --color-ink-subtle: #8a94bd; /* metadata, timestamps */
+
+  /* Accent pair: the cover's two bands. */
+  --color-accent: #6588fe; /* cover blue, as sampled */
+  --color-accent-text: #86a2fe; /* cover blue lightened - AA as text on cards */
+  --color-accent-strong: #2a59f4; /* cover blue darkened - AA under white text */
+  --color-highlight: #a76ab7; /* cover purple, as sampled */
+  --color-highlight-text: #c98fd8; /* cover purple lightened - AA as text */
+  --color-highlight-strong: #7e3f8e; /* cover purple darkened - AA under white */
 }
 
 html {
@@ -13,5 +58,15 @@ html {
 }
 
 body {
-  @apply bg-dark text-gray-100 antialiased;
+  @apply bg-surface text-ink-body antialiased;
+}
+
+/*
+ * One visible focus ring for the whole site. The old palette had none, so focus
+ * fell back to the UA outline, which is near-invisible on a dark surface.
+ */
+:focus-visible {
+  outline: 2px solid var(--color-accent-text);
+  outline-offset: 2px;
+  border-radius: 0.25rem;
 }

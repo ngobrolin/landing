@@ -21,8 +21,8 @@ const uniqueTags = tags.length;
   <section class="py-12">
     <div class="container mx-auto px-4">
       <div class="mb-8">
-        <h1 class="text-3xl font-bold text-white mb-2">Topik</h1>
-        <p class="text-gray-400">
+        <h1 class="text-3xl font-bold text-ink mb-2">Topik</h1>
+        <p class="text-ink-muted">
           {uniqueTags} topik · {taggedEpisodes} dari {totalEpisodes} episode sudah diberi topik
         </p>
       </div>
@@ -31,12 +31,12 @@ const uniqueTags = tags.length;
         {tags.map(({ tag, count }) => (
           <a
             href={`/tags/${tag}`}
-            class="block p-4 bg-dark-card border border-dark-border rounded-lg hover:border-primary/50 transition group"
+            class="block p-4 bg-surface-raised border border-surface-border rounded-lg hover:border-accent/50 transition group"
           >
-            <div class="text-white font-medium group-hover:text-primary-light transition mb-1">
+            <div class="text-ink font-medium group-hover:text-accent-text transition mb-1">
               {formatTagLabel(tag)}
             </div>
-            <div class="text-sm text-gray-500">
+            <div class="text-sm text-ink-subtle">
               {count} episode
             </div>
           </a>

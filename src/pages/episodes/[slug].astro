@@ -106,9 +106,9 @@ const displayTitle = getDisplayTitle(episode.title);
             <div class="max-w-4xl mx-auto">
                 <!-- Breadcrumb -->
                 <nav class="mb-6" aria-label="Breadcrumb">
-                    <ol class="flex items-center gap-2 text-sm text-gray-400">
+                    <ol class="flex items-center gap-2 text-sm text-ink-muted">
                         <li>
-                            <a href="/" class="hover:text-white transition"
+                            <a href="/" class="hover:text-ink transition"
                                 >Beranda</a
                             >
                         </li>
@@ -116,11 +116,11 @@ const displayTitle = getDisplayTitle(episode.title);
                         <li>
                             <a
                                 href="/episodes"
-                                class="hover:text-white transition">Episode</a
+                                class="hover:text-ink transition">Episode</a
                             >
                         </li>
                         <li aria-hidden="true">/</li>
-                        <li class="text-white" aria-current="page">EP {episode.episodeNumber}</li>
+                        <li class="text-ink" aria-current="page">EP {episode.episodeNumber}</li>
                     </ol>
                 </nav>
 
@@ -137,16 +137,16 @@ const displayTitle = getDisplayTitle(episode.title);
                 <div class="mt-8">
                     <div class="flex items-center gap-4 mb-4">
                         <span
-                            class="bg-primary text-white text-sm font-bold px-3 py-1 rounded"
+                            class="bg-accent-strong text-ink text-sm font-bold px-3 py-1 rounded"
                             data-testid="episode-number-badge"
                             >EP {episode.episodeNumber}</span
                         >
-                        <time class="text-gray-400 text-sm"
+                        <time class="text-ink-muted text-sm"
                             >{formattedDate}</time
                         >
                     </div>
 
-                    <h1 class="text-2xl md:text-3xl font-bold text-white mb-4">
+                    <h1 class="text-2xl md:text-3xl font-bold text-ink mb-4">
                         {displayTitle}
                     </h1>
 
@@ -174,12 +174,12 @@ const displayTitle = getDisplayTitle(episode.title);
 
                     <details class="mt-8 group">
                         <summary
-                            class="cursor-pointer text-gray-400 hover:text-white transition text-sm font-medium"
+                            class="cursor-pointer text-ink-muted hover:text-ink transition text-sm font-medium"
                         >
                             Deskripsi asli dari YouTube
                         </summary>
                         <p
-                            class="text-gray-300 leading-relaxed whitespace-pre-line mt-3"
+                            class="text-ink-body leading-relaxed whitespace-pre-line mt-3"
                         >
                             {episode.description}
                         </p>
@@ -191,10 +191,10 @@ const displayTitle = getDisplayTitle(episode.title);
                 {
                     relatedEpisodes.length > 0 && (
                         <section
-                            class="mt-12 pt-8 border-t border-dark-border"
+                            class="mt-12 pt-8 border-t border-surface-border"
                             data-testid="related-episodes"
                         >
-                            <h2 class="text-xl font-bold text-white mb-6">
+                            <h2 class="text-xl font-bold text-ink mb-6">
                                 Episode Terkait
                             </h2>
                             <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -221,7 +221,7 @@ const displayTitle = getDisplayTitle(episode.title);
                     to be the first interactive thing under the H1, which asked
                     a first-time visitor to share an episode they had not read.
                 -->
-                <section class="mt-12 pt-8 border-t border-dark-border">
+                <section class="mt-12 pt-8 border-t border-surface-border">
                     <ShareButtons url={episodeUrl} title={episode.title} />
                 </section>
 
@@ -237,7 +237,7 @@ const displayTitle = getDisplayTitle(episode.title);
                         YouTube button.
                     -->
                     <section
-                        class="mt-8 p-6 bg-gradient-to-r from-primary/10 to-primary-light/10 border border-primary/20 rounded-xl"
+                        class="mt-8 p-6 bg-gradient-to-r from-accent/10 to-accent-text/10 border border-accent/20 rounded-xl"
                         data-testid="episode-subscribe"
                         aria-labelledby="episode-subscribe-heading"
                     >
@@ -247,21 +247,21 @@ const displayTitle = getDisplayTitle(episode.title);
                             <div>
                                 <h2
                                     id="episode-subscribe-heading"
-                                    class="text-white font-semibold text-lg mb-1"
+                                    class="text-ink font-semibold text-lg mb-1"
                                 >
                                     Suka episode ini?
                                 </h2>
-                                <p class="text-gray-400 text-sm">
+                                <p class="text-ink-muted text-sm">
                                     Episode baru setiap Selasa malam. Dengarkan
-                                    lewat <span class="text-gray-300">YouTube</span>,
-                                    <span class="text-gray-300">Spotify</span>, atau
-                                    feed <span class="text-gray-300">podcast</span>
+                                    lewat <span class="text-ink-body">YouTube</span>,
+                                    <span class="text-ink-body">Spotify</span>, atau
+                                    feed <span class="text-ink-body">podcast</span>
                                     favoritmu.
                                 </p>
                             </div>
                             <a
                                 href="/subscribe"
-                                class="bg-primary hover:bg-primary-light text-white px-6 py-3 rounded-lg font-medium transition whitespace-nowrap text-center"
+                                class="bg-accent-strong hover:bg-highlight-strong text-ink px-6 py-3 rounded-lg font-medium transition whitespace-nowrap text-center"
                                 data-analytics-event="cta_click"
                                 data-analytics-props={JSON.stringify({
                                     cta: "subscribe",
@@ -280,7 +280,7 @@ const displayTitle = getDisplayTitle(episode.title);
                             href="https://github.com/orgs/ngobrolin/discussions"
                             target="_blank"
                             rel="noopener noreferrer"
-                            class="text-gray-400 hover:text-white transition flex items-center gap-2"
+                            class="text-ink-muted hover:text-ink transition flex items-center gap-2"
                             data-analytics-event="outbound_click"
                             data-analytics-props={JSON.stringify({
                                 dest: "github_discussions",
@@ -306,7 +306,7 @@ const displayTitle = getDisplayTitle(episode.title);
 
                 <!-- Navigation -->
                 <nav
-                    class="mt-12 pt-8 border-t border-dark-border"
+                    class="mt-12 pt-8 border-t border-surface-border"
                     aria-label="Episode sebelumnya dan selanjutnya"
                 >
                     <div class="flex justify-between gap-4">
@@ -314,12 +314,12 @@ const displayTitle = getDisplayTitle(episode.title);
                             prevEpisode ? (
                                 <a
                                     href={`/episodes/${prevEpisode.slug}`}
-                                    class="flex-1 p-4 bg-dark-card border border-dark-border rounded-lg hover:border-primary/50 transition group"
+                                    class="flex-1 p-4 bg-surface-raised border border-surface-border rounded-lg hover:border-accent/50 transition group"
                                 >
-                                    <span class="text-gray-400 text-sm">
+                                    <span class="text-ink-muted text-sm">
                                         ← Episode Sebelumnya
                                     </span>
-                                    <p class="text-white font-medium mt-1 group-hover:text-primary-light transition line-clamp-1">
+                                    <p class="text-ink font-medium mt-1 group-hover:text-accent-text transition line-clamp-1">
                                         {getDisplayTitle(prevEpisode.title)}
                                     </p>
                                 </a>
@@ -332,12 +332,12 @@ const displayTitle = getDisplayTitle(episode.title);
                             nextEpisode ? (
                                 <a
                                     href={`/episodes/${nextEpisode.slug}`}
-                                    class="flex-1 p-4 bg-dark-card border border-dark-border rounded-lg hover:border-primary/50 transition group text-right"
+                                    class="flex-1 p-4 bg-surface-raised border border-surface-border rounded-lg hover:border-accent/50 transition group text-right"
                                 >
-                                    <span class="text-gray-400 text-sm">
+                                    <span class="text-ink-muted text-sm">
                                         Episode Selanjutnya →
                                     </span>
-                                    <p class="text-white font-medium mt-1 group-hover:text-primary-light transition line-clamp-1">
+                                    <p class="text-ink font-medium mt-1 group-hover:text-accent-text transition line-clamp-1">
                                         {getDisplayTitle(nextEpisode.title)}
                                     </p>
                                 </a>
