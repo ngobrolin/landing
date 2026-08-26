@@ -183,6 +183,14 @@ Backfilling audio is two steps: `scripts/extract-audio.ts <videoId>` then
 - Encoder output is 128kbps mono = **16000 bytes/sec**. A file-size-to-duration
   ratio outside that band means a truncated or mismatched file;
   `src/lib/podcast.test.ts` asserts this invariant across all episodes.
+- That ratio cannot catch a *complete* mp3 belonging to the wrong episode — it
+  has a perfectly healthy 16000 bytes/sec. `src/data/episodes-audio.test.ts`
+  cross-checks ffprobe's `audioDuration` against the YouTube snippet's
+  `duration`; the two come from different systems and across the archive never
+  differ by more than a second.
+- Despite `-x`, `extract-audio.ts` has yt-dlp fetch the full video (several
+  hundred MB) before ffmpeg strips the audio, so budget ~10 minutes per episode
+  and run the two steps as background work rather than waiting on them.
 
 ## Maintaining this file
 
