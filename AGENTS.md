@@ -81,6 +81,25 @@ requires `--force` to overwrite for this reason.
 captions that repeat each spoken line across several cues. See the module comment there
 for the reconstruction rule and why it is exact rather than fuzzy.
 
+### Episode summaries
+
+`src/data/summaries/<videoId>.json` holds one summary per episode; `SUMMARIZE.md` is the
+authoritative contract for the shape and for writing them in Bahasa Indonesia.
+`src/components/Summary.astro` globs the directory and resolves the file **by filename**,
+never reading the `videoId` field, and validates nothing — so a malformed file ships a
+broken "Ringkasan Episode" block instead of failing the build. `src/data/summaries.test.ts`
+is the guard for that shape.
+
+That test is deliberately **not** a completeness gate. The weekly playlist sync opens a PR
+adding episodes before anyone has summarised them, and a coverage assertion would turn that
+PR red. Two enumerated sets in the test freeze pre-existing deviations (files with 8-12 key
+points, and one missing `videoId`) and assert those sets cannot grow, so the 5-7 rule stays
+strict for everything new.
+
+Whisper repetition loops corrupt roughly a dozen transcripts — a line repeats for hundreds
+of wrapped lines, sometimes to the end of the file. Ground a summary only on the intact
+portions and never guess at what a loop replaced.
+
 ### Data Fetching
 
 See "Fetch YouTube Playlist Data" in `README.md` for how to run
