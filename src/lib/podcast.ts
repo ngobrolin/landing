@@ -1,5 +1,5 @@
 import episodesData from "../data/episodes.json";
-import { slugify } from "./episodes";
+import { resolveSlug } from "./slug";
 import { getSummary } from "./seo";
 
 export interface PodcastEpisode {
@@ -34,6 +34,7 @@ interface RawEpisode {
   publishedAt: string;
   thumbnail: string;
   position: number;
+  slug?: string;
   audioUrl?: string;
   audioDuration?: number;
   audioFileSize?: number;
@@ -75,7 +76,7 @@ export function getPodcastEpisodes(): PodcastEpisode[] {
         audioUrl: ep.audioUrl,
         audioDuration: ep.audioDuration,
         audioFileSize: ep.audioFileSize,
-        slug: `${ep.videoId}-${slugify(ep.title)}`,
+        slug: resolveSlug(ep),
         videoId: ep.videoId,
         episodeNumber: 0,
       };

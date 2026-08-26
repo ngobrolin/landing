@@ -1,24 +1,14 @@
 import { test, expect } from '@playwright/test';
 import { readFileSync, readdirSync } from 'fs';
 import { join } from 'path';
+import { resolveSlug } from '../src/lib/slug';
 
 const TRANSCRIPTS_DIR = join(process.cwd(), 'src/data/transcripts');
 const EPISODES_FILE = join(process.cwd(), 'src/data/episodes.json');
 
-// Mirrors slugify() in src/lib/episodes.ts. Duplicated rather than imported
-// because Playwright's loader cannot resolve that module's JSON import.
-function slugify(text: string): string {
-  return text
-    .toLowerCase()
-    .replace(/[^a-z0-9\s-]/g, '')
-    .replace(/\s+/g, '-')
-    .replace(/-+/g, '-')
-    .trim();
-}
-
 /** Find the page path of an episode whose transcript has the given `source`. */
 function episodePathWithSource(source: string | undefined): string {
-  const episodes: { videoId: string; title: string }[] = JSON.parse(
+  const episodes: { videoId: string; title: string; slug?: string }[] = JSON.parse(
     readFileSync(EPISODES_FILE, 'utf-8')
   );
 
@@ -32,7 +22,7 @@ function episodePathWithSource(source: string | undefined): string {
 
     const episode = episodes.find((ep) => ep.videoId === transcript.videoId);
     if (episode) {
-      return `/episodes/${episode.videoId}-${slugify(episode.title)}`;
+      return `/episodes/${resolveSlug(episode)}`;
     }
   }
 

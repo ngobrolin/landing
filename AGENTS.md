@@ -20,7 +20,7 @@
   - `rss.xml.ts`: RSS feed generation.
 - **Data Management:**
   - Raw data is stored in `src/data/episodes.json`.
-  - `src/lib/episodes.ts` acts as the data access layer, handling sorting, slug generation, and retrieval by ID/slug.
+  - `src/lib/episodes.ts` acts as the data access layer, handling sorting and retrieval by ID/slug. Slugs come from `src/lib/slug.ts` — see the slug rule under "Episode pipeline" below.
   - `scripts/fetch-playlist.ts` is a utility script to fetch fresh data from the YouTube API.
   - Transcripts live in `src/data/transcripts/<videoId>.json` and are rendered by `src/components/Transcript.astro`. A `source` field records provenance; it is absent on transcripts generated before the field existed, so treat it as optional everywhere.
 - **Components:** UI components in `src/components/` (e.g., `EpisodeCard.astro`, `YouTubeEmbed.astro`).
@@ -117,6 +117,14 @@ Two things worth knowing before touching that path:
   slug). `scripts/lib/playlist-episodes.ts` owns both rules — air date from the video's own
   snippet, one episode per `videoId` — and is unit-tested without the network, because
   `YOUTUBE_API_KEY` is a GitHub Actions secret and `fetch-playlist.ts` cannot run locally.
+- **An episode's slug is stored data, never derived at build time.** Titles belong to YouTube,
+  so deriving a slug from one lets a retitle move an indexed URL with nothing erroring. Every
+  record in `src/data/episodes.json` carries a `slug`; `src/lib/slug.ts` resolves it and owns the
+  rule (title derivation is the fallback for legacy records only), and
+  `scripts/lib/episode-merge.ts` carries it across every sync alongside the audio metadata.
+  `src/lib/slugs.golden.txt` lists every address the site has published and `src/lib/slug.test.ts`
+  asserts each still resolves — a subset guard, so new episodes may add addresses but dropping one
+  takes a deliberate edit to the golden file. Do not re-derive from `title` where a slug is stored.
 
 ## Learnings & Best Practices
 
