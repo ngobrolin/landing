@@ -105,22 +105,22 @@ const displayTitle = getDisplayTitle(episode.title);
         <div class="container mx-auto px-4">
             <div class="max-w-4xl mx-auto">
                 <!-- Breadcrumb -->
-                <nav class="mb-6">
+                <nav class="mb-6" aria-label="Breadcrumb">
                     <ol class="flex items-center gap-2 text-sm text-gray-400">
                         <li>
                             <a href="/" class="hover:text-white transition"
-                                >Home</a
+                                >Beranda</a
                             >
                         </li>
-                        <li>/</li>
+                        <li aria-hidden="true">/</li>
                         <li>
                             <a
                                 href="/episodes"
-                                class="hover:text-white transition">Episodes</a
+                                class="hover:text-white transition">Episode</a
                             >
                         </li>
-                        <li>/</li>
-                        <li class="text-white">EP {episode.episodeNumber}</li>
+                        <li aria-hidden="true">/</li>
+                        <li class="text-white" aria-current="page">EP {episode.episodeNumber}</li>
                     </ol>
                 </nav>
 
@@ -138,9 +138,9 @@ const displayTitle = getDisplayTitle(episode.title);
                     <div class="flex items-center gap-4 mb-4">
                         <span
                             class="bg-primary text-white text-sm font-bold px-3 py-1 rounded"
+                            data-testid="episode-number-badge"
+                            >EP {episode.episodeNumber}</span
                         >
-                            EP {episode.episodeNumber}
-                        </span>
                         <time class="text-gray-400 text-sm"
                             >{formattedDate}</time
                         >
@@ -284,7 +284,10 @@ const displayTitle = getDisplayTitle(episode.title);
                 <Comments />
 
                 <!-- Navigation -->
-                <nav class="mt-12 pt-8 border-t border-dark-border">
+                <nav
+                    class="mt-12 pt-8 border-t border-dark-border"
+                    aria-label="Episode sebelumnya dan selanjutnya"
+                >
                     <div class="flex justify-between gap-4">
                         {
                             prevEpisode ? (

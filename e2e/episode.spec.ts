@@ -24,8 +24,11 @@ test.describe('Episode Page', () => {
     await firstEpisode.click();
     await expect(page).toHaveURL(/\/episodes\/.+/);
 
-    await expect(page.getByRole('link', { name: 'Home' })).toBeVisible();
-    await expect(page.getByRole('link', { name: 'Episodes' })).toBeVisible();
+    // Breadcrumb is Indonesian now: this is a lang="id" site that shipped
+    // "Home / Episodes".
+    const crumbs = page.getByRole('navigation', { name: 'Breadcrumb' });
+    await expect(crumbs.getByRole('link', { name: 'Beranda' })).toBeVisible();
+    await expect(crumbs.getByRole('link', { name: 'Episode' })).toBeVisible();
   });
 
   test('episode page shows episode number badge', async ({ page }) => {
@@ -33,6 +36,10 @@ test.describe('Episode Page', () => {
     const firstEpisode = page.locator('[data-testid="episode-card"]').first();
     await firstEpisode.click();
 
-    await expect(page.getByText(/^EP \d+$/)).toBeVisible();
+    // Target the badge itself rather than any text that looks like it - the
+    // breadcrumb also ends in "EP <n>".
+    const badge = page.getByTestId('episode-number-badge');
+    await expect(badge).toBeVisible();
+    await expect(badge).toHaveText(/^EP \d+$/);
   });
 });

@@ -88,6 +88,13 @@ const searchKeys = SEARCH_KEYS;
   </p>
 </div>
 
+<!--
+  EpisodeCard renders its title as an h3, so a page whose only other heading is
+  the h1 jumped h1 -> h3. This section heading closes the gap without putting
+  178 h2s on the page; it is announced but not drawn.
+-->
+<h2 class="sr-only">Daftar episode</h2>
+
 <div
   id="episodes-grid"
   class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6"
