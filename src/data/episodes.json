@@ -7,7 +7,10 @@
     "thumbnail": "https://i.ytimg.com/vi/JJqLKn25DJI/hqdefault.jpg",
     "position": 0,
     "duration": "PT1H50M39S",
-    "slug": "JJqLKn25DJI-pengaruh-kecerdasan-buatan-terhadap-kecerdasan-manusia-ngobrolin-web"
+    "slug": "JJqLKn25DJI-pengaruh-kecerdasan-buatan-terhadap-kecerdasan-manusia-ngobrolin-web",
+    "audioUrl": "https://ngobrolinweb-podcast.s3.ap-southeast-1.amazonaws.com/audio/JJqLKn25DJI.mp3",
+    "audioDuration": 6638,
+    "audioFileSize": 106210577
   },
   {
     "videoId": "0RCXRNHhBfo",
@@ -17,7 +20,10 @@
     "thumbnail": "https://i.ytimg.com/vi/0RCXRNHhBfo/hqdefault.jpg",
     "position": 1,
     "duration": "PT1H31M38S",
-    "slug": "0RCXRNHhBfo-modern-web-ui-ngobrolin-web"
+    "slug": "0RCXRNHhBfo-modern-web-ui-ngobrolin-web",
+    "audioUrl": "https://ngobrolinweb-podcast.s3.ap-southeast-1.amazonaws.com/audio/0RCXRNHhBfo.mp3",
+    "audioDuration": 5498,
+    "audioFileSize": 87965405
   },
   {
     "videoId": "qei6_h3wwPY",

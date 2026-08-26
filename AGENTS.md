@@ -90,11 +90,14 @@ never reading the `videoId` field, and validates nothing — so a malformed file
 broken "Ringkasan Episode" block instead of failing the build. `src/data/summaries.test.ts`
 is the guard for that shape.
 
-That test is deliberately **not** a completeness gate. The weekly playlist sync opens a PR
-adding episodes before anyone has summarised them, and a coverage assertion would turn that
-PR red. Two enumerated sets in the test freeze pre-existing deviations (files with 8-12 key
-points, and one missing `videoId`) and assert those sets cannot grow, so the 5-7 rule stays
-strict for everything new.
+That test is deliberately **not** a completeness gate — the worked example of the data-guard
+rule under Coding Conventions. The weekly playlist sync opens a PR adding episodes before
+anyone has summarised them, so a coverage assertion would turn that PR red for a pipeline
+that behaved correctly. Two enumerated sets in the test freeze pre-existing deviations (files
+with 8-12 key points, and one missing `videoId`) and assert those sets cannot grow, so the
+5-7 rule stays strict for everything new. `src/data/episodes-audio.test.ts` follows the same
+rule from the other side: it skips episodes whose optional `duration` is absent — a field the
+YouTube videos API can legitimately omit — and only checks the ones that are there.
 
 Whisper repetition loops corrupt roughly a dozen transcripts — a line repeats for hundreds
 of wrapped lines, sometimes to the end of the file. Ground a summary only on the intact
@@ -111,6 +114,7 @@ See "Fetch YouTube Playlist Data" in `README.md` for how to run
 - **Styling:** Use Tailwind CSS utility classes directly in markup. Configuration is handled via the `@tailwindcss/vite` plugin in `astro.config.mjs`.
 - **Testing:**
   - Write unit tests alongside what they cover: logic next to its source in `src/lib/` or `scripts/lib/` (e.g., `episodes.test.ts`, `playlist-drift.test.ts`), data-shape guards next to their data (e.g., `src/data/summaries.test.ts`).
+  - **Writing a data guard:** assert what must always be true, never what merely happens to be true of today's snapshot. A guard that goes red when the system behaved correctly gets deleted by whoever it annoys, and takes the real protection with it. In particular, do not turn an optional field into a completeness gate — see the `src/data/summaries.test.ts` example under "Episode summaries".
   - Write E2E tests in `e2e/` for page navigation and user flows.
 - **Routing:** Use Astro's file-based routing. Dynamic parameters are handled with square brackets (e.g., `[slug].astro`).
 
@@ -183,6 +187,18 @@ Backfilling audio is two steps: `scripts/extract-audio.ts <videoId>` then
 - Encoder output is 128kbps mono = **16000 bytes/sec**. A file-size-to-duration
   ratio outside that band means a truncated or mismatched file;
   `src/lib/podcast.test.ts` asserts this invariant across all episodes.
+- That ratio cannot catch a *complete* mp3 belonging to the wrong episode — it
+  has a perfectly healthy 16000 bytes/sec. `src/data/episodes-audio.test.ts`
+  cross-checks ffprobe's `audioDuration` against the YouTube snippet's
+  `duration`; the two come from different systems and across the archive never
+  differ by more than a second.
+- `extract-audio.ts` is expensive twice over. These episodes are livestream VODs
+  served as muxed HLS with **no audio-only format at all** (check with
+  `yt-dlp -F`), so `-x`'s `bestaudio/best` falls back to `best` and downloads the
+  full video; yt-dlp then writes an *uncompressed WAV* intermediate for ffmpeg to
+  re-encode to 128kbps mono. A 110-minute episode measured 784 MB of `.temp.mp4`
+  plus 969 MB of `.temp.wav` and ~10 minutes. Run the two steps as background work
+  rather than waiting on them.
 
 ## Maintaining this file
 
