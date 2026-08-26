@@ -1,4 +1,4 @@
-#!/usr/bin/env pnpm exec tsx
+#!/usr/bin/env -S pnpm exec tsx
 
 import { execSync } from "child_process";
 import {
