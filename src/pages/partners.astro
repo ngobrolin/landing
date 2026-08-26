@@ -2,76 +2,85 @@
 import Layout from '../layouts/Layout.astro';
 import partners from '../data/partners.json';
 import testimonials from '../data/testimonials.json';
-import { getEpisodes } from '../lib/episodes';
+import { getPartnerCardStats, getPartnerStats } from '../lib/partner-stats';
+import {
+  PARTNER_CARD_HEIGHT,
+  PARTNER_CARD_WIDTH,
+} from '../lib/partner-card-geometry';
 
 const goldPartners = partners.filter(s => s.tier === 'gold');
 const featuredTestimonials = testimonials.filter(t => t.featured);
 
-// Derived, never hardcoded: a literal here goes stale the week after it is
-// written, on the one page whose whole job is to be believed.
-const episodes = getEpisodes();
-const episodeCount = episodes.length;
+// Every figure on this page — and on the share card that fronts it — comes from
+// `src/lib/partner-stats.ts`. Nothing here states a number of its own: each
+// wrong figure this page has published was a second copy that drifted.
+const {
+  firstYear,
+  tiles,
+  supportingScope,
+  supporting,
+  attribution,
+  metaDescription,
+} = getPartnerStats();
 
-// A fixed start year stays true forever; a tenure counter ("4+ Tahun") is only
-// true if somebody remembers to bump it, which is the failure behind "164+".
-const firstYear = Math.min(
-  ...episodes.map(ep => new Date(ep.publishedAt).getUTCFullYear())
-);
+const episodesTile = tiles.find(tile => tile.id === 'episodes')!;
 
-// Ngobrolin WEB is one of two shows on the channel, so every channel figure
-// below is labelled as such. Presenting them as the show's own would be the
-// same credibility failure as the unverifiable per-episode views claim
-// that used to sit here.
-// Source: YouTube channel media kit, August 2026. Subscribers are lifetime;
-// the audience percentages cover the last 28 days.
-const stats = [
-  {
-    id: 'episodes',
-    scope: 'Ngobrolin WEB',
-    value: episodeCount.toLocaleString('id-ID'),
-    label: `Episode, mingguan sejak ${firstYear}`,
-  },
-  {
-    id: 'subscribers',
-    scope: 'Kanal YouTube',
-    value: (7100).toLocaleString('id-ID'),
-    label: 'Subscriber kanal',
-  },
-  {
-    id: 'age',
-    scope: 'Kanal YouTube',
-    value: `${(88.7).toLocaleString('id-ID', { minimumFractionDigits: 1 })}%`,
-    label: 'Audiens berusia 25-34',
-  },
-  {
-    id: 'returning',
-    scope: 'Kanal YouTube',
-    value: `${(37.8).toLocaleString('id-ID', { minimumFractionDigits: 1 })}%`,
-    label: 'Penonton yang kembali',
-  },
-];
+const CONTACT_EMAIL = 'rizafahmi@gmail.com';
+const CONTACT_HREF = `mailto:${CONTACT_EMAIL}?subject=Sponsor%20%26%20Iklan%20Ngobrolin%20WEB`;
+
+// Drawn at build time by `src/pages/partners-og.png.ts` from the same figures,
+// so a link pasted into WhatsApp or email previews as a one-page media kit that
+// cannot contradict the page it opens.
+const SHARE_CARD = '/partners-og.png';
+// Read the card's own tile selection rather than re-picking from `tiles`: a
+// second copy of the selection would let the alt text describe figures the
+// rendered card does not show.
+const shareCardAlt = `Ngobrolin WEB — sponsor & pasang iklan: ${getPartnerCardStats()
+  .map(tile => `${tile.value} ${tile.label.toLowerCase()}`)
+  .join(', ')}`;
 ---
 
-<Layout 
-  title="Partnership - Ngobrolin WEB"
-  description="Jangkau ribuan developer Indonesia melalui video podcast web development terpopuler."
+<Layout
+  title="Sponsor & Pasang Iklan Podcast Developer Indonesia - Ngobrolin WEB"
+  description={metaDescription}
+  image={SHARE_CARD}
 >
+  <Fragment slot="head">
+    <!-- Dimensions let WhatsApp and LinkedIn commit to the large-image
+         preview before the file finishes downloading. -->
+    <meta property="og:image:width" content={String(PARTNER_CARD_WIDTH)} />
+    <meta property="og:image:height" content={String(PARTNER_CARD_HEIGHT)} />
+    <meta property="og:image:alt" content={shareCardAlt} />
+    <meta name="twitter:image:alt" content={shareCardAlt} />
+  </Fragment>
+
   <!-- Hero Section -->
   <section class="py-20 md:py-28">
     <div class="container mx-auto px-4">
       <div class="max-w-4xl mx-auto text-center">
         <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight">
-          Ingin menjangkau <span class="text-primary-light">developer Indonesia?</span>
+          Sponsor &amp; pasang iklan di <span class="text-primary-light">Ngobrolin WEB</span>
         </h1>
-        <p class="text-xl md:text-2xl text-gray-400 mb-8 max-w-2xl mx-auto">
-          Ngobrolin WEB adalah video podcast web development berbahasa Indonesia yang tayang setiap Selasa malam.
+        <p class="text-xl md:text-2xl text-gray-400 mb-6 max-w-3xl mx-auto" data-testid="partners-lead">
+          Podcast developer Indonesia yang tayang setiap Selasa malam. Brand Anda bisa
+          sponsor episode, pasang iklan, endorse produk, atau kerja sama sebagai
+          media partner komunitas developer.
         </p>
-        <a 
-          href="mailto:rizafahmi@gmail.com?subject=Partnership%20Ngobrolin%20WEB"
+        <p class="text-gray-500 mb-8">
+          {episodesTile.value} episode sejak {firstYear}. Angka lengkapnya ada di bawah.
+        </p>
+        <a
+          href={CONTACT_HREF}
+          data-testid="partners-cta"
           class="inline-block bg-primary hover:bg-primary-light text-white px-8 py-4 rounded-lg font-semibold text-lg transition"
+          data-analytics-event="cta_click"
+          data-analytics-props={JSON.stringify({ cta: "partnership_contact", location: "hero" })}
         >
-          Hubungi Kami →
+          Diskusikan Kerja Sama →
         </a>
+        <p class="mt-4 text-sm text-gray-500">
+          Langsung ke <span class="text-gray-300" data-testid="partners-contact-address">{CONTACT_EMAIL}</span> · dibalas dalam 2 hari kerja.
+        </p>
       </div>
     </div>
   </section>
@@ -80,7 +89,7 @@ const stats = [
   <section class="py-16 border-y border-dark-border bg-dark-card/50">
     <div class="container mx-auto px-4">
       <div class="grid grid-cols-2 md:grid-cols-4 gap-8 max-w-4xl mx-auto">
-        {stats.map(stat => (
+        {tiles.map(stat => (
           <div class="text-center" data-testid="stat-tile">
             <div class="text-xs uppercase tracking-wide text-gray-500 mb-1" data-testid="stat-scope">{stat.scope}</div>
             <div class="text-4xl md:text-5xl font-bold text-primary-light mb-2" data-testid={`stat-${stat.id}`}>{stat.value}</div>
@@ -90,11 +99,11 @@ const stats = [
       </div>
 
       <p class="max-w-4xl mx-auto mt-10 text-center text-sm text-gray-400" data-testid="stat-supporting">
-        <span data-testid="stat-supporting-scope">Kanal YouTube:</span> 87,7% dari Indonesia · 545 jam ditonton per 28 hari · rata-rata 5:58 per tayangan · minat teratas: High-End Computer Aficionados.
+        <span data-testid="stat-supporting-scope">{supportingScope}</span> {supporting}
       </p>
 
       <p class="max-w-4xl mx-auto mt-3 text-center text-xs text-gray-500" data-testid="stat-attribution">
-        Data kanal YouTube, Agustus 2026. Kanal ini menayangkan Ngobrolin WEB bersama satu program lain, sehingga angka kanal di atas bukan angka Ngobrolin WEB saja.
+        {attribution}
       </p>
     </div>
   </section>
@@ -164,7 +173,7 @@ const stats = [
             </svg>
           </div>
           <h3 class="text-white font-semibold text-lg mb-2" data-testid="consistency-heading">Konsisten sejak <span data-testid="consistency-year">{firstYear}</span></h3>
-          <p class="text-gray-400">Track record yang terbukti dengan <span data-testid="prose-episode-count">{episodeCount.toLocaleString('id-ID')}</span> episode dan komunitas yang loyal sejak <span data-testid="prose-first-year">{firstYear}</span>.</p>
+          <p class="text-gray-400">Track record yang terbukti dengan <span data-testid="prose-episode-count">{episodesTile.value}</span> episode dan komunitas yang loyal sejak <span data-testid="prose-first-year">{firstYear}</span>.</p>
         </div>
       </div>
     </div>
@@ -282,6 +291,22 @@ const stats = [
           </ul>
         </div>
       </div>
+
+      <div class="max-w-3xl mx-auto mt-12 text-center" data-testid="partners-packages-cta">
+        <p class="text-gray-400 mb-4">
+          Belum yakin paket mana yang cocok? Ceritakan target dan budget Anda, kami
+          bantu susun formatnya.
+        </p>
+        <a
+          href={CONTACT_HREF}
+          data-testid="partners-cta"
+          class="inline-block bg-primary hover:bg-primary-light text-white px-8 py-4 rounded-lg font-semibold text-lg transition"
+          data-analytics-event="cta_click"
+          data-analytics-props={JSON.stringify({ cta: "partnership_contact", location: "packages" })}
+        >
+          Minta Penawaran →
+        </a>
+      </div>
     </div>
   </section>
 
@@ -333,12 +358,16 @@ const stats = [
           Siap Menjangkau Developer Indonesia?
         </h2>
         <p class="text-xl text-gray-400 mb-8">
-          Mari diskusikan bagaimana kami bisa membantu brand Anda terhubung dengan komunitas developer.
+          Kirim email berisi brand, produk, dan target kampanye Anda. Kami balas
+          dengan opsi sponsor, iklan, atau kerja sama yang paling masuk akal.
         </p>
         <div class="flex flex-col sm:flex-row gap-4 justify-center">
-          <a 
-            href="mailto:rizafahmi@gmail.com?subject=Partnership%20Ngobrolin%20WEB"
+          <a
+            href={CONTACT_HREF}
+            data-testid="partners-cta"
             class="inline-block bg-primary hover:bg-primary-light text-white px-8 py-4 rounded-lg font-semibold text-lg transition"
+            data-analytics-event="cta_click"
+            data-analytics-props={JSON.stringify({ cta: "partnership_contact", location: "footer" })}
           >
             Hubungi via Email →
           </a>

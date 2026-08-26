@@ -198,6 +198,28 @@ Two things worth knowing before touching that path:
 - ❌ **Don't test only initial page load** - View transitions create different execution context
 - ❌ **Don't refactor without E2E coverage** - ShareButtons refactor needed testing protection
 
+## `/partners` is the site's conversion destination
+
+It is the page a sponsor is sent to, so its job is to be believed. Two rules hold
+it together:
+
+- **Every figure it publishes has one source: `src/lib/partner-stats.ts`.** The page,
+  its meta description and its share card all read from there and none of them states
+  a number. Each wrong figure this page has shipped ("164+", "1K+ Views/Episode",
+  "Konsistensi 4+ Tahun") was a second copy that drifted. Channel figures are labelled
+  as the channel's — the channel carries a second show — and carry a dated attribution.
+  `src/lib/partner-stats.test.ts` fails if a consumer restates a figure.
+- **The share card at `/partners-og.png` is generated at build time**
+  (`src/lib/partner-card.ts` → `src/pages/partners-og.png.ts`) from those same figures,
+  for that reason: a hand-made image would be a second copy, and a card that disagrees
+  with the page it links to is worse than no card. It rasterises SVG through `sharp`,
+  which reaches fonts via fontconfig — use `sans-serif`, never `system-ui`, or the
+  glyphs silently vanish on a Linux build agent. `src/lib/partner-card.test.ts` measures
+  ink in the rendered PNG rather than trusting the SVG string.
+
+The page is Indonesian-only by decision; do not add an English version or a language
+switcher.
+
 ## Podcast audio pipeline
 
 `/podcast-rss.xml` includes an episode **only** if `audioUrl`, `audioDuration` and
