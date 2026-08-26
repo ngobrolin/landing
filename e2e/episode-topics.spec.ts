@@ -1,4 +1,7 @@
 import { test, expect } from '@playwright/test';
+import { readFileSync } from 'fs';
+import { join } from 'path';
+import { resolveSlug } from '../src/lib/slug';
 
 /**
  * Episode pages must link the topics they belong to.
@@ -8,13 +11,36 @@ import { test, expect } from '@playwright/test';
  * a dead end. The tag data was already loaded on the episode page by
  * related.ts and simply never rendered.
  *
- * 81 of 178 episodes carry no tags at all, weighted toward the newest ones, so
- * the absent case is the majority case for the front of the archive and has to
- * degrade cleanly rather than render an empty shell.
+ * Both fixtures are DERIVED, never hardcoded. They were two pinned slugs, and
+ * regenerating tags.json from its summaries gave the "untagged" one four tags -
+ * a test that fails because the data got better. Which episodes carry tags is
+ * summary-driven and moves under this suite; that an episode with tags links
+ * them and an episode without renders no empty shell does not.
+ *
+ * Read off disk rather than imported through src/lib/tags: Playwright's loader
+ * rejects that module's bare JSON import.
  */
 
-const TAGGED = '/episodes/00ZHWKLlp5g-stack-dan-tools-ngobrolin-web';
-const UNTAGGED = '/episodes/qei6_h3wwPY-model-context-protocol-ngobrolin-web';
+type EpisodeRecord = { videoId: string; title: string; slug?: string };
+
+const episodes: EpisodeRecord[] = JSON.parse(
+  readFileSync(join(process.cwd(), 'src/data/episodes.json'), 'utf-8')
+);
+const tags: Record<string, string[]> = JSON.parse(
+  readFileSync(join(process.cwd(), 'src/data/tags.json'), 'utf-8')
+);
+
+const tagCount = (ep: EpisodeRecord) => (tags[ep.videoId] ?? []).length;
+
+const tagged = episodes.find((ep) => tagCount(ep) > 1);
+const untagged = episodes.find((ep) => tagCount(ep) === 0);
+
+if (!tagged) {
+  throw new Error('no episode carries more than one tag - tags.json is empty or stale');
+}
+
+const TAGGED = `/episodes/${resolveSlug(tagged)}`;
+const UNTAGGED = untagged ? `/episodes/${resolveSlug(untagged)}` : null;
 
 test.describe('Episode topics', () => {
   test('a tagged episode links each of its topics', async ({ page }) => {
@@ -42,7 +68,8 @@ test.describe('Episode topics', () => {
   });
 
   test('an episode with no tags renders no empty topic shell', async ({ page }) => {
-    await page.goto(UNTAGGED);
+    test.skip(UNTAGGED === null, 'every episode currently carries at least one tag');
+    await page.goto(UNTAGGED!);
 
     await expect(page.getByRole('heading', { level: 1 })).toBeVisible();
     await expect(page.locator('[data-testid="episode-topics"]')).toHaveCount(0);

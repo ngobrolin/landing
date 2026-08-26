@@ -242,6 +242,7 @@ const jsonLd = {
         <a
           href="/"
           class="text-xl font-bold text-white hover:text-primary-light transition"
+          aria-current={currentMarker("/")}
         >
           Ngobrolin WEB
         </a>
@@ -286,6 +287,7 @@ const jsonLd = {
           <a
             href="/subscribe"
             class="bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded-lg text-sm font-medium transition"
+            aria-current={currentMarker("/subscribe")}
             data-analytics-event="cta_click"
             data-analytics-props={JSON.stringify({
               cta: "subscribe",
@@ -371,6 +373,7 @@ const jsonLd = {
           <a
             href="/subscribe"
             class="bg-red-600 hover:bg-red-700 text-white px-4 py-3 rounded-lg text-sm font-medium transition text-center mt-2"
+            aria-current={currentMarker("/subscribe")}
             data-analytics-event="cta_click"
             data-analytics-props={JSON.stringify({
               cta: "subscribe",

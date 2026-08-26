@@ -61,20 +61,74 @@ test.describe('Heading order', () => {
 });
 
 test.describe('Current page is marked in the main navigation', () => {
-  for (const [path, label] of [
-    ['/episodes', 'Episode'],
-    ['/tags', 'Topik'],
-    ['/about', 'Tentang'],
-  ] as const) {
-    test(`${path} marks "${label}" as current`, async ({ page }) => {
+  /**
+   * Derived from the header itself, not from a list of pages I remembered to
+   * wire up. The hand-written list is how /subscribe shipped as the one
+   * destination with no aria-current anywhere in its nav: the link existed, the
+   * spec never named it, and the suite stayed green.
+   *
+   * Expected value follows the same rule Layout.astro encodes - "page" on the
+   * link's own target, "true" on an ancestor of the current path, absent
+   * otherwise - so any header link added later that is never passed through
+   * currentMarker() fails here.
+   */
+  const PATHS = [
+    '/',
+    '/episodes',
+    '/tags',
+    '/partners',
+    '/about',
+    '/subscribe',
+    '/episodes/2024',
+    '/tags/astro',
+  ];
+
+  const expectedMarker = (href: string, path: string): string | null => {
+    if (href === path) return 'page';
+    if (href !== '/' && path.startsWith(`${href}/`)) return 'true';
+    return null;
+  };
+
+  for (const path of PATHS) {
+    test(`${path} marks every header destination correctly`, async ({ page }) => {
+      await page.goto(path);
+
+      const links = await page
+        .locator('header a[href^="/"]')
+        .evaluateAll((els) =>
+          els.map((e) => ({
+            href: (e as HTMLAnchorElement).getAttribute('href')!,
+            marker: e.getAttribute('aria-current'),
+          }))
+        );
+
+      expect(links.length, 'no internal header links found').toBeGreaterThan(0);
+
+      for (const { href, marker } of links) {
+        expect(marker, `${path}: ${href} is marked ${marker}`).toBe(
+          expectedMarker(href, path)
+        );
+      }
+    });
+  }
+
+  test('the current destination is reachable by its accessible name', async ({
+    page,
+  }) => {
+    for (const [path, label] of [
+      ['/episodes', 'Episode'],
+      ['/tags', 'Topik'],
+      ['/about', 'Tentang'],
+      ['/subscribe', 'Langganan'],
+    ] as const) {
       await page.goto(path);
       const link = page
         .locator('header')
         .getByRole('link', { name: label, exact: true })
         .first();
       await expect(link).toHaveAttribute('aria-current', 'page');
-    });
-  }
+    }
+  });
 
   // A descendant is not the current page. /episodes/2024 and /tags/<tag> are
   // reached from the nav link but are not the link's own target, so announcing
