@@ -64,7 +64,9 @@ jobs:
 
             It may also update `src/data/channel-subscribers.json` — the channel subscriber
             count `/partners` publishes, read from `channels.list` with the same read-only key.
-            That file only changes when the count itself moves, so most runs leave it alone.
-            If the channel call failed this run, the last known figure is left in place and the
-            step log says so; the episode work above is unaffected either way.
+            The count itself only changes when it moves, so most runs leave it alone; the
+            `checkedAt` stamp beside it records the last successful read and is refreshed at
+            most monthly, which is what stops a working sync from looking like a stalled one.
+            If the channel call failed this run, both dates are left exactly where they were
+            and the step log says so; the episode work above is unaffected either way.
           delete-branch: true

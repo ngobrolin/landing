@@ -1,7 +1,9 @@
 name: Media Kit Freshness Check
 
 # Notices when the hand-copied figures on /partners have gone stale and opens a
-# GitHub issue about them.
+# GitHub issue about them — and, in the same run, when the derived subscriber
+# count has stopped being read at all. The sync fails soft, so a revoked key
+# looks like a quiet week; the stored checkedAt stamp is what tells them apart.
 #
 # Modelled on playlist-drift.yml, for the same two reasons. It lives apart from
 # the sync so a staleness alert never muddies the sync's own status; and it
@@ -28,6 +30,7 @@ on:
       - 'scripts/lib/media-kit-freshness.ts'
       - 'src/lib/media-kit.ts'
       - 'src/data/media-kit.json'
+      - 'src/data/channel-subscribers.json'
       - '.github/workflows/media-kit-freshness.yml'
 
 permissions:

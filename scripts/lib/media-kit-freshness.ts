@@ -1,5 +1,7 @@
 /**
- * Pure logic for the media-kit freshness alarm.
+ * Pure logic for the `/partners` freshness alarm — named for its main job, the
+ * hand-copied media-kit figures, but it also watches the one derived figure for
+ * the failure only automation can have: quietly not running any more.
  *
  * `/partners` is the page a sponsor is sent to, so its job is to be believed.
  * Every wrong figure it has shipped — "164+ Episode", "1K+ Views/Episode",
@@ -15,11 +17,20 @@
  * hand-copied into `src/data/media-kit.json` with the date they were captured,
  * and this decides when that date has gone old enough to say something about.
  *
+ * The derived figure gets the other half of the same idea. The weekly sync
+ * fails soft by design, so a revoked key or a permanently exhausted quota looks
+ * exactly like a healthy week where the count did not move — the figure ages on
+ * the sponsor page and nothing says so. `channel-subscribers.json` therefore
+ * carries a `checkedAt` stamp of the last successful read, and this decides
+ * when that stamp has stopped moving for long enough to be a fault rather than
+ * a quiet week.
+ *
  * It raises a GitHub issue rather than failing a build, for the same reason
  * `playlist-drift.ts` does: a red check on a scheduled job is noise a
  * maintainer learns to skip, while an issue is a thing with a name that stays
  * open until somebody deals with it. I/O lives in
- * `scripts/check-media-kit-freshness.ts`.
+ * `scripts/check-media-kit-freshness.ts` — one script, one schedule, one
+ * credential (GITHUB_TOKEN), two issues it can open.
  */
 
 /**
@@ -127,19 +138,27 @@ export function assessMediaKitFreshness(
   capturedAt: string,
   now: Date
 ): MediaKitFreshness {
-  const dueAt = addMonths(capturedAt, MAX_AGE_MONTHS);
+  return { capturedAt, ...assessAge(capturedAt, MAX_AGE_MONTHS, now) };
+}
+
+/** The age verdict itself, shared by both figures so the rule exists once. */
+function assessAge(
+  iso: string,
+  maxAgeMonths: number,
+  now: Date
+): Omit<MediaKitFreshness, 'capturedAt'> {
+  const dueAt = addMonths(iso, maxAgeMonths);
 
   if (!dueAt) {
-    return { stale: true, capturedAt, dueAt: '', ageMonths: 0, unreadable: true };
+    return { stale: true, dueAt: '', ageMonths: 0, unreadable: true };
   }
 
   const due = new Date(`${dueAt}T00:00:00Z`).getTime();
 
   return {
     stale: now.getTime() >= due,
-    capturedAt,
     dueAt,
-    ageMonths: wholeMonthsBetween(capturedAt, now),
+    ageMonths: wholeMonthsBetween(iso, now),
     unreadable: false,
   };
 }
@@ -186,6 +205,140 @@ export function formatIssueBody(
     `Every figure above is YouTube **Analytics** data, which is owner-scoped: reading it needs an OAuth consent flow and a stored refresh token. That was ruled out deliberately — no new repository secret. The read-only \`YOUTUBE_API_KEY\` cannot reach any of it.`,
     '',
     `The one figure it *can* reach — the channel **subscriber** count — is already derived automatically by \`${SYNC_SCRIPT}\` on the weekly sync, so do not hand-copy it here. If it ever looks wrong, that is a bug in the sync, not something to paper over with a manual value.`
+  );
+
+  return lines.join('\n');
+}
+
+/**
+ * How long the derived subscriber count may go without a successful read before
+ * the silence is a fault rather than a quiet week.
+ *
+ * Two months, and the arithmetic matters: the sync runs weekly and records its
+ * stamp at most every 30 days (`CHECKED_AT_REFRESH_DAYS` in
+ * `channel-subscribers.ts`, which keeps an unchanged count from opening a PR a
+ * week), so a healthy repository never shows a stamp older than about 37 days.
+ * Two months clears that with room to spare, and this check runs monthly, so a
+ * key revoked today surfaces within roughly three.
+ */
+export const SUBSCRIBER_MAX_AGE_MONTHS = 2;
+
+/** Stable title, for the same reason `ISSUE_TITLE` is. */
+export const SUBSCRIBER_ISSUE_TITLE =
+  'The /partners subscriber count has stopped refreshing itself';
+
+/** Where the derived figure and its stamps live, quoted in the issue. */
+export const SUBSCRIBERS_FILE = 'src/data/channel-subscribers.json';
+
+export interface SubscriberFreshness {
+  /** True when the sync has stopped recording successful reads. */
+  stale: boolean;
+  /**
+   * Whether a figure is actually on the page. Nothing usable stored means the
+   * tile is omitted, so there is no ageing claim to nag about — and nagging
+   * before the first successful sync would be an alarm about nothing.
+   */
+  published: boolean;
+  /** The count the page prints, or null when none is published. */
+  count: number | null;
+  /** The date the page attributes that count to. Empty when unpublished. */
+  fetchedAt: string;
+  /** The stamp as stored. Empty when the store carries none at all. */
+  checkedAt: string;
+  /** The date the reads fall due. Empty when `checkedAt` is unreadable. */
+  dueAt: string;
+  /** Whole months since the last successful read. */
+  ageMonths: number;
+  /** True when there is no readable stamp — indistinguishable from never. */
+  unreadable: boolean;
+}
+
+const ISO = (value: unknown): value is string =>
+  typeof value === 'string' && parseIsoDate(value) !== null;
+
+/**
+ * Decide whether the derived subscriber figure is still refreshing itself.
+ *
+ * Takes the raw store because every shape it can hold is a real state: written
+ * by the sync, hand-edited, half-written, or predating the stamp entirely. A
+ * published count with no readable stamp is stale — the alarm cannot tell that
+ * apart from a sync that has not run since the key was revoked, and reporting
+ * all-clear on a state it cannot read is the silence this whole mechanism
+ * exists to break.
+ */
+export function assessSubscriberFreshness(
+  stored: unknown,
+  now: Date
+): SubscriberFreshness {
+  const record = (typeof stored === 'object' && stored !== null ? stored : {}) as {
+    count?: unknown;
+    fetchedAt?: unknown;
+    checkedAt?: unknown;
+  };
+
+  // The same test the page applies before it renders the tile, so the alarm
+  // never fires about a figure no reader can see.
+  const published =
+    typeof record.count === 'number' &&
+    Number.isFinite(record.count) &&
+    record.count > 0 &&
+    ISO(record.fetchedAt);
+
+  const checkedAt = ISO(record.checkedAt) ? record.checkedAt : '';
+  const fetchedAt = published ? (record.fetchedAt as string) : '';
+  const count = published ? (record.count as number) : null;
+
+  if (!published) {
+    return {
+      stale: false,
+      published: false,
+      count: null,
+      fetchedAt: '',
+      checkedAt,
+      dueAt: '',
+      ageMonths: 0,
+      unreadable: false,
+    };
+  }
+
+  const age = assessAge(checkedAt, SUBSCRIBER_MAX_AGE_MONTHS, now);
+
+  return { published: true, count, fetchedAt, checkedAt, ...age };
+}
+
+export function formatSubscriberIssueBody(
+  freshness: SubscriberFreshness
+): string {
+  const lines: string[] = [];
+
+  if (freshness.unreadable) {
+    lines.push(
+      `\`${SUBSCRIBERS_FILE}\` carries no readable \`checkedAt\` date, so there is no evidence the weekly sync has read the subscriber count successfully at all.`,
+      ''
+    );
+  } else {
+    lines.push(
+      `The weekly sync last read the channel subscriber count successfully on **${freshness.checkedAt}** — ${freshness.ageMonths} month(s) ago, past the ${SUBSCRIBER_MAX_AGE_MONTHS}-month mark it fell due on (${freshness.dueAt}).`,
+      ''
+    );
+  }
+
+  lines.push(
+    `Meanwhile [/partners](https://ngobrol.in/partners) is still publishing **${freshness.count}** subscribers, attributed to ${freshness.fetchedAt} and labelled as refreshed automatically. It is not being refreshed, and it is getting older.`,
+    '',
+    '### Why this can happen quietly',
+    '',
+    `\`${SYNC_SCRIPT}\` fails soft on purpose: a channel call that 403s on quota, or comes back with the count hidden, leaves the last known figure standing rather than blanking a number on the page a sponsor is sent to. That is the right behaviour, and it is also indistinguishable from a healthy week where the count simply did not move — which is what \`checkedAt\` exists to tell apart.`,
+    '',
+    '### What to check',
+    '',
+    '1. The most recent **Fetch YouTube Playlist** workflow runs: the subscriber step logs a `⚠` line naming the failure.',
+    '2. The `YOUTUBE_API_KEY` secret — revoked, restricted, or out of quota are the usual three. It only ever needs read access to public data.',
+    `3. That the playlist still resolves to a channel; the id is read from the playlist response rather than configured.`,
+    '',
+    `Do **not** hand-copy a subscriber figure into \`${MEDIA_KIT_FILE}\` or anywhere else to paper over this. A second copy of a figure is the failure \`/partners\` was rebuilt to remove; fix the sync and the next run records both the count and the stamp.`,
+    '',
+    'This issue closes itself on the next run once a successful read has been recorded.'
   );
 
   return lines.join('\n');

@@ -9,8 +9,14 @@
  * OAuth only, and is hand-copied into `src/data/media-kit.json`. This is what
  * watches that.
  *
- * It reads the stored `capturedAt` date, never a date parsed out of rendered
- * prose, which would break the first time the wording changed.
+ * It also watches the derived figure, for the one way automation goes wrong
+ * quietly: the sync fails soft, so a revoked key leaves the last known count
+ * standing and the run looks exactly like a week where the count did not move.
+ * `src/data/channel-subscribers.json` records `checkedAt` on every successful
+ * read; when that stamp stops moving, this says so in its own issue.
+ *
+ * It reads stored ISO dates, never a date parsed out of rendered prose, which
+ * would break the first time the wording changed.
  *
  * Usage:
  *   pnpm exec tsx scripts/check-media-kit-freshness.ts
@@ -29,10 +35,15 @@
 import {
   ISSUE_TITLE,
   MAX_AGE_MONTHS,
+  SUBSCRIBER_ISSUE_TITLE,
+  SUBSCRIBER_MAX_AGE_MONTHS,
   assessMediaKitFreshness,
+  assessSubscriberFreshness,
   formatIssueBody,
+  formatSubscriberIssueBody,
 } from './lib/media-kit-freshness';
 import { mediaKit, MEDIA_KIT_FIGURES } from '../src/lib/media-kit';
+import storedSubscribers from '../src/data/channel-subscribers.json';
 
 interface Issue {
   number: number;
@@ -58,19 +69,25 @@ async function github<T>(path: string, init: RequestInit = {}): Promise<T> {
 }
 
 /**
- * The one open alert issue, if any. Keyed on the stable title so a monthly
- * re-run updates it instead of opening a twelfth copy over a year.
+ * The one open alert issue with this title, if any. Keyed on the stable title so
+ * a monthly re-run updates it instead of opening a twelfth copy over a year.
  */
-async function findExistingIssue(repo: string): Promise<Issue | null> {
+async function findExistingIssue(repo: string, title: string): Promise<Issue | null> {
   const issues = await github<Array<Issue & { title: string; pull_request?: unknown }>>(
     `/repos/${repo}/issues?state=open&per_page=100`,
   );
 
-  return issues.find((issue) => !issue.pull_request && issue.title === ISSUE_TITLE) ?? null;
+  return issues.find((issue) => !issue.pull_request && issue.title === title) ?? null;
 }
 
-async function syncIssue(repo: string, body: string | null): Promise<void> {
-  const existing = await findExistingIssue(repo);
+/**
+ * Two alerts, one mechanism. The hand-copied figures and the derived one fail in
+ * unrelated ways and are fixed in unrelated places, so each gets its own titled
+ * issue that opens, updates and closes on its own — rather than one issue whose
+ * body says two things and cannot be closed until both are dealt with.
+ */
+async function syncIssue(repo: string, title: string, body: string | null): Promise<void> {
+  const existing = await findExistingIssue(repo, title);
 
   if (body === null) {
     if (existing) {
@@ -78,7 +95,7 @@ async function syncIssue(repo: string, body: string | null): Promise<void> {
         method: 'PATCH',
         body: JSON.stringify({ state: 'closed', state_reason: 'completed' }),
       });
-      console.log(`✓ Closed issue #${existing.number} — the figures are current again`);
+      console.log(`✓ Closed issue #${existing.number} — "${title}" no longer applies`);
     }
     return;
   }
@@ -96,13 +113,15 @@ async function syncIssue(repo: string, body: string | null): Promise<void> {
 
   const created = await github<Issue & { html_url: string }>(`/repos/${repo}/issues`, {
     method: 'POST',
-    body: JSON.stringify({ title: ISSUE_TITLE, body }),
+    body: JSON.stringify({ title, body }),
   });
   console.log(`✓ Opened issue ${created.html_url}`);
 }
 
 async function main() {
-  const freshness = assessMediaKitFreshness(mediaKit.capturedAt, new Date());
+  const now = new Date();
+  const freshness = assessMediaKitFreshness(mediaKit.capturedAt, now);
+  const subscribers = assessSubscriberFreshness(storedSubscribers, now);
 
   if (freshness.unreadable) {
     console.log(`✗ capturedAt in src/data/media-kit.json is unreadable: "${freshness.capturedAt}"`);
@@ -119,13 +138,40 @@ async function main() {
     );
   }
 
+  if (!subscribers.published) {
+    console.log(
+      '· No subscriber count is published, so there is nothing to be stale; the tile is off the page until the first successful sync',
+    );
+  } else if (subscribers.unreadable) {
+    console.log(
+      '✗ src/data/channel-subscribers.json records no readable checkedAt — no evidence the sync has ever read the count successfully',
+    );
+  } else if (subscribers.stale) {
+    console.log(
+      `✗ Subscriber count last read successfully ${subscribers.checkedAt} — ${subscribers.ageMonths} month(s) ago, due since ${subscribers.dueAt}; the page still publishes ${subscribers.count}`,
+    );
+  } else {
+    console.log(
+      `✓ Subscriber count last read ${subscribers.checkedAt}; due ${subscribers.dueAt} (${SUBSCRIBER_MAX_AGE_MONTHS} months)`,
+    );
+  }
+
   const repo = process.env.GITHUB_REPOSITORY;
   if (!process.env.GITHUB_TOKEN || !repo) {
     console.log('(no GITHUB_TOKEN/GITHUB_REPOSITORY — skipping issue sync)');
     return;
   }
 
-  await syncIssue(repo, freshness.stale ? formatIssueBody(freshness, MEDIA_KIT_FIGURES) : null);
+  await syncIssue(
+    repo,
+    ISSUE_TITLE,
+    freshness.stale ? formatIssueBody(freshness, MEDIA_KIT_FIGURES) : null,
+  );
+  await syncIssue(
+    repo,
+    SUBSCRIBER_ISSUE_TITLE,
+    subscribers.stale ? formatSubscriberIssueBody(subscribers) : null,
+  );
 }
 
 main().catch((error) => {

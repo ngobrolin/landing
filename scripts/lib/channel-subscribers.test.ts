@@ -4,10 +4,15 @@ import { join } from 'node:path';
 import {
   parseSubscriberCount,
   applySubscriberCount,
+  CHECKED_AT_REFRESH_DAYS,
   type StoredSubscribers,
 } from './channel-subscribers';
 
-const STORED: StoredSubscribers = { count: 7100, fetchedAt: '2026-08-01' };
+const STORED: StoredSubscribers = {
+  count: 7100,
+  fetchedAt: '2026-08-01',
+  checkedAt: '2026-08-01',
+};
 const NOW = new Date('2026-08-26T01:00:00Z');
 
 describe('parseSubscriberCount', () => {
@@ -53,14 +58,22 @@ describe('applySubscriberCount', () => {
   it('stores a fresh count with the date it was fetched', () => {
     const result = applySubscriberCount(STORED, 7200, NOW);
 
-    expect(result.next).toEqual({ count: 7200, fetchedAt: '2026-08-26' });
+    expect(result.next).toEqual({
+      count: 7200,
+      fetchedAt: '2026-08-26',
+      checkedAt: '2026-08-26',
+    });
     expect(result.updated).toBe(true);
   });
 
   it('bootstraps from nothing stored', () => {
     const result = applySubscriberCount(null, 7100, NOW);
 
-    expect(result.next).toEqual({ count: 7100, fetchedAt: '2026-08-26' });
+    expect(result.next).toEqual({
+      count: 7100,
+      fetchedAt: '2026-08-26',
+      checkedAt: '2026-08-26',
+    });
     expect(result.updated).toBe(true);
   });
 
@@ -95,6 +108,81 @@ describe('applySubscriberCount', () => {
     for (const count of [7200, 7100, null]) {
       expect(applySubscriberCount(STORED, count, NOW).reason).toBeTruthy();
     }
+  });
+});
+
+/**
+ * `checkedAt` answers the question `fetchedAt` cannot: is this figure still
+ * being read at all? Fail-soft means a revoked key produces a run that looks
+ * identical to a healthy week where the count did not move, so without a stamp
+ * of the last *successful* read the page would go on publishing an ageing
+ * number with nothing able to notice.
+ */
+describe('the last-read stamp', () => {
+  const daysAfter = (iso: string, days: number) =>
+    new Date(new Date(`${iso}T01:00:00Z`).getTime() + days * 24 * 60 * 60 * 1000);
+
+  it('is written whenever the count itself is written', () => {
+    expect(applySubscriberCount(STORED, 7200, NOW).next!.checkedAt).toBe(
+      '2026-08-26'
+    );
+    expect(applySubscriberCount(null, 7100, NOW).next!.checkedAt).toBe(
+      '2026-08-26'
+    );
+  });
+
+  // The tension the refresh window resolves: stamping every successful read
+  // would open a one-line PR every week, which is how a real episodes.json diff
+  // sails through unlooked-at.
+  it('is not rewritten every week when the count has not moved', () => {
+    const result = applySubscriberCount(
+      STORED,
+      STORED.count,
+      daysAfter(STORED.checkedAt!, CHECKED_AT_REFRESH_DAYS - 1)
+    );
+
+    expect(result.updated).toBe(false);
+    expect(result.next).toEqual(STORED);
+  });
+
+  it('is refreshed once it has stood for the refresh window', () => {
+    const result = applySubscriberCount(
+      STORED,
+      STORED.count,
+      daysAfter(STORED.checkedAt!, CHECKED_AT_REFRESH_DAYS)
+    );
+
+    expect(result.updated).toBe(true);
+    // Only the stamp moves: the page's dated attribution still says, honestly,
+    // that the figure has read this way since it was first observed.
+    expect(result.next).toEqual({
+      count: STORED.count,
+      fetchedAt: STORED.fetchedAt,
+      checkedAt: '2026-08-31',
+    });
+  });
+
+  it('is written immediately for a store that carries none yet', () => {
+    const result = applySubscriberCount(
+      { count: 7100, fetchedAt: '2026-08-01' },
+      7100,
+      NOW
+    );
+
+    expect(result.updated).toBe(true);
+    expect(result.next!.checkedAt).toBe('2026-08-26');
+    expect(result.next!.fetchedAt).toBe('2026-08-01');
+  });
+
+  // The whole mechanism turns on this: a failed read must leave the stamp
+  // alone, however old it has got, so the silence accumulates into an alarm.
+  it('is never moved by a read that failed', () => {
+    const old = { ...STORED, checkedAt: '2026-01-01' };
+    const result = applySubscriberCount(old, null, NOW);
+
+    expect(result.updated).toBe(false);
+    expect(result.next).toEqual(old);
+    expect(result.reason).toContain('2026-01-01');
   });
 });
 

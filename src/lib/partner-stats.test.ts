@@ -23,6 +23,23 @@ const inputs = () => ({
   mediaKit,
 });
 
+/**
+ * The renderings the page publishes, derived from the stores rather than typed
+ * out here. Both stores move on their own — the subscriber count on the weekly
+ * sync, the media kit when a maintainer refreshes it and sets `capturedAt` —
+ * and a literal in this file would turn the run that moved them red for
+ * behaving exactly as designed. What is asserted is the rule, never the number.
+ */
+const percent = (value: number) =>
+  `${value.toLocaleString('id-ID', { minimumFractionDigits: 1 })}%`;
+const count = (value: number) => value.toLocaleString('id-ID');
+const monthYear = (iso: string) =>
+  new Date(`${iso}T00:00:00Z`).toLocaleDateString('id-ID', {
+    month: 'long',
+    year: 'numeric',
+    timeZone: 'UTC',
+  });
+
 describe('getPartnerStats', () => {
   it('derives the episode count and start year from the episode data', () => {
     const stats = getPartnerStats();
@@ -34,10 +51,10 @@ describe('getPartnerStats', () => {
   it('formats every tile value in id-ID so the page never formats one itself', () => {
     const byId = Object.fromEntries(getPartnerStats().tiles.map(t => [t.id, t]));
 
-    expect(byId.episodes.value).toBe(expectedCount.toLocaleString('id-ID'));
-    expect(byId.subscribers.value).toBe(subscribers.count.toLocaleString('id-ID'));
-    expect(byId.age.value).toBe('88,7%');
-    expect(byId.returning.value).toBe('37,8%');
+    expect(byId.episodes.value).toBe(count(expectedCount));
+    expect(byId.subscribers.value).toBe(count(subscribers.count));
+    expect(byId.age.value).toBe(percent(mediaKit.age25to34Percent));
+    expect(byId.returning.value).toBe(percent(mediaKit.returningViewersPercent));
   });
 
   it('keeps the channel figures scoped to the channel and the show figure to the show', () => {
@@ -63,10 +80,15 @@ describe('getPartnerStats', () => {
   it('carries the dated, scope-limited attribution the figures depend on', () => {
     const stats = getPartnerStats();
 
-    expect(stats.attribution).toContain('Data kanal YouTube, Agustus 2026.');
+    expect(stats.attribution).toContain(
+      `Data kanal YouTube, ${monthYear(mediaKit.capturedAt)}.`
+    );
     expect(stats.supportingScope).toBe('Kanal YouTube:');
     expect(stats.supporting).toBe(
-      '87,7% dari Indonesia · 545 jam ditonton per 28 hari · rata-rata 5:58 per tayangan · minat teratas: High-End Computer Aficionados.'
+      `${percent(mediaKit.fromIndonesiaPercent)} dari Indonesia · ` +
+        `${count(mediaKit.watchHours28d)} jam ditonton per 28 hari · ` +
+        `rata-rata ${mediaKit.averageViewDuration} per tayangan · ` +
+        `minat teratas: ${mediaKit.topInterest}.`
     );
   });
 
@@ -90,16 +112,25 @@ describe('getPartnerStats', () => {
  * a second copy of the same fact — the failure this page is paying down.
  */
 describe('dated provenance', () => {
+  // Both capture dates are supplied here rather than read from the store: the
+  // property is that the printed month follows whatever is stored, which is
+  // only visible by moving it, and a case pinned to today's stored date would
+  // go red the day a maintainer refreshes the figures.
   it('formats the media-kit month from the stored capture date', () => {
-    const stats = buildPartnerStats({
+    const march = buildPartnerStats({
       ...inputs(),
       mediaKit: { ...mediaKit, capturedAt: '2027-03-14' },
     });
+    const august = buildPartnerStats({
+      ...inputs(),
+      mediaKit: { ...mediaKit, capturedAt: '2026-08-01' },
+    });
 
-    expect(stats.attribution).toContain('Data kanal YouTube, Maret 2027.');
+    expect(march.attribution).toContain('Data kanal YouTube, Maret 2027.');
+    expect(august.attribution).toContain('Data kanal YouTube, Agustus 2026.');
     // The subscriber clause carries its own, unrelated date, so the check is
     // that the media-kit month moved — not that the string vanished.
-    expect(stats.attribution).not.toContain('Data kanal YouTube, Agustus 2026');
+    expect(march.attribution).not.toContain('Data kanal YouTube, Agustus 2026');
   });
 
   it('states the subscriber figure’s own date, which is not the media kit’s', () => {
@@ -153,7 +184,9 @@ describe('when no subscriber count has been stored', () => {
   it('drops the subscriber sentence from the attribution, not the whole thing', () => {
     const attribution = withoutSubscribers().attribution;
 
-    expect(attribution).toContain('Data kanal YouTube, Agustus 2026.');
+    expect(attribution).toContain(
+      `Data kanal YouTube, ${monthYear(mediaKit.capturedAt)}.`
+    );
     expect(attribution).toContain('bukan angka Ngobrolin WEB saja');
     expect(attribution).not.toMatch(/subscriber/i);
   });
@@ -192,8 +225,25 @@ describe('single source of truth', () => {
     'src/pages/partners.astro',
     'src/pages/partners-og.png.ts',
   ];
-  const RAW = ['7100', '88.7', '37.8', '87.7', '545'];
-  const RENDERED = ['7.100', '88,7', '37,8', '87,7'];
+  /**
+   * Both lists are read out of the stores at run time, never typed here. A
+   * snapshot of today's values would fail the moment the weekly sync moved the
+   * subscriber count — turning the sync's own PR red for working — and, worse,
+   * would go on forbidding the *old* number while the one actually on the page
+   * went unguarded. What is asserted is the rule: no consumer restates whatever
+   * is currently stored, raw or rendered.
+   */
+  const FIGURES: number[] = [
+    subscribers.count,
+    ...Object.entries(mediaKit)
+      .filter(([key]) => key !== 'capturedAt')
+      .map(([, value]) => value)
+      .filter((value): value is number => typeof value === 'number'),
+  ];
+  const RAW = [...new Set(FIGURES.map(String))];
+  const RENDERED = [
+    ...new Set(FIGURES.flatMap(value => [count(value), percent(value)])),
+  ];
 
   /**
    * Inline icon markup is full of coordinates that collide with real figures
@@ -207,7 +257,11 @@ describe('single source of truth', () => {
     );
   }
 
-  it.each(RAW)('%s appears in the data store', figure => {
+  // The other half of the guard: each figure it forbids elsewhere is written,
+  // literally, in a store. A value stored in a shape that does not round-trip
+  // (88.70, or a number as a string) would leave the search looking for text
+  // that appears nowhere and quietly guarding nothing.
+  it.each(RAW)('%s is written in a data store', figure => {
     const stores = STORES.map(file =>
       readFileSync(join(process.cwd(), file), 'utf-8')
     ).join('\n');

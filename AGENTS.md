@@ -269,7 +269,8 @@ not everything on it is countable from the repo. Three rules hold it together:
   figure automatically does not change whose it is: the subscriber count is
   still a *channel* figure and stays labelled as one.
   `src/lib/partner-stats.test.ts` fails if a consumer restates a figure — raw or
-  rendered.
+  rendered — and derives both forms from the stores at test time, because a
+  literal there would go red the week the sync moved the count.
 - **Every figure is either derived or nagged about; none is merely hoped to be
   current.** Nothing on this page went wrong because updating it was hard. It
   went wrong because nothing ever announced it had gone stale. So each figure
@@ -279,7 +280,7 @@ not everything on it is countable from the repo. Three rules hold it together:
   | Figure | Store | Kept fresh by |
   | :--- | :--- | :--- |
   | Episode count, start year | `episodes.json` | Derived at build from the episode data |
-  | Channel subscribers | `channel-subscribers.json` | **Derived weekly** by `scripts/fetch-playlist.ts` |
+  | Channel subscribers | `channel-subscribers.json` | **Derived weekly** by `scripts/fetch-playlist.ts`; the same freshness workflow nags at 2 months without a successful read |
   | Age split, returning viewers, geography, watch hours, avg view duration, top interest | `media-kit.json` | **Hand-copied**; `.github/workflows/media-kit-freshness.yml` opens an issue at 4 months |
 
   Subscriber count is public `channels.list` data, so the read-only
@@ -296,7 +297,15 @@ not everything on it is countable from the repo. Three rules hold it together:
     It also declines to rewrite the file when the count has not moved: a
     one-line PR every week is how a real `episodes.json` diff gets merged
     unlooked-at.
-  - Both dates are stored as ISO (`fetchedAt`, `capturedAt`) and the Indonesian
+  - **Failing soft is not the same as failing silently.** A revoked key or an
+    exhausted quota makes every run leave the file alone, which is byte-for-byte
+    what a healthy unchanged count looks like — so the store carries a third
+    date, `checkedAt`, stamped on every *successful* read and on nothing else.
+    Writing it every week would put the weekly one-line PR back, so it is only
+    persisted once it has stood 30 days (`CHECKED_AT_REFRESH_DAYS`), and the
+    alarm is measured in months to clear that. `fetchedAt` still means "has read
+    this way since" and is still what the page prints; do not merge the two.
+  - Both published dates are stored as ISO (`fetchedAt`, `capturedAt`) and the Indonesian
     prose the page prints is **formatted from them**. A hand-written "Agustus
     2026" beside a machine-readable date is two copies of one fact, and the
     freshness check reads the stored date — never a date parsed out of rendered

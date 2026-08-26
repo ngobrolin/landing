@@ -2,11 +2,16 @@ import { describe, it, expect } from 'vitest';
 import {
   MAX_AGE_MONTHS,
   ISSUE_TITLE,
+  SUBSCRIBER_ISSUE_TITLE,
+  SUBSCRIBER_MAX_AGE_MONTHS,
   addMonths,
   assessMediaKitFreshness,
+  assessSubscriberFreshness,
   formatIssueBody,
+  formatSubscriberIssueBody,
   type MediaKitFreshness,
 } from './media-kit-freshness';
+import { CHECKED_AT_REFRESH_DAYS } from './channel-subscribers';
 
 const FIGURES = [
   { label: 'Audiens berusia 25-34', where: 'Analytics → Audience → Age' },
@@ -150,5 +155,122 @@ describe('ISSUE_TITLE', () => {
   it('is a fixed string with no date or figure in it', () => {
     expect(ISSUE_TITLE).toBeTruthy();
     expect(ISSUE_TITLE).not.toMatch(/\d/);
+  });
+});
+
+/**
+ * The derived figure's alarm. It exists because fail-soft is silent: a revoked
+ * key, or a quota exhausted for good, leaves the last known count standing and
+ * produces a run indistinguishable from a healthy week where the count did not
+ * move. `checkedAt` is what tells those apart, and this is what reads it.
+ */
+describe('assessSubscriberFreshness', () => {
+  const store = (checkedAt?: string) => ({
+    count: 7100,
+    fetchedAt: '2026-08-01',
+    ...(checkedAt === undefined ? {} : { checkedAt }),
+  });
+
+  it('is fresh while the sync keeps recording successful reads', () => {
+    const result = assessSubscriberFreshness(store('2026-08-01'), at('2026-09-15'));
+
+    expect(result.stale).toBe(false);
+    expect(result.published).toBe(true);
+    expect(result.checkedAt).toBe('2026-08-01');
+  });
+
+  it('goes stale once the reads stop for longer than the threshold', () => {
+    const due = addMonths('2026-08-01', SUBSCRIBER_MAX_AGE_MONTHS);
+    const result = assessSubscriberFreshness(store('2026-08-01'), at(due));
+
+    expect(result.stale).toBe(true);
+    expect(result.dueAt).toBe(due);
+    expect(result.count).toBe(7100);
+    expect(result.fetchedAt).toBe('2026-08-01');
+  });
+
+  // A weekly sync stamps within CHECKED_AT_REFRESH_DAYS + 7 at worst, so the
+  // healthy case must clear the threshold with room; otherwise the alarm cries
+  // wolf about a sync that is working and gets muted.
+  it('leaves room for the refresh window a working sync actually uses', () => {
+    const stamped = '2026-08-01';
+    const worstCase = new Date(
+      at(stamped).getTime() + (CHECKED_AT_REFRESH_DAYS + 7) * 24 * 60 * 60 * 1000
+    );
+
+    expect(assessSubscriberFreshness(store(stamped), worstCase).stale).toBe(false);
+  });
+
+  // Same rule as an unreadable capturedAt: a guard that cannot read its own
+  // date must not report all-clear, because that is exactly what a sync which
+  // has never run successfully looks like.
+  it.each([undefined, '', 'kemarin', '2026-13-01'])(
+    'treats an unusable stamp (%s) as stale, not as fresh',
+    value => {
+      const result = assessSubscriberFreshness(store(value), at('2026-08-02'));
+
+      expect(result.stale).toBe(true);
+      expect(result.unreadable).toBe(true);
+    }
+  );
+
+  // Nothing published means the tile is off the page, so there is no ageing
+  // claim to alarm about — nagging before the first successful sync would be an
+  // alarm about nothing, and an alarm about nothing gets ignored.
+  it.each([
+    ['nothing stored', null],
+    ['an empty store', {}],
+    ['a zero count', { count: 0, fetchedAt: '2026-08-01' }],
+    ['a malformed date', { count: 7100, fetchedAt: 'Agustus 2026' }],
+  ])('stays quiet for %s, which publishes no figure', (_label, stored) => {
+    const result = assessSubscriberFreshness(stored, at('2027-06-01'));
+
+    expect(result.published).toBe(false);
+    expect(result.stale).toBe(false);
+  });
+});
+
+describe('formatSubscriberIssueBody', () => {
+  const stale = assessSubscriberFreshness(
+    { count: 7100, fetchedAt: '2026-08-01', checkedAt: '2026-08-01' },
+    at('2027-01-15')
+  );
+
+  it('states when the count was last read and what the page still publishes', () => {
+    const body = formatSubscriberIssueBody(stale);
+
+    expect(body).toContain('2026-08-01');
+    expect(body).toContain('7100');
+    expect(body).toContain(String(stale.ageMonths));
+  });
+
+  it('points at the sync and the key rather than at the page', () => {
+    const body = formatSubscriberIssueBody(stale);
+
+    expect(body).toContain('scripts/fetch-playlist.ts');
+    expect(body).toContain('YOUTUBE_API_KEY');
+  });
+
+  // The obvious "fix" is to type the number in by hand somewhere, which puts
+  // back the second copy this page was rebuilt to remove.
+  it('tells the reader not to hand-copy the figure instead', () => {
+    expect(formatSubscriberIssueBody(stale)).toMatch(/do \*\*not\*\* hand-copy/i);
+  });
+
+  it('says plainly when there is no stamp at all', () => {
+    const missing = assessSubscriberFreshness(
+      { count: 7100, fetchedAt: '2026-08-01' },
+      at('2026-08-02')
+    );
+
+    expect(formatSubscriberIssueBody(missing)).toMatch(/no readable `checkedAt`/i);
+  });
+});
+
+describe('SUBSCRIBER_ISSUE_TITLE', () => {
+  it('is a fixed string, and not the media-kit one', () => {
+    expect(SUBSCRIBER_ISSUE_TITLE).toBeTruthy();
+    expect(SUBSCRIBER_ISSUE_TITLE).not.toMatch(/\d/);
+    expect(SUBSCRIBER_ISSUE_TITLE).not.toBe(ISSUE_TITLE);
   });
 });

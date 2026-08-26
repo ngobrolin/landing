@@ -198,6 +198,12 @@ export function getPartnerStats(): PartnerStats {
  * Read the sync's store, tolerating the shapes a half-written or hand-edited
  * file can take. A malformed store leaves the tile off rather than rendering
  * `NaN` at a sponsor.
+ *
+ * The store also carries `checkedAt`, the date of the last successful read.
+ * Nothing here publishes it: what a sponsor is owed is how old the *number* is,
+ * which is `fetchedAt`. `checkedAt` exists so the monthly freshness check can
+ * tell a sync that is quietly no longer running from one whose count has simply
+ * not moved — see `scripts/lib/media-kit-freshness.ts`.
  */
 function readStoredSubscribers(): StoredSubscribers | null {
   const stored = storedSubscribers as Partial<StoredSubscribers> | null;

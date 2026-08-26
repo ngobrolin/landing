@@ -15,6 +15,12 @@
  * finish. A transient hiccup blanking a number on the page a sponsor is sent to
  * would be a worse failure than never having automated it.
  *
+ * Failing soft *silently* would be its own version of the problem this page is
+ * paying down, though: a revoked key leaves a figure ageing on the page with
+ * nothing announcing it. So every successful read stamps `checkedAt`, and the
+ * same monthly check that nags about the hand-copied figures nags when that
+ * stamp stops moving.
+ *
  * I/O lives in `scripts/fetch-playlist.ts`; the store is
  * `src/data/channel-subscribers.json`.
  */
@@ -24,6 +30,20 @@ export interface StoredSubscribers {
   count: number;
   /** ISO date (YYYY-MM-DD) this count was first observed. */
   fetchedAt: string;
+  /**
+   * ISO date (YYYY-MM-DD) the count was last read successfully, whether or not
+   * it had moved. Optional because a store written before this existed has
+   * none, and an absent stamp is treated as "never read" by the alarm.
+   *
+   * Distinct from `fetchedAt` on purpose. `fetchedAt` answers "how old is the
+   * number the page prints", which is what a sponsor is owed and what the page
+   * renders. `checkedAt` answers "is this thing still refreshing itself at
+   * all", which is what nobody would otherwise notice: a revoked key or a
+   * permanently exhausted quota makes every run fail soft and leave the file
+   * alone, which is byte-for-byte what a healthy unchanged count looks like.
+   * `scripts/lib/media-kit-freshness.ts` nags once this stamp goes old.
+   */
+  checkedAt?: string;
 }
 
 export interface ApplyResult {
@@ -65,14 +85,55 @@ export function parseSubscriberCount(payload: unknown): number | null {
 }
 
 /**
+ * How long a `checkedAt` stamp may stand before a successful read refreshes it.
+ *
+ * The tension: the stamp is only useful if every successful read writes it, and
+ * every write to this file opens a pull request, so a stamp precise to the day
+ * would put back the weekly one-line PR the unchanged-count rule exists to
+ * avoid — and a PR nobody needs to read is how a real `episodes.json` diff
+ * sails through unlooked-at. The way out taken here is the coarsest one that
+ * still works: the stamp is written on every successful read but only *stored*
+ * once it has gone a month old, so a stalled sync is spotted while an unchanged
+ * count costs at most twelve one-line PRs a year rather than fifty-two.
+ *
+ * It works because the alarm is measured in months, not weeks (see
+ * `SUBSCRIBER_MAX_AGE_MONTHS`): a weekly sync refreshes the stamp within 30+7
+ * days at worst, comfortably inside the two-month threshold, so a healthy
+ * repository never nags and a silent one always does.
+ */
+export const CHECKED_AT_REFRESH_DAYS = 30;
+
+const DAY_MS = 24 * 60 * 60 * 1000;
+
+/**
+ * Whether a successful read should be written down, given the stamp already
+ * stored. An absent or unreadable stamp always is: the alarm reads it as "never
+ * read", so leaving it unwritten would nag about a sync that is working.
+ */
+function stampIsDue(checkedAt: string | undefined, now: Date): boolean {
+  if (typeof checkedAt !== 'string' || !/^\d{4}-\d{2}-\d{2}$/.test(checkedAt)) {
+    return true;
+  }
+
+  const stamped = new Date(`${checkedAt}T00:00:00Z`).getTime();
+  if (!Number.isFinite(stamped)) return true;
+
+  return now.getTime() - stamped >= CHECKED_AT_REFRESH_DAYS * DAY_MS;
+}
+
+/**
  * Decide what to store, given what is stored and what (if anything) arrived.
  *
- * An unchanged count is deliberately *not* a write. The sync opens a pull
- * request from its diff, so re-stamping `fetchedAt` every week would open a
- * one-line PR every week — and a PR nobody needs to read is exactly how a real
- * episodes.json diff sails through unlooked-at. `fetchedAt` therefore means
- * "this figure has read this way since", which is the honest, understating
- * direction; the page says so rather than implying a fresher reading.
+ * An unchanged count is deliberately *not* a write of the count. The sync opens
+ * a pull request from its diff, so re-stamping `fetchedAt` every week would open
+ * a one-line PR every week. `fetchedAt` therefore means "this figure has read
+ * this way since", which is the honest, understating direction; the page says so
+ * rather than implying a fresher reading. Only `checkedAt` moves on an unchanged
+ * count, and only once a month — see `CHECKED_AT_REFRESH_DAYS`.
+ *
+ * A failed read writes nothing at all. That is the point of the stamp: a run
+ * that could not reach the API must leave every date exactly where it was, so
+ * the silence accumulates until something says so.
  */
 export function applySubscriberCount(
   stored: StoredSubscribers | null,
@@ -84,26 +145,34 @@ export function applySubscriberCount(
       next: stored,
       updated: false,
       reason: stored
-        ? `Channel statistics unavailable; keeping the last known ${stored.count} subscribers from ${stored.fetchedAt}.`
+        ? `Channel statistics unavailable; keeping the last known ${stored.count} subscribers from ${stored.fetchedAt} (last read successfully ${stored.checkedAt ?? 'never'}).`
         : 'Channel statistics unavailable and none stored; the subscriber tile stays off the page.',
     };
   }
 
+  const today = now.toISOString().slice(0, 10);
+
   if (stored && stored.count === count) {
+    if (!stampIsDue(stored.checkedAt, now)) {
+      return {
+        next: stored,
+        updated: false,
+        reason: `Subscriber count unchanged at ${count} (recorded ${stored.fetchedAt}, last read ${stored.checkedAt}); not rewriting the file.`,
+      };
+    }
+
     return {
-      next: stored,
-      updated: false,
-      reason: `Subscriber count unchanged at ${count} (recorded ${stored.fetchedAt}); not rewriting the file.`,
+      next: { ...stored, checkedAt: today },
+      updated: true,
+      reason: `Subscriber count unchanged at ${count} (recorded ${stored.fetchedAt}); refreshing the last-read stamp to ${today}.`,
     };
   }
 
-  const fetchedAt = now.toISOString().slice(0, 10);
-
   return {
-    next: { count, fetchedAt },
+    next: { count, fetchedAt: today, checkedAt: today },
     updated: true,
     reason: stored
-      ? `Subscriber count moved ${stored.count} → ${count}; recorded ${fetchedAt}.`
-      : `Subscriber count ${count} recorded ${fetchedAt}.`,
+      ? `Subscriber count moved ${stored.count} → ${count}; recorded ${today}.`
+      : `Subscriber count ${count} recorded ${today}.`,
   };
 }
