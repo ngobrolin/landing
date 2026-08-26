@@ -9,7 +9,15 @@ const featuredTestimonials = testimonials.filter(t => t.featured);
 
 // Derived, never hardcoded: a literal here goes stale the week after it is
 // written, on the one page whose whole job is to be believed.
-const episodeCount = getEpisodes().length;
+const episodes = getEpisodes();
+const episodeCount = episodes.length;
+
+// A fixed start year stays true forever; a tenure counter ("4+ Tahun") is only
+// true if somebody remembers to bump it, which is the failure behind "164+".
+const firstYear = episodes.reduce((earliest, ep) => {
+  const year = new Date(ep.publishedAt).getUTCFullYear();
+  return year < earliest ? year : earliest;
+}, new Date().getUTCFullYear());
 
 // Ngobrolin WEB is one of two shows on the channel, so every channel figure
 // below is labelled as such. Presenting them as the show's own would be the
@@ -83,7 +91,7 @@ const stats = [
       </div>
 
       <p class="max-w-4xl mx-auto mt-10 text-center text-sm text-gray-400" data-testid="stat-supporting">
-        87,7% dari Indonesia · 545 jam ditonton per 28 hari · rata-rata 5:58 per tayangan · minat teratas: High-End Computer Aficionados.
+        <span data-testid="stat-supporting-scope">Kanal YouTube:</span> 87,7% dari Indonesia · 545 jam ditonton per 28 hari · rata-rata 5:58 per tayangan · minat teratas: High-End Computer Aficionados.
       </p>
 
       <p class="max-w-4xl mx-auto mt-3 text-center text-xs text-gray-500" data-testid="stat-attribution">
@@ -156,8 +164,8 @@ const stats = [
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
             </svg>
           </div>
-          <h3 class="text-white font-semibold text-lg mb-2">Konsistensi 4+ Tahun</h3>
-          <p class="text-gray-400">Track record yang terbukti dengan <span data-testid="prose-episode-count">{episodeCount.toLocaleString('id-ID')}</span> episode dan komunitas yang loyal sejak 2022.</p>
+          <h3 class="text-white font-semibold text-lg mb-2" data-testid="consistency-heading">Konsisten sejak <span data-testid="consistency-year">{firstYear}</span></h3>
+          <p class="text-gray-400">Track record yang terbukti dengan <span data-testid="prose-episode-count">{episodeCount.toLocaleString('id-ID')}</span> episode dan komunitas yang loyal sejak <span data-testid="prose-first-year">{firstYear}</span>.</p>
         </div>
       </div>
     </div>

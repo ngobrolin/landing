@@ -1,5 +1,5 @@
 import { test, expect } from '@playwright/test';
-import { readFileSync, readdirSync, statSync } from 'fs';
+import { existsSync, readFileSync, readdirSync, statSync } from 'fs';
 import { join } from 'path';
 
 const EPISODES_FILE = join(process.cwd(), 'src/data/episodes.json');
@@ -15,12 +15,41 @@ function episodeCount(): number {
   return JSON.parse(readFileSync(EPISODES_FILE, 'utf-8')).length;
 }
 
+/**
+ * getEpisodes() is sorted newest-first, but taking the minimum year does not
+ * depend on that: it is the first year the show aired either way.
+ */
+function firstEpisodeYear(): number {
+  const episodes = JSON.parse(readFileSync(EPISODES_FILE, 'utf-8'));
+  return Math.min(
+    ...episodes.map((ep: { publishedAt: string }) =>
+      new Date(ep.publishedAt).getUTCFullYear()
+    )
+  );
+}
+
 function* htmlFiles(dir: string): Generator<string> {
   for (const entry of readdirSync(dir)) {
     const path = join(dir, entry);
     if (statSync(path).isDirectory()) yield* htmlFiles(path);
     else if (path.endsWith('.html')) yield path;
   }
+}
+
+/**
+ * The sweep reads the filesystem, not the server. Playwright reuses an existing
+ * dev server locally, so nothing guarantees a build ever ran: fail with the
+ * command to run instead of an opaque ENOENT, or a pass against a stale dist
+ * that never contained this page.
+ */
+function builtHtmlFiles(): string[] {
+  const partnersPage = join(DIST_DIR, 'partners', 'index.html');
+  if (!existsSync(partnersPage)) {
+    throw new Error(
+      `No build output for /partners at ${partnersPage}. This test sweeps the built site — run "pnpm run build" first.`
+    );
+  }
+  return [...htmlFiles(DIST_DIR)];
 }
 
 test.describe('Partners sponsor metrics', () => {
@@ -41,7 +70,7 @@ test.describe('Partners sponsor metrics', () => {
 
   test('the unverifiable per-episode views claim is gone from the build', () => {
     const offenders: string[] = [];
-    for (const file of htmlFiles(DIST_DIR)) {
+    for (const file of builtHtmlFiles()) {
       const html = readFileSync(file, 'utf-8');
       if (html.includes('1K+') || html.includes('Views/Episode')) {
         offenders.push(file);
@@ -81,7 +110,7 @@ test.describe('Partners sponsor metrics', () => {
     await page.goto('/partners');
 
     await expect(page.getByTestId('stat-supporting')).toHaveText(
-      '87,7% dari Indonesia · 545 jam ditonton per 28 hari · rata-rata 5:58 per tayangan · minat teratas: High-End Computer Aficionados.'
+      'Kanal YouTube: 87,7% dari Indonesia · 545 jam ditonton per 28 hari · rata-rata 5:58 per tayangan · minat teratas: High-End Computer Aficionados.'
     );
 
     // Undated, these become the next unverifiable claim within six months.
@@ -106,6 +135,27 @@ test.describe('Partners sponsor metrics', () => {
     const showTile = page.getByTestId('stat-episodes').locator('..');
     await expect(showTile.getByTestId('stat-scope')).toHaveText(
       'Ngobrolin WEB'
+    );
+
+    // The supporting figures are channel-wide too, and a sponsor skims figures
+    // rather than the attribution prose that follows them.
+    await expect(page.getByTestId('stat-supporting-scope')).toHaveText(
+      'Kanal YouTube:'
+    );
+  });
+
+  // "4+ Tahun" was true only from November 2026; a start year never goes stale.
+  test('the consistency card states a derived start year, not a tenure count', async ({
+    page,
+  }) => {
+    await page.goto('/partners');
+
+    const heading = page.getByTestId('consistency-heading');
+    await expect(heading).toHaveText(`Konsisten sejak ${firstEpisodeYear()}`);
+    await expect(heading).not.toContainText('4+');
+
+    await expect(page.getByTestId('prose-first-year')).toHaveText(
+      String(firstEpisodeYear())
     );
   });
 
