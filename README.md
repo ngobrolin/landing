@@ -51,6 +51,11 @@ Use the printed command rather than deleting `episodes.json`, which would re-der
 slug from its current YouTube title and move published URLs. The weekly workflow takes the
 shrink override through its `allow_shrink` `workflow_dispatch` input.
 
+The same run also refreshes `src/data/channel-subscribers.json` — the channel subscriber
+count `/partners` publishes — from public `channels.list` data using that same read-only
+key. It never fails the run and only rewrites the file when the count moves, so most runs
+log it and leave it alone. See "`/partners` figures" in `AGENTS.md` for the rules.
+
 ## Transcription
 
 Three transcription backends write the same transcript JSON shape. Prefer YouTube
