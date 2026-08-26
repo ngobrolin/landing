@@ -19,26 +19,28 @@ const filteredEpisodes =
     : allEpisodes;
 
 const initialEpisodes = filteredEpisodes;
-const searchData = initialEpisodes.map((ep, idx) => ({
+
+// The island carries ONLY what Fuse actually indexes, plus the slug used to
+// map a hit back to its already-rendered card. Shipping thumbnail/date/number
+// here too was ~14KB of payload that nothing ever read.
+const searchData = initialEpisodes.map((ep) => ({
   title: ep.title,
   description: ep.description,
   brief: ep.brief,
   slug: ep.slug,
-  episodeNumber: ep.episodeNumber,
-  thumbnail: ep.thumbnail,
-  publishedAt: ep.publishedAt,
-  isNew: idx < 2,
 }));
 ---
 
 <div class="mb-8">
-  <div class="relative">
+  <div class="relative" role="search">
     <input
       type="text"
       id="search-input"
       name="q"
       placeholder="Cari episode..."
       aria-label="Cari episode"
+      aria-controls="episodes-grid"
+      autocomplete="off"
       class="w-full bg-dark-card border border-dark-border rounded-lg px-4 py-3 pl-12 text-white placeholder-gray-500 focus:outline-none focus:border-primary transition"
     />
     <svg
@@ -46,6 +48,7 @@ const searchData = initialEpisodes.map((ep, idx) => ({
       fill="none"
       stroke="currentColor"
       viewBox="0 0 24 24"
+      aria-hidden="true"
     >
       <path
         stroke-linecap="round"
@@ -55,6 +58,8 @@ const searchData = initialEpisodes.map((ep, idx) => ({
     </svg>
     <button
       id="clear-search"
+      type="button"
+      aria-label="Hapus pencarian"
       class="absolute right-4 top-1/2 -translate-y-1/2 text-gray-500 hover:text-white transition hidden"
     >
       <svg
@@ -62,6 +67,7 @@ const searchData = initialEpisodes.map((ep, idx) => ({
         fill="none"
         stroke="currentColor"
         viewBox="0 0 24 24"
+        aria-hidden="true"
       >
         <path
           stroke-linecap="round"
@@ -71,7 +77,13 @@ const searchData = initialEpisodes.map((ep, idx) => ({
       </svg>
     </button>
   </div>
-  <p id="search-results-count" class="text-gray-400 text-sm mt-2 hidden"></p>
+  <p
+    id="search-results-count"
+    class="text-gray-400 text-sm mt-2 hidden"
+    role="status"
+    aria-live="polite"
+  >
+  </p>
 </div>
 
 <div
@@ -79,7 +91,7 @@ const searchData = initialEpisodes.map((ep, idx) => ({
   class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6"
 >
   {
-    searchData.map((episode, index) => (
+    initialEpisodes.map((episode, index) => (
       <EpisodeCard
         title={episode.title}
         description={episode.description}
@@ -87,7 +99,7 @@ const searchData = initialEpisodes.map((ep, idx) => ({
         thumbnail={episode.thumbnail}
         episodeNumber={episode.episodeNumber}
         slug={episode.slug}
-        isNew={episode.isNew}
+        isNew={index < 2}
         loading={index < 4 ? "eager" : "lazy"}
         fetchPriority={index === 0 ? "high" : undefined}
         brief={episode.brief}
@@ -109,146 +121,142 @@ const searchData = initialEpisodes.map((ep, idx) => ({
 
 <script>
   import Fuse from "fuse.js";
-  window.Fuse = Fuse;
-</script>
 
-<script is:inline data-astro-rerun>
-  (function initSearch() {
-    const input = document.getElementById("search-input");
+  // Search filters the cards Astro already rendered rather than re-rendering
+  // them from a JS template. The old template was a second, drifting copy of
+  // EpisodeCard: it hardcoded #6366f1 instead of the palette's #5c5fed, built
+  // unoptimised image markup that bypassed Astro's asset pipeline, and dropped
+  // the offline indicator. Toggling visibility keeps one source of truth.
+  //
+  // Relevance order is applied with CSS `order` on the grid items, so hits stay
+  // ranked without touching the DOM structure.
+  function initSearch() {
+    const input = document.getElementById(
+      "search-input"
+    ) as HTMLInputElement | null;
     if (!input) return;
 
-    // Guard: prevent duplicate initialization
-    if (input.hasAttribute("data-search-initialized")) return;
-    input.setAttribute("data-search-initialized", "true");
+    // Fresh DOM after a client-side navigation won't carry this flag.
+    if (input.dataset.searchInitialized === "true") return;
 
-    const searchData = JSON.parse(
-      document.getElementById("episodes-data")?.textContent || "[]"
-    );
+    const grid = document.getElementById("episodes-grid");
+    const noResults = document.getElementById("no-results");
+    const resultsCount = document.getElementById("search-results-count");
+    const clearBtn = document.getElementById("clear-search");
+    const dataEl = document.getElementById("episodes-data");
+    if (!grid || !noResults || !resultsCount || !clearBtn || !dataEl) return;
 
-    const fuse = new window.Fuse(searchData, {
+    let searchData: Array<{ slug: string }> = [];
+    try {
+      searchData = JSON.parse(dataEl.textContent || "[]");
+    } catch {
+      return;
+    }
+
+    const fuse = new Fuse(searchData, {
       keys: ["title", "description", "brief"],
       threshold: 0.4,
       includeScore: true,
     });
 
-    const clearBtn = document.getElementById("clear-search");
-    const grid = document.getElementById("episodes-grid");
-    const noResults = document.getElementById("no-results");
-    const resultsCount = document.getElementById("search-results-count");
-
-    // Store the initial content to restore it when search is cleared
-    const initialContent = grid.innerHTML;
-
-    function formatDate(dateStr) {
-      return new Date(dateStr).toLocaleDateString("id-ID", {
-        day: "numeric",
-        month: "short",
-        year: "numeric",
-      });
+    const cards = new Map<string, HTMLElement>();
+    for (const card of Array.from(
+      grid.querySelectorAll<HTMLElement>("[data-episode-slug]")
+    )) {
+      cards.set(card.dataset.episodeSlug || "", card);
     }
 
-    function escapeHtml(text) {
-      const div = document.createElement("div");
-      div.textContent = text;
-      return div.innerHTML;
-    }
+    // Only mark initialised once everything above has succeeded. Setting the
+    // flag before the risky work is what turned the previous Fuse ordering bug
+    // into a permanent failure instead of a recoverable one.
+    input.dataset.searchInitialized = "true";
 
-    function renderEpisodes(episodes) {
-      if (episodes.length === 0) {
-        grid.classList.add("hidden");
-        noResults.classList.remove("hidden");
-        resultsCount.classList.add("hidden");
-        return;
+    function showAll() {
+      for (const card of cards.values()) {
+        card.hidden = false;
+        card.style.order = "";
       }
-
-      grid.classList.remove("hidden");
-      noResults.classList.add("hidden");
-
-      const truncate = (text, len) =>
-        text.length > len ? text.substring(0, len) + "..." : text;
-
-      grid.innerHTML = episodes
-        .map((ep) => {
-          const displayDesc = ep.brief || ep.description;
-          return `
-        <a
-          href="/episodes/${escapeHtml(ep.slug)}"
-          class="group block bg-[#1a1a1a] border border-[#2a2a2a] rounded-xl overflow-hidden hover:border-[#6366f1]/50 transition-all duration-300 hover:shadow-lg hover:shadow-[#6366f1]/10"
-        >
-          <div class="relative aspect-video overflow-hidden">
-            <img
-              src="${escapeHtml(ep.thumbnail)}"
-              alt="${escapeHtml(ep.title)}"
-              class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-              loading="lazy"
-            />
-            ${ep.isNew ? '<span class="absolute top-3 left-3 bg-[#6366f1] text-white text-xs font-bold px-2 py-1 rounded">BARU</span>' : ""}
-            <div class="absolute bottom-3 left-3 bg-black/70 text-white text-xs font-medium px-2 py-1 rounded">
-              EP ${ep.episodeNumber}
-            </div>
-          </div>
-          <div class="p-4">
-            <p class="text-gray-400 text-xs mb-2">${formatDate(ep.publishedAt)}</p>
-            <h3 class="text-white font-semibold mb-2 group-hover:text-[#818cf8] transition line-clamp-2">
-              ${escapeHtml(ep.title)}
-            </h3>
-            <p class="text-gray-400 text-sm line-clamp-2">
-              ${escapeHtml(truncate(displayDesc, 120))}
-            </p>
-          </div>
-        </a>
-      `;
-        })
-        .join("");
+      grid!.hidden = false;
+      noResults!.classList.add("hidden");
+      resultsCount!.classList.add("hidden");
     }
 
     function handleSearch() {
-      const query = input.value.trim();
-
-      clearBtn.classList.toggle("hidden", !query);
+      const query = input!.value.trim();
+      clearBtn!.classList.toggle("hidden", !query);
 
       if (!query) {
-        grid.innerHTML = initialContent;
-        grid.classList.remove("hidden");
-        noResults.classList.add("hidden");
-        resultsCount.classList.add("hidden");
+        showAll();
         return;
       }
 
-      const results = fuse.search(query).map((r) => r.item);
-      renderEpisodes(results);
+      const hits = fuse.search(query);
+      const rank = new Map<string, number>();
+      hits.forEach((hit, i) => rank.set(hit.item.slug, i));
 
-      if (results.length > 0) {
-        resultsCount.textContent = `${results.length} episode ditemukan`;
-        resultsCount.classList.remove("hidden");
+      for (const [slug, card] of cards) {
+        const position = rank.get(slug);
+        const isHit = position !== undefined;
+        card.hidden = !isHit;
+        card.style.order = isHit ? String(position) : "";
+      }
+
+      const found = rank.size;
+      grid!.hidden = found === 0;
+      noResults!.classList.toggle("hidden", found > 0);
+
+      if (found > 0) {
+        resultsCount!.textContent = `${found} episode ditemukan`;
+        resultsCount!.classList.remove("hidden");
       } else {
-        resultsCount.classList.add("hidden");
+        resultsCount!.classList.add("hidden");
       }
     }
 
     input.addEventListener("input", handleSearch);
 
-    // Prefill from querystring, so search results are shareable (/episodes/?q=...)
-    const initialQuery =
-      new URLSearchParams(window.location.search).get("q") ||
-      new URLSearchParams(window.location.search).get("query");
-    if (initialQuery) {
-      input.value = initialQuery;
-      handleSearch();
-    }
-
     clearBtn.addEventListener("click", () => {
-      input.value = "";
+      input!.value = "";
       handleSearch();
-      input.focus();
+      input!.focus();
     });
-  })();
-</script>
-<style>
-  .line-clamp-2 {
-    display: -webkit-box;
-    -webkit-line-clamp: 2;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
+
+    // Prefill from the querystring so results are shareable, and because
+    // Layout.astro advertises /episodes/?q={search_term_string} to search
+    // engines as a schema.org SearchAction.
+    const params = new URLSearchParams(window.location.search);
+    const initialQuery = params.get("q") || params.get("query");
+    if (initialQuery) input.value = initialQuery;
+
+    // Run once against whatever is already in the field. That covers the
+    // querystring above, and also the visitor who starts typing before this
+    // module has finished loading — the input is focusable the moment the
+    // markup lands, but their `input` events fire into nothing until the
+    // listener above exists, and no further event would ever replay them.
+    // Without this, arriving via a client-side navigation and typing quickly
+    // leaves the query sitting in the box with the full archive below it.
+    if (input.value.trim()) handleSearch();
   }
-</style>
+
+  // ClientRouter is site-wide, so this has to survive client-side navigation.
+  // `data-astro-rerun` is not available to us: this script has an import, so
+  // Astro bundles it as a module and that attribute only applies to inline
+  // scripts. Three hooks, each earned by measurement rather than superstition:
+  //
+  //  1. Call it now. On a first load the module is deferred until after
+  //     parsing, so the DOM is ready. This also covers arriving at a page
+  //     whose module finishes loading *after* astro:page-load has fired.
+  //  2. astro:after-swap. Navigating / -> /episodes was measured to fire
+  //     before-preparation, after-preparation, before-swap and after-swap,
+  //     but NOT page-load, because this module had never loaded on / and so
+  //     was still arriving when the navigation completed. after-swap is the
+  //     hook that actually fires on that path.
+  //  3. astro:page-load. The canonical hook, and the one that fires when the
+  //     module was already loaded by a previous page.
+  //
+  // initSearch is idempotent (it guards on the input element, and the swapped
+  // DOM carries a fresh input), so overlapping hooks cannot double-bind.
+  initSearch();
+  document.addEventListener("astro:after-swap", initSearch);
+  document.addEventListener("astro:page-load", initSearch);
+</script>
