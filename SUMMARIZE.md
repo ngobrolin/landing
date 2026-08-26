@@ -73,3 +73,8 @@ Create the summary file at `src/data/summaries/{videoId}.json`:
 - Keep the brief concise but informative
 - Key points should be actionable/memorable takeaways
 - Create `src/data/summaries/` directory if it doesn't exist
+- `src/data/summaries.test.ts` enforces this contract: `videoId` must equal the
+  filename, `generatedAt`/`brief`/every key point must be non-empty, key points
+  must number 5-7, and no unfilled template placeholder (`{...}`, `TODO`, `TBD`)
+  may survive. Run `pnpm run test:unit` after adding a summary. A handful of
+  older files are grandfathered in that test; do not copy their shape.

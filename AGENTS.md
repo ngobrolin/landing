@@ -25,7 +25,7 @@
   - Transcripts live in `src/data/transcripts/<videoId>.json` and are rendered by `src/components/Transcript.astro`. A `source` field records provenance; it is absent on transcripts generated before the field existed, so treat it as optional everywhere.
 - **Components:** UI components in `src/components/` (e.g., `EpisodeCard.astro`, `YouTubeEmbed.astro`).
 - **Testing:**
-  - **Unit Tests:** Vitest for logic in `src/lib/` and `scripts/lib/`.
+  - **Unit Tests:** Vitest, colocated with what they cover (see Coding Conventions).
   - **E2E Tests:** Playwright for browser-based testing (`e2e/` folder).
 
 ## Development Workflow
@@ -110,7 +110,7 @@ See "Fetch YouTube Playlist Data" in `README.md` for how to run
 - **TypeScript:** Strict typing is encouraged. Use interfaces for data models (e.g., `Episode` interface in `src/lib/episodes.ts`).
 - **Styling:** Use Tailwind CSS utility classes directly in markup. Configuration is handled via the `@tailwindcss/vite` plugin in `astro.config.mjs`.
 - **Testing:**
-  - Write unit tests for utility functions in `src/lib/` or `scripts/lib/` alongside the source file (e.g., `episodes.test.ts`, `playlist-drift.test.ts`).
+  - Write unit tests alongside what they cover: logic next to its source in `src/lib/` or `scripts/lib/` (e.g., `episodes.test.ts`, `playlist-drift.test.ts`), data-shape guards next to their data (e.g., `src/data/summaries.test.ts`).
   - Write E2E tests in `e2e/` for page navigation and user flows.
 - **Routing:** Use Astro's file-based routing. Dynamic parameters are handled with square brackets (e.g., `[slug].astro`).
 
