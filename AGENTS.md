@@ -148,6 +148,37 @@ Two things worth knowing before touching that path:
   `src/lib/slugs.golden.txt` lists every address the site has published and `src/lib/slug.test.ts`
   asserts each still resolves — a subset guard, so new episodes may add addresses but dropping one
   takes a deliberate edit to the golden file. Do not re-derive from `title` where a slug is stored.
+- **The sync never deletes an episode record, and refuses to write a shrunken one.** A video
+  that goes private, is deleted, or is simply dropped from the playlist stops coming back from
+  the sync; rebuilding `episodes.json` from the sync alone used to erase its whole record —
+  slug, audio metadata and all — which silently drops it from the podcast feed and frees its
+  URL to move if it ever returns. `scripts/lib/episode-merge.ts` retains such records and marks
+  them `absentFromPlaylistSince` (optional, like `source` on transcripts — nothing reads it, and
+  the site and feed still carry the episode). `scripts/lib/sync-guards.ts` holds the refusals:
+  an existing-but-empty `episodes.json` is not a valid baseline, an absent one needs
+  `ALLOW_EMPTY_BASELINE=1`, and a shrink past the band exits non-zero without writing unless
+  `ALLOW_SYNC_SHRINK=<count>` authorizes at least that many (also a `workflow_dispatch` input,
+  `allow_shrink`, on `.github/workflows/fetch-playlist.yml`). A zero-entry sync is refused
+  outright and no override reaches it. Both overrides are per-run; nothing persists them.
+  Removing an episode for real is a deliberate human edit, not something the sync does.
+- **A refusal in an unattended workflow states its own sanctioned override, verbatim and
+  copy-pasteable — and that override authorizes one specific magnitude, never everything.** The
+  sync floor refuses *before* the merge, so a refused run stamps nothing and the next run measures
+  the identical shrink — a guard with no way through deadlocks the weekly cron forever, and the
+  escape a maintainer then invents is `rm src/data/episodes.json`, which re-derives every slug
+  from its current YouTube title. So the refusal prints the exact command with the observed count
+  already in it, and `ALLOW_SYNC_SHRINK=10` means "I know about these ten": a run that then loses
+  an API page still refuses rather than stamping 50. A refusal whose own basis is that the state
+  cannot occur takes no override at all. `scripts/lib/sync-guards.ts` owns the refusal text, and
+  `scripts/lib/sync-guards.test.ts` asserts each message contains its own override command so the
+  two cannot drift apart. Same reasoning as the false-red note below: a guard that teaches a
+  maintainer to do the wrong thing is worse than no guard.
+- **A test over `src/data/*.json` asserts an invariant that survives the data growing, never a
+  property of today's snapshot.** Automation rewrites those files, so a snapshot assertion turns
+  the automated sync PR red and invites the next maintainer to "fix" it by deleting the new data.
+  The two that follow this: the golden slug guard in `src/lib/slug.test.ts` (a subset, not exact
+  equality) and the `absentFromPlaylistSince` optionality assertion in
+  `src/lib/episode-retention.test.ts` (absent *or* a valid stamp, not absent everywhere).
 
 ## Learnings & Best Practices
 

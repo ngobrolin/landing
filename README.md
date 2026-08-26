@@ -36,7 +36,20 @@ To fetch all episodes from the YouTube playlist:
 YOUTUBE_API_KEY=your_api_key pnpm exec tsx scripts/fetch-playlist.ts
 ```
 
-This will update `src/data/episodes.json` with all playlist videos.
+This merges the playlist into `src/data/episodes.json`. It never deletes a record: an
+episode the playlist stops returning (private, deleted, or simply removed) keeps its
+entry — slug, audio metadata and all — and is marked `absentFromPlaylistSince`, so it
+stays on the site and in the podcast feed. Every retention, reappearance and
+private/deleted video is logged.
+
+The script refuses to write and exits non-zero when the result would be untrustworthy —
+an unreadable or empty `episodes.json`, a sync returning nothing, or a shrink beyond its
+floor. Where an override exists it is printed with the refusal, already filled in and
+copy-pasteable (`ALLOW_SYNC_SHRINK=<count>`, `ALLOW_EMPTY_BASELINE=1`); both are per-run
+only, and a sync returning zero entries takes no override at all.
+Use the printed command rather than deleting `episodes.json`, which would re-derive every
+slug from its current YouTube title and move published URLs. The weekly workflow takes the
+shrink override through its `allow_shrink` `workflow_dispatch` input.
 
 ## Transcription
 
