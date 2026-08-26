@@ -8,7 +8,7 @@
     "Halaman bisa dirakit dekat pengunjungnya lengkap dengan bahasa, mata uang, dan pilihan produk sesuai wilayah, bukan sekadar aset statis",
     "Kalau aplikasi tersebar tapi basis datanya di satu benua, jaraknya tetap terasa — Fly.io menjawabnya dengan klaster Postgres tersebar, dan Turso dengan membawa SQLite ke edge",
     "Jalan yang lebih murah adalah menyebar cache-nya saja, dengan konsekuensi klasik: membatalkan cache adalah salah satu masalah tersulit di komputasi",
-    "Edge cepat menyala karena abstraksinya jauh lebih ringan — jenjangnya dari mesin fisik, virtualisasi, Docker dan Kubernetes, sampai runtime JavaScript",
-    "Mesin tiap penyedia berbeda, Deno misalnya berdiri di atas V8, tapi karena mengacu pada standar web API yang sama kode yang ditulis tetap serupa"
+    "Edge cepat menyala karena abstraksinya jauh lebih ringan — jenjangnya dari mesin fisik, virtualisasi, Docker dan Kubernetes, sampai runtime JavaScript; mesin tiap penyedia berbeda, Deno misalnya berdiri di atas V8, tapi standar web API-nya sama sehingga kode yang ditulis tetap serupa",
+    "Serverless bukan berarti tidak ada server, melainkan servernya bukan kita yang maintain — analoginya wireless yang di dalamnya tetap ada kabel, hanya saja kita tidak berurusan dengannya"
   ]
 }
