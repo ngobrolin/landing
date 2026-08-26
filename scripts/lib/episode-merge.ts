@@ -9,17 +9,10 @@
  */
 
 import { deriveSlug } from "../../src/lib/slug";
+import type { Episode } from "./playlist-episodes";
 
 /** An episode as it comes back from the playlist sync — no local fields yet. */
-export interface SyncedEpisode {
-  videoId: string;
-  title: string;
-  description: string;
-  publishedAt: string;
-  thumbnail: string;
-  position: number;
-  duration?: string;
-}
+export type SyncedEpisode = Episode;
 
 /** An episode as `src/data/episodes.json` holds it, with the local-only fields. */
 export interface StoredEpisode extends SyncedEpisode {

@@ -1,20 +1,10 @@
 import { test, expect } from '@playwright/test';
 import { readFileSync, readdirSync } from 'fs';
 import { join } from 'path';
+import { resolveSlug } from '../src/lib/slug';
 
 const TRANSCRIPTS_DIR = join(process.cwd(), 'src/data/transcripts');
 const EPISODES_FILE = join(process.cwd(), 'src/data/episodes.json');
-
-// Mirrors resolveSlug() in src/lib/slug.ts. Duplicated rather than imported
-// because Playwright's loader cannot resolve that module through episodes.ts.
-function resolveSlug(ep: { videoId: string; title: string; slug?: string }): string {
-  return ep.slug || `${ep.videoId}-${ep.title
-    .toLowerCase()
-    .replace(/[^a-z0-9\s-]/g, '')
-    .replace(/\s+/g, '-')
-    .replace(/-+/g, '-')
-    .trim()}`;
-}
 
 /** Find the page path of an episode whose transcript has the given `source`. */
 function episodePathWithSource(source: string | undefined): string {

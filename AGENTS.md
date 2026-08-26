@@ -122,8 +122,10 @@ Two things worth knowing before touching that path:
   redirect and nothing erroring. Every record in `src/data/episodes.json` now carries a `slug`;
   `src/lib/slug.ts` resolves it (falling back to the title derivation only for a record written
   before the field existed) and `scripts/lib/episode-merge.ts` carries it across every sync
-  alongside the audio metadata. `src/lib/slugs.golden.txt` pins all 178 shipped addresses so a
-  reintroduced title derivation fails a test instead of a URL. Do not re-derive from `title`
+  alongside the audio metadata. `src/lib/slugs.golden.txt` records every address the site has
+  published and `src/lib/slug.test.ts` asserts each one still resolves, so a reintroduced title
+  derivation fails a test instead of a URL. It is a subset guard: new episodes may add addresses,
+  but removing one has to be a deliberate edit to the golden file. Do not re-derive from `title`
   anywhere a stored slug exists.
 
 ## Learnings & Best Practices

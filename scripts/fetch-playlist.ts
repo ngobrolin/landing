@@ -174,12 +174,36 @@ async function main() {
     const outputPath = new URL('../src/data/episodes.json', import.meta.url);
     const fs = await import('fs');
 
-    // Check for new episodes and preserve existing metadata (like audioUrl)
+    // Check for new episodes and preserve existing metadata (like audioUrl).
+    // Only a genuinely absent file may start from an empty baseline: merging
+    // against [] treats every episode as new and recomputes its slug from the
+    // current YouTube title, which is what stored slugs exist to prevent.
     let existingEpisodes: Episode[] = [];
+    let rawExisting: string | undefined;
     try {
-      existingEpisodes = JSON.parse(fs.readFileSync(outputPath, 'utf-8')) as Episode[];
-    } catch {
-      // No existing file
+      rawExisting = fs.readFileSync(outputPath, 'utf-8');
+    } catch (error) {
+      if ((error as { code?: string }).code !== 'ENOENT') {
+        console.error(`Could not read src/data/episodes.json: ${(error as Error).message}`);
+        console.error('Refusing to continue: an unreadable file is not an empty one, and merging against an empty baseline would re-derive every slug from its current title.');
+        process.exit(1);
+      }
+      console.log('No existing src/data/episodes.json; starting from an empty baseline.');
+    }
+
+    if (rawExisting !== undefined) {
+      try {
+        existingEpisodes = JSON.parse(rawExisting) as Episode[];
+      } catch (error) {
+        console.error(`src/data/episodes.json is present but unparseable: ${(error as Error).message}`);
+        console.error('Refusing to continue: merging against an empty baseline would re-derive every slug from its current title and move indexed URLs. Restore the file from git and re-run.');
+        process.exit(1);
+      }
+
+      if (!Array.isArray(existingEpisodes)) {
+        console.error('src/data/episodes.json parsed but is not an array. Refusing to continue; restore the file from git and re-run.');
+        process.exit(1);
+      }
     }
 
     const existingVideoIds = new Set(existingEpisodes.map(e => e.videoId));

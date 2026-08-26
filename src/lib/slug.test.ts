@@ -32,26 +32,42 @@ describe('resolveSlug', () => {
 });
 
 describe('slug stability', () => {
+  // The golden file records every address the site has published. The guard is
+  // a SUBSET check, not an equality one: every golden address must still
+  // resolve, but new episodes may add addresses freely — growth is not churn,
+  // and the weekly unattended playlist sync must not turn CI red for it.
+  //
+  // A REMOVED episode is still caught: its golden address stops resolving and
+  // this fails. That is intended. Striking an address should be a deliberate,
+  // visible edit to the golden file with a reason in the commit, never
+  // something CI waves through.
   const golden = readFileSync(join(process.cwd(), 'src/lib/slugs.golden.txt'), 'utf-8')
     .trim()
     .split('\n');
 
   it('every episode still resolves to the address it had before slugs were stored', () => {
-    expect(getEpisodes().map((ep) => ep.slug)).toEqual(golden);
+    const current = new Set(getEpisodes().map((ep) => ep.slug));
+    expect(golden.filter((slug) => !current.has(slug))).toEqual([]);
   });
 
   it('the podcast feed resolves to those same addresses', () => {
-    const web = new Set(golden);
-    for (const ep of getPodcastEpisodes()) {
-      expect(web.has(ep.slug)).toBe(true);
-    }
+    const web = new Set(getEpisodes().map((ep) => ep.slug));
+    expect(getPodcastEpisodes().map((ep) => ep.slug).filter((slug) => !web.has(slug))).toEqual([]);
+  });
+
+  // Two episodes on one address is a collision the subset check cannot see:
+  // the golden address still resolves, it just resolves to two pages.
+  it('no two episodes resolve to the same address', () => {
+    const slugs = getEpisodes().map((ep) => ep.slug);
+    const seen = new Set<string>();
+    const duplicates = slugs.filter((slug) => (seen.has(slug) ? true : (seen.add(slug), false)));
+    expect(duplicates).toEqual([]);
   });
 
   it('every episode record carries a stored slug', () => {
     const raw: Array<{ slug?: string }> = JSON.parse(
       readFileSync(join(process.cwd(), 'src/data/episodes.json'), 'utf-8')
     );
-    expect(raw.length).toBe(golden.length);
     expect(raw.filter((ep) => !ep.slug)).toEqual([]);
   });
 });
