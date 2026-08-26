@@ -99,3 +99,26 @@ test.describe('Episode search', () => {
     expect(errors, `unexpected page errors: ${errors.join(', ')}`).toEqual([]);
   });
 });
+
+test.describe('Search reaches summary key points', () => {
+  // Fuse indexed title, description and brief only. Each summary also carries a
+  // keyPoints list naming the concrete things an episode actually covered -
+  // tools, libraries, product names - and none of it was searchable.
+  //
+  // "keychron" appears in exactly one episode's keyPoints and nowhere in its
+  // title, description or brief, so a hit proves the new field is doing work.
+  test('finds an episode by a term that only appears in its key points', async ({
+    page,
+  }) => {
+    await page.goto('/episodes/?q=keychron');
+
+    const cards = page.locator('#episodes-grid > a:visible');
+    await expect.poll(() => cards.count()).toBeGreaterThan(0);
+    await expect.poll(() => cards.count()).toBeLessThan(10);
+
+    await expect(cards.first()).toHaveAttribute(
+      'data-episode-slug',
+      /^00ZHWKLlp5g-/
+    );
+  });
+});
