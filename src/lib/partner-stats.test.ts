@@ -258,30 +258,48 @@ describe('single source of truth', () => {
   }
 
   /**
-   * A figure a reader sees is delimited on at least one side; one buried inside
-   * a hyphenated token is a class name. `partners.astro` is full of
-   * `text-gray-500` and `md:grid-cols-4`, and the figures are stored data, so a
-   * bare `includes()` would fail this guard the day `watchHours28d` landed on a
-   * round hundred — red for behaving exactly as designed. Same trap AGENTS.md
-   * records for tag extraction, where `ai` matched inside *mulai* and tagged
-   * every summarised episode.
+   * A figure a reader sees is clear of word characters on *both* sides; one
+   * buried inside a hyphenated token is a class name. `partners.astro` is full
+   * of `text-gray-500` and `md:grid-cols-4`, and the figures are stored data,
+   * so a bare `includes()` would fail this guard the day `watchHours28d` landed
+   * on a round hundred — red for behaving exactly as designed. Same trap
+   * AGENTS.md records for tag extraction, where `ai` matched inside *mulai* and
+   * tagged every summarised episode.
+   *
+   * `.` and `,` are adjacent only when they join the match to more digits, so
+   * `545` stays clear of `1.545` and `88,7` of `88,75%` — while a figure that
+   * ends a sentence, which is how the meta description states its start year,
+   * is still a restatement.
    */
-  const ADJACENT = /[-\w.,]/;
+  const ADJACENT = /[-\w]/;
+
+  function joinsDigits(char: string | undefined, next: string | undefined) {
+    return (char === '.' || char === ',') && /\d/.test(next ?? '');
+  }
 
   function restates(source: string, figure: string): boolean {
     for (let from = 0; ; from += 1) {
       const at = source.indexOf(figure, from);
       if (at === -1) return false;
 
+      const end = at + figure.length;
       const before = source[at - 1];
-      const after = source[at + figure.length];
-      if (!ADJACENT.test(before ?? ' ') && !ADJACENT.test(after ?? ' ')) {
-        return true;
-      }
+      const after = source[end];
+
+      const attached =
+        (before !== undefined &&
+          (ADJACENT.test(before) || joinsDigits(before, source[at - 2]))) ||
+        (after !== undefined &&
+          (ADJACENT.test(after) || joinsDigits(after, source[end + 1])));
+
+      if (!attached) return true;
       from = at;
     }
   }
 
+  // Both directions at once, because this guard has now been wrong in both:
+  // matching a Tailwind class fragment, then missing a figure that ends a
+  // sentence. Neither may be traded for the other.
   it('reads a figure a reader would see, not one inside a class name', () => {
     expect(restates('<p class="text-gray-500 mt-4">', '500')).toBe(false);
     expect(restates('<div class="md:grid-cols-4">', '4')).toBe(false);
@@ -292,6 +310,22 @@ describe('single source of truth', () => {
 
     expect(restates('88,75% dari Indonesia', '88,7')).toBe(false);
     expect(restates('88,7% dari Indonesia', '88,7')).toBe(true);
+
+    expect(restates('1.545 jam', '545')).toBe(false);
+    expect(restates('545 jam ditonton per 28 hari.', '545')).toBe(true);
+  });
+
+  // The shape the meta description actually takes. A literal here instead of
+  // the interpolation is the "164+" bug, and a sentence-ending period must not
+  // be what hides it.
+  it('reads a figure that ends a sentence', () => {
+    const meta = (year: string) =>
+      `podcast developer Indonesia, 178 episode sejak ${year}.`;
+
+    expect(restates(meta('2022'), '2022')).toBe(true);
+    expect(restates(meta('${firstYear}'), '2022')).toBe(false);
+    expect(restates(meta('2022'), '178')).toBe(true);
+    expect(restates('sejak 2022-01-01', '2022')).toBe(false);
   });
 
   // The other half of the guard: each figure it forbids elsewhere is written,
