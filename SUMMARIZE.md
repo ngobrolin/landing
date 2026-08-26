@@ -73,6 +73,12 @@ Create the summary file at `src/data/summaries/{videoId}.json`:
 - Keep the brief concise but informative
 - Key points should be actionable/memorable takeaways
 - Create `src/data/summaries/` directory if it doesn't exist
+- Name what the transcript names — technologies, products, people, events — rather
+  than writing around them. These summaries are the site's search corpus, so
+  "membahas berbagai tool AI" does no discovery work while "Modern Web Guidance,
+  TensorFlow.js, Baseline" does. Never introduce anything the transcript does not
+  say; see the whisper-repetition warning in AGENTS.md before grounding a summary.
+  Some older summaries deliberately stay vague — that style is not the target.
 - `src/data/summaries.test.ts` enforces this contract: `videoId` must equal the
   filename, `generatedAt`/`brief`/every key point must be non-empty, key points
   must number 5-7, and no unfilled template placeholder (`{...}`, `TODO`, `TBD`)
