@@ -14,10 +14,9 @@ const episodeCount = episodes.length;
 
 // A fixed start year stays true forever; a tenure counter ("4+ Tahun") is only
 // true if somebody remembers to bump it, which is the failure behind "164+".
-const firstYear = episodes.reduce((earliest, ep) => {
-  const year = new Date(ep.publishedAt).getUTCFullYear();
-  return year < earliest ? year : earliest;
-}, new Date().getUTCFullYear());
+const firstYear = Math.min(
+  ...episodes.map(ep => new Date(ep.publishedAt).getUTCFullYear())
+);
 
 // Ngobrolin WEB is one of two shows on the channel, so every channel figure
 // below is labelled as such. Presenting them as the show's own would be the
@@ -30,7 +29,7 @@ const stats = [
     id: 'episodes',
     scope: 'Ngobrolin WEB',
     value: episodeCount.toLocaleString('id-ID'),
-    label: 'Episode, mingguan sejak 2022',
+    label: `Episode, mingguan sejak ${firstYear}`,
   },
   {
     id: 'subscribers',
