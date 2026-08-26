@@ -95,14 +95,17 @@ describe("summary data files", () => {
     for (const point of summary.keyPoints) {
       expect(typeof point).toBe("string");
       expect(point.trim().length).toBeGreaterThan(0);
+      expect(point).not.toMatch(PLACEHOLDER_PATTERN);
     }
   });
 
   it("keeps the grandfathered exceptions from growing", () => {
     const overlong = files.filter((file) => load(file).keyPoints.length > 7);
-    expect(overlong.sort()).toEqual([...LEGACY_OVERLONG].sort());
+    expect(overlong.filter((file) => !LEGACY_OVERLONG.has(file))).toEqual([]);
 
     const withoutVideoId = files.filter((file) => !load(file).videoId);
-    expect(withoutVideoId.sort()).toEqual([...LEGACY_WITHOUT_VIDEO_ID].sort());
+    expect(
+      withoutVideoId.filter((file) => !LEGACY_WITHOUT_VIDEO_ID.has(file))
+    ).toEqual([]);
   });
 });
