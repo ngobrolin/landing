@@ -116,16 +116,25 @@ const homepageSchema = generateHomepageSchema(
           >
             Lihat Semua Episode
           </a>
+          <!--
+            One click, with YouTube's own confirm dialog. The front door wants
+            the lowest-friction action; a page load and a platform menu is the
+            wrong ask here. The choice of platform belongs at the end of an
+            episode, where podcast intent actually lives - see the subscribe
+            block on the episode page.
+          -->
           <a
-            href="/subscribe"
+            href="https://www.youtube.com/@RizaFahmi?sub_confirmation=1"
+            target="_blank"
+            rel="noopener noreferrer"
             class="border border-gray-600 hover:border-white text-white px-6 py-3 rounded-lg font-medium transition"
-            data-analytics-event="cta_click"
+            data-analytics-event="subscribe_click"
             data-analytics-props={JSON.stringify({
-              cta: 'subscribe',
+              dest: 'youtube',
               location: 'home_hero',
             })}
           >
-            Langganan
+            Subscribe YouTube
           </a>
         </div>
       </div>

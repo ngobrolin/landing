@@ -16,12 +16,8 @@ test.describe('Homepage', () => {
   test('navigation elements exist', async ({ page }) => {
     await page.goto('/');
     await expect(page.getByRole('link', { name: 'Lihat Semua Episode' })).toBeVisible();
+    await expect(page.getByRole('link', { name: 'Subscribe YouTube' })).toBeVisible();
     await expect(page.getByRole('link', { name: /Lihat semua/ })).toBeVisible();
-
-    // The hero used to send visitors straight out to YouTube. It now offers
-    // /subscribe, which carries YouTube, Spotify and the podcast RSS feed
-    // rather than picking one platform for them.
-    await expect(page.locator('a[href="/subscribe"]').first()).toBeVisible();
   });
 
   test('hero section displays correctly', async ({ page }) => {
