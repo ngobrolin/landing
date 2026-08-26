@@ -41,7 +41,7 @@ pnpm is the only package manager here: every GitHub Actions workflow installs wi
 version from `packageManager`, so bumping that one field moves CI, Cloudflare and
 local machines together.
 
-Two traps around this:
+Three traps around this:
 
 - Do **not** add `package-lock=false` to `.npmrc` to stop npm writing a lockfile.
   pnpm reads `package-lock` as an alias of its own `lockfile` setting, and
@@ -49,6 +49,14 @@ Two traps around this:
 - `pnpm-workspace.yaml` must match the pinned major: the allowed-build-scripts
   setting was renamed between pnpm 10 and 11 and each version silently ignores the
   other's key. See the comments in that file.
+- **Do not port an `npm run x -- args` line to pnpm by swapping the binary alone.**
+  npm strips the first `--`; pnpm forwards it verbatim. `pnpm run preview -- --port
+  4321` reaches astro as `astro preview -- --port 4321`, which silently ignores every
+  flag after the separator, and a script that reads positional args as video IDs takes
+  `--` for one. Drop the separator. `scripts/lib/package-manager.test.ts` guards this
+  and the pnpm-only rule; it exempts `docs/plans/` (dated records of what was run at
+  the time, not live instructions) and `.agents/` (a skill instruction surface with its
+  own contract).
 
 ### Key Commands
 

@@ -119,7 +119,7 @@ function analyzeBundle(): string {
   const statsPath = join(process.cwd(), 'dist', 'stats.json');
 
   if (!existsSync(statsPath)) {
-    throw new Error('Bundle stats not found. Run `npm run build` first.');
+    throw new Error('Bundle stats not found. Run `pnpm run build` first.');
   }
 
   const stats: BundleStats = JSON.parse(readFileSync(statsPath, 'utf-8'));
