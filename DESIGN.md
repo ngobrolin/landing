@@ -1,6 +1,6 @@
 ---
 name: Ngobrolin WEB
-description: Indonesian web-development video podcast and its 178-episode transcript archive
+description: Indonesian web-development video podcast and its fully-transcribed episode archive
 colors:
   primary: "#5c5fed"
   primary-light: "#818cf8"

@@ -36,9 +36,10 @@ export function getBrief(videoId: string): string | undefined {
 /**
  * Format an ISO-8601 duration for display, in Indonesian.
  *
- * Every one of the 178 episodes carries a duration and none of them showed it.
- * The median episode is 85 minutes, so "is this worth my evening" is a real
- * question the cards were refusing to answer.
+ * The playlist data carries a duration for effectively every episode (the
+ * YouTube videos API can omit it, so treat it as optional) and none of them
+ * showed it. The median episode is 85 minutes, so "is this worth my evening"
+ * is a real question the cards were refusing to answer.
  */
 export function formatDuration(iso: string | undefined | null): string | null {
   if (!iso) return null;

@@ -10,7 +10,7 @@ import { generateHomepageSchema } from '../lib/seo';
 const episodes = getEpisodes();
 
 // Four, not eight. The newest episodes are the most perishable slice of the
-// archive; the rest of the page now spends its space on the 178 behind them.
+// archive; the rest of the page now spends its space on the depth behind them.
 const recentEpisodes = episodes.slice(0, 4);
 
 const { episodeCount, transcriptCount, fullyTranscribed } = getArchiveStats();
@@ -51,7 +51,7 @@ const homepageSchema = generateHomepageSchema(
         </p>
 
         <!--
-          The scale of the archive, stated plainly. "178 episode, semuanya
+          The scale of the archive, stated plainly. "N episode, semuanya
           dengan transkrip lengkap" is the strongest true sentence this product
           can say, and it appeared nowhere on the site. Both numbers are
           derived; hardcoding is how /partners came to advertise "164+".

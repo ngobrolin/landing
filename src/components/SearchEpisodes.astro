@@ -90,7 +90,7 @@ const searchKeys = SEARCH_KEYS;
 <!--
   EpisodeCard renders its title as an h3, so a page whose only other heading is
   the h1 jumped h1 -> h3. This section heading closes the gap without putting
-  178 h2s on the page; it is announced but not drawn.
+  an h2 on every card; it is announced but not drawn.
 -->
 <h2 class="sr-only">Daftar episode</h2>
 
@@ -378,7 +378,7 @@ const searchKeys = SEARCH_KEYS;
     }
 
     // Debounced, because a keystroke is not cheap: ignoreLocation makes Fuse
-    // scan each document in full, and every pass re-appends all 178 cards.
+    // scan each document in full, and every pass re-appends every card.
     // Trailing edge, so the last keystroke always runs.
     let debounceTimer: number | undefined;
     input.addEventListener("input", () => {

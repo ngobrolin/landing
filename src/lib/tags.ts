@@ -36,10 +36,11 @@ export function getAllTagsWithCounts(): Array<{ tag: string; count: number }> {
  * How many real episodes carry at least one tag.
  *
  * /tags used to print the SUM OF TAG COUNTS here - "36 topik dari 723 episode"
- * against an archive of 178 - because an episode was counted once per tag it
- * carries. Counting keys in tags.json is not right either: the file holds an
- * "undefined" key, a phantom episode whose tags inflate 8 counts by one each,
- * so a blind key count reports 98 when only 97 are real.
+ * against a much smaller archive - because an episode was counted once per tag
+ * it carries. Counting keys in tags.json is not right either: the file is
+ * generated, and a generator bug once left an "undefined" key in it, a phantom
+ * episode that inflated the count. Intersecting with the real episode list is
+ * what makes this number trustworthy whatever the generator emits.
  */
 export function getTaggedEpisodeCount(): number {
   const realIds = new Set(getEpisodes().map((ep) => ep.videoId));

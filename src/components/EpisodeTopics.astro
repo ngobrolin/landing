@@ -9,9 +9,9 @@ interface Props {
 
 const { videoId, label = "Topik episode ini" } = Astro.props;
 
-// 81 of 178 episodes carry no tags, weighted toward the newest ones, so the
-// empty case is the majority case at the front of the archive. Render nothing
-// at all rather than an empty shell with a heading and no chips.
+// Tags are derived from summaries, so an episode without a summary - or one
+// whose summary matched no known tag - has none. Render nothing at all rather
+// than an empty shell with a heading and no chips.
 const tags = getEpisodeTags(videoId);
 ---
 

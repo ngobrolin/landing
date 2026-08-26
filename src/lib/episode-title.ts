@@ -6,10 +6,11 @@
  * and importing one from the other would couple them for no reason.
  *
  * Episode titles follow no single convention - AGENTS.md is explicit about
- * this. The playlist holds 46 distinct trailing shapes across 163 of 178
- * titles: the canonical " - Ngobrolin WEB", numbered "ep1".."ep52" variants, a
- * "& @handle" guest credit, a real "Ngborlin WEB" misspelling, and 14 titles
- * with no suffix at all.
+ * this. Most titles carry a trailing credit, in dozens of distinct shapes: the
+ * canonical " - Ngobrolin WEB", numbered "ep1".."ep52" variants, a "& @handle"
+ * guest credit, and a real "Ngborlin WEB" misspelling. A minority carry no
+ * suffix at all. The counts are deliberately not written down here - the
+ * playlist grows weekly, so derive them from src/data/episodes.json if needed.
  */
 
 export const SITE_NAME = 'Ngobrolin WEB';

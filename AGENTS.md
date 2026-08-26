@@ -216,21 +216,22 @@ Indonesian, `ai` appears inside *mulai, berbagai, sebagai, sesuai, bagaimana*,
 which once tagged **every** summarised episode as `ai`. `ts` matched
 *assistants*, `ml` matched *html*, `bun` matched *membangun*.
 
-Re-run `npx tsx scripts/extract-tags.ts` whenever summaries change, and check
-that no `/tags/<tag>` URL disappears — those pages are indexed.
+Re-run `pnpm exec tsx scripts/extract-tags.ts` whenever summaries change, and
+check that no `/tags/<tag>` URL disappears — those pages are indexed.
 
 ## Episode titles
 
-163 of 178 titles carry a trailing show-name credit in 46 different shapes
+Most titles carry a trailing show-name credit, in dozens of distinct shapes
 (`- Ngobrolin WEB`, `... ep51`, `... & @handle`, and a real `Ngborlin WEB`
-misspelling). `src/lib/episode-title.ts` owns both directions:
+misspelling); a minority carry no suffix at all. `src/lib/episode-title.ts` owns
+both directions:
 
 - `getDisplayTitle()` for anything a reader sees — it strips the credit only
   where it *is* a credit (anchored on a dash), so titles that use the show name
   as their subject, like *Ngobrolin WebSocket*, keep it.
 - `buildEpisodePageTitle()` for `<title>` and the social tags, which must keep
-  the show name. Appending it unconditionally is how 119 pages came to ship
-  `X - Ngobrolin WEB - Ngobrolin WEB`.
+  the show name. Appending it unconditionally is how most episode pages came to
+  ship `X - Ngobrolin WEB - Ngobrolin WEB`.
 
 ## Podcast audio pipeline
 

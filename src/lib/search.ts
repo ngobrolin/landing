@@ -76,9 +76,9 @@ export function buildSearchDocuments(episodes: Episode[]): SearchDocument[] {
  * Fuse cannot serve them at either setting. With `minMatchCharLength: 3` the
  * queries "ai", "ui", "ux", "js" and "go" return nothing at all, over an
  * archive that advertises /tags/ai, /tags/ui and /tags/ux as topics. Dropping
- * the option instead returns 178/178 for "ai" and "go", because Indonesian
- * prose is full of them: mulai, berbagai, sebagai, sesuai, bagaimana. That is
- * the same trap scripts/lib/tag-extraction.ts documents.
+ * the option instead returns the entire archive for "ai" and "go", because
+ * Indonesian prose is full of them: mulai, berbagai, sebagai, sesuai,
+ * bagaimana. That is the same trap scripts/lib/tag-extraction.ts documents.
  */
 export const SHORT_QUERY_MAX_LENGTH = 2;
 
