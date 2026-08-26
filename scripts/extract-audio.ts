@@ -1,4 +1,4 @@
-#!/usr/bin/env npx tsx
+#!/usr/bin/env -S pnpm exec tsx
 
 import { execSync } from "child_process";
 import {
@@ -128,7 +128,7 @@ async function main() {
       return;
     } else if (args[0] === "--help") {
       console.log(`
-Usage: npx tsx scripts/extract-audio.ts [options] [videoId...]
+Usage: pnpm exec tsx scripts/extract-audio.ts [options] [videoId...]
 
 Options:
   --missing   Extract audio for all episodes without audio
@@ -137,9 +137,9 @@ Options:
   --help      Show this help message
 
 Examples:
-  npx tsx scripts/extract-audio.ts                  # Extract next missing episode
-  npx tsx scripts/extract-audio.ts --missing        # Extract all missing
-  npx tsx scripts/extract-audio.ts Tkh8-LleLws      # Extract specific episode
+  pnpm exec tsx scripts/extract-audio.ts              # Extract next missing episode
+  pnpm exec tsx scripts/extract-audio.ts --missing    # Extract all missing
+  pnpm exec tsx scripts/extract-audio.ts Tkh8-LleLws  # Extract specific episode
 `);
       return;
     } else {

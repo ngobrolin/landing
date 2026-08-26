@@ -2,7 +2,7 @@
  * Extract tags from episode summaries for related episodes feature
  *
  * Usage:
- *   npx tsx scripts/extract-tags.ts
+ *   pnpm exec tsx scripts/extract-tags.ts
  */
 
 import * as fs from 'fs';
