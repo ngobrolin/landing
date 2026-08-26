@@ -8,6 +8,9 @@ import {
   getEpisodesByYear,
   getAvailableYears,
   getYearCount,
+  formatDuration,
+  getCardBlurb,
+  getNewEpisodeSlugs,
 } from './episodes';
 
 describe('slugify', () => {
@@ -262,3 +265,122 @@ describe('getYearCount', () => {
 });
 
 
+
+describe('formatDuration', () => {
+  it('formats hours and minutes', () => {
+    expect(formatDuration('PT1H24M39S')).toBe('1j 24m');
+  });
+
+  it('formats minutes alone', () => {
+    expect(formatDuration('PT47M12S')).toBe('47m');
+  });
+
+  it('formats a whole hour without a stray zero', () => {
+    expect(formatDuration('PT2H')).toBe('2j');
+  });
+
+  it('rounds sub-minute episodes up to a minute rather than showing 0m', () => {
+    // "Ngobrolin Lebaran" is a real 50-second episode.
+    expect(formatDuration('PT50S')).toBe('1m');
+  });
+
+  it('returns null for missing or unparseable input', () => {
+    expect(formatDuration(undefined)).toBeNull();
+    expect(formatDuration('')).toBeNull();
+    expect(formatDuration('banana')).toBeNull();
+  });
+
+  it('formats every real episode duration', () => {
+    for (const ep of getEpisodes()) {
+      if (!ep.duration) continue;
+      expect(formatDuration(ep.duration), `bad duration: ${ep.duration}`).toMatch(
+        /^(\d+j( \d+m)?|\d+m)$/
+      );
+    }
+  });
+});
+
+describe('getCardBlurb', () => {
+  // 109 of 178 episode descriptions are the same sentence, so the card text was
+  // pure noise across most of the archive. The brief, when present, is the real
+  // editorial summary and always wins.
+  it('prefers the brief when one exists', () => {
+    expect(getCardBlurb({ brief: 'Ringkasan asli.', description: 'apa pun' })).toBe(
+      'Ringkasan asli.'
+    );
+  });
+
+  it('drops the shared boilerplate sentence entirely', () => {
+    expect(
+      getCardBlurb({
+        description:
+          'Yuk mari kita diskusi dan ngobrol ngalor-ngidul tentang dunia web. Agar tetap up-to-date dengan teknologi web terkini.\r\n',
+      })
+    ).toBeNull();
+  });
+
+  it('drops the Selasa-malam boilerplate opener but keeps what follows', () => {
+    const blurb = getCardBlurb({
+      description:
+        '\u{1F578}\uFE0F Selasa malam waktunya #ngobrolinweb\n\nKalau sudah cukup lama berkutat dengan coding agent, pasti tidak asing dengan MCP.',
+    });
+    expect(blurb).toBe(
+      'Kalau sudah cukup lama berkutat dengan coding agent, pasti tidak asing dengan MCP.'
+    );
+  });
+
+  it('strips sponsor and link lines', () => {
+    const blurb = getCardBlurb({
+      description:
+        'Membahas Bun secara mendalam.\n\n\u{1F4E6} Langganan Cloud VPS Turbo? Gunakan kode: NGOBROLINVPSDN\nhttps://example.com/promo',
+    });
+    expect(blurb).toBe('Membahas Bun secara mendalam.');
+  });
+
+  it('returns null rather than an empty string when nothing survives', () => {
+    expect(getCardBlurb({ description: '' })).toBeNull();
+    expect(getCardBlurb({})).toBeNull();
+    expect(getCardBlurb({ description: 'https://example.com' })).toBeNull();
+  });
+
+  // The point of the exercise: card text must actually distinguish episodes.
+  it('leaves far fewer duplicate blurbs across the real archive', () => {
+    const seen = new Map<string, number>();
+    for (const ep of getEpisodes()) {
+      const blurb = getCardBlurb(ep);
+      if (!blurb) continue;
+      const key = blurb.slice(0, 120);
+      seen.set(key, (seen.get(key) ?? 0) + 1);
+    }
+    const worst = Math.max(0, ...seen.values());
+    // 76 episodes used to share one identical 120-char card blurb.
+    expect(worst).toBeLessThan(10);
+  });
+});
+
+describe('getNewEpisodeSlugs', () => {
+  // The BARU badge was positional (`isNew={index < 2}`), so it marked the first
+  // two cards of whatever list it was in. /tags/web-components badged two
+  // May-2024 episodes as new. Recency is a property of the episode, not of
+  // where it happens to sit in a grid.
+  it('marks the most recently published episodes in the whole archive', () => {
+    const newest = getEpisodes()
+      .slice()
+      .sort((a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime())
+      .slice(0, 2)
+      .map((ep) => ep.slug);
+
+    const flagged = getNewEpisodeSlugs();
+    expect(flagged.size).toBe(2);
+    for (const slug of newest) {
+      expect(flagged.has(slug), `${slug} should be flagged new`).toBe(true);
+    }
+  });
+
+  it('does not flag an old episode just because it leads a filtered list', () => {
+    const oldest = getEpisodes()
+      .slice()
+      .sort((a, b) => new Date(a.publishedAt).getTime() - new Date(b.publishedAt).getTime())[0];
+    expect(getNewEpisodeSlugs().has(oldest.slug)).toBe(false);
+  });
+});

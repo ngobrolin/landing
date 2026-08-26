@@ -1,6 +1,7 @@
 ---
 import { Image } from 'astro:assets';
 import OfflineIndicator from './OfflineIndicator.astro';
+import { formatDuration, getCardBlurb } from '../lib/episodes';
 
 interface Props {
   title: string;
@@ -13,11 +14,22 @@ interface Props {
   loading?: "lazy" | "eager";
   fetchPriority?: "high" | "low" | "auto";
   brief?: string;
+  duration?: string;
 }
 
-const { title, description, publishedAt, thumbnail, episodeNumber, slug, isNew = false, loading = "lazy", fetchPriority, brief } = Astro.props;
-
-const displayDescription = brief || description;
+const {
+  title,
+  description,
+  publishedAt,
+  thumbnail,
+  episodeNumber,
+  slug,
+  isNew = false,
+  loading = "lazy",
+  fetchPriority,
+  brief,
+  duration,
+} = Astro.props;
 
 const formattedDate = new Date(publishedAt).toLocaleDateString('id-ID', {
   day: 'numeric',
@@ -25,9 +37,14 @@ const formattedDate = new Date(publishedAt).toLocaleDateString('id-ID', {
   year: 'numeric'
 });
 
-const truncatedDescription = displayDescription.length > 120
-  ? displayDescription.substring(0, 120) + '...'
-  : displayDescription;
+// 109 of 178 descriptions were the same sentence, so the blurb line was noise
+// across most of the grid. getCardBlurb returns null when nothing informative
+// survives, and the card simply omits the line rather than repeating itself.
+const blurb = getCardBlurb({ brief, description });
+const truncatedBlurb =
+  blurb && blurb.length > 120 ? `${blurb.slice(0, 120)}...` : blurb;
+
+const readableDuration = formatDuration(duration);
 ---
 
 <a
@@ -56,7 +73,15 @@ const truncatedDescription = displayDescription.length > 120
     <div class="absolute bottom-3 left-3 bg-black/70 text-white text-xs font-medium px-2 py-1 rounded">
       EP {episodeNumber}
     </div>
-    <div class="absolute bottom-3 right-3">
+    {readableDuration && (
+      <div
+        class="absolute bottom-3 right-3 bg-black/70 text-white text-xs font-medium px-2 py-1 rounded"
+        data-testid="episode-duration"
+      >
+        {readableDuration}
+      </div>
+    )}
+    <div class="absolute top-3 right-3">
       <OfflineIndicator slug={slug} />
     </div>
   </div>
@@ -65,9 +90,11 @@ const truncatedDescription = displayDescription.length > 120
     <h3 class="text-white font-semibold mb-2 group-hover:text-primary-light transition line-clamp-2">
       {title}
     </h3>
-    <p class="text-gray-400 text-sm line-clamp-2">
-      {truncatedDescription}
-    </p>
+    {truncatedBlurb && (
+      <p class="text-gray-400 text-sm line-clamp-2">
+        {truncatedBlurb}
+      </p>
+    )}
   </div>
 </a>
 

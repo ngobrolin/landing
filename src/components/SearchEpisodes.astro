@@ -1,5 +1,9 @@
 ---
-import { getEpisodes, getEpisodesByYear } from "../lib/episodes";
+import {
+  getEpisodes,
+  getEpisodesByYear,
+  getNewEpisodeSlugs,
+} from "../lib/episodes";
 import EpisodeCard from "./EpisodeCard.astro";
 import type { Episode } from "../lib/episodes";
 
@@ -19,6 +23,7 @@ const filteredEpisodes =
     : allEpisodes;
 
 const initialEpisodes = filteredEpisodes;
+const newSlugs = getNewEpisodeSlugs();
 
 // The island carries ONLY what Fuse actually indexes, plus the slug used to
 // map a hit back to its already-rendered card. Shipping thumbnail/date/number
@@ -99,7 +104,8 @@ const searchData = initialEpisodes.map((ep) => ({
         thumbnail={episode.thumbnail}
         episodeNumber={episode.episodeNumber}
         slug={episode.slug}
-        isNew={index < 2}
+        duration={episode.duration}
+        isNew={newSlugs.has(episode.slug)}
         loading={index < 4 ? "eager" : "lazy"}
         fetchPriority={index === 0 ? "high" : undefined}
         brief={episode.brief}

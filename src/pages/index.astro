@@ -1,13 +1,22 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import EpisodeCard from '../components/EpisodeCard.astro';
-import { getEpisodes } from '../lib/episodes';
+import { getEpisodes, getNewEpisodeSlugs } from '../lib/episodes';
+import { getArchiveStats, getYearsWithCounts, getTopTags } from '../lib/archive';
+import { formatTagLabel } from '../lib/tags';
 import { getImage } from 'astro:assets';
 import { generateHomepageSchema } from '../lib/seo';
 
 const episodes = getEpisodes();
-const recentEpisodes = episodes.slice(0, 8);
-const totalEpisodes = episodes.length;
+
+// Four, not eight. The newest episodes are the most perishable slice of the
+// archive; the rest of the page now spends its space on the 178 behind them.
+const recentEpisodes = episodes.slice(0, 4);
+
+const { episodeCount, transcriptCount, fullyTranscribed } = getArchiveStats();
+const years = getYearsWithCounts();
+const topTags = getTopTags(12);
+const newSlugs = getNewEpisodeSlugs();
 
 const optimizedLcpImage = await getImage({
   src: recentEpisodes[0].thumbnail,
@@ -16,10 +25,9 @@ const optimizedLcpImage = await getImage({
   format: 'webp',
 });
 
-// Generate homepage schema
 const homepageSchema = generateHomepageSchema(
   Astro.site?.toString().replace(/\/$/, '') || 'https://ngobrol.in',
-  totalEpisodes
+  episodeCount
 );
 ---
 
@@ -30,8 +38,9 @@ const homepageSchema = generateHomepageSchema(
   <Fragment slot="head">
     <script type="application/ld+json" set:html={JSON.stringify(homepageSchema)} />
   </Fragment>
-  <!-- Hero Section -->
-  <section class="py-16 md:py-24">
+
+  <!-- Hero -->
+  <section class="py-16 md:py-20">
     <div class="container mx-auto px-4">
       <div class="max-w-3xl">
         <h1 class="text-4xl md:text-6xl font-bold text-white mb-6">
@@ -40,23 +49,83 @@ const homepageSchema = generateHomepageSchema(
         <p class="text-xl text-gray-300 mb-4">
           Video podcast seputar web development dalam Bahasa Indonesia.
         </p>
-        <p class="text-gray-400 mb-8">
-          Hadir setiap <span class="text-primary-light font-medium">Selasa malam jam 20:00 WIB</span> • {totalEpisodes} episode
+
+        <!--
+          The scale of the archive, stated plainly. "178 episode, semuanya
+          dengan transkrip lengkap" is the strongest true sentence this product
+          can say, and it appeared nowhere on the site. Both numbers are
+          derived; hardcoding is how /partners came to advertise "164+".
+        -->
+        <p class="text-gray-300 mb-8" data-testid="archive-scale">
+          <span class="text-white font-semibold">{episodeCount} episode</span>
+          {fullyTranscribed
+            ? ', semuanya dengan transkrip lengkap.'
+            : `, ${transcriptCount} di antaranya dengan transkrip lengkap.`}
+          <span class="text-gray-400">
+            Episode baru setiap <span class="text-primary-light font-medium">Selasa malam jam 20:00 WIB</span>.
+          </span>
         </p>
+
+        <!--
+          Search from the front door. A plain GET form to /episodes, so it works
+          with no JavaScript at all and lands on the same ?q= URL that
+          Layout.astro advertises to search engines as a schema.org SearchAction.
+        -->
+        <form
+          action="/episodes"
+          method="get"
+          role="search"
+          class="mb-8"
+          data-testid="home-search"
+        >
+          <div class="relative max-w-xl">
+            <label for="home-search-input" class="sr-only">Cari episode</label>
+            <input
+              type="search"
+              id="home-search-input"
+              name="q"
+              placeholder={`Cari di ${episodeCount} episode...`}
+              class="w-full bg-dark-card border border-dark-border rounded-lg px-4 py-3 pl-12 pr-24 text-white placeholder-gray-500 focus:outline-none focus:border-primary transition"
+            />
+            <svg
+              class="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-gray-500"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+              aria-hidden="true"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+            </svg>
+            <button
+              type="submit"
+              class="absolute right-2 top-1/2 -translate-y-1/2 bg-primary hover:bg-primary-light text-white px-4 py-1.5 rounded-md text-sm font-medium transition"
+            >
+              Cari
+            </button>
+          </div>
+        </form>
+
         <div class="flex flex-wrap gap-4">
-          <a 
+          <a
             href="/episodes"
             class="bg-primary hover:bg-primary-light text-white px-6 py-3 rounded-lg font-medium transition"
           >
             Lihat Semua Episode
           </a>
-          <a 
-            href="https://www.youtube.com/@RizaFahmi?sub_confirmation=1"
-            target="_blank"
-            rel="noopener noreferrer"
+          <a
+            href="/subscribe"
             class="border border-gray-600 hover:border-white text-white px-6 py-3 rounded-lg font-medium transition"
+            data-analytics-event="cta_click"
+            data-analytics-props={JSON.stringify({
+              cta: 'subscribe',
+              location: 'home_hero',
+            })}
           >
-            Subscribe YouTube
+            Langganan
           </a>
         </div>
       </div>
@@ -72,7 +141,7 @@ const homepageSchema = generateHomepageSchema(
           Lihat semua →
         </a>
       </div>
-      
+
       <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
         {recentEpisodes.map((episode, index) => (
           <EpisodeCard
@@ -82,7 +151,8 @@ const homepageSchema = generateHomepageSchema(
             thumbnail={episode.thumbnail}
             episodeNumber={episode.episodeNumber}
             slug={episode.slug}
-            isNew={index < 2}
+            duration={episode.duration}
+            isNew={newSlugs.has(episode.slug)}
             loading={index < 3 ? "eager" : "lazy"}
             fetchPriority={index === 0 ? "high" : undefined}
             brief={episode.brief}
@@ -92,22 +162,81 @@ const homepageSchema = generateHomepageSchema(
     </div>
   </section>
 
-  <!-- About Section -->
+  <!--
+    Topic entry points. These used to be inert <span> elements, and five of the
+    labels (HTMX, JWT, Elixir, DevOps, Node.js) named topics with no tag page,
+    so linking them as written would have shipped 404s. getTopTags reads through
+    the real tag index, so every chip here has a page behind it.
+  -->
+  {topTags.length > 0 && (
+    <section class="py-12 bg-dark-card/50">
+      <div class="container mx-auto px-4">
+        <div class="flex items-center justify-between mb-8">
+          <h2 class="text-2xl font-bold text-white">Jelajahi Topik</h2>
+          <a href="/tags" class="text-primary-light hover:text-white transition">
+            Semua topik →
+          </a>
+        </div>
+
+        <div class="flex flex-wrap gap-3" data-testid="home-topics">
+          {topTags.map(({ tag, count }) => (
+            <a
+              href={`/tags/${tag}`}
+              class="group flex items-baseline gap-2 bg-dark-card border border-dark-border hover:border-primary/50 px-4 py-2 rounded-lg transition"
+              data-analytics-event="topic_click"
+              data-analytics-props={JSON.stringify({ tag, location: 'home' })}
+            >
+              <span class="text-gray-300 group-hover:text-white transition">
+                {formatTagLabel(tag)}
+              </span>
+              <span class="text-gray-500 text-sm">{count}</span>
+            </a>
+          ))}
+        </div>
+      </div>
+    </section>
+  )}
+
+  <!--
+    Year entry points. Before this the year pages were reachable only from the
+    tab strip on /episodes itself, so nothing outside the archive linked into
+    the back catalogue.
+  -->
+  <section class="py-12">
+    <div class="container mx-auto px-4">
+      <h2 class="text-2xl font-bold text-white mb-8">Jelajahi per Tahun</h2>
+
+      <div
+        class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4"
+        data-testid="home-years"
+      >
+        {years.map(({ year, count }) => (
+          <a
+            href={`/episodes/${year}`}
+            class="group block p-4 bg-dark-card border border-dark-border rounded-lg hover:border-primary/50 transition"
+          >
+            <div class="text-2xl font-bold text-white group-hover:text-primary-light transition">
+              {year}
+            </div>
+            <div class="text-sm text-gray-500">{count} episode</div>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
   <section class="py-16 bg-dark-card/50">
     <div class="container mx-auto px-4">
       <div class="max-w-2xl mx-auto text-center">
         <h2 class="text-2xl font-bold text-white mb-4">Tentang Ngobrolin WEB</h2>
         <p class="text-gray-300 mb-6">
-          Podcast mingguan yang membahas berbagai topik seputar web development, 
+          Podcast mingguan yang membahas berbagai topik seputar web development,
           mulai dari framework modern, best practices, hingga pengalaman dari praktisi industri.
         </p>
-        <div class="flex flex-wrap justify-center gap-3">
-          {['Astro', 'React', 'Svelte', 'Deno', 'HTMX', 'JWT', 'Database', 'SEO'].map(tag => (
-            <span class="bg-dark-border text-gray-300 px-3 py-1 rounded-full text-sm">
-              {tag}
-            </span>
-          ))}
-        </div>
+        <a href="/about" class="text-primary-light hover:text-white transition">
+          Selengkapnya tentang kami →
+        </a>
       </div>
     </div>
   </section>
