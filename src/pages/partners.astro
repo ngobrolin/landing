@@ -2,7 +2,11 @@
 import Layout from '../layouts/Layout.astro';
 import partners from '../data/partners.json';
 import testimonials from '../data/testimonials.json';
-import { getPartnerStats } from '../lib/partner-stats';
+import { getPartnerCardStats, getPartnerStats } from '../lib/partner-stats';
+import {
+  PARTNER_CARD_HEIGHT,
+  PARTNER_CARD_WIDTH,
+} from '../lib/partner-card-geometry';
 
 const goldPartners = partners.filter(s => s.tier === 'gold');
 const featuredTestimonials = testimonials.filter(t => t.featured);
@@ -28,8 +32,10 @@ const CONTACT_HREF = `mailto:${CONTACT_EMAIL}?subject=Sponsor%20%26%20Iklan%20Ng
 // so a link pasted into WhatsApp or email previews as a one-page media kit that
 // cannot contradict the page it opens.
 const SHARE_CARD = '/partners-og.png';
-const shareCardAlt = `Ngobrolin WEB — sponsor & pasang iklan: ${tiles
-  .slice(0, 3)
+// Read the card's own tile selection rather than re-picking from `tiles`: a
+// second copy of the selection would let the alt text describe figures the
+// rendered card does not show.
+const shareCardAlt = `Ngobrolin WEB — sponsor & pasang iklan: ${getPartnerCardStats()
   .map(tile => `${tile.value} ${tile.label.toLowerCase()}`)
   .join(', ')}`;
 ---
@@ -42,8 +48,8 @@ const shareCardAlt = `Ngobrolin WEB — sponsor & pasang iklan: ${tiles
   <Fragment slot="head">
     <!-- Dimensions let WhatsApp and LinkedIn commit to the large-image
          preview before the file finishes downloading. -->
-    <meta property="og:image:width" content="1200" />
-    <meta property="og:image:height" content="630" />
+    <meta property="og:image:width" content={String(PARTNER_CARD_WIDTH)} />
+    <meta property="og:image:height" content={String(PARTNER_CARD_HEIGHT)} />
     <meta property="og:image:alt" content={shareCardAlt} />
     <meta name="twitter:image:alt" content={shareCardAlt} />
   </Fragment>

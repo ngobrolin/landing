@@ -1,5 +1,11 @@
 import sharp from 'sharp';
 import { getPartnerCardStats, type PartnerTile } from './partner-stats';
+import {
+  PARTNER_CARD_HEIGHT,
+  PARTNER_CARD_SAFE_MARGIN,
+  PARTNER_CARD_TEXT_LEFT,
+  PARTNER_CARD_WIDTH,
+} from './partner-card-geometry';
 
 /**
  * The `/partners` share card, drawn at build time from `partner-stats.ts`.
@@ -11,19 +17,13 @@ import { getPartnerCardStats, type PartnerTile } from './partner-stats';
  * links to is worse than no card at all. Nothing below states a number.
  */
 
-export const PARTNER_CARD_WIDTH = 1200;
-export const PARTNER_CARD_HEIGHT = 630;
-/** Preview crops nibble the edges; keep every glyph inside this inset. */
-export const PARTNER_CARD_SAFE_MARGIN = 48;
-
-/** Where text is drawn, so a test can check glyphs actually landed there. */
-export const PARTNER_CARD_TEXT_BANDS = [
-  { name: 'wordmark', top: 74, height: 60 },
-  { name: 'headline', top: 150, height: 76 },
-  { name: 'lead', top: 240, height: 44 },
-  { name: 'figures', top: 330, height: 170 },
-  { name: 'footer', top: 530, height: 50 },
-] as const;
+export {
+  PARTNER_CARD_HEIGHT,
+  PARTNER_CARD_SAFE_MARGIN,
+  PARTNER_CARD_TEXT_BANDS,
+  PARTNER_CARD_TEXT_LEFT,
+  PARTNER_CARD_WIDTH,
+} from './partner-card-geometry';
 
 const BACKGROUND = '#0f0f0f';
 const ACCENT = '#818cf8';
@@ -76,7 +76,7 @@ function text(
 }
 
 export function buildPartnerCardSvg(tiles: PartnerTile[]): string {
-  const left = PARTNER_CARD_SAFE_MARGIN + 44;
+  const left = PARTNER_CARD_TEXT_LEFT;
   const columnWidth =
     (PARTNER_CARD_WIDTH - PARTNER_CARD_SAFE_MARGIN * 2 - 88) / tiles.length;
 

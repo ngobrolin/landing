@@ -4,6 +4,7 @@ import {
   PARTNER_CARD_HEIGHT,
   PARTNER_CARD_SAFE_MARGIN,
   PARTNER_CARD_TEXT_BANDS,
+  PARTNER_CARD_TEXT_LEFT,
   PARTNER_CARD_WIDTH,
   buildPartnerCardSvg,
   renderPartnerCard,
@@ -104,10 +105,12 @@ describe('renderPartnerCard', () => {
     expect(PARTNER_CARD_TEXT_BANDS.length).toBeGreaterThanOrEqual(4);
 
     for (const band of PARTNER_CARD_TEXT_BANDS) {
+      // Start at the text origin, not the safe margin: the accent bar lives
+      // between the two and would answer for the glyphs in the top bands.
       const ink = await maxLuma(
-        PARTNER_CARD_SAFE_MARGIN,
+        PARTNER_CARD_TEXT_LEFT,
         band.top,
-        PARTNER_CARD_WIDTH - PARTNER_CARD_SAFE_MARGIN * 2,
+        PARTNER_CARD_WIDTH - PARTNER_CARD_TEXT_LEFT * 2,
         band.height
       );
       expect(ink, `no glyphs rendered in the "${band.name}" band`).toBeGreaterThan(80);

@@ -1,6 +1,10 @@
 import { test, expect } from '@playwright/test';
 import { existsSync, readFileSync, statSync } from 'fs';
 import { join } from 'path';
+import {
+  PARTNER_CARD_HEIGHT,
+  PARTNER_CARD_WIDTH,
+} from '../src/lib/partner-card-geometry';
 
 const EPISODES_FILE = join(process.cwd(), 'src/data/episodes.json');
 const DIST_DIR = join(process.cwd(), 'dist');
@@ -127,10 +131,10 @@ test.describe('Partners page — what a sponsor searches for', () => {
     );
     await expect(
       page.locator('head meta[property="og:image:width"]')
-    ).toHaveAttribute('content', '1200');
+    ).toHaveAttribute('content', String(PARTNER_CARD_WIDTH));
     await expect(
       page.locator('head meta[property="og:image:height"]')
-    ).toHaveAttribute('content', '630');
+    ).toHaveAttribute('content', String(PARTNER_CARD_HEIGHT));
     await expect(
       page.locator('head meta[property="og:image:alt"]')
     ).not.toHaveAttribute('content', '');
