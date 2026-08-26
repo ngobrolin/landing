@@ -15,6 +15,7 @@ import {
   type PlaylistEntry,
   type VideoDetail,
 } from './lib/playlist-episodes';
+import { mergeEpisodes, type StoredEpisode } from './lib/episode-merge';
 
 const PLAYLIST_ID = 'PLTY2nW4jwtG8Sx2Bw6QShC271PzX31CtT';
 const API_KEY = process.env.YOUTUBE_API_KEY;
@@ -37,11 +38,7 @@ interface PlaylistItem {
   };
 }
 
-type Episode = BuiltEpisode & {
-  audioUrl?: string;
-  audioDuration?: number;
-  audioFileSize?: number;
-};
+type Episode = BuiltEpisode & StoredEpisode;
 
 interface VideosApiResponse {
   items: Array<{
@@ -185,22 +182,11 @@ async function main() {
       // No existing file
     }
 
-    const existingMap = new Map(existingEpisodes.map(e => [e.videoId, e]));
     const existingVideoIds = new Set(existingEpisodes.map(e => e.videoId));
 
-    // Merge: Use new data from YouTube but preserve audio metadata from existing
-    const mergedEpisodes = episodesWithDuration.map(newEp => {
-      const existing = existingMap.get(newEp.videoId);
-      if (existing) {
-        return {
-          ...newEp,
-          audioUrl: existing.audioUrl,
-          audioDuration: existing.audioDuration,
-          audioFileSize: existing.audioFileSize,
-        };
-      }
-      return newEp;
-    });
+    // Merge: new data from YouTube, but the local-only fields — audio metadata
+    // and the permanent `slug` — carried across. See scripts/lib/episode-merge.ts.
+    const mergedEpisodes = mergeEpisodes(episodesWithDuration, existingEpisodes);
 
     const newEpisodes = mergedEpisodes.filter(e => !existingVideoIds.has(e.videoId));
 

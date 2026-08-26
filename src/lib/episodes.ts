@@ -1,4 +1,7 @@
 import episodesData from '../data/episodes.json';
+import { resolveSlug } from './slug';
+
+export { slugify, resolveSlug } from './slug';
 
 export interface Episode {
   videoId: string;
@@ -10,15 +13,6 @@ export interface Episode {
   episodeNumber: number;
   brief?: string;
   duration?: string;  // NEW: ISO 8601 format, e.g., "PT4M13S"
-}
-
-export function slugify(text: string): string {
-  return text
-    .toLowerCase()
-    .replace(/[^a-z0-9\s-]/g, '')
-    .replace(/\s+/g, '-')
-    .replace(/-+/g, '-')
-    .trim();
 }
 
 interface Summary {
@@ -43,7 +37,7 @@ export function getEpisodes(): Episode[] {
   _cache = episodesData
     .map((ep) => ({
       ...ep,
-      slug: `${ep.videoId}-${slugify(ep.title)}`,
+      slug: resolveSlug(ep),
       thumbnail: ep.thumbnail.includes('i.ytimg.com')
         ? `https://i.ytimg.com/vi_webp/${ep.videoId}/hqdefault.webp`
         : ep.thumbnail,

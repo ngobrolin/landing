@@ -117,6 +117,14 @@ Two things worth knowing before touching that path:
   slug). `scripts/lib/playlist-episodes.ts` owns both rules — air date from the video's own
   snippet, one episode per `videoId` — and is unit-tested without the network, because
   `YOUTUBE_API_KEY` is a GitHub Actions secret and `fetch-playlist.ts` cannot run locally.
+- **An episode's slug is stored data, never derived at build time.** Titles are YouTube's to
+  change, and a retitle used to silently rename the page — an indexed URL dropped with no
+  redirect and nothing erroring. Every record in `src/data/episodes.json` now carries a `slug`;
+  `src/lib/slug.ts` resolves it (falling back to the title derivation only for a record written
+  before the field existed) and `scripts/lib/episode-merge.ts` carries it across every sync
+  alongside the audio metadata. `src/lib/slugs.golden.txt` pins all 178 shipped addresses so a
+  reintroduced title derivation fails a test instead of a URL. Do not re-derive from `title`
+  anywhere a stored slug exists.
 
 ## Learnings & Best Practices
 
