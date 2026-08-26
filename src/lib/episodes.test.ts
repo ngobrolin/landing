@@ -337,10 +337,55 @@ describe('getCardBlurb', () => {
     expect(blurb).toBe('Membahas Bun secara mendalam.');
   });
 
+  // The real description of yhlD16hyW90 (and four siblings). Everything below
+  // the boilerplate opener is an 83-character rule of dashes followed by the
+  // membership and donation pitch, so the card used to render the rule plus a
+  // truncated "Bergabung menjadi anggota elit di ka..." as its whole blurb.
+  const MEMBERSHIP_BOILERPLATE_DESCRIPTION =
+    'Yuk mari kita diskusi dan ngobrol ngalor-ngidul tentang dunia web. Agar tetap up-to-date dengan teknologi web terkini.\n\n' +
+    'Topik, tautan dan pertanyaan menarik bisa dilayangkan ke https://bit.ly/ngobrolinweb\n\n' +
+    '-----------------------------------------------------------------------------------\n' +
+    'Bergabung menjadi anggota elit di kanal ini:\n' +
+    'https://www.youtube.com/channel/UCHhAlFGFCGgIusQkQIqJLYw/join\n\n' +
+    'Donasi dapat meningkatkan kualitas kanal ini:\n\u{1F4B0} https://karyakarsa.com/rizafahmi/tip';
+
+  it('drops a horizontal rule and the membership pitch behind it', () => {
+    expect(
+      getCardBlurb({ description: MEMBERSHIP_BOILERPLATE_DESCRIPTION })
+    ).toBeNull();
+  });
+
+  it('never leads a blurb with a line that has no letters or digits', () => {
+    const blurb = getCardBlurb({
+      description:
+        '-----------------------------------\n\u2500\u2500\u2500\u2500\u2500\n***\nMembahas Astro secara mendalam.',
+    });
+    expect(blurb).toBe('Membahas Astro secara mendalam.');
+  });
+
+  it('keeps a line whose only content is a number', () => {
+    const blurb = getCardBlurb({ description: '---\n2024 dalam angka.' });
+    expect(blurb).toBe('2024 dalam angka.');
+  });
+
+  // Every card blurb across the real archive must start with something a reader
+  // can read.
+  it('never starts a real blurb with punctuation only', () => {
+    for (const ep of getEpisodes()) {
+      const blurb = getCardBlurb(ep);
+      if (!blurb) continue;
+      expect(
+        /^[\p{L}\p{N}]/u.test(blurb) || /[\p{L}\p{N}]/u.test(blurb.slice(0, 12)),
+        `${ep.videoId} leads with "${blurb.slice(0, 20)}"`
+      ).toBe(true);
+    }
+  });
+
   it('returns null rather than an empty string when nothing survives', () => {
     expect(getCardBlurb({ description: '' })).toBeNull();
     expect(getCardBlurb({})).toBeNull();
     expect(getCardBlurb({ description: 'https://example.com' })).toBeNull();
+    expect(getCardBlurb({ description: '-------\n\u2500\u2500\u2500' })).toBeNull();
   });
 
   // The point of the exercise: card text must actually distinguish episodes.

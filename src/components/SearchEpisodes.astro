@@ -132,6 +132,8 @@ const searchKeys = SEARCH_KEYS;
 
 <script>
   import Fuse from "fuse.js";
+  import { isShortQuery, searchShortQuery } from "../lib/search";
+  import type { SearchDocument } from "../lib/search";
 
   // Search filters the cards Astro already rendered rather than re-rendering
   // them from a JS template. The old template was a second, drifting copy of
@@ -139,8 +141,10 @@ const searchKeys = SEARCH_KEYS;
   // unoptimised image markup that bypassed Astro's asset pipeline, and dropped
   // the offline indicator. Toggling visibility keeps one source of truth.
   //
-  // Relevance order is applied with CSS `order` on the grid items, so hits stay
-  // ranked without touching the DOM structure.
+  // Relevance order moves the actual grid nodes. CSS `order` would rank them
+  // for a sighted visitor only, leaving keyboard and screen-reader users
+  // traversing publication order (WCAG 2.4.3 Focus Order, 1.3.2 Meaningful
+  // Sequence).
   function initSearch() {
     const input = document.getElementById(
       "search-input"
@@ -157,7 +161,7 @@ const searchKeys = SEARCH_KEYS;
     const dataEl = document.getElementById("episodes-data");
     if (!grid || !noResults || !resultsCount || !clearBtn || !dataEl) return;
 
-    let searchData: Array<{ slug: string }> = [];
+    let searchData: SearchDocument[] = [];
     try {
       searchData = JSON.parse(dataEl.textContent || "[]");
     } catch {
@@ -188,10 +192,13 @@ const searchKeys = SEARCH_KEYS;
       includeScore: true,
     });
 
-    const cards = new Map<string, HTMLElement>();
-    for (const card of Array.from(
+    // Captured once, because the DOM stops holding publication order the
+    // moment the first query reorders it.
+    const originalOrder = Array.from(
       grid.querySelectorAll<HTMLElement>("[data-episode-slug]")
-    )) {
+    );
+    const cards = new Map<string, HTMLElement>();
+    for (const card of originalOrder) {
       cards.set(card.dataset.episodeSlug || "", card);
     }
 
@@ -200,11 +207,17 @@ const searchKeys = SEARCH_KEYS;
     // into a permanent failure instead of a recoverable one.
     input.dataset.searchInitialized = "true";
 
-    function showAll() {
-      for (const card of cards.values()) {
-        card.hidden = false;
-        card.style.order = "";
+    function layout(ordered: HTMLElement[], hiddenCards: Set<HTMLElement>) {
+      const fragment = document.createDocumentFragment();
+      for (const card of ordered) {
+        card.hidden = hiddenCards.has(card);
+        fragment.appendChild(card);
       }
+      grid!.appendChild(fragment);
+    }
+
+    function showAll() {
+      layout(originalOrder, new Set());
       grid!.hidden = false;
       noResults!.classList.add("hidden");
       resultsCount!.classList.add("hidden");
@@ -219,18 +232,26 @@ const searchKeys = SEARCH_KEYS;
         return;
       }
 
-      const hits = fuse.search(query);
-      const rank = new Map<string, number>();
-      hits.forEach((hit, i) => rank.set(hit.item.slug, i));
+      // Queries too short for fuzzy matching get an exact, word-boundary pass
+      // over titles and key points instead. src/lib/search.ts owns both rules.
+      const hitSlugs = isShortQuery(query)
+        ? searchShortQuery(query, searchData).map((doc) => doc.slug)
+        : fuse.search(query).map((hit) => hit.item.slug);
 
-      for (const [slug, card] of cards) {
-        const position = rank.get(slug);
-        const isHit = position !== undefined;
-        card.hidden = !isHit;
-        card.style.order = isHit ? String(position) : "";
+      const ranked: HTMLElement[] = [];
+      const seen = new Set<HTMLElement>();
+      for (const slug of hitSlugs) {
+        const card = cards.get(slug);
+        if (card && !seen.has(card)) {
+          seen.add(card);
+          ranked.push(card);
+        }
       }
 
-      const found = rank.size;
+      const misses = originalOrder.filter((card) => !seen.has(card));
+      layout([...ranked, ...misses], new Set(misses));
+
+      const found = ranked.length;
       grid!.hidden = found === 0;
       noResults!.classList.toggle("hidden", found > 0);
 

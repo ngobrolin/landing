@@ -66,8 +66,15 @@ export function formatDuration(iso: string | undefined | null): string | null {
 const BOILERPLATE_LINE =
   /^(?:\s*[\p{Extended_Pictographic}️‍]*\s*)?(?:yuk mari kita diskusi|selasa malam waktunya|jangan lupa (?:like|subscribe)|dapatkan hanya di)\b.*$/iu;
 
-// Sponsor blocks and bare links carry no information about the episode.
-const PROMO_LINE = /(?:kode\s*:|diskon|promo|https?:\/\/|\bOFF\b|^\s*[\p{Extended_Pictographic}️‍]+\s*$)/iu;
+// Sponsor blocks, membership pitches and bare links carry no information about
+// the episode.
+const PROMO_LINE =
+  /(?:kode\s*:|diskon|promo|https?:\/\/|\bOFF\b|bergabung menjadi anggota|donasi dapat meningkatkan|^\s*[\p{Extended_Pictographic}️‍]+\s*$)/iu;
+
+// A line with no letter and no digit says nothing. Five descriptions open with
+// an 83-character rule of dashes, which survived every filter above and became
+// the whole visible card blurb once truncated.
+const HAS_ALPHANUMERIC = /[\p{L}\p{N}]/u;
 
 /**
  * The text a card should show under the title.
@@ -90,6 +97,7 @@ export function getCardBlurb(
     .split(/\r?\n/)
     .map((line) => line.trim())
     .filter((line) => line.length > 0)
+    .filter((line) => HAS_ALPHANUMERIC.test(line))
     .filter((line) => !BOILERPLATE_LINE.test(line))
     .filter((line) => !PROMO_LINE.test(line))
     .filter((line) => !line.startsWith('#'));

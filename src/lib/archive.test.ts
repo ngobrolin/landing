@@ -1,6 +1,6 @@
 import { describe, it, expect } from 'vitest';
 import { getArchiveStats, getYearsWithCounts, getTopTags } from './archive';
-import { getEpisodes } from './episodes';
+import { getAvailableYears, getEpisodes, getYearCount } from './episodes';
 import { getAllTagsWithCounts } from './tags';
 
 describe('getArchiveStats', () => {
@@ -17,6 +17,30 @@ describe('getArchiveStats', () => {
   it('reports whether every episode is transcribed', () => {
     const stats = getArchiveStats();
     expect(stats.fullyTranscribed).toBe(stats.transcriptCount === stats.episodeCount);
+  });
+
+  // Counting files on disk would let a lost transcript be masked by an orphan
+  // one belonging to a video no longer in the playlist, and the homepage would
+  // still print "semuanya dengan transkrip lengkap". The claim has to be true
+  // per episode.
+  it('counts transcripts that belong to episodes, not files on disk', () => {
+    const modules = import.meta.glob('../data/transcripts/*.json');
+    const keys = new Set(Object.keys(modules));
+    const covered = getEpisodes().filter((ep) =>
+      keys.has(`../data/transcripts/${ep.videoId}.json`)
+    ).length;
+
+    expect(getArchiveStats().transcriptCount).toBe(covered);
+  });
+
+  it('only claims full transcription when every episode has its own transcript', () => {
+    const modules = import.meta.glob('../data/transcripts/*.json');
+    const keys = new Set(Object.keys(modules));
+    const everyEpisodeCovered = getEpisodes().every((ep) =>
+      keys.has(`../data/transcripts/${ep.videoId}.json`)
+    );
+
+    expect(getArchiveStats().fullyTranscribed).toBe(everyEpisodeCovered);
   });
 });
 
@@ -35,6 +59,15 @@ describe('getYearsWithCounts', () => {
     for (const { year, count } of getYearsWithCounts()) {
       expect(count, `year ${year} is empty`).toBeGreaterThan(0);
     }
+  });
+
+  // The tiles link straight to /episodes/<year>, which renders through
+  // getEpisodesByYear. Deriving the buckets a second time here is how the two
+  // would silently drift apart.
+  it('agrees with the year helpers the /episodes/<year> pages use', () => {
+    expect(getYearsWithCounts()).toEqual(
+      getAvailableYears().map((year) => ({ year, count: getYearCount(year) }))
+    );
   });
 });
 

@@ -40,16 +40,66 @@ test.describe('Episode search', () => {
     await expect(page.locator('#search-results-count')).toContainText(/episode ditemukan/);
   });
 
-  test('clearing the query restores every episode', async ({ page }) => {
+  test('clearing the query restores every episode in publication order', async ({
+    page,
+  }) => {
     await page.goto('/episodes');
     const cards = page.locator('#episodes-grid > a:visible');
     const before = await cards.count();
+    const originalOrder = await cards.evaluateAll((els) =>
+      els.map((el) => el.getAttribute('data-episode-slug'))
+    );
 
     await page.fill('#search-input', 'astro');
     await expect.poll(() => cards.count()).toBeLessThan(before);
 
     await page.click('#clear-search');
     await expect.poll(() => cards.count()).toBe(before);
+    // Relevance ranking moves the real nodes, so the grid no longer holds
+    // publication order by itself - it has to be restored from what was
+    // captured at init.
+    expect(
+      await cards.evaluateAll((els) =>
+        els.map((el) => el.getAttribute('data-episode-slug'))
+      )
+    ).toEqual(originalOrder);
+  });
+
+  // Ranking used to be applied with CSS `order`, which reorders what a sighted
+  // visitor sees but leaves keyboard and screen-reader users traversing the
+  // surviving cards in publication order (WCAG 2.4.3 Focus Order, 1.3.2
+  // Meaningful Sequence). Reading the DOM order here is the point: `order`
+  // would pass a visual check and fail this one.
+  test('ranks the best match first in the DOM, not just visually', async ({
+    page,
+  }) => {
+    await page.goto('/episodes');
+    const cards = page.locator('#episodes-grid > a:visible');
+
+    await page.fill('#search-input', 'astro');
+    await expect.poll(() => cards.count()).toBeGreaterThan(0);
+    await expect.poll(() => cards.count()).toBeLessThan(50);
+
+    const first = cards.first();
+    await expect(first).toHaveAttribute('data-episode-slug', /astro/);
+    await expect(first).toHaveCSS('order', '0');
+  });
+
+  // Fuse cannot serve these at any setting: minMatchCharLength 3 returns
+  // nothing, and dropping it returns the whole archive because Indonesian
+  // prose is full of "ai" (mulai, berbagai, sebagai). Short queries take a
+  // word-boundary path instead.
+  test('a two-character query finds episodes without matching the archive', async ({
+    page,
+  }) => {
+    await page.goto('/episodes');
+    const cards = page.locator('#episodes-grid > a:visible');
+    const before = await cards.count();
+
+    await page.fill('#search-input', 'ai');
+    await expect.poll(() => cards.count()).toBeGreaterThan(0);
+    await expect.poll(() => cards.count()).toBeLessThan(before / 2);
+    await expect(page.locator('#no-results')).toBeHidden();
   });
 
   test('a query with no matches shows the empty state', async ({ page }) => {

@@ -1,6 +1,7 @@
 import { describe, it, expect } from 'vitest';
 import {
   getAllTagsWithCounts,
+  getEpisodeTags,
   getTaggedEpisodeCount,
   formatTagLabel,
   getEpisodesForTag,
@@ -43,6 +44,35 @@ describe('getTaggedEpisodeCount', () => {
       for (const ep of getEpisodesForTag(tag)) tagged.add(ep.videoId);
     }
     expect(getTaggedEpisodeCount()).toBe(tagged.size);
+  });
+});
+
+describe('getAllTagsWithCounts', () => {
+  // tags.json is keyed by summary filename and summaries come from a separate
+  // worker, so a summary for a video that is not in the playlist would inflate
+  // the /tags count and the homepage chip above the list /tags/<tag> renders.
+  it('counts only episodes that exist', () => {
+    for (const { tag, count } of getAllTagsWithCounts()) {
+      expect(count, `${tag} counts more than it can show`).toBe(
+        getEpisodesForTag(tag).length
+      );
+    }
+  });
+
+  it('never publishes a tag with no episodes behind it', () => {
+    for (const { tag, count } of getAllTagsWithCounts()) {
+      expect(count, `${tag} is empty`).toBeGreaterThan(0);
+    }
+  });
+
+  // Zero URL churn: filtering must not remove a /tags/<tag> route.
+  it('still covers every tag any real episode carries', () => {
+    const fromEpisodes = new Set<string>();
+    for (const ep of getEpisodes()) {
+      for (const tag of getEpisodeTags(ep.videoId)) fromEpisodes.add(tag);
+    }
+    const published = new Set(getAllTagsWithCounts().map((t) => t.tag));
+    expect(published).toEqual(fromEpisodes);
   });
 });
 

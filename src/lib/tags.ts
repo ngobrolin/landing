@@ -7,10 +7,21 @@ export function getEpisodeTags(videoId: string): string[] {
   return TAGS_BY_VIDEO_ID[videoId] || [];
 }
 
+/**
+ * Per-tag episode counts, and the source of every /tags/<tag> route.
+ *
+ * Filters to real episodes for the same reason getTaggedEpisodeCount does:
+ * tags.json is keyed by summary filename and summaries are produced by a
+ * separate worker, so a summary for a video that is not in the playlist would
+ * inflate the count on /tags and the homepage chips above the list the tag
+ * page itself renders through getEpisodesForTag.
+ */
 export function getAllTagsWithCounts(): Array<{ tag: string; count: number }> {
+  const realIds = new Set(getEpisodes().map((ep) => ep.videoId));
   const counts = new Map<string, number>();
 
-  for (const episodeTags of Object.values(TAGS_BY_VIDEO_ID)) {
+  for (const [videoId, episodeTags] of Object.entries(TAGS_BY_VIDEO_ID)) {
+    if (!realIds.has(videoId)) continue;
     for (const tag of episodeTags) {
       counts.set(tag, (counts.get(tag) || 0) + 1);
     }

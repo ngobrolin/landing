@@ -1,4 +1,4 @@
-import { getEpisodes } from './episodes';
+import { getAvailableYears, getEpisodes, getYearCount } from './episodes';
 import { getAllTagsWithCounts } from './tags';
 
 /**
@@ -12,29 +12,37 @@ import { getAllTagsWithCounts } from './tags';
 
 export interface ArchiveStats {
   episodeCount: number;
+  /** Episodes that have a transcript of their own, not transcript files on disk. */
   transcriptCount: number;
   /** True when every episode has a transcript, which is the claim worth making. */
   fullyTranscribed: boolean;
 }
 
-// Eagerly globbed at module load, same as the other transcript readers. Only
-// the key count is used here, so this never holds transcript bodies.
-const transcriptKeys = Object.keys(
-  import.meta.glob('../data/transcripts/*.json')
+// Globbed lazily at module load, same as the other transcript readers. Only the
+// key set is used here, so this never holds transcript bodies.
+const transcriptKeys = new Set(
+  Object.keys(import.meta.glob('../data/transcripts/*.json'))
 );
+
+function hasTranscript(videoId: string): boolean {
+  return transcriptKeys.has(`../data/transcripts/${videoId}.json`);
+}
 
 let _stats: ArchiveStats | null = null;
 
 export function getArchiveStats(): ArchiveStats {
   if (_stats) return _stats;
 
-  const episodeCount = getEpisodes().length;
-  const transcriptCount = transcriptKeys.length;
+  // Counting files would let a lost transcript be masked by an orphan one left
+  // behind by a video that is no longer in the playlist, and the homepage would
+  // still claim "semuanya dengan transkrip lengkap". Presence is per episode.
+  const episodes = getEpisodes();
+  const transcriptCount = episodes.filter((ep) => hasTranscript(ep.videoId)).length;
 
   _stats = {
-    episodeCount,
+    episodeCount: episodes.length,
     transcriptCount,
-    fullyTranscribed: transcriptCount === episodeCount,
+    fullyTranscribed: transcriptCount === episodes.length,
   };
   return _stats;
 }
@@ -46,18 +54,17 @@ export interface YearCount {
 
 let _years: YearCount[] | null = null;
 
+/**
+ * Year tiles for the homepage.
+ *
+ * Reads through getAvailableYears/getYearCount rather than re-deriving the
+ * buckets, so a tile can never disagree with the /episodes/<year> page it
+ * links to. getAvailableYears is already sorted newest first.
+ */
 export function getYearsWithCounts(): YearCount[] {
   if (_years) return _years;
 
-  const counts = new Map<number, number>();
-  for (const ep of getEpisodes()) {
-    const year = new Date(ep.publishedAt).getUTCFullYear();
-    counts.set(year, (counts.get(year) ?? 0) + 1);
-  }
-
-  _years = Array.from(counts.entries())
-    .map(([year, count]) => ({ year, count }))
-    .sort((a, b) => b.year - a.year);
+  _years = getAvailableYears().map((year) => ({ year, count: getYearCount(year) }));
 
   return _years;
 }
