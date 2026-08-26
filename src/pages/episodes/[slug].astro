@@ -13,6 +13,7 @@ import {
     generateBreadcrumbSchema,
     generatePodcastEpisodeSchema,
     buildEpisodePageTitle,
+    getDisplayTitle,
 } from "../../lib/seo";
 import { getRelatedEpisodes } from "../../lib/related";
 import EpisodeCard from "../../components/EpisodeCard.astro";
@@ -72,6 +73,10 @@ const relatedEpisodes = getRelatedEpisodes(episode, episodes, 3);
 
 // Episode URL for sharing
 const episodeUrl = `${siteUrl}/episodes/${episode.slug}`;
+
+// Visible text drops the trailing show-name credit; the <title>, og:title and
+// the share text keep it.
+const displayTitle = getDisplayTitle(episode.title);
 ---
 
 <Layout
@@ -142,7 +147,7 @@ const episodeUrl = `${siteUrl}/episodes/${episode.slug}`;
                     </div>
 
                     <h1 class="text-2xl md:text-3xl font-bold text-white mb-4">
-                        {episode.title}
+                        {displayTitle}
                     </h1>
 
                     <!--
@@ -291,7 +296,7 @@ const episodeUrl = `${siteUrl}/episodes/${episode.slug}`;
                                         ← Episode Sebelumnya
                                     </span>
                                     <p class="text-white font-medium mt-1 group-hover:text-primary-light transition line-clamp-1">
-                                        {prevEpisode.title}
+                                        {getDisplayTitle(prevEpisode.title)}
                                     </p>
                                 </a>
                             ) : (
@@ -309,7 +314,7 @@ const episodeUrl = `${siteUrl}/episodes/${episode.slug}`;
                                         Episode Selanjutnya →
                                     </span>
                                     <p class="text-white font-medium mt-1 group-hover:text-primary-light transition line-clamp-1">
-                                        {nextEpisode.title}
+                                        {getDisplayTitle(nextEpisode.title)}
                                     </p>
                                 </a>
                             ) : (

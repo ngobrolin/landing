@@ -2,6 +2,7 @@
 import { Image } from 'astro:assets';
 import OfflineIndicator from './OfflineIndicator.astro';
 import { formatDuration, getCardBlurb } from '../lib/episodes';
+import { getDisplayTitle } from '../lib/episode-title';
 
 interface Props {
   title: string;
@@ -45,6 +46,10 @@ const truncatedBlurb =
   blurb && blurb.length > 120 ? `${blurb.slice(0, 120)}...` : blurb;
 
 const readableDuration = formatDuration(duration);
+
+// The show name belongs in the browser title, not on every card of a site
+// already called Ngobrolin WEB.
+const displayTitle = getDisplayTitle(title);
 ---
 
 <a
@@ -56,7 +61,7 @@ const readableDuration = formatDuration(duration);
   <div class="relative aspect-video overflow-hidden">
     <Image
       src={thumbnail}
-      alt={title}
+      alt={displayTitle}
       class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
       loading={loading}
       fetchpriority={fetchPriority}
@@ -88,7 +93,7 @@ const readableDuration = formatDuration(duration);
   <div class="p-4">
     <p class="text-gray-400 text-xs mb-2">{formattedDate}</p>
     <h3 class="text-white font-semibold mb-2 group-hover:text-primary-light transition line-clamp-2">
-      {title}
+      {displayTitle}
     </h3>
     {truncatedBlurb && (
       <p class="text-gray-400 text-sm line-clamp-2">
