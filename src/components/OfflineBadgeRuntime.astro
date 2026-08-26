@@ -35,7 +35,7 @@
         if (!path) continue;
 
         try {
-          if (await cache.match(path)) {
+          if (await cache.match(path) || await cache.match(path.replace(/\/$/, ""))) {
             badge.classList.add("cached");
             badge.title = "Tersedia offline";
           }
