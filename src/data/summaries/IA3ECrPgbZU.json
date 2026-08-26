@@ -1,0 +1,14 @@
+{
+  "videoId": "IA3ECrPgbZU",
+  "generatedAt": "2026-08-26T00:00:00.000Z",
+  "brief": "Privacy Sandbox dibahas bukan sebagai wacana melainkan sesuatu yang harus disiapkan dari sekarang, karena dampaknya bisa membuat aplikasi yang selama ini baik-baik saja tiba-tiba tidak bisa dipakai — gagal masuk, gagal memproses pembelian, dan tidak ada yang error secara jelas.\n\nAkarnya adalah cookie pihak ketiga yang terlalu berkuasa. Ketika sebuah layanan disematkan di banyak situs — peta, tombol berbagi, apa pun — layanan itu bisa mengenali bahwa pengunjung situs A dan situs B adalah orang yang sama, lalu menyusun rekam jejak lengkap perjalanannya. Analogi yang dipakai: CCTV di setiap ujung jalan; siapa pun yang memegang panelnya bisa mengikuti seseorang dari rumah, ke kantor, sampai tempat nongkrongnya. Karena itulah dua browser lain sudah lebih dulu memblokirnya, dan yang terbesar menyusul.\n\nTapi tidak semua penggunaannya jahat, dan di situlah inisiatif ini masuk: ia bukan satu API melainkan sekumpulan usulan untuk menggantikan tujuan-tujuan yang sah dengan cara yang lebih terkendali. Dua dampak terbesarnya disebut jelas. Yang pertama iklan yang membuntuti kita setelah melihat sebuah produk. Yang kedua justru yang lebih genting: masuk sekali untuk banyak situs sekaligus — persis yang membuat kita otomatis dikenali saat berpindah antar situs bersaudara, dan yang dipakai perusahaan besar untuk seluruh domainnya. Sarannya praktis: nyalakan pengaturan yang mensimulasikan pemblokiran itu sekarang juga, lalu periksa apa yang rusak sebelum tenggatnya tiba.",
+  "keyPoints": [
+    "Dampaknya bukan wacana: aplikasi yang selama ini baik-baik saja bisa tiba-tiba gagal saat masuk atau memproses pembelian, tanpa ada error yang jelas",
+    "Layanan yang disematkan di banyak situs bisa mengenali bahwa pengunjung situs A dan situs B adalah orang yang sama, lalu menyusun rekam jejak lengkapnya",
+    "Analoginya CCTV di setiap ujung jalan — siapa pun yang memegang panelnya bisa mengikuti seseorang dari rumah sampai tempat nongkrongnya",
+    "Privacy Sandbox bukan satu API melainkan sekumpulan usulan untuk menggantikan tujuan-tujuan yang sah dengan cara yang lebih terkendali",
+    "Dampak yang paling genting bukan iklan melainkan masuk sekali untuk banyak situs sekaligus — persis yang dipakai perusahaan besar untuk seluruh domainnya",
+    "Sarannya praktis: nyalakan pengaturan yang mensimulasikan pemblokiran itu sekarang juga, lalu periksa apa yang rusak sebelum tenggatnya tiba",
+    "Arahnya terasa berkebalikan dari sejarah web yang selalu menambah kemampuan — kali ini justru memangkas, karena persoalan profiling data sudah sampai tahap mengkhawatirkan"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "videoId": "9ECU9Wz0wzU",
+  "generatedAt": "2026-08-26T00:00:00.000Z",
+  "brief": "WebAssembly dibahas dengan mundur dulu ke kata assembly itu sendiri — istilah yang bisa terasa asing bagi siapa pun yang belajar otodidak dari HTML, CSS, dan JavaScript, karena ketiganya sudah berada jauh di atas lapisan itu. Assembly adalah bahasa yang paling dekat dengan mesin sebelum kode biner: menjumlahkan dua angka saja berarti mengalokasikan memori, menyimpan nilainya, mengambilnya dari alamat tertentu, lalu menyimpan hasilnya lagi.\n\nIstilah tingkat rendah pun diluruskan — maksudnya bukan buruk atau sederhana, melainkan makin sedikit lapisan penerjemah antara kode dan perangkat kerasnya. Semakin dekat ke mesin, semakin cepat jalannya tapi semakin jauh dari cara manusia berpikir; sebaliknya bahasa yang enak dibaca harus melewati banyak lapisan penerjemahan.\n\nDari situ WebAssembly dijelaskan sebagai format biner yang bisa dijalankan di browser dengan kecepatan mendekati aplikasi asli, di jalur yang terpisah dari jalur utama sehingga antarmuka tetap responsif. Cara memahaminya yang paling membumi: seolah-olah kita memindahkan bagian server ke dalam browser. Contohnya mengubah format video — biasanya berkasnya harus diunggah, diproses di server, lalu diunduh kembali; dengan ini semuanya terjadi di perangkat pengunjung. Keuntungan turunannya menarik: setelah berkasnya terunduh, prosesnya tetap jalan meski koneksi putus, dan data sensitif tidak perlu meninggalkan perangkat sama sekali. Kelemahannya juga jujur disebut — kecepatannya kini bergantung sepenuhnya pada perangkat pengunjung.",
+  "keyPoints": [
+    "Assembly adalah bahasa terdekat dengan mesin sebelum kode biner — menjumlahkan dua angka saja berarti mengalokasikan memori dan memindahkan nilai antar alamat secara manual",
+    "Tingkat rendah bukan berarti buruk atau sederhana, melainkan makin sedikit lapisan penerjemah antara kode dan perangkat kerasnya",
+    "Semakin dekat ke mesin semakin cepat jalannya tapi semakin jauh dari cara manusia berpikir — itulah pertukaran yang selalu ada",
+    "WebAssembly berjalan di jalur terpisah dari jalur utama, sehingga proses berat tidak membuat antarmuka membeku",
+    "Cara memahaminya yang paling membumi: seolah-olah bagian server dipindahkan ke dalam browser — mengubah format video tak lagi perlu mengunggah dan menunggu balasan",
+    "Keuntungan turunannya: setelah berkasnya terunduh prosesnya tetap jalan meski koneksi putus, dan data sensitif tidak perlu meninggalkan perangkat sama sekali",
+    "Kelemahannya jujur disebut — kecepatan aplikasinya kini bergantung sepenuhnya pada kemampuan perangkat pengunjung"
+  ]
+}

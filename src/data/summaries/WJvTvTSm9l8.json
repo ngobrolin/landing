@@ -1,0 +1,14 @@
+{
+  "videoId": "WJvTvTSm9l8",
+  "generatedAt": "2026-08-26T00:00:00.000Z",
+  "brief": "Font dipilih sebagai topik justru karena jarang dibahas orang, padahal separuh isi web adalah teks. Ia bisa membuat halaman terlihat bagus atau jelek, tapi juga bisa membengkakkan ukuran halaman, memblokir rendering, bahkan membuat seluruh teks tidak muncul sama sekali kalau font-display disetel keliru dan file-nya gagal diunduh. Episodenya dibuka dengan meluruskan istilah: typeface adalah kelompok gayanya, font file adalah berkas untuk tiap variasi, dan yang kita tulis di CSS sebagai font-family sebenarnya merujuk typeface.\n\nSaran teknis pertamanya tegas: jangan impor font lewat @import di CSS, karena browser harus mengunduh HTML, lalu CSS, lalu mem-parsing, lalu baru tahu ada impor lain, lalu baru memanggil file font — rantai panjang yang seluruhnya memblokir render. Meng-host font sendiri lebih baik karena kita bisa melakukan preload dan menghemat satu langkah DNS resolve. Dibahas juga bahwa font-display swap menyelesaikan masalah teks tak tampil, tapi memunculkan masalah baru berupa pergeseran layout ketika font asli akhirnya menggantikan fallback-nya.\n\nSolusi untuk masalah baru itu bagian paling praktis: setel font fallback dengan size-adjust dan ascent-override agar jumlah barisnya sama persis, dan pakai Fontaine kalau tidak mau menghitung sendiri. Ivan menceritakan hasil menggabungkan itu dengan CSS kritis yang di-inline dan sisanya ditunda — LCP-nya turun dari sekitar 2,3 detik ke sekitar 1,5 detik, hanya dari urusan font. Ditutup dengan variable font, unicode-range untuk memangkas karakter yang tidak dipakai, dan alasan mengapa memuat font ikon demi tiga ikon itu pemborosan.",
+  "keyPoints": [
+    "Jangan impor font lewat @import di CSS: browser harus mengunduh HTML, lalu CSS, mem-parsing, baru tahu ada impor lain, baru memanggil file font — rantai panjang yang memblokir render",
+    "Meng-host font sendiri lebih baik karena kita bisa melakukan preload dan memangkas satu langkah DNS resolve ke origin lain",
+    "font-display swap menyelesaikan teks yang tidak muncul, tapi menimbulkan pergeseran layout — perbaiki dengan size-adjust dan ascent-override pada fallback-nya, atau pakai Fontaine agar dihitungkan otomatis",
+    "Menggabungkan CSS kritis yang di-inline dengan font yang ditunda menurunkan LCP dari sekitar 2,3 detik ke sekitar 1,5 detik — hanya dari urusan font",
+    "Muat hanya varian yang benar-benar dipakai: kalau panduan desain memakai satu typeface khusus untuk header dengan bobot tebal saja, tidak perlu ikut mengunduh versi normalnya",
+    "unicode-range memangkas karakter yang tidak pernah dipakai, dan untuk teks yang tidak pernah berubah seperti nama situs, font bisa dimuat khusus untuk teks itu saja",
+    "Memuat font ikon demi tiga ikon itu pemborosan puluhan sampai ratusan kilobyte — SVG inline lebih tepat, dan pustaka ikonnya sendiri kini sudah bergeser ke SVG"
+  ]
+}

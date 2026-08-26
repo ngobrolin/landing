@@ -1,0 +1,14 @@
+{
+  "videoId": "Edez-dpX0Hw",
+  "generatedAt": "2026-08-26T00:00:00.000Z",
+  "brief": "Episode rekaman ini membahas Vite+, saudara dari Vite yang bukan produk berbayar — berbeda dengan Tailwind+ yang memang versi komersial dari Tailwind. Intinya Vite+ menjawab keluhan klasik ekosistem JavaScript: setiap kali memulai project kita harus memilih dan merakit sendiri bundler, linter, test runner, dan task runner satu per satu. Vite+ membungkus semuanya menjadi satu toolchain yang opinionated.\n\nTim mencoba langsung perintah-perintahnya di terminal. Lintingnya menampilkan lokasi error secara visual lewat terminal UI, bukan sekadar teks; test dan coverage sudah tersedia tanpa perlu menulis script test, test:ui, dan test:watch di package.json sendiri; dan untuk monorepo ada task graph dengan dependensi antar-perintah — build hanya jalan setelah lint selesai, deploy setelah build dan test. Ada juga perintah pack yang membungkus aplikasi menjadi satu file executable standalone lengkap dengan Node.js di dalamnya, sehingga pengguna tidak perlu memasang Node terlebih dahulu; fitur itu hanya didukung Node.js, tidak di Bun maupun Deno.\n\nCatatan penting di akhir: halaman troubleshooting-nya sendiri menyebut fitur ini masih alpha meskipun sudah diumumkan, dan selama sesi memang sempat beberapa kali error. Diselingi juga obrolan soal product founder fit — produk bisa punya pasar tetapi tetap gagal kalau pembuatnya tidak menikmati mengerjakannya. Sesi ini terselenggara berkat kerja sama dengan DomaiNesia.",
+  "keyPoints": [
+    "Vite+ bukan produk berbayar — berbeda dari Tailwind+ yang merupakan versi komersial Tailwind; ia menjawab masalah ekosistem JavaScript yang memaksa kita merakit bundler, linter, dan test runner satu per satu",
+    "Linter-nya menampilkan posisi error secara visual lewat terminal UI, bukan hanya dump teks — pengalaman CLI yang jarang ada di tooling sejenis",
+    "Script yang biasanya harus ditulis sendiri di package.json seperti test, test:ui, test:watch, dan coverage sudah tersedia langsung tanpa konfigurasi",
+    "Untuk monorepo ada task graph berbasis dependensi: build baru jalan setelah lint selesai, deploy setelah build dan test — mirip runner yang biasanya kita rakit manual",
+    "Perintah pack membungkus aplikasi menjadi satu file executable standalone yang sudah membawa Node.js di dalamnya, sehingga pengguna tidak perlu memasang Node — hanya didukung di Node.js, tidak di Bun atau Deno",
+    "Halaman troubleshooting-nya sendiri menyatakan fitur ini masih alpha meski sudah diumumkan, dan sesi percobaan memang beberapa kali error, jadi belum untuk produksi",
+    "Selain product market fit ada product founder fit: produk yang punya pasar tetap berhenti kalau pembuatnya tidak menikmati mengerjakannya, dan yang menyelamatkan saat semangat turun adalah konsistensi"
+  ]
+}

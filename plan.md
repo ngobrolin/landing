@@ -39,5 +39,4 @@
 - [ ] Search within transcripts
 - [ ] Clickable timestamps (jump to video position)
 - [ ] Auto-transcribe pipeline (GitHub Action)
-- [ ] More transcripts & summaries
 - [ ] Episode chapters from AI

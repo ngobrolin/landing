@@ -1,0 +1,14 @@
+{
+  "videoId": "Aneo-LjbnoI",
+  "generatedAt": "2026-08-26T00:00:00.000Z",
+  "brief": "Episode perdana Ngobrolin WEB, dibuka dengan perkenalan tiga pembawa acaranya: Riza, Eka, dan Ivan. Formatnya sengaja dibuat santai — mengobrol tentang teknologi web secara umum, bukan mengikat diri pada satu framework atau satu browser, dengan tujuan mengejar ketertinggalan dari perkembangan web yang bergerak sangat cepat. Masing-masing membawa satu topik.\n\nTopik pertama adalah Sanitizer API, sebuah web API baru yang membersihkan string HTML dari script berbahaya sebelum dirender. Selama ini kebutuhan itu ditambal dengan library pihak ketiga seperti DOMPurify atau — lebih buruk lagi — regex hasil salin-tempel dari Stack Overflow. React menandainya dengan nama yang menakutkan, dangerouslySetInnerHTML, sementara Svelte terang-terangan menyatakan tidak melakukan sanitasi sehingga tanggung jawabnya ada pada kita. Dari sini muncul prinsip yang sudah lama dipegang komunitas WordPress: sanitize early, escape late — bersihkan setiap input di pintu masuk, dan escape di titik output paling akhir.\n\nTopik kedua adalah Performance Insights, panel baru di Chrome DevTools yang memvisualisasikan proses render alih-alih hanya menyajikan skor seperti Lighthouse. Dengan panel ini bisa terlihat langsung elemen mana yang dianggap browser sebagai FCP dan LCP, di detik ke berapa layout shift terjadi dan apa penyebabnya, serta resource mana yang render blocking. Pembedahan situs berita sungguhan menunjukkan polanya: kerangka halaman dirender di server, tetapi kontennya baru diambil belakangan lewat client-side rendering, sehingga pembaca menunggu terlalu lama untuk melihat isi yang sebenarnya mereka datangi.",
+  "keyPoints": [
+    "Sanitizer API membersihkan string HTML dari script berbahaya langsung di browser, menggantikan kebutuhan memasang library pihak ketiga atau menyalin regex dari Stack Overflow",
+    "Nama dangerouslySetInnerHTML di React dan peringatan di dokumentasi Svelte sama-sama menegaskan hal yang sama: merender HTML dari pengguna adalah tanggung jawab kita, bukan framework",
+    "Prinsip sanitize early, escape late: bersihkan setiap input di pintu masuk — form, query string, header — dan escape di titik output paling akhir, bukan di tengah-tengah",
+    "Fitur di balik flag berarti sudah ada di browser tetapi harus diaktifkan manual — biasanya tahap sebelum dirilis stabil beberapa versi kemudian",
+    "Performance Insights memvisualisasikan proses render, bukan sekadar memberi skor — jadi bisa terlihat elemen mana persisnya yang dianggap browser sebagai FCP dan LCP",
+    "Konten di atas lipatan jangan di-lazy load; targetnya adalah membuat FCP, LCP, dan DOMContentLoaded berdekatan, dengan CSS kritikal di-inline dan JavaScript yang tidak perlu ditunda",
+    "Skor yang berbeda antara Lighthouse online dan pengukuran lokal itu wajar karena lokasi CDN berbeda — yang penting bukan angkanya melainkan apa yang menghambat sebelum FCP"
+  ]
+}

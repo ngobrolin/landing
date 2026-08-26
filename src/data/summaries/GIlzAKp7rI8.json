@@ -1,0 +1,14 @@
+{
+  "videoId": "GIlzAKp7rI8",
+  "generatedAt": "2026-08-26T00:00:00.000Z",
+  "brief": "SVG dibahas sebagai format gambar yang berbeda jenisnya dari foto: ia bukan kumpulan titik warna melainkan rangkaian bentuk yang dihitung ulang, sehingga tetap tajam berapa pun ukurannya. Karena isinya sebenarnya teks berformat XML, ia bisa ditulis dan disunting seperti dokumen biasa, diberi atribut, ditata dengan CSS, bahkan dianimasikan.\n\nBentuk dasarnya hanya segelintir — lingkaran, elips, garis, jalur, poligon, dan persegi — tapi dari situ hampir semua ilustrasi bisa dibangun. Wilayah pemakaiannya jelas: ikon, logo, dan ilustrasi bergaya gambar, bukan foto. Keuntungannya berlipat untuk performa. Ukurannya kecil karena bisa dimampatkan seperti teks, dan yang lebih penting ia bisa disisipkan langsung ke dalam halaman sehingga muncul begitu markup-nya dibaca — tanpa permintaan tambahan ke server. Untuk logo yang berada di bagian paling atas halaman, itu bedanya terasa.\n\nCerita yang paling mengena adalah perjalanan pustaka ikon populer yang dulunya berupa berkas font. Pendekatan itu ditinggalkan karena memuat ribuan ikon demi memakai dua di antaranya jelas boros, dan karena font memang dibuat untuk teks — ketika lambat dimuat, yang muncul justru huruf-huruf aneh alih-alih ikonnya. Ditutup dengan contoh yang lebih ekstrem: ikon situs yang berubah warna mengikuti mode gelap atau terang cukup dengan aturan CSS di dalam berkasnya, dan sebuah pustaka grafik yang seluruh gambarnya dirakit dari SVG tanpa perlu menggambar apa pun secara manual.",
+  "keyPoints": [
+    "SVG bukan kumpulan titik warna melainkan bentuk yang dihitung ulang, jadi tetap tajam berapa pun ukurannya — dan isinya sebenarnya teks yang bisa disunting seperti dokumen",
+    "Bentuk dasarnya hanya segelintir — lingkaran, elips, garis, jalur, poligon, persegi — dan dari situ hampir semua ilustrasi bisa dibangun",
+    "Karena berupa teks, ia bisa disisipkan langsung ke dalam halaman sehingga muncul begitu markup dibaca, tanpa permintaan tambahan ke server — penting untuk logo di bagian paling atas",
+    "Pustaka ikon berbasis font ditinggalkan karena memuat ribuan ikon demi memakai dua di antaranya jelas boros, dan karena font memang dibuat untuk teks",
+    "Kelemahan lain ikon berbasis font terlihat saat lambat dimuat: yang muncul justru huruf-huruf aneh alih-alih ikonnya",
+    "Karena bisa ditata dengan CSS, satu berkas ikon situs bisa berubah warna mengikuti mode gelap atau terang — tidak perlu menyiapkan dua berkas terpisah",
+    "Contoh ekstremnya sebuah pustaka grafik yang seluruh gambarnya dirakit dari SVG lewat perhitungan, bukan digambar manual satu per satu"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "videoId": "18LNXOF8IPA",
+  "generatedAt": "2026-08-26T00:00:00.000Z",
+  "brief": "Episode ini kedatangan bintang tamu dari kanal Web Programming UNPAS, dan pembahasannya berangkat dari satu pertanyaan penonton yang sudah lama menunggu: sudah belajar HTML dan CSS, lalu harus ke mana? Sebelum menjawab, keempatnya bergantian menceritakan jalur masing-masing — dari desainer grafis yang jatuh cinta pada antarmuka yang bisa diklik, dari kuliah berbasis produk Microsoft yang lalu berbelok ke open source lewat kelompok studi Linux, dan dari menyunting profil band di Myspace dengan CSS sambil menyimpan artikel ke flashdisk di warnet.\n\nSaran teknisnya konsisten: mulai dari fundamental, dan sebelum itu pahami dulu gambaran besar cara web bekerja — apa itu request dan response, apa itu domain, hosting, dan server. Baru setelah itu masuk ke HTML, CSS, dan seterusnya. Framework tidak dianggap musuh; justru dipakai sebagai pintu masuk, karena penasaran pada apa yang terjadi di baliknya sering membawa kita ke fundamental yang belum dikuasai.\n\nCerita paling berkesan datang dari pengalaman terjebak selama tiga bulan mencoba memahami sebuah framework PHP dan tetap tidak mengerti. Framework itu akhirnya ditinggalkan, diganti delapan bulan mempelajari pemrograman berorientasi objek dan pola MVC dari nol. Ketika dokumentasinya dibuka lagi, semuanya terang — yang dikira fitur khusus framework itu ternyata fitur bahasanya sendiri. Dari sana lahir aturan sederhananya: kalau sudah baca dokumentasi dan tetap buntu, berarti ada fundamental yang terlewat. Ditutup dengan pembahasan tutorial hell dan tanda bahwa kita benar-benar sudah bisa.",
+  "keyPoints": [
+    "Sebelum HTML dan CSS, pahami dulu gambaran besar cara web bekerja: apa itu request dan response, domain, hosting, dan server — supaya tahu kenapa sebuah alamat bisa memunculkan halaman",
+    "Kalau sudah membaca dokumentasi dan tetap buntu, itu tanda ada fundamental yang terlewat: tinggalkan dulu framework-nya, pelajari dasarnya, lalu kembali — dokumentasinya akan terang dengan sendirinya",
+    "Framework bukan musuh fundamental; justru rasa penasaran pada apa yang terjadi di baliknya sering menjadi jalan masuk untuk mempelajarinya, asal tidak berhenti sebagai pemakai buta",
+    "Menyelesaikan sebuah tutorial bukan akhir belajar melainkan permulaannya — ukurannya adalah bisa membuat ulang tanpa menonton lagi, lalu memodifikasinya jadi sesuatu yang berbeda",
+    "Cara mengobati bosan pada fundamental: pakai dulu komponen jadi yang menarik, lalu bongkar kodenya dan buat versi sendiri dari nol",
+    "Fundamental seperti pola MVC berlaku lintas bahasa dan framework, jadi yang dipelajari sekali terpakai di banyak tempat",
+    "Kontribusi adalah cara paling mudah mendapatkan kasus nyata untuk dilatih — merawat situs kampus, ikut proyek open source, atau mengambil pekerjaan kecil berbayar"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "videoId": "SYXywMW05GY",
+  "generatedAt": "2026-08-26T00:00:00.000Z",
+  "brief": "Episode ini direkam langsung dari panggung sebuah festival pengembang, dan sebagian besarnya berupa sesi tanya jawab dengan penonton. Pertanyaan pertama soal ongkos performa dari cara baru menganimasikan perpindahan antar halaman — jawabannya jujur: ongkosnya tetap ada, tapi jauh lebih ringan daripada memakai pustaka animasi, karena sebagian besar sudah ditangani browser. Sebagian sifat animasi bahkan berjalan di jalur terpisah, meski yang menyangkut ukuran masih membebani jalur utama.\n\nPertanyaan berikutnya membedakan dua jenis penyimpanan sementara yang sering tertukar. Yang biasa menyimpan berkas sumbernya sehingga halaman tetap harus dirakit ulang; sementara yang khusus untuk tombol maju-mundur menyimpan potret halaman yang sudah jadi lengkap dengan keadaan terakhirnya. Analoginya bagus: seperti meninggalkan kamar lalu kembali dan menemukannya persis seperti saat ditinggalkan — bukan tiba-tiba sudah rapi. Disebutkan pula dua penyebab paling umum kenapa penyimpanan itu tidak bekerja.\n\nSisanya berisi saran untuk pertanyaan yang sangat membumi: bagaimana membuat situs portofolio penuh gambar tapi tetap cepat. Jawabannya menyiapkan beberapa ukuran gambar sesuai perangkat, membatasi ukuran maksimalnya, dan menyediakan gambar penuh hanya sebagai pilihan bagi yang mau melihatnya. Ditutup dengan sesi bersama seorang tamu dari luar negeri tentang kebangkitan sebuah framework yang lama dianggap tertinggal — versi barunya membawa lompatan kecepatan besar, tata cara penulisan baru di templat, serta cara mengelola perubahan data yang belakangan diadopsi banyak framework lain.",
+  "keyPoints": [
+    "Menganimasikan perpindahan halaman lewat kemampuan bawaan browser tetap punya ongkos, tapi jauh lebih ringan daripada memakai pustaka animasi",
+    "Sebagian sifat animasi berjalan di jalur terpisah, sementara yang menyangkut ukuran masih membebani jalur utama — meski ada rencana memindahkannya",
+    "Penyimpanan sementara biasa menyimpan berkas sumbernya, sedangkan yang khusus tombol maju-mundur menyimpan potret halaman yang sudah jadi lengkap dengan keadaan terakhirnya",
+    "Analoginya seperti meninggalkan kamar lalu kembali dan menemukannya persis seperti saat ditinggalkan — bukan tiba-tiba sudah rapi",
+    "Ketiga metrik inti pengalaman pengguna mewakili tiga hal berbeda: kecepatan tampil, kestabilan tata letak, dan seberapa cepat interaksi ditanggapi",
+    "Untuk situs penuh gambar: siapkan beberapa ukuran sesuai perangkat, batasi ukuran maksimalnya, dan sediakan gambar penuh hanya sebagai pilihan",
+    "Sebuah framework yang lama dianggap tertinggal justru bangkit lewat versi barunya dengan lompatan kecepatan besar dan cara mengelola perubahan data yang kini diadopsi banyak framework lain"
+  ]
+}

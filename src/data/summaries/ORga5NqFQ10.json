@@ -1,0 +1,14 @@
+{
+  "videoId": "ORga5NqFQ10",
+  "generatedAt": "2026-08-26T00:00:00.000Z",
+  "brief": "Episode ini kedatangan seorang engineer yang kini bekerja di sebuah lembaga teknologi pemerintah, dan salah satu pesan sampingannya melegakan: karier di ranah web tidak selalu berujung di startup atau perusahaan swasta, karena lembaga seperti itu pun memakai perkakas yang sama modernnya.\n\nCerita utamanya soal perjalanan melewati banyak generasi framework — dari yang sudah berbasis komponen jauh sebelum orang membicarakan komponen, ke masa ketika halaman dirakit di server lalu ditempeli pustaka pembantu, sampai ke framework penuh dan kemudian lapisan di atasnya lagi. Dari situ muncul pengamatan bahwa dulu satu perkakas menyediakan segalanya, sementara sekarang lapisannya bertingkat: pustaka antarmuka di bawah, framework yang membungkusnya di atas, masing-masing memilih sendiri masalah mana yang mau diselesaikan.\n\nBagian paling berharga adalah cerita memilih framework untuk sebuah tim besar. Ia sendiri condong ke satu pilihan karena secara konsep paling dekat dengan latar belakang timnya yang berasal dari bahasa berorientasi objek — dan ternyata salah. Setelah keduanya dicoba langsung oleh tim, yang lebih cepat dikuasai justru pilihan yang lain, karena cara penulisannya masih mirip dengan yang sudah mereka pakai. Dari sana lahir pelajaran yang ia tekankan: dalam bekerja bersama, singkirkan pertimbangan yang bersifat selera. Ajukan yang bisa diukur — ukuran berkas, waktu muat, dan biaya perawatan jangka panjang — karena kurva belajar yang dimaksud adalah kurva belajar timnya, bukan kurva belajar kita sendiri.",
+  "keyPoints": [
+    "Karier di ranah web tidak selalu berujung di startup — lembaga teknologi pemerintah pun memakai perkakas yang sama modernnya dan banyak merekrut engineer web",
+    "Dulu satu framework menyediakan segalanya sekaligus, sementara sekarang lapisannya bertingkat: pustaka antarmuka di bawah, framework pembungkus di atasnya",
+    "Tiap framework pembungkus memilih sendiri masalah mana yang diselesaikan, karena memelihara semuanya punya biaya yang tidak sanggup ditanggung",
+    "Framework yang lebih preskriptif justru berguna di perusahaan besar karena mengurangi keputusan yang bergantung pada selera satu orang — yang jadi masalah begitu orangnya pergi",
+    "Dugaannya soal framework mana yang paling mudah dipelajari timnya ternyata meleset, karena kemiripan cara penulisan lebih menentukan daripada kedekatan konsep",
+    "Pelajarannya: singkirkan pertimbangan yang bersifat selera dan ajukan yang bisa diukur — ukuran berkas, waktu muat, dan biaya perawatan jangka panjang",
+    "Kurva belajar yang harus dipertimbangkan adalah kurva belajar tim, bukan kurva belajar orang yang mengusulkan"
+  ]
+}

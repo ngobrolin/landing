@@ -1,0 +1,14 @@
+{
+  "videoId": "cjqz5C0eWgc",
+  "generatedAt": "2026-08-26T00:00:00.000Z",
+  "brief": "TypeScript dibahas sebagai superset JavaScript — bahasanya tetap JavaScript, hanya ditambah anotasi tipe, interface, generic, dan sejenisnya, lalu dikompilasi kembali menjadi JavaScript karena itulah satu-satunya yang dimengerti browser. Analoginya seperti komentar dan sorotan pada dokumen yang sedang disunting: semuanya membantu selama menulis, tapi hilang begitu dokumen dicetak.\n\nSatu hal penting ditegaskan supaya tidak salah harap: pemeriksaan tipenya berlangsung statis, saat menulis dan mengompilasi. Begitu program berjalan, TypeScript tidak lagi memeriksa apa pun — jadi memakainya bukan jaminan bebas galat, terutama ketika data dari luar ternyata tidak sesuai bentuk yang diasumsikan. Nilainya justru pada mendelegasikan pekerjaan repetitif yang manusia memang buruk mengerjakannya: memeriksa typo, memastikan salinan akurat, mengingat bentuk data. Sebagai efek samping, menulis tipe memaksa kita mendokumentasikan apa yang kita buat.\n\nDibahas juga alternatif yang lebih ringan berupa komentar dokumentasi di JavaScript biasa, lengkap dengan pengalaman nyata memakainya untuk mewarisi codebase asing tanpa dokumentasi dan tanpa kontak siapa pun — cukup untuk tipe sederhana, tapi menyiksa begitu berhadapan dengan objek bersarang. Sisanya membedah union type yang membatasi nilai pada beberapa kemungkinan saja, type predicate, dan strict mode yang memaksa kita memeriksa dulu apakah datanya benar-benar ada sebelum dipakai.",
+  "keyPoints": [
+    "TypeScript adalah superset JavaScript yang harus dikompilasi kembali menjadi JavaScript, karena browser sampai sekarang hanya mengerti JavaScript",
+    "Pemeriksaan tipenya statis: begitu program berjalan, TypeScript tidak lagi memeriksa apa pun — jadi memakainya bukan jaminan bebas galat, terutama untuk data dari luar",
+    "Nilai utamanya adalah mendelegasikan pekerjaan repetitif yang manusia memang buruk mengerjakannya — memeriksa typo, memastikan salinan akurat, mengingat bentuk data",
+    "Menulis tipe memaksa kita mendokumentasikan: rekan kerja jadi bisa tahu sebuah fungsi menerima apa dan mengembalikan apa tanpa membaca isinya",
+    "Komentar dokumentasi di JavaScript biasa bisa jadi solusi cepat untuk codebase warisan yang tidak berdokumentasi, tapi sintaksnya menyiksa begitu berhadapan dengan objek bersarang",
+    "Union type membatasi nilai pada beberapa kemungkinan saja, sehingga salah ketik pada salah satu nilainya langsung tertangkap alih-alih lolos sebagai string sembarang",
+    "Strict mode memaksa kita memeriksa dulu apakah data benar-benar ada sebelum dipakai — persis kasus undefined yang biasanya baru meledak saat program berjalan"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "videoId": "fv-M_fFil0c",
+  "generatedAt": "2026-08-26T00:00:00.000Z",
+  "brief": "Episode ini membahas ECMAScript — apa sebenarnya di balik nama yang sering kita sebut sebagai ES6, ES2015, dan seterusnya. Intinya ECMAScript adalah spesifikasi, bukan implementasi: ia menjelaskan perilaku yang harus dicapai, sementara tiap browser bebas mewujudkannya dengan caranya sendiri lewat engine masing-masing seperti V8, SpiderMonkey, dan JavaScriptCore. Itu sebabnya hasil benchmark yang sama bisa berbeda antar browser, dan itu pula sebabnya JavaScript tidak punya situs dokumentasi resmi tunggal.\n\nSejarahnya menarik: setelah ES3 pada 1999 sempat vakum sepuluh tahun karena ES4 tidak pernah selesai akibat perselisihan, dan baru sejak ES5 pada 2009 rilisnya kembali teratur setiap tahun.\n\nProses penambahan fitur dijelaskan bertahap: siapa pun boleh mengusulkan di stage 0 lewat isu di GitHub, tetapi baru masuk stage 1 kalau ada anggota komite TC39 yang menjadi champion. Stage 4 berarti selesai dan pasti dirilis pada versi tahun berikutnya — inilah yang dimaksud ESNext pada konfigurasi Babel atau TypeScript. Menjadi anggota ECMA ternyata berbayar untuk kalangan industri dengan tarif yang sengaja dibuat tinggi, meski ada kategori khusus untuk institusi pendidikan dan organisasi nirlaba. Ditutup dengan pembahasan perbedaan arrow function dan regular function — sintaks yang lebih ringkas, implicit return, tidak punya objek arguments, dan perbedaan perlakuan terhadap this.",
+  "keyPoints": [
+    "ECMAScript adalah spesifikasi perilaku, bukan implementasi — tiap browser mewujudkannya dengan engine berbeda, dan itulah kenapa hasil benchmark yang sama bisa berbeda antar browser",
+    "Setelah ES3 pada 1999, spesifikasinya vakum sepuluh tahun karena ES4 tidak pernah selesai akibat perselisihan; baru sejak ES5 rilisnya kembali teratur tiap tahun",
+    "Siapa pun boleh mengusulkan fitur di stage 0 lewat isu di GitHub, tetapi baru bergerak setelah ada anggota TC39 yang menjadi champion-nya",
+    "ESNext pada konfigurasi Babel atau TypeScript berarti fitur yang sudah mencapai stage 4 — sudah final dan pasti dirilis pada versi tahun berikutnya",
+    "Backward compatibility adalah keunggulan besar platform web: script lama tetap berjalan bertahun-tahun kemudian, dan tiap proposal wajib menjelaskan cara polyfill-nya",
+    "Arrow function bukan sekadar sintaks lebih pendek — ia punya implicit return untuk satu baris, tidak punya objek arguments sehingga harus memakai rest parameter, dan memperlakukan this secara berbeda",
+    "Named function membantu saat debugging karena namanya muncul di stack trace, sedangkan anonymous function membuat jejak error lebih sulit dibaca"
+  ]
+}

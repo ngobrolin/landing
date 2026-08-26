@@ -1,0 +1,14 @@
+{
+  "videoId": "KJ96IaRARvQ",
+  "generatedAt": "2026-08-26T00:00:00.000Z",
+  "brief": "Episode ini adalah sesi bedah situs, membedah dua website yang dikirimkan lewat DomaiNesia secara langsung di depan penonton. Situs pertama milik Mas Zain — landing page komunitas Vibe Coding from Cafe — dan uniknya perbaikan dikerjakan saat itu juga oleh coding agent lewat Telegram, mulai dari memperbaiki contrast ratio teks yang hanya 3.0 (di bawah batas minimum WCAG 4.5) sampai membuat PR yang bisa langsung di-preview.\n\nBagian terbesar episode adalah tutorial praktis membaca Performance panel di Chrome DevTools. Ivan menunjukkan cara throttle CPU ke mid-tier mobile dan network ke fast 4G supaya audit tidak memakai spek dewa, membedakan lab test (Lighthouse/PageSpeed) dari field data CrUX (Chrome UX Report) yang dikumpulkan anonim dari pengguna Chrome asli, lalu menelusuri kenapa LCP tinggi karena chaining CSS, font, dan JS sebelum React sempat hydrate, serta melacak layout shift sampai ke force reflow yang dipicu CSS.\n\nSitus kedua milik Baliyun, seorang mahasiswa yang juga bekerja, membawa pertanyaan apakah perlu migrasi ke Next.js demi SEO. Jawabannya tegas: bukan itu masalahnya. Sekali page load situs tersebut memakan 57MB bandwidth karena gambar galeri berukuran 2.000x2.000 piksel ditampilkan pada 80 piksel, dan mengganti framework tidak akan menyelesaikan itu. Ditemukan juga open graph image yang 404 sehingga link tidak muncul preview saat dibagikan.",
+  "keyPoints": [
+    "Saat mengaudit performa, throttle dulu CPU ke mid-tier mobile dan network ke fast 4G — jangan mengukur dengan spek dewa karena pengguna di luar sana tidak memakai Mac dan iPhone",
+    "Lab test (Lighthouse/PageSpeed) adalah forensik di mesin kita, sedangkan CrUX adalah data lapangan anonim dari pengguna Google Chrome asli pada persentil 75 — keduanya menjawab pertanyaan yang berbeda",
+    "LCP tidak selalu gambar; browser yang menentukan elemen terbesar di viewport, dan pada situs React ia bisa tertunda lama karena chaining CSS, font, lalu beberapa chunk JS harus selesai sebelum hydration",
+    "Force reflow terjadi ketika CSS atau JS berikutnya memaksa browser menghitung ulang dimensi yang sudah ditetapkan sebelumnya — inilah sumber long task yang merusak INP",
+    "Ganti framework bukan solusi performa: situs yang memuat 57MB sekali page load karena gambar 2.000x2.000 piksel ditampilkan pada 80 piksel akan tetap berat di Next.js, Astro, maupun Laravel",
+    "Patokan praktis ukuran gambar: usahakan di bawah 100KB, mentok 150KB; pakai JPG atau WebP untuk foto dan PNG untuk logo/ikon, dan iframe seperti embed Instagram bisa diberi loading=\"lazy\" yang sudah baseline",
+    "Open graph image yang 404 membuat link tidak menampilkan preview saat dibagikan di WhatsApp — kesalahan kecil tetapi fatal untuk promosi, dan bisa dicek cepat lewat heymeta.com"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "videoId": "uKWkLVtKb7g",
+  "generatedAt": "2026-08-26T00:00:00.000Z",
+  "brief": "Episode ini kedatangan seorang front-end engineer dari sebuah marketplace besar, dan sebagian awalnya berisi cerita di balik layar: bahwa fitur sekecil membagikan tautan produk pun punya timnya sendiri, dan bahwa basis kode lamanya masih menyisakan gaya penulisan yang sulit dimusnahkan. Motivasinya mulai berbagi juga menarik — ia merasakan sendiri jurang antara apa yang diajarkan di kuliah dan apa yang dibutuhkan di dunia kerja, lalu ingin menjadi orang yang menjembatani keduanya.\n\nTopik utamanya pergeseran tata letak, salah satu metrik pengalaman pengguna yang paling menjengkelkan: halaman yang isinya melompat justru saat kita hendak menekan sesuatu. Diawali penyegaran soal mengapa metrik semacam ini dirumuskan — karena tanpa angka, penilaian cepat atau lambat cuma jadi perasaan, dan setiap metrik lama selalu berakhir diakali sampai akhirnya diganti dengan yang lebih sulit dicurangi.\n\nBagian praktisnya membagi sumber masalahnya jadi dua. Untuk elemen yang punya kotak — gambar, video, iklan — kuncinya menetapkan perbandingan sisi lewat CSS, sehingga tempatnya sudah dipesan sebelum isinya datang. Yang lebih rumit adalah teks yang panjangnya tidak bisa ditebak karena datang dari server: solusinya membatasi jumlah barisnya lewat CSS, sehingga tinggi tempatnya tetap sama entah teksnya pendek atau panjang. Iklan pihak ketiga disebut sebagai kasus tersulit karena kita tidak tahu isinya. Ditutup dengan pengakuan jujur bahwa memperbaiki performa itu pekerjaan berkelanjutan, dipisahkan dari pengembangan fitur agar tidak membebani, dan dipantau lewat ambang batas yang ditanam di alur integrasi.",
+  "keyPoints": [
+    "Fitur sekecil membagikan tautan produk pun punya timnya sendiri di marketplace besar — dan sebagian besar aplikasinya justru yang tidak terlihat pengguna",
+    "Metrik pengalaman pengguna dirumuskan karena tanpa angka penilaian cepat atau lambat cuma jadi perasaan, dan setiap metrik lama selalu berakhir diakali lalu diganti",
+    "Untuk elemen yang punya kotak, kuncinya menetapkan perbandingan sisi lewat CSS sehingga tempatnya sudah dipesan sebelum isinya datang",
+    "Untuk teks yang panjangnya tidak bisa ditebak karena datang dari server, batasi jumlah barisnya lewat CSS agar tinggi tempatnya tetap sama",
+    "Iklan pihak ketiga adalah kasus tersulit karena isinya tidak diketahui, tidak seperti gambar yang setidaknya bisa ditanyakan ukurannya",
+    "Ada API khusus yang mengukur pergeseran secara terprogram dan lebih rinci daripada skor akhirnya — berguna untuk pemeriksaan otomatis, bukan mengamati manual",
+    "Memperbaiki performa itu pekerjaan berkelanjutan yang dipisahkan dari pengembangan fitur, dan dipantau lewat ambang batas yang ditanam di alur integrasi"
+  ]
+}

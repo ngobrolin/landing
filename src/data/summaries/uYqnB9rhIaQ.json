@@ -1,0 +1,14 @@
+{
+  "videoId": "uYqnB9rhIaQ",
+  "generatedAt": "2026-08-26T00:00:00.000Z",
+  "brief": "Topik malam itu terdengar sepele tapi tak terhindarkan: menentukan warna. Sesedikit apa pun kita berurusan dengan sisi visual, membangun web berarti menuliskan warna — dan ternyata cara menuliskannya sudah bertambah banyak sekali.\n\nDimulai dari yang paling sederhana, yaitu nama warna. Awalnya hanya ada enam belas, warisan dari sistem tampilan lama dengan nilai-nilai yang rapi dan simetris, lalu bertambah sekitar seratus lima puluh nama yang jauh lebih semaunya — termasuk nama-nama aneh yang bikin penasaran. Salah satunya punya kisah yang tidak lucu sama sekali: sebuah warna ungu dinamai untuk mengenang anak seorang pengembang yang meninggal saat masih kecil dan menyukai warna itu.\n\nSisanya membandingkan berbagai format penulisan. RGB dan heksadesimal adalah yang paling umum dan paling aman dukungannya, tapi keduanya tidak intuitif ketika kita hanya ingin sebuah warna sedikit lebih terang atau lebih gelap. Di situlah format berbasis sudut warna terasa lebih dekat dengan cara manusia berpikir — cukup tambahkan kadar putih atau hitamnya, tanpa perlu memasang pustaka tambahan seperti dulu. Dibahas juga bahwa RGB pun ternyata punya versi standar dan versi milik vendor tertentu yang cakupan warnanya berbeda, sehingga penyerahan desain sebaiknya menyepakati yang mana. Sebuah format baru bahkan menjangkau spektrum warna yang sebelumnya tidak terjangkau sama sekali.",
+  "keyPoints": [
+    "Nama warna di CSS awalnya hanya enam belas, warisan sistem tampilan lama dengan nilai yang rapi dan simetris, lalu bertambah sekitar seratus lima puluh nama yang jauh lebih semaunya",
+    "Satu nama warna ungu punya kisah duka di baliknya: diabadikan untuk mengenang anak seorang pengembang yang meninggal saat masih kecil dan menyukai warna itu",
+    "RGB dan heksadesimal paling aman dukungannya tapi tidak intuitif — mencerahkan sedikit sebuah warna berarti membuka color picker, bukan sekadar menaikkan satu angka",
+    "Format berbasis sudut warna lebih dekat dengan cara manusia berpikir: cukup tambah kadar putih atau hitamnya, tanpa perlu pustaka tambahan seperti dulu",
+    "RGB punya versi standar dan versi milik vendor dengan cakupan warna berbeda, jadi penyerahan desain sebaiknya menyepakati yang mana supaya warnanya tidak melenceng",
+    "Satu format baru menjangkau spektrum warna yang sebelumnya tidak terjangkau — dampaknya besar untuk tampilan kaya, tapi hampir tak terasa untuk teks dan dokumen",
+    "Format untuk media cetak berbeda dari yang dipakai layar dan tidak mengenal transparansi, jadi bukan pengganti yang setara di web"
+  ]
+}

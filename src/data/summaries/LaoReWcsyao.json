@@ -1,0 +1,14 @@
+{
+  "videoId": "LaoReWcsyao",
+  "generatedAt": "2026-08-26T00:00:00.000Z",
+  "brief": "Tinjauan kode dibahas dengan jujur soal biayanya: menerapkannya berarti menambah tenaga dan memperlambat pekerjaan. Imbalannya juga jelas — kita memang tidak bisa melihat kesalahan sendiri, terutama yang menyangkut logika, sementara orang di sebelah bisa langsung menangkapnya.\n\nBagian yang paling berharga adalah cara memberi masukan tanpa melukai. Prinsipnya menyerang kodenya, bukan orangnya, dan sebisa mungkin tidak berbentuk perintah. Contoh yang dipakai konkret: alih-alih menulis tolong tangani ini berulang kali, ia bertanya bagaimana menurutmu kalau elemennya ternyata tidak ditemukan, lalu menautkan dokumentasinya — sehingga yang ditinjau memikirkan sendiri solusinya. Solusi baru diberikan kalau setelah beberapa kali percakapan ia masih belum menemukannya.\n\nAda pula pengakuan soal kendala budaya: di lingkungan kita, meninjau kode orang yang lebih senior terasa sungkan, dan ujungnya sekadar meloloskan. Padahal seorang senior pun menghargai temuan yang bisa memperbaiki kodenya — dan yang meninjau justru belajar banyak dari cara orang lain berpikir dan menamai sesuatu. Ditegaskan juga soal urutan: tinjauan manusia semestinya jadi langkah terakhir, setelah pemeriksaan otomatis, pengujian, tangkapan layar hasil uji coba, dan catatan cara mengujinya sudah lengkap — sehingga yang tersisa untuk dibahas manusia hanyalah hal-hal yang memang butuh penilaian manusia. Masukan yang bersifat selera pun ditandai jelas sebagai selera, dan boleh tidak diikuti.",
+  "keyPoints": [
+    "Tinjauan kode memang menambah tenaga dan memperlambat, tapi imbalannya nyata: kita tidak bisa melihat kesalahan sendiri, terutama yang menyangkut logika",
+    "Prinsipnya menyerang kodenya bukan orangnya, dan sebisa mungkin masukan tidak berbentuk perintah",
+    "Alih-alih menyuruh memperbaiki, ajukan pertanyaan tentang kasus yang belum tertangani lalu tautkan dokumentasinya — biar yang ditinjau memikirkan sendiri solusinya",
+    "Solusi baru diberikan kalau setelah beberapa kali percakapan ia masih belum menemukannya sendiri",
+    "Sungkan meninjau kode orang yang lebih senior itu nyata di lingkungan kita, padahal senior pun menghargai temuan yang memperbaiki kodenya",
+    "Yang meninjau justru banyak belajar — dari cara orang lain berpikir, memecahkan masalah dari arah berbeda, dan menamai sesuatu",
+    "Tinjauan manusia semestinya langkah terakhir setelah pemeriksaan otomatis, pengujian, tangkapan layar, dan catatan cara menguji sudah lengkap"
+  ]
+}

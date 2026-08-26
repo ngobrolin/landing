@@ -1,0 +1,14 @@
+{
+  "videoId": "OwdCWP1FWNE",
+  "generatedAt": "2026-08-26T00:00:00.000Z",
+  "brief": "Melanjutkan rangkuman umum minggu sebelumnya, episode ini memilih beberapa topik dari Google I/O untuk dibedah lebih dalam. Yang pertama soal masuk tanpa kata sandi. Titik berangkatnya keluhan yang semua orang kenali: setiap layanan meminta kata sandi, dan konsekuensinya kita memakai kata sandi yang sama di mana-mana. Web authentication API menawarkan jalan lain — memakai sidik jari, wajah, atau kunci fisik langsung dari browser, dengan kunci rahasianya tetap tinggal di perangkat dan hanya kunci publiknya yang dikirim ke server.\n\nDua hal membuatnya menarik. Pertama, karena kredensialnya terikat pada domain tempat ia didaftarkan, situs tiruan yang dibuat semirip mungkin tidak akan mengenali akun kita — jadi ia sekaligus penangkal penipuan lewat situs palsu. Kedua, karena tidak ada kata sandi yang disimpan di server, tidak ada yang bisa ditebak paksa maupun bocor. Alurnya sendiri hanya dua fungsi: mendaftar dan mengambil. Karena bentuknya standar, perangkat keras jenis baru bisa langsung terpakai tanpa menulis kode berbeda.\n\nTopik kedua soal WebAssembly, yang sempat terasa senyap padahal adopsinya justru besar di produk-produk berat: perangkat desain, penyunting gambar, sampai permainan yang dulu mustahil hidup di browser. Nilainya bagi mereka adalah tidak perlu menulis ulang basis kode raksasa demi bisa jalan di web. Alasan perkembangannya sempat tersendat pun terjawab: versi awalnya belum mendukung bahasa yang punya pengelola memori otomatis, dan itulah yang dibuka di versi berikutnya. Dampaknya beruntun — basis data, pengolah video, sampai mesin permainan kini bisa berjalan langsung di sisi pengunjung tanpa perjalanan ke server.",
+  "keyPoints": [
+    "Masuk tanpa kata sandi bekerja dengan menyimpan kunci rahasia di perangkat dan hanya mengirim kunci publik ke server — jadi tidak ada kata sandi yang bisa bocor atau ditebak paksa",
+    "Kredensialnya terikat pada domain tempat ia didaftarkan, sehingga situs tiruan semirip apa pun tidak akan mengenali akun kita — sekaligus jadi penangkal penipuan lewat situs palsu",
+    "Alurnya hanya dua fungsi, mendaftar dan mengambil, dan karena bentuknya standar, perangkat keras jenis baru langsung terpakai tanpa menulis kode berbeda",
+    "Ia bukan pengganti pengiriman data yang aman — untuk mengirim data ke server tetap perlu mekanismenya sendiri, karena lingkupnya hanya mengesahkan siapa penggunanya",
+    "WebAssembly terasa senyap tapi adopsinya justru besar di produk berat, karena nilainya adalah tidak perlu menulis ulang basis kode raksasa demi bisa jalan di web",
+    "Perkembangannya sempat tersendat karena versi awal belum mendukung bahasa yang punya pengelola memori otomatis — itulah yang dibuka di versi berikutnya",
+    "Dampaknya beruntun: basis data, pengolah video, sampai mesin permainan kini bisa berjalan langsung di sisi pengunjung tanpa perjalanan ke server"
+  ]
+}
