@@ -5,7 +5,8 @@
 ### Core
 - **Episode listing** - Fetched from YouTube API, stored in `src/data/episodes.json`
 - **Top Episodes page** - Curated list in `src/data/topEpisodes.json`
-- **Search** - Client-side search using Fuse.js
+- **Search** - Client-side search over the server-rendered cards; see
+  `src/lib/search.ts` for what is indexed and why short queries bypass Fuse
 
 ### Transcription & Summarization
 - **Transcription** - Local Whisper pipeline via `pnpm run transcribe`
@@ -36,7 +37,9 @@
 
 ## Future Ideas
 
-- [ ] Search within transcripts
+- [x] ~~Search within transcripts~~ - weighed and declined; the index is
+      already fetched out of line and a transcript index would multiply it.
+      `SEARCH_KEYS` in `src/lib/search.ts` is the one place to revisit it.
 - [ ] Clickable timestamps (jump to video position)
 - [ ] Auto-transcribe pipeline (GitHub Action)
 - [ ] Episode chapters from AI

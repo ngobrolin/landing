@@ -72,6 +72,17 @@ self.addEventListener('fetch', (event) => {
     return;
   }
 
+  // Search index - network first with cache fallback.
+  // It used to be inlined into every archive page, so the pages cache made
+  // search work offline for free. Now that it is a separate file the service
+  // worker has to hold it deliberately, or going offline silently downgrades
+  // search to title-only matching. Path kept in step with SEARCH_INDEX_PATH in
+  // src/lib/search.ts - this file cannot import it.
+  if (url.pathname === '/search-index.json') {
+    event.respondWith(handleSearchIndexRequest(event.request));
+    return;
+  }
+
   // Static assets - cache first
   if (url.pathname.match(/\.(css|js|woff|woff2|svg|png|jpg|jpeg|webp|gif|ico)$/)) {
     event.respondWith(handleStaticRequest(event.request));
@@ -111,6 +122,37 @@ async function handleHtmlRequest(request) {
       status: 503,
       headers: { 'Content-Type': 'text/plain' }
     });
+  }
+}
+
+// Handle the search index - network first, cache for offline
+async function handleSearchIndexRequest(request) {
+  const cache = await caches.open(PAGES_CACHE);
+
+  try {
+    // Network first, because CACHE_VERSION is not bumped per deploy and a
+    // cache-first index would keep new episodes unfindable indefinitely.
+    const response = await fetch(request);
+
+    if (response.ok && response.type === 'basic') {
+      const clone = response.clone();
+      cache.put(request, clone).catch(err => {
+        console.warn('[SW] Failed to cache the search index:', err);
+      });
+    }
+
+    return response;
+  } catch (err) {
+    const cached = await cache.match(request);
+
+    if (cached) {
+      return cached;
+    }
+
+    // Nothing cached yet. Rethrowing lets the page's fetch reject, which is
+    // what puts search into its stated title-only fallback rather than
+    // leaving the input silently doing nothing.
+    throw err;
   }
 }
 

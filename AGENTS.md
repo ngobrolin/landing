@@ -193,7 +193,7 @@ Two things worth knowing before touching that path:
 
 - ✅ **Add E2E tests before fixing bugs** - Tests caught view transition regressions early
 - ✅ **Use guard patterns for script initialization** - `data-menu-initialized` flag prevents duplicate listeners
-- ✅ **Add `data-astro-rerun` for view transitions** - Scripts must re-run on client-side navigation
+- ✅ **Add `data-astro-rerun` for view transitions** - but only inline scripts support it; see *Scripts and view transitions* below for scripts with imports
 - ✅ **Test view transitions explicitly** - Ensure scripts work after navigation, not just initial load
 - ✅ **Use IIFE pattern with `is:inline`** - Prevents scope pollution and ensures re-execution
 
@@ -205,27 +205,71 @@ Two things worth knowing before touching that path:
 - ❌ **Don't test only initial page load** - View transitions create different execution context
 - ❌ **Don't refactor without E2E coverage** - ShareButtons refactor needed testing protection
 
-## `/partners` is the site's conversion destination
+## Scripts and view transitions
 
-It is the page a sponsor is sent to, so its job is to be believed. Two rules hold
-it together:
+`ClientRouter` is site-wide, so every script has to survive client-side
+navigation. Which mechanism you need depends on whether the script imports
+anything:
 
-- **Every figure it publishes has one source: `src/lib/partner-stats.ts`.** The page,
-  its meta description and its share card all read from there and none of them states
-  a number. Each wrong figure this page has shipped ("164+", "1K+ Views/Episode",
-  "Konsistensi 4+ Tahun") was a second copy that drifted. Channel figures are labelled
-  as the channel's — the channel carries a second show — and carry a dated attribution.
-  `src/lib/partner-stats.test.ts` fails if a consumer restates a figure.
-- **The share card at `/partners-og.png` is generated at build time**
-  (`src/lib/partner-card.ts` → `src/pages/partners-og.png.ts`) from those same figures,
-  for that reason: a hand-made image would be a second copy, and a card that disagrees
-  with the page it links to is worse than no card. It rasterises SVG through `sharp`,
-  which reaches fonts via fontconfig — use `sans-serif`, never `system-ui`, or the
-  glyphs silently vanish on a Linux build agent. `src/lib/partner-card.test.ts` measures
-  ink in the rendered PNG rather than trusting the SVG string.
+- **No imports** → `<script is:inline data-astro-rerun>` plus an
+  initialisation guard. This is the pattern most of the codebase uses.
+- **Has imports** → Astro bundles it as a module and `data-astro-rerun` does
+  not apply. Bind to `astro:after-swap` **and** `astro:page-load`, **and** call
+  the initialiser immediately. All three are needed, and this was measured, not
+  guessed: navigating `/` → `/episodes` fires `before-preparation`,
+  `after-preparation`, `before-swap` and `after-swap` but **not** `page-load`,
+  because the module had never loaded on `/` and was still arriving when the
+  navigation finished. `src/components/SearchEpisodes.astro` documents this at
+  the call site.
 
-The page is Indonesian-only by decision; do not add an English version or a language
-switcher.
+Two related traps:
+
+- **Set the "already initialised" guard *after* the risky work, not before.**
+  Search shipped broken for an unknown period because the guard was set before
+  a line that threw, which turned a transient ordering bug into a permanent
+  one that no re-run could clear.
+- **A `<script>` inside a repeated component is emitted once per render.**
+  `OfflineIndicator` put its runtime in the card, so `/episodes` shipped 178
+  copies and each one queried every badge on the page — N² work. Page-level
+  runtimes belong in `Layout.astro`; see `OfflineBadgeRuntime.astro`.
+
+## Derived data, and numbers that go stale
+
+Anything countable must be derived at build time. Hardcoded counts have
+produced wrong public claims here more than once: `/partners` advertised
+"164+" against a real 178, and `/tags` advertised "723 episode" because it
+summed tag counts rather than counting episodes. `src/lib/archive.ts` and
+`getTaggedEpisodeCount()` in `src/lib/tags.ts` are the helpers.
+
+`src/data/tags.json` is **fully derived** from `src/data/summaries/` by
+`scripts/extract-tags.ts`, which **replaces** the file rather than merging into
+it. It used to union old and new tags "to preserve manual edits", which meant a
+tag could be added but never removed — so fixing the matcher would have changed
+nothing. If hand-tuned tags are ever wanted, they need a separate file to merge
+*with*.
+
+The matching rule lives in `scripts/lib/tag-extraction.ts` and is
+word-boundary based, with tests. Never make it a bare `includes()`: in
+Indonesian, `ai` appears inside *mulai, berbagai, sebagai, sesuai, bagaimana*,
+which once tagged **every** summarised episode as `ai`. `ts` matched
+*assistants*, `ml` matched *html*, `bun` matched *membangun*.
+
+Re-run `pnpm exec tsx scripts/extract-tags.ts` whenever summaries change, and
+check that no `/tags/<tag>` URL disappears — those pages are indexed.
+
+## Episode titles
+
+Most titles carry a trailing show-name credit, in dozens of distinct shapes
+(`- Ngobrolin WEB`, `... ep51`, `... & @handle`, and a real `Ngborlin WEB`
+misspelling); a minority carry no suffix at all. `src/lib/episode-title.ts` owns
+both directions:
+
+- `getDisplayTitle()` for anything a reader sees — it strips the credit only
+  where it *is* a credit (anchored on a dash), so titles that use the show name
+  as their subject, like *Ngobrolin WebSocket*, keep it.
+- `buildEpisodePageTitle()` for `<title>` and the social tags, which must keep
+  the show name. Appending it unconditionally is how most episode pages came to
+  ship `X - Ngobrolin WEB - Ngobrolin WEB`.
 
 ## Podcast audio pipeline
 

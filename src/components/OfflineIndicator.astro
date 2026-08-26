@@ -2,6 +2,13 @@
 /**
  * OfflineIndicator - Shows badge when episode is cached for offline access
  *
+ * Markup only. The runtime that checks the Cache API lives in
+ * OfflineBadgeRuntime.astro, rendered once by Layout.astro.
+ *
+ * It used to live here, which meant one copy of the script per card: /episodes
+ * renders 178 cards, so the page shipped 178 byte-identical copies (~127KB),
+ * and each copy looped over every badge on the page, making the work N squared.
+ *
  * Usage:
  *   <OfflineIndicator slug={episode.slug} />
  */
@@ -41,29 +48,3 @@ const episodePath = `/episodes/${slug}/`;
     color: #10b981;
   }
 </style>
-
-<script is:inline data-astro-rerun>
-  (function checkOfflineStatus() {
-    const badges = document.querySelectorAll('.offline-badge');
-    if (badges.length === 0) return;
-
-    // Check cache for each episode
-    badges.forEach(async (badge) => {
-      const path = badge.getAttribute('data-episode-path');
-      if (!path) return;
-
-      try {
-        const cache = await caches.open('ngobrol-pages-v1');
-        const matched = await cache.match(path);
-
-        if (matched) {
-          badge.classList.add('cached');
-          badge.title = 'Tersedia offline';
-        }
-      } catch (err) {
-        // Cache API not available or error - hide badge
-        badge.style.display = 'none';
-      }
-    });
-  })();
-</script>

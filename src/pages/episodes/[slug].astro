@@ -12,11 +12,14 @@ import {
     generateVideoSchema,
     generateBreadcrumbSchema,
     generatePodcastEpisodeSchema,
+    buildEpisodePageTitle,
+    getDisplayTitle,
 } from "../../lib/seo";
 import { getRelatedEpisodes } from "../../lib/related";
 import EpisodeCard from "../../components/EpisodeCard.astro";
 import Comments from "../../components/Comments.astro";
 import ShareButtons from "../../components/ShareButtons.astro";
+import EpisodeTopics from "../../components/EpisodeTopics.astro";
 
 export async function getStaticPaths() {
     const episodes = getEpisodes();
@@ -70,10 +73,14 @@ const relatedEpisodes = getRelatedEpisodes(episode, episodes, 3);
 
 // Episode URL for sharing
 const episodeUrl = `${siteUrl}/episodes/${episode.slug}`;
+
+// Visible text drops the trailing show-name credit; the <title>, og:title and
+// the share text keep it.
+const displayTitle = getDisplayTitle(episode.title);
 ---
 
 <Layout
-    title={`${episode.title} - Ngobrolin WEB`}
+    title={buildEpisodePageTitle(episode.title)}
     description={metaDescription}
     image={episode.thumbnail}
     preloadImage={optimizedThumbnail.src}
@@ -98,22 +105,22 @@ const episodeUrl = `${siteUrl}/episodes/${episode.slug}`;
         <div class="container mx-auto px-4">
             <div class="max-w-4xl mx-auto">
                 <!-- Breadcrumb -->
-                <nav class="mb-6">
+                <nav class="mb-6" aria-label="Breadcrumb">
                     <ol class="flex items-center gap-2 text-sm text-gray-400">
                         <li>
                             <a href="/" class="hover:text-white transition"
-                                >Home</a
+                                >Beranda</a
                             >
                         </li>
-                        <li>/</li>
+                        <li aria-hidden="true">/</li>
                         <li>
                             <a
                                 href="/episodes"
-                                class="hover:text-white transition">Episodes</a
+                                class="hover:text-white transition">Episode</a
                             >
                         </li>
-                        <li>/</li>
-                        <li class="text-white">EP {episode.episodeNumber}</li>
+                        <li aria-hidden="true">/</li>
+                        <li class="text-white" aria-current="page">EP {episode.episodeNumber}</li>
                     </ol>
                 </nav>
 
@@ -131,54 +138,130 @@ const episodeUrl = `${siteUrl}/episodes/${episode.slug}`;
                     <div class="flex items-center gap-4 mb-4">
                         <span
                             class="bg-primary text-white text-sm font-bold px-3 py-1 rounded"
+                            data-testid="episode-number-badge"
+                            >EP {episode.episodeNumber}</span
                         >
-                            EP {episode.episodeNumber}
-                        </span>
                         <time class="text-gray-400 text-sm"
                             >{formattedDate}</time
                         >
                     </div>
 
                     <h1 class="text-2xl md:text-3xl font-bold text-white mb-4">
-                        {episode.title}
+                        {displayTitle}
                     </h1>
 
-                    <!-- Share Buttons -->
+                    <!--
+                        Topics sit directly under the title, where the share row
+                        used to be. This is the page's only outbound path into
+                        the subject archive, and it is what gives the 36 tag
+                        pages inbound links.
+                    -->
                     <div class="mb-6">
-                        <ShareButtons url={episodeUrl} title={episode.title} />
+                        <EpisodeTopics videoId={episode.videoId} />
                     </div>
 
-                    <p
-                        class="text-gray-300 leading-relaxed whitespace-pre-line"
-                    >
-                        {episode.description}
-                    </p>
-
-                    <!-- Summary -->
+                    <!--
+                        Summary first, then transcript, then the raw YouTube
+                        description. The description is the weakest of the three
+                        for a reader: most of them are boilerplate, and it carries
+                        sponsor ad copy that rendered at full body weight above
+                        the editorial summary.
+                    -->
                     <Summary videoId={episode.videoId} />
 
                     <!-- Transcript -->
                     <Transcript videoId={episode.videoId} />
 
-                    <!-- CTA Section -->
-                    <div
+                    <details class="mt-8 group">
+                        <summary
+                            class="cursor-pointer text-gray-400 hover:text-white transition text-sm font-medium"
+                        >
+                            Deskripsi asli dari YouTube
+                        </summary>
+                        <p
+                            class="text-gray-300 leading-relaxed whitespace-pre-line mt-3"
+                        >
+                            {episode.description}
+                        </p>
+                    </details>
+
+                </div>
+
+                <!-- Related Episodes -->
+                {
+                    relatedEpisodes.length > 0 && (
+                        <section
+                            class="mt-12 pt-8 border-t border-dark-border"
+                            data-testid="related-episodes"
+                        >
+                            <h2 class="text-xl font-bold text-white mb-6">
+                                Episode Terkait
+                            </h2>
+                            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                                {relatedEpisodes.map((ep) => (
+                                    <EpisodeCard
+                                        title={ep.title}
+                                        description={ep.description}
+                                        publishedAt={ep.publishedAt}
+                                        thumbnail={ep.thumbnail}
+                                        episodeNumber={ep.episodeNumber}
+                                        slug={ep.slug}
+                                        duration={ep.duration}
+                                        brief={ep.brief}
+                                    />
+                                ))}
+                            </div>
+                        </section>
+                    )
+                }
+
+                <!-- Share -->
+                <!--
+                    Share sits AFTER the content and the related grid. It used
+                    to be the first interactive thing under the H1, which asked
+                    a first-time visitor to share an episode they had not read.
+                -->
+                <section class="mt-12 pt-8 border-t border-dark-border">
+                    <ShareButtons url={episodeUrl} title={episode.title} />
+                </section>
+
+                    <!--
+                        Subscribe, at the end of the episode.
+
+                        The homepage hero keeps the one-click YouTube link with
+                        its confirm dialog, because a front door wants the
+                        lowest-friction action. Here it is the opposite: someone
+                        who just finished an 85-minute episode is exactly who
+                        wants to choose a platform, so this names all three and
+                        sends them to /subscribe rather than being a second
+                        YouTube button.
+                    -->
+                    <section
                         class="mt-8 p-6 bg-gradient-to-r from-primary/10 to-primary-light/10 border border-primary/20 rounded-xl"
+                        data-testid="episode-subscribe"
+                        aria-labelledby="episode-subscribe-heading"
                     >
                         <div
-                            class="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4"
+                            class="flex flex-col md:flex-row md:items-center justify-between gap-5"
                         >
                             <div>
-                                <h3 class="text-white font-semibold mb-1">
+                                <h2
+                                    id="episode-subscribe-heading"
+                                    class="text-white font-semibold text-lg mb-1"
+                                >
                                     Suka episode ini?
-                                </h3>
+                                </h2>
                                 <p class="text-gray-400 text-sm">
-                                    Langganan untuk update episode terbaru
-                                    setiap Selasa malam!
+                                    Episode baru setiap Selasa malam. Dengarkan
+                                    lewat <span class="text-gray-300">YouTube</span>,
+                                    <span class="text-gray-300">Spotify</span>, atau
+                                    feed <span class="text-gray-300">podcast</span>
+                                    favoritmu.
                                 </p>
                             </div>
                             <a
                                 href="/subscribe"
-                                class="bg-red-600 hover:bg-red-700 text-white px-5 py-2.5 rounded-lg text-sm font-medium transition whitespace-nowrap"
+                                class="bg-primary hover:bg-primary-light text-white px-6 py-3 rounded-lg font-medium transition whitespace-nowrap text-center"
                                 data-analytics-event="cta_click"
                                 data-analytics-props={JSON.stringify({
                                     cta: "subscribe",
@@ -186,10 +269,10 @@ const episodeUrl = `${siteUrl}/episodes/${episode.slug}`;
                                     videoId: episode.videoId,
                                 })}
                             >
-                                Langganan Sekarang
+                                Pilih Cara Langganan
                             </a>
                         </div>
-                    </div>
+                    </section>
 
                     <!-- Discussion Link -->
                     <div class="mt-6 flex items-center gap-4 text-sm">
@@ -217,36 +300,15 @@ const episodeUrl = `${siteUrl}/episodes/${episode.slug}`;
                             Diskusikan episode ini di GitHub
                         </a>
                     </div>
-                </div>
-
-                <!-- Related Episodes -->
-                {
-                    relatedEpisodes.length > 0 && (
-                        <section class="mt-12 pt-8 border-t border-dark-border">
-                            <h2 class="text-xl font-bold text-white mb-6">
-                                Episode Terkait
-                            </h2>
-                            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-                                {relatedEpisodes.map((ep) => (
-                                    <EpisodeCard
-                                        title={ep.title}
-                                        description={ep.description}
-                                        publishedAt={ep.publishedAt}
-                                        thumbnail={ep.thumbnail}
-                                        episodeNumber={ep.episodeNumber}
-                                        slug={ep.slug}
-                                    />
-                                ))}
-                            </div>
-                        </section>
-                    )
-                }
 
                 <!-- Comments -->
                 <Comments />
 
                 <!-- Navigation -->
-                <nav class="mt-12 pt-8 border-t border-dark-border">
+                <nav
+                    class="mt-12 pt-8 border-t border-dark-border"
+                    aria-label="Episode sebelumnya dan selanjutnya"
+                >
                     <div class="flex justify-between gap-4">
                         {
                             prevEpisode ? (
@@ -258,7 +320,7 @@ const episodeUrl = `${siteUrl}/episodes/${episode.slug}`;
                                         ← Episode Sebelumnya
                                     </span>
                                     <p class="text-white font-medium mt-1 group-hover:text-primary-light transition line-clamp-1">
-                                        {prevEpisode.title}
+                                        {getDisplayTitle(prevEpisode.title)}
                                     </p>
                                 </a>
                             ) : (
@@ -276,7 +338,7 @@ const episodeUrl = `${siteUrl}/episodes/${episode.slug}`;
                                         Episode Selanjutnya →
                                     </span>
                                     <p class="text-white font-medium mt-1 group-hover:text-primary-light transition line-clamp-1">
-                                        {nextEpisode.title}
+                                        {getDisplayTitle(nextEpisode.title)}
                                     </p>
                                 </a>
                             ) : (

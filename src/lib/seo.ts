@@ -35,6 +35,10 @@ export function getTranscript(videoId: string): Transcript | null {
   return null;
 }
 
+// Title composition lives in episode-title.ts so the data layer can use it
+// too without importing this module. Re-exported for existing callers.
+export { SITE_NAME, buildEpisodePageTitle, getDisplayTitle } from './episode-title';
+
 export function getMetaDescription(episode: Episode, summary: Summary | null): string {
   if (summary?.brief) {
     // Use first paragraph of summary, truncated to ~160 chars

@@ -1,88 +1,36 @@
 {
-  "Qh0ImRYTync": [
-    "ai",
-    "api",
-    "css",
+  "-ThmdHbkH-c": [
+    "deployment",
+    "learning"
+  ],
+  "-TwyNC_SSFY": [
     "javascript",
-    "responsive",
-    "typescript",
-    "ui"
+    "node"
   ],
-  "Tkh8-LleLws": [
-    "ai",
-    "ai-coding",
-    "css",
-    "design",
-    "dev-tools",
-    "typescript",
-    "ui"
-  ],
-  "ZcYNuHirHOA": [
+  "00ZHWKLlp5g": [
     "ai",
     "ai-coding",
     "dev-tools",
-    "ui"
-  ],
-  "_H9EkkzDGTs": [
-    "ai",
-    "database",
     "security",
     "ux"
   ],
-  "aY57UgFCC48": [
-    "ai",
-    "api",
-    "bun",
-    "deployment",
-    "javascript",
-    "learning"
-  ],
-  "lPTtyv8Hzgs": [
+  "0RCXRNHhBfo": [
     "ai",
     "ai-coding",
-    "deployment",
-    "ui"
-  ],
-  "puCZUlxrSpg": [
-    "ai",
     "api",
-    "bun",
-    "javascript",
-    "learning",
-    "monorepo",
-    "ui"
-  ],
-  "uPiv9JbEOPA": [
-    "ai",
-    "deployment",
-    "design",
+    "css",
     "dev-tools",
     "javascript",
-    "ui",
-    "ux"
-  ],
-  "x1jm57leZW0": [
-    "accessibility",
-    "ai",
-    "css",
-    "deployment",
-    "responsive",
-    "typescript"
-  ],
-  "yfgMjKu89u0": [
-    "ai",
-    "api",
-    "build-tools",
-    "javascript",
-    "testing"
+    "performance",
+    "security",
+    "testing",
+    "ui"
   ],
   "0o-PcX6pR2E": [
-    "ai",
     "api",
     "astro",
     "database",
     "deployment",
-    "dev-tools",
     "javascript",
     "node",
     "performance",
@@ -94,44 +42,149 @@
   ],
   "0sMCTZ77Fjk": [
     "accessibility",
-    "ai",
-    "bun",
     "dev-tools",
     "javascript",
     "nextjs",
     "security"
   ],
-  "2Y7gmbdrnqc": [
-    "ai",
+  "18LNXOF8IPA": [
+    "css",
+    "deployment",
+    "learning",
+    "ui"
+  ],
+  "1p7nM1Yr6tw": [
+    "animation",
     "api",
     "astro",
+    "javascript",
+    "ui"
+  ],
+  "1w9mppcKs8M": [
+    "ai",
+    "ai-coding",
+    "css",
+    "javascript",
+    "learning"
+  ],
+  "2E52qAB9Pq4": [
+    "animation",
+    "astro",
+    "css",
+    "javascript"
+  ],
+  "2Kcb9uIQW8M": [
+    "api",
+    "community",
     "dev-tools"
   ],
-  "3C-psD7dx9w": [
+  "2Y7gmbdrnqc": [
     "ai",
+    "astro"
+  ],
+  "2dqsz5Y4Mlk": [
+    "javascript"
+  ],
+  "2nJE0rvIUps": [
+    "accessibility",
+    "animation",
     "javascript",
+    "responsive"
+  ],
+  "32B5A4eX_aw": [
+    "animation",
+    "api",
+    "build-tools",
+    "community",
+    "javascript",
+    "performance",
+    "security",
+    "typescript"
+  ],
+  "3C-psD7dx9w": [
     "learning",
     "security",
     "ui"
   ],
+  "3W1Vk95usrg": [
+    "dev-tools",
+    "responsive"
+  ],
+  "4B17oXqMoRY": [
+    "build-tools",
+    "deployment",
+    "javascript",
+    "monorepo",
+    "nextjs",
+    "performance"
+  ],
+  "4vHgtGtsDFg": [
+    "api",
+    "database",
+    "deployment",
+    "javascript"
+  ],
+  "4yHA-8Bu4XM": [
+    "ai",
+    "community",
+    "javascript",
+    "learning"
+  ],
+  "5P6heS1ZtPw": [],
+  "7JewigkI4Do": [
+    "accessibility",
+    "api",
+    "community",
+    "css",
+    "testing"
+  ],
   "7TR-vxCBiZ4": [
     "accessibility",
-    "ai",
-    "api",
     "design",
     "performance",
     "security"
   ],
   "7WbdKRP1QY4": [
-    "ai",
     "build-tools",
-    "bun",
     "react",
+    "testing"
+  ],
+  "80Cnky1uvyk": [
+    "accessibility",
+    "database",
+    "dev-tools",
     "testing",
     "ui"
   ],
+  "89TRqTXfwrg": [
+    "api",
+    "astro",
+    "build-tools",
+    "community",
+    "css",
+    "database",
+    "javascript",
+    "nextjs",
+    "react",
+    "svelte",
+    "ui",
+    "vue"
+  ],
+  "8Diqwtb6hKs": [
+    "api",
+    "astro",
+    "build-tools",
+    "css",
+    "javascript",
+    "security",
+    "svelte",
+    "testing",
+    "typescript"
+  ],
+  "8MhHQNJ6OzE": [
+    "ai"
+  ],
   "8ke0CsKPjAU": [
-    "ai",
     "angular",
     "api",
     "design",
@@ -142,305 +195,17 @@
     "react",
     "state-management",
     "svelte",
-    "ui",
-    "ux",
     "vue"
-  ],
-  "99CaLw7Q7os": [
-    "accessibility",
-    "ai",
-    "performance",
-    "seo",
-    "ui"
-  ],
-  "GGfh-olIzl0": [
-    "ai",
-    "api",
-    "dev-tools",
-    "javascript",
-    "learning",
-    "typescript",
-    "ui"
-  ],
-  "KzqALj3KpDo": [
-    "ai",
-    "ai-coding",
-    "api",
-    "build-tools",
-    "bun",
-    "database",
-    "dev-tools",
-    "javascript",
-    "nextjs",
-    "react",
-    "seo",
-    "typescript",
-    "ui"
-  ],
-  "L4VUZPu-IMQ": [
-    "ai",
-    "community"
-  ],
-  "Lg3hspyi4eg": [
-    "ai",
-    "career",
-    "javascript",
-    "react"
-  ],
-  "RQ6KMuo9PPg": [
-    "ai",
-    "build-tools",
-    "deployment",
-    "design",
-    "testing",
-    "typescript",
-    "ui"
-  ],
-  "RZ0hw1FcdnA": [
-    "ai",
-    "javascript",
-    "nextjs",
-    "security"
-  ],
-  "Viq69Sv_MrI": [
-    "ai",
-    "career",
-    "design",
-    "javascript",
-    "testing"
-  ],
-  "ZRQrg3dABLQ": [
-    "ai",
-    "ai-coding",
-    "api",
-    "astro",
-    "learning"
-  ],
-  "ZwXgk5yeUD0": [
-    "ai",
-    "testing"
-  ],
-  "cYH8NfEPPu0": [
-    "ai",
-    "css",
-    "javascript"
-  ],
-  "dk8JSYuOmhc": [
-    "ai",
-    "ai-coding",
-    "api",
-    "css",
-    "database",
-    "deployment",
-    "design",
-    "dev-tools",
-    "performance",
-    "responsive",
-    "testing"
-  ],
-  "f1g2zrOmzN0": [
-    "ai",
-    "animation",
-    "api",
-    "community",
-    "css",
-    "learning",
-    "typescript",
-    "ui"
-  ],
-  "hSUqstbgNgI": [
-    "accessibility",
-    "ai",
-    "animation",
-    "api",
-    "css",
-    "deployment",
-    "design",
-    "monorepo",
-    "performance",
-    "seo",
-    "ui"
-  ],
-  "j-wZjh62Gaw": [
-    "ai",
-    "bun",
-    "deployment",
-    "javascript",
-    "monorepo",
-    "nextjs",
-    "react",
-    "security",
-    "ui"
-  ],
-  "p4Gk1NTKYoo": [
-    "ai",
-    "ai-coding",
-    "community",
-    "ui"
-  ],
-  "utmuHV8-MAU": [
-    "ai",
-    "astro",
-    "build-tools",
-    "design",
-    "javascript",
-    "learning",
-    "nextjs",
-    "react",
-    "security"
-  ],
-  "v28qyGyoMw4": [
-    "accessibility",
-    "ai",
-    "animation",
-    "api",
-    "javascript",
-    "performance",
-    "typescript",
-    "ui",
-    "ux"
-  ],
-  "wRF7vpvs95s": [
-    "ai",
-    "design",
-    "dev-tools",
-    "javascript",
-    "node",
-    "security",
-    "ux"
-  ],
-  "zX0gDaovb1w": [
-    "ai",
-    "database",
-    "performance",
-    "ui"
-  ],
-  "QdWmc9bMo48": [
-    "ai",
-    "animation",
-    "astro",
-    "bun",
-    "css",
-    "javascript",
-    "ui"
-  ],
-  "iLILgsmq9mg": [
-    "ai",
-    "api",
-    "typescript"
-  ],
-  "-ThmdHbkH-c": [
-    "ai",
-    "deployment",
-    "learning"
-  ],
-  "00ZHWKLlp5g": [
-    "ai",
-    "ai-coding",
-    "dev-tools",
-    "security",
-    "typescript",
-    "ux"
-  ],
-  "1w9mppcKs8M": [
-    "ai",
-    "ai-coding",
-    "css",
-    "dev-tools",
-    "javascript",
-    "learning",
-    "testing",
-    "ui"
-  ],
-  "2E52qAB9Pq4": [
-    "ai",
-    "animation",
-    "astro",
-    "css",
-    "javascript",
-    "typescript",
-    "ui"
-  ],
-  "32B5A4eX_aw": [
-    "ai",
-    "animation",
-    "api",
-    "build-tools",
-    "bun",
-    "community",
-    "dev-tools",
-    "javascript",
-    "performance",
-    "security",
-    "typescript",
-    "ui",
-    "web-components"
-  ],
-  "4B17oXqMoRY": [
-    "ai",
-    "build-tools",
-    "deployment",
-    "javascript",
-    "monorepo",
-    "nextjs",
-    "performance",
-    "ui"
-  ],
-  "4yHA-8Bu4XM": [
-    "ai",
-    "community",
-    "javascript",
-    "learning",
-    "ui"
-  ],
-  "5P6heS1ZtPw": [
-    "ai"
-  ],
-  "7JewigkI4Do": [
-    "accessibility",
-    "ai",
-    "animation",
-    "api",
-    "community",
-    "css",
-    "testing",
-    "typescript",
-    "ui"
-  ],
-  "89TRqTXfwrg": [
-    "ai",
-    "api",
-    "astro",
-    "build-tools",
-    "bun",
-    "community",
-    "css",
-    "database",
-    "javascript",
-    "nextjs",
-    "react",
-    "svelte",
-    "typescript",
-    "ui",
-    "ux",
-    "vue"
-  ],
-  "8MhHQNJ6OzE": [
-    "ai",
-    "ui"
   ],
   "8tZIeQH1DSU": [
-    "ai",
     "animation",
     "javascript",
     "react",
-    "seo",
     "svelte",
     "testing",
     "ui"
   ],
-  "undefined": [
-    "ai",
+  "94-ige23PDs": [
     "api",
     "career",
     "database",
@@ -449,116 +214,288 @@
     "responsive",
     "security"
   ],
-  "9PpM7f7TEbw": [
+  "99CaLw7Q7os": [
+    "accessibility",
     "ai",
-    "bun",
+    "performance",
+    "seo"
+  ],
+  "9ECU9Wz0wzU": [
+    "css",
+    "javascript",
+    "learning"
+  ],
+  "9PpM7f7TEbw": [
     "database",
     "javascript",
     "learning",
     "performance",
+    "react"
+  ],
+  "Aneo-LjbnoI": [
+    "api",
+    "community",
+    "css",
+    "dev-tools",
+    "javascript",
+    "performance",
     "react",
-    "typescript",
-    "ui"
+    "svelte"
   ],
   "AtRclaIb4zE": [
-    "ai",
-    "api",
     "career",
-    "community",
-    "ui"
+    "community"
+  ],
+  "B0Ar5k_h2uk": [
+    "css",
+    "dev-tools",
+    "javascript",
+    "react",
+    "svelte",
+    "ui",
+    "vue",
+    "web-components"
   ],
   "B_k1563IOz0": [
-    "ai",
-    "api",
     "css",
     "learning",
-    "seo",
     "testing"
   ],
-  "Ggx5EOiZIwA": [
-    "ai",
+  "CH5rh-zHktQ": [
     "api",
-    "bun",
-    "database",
+    "dev-tools",
     "javascript",
+    "security"
+  ],
+  "Dwy3ydXygaY": [
+    "astro",
+    "bun",
+    "career",
+    "javascript",
+    "learning",
+    "seo",
+    "typescript"
+  ],
+  "EMynH33TrBI": [],
+  "Edez-dpX0Hw": [
+    "build-tools",
+    "bun",
+    "css",
+    "deno",
+    "deployment",
+    "dev-tools",
+    "javascript",
+    "monorepo",
+    "node",
+    "testing",
+    "ui"
+  ],
+  "GGfh-olIzl0": [
+    "ai",
+    "javascript",
+    "learning"
+  ],
+  "GIlzAKp7rI8": [
+    "css"
+  ],
+  "Ggx5EOiZIwA": [
+    "database",
     "responsive"
   ],
-  "IPWEi0I3bf0": [
-    "ai",
+  "H-NPmffVrcw": [
     "api",
+    "security"
+  ],
+  "IA3ECrPgbZU": [
+    "api"
+  ],
+  "IG1x81EIb54": [
+    "community",
+    "javascript",
+    "security"
+  ],
+  "IPWEi0I3bf0": [
     "community",
     "javascript",
     "learning",
     "react",
     "testing",
-    "typescript",
+    "typescript"
+  ],
+  "J8qef9MI1rY": [
+    "api",
+    "javascript"
+  ],
+  "JJqLKn25DJI": [
+    "ai",
+    "ai-coding",
+    "react",
+    "testing",
     "ui"
   ],
-  "KiBErl9F2a0": [
-    "ai",
+  "JUu7WUGt1eU": [
+    "animation",
     "api",
+    "css",
+    "dev-tools",
+    "javascript",
+    "performance"
+  ],
+  "KJ96IaRARvQ": [
+    "astro",
+    "community",
+    "css",
+    "dev-tools",
+    "javascript",
+    "learning",
+    "nextjs",
+    "performance",
+    "react",
+    "responsive",
+    "seo",
+    "testing",
+    "ux"
+  ],
+  "KPZ-BgtX1kk": [
+    "javascript"
+  ],
+  "KhIlxKS1vwc": [
+    "community"
+  ],
+  "KiBErl9F2a0": [
     "astro",
     "career",
     "css",
     "database",
     "deployment",
-    "dev-tools",
     "javascript",
     "learning",
     "nextjs",
     "react",
-    "seo",
     "typescript"
   ],
-  "NDQXIdPWaUQ": [
+  "KzqALj3KpDo": [
     "ai",
+    "ai-coding",
+    "api",
+    "build-tools",
+    "database",
+    "javascript",
+    "nextjs",
+    "react",
+    "seo",
+    "ui"
+  ],
+  "L4VUZPu-IMQ": [
+    "community"
+  ],
+  "LaoReWcsyao": [
+    "learning"
+  ],
+  "Lg3hspyi4eg": [
+    "career",
+    "javascript",
+    "react"
+  ],
+  "LrPBLlURfIs": [
+    "api",
+    "community",
+    "learning"
+  ],
+  "M2zdLxrm4F4": [
+    "ai"
+  ],
+  "M5lUhWTF9As": [
+    "ai"
+  ],
+  "MZ4dViTkIZ0": [
+    "api",
+    "security"
+  ],
+  "NDQXIdPWaUQ": [
     "career",
     "database",
-    "learning",
     "performance"
   ],
   "Nk9Z7BwGUUQ": [
-    "ai",
-    "api",
     "dev-tools",
-    "javascript",
     "learning",
     "security",
     "testing"
   ],
+  "NwXiJKBW35U": [
+    "css",
+    "dev-tools",
+    "javascript",
+    "responsive",
+    "seo",
+    "ui"
+  ],
   "NxIfTz_DN-0": [
-    "ai",
-    "api",
     "learning",
     "performance",
-    "security",
-    "typescript"
+    "security"
+  ],
+  "O2c3Q2QTZI4": [
+    "community",
+    "css",
+    "javascript",
+    "responsive",
+    "testing",
+    "ui"
+  ],
+  "ORga5NqFQ10": [
+    "learning",
+    "ui"
   ],
   "ObTg-XT9C64": [
-    "ai",
     "javascript",
     "performance",
-    "pwa",
     "typescript"
   ],
   "OvSawGB6Kuo": [
-    "ai",
     "api",
     "database",
     "javascript"
   ],
-  "QgnEdmGl814": [
-    "ai",
+  "OwdCWP1FWNE": [
+    "api",
+    "design",
+    "security"
+  ],
+  "QdWmc9bMo48": [
     "animation",
-    "career",
-    "learning",
-    "seo",
+    "astro",
+    "css",
+    "javascript",
     "ui"
+  ],
+  "QgnEdmGl814": [
+    "career",
+    "learning"
+  ],
+  "Qh0ImRYTync": [
+    "api",
+    "css",
+    "javascript",
+    "responsive",
+    "ui"
+  ],
+  "RQ6KMuo9PPg": [
+    "build-tools",
+    "deployment",
+    "design",
+    "testing",
+    "ui"
+  ],
+  "RZ0hw1FcdnA": [
+    "javascript",
+    "nextjs",
+    "security"
   ],
   "Rbs_UFZdUT8": [
     "ai",
     "ai-coding",
-    "animation",
     "api",
     "css",
     "dev-tools",
@@ -567,75 +504,153 @@
   ],
   "Rem4xNV92fs": [
     "accessibility",
-    "ai",
     "api",
     "database",
-    "dev-tools",
     "javascript",
     "react",
     "security",
     "ui"
   ],
   "RfOoMPVgYjM": [
-    "ai",
     "api",
     "build-tools",
-    "bun",
     "javascript",
     "learning",
     "node",
     "svelte",
-    "testing",
-    "ui"
+    "testing"
   ],
   "SAGNwE--Htw": [
-    "ai",
     "animation",
     "api",
     "css",
-    "learning",
-    "typescript",
-    "ui"
+    "learning"
+  ],
+  "SYXywMW05GY": [
+    "animation"
   ],
   "SgILyFtQs5k": [
-    "ai",
     "javascript",
     "typescript"
+  ],
+  "TGEH6ovjnjU": [
+    "api",
+    "community",
+    "responsive"
+  ],
+  "TPetwHcfXns": [
+    "deployment",
+    "design",
+    "testing"
   ],
   "TdgJMT3NrRM": [
     "ai",
     "animation",
     "api",
-    "bun",
-    "dev-tools",
     "javascript",
     "learning",
     "react",
     "ui"
   ],
+  "TgNDGcvEEfg": [
+    "community",
+    "css",
+    "learning"
+  ],
+  "Tkh8-LleLws": [
+    "ai",
+    "ai-coding",
+    "css",
+    "design",
+    "dev-tools",
+    "ui"
+  ],
   "TsJQsHCdhUQ": [
     "accessibility",
-    "ai",
     "animation",
     "css",
     "design",
     "javascript",
     "performance",
+    "responsive"
+  ],
+  "UEaMZRG_OnQ": [
+    "build-tools",
+    "javascript",
+    "pwa",
+    "react",
     "responsive",
-    "typescript",
-    "ui"
+    "security",
+    "svelte",
+    "ux"
+  ],
+  "UMNXxUqlZS0": [
+    "database",
+    "security"
   ],
   "V1yh7lLkzbw": [
-    "ai",
     "deployment"
   ],
-  "ZrMsScX7sh0": [
+  "Viq69Sv_MrI": [
+    "career",
+    "design",
+    "javascript",
+    "testing"
+  ],
+  "WC230bL6YnY": [
+    "javascript"
+  ],
+  "WJvTvTSm9l8": [
+    "css",
+    "design"
+  ],
+  "YBFDo2jSSJA": [
     "ai",
+    "css",
+    "javascript"
+  ],
+  "YMFz1Ky2E0k": [
+    "api",
+    "learning"
+  ],
+  "YoeCPP6c2LI": [
+    "api",
+    "css",
+    "design",
+    "dev-tools",
+    "javascript",
+    "security"
+  ],
+  "ZRQrg3dABLQ": [
+    "ai",
+    "ai-coding",
+    "api",
+    "astro",
+    "learning"
+  ],
+  "ZcYNuHirHOA": [
+    "ai",
+    "ai-coding",
+    "dev-tools",
+    "ui"
+  ],
+  "ZrMsScX7sh0": [
     "animation",
     "api",
     "bun",
     "css",
     "javascript",
+    "ui"
+  ],
+  "ZwXgk5yeUD0": [
+    "testing"
+  ],
+  "_5-m3tfD5tU": [
+    "community",
+    "react"
+  ],
+  "_5rmu9SJsJY": [
+    "learning",
     "ui"
   ],
   "_6HCMH8SREU": [
@@ -645,8 +660,21 @@
     "react",
     "svelte"
   ],
-  "aPv5UxXSPfM": [
+  "_BnH4kIsSwk": [
+    "accessibility",
     "ai",
+    "ai-coding",
+    "database",
+    "javascript",
+    "nextjs",
+    "testing"
+  ],
+  "_H9EkkzDGTs": [
+    "database",
+    "security",
+    "ux"
+  ],
+  "aPv5UxXSPfM": [
     "api",
     "astro",
     "build-tools",
@@ -658,31 +686,34 @@
     "performance",
     "react",
     "testing",
-    "typescript",
     "ui",
-    "ux",
     "vue"
   ],
-  "aedr75hKoZ0": [
-    "ai",
-    "api",
+  "aSAW5q7xEaY": [
+    "javascript",
+    "responsive"
+  ],
+  "aY57UgFCC48": [
     "deployment",
+    "javascript"
+  ],
+  "a_MmIT8QLxI": [
+    "api",
     "dev-tools",
-    "typescript",
-    "ui"
+    "performance",
+    "pwa"
+  ],
+  "aedr75hKoZ0": [
+    "api",
+    "deployment"
   ],
   "ayiRFLsM-mM": [
-    "ai",
     "api",
     "astro",
-    "dev-tools",
     "javascript",
     "node",
     "react",
-    "seo",
     "state-management",
-    "typescript",
-    "ui",
     "vue"
   ],
   "bu4mEcws2h0": [
@@ -699,24 +730,32 @@
     "typescript",
     "ui"
   ],
+  "bwpPxqgFyWQ": [
+    "build-tools",
+    "javascript"
+  ],
   "c5RSiDy2sRM": [
-    "ai",
-    "api",
     "career",
     "deployment",
     "design",
     "ui"
   ],
+  "cYH8NfEPPu0": [
+    "ai",
+    "css",
+    "javascript"
+  ],
+  "cjqz5C0eWgc": [
+    "javascript",
+    "typescript"
+  ],
   "d28J0ZgkORY": [
     "ai",
     "ai-coding",
-    "career",
     "deployment",
-    "learning",
-    "typescript"
+    "learning"
   ],
   "d7L_jRDJb-E": [
-    "ai",
     "bun",
     "database",
     "deno",
@@ -724,21 +763,54 @@
     "design",
     "javascript",
     "node",
-    "react",
     "security",
     "typescript"
   ],
-  "fZtxF7gECuI": [
+  "dD1AajkCSe0": [
+    "ai",
+    "ai-coding",
+    "css",
+    "deployment",
+    "design",
+    "dev-tools",
+    "react",
+    "ui"
+  ],
+  "dk8JSYuOmhc": [
+    "ai",
+    "ai-coding",
+    "api",
+    "css",
+    "deployment",
+    "design",
+    "dev-tools",
+    "performance",
+    "responsive",
+    "testing"
+  ],
+  "eexwOhPaMso": [
+    "ai",
+    "ai-coding",
+    "css",
+    "design",
+    "javascript",
+    "learning",
+    "typescript",
+    "ui"
+  ],
+  "f1g2zrOmzN0": [
     "ai",
     "api",
-    "bun",
+    "community",
+    "css",
+    "learning"
+  ],
+  "fZtxF7gECuI": [
     "career",
-    "learning",
-    "ui"
+    "learning"
   ],
   "fnKxblQw57c": [
     "accessibility",
-    "ai",
     "angular",
     "css",
     "deno",
@@ -747,73 +819,128 @@
     "learning",
     "node",
     "react",
-    "typescript",
     "ui",
     "vue",
     "web-components"
   ],
-  "hLDgpdLdb9c": [
-    "ai",
-    "astro",
+  "fv-M_fFil0c": [
+    "api",
     "javascript",
+    "typescript"
+  ],
+  "g6gKeLGYPQU": [
+    "api"
+  ],
+  "ghLVcP_CgkY": [
+    "angular",
+    "api",
+    "css",
     "learning",
+    "performance",
+    "react",
+    "svelte",
     "ui"
+  ],
+  "hDtImY8hikU": [
+    "ai",
+    "ai-coding",
+    "animation",
+    "api",
+    "css",
+    "dev-tools",
+    "javascript",
+    "responsive"
+  ],
+  "hLDgpdLdb9c": [
+    "astro",
+    "javascript"
+  ],
+  "hSUqstbgNgI": [
+    "accessibility",
+    "api",
+    "css",
+    "deployment",
+    "design",
+    "monorepo",
+    "performance"
+  ],
+  "hnJLh0JoQ84": [
+    "animation",
+    "learning"
   ],
   "hsf-T40wRz0": [
     "accessibility",
-    "ai",
-    "api",
     "design",
     "testing"
   ],
+  "iLILgsmq9mg": [],
+  "j-wZjh62Gaw": [
+    "bun",
+    "deployment",
+    "javascript",
+    "monorepo",
+    "nextjs",
+    "react",
+    "security"
+  ],
   "jxW4wishA8s": [
     "accessibility",
-    "ai",
     "animation",
-    "bun",
     "deployment",
     "javascript",
     "testing"
   ],
+  "k-4ZMXMGISA": [
+    "api"
+  ],
   "kpyPIYuChU0": [
-    "ai",
     "angular",
-    "animation",
     "api",
     "community",
     "javascript",
     "pwa",
     "react",
     "responsive",
-    "seo",
     "state-management",
     "ui",
-    "ux",
     "vue"
   ],
-  "lb6jvnmDM6I": [
+  "lPTtyv8Hzgs": [
     "ai",
+    "ai-coding",
+    "deployment"
+  ],
+  "lb6jvnmDM6I": [
     "api",
-    "bun",
     "community",
-    "deployment",
-    "design"
+    "deployment"
   ],
   "m7rsN2Wmb78": [
-    "ai",
     "api",
-    "bun",
     "career",
     "database",
-    "deno",
-    "dev-tools",
     "performance",
     "pwa",
+    "react"
+  ],
+  "mJ6t8TJc6cQ": [
     "react",
-    "ui"
+    "security",
+    "svelte",
+    "vue"
+  ],
+  "mN01Hg41tB8": [
+    "animation",
+    "api",
+    "css",
+    "javascript",
+    "testing"
+  ],
+  "mUrwxwrehqE": [
+    "ai",
+    "api"
   ],
   "mYBN0iKfWUA": [
-    "ai",
     "database",
     "deployment",
     "javascript",
@@ -823,30 +950,54 @@
   ],
   "nGvDLYPcv1Q": [
     "ai",
-    "api",
-    "bun",
     "career",
     "community",
     "deployment",
     "javascript",
     "learning",
     "nextjs",
+    "react"
+  ],
+  "nJhk892C4_U": [
+    "ai",
+    "deployment",
+    "learning",
     "react",
-    "seo",
-    "testing",
-    "typescript",
     "ui"
   ],
-  "pCUea-03ZbQ": [
+  "neF7qCLqUaY": [
+    "community",
+    "learning"
+  ],
+  "oNrHsiogsQY": [
     "ai",
+    "ai-coding",
     "css",
-    "dev-tools",
+    "javascript"
+  ],
+  "oyQSFpOjcEo": [
+    "animation",
+    "css",
+    "javascript"
+  ],
+  "p4Gk1NTKYoo": [
+    "ai",
+    "ai-coding",
+    "community"
+  ],
+  "pCUea-03ZbQ": [
+    "css",
     "react",
     "security",
     "testing"
   ],
-  "q2Xe49Du4no": [
+  "puCZUlxrSpg": [
     "ai",
+    "api",
+    "javascript",
+    "learning"
+  ],
+  "q2Xe49Du4no": [
     "angular",
     "animation",
     "api",
@@ -860,6 +1011,34 @@
     "typescript",
     "vue"
   ],
+  "qU3POeBk-0E": [
+    "api",
+    "javascript"
+  ],
+  "qei6_h3wwPY": [
+    "ai",
+    "api",
+    "dev-tools",
+    "javascript"
+  ],
+  "qlL_42q4mUE": [
+    "dev-tools",
+    "javascript"
+  ],
+  "r5JKkGJEbko": [
+    "javascript"
+  ],
+  "uKWkLVtKb7g": [
+    "api",
+    "css"
+  ],
+  "uPiv9JbEOPA": [
+    "deployment",
+    "design",
+    "dev-tools",
+    "ui",
+    "ux"
+  ],
   "uYnfyW3M790": [
     "ai",
     "animation",
@@ -867,33 +1046,47 @@
     "css",
     "deployment",
     "javascript",
-    "typescript",
     "ui",
     "vue"
   ],
+  "uYqnB9rhIaQ": [
+    "css",
+    "design"
+  ],
   "upgl3jIWEqc": [
-    "ai",
     "api",
     "astro",
     "build-tools",
-    "bun",
     "community",
-    "database",
     "deno",
     "deployment",
-    "dev-tools",
     "javascript",
     "nextjs",
     "performance",
     "pwa",
     "react",
-    "typescript",
     "ui"
+  ],
+  "utmuHV8-MAU": [
+    "astro",
+    "build-tools",
+    "design",
+    "javascript",
+    "learning",
+    "nextjs",
+    "react",
+    "security"
+  ],
+  "v28qyGyoMw4": [
+    "accessibility",
+    "api",
+    "javascript",
+    "performance",
+    "ux"
   ],
   "vQIu4ekqhvY": [
     "ai",
     "ai-coding",
-    "animation",
     "api",
     "community",
     "css",
@@ -902,9 +1095,7 @@
     "ui"
   ],
   "vufuDf7MrmA": [
-    "ai",
-    "database",
-    "ui"
+    "database"
   ],
   "w0--WVHU5DE": [
     "accessibility",
@@ -915,7 +1106,49 @@
     "learning",
     "react",
     "testing",
-    "typescript",
     "ui"
+  ],
+  "wHi7Q711vW8": [
+    "ai",
+    "ai-coding",
+    "security"
+  ],
+  "wRF7vpvs95s": [
+    "design",
+    "javascript",
+    "node",
+    "security",
+    "ux"
+  ],
+  "x1jm57leZW0": [
+    "accessibility",
+    "css",
+    "deployment",
+    "responsive"
+  ],
+  "y7orEQReOns": [
+    "javascript"
+  ],
+  "yfgMjKu89u0": [
+    "javascript",
+    "testing"
+  ],
+  "yhlD16hyW90": [
+    "javascript",
+    "security"
+  ],
+  "ypxWNOnW10Y": [
+    "accessibility"
+  ],
+  "zX0gDaovb1w": [
+    "database",
+    "performance"
+  ],
+  "zc2NxphfHeE": [
+    "api"
+  ],
+  "zzhCUMQNjN8": [
+    "css",
+    "javascript"
   ]
 }

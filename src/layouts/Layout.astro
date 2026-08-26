@@ -3,6 +3,7 @@ import "../styles/global.css";
 import { ClientRouter } from "astro:transitions";
 import Analytics from "../components/Analytics.astro";
 import ScrollButtons from "../components/ScrollButtons.astro";
+import OfflineBadgeRuntime from "../components/OfflineBadgeRuntime.astro";
 
 interface Props {
   title: string;
@@ -29,6 +30,20 @@ const absoluteImage = image.startsWith("http")
   : new URL(image, site).toString();
 
 const siteUrl = site.toString().replace(/\/$/, "");
+
+// Mark the current section in the nav. Only the year tabs carried aria-current
+// before this; the 7-link main nav emitted it on none of 227 pages.
+//
+// "page" is only truthful on the page the link actually points at. On a
+// descendant such as /episodes/<slug>, /episodes/2024 or /tags/<tag> the link
+// navigates somewhere else, so the ancestor section gets aria-current="true" -
+// announced as within the current section rather than as the current page.
+const path = Astro.url.pathname.replace(/\/+$/, "") || "/";
+const currentMarker = (href: string): "page" | "true" | undefined => {
+  if (path === href || (href === "/" && path === "/")) return "page";
+  if (href !== "/" && path.startsWith(`${href}/`)) return "true";
+  return undefined;
+};
 const jsonLd = {
   "@context": "https://schema.org",
   "@graph": [
@@ -209,6 +224,17 @@ const jsonLd = {
     </style>
   </head>
   <body class="min-h-screen flex flex-col">
+    <!--
+      Skip link. No page on the site had one, so a keyboard or screen-reader
+      visitor traversed the whole nav on every page. Visible only on focus.
+    -->
+    <a
+      href="#main-content"
+      class="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:z-50 focus:bg-dark-card focus:text-white focus:border focus:border-primary focus:px-4 focus:py-2 focus:rounded-lg"
+    >
+      Lompat ke konten utama
+    </a>
+
     <header class="border-b border-dark-border">
       <nav
         class="container mx-auto px-4 py-4 flex items-center justify-between"
@@ -216,19 +242,29 @@ const jsonLd = {
         <a
           href="/"
           class="text-xl font-bold text-white hover:text-primary-light transition"
+          aria-current={currentMarker("/")}
         >
           Ngobrolin WEB
         </a>
 
         <!-- Desktop Navigation -->
         <div class="hidden md:flex items-center gap-6">
-          <a href="/episodes" class="text-gray-300 hover:text-white transition"
+          <a
+            href="/episodes"
+            class="text-gray-300 hover:text-white transition"
+            aria-current={currentMarker("/episodes")}
             >Episode</a
           >
-          <a href="/tags" class="text-gray-300 hover:text-white transition"
+          <a
+            href="/tags"
+            class="text-gray-300 hover:text-white transition"
+            aria-current={currentMarker("/tags")}
             >Topik</a
           >
-          <a href="/partners" class="text-gray-300 hover:text-white transition"
+          <a
+            href="/partners"
+            class="text-gray-300 hover:text-white transition"
+            aria-current={currentMarker("/partners")}
             >Partner</a
           >
           <a
@@ -242,12 +278,16 @@ const jsonLd = {
               location: "nav_desktop",
             })}>Diskusi</a
           >
-          <a href="/about" class="text-gray-300 hover:text-white transition"
+          <a
+            href="/about"
+            class="text-gray-300 hover:text-white transition"
+            aria-current={currentMarker("/about")}
             >Tentang</a
           >
           <a
             href="/subscribe"
             class="bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded-lg text-sm font-medium transition"
+            aria-current={currentMarker("/subscribe")}
             data-analytics-event="cta_click"
             data-analytics-props={JSON.stringify({
               cta: "subscribe",
@@ -301,15 +341,18 @@ const jsonLd = {
         <div class="container mx-auto px-4 py-4 flex flex-col gap-4">
           <a
             href="/episodes"
-            class="text-gray-300 hover:text-white transition py-2">Episode</a
+            class="text-gray-300 hover:text-white transition py-2"
+            aria-current={currentMarker("/episodes")}>Episode</a
           >
           <a
             href="/tags"
-            class="text-gray-300 hover:text-white transition py-2">Topik</a
+            class="text-gray-300 hover:text-white transition py-2"
+            aria-current={currentMarker("/tags")}>Topik</a
           >
           <a
             href="/partners"
-            class="text-gray-300 hover:text-white transition py-2">Partner</a
+            class="text-gray-300 hover:text-white transition py-2"
+            aria-current={currentMarker("/partners")}>Partner</a
           >
           <a
             href="https://github.com/orgs/ngobrolin/discussions"
@@ -324,11 +367,13 @@ const jsonLd = {
           >
           <a
             href="/about"
-            class="text-gray-300 hover:text-white transition py-2">Tentang</a
+            class="text-gray-300 hover:text-white transition py-2"
+            aria-current={currentMarker("/about")}>Tentang</a
           >
           <a
             href="/subscribe"
             class="bg-red-600 hover:bg-red-700 text-white px-4 py-3 rounded-lg text-sm font-medium transition text-center mt-2"
+            aria-current={currentMarker("/subscribe")}
             data-analytics-event="cta_click"
             data-analytics-props={JSON.stringify({
               cta: "subscribe",
@@ -341,7 +386,14 @@ const jsonLd = {
       </div>
     </header>
 
-    <main class="flex-1">
+    <!--
+      tabindex="-1" is what makes the skip link above actually move focus.
+      Without it the fragment jump only sets the sequential focus navigation
+      starting point, so Tab lands here but focus never does - a screen reader
+      that follows focus stays in the header, which is the traversal the link
+      exists to avoid.
+    -->
+    <main id="main-content" tabindex="-1" class="flex-1">
       <slot />
     </main>
 
@@ -437,6 +489,9 @@ const jsonLd = {
 
     <!-- Scroll Buttons -->
     <ScrollButtons />
+
+    <!-- Offline badge runtime: one copy per page, not one per card -->
+    <OfflineBadgeRuntime />
 
     <!-- Mobile Menu Toggle Script -->
     <script is:inline data-astro-rerun>

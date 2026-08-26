@@ -1,7 +1,12 @@
 ---
-import { getEpisodes, getEpisodesByYear } from "../lib/episodes";
+import {
+  getEpisodes,
+  getEpisodesByYear,
+  getNewEpisodeSlugs,
+} from "../lib/episodes";
 import EpisodeCard from "./EpisodeCard.astro";
 import type { Episode } from "../lib/episodes";
+import { SEARCH_KEYS, SEARCH_INDEX_PATH } from "../lib/search";
 
 interface Props {
   year?: number;
@@ -19,26 +24,24 @@ const filteredEpisodes =
     : allEpisodes;
 
 const initialEpisodes = filteredEpisodes;
-const searchData = initialEpisodes.map((ep, idx) => ({
-  title: ep.title,
-  description: ep.description,
-  brief: ep.brief,
-  slug: ep.slug,
-  episodeNumber: ep.episodeNumber,
-  thumbnail: ep.thumbnail,
-  publishedAt: ep.publishedAt,
-  isNew: idx < 2,
-}));
+const newSlugs = getNewEpisodeSlugs();
+
+// No index is inlined here. The page advertises where to fetch one and which
+// fields it declares; what is searchable is decided in src/lib/search.ts, and
+// the documents themselves come from src/pages/search-index.json.ts.
+const searchKeys = SEARCH_KEYS;
 ---
 
 <div class="mb-8">
-  <div class="relative">
+  <div class="relative" role="search">
     <input
       type="text"
       id="search-input"
       name="q"
       placeholder="Cari episode..."
       aria-label="Cari episode"
+      aria-controls="episodes-grid"
+      autocomplete="off"
       class="w-full bg-dark-card border border-dark-border rounded-lg px-4 py-3 pl-12 text-white placeholder-gray-500 focus:outline-none focus:border-primary transition"
     />
     <svg
@@ -46,6 +49,7 @@ const searchData = initialEpisodes.map((ep, idx) => ({
       fill="none"
       stroke="currentColor"
       viewBox="0 0 24 24"
+      aria-hidden="true"
     >
       <path
         stroke-linecap="round"
@@ -55,6 +59,8 @@ const searchData = initialEpisodes.map((ep, idx) => ({
     </svg>
     <button
       id="clear-search"
+      type="button"
+      aria-label="Hapus pencarian"
       class="absolute right-4 top-1/2 -translate-y-1/2 text-gray-500 hover:text-white transition hidden"
     >
       <svg
@@ -62,6 +68,7 @@ const searchData = initialEpisodes.map((ep, idx) => ({
         fill="none"
         stroke="currentColor"
         viewBox="0 0 24 24"
+        aria-hidden="true"
       >
         <path
           stroke-linecap="round"
@@ -71,15 +78,28 @@ const searchData = initialEpisodes.map((ep, idx) => ({
       </svg>
     </button>
   </div>
-  <p id="search-results-count" class="text-gray-400 text-sm mt-2 hidden"></p>
+  <p
+    id="search-results-count"
+    class="text-gray-400 text-sm mt-2 hidden"
+    role="status"
+    aria-live="polite"
+  >
+  </p>
 </div>
+
+<!--
+  EpisodeCard renders its title as an h3, so a page whose only other heading is
+  the h1 jumped h1 -> h3. This section heading closes the gap without putting
+  an h2 on every card; it is announced but not drawn.
+-->
+<h2 class="sr-only">Daftar episode</h2>
 
 <div
   id="episodes-grid"
   class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6"
 >
   {
-    searchData.map((episode, index) => (
+    initialEpisodes.map((episode, index) => (
       <EpisodeCard
         title={episode.title}
         description={episode.description}
@@ -87,7 +107,8 @@ const searchData = initialEpisodes.map((ep, idx) => ({
         thumbnail={episode.thumbnail}
         episodeNumber={episode.episodeNumber}
         slug={episode.slug}
-        isNew={episode.isNew}
+        duration={episode.duration}
+        isNew={newSlugs.has(episode.slug)}
         loading={index < 4 ? "eager" : "lazy"}
         fetchPriority={index === 0 ? "high" : undefined}
         brief={episode.brief}
@@ -101,154 +122,319 @@ const searchData = initialEpisodes.map((ep, idx) => ({
   <p class="text-gray-500 text-sm mt-2">Coba kata kunci lain.</p>
 </div>
 
-<script
-  id="episodes-data"
-  type="application/json"
-  set:html={JSON.stringify(searchData).replace(/</g, "\\u003c")}
-/>
+<div
+  id="search-config"
+  hidden
+  data-search-keys={JSON.stringify(searchKeys)}
+  data-search-index={SEARCH_INDEX_PATH}
+>
+</div>
 
 <script>
   import Fuse from "fuse.js";
-  window.Fuse = Fuse;
-</script>
+  import {
+    SEARCH_INDEX_PATH,
+    isShortQuery,
+    searchShortQuery,
+  } from "../lib/search";
+  import type { SearchDocument } from "../lib/search";
 
-<script is:inline data-astro-rerun>
-  (function initSearch() {
-    const input = document.getElementById("search-input");
+  // Shown in the result-count element while the index is on its way, and after
+  // it fails. This branch exists because search was once silently dead: the
+  // input must never sit there doing nothing, so every state says something.
+  const PENDING_NOTE = "Menyiapkan pencarian...";
+  const FALLBACK_NOTE = " (judul saja - indeks pencarian gagal dimuat)";
+
+  // Module-level, so navigating between /episodes and a year page reuses the
+  // documents already in memory instead of fetching them again.
+  let indexPromise: Promise<SearchDocument[]> | null = null;
+
+  function loadIndex(url: string): Promise<SearchDocument[]> {
+    if (!indexPromise) {
+      indexPromise = fetch(url)
+        .then((response) => {
+          if (!response.ok) throw new Error(`search index HTTP ${response.status}`);
+          return response.json();
+        })
+        .then((data) => {
+          if (!Array.isArray(data)) throw new Error("search index is not a list");
+          return data as SearchDocument[];
+        })
+        .catch((error) => {
+          // Dropped rather than cached, so a later page can try again. A
+          // per-page flag keeps a broken network from being retried on every
+          // keystroke in the meantime.
+          indexPromise = null;
+          throw error;
+        });
+    }
+    return indexPromise;
+  }
+
+  // Search filters the cards Astro already rendered rather than re-rendering
+  // them from a JS template. The old template was a second, drifting copy of
+  // EpisodeCard: it hardcoded #6366f1 instead of the palette's #5c5fed, built
+  // unoptimised image markup that bypassed Astro's asset pipeline, and dropped
+  // the offline indicator. Toggling visibility keeps one source of truth.
+  //
+  // Relevance order moves the actual grid nodes. CSS `order` would rank them
+  // for a sighted visitor only, leaving keyboard and screen-reader users
+  // traversing publication order (WCAG 2.4.3 Focus Order, 1.3.2 Meaningful
+  // Sequence).
+  function initSearch() {
+    const input = document.getElementById(
+      "search-input"
+    ) as HTMLInputElement | null;
     if (!input) return;
 
-    // Guard: prevent duplicate initialization
-    if (input.hasAttribute("data-search-initialized")) return;
-    input.setAttribute("data-search-initialized", "true");
+    // Fresh DOM after a client-side navigation won't carry this flag.
+    if (input.dataset.searchInitialized === "true") return;
 
-    const searchData = JSON.parse(
-      document.getElementById("episodes-data")?.textContent || "[]"
-    );
-
-    const fuse = new window.Fuse(searchData, {
-      keys: ["title", "description", "brief"],
-      threshold: 0.4,
-      includeScore: true,
-    });
-
-    const clearBtn = document.getElementById("clear-search");
     const grid = document.getElementById("episodes-grid");
     const noResults = document.getElementById("no-results");
     const resultsCount = document.getElementById("search-results-count");
+    const clearBtn = document.getElementById("clear-search");
+    const config = document.getElementById("search-config");
+    if (!grid || !noResults || !resultsCount || !clearBtn || !config) return;
 
-    // Store the initial content to restore it when search is cleared
-    const initialContent = grid.innerHTML;
+    const indexUrl = config.dataset.searchIndex || SEARCH_INDEX_PATH;
 
-    function formatDate(dateStr) {
-      return new Date(dateStr).toLocaleDateString("id-ID", {
-        day: "numeric",
-        month: "short",
-        year: "numeric",
+    // Field list comes from the page, which comes from SEARCH_KEYS. Adding a
+    // searchable field is a change in src/lib/search.ts alone.
+    let keys: string[] = ["title", "description", "brief"];
+    try {
+      const declared = JSON.parse(config.dataset.searchKeys || "[]");
+      if (Array.isArray(declared) && declared.length > 0) keys = declared;
+    } catch {
+      /* fall back to the defaults above */
+    }
+
+    // Captured once, because the DOM stops holding publication order the
+    // moment the first query reorders it.
+    const originalOrder = Array.from(
+      grid.querySelectorAll<HTMLElement>("[data-episode-slug]")
+    );
+    const cards = new Map<string, HTMLElement>();
+    // Titles as rendered. They are the only searchable text guaranteed to be
+    // on the page already, so they are what the degraded path matches against
+    // when the index cannot be fetched.
+    const cardTitles: { slug: string; title: string; keyPoints: string }[] = [];
+    for (const card of originalOrder) {
+      const slug = card.dataset.episodeSlug || "";
+      cards.set(slug, card);
+      cardTitles.push({
+        slug,
+        title: card.querySelector("h3")?.textContent?.trim() || "",
+        keyPoints: "",
       });
     }
 
-    function escapeHtml(text) {
-      const div = document.createElement("div");
-      div.textContent = text;
-      return div.innerHTML;
+    // Only mark initialised once everything above has succeeded. Setting the
+    // flag before the risky work is what turned the previous Fuse ordering bug
+    // into a permanent failure instead of a recoverable one.
+    input.dataset.searchInitialized = "true";
+
+    let searchData: SearchDocument[] | null = null;
+    let fuse: Fuse<SearchDocument> | null = null;
+    let indexFailed = false;
+    let requested = false;
+
+    function requestIndex() {
+      if (requested || searchData || indexFailed) return;
+      requested = true;
+
+      loadIndex(indexUrl).then(
+        (documents) => {
+          // One file serves the whole archive; a year page keeps only the
+          // documents whose card it actually rendered.
+          searchData = documents.filter((doc) => cards.has(doc.slug));
+
+          // Tuned against the real corpus, not guessed. Fuse only scores near
+          // the start of a field by default (location 0, distance 100), so
+          // "keychron" at character 64 of a key-points string was unreachable.
+          // ignoreLocation fixes that but makes threshold 0.4 useless -
+          // measured over all 178 episodes it returned 94/178 for "astro" and
+          // 164/178 for "karir". At 0.2 the same queries return 23 and 8, with
+          // the true matches ranked first.
+          fuse = new Fuse(searchData, {
+            keys,
+            threshold: 0.2,
+            ignoreLocation: true,
+            minMatchCharLength: 3,
+            includeScore: true,
+          });
+
+          // Apply whatever was typed while the fetch was in flight. Without
+          // this, a slow index leaves the query sitting in the box above the
+          // unfiltered archive - the same class of bug as the module-load race
+          // handled at the bottom of this file.
+          if (input!.value.trim()) handleSearch();
+        },
+        () => {
+          indexFailed = true;
+          if (input!.value.trim()) handleSearch();
+        }
+      );
     }
 
-    function renderEpisodes(episodes) {
-      if (episodes.length === 0) {
-        grid.classList.add("hidden");
-        noResults.classList.remove("hidden");
-        resultsCount.classList.add("hidden");
-        return;
+    function layout(ordered: HTMLElement[], hiddenCards: Set<HTMLElement>) {
+      const fragment = document.createDocumentFragment();
+      for (const card of ordered) {
+        card.hidden = hiddenCards.has(card);
+        fragment.appendChild(card);
+      }
+      grid!.appendChild(fragment);
+    }
+
+    function showAll() {
+      layout(originalOrder, new Set());
+      grid!.hidden = false;
+      noResults!.classList.add("hidden");
+      resultsCount!.classList.add("hidden");
+    }
+
+    function announce(text: string) {
+      resultsCount!.textContent = text;
+      resultsCount!.classList.remove("hidden");
+    }
+
+    function render(hitSlugs: string[], note: string) {
+      const ranked: HTMLElement[] = [];
+      const seen = new Set<HTMLElement>();
+      for (const slug of hitSlugs) {
+        const card = cards.get(slug);
+        if (card && !seen.has(card)) {
+          seen.add(card);
+          ranked.push(card);
+        }
       }
 
-      grid.classList.remove("hidden");
-      noResults.classList.add("hidden");
+      const misses = originalOrder.filter((card) => !seen.has(card));
+      layout([...ranked, ...misses], new Set(misses));
 
-      const truncate = (text, len) =>
-        text.length > len ? text.substring(0, len) + "..." : text;
+      const found = ranked.length;
+      grid!.hidden = found === 0;
+      noResults!.classList.toggle("hidden", found > 0);
 
-      grid.innerHTML = episodes
-        .map((ep) => {
-          const displayDesc = ep.brief || ep.description;
-          return `
-        <a
-          href="/episodes/${escapeHtml(ep.slug)}"
-          class="group block bg-[#1a1a1a] border border-[#2a2a2a] rounded-xl overflow-hidden hover:border-[#6366f1]/50 transition-all duration-300 hover:shadow-lg hover:shadow-[#6366f1]/10"
-        >
-          <div class="relative aspect-video overflow-hidden">
-            <img
-              src="${escapeHtml(ep.thumbnail)}"
-              alt="${escapeHtml(ep.title)}"
-              class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-              loading="lazy"
-            />
-            ${ep.isNew ? '<span class="absolute top-3 left-3 bg-[#6366f1] text-white text-xs font-bold px-2 py-1 rounded">BARU</span>' : ""}
-            <div class="absolute bottom-3 left-3 bg-black/70 text-white text-xs font-medium px-2 py-1 rounded">
-              EP ${ep.episodeNumber}
-            </div>
-          </div>
-          <div class="p-4">
-            <p class="text-gray-400 text-xs mb-2">${formatDate(ep.publishedAt)}</p>
-            <h3 class="text-white font-semibold mb-2 group-hover:text-[#818cf8] transition line-clamp-2">
-              ${escapeHtml(ep.title)}
-            </h3>
-            <p class="text-gray-400 text-sm line-clamp-2">
-              ${escapeHtml(truncate(displayDesc, 120))}
-            </p>
-          </div>
-        </a>
-      `;
-        })
-        .join("");
+      if (found > 0) {
+        announce(`${found} episode ditemukan${note}`);
+      } else if (note) {
+        // A degraded run still has to say why it found nothing, otherwise the
+        // empty state reads as "no such episode" when it means "no index".
+        announce(`0 episode ditemukan${note}`);
+      } else {
+        resultsCount!.classList.add("hidden");
+      }
+    }
+
+    /**
+     * Degraded search over the titles already on the page.
+     *
+     * Reached only when the index cannot be fetched or cannot be parsed. Short
+     * queries keep the word-boundary rule from src/lib/search.ts, because "ai"
+     * inside "mulai" is just as wrong here as it is in the full index.
+     */
+    function searchTitles(query: string): string[] {
+      if (isShortQuery(query)) {
+        return searchShortQuery(query, cardTitles).map((doc) => doc.slug);
+      }
+      const needle = query.toLowerCase();
+      return cardTitles
+        .filter((doc) => doc.title.toLowerCase().includes(needle))
+        .map((doc) => doc.slug);
     }
 
     function handleSearch() {
-      const query = input.value.trim();
-
-      clearBtn.classList.toggle("hidden", !query);
+      const query = input!.value.trim();
+      clearBtn!.classList.toggle("hidden", !query);
 
       if (!query) {
-        grid.innerHTML = initialContent;
-        grid.classList.remove("hidden");
-        noResults.classList.add("hidden");
-        resultsCount.classList.add("hidden");
+        showAll();
         return;
       }
 
-      const results = fuse.search(query).map((r) => r.item);
-      renderEpisodes(results);
+      requestIndex();
 
-      if (results.length > 0) {
-        resultsCount.textContent = `${results.length} episode ditemukan`;
-        resultsCount.classList.remove("hidden");
-      } else {
-        resultsCount.classList.add("hidden");
+      if (searchData && fuse) {
+        // Queries too short for fuzzy matching get an exact, word-boundary
+        // pass over titles and key points. src/lib/search.ts owns both rules.
+        const hitSlugs = isShortQuery(query)
+          ? searchShortQuery(query, searchData).map((doc) => doc.slug)
+          : fuse.search(query).map((hit) => hit.item.slug);
+        render(hitSlugs, "");
+        return;
       }
+
+      if (indexFailed) {
+        render(searchTitles(query), FALLBACK_NOTE);
+        return;
+      }
+
+      // In flight. The archive stays on screen rather than emptying or
+      // freezing, and the query is re-applied the moment the index lands.
+      grid!.hidden = false;
+      noResults!.classList.add("hidden");
+      announce(PENDING_NOTE);
     }
 
-    input.addEventListener("input", handleSearch);
+    // Debounced, because a keystroke is not cheap: ignoreLocation makes Fuse
+    // scan each document in full, and every pass re-appends every card.
+    // Trailing edge, so the last keystroke always runs.
+    let debounceTimer: number | undefined;
+    input.addEventListener("input", () => {
+      // Undebounced on purpose - the fetch should start on the first keystroke
+      // rather than 120ms after the last one.
+      requestIndex();
+      window.clearTimeout(debounceTimer);
+      debounceTimer = window.setTimeout(handleSearch, 120);
+    });
 
-    // Prefill from querystring, so search results are shareable (/episodes/?q=...)
-    const initialQuery =
-      new URLSearchParams(window.location.search).get("q") ||
-      new URLSearchParams(window.location.search).get("query");
-    if (initialQuery) {
-      input.value = initialQuery;
-      handleSearch();
-    }
+    // Focusing the field is a strong enough signal to start fetching.
+    input.addEventListener("focus", requestIndex);
 
     clearBtn.addEventListener("click", () => {
-      input.value = "";
+      window.clearTimeout(debounceTimer);
+      input!.value = "";
       handleSearch();
-      input.focus();
+      input!.focus();
     });
-  })();
-</script>
-<style>
-  .line-clamp-2 {
-    display: -webkit-box;
-    -webkit-line-clamp: 2;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
+
+    // Prefill from the querystring so results are shareable, and because
+    // Layout.astro advertises /episodes/?q={search_term_string} to search
+    // engines as a schema.org SearchAction.
+    const params = new URLSearchParams(window.location.search);
+    const initialQuery = params.get("q") || params.get("query");
+    if (initialQuery) input.value = initialQuery;
+
+    // Run once against whatever is already in the field. That covers the
+    // querystring above, and also the visitor who starts typing before this
+    // module has finished loading — the input is focusable the moment the
+    // markup lands, but their `input` events fire into nothing until the
+    // listener above exists, and no further event would ever replay them.
+    // Without this, arriving via a client-side navigation and typing quickly
+    // leaves the query sitting in the box with the full archive below it.
+    if (input.value.trim()) handleSearch();
   }
-</style>
+
+  // ClientRouter is site-wide, so this has to survive client-side navigation.
+  // `data-astro-rerun` is not available to us: this script has an import, so
+  // Astro bundles it as a module and that attribute only applies to inline
+  // scripts. Three hooks, each earned by measurement rather than superstition:
+  //
+  //  1. Call it now. On a first load the module is deferred until after
+  //     parsing, so the DOM is ready. This also covers arriving at a page
+  //     whose module finishes loading *after* astro:page-load has fired.
+  //  2. astro:after-swap. Navigating / -> /episodes was measured to fire
+  //     before-preparation, after-preparation, before-swap and after-swap,
+  //     but NOT page-load, because this module had never loaded on / and so
+  //     was still arriving when the navigation completed. after-swap is the
+  //     hook that actually fires on that path.
+  //  3. astro:page-load. The canonical hook, and the one that fires when the
+  //     module was already loaded by a previous page.
+  //
+  // initSearch is idempotent (it guards on the input element, and the swapped
+  // DOM carries a fresh input), so overlapping hooks cannot double-bind.
+  initSearch();
+  document.addEventListener("astro:after-swap", initSearch);
+  document.addEventListener("astro:page-load", initSearch);
+</script>

@@ -1,19 +1,25 @@
 ---
 // ScrollButtons.astro
-// Floating scroll-to-top and scroll-to-bottom buttons
+// Floating scroll-to-top and scroll-to-bottom buttons.
+//
+// These were white, shadowed and English-labelled on a #0f0f0f Indonesian
+// site - the brightest object on every screen, and on a phone they sat
+// permanently over content in the thumb zone. Repainted into the existing
+// palette (dark-card surface, dark-border hairline, flat at rest) and hidden
+// below `md`, where native scrolling already does the job. No new tokens.
 ---
 
 <div
   id="scroll-buttons"
-  class="fixed bottom-4 right-4 flex flex-col gap-2 z-40 sm:bottom-3 sm:right-3"
+  class="hidden md:flex fixed bottom-6 right-6 flex-col gap-2 z-40"
   data-scroll-buttons-container
 >
   <!-- Scroll to Top Button -->
   <button
     id="scroll-to-top"
-    class="scroll-button flex items-center justify-center w-12 h-12 text-gray-700 bg-white rounded-lg shadow-lg border border-gray-200 transition-all duration-200 ease-out transform hover:scale-105 active:scale-95 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-gray-400 sm:w-11 sm:h-11"
-    aria-label="Scroll to top"
-    title="Scroll to top"
+    class="scroll-button flex items-center justify-center w-11 h-11 text-gray-400 hover:text-white bg-dark-card hover:border-primary/50 rounded-lg border border-dark-border transition-all duration-200 ease-out focus-visible:outline-none focus-visible:border-primary"
+    aria-label="Ke atas halaman"
+    title="Ke atas halaman"
     type="button"
     data-scroll-to-top
   >
@@ -25,9 +31,9 @@
   <!-- Scroll to Bottom Button -->
   <button
     id="scroll-to-bottom"
-    class="scroll-button flex items-center justify-center w-12 h-12 text-gray-700 bg-white rounded-lg shadow-lg border border-gray-200 transition-all duration-200 ease-out transform hover:scale-105 active:scale-95 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-gray-400 sm:w-11 sm:h-11"
-    aria-label="Scroll to bottom"
-    title="Scroll to bottom"
+    class="scroll-button flex items-center justify-center w-11 h-11 text-gray-400 hover:text-white bg-dark-card hover:border-primary/50 rounded-lg border border-dark-border transition-all duration-200 ease-out focus-visible:outline-none focus-visible:border-primary"
+    aria-label="Ke bawah halaman"
+    title="Ke bawah halaman"
     type="button"
     data-scroll-to-bottom
   >

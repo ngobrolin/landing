@@ -1,12 +1,16 @@
 import { test, expect } from '@playwright/test';
 
+// Labels are Indonesian: this is a lang="id" site, and the buttons shipped with
+// English aria-labels. The controls are also desktop-only now - on a phone they
+// sat permanently over content in the thumb zone - so these run at the default
+// desktop viewport.
 test.describe('ScrollButtons', () => {
   test('should render scroll buttons on initial page load', async ({ page }) => {
     await page.goto('/');
 
     // Both buttons should be present
-    const scrollToTop = page.getByLabel('Scroll to top').or(page.getByTitle('Scroll to top'));
-    const scrollToBottom = page.getByLabel('Scroll to bottom').or(page.getByTitle('Scroll to bottom'));
+    const scrollToTop = page.getByLabel('Ke atas halaman').or(page.getByTitle('Ke atas halaman'));
+    const scrollToBottom = page.getByLabel('Ke bawah halaman').or(page.getByTitle('Ke bawah halaman'));
 
     // Check aria-hidden states: scroll-to-top should be hidden at top of page
     const scrollToTopAriaHidden = await scrollToTop.getAttribute('aria-hidden');
@@ -30,7 +34,7 @@ test.describe('ScrollButtons', () => {
     await expect(scrollY).toBeGreaterThan(0);
 
     // Click scroll to top button
-    const scrollToTop = page.getByLabel('Scroll to top').or(page.getByTitle('Scroll to top'));
+    const scrollToTop = page.getByLabel('Ke atas halaman').or(page.getByTitle('Ke atas halaman'));
     await scrollToTop.click();
 
     await page.waitForFunction(() => window.scrollY === 0);
@@ -40,7 +44,7 @@ test.describe('ScrollButtons', () => {
     await page.goto('/');
 
     // Click scroll to bottom button
-    const scrollToBottom = page.getByLabel('Scroll to bottom').or(page.getByTitle('Scroll to bottom'));
+    const scrollToBottom = page.getByLabel('Ke bawah halaman').or(page.getByTitle('Ke bawah halaman'));
     await scrollToBottom.click();
 
     await page.waitForFunction(
@@ -64,7 +68,7 @@ test.describe('ScrollButtons', () => {
 
     // Scroll down to verify scroll-to-top button appears
     await page.evaluate(() => window.scrollTo(0, 500));
-    const scrollToTopOnHome = page.getByLabel('Scroll to top').or(page.getByTitle('Scroll to top'));
+    const scrollToTopOnHome = page.getByLabel('Ke atas halaman').or(page.getByTitle('Ke atas halaman'));
     await expect(scrollToTopOnHome).toBeVisible();
 
     // Navigate to about page (uses view transitions)
@@ -72,8 +76,8 @@ test.describe('ScrollButtons', () => {
     await page.waitForURL('**/about');
 
     // Verify buttons exist on new page
-    const scrollToTopOnAbout = page.getByLabel('Scroll to top').or(page.getByTitle('Scroll to top'));
-    const scrollToBottomOnAbout = page.getByLabel('Scroll to bottom').or(page.getByTitle('Scroll to bottom'));
+    const scrollToTopOnAbout = page.getByLabel('Ke atas halaman').or(page.getByTitle('Ke atas halaman'));
+    const scrollToBottomOnAbout = page.getByLabel('Ke bawah halaman').or(page.getByTitle('Ke bawah halaman'));
 
     await expect(scrollToTopOnAbout).toBeVisible();
     await expect(scrollToBottomOnAbout).toBeVisible();
@@ -109,7 +113,7 @@ test.describe('ScrollButtons', () => {
     await page.emulateMedia({ reducedMotion: 'reduce' });
     await page.goto('/');
 
-    const scrollToBottom = page.getByLabel('Scroll to bottom').or(page.getByTitle('Scroll to bottom'));
+    const scrollToBottom = page.getByLabel('Ke bawah halaman').or(page.getByTitle('Ke bawah halaman'));
     await scrollToBottom.click();
 
     await expect.poll(() => page.evaluate(() => window.__lastScrollBehavior)).toBe('auto');

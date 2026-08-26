@@ -2,6 +2,7 @@
 import Layout from '../../layouts/Layout.astro';
 import EpisodeCard from '../../components/EpisodeCard.astro';
 import { getAllTagsWithCounts, getEpisodesForTag, formatTagLabel } from '../../lib/tags';
+import { getNewEpisodeSlugs } from '../../lib/episodes';
 
 export function getStaticPaths() {
   const tags = getAllTagsWithCounts();
@@ -14,6 +15,7 @@ export function getStaticPaths() {
 const { tag } = Astro.props;
 const episodes = getEpisodesForTag(tag);
 const tagLabel = formatTagLabel(tag);
+const newSlugs = getNewEpisodeSlugs();
 ---
 
 <Layout
@@ -32,6 +34,9 @@ const tagLabel = formatTagLabel(tag);
         </p>
       </div>
 
+      <!-- Cards render an h3; this keeps the page from jumping h1 -> h3. -->
+      <h2 class="sr-only">Episode dengan topik {tagLabel}</h2>
+
       <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
         {episodes.map((episode, index) => (
           <EpisodeCard
@@ -41,7 +46,8 @@ const tagLabel = formatTagLabel(tag);
             thumbnail={episode.thumbnail}
             episodeNumber={episode.episodeNumber}
             slug={episode.slug}
-            isNew={index < 2}
+            duration={episode.duration}
+            isNew={newSlugs.has(episode.slug)}
             loading={index < 4 ? "eager" : "lazy"}
             fetchPriority={index === 0 ? "high" : undefined}
             brief={episode.brief}
