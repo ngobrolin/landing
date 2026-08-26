@@ -21,13 +21,26 @@
  * A refusal that names no way through is how a worse escape gets invented, and
  * refusing is only safe while the refusal is escapable: the floor guard runs
  * *before* the merge, so a refused run stamps nothing, the next run sees the
- * same shrink, and an unattended weekly workflow refuses forever. So every
- * refusal here carries its own sanctioned override, verbatim and
- * copy-pasteable, and both overrides are read from the environment per run —
+ * same shrink, and an unattended weekly workflow refuses forever. So the
+ * escapable refusals carry their own sanctioned override, verbatim and
+ * copy-pasteable, and every override is read from the environment per run —
  * nothing persists them, so the run after an override is guarded again.
+ *
+ * An override authorizes one specific known thing, never everything.
+ * `ALLOW_SYNC_SHRINK` carries a count — `=10` means "I know about these ten" —
+ * so a run that loses an API page while the override is set still refuses
+ * rather than stamping 50 absences on the strength of an authorization for 10.
+ * A blank cheque is what gets set once and then forgotten.
+ *
+ * And one refusal is deliberately *not* escapable: a zero-entry sync. Its own
+ * basis is that the state cannot legitimately occur, so an override past it
+ * would be incoherent — see `checkSyncFloor`.
  */
 
-/** Lets one run through `checkSyncFloor`. Per-run only; never persisted. */
+/**
+ * Authorizes a sync-floor shrink of at most N episodes: `ALLOW_SYNC_SHRINK=10`.
+ * A count, never a boolean. Per-run only; never persisted.
+ */
 export const SHRINK_OVERRIDE_ENV = "ALLOW_SYNC_SHRINK";
 
 /** Lets one run start from a genuinely absent `episodes.json`. Per-run only. */
@@ -44,17 +57,49 @@ const UNTOUCHED = "Nothing was written; src/data/episodes.json is untouched.";
 const NOT_BY_DELETING =
   `Do not delete src/data/episodes.json to get past this — that is the failure, not the fix: an empty baseline re-derives every slug from its current YouTube title and moves every published URL.`;
 
-const SHRINK_OVERRIDE_HOWTO =
-  `  Locally, run exactly this:\n` +
-  `    ${SHRINK_OVERRIDE_ENV}=1 ${SYNC_COMMAND}\n` +
-  `  In CI, re-run the "Fetch YouTube Playlist" workflow from the Actions tab with the ${SHRINK_WORKFLOW_INPUT} input set to true.\n` +
-  `  The override is per-run and nothing persists it, so the next run is guarded again with no further action.`;
+/** The copy-pasteable way through the shrink refusal, with the real count in it. */
+function shrinkOverrideHowTo(shrink: number): string {
+  return (
+    `  Locally, run exactly this:\n` +
+    `    ${SHRINK_OVERRIDE_ENV}=${shrink} ${SYNC_COMMAND}\n` +
+    `  In CI, re-run the "Fetch YouTube Playlist" workflow from the Actions tab with the ${SHRINK_WORKFLOW_INPUT} input set to ${shrink}.\n` +
+    `  ${SHRINK_OVERRIDE_ENV} authorizes a shrink of at most that many, not any shrink: if the run then loses an API page, the bigger drop still refuses.\n` +
+    `  The override is per-run and nothing persists it, so the next run is guarded again with no further action.`
+  );
+}
 
 /** Whether an override env var is set to an explicit yes. */
 export function overrideEnabled(raw: string | undefined): boolean {
   if (raw === undefined) return false;
   const value = raw.trim().toLowerCase();
   return value === "1" || value === "true" || value === "yes";
+}
+
+export type ShrinkAuthorization =
+  | { kind: "absent" }
+  | { kind: "authorized"; count: number }
+  | { kind: "invalid"; raw: string };
+
+/**
+ * Read `ALLOW_SYNC_SHRINK` as the count of episodes the operator says they know
+ * about.
+ *
+ * A boolean-ish value is refused rather than read as a yes: `=true` from
+ * someone who meant "let it through" would otherwise authorize an unbounded
+ * shrink, which is the blank cheque this parameter exists to replace.
+ */
+export function parseShrinkAuthorization(raw: string | undefined): ShrinkAuthorization {
+  if (raw === undefined) return { kind: "absent" };
+
+  const value = raw.trim();
+  if (value === "") return { kind: "absent" };
+
+  if (!/^\d+$/.test(value)) return { kind: "invalid", raw: value };
+
+  const count = Number(value);
+  if (count < 1) return { kind: "invalid", raw: value };
+
+  return { kind: "authorized", count };
 }
 
 /** Largest legitimate one-sync shrink, as a fraction of the existing baseline. */
@@ -118,13 +163,21 @@ export function readBaseline(raw: string | undefined): BaselineResult {
   return { ok: true, bootstrap: false, episodes: parsed };
 }
 
-export type FloorResult =
+export type BootstrapResult =
   | { ok: true; overridden: boolean }
   | { ok: false; reason: string };
 
+export type FloorResult =
+  | { ok: true; overridden: false }
+  | { ok: true; overridden: true; authorized: number; shrink: number }
+  | { ok: false; reason: string };
+
 export interface FloorOptions {
-  /** `ALLOW_SYNC_SHRINK` for this run — lets one refused sync through. */
-  override?: boolean;
+  /**
+   * Raw `ALLOW_SYNC_SHRINK` for this run: a positive whole number authorizing a
+   * shrink of at most that many episodes.
+   */
+  override?: string;
 }
 
 /**
@@ -136,7 +189,7 @@ export interface FloorOptions {
  * escape a maintainer reaches for when some *other* guard refuses. Silently
  * accepting it hands them the exact catastrophe the guards exist to prevent.
  */
-export function checkBootstrapBaseline(bootstrap: boolean, override: boolean): FloorResult {
+export function checkBootstrapBaseline(bootstrap: boolean, override: boolean): BootstrapResult {
   if (!bootstrap || override) {
     return { ok: true, overridden: bootstrap && override };
   }
@@ -177,52 +230,82 @@ export function liveBaselineCount(
  *
  * `baselineCount` means live records only — see `liveBaselineCount`.
  *
- * `options.override` is the one sanctioned way through, and it exists because
- * the refusal alone is a trap: nothing is written, so nothing is stamped
- * `absentFromPlaylistSince`, so the next run measures the identical shrink and
- * refuses identically, forever. An overridden run proceeds to the merge, which
- * retains every record and stamps the absences — and because the shrink is then
- * recorded, the run after it passes on its own. Both refusals name the override
- * verbatim; a guard that refuses without naming its own way through is how a
- * worse escape gets invented.
+ * `options.override` is the one sanctioned way through the *shrink* refusal,
+ * and it exists because that refusal alone is a trap: nothing is written, so
+ * nothing is stamped `absentFromPlaylistSince`, so the next run measures the
+ * identical shrink and refuses identically, forever. An overridden run proceeds
+ * to the merge, which retains every record and stamps the absences — and
+ * because the shrink is then recorded, the run after it passes on its own.
+ *
+ * It authorizes a magnitude, not a mood: a shrink larger than the count still
+ * refuses, so an API page lost during an override run is caught rather than
+ * stamped.
  */
 export function checkSyncFloor(
   syncedCount: number,
   baselineCount: number,
   options: FloorOptions = {},
 ): FloorResult {
-  const override = options.override === true;
-
+  // Deliberately first, and deliberately not overridable: this refusal's own
+  // basis is that the playlist is never empty, so there is no real state for an
+  // override to authorize. Advertising one here would teach the wrong escape.
   if (syncedCount === 0) {
-    if (override) return { ok: true, overridden: true };
-
     return {
       ok: false,
       reason:
-        `the sync returned zero playlist entries against a live baseline of ${baselineCount}. The playlist is never empty, so this is an API or network failure, not a real change.\n` +
+        `the sync returned zero playlist entries against a live baseline of ${baselineCount}. The playlist is never empty, so this is always an API or network failure, never a real change.\n` +
         `  ${UNTOUCHED}\n` +
-        `  Re-run the sync first — a transient API failure clears on its own. Only if the playlist really is empty, let one run through; every record is kept and stamped absentFromPlaylistSince rather than deleted.\n` +
-        `${SHRINK_OVERRIDE_HOWTO}\n` +
+        `  No override applies to this one — ${SHRINK_OVERRIDE_ENV} does not reach it, because a zero-entry playlist is not a state the sync can legitimately see.\n` +
+        `  Re-run once the YouTube API is healthy:\n` +
+        `    ${SYNC_COMMAND}\n` +
         `  ${NOT_BY_DELETING}`,
+    };
+  }
+
+  const authorization = parseShrinkAuthorization(options.override);
+
+  if (authorization.kind === "invalid") {
+    return {
+      ok: false,
+      reason:
+        `${SHRINK_OVERRIDE_ENV} is set to "${authorization.raw}", which is not a count. It authorizes a shrink of at most N episodes, so it must be a positive whole number — ${SHRINK_OVERRIDE_ENV}=10 means "I know about these ten".\n` +
+        `  ${UNTOUCHED}\n` +
+        `  It is not a boolean: true, yes and 0 authorize nothing. Unset it to run guarded, or set the count this refusal prints:\n` +
+        `    ${SHRINK_OVERRIDE_ENV}=<count> ${SYNC_COMMAND}`,
     };
   }
 
   const allowed = allowedShrink(baselineCount);
   const shrink = baselineCount - syncedCount;
 
-  if (shrink > allowed) {
-    if (override) return { ok: true, overridden: true };
+  // Inside the normal band the override is irrelevant, authorized or not.
+  if (shrink <= allowed) {
+    return { ok: true, overridden: false };
+  }
 
+  if (authorization.kind === "absent") {
     return {
       ok: false,
       reason:
         `the sync returned ${syncedCount} entries against a baseline of ${baselineCount} — ${shrink} fewer, and at most ${allowed} is plausible as a real removal. A drop this size looks like a lost API page mid-pagination.\n` +
         `  ${UNTOUCHED}\n` +
-        `  If the drop is real and those ${shrink} episodes did leave the playlist, let one run through: the merge keeps every record and stamps them absentFromPlaylistSince, which is also what clears this refusal for the next run.\n` +
-        `${SHRINK_OVERRIDE_HOWTO}\n` +
+        `  If the drop is real and you know about all ${shrink}, authorize exactly that many: the merge keeps every record and stamps them absentFromPlaylistSince, which is also what clears this refusal for the next run.\n` +
+        `${shrinkOverrideHowTo(shrink)}\n` +
         `  ${NOT_BY_DELETING}`,
     };
   }
 
-  return { ok: true, overridden: false };
+  if (shrink > authorization.count) {
+    return {
+      ok: false,
+      reason:
+        `the sync returned ${syncedCount} entries against a baseline of ${baselineCount} — ${shrink} fewer, but ${SHRINK_OVERRIDE_ENV} authorized at most ${authorization.count}. Authorizing ${authorization.count} and seeing ${shrink} is the lost-API-page accident this check exists to catch, not the removal that was approved.\n` +
+        `  ${UNTOUCHED}\n` +
+        `  Re-run and let the count settle. Only if all ${shrink} really did leave the playlist, authorize that many:\n` +
+        `${shrinkOverrideHowTo(shrink)}\n` +
+        `  ${NOT_BY_DELETING}`,
+    };
+  }
+
+  return { ok: true, overridden: true, authorized: authorization.count, shrink };
 }

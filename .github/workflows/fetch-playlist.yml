@@ -8,11 +8,11 @@ on:
     inputs:
       allow_shrink:
         description: >-
-          Let this run through the sync floor refusal (ALLOW_SYNC_SHRINK). Use only
-          when episodes really did leave the playlist: the merge keeps every record
-          and stamps them absentFromPlaylistSince. Per-run; the next run is guarded again.
-        type: boolean
-        default: false
+          Authorize a sync-floor shrink of at most this many episodes (ALLOW_SYNC_SHRINK).
+          Type the count the refusal message printed — not true/yes, which authorize nothing.
+          A larger drop still refuses. Leave empty to stay guarded; per-run either way.
+        type: string
+        default: ''
 
 permissions:
   contents: write
@@ -38,7 +38,7 @@ jobs:
         run: pnpm exec tsx scripts/fetch-playlist.ts
         env:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
-          ALLOW_SYNC_SHRINK: ${{ inputs.allow_shrink && '1' || '' }}
+          ALLOW_SYNC_SHRINK: ${{ inputs.allow_shrink || '' }}
 
       - name: Check for changes
         id: changes

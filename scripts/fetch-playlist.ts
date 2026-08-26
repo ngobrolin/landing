@@ -9,7 +9,7 @@
  *
  * Two per-run overrides exist for the refusals in scripts/lib/sync-guards.ts,
  * and each refusal prints its own, verbatim:
- *   ALLOW_SYNC_SHRINK=1     let one run through the sync floor
+ *   ALLOW_SYNC_SHRINK=<n>   authorize a sync-floor shrink of at most n episodes
  *   ALLOW_EMPTY_BASELINE=1  let one run start with no src/data/episodes.json
  */
 
@@ -252,11 +252,10 @@ async function main() {
     // refuse rather than write it — a shrunken write becomes the next baseline.
     // Measured against live records only: already-retained ones never come back
     // from the sync, so counting them would make the gap grow every run.
-    const shrinkOverride = overrideEnabled(process.env[SHRINK_OVERRIDE_ENV]);
     const floor = checkSyncFloor(
       episodesWithDuration.length,
       liveBaselineCount(existingEpisodes),
-      { override: shrinkOverride },
+      { override: process.env[SHRINK_OVERRIDE_ENV] },
     );
 
     if (!floor.ok) {
@@ -273,7 +272,7 @@ async function main() {
     );
 
     if (floor.overridden) {
-      console.log(`\n!!! ${SHRINK_OVERRIDE_ENV} is set: the sync floor refusal was overridden for this run.`);
+      console.log(`\n!!! ${SHRINK_OVERRIDE_ENV}=${floor.authorized} authorized a shrink of at most ${floor.authorized}; this run is ${floor.shrink}.`);
       console.log(`!!! ${retained.length} episode(s) are being stamped absentFromPlaylistSince — every record is kept, none is deleted:`);
       for (const ep of retained) {
         console.log(`!!!   ${ep.videoId} — "${ep.title}"`);

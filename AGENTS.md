@@ -152,19 +152,23 @@ Two things worth knowing before touching that path:
   them `absentFromPlaylistSince` (optional, like `source` on transcripts — nothing reads it, and
   the site and feed still carry the episode). `scripts/lib/sync-guards.ts` holds the refusals:
   an existing-but-empty `episodes.json` is not a valid baseline, an absent one needs
-  `ALLOW_EMPTY_BASELINE=1`, and a sync returning zero or implausibly fewer entries than the
-  baseline exits non-zero without writing unless `ALLOW_SYNC_SHRINK=1` (also a `workflow_dispatch`
-  input, `allow_shrink`, on `.github/workflows/fetch-playlist.yml`). Both overrides are per-run;
-  nothing persists them. Removing an episode for real is a deliberate human edit, not something
-  the sync does.
+  `ALLOW_EMPTY_BASELINE=1`, and a shrink past the band exits non-zero without writing unless
+  `ALLOW_SYNC_SHRINK=<count>` authorizes at least that many (also a `workflow_dispatch` input,
+  `allow_shrink`, on `.github/workflows/fetch-playlist.yml`). A zero-entry sync is refused
+  outright and no override reaches it. Both overrides are per-run; nothing persists them.
+  Removing an episode for real is a deliberate human edit, not something the sync does.
 - **A refusal in an unattended workflow states its own sanctioned override, verbatim and
-  copy-pasteable.** The sync floor refuses *before* the merge, so a refused run stamps nothing and
-  the next run measures the identical shrink — a guard with no way through deadlocks the weekly
-  cron forever, and the escape a maintainer then invents is `rm src/data/episodes.json`, which
-  re-derives every slug from its current YouTube title. `scripts/lib/sync-guards.ts` owns the
-  refusal text, and `scripts/lib/sync-guards.test.ts` asserts each message contains its own
-  override command so the two cannot drift apart. Same reasoning as the false-red note below: a
-  guard that teaches a maintainer to do the wrong thing is worse than no guard.
+  copy-pasteable — and that override authorizes one specific magnitude, never everything.** The
+  sync floor refuses *before* the merge, so a refused run stamps nothing and the next run measures
+  the identical shrink — a guard with no way through deadlocks the weekly cron forever, and the
+  escape a maintainer then invents is `rm src/data/episodes.json`, which re-derives every slug
+  from its current YouTube title. So the refusal prints the exact command with the observed count
+  already in it, and `ALLOW_SYNC_SHRINK=10` means "I know about these ten": a run that then loses
+  an API page still refuses rather than stamping 50. A refusal whose own basis is that the state
+  cannot occur takes no override at all. `scripts/lib/sync-guards.ts` owns the refusal text, and
+  `scripts/lib/sync-guards.test.ts` asserts each message contains its own override command so the
+  two cannot drift apart. Same reasoning as the false-red note below: a guard that teaches a
+  maintainer to do the wrong thing is worse than no guard.
 - **A test over `src/data/*.json` asserts an invariant that survives the data growing, never a
   property of today's snapshot.** Automation rewrites those files, so a snapshot assertion turns
   the automated sync PR red and invites the next maintainer to "fix" it by deleting the new data.

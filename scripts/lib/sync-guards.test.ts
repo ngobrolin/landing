@@ -6,6 +6,7 @@ import {
   allowedShrink,
   liveBaselineCount,
   overrideEnabled,
+  parseShrinkAuthorization,
   SHRINK_OVERRIDE_ENV,
   EMPTY_BASELINE_OVERRIDE_ENV,
 } from "./sync-guards";
@@ -178,41 +179,100 @@ describe("checkBootstrapBaseline", () => {
   });
 });
 
+describe("parseShrinkAuthorization", () => {
+  it("reads a positive whole number as the authorized count", () => {
+    expect(parseShrinkAuthorization("10")).toEqual({ kind: "authorized", count: 10 });
+    expect(parseShrinkAuthorization(" 3 ")).toEqual({ kind: "authorized", count: 3 });
+  });
+
+  it("treats unset and empty as no authorization at all", () => {
+    expect(parseShrinkAuthorization(undefined)).toEqual({ kind: "absent" });
+    expect(parseShrinkAuthorization("")).toEqual({ kind: "absent" });
+    expect(parseShrinkAuthorization("   ")).toEqual({ kind: "absent" });
+  });
+
+  // A blank cheque is what gets set once and forgotten, so a value that means
+  // "just let it through" is refused rather than read as an unbounded yes.
+  it.each(["true", "yes", "1.5", "-1", "0", "ten", "10 episodes"])(
+    "refuses %s rather than reading it as an authorization",
+    (raw) => {
+      expect(parseShrinkAuthorization(raw).kind).toBe("invalid");
+    },
+  );
+});
+
 describe("checkSyncFloor override", () => {
   it("still refuses a lost API page when the override is absent", () => {
     expect(checkSyncFloor(128, 178).ok).toBe(false);
     expect(checkSyncFloor(128, 178, {}).ok).toBe(false);
-    expect(checkSyncFloor(128, 178, { override: false }).ok).toBe(false);
+    expect(checkSyncFloor(128, 178, { override: "" }).ok).toBe(false);
   });
 
-  it("lets one run through the shrink refusal when the override is set", () => {
-    const result = checkSyncFloor(128, 178, { override: true });
-    expect(result.ok).toBe(true);
-    expect(result.ok && result.overridden).toBe(true);
+  it("lets one run through when the authorized count matches the shrink", () => {
+    const result = checkSyncFloor(128, 178, { override: "50" });
+    expect(result).toEqual({ ok: true, overridden: true, authorized: 50, shrink: 50 });
   });
 
-  it("lets one run through the zero-entry refusal when the override is set", () => {
-    expect(checkSyncFloor(0, 178, { override: true }).ok).toBe(true);
+  it("lets a shrink smaller than the authorized count through", () => {
+    const result = checkSyncFloor(158, 178, { override: "50" });
+    expect(result).toEqual({ ok: true, overridden: true, authorized: 50, shrink: 20 });
   });
 
-  it("does not report a healthy sync as overridden", () => {
-    expect(checkSyncFloor(177, 178, { override: true })).toEqual({ ok: true, overridden: false });
+  // The accident the count exists to catch: authorize ten, lose an API page,
+  // and fifty would otherwise be stamped absent.
+  it("refuses a shrink larger than the authorized count and names both numbers", () => {
+    const result = checkSyncFloor(128, 178, { override: "10" });
+    expect(result.ok).toBe(false);
+    const reason = result.ok === false ? result.reason : "";
+    expect(reason).toContain("10");
+    expect(reason).toContain("50");
+    expect(reason).toContain(SHRINK_OVERRIDE_ENV);
+  });
+
+  it.each(["true", "yes", "0", "-5", "abc"])(
+    "refuses outright when the override is set to %s",
+    (raw) => {
+      const result = checkSyncFloor(128, 178, { override: raw });
+      expect(result.ok).toBe(false);
+      const reason = result.ok === false ? result.reason : "";
+      expect(reason).toContain(SHRINK_OVERRIDE_ENV);
+      expect(reason).toContain(raw);
+      expect(reason).toMatch(/positive whole number|not a count/i);
+    },
+  );
+
+  // The playlist is never empty, so there is no real state to authorize — and a
+  // message advertising an override here would teach exactly the wrong escape.
+  it.each([undefined, "1", "10", "178", "true"])(
+    "refuses a zero-entry sync even with the override set to %s",
+    (raw) => {
+      const result = checkSyncFloor(0, 178, { override: raw });
+      expect(result.ok).toBe(false);
+      const reason = result.ok === false ? result.reason : "";
+      expect(reason).toMatch(/no override applies/i);
+      expect(reason).not.toMatch(new RegExp(`${SHRINK_OVERRIDE_ENV}=\\d`));
+    },
+  );
+
+  it("does not report a shrink inside the normal band as overridden", () => {
+    expect(checkSyncFloor(177, 178)).toEqual({ ok: true, overridden: false });
+    expect(checkSyncFloor(177, 178, { override: "10" })).toEqual({ ok: true, overridden: false });
   });
 
   // The message is the whole mechanism as far as whoever hits this at 08:00 on
-  // a Wednesday is concerned: if it does not name its own override, they invent
-  // a worse one.
+  // a Wednesday is concerned: if it does not name its own override — with the
+  // number already substituted in — they invent a worse one.
   it.each([
-    ["a shrunken sync", () => checkSyncFloor(100, 178)],
-    ["an empty sync", () => checkSyncFloor(0, 178)],
-  ])("names its own override verbatim when refusing %s", (_label, run) => {
-    const result = run();
+    ["no authorization at all", undefined],
+    ["an authorization too small for the drop", "10"],
+  ])("prints the copy-pasteable command with the real count when refusing with %s", (_label, raw) => {
+    const result = checkSyncFloor(100, 178, { override: raw });
     const reason = result.ok === false ? result.reason : "";
-    expect(reason).toContain(SHRINK_OVERRIDE_ENV);
     expect(reason).toContain(
-      `${SHRINK_OVERRIDE_ENV}=1 YOUTUBE_API_KEY=... pnpm exec tsx scripts/fetch-playlist.ts`,
+      `${SHRINK_OVERRIDE_ENV}=78 YOUTUBE_API_KEY=... pnpm exec tsx scripts/fetch-playlist.ts`,
     );
-    expect(reason).toContain("allow_shrink");
+    expect(reason).toContain("allow_shrink input set to 78");
+    expect(reason).toMatch(/at most that many, not any shrink/i);
     expect(reason).toMatch(/do not delete src\/data\/episodes\.json/i);
     expect(reason).toMatch(/re-derives every slug/i);
   });
@@ -259,9 +319,9 @@ describe("recovering from a shrink the floor refuses", () => {
     expect(checkSyncFloor(synced.length, liveBaselineCount(baseline)).ok).toBe(false);
   });
 
-  it("lets the override through and the merge then stamps every absence", () => {
-    const floor = checkSyncFloor(synced.length, liveBaselineCount(baseline), { override: true });
-    expect(floor.ok).toBe(true);
+  it("lets the authorized count through and the merge then stamps every absence", () => {
+    const floor = checkSyncFloor(synced.length, liveBaselineCount(baseline), { override: "20" });
+    expect(floor).toEqual({ ok: true, overridden: true, authorized: 20, shrink: 20 });
 
     const { episodes, retained } = mergeEpisodes(synced, baseline, { syncedAt: SYNC_DATE });
 
@@ -286,7 +346,9 @@ describe("recovering from a shrink the floor refuses", () => {
     expect(liveBaselineCount(written)).toBe(158);
     expect(checkSyncFloor(synced.length, liveBaselineCount(written)).ok).toBe(true);
 
-    // And the guard is fully back: a fresh unexplained drop still refuses.
+    // And the guard is fully back: a fresh unexplained drop still refuses, and
+    // last week's authorization is not carried into it.
     expect(checkSyncFloor(120, liveBaselineCount(written)).ok).toBe(false);
+    expect(checkSyncFloor(120, liveBaselineCount(written), { override: "20" }).ok).toBe(false);
   });
 });
