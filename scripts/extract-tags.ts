@@ -2,7 +2,7 @@
  * Extract tags from episode summaries.
  *
  * Usage:
- *   npx tsx scripts/extract-tags.ts
+ *   pnpm exec tsx scripts/extract-tags.ts
  *
  * The matching rule lives in scripts/lib/tag-extraction.ts, where it is tested.
  * It is word-boundary based: bare substring matching against Indonesian prose
