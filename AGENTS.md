@@ -154,6 +154,12 @@ Two things worth knowing before touching that path:
   an existing-but-empty `episodes.json` is not a valid baseline, and a sync returning zero or
   implausibly fewer entries than the baseline exits non-zero without writing. Removing an
   episode for real is a deliberate human edit, not something the sync does.
+- **A test over `src/data/*.json` asserts an invariant that survives the data growing, never a
+  property of today's snapshot.** Automation rewrites those files, so a snapshot assertion turns
+  the automated sync PR red and invites the next maintainer to "fix" it by deleting the new data.
+  The two that follow this: the golden slug guard in `src/lib/slug.test.ts` (a subset, not exact
+  equality) and the `absentFromPlaylistSince` optionality assertion in
+  `src/lib/episode-retention.test.ts` (absent *or* a valid stamp, not absent everywhere).
 
 ## Learnings & Best Practices
 

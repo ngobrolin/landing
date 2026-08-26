@@ -79,9 +79,28 @@ export function readBaseline(raw: string | undefined): BaselineResult {
 export type FloorResult = { ok: true } | { ok: false; reason: string };
 
 /**
+ * The baseline the floor measures against: records the playlist was still
+ * returning last run.
+ *
+ * Retention (see `episode-merge.ts`) means a record already marked
+ * `absentFromPlaylistSince` stays in `episodes.json` forever, but the sync will
+ * never return its video again. Counting those as baseline turns their absence
+ * into a shrink on *every* future run, so accumulated retentions would
+ * eventually exceed `allowedShrink` and deadlock the weekly sync. The floor is
+ * about episodes going absent *this run*, so the baseline is live records only.
+ */
+export function liveBaselineCount(
+  episodes: readonly { absentFromPlaylistSince?: string }[],
+): number {
+  return episodes.filter((ep) => !ep.absentFromPlaylistSince).length;
+}
+
+/**
  * Refuse a sync result that is empty or implausibly smaller than the baseline.
  * Refusing means writing nothing and exiting non-zero — a shrunken write would
  * become the next run's baseline.
+ *
+ * `baselineCount` means live records only — see `liveBaselineCount`.
  */
 export function checkSyncFloor(syncedCount: number, baselineCount: number): FloorResult {
   if (syncedCount === 0) {

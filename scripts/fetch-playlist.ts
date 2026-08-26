@@ -16,7 +16,7 @@ import {
   type VideoDetail,
 } from './lib/playlist-episodes';
 import { mergeEpisodes, type StoredEpisode } from './lib/episode-merge';
-import { readBaseline, checkSyncFloor } from './lib/sync-guards';
+import { readBaseline, checkSyncFloor, liveBaselineCount } from './lib/sync-guards';
 
 const PLAYLIST_ID = 'PLTY2nW4jwtG8Sx2Bw6QShC271PzX31CtT';
 const API_KEY = process.env.YOUTUBE_API_KEY;
@@ -214,7 +214,9 @@ async function main() {
 
     // A short sync looks exactly like a healthy sync of a smaller playlist, so
     // refuse rather than write it — a shrunken write becomes the next baseline.
-    const floor = checkSyncFloor(episodesWithDuration.length, existingEpisodes.length);
+    // Measured against live records only: already-retained ones never come back
+    // from the sync, so counting them would make the gap grow every run.
+    const floor = checkSyncFloor(episodesWithDuration.length, liveBaselineCount(existingEpisodes));
 
     if (!floor.ok) {
       console.error(`✗ Refusing to write src/data/episodes.json: ${floor.reason}`);

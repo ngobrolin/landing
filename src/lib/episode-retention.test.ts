@@ -30,10 +30,25 @@ const METADATA: PodcastMetadata = {
 };
 
 describe("absentFromPlaylistSince is optional", () => {
-  it("is absent from every record shipping today, so the field must never be required", () => {
+  // Deliberately an invariant, not a snapshot. Asserting "no record carries
+  // this field today" would go red on the first automated "chore: update
+  // episodes from YouTube playlist" PR that actually retains an episode — and
+  // the obvious-looking fix for whoever sees that red is to strip the marker or
+  // the record, undoing the retention this change exists to add. A guard that
+  // teaches a future maintainer to delete the feature is worse than no guard.
+  // Same reasoning as the golden guard in ./slug.test.ts, which is a subset
+  // assertion rather than exact ordered equality so new episodes can land.
+  it("is either absent or a round-tripping ISO-8601 stamp on every record", () => {
     const raw = episodesData as unknown as RawRecord[];
     expect(raw.length).toBeGreaterThan(0);
-    expect(raw.some((ep) => "absentFromPlaylistSince" in ep)).toBe(false);
+
+    for (const ep of raw) {
+      if (!("absentFromPlaylistSince" in ep)) continue;
+
+      const since = ep.absentFromPlaylistSince;
+      expect(typeof since).toBe("string");
+      expect(new Date(since as string).toISOString()).toBe(since);
+    }
   });
 
   it("still loads and renders the whole archive from unmarked records", () => {

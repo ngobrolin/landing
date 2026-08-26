@@ -1,5 +1,15 @@
 import { describe, it, expect } from "vitest";
-import { readBaseline, checkSyncFloor, allowedShrink } from "./sync-guards";
+import { readBaseline, checkSyncFloor, allowedShrink, liveBaselineCount } from "./sync-guards";
+
+function baselineOf(live: number, absent: number) {
+  return [
+    ...Array.from({ length: live }, (_, i) => ({ videoId: `live${i}` })),
+    ...Array.from({ length: absent }, (_, i) => ({
+      videoId: `gone${i}`,
+      absentFromPlaylistSince: "2026-01-01T00:00:00.000Z",
+    })),
+  ];
+}
 
 describe("readBaseline", () => {
   it("treats a genuinely absent file as a legitimate empty baseline", () => {
@@ -47,7 +57,35 @@ describe("allowedShrink", () => {
   });
 });
 
+describe("liveBaselineCount", () => {
+  it("counts records the sync can still return, not the whole file", () => {
+    expect(liveBaselineCount(baselineOf(169, 9))).toBe(169);
+  });
+
+  it("counts every record when nothing has ever gone absent", () => {
+    expect(liveBaselineCount(baselineOf(178, 0))).toBe(178);
+  });
+
+  it("treats a record written before the marker existed as live", () => {
+    expect(liveBaselineCount([{ videoId: "legacy" } as { absentFromPlaylistSince?: string }])).toBe(1);
+  });
+});
+
 describe("checkSyncFloor", () => {
+  // Retained records never come back from the sync, so measuring the floor
+  // against the whole file makes their absence a shrink on every future run —
+  // an accumulating gap that eventually deadlocks the weekly sync for good.
+  it("does not refuse a healthy sync just because retentions have accumulated", () => {
+    const baseline = baselineOf(169, 9);
+    expect(baseline).toHaveLength(178);
+    expect(checkSyncFloor(169, liveBaselineCount(baseline)).ok).toBe(true);
+    expect(checkSyncFloor(169, baseline.length).ok).toBe(false);
+  });
+
+  it("still refuses a lost API page once retained records are excluded", () => {
+    expect(checkSyncFloor(119, liveBaselineCount(baselineOf(169, 9))).ok).toBe(false);
+  });
+
   it("refuses a sync that returned nothing at all", () => {
     const result = checkSyncFloor(0, 178);
     expect(result.ok).toBe(false);

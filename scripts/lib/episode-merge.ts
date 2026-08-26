@@ -20,7 +20,7 @@
  * record written before it existed behaves identically.
  */
 
-import { deriveSlug } from "../../src/lib/slug";
+import { deriveSlug, resolveSlug } from "../../src/lib/slug";
 import type { Episode } from "./playlist-episodes";
 
 /** An episode as it comes back from the playlist sync — no local fields yet. */
@@ -112,7 +112,7 @@ export function mergeEpisodes(
         retained.push({ videoId: ep.videoId, title: ep.title, since });
       }
 
-      return { ...ep, slug: ep.slug || deriveSlug(ep.videoId, ep.title), absentFromPlaylistSince: since };
+      return { ...ep, slug: resolveSlug(ep), absentFromPlaylistSince: since };
     });
 
   return { episodes: [...live, ...kept], retained, reappeared };
