@@ -24,21 +24,29 @@ interface RawEpisode {
 
 /** Parse the ISO 8601 duration YouTube returns (e.g. "PT1H31M38S") to seconds. */
 function parseIso8601Duration(value: string): number {
-  const match = /^PT(?:(\d+)H)?(?:(\d+)M)?(?:(\d+)S)?$/.exec(value);
+  const match = /^P(?:(\d+)D)?T(?:(\d+)H)?(?:(\d+)M)?(?:(\d+)S)?$/.exec(value);
   if (!match) {
     throw new Error(`Unparseable ISO 8601 duration: ${value}`);
   }
-  const [, hours, minutes, seconds] = match;
-  return Number(hours ?? 0) * 3600 + Number(minutes ?? 0) * 60 + Number(seconds ?? 0);
+  const [, days, hours, minutes, seconds] = match;
+  return (
+    Number(days ?? 0) * 86400 +
+    Number(hours ?? 0) * 3600 +
+    Number(minutes ?? 0) * 60 +
+    Number(seconds ?? 0)
+  );
 }
 
 const episodes = rawEpisodes as RawEpisode[];
 
 describe("episode audio matches the video it claims to be", () => {
-  it("every episode carries a parseable YouTube duration", () => {
+  // `duration` is optional and the sync warns-and-continues when YouTube omits
+  // it, so this checks shape, not coverage — see "Writing a data guard" in
+  // AGENTS.md.
+  it("every YouTube duration present in the data is parseable", () => {
     const unparseable = episodes
       .filter((ep) => {
-        if (!ep.duration) return true;
+        if (!ep.duration) return false;
         try {
           return parseIso8601Duration(ep.duration) <= 0;
         } catch {
