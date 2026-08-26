@@ -155,7 +155,7 @@ Two things worth knowing before touching that path:
 
 - ✅ **Add E2E tests before fixing bugs** - Tests caught view transition regressions early
 - ✅ **Use guard patterns for script initialization** - `data-menu-initialized` flag prevents duplicate listeners
-- ✅ **Add `data-astro-rerun` for view transitions** - Scripts must re-run on client-side navigation
+- ✅ **Add `data-astro-rerun` for view transitions** - but only inline scripts support it; see *Scripts and view transitions* below for scripts with imports
 - ✅ **Test view transitions explicitly** - Ensure scripts work after navigation, not just initial load
 - ✅ **Use IIFE pattern with `is:inline`** - Prevents scope pollution and ensures re-execution
 
@@ -166,6 +166,71 @@ Two things worth knowing before touching that path:
 - ❌ **Don't skip initialization guards** - Scripts may run multiple times, prevent duplicate work
 - ❌ **Don't test only initial page load** - View transitions create different execution context
 - ❌ **Don't refactor without E2E coverage** - ShareButtons refactor needed testing protection
+
+## Scripts and view transitions
+
+`ClientRouter` is site-wide, so every script has to survive client-side
+navigation. Which mechanism you need depends on whether the script imports
+anything:
+
+- **No imports** → `<script is:inline data-astro-rerun>` plus an
+  initialisation guard. This is the pattern most of the codebase uses.
+- **Has imports** → Astro bundles it as a module and `data-astro-rerun` does
+  not apply. Bind to `astro:after-swap` **and** `astro:page-load`, **and** call
+  the initialiser immediately. All three are needed, and this was measured, not
+  guessed: navigating `/` → `/episodes` fires `before-preparation`,
+  `after-preparation`, `before-swap` and `after-swap` but **not** `page-load`,
+  because the module had never loaded on `/` and was still arriving when the
+  navigation finished. `src/components/SearchEpisodes.astro` documents this at
+  the call site.
+
+Two related traps:
+
+- **Set the "already initialised" guard *after* the risky work, not before.**
+  Search shipped broken for an unknown period because the guard was set before
+  a line that threw, which turned a transient ordering bug into a permanent
+  one that no re-run could clear.
+- **A `<script>` inside a repeated component is emitted once per render.**
+  `OfflineIndicator` put its runtime in the card, so `/episodes` shipped 178
+  copies and each one queried every badge on the page — N² work. Page-level
+  runtimes belong in `Layout.astro`; see `OfflineBadgeRuntime.astro`.
+
+## Derived data, and numbers that go stale
+
+Anything countable must be derived at build time. Hardcoded counts have
+produced wrong public claims here more than once: `/partners` advertised
+"164+" against a real 178, and `/tags` advertised "723 episode" because it
+summed tag counts rather than counting episodes. `src/lib/archive.ts` and
+`getTaggedEpisodeCount()` in `src/lib/tags.ts` are the helpers.
+
+`src/data/tags.json` is **fully derived** from `src/data/summaries/` by
+`scripts/extract-tags.ts`, which **replaces** the file rather than merging into
+it. It used to union old and new tags "to preserve manual edits", which meant a
+tag could be added but never removed — so fixing the matcher would have changed
+nothing. If hand-tuned tags are ever wanted, they need a separate file to merge
+*with*.
+
+The matching rule lives in `scripts/lib/tag-extraction.ts` and is
+word-boundary based, with tests. Never make it a bare `includes()`: in
+Indonesian, `ai` appears inside *mulai, berbagai, sebagai, sesuai, bagaimana*,
+which once tagged **every** summarised episode as `ai`. `ts` matched
+*assistants*, `ml` matched *html*, `bun` matched *membangun*.
+
+Re-run `npx tsx scripts/extract-tags.ts` whenever summaries change, and check
+that no `/tags/<tag>` URL disappears — those pages are indexed.
+
+## Episode titles
+
+163 of 178 titles carry a trailing show-name credit in 46 different shapes
+(`- Ngobrolin WEB`, `... ep51`, `... & @handle`, and a real `Ngborlin WEB`
+misspelling). `src/lib/episode-title.ts` owns both directions:
+
+- `getDisplayTitle()` for anything a reader sees — it strips the credit only
+  where it *is* a credit (anchored on a dash), so titles that use the show name
+  as their subject, like *Ngobrolin WebSocket*, keep it.
+- `buildEpisodePageTitle()` for `<title>` and the social tags, which must keep
+  the show name. Appending it unconditionally is how 119 pages came to ship
+  `X - Ngobrolin WEB - Ngobrolin WEB`.
 
 ## Podcast audio pipeline
 
