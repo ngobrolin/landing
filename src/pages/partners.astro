@@ -2,9 +2,54 @@
 import Layout from '../layouts/Layout.astro';
 import partners from '../data/partners.json';
 import testimonials from '../data/testimonials.json';
+import { getEpisodes } from '../lib/episodes';
 
 const goldPartners = partners.filter(s => s.tier === 'gold');
 const featuredTestimonials = testimonials.filter(t => t.featured);
+
+// Derived, never hardcoded: a literal here goes stale the week after it is
+// written, on the one page whose whole job is to be believed.
+const episodes = getEpisodes();
+const episodeCount = episodes.length;
+
+// A fixed start year stays true forever; a tenure counter ("4+ Tahun") is only
+// true if somebody remembers to bump it, which is the failure behind "164+".
+const firstYear = Math.min(
+  ...episodes.map(ep => new Date(ep.publishedAt).getUTCFullYear())
+);
+
+// Ngobrolin WEB is one of two shows on the channel, so every channel figure
+// below is labelled as such. Presenting them as the show's own would be the
+// same credibility failure as the unverifiable per-episode views claim
+// that used to sit here.
+// Source: YouTube channel media kit, August 2026. Subscribers are lifetime;
+// the audience percentages cover the last 28 days.
+const stats = [
+  {
+    id: 'episodes',
+    scope: 'Ngobrolin WEB',
+    value: episodeCount.toLocaleString('id-ID'),
+    label: `Episode, mingguan sejak ${firstYear}`,
+  },
+  {
+    id: 'subscribers',
+    scope: 'Kanal YouTube',
+    value: (7100).toLocaleString('id-ID'),
+    label: 'Subscriber kanal',
+  },
+  {
+    id: 'age',
+    scope: 'Kanal YouTube',
+    value: `${(88.7).toLocaleString('id-ID', { minimumFractionDigits: 1 })}%`,
+    label: 'Audiens berusia 25-34',
+  },
+  {
+    id: 'returning',
+    scope: 'Kanal YouTube',
+    value: `${(37.8).toLocaleString('id-ID', { minimumFractionDigits: 1 })}%`,
+    label: 'Penonton yang kembali',
+  },
+];
 ---
 
 <Layout 
@@ -35,23 +80,22 @@ const featuredTestimonials = testimonials.filter(t => t.featured);
   <section class="py-16 border-y border-dark-border bg-dark-card/50">
     <div class="container mx-auto px-4">
       <div class="grid grid-cols-2 md:grid-cols-4 gap-8 max-w-4xl mx-auto">
-        <div class="text-center">
-          <div class="text-4xl md:text-5xl font-bold text-primary-light mb-2">164+</div>
-          <div class="text-gray-400">Episode</div>
-        </div>
-        <div class="text-center">
-          <div class="text-4xl md:text-5xl font-bold text-primary-light mb-2">4+</div>
-          <div class="text-gray-400">Tahun Tayang</div>
-        </div>
-        <div class="text-center">
-          <div class="text-4xl md:text-5xl font-bold text-primary-light mb-2">1K+</div>
-          <div class="text-gray-400">Views/Episode</div>
-        </div>
-        <div class="text-center">
-          <div class="text-4xl md:text-5xl font-bold text-primary-light mb-2">Selasa</div>
-          <div class="text-gray-400">20:00 WIB</div>
-        </div>
+        {stats.map(stat => (
+          <div class="text-center" data-testid="stat-tile">
+            <div class="text-xs uppercase tracking-wide text-gray-500 mb-1" data-testid="stat-scope">{stat.scope}</div>
+            <div class="text-4xl md:text-5xl font-bold text-primary-light mb-2" data-testid={`stat-${stat.id}`}>{stat.value}</div>
+            <div class="text-gray-400" data-testid={`stat-${stat.id}-label`}>{stat.label}</div>
+          </div>
+        ))}
       </div>
+
+      <p class="max-w-4xl mx-auto mt-10 text-center text-sm text-gray-400" data-testid="stat-supporting">
+        <span data-testid="stat-supporting-scope">Kanal YouTube:</span> 87,7% dari Indonesia · 545 jam ditonton per 28 hari · rata-rata 5:58 per tayangan · minat teratas: High-End Computer Aficionados.
+      </p>
+
+      <p class="max-w-4xl mx-auto mt-3 text-center text-xs text-gray-500" data-testid="stat-attribution">
+        Data kanal YouTube, Agustus 2026. Kanal ini menayangkan Ngobrolin WEB bersama satu program lain, sehingga angka kanal di atas bukan angka Ngobrolin WEB saja.
+      </p>
     </div>
   </section>
 
@@ -119,8 +163,8 @@ const featuredTestimonials = testimonials.filter(t => t.featured);
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
             </svg>
           </div>
-          <h3 class="text-white font-semibold text-lg mb-2">Konsistensi 4+ Tahun</h3>
-          <p class="text-gray-400">Track record yang terbukti dengan 164+ episode dan komunitas yang loyal sejak 2022.</p>
+          <h3 class="text-white font-semibold text-lg mb-2" data-testid="consistency-heading">Konsisten sejak <span data-testid="consistency-year">{firstYear}</span></h3>
+          <p class="text-gray-400">Track record yang terbukti dengan <span data-testid="prose-episode-count">{episodeCount.toLocaleString('id-ID')}</span> episode dan komunitas yang loyal sejak <span data-testid="prose-first-year">{firstYear}</span>.</p>
         </div>
       </div>
     </div>
