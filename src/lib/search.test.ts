@@ -1,5 +1,6 @@
 import { describe, it, expect } from 'vitest';
 import {
+  SEARCH_INDEX_PATH,
   SEARCH_KEYS,
   SHORT_QUERY_KEYS,
   buildSearchDocuments,
@@ -28,6 +29,14 @@ describe('buildSearchDocuments', () => {
     for (const key of Object.keys(docs[0])) {
       expect(allowed.has(key), `${key} is shipped but never searched`).toBe(true);
     }
+  });
+
+  // The documents are no longer inlined into the page - they are serialised
+  // once to a static file and fetched on first interaction. Anything that does
+  // not survive JSON.stringify would arrive at the browser as something else.
+  it('survives the JSON round trip the endpoint puts it through', () => {
+    expect(SEARCH_INDEX_PATH).toBe('/search-index.json');
+    expect(JSON.parse(JSON.stringify(docs))).toEqual(docs);
   });
 
   it('indexes key points, which used not to be searchable at all', () => {

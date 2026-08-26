@@ -25,6 +25,12 @@ test.describe('Skip link', () => {
       await expect(skip).toBeVisible();
 
       await expect(page.locator('#main-content')).toBeAttached();
+
+      // Activating it must MOVE focus, not merely scroll. Asserting only that
+      // the target is attached passes even when <main> is unfocusable, which
+      // is how a skip link that never moved the reading cursor shipped.
+      await page.keyboard.press('Enter');
+      await expect(page.locator('#main-content')).toBeFocused();
     });
   }
 });
@@ -69,6 +75,40 @@ test.describe('Current page is marked in the main navigation', () => {
       await expect(link).toHaveAttribute('aria-current', 'page');
     });
   }
+
+  // A descendant is not the current page. /episodes/2024 and /tags/<tag> are
+  // reached from the nav link but are not the link's own target, so announcing
+  // "current page" on a link that navigates away is a lie. These pages were
+  // untested, which is why aria-current="page" leaked onto them.
+  for (const [path, label] of [
+    ['/episodes/2024', 'Episode'],
+    ['/tags/astro', 'Topik'],
+  ] as const) {
+    test(`${path} marks "${label}" as an ancestor, not as the page`, async ({
+      page,
+    }) => {
+      await page.goto(path);
+      const link = page
+        .locator('header')
+        .getByRole('link', { name: label, exact: true })
+        .first();
+      await expect(link).toHaveAttribute('aria-current', 'true');
+    });
+  }
+
+  test('an episode page marks the section without claiming to be it', async ({
+    page,
+  }) => {
+    await page.goto('/episodes');
+    const href = await page.locator('#episodes-grid > a').first().getAttribute('href');
+    await page.goto(href!);
+
+    const link = page
+      .locator('header')
+      .getByRole('link', { name: 'Episode', exact: true })
+      .first();
+    await expect(link).toHaveAttribute('aria-current', 'true');
+  });
 
   test('a nav item that is not the current page carries no aria-current', async ({ page }) => {
     await page.goto('/about');

@@ -36,18 +36,29 @@ export interface SearchDocument {
    * These name the concrete things an episode covered - tools, libraries,
    * product names - and none of it was searchable. Flattened rather than kept
    * as an array because Fuse only needs the text, and array syntax in the
-   * inlined island is pure payload.
+   * served index is pure payload.
    */
   keyPoints: string;
 }
 
 /**
+ * Where the built index is served from.
+ *
+ * One address shared by the endpoint that writes it (src/pages/search-index
+ * .json.ts) and the component that fetches it, so the two cannot drift.
+ */
+export const SEARCH_INDEX_PATH = '/search-index.json';
+
+/**
  * Build the search index payload.
  *
- * Ships only the slug plus the searchable fields. The island previously carried
- * thumbnail, publishedAt, episodeNumber and isNew as well - roughly 14KB that
- * nothing ever read, because search re-rendered cards from a JS template
- * instead of filtering the ones already on the page.
+ * Carries the slug plus the searchable fields, and nothing else. Dropping
+ * thumbnail, publishedAt, episodeNumber and isNew saved roughly 14KB - but do
+ * not read that as a payload reduction overall: adding keyPoints costs about
+ * 207KB, so the index grew from ~341KB to ~525KB (+54%). That is a deliberate
+ * recall trade, and it is the reason the payload is served from a static
+ * endpoint and fetched on first interaction rather than inlined into the HTML
+ * of /episodes and every year page.
  */
 export function buildSearchDocuments(episodes: Episode[]): SearchDocument[] {
   return episodes.map((episode) => ({
