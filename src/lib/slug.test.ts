@@ -7,8 +7,13 @@ import { getPodcastEpisodes } from './podcast';
 
 describe('resolveSlug', () => {
   it('uses the stored slug even when the title has changed since', () => {
-    // v28qyGyoMw4 shipped as "Web Performance Update" and was retitled on
-    // YouTube. The address must not follow the retitle.
+    // v28qyGyoMw4 shipped as "Web Performance Update - Ngobrolin WEB" and has
+    // already been retitled on YouTube to "Update Performa Web - Ngobrolin
+    // WEB". That retitle is not in src/data/episodes.json yet — the automated
+    // data PR #109 carries it — so no stored slug diverges from its own title
+    // derivation today. Do not "correct" episodes.json to match this test: the
+    // inline record below is the post-#109 state, locked down in advance so the
+    // published address cannot follow the retitle when it lands.
     expect(
       resolveSlug({
         videoId: 'v28qyGyoMw4',

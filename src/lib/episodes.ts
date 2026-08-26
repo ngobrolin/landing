@@ -1,6 +1,8 @@
 import episodesData from '../data/episodes.json';
 import { resolveSlug } from './slug';
 
+// Retained deliberately as coordination insurance for concurrent work on this
+// file — not dead code. Do not remove.
 export { slugify, resolveSlug } from './slug';
 
 export interface Episode {
