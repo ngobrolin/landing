@@ -168,7 +168,7 @@
             // Set current year
             document.getElementById('year').textContent = new Date().getFullYear();
 
-            // Load cached episodes from ngobrol-pages-v1 cache
+            // Load cached episodes from ngobrol-pages-v2 cache
             async function loadCachedEpisodes() {
                 const cachedList = document.getElementById('cached-list');
 
@@ -178,7 +178,7 @@
                         return;
                     }
 
-                    const cache = await caches.open('ngobrol-pages-v1');
+                    const cache = await caches.open('ngobrol-pages-v2');
                     const keys = await cache.keys();
 
                     // Filter for episode pages only

@@ -1,3 +1,10 @@
+/*
+ * The cache names here are the same strings `public/sw.js` builds from its
+ * CACHE_VERSION constant. That file is served raw to the browser and cannot
+ * import this one, so the version lives in two places by necessity - see the
+ * comment at the top of `sw.js` for the full list of files that move together
+ * and for when a bump is required.
+ */
 export interface CacheStrategy {
   type: 'network-first' | 'cache-first' | 'network-only';
   cacheName: string | null;
@@ -34,12 +41,12 @@ export function determineCacheStrategy(request: Request): CacheStrategy {
 
   // HTML pages - network first
   if (isHtmlRequest(request)) {
-    return { type: 'network-first', cacheName: 'ngobrol-pages-v1' };
+    return { type: 'network-first', cacheName: 'ngobrol-pages-v2' };
   }
 
   // Static assets - cache first
   if (isStaticAsset(url)) {
-    return { type: 'cache-first', cacheName: 'ngobrol-static-v1' };
+    return { type: 'cache-first', cacheName: 'ngobrol-static-v2' };
   }
 
   // Default - network only

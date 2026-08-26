@@ -51,28 +51,28 @@ describe('sw-utils', () => {
       });
       const result = determineCacheStrategy(request);
       expect(result.type).toBe('network-first');
-      expect(result.cacheName).toBe('ngobrol-pages-v1');
+      expect(result.cacheName).toBe('ngobrol-pages-v2');
     });
 
     it('returns cache-first for CSS assets', () => {
       const request = new Request('https://ngobrol.in/_astro/index.css');
       const result = determineCacheStrategy(request);
       expect(result.type).toBe('cache-first');
-      expect(result.cacheName).toBe('ngobrol-static-v1');
+      expect(result.cacheName).toBe('ngobrol-static-v2');
     });
 
     it('returns cache-first for JS assets', () => {
       const request = new Request('https://ngobrol.in/_astro/client.js');
       const result = determineCacheStrategy(request);
       expect(result.type).toBe('cache-first');
-      expect(result.cacheName).toBe('ngobrol-static-v1');
+      expect(result.cacheName).toBe('ngobrol-static-v2');
     });
 
     it('returns cache-first for font files', () => {
       const request = new Request('https://ngobrol.in/fonts/test.woff2');
       const result = determineCacheStrategy(request);
       expect(result.type).toBe('cache-first');
-      expect(result.cacheName).toBe('ngobrol-static-v1');
+      expect(result.cacheName).toBe('ngobrol-static-v2');
     });
 
     it('returns network-only for YouTube thumbnails', () => {
@@ -98,16 +98,16 @@ describe('sw-utils', () => {
   });
 
   describe('getCacheName', () => {
-    it('returns ngobrol-pages-v1 for HTML requests', () => {
+    it('returns ngobrol-pages-v2 for HTML requests', () => {
       const request = new Request('https://ngobrol.in/episodes/test', {
         headers: { 'Accept': 'text/html' }
       });
-      expect(getCacheName(request)).toBe('ngobrol-pages-v1');
+      expect(getCacheName(request)).toBe('ngobrol-pages-v2');
     });
 
-    it('returns ngobrol-static-v1 for CSS requests', () => {
+    it('returns ngobrol-static-v2 for CSS requests', () => {
       const request = new Request('https://ngobrol.in/_astro/index.css');
-      expect(getCacheName(request)).toBe('ngobrol-static-v1');
+      expect(getCacheName(request)).toBe('ngobrol-static-v2');
     });
 
     it('returns null for network-only requests', () => {

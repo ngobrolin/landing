@@ -19,7 +19,7 @@
     (async () => {
       let cache;
       try {
-        cache = await caches.open("ngobrol-pages-v1");
+        cache = await caches.open("ngobrol-pages-v2");
       } catch (err) {
         // No Cache API (private mode, unsupported browser): the badge means
         // nothing here, so remove it rather than leaving a permanent shrug.

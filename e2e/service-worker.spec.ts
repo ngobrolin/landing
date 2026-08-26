@@ -13,7 +13,7 @@ test.describe('Service Worker', () => {
     await page.waitForFunction(async () => {
       // Check if offline.html is cached (indicates install completed)
       try {
-        const cache = await caches.open('ngobrol-static-v1');
+        const cache = await caches.open('ngobrol-static-v2');
         const offlinePage = await cache.match('/offline.html');
         return offlinePage !== undefined;
       } catch {
@@ -40,7 +40,7 @@ test.describe('Service Worker', () => {
 
     // Check cache contains the page
     const cachedPages = await page.evaluate(async () => {
-      const cache = await caches.open('ngobrol-pages-v1');
+      const cache = await caches.open('ngobrol-pages-v2');
       const keys = await cache.keys();
       return keys.map(req => req.url);
     });
@@ -141,7 +141,7 @@ test.describe('Service Worker', () => {
 
     // Check static cache has assets
     const staticCacheSize = await page.evaluate(async () => {
-      const cache = await caches.open('ngobrol-static-v1');
+      const cache = await caches.open('ngobrol-static-v2');
       const keys = await cache.keys();
       return keys.length;
     });

@@ -1,7 +1,22 @@
 // Service Worker for Ngobrolin WEB
 // Implements offline caching for episodes and static assets
 
-const CACHE_VERSION = 'v1';
+/*
+ * Bump this whenever a precached or cache-first asset changes its *contents*
+ * under an unchanged URL - `/offline.html` and `/favicon.svg` below are
+ * precached on install, and every same-origin image, svg, css and js is served
+ * cache-first, so a returning visitor keeps the old bytes forever otherwise.
+ * The v1 -> v2 bump was the site repaint: without it, half the visitors would
+ * have kept the pre-cover favicon against the new palette.
+ *
+ * The name is duplicated as a literal in `src/lib/sw-utils.ts` (the routing
+ * helper this file cannot import), its unit test, `e2e/service-worker.spec.ts`,
+ * `src/components/OfflineBadgeRuntime.astro` and `public/offline.html`. Move
+ * all of them together; `pnpm run test:unit` and the e2e suite both fail if you
+ * miss one. The activate handler below deletes every `ngobrol-*` cache that is
+ * not the current pair, so nothing is left behind.
+ */
+const CACHE_VERSION = 'v2';
 const STATIC_CACHE = `ngobrol-static-${CACHE_VERSION}`;
 const PAGES_CACHE = `ngobrol-pages-${CACHE_VERSION}`;
 
