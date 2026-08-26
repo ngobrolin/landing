@@ -1,0 +1,48 @@
+---
+/**
+ * Marks episode badges whose page is already in the offline cache.
+ *
+ * Rendered ONCE per page by Layout.astro. This deliberately does not live in
+ * OfflineIndicator.astro: that component renders per card, so the script was
+ * duplicated 178 times on /episodes (~127KB, a tenth of the page) and every
+ * copy looped over every badge, making the work N squared - a single load
+ * issued ~15,900 Cache API calls in 3 seconds.
+ */
+---
+
+<script is:inline data-astro-rerun>
+  (function checkOfflineStatus() {
+    const badges = document.querySelectorAll(".offline-badge:not([data-offline-checked])");
+    if (badges.length === 0) return;
+
+    // One cache handle for the whole page, not one per badge.
+    (async () => {
+      let cache;
+      try {
+        cache = await caches.open("ngobrol-pages-v1");
+      } catch (err) {
+        // No Cache API (private mode, unsupported browser): the badge means
+        // nothing here, so remove it rather than leaving a permanent shrug.
+        badges.forEach((badge) => {
+          badge.style.display = "none";
+        });
+        return;
+      }
+
+      for (const badge of badges) {
+        badge.setAttribute("data-offline-checked", "true");
+        const path = badge.getAttribute("data-episode-path");
+        if (!path) continue;
+
+        try {
+          if (await cache.match(path)) {
+            badge.classList.add("cached");
+            badge.title = "Tersedia offline";
+          }
+        } catch {
+          badge.style.display = "none";
+        }
+      }
+    })();
+  })();
+</script>

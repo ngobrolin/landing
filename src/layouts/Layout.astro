@@ -3,6 +3,7 @@ import "../styles/global.css";
 import { ClientRouter } from "astro:transitions";
 import Analytics from "../components/Analytics.astro";
 import ScrollButtons from "../components/ScrollButtons.astro";
+import OfflineBadgeRuntime from "../components/OfflineBadgeRuntime.astro";
 
 interface Props {
   title: string;
@@ -437,6 +438,9 @@ const jsonLd = {
 
     <!-- Scroll Buttons -->
     <ScrollButtons />
+
+    <!-- Offline badge runtime: one copy per page, not one per card -->
+    <OfflineBadgeRuntime />
 
     <!-- Mobile Menu Toggle Script -->
     <script is:inline data-astro-rerun>
