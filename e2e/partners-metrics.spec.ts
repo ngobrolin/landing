@@ -85,7 +85,7 @@ test.describe('Partners sponsor metrics', () => {
     await expect(page.getByTestId('stat-tile')).toHaveCount(4);
 
     await expect(page.getByTestId('stat-episodes-label')).toHaveText(
-      'Episode, mingguan sejak 2022'
+      `Episode, mingguan sejak ${firstEpisodeYear()}`
     );
 
     await expect(page.getByTestId('stat-subscribers')).toHaveText('7.100');
