@@ -144,6 +144,16 @@ Two things worth knowing before touching that path:
   `src/lib/slugs.golden.txt` lists every address the site has published and `src/lib/slug.test.ts`
   asserts each still resolves — a subset guard, so new episodes may add addresses but dropping one
   takes a deliberate edit to the golden file. Do not re-derive from `title` where a slug is stored.
+- **The sync never deletes an episode record, and refuses to write a shrunken one.** A video
+  that goes private, is deleted, or is simply dropped from the playlist stops coming back from
+  the sync; rebuilding `episodes.json` from the sync alone used to erase its whole record —
+  slug, audio metadata and all — which silently drops it from the podcast feed and frees its
+  URL to move if it ever returns. `scripts/lib/episode-merge.ts` retains such records and marks
+  them `absentFromPlaylistSince` (optional, like `source` on transcripts — nothing reads it, and
+  the site and feed still carry the episode). `scripts/lib/sync-guards.ts` holds the refusals:
+  an existing-but-empty `episodes.json` is not a valid baseline, and a sync returning zero or
+  implausibly fewer entries than the baseline exits non-zero without writing. Removing an
+  episode for real is a deliberate human edit, not something the sync does.
 
 ## Learnings & Best Practices
 

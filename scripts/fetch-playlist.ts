@@ -16,6 +16,7 @@ import {
   type VideoDetail,
 } from './lib/playlist-episodes';
 import { mergeEpisodes, type StoredEpisode } from './lib/episode-merge';
+import { readBaseline, checkSyncFloor } from './lib/sync-guards';
 
 const PLAYLIST_ID = 'PLTY2nW4jwtG8Sx2Bw6QShC271PzX31CtT';
 const API_KEY = process.env.YOUTUBE_API_KEY;
@@ -112,8 +113,16 @@ async function fetchPlaylistItems(pageToken?: string): Promise<{ items: Playlist
   return response.json();
 }
 
-async function fetchAllPlaylistEntries(): Promise<PlaylistEntry[]> {
+/**
+ * Page the whole playlist.
+ *
+ * Videos YouTube will not serve (`Private video` / `Deleted video`) are left
+ * out of the entries, but reported rather than swallowed: their episode records
+ * are retained by the merge, and the run should say which ones went quiet.
+ */
+async function fetchAllPlaylistEntries(): Promise<{ entries: PlaylistEntry[]; unavailable: string[] }> {
   const entries: PlaylistEntry[] = [];
+  const unavailable: string[] = [];
   let pageToken: string | undefined;
 
   do {
@@ -122,8 +131,8 @@ async function fetchAllPlaylistEntries(): Promise<PlaylistEntry[]> {
     for (const item of data.items) {
       const { snippet } = item;
 
-      // Skip private/deleted videos
       if (isUnavailableVideo(snippet.title)) {
+        unavailable.push(snippet.resourceId.videoId);
         continue;
       }
 
@@ -140,7 +149,7 @@ async function fetchAllPlaylistEntries(): Promise<PlaylistEntry[]> {
     pageToken = data.nextPageToken;
   } while (pageToken);
 
-  return entries;
+  return { entries, unavailable };
 }
 
 async function main() {
@@ -154,7 +163,11 @@ async function main() {
   console.log('Fetching playlist items from YouTube...');
 
   try {
-    const entries = await fetchAllPlaylistEntries();
+    const { entries, unavailable } = await fetchAllPlaylistEntries();
+
+    for (const videoId of unavailable) {
+      console.warn(`⚠ ${videoId} is private or deleted on YouTube. Its record is retained; the episode page will have a dead embed.`);
+    }
 
     // Fetch video details (duration + the real air date)
     console.log('Fetching video details for duration and publish date...');
@@ -174,43 +187,56 @@ async function main() {
     const outputPath = new URL('../src/data/episodes.json', import.meta.url);
     const fs = await import('fs');
 
-    // Check for new episodes and preserve existing metadata (like audioUrl).
-    // Only a genuinely absent file may start from an empty baseline: merging
-    // against [] treats every episode as new and recomputes its slug from the
-    // current YouTube title, which is what stored slugs exist to prevent.
-    let existingEpisodes: Episode[] = [];
+    // The baseline decides every slug. Only a genuinely absent file may start
+    // from empty; every other bad state is a refusal. See scripts/lib/sync-guards.ts.
     let rawExisting: string | undefined;
     try {
       rawExisting = fs.readFileSync(outputPath, 'utf-8');
     } catch (error) {
       if ((error as { code?: string }).code !== 'ENOENT') {
-        console.error(`Could not read src/data/episodes.json: ${(error as Error).message}`);
-        console.error('Refusing to continue: an unreadable file is not an empty one, and merging against an empty baseline would re-derive every slug from its current title.');
+        console.error(`✗ Refusing to write: could not read src/data/episodes.json — ${(error as Error).message}`);
+        console.error('  An unreadable file is not an empty one, and merging against an empty baseline would re-derive every slug from its current title.');
         process.exit(1);
       }
       console.log('No existing src/data/episodes.json; starting from an empty baseline.');
     }
 
-    if (rawExisting !== undefined) {
-      try {
-        existingEpisodes = JSON.parse(rawExisting) as Episode[];
-      } catch (error) {
-        console.error(`src/data/episodes.json is present but unparseable: ${(error as Error).message}`);
-        console.error('Refusing to continue: merging against an empty baseline would re-derive every slug from its current title and move indexed URLs. Restore the file from git and re-run.');
-        process.exit(1);
-      }
+    const baseline = readBaseline(rawExisting);
 
-      if (!Array.isArray(existingEpisodes)) {
-        console.error('src/data/episodes.json parsed but is not an array. Refusing to continue; restore the file from git and re-run.');
-        process.exit(1);
-      }
+    if (!baseline.ok) {
+      console.error(`✗ Refusing to write: ${baseline.reason}`);
+      console.error('  Restore src/data/episodes.json from git and re-run.');
+      process.exit(1);
     }
 
+    const existingEpisodes = baseline.episodes as Episode[];
     const existingVideoIds = new Set(existingEpisodes.map(e => e.videoId));
 
+    // A short sync looks exactly like a healthy sync of a smaller playlist, so
+    // refuse rather than write it — a shrunken write becomes the next baseline.
+    const floor = checkSyncFloor(episodesWithDuration.length, existingEpisodes.length);
+
+    if (!floor.ok) {
+      console.error(`✗ Refusing to write src/data/episodes.json: ${floor.reason}`);
+      console.error('  Nothing was written and the existing file is untouched. Re-run the sync; if it keeps refusing, check the YouTube playlist and the API quota before overriding anything by hand.');
+      process.exit(1);
+    }
+
     // Merge: new data from YouTube, but the local-only fields — audio metadata
-    // and the permanent `slug` — carried across. See scripts/lib/episode-merge.ts.
-    const mergedEpisodes = mergeEpisodes(episodesWithDuration, existingEpisodes);
+    // and the permanent `slug` — carried across, and any episode the sync no
+    // longer returns kept rather than dropped. See scripts/lib/episode-merge.ts.
+    const { episodes: mergedEpisodes, retained, reappeared } = mergeEpisodes(
+      episodesWithDuration,
+      existingEpisodes,
+    );
+
+    for (const ep of retained) {
+      console.warn(`⚠ ${ep.videoId} ("${ep.title}") is no longer in the playlist. Retaining its record — slug, audio metadata and all — and marking it absentFromPlaylistSince ${ep.since}.`);
+    }
+
+    for (const videoId of reappeared) {
+      console.log(`↩ ${videoId} is back in the playlist; clearing its absentFromPlaylistSince and keeping its original slug.`);
+    }
 
     const newEpisodes = mergedEpisodes.filter(e => !existingVideoIds.has(e.videoId));
 
@@ -219,7 +245,11 @@ async function main() {
       JSON.stringify(mergedEpisodes, null, 2)
     );
 
-    console.log(`✓ Saved ${mergedEpisodes.length} episodes to src/data/episodes.json`);
+    const stillAbsent = mergedEpisodes.filter(e => e.absentFromPlaylistSince).length;
+    console.log(
+      `✓ Saved ${mergedEpisodes.length} episodes to src/data/episodes.json` +
+      (stillAbsent > 0 ? ` (${stillAbsent} retained but absent from the playlist)` : '')
+    );
 
     // Auto-run tag extraction if there are new episodes
     if (newEpisodes.length > 0) {
