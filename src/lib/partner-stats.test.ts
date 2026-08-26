@@ -2,7 +2,10 @@ import { describe, it, expect } from 'vitest';
 import { readFileSync } from 'node:fs';
 import { join } from 'node:path';
 import episodes from '../data/episodes.json';
+import subscribers from '../data/channel-subscribers.json';
+import { mediaKit } from './media-kit';
 import {
+  buildPartnerStats,
   getPartnerStats,
   PARTNER_CARD_STAT_IDS,
   getPartnerCardStats,
@@ -12,6 +15,13 @@ const expectedCount = episodes.length;
 const expectedFirstYear = Math.min(
   ...episodes.map(ep => new Date(ep.publishedAt).getUTCFullYear())
 );
+
+/** The real inputs, so a case can vary exactly one of them. */
+const inputs = () => ({
+  episodes: episodes as Array<{ publishedAt: string }>,
+  subscribers,
+  mediaKit,
+});
 
 describe('getPartnerStats', () => {
   it('derives the episode count and start year from the episode data', () => {
@@ -25,7 +35,7 @@ describe('getPartnerStats', () => {
     const byId = Object.fromEntries(getPartnerStats().tiles.map(t => [t.id, t]));
 
     expect(byId.episodes.value).toBe(expectedCount.toLocaleString('id-ID'));
-    expect(byId.subscribers.value).toBe('7.100');
+    expect(byId.subscribers.value).toBe(subscribers.count.toLocaleString('id-ID'));
     expect(byId.age.value).toBe('88,7%');
     expect(byId.returning.value).toBe('37,8%');
   });
@@ -73,6 +83,88 @@ describe('getPartnerStats', () => {
   });
 });
 
+/**
+ * The media-kit date is stored once, as `capturedAt` in
+ * `src/data/media-kit.json`, and the Indonesian month the page prints is
+ * formatted from it. A hand-written "Agustus 2026" beside the ISO date would be
+ * a second copy of the same fact — the failure this page is paying down.
+ */
+describe('dated provenance', () => {
+  it('formats the media-kit month from the stored capture date', () => {
+    const stats = buildPartnerStats({
+      ...inputs(),
+      mediaKit: { ...mediaKit, capturedAt: '2027-03-14' },
+    });
+
+    expect(stats.attribution).toContain('Data kanal YouTube, Maret 2027.');
+    // The subscriber clause carries its own, unrelated date, so the check is
+    // that the media-kit month moved — not that the string vanished.
+    expect(stats.attribution).not.toContain('Data kanal YouTube, Agustus 2026');
+  });
+
+  it('states the subscriber figure’s own date, which is not the media kit’s', () => {
+    const stats = buildPartnerStats({
+      ...inputs(),
+      subscribers: { count: 7200, fetchedAt: '2026-12-25' },
+    });
+
+    expect(stats.attribution).toContain('25 Desember 2026');
+  });
+
+  // A sponsor skimming the tiles should be able to tell the live figure from
+  // the hand-copied ones without reading a footnote twice.
+  it('says the subscriber figure is refreshed automatically', () => {
+    expect(getPartnerStats().attribution).toMatch(/otomatis/i);
+  });
+
+  it('keeps the channel scope caveat whatever the dates say', () => {
+    expect(getPartnerStats().attribution).toContain(
+      'bukan angka Ngobrolin WEB saja'
+    );
+  });
+});
+
+/**
+ * The sync fails soft: a channel call that 403s leaves the last known figure
+ * in place. But nothing having *ever* been stored is a real state too — a store
+ * emptied by hand, or one that exists before the first successful sync — and
+ * the page still has to render. `readStoredSubscribers` normalises any such
+ * shape to null so a sponsor never meets a `0` or a `NaN`.
+ */
+describe('when no subscriber count has been stored', () => {
+  const withoutSubscribers = () =>
+    buildPartnerStats({ ...inputs(), subscribers: null });
+
+  it('omits the tile rather than publishing a zero or a dash', () => {
+    const stats = withoutSubscribers();
+
+    expect(stats.tiles.map(t => t.id)).not.toContain('subscribers');
+    expect(stats.tiles.map(t => t.value)).not.toContain('0');
+  });
+
+  it('still renders every other tile', () => {
+    expect(withoutSubscribers().tiles.map(t => t.id)).toEqual([
+      'episodes',
+      'age',
+      'returning',
+    ]);
+  });
+
+  it('drops the subscriber sentence from the attribution, not the whole thing', () => {
+    const attribution = withoutSubscribers().attribution;
+
+    expect(attribution).toContain('Data kanal YouTube, Agustus 2026.');
+    expect(attribution).toContain('bukan angka Ngobrolin WEB saja');
+    expect(attribution).not.toMatch(/subscriber/i);
+  });
+
+  it('leaves the share card with the tiles that do exist', () => {
+    const card = withoutSubscribers().cardTiles;
+
+    expect(card.map(t => t.id)).toEqual(['episodes', 'age']);
+  });
+});
+
 describe('getPartnerCardStats', () => {
   it('is a subset of the page tiles, selected by id and never re-stated', () => {
     const card = getPartnerCardStats();
@@ -86,10 +178,20 @@ describe('getPartnerCardStats', () => {
 });
 
 describe('single source of truth', () => {
-  const SOURCE = 'src/lib/partner-stats.ts';
-  // Every wrong figure this page has shipped was a second copy that drifted.
-  // The module holds them raw and formats on the way out, so a consumer must
-  // contain neither the raw value nor the rendered one.
+  /**
+   * The raw figures live in `src/data/`; `partner-stats.ts` labels, scopes and
+   * formats them on the way out and states none of its own. So the guard is the
+   * same as it always was, one layer down and one file stricter: the numbers
+   * exist exactly once, in the store, and no module between the store and the
+   * reader restates either the raw value or the rendered one.
+   */
+  const STORES = ['src/data/media-kit.json', 'src/data/channel-subscribers.json'];
+  const CONSUMERS = [
+    'src/lib/partner-stats.ts',
+    'src/lib/media-kit.ts',
+    'src/pages/partners.astro',
+    'src/pages/partners-og.png.ts',
+  ];
   const RAW = ['7100', '88.7', '37.8', '87.7', '545'];
   const RENDERED = ['7.100', '88,7', '37,8', '87,7'];
 
@@ -105,21 +207,21 @@ describe('single source of truth', () => {
     );
   }
 
-  it.each(RAW)('%s appears in the stats module', figure => {
-    const source = readFileSync(join(process.cwd(), SOURCE), 'utf-8');
-    expect(source).toContain(figure);
+  it.each(RAW)('%s appears in the data store', figure => {
+    const stores = STORES.map(file =>
+      readFileSync(join(process.cwd(), file), 'utf-8')
+    ).join('\n');
+
+    expect(stores).toContain(figure);
   });
 
-  it.each(['src/pages/partners.astro', 'src/pages/partners-og.png.ts'])(
-    '%s states no figure of its own',
-    file => {
-      const source = readCopy(file);
-      for (const figure of [...RAW, ...RENDERED]) {
-        expect(source, `${file} restates ${figure}`).not.toContain(figure);
-      }
-      // The episode count and start year are derived; a literal is the "164+" bug.
-      expect(source).not.toContain(String(expectedCount));
-      expect(source).not.toContain(String(expectedFirstYear));
+  it.each(CONSUMERS)('%s states no figure of its own', file => {
+    const source = readCopy(file);
+    for (const figure of [...RAW, ...RENDERED]) {
+      expect(source, `${file} restates ${figure}`).not.toContain(figure);
     }
-  );
+    // The episode count and start year are derived; a literal is the "164+" bug.
+    expect(source).not.toContain(String(expectedCount));
+    expect(source).not.toContain(String(expectedFirstYear));
+  });
 });

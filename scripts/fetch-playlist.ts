@@ -1,6 +1,7 @@
 /**
- * Fetch YouTube playlist data and save to episodes.json
- * 
+ * Fetch YouTube playlist data and save to episodes.json, and refresh the one
+ * `/partners` figure a read-only API key can derive (see `syncSubscriberCount`).
+ *
  * Usage: 
  *   YOUTUBE_API_KEY=your_api_key pnpm exec tsx scripts/fetch-playlist.ts
  * 
@@ -21,6 +22,11 @@ import {
   type VideoDetail,
 } from './lib/playlist-episodes';
 import { mergeEpisodes, type StoredEpisode } from './lib/episode-merge';
+import {
+  parseSubscriberCount,
+  applySubscriberCount,
+  type StoredSubscribers,
+} from './lib/channel-subscribers';
 import {
   readBaseline,
   checkBootstrapBaseline,
@@ -103,6 +109,97 @@ async function fetchVideoDetails(videoIds: string[]): Promise<Record<string, Vid
   }
 
   return result;
+}
+
+/**
+ * The channel that owns the playlist, so no channel ID is hard-coded and none
+ * has to be configured. It is public data either way, not a credential.
+ */
+async function fetchChannelId(): Promise<string | null> {
+  const params = new URLSearchParams({
+    part: 'snippet',
+    id: PLAYLIST_ID,
+    key: API_KEY!,
+  });
+
+  const response = await fetch(`https://www.googleapis.com/youtube/v3/playlists?${params}`);
+
+  if (!response.ok) {
+    throw new Error(`YouTube Playlists API error: ${response.status} ${await response.text()}`);
+  }
+
+  const data = await response.json() as { items?: Array<{ snippet?: { channelId?: string } }> };
+
+  return data.items?.[0]?.snippet?.channelId ?? null;
+}
+
+/**
+ * Refresh the one `/partners` figure a read-only API key can derive.
+ *
+ * Public channel data — `channels.list` with the `statistics` part — so it
+ * needs no auth beyond the key this script already has. Every other figure on
+ * that page is YouTube Analytics data, owner-scoped OAuth only, and stays
+ * hand-maintained in `src/data/media-kit.json`; a monthly check nags when those
+ * go stale.
+ *
+ * Nothing in here may fail the run. The sync's job is episodes, and a channel
+ * call that 403s on quota must leave the last known figure standing rather than
+ * blanking a number on the page a sponsor is sent to. Every failure path
+ * therefore logs and returns. See `scripts/lib/channel-subscribers.ts`.
+ */
+async function syncSubscriberCount(): Promise<void> {
+  const outputPath = new URL('../src/data/channel-subscribers.json', import.meta.url);
+  const fs = await import('fs');
+
+  let stored: StoredSubscribers | null = null;
+  try {
+    stored = JSON.parse(fs.readFileSync(outputPath, 'utf-8')) as StoredSubscribers;
+  } catch (error) {
+    if ((error as { code?: string }).code !== 'ENOENT') {
+      console.warn(`⚠ Could not read src/data/channel-subscribers.json (${(error as Error).message}); treating it as unset.`);
+    }
+  }
+
+  let count: number | null = null;
+  try {
+    const channelId = await fetchChannelId();
+
+    if (!channelId) {
+      console.warn(`⚠ Playlist ${PLAYLIST_ID} returned no channel; skipping the subscriber count.`);
+    } else {
+      const params = new URLSearchParams({
+        part: 'statistics',
+        id: channelId,
+        key: API_KEY!,
+      });
+
+      const response = await fetch(`https://www.googleapis.com/youtube/v3/channels?${params}`);
+
+      if (!response.ok) {
+        throw new Error(`YouTube Channels API error: ${response.status} ${await response.text()}`);
+      }
+
+      count = parseSubscriberCount(await response.json());
+
+      if (count === null) {
+        console.warn('⚠ channels.list returned no usable subscriberCount (hidden, or an unexpected shape).');
+      }
+    }
+  } catch (error) {
+    console.warn(`⚠ Subscriber count fetch failed: ${(error as Error).message}`);
+  }
+
+  const { next, updated, reason } = applySubscriberCount(stored, count, new Date());
+
+  console.log(updated ? `✓ ${reason}` : `· ${reason}`);
+
+  if (!updated || next === null) return;
+
+  try {
+    fs.writeFileSync(outputPath, `${JSON.stringify(next, null, 2)}\n`);
+  } catch (error) {
+    console.warn(`⚠ Could not write src/data/channel-subscribers.json (${(error as Error).message}); the stored figure is unchanged.`);
+  }
 }
 
 async function fetchPlaylistItems(pageToken?: string): Promise<{ items: PlaylistItem[]; nextPageToken?: string }> {
@@ -300,6 +397,12 @@ async function main() {
       `✓ Saved ${mergedEpisodes.length} episodes to src/data/episodes.json` +
       (stillAbsent > 0 ? ` (${stillAbsent} retained but absent from the playlist)` : '')
     );
+
+    // Folded in here rather than built as its own scheduled job: this run is
+    // already authenticated with the key it needs and already opens a PR for
+    // review, so the figure lands as a reviewable diff instead of changing
+    // under the maintainer silently. It cannot fail the episode work above.
+    await syncSubscriberCount();
 
     // Auto-run tag extraction if there are new episodes
     if (newEpisodes.length > 0) {
