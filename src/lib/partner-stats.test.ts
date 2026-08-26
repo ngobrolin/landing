@@ -257,6 +257,43 @@ describe('single source of truth', () => {
     );
   }
 
+  /**
+   * A figure a reader sees is delimited on at least one side; one buried inside
+   * a hyphenated token is a class name. `partners.astro` is full of
+   * `text-gray-500` and `md:grid-cols-4`, and the figures are stored data, so a
+   * bare `includes()` would fail this guard the day `watchHours28d` landed on a
+   * round hundred — red for behaving exactly as designed. Same trap AGENTS.md
+   * records for tag extraction, where `ai` matched inside *mulai* and tagged
+   * every summarised episode.
+   */
+  const ADJACENT = /[-\w.,]/;
+
+  function restates(source: string, figure: string): boolean {
+    for (let from = 0; ; from += 1) {
+      const at = source.indexOf(figure, from);
+      if (at === -1) return false;
+
+      const before = source[at - 1];
+      const after = source[at + figure.length];
+      if (!ADJACENT.test(before ?? ' ') && !ADJACENT.test(after ?? ' ')) {
+        return true;
+      }
+      from = at;
+    }
+  }
+
+  it('reads a figure a reader would see, not one inside a class name', () => {
+    expect(restates('<p class="text-gray-500 mt-4">', '500')).toBe(false);
+    expect(restates('<div class="md:grid-cols-4">', '4')).toBe(false);
+    expect(restates('<span>500 jam ditonton</span>', '500')).toBe(true);
+
+    expect(restates('<p class="gap-7.100">', '7.100')).toBe(false);
+    expect(restates('<p>7.100 subscriber kanal</p>', '7.100')).toBe(true);
+
+    expect(restates('88,75% dari Indonesia', '88,7')).toBe(false);
+    expect(restates('88,7% dari Indonesia', '88,7')).toBe(true);
+  });
+
   // The other half of the guard: each figure it forbids elsewhere is written,
   // literally, in a store. A value stored in a shape that does not round-trip
   // (88.70, or a number as a string) would leave the search looking for text
@@ -271,11 +308,16 @@ describe('single source of truth', () => {
 
   it.each(CONSUMERS)('%s states no figure of its own', file => {
     const source = readCopy(file);
-    for (const figure of [...RAW, ...RENDERED]) {
-      expect(source, `${file} restates ${figure}`).not.toContain(figure);
-    }
     // The episode count and start year are derived; a literal is the "164+" bug.
-    expect(source).not.toContain(String(expectedCount));
-    expect(source).not.toContain(String(expectedFirstYear));
+    const figures = [
+      ...RAW,
+      ...RENDERED,
+      String(expectedCount),
+      String(expectedFirstYear),
+    ];
+
+    for (const figure of figures) {
+      expect(restates(source, figure), `${file} restates ${figure}`).toBe(false);
+    }
   });
 });
