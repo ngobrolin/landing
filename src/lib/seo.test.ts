@@ -4,8 +4,10 @@ import {
   generateHomepageSchema,
   generateAboutPageSchema,
   generateCollectionPageSchema,
-  generateVideoSchema
+  generateVideoSchema,
+  buildEpisodePageTitle
 } from './seo';
+import { getEpisodes } from './episodes';
 import type { Episode } from './episodes';
 
 describe('SEO Schema Generators', () => {
@@ -294,5 +296,94 @@ describe('SEO Schema Generators', () => {
       expect(schema['@type']).toBe('VideoObject');
       expect(schema.name).toBe('Test Episode');
     });
+  });
+});
+describe('buildEpisodePageTitle', () => {
+  // 163 of 178 episode titles already end in a "Ngobrolin WEB" variant, and the
+  // page template used to append the site name unconditionally. That shipped
+  // <title>X - Ngobrolin WEB - Ngobrolin WEB</title> on 119 episode pages, and
+  // the same doubled string in og:title and twitter:title.
+  it('does not repeat the site name when the title already carries it', () => {
+    expect(buildEpisodePageTitle('State of CSS - Ngobrolin WEB')).toBe(
+      'State of CSS - Ngobrolin WEB'
+    );
+  });
+
+  it('appends the site name when the title lacks it', () => {
+    expect(buildEpisodePageTitle('Ngobrolin React Server Component')).toBe(
+      'Ngobrolin React Server Component - Ngobrolin WEB'
+    );
+  });
+
+  // The playlist carries 46 distinct suffix shapes. AGENTS.md warns that titles
+  // follow no single convention, so the rule keys on the site name appearing at
+  // all rather than on an exact suffix.
+  it('handles the numbered-episode suffixes', () => {
+    expect(buildEpisodePageTitle('Web Components - Ngobrolin WEB ep51')).toBe(
+      'Web Components - Ngobrolin WEB ep51'
+    );
+    expect(buildEpisodePageTitle('Deno - Ngobrolin WEB Ep7')).toBe(
+      'Deno - Ngobrolin WEB Ep7'
+    );
+  });
+
+  it('handles the guest-handle suffix', () => {
+    expect(
+      buildEpisodePageTitle('Liputan langsung Google I/O - Ngobrolin WEB & @sandhikagalihWPU')
+    ).toBe('Liputan langsung Google I/O - Ngobrolin WEB & @sandhikagalihWPU');
+  });
+
+  // A real title in the playlist misspells the show name. It still must not
+  // gain a second site name.
+  it('handles the Ngborlin typo that exists in the playlist', () => {
+    expect(buildEpisodePageTitle('Bun - Ngborlin WEB')).toBe('Bun - Ngborlin WEB');
+  });
+
+  it('is case-insensitive about the existing site name', () => {
+    expect(buildEpisodePageTitle('Sesuatu - NGOBROLIN WEB')).toBe(
+      'Sesuatu - NGOBROLIN WEB'
+    );
+  });
+
+  it('trims incidental whitespace', () => {
+    expect(buildEpisodePageTitle('  Tailwind  ')).toBe('Tailwind - Ngobrolin WEB');
+  });
+
+  // Four real titles use "Ngobrolin Web..." as a topic phrase AND carry the
+  // suffix -- "Ngobrolin WebSocket - Ngobrolin WEB", "Ngobrolin Web API Baru -
+  // Ngobrolin WEB", and two more. Those are correct as authored, so the
+  // invariant is "never append a redundant suffix", not "the show name appears
+  // exactly once".
+  it('leaves a title that uses the show name as a topic phrase alone', () => {
+    expect(buildEpisodePageTitle('Ngobrolin WebSocket - Ngobrolin WEB')).toBe(
+      'Ngobrolin WebSocket - Ngobrolin WEB'
+    );
+  });
+
+  it('never produces an adjacent doubled suffix for any real episode title', () => {
+    const doubled = /ng(?:ob|bo)r(?:o)?lin\s+web\s*[-\u2013]\s*ng(?:ob|bo)r(?:o)?lin\s+web/i;
+    for (const ep of getEpisodes()) {
+      expect(
+        doubled.test(buildEpisodePageTitle(ep.title)),
+        `doubled site name for: ${ep.title}`
+      ).toBe(false);
+    }
+  });
+
+  it('is idempotent for every real episode title', () => {
+    for (const ep of getEpisodes()) {
+      const once = buildEpisodePageTitle(ep.title);
+      expect(buildEpisodePageTitle(once), `not idempotent: ${ep.title}`).toBe(once);
+    }
+  });
+
+  it('appends the suffix only to titles that lack the show name', () => {
+    const withoutShowName = getEpisodes().filter(
+      (ep) => !/ng(?:ob|bo)r(?:o)?lin\s+web/i.test(ep.title)
+    );
+    expect(withoutShowName.length).toBeGreaterThan(0);
+    for (const ep of withoutShowName) {
+      expect(buildEpisodePageTitle(ep.title)).toBe(`${ep.title.trim()} - Ngobrolin WEB`);
+    }
   });
 });

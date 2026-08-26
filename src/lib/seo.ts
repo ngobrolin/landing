@@ -35,6 +35,31 @@ export function getTranscript(videoId: string): Transcript | null {
   return null;
 }
 
+export const SITE_NAME = 'Ngobrolin WEB';
+
+/**
+ * The playlist misspells the show name on one episode ("Ngborlin WEB"), and
+ * AGENTS.md is explicit that episode titles follow no single convention, so
+ * match the show name loosely rather than stripping an exact suffix.
+ */
+const SHOW_NAME_IN_TITLE = /ng(?:ob|bo)r(?:o)?lin\s+web/i;
+
+/**
+ * Compose the <title> for an episode page without repeating the show name.
+ *
+ * 163 of 178 episode titles already end in some "Ngobrolin WEB" variant. The
+ * template appended the site name unconditionally, so 119 episode pages
+ * shipped `<title>X - Ngobrolin WEB - Ngobrolin WEB</title>`, and the same
+ * doubled string in og:title and twitter:title.
+ *
+ * This only affects the composed page title. Visible heading and card text is
+ * left exactly as authored.
+ */
+export function buildEpisodePageTitle(episodeTitle: string): string {
+  const title = episodeTitle.trim();
+  return SHOW_NAME_IN_TITLE.test(title) ? title : `${title} - ${SITE_NAME}`;
+}
+
 export function getMetaDescription(episode: Episode, summary: Summary | null): string {
   if (summary?.brief) {
     // Use first paragraph of summary, truncated to ~160 chars

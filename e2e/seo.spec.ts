@@ -67,3 +67,33 @@ test.describe('SEO - JSON-LD Schema', () => {
     expect(hasVideoObject).toBe(true);
   });
 });
+test.describe('SEO - page titles', () => {
+  // 119 of 178 episode pages used to ship
+  // <title>X - Ngobrolin WEB - Ngobrolin WEB</title>, and the same doubled
+  // string in og:title and twitter:title, because the template appended the
+  // site name to titles that already carried it.
+  const DOUBLED = /ng(?:ob|bo)r(?:o)?lin\s+web\s*[-–]\s*ng(?:ob|bo)r(?:o)?lin\s+web/i;
+
+  test('an episode page does not repeat the site name', async ({ page }) => {
+    await page.goto('/episodes');
+    const href = await page
+      .locator('#episodes-grid > a')
+      .first()
+      .getAttribute('href');
+    await page.goto(href!);
+
+    const title = await page.title();
+    expect(title, `doubled site name in <title>: ${title}`).not.toMatch(DOUBLED);
+    expect(title).toMatch(/ngobrolin web/i);
+
+    for (const selector of [
+      'meta[property="og:title"]',
+      'meta[name="twitter:title"]',
+    ]) {
+      const content = await page.locator(selector).getAttribute('content');
+      expect(content, `doubled site name in ${selector}: ${content}`).not.toMatch(
+        DOUBLED
+      );
+    }
+  });
+});

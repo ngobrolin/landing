@@ -12,6 +12,7 @@ import {
     generateVideoSchema,
     generateBreadcrumbSchema,
     generatePodcastEpisodeSchema,
+    buildEpisodePageTitle,
 } from "../../lib/seo";
 import { getRelatedEpisodes } from "../../lib/related";
 import EpisodeCard from "../../components/EpisodeCard.astro";
@@ -73,7 +74,7 @@ const episodeUrl = `${siteUrl}/episodes/${episode.slug}`;
 ---
 
 <Layout
-    title={`${episode.title} - Ngobrolin WEB`}
+    title={buildEpisodePageTitle(episode.title)}
     description={metaDescription}
     image={episode.thumbnail}
     preloadImage={optimizedThumbnail.src}
