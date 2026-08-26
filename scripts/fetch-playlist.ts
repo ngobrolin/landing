@@ -6,6 +6,11 @@
  * 
  * Or set the API key in .env file:
  *   YOUTUBE_API_KEY=your_api_key
+ *
+ * Two per-run overrides exist for the refusals in scripts/lib/sync-guards.ts,
+ * and each refusal prints its own, verbatim:
+ *   ALLOW_SYNC_SHRINK=1     let one run through the sync floor
+ *   ALLOW_EMPTY_BASELINE=1  let one run start with no src/data/episodes.json
  */
 
 import {
@@ -16,7 +21,15 @@ import {
   type VideoDetail,
 } from './lib/playlist-episodes';
 import { mergeEpisodes, type StoredEpisode } from './lib/episode-merge';
-import { readBaseline, checkSyncFloor, liveBaselineCount } from './lib/sync-guards';
+import {
+  readBaseline,
+  checkBootstrapBaseline,
+  checkSyncFloor,
+  liveBaselineCount,
+  overrideEnabled,
+  SHRINK_OVERRIDE_ENV,
+  EMPTY_BASELINE_OVERRIDE_ENV,
+} from './lib/sync-guards';
 
 const PLAYLIST_ID = 'PLTY2nW4jwtG8Sx2Bw6QShC271PzX31CtT';
 const API_KEY = process.env.YOUTUBE_API_KEY;
@@ -165,10 +178,6 @@ async function main() {
   try {
     const { entries, unavailable } = await fetchAllPlaylistEntries();
 
-    for (const videoId of unavailable) {
-      console.warn(`⚠ ${videoId} is private or deleted on YouTube. Its record is retained; the episode page will have a dead embed.`);
-    }
-
     // Fetch video details (duration + the real air date)
     console.log('Fetching video details for duration and publish date...');
     const videoIds = [...new Set(entries.map(e => e.videoId))];
@@ -188,7 +197,8 @@ async function main() {
     const fs = await import('fs');
 
     // The baseline decides every slug. Only a genuinely absent file may start
-    // from empty; every other bad state is a refusal. See scripts/lib/sync-guards.ts.
+    // from empty, and only with an explicit opt-in; every other bad state is a
+    // refusal. See scripts/lib/sync-guards.ts.
     let rawExisting: string | undefined;
     try {
       rawExisting = fs.readFileSync(outputPath, 'utf-8');
@@ -198,7 +208,6 @@ async function main() {
         console.error('  An unreadable file is not an empty one, and merging against an empty baseline would re-derive every slug from its current title.');
         process.exit(1);
       }
-      console.log('No existing src/data/episodes.json; starting from an empty baseline.');
     }
 
     const baseline = readBaseline(rawExisting);
@@ -209,18 +218,49 @@ async function main() {
       process.exit(1);
     }
 
+    // An absent file may be a genuine first sync, but far more often it is a
+    // deleted one — so it takes an explicit opt-in rather than passing quietly.
+    const bootstrap = checkBootstrapBaseline(
+      baseline.bootstrap,
+      overrideEnabled(process.env[EMPTY_BASELINE_OVERRIDE_ENV]),
+    );
+
+    if (!bootstrap.ok) {
+      console.error(`✗ Refusing to write: ${bootstrap.reason}`);
+      process.exit(1);
+    }
+
+    if (bootstrap.overridden) {
+      console.log(`\n!!! ${EMPTY_BASELINE_OVERRIDE_ENV} is set: starting from an empty baseline with no src/data/episodes.json.`);
+      console.log('!!! Every episode is treated as new and its slug derived from the current YouTube title.\n');
+    }
+
     const existingEpisodes = baseline.episodes as Episode[];
     const existingVideoIds = new Set(existingEpisodes.map(e => e.videoId));
+
+    // Reported once per video, not once per playlist occurrence, and only
+    // claiming retention for a video that actually has a record to retain.
+    for (const videoId of new Set(unavailable)) {
+      if (existingVideoIds.has(videoId)) {
+        console.warn(`⚠ ${videoId} is private or deleted on YouTube. Its record is retained; the episode page will have a dead embed.`);
+      } else {
+        console.warn(`⚠ ${videoId} is private or deleted on YouTube and has no record in src/data/episodes.json, so it does not become an episode.`);
+      }
+    }
 
     // A short sync looks exactly like a healthy sync of a smaller playlist, so
     // refuse rather than write it — a shrunken write becomes the next baseline.
     // Measured against live records only: already-retained ones never come back
     // from the sync, so counting them would make the gap grow every run.
-    const floor = checkSyncFloor(episodesWithDuration.length, liveBaselineCount(existingEpisodes));
+    const shrinkOverride = overrideEnabled(process.env[SHRINK_OVERRIDE_ENV]);
+    const floor = checkSyncFloor(
+      episodesWithDuration.length,
+      liveBaselineCount(existingEpisodes),
+      { override: shrinkOverride },
+    );
 
     if (!floor.ok) {
       console.error(`✗ Refusing to write src/data/episodes.json: ${floor.reason}`);
-      console.error('  Nothing was written and the existing file is untouched. Re-run the sync; if it keeps refusing, check the YouTube playlist and the API quota before overriding anything by hand.');
       process.exit(1);
     }
 
@@ -231,6 +271,15 @@ async function main() {
       episodesWithDuration,
       existingEpisodes,
     );
+
+    if (floor.overridden) {
+      console.log(`\n!!! ${SHRINK_OVERRIDE_ENV} is set: the sync floor refusal was overridden for this run.`);
+      console.log(`!!! ${retained.length} episode(s) are being stamped absentFromPlaylistSince — every record is kept, none is deleted:`);
+      for (const ep of retained) {
+        console.log(`!!!   ${ep.videoId} — "${ep.title}"`);
+      }
+      console.log(`!!! Nothing persists the override; the next run is guarded again with no further action.\n`);
+    }
 
     for (const ep of retained) {
       console.warn(`⚠ ${ep.videoId} ("${ep.title}") is no longer in the playlist. Retaining its record — slug, audio metadata and all — and marking it absentFromPlaylistSince ${ep.since}.`);
