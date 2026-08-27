@@ -73,12 +73,18 @@ Create the summary file at `src/data/summaries/{videoId}.json`:
 - Keep the brief concise but informative
 - Key points should be actionable/memorable takeaways
 - Create `src/data/summaries/` directory if it doesn't exist
-- Name what the transcript names — technologies, products, people, events — rather
-  than writing around them. These summaries are the site's search corpus, so
-  "membahas berbagai tool AI" does no discovery work while "Modern Web Guidance,
-  TensorFlow.js, Baseline" does. Never introduce anything the transcript does not
-  say; see the whisper-repetition warning in AGENTS.md before grounding a summary.
-  Some older summaries deliberately stay vague — that style is not the target.
+- Name what the episode names — technologies, products, people, events —
+  rather than writing around them. These summaries are the site's search
+  corpus, so "membahas berbagai tool AI" does no discovery work while "Modern
+  Web Guidance, TensorFlow.js, Baseline" does. Ground every name in that
+  episode's own transcript, allowing for ASR garbling (the transcript's "yakin
+  C-dots" is Kent C. Dodds), or in its episode title, which is usually where a
+  guest's name survives intact. Never invent a name the episode does not
+  support, and see the whisper-repetition warning in AGENTS.md before grounding
+  a summary. Density is a symptom, not a target: leave a summary light when the
+  episode really is about a concept, and do not weaken prose that is already
+  specific. Some older summaries deliberately stay vague — that style is not
+  the target.
 - `src/data/summaries.test.ts` enforces this contract: `videoId` must equal the
   filename, `generatedAt`/`brief`/every key point must be non-empty, key points
   must number 5-7, and no unfilled template placeholder (`{...}`, `TODO`, `TBD`)

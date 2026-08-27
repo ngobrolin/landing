@@ -76,14 +76,16 @@
   "2Kcb9uIQW8M": [
     "api",
     "community",
-    "dev-tools"
+    "dev-tools",
+    "testing"
   ],
   "2Y7gmbdrnqc": [
     "ai",
     "astro"
   ],
   "2dqsz5Y4Mlk": [
-    "javascript"
+    "javascript",
+    "testing"
   ],
   "2nJE0rvIUps": [
     "accessibility",
@@ -221,9 +223,12 @@
     "seo"
   ],
   "9ECU9Wz0wzU": [
+    "api",
     "css",
+    "design",
     "javascript",
-    "learning"
+    "learning",
+    "pwa"
   ],
   "9PpM7f7TEbw": [
     "database",
@@ -248,7 +253,6 @@
   ],
   "B0Ar5k_h2uk": [
     "css",
-    "dev-tools",
     "javascript",
     "react",
     "svelte",
@@ -276,7 +280,9 @@
     "seo",
     "typescript"
   ],
-  "EMynH33TrBI": [],
+  "EMynH33TrBI": [
+    "security"
+  ],
   "Edez-dpX0Hw": [
     "build-tools",
     "bun",
@@ -296,7 +302,10 @@
     "learning"
   ],
   "GIlzAKp7rI8": [
-    "css"
+    "css",
+    "design",
+    "javascript",
+    "react"
   ],
   "Ggx5EOiZIwA": [
     "database",
@@ -310,8 +319,12 @@
     "api"
   ],
   "IG1x81EIb54": [
+    "bun",
     "community",
+    "deno",
+    "deployment",
     "javascript",
+    "node",
     "security"
   ],
   "IPWEi0I3bf0": [
@@ -324,6 +337,9 @@
   ],
   "J8qef9MI1rY": [
     "api",
+    "database",
+    "deno",
+    "deployment",
     "javascript"
   ],
   "JJqLKn25DJI": [
@@ -360,7 +376,10 @@
     "javascript"
   ],
   "KhIlxKS1vwc": [
-    "community"
+    "community",
+    "performance",
+    "security",
+    "ui"
   ],
   "KiBErl9F2a0": [
     "astro",
@@ -390,7 +409,8 @@
     "community"
   ],
   "LaoReWcsyao": [
-    "learning"
+    "learning",
+    "testing"
   ],
   "Lg3hspyi4eg": [
     "career",
@@ -403,13 +423,19 @@
     "learning"
   ],
   "M2zdLxrm4F4": [
-    "ai"
+    "ai",
+    "javascript",
+    "pwa",
+    "react"
   ],
   "M5lUhWTF9As": [
-    "ai"
+    "ai",
+    "ai-coding",
+    "testing"
   ],
   "MZ4dViTkIZ0": [
-    "api",
+    "deployment",
+    "performance",
     "security"
   ],
   "NDQXIdPWaUQ": [
@@ -445,8 +471,15 @@
     "ui"
   ],
   "ORga5NqFQ10": [
+    "angular",
+    "astro",
+    "css",
+    "javascript",
     "learning",
-    "ui"
+    "nextjs",
+    "react",
+    "ui",
+    "vue"
   ],
   "ObTg-XT9C64": [
     "javascript",
@@ -527,7 +560,10 @@
     "learning"
   ],
   "SYXywMW05GY": [
-    "animation"
+    "angular",
+    "animation",
+    "api",
+    "community"
   ],
   "SgILyFtQs5k": [
     "javascript",
@@ -617,7 +653,6 @@
     "api",
     "css",
     "design",
-    "dev-tools",
     "javascript",
     "security"
   ],
@@ -646,12 +681,24 @@
     "testing"
   ],
   "_5-m3tfD5tU": [
+    "angular",
     "community",
-    "react"
+    "dev-tools",
+    "javascript",
+    "nextjs",
+    "react",
+    "typescript",
+    "ui"
   ],
   "_5rmu9SJsJY": [
+    "api",
+    "database",
+    "javascript",
     "learning",
-    "ui"
+    "nextjs",
+    "react",
+    "testing",
+    "typescript"
   ],
   "_6HCMH8SREU": [
     "ai",
@@ -690,8 +737,9 @@
     "vue"
   ],
   "aSAW5q7xEaY": [
-    "javascript",
-    "responsive"
+    "api",
+    "dev-tools",
+    "javascript"
   ],
   "aY57UgFCC48": [
     "deployment",
@@ -732,7 +780,8 @@
   ],
   "bwpPxqgFyWQ": [
     "build-tools",
-    "javascript"
+    "javascript",
+    "node"
   ],
   "c5RSiDy2sRM": [
     "career",
@@ -866,7 +915,8 @@
   ],
   "hnJLh0JoQ84": [
     "animation",
-    "learning"
+    "learning",
+    "react"
   ],
   "hsf-T40wRz0": [
     "accessibility",
@@ -891,7 +941,8 @@
     "testing"
   ],
   "k-4ZMXMGISA": [
-    "api"
+    "api",
+    "svelte"
   ],
   "kpyPIYuChU0": [
     "angular",
@@ -924,17 +975,19 @@
     "react"
   ],
   "mJ6t8TJc6cQ": [
+    "node",
     "react",
     "security",
     "svelte",
     "vue"
   ],
   "mN01Hg41tB8": [
-    "animation",
     "api",
     "css",
+    "design",
     "javascript",
-    "testing"
+    "testing",
+    "web-components"
   ],
   "mUrwxwrehqE": [
     "ai",
@@ -976,9 +1029,9 @@
     "javascript"
   ],
   "oyQSFpOjcEo": [
-    "animation",
     "css",
-    "javascript"
+    "javascript",
+    "react"
   ],
   "p4Gk1NTKYoo": [
     "ai",
@@ -1026,11 +1079,21 @@
     "javascript"
   ],
   "r5JKkGJEbko": [
-    "javascript"
+    "community",
+    "deployment",
+    "javascript",
+    "learning",
+    "react",
+    "seo"
   ],
   "uKWkLVtKb7g": [
     "api",
-    "css"
+    "css",
+    "javascript",
+    "performance",
+    "react",
+    "typescript",
+    "ui"
   ],
   "uPiv9JbEOPA": [
     "deployment",
@@ -1127,7 +1190,11 @@
     "responsive"
   ],
   "y7orEQReOns": [
-    "javascript"
+    "api",
+    "css",
+    "dev-tools",
+    "javascript",
+    "performance"
   ],
   "yfgMjKu89u0": [
     "javascript",
@@ -1135,10 +1202,12 @@
   ],
   "yhlD16hyW90": [
     "javascript",
+    "node",
     "security"
   ],
   "ypxWNOnW10Y": [
-    "accessibility"
+    "accessibility",
+    "security"
   ],
   "zX0gDaovb1w": [
     "database",
@@ -1149,6 +1218,7 @@
   ],
   "zzhCUMQNjN8": [
     "css",
+    "dev-tools",
     "javascript"
   ]
 }
