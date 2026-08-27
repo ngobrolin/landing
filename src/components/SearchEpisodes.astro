@@ -40,9 +40,10 @@ const searchKeys = SEARCH_KEYS;
       name="q"
       placeholder="Cari episode..."
       aria-label="Cari episode"
+      aria-keyshortcuts="/"
       aria-controls="episodes-grid"
       autocomplete="off"
-      class="w-full bg-surface-raised border border-surface-border-strong rounded-lg px-4 py-3 pl-12 text-ink placeholder-ink-subtle focus:border-accent-text transition"
+      class="w-full bg-surface-raised border border-surface-border-strong rounded-lg px-4 py-3 pl-12 pr-20 text-ink placeholder-ink-subtle focus:border-accent-text transition"
     />
     <svg
       class="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-ink-subtle"
@@ -57,26 +58,31 @@ const searchKeys = SEARCH_KEYS;
         stroke-width="2"
         d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
     </svg>
-    <button
-      id="clear-search"
-      type="button"
-      aria-label="Hapus pencarian"
-      class="absolute right-4 top-1/2 -translate-y-1/2 text-ink-subtle hover:text-ink transition hidden"
-    >
-      <svg
-        class="w-5 h-5"
-        fill="none"
-        stroke="currentColor"
-        viewBox="0 0 24 24"
-        aria-hidden="true"
+    <div class="absolute right-3 top-1/2 -translate-y-1/2 flex items-center gap-1.5">
+      <kbd class="hidden sm:inline-block px-1.5 py-0.5 text-xs text-ink-subtle bg-surface border border-surface-border rounded font-mono select-none" title="Tekan '/' atau 'Cmd+K' untuk fokus pencarian">
+        /
+      </kbd>
+      <button
+        id="clear-search"
+        type="button"
+        aria-label="Hapus pencarian"
+        class="text-ink-subtle hover:text-ink transition p-1 hidden"
       >
-        <path
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          stroke-width="2"
-          d="M6 18L18 6M6 6l12 12"></path>
-      </svg>
-    </button>
+        <svg
+          class="w-5 h-5"
+          fill="none"
+          stroke="currentColor"
+          viewBox="0 0 24 24"
+          aria-hidden="true"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M6 18L18 6M6 6l12 12"></path>
+        </svg>
+      </button>
+    </div>
   </div>
   <p
     id="search-results-count"
@@ -117,9 +123,39 @@ const searchKeys = SEARCH_KEYS;
   }
 </div>
 
-<div id="no-results" class="hidden text-center py-12">
-  <p class="text-ink-muted text-lg">Tidak ada episode yang ditemukan.</p>
-  <p class="text-ink-subtle text-sm mt-2">Coba kata kunci lain.</p>
+<div id="no-results" class="hidden text-center py-12 px-4 max-w-md mx-auto">
+  <div class="w-12 h-12 rounded-full bg-surface-raised border border-surface-border flex items-center justify-center mx-auto mb-4 text-ink-subtle" aria-hidden="true">
+    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+    </svg>
+  </div>
+  <p class="text-ink font-semibold text-lg">Tidak ada episode yang ditemukan.</p>
+  <p class="text-ink-muted text-sm mt-1.5 mb-6">
+    Coba kata kunci lain atau telusuri topik populer di bawah:
+  </p>
+
+  <div class="flex items-center justify-center gap-2 flex-wrap mb-6">
+    {['Astro', 'TypeScript', 'HTMX', 'AI', 'Performance'].map((term) => (
+      <button
+        type="button"
+        data-search-suggestion={term}
+        class="search-suggestion-chip px-3 py-1.5 rounded-lg bg-surface-raised border border-surface-border hover:border-accent-text text-xs text-ink-body hover:text-ink transition cursor-pointer"
+      >
+        {term}
+      </button>
+    ))}
+  </div>
+
+  <button
+    id="reset-search-btn"
+    type="button"
+    class="inline-flex items-center gap-2 bg-surface-raised hover:bg-surface-overlay text-accent-text hover:text-ink border border-surface-border px-4 py-2 rounded-lg text-sm font-medium transition cursor-pointer"
+  >
+    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"></path>
+    </svg>
+    <span>Reset Pencarian</span>
+  </button>
 </div>
 
 <div
@@ -399,6 +435,29 @@ const searchKeys = SEARCH_KEYS;
       input!.focus();
     });
 
+    const resetBtn = document.getElementById("reset-search-btn");
+    resetBtn?.addEventListener("click", () => {
+      window.clearTimeout(debounceTimer);
+      input!.value = "";
+      handleSearch();
+      input!.focus();
+    });
+
+    const suggestionChips = document.querySelectorAll<HTMLButtonElement>(
+      "[data-search-suggestion]"
+    );
+    for (const chip of suggestionChips) {
+      chip.addEventListener("click", () => {
+        const term = chip.dataset.searchSuggestion || "";
+        if (term) {
+          window.clearTimeout(debounceTimer);
+          input!.value = term;
+          handleSearch();
+          input!.focus();
+        }
+      });
+    }
+
     // Prefill from the querystring so results are shareable, and because
     // Layout.astro advertises /episodes/?q={search_term_string} to search
     // engines as a schema.org SearchAction.
@@ -437,4 +496,45 @@ const searchKeys = SEARCH_KEYS;
   initSearch();
   document.addEventListener("astro:after-swap", initSearch);
   document.addEventListener("astro:page-load", initSearch);
+</script>
+
+<script is:inline data-astro-rerun>
+  (() => {
+    if (document.documentElement.dataset.searchShortcutEpisodesInit === "true") return;
+    document.documentElement.dataset.searchShortcutEpisodesInit = "true";
+
+    window.addEventListener("keydown", (e) => {
+      const searchInput = document.getElementById("search-input");
+      if (!searchInput) return;
+
+      const target = e.target;
+      const active = document.activeElement;
+      const isEditing =
+        ["INPUT", "TEXTAREA", "SELECT"].includes(target?.tagName || "") ||
+        ["INPUT", "TEXTAREA", "SELECT"].includes(active?.tagName || "") ||
+        Boolean(target?.isContentEditable) ||
+        Boolean(active?.isContentEditable);
+
+      const isSlash =
+        (e.key === "/" || (!e.shiftKey && e.code === "Slash")) &&
+        !e.metaKey &&
+        !e.ctrlKey &&
+        !e.altKey &&
+        !isEditing;
+
+      const isCmdK =
+        (e.metaKey || e.ctrlKey) &&
+        (e.key === "k" || e.key === "K" || e.code === "KeyK");
+
+      if (isSlash || isCmdK) {
+        e.preventDefault();
+        searchInput.focus();
+        searchInput.select();
+      }
+
+      if (e.key === "Escape" && document.activeElement === searchInput) {
+        searchInput.blur();
+      }
+    });
+  })();
 </script>
