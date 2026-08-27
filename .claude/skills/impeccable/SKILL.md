@@ -6,7 +6,7 @@ user-invocable: true
 argument-hint: "[shape · audit|critique · animate|bolder|colorize|delight|layout|overdrive|quieter|typeset · adapt|clarify|distill · harden|onboard|optimize|polish · init|document|extract|live] [target]"
 license: Apache 2.0
 allowed-tools:
-  - Bash(npx impeccable *)
+  - Bash(pnpm dlx impeccable *)
   - Bash(node .claude/skills/impeccable/scripts/*)
 ---
 
