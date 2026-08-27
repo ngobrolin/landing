@@ -142,13 +142,14 @@ card, and `og-image.svg`. The subscribe action stays YouTube red — an
 off-system colour used as a platform citation, not as part of the palette.
 
 Typography is entirely system-stack and entirely unstyled in personality
-terms: no display face, no letter-spacing tricks, no case transforms.
-Hierarchy is carried by weight (700 versus 400) and by a four-rung ink ladder
-that runs from `#f2f4fd` headings to `#8a94bd` metadata. The result is quiet and
-utilitarian, which suits an archive: the interface is a reading surface for
-Indonesian technical speech, and it gets out of the way. The one typographic
-signature is the monospace timecode running down the left edge of every
-transcript.
+terms: no display face, and — one uppercase stat label on `/partners` aside —
+no letter-spacing tricks or case transforms. Hierarchy is carried by weight
+(700 headings and 400 prose, with 600 on card titles and 500 on controls) and
+by a four-rung ink ladder that runs from `#f2f4fd` headings to `#8a94bd`
+metadata. The result is quiet and utilitarian, which suits an archive: the
+interface is a reading surface for Indonesian technical speech, and it gets out
+of the way. The one typographic signature is the monospace timecode running
+down the left edge of every transcript.
 
 **Key Characteristics:**
 
@@ -246,7 +247,7 @@ Monaco, Consolas`), transcript timecodes only
 
 **Character:** Deliberately impersonal. The system ships no webfont, so type
 personality comes entirely from the reader's own platform. Every distinction
-in the hierarchy is made with two weights and four grey values. On a
+in the hierarchy is made with four weights and four grey values. On a
 long-form Indonesian transcript this is a strength: nothing competes with the
 words.
 
@@ -267,9 +268,11 @@ words.
 
 ### Named Rules
 
-**The Two Weights Rule.** 700 or 400. There is no 500 or 600 anywhere in the
-system. A heading that needs to feel lighter gets a greyer colour, not a
-lower weight.
+**The Weight Restraint Rule.** Headings are 700 and running prose is 400. The
+shipped system also carries 600 on card and section titles and 500 on controls,
+badges and inline emphasis; that is the whole ladder, and there is no fifth
+weight. A heading that needs to feel lighter gets a greyer colour, not a lower
+weight.
 
 **The Ink Ladder Rule.** Every block of text picks exactly one rung: `ink` for
 headings, `ink-body` for prose, `ink-muted` for metadata, `ink-subtle` for
@@ -454,8 +457,9 @@ it with something at least as visible.
 - **Don't** add a shadow to anything at rest. Depth is tonal in this system.
 - **Don't** stack a third surface on top of the overlay. There is no popover,
   modal or drawer precedent to follow.
-- **Don't** use font weights other than 400 and 700, or add `letter-spacing`
-  and `text-transform` — no element in the shipped system does.
+- **Don't** add a font weight beyond the 400/500/600/700 already in use, and
+  don't reach for `letter-spacing` or `text-transform` — the `/partners` stat
+  label is the only element in the shipped system that has either.
 - **Don't** put an interactive element inside an episode card; the card is
   itself a single link.
 - **Don't** use anything dimmer than `ink-subtle` for text that carries

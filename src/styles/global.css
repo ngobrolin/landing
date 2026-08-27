@@ -22,9 +22,8 @@
  *    two distinct jobs rather than blending them everywhere:
  *      blue   = interactive (links, focus, primary buttons, active state)
  *      purple = categorical / decorative (tags, topics, secondary emphasis)
- *    The blue-to-purple gradient is reserved for the few large brand moments
- *    where the cover's own framing is being quoted: the partners share card and
- *    the page hero rules.
+ *    The blue-to-purple gradient is reserved for the few brand moments that
+ *    quote the cover's own framing wholesale; DESIGN.md enumerates them.
  *
  * Contrast is measured, not eyeballed. src/styles/contrast.test.ts asserts the
  * WCAG AA floors these values were chosen to clear; change a value there and the
