@@ -60,10 +60,8 @@ describe('the retired palette', () => {
   // This file is the registry of what is banned, so it is the one place the
   // literals are allowed to appear.
   const SELF = relative(ROOT, fileURLToPath(import.meta.url));
-  const files = sourceFiles(ROOT).filter(
-    file =>
-      relative(ROOT, file) !== SELF &&
-      SEARCHED.some(dir => relative(ROOT, file).startsWith(`${dir}/`))
+  const files = SEARCHED.flatMap(dir => sourceFiles(join(ROOT, dir))).filter(
+    file => relative(ROOT, file) !== SELF
   );
 
   it('has some source to check, so a broken walk cannot pass silently', () => {

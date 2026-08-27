@@ -69,6 +69,20 @@ describe('palette contrast', () => {
     });
   });
 
+  // `surface-border` doubles as a fill in exactly one place - the topic chip in
+  // `EpisodeTopics.astro`, `bg-surface-border text-ink-body hover:text-ink`. So
+  // only those two rungs are asserted against it; the rest of the ink ladder
+  // never sits on this ground and asserting it would go red for a pairing the
+  // site does not have.
+  it.each(['ink-body', 'ink'])(
+    'the topic chip carries %s at AA on its surface-border fill',
+    name => {
+      expect(
+        ratio(token(name), token('surface-border'))
+      ).toBeGreaterThanOrEqual(TEXT_AA);
+    }
+  );
+
   it.each(['accent-strong', 'highlight-strong'])(
     'a filled %s button carries ink at AA',
     name => {

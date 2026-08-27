@@ -262,8 +262,8 @@ words.
   `max-w-2xl`–`max-w-4xl` containers rather than a `ch` measure.
 - **Label** (700, `0.75rem`, 1): Badges — `BARU`, `EP 178`. Always
   uppercase by content, never by `text-transform`.
-- **Timecode** (400 mono, `0.875rem`): Transcript timestamps in Studio
-  Indigo, `0.5rem` right margin, forming a vertical rail down the transcript.
+- **Timecode** (400 mono, `0.875rem`): Transcript timestamps in Cover
+  Blue, `0.5rem` right margin, forming a vertical rail down the transcript.
 
 ### Named Rules
 

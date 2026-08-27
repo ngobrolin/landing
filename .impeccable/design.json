@@ -347,7 +347,7 @@
    "name": "Year Tab",
    "kind": "chip",
    "refersTo": "chip-year-active",
-   "description": "Two-state archive filter. Active is an indigo fill; idle is a bordered panel.",
+   "description": "Two-state archive filter. Active is a Blue Deep fill; idle is a bordered panel.",
    "html": "<nav class=\"ds-yeartabs\"><a class=\"ds-yeartab ds-yeartab--active\" href=\"#\" aria-current=\"page\">Semua</a><a class=\"ds-yeartab\" href=\"#\">2025</a><a class=\"ds-yeartab\" href=\"#\">2024</a></nav>",
    "css": ".ds-yeartabs { display: flex; flex-wrap: wrap; gap: 0.5rem; } .ds-yeartab { padding: 0.5rem 1rem; border-radius: 0.5rem; font-weight: 500; text-decoration: none; background: var(--color-surface-raised, #191d3a); color: #a8b0d2; border: 1px solid var(--color-surface-border, #333c66); transition: color 150ms, border-color 150ms; } .ds-yeartab:hover { color: #fff; border-color: var(--color-accent-strong, #2a59f4); } .ds-yeartab--active { background: var(--color-accent-strong, #2a59f4); color: #fff; border-color: transparent; }"
   },
