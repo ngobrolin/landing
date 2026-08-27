@@ -274,8 +274,25 @@ const displayTitle = getDisplayTitle(episode.title);
                         </div>
                     </section>
 
-                    <!-- Discussion Link -->
-                    <div class="mt-6 flex items-center gap-4 text-sm">
+                    <!--
+                        Two quiet lines under the subscribe card, for the two
+                        audiences that are NOT the listener the card just spoke
+                        to. Both stay at text-sm/ink-muted on purpose: the
+                        subscribe CTA is the page's one loud ask and a second
+                        filled button beside it would weaken both.
+
+                        The second line is the only path from an episode to
+                        /partners. Every episode page previously linked it
+                        zero times, which both starved the sponsor page of
+                        internal-link signal and wasted the one moment the
+                        intent exists - someone who just finished an episode
+                        and thinks "I could advertise here". It is worded for a
+                        partnerships or marketing reader, not a developer, and
+                        echoes the /partners H1 so the click has scent.
+                    -->
+                    <div
+                        class="mt-6 flex flex-wrap items-center gap-x-6 gap-y-2 text-sm"
+                    >
                         <a
                             href="https://github.com/orgs/ngobrolin/discussions"
                             target="_blank"
@@ -298,6 +315,29 @@ const displayTitle = getDisplayTitle(episode.title);
                                 ></path>
                             </svg>
                             Diskusikan episode ini di GitHub
+                        </a>
+                        <a
+                            href="/partners"
+                            class="text-ink-muted hover:text-ink transition flex items-center gap-2"
+                            data-testid="episode-partners-link"
+                            data-analytics-event="cta_click"
+                            data-analytics-props={JSON.stringify({
+                                cta: "partners",
+                                location: "episode_page",
+                                videoId: episode.videoId,
+                            })}
+                        >
+                            <svg
+                                class="w-5 h-5"
+                                fill="currentColor"
+                                viewBox="0 0 24 24"
+                                aria-hidden="true"
+                            >
+                                <path
+                                    d="M18 11v2h4v-2h-4zm-2 6.61c.96.71 2.21 1.65 3.2 2.39.4-.53.8-1.07 1.2-1.6-.99-.74-2.24-1.68-3.2-2.4-.4.54-.8 1.08-1.2 1.61zM20.4 5.6c-.4-.53-.8-1.07-1.2-1.6-.99.74-2.24 1.68-3.2 2.4.4.53.8 1.07 1.2 1.6.96-.72 2.21-1.65 3.2-2.4zM4 9c-1.1 0-2 .9-2 2v2c0 1.1.9 2 2 2h1v4h2v-4h1l5 3V6L8 9H4zm11.5 3c0-1.33-.58-2.53-1.5-3.35v6.69c.92-.81 1.5-2.01 1.5-3.34z"
+                                ></path>
+                            </svg>
+                            Sponsor &amp; pasang iklan di podcast ini
                         </a>
                     </div>
 
