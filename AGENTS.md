@@ -187,6 +187,38 @@ Two things worth knowing before touching that path:
   equality) and the `absentFromPlaylistSince` optionality assertion in
   `src/lib/episode-retention.test.ts` (absent *or* a valid stamp, not absent everywhere).
 
+## Browser tests: the port belongs to the worktree, and is never adopted
+
+`playwright.config.ts` decides nothing about the port itself — `scripts/lib/e2e-port.ts`
+does, and the module comment there is the authority. Two rules matter to anyone editing
+that path:
+
+- **`reuseExistingServer` is `false`, always, including under an explicit override.** It
+  used to be `!process.env.CI`, which meant a local run adopted whatever was listening on
+  the hardcoded 4321 — routinely another branch's preview server, once an orphan whose
+  worktree had been deleted fifteen hours earlier. The suite passed without ever loading
+  the build under test, so *every* local green was unproven. A fixed port and a reused
+  server are separate defects; fixing one alone leaves the other.
+- **The port is derived from the worktree path, then probed.** Two lanes get two ports, so
+  concurrent runs no longer collide; one lane keeps its port across runs, so URLs and
+  traces stay stable; and a stale orphan on the lane's port is stepped over rather than
+  adopted. `E2E_PORT=<port>` pins one for debugging and is taken at its word — it does not
+  re-enable adoption.
+
+The trap, if you ever change how the port is chosen: **Playwright re-evaluates this config
+in every worker process it forks.** By then the chosen port is held by the web server the
+run itself started, so a fresh probe steps past it and the workers drive the browser at a
+port with nothing behind it. `pinPortForWorkers()` stamps the decision into `process.env`
+under its own name (`E2E_PORT_PINNED`) so the forks inherit it — deliberately not
+`E2E_PORT`, because a busy *pinned* port means this run is already serving on it while a
+busy *override* means something else got there first, and those need opposite reactions. `playwright.config.test.ts` guards the other half — that the port
+is written once, not copied into `baseURL`, `webServer.url` and `webServer.command` by hand.
+
+Unrelated to ports: `e2e/service-worker.spec.ts` waits on `networkidle` and is sensitive to
+CPU load. Two full suites at once on a 10-core machine flake two or three of its tests;
+a single run oversubscribed with `--workers=12` flakes the same ones. Diagnose a
+service-worker timeout as load before suspecting the harness.
+
 ## Learnings & Best Practices
 
 ### ✅ DO's
