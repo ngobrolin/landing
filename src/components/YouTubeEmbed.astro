@@ -17,6 +17,7 @@ const bgStyle = backgroundImage
     videoid={videoId}
     playlabel={`Putar: ${title}`}
     style={bgStyle}
+    params="enablejsapi=1"
     data-video-id={videoId}
     data-video-title={title}
   ></lite-youtube>
@@ -50,6 +51,52 @@ const bgStyle = backgroundImage
         },
         { capture: true }
       );
+    });
+
+    if (window.__ngobrolinSeekListenerAttached) return;
+    window.__ngobrolinSeekListenerAttached = true;
+
+    window.addEventListener("ngobrolin:seek-video", (event) => {
+      const customEvent = event;
+      const seconds = customEvent?.detail?.seconds;
+      if (typeof seconds !== "number" || isNaN(seconds)) return;
+
+      const embed = document.querySelector("lite-youtube");
+      if (!embed || !(embed instanceof HTMLElement)) return;
+
+      // Scroll smoothly to video if out of viewport
+      const rect = embed.getBoundingClientRect();
+      if (rect.top < 60 || rect.bottom > window.innerHeight) {
+        embed.scrollIntoView({ behavior: "smooth", block: "start" });
+      }
+
+      const iframe = embed.querySelector("iframe");
+      if (iframe && iframe.contentWindow) {
+        iframe.contentWindow.postMessage(
+          JSON.stringify({
+            event: "command",
+            func: "seekTo",
+            args: [seconds, true],
+          }),
+          "*"
+        );
+        iframe.contentWindow.postMessage(
+          JSON.stringify({
+            event: "command",
+            func: "playVideo",
+            args: [],
+          }),
+          "*"
+        );
+      } else {
+        embed.setAttribute("params", `enablejsapi=1&autoplay=1&start=${seconds}`);
+        const playBtn = embed.querySelector(".lty-playbtn");
+        if (playBtn instanceof HTMLElement) {
+          playBtn.click();
+        } else {
+          embed.click();
+        }
+      }
     });
   })();
 </script>

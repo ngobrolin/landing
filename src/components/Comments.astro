@@ -5,9 +5,32 @@ interface Props {}
 ---
 
 <section class="mt-12 pt-8 border-t border-surface-border">
-  <h2 class="text-xl font-bold text-ink mb-6">Komentar</h2>
-  <div id="comments-wrapper">
-    <!-- Utterances will inject the comment widget here -->
+  <div class="flex items-center justify-between mb-6">
+    <h2 class="text-xl font-bold text-ink">Komentar</h2>
+    <a
+      href="https://github.com/ngobrolin/landing/discussions"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="text-xs sm:text-sm text-ink-muted hover:text-accent-text transition flex items-center gap-1"
+    >
+      Buka di GitHub Discussions →
+    </a>
+  </div>
+  <div id="comments-wrapper" class="min-h-[100px] relative">
+    <div id="comments-fallback" class="p-4 bg-surface-raised border border-surface-border rounded-lg text-center text-sm text-ink-muted">
+      <p class="text-ink font-medium">Memuat komentar dari GitHub Discussions...</p>
+      <p class="text-xs text-ink-subtle mt-1">
+        Jika komentar tidak muncul karena ekstensi privasi / adblocker, kamu bisa
+        <a
+          href="https://github.com/ngobrolin/landing/discussions"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="text-accent-text hover:underline"
+        >
+          berdiskusi langsung di GitHub Discussions
+        </a>.
+      </p>
+    </div>
   </div>
 </section>
 
@@ -34,13 +57,35 @@ interface Props {}
         }
         return;
       }
-      commentsWrapper.innerHTML = '';
+
+      const fallback = document.getElementById("comments-fallback");
+
+      // Observer to hide fallback once utterances iframe arrives
+      const observer = new MutationObserver(() => {
+        const frame = commentsWrapper.querySelector("iframe");
+        if (frame) {
+          if (fallback) fallback.style.display = "none";
+          observer.disconnect();
+        }
+      });
+      observer.observe(commentsWrapper, { childList: true });
 
       // Create and inject the utterances script
       const utterancesScript = document.createElement("script");
       utterancesScript.src = "https://utteranc.es/client.js";
       utterancesScript.async = true;
       utterancesScript.crossOrigin = "anonymous";
+
+      utterancesScript.onerror = () => {
+        observer.disconnect();
+        if (fallback) {
+          fallback.style.display = "block";
+          fallback.innerHTML = `
+            <p class="text-ink font-medium">Komentar tidak dapat dimuat otomatis.</p>
+            <p class="text-xs text-ink-subtle mt-1">Ekstensi privasi atau adblocker mungkin memblokir widget ini. Silakan <a href="https://github.com/ngobrolin/landing/discussions" target="_blank" rel="noopener noreferrer" class="text-accent-text hover:underline">buka langsung di GitHub Discussions</a>.</p>
+          `;
+        }
+      };
 
       // Utterances configuration
       utterancesScript.setAttribute("repo", "ngobrolin/landing");
