@@ -40,7 +40,7 @@ import Layout from '../layouts/Layout.astro';
             href="https://open.spotify.com/show/1o2d75xrADb9x0AahDO0Ai"
             target="_blank"
             rel="noopener noreferrer"
-            class="subscribe-card bg-[#1DB954] hover:bg-[#1ed760]"
+            class="subscribe-card subscribe-card-on-light bg-[#1DB954] hover:bg-[#1ed760]"
             data-analytics-event="subscribe_click"
             data-analytics-props={JSON.stringify({ dest: "spotify" })}
           >
@@ -151,5 +151,15 @@ import Layout from '../layouts/Layout.astro';
   
   .subscribe-card:not(.cursor-not-allowed):hover {
     transform: scale(1.05);
+  }
+
+  /* Spotify green carries white at only 2.59:1. Black on the same unchanged
+     brand green measures 8.12:1 and is Spotify's own documented treatment for
+     this surface, so the tile is recoloured rather than the brand.
+     Must stay after .subscribe-card: equal specificity, resolved by source
+     order. A `text-black` utility would lose instead, because Tailwind
+     utilities sit in @layer utilities and .subscribe-card is unlayered. */
+  .subscribe-card-on-light {
+    color: black;
   }
 </style>

@@ -155,7 +155,7 @@ down the left edge of every transcript.
 
 - One navy material at four lightnesses: ground, card, overlay, hairline
 - Hairline borders instead of shadows to separate surfaces at rest
-- Two accent hues with fixed jobs, plus one off-system platform red
+- Two accent hues with fixed jobs, plus borrowed brand colours for platform links
 - System font stack throughout; hierarchy from weight and colour value only
 - 16:9 thumbnail as the dominant visual unit, repeated in a 4-up grid
 - Monospace timecodes as the sole typographic ornament
@@ -234,8 +234,14 @@ previous palette shipped.
 in the cover does not belong in this system. `src/styles/palette-literals.test.ts`
 enforces the negative half of that for the palette this one replaced.
 
-**The Red Is Borrowed Rule.** Platform Red belongs to YouTube, not to
-Ngobrolin WEB. Use it on subscribe affordances and nowhere else.
+**The Borrowed-Colour Rule.** Platform Red belongs to YouTube, not to
+Ngobrolin WEB. Use it on subscribe affordances and nowhere else. The same
+holds for every other brand colour the site quotes — Spotify green, the RSS
+orange, the share row's WhatsApp/X/LinkedIn fills: reproduce the brand value
+exactly and never bend it toward the palette. What *is* the site's call is the
+label on top, which takes whichever of black or white clears AA on that brand
+value. Spotify green carries white at only 2.59:1, so its tile is labelled in
+black (8.1:1); YouTube red carries white at 4.8:1 and keeps it.
 
 ## Typography
 
