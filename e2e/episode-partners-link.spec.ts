@@ -5,12 +5,12 @@ import { join } from 'path';
 /**
  * The path from an episode to /partners.
  *
- * /partners is the page a sponsor is sent to, and for a long time the site's
- * 180 highest-value content pages linked it zero times: the only inbound links
- * anywhere were the nav and the footer. That is both an internal-link signal
- * problem and a wasted moment - someone who just finished an 85-minute episode
- * about web development is exactly the person who might think "I could
- * advertise here", and that intent exists precisely once.
+ * /partners is the page a sponsor is sent to, and for a long time every
+ * episode page - the site's highest-value content - linked it zero times: the
+ * only inbound links anywhere were the nav and the footer. That is both an
+ * internal-link signal problem and a wasted moment - someone who just finished
+ * an 85-minute episode about web development is exactly the person who might
+ * think "I could advertise here", and that intent exists precisely once.
  *
  * These assert the RULE, not a snapshot:
  *   - every episode page carries the link (derived from episodes.json, so a new
