@@ -25,11 +25,19 @@ export {
   PARTNER_CARD_WIDTH,
 } from './partner-card-geometry';
 
-const BACKGROUND = '#0f0f0f';
-const ACCENT = '#818cf8';
-const ACCENT_BAR = '#6366f1';
-const MUTED = '#9ca3af';
-const FAINT = '#6b7280';
+/**
+ * The same tokens as `src/styles/global.css`, restated because librsvg has no
+ * stylesheet to read. A sponsor sees this card next to the page it links to, so
+ * the two have to be the same colours; when a token there moves, move it here.
+ */
+const BACKGROUND = '#0e1122'; // --color-surface
+const INK = '#f2f4fd'; // --color-ink
+const ACCENT = '#86a2fe'; // --color-accent-text
+const ACCENT_BAND = '#6588fe'; // --color-accent      (cover blue)
+const HIGHLIGHT_BAND = '#a76ab7'; // --color-highlight   (cover purple)
+const MUTED = '#a8b0d2'; // --color-ink-muted
+const FAINT = '#8a94bd'; // --color-ink-subtle
+const HAIRLINE = '#333c66'; // --color-surface-border
 
 /**
  * librsvg resolves fonts through fontconfig. "system-ui" maps to nothing on a
@@ -114,12 +122,19 @@ export function buildPartnerCardSvg(tiles: PartnerTile[]): string {
   return [
     `<svg xmlns="http://www.w3.org/2000/svg" width="${PARTNER_CARD_WIDTH}" height="${PARTNER_CARD_HEIGHT}" viewBox="0 0 ${PARTNER_CARD_WIDTH} ${PARTNER_CARD_HEIGHT}">`,
     `<rect width="${PARTNER_CARD_WIDTH}" height="${PARTNER_CARD_HEIGHT}" fill="${BACKGROUND}"/>`,
-    `<rect x="${PARTNER_CARD_SAFE_MARGIN + 12}" y="74" width="8" height="220" rx="4" fill="${ACCENT_BAR}"/>`,
+    // The one place the site quotes the cover's own framing: the artwork sets
+    // the blue and the purple side by side as vertical bands, and this rule is
+    // the card's version of that.
+    `<defs><linearGradient id="brand-band" x1="0" y1="0" x2="0" y2="1">` +
+      `<stop offset="0%" stop-color="${ACCENT_BAND}"/>` +
+      `<stop offset="100%" stop-color="${HIGHLIGHT_BAND}"/>` +
+      `</linearGradient></defs>`,
+    `<rect x="${PARTNER_CARD_SAFE_MARGIN + 12}" y="74" width="8" height="220" rx="4" fill="url(#brand-band)"/>`,
     text('Ngobrolin WEB', {
       x: left,
       y: 122,
       size: 44,
-      fill: '#ffffff',
+      fill: INK,
       weight: 'bold',
     }),
     text('Sponsor & pasang iklan', {
@@ -135,7 +150,7 @@ export function buildPartnerCardSvg(tiles: PartnerTile[]): string {
       size: 28,
       fill: MUTED,
     }),
-    `<rect x="${left}" y="316" width="${PARTNER_CARD_WIDTH - left * 2}" height="1" fill="#27272a"/>`,
+    `<rect x="${left}" y="316" width="${PARTNER_CARD_WIDTH - left * 2}" height="1" fill="${HAIRLINE}"/>`,
     figures,
     text('ngobrol.in/partners', {
       x: left,

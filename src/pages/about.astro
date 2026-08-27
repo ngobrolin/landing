@@ -17,29 +17,29 @@ const aboutSchema = generateAboutPageSchema(
   <section class="py-12">
     <div class="container mx-auto px-4">
       <div class="max-w-2xl mx-auto">
-        <h1 class="text-3xl font-bold text-white mb-8">Tentang Ngobrolin WEB</h1>
+        <h1 class="text-3xl font-bold text-ink mb-8">Tentang Ngobrolin WEB</h1>
         
         <div class="prose prose-invert max-w-none">
-          <p class="text-gray-300 text-lg mb-6">
-            <strong class="text-white">Ngobrolin WEB</strong> adalah video podcast mingguan 
+          <p class="text-ink-body text-lg mb-6">
+            <strong class="text-ink">Ngobrolin WEB</strong> adalah video podcast mingguan 
             yang membahas berbagai topik seputar web development dalam Bahasa Indonesia.
           </p>
           
-          <p class="text-gray-300 mb-6">
-            Hadir setiap <span class="text-primary-light font-medium">Selasa malam jam 20:00 WIB</span>, 
+          <p class="text-ink-body mb-6">
+            Hadir setiap <span class="text-accent-text font-medium">Selasa malam jam 20:00 WIB</span>, 
             podcast ini menghadirkan diskusi mendalam tentang teknologi web terkini, 
             best practices, serta pengalaman langsung dari praktisi di industri.
           </p>
 
-          <h2 class="text-xl font-bold text-white mt-10 mb-4">Visi</h2>
-          <p class="text-gray-300 mb-6">
+          <h2 class="text-xl font-bold text-ink mt-10 mb-4">Visi</h2>
+          <p class="text-ink-body mb-6">
             Menjadi platform diskusi terdepan yang menghubungkan para pengembang web di Indonesia 
             untuk tetap mengikuti perkembangan teknologi web yang pesat, dengan berbagi pengetahuan, 
             pengalaman, dan wawasan dalam suasana yang santai namun informatif.
           </p>
 
-          <h2 class="text-xl font-bold text-white mt-10 mb-4">Tujuan</h2>
-          <ul class="list-disc list-inside space-y-2 text-gray-300 mb-6">
+          <h2 class="text-xl font-bold text-ink mt-10 mb-4">Tujuan</h2>
+          <ul class="list-disc list-inside space-y-2 text-ink-body mb-6">
             <li>Menyediakan ruang diskusi yang santai namun fokus tentang berbagai topik seputar teknologi web.</li>
             <li>Mengulas perkembangan terkini di dunia web tanpa terbatas pada framework atau browser tertentu.</li>
             <li>Berbagi insight dan pengalaman dari praktisi web berpengalaman.</li>
@@ -47,34 +47,34 @@ const aboutSchema = generateAboutPageSchema(
             <li>Melibatkan komunitas dengan mengundang masukan dari penonton.</li>
           </ul>
 
-          <h2 class="text-xl font-bold text-white mt-10 mb-4">Topik yang Dibahas</h2>
+          <h2 class="text-xl font-bold text-ink mt-10 mb-4">Topik yang Dibahas</h2>
           <div class="flex flex-wrap gap-2 mb-8">
             {[
               'JavaScript', 'TypeScript', 'React', 'Svelte', 'Astro', 
               'Deno', 'Node.js', 'HTMX', 'Elixir', 'Database', 
               'JWT', 'SEO', 'DevOps', 'AI', 'Career'
             ].map(tag => (
-              <span class="bg-dark-card border border-dark-border text-gray-300 px-3 py-1 rounded-full text-sm">
+              <span class="bg-surface-raised border border-surface-border text-ink-body px-3 py-1 rounded-full text-sm">
                 {tag}
               </span>
             ))}
           </div>
 
-          <h2 class="text-xl font-bold text-white mt-10 mb-4">Panelis Tetap</h2>
+          <h2 class="text-xl font-bold text-ink mt-10 mb-4">Panelis Tetap</h2>
           
-          <div class="flex items-start gap-4 p-6 bg-dark-card border border-dark-border rounded-xl mb-4">
+          <div class="flex items-start gap-4 p-6 bg-surface-raised border border-surface-border rounded-xl mb-4">
             <img 
               src="/images/eka.jpg"
               alt="Eka"
-              class="w-20 h-20 rounded-full object-cover ring-2 ring-primary/50"
+              class="w-20 h-20 rounded-full object-cover ring-2 ring-accent/50"
             />
             <div>
-              <h3 class="text-white font-semibold text-lg">Eka</h3>
+              <h3 class="text-ink font-semibold text-lg">Eka</h3>
               <p class="inline-flex items-center gap-1 text-sm mb-3">
-                <span class="bg-blue-500/20 text-blue-400 px-2 py-0.5 rounded text-xs font-medium">GDE</span>
-                <span class="text-gray-400">Google Developer Expert - Web</span>
+                <span class="bg-accent/20 text-accent-text px-2 py-0.5 rounded text-xs font-medium">GDE</span>
+                <span class="text-ink-muted">Google Developer Expert - Web</span>
               </p>
-              <p class="text-gray-300 text-sm">
+              <p class="text-ink-body text-sm">
                 Pengembang web dengan latar belakang Sastra. Tertarik pada web karena aksesibilitasnya 
                 yang tinggi dan ekosistemnya yang dinamis. Saat ini bekerja di NGO Atma Connect.
               </p>
@@ -83,7 +83,7 @@ const aboutSchema = generateAboutPageSchema(
                   href="https://x.com/ekafyi"
                   target="_blank"
                   rel="noopener noreferrer"
-                  class="text-primary-light hover:text-white text-sm transition"
+                  class="text-accent-text hover:text-ink text-sm transition"
                 >
                   X
                 </a>
@@ -91,7 +91,7 @@ const aboutSchema = generateAboutPageSchema(
                   href="https://github.com/ekafyi"
                   target="_blank"
                   rel="noopener noreferrer"
-                  class="text-primary-light hover:text-white text-sm transition"
+                  class="text-accent-text hover:text-ink text-sm transition"
                 >
                   GitHub
                 </a>
@@ -99,19 +99,19 @@ const aboutSchema = generateAboutPageSchema(
             </div>
           </div>
 
-          <div class="flex items-start gap-4 p-6 bg-dark-card border border-dark-border rounded-xl mb-4">
+          <div class="flex items-start gap-4 p-6 bg-surface-raised border border-surface-border rounded-xl mb-4">
             <img 
               src="/images/ivan.jpg"
               alt="Ivan"
-              class="w-20 h-20 rounded-full object-cover ring-2 ring-primary/50"
+              class="w-20 h-20 rounded-full object-cover ring-2 ring-accent/50"
             />
             <div>
-              <h3 class="text-white font-semibold text-lg">Ivan</h3>
+              <h3 class="text-ink font-semibold text-lg">Ivan</h3>
               <p class="inline-flex items-center gap-1 text-sm mb-3">
-                <span class="bg-blue-500/20 text-blue-400 px-2 py-0.5 rounded text-xs font-medium">GDE</span>
-                <span class="text-gray-400">Senior Web Engineer - Human Made</span>
+                <span class="bg-accent/20 text-accent-text px-2 py-0.5 rounded text-xs font-medium">GDE</span>
+                <span class="text-ink-muted">Senior Web Engineer - Human Made</span>
               </p>
-              <p class="text-gray-300 text-sm">
+              <p class="text-ink-body text-sm">
                 Fokus pada platform penerbitan konten. Aktif di komunitas Web dan Teknologi Indonesia 
                 sebagai pembicara dan penyelenggara acara. Kontributor utama beberapa plugin WordPress.
               </p>
@@ -120,7 +120,7 @@ const aboutSchema = generateAboutPageSchema(
                   href="https://x.com/ivankrisdotcom"
                   target="_blank"
                   rel="noopener noreferrer"
-                  class="text-primary-light hover:text-white text-sm transition"
+                  class="text-accent-text hover:text-ink text-sm transition"
                 >
                   X
                 </a>
@@ -128,7 +128,7 @@ const aboutSchema = generateAboutPageSchema(
                   href="https://github.com/ivankristianto"
                   target="_blank"
                   rel="noopener noreferrer"
-                  class="text-primary-light hover:text-white text-sm transition"
+                  class="text-accent-text hover:text-ink text-sm transition"
                 >
                   GitHub
                 </a>
@@ -136,19 +136,19 @@ const aboutSchema = generateAboutPageSchema(
             </div>
           </div>
 
-          <div class="flex items-start gap-4 p-6 bg-dark-card border border-dark-border rounded-xl mb-4">
+          <div class="flex items-start gap-4 p-6 bg-surface-raised border border-surface-border rounded-xl mb-4">
             <img 
               src="/images/riza.jpg"
               alt="Riza Fahmi"
-              class="w-20 h-20 rounded-full object-cover ring-2 ring-primary/50"
+              class="w-20 h-20 rounded-full object-cover ring-2 ring-accent/50"
             />
             <div>
-              <h3 class="text-white font-semibold text-lg">Riza Fahmi</h3>
+              <h3 class="text-ink font-semibold text-lg">Riza Fahmi</h3>
               <p class="inline-flex items-center gap-1 text-sm mb-3">
-                <span class="bg-blue-500/20 text-blue-400 px-2 py-0.5 rounded text-xs font-medium">GDE</span>
-                <span class="text-gray-400">Co-founder Hacktiv8</span>
+                <span class="bg-accent/20 text-accent-text px-2 py-0.5 rounded text-xs font-medium">GDE</span>
+                <span class="text-ink-muted">Co-founder Hacktiv8</span>
               </p>
-              <p class="text-gray-300 text-sm">
+              <p class="text-ink-body text-sm">
                 Senang mempelajari teknologi terbaru dan berbagi dengan sesama developer. 
                 Merintis Hacktiv8 untuk mengatasi kelangkaan developer berkualitas di Indonesia.
               </p>
@@ -157,7 +157,7 @@ const aboutSchema = generateAboutPageSchema(
                   href="https://x.com/search?q=%23ngobrolinweb&f=live"
                   target="_blank"
                   rel="noopener noreferrer"
-                  class="text-primary-light hover:text-white text-sm transition"
+                  class="text-accent-text hover:text-ink text-sm transition"
                 >
                   X
                 </a>
@@ -165,7 +165,7 @@ const aboutSchema = generateAboutPageSchema(
                   href="https://www.youtube.com/@RizaFahmi"
                   target="_blank"
                   rel="noopener noreferrer"
-                  class="text-primary-light hover:text-white text-sm transition"
+                  class="text-accent-text hover:text-ink text-sm transition"
                 >
                   YouTube
                 </a>
@@ -173,7 +173,7 @@ const aboutSchema = generateAboutPageSchema(
                   href="https://github.com/rizafahmi"
                   target="_blank"
                   rel="noopener noreferrer"
-                  class="text-primary-light hover:text-white text-sm transition"
+                  class="text-accent-text hover:text-ink text-sm transition"
                 >
                   GitHub
                 </a>
@@ -181,14 +181,14 @@ const aboutSchema = generateAboutPageSchema(
             </div>
           </div>
 
-          <h2 class="text-xl font-bold text-white mt-10 mb-4">Kerja Sama</h2>
-          <p class="text-gray-300 mb-6">
+          <h2 class="text-xl font-bold text-ink mt-10 mb-4">Kerja Sama</h2>
+          <p class="text-ink-body mb-6">
             Perusahaan yang ingin menjangkau audiens ini bisa
-            <a href="/partners" class="text-primary-light hover:text-white transition underline">
+            <a href="/partners" class="text-accent-text hover:text-ink transition underline">
               sponsor episode atau pasang iklan di Ngobrolin WEB</a>.
           </p>
 
-          <h2 class="text-xl font-bold text-white mt-10 mb-4">Langganan & Ikuti</h2>
+          <h2 class="text-xl font-bold text-ink mt-10 mb-4">Langganan & Ikuti</h2>
           <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
             <a 
               href="https://www.youtube.com/@RizaFahmi?sub_confirmation=1"
@@ -205,12 +205,12 @@ const aboutSchema = generateAboutPageSchema(
               href="https://www.youtube.com/playlist?list=PLTY2nW4jwtG8Sx2Bw6QShC271PzX31CtT"
               target="_blank"
               rel="noopener noreferrer"
-              class="flex items-center gap-3 p-4 bg-dark-card border border-dark-border hover:border-primary/50 rounded-xl transition"
+              class="flex items-center gap-3 p-4 bg-surface-raised border border-surface-border hover:border-accent/50 rounded-xl transition"
             >
-              <svg class="w-6 h-6 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <svg class="w-6 h-6 text-ink-muted" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 10h16M4 14h16M4 18h16"/>
               </svg>
-              <span class="text-white font-medium">Playlist YouTube</span>
+              <span class="text-ink font-medium">Playlist YouTube</span>
             </a>
           </div>
         </div>

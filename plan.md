@@ -40,6 +40,9 @@
 - [x] ~~Search within transcripts~~ - weighed and declined; the index is
       already fetched out of line and a transcript index would multiply it.
       `SEARCH_KEYS` in `src/lib/search.ts` is the one place to revisit it.
+- [ ] Redraw `public/og-image.png`. It is a hand-made raster with no source
+      file, so the cover repaint hue-rotated it onto the brand hues rather
+      than redrawing it; `public/og-image.svg` is the one with real tokens.
 - [ ] Clickable timestamps (jump to video position)
 - [ ] Auto-transcribe pipeline (GitHub Action)
 - [ ] Episode chapters from AI

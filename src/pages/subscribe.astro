@@ -9,10 +9,10 @@ import Layout from '../layouts/Layout.astro';
   <section class="py-16">
     <div class="container mx-auto px-4">
       <div class="max-w-2xl mx-auto text-center">
-        <h1 class="text-3xl md:text-4xl font-bold text-white mb-4">
+        <h1 class="text-3xl md:text-4xl font-bold text-ink mb-4">
           Langganan Ngobrolin WEB
         </h1>
-        <p class="text-gray-300 text-lg mb-12">
+        <p class="text-ink-body text-lg mb-12">
           Jangan lewatkan episode terbaru! Ikuti kami di platform favoritmu.
         </p>
 
@@ -40,7 +40,7 @@ import Layout from '../layouts/Layout.astro';
             href="https://open.spotify.com/show/1o2d75xrADb9x0AahDO0Ai"
             target="_blank"
             rel="noopener noreferrer"
-            class="subscribe-card bg-[#1DB954] hover:bg-[#1ed760]"
+            class="subscribe-card subscribe-card-on-light bg-[#1DB954] hover:bg-[#1ed760]"
             data-analytics-event="subscribe_click"
             data-analytics-props={JSON.stringify({ dest: "spotify" })}
           >
@@ -54,13 +54,13 @@ import Layout from '../layouts/Layout.astro';
           </a>
 
           <!-- Apple Podcasts (Coming Soon) -->
-          <div class="subscribe-card bg-gradient-to-br from-purple-600/20 to-pink-600/20 cursor-not-allowed border border-purple-500/30">
-            <svg class="w-8 h-8 text-purple-400" fill="currentColor" viewBox="0 0 24 24">
+          <div class="subscribe-card bg-gradient-to-br from-highlight/20 to-highlight/5 cursor-not-allowed border border-highlight/40">
+            <svg class="w-8 h-8 text-highlight-text" fill="currentColor" viewBox="0 0 24 24">
               <path d="M5.34 0A5.328 5.328 0 000 5.34v13.32A5.328 5.328 0 005.34 24h13.32A5.328 5.328 0 0024 18.66V5.34A5.328 5.328 0 0018.66 0zm6.525 2.568c4.988 0 9.105 3.762 9.648 8.604h-.001c.033.345.03.65.03.97 0 .32-.002.62-.036.976h-.001a9.728 9.728 0 01-4.47 7.513.403.403 0 01-.596-.166 8.13 8.13 0 00-.644-1.248.403.403 0 01.092-.52 7.91 7.91 0 003.57-5.79 6.598 6.598 0 00.028-.767c0-.26-.002-.524-.03-.787v.001c-.442-3.885-3.746-6.931-7.787-6.931-3.941 0-7.192 2.908-7.74 6.69l-.003.022a8.15 8.15 0 00-.043.96c0 .29.013.58.037.866a7.91 7.91 0 003.567 5.788.403.403 0 01.093.52c-.187.39-.397.81-.644 1.248a.403.403 0 01-.596.166 9.727 9.727 0 01-4.471-7.514c-.034-.357-.034-.66-.034-.975 0-.316-.002-.62.03-.964h-.002c.547-4.823 4.665-8.596 9.652-8.596zm-.001 4.063c2.903 0 5.302 2.167 5.66 4.962.028.27.03.548.03.81 0 .255.002.522-.03.778a5.723 5.723 0 01-2.064 3.91 8.13 8.13 0 00-.345-1.046.403.403 0 01.137-.472 3.908 3.908 0 001.506-2.603c.02-.196.026-.39.029-.58 0-.18-.009-.365-.027-.554-.242-1.89-1.857-3.367-3.836-3.367-1.901 0-3.469 1.374-3.79 3.157l-.009.04a3.916 3.916 0 00-.046.656c0 .21.017.42.045.632.242 1.345.913 2.181 1.552 2.694a.403.403 0 01.137.472 7.63 7.63 0 00-.345 1.046 5.723 5.723 0 01-2.065-3.91c-.031-.256-.028-.523-.028-.778 0-.262-.002-.54.027-.81l.004-.028c.36-2.774 2.752-4.932 5.658-4.931zm-.027 4.01c.986 0 1.792.77 1.855 1.743.005.06.008.126.008.191a1.862 1.862 0 01-.834 1.559v3.109a1.03 1.03 0 01-1.03 1.03 1.03 1.03 0 01-1.03-1.03v-3.11a1.862 1.862 0 01-.834-1.558c0-.065.003-.13.008-.191.063-.973.87-1.743 1.857-1.743z"/>
             </svg>
             <div class="text-left">
-              <span class="block font-semibold text-purple-400">Apple Podcasts</span>
-              <span class="text-sm text-gray-400">Segera hadir</span>
+              <span class="block font-semibold text-highlight-text">Apple Podcasts</span>
+              <span class="text-sm text-ink-muted">Segera hadir</span>
             </div>
           </div>
 
@@ -76,40 +76,40 @@ import Layout from '../layouts/Layout.astro';
             </svg>
             <div class="text-left">
               <span class="block font-semibold text-orange-500">Podcast RSS</span>
-              <span class="text-sm text-gray-400">Untuk podcast apps</span>
+              <span class="text-sm text-ink-muted">Untuk podcast apps</span>
             </div>
           </a>
         </div>
 
         <!-- Additional Info -->
-        <div class="mt-12 p-6 bg-dark-card border border-dark-border rounded-xl">
-          <h2 class="text-lg font-semibold text-white mb-3">
+        <div class="mt-12 p-6 bg-surface-raised border border-surface-border rounded-xl">
+          <h2 class="text-lg font-semibold text-ink mb-3">
             📅 Jadwal Tayang
           </h2>
-          <p class="text-gray-300">
-            Episode baru setiap <span class="text-primary-light font-medium">Selasa malam jam 20:00 WIB</span>
+          <p class="text-ink-body">
+            Episode baru setiap <span class="text-accent-text font-medium">Selasa malam jam 20:00 WIB</span>
           </p>
         </div>
 
         <!-- Partnership -->
-        <div class="mt-8 p-6 bg-dark-card border border-dark-border rounded-xl text-left sm:text-center">
-          <h2 class="text-lg font-semibold text-white mb-2">Untuk brand &amp; perusahaan</h2>
-          <p class="text-gray-300">
+        <div class="mt-8 p-6 bg-surface-raised border border-surface-border rounded-xl text-left sm:text-center">
+          <h2 class="text-lg font-semibold text-ink mb-2">Untuk brand &amp; perusahaan</h2>
+          <p class="text-ink-body">
             Ingin menjangkau audiens ini?
-            <a href="/partners" class="text-primary-light hover:text-white transition underline">
+            <a href="/partners" class="text-accent-text hover:text-ink transition underline">
               Lihat opsi sponsor &amp; pasang iklan</a>.
           </p>
         </div>
 
         <!-- Social Links -->
         <div class="mt-8">
-          <p class="text-gray-400 mb-4">Ikuti diskusi di:</p>
+          <p class="text-ink-muted mb-4">Ikuti diskusi di:</p>
           <div class="flex justify-center gap-4">
             <a 
               href="https://x.com/search?q=%23ngobrolinweb&f=live"
               target="_blank"
               rel="noopener noreferrer"
-              class="flex items-center gap-2 text-gray-300 hover:text-white transition"
+              class="flex items-center gap-2 text-ink-body hover:text-ink transition"
               data-analytics-event="outbound_click"
               data-analytics-props={JSON.stringify({ dest: "x_hashtag", location: "subscribe_page" })}
             >
@@ -122,7 +122,7 @@ import Layout from '../layouts/Layout.astro';
               href="https://github.com/orgs/ngobrolin/discussions"
               target="_blank"
               rel="noopener noreferrer"
-              class="flex items-center gap-2 text-gray-300 hover:text-white transition"
+              class="flex items-center gap-2 text-ink-body hover:text-ink transition"
               data-analytics-event="outbound_click"
               data-analytics-props={JSON.stringify({ dest: "github_discussions", location: "subscribe_page" })}
             >
@@ -151,5 +151,15 @@ import Layout from '../layouts/Layout.astro';
   
   .subscribe-card:not(.cursor-not-allowed):hover {
     transform: scale(1.05);
+  }
+
+  /* Spotify green carries white at only 2.59:1. Black on the same unchanged
+     brand green measures 8.12:1 and is Spotify's own documented treatment for
+     this surface, so the tile is recoloured rather than the brand.
+     Must stay after .subscribe-card: equal specificity, resolved by source
+     order. A `text-black` utility would lose instead, because Tailwind
+     utilities sit in @layer utilities and .subscribe-card is unlayered. */
+  .subscribe-card-on-light {
+    color: black;
   }
 </style>

@@ -2,25 +2,46 @@ import { test, expect } from '@playwright/test';
 
 /**
  * The scroll buttons were two 48px WHITE buttons with a light-grey border and a
- * drop shadow, fixed bottom-right on every page of a #0f0f0f site. They were
+ * drop shadow, fixed bottom-right on every page of a near-black site. They were
  * the brightest object on any screen, they broke the design system's
  * flat-at-rest rule, and their labels were in English on a lang="id" site.
  *
- * This repaints them INTO the frozen palette; it adds no token.
+ * This repaints them INTO the palette; it adds no token. The assertion is
+ * therefore "they use the palette's raised surface", read from the token itself
+ * - not a literal colour. An earlier version of this file froze `rgb(26,26,26)`
+ * and would have gone red the moment the site was legitimately repainted, which
+ * says nothing about whether these buttons still belong.
  */
 test.describe('Scroll buttons belong to the dark palette', () => {
-  test('are not white, and cast no shadow at rest', async ({ page }) => {
+  test('wear the palette surface, and cast no shadow at rest', async ({
+    page,
+  }) => {
     await page.goto('/episodes');
     await page.evaluate(() => window.scrollTo(0, 1200));
 
     const button = page.locator('#scroll-to-top');
-    const styles = await button.evaluate((el) => {
+    const styles = await button.evaluate(el => {
       const s = getComputedStyle(el);
-      return { background: s.backgroundColor, shadow: s.boxShadow };
+      const root = getComputedStyle(document.documentElement);
+      return {
+        background: s.backgroundColor,
+        shadow: s.boxShadow,
+        raised: root.getPropertyValue('--color-surface-raised').trim(),
+      };
     });
 
-    // #1a1a1a is the palette's single surface step.
-    expect(styles.background).toBe('rgb(26, 26, 26)');
+    // Resolve the token through the browser so the comparison is colour-space
+    // agnostic: the token is authored as a hex and read back as an rgb().
+    const expected = await page.evaluate(token => {
+      const probe = document.createElement('div');
+      probe.style.color = token;
+      document.body.append(probe);
+      const value = getComputedStyle(probe).color;
+      probe.remove();
+      return value;
+    }, styles.raised);
+
+    expect(styles.background).toBe(expected);
     expect(styles.shadow, 'flat at rest is a system rule').toBe('none');
   });
 

@@ -109,8 +109,10 @@ condition of the pipeline, not a backlog that eventually clears.
 
 Hard constraints on the current work *[brief]*:
 
-- `src/styles/global.css` and its `@theme` palette are frozen. Structure only;
-  colour and type personality are a separate later phase.
+- *[repo]* `src/styles/global.css` is the single place a colour is decided, and
+  its `@theme` tokens are sampled from `public/podcast-cover.jpg`. `DESIGN.md`
+  owns the palette and the rule behind each token; `src/styles/contrast.test.ts`
+  and `src/styles/palette-literals.test.ts` guard it. The site is dark.
 - `src/lib/podcast.ts` silently drops any episode missing `audioUrl`,
   `audioDuration` or `audioFileSize`. Feed item counts must be compared before
   and after any change rather than trusting the build to complain.
@@ -146,9 +148,9 @@ Fixed external identities: YouTube `@RizaFahmi`, Spotify show
 `1o2d75xrADb9x0AahDO0Ai`, GitHub org discussions at `ngobrolin`, the
 `#ngobrolinweb` hashtag on X.
 
-*[brief]* The existing visual identity — the dark palette and its `@theme`
-tokens — is a binding constraint for this phase and is being revisited
-separately afterwards.
+*[repo]* The visual identity is the cover art: the palette is sampled from
+`public/podcast-cover.jpg` so the site, the YouTube channel and the podcast
+directories read as one property. `DESIGN.md` owns it.
 
 ## Evidence on Hand
 
@@ -206,6 +208,7 @@ which argues for plain language over jargon in navigation labels.
 `accessibility` is a recurring editorial topic in the archive itself. No formal
 conformance target has been established, and `e2e/` still runs no axe audit, but
 structure and palette are now guarded explicitly by `e2e/a11y-structure.spec.ts`
-(skip link, heading order, `aria-current`, interface language) and
-`e2e/scroll-buttons-palette.spec.ts`. The conformance target stays *undecided*
-rather than invented.
+(skip link, heading order, `aria-current`, interface language),
+`e2e/scroll-buttons-palette.spec.ts` and `src/styles/contrast.test.ts`, which
+holds every palette pairing to its measured WCAG AA floor. The site-wide
+conformance target stays *undecided* rather than invented.

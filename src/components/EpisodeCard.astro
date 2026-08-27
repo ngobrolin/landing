@@ -54,7 +54,7 @@ const displayTitle = getDisplayTitle(title);
 
 <a
   href={`/episodes/${slug}`}
-  class="group block bg-dark-card border border-dark-border rounded-xl overflow-hidden hover:border-primary/50 transition-all duration-300 hover:shadow-lg hover:shadow-primary/10"
+  class="group block bg-surface-raised border border-surface-border rounded-xl overflow-hidden hover:border-accent/50 transition-all duration-300 hover:shadow-lg hover:shadow-accent/10"
   data-testid="episode-card"
   data-episode-slug={slug}
 >
@@ -71,7 +71,7 @@ const displayTitle = getDisplayTitle(title);
       transition:name={`episode-thumbnail-${slug}`}
     />
     {isNew && (
-      <span class="absolute top-3 left-3 bg-primary text-white text-xs font-bold px-2 py-1 rounded">
+      <span class="absolute top-3 left-3 bg-accent-strong text-ink text-xs font-bold px-2 py-1 rounded">
         BARU
       </span>
     )}
@@ -91,12 +91,12 @@ const displayTitle = getDisplayTitle(title);
     </div>
   </div>
   <div class="p-4">
-    <p class="text-gray-400 text-xs mb-2">{formattedDate}</p>
-    <h3 class="text-white font-semibold mb-2 group-hover:text-primary-light transition line-clamp-2">
+    <p class="text-ink-muted text-xs mb-2" data-testid="episode-date">{formattedDate}</p>
+    <h3 class="text-ink font-semibold mb-2 group-hover:text-accent-text transition line-clamp-2">
       {displayTitle}
     </h3>
     {truncatedBlurb && (
-      <p class="text-gray-400 text-sm line-clamp-2">
+      <p class="text-ink-muted text-sm line-clamp-2">
         {truncatedBlurb}
       </p>
     )}

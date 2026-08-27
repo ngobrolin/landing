@@ -45,6 +45,9 @@ test.describe('Episodes by Year', () => {
     await expect(searchInput).toBeEnabled();
   });
 
+  // The date is addressed by test id, not by its colour class: these two
+  // assertions used to select `p.text-gray-400` and went red when the site was
+  // repainted, which says nothing about whether year filtering works.
   test('year page shows only episodes from that year', async ({ page }) => {
     // Go to 2025 page (assuming it has episodes)
     await page.goto('/episodes/2025');
@@ -56,7 +59,7 @@ test.describe('Episodes by Year', () => {
     // Check first few cards to verify year filtering without slowing down tests
     for (let i = 0; i < Math.min(count, 5); i++) {
       const card = episodeCards.nth(i);
-      const dateText = await card.locator('p.text-gray-400').first().textContent();
+      const dateText = await card.getByTestId('episode-date').first().textContent();
       expect(dateText).toContain('2025');
     }
   });
@@ -94,7 +97,7 @@ test.describe('Episodes by Year', () => {
     if (resultsCount > 0) {
       const cards = page.locator('[data-testid="episode-card"]');
       for (let i = 0; i < Math.min(resultsCount, 3); i++) {
-        const dateText = await cards.nth(i).locator('p.text-gray-400').first().textContent();
+        const dateText = await cards.nth(i).getByTestId('episode-date').first().textContent();
         expect(dateText).toContain('2025');
       }
     }

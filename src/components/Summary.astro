@@ -21,14 +21,14 @@ const editUrl = `https://github.com/ngobrolin/landing/edit/main/src/data/summari
 ---
 
 {summary && (
-  <div class="mt-8 bg-dark-card border border-dark-border rounded-lg p-6">
+  <div class="mt-8 bg-surface-raised border border-surface-border rounded-lg p-6">
     <div class="flex items-center justify-between mb-4">
-      <h2 class="text-lg font-semibold text-white">Ringkasan Episode</h2>
+      <h2 class="text-lg font-semibold text-ink">Ringkasan Episode</h2>
       <a 
         href={editUrl}
         target="_blank"
         rel="noopener noreferrer"
-        class="flex items-center gap-1.5 text-sm text-gray-400 hover:text-primary-light transition"
+        class="flex items-center gap-1.5 text-sm text-ink-muted hover:text-accent-text transition"
       >
         <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z" />
@@ -37,15 +37,15 @@ const editUrl = `https://github.com/ngobrolin/landing/edit/main/src/data/summari
       </a>
     </div>
     
-    <p class="text-gray-300 leading-relaxed whitespace-pre-line mb-6">
+    <p class="text-ink-body leading-relaxed whitespace-pre-line mb-6">
       {summary.brief}
     </p>
     
-    <h3 class="text-md font-semibold text-white mb-3">Poin-poin Utama</h3>
+    <h3 class="text-md font-semibold text-ink mb-3">Poin-poin Utama</h3>
     <ul class="space-y-2">
       {summary.keyPoints.map((point) => (
-        <li class="flex items-start gap-2 text-gray-300">
-          <span class="text-primary mt-1">•</span>
+        <li class="flex items-start gap-2 text-ink-body">
+          <span class="text-accent mt-1">•</span>
           <span>{point}</span>
         </li>
       ))}

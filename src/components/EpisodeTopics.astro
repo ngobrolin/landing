@@ -25,7 +25,7 @@ const tags = getEpisodeTags(videoId);
       {tags.map((tag) => (
         <a
           href={`/tags/${tag}`}
-          class="bg-dark-border text-gray-300 hover:text-white hover:bg-primary/30 border border-transparent hover:border-primary/50 px-3 py-1 rounded-full text-sm transition"
+          class="bg-surface-border text-ink-body hover:text-ink hover:bg-accent/30 border border-transparent hover:border-accent/50 px-3 py-1 rounded-full text-sm transition"
           data-analytics-event="topic_click"
           data-analytics-props={JSON.stringify({
             tag,

@@ -2,15 +2,21 @@
 name: Ngobrolin WEB
 description: Indonesian web-development video podcast and its fully-transcribed episode archive
 colors:
-  primary: "#5c5fed"
-  primary-light: "#818cf8"
-  dark: "#0f0f0f"
-  dark-card: "#1a1a1a"
-  dark-border: "#2a2a2a"
-  text-primary: "#f3f4f6"
-  text-secondary: "#d1d5db"
-  text-muted: "#9ca3af"
-  text-faint: "#6b7280"
+  surface: "#0e1122"
+  surface-raised: "#191d3a"
+  surface-overlay: "#242b4d"
+  surface-border: "#333c66"
+  surface-border-strong: "#6b76a8"
+  ink: "#f2f4fd"
+  ink-body: "#c3c9e6"
+  ink-muted: "#a8b0d2"
+  ink-subtle: "#8a94bd"
+  accent: "#6588fe"
+  accent-text: "#86a2fe"
+  accent-strong: "#2a59f4"
+  highlight: "#a76ab7"
+  highlight-text: "#c98fd8"
+  highlight-strong: "#7e3f8e"
   accent-subscribe: "#dc2626"
 typography:
   display:
@@ -59,17 +65,17 @@ spacing:
   section: "4rem"
 components:
   button-primary:
-    backgroundColor: "{colors.primary}"
-    textColor: "#ffffff"
+    backgroundColor: "{colors.accent-strong}"
+    textColor: "{colors.ink}"
     rounded: "{rounded.md}"
     padding: "0.75rem 1.5rem"
     typography: "{typography.body}"
   button-primary-hover:
-    backgroundColor: "{colors.primary-light}"
-    textColor: "#ffffff"
+    backgroundColor: "{colors.highlight-strong}"
+    textColor: "{colors.ink}"
   button-outline:
     backgroundColor: "transparent"
-    textColor: "#ffffff"
+    textColor: "{colors.ink}"
     rounded: "{rounded.md}"
     padding: "0.75rem 1.5rem"
   button-subscribe:
@@ -78,28 +84,28 @@ components:
     rounded: "{rounded.md}"
     padding: "0.5rem 1rem"
   card-episode:
-    backgroundColor: "{colors.dark-card}"
-    textColor: "{colors.text-primary}"
+    backgroundColor: "{colors.surface-raised}"
+    textColor: "{colors.ink}"
     rounded: "{rounded.lg}"
     padding: "1rem"
   chip-tag:
-    backgroundColor: "{colors.dark-border}"
-    textColor: "{colors.text-secondary}"
+    backgroundColor: "{colors.surface-border}"
+    textColor: "{colors.ink-body}"
     rounded: "{rounded.full}"
     padding: "0.25rem 0.75rem"
   chip-year-active:
-    backgroundColor: "{colors.primary}"
-    textColor: "#ffffff"
+    backgroundColor: "{colors.accent-strong}"
+    textColor: "{colors.ink}"
     rounded: "{rounded.md}"
     padding: "0.5rem 1rem"
   chip-year-idle:
-    backgroundColor: "{colors.dark-card}"
-    textColor: "{colors.text-muted}"
+    backgroundColor: "{colors.surface-raised}"
+    textColor: "{colors.ink-muted}"
     rounded: "{rounded.md}"
     padding: "0.5rem 1rem"
   input-search:
-    backgroundColor: "{colors.dark-card}"
-    textColor: "#ffffff"
+    backgroundColor: "{colors.surface-raised}"
+    textColor: "{colors.ink}"
     rounded: "{rounded.md}"
     padding: "0.75rem 1rem 0.75rem 3rem"
   badge-episode-number:
@@ -114,95 +120,128 @@ components:
 
 ## Overview
 
-**Creative North Star: "The Late-Night Studio"**
+**Creative North Star: "The Cover, Extended"**
 
-This is a system built to look like the room the show is recorded in on a
-Tuesday night at 20:00: lights down, one screen glowing, everyone leaning
-toward the same thing. The near-black ground (`#0f0f0f`) is not a
-fashionable dark theme applied to a light design — it is the actual condition
-of the interface, and every other decision is a reaction to it. Content
-surfaces sit one step up from the floor (`#1a1a1a`), separated not by shadow
-but by a hairline border (`#2a2a2a`) that reads as the edge of a panel rather
-than as a card lifted off a page.
+Every colour in this system is sampled from `public/podcast-cover.jpg` — the
+artwork already on every podcast directory that carries this show. The cover is
+three vertical bands: blue (`#6588fe`) and purple (`#a76ab7`) framing a deep
+navy panel (`#191d3a`) with the wordmark in white. So the site is that navy
+panel, extended: the ground (`#0e1122`), the card (`#191d3a`, sampled exactly),
+the overlay (`#242b4d`) and the hairline (`#333c66`) are one material at four
+lightnesses, hue and saturation held at the navy's own `hsl(233, 40%)`. That is
+what makes them read as a scale rather than as four unrelated dark greys.
 
-The single indigo accent (`#5c5fed`) does all the signalling in the system.
-It marks the current thing, the new thing, and the thing you should click, and
-it appears nowhere else. Against a ground this dark, one saturated hue carries
-enormous weight; a second accent would immediately halve the value of the
-first. The one exception is the subscribe action, which is deliberately
-YouTube red — an off-system colour used as a platform citation, not as part
-of the palette.
+The cover sets the blue and the purple **side by side as hard bands** — it is
+not a gradient, whatever it looks like at thumbnail size. The site gives them
+two jobs accordingly: blue is interactive (links, focus, filled buttons, the
+active tab, transcript timecodes); purple is categorical and decorative (topic
+labels, tier eyebrows, the Apple Podcasts citation) and is where an accent fill
+goes on hover. The blue-to-purple gradient is reserved for the few places the
+cover's own framing is being quoted directly: the favicon, the `/partners` share
+card, and `og-image.svg`. The subscribe action stays YouTube red — an
+off-system colour used as a platform citation, not as part of the palette.
 
 Typography is entirely system-stack and entirely unstyled in personality
-terms: no display face, no letter-spacing tricks, no case transforms.
-Hierarchy is carried by weight (700 versus 400) and by a wide gulf in colour
-value between white headings and `#9ca3af` metadata. The result is quiet and
-utilitarian, which suits an archive: the interface is a reading surface for
-Indonesian technical speech, and it gets out of the way. The one typographic
-signature is the monospace timecode running down the left edge of every
-transcript.
+terms: no display face, and — one uppercase stat label on `/partners` aside —
+no letter-spacing tricks or case transforms. Hierarchy is carried by weight
+(700 headings and 400 prose, with 600 on card titles and 500 on controls) and
+by a four-rung ink ladder that runs from `#f2f4fd` headings to `#8a94bd`
+metadata. The result is quiet and utilitarian, which suits an archive: the
+interface is a reading surface for Indonesian technical speech, and it gets out
+of the way. The one typographic signature is the monospace timecode running
+down the left edge of every transcript.
 
 **Key Characteristics:**
 
-- Near-black ground with a single one-step tonal lift for content surfaces
+- One navy material at four lightnesses: ground, card, overlay, hairline
 - Hairline borders instead of shadows to separate surfaces at rest
-- Exactly one accent hue, spent sparingly, plus one off-system platform red
+- Two accent hues with fixed jobs, plus borrowed brand colours for platform links
 - System font stack throughout; hierarchy from weight and colour value only
 - 16:9 thumbnail as the dominant visual unit, repeated in a 4-up grid
 - Monospace timecodes as the sole typographic ornament
 
 ## Colors
 
-A monochromatic near-black scale carrying one saturated indigo accent, with a
-single off-system red reserved for platform actions.
+Every value below is the podcast cover or a lightness step along its own hue.
+Nothing here was picked to look nice next to the last thing; if a new colour is
+needed, sample the cover for it or derive it from a token already present.
+
+`src/styles/contrast.test.ts` holds the floors these values were chosen to
+clear, and `src/styles/palette-literals.test.ts` fails the build if a retired
+literal reappears anywhere in source. Ratios below are against the ground.
 
 ### Primary
 
-- **Studio Indigo** (`#5c5fed`): The system's only signal colour. It fills
-  primary buttons, marks the active year tab, tints the `BARU` badge on the
-  two newest episodes, and colours the monospace timecodes in transcripts. At
-  50% opacity it becomes the hover border on every card.
-- **Indigo Glow** (`#818cf8`): The lighter sibling, used exclusively for
-  *text* that needs to read as interactive — inline links, hovered headings,
-  the emphasised "Selasa malam jam 20:00 WIB" phrase. Studio Indigo is for
-  fills; Indigo Glow is for type. They are not interchangeable.
+- **Cover Blue** (`#6588fe`): sampled from the cover's outer bands. The
+  interactive hue: transcript timecodes, summary bullets, tinted fills
+  (`accent/20`), hover borders. 5.8:1 on the ground.
+- **Blue Glow** (`#86a2fe`): the same blue lightened. Everything that reads as
+  *type* — links, hovered headings, the `/partners` figures, inline emphasis.
+  7.7:1 on the ground, 6.7:1 on a card.
+- **Blue Deep** (`#2a59f4`): the same blue darkened until it carries ink at AA
+  (5.0:1). Filled buttons, the `BARU` badge, the active year tab. The sampled
+  blue is far too light to sit under white — 3.2:1 — which is why this exists.
 
 ### Secondary
 
-- **Platform Red** (`#dc2626`): Not a brand colour. It appears only on
-  subscribe actions, where it is quoting YouTube's own affordance. Treating it
-  as an available accent anywhere else breaks the one-accent discipline.
+- **Cover Purple** (`#a76ab7`): sampled from the cover's inner bands. The
+  categorical hue: decorative glyphs and icon fills. 4.8:1 on the ground, and
+  4.2:1 on a card, so it is an icon colour there, not a body-text colour.
+- **Purple Glow** (`#c98fd8`): the same purple lightened for type — tier
+  eyebrows, the Apple Podcasts citation. 7.5:1 on the ground.
+- **Purple Deep** (`#7e3f8e`): the hover state of every filled blue button.
+  6.4:1 under ink. This is the one place the site performs the cover's own
+  blue-beside-purple pairing as a state change.
+- **Platform Red** (`#dc2626`): not a brand colour. It appears only on
+  subscribe actions, where it is quoting YouTube's own affordance.
 
 ### Neutral
 
-- **Studio Floor** (`#0f0f0f`): The page ground. Every surface is measured
-  against it.
-- **Panel** (`#1a1a1a`): The single elevation step. Episode cards, the search
-  field, transcript and summary containers, prev/next navigation. There is no
-  second step; nothing sits on top of a panel.
-- **Hairline** (`#2a2a2a`): Every border and divider in the system, plus the
-  fill of inert topic chips. It is the separator, not a surface.
-- **Heading White** (`#f3f4f6` / plain `white`): Episode titles, section
-  headings, active states.
-- **Body Grey** (`#d1d5db`): Running prose — descriptions, transcript lines,
-  summary text. The default reading colour, never white.
-- **Metadata Grey** (`#9ca3af`): Dates, counts, captions, idle navigation
-  links.
-- **Faint Grey** (`#6b7280`): Placeholder text, search icon, tertiary counts.
-  The floor of legibility in this system; nothing meaningful goes below it.
+- **Ground** (`#0e1122`): the page. The navy, one step below the cover's own.
+- **Card** (`#191d3a`): the cover's centre panel, sampled exactly. Episode
+  cards, the search field, transcript and summary containers, the `/partners`
+  stats band.
+- **Overlay** (`#242b4d`): the step above a card — the mobile menu, the skip
+  link, the copy-link button, hover fills on the scroll buttons.
+- **Hairline** (`#333c66`): every border and divider at rest, plus the fill of
+  inert topic chips. 1.55:1 against a card — a separator, not a boundary.
+- **Control Outline** (`#6b76a8`): where a border *is* the thing that
+  identifies a control, a text field above all. 3.7:1 against a card, which is
+  what WCAG 1.4.11 asks of a component boundary and what the hairline cannot
+  give.
+- **Ink** (`#f2f4fd`): headings, active states. 17:1.
+- **Ink Body** (`#c3c9e6`): running prose — descriptions, transcript lines,
+  summary text. The default reading colour, never white. 11.4:1.
+- **Ink Muted** (`#a8b0d2`): dates, counts, captions, idle navigation. 8.7:1.
+- **Ink Subtle** (`#8a94bd`): placeholders, search icon, tertiary counts. The
+  floor of legibility; nothing meaningful goes below it. 6.3:1 on the ground and
+  4.6:1 on the overlay, so it still clears AA on the darkest thing it can sit on.
 
 ### Named Rules
 
-**The One Accent Rule.** Studio Indigo is the only colour that means
-"important". If a new element needs to stand out and indigo is already spent
-nearby, the answer is weight, size, or space — never a second hue.
+**The Two-Job Rule.** Blue means *you can act on this*. Purple means *this is
+what kind of thing it is*. A new element picks the one that describes its job;
+it does not pick whichever looks better in the mock. The gradient is not a third
+option — it appears only where the cover's framing is quoted wholesale.
 
-**The Fill/Type Split.** Studio Indigo (`#5c5fed`) fills shapes. Indigo Glow
-(`#818cf8`) colours text. Indigo Glow on a filled button, or Studio Indigo as
-link text on the dark ground, both fail contrast and read as a mistake.
+**The Fill/Type Split.** Each accent has three values and they are not
+interchangeable. `-strong` fills shapes that carry text. The bare token fills
+shapes that do not, and colours icons. `-text` colours type. Putting the bare
+blue under white text fails contrast at 3.2:1, which is exactly the mistake the
+previous palette shipped.
 
-**The Red Is Borrowed Rule.** Platform Red belongs to YouTube, not to
-Ngobrolin WEB. Use it on subscribe affordances and nowhere else.
+**The Sample-Don't-Invent Rule.** A colour that is not in `global.css` and not
+in the cover does not belong in this system. `src/styles/palette-literals.test.ts`
+enforces the negative half of that for the palette this one replaced.
+
+**The Borrowed-Colour Rule.** Platform Red belongs to YouTube, not to
+Ngobrolin WEB. Use it on subscribe affordances and nowhere else. The same
+holds for every other brand colour the site quotes — Spotify green, the RSS
+orange, the share row's WhatsApp/X/LinkedIn fills: reproduce the brand value
+exactly and never bend it toward the palette. What *is* the site's call is the
+label on top, which takes whichever of black or white clears AA on that brand
+value. Spotify green carries white at only 2.59:1, so its tile is labelled in
+black (8.1:1); YouTube red carries white at 4.8:1 and keeps it.
 
 ## Typography
 
@@ -214,7 +253,7 @@ Monaco, Consolas`), transcript timecodes only
 
 **Character:** Deliberately impersonal. The system ships no webfont, so type
 personality comes entirely from the reader's own platform. Every distinction
-in the hierarchy is made with two weights and four grey values. On a
+in the hierarchy is made with four weights and four grey values. On a
 long-form Indonesian transcript this is a strength: nothing competes with the
 words.
 
@@ -230,19 +269,21 @@ words.
   `max-w-2xl`–`max-w-4xl` containers rather than a `ch` measure.
 - **Label** (700, `0.75rem`, 1): Badges — `BARU`, `EP 178`. Always
   uppercase by content, never by `text-transform`.
-- **Timecode** (400 mono, `0.875rem`): Transcript timestamps in Studio
-  Indigo, `0.5rem` right margin, forming a vertical rail down the transcript.
+- **Timecode** (400 mono, `0.875rem`): Transcript timestamps in Cover
+  Blue, `0.5rem` right margin, forming a vertical rail down the transcript.
 
 ### Named Rules
 
-**The Two Weights Rule.** 700 or 400. There is no 500 or 600 anywhere in the
-system. A heading that needs to feel lighter gets a greyer colour, not a
-lower weight.
+**The Weight Restraint Rule.** Headings are 700 and running prose is 400. The
+shipped system also carries 600 on card and section titles and 500 on controls,
+badges and inline emphasis; that is the whole ladder, and there is no fifth
+weight. A heading that needs to feel lighter gets a greyer colour, not a lower
+weight.
 
-**The Grey Ladder Rule.** Every block of text picks exactly one rung: white
-for headings, `#d1d5db` for prose, `#9ca3af` for metadata, `#6b7280` for
-placeholders. Inventing an intermediate grey flattens the ladder for
-everything else.
+**The Ink Ladder Rule.** Every block of text picks exactly one rung: `ink` for
+headings, `ink-body` for prose, `ink-muted` for metadata, `ink-subtle` for
+placeholders. Inventing an intermediate value flattens the ladder for
+everything else, and the ladder is what carries hierarchy here.
 
 ## Layout
 
@@ -269,20 +310,21 @@ no alternative to the card grid.
 
 ## Elevation & Depth
 
-**This system has no shadow vocabulary at rest.** Depth is tonal: the
-`#0f0f0f` ground, a single `#1a1a1a` surface step, and a `#2a2a2a` hairline
-to cut the edge. Nothing stacks beyond that one step — there is no popover,
-no modal, no drawer, no second-level surface anywhere in the implementation.
+**This system has no shadow vocabulary at rest.** Depth is tonal: the ground
+(`#0e1122`), the card (`#191d3a`), the overlay (`#242b4d`) and a hairline
+(`#333c66`) to cut the edge. Each step is a real one — roughly 1.15–1.2:1
+against the step below, which is visible where the retired palette's three
+greys two points apart were not.
 
 Shadow exists only as a *response*. An episode card on hover gains
-`shadow-lg` tinted `primary/10`, which reads as the card catching a little of
-the accent light rather than lifting off the page. The mobile menu overlay
-uses a border, not a shadow, to separate itself from the page below.
+`shadow-lg` tinted `accent/10`, which reads as the card catching a little of
+the accent light rather than lifting off the page. The mobile menu is separated
+by being an overlay-step surface with a border, not by a shadow.
 
 ### Shadow Vocabulary
 
-- **Accent catch** (`box-shadow: 0 10px 15px -3px rgb(92 95 237 / 0.1), 0 4px 6px -4px rgb(92 95 237 / 0.1)`):
-  Card hover only. Always paired with the border shifting to `primary/50` and
+- **Accent catch** (`box-shadow: 0 10px 15px -3px rgb(101 136 254 / 0.1), 0 4px 6px -4px rgb(101 136 254 / 0.1)`):
+  Card hover only. Always paired with the border shifting to `accent/50` and
   the thumbnail scaling to `1.05`.
 
 ### Named Rules
@@ -290,9 +332,10 @@ uses a border, not a shadow, to separate itself from the page below.
 **The Flat Floor Rule.** Surfaces are flat at rest and separated by hairlines.
 A shadow in a static screenshot of this system is a bug.
 
-**The One Step Rule.** There is exactly one elevation above the ground. If a
-design needs a surface on top of a panel, the surface model is wrong for this
-system — use a border, a divider, or a `<details>` disclosure instead.
+**The Two Step Rule.** There are exactly two elevations above the ground, and
+the overlay step is for things that sit *over* the page — the mobile menu, the
+skip link, a hover fill. A third surface means the model is wrong for this
+system; use a border, a divider, or a `<details>` disclosure instead.
 
 ## Shapes
 
@@ -302,9 +345,12 @@ and prev/next blocks, `0.75rem` for episode cards and the large CTA panels.
 Fully round (`9999px`) is reserved for inert topic chips and panellist
 avatars.
 
-Borders are always exactly `1px` and always `#2a2a2a` at rest. The
-interactive signal is a *colour* change on that border (to `primary/50`),
-never a width change — a border that thickens on hover would shift layout.
+Borders are always exactly `1px`. At rest they are the hairline (`#333c66`);
+where the border is what identifies the control — a text field — they are the
+control outline (`#6b76a8`), which is the only value that clears the 3:1 WCAG
+1.4.11 asks of a component boundary. The interactive signal is a *colour*
+change on that border, never a width change — a border that thickens on hover
+would shift layout.
 
 The recurring silhouette is the 16:9 thumbnail with content stacked beneath
 it inside a rounded panel. That unit repeats across the entire site and is the
@@ -315,69 +361,69 @@ closest thing the system has to a signature form.
 ### Buttons
 
 - **Shape:** Softly rounded (`0.5rem`), no border on filled variants.
-- **Primary:** Studio Indigo fill, white text, `0.75rem 1.5rem` padding,
+- **Primary:** Blue Deep fill, ink text, `0.75rem 1.5rem` padding,
   `font-medium`.
-- **Hover / Focus:** Background lightens to Indigo Glow over a default
-  `transition`. No transform, no shadow.
-- **Outline:** Transparent fill with a `#4b5563` border and white text; the
-  border goes white on hover. Used for the secondary hero action.
+- **Hover:** Background crosses to Purple Deep over a default `transition` —
+  the cover's pairing as a state change. No transform, no shadow. Lightening
+  toward the sampled blue is not available: it would drop the label to 3.2:1.
+- **Outline:** Transparent fill with a Control Outline border and ink text; the
+  border and label go Blue Glow on hover. Used for the secondary hero action.
 - **Subscribe:** Platform Red fill, smaller padding (`0.5rem 1rem`), `text-sm`.
   Carries `data-analytics-event="cta_click"` wherever it appears.
 
 ### Chips
 
-- **Topic chip (inert):** `#2a2a2a` fill, `#d1d5db` text, fully rounded,
+- **Topic chip (inert):** hairline fill, `ink-body` text, fully rounded,
   `text-sm`. Currently used as a non-interactive label on the homepage and
   about page.
-- **Year tab:** Two states only. Active is Studio Indigo fill with white
-  text and no border; idle is `#1a1a1a` fill, `#9ca3af` text, `#2a2a2a`
-  border, going white-text/indigo-border on hover. Carries `aria-current="page"`
-  when active.
+- **Year tab:** Two states only. Active is Blue Deep fill with ink text and no
+  border; idle is card fill, `ink-muted` text, hairline border, going
+  ink-text/blue-border on hover. Carries `aria-current="page"` when active.
 
 ### Cards / Containers
 
 - **Corner Style:** `0.75rem`.
-- **Background:** `#1a1a1a` on the `#0f0f0f` ground.
+- **Background:** the card step (`#191d3a`) on the ground (`#0e1122`).
 - **Shadow Strategy:** None at rest; accent catch on hover (see Elevation).
-- **Border:** `1px #2a2a2a`, shifting to `primary/50` on hover.
+- **Border:** `1px` hairline, shifting to `accent/50` on hover.
 - **Internal Padding:** `1rem` for episode cards, `1.5rem` for prose panels.
 - **Signature behaviour:** the whole card is a single `<a>`. The thumbnail
   scales to `1.05` under `overflow-hidden` on hover while the title shifts to
-  Indigo Glow — one hover, three coordinated responses.
+  Blue Glow — one hover, three coordinated responses.
 
 ### Inputs / Fields
 
-- **Style:** `#1a1a1a` fill, `1px #2a2a2a` border, `0.5rem` radius, full
+- **Style:** card fill, `1px` Control Outline border, `0.5rem` radius, full
   width, `0.75rem` vertical padding with `3rem` left padding to clear the
   inset search icon.
-- **Focus:** `outline-none` with the border shifting to Studio Indigo. This is
-  the only focus treatment in the system and it is border-only.
-- **Placeholder:** `#6b7280`.
+- **Focus:** the site-wide focus ring (see The Visible Focus Rule) plus the
+  border shifting to Blue Glow.
+- **Placeholder:** `ink-subtle`.
 - **Affordances:** an inset magnifier at `left-1rem` and a clear (`×`) button
   at `right-1rem` that is hidden until the field has content.
 
 ### Navigation
 
 - **Desktop (`md` and up):** A single row — wordmark left, text links
-  (`#d1d5db`, white on hover) plus one red subscribe button right. Bottom
-  border `#2a2a2a`. No active-page indication.
-- **Mobile:** Hamburger toggling a full-width `#0f0f0f` overlay with a top
+  (`ink-body`, `ink` on hover) plus one red subscribe button right. Bottom
+  hairline border. `aria-current` marks the section.
+- **Mobile:** Hamburger toggling a full-width overlay-step panel with a top
   border; links stack with `1rem` gaps and the subscribe button goes
   full-width. The toggle is an inline script guarded by
   `data-menu-initialized` and marked `data-astro-rerun` so it survives view
   transitions.
-- **Breadcrumb (episode pages):** `text-sm`, `#9ca3af`, slash-separated,
-  current crumb in white.
+- **Breadcrumb (episode pages):** `text-sm`, `ink-muted`, slash-separated,
+  current crumb in ink.
 
 ### Transcript (signature component)
 
 The system's most distinctive surface and the reason the mono token exists.
-Inside a `#1a1a1a` panel, each line is a paragraph with a Studio Indigo
-monospace timecode inline-left and `#d1d5db` body text, `0.75rem` apart. The
-first 30 segments render open; the remainder live inside a `<details>` whose
-summary is Indigo Glow text. An "otomatis" pill (`#6b7280` text, hairline
-border) marks YouTube-auto-captioned transcripts, and a "Bantu Koreksi" link
-sits right-aligned in the header.
+Inside a card-step panel, each line is a paragraph with a Cover Blue monospace
+timecode inline-left and `ink-body` text, `0.75rem` apart. The first 30
+segments render open; the remainder live inside a `<details>` whose summary is
+Blue Glow text. An "otomatis" pill (`ink-subtle` text, hairline border) marks
+YouTube-auto-captioned transcripts, and a "Bantu Koreksi" link sits
+right-aligned in the header.
 
 ### Named Rules
 
@@ -385,18 +431,21 @@ sits right-aligned in the header.
 interactive elements inside a card are invalid in this system — the offline
 indicator is decorative for exactly this reason.
 
-**The Border-Focus Rule.** Focus is expressed by the border going Studio
-Indigo. Do not add a ring, a glow, or an outline offset; it would be the only
-one in the system.
+**The Visible Focus Rule.** `:focus-visible` in `global.css` draws a `2px` Blue
+Glow outline at `2px` offset on *everything*. It replaced a border-only focus
+treatment that only existed on the search field, which left every link and
+button in the site relying on the UA outline — near-invisible on this ground.
+A component may add to it; nothing may set `outline: none` without replacing
+it with something at least as visible.
 
 ## Do's and Don'ts
 
 ### Do:
 
-- **Do** use `#1a1a1a` on `#0f0f0f` with a `1px #2a2a2a` border for any new
-  surface. That trio is the entire surface language.
-- **Do** carry hierarchy with the grey ladder — white / `#d1d5db` /
-  `#9ca3af` / `#6b7280` — before reaching for size or weight.
+- **Do** build any new surface from the tokens: card on ground with a `1px`
+  hairline, or overlay for something that sits over the page.
+- **Do** carry hierarchy with the ink ladder — `ink` / `ink-body` /
+  `ink-muted` / `ink-subtle` — before reaching for size or weight.
 - **Do** reuse the `1 → 2 → 4` episode grid with a `1.5rem` gutter for any
   new collection of episodes, so archive, topic and year pages stay one
   product.
@@ -409,15 +458,17 @@ one in the system.
 
 ### Don't:
 
-- **Don't** introduce a second accent hue. Studio Indigo is the only signal
-  colour, and Platform Red is a citation, not an accent.
+- **Don't** introduce a third accent hue. Blue and purple both come from the
+  cover and both have a job; Platform Red is a citation, not an accent.
 - **Don't** add a shadow to anything at rest. Depth is tonal in this system.
-- **Don't** stack a surface on top of a panel. There is one elevation step
-  and no popover, modal or drawer precedent to follow.
-- **Don't** use font weights other than 400 and 700, or add `letter-spacing`
-  and `text-transform` — no element in the shipped system does.
+- **Don't** stack a third surface on top of the overlay. There is no popover,
+  modal or drawer precedent to follow.
+- **Don't** add a font weight beyond the 400/500/600/700 already in use, and
+  don't reach for `letter-spacing` or `text-transform` — the `/partners` stat
+  label is the only element in the shipped system that has either.
 - **Don't** put an interactive element inside an episode card; the card is
   itself a single link.
-- **Don't** use a grey lighter than `#6b7280` for text that carries meaning.
+- **Don't** use anything dimmer than `ink-subtle` for text that carries
+  meaning, and don't write a hex literal where a token exists.
 - **Don't** introduce a webfont; the system is deliberately system-stack and
   ships zero font bytes.

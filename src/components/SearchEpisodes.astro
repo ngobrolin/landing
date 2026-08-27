@@ -42,10 +42,10 @@ const searchKeys = SEARCH_KEYS;
       aria-label="Cari episode"
       aria-controls="episodes-grid"
       autocomplete="off"
-      class="w-full bg-dark-card border border-dark-border rounded-lg px-4 py-3 pl-12 text-white placeholder-gray-500 focus:outline-none focus:border-primary transition"
+      class="w-full bg-surface-raised border border-surface-border-strong rounded-lg px-4 py-3 pl-12 text-ink placeholder-ink-subtle focus:border-accent-text transition"
     />
     <svg
-      class="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-gray-500"
+      class="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-ink-subtle"
       fill="none"
       stroke="currentColor"
       viewBox="0 0 24 24"
@@ -61,7 +61,7 @@ const searchKeys = SEARCH_KEYS;
       id="clear-search"
       type="button"
       aria-label="Hapus pencarian"
-      class="absolute right-4 top-1/2 -translate-y-1/2 text-gray-500 hover:text-white transition hidden"
+      class="absolute right-4 top-1/2 -translate-y-1/2 text-ink-subtle hover:text-ink transition hidden"
     >
       <svg
         class="w-5 h-5"
@@ -80,7 +80,7 @@ const searchKeys = SEARCH_KEYS;
   </div>
   <p
     id="search-results-count"
-    class="text-gray-400 text-sm mt-2 hidden"
+    class="text-ink-muted text-sm mt-2 hidden"
     role="status"
     aria-live="polite"
   >
@@ -118,8 +118,8 @@ const searchKeys = SEARCH_KEYS;
 </div>
 
 <div id="no-results" class="hidden text-center py-12">
-  <p class="text-gray-400 text-lg">Tidak ada episode yang ditemukan.</p>
-  <p class="text-gray-500 text-sm mt-2">Coba kata kunci lain.</p>
+  <p class="text-ink-muted text-lg">Tidak ada episode yang ditemukan.</p>
+  <p class="text-ink-subtle text-sm mt-2">Coba kata kunci lain.</p>
 </div>
 
 <div
@@ -173,7 +173,7 @@ const searchKeys = SEARCH_KEYS;
 
   // Search filters the cards Astro already rendered rather than re-rendering
   // them from a JS template. The old template was a second, drifting copy of
-  // EpisodeCard: it hardcoded #6366f1 instead of the palette's #5c5fed, built
+  // EpisodeCard: it hardcoded its own accent instead of using the palette, built
   // unoptimised image markup that bypassed Astro's asset pipeline, and dropped
   // the offline indicator. Toggling visibility keeps one source of truth.
   //

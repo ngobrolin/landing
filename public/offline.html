@@ -7,12 +7,16 @@
     <meta name="description" content="Kamu sedang offline. Tonton episode yang sudah tersimpan.">
     <style>
         :root {
-            --bg-primary: #0a0a0a;
-            --bg-secondary: #1a1a1a;
-            --text-primary: #ffffff;
-            --text-secondary: #a0a0a0;
-            --accent: #ff6b6b;
-            --border: #333333;
+            /* Standalone copy of the tokens in src/styles/global.css. This
+               page is served by the service worker without the Astro bundle,
+               so it cannot import them - keep the two in step by hand. */
+            --bg-primary: #0e1122;
+            --bg-secondary: #191d3a;
+            --text-primary: #f2f4fd;
+            --text-secondary: #a8b0d2;
+            --accent: #6588fe;
+            --accent-strong: #2a59f4;
+            --border: #333c66;
         }
 
         * {
@@ -101,7 +105,7 @@
             display: inline-block;
             margin-top: 2rem;
             padding: 0.75rem 1.5rem;
-            background: var(--accent);
+            background: var(--accent-strong);
             color: var(--text-primary);
             text-decoration: none;
             border-radius: 0.25rem;
@@ -164,7 +168,7 @@
             // Set current year
             document.getElementById('year').textContent = new Date().getFullYear();
 
-            // Load cached episodes from ngobrol-pages-v1 cache
+            // Load cached episodes from ngobrol-pages-v2 cache
             async function loadCachedEpisodes() {
                 const cachedList = document.getElementById('cached-list');
 
@@ -174,7 +178,7 @@
                         return;
                     }
 
-                    const cache = await caches.open('ngobrol-pages-v1');
+                    const cache = await caches.open('ngobrol-pages-v2');
                     const keys = await cache.keys();
 
                     // Filter for episode pages only
