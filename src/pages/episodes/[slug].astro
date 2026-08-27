@@ -120,7 +120,7 @@ const displayTitle = getDisplayTitle(episode.title);
                             >
                         </li>
                         <li aria-hidden="true">/</li>
-                        <li class="text-ink" aria-current="page">EP {episode.episodeNumber}</li>
+                        <li class="text-ink" aria-current="page" title={displayTitle}>EP {episode.episodeNumber}</li>
                     </ol>
                 </nav>
 
@@ -237,7 +237,7 @@ const displayTitle = getDisplayTitle(episode.title);
                         YouTube button.
                     -->
                     <section
-                        class="mt-8 p-6 bg-gradient-to-r from-accent/10 to-accent-text/10 border border-accent/20 rounded-xl"
+                        class="mt-8 p-6 bg-surface-raised border border-surface-border rounded-xl"
                         data-testid="episode-subscribe"
                         aria-labelledby="episode-subscribe-heading"
                     >
