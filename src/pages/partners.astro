@@ -28,6 +28,58 @@ const episodesTile = tiles.find(tile => tile.id === 'episodes')!;
 const CONTACT_EMAIL = 'rizafahmi@gmail.com';
 const CONTACT_HREF = `mailto:${CONTACT_EMAIL}?subject=Sponsor%20%26%20Iklan%20Ngobrolin%20WEB`;
 
+// Host panel data
+const hosts = [
+  {
+    name: 'Riza Fahmi',
+    role: 'Co-founder Hacktiv8',
+    expert: 'GDE Web',
+    bio: 'Google Developer Expert seputar Web & AI. Praktisi software engineering dan edukator teknologi yang mendirikan Hacktiv8.',
+    image: '/images/riza.jpg',
+    github: 'https://github.com/rizafahmi',
+    youtube: 'https://www.youtube.com/@RizaFahmi',
+    x: 'https://x.com/search?q=%23ngobrolinweb&f=live',
+  },
+  {
+    name: 'Eka',
+    role: 'Software Engineer, Atma Connect',
+    expert: 'GDE Web',
+    bio: 'Google Developer Expert Web Technologies. Pengembang web yang fokus pada aksesibilitas, performa, dan ekosistem web modern.',
+    image: '/images/eka.jpg',
+    github: 'https://github.com/ekafyi',
+    x: 'https://x.com/ekafyi',
+  },
+  {
+    name: 'Ivan Kristianto',
+    role: 'Senior Web Engineer, Human Made',
+    expert: 'GDE Web',
+    bio: 'Google Developer Expert Web. Berpengalaman belasan tahun dalam arsitektur platform web skala besar dan open-source.',
+    image: '/images/ivan.jpg',
+    github: 'https://github.com/ivankristianto',
+    x: 'https://x.com/ivankrisdotcom',
+  },
+];
+
+// Sponsorship FAQ
+const faqs = [
+  {
+    q: 'Berapa lama estimasi lead time untuk sponsor episode?',
+    a: 'Kami menyarankan konfirmasi materi 1 hingga 2 minggu sebelum jadwal tayang hari Selasa agar materi promosi dan demo dapat dipersiapkan secara maksimal.',
+  },
+  {
+    q: 'Apakah brand bisa memberikan talking points atau demo khusus?',
+    a: 'Bisa. Kami menyambut talking points dan materi demo yang kemudian dibawakan secara natural dan autentik oleh para host agar tetap relevan bagi penonton.',
+  },
+  {
+    q: 'Apakah ada laporan performa setelah episode tayang?',
+    a: 'Ya, kami dapat membagikan rangkuman metrik impresi, tayangan, dan interaksi setelah episode tayang di kanal YouTube dan platform podcast.',
+  },
+  {
+    q: 'Bagaimana jika kami ingin kerja sama non-komersial atau media partner komunitas?',
+    a: 'Kami sangat mendukung kemajuan ekosistem developer Indonesia. Silakan hubungi kami via email dengan detail acara atau komunitas Anda untuk menjajaki kolaborasi media partner.',
+  },
+];
+
 // Drawn at build time by `src/pages/partners-og.png.ts` from the same figures,
 // so a link pasted into WhatsApp or email previews as a one-page media kit that
 // cannot contradict the page it opens.
@@ -69,15 +121,28 @@ const shareCardAlt = `Ngobrolin WEB — sponsor & pasang iklan: ${getPartnerCard
         <p class="text-ink-subtle mb-8">
           {episodesTile.value} episode sejak {firstYear}. Angka lengkapnya ada di bawah.
         </p>
-        <a
-          href={CONTACT_HREF}
-          data-testid="partners-cta"
-          class="inline-block bg-accent-strong hover:bg-highlight-strong text-ink px-8 py-4 rounded-lg font-semibold text-lg transition"
-          data-analytics-event="cta_click"
-          data-analytics-props={JSON.stringify({ cta: "partnership_contact", location: "hero" })}
-        >
-          Diskusikan Kerja Sama →
-        </a>
+        <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+          <a
+            href={CONTACT_HREF}
+            data-testid="partners-cta"
+            class="inline-block bg-accent-strong hover:bg-highlight-strong text-ink px-8 py-4 rounded-lg font-semibold text-lg transition"
+            data-analytics-event="cta_click"
+            data-analytics-props={JSON.stringify({ cta: "partnership_contact", location: "hero" })}
+          >
+            Diskusikan Kerja Sama →
+          </a>
+          <button
+            type="button"
+            class="copy-email-trigger inline-flex items-center gap-2 bg-surface-raised border border-surface-border hover:border-accent/50 text-ink px-6 py-4 rounded-lg font-semibold text-lg transition cursor-pointer"
+            data-email={CONTACT_EMAIL}
+            aria-label="Salin alamat email kontak kerja sama"
+          >
+            <svg class="w-5 h-5 text-accent-text shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2v-1M8 5a2 2 0 002 2h2a2 2 0 002-2M8 5a2 2 0 012-2h2a2 2 0 012 2m0 0h2a2 2 0 012 2v3m2 4H10m0 0l3-3m-3 3l3 3" />
+            </svg>
+            <span class="copy-label">Salin Email</span>
+          </button>
+        </div>
         <p class="mt-4 text-sm text-ink-subtle">
           Langsung ke <span class="text-ink-body" data-testid="partners-contact-address">{CONTACT_EMAIL}</span> · dibalas dalam 2 hari kerja.
         </p>
@@ -93,12 +158,12 @@ const shareCardAlt = `Ngobrolin WEB — sponsor & pasang iklan: ${getPartnerCard
           <div class="text-center" data-testid="stat-tile">
             <div class="text-xs uppercase tracking-wide text-ink-subtle mb-1" data-testid="stat-scope">{stat.scope}</div>
             <div class="text-4xl md:text-5xl font-bold text-accent-text mb-2" data-testid={`stat-${stat.id}`}>{stat.value}</div>
-            <div class="text-ink-muted" data-testid={`stat-${stat.id}-label`}>{stat.label}</div>
+            <div class="text-ink-muted text-sm sm:text-base" data-testid={`stat-${stat.id}-label`}>{stat.label}</div>
           </div>
         ))}
       </div>
 
-      <p class="max-w-4xl mx-auto mt-10 text-center text-sm text-ink-muted" data-testid="stat-supporting">
+      <p class="max-w-4xl mx-auto mt-10 text-center text-sm text-ink-muted leading-relaxed" data-testid="stat-supporting">
         <span data-testid="stat-supporting-scope">{supportingScope}</span> {supporting}
       </p>
 
@@ -108,11 +173,67 @@ const shareCardAlt = `Ngobrolin WEB — sponsor & pasang iklan: ${getPartnerCard
     </div>
   </section>
 
+  <!-- Host Credibility & Panel Section -->
+  <section class="py-20">
+    <div class="container mx-auto px-4">
+      <div class="max-w-3xl mx-auto text-center mb-14">
+        <h2 class="text-3xl md:text-4xl font-bold text-ink mb-4">
+          Dipandu Google Developer Experts Indonesia
+        </h2>
+        <p class="text-ink-muted text-lg">
+          Sponsor Anda diasosiasikan langsung dengan praktisi teknologi yang dipercaya oleh komunitas developer nasional.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-5xl mx-auto">
+        {hosts.map(host => (
+          <div class="bg-surface-raised border border-surface-border rounded-xl p-6 flex flex-col items-center text-center">
+            <img
+              src={host.image}
+              alt={host.name}
+              class="w-20 h-20 rounded-full object-cover ring-2 ring-accent/40 mb-4"
+              loading="lazy"
+              width="80"
+              height="80"
+            />
+            <div class="flex items-center gap-1.5 mb-1">
+              <h3 class="text-ink font-bold text-lg">{host.name}</h3>
+              <span class="bg-accent-strong/20 text-accent-text border border-accent-strong/30 px-1.5 py-0.5 rounded text-xs font-semibold">
+                {host.expert}
+              </span>
+            </div>
+            <p class="text-ink-muted text-sm mb-3 font-medium">{host.role}</p>
+            <p class="text-ink-body text-xs leading-relaxed mb-4 flex-1">
+              {host.bio}
+            </p>
+            <div class="flex items-center gap-4 text-xs text-accent-text pt-2 border-t border-surface-border/50 w-full justify-center">
+              {host.github && (
+                <a href={host.github} target="_blank" rel="noopener noreferrer" class="hover:text-ink transition">
+                  GitHub
+                </a>
+              )}
+              {host.x && (
+                <a href={host.x} target="_blank" rel="noopener noreferrer" class="hover:text-ink transition">
+                  X
+                </a>
+              )}
+              {host.youtube && (
+                <a href={host.youtube} target="_blank" rel="noopener noreferrer" class="hover:text-ink transition">
+                  YouTube
+                </a>
+              )}
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
   <!-- Current Partners -->
   {goldPartners.length > 0 && (
-    <section class="py-16">
+    <section class="py-16 border-t border-surface-border/60">
       <div class="container mx-auto px-4">
-        <p class="text-center text-ink-muted mb-8">Dipercaya oleh:</p>
+        <p class="text-center text-ink-muted mb-8 text-sm">Dipercaya oleh partner industri:</p>
         <div class="flex flex-wrap justify-center items-center gap-12">
           {goldPartners.map(partner => (
             <a 
@@ -120,6 +241,7 @@ const shareCardAlt = `Ngobrolin WEB — sponsor & pasang iklan: ${getPartnerCard
               target="_blank"
               rel="noopener noreferrer"
               class="opacity-70 hover:opacity-100 transition"
+              title={partner.name}
             >
               <img 
                 src={partner.logo} 
@@ -180,122 +302,127 @@ const shareCardAlt = `Ngobrolin WEB — sponsor & pasang iklan: ${getPartnerCard
   </section>
 
   <!-- Sponsorship Options -->
-  <section class="py-20 bg-surface-raised/30">
+  <section class="py-20 border-y border-surface-border/40">
     <div class="container mx-auto px-4">
       <div class="max-w-3xl mx-auto text-center mb-16">
         <h2 class="text-3xl md:text-4xl font-bold text-ink mb-4">
           Paket Partnership
         </h2>
         <p class="text-ink-muted text-lg">
-          Pilih format yang sesuai dengan kebutuhan dan budget marketing Anda.
+          Pilih format promosi yang sesuai dengan kebutuhan dan objektif marketing Anda.
         </p>
       </div>
 
       <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
         <!-- Sponsor Episode -->
-        <div class="p-8 bg-surface-raised border border-surface-border rounded-xl hover:border-accent/50 transition">
-          <div class="text-highlight-text font-semibold mb-2">Paling Populer</div>
-          <h3 class="text-2xl font-bold text-ink mb-4">Sponsor Episode</h3>
-          <p class="text-ink-muted mb-6">
-            Sponsor penuh satu episode dengan mention di awal, tengah, dan akhir video. Logo ditampilkan sepanjang episode.
-          </p>
-          <ul class="space-y-3 mb-8">
-            <li class="flex items-center text-ink-body">
-              <svg class="w-5 h-5 text-accent-text mr-3" fill="currentColor" viewBox="0 0 20 20">
-                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
-              </svg>
-              Mention 3x per episode
-            </li>
-            <li class="flex items-center text-ink-body">
-              <svg class="w-5 h-5 text-accent-text mr-3" fill="currentColor" viewBox="0 0 20 20">
-                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
-              </svg>
-              Logo di video overlay
-            </li>
-            <li class="flex items-center text-ink-body">
-              <svg class="w-5 h-5 text-accent-text mr-3" fill="currentColor" viewBox="0 0 20 20">
-                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
-              </svg>
-              Link di deskripsi video
-            </li>
-            <li class="flex items-center text-ink-body">
-              <svg class="w-5 h-5 text-accent-text mr-3" fill="currentColor" viewBox="0 0 20 20">
-                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
-              </svg>
-              Promosi di social media
-            </li>
-          </ul>
+        <div class="p-8 bg-surface-raised border border-surface-border rounded-xl hover:border-accent/50 transition flex flex-col justify-between">
+          <div>
+            <div class="inline-block bg-highlight/20 text-highlight-text px-2.5 py-0.5 rounded text-xs font-semibold mb-3">Paling Populer</div>
+            <h3 class="text-2xl font-bold text-ink mb-3">Sponsor Episode</h3>
+            <p class="text-ink-muted text-sm mb-6 leading-relaxed">
+              Sponsor penuh satu episode dengan mention langsung di awal, tengah, dan akhir video podcast.
+            </p>
+            <div class="space-y-3 mb-8">
+              <div class="flex items-start gap-2.5 text-sm text-ink-body">
+                <span class="text-accent-text font-bold">✓</span>
+                <span>Host-read mention 3x per episode</span>
+              </div>
+              <div class="flex items-start gap-2.5 text-sm text-ink-body">
+                <span class="text-accent-text font-bold">✓</span>
+                <span>Logo di video overlay & title bar</span>
+              </div>
+              <div class="flex items-start gap-2.5 text-sm text-ink-body">
+                <span class="text-accent-text font-bold">✓</span>
+                <span>Link permanen di deskripsi video & web</span>
+              </div>
+              <div class="flex items-start gap-2.5 text-sm text-ink-body">
+                <span class="text-accent-text font-bold">✓</span>
+                <span>Promosi di media sosial host & channel</span>
+              </div>
+            </div>
+          </div>
+          <a
+            href={`${CONTACT_HREF}%20-%20Paket%20Sponsor%20Episode`}
+            class="block w-full px-4 py-3 text-center bg-accent-strong hover:bg-highlight-strong text-ink font-semibold rounded-lg transition text-sm"
+          >
+            Pilih Sponsor Episode
+          </a>
         </div>
 
         <!-- Penempatan Logo -->
-        <div class="p-8 bg-surface-raised border border-surface-border rounded-xl hover:border-accent/50 transition">
-          <div class="text-ink-subtle font-semibold mb-2">Hemat Budget</div>
-          <h3 class="text-2xl font-bold text-ink mb-4">Penempatan Logo</h3>
-          <p class="text-ink-muted mb-6">
-            Logo brand Anda ditampilkan di setiap episode selama periode tertentu. Cocok untuk brand awareness jangka panjang.
-          </p>
-          <ul class="space-y-3 mb-8">
-            <li class="flex items-center text-ink-body">
-              <svg class="w-5 h-5 text-accent-text mr-3" fill="currentColor" viewBox="0 0 20 20">
-                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
-              </svg>
-              Logo di intro/outro
-            </li>
-            <li class="flex items-center text-ink-body">
-              <svg class="w-5 h-5 text-accent-text mr-3" fill="currentColor" viewBox="0 0 20 20">
-                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
-              </svg>
-              Logo di website
-            </li>
-            <li class="flex items-center text-ink-body">
-              <svg class="w-5 h-5 text-accent-text mr-3" fill="currentColor" viewBox="0 0 20 20">
-                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
-              </svg>
-              Eksposur berkelanjutan
-            </li>
-          </ul>
+        <div class="p-8 bg-surface-raised border border-surface-border rounded-xl hover:border-accent/50 transition flex flex-col justify-between">
+          <div>
+            <div class="inline-block bg-surface-border text-ink-body px-2.5 py-0.5 rounded text-xs font-semibold mb-3">Brand Awareness</div>
+            <h3 class="text-2xl font-bold text-ink mb-3">Penempatan Logo</h3>
+            <p class="text-ink-muted text-sm mb-6 leading-relaxed">
+              Logo brand ditampilkan secara konsisten di intro/outro dan website resmi selama periode tertentu.
+            </p>
+            <div class="space-y-3 mb-8">
+              <div class="flex items-start gap-2.5 text-sm text-ink-body">
+                <span class="text-accent-text font-bold">✓</span>
+                <span>Logo di video intro & outro segmen</span>
+              </div>
+              <div class="flex items-start gap-2.5 text-sm text-ink-body">
+                <span class="text-accent-text font-bold">✓</span>
+                <span>Logo & tautan di halaman /partners web</span>
+              </div>
+              <div class="flex items-start gap-2.5 text-sm text-ink-body">
+                <span class="text-accent-text font-bold">✓</span>
+                <span>Eksposur berkelanjutan multi-episode</span>
+              </div>
+              <div class="flex items-start gap-2.5 text-sm text-ink-body">
+                <span class="text-accent-text font-bold">✓</span>
+                <span>Cocok untuk awareness jangka panjang</span>
+              </div>
+            </div>
+          </div>
+          <a
+            href={`${CONTACT_HREF}%20-%20Paket%20Penempatan%20Logo`}
+            class="block w-full px-4 py-3 text-center bg-surface border border-surface-border hover:border-accent-text text-ink font-semibold rounded-lg transition text-sm"
+          >
+            Pilih Penempatan Logo
+          </a>
         </div>
 
         <!-- Integrasi Khusus -->
-        <div class="p-8 bg-surface-raised border border-accent/30 rounded-xl hover:border-accent/50 transition">
-          <div class="text-highlight-text font-semibold mb-2">Dampak Maksimal</div>
-          <h3 class="text-2xl font-bold text-ink mb-4">Integrasi Khusus</h3>
-          <p class="text-ink-muted mb-6">
-            Episode khusus yang membahas produk atau teknologi Anda secara mendalam. Demo langsung dengan host.
-          </p>
-          <ul class="space-y-3 mb-8">
-            <li class="flex items-center text-ink-body">
-              <svg class="w-5 h-5 text-accent-text mr-3" fill="currentColor" viewBox="0 0 20 20">
-                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
-              </svg>
-              Episode khusus
-            </li>
-            <li class="flex items-center text-ink-body">
-              <svg class="w-5 h-5 text-accent-text mr-3" fill="currentColor" viewBox="0 0 20 20">
-                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
-              </svg>
-              Live demo produk
-            </li>
-            <li class="flex items-center text-ink-body">
-              <svg class="w-5 h-5 text-accent-text mr-3" fill="currentColor" viewBox="0 0 20 20">
-                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
-              </svg>
-              Tutorial atau review
-            </li>
-            <li class="flex items-center text-ink-body">
-              <svg class="w-5 h-5 text-accent-text mr-3" fill="currentColor" viewBox="0 0 20 20">
-                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
-              </svg>
-              Semua keuntungan lainnya
-            </li>
-          </ul>
+        <div class="p-8 bg-surface-raised border border-accent/40 rounded-xl hover:border-accent transition flex flex-col justify-between">
+          <div>
+            <div class="inline-block bg-accent/20 text-accent-text px-2.5 py-0.5 rounded text-xs font-semibold mb-3">Dampak Maksimal</div>
+            <h3 class="text-2xl font-bold text-ink mb-3">Integrasi Khusus</h3>
+            <p class="text-ink-muted text-sm mb-6 leading-relaxed">
+              Episode khusus mengulas produk, library, atau platform Anda secara mendalam dengan live demo langsung oleh host.
+            </p>
+            <div class="space-y-3 mb-8">
+              <div class="flex items-start gap-2.5 text-sm text-ink-body">
+                <span class="text-accent-text font-bold">✓</span>
+                <span>Satu episode dedikasi penuh</span>
+              </div>
+              <div class="flex items-start gap-2.5 text-sm text-ink-body">
+                <span class="text-accent-text font-bold">✓</span>
+                <span>Live demo hands-on teknologi</span>
+              </div>
+              <div class="flex items-start gap-2.5 text-sm text-ink-body">
+                <span class="text-accent-text font-bold">✓</span>
+                <span>Tutorial & studi kasus praktis</span>
+              </div>
+              <div class="flex items-start gap-2.5 text-sm text-ink-body">
+                <span class="text-accent-text font-bold">✓</span>
+                <span>Semua benefit paket sponsor episode</span>
+              </div>
+            </div>
+          </div>
+          <a
+            href={`${CONTACT_HREF}%20-%20Paket%20Integrasi%20Khusus`}
+            class="block w-full px-4 py-3 text-center bg-accent-strong hover:bg-highlight-strong text-ink font-semibold rounded-lg transition text-sm"
+          >
+            Pilih Integrasi Khusus
+          </a>
         </div>
       </div>
 
       <div class="max-w-3xl mx-auto mt-12 text-center" data-testid="partners-packages-cta">
         <p class="text-ink-muted mb-4">
-          Belum yakin paket mana yang cocok? Ceritakan target dan budget Anda, kami
-          bantu susun formatnya.
+          Belum yakin format mana yang paling sesuai? Ceritakan target dan timeline kampanye Anda, kami bantu sesuaikan.
         </p>
         <a
           href={CONTACT_HREF}
@@ -304,39 +431,41 @@ const shareCardAlt = `Ngobrolin WEB — sponsor & pasang iklan: ${getPartnerCard
           data-analytics-event="cta_click"
           data-analytics-props={JSON.stringify({ cta: "partnership_contact", location: "packages" })}
         >
-          Minta Penawaran →
+          Minta Penawaran Kustom →
         </a>
       </div>
     </div>
   </section>
 
-  <!-- Viewer Testimonials -->
+  <!-- Viewer & Creator Testimonials -->
   <section class="py-20">
     <div class="container mx-auto px-4">
       <div class="max-w-3xl mx-auto text-center mb-16">
         <h2 class="text-3xl md:text-4xl font-bold text-ink mb-4">
-          Apa Kata Penonton
+          Apa Kata Komunitas &amp; Praktisi
         </h2>
         <p class="text-ink-muted text-lg">
-          Feedback langsung dari komunitas developer Indonesia
+          Feedback autentik dari penonton dan kreator teknologi di Indonesia
         </p>
       </div>
 
       <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
         {featuredTestimonials.map(testimonial => (
-          <div class="p-6 bg-surface-raised border border-surface-border rounded-xl hover:border-accent/30 transition">
-            <div class="flex items-center gap-2 text-highlight mb-4">
-              <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
-                <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/>
-              </svg>
+          <div class="p-6 bg-surface-raised border border-surface-border rounded-xl flex flex-col justify-between">
+            <div>
+              <div class="flex items-center gap-2 text-highlight mb-4">
+                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/>
+                </svg>
+              </div>
+              <p class="text-ink-body text-sm leading-relaxed mb-6">
+                "{testimonial.text}"
+              </p>
             </div>
-            <p class="text-ink-body mb-6">
-              "{testimonial.text}"
-            </p>
-            <div class="flex items-center justify-between">
+            <div class="flex items-center justify-between pt-4 border-t border-surface-border/40">
               <div class="flex items-center gap-3">
-                <div class="w-10 h-10 bg-accent/20 rounded-full flex items-center justify-center">
-                  <span class="text-accent-text font-bold text-sm">{testimonial.name.charAt(0)}</span>
+                <div class="w-10 h-10 bg-accent/20 text-accent-text font-bold text-sm rounded-full flex items-center justify-center shrink-0">
+                  {testimonial.name.charAt(0)}
                 </div>
                 <div>
                   <div class="text-ink font-medium text-sm">{testimonial.name}</div>
@@ -350,14 +479,46 @@ const shareCardAlt = `Ngobrolin WEB — sponsor & pasang iklan: ${getPartnerCard
     </div>
   </section>
 
+  <!-- FAQ Section -->
+  <section class="py-20 border-t border-surface-border/40">
+    <div class="container mx-auto px-4">
+      <div class="max-w-3xl mx-auto">
+        <div class="text-center mb-14">
+          <h2 class="text-3xl font-bold text-ink mb-3">
+            Pertanyaan Umum Sponsorship
+          </h2>
+          <p class="text-ink-muted text-base">
+            Informasi penting seputar teknis kerja sama dan alur produksi.
+          </p>
+        </div>
+
+        <div class="space-y-4">
+          {faqs.map(faq => (
+            <details class="group bg-surface-raised border border-surface-border rounded-xl p-5 [&_summary::-webkit-details-marker]:hidden">
+              <summary class="flex items-center justify-between cursor-pointer text-ink font-semibold text-base select-none">
+                <span>{faq.q}</span>
+                <span class="text-accent-text transition group-open:rotate-180 ml-4">
+                  ▾
+                </span>
+              </summary>
+              <p class="mt-4 text-sm text-ink-body leading-relaxed border-t border-surface-border/50 pt-3">
+                {faq.a}
+              </p>
+            </details>
+          ))}
+        </div>
+      </div>
+    </div>
+  </section>
+
   <!-- Final CTA -->
-  <section class="py-20 bg-gradient-to-b from-surface to-surface-raised">
+  <section class="py-20 bg-surface">
     <div class="container mx-auto px-4">
       <div class="max-w-3xl mx-auto text-center">
         <h2 class="text-3xl md:text-4xl font-bold text-ink mb-6">
           Siap Menjangkau Developer Indonesia?
         </h2>
-        <p class="text-xl text-ink-muted mb-8">
+        <p class="text-xl text-ink-muted mb-8 max-w-2xl mx-auto">
           Kirim email berisi brand, produk, dan target kampanye Anda. Kami balas
           dengan opsi sponsor, iklan, atau kerja sama yang paling masuk akal.
         </p>
@@ -383,4 +544,35 @@ const shareCardAlt = `Ngobrolin WEB — sponsor & pasang iklan: ${getPartnerCard
       </div>
     </div>
   </section>
+
+  <!-- Script for email copying with visual feedback -->
+  <script is:inline data-astro-rerun>
+    (function initCopyEmail() {
+      const copyBtns = document.querySelectorAll(".copy-email-trigger");
+      copyBtns.forEach((btn) => {
+        if (!(btn instanceof HTMLElement)) return;
+        if (btn.hasAttribute("data-copy-initialized")) return;
+        btn.setAttribute("data-copy-initialized", "true");
+
+        btn.addEventListener("click", async () => {
+          const email = btn.getAttribute("data-email");
+          if (!email) return;
+
+          try {
+            await navigator.clipboard.writeText(email);
+            const label = btn.querySelector(".copy-label");
+            if (label) {
+              const original = label.textContent;
+              label.textContent = "Tersalin! ✓";
+              setTimeout(() => {
+                label.textContent = original;
+              }, 2000);
+            }
+          } catch {
+            window.location.href = `mailto:${email}`;
+          }
+        });
+      });
+    })();
+  </script>
 </Layout>
