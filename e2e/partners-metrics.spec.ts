@@ -3,7 +3,27 @@ import { existsSync, readFileSync, readdirSync, statSync } from 'fs';
 import { join } from 'path';
 
 const EPISODES_FILE = join(process.cwd(), 'src/data/episodes.json');
+const SUBSCRIBERS_FILE = join(process.cwd(), 'src/data/channel-subscribers.json');
+const MEDIA_KIT_FILE = join(process.cwd(), 'src/data/media-kit.json');
 const DIST_DIR = join(process.cwd(), 'dist');
+
+/**
+ * The stores the page reads, read the same way the unit tests read episodes.json
+ * (Playwright's loader cannot resolve the src/lib modules' JSON imports; see
+ * e2e/transcript-provenance.spec.ts). Reading the store rather than repeating a
+ * literal is the point: a figure hardcoded here would be exactly the second copy
+ * this page keeps getting wrong. What is asserted is the id-ID *rendering* of it.
+ */
+function storedSubscribers(): { count: number; fetchedAt: string } {
+  return JSON.parse(readFileSync(SUBSCRIBERS_FILE, 'utf-8'));
+}
+
+function mediaKit(): Record<string, number | string> {
+  return JSON.parse(readFileSync(MEDIA_KIT_FILE, 'utf-8'));
+}
+
+const percent = (value: number) =>
+  `${value.toLocaleString('id-ID', { minimumFractionDigits: 1 })}%`;
 
 /**
  * getEpisodes() maps and sorts src/data/episodes.json without filtering, so its
@@ -88,17 +108,23 @@ test.describe('Partners sponsor metrics', () => {
       `Episode, mingguan sejak ${firstEpisodeYear()}`
     );
 
-    await expect(page.getByTestId('stat-subscribers')).toHaveText('7.100');
+    await expect(page.getByTestId('stat-subscribers')).toHaveText(
+      storedSubscribers().count.toLocaleString('id-ID')
+    );
     await expect(page.getByTestId('stat-subscribers-label')).toHaveText(
       'Subscriber kanal'
     );
 
-    await expect(page.getByTestId('stat-age')).toHaveText('88,7%');
+    await expect(page.getByTestId('stat-age')).toHaveText(
+      percent(mediaKit().age25to34Percent as number)
+    );
     await expect(page.getByTestId('stat-age-label')).toHaveText(
       'Audiens berusia 25-34'
     );
 
-    await expect(page.getByTestId('stat-returning')).toHaveText('37,8%');
+    await expect(page.getByTestId('stat-returning')).toHaveText(
+      percent(mediaKit().returningViewersPercent as number)
+    );
     await expect(page.getByTestId('stat-returning-label')).toHaveText(
       'Penonton yang kembali'
     );
@@ -109,13 +135,41 @@ test.describe('Partners sponsor metrics', () => {
   }) => {
     await page.goto('/partners');
 
+    const kit = mediaKit();
     await expect(page.getByTestId('stat-supporting')).toHaveText(
-      'Kanal YouTube: 87,7% dari Indonesia · 545 jam ditonton per 28 hari · rata-rata 5:58 per tayangan · minat teratas: High-End Computer Aficionados.'
+      `Kanal YouTube: ${percent(kit.fromIndonesiaPercent as number)} dari Indonesia · ` +
+        `${(kit.watchHours28d as number).toLocaleString('id-ID')} jam ditonton per 28 hari · ` +
+        `rata-rata ${kit.averageViewDuration} per tayangan · ` +
+        `minat teratas: ${kit.topInterest}.`
     );
 
-    // Undated, these become the next unverifiable claim within six months.
+    // Undated, these become the next unverifiable claim within six months. The
+    // month is formatted from the stored ISO `capturedAt`, so a refresh moves
+    // it without anyone editing prose — and the monthly freshness check reads
+    // that same date rather than this rendered sentence.
     await expect(page.getByTestId('stat-attribution')).toContainText(
-      'Data kanal YouTube, Agustus 2026.'
+      new Date(`${kit.capturedAt}T00:00:00Z`).toLocaleDateString('id-ID', {
+        month: 'long',
+        year: 'numeric',
+        timeZone: 'UTC',
+      })
+    );
+  });
+
+  // The derived figure has a different provenance from the hand-copied ones,
+  // and a sponsor has no way to tell them apart unless the page says so.
+  test('the derived subscriber figure carries its own date and says it is automatic', async ({
+    page,
+  }) => {
+    await page.goto('/partners');
+
+    const attribution = page.getByTestId('stat-attribution');
+    await expect(attribution).toContainText(/diperbarui otomatis/i);
+    await expect(attribution).toContainText(
+      new Date(`${storedSubscribers().fetchedAt}T00:00:00Z`).toLocaleDateString(
+        'id-ID',
+        { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC' }
+      )
     );
   });
 

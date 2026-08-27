@@ -165,12 +165,19 @@ Real, in-repo, usable:
   tag vocabulary.
 - `src/data/partners.json`, `src/data/testimonials.json` — real partner and
   testimonial records.
+- `src/data/channel-subscribers.json` — the channel subscriber count with the
+  date it was last read, refreshed by the weekly playlist sync.
+- `src/data/media-kit.json` — the audience and watch-time figures `/partners`
+  publishes, hand-copied from YouTube Studio with the date they were captured.
 - Panel headshots at `public/images/{riza,eka,ivan}.jpg`.
 
-Absent, and not to be invented: listener numbers, download statistics, audience
-demographics, or any traffic figure. The quantitative claims on `partners.astro`
-are the site's most load-bearing numbers, which is why they are now derived
-rather than typed.
+Absent, and not to be invented: download statistics, or any audience or traffic
+figure beyond the dated snapshots in the two stores above. The `media-kit.json`
+half is YouTube Analytics data no script here can reach, so it is copied by hand
+and nagged about when it ages. The quantitative claims on `partners.astro` are
+the site's most load-bearing numbers, which is why every one of them is now
+derived or dated rather than typed; `AGENTS.md` ("`/partners` figures") owns
+that rule.
 
 ## Product Principles
 

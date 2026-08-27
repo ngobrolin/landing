@@ -43,7 +43,7 @@ jobs:
       - name: Check for changes
         id: changes
         run: |
-          if git diff --quiet src/data/episodes.json src/data/tags.json; then
+          if git diff --quiet src/data/episodes.json src/data/tags.json src/data/channel-subscribers.json; then
             echo "changed=false" >> $GITHUB_OUTPUT
           else
             echo "changed=true" >> $GITHUB_OUTPUT
@@ -61,4 +61,12 @@ jobs:
             Automated update from YouTube playlist.
 
             This PR updates `src/data/episodes.json` and `src/data/tags.json` with the latest data from the YouTube API.
+
+            It may also update `src/data/channel-subscribers.json` — the channel subscriber
+            count `/partners` publishes, read from `channels.list` with the same read-only key.
+            The count itself only changes when it moves, so most runs leave it alone; the
+            `checkedAt` stamp beside it records the last successful read and is refreshed at
+            most monthly, which is what stops a working sync from looking like a stalled one.
+            If the channel call failed this run, both dates are left exactly where they were
+            and the step log says so; the episode work above is unaffected either way.
           delete-branch: true

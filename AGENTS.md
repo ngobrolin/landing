@@ -257,6 +257,75 @@ which once tagged **every** summarised episode as `ai`. `ts` matched
 Re-run `pnpm exec tsx scripts/extract-tags.ts` whenever summaries change, and
 check that no `/tags/<tag>` URL disappears — those pages are indexed.
 
+### `/partners` figures
+
+`/partners` is the page a sponsor is sent to, so its job is to be believed, and
+not everything on it is countable from the repo. Three rules hold it together:
+
+- **Every figure it publishes has one source: `src/lib/partner-stats.ts`.** The
+  page, its meta description and its share card all read from there and none of
+  them states a number. Channel figures are labelled as the channel's — the
+  channel carries a second show — and carry a dated attribution. Deriving a
+  figure automatically does not change whose it is: the subscriber count is
+  still a *channel* figure and stays labelled as one.
+  `src/lib/partner-stats.test.ts` fails if a consumer restates a figure — raw or
+  rendered — and derives both forms from the stores at test time, because a
+  literal there would go red the week the sync moved the count.
+- **Every figure is either derived or nagged about; none is merely hoped to be
+  current.** Nothing on this page went wrong because updating it was hard. It
+  went wrong because nothing ever announced it had gone stale. So each figure
+  has a mechanism and a provenance date, and the raw values live in `src/data/`
+  beneath the single source:
+
+  | Figure | Store | Kept fresh by |
+  | :--- | :--- | :--- |
+  | Episode count, start year | `episodes.json` | Derived at build from the episode data |
+  | Channel subscribers | `channel-subscribers.json` | **Derived weekly** by `scripts/fetch-playlist.ts`; the same freshness workflow nags at 2 months without a successful read |
+  | Age split, returning viewers, geography, watch hours, avg view duration, top interest | `media-kit.json` | **Hand-copied**; `.github/workflows/media-kit-freshness.yml` opens an issue at 4 months |
+
+  Subscriber count is public `channels.list` data, so the read-only
+  `YOUTUBE_API_KEY` reaches it and the sync folds it in — no new job, and the
+  figure arrives as a reviewable PR diff rather than changing under the
+  maintainer. Everything in `media-kit.json` is YouTube **Analytics** data:
+  owner-scoped, OAuth only. Automating it was ruled out deliberately — no
+  refresh token, no consent flow, no new repository secret. Do not build one;
+  raise it instead.
+  - The sync **fails soft**. A channel call that 403s, returns a hidden
+    subscriber count, or comes back malformed leaves the last known figure in
+    place and lets the episode work finish. A transient hiccup must never blank
+    a number on this page. `scripts/lib/channel-subscribers.ts` owns that rule.
+    It also declines to rewrite the file when the count has not moved: a
+    one-line PR every week is how a real `episodes.json` diff gets merged
+    unlooked-at.
+  - **Failing soft is not the same as failing silently.** A revoked key or an
+    exhausted quota makes every run leave the file alone, which is byte-for-byte
+    what a healthy unchanged count looks like — so the store carries a third
+    date, `checkedAt`, stamped on every *successful* read and on nothing else.
+    Writing it every week would put the weekly one-line PR back, so it is only
+    persisted once it has stood 30 days (`CHECKED_AT_REFRESH_DAYS`), and the
+    alarm is measured in months to clear that. `fetchedAt` still means "has read
+    this way since" and is still what the page prints; do not merge the two.
+  - Both published dates are stored as ISO (`fetchedAt`, `capturedAt`) and the Indonesian
+    prose the page prints is **formatted from them**. A hand-written "Agustus
+    2026" beside a machine-readable date is two copies of one fact, and the
+    freshness check reads the stored date — never a date parsed out of rendered
+    prose, which breaks the first time the wording changes.
+  - `MEDIA_KIT_FIGURES` in `src/lib/media-kit.ts` names each manual figure and
+    where in YouTube Studio to read it; `src/lib/media-kit.test.ts` asserts it
+    covers every key in the JSON, so a figure added to the page cannot go
+    un-nagged. Adding a manual figure means adding it to both.
+- **The share card at `/partners-og.png` is generated at build time**
+  (`src/lib/partner-card.ts` → `src/pages/partners-og.png.ts`) from those same
+  figures, for that reason: a hand-made image would be a second copy, and a card
+  that disagrees with the page it links to is worse than no card. It rasterises
+  SVG through `sharp`, which reaches fonts via fontconfig — use `sans-serif`,
+  never `system-ui`, or the glyphs silently vanish on a Linux build agent.
+  `src/lib/partner-card.test.ts` measures ink in the rendered PNG rather than
+  trusting the SVG string.
+
+The page is Indonesian-only by decision; do not add an English version or a
+language switcher.
+
 ## Episode titles
 
 Most titles carry a trailing show-name credit, in dozens of distinct shapes

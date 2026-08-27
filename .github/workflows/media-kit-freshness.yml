@@ -1,0 +1,63 @@
+name: Media Kit Freshness Check
+
+# Notices when the hand-copied figures on /partners have gone stale and opens a
+# GitHub issue about them — and, in the same run, when the derived subscriber
+# count has stopped being read at all. The sync fails soft, so a revoked key
+# looks like a quiet week; the stored checkedAt stamp is what tells them apart.
+#
+# Modelled on playlist-drift.yml, for the same two reasons. It lives apart from
+# the sync so a staleness alert never muddies the sync's own status; and it
+# opens an issue rather than failing a check, because a red scheduled job is
+# noise a maintainer learns to skip past, while an issue is a thing with a name
+# that stays open until somebody deals with it.
+#
+# Unlike the drift check it needs no API key at all — it reads a date out of the
+# repo. GITHUB_TOKEN is the only credential involved, and Actions provides it.
+#
+# Monthly is plenty: the threshold is four months, so a monthly run reports a
+# stale figure within thirty days of it falling due.
+
+on:
+  schedule:
+    # 09:00 WIB (02:00 UTC) on the 1st of each month.
+    - cron: '0 2 1 * *'
+  workflow_dispatch:
+  # Re-run whenever the check or the data it reads changes, so a change to the
+  # rule or to capturedAt is exercised in the PR that makes it.
+  push:
+    paths:
+      - 'scripts/check-media-kit-freshness.ts'
+      - 'scripts/lib/media-kit-freshness.ts'
+      - 'src/lib/media-kit.ts'
+      - 'src/data/media-kit.json'
+      - 'src/data/channel-subscribers.json'
+      - '.github/workflows/media-kit-freshness.yml'
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: pnpm/action-setup@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'pnpm'
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Check media-kit figure freshness
+        run: pnpm exec tsx scripts/check-media-kit-freshness.ts
+        env:
+          # Only on main: open/update/close the alert issue. Branch runs
+          # (including PR pushes that exercise this workflow) report to the log
+          # instead, so testing a change to the check cannot open an issue.
+          GITHUB_TOKEN: ${{ github.ref == 'refs/heads/main' && secrets.GITHUB_TOKEN || '' }}
+          GITHUB_REPOSITORY: ${{ github.repository }}

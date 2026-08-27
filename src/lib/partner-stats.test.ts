@@ -2,7 +2,10 @@ import { describe, it, expect } from 'vitest';
 import { readFileSync } from 'node:fs';
 import { join } from 'node:path';
 import episodes from '../data/episodes.json';
+import subscribers from '../data/channel-subscribers.json';
+import { mediaKit } from './media-kit';
 import {
+  buildPartnerStats,
   getPartnerStats,
   PARTNER_CARD_STAT_IDS,
   getPartnerCardStats,
@@ -12,6 +15,30 @@ const expectedCount = episodes.length;
 const expectedFirstYear = Math.min(
   ...episodes.map(ep => new Date(ep.publishedAt).getUTCFullYear())
 );
+
+/** The real inputs, so a case can vary exactly one of them. */
+const inputs = () => ({
+  episodes: episodes as Array<{ publishedAt: string }>,
+  subscribers,
+  mediaKit,
+});
+
+/**
+ * The renderings the page publishes, derived from the stores rather than typed
+ * out here. Both stores move on their own — the subscriber count on the weekly
+ * sync, the media kit when a maintainer refreshes it and sets `capturedAt` —
+ * and a literal in this file would turn the run that moved them red for
+ * behaving exactly as designed. What is asserted is the rule, never the number.
+ */
+const percent = (value: number) =>
+  `${value.toLocaleString('id-ID', { minimumFractionDigits: 1 })}%`;
+const count = (value: number) => value.toLocaleString('id-ID');
+const monthYear = (iso: string) =>
+  new Date(`${iso}T00:00:00Z`).toLocaleDateString('id-ID', {
+    month: 'long',
+    year: 'numeric',
+    timeZone: 'UTC',
+  });
 
 describe('getPartnerStats', () => {
   it('derives the episode count and start year from the episode data', () => {
@@ -24,10 +51,10 @@ describe('getPartnerStats', () => {
   it('formats every tile value in id-ID so the page never formats one itself', () => {
     const byId = Object.fromEntries(getPartnerStats().tiles.map(t => [t.id, t]));
 
-    expect(byId.episodes.value).toBe(expectedCount.toLocaleString('id-ID'));
-    expect(byId.subscribers.value).toBe('7.100');
-    expect(byId.age.value).toBe('88,7%');
-    expect(byId.returning.value).toBe('37,8%');
+    expect(byId.episodes.value).toBe(count(expectedCount));
+    expect(byId.subscribers.value).toBe(count(subscribers.count));
+    expect(byId.age.value).toBe(percent(mediaKit.age25to34Percent));
+    expect(byId.returning.value).toBe(percent(mediaKit.returningViewersPercent));
   });
 
   it('keeps the channel figures scoped to the channel and the show figure to the show', () => {
@@ -53,10 +80,15 @@ describe('getPartnerStats', () => {
   it('carries the dated, scope-limited attribution the figures depend on', () => {
     const stats = getPartnerStats();
 
-    expect(stats.attribution).toContain('Data kanal YouTube, Agustus 2026.');
+    expect(stats.attribution).toContain(
+      `Data kanal YouTube, ${monthYear(mediaKit.capturedAt)}.`
+    );
     expect(stats.supportingScope).toBe('Kanal YouTube:');
     expect(stats.supporting).toBe(
-      '87,7% dari Indonesia · 545 jam ditonton per 28 hari · rata-rata 5:58 per tayangan · minat teratas: High-End Computer Aficionados.'
+      `${percent(mediaKit.fromIndonesiaPercent)} dari Indonesia · ` +
+        `${count(mediaKit.watchHours28d)} jam ditonton per 28 hari · ` +
+        `rata-rata ${mediaKit.averageViewDuration} per tayangan · ` +
+        `minat teratas: ${mediaKit.topInterest}.`
     );
   });
 
@@ -73,6 +105,99 @@ describe('getPartnerStats', () => {
   });
 });
 
+/**
+ * The media-kit date is stored once, as `capturedAt` in
+ * `src/data/media-kit.json`, and the Indonesian month the page prints is
+ * formatted from it. A hand-written "Agustus 2026" beside the ISO date would be
+ * a second copy of the same fact — the failure this page is paying down.
+ */
+describe('dated provenance', () => {
+  // Both capture dates are supplied here rather than read from the store: the
+  // property is that the printed month follows whatever is stored, which is
+  // only visible by moving it, and a case pinned to today's stored date would
+  // go red the day a maintainer refreshes the figures.
+  it('formats the media-kit month from the stored capture date', () => {
+    const march = buildPartnerStats({
+      ...inputs(),
+      mediaKit: { ...mediaKit, capturedAt: '2027-03-14' },
+    });
+    const august = buildPartnerStats({
+      ...inputs(),
+      mediaKit: { ...mediaKit, capturedAt: '2026-08-01' },
+    });
+
+    expect(march.attribution).toContain('Data kanal YouTube, Maret 2027.');
+    expect(august.attribution).toContain('Data kanal YouTube, Agustus 2026.');
+    // The subscriber clause carries its own, unrelated date, so the check is
+    // that the media-kit month moved — not that the string vanished.
+    expect(march.attribution).not.toContain('Data kanal YouTube, Agustus 2026');
+  });
+
+  it('states the subscriber figure’s own date, which is not the media kit’s', () => {
+    const stats = buildPartnerStats({
+      ...inputs(),
+      subscribers: { count: 7200, fetchedAt: '2026-12-25' },
+    });
+
+    expect(stats.attribution).toContain('25 Desember 2026');
+  });
+
+  // A sponsor skimming the tiles should be able to tell the live figure from
+  // the hand-copied ones without reading a footnote twice.
+  it('says the subscriber figure is refreshed automatically', () => {
+    expect(getPartnerStats().attribution).toMatch(/otomatis/i);
+  });
+
+  it('keeps the channel scope caveat whatever the dates say', () => {
+    expect(getPartnerStats().attribution).toContain(
+      'bukan angka Ngobrolin WEB saja'
+    );
+  });
+});
+
+/**
+ * The sync fails soft: a channel call that 403s leaves the last known figure
+ * in place. But nothing having *ever* been stored is a real state too — a store
+ * emptied by hand, or one that exists before the first successful sync — and
+ * the page still has to render. `readStoredSubscribers` normalises any such
+ * shape to null so a sponsor never meets a `0` or a `NaN`.
+ */
+describe('when no subscriber count has been stored', () => {
+  const withoutSubscribers = () =>
+    buildPartnerStats({ ...inputs(), subscribers: null });
+
+  it('omits the tile rather than publishing a zero or a dash', () => {
+    const stats = withoutSubscribers();
+
+    expect(stats.tiles.map(t => t.id)).not.toContain('subscribers');
+    expect(stats.tiles.map(t => t.value)).not.toContain('0');
+  });
+
+  it('still renders every other tile', () => {
+    expect(withoutSubscribers().tiles.map(t => t.id)).toEqual([
+      'episodes',
+      'age',
+      'returning',
+    ]);
+  });
+
+  it('drops the subscriber sentence from the attribution, not the whole thing', () => {
+    const attribution = withoutSubscribers().attribution;
+
+    expect(attribution).toContain(
+      `Data kanal YouTube, ${monthYear(mediaKit.capturedAt)}.`
+    );
+    expect(attribution).toContain('bukan angka Ngobrolin WEB saja');
+    expect(attribution).not.toMatch(/subscriber/i);
+  });
+
+  it('leaves the share card with the tiles that do exist', () => {
+    const card = withoutSubscribers().cardTiles;
+
+    expect(card.map(t => t.id)).toEqual(['episodes', 'age']);
+  });
+});
+
 describe('getPartnerCardStats', () => {
   it('is a subset of the page tiles, selected by id and never re-stated', () => {
     const card = getPartnerCardStats();
@@ -86,12 +211,39 @@ describe('getPartnerCardStats', () => {
 });
 
 describe('single source of truth', () => {
-  const SOURCE = 'src/lib/partner-stats.ts';
-  // Every wrong figure this page has shipped was a second copy that drifted.
-  // The module holds them raw and formats on the way out, so a consumer must
-  // contain neither the raw value nor the rendered one.
-  const RAW = ['7100', '88.7', '37.8', '87.7', '545'];
-  const RENDERED = ['7.100', '88,7', '37,8', '87,7'];
+  /**
+   * The raw figures live in `src/data/`; `partner-stats.ts` labels, scopes and
+   * formats them on the way out and states none of its own. So the guard is the
+   * same as it always was, one layer down and one file stricter: the numbers
+   * exist exactly once, in the store, and no module between the store and the
+   * reader restates either the raw value or the rendered one.
+   */
+  const STORES = ['src/data/media-kit.json', 'src/data/channel-subscribers.json'];
+  const CONSUMERS = [
+    'src/lib/partner-stats.ts',
+    'src/lib/media-kit.ts',
+    'src/pages/partners.astro',
+    'src/pages/partners-og.png.ts',
+  ];
+  /**
+   * Both lists are read out of the stores at run time, never typed here. A
+   * snapshot of today's values would fail the moment the weekly sync moved the
+   * subscriber count — turning the sync's own PR red for working — and, worse,
+   * would go on forbidding the *old* number while the one actually on the page
+   * went unguarded. What is asserted is the rule: no consumer restates whatever
+   * is currently stored, raw or rendered.
+   */
+  const FIGURES: number[] = [
+    subscribers.count,
+    ...Object.entries(mediaKit)
+      .filter(([key]) => key !== 'capturedAt')
+      .map(([, value]) => value)
+      .filter((value): value is number => typeof value === 'number'),
+  ];
+  const RAW = [...new Set(FIGURES.map(String))];
+  const RENDERED = [
+    ...new Set(FIGURES.flatMap(value => [count(value), percent(value)])),
+  ];
 
   /**
    * Inline icon markup is full of coordinates that collide with real figures
@@ -105,21 +257,101 @@ describe('single source of truth', () => {
     );
   }
 
-  it.each(RAW)('%s appears in the stats module', figure => {
-    const source = readFileSync(join(process.cwd(), SOURCE), 'utf-8');
-    expect(source).toContain(figure);
+  /**
+   * A figure a reader sees is clear of word characters on *both* sides; one
+   * buried inside a hyphenated token is a class name. `partners.astro` is full
+   * of `text-gray-500` and `md:grid-cols-4`, and the figures are stored data,
+   * so a bare `includes()` would fail this guard the day `watchHours28d` landed
+   * on a round hundred — red for behaving exactly as designed. Same trap
+   * AGENTS.md records for tag extraction, where `ai` matched inside *mulai* and
+   * tagged every summarised episode.
+   *
+   * `.` and `,` are adjacent only when they join the match to more digits, so
+   * `545` stays clear of `1.545` and `88,7` of `88,75%` — while a figure that
+   * ends a sentence, which is how the meta description states its start year,
+   * is still a restatement.
+   */
+  const ADJACENT = /[-\w]/;
+
+  function joinsDigits(char: string | undefined, next: string | undefined) {
+    return (char === '.' || char === ',') && /\d/.test(next ?? '');
+  }
+
+  function restates(source: string, figure: string): boolean {
+    for (let from = 0; ; from += 1) {
+      const at = source.indexOf(figure, from);
+      if (at === -1) return false;
+
+      const end = at + figure.length;
+      const before = source[at - 1];
+      const after = source[end];
+
+      const attached =
+        (before !== undefined &&
+          (ADJACENT.test(before) || joinsDigits(before, source[at - 2]))) ||
+        (after !== undefined &&
+          (ADJACENT.test(after) || joinsDigits(after, source[end + 1])));
+
+      if (!attached) return true;
+      from = at;
+    }
+  }
+
+  // Both directions at once, because this guard has now been wrong in both:
+  // matching a Tailwind class fragment, then missing a figure that ends a
+  // sentence. Neither may be traded for the other.
+  it('reads a figure a reader would see, not one inside a class name', () => {
+    expect(restates('<p class="text-gray-500 mt-4">', '500')).toBe(false);
+    expect(restates('<div class="md:grid-cols-4">', '4')).toBe(false);
+    expect(restates('<span>500 jam ditonton</span>', '500')).toBe(true);
+
+    expect(restates('<p class="gap-7.100">', '7.100')).toBe(false);
+    expect(restates('<p>7.100 subscriber kanal</p>', '7.100')).toBe(true);
+
+    expect(restates('88,75% dari Indonesia', '88,7')).toBe(false);
+    expect(restates('88,7% dari Indonesia', '88,7')).toBe(true);
+
+    expect(restates('1.545 jam', '545')).toBe(false);
+    expect(restates('545 jam ditonton per 28 hari.', '545')).toBe(true);
   });
 
-  it.each(['src/pages/partners.astro', 'src/pages/partners-og.png.ts'])(
-    '%s states no figure of its own',
-    file => {
-      const source = readCopy(file);
-      for (const figure of [...RAW, ...RENDERED]) {
-        expect(source, `${file} restates ${figure}`).not.toContain(figure);
-      }
-      // The episode count and start year are derived; a literal is the "164+" bug.
-      expect(source).not.toContain(String(expectedCount));
-      expect(source).not.toContain(String(expectedFirstYear));
+  // The shape the meta description actually takes. A literal here instead of
+  // the interpolation is the "164+" bug, and a sentence-ending period must not
+  // be what hides it.
+  it('reads a figure that ends a sentence', () => {
+    const meta = (year: string) =>
+      `podcast developer Indonesia, 178 episode sejak ${year}.`;
+
+    expect(restates(meta('2022'), '2022')).toBe(true);
+    expect(restates(meta('${firstYear}'), '2022')).toBe(false);
+    expect(restates(meta('2022'), '178')).toBe(true);
+    expect(restates('sejak 2022-01-01', '2022')).toBe(false);
+  });
+
+  // The other half of the guard: each figure it forbids elsewhere is written,
+  // literally, in a store. A value stored in a shape that does not round-trip
+  // (88.70, or a number as a string) would leave the search looking for text
+  // that appears nowhere and quietly guarding nothing.
+  it.each(RAW)('%s is written in a data store', figure => {
+    const stores = STORES.map(file =>
+      readFileSync(join(process.cwd(), file), 'utf-8')
+    ).join('\n');
+
+    expect(stores).toContain(figure);
+  });
+
+  it.each(CONSUMERS)('%s states no figure of its own', file => {
+    const source = readCopy(file);
+    // The episode count and start year are derived; a literal is the "164+" bug.
+    const figures = [
+      ...RAW,
+      ...RENDERED,
+      String(expectedCount),
+      String(expectedFirstYear),
+    ];
+
+    for (const figure of figures) {
+      expect(restates(source, figure), `${file} restates ${figure}`).toBe(false);
     }
-  );
+  });
 });
