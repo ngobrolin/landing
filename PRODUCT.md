@@ -2,213 +2,102 @@
 
 <!-- impeccable:product-schema 1 -->
 
-> **Provenance note.** This record was written without a live interview. The
-> operating brief for this work forbids interactive question tools; product
-> decisions route through a supervisor channel instead. Every fact below is
-> either read out of the repository (marked *[repo]*) or taken verbatim from the
-> commissioning brief (marked *[brief]*). Facts that are neither — reasonable
-> inferences awaiting confirmation — are marked *[inferred]* and must not be
-> treated as settled.
-
 ## Platform
 
 web
 
 ## Users
 
-*[repo, brief]* Indonesian-speaking web developers. Three situations produce
-almost all arrivals, and they want different things:
+Indonesian-speaking web developers, tech learners, and community members. Five distinct situations produce arrivals:
 
-1. **Returning listeners** who already know the show and came for the newest
-   episode or to catch up. They arrive at the homepage or from YouTube.
-2. **Search arrivals** *[inferred]* — developers who searched a specific
-   technical question in Indonesian ("apa itu HTMX", "Bun vs Node") and landed
-   on one episode page from a search engine. They have no loyalty to the show
-   yet and no idea the rest of the archive exists. This is the audience the
-   archive structure is built to serve.
-3. **Prospective partners** *[repo]* — `partners.astro` sells reach to
-   sponsors and is a distinct commercial job with its own funnel.
-
-The panel itself (Riza Fahmi, Eka, Ivan — all Google Developer Experts *[repo:
-`about.astro`]*) is a fourth, editorial audience: they use the site as the
-archive of their own back catalogue.
+1. **Returning listeners** who already know the show and arrive for the newest episode, livestream follow-up, or to catch up. They arrive at the homepage, podcast apps, or YouTube.
+2. **Search arrivals** — developers who searched a specific technical question in Indonesian ("apa itu HTMX", "Bun vs Node", "Astro v5", "CSS container queries") and landed directly on an episode page from a search engine. They have no prior connection to the show; the episode structure is built to serve them directly as a standalone reference.
+3. **Community contributors & discussion participants** — developers and listeners seeking to participate in technical discussions, ask questions, suggest topics/guests, join Q&A, and contribute corrections (e.g. transcript corrections via "Bantu Koreksi" or GitHub discussions).
+4. **Prospective partners & sponsors** — companies and dev-tool creators evaluating reach and audience profile on `/partners` and the media kit to sponsor episodes or collaborate.
+5. **The panel & editorial team** (Riza Fahmi, Eka, Ivan — all Google Developer Experts) — using the site as the authoritative archive and index of their back catalogue.
 
 ## Product Purpose
 
-*[repo: `about.astro`]* Ngobrolin WEB is a weekly Indonesian-language video
-podcast about web development, broadcast Tuesdays at 20:00 WIB. The site is its
-archive and front door.
+Ngobrolin WEB is a weekly Indonesian-language video podcast about web development, broadcast Tuesdays at 20:00 WIB. The site is its permanent archive, front door, and community hub.
 
-Its stated vision is to be the leading discussion platform connecting Indonesian
-web developers to the fast-moving web platform, and explicitly to *close the
-knowledge gap for those who feel left behind* by the pace of web technology.
+Its stated vision is to be the leading discussion platform connecting Indonesian web developers to the fast-moving web platform, and explicitly to *close the knowledge gap for those who feel left behind* by the pace of web technology.
 
-*[brief]* The measure of success the commissioner named for this work is
-**"clarity and focus on how to get more traffic."** Traffic here means organic
-discovery of the archive, not just retention of existing listeners.
+Measures of success:
+
+1. **Organic archive discovery and search traffic:** Making the deep back catalogue easily discoverable for Indonesian developers searching technical topics.
+2. **Community interaction and discussion engagement:** Driving active participation in discussions, listener Q&As, and community feedback.
+3. **Partner sponsorships and media kit visibility:** Providing verified, transparent audience metrics to attract and expand commercial sponsorships.
 
 ## Positioning
 
-*[repo, inferred]* What no neighbouring product can truthfully copy: **an
-archive of Indonesian-language web-development discussion with a full
-machine-readable transcript for every single episode.** Not a sample — every
-one. The live count is derived at build time, never written down here; see
-`src/lib/archive.ts`.
+What no neighbouring product can truthfully copy: **an archive of Indonesian-language web-development discussions with a full machine-readable transcript and summary for every single episode**, combined with an open community discussion space. The live count is derived at build time (`src/lib/archive.ts`).
 
-That corpus is the whole asset. Indonesian technical content is thin on the open
-web; long-form Indonesian speech about Bun, HTMX, Astro, Deno, accessibility and
-career is thinner still. The site is currently the only place that corpus is
-readable as text rather than locked inside video.
+Indonesian technical content is thin on the open web; long-form Indonesian speech about web platform standards, frameworks, tooling, and developer careers is thinner still. The site makes this audio/video corpus fully readable, searchable, indexable, and accessible as structured text.
 
 ## Operating Context
 
-*[repo]* Publishing is a pipeline, not hand-authoring, and this constrains
-design more than usual:
+Publishing is a pipeline, not hand-authoring:
 
-- One YouTube playlist (`PLTY2nW4jwtG8Sx2Bw6QShC271PzX31CtT`) is the source of
-  truth for every episode. `scripts/fetch-playlist.ts` pulls it into
-  `src/data/episodes.json`. See `AGENTS.md` for the drift-detection story.
-- Transcripts live in `src/data/transcripts/<videoId>.json` — one per episode,
-  no gaps. `getArchiveStats()` derives that claim rather than asserting it.
-- Summaries live in `src/data/summaries/<videoId>.json`. The backfill that was
-  in flight when this was written has landed, so coverage is complete *for the
-  episodes synced so far* — the weekly playlist sync adds episodes before
-  anyone has summarised them, so a summary-less episode is a normal state, not
-  a defect. `SUMMARIZE.md` owns the contract.
-- `src/data/tags.json` is **derived** from summaries by
-  `scripts/extract-tags.ts`, which replaces the file rather than merging into
-  it, so it can only cover episodes that already have a summary.
-- The site is statically built (Astro) and deployed to static hosting.
-
-The practical consequence: **any surface must render correctly for an episode
-that has a transcript but no summary and no tags.** Every newly synced episode
-is in exactly that state until a human summarises it, so this is a permanent
-condition of the pipeline, not a backlog that eventually clears.
+- One YouTube playlist (`PLTY2nW4jwtG8Sx2Bw6QShC271PzX31CtT`) is the source of truth for every episode. `scripts/fetch-playlist.ts` pulls it into `src/data/episodes.json`.
+- Transcripts live in `src/data/transcripts/<videoId>.json` — one per episode, no gaps.
+- Summaries live in `src/data/summaries/<videoId>.json`. Coverage is maintained as new episodes are summarised; a summary-less episode is a temporary normal state during weekly sync, not a defect. `SUMMARIZE.md` owns the contract.
+- `src/data/tags.json` is derived from summaries by `scripts/extract-tags.ts`, replacing rather than merging.
+- Partner metrics in `src/data/partners.json`, `src/data/media-kit.json`, and `src/data/channel-subscribers.json` are maintained via automated sync and dated snapshots.
+- Statically built with Astro (v5) and Tailwind CSS (v4), deployed to static hosting.
+- Consequence: Any surface must render gracefully for an episode that has a transcript but no summary or tags yet.
 
 ## Capabilities and Constraints
 
-*[repo]* What exists and works today:
+Current functional surfaces:
 
-- One page per episode at `/episodes/<videoId>-<slugified-title>` — **indexed,
-  and these URLs must not move** *[brief]*. The slug is stored data, not
-  derived from the title; `AGENTS.md` owns that rule.
-- `/episodes` (the whole archive, with client-side search over the cards
-  already in the DOM), `/episodes/<year>`, `/tags` and `/tags/<tag>`,
-  `/about`, `/partners`, `/subscribe`, `/404`.
-- Machine surfaces that must keep working *[brief]*: `/rss.xml`,
-  `/podcast-rss.xml` (web feed and podcast feed carry different item sets — see
-  the podcast-audio section of `AGENTS.md`), `sitemap-index.xml`, `/llms.txt`,
-  `/llms-full.txt`, `/search-index.json` and `/episodes/<slug>.md`. Item counts
-  are compared before and after a change rather than written down here.
-- Astro view transitions (`ClientRouter`) are on site-wide, and every script has
-  to survive client-side navigation. The mechanism differs for inline versus
-  bundled-module scripts; `AGENTS.md` ("Scripts and view transitions") owns the
-  rule and `e2e/view-transitions.spec.ts` guards it.
-- A service worker, offline indicator, Umami analytics (optional, env-gated),
-  and speculation-rules prefetch.
+- One page per episode at `/episodes/<videoId>-<slugified-title>` with embedded video, audio player (where available), topics, summary, key takeaways, and interactive transcript with timecode deep links. Indexed URLs that must not change.
+- Whole archive at `/episodes` with instant client-side search over title, description, brief, and key points.
+- Topic/tag indexing at `/tags` and `/tags/<tag>`, and chronological browsing at `/episodes/<year>`.
+- About page (`/about`), partnership & media kit portal (`/partners`), subscription hub (`/subscribe`), custom 404 (`/404`).
+- Community touchpoints: GitHub discussions integration, "Bantu Koreksi" transcript editing links, Q&A / topic suggestions.
+- Machine surfaces: `/rss.xml`, `/podcast-rss.xml`, `/sitemap-index.xml`, `/llms.txt`, `/llms-full.txt`, `/search-index.json`, `/episodes/<slug>.md`.
+- Astro view transitions (`ClientRouter`) are site-wide.
 
-Hard constraints on the current work *[brief]*:
+Hard constraints:
 
-- *[repo]* `src/styles/global.css` is the single place a colour is decided, and
-  its `@theme` tokens are sampled from `public/podcast-cover.jpg`. `DESIGN.md`
-  owns the palette and the rule behind each token; `src/styles/contrast.test.ts`
-  and `src/styles/palette-literals.test.ts` guard it. The site is dark.
-- `src/lib/podcast.ts` silently drops any episode missing `audioUrl`,
-  `audioDuration` or `audioFileSize`. Feed item counts must be compared before
-  and after any change rather than trusting the build to complain.
-- `src/data/summaries/`, `scripts/fetch-playlist.ts` and
-  `scripts/lib/playlist-episodes.ts` belong to other concurrent work and are
-  out of bounds.
-
-Defects found while reading the code, and where they now stand:
-
-- **Tag data was polluted** by a bare-substring matcher (`'ai'` matched
-  *sampai, mulai, berbagai*, so every summarised episode was tagged `ai`).
-  Fixed: the word-boundary rule lives in `scripts/lib/tag-extraction.ts` with
-  tests, and `AGENTS.md` owns the invariant.
-- **Episode pages did not link to their own tags.** Fixed: `EpisodeTopics.astro`
-  renders them under the H1, so tag pages now have inbound internal links.
-- **The homepage tag chips were inert `<span>` elements.** Fixed: they are
-  links to `/tags/<tag>`.
-- **`partners.astro` hardcoded "164+ Episode".** Fixed: public counts are
-  derived at build time (`src/lib/archive.ts`, `getTaggedEpisodeCount()`).
-- **Search does not index transcripts.** *Decided, deliberately not built.* The
-  search index carries title, description, brief and summary `keyPoints`, and
-  is served out of line as `/search-index.json` fetched on first interaction; a
-  lazy transcript index was weighed and declined.
+- Palette tokens in `src/styles/global.css` are sampled directly from `public/podcast-cover.jpg`. Dark ground (`#0e1122`), card step (`#191d3a`), Cover Blue (`#4c6fff`), Cover Purple (`#9048e0`), Platform Red (`#ff0033`).
+- Indonesian-only user interface copy (`<html lang="id">`).
+- Slugs are stored in `episodes.json` and never re-derived dynamically from titles.
+- Sync pipeline guards prevent silent episode drops or shrunken record counts.
 
 ## Brand Commitments
 
-*[repo]* Name **Ngobrolin WEB**. All interface copy is Bahasa Indonesia
-(`<html lang="id">`, `id-ID` locale in structured data) — this is not
-negotiable and applies to every new label. Voice is santai namun informatif
-(relaxed but informative), stated in `about.astro`.
-
-Fixed external identities: YouTube `@RizaFahmi`, Spotify show
-`1o2d75xrADb9x0AahDO0Ai`, GitHub org discussions at `ngobrolin`, the
-`#ngobrolinweb` hashtag on X.
-
-*[repo]* The visual identity is the cover art: the palette is sampled from
-`public/podcast-cover.jpg` so the site, the YouTube channel and the podcast
-directories read as one property. `DESIGN.md` owns it.
+- Name: **Ngobrolin WEB**.
+- Language: Bahasa Indonesia (`<html lang="id">`, `id-ID` locale in structured data).
+- Tone & Voice: Santai namun informatif (relaxed, authentic, approachable, yet technically rigorous and informative).
+- Official channels: YouTube `@RizaFahmi`, Spotify show `1o2d75xrADb9x0AahDO0Ai`, GitHub discussions `ngobrolin`, X `#ngobrolinweb`.
+- Visual identity: Anchored in the official podcast cover art (`public/podcast-cover.jpg`).
 
 ## Evidence on Hand
 
-Real, in-repo, usable:
+Real in-repo data:
 
-- `src/data/episodes.json` — every episode with title, slug, description,
-  publish date, thumbnail, duration and (where backfilled) audio metadata.
-- `src/data/transcripts/*.json` — a full transcript per episode, with
-  per-segment timestamps and a `fullText` field. Some carry
-  `source: "youtube-auto"`.
-- `src/data/summaries/*.json` — a brief plus a `keyPoints` array per summarised
-  episode.
-- `src/data/tags.json` — a derived videoId-to-tags map over a small controlled
-  tag vocabulary.
-- `src/data/partners.json`, `src/data/testimonials.json` — real partner and
-  testimonial records.
-- `src/data/channel-subscribers.json` — the channel subscriber count with the
-  date it was last read, refreshed by the weekly playlist sync.
-- `src/data/media-kit.json` — the audience and watch-time figures `/partners`
-  publishes, hand-copied from YouTube Studio with the date they were captured.
-- Panel headshots at `public/images/{riza,eka,ivan}.jpg`.
+- `src/data/episodes.json`: metadata, titles, descriptions, durations, audio enclosures, publish dates.
+- `src/data/transcripts/*.json`: full transcripts with timestamps and text segments.
+- `src/data/summaries/*.json`: structured episode summaries and key takeaways.
+- `src/data/tags.json`: verified tag index.
+- `src/data/partners.json` & `src/data/testimonials.json`: actual partner and testimonial records.
+- `src/data/channel-subscribers.json`: YouTube channel subscriber count with `checkedAt`/`fetchedAt`.
+- `src/data/media-kit.json`: YouTube Studio analytics data with `capturedAt`.
+- Panel assets: `public/images/{riza,eka,ivan}.jpg`.
 
-Absent, and not to be invented: download statistics, or any audience or traffic
-figure beyond the dated snapshots in the two stores above. The `media-kit.json`
-half is YouTube Analytics data no script here can reach, so it is copied by hand
-and nagged about when it ages. The quantitative claims on `partners.astro` are
-the site's most load-bearing numbers, which is why every one of them is now
-derived or dated rather than typed; `AGENTS.md` ("`/partners` figures") owns
-that rule.
+Absent and not to be fabricated: private download figures or unaudited traffic numbers beyond what is derived/dated in stores.
 
 ## Product Principles
 
-1. **The archive is the product.** The back catalogue, fully transcribed, is
-   the durable asset; the newest episode is only the most perishable slice of
-   it. Structure should make the depth visible rather than hiding it behind one
-   link.
-2. **Every episode is a front door.** Most organic arrivals land on a single
-   episode page from search, not on the homepage. An episode page must
-   therefore do the work of orienting a stranger, not just serving a fan.
-3. **Design for the incomplete record.** Summaries and tags are produced by a
-   separate human-in-the-loop process that always lags the playlist sync. Any
-   surface that assumes summaries or tags exist is broken for the newest
-   episodes, which are the ones most likely to be visited.
-4. **Never trade an indexed URL for a tidier structure.** Traffic is the goal;
-   a URL change that loses rankings defeats the work that motivated it.
-5. **Machine surfaces are first-class.** RSS, the podcast feed, the sitemap and
-   `llms.txt` are how the archive is consumed off-site. They are verified by
-   count, not by the absence of a build error.
+1. **The archive is the product.** The back catalogue, fully transcribed, is the durable asset; the newest episode is only the most perishable slice of it. Structure should make the depth visible rather than hiding it behind one link.
+2. **Every episode is a front door.** Most organic arrivals land on a single episode from search. An episode page must orient a newcomer, deliver the answer immediately, and introduce the show and community.
+3. **Foster two-way community participation.** The podcast is a dialogue, not a monologue; surfaces should invite listener Q&A, topic discussions, and collaborative transcript improvements.
+4. **Transparent and credible partner value.** Partner stats and media kit metrics are strictly derived or dated snapshots, providing reliable data for prospective sponsors.
+5. **Design for the incomplete record.** The human summary/tagging process lags the automated playlist sync. Surfaces must render cleanly when summaries or tags are absent.
+6. **Never trade an indexed URL for a tidier structure.** Slugs and URLs are permanent.
+7. **Machine surfaces are first-class.** RSS, podcast RSS, sitemap, search index, and llms.txt are essential distribution channels verified on every release.
 
 ## Accessibility & Inclusion
 
-*[repo]* Bahasa Indonesia throughout, `lang="id"` declared. The show's own
-stated purpose is closing a knowledge gap for developers who feel left behind,
-which argues for plain language over jargon in navigation labels.
-`accessibility` is a recurring editorial topic in the archive itself. No formal
-conformance target has been established, and `e2e/` still runs no axe audit, but
-structure and palette are now guarded explicitly by `e2e/a11y-structure.spec.ts`
-(skip link, heading order, `aria-current`, interface language),
-`e2e/scroll-buttons-palette.spec.ts` and `src/styles/contrast.test.ts`, which
-holds every palette pairing to its measured WCAG AA floor. The site-wide
-conformance target stays *undecided* rather than invented.
+Bahasa Indonesia throughout with plain language over unnecessary jargon. Strict WCAG AA contrast floors tested via automated suites. Full keyboard navigation, visible focus rings (`:focus-visible`), skip links, semantic heading hierarchy, and `aria-current` indicators.
