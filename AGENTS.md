@@ -187,6 +187,36 @@ Two things worth knowing before touching that path:
   equality) and the `absentFromPlaylistSince` optionality assertion in
   `src/lib/episode-retention.test.ts` (absent *or* a valid stamp, not absent everywhere).
 
+## Browser tests: the port belongs to the worktree, and is never adopted
+
+A green browser-test run means "this branch is green" only because of the
+mechanism in `scripts/lib/e2e-port.ts` — `playwright.config.ts` decides nothing
+about the port itself, and that module's comment is the authority for why it
+works the way it does. Three rules hold:
+
+- **Never hardcode the port.** It is derived from the worktree path and then
+  probed, so two lanes get two ports and can run concurrently, one lane keeps its
+  port across runs (stable URLs and traces), and a stale server sitting on a
+  lane's port is stepped over rather than used.
+- **A run never tests against a server it did not start.** `reuseExistingServer`
+  is `false` on every path, including under an explicit override, and is typed as
+  the literal `false` so re-enabling adoption fails to compile. Adopting a foreign
+  server lets the suite pass without ever loading the build under test, which makes
+  every green unprovable — that is the property this whole mechanism exists to buy.
+- **The port is written once.** `playwright.config.test.ts` guards that it is not
+  copied by hand into `baseURL`, `webServer.url` and `webServer.command`.
+
+`E2E_PORT=<port>` pins a port for debugging and is taken at its word: it does not
+re-enable adoption, and a busy override is refused rather than reused. Before
+changing how the port is chosen, read `pinPortForWorkers()` — its comment explains
+why the runner must stamp its decision into the environment for the worker
+processes, and why that uses a different variable name from `E2E_PORT`.
+
+Unrelated to ports: `e2e/service-worker.spec.ts` waits on `networkidle` and is sensitive to
+CPU load. Two full suites at once on a 10-core machine flake two or three of its tests;
+a single run oversubscribed with `--workers=12` flakes the same ones. Diagnose a
+service-worker timeout as load before suspecting the harness.
+
 ## Learnings & Best Practices
 
 ### ✅ DO's
