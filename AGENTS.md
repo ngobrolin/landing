@@ -211,8 +211,9 @@ run itself started, so a fresh probe steps past it and the workers drive the bro
 port with nothing behind it. `pinPortForWorkers()` stamps the decision into `process.env`
 under its own name (`E2E_PORT_PINNED`) so the forks inherit it — deliberately not
 `E2E_PORT`, because a busy *pinned* port means this run is already serving on it while a
-busy *override* means something else got there first, and those need opposite reactions. `playwright.config.test.ts` guards the other half — that the port
-is written once, not copied into `baseURL`, `webServer.url` and `webServer.command` by hand.
+busy *override* means something else got there first, and those need opposite reactions.
+`playwright.config.test.ts` guards the other half — that the port is written once, not
+copied into `baseURL`, `webServer.url` and `webServer.command` by hand.
 
 Unrelated to ports: `e2e/service-worker.spec.ts` waits on `networkidle` and is sensitive to
 CPU load. Two full suites at once on a 10-core machine flake two or three of its tests;

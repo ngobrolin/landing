@@ -29,6 +29,17 @@ import net from 'node:net';
  * The probing is why `pinPortForWorkers` exists: Playwright re-evaluates the
  * config in every worker process, and by then the chosen port is held by the
  * web server the run itself started. See that function.
+ *
+ * `e2e-port.test.ts` covers port *selection*. It deliberately does not cover
+ * the two end-to-end properties, which need real browser runs — too slow and
+ * too machine-dependent for CI — so they are checked by hand instead:
+ *
+ * - *Two lanes pass at once*: run `pnpm run test:e2e` from two worktrees
+ *   simultaneously and confirm with `lsof -nP -iTCP -sTCP:LISTEN` that each
+ *   run is serving on its own port.
+ * - *No foreign server is adopted*: put a decoy HTTP server on 4321 serving
+ *   recognisable content, run the suite, and confirm the decoy logs zero
+ *   requests. Under the old config it was adopted and served the tests.
  */
 
 /** The debugging override a person sets. */
