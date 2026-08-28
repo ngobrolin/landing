@@ -348,8 +348,8 @@ not everything on it is countable from the repo. Three rules hold it together:
   (`src/lib/partner-card.ts` → `src/pages/partners-og.png.ts`) from those same
   figures, for that reason: a hand-made image would be a second copy, and a card
   that disagrees with the page it links to is worse than no card. It rasterises
-  SVG through `sharp`, which reaches fonts via fontconfig — use `sans-serif`,
-  never `system-ui`, or the glyphs silently vanish on a Linux build agent.
+  SVG through `sharp` and is bound by the font rules for build-time rasterisers
+  under "The palette comes from the podcast cover" below.
   `src/lib/partner-card.test.ts` measures ink in the rendered PNG rather than
   trusting the SVG string.
 
@@ -366,11 +366,29 @@ Two guards keep it honest, and both assert rules rather than today's values:
 and `src/styles/palette-literals.test.ts` (no source file writes a literal from
 the retired pre-cover palette).
 
-Four surfaces cannot read that stylesheet and therefore restate the tokens by
+Three surfaces cannot read that stylesheet and therefore restate the tokens by
 hand — `public/offline.html` (served by the service worker without the Astro
-bundle), `public/og-image.svg`, `public/favicon.svg` and `src/lib/partner-card.ts`
-(librsvg has no stylesheet). Move a token and you must move it in those too; the
-literals test catches only the retired values, not drift in the new ones.
+bundle), `public/favicon.svg` and `src/lib/partner-card.ts` (librsvg has no
+stylesheet). Move a token and you must move it in those too; the literals test
+catches only the retired values, not drift in the new ones.
+
+`src/lib/palette.ts` is the way out of that, and anything new that draws at build
+time should use it instead of adding a fourth copy: it parses the `@theme` block
+out of `global.css` and throws by name on a token that is not declared. Its
+comment records the two path resolutions that look right and are not —
+`import.meta.url` dies once Astro bundles the module into `dist/chunks/`, and
+`?raw` returns an empty string under vitest — so read it before changing how it
+finds the file.
+
+**Every build-time rasteriser — `src/lib/partner-card.ts` and
+`src/lib/og-card.ts` today — rasterises SVG through `sharp`, whose librsvg
+backend resolves fonts through fontconfig, and that imposes two rules.** Use
+`sans-serif`, never `system-ui`: `system-ui` maps to nothing on a Linux build
+agent and the glyphs vanish with no error. And never measure text — `sans-serif`
+is Helvetica on a Mac and DejaVu Sans, roughly a tenth wider, on the build agent
+— so anchor every string `start` or `middle` and leave clearance instead of
+fitting to metrics. The clearance guards in `src/lib/og-card.test.ts` are what
+catch an overflow, because CI runs the unit tests on Linux.
 
 Two traps this repaint hit:
 

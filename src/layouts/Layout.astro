@@ -4,6 +4,11 @@ import { ClientRouter } from "astro:transitions";
 import Analytics from "../components/Analytics.astro";
 import ScrollButtons from "../components/ScrollButtons.astro";
 import OfflineBadgeRuntime from "../components/OfflineBadgeRuntime.astro";
+import {
+  OG_CARD_HEIGHT,
+  OG_CARD_WIDTH,
+  OG_IMAGE_PATH,
+} from "../lib/og-card-geometry";
 
 interface Props {
   title: string;
@@ -17,7 +22,7 @@ interface Props {
 const {
   title,
   description = "Video podcast seputar web development. Hadir setiap Selasa malam jam 20:00 WIB.",
-  image = "/og-image.png",
+  image = OG_IMAGE_PATH,
   preloadImage,
   omitCanonical = false,
   ogType = "website",
@@ -30,6 +35,13 @@ const absoluteImage = image.startsWith("http")
   : new URL(image, site).toString();
 
 const siteUrl = site.toString().replace(/\/$/, "");
+
+// Only the default card's dimensions belong here. A page that passes its own
+// `image` - /partners does - declares its own, and two sets of og:image:width
+// in one document is worse than none.
+const isDefaultCard = image === OG_IMAGE_PATH;
+const defaultCardAlt =
+  "Ngobrolin WEB - video podcast web development, setiap Selasa 20:00 WIB";
 
 // Mark the current section in the nav. Only the year tabs carried aria-current
 // before this; the 7-link main nav emitted it on none of 227 pages.
@@ -54,7 +66,7 @@ const jsonLd = {
       url: siteUrl,
       logo: {
         "@type": "ImageObject",
-        url: new URL("/og-image.png", site).toString(),
+        url: new URL(OG_IMAGE_PATH, site).toString(),
       },
       sameAs: [
         "https://www.youtube.com/@RizaFahmi",
@@ -124,6 +136,16 @@ const jsonLd = {
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
     <meta property="og:image" content={absoluteImage} />
+    {isDefaultCard && (
+      <>
+        {/* Dimensions let WhatsApp and LinkedIn commit to the large-image
+            preview before the file finishes downloading. */}
+        <meta property="og:image:width" content={String(OG_CARD_WIDTH)} />
+        <meta property="og:image:height" content={String(OG_CARD_HEIGHT)} />
+        <meta property="og:image:alt" content={defaultCardAlt} />
+        <meta name="twitter:image:alt" content={defaultCardAlt} />
+      </>
+    )}
     <meta property="og:site_name" content="Ngobrolin WEB" />
     <meta property="og:locale" content="id_ID" />
 
