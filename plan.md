@@ -4,8 +4,8 @@ This file records only what nothing else in the repo does: ideas not yet built,
 and decisions taken not to build something. Everything else lives elsewhere and
 is kept current there, so it is not repeated here.
 
-- **What the site does, how to run it, and every script** (`dev`, `build`, the
-  test runners, the three `transcribe*` generators and when to use each) —
+- **What the site does, how to run it, and its development, build, and
+  `transcribe*` commands** (including when to use each transcription generator) —
   see [`README.md`](README.md).
 - **Architecture, pipelines and the rules behind them** (episode sync,
   transcription defaults, summaries, the palette, the podcast feed) — see
