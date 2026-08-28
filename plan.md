@@ -19,9 +19,6 @@ is wrong.
 - [x] ~~Search within transcripts~~ - weighed and declined; the index is
       already fetched out of line and a transcript index would multiply it.
       `SEARCH_KEYS` in `src/lib/search.ts` is the one place to revisit it.
-- [x] ~~Redraw `public/og-image.png`~~ - done. Both hand-made files are gone;
-      `/og-image.png` and `/og-logo.png` are generated at build time from
-      `src/lib/og-card.ts`, which reads the tokens rather than restating them.
 - [ ] Clickable timestamps (jump to video position)
 - [ ] Auto-transcribe pipeline (GitHub Action). Historically blocked because
       `pnpm run transcribe` (local Whisper) hardcodes a machine-specific
