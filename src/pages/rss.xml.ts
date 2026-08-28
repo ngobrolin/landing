@@ -1,7 +1,7 @@
 import rss from '@astrojs/rss';
 import type { APIContext } from 'astro';
 import { getEpisodes } from '../lib/episodes';
-import { OG_LOGO_PATH } from '../lib/og-card-geometry';
+import { OG_LOGO_PATH, OG_LOGO_SIZE } from '../lib/og-card-geometry';
 
 export async function GET(context: APIContext) {
   const episodes = getEpisodes();
@@ -13,6 +13,12 @@ export async function GET(context: APIContext) {
   // with a trailing slash, which the W3C validator reports as
   // ImageLinkDoesntMatch. Deriving both from `context.site` is what stops them
   // drifting again.
+  //
+  // The dimensions are there for the same reason the 144x144 artefact exists at
+  // all: RSS 2.0 defaults an omitted `<width>`/`<height>` to 88x31, so a reader
+  // that honours the spec draws this square logo as a squashed letterbox. They
+  // come from `OG_LOGO_SIZE`, the size the PNG is actually rendered at, so the
+  // declared shape cannot drift from the served one.
   const site = context.site!.toString();
   const logo = new URL(OG_LOGO_PATH, context.site!).toString();
 
@@ -32,6 +38,8 @@ export async function GET(context: APIContext) {
         <url>${logo}</url>
         <title>Ngobrolin WEB</title>
         <link>${site}</link>
+        <width>${OG_LOGO_SIZE}</width>
+        <height>${OG_LOGO_SIZE}</height>
       </image>
     `,
   });

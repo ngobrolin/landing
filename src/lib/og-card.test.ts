@@ -138,11 +138,15 @@ describe('renderOgCard', () => {
     const stage = at(Math.round(OG_CARD_WIDTH / 2), 12);
 
     // Brightest pixel across the lockup: the wordmark itself, measured rather
-    // than assumed, so a fill that stopped rendering fails here too.
+    // than assumed, so a fill that stopped rendering fails here too. The search
+    // is confined to the navy stage, because the accent band clears 4.5:1
+    // against it on its own - scanning the full width would let a band colour
+    // stand in for a glyph and pass this with nothing drawn at all.
+    const edge = Math.round(OG_CARD_WIDTH * OG_BAND_FRACTION);
     const band = OG_CARD_TEXT_BANDS.find(b => b.name === 'wordmark')!;
     let brightest = [0, 0, 0];
     for (let y = band.top; y < band.top + band.height; y += 2) {
-      for (let x = 0; x < OG_CARD_WIDTH; x += 2) {
+      for (let x = edge; x < OG_CARD_WIDTH - edge; x += 2) {
         const px = at(x, y);
         if (luminance(px) > luminance(brightest)) brightest = px;
       }

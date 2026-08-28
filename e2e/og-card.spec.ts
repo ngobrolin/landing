@@ -6,6 +6,7 @@ import {
   OG_CARD_WIDTH,
   OG_IMAGE_PATH,
   OG_LOGO_PATH,
+  OG_LOGO_SIZE,
   RSS_IMAGE_MAX_WIDTH,
 } from '../src/lib/og-card-geometry';
 
@@ -112,8 +113,22 @@ test.describe('RSS channel image', () => {
     const built = join(DIST_DIR, OG_LOGO_PATH.replace(/^\//, ''));
 
     expect(existsSync(built), `${built} is missing from dist/`).toBe(true);
+    // Measured off the file rather than trusting the constant: a PNG's IHDR
+    // carries its width as a big-endian uint32 at byte 16.
+    const width = readFileSync(built).readUInt32BE(16);
+
     // "Maximum value for width is 144, default value is 88." A 1200x630 banner
     // could never have worked here even in the right format.
-    expect(RSS_IMAGE_MAX_WIDTH).toBe(144);
+    expect(width).toBeLessThanOrEqual(RSS_IMAGE_MAX_WIDTH);
+    expect(width).toBe(OG_LOGO_SIZE);
+  });
+
+  test('declares the dimensions, so the square logo is not drawn at 88x31', () => {
+    // RSS 2.0 defaults an omitted width/height to 88x31. Declaring them is the
+    // only thing that tells a reader this artefact is square.
+    const image = feed().match(/<image>[\s\S]*?<\/image>/)?.[0] ?? '';
+
+    expect(image.match(/<width>(\d+)<\/width>/)?.[1]).toBe(String(OG_LOGO_SIZE));
+    expect(image.match(/<height>(\d+)<\/height>/)?.[1]).toBe(String(OG_LOGO_SIZE));
   });
 });
