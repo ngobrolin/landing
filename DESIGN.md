@@ -137,8 +137,10 @@ two jobs accordingly: blue is interactive (links, focus, filled buttons, the
 active tab, transcript timecodes); purple is categorical and decorative (topic
 labels, tier eyebrows, the Apple Podcasts citation) and is where an accent fill
 goes on hover. The blue-to-purple gradient is reserved for the few places the
-cover's own framing is being quoted directly: the favicon, the `/partners` share
-card, and `og-image.svg`. The subscribe action stays YouTube red — an
+cover's own framing is being quoted directly: the favicon and the `/partners`
+share card. The site-wide share card at `/og-image.png` and the feed logo at
+`/og-logo.png` go further and quote the cover's *bands* rather than a gradient
+of them — see `src/lib/og-card.ts`. The subscribe action stays YouTube red — an
 off-system colour used as a platform citation, not as part of the palette.
 
 Typography is entirely system-stack and entirely unstyled in personality

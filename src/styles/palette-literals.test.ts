@@ -11,8 +11,8 @@ import { fileURLToPath } from 'node:url';
  *
  * The way that repaint gets quietly undone is not by someone re-editing the
  * theme block; it is by a new component reaching for a literal, the way
- * `ScrollButtons`, `YouTubeEmbed`, `partner-card.ts` and `og-image.svg` each
- * already had. So this asserts the RULE - a retired literal appears nowhere -
+ * `ScrollButtons`, `YouTubeEmbed` and `partner-card.ts` each already had. So
+ * this asserts the RULE - a retired literal appears nowhere -
  * rather than the current token values, which are free to move.
  */
 

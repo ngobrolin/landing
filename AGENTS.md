@@ -366,11 +366,19 @@ Two guards keep it honest, and both assert rules rather than today's values:
 and `src/styles/palette-literals.test.ts` (no source file writes a literal from
 the retired pre-cover palette).
 
-Four surfaces cannot read that stylesheet and therefore restate the tokens by
+Three surfaces cannot read that stylesheet and therefore restate the tokens by
 hand — `public/offline.html` (served by the service worker without the Astro
-bundle), `public/og-image.svg`, `public/favicon.svg` and `src/lib/partner-card.ts`
-(librsvg has no stylesheet). Move a token and you must move it in those too; the
-literals test catches only the retired values, not drift in the new ones.
+bundle), `public/favicon.svg` and `src/lib/partner-card.ts` (librsvg has no
+stylesheet). Move a token and you must move it in those too; the literals test
+catches only the retired values, not drift in the new ones.
+
+`src/lib/palette.ts` is the way out of that, and anything new that draws at build
+time should use it instead of adding a fourth copy: it parses the `@theme` block
+out of `global.css` and throws by name on a token that is not declared. Its
+comment records the two path resolutions that look right and are not —
+`import.meta.url` dies once Astro bundles the module into `dist/chunks/`, and
+`?raw` returns an empty string under vitest — so read it before changing how it
+finds the file.
 
 Two traps this repaint hit:
 

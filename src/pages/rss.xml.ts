@@ -1,9 +1,20 @@
 import rss from '@astrojs/rss';
 import type { APIContext } from 'astro';
 import { getEpisodes } from '../lib/episodes';
+import { OG_LOGO_PATH } from '../lib/og-card-geometry';
 
 export async function GET(context: APIContext) {
   const episodes = getEpisodes();
+
+  // Both of these used to be written out by hand, and both were wrong. The
+  // image was `/og-image.svg` - a format RSS 2.0 does not allow, in an element
+  // it caps at 144 wide, and a different design from the one social previews
+  // showed. The link was `https://ngobrol.in` while the channel link renders
+  // with a trailing slash, which the W3C validator reports as
+  // ImageLinkDoesntMatch. Deriving both from `context.site` is what stops them
+  // drifting again.
+  const site = context.site!.toString();
+  const logo = new URL(OG_LOGO_PATH, context.site!).toString();
 
   return rss({
     title: 'Ngobrolin WEB',
@@ -18,9 +29,9 @@ export async function GET(context: APIContext) {
     customData: `
       <language>id</language>
       <image>
-        <url>https://ngobrol.in/og-image.svg</url>
+        <url>${logo}</url>
         <title>Ngobrolin WEB</title>
-        <link>https://ngobrol.in</link>
+        <link>${site}</link>
       </image>
     `,
   });
