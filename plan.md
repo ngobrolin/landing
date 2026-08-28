@@ -1,39 +1,18 @@
 # Ngobrolin WEB - Project Plan
 
-## Completed Features
+This file records only what nothing else in the repo does: ideas not yet built,
+and decisions taken not to build something. Everything else lives elsewhere and
+is kept current there, so it is not repeated here.
 
-### Core
-- **Episode listing** - Fetched from YouTube API, stored in `src/data/episodes.json`
-- **Top Episodes page** - Curated list in `src/data/topEpisodes.json`
-- **Search** - Client-side search over the server-rendered cards; see
-  `src/lib/search.ts` for what is indexed and why short queries bypass Fuse
+- **What the site does, how to run it, and its development, build, and
+  `transcribe*` commands** (including when to use each transcription generator) —
+  see [`README.md`](README.md).
+- **Architecture, pipelines and the rules behind them** (episode sync,
+  transcription defaults, summaries, the palette, the podcast feed) — see
+  [`AGENTS.md`](AGENTS.md).
 
-### Transcription & Summarization
-- **Transcription** - Local Whisper pipeline via `pnpm run transcribe`
-- **Summarization** - AI-assisted via `SUMMARIZE.md` instructions
-- **Display** - Summary + collapsible transcript on episode pages
-
-### SEO
-- **Structured data** - VideoObject, PodcastEpisode, BreadcrumbList schemas
-- **Meta descriptions** - Uses summary brief when available
-- **Transcript indexing** - Full text in schema for Google
-
-### Infrastructure
-- **Cloudflare Pages** - Git integration, build: `pnpm run build`, output: `dist`
-- **GitHub Actions**:
-  - `fetch-playlist.yml` - Weekly YouTube sync (Wed 08:00 WIB)
-  - `playlist-drift.yml` - Daily check for episodes published but missing from the playlist
-  - `test.yml` - Unit + E2E tests on PR
-
-## Scripts
-
-| Command | Description |
-|---------|-------------|
-| `pnpm run transcribe` | Transcribe next episode (local Whisper) |
-| `pnpm run transcribe --missing` | Transcribe all missing |
-| `pnpm run build` | Build for production |
-| `pnpm run test:unit` | Run Vitest unit tests |
-| `pnpm run test:e2e` | Run Playwright E2E tests |
+If something here contradicts either of those files, this file is the one that
+is wrong.
 
 ## Future Ideas
 
@@ -44,5 +23,9 @@
       file, so the cover repaint hue-rotated it onto the brand hues rather
       than redrawing it; `public/og-image.svg` is the one with real tokens.
 - [ ] Clickable timestamps (jump to video position)
-- [ ] Auto-transcribe pipeline (GitHub Action)
+- [ ] Auto-transcribe pipeline (GitHub Action). Historically blocked because
+      `pnpm run transcribe` (local Whisper) hardcodes a machine-specific
+      `whisper-cli` path and needs browser cookies.
+      `pnpm run transcribe:youtube` — the default generator for new episodes —
+      needs neither, so a CI job is now genuinely possible. Not built yet.
 - [ ] Episode chapters from AI
