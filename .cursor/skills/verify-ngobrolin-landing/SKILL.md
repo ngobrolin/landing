@@ -13,25 +13,25 @@ Verify the **Ngobrolin WEB** site — a static Astro + Tailwind landing page and
 
 ## Launch
 
-Build and serve the production site locally:
+Build the production site:
 
 ```bash
 cd /workspace
 pnpm run build
-pnpm run preview --host 127.0.0.1 --port 4173
 ```
-
-The preview server runs on `http://127.0.0.1:4173`. Leave it running in a tmux session for the duration of verification.
 
 **Requirements:**
 - Node.js and pnpm installed (`packageManager` field in `package.json` pins the version)
 - `src/data/episodes.json` must exist and contain episode data (never delete this)
 - Build outputs to `dist/`
 
-**Smoke check after launch:**
+**Note:** The Playwright test suite (recommended Drive harness) starts its own preview server automatically. For manual verification only, you can start a preview server:
+
 ```bash
-curl -s http://127.0.0.1:4173 | grep -q "Ngobrolin WEB" && echo "✓ Server responding"
+pnpm run preview --host 127.0.0.1 --port 4173
 ```
+
+See Drive section for details on when to use manual preview vs Playwright's managed server.
 
 ---
 
@@ -54,12 +54,7 @@ Validate the build before driving:
 
 3. **Verify Playwright is available (for Drive option):**
    ```bash
-   npx playwright --version
-   ```
-
-4. **Check server is responding:**
-   ```bash
-   curl -f -s http://127.0.0.1:4173 > /dev/null && echo "✓ Server healthy"
+   pnpm exec playwright --version
    ```
 
 **Success criteria:** All checks pass. If episodes.json is missing or build failed, DO NOT proceed — fix the issue first.
@@ -70,35 +65,38 @@ Validate the build before driving:
 
 ### Harness Options
 
-**Option A: Existing Playwright suite (preferred when applicable)**
+**Option A: Existing Playwright suite (preferred)**
 
-The repo has comprehensive e2e tests under `e2e/` covering home, episodes, search, transcripts, SEO, and more. Run the full suite or targeted specs:
+The repo has comprehensive e2e tests under `e2e/` covering home, episodes, search, transcripts, SEO, and more. **The suite manages its own preview server** (`reuseExistingServer: false`) on a worktree-derived port.
 
 ```bash
-# Full suite (requires preview server running on port derived from workspace)
+# Full suite — Playwright builds, serves, and tests automatically
 pnpm run test:e2e
 
-# Specific feature
-npx playwright test e2e/home.spec.ts --headed
-npx playwright test e2e/search.spec.ts --headed
-npx playwright test e2e/episode.spec.ts --headed
+# Specific feature — Playwright still manages its own server
+pnpm exec playwright test e2e/home.spec.ts --headed
+pnpm exec playwright test e2e/search.spec.ts --headed
+pnpm exec playwright test e2e/episode.spec.ts --headed
 ```
 
-**Note:** Playwright config (`playwright.config.ts`) derives the port from the workspace path via `scripts/lib/e2e-port.ts`. For manual verification against a running preview on 4173, either:
-- Set `E2E_PORT=4173` in environment, or
-- Use Option B (browser CDP) below
+**Important:** Do NOT manually start a preview server before running the suite. Playwright starts and stops its own server. If you have a preview running on port 4173 and set `E2E_PORT=4173`, the port resolver will reject it because the suite never adopts foreign servers.
 
-**Option B: Browser automation (for ad-hoc flows)**
+**Option B: Manual preview + ad-hoc automation (for flows not in the suite)**
 
-Use Playwright in standalone mode or CDP-based tools to drive the running preview server at `http://127.0.0.1:4173`:
+If you need to verify something NOT covered by the existing Playwright tests, start a manual preview server and drive it with tools:
 
 ```bash
-npx playwright codegen http://127.0.0.1:4173
+# Start preview in one terminal/tmux session
+pnpm run preview --host 127.0.0.1 --port 4173
+
+# In another terminal, use Playwright codegen or screenshot
+pnpm exec playwright codegen http://127.0.0.1:4173
+pnpm exec playwright screenshot --device="Desktop Chrome" --full-page http://127.0.0.1:4173 output.png
 ```
 
 **Option C: Manual browser testing**
 
-Open `http://127.0.0.1:4173` in a browser and manually verify flows. Capture screenshots or screen recordings as evidence.
+Start a manual preview (as in Option B) and open `http://127.0.0.1:4173` in a browser. Manually verify flows and capture screenshots or screen recordings as evidence.
 
 ### Key Flows to Drive
 
@@ -125,7 +123,7 @@ Capture proof artifacts after driving:
 
 2. **Logs:** If using Playwright, test output and traces go to `playwright-report/` and `test-results/`
 
-3. **HTTP checks:** Capture curl responses:
+3. **HTTP checks (if using manual preview):** Capture curl responses:
    ```bash
    mkdir -p .cursor/skills/verify-ngobrolin-landing/evidence/http
    curl -s http://127.0.0.1:4173 > .cursor/skills/verify-ngobrolin-landing/evidence/http/homepage.html
@@ -134,7 +132,7 @@ Capture proof artifacts after driving:
 
 4. **Playwright report (if used):**
    ```bash
-   npx playwright show-report  # Opens HTML report in browser
+   pnpm exec playwright show-report  # Opens HTML report in browser
    ```
 
 **Minimum evidence:** At least one screenshot or HTML artifact proving the driven feature loaded successfully.
@@ -145,13 +143,15 @@ Capture proof artifacts after driving:
 
 After verification is complete:
 
-1. **Stop the preview server:**
+1. **Stop any manual preview server (if you started one for Option B/C):**
    ```bash
    # If running in tmux session named 'preview':
    tmux kill-session -t preview
    
    # Or if running in foreground, Ctrl+C
    ```
+
+   **Note:** If you used the Playwright suite (Option A), there's nothing to stop — Playwright cleaned up its own server.
 
 2. **Verify evidence persists:**
    ```bash
@@ -174,7 +174,7 @@ After verification is complete:
 
 ## Helpers
 
-### Start preview in tmux
+### Start manual preview in tmux (only for Option B/C)
 
 ```bash
 cd /workspace
@@ -182,23 +182,23 @@ SESSION_NAME="preview"; tmux -f /exec-daemon/tmux.portal.conf has-session -t "=$
 tmux -f /exec-daemon/tmux.portal.conf send-keys -t "$SESSION_NAME:0.0" 'pnpm run preview --host 127.0.0.1 --port 4173' C-m
 ```
 
-### Check if preview is ready
+### Check if manual preview is ready
 
 ```bash
 timeout 30 bash -c 'until curl -f -s http://127.0.0.1:4173 > /dev/null; do sleep 1; done' && echo "✓ Preview ready"
 ```
 
-### Quick smoke test via curl
+### Quick smoke test via curl (against manual preview)
 
 ```bash
 curl -s http://127.0.0.1:4173 | grep -o '<title>.*</title>'
 curl -s http://127.0.0.1:4173/episodes | grep -o '<h1.*h1>'
 ```
 
-### Take screenshot with Playwright
+### Take screenshot with Playwright (against manual preview)
 
 ```bash
-npx playwright screenshot --device="Desktop Chrome" --full-page http://127.0.0.1:4173 homepage.png
+pnpm exec playwright screenshot --device="Desktop Chrome" --full-page http://127.0.0.1:4173 homepage.png
 ```
 
 ### Count episodes in data
@@ -215,6 +215,8 @@ jq '.[0] | keys' src/data/episodes.json  # Show structure of first episode
 - **Never run YouTube fetch/transcribe/S3 upload scripts** as part of verification
 - **Never delete or shrink episodes.json** — it is the source of truth
 - The site is Astro + Tailwind; do not expect Next.js or React patterns
+- **Use pnpm, never npm/npx** — the repo enforces pnpm via `packageManager` field and guards
+- **Playwright suite manages its own server** — do not start a manual preview before running `pnpm run test:e2e`
 - Playwright tests in `e2e/` are the primary harness — prefer reusing them over new automation
-- For quick checks, curl + grep is sufficient to prove pages render
+- For quick manual checks, start a preview server and use curl + grep to prove pages render
 - Preview server must be built first (`pnpm run build`) — `pnpm run preview` serves the `dist/` directory
