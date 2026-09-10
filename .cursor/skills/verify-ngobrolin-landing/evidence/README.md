@@ -16,16 +16,13 @@ evidence/
 
 ### Why?
 
-The site's episode content (descriptions, transcripts) can contain the substring `npx ` in natural language text. For example, Indonesian episode transcripts may include phrases like:
+The site's episode content (descriptions, transcripts) can contain forbidden package-manager invocations in natural language text. Indonesian episode transcripts discussing development security may include phrases about running package executables.
 
-- "menjalankan npx apa pun" (run any npx command)
-- "sebelum menjalankan npx" (before running npx)
-
-These trigger `scripts/lib/package-manager.test.ts`, which greps for `(^|[^p])npx ` to enforce the pnpm-only policy. The test correctly flags HTML evidence files as violations, even though the "npx" appears in site content, not skill instructions.
+These match `scripts/lib/package-manager.test.ts`, which enforces the pnpm-only policy by grepping for forbidden patterns. The test correctly flags HTML evidence files as violations, even though the banned substring appears in site content, not skill instructions.
 
 ### What to Commit
 
-- ✅ **Screenshots (PNG files)** — Binary images don't contain searchable "npx" text
+- ✅ **Screenshots (PNG files)** — Binary images don't contain searchable text patterns
 - ❌ **HTML files** — Site content can trip package-manager guards
 - ✅ **This README** — Documents the runtime-only policy
 
