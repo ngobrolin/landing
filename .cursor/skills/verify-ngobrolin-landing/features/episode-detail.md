@@ -19,11 +19,13 @@ The episode detail page displays a single podcast episode with embedded video pl
 1. From homepage: Click the latest episode spotlight card or any recent episode card
 2. From `/episodes`: Click any episode card in the grid
 3. From search results: Click a search result card
-4. Direct URL: `/episodes/{slug}` where slug is derived from episode title
+4. Direct URL: `/episodes/{slug}` where slug is the **stored** value from `episodes.json`
 
-Examples:
+Examples (using stored slugs):
 - `/episodes/htmx-the-new-meta-framework`
 - `/episodes/livestream-2-astro-view-transitions`
+
+**Note:** To verify an episode, get its slug from the episode card's `href` attribute or `data-episode-slug` attribute, never reconstruct from the title.
 
 ## Driving it with Playwright
 
@@ -87,7 +89,7 @@ The episode page is covered by `e2e/episode.spec.ts`. Key interactions:
 
 ## Gotchas
 
-- **Slugs are stored, not derived:** Episode slugs in URLs come from `slug` field in `episodes.json`, not dynamically generated from titles. Legacy episodes without stored slugs fall back to title-based derivation.
+- **Slugs are stored, never derived:** Episode slugs in URLs come from the `slug` field in `episodes.json` (stored data). **Never reconstruct slugs from titles** when verifying — get them from episode card `href` attributes, `data-episode-slug` attributes, or directly from `episodes.json`. Title-based derivation is a legacy fallback in the code but must not be used for verification.
 - **Transcript search is client-side:** Filtering happens in the browser without page reload. The search input filters the displayed segments array.
 - **Transcript timestamps clickable:** Each timestamp has a seek button that sends a message to the YouTube iframe API to seek to that time.
 - **Some episodes lack transcripts:** If `src/data/transcripts/{videoId}.json` doesn't exist, the transcript section won't render.
