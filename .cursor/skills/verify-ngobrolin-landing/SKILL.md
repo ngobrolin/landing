@@ -106,7 +106,7 @@ Pick ONE or more features from the feature map (see `features/` directory):
 2. **Episode Listing** (`features/episode-listing.md`) — Load `/episodes`, verify grid, year tabs, search
 3. **Episode Detail** (`features/episode-detail.md`) — Navigate to an episode, verify video embed, transcript, metadata
 4. **Search** (`features/search.md`) — Use search from homepage or `/episodes`, verify results
-5. **Tags** (`features/tags.md`) — Navigate to `/tags`, click a tag, verify filtered episodes
+5. **Tags/Topik** (`features/tags.md`) — Navigate to `/tags`, click a tag, verify filtered episodes
 
 ---
 

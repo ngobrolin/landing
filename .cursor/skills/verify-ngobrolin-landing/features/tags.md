@@ -1,6 +1,6 @@
-# Tags
+# Tags (Topik)
 
-The tags feature allows users to browse episodes by topic. Tags are extracted from episode summaries and displayed on a dedicated tags index page, with individual tag pages showing filtered episodes.
+The tags feature allows users to browse episodes by topic. Tags are extracted from episode summaries and displayed on a dedicated topics index page (`/tags`), with individual tag pages showing filtered episodes. The user-facing label is **Topik** (Indonesian for "Topics").
 
 ## Sub-features
 
@@ -33,8 +33,8 @@ Tags are covered by `e2e/tags.spec.ts`. Key interactions:
 1. **Navigate to tags index:**
    ```typescript
    await page.goto('/tags');
-   await expect(page).toHaveTitle(/Tag - Ngobrolin WEB/);
-   await expect(page.getByRole('heading', { name: 'Tag' })).toBeVisible();
+   await expect(page).toHaveTitle(/Topik/);
+   await expect(page.getByRole('heading', { name: /topik/i })).toBeVisible();
    ```
 
 2. **Verify tag list renders:**
@@ -66,6 +66,8 @@ Tags are covered by `e2e/tags.spec.ts`. Key interactions:
    await expect(page.getByRole('heading', { name: /typescript/i })).toBeVisible();
    const episodes = page.locator('[data-testid="episode-card"]');
    await expect(episodes.first()).toBeVisible();
+   // Check back link to all topics
+   await expect(page.getByRole('link', { name: /Semua Topik/i })).toBeVisible();
    ```
 
 6. **Test topic chips on homepage:**

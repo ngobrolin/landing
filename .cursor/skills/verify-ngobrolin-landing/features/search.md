@@ -51,10 +51,10 @@ Search is covered by `e2e/search.spec.ts`. Key interactions:
 3. **Test real-time search on episodes page:**
    ```typescript
    await page.goto('/episodes');
-   const searchInput = page.locator('#episodes-search');
+   const searchInput = page.locator('#search-input');
    await searchInput.fill('htmx');
    await page.waitForTimeout(500); // Debounce delay
-   const results = page.locator('[data-testid="episode-card"]');
+   const results = page.locator('#episodes-grid > a:visible');
    const count = await results.count();
    expect(count).toBeGreaterThan(0);
    ```
