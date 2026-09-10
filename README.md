@@ -24,6 +24,77 @@ pnpm run build
 pnpm run preview
 ```
 
+## Weekly ops
+
+Priority order for podcast distribution and content enrichment:
+
+### High priority (podcast distribution)
+
+1. **Fetch YouTube playlist** → merge into `src/data/episodes.json`
+   ```bash
+   YOUTUBE_API_KEY=your_api_key pnpm exec tsx scripts/fetch-playlist.ts
+   ```
+   - Automated: `.github/workflows/fetch-playlist.yml` every Wednesday 08:00 WIB
+   - See [Fetch YouTube Playlist Data](#fetch-youtube-playlist-data) for sync guards and retention rules
+
+2. **Extract audio** from YouTube
+   ```bash
+   # Check status
+   pnpm exec tsx scripts/extract-audio.ts --status
+   
+   # Extract next episode or all missing
+   pnpm exec tsx scripts/extract-audio.ts --missing
+   ```
+   - Requires: `yt-dlp`, `ffmpeg`
+   - See [Audio Podcast](#audio-podcast) for details
+
+3. **Upload to Amazon S3**
+   ```bash
+   # Check if object already exists (upload-s3.ts overwrites without checking)
+   aws s3api head-object --bucket ngobrolinweb-podcast --key audio/<videoId>.mp3
+   
+   # Check status
+   pnpm exec tsx scripts/upload-s3.ts --status
+   
+   # Upload (--missing checks local episodes.json only, not S3)
+   pnpm exec tsx scripts/upload-s3.ts --missing
+   ```
+   - Requires: AWS credentials via `~/.aws/credentials` or environment variables
+   - See [Audio Podcast](#audio-podcast) for details
+
+4. **Commit audio metadata** — `upload-s3.ts` writes `audioUrl`/`audioDuration`/`audioFileSize` into `src/data/episodes.json`; commit that edit or the episode silently disappears from `/podcast-rss.xml`
+
+5. **Publish RSS** — `pnpm run build` generates `/podcast-rss.xml` from committed audio metadata
+
+### Lower priority (content enrichment)
+
+1. **Transcription** — prefer YouTube auto-captions (free, no API key):
+   ```bash
+   pnpm run transcribe:youtube --missing
+   ```
+   - See [Transcription](#transcription) for Whisper and OpenAI alternatives
+
+2. **Summarize** — use AI tools (Amp, Claude, Gemini CLI):
+   - Reference `@SUMMARIZE.md` in your AI tool
+   - Saves to `src/data/summaries/`
+   - See [Summarization](#summarization) for workflow
+
+3. **Extract tags** — after summaries change, regenerate `src/data/tags.json` (fully derived/replaced):
+   ```bash
+   pnpm exec tsx scripts/extract-tags.ts
+   ```
+
+4. **Update episode/site data** — comes from playlist sync + summaries/tags as already documented
+
+5. **Verify on the web** — check episode listing + detail visibility:
+   ```bash
+   # Build first (preview does not rebuild)
+   pnpm run build && pnpm run preview
+   
+   # Or run e2e tests (builds automatically)
+   pnpm run test:e2e
+   ```
+
 ## Fetch YouTube Playlist Data
 
 To fetch all episodes from the YouTube playlist:
