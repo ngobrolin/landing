@@ -148,6 +148,16 @@ test.describe('Episode search', () => {
 
     expect(errors, `unexpected page errors: ${errors.join(', ')}`).toEqual([]);
   });
+
+  test('pressing "/" or "Cmd+K" focuses search input, and Escape blurs', async ({ page }) => {
+    await page.goto('/episodes');
+    await page.locator('body').click();
+    await page.keyboard.press('Slash');
+    await expect(page.locator('#search-input')).toBeFocused();
+
+    await page.keyboard.press('Escape');
+    await expect(page.locator('#search-input')).not.toBeFocused();
+  });
 });
 
 test.describe('Search reaches summary key points', () => {

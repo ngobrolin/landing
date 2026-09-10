@@ -42,4 +42,45 @@ test.describe('Episode Page', () => {
     await expect(badge).toBeVisible();
     await expect(badge).toHaveText(/^EP \d+$/);
   });
+
+  test('transcript search filters segments in real-time', async ({ page }) => {
+    await page.goto('/');
+    const firstEpisode = page.locator('[data-testid="episode-card"]').first();
+    await firstEpisode.click();
+
+    const transcript = page.getByTestId('transcript');
+    await expect(transcript).toBeVisible();
+
+    const searchInput = transcript.locator('#transcript-search-input');
+    await expect(searchInput).toBeVisible();
+
+    // Type a query
+    await searchInput.fill('web');
+    const statusText = transcript.locator('#transcript-search-status');
+    await expect(statusText).toBeVisible();
+    await expect(statusText).toContainText(/Ditemukan \d+ segmen/);
+
+    // Clear search
+    const clearBtn = transcript.locator('#transcript-search-clear');
+    await expect(clearBtn).toBeVisible();
+    await clearBtn.click();
+    await expect(searchInput).toHaveValue('');
+    await expect(statusText).toBeHidden();
+  });
+
+  test('transcript timestamps have seek buttons', async ({ page }) => {
+    await page.goto('/');
+    const firstEpisode = page.locator('[data-testid="episode-card"]').first();
+    await firstEpisode.click();
+
+    const transcript = page.getByTestId('transcript');
+    const seekBtn = transcript.locator('.timestamp-seek-btn').first();
+    await expect(seekBtn).toBeVisible();
+    await expect(seekBtn).toHaveAttribute('data-seek-time');
+
+    // Clicking timestamp triggers seeking
+    await seekBtn.click();
+    const ytEmbed = page.locator('lite-youtube');
+    await expect(ytEmbed).toHaveAttribute('params', /enablejsapi=1/);
+  });
 });

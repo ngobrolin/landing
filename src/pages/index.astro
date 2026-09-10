@@ -1,16 +1,17 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import EpisodeCard from '../components/EpisodeCard.astro';
-import { getEpisodes, getNewEpisodeSlugs } from '../lib/episodes';
+import { getEpisodes, getNewEpisodeSlugs, formatDuration, getCardBlurb } from '../lib/episodes';
+import { getDisplayTitle } from '../lib/episode-title';
 import { getArchiveStats, getYearsWithCounts, getTopTags } from '../lib/archive';
 import { formatTagLabel } from '../lib/tags';
-import { getImage } from 'astro:assets';
+import { Image, getImage } from 'astro:assets';
 import { generateHomepageSchema } from '../lib/seo';
 
 const episodes = getEpisodes();
+const latestEpisode = episodes[0];
 
-// Four, not eight. The newest episodes are the most perishable slice of the
-// archive; the rest of the page now spends its space on the depth behind them.
+// Four recent episodes for the grid showcase below the hero spotlight.
 const recentEpisodes = episodes.slice(0, 4);
 
 const { episodeCount, transcriptCount, fullyTranscribed } = getArchiveStats();
@@ -19,7 +20,7 @@ const topTags = getTopTags(12);
 const newSlugs = getNewEpisodeSlugs();
 
 const optimizedLcpImage = await getImage({
-  src: recentEpisodes[0].thumbnail,
+  src: latestEpisode.thumbnail,
   width: 640,
   height: 360,
   format: 'webp',
@@ -29,6 +30,51 @@ const homepageSchema = generateHomepageSchema(
   Astro.site?.toString().replace(/\/$/, '') || 'https://ngobrol.in',
   episodeCount
 );
+
+const formattedLatestDate = new Date(latestEpisode.publishedAt).toLocaleDateString('id-ID', {
+  day: 'numeric',
+  month: 'short',
+  year: 'numeric',
+});
+
+const latestDuration = formatDuration(latestEpisode.duration);
+const latestDisplayTitle = getDisplayTitle(latestEpisode.title);
+const latestBlurb = getCardBlurb({ brief: latestEpisode.brief, description: latestEpisode.description });
+
+const now = new Date();
+const dayOfWeek = new Intl.DateTimeFormat('id-ID', { weekday: 'long', timeZone: 'Asia/Jakarta' }).format(now);
+const isTuesday = dayOfWeek.toLowerCase() === 'selasa';
+
+const hosts = [
+  {
+    name: 'Eka',
+    role: 'Pengembang Web • Atma Connect',
+    expert: 'GDE Web',
+    focus: 'Aksesibilitas & Standar Web',
+    image: '/images/eka.jpg',
+    github: 'https://github.com/ekafyi',
+    x: 'https://x.com/ekafyi',
+  },
+  {
+    name: 'Ivan',
+    role: 'Senior Web Engineer • Human Made',
+    expert: 'GDE Web',
+    focus: 'Platform Konten & Core Web',
+    image: '/images/ivan.jpg',
+    github: 'https://github.com/ivankristianto',
+    x: 'https://x.com/ivankrisdotcom',
+  },
+  {
+    name: 'Riza Fahmi',
+    role: 'Co-founder Hacktiv8',
+    expert: 'GDE Web',
+    focus: 'Tooling Modern & Ekosistem Web',
+    image: '/images/riza.jpg',
+    github: 'https://github.com/rizafahmi',
+    youtube: 'https://www.youtube.com/@RizaFahmi',
+    x: 'https://x.com/search?q=%23ngobrolinweb&f=live',
+  },
+];
 ---
 
 <Layout
@@ -39,114 +85,219 @@ const homepageSchema = generateHomepageSchema(
     <script type="application/ld+json" set:html={JSON.stringify(homepageSchema)} />
   </Fragment>
 
-  <!-- Hero -->
-  <section class="py-16 md:py-20">
+  <!-- Hero Section with Media Spotlight -->
+  <section class="py-12 md:py-20 border-b border-surface-border/40">
     <div class="container mx-auto px-4">
-      <div class="max-w-3xl">
-        <h1 class="text-4xl md:text-6xl font-bold text-ink mb-6">
-          Ngobrolin <span class="text-accent-text">WEB</span>
-        </h1>
-        <p class="text-xl text-ink-body mb-4">
-          Video podcast seputar web development dalam Bahasa Indonesia.
-        </p>
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
+        <!-- Left: Value Proposition, Scale & Search (7 cols on lg) -->
+        <div class="lg:col-span-7">
+          <h1 class="text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight text-ink mb-4">
+            Ngobrolin <span class="text-accent-text">WEB</span>
+          </h1>
+          <p class="text-xl text-ink-body mb-4 font-normal">
+            Video podcast seputar web development dalam Bahasa Indonesia.
+          </p>
 
-        <!--
-          The scale of the archive, stated plainly. "N episode, semuanya
-          dengan transkrip lengkap" is the strongest true sentence this product
-          can say, and it appeared nowhere on the site. Both numbers are
-          derived; hardcoding is how /partners came to advertise "164+".
-        -->
-        <p class="text-ink-body mb-8" data-testid="archive-scale">
-          <span class="text-ink font-semibold">{episodeCount} episode</span>
-          {fullyTranscribed
-            ? ', semuanya dengan transkrip lengkap.'
-            : `, ${transcriptCount} di antaranya dengan transkrip lengkap.`}
-          <span class="text-ink-muted">
-            Episode baru setiap <span class="text-accent-text font-medium">Selasa malam jam 20:00 WIB</span>.
-          </span>
-        </p>
-
-        <!--
-          Search from the front door. A plain GET form to /episodes, so it works
-          with no JavaScript at all and lands on the same ?q= URL that
-          Layout.astro advertises to search engines as a schema.org SearchAction.
-        -->
-        <form
-          action="/episodes"
-          method="get"
-          role="search"
-          class="mb-8"
-          data-testid="home-search"
-        >
-          <div class="relative max-w-xl">
-            <label for="home-search-input" class="sr-only">Cari episode</label>
-            <input
-              type="search"
-              id="home-search-input"
-              name="q"
-              placeholder={`Cari di ${episodeCount} episode...`}
-              class="w-full bg-surface-raised border border-surface-border-strong rounded-lg px-4 py-3 pl-12 pr-24 text-ink placeholder-ink-subtle focus:border-accent-text transition"
-            />
-            <svg
-              class="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-ink-subtle"
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
-              aria-hidden="true"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
-            </svg>
-            <button
-              type="submit"
-              class="absolute right-2 top-1/2 -translate-y-1/2 bg-accent-strong hover:bg-highlight-strong text-ink px-4 py-1.5 rounded-md text-sm font-medium transition"
-            >
-              Cari
-            </button>
-          </div>
-        </form>
-
-        <div class="flex flex-wrap gap-4">
-          <a
-            href="/episodes"
-            class="bg-accent-strong hover:bg-highlight-strong text-ink px-6 py-3 rounded-lg font-medium transition"
-          >
-            Lihat Semua Episode
-          </a>
           <!--
-            One click, with YouTube's own confirm dialog. The front door wants
-            the lowest-friction action; a page load and a platform menu is the
-            wrong ask here. The choice of platform belongs at the end of an
-            episode, where podcast intent actually lives - see the subscribe
-            block on the episode page.
+            The scale of the archive, stated plainly. "N episode, semuanya
+            dengan transkrip lengkap" is the strongest true sentence this product
+            can say, and it appeared nowhere on the site. Both numbers are
+            derived; hardcoding is how /partners came to advertise "164+".
           -->
-          <a
-            href="https://www.youtube.com/@RizaFahmi?sub_confirmation=1"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="border border-surface-border-strong hover:border-accent-text hover:text-accent-text text-ink px-6 py-3 rounded-lg font-medium transition"
-            data-analytics-event="subscribe_click"
-            data-analytics-props={JSON.stringify({
-              dest: 'youtube',
-              location: 'home_hero',
-            })}
+          <p class="text-ink-body mb-8 text-base" data-testid="archive-scale">
+            <span class="text-ink font-semibold">{episodeCount} episode</span>
+            {fullyTranscribed
+              ? ', semuanya dengan transkrip lengkap.'
+              : `, ${transcriptCount} di antaranya dengan transkrip lengkap.`}
+            <span class="block text-sm text-ink-muted mt-1.5">
+              {isTuesday ? (
+                <span class="inline-flex items-center gap-2 text-accent-text font-semibold">
+                  <span class="relative flex h-2 w-2" aria-hidden="true">
+                    <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-accent-text opacity-75"></span>
+                    <span class="relative inline-flex rounded-full h-2 w-2 bg-accent-text"></span>
+                  </span>
+                  Livestream malam ini jam 20:00 WIB!
+                </span>
+              ) : (
+                <>Episode baru setiap <strong class="text-accent-text font-semibold">Selasa malam jam 20:00 WIB</strong>.</>
+              )}
+            </span>
+          </p>
+
+          <!--
+            Search from the front door. A plain GET form to /episodes, so it works
+            with no JavaScript at all and lands on the same ?q= URL that
+            Layout.astro advertises to search engines as a schema.org SearchAction.
+          -->
+          <form
+            action="/episodes"
+            method="get"
+            role="search"
+            class="mb-8"
+            data-testid="home-search"
           >
-            Subscribe YouTube
-          </a>
+            <div class="relative max-w-xl">
+              <label for="home-search-input" class="sr-only">Cari episode</label>
+              <input
+                type="search"
+                id="home-search-input"
+                name="q"
+                placeholder={`Cari di ${episodeCount} episode...`}
+                aria-keyshortcuts="/"
+                class="w-full bg-surface-raised border border-surface-border-strong rounded-lg px-4 py-3.5 pl-12 pr-28 text-ink placeholder-ink-subtle focus:border-accent-text transition"
+              />
+              <svg
+                class="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-ink-subtle"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+                aria-hidden="true"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+              </svg>
+              <div class="absolute right-2 top-1/2 -translate-y-1/2 flex items-center gap-1.5">
+                <kbd class="hidden sm:inline-block px-1.5 py-0.5 text-xs text-ink-subtle bg-surface border border-surface-border rounded font-mono select-none" title="Tekan '/' untuk fokus pencarian">
+                  /
+                </kbd>
+                <button
+                  type="submit"
+                  class="bg-accent-strong hover:bg-highlight-strong text-ink px-4 py-2 rounded-md text-sm font-medium transition"
+                >
+                  Cari
+                </button>
+              </div>
+            </div>
+
+            <!-- Quick search suggestion pills -->
+            <div class="flex items-center gap-2 mt-3 flex-wrap text-xs text-ink-muted">
+              <span class="text-ink-subtle">Coba cari:</span>
+              {['Astro', 'TypeScript', 'HTMX', 'AI', 'Performance'].map((term) => (
+                <a
+                  href={`/episodes?q=${encodeURIComponent(term.toLowerCase())}`}
+                  class="px-2.5 py-1 rounded-md bg-surface border border-surface-border hover:border-accent-text hover:text-ink transition"
+                  data-analytics-event="search_suggestion_click"
+                  data-analytics-props={JSON.stringify({ term, location: 'home_hero' })}
+                >
+                  {term}
+                </a>
+              ))}
+            </div>
+          </form>
+
+          <div class="flex flex-wrap gap-4">
+            <a
+              href="/episodes"
+              class="bg-accent-strong hover:bg-highlight-strong text-ink px-6 py-3 rounded-lg font-medium transition"
+            >
+              Lihat Semua Episode
+            </a>
+            <!--
+              One click, with YouTube's own confirm dialog. The front door wants
+              the lowest-friction action; a page load and a platform menu is the
+              wrong ask here. The choice of platform belongs at the end of an
+              episode, where podcast intent actually lives - see the subscribe
+              block on the episode page.
+            -->
+            <a
+              href="https://www.youtube.com/@RizaFahmi?sub_confirmation=1"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="border border-surface-border-strong hover:border-accent-text hover:text-accent-text text-ink px-6 py-3 rounded-lg font-medium transition"
+              data-analytics-event="subscribe_click"
+              data-analytics-props={JSON.stringify({
+                dest: 'youtube',
+                location: 'home_hero',
+              })}
+            >
+              Subscribe YouTube
+            </a>
+          </div>
+        </div>
+
+        <!-- Right: Latest Episode Spotlight (5 cols on lg) -->
+        <div class="lg:col-span-5">
+          <div class="bg-surface-raised border border-surface-border hover:border-accent/50 rounded-2xl p-5 transition-all duration-300 hover:shadow-lg hover:shadow-accent/10">
+            <div class="flex items-center justify-between gap-2 mb-3">
+              <span class="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full text-xs font-semibold bg-accent-strong/20 text-accent-text border border-accent-strong/30">
+                <span class="relative flex h-2 w-2" aria-hidden="true">
+                  <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-accent-text opacity-75"></span>
+                  <span class="relative inline-flex rounded-full h-2 w-2 bg-accent-text"></span>
+                </span>
+                Episode Terbaru
+              </span>
+              <span class="text-xs text-ink-muted">
+                {formattedLatestDate}
+              </span>
+            </div>
+
+            <a
+              href={`/episodes/${latestEpisode.slug}`}
+              class="group block"
+            >
+              <div class="relative aspect-video rounded-lg overflow-hidden mb-4 bg-surface border border-surface-border">
+                <Image
+                  src={latestEpisode.thumbnail}
+                  alt={latestDisplayTitle}
+                  width={640}
+                  height={360}
+                  format="webp"
+                  loading="eager"
+                  fetchpriority="high"
+                  class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                />
+                <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-60 group-hover:opacity-40 transition-opacity"></div>
+                
+                <!-- Center play indicator -->
+                <div class="absolute inset-0 flex items-center justify-center">
+                  <div class="w-12 h-12 rounded-full bg-black/70 backdrop-blur-sm border border-white/20 flex items-center justify-center text-white group-hover:scale-110 group-hover:bg-accent-strong group-hover:border-transparent transition-all shadow-lg">
+                    <svg class="w-5 h-5 ml-0.5 fill-current" viewBox="0 0 24 24" aria-hidden="true">
+                      <path d="M8 5v14l11-7z" />
+                    </svg>
+                  </div>
+                </div>
+
+                <div class="absolute bottom-3 left-3 bg-black/80 text-white text-xs font-bold px-2 py-1 rounded">
+                  EP {latestEpisode.episodeNumber}
+                </div>
+                {latestDuration && (
+                  <div class="absolute bottom-3 right-3 bg-black/80 text-white text-xs font-medium px-2 py-1 rounded">
+                    {latestDuration}
+                  </div>
+                )}
+              </div>
+
+              <div class="font-semibold text-lg text-ink group-hover:text-accent-text transition line-clamp-2 mb-2 leading-snug">
+                {latestDisplayTitle}
+              </div>
+              {latestBlurb && (
+                <p class="text-sm text-ink-muted line-clamp-2 mb-3">
+                  {latestBlurb}
+                </p>
+              )}
+              
+              <div class="inline-flex items-center gap-1.5 text-sm font-medium text-accent-text group-hover:text-ink transition">
+                <span>Tonton & baca transkrip</span>
+                <svg class="w-4 h-4 transition-transform group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                </svg>
+              </div>
+            </a>
+          </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Recent Episodes -->
-  <section class="py-12">
+  <!-- Recent Episodes Grid -->
+  <section class="py-12 md:py-16">
     <div class="container mx-auto px-4">
       <div class="flex items-center justify-between mb-8">
         <h2 class="text-2xl font-bold text-ink">Episode Terbaru</h2>
-        <a href="/episodes" class="text-accent-text hover:text-ink transition">
+        <a href="/episodes" class="text-accent-text hover:text-ink transition font-medium">
           Lihat semua →
         </a>
       </div>
@@ -178,11 +329,11 @@ const homepageSchema = generateHomepageSchema(
     the real tag index, so every chip here has a page behind it.
   -->
   {topTags.length > 0 && (
-    <section class="py-12 bg-surface-raised/50">
+    <section class="py-12 md:py-16 border-t border-surface-border/40 bg-surface-raised/30">
       <div class="container mx-auto px-4">
         <div class="flex items-center justify-between mb-8">
           <h2 class="text-2xl font-bold text-ink">Jelajahi Topik</h2>
-          <a href="/tags" class="text-accent-text hover:text-ink transition">
+          <a href="/tags" class="text-accent-text hover:text-ink transition font-medium">
             Semua topik →
           </a>
         </div>
@@ -211,7 +362,7 @@ const homepageSchema = generateHomepageSchema(
     tab strip on /episodes itself, so nothing outside the archive linked into
     the back catalogue.
   -->
-  <section class="py-12">
+  <section class="py-12 md:py-16 border-t border-surface-border/40">
     <div class="container mx-auto px-4">
       <h2 class="text-2xl font-bold text-ink mb-8">Jelajahi per Tahun</h2>
 
@@ -222,31 +373,151 @@ const homepageSchema = generateHomepageSchema(
         {years.map(({ year, count }) => (
           <a
             href={`/episodes/${year}`}
-            class="group block p-4 bg-surface-raised border border-surface-border rounded-lg hover:border-accent/50 transition"
+            class="group block p-5 bg-surface-raised border border-surface-border rounded-xl hover:border-accent/50 transition-all duration-200"
           >
             <div class="text-2xl font-bold text-ink group-hover:text-accent-text transition">
               {year}
             </div>
-            <div class="text-sm text-ink-subtle">{count} episode</div>
+            <div class="text-sm text-ink-subtle mt-1">{count} episode</div>
           </a>
         ))}
       </div>
     </div>
   </section>
 
-  <!-- About -->
-  <section class="py-16 bg-surface-raised/50">
+  <!-- Hosts & Community Section -->
+  <section class="py-16 border-t border-surface-border/40 bg-surface-raised/30">
     <div class="container mx-auto px-4">
-      <div class="max-w-2xl mx-auto text-center">
-        <h2 class="text-2xl font-bold text-ink mb-4">Tentang Ngobrolin WEB</h2>
-        <p class="text-ink-body mb-6">
-          Podcast mingguan yang membahas berbagai topik seputar web development,
-          mulai dari framework modern, best practices, hingga pengalaman dari praktisi industri.
-        </p>
-        <a href="/about" class="text-accent-text hover:text-ink transition">
-          Selengkapnya tentang kami →
-        </a>
+      <div class="max-w-5xl mx-auto">
+        <div class="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-10">
+          <div>
+            <h2 class="text-2xl md:text-3xl font-bold text-ink mb-2">Panelis & Komunitas</h2>
+            <p class="text-ink-body text-base max-w-xl">
+              Diskusi santai seputar ekosistem web modern dipandu oleh para Google Developer Experts Indonesia.
+            </p>
+          </div>
+          <a href="/about" class="text-accent-text hover:text-ink transition text-sm font-medium whitespace-nowrap">
+            Tentang kami selengkapnya →
+          </a>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-10">
+          {hosts.map((host) => (
+            <div class="bg-surface-raised border border-surface-border rounded-xl p-5 flex items-start gap-4">
+              <img
+                src={host.image}
+                alt={host.name}
+                class="w-14 h-14 rounded-full object-cover ring-2 ring-accent/40 shrink-0"
+                loading="lazy"
+                width="56"
+                height="56"
+              />
+              <div class="min-w-0 flex-1">
+                <div class="flex items-center gap-1.5 mb-1">
+                  <h3 class="text-ink font-semibold text-base truncate">{host.name}</h3>
+                  <span class="bg-accent-strong/20 text-accent-text border border-accent-strong/30 px-1.5 py-0.5 rounded text-xs font-semibold tracking-wide">
+                    {host.expert}
+                  </span>
+                </div>
+                <p class="text-ink-body text-xs mb-1 leading-relaxed">
+                  {host.role}
+                </p>
+                <p class="text-ink-muted text-xs mb-3 italic">
+                  Fokus: {host.focus}
+                </p>
+                <div class="flex items-center gap-3 text-xs text-accent-text pt-0.5">
+                  {host.github && (
+                    <a
+                      href={host.github}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="py-1 px-1 -mx-1 hover:text-ink transition inline-flex items-center"
+                    >
+                      GitHub
+                    </a>
+                  )}
+                  {host.x && (
+                    <a
+                      href={host.x}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="py-1 px-1 -mx-1 hover:text-ink transition inline-flex items-center"
+                    >
+                      X
+                    </a>
+                  )}
+                  {host.youtube && (
+                    <a
+                      href={host.youtube}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="py-1 px-1 -mx-1 hover:text-ink transition inline-flex items-center"
+                    >
+                      YouTube
+                    </a>
+                  )}
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+
+        <!-- Community Callout -->
+        <div class="bg-surface border border-surface-border rounded-xl p-6 sm:p-8 flex flex-col sm:flex-row items-center justify-between gap-6">
+          <div>
+            <h3 class="text-lg font-semibold text-ink mb-1">Punya Pertanyaan atau Topik Diskusi?</h3>
+            <p class="text-sm text-ink-body">
+              Bergabunglah di GitHub Discussions atau ramaikan livestream setiap Selasa malam jam 20:00 WIB.
+            </p>
+          </div>
+          <div class="flex items-center gap-3 shrink-0">
+            <a
+              href="https://github.com/orgs/ngobrolin/discussions"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="border border-surface-border-strong hover:border-accent-text hover:text-accent-text text-ink px-4 py-2 rounded-lg text-sm font-medium transition"
+            >
+              GitHub Discussions
+            </a>
+            <a
+              href="/subscribe"
+              class="bg-accent-strong hover:bg-highlight-strong text-ink px-4 py-2 rounded-lg text-sm font-medium transition"
+            >
+              Langganan
+            </a>
+          </div>
+        </div>
       </div>
     </div>
   </section>
+
+  <!-- Client-side keyboard shortcut listener for search -->
+  <script is:inline data-astro-rerun>
+    (() => {
+      if (document.documentElement.dataset.searchShortcutInit === 'true') return;
+      document.documentElement.dataset.searchShortcutInit = 'true';
+      window.addEventListener('keydown', (e) => {
+        const searchInput = document.getElementById('home-search-input');
+        if (!searchInput) return;
+
+        // Press '/' (without Cmd/Ctrl/Alt modifiers) outside editable elements to focus
+        if (
+          e.key === '/' &&
+          !e.metaKey &&
+          !e.ctrlKey &&
+          !e.altKey &&
+          !['INPUT', 'TEXTAREA', 'SELECT'].includes(document.activeElement?.tagName) &&
+          !document.activeElement?.isContentEditable
+        ) {
+          e.preventDefault();
+          searchInput.focus();
+        }
+
+        // Press 'Escape' while search is focused to blur
+        if (e.key === 'Escape' && document.activeElement === searchInput) {
+          searchInput.blur();
+        }
+      });
+    })();
+  </script>
 </Layout>

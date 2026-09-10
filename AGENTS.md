@@ -187,6 +187,36 @@ Two things worth knowing before touching that path:
   equality) and the `absentFromPlaylistSince` optionality assertion in
   `src/lib/episode-retention.test.ts` (absent *or* a valid stamp, not absent everywhere).
 
+## Browser tests: the port belongs to the worktree, and is never adopted
+
+A green browser-test run means "this branch is green" only because of the
+mechanism in `scripts/lib/e2e-port.ts` — `playwright.config.ts` decides nothing
+about the port itself, and that module's comment is the authority for why it
+works the way it does. Three rules hold:
+
+- **Never hardcode the port.** It is derived from the worktree path and then
+  probed, so two lanes get two ports and can run concurrently, one lane keeps its
+  port across runs (stable URLs and traces), and a stale server sitting on a
+  lane's port is stepped over rather than used.
+- **A run never tests against a server it did not start.** `reuseExistingServer`
+  is `false` on every path, including under an explicit override, and is typed as
+  the literal `false` so re-enabling adoption fails to compile. Adopting a foreign
+  server lets the suite pass without ever loading the build under test, which makes
+  every green unprovable — that is the property this whole mechanism exists to buy.
+- **The port is written once.** `playwright.config.test.ts` guards that it is not
+  copied by hand into `baseURL`, `webServer.url` and `webServer.command`.
+
+`E2E_PORT=<port>` pins a port for debugging and is taken at its word: it does not
+re-enable adoption, and a busy override is refused rather than reused. Before
+changing how the port is chosen, read `pinPortForWorkers()` — its comment explains
+why the runner must stamp its decision into the environment for the worker
+processes, and why that uses a different variable name from `E2E_PORT`.
+
+Unrelated to ports: `e2e/service-worker.spec.ts` waits on `networkidle` and is sensitive to
+CPU load. Two full suites at once on a 10-core machine flake two or three of its tests;
+a single run oversubscribed with `--workers=12` flakes the same ones. Diagnose a
+service-worker timeout as load before suspecting the harness.
+
 ## Learnings & Best Practices
 
 ### ✅ DO's
@@ -318,8 +348,8 @@ not everything on it is countable from the repo. Three rules hold it together:
   (`src/lib/partner-card.ts` → `src/pages/partners-og.png.ts`) from those same
   figures, for that reason: a hand-made image would be a second copy, and a card
   that disagrees with the page it links to is worse than no card. It rasterises
-  SVG through `sharp`, which reaches fonts via fontconfig — use `sans-serif`,
-  never `system-ui`, or the glyphs silently vanish on a Linux build agent.
+  SVG through `sharp` and is bound by the font rules for build-time rasterisers
+  under "The palette comes from the podcast cover" below.
   `src/lib/partner-card.test.ts` measures ink in the rendered PNG rather than
   trusting the SVG string.
 
@@ -336,11 +366,29 @@ Two guards keep it honest, and both assert rules rather than today's values:
 and `src/styles/palette-literals.test.ts` (no source file writes a literal from
 the retired pre-cover palette).
 
-Four surfaces cannot read that stylesheet and therefore restate the tokens by
+Three surfaces cannot read that stylesheet and therefore restate the tokens by
 hand — `public/offline.html` (served by the service worker without the Astro
-bundle), `public/og-image.svg`, `public/favicon.svg` and `src/lib/partner-card.ts`
-(librsvg has no stylesheet). Move a token and you must move it in those too; the
-literals test catches only the retired values, not drift in the new ones.
+bundle), `public/favicon.svg` and `src/lib/partner-card.ts` (librsvg has no
+stylesheet). Move a token and you must move it in those too; the literals test
+catches only the retired values, not drift in the new ones.
+
+`src/lib/palette.ts` is the way out of that, and anything new that draws at build
+time should use it instead of adding a fourth copy: it parses the `@theme` block
+out of `global.css` and throws by name on a token that is not declared. Its
+comment records the two path resolutions that look right and are not —
+`import.meta.url` dies once Astro bundles the module into `dist/chunks/`, and
+`?raw` returns an empty string under vitest — so read it before changing how it
+finds the file.
+
+**Every build-time rasteriser — `src/lib/partner-card.ts` and
+`src/lib/og-card.ts` today — rasterises SVG through `sharp`, whose librsvg
+backend resolves fonts through fontconfig, and that imposes two rules.** Use
+`sans-serif`, never `system-ui`: `system-ui` maps to nothing on a Linux build
+agent and the glyphs vanish with no error. And never measure text — `sans-serif`
+is Helvetica on a Mac and DejaVu Sans, roughly a tenth wider, on the build agent
+— so anchor every string `start` or `middle` and leave clearance instead of
+fitting to metrics. The clearance guards in `src/lib/og-card.test.ts` are what
+catch an overflow, because CI runs the unit tests on Linux.
 
 Two traps this repaint hit:
 
