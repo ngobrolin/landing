@@ -12,7 +12,7 @@ The episode detail page displays a single podcast episode with embedded video pl
 - **Subscribe CTA** block linking to podcast platforms and RSS
 - **Share buttons** for social media and link copying
 - **Topics/tags** when summary includes tags
-- **Related episodes** suggestions (when implemented)
+- **Related episodes** suggestions showing up to 3 episodes (by similarity or recency fallback)
 
 ## How to get to it
 
@@ -94,5 +94,6 @@ The episode page is covered by `e2e/episode.spec.ts`. Key interactions:
 - **Transcript timestamps clickable:** Each timestamp has a seek button that sends a message to the YouTube iframe API to seek to that time.
 - **Some episodes lack transcripts:** If `src/data/transcripts/{videoId}.json` doesn't exist, the transcript section won't render.
 - **Some episodes lack summaries:** If `src/data/summaries/{videoId}.json` doesn't exist, the summary section won't render.
+- **Related episodes are conditional:** The related episodes section (`[data-testid="related-episodes"]`) appears when `getRelatedEpisodes()` returns a nonempty result (up to 3 episodes). The algorithm ranks by tag similarity (weighted by IDF), then text similarity (title + brief), then publish date. **If all similarity scores are zero, it falls back to the 3 most recent episodes** — so the section renders even when no semantic similarity exists.
 - **Transcript source provenance:** Newer transcripts have a `source` field (`"youtube-auto"` or `"whisper"`). Older ones omit this field.
 - **View transitions:** Scripts must survive client-side navigation. Episode page uses initialization guards and `data-astro-rerun`.
