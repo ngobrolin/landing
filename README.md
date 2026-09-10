@@ -24,6 +24,60 @@ pnpm run build
 pnpm run preview
 ```
 
+## Weekly ops
+
+Priority order for podcast distribution and content enrichment:
+
+### High priority (podcast distribution)
+
+1. **Fetch YouTube playlist** → merge into `src/data/episodes.json`
+   ```bash
+   YOUTUBE_API_KEY=your_api_key pnpm exec tsx scripts/fetch-playlist.ts
+   ```
+   - Automated: `.github/workflows/fetch-playlist.yml` every Wednesday 08:00 WIB
+   - See [Fetch YouTube Playlist Data](#fetch-youtube-playlist-data) for sync guards and retention rules
+
+2. **Extract audio** from YouTube
+   ```bash
+   # Check status
+   pnpm exec tsx scripts/extract-audio.ts --status
+   
+   # Extract next episode or all missing
+   pnpm exec tsx scripts/extract-audio.ts --missing
+   ```
+   - Requires: `yt-dlp`, `ffmpeg`
+   - See [Audio Podcast](#audio-podcast) for details
+
+3. **Upload to Amazon S3**
+   ```bash
+   # Check status
+   pnpm exec tsx scripts/upload-s3.ts --status
+   
+   # Upload all extracted episodes
+   pnpm exec tsx scripts/upload-s3.ts --missing
+   ```
+   - Requires: AWS credentials via `~/.aws/credentials` or environment variables
+   - See [Audio Podcast](#audio-podcast) for details
+
+4. **Podcast RSS** — no separate step; after audio metadata is on episodes, `pnpm run build` publishes `/podcast-rss.xml`
+
+### Lower priority (content enrichment)
+
+1. **Transcription** — prefer YouTube auto-captions (free, no API key):
+   ```bash
+   pnpm run transcribe:youtube --missing
+   ```
+   - See [Transcription](#transcription) for Whisper and OpenAI alternatives
+
+2. **Summarize** — use AI tools (Amp, Claude, Gemini CLI):
+   - Reference `@SUMMARIZE.md` in your AI tool
+   - Saves to `src/data/summaries/`
+   - See [Summarization](#summarization) for workflow
+
+3. **Update episode/site data** — comes from playlist sync + summaries/tags as already documented
+
+4. **Verify on the web** — check episode listing + detail visibility via `pnpm run preview` or Playwright e2e tests (`pnpm run test:e2e`)
+
 ## Fetch YouTube Playlist Data
 
 To fetch all episodes from the YouTube playlist:
