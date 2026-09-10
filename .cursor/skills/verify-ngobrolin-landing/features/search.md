@@ -1,6 +1,6 @@
 # Search
 
-The search feature allows users to find episodes by searching across titles, descriptions, and full transcript text. Search is available from the homepage and the episode listing page.
+The search feature allows users to find episodes by searching across titles, descriptions, brief summaries, and key points. Search is available from the homepage and the episode listing page.
 
 ## Sub-features
 
@@ -9,7 +9,7 @@ The search feature allows users to find episodes by searching across titles, des
 - **Search results** display filtered episode cards with match highlighting (when applicable)
 - **URL persistence** via `?q=term` query parameter for bookmarkable searches
 - **Keyboard shortcuts** — `/` to focus search, `Escape` to blur/clear
-- **Search across multiple fields:** title, description, transcript fullText
+- **Search across multiple fields:** title, description, brief (summary), keyPoints (from episode summaries)
 
 ## How to get to it
 
@@ -87,9 +87,10 @@ Search is covered by `e2e/search.spec.ts`. Key interactions:
 ## Gotchas
 
 - **Two search implementations:** Homepage search is a plain `<form method="get">` that submits to `/episodes?q=...`. The episodes page search is client-side JavaScript using Fuse.js.
-- **Fuzzy matching:** Fuse.js allows typos and partial matches. Search for "astro" might also match "astronomy" or "astronaut" if those terms appear in transcripts.
-- **Search includes transcripts:** The search indexes `fullText` from transcript JSON files, so you can find episodes by spoken content, not just titles/descriptions.
+- **Search fields (NOT transcripts):** The search indexes `title`, `description`, `brief`, and `keyPoints` from episode summaries (`src/lib/search.ts` SEARCH_KEYS). It does NOT search full transcript text — that would make the index too large to fetch on every visit.
+- **Fuzzy matching:** Fuse.js allows typos and partial matches. Search for "astro" matches "Astro", "astronomy", etc. in indexed fields.
+- **Short queries (≤2 chars) use word-boundary matching:** Queries like "ai", "ui", "js" search only `title` and `keyPoints` with exact word-boundary matching to avoid false positives (e.g., "ai" in Indonesian "mulai").
 - **Debounce delay:** Client-side search has a small debounce (typically 300-500ms) to avoid excessive re-renders while typing.
 - **Case insensitive:** Search is case-insensitive.
 - **No pagination:** All filtered results display on one page (no infinite scroll or pagination).
-- **Search index builds at load:** On `/episodes`, the Fuse.js index is created when the page loads. For a large number of episodes (178+), this can take a moment on slower devices.
+- **Search index fetched on first interaction:** The index (`/search-index.json`, ~525KB) is fetched when you first interact with search, not inlined in page HTML.

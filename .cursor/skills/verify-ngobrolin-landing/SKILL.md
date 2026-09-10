@@ -25,13 +25,7 @@ pnpm run build
 - `src/data/episodes.json` must exist and contain episode data (never delete this)
 - Build outputs to `dist/`
 
-**Note:** The Playwright test suite (recommended Drive harness) starts its own preview server automatically. For manual verification only, you can start a preview server:
-
-```bash
-pnpm run preview --host 127.0.0.1 --port 4173
-```
-
-See Drive section for details on when to use manual preview vs Playwright's managed server.
+**Note:** The Playwright test suite (recommended Drive harness) starts its own preview server automatically on a worktree-derived port. For manual verification only (Option B/C in Drive section), see Helpers for how to start a preview on a free port.
 
 ---
 
@@ -79,24 +73,15 @@ pnpm exec playwright test e2e/search.spec.ts --headed
 pnpm exec playwright test e2e/episode.spec.ts --headed
 ```
 
-**Important:** Do NOT manually start a preview server before running the suite. Playwright starts and stops its own server. If you have a preview running on port 4173 and set `E2E_PORT=4173`, the port resolver will reject it because the suite never adopts foreign servers.
+**Important:** Do NOT manually start a preview server before running the suite. Playwright starts and stops its own server on a worktree-derived port (range 10000–29999). The suite never adopts foreign servers (`reuseExistingServer: false`).
 
 **Option B: Manual preview + ad-hoc automation (for flows not in the suite)**
 
-If you need to verify something NOT covered by the existing Playwright tests, start a manual preview server and drive it with tools:
-
-```bash
-# Start preview in one terminal/tmux session
-pnpm run preview --host 127.0.0.1 --port 4173
-
-# In another terminal, use Playwright codegen or screenshot
-pnpm exec playwright codegen http://127.0.0.1:4173
-pnpm exec playwright screenshot --device="Desktop Chrome" --full-page http://127.0.0.1:4173 output.png
-```
+If you need to verify something NOT covered by the existing Playwright tests, start a manual preview server on a free port and drive it with tools. See Helpers section for port resolution and server commands.
 
 **Option C: Manual browser testing**
 
-Start a manual preview (as in Option B) and open `http://127.0.0.1:4173` in a browser. Manually verify flows and capture screenshots or screen recordings as evidence.
+Start a manual preview (using Helpers) and open the URL in a browser. Manually verify flows and capture screenshots or screen recordings as evidence.
 
 ### Key Flows to Drive
 
@@ -126,8 +111,9 @@ Capture proof artifacts after driving:
 3. **HTTP checks (if using manual preview):** Capture curl responses:
    ```bash
    mkdir -p .cursor/skills/verify-ngobrolin-landing/evidence/http
-   curl -s http://127.0.0.1:4173 > .cursor/skills/verify-ngobrolin-landing/evidence/http/homepage.html
-   curl -s http://127.0.0.1:4173/episodes > .cursor/skills/verify-ngobrolin-landing/evidence/http/episodes.html
+   # Use $PORT from Helpers (worktree-derived port)
+   curl -s http://127.0.0.1:$PORT > .cursor/skills/verify-ngobrolin-landing/evidence/http/homepage.html
+   curl -s http://127.0.0.1:$PORT/episodes > .cursor/skills/verify-ngobrolin-landing/evidence/http/episodes.html
    ```
 
 4. **Playwright report (if used):**
@@ -174,31 +160,55 @@ After verification is complete:
 
 ## Helpers
 
+### Resolve a free port for manual preview (Option B/C only)
+
+The port must be derived from the worktree path (same mechanism as Playwright suite, range 10000–29999):
+
+```bash
+cd /workspace
+# Derive and probe for a free port
+PORT=$(pnpm exec tsx -e "
+import { resolveE2EServer } from './scripts/lib/e2e-port.ts';
+const server = await resolveE2EServer({ workspacePath: process.cwd() });
+console.log(server.port);
+")
+echo "Using port: $PORT"
+```
+
 ### Start manual preview in tmux (only for Option B/C)
 
 ```bash
 cd /workspace
+# First resolve the port (see above)
+PORT=$(pnpm exec tsx -e "import { resolveE2EServer } from './scripts/lib/e2e-port.ts'; const server = await resolveE2EServer({ workspacePath: process.cwd() }); console.log(server.port);")
+
 SESSION_NAME="preview"; tmux -f /exec-daemon/tmux.portal.conf has-session -t "=$SESSION_NAME" 2>/dev/null || tmux -f /exec-daemon/tmux.portal.conf new-session -d -s "$SESSION_NAME" -c "$PWD" -- "${SHELL:-zsh}" -l
-tmux -f /exec-daemon/tmux.portal.conf send-keys -t "$SESSION_NAME:0.0" 'pnpm run preview --host 127.0.0.1 --port 4173' C-m
+tmux -f /exec-daemon/tmux.portal.conf send-keys -t "$SESSION_NAME:0.0" "pnpm run preview --host 127.0.0.1 --port $PORT" C-m
 ```
 
 ### Check if manual preview is ready
 
 ```bash
-timeout 30 bash -c 'until curl -f -s http://127.0.0.1:4173 > /dev/null; do sleep 1; done' && echo "✓ Preview ready"
+# Use the $PORT variable from above
+timeout 30 bash -c "until curl -f -s http://127.0.0.1:$PORT > /dev/null; do sleep 1; done" && echo "✓ Preview ready at http://127.0.0.1:$PORT"
 ```
 
 ### Quick smoke test via curl (against manual preview)
 
 ```bash
-curl -s http://127.0.0.1:4173 | grep -o '<title>.*</title>'
-curl -s http://127.0.0.1:4173/episodes | grep -o '<h1.*h1>'
+# Use the $PORT variable from port resolution
+curl -s http://127.0.0.1:$PORT | grep -o '<title>.*</title>'
+curl -s http://127.0.0.1:$PORT/episodes | grep -o '<h1.*h1>'
 ```
 
 ### Take screenshot with Playwright (against manual preview)
 
 ```bash
-pnpm exec playwright screenshot --device="Desktop Chrome" --full-page http://127.0.0.1:4173 homepage.png
+# Write to evidence directory, use $PORT from resolution
+mkdir -p .cursor/skills/verify-ngobrolin-landing/evidence/screenshots
+pnpm exec playwright screenshot --device="Desktop Chrome" --full-page \
+  http://127.0.0.1:$PORT \
+  .cursor/skills/verify-ngobrolin-landing/evidence/screenshots/homepage.png
 ```
 
 ### Count episodes in data

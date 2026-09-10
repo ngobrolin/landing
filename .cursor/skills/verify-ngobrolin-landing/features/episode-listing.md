@@ -6,7 +6,7 @@ The episode listing page (`/episodes`) displays all podcast episodes in a grid w
 
 - **Episode grid** showing all episodes with thumbnails, titles, dates, durations, episode numbers
 - **Year navigation** (links, not tabs) for filtering episodes by publication year
-- **Search bar** with client-side fuzzy search (Fuse.js) across titles, descriptions, and transcripts
+- **Search bar** with client-side fuzzy search (Fuse.js) across titles, descriptions, brief summaries, and key points
 - **Episode count** displayed in the header
 - **"New" badges** on recently published episodes (within 14 days)
 - **Keyboard navigation** for search (same `/` shortcut as homepage)
@@ -66,7 +66,7 @@ The episode listing is partially covered by `e2e/episodes-by-year.spec.ts` and `
 
 ## Gotchas
 
-- **Client-side search:** The search uses Fuse.js to search in-browser across titles, descriptions, and transcript `fullText`. No server round-trip. Results update as you type (debounced).
+- **Client-side search:** The search uses Fuse.js to search in-browser across `title`, `description`, `brief`, and `keyPoints` fields (NOT transcript fullText). No server round-trip. Results update as you type (debounced).
 - **Year navigation, not tabs:** The UI uses links (`<a>`) with `aria-current="page"` on the active year, not ARIA tabs/tablist. Navigation is `<nav aria-label="Navigasi tahun">` containing links.
 - **Year navigation preserves search:** When switching years, any active search query should persist in the filtered view.
 - **URL query param:** Search submits as `?q=term`, which can be bookmarked and shared. The page reads `Astro.url.searchParams.get('q')` on load.

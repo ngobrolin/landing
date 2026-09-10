@@ -7,7 +7,7 @@ This directory maps the user-facing features of the Ngobrolin WEB site. Each fil
 1. **[Homepage](./homepage.md)** — Landing page with hero, search, recent episodes, topics, and year navigation
 2. **[Episode Listing](./episode-listing.md)** — Browse all episodes with year tabs and search
 3. **[Episode Detail](./episode-detail.md)** — Watch episode, read transcript, see metadata
-4. **[Search](./search.md)** — Find episodes by title, description, or transcript content
+4. **[Search](./search.md)** — Find episodes by title, description, brief summaries, and key points
 5. **[Tags](./tags.md)** — Browse episodes by topic tags
 
 Each feature file contains:
