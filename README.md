@@ -50,16 +50,21 @@ Priority order for podcast distribution and content enrichment:
 
 3. **Upload to Amazon S3**
    ```bash
+   # Check if object already exists (upload-s3.ts overwrites without checking)
+   aws s3api head-object --bucket ngobrolinweb-podcast --key audio/<videoId>.mp3
+   
    # Check status
    pnpm exec tsx scripts/upload-s3.ts --status
    
-   # Upload all extracted episodes
+   # Upload (--missing checks local episodes.json only, not S3)
    pnpm exec tsx scripts/upload-s3.ts --missing
    ```
    - Requires: AWS credentials via `~/.aws/credentials` or environment variables
    - See [Audio Podcast](#audio-podcast) for details
 
-4. **Podcast RSS** — no separate step; after audio metadata is on episodes, `pnpm run build` publishes `/podcast-rss.xml`
+4. **Commit audio metadata** — `upload-s3.ts` writes `audioUrl`/`audioDuration`/`audioFileSize` into `src/data/episodes.json`; commit that edit or the episode silently disappears from `/podcast-rss.xml`
+
+5. **Publish RSS** — `pnpm run build` generates `/podcast-rss.xml` from committed audio metadata
 
 ### Lower priority (content enrichment)
 
@@ -74,9 +79,21 @@ Priority order for podcast distribution and content enrichment:
    - Saves to `src/data/summaries/`
    - See [Summarization](#summarization) for workflow
 
-3. **Update episode/site data** — comes from playlist sync + summaries/tags as already documented
+3. **Extract tags** — after summaries change, regenerate `src/data/tags.json` (fully derived/replaced):
+   ```bash
+   pnpm exec tsx scripts/extract-tags.ts
+   ```
 
-4. **Verify on the web** — check episode listing + detail visibility via `pnpm run preview` or Playwright e2e tests (`pnpm run test:e2e`)
+4. **Update episode/site data** — comes from playlist sync + summaries/tags as already documented
+
+5. **Verify on the web** — check episode listing + detail visibility:
+   ```bash
+   # Build first (preview does not rebuild)
+   pnpm run build && pnpm run preview
+   
+   # Or run e2e tests (builds automatically)
+   pnpm run test:e2e
+   ```
 
 ## Fetch YouTube Playlist Data
 
