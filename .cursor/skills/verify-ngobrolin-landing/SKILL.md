@@ -97,9 +97,9 @@ Pick ONE or more features from the feature map (see `features/` directory):
 
 ## Evidence
 
-Capture proof artifacts after driving:
+Capture proof artifacts after driving. **Evidence is runtime-only** — do not commit HTML dumps to the skill tree (site content can trip package-manager guards).
 
-1. **Screenshots:** Save to `.cursor/skills/verify-ngobrolin-landing/evidence/screenshots/`
+1. **Screenshots:** Save to `.cursor/skills/verify-ngobrolin-landing/evidence/screenshots/` (runtime artifacts)
    - Homepage loaded
    - Episodes listing
    - Individual episode page
@@ -108,10 +108,11 @@ Capture proof artifacts after driving:
 
 2. **Logs:** If using Playwright, test output and traces go to `playwright-report/` and `test-results/`
 
-3. **HTTP checks (if using manual preview):** Capture curl responses:
+3. **HTTP checks (if using manual preview):** Capture curl responses for local verification only:
    ```bash
    mkdir -p .cursor/skills/verify-ngobrolin-landing/evidence/http
    # Use $PORT from Helpers (worktree-derived port)
+   # These are LOCAL runtime artifacts — do NOT commit HTML files
    curl -s http://127.0.0.1:$PORT > .cursor/skills/verify-ngobrolin-landing/evidence/http/homepage.html
    curl -s http://127.0.0.1:$PORT/episodes > .cursor/skills/verify-ngobrolin-landing/evidence/http/episodes.html
    ```
@@ -121,7 +122,9 @@ Capture proof artifacts after driving:
    pnpm exec playwright show-report  # Opens HTML report in browser
    ```
 
-**Minimum evidence:** At least one screenshot or HTML artifact proving the driven feature loaded successfully.
+**Minimum evidence:** At least one screenshot proving the driven feature loaded successfully.
+
+**Important:** HTML captures are for local inspection only. Do not commit them — episode content can contain "npx" in prose (e.g., Indonesian transcripts) and fail `scripts/lib/package-manager.test.ts`.
 
 ---
 
