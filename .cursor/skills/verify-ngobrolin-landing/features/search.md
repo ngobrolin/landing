@@ -68,6 +68,7 @@ Search is covered by `e2e/search.spec.ts`. Key interactions:
    
    await page.keyboard.press('Escape');
    await expect(searchInput).not.toBeFocused();
+   // Note: Escape blurs; clear is via the × button or "Reset Pencarian"
    ```
 
 5. **Test quick suggestion pills:**
@@ -86,11 +87,11 @@ Search is covered by `e2e/search.spec.ts`. Key interactions:
 
 ## Gotchas
 
-- **Two search implementations:** Homepage search is a plain `<form method="get">` that submits to `/episodes?q=...`. The episodes page search is client-side JavaScript using Fuse.js.
+- **Two search implementations:** Homepage search is a plain `<form method="get">` that submits to `/episodes?q=...`. The episodes page search is client-side JavaScript using Fuse.js. On `/episodes`, Cmd/Ctrl+K also focuses search (in addition to `/`).
 - **Search fields (NOT transcripts):** The search indexes `title`, `description`, `brief`, and `keyPoints` from episode summaries (`src/lib/search.ts` SEARCH_KEYS). It does NOT search full transcript text — that would make the index too large to fetch on every visit.
 - **Fuzzy matching:** Fuse.js allows typos and partial matches. Search for "astro" matches "Astro", "astronomy", etc. in indexed fields.
 - **Short queries (≤2 chars) use word-boundary matching:** Queries like "ai", "ui", "js" search only `title` and `keyPoints` with exact word-boundary matching to avoid false positives (e.g., "ai" in Indonesian "mulai").
-- **Debounce delay:** Client-side search has a small debounce (typically 300-500ms) to avoid excessive re-renders while typing.
+- **Debounce delay:** Client-side search debounces at 120ms to avoid excessive re-renders while typing.
 - **Case insensitive:** Search is case-insensitive.
 - **No pagination:** All filtered results display on one page (no infinite scroll or pagination).
 - **Search index fetched on first interaction:** The index (`/search-index.json`, ~525KB) is fetched when you first interact with search, not inlined in page HTML.

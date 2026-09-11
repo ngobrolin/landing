@@ -87,4 +87,4 @@ Tags are covered by `e2e/tags.spec.ts`. Key interactions:
 - **Tag URLs are lowercase slugs:** Tag names in URLs are always lowercase kebab-case. Display formatting happens at render time.
 - **Episode counts are dynamic:** The count next to each tag is derived at build time by counting episodes in each tag's episode list.
 - **No tag pages for untagged episodes:** If `extract-tags.ts` hasn't run or summaries lack tags, some tag links might 404. The homepage topic chips use `getTopTags()` which only returns tags that exist in the index.
-- **Tag order:** On `/tags`, tags are alphabetically sorted. On the homepage, tags are sorted by episode count (most popular first), limited to top 12.
+- **Tag order:** On `/tags`, tags are sorted by **episode count descending, then alphabetically** (most popular first). On the homepage, tags are sorted by count (top 12).

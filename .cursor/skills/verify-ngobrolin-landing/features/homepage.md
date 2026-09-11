@@ -17,7 +17,7 @@ The homepage is the primary landing page and entry point to the Ngobrolin WEB po
 
 Navigate to the root URL: `/`
 
-From anywhere on the site, click "Beranda" in the header or footer navigation.
+From anywhere on the site, click the "Ngobrolin WEB" brand text in the header.
 
 ## Driving it with Playwright
 
@@ -52,7 +52,8 @@ The homepage is covered by `e2e/home.spec.ts`. Key interactions:
 5. **Verify recent episodes grid:**
    ```typescript
    const cards = page.locator('[data-testid="episode-card"]');
-   await expect(cards).toHaveCount(4);
+   await expect(cards.first()).toBeVisible();
+   // Note: Source slices to 4; e2e asserts visibility, not exact count
    ```
 
 6. **Check topic tags:**
