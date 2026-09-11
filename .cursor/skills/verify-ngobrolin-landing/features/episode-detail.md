@@ -38,6 +38,8 @@ The episode page is covered by `e2e/episode.spec.ts`. Key interactions:
    await firstEpisode.click();
    await expect(page).toHaveURL(/\/episodes\/.+/);
    ```
+   
+   **Note:** For transcript-specific tests, use `episodePathWithTranscript()` (from `e2e/transcript-provenance.spec.ts`) to ensure you land on an episode that has a transcript file, rather than relying on homepage ordering.
 
 2. **Verify episode title and metadata:**
    ```typescript
@@ -59,8 +61,9 @@ The episode page is covered by `e2e/episode.spec.ts`. Key interactions:
    await expect(badge).toHaveText(/^EP \d+$/);
    ```
 
-5. **Test transcript search:**
+5. **Test transcript search** (navigate to an episode with a transcript first):
    ```typescript
+   // Use episodePathWithTranscript() helper or direct slug with known transcript
    const transcript = page.getByTestId('transcript');
    await expect(transcript).toBeVisible();
    
