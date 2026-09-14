@@ -6,9 +6,9 @@ The search feature allows users to find episodes by searching across titles, des
 
 - **Homepage search bar** with keyboard shortcut (`/`) and quick suggestion pills
 - **Episodes page search** with client-side fuzzy search (Fuse.js)
-- **Search results** display filtered episode cards with match highlighting (when applicable)
-- **URL persistence** via `?q=term` query parameter for bookmarkable searches
-- **Keyboard shortcuts** — `/` to focus search, `Escape` to blur/clear
+- **Search results** display filtered and reordered episode cards (no text highlighting; cards are shown/hidden and reordered by relevance)
+- **URL persistence** via `?q=term` query parameter for bookmarkable searches (read-only on `/episodes`; typing doesn't update URL)
+- **Keyboard shortcuts** — `/` and `Cmd/Ctrl+K` (on `/episodes`) to focus search, `Escape` to blur (clear via × button or "Reset Pencarian")
 - **Search across multiple fields:** title, description, brief (summary), keyPoints (from episode summaries)
 
 ## How to get to it
@@ -52,8 +52,8 @@ Search is covered by `e2e/search.spec.ts`. Key interactions:
    ```typescript
    await page.goto('/episodes');
    const searchInput = page.locator('#search-input');
-   await searchInput.fill('htmx');
-   await page.waitForTimeout(500); // Debounce delay
+   await searchInput.fill('astro');
+   await page.waitForTimeout(200); // Allow for 120ms debounce + render
    const results = page.locator('#episodes-grid > a:visible');
    const count = await results.count();
    expect(count).toBeGreaterThan(0);
@@ -87,7 +87,7 @@ Search is covered by `e2e/search.spec.ts`. Key interactions:
 
 ## Gotchas
 
-- **Two search implementations:** Homepage search is a plain `<form method="get">` that submits to `/episodes?q=...`. The episodes page search is client-side JavaScript using Fuse.js. On `/episodes`, Cmd/Ctrl+K also focuses search (in addition to `/`).
+- **Two search implementations:** Homepage search is a plain `<form method="get">` that submits to `/episodes?q=...`. The episodes page search is client-side JavaScript using Fuse.js. On `/episodes`, `/` and `Cmd/Ctrl+K` both focus search.
 - **Search fields (NOT transcripts):** The search indexes `title`, `description`, `brief`, and `keyPoints` from episode summaries (`src/lib/search.ts` SEARCH_KEYS). It does NOT search full transcript text — that would make the index too large to fetch on every visit.
 - **Fuzzy matching:** Fuse.js allows typos and partial matches. Search for "astro" matches "Astro", "astronomy", etc. in indexed fields.
 - **Short queries (≤2 chars) use word-boundary matching:** Queries like "ai", "ui", "js" search only `title` and `keyPoints` with exact word-boundary matching to avoid false positives (e.g., "ai" in Indonesian "mulai").

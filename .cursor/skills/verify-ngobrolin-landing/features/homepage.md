@@ -6,11 +6,12 @@ The homepage is the primary landing page and entry point to the Ngobrolin WEB po
 
 - **Hero section** with site title, tagline, and archive scale (episode count, transcript availability)
 - **Search bar** with keyboard shortcut (`/`), quick suggestion pills, and submit button
-- **Latest episode spotlight** with thumbnail, play indicator, episode number, duration, and link
-- **Recent episodes grid** showing 4 most recent episodes with cards
-- **Topic tags** section with links to tag pages showing episode counts
+- **Latest episode spotlight** with thumbnail, play indicator, episode number, duration, and link (same as first recent episode)
+- **Recent episodes grid** showing 4 most recent episodes with cards (includes the latest episode)
+- **Topic tags** section with top 12 tags by popularity, linking to tag pages with episode counts
 - **Year navigation** grid linking to year-filtered episode pages
-- **Hosts & community** section with host profiles (name, role, GDE badge, GitHub/X links)
+- **Hosts & community** section with host profiles (name, role, GDE badge, GitHub/X/YouTube links)
+- **Community strip** with "Punya Pertanyaan..." prompt, GitHub Discussions link, and Langganan (subscribe) link
 - **CTA buttons** to episodes listing and YouTube subscribe
 
 ## How to get to it

@@ -9,7 +9,7 @@ The episode listing page (`/episodes`) displays all podcast episodes in a grid w
 - **Search bar** with client-side fuzzy search (Fuse.js) across titles, descriptions, brief summaries, and key points
 - **Episode count** displayed in the header
 - **"New" badges** on the 2 most recent episodes (build-time, not time window)
-- **Keyboard navigation** for search (same `/` shortcut as homepage)
+- **Keyboard navigation** for search (`/` and `Cmd/Ctrl+K` to focus, `Escape` to blur)
 
 ## How to get to it
 
@@ -46,7 +46,7 @@ The episode listing is partially covered by `e2e/episodes-by-year.spec.ts` and `
    ```typescript
    const searchInput = page.locator('#search-input');
    await searchInput.fill('astro');
-   await page.waitForTimeout(500); // Client-side search debounce
+   await page.waitForTimeout(200); // Allow for 120ms debounce + render
    const results = page.locator('#episodes-grid > a:visible');
    await expect(results).toHaveCount(expect.any(Number));
    ```
