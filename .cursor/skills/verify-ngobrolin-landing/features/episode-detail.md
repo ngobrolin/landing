@@ -4,15 +4,20 @@ The episode detail page displays a single podcast episode with embedded video pl
 
 ## Sub-features
 
-- **Episode metadata header** with breadcrumb navigation, episode number badge, title, date, duration
+- **Episode metadata header** with breadcrumb navigation, episode number badge, date (no duration in header)
 - **Video embed** using `lite-youtube-embed` for performant YouTube player loading
+- **Episode title** (display title with show name stripped where it's a trailing credit)
+- **Topics/tags** chips linking to tag pages (from `tags.json`, not a summary field)
 - **Episode summary** ("Ringkasan Episode") with key points, when available
-- **Full transcript** with timestamps, search functionality, and seek-to-time buttons
+- **Full transcript** with timestamps, search functionality, and seek-to-time buttons (when transcript exists)
 - **Transcript search** filters segments in real-time as user types
-- **Subscribe CTA** block linking to podcast platforms and RSS
+- **Collapsed YouTube description** ("Deskripsi asli dari YouTube")
+- **Related episodes** suggestions showing up to 3 episodes (by tag/text similarity, or 3 most recent as fallback)
 - **Share buttons** for social media and link copying
-- **Topics/tags** when summary includes tags
-- **Related episodes** suggestions showing up to 3 episodes (by similarity or recency fallback)
+- **Subscribe CTA** ("Pilih Cara Langganan") linking to `/subscribe` page
+- **Community links** to GitHub Discussions and `/partners`
+- **Comments** section (Utterances)
+- **Previous/next episode navigation** (when available)
 
 ## How to get to it
 
@@ -22,8 +27,8 @@ The episode detail page displays a single podcast episode with embedded video pl
 4. Direct URL: `/episodes/{slug}` where slug is the **stored** value from `episodes.json`
 
 Examples (using stored slugs):
-- `/episodes/htmx-the-new-meta-framework`
-- `/episodes/livestream-2-astro-view-transitions`
+- `/episodes/_VoS7mnsUdQ-bedah-buku-panduan-coding-ngobrolin-web`
+- `/episodes/JJqLKn25DJI-pengaruh-kecerdasan-buatan-terhadap-kecerdasan-manusia-ngobrolin-web`
 
 **Note:** To verify an episode, get its slug from the episode card's `href` attribute or `data-episode-slug` attribute, never reconstruct from the title.
 
@@ -38,6 +43,8 @@ The episode page is covered by `e2e/episode.spec.ts`. Key interactions:
    await firstEpisode.click();
    await expect(page).toHaveURL(/\/episodes\/.+/);
    ```
+   
+   **Note:** For transcript-specific tests, use `episodePathWithTranscript()` (from `e2e/episode.spec.ts`) to ensure you land on an episode that has a transcript file, rather than relying on homepage ordering.
 
 2. **Verify episode title and metadata:**
    ```typescript
@@ -59,8 +66,9 @@ The episode page is covered by `e2e/episode.spec.ts`. Key interactions:
    await expect(badge).toHaveText(/^EP \d+$/);
    ```
 
-5. **Test transcript search:**
+5. **Test transcript search** (navigate to an episode with a transcript first):
    ```typescript
+   // Use episodePathWithTranscript() helper or direct slug with known transcript
    const transcript = page.getByTestId('transcript');
    await expect(transcript).toBeVisible();
    

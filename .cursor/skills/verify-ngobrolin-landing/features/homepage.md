@@ -6,22 +6,23 @@ The homepage is the primary landing page and entry point to the Ngobrolin WEB po
 
 - **Hero section** with site title, tagline, and archive scale (episode count, transcript availability)
 - **Search bar** with keyboard shortcut (`/`), quick suggestion pills, and submit button
-- **Latest episode spotlight** with thumbnail, play indicator, episode number, duration, and link
-- **Recent episodes grid** showing 4 most recent episodes with cards
-- **Topic tags** section with links to tag pages showing episode counts
+- **Latest episode spotlight** with thumbnail, play indicator, episode number, duration, and link (same as first recent episode)
+- **Recent episodes grid** showing 4 most recent episodes with cards (includes the latest episode)
+- **Topic tags** section with top 12 tags by popularity, linking to tag pages with episode counts
 - **Year navigation** grid linking to year-filtered episode pages
-- **Hosts & community** section with host profiles (name, role, GDE badge, GitHub/X links)
+- **Hosts & community** section with host profiles (name, role, GDE badge, GitHub/X/YouTube links)
+- **Community strip** with "Punya Pertanyaan..." prompt, GitHub Discussions link, and Langganan (subscribe) link
 - **CTA buttons** to episodes listing and YouTube subscribe
 
 ## How to get to it
 
 Navigate to the root URL: `/`
 
-From anywhere on the site, click "Beranda" in the header or footer navigation.
+From anywhere on the site, click the "Ngobrolin WEB" brand text in the header.
 
 ## Driving it with Playwright
 
-The homepage is covered by `e2e/home.spec.ts`. Key interactions:
+The homepage is covered by `e2e/home.spec.ts` (hero, title, search, recent episodes) and `e2e/home-archive.spec.ts` (archive scale, topics, years, suggestion pills). Key interactions:
 
 1. **Load and verify title:**
    ```typescript
@@ -52,7 +53,8 @@ The homepage is covered by `e2e/home.spec.ts`. Key interactions:
 5. **Verify recent episodes grid:**
    ```typescript
    const cards = page.locator('[data-testid="episode-card"]');
-   await expect(cards).toHaveCount(4);
+   await expect(cards.first()).toBeVisible();
+   // Note: Source slices to 4; e2e asserts visibility, not exact count
    ```
 
 6. **Check topic tags:**
