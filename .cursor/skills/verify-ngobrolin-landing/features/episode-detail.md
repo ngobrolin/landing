@@ -27,8 +27,8 @@ The episode detail page displays a single podcast episode with embedded video pl
 4. Direct URL: `/episodes/{slug}` where slug is the **stored** value from `episodes.json`
 
 Examples (using stored slugs):
-- `/episodes/htmx-the-new-meta-framework`
-- `/episodes/livestream-2-astro-view-transitions`
+- `/episodes/_VoS7mnsUdQ-bedah-buku-panduan-coding-ngobrolin-web`
+- `/episodes/JJqLKn25DJI-pengaruh-kecerdasan-buatan-terhadap-kecerdasan-manusia-ngobrolin-web`
 
 **Note:** To verify an episode, get its slug from the episode card's `href` attribute or `data-episode-slug` attribute, never reconstruct from the title.
 
@@ -44,7 +44,7 @@ The episode page is covered by `e2e/episode.spec.ts`. Key interactions:
    await expect(page).toHaveURL(/\/episodes\/.+/);
    ```
    
-   **Note:** For transcript-specific tests, use `episodePathWithTranscript()` (from `e2e/transcript-provenance.spec.ts`) to ensure you land on an episode that has a transcript file, rather than relying on homepage ordering.
+   **Note:** For transcript-specific tests, use `episodePathWithTranscript()` (from `e2e/episode.spec.ts`) to ensure you land on an episode that has a transcript file, rather than relying on homepage ordering.
 
 2. **Verify episode title and metadata:**
    ```typescript

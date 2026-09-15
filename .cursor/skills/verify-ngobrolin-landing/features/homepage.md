@@ -22,7 +22,7 @@ From anywhere on the site, click the "Ngobrolin WEB" brand text in the header.
 
 ## Driving it with Playwright
 
-The homepage is covered by `e2e/home.spec.ts`. Key interactions:
+The homepage is covered by `e2e/home.spec.ts` (hero, title, search, recent episodes) and `e2e/home-archive.spec.ts` (archive scale, topics, years, suggestion pills). Key interactions:
 
 1. **Load and verify title:**
    ```typescript

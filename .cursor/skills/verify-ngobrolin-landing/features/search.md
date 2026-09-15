@@ -6,6 +6,7 @@ The search feature allows users to find episodes by searching across titles, des
 
 - **Homepage search bar** with keyboard shortcut (`/`) and quick suggestion pills
 - **Episodes page search** with client-side fuzzy search (Fuse.js)
+- **Year page search** — same search component on `/episodes/{year}` pages
 - **Search results** display filtered and reordered episode cards (no text highlighting; cards are shown/hidden and reordered by relevance)
 - **URL persistence** via `?q=term` query parameter for bookmarkable searches (read-only on `/episodes`; typing doesn't update URL)
 - **Keyboard shortcuts** — `/` and `Cmd/Ctrl+K` (on `/episodes`) to focus search, `Escape` to blur (clear via × button or "Reset Pencarian")

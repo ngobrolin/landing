@@ -1,6 +1,6 @@
 # Episode Listing
 
-The episode listing page (`/episodes`) displays all podcast episodes in a grid with search, year tabs, and metadata. Users can filter by year, search by text, and navigate to individual episode pages.
+The episode listing page (`/episodes`) displays all podcast episodes in a grid with search, year navigation, and metadata. Users can filter by year, search by text, and navigate to individual episode pages.
 
 ## Sub-features
 

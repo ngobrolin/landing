@@ -13,15 +13,18 @@ The tags feature allows users to browse episodes by topic. Tags are extracted fr
 
 ## How to get to it
 
-1. **From homepage:**
+1. **From navigation:**
+   - Click "Topik" in the site navigation menu
+
+2. **From homepage:**
    - Click any topic chip in "Jelajahi Topik" section
    - Click "Semua topik →" link
    - Redirects to `/tags` or `/tags/{tag}`
 
-2. **From episode page:**
+3. **From episode page:**
    - Click any tag chip in the tags section (when summary includes tags)
 
-3. **Direct URLs:**
+4. **Direct URLs:**
    - `/tags` — all tags index
    - `/tags/typescript` — episodes about TypeScript
    - `/tags/astro` — episodes about Astro
