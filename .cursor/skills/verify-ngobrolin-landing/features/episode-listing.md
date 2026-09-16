@@ -14,7 +14,7 @@ The episode listing page (`/episodes`) displays all podcast episodes in a grid w
 ## How to get to it
 
 1. From homepage: Click "Lihat Semua Episode" button in hero or "Lihat semua →" link above recent episodes grid
-2. From header/footer: Click "Episode" in navigation
+2. From header: Click "Episode" in navigation (header only; mobile menu on small screens)
 3. Direct URL: `/episodes`
 4. From search results: Submit a search query (redirects to `/episodes?q=...`)
 
@@ -46,9 +46,8 @@ The episode listing is partially covered by `e2e/episodes-by-year.spec.ts` and `
    ```typescript
    const searchInput = page.locator('#search-input');
    await searchInput.fill('astro');
-   await page.waitForTimeout(200); // Allow for 120ms debounce + render
-   const results = page.locator('#episodes-grid > a:visible');
-   await expect(results).toHaveCount(expect.any(Number));
+   // Allow debounce (120ms) + render
+   await expect.poll(() => page.locator('#episodes-grid > a:visible').count()).toBeGreaterThan(0);
    ```
 
 5. **Verify episode cards render:**
@@ -66,7 +65,7 @@ The episode listing is partially covered by `e2e/episodes-by-year.spec.ts` and `
 
 ## Gotchas
 
-- **Client-side search:** The search uses Fuse.js to search in-browser across `title`, `description`, `brief`, and `keyPoints` fields (NOT transcript fullText). No server round-trip. Results update as you type (debounced 120ms).
+- **Client-side search:** The search uses Fuse.js to search in-browser across `title`, `description`, `brief`, and `keyPoints` fields (NOT transcript fullText). Results update as you type (debounced 120ms). The search index (`/search-index.json`) is fetched on first interaction, not inlined.
 - **Year navigation, not tabs:** The UI uses links (`<a>`) with `aria-current="page"` on the active year, not ARIA tabs/tablist. Navigation is `<nav aria-label="Navigasi tahun">` containing links.
 - **Year navigation clears search:** When switching years, any active `?q=` query is dropped (year links have no query string).
 - **URL query param:** Search submits as `?q=term`, which can be bookmarked and shared. Prefill is client-side (`SearchEpisodes.astro` reads `URLSearchParams`).

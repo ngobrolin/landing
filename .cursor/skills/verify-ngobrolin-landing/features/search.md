@@ -31,7 +31,7 @@ The search feature allows users to find episodes by searching across titles, des
 
 ## Driving it with Playwright
 
-Search is covered by `e2e/search.spec.ts`. Key interactions:
+Search is covered by `e2e/search.spec.ts` (episodes page, year pages, keyboard shortcuts, index fetching). Homepage search submit is tested in `e2e/home-archive.spec.ts`. Key interactions:
 
 1. **Search from homepage:**
    ```typescript
@@ -54,10 +54,8 @@ Search is covered by `e2e/search.spec.ts`. Key interactions:
    await page.goto('/episodes');
    const searchInput = page.locator('#search-input');
    await searchInput.fill('astro');
-   await page.waitForTimeout(200); // Allow for 120ms debounce + render
-   const results = page.locator('#episodes-grid > a:visible');
-   const count = await results.count();
-   expect(count).toBeGreaterThan(0);
+   // Use expect.poll for debounce + render
+   await expect.poll(() => page.locator('#episodes-grid > a:visible').count()).toBeGreaterThan(0);
    ```
 
 4. **Test keyboard shortcuts:**

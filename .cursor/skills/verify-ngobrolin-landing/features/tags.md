@@ -32,7 +32,7 @@ The tags feature allows users to browse episodes by topic. Tags are extracted fr
 
 ## Driving it with Playwright
 
-Tags are covered by `e2e/tags.spec.ts`. Key interactions:
+Tags are covered by `e2e/tags.spec.ts` (tag index, tag detail, topik nav). Homepage topic chips are tested in `e2e/home-archive.spec.ts`, and episode-page tag chips are in `e2e/episode-topics.spec.ts`. Key interactions:
 
 1. **Navigate to tags index:**
    ```typescript
@@ -80,6 +80,16 @@ Tags are covered by `e2e/tags.spec.ts`. Key interactions:
    const topics = page.getByTestId('home-topics');
    const firstTopic = topics.locator('a').first();
    await firstTopic.click();
+   await expect(page).toHaveURL(/\/tags\/.+/);
+   ```
+
+7. **Test episode-page tag chips:**
+   ```typescript
+   await page.goto('/episodes/ngobrolin-typescript'); // or any episode with tags
+   const episodeTopics = page.getByTestId('episode-topics');
+   await expect(episodeTopics).toBeVisible();
+   const firstTag = episodeTopics.locator('a').first();
+   await firstTag.click();
    await expect(page).toHaveURL(/\/tags\/.+/);
    ```
 
