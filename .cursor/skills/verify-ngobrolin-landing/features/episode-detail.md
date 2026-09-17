@@ -103,5 +103,5 @@ The episode page is covered by `e2e/episode.spec.ts`. Key interactions:
 - **Some episodes lack transcripts:** If `src/data/transcripts/{videoId}.json` doesn't exist, the transcript section won't render.
 - **Some episodes lack summaries:** If `src/data/summaries/{videoId}.json` doesn't exist, the summary section won't render.
 - **Related episodes are conditional:** The related episodes section (`[data-testid="related-episodes"]`) appears when `getRelatedEpisodes()` returns a nonempty result (up to 3 episodes). The algorithm ranks by tag similarity (weighted by IDF), then text similarity (title + brief), then publish date. **If all similarity scores are zero, it falls back to the 3 most recent episodes** — so the section renders even when no semantic similarity exists.
-- **Transcript source provenance:** Newer transcripts have a `source` field (`"youtube-auto"` or `"whisper"`). Older ones omit this field.
+- **Transcript source provenance:** Newer transcripts have a `source` field set to `"youtube-auto"` (generated from YouTube auto-captions). Older transcripts (generated before the field existed) omit this field entirely. The UI labels `"youtube-auto"` transcripts as automatic; unlabelled ones render without a badge.
 - **View transitions:** Scripts must survive client-side navigation. Episode page uses initialization guards and `data-astro-rerun`.

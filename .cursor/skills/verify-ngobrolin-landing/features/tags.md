@@ -22,7 +22,7 @@ The tags feature allows users to browse episodes by topic. Tags are extracted fr
    - Redirects to `/tags` or `/tags/{tag}`
 
 3. **From episode page:**
-   - Click any tag chip in the tags section (when summary includes tags)
+   - Click any tag chip in the episode topics section (when episode has extracted tags)
 
 4. **Direct URLs:**
    - `/tags` — all tags index
@@ -100,5 +100,5 @@ Tags are covered by `e2e/tags.spec.ts` (tag index, tag detail, topik nav). Homep
 - **Tags are extracted, not authored:** Only episodes with summary JSON files can have tags. Tags appear when keyword extraction (`scripts/lib/tag-extraction.ts`) matches words in `brief` or `keyPoints` against the fixed keyword map.
 - **Tag URLs are lowercase slugs:** Tag names in URLs are always lowercase kebab-case. Display formatting (sentence case + overrides via `formatTagLabel()`) happens at render time.
 - **Episode counts are dynamic:** The count next to each tag is derived at build time by counting episodes in each tag's episode list.
-- **No tag pages for untagged episodes:** If `extract-tags.ts` hasn't run or summaries lack tags, some tag links might 404. The homepage topic chips use `getTopTags()` which only returns tags that exist in the index.
+- **No tag pages for untagged episodes:** If `extract-tags.ts` hasn't run or summaries lack matching keywords, those episodes won't appear in any tag page. In-app links (homepage chips, episode-page chips, `/tags` index) all come from build-time data and resolve correctly; only direct unknown URLs can 404.
 - **Tag order:** On `/tags`, tags are sorted by **episode count descending, then alphabetically** (most popular first). On the homepage, tags are sorted by count (top 12).

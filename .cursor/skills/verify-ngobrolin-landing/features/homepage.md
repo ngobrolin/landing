@@ -10,7 +10,7 @@ The homepage is the primary landing page and entry point to the Ngobrolin WEB po
 - **Recent episodes grid** showing 4 most recent episodes with cards (includes the latest episode)
 - **Topic tags** section with top 12 tags by popularity, linking to tag pages with episode counts
 - **Year navigation** grid linking to year-filtered episode pages
-- **Hosts & community** section with host profiles (name, role, GDE badge, GitHub/X/YouTube links)
+- **Hosts & community** section with host profiles (name, role, GDE badge, social links — all hosts have GitHub/X, only Riza has YouTube)
 - **Community strip** with "Punya Pertanyaan..." prompt, GitHub Discussions link, and Langganan (subscribe) link
 - **CTA buttons** to episodes listing and YouTube subscribe
 

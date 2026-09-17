@@ -8,7 +8,7 @@ The search feature allows users to find episodes by searching across titles, des
 - **Episodes page search** with client-side fuzzy search (Fuse.js)
 - **Year page search** — same search component on `/episodes/{year}` pages
 - **Search results** display filtered and reordered episode cards (no text highlighting; cards are shown/hidden and reordered by relevance)
-- **URL persistence** via `?q=term` query parameter for bookmarkable searches (read-only on `/episodes`; typing doesn't update URL)
+- **URL persistence** via `?q=term` (or `?query=term`) query parameter for bookmarkable searches (read-only on `/episodes`; typing doesn't update URL)
 - **Keyboard shortcuts** — `/` and `Cmd/Ctrl+K` (on `/episodes`) to focus search, `Escape` to blur (clear via × button or "Reset Pencarian")
 - **Search across multiple fields:** title, description, brief (summary), keyPoints (from episode summaries)
 
@@ -93,4 +93,4 @@ Search is covered by `e2e/search.spec.ts` (episodes page, year pages, keyboard s
 - **Debounce delay:** Client-side search debounces at 120ms to avoid excessive re-renders while typing.
 - **Case insensitive:** Search is case-insensitive.
 - **No pagination:** All filtered results display on one page (no infinite scroll or pagination).
-- **Search index fetched on first interaction:** The index (`/search-index.json`, ~525KB) is fetched when you first interact with search, not inlined in page HTML.
+- **Search index fetched on first interaction:** The index (`/search-index.json`, ~525KB) is fetched when you first interact with search, not inlined in page HTML. If the fetch or parse fails, search falls back to **title-only** matching with a status note ("Pencarian terbatas pada judul episode").
