@@ -85,7 +85,9 @@ Tags are covered by `e2e/tags.spec.ts` (tag index, tag detail, topik nav). Homep
 
 7. **Test episode-page tag chips:**
    ```typescript
-   await page.goto('/episodes/ngobrolin-typescript'); // or any episode with tags
+   // Find an episode with tags by reading from episodes.json, e.g.:
+   // slug: "cjqz5C0eWgc-ngobrolin-typescript-ngobrolin-web-ep24"
+   await page.goto('/episodes/cjqz5C0eWgc-ngobrolin-typescript-ngobrolin-web-ep24');
    const episodeTopics = page.getByTestId('episode-topics');
    await expect(episodeTopics).toBeVisible();
    const firstTag = episodeTopics.locator('a').first();

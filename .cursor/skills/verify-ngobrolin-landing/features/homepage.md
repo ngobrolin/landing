@@ -75,4 +75,4 @@ The homepage is covered by `e2e/home.spec.ts` (hero, title, recent episodes, nav
 - **Tuesday banner:** On Tuesdays (Indonesian time), the hero shows "Livestream malam ini jam 20:00 WIB!" with animated indicator. On other days, it shows "Episode baru setiap Selasa malam jam 20:00 WIB."
 - **Episode count derivation:** The displayed episode count (`{episodeCount} episode`) is derived from `src/data/episodes.json` at build time, not hardcoded.
 - **Latest episode thumbnail:** The latest episode thumbnail uses `loading="eager"` and `fetchpriority="high"` for LCP optimization.
-- **View transitions:** The site uses Astro's client-side routing (`ClientRouter`), so navigation scripts must handle `astro:page-load` events.
+- **View transitions:** The site uses Astro's client-side routing (`ClientRouter`). Inline scripts use `<script is:inline data-astro-rerun>` with initialization guards (e.g., `dataset.searchShortcutInit`). Bundled scripts with imports handle `astro:page-load` and `astro:after-swap`.

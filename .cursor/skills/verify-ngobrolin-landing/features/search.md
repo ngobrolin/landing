@@ -93,4 +93,4 @@ Search is covered by `e2e/search.spec.ts` (episodes page, year pages, keyboard s
 - **Debounce delay:** Client-side search debounces at 120ms to avoid excessive re-renders while typing.
 - **Case insensitive:** Search is case-insensitive.
 - **No pagination:** All filtered results display on one page (no infinite scroll or pagination).
-- **Search index fetched on first interaction:** The index (`/search-index.json`, ~525KB) is fetched when you first interact with search, not inlined in page HTML. If the fetch or parse fails, search falls back to **title-only** matching with a status note ("Pencarian terbatas pada judul episode").
+- **Search index fetched on first interaction:** The index (`/search-index.json`, ~525KB) is fetched when you first interact with search, not inlined in page HTML. If the fetch or parse fails, search falls back to **title-only** matching with a status note (" (judul saja - indeks pencarian gagal dimuat)").

@@ -44,7 +44,7 @@ The episode page is covered by `e2e/episode.spec.ts`. Key interactions:
    await expect(page).toHaveURL(/\/episodes\/.+/);
    ```
    
-   **Note:** For transcript-specific tests, use `episodePathWithTranscript()` (from `e2e/episode.spec.ts`) to ensure you land on an episode that has a transcript file, rather than relying on homepage ordering.
+   **Note:** For transcript-specific tests, the e2e suite uses a file-local helper `episodePathWithTranscript()` (defined in `e2e/episode.spec.ts`, not exported) to ensure you land on an episode that has a transcript file, rather than relying on homepage ordering.
 
 2. **Verify episode title and metadata:**
    ```typescript
@@ -98,7 +98,7 @@ The episode page is covered by `e2e/episode.spec.ts`. Key interactions:
 ## Gotchas
 
 - **Slugs are stored, never derived:** Episode slugs in URLs come from the `slug` field in `episodes.json` (stored data). **Never reconstruct slugs from titles** when verifying — get them from episode card `href` attributes, `data-episode-slug` attributes, or directly from `episodes.json`. Title-based derivation is a legacy fallback in the code but must not be used for verification.
-- **Transcript search is client-side:** Filtering happens in the browser without page reload. The search input filters the displayed segments array.
+- **Transcript search is client-side:** Filtering happens in the browser without page reload. The search input toggles `.hidden` on transcript segment DOM nodes.
 - **Transcript timestamps clickable:** Each timestamp has a seek button that sends a message to the YouTube iframe API to seek to that time.
 - **Some episodes lack transcripts:** If `src/data/transcripts/{videoId}.json` doesn't exist, the transcript section won't render.
 - **Some episodes lack summaries:** If `src/data/summaries/{videoId}.json` doesn't exist, the summary section won't render.

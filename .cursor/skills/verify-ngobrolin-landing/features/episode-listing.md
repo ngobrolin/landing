@@ -8,7 +8,7 @@ The episode listing page (`/episodes`) displays all podcast episodes in a grid w
 - **Year navigation** (links, not tabs) for filtering episodes by publication year
 - **Search bar** with client-side search across titles, descriptions, brief summaries, and key points (Fuse.js for queries >2 chars; word-boundary matching on title+keyPoints for ≤2 chars)
 - **Episode count** displayed in the header
-- **"New" badges** on the 2 most recent episodes (build-time, not time window)
+- **"BARU" badges** on the 2 most recent episodes (build-time, not time window)
 - **Keyboard navigation** for search (`/` and `Cmd/Ctrl+K` to focus, `Escape` to blur)
 
 ## How to get to it
@@ -65,7 +65,7 @@ The episode listing is partially covered by `e2e/episodes-by-year.spec.ts` and `
 
 ## Gotchas
 
-- **Client-side search:** The search uses Fuse.js for queries longer than 2 characters across `title`, `description`, `brief`, and `keyPoints` fields (NOT transcript fullText). Queries of 2 characters or less use simple word-boundary matching on `title` and `keyPoints` only. Results update as you type (debounced 120ms). The search index (`/search-index.json`) is fetched on first interaction, not inlined.
+- **Client-side search:** The search uses Fuse.js for queries longer than 2 characters across `title`, `description`, `brief`, and `keyPoints` fields (NOT transcript fullText). Queries of 2 characters or less use simple word-boundary matching on `title` and `keyPoints` only. Results update as you type (debounced 120ms). The search index (`/search-index.json`) is fetched on init when `?q=` or `?query=` is present, or on first user interaction (focus/keystroke) otherwise.
 - **Year navigation, not tabs:** The UI uses links (`<a>`) with `aria-current="page"` on the active year, not ARIA tabs/tablist. Navigation is `<nav aria-label="Navigasi tahun">` containing links.
 - **Year navigation clears search:** When switching years, any active `?q=` query is dropped (year links have no query string).
 - **URL query param:** Search can be prefilled via `?q=term` (or `?query=term`), which is bookmarkable and shareable. However, typing in the search box on `/episodes` does NOT update the URL — the query param is read-only on this page. It's written only by the homepage search form and direct navigation.
