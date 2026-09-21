@@ -7,7 +7,7 @@ The tags feature allows users to browse episodes by topic. Tags are extracted fr
 - **Tags index page** (`/tags`) listing all topics with episode counts
 - **Tag detail pages** (`/tags/{tag}`) showing episodes tagged with that topic
 - **Episode count per tag** displayed next to each tag label
-- **Tag formatting** — tags are lowercase slugs (e.g., `typescript`, `ai`, `htmx`), displayed with proper casing
+- **Tag formatting** — tags are lowercase slugs (e.g., `typescript`, `ai`), displayed with proper casing
 - **Homepage topic chips** linking to top 12 most popular tags
 - **Derived data** — tags are extracted from summaries by `scripts/extract-tags.ts`, never manually curated
 
@@ -28,7 +28,7 @@ The tags feature allows users to browse episodes by topic. Tags are extracted fr
 
 ## Driving it with Playwright
 
-Tags are covered by `e2e/tags.spec.ts`. Key interactions:
+Tags are covered by `e2e/tags.spec.ts` (nav to `/tags`, index, detail pages). Homepage chips are in `e2e/home-archive.spec.ts`. Episode page chips are in `e2e/episode-topics.spec.ts`. Key interactions:
 
 1. **Navigate to tags index:**
    ```typescript
@@ -87,4 +87,4 @@ Tags are covered by `e2e/tags.spec.ts`. Key interactions:
 - **Tag URLs are lowercase slugs:** Tag names in URLs are always lowercase kebab-case. Display formatting happens at render time.
 - **Episode counts are dynamic:** The count next to each tag is derived at build time by counting episodes in each tag's episode list.
 - **No tag pages for untagged episodes:** If `extract-tags.ts` hasn't run or summaries lack tags, some tag links might 404. The homepage topic chips use `getTopTags()` which only returns tags that exist in the index.
-- **Tag order:** On `/tags`, tags are alphabetically sorted. On the homepage, tags are sorted by episode count (most popular first), limited to top 12.
+- **Tag order:** On `/tags`, tags are sorted by episode count (descending), then alphabetically as tiebreaker. On the homepage, tags are sorted by episode count (most popular first), limited to top 12.

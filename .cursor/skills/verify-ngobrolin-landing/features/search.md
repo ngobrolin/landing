@@ -6,9 +6,9 @@ The search feature allows users to find episodes by searching across titles, des
 
 - **Homepage search bar** with keyboard shortcut (`/`) and quick suggestion pills
 - **Episodes page search** with client-side fuzzy search (Fuse.js)
-- **Search results** display filtered episode cards with match highlighting (when applicable)
-- **URL persistence** via `?q=term` query parameter for bookmarkable searches
-- **Keyboard shortcuts** — `/` to focus search, `Escape` to blur/clear
+- **Search results** display filtered and reordered episode cards (no text highlighting; cards are shown/hidden and reordered by relevance)
+- **URL persistence** via `?q=term` (or `?query=term`) query parameter for bookmarkable searches (read-only on `/episodes`; typing doesn't update URL)
+- **Keyboard shortcuts** — `/` and `Cmd/Ctrl+K` (on `/episodes`) to focus search, `Escape` to blur (clear via × button or "Reset Pencarian")
 - **Search across multiple fields:** title, description, brief (summary), keyPoints (from episode summaries)
 
 ## How to get to it
@@ -53,7 +53,7 @@ Search is covered by `e2e/search.spec.ts`. Key interactions:
    await page.goto('/episodes');
    const searchInput = page.locator('#search-input');
    await searchInput.fill('htmx');
-   await page.waitForTimeout(500); // Debounce delay
+   await page.waitForTimeout(150); // 120ms debounce + render
    const results = page.locator('#episodes-grid > a:visible');
    const count = await results.count();
    expect(count).toBeGreaterThan(0);
@@ -68,6 +68,12 @@ Search is covered by `e2e/search.spec.ts`. Key interactions:
    
    await page.keyboard.press('Escape');
    await expect(searchInput).not.toBeFocused();
+   
+   // On /episodes, Cmd/Ctrl+K also works (in addition to /)
+   await page.goto('/episodes');
+   const episodesSearchInput = page.locator('#search-input');
+   await page.keyboard.press('Slash');
+   await expect(episodesSearchInput).toBeFocused();
    ```
 
 5. **Test quick suggestion pills:**
@@ -90,7 +96,8 @@ Search is covered by `e2e/search.spec.ts`. Key interactions:
 - **Search fields (NOT transcripts):** The search indexes `title`, `description`, `brief`, and `keyPoints` from episode summaries (`src/lib/search.ts` SEARCH_KEYS). It does NOT search full transcript text — that would make the index too large to fetch on every visit.
 - **Fuzzy matching:** Fuse.js allows typos and partial matches. Search for "astro" matches "Astro", "astronomy", etc. in indexed fields.
 - **Short queries (≤2 chars) use word-boundary matching:** Queries like "ai", "ui", "js" search only `title` and `keyPoints` with exact word-boundary matching to avoid false positives (e.g., "ai" in Indonesian "mulai").
-- **Debounce delay:** Client-side search has a small debounce (typically 300-500ms) to avoid excessive re-renders while typing.
+- **Debounce delay:** Client-side search has a 120ms debounce to avoid excessive re-renders while typing.
 - **Case insensitive:** Search is case-insensitive.
 - **No pagination:** All filtered results display on one page (no infinite scroll or pagination).
-- **Search index fetched on first interaction:** The index (`/search-index.json`, ~525KB) is fetched when you first interact with search, not inlined in page HTML.
+- **Search index fetched on first interaction:** The index (`/search-index.json`, ~525KB) is fetched when `?q=` is present on load, or on first focus/keystroke otherwise (not inlined in page HTML).
+- **Typing on `/episodes` does not update the URL:** The `?q=` param is read-only. Prefills work from homepage submission or direct links, but typing into the episodes search box does not `pushState`/`replaceState` the URL.
