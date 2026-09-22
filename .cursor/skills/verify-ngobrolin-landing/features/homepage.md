@@ -7,7 +7,7 @@ The homepage is the primary landing page and entry point to the Ngobrolin WEB po
 - **Hero section** with site title, tagline, and archive scale (episode count, transcript availability)
 - **Search bar** with keyboard shortcut (`/`), quick suggestion pills, and submit button
 - **Latest episode spotlight** with thumbnail, play indicator, episode number, duration, and link
-- **Recent episodes grid** showing 4 most recent episodes with cards
+- **Recent episodes grid** showing 4 most recent episodes with cards (note: the latest episode appears in both the spotlight and as the first grid card)
 - **Topic tags** section with links to tag pages showing episode counts
 - **Year navigation** grid linking to year-filtered episode pages
 - **Hosts & community** section with host profiles (name, role, GDE badge, GitHub/X links)
@@ -17,7 +17,7 @@ The homepage is the primary landing page and entry point to the Ngobrolin WEB po
 
 Navigate to the root URL: `/`
 
-From anywhere on the site, click "Beranda" in the header or footer navigation.
+From anywhere on the site, click the "Ngobrolin WEB" logo (top left) to return home.
 
 ## Driving it with Playwright
 

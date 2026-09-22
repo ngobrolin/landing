@@ -8,7 +8,7 @@ The episode listing page (`/episodes`) displays all podcast episodes in a grid w
 - **Year navigation** (links, not tabs) for filtering episodes by publication year
 - **Search bar** with client-side fuzzy search (Fuse.js) across titles, descriptions, brief summaries, and key points
 - **Episode count** displayed in the header
-- **"New" badges** on recently published episodes (within 14 days)
+- **"New" badges** on the 2 most recent episodes (positional, not time-based)
 - **Keyboard navigation** for search (same `/` shortcut as homepage)
 
 ## How to get to it
@@ -68,7 +68,7 @@ The episode listing is partially covered by `e2e/episodes-by-year.spec.ts` and `
 
 - **Client-side search:** The search uses Fuse.js to search in-browser across `title`, `description`, `brief`, and `keyPoints` fields (NOT transcript fullText). No server round-trip. Results update as you type (debounced).
 - **Year navigation, not tabs:** The UI uses links (`<a>`) with `aria-current="page"` on the active year, not ARIA tabs/tablist. Navigation is `<nav aria-label="Navigasi tahun">` containing links.
-- **Year navigation preserves search:** When switching years, any active search query should persist in the filtered view.
-- **URL query param:** Search submits as `?q=term`, which can be bookmarked and shared. The page reads `Astro.url.searchParams.get('q')` on load.
-- **"New" badge logic:** Episodes published within `NEW_BADGE_THRESHOLD_DAYS` (14 days) get a "BARU" badge. This is calculated at build time.
+- **Year navigation does NOT preserve search query:** Switching years navigates to plain `/episodes` or `/episodes/{year}` URLs without carrying over the `?q=` parameter.
+- **URL query param:** Search submits as `?q=term`, which can be bookmarked and shared. The page reads the query parameter on load to prefill the search, but typing does NOT update the URL.
+- **"New" badge logic:** The 2 most recent episodes get a "BARU" badge (`NEW_EPISODE_COUNT = 2` in `src/lib/episodes.ts`). This is positional (top 2 in publication order), not time-based.
 - **Episode order:** Episodes are sorted newest-first by `publishedAt` (from YouTube video metadata, not playlist join date).
