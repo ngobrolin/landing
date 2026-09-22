@@ -4,12 +4,12 @@ The episode detail page displays a single podcast episode with embedded video pl
 
 ## Sub-features
 
-- **Episode metadata header** with breadcrumb navigation, episode number badge, title, date, duration
+- **Episode metadata header** with breadcrumb navigation, episode number badge, title, and date (duration is NOT shown in the header; it appears on episode cards only)
 - **Video embed** using `lite-youtube-embed` for performant YouTube player loading
 - **Episode summary** ("Ringkasan Episode") with key points, when available
 - **Full transcript** with timestamps, search functionality, and seek-to-time buttons
 - **Transcript search** filters segments in real-time as user types
-- **Subscribe CTA** block linking to podcast platforms and RSS
+- **Subscribe CTA** button linking to `/subscribe` page (not direct platform/RSS links on the episode page)
 - **Share buttons** for social media and link copying
 - **Topics/tags** when summary includes tags
 - **Related episodes** suggestions showing up to 3 episodes (by similarity or recency fallback)
