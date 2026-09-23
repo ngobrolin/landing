@@ -17,11 +17,11 @@ The homepage is the primary landing page and entry point to the Ngobrolin WEB po
 
 Navigate to the root URL: `/`
 
-From anywhere on the site, click "Beranda" in the header or footer navigation.
+From anywhere on the site, click the "Ngobrolin WEB" brand link in the header navigation. (Note: "Beranda" appears only in episode page breadcrumbs, not in the site header/footer.)
 
 ## Driving it with Playwright
 
-The homepage is covered by `e2e/home.spec.ts`. Key interactions:
+The homepage is covered by `e2e/home.spec.ts` and `e2e/home-archive.spec.ts` (archive scale, search, topics, and year navigation). Key interactions:
 
 1. **Load and verify title:**
    ```typescript
@@ -73,4 +73,4 @@ The homepage is covered by `e2e/home.spec.ts`. Key interactions:
 - **Tuesday banner:** On Tuesdays (Indonesian time), the hero shows "Livestream malam ini jam 20:00 WIB!" with animated indicator. On other days, it shows "Episode baru setiap Selasa malam jam 20:00 WIB."
 - **Episode count derivation:** The displayed episode count (`{episodeCount} episode`) is derived from `src/data/episodes.json` at build time, not hardcoded.
 - **Latest episode thumbnail:** The latest episode thumbnail uses `loading="eager"` and `fetchpriority="high"` for LCP optimization.
-- **View transitions:** The site uses Astro's client-side routing (`ClientRouter`), so navigation scripts must handle `astro:page-load` events.
+- **View transitions:** The site uses Astro's client-side routing (`ClientRouter`), so navigation scripts must handle view transition events. The homepage search uses `data-astro-rerun` to reinitialize on navigation.
