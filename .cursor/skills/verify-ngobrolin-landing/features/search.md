@@ -6,9 +6,9 @@ The search feature allows users to find episodes by searching across titles, des
 
 - **Homepage search bar** with keyboard shortcut (`/`) and quick suggestion pills
 - **Episodes page search** with client-side fuzzy search (Fuse.js)
-- **Search results** display filtered episode cards with match highlighting (when applicable)
+- **Search results** display filtered and reordered episode cards (no highlighting)
 - **URL persistence** via `?q=term` query parameter for bookmarkable searches
-- **Keyboard shortcuts** — `/` to focus search, `Escape` to blur/clear
+- **Keyboard shortcuts** — `/` to focus search, `Escape` to blur (not clear)
 - **Search across multiple fields:** title, description, brief (summary), keyPoints (from episode summaries)
 
 ## How to get to it
@@ -90,7 +90,7 @@ Search is covered by `e2e/search.spec.ts`. Key interactions:
 - **Search fields (NOT transcripts):** The search indexes `title`, `description`, `brief`, and `keyPoints` from episode summaries (`src/lib/search.ts` SEARCH_KEYS). It does NOT search full transcript text — that would make the index too large to fetch on every visit.
 - **Fuzzy matching:** Fuse.js allows typos and partial matches. Search for "astro" matches "Astro", "astronomy", etc. in indexed fields.
 - **Short queries (≤2 chars) use word-boundary matching:** Queries like "ai", "ui", "js" search only `title` and `keyPoints` with exact word-boundary matching to avoid false positives (e.g., "ai" in Indonesian "mulai").
-- **Debounce delay:** Client-side search has a small debounce (typically 300-500ms) to avoid excessive re-renders while typing.
+- **Debounce delay:** Client-side search has a debounce of **120ms** to avoid excessive re-renders while typing.
 - **Case insensitive:** Search is case-insensitive.
 - **No pagination:** All filtered results display on one page (no infinite scroll or pagination).
 - **Search index fetched on first interaction:** The index (`/search-index.json`, ~525KB) is fetched when you first interact with search, not inlined in page HTML.
