@@ -21,27 +21,27 @@ From anywhere on the site, click "Beranda" in the header or footer navigation.
 
 ## Driving it with Playwright
 
-The homepage is covered by `e2e/home.spec.ts`. Key interactions:
+The homepage is covered by `e2e/home.spec.ts` and `e2e/home-archive.spec.ts`. Key interactions:
 
-1. **Load and verify title:**
+1. **Load and verify title:** (`e2e/home.spec.ts`)
    ```typescript
    await page.goto('/');
    await expect(page).toHaveTitle(/Ngobrolin WEB/);
    ```
 
-2. **Check hero elements:**
+2. **Check hero elements:** (`e2e/home.spec.ts`)
    ```typescript
    await expect(page.getByRole('heading', { name: 'Ngobrolin WEB', exact: true })).toBeVisible();
    await expect(page.getByText('Video podcast seputar web development dalam Bahasa Indonesia.')).toBeVisible();
    ```
 
-3. **Verify archive scale:**
+3. **Verify archive scale:** (`e2e/home-archive.spec.ts`)
    ```typescript
    const archiveScale = page.getByTestId('archive-scale');
    await expect(archiveScale).toContainText(/\d+ episode/);
    ```
 
-4. **Test search bar:**
+4. **Test search bar:** (`e2e/home-archive.spec.ts`)
    ```typescript
    const searchInput = page.locator('#home-search-input');
    await searchInput.fill('typescript');
@@ -49,19 +49,19 @@ The homepage is covered by `e2e/home.spec.ts`. Key interactions:
    await expect(page).toHaveURL(/\/episodes\?q=typescript/);
    ```
 
-5. **Verify recent episodes grid:**
+5. **Verify recent episodes grid:** (`e2e/home-archive.spec.ts`)
    ```typescript
    const cards = page.locator('[data-testid="episode-card"]');
    await expect(cards).toHaveCount(4);
    ```
 
-6. **Check topic tags:**
+6. **Check topic tags:** (`e2e/home-archive.spec.ts`)
    ```typescript
    const topics = page.getByTestId('home-topics');
    await expect(topics.locator('a').first()).toBeVisible();
    ```
 
-7. **Check year navigation:**
+7. **Check year navigation:** (`e2e/home-archive.spec.ts`)
    ```typescript
    const years = page.getByTestId('home-years');
    await expect(years.locator('a').first()).toBeVisible();
