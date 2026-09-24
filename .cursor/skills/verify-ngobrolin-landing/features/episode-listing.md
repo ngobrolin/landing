@@ -8,7 +8,7 @@ The episode listing page (`/episodes`) displays all podcast episodes in a grid w
 - **Year navigation** (links, not tabs) for filtering episodes by publication year
 - **Search bar** with client-side fuzzy search (Fuse.js) across titles, descriptions, brief summaries, and key points
 - **Episode count** displayed in the header
-- **"New" badges** on recently published episodes (within 14 days)
+- **"New" badges** on the 2 newest episodes (by position, not date threshold)
 - **Keyboard navigation** for search (same `/` shortcut as homepage)
 
 ## How to get to it
@@ -70,5 +70,5 @@ The episode listing is partially covered by `e2e/episodes-by-year.spec.ts` and `
 - **Year navigation, not tabs:** The UI uses links (`<a>`) with `aria-current="page"` on the active year, not ARIA tabs/tablist. Navigation is `<nav aria-label="Navigasi tahun">` containing links.
 - **Year navigation preserves search:** When switching years, any active search query should persist in the filtered view.
 - **URL query param:** Search submits as `?q=term`, which can be bookmarked and shared. The page reads `Astro.url.searchParams.get('q')` on load.
-- **"New" badge logic:** Episodes published within `NEW_BADGE_THRESHOLD_DAYS` (14 days) get a "BARU" badge. This is calculated at build time.
+- **"New" badge logic:** The 2 newest episodes (by position) get a "BARU" badge (`NEW_EPISODE_COUNT = 2` in `src/lib/episodes.ts`). This is positional, not time-based.
 - **Episode order:** Episodes are sorted newest-first by `publishedAt` (from YouTube video metadata, not playlist join date).
