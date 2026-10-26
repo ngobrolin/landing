@@ -6,9 +6,10 @@ The search feature allows users to find episodes by searching across titles, des
 
 - **Homepage search bar** with keyboard shortcut (`/`) and quick suggestion pills
 - **Episodes page search** with client-side fuzzy search (Fuse.js)
-- **Search results** display filtered episode cards with match highlighting (when applicable)
-- **URL persistence** via `?q=term` query parameter for bookmarkable searches
-- **Keyboard shortcuts** — `/` to focus search, `Escape` to blur/clear
+- **Year page search** — same search component on `/episodes/{year}` pages
+- **Search results** display filtered and reordered episode cards (no text highlighting; cards are shown/hidden and reordered by relevance)
+- **URL persistence** via `?q=term` (or `?query=term`) query parameter for bookmarkable searches (read-only on `/episodes`; typing doesn't update URL)
+- **Keyboard shortcuts** — `/` and `Cmd/Ctrl+K` (on `/episodes`) to focus search, `Escape` to blur (clear via × button or "Reset Pencarian")
 - **Search across multiple fields:** title, description, brief (summary), keyPoints (from episode summaries)
 
 ## How to get to it
@@ -30,7 +31,7 @@ The search feature allows users to find episodes by searching across titles, des
 
 ## Driving it with Playwright
 
-Search is covered by `e2e/search.spec.ts`. Key interactions:
+Search is covered by `e2e/search.spec.ts` (episodes page, year pages, keyboard shortcuts, index fetching). Homepage search submit is tested in `e2e/home-archive.spec.ts`. Key interactions:
 
 1. **Search from homepage:**
    ```typescript
@@ -52,11 +53,9 @@ Search is covered by `e2e/search.spec.ts`. Key interactions:
    ```typescript
    await page.goto('/episodes');
    const searchInput = page.locator('#search-input');
-   await searchInput.fill('htmx');
-   await page.waitForTimeout(500); // Debounce delay
-   const results = page.locator('#episodes-grid > a:visible');
-   const count = await results.count();
-   expect(count).toBeGreaterThan(0);
+   await searchInput.fill('astro');
+   // Use expect.poll for debounce + render
+   await expect.poll(() => page.locator('#episodes-grid > a:visible').count()).toBeGreaterThan(0);
    ```
 
 4. **Test keyboard shortcuts:**
@@ -68,6 +67,7 @@ Search is covered by `e2e/search.spec.ts`. Key interactions:
    
    await page.keyboard.press('Escape');
    await expect(searchInput).not.toBeFocused();
+   // Note: Escape blurs; clear is via the × button or "Reset Pencarian"
    ```
 
 5. **Test quick suggestion pills:**
@@ -86,11 +86,11 @@ Search is covered by `e2e/search.spec.ts`. Key interactions:
 
 ## Gotchas
 
-- **Two search implementations:** Homepage search is a plain `<form method="get">` that submits to `/episodes?q=...`. The episodes page search is client-side JavaScript using Fuse.js.
+- **Two search implementations:** Homepage search is a plain `<form method="get">` that submits to `/episodes?q=...`. The episodes page search is client-side JavaScript using Fuse.js. On `/episodes`, `/` and `Cmd/Ctrl+K` both focus search.
 - **Search fields (NOT transcripts):** The search indexes `title`, `description`, `brief`, and `keyPoints` from episode summaries (`src/lib/search.ts` SEARCH_KEYS). It does NOT search full transcript text — that would make the index too large to fetch on every visit.
 - **Fuzzy matching:** Fuse.js allows typos and partial matches. Search for "astro" matches "Astro", "astronomy", etc. in indexed fields.
 - **Short queries (≤2 chars) use word-boundary matching:** Queries like "ai", "ui", "js" search only `title` and `keyPoints` with exact word-boundary matching to avoid false positives (e.g., "ai" in Indonesian "mulai").
-- **Debounce delay:** Client-side search has a small debounce (typically 300-500ms) to avoid excessive re-renders while typing.
+- **Debounce delay:** Client-side search debounces at 120ms to avoid excessive re-renders while typing.
 - **Case insensitive:** Search is case-insensitive.
 - **No pagination:** All filtered results display on one page (no infinite scroll or pagination).
-- **Search index fetched on first interaction:** The index (`/search-index.json`, ~525KB) is fetched when you first interact with search, not inlined in page HTML.
+- **Search index fetched on first interaction:** The index (`/search-index.json`, ~525KB) is fetched when you first interact with search, not inlined in page HTML. If the fetch or parse fails, search falls back to **title-only** matching with a status note (" (judul saja - indeks pencarian gagal dimuat)").

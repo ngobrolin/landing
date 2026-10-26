@@ -1,20 +1,20 @@
 # Episode Listing
 
-The episode listing page (`/episodes`) displays all podcast episodes in a grid with search, year tabs, and metadata. Users can filter by year, search by text, and navigate to individual episode pages.
+The episode listing page (`/episodes`) displays all podcast episodes in a grid with search, year navigation, and metadata. Users can filter by year, search by text, and navigate to individual episode pages.
 
 ## Sub-features
 
 - **Episode grid** showing all episodes with thumbnails, titles, dates, durations, episode numbers
 - **Year navigation** (links, not tabs) for filtering episodes by publication year
-- **Search bar** with client-side fuzzy search (Fuse.js) across titles, descriptions, brief summaries, and key points
+- **Search bar** with client-side search across titles, descriptions, brief summaries, and key points (Fuse.js for queries >2 chars; word-boundary matching on title+keyPoints for ≤2 chars)
 - **Episode count** displayed in the header
-- **"New" badges** on recently published episodes (within 14 days)
-- **Keyboard navigation** for search (same `/` shortcut as homepage)
+- **"BARU" badges** on the 2 most recent episodes (build-time, not time window)
+- **Keyboard navigation** for search (`/` and `Cmd/Ctrl+K` to focus, `Escape` to blur)
 
 ## How to get to it
 
 1. From homepage: Click "Lihat Semua Episode" button in hero or "Lihat semua →" link above recent episodes grid
-2. From header/footer: Click "Episode" in navigation
+2. From header: Click "Episode" in navigation (header only; mobile menu on small screens)
 3. Direct URL: `/episodes`
 4. From search results: Submit a search query (redirects to `/episodes?q=...`)
 
@@ -46,9 +46,8 @@ The episode listing is partially covered by `e2e/episodes-by-year.spec.ts` and `
    ```typescript
    const searchInput = page.locator('#search-input');
    await searchInput.fill('astro');
-   await page.waitForTimeout(500); // Client-side search debounce
-   const results = page.locator('#episodes-grid > a:visible');
-   await expect(results).toHaveCount(expect.any(Number));
+   // Allow debounce (120ms) + render
+   await expect.poll(() => page.locator('#episodes-grid > a:visible').count()).toBeGreaterThan(0);
    ```
 
 5. **Verify episode cards render:**
@@ -66,9 +65,9 @@ The episode listing is partially covered by `e2e/episodes-by-year.spec.ts` and `
 
 ## Gotchas
 
-- **Client-side search:** The search uses Fuse.js to search in-browser across `title`, `description`, `brief`, and `keyPoints` fields (NOT transcript fullText). No server round-trip. Results update as you type (debounced).
+- **Client-side search:** The search uses Fuse.js for queries longer than 2 characters across `title`, `description`, `brief`, and `keyPoints` fields (NOT transcript fullText). Queries of 2 characters or less use simple word-boundary matching on `title` and `keyPoints` only. Results update as you type (debounced 120ms). The search index (`/search-index.json`) is fetched on init when `?q=` or `?query=` is present, or on first user interaction (focus/keystroke) otherwise.
 - **Year navigation, not tabs:** The UI uses links (`<a>`) with `aria-current="page"` on the active year, not ARIA tabs/tablist. Navigation is `<nav aria-label="Navigasi tahun">` containing links.
-- **Year navigation preserves search:** When switching years, any active search query should persist in the filtered view.
-- **URL query param:** Search submits as `?q=term`, which can be bookmarked and shared. The page reads `Astro.url.searchParams.get('q')` on load.
-- **"New" badge logic:** Episodes published within `NEW_BADGE_THRESHOLD_DAYS` (14 days) get a "BARU" badge. This is calculated at build time.
+- **Year navigation clears search:** When switching years, any active `?q=` query is dropped (year links have no query string).
+- **URL query param:** Search can be prefilled via `?q=term` (or `?query=term`), which is bookmarkable and shareable. However, typing in the search box on `/episodes` does NOT update the URL — the query param is read-only on this page. It's written only by the homepage search form and direct navigation.
+- **"New" badge logic:** The 2 newest episodes (by archive order) get a "BARU" badge via `getNewEpisodeSlugs()` (`NEW_EPISODE_COUNT = 2`). This is a count, not a time window.
 - **Episode order:** Episodes are sorted newest-first by `publishedAt` (from YouTube video metadata, not playlist join date).
