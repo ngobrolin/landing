@@ -1,0 +1,399 @@
+import { test, expect, type Page } from '@playwright/test';
+import { readFileSync, readdirSync } from 'fs';
+import { join } from 'path';
+import { resolveSlug } from '../src/lib/slug';
+
+interface RawEpisode {
+  videoId: string;
+  title: string;
+  slug?: string;
+  publishedAt: string;
+  audioUrl?: string;
+  audioDuration?: number;
+  audioFileSize?: number;
+}
+
+const EPISODES: RawEpisode[] = JSON.parse(
+  readFileSync(join(process.cwd(), 'src/data/episodes.json'), 'utf-8')
+);
+const TRANSCRIPT_IDS = new Set(
+  readdirSync(join(process.cwd(), 'src/data/transcripts'))
+    .filter((f) => f.endsWith('.json'))
+    .map((f) => f.replace(/\.json$/, ''))
+);
+
+const hasAudio = (ep: RawEpisode) => !!(ep.audioUrl && ep.audioDuration && ep.audioFileSize);
+const pathOf = (ep: RawEpisode) => `/episodes/${resolveSlug(ep)}`;
+
+const withAudio = EPISODES.find((ep) => hasAudio(ep) && TRANSCRIPT_IDS.has(ep.videoId));
+const withoutAudio = EPISODES.find((ep) => !hasAudio(ep));
+
+const AUDIO_HOST = 'https://ngobrolinweb-podcast.s3.ap-southeast-1.amazonaws.com/**';
+const MODE_KEY = 'ngobrolin:media-mode';
+const RATE_KEY = 'ngobrolin:playback-rate';
+
+/**
+ * Two minutes of 8 kHz unsigned 8-bit silence. The real mp3s are ~80 MB on
+ * S3; the suite stubs that host so it never depends on the network and so a
+ * test can count exactly when the page asks for audio.
+ */
+function silentWav(seconds = 120): Buffer {
+  const rate = 8000;
+  const dataLength = rate * seconds;
+  const buf = Buffer.alloc(44 + dataLength, 128);
+  buf.write('RIFF', 0);
+  buf.writeUInt32LE(36 + dataLength, 4);
+  buf.write('WAVE', 8);
+  buf.write('fmt ', 12);
+  buf.writeUInt32LE(16, 16);
+  buf.writeUInt16LE(1, 20); // PCM
+  buf.writeUInt16LE(1, 22); // mono
+  buf.writeUInt32LE(rate, 24);
+  buf.writeUInt32LE(rate, 28);
+  buf.writeUInt16LE(1, 32);
+  buf.writeUInt16LE(8, 34);
+  buf.write('data', 36);
+  buf.writeUInt32LE(dataLength, 40);
+  return buf;
+}
+
+const WAV = silentWav();
+
+/**
+ * Stub the audio host and return a live list of the audio urls requested.
+ * Honours Range like S3 does; without it Chrome treats the file as unseekable.
+ */
+async function stubAudio(page: Page, mode: 'ok' | 'fail' = 'ok'): Promise<string[]> {
+  const requested: string[] = [];
+  await page.route(AUDIO_HOST, (route) => {
+    requested.push(route.request().url());
+    if (mode === 'fail') return route.abort('failed');
+
+    const range = /bytes=(\d+)-(\d*)/.exec(route.request().headers()['range'] ?? '');
+    if (!range) {
+      return route.fulfill({
+        status: 200,
+        headers: { 'Accept-Ranges': 'bytes', 'Content-Type': 'audio/wav' },
+        body: WAV,
+      });
+    }
+    const start = Number(range[1]);
+    const end = range[2] ? Math.min(Number(range[2]), WAV.length - 1) : WAV.length - 1;
+    return route.fulfill({
+      status: 206,
+      headers: {
+        'Accept-Ranges': 'bytes',
+        'Content-Type': 'audio/wav',
+        'Content-Range': `bytes ${start}-${end}/${WAV.length}`,
+      },
+      body: WAV.subarray(start, end + 1),
+    });
+  });
+  return requested;
+}
+
+/** Never let a test reach YouTube; an activated embed gets a blank frame. */
+async function stubYouTube(page: Page) {
+  await page.route('https://www.youtube-nocookie.com/**', (route) =>
+    route.fulfill({ status: 200, contentType: 'text/html', body: '<html><body></body></html>' })
+  );
+  await page.route('https://www.youtube.com/**', (route) => route.abort());
+}
+
+function modeToggle(page: Page) {
+  return page.getByRole('group', { name: 'Mode pemutar' });
+}
+
+async function audioState(page: Page) {
+  return page.getByTestId('episode-audio').evaluate((el) => {
+    const a = el as HTMLAudioElement;
+    return {
+      paused: a.paused,
+      currentTime: a.currentTime,
+      playbackRate: a.playbackRate,
+      src: a.getAttribute('src'),
+    };
+  });
+}
+
+test.describe('Audio-only mode', () => {
+  test.beforeAll(() => {
+    expect(withAudio, 'an episode with audio and a transcript').toBeTruthy();
+    expect(withoutAudio, 'an episode without audio').toBeTruthy();
+  });
+
+  test.beforeEach(async ({ page }) => {
+    await stubYouTube(page);
+  });
+
+  test('defaults to video and fetches no audio until asked', async ({ page }) => {
+    const requested = await stubAudio(page);
+    await page.goto(pathOf(withAudio!));
+
+    const toggle = modeToggle(page);
+    await expect(toggle).toBeVisible();
+    await expect(toggle.getByRole('button', { name: 'Video' })).toHaveAttribute('aria-pressed', 'true');
+    await expect(toggle.getByRole('button', { name: 'Audio saja' })).toHaveAttribute('aria-pressed', 'false');
+    await expect(page.locator('lite-youtube')).toBeVisible();
+    await expect(page.getByTestId('audio-player')).toBeHidden();
+
+    // Switching mode alone must not download an 80 MB file either.
+    await toggle.getByRole('button', { name: 'Audio saja' }).click();
+    await expect(page.getByTestId('audio-player')).toBeVisible();
+    await page.waitForTimeout(300);
+    expect(requested).toEqual([]);
+    expect((await audioState(page)).src).toBeNull();
+  });
+
+  test('audio mode shows a real player with standard controls and hides the video', async ({ page }) => {
+    await stubAudio(page);
+    await page.goto(pathOf(withAudio!));
+    await modeToggle(page).getByRole('button', { name: 'Audio saja' }).click();
+
+    const player = page.getByTestId('audio-player');
+    await expect(player).toBeVisible();
+    await expect(page.locator('lite-youtube')).toBeHidden();
+    await expect(player.getByRole('button', { name: 'Putar audio' })).toBeVisible();
+    await expect(player.getByRole('slider', { name: 'Posisi audio' })).toBeVisible();
+    await expect(player.getByRole('button', { name: /Mundur 15 detik/ })).toBeVisible();
+    await expect(player.getByRole('button', { name: /Maju 30 detik/ })).toBeVisible();
+    await expect(player.getByRole('group', { name: 'Kecepatan putar' })).toBeVisible();
+
+    await player.getByRole('button', { name: 'Putar audio' }).click();
+    await expect.poll(async () => (await audioState(page)).paused).toBe(false);
+    expect((await audioState(page)).src).toBe(withAudio!.audioUrl);
+    await expect(player.getByRole('button', { name: 'Jeda audio' })).toBeVisible();
+
+    await player.getByRole('button', { name: 'Jeda audio' }).click();
+    await expect.poll(async () => (await audioState(page)).paused).toBe(true);
+  });
+
+  test('playback speed offers 1x, 1.5x and 2x and is remembered', async ({ page }) => {
+    await stubAudio(page);
+    await page.goto(pathOf(withAudio!));
+    await modeToggle(page).getByRole('button', { name: 'Audio saja' }).click();
+
+    const speed = page.getByRole('group', { name: 'Kecepatan putar' });
+    await expect(speed.getByRole('button')).toHaveText(['1x', '1.5x', '2x']);
+    await expect(speed.getByRole('button', { name: '1x' })).toHaveAttribute('aria-pressed', 'true');
+
+    await speed.getByRole('button', { name: '1.5x' }).click();
+    await expect(speed.getByRole('button', { name: '1.5x' })).toHaveAttribute('aria-pressed', 'true');
+    await expect(speed.getByRole('button', { name: '1x' })).toHaveAttribute('aria-pressed', 'false');
+    expect((await audioState(page)).playbackRate).toBe(1.5);
+
+    // Loading the source resets playbackRate to defaultPlaybackRate, so the
+    // chosen speed has to survive the first play.
+    await page.getByRole('button', { name: 'Putar audio' }).click();
+    await expect.poll(async () => (await audioState(page)).paused).toBe(false);
+    expect((await audioState(page)).playbackRate).toBe(1.5);
+
+    await page.reload();
+    expect(await page.evaluate((k) => localStorage.getItem(k), RATE_KEY)).toBe('1.5');
+    await expect(
+      page.getByRole('group', { name: 'Kecepatan putar' }).getByRole('button', { name: '1.5x' })
+    ).toHaveAttribute('aria-pressed', 'true');
+  });
+
+  test('the mode preference survives a reload and switching back', async ({ page }) => {
+    await stubAudio(page);
+    await page.goto(pathOf(withAudio!));
+    await modeToggle(page).getByRole('button', { name: 'Audio saja' }).click();
+    expect(await page.evaluate((k) => localStorage.getItem(k), MODE_KEY)).toBe('audio');
+
+    await page.reload();
+    await expect(page.getByTestId('audio-player')).toBeVisible();
+    await expect(page.locator('lite-youtube')).toBeHidden();
+
+    await modeToggle(page).getByRole('button', { name: 'Video' }).click();
+    expect(await page.evaluate((k) => localStorage.getItem(k), MODE_KEY)).toBe('video');
+    await page.reload();
+    await expect(page.locator('lite-youtube')).toBeVisible();
+    await expect(page.getByTestId('audio-player')).toBeHidden();
+  });
+
+  test('switching to video pauses the audio', async ({ page }) => {
+    await stubAudio(page);
+    await page.goto(pathOf(withAudio!));
+    await modeToggle(page).getByRole('button', { name: 'Audio saja' }).click();
+    await page.getByRole('button', { name: 'Putar audio' }).click();
+    await expect.poll(async () => (await audioState(page)).paused).toBe(false);
+
+    await modeToggle(page).getByRole('button', { name: 'Video' }).click();
+    await expect.poll(async () => (await audioState(page)).paused).toBe(true);
+    await expect(page.locator('lite-youtube')).toBeVisible();
+  });
+
+  test('switching to audio stops a video that was already playing', async ({ page }) => {
+    await stubAudio(page);
+    await page.goto(pathOf(withAudio!));
+    await page.locator('lite-youtube').click();
+    await expect(page.locator('lite-youtube iframe')).toHaveCount(1);
+
+    await modeToggle(page).getByRole('button', { name: 'Audio saja' }).click();
+    // A hidden iframe keeps playing; the frame has to go.
+    await expect(page.locator('lite-youtube iframe')).toHaveCount(0);
+
+    // And the embed still works when the reader comes back to it.
+    await modeToggle(page).getByRole('button', { name: 'Video' }).click();
+    await page.locator('lite-youtube').click();
+    await expect(page.locator('lite-youtube iframe')).toHaveCount(1);
+  });
+
+  test('a transcript timecode seeks the audio, not the hidden video, in audio mode', async ({ page }) => {
+    await stubAudio(page);
+    await page.goto(pathOf(withAudio!));
+    await modeToggle(page).getByRole('button', { name: 'Audio saja' }).click();
+
+    const stamp = page
+      .locator('.timestamp-seek-btn')
+      .filter({ has: page.locator('xpath=self::*[number(@data-seek-time) > 5 and number(@data-seek-time) < 100]') })
+      .first();
+    const seconds = Number(await stamp.getAttribute('data-seek-time'));
+    await stamp.click();
+
+    await expect.poll(async () => (await audioState(page)).paused).toBe(false);
+    // The seek lands once metadata arrives, a moment after play starts.
+    await expect
+      .poll(async () => (await audioState(page)).currentTime)
+      .toBeGreaterThanOrEqual(seconds - 1);
+    await expect(page.locator('lite-youtube')).not.toHaveClass(/lyt-activated/);
+  });
+
+  test('falls back to the video when the audio fails to load', async ({ page }) => {
+    await stubAudio(page, 'fail');
+    await page.goto(pathOf(withAudio!));
+    await modeToggle(page).getByRole('button', { name: 'Audio saja' }).click();
+    await page.getByRole('button', { name: 'Putar audio' }).click();
+
+    await expect(page.locator('lite-youtube')).toBeVisible();
+    await expect(page.getByTestId('audio-player')).toBeHidden();
+    await expect(page.getByTestId('media-notice')).toContainText('Audio');
+    await expect(modeToggle(page).getByRole('button', { name: 'Video' })).toHaveAttribute('aria-pressed', 'true');
+    // A transient failure must not silently erase the reader's choice.
+    expect(await page.evaluate((k) => localStorage.getItem(k), MODE_KEY)).toBe('audio');
+  });
+
+  test('an episode without audio shows the video and says why', async ({ page }) => {
+    await page.goto(pathOf(withoutAudio!));
+    await page.evaluate((k) => localStorage.setItem(k, 'audio'), MODE_KEY);
+    await page.reload();
+
+    await expect(page.locator('lite-youtube')).toBeVisible();
+    await expect(modeToggle(page)).toHaveCount(0);
+    await expect(page.getByTestId('audio-player')).toHaveCount(0);
+    await expect(page.getByTestId('media-notice')).toBeVisible();
+
+    // Readers who never chose audio see nothing extra.
+    await page.evaluate((k) => localStorage.removeItem(k), MODE_KEY);
+    await page.reload();
+    await expect(page.getByTestId('media-notice')).toBeHidden();
+  });
+
+  test('works when localStorage is unavailable', async ({ page }) => {
+    const errors: string[] = [];
+    page.on('pageerror', (e) => errors.push(e.message));
+    // The comments widget (utteranc.es) reads localStorage unguarded and
+    // throws on its own; it is third-party and not what this test is about.
+    await page.route('https://utteranc.es/**', (route) => route.abort());
+    await page.addInitScript(() => {
+      Object.defineProperty(window, 'localStorage', {
+        configurable: true,
+        get() {
+          throw new DOMException('blocked', 'SecurityError');
+        },
+      });
+    });
+    await stubAudio(page);
+    await page.goto(pathOf(withAudio!));
+
+    await modeToggle(page).getByRole('button', { name: 'Audio saja' }).click();
+    await expect(page.getByTestId('audio-player')).toBeVisible();
+    await page.getByRole('group', { name: 'Kecepatan putar' }).getByRole('button', { name: '2x' }).click();
+    expect((await audioState(page)).playbackRate).toBe(2);
+    expect(errors).toEqual([]);
+  });
+
+  test('is keyboard operable', async ({ page }) => {
+    await stubAudio(page);
+    await page.goto(pathOf(withAudio!));
+
+    await modeToggle(page).getByRole('button', { name: 'Audio saja' }).focus();
+    await page.keyboard.press('Enter');
+    await expect(page.getByTestId('audio-player')).toBeVisible();
+
+    await page.getByRole('button', { name: 'Putar audio' }).focus();
+    await page.keyboard.press('Space');
+    await expect.poll(async () => (await audioState(page)).paused).toBe(false);
+
+    const slider = page.getByRole('slider', { name: 'Posisi audio' });
+    await expect(slider).toHaveAttribute('aria-valuetext', /dari/);
+  });
+
+  test('survives client-side navigation without initialising twice', async ({ page }) => {
+    await stubAudio(page);
+    // Two neighbouring episodes that both have audio, so prev/next links
+    // move between players with the client router.
+    const sorted = [...EPISODES].sort(
+      (a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime()
+    );
+    const i = sorted.findIndex((ep, n) => hasAudio(ep) && sorted[n + 1] && hasAudio(sorted[n + 1]));
+    expect(i, 'neighbouring audio episodes').toBeGreaterThanOrEqual(0);
+    const [newer, older] = [sorted[i], sorted[i + 1]];
+
+    await page.goto(pathOf(newer));
+    await page.waitForLoadState('load');
+    await modeToggle(page).getByRole('button', { name: 'Audio saja' }).click();
+    await page.evaluate(() => ((window as unknown as { __noReload: boolean }).__noReload = true));
+
+    // Generous timeouts: under a full parallel suite the router's fetch of the
+    // next page is the slow part, not anything this test is checking.
+    await page.getByRole('link', { name: /Episode Sebelumnya/ }).click();
+    await expect(page).toHaveURL(new RegExp(resolveSlug(older)), { timeout: 15_000 });
+    await expect(page.getByTestId('audio-player')).toBeVisible();
+    await page.getByRole('link', { name: /Episode Selanjutnya/ }).click();
+    await expect(page).toHaveURL(new RegExp(resolveSlug(newer)), { timeout: 15_000 });
+    expect(await page.evaluate(() => (window as unknown as { __noReload?: boolean }).__noReload)).toBe(true);
+
+    await expect(page.getByTestId('audio-player')).toBeVisible();
+    // One click, one toggle: a duplicated listener would play then pause.
+    await page.getByRole('button', { name: 'Putar audio' }).click();
+    await expect.poll(async () => (await audioState(page)).paused).toBe(false);
+    await page.waitForTimeout(200);
+    expect((await audioState(page)).paused).toBe(false);
+    expect((await audioState(page)).src).toBe(newer.audioUrl);
+  });
+
+  test('the card thumbnail keeps one visible morph target in either mode', async ({ page }) => {
+    await page.goto(pathOf(withAudio!));
+    const scoped = page.locator('[data-episode-media] [data-astro-transition-scope]');
+    const visibleNames = () =>
+      scoped.evaluateAll((els) =>
+        els
+          .filter((el) => (el as HTMLElement).offsetParent !== null)
+          .map((el) => getComputedStyle(el).viewTransitionName)
+      );
+
+    const expected = `episode-thumbnail-${resolveSlug(withAudio!)}`;
+    expect(await visibleNames()).toEqual([expected]);
+    await modeToggle(page).getByRole('button', { name: 'Audio saja' }).click();
+    // Two elements carrying one name is only valid while one is not rendered.
+    expect(await visibleNames()).toEqual([expected]);
+  });
+
+  test('fits a small screen', async ({ page }) => {
+    await stubAudio(page);
+    await page.setViewportSize({ width: 360, height: 740 });
+    await page.goto(pathOf(withAudio!));
+    await modeToggle(page).getByRole('button', { name: 'Audio saja' }).click();
+    await expect(page.getByTestId('audio-player')).toBeVisible();
+
+    const overflow = await page.evaluate(
+      () => document.documentElement.scrollWidth - document.documentElement.clientWidth
+    );
+    expect(overflow).toBeLessThanOrEqual(0);
+    const box = await page.getByRole('button', { name: 'Putar audio' }).boundingBox();
+    expect(box!.width).toBeGreaterThanOrEqual(44);
+    expect(box!.height).toBeGreaterThanOrEqual(44);
+  });
+});

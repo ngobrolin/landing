@@ -1,0 +1,568 @@
+---
+/**
+ * The episode's media: the YouTube embed, plus an audio-only player for every
+ * episode the podcast feed carries (issue #47).
+ *
+ * Audio is the same mp3 the feed publishes. Nothing is fetched until the
+ * listener presses play: the <audio> carries its url in data-src and gets a
+ * real src only then, so a reader who never switches pays nothing, and one
+ * who does pays for the audio instead of the video.
+ *
+ * No frequency visualiser. The audio bucket serves no CORS headers, and a
+ * cross-origin <audio> routed through a Web Audio analyser reads silence, so
+ * any "visualiser" here would be decoration pretending to be data. The
+ * episode thumbnail anchors the player instead.
+ *
+ * The script is inline so a stored "audio" preference applies before first
+ * paint instead of flashing the video. It therefore restates formatClock and
+ * the storage keys from src/lib/episode-audio.ts; keep them in step.
+ */
+import YouTubeEmbed from "./YouTubeEmbed.astro";
+import type { Episode } from "../lib/episodes";
+import {
+    getEpisodeAudio,
+    formatClock,
+    formatFileSize,
+    PLAYBACK_RATES,
+    MEDIA_MODE_STORAGE_KEY,
+    PLAYBACK_RATE_STORAGE_KEY,
+} from "../lib/episode-audio";
+
+interface Props {
+    episode: Episode;
+    /** Visible title, without the show-name credit. */
+    displayTitle: string;
+    /** Optimised thumbnail, already preloaded by the page. */
+    thumbnail: string;
+    transitionName: string;
+}
+
+const { episode, displayTitle, thumbnail, transitionName } = Astro.props;
+const audio = getEpisodeAudio(episode);
+const total = audio ? formatClock(audio.duration) : "";
+---
+
+<div
+    data-episode-media
+    data-media-mode="video"
+    data-mode-key={MEDIA_MODE_STORAGE_KEY}
+    data-rate-key={PLAYBACK_RATE_STORAGE_KEY}
+    data-video-id={episode.videoId}
+    data-title={displayTitle}
+    data-thumbnail={thumbnail}
+>
+    <div class="mb-6 flex flex-wrap items-center justify-between gap-x-4 gap-y-3">
+        <slot name="lead" />
+        {
+            audio && (
+                <div
+                    role="group"
+                    aria-label="Mode pemutar"
+                    class="inline-flex rounded-lg border border-surface-border bg-surface-raised p-1"
+                    data-media-toggle
+                    hidden
+                >
+                    <button
+                        type="button"
+                        data-mode="video"
+                        aria-pressed="true"
+                        class="inline-flex min-h-11 sm:min-h-9 items-center gap-2 rounded-md px-3 text-sm font-medium text-ink-muted transition hover:text-ink aria-pressed:bg-accent-strong aria-pressed:text-ink"
+                    >
+                        <svg class="size-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                            <rect x="2" y="6" width="14" height="12" rx="2" />
+                            <path d="m16 10 6-3.5v11L16 14" />
+                        </svg>
+                        Video
+                    </button>
+                    <button
+                        type="button"
+                        data-mode="audio"
+                        aria-pressed="false"
+                        class="inline-flex min-h-11 sm:min-h-9 items-center gap-2 rounded-md px-3 text-sm font-medium text-ink-muted transition hover:text-ink aria-pressed:bg-accent-strong aria-pressed:text-ink"
+                    >
+                        <svg class="size-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                            <path d="M3 14v-2a9 9 0 0 1 18 0v2" />
+                            <rect x="3" y="14" width="5" height="7" rx="1.5" />
+                            <rect x="16" y="14" width="5" height="7" rx="1.5" />
+                        </svg>
+                        Audio saja
+                    </button>
+                </div>
+            )
+        }
+    </div>
+
+    <!--
+        Always rendered and empty until needed, so screen readers already
+        track it as a live region when the message arrives.
+    -->
+    <div
+        role="status"
+        data-testid="media-notice"
+        data-media-notice
+        data-unavailable="Versi audio episode ini belum tersedia, jadi yang tampil videonya."
+        data-failed="Audio gagal dimuat, jadi kami kembali ke video. Coba lagi lewat tombol Audio saja."
+    ></div>
+    <template data-media-notice-template>
+        <p class="mb-4 flex items-start gap-2 text-sm text-ink-body">
+            <svg class="mt-0.5 size-4 shrink-0 text-highlight" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M3 14v-2a9 9 0 0 1 18 0v2" />
+                <rect x="3" y="14" width="5" height="7" rx="1.5" />
+                <rect x="16" y="14" width="5" height="7" rx="1.5" />
+            </svg>
+            <span data-media-notice-text></span>
+        </p>
+    </template>
+
+    <div data-video-panel data-testid="video-player" transition:name={transitionName}>
+        <YouTubeEmbed
+            videoId={episode.videoId}
+            title={episode.title}
+            backgroundImage={thumbnail}
+        />
+    </div>
+
+    {
+        audio && (
+            <section
+                class="rounded-xl border border-surface-border bg-surface-raised p-4 sm:p-6"
+                aria-label="Pemutar audio"
+                data-testid="audio-player"
+                data-audio-panel
+                hidden
+            >
+                <audio data-testid="episode-audio" preload="none" data-src={audio.url} />
+
+                <div class="flex items-center gap-4">
+                    <!--
+                        Shares the video panel's transition name so the card
+                        thumbnail still morphs in audio mode. Only one of the
+                        two is ever rendered, and an element that is not
+                        rendered takes no part in a view transition.
+                    -->
+                    <img
+                        src={thumbnail}
+                        alt=""
+                        width="640"
+                        height="360"
+                        decoding="async"
+                        class="aspect-video w-28 shrink-0 rounded-lg border border-surface-border object-cover sm:w-40"
+                        transition:name={transitionName}
+                    />
+                    <div class="min-w-0">
+                        <p class="font-semibold text-ink">Dengarkan versi audio</p>
+                        <p class="mt-1 text-sm text-ink-muted">
+                            MP3 {formatFileSize(audio.fileSize)}, file yang sama dengan
+                            feed podcast.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="mt-5">
+                    <input
+                        type="range"
+                        min="0"
+                        max={audio.duration}
+                        step="1"
+                        value="0"
+                        class="audio-seek w-full"
+                        aria-label="Posisi audio"
+                        aria-valuetext={`0:00 dari ${total}`}
+                        data-audio-seek
+                    />
+                    <div class="mt-1 flex justify-between font-mono text-sm tabular-nums">
+                        <span class="text-ink" data-audio-current>0:00</span>
+                        <span class="text-ink-muted">{total}</span>
+                    </div>
+                </div>
+
+                <div class="mt-4 flex flex-wrap items-center justify-between gap-x-6 gap-y-4">
+                    <div class="flex items-center gap-2">
+                        <button
+                            type="button"
+                            class="inline-flex size-11 items-center justify-center rounded-lg text-ink-body transition hover:bg-surface-overlay hover:text-ink"
+                            aria-label="Mundur 15 detik"
+                            data-audio-skip="-15"
+                        >
+                            <svg class="size-8" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                <path d="M6.5 13A10.5 10.5 0 1 1 8.6 23.4" />
+                                <path d="M5.5 7v6h6" />
+                                <text x="16.5" y="20.4" fill="currentColor" stroke="none" font-size="11" font-weight="700" text-anchor="middle" font-family="sans-serif">15</text>
+                            </svg>
+                        </button>
+                        <button
+                            type="button"
+                            class="audio-play inline-flex size-14 items-center justify-center rounded-lg bg-accent-strong text-ink transition hover:bg-highlight-strong"
+                            aria-label="Putar audio"
+                            data-audio-play
+                        >
+                            <svg class="size-6" data-icon="play" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                                <path d="M8 5.5v13a1 1 0 0 0 1.5.86l10.4-6.5a1 1 0 0 0 0-1.72L9.5 4.64A1 1 0 0 0 8 5.5Z" />
+                            </svg>
+                            <svg class="hidden size-6" data-icon="pause" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                                <rect x="6" y="5" width="4" height="14" rx="1" />
+                                <rect x="14" y="5" width="4" height="14" rx="1" />
+                            </svg>
+                            <svg class="hidden size-6 animate-spin motion-reduce:animate-none" data-icon="loading" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" aria-hidden="true">
+                                <path d="M12 3a9 9 0 1 0 9 9" />
+                            </svg>
+                        </button>
+                        <button
+                            type="button"
+                            class="inline-flex size-11 items-center justify-center rounded-lg text-ink-body transition hover:bg-surface-overlay hover:text-ink"
+                            aria-label="Maju 30 detik"
+                            data-audio-skip="30"
+                        >
+                            <svg class="size-8" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                <path d="M25.5 13A10.5 10.5 0 1 0 23.4 23.4" />
+                                <path d="M26.5 7v6h-6" />
+                                <text x="15.5" y="20.4" fill="currentColor" stroke="none" font-size="11" font-weight="700" text-anchor="middle" font-family="sans-serif">30</text>
+                            </svg>
+                        </button>
+                    </div>
+
+                    <div class="flex items-center gap-3">
+                        <span class="text-sm text-ink-muted" aria-hidden="true">
+                            Kecepatan
+                        </span>
+                        <div
+                            role="group"
+                            aria-label="Kecepatan putar"
+                            class="inline-flex rounded-lg border border-surface-border bg-surface p-1"
+                        >
+                            {PLAYBACK_RATES.map((rate) => (
+                                <button
+                                    type="button"
+                                    data-audio-rate={rate}
+                                    aria-pressed={rate === 1 ? "true" : "false"}
+                                    class="min-h-11 sm:min-h-9 min-w-12 rounded-md px-2 text-sm font-medium tabular-nums text-ink-muted transition hover:text-ink aria-pressed:bg-accent-strong aria-pressed:text-ink"
+                                >
+                                    {rate}x
+                                </button>
+                            ))}
+                        </div>
+                    </div>
+                </div>
+            </section>
+        )
+    }
+</div>
+
+<script is:inline data-astro-rerun>
+  (function initEpisodeMedia() {
+    const root = document.querySelector("[data-episode-media]");
+    if (!root || root.hasAttribute("data-media-initialized")) return;
+
+    // localStorage throws outright when storage is blocked; the player still
+    // works for the visit, it just forgets.
+    const store = {
+      get(key) {
+        try { return window.localStorage.getItem(key); } catch { return null; }
+      },
+      set(key, value) {
+        try { window.localStorage.setItem(key, value); } catch { /* not persisted */ }
+      },
+    };
+
+    const MODE_KEY = root.getAttribute("data-mode-key");
+    const RATE_KEY = root.getAttribute("data-rate-key");
+    const notice = root.querySelector("[data-media-notice]");
+    const videoPanel = root.querySelector("[data-video-panel]");
+    const audioPanel = root.querySelector("[data-audio-panel]");
+    const preferred = store.get(MODE_KEY) === "audio" ? "audio" : "video";
+
+    function say(kind) {
+      if (!notice) return;
+      notice.replaceChildren();
+      const template = root.querySelector("[data-media-notice-template]");
+      if (!kind || !template) return;
+      const line = template.content.cloneNode(true);
+      line.querySelector("[data-media-notice-text]").textContent = notice.getAttribute(`data-${kind}`);
+      notice.append(line);
+    }
+
+    if (!audioPanel) {
+      // No audio for this episode. Only a reader who asked for audio needs
+      // to be told why they are looking at a video.
+      if (preferred === "audio") say("unavailable");
+      root.setAttribute("data-media-initialized", "true");
+      return;
+    }
+
+    const audio = audioPanel.querySelector("audio");
+    const toggle = root.querySelector("[data-media-toggle]");
+    const modeButtons = toggle.querySelectorAll("[data-mode]");
+    const playButton = audioPanel.querySelector("[data-audio-play]");
+    const seek = audioPanel.querySelector("[data-audio-seek]");
+    const current = audioPanel.querySelector("[data-audio-current]");
+    const rateButtons = audioPanel.querySelectorAll("[data-audio-rate]");
+    const icons = {
+      play: playButton.querySelector('[data-icon="play"]'),
+      pause: playButton.querySelector('[data-icon="pause"]'),
+      loading: playButton.querySelector('[data-icon="loading"]'),
+    };
+
+    let duration = Number(seek.max) || 0;
+    let scrubbing = false;
+    let tracked = false;
+
+    function clock(seconds) {
+      const total = Number.isFinite(seconds) && seconds > 0 ? Math.floor(seconds) : 0;
+      const h = Math.floor(total / 3600);
+      const m = Math.floor((total % 3600) / 60);
+      const s = String(total % 60).padStart(2, "0");
+      return h > 0 ? `${h}:${String(m).padStart(2, "0")}:${s}` : `${m}:${s}`;
+    }
+
+    function renderTime(seconds) {
+      seek.value = String(seconds);
+      current.textContent = clock(seconds);
+      seek.setAttribute("aria-valuetext", `${clock(seconds)} dari ${clock(duration)}`);
+      const pct = duration > 0 ? Math.min(100, (seconds / duration) * 100) : 0;
+      seek.style.setProperty("--progress", `${pct}%`);
+    }
+
+    function renderPlayState(state) {
+      icons.play.classList.toggle("hidden", state !== "paused");
+      icons.pause.classList.toggle("hidden", state !== "playing");
+      icons.loading.classList.toggle("hidden", state !== "loading");
+      playButton.setAttribute("aria-label", state === "paused" ? "Putar audio" : "Jeda audio");
+      audioPanel.setAttribute("aria-busy", String(state === "loading"));
+    }
+
+    const hasSource = () => audio.hasAttribute("src");
+
+    // The first play is the first fetch.
+    function ensureSource() {
+      if (hasSource()) return;
+      const start = Number(seek.value) || 0;
+      audio.src = audio.getAttribute("data-src");
+      if (start > 0) {
+        audio.addEventListener("loadedmetadata", () => { audio.currentTime = start; }, { once: true });
+      }
+    }
+
+    function play() {
+      ensureSource();
+      const attempt = audio.play();
+      // A load failure arrives as the element's "error" event; the rejected
+      // promise only duplicates it.
+      if (attempt) attempt.catch(() => {});
+    }
+
+    function seekTo(seconds) {
+      const target = Math.max(0, Math.min(duration || Infinity, seconds));
+      if (hasSource() && audio.readyState > 0) audio.currentTime = target;
+      else if (hasSource()) audio.addEventListener("loadedmetadata", () => { audio.currentTime = target; }, { once: true });
+      renderTime(target);
+    }
+
+    // A hidden iframe keeps playing, so leaving video removes the frame and
+    // puts the embed back to its poster.
+    function stopVideo() {
+      const embed = videoPanel.querySelector("lite-youtube");
+      if (!embed) return;
+      embed.querySelectorAll("iframe").forEach((frame) => frame.remove());
+      embed.classList.remove("lyt-activated");
+    }
+
+    function setMode(mode, persist) {
+      const audioMode = mode === "audio";
+      if (audioMode) {
+        stopVideo();
+      } else {
+        audio.pause();
+        // Picking the video back up where the audio left off.
+        const at = Math.floor(Number(seek.value) || 0);
+        const embed = videoPanel.querySelector("lite-youtube");
+        if (embed && at > 0 && !embed.classList.contains("lyt-activated")) {
+          embed.setAttribute("params", `enablejsapi=1&start=${at}`);
+        }
+      }
+      videoPanel.hidden = audioMode;
+      audioPanel.hidden = !audioMode;
+      root.setAttribute("data-media-mode", mode);
+      modeButtons.forEach((button) => {
+        button.setAttribute("aria-pressed", String(button.getAttribute("data-mode") === mode));
+      });
+      if (persist) store.set(MODE_KEY, mode);
+    }
+
+    function setRate(rate, persist) {
+      // Loading a source resets playbackRate to defaultPlaybackRate, so both.
+      audio.defaultPlaybackRate = rate;
+      audio.playbackRate = rate;
+      rateButtons.forEach((button) => {
+        button.setAttribute("aria-pressed", String(Number(button.getAttribute("data-audio-rate")) === rate));
+      });
+      if (persist) store.set(RATE_KEY, String(rate));
+    }
+
+    modeButtons.forEach((button) => {
+      button.addEventListener("click", () => {
+        say(null);
+        setMode(button.getAttribute("data-mode"), true);
+      });
+    });
+
+    rateButtons.forEach((button) => {
+      button.addEventListener("click", () => setRate(Number(button.getAttribute("data-audio-rate")), true));
+    });
+
+    playButton.addEventListener("click", () => {
+      if (audio.paused) play();
+      else audio.pause();
+    });
+
+    audioPanel.querySelectorAll("[data-audio-skip]").forEach((button) => {
+      button.addEventListener("click", () => {
+        const base = hasSource() && audio.readyState > 0 ? audio.currentTime : Number(seek.value) || 0;
+        seekTo(base + Number(button.getAttribute("data-audio-skip")));
+      });
+    });
+
+    seek.addEventListener("input", () => {
+      scrubbing = true;
+      renderTime(Number(seek.value));
+    });
+    seek.addEventListener("change", () => {
+      scrubbing = false;
+      seekTo(Number(seek.value));
+    });
+
+    audio.addEventListener("timeupdate", () => {
+      if (!scrubbing) renderTime(audio.currentTime);
+    });
+    audio.addEventListener("durationchange", () => {
+      if (Number.isFinite(audio.duration) && audio.duration > 0) {
+        duration = audio.duration;
+        seek.max = String(Math.floor(duration));
+      }
+    });
+    audio.addEventListener("play", () => {
+      renderPlayState(audio.readyState >= 3 ? "playing" : "loading");
+      if (!tracked) {
+        tracked = true;
+        window.__ngobrolinAnalytics?.track?.("audio_play", {
+          videoId: root.getAttribute("data-video-id"),
+        });
+      }
+      setMediaSession();
+    });
+    audio.addEventListener("playing", () => renderPlayState("playing"));
+    audio.addEventListener("waiting", () => { if (!audio.paused) renderPlayState("loading"); });
+    audio.addEventListener("pause", () => renderPlayState("paused"));
+    audio.addEventListener("ended", () => renderPlayState("paused"));
+
+    // A failed load hands the reader back to the video without touching the
+    // stored preference, so one bad connection does not switch them off audio.
+    audio.addEventListener("error", () => {
+      audio.removeAttribute("src");
+      audio.load();
+      renderPlayState("paused");
+      if (root.getAttribute("data-media-mode") === "audio") {
+        setMode("video", false);
+        say("failed");
+      }
+    });
+
+    // Transcript timecodes broadcast one window event; YouTubeEmbed ignores it
+    // while hidden, and this routes it to whichever player is on the page now.
+    audioPanel.addEventListener("ngobrolin:seek-audio", (event) => {
+      const seconds = event.detail && event.detail.seconds;
+      if (typeof seconds !== "number" || Number.isNaN(seconds)) return;
+      seekTo(seconds);
+      play();
+      const rect = audioPanel.getBoundingClientRect();
+      if (rect.top < 60 || rect.bottom > window.innerHeight) {
+        audioPanel.scrollIntoView({ behavior: "smooth", block: "start" });
+      }
+    });
+    if (!window.__ngobrolinAudioSeekAttached) {
+      window.__ngobrolinAudioSeekAttached = true;
+      window.addEventListener("ngobrolin:seek-video", (event) => {
+        const panel = document.querySelector("[data-audio-panel]");
+        if (!panel || panel.hidden) return;
+        panel.dispatchEvent(new CustomEvent("ngobrolin:seek-audio", { detail: event.detail }));
+      });
+    }
+
+    document.addEventListener("astro:before-swap", () => audio.pause(), { once: true });
+
+    function setMediaSession() {
+      if (!("mediaSession" in navigator) || typeof MediaMetadata === "undefined") return;
+      try {
+        navigator.mediaSession.metadata = new MediaMetadata({
+          title: root.getAttribute("data-title") || document.title,
+          artist: "Ngobrolin WEB",
+          artwork: [{ src: root.getAttribute("data-thumbnail"), sizes: "640x360", type: "image/webp" }],
+        });
+        navigator.mediaSession.setActionHandler("seekbackward", () => seekTo(audio.currentTime - 15));
+        navigator.mediaSession.setActionHandler("seekforward", () => seekTo(audio.currentTime + 30));
+      } catch {
+        /* optional nicety */
+      }
+    }
+
+    const storedRate = Number(store.get(RATE_KEY));
+    const rates = Array.from(rateButtons, (button) => Number(button.getAttribute("data-audio-rate")));
+    setRate(rates.includes(storedRate) ? storedRate : 1, false);
+    setMode(preferred, false);
+    renderTime(0);
+    toggle.hidden = false;
+
+    // Set last: a guard set before the work above would turn one transient
+    // failure into a permanently dead player.
+    root.setAttribute("data-media-initialized", "true");
+  })();
+</script>
+
+<style>
+    .audio-seek {
+        --progress: 0%;
+        appearance: none;
+        height: 1.5rem;
+        background: transparent;
+        cursor: pointer;
+    }
+
+    .audio-seek::-webkit-slider-runnable-track {
+        height: 6px;
+        border-radius: 9999px;
+        background: linear-gradient(
+            to right,
+            var(--color-accent) var(--progress),
+            var(--color-surface-border) var(--progress)
+        );
+    }
+
+    .audio-seek::-webkit-slider-thumb {
+        appearance: none;
+        width: 16px;
+        height: 16px;
+        margin-top: -5px;
+        border: 0;
+        border-radius: 9999px;
+        background: var(--color-ink);
+    }
+
+    .audio-seek::-moz-range-track {
+        height: 6px;
+        border-radius: 9999px;
+        background: var(--color-surface-border);
+    }
+
+    .audio-seek::-moz-range-progress {
+        height: 6px;
+        border-radius: 9999px;
+        background: var(--color-accent);
+    }
+
+    .audio-seek::-moz-range-thumb {
+        width: 16px;
+        height: 16px;
+        border: 0;
+        border-radius: 9999px;
+        background: var(--color-ink);
+    }
+</style>
