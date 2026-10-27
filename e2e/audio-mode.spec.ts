@@ -119,7 +119,6 @@ async function audioState(page: Page) {
 test.describe('Audio-only mode', () => {
   test.beforeAll(() => {
     expect(withAudio, 'an episode with audio and a transcript').toBeTruthy();
-    expect(withoutAudio, 'an episode without audio').toBeTruthy();
   });
 
   test.beforeEach(async ({ page }) => {
@@ -212,16 +211,37 @@ test.describe('Audio-only mode', () => {
     await expect(page.getByTestId('audio-player')).toBeHidden();
   });
 
-  test('switching to video pauses the audio', async ({ page }) => {
+  test('switching to video pauses the audio and hands back the media controls', async ({ page }) => {
     await stubAudio(page);
     await page.goto(pathOf(withAudio!));
     await modeToggle(page).getByRole('button', { name: 'Audio saja' }).click();
     await page.getByRole('button', { name: 'Putar audio' }).click();
     await expect.poll(async () => (await audioState(page)).paused).toBe(false);
+    const sessionTitle = () => page.evaluate(() => navigator.mediaSession?.metadata?.title ?? null);
+    await expect.poll(sessionTitle).not.toBeNull();
 
     await modeToggle(page).getByRole('button', { name: 'Video' }).click();
     await expect.poll(async () => (await audioState(page)).paused).toBe(true);
     await expect(page.locator('lite-youtube')).toBeVisible();
+    // Lock-screen controls must not keep driving a player that is hidden.
+    expect(await sessionTitle()).toBeNull();
+  });
+
+  test('the video picks up where the audio was, and from zero after a seek back', async ({ page }) => {
+    await page.goto(pathOf(withAudio!));
+    const toggle = modeToggle(page);
+    const slider = page.getByRole('slider', { name: 'Posisi audio' });
+    const params = () => page.locator('lite-youtube').getAttribute('params');
+
+    await toggle.getByRole('button', { name: 'Audio saja' }).click();
+    await slider.fill('60');
+    await toggle.getByRole('button', { name: 'Video' }).click();
+    expect(await params()).toBe('enablejsapi=1&start=60');
+
+    await toggle.getByRole('button', { name: 'Audio saja' }).click();
+    await slider.fill('0');
+    await toggle.getByRole('button', { name: 'Video' }).click();
+    expect(await params()).toBe('enablejsapi=1');
   });
 
   test('switching to audio stops a video that was already playing', async ({ page }) => {
@@ -275,6 +295,10 @@ test.describe('Audio-only mode', () => {
   });
 
   test('an episode without audio shows the video and says why', async ({ page }) => {
+    // The archive is being backfilled. Once every episode has audio this
+    // state no longer exists in the build, which is the goal rather than a
+    // failure; getEpisodeAudio's unit tests still cover the rule itself.
+    test.skip(!withoutAudio, 'every episode has audio');
     await page.goto(pathOf(withoutAudio!));
     await page.evaluate((k) => localStorage.setItem(k, 'audio'), MODE_KEY);
     await page.reload();

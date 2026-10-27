@@ -372,12 +372,14 @@ const total = audio ? formatClock(audio.duration) : "";
         stopVideo();
       } else {
         audio.pause();
-        // Picking the video back up where the audio left off.
+        // Picking the video back up where the audio left off, including
+        // from the top again: a stale start would outlive a seek to zero.
         const at = Math.floor(Number(seek.value) || 0);
         const embed = videoPanel.querySelector("lite-youtube");
-        if (embed && at > 0 && !embed.classList.contains("lyt-activated")) {
-          embed.setAttribute("params", `enablejsapi=1&start=${at}`);
+        if (embed && !embed.classList.contains("lyt-activated")) {
+          embed.setAttribute("params", at > 0 ? `enablejsapi=1&start=${at}` : "enablejsapi=1");
         }
+        releaseMediaSession();
       }
       videoPanel.hidden = audioMode;
       audioPanel.hidden = !audioMode;
@@ -487,8 +489,18 @@ const total = audio ? formatClock(audio.duration) : "";
       });
     }
 
-    document.addEventListener("astro:before-swap", () => audio.pause(), { once: true });
+    document.addEventListener(
+      "astro:before-swap",
+      () => {
+        audio.pause();
+        releaseMediaSession();
+      },
+      { once: true },
+    );
 
+    // Lock-screen and headset controls for background listening. The handlers
+    // close over this page's <audio>, so they are dropped whenever audio gives
+    // up control, and set again on the next play.
     function setMediaSession() {
       if (!("mediaSession" in navigator) || typeof MediaMetadata === "undefined") return;
       try {
@@ -499,6 +511,17 @@ const total = audio ? formatClock(audio.duration) : "";
         });
         navigator.mediaSession.setActionHandler("seekbackward", () => seekTo(audio.currentTime - 15));
         navigator.mediaSession.setActionHandler("seekforward", () => seekTo(audio.currentTime + 30));
+      } catch {
+        /* optional nicety */
+      }
+    }
+
+    function releaseMediaSession() {
+      if (!("mediaSession" in navigator)) return;
+      try {
+        navigator.mediaSession.metadata = null;
+        navigator.mediaSession.setActionHandler("seekbackward", null);
+        navigator.mediaSession.setActionHandler("seekforward", null);
       } catch {
         /* optional nicety */
       }
