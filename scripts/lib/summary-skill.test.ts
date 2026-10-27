@@ -216,8 +216,19 @@ describe("scripts/check-summary.ts", () => {
   });
 
   it("lists missing summaries without writing anything", () => {
+    // Which episodes it lists is covered against fixtures in
+    // summary-coverage.test.ts; this proves the CLI wiring runs read-only.
+    const dataState = () =>
+      execFileSync("git", ["status", "--porcelain", "--", "src/data"], {
+        cwd: repoRoot,
+        encoding: "utf-8",
+      });
+    const before = dataState();
     const result = run(["--missing"]);
     expect(result.status).toBe(0);
-    expect(result.output.length).toBeGreaterThan(0);
+    expect(result.output).toMatch(
+      /Transcribed but not summarised|Every transcribed episode has a summary/,
+    );
+    expect(dataState()).toBe(before);
   });
 });

@@ -25,18 +25,14 @@ import { existsSync, readdirSync, readFileSync } from 'fs';
 import * as path from 'path';
 import { fileURLToPath } from 'url';
 import { findSummaryProblems } from './lib/summary-contract';
+import { type EpisodeRef, findUnsummarisedEpisodes } from './lib/summary-coverage';
 
 const repoRoot = path.join(path.dirname(fileURLToPath(import.meta.url)), '..');
 const dataDir = path.join(repoRoot, 'src/data');
 const transcriptsDir = path.join(dataDir, 'transcripts');
 const summariesDir = path.join(dataDir, 'summaries');
 
-interface EpisodeRecord {
-  videoId: string;
-  title: string;
-}
-
-function loadEpisodes(): EpisodeRecord[] {
+function loadEpisodes(): EpisodeRef[] {
   return JSON.parse(readFileSync(path.join(dataDir, 'episodes.json'), 'utf-8'));
 }
 
@@ -50,15 +46,10 @@ function idsIn(dir: string): Set<string> {
 }
 
 function listMissing(): void {
-  const transcripts = idsIn(transcriptsDir);
-  const summaries = idsIn(summariesDir);
-  const episodes = loadEpisodes();
-
-  const ready = episodes.filter(
-    (ep) => transcripts.has(ep.videoId) && !summaries.has(ep.videoId),
-  );
-  const untranscribed = episodes.filter(
-    (ep) => !transcripts.has(ep.videoId) && !summaries.has(ep.videoId),
+  const { ready, untranscribed } = findUnsummarisedEpisodes(
+    loadEpisodes(),
+    idsIn(transcriptsDir),
+    idsIn(summariesDir),
   );
 
   if (ready.length === 0) {
