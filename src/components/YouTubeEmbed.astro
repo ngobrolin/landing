@@ -63,6 +63,9 @@ const bgStyle = backgroundImage
 
       const embed = document.querySelector("lite-youtube");
       if (!embed || !(embed instanceof HTMLElement)) return;
+      // In audio-only mode the embed is hidden and the audio player takes the
+      // seek instead (see EpisodeMedia.astro).
+      if (embed.closest("[hidden]")) return;
 
       // Scroll smoothly to video if out of viewport
       const rect = embed.getBoundingClientRect();
