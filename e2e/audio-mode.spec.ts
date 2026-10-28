@@ -420,4 +420,93 @@ test.describe('Audio-only mode', () => {
     expect(box!.width).toBeGreaterThanOrEqual(44);
     expect(box!.height).toBeGreaterThanOrEqual(44);
   });
+
+  /**
+   * Real boxes for the controls row. The transport is measured from the left
+   * edge of back-15 to the right edge of forward-30, and the speed row as the
+   * "Kecepatan" label plus the rate group, which stay on one line.
+   */
+  async function controlsLayout(page: Page) {
+    const player = page.getByTestId('audio-player');
+    const box = async (locator: ReturnType<Page['locator']>) => (await locator.boundingBox())!;
+    const back = await box(player.getByRole('button', { name: 'Mundur 15 detik' }));
+    const play = await box(player.getByRole('button', { name: 'Putar audio' }));
+    const forward = await box(player.getByRole('button', { name: 'Maju 30 detik' }));
+    const label = await box(player.getByText('Kecepatan', { exact: true }));
+    const rates = await box(player.getByRole('group', { name: 'Kecepatan putar' }));
+    const rateButtons = await player
+      .getByRole('group', { name: 'Kecepatan putar' })
+      .getByRole('button')
+      .evaluateAll((els) => els.map((el) => el.getBoundingClientRect().toJSON() as DOMRect));
+    const content = await player.evaluate((el) => {
+      const rect = el.getBoundingClientRect();
+      const style = getComputedStyle(el);
+      const left = rect.left + el.clientLeft + parseFloat(style.paddingLeft);
+      const right = rect.left + el.clientLeft + el.clientWidth - parseFloat(style.paddingRight);
+      return { left, right, centre: rect.left + rect.width / 2 };
+    });
+    const overflow = await page.evaluate(
+      () => document.documentElement.scrollWidth - document.documentElement.clientWidth
+    );
+    const span = (a: { x: number; y: number; width: number; height: number }[]) => {
+      const left = Math.min(...a.map((b) => b.x));
+      const right = Math.max(...a.map((b) => b.x + b.width));
+      const top = Math.min(...a.map((b) => b.y));
+      const bottom = Math.max(...a.map((b) => b.y + b.height));
+      return { left, right, top, bottom, centreX: (left + right) / 2, centreY: (top + bottom) / 2 };
+    };
+    return {
+      back,
+      play,
+      forward,
+      rateButtons,
+      content,
+      overflow,
+      transport: span([back, play, forward]),
+      speed: span([label, rates]),
+    };
+  }
+
+  async function openAudioAt(page: Page, width: number, height: number) {
+    await stubAudio(page);
+    await page.setViewportSize({ width, height });
+    await page.goto(pathOf(withAudio!));
+    await modeToggle(page).getByRole('button', { name: 'Audio saja' }).click();
+    await expect(page.getByTestId('audio-player')).toBeVisible();
+  }
+
+  for (const width of [360, 390, 430]) {
+    test(`centres the transport and speed rows at ${width}px`, async ({ page }) => {
+      await openAudioAt(page, width, 844);
+      const l = await controlsLayout(page);
+      const centre = l.content.centre;
+
+      expect(Math.abs(l.transport.centreX - centre), 'transport group centred on the card').toBeLessThanOrEqual(1);
+      expect(Math.abs(l.play.x + l.play.width / 2 - centre), 'play button centred on the card').toBeLessThanOrEqual(1);
+      const gapBefore = l.play.x - (l.back.x + l.back.width);
+      const gapAfter = l.forward.x - (l.play.x + l.play.width);
+      expect(Math.abs(gapBefore - gapAfter), 'back→play gap equals play→forward gap').toBeLessThanOrEqual(1);
+
+      expect(Math.abs(l.speed.centreX - centre), 'speed row centred on the card').toBeLessThanOrEqual(1);
+      expect(l.speed.top, 'speed row sits below the transport').toBeGreaterThanOrEqual(l.transport.bottom);
+
+      for (const b of [l.back, l.play, l.forward, ...l.rateButtons]) {
+        expect(b.width).toBeGreaterThanOrEqual(44);
+        expect(b.height).toBeGreaterThanOrEqual(44);
+      }
+      expect(l.overflow).toBeLessThanOrEqual(0);
+    });
+  }
+
+  for (const width of [640, 1280]) {
+    test(`keeps transport left and speed right on one row at ${width}px`, async ({ page }) => {
+      await openAudioAt(page, width, 900);
+      const l = await controlsLayout(page);
+
+      expect(Math.abs(l.transport.centreY - l.speed.centreY), 'one row').toBeLessThanOrEqual(2);
+      expect(Math.abs(l.transport.left - l.content.left), 'transport at the left content edge').toBeLessThanOrEqual(1);
+      expect(Math.abs(l.speed.right - l.content.right), 'speed at the right content edge').toBeLessThanOrEqual(1);
+      expect(l.overflow).toBeLessThanOrEqual(0);
+    });
+  }
 });
