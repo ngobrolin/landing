@@ -388,22 +388,46 @@ test.describe('Audio-only mode', () => {
     expect((await audioState(page)).src).toBe(newer.audioUrl);
   });
 
-  test('the card thumbnail keeps one visible morph target in either mode', async ({ page }) => {
-    await page.goto(pathOf(withAudio!));
-    const scoped = page.locator('[data-episode-media] [data-astro-transition-scope]');
-    const visibleNames = () =>
-      scoped.evaluateAll((els) =>
-        els
-          .filter((el) => (el as HTMLElement).offsetParent !== null)
-          .map((el) => getComputedStyle(el).viewTransitionName)
-      );
+  // Astro encodes transition:name into a CSS ident (every `_` becomes `__`), so
+  // the morph target is whatever the listing card renders, never the raw slug.
+  const morphCases = [
+    ['a plain video id', EPISODES.find((ep) => hasAudio(ep) && !resolveSlug(ep).includes('_'))],
+    ['a leading-underscore video id', EPISODES.find((ep) => hasAudio(ep) && resolveSlug(ep).startsWith('_'))],
+  ] as const;
 
-    const expected = `episode-thumbnail-${resolveSlug(withAudio!)}`;
-    expect(await visibleNames()).toEqual([expected]);
-    await modeToggle(page).getByRole('button', { name: 'Audio saja' }).click();
-    // Two elements carrying one name is only valid while one is not rendered.
-    expect(await visibleNames()).toEqual([expected]);
-  });
+  for (const [label, episode] of morphCases) {
+    test(`the card thumbnail keeps one visible morph target in either mode (${label})`, async ({ page }) => {
+      expect(episode, `an audio episode with ${label}`).toBeDefined();
+      const slug = resolveSlug(episode!);
+
+      await page.goto('/episodes');
+      const cardScope = page.locator(
+        `[data-episode-slug="${slug}"] [data-astro-transition-scope]`
+      );
+      await expect(cardScope).toHaveCount(1);
+      const cardName = await cardScope.evaluate((el) => getComputedStyle(el).viewTransitionName);
+      expect(cardName).toMatch(/^episode-thumbnail-/);
+
+      await page.goto(pathOf(episode!));
+      const scoped = page.locator('[data-episode-media] [data-astro-transition-scope]');
+      const visibleNames = () =>
+        scoped.evaluateAll((els) =>
+          els
+            .filter((el) => (el as HTMLElement).offsetParent !== null)
+            .map((el) => getComputedStyle(el).viewTransitionName)
+        );
+
+      // Two elements carrying one name is only valid while one is not rendered.
+      await expect(page.getByTestId('video-player')).toBeVisible();
+      expect(await visibleNames()).toEqual([cardName]);
+      await modeToggle(page).getByRole('button', { name: 'Audio saja' }).click();
+      await expect(page.getByTestId('audio-player')).toBeVisible();
+      expect(await visibleNames()).toEqual([cardName]);
+      await modeToggle(page).getByRole('button', { name: 'Video' }).click();
+      await expect(page.getByTestId('video-player')).toBeVisible();
+      expect(await visibleNames()).toEqual([cardName]);
+    });
+  }
 
   test('fits a small screen', async ({ page }) => {
     await stubAudio(page);
