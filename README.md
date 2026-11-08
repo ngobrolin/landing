@@ -26,6 +26,12 @@ pnpm run preview
 
 ## Weekly ops
 
+For a status report of the whole pipeline, ask a skill-aware agent to run the `episode-pipeline`
+skill at `.agents/skills/episode-pipeline/SKILL.md` (symlinked into `.claude/skills/`). It is
+read-only by default and prepares new transcripts and summaries only when asked. It never fetches,
+uploads, merges or deploys. A read-only per-video inventory on its own:
+`pnpm exec tsx scripts/pipeline-status.ts`.
+
 Priority order for podcast distribution and content enrichment:
 
 ### High priority (podcast distribution)
