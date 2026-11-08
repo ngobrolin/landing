@@ -1,4 +1,9 @@
 {
+  "-DdLCXFsrRY": [
+    "ai",
+    "deployment",
+    "learning"
+  ],
   "-ThmdHbkH-c": [
     "deployment",
     "learning"
@@ -133,6 +138,10 @@
     "learning"
   ],
   "5P6heS1ZtPw": [],
+  "6PTamSfxRM4": [
+    "ai",
+    "dev-tools"
+  ],
   "7JewigkI4Do": [
     "accessibility",
     "api",
@@ -314,6 +323,18 @@
   "H-NPmffVrcw": [
     "api",
     "security"
+  ],
+  "HeA7bGiTMMA": [
+    "accessibility",
+    "ai",
+    "ai-coding",
+    "deployment",
+    "design",
+    "dev-tools",
+    "learning",
+    "security",
+    "seo",
+    "ui"
   ],
   "IA3ECrPgbZU": [
     "api"
@@ -727,6 +748,14 @@
     "database",
     "security",
     "ux"
+  ],
+  "_VoS7mnsUdQ": [
+    "ai",
+    "ai-coding",
+    "community",
+    "javascript",
+    "learning",
+    "security"
   ],
   "aPv5UxXSPfM": [
     "api",
