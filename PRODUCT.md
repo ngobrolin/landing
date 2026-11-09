@@ -40,7 +40,7 @@ Publishing is a pipeline, not hand-authoring:
 
 - One YouTube playlist (`PLTY2nW4jwtG8Sx2Bw6QShC271PzX31CtT`) is the source of truth for every episode. `scripts/fetch-playlist.ts` pulls it into `src/data/episodes.json`.
 - Transcripts live in `src/data/transcripts/<videoId>.json` — one per episode, no gaps.
-- Summaries live in `src/data/summaries/<videoId>.json`. Coverage is maintained as new episodes are summarised; a summary-less episode is a temporary normal state during weekly sync, not a defect. `SUMMARIZE.md` owns the contract.
+- Summaries live in `src/data/summaries/<videoId>.json`. Coverage is maintained as new episodes are summarised; a summary-less episode is a temporary normal state during weekly sync, not a defect. The `summarizing-episodes` skill (`.agents/skills/summarizing-episodes/SKILL.md`) owns the contract.
 - `src/data/tags.json` is derived from summaries by `scripts/extract-tags.ts`, replacing rather than merging.
 - Partner metrics in `src/data/partners.json`, `src/data/media-kit.json`, and `src/data/channel-subscribers.json` are maintained via automated sync and dated snapshots.
 - Statically built with Astro (v5) and Tailwind CSS (v4), deployed to static hosting.

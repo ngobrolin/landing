@@ -4,15 +4,20 @@ The episode detail page displays a single podcast episode with embedded video pl
 
 ## Sub-features
 
-- **Episode metadata header** with breadcrumb navigation, episode number badge, title, date, duration
+- **Episode metadata header** with breadcrumb navigation, episode number badge, date (no duration in header)
 - **Video embed** using `lite-youtube-embed` for performant YouTube player loading
+- **Episode title** (display title with show name stripped where it's a trailing credit)
+- **Topics/tags** chips linking to tag pages (from `tags.json`, not a summary field)
 - **Episode summary** ("Ringkasan Episode") with key points, when available
-- **Full transcript** with timestamps, search functionality, and seek-to-time buttons
+- **Full transcript** with timestamps, search functionality, and seek-to-time buttons (when transcript exists)
 - **Transcript search** filters segments in real-time as user types
-- **Subscribe CTA** block linking to podcast platforms and RSS
+- **Collapsed YouTube description** ("Deskripsi asli dari YouTube")
+- **Related episodes** suggestions showing up to 3 episodes (by tag/text similarity, or 3 most recent as fallback)
 - **Share buttons** for social media and link copying
-- **Topics/tags** when summary includes tags
-- **Related episodes** suggestions showing up to 3 episodes (by similarity or recency fallback)
+- **Subscribe CTA** ("Pilih Cara Langganan") linking to `/subscribe` page
+- **Community links** to GitHub Discussions and `/partners`
+- **Comments** section (Utterances)
+- **Previous/next episode navigation** (when available)
 
 ## How to get to it
 
@@ -22,8 +27,8 @@ The episode detail page displays a single podcast episode with embedded video pl
 4. Direct URL: `/episodes/{slug}` where slug is the **stored** value from `episodes.json`
 
 Examples (using stored slugs):
-- `/episodes/htmx-the-new-meta-framework`
-- `/episodes/livestream-2-astro-view-transitions`
+- `/episodes/_VoS7mnsUdQ-bedah-buku-panduan-coding-ngobrolin-web`
+- `/episodes/JJqLKn25DJI-pengaruh-kecerdasan-buatan-terhadap-kecerdasan-manusia-ngobrolin-web`
 
 **Note:** To verify an episode, get its slug from the episode card's `href` attribute or `data-episode-slug` attribute, never reconstruct from the title.
 
@@ -38,6 +43,8 @@ The episode page is covered by `e2e/episode.spec.ts`. Key interactions:
    await firstEpisode.click();
    await expect(page).toHaveURL(/\/episodes\/.+/);
    ```
+   
+   **Note:** For transcript-specific tests, the e2e suite uses a file-local helper `episodePathWithTranscript()` (defined in `e2e/episode.spec.ts`, not exported) to ensure you land on an episode that has a transcript file, rather than relying on homepage ordering.
 
 2. **Verify episode title and metadata:**
    ```typescript
@@ -59,8 +66,9 @@ The episode page is covered by `e2e/episode.spec.ts`. Key interactions:
    await expect(badge).toHaveText(/^EP \d+$/);
    ```
 
-5. **Test transcript search:**
+5. **Test transcript search** (navigate to an episode with a transcript first):
    ```typescript
+   // Use episodePathWithTranscript() helper or direct slug with known transcript
    const transcript = page.getByTestId('transcript');
    await expect(transcript).toBeVisible();
    
@@ -90,10 +98,10 @@ The episode page is covered by `e2e/episode.spec.ts`. Key interactions:
 ## Gotchas
 
 - **Slugs are stored, never derived:** Episode slugs in URLs come from the `slug` field in `episodes.json` (stored data). **Never reconstruct slugs from titles** when verifying — get them from episode card `href` attributes, `data-episode-slug` attributes, or directly from `episodes.json`. Title-based derivation is a legacy fallback in the code but must not be used for verification.
-- **Transcript search is client-side:** Filtering happens in the browser without page reload. The search input filters the displayed segments array.
+- **Transcript search is client-side:** Filtering happens in the browser without page reload. The search input toggles `.hidden` on transcript segment DOM nodes.
 - **Transcript timestamps clickable:** Each timestamp has a seek button that sends a message to the YouTube iframe API to seek to that time.
 - **Some episodes lack transcripts:** If `src/data/transcripts/{videoId}.json` doesn't exist, the transcript section won't render.
 - **Some episodes lack summaries:** If `src/data/summaries/{videoId}.json` doesn't exist, the summary section won't render.
 - **Related episodes are conditional:** The related episodes section (`[data-testid="related-episodes"]`) appears when `getRelatedEpisodes()` returns a nonempty result (up to 3 episodes). The algorithm ranks by tag similarity (weighted by IDF), then text similarity (title + brief), then publish date. **If all similarity scores are zero, it falls back to the 3 most recent episodes** — so the section renders even when no semantic similarity exists.
-- **Transcript source provenance:** Newer transcripts have a `source` field (`"youtube-auto"` or `"whisper"`). Older ones omit this field.
+- **Transcript source provenance:** Newer transcripts have a `source` field set to `"youtube-auto"` (generated from YouTube auto-captions). Older transcripts (generated before the field existed) omit this field entirely. The UI labels `"youtube-auto"` transcripts as automatic; unlabelled ones render without a badge.
 - **View transitions:** Scripts must survive client-side navigation. Episode page uses initialization guards and `data-astro-rerun`.

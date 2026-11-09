@@ -17,6 +17,11 @@ export interface Episode {
   episodeNumber: number;
   brief?: string;
   duration?: string;  // NEW: ISO 8601 format, e.g., "PT4M13S"
+  // Podcast enclosure, written by scripts/upload-s3.ts. All three or none;
+  // read them through getEpisodeAudio() in ./episode-audio.
+  audioUrl?: string;
+  audioDuration?: number;
+  audioFileSize?: number;
 }
 
 interface Summary {
