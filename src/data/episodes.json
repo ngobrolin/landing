@@ -7,7 +7,10 @@
     "thumbnail": "https://i.ytimg.com/vi/Nq3uKguMNCA/hqdefault.jpg",
     "position": 0,
     "duration": "PT1H54M42S",
-    "slug": "Nq3uKguMNCA-state-of-devs-ngobrolin-web"
+    "slug": "Nq3uKguMNCA-state-of-devs-ngobrolin-web",
+    "audioUrl": "https://ngobrolinweb-podcast.s3.ap-southeast-1.amazonaws.com/audio/Nq3uKguMNCA.mp3",
+    "audioDuration": 6881,
+    "audioFileSize": 110097179
   },
   {
     "videoId": "HeA7bGiTMMA",
@@ -17,7 +20,10 @@
     "thumbnail": "https://i.ytimg.com/vi/HeA7bGiTMMA/hqdefault.jpg",
     "position": 1,
     "duration": "PT1H34M6S",
-    "slug": "HeA7bGiTMMA-laracon-ngobrolin-web"
+    "slug": "HeA7bGiTMMA-laracon-ngobrolin-web",
+    "audioUrl": "https://ngobrolinweb-podcast.s3.ap-southeast-1.amazonaws.com/audio/HeA7bGiTMMA.mp3",
+    "audioDuration": 5645,
+    "audioFileSize": 90321858
   },
   {
     "videoId": "6PTamSfxRM4",
@@ -27,7 +33,10 @@
     "thumbnail": "https://i.ytimg.com/vi/6PTamSfxRM4/hqdefault.jpg",
     "position": 2,
     "duration": "PT1H13M1S",
-    "slug": "6PTamSfxRM4-ngobrolin-rails-world-conference-ngobrolin-web"
+    "slug": "6PTamSfxRM4-ngobrolin-rails-world-conference-ngobrolin-web",
+    "audioUrl": "https://ngobrolinweb-podcast.s3.ap-southeast-1.amazonaws.com/audio/6PTamSfxRM4.mp3",
+    "audioDuration": 4380,
+    "audioFileSize": 70082185
   },
   {
     "videoId": "-DdLCXFsrRY",
@@ -37,7 +46,10 @@
     "thumbnail": "https://i.ytimg.com/vi/-DdLCXFsrRY/hqdefault.jpg",
     "position": 3,
     "duration": "PT1H20M17S",
-    "slug": "-DdLCXFsrRY-diskusi-bebas-ngobrolin-web"
+    "slug": "-DdLCXFsrRY-diskusi-bebas-ngobrolin-web",
+    "audioUrl": "https://ngobrolinweb-podcast.s3.ap-southeast-1.amazonaws.com/audio/-DdLCXFsrRY.mp3",
+    "audioDuration": 4816,
+    "audioFileSize": 77060849
   },
   {
     "videoId": "_VoS7mnsUdQ",
