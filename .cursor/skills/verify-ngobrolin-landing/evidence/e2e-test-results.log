@@ -1,0 +1,844 @@
+
+> ngobrolin-web@0.0.1 test:e2e /workspace
+> pnpm run build && playwright test
+
+
+> ngobrolin-web@0.0.1 build /workspace
+> astro build
+
+02:36:11 [content] Syncing content
+02:36:11 [content] Synced content
+02:36:11 [types] Generated 18ms
+02:36:11 [build] output: "static"
+02:36:11 [build] mode: "static"
+02:36:11 [build] directory: /workspace/dist/
+02:36:11 [build] Collecting build info...
+02:36:11 [build] ✓ Completed in 40ms.
+02:36:11 [build] Building static entrypoints...
+02:36:26 [vite] ✓ built in 14.80s
+02:36:26 [build] ✓ Completed in 14.83s.
+
+ building client (vite) 
+02:36:26 [vite] transforming...
+02:36:26 [vite] ✓ 198 modules transformed.
+02:36:26 [vite] rendering chunks...
+02:36:27 [vite] computing gzip size...
+02:36:27 [vite] dist/_astro/ClientRouter.astro_astro_type_script_index_0_lang.CDGfc0hd.js    15.36 kB │ gzip:  5.28 kB
+02:36:27 [vite] dist/_astro/SearchEpisodes.astro_astro_type_script_index_0_lang.B-D5JxcX.js  30.45 kB │ gzip: 11.06 kB
+02:36:27 [vite] ✓ built in 326ms
+
+ generating static routes 
+02:36:27 ▶ src/pages/404.astro
+02:36:27   └─ /404.html (+10ms) 
+02:36:27 ▶ src/pages/about.astro
+02:36:27   └─ /about/index.html (+4ms) 
+02:36:27 λ src/pages/episodes/[slug].md.ts
+02:36:27   ├─ /episodes/_VoS7mnsUdQ-bedah-buku-panduan-coding-ngobrolin-web.md (+4ms) 
+02:36:27   ├─ /episodes/0RCXRNHhBfo-modern-web-ui-ngobrolin-web.md (+1ms) 
+02:36:27   ├─ /episodes/qei6_h3wwPY-model-context-protocol-ngobrolin-web.md (+2ms) 
+02:36:27   ├─ /episodes/-TwyNC_SSFY-local-development-server-ngobrolin-web.md (+1ms) 
+02:36:27   ├─ /episodes/YBFDo2jSSJA-state-of-css-ngobrolin-web.md (+2ms) 
+02:36:27   ├─ /episodes/JJqLKn25DJI-pengaruh-kecerdasan-buatan-terhadap-kecerdasan-manusia-ngobrolin-web.md (+2ms) 
+02:36:27   ├─ /episodes/80Cnky1uvyk-testing-dengan-playwright-ngobrolin-web.md (+2ms) 
+02:36:27   ├─ /episodes/JUu7WUGt1eU-optimasi-javascript-ngobrolin-web.md (+1ms) 
+02:36:27   ├─ /episodes/nJhk892C4_U-bedah-framework-anvia-ngobrolin-web.md (+2ms) 
+02:36:27   ├─ /episodes/a_MmIT8QLxI-pekerja-web-ngobrolin-web.md (+1ms) 
+02:36:27   ├─ /episodes/eexwOhPaMso-tailwind-ngobrolin-web.md (+1ms) 
+02:36:27   ├─ /episodes/oNrHsiogsQY-ngobrolin-state-of-ai-ngobrolin-web.md (+1ms) 
+02:36:27   ├─ /episodes/wHi7Q711vW8-liputan-langsung-google-io-ngobrolin-web.md (+1ms) 
+02:36:27   ├─ /episodes/hDtImY8hikU-google-io-2026-ngobrolin-web.md (+1ms) 
+02:36:27   ├─ /episodes/dD1AajkCSe0-alat-desain-ai-ngobrolin-web.md (+1ms) 
+02:36:27   ├─ /episodes/_BnH4kIsSwk-bedah-web-ngobrolin-web.md (+1ms) 
+02:36:27   ├─ /episodes/4vHgtGtsDFg-zona-waktu-ngobrolin-web.md (+1ms) 
+02:36:27   ├─ /episodes/Edez-dpX0Hw-vite-ngobrolin-web.md (+1ms) 
+02:36:27   ├─ /episodes/g6gKeLGYPQU-scam-dan-penipuan-ngobrolin-web.md (+1ms) 
+02:36:27   ├─ /episodes/YoeCPP6c2LI-bedah-situs-ngobrolin-web.md (+1ms) 
+02:36:27   ├─ /episodes/KJ96IaRARvQ-bedah-situs-ngobrolin-web.md (+1ms) 
+02:36:27   ├─ /episodes/qlL_42q4mUE-project-management-tools-ngobrolin-web.md (+1ms) 
+02:36:27   ├─ /episodes/UMNXxUqlZS0-ngobrolin-otorisasi.md (+1ms) 
+02:36:27   ├─ /episodes/00ZHWKLlp5g-stack-dan-tools-ngobrolin-web.md (+1ms) 
+02:36:27   ├─ /episodes/TdgJMT3NrRM-library-animasi-ngobrolin-web.md (+1ms) 
+02:36:27   ├─ /episodes/c5RSiDy2sRM-computational-thinking-ngobrolin-web.md (+1ms) 
+02:36:27   ├─ /episodes/Tkh8-LleLws-alat-pengkodean-agen-ngobrolin-web.md (+1ms) 
+02:36:27   ├─ /episodes/ZcYNuHirHOA-agentic-ai-ngobrolin-web.md (+1ms) 
+02:36:27   ├─ /episodes/Qh0ImRYTync-css-wrapped-ngobrolin-web.md (+1ms) 
+02:36:27   ├─ /episodes/lPTtyv8Hzgs-ngobrolin-gemini-3-ngobrolin-web.md (+1ms) 
+02:36:27   ├─ /episodes/puCZUlxrSpg-webai-ngobrolin-web.md (+1ms) 
+02:36:27   ├─ /episodes/yfgMjKu89u0-serba-serbi-pengujian-vitest-jest-dkk-ngobrolin-web.md (+1ms) 
+02:36:27   ├─ /episodes/aY57UgFCC48-kisah-kisah-menyeramkan-dgn-zainfathoni-ngobrolin-web.md (+1ms) 
+02:36:27   ├─ /episodes/x1jm57leZW0-ngobrolin-css-unit-ngobrolin-web.md (+1ms) 
+02:36:27   ├─ /episodes/uPiv9JbEOPA-desain-aplikasi-cli-ngobrolin-web.md (+1ms) 
+02:36:27   ├─ /episodes/_H9EkkzDGTs-file-upload-strategy-ngobrolin-web.md (+1ms) 
+02:36:27   ├─ /episodes/7WbdKRP1QY4-toolkit-modern-ngobrolin-web.md (+1ms) 
+02:36:27   ├─ /episodes/3C-psD7dx9w-ngobrolin-jwt-ngobrolin-web.md (+1ms) 
+02:36:27   ├─ /episodes/2Y7gmbdrnqc-ngobrolin-dokumentasi-ngobrolin-web.md (+1ms) 
+02:36:27   ├─ /episodes/Lg3hspyi4eg-fundamental-javascript-ngobrolin-web.md (+1ms) 
+02:36:27   ├─ /episodes/p4Gk1NTKYoo-io-connect-shanghai-ngobrolin-web.md (+1ms) 
+02:36:27   ├─ /episodes/cYH8NfEPPu0-stackoverflow-survey-2025-ngobrolin-web.md (+1ms) 
+02:36:27   ├─ /episodes/Viq69Sv_MrI-konsep-dependency-injection-ngobrolin-web.md (+1ms) 
+02:36:27   ├─ /episodes/ZwXgk5yeUD0-bedah-buku-problem-solving-101-ngobrolin-web.md (+1ms) 
+02:36:27   ├─ /episodes/hSUqstbgNgI-bedah-situs-meutianet-ngobrolin-web.md (+1ms) 
+02:36:27   ├─ /episodes/GGfh-olIzl0-ngobrolin-ecmascript-2025-ngobrolin-web.md (+1ms) 
+02:36:27   ├─ /episodes/RQ6KMuo9PPg-ngobrolin-storybook-ngobrolin-web.md (+1ms) 
+02:36:27   ├─ /episodes/f1g2zrOmzN0-web-interop-baseline-ngobrolin-web.md (+1ms) 
+02:36:27   ├─ /episodes/zX0gDaovb1w-ngobrolin-database-ngobrolin-web.md (+1ms) 
+02:36:27   ├─ /episodes/0sMCTZ77Fjk-bedah-situs-ngobrolin-web.md (+1ms) 
+02:36:27   ├─ /episodes/0o-PcX6pR2E-ngobrolin-astro-ngobrolin-web.md (+1ms) 
+02:36:27   ├─ /episodes/ZRQrg3dABLQ-ngobrolin-google-io-ngobrolin-web.md (+1ms) 
+02:36:27   ├─ /episodes/KzqALj3KpDo-ngobrolin-react-server-component.md (+1ms) 
+02:36:27   ├─ /episodes/v28qyGyoMw4-web-performance-update-ngobrolin-web.md (+1ms) 
+02:36:27   ├─ /episodes/8ke0CsKPjAU-ngobrolin-tanstack-ngobrolin-web.md (+1ms) 
+02:36:27   ├─ /episodes/99CaLw7Q7os-ngobrolin-seo-ngobrolin-web.md (+1ms) 
+02:36:27   ├─ /episodes/RZ0hw1FcdnA-ngobrolin-cors-browser-policy-ngobrolin-web.md (+1ms) 
+02:36:27   ├─ /episodes/dk8JSYuOmhc-bedah-situs-ngobrolin-web.md (+5ms) 
+02:36:27   ├─ /episodes/L4VUZPu-IMQ-ngobrolin-lebaran-ngobrolin-web.md (+1ms) 
+02:36:27   ├─ /episodes/utmuHV8-MAU-ngobrolin-design-pattern-ngobrolin-web.md (+1ms) 
+02:36:27   ├─ /episodes/wRF7vpvs95s-ngobrolin-kata-sandi-ngobrolin-web.md (+1ms) 
+02:36:27   ├─ /episodes/7TR-vxCBiZ4-ngobrolin-keamanan-bareng-mazipan-ngobrolin-web.md (+1ms) 
+02:36:27   ├─ /episodes/j-wZjh62Gaw-ngobrolin-monorepo-ngobrolin-web.md (+1ms) 
+02:36:27   ├─ /episodes/QdWmc9bMo48-ngobrolin-fitur-terbaru-css-bersama-adamargyleink-dan-bramus-chromedevs.md (+1ms) 
+02:36:27   ├─ /episodes/iLILgsmq9mg-ngobrolin-protokol-jaringan-ngobrolin-web.md (+1ms) 
+02:36:27   ├─ /episodes/ObTg-XT9C64-optimasi-performa-js-ngborlin-web.md (+1ms) 
+02:36:27   ├─ /episodes/KiBErl9F2a0-ngobrolin-video-player-ngobrolin-web.md (+1ms) 
+02:36:27   ├─ /episodes/2E52qAB9Pq4-ngobrolin-css-wrapped-2024-ngobrolin-web.md (+1ms) 
+02:36:27   ├─ /episodes/Ggx5EOiZIwA-ngobrolin-localfirst-ngobrolin-web.md (+1ms) 
+02:36:27   ├─ /episodes/QgnEdmGl814-ngobrolin-video-singkat-bareng-dannydwic-ngobrolin-web.md (+1ms) 
+02:36:27   ├─ /episodes/_6HCMH8SREU-ngborolin-2025-ngobrolin-web.md (+1ms) 
+02:36:27   ├─ /episodes/bu4mEcws2h0-ngobrolin-web-edisi-offline-surabaya.md (+1ms) 
+02:36:27   ├─ /episodes/94-ige23PDs-ngobrolin-desktop-app-ngobrolin-web.md (+1ms) 
+02:36:27   ├─ /episodes/jxW4wishA8s-ngobrolin-pengalaman-frontend-imrenagi-ngobrolin-web.md (+1ms) 
+02:36:27   ├─ /episodes/8MhHQNJ6OzE-persiapan-devfest-surabaya-ngobrolin-web.md (+1ms) 
+02:36:27   ├─ /episodes/w0--WVHU5DE-ngobrolin-alat-dokumentasi-ngobrolin-web.md (+1ms) 
+02:36:27   ├─ /episodes/uYnfyW3M790-ngobrolin-slide-ngobrolin-web.md (+1ms) 
+02:36:27   ├─ /episodes/4B17oXqMoRY-ngobrolin-microfrontend-ngobrolin-web.md (+1ms) 
+02:36:27   ├─ /episodes/8tZIeQH1DSU-ngborolin-svelte-feat-lihautan-ngobrolin-web.md (+1ms) 
+02:36:27   ├─ /episodes/4yHA-8Bu4XM-ngobrolin-javascript-bangkok-ngobrolin-web.md (+1ms) 
+02:36:27   ├─ /episodes/RfOoMPVgYjM-ngobrolin-viteconf-ngobrolin-web.md (+1ms) 
+02:36:27   ├─ /episodes/d7L_jRDJb-E-ngobrolin-deno-ngobrolin-web.md (+1ms) 
+02:36:27   ├─ /episodes/V1yh7lLkzbw-ngobrolin-drama-trademark-open-source-ngobrolin-web.md (+1ms) 
+02:36:27   ├─ /episodes/NxIfTz_DN-0-ngobrolin-fomo-ngobrolin-web.md (+1ms) 
+02:36:27   ├─ /episodes/ayiRFLsM-mM--ngobrolin-htmx-ngobrolin-web.md (+1ms) 
+02:36:27   ├─ /episodes/hsf-T40wRz0-diskusi-bebas-ngobrolin-web.md (+1ms) 
+02:36:27   ├─ /episodes/fZtxF7gECuI-ngobrolin-buku-halo-koding-ngobrolin-web.md (+1ms) 
+02:36:27   ├─ /episodes/vQIu4ekqhvY-ngobrolin-google-io-connect-china-2024-wpucast-x-ngobrolinweb.md (+1ms) 
+02:36:27   ├─ /episodes/89TRqTXfwrg-ngobrolin-astro-ngobrolin-web.md (+1ms) 
+02:36:27   ├─ /episodes/NDQXIdPWaUQ-ngobrolin-big-o-ngobrolin-web.md (+1ms) 
+02:36:27   ├─ /episodes/aPv5UxXSPfM-ngobrolin-state-of-js-bagian-2-ngobrolin-web.md (+1ms) 
+02:36:27   ├─ /episodes/q2Xe49Du4no-ngobrolin-state-of-javascript-ngobrolin-web.md (+1ms) 
+02:36:27   ├─ /episodes/vufuDf7MrmA-ngobrolin-elixir-ngobrolin-web.md (+1ms) 
+02:36:27   ├─ /episodes/pCUea-03ZbQ-ngobrolin-layout-email-ngobrolin-web.md (+1ms) 
+02:36:27   ├─ /episodes/ZrMsScX7sh0-ngobrolin-safari-ngobrolin-web.md (+1ms) 
+02:36:27   ├─ /episodes/aedr75hKoZ0-ngobrolin-websocket-ngobrolin-web.md (+1ms) 
+02:36:27   ├─ /episodes/upgl3jIWEqc-ngobrolin-nextjs-ngobrolin-web.md (+1ms) 
+02:36:27   ├─ /episodes/1w9mppcKs8M-mengintip-masa-depan-web-ai-apa-yang-disiapkan-google.md (+1ms) 
+02:36:27   ├─ /episodes/Rbs_UFZdUT8-inovasi-web-dari-google-io-2024-ngobrolin-web.md (+1ms) 
+02:36:27   ├─ /episodes/32B5A4eX_aw-ngobrolin-web-api-baru-ngobrolin-web.md (+1ms) 
+02:36:27   ├─ /episodes/nGvDLYPcv1Q-ngobrol-dan-diskusi-bebas-ngobrolin-web.md (+1ms) 
+02:36:27   ├─ /episodes/fnKxblQw57c--ui-component-library-pakai-atau-gak-untung-rugi-tips-memilih-pengalaman-developer.md (+1ms) 
+02:36:27   ├─ /episodes/B_k1563IOz0-ngobrolin-buku-refactoring-to-collections-ngobrolin-web.md (+1ms) 
+02:36:27   ├─ /episodes/SgILyFtQs5k-ngobrolin-oop-di-js-ngobrolin-web.md (+1ms) 
+02:36:27   ├─ /episodes/mYBN0iKfWUA-ngobrolin-kontainer-ngobrolin-web.md (+1ms) 
+02:36:27   ├─ /episodes/m7rsN2Wmb78-ngobrolin-cache-ngobrolin-web.md (+1ms) 
+02:36:27   ├─ /episodes/AtRclaIb4zE-ngobrolin-kerja-jarak-jauh-ngobrolin-web.md (+1ms) 
+02:36:27   ├─ /episodes/kpyPIYuChU0-ngobrolin-ekosistem-vue-ngobrolin-web.md (+1ms) 
+02:36:27   ├─ /episodes/5P6heS1ZtPw-ngobrolin-php-ngobrolin-web-sandhikagalihwpu.md (+1ms) 
+02:36:27   ├─ /episodes/d28J0ZgkORY-ngobrolin-gemini-ai-bareng-estherirawati-ngobrolin-web.md (+1ms) 
+02:36:27   ├─ /episodes/9PpM7f7TEbw-ngobrolin-fungsional-js-ngobrolin-web.md (+1ms) 
+02:36:27   ├─ /episodes/7JewigkI4Do-ngobrolin-interop-2024-ngobrolin-web.md (+1ms) 
+02:36:27   ├─ /episodes/IPWEi0I3bf0-ngobrolin-open-source-bareng-ariyahidayat-ngobrolin-web.md (+1ms) 
+02:36:27   ├─ /episodes/TsJQsHCdhUQ-ngobrolin-css-wrapped-bagian-2-ngobrolin-web.md (+1ms) 
+02:36:27   ├─ /episodes/lb6jvnmDM6I-ngobrolin-koneksi-real-time-ngobrolin-web.md (+1ms) 
+02:36:27   ├─ /episodes/SAGNwE--Htw-ngobrolin-css-wrapped-ngobrolin-web.md (+1ms) 
+02:36:27   ├─ /episodes/Rem4xNV92fs-ngobrolin-form-ngobrolin-web.md (+1ms) 
+02:36:27   ├─ /episodes/Nk9Z7BwGUUQ-ngobrolin-cors-ngobrolin-web.md (+1ms) 
+02:36:27   ├─ /episodes/hLDgpdLdb9c-yang-seru-di-2024-ngobrolin-web.md (+1ms) 
+02:36:27   ├─ /episodes/OvSawGB6Kuo-rahasia-dibalik-konfigurasi-file-ini-xml-json-yaml-toml-mana-yang-terbaik-ngobrolin-web.md (+1ms) 
+02:36:27   ├─ /episodes/-ThmdHbkH-c-ngobrolin-manajemen-kode-sumber-ngobrolin-web.md (+1ms) 
+02:36:27   ├─ /episodes/r5JKkGJEbko-ngobrolin-web-kultum.md (+1ms) 
+02:36:27   ├─ /episodes/SYXywMW05GY-ngobrolin-web-offline-di-devfest-bogor.md (+1ms) 
+02:36:27   ├─ /episodes/KhIlxKS1vwc-ngobrolin-festival-developer-ngobrolin-web.md (+13ms) 
+02:36:27   ├─ /episodes/_5rmu9SJsJY-ngobrolin-redwoodjs-ngobrolin-web.md (+1ms) 
+02:36:27   ├─ /episodes/LaoReWcsyao-ngobrolin-code-review-ngobrolin-web.md (+1ms) 
+02:36:27   ├─ /episodes/3W1Vk95usrg-ngoding-di-browser-ngobrolin-web.md (+1ms) 
+02:36:27   ├─ /episodes/IG1x81EIb54-jangan-gunakan-nodejs-sebelum-nonton-video-ini.md (+1ms) 
+02:36:27   ├─ /episodes/oyQSFpOjcEo-ngobrolin-css-layout-ngobrolin-web.md (+1ms) 
+02:36:27   ├─ /episodes/TgNDGcvEEfg-ngobrolin-ngobrolin-web-edisi-spesial-1-tahun.md (+1ms) 
+02:36:27   ├─ /episodes/yhlD16hyW90-ngobrolin-package-manager-ngobrolin-web-ep52.md (+1ms) 
+02:36:27   ├─ /episodes/2dqsz5Y4Mlk-ngobrolin-linter-ngobrolin-web-ep51.md (+1ms) 
+02:36:27   ├─ /episodes/ORga5NqFQ10-ngobrolin-framework-ngobrolin-web.md (+1ms) 
+02:36:27   ├─ /episodes/M5lUhWTF9As-ngobrolin-ai-ngobrolin-web.md (+1ms) 
+02:36:27   ├─ /episodes/MZ4dViTkIZ0-ngobrolin-http-ngobrolin-web.md (+1ms) 
+02:36:27   ├─ /episodes/9ECU9Wz0wzU-ngobrolin-wasm-ngobrolin-web.md (+1ms) 
+02:36:27   ├─ /episodes/uKWkLVtKb7g-ngobrolin-performa-cls-feat-jessica-cecilia-ngobrolin-web.md (+1ms) 
+02:36:27   ├─ /episodes/EMynH33TrBI-ngobrolin-url-ngobrolin-web-ep45.md (+1ms) 
+02:36:27   ├─ /episodes/IA3ECrPgbZU-ngobrolin-privacy-sandbox-ngobrolin-web-ep44.md (+1ms) 
+02:36:27   ├─ /episodes/aSAW5q7xEaY-ngobrolin-web-bersama-thomas-steiner-ep43.md (+1ms) 
+02:36:27   ├─ /episodes/neF7qCLqUaY-ngobrolin-public-speaking-ngobrolin-web-ep42.md (+1ms) 
+02:36:27   ├─ /episodes/hnJLh0JoQ84-ngobrolin-fluttercon-ngobrolin-web-ep41.md (+1ms) 
+02:36:27   ├─ /episodes/M2zdLxrm4F4-ngobrolin-io-extended-ngobrolin-web-ep40.md (+1ms) 
+02:36:27   ├─ /episodes/bwpPxqgFyWQ-ngobrolin-bundler-ngobrolin-web-ep39.md (+1ms) 
+02:36:27   ├─ /episodes/zzhCUMQNjN8-ngobrolin-devtools-ngobrolin-web-ep38.md (+1ms) 
+02:36:27   ├─ /episodes/GIlzAKp7rI8-ngobrolin-svg-ngobrolin-web.md (+1ms) 
+02:36:27   ├─ /episodes/2Kcb9uIQW8M-ngobrolin-otomasi-bersama-jecelyn-ngobrolin-web-ep36.md (+1ms) 
+02:36:27   ├─ /episodes/y7orEQReOns-ngobrolin-core-web-vitals-ngobrolin-web-ep35.md (+1ms) 
+02:36:27   ├─ /episodes/OwdCWP1FWNE-ngobrolin-google-io-lebih-dalam-ngobrolin-web-ep34.md (+1ms) 
+02:36:27   ├─ /episodes/mUrwxwrehqE-ngobrolin-google-io-ngobrolin-web-ep33.md (+1ms) 
+02:36:27   ├─ /episodes/_5-m3tfD5tU-ngobrolin-reactkomunitas-ngobrolin-web-ep32.md (+1ms) 
+02:36:27   ├─ /episodes/ypxWNOnW10Y-ngobrolin-accessibility-ngobrolin-web-ep31.md (+1ms) 
+02:36:27   ├─ /episodes/mJ6t8TJc6cQ-ngobrolin-templating-language-ngobrolin-web-ep30.md (+1ms) 
+02:36:27   ├─ /episodes/zc2NxphfHeE-ngobrolin-cms-ngobrolin-web-ep29.md (+1ms) 
+02:36:27   ├─ /episodes/uYqnB9rhIaQ-ngobrolin-format-warna-ngobrolin-web-ep28.md (+1ms) 
+02:36:27   ├─ /episodes/2nJE0rvIUps-ngobrolin-web-jadul-ngobrolin-web-ep27.md (+1ms) 
+02:36:27   ├─ /episodes/J8qef9MI1rY-ngobrolin-teknologi-edge-ngobrolin-web-ep25.md (+1ms) 
+02:36:27   ├─ /episodes/cjqz5C0eWgc-ngobrolin-typescript-ngobrolin-web-ep24.md (+1ms) 
+02:36:27   ├─ /episodes/YMFz1Ky2E0k-ngobrolin-proyek-fugu-ngobrolin-web-ep23.md (+1ms) 
+02:36:27   ├─ /episodes/mN01Hg41tB8-ngobrolin-interop-2023-ngobrolin-web-ep22.md (+1ms) 
+02:36:27   ├─ /episodes/18LNXOF8IPA-ngobrolin-belajar-ngobrolin-web-ep21.md (+1ms) 
+02:36:27   ├─ /episodes/H-NPmffVrcw-ngobrolin-otentikasi-ngobrolin-web-ep20.md (+1ms) 
+02:36:27   ├─ /episodes/WC230bL6YnY-ngobrolin-metode-rendering-ngobrolin-web-ep19.md (+1ms) 
+02:36:27   ├─ /episodes/k-4ZMXMGISA-ngobrolin-storage-ngobrolin-web-ep18.md (+1ms) 
+02:36:27   ├─ /episodes/KPZ-BgtX1kk-ngobrolin-cookies-ngobrolin-web-ep17.md (+1ms) 
+02:36:27   ├─ /episodes/Dwy3ydXygaY-ngobrolin-2023-ngobrolin-web-ep15.md (+1ms) 
+02:36:27   ├─ /episodes/O2c3Q2QTZI4-ngobrolin-browser-ngobrolin-web-ep14.md (+2ms) 
+02:36:27   ├─ /episodes/NwXiJKBW35U-nobrolin-image-ngobrolin-web-ep13.md (+1ms) 
+02:36:27   ├─ /episodes/TPetwHcfXns-ngobrolin-testing-ngobrolin-web-ep12.md (+1ms) 
+02:36:27   ├─ /episodes/WJvTvTSm9l8-ngobrolin-font-ngobrolin-web-ep11.md (+1ms) 
+02:36:27   ├─ /episodes/CH5rh-zHktQ-ngobrolin-i18n-ngobrolin-web-ep6.md (+1ms) 
+02:36:27   ├─ /episodes/B0Ar5k_h2uk-ngobrolin-web-components-ngobrolin-web-ep10.md (+1ms) 
+02:36:27   ├─ /episodes/qU3POeBk-0E-ngobrolin-konsep-js-event-loop-ngobrolin-web-ep5.md (+1ms) 
+02:36:27   ├─ /episodes/TGEH6ovjnjU-ngobrolin-android-ngobrolin-web-ep9.md (+1ms) 
+02:36:27   ├─ /episodes/8Diqwtb6hKs-ngobrolin-viteconf-ngobrolin-web-ep4.md (+1ms) 
+02:36:27   ├─ /episodes/LrPBLlURfIs-ngobrolin-devfest-ngobrolin-web-ep3.md (+1ms) 
+02:36:27   ├─ /episodes/ghLVcP_CgkY-ngobrolin-css-ngobrolin-web-ep2.md (+1ms) 
+02:36:27   ├─ /episodes/1p7nM1Yr6tw-ngobrolin-island-architecture-ngobrolin-web-ep1.md (+1ms) 
+02:36:27   ├─ /episodes/Aneo-LjbnoI-ngobrolin-web-episode-perdana.md (+1ms) 
+02:36:27   ├─ /episodes/fv-M_fFil0c-ngobrolin-ecmascript-ngobrolin-web-ep8.md (+1ms) 
+02:36:27   └─ /episodes/UEaMZRG_OnQ-perkembangan-teknologi-web-dari-httparchive-ngobrolin-web-ep7.md (+1ms) 
+02:36:27 ▶ src/pages/episodes/[slug].astro
+02:36:27   ├─ /episodes/_VoS7mnsUdQ-bedah-buku-panduan-coding-ngobrolin-web/index.html (+24ms) 
+02:36:27   ├─ /episodes/0RCXRNHhBfo-modern-web-ui-ngobrolin-web/index.html (+41ms) 
+02:36:27   ├─ /episodes/qei6_h3wwPY-model-context-protocol-ngobrolin-web/index.html (+26ms) 
+02:36:27   ├─ /episodes/-TwyNC_SSFY-local-development-server-ngobrolin-web/index.html (+25ms) 
+02:36:27   ├─ /episodes/YBFDo2jSSJA-state-of-css-ngobrolin-web/index.html (+23ms) 
+02:36:27   ├─ /episodes/JJqLKn25DJI-pengaruh-kecerdasan-buatan-terhadap-kecerdasan-manusia-ngobrolin-web/index.html (+31ms) 
+02:36:27   ├─ /episodes/80Cnky1uvyk-testing-dengan-playwright-ngobrolin-web/index.html (+23ms) 
+02:36:27   ├─ /episodes/JUu7WUGt1eU-optimasi-javascript-ngobrolin-web/index.html (+23ms) 
+02:36:27   ├─ /episodes/nJhk892C4_U-bedah-framework-anvia-ngobrolin-web/index.html (+23ms) 
+02:36:27   ├─ /episodes/a_MmIT8QLxI-pekerja-web-ngobrolin-web/index.html (+22ms) 
+02:36:27   ├─ /episodes/eexwOhPaMso-tailwind-ngobrolin-web/index.html (+24ms) 
+02:36:27   ├─ /episodes/oNrHsiogsQY-ngobrolin-state-of-ai-ngobrolin-web/index.html (+24ms) 
+02:36:27   ├─ /episodes/wHi7Q711vW8-liputan-langsung-google-io-ngobrolin-web/index.html (+27ms) 
+02:36:28   ├─ /episodes/hDtImY8hikU-google-io-2026-ngobrolin-web/index.html (+24ms) 
+02:36:28   ├─ /episodes/dD1AajkCSe0-alat-desain-ai-ngobrolin-web/index.html (+23ms) 
+02:36:28   ├─ /episodes/_BnH4kIsSwk-bedah-web-ngobrolin-web/index.html (+35ms) 
+02:36:28   ├─ /episodes/4vHgtGtsDFg-zona-waktu-ngobrolin-web/index.html (+37ms) 
+02:36:28   ├─ /episodes/Edez-dpX0Hw-vite-ngobrolin-web/index.html (+36ms) 
+02:36:28   ├─ /episodes/g6gKeLGYPQU-scam-dan-penipuan-ngobrolin-web/index.html (+42ms) 
+02:36:28   ├─ /episodes/YoeCPP6c2LI-bedah-situs-ngobrolin-web/index.html (+40ms) 
+02:36:28   ├─ /episodes/KJ96IaRARvQ-bedah-situs-ngobrolin-web/index.html (+51ms) 
+02:36:28   ├─ /episodes/qlL_42q4mUE-project-management-tools-ngobrolin-web/index.html (+51ms) 
+02:36:28   ├─ /episodes/UMNXxUqlZS0-ngobrolin-otorisasi/index.html (+24ms) 
+02:36:28   ├─ /episodes/00ZHWKLlp5g-stack-dan-tools-ngobrolin-web/index.html (+24ms) 
+02:36:28   ├─ /episodes/TdgJMT3NrRM-library-animasi-ngobrolin-web/index.html (+19ms) 
+02:36:28   ├─ /episodes/c5RSiDy2sRM-computational-thinking-ngobrolin-web/index.html (+37ms) 
+02:36:28   ├─ /episodes/Tkh8-LleLws-alat-pengkodean-agen-ngobrolin-web/index.html (+34ms) 
+02:36:28   ├─ /episodes/ZcYNuHirHOA-agentic-ai-ngobrolin-web/index.html (+27ms) 
+02:36:28   ├─ /episodes/Qh0ImRYTync-css-wrapped-ngobrolin-web/index.html (+33ms) 
+02:36:28   ├─ /episodes/lPTtyv8Hzgs-ngobrolin-gemini-3-ngobrolin-web/index.html (+35ms) 
+02:36:28   ├─ /episodes/puCZUlxrSpg-webai-ngobrolin-web/index.html (+40ms) 
+02:36:28   ├─ /episodes/yfgMjKu89u0-serba-serbi-pengujian-vitest-jest-dkk-ngobrolin-web/index.html (+47ms) 
+02:36:28   ├─ /episodes/aY57UgFCC48-kisah-kisah-menyeramkan-dgn-zainfathoni-ngobrolin-web/index.html (+47ms) 
+02:36:28   ├─ /episodes/x1jm57leZW0-ngobrolin-css-unit-ngobrolin-web/index.html (+48ms) 
+02:36:28   ├─ /episodes/uPiv9JbEOPA-desain-aplikasi-cli-ngobrolin-web/index.html (+41ms) 
+02:36:28   ├─ /episodes/_H9EkkzDGTs-file-upload-strategy-ngobrolin-web/index.html (+29ms) 
+02:36:28   ├─ /episodes/7WbdKRP1QY4-toolkit-modern-ngobrolin-web/index.html (+32ms) 
+02:36:28   ├─ /episodes/3C-psD7dx9w-ngobrolin-jwt-ngobrolin-web/index.html (+33ms) 
+02:36:28   ├─ /episodes/2Y7gmbdrnqc-ngobrolin-dokumentasi-ngobrolin-web/index.html (+23ms) 
+02:36:28   ├─ /episodes/Lg3hspyi4eg-fundamental-javascript-ngobrolin-web/index.html (+33ms) 
+02:36:28   ├─ /episodes/p4Gk1NTKYoo-io-connect-shanghai-ngobrolin-web/index.html (+23ms) 
+02:36:28   ├─ /episodes/cYH8NfEPPu0-stackoverflow-survey-2025-ngobrolin-web/index.html (+34ms) 
+02:36:29   ├─ /episodes/Viq69Sv_MrI-konsep-dependency-injection-ngobrolin-web/index.html (+32ms) 
+02:36:29   ├─ /episodes/ZwXgk5yeUD0-bedah-buku-problem-solving-101-ngobrolin-web/index.html (+33ms) 
+02:36:29   ├─ /episodes/hSUqstbgNgI-bedah-situs-meutianet-ngobrolin-web/index.html (+31ms) 
+02:36:29   ├─ /episodes/GGfh-olIzl0-ngobrolin-ecmascript-2025-ngobrolin-web/index.html (+33ms) 
+02:36:29   ├─ /episodes/RQ6KMuo9PPg-ngobrolin-storybook-ngobrolin-web/index.html (+32ms) 
+02:36:29   ├─ /episodes/f1g2zrOmzN0-web-interop-baseline-ngobrolin-web/index.html (+20ms) 
+02:36:29   ├─ /episodes/zX0gDaovb1w-ngobrolin-database-ngobrolin-web/index.html (+34ms) 
+02:36:29   ├─ /episodes/0sMCTZ77Fjk-bedah-situs-ngobrolin-web/index.html (+32ms) 
+02:36:29   ├─ /episodes/0o-PcX6pR2E-ngobrolin-astro-ngobrolin-web/index.html (+33ms) 
+02:36:29   ├─ /episodes/ZRQrg3dABLQ-ngobrolin-google-io-ngobrolin-web/index.html (+33ms) 
+02:36:29   ├─ /episodes/KzqALj3KpDo-ngobrolin-react-server-component/index.html (+35ms) 
+02:36:29   ├─ /episodes/v28qyGyoMw4-web-performance-update-ngobrolin-web/index.html (+36ms) 
+02:36:29   ├─ /episodes/8ke0CsKPjAU-ngobrolin-tanstack-ngobrolin-web/index.html (+27ms) 
+02:36:29   ├─ /episodes/99CaLw7Q7os-ngobrolin-seo-ngobrolin-web/index.html (+47ms) 
+02:36:29   ├─ /episodes/RZ0hw1FcdnA-ngobrolin-cors-browser-policy-ngobrolin-web/index.html (+33ms) 
+02:36:29   ├─ /episodes/dk8JSYuOmhc-bedah-situs-ngobrolin-web/index.html (+20ms) 
+02:36:29   ├─ /episodes/L4VUZPu-IMQ-ngobrolin-lebaran-ngobrolin-web/index.html (+11ms) 
+02:36:29   ├─ /episodes/utmuHV8-MAU-ngobrolin-design-pattern-ngobrolin-web/index.html (+35ms) 
+02:36:29   ├─ /episodes/wRF7vpvs95s-ngobrolin-kata-sandi-ngobrolin-web/index.html (+39ms) 
+02:36:29   ├─ /episodes/7TR-vxCBiZ4-ngobrolin-keamanan-bareng-mazipan-ngobrolin-web/index.html (+19ms) 
+02:36:29   ├─ /episodes/j-wZjh62Gaw-ngobrolin-monorepo-ngobrolin-web/index.html (+19ms) 
+02:36:29   ├─ /episodes/QdWmc9bMo48-ngobrolin-fitur-terbaru-css-bersama-adamargyleink-dan-bramus-chromedevs/index.html (+17ms) 
+02:36:29   ├─ /episodes/iLILgsmq9mg-ngobrolin-protokol-jaringan-ngobrolin-web/index.html (+70ms) 
+02:36:29   ├─ /episodes/ObTg-XT9C64-optimasi-performa-js-ngborlin-web/index.html (+24ms) 
+02:36:29   ├─ /episodes/KiBErl9F2a0-ngobrolin-video-player-ngobrolin-web/index.html (+21ms) 
+02:36:29   ├─ /episodes/2E52qAB9Pq4-ngobrolin-css-wrapped-2024-ngobrolin-web/index.html (+21ms) 
+02:36:29   ├─ /episodes/Ggx5EOiZIwA-ngobrolin-localfirst-ngobrolin-web/index.html (+23ms) 
+02:36:29   ├─ /episodes/QgnEdmGl814-ngobrolin-video-singkat-bareng-dannydwic-ngobrolin-web/index.html (+27ms) 
+02:36:29   ├─ /episodes/_6HCMH8SREU-ngborolin-2025-ngobrolin-web/index.html (+24ms) 
+02:36:29   ├─ /episodes/bu4mEcws2h0-ngobrolin-web-edisi-offline-surabaya/index.html (+17ms) 
+02:36:29   ├─ /episodes/94-ige23PDs-ngobrolin-desktop-app-ngobrolin-web/index.html (+37ms) 
+02:36:29   ├─ /episodes/jxW4wishA8s-ngobrolin-pengalaman-frontend-imrenagi-ngobrolin-web/index.html (+35ms) 
+02:36:29   ├─ /episodes/8MhHQNJ6OzE-persiapan-devfest-surabaya-ngobrolin-web/index.html (+25ms) 
+02:36:30   ├─ /episodes/w0--WVHU5DE-ngobrolin-alat-dokumentasi-ngobrolin-web/index.html (+44ms) 
+02:36:30   ├─ /episodes/uYnfyW3M790-ngobrolin-slide-ngobrolin-web/index.html (+25ms) 
+02:36:30   ├─ /episodes/4B17oXqMoRY-ngobrolin-microfrontend-ngobrolin-web/index.html (+17ms) 
+02:36:30   ├─ /episodes/8tZIeQH1DSU-ngborolin-svelte-feat-lihautan-ngobrolin-web/index.html (+18ms) 
+02:36:30   ├─ /episodes/4yHA-8Bu4XM-ngobrolin-javascript-bangkok-ngobrolin-web/index.html (+32ms) 
+02:36:30   ├─ /episodes/RfOoMPVgYjM-ngobrolin-viteconf-ngobrolin-web/index.html (+30ms) 
+02:36:30   ├─ /episodes/d7L_jRDJb-E-ngobrolin-deno-ngobrolin-web/index.html (+50ms) 
+02:36:30   ├─ /episodes/V1yh7lLkzbw-ngobrolin-drama-trademark-open-source-ngobrolin-web/index.html (+18ms) 
+02:36:30   ├─ /episodes/NxIfTz_DN-0-ngobrolin-fomo-ngobrolin-web/index.html (+41ms) 
+02:36:30   ├─ /episodes/ayiRFLsM-mM--ngobrolin-htmx-ngobrolin-web/index.html (+25ms) 
+02:36:30   ├─ /episodes/hsf-T40wRz0-diskusi-bebas-ngobrolin-web/index.html (+22ms) 
+02:36:30   ├─ /episodes/fZtxF7gECuI-ngobrolin-buku-halo-koding-ngobrolin-web/index.html (+26ms) 
+02:36:30   ├─ /episodes/vQIu4ekqhvY-ngobrolin-google-io-connect-china-2024-wpucast-x-ngobrolinweb/index.html (+21ms) 
+02:36:30   ├─ /episodes/89TRqTXfwrg-ngobrolin-astro-ngobrolin-web/index.html (+35ms) 
+02:36:30   ├─ /episodes/NDQXIdPWaUQ-ngobrolin-big-o-ngobrolin-web/index.html (+47ms) 
+02:36:30   ├─ /episodes/aPv5UxXSPfM-ngobrolin-state-of-js-bagian-2-ngobrolin-web/index.html (+56ms) 
+02:36:30   ├─ /episodes/q2Xe49Du4no-ngobrolin-state-of-javascript-ngobrolin-web/index.html (+39ms) 
+02:36:30   ├─ /episodes/vufuDf7MrmA-ngobrolin-elixir-ngobrolin-web/index.html (+40ms) 
+02:36:30   ├─ /episodes/pCUea-03ZbQ-ngobrolin-layout-email-ngobrolin-web/index.html (+27ms) 
+02:36:30   ├─ /episodes/ZrMsScX7sh0-ngobrolin-safari-ngobrolin-web/index.html (+30ms) 
+02:36:30   ├─ /episodes/aedr75hKoZ0-ngobrolin-websocket-ngobrolin-web/index.html (+25ms) 
+02:36:30   ├─ /episodes/upgl3jIWEqc-ngobrolin-nextjs-ngobrolin-web/index.html (+38ms) 
+02:36:30   ├─ /episodes/1w9mppcKs8M-mengintip-masa-depan-web-ai-apa-yang-disiapkan-google/index.html (+28ms) 
+02:36:30   ├─ /episodes/Rbs_UFZdUT8-inovasi-web-dari-google-io-2024-ngobrolin-web/index.html (+22ms) 
+02:36:30   ├─ /episodes/32B5A4eX_aw-ngobrolin-web-api-baru-ngobrolin-web/index.html (+32ms) 
+02:36:30   ├─ /episodes/nGvDLYPcv1Q-ngobrol-dan-diskusi-bebas-ngobrolin-web/index.html (+38ms) 
+02:36:30   ├─ /episodes/fnKxblQw57c--ui-component-library-pakai-atau-gak-untung-rugi-tips-memilih-pengalaman-developer/index.html (+41ms) 
+02:36:30   ├─ /episodes/B_k1563IOz0-ngobrolin-buku-refactoring-to-collections-ngobrolin-web/index.html (+38ms) 
+02:36:30   ├─ /episodes/SgILyFtQs5k-ngobrolin-oop-di-js-ngobrolin-web/index.html (+49ms) 
+02:36:30   ├─ /episodes/mYBN0iKfWUA-ngobrolin-kontainer-ngobrolin-web/index.html (+24ms) 
+02:36:30   ├─ /episodes/m7rsN2Wmb78-ngobrolin-cache-ngobrolin-web/index.html (+19ms) 
+02:36:31   ├─ /episodes/AtRclaIb4zE-ngobrolin-kerja-jarak-jauh-ngobrolin-web/index.html (+20ms) 
+02:36:31   ├─ /episodes/kpyPIYuChU0-ngobrolin-ekosistem-vue-ngobrolin-web/index.html (+19ms) 
+02:36:31   ├─ /episodes/5P6heS1ZtPw-ngobrolin-php-ngobrolin-web-sandhikagalihwpu/index.html (+20ms) 
+02:36:31   ├─ /episodes/d28J0ZgkORY-ngobrolin-gemini-ai-bareng-estherirawati-ngobrolin-web/index.html (+17ms) 
+02:36:31   ├─ /episodes/9PpM7f7TEbw-ngobrolin-fungsional-js-ngobrolin-web/index.html (+20ms) 
+02:36:31   ├─ /episodes/7JewigkI4Do-ngobrolin-interop-2024-ngobrolin-web/index.html (+26ms) 
+02:36:31   ├─ /episodes/IPWEi0I3bf0-ngobrolin-open-source-bareng-ariyahidayat-ngobrolin-web/index.html (+24ms) 
+02:36:31   ├─ /episodes/TsJQsHCdhUQ-ngobrolin-css-wrapped-bagian-2-ngobrolin-web/index.html (+26ms) 
+02:36:31   ├─ /episodes/lb6jvnmDM6I-ngobrolin-koneksi-real-time-ngobrolin-web/index.html (+38ms) 
+02:36:31   ├─ /episodes/SAGNwE--Htw-ngobrolin-css-wrapped-ngobrolin-web/index.html (+17ms) 
+02:36:31   ├─ /episodes/Rem4xNV92fs-ngobrolin-form-ngobrolin-web/index.html (+18ms) 
+02:36:31   ├─ /episodes/Nk9Z7BwGUUQ-ngobrolin-cors-ngobrolin-web/index.html (+17ms) 
+02:36:31   ├─ /episodes/hLDgpdLdb9c-yang-seru-di-2024-ngobrolin-web/index.html (+17ms) 
+02:36:31   ├─ /episodes/OvSawGB6Kuo-rahasia-dibalik-konfigurasi-file-ini-xml-json-yaml-toml-mana-yang-terbaik-ngobrolin-web/index.html (+19ms) 
+02:36:31   ├─ /episodes/-ThmdHbkH-c-ngobrolin-manajemen-kode-sumber-ngobrolin-web/index.html (+19ms) 
+02:36:31   ├─ /episodes/r5JKkGJEbko-ngobrolin-web-kultum/index.html (+36ms) 
+02:36:31   ├─ /episodes/SYXywMW05GY-ngobrolin-web-offline-di-devfest-bogor/index.html (+26ms) 
+02:36:31   ├─ /episodes/KhIlxKS1vwc-ngobrolin-festival-developer-ngobrolin-web/index.html (+43ms) 
+02:36:31   ├─ /episodes/_5rmu9SJsJY-ngobrolin-redwoodjs-ngobrolin-web/index.html (+35ms) 
+02:36:31   ├─ /episodes/LaoReWcsyao-ngobrolin-code-review-ngobrolin-web/index.html (+26ms) 
+02:36:31   ├─ /episodes/3W1Vk95usrg-ngoding-di-browser-ngobrolin-web/index.html (+35ms) 
+02:36:31   ├─ /episodes/IG1x81EIb54-jangan-gunakan-nodejs-sebelum-nonton-video-ini/index.html (+31ms) 
+02:36:31   ├─ /episodes/oyQSFpOjcEo-ngobrolin-css-layout-ngobrolin-web/index.html (+47ms) 
+02:36:31   ├─ /episodes/TgNDGcvEEfg-ngobrolin-ngobrolin-web-edisi-spesial-1-tahun/index.html (+42ms) 
+02:36:31   ├─ /episodes/yhlD16hyW90-ngobrolin-package-manager-ngobrolin-web-ep52/index.html (+24ms) 
+02:36:31   ├─ /episodes/2dqsz5Y4Mlk-ngobrolin-linter-ngobrolin-web-ep51/index.html (+30ms) 
+02:36:31   ├─ /episodes/ORga5NqFQ10-ngobrolin-framework-ngobrolin-web/index.html (+34ms) 
+02:36:31   ├─ /episodes/M5lUhWTF9As-ngobrolin-ai-ngobrolin-web/index.html (+36ms) 
+02:36:31   ├─ /episodes/MZ4dViTkIZ0-ngobrolin-http-ngobrolin-web/index.html (+54ms) 
+02:36:31   ├─ /episodes/9ECU9Wz0wzU-ngobrolin-wasm-ngobrolin-web/index.html (+48ms) 
+02:36:31   ├─ /episodes/uKWkLVtKb7g-ngobrolin-performa-cls-feat-jessica-cecilia-ngobrolin-web/index.html (+28ms) 
+02:36:31   ├─ /episodes/EMynH33TrBI-ngobrolin-url-ngobrolin-web-ep45/index.html (+30ms) 
+02:36:31   ├─ /episodes/IA3ECrPgbZU-ngobrolin-privacy-sandbox-ngobrolin-web-ep44/index.html (+26ms) 
+02:36:31   ├─ /episodes/aSAW5q7xEaY-ngobrolin-web-bersama-thomas-steiner-ep43/index.html (+42ms) 
+02:36:31   ├─ /episodes/neF7qCLqUaY-ngobrolin-public-speaking-ngobrolin-web-ep42/index.html (+55ms) 
+02:36:32   ├─ /episodes/hnJLh0JoQ84-ngobrolin-fluttercon-ngobrolin-web-ep41/index.html (+43ms) 
+02:36:32   ├─ /episodes/M2zdLxrm4F4-ngobrolin-io-extended-ngobrolin-web-ep40/index.html (+38ms) 
+02:36:32   ├─ /episodes/bwpPxqgFyWQ-ngobrolin-bundler-ngobrolin-web-ep39/index.html (+37ms) 
+02:36:32   ├─ /episodes/zzhCUMQNjN8-ngobrolin-devtools-ngobrolin-web-ep38/index.html (+39ms) 
+02:36:32   ├─ /episodes/GIlzAKp7rI8-ngobrolin-svg-ngobrolin-web/index.html (+40ms) 
+02:36:32   ├─ /episodes/2Kcb9uIQW8M-ngobrolin-otomasi-bersama-jecelyn-ngobrolin-web-ep36/index.html (+48ms) 
+02:36:32   ├─ /episodes/y7orEQReOns-ngobrolin-core-web-vitals-ngobrolin-web-ep35/index.html (+33ms) 
+02:36:32   ├─ /episodes/OwdCWP1FWNE-ngobrolin-google-io-lebih-dalam-ngobrolin-web-ep34/index.html (+50ms) 
+02:36:32   ├─ /episodes/mUrwxwrehqE-ngobrolin-google-io-ngobrolin-web-ep33/index.html (+41ms) 
+02:36:32   ├─ /episodes/_5-m3tfD5tU-ngobrolin-reactkomunitas-ngobrolin-web-ep32/index.html (+53ms) 
+02:36:32   ├─ /episodes/ypxWNOnW10Y-ngobrolin-accessibility-ngobrolin-web-ep31/index.html (+34ms) 
+02:36:32   ├─ /episodes/mJ6t8TJc6cQ-ngobrolin-templating-language-ngobrolin-web-ep30/index.html (+30ms) 
+02:36:32   ├─ /episodes/zc2NxphfHeE-ngobrolin-cms-ngobrolin-web-ep29/index.html (+36ms) 
+02:36:32   ├─ /episodes/uYqnB9rhIaQ-ngobrolin-format-warna-ngobrolin-web-ep28/index.html (+34ms) 
+02:36:32   ├─ /episodes/2nJE0rvIUps-ngobrolin-web-jadul-ngobrolin-web-ep27/index.html (+38ms) 
+02:36:32   ├─ /episodes/J8qef9MI1rY-ngobrolin-teknologi-edge-ngobrolin-web-ep25/index.html (+42ms) 
+02:36:32   ├─ /episodes/cjqz5C0eWgc-ngobrolin-typescript-ngobrolin-web-ep24/index.html (+30ms) 
+02:36:32   ├─ /episodes/YMFz1Ky2E0k-ngobrolin-proyek-fugu-ngobrolin-web-ep23/index.html (+27ms) 
+02:36:32   ├─ /episodes/mN01Hg41tB8-ngobrolin-interop-2023-ngobrolin-web-ep22/index.html (+39ms) 
+02:36:32   ├─ /episodes/18LNXOF8IPA-ngobrolin-belajar-ngobrolin-web-ep21/index.html (+30ms) 
+02:36:32   ├─ /episodes/H-NPmffVrcw-ngobrolin-otentikasi-ngobrolin-web-ep20/index.html (+23ms) 
+02:36:32   ├─ /episodes/WC230bL6YnY-ngobrolin-metode-rendering-ngobrolin-web-ep19/index.html (+34ms) 
+02:36:32   ├─ /episodes/k-4ZMXMGISA-ngobrolin-storage-ngobrolin-web-ep18/index.html (+29ms) 
+02:36:32   ├─ /episodes/KPZ-BgtX1kk-ngobrolin-cookies-ngobrolin-web-ep17/index.html (+27ms) 
+02:36:32   ├─ /episodes/Dwy3ydXygaY-ngobrolin-2023-ngobrolin-web-ep15/index.html (+31ms) 
+02:36:32   ├─ /episodes/O2c3Q2QTZI4-ngobrolin-browser-ngobrolin-web-ep14/index.html (+37ms) 
+02:36:32   ├─ /episodes/NwXiJKBW35U-nobrolin-image-ngobrolin-web-ep13/index.html (+44ms) 
+02:36:33   ├─ /episodes/TPetwHcfXns-ngobrolin-testing-ngobrolin-web-ep12/index.html (+45ms) 
+02:36:33   ├─ /episodes/WJvTvTSm9l8-ngobrolin-font-ngobrolin-web-ep11/index.html (+40ms) 
+02:36:33   ├─ /episodes/CH5rh-zHktQ-ngobrolin-i18n-ngobrolin-web-ep6/index.html (+28ms) 
+02:36:33   ├─ /episodes/B0Ar5k_h2uk-ngobrolin-web-components-ngobrolin-web-ep10/index.html (+29ms) 
+02:36:33   ├─ /episodes/qU3POeBk-0E-ngobrolin-konsep-js-event-loop-ngobrolin-web-ep5/index.html (+23ms) 
+02:36:33   ├─ /episodes/TGEH6ovjnjU-ngobrolin-android-ngobrolin-web-ep9/index.html (+30ms) 
+02:36:33   ├─ /episodes/8Diqwtb6hKs-ngobrolin-viteconf-ngobrolin-web-ep4/index.html (+25ms) 
+02:36:33   ├─ /episodes/LrPBLlURfIs-ngobrolin-devfest-ngobrolin-web-ep3/index.html (+25ms) 
+02:36:33   ├─ /episodes/ghLVcP_CgkY-ngobrolin-css-ngobrolin-web-ep2/index.html (+25ms) 
+02:36:33   ├─ /episodes/1p7nM1Yr6tw-ngobrolin-island-architecture-ngobrolin-web-ep1/index.html (+26ms) 
+02:36:33   ├─ /episodes/Aneo-LjbnoI-ngobrolin-web-episode-perdana/index.html (+40ms) 
+02:36:33   ├─ /episodes/fv-M_fFil0c-ngobrolin-ecmascript-ngobrolin-web-ep8/index.html (+39ms) 
+02:36:33   └─ /episodes/UEaMZRG_OnQ-perkembangan-teknologi-web-dari-httparchive-ngobrolin-web-ep7/index.html (+29ms) 
+02:36:33 ▶ src/pages/episodes/[year].astro
+02:36:33   ├─ /episodes/2026/index.html (+14ms) 
+02:36:33   ├─ /episodes/2025/index.html (+9ms) 
+02:36:33   ├─ /episodes/2024/index.html (+9ms) 
+02:36:33   ├─ /episodes/2023/index.html (+8ms) 
+02:36:33   └─ /episodes/2022/index.html (+4ms) 
+02:36:33 ▶ src/pages/episodes/index.astro
+02:36:33   └─ /episodes/index.html (+31ms) 
+02:36:33 ▶ src/pages/index.astro
+02:36:33   └─ /index.html (+5ms) 
+02:36:33 λ src/pages/llms-full.txt.ts
+02:36:33   └─ /llms-full.txt (+5ms) 
+02:36:33 λ src/pages/llms.txt.ts
+02:36:33   └─ /llms.txt (+2ms) 
+02:36:33 λ src/pages/og-image.png.ts
+02:36:33   └─ /og-image.png (+81ms) 
+02:36:33 λ src/pages/og-logo.png.ts
+02:36:33   └─ /og-logo.png (+11ms) 
+02:36:33 λ src/pages/partners-og.png.ts
+02:36:33   └─ /partners-og.png (+62ms) 
+02:36:33 ▶ src/pages/partners.astro
+02:36:33   └─ /partners/index.html (+4ms) 
+02:36:33 λ src/pages/podcast-rss.xml.ts
+02:36:33   └─ /podcast-rss.xml (+5ms) 
+02:36:33 λ src/pages/rss.xml.ts
+02:36:33   └─ /rss.xml (+15ms) 
+02:36:33 λ src/pages/search-index.json.ts
+02:36:33   └─ /search-index.json (+7ms) 
+02:36:33 ▶ src/pages/subscribe.astro
+02:36:33   └─ /subscribe/index.html (+2ms) 
+02:36:33 ▶ src/pages/tags/[tag].astro
+02:36:33   ├─ /tags/javascript/index.html (+26ms) 
+02:36:33   ├─ /tags/api/index.html (+16ms) 
+02:36:33   ├─ /tags/css/index.html (+15ms) 
+02:36:33   ├─ /tags/react/index.html (+7ms) 
+02:36:33   ├─ /tags/ui/index.html (+10ms) 
+02:36:33   ├─ /tags/ai/index.html (+8ms) 
+02:36:33   ├─ /tags/learning/index.html (+7ms) 
+02:36:33   ├─ /tags/deployment/index.html (+12ms) 
+02:36:33   ├─ /tags/testing/index.html (+9ms) 
+02:36:33   ├─ /tags/security/index.html (+8ms) 
+02:36:33   ├─ /tags/performance/index.html (+7ms) 
+02:36:33   ├─ /tags/dev-tools/index.html (+6ms) 
+02:36:33   ├─ /tags/community/index.html (+7ms) 
+02:36:33   ├─ /tags/design/index.html (+12ms) 
+02:36:33   ├─ /tags/ai-coding/index.html (+5ms) 
+02:36:33   ├─ /tags/database/index.html (+4ms) 
+02:36:33   ├─ /tags/astro/index.html (+4ms) 
+02:36:33   ├─ /tags/nextjs/index.html (+4ms) 
+02:36:33   ├─ /tags/accessibility/index.html (+4ms) 
+02:36:33   ├─ /tags/animation/index.html (+4ms) 
+02:36:34   ├─ /tags/typescript/index.html (+5ms) 
+02:36:34   ├─ /tags/build-tools/index.html (+5ms) 
+02:36:34   ├─ /tags/responsive/index.html (+4ms) 
+02:36:34   ├─ /tags/svelte/index.html (+9ms) 
+02:36:34   ├─ /tags/career/index.html (+3ms) 
+02:36:34   ├─ /tags/node/index.html (+3ms) 
+02:36:34   ├─ /tags/vue/index.html (+3ms) 
+02:36:34   ├─ /tags/angular/index.html (+2ms) 
+02:36:34   ├─ /tags/deno/index.html (+3ms) 
+02:36:34   ├─ /tags/bun/index.html (+2ms) 
+02:36:34   ├─ /tags/pwa/index.html (+2ms) 
+02:36:34   ├─ /tags/ux/index.html (+2ms) 
+02:36:34   ├─ /tags/seo/index.html (+15ms) 
+02:36:34   ├─ /tags/monorepo/index.html (+3ms) 
+02:36:34   ├─ /tags/state-management/index.html (+2ms) 
+02:36:34   └─ /tags/web-components/index.html (+4ms) 
+02:36:34 ▶ src/pages/tags/index.astro
+02:36:34   └─ /tags/index.html (+2ms) 
+02:36:34 ✓ Completed in 7.00s.
+
+ generating optimized images 
+02:36:34   ▶ /_astro/hqdefault_Z1kI7XT.webp (reused cache entry) (+2ms) (1/181)
+02:36:34   ▶ /_astro/hqdefault_ZI7ErF.webp (reused cache entry) (+2ms) (2/181)
+02:36:34   ▶ /_astro/hqdefault_Z2uDynn.webp (reused cache entry) (+2ms) (3/181)
+02:36:34   ▶ /_astro/hqdefault_Z2esHJe.webp (reused cache entry) (+2ms) (4/181)
+02:36:34   ▶ /_astro/hqdefault_ZvLs5R.webp (reused cache entry) (+0ms) (5/181)
+02:36:34   ▶ /_astro/hqdefault_ZXgapc.webp (reused cache entry) (+1ms) (6/181)
+02:36:34   ▶ /_astro/hqdefault_Z1QP30q.webp (reused cache entry) (+1ms) (7/181)
+02:36:34   ▶ /_astro/hqdefault_Za4oME.webp (reused cache entry) (+1ms) (8/181)
+02:36:34   ▶ /_astro/hqdefault_8SYhB.webp (reused cache entry) (+0ms) (9/181)
+02:36:34   ▶ /_astro/hqdefault_Z1T0kIJ.webp (reused cache entry) (+0ms) (10/181)
+02:36:34   ▶ /_astro/hqdefault_Z1o5AGe.webp (reused cache entry) (+1ms) (11/181)
+02:36:34   ▶ /_astro/hqdefault_1hxMwl.webp (reused cache entry) (+0ms) (12/181)
+02:36:34   ▶ /_astro/hqdefault_ZXpE1r.webp (reused cache entry) (+0ms) (13/181)
+02:36:34   ▶ /_astro/hqdefault_1DztOs.webp (reused cache entry) (+0ms) (14/181)
+02:36:34   ▶ /_astro/hqdefault_yyvOV.webp (reused cache entry) (+1ms) (15/181)
+02:36:34   ▶ /_astro/hqdefault_Z1ovygl.webp (reused cache entry) (+0ms) (16/181)
+02:36:34   ▶ /_astro/hqdefault_ZebIVT.webp (reused cache entry) (+1ms) (17/181)
+02:36:34   ▶ /_astro/hqdefault_15J1HD.webp (reused cache entry) (+1ms) (18/181)
+02:36:34   ▶ /_astro/hqdefault_1XEJRQ.webp (reused cache entry) (+2ms) (19/181)
+02:36:34   ▶ /_astro/hqdefault_ZSpGbw.webp (reused cache entry) (+2ms) (20/181)
+02:36:34   ▶ /_astro/hqdefault_Z1LkVEy.webp (reused cache entry) (+1ms) (21/181)
+02:36:34   ▶ /_astro/hqdefault_QsuKK.webp (reused cache entry) (+0ms) (22/181)
+02:36:34   ▶ /_astro/hqdefault_Z11RAnn.webp (reused cache entry) (+1ms) (23/181)
+02:36:34   ▶ /_astro/hqdefault_Z8NHcz.webp (reused cache entry) (+1ms) (24/181)
+02:36:34   ▶ /_astro/hqdefault_1Epexp.webp (reused cache entry) (+1ms) (25/181)
+02:36:34   ▶ /_astro/hqdefault_hTTWx.webp (reused cache entry) (+1ms) (26/181)
+02:36:34   ▶ /_astro/hqdefault_1CKuqy.webp (reused cache entry) (+2ms) (27/181)
+02:36:34   ▶ /_astro/hqdefault_1hrILI.webp (reused cache entry) (+0ms) (28/181)
+02:36:34   ▶ /_astro/hqdefault_1VF48s.webp (reused cache entry) (+0ms) (29/181)
+02:36:34   ▶ /_astro/hqdefault_ZWvTPO.webp (reused cache entry) (+0ms) (30/181)
+02:36:34   ▶ /_astro/hqdefault_1Ga2h5.webp (reused cache entry) (+0ms) (31/181)
+02:36:34   ▶ /_astro/hqdefault_27NRnV.webp (reused cache entry) (+1ms) (32/181)
+02:36:34   ▶ /_astro/hqdefault_Z2dFI89.webp (reused cache entry) (+0ms) (33/181)
+02:36:34   ▶ /_astro/hqdefault_1Sibso.webp (reused cache entry) (+1ms) (34/181)
+02:36:34   ▶ /_astro/hqdefault_Zjz0rL.webp (reused cache entry) (+1ms) (35/181)
+02:36:34   ▶ /_astro/hqdefault_CdnCa.webp (reused cache entry) (+0ms) (36/181)
+02:36:34   ▶ /_astro/hqdefault_ZuiY8D.webp (reused cache entry) (+0ms) (37/181)
+02:36:34   ▶ /_astro/hqdefault_Z2tV8Ft.webp (reused cache entry) (+0ms) (38/181)
+02:36:34   ▶ /_astro/hqdefault_Z6w0Fj.webp (reused cache entry) (+1ms) (39/181)
+02:36:34   ▶ /_astro/hqdefault_ZHP6Sf.webp (reused cache entry) (+1ms) (40/181)
+02:36:34   ▶ /_astro/hqdefault_2wwnEK.webp (reused cache entry) (+1ms) (41/181)
+02:36:34   ▶ /_astro/hqdefault_4fNRi.webp (reused cache entry) (+1ms) (42/181)
+02:36:34   ▶ /_astro/hqdefault_ZPl5fp.webp (reused cache entry) (+1ms) (43/181)
+02:36:34   ▶ /_astro/hqdefault_Z6dUWH.webp (reused cache entry) (+1ms) (44/181)
+02:36:34   ▶ /_astro/hqdefault_19IDrT.webp (reused cache entry) (+2ms) (45/181)
+02:36:34   ▶ /_astro/hqdefault_Z2aAETc.webp (reused cache entry) (+1ms) (46/181)
+02:36:34   ▶ /_astro/hqdefault_ZjPGIK.webp (reused cache entry) (+1ms) (47/181)
+02:36:34   ▶ /_astro/hqdefault_Z1iGQGV.webp (reused cache entry) (+1ms) (48/181)
+02:36:34   ▶ /_astro/hqdefault_Zk3TGx.webp (reused cache entry) (+1ms) (49/181)
+02:36:34   ▶ /_astro/hqdefault_nUjyU.webp (reused cache entry) (+1ms) (50/181)
+02:36:34   ▶ /_astro/hqdefault_Zppu0y.webp (reused cache entry) (+1ms) (51/181)
+02:36:34   ▶ /_astro/hqdefault_UYgCE.webp (reused cache entry) (+1ms) (52/181)
+02:36:34   ▶ /_astro/hqdefault_Z1JITKR.webp (reused cache entry) (+2ms) (53/181)
+02:36:34   ▶ /_astro/hqdefault_nkvN0.webp (reused cache entry) (+1ms) (54/181)
+02:36:34   ▶ /_astro/hqdefault_lWLpS.webp (reused cache entry) (+0ms) (55/181)
+02:36:34   ▶ /_astro/hqdefault_Z1cQeH8.webp (reused cache entry) (+0ms) (56/181)
+02:36:34   ▶ /_astro/hqdefault_Z2jwaI3.webp (reused cache entry) (+0ms) (57/181)
+02:36:34   ▶ /_astro/hqdefault_ZcjAS9.webp (reused cache entry) (+0ms) (58/181)
+02:36:34   ▶ /_astro/hqdefault_5wHcB.webp (reused cache entry) (+0ms) (59/181)
+02:36:34   ▶ /_astro/hqdefault_Z1qUfof.webp (reused cache entry) (+0ms) (60/181)
+02:36:34   ▶ /_astro/hqdefault_2fpYjX.webp (reused cache entry) (+0ms) (61/181)
+02:36:34   ▶ /_astro/hqdefault_54mUF.webp (reused cache entry) (+0ms) (62/181)
+02:36:34   ▶ /_astro/hqdefault_22LSE1.webp (reused cache entry) (+1ms) (63/181)
+02:36:34   ▶ /_astro/hqdefault_Z2dG1lj.webp (reused cache entry) (+1ms) (64/181)
+02:36:34   ▶ /_astro/hqdefault_ZBbd1z.webp (reused cache entry) (+1ms) (65/181)
+02:36:34   ▶ /_astro/hqdefault_LhEVu.webp (reused cache entry) (+1ms) (66/181)
+02:36:34   ▶ /_astro/hqdefault_1GvLVF.webp (reused cache entry) (+1ms) (67/181)
+02:36:34   ▶ /_astro/hqdefault_1D250t.webp (reused cache entry) (+0ms) (68/181)
+02:36:34   ▶ /_astro/hqdefault_ZdmQ6X.webp (reused cache entry) (+0ms) (69/181)
+02:36:34   ▶ /_astro/hqdefault_csSag.webp (reused cache entry) (+0ms) (70/181)
+02:36:34   ▶ /_astro/hqdefault_y0dME.webp (reused cache entry) (+1ms) (71/181)
+02:36:34   ▶ /_astro/hqdefault_Z1UwcL4.webp (reused cache entry) (+0ms) (72/181)
+02:36:34   ▶ /_astro/hqdefault_2kUzFB.webp (reused cache entry) (+0ms) (73/181)
+02:36:34   ▶ /_astro/hqdefault_Z134tJw.webp (reused cache entry) (+0ms) (74/181)
+02:36:34   ▶ /_astro/hqdefault_Z2negbg.webp (reused cache entry) (+0ms) (75/181)
+02:36:34   ▶ /_astro/hqdefault_2qDvLs.webp (reused cache entry) (+0ms) (76/181)
+02:36:34   ▶ /_astro/hqdefault_2iLLYs.webp (reused cache entry) (+0ms) (77/181)
+02:36:34   ▶ /_astro/hqdefault_Z8gOuF.webp (reused cache entry) (+0ms) (78/181)
+02:36:34   ▶ /_astro/hqdefault_1WItFD.webp (reused cache entry) (+1ms) (79/181)
+02:36:34   ▶ /_astro/hqdefault_YYQNx.webp (reused cache entry) (+0ms) (80/181)
+02:36:34   ▶ /_astro/hqdefault_3c4H6.webp (reused cache entry) (+0ms) (81/181)
+02:36:34   ▶ /_astro/hqdefault_z8EC6.webp (reused cache entry) (+0ms) (82/181)
+02:36:34   ▶ /_astro/hqdefault_Z1IOQX1.webp (reused cache entry) (+1ms) (83/181)
+02:36:34   ▶ /_astro/hqdefault_Z1Ky4i2.webp (reused cache entry) (+0ms) (84/181)
+02:36:34   ▶ /_astro/hqdefault_Z1CTFBT.webp (reused cache entry) (+0ms) (85/181)
+02:36:34   ▶ /_astro/hqdefault_Z1V09Db.webp (reused cache entry) (+0ms) (86/181)
+02:36:34   ▶ /_astro/hqdefault_ZCdYnj.webp (reused cache entry) (+0ms) (87/181)
+02:36:34   ▶ /_astro/hqdefault_Fzpf3.webp (reused cache entry) (+0ms) (88/181)
+02:36:34   ▶ /_astro/hqdefault_Z2dlr0p.webp (reused cache entry) (+0ms) (89/181)
+02:36:34   ▶ /_astro/hqdefault_ZDubOW.webp (reused cache entry) (+0ms) (90/181)
+02:36:34   ▶ /_astro/hqdefault_Tox8H.webp (reused cache entry) (+0ms) (91/181)
+02:36:34   ▶ /_astro/hqdefault_Z1uXFoh.webp (reused cache entry) (+0ms) (92/181)
+02:36:34   ▶ /_astro/hqdefault_Z1EqjdE.webp (reused cache entry) (+0ms) (93/181)
+02:36:34   ▶ /_astro/hqdefault_2ehcDx.webp (reused cache entry) (+0ms) (94/181)
+02:36:34   ▶ /_astro/hqdefault_1aTdcQ.webp (reused cache entry) (+0ms) (95/181)
+02:36:34   ▶ /_astro/hqdefault_Z1DrBjF.webp (reused cache entry) (+0ms) (96/181)
+02:36:34   ▶ /_astro/hqdefault_jb6KV.webp (reused cache entry) (+0ms) (97/181)
+02:36:34   ▶ /_astro/hqdefault_LhuQs.webp (reused cache entry) (+0ms) (98/181)
+02:36:34   ▶ /_astro/hqdefault_Zj1yDH.webp (reused cache entry) (+0ms) (99/181)
+02:36:34   ▶ /_astro/hqdefault_ZUYxAu.webp (reused cache entry) (+0ms) (100/181)
+02:36:34   ▶ /_astro/hqdefault_Z1gY5pN.webp (reused cache entry) (+0ms) (101/181)
+02:36:34   ▶ /_astro/hqdefault_Z18jHUx.webp (reused cache entry) (+0ms) (102/181)
+02:36:34   ▶ /_astro/hqdefault_9CKPg.webp (reused cache entry) (+0ms) (103/181)
+02:36:34   ▶ /_astro/hqdefault_2cxcT.webp (reused cache entry) (+0ms) (104/181)
+02:36:34   ▶ /_astro/hqdefault_Z1Rchtu.webp (reused cache entry) (+0ms) (105/181)
+02:36:34   ▶ /_astro/hqdefault_1tR1pB.webp (reused cache entry) (+1ms) (106/181)
+02:36:34   ▶ /_astro/hqdefault_1LqJda.webp (reused cache entry) (+0ms) (107/181)
+02:36:34   ▶ /_astro/hqdefault_1Q2o8h.webp (reused cache entry) (+0ms) (108/181)
+02:36:34   ▶ /_astro/hqdefault_Z1QPjhB.webp (reused cache entry) (+0ms) (109/181)
+02:36:34   ▶ /_astro/hqdefault_Zq3K2D.webp (reused cache entry) (+0ms) (110/181)
+02:36:34   ▶ /_astro/hqdefault_1TKhCs.webp (reused cache entry) (+0ms) (111/181)
+02:36:34   ▶ /_astro/hqdefault_ZA9bWM.webp (reused cache entry) (+1ms) (112/181)
+02:36:34   ▶ /_astro/hqdefault_vCspx.webp (reused cache entry) (+1ms) (113/181)
+02:36:34   ▶ /_astro/hqdefault_yWL4x.webp (reused cache entry) (+1ms) (114/181)
+02:36:34   ▶ /_astro/hqdefault_UxOIM.webp (reused cache entry) (+1ms) (115/181)
+02:36:34   ▶ /_astro/hqdefault_1sCxi2.webp (reused cache entry) (+0ms) (116/181)
+02:36:34   ▶ /_astro/hqdefault_Z2EiBQ.webp (reused cache entry) (+0ms) (117/181)
+02:36:34   ▶ /_astro/hqdefault_Z1kaRLn.webp (reused cache entry) (+0ms) (118/181)
+02:36:34   ▶ /_astro/hqdefault_Zc75Te.webp (reused cache entry) (+0ms) (119/181)
+02:36:34   ▶ /_astro/hqdefault_1F0HcP.webp (reused cache entry) (+0ms) (120/181)
+02:36:34   ▶ /_astro/hqdefault_ZCkhaJ.webp (reused cache entry) (+0ms) (121/181)
+02:36:34   ▶ /_astro/hqdefault_Z2bDVjN.webp (reused cache entry) (+0ms) (122/181)
+02:36:34   ▶ /_astro/hqdefault_Z2nAdlI.webp (reused cache entry) (+0ms) (123/181)
+02:36:34   ▶ /_astro/hqdefault_Z27dF1z.webp (reused cache entry) (+0ms) (124/181)
+02:36:34   ▶ /_astro/hqdefault_6eArM.webp (reused cache entry) (+0ms) (125/181)
+02:36:34   ▶ /_astro/hqdefault_1TfM2i.webp (reused cache entry) (+0ms) (126/181)
+02:36:34   ▶ /_astro/hqdefault_1RMPdR.webp (reused cache entry) (+0ms) (127/181)
+02:36:34   ▶ /_astro/hqdefault_Z1tMH4O.webp (reused cache entry) (+0ms) (128/181)
+02:36:34   ▶ /_astro/hqdefault_1DSeLL.webp (reused cache entry) (+0ms) (129/181)
+02:36:34   ▶ /_astro/hqdefault_14SAv6.webp (reused cache entry) (+0ms) (130/181)
+02:36:34   ▶ /_astro/hqdefault_Z2djr7M.webp (reused cache entry) (+0ms) (131/181)
+02:36:34   ▶ /_astro/hqdefault_Z1Qzz2n.webp (reused cache entry) (+0ms) (132/181)
+02:36:34   ▶ /_astro/hqdefault_Z1bQxEQ.webp (reused cache entry) (+0ms) (133/181)
+02:36:34   ▶ /_astro/hqdefault_Z2hqih3.webp (reused cache entry) (+0ms) (134/181)
+02:36:34   ▶ /_astro/hqdefault_ZVEQpl.webp (reused cache entry) (+0ms) (135/181)
+02:36:34   ▶ /_astro/hqdefault_rYlpl.webp (reused cache entry) (+0ms) (136/181)
+02:36:34   ▶ /_astro/hqdefault_ZPyhxL.webp (reused cache entry) (+0ms) (137/181)
+02:36:34   ▶ /_astro/hqdefault_Z1IrTB3.webp (reused cache entry) (+0ms) (138/181)
+02:36:34   ▶ /_astro/hqdefault_1mqbiK.webp (reused cache entry) (+0ms) (139/181)
+02:36:34   ▶ /_astro/hqdefault_ZnQpvo.webp (reused cache entry) (+0ms) (140/181)
+02:36:34   ▶ /_astro/hqdefault_2ev3i6.webp (reused cache entry) (+0ms) (141/181)
+02:36:34   ▶ /_astro/hqdefault_12YCHf.webp (reused cache entry) (+0ms) (142/181)
+02:36:34   ▶ /_astro/hqdefault_1TqRFy.webp (reused cache entry) (+0ms) (143/181)
+02:36:34   ▶ /_astro/hqdefault_1BLPJU.webp (reused cache entry) (+0ms) (144/181)
+02:36:34   ▶ /_astro/hqdefault_Z5cyaP.webp (reused cache entry) (+0ms) (145/181)
+02:36:34   ▶ /_astro/hqdefault_Z22BoAs.webp (reused cache entry) (+0ms) (146/181)
+02:36:34   ▶ /_astro/hqdefault_ZgvifT.webp (reused cache entry) (+0ms) (147/181)
+02:36:34   ▶ /_astro/hqdefault_Z1rdgG9.webp (reused cache entry) (+0ms) (148/181)
+02:36:34   ▶ /_astro/hqdefault_Z1X45e1.webp (reused cache entry) (+0ms) (149/181)
+02:36:34   ▶ /_astro/hqdefault_ZbqSxC.webp (reused cache entry) (+0ms) (150/181)
+02:36:34   ▶ /_astro/hqdefault_Z2boUiP.webp (reused cache entry) (+0ms) (151/181)
+02:36:34   ▶ /_astro/hqdefault_1jf9Ea.webp (reused cache entry) (+0ms) (152/181)
+02:36:34   ▶ /_astro/hqdefault_1tru0k.webp (reused cache entry) (+0ms) (153/181)
+02:36:34   ▶ /_astro/hqdefault_ZR7TVn.webp (reused cache entry) (+0ms) (154/181)
+02:36:34   ▶ /_astro/hqdefault_1GClkO.webp (reused cache entry) (+0ms) (155/181)
+02:36:34   ▶ /_astro/hqdefault_ZbEwyK.webp (reused cache entry) (+0ms) (156/181)
+02:36:34   ▶ /_astro/hqdefault_Z1lw0Vb.webp (reused cache entry) (+0ms) (157/181)
+02:36:34   ▶ /_astro/hqdefault_Ix4EW.webp (reused cache entry) (+0ms) (158/181)
+02:36:34   ▶ /_astro/hqdefault_1XeKHn.webp (reused cache entry) (+0ms) (159/181)
+02:36:34   ▶ /_astro/hqdefault_2mo7hB.webp (reused cache entry) (+1ms) (160/181)
+02:36:34   ▶ /_astro/hqdefault_1l5FSU.webp (reused cache entry) (+1ms) (161/181)
+02:36:34   ▶ /_astro/hqdefault_hD27F.webp (reused cache entry) (+1ms) (162/181)
+02:36:34   ▶ /_astro/hqdefault_Z1L1WW1.webp (reused cache entry) (+1ms) (163/181)
+02:36:34   ▶ /_astro/hqdefault_aJ1A.webp (reused cache entry) (+0ms) (164/181)
+02:36:34   ▶ /_astro/hqdefault_1rFLpA.webp (reused cache entry) (+0ms) (165/181)
+02:36:34   ▶ /_astro/hqdefault_DjjQp.webp (reused cache entry) (+0ms) (166/181)
+02:36:34   ▶ /_astro/hqdefault_ZkegNh.webp (reused cache entry) (+0ms) (167/181)
+02:36:34   ▶ /_astro/hqdefault_gcW4z.webp (reused cache entry) (+0ms) (168/181)
+02:36:34   ▶ /_astro/hqdefault_1pbWJi.webp (reused cache entry) (+0ms) (169/181)
+02:36:34   ▶ /_astro/hqdefault_ZT2w1I.webp (reused cache entry) (+0ms) (170/181)
+02:36:34   ▶ /_astro/hqdefault_Z1tTTop.webp (reused cache entry) (+0ms) (171/181)
+02:36:34   ▶ /_astro/hqdefault_AttPH.webp (reused cache entry) (+1ms) (172/181)
+02:36:34   ▶ /_astro/hqdefault_l0kqw.webp (reused cache entry) (+0ms) (173/181)
+02:36:34   ▶ /_astro/hqdefault_5VHax.webp (reused cache entry) (+0ms) (174/181)
+02:36:34   ▶ /_astro/hqdefault_1kT0MW.webp (reused cache entry) (+0ms) (175/181)
+02:36:34   ▶ /_astro/hqdefault_2uiO1N.webp (reused cache entry) (+0ms) (176/181)
+02:36:34   ▶ /_astro/hqdefault_1nnb0g.webp (reused cache entry) (+0ms) (177/181)
+02:36:34   ▶ /_astro/hqdefault_Z1nTw2z.webp (reused cache entry) (+0ms) (178/181)
+02:36:34   ▶ /_astro/hqdefault_ZUg1BD.webp (reused cache entry) (+0ms) (179/181)
+02:36:34   ▶ /_astro/hqdefault_210URg.webp (reused cache entry) (+1ms) (180/181)
+02:36:34   ▶ /_astro/hqdefault_2oLdXI.webp (reused cache entry) (+1ms) (181/181)
+02:36:34 ✓ Completed in 26ms.
+
+02:36:34 [@astrojs/sitemap] `sitemap-index.xml` created at `dist`
+02:36:34 [build] 229 page(s) built in 22.34s
+02:36:34 [build] Complete!
+
+Running 168 tests using 2 workers
+
+(node:2966) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+
+
+(node:2965) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+
+
+(node:2966) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+
+
+(node:2965) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+
+
+[1/168] [chromium] › e2e/404.spec.ts:9:3 › 404 Page › 404 heading does not overflow on mobile
+[2/168] [chromium] › e2e/404.spec.ts:4:3 › 404 Page › 404 page loads successfully
+[3/168] [chromium] › e2e/404.spec.ts:26:3 › 404 Page › 404 page elements are visible on mobile
+[4/168] [chromium] › e2e/404.spec.ts:36:3 › 404 Page › 404 phrase text is displayed
+[5/168] [chromium] › e2e/404.spec.ts:44:3 › 404 Page › 404 page works on tablet
+[6/168] [chromium] › e2e/a11y-structure.spec.ts:16:5 › Skip link › / offers a skip link that reaches main
+[7/168] [chromium] › e2e/a11y-structure.spec.ts:16:5 › Skip link › /episodes offers a skip link that reaches main
+[8/168] [chromium] › e2e/a11y-structure.spec.ts:16:5 › Skip link › /episodes/2024 offers a skip link that reaches main
+[9/168] [chromium] › e2e/a11y-structure.spec.ts:16:5 › Skip link › /tags offers a skip link that reaches main
+[10/168] [chromium] › e2e/a11y-structure.spec.ts:16:5 › Skip link › /tags/astro offers a skip link that reaches main
+[11/168] [chromium] › e2e/a11y-structure.spec.ts:16:5 › Skip link › /about offers a skip link that reaches main
+[12/168] [chromium] › e2e/a11y-structure.spec.ts:40:5 › Heading order › /episodes has one h1 and no skipped heading level
+[13/168] [chromium] › e2e/a11y-structure.spec.ts:40:5 › Heading order › / has one h1 and no skipped heading level
+[14/168] [chromium] › e2e/a11y-structure.spec.ts:40:5 › Heading order › /episodes/2024 has one h1 and no skipped heading level
+[15/168] [chromium] › e2e/a11y-structure.spec.ts:40:5 › Heading order › /tags has one h1 and no skipped heading level
+[16/168] [chromium] › e2e/a11y-structure.spec.ts:40:5 › Heading order › /tags/astro has one h1 and no skipped heading level
+[17/168] [chromium] › e2e/a11y-structure.spec.ts:40:5 › Heading order › /about has one h1 and no skipped heading level
+[18/168] [chromium] › e2e/a11y-structure.spec.ts:93:5 › Current page is marked in the main navigation › / marks every header destination correctly
+[19/168] [chromium] › e2e/a11y-structure.spec.ts:93:5 › Current page is marked in the main navigation › /episodes marks every header destination correctly
+[20/168] [chromium] › e2e/a11y-structure.spec.ts:93:5 › Current page is marked in the main navigation › /tags marks every header destination correctly
+[21/168] [chromium] › e2e/a11y-structure.spec.ts:93:5 › Current page is marked in the main navigation › /partners marks every header destination correctly
+[22/168] [chromium] › e2e/a11y-structure.spec.ts:93:5 › Current page is marked in the main navigation › /about marks every header destination correctly
+[23/168] [chromium] › e2e/a11y-structure.spec.ts:93:5 › Current page is marked in the main navigation › /subscribe marks every header destination correctly
+[24/168] [chromium] › e2e/a11y-structure.spec.ts:93:5 › Current page is marked in the main navigation › /episodes/2024 marks every header destination correctly
+[25/168] [chromium] › e2e/a11y-structure.spec.ts:93:5 › Current page is marked in the main navigation › /tags/astro marks every header destination correctly
+[26/168] [chromium] › e2e/a11y-structure.spec.ts:115:3 › Current page is marked in the main navigation › the current destination is reachable by its accessible name
+[27/168] [chromium] › e2e/a11y-structure.spec.ts:141:5 › Current page is marked in the main navigation › /episodes/2024 marks "Episode" as an ancestor, not as the page
+[28/168] [chromium] › e2e/a11y-structure.spec.ts:141:5 › Current page is marked in the main navigation › /tags/astro marks "Topik" as an ancestor, not as the page
+[29/168] [chromium] › e2e/a11y-structure.spec.ts:153:3 › Current page is marked in the main navigation › an episode page marks the section without claiming to be it
+[30/168] [chromium] › e2e/a11y-structure.spec.ts:167:3 › Current page is marked in the main navigation › a nav item that is not the current page carries no aria-current
+[31/168] [chromium] › e2e/a11y-structure.spec.ts:178:3 › Interface language › the episode breadcrumb is in Indonesian
+[32/168] [chromium] › e2e/a11y-structure.spec.ts:190:3 › Interface language › tag tiles do not use an English plural
+[33/168] [chromium] › e2e/comments.spec.ts:4:3 › Comments Section › comments section is displayed on episode page
+[34/168] [chromium] › e2e/comments.spec.ts:12:3 › Comments Section › utterances widget is loaded
+[35/168] [chromium] › e2e/comments.spec.ts:29:3 › Comments Section › comments section appears before navigation
+[36/168] [chromium] › e2e/episode-partners-link.spec.ts:38:3 › Every episode page reaches /partners › the whole built archive carries the link, not just a sampled page
+[37/168] [chromium] › e2e/episode-partners-link.spec.ts:77:3 › Every episode page reaches /partners › the link is measurable, like the two asks either side of it
+[38/168] [chromium] › e2e/episode-partners-link.spec.ts:101:3 › Every episode page reaches /partners › it stays quieter than the subscribe CTA
+[39/168] [chromium] › e2e/episode-subscribe.spec.ts:14:3 › Subscribing from an episode page › offers a choice of platform, not another YouTube button
+[40/168] [chromium] › e2e/episode-subscribe.spec.ts:32:3 › Subscribing from an episode page › sits after the related episodes, where the episode ends
+[41/168] [chromium] › e2e/episode-subscribe.spec.ts:47:3 › Subscribing from an episode page › the homepage keeps the one-click YouTube path
+[42/168] [chromium] › e2e/episode-topics.spec.ts:46:3 › Episode topics › a tagged episode links each of its topics
+[43/168] [chromium] › e2e/episode-topics.spec.ts:58:3 › Episode topics › a topic link actually reaches its tag page
+[44/168] [chromium] › e2e/episode-topics.spec.ts:70:3 › Episode topics › an episode with no tags renders no empty topic shell
+[45/168] [chromium] › e2e/episode-topics.spec.ts:78:3 › Episode topics › every topic link on an episode page resolves
+[46/168] [chromium] › e2e/episode.spec.ts:31:3 › Episode Page › episode page loads when clicking an episode
+[47/168] [chromium] › e2e/episode.spec.ts:39:3 › Episode Page › episode details are shown
+[48/168] [chromium] › e2e/episode.spec.ts:48:3 › Episode Page › episode page has breadcrumb navigation
+[49/168] [chromium] › e2e/episode.spec.ts:61:3 › Episode Page › episode page shows episode number badge
+[50/168] [chromium] › e2e/episode.spec.ts:73:3 › Episode Page › transcript search filters segments in real-time
+[51/168] [chromium] › e2e/episode.spec.ts:96:3 › Episode Page › transcript timestamps have seek buttons
+[52/168] [chromium] › e2e/episodes-by-year.spec.ts:4:3 › Episodes by Year › main episodes page shows year tabs
+[53/168] [chromium] › e2e/episodes-by-year.spec.ts:16:3 › Episodes by Year › main episodes page shows all episodes
+[54/168] [chromium] › e2e/episodes-by-year.spec.ts:26:3 › Episodes by Year › clicking year tab navigates to year page
+[55/168] [chromium] › e2e/episodes-by-year.spec.ts:51:3 › Episodes by Year › year page shows only episodes from that year
+[56/168] [chromium] › e2e/episodes-by-year.spec.ts:67:3 › Episodes by Year › year page has correct active tab
+[57/168] [chromium] › e2e/episodes-by-year.spec.ts:75:3 › Episodes by Year › invalid year returns 404
+[58/168] [chromium] › e2e/episodes-by-year.spec.ts:80:3 › Episodes by Year › non-numeric year returns 404
+[59/168] [chromium] › e2e/episodes-by-year.spec.ts:85:3 › Episodes by Year › search on year page only searches that year
+[60/168] [chromium] › e2e/github-footer-link.spec.ts:3:1 › GitHub footer link exists and navigates correctly
+[61/168] [chromium] › e2e/home-archive.spec.ts:12:3 › Homepage opens onto the archive › states the scale of the archive
+[62/168] [chromium] › e2e/home-archive.spec.ts:21:3 › Homepage opens onto the archive › offers search from the front door
+[63/168] [chromium] › e2e/home-archive.spec.ts:35:3 › Homepage opens onto the archive › links into topic pages
+[64/168] [chromium] › e2e/home-archive.spec.ts:50:3 › Homepage opens onto the archive › every homepage topic link resolves
+[65/168] [chromium] › e2e/home-archive.spec.ts:63:3 › Homepage opens onto the archive › links into every year of the archive
+[66/168] [chromium] › e2e/home-archive.spec.ts:77:3 › Homepage opens onto the archive › still shows recent episodes and a way to see them all
+[67/168] [chromium] › e2e/home-archive.spec.ts:84:3 › Homepage opens onto the archive › offers subscribing without going to another page first
+[68/168] [chromium] › e2e/home-archive.spec.ts:89:3 › Homepage opens onto the archive › the archive paths survive a client-side navigation back home
+[69/168] [chromium] › e2e/home.spec.ts:4:3 › Homepage › homepage loads successfully
+[70/168] [chromium] › e2e/home.spec.ts:9:3 › Homepage › recent episodes are displayed
+[71/168] [chromium] › e2e/home.spec.ts:16:3 › Homepage › navigation elements exist
+[72/168] [chromium] › e2e/home.spec.ts:23:3 › Homepage › hero section displays correctly
+[73/168] [chromium] › e2e/offline-badge.spec.ts:14:3 › Offline badge runtime › ships exactly one copy of the script on a 178-card page
+[74/168] [chromium] › e2e/offline-badge.spec.ts:24:3 › Offline badge runtime › opens the cache once, not once per badge
+[75/168] [chromium] › e2e/offline-badge.spec.ts:44:3 › Offline badge runtime › badges still render on every card
+[76/168] [chromium] › e2e/offline-badge.spec.ts:51:3 › Offline badge runtime › the runtime survives a client-side navigation
+[77/168] [chromium] › e2e/og-card.spec.ts:26:5 › Share artefacts › /og-image.png is served as a PNG
+[78/168] [chromium] › e2e/og-card.spec.ts:26:5 › Share artefacts › /og-logo.png is served as a PNG
+[79/168] [chromium] › e2e/og-card.spec.ts:36:3 › Share artefacts › the retired hand-made files are gone from the build
+[80/168] [chromium] › e2e/og-card.spec.ts:40:3 › Share artefacts › the share card stays under the size WhatsApp will fetch
+[81/168] [chromium] › e2e/og-card.spec.ts:52:3 › Share metadata › the home page declares the card and its dimensions
+[82/168] [chromium] › e2e/og-card.spec.ts:72:3 › Share metadata › a page with its own card declares one set of dimensions, not two
+[83/168] [chromium] › e2e/og-card.spec.ts:88:3 › RSS channel image › points at a PNG, which is all RSS 2.0 allows
+[84/168] [chromium] › e2e/og-card.spec.ts:99:3 › RSS channel image › its link matches the channel link exactly
+[85/168] [chromium] › e2e/og-card.spec.ts:112:3 › RSS channel image › the logo fits the width the spec allows for a channel image
+[86/168] [chromium] › e2e/og-card.spec.ts:126:3 › RSS channel image › declares the dimensions, so the square logo is not drawn at 88x31
+[87/168] [chromium] › e2e/partners-metrics.spec.ts:78:3 › Partners sponsor metrics › episode count is derived, not hardcoded
+[88/168] [chromium] › e2e/partners-metrics.spec.ts:91:3 › Partners sponsor metrics › the unverifiable per-episode views claim is gone from the build
+[89/168] [chromium] › e2e/partners-metrics.spec.ts:102:3 › Partners sponsor metrics › renders the four sourced tiles
+[90/168] [chromium] › e2e/partners-metrics.spec.ts:133:3 › Partners sponsor metrics › supporting figures and a dated attribution are visible
+[91/168] [chromium] › e2e/partners-metrics.spec.ts:161:3 › Partners sponsor metrics › the derived subscriber figure carries its own date and says it is automatic
+[92/168] [chromium] › e2e/partners-metrics.spec.ts:179:3 › Partners sponsor metrics › channel figures are attributed to the channel, not the show
+[93/168] [chromium] › e2e/partners-metrics.spec.ts:202:3 › Partners sponsor metrics › the consistency card states a derived start year, not a tenure count
+[94/168] [chromium] › e2e/partners-metrics.spec.ts:216:3 › Partners sponsor metrics › excluded media-kit figures are absent
+[95/168] [chromium] › e2e/partners-seo.spec.ts:27:3 › Partners page — what a sponsor searches for › the title names the show and what it sells
+[96/168] [chromium] › e2e/partners-seo.spec.ts:39:3 › Partners page — what a sponsor searches for › the meta description states the offer and the derived figures
+[97/168] [chromium] › e2e/partners-seo.spec.ts:56:3 › Partners page — what a sponsor searches for › there is exactly one h1 and it reads as the sponsorship offer
+[98/168] [chromium] › e2e/partners-seo.spec.ts:68:3 › Partners page — what a sponsor searches for › the opening copy covers the phrases a partnerships lead would use
+[99/168] [chromium] › e2e/partners-seo.spec.ts:79:3 › Partners page — what a sponsor searches for › the JSON-LD WebPage node describes this page, not the site default
+[100/168] [chromium] › e2e/partners-seo.spec.ts:114:3 › Partners page — what a sponsor searches for › the share card is referenced absolutely and is actually reachable
+[101/168] [chromium] › e2e/partners-seo.spec.ts:148:3 › Partners page — what a sponsor searches for › the share card exists in the build output
+[102/168] [chromium] › e2e/partners-seo.spec.ts:159:3 › Partners page — what a sponsor searches for › the page no longer falls back to the site-wide share image
+[103/168] [chromium] › e2e/partners-seo.spec.ts:172:3 › Partners page — making contact unmissable › every call to action reaches the same contact address
+[104/168] [chromium] › e2e/partners-seo.spec.ts:189:3 › Partners page — making contact unmissable › the address is readable as text, not only as a link target
+[105/168] [chromium] › e2e/partners-seo.spec.ts:199:3 › Partners page — making contact unmissable › a convinced reader finds a CTA right after the packages
+[106/168] [chromium] › e2e/partners-seo.spec.ts:210:5 › Partners page — findable from the rest of the site › /about links to /partners
+[107/168] [chromium] › e2e/partners-seo.spec.ts:210:5 › Partners page — findable from the rest of the site › /subscribe links to /partners
+[108/168] [chromium] › e2e/scroll-buttons-palette.spec.ts:16:3 › Scroll buttons belong to the dark palette › wear the palette surface, and cast no shadow at rest
+[109/168] [chromium] › e2e/scroll-buttons-palette.spec.ts:48:3 › Scroll buttons belong to the dark palette › are labelled in Indonesian
+[110/168] [chromium] › e2e/scroll-buttons-palette.spec.ts:57:3 › Scroll buttons belong to the dark palette › stay out of the thumb zone on a phone
+[111/168] [chromium] › e2e/scroll-buttons-palette.spec.ts:64:3 › Scroll buttons belong to the dark palette › still work on a desktop viewport
+[112/168] [chromium] › e2e/scroll-buttons.spec.ts:8:3 › ScrollButtons › should render scroll buttons on initial page load
+[113/168] [chromium] › e2e/scroll-buttons.spec.ts:23:3 › ScrollButtons › should scroll to top when button is clicked
+[114/168] [chromium] › e2e/scroll-buttons.spec.ts:43:3 › ScrollButtons › should scroll to bottom when button is clicked
+[115/168] [chromium] › e2e/scroll-buttons.spec.ts:65:3 › ScrollButtons › should work after view transition navigation
+[116/168] [chromium] › e2e/scroll-buttons.spec.ts:98:3 › ScrollButtons › uses auto behavior when reduced motion is preferred
+[117/168] [chromium] › e2e/scroll-buttons.spec.ts:122:3 › ScrollButtons › cleans up previous scroll listeners after view transitions
+[118/168] [chromium] › e2e/search.spec.ts:21:3 › Episode search › typing filters the episode grid
+[119/168] [chromium] › e2e/search.spec.ts:36:3 › Episode search › result count is announced
+[120/168] [chromium] › e2e/search.spec.ts:43:3 › Episode search › clearing the query restores every episode in publication order
+[121/168] [chromium] › e2e/search.spec.ts:73:3 › Episode search › ranks the best match first in the DOM, not just visually
+[122/168] [chromium] › e2e/search.spec.ts:92:3 › Episode search › a two-character query finds episodes without matching the archive
+[123/168] [chromium] › e2e/search.spec.ts:105:3 › Episode search › a query with no matches shows the empty state
+[124/168] [chromium] › e2e/search.spec.ts:113:3 › Episode search › the ?q= deep link prefills and filters
+[125/168] [chromium] › e2e/search.spec.ts:122:3 › Episode search › search works on a year page
+[126/168] [chromium] › e2e/search.spec.ts:134:3 › Episode search › search still works after a client-side navigation
+[127/168] [chromium] › e2e/search.spec.ts:152:3 › Episode search › pressing "/" or "Cmd+K" focuses search input, and Escape blurs
+[128/168] [chromium] › e2e/search.spec.ts:170:3 › Search reaches summary key points › finds an episode by a term that only appears in its key points
+[129/168] [chromium] › e2e/search.spec.ts:203:3 › Out-of-line search index › /episodes no longer inlines the index
+[130/168] [chromium] › e2e/search.spec.ts:214:3 › Out-of-line search index › the index is served as its own JSON file
+[131/168] [chromium] › e2e/search.spec.ts:230:3 › Out-of-line search index › search filters once the fetched index lands
+[132/168] [chromium] › e2e/search.spec.ts:249:3 › Out-of-line search index › a query typed before a slow index resolves is still applied
+[133/168] [chromium] › e2e/search.spec.ts:272:3 › Out-of-line search index › a failed index still filters by title and says so
+[134/168] [chromium] › e2e/search.spec.ts:291:3 › Out-of-line search index › an unparseable index degrades the same way
+[135/168] [chromium] › e2e/search.spec.ts:312:3 › Out-of-line search index › the index is fetched once across a client-side navigation
+[136/168] [chromium] › e2e/search.spec.ts:340:3 › Out-of-line search index › a year page searches only the episodes it rendered
+[137/168] [chromium] › e2e/search.spec.ts:357:1 › the search index stays available offline once fetched
+[138/168] [chromium] › e2e/seo.spec.ts:12:5 › SEO - JSON-LD Schema › homepage should have JSON-LD script tag
+[139/168] [chromium] › e2e/seo.spec.ts:12:5 › SEO - JSON-LD Schema › about page should have JSON-LD script tag
+[140/168] [chromium] › e2e/seo.spec.ts:12:5 › SEO - JSON-LD Schema › episodes index should have JSON-LD script tag
+[141/168] [chromium] › e2e/seo.spec.ts:38:3 › SEO - JSON-LD Schema › episode page should have JSON-LD with duration
+[142/168] [chromium] › e2e/seo.spec.ts:77:3 › SEO - page titles › an episode page does not repeat the site name
+[143/168] [chromium] › e2e/service-worker.spec.ts:25:3 › Service Worker › registers service worker on first visit
+[144/168] [chromium] › e2e/service-worker.spec.ts:32:3 › Service Worker › caches visited episode pages
+[145/168] [chromium] › e2e/service-worker.spec.ts:54:3 › Service Worker › serves cached content when offline
+[146/168] [chromium] › e2e/service-worker.spec.ts:84:3 › Service Worker › shows offline page when accessing uncached content offline
+[147/168] [chromium] › e2e/service-worker.spec.ts:107:3 › Service Worker › offline page lists cached episodes
+[148/168] [chromium] › e2e/service-worker.spec.ts:137:3 › Service Worker › caches static assets
+[149/168] [chromium] › e2e/service-worker.spec.ts:153:3 › Service Worker › works with view transitions
+[150/168] [chromium] › e2e/share-buttons.spec.ts:4:3 › Share Buttons › share button works after client-side navigation
+[151/168] [chromium] › e2e/sitemap.spec.ts:3:1 › sitemap is accessible and valid
+[152/168] [chromium] › e2e/sitemap.spec.ts:12:1 › main sitemap contains all pages
+[153/168] [chromium] › e2e/sitemap.spec.ts:23:1 › homepage has highest priority
+[154/168] [chromium] › e2e/tags.spec.ts:4:3 › Tags Page › topik menu link navigates to tags page
+[155/168] [chromium] › e2e/tags.spec.ts:23:3 › Tags Page › tags page loads successfully
+[156/168] [chromium] › e2e/tags.spec.ts:33:3 › Tags Page › tags page displays tags
+[157/168] [chromium] › e2e/tags.spec.ts:43:3 › Tags Page › clicking a tag navigates to tag page with filtered episodes
+[158/168] [chromium] › e2e/transcript-provenance.spec.ts:33:3 › Transcript provenance › YouTube auto-generated transcripts are labelled
+[159/168] [chromium] › e2e/transcript-provenance.spec.ts:44:3 › Transcript provenance › transcripts without a source field still render, unlabelled
+[160/168] [chromium] › e2e/view-transitions.spec.ts:5:5 › View Transitions › Shared Element - Episode Thumbnails › thumbnail has transition scope on episode card
+[161/168] [chromium] › e2e/view-transitions.spec.ts:11:5 › View Transitions › Shared Element - Episode Thumbnails › thumbnail has transition scope on episode detail page
+[162/168] [chromium] › e2e/view-transitions.spec.ts:21:5 › View Transitions › Shared Element - Episode Thumbnails › navigation from home to episode uses shared element transition
+[163/168] [chromium] › e2e/view-transitions.spec.ts:32:5 › View Transitions › Shared Element - Episode Thumbnails › navigation from episodes list to episode uses shared element transition
+[164/168] [chromium] › e2e/view-transitions.spec.ts:44:5 › View Transitions › Fade Transitions - Other Pages › home to about uses fade transition
+[165/168] [chromium] › e2e/view-transitions.spec.ts:51:5 › View Transitions › Fade Transitions - Other Pages › home to partners uses fade transition
+[166/168] [chromium] › e2e/view-transitions.spec.ts:57:5 › View Transitions › Fade Transitions - Other Pages › home to subscribe uses fade transition
+[167/168] [chromium] › e2e/view-transitions.spec.ts:65:5 › View Transitions › View Transitions Integration › view transitions styles are loaded
+[168/168] [chromium] › e2e/view-transitions.spec.ts:73:5 › View Transitions › View Transitions Integration › astro router script is loaded
+  168 passed (37.2s)

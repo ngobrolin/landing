@@ -26,6 +26,12 @@ pnpm run preview
 
 ## Weekly ops
 
+For a status report of the whole pipeline, ask a skill-aware agent to run the `episode-pipeline`
+skill at `.agents/skills/episode-pipeline/SKILL.md` (symlinked into `.claude/skills/`). It is
+read-only by default and prepares new transcripts and summaries only when asked. It never fetches,
+uploads, merges or deploys. A read-only per-video inventory on its own:
+`pnpm exec tsx scripts/pipeline-status.ts`.
+
 Priority order for podcast distribution and content enrichment:
 
 ### High priority (podcast distribution)
@@ -74,8 +80,8 @@ Priority order for podcast distribution and content enrichment:
    ```
    - See [Transcription](#transcription) for Whisper and OpenAI alternatives
 
-2. **Summarize** — use AI tools (Amp, Claude, Gemini CLI):
-   - Reference `@SUMMARIZE.md` in your AI tool
+2. **Summarize** — use an AI tool with the `summarizing-episodes` skill:
+   - Skill-aware agents (Claude Code, Codex, Cursor, Copilot) load it from the repo; otherwise reference `@SUMMARIZE.md`, which points to it
    - Saves to `src/data/summaries/`
    - See [Summarization](#summarization) for workflow
 
@@ -361,17 +367,27 @@ Podcast RSS feed available at `/podcast-rss.xml`.
 
 ## Summarization
 
-Generate summaries using AI tools (Amp, Claude, Gemini CLI, etc.):
+Summaries are written by an AI tool following the `summarizing-episodes` skill at
+`.agents/skills/summarizing-episodes/SKILL.md` (symlinked into `.claude/skills/` for Claude
+Code). The skill is the contract: Bahasa Indonesia, the JSON shape, grounding rules, and the
+check, tag and test steps.
 
-1. Enter interactive mode with your preferred AI tool
-2. Reference the instruction file: `@SUMMARIZE.md`
-3. Ask to summarize the next episode
+1. Open the repo in a skill-aware agent (Claude Code, Codex, Cursor, Copilot) and ask it to
+   summarize the next episode. In other tools, reference `@SUMMARIZE.md`, which points to the skill.
+2. The agent finds episodes with transcripts but no summaries, writes one in Indonesian to
+   `src/data/summaries/`, and checks it.
 
-The AI will find episodes with transcripts but no summaries, generate a brief overview and key points in Indonesian, and save to `src/data/summaries/`.
+Useful commands on their own:
+
+```bash
+# Episodes with a transcript but no summary
+pnpm exec tsx scripts/check-summary.ts --missing
+
+# Check a summary (or a draft anywhere named <videoId>.json) against the contract
+pnpm exec tsx scripts/check-summary.ts src/data/summaries/<videoId>.json
+```
 
 Example:
-
-In any AI tool (Amp, Claude, Gemini CLI):
 
 ```
 > @SUMMARIZE.md please summarize the next episode

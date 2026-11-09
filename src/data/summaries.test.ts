@@ -1,11 +1,16 @@
 import { describe, it, expect } from "vitest";
 import { readdirSync, readFileSync } from "fs";
 import { join } from "path";
+import {
+  KEY_POINTS_MAX,
+  findSummaryProblems,
+} from "../../scripts/lib/summary-contract";
 
 // Summaries are one generated file per episode, rendered by Summary.astro,
 // which reads `brief` and `keyPoints` directly with no validation. A malformed
 // file therefore ships a broken "Ringkasan Episode" block instead of failing
-// the build, so the shape is guarded here.
+// the build, so the shape is guarded here. The rules themselves live in
+// scripts/lib/summary-contract.ts, shared with scripts/check-summary.ts.
 //
 // This is deliberately NOT a completeness gate: the weekly playlist sync opens
 // a PR adding episodes before anyone has summarised them, and a coverage
@@ -16,21 +21,14 @@ const files = readdirSync(SUMMARIES_DIR).filter((file) =>
   file.endsWith(".json")
 );
 
-interface Summary {
-  videoId?: string;
-  generatedAt: string;
-  brief: string;
-  keyPoints: string[];
-}
-
-function load(file: string): Summary {
+function load(file: string): Record<string, unknown> {
   return JSON.parse(readFileSync(join(SUMMARIES_DIR, file), "utf-8"));
 }
 
-// SUMMARIZE.md asks for 5-7 key points. These files predate that being
-// enforced and run to 12; they are readable as shipped, so they are frozen
-// rather than rewritten. The count assertion below stops the list growing —
-// new summaries must obey the 5-7 rule.
+// The summarizing-episodes skill asks for 5-7 key points. These files predate
+// that being enforced and run to 12; they are readable as shipped, so they are
+// frozen rather than rewritten. The count assertion below stops the list
+// growing — new summaries must obey the 5-7 rule.
 const LEGACY_OVERLONG = new Set([
   "0sMCTZ77Fjk.json",
   "5P6heS1ZtPw.json",
@@ -62,45 +60,24 @@ const LEGACY_OVERLONG = new Set([
 // rewritten, and no new file may join it.
 const LEGACY_WITHOUT_VIDEO_ID = new Set(["94-ige23PDs.json"]);
 
-// Leftovers from a half-filled template read as plausible prose in a language
-// most reviewers of this repo do not proofread word by word, so match them.
-const PLACEHOLDER_PATTERN =
-  /\{[A-Za-z_]+\}|\bTODO\b|\bTBD\b|\bFIXME\b|\blorem ipsum\b/i;
-
 describe("summary data files", () => {
   it("has summaries to check", () => {
     expect(files.length).toBeGreaterThan(0);
   });
 
   it.each(files)("%s has the shape Summary.astro reads", (file) => {
-    const summary = load(file);
-
-    if (!LEGACY_WITHOUT_VIDEO_ID.has(file)) {
-      expect(summary.videoId).toBe(file.replace(/\.json$/, ""));
-    }
-
-    expect(typeof summary.generatedAt).toBe("string");
-    expect(summary.generatedAt.trim().length).toBeGreaterThan(0);
-
-    expect(typeof summary.brief).toBe("string");
-    expect(summary.brief.trim().length).toBeGreaterThan(0);
-    expect(summary.brief).not.toMatch(PLACEHOLDER_PATTERN);
-
-    expect(Array.isArray(summary.keyPoints)).toBe(true);
-    expect(summary.keyPoints.length).toBeGreaterThanOrEqual(5);
-    if (!LEGACY_OVERLONG.has(file)) {
-      expect(summary.keyPoints.length).toBeLessThanOrEqual(7);
-    }
-
-    for (const point of summary.keyPoints) {
-      expect(typeof point).toBe("string");
-      expect(point.trim().length).toBeGreaterThan(0);
-      expect(point).not.toMatch(PLACEHOLDER_PATTERN);
-    }
+    const problems = findSummaryProblems(load(file), file, {
+      overlong: LEGACY_OVERLONG.has(file),
+      withoutVideoId: LEGACY_WITHOUT_VIDEO_ID.has(file),
+    });
+    expect(problems).toEqual([]);
   });
 
   it("keeps the grandfathered exceptions from growing", () => {
-    const overlong = files.filter((file) => load(file).keyPoints.length > 7);
+    const overlong = files.filter((file) => {
+      const keyPoints = load(file).keyPoints;
+      return Array.isArray(keyPoints) && keyPoints.length > KEY_POINTS_MAX;
+    });
     expect(overlong.filter((file) => !LEGACY_OVERLONG.has(file))).toEqual([]);
 
     const withoutVideoId = files.filter((file) => !load(file).videoId);

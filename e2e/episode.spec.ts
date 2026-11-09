@@ -1,4 +1,31 @@
 import { test, expect } from '@playwright/test';
+import { readFileSync, readdirSync } from 'fs';
+import { join } from 'path';
+import { resolveSlug } from '../src/lib/slug';
+
+const TRANSCRIPTS_DIR = join(process.cwd(), 'src/data/transcripts');
+const EPISODES_FILE = join(process.cwd(), 'src/data/episodes.json');
+
+/** Find the page path of an episode that has a transcript. */
+function episodePathWithTranscript(): string {
+  const episodes: { videoId: string; title: string; slug?: string }[] =
+    JSON.parse(readFileSync(EPISODES_FILE, 'utf-8'));
+
+  for (const file of readdirSync(TRANSCRIPTS_DIR)) {
+    if (!file.endsWith('.json')) continue;
+
+    const transcript = JSON.parse(
+      readFileSync(join(TRANSCRIPTS_DIR, file), 'utf-8')
+    );
+
+    const episode = episodes.find((ep) => ep.videoId === transcript.videoId);
+    if (episode) {
+      return `/episodes/${resolveSlug(episode)}`;
+    }
+  }
+
+  throw new Error('No episode found with a transcript');
+}
 
 test.describe('Episode Page', () => {
   test('episode page loads when clicking an episode', async ({ page }) => {
@@ -44,9 +71,7 @@ test.describe('Episode Page', () => {
   });
 
   test('transcript search filters segments in real-time', async ({ page }) => {
-    await page.goto('/');
-    const firstEpisode = page.locator('[data-testid="episode-card"]').first();
-    await firstEpisode.click();
+    await page.goto(episodePathWithTranscript());
 
     const transcript = page.getByTestId('transcript');
     await expect(transcript).toBeVisible();
@@ -69,9 +94,7 @@ test.describe('Episode Page', () => {
   });
 
   test('transcript timestamps have seek buttons', async ({ page }) => {
-    await page.goto('/');
-    const firstEpisode = page.locator('[data-testid="episode-card"]').first();
-    await firstEpisode.click();
+    await page.goto(episodePathWithTranscript());
 
     const transcript = page.getByTestId('transcript');
     const seekBtn = transcript.locator('.timestamp-seek-btn').first();
