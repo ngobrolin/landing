@@ -41,6 +41,10 @@ landing.worktrees/
 # session UUIDs, regenerated locally. Never useful in version control.
 .impeccable/hook.cache.json
 
+# Impeccable engine binary: 18 MB per skill copy, platform-specific, and
+# downloaded by the launcher on first run against engine-checksums.txt.
+**/skills/impeccable/scripts/bin/
+
 # Local cloudflare / IDE state
 .dev.vars
 .wrangler/

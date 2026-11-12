@@ -55,7 +55,8 @@ Three traps around this:
   flag after the separator, and a script that reads positional args as video IDs takes
   `--` for one. Drop the separator. `scripts/lib/package-manager.test.ts` guards this
   and the pnpm-only rule; it exempts only `docs/plans/` (dated records of what
-  was run at the time, not live instructions).
+  was run at the time, not live instructions) and the vendored Impeccable skill
+  copies, which their own updater overwrites.
 
 ### Key Commands
 

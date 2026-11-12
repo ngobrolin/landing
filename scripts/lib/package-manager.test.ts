@@ -21,8 +21,17 @@ const repoRoot = path.resolve(
  * Note what is deliberately NOT excluded: `.agents/skills/`. A skill living
  * inside this repo tells whoever reads it to run a command against this repo
  * today, so it is a live instruction and the rule applies to it like any doc.
+ *
+ * The vendored Impeccable skill is the exception to that note: its files are
+ * replaced wholesale by its own updater, and the `npx` they name updates the
+ * skill, not this repo. Editing them would be undone by the next update.
  */
-const ALLOWED_PREFIXES = ["docs/plans/"];
+const ALLOWED_PREFIXES = [
+  "docs/plans/",
+  ".agents/skills/impeccable/",
+  ".claude/skills/impeccable/",
+  ".github/skills/impeccable/",
+];
 
 /**
  * Files that quote the forbidden forms in order to forbid them: AGENTS.md states

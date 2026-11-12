@@ -1,6 +1,6 @@
 {
  "schemaVersion": 2,
- "generatedAt": "2026-08-26T00:00:00.000Z",
+ "generatedAt": "2026-11-12T11:22:16.000Z",
  "title": "Design System: Ngobrolin WEB",
  "extensions": {
   "colorMeta": {
@@ -268,7 +268,7 @@
    },
    "timecode": {
     "displayName": "Timecode",
-    "purpose": "Transcript timestamps in Blue Deep, forming a vertical rail."
+    "purpose": "Transcript timestamps in Cover Blue, forming a vertical rail."
    }
   },
   "shadows": [
@@ -317,7 +317,15 @@
    "refersTo": "button-primary",
    "description": "The main call to action. Blue Deep fill, crossing to Purple Deep on hover.",
    "html": "<a class=\"ds-btn-primary\" href=\"#\">Lihat Semua Episode</a>",
-   "css": ".ds-btn-primary { display: inline-block; background: var(--color-accent-strong, #2a59f4); color: #fff; padding: 0.75rem 1.5rem; border-radius: 0.5rem; font-weight: 500; text-decoration: none; transition: background 150ms cubic-bezier(0.4,0,0.2,1); } .ds-btn-primary:hover { background: var(--color-highlight-strong, #7e3f8e); } .ds-btn-primary:focus-visible { outline: 2px solid var(--color-accent-text, #86a2fe); outline-offset: 2px; }"
+   "css": ".ds-btn-primary { display: inline-block; background: var(--color-accent-strong, #2a59f4); color: var(--color-ink, #f2f4fd); padding: 0.75rem 1.5rem; border-radius: 0.5rem; font-weight: 500; text-decoration: none; transition: background 150ms cubic-bezier(0.4,0,0.2,1); } .ds-btn-primary:hover { background: var(--color-highlight-strong, #7e3f8e); } .ds-btn-primary:focus-visible { outline: 2px solid var(--color-accent-text, #86a2fe); outline-offset: 2px; }"
+  },
+  {
+   "name": "Outline Button",
+   "kind": "button",
+   "refersTo": "button-outline",
+   "description": "The secondary hero action. Transparent fill with a Control Outline border; border and label go Blue Glow on hover.",
+   "html": "<a class=\"ds-btn-outline\" href=\"#\">Subscribe YouTube</a>",
+   "css": ".ds-btn-outline { display: inline-block; background: transparent; color: var(--color-ink, #f2f4fd); border: 1px solid var(--color-surface-border-strong, #6b76a8); padding: 0.75rem 1.5rem; border-radius: 0.5rem; font-weight: 500; text-decoration: none; transition: color 150ms cubic-bezier(0.4,0,0.2,1), border-color 150ms cubic-bezier(0.4,0,0.2,1); } .ds-btn-outline:hover { color: var(--color-accent-text, #86a2fe); border-color: var(--color-accent-text, #86a2fe); } .ds-btn-outline:focus-visible { outline: 2px solid var(--color-accent-text, #86a2fe); outline-offset: 2px; }"
   },
   {
    "name": "Subscribe Button",
@@ -333,15 +341,15 @@
    "refersTo": "card-episode",
    "description": "The repeating unit of the whole site: a 16:9 thumbnail over stacked metadata, all inside one link.",
    "html": "<a class=\"ds-card-episode\" href=\"#\"><div class=\"ds-card-episode__media\"><div class=\"ds-card-episode__thumb\"></div><span class=\"ds-card-episode__new\">BARU</span><span class=\"ds-card-episode__ep\">EP 178</span></div><div class=\"ds-card-episode__body\"><p class=\"ds-card-episode__date\">4 Feb 2026</p><h3 class=\"ds-card-episode__title\">Ngobrolin Model Context Protocol</h3><p class=\"ds-card-episode__desc\">Membahas MCP, protokol terbuka untuk menghubungkan model bahasa dengan sumber data.</p></div></a>",
-   "css": ".ds-card-episode { display: block; background: var(--color-surface-raised, #191d3a); border: 1px solid var(--color-surface-border, #333c66); border-radius: 0.75rem; overflow: hidden; text-decoration: none; transition: border-color 300ms cubic-bezier(0.4,0,0.2,1), box-shadow 300ms cubic-bezier(0.4,0,0.2,1); } .ds-card-episode:hover { border-color: rgb(101 136 254 / 0.5); box-shadow: 0 10px 15px -3px rgb(101 136 254 / 0.1), 0 4px 6px -4px rgb(101 136 254 / 0.1); } .ds-card-episode__media { position: relative; aspect-ratio: 16/9; overflow: hidden; } .ds-card-episode__thumb { width: 100%; height: 100%; background: linear-gradient(135deg, #333c66, #191d3a); transition: transform 300ms cubic-bezier(0.4,0,0.2,1); } .ds-card-episode:hover .ds-card-episode__thumb { transform: scale(1.05); } .ds-card-episode__new { position: absolute; top: 0.75rem; left: 0.75rem; background: var(--color-accent-strong, #2a59f4); color: #fff; font-size: 0.75rem; font-weight: 700; padding: 0.25rem 0.5rem; border-radius: 0.25rem; } .ds-card-episode__ep { position: absolute; bottom: 0.75rem; left: 0.75rem; background: rgb(0 0 0 / 0.7); color: #fff; font-size: 0.75rem; font-weight: 500; padding: 0.25rem 0.5rem; border-radius: 0.25rem; } .ds-card-episode__body { padding: 1rem; } .ds-card-episode__date { color: #a8b0d2; font-size: 0.75rem; margin: 0 0 0.5rem; } .ds-card-episode__title { color: #fff; font-weight: 600; margin: 0 0 0.5rem; transition: color 150ms; } .ds-card-episode:hover .ds-card-episode__title { color: var(--color-accent-text, #86a2fe); } .ds-card-episode__desc { color: #a8b0d2; font-size: 0.875rem; margin: 0; }"
+   "css": ".ds-card-episode { display: block; background: var(--color-surface-raised, #191d3a); border: 1px solid var(--color-surface-border, #333c66); border-radius: 0.75rem; overflow: hidden; text-decoration: none; transition: border-color 300ms cubic-bezier(0.4,0,0.2,1), box-shadow 300ms cubic-bezier(0.4,0,0.2,1); } .ds-card-episode:hover { border-color: rgb(101 136 254 / 0.5); box-shadow: 0 10px 15px -3px rgb(101 136 254 / 0.1), 0 4px 6px -4px rgb(101 136 254 / 0.1); } .ds-card-episode__media { position: relative; aspect-ratio: 16/9; overflow: hidden; } .ds-card-episode__thumb { width: 100%; height: 100%; background: linear-gradient(135deg, #333c66, #191d3a); transition: transform 300ms cubic-bezier(0.4,0,0.2,1); } .ds-card-episode:hover .ds-card-episode__thumb { transform: scale(1.05); } .ds-card-episode__new { position: absolute; top: 0.75rem; left: 0.75rem; background: var(--color-accent-strong, #2a59f4); color: var(--color-ink, #f2f4fd); font-size: 0.75rem; font-weight: 700; padding: 0.25rem 0.5rem; border-radius: 0.25rem; } .ds-card-episode__ep { position: absolute; bottom: 0.75rem; left: 0.75rem; background: rgb(0 0 0 / 0.7); color: #fff; font-size: 0.75rem; font-weight: 500; padding: 0.25rem 0.5rem; border-radius: 0.25rem; } .ds-card-episode__body { padding: 1rem; } .ds-card-episode__date { color: #a8b0d2; font-size: 0.75rem; margin: 0 0 0.5rem; } .ds-card-episode__title { color: var(--color-ink, #f2f4fd); font-weight: 600; margin: 0 0 0.5rem; transition: color 150ms; } .ds-card-episode:hover .ds-card-episode__title { color: var(--color-accent-text, #86a2fe); } .ds-card-episode__desc { color: #a8b0d2; font-size: 0.875rem; margin: 0; }"
   },
   {
    "name": "Search Input",
    "kind": "input",
    "refersTo": "input-search",
-   "description": "The archive search field. Border-only focus in Blue Deep; inset magnifier at left.",
+   "description": "The archive search field. Control Outline border; on focus it keeps the site-wide focus ring and the border shifts to Blue Glow. Inset magnifier at left.",
    "html": "<div class=\"ds-input-search__wrap\"><svg class=\"ds-input-search__icon\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z\"></path></svg><input class=\"ds-input-search\" type=\"text\" placeholder=\"Cari episode...\" /></div>",
-   "css": ".ds-input-search__wrap { position: relative; } .ds-input-search { width: 100%; background: var(--color-surface-raised, #191d3a); border: 1px solid var(--color-surface-border-strong, #6b76a8); border-radius: 0.5rem; padding: 0.75rem 1rem 0.75rem 3rem; color: #fff; transition: border-color 150ms; } .ds-input-search::placeholder { color: #8a94bd; } .ds-input-search:focus { outline: none; border-color: var(--color-accent-strong, #2a59f4); } .ds-input-search__icon { position: absolute; left: 1rem; top: 50%; transform: translateY(-50%); width: 1.25rem; height: 1.25rem; color: #8a94bd; pointer-events: none; }"
+   "css": ".ds-input-search__wrap { position: relative; } .ds-input-search { width: 100%; background: var(--color-surface-raised, #191d3a); border: 1px solid var(--color-surface-border-strong, #6b76a8); border-radius: 0.5rem; padding: 0.75rem 1rem 0.75rem 3rem; color: var(--color-ink, #f2f4fd); transition: border-color 150ms; } .ds-input-search::placeholder { color: #8a94bd; } .ds-input-search:focus { border-color: var(--color-accent-text, #86a2fe); } .ds-input-search:focus-visible { outline: 2px solid var(--color-accent-text, #86a2fe); outline-offset: 2px; } .ds-input-search__icon { position: absolute; left: 1rem; top: 50%; transform: translateY(-50%); width: 1.25rem; height: 1.25rem; color: #8a94bd; pointer-events: none; }"
   },
   {
    "name": "Year Tab",
@@ -349,7 +357,7 @@
    "refersTo": "chip-year-active",
    "description": "Two-state archive filter. Active is a Blue Deep fill; idle is a bordered panel.",
    "html": "<nav class=\"ds-yeartabs\"><a class=\"ds-yeartab ds-yeartab--active\" href=\"#\" aria-current=\"page\">Semua</a><a class=\"ds-yeartab\" href=\"#\">2025</a><a class=\"ds-yeartab\" href=\"#\">2024</a></nav>",
-   "css": ".ds-yeartabs { display: flex; flex-wrap: wrap; gap: 0.5rem; } .ds-yeartab { padding: 0.5rem 1rem; border-radius: 0.5rem; font-weight: 500; text-decoration: none; background: var(--color-surface-raised, #191d3a); color: #a8b0d2; border: 1px solid var(--color-surface-border, #333c66); transition: color 150ms, border-color 150ms; } .ds-yeartab:hover { color: #fff; border-color: var(--color-accent-strong, #2a59f4); } .ds-yeartab--active { background: var(--color-accent-strong, #2a59f4); color: #fff; border-color: transparent; }"
+   "css": ".ds-yeartabs { display: flex; flex-wrap: wrap; gap: 0.5rem; } .ds-yeartab { padding: 0.5rem 1rem; border-radius: 0.5rem; font-weight: 500; text-decoration: none; background: var(--color-surface-raised, #191d3a); color: #a8b0d2; border: 1px solid var(--color-surface-border, #333c66); transition: color 150ms, border-color 150ms; } .ds-yeartab:hover { color: var(--color-ink, #f2f4fd); border-color: var(--color-accent, #6588fe); } .ds-yeartab--active { background: var(--color-accent-strong, #2a59f4); color: var(--color-ink, #f2f4fd); border-color: transparent; }"
   },
   {
    "name": "Topic Chip",
@@ -365,20 +373,20 @@
    "refersTo": null,
    "description": "Wordmark left, text links plus one red subscribe button right, hairline bottom border.",
    "html": "<header class=\"ds-nav\"><a class=\"ds-nav__brand\" href=\"#\">Ngobrolin WEB</a><div class=\"ds-nav__links\"><a class=\"ds-nav__link\" href=\"#\">Episode</a><a class=\"ds-nav__link\" href=\"#\">Topik</a><a class=\"ds-nav__link\" href=\"#\">Tentang</a><a class=\"ds-btn-subscribe\" href=\"#\">Langganan</a></div></header>",
-   "css": ".ds-nav { display: flex; align-items: center; justify-content: space-between; padding: 1rem; border-bottom: 1px solid var(--color-surface-border, #333c66); } .ds-nav__brand { color: #fff; font-size: 1.25rem; font-weight: 700; text-decoration: none; transition: color 150ms; } .ds-nav__brand:hover { color: var(--color-accent-text, #86a2fe); } .ds-nav__links { display: flex; align-items: center; gap: 1.5rem; } .ds-nav__link { color: #c3c9e6; text-decoration: none; transition: color 150ms; } .ds-nav__link:hover { color: #fff; } .ds-btn-subscribe { background: #dc2626; color: #fff; padding: 0.5rem 1rem; border-radius: 0.5rem; font-size: 0.875rem; font-weight: 500; text-decoration: none; } .ds-btn-subscribe:hover { background: #b91c1c; }"
+   "css": ".ds-nav { display: flex; align-items: center; justify-content: space-between; padding: 1rem; border-bottom: 1px solid var(--color-surface-border, #333c66); } .ds-nav__brand { color: var(--color-ink, #f2f4fd); font-size: 1.25rem; font-weight: 700; text-decoration: none; transition: color 150ms; } .ds-nav__brand:hover { color: var(--color-accent-text, #86a2fe); } .ds-nav__links { display: flex; align-items: center; gap: 1.5rem; } .ds-nav__link { color: #c3c9e6; text-decoration: none; transition: color 150ms; } .ds-nav__link:hover { color: var(--color-ink, #f2f4fd); } .ds-btn-subscribe { background: #dc2626; color: #fff; padding: 0.5rem 1rem; border-radius: 0.5rem; font-size: 0.875rem; font-weight: 500; text-decoration: none; } .ds-btn-subscribe:hover { background: #b91c1c; }"
   },
   {
    "name": "Transcript Line",
    "kind": "custom",
    "refersTo": null,
-   "description": "The signature surface: a Blue Deep monospace timecode rail beside Body Grey prose.",
+   "description": "The signature surface: a Cover Blue monospace timecode rail beside Ink Body prose.",
    "html": "<div class=\"ds-transcript\"><p class=\"ds-transcript__line\"><span class=\"ds-transcript__time\">0:42</span>Jadi kalau kita bicara soal Model Context Protocol, sebenarnya ini protokol terbuka.</p><p class=\"ds-transcript__line\"><span class=\"ds-transcript__time\">0:51</span>Betul, dan yang menarik adalah bagaimana dia menghubungkan model dengan sumber data.</p></div>",
-   "css": ".ds-transcript { background: var(--color-surface-raised, #191d3a); border: 1px solid var(--color-surface-border, #333c66); border-radius: 0.5rem; padding: 1rem; display: flex; flex-direction: column; gap: 0.75rem; } .ds-transcript__line { color: #c3c9e6; line-height: 1.625; margin: 0; } .ds-transcript__time { color: var(--color-accent-strong, #2a59f4); font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; font-size: 0.875rem; margin-right: 0.5rem; }"
+   "css": ".ds-transcript { background: var(--color-surface-raised, #191d3a); border: 1px solid var(--color-surface-border, #333c66); border-radius: 0.5rem; padding: 1rem; display: flex; flex-direction: column; gap: 0.75rem; } .ds-transcript__line { color: #c3c9e6; line-height: 1.625; margin: 0; } .ds-transcript__time { color: var(--color-accent, #6588fe); font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; font-size: 0.875rem; margin-right: 0.5rem; }"
   }
  ],
  "narrative": {
   "northStar": "The Cover, Extended",
-  "overview": "Every colour in this system is sampled from public/podcast-cover.jpg - the artwork already on every podcast directory that carries this show. The cover is three vertical bands: blue (#6588fe) and purple (#a76ab7) framing a deep navy panel (#191d3a) with the wordmark in white. So the site is that navy panel, extended: the ground (#0e1122), the card (#191d3a, sampled exactly), the overlay (#242b4d) and the hairline (#333c66) are one material at four lightnesses, hue and saturation held at the navy's own hsl(233, 40%). That is what makes them read as a scale rather than as four unrelated dark greys.\n\nThe cover sets the blue and the purple side by side as hard bands - it is not a gradient, whatever it looks like at thumbnail size. The site gives them two jobs accordingly: blue is interactive (links, focus, filled buttons, the active tab, transcript timecodes); purple is categorical and decorative (topic labels, tier eyebrows, the Apple Podcasts citation) and is where an accent fill goes on hover. The blue-to-purple gradient is reserved for the few places the cover's own framing is quoted directly: the favicon and the /partners share card; the site-wide share card at /og-image.png and the feed logo at /og-logo.png quote the cover's bands directly instead, generated at build time by src/lib/og-card.ts. The subscribe action stays YouTube red - an off-system colour used as a platform citation, not as part of the palette.\n\nTypography is entirely system-stack and entirely unstyled in personality terms: no display face, and - one uppercase stat label on /partners aside - no letter-spacing tricks or case transforms. Hierarchy is carried by weight (700 headings and 400 prose, with 600 on card titles and 500 on controls) and by a four-rung ink ladder that runs from #f2f4fd headings to #8a94bd metadata. The result is quiet and utilitarian, which suits an archive: the interface is a reading surface for Indonesian technical speech, and it gets out of the way. The one typographic signature is the monospace timecode running down the left edge of every transcript.",
+  "overview": "Every colour in this system is sampled from public/podcast-cover.jpg - the artwork already on every podcast directory that carries this show. The cover is three vertical bands: blue (#6588fe) and purple (#a76ab7) framing a deep navy panel (#191d3a) with the wordmark in white. So the site is that navy panel, extended: the ground (#0e1122), the card (#191d3a, sampled exactly), the overlay (#242b4d) and the hairline (#333c66) are one material at four lightnesses, hue and saturation held at the navy's own hsl(233, 40%). That is what makes them read as a scale rather than as four unrelated dark greys.\n\nThe cover sets the blue and the purple side by side as hard bands - it is not a gradient, whatever it looks like at thumbnail size. The site gives them two jobs accordingly: blue is interactive (links, focus, filled buttons, the active tab, transcript timecodes); purple is categorical and decorative (topic labels, tier eyebrows, the Apple Podcasts citation) and is where an accent fill goes on hover. The blue-to-purple gradient is reserved for the few places the cover's own framing is being quoted directly: the favicon and the /partners share card. The site-wide share card at /og-image.png and the feed logo at /og-logo.png go further and quote the cover's bands rather than a gradient of them - see src/lib/og-card.ts. The subscribe action stays YouTube red - an off-system colour used as a platform citation, not as part of the palette.\n\nTypography is entirely system-stack and entirely unstyled in personality terms: no display face, and - one uppercase stat label on /partners aside - no letter-spacing tricks or case transforms. Hierarchy is carried by weight (700 headings and 400 prose, with 600 on card titles and 500 on controls) and by a four-rung ink ladder that runs from #f2f4fd headings to #8a94bd metadata. The result is quiet and utilitarian, which suits an archive: the interface is a reading surface for Indonesian technical speech, and it gets out of the way. The one typographic signature is the monospace timecode running down the left edge of every transcript.",
   "keyCharacteristics": [
    "One navy material at four lightnesses: ground, card, overlay, hairline",
    "Hairline borders instead of shadows to separate surfaces at rest",
@@ -401,7 +409,7 @@
    {
     "name": "The Sample-Don't-Invent Rule",
     "section": "colors",
-    "body": "A colour that is not in global.css and not in the cover does not belong in this system. src/styles/palette-literals.test.ts enforces the negative half of that for the palette this one replaced, and src/styles/contrast.test.ts holds the WCAG floors every token was chosen to clear."
+    "body": "A colour that is not in global.css and not in the cover does not belong in this system. src/styles/palette-literals.test.ts enforces the negative half of that for the palette this one replaced."
    },
    {
     "name": "The Borrowed-Colour Rule",
@@ -415,7 +423,7 @@
    },
    {
     "name": "The Ink Ladder Rule",
-    "body": "Every block of text picks exactly one rung: ink for headings, ink-body for prose, ink-muted for metadata, ink-subtle for placeholders. Inventing an intermediate value flattens the ladder for everything else.",
+    "body": "Every block of text picks exactly one rung: ink for headings, ink-body for prose, ink-muted for metadata, ink-subtle for placeholders. Inventing an intermediate value flattens the ladder for everything else, and the ladder is what carries hierarchy here.",
     "section": "typography"
    },
    {
@@ -425,7 +433,7 @@
    },
    {
     "name": "The Two Step Rule",
-    "body": "There are exactly two elevations above the ground, and the overlay step is for things that sit over the page - the mobile menu, the skip link, a hover fill. A third surface means the model is wrong for this system.",
+    "body": "There are exactly two elevations above the ground, and the overlay step is for things that sit over the page - the mobile menu, the skip link, a hover fill. A third surface means the model is wrong for this system; use a border, a divider, or a <details> disclosure instead.",
     "section": "elevation"
    },
    {
@@ -435,7 +443,7 @@
    },
    {
     "name": "The Visible Focus Rule",
-    "body": ":focus-visible in global.css draws a 2px Blue Glow outline at 2px offset on everything. It replaced a border-only focus treatment that only existed on the search field. A component may add to it; nothing may set outline: none without replacing it with something at least as visible.",
+    "body": ":focus-visible in global.css draws a 2px Blue Glow outline at 2px offset on everything. It replaced a border-only focus treatment that only existed on the search field, which left every link and button in the site relying on the UA outline - near-invisible on this ground. A component may add to it; nothing may set outline: none without replacing it with something at least as visible.",
     "section": "components"
    }
   ],
