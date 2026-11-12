@@ -1,281 +1,330 @@
 {
  "schemaVersion": 2,
- "generatedAt": "2026-11-12T11:22:16.000Z",
+ "generatedAt": "2026-11-12T17:04:26.352Z",
  "title": "Design System: Ngobrolin WEB",
  "extensions": {
   "colorMeta": {
    "surface": {
     "role": "neutral",
-    "displayName": "Ground",
-    "canonical": "#0e1122",
+    "displayName": "Paper",
+    "canonical": "#f1f2f6",
     "tonalRamp": [
-     "#0e1122",
-     "#191d3a",
-     "#242b4d",
-     "#333c66",
-     "#4a5488",
-     "#6b76a8",
-     "#a8b0d2",
-     "#f2f4fd"
+     "#14183a",
+     "#3b4163",
+     "#4c5274",
+     "#575d7e",
+     "#6a7090",
+     "#c5c9d8",
+     "#e3e6f0",
+     "#f1f2f6"
     ]
    },
    "surface-raised": {
     "role": "neutral",
     "displayName": "Card",
-    "canonical": "#191d3a",
+    "canonical": "#ffffff",
     "tonalRamp": [
-     "#0e1122",
-     "#191d3a",
-     "#242b4d",
-     "#333c66",
-     "#4a5488",
-     "#6b76a8",
-     "#a8b0d2",
-     "#f2f4fd"
+     "#14183a",
+     "#3b4163",
+     "#4c5274",
+     "#575d7e",
+     "#6a7090",
+     "#c5c9d8",
+     "#e3e6f0",
+     "#f1f2f6"
     ]
    },
    "surface-overlay": {
     "role": "neutral",
     "displayName": "Overlay",
-    "canonical": "#242b4d",
+    "canonical": "#e3e6f0",
     "tonalRamp": [
-     "#0e1122",
-     "#191d3a",
-     "#242b4d",
-     "#333c66",
-     "#4a5488",
-     "#6b76a8",
-     "#a8b0d2",
-     "#f2f4fd"
+     "#14183a",
+     "#3b4163",
+     "#4c5274",
+     "#575d7e",
+     "#6a7090",
+     "#c5c9d8",
+     "#e3e6f0",
+     "#f1f2f6"
     ]
    },
    "surface-border": {
     "role": "neutral",
     "displayName": "Hairline",
-    "canonical": "#333c66",
+    "canonical": "#c5c9d8",
     "tonalRamp": [
-     "#0e1122",
-     "#191d3a",
-     "#242b4d",
-     "#333c66",
-     "#4a5488",
-     "#6b76a8",
-     "#a8b0d2",
-     "#f2f4fd"
+     "#14183a",
+     "#3b4163",
+     "#4c5274",
+     "#575d7e",
+     "#6a7090",
+     "#c5c9d8",
+     "#e3e6f0",
+     "#f1f2f6"
     ]
    },
    "surface-border-strong": {
     "role": "neutral",
     "displayName": "Control Outline",
-    "canonical": "#6b76a8",
+    "canonical": "#6a7090",
     "tonalRamp": [
-     "#0e1122",
-     "#191d3a",
-     "#242b4d",
-     "#333c66",
-     "#4a5488",
-     "#6b76a8",
-     "#a8b0d2",
-     "#f2f4fd"
+     "#14183a",
+     "#3b4163",
+     "#4c5274",
+     "#575d7e",
+     "#6a7090",
+     "#c5c9d8",
+     "#e3e6f0",
+     "#f1f2f6"
     ]
    },
    "ink": {
     "role": "neutral",
     "displayName": "Ink",
-    "canonical": "#f2f4fd",
+    "canonical": "#14183a",
     "tonalRamp": [
-     "#0e1122",
-     "#191d3a",
-     "#242b4d",
-     "#333c66",
-     "#4a5488",
-     "#6b76a8",
-     "#a8b0d2",
-     "#f2f4fd"
+     "#14183a",
+     "#3b4163",
+     "#4c5274",
+     "#575d7e",
+     "#6a7090",
+     "#c5c9d8",
+     "#e3e6f0",
+     "#f1f2f6"
     ]
    },
    "ink-body": {
     "role": "neutral",
     "displayName": "Ink Body",
-    "canonical": "#c3c9e6",
+    "canonical": "#3b4163",
     "tonalRamp": [
-     "#0e1122",
-     "#191d3a",
-     "#242b4d",
-     "#333c66",
-     "#4a5488",
-     "#6b76a8",
-     "#a8b0d2",
-     "#f2f4fd"
+     "#14183a",
+     "#3b4163",
+     "#4c5274",
+     "#575d7e",
+     "#6a7090",
+     "#c5c9d8",
+     "#e3e6f0",
+     "#f1f2f6"
     ]
    },
    "ink-muted": {
     "role": "neutral",
     "displayName": "Ink Muted",
-    "canonical": "#a8b0d2",
+    "canonical": "#4c5274",
     "tonalRamp": [
-     "#0e1122",
-     "#191d3a",
-     "#242b4d",
-     "#333c66",
-     "#4a5488",
-     "#6b76a8",
-     "#a8b0d2",
-     "#f2f4fd"
+     "#14183a",
+     "#3b4163",
+     "#4c5274",
+     "#575d7e",
+     "#6a7090",
+     "#c5c9d8",
+     "#e3e6f0",
+     "#f1f2f6"
     ]
    },
    "ink-subtle": {
     "role": "neutral",
     "displayName": "Ink Subtle",
-    "canonical": "#8a94bd",
+    "canonical": "#575d7e",
     "tonalRamp": [
-     "#0e1122",
-     "#191d3a",
-     "#242b4d",
-     "#333c66",
-     "#4a5488",
-     "#6b76a8",
-     "#a8b0d2",
-     "#f2f4fd"
+     "#14183a",
+     "#3b4163",
+     "#4c5274",
+     "#575d7e",
+     "#6a7090",
+     "#c5c9d8",
+     "#e3e6f0",
+     "#f1f2f6"
     ]
    },
    "accent": {
     "role": "primary",
     "displayName": "Cover Blue",
-    "canonical": "#6588fe",
+    "canonical": "#3557e0",
     "tonalRamp": [
-     "#0d1638",
-     "#132160",
-     "#1d43c4",
-     "#2a59f4",
-     "#4670f0",
-     "#6588fe",
-     "#86a2fe",
-     "#c2d0ff"
+     "#101a4d",
+     "#1b2f85",
+     "#2a46c0",
+     "#2f4fd0",
+     "#3557e0",
+     "#6f88ea",
+     "#a9b8f3",
+     "#dfe5ff"
     ]
    },
    "accent-text": {
     "role": "primary",
-    "displayName": "Blue Glow",
-    "canonical": "#86a2fe",
+    "displayName": "Blue Ink",
+    "canonical": "#2a46c0",
     "tonalRamp": [
-     "#0d1638",
-     "#132160",
-     "#1d43c4",
-     "#2a59f4",
-     "#4670f0",
-     "#6588fe",
-     "#86a2fe",
-     "#c2d0ff"
+     "#101a4d",
+     "#1b2f85",
+     "#2a46c0",
+     "#2f4fd0",
+     "#3557e0",
+     "#6f88ea",
+     "#a9b8f3",
+     "#dfe5ff"
     ]
    },
    "accent-strong": {
     "role": "primary",
-    "displayName": "Blue Deep",
-    "canonical": "#2a59f4",
+    "displayName": "Blue Fill",
+    "canonical": "#2f4fd0",
     "tonalRamp": [
-     "#0d1638",
-     "#132160",
-     "#1d43c4",
-     "#2a59f4",
-     "#4670f0",
-     "#6588fe",
-     "#86a2fe",
-     "#c2d0ff"
+     "#101a4d",
+     "#1b2f85",
+     "#2a46c0",
+     "#2f4fd0",
+     "#3557e0",
+     "#6f88ea",
+     "#a9b8f3",
+     "#dfe5ff"
+    ]
+   },
+   "accent-hover": {
+    "role": "primary",
+    "displayName": "Pressed Navy",
+    "canonical": "#14183a",
+    "tonalRamp": [
+     "#14183a",
+     "#3b4163",
+     "#4c5274",
+     "#575d7e",
+     "#6a7090",
+     "#c5c9d8",
+     "#e3e6f0",
+     "#f1f2f6"
+    ]
+   },
+   "on-accent": {
+    "role": "primary",
+    "displayName": "On Accent",
+    "canonical": "#ffffff",
+    "tonalRamp": [
+     "#101a4d",
+     "#1b2f85",
+     "#2a46c0",
+     "#2f4fd0",
+     "#3557e0",
+     "#6f88ea",
+     "#a9b8f3",
+     "#dfe5ff"
+    ]
+   },
+   "on-accent-muted": {
+    "role": "primary",
+    "displayName": "On Accent Muted",
+    "canonical": "#dfe5ff",
+    "tonalRamp": [
+     "#101a4d",
+     "#1b2f85",
+     "#2a46c0",
+     "#2f4fd0",
+     "#3557e0",
+     "#6f88ea",
+     "#a9b8f3",
+     "#dfe5ff"
     ]
    },
    "highlight": {
     "role": "secondary",
-    "displayName": "Cover Purple",
-    "canonical": "#a76ab7",
+    "displayName": "Thumbnail Orange",
+    "canonical": "#f0a030",
     "tonalRamp": [
-     "#1e0f22",
-     "#3a1d42",
-     "#5a2d66",
-     "#7e3f8e",
-     "#9455a6",
-     "#a76ab7",
-     "#c98fd8",
-     "#e6c6ef"
+     "#3d2200",
+     "#7a4500",
+     "#8a4f00",
+     "#b87412",
+     "#f0a030",
+     "#f5bd6b",
+     "#f9d9a8",
+     "#fdf0db"
     ]
    },
    "highlight-text": {
     "role": "secondary",
-    "displayName": "Purple Glow",
-    "canonical": "#c98fd8",
+    "displayName": "Dark Amber",
+    "canonical": "#8a4f00",
     "tonalRamp": [
-     "#1e0f22",
-     "#3a1d42",
-     "#5a2d66",
-     "#7e3f8e",
-     "#9455a6",
-     "#a76ab7",
-     "#c98fd8",
-     "#e6c6ef"
+     "#3d2200",
+     "#7a4500",
+     "#8a4f00",
+     "#b87412",
+     "#f0a030",
+     "#f5bd6b",
+     "#f9d9a8",
+     "#fdf0db"
     ]
    },
    "highlight-strong": {
     "role": "secondary",
-    "displayName": "Purple Deep",
-    "canonical": "#7e3f8e",
+    "displayName": "Deep Amber",
+    "canonical": "#7a4500",
     "tonalRamp": [
-     "#1e0f22",
-     "#3a1d42",
-     "#5a2d66",
-     "#7e3f8e",
-     "#9455a6",
-     "#a76ab7",
-     "#c98fd8",
-     "#e6c6ef"
+     "#3d2200",
+     "#7a4500",
+     "#8a4f00",
+     "#b87412",
+     "#f0a030",
+     "#f5bd6b",
+     "#f9d9a8",
+     "#fdf0db"
     ]
    },
    "accent-subscribe": {
     "role": "secondary",
     "displayName": "Platform Red",
-    "canonical": "#dc2626",
+    "canonical": "oklch(57.7% 0.245 27.325)",
     "tonalRamp": [
-     "#2a0707",
-     "#4c0d0d",
-     "#7f1d1d",
-     "#b91c1c",
-     "#dc2626",
-     "#ef4444",
-     "#f87171",
-     "#fecaca"
+     "#460809",
+     "#82181a",
+     "#9f0712",
+     "#c10007",
+     "#e7000b",
+     "#fb2c36",
+     "#ff6467",
+     "#ffc9c9"
     ]
    }
   },
   "typographyMeta": {
    "display": {
     "displayName": "Display",
-    "purpose": "The homepage wordmark only. Appears once per site."
+    "purpose": "The homepage cover title, sized to its column; the episode page title at a smaller clamp."
+   },
+   "masthead": {
+    "displayName": "Masthead",
+    "purpose": "The .display voice at working sizes: wordmark, section headings, episode numerals."
    },
    "headline": {
     "displayName": "Headline",
-    "purpose": "Page titles such as Semua Episode, Topik, Episode 2024."
+    "purpose": "Inner page titles such as Semua Episode and Topik."
    },
    "title": {
     "displayName": "Title",
-    "purpose": "Section headings and the episode title on a detail page."
+    "purpose": "Row titles in the homepage back-issue list."
    },
    "body": {
     "displayName": "Body",
-    "purpose": "All running prose, including transcripts and summaries."
+    "purpose": "Running prose in ink-body, including transcripts and summaries."
    },
    "label": {
     "displayName": "Label",
-    "purpose": "Badges: BARU and EP <n>. Uppercase by content, never by text-transform."
+    "purpose": "Badges such as BARU. Uppercase by content."
    },
    "timecode": {
     "displayName": "Timecode",
-    "purpose": "Transcript timestamps in Cover Blue, forming a vertical rail."
+    "purpose": "Transcript timestamps in Cover Blue; also the audio clock and the keyboard hint."
    }
   },
   "shadows": [
    {
     "name": "accent-catch",
-    "value": "0 10px 15px -3px rgb(101 136 254 / 0.1), 0 4px 6px -4px rgb(101 136 254 / 0.1)",
-    "purpose": "Episode card hover only. The system is otherwise flat at rest."
+    "value": "0 10px 15px -3px rgb(53 87 224 / 0.1), 0 4px 6px -4px rgb(53 87 224 / 0.1)",
+    "purpose": "Episode card hover only. The system is flat at rest."
    }
   ],
   "motion": [
@@ -292,7 +341,7 @@
    {
     "name": "view-transition-root",
     "value": "150ms",
-    "purpose": "Astro ClientRouter cross-document fade, set in Layout.astro."
+    "purpose": "Astro ClientRouter page fade, set in Layout.astro."
    }
   ],
   "breakpoints": [
@@ -315,154 +364,189 @@
    "name": "Primary Button",
    "kind": "button",
    "refersTo": "button-primary",
-   "description": "The main call to action. Blue Deep fill, crossing to Purple Deep on hover.",
+   "description": "The filled action. Blue Fill with a white label, hovering to the ink navy.",
    "html": "<a class=\"ds-btn-primary\" href=\"#\">Lihat Semua Episode</a>",
-   "css": ".ds-btn-primary { display: inline-block; background: var(--color-accent-strong, #2a59f4); color: var(--color-ink, #f2f4fd); padding: 0.75rem 1.5rem; border-radius: 0.5rem; font-weight: 500; text-decoration: none; transition: background 150ms cubic-bezier(0.4,0,0.2,1); } .ds-btn-primary:hover { background: var(--color-highlight-strong, #7e3f8e); } .ds-btn-primary:focus-visible { outline: 2px solid var(--color-accent-text, #86a2fe); outline-offset: 2px; }"
+   "css": ".ds-btn-primary { display: inline-block; font-family: var(--font-sans, Archivo, system-ui, sans-serif); background: var(--color-accent-strong, #2f4fd0); color: var(--color-on-accent, #ffffff); padding: 0.75rem 1.5rem; border-radius: 0.5rem; font-weight: 500; text-decoration: none; transition: background 150ms cubic-bezier(0.4,0,0.2,1); } .ds-btn-primary:hover { background: var(--color-accent-hover, #14183a); } .ds-btn-primary:focus-visible { outline: 2px solid var(--color-accent-text, #2a46c0); outline-offset: 2px; }"
+  },
+  {
+   "name": "Cover Buttons",
+   "kind": "button",
+   "refersTo": "button-cover",
+   "description": "The pair on the blue cover block: white fill with an ink label, and a white outline. Focus ring is white on this ground.",
+   "html": "<div class=\"ds-cover-actions\"><a class=\"ds-btn-cover\" href=\"#\">Tonton &amp; baca transkrip</a><a class=\"ds-btn-cover-outline\" href=\"#\">Lihat Semua Episode</a></div>",
+   "css": ".ds-cover-actions { display: flex; flex-wrap: wrap; gap: 0.75rem 1rem; padding: 1.5rem; background: var(--color-accent-strong, #2f4fd0); font-family: var(--font-sans, Archivo, system-ui, sans-serif); } .ds-btn-cover, .ds-btn-cover-outline { display: inline-flex; align-items: center; justify-content: center; min-height: 3.25rem; padding: 0 1.75rem; border-radius: 0.375rem; text-decoration: none; transition: background 150ms cubic-bezier(0.4,0,0.2,1), color 150ms cubic-bezier(0.4,0,0.2,1); } .ds-btn-cover { background: var(--color-on-accent, #ffffff); color: var(--color-ink, #14183a); font-weight: 700; } .ds-btn-cover:hover { background: var(--color-ink, #14183a); color: var(--color-on-accent, #ffffff); } .ds-btn-cover-outline { border: 1px solid var(--color-on-accent, #ffffff); color: var(--color-on-accent, #ffffff); font-weight: 600; } .ds-btn-cover-outline:hover { background: var(--color-on-accent, #ffffff); color: var(--color-ink, #14183a); } .ds-cover-actions a:focus-visible { outline: 2px solid var(--color-on-accent, #ffffff); outline-offset: 2px; }"
   },
   {
    "name": "Outline Button",
    "kind": "button",
    "refersTo": "button-outline",
-   "description": "The secondary hero action. Transparent fill with a Control Outline border; border and label go Blue Glow on hover.",
-   "html": "<a class=\"ds-btn-outline\" href=\"#\">Subscribe YouTube</a>",
-   "css": ".ds-btn-outline { display: inline-block; background: transparent; color: var(--color-ink, #f2f4fd); border: 1px solid var(--color-surface-border-strong, #6b76a8); padding: 0.75rem 1.5rem; border-radius: 0.5rem; font-weight: 500; text-decoration: none; transition: color 150ms cubic-bezier(0.4,0,0.2,1), border-color 150ms cubic-bezier(0.4,0,0.2,1); } .ds-btn-outline:hover { color: var(--color-accent-text, #86a2fe); border-color: var(--color-accent-text, #86a2fe); } .ds-btn-outline:focus-visible { outline: 2px solid var(--color-accent-text, #86a2fe); outline-offset: 2px; }"
+   "description": "Secondary action on a light surface. Control Outline border; border and label go Blue Ink on hover.",
+   "html": "<a class=\"ds-btn-outline\" href=\"#\">GitHub Discussions</a>",
+   "css": ".ds-btn-outline { display: inline-block; font-family: var(--font-sans, Archivo, system-ui, sans-serif); background: transparent; color: var(--color-ink, #14183a); border: 1px solid var(--color-surface-border-strong, #6a7090); padding: 0.5rem 1rem; border-radius: 0.5rem; font-size: 0.875rem; font-weight: 500; text-decoration: none; transition: color 150ms cubic-bezier(0.4,0,0.2,1), border-color 150ms cubic-bezier(0.4,0,0.2,1); } .ds-btn-outline:hover { color: var(--color-accent-text, #2a46c0); border-color: var(--color-accent-text, #2a46c0); } .ds-btn-outline:focus-visible { outline: 2px solid var(--color-accent-text, #2a46c0); outline-offset: 2px; }"
   },
   {
    "name": "Subscribe Button",
    "kind": "button",
    "refersTo": "button-subscribe",
-   "description": "Platform Red, borrowed from YouTube. Used only on subscribe affordances.",
+   "description": "Platform Red, borrowed from YouTube. The Langganan button in the navigation.",
    "html": "<a class=\"ds-btn-subscribe\" href=\"#\">Langganan</a>",
-   "css": ".ds-btn-subscribe { display: inline-block; background: #dc2626; color: #fff; padding: 0.5rem 1rem; border-radius: 0.5rem; font-size: 0.875rem; font-weight: 500; text-decoration: none; transition: background 150ms cubic-bezier(0.4,0,0.2,1); } .ds-btn-subscribe:hover { background: #b91c1c; }"
+   "css": ".ds-btn-subscribe { display: inline-block; font-family: var(--font-sans, Archivo, system-ui, sans-serif); background: oklch(57.7% 0.245 27.325); color: #fff; padding: 0.5rem 1rem; border-radius: 0.5rem; font-size: 0.875rem; font-weight: 500; text-decoration: none; transition: background 150ms cubic-bezier(0.4,0,0.2,1); } .ds-btn-subscribe:hover { background: oklch(50.5% 0.213 27.518); } .ds-btn-subscribe:focus-visible { outline: 2px solid var(--color-accent-text, #2a46c0); outline-offset: 2px; }"
+  },
+  {
+   "name": "Episode Row",
+   "kind": "custom",
+   "refersTo": null,
+   "description": "The homepage back-issue list: a masthead numeral, a square thumbnail, the title and tabular metadata, divided by hairlines.",
+   "html": "<ul class=\"ds-rows\"><li><a class=\"ds-row\" href=\"#\"><span class=\"ds-row__num\">188</span><span class=\"ds-row__thumb\"></span><span class=\"ds-row__title\">Coding Harness</span><span class=\"ds-row__meta\">4 Nov 2026 · 1j 56m</span></a></li><li><a class=\"ds-row\" href=\"#\"><span class=\"ds-row__num\">187</span><span class=\"ds-row__thumb\"></span><span class=\"ds-row__title\">Menangani Kerentanan Aplikasi</span><span class=\"ds-row__meta\">28 Okt 2026 · 1j 21m</span></a></li></ul>",
+   "css": ".ds-rows { list-style: none; margin: 0; padding: 0; border-bottom: 1px solid var(--color-surface-border, #c5c9d8); font-family: var(--font-sans, Archivo, system-ui, sans-serif); } .ds-rows li { border-top: 1px solid var(--color-surface-border, #c5c9d8); } .ds-row { display: grid; grid-template-columns: 4.5rem 8rem minmax(0,1fr) auto; align-items: center; column-gap: 1.25rem; padding: 0.875rem 0; text-decoration: none; } .ds-row__num { font-stretch: 118%; font-weight: 800; letter-spacing: -0.02em; font-size: 1.875rem; color: var(--color-accent-text, #2a46c0); font-variant-numeric: tabular-nums; } .ds-row__thumb { display: block; aspect-ratio: 16/9; background: linear-gradient(135deg, #1f8fe8, #1668c9); } .ds-row__title { font-size: 1.25rem; font-weight: 700; line-height: 1.375; color: var(--color-ink, #14183a); transition: color 150ms cubic-bezier(0.4,0,0.2,1); } .ds-row:hover .ds-row__title { color: var(--color-accent-text, #2a46c0); } .ds-row__meta { font-size: 0.875rem; color: var(--color-ink-subtle, #575d7e); font-variant-numeric: tabular-nums; white-space: nowrap; } .ds-row:focus-visible { outline: 2px solid var(--color-accent-text, #2a46c0); outline-offset: 2px; }"
   },
   {
    "name": "Episode Card",
    "kind": "card",
    "refersTo": "card-episode",
-   "description": "The repeating unit of the whole site: a 16:9 thumbnail over stacked metadata, all inside one link.",
-   "html": "<a class=\"ds-card-episode\" href=\"#\"><div class=\"ds-card-episode__media\"><div class=\"ds-card-episode__thumb\"></div><span class=\"ds-card-episode__new\">BARU</span><span class=\"ds-card-episode__ep\">EP 178</span></div><div class=\"ds-card-episode__body\"><p class=\"ds-card-episode__date\">4 Feb 2026</p><h3 class=\"ds-card-episode__title\">Ngobrolin Model Context Protocol</h3><p class=\"ds-card-episode__desc\">Membahas MCP, protokol terbuka untuk menghubungkan model bahasa dengan sumber data.</p></div></a>",
-   "css": ".ds-card-episode { display: block; background: var(--color-surface-raised, #191d3a); border: 1px solid var(--color-surface-border, #333c66); border-radius: 0.75rem; overflow: hidden; text-decoration: none; transition: border-color 300ms cubic-bezier(0.4,0,0.2,1), box-shadow 300ms cubic-bezier(0.4,0,0.2,1); } .ds-card-episode:hover { border-color: rgb(101 136 254 / 0.5); box-shadow: 0 10px 15px -3px rgb(101 136 254 / 0.1), 0 4px 6px -4px rgb(101 136 254 / 0.1); } .ds-card-episode__media { position: relative; aspect-ratio: 16/9; overflow: hidden; } .ds-card-episode__thumb { width: 100%; height: 100%; background: linear-gradient(135deg, #333c66, #191d3a); transition: transform 300ms cubic-bezier(0.4,0,0.2,1); } .ds-card-episode:hover .ds-card-episode__thumb { transform: scale(1.05); } .ds-card-episode__new { position: absolute; top: 0.75rem; left: 0.75rem; background: var(--color-accent-strong, #2a59f4); color: var(--color-ink, #f2f4fd); font-size: 0.75rem; font-weight: 700; padding: 0.25rem 0.5rem; border-radius: 0.25rem; } .ds-card-episode__ep { position: absolute; bottom: 0.75rem; left: 0.75rem; background: rgb(0 0 0 / 0.7); color: #fff; font-size: 0.75rem; font-weight: 500; padding: 0.25rem 0.5rem; border-radius: 0.25rem; } .ds-card-episode__body { padding: 1rem; } .ds-card-episode__date { color: #a8b0d2; font-size: 0.75rem; margin: 0 0 0.5rem; } .ds-card-episode__title { color: var(--color-ink, #f2f4fd); font-weight: 600; margin: 0 0 0.5rem; transition: color 150ms; } .ds-card-episode:hover .ds-card-episode__title { color: var(--color-accent-text, #86a2fe); } .ds-card-episode__desc { color: #a8b0d2; font-size: 0.875rem; margin: 0; }"
+   "description": "The archive unit: a 16:9 thumbnail over stacked metadata, all inside one link.",
+   "html": "<a class=\"ds-card-episode\" href=\"#\"><div class=\"ds-card-episode__media\"><div class=\"ds-card-episode__thumb\"></div><span class=\"ds-card-episode__new\">BARU</span><span class=\"ds-card-episode__ep\">EP 189</span></div><div class=\"ds-card-episode__body\"><p class=\"ds-card-episode__date\">11 Nov 2026</p><h3 class=\"ds-card-episode__title\">Selamat Tinggal Deno</h3><p class=\"ds-card-episode__desc\">Para host membahas pengumuman bahwa seluruh tim Deno bergabung dengan Cloudflare.</p></div></a>",
+   "css": ".ds-card-episode { display: block; max-width: 20rem; font-family: var(--font-sans, Archivo, system-ui, sans-serif); background: var(--color-surface-raised, #ffffff); border: 1px solid var(--color-surface-border, #c5c9d8); border-radius: 0.75rem; overflow: hidden; text-decoration: none; transition: border-color 300ms cubic-bezier(0.4,0,0.2,1), box-shadow 300ms cubic-bezier(0.4,0,0.2,1); } .ds-card-episode:hover { border-color: rgb(53 87 224 / 0.5); box-shadow: 0 10px 15px -3px rgb(53 87 224 / 0.1), 0 4px 6px -4px rgb(53 87 224 / 0.1); } .ds-card-episode__media { position: relative; aspect-ratio: 16/9; overflow: hidden; } .ds-card-episode__thumb { width: 100%; height: 100%; background: linear-gradient(135deg, #1f8fe8, #1668c9); transition: transform 300ms cubic-bezier(0.4,0,0.2,1); } .ds-card-episode:hover .ds-card-episode__thumb { transform: scale(1.05); } .ds-card-episode__new { position: absolute; top: 0.75rem; left: 0.75rem; background: var(--color-accent-strong, #2f4fd0); color: var(--color-on-accent, #ffffff); font-size: 0.75rem; font-weight: 700; padding: 0.25rem 0.5rem; border-radius: 0.25rem; } .ds-card-episode__ep { position: absolute; bottom: 0.75rem; left: 0.75rem; background: rgb(0 0 0 / 0.7); color: #fff; font-size: 0.75rem; font-weight: 500; padding: 0.25rem 0.5rem; border-radius: 0.25rem; } .ds-card-episode__body { padding: 1rem; } .ds-card-episode__date { color: var(--color-ink-muted, #4c5274); font-size: 0.75rem; margin: 0 0 0.5rem; } .ds-card-episode__title { color: var(--color-ink, #14183a); font-size: 1rem; font-weight: 600; margin: 0 0 0.5rem; transition: color 150ms; } .ds-card-episode:hover .ds-card-episode__title { color: var(--color-accent-text, #2a46c0); } .ds-card-episode__desc { color: var(--color-ink-muted, #4c5274); font-size: 0.875rem; margin: 0; } .ds-card-episode:focus-visible { outline: 2px solid var(--color-accent-text, #2a46c0); outline-offset: 2px; }"
   },
   {
    "name": "Search Input",
    "kind": "input",
    "refersTo": "input-search",
-   "description": "The archive search field. Control Outline border; on focus it keeps the site-wide focus ring and the border shifts to Blue Glow. Inset magnifier at left.",
+   "description": "The archive search field. Control Outline border; on focus the site-wide ring shows and the border goes Blue Ink.",
    "html": "<div class=\"ds-input-search__wrap\"><svg class=\"ds-input-search__icon\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z\"></path></svg><input class=\"ds-input-search\" type=\"text\" placeholder=\"Cari episode...\" /></div>",
-   "css": ".ds-input-search__wrap { position: relative; } .ds-input-search { width: 100%; background: var(--color-surface-raised, #191d3a); border: 1px solid var(--color-surface-border-strong, #6b76a8); border-radius: 0.5rem; padding: 0.75rem 1rem 0.75rem 3rem; color: var(--color-ink, #f2f4fd); transition: border-color 150ms; } .ds-input-search::placeholder { color: #8a94bd; } .ds-input-search:focus { border-color: var(--color-accent-text, #86a2fe); } .ds-input-search:focus-visible { outline: 2px solid var(--color-accent-text, #86a2fe); outline-offset: 2px; } .ds-input-search__icon { position: absolute; left: 1rem; top: 50%; transform: translateY(-50%); width: 1.25rem; height: 1.25rem; color: #8a94bd; pointer-events: none; }"
+   "css": ".ds-input-search__wrap { position: relative; } .ds-input-search { width: 100%; font-family: var(--font-sans, Archivo, system-ui, sans-serif); font-size: 1rem; background: var(--color-surface-raised, #ffffff); border: 1px solid var(--color-surface-border-strong, #6a7090); border-radius: 0.5rem; padding: 0.75rem 5rem 0.75rem 3rem; color: var(--color-ink, #14183a); transition: border-color 150ms; } .ds-input-search::placeholder { color: var(--color-ink-subtle, #575d7e); } .ds-input-search:focus { border-color: var(--color-accent-text, #2a46c0); } .ds-input-search:focus-visible { outline: 2px solid var(--color-accent-text, #2a46c0); outline-offset: 2px; } .ds-input-search__icon { position: absolute; left: 1rem; top: 50%; transform: translateY(-50%); width: 1.25rem; height: 1.25rem; color: var(--color-ink-subtle, #575d7e); pointer-events: none; }"
   },
   {
    "name": "Year Tab",
    "kind": "chip",
    "refersTo": "chip-year-active",
-   "description": "Two-state archive filter. Active is a Blue Deep fill; idle is a bordered panel.",
-   "html": "<nav class=\"ds-yeartabs\"><a class=\"ds-yeartab ds-yeartab--active\" href=\"#\" aria-current=\"page\">Semua</a><a class=\"ds-yeartab\" href=\"#\">2025</a><a class=\"ds-yeartab\" href=\"#\">2024</a></nav>",
-   "css": ".ds-yeartabs { display: flex; flex-wrap: wrap; gap: 0.5rem; } .ds-yeartab { padding: 0.5rem 1rem; border-radius: 0.5rem; font-weight: 500; text-decoration: none; background: var(--color-surface-raised, #191d3a); color: #a8b0d2; border: 1px solid var(--color-surface-border, #333c66); transition: color 150ms, border-color 150ms; } .ds-yeartab:hover { color: var(--color-ink, #f2f4fd); border-color: var(--color-accent, #6588fe); } .ds-yeartab--active { background: var(--color-accent-strong, #2a59f4); color: var(--color-ink, #f2f4fd); border-color: transparent; }"
+   "description": "Two-state archive filter. Active is Blue Fill with a white label; idle is a bordered white panel.",
+   "html": "<nav class=\"ds-yeartabs\"><a class=\"ds-yeartab ds-yeartab--active\" href=\"#\" aria-current=\"page\">Semua</a><a class=\"ds-yeartab\" href=\"#\">2026</a><a class=\"ds-yeartab\" href=\"#\">2025</a></nav>",
+   "css": ".ds-yeartabs { display: flex; flex-wrap: wrap; gap: 0.5rem; font-family: var(--font-sans, Archivo, system-ui, sans-serif); } .ds-yeartab { padding: 0.5rem 1rem; border-radius: 0.5rem; font-weight: 500; text-decoration: none; background: var(--color-surface-raised, #ffffff); color: var(--color-ink-muted, #4c5274); border: 1px solid var(--color-surface-border, #c5c9d8); transition: color 150ms, border-color 150ms; } .ds-yeartab:hover { color: var(--color-ink, #14183a); border-color: var(--color-accent, #3557e0); } .ds-yeartab--active, .ds-yeartab--active:hover { background: var(--color-accent-strong, #2f4fd0); color: var(--color-on-accent, #ffffff); border-color: transparent; } .ds-yeartab:focus-visible { outline: 2px solid var(--color-accent-text, #2a46c0); outline-offset: 2px; }"
   },
   {
    "name": "Topic Chip",
    "kind": "chip",
    "refersTo": "chip-tag",
-   "description": "Fully rounded topic label on the Hairline fill.",
-   "html": "<span class=\"ds-chip-tag\">Astro</span>",
-   "css": ".ds-chip-tag { display: inline-block; background: var(--color-surface-border, #333c66); color: #c3c9e6; padding: 0.25rem 0.75rem; border-radius: 9999px; font-size: 0.875rem; }"
+   "description": "Fully rounded topic link on the Hairline fill, on episode pages.",
+   "html": "<a class=\"ds-chip-tag\" href=\"#\">Astro</a>",
+   "css": ".ds-chip-tag { display: inline-block; font-family: var(--font-sans, Archivo, system-ui, sans-serif); background: var(--color-surface-border, #c5c9d8); color: var(--color-ink-body, #3b4163); border: 1px solid transparent; padding: 0.25rem 0.75rem; border-radius: 9999px; font-size: 0.875rem; text-decoration: none; transition: color 150ms, background 150ms, border-color 150ms; } .ds-chip-tag:hover { color: var(--color-ink, #14183a); background: rgb(53 87 224 / 0.3); border-color: rgb(53 87 224 / 0.5); } .ds-chip-tag:focus-visible { outline: 2px solid var(--color-accent-text, #2a46c0); outline-offset: 2px; }"
   },
   {
    "name": "Site Navigation",
    "kind": "nav",
    "refersTo": null,
-   "description": "Wordmark left, text links plus one red subscribe button right, hairline bottom border.",
-   "html": "<header class=\"ds-nav\"><a class=\"ds-nav__brand\" href=\"#\">Ngobrolin WEB</a><div class=\"ds-nav__links\"><a class=\"ds-nav__link\" href=\"#\">Episode</a><a class=\"ds-nav__link\" href=\"#\">Topik</a><a class=\"ds-nav__link\" href=\"#\">Tentang</a><a class=\"ds-btn-subscribe\" href=\"#\">Langganan</a></div></header>",
-   "css": ".ds-nav { display: flex; align-items: center; justify-content: space-between; padding: 1rem; border-bottom: 1px solid var(--color-surface-border, #333c66); } .ds-nav__brand { color: var(--color-ink, #f2f4fd); font-size: 1.25rem; font-weight: 700; text-decoration: none; transition: color 150ms; } .ds-nav__brand:hover { color: var(--color-accent-text, #86a2fe); } .ds-nav__links { display: flex; align-items: center; gap: 1.5rem; } .ds-nav__link { color: #c3c9e6; text-decoration: none; transition: color 150ms; } .ds-nav__link:hover { color: var(--color-ink, #f2f4fd); } .ds-btn-subscribe { background: #dc2626; color: #fff; padding: 0.5rem 1rem; border-radius: 0.5rem; font-size: 0.875rem; font-weight: 500; text-decoration: none; } .ds-btn-subscribe:hover { background: #b91c1c; }"
+   "description": "Wordmark in the masthead voice at left, text links and the red subscribe button at right, over a hairline.",
+   "html": "<header class=\"ds-nav\"><a class=\"ds-nav__brand\" href=\"#\">Ngobrolin WEB</a><div class=\"ds-nav__links\"><a class=\"ds-nav__link\" href=\"#\">Episode</a><a class=\"ds-nav__link\" href=\"#\">Topik</a><a class=\"ds-nav__link\" href=\"#\">Tentang</a><a class=\"ds-nav__subscribe\" href=\"#\">Langganan</a></div></header>",
+   "css": ".ds-nav { display: flex; align-items: center; justify-content: space-between; padding: 1rem; font-family: var(--font-sans, Archivo, system-ui, sans-serif); background: var(--color-surface, #f1f2f6); border-bottom: 1px solid var(--color-surface-border, #c5c9d8); } .ds-nav__brand { color: var(--color-ink, #14183a); font-size: 1.875rem; line-height: 1; font-stretch: 118%; font-weight: 800; letter-spacing: -0.02em; white-space: nowrap; text-decoration: none; transition: color 150ms; } .ds-nav__brand:hover { color: var(--color-accent-text, #2a46c0); } .ds-nav__links { display: flex; align-items: center; gap: 1.5rem; } .ds-nav__link { color: var(--color-ink-body, #3b4163); text-decoration: none; transition: color 150ms; } .ds-nav__link:hover { color: var(--color-ink, #14183a); } .ds-nav__subscribe { background: oklch(57.7% 0.245 27.325); color: #fff; padding: 0.5rem 1rem; border-radius: 0.5rem; font-size: 0.875rem; font-weight: 500; text-decoration: none; } .ds-nav__subscribe:hover { background: oklch(50.5% 0.213 27.518); } .ds-nav a:focus-visible { outline: 2px solid var(--color-accent-text, #2a46c0); outline-offset: 2px; }"
   },
   {
    "name": "Transcript Line",
    "kind": "custom",
    "refersTo": null,
-   "description": "The signature surface: a Cover Blue monospace timecode rail beside Ink Body prose.",
-   "html": "<div class=\"ds-transcript\"><p class=\"ds-transcript__line\"><span class=\"ds-transcript__time\">0:42</span>Jadi kalau kita bicara soal Model Context Protocol, sebenarnya ini protokol terbuka.</p><p class=\"ds-transcript__line\"><span class=\"ds-transcript__time\">0:51</span>Betul, dan yang menarik adalah bagaimana dia menghubungkan model dengan sumber data.</p></div>",
-   "css": ".ds-transcript { background: var(--color-surface-raised, #191d3a); border: 1px solid var(--color-surface-border, #333c66); border-radius: 0.5rem; padding: 1rem; display: flex; flex-direction: column; gap: 0.75rem; } .ds-transcript__line { color: #c3c9e6; line-height: 1.625; margin: 0; } .ds-transcript__time { color: var(--color-accent, #6588fe); font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; font-size: 0.875rem; margin-right: 0.5rem; }"
+   "description": "A Cover Blue monospace timecode beside Ink Body prose, inside a white panel.",
+   "html": "<div class=\"ds-transcript\"><p class=\"ds-transcript__line\"><span class=\"ds-transcript__time\">0:42</span>Jadi kalau kita bicara soal Deno, sebenarnya runtime-nya tetap open source.</p><p class=\"ds-transcript__line\"><span class=\"ds-transcript__time\">0:51</span>Betul, dan yang menarik adalah bagaimana nasib Deno Deploy setelah ini.</p></div>",
+   "css": ".ds-transcript { font-family: var(--font-sans, Archivo, system-ui, sans-serif); background: var(--color-surface-raised, #ffffff); border: 1px solid var(--color-surface-border, #c5c9d8); border-radius: 0.5rem; padding: 1rem; display: flex; flex-direction: column; gap: 0.75rem; } .ds-transcript__line { color: var(--color-ink-body, #3b4163); line-height: 1.625; margin: 0; } .ds-transcript__time { color: var(--color-accent, #3557e0); font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; font-size: 0.875rem; margin-right: 0.5rem; }"
   }
  ],
  "narrative": {
-  "northStar": "The Cover, Extended",
-  "overview": "Every colour in this system is sampled from public/podcast-cover.jpg - the artwork already on every podcast directory that carries this show. The cover is three vertical bands: blue (#6588fe) and purple (#a76ab7) framing a deep navy panel (#191d3a) with the wordmark in white. So the site is that navy panel, extended: the ground (#0e1122), the card (#191d3a, sampled exactly), the overlay (#242b4d) and the hairline (#333c66) are one material at four lightnesses, hue and saturation held at the navy's own hsl(233, 40%). That is what makes them read as a scale rather than as four unrelated dark greys.\n\nThe cover sets the blue and the purple side by side as hard bands - it is not a gradient, whatever it looks like at thumbnail size. The site gives them two jobs accordingly: blue is interactive (links, focus, filled buttons, the active tab, transcript timecodes); purple is categorical and decorative (topic labels, tier eyebrows, the Apple Podcasts citation) and is where an accent fill goes on hover. The blue-to-purple gradient is reserved for the few places the cover's own framing is being quoted directly: the favicon and the /partners share card. The site-wide share card at /og-image.png and the feed logo at /og-logo.png go further and quote the cover's bands rather than a gradient of them - see src/lib/og-card.ts. The subscribe action stays YouTube red - an off-system colour used as a platform citation, not as part of the palette.\n\nTypography is entirely system-stack and entirely unstyled in personality terms: no display face, and - one uppercase stat label on /partners aside - no letter-spacing tricks or case transforms. Hierarchy is carried by weight (700 headings and 400 prose, with 600 on card titles and 500 on controls) and by a four-rung ink ladder that runs from #f2f4fd headings to #8a94bd metadata. The result is quiet and utilitarian, which suits an archive: the interface is a reading surface for Indonesian technical speech, and it gets out of the way. The one typographic signature is the monospace timecode running down the left edge of every transcript.",
+  "northStar": "Edisi Mingguan",
+  "overview": "The site is a weekly, and the homepage is this week's issue. The newest episode is the cover story: a blue block carrying its title in very large type, a deck, two actions and the thumbnail in a white frame. Everything older is back issues, listed as numbered rows and reached through one archive panel. Above the cover sits an issue bar (\"Edisi 189 · 11 November 2026\" on the left, the broadcast schedule on the right) under a 2px ink rule, the way a paper dates its front page.\n\nThe ground is a cool light paper (`#f1f2f6`) with white cards and navy ink (`#14183a`). Two hues sit on it, and `src/styles/global.css` records where each came from: the blue is the podcast cover's band darkened until it carries white type, and the orange is the title strip on every episode thumbnail. Blue means a reader can act on something, and it owns the one drenched surface on the site, the homepage cover block. Orange is decoration: the 3px rules over the key points, icon fills, a faint tint. Purple, which the previous palette carried, is gone from the stylesheet. The subscribe button in the navigation stays YouTube red, a platform's colour quoted as a citation.\n\nOne typeface does everything. Archivo ships as a single self-hosted variable file with a width axis, and the `.display` class pushes it wide and heavy for the wordmark, the cover title, the homepage section headings and the episode numerals. The episode page uses the same voice for its title and section headings. The archive, topic, about, subscribe and partners pages have not taken it yet: their titles are plain 700. All of them share the palette, the hairlines and the episode card.",
   "keyCharacteristics": [
-   "One navy material at four lightnesses: ground, card, overlay, hairline",
-   "Hairline borders instead of shadows to separate surfaces at rest",
-   "Two accent hues with fixed jobs, plus borrowed brand colours for platform links",
-   "System font stack throughout; hierarchy from weight and colour value only",
-   "16:9 thumbnail as the dominant visual unit, repeated in a 4-up grid",
-   "Monospace timecodes as the sole typographic ornament"
+   "Cool paper ground, white cards, navy ink, hairline rules",
+   "One blue with three steps for acting, one orange that only decorates",
+   "A single drenched surface: the blue cover block on the homepage",
+   "Archivo throughout; `.display` (118% width, weight 800) as the masthead voice",
+   "Rules and numbered rows on the homepage, the 16:9 card grid on archive pages",
+   "Monospace for transcript timecodes and other machine-flavoured text"
   ],
   "rules": [
    {
     "name": "The Two-Job Rule",
     "section": "colors",
-    "body": "Blue means \"you can act on this\". Purple means \"this is what kind of thing it is\". A new element picks the one that describes its job; it does not pick whichever looks better in the mock. The gradient is not a third option - it appears only where the cover's framing is quoted wholesale."
+    "body": "Blue means *you can act on this*. Orange means *look here*, and it only decorates. A new element takes the hue that describes its job. A link, a button or an active state is blue; a rule, an accent stroke or a tint may be orange."
    },
    {
     "name": "The Fill/Type Split",
     "section": "colors",
-    "body": "Each accent has three values and they are not interchangeable. -strong fills shapes that carry text. The bare token fills shapes that do not, and colours icons. -text colours type. Putting the bare blue under white text fails contrast at 3.2:1, which is exactly the mistake the previous palette shipped."
+    "body": "Each hue has steps and they are not interchangeable. For blue: `accent-strong` fills shapes that carry type, `accent-text` colours type, bare `accent` is for icons, tints and borders. For orange the split is a contrast matter: the sampled value is 2.15:1 under white and 1.9:1 on the ground, so type takes `highlight-text` and a fill that carries white takes `highlight-strong`."
    },
    {
-    "name": "The Sample-Don't-Invent Rule",
+    "name": "The One Drench Rule",
     "section": "colors",
-    "body": "A colour that is not in global.css and not in the cover does not belong in this system. src/styles/palette-literals.test.ts enforces the negative half of that for the palette this one replaced."
+    "body": "Exactly one surface on the site is flooded with the accent: the homepage cover block. Inside it everything takes the `on-accent` tokens, and the `.on-accent` class switches the focus ring to white because the blue ring disappears on blue."
+   },
+   {
+    "name": "The Navy Hover Rule",
+    "section": "colors",
+    "body": "A filled blue control hovers to `accent-hover`, the ink navy. Hover never lightens a fill and never changes its hue family."
    },
    {
     "name": "The Borrowed-Colour Rule",
     "section": "colors",
-    "body": "Platform Red belongs to YouTube, not to Ngobrolin WEB. Use it on subscribe affordances and nowhere else. The same holds for every other brand colour the site quotes - Spotify green, the RSS orange, the share row's WhatsApp/X/LinkedIn fills: reproduce the brand value exactly and never bend it toward the palette. What is the site's call is the label on top, which takes whichever of black or white clears AA on that brand value. Spotify green carries white at only 2.59:1, so its tile is labelled in black (8.1:1); YouTube red carries white at 4.8:1 and keeps it."
+    "body": "Platform Red belongs to YouTube. Spotify green (`#1DB954`), the RSS orange and the share row's brand fills belong to their platforms too: reproduce the brand value and choose the label colour that clears AA on it. The Spotify tile is labelled in black for that reason (the stylesheet comment on `/subscribe` records 2.59:1 for white against 8.12:1 for black)."
    },
    {
-    "name": "The Weight Restraint Rule",
-    "body": "Headings are 700 and running prose is 400. The shipped system also carries 600 on card and section titles and 500 on controls, badges and inline emphasis; that is the whole ladder, and there is no fifth weight. A heading that needs to feel lighter gets a greyer colour, not a lower weight.",
-    "section": "typography"
+    "name": "The One Family Rule",
+    "section": "typography",
+    "body": "Archivo is the only webfont and it is one file. A second voice comes from the width and weight axes, never from a second family. The exceptions are surfaces that cannot load it: `public/offline.html`, `public/favicon.svg` and the build-time share cards stay on the system `sans-serif`."
+   },
+   {
+    "name": "The Masthead Rule",
+    "section": "typography",
+    "body": "`.display` is for nameplates, page and section headings, and numerals. It sets width, weight, tracking and balance; the size stays on the element. Running text, labels and controls never take it."
    },
    {
     "name": "The Ink Ladder Rule",
-    "body": "Every block of text picks exactly one rung: ink for headings, ink-body for prose, ink-muted for metadata, ink-subtle for placeholders. Inventing an intermediate value flattens the ladder for everything else, and the ladder is what carries hierarchy here.",
-    "section": "typography"
+    "section": "typography",
+    "body": "Every block of text picks one rung: `ink` for headings, `ink-body` for prose, `ink-muted` for secondary copy, `ink-subtle` for metadata. The contrast test asserts the four stay in descending order."
+   },
+   {
+    "name": "The Tabular Figures Rule",
+    "section": "typography",
+    "body": "Numbers that line up or change (dates, durations, counts, the issue bar, the audio clock) take `tabular-nums`."
    },
    {
     "name": "The Flat Floor Rule",
-    "body": "Surfaces are flat at rest and separated by hairlines. A shadow in a static screenshot of this system is a bug.",
-    "section": "elevation"
+    "section": "elevation",
+    "body": "Surfaces are flat at rest and separated by hairlines or by a step in tone."
    },
    {
     "name": "The Two Step Rule",
-    "body": "There are exactly two elevations above the ground, and the overlay step is for things that sit over the page - the mobile menu, the skip link, a hover fill. A third surface means the model is wrong for this system; use a border, a divider, or a <details> disclosure instead.",
-    "section": "elevation"
+    "section": "elevation",
+    "body": "There are two steps off the paper: the white card and the overlay tint. The overlay is for things that sit over the page or respond to the pointer (the mobile menu, the skip link, a hover fill). There is no popover, modal or drawer precedent in the build."
    },
    {
     "name": "The Whole-Card Target Rule",
-    "body": "An episode card is one link. Nested interactive elements inside a card are invalid in this system - the offline indicator is decorative for exactly this reason.",
-    "section": "components"
+    "section": "components",
+    "body": "An episode card or row is one link. Nothing interactive nests inside it; the offline indicator is decorative for that reason."
    },
    {
     "name": "The Visible Focus Rule",
-    "body": ":focus-visible in global.css draws a 2px Blue Glow outline at 2px offset on everything. It replaced a border-only focus treatment that only existed on the search field, which left every link and button in the site relying on the UA outline - near-invisible on this ground. A component may add to it; nothing may set outline: none without replacing it with something at least as visible.",
-    "section": "components"
+    "section": "components",
+    "body": "`:focus-visible` in `global.css` draws a `2px` Blue Ink outline at `2px` offset on everything, and a white one inside `.on-accent`. A component may add to it. Nothing may remove it without putting something at least as visible in its place."
    }
   ],
   "dos": [
-   "Do build any new surface from the tokens: card on ground with a 1px hairline, or overlay for something that sits over the page.",
-   "Do carry hierarchy with the ink ladder - ink / ink-body / ink-muted / ink-subtle - before reaching for size or weight.",
-   "Do reuse the 1 -> 2 -> 4 episode grid with a 1.5rem gutter for any new collection of episodes, so archive, topic and year pages stay one product.",
-   "Do mark every new inline script data-astro-rerun and guard it with an initialisation attribute; ClientRouter is site-wide and unguarded scripts silently die after the first client-side navigation.",
-   "Do write every user-facing label in Bahasa Indonesia.",
-   "Do keep radius proportional to element size (0.25 badge / 0.5 control / 0.75 card)."
+   "Do build new surfaces from the tokens: white card on paper with a `1px` hairline, or the overlay tint for something that sits over the page.",
+   "Do make every filled control Blue Fill with `on-accent` type and a hover to `accent-hover`.",
+   "Do put anything that lives on the cover block inside `.on-accent` and use `on-accent` and `on-accent-muted` for its type.",
+   "Do use `.display` for a nameplate, a section heading or a numeral, and set the size on the element.",
+   "Do carry hierarchy with the ink ladder before reaching for size.",
+   "Do reuse the `1 → 2 → 4` episode grid with a `1.5rem` gutter on archive pages, so archive, topic and year pages stay one product.",
+   "Do restate a moved token in `public/offline.html`, `public/favicon.svg` and `src/lib/partner-card.ts`, or read it through `src/lib/palette.ts`.",
+   "Do write every user-facing label in Bahasa Indonesia."
   ],
   "donts": [
-   "Don't introduce a third accent hue. Blue and purple both come from the cover and both have a job; Platform Red is a citation, not an accent.",
-   "Don't add a shadow to anything at rest. Depth is tonal in this system.",
-   "Don't stack a third surface on top of the overlay. There is no popover, modal or drawer precedent to follow.",
-   "Don't add a font weight beyond the 400/500/600/700 already in use, and don't reach for letter-spacing or text-transform - the /partners stat label is the only element in the shipped system that has either.",
-   "Don't put an interactive element inside an episode card; the card is itself a single link.",
-   "Don't use anything dimmer than ink-subtle for text that carries meaning, and don't write a hex literal where a token exists.",
-   "Don't introduce a webfont; the system is deliberately system-stack and ships zero font bytes."
+   "Don't put full-strength Thumbnail Orange under type or use it to fill a control; it measures 2.15:1 under white.",
+   "Don't colour type with bare `highlight`; type takes `highlight-text`.",
+   "Don't drench a second surface in the accent. The cover block is the one.",
+   "Don't bring purple or a third accent hue back. Platform Red and the other brand colours are citations.",
+   "Don't add a second webfont, and don't load Archivo from a third party; the site ships one self-hosted file.",
+   "Don't add a shadow to anything at rest.",
+   "Don't put an interactive element inside an episode card or row.",
+   "Don't use anything quieter than `ink-subtle` for text that carries meaning, and don't write a hex literal where a token exists.",
+   "Don't use `system-ui` in anything rasterised at build time; it resolves to nothing on the Linux build agent."
   ]
  }
 }
