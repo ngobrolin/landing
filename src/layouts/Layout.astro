@@ -17,6 +17,8 @@ interface Props {
   preloadImage?: string;
   omitCanonical?: boolean;
   ogType?: string;
+  /** The homepage has no title of its own, so the wordmark is its h1. */
+  brandAsHeading?: boolean;
 }
 
 const {
@@ -25,6 +27,7 @@ const {
   image = OG_IMAGE_PATH,
   preloadImage,
   omitCanonical = false,
+  brandAsHeading = false,
   ogType = "website",
 } = Astro.props;
 
@@ -101,6 +104,7 @@ const jsonLd = {
     },
   ],
 };
+const BrandTag = brandAsHeading ? 'h1' : 'p';
 ---
 
 <!doctype html>
@@ -120,6 +124,14 @@ const jsonLd = {
         />
       )
     }
+
+    <link
+      rel="preload"
+      as="font"
+      type="font/woff2"
+      href="/fonts/archivo-latin-wdth.woff2"
+      crossorigin
+    />
 
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="generator" content={Astro.generator} />
@@ -261,13 +273,15 @@ const jsonLd = {
       <nav
         class="container mx-auto px-4 py-4 flex items-center justify-between"
       >
-        <a
-          href="/"
-          class="text-xl font-bold text-ink hover:text-accent-text transition"
-          aria-current={currentMarker("/")}
-        >
-          Ngobrolin WEB
-        </a>
+        <BrandTag class="display text-2xl lg:text-3xl leading-none whitespace-nowrap">
+          <a
+            href="/"
+            class="text-ink hover:text-accent-text transition"
+            aria-current={currentMarker("/")}
+          >
+            Ngobrolin WEB
+          </a>
+        </BrandTag>
 
         <!-- Desktop Navigation -->
         <div class="hidden md:flex items-center gap-6">

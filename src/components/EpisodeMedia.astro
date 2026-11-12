@@ -66,7 +66,7 @@ const total = audio ? formatClock(audio.duration) : "";
                         type="button"
                         data-mode="video"
                         aria-pressed="true"
-                        class="inline-flex min-h-11 sm:min-h-9 items-center gap-2 rounded-md px-3 text-sm font-medium text-ink-muted transition hover:text-ink aria-pressed:bg-accent-strong aria-pressed:text-ink"
+                        class="inline-flex min-h-11 sm:min-h-9 items-center gap-2 rounded-md px-3 text-sm font-medium text-ink-muted transition hover:text-ink aria-pressed:bg-accent-strong aria-pressed:text-on-accent"
                     >
                         <svg class="size-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
                             <rect x="2" y="6" width="14" height="12" rx="2" />
@@ -78,7 +78,7 @@ const total = audio ? formatClock(audio.duration) : "";
                         type="button"
                         data-mode="audio"
                         aria-pressed="false"
-                        class="inline-flex min-h-11 sm:min-h-9 items-center gap-2 rounded-md px-3 text-sm font-medium text-ink-muted transition hover:text-ink aria-pressed:bg-accent-strong aria-pressed:text-ink"
+                        class="inline-flex min-h-11 sm:min-h-9 items-center gap-2 rounded-md px-3 text-sm font-medium text-ink-muted transition hover:text-ink aria-pressed:bg-accent-strong aria-pressed:text-on-accent"
                     >
                         <svg class="size-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
                             <path d="M3 14v-2a9 9 0 0 1 18 0v2" />
@@ -198,7 +198,7 @@ const total = audio ? formatClock(audio.duration) : "";
                         </button>
                         <button
                             type="button"
-                            class="audio-play inline-flex size-14 items-center justify-center rounded-lg bg-accent-strong text-ink transition hover:bg-highlight-strong"
+                            class="audio-play inline-flex size-14 items-center justify-center rounded-lg bg-accent-strong text-on-accent transition hover:bg-accent-hover"
                             aria-label="Putar audio"
                             data-audio-play
                         >
@@ -241,7 +241,7 @@ const total = audio ? formatClock(audio.duration) : "";
                                     type="button"
                                     data-audio-rate={rate}
                                     aria-pressed={rate === 1 ? "true" : "false"}
-                                    class="min-h-11 sm:min-h-9 min-w-12 rounded-md px-2 text-sm font-medium tabular-nums text-ink-muted transition hover:text-ink aria-pressed:bg-accent-strong aria-pressed:text-ink"
+                                    class="min-h-11 sm:min-h-9 min-w-12 rounded-md px-2 text-sm font-medium tabular-nums text-ink-muted transition hover:text-ink aria-pressed:bg-accent-strong aria-pressed:text-on-accent"
                                 >
                                     {rate}x
                                 </button>

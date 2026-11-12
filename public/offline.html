@@ -10,13 +10,14 @@
             /* Standalone copy of the tokens in src/styles/global.css. This
                page is served by the service worker without the Astro bundle,
                so it cannot import them - keep the two in step by hand. */
-            --bg-primary: #0e1122;
-            --bg-secondary: #191d3a;
-            --text-primary: #f2f4fd;
-            --text-secondary: #a8b0d2;
-            --accent: #6588fe;
-            --accent-strong: #2a59f4;
-            --border: #333c66;
+            --bg-primary: #f1f2f6;
+            --bg-secondary: #ffffff;
+            --text-primary: #14183a;
+            --text-secondary: #4c5274;
+            --accent: #2a46c0;
+            --accent-strong: #2f4fd0;
+            --on-accent: #ffffff;
+            --border: #c5c9d8;
         }
 
         * {
@@ -106,7 +107,7 @@
             margin-top: 2rem;
             padding: 0.75rem 1.5rem;
             background: var(--accent-strong);
-            color: var(--text-primary);
+            color: var(--on-accent);
             text-decoration: none;
             border-radius: 0.25rem;
             font-weight: 600;
