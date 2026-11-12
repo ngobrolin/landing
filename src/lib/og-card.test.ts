@@ -131,7 +131,7 @@ describe('renderOgCard', () => {
 
     expect(hex(at(12, midY))).toBe(token('accent'));
     expect(hex(at(OG_CARD_WIDTH - 12, midY))).toBe(token('highlight'));
-    expect(hex(at(Math.round(OG_CARD_WIDTH / 2), 12))).toBe(token('surface-raised'));
+    expect(hex(at(Math.round(OG_CARD_WIDTH / 2), 12))).toBe(token('ink'));
   });
 
   it('keeps the wordmark legible against the stage it sits on', () => {

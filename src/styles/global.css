@@ -1,59 +1,79 @@
 @import "tailwindcss";
 
 /*
- * The palette is sampled from public/podcast-cover.jpg - the artwork already on
- * every podcast directory carrying this show - so the site, the channel and the
- * feed read as one property. Quantising the cover to 16 colours yields four that
- * account for almost all of it:
+ * The one font file the site ships. Latin only: the copy is Indonesian and
+ * English. The build-time rasterisers and offline.html cannot load it and stay
+ * on the system sans-serif.
+ */
+@font-face {
+  font-family: "Archivo";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 100 900;
+  font-stretch: 62% 125%;
+  src: url("/fonts/archivo-latin-wdth.woff2") format("woff2");
+}
+
+/*
+ * A light reading ground with the show's own two colours on it. Both come from
+ * things a listener already sees: the blue is the podcast cover's band
+ * (public/podcast-cover.jpg) darkened until it carries white text, and the
+ * orange is the title strip on every episode thumbnail.
  *
- *   #6588fe  blue    (the outer vertical bands)
- *   #a76ab7  purple  (the inner vertical bands)
- *   #191d3a  navy    (the centre panel the title sits on)
- *   #fefefe  white   (the wordmark)
+ *   blue    = interactive (links, focus, filled buttons, active state) and the
+ *             one drenched surface, the homepage cover block
+ *   orange  = categorical / decorative (rules, tags, secondary emphasis)
  *
- * Two rules follow from that, and everything below is derived from them:
- *
- * 1. The navy is a *stage*, not a background tint. Every surface step below is
- *    the sampled navy at a different lightness, hue and saturation held at the
- *    navy's own (hsl 233, 40%). That is why the steps read as one material
- *    rather than as three near-identical greys.
- * 2. The cover sets blue and purple side by side as hard bands - it is not a
- *    gradient, whatever it looks like at thumbnail size. So the site gives them
- *    two distinct jobs rather than blending them everywhere:
- *      blue   = interactive (links, focus, primary buttons, active state)
- *      purple = categorical / decorative (tags, topics, secondary emphasis)
- *    The blue-to-purple gradient is reserved for the few brand moments that
- *    quote the cover's own framing wholesale; DESIGN.md enumerates them.
+ * Orange is far too light to sit under white or to read as type on this
+ * ground, so it never fills a control and its -text and -strong steps are a
+ * dark amber. A filled control is always blue with --color-on-accent on top,
+ * and hovers to the ink navy.
  *
  * Contrast is measured, not eyeballed. src/styles/contrast.test.ts asserts the
  * WCAG AA floors these values were chosen to clear; change a value there and the
  * test tells you which pairing you broke.
  */
 @theme {
-  /* Surfaces: the cover navy, extended into a real elevation scale. */
-  --color-surface: #0e1122; /* page */
-  --color-surface-raised: #191d3a; /* cards - sampled straight from the cover */
-  --color-surface-overlay: #242b4d; /* menus, inputs, hover fills */
-  --color-surface-border: #333c66;
-  --color-surface-border-strong: #6b76a8; /* control outlines - 3:1 on both surfaces */
+  /* Surfaces: a cool paper, the card above it, and the step for menus and hover fills. */
+  --color-surface: #f1f2f6; /* page */
+  --color-surface-raised: #ffffff; /* cards */
+  --color-surface-overlay: #e3e6f0; /* menus, hover fills */
+  --color-surface-border: #c5c9d8;
+  --color-surface-border-strong: #6a7090; /* control outlines - 3:1 on every surface */
 
   /* Text, in descending emphasis. Every step clears AA on every surface. */
-  --color-ink: #f2f4fd; /* headings - the cover white, cooled to the navy hue */
-  --color-ink-body: #c3c9e6; /* body copy */
-  --color-ink-muted: #a8b0d2; /* secondary copy, labels */
-  --color-ink-subtle: #8a94bd; /* metadata, timestamps */
+  --color-ink: #14183a; /* headings - the cover's navy panel */
+  --color-ink-body: #3b4163; /* body copy */
+  --color-ink-muted: #4c5274; /* secondary copy, labels */
+  --color-ink-subtle: #575d7e; /* metadata, timestamps */
 
-  /* Accent pair: the cover's two bands. */
-  --color-accent: #6588fe; /* cover blue, as sampled */
-  --color-accent-text: #86a2fe; /* cover blue lightened - AA as text on cards */
-  --color-accent-strong: #2a59f4; /* cover blue darkened - AA under white text */
-  --color-highlight: #a76ab7; /* cover purple, as sampled */
-  --color-highlight-text: #c98fd8; /* cover purple lightened - AA as text */
-  --color-highlight-strong: #7e3f8e; /* cover purple darkened - AA under white */
+  /* Accent pair: cover blue and thumbnail orange. */
+  --color-accent: #3557e0; /* icons, tints, borders */
+  --color-accent-text: #2a46c0; /* blue as type */
+  --color-accent-strong: #2f4fd0; /* filled controls and the cover block */
+  --color-accent-hover: #14183a; /* a filled control under the pointer */
+  --color-on-accent: #ffffff; /* type on accent-strong and accent-hover */
+  --color-on-accent-muted: #dfe5ff; /* secondary type on accent-strong */
+  --color-highlight: #f0a030; /* thumbnail orange, as sampled - never under type */
+  --color-highlight-text: #8a4f00; /* orange darkened until it reads as type */
+  --color-highlight-strong: #7a4500; /* orange darkened until it carries white */
+
+  --font-sans: "Archivo", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 
 html {
   scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3 {
+  text-wrap: balance;
+}
+
+p,
+li {
+  text-wrap: pretty;
 }
 
 body {
@@ -61,10 +81,23 @@ body {
 }
 
 /*
- * One visible focus ring for the whole site. The old palette had none, so focus
- * fell back to the UA outline, which is near-invisible on a dark surface.
+ * One visible focus ring for the whole site, so nothing falls back to the UA
+ * outline. The blue ring vanishes on the blue cover block, so anything inside
+ * .on-accent takes the white one.
  */
 :focus-visible {
   outline: 2px solid var(--color-accent-text);
   outline-offset: 2px;
+}
+
+/* The masthead voice: Archivo pushed wide and heavy. Sizes stay on the element. */
+.display {
+  font-stretch: 118%;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  text-wrap: balance;
+}
+
+.on-accent :focus-visible {
+  outline-color: var(--color-on-accent);
 }

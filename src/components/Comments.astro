@@ -91,7 +91,8 @@ interface Props {}
       utterancesScript.setAttribute("repo", "ngobrolin/landing");
       utterancesScript.setAttribute("issue-term", "title");
       utterancesScript.setAttribute("label", "comment");
-      utterancesScript.setAttribute("theme", "preferred-color-scheme");
+      // The site has one theme, so the widget must not follow the OS into dark.
+      utterancesScript.setAttribute("theme", "github-light");
 
       commentsWrapper.appendChild(utterancesScript);
     }

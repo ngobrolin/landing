@@ -14,7 +14,7 @@ const isActive = (year: number | undefined) => activeYear === year;
       href="/episodes"
       class={`px-4 py-2 rounded-lg font-medium transition ${
         isActive(undefined)
-          ? 'bg-accent-strong text-ink'
+          ? 'bg-accent-strong text-on-accent'
           : 'bg-surface-raised text-ink-muted hover:text-ink hover:border-accent border border-surface-border'
       }`}
       aria-current={isActive(undefined) ? 'page' : undefined}
@@ -26,7 +26,7 @@ const isActive = (year: number | undefined) => activeYear === year;
         href={`/episodes/${year}`}
         class={`px-4 py-2 rounded-lg font-medium transition ${
           isActive(year)
-            ? 'bg-accent-strong text-ink'
+            ? 'bg-accent-strong text-on-accent'
             : 'bg-surface-raised text-ink-muted hover:text-ink hover:border-accent border border-surface-border'
         }`}
         aria-current={isActive(year) ? 'page' : undefined}

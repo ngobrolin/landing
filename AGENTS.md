@@ -350,28 +350,33 @@ not everything on it is countable from the repo. Three rules hold it together:
   figures, for that reason: a hand-made image would be a second copy, and a card
   that disagrees with the page it links to is worse than no card. It rasterises
   SVG through `sharp` and is bound by the font rules for build-time rasterisers
-  under "The palette comes from the podcast cover" below.
+  under "Palette and type" below.
   `src/lib/partner-card.test.ts` measures ink in the rendered PNG rather than
   trusting the SVG string.
 
 The page is Indonesian-only by decision; do not add an English version or a
 language switcher.
 
-## The palette comes from the podcast cover
+## Palette and type
 
-`src/styles/global.css` is the only place a colour is decided. Every token there
-is either sampled from `public/podcast-cover.jpg` or a lightness step along a
-sampled hue, and `DESIGN.md` explains which is which and what each one is for.
-Two guards keep it honest, and both assert rules rather than today's values:
-`src/styles/contrast.test.ts` (the WCAG floors each pairing was chosen to clear)
-and `src/styles/palette-literals.test.ts` (no source file writes a literal from
-the retired pre-cover palette).
+`src/styles/global.css` is the only place a colour or a font is decided, and
+`DESIGN.md` explains what each token is for. The ground is light; blue (the
+podcast cover's band, darkened) is interactive; orange (the title strip on every
+episode thumbnail) is decorative. Two guards keep it honest, and both assert
+rules rather than today's values: `src/styles/contrast.test.ts` (the WCAG floors
+each pairing was chosen to clear) and `src/styles/palette-literals.test.ts` (no
+source file writes a literal from the retired pre-cover palette).
 
-Three surfaces cannot read that stylesheet and therefore restate the tokens by
-hand — `public/offline.html` (served by the service worker without the Astro
-bundle), `public/favicon.svg` and `src/lib/partner-card.ts` (librsvg has no
-stylesheet). Move a token and you must move it in those too; the literals test
-catches only the retired values, not drift in the new ones.
+The site ships one font file, `public/fonts/archivo-latin-wdth.woff2`, declared
+in `global.css` and preloaded by `Layout.astro`. The `.display` class is the
+wide, heavy masthead voice; use it for page-level headings, not body copy.
+
+Four surfaces cannot read that stylesheet and therefore restate the tokens by
+hand: `public/offline.html` (served by the service worker without the Astro
+bundle), `public/favicon.svg`, `src/lib/partner-card.ts` (librsvg has no
+stylesheet) and the cache names in `public/sw.js`, which must be bumped when a
+precached file changes. Move a token and you must move it in those too; the
+literals test catches only the retired values, not drift in the new ones.
 
 `src/lib/palette.ts` is the way out of that, and anything new that draws at build
 time should use it instead of adding a fourth copy: it parses the `@theme` block
@@ -391,12 +396,15 @@ is Helvetica on a Mac and DejaVu Sans, roughly a tenth wider, on the build agent
 fitting to metrics. The clearance guards in `src/lib/og-card.test.ts` are what
 catch an overflow, because CI runs the unit tests on Linux.
 
-Two traps this repaint hit:
+Three traps the repaints hit:
 
-- **The sampled accents are too light to sit under text.** The cover blue
-  measures 3.2:1 under white. Filled controls use the darkened `-strong` pair;
-  the bare token is for icons, tints and borders, and `-text` is for type. This
-  is the split the previous palette got wrong on every primary button.
+- **A filled control never takes `text-ink`.** Ink is dark on this ground, so a
+  blue button with `text-ink` is unreadable. Filled controls are
+  `bg-accent-strong text-on-accent hover:bg-accent-hover`, and the contrast test
+  asserts that pairing.
+- **Orange never sits under type and never is type.** The sampled value is
+  1.9:1 on the ground. Use `highlight` for rules and fills without text, and the
+  dark `-text` and `-strong` steps for anything that must be read.
 - **Never select an element by a colour utility class in a test.** Two e2e
   assertions used `p.text-gray-400` to find an episode's date and went red on a
   repaint that had nothing to do with what they were checking. Use a

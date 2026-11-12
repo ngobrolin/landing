@@ -26,18 +26,19 @@ export {
 } from './partner-card-geometry';
 
 /**
- * The same tokens as `src/styles/global.css`, restated because librsvg has no
- * stylesheet to read. A sponsor sees this card next to the page it links to, so
- * the two have to be the same colours; when a token there moves, move it here.
+ * Restated from `src/styles/global.css` because librsvg has no stylesheet to
+ * read. Like the site-wide share card, this one sits on the navy ink token with
+ * light type, so the two cards match; the last three are steps of that navy
+ * that exist only here. When a token there moves, move it here.
  */
-const BACKGROUND = '#0e1122'; // --color-surface
-const INK = '#f2f4fd'; // --color-ink
-const ACCENT = '#86a2fe'; // --color-accent-text
-const ACCENT_BAND = '#6588fe'; // --color-accent      (cover blue)
-const HIGHLIGHT_BAND = '#a76ab7'; // --color-highlight   (cover purple)
-const MUTED = '#a8b0d2'; // --color-ink-muted
-const FAINT = '#8a94bd'; // --color-ink-subtle
-const HAIRLINE = '#333c66'; // --color-surface-border
+const BACKGROUND = '#14183a'; // --color-ink
+const INK = '#ffffff'; // --color-on-accent
+const ACCENT = '#dfe5ff'; // --color-on-accent-muted
+const ACCENT_BAND = '#3557e0'; // --color-accent      (cover blue)
+const HIGHLIGHT_BAND = '#f0a030'; // --color-highlight   (thumbnail orange)
+const MUTED = '#c3c9e6';
+const FAINT = '#a8b0d2';
+const HAIRLINE = '#333c66';
 
 /**
  * librsvg resolves fonts through fontconfig. "system-ui" maps to nothing on a

@@ -139,7 +139,7 @@ const displayTitle = getDisplayTitle(episode.title);
                 <div class="mt-8">
                     <div class="flex items-center gap-4 mb-4">
                         <span
-                            class="bg-accent-strong text-ink text-sm font-bold px-3 py-1 rounded"
+                            class="bg-accent-strong text-on-accent text-sm font-bold px-3 py-1 rounded"
                             data-testid="episode-number-badge"
                             >EP {episode.episodeNumber}</span
                         >
@@ -263,7 +263,7 @@ const displayTitle = getDisplayTitle(episode.title);
                             </div>
                             <a
                                 href="/subscribe"
-                                class="bg-accent-strong hover:bg-highlight-strong text-ink px-6 py-3 rounded-lg font-medium transition whitespace-nowrap text-center"
+                                class="bg-accent-strong hover:bg-accent-hover text-on-accent px-6 py-3 rounded-lg font-medium transition whitespace-nowrap text-center"
                                 data-analytics-event="cta_click"
                                 data-analytics-props={JSON.stringify({
                                     cta: "subscribe",

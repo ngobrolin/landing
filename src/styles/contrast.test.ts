@@ -3,9 +3,9 @@ import { readFileSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 
 /**
- * The palette is sampled from the podcast cover, which is an artwork rather than
- * a design system: nothing about being on-brand makes a pairing legible. So this
- * asserts the WCAG floors, not the values.
+ * The palette borrows from the podcast cover and the episode thumbnails, which
+ * are artwork rather than a design system: nothing about being on-brand makes a
+ * pairing legible. So this asserts the WCAG floors, not the values.
  *
  * Deliberately NOT a snapshot of today's tokens. Repainting the site is allowed
  * and should stay allowed; shipping a pairing a reader cannot resolve is not.
@@ -83,14 +83,22 @@ describe('palette contrast', () => {
     }
   );
 
-  it.each(['accent-strong', 'highlight-strong'])(
-    'a filled %s button carries ink at AA',
+  it.each(['accent-strong', 'accent-hover', 'highlight-strong'])(
+    'a %s fill carries on-accent type at AA',
     name => {
-      // The sampled accents are too light to sit under white; these are the
-      // darkened pair the filled buttons actually use.
-      expect(ratio(token('ink'), token(name))).toBeGreaterThanOrEqual(TEXT_AA);
+      // Filled controls rest on accent-strong and hover to accent-hover; the
+      // orange only ever carries type in its darkened -strong step.
+      expect(
+        ratio(token('on-accent'), token(name))
+      ).toBeGreaterThanOrEqual(TEXT_AA);
     }
   );
+
+  it('the cover block carries its secondary type at AA', () => {
+    expect(
+      ratio(token('on-accent-muted'), token('accent-strong'))
+    ).toBeGreaterThanOrEqual(TEXT_AA);
+  });
 
   it('separates every step of the surface scale', () => {
     // Three greys two points apart is what this palette replaced. A step has to
