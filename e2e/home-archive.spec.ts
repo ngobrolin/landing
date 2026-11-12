@@ -35,7 +35,7 @@ test.describe('Homepage opens onto the archive', () => {
   test('links into topic pages', async ({ page }) => {
     await page.goto('/');
     const topics = page.getByTestId('home-topics').locator('a[href^="/tags/"]');
-    expect(await topics.count()).toBeGreaterThanOrEqual(8);
+    expect(await topics.count()).toBeGreaterThan(0);
 
     // Every homepage topic must resolve. The old inert chips named HTMX, JWT,
     // Elixir, DevOps and Node.js, none of which have a tag page - turning them

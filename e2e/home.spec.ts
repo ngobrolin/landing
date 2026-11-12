@@ -20,7 +20,7 @@ test.describe('Homepage', () => {
 
     const cardHrefs = await page
       .getByTestId('episode-card')
-      .evaluateAll((els) => els.map((el) => el.getAttribute('href') ?? el.querySelector('a')?.getAttribute('href')));
+      .evaluateAll((els) => els.map((el) => el.getAttribute('href')));
     expect(cardHrefs.length).toBeGreaterThan(0);
     expect(cardHrefs).not.toContain(latestHref);
   });
@@ -28,8 +28,12 @@ test.describe('Homepage', () => {
   test('the latest episode link is named by its title alone', async ({ page }) => {
     await page.goto('/');
     const link = page.getByTestId('home-latest-link');
-    const title = (await link.innerText()).trim();
-    await expect(link).toHaveAccessibleName(title);
+    const action = (await page.getByTestId('home-latest-action').innerText()).trim();
+    const name = await link.evaluate((el) => (el as HTMLElement).innerText.trim());
+    expect(action.length).toBeGreaterThan(0);
+    expect(name).not.toContain(action);
+    await expect(link).toHaveAccessibleName(name);
+    await expect(link.locator('[data-testid="home-latest-action"]')).toHaveCount(0);
   });
 
   test('on a phone the latest episode and its action sit in the first viewport', async ({ page }) => {

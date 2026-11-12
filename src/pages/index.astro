@@ -168,10 +168,10 @@ const hosts = [
               Wrapping the whole card made the accessible name the title plus the
               full summary plus the action label.
             -->
-            <h2 class="font-semibold text-lg leading-snug line-clamp-2 mb-2">
+            <h2 class="font-semibold text-lg leading-snug mb-2">
               <a
                 href={`/episodes/${latestEpisode.slug}`}
-                class="text-ink group-hover:text-accent-text transition after:absolute after:inset-0 after:rounded-2xl"
+                class="line-clamp-2 text-ink group-hover:text-accent-text transition after:absolute after:inset-0"
                 data-testid="home-latest-link"
               >
                 {latestDisplayTitle}
@@ -237,7 +237,7 @@ const hosts = [
                 </kbd>
                 <button
                   type="submit"
-                  class="bg-accent-strong hover:bg-highlight-strong text-ink px-4 py-2 rounded-md text-sm font-medium transition"
+                  class="min-h-11 sm:min-h-9 bg-accent-strong hover:bg-highlight-strong text-ink px-4 rounded-md text-sm font-medium transition"
                 >
                   Cari
                 </button>
@@ -293,7 +293,6 @@ const hosts = [
     </div>
   </section>
 
-  <!-- Previous Episodes Grid -->
   <section class="py-12 md:py-16">
     <div class="container mx-auto px-4">
       <div class="flex items-center justify-between mb-8">
@@ -351,7 +350,7 @@ const hosts = [
                   <span class="text-ink-body group-hover:text-ink transition">
                     {formatTagLabel(tag)}
                   </span>
-                  <span class="text-ink-subtle text-sm">{count}</span>
+                  <span class="text-ink-subtle text-sm">{count}<span class="sr-only"> episode</span></span>
                 </a>
               ))}
             </div>
@@ -369,7 +368,7 @@ const hosts = [
                 class="group inline-flex items-baseline gap-2 min-h-11 bg-surface-raised border border-surface-border hover:border-accent/50 px-4 py-2.5 rounded-lg transition"
               >
                 <span class="text-ink-body font-semibold group-hover:text-ink transition">{year}</span>
-                <span class="text-ink-subtle text-sm">{count}</span>
+                <span class="text-ink-subtle text-sm">{count}<span class="sr-only"> episode</span></span>
               </a>
             ))}
           </div>
@@ -394,7 +393,7 @@ const hosts = [
           </a>
         </div>
 
-        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-10">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-10">
           {hosts.map((host) => (
             <div class="bg-surface-raised border border-surface-border rounded-xl p-5 flex items-start gap-4">
               <img

@@ -364,24 +364,24 @@ const jsonLd = {
         <div class="container mx-auto px-4 py-4 flex flex-col gap-4">
           <a
             href="/episodes"
-            class="text-ink-body hover:text-ink transition py-2"
+            class="text-ink-body hover:text-ink transition py-2.5"
             aria-current={currentMarker("/episodes")}>Episode</a
           >
           <a
             href="/tags"
-            class="text-ink-body hover:text-ink transition py-2"
+            class="text-ink-body hover:text-ink transition py-2.5"
             aria-current={currentMarker("/tags")}>Topik</a
           >
           <a
             href="/partners"
-            class="text-ink-body hover:text-ink transition py-2"
+            class="text-ink-body hover:text-ink transition py-2.5"
             aria-current={currentMarker("/partners")}>Partner</a
           >
           <a
             href="https://github.com/orgs/ngobrolin/discussions"
             target="_blank"
             rel="noopener noreferrer"
-            class="text-ink-body hover:text-ink transition py-2"
+            class="text-ink-body hover:text-ink transition py-2.5"
             data-analytics-event="outbound_click"
             data-analytics-props={JSON.stringify({
               dest: "github_discussions",
@@ -390,7 +390,7 @@ const jsonLd = {
           >
           <a
             href="/about"
-            class="text-ink-body hover:text-ink transition py-2"
+            class="text-ink-body hover:text-ink transition py-2.5"
             aria-current={currentMarker("/about")}>Tentang</a
           >
           <a
@@ -546,13 +546,9 @@ const jsonLd = {
           link.addEventListener("click", () => setOpen(false));
         });
 
-        // One document listener for the life of the tab, resolving the elements
-        // at event time: Safari does not focus a tapped button, so a listener on
-        // the button would miss Escape, and the header is swapped on navigation.
-        // The flag lives on window because the router rewrites <html> attributes
-        // on swap; a second listener would close the menu and reopen it.
+        // On document because Safari does not focus a tapped button; flagged on
+        // window because the router rewrites <html> attributes on every swap.
         if (window.__menuEscapeInit) return;
-        window.__menuEscapeInit = true;
         document.addEventListener("keydown", (e) => {
           if (e.key !== "Escape") return;
           const btn = document.getElementById("mobile-menu-btn");
@@ -561,6 +557,7 @@ const jsonLd = {
           btn.click();
           btn.focus();
         });
+        window.__menuEscapeInit = true;
       })();
     </script>
 

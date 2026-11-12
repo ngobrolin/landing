@@ -307,7 +307,7 @@ phone's first viewport; from `lg` the intro and search share the left column
 and the spotlight spans both rows on the right.
 
 Vertical rhythm is section-scale rather than fine-grained: `py-12` (`3rem`)
-for a standard section, `py-16`/`py-24` for the homepage hero, `mb-8`
+for a standard section, `py-8` rising to `py-20` at `md` for the homepage hero, `mb-8`
 (`2rem`) between a page header and its content, `mb-4`/`mb-6` within a block.
 Breakpoints are Tailwind defaults; only `sm` (640px), `md` (768px) and `lg`
 (1024px) are used. `md` is the navigation breakpoint — the desktop nav row
