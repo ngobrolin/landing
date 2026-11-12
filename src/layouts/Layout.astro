@@ -323,10 +323,11 @@ const jsonLd = {
         <!-- Mobile Menu Button -->
         <button
           type="button"
-          class="md:hidden p-2 text-ink-body hover:text-ink transition"
+          class="md:hidden p-2.5 -mr-2.5 text-ink-body hover:text-ink transition"
           id="mobile-menu-btn"
           aria-label="Buka menu"
           aria-expanded="false"
+          aria-controls="mobile-menu"
         >
           <svg
             class="w-6 h-6 menu-icon"
@@ -529,22 +530,36 @@ const jsonLd = {
         if (menuBtn.hasAttribute("data-menu-initialized")) return;
         menuBtn.setAttribute("data-menu-initialized", "true");
 
-        menuBtn.addEventListener("click", () => {
-          const isOpen = mobileMenu?.classList.toggle("hidden") === false;
-
+        const setOpen = (isOpen) => {
+          mobileMenu.classList.toggle("hidden", !isOpen);
           menuIcon?.classList.toggle("hidden", isOpen);
           closeIcon?.classList.toggle("hidden", !isOpen);
-          menuBtn?.setAttribute("aria-expanded", String(isOpen));
+          menuBtn.setAttribute("aria-expanded", String(isOpen));
+          menuBtn.setAttribute("aria-label", isOpen ? "Tutup menu" : "Buka menu");
+        };
+
+        menuBtn.addEventListener("click", () => {
+          setOpen(mobileMenu.classList.contains("hidden"));
         });
 
-        // Close menu when clicking a link
-        mobileMenu?.querySelectorAll("a").forEach((link) => {
-          link.addEventListener("click", () => {
-            mobileMenu.classList.add("hidden");
-            menuIcon?.classList.remove("hidden");
-            closeIcon?.classList.add("hidden");
-            menuBtn?.setAttribute("aria-expanded", "false");
-          });
+        mobileMenu.querySelectorAll("a").forEach((link) => {
+          link.addEventListener("click", () => setOpen(false));
+        });
+
+        // One document listener for the life of the tab, resolving the elements
+        // at event time: Safari does not focus a tapped button, so a listener on
+        // the button would miss Escape, and the header is swapped on navigation.
+        // The flag lives on window because the router rewrites <html> attributes
+        // on swap; a second listener would close the menu and reopen it.
+        if (window.__menuEscapeInit) return;
+        window.__menuEscapeInit = true;
+        document.addEventListener("keydown", (e) => {
+          if (e.key !== "Escape") return;
+          const btn = document.getElementById("mobile-menu-btn");
+          const menu = document.getElementById("mobile-menu");
+          if (!btn || !menu || menu.classList.contains("hidden")) return;
+          btn.click();
+          btn.focus();
         });
       })();
     </script>

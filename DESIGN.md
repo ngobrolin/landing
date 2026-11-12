@@ -296,9 +296,15 @@ there is no full-bleed treatment anywhere. Reading surfaces narrow further:
 
 The dominant grid is the episode grid: `1 → 2 → 4` columns at
 `base → sm → lg`, with a `1.5rem` gutter. It is used identically on the
-homepage, the archive, year pages and tag pages, which is what makes those
-pages feel like one product. Related episodes on a detail page use a
-`1 → 3` variant.
+archive, year pages and tag pages, which is what makes those pages feel like
+one product. Related episodes on a detail page use a `1 → 3` variant, and so
+does the homepage: its spotlight already carries the newest episode, so the
+grid below shows the three before it.
+
+The homepage hero is three blocks in reading order (intro, latest episode,
+search). They stack that way below `lg`, which keeps the newest episode in a
+phone's first viewport; from `lg` the intro and search share the left column
+and the spotlight spans both rows on the right.
 
 Vertical rhythm is section-scale rather than fine-grained: `py-12` (`3rem`)
 for a standard section, `py-16`/`py-24` for the homepage hero, `mb-8`
@@ -376,8 +382,11 @@ closest thing the system has to a signature form.
 ### Chips
 
 - **Topic chip (inert):** hairline fill, `ink-body` text, fully rounded,
-  `text-sm`. Currently used as a non-interactive label on the homepage and
-  about page.
+  `text-sm`. A non-interactive label on the about page.
+- **Archive chip (link):** card fill, hairline border going `accent/50` on
+  hover, `0.5rem` radius, a label in `ink-body` with its episode count in
+  `ink-subtle`, at least `2.75rem` tall. The homepage "Jelajahi Arsip" block
+  uses it for both topics and years.
 - **Year tab:** Two states only. Active is Blue Deep fill with ink text and no
   border; idle is card fill, `ink-muted` text, hairline border, going
   ink-text/blue-border on hover. Carries `aria-current="page"` when active.
@@ -413,7 +422,8 @@ closest thing the system has to a signature form.
   border; links stack with `1rem` gaps and the subscribe button goes
   full-width. The toggle is an inline script guarded by
   `data-menu-initialized` and marked `data-astro-rerun` so it survives view
-  transitions.
+  transitions. Its label names the next action ("Buka menu" / "Tutup menu"),
+  and Escape closes the panel and returns focus to the toggle.
 - **Breadcrumb (episode pages):** `text-sm`, `ink-muted`, slash-separated,
   current crumb in ink.
 
