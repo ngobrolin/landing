@@ -2,49 +2,60 @@
 name: Ngobrolin WEB
 description: Indonesian web-development video podcast and its fully-transcribed episode archive
 colors:
-  surface: "#0e1122"
-  surface-raised: "#191d3a"
-  surface-overlay: "#242b4d"
-  surface-border: "#333c66"
-  surface-border-strong: "#6b76a8"
-  ink: "#f2f4fd"
-  ink-body: "#c3c9e6"
-  ink-muted: "#a8b0d2"
-  ink-subtle: "#8a94bd"
-  accent: "#6588fe"
-  accent-text: "#86a2fe"
-  accent-strong: "#2a59f4"
-  highlight: "#a76ab7"
-  highlight-text: "#c98fd8"
-  highlight-strong: "#7e3f8e"
-  accent-subscribe: "#dc2626"
+  surface: "#f1f2f6"
+  surface-raised: "#ffffff"
+  surface-overlay: "#e3e6f0"
+  surface-border: "#c5c9d8"
+  surface-border-strong: "#6a7090"
+  ink: "#14183a"
+  ink-body: "#3b4163"
+  ink-muted: "#4c5274"
+  ink-subtle: "#575d7e"
+  accent: "#3557e0"
+  accent-text: "#2a46c0"
+  accent-strong: "#2f4fd0"
+  accent-hover: "#14183a"
+  on-accent: "#ffffff"
+  on-accent-muted: "#dfe5ff"
+  highlight: "#f0a030"
+  highlight-text: "#8a4f00"
+  highlight-strong: "#7a4500"
+  accent-subscribe: "oklch(57.7% 0.245 27.325)"
 typography:
   display:
-    fontFamily: "ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif"
-    fontSize: "clamp(2.25rem, 6vw, 3.75rem)"
-    fontWeight: 700
-    lineHeight: 1.1
-    letterSpacing: "normal"
+    fontFamily: "Archivo, ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif"
+    fontSize: "clamp(2.75rem, 8.2vw, 7rem)"
+    fontWeight: 800
+    lineHeight: 0.95
+    letterSpacing: "-0.03em"
+    fontVariation: "'wdth' 118"
+  masthead:
+    fontFamily: "Archivo, ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif"
+    fontSize: "1.5rem"
+    fontWeight: 800
+    lineHeight: 1.33
+    letterSpacing: "-0.02em"
+    fontVariation: "'wdth' 118"
   headline:
-    fontFamily: "ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif"
+    fontFamily: "Archivo, ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif"
     fontSize: "1.875rem"
     fontWeight: 700
     lineHeight: 1.2
   title:
-    fontFamily: "ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif"
-    fontSize: "1.5rem"
+    fontFamily: "Archivo, ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif"
+    fontSize: "1.25rem"
     fontWeight: 700
-    lineHeight: 1.3
+    lineHeight: 1.375
   body:
-    fontFamily: "ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif"
+    fontFamily: "Archivo, ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif"
     fontSize: "1rem"
     fontWeight: 400
-    lineHeight: 1.625
+    lineHeight: 1.5
   label:
-    fontFamily: "ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif"
+    fontFamily: "Archivo, ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif"
     fontSize: "0.75rem"
     fontWeight: 700
-    lineHeight: 1
+    lineHeight: 1.33
     letterSpacing: "normal"
   timecode:
     fontFamily: "ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace"
@@ -53,8 +64,9 @@ typography:
     lineHeight: 1.625
 rounded:
   sm: "0.25rem"
-  md: "0.5rem"
-  lg: "0.75rem"
+  md: "0.375rem"
+  lg: "0.5rem"
+  xl: "0.75rem"
   full: "9999px"
 spacing:
   xs: "0.5rem"
@@ -66,27 +78,53 @@ spacing:
 components:
   button-primary:
     backgroundColor: "{colors.accent-strong}"
-    textColor: "{colors.ink}"
-    rounded: "{rounded.md}"
+    textColor: "{colors.on-accent}"
+    rounded: "{rounded.lg}"
     padding: "0.75rem 1.5rem"
     typography: "{typography.body}"
   button-primary-hover:
-    backgroundColor: "{colors.highlight-strong}"
+    backgroundColor: "{colors.accent-hover}"
+    textColor: "{colors.on-accent}"
+  button-cover:
+    backgroundColor: "{colors.on-accent}"
+    textColor: "{colors.ink}"
+    rounded: "{rounded.md}"
+    padding: "0 1.75rem"
+    height: "3.25rem"
+  button-cover-hover:
+    backgroundColor: "{colors.ink}"
+    textColor: "{colors.on-accent}"
+  button-cover-outline:
+    backgroundColor: "transparent"
+    textColor: "{colors.on-accent}"
+    rounded: "{rounded.md}"
+    padding: "0 1.75rem"
+    height: "3.25rem"
+  button-cover-outline-hover:
+    backgroundColor: "{colors.on-accent}"
     textColor: "{colors.ink}"
   button-outline:
     backgroundColor: "transparent"
     textColor: "{colors.ink}"
-    rounded: "{rounded.md}"
-    padding: "0.75rem 1.5rem"
+    rounded: "{rounded.lg}"
+    padding: "0.5rem 1rem"
   button-subscribe:
     backgroundColor: "{colors.accent-subscribe}"
     textColor: "#ffffff"
-    rounded: "{rounded.md}"
+    rounded: "{rounded.lg}"
     padding: "0.5rem 1rem"
+  cover-block:
+    backgroundColor: "{colors.accent-strong}"
+    textColor: "{colors.on-accent}"
+    padding: "3.5rem"
+  archive-panel:
+    backgroundColor: "{colors.surface-raised}"
+    textColor: "{colors.ink-body}"
+    padding: "1.75rem"
   card-episode:
     backgroundColor: "{colors.surface-raised}"
     textColor: "{colors.ink}"
-    rounded: "{rounded.lg}"
+    rounded: "{rounded.xl}"
     padding: "1rem"
   chip-tag:
     backgroundColor: "{colors.surface-border}"
@@ -95,392 +133,453 @@ components:
     padding: "0.25rem 0.75rem"
   chip-year-active:
     backgroundColor: "{colors.accent-strong}"
-    textColor: "{colors.ink}"
-    rounded: "{rounded.md}"
+    textColor: "{colors.on-accent}"
+    rounded: "{rounded.lg}"
     padding: "0.5rem 1rem"
   chip-year-idle:
     backgroundColor: "{colors.surface-raised}"
     textColor: "{colors.ink-muted}"
-    rounded: "{rounded.md}"
+    rounded: "{rounded.lg}"
     padding: "0.5rem 1rem"
   input-search:
     backgroundColor: "{colors.surface-raised}"
     textColor: "{colors.ink}"
-    rounded: "{rounded.md}"
-    padding: "0.75rem 1rem 0.75rem 3rem"
+    rounded: "{rounded.lg}"
+    padding: "0.75rem 5rem 0.75rem 3rem"
+  badge-new:
+    backgroundColor: "{colors.accent-strong}"
+    textColor: "{colors.on-accent}"
+    rounded: "{rounded.sm}"
+    padding: "0.25rem 0.5rem"
+    typography: "{typography.label}"
   badge-episode-number:
     backgroundColor: "rgba(0, 0, 0, 0.7)"
     textColor: "#ffffff"
     rounded: "{rounded.sm}"
     padding: "0.25rem 0.5rem"
-    typography: "{typography.label}"
 ---
 
 # Design System: Ngobrolin WEB
 
 ## Overview
 
-**Creative North Star: "The Cover, Extended"**
+**Creative North Star: "Edisi Mingguan"**
 
-Every colour in this system is sampled from `public/podcast-cover.jpg` — the
-artwork already on every podcast directory that carries this show. The cover is
-three vertical bands: blue (`#6588fe`) and purple (`#a76ab7`) framing a deep
-navy panel (`#191d3a`) with the wordmark in white. So the site is that navy
-panel, extended: the ground (`#0e1122`), the card (`#191d3a`, sampled exactly),
-the overlay (`#242b4d`) and the hairline (`#333c66`) are one material at four
-lightnesses, hue and saturation held at the navy's own `hsl(233, 40%)`. That is
-what makes them read as a scale rather than as four unrelated dark greys.
+The site is a weekly, and the homepage is this week's issue. The newest episode
+is the cover story: a blue block carrying its title in very large type, a deck,
+two actions and the thumbnail in a white frame. Everything older is back issues,
+listed as numbered rows and reached through one archive panel. Above the cover
+sits an issue bar ("Edisi 189 · 11 November 2026" on the left, the broadcast
+schedule on the right) under a 2px ink rule, the way a paper dates its front
+page.
 
-The cover sets the blue and the purple **side by side as hard bands** — it is
-not a gradient, whatever it looks like at thumbnail size. The site gives them
-two jobs accordingly: blue is interactive (links, focus, filled buttons, the
-active tab, transcript timecodes); purple is categorical and decorative (topic
-labels, tier eyebrows, the Apple Podcasts citation) and is where an accent fill
-goes on hover. The blue-to-purple gradient is reserved for the few places the
-cover's own framing is being quoted directly: the favicon and the `/partners`
-share card. The site-wide share card at `/og-image.png` and the feed logo at
-`/og-logo.png` go further and quote the cover's *bands* rather than a gradient
-of them — see `src/lib/og-card.ts`. The subscribe action stays YouTube red — an
-off-system colour used as a platform citation, not as part of the palette.
+The ground is a cool light paper (`#f1f2f6`) with white cards and navy ink
+(`#14183a`). Two hues sit on it, and `src/styles/global.css` records where each
+came from: the blue is the podcast cover's band darkened until it carries white
+type, and the orange is the title strip on every episode thumbnail. Blue means
+a reader can act on something, and it owns the one drenched surface on the
+site, the homepage cover block. Orange is decoration: the 3px rules over the
+key points, icon fills, a faint tint. Purple, which the previous palette
+carried, is gone from the stylesheet. The subscribe button in the navigation
+stays YouTube red, a platform's colour quoted as a citation.
 
-Typography is entirely system-stack and entirely unstyled in personality
-terms: no display face, and — one uppercase stat label on `/partners` aside —
-no letter-spacing tricks or case transforms. Hierarchy is carried by weight
-(700 headings and 400 prose, with 600 on card titles and 500 on controls) and
-by a four-rung ink ladder that runs from `#f2f4fd` headings to `#8a94bd`
-metadata. The result is quiet and utilitarian, which suits an archive: the
-interface is a reading surface for Indonesian technical speech, and it gets out
-of the way. The one typographic signature is the monospace timecode running
-down the left edge of every transcript.
+One typeface does everything. Archivo ships as a single self-hosted variable
+file with a width axis, and the `.display` class pushes it wide and heavy for
+the wordmark, the cover title, the homepage section headings and the episode
+numerals. The episode page uses the same voice for its title and section
+headings. The archive, topic, about, subscribe and partners pages have not
+taken it yet: their titles are plain 700. All of them share the palette, the
+hairlines and the episode card.
 
 **Key Characteristics:**
 
-- One navy material at four lightnesses: ground, card, overlay, hairline
-- Hairline borders instead of shadows to separate surfaces at rest
-- Two accent hues with fixed jobs, plus borrowed brand colours for platform links
-- System font stack throughout; hierarchy from weight and colour value only
-- 16:9 thumbnail as the dominant visual unit, repeated in a 4-up grid
-- Monospace timecodes as the sole typographic ornament
+- Cool paper ground, white cards, navy ink, hairline rules
+- One blue with three steps for acting, one orange that only decorates
+- A single drenched surface: the blue cover block on the homepage
+- Archivo throughout; `.display` (118% width, weight 800) as the masthead voice
+- Rules and numbered rows on the homepage, the 16:9 card grid on archive pages
+- Monospace for transcript timecodes and other machine-flavoured text
 
 ## Colors
 
-Every value below is the podcast cover or a lightness step along its own hue.
-Nothing here was picked to look nice next to the last thing; if a new colour is
-needed, sample the cover for it or derive it from a token already present.
-
-`src/styles/contrast.test.ts` holds the floors these values were chosen to
-clear, and `src/styles/palette-literals.test.ts` fails the build if a retired
-literal reappears anywhere in source. Ratios below are against the ground.
+A light, cool-neutral scale with one working blue and one decorative orange.
+`src/styles/global.css` is the only place a colour is decided.
+`src/styles/contrast.test.ts` asserts the WCAG floors rather than the values:
+every ink step, `accent-text` and `highlight-text` at 4.5:1 on all three
+surfaces, `surface-border-strong` at 3:1 on all three, white at 4.5:1 on
+`accent-strong`, `accent-hover` and `highlight-strong`, and `on-accent-muted`
+at 4.5:1 on `accent-strong`. Ratios below were measured against the ground
+unless stated.
 
 ### Primary
 
-- **Cover Blue** (`#6588fe`): sampled from the cover's outer bands. The
-  interactive hue: transcript timecodes, summary bullets, tinted fills
-  (`accent/20`), hover borders. 5.8:1 on the ground.
-- **Blue Glow** (`#86a2fe`): the same blue lightened. Everything that reads as
-  *type* — links, hovered headings, the `/partners` figures, inline emphasis.
-  7.7:1 on the ground, 6.7:1 on a card.
-- **Blue Deep** (`#2a59f4`): the same blue darkened until it carries ink at AA
-  (5.0:1). Filled buttons, the `BARU` badge, the active year tab. The sampled
-  blue is far too light to sit under white — 3.2:1 — which is why this exists.
+- **Cover Blue** (`accent`): icons, tints (`accent/20`), hover borders
+  (`accent/50`), avatar rings, the audio seek progress, and the faint oversized
+  episode numeral on the cover block. Transcript timecodes also use it as type,
+  at 5.9:1 on a card.
+- **Blue Ink** (`accent-text`): blue as type. Links, hovered headings, the row
+  numerals, the `/partners` figures, the site-wide focus ring. 6.9:1 on the
+  ground, 7.7:1 on a card, 6.2:1 on the overlay.
+- **Blue Fill** (`accent-strong`): filled controls, the `BARU` badge, the
+  active year tab, the pressed state of segmented toggles, and the cover block.
+  Carries white at 6.7:1 and `on-accent-muted` at 5.3:1.
+- **Pressed Navy** (`accent-hover`): the same value as ink. Every filled blue
+  control goes to it under the pointer. Carries white at 17.2:1.
+- **On Accent** (`on-accent`) and **On Accent Muted** (`on-accent-muted`):
+  primary and secondary type on Blue Fill. On the cover block the primary
+  button inverts the pair: white fill, ink label.
 
 ### Secondary
 
-- **Cover Purple** (`#a76ab7`): sampled from the cover's inner bands. The
-  categorical hue: decorative glyphs and icon fills. 4.8:1 on the ground, and
-  4.2:1 on a card, so it is an icon colour there, not a body-text colour.
-- **Purple Glow** (`#c98fd8`): the same purple lightened for type — tier
-  eyebrows, the Apple Podcasts citation. 7.5:1 on the ground.
-- **Purple Deep** (`#7e3f8e`): the hover state of every filled blue button.
-  6.4:1 under ink. This is the one place the site performs the cover's own
-  blue-beside-purple pairing as a state change.
-- **Platform Red** (`#dc2626`): not a brand colour. It appears only on
-  subscribe actions, where it is quoting YouTube's own affordance.
+- **Thumbnail Orange** (`highlight`): the 3px rules over the homepage key
+  points, decorative icon fills, and tints at 5% to 40% opacity. 1.9:1 on the
+  ground and 2.15:1 under white, so it never fills a control and never colours
+  type.
+- **Dark Amber** (`highlight-text`): orange darkened until it reads as type.
+  5.9:1 on the ground. Used for the "Paling Populer" label on `/partners` and
+  the Apple Podcasts tile on `/subscribe`.
+- **Deep Amber** (`highlight-strong`): orange darkened until it carries white.
+  Declared and contrast-tested; no markup uses it yet.
+- **Platform Red** (`accent-subscribe`, Tailwind's `red-600`): YouTube's
+  colour, on subscribe actions that point at YouTube and on the navigation's
+  Langganan button.
 
 ### Neutral
 
-- **Ground** (`#0e1122`): the page. The navy, one step below the cover's own.
-- **Card** (`#191d3a`): the cover's centre panel, sampled exactly. Episode
-  cards, the search field, transcript and summary containers, the `/partners`
-  stats band.
-- **Overlay** (`#242b4d`): the step above a card — the mobile menu, the skip
-  link, the copy-link button, hover fills on the scroll buttons.
-- **Hairline** (`#333c66`): every border and divider at rest, plus the fill of
-  inert topic chips. 1.55:1 against a card — a separator, not a boundary.
-- **Control Outline** (`#6b76a8`): where a border *is* the thing that
-  identifies a control, a text field above all. 3.7:1 against a card, which is
-  what WCAG 1.4.11 asks of a component boundary and what the hairline cannot
-  give.
-- **Ink** (`#f2f4fd`): headings, active states. 17:1.
-- **Ink Body** (`#c3c9e6`): running prose — descriptions, transcript lines,
-  summary text. The default reading colour, never white. 11.4:1.
-- **Ink Muted** (`#a8b0d2`): dates, counts, captions, idle navigation. 8.7:1.
-- **Ink Subtle** (`#8a94bd`): placeholders, search icon, tertiary counts. The
-  floor of legibility; nothing meaningful goes below it. 6.3:1 on the ground and
-  4.6:1 on the overlay, so it still clears AA on the darkest thing it can sit on.
+- **Paper** (`surface`): the page.
+- **Card** (`surface-raised`): episode cards, the archive panel, search
+  fields, transcript and audio containers, the `/partners` stats band. 1.12:1
+  against the paper, so a card on the ground needs its hairline.
+- **Overlay** (`surface-overlay`): the mobile menu, the skip link, hover fills
+  on icon buttons. It is a darker tint of the paper, 1.25:1 against a card.
+- **Hairline** (`surface-border`): borders and dividers at rest, and the fill
+  of the episode topic chip. 1.5:1 on the ground: a separator, not a boundary.
+- **Control Outline** (`surface-border-strong`): the border of a text field or
+  an outline button, where the border is what identifies the control. 4.3:1 on
+  the ground, 4.9:1 on a card, 3.9:1 on the overlay.
+- **Ink** (`ink`): headings, active states, the 2px rule over the issue bar.
+  15.4:1.
+- **Ink Body** (`ink-body`): running prose and the `body` default. 8.9:1.
+- **Ink Muted** (`ink-muted`): dates on cards, captions, idle controls, the
+  footer. 6.8:1.
+- **Ink Subtle** (`ink-subtle`): row metadata, placeholders, counts. 5.7:1 on
+  the ground and 5.2:1 on the overlay, so the quietest rung still clears AA
+  everywhere it can sit.
 
 ### Named Rules
 
-**The Two-Job Rule.** Blue means *you can act on this*. Purple means *this is
-what kind of thing it is*. A new element picks the one that describes its job;
-it does not pick whichever looks better in the mock. The gradient is not a third
-option — it appears only where the cover's framing is quoted wholesale.
+**The Two-Job Rule.** Blue means *you can act on this*. Orange means *look
+here*, and it only decorates. A new element takes the hue that describes its
+job. A link, a button or an active state is blue; a rule, an accent stroke or
+a tint may be orange.
 
-**The Fill/Type Split.** Each accent has three values and they are not
-interchangeable. `-strong` fills shapes that carry text. The bare token fills
-shapes that do not, and colours icons. `-text` colours type. Putting the bare
-blue under white text fails contrast at 3.2:1, which is exactly the mistake the
-previous palette shipped.
+**The Fill/Type Split.** Each hue has steps and they are not interchangeable.
+For blue: `accent-strong` fills shapes that carry type, `accent-text` colours
+type, bare `accent` is for icons, tints and borders. For orange the split is a
+contrast matter: the sampled value is 2.15:1 under white and 1.9:1 on the
+ground, so type takes `highlight-text` and a fill that carries white takes
+`highlight-strong`.
 
-**The Sample-Don't-Invent Rule.** A colour that is not in `global.css` and not
-in the cover does not belong in this system. `src/styles/palette-literals.test.ts`
-enforces the negative half of that for the palette this one replaced.
+**The One Drench Rule.** Exactly one surface on the site is flooded with the
+accent: the homepage cover block. Inside it everything takes the `on-accent`
+tokens, and the `.on-accent` class switches the focus ring to white because the
+blue ring disappears on blue.
 
-**The Borrowed-Colour Rule.** Platform Red belongs to YouTube, not to
-Ngobrolin WEB. Use it on subscribe affordances and nowhere else. The same
-holds for every other brand colour the site quotes — Spotify green, the RSS
-orange, the share row's WhatsApp/X/LinkedIn fills: reproduce the brand value
-exactly and never bend it toward the palette. What *is* the site's call is the
-label on top, which takes whichever of black or white clears AA on that brand
-value. Spotify green carries white at only 2.59:1, so its tile is labelled in
-black (8.1:1); YouTube red carries white at 4.8:1 and keeps it.
+**The Navy Hover Rule.** A filled blue control hovers to `accent-hover`, the
+ink navy. Hover never lightens a fill and never changes its hue family.
+
+**The Borrowed-Colour Rule.** Platform Red belongs to YouTube. Spotify green
+(`#1DB954`), the RSS orange and the share row's brand fills belong to their
+platforms too: reproduce the brand value and choose the label colour that
+clears AA on it. The Spotify tile is labelled in black for that reason (the
+stylesheet comment on `/subscribe` records 2.59:1 for white against 8.12:1 for
+black).
 
 ## Typography
 
-**Display Font:** system UI stack (`ui-sans-serif, system-ui, -apple-system,
-Segoe UI, Roboto, …`)
-**Body Font:** the same stack — there is no pairing
+**Display Font:** Archivo at 118% width, weight 800 (the `.display` class)
+**Body Font:** Archivo at normal width, with the system UI stack as fallback
 **Label/Mono Font:** system monospace (`ui-monospace, SFMono-Regular, Menlo,
-Monaco, Consolas`), transcript timecodes only
+Monaco, Consolas`)
 
-**Character:** Deliberately impersonal. The system ships no webfont, so type
-personality comes entirely from the reader's own platform. Every distinction
-in the hierarchy is made with four weights and four grey values. On a
-long-form Indonesian transcript this is a strength: nothing competes with the
-words.
+**Character:** One family doing two voices. At normal width Archivo is a plain,
+even grotesque that stays out of the way of long Indonesian prose. Pushed wide
+and heavy it becomes a newspaper nameplate. The file is
+`/fonts/archivo-latin-wdth.woff2` (Latin subset, weights 100 to 900, width 62%
+to 125%, about 90 KB), preloaded in `Layout.astro` with `font-display: swap`.
 
 ### Hierarchy
 
-- **Display** (700, `clamp(2.25rem, 6vw, 3.75rem)`, 1.1): The homepage
-  wordmark only. Appears once per site.
-- **Headline** (700, `1.875rem`, 1.2): Page titles — "Semua Episode",
-  "Topik", "Episode 2024".
-- **Title** (700, `1.5rem`, 1.3): Section headings within a page, and the
-  episode title on a detail page (which scales to `1.875rem` at `md`).
-- **Body** (400, `1rem`, 1.625): All running prose. Constrained to
-  `max-w-2xl`–`max-w-4xl` containers rather than a `ch` measure.
-- **Label** (700, `0.75rem`, 1): Badges — `BARU`, `EP 178`. Always
-  uppercase by content, never by `text-transform`.
-- **Timecode** (400 mono, `0.875rem`): Transcript timestamps in Cover
-  Blue, `0.5rem` right margin, forming a vertical rail down the transcript.
+- **Display** (800, 118% width, `clamp(2.75rem, 8.2vw, 7rem)`, 0.95,
+  `-0.03em`): the cover title only. The size is also capped by its column
+  through a container query unit, `100cqi` divided by the longest word's length
+  times `0.7`, so a long word never runs into the thumbnail. The episode page
+  title is the same voice in ink at `clamp(2rem, 6vw, 3.5rem)`, leading 1.
+- **Masthead** (800, 118% width, `-0.02em`, balanced): the same voice at
+  working sizes. Wordmark `1.5rem`, `1.875rem` from `lg`. Section headings on
+  the homepage and the episode page `1.25rem`, `1.5rem` from `md`. Row numerals `1.5rem`, `1.875rem`
+  from `sm`. The cover's faint numeral is `19rem`.
+- **Headline** (700, `1.875rem`): inner page titles, such as "Semua Episode"
+  and "Topik".
+- **Title** (700, `1.25rem`, 1.375): row titles on the homepage (`1.125rem`
+  below `sm`). Card titles are 600 at `1rem`.
+- **Body** (400, `1rem`, 1.5): running prose in `ink-body`. Long reading
+  blocks (transcript lines, key points) open to 1.625. The cover deck is
+  `1.25rem` from `md`.
+- **Label** (700, `0.75rem`): `BARU`. The `EP 189` and duration badges are 500
+  at the same size. Uppercase by content.
+- **Timecode** (400 mono, `0.875rem`): transcript timestamps in Cover Blue with
+  a `0.5rem` right margin. Mono also sets the audio player's clock, the `/`
+  keyboard hint in the search field and one line on the 404 page.
 
 ### Named Rules
 
-**The Weight Restraint Rule.** Headings are 700 and running prose is 400. The
-shipped system also carries 600 on card and section titles and 500 on controls,
-badges and inline emphasis; that is the whole ladder, and there is no fifth
-weight. A heading that needs to feel lighter gets a greyer colour, not a lower
-weight.
+**The One Family Rule.** Archivo is the only webfont and it is one file. A
+second voice comes from the width and weight axes, never from a second family.
+The exceptions are surfaces that cannot load it: `public/offline.html`,
+`public/favicon.svg` and the build-time share cards stay on the system
+`sans-serif`.
 
-**The Ink Ladder Rule.** Every block of text picks exactly one rung: `ink` for
-headings, `ink-body` for prose, `ink-muted` for metadata, `ink-subtle` for
-placeholders. Inventing an intermediate value flattens the ladder for
-everything else, and the ladder is what carries hierarchy here.
+**The Masthead Rule.** `.display` is for nameplates, page and section
+headings, and numerals. It sets width, weight, tracking and balance; the size stays on the
+element. Running text, labels and controls never take it.
+
+**The Ink Ladder Rule.** Every block of text picks one rung: `ink` for
+headings, `ink-body` for prose, `ink-muted` for secondary copy, `ink-subtle`
+for metadata. The contrast test asserts the four stay in descending order.
+
+**The Tabular Figures Rule.** Numbers that line up or change (dates,
+durations, counts, the issue bar, the audio clock) take `tabular-nums`.
 
 ## Layout
 
-A single centred container (`container mx-auto px-4`) governs every page;
-there is no full-bleed treatment anywhere. Reading surfaces narrow further:
-`max-w-4xl` for an episode page, `max-w-2xl` for about and subscribe prose,
-`max-w-3xl` for the homepage hero.
+A centred container (`container mx-auto px-4`) holds every page. The single
+exception is the homepage cover block, which runs edge to edge below `md` and
+sits inside the container from `md` up. Reading surfaces narrow further:
+`max-w-4xl` for an episode page, `max-w-2xl` for about prose, `max-w-5xl` for
+the homepage hosts section.
 
-The dominant grid is the episode grid: `1 → 2 → 4` columns at
-`base → sm → lg`, with a `1.5rem` gutter. It is used identically on the
-archive, year pages and tag pages, which is what makes those pages feel like
-one product. Related episodes on a detail page use a `1 → 3` variant, and so
-does the homepage: its spotlight already carries the newest episode, so the
-grid below shows the three before it.
+The homepage reads top to bottom as an issue:
 
-The homepage hero is three blocks in reading order (intro, latest episode,
-search). They stack that way below `lg`, which keeps the newest episode in a
-phone's first viewport; from `lg` the intro and search share the left column
-and the spotlight spans both rows on the right.
+1. A tagline line, then the issue bar: a 2px ink rule above, a hairline below
+   from `md`, 600-weight `0.875rem` type, issue and date left, schedule right.
+   On Tuesdays the schedule becomes a livestream notice in Blue Ink with a
+   pulsing dot (motion-safe only).
+2. The cover block, a 12-column grid from `lg`: title, deck and actions in
+   seven columns, the thumbnail and a hosts strip in five. Below `lg` the
+   thumbnail comes first and the title follows, so a phone's first viewport
+   shows the newest episode. The hosts strip and the oversized numeral appear
+   only from `lg`; the outline button appears from `sm`.
+3. "Di episode ini": up to three key points in a `1 → 3` grid at `md`, each
+   under a 3px orange rule. The section is omitted when the episode has no
+   summary.
+4. A hairline from `md`, then two columns from `lg`: "Episode Sebelumnya" as
+   three numbered rows across seven columns, and the "Arsip" panel across four.
+5. The hosts and community section on a faint white wash.
 
-Vertical rhythm is section-scale rather than fine-grained: `py-12` (`3rem`)
-for a standard section, `py-8` rising to `py-20` at `md` for the homepage hero, `mb-8`
-(`2rem`) between a page header and its content, `mb-4`/`mb-6` within a block.
-Breakpoints are Tailwind defaults; only `sm` (640px), `md` (768px) and `lg`
-(1024px) are used. `md` is the navigation breakpoint — the desktop nav row
-collapses to a hamburger overlay below it.
+Archive, year and topic pages keep the episode grid: `1 → 2 → 4` columns at
+`base → sm → lg` with a `1.5rem` gutter. Related episodes on a detail page use
+`1 → 2 → 3` at `base → sm → md`. The topic index is a `2 → 3 → 4 → 5` grid of small link
+panels.
 
-Density is generous and uniform. There is no compact mode, no list view, and
-no alternative to the card grid.
+Vertical rhythm on the homepage is `2.5rem` to `3.5rem` between sections and
+`4rem` around the hosts section. Breakpoints are Tailwind defaults and only
+`sm` (640px), `md` (768px) and `lg` (1024px) are used. `md` is the navigation
+breakpoint.
 
 ## Elevation & Depth
 
-**This system has no shadow vocabulary at rest.** Depth is tonal: the ground
-(`#0e1122`), the card (`#191d3a`), the overlay (`#242b4d`) and a hairline
-(`#333c66`) to cut the edge. Each step is a real one — roughly 1.15–1.2:1
-against the step below, which is visible where the retired palette's three
-greys two points apart were not.
+Depth is tonal and drawn with lines. The paper, the white card and the darker
+overlay tint are the three surfaces, and a hairline cuts the edge where the
+1.12:1 step between paper and card is too quiet to do it alone. On the homepage
+the archive panel is a borderless white block on the paper, and most separation
+comes from rules: 2px ink over the issue bar, hairlines between rows, 3px
+orange over key points.
 
-Shadow exists only as a *response*. An episode card on hover gains
-`shadow-lg` tinted `accent/10`, which reads as the card catching a little of
-the accent light rather than lifting off the page. The mobile menu is separated
-by being an overlay-step surface with a border, not by a shadow.
+Shadow exists as a response. An episode card on hover gains a soft shadow
+tinted with Cover Blue at 10%, while its border goes to `accent/50` and its
+thumbnail scales to `1.05`.
 
 ### Shadow Vocabulary
 
-- **Accent catch** (`box-shadow: 0 10px 15px -3px rgb(101 136 254 / 0.1), 0 4px 6px -4px rgb(101 136 254 / 0.1)`):
-  Card hover only. Always paired with the border shifting to `accent/50` and
-  the thumbnail scaling to `1.05`.
+- **Accent catch** (`box-shadow: 0 10px 15px -3px rgb(53 87 224 / 0.1), 0 4px 6px -4px rgb(53 87 224 / 0.1)`):
+  episode card hover only.
 
 ### Named Rules
 
-**The Flat Floor Rule.** Surfaces are flat at rest and separated by hairlines.
-A shadow in a static screenshot of this system is a bug.
+**The Flat Floor Rule.** Surfaces are flat at rest and separated by hairlines
+or by a step in tone.
 
-**The Two Step Rule.** There are exactly two elevations above the ground, and
-the overlay step is for things that sit *over* the page — the mobile menu, the
-skip link, a hover fill. A third surface means the model is wrong for this
-system; use a border, a divider, or a `<details>` disclosure instead.
+**The Two Step Rule.** There are two steps off the paper: the white card and
+the overlay tint. The overlay is for things that sit over the page or respond
+to the pointer (the mobile menu, the skip link, a hover fill). There is no
+popover, modal or drawer precedent in the build.
 
 ## Shapes
 
-Soft rectangles throughout, on a three-step radius scale that maps to size:
-`0.25rem` for badges and small chips, `0.5rem` for buttons, inputs, year tabs
-and prev/next blocks, `0.75rem` for episode cards and the large CTA panels.
-Fully round (`9999px`) is reserved for inert topic chips and panellist
-avatars.
+Two form languages share the site. The homepage's editorial blocks are square:
+the cover block, its framed thumbnail, the row thumbnails and the archive panel
+have no radius. Everything that is a control or a card is a soft rectangle on a
+scale tied to size: `0.25rem` for badges, `0.375rem` for the controls on the
+homepage cover and archive panel and for the segments inside a toggle group,
+`0.5rem` for other buttons, fields, year tabs and icon buttons, `0.75rem` for
+episode cards and panels. Fully round is for topic chips and avatars.
 
-Borders are always exactly `1px`. At rest they are the hairline (`#333c66`);
-where the border is what identifies the control — a text field — they are the
-control outline (`#6b76a8`), which is the only value that clears the 3:1 WCAG
-1.4.11 asks of a component boundary. The interactive signal is a *colour*
-change on that border, never a width change — a border that thickens on hover
-would shift layout.
+Hairlines are `1px`. Heavier strokes are structural and each has one job: the
+2px ink rule over the issue bar, the 3px orange rules over key points, the
+white frame on the cover thumbnail (`4px`, `6px` from `md`), and a 2px ring or
+border on avatars. A control's border changes colour on hover and focus; it
+never changes width.
 
-The recurring silhouette is the 16:9 thumbnail with content stacked beneath
-it inside a rounded panel. That unit repeats across the entire site and is the
-closest thing the system has to a signature form.
+The 16:9 thumbnail recurs at three scales: framed in white on the cover,
+`8rem` wide in a row, full-width at the top of an episode card.
 
 ## Components
 
 ### Buttons
 
-- **Shape:** Softly rounded (`0.5rem`), no border on filled variants.
-- **Primary:** Blue Deep fill, ink text, `0.75rem 1.5rem` padding,
-  `font-medium`.
-- **Hover:** Background crosses to Purple Deep over a default `transition` —
-  the cover's pairing as a state change. No transform, no shadow. Lightening
-  toward the sampled blue is not available: it would drop the label to 3.2:1.
-- **Outline:** Transparent fill with a Control Outline border and ink text; the
-  border and label go Blue Glow on hover. Used for the secondary hero action.
-- **Subscribe:** Platform Red fill, smaller padding (`0.5rem 1rem`), `text-sm`.
-  Carries `data-analytics-event="cta_click"` wherever it appears.
+- **Primary:** Blue Fill, white label, `0.5rem` radius, `0.75rem 1.5rem`
+  padding, weight 500 to 600. Hovers to Pressed Navy. The `/partners` calls to
+  action are the same button at `1rem 2rem` and `1.125rem` type.
+- **Cover primary:** on the cover block only. White fill, ink label, weight
+  700, `3.25rem` tall, `0.375rem` radius; hover swaps to ink fill and white
+  label. It fills the row below `sm`.
+- **Cover outline:** transparent with a `1px` white border and white 600
+  label; hover fills white with an ink label.
+- **Outline:** transparent, Control Outline border, ink label, `0.5rem`
+  radius, `0.5rem 1rem` padding; border and label go Blue Ink on hover.
+- **Subscribe:** Platform Red, white label, `0.5rem 1rem`, `0.875rem` type.
+  The navigation's Langganan button uses it.
+- **Segmented toggle:** a `1px` hairline group on a card with `0.25rem`
+  padding; segments are `ink-muted` at rest and Blue Fill with a white label
+  when pressed. Used for the video/audio switch and playback speed.
 
 ### Chips
 
-- **Topic chip (inert):** hairline fill, `ink-body` text, fully rounded,
-  `text-sm`. A non-interactive label on the about page.
-- **Archive chip (link):** card fill, hairline border going `accent/50` on
-  hover, `0.5rem` radius, a label in `ink-body` with its episode count in
-  `ink-subtle`, at least `2.75rem` tall. The homepage "Jelajahi Arsip" block
-  uses it for both topics and years.
-- **Year tab:** Two states only. Active is Blue Deep fill with ink text and no
-  border; idle is card fill, `ink-muted` text, hairline border, going
-  ink-text/blue-border on hover. Carries `aria-current="page"` when active.
+- **Topic chip (episode page):** Hairline fill, `ink-body` label going `ink`
+  on hover with an `accent/30` fill, fully rounded, `0.875rem` type.
+- **Year tab:** active is Blue Fill with a white label and
+  `aria-current="page"`; idle is a card fill with a hairline border and
+  `ink-muted` label, going ink with a Cover Blue border on hover.
+- **Inline index (homepage archive panel):** topics and years are set as a
+  sentence, Blue Ink 600 links separated by middle dots, with tabular counts in
+  `ink-subtle`.
 
 ### Cards / Containers
 
-- **Corner Style:** `0.75rem`.
-- **Background:** the card step (`#191d3a`) on the ground (`#0e1122`).
-- **Shadow Strategy:** None at rest; accent catch on hover (see Elevation).
-- **Border:** `1px` hairline, shifting to `accent/50` on hover.
-- **Internal Padding:** `1rem` for episode cards, `1.5rem` for prose panels.
-- **Signature behaviour:** the whole card is a single `<a>`. The thumbnail
-  scales to `1.05` under `overflow-hidden` on hover while the title shifts to
-  Blue Glow — one hover, three coordinated responses.
+- **Episode card:** white, `1px` hairline, `0.75rem` radius, `1rem` padding
+  under a full-width thumbnail. The whole card is one link. On hover the border
+  goes `accent/50`, the shadow appears, the thumbnail scales to `1.05` and the
+  title goes Blue Ink, over 300ms. Badges sit on the thumbnail: `BARU` in Blue
+  Fill top-left, episode number and duration on black at 70% along the bottom.
+- **Panel:** white with a hairline and `0.5rem` to `0.75rem` radius, for the
+  transcript, the audio player, host cards and the community callout.
+- **Archive panel (homepage):** white, square, no border, `1.5rem` to
+  `1.75rem` padding.
 
 ### Inputs / Fields
 
-- **Style:** card fill, `1px` Control Outline border, `0.5rem` radius, full
-  width, `0.75rem` vertical padding with `3rem` left padding to clear the
-  inset search icon.
-- **Focus:** the site-wide focus ring (see The Visible Focus Rule) plus the
-  border shifting to Blue Glow.
+- **Archive search:** card fill, `1px` Control Outline border, `0.5rem`
+  radius, `0.75rem` vertical padding, `3rem` left padding for the inset
+  magnifier, a mono `/` hint and a clear button at the right.
+- **Homepage search:** paper fill inside the white panel, Control Outline
+  border, `3rem` tall, `0.375rem` radius, beside a Blue Fill "Cari" button. It
+  is a plain GET form to `/episodes`.
+- **Focus:** the site-wide ring plus the border going Blue Ink.
 - **Placeholder:** `ink-subtle`.
-- **Affordances:** an inset magnifier at `left-1rem` and a clear (`×`) button
-  at `right-1rem` that is hidden until the field has content.
 
 ### Navigation
 
-- **Desktop (`md` and up):** A single row — wordmark left, text links
-  (`ink-body`, `ink` on hover) plus one red subscribe button right. Bottom
-  hairline border. `aria-current` marks the section.
-- **Mobile:** Hamburger toggling a full-width overlay-step panel with a top
-  border; links stack with `1rem` gaps and the subscribe button goes
-  full-width. The toggle is an inline script guarded by
-  `data-menu-initialized` and marked `data-astro-rerun` so it survives view
-  transitions. Its label names the next action ("Buka menu" / "Tutup menu"),
-  and Escape closes the panel and returns focus to the toggle.
-- **Breadcrumb (episode pages):** `text-sm`, `ink-muted`, slash-separated,
+- **Desktop (`md` and up):** one row over a hairline. The wordmark sits left
+  in the masthead voice and is the `h1` on the homepage. Text links are
+  `ink-body`, going `ink` on hover; the red Langganan button closes the row.
+  `aria-current` marks the page or its section.
+- **Mobile:** a hamburger toggles a full-width overlay-tint panel with a top
+  hairline. Links stack with `1rem` gaps and the subscribe button goes
+  full-width. The label names the next action ("Buka menu" / "Tutup menu");
+  Escape closes the panel and returns focus to the toggle.
+- **Breadcrumb (episode pages):** `0.875rem`, `ink-muted`, slash-separated,
   current crumb in ink.
+
+### Cover block (signature component)
+
+The homepage's lead. Blue Fill ground, `3.5rem` padding at `lg` (`2.5rem` at
+`md`, `1.5rem 1rem` below). Left: the title in Display as a link that
+underlines on hover (4px, offset 8px), a deck in On Accent Muted clamped to
+three lines, then the two cover buttons and the duration. Right: the thumbnail
+in its white frame, and from `lg` three overlapping `3rem` host avatars with a
+credit line. Behind, from `lg`, the episode number in the masthead voice at
+`19rem` in Cover Blue on Blue Fill, decorative and hidden from assistive
+technology.
+
+### Episode row (signature component)
+
+The homepage's back-issue list. Each row is one link on a grid: a Blue Ink
+numeral in the masthead voice, a square-cornered thumbnail (`6rem`, `8rem` from
+`sm`), the title at 700, and the date and duration in `ink-subtle`, moved to a
+right-aligned column from `sm`. Rows are divided by hairlines; the title goes
+Blue Ink on hover.
 
 ### Transcript (signature component)
 
-The system's most distinctive surface and the reason the mono token exists.
-Inside a card-step panel, each line is a paragraph with a Cover Blue monospace
-timecode inline-left and `ink-body` text, `0.75rem` apart. The first 30
-segments render open; the remainder live inside a `<details>` whose summary is
-Blue Glow text. An "otomatis" pill (`ink-subtle` text, hairline border) marks
-YouTube-auto-captioned transcripts, and a "Bantu Koreksi" link sits
-right-aligned in the header.
+Inside a white panel, each line is a paragraph with a Cover Blue monospace
+timecode button inline-left and `ink-body` text at 1.625 leading, `0.75rem`
+apart. The first segments render open and the rest sit in a `<details>` whose
+summary is Blue Ink. An "otomatis" pill (`ink-subtle`, hairline border) marks
+auto-captioned transcripts.
+
+### Share cards and off-stylesheet surfaces
+
+`/og-image.png` and `/og-logo.png` are drawn from the tokens through
+`src/lib/palette.ts`: a Cover Blue band, an ink centre panel and a Thumbnail
+Orange band, with white type. `/partners-og.png` sits on ink with white and On
+Accent Muted type. `public/favicon.svg` is a Blue Fill rounded square with a
+white "N". `public/offline.html` is the light palette restated by hand. All of
+them set type in the system `sans-serif`.
 
 ### Named Rules
 
-**The Whole-Card Target Rule.** An episode card is one link. Nested
-interactive elements inside a card are invalid in this system — the offline
-indicator is decorative for exactly this reason.
+**The Whole-Card Target Rule.** An episode card or row is one link. Nothing
+interactive nests inside it; the offline indicator is decorative for that
+reason.
 
-**The Visible Focus Rule.** `:focus-visible` in `global.css` draws a `2px` Blue
-Glow outline at `2px` offset on *everything*. It replaced a border-only focus
-treatment that only existed on the search field, which left every link and
-button in the site relying on the UA outline — near-invisible on this ground.
-A component may add to it; nothing may set `outline: none` without replacing
-it with something at least as visible.
+**The Visible Focus Rule.** `:focus-visible` in `global.css` draws a `2px`
+Blue Ink outline at `2px` offset on everything, and a white one inside
+`.on-accent`. A component may add to it. Nothing may remove it without putting
+something at least as visible in its place.
 
 ## Do's and Don'ts
 
 ### Do:
 
-- **Do** build any new surface from the tokens: card on ground with a `1px`
-  hairline, or overlay for something that sits over the page.
-- **Do** carry hierarchy with the ink ladder — `ink` / `ink-body` /
-  `ink-muted` / `ink-subtle` — before reaching for size or weight.
-- **Do** reuse the `1 → 2 → 4` episode grid with a `1.5rem` gutter for any
-  new collection of episodes, so archive, topic and year pages stay one
-  product.
-- **Do** mark every new inline script `data-astro-rerun` and guard it with an
-  initialisation attribute; `ClientRouter` is site-wide and unguarded scripts
-  silently die after the first client-side navigation.
+- **Do** build new surfaces from the tokens: white card on paper with a `1px`
+  hairline, or the overlay tint for something that sits over the page.
+- **Do** make every filled control Blue Fill with `on-accent` type and a hover
+  to `accent-hover`.
+- **Do** put anything that lives on the cover block inside `.on-accent` and
+  use `on-accent` and `on-accent-muted` for its type.
+- **Do** use `.display` for a nameplate, a section heading or a numeral, and
+  set the size on the element.
+- **Do** carry hierarchy with the ink ladder before reaching for size.
+- **Do** reuse the `1 → 2 → 4` episode grid with a `1.5rem` gutter on archive
+  pages, so archive, topic and year pages stay one product.
+- **Do** restate a moved token in `public/offline.html`, `public/favicon.svg`
+  and `src/lib/partner-card.ts`, or read it through `src/lib/palette.ts`.
 - **Do** write every user-facing label in Bahasa Indonesia.
-- **Do** keep radius proportional to element size (`0.25` badge / `0.5`
-  control / `0.75` card).
 
 ### Don't:
 
-- **Don't** introduce a third accent hue. Blue and purple both come from the
-  cover and both have a job; Platform Red is a citation, not an accent.
-- **Don't** add a shadow to anything at rest. Depth is tonal in this system.
-- **Don't** stack a third surface on top of the overlay. There is no popover,
-  modal or drawer precedent to follow.
-- **Don't** add a font weight beyond the 400/500/600/700 already in use, and
-  don't reach for `letter-spacing` or `text-transform` — the `/partners` stat
-  label is the only element in the shipped system that has either.
-- **Don't** put an interactive element inside an episode card; the card is
-  itself a single link.
-- **Don't** use anything dimmer than `ink-subtle` for text that carries
+- **Don't** put full-strength Thumbnail Orange under type or use it to fill a
+  control; it measures 2.15:1 under white.
+- **Don't** colour type with bare `highlight`; type takes `highlight-text`.
+- **Don't** drench a second surface in the accent. The cover block is the one.
+- **Don't** bring purple or a third accent hue back. Platform Red and the
+  other brand colours are citations.
+- **Don't** add a second webfont, and don't load Archivo from a third party;
+  the site ships one self-hosted file.
+- **Don't** add a shadow to anything at rest.
+- **Don't** put an interactive element inside an episode card or row.
+- **Don't** use anything quieter than `ink-subtle` for text that carries
   meaning, and don't write a hex literal where a token exists.
-- **Don't** introduce a webfont; the system is deliberately system-stack and
-  ships zero font bytes.
+- **Don't** use `system-ui` in anything rasterised at build time; it resolves
+  to nothing on the Linux build agent.
