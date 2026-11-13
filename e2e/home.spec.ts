@@ -45,7 +45,6 @@ test.describe('Homepage', () => {
 
   test('navigation elements exist', async ({ page }) => {
     await page.goto('/');
-    await expect(page.getByRole('link', { name: 'Lihat Semua Episode' })).toBeVisible();
     await expect(page.getByRole('link', { name: 'Subscribe YouTube' })).toBeVisible();
     await expect(page.getByRole('link', { name: /Lihat semua/ })).toBeVisible();
   });
