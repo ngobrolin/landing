@@ -180,7 +180,7 @@ test.describe('Episode Page', () => {
     await expect(transcript.locator('[data-transcript-result]')).toHaveCount(Math.min(count, 30));
   });
 
-  test('search never matches inside another word', async ({ page }) => {
+  test('a search with no match says so and lists nothing', async ({ page }) => {
     await page.goto(episodePathWithTranscript());
 
     const transcript = page.getByTestId('transcript');
