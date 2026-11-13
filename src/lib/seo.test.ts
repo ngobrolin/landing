@@ -7,6 +7,7 @@ import {
   generateVideoSchema,
   generateBreadcrumbSchema,
   generatePodcastEpisodeSchema,
+  buildSiteGraph,
   buildEpisodePageTitle
 } from './seo';
 import { getEpisodes } from './episodes';
@@ -348,6 +349,37 @@ describe('SEO Schema Generators', () => {
     });
   });
 });
+describe('buildSiteGraph', () => {
+  const siteUrl = 'https://ngobrol.in';
+  const input = {
+    siteUrl,
+    pageUrl: `${siteUrl}/episodes/abc/`,
+    title: 'Modern Web UI - Ngobrolin WEB',
+    description: 'Episode ini berangkat dari satu keluhan',
+    image: 'https://i.ytimg.com/vi/abc/hqdefault.jpg'
+  };
+  const node = (type: string) =>
+    buildSiteGraph(input)['@graph'].find((n: any) => n['@type'] === type) as any;
+
+  it('keeps the page description off the WebSite node', () => {
+    expect(node('WebSite').description).not.toBe(input.description);
+    expect(node('WebPage').description).toBe(input.description);
+  });
+
+  it('uses a square raster logo and lists only profiles in sameAs', () => {
+    expect(node('Organization').logo.url).toMatch(/\.(jpg|png)$/);
+    expect(node('Organization').logo.width).toBe(node('Organization').logo.height);
+    for (const url of node('Organization').sameAs) expect(url).not.toMatch(/\/search\?/);
+  });
+
+  it('shares @ids with the homepage and about schemas', () => {
+    const orgId = node('Organization')['@id'];
+    expect(generateAboutPageSchema(siteUrl).mainEntity['@id']).toBe(orgId);
+    const home = generateHomepageSchema(siteUrl, 1)['@graph'].find((n: any) => n['@type'] === 'Organization');
+    expect(home['@id']).toBe(orgId);
+  });
+});
+
 describe('buildEpisodePageTitle', () => {
   // 163 of 178 episode titles already end in a "Ngobrolin WEB" variant, and the
   // page template used to append the site name unconditionally. That shipped
