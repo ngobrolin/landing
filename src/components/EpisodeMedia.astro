@@ -252,6 +252,47 @@ const total = audio ? formatClock(audio.duration) : "";
             </section>
         )
     }
+
+    <!--
+        A timecode clicked far down the page plays here instead of scrolling
+        the reader back up. It carries the audio, because YouTube's player
+        cannot shrink into a bar.
+    -->
+    {
+        audio && (
+            <div
+                class="fixed inset-x-0 top-0 z-50 bg-ink text-surface shadow-lg"
+                data-testid="pinned-player"
+                data-pinned-bar
+                hidden
+            >
+                <div class="container mx-auto flex min-h-13 items-center gap-3 px-4">
+                    <button
+                        type="button"
+                        class="-ml-2.5 inline-flex size-11 shrink-0 items-center justify-center rounded-md focus-visible:outline-surface"
+                        aria-label="Jeda audio"
+                        data-pinned-play
+                    >
+                        <svg class="size-5" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" data-pinned-icon="play">
+                            <path d="M7 4.5v15l12-7.5z" />
+                        </svg>
+                        <svg class="hidden size-5" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" data-pinned-icon="pause">
+                            <path d="M6.5 4.5h4v15h-4zM13.5 4.5h4v15h-4z" />
+                        </svg>
+                    </button>
+                    <span class="shrink-0 font-mono text-sm tabular-nums" data-pinned-time>0:00</span>
+                    <span class="min-w-0 flex-1 truncate text-sm font-semibold">{displayTitle}</span>
+                    <button
+                        type="button"
+                        class="inline-flex min-h-11 shrink-0 items-center text-sm font-semibold underline underline-offset-4 focus-visible:outline-surface"
+                        data-pinned-show
+                    >
+                        Ke pemutar
+                    </button>
+                </div>
+            </div>
+        )
+    }
 </div>
 
 <script is:inline data-astro-rerun>
@@ -308,9 +349,20 @@ const total = audio ? formatClock(audio.duration) : "";
       loading: playButton.querySelector('[data-icon="loading"]'),
     };
 
+    const bar = root.querySelector("[data-pinned-bar]");
+    const barPlay = bar.querySelector("[data-pinned-play]");
+    const barTime = bar.querySelector("[data-pinned-time]");
+
     let duration = Number(seek.max) || 0;
     let scrubbing = false;
     let tracked = false;
+    // The bar shows only for playback it started, and only while the player itself is off screen.
+    let pinned = false;
+    let playerInView = true;
+
+    function renderBar() {
+      bar.hidden = !(pinned && !playerInView);
+    }
 
     function clock(seconds) {
       const total = Number.isFinite(seconds) && seconds > 0 ? Math.floor(seconds) : 0;
@@ -323,6 +375,7 @@ const total = audio ? formatClock(audio.duration) : "";
     function renderTime(seconds) {
       seek.value = String(seconds);
       current.textContent = clock(seconds);
+      barTime.textContent = clock(seconds);
       seek.setAttribute("aria-valuetext", `${clock(seconds)} dari ${clock(duration)}`);
       const pct = duration > 0 ? Math.min(100, (seconds / duration) * 100) : 0;
       seek.style.setProperty("--progress", `${pct}%`);
@@ -333,6 +386,9 @@ const total = audio ? formatClock(audio.duration) : "";
       icons.pause.classList.toggle("hidden", state !== "playing");
       icons.loading.classList.toggle("hidden", state !== "loading");
       playButton.setAttribute("aria-label", state === "paused" ? "Putar audio" : "Jeda audio");
+      barPlay.setAttribute("aria-label", state === "paused" ? "Putar audio" : "Jeda audio");
+      barPlay.querySelector('[data-pinned-icon="play"]').classList.toggle("hidden", state !== "paused");
+      barPlay.querySelector('[data-pinned-icon="pause"]').classList.toggle("hidden", state === "paused");
       audioPanel.setAttribute("aria-busy", String(state === "loading"));
     }
 
@@ -410,8 +466,30 @@ const total = audio ? formatClock(audio.duration) : "";
       button.addEventListener("click", () => {
         say(null);
         setMode(button.getAttribute("data-mode"), true);
+        if (button.getAttribute("data-mode") === "video") {
+          pinned = false;
+          renderBar();
+        }
       });
     });
+
+    barPlay.addEventListener("click", () => {
+      if (audio.paused) play();
+      else audio.pause();
+    });
+    bar.querySelector("[data-pinned-show]").addEventListener("click", () => {
+      root.scrollIntoView({ behavior: "smooth", block: "start" });
+    });
+    if ("IntersectionObserver" in window) {
+      // Half, to match the rule the transcript uses to choose the bar.
+      new IntersectionObserver(
+        (entries) => {
+          playerInView = entries[entries.length - 1].intersectionRatio >= 0.5;
+          renderBar();
+        },
+        { threshold: [0, 0.5] },
+      ).observe(root);
+    }
 
     rateButtons.forEach((button) => {
       button.addEventListener("click", () => setRate(Number(button.getAttribute("data-audio-rate")), true));
@@ -472,6 +550,28 @@ const total = audio ? formatClock(audio.duration) : "";
         setMode("video", false);
         say("failed");
       }
+      // The notice sits at the player; a reader the bar kept far below would never see it.
+      if (pinned) {
+        pinned = false;
+        renderBar();
+        root.scrollIntoView({ behavior: "smooth", block: "start" });
+      }
+    });
+
+    // Sent by the transcript when the player is off screen. Audio takes over
+    // for this visit only: the stored preference is the reader's, not ours.
+    audioPanel.addEventListener("ngobrolin:seek-pinned", (event) => {
+      const seconds = event.detail && event.detail.seconds;
+      if (typeof seconds !== "number" || Number.isNaN(seconds)) return;
+      if (root.getAttribute("data-media-mode") !== "audio") {
+        say(null);
+        setMode("audio", false);
+      }
+      seekTo(seconds);
+      play();
+      pinned = true;
+      playerInView = false;
+      renderBar();
     });
 
     // Transcript timecodes broadcast one window event; YouTubeEmbed ignores it

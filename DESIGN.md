@@ -282,7 +282,7 @@ removes the pin.
 - **Overlay** (`surface-overlay`): the mobile menu, the skip link, hover fills
   on icon buttons. It is a darker tint of the paper, 1.25:1 against a card.
 - **Hairline** (`surface-border`): borders and dividers at rest, and the fill
-  of the episode topic chip. 1.5:1 on the ground: a separator, not a boundary.
+  of the small label chip on `/partners`. 1.5:1 on the ground: a separator, not a boundary.
 - **Control Outline** (`surface-border-strong`): the border of a text field or
   an outline button, where the border is what identifies the control. 4.3:1 on
   the ground, 4.9:1 on a card, 3.9:1 on the overlay.
@@ -355,8 +355,9 @@ to 125%, about 90 KB), preloaded in `Layout.astro` with `font-display: swap`.
 - **Title** (700, `1.25rem`, 1.375): row titles on the homepage (`1.125rem`
   below `sm`). Card titles are 600 at `1rem`.
 - **Body** (400, `1rem`, 1.5): running prose in `ink-body`. Long reading
-  blocks (transcript lines, key points) open to 1.625. The cover deck is
-  `1.25rem` from `md`.
+  blocks (transcript lines, key points) open to 1.625. Key points are
+  `1.0625rem` on both the homepage and the episode page. The cover deck and the
+  episode deck are `1.25rem`.
 - **Label** (700, `0.75rem`): `BARU`. The `EP 189` and duration badges are 500
   at the same size. Uppercase by content.
 - **Timecode** (400 mono, `0.875rem`): transcript timestamps in Cover Blue with
@@ -386,8 +387,18 @@ durations, counts, the issue line, the audio clock) take `tabular-nums`.
 
 A centred container (`container mx-auto px-4`) holds every page. The single
 exception is the homepage, whose bands run edge to edge at every width with
-the container inside each one. Reading surfaces narrow further: `max-w-4xl` for
-an episode page, `max-w-2xl` for about prose.
+the container inside each one, and the episode page, which does the same for
+its transcript and subscribe bands. Reading surfaces narrow further:
+`max-w-4xl` for an episode page, `max-w-2xl` for about prose, and `68ch` for
+any block of running text inside them.
+
+The episode page reads top to bottom: breadcrumb, title, a one-sentence deck
+(the brief's first sentence, left out when it runs past 220 characters), the
+player, then "Poin utama" with the full brief behind a fold. The transcript
+follows on a raised band as a search. Related episodes are six numbered rows in
+two columns from `md`, with the topic links under them. The subscribe block,
+the two quiet links and the share buttons share one overlay band, and comments
+and previous/next close the page on paper.
 
 The homepage reads top to bottom as an issue, in five bands:
 
@@ -411,8 +422,7 @@ The homepage reads top to bottom as an issue, in five bands:
    subscribe button. The footer follows with no gap.
 
 Archive, year and topic pages keep the episode grid: `1 → 2 → 4` columns at
-`base → sm → lg` with a `1.5rem` gutter. Related episodes on a detail page use
-`1 → 2 → 3` at `base → sm → md`. The topic index is a `2 → 3 → 4 → 5` grid of small link
+`base → sm → lg` with a `1.5rem` gutter. The topic index is a `2 → 3 → 4 → 5` grid of small link
 panels.
 
 Vertical rhythm on the homepage is the band padding: `3rem`, `5rem` from `md`,
@@ -489,8 +499,8 @@ The 16:9 thumbnail recurs at three scales: framed in white on the cover,
 
 ### Chips
 
-- **Topic chip (episode page):** Hairline fill, `ink-body` label going `ink`
-  on hover with an `accent/30` fill, fully rounded, `0.875rem` type.
+- **Topic links (episode page):** not chips. A wrapping row led by "Topik" in
+  `ink-subtle`, each topic a Blue Ink 600 link, like the homepage archive band.
 - **Year tab:** active is Blue Fill with a white label and
   `aria-current="page"`; idle is a card fill with a hairline border and
   `ink-muted` label, going ink with a Cover Blue border on hover.
@@ -553,11 +563,24 @@ a raised fill and the title goes Blue Ink.
 
 ### Transcript (signature component)
 
-Inside a white panel, each line is a paragraph with a Cover Blue monospace
-timecode button inline-left and `ink-body` text at 1.625 leading, `0.75rem`
-apart. The first segments render open and the rest sit in a `<details>` whose
-summary is Blue Ink. An "otomatis" pill (`ink-subtle`, hairline border) marks
-auto-captioned transcripts.
+The transcript is a search first and a text second. On its raised band sit a
+Masthead heading, a paper-fill field `3.25rem` tall, a "Sering disebut" row of
+terms with the number of moments each returns, and a "Lompat ke" row of
+timecodes every ten minutes. Terms are names the summary uses that the
+transcript mentions at least three times; the row is hidden below three terms.
+Search matches from the start of a word, so "Deno" finds "Denonya" and "bun"
+never finds "bergabung". Each result is the matching caption line with the line
+before and after it, the term marked with a Cover Blue 20% tint, and a
+monospace Cover Blue timecode inline-left. The full text sits in a `<details>`
+whose summary is Blue Ink, grouped into one paragraph per minute. An
+"otomatis" pill (`ink-subtle`, hairline border) marks auto-captioned
+transcripts.
+
+**The Keep-Your-Place Rule.** A timecode clicked while less than half the
+player is on screen never scrolls the page. The episode's audio plays in a bar
+pinned to the top: ink fill, paper type, a play button, the clock, the title and
+"Ke pemutar". The bar leaves when the player is back on screen. Episodes
+without audio fall back to scrolling up to the video.
 
 ### Share cards and off-stylesheet surfaces
 
