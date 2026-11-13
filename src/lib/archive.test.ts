@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { getArchiveStats, getYearsWithCounts, getTopTags } from './archive';
+import { getArchiveStats, getYearsWithCounts, getTopTags, getArchivePicks } from './archive';
 import { getAvailableYears, getEpisodes, getYearCount } from './episodes';
 import { getAllTagsWithCounts } from './tags';
 
@@ -102,5 +102,30 @@ describe('getTopTags', () => {
     for (const { tag } of getTopTags(50)) {
       expect(tag).toMatch(/^[a-z0-9-]+$/);
     }
+  });
+});
+
+describe('getArchivePicks', () => {
+  const now = new Date('2026-11-12T00:00:00Z');
+
+  it('returns only episodes from before last calendar year', () => {
+    for (const episode of getArchivePicks(6, now)) {
+      expect(new Date(episode.publishedAt).getUTCFullYear()).toBeLessThan(2025);
+    }
+  });
+
+  it('returns distinct episodes, at most the number asked for', () => {
+    const slugs = getArchivePicks(6, now).map((episode) => episode.slug);
+    expect(slugs.length).toBeLessThanOrEqual(6);
+    expect(new Set(slugs).size).toBe(slugs.length);
+  });
+
+  it('is stable within a week and moves on the next', () => {
+    const slugs = (date: Date) => getArchivePicks(6, date).map((episode) => episode.slug);
+    const nextDay = new Date(now.getTime() + 60 * 60 * 1000);
+    const nextWeek = new Date(now.getTime() + 7 * 24 * 60 * 60 * 1000);
+
+    expect(slugs(nextDay)).toEqual(slugs(now));
+    if (slugs(now).length === 6) expect(slugs(nextWeek)).not.toEqual(slugs(now));
   });
 });

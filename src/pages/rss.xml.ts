@@ -30,7 +30,7 @@ export async function GET(context: APIContext) {
       title: episode.title,
       pubDate: new Date(episode.publishedAt),
       description: episode.description,
-      link: `/episodes/${episode.slug}`,
+      link: `/episodes/${episode.slug}/`,
     })),
     customData: `
       <language>id</language>

@@ -83,7 +83,9 @@ test.describe('Current page is marked in the main navigation', () => {
     '/tags/astro',
   ];
 
-  const expectedMarker = (href: string, path: string): string | null => {
+  // Hrefs carry the canonical trailing slash; the paths under test do not.
+  const expectedMarker = (rawHref: string, path: string): string | null => {
+    const href = rawHref === '/' ? rawHref : rawHref.replace(/\/$/, '');
     if (href === path) return 'page';
     if (href !== '/' && path.startsWith(`${href}/`)) return 'true';
     return null;

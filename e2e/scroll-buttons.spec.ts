@@ -73,7 +73,7 @@ test.describe('ScrollButtons', () => {
 
     // Navigate to about page (uses view transitions)
     await page.getByRole('link', { name: 'Tentang', exact: true }).first().click();
-    await page.waitForURL('**/about');
+    await page.waitForURL('**/about/');
 
     // Verify buttons exist on new page
     const scrollToTopOnAbout = page.getByLabel('Ke atas halaman').or(page.getByTitle('Ke atas halaman'));
@@ -152,7 +152,7 @@ test.describe('ScrollButtons', () => {
 
     await page.goto('/');
     await page.getByRole('link', { name: 'Tentang', exact: true }).first().click();
-    await page.waitForURL('**/about');
+    await page.waitForURL('**/about/');
     await page.getByRole('link', { name: 'Ngobrolin WEB', exact: true }).first().click();
     await page.waitForURL('**/');
 

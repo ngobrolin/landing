@@ -194,7 +194,7 @@ const BrandTag = brandAsHeading ? 'h1' : 'p';
   }],
   "prerender": [{
     "source": "list",
-    "urls": ["/episodes"]
+    "urls": ["/episodes/"]
   }]
 }
 </script>
@@ -286,19 +286,19 @@ const BrandTag = brandAsHeading ? 'h1' : 'p';
         <!-- Desktop Navigation -->
         <div class="hidden md:flex items-center gap-6">
           <a
-            href="/episodes"
+            href="/episodes/"
             class="text-ink-body hover:text-ink transition"
             aria-current={currentMarker("/episodes")}
             >Episode</a
           >
           <a
-            href="/tags"
+            href="/tags/"
             class="text-ink-body hover:text-ink transition"
             aria-current={currentMarker("/tags")}
             >Topik</a
           >
           <a
-            href="/partners"
+            href="/partners/"
             class="text-ink-body hover:text-ink transition"
             aria-current={currentMarker("/partners")}
             >Partner</a
@@ -315,13 +315,13 @@ const BrandTag = brandAsHeading ? 'h1' : 'p';
             })}>Diskusi</a
           >
           <a
-            href="/about"
+            href="/about/"
             class="text-ink-body hover:text-ink transition"
             aria-current={currentMarker("/about")}
             >Tentang</a
           >
           <a
-            href="/subscribe"
+            href="/subscribe/"
             class="bg-accent-strong hover:bg-accent-hover text-on-accent px-4 py-2 rounded-lg text-sm font-medium transition"
             aria-current={currentMarker("/subscribe")}
             data-analytics-event="cta_click"
@@ -377,17 +377,17 @@ const BrandTag = brandAsHeading ? 'h1' : 'p';
       >
         <div class="container mx-auto px-4 py-4 flex flex-col gap-4">
           <a
-            href="/episodes"
+            href="/episodes/"
             class="text-ink-body hover:text-ink transition py-2.5"
             aria-current={currentMarker("/episodes")}>Episode</a
           >
           <a
-            href="/tags"
+            href="/tags/"
             class="text-ink-body hover:text-ink transition py-2.5"
             aria-current={currentMarker("/tags")}>Topik</a
           >
           <a
-            href="/partners"
+            href="/partners/"
             class="text-ink-body hover:text-ink transition py-2.5"
             aria-current={currentMarker("/partners")}>Partner</a
           >
@@ -403,12 +403,12 @@ const BrandTag = brandAsHeading ? 'h1' : 'p';
             })}>Diskusi</a
           >
           <a
-            href="/about"
+            href="/about/"
             class="text-ink-body hover:text-ink transition py-2.5"
             aria-current={currentMarker("/about")}>Tentang</a
           >
           <a
-            href="/subscribe"
+            href="/subscribe/"
             class="bg-accent-strong hover:bg-accent-hover text-on-accent px-4 py-3 rounded-lg text-sm font-medium transition text-center mt-2"
             aria-current={currentMarker("/subscribe")}
             data-analytics-event="cta_click"

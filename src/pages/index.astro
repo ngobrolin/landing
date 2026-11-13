@@ -3,7 +3,7 @@ import Layout from '../layouts/Layout.astro';
 import OfflineIndicator from '../components/OfflineIndicator.astro';
 import { getEpisodes, formatDuration, getCardBlurb, getKeyPoints } from '../lib/episodes';
 import { getDisplayTitle } from '../lib/episode-title';
-import { getArchiveStats, getYearsWithCounts, getTopTags } from '../lib/archive';
+import { getArchiveStats, getYearsWithCounts, getTopTags, getArchivePicks } from '../lib/archive';
 import { formatTagLabel } from '../lib/tags';
 import { Image, getImage } from 'astro:assets';
 import { generateHomepageSchema } from '../lib/seo';
@@ -17,6 +17,7 @@ const previousEpisodes = episodes.slice(1, 4);
 const { episodeCount, transcriptCount, fullyTranscribed } = getArchiveStats();
 const years = getYearsWithCounts();
 const topTags = getTopTags(5);
+const archivePicks = getArchivePicks(6);
 
 const optimizedLcpImage = await getImage({
   src: latestEpisode.thumbnail,
@@ -162,7 +163,7 @@ const hosts = [
           class="display leading-[0.95] tracking-[-0.03em]"
           style={`font-size: ${coverTitleSize}`}
         >
-          <a href={`/episodes/${latestEpisode.slug}`} class="hover:underline decoration-4 underline-offset-8" data-testid="home-latest-link">
+          <a href={`/episodes/${latestEpisode.slug}/`} class="hover:underline decoration-4 underline-offset-8" data-testid="home-latest-link">
             {latestDisplayTitle}
           </a>
         </h2>
@@ -173,14 +174,14 @@ const hosts = [
         )}
         <div class="flex flex-wrap items-center gap-x-4 gap-y-3">
           <a
-            href={`/episodes/${latestEpisode.slug}`}
+            href={`/episodes/${latestEpisode.slug}/`}
             class="grow sm:grow-0 inline-flex items-center justify-center min-h-13 px-7 bg-on-accent text-ink hover:bg-ink hover:text-on-accent rounded-md font-bold transition"
             data-testid="home-latest-action"
           >
             Tonton &amp; baca transkrip
           </a>
           <a
-            href="/episodes"
+            href="/episodes/"
             class="hidden sm:inline-flex items-center justify-center min-h-13 px-7 border border-on-accent hover:bg-on-accent hover:text-ink rounded-md font-semibold transition"
           >
             Lihat Semua Episode
@@ -209,7 +210,7 @@ const hosts = [
       <div class="lg:col-span-7">
         <div class="flex items-baseline justify-between gap-4 mb-2">
           <h2 class="display text-xl md:text-2xl text-ink">Episode Sebelumnya</h2>
-          <a href="/episodes" class="hidden sm:inline-flex items-center min-h-11 text-accent-text hover:text-ink transition font-semibold">
+          <a href="/episodes/" class="hidden sm:inline-flex items-center min-h-11 text-accent-text hover:text-ink transition font-semibold">
             Lihat semua {episodeCount} episode
           </a>
         </div>
@@ -223,7 +224,7 @@ const hosts = [
           {previousEpisodes.map((episode) => (
             <li class="border-t border-surface-border">
               <a
-                href={`/episodes/${episode.slug}`}
+                href={`/episodes/${episode.slug}/`}
                 class="group grid grid-cols-[3.25rem_6rem_minmax(0,1fr)] sm:grid-cols-[4.5rem_8rem_minmax(0,1fr)_auto] items-center gap-x-3 sm:gap-x-5 py-3.5"
                 data-testid="episode-card"
                 data-episode-slug={episode.slug}
@@ -261,9 +262,29 @@ const hosts = [
             </li>
           ))}
         </ul>
-        <a href="/episodes" class="sm:hidden inline-flex items-center min-h-12 text-accent-text hover:text-ink transition font-semibold">
+        <a href="/episodes/" class="sm:hidden inline-flex items-center min-h-12 text-accent-text hover:text-ink transition font-semibold">
           Lihat semua {episodeCount} episode
         </a>
+
+        <!--
+          Plain links into the back catalogue, a different run each week. Nothing
+          else on a page search engines read points at the oldest episodes.
+        -->
+        {archivePicks.length > 0 && (
+          <div class="mt-10" data-testid="home-archive-picks">
+            <h2 class="display text-xl md:text-2xl text-ink mb-2">Dari arsip</h2>
+            <ul class="grid grid-cols-1 sm:grid-cols-2 gap-x-8">
+              {archivePicks.map((episode) => (
+                <li class="border-t border-surface-border">
+                  <a href={`/episodes/${episode.slug}/`} class="group flex items-baseline gap-3 py-3">
+                    <span class="text-sm text-ink-subtle tabular-nums shrink-0">{new Date(episode.publishedAt).getUTCFullYear()}</span>
+                    <span class="font-semibold text-ink group-hover:text-accent-text transition">{getDisplayTitle(episode.title)}</span>
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </div>
+        )}
       </div>
 
       <!--
@@ -280,7 +301,7 @@ const hosts = [
         </p>
 
         <!-- A plain GET to /episodes: works without JavaScript and lands on the ?q= URL the SearchAction schema advertises. -->
-        <form action="/episodes" method="get" role="search" class="flex gap-2" data-testid="home-search">
+        <form action="/episodes/" method="get" role="search" class="flex gap-2" data-testid="home-search">
           <label for="home-search-input" class="sr-only">Cari episode</label>
           <input
             type="search"
@@ -305,7 +326,7 @@ const hosts = [
               <>
                 {index > 0 && ' · '}
                 <a
-                  href={`/tags/${tag}`}
+                  href={`/tags/${tag}/`}
                   class="inline-block py-1.5 font-semibold text-accent-text hover:text-ink transition"
                   data-analytics-event="topic_click"
                   data-analytics-props={JSON.stringify({ tag, location: 'home' })}
@@ -314,7 +335,7 @@ const hosts = [
               </>
             ))}
             {' · '}
-            <a href="/tags" class="inline-block py-1.5 font-semibold text-accent-text hover:text-ink transition">Semua topik</a>
+            <a href="/tags/" class="inline-block py-1.5 font-semibold text-accent-text hover:text-ink transition">Semua topik</a>
           </p>
         )}
 
@@ -324,7 +345,7 @@ const hosts = [
             <>
               {index > 0 && ' · '}
               <a
-                href={`/episodes/${year}`}
+                href={`/episodes/${year}/`}
                 class="inline-block py-1.5 font-semibold text-accent-text hover:text-ink transition"
               >{year}<span class="sr-only">, {count} episode</span></a>
             </>
@@ -345,7 +366,7 @@ const hosts = [
               Diskusi santai seputar ekosistem web modern dipandu oleh para Google Developer Experts Indonesia.
             </p>
           </div>
-          <a href="/about" class="inline-flex items-center min-h-11 text-accent-text hover:text-ink transition text-sm font-medium whitespace-nowrap">
+          <a href="/about/" class="inline-flex items-center min-h-11 text-accent-text hover:text-ink transition text-sm font-medium whitespace-nowrap">
             Tentang kami selengkapnya
           </a>
         </div>
@@ -439,7 +460,7 @@ const hosts = [
               Subscribe YouTube
             </a>
             <a
-              href="/subscribe"
+              href="/subscribe/"
               class="bg-accent-strong hover:bg-accent-hover text-on-accent px-4 py-2 rounded-lg text-sm font-medium transition"
             >
               Langganan

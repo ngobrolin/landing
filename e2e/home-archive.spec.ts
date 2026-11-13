@@ -34,7 +34,7 @@ test.describe('Homepage opens onto the archive', () => {
 
   test('links into topic pages', async ({ page }) => {
     await page.goto('/');
-    const topics = page.getByTestId('home-topics').locator('a[href^="/tags/"]');
+    const topics = page.getByTestId('home-topics').locator('a[href^="/tags/"]:not([href="/tags/"])');
     expect(await topics.count()).toBeGreaterThan(0);
 
     // Every homepage topic must resolve. The old inert chips named HTMX, JWT,
@@ -43,7 +43,7 @@ test.describe('Homepage opens onto the archive', () => {
     for (const href of await topics.evaluateAll((els) =>
       els.map((e) => (e as HTMLAnchorElement).getAttribute('href')!)
     )) {
-      expect(href).toMatch(/^\/tags\/[a-z0-9-]+$/);
+      expect(href).toMatch(/^\/tags\/[a-z0-9-]+\/$/);
     }
   });
 
@@ -51,7 +51,7 @@ test.describe('Homepage opens onto the archive', () => {
     await page.goto('/');
     const hrefs = await page
       .getByTestId('home-topics')
-      .locator('a[href^="/tags/"]')
+      .locator('a[href^="/tags/"]:not([href="/tags/"])')
       .evaluateAll((els) => els.map((e) => (e as HTMLAnchorElement).getAttribute('href')!));
 
     for (const href of hrefs) {
@@ -68,7 +68,7 @@ test.describe('Homepage opens onto the archive', () => {
     for (const href of await years.evaluateAll((els) =>
       els.map((e) => (e as HTMLAnchorElement).getAttribute('href')!)
     )) {
-      expect(href).toMatch(/^\/episodes\/\d{4}$/);
+      expect(href).toMatch(/^\/episodes\/\d{4}\/$/);
       const res = await request.get(href);
       expect(res.status(), `${href} did not resolve`).toBe(200);
     }
@@ -78,12 +78,12 @@ test.describe('Homepage opens onto the archive', () => {
     await page.goto('/');
     const cards = page.getByTestId('episode-card');
     expect(await cards.count()).toBeGreaterThan(0);
-    await expect(page.locator('a[href="/episodes"]').first()).toBeVisible();
+    await expect(page.locator('a[href="/episodes/"]').first()).toBeVisible();
   });
 
   test('offers subscribing without going to another page first', async ({ page }) => {
     await page.goto('/');
-    await expect(page.locator('a[href="/subscribe"]').first()).toBeVisible();
+    await expect(page.locator('a[href="/subscribe/"]').first()).toBeVisible();
   });
 
   test('the archive paths survive a client-side navigation back home', async ({ page }) => {
@@ -91,7 +91,22 @@ test.describe('Homepage opens onto the archive', () => {
     await page.locator('nav a[href="/"]').first().click();
     await expect(page).toHaveURL(/\/$/);
 
-    await expect(page.getByTestId('home-topics').locator('a[href^="/tags/"]').first()).toBeVisible();
+    await expect(page.getByTestId('home-topics').locator('a[href^="/tags/"]:not([href="/tags/"])').first()).toBeVisible();
     await expect(page.getByTestId('home-search').locator('input[name="q"]')).toBeVisible();
+  });
+
+  test('links older episodes with plain, resolving links', async ({ page, request }) => {
+    await page.goto('/');
+    const hrefs = await page
+      .getByTestId('home-archive-picks')
+      .locator('a')
+      .evaluateAll((els) => els.map((e) => e.getAttribute('href')!));
+
+    expect(hrefs.length).toBeGreaterThan(0);
+    for (const href of hrefs) {
+      expect(href).toMatch(/^\/episodes\/.+\/$/);
+      const res = await request.get(href);
+      expect(res.status(), `${href} did not resolve`).toBe(200);
+    }
   });
 });

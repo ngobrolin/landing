@@ -20,7 +20,7 @@ test.describe('Subscribing from an episode page', () => {
     await expect(cta).toBeVisible();
 
     const link = cta.getByRole('link', { name: /langganan/i });
-    await expect(link).toHaveAttribute('href', '/subscribe');
+    await expect(link).toHaveAttribute('href', '/subscribe/');
 
     // It has to read as a choice.
     const text = (await cta.textContent()) ?? '';

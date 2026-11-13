@@ -63,7 +63,7 @@ test.describe('Every episode page reaches /partners', () => {
         missing.push(`${slug} (no partners link)`);
         continue;
       }
-      if (!/href="\/partners"/.test(link[0])) {
+      if (!/href="\/partners\/"/.test(link[0])) {
         missing.push(`${slug} (partners link points elsewhere)`);
       }
     }
@@ -86,7 +86,7 @@ test.describe('Every episode page reaches /partners', () => {
 
     const link = page.getByTestId('episode-partners-link');
     await expect(link).toBeVisible();
-    await expect(link).toHaveAttribute('href', '/partners');
+    await expect(link).toHaveAttribute('href', '/partners/');
     await expect(link).toHaveAttribute('data-analytics-event', 'cta_click');
 
     // If nobody clicks it, that has to be knowable - so the props have to carry
