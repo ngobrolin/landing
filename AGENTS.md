@@ -360,11 +360,19 @@ language switcher.
 ## Palette and type
 
 `src/styles/global.css` is the only place a colour or a font is decided, and
-`DESIGN.md` explains what each token is for. The ground is light; blue (the
-podcast cover's band, darkened) is interactive; orange (the title strip on every
-episode thumbnail) is decorative. Two guards keep it honest, and both assert
+`DESIGN.md` explains what each token is for. Blue (the podcast cover's band,
+darkened) is interactive; orange (the title strip on every episode thumbnail) is
+decorative.
+
+There are two schemes, a light paper and the cover navy. The site follows the
+system and a footer toggle pins the other one; `docs/adr/002-color-scheme.md`
+records the decision and the mechanism. A token that differs has its two values
+once, as `--light-<name>` and `--dark-<name>`, and `<meta name="color-scheme">`
+carries the state. The inline script in the `<head>` of `Layout.astro` re-applies a pinned
+scheme on `astro:before-swap`, because the router swaps in a head with the
+default meta. Two guards keep it honest, and both assert
 rules rather than today's values: `src/styles/contrast.test.ts` (the WCAG floors
-each pairing was chosen to clear) and `src/styles/palette-literals.test.ts` (no
+each pairing was chosen to clear, run in both schemes) and `src/styles/palette-literals.test.ts` (no
 source file writes a literal from the retired pre-cover palette).
 
 The site ships one font file, `public/fonts/archivo-latin-wdth.woff2`, declared
@@ -398,13 +406,16 @@ catch an overflow, because CI runs the unit tests on Linux.
 
 Three traps the repaints hit:
 
-- **A filled control never takes `text-ink`.** Ink is dark on this ground, so a
-  blue button with `text-ink` is unreadable. Filled controls are
-  `bg-accent-strong text-on-accent hover:bg-accent-hover`, and the contrast test
-  asserts that pairing.
-- **Orange never sits under type and never is type.** The sampled value is
-  1.9:1 on the ground. Use `highlight` for rules and fills without text, and the
-  dark `-text` and `-strong` steps for anything that must be read.
+- **Type on a fixed fill takes a fixed token, never `text-ink`.** Ink flips with
+  the scheme; `accent-strong`, `on-accent`, `on-accent-muted` and
+  `highlight-strong` do not. Filled controls are
+  `bg-accent-strong text-on-accent hover:bg-accent-hover`, and the white button
+  on the homepage cover is `bg-on-accent text-accent-strong`. The contrast test
+  asserts both pairings. Check any new surface in both schemes.
+- **Orange never sits under type, and type never takes bare `highlight`.** The
+  sampled value is 1.9:1 on the light ground. Use `highlight` for rules and
+  fills without text, `highlight-text` for type and `highlight-strong` under
+  white.
 - **Never select an element by a colour utility class in a test.** Two e2e
   assertions used `p.text-gray-400` to find an episode's date and went red on a
   repaint that had nothing to do with what they were checking. Use a

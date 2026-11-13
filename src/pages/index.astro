@@ -120,7 +120,7 @@ const hosts = [
   <section class="on-accent md:container md:mx-auto md:px-4 md:pt-6" aria-labelledby="home-latest-title">
     <div class="relative overflow-hidden bg-accent-strong text-on-accent grid grid-cols-1 lg:grid-cols-12 gap-x-6 gap-y-5 px-4 py-6 md:p-10 lg:p-14">
       <p
-        class="display hidden lg:block absolute right-8 -bottom-14 text-[19rem] leading-none text-accent tabular-nums select-none"
+        class="display hidden lg:block absolute right-8 -bottom-14 text-[19rem] leading-none text-on-accent/5 tabular-nums select-none"
         aria-hidden="true"
       >
         {latestEpisode.episodeNumber}
@@ -175,14 +175,14 @@ const hosts = [
         <div class="flex flex-wrap items-center gap-x-4 gap-y-3">
           <a
             href={`/episodes/${latestEpisode.slug}/`}
-            class="grow sm:grow-0 inline-flex items-center justify-center min-h-13 px-7 bg-on-accent text-ink hover:bg-ink hover:text-on-accent rounded-md font-bold transition"
+            class="grow sm:grow-0 inline-flex items-center justify-center min-h-13 px-7 bg-on-accent text-accent-strong hover:bg-on-accent-muted rounded-md font-bold transition"
             data-testid="home-latest-action"
           >
             Tonton &amp; baca transkrip
           </a>
           <a
             href="/episodes/"
-            class="hidden sm:inline-flex items-center justify-center min-h-13 px-7 border border-on-accent hover:bg-on-accent hover:text-ink rounded-md font-semibold transition"
+            class="hidden sm:inline-flex items-center justify-center min-h-13 px-7 border border-on-accent hover:bg-on-accent hover:text-accent-strong rounded-md font-semibold transition"
           >
             Lihat Semua Episode
           </a>

@@ -1,4 +1,4 @@
-import { describe, expect, it } from 'vitest';
+import { beforeEach, describe, expect, it } from 'vitest';
 import { readFileSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 
@@ -18,8 +18,14 @@ const CSS = readFileSync(
   'utf8'
 );
 
+const SCHEMES = ['light', 'dark'] as const;
+let scheme: (typeof SCHEMES)[number] = 'light';
+
+/** A token in the scheme under test. A `--color-<name>` hex is the same in both. */
 function token(name: string): string {
-  const match = CSS.match(new RegExp(`--color-${name}:\\s*(#[0-9a-fA-F]{6})`));
+  const match =
+    CSS.match(new RegExp(`--${scheme}-${name}:\\s*(#[0-9a-fA-F]{6})`)) ??
+    CSS.match(new RegExp(`--color-${name}:\\s*(#[0-9a-fA-F]{6})`));
   if (!match) throw new Error(`--color-${name} is not defined in global.css`);
   return match[1];
 }
@@ -47,7 +53,11 @@ const SURFACES = ['surface', 'surface-raised', 'surface-overlay'] as const;
 const TEXT_AA = 4.5;
 const NON_TEXT_AA = 3;
 
-describe('palette contrast', () => {
+describe.each(SCHEMES)('palette contrast, %s scheme', current => {
+  beforeEach(() => {
+    scheme = current;
+  });
+
   describe.each(SURFACES)('on %s', surface => {
     const ground = () => token(surface);
 
@@ -90,6 +100,17 @@ describe('palette contrast', () => {
       // orange only ever carries type in its darkened -strong step.
       expect(
         ratio(token('on-accent'), token(name))
+      ).toBeGreaterThanOrEqual(TEXT_AA);
+    }
+  );
+
+  // The cover block is blue in both schemes, so its inverted button cannot use
+  // ink, which flips. It is accent-strong type on the two on-accent fills.
+  it.each(['on-accent', 'on-accent-muted'])(
+    'the cover button carries accent-strong type on its %s fill at AA',
+    name => {
+      expect(
+        ratio(token('accent-strong'), token(name))
       ).toBeGreaterThanOrEqual(TEXT_AA);
     }
   );
