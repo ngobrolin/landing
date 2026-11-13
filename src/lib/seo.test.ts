@@ -5,7 +5,12 @@ import {
   generateAboutPageSchema,
   generateCollectionPageSchema,
   generateVideoSchema,
-  buildEpisodePageTitle
+  generateBreadcrumbSchema,
+  generatePodcastEpisodeSchema,
+  buildSiteGraph,
+  buildEpisodePageTitle,
+  getEpisodePageTitle,
+  getMetaDescription
 } from './seo';
 import { getEpisodes } from './episodes';
 import type { Episode } from './episodes';
@@ -14,37 +19,17 @@ describe('SEO Schema Generators', () => {
   describe('generateHomepageSchema', () => {
     const siteUrl = 'https://ngobrol.in';
 
-    it('should generate valid WebSite schema', () => {
+    // Layout.astro already declares the WebSite and Organization nodes; the homepage graph
+    // must extend them by @id rather than declare a second site with conflicting values.
+    it('extends the site-wide nodes by @id instead of redeclaring them', () => {
       const schema = generateHomepageSchema(siteUrl, 155);
+      const graph = schema['@graph'];
 
-      expect(schema).toHaveProperty('@context', 'https://schema.org');
-      expect(schema).toHaveProperty('@graph');
-      expect(Array.isArray(schema['@graph'])).toBe(true);
-
-      const webSite = schema['@graph'].find((item: any) => item['@type'] === 'WebSite');
-      expect(webSite).toBeDefined();
-      expect(webSite.name).toBe('Ngobrolin WEB');
-      expect(webSite.url).toBe(siteUrl);
-      expect(webSite.inLanguage).toBe('id-ID');
-    });
-
-    it('should include search action in WebSite schema', () => {
-      const schema = generateHomepageSchema(siteUrl, 155);
-      const webSite = schema['@graph'].find((item: any) => item['@type'] === 'WebSite');
-
-      expect(webSite.potentialAction).toBeDefined();
-      expect(webSite.potentialAction['@type']).toBe('SearchAction');
-      expect(webSite.potentialAction.target).toContain(siteUrl);
-    });
-
-    it('should generate valid Organization schema', () => {
-      const schema = generateHomepageSchema(siteUrl, 155);
-      const org = schema['@graph'].find((item: any) => item['@type'] === 'Organization');
-
-      expect(org).toBeDefined();
-      expect(org.name).toBe('Ngobrolin WEB');
-      expect(org.logo).toContain('favicon.svg');
-      expect(Array.isArray(org.sameAs)).toBe(true);
+      expect(graph.find((item: any) => item['@type'] === 'WebSite')).toBeUndefined();
+      const org = graph.find((item: any) => item['@type'] === 'Organization');
+      expect(org['@id']).toBe(`${siteUrl}/#organization`);
+      expect(org.logo).toBeUndefined();
+      expect(org.sameAs).toBeUndefined();
     });
 
     it('should include all three founders', () => {
@@ -67,7 +52,7 @@ describe('SEO Schema Generators', () => {
 
       expect(podcast).toBeDefined();
       expect(podcast.name).toBe('Ngobrolin WEB');
-      expect(podcast.webFeed).toBe(`${siteUrl}/rss.xml`);
+      expect(podcast.webFeed).toBe(`${siteUrl}/podcast-rss.xml`);
       expect(podcast.numberOfEpisodes).toBe(155);
       expect(podcast.inLanguage).toBe('id-ID');
     });
@@ -244,6 +229,26 @@ describe('SEO Schema Generators', () => {
       expect(items[2].position).toBe(3);
     });
 
+    it('links every item to its canonical episode URL, whatever the collection URL', () => {
+      const episodes: Episode[] = [
+        {
+          videoId: 'abc123',
+          title: 'Episode 1',
+          description: 'Description',
+          publishedAt: '2024-01-01T00:00:00Z',
+          thumbnail: 'https://example.com/thumb.jpg',
+          slug: 'ep-1',
+          episodeNumber: 1
+        }
+      ];
+
+      for (const url of [`${siteUrl}/episodes`, `${siteUrl}/episodes/2024`]) {
+        const schema = generateCollectionPageSchema('Episodes', 'Description', url, episodes);
+        expect(schema.mainEntity.itemListElement[0].item.url).toBe(`${siteUrl}/episodes/ep-1/`);
+        expect(schema.url).toBe(`${url}/`);
+      }
+    });
+
     it('should handle empty episode list', () => {
       const schema = generateCollectionPageSchema(
         'Episodes',
@@ -296,8 +301,87 @@ describe('SEO Schema Generators', () => {
       expect(schema['@type']).toBe('VideoObject');
       expect(schema.name).toBe('Test Episode');
     });
+
+    it('leaves out contentUrl and the transcript', () => {
+      const episode: Episode = {
+        videoId: 'abc123',
+        title: 'Test Episode',
+        description: 'Test Description',
+        publishedAt: '2024-01-01T00:00:00Z',
+        thumbnail: 'https://example.com/thumb.jpg',
+        slug: 'test-ep',
+        episodeNumber: 1
+      };
+
+      const schema = generateVideoSchema(episode, null, { fullText: 'Halo semuanya' }, siteUrl);
+
+      expect(schema.contentUrl).toBeUndefined();
+      expect(schema.transcript).toBeUndefined();
+      expect(schema.embedUrl).toBe('https://www.youtube.com/embed/abc123');
+    });
+  });
+
+  describe('episode page schemas', () => {
+    const siteUrl = 'https://ngobrol.in';
+    const episode: Episode = {
+      videoId: 'abc123',
+      title: 'Modern Web UI - Ngobrolin WEB',
+      description: 'Test Description',
+      publishedAt: '2024-01-01T00:00:00Z',
+      thumbnail: 'https://example.com/thumb.jpg',
+      slug: 'abc123-modern-web-ui-ngobrolin-web',
+      episodeNumber: 180
+    };
+    const pageUrl = `${siteUrl}/episodes/abc123-modern-web-ui-ngobrolin-web/`;
+
+    it('declares one video: the podcast episode references the VideoObject by @id', () => {
+      const video = generateVideoSchema(episode, null, null, siteUrl);
+      const podcast = generatePodcastEpisodeSchema(episode, null, siteUrl);
+
+      expect(podcast.url).toBe(pageUrl);
+      expect(podcast.associatedMedia).toEqual({ '@id': video['@id'] });
+      expect(video['@id']).toBe(`${pageUrl}#video`);
+    });
+
+    it('uses the visible breadcrumb labels and canonical URLs', () => {
+      const items = generateBreadcrumbSchema(episode, siteUrl).itemListElement;
+
+      expect(items.map((i) => i.name)).toEqual(['Beranda', 'Episode', 'Modern Web UI']);
+      expect(items.map((i) => i.item)).toEqual([`${siteUrl}/`, `${siteUrl}/episodes/`, pageUrl]);
+    });
   });
 });
+describe('buildSiteGraph', () => {
+  const siteUrl = 'https://ngobrol.in';
+  const input = {
+    siteUrl,
+    pageUrl: `${siteUrl}/episodes/abc/`,
+    title: 'Modern Web UI - Ngobrolin WEB',
+    description: 'Episode ini berangkat dari satu keluhan',
+    image: 'https://i.ytimg.com/vi/abc/hqdefault.jpg'
+  };
+  const node = (type: string) =>
+    buildSiteGraph(input)['@graph'].find((n: any) => n['@type'] === type) as any;
+
+  it('keeps the page description off the WebSite node', () => {
+    expect(node('WebSite').description).not.toBe(input.description);
+    expect(node('WebPage').description).toBe(input.description);
+  });
+
+  it('uses a square raster logo and lists only profiles in sameAs', () => {
+    expect(node('Organization').logo.url).toMatch(/\.(jpg|png)$/);
+    expect(node('Organization').logo.width).toBe(node('Organization').logo.height);
+    for (const url of node('Organization').sameAs) expect(url).not.toMatch(/\/search\?/);
+  });
+
+  it('shares @ids with the homepage and about schemas', () => {
+    const orgId = node('Organization')['@id'];
+    expect(generateAboutPageSchema(siteUrl).mainEntity['@id']).toBe(orgId);
+    const home = generateHomepageSchema(siteUrl, 1)['@graph'].find((n: any) => n['@type'] === 'Organization');
+    expect(home['@id']).toBe(orgId);
+  });
+});
+
 describe('buildEpisodePageTitle', () => {
   // 163 of 178 episode titles already end in a "Ngobrolin WEB" variant, and the
   // page template used to append the site name unconditionally. That shipped
@@ -385,5 +469,55 @@ describe('buildEpisodePageTitle', () => {
     for (const ep of withoutShowName) {
       expect(buildEpisodePageTitle(ep.title)).toBe(`${ep.title.trim()} - Ngobrolin WEB`);
     }
+  });
+});
+
+describe('episode page title and meta description', () => {
+  const episode: Episode = {
+    videoId: 'abc123',
+    title: 'Modern Web UI - Ngobrolin WEB',
+    description: 'Deskripsi dari YouTube.',
+    publishedAt: '2024-01-01T00:00:00Z',
+    thumbnail: 'https://example.com/thumb.jpg',
+    slug: 'abc123-modern-web-ui-ngobrolin-web'
+  };
+  const summary = { brief: 'Ringkasan singkat.', keyPoints: [] };
+
+  it('uses seoTitle when the summary has one', () => {
+    const seoTitle = 'Merapikan UI Web Saat Fitur LLM Masuk | Ngobrolin WEB';
+    expect(getEpisodePageTitle(episode, { ...summary, seoTitle })).toBe(seoTitle);
+  });
+
+  it('falls back to the composed title without a summary or seoTitle', () => {
+    expect(getEpisodePageTitle(episode, summary)).toBe('Modern Web UI - Ngobrolin WEB');
+    expect(getEpisodePageTitle(episode, null)).toBe('Modern Web UI - Ngobrolin WEB');
+  });
+
+  it('uses metaDescription verbatim when the summary has one', () => {
+    const metaDescription = 'Riza membahas UI web yang berantakan setelah fitur LLM masuk.';
+    expect(getMetaDescription(episode, { ...summary, metaDescription })).toBe(metaDescription);
+  });
+
+  // The fallback used to slice at 157 characters, so 126 snippets ended mid-word.
+  it('never cuts the fallback mid-word', () => {
+    const words = 'pengembangan web modern dengan komponen yang aksesibel'.split(' ');
+    for (let offset = 0; offset < 40; offset++) {
+      const brief = 'x'.repeat(offset) + ' ' + Array.from({ length: 30 }, (_, i) => words[i % words.length]).join(' ');
+      for (const description of [
+        getMetaDescription(episode, { brief, keyPoints: [] }),
+        getMetaDescription({ ...episode, description: brief }, null)
+      ]) {
+        expect(description.length).toBeLessThanOrEqual(160);
+        expect(description.endsWith('...')).toBe(true);
+        const kept = description.slice(0, -3);
+        expect(brief.startsWith(kept), description).toBe(true);
+        expect(brief[kept.length], description).toMatch(/[\s,.;:]/);
+      }
+    }
+  });
+
+  it('leaves a short fallback untouched', () => {
+    expect(getMetaDescription(episode, summary)).toBe('Ringkasan singkat.');
+    expect(getMetaDescription(episode, null)).toBe('Deskripsi dari YouTube.');
   });
 });

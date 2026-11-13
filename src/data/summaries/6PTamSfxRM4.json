@@ -10,5 +10,7 @@
     "Halaman AI Ruby on Rails menyediakan perbandingan model berdasarkan akurasi, kecepatan, penggunaan token, dan biaya, dengan pembahasan yang membedakan tugas kecil dari tiket fitur yang membutuhkan pemecahan pekerjaan.",
     "Laravel menjadi pembanding pendekatan adopsi AI yang dinilai lebih moderat. Gagasan framework masa depan berupa workflow, agent skills, CLI, atau MCP server disampaikan sebagai kemungkinan, bukan kepastian.",
     "Pengalaman membuat sendiri utilitas seperti Pomodoro dan time tracker memicu pertanyaan tentang keberlanjutan SaaS kecil. Konten, jaringan pengguna, biaya infrastruktur streaming, dan keandalan pengiriman email dibahas sebagai nilai layanan yang tidak selesai hanya dengan menghasilkan kode."
-  ]
+  ],
+  "seoTitle": "Rails World: Keynote DHH dan AI Coding Agent | Ngobrolin WEB",
+  "metaDescription": "Tanggapan atas keynote DHH di Rails World: peran developer saat kode ditulis coding agent, benchmark model AI Ruby on Rails, dan nasib SaaS kecil."
 }

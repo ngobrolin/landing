@@ -1,11 +1,11 @@
-import { describe, expect, it } from 'vitest';
+import { beforeEach, describe, expect, it } from 'vitest';
 import { readFileSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 
 /**
- * The palette is sampled from the podcast cover, which is an artwork rather than
- * a design system: nothing about being on-brand makes a pairing legible. So this
- * asserts the WCAG floors, not the values.
+ * The palette borrows from the podcast cover and the episode thumbnails, which
+ * are artwork rather than a design system: nothing about being on-brand makes a
+ * pairing legible. So this asserts the WCAG floors, not the values.
  *
  * Deliberately NOT a snapshot of today's tokens. Repainting the site is allowed
  * and should stay allowed; shipping a pairing a reader cannot resolve is not.
@@ -18,8 +18,14 @@ const CSS = readFileSync(
   'utf8'
 );
 
+const SCHEMES = ['light', 'dark'] as const;
+let scheme: (typeof SCHEMES)[number] = 'light';
+
+/** A token in the scheme under test. A `--color-<name>` hex is the same in both. */
 function token(name: string): string {
-  const match = CSS.match(new RegExp(`--color-${name}:\\s*(#[0-9a-fA-F]{6})`));
+  const match =
+    CSS.match(new RegExp(`--${scheme}-${name}:\\s*(#[0-9a-fA-F]{6})`)) ??
+    CSS.match(new RegExp(`--color-${name}:\\s*(#[0-9a-fA-F]{6})`));
   if (!match) throw new Error(`--color-${name} is not defined in global.css`);
   return match[1];
 }
@@ -47,7 +53,11 @@ const SURFACES = ['surface', 'surface-raised', 'surface-overlay'] as const;
 const TEXT_AA = 4.5;
 const NON_TEXT_AA = 3;
 
-describe('palette contrast', () => {
+describe.each(SCHEMES)('palette contrast, %s scheme', current => {
+  beforeEach(() => {
+    scheme = current;
+  });
+
   describe.each(SURFACES)('on %s', surface => {
     const ground = () => token(surface);
 
@@ -69,13 +79,13 @@ describe('palette contrast', () => {
     });
   });
 
-  // `surface-border` doubles as a fill in exactly one place - the topic chip in
-  // `EpisodeTopics.astro`, `bg-surface-border text-ink-body hover:text-ink`. So
+  // `surface-border` doubles as a fill in exactly one place - the small label
+  // chip on `/partners`, `bg-surface-border text-ink-body`. So
   // only those two rungs are asserted against it; the rest of the ink ladder
   // never sits on this ground and asserting it would go red for a pairing the
   // site does not have.
   it.each(['ink-body', 'ink'])(
-    'the topic chip carries %s at AA on its surface-border fill',
+    'the label chip carries %s at AA on its surface-border fill',
     name => {
       expect(
         ratio(token(name), token('surface-border'))
@@ -83,14 +93,33 @@ describe('palette contrast', () => {
     }
   );
 
-  it.each(['accent-strong', 'highlight-strong'])(
-    'a filled %s button carries ink at AA',
+  it.each(['accent-strong', 'accent-hover', 'highlight-strong'])(
+    'a %s fill carries on-accent type at AA',
     name => {
-      // The sampled accents are too light to sit under white; these are the
-      // darkened pair the filled buttons actually use.
-      expect(ratio(token('ink'), token(name))).toBeGreaterThanOrEqual(TEXT_AA);
+      // Filled controls rest on accent-strong and hover to accent-hover; the
+      // orange only ever carries type in its darkened -strong step.
+      expect(
+        ratio(token('on-accent'), token(name))
+      ).toBeGreaterThanOrEqual(TEXT_AA);
     }
   );
+
+  // The cover block is blue in both schemes, so its inverted button cannot use
+  // ink, which flips. It is accent-strong type on the two on-accent fills.
+  it.each(['on-accent', 'on-accent-muted'])(
+    'the cover button carries accent-strong type on its %s fill at AA',
+    name => {
+      expect(
+        ratio(token('accent-strong'), token(name))
+      ).toBeGreaterThanOrEqual(TEXT_AA);
+    }
+  );
+
+  it('the cover block carries its secondary type at AA', () => {
+    expect(
+      ratio(token('on-accent-muted'), token('accent-strong'))
+    ).toBeGreaterThanOrEqual(TEXT_AA);
+  });
 
   it('separates every step of the surface scale', () => {
     // Three greys two points apart is what this palette replaced. A step has to

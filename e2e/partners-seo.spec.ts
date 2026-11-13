@@ -210,7 +210,7 @@ test.describe('Partners page — findable from the rest of the site', () => {
     test(`${path} links to /partners`, async ({ page }) => {
       await page.goto(path);
 
-      const link = page.locator('main a[href="/partners"]');
+      const link = page.locator('main a[href="/partners/"]');
       await expect(link).not.toHaveCount(0);
       await expect(link.first()).toBeVisible();
       await expect(link.first()).toContainText(/sponsor|iklan|kerja sama/i);

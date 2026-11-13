@@ -11,10 +11,10 @@ const isActive = (year: number | undefined) => activeYear === year;
 <nav aria-label="Navigasi tahun" class="mb-8">
   <div class="flex flex-wrap gap-2">
     <a
-      href="/episodes"
+      href="/episodes/"
       class={`px-4 py-2 rounded-lg font-medium transition ${
         isActive(undefined)
-          ? 'bg-accent-strong text-ink'
+          ? 'bg-accent-strong text-on-accent'
           : 'bg-surface-raised text-ink-muted hover:text-ink hover:border-accent border border-surface-border'
       }`}
       aria-current={isActive(undefined) ? 'page' : undefined}
@@ -23,10 +23,10 @@ const isActive = (year: number | undefined) => activeYear === year;
     </a>
     {years.map((year) => (
       <a
-        href={`/episodes/${year}`}
+        href={`/episodes/${year}/`}
         class={`px-4 py-2 rounded-lg font-medium transition ${
           isActive(year)
-            ? 'bg-accent-strong text-ink'
+            ? 'bg-accent-strong text-on-accent'
             : 'bg-surface-raised text-ink-muted hover:text-ink hover:border-accent border border-surface-border'
         }`}
         aria-current={isActive(year) ? 'page' : undefined}

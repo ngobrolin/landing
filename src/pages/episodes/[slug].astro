@@ -3,7 +3,7 @@ import Layout from "../../layouts/Layout.astro";
 import EpisodeMedia from "../../components/EpisodeMedia.astro";
 import Transcript from "../../components/Transcript.astro";
 import Summary from "../../components/Summary.astro";
-import { getEpisodes, type Episode } from "../../lib/episodes";
+import { getEpisodes, formatDuration, type Episode } from "../../lib/episodes";
 import { getImage } from "astro:assets";
 import {
     getSummary,
@@ -12,14 +12,14 @@ import {
     generateVideoSchema,
     generateBreadcrumbSchema,
     generatePodcastEpisodeSchema,
-    buildEpisodePageTitle,
+    getEpisodePageTitle,
     getDisplayTitle,
 } from "../../lib/seo";
 import { getRelatedEpisodes } from "../../lib/related";
-import EpisodeCard from "../../components/EpisodeCard.astro";
 import Comments from "../../components/Comments.astro";
 import ShareButtons from "../../components/ShareButtons.astro";
 import EpisodeTopics from "../../components/EpisodeTopics.astro";
+import { getDeck } from "../../lib/transcript-view";
 
 export async function getStaticPaths() {
     const episodes = getEpisodes();
@@ -69,7 +69,10 @@ const videoSchema = generateVideoSchema(episode, summary, transcript, siteUrl);
 const breadcrumbSchema = generateBreadcrumbSchema(episode, siteUrl);
 const podcastSchema = generatePodcastEpisodeSchema(episode, summary, siteUrl);
 
-const relatedEpisodes = getRelatedEpisodes(episode, episodes, 3);
+// Six, not three: related links are the main path from a page a search engine
+// reads into the older episodes nothing else on the site points at.
+const relatedEpisodes = getRelatedEpisodes(episode, episodes, 6);
+const duration = formatDuration(episode.duration);
 
 // Episode URL for sharing
 const episodeUrl = `${siteUrl}/episodes/${episode.slug}`;
@@ -77,10 +80,14 @@ const episodeUrl = `${siteUrl}/episodes/${episode.slug}`;
 // Visible text drops the trailing show-name credit; the <title>, og:title and
 // the share text keep it.
 const displayTitle = getDisplayTitle(episode.title);
+const deck = getDeck(summary?.brief);
+
+const shortDate = (iso: string) =>
+    new Date(iso).toLocaleDateString("id-ID", { day: "numeric", month: "short", year: "numeric" });
 ---
 
 <Layout
-    title={buildEpisodePageTitle(episode.title)}
+    title={getEpisodePageTitle(episode, summary)}
     description={metaDescription}
     image={episode.thumbnail}
     preloadImage={optimizedThumbnail.src}
@@ -101,131 +108,135 @@ const displayTitle = getDisplayTitle(episode.title);
             set:html={JSON.stringify(podcastSchema)}
         />
     </Fragment>
-    <article class="py-12">
+    <article class="pt-8 md:pt-12">
         <div class="container mx-auto px-4">
             <div class="max-w-4xl mx-auto">
+                <nav aria-label="Breadcrumb" class="mb-5">
+                    <ol class="flex items-center gap-2 text-sm text-ink-muted">
+                        <li>
+                            <a href="/" class="hover:text-ink transition">Beranda</a>
+                        </li>
+                        <li aria-hidden="true">/</li>
+                        <li>
+                            <a href="/episodes/" class="hover:text-ink transition">Episode</a>
+                        </li>
+                        <li aria-hidden="true">/</li>
+                        <li class="text-ink truncate min-w-0" aria-current="page">{displayTitle}</li>
+                    </ol>
+                </nav>
+
                 <!--
-                    Breadcrumb, then the media. EpisodeMedia puts the
-                    Video / Audio saja toggle on the breadcrumb's row so it
-                    costs the page no extra height.
+                    Title before the player. Most arrivals come from a search
+                    for a topic, not for the show, so the first thing they read
+                    confirms they landed on the right page.
                 -->
+                <h1 class:list={["display text-[clamp(2rem,6vw,3.5rem)] leading-none text-ink", deck ? "mb-4" : "mb-6"]}>
+                    {displayTitle}
+                </h1>
+                {deck && (
+                    <p class="max-w-[44rem] text-xl leading-snug text-ink mb-6" data-testid="episode-deck">
+                        {deck}
+                    </p>
+                )}
+
+                <!-- EpisodeMedia sets the Video / Audio saja toggle on this row, so the meta line costs no extra height. -->
                 <EpisodeMedia
                     episode={episode}
                     displayTitle={displayTitle}
                     thumbnail={optimizedThumbnail.src}
                     transitionName={`episode-thumbnail-${episode.slug}`}
                 >
-                    <nav slot="lead" aria-label="Breadcrumb">
-                        <ol class="flex items-center gap-2 text-sm text-ink-muted">
-                            <li>
-                                <a href="/" class="hover:text-ink transition"
-                                    >Beranda</a
-                                >
-                            </li>
-                            <li aria-hidden="true">/</li>
-                            <li>
-                                <a
-                                    href="/episodes"
-                                    class="hover:text-ink transition">Episode</a
-                                >
-                            </li>
-                            <li aria-hidden="true">/</li>
-                            <li class="text-ink" aria-current="page" title={displayTitle}>EP {episode.episodeNumber}</li>
-                        </ol>
-                    </nav>
+                    <p slot="lead" class="text-sm text-ink-muted tabular-nums">
+                        <span class="font-bold text-ink" data-testid="episode-number-badge">EP {episode.episodeNumber}</span>
+                        <span aria-hidden="true"> · </span>
+                        <time datetime={episode.publishedAt}>{formattedDate}</time>
+                        {duration && (
+                            <>
+                                <span aria-hidden="true"> · </span>
+                                {duration}
+                            </>
+                        )}
+                    </p>
                 </EpisodeMedia>
 
-                <!-- Episode Info -->
-                <div class="mt-8">
-                    <div class="flex items-center gap-4 mb-4">
-                        <span
-                            class="bg-accent-strong text-ink text-sm font-bold px-3 py-1 rounded"
-                            data-testid="episode-number-badge"
-                            >EP {episode.episodeNumber}</span
-                        >
-                        <time class="text-ink-muted text-sm"
-                            >{formattedDate}</time
-                        >
-                    </div>
-
-                    <h1 class="text-2xl md:text-3xl font-bold text-ink mb-4">
-                        {displayTitle}
-                    </h1>
-
-                    <!--
-                        Topics sit directly under the title, where the share row
-                        used to be. This is the page's only outbound path into
-                        the subject archive, and it is what gives the 36 tag
-                        pages inbound links.
-                    -->
-                    <div class="mb-6">
-                        <EpisodeTopics videoId={episode.videoId} />
-                    </div>
-
-                    <!--
-                        Summary first, then transcript, then the raw YouTube
-                        description. The description is the weakest of the three
-                        for a reader: most of them are boilerplate, and it carries
-                        sponsor ad copy that rendered at full body weight above
-                        the editorial summary.
-                    -->
+                <!--
+                    Key points first, then the search into the transcript,
+                    then the raw YouTube description. The description is the
+                    weakest of the three for a reader: most of them are
+                    boilerplate, and it carries sponsor ad copy.
+                -->
+                <div class="mt-10 md:mt-14">
                     <Summary videoId={episode.videoId} />
+                </div>
+            </div>
+        </div>
 
-                    <!-- Transcript -->
+        <!-- The transcript as a tool, on its own raised band like the homepage archive. -->
+        <div class:list={["mt-10 md:mt-14", transcript && "bg-surface-raised py-12 md:py-16"]}>
+            <div class="container mx-auto px-4">
+                <div class="max-w-4xl mx-auto">
                     <Transcript videoId={episode.videoId} />
 
-                    <details class="mt-8 group">
+                    <details class="mt-2">
                         <summary
-                            class="cursor-pointer text-ink-muted hover:text-ink transition text-sm font-medium"
+                            class="inline-flex items-center min-h-11 cursor-pointer text-ink-muted hover:text-ink transition text-sm font-medium"
                         >
                             Deskripsi asli dari YouTube
                         </summary>
                         <p
-                            class="text-ink-body leading-relaxed whitespace-pre-line mt-3"
+                            class="max-w-[68ch] text-ink-body leading-relaxed whitespace-pre-line mt-2"
                         >
                             {episode.description}
                         </p>
                     </details>
-
                 </div>
+            </div>
+        </div>
 
-                <!-- Related Episodes -->
+        <div class="container mx-auto px-4">
+            <div class="max-w-4xl mx-auto">
+                <!--
+                    Rows, not cards: six thumbnails took a quarter of a
+                    phone's page for links a reader scans by title.
+                -->
                 {
                     relatedEpisodes.length > 0 && (
-                        <section
-                            class="mt-12 pt-8 border-t border-surface-border"
-                            data-testid="related-episodes"
-                        >
-                            <h2 class="text-xl font-bold text-ink mb-6">
+                        <section class="pt-12 md:pt-16" data-testid="related-episodes">
+                            <h2 class="display text-xl md:text-2xl text-ink mb-3">
                                 Episode Terkait
                             </h2>
-                            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                            <ul class="grid grid-cols-1 md:grid-cols-2 gap-x-12">
                                 {relatedEpisodes.map((ep) => (
-                                    <EpisodeCard
-                                        title={ep.title}
-                                        description={ep.description}
-                                        publishedAt={ep.publishedAt}
-                                        thumbnail={ep.thumbnail}
-                                        episodeNumber={ep.episodeNumber}
-                                        slug={ep.slug}
-                                        duration={ep.duration}
-                                        brief={ep.brief}
-                                    />
+                                    <li>
+                                        <a
+                                            href={`/episodes/${ep.slug}/`}
+                                            class="group grid grid-cols-[3.25rem_minmax(0,1fr)] items-baseline gap-x-3.5 py-2.5"
+                                            data-testid="related-episode"
+                                        >
+                                            <span class="display text-xl text-accent-text tabular-nums">{ep.episodeNumber}</span>
+                                            <span class="flex flex-col gap-0.5 min-w-0">
+                                                <span class="text-lg font-bold leading-snug text-ink group-hover:text-accent-text transition">
+                                                    {getDisplayTitle(ep.title)}
+                                                </span>
+                                                <span class="text-sm text-ink-subtle tabular-nums">
+                                                    {shortDate(ep.publishedAt)}
+                                                    {formatDuration(ep.duration) && ` · ${formatDuration(ep.duration)}`}
+                                                </span>
+                                            </span>
+                                        </a>
+                                    </li>
                                 ))}
-                            </div>
+                            </ul>
                         </section>
                     )
                 }
 
-                <!-- Share -->
-                <!--
-                    Share sits AFTER the content and the related grid. It used
-                    to be the first interactive thing under the H1, which asked
-                    a first-time visitor to share an episode they had not read.
-                -->
-                <section class="mt-12 pt-8 border-t border-surface-border">
-                    <ShareButtons url={episodeUrl} title={episode.title} />
-                </section>
+                <!-- The page's only outbound path into the subject archive, and what gives the tag pages their inbound links. -->
+                <div class:list={relatedEpisodes.length > 0 ? "mt-4" : "pt-12"}>
+                    <EpisodeTopics videoId={episode.videoId} />
+                </div>
+            </div>
+        </div>
 
                     <!--
                         Subscribe, at the end of the episode.
@@ -238,11 +249,13 @@ const displayTitle = getDisplayTitle(episode.title);
                         sends them to /subscribe rather than being a second
                         YouTube button.
                     -->
-                    <section
-                        class="mt-8 p-6 bg-surface-raised border border-surface-border rounded-xl"
-                        data-testid="episode-subscribe"
-                        aria-labelledby="episode-subscribe-heading"
-                    >
+        <section
+            class="mt-12 md:mt-16 bg-surface-overlay py-9 md:py-11"
+            aria-labelledby="episode-subscribe-heading"
+        >
+            <div class="container mx-auto px-4">
+                <div class="max-w-4xl mx-auto">
+                    <div data-testid="episode-subscribe">
                         <div
                             class="flex flex-col md:flex-row md:items-center justify-between gap-5"
                         >
@@ -262,8 +275,8 @@ const displayTitle = getDisplayTitle(episode.title);
                                 </p>
                             </div>
                             <a
-                                href="/subscribe"
-                                class="bg-accent-strong hover:bg-highlight-strong text-ink px-6 py-3 rounded-lg font-medium transition whitespace-nowrap text-center"
+                                href="/subscribe/"
+                                class="bg-accent-strong hover:bg-accent-hover text-on-accent px-6 py-3 rounded-lg font-medium transition whitespace-nowrap text-center"
                                 data-analytics-event="cta_click"
                                 data-analytics-props={JSON.stringify({
                                     cta: "subscribe",
@@ -274,7 +287,7 @@ const displayTitle = getDisplayTitle(episode.title);
                                 Pilih Cara Langganan
                             </a>
                         </div>
-                    </section>
+                    </div>
 
                     <!--
                         Two quiet lines under the subscribe card, for the two
@@ -319,7 +332,7 @@ const displayTitle = getDisplayTitle(episode.title);
                             Diskusikan episode ini di GitHub
                         </a>
                         <a
-                            href="/partners"
+                            href="/partners/"
                             class="text-ink-muted hover:text-ink transition flex items-center gap-2"
                             data-testid="episode-partners-link"
                             data-analytics-event="cta_click"
@@ -343,48 +356,60 @@ const displayTitle = getDisplayTitle(episode.title);
                         </a>
                     </div>
 
+                    <!--
+                        Share sits after the content and the related rows. It
+                        used to be the first interactive thing under the H1,
+                        which asked a first-time visitor to share an episode
+                        they had not read.
+                    -->
+                    <div class="mt-5">
+                        <ShareButtons url={episodeUrl} title={episode.title} />
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="container mx-auto px-4 pb-8 md:pb-12">
+            <div class="max-w-4xl mx-auto">
+
                 <!-- Comments -->
                 <Comments />
 
                 <!-- Navigation -->
                 <nav
-                    class="mt-12 pt-8 border-t border-surface-border"
+                    class="mt-12"
                     aria-label="Episode sebelumnya dan selanjutnya"
                 >
-                    <div class="flex justify-between gap-4">
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
                         {
                             prevEpisode ? (
                                 <a
-                                    href={`/episodes/${prevEpisode.slug}`}
-                                    class="flex-1 p-4 bg-surface-raised border border-surface-border rounded-lg hover:border-accent/50 transition group"
+                                    href={`/episodes/${prevEpisode.slug}/`}
+                                    class="p-4 bg-surface-raised border border-surface-border rounded-lg hover:border-accent/50 transition group"
                                 >
-                                    <span class="text-ink-muted text-sm">
-                                        ← Episode Sebelumnya
-                                    </span>
+                                    <span class="text-ink-muted text-sm">Episode Sebelumnya</span>
                                     <p class="text-ink font-medium mt-1 group-hover:text-accent-text transition line-clamp-1">
                                         {getDisplayTitle(prevEpisode.title)}
                                     </p>
                                 </a>
                             ) : (
-                                <div class="flex-1" />
+                                <div class="hidden sm:block" />
                             )
                         }
 
                         {
                             nextEpisode ? (
                                 <a
-                                    href={`/episodes/${nextEpisode.slug}`}
-                                    class="flex-1 p-4 bg-surface-raised border border-surface-border rounded-lg hover:border-accent/50 transition group text-right"
+                                    href={`/episodes/${nextEpisode.slug}/`}
+                                    class="p-4 bg-surface-raised border border-surface-border rounded-lg hover:border-accent/50 transition group sm:text-right"
                                 >
-                                    <span class="text-ink-muted text-sm">
-                                        Episode Selanjutnya →
-                                    </span>
+                                    <span class="text-ink-muted text-sm">Episode Selanjutnya</span>
                                     <p class="text-ink font-medium mt-1 group-hover:text-accent-text transition line-clamp-1">
                                         {getDisplayTitle(nextEpisode.title)}
                                     </p>
                                 </a>
                             ) : (
-                                <div class="flex-1" />
+                                <div class="hidden sm:block" />
                             )
                         }
                     </div>

@@ -350,28 +350,41 @@ not everything on it is countable from the repo. Three rules hold it together:
   figures, for that reason: a hand-made image would be a second copy, and a card
   that disagrees with the page it links to is worse than no card. It rasterises
   SVG through `sharp` and is bound by the font rules for build-time rasterisers
-  under "The palette comes from the podcast cover" below.
+  under "Palette and type" below.
   `src/lib/partner-card.test.ts` measures ink in the rendered PNG rather than
   trusting the SVG string.
 
 The page is Indonesian-only by decision; do not add an English version or a
 language switcher.
 
-## The palette comes from the podcast cover
+## Palette and type
 
-`src/styles/global.css` is the only place a colour is decided. Every token there
-is either sampled from `public/podcast-cover.jpg` or a lightness step along a
-sampled hue, and `DESIGN.md` explains which is which and what each one is for.
-Two guards keep it honest, and both assert rules rather than today's values:
-`src/styles/contrast.test.ts` (the WCAG floors each pairing was chosen to clear)
-and `src/styles/palette-literals.test.ts` (no source file writes a literal from
-the retired pre-cover palette).
+`src/styles/global.css` is the only place a colour or a font is decided, and
+`DESIGN.md` explains what each token is for. Blue (the podcast cover's band,
+darkened) is interactive; orange (the title strip on every episode thumbnail) is
+decorative.
 
-Three surfaces cannot read that stylesheet and therefore restate the tokens by
-hand — `public/offline.html` (served by the service worker without the Astro
-bundle), `public/favicon.svg` and `src/lib/partner-card.ts` (librsvg has no
-stylesheet). Move a token and you must move it in those too; the literals test
-catches only the retired values, not drift in the new ones.
+There are two schemes, a light paper and the cover navy. The site follows the
+system and a footer toggle pins the other one; `docs/adr/002-color-scheme.md`
+records the decision and the mechanism. A token that differs has its two values
+once, as `--light-<name>` and `--dark-<name>`, and `<meta name="color-scheme">`
+carries the state. The inline script in the `<head>` of `Layout.astro` re-applies a pinned
+scheme on `astro:before-swap`, because the router swaps in a head with the
+default meta. Two guards keep it honest, and both assert
+rules rather than today's values: `src/styles/contrast.test.ts` (the WCAG floors
+each pairing was chosen to clear, run in both schemes) and `src/styles/palette-literals.test.ts` (no
+source file writes a literal from the retired pre-cover palette).
+
+The site ships one font file, `public/fonts/archivo-latin-wdth.woff2`, declared
+in `global.css` and preloaded by `Layout.astro`. The `.display` class is the
+wide, heavy masthead voice; use it for page-level headings, not body copy.
+
+Four surfaces cannot read that stylesheet and therefore restate the tokens by
+hand: `public/offline.html` (served by the service worker without the Astro
+bundle), `public/favicon.svg`, `src/lib/partner-card.ts` (librsvg has no
+stylesheet) and the cache names in `public/sw.js`, which must be bumped when a
+precached file changes. Move a token and you must move it in those too; the
+literals test catches only the retired values, not drift in the new ones.
 
 `src/lib/palette.ts` is the way out of that, and anything new that draws at build
 time should use it instead of adding a fourth copy: it parses the `@theme` block
@@ -391,12 +404,18 @@ is Helvetica on a Mac and DejaVu Sans, roughly a tenth wider, on the build agent
 fitting to metrics. The clearance guards in `src/lib/og-card.test.ts` are what
 catch an overflow, because CI runs the unit tests on Linux.
 
-Two traps this repaint hit:
+Three traps the repaints hit:
 
-- **The sampled accents are too light to sit under text.** The cover blue
-  measures 3.2:1 under white. Filled controls use the darkened `-strong` pair;
-  the bare token is for icons, tints and borders, and `-text` is for type. This
-  is the split the previous palette got wrong on every primary button.
+- **Type on a fixed fill takes a fixed token, never `text-ink`.** Ink flips with
+  the scheme; `accent-strong`, `on-accent`, `on-accent-muted` and
+  `highlight-strong` do not. Filled controls are
+  `bg-accent-strong text-on-accent hover:bg-accent-hover`, and the white button
+  on the homepage cover is `bg-on-accent text-accent-strong`. The contrast test
+  asserts both pairings. Check any new surface in both schemes.
+- **Orange never sits under type, and type never takes bare `highlight`.** The
+  sampled value is 1.9:1 on the light ground. Use `highlight` for rules and
+  fills without text, `highlight-text` for type and `highlight-strong` under
+  white.
 - **Never select an element by a colour utility class in a test.** Two e2e
   assertions used `p.text-gray-400` to find an episode's date and went red on a
   repaint that had nothing to do with what they were checking. Use a
@@ -415,6 +434,22 @@ both directions:
 - `buildEpisodePageTitle()` for `<title>` and the social tags, which must keep
   the show name. Appending it unconditionally is how most episode pages came to
   ship `X - Ngobrolin WEB - Ngobrolin WEB`.
+
+## Episode page: transcript search and the pinned bar
+
+`src/lib/transcript-view.ts` owns how a transcript is shown: repeated cues are
+dropped, cues are grouped per minute, and search matches from the start of a
+word (the `ai` inside *mulai* trap from the tag matcher applies here too). The
+inline script in `Transcript.astro` cannot import that module, so it gets the
+boundary pattern through `data-term-boundary` and restates `findMentions()`;
+`e2e/episode.spec.ts` asserts that an offered term's count equals the results
+its click returns, which is what keeps the two copies in step.
+
+A timecode clicked with less than half the player on screen plays the audio in
+the bar pinned to the top (`EpisodeMedia.astro`) and must not move the page or
+change the stored video/audio preference. Episodes without audio fall back to
+scrolling up to the video; the newest episodes are usually in that state until
+their mp3 is uploaded.
 
 ## Podcast audio pipeline
 

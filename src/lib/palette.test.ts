@@ -17,8 +17,8 @@ describe('getPalette', () => {
     // there. Asserting the literal values instead would freeze the palette and
     // go red on a repaint that behaved correctly.
     for (const [name, value] of Object.entries(palette)) {
-      expect(GLOBAL_CSS, `--color-${name} is not declared in global.css`).toContain(
-        `--color-${name}: ${value}`
+      expect(GLOBAL_CSS, `--color-${name} is not declared in global.css`).toMatch(
+        new RegExp(`--(color|light)-${name}: ${value}`)
       );
     }
   });

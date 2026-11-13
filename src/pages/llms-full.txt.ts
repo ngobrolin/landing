@@ -1,6 +1,6 @@
 import type { APIContext } from 'astro';
 import { getEpisodes } from '../lib/episodes';
-import { getSummary } from '../lib/seo';
+import { episodeUrl, getSummary } from '../lib/seo';
 
 export async function GET(context: APIContext) {
   const episodes = getEpisodes();
@@ -23,7 +23,7 @@ export async function GET(context: APIContext) {
     lines.push(`## EP ${episode.episodeNumber}: ${episode.title}`);
     lines.push('');
     lines.push(`- Published: ${new Date(episode.publishedAt).toISOString().split('T')[0]}`);
-    lines.push(`- URL: ${siteUrl}/episodes/${episode.slug}`);
+    lines.push(`- URL: ${episodeUrl(siteUrl, episode.slug)}`);
     lines.push(`- YouTube: https://www.youtube.com/watch?v=${episode.videoId}`);
 
     const summary = getSummary(episode.videoId);

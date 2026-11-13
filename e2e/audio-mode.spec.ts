@@ -265,8 +265,9 @@ test.describe('Audio-only mode', () => {
     await page.goto(pathOf(withAudio!));
     await modeToggle(page).getByRole('button', { name: 'Audio saja' }).click();
 
+    await page.locator('#transcript-details > summary').click();
     const stamp = page
-      .locator('.timestamp-seek-btn')
+      .locator('#transcript-details .timestamp-seek-btn')
       .filter({ has: page.locator('xpath=self::*[number(@data-seek-time) > 5 and number(@data-seek-time) < 100]') })
       .first();
     const seconds = Number(await stamp.getAttribute('data-seek-time'));
@@ -278,6 +279,90 @@ test.describe('Audio-only mode', () => {
       .poll(async () => (await audioState(page)).currentTime)
       .toBeGreaterThanOrEqual(seconds - 1);
     await expect(page.locator('lite-youtube')).not.toHaveClass(/lyt-activated/);
+  });
+
+  /** Opens the full transcript and returns a timecode the two-minute stub can reach. */
+  async function earlyStamp(page: Page) {
+    await page.locator('#transcript-details > summary').click();
+    const stamp = page
+      .locator('#transcript-details .timestamp-seek-btn')
+      .filter({ has: page.locator('xpath=self::*[number(@data-seek-time) > 5 and number(@data-seek-time) < 100]') })
+      .first();
+    await stamp.scrollIntoViewIfNeeded();
+    return stamp;
+  }
+
+  test('a timecode clicked below the player plays in the pinned bar and keeps the page still', async ({ page }) => {
+    await stubAudio(page);
+    await page.goto(pathOf(withAudio!));
+
+    const stamp = await earlyStamp(page);
+    await expect(page.getByTestId('video-player')).not.toBeInViewport();
+    const seconds = Number(await stamp.getAttribute('data-seek-time'));
+    const top = async () => Math.round((await stamp.boundingBox())!.y);
+    const before = await top();
+    await stamp.click();
+
+    const bar = page.getByTestId('pinned-player');
+    await expect(bar).toBeVisible();
+    await expect.poll(async () => (await audioState(page)).paused).toBe(false);
+    await expect.poll(async () => (await audioState(page)).currentTime).toBeGreaterThanOrEqual(seconds - 1);
+    await expect(page.locator('lite-youtube')).not.toHaveClass(/lyt-activated/);
+    // The player above changes height when audio takes over; the line the reader clicked must not move.
+    await expect.poll(top).toBeGreaterThanOrEqual(before - 2);
+    expect(await top()).toBeLessThanOrEqual(before + 2);
+    // Audio took over for this visit; the reader never chose it.
+    expect(await page.evaluate((key) => window.localStorage.getItem(key), MODE_KEY)).toBeNull();
+
+    await bar.getByRole('button', { name: 'Jeda audio' }).click();
+    await expect.poll(async () => (await audioState(page)).paused).toBe(true);
+  });
+
+  test('the pinned bar leads back to the player and then gets out of the way', async ({ page }) => {
+    await stubAudio(page);
+    await page.goto(pathOf(withAudio!));
+
+    await (await earlyStamp(page)).click();
+    const bar = page.getByTestId('pinned-player');
+    await expect(bar).toBeVisible();
+
+    await bar.getByRole('button', { name: 'Ke pemutar' }).click();
+    await expect(page.getByTestId('audio-player')).toBeInViewport();
+    await expect(bar).toBeHidden();
+  });
+
+  test('a failed load from the pinned bar brings the reader back to the notice', async ({ page }) => {
+    await stubAudio(page, 'fail');
+    await page.goto(pathOf(withAudio!));
+
+    await (await earlyStamp(page)).click();
+
+    await expect(page.getByTestId('media-notice')).toContainText('Audio gagal dimuat');
+    await expect(page.getByTestId('media-notice')).toBeInViewport();
+    await expect(page.getByTestId('pinned-player')).toBeHidden();
+    await expect(page.locator('lite-youtube')).toBeVisible();
+  });
+
+  test('the pinned bar does not follow the reader to the next episode', async ({ page }) => {
+    await stubAudio(page);
+    await page.goto(pathOf(withAudio!));
+
+    await (await earlyStamp(page)).click();
+    await expect(page.getByTestId('pinned-player')).toBeVisible();
+
+    await page.getByTestId('related-episode').first().click();
+    await expect(page).not.toHaveURL(new RegExp(`${resolveSlug(withAudio!)}/?$`));
+    await expect(page.getByTestId('pinned-player')).toBeHidden();
+  });
+
+  test('an episode without audio still scrolls a timecode up to the video', async ({ page }) => {
+    test.skip(!withoutAudio || !TRANSCRIPT_IDS.has(withoutAudio.videoId), 'every episode has audio');
+    await page.goto(pathOf(withoutAudio!));
+
+    await page.locator('[data-transcript-jump] .timestamp-seek-btn').first().click();
+    await expect(page.locator('lite-youtube')).toHaveAttribute('params', /autoplay=1&start=0$/);
+    await expect(page.locator('lite-youtube')).toBeInViewport();
+    await expect(page.getByTestId('pinned-player')).toHaveCount(0);
   });
 
   test('falls back to the video when the audio fails to load', async ({ page }) => {

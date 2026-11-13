@@ -1,12 +1,77 @@
 import type { Episode } from './episodes';
+import { buildEpisodePageTitle, getDisplayTitle } from './episode-title';
+
+/** Canonical episode URL. Pages are served with a trailing slash, so anything else 308s. */
+export function episodeUrl(siteUrl: string, slug: string): string {
+  return `${siteUrl.replace(/\/$/, '')}/episodes/${slug}/`;
+}
 
 interface Summary {
   brief: string;
   keyPoints: string[];
+  seoTitle?: string;
+  metaDescription?: string;
 }
 
 interface Transcript {
   fullText: string;
+}
+
+const SITE_DESCRIPTION = 'Video podcast seputar web development dalam Bahasa Indonesia';
+
+interface PageGraphInput {
+  siteUrl: string;
+  pageUrl: string;
+  title: string;
+  description: string;
+  image: string;
+}
+
+/** The Organization, WebSite and WebPage nodes every page carries; other schemas extend them by @id. */
+export function buildSiteGraph({ siteUrl, pageUrl, title, description, image }: PageGraphInput) {
+  return {
+    '@context': 'https://schema.org',
+    '@graph': [
+      {
+        '@type': 'Organization',
+        '@id': `${siteUrl}/#organization`,
+        name: 'Ngobrolin WEB',
+        url: `${siteUrl}/`,
+        // Square and raster: Google wants a logo of at least 112x112, not the 1200x630 share card.
+        logo: { '@type': 'ImageObject', url: `${siteUrl}/podcast-cover.jpg`, width: 3000, height: 3000 },
+        sameAs: [
+          'https://www.youtube.com/@RizaFahmi',
+          'https://open.spotify.com/show/1o2d75xrADb9x0AahDO0Ai',
+          'https://github.com/orgs/ngobrolin/discussions'
+        ]
+      },
+      {
+        '@type': 'WebSite',
+        '@id': `${siteUrl}/#website`,
+        url: `${siteUrl}/`,
+        name: 'Ngobrolin WEB',
+        // Fixed on purpose: the page's own description belongs on WebPage, not on the site.
+        description: SITE_DESCRIPTION,
+        publisher: { '@id': `${siteUrl}/#organization` },
+        inLanguage: 'id-ID',
+        potentialAction: {
+          '@type': 'SearchAction',
+          target: `${siteUrl}/episodes/?q={search_term_string}`,
+          'query-input': 'required name=search_term_string'
+        }
+      },
+      {
+        '@type': 'WebPage',
+        '@id': `${pageUrl}#webpage`,
+        url: pageUrl,
+        name: title,
+        description,
+        isPartOf: { '@id': `${siteUrl}/#website` },
+        inLanguage: 'id-ID',
+        primaryImageOfPage: { '@type': 'ImageObject', url: image }
+      }
+    ]
+  };
 }
 
 export function getSummary(videoId: string): Summary | null {
@@ -39,17 +104,26 @@ export function getTranscript(videoId: string): Transcript | null {
 // too without importing this module. Re-exported for existing callers.
 export { SITE_NAME, buildEpisodePageTitle, getDisplayTitle } from './episode-title';
 
+/** The episode's hand-written <title> when its summary has one, else the composed one. */
+export function getEpisodePageTitle(episode: Episode, summary: Summary | null): string {
+  return summary?.seoTitle ?? buildEpisodePageTitle(episode.title);
+}
+
+const META_DESCRIPTION_MAX = 160;
+
+/** Cuts on a word boundary so a search snippet never ends mid-word. */
+function truncateDescription(text: string): string {
+  if (text.length <= META_DESCRIPTION_MAX) return text;
+  const room = text.slice(0, META_DESCRIPTION_MAX - 3);
+  const lastSpace = room.lastIndexOf(' ');
+  const cut = lastSpace > 0 ? room.slice(0, lastSpace) : room;
+  return `${cut.replace(/[\s,;:.\-–—]+$/, '')}...`;
+}
+
 export function getMetaDescription(episode: Episode, summary: Summary | null): string {
-  if (summary?.brief) {
-    // Use first paragraph of summary, truncated to ~160 chars
-    const firstParagraph = summary.brief.split('\n')[0];
-    return firstParagraph.length > 160 
-      ? firstParagraph.slice(0, 157) + '...'
-      : firstParagraph;
-  }
-  // Fallback to episode description, truncated
-  const desc = episode.description.replace(/\n/g, ' ');
-  return desc.length > 160 ? desc.slice(0, 157) + '...' : desc;
+  if (summary?.metaDescription) return summary.metaDescription;
+  if (summary?.brief) return truncateDescription(summary.brief.split('\n')[0]);
+  return truncateDescription(episode.description.replace(/\n/g, ' '));
 }
 
 export function generateVideoSchema(
@@ -58,23 +132,17 @@ export function generateVideoSchema(
   transcript: Transcript | null,
   siteUrl: string
 ) {
+  // No contentUrl: Google reads it as the media file, and a YouTube watch page is not one.
   const schema: Record<string, unknown> = {
     '@context': 'https://schema.org',
     '@type': 'VideoObject',
+    '@id': `${episodeUrl(siteUrl, episode.slug)}#video`,
     name: episode.title,
     description: summary?.brief || episode.description,
     thumbnailUrl: episode.thumbnail,
     uploadDate: episode.publishedAt,
     embedUrl: `https://www.youtube.com/embed/${episode.videoId}`,
-    contentUrl: `https://www.youtube.com/watch?v=${episode.videoId}`,
-    publisher: {
-      '@type': 'Organization',
-      name: 'Ngobrolin WEB',
-      logo: {
-        '@type': 'ImageObject',
-        url: `${siteUrl}/favicon.svg`
-      }
-    }
+    publisher: { '@id': `${siteUrl}/#organization` }
   };
 
   // Add duration if available
@@ -82,9 +150,8 @@ export function generateVideoSchema(
     schema.duration = episode.duration;
   }
 
-  if (transcript?.fullText) {
-    schema.transcript = transcript.fullText;
-  }
+  // The transcript stays in the visible page only; inlining it here added 50-60 KB per episode.
+  void transcript;
 
   return schema;
 }
@@ -100,20 +167,20 @@ export function generateBreadcrumbSchema(
       {
         '@type': 'ListItem',
         position: 1,
-        name: 'Home',
-        item: siteUrl
+        name: 'Beranda',
+        item: `${siteUrl}/`
       },
       {
         '@type': 'ListItem',
         position: 2,
-        name: 'Episodes',
-        item: `${siteUrl}/episodes`
+        name: 'Episode',
+        item: `${siteUrl}/episodes/`
       },
       {
         '@type': 'ListItem',
         position: 3,
-        name: `EP ${episode.episodeNumber}`,
-        item: `${siteUrl}/episodes/${episode.slug}`
+        name: getDisplayTitle(episode.title),
+        item: episodeUrl(siteUrl, episode.slug)
       }
     ]
   };
@@ -131,20 +198,15 @@ export function generatePodcastEpisodeSchema(
     description: summary?.brief || episode.description,
     datePublished: episode.publishedAt,
     episodeNumber: episode.episodeNumber,
-    url: `${siteUrl}/episodes/${episode.slug}`,
-    associatedMedia: {
-      '@type': 'VideoObject',
-      name: episode.title,
-      description: summary?.brief || episode.description,
-      thumbnailUrl: episode.thumbnail,
-      uploadDate: episode.publishedAt,
-      embedUrl: `https://www.youtube.com/embed/${episode.videoId}`,
-      contentUrl: `https://www.youtube.com/watch?v=${episode.videoId}`
-    },
+    url: episodeUrl(siteUrl, episode.slug),
+    // Points at the VideoObject emitted beside it, so the page declares one video, not two.
+    associatedMedia: { '@id': `${episodeUrl(siteUrl, episode.slug)}#video` },
+    // Named inline as well: the full #podcast node is only emitted on the homepage.
     partOfSeries: {
       '@type': 'PodcastSeries',
+      '@id': `${siteUrl}/#podcast`,
       name: 'Ngobrolin WEB',
-      url: siteUrl
+      url: `${siteUrl}/`
     }
   };
 }
@@ -153,29 +215,14 @@ export function generateHomepageSchema(siteUrl: string, episodeCount: number) {
   return {
     '@context': 'https://schema.org',
     '@graph': [
-      {
-        '@type': 'WebSite',
-        'name': 'Ngobrolin WEB',
-        'url': siteUrl,
-        'description': 'Video podcast seputar web development dalam Bahasa Indonesia',
-        'inLanguage': 'id-ID',
-        'potentialAction': {
-          '@type': 'SearchAction',
-          'target': `${siteUrl}/episodes?q={search_term_string}`,
-          'query-input': 'required name=search_term_string'
-        }
-      },
+      // Same @id as buildSiteGraph's Organization, so this extends that node instead of
+      // declaring a second, conflicting organisation.
       {
         '@type': 'Organization',
+        '@id': `${siteUrl}/#organization`,
         'name': 'Ngobrolin WEB',
-        'url': siteUrl,
-        'logo': `${siteUrl}/favicon.svg`,
+        'url': `${siteUrl}/`,
         'description': 'Video podcast mingguan seputar web development dalam Bahasa Indonesia',
-        'sameAs': [
-          'https://www.youtube.com/@RizaFahmi',
-          'https://x.com/search?q=%23ngobrolinweb&f=live',
-          'https://github.com/ngobrolin'
-        ],
         'founder': [
           {
             '@type': 'Person',
@@ -196,10 +243,12 @@ export function generateHomepageSchema(siteUrl: string, episodeCount: number) {
       },
       {
         '@type': 'PodcastSeries',
+        '@id': `${siteUrl}/#podcast`,
         'name': 'Ngobrolin WEB',
-        'description': 'Video podcast seputar web development dalam Bahasa Indonesia',
-        'url': siteUrl,
-        'webFeed': `${siteUrl}/rss.xml`,
+        'description': SITE_DESCRIPTION,
+        'url': `${siteUrl}/`,
+        'webFeed': `${siteUrl}/podcast-rss.xml`,
+        'publisher': { '@id': `${siteUrl}/#organization` },
         'numberOfEpisodes': episodeCount,
         'inLanguage': 'id-ID'
       }
@@ -213,10 +262,10 @@ export function generateAboutPageSchema(siteUrl: string) {
     '@type': 'AboutPage',
     'mainEntity': {
       '@type': 'Organization',
+      '@id': `${siteUrl}/#organization`,
       'name': 'Ngobrolin WEB',
       'description': 'Video podcast mingguan yang membahas berbagai topik seputar web development dalam Bahasa Indonesia',
-      'url': siteUrl,
-      'logo': `${siteUrl}/favicon.svg`,
+      'url': `${siteUrl}/`,
       'foundingDate': '2019',
       'founder': [
         {
@@ -250,7 +299,7 @@ export function generateCollectionPageSchema(
     '@type': 'CollectionPage',
     'name': name,
     'description': description,
-    'url': url,
+    'url': url.endsWith('/') ? url : `${url}/`,
     'mainEntity': {
       '@type': 'ItemList',
       'numberOfItems': items.length,
@@ -260,7 +309,9 @@ export function generateCollectionPageSchema(
         'item': {
           '@type': 'PodcastEpisode',
           'name': item.title,
-          'url': `${url}/${item.slug}`
+          // Episodes live at /episodes/<slug>/ whatever the collection; deriving from `url`
+          // published /episodes/<year>/<slug> on year pages, which 404s.
+          'url': episodeUrl(new URL(url).origin, item.slug)
         }
       }))
     }

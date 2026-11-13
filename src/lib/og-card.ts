@@ -113,7 +113,7 @@ function text(content: string, opts: TextOptions): string {
  */
 function castText(content: string, opts: TextOptions, offset = 8): string {
   return (
-    text(content, { ...opts, x: opts.x + offset, y: opts.y + offset, fill: token('surface') }) +
+    text(content, { ...opts, x: opts.x + offset, y: opts.y + offset, fill: token('accent-strong') }) +
     text(content, opts)
   );
 }
@@ -126,11 +126,11 @@ export function buildOgCardSvg(): string {
   return [
     `<svg xmlns="http://www.w3.org/2000/svg" width="${OG_CARD_WIDTH}" height="${OG_CARD_HEIGHT}" viewBox="0 0 ${OG_CARD_WIDTH} ${OG_CARD_HEIGHT}">`,
 
-    // The cover's framing: blue and purple as hard vertical bands either side
-    // of the navy panel the wordmark sits on. Not a gradient - DESIGN.md is
-    // explicit that they are bands, whatever they look like at thumbnail size.
+    // The cover's framing in the site's colours: blue and orange as hard
+    // vertical bands either side of the navy panel the wordmark sits on. The
+    // navy is the ink token, which is the cover's own panel colour.
     `<rect x="0" y="0" width="${band}" height="${OG_CARD_HEIGHT}" fill="${token('accent')}"/>`,
-    `<rect x="${band}" y="0" width="${stage}" height="${OG_CARD_HEIGHT}" fill="${token('surface-raised')}"/>`,
+    `<rect x="${band}" y="0" width="${stage}" height="${OG_CARD_HEIGHT}" fill="${token('ink')}"/>`,
     `<rect x="${OG_CARD_WIDTH - band}" y="0" width="${band}" height="${OG_CARD_HEIGHT}" fill="${token('highlight')}"/>`,
 
     // The cover's own underlined eyebrow. It is the one element that tells a
@@ -195,7 +195,7 @@ export function buildOgLogoSvg(): string {
   return [
     `<svg xmlns="http://www.w3.org/2000/svg" width="${OG_LOGO_SIZE}" height="${OG_LOGO_SIZE}" viewBox="0 0 ${OG_LOGO_SIZE} ${OG_LOGO_SIZE}">`,
     `<rect x="0" y="0" width="${third}" height="${OG_LOGO_SIZE}" fill="${token('accent')}"/>`,
-    `<rect x="${third}" y="0" width="${third}" height="${OG_LOGO_SIZE}" fill="${token('surface-raised')}"/>`,
+    `<rect x="${third}" y="0" width="${third}" height="${OG_LOGO_SIZE}" fill="${token('ink')}"/>`,
     `<rect x="${third * 2}" y="0" width="${third}" height="${OG_LOGO_SIZE}" fill="${token('highlight')}"/>`,
     castText(
       'NGOBROLIN',

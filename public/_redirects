@@ -1,0 +1,8 @@
+# Episode URLs that were indexed under an older slug. Slugs are frozen now (see AGENTS.md),
+# so this list only grows when a published address is deliberately retired.
+/episodes/Tkh8-LleLws-agentic-coding-tools-ngobrolin-web /episodes/Tkh8-LleLws-alat-pengkodean-agen-ngobrolin-web/ 301
+/episodes/Tkh8-LleLws-agentic-coding-tools-ngobrolin-web/ /episodes/Tkh8-LleLws-alat-pengkodean-agen-ngobrolin-web/ 301
+
+# Googlebot probes the conventional sitemap names and got 404s; the real index is sitemap-index.xml.
+/sitemap.xml /sitemap-index.xml 301
+/sitemap_index.xml /sitemap-index.xml 301

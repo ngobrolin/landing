@@ -10,5 +10,7 @@
     "Buat eval untuk skill buatan sendiri dengan membandingkan hasil dengan dan tanpa skill; kalau hasilnya mirip, skill itu tidak perlu dipertahankan.",
     "Workflow grill me, spec, review spec oleh agent lain, lalu eksekusi multi-agent bisa berjalan semalaman, tetapi acceptance test dan polishing tetap dilakukan manusia.",
     "Amp menawarkan Orbs, runner di mesin sendiri, komunikasi antar agent dan penyimpanan secret yang tidak bisa dibaca model; untuk Claude Code, 1Password CLI dengan service account bisa menutup celah yang sama."
-  ]
+  ],
+  "seoTitle": "Coding Harness untuk Claude Code dan Codex | Ngobrolin WEB",
+  "metaDescription": "Riza dan Ivan berbagi workflow coding harness di Claude Code dan Codex: mengapa skill berlebih merugikan, eval skill, dan demo Amp bersama Mas Zain."
 }

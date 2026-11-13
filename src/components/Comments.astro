@@ -13,7 +13,7 @@ interface Props {}
       rel="noopener noreferrer"
       class="text-xs sm:text-sm text-ink-muted hover:text-accent-text transition flex items-center gap-1"
     >
-      Buka di GitHub Discussions →
+      Buka di GitHub Discussions
     </a>
   </div>
   <div id="comments-wrapper" class="min-h-[100px] relative">
@@ -41,6 +41,22 @@ interface Props {}
     const stateKey = "__ngobrolinCommentsState";
     const state = window[stateKey] || { lastUrl: "", listenerAttached: false };
     window[stateKey] = state;
+
+    // The widget's own "preferred-color-scheme" theme follows the OS and ignores a pinned scheme.
+    function widgetTheme() {
+      const scheme =
+        window.__colorScheme ||
+        (window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+      return scheme === "dark" ? "github-dark" : "github-light";
+    }
+
+    function syncWidgetTheme() {
+      const frame = document.querySelector("iframe.utterances-frame");
+      frame?.contentWindow?.postMessage(
+        { type: "set-theme", theme: widgetTheme() },
+        "https://utteranc.es"
+      );
+    }
 
     function loadUtterances(retryCount = 0) {
       // Clear any existing utterances script and widget to ensure fresh load
@@ -91,7 +107,7 @@ interface Props {}
       utterancesScript.setAttribute("repo", "ngobrolin/landing");
       utterancesScript.setAttribute("issue-term", "title");
       utterancesScript.setAttribute("label", "comment");
-      utterancesScript.setAttribute("theme", "preferred-color-scheme");
+      utterancesScript.setAttribute("theme", widgetTheme());
 
       commentsWrapper.appendChild(utterancesScript);
     }
@@ -107,6 +123,10 @@ interface Props {}
 
     if (!state.listenerAttached) {
       document.addEventListener("astro:page-load", maybeLoadUtterances);
+      document.addEventListener("colorschemechange", syncWidgetTheme);
+      window
+        .matchMedia("(prefers-color-scheme: dark)")
+        .addEventListener("change", syncWidgetTheme);
       state.listenerAttached = true;
     }
 

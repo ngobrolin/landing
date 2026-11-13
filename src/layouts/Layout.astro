@@ -4,11 +4,13 @@ import { ClientRouter } from "astro:transitions";
 import Analytics from "../components/Analytics.astro";
 import ScrollButtons from "../components/ScrollButtons.astro";
 import OfflineBadgeRuntime from "../components/OfflineBadgeRuntime.astro";
+import { token } from "../lib/palette";
 import {
   OG_CARD_HEIGHT,
   OG_CARD_WIDTH,
   OG_IMAGE_PATH,
 } from "../lib/og-card-geometry";
+import { buildSiteGraph } from "../lib/seo";
 
 interface Props {
   title: string;
@@ -17,6 +19,10 @@ interface Props {
   preloadImage?: string;
   omitCanonical?: boolean;
   ogType?: string;
+  /** The homepage has no title of its own, so the wordmark is its h1. */
+  brandAsHeading?: boolean;
+  /** Drops the gap above the footer for a page that ends on a full-width band. */
+  flushFooter?: boolean;
 }
 
 const {
@@ -25,6 +31,8 @@ const {
   image = OG_IMAGE_PATH,
   preloadImage,
   omitCanonical = false,
+  brandAsHeading = false,
+  flushFooter = false,
   ogType = "website",
 } = Astro.props;
 
@@ -56,51 +64,14 @@ const currentMarker = (href: string): "page" | "true" | undefined => {
   if (href !== "/" && path.startsWith(`${href}/`)) return "true";
   return undefined;
 };
-const jsonLd = {
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "Organization",
-      "@id": `${siteUrl}/#organization`,
-      name: "Ngobrolin WEB",
-      url: siteUrl,
-      logo: {
-        "@type": "ImageObject",
-        url: new URL(OG_IMAGE_PATH, site).toString(),
-      },
-      sameAs: [
-        "https://www.youtube.com/@RizaFahmi",
-        "https://open.spotify.com/show/1o2d75xrADb9x0AahDO0Ai",
-        "https://github.com/orgs/ngobrolin/discussions",
-        "https://x.com/search?q=%23ngobrolinweb&f=live",
-      ],
-    },
-    {
-      "@type": "WebSite",
-      "@id": `${siteUrl}/#website`,
-      url: siteUrl,
-      name: "Ngobrolin WEB",
-      description,
-      publisher: { "@id": `${siteUrl}/#organization` },
-      inLanguage: "id-ID",
-      potentialAction: {
-        "@type": "SearchAction",
-        target: `${siteUrl}/episodes/?q={search_term_string}`,
-        "query-input": "required name=search_term_string",
-      },
-    },
-    {
-      "@type": "WebPage",
-      "@id": `${canonicalURL.toString()}#webpage`,
-      url: canonicalURL.toString(),
-      name: title,
-      description,
-      isPartOf: { "@id": `${siteUrl}/#website` },
-      inLanguage: "id-ID",
-      primaryImageOfPage: { "@type": "ImageObject", url: absoluteImage },
-    },
-  ],
-};
+const jsonLd = buildSiteGraph({
+  siteUrl,
+  pageUrl: canonicalURL.toString(),
+  title,
+  description,
+  image: absoluteImage,
+});
+const BrandTag = brandAsHeading ? 'h1' : 'p';
 ---
 
 <!doctype html>
@@ -108,6 +79,45 @@ const jsonLd = {
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta name="color-scheme" content="light dark" />
+    <meta name="theme-color" data-scheme="light" data-color={token('surface')} content={token('surface')} media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" data-scheme="dark" data-color={token('surface', 'dark')} content={token('surface', 'dark')} media="(prefers-color-scheme: dark)" />
+    <!-- Before first paint, and on every router swap, because the incoming head arrives with the default meta. -->
+    <script is:inline>
+      (function () {
+        var KEY = "color-scheme";
+        function read() {
+          try {
+            var value = localStorage.getItem(KEY);
+            return value === "light" || value === "dark" ? value : null;
+          } catch (e) {
+            return null;
+          }
+        }
+        function apply(doc) {
+          var pinned = window.__colorScheme;
+          var meta = doc.querySelector('meta[name="color-scheme"]');
+          if (meta) meta.content = pinned || "light dark";
+          doc.querySelectorAll('meta[name="theme-color"]').forEach(function (el) {
+            var source = pinned ? doc.querySelector('meta[name="theme-color"][data-scheme="' + pinned + '"]') : el;
+            el.content = (source || el).dataset.color;
+          });
+        }
+        window.__colorScheme = read();
+        window.__applyColorScheme = apply;
+        apply(document);
+        document.addEventListener("astro:before-swap", function (event) {
+          apply(event.newDocument);
+        });
+        window.addEventListener("storage", function (event) {
+          if (event.key !== KEY) return;
+          window.__colorScheme = read();
+          apply(document);
+          document.dispatchEvent(new CustomEvent("colorschemechange"));
+        });
+      })();
+    </script>
 
     <!-- Performance -->
     {
@@ -120,6 +130,14 @@ const jsonLd = {
         />
       )
     }
+
+    <link
+      rel="preload"
+      as="font"
+      type="font/woff2"
+      href="/fonts/archivo-latin-wdth.woff2"
+      crossorigin
+    />
 
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="generator" content={Astro.generator} />
@@ -182,7 +200,7 @@ const jsonLd = {
   }],
   "prerender": [{
     "source": "list",
-    "urls": ["/episodes"]
+    "urls": ["/episodes/"]
   }]
 }
 </script>
@@ -261,30 +279,32 @@ const jsonLd = {
       <nav
         class="container mx-auto px-4 py-4 flex items-center justify-between"
       >
-        <a
-          href="/"
-          class="text-xl font-bold text-ink hover:text-accent-text transition"
-          aria-current={currentMarker("/")}
-        >
-          Ngobrolin WEB
-        </a>
+        <BrandTag class="display text-2xl lg:text-3xl leading-none whitespace-nowrap">
+          <a
+            href="/"
+            class="text-ink hover:text-accent-text transition"
+            aria-current={currentMarker("/")}
+          >
+            Ngobrolin WEB
+          </a>
+        </BrandTag>
 
         <!-- Desktop Navigation -->
         <div class="hidden md:flex items-center gap-6">
           <a
-            href="/episodes"
+            href="/episodes/"
             class="text-ink-body hover:text-ink transition"
             aria-current={currentMarker("/episodes")}
             >Episode</a
           >
           <a
-            href="/tags"
+            href="/tags/"
             class="text-ink-body hover:text-ink transition"
             aria-current={currentMarker("/tags")}
             >Topik</a
           >
           <a
-            href="/partners"
+            href="/partners/"
             class="text-ink-body hover:text-ink transition"
             aria-current={currentMarker("/partners")}
             >Partner</a
@@ -301,14 +321,14 @@ const jsonLd = {
             })}>Diskusi</a
           >
           <a
-            href="/about"
+            href="/about/"
             class="text-ink-body hover:text-ink transition"
             aria-current={currentMarker("/about")}
             >Tentang</a
           >
           <a
-            href="/subscribe"
-            class="bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded-lg text-sm font-medium transition"
+            href="/subscribe/"
+            class="bg-accent-strong hover:bg-accent-hover text-on-accent px-4 py-2 rounded-lg text-sm font-medium transition"
             aria-current={currentMarker("/subscribe")}
             data-analytics-event="cta_click"
             data-analytics-props={JSON.stringify({
@@ -323,10 +343,11 @@ const jsonLd = {
         <!-- Mobile Menu Button -->
         <button
           type="button"
-          class="md:hidden p-2 text-ink-body hover:text-ink transition"
+          class="md:hidden p-2.5 -mr-2.5 text-ink-body hover:text-ink transition"
           id="mobile-menu-btn"
           aria-label="Buka menu"
           aria-expanded="false"
+          aria-controls="mobile-menu"
         >
           <svg
             class="w-6 h-6 menu-icon"
@@ -362,25 +383,25 @@ const jsonLd = {
       >
         <div class="container mx-auto px-4 py-4 flex flex-col gap-4">
           <a
-            href="/episodes"
-            class="text-ink-body hover:text-ink transition py-2"
+            href="/episodes/"
+            class="text-ink-body hover:text-ink transition py-2.5"
             aria-current={currentMarker("/episodes")}>Episode</a
           >
           <a
-            href="/tags"
-            class="text-ink-body hover:text-ink transition py-2"
+            href="/tags/"
+            class="text-ink-body hover:text-ink transition py-2.5"
             aria-current={currentMarker("/tags")}>Topik</a
           >
           <a
-            href="/partners"
-            class="text-ink-body hover:text-ink transition py-2"
+            href="/partners/"
+            class="text-ink-body hover:text-ink transition py-2.5"
             aria-current={currentMarker("/partners")}>Partner</a
           >
           <a
             href="https://github.com/orgs/ngobrolin/discussions"
             target="_blank"
             rel="noopener noreferrer"
-            class="text-ink-body hover:text-ink transition py-2"
+            class="text-ink-body hover:text-ink transition py-2.5"
             data-analytics-event="outbound_click"
             data-analytics-props={JSON.stringify({
               dest: "github_discussions",
@@ -388,13 +409,13 @@ const jsonLd = {
             })}>Diskusi</a
           >
           <a
-            href="/about"
-            class="text-ink-body hover:text-ink transition py-2"
+            href="/about/"
+            class="text-ink-body hover:text-ink transition py-2.5"
             aria-current={currentMarker("/about")}>Tentang</a
           >
           <a
-            href="/subscribe"
-            class="bg-red-600 hover:bg-red-700 text-white px-4 py-3 rounded-lg text-sm font-medium transition text-center mt-2"
+            href="/subscribe/"
+            class="bg-accent-strong hover:bg-accent-hover text-on-accent px-4 py-3 rounded-lg text-sm font-medium transition text-center mt-2"
             aria-current={currentMarker("/subscribe")}
             data-analytics-event="cta_click"
             data-analytics-props={JSON.stringify({
@@ -419,7 +440,7 @@ const jsonLd = {
       <slot />
     </main>
 
-    <footer class="border-t border-surface-border mt-16">
+    <footer class:list={['border-t border-surface-border', !flushFooter && 'mt-16']}>
       <div class="container mx-auto px-4 py-8">
         <div
           class="flex flex-col md:flex-row justify-between items-center gap-4"
@@ -428,7 +449,27 @@ const jsonLd = {
             © {new Date().getFullYear()} Ngobrolin WEB. Hadir setiap Selasa 20:00
             WIB.
           </p>
-          <div class="flex items-center gap-4">
+          <div class="flex flex-wrap items-center justify-center gap-x-4 gap-y-2">
+            <button
+              type="button"
+              data-theme-toggle
+              data-testid="theme-toggle"
+              class="text-ink-muted hover:text-ink transition min-h-11 cursor-pointer"
+            >
+              <span data-theme-option="dark" class="items-center gap-1">
+                <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"></path>
+                </svg>
+                Ganti ke tema gelap
+              </span>
+              <span data-theme-option="light" class="items-center gap-1">
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" viewBox="0 0 24 24" aria-hidden="true">
+                  <circle cx="12" cy="12" r="4"></circle>
+                  <path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"></path>
+                </svg>
+                Ganti ke tema terang
+              </span>
+            </button>
             <a
               href="https://github.com/ngobrolin/landing"
               target="_blank"
@@ -491,7 +532,7 @@ const jsonLd = {
             </a>
             <a
               href="/podcast-rss.xml"
-              class="text-ink-muted hover:text-orange-500 transition flex items-center gap-1"
+              class="text-ink-muted hover:text-highlight-text transition flex items-center gap-1"
               title="Podcast RSS Feed"
             >
               <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
@@ -515,6 +556,30 @@ const jsonLd = {
     <!-- Offline badge runtime: one copy per page, not one per card -->
     <OfflineBadgeRuntime />
 
+    <script is:inline data-astro-rerun>
+      (function initThemeToggle() {
+        if (window.__themeToggleInit) return;
+        const KEY = "color-scheme";
+        const system = () =>
+          window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+
+        document.addEventListener("click", (event) => {
+          if (!event.target.closest?.("[data-theme-toggle]")) return;
+          const target = (window.__colorScheme || system()) === "dark" ? "light" : "dark";
+          // Choosing what the system already shows is an undo, so it unpins instead of pinning.
+          const pinned = target === system() ? null : target;
+          try {
+            if (pinned) localStorage.setItem(KEY, pinned);
+            else localStorage.removeItem(KEY);
+          } catch {}
+          window.__colorScheme = pinned;
+          window.__applyColorScheme(document);
+          document.dispatchEvent(new CustomEvent("colorschemechange"));
+        });
+        window.__themeToggleInit = true;
+      })();
+    </script>
+
     <!-- Mobile Menu Toggle Script -->
     <script is:inline data-astro-rerun>
       (function initMobileMenu() {
@@ -529,23 +594,34 @@ const jsonLd = {
         if (menuBtn.hasAttribute("data-menu-initialized")) return;
         menuBtn.setAttribute("data-menu-initialized", "true");
 
-        menuBtn.addEventListener("click", () => {
-          const isOpen = mobileMenu?.classList.toggle("hidden") === false;
-
+        const setOpen = (isOpen) => {
+          mobileMenu.classList.toggle("hidden", !isOpen);
           menuIcon?.classList.toggle("hidden", isOpen);
           closeIcon?.classList.toggle("hidden", !isOpen);
-          menuBtn?.setAttribute("aria-expanded", String(isOpen));
+          menuBtn.setAttribute("aria-expanded", String(isOpen));
+          menuBtn.setAttribute("aria-label", isOpen ? "Tutup menu" : "Buka menu");
+        };
+
+        menuBtn.addEventListener("click", () => {
+          setOpen(mobileMenu.classList.contains("hidden"));
         });
 
-        // Close menu when clicking a link
-        mobileMenu?.querySelectorAll("a").forEach((link) => {
-          link.addEventListener("click", () => {
-            mobileMenu.classList.add("hidden");
-            menuIcon?.classList.remove("hidden");
-            closeIcon?.classList.add("hidden");
-            menuBtn?.setAttribute("aria-expanded", "false");
-          });
+        mobileMenu.querySelectorAll("a").forEach((link) => {
+          link.addEventListener("click", () => setOpen(false));
         });
+
+        // On document because Safari does not focus a tapped button; flagged on
+        // window because the router rewrites <html> attributes on every swap.
+        if (window.__menuEscapeInit) return;
+        document.addEventListener("keydown", (e) => {
+          if (e.key !== "Escape") return;
+          const btn = document.getElementById("mobile-menu-btn");
+          const menu = document.getElementById("mobile-menu");
+          if (!btn || !menu || menu.classList.contains("hidden")) return;
+          btn.click();
+          btn.focus();
+        });
+        window.__menuEscapeInit = true;
       })();
     </script>
 

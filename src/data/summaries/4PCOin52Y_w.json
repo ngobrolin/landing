@@ -10,5 +10,7 @@
     "Migrasi blog Adam Argyle dari Deno Fresh ke Astro di Cloudflare menunjukkan komponen Preact bisa dibawa tanpa ditulis ulang, tetapi secret di dashboard Deno harus dibuat ulang.",
     "Untuk aplikasi bertrafik besar, biaya Cloudflare berbayar perlu dibandingkan dengan biaya tim yang harus menangani firewall, bot protection dan patch server sendiri di VPS.",
     "Penilaian bahwa Google tertinggal di LLM sering datang dari sudut pandang coding; Gemini kuat di produk konsumen, model suara dan riset terapan DeepMind."
-  ]
+  ],
+  "seoTitle": "Deno ke Cloudflare: Nasib Deno Deploy & JSR | Ngobrolin WEB",
+  "metaDescription": "Tim Deno bergabung dengan Cloudflare. Para host membahas nasib Deno Deploy, runtime Deno dan JSR, migrasi Fresh ke Astro, serta Cloudflare versus VPS."
 }

@@ -60,7 +60,7 @@ Current functional surfaces:
 
 Hard constraints:
 
-- Palette tokens in `src/styles/global.css` are sampled directly from `public/podcast-cover.jpg`. Dark ground (`#0e1122`), card step (`#191d3a`), Cover Blue (`#4c6fff`), Cover Purple (`#9048e0`), Platform Red (`#ff0033`).
+- Palette tokens live only in `src/styles/global.css`. The site has a light and a dark scheme, follows the system preference by default, and has a footer toggle to pin one (`docs/adr/002-color-scheme.md`). The blue comes from `public/podcast-cover.jpg`, the orange from the episode thumbnails, and the dark ground is the cover navy (`#0e1122`).
 - Indonesian-only user interface copy (`<html lang="id">`).
 - Slugs are stored in `episodes.json` and never re-derived dynamically from titles.
 - Sync pipeline guards prevent silent episode drops or shrunken record counts.

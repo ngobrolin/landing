@@ -40,8 +40,10 @@ YouTube video ID, and `Summary.astro` finds the file by that name alone.
 | `generatedAt` | ISO 8601 UTC timestamp of when you wrote the summary, e.g. `2026-10-26T16:24:06Z`. |
 | `brief` | 2-3 paragraphs separated by a blank line (`\n\n`). The page renders the line breaks as written. |
 | `keyPoints` | 5-7 non-empty strings: the main topics and takeaways. |
+| `seoTitle` | Optional. The page `<title>` and share title. See "Search title and description". |
+| `metaDescription` | Optional. The page meta description. Same section. |
 
-No other field is read. No template leftover may survive: `{videoId}`-style
+No other field is read. Add the two optional fields after `keyPoints`. No template leftover may survive: `{videoId}`-style
 placeholders, `TODO`, `TBD`, `FIXME` or `lorem ipsum` fail the check.
 
 The shape, with the real episode `Nq3uKguMNCA` as the ID:
@@ -81,6 +83,23 @@ For a finished example of the target quality, read
   Some older summaries stay deliberately vague; that style is not the target.
 - A few older files have 8-12 key points or no `videoId`. They are frozen in
   `src/data/summaries.test.ts`. Do not copy their shape.
+
+### Search title and description
+
+Both fields are optional and replace what the page would otherwise compose:
+the episode title plus the show name, and the brief's first paragraph cut to
+fit. Ground them only in the same file's `brief` and `keyPoints` and the
+episode title.
+
+- `seoTitle`: 45-60 characters, ending in ` | Ngobrolin WEB`. The words people
+  search for come first (keep English tech terms such as MCP, Vite or Laracon),
+  then the angle this episode takes, then the show name. Unique across all
+  summaries. No year unless the episode is about that year, no hype words
+  (ultimate, lengkap, terbaik, rahasia), no emoji, no exclamation mark.
+- `metaDescription`: 120-155 characters, one or two plain sentences that lead
+  with who discusses what. Never open with "Episode ini" or "Di episode ini".
+  End on a full word and a period, never `...`.
+- Neither may contain an en or em dash. Count characters with a script, not by eye.
 
 ## Transcript provenance and limits
 

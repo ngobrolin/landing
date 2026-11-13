@@ -39,7 +39,7 @@ test('GitHub footer link exists and navigates correctly', async ({ page }) => {
   await expect(icon, 'GitHub link should have an icon').toBeVisible();
 
   // Navigate away to trigger view transition
-  await page.click('a[href="/about"]');
+  await page.click('a[href="/about/"]');
   await expect(page).toHaveURL(/\/about/);
 
   // Navigate back to home

@@ -32,6 +32,12 @@ interface Summary {
 // Cache summaries at module load time for performance
 const _summariesCache = import.meta.glob('../data/summaries/*.json', { eager: true });
 
+export function getKeyPoints(videoId: string): string[] {
+  const key = `../data/summaries/${videoId}.json`;
+  const module = _summariesCache[key] as { default: Summary } | undefined;
+  return module?.default.keyPoints ?? [];
+}
+
 export function getBrief(videoId: string): string | undefined {
   const key = `../data/summaries/${videoId}.json`;
   const module = _summariesCache[key] as { default: Summary } | undefined;
