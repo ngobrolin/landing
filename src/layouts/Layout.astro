@@ -20,6 +20,8 @@ interface Props {
   ogType?: string;
   /** The homepage has no title of its own, so the wordmark is its h1. */
   brandAsHeading?: boolean;
+  /** Drops the gap above the footer for a page that ends on a full-width band. */
+  flushFooter?: boolean;
 }
 
 const {
@@ -29,6 +31,7 @@ const {
   preloadImage,
   omitCanonical = false,
   brandAsHeading = false,
+  flushFooter = false,
   ogType = "website",
 } = Astro.props;
 
@@ -474,7 +477,7 @@ const BrandTag = brandAsHeading ? 'h1' : 'p';
       <slot />
     </main>
 
-    <footer class="border-t border-surface-border mt-16">
+    <footer class:list={['border-t border-surface-border', !flushFooter && 'mt-16']}>
       <div class="container mx-auto px-4 py-8">
         <div
           class="flex flex-col md:flex-row justify-between items-center gap-4"
