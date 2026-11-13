@@ -15,6 +15,63 @@ interface Transcript {
   fullText: string;
 }
 
+const SITE_DESCRIPTION = 'Video podcast seputar web development dalam Bahasa Indonesia';
+
+interface PageGraphInput {
+  siteUrl: string;
+  pageUrl: string;
+  title: string;
+  description: string;
+  image: string;
+}
+
+/** The Organization, WebSite and WebPage nodes every page carries; other schemas extend them by @id. */
+export function buildSiteGraph({ siteUrl, pageUrl, title, description, image }: PageGraphInput) {
+  return {
+    '@context': 'https://schema.org',
+    '@graph': [
+      {
+        '@type': 'Organization',
+        '@id': `${siteUrl}/#organization`,
+        name: 'Ngobrolin WEB',
+        url: `${siteUrl}/`,
+        // Square and raster: Google wants a logo of at least 112x112, not the 1200x630 share card.
+        logo: { '@type': 'ImageObject', url: `${siteUrl}/podcast-cover.jpg`, width: 3000, height: 3000 },
+        sameAs: [
+          'https://www.youtube.com/@RizaFahmi',
+          'https://open.spotify.com/show/1o2d75xrADb9x0AahDO0Ai',
+          'https://github.com/orgs/ngobrolin/discussions'
+        ]
+      },
+      {
+        '@type': 'WebSite',
+        '@id': `${siteUrl}/#website`,
+        url: `${siteUrl}/`,
+        name: 'Ngobrolin WEB',
+        // Fixed on purpose: the page's own description belongs on WebPage, not on the site.
+        description: SITE_DESCRIPTION,
+        publisher: { '@id': `${siteUrl}/#organization` },
+        inLanguage: 'id-ID',
+        potentialAction: {
+          '@type': 'SearchAction',
+          target: `${siteUrl}/episodes/?q={search_term_string}`,
+          'query-input': 'required name=search_term_string'
+        }
+      },
+      {
+        '@type': 'WebPage',
+        '@id': `${pageUrl}#webpage`,
+        url: pageUrl,
+        name: title,
+        description,
+        isPartOf: { '@id': `${siteUrl}/#website` },
+        inLanguage: 'id-ID',
+        primaryImageOfPage: { '@type': 'ImageObject', url: image }
+      }
+    ]
+  };
+}
+
 export function getSummary(videoId: string): Summary | null {
   try {
     const summaries = import.meta.glob('../data/summaries/*.json', { eager: true });
@@ -147,13 +204,13 @@ export function generateHomepageSchema(siteUrl: string, episodeCount: number) {
   return {
     '@context': 'https://schema.org',
     '@graph': [
-      // Same @ids as the site graph in Layout.astro, so these extend those nodes instead of
-      // declaring a second, conflicting site and organisation.
+      // Same @id as buildSiteGraph's Organization, so this extends that node instead of
+      // declaring a second, conflicting organisation.
       {
         '@type': 'Organization',
         '@id': `${siteUrl}/#organization`,
         'name': 'Ngobrolin WEB',
-        'url': siteUrl,
+        'url': `${siteUrl}/`,
         'description': 'Video podcast mingguan seputar web development dalam Bahasa Indonesia',
         'founder': [
           {
@@ -177,8 +234,8 @@ export function generateHomepageSchema(siteUrl: string, episodeCount: number) {
         '@type': 'PodcastSeries',
         '@id': `${siteUrl}/#podcast`,
         'name': 'Ngobrolin WEB',
-        'description': 'Video podcast seputar web development dalam Bahasa Indonesia',
-        'url': siteUrl,
+        'description': SITE_DESCRIPTION,
+        'url': `${siteUrl}/`,
         'webFeed': `${siteUrl}/podcast-rss.xml`,
         'publisher': { '@id': `${siteUrl}/#organization` },
         'numberOfEpisodes': episodeCount,
@@ -194,10 +251,10 @@ export function generateAboutPageSchema(siteUrl: string) {
     '@type': 'AboutPage',
     'mainEntity': {
       '@type': 'Organization',
+      '@id': `${siteUrl}/#organization`,
       'name': 'Ngobrolin WEB',
       'description': 'Video podcast mingguan yang membahas berbagai topik seputar web development dalam Bahasa Indonesia',
-      'url': siteUrl,
-      'logo': `${siteUrl}/favicon.svg`,
+      'url': `${siteUrl}/`,
       'foundingDate': '2019',
       'founder': [
         {
