@@ -1,4 +1,4 @@
-import { getAvailableYears, getEpisodes, getYearCount } from './episodes';
+import { getAvailableYears, getEpisodes, getYearCount, type Episode } from './episodes';
 import { getAllTagsWithCounts } from './tags';
 
 /**
@@ -81,4 +81,23 @@ export function getTopTags(limit: number): Array<{ tag: string; count: number }>
   return getAllTagsWithCounts()
     .filter(({ count }) => count > 0)
     .slice(0, limit);
+}
+
+const WEEK_MS = 7 * 24 * 60 * 60 * 1000;
+
+/**
+ * Older episodes for the homepage to link, a different run each week.
+ * "Older" is anything before last calendar year, so the rule never needs a date typed into it.
+ */
+export function getArchivePicks(count: number, now: Date = new Date()): Episode[] {
+  const cutoffYear = now.getUTCFullYear() - 1;
+  const older = getEpisodes().filter(
+    (episode) => new Date(episode.publishedAt).getUTCFullYear() < cutoffYear
+  );
+  if (older.length <= count) return older;
+
+  // Stepping by `count` each week walks the whole back catalogue before repeating.
+  const week = Math.floor(now.getTime() / WEEK_MS);
+  const start = (week * count) % older.length;
+  return Array.from({ length: count }, (_, i) => older[(start + i) % older.length]);
 }

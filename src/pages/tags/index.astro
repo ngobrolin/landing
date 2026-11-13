@@ -30,7 +30,7 @@ const uniqueTags = tags.length;
       <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
         {tags.map(({ tag, count }) => (
           <a
-            href={`/tags/${tag}`}
+            href={`/tags/${tag}/`}
             class="block p-4 bg-surface-raised border border-surface-border rounded-lg hover:border-accent/50 transition group"
           >
             <div class="text-ink font-medium group-hover:text-accent-text transition mb-1">

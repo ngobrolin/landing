@@ -38,7 +38,7 @@ test.describe('SEO - JSON-LD Schema', () => {
   test('episode page should have JSON-LD with duration', async ({ page }) => {
     // Navigate to homepage first to get an episode link
     await page.goto('/');
-    const firstEpisodeLink = await page.locator('a[href^="/episodes/"]').first();
+    const firstEpisodeLink = await page.locator('a[href^="/episodes/"]:not([href="/episodes/"])').first();
     const href = await firstEpisodeLink.getAttribute('href');
 
     if (!href) {

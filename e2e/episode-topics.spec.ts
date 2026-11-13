@@ -51,7 +51,7 @@ test.describe('Episode topics', () => {
     expect(await topicLinks.count()).toBeGreaterThan(1);
 
     for (const link of await topicLinks.all()) {
-      await expect(link).toHaveAttribute('href', /^\/tags\/[a-z0-9-]+$/);
+      await expect(link).toHaveAttribute('href', /^\/tags\/[a-z0-9-]+\/$/);
     }
   });
 

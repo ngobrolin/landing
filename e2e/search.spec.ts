@@ -136,7 +136,7 @@ test.describe('Episode search', () => {
     page.on('pageerror', (e) => errors.push(String(e)));
 
     await page.goto('/');
-    await page.locator('nav a[href="/episodes"]').first().click();
+    await page.locator('nav a[href="/episodes/"]').first().click();
     await expect(page).toHaveURL(/\/episodes\/?$/);
 
     const cards = page.locator('#episodes-grid > a:visible');
@@ -326,7 +326,7 @@ test.describe('Out-of-line search index', () => {
 
     await page.locator('header a[href="/"]').first().click();
     await expect(page).toHaveURL(/\/$/);
-    await page.locator('nav a[href="/episodes"]').first().click();
+    await page.locator('nav a[href="/episodes/"]').first().click();
     await expect(page).toHaveURL(/\/episodes\/?$/);
 
     await page.fill('#search-input', 'astro');
