@@ -11,5 +11,7 @@
     "Opcode cache di PHP menyimpan kompilasi kode di memori untuk menghindari kompilasi ulang, membuat eksekusi PHP 8 jauh lebih cepat",
     "Memoization di React (useMemo) adalah bentuk caching frontend yang mengingat hasil komputasi berdasarkan input untuk mencegah re-render yang tidak perlu",
     "Denormalisasi di dunia kerja sering lebih dipilih daripada normalisasi murni karena storage sekarang lebih murah dan performa lebih prioritas"
-  ]
+  ],
+  "seoTitle": "Caching Web: Browser, CDN, Redis, Database | Ngobrolin WEB",
+  "metaDescription": "Caching berlapis dari DNS, browser, CDN, web server sampai database, plus Redis, stale-while-revalidate, cache invalidation, opcode cache PHP, dan useMemo."
 }

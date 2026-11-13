@@ -1,5 +1,5 @@
 import type { Episode } from './episodes';
-import { getDisplayTitle } from './episode-title';
+import { buildEpisodePageTitle, getDisplayTitle } from './episode-title';
 
 /** Canonical episode URL. Pages are served with a trailing slash, so anything else 308s. */
 export function episodeUrl(siteUrl: string, slug: string): string {
@@ -9,6 +9,8 @@ export function episodeUrl(siteUrl: string, slug: string): string {
 interface Summary {
   brief: string;
   keyPoints: string[];
+  seoTitle?: string;
+  metaDescription?: string;
 }
 
 interface Transcript {
@@ -102,17 +104,26 @@ export function getTranscript(videoId: string): Transcript | null {
 // too without importing this module. Re-exported for existing callers.
 export { SITE_NAME, buildEpisodePageTitle, getDisplayTitle } from './episode-title';
 
+/** The episode's hand-written <title> when its summary has one, else the composed one. */
+export function getEpisodePageTitle(episode: Episode, summary: Summary | null): string {
+  return summary?.seoTitle ?? buildEpisodePageTitle(episode.title);
+}
+
+const META_DESCRIPTION_MAX = 160;
+
+/** Cuts on a word boundary so a search snippet never ends mid-word. */
+function truncateDescription(text: string): string {
+  if (text.length <= META_DESCRIPTION_MAX) return text;
+  const room = text.slice(0, META_DESCRIPTION_MAX - 3);
+  const lastSpace = room.lastIndexOf(' ');
+  const cut = lastSpace > 0 ? room.slice(0, lastSpace) : room;
+  return `${cut.replace(/[\s,;:.\-–—]+$/, '')}...`;
+}
+
 export function getMetaDescription(episode: Episode, summary: Summary | null): string {
-  if (summary?.brief) {
-    // Use first paragraph of summary, truncated to ~160 chars
-    const firstParagraph = summary.brief.split('\n')[0];
-    return firstParagraph.length > 160 
-      ? firstParagraph.slice(0, 157) + '...'
-      : firstParagraph;
-  }
-  // Fallback to episode description, truncated
-  const desc = episode.description.replace(/\n/g, ' ');
-  return desc.length > 160 ? desc.slice(0, 157) + '...' : desc;
+  if (summary?.metaDescription) return summary.metaDescription;
+  if (summary?.brief) return truncateDescription(summary.brief.split('\n')[0]);
+  return truncateDescription(episode.description.replace(/\n/g, ' '));
 }
 
 export function generateVideoSchema(
