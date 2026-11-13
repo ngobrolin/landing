@@ -10,5 +10,7 @@
     "Cognitive debt muncul ketika developer tidak lagi memahami kode hasil AI; code review, pengujian perilaku, dan pemeriksaan hasil tetap menjadi tanggung jawab manusia.",
     "Junior developer perlu kesempatan mencoba, memahami, dan belajar dari pekerjaan nyata, bukan hanya mengejar penyelesaian tiket dengan AI tanpa membangun pengalaman.",
     "Claude Code, Codex, dan workflow agent perlu disesuaikan dengan cara kerja masing-masing; peran developer tetap berpusat pada memahami masalah dan menilai ketepatan solusi."
-  ]
+  ],
+  "seoTitle": "State of Devs: Paradoks Produktivitas AI | Ngobrolin WEB",
+  "metaDescription": "Riza, Ivan, dan Eka membedah survei State of Devs: paradoks produktivitas AI, lelahnya mengawasi coding agent, cognitive debt, dan nasib junior developer."
 }
