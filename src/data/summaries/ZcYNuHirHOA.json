@@ -10,5 +10,7 @@
     "Evolusi coding assistant: dari ChatGPT (copy-paste manual) → Copilot (satu perintah sekali jalan) → Agentic AI (bisa menyelesaikan goal kompleks)",
     "Anthropic membedakan antara 'workflow' (prescriptive) dan 'agent' (autonomous) dalam kategori agentic system",
     "Tahun 2025 adalah era Agentic AI seperti yang diprediksi sebelumnya"
-  ]
+  ],
+  "seoTitle": "Agentic AI: Beda Agent dan LLM Biasa | Ngobrolin WEB",
+  "metaDescription": "Agentic AI dibanding LLM biasa: agent bekerja dalam loop dengan tools, memory, dan reasoning sampai tugas selesai, seperti Cursor, Claude Code, dan Kiro."
 }

@@ -16,6 +16,11 @@ import { fileURLToPath } from "node:url";
 import {
   KEY_POINTS_MAX,
   KEY_POINTS_MIN,
+  META_DESCRIPTION_MAX,
+  META_DESCRIPTION_MIN,
+  SEO_TITLE_MAX,
+  SEO_TITLE_MIN,
+  SEO_TITLE_SUFFIX,
   findSummaryProblems,
 } from "./summary-contract";
 
@@ -132,6 +137,11 @@ describe("summarizing-episodes skill: references", () => {
 describe("summarizing-episodes skill: one contract", () => {
   it("states the key point bounds the data guard enforces", () => {
     expect(skill).toContain(`${KEY_POINTS_MIN}-${KEY_POINTS_MAX} non-empty strings`);
+  });
+
+  it("states the seoTitle and metaDescription bounds the data guard enforces", () => {
+    expect(skill).toContain(`${SEO_TITLE_MIN}-${SEO_TITLE_MAX} characters, ending in \`${SEO_TITLE_SUFFIX}\``);
+    expect(skill).toContain(`${META_DESCRIPTION_MIN}-${META_DESCRIPTION_MAX} characters`);
   });
 
   it("shows a shape example that passes the contract for a real episode", () => {

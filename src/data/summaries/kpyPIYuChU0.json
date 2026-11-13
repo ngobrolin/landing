@@ -11,5 +11,7 @@
     "Warad menggunakan kombinasi Vue.js dan Capacitor untuk membangun aplikasi yang dapat berjalan di berbagai platform (mobile, desktop, PWA) dengan satu codebase",
     "Tantangan utama dalam ekosistem Vue adalah kompatibilitas antara Options API dan Composition API, serta ketersediaan library komponen yang lebih sedikit dibandingkan React",
     "Vue 3 akan menghadirkan fitur baru seperti Vapor mode yang berpotensi menghilangkan virtual DOM untuk performa yang lebih baik, serta dukungan View Transitions API"
-  ]
+  ],
+  "seoTitle": "Ekosistem Vue.js: Nuxt, Pinia dan Vapor Mode | Ngobrolin WEB",
+  "metaDescription": "GDE Web dari Thailand berbagi kenapa memilih Vue.js daripada React, lalu membahas Nuxt, Pinia, Capacitor, Options dan Composition API, serta Vapor mode."
 }

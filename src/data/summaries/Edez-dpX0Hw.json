@@ -10,5 +10,7 @@
     "Perintah pack membungkus aplikasi menjadi satu file executable standalone yang sudah membawa Node.js di dalamnya, sehingga pengguna tidak perlu memasang Node — hanya didukung di Node.js, tidak di Bun atau Deno",
     "Halaman troubleshooting-nya sendiri menyatakan fitur ini masih alpha meski sudah diumumkan, dan sesi percobaan memang beberapa kali error, jadi belum untuk produksi",
     "Selain product market fit ada product founder fit: produk yang punya pasar tetap berhenti kalau pembuatnya tidak menikmati mengerjakannya, dan yang menyelamatkan saat semangat turun adalah konsistensi"
-  ]
+  ],
+  "seoTitle": "Vite+: Mencoba Toolchain Lint, Test dan Pack | Ngobrolin WEB",
+  "metaDescription": "Mencoba Vite+ di terminal: lint dengan tampilan visual, test dan coverage tanpa konfigurasi, task graph monorepo, dan perintah pack. Statusnya masih alpha."
 }

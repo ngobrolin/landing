@@ -10,5 +10,7 @@
     "Demo langsung di repositori Ngobrolin WEB: agennya membaca test case dulu, mengambil panduan carousel-slide-effect dan carousel-snap-highlight, dan baru pada prompt kedua menghasilkan karusel yang tetap jalan saat JavaScript dimatikan",
     "CSS clamp(), min() dan max() memberi fluid sizing tanpa breakpoint keras — dipakai untuk mengecilkan jarak antar menu navigasi sebelum berubah jadi hamburger, dengan fluid.tw dan Utopia sebagai rujukan",
     "Peringatan keamanan: agent skill hanyalah berkas Markdown yang bisa menyuruh agen membaca .env lalu mengirimkannya ke luar, jadi baca isinya dulu sebelum menjalankan npx apa pun"
-  ]
+  ],
+  "seoTitle": "Modern Web UI dengan Agent Skill dari Chrome | Ngobrolin WEB",
+  "metaDescription": "Para host mencoba Modern Web Guidance, agent skill dari tim Chrome, untuk membuat karusel CSS tanpa JavaScript, plus soal layout shift akibat fitur LLM."
 }
