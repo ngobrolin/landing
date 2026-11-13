@@ -4,6 +4,7 @@ import tailwindcss from '@tailwindcss/vite';
 import sitemap from '@astrojs/sitemap';
 import { visualizer } from 'rollup-plugin-visualizer';
 import { getEpisodes } from './src/lib/episodes';
+import { getEpisodeLastModified } from './src/lib/episode-lastmod';
 
 // https://astro.build/config
 export default defineConfig({
@@ -46,13 +47,13 @@ export default defineConfig({
           return item;
         }
 
-        // Individual episodes - use published date
+        // Individual episodes: lastmod moves when a summary or transcript lands, so Google recrawls
         if (url.pathname.match(/^\/episodes\/[^/]+\/?$/)) {
           const slug = url.pathname.replace(/^\/episodes\//, '').replace(/\/$/, '');
           const episode = getEpisodes().find(ep => ep.slug === slug);
 
           if (episode) {
-            item.lastmod = new Date(episode.publishedAt);
+            item.lastmod = getEpisodeLastModified(episode);
             item.priority = 0.8;
             item.changefreq = 'monthly';
           }
