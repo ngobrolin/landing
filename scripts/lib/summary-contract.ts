@@ -22,11 +22,22 @@ export const KEY_POINTS_MAX = 7;
 export const PLACEHOLDER_PATTERN =
   /\{[A-Za-z_]+\}|\bTODO\b|\bTBD\b|\bFIXME\b|\blorem ipsum\b/i;
 
+// Optional search-result copy for the episode page; see SKILL.md for how to write it.
+export const SEO_TITLE_SUFFIX = " | Ngobrolin WEB";
+export const SEO_TITLE_MIN = 45;
+export const SEO_TITLE_MAX = 60;
+export const META_DESCRIPTION_MIN = 120;
+export const META_DESCRIPTION_MAX = 155;
+const STOCK_OPENING = /^(di\s+)?episode\s+ini\b/i;
+const DASH = /[\u2013\u2014]/;
+
 export interface SummaryFile {
   videoId?: string;
   generatedAt: string;
   brief: string;
   keyPoints: string[];
+  seoTitle?: string;
+  metaDescription?: string;
 }
 
 /**
@@ -79,6 +90,8 @@ export function findSummaryProblems(
     problems.push("`brief` still contains a template placeholder");
   }
 
+  problems.push(...findSeoProblems(record));
+
   if (!Array.isArray(record.keyPoints)) {
     problems.push("`keyPoints` must be an array");
     return problems;
@@ -99,6 +112,50 @@ export function findSummaryProblems(
       problems.push(`key point ${index + 1} still contains a template placeholder`);
     }
   });
+
+  return problems;
+}
+
+// Both fields are optional: absent is fine, present must be usable as-is,
+// because the page prints them with no fallback.
+function findSeoProblems(record: Record<string, unknown>): string[] {
+  const problems: string[] = [];
+  const { seoTitle, metaDescription } = record;
+
+  if (seoTitle !== undefined) {
+    if (typeof seoTitle !== "string") {
+      problems.push("`seoTitle` must be a string");
+    } else {
+      const length = [...seoTitle].length;
+      if (length < SEO_TITLE_MIN || length > SEO_TITLE_MAX) {
+        problems.push(`\`seoTitle\` is ${length} characters; it must be ${SEO_TITLE_MIN}-${SEO_TITLE_MAX}`);
+      }
+      if (!seoTitle.endsWith(SEO_TITLE_SUFFIX)) {
+        problems.push(`\`seoTitle\` must end with "${SEO_TITLE_SUFFIX}"`);
+      }
+      if (DASH.test(seoTitle)) problems.push("`seoTitle` contains an en or em dash");
+    }
+  }
+
+  if (metaDescription !== undefined) {
+    if (typeof metaDescription !== "string") {
+      problems.push("`metaDescription` must be a string");
+    } else {
+      const length = [...metaDescription].length;
+      if (length < META_DESCRIPTION_MIN || length > META_DESCRIPTION_MAX) {
+        problems.push(
+          `\`metaDescription\` is ${length} characters; it must be ${META_DESCRIPTION_MIN}-${META_DESCRIPTION_MAX}`,
+        );
+      }
+      if (STOCK_OPENING.test(metaDescription)) {
+        problems.push("`metaDescription` opens with \"Episode ini\"; lead with the subject");
+      }
+      if (/(\.\.\.|\u2026)$/.test(metaDescription)) {
+        problems.push("`metaDescription` ends in an ellipsis; finish the sentence");
+      }
+      if (DASH.test(metaDescription)) problems.push("`metaDescription` contains an en or em dash");
+    }
+  }
 
   return problems;
 }

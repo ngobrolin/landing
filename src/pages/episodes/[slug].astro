@@ -12,7 +12,7 @@ import {
     generateVideoSchema,
     generateBreadcrumbSchema,
     generatePodcastEpisodeSchema,
-    buildEpisodePageTitle,
+    getEpisodePageTitle,
     getDisplayTitle,
 } from "../../lib/seo";
 import { getRelatedEpisodes } from "../../lib/related";
@@ -83,7 +83,7 @@ const displayTitle = getDisplayTitle(episode.title);
 ---
 
 <Layout
-    title={buildEpisodePageTitle(episode.title)}
+    title={getEpisodePageTitle(episode, summary)}
     description={metaDescription}
     image={episode.thumbnail}
     preloadImage={optimizedThumbnail.src}

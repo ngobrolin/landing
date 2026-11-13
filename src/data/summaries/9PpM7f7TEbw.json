@@ -11,5 +11,7 @@
     "Higher order function adalah fungsi yang dapat menerima fungsi lain sebagai parameter atau mengembalikan fungsi, yang sangat umum digunakan dalam React components dan utility functions",
     "Ramda.js adalah utility library yang populer untuk pemrograman fungsional di JavaScript dengan fitur seperti pipe operator, auto-currying, dan mendukung tree-shaking untuk optimasi bundle size",
     "Belajar paradigma pemrograman fungsional tidak harus menggantikan OOP sepenuhnya, namun dapat memperkaya toolkit developer dan membantu memahami kode yang ditulis dengan paradigma berbeda"
-  ]
+  ],
+  "seoTitle": "Pemrograman Fungsional JS: Pure Function | Ngobrolin WEB",
+  "metaDescription": "Konsep pemrograman fungsional di JavaScript: pure function, side effect, immutability, higher order function, dan Ramda.js, berawal dari sejarah Scheme."
 }

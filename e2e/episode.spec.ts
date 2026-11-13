@@ -33,7 +33,8 @@ test.describe('Episode Page', () => {
     const firstEpisode = page.locator('[data-testid="episode-card"]').first();
     await firstEpisode.click();
     await expect(page).toHaveURL(/\/episodes\/.+/);
-    await expect(page).toHaveTitle(/- Ngobrolin WEB/);
+    // A summary's seoTitle ends " | Ngobrolin WEB"; the composed title ends " - Ngobrolin WEB".
+    await expect(page).toHaveTitle(/Ngobrolin WEB/);
   });
 
   test('episode details are shown', async ({ page }) => {

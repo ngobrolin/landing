@@ -8,7 +8,9 @@ import {
   generateBreadcrumbSchema,
   generatePodcastEpisodeSchema,
   buildSiteGraph,
-  buildEpisodePageTitle
+  buildEpisodePageTitle,
+  getEpisodePageTitle,
+  getMetaDescription
 } from './seo';
 import { getEpisodes } from './episodes';
 import type { Episode } from './episodes';
@@ -467,5 +469,55 @@ describe('buildEpisodePageTitle', () => {
     for (const ep of withoutShowName) {
       expect(buildEpisodePageTitle(ep.title)).toBe(`${ep.title.trim()} - Ngobrolin WEB`);
     }
+  });
+});
+
+describe('episode page title and meta description', () => {
+  const episode: Episode = {
+    videoId: 'abc123',
+    title: 'Modern Web UI - Ngobrolin WEB',
+    description: 'Deskripsi dari YouTube.',
+    publishedAt: '2024-01-01T00:00:00Z',
+    thumbnail: 'https://example.com/thumb.jpg',
+    slug: 'abc123-modern-web-ui-ngobrolin-web'
+  };
+  const summary = { brief: 'Ringkasan singkat.', keyPoints: [] };
+
+  it('uses seoTitle when the summary has one', () => {
+    const seoTitle = 'Merapikan UI Web Saat Fitur LLM Masuk | Ngobrolin WEB';
+    expect(getEpisodePageTitle(episode, { ...summary, seoTitle })).toBe(seoTitle);
+  });
+
+  it('falls back to the composed title without a summary or seoTitle', () => {
+    expect(getEpisodePageTitle(episode, summary)).toBe('Modern Web UI - Ngobrolin WEB');
+    expect(getEpisodePageTitle(episode, null)).toBe('Modern Web UI - Ngobrolin WEB');
+  });
+
+  it('uses metaDescription verbatim when the summary has one', () => {
+    const metaDescription = 'Riza membahas UI web yang berantakan setelah fitur LLM masuk.';
+    expect(getMetaDescription(episode, { ...summary, metaDescription })).toBe(metaDescription);
+  });
+
+  // The fallback used to slice at 157 characters, so 126 snippets ended mid-word.
+  it('never cuts the fallback mid-word', () => {
+    const words = 'pengembangan web modern dengan komponen yang aksesibel'.split(' ');
+    for (let offset = 0; offset < 40; offset++) {
+      const brief = 'x'.repeat(offset) + ' ' + Array.from({ length: 30 }, (_, i) => words[i % words.length]).join(' ');
+      for (const description of [
+        getMetaDescription(episode, { brief, keyPoints: [] }),
+        getMetaDescription({ ...episode, description: brief }, null)
+      ]) {
+        expect(description.length).toBeLessThanOrEqual(160);
+        expect(description.endsWith('...')).toBe(true);
+        const kept = description.slice(0, -3);
+        expect(brief.startsWith(kept), description).toBe(true);
+        expect(brief[kept.length], description).toMatch(/[\s,.;:]/);
+      }
+    }
+  });
+
+  it('leaves a short fallback untouched', () => {
+    expect(getMetaDescription(episode, summary)).toBe('Ringkasan singkat.');
+    expect(getMetaDescription(episode, null)).toBe('Deskripsi dari YouTube.');
   });
 });
