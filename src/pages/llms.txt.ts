@@ -8,7 +8,7 @@ export async function GET(context: APIContext) {
   const remaining = episodes.slice(10);
 
   const formatEpisode = (ep: (typeof episodes)[0]) => {
-    const line = `- [${ep.title}](${site}/episodes/${ep.slug})`;
+    const line = `- [${ep.title}](${site}/episodes/${ep.slug}/)`;
     return ep.brief ? `${line}: ${ep.brief}` : line;
   };
 
@@ -22,9 +22,9 @@ export async function GET(context: APIContext) {
     '## Pages',
     '',
     `- [Home](${site}/): Main landing page with featured and recent episodes`,
-    `- [About](${site}/about): About the podcast and hosts`,
-    `- [Episodes](${site}/episodes): Full archive of all episodes`,
-    `- [Subscribe](${site}/subscribe): Subscribe to the podcast`,
+    `- [About](${site}/about/): About the podcast and hosts`,
+    `- [Episodes](${site}/episodes/): Full archive of all episodes`,
+    `- [Subscribe](${site}/subscribe/): Subscribe to the podcast`,
     '',
     '## Feeds',
     '',
