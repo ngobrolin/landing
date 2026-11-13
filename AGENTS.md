@@ -435,6 +435,22 @@ both directions:
   the show name. Appending it unconditionally is how most episode pages came to
   ship `X - Ngobrolin WEB - Ngobrolin WEB`.
 
+## Episode page: transcript search and the pinned bar
+
+`src/lib/transcript-view.ts` owns how a transcript is shown: repeated cues are
+dropped, cues are grouped per minute, and search matches from the start of a
+word (the `ai` inside *mulai* trap from the tag matcher applies here too). The
+inline script in `Transcript.astro` cannot import that module, so it gets the
+boundary pattern through `data-term-boundary` and restates `findMentions()`;
+`e2e/episode.spec.ts` asserts that an offered term's count equals the results
+its click returns, which is what keeps the two copies in step.
+
+A timecode clicked with less than half the player on screen plays the audio in
+the bar pinned to the top (`EpisodeMedia.astro`) and must not move the page or
+change the stored video/audio preference. Episodes without audio fall back to
+scrolling up to the video; the newest episodes are usually in that state until
+their mp3 is uploaded.
+
 ## Podcast audio pipeline
 
 `/podcast-rss.xml` includes an episode **only** if `audioUrl`, `audioDuration` and
