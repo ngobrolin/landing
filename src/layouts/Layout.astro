@@ -4,6 +4,7 @@ import { ClientRouter } from "astro:transitions";
 import Analytics from "../components/Analytics.astro";
 import ScrollButtons from "../components/ScrollButtons.astro";
 import OfflineBadgeRuntime from "../components/OfflineBadgeRuntime.astro";
+import { token } from "../lib/palette";
 import {
   OG_CARD_HEIGHT,
   OG_CARD_WIDTH,
@@ -112,6 +113,45 @@ const BrandTag = brandAsHeading ? 'h1' : 'p';
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta name="color-scheme" content="light dark" />
+    <meta name="theme-color" data-scheme="light" data-color={token('surface')} content={token('surface')} media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" data-scheme="dark" data-color={token('surface', 'dark')} content={token('surface', 'dark')} media="(prefers-color-scheme: dark)" />
+    <!-- Before first paint, and on every router swap, because the incoming head arrives with the default meta. -->
+    <script is:inline>
+      (function () {
+        var KEY = "color-scheme";
+        function read() {
+          try {
+            var value = localStorage.getItem(KEY);
+            return value === "light" || value === "dark" ? value : null;
+          } catch (e) {
+            return null;
+          }
+        }
+        function apply(doc) {
+          var pinned = window.__colorScheme;
+          var meta = doc.querySelector('meta[name="color-scheme"]');
+          if (meta) meta.content = pinned || "light dark";
+          doc.querySelectorAll('meta[name="theme-color"]').forEach(function (el) {
+            var source = pinned ? doc.querySelector('meta[name="theme-color"][data-scheme="' + pinned + '"]') : el;
+            el.content = (source || el).dataset.color;
+          });
+        }
+        window.__colorScheme = read();
+        window.__applyColorScheme = apply;
+        apply(document);
+        document.addEventListener("astro:before-swap", function (event) {
+          apply(event.newDocument);
+        });
+        window.addEventListener("storage", function (event) {
+          if (event.key !== KEY) return;
+          window.__colorScheme = read();
+          apply(document);
+          document.dispatchEvent(new CustomEvent("colorschemechange"));
+        });
+      })();
+    </script>
 
     <!-- Performance -->
     {
@@ -443,7 +483,27 @@ const BrandTag = brandAsHeading ? 'h1' : 'p';
             © {new Date().getFullYear()} Ngobrolin WEB. Hadir setiap Selasa 20:00
             WIB.
           </p>
-          <div class="flex items-center gap-4">
+          <div class="flex flex-wrap items-center justify-center gap-x-4 gap-y-2">
+            <button
+              type="button"
+              data-theme-toggle
+              data-testid="theme-toggle"
+              class="text-ink-muted hover:text-ink transition min-h-11 cursor-pointer"
+            >
+              <span data-theme-option="dark" class="items-center gap-1">
+                <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"></path>
+                </svg>
+                Ganti ke tema gelap
+              </span>
+              <span data-theme-option="light" class="items-center gap-1">
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" viewBox="0 0 24 24" aria-hidden="true">
+                  <circle cx="12" cy="12" r="4"></circle>
+                  <path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"></path>
+                </svg>
+                Ganti ke tema terang
+              </span>
+            </button>
             <a
               href="https://github.com/ngobrolin/landing"
               target="_blank"
@@ -529,6 +589,30 @@ const BrandTag = brandAsHeading ? 'h1' : 'p';
 
     <!-- Offline badge runtime: one copy per page, not one per card -->
     <OfflineBadgeRuntime />
+
+    <script is:inline data-astro-rerun>
+      (function initThemeToggle() {
+        if (window.__themeToggleInit) return;
+        const KEY = "color-scheme";
+        const system = () =>
+          window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+
+        document.addEventListener("click", (event) => {
+          if (!event.target.closest?.("[data-theme-toggle]")) return;
+          const target = (window.__colorScheme || system()) === "dark" ? "light" : "dark";
+          // Choosing what the system already shows is an undo, so it unpins instead of pinning.
+          const pinned = target === system() ? null : target;
+          try {
+            if (pinned) localStorage.setItem(KEY, pinned);
+            else localStorage.removeItem(KEY);
+          } catch {}
+          window.__colorScheme = pinned;
+          window.__applyColorScheme(document);
+          document.dispatchEvent(new CustomEvent("colorschemechange"));
+        });
+        window.__themeToggleInit = true;
+      })();
+    </script>
 
     <!-- Mobile Menu Toggle Script -->
     <script is:inline data-astro-rerun>
