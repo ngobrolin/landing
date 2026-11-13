@@ -39,7 +39,7 @@ test.describe('Mobile menu', () => {
     await page.goto('/about');
     await page.evaluate(() => { (window as any).__sameDocument = true; });
     await page.locator('#mobile-menu-btn').click();
-    await page.locator('#mobile-menu a[href="/tags"]').click();
+    await page.locator('#mobile-menu a[href="/tags/"]').click();
     await expect(page).toHaveURL(/\/tags\/?$/);
     expect(await page.evaluate(() => (window as any).__sameDocument)).toBe(true);
 

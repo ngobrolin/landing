@@ -53,7 +53,7 @@ test.describe('Offline badge runtime', () => {
     page.on('pageerror', (e) => errors.push(String(e)));
 
     await page.goto('/');
-    await page.locator('nav a[href="/episodes"]').first().click();
+    await page.locator('nav a[href="/episodes/"]').first().click();
     await expect(page).toHaveURL(/\/episodes\/?$/);
     await page.waitForTimeout(500);
 

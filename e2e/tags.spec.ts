@@ -44,7 +44,7 @@ test.describe('Tags Page', () => {
     await page.goto('/tags');
 
     // Click on the first tag link
-    const firstTag = page.locator('a[href^="/tags/"]').first();
+    const firstTag = page.locator('a[href^="/tags/"]:not([href="/tags/"])').first();
     const tagText = await firstTag.locator('div').first().textContent();
     await firstTag.click();
 
