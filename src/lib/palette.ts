@@ -57,29 +57,39 @@ function findStylesheet(): string {
   );
 }
 
-/** `--color-<name>: <#hex>;` - the only shape the theme block uses. */
-const TOKEN_PATTERN = /--color-([a-z0-9-]+):\s*(#[0-9a-fA-F]{6})\s*;/g;
+export type Scheme = 'light' | 'dark';
 
-let cached: Readonly<Record<string, string>> | null = null;
+/**
+ * `--color-<name>: <#hex>;` is one value for both schemes; a token that differs
+ * is declared as `--light-<name>` and `--dark-<name>`.
+ */
+const TOKEN_PATTERN = /--(color|light|dark)-([a-z0-9-]+):\s*(#[0-9a-fA-F]{6})\s*;/g;
 
-export function getPalette(): Readonly<Record<string, string>> {
-  if (cached) return cached;
+type Palette = Readonly<Record<string, string>>;
+
+let cached: Readonly<Record<Scheme, Palette>> | null = null;
+
+/** The share cards are fixed artwork and take the default; only page chrome asks for dark. */
+export function getPalette(scheme: Scheme = 'light'): Palette {
+  if (cached) return cached[scheme];
 
   const path = findStylesheet();
-  const palette: Record<string, string> = {};
-  for (const [, name, value] of readFileSync(path, 'utf8').matchAll(TOKEN_PATTERN)) {
-    palette[name] = value.toLowerCase();
+  const light: Record<string, string> = {};
+  const dark: Record<string, string> = {};
+  for (const [, kind, name, value] of readFileSync(path, 'utf8').matchAll(TOKEN_PATTERN)) {
+    if (kind !== 'dark') light[name] = value.toLowerCase();
+    if (kind !== 'light') dark[name] = value.toLowerCase();
   }
 
-  if (Object.keys(palette).length === 0) {
+  if (Object.keys(light).length === 0) {
     throw new Error(
       `No --color-* tokens found in ${path}. ` +
         'The theme block moved or changed shape; palette.ts has to move with it.'
     );
   }
 
-  cached = Object.freeze(palette);
-  return cached;
+  cached = Object.freeze({ light: Object.freeze(light), dark: Object.freeze(dark) });
+  return cached[scheme];
 }
 
 /**
@@ -87,8 +97,8 @@ export function getPalette(): Readonly<Record<string, string>> {
  * would paint `fill="undefined"`, which librsvg treats as black - a share card
  * that ships black on black without erroring.
  */
-export function token(name: string): string {
-  const value = getPalette()[name];
+export function token(name: string, scheme: Scheme = 'light'): string {
+  const value = getPalette(scheme)[name];
   if (!value) {
     throw new Error(
       `No --color-${name} in ${STYLESHEET}. ` +
