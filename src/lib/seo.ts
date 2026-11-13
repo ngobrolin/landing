@@ -1,4 +1,10 @@
 import type { Episode } from './episodes';
+import { getDisplayTitle } from './episode-title';
+
+/** Canonical episode URL. Pages are served with a trailing slash, so anything else 308s. */
+export function episodeUrl(siteUrl: string, slug: string): string {
+  return `${siteUrl.replace(/\/$/, '')}/episodes/${slug}/`;
+}
 
 interface Summary {
   brief: string;
@@ -58,23 +64,17 @@ export function generateVideoSchema(
   transcript: Transcript | null,
   siteUrl: string
 ) {
+  // No contentUrl: Google reads it as the media file, and a YouTube watch page is not one.
   const schema: Record<string, unknown> = {
     '@context': 'https://schema.org',
     '@type': 'VideoObject',
+    '@id': `${episodeUrl(siteUrl, episode.slug)}#video`,
     name: episode.title,
     description: summary?.brief || episode.description,
     thumbnailUrl: episode.thumbnail,
     uploadDate: episode.publishedAt,
     embedUrl: `https://www.youtube.com/embed/${episode.videoId}`,
-    contentUrl: `https://www.youtube.com/watch?v=${episode.videoId}`,
-    publisher: {
-      '@type': 'Organization',
-      name: 'Ngobrolin WEB',
-      logo: {
-        '@type': 'ImageObject',
-        url: `${siteUrl}/favicon.svg`
-      }
-    }
+    publisher: { '@id': `${siteUrl}/#organization` }
   };
 
   // Add duration if available
@@ -82,9 +82,8 @@ export function generateVideoSchema(
     schema.duration = episode.duration;
   }
 
-  if (transcript?.fullText) {
-    schema.transcript = transcript.fullText;
-  }
+  // The transcript stays in the visible page only; inlining it here added 50-60 KB per episode.
+  void transcript;
 
   return schema;
 }
@@ -100,20 +99,20 @@ export function generateBreadcrumbSchema(
       {
         '@type': 'ListItem',
         position: 1,
-        name: 'Home',
-        item: siteUrl
+        name: 'Beranda',
+        item: `${siteUrl}/`
       },
       {
         '@type': 'ListItem',
         position: 2,
-        name: 'Episodes',
-        item: `${siteUrl}/episodes`
+        name: 'Episode',
+        item: `${siteUrl}/episodes/`
       },
       {
         '@type': 'ListItem',
         position: 3,
-        name: `EP ${episode.episodeNumber}`,
-        item: `${siteUrl}/episodes/${episode.slug}`
+        name: getDisplayTitle(episode.title),
+        item: episodeUrl(siteUrl, episode.slug)
       }
     ]
   };
@@ -131,20 +130,15 @@ export function generatePodcastEpisodeSchema(
     description: summary?.brief || episode.description,
     datePublished: episode.publishedAt,
     episodeNumber: episode.episodeNumber,
-    url: `${siteUrl}/episodes/${episode.slug}`,
-    associatedMedia: {
-      '@type': 'VideoObject',
-      name: episode.title,
-      description: summary?.brief || episode.description,
-      thumbnailUrl: episode.thumbnail,
-      uploadDate: episode.publishedAt,
-      embedUrl: `https://www.youtube.com/embed/${episode.videoId}`,
-      contentUrl: `https://www.youtube.com/watch?v=${episode.videoId}`
-    },
+    url: episodeUrl(siteUrl, episode.slug),
+    // Points at the VideoObject emitted beside it, so the page declares one video, not two.
+    associatedMedia: { '@id': `${episodeUrl(siteUrl, episode.slug)}#video` },
+    // Named inline as well: the full #podcast node is only emitted on the homepage.
     partOfSeries: {
       '@type': 'PodcastSeries',
+      '@id': `${siteUrl}/#podcast`,
       name: 'Ngobrolin WEB',
-      url: siteUrl
+      url: `${siteUrl}/`
     }
   };
 }
@@ -153,29 +147,14 @@ export function generateHomepageSchema(siteUrl: string, episodeCount: number) {
   return {
     '@context': 'https://schema.org',
     '@graph': [
-      {
-        '@type': 'WebSite',
-        'name': 'Ngobrolin WEB',
-        'url': siteUrl,
-        'description': 'Video podcast seputar web development dalam Bahasa Indonesia',
-        'inLanguage': 'id-ID',
-        'potentialAction': {
-          '@type': 'SearchAction',
-          'target': `${siteUrl}/episodes?q={search_term_string}`,
-          'query-input': 'required name=search_term_string'
-        }
-      },
+      // Same @ids as the site graph in Layout.astro, so these extend those nodes instead of
+      // declaring a second, conflicting site and organisation.
       {
         '@type': 'Organization',
+        '@id': `${siteUrl}/#organization`,
         'name': 'Ngobrolin WEB',
         'url': siteUrl,
-        'logo': `${siteUrl}/favicon.svg`,
         'description': 'Video podcast mingguan seputar web development dalam Bahasa Indonesia',
-        'sameAs': [
-          'https://www.youtube.com/@RizaFahmi',
-          'https://x.com/search?q=%23ngobrolinweb&f=live',
-          'https://github.com/ngobrolin'
-        ],
         'founder': [
           {
             '@type': 'Person',
@@ -196,10 +175,12 @@ export function generateHomepageSchema(siteUrl: string, episodeCount: number) {
       },
       {
         '@type': 'PodcastSeries',
+        '@id': `${siteUrl}/#podcast`,
         'name': 'Ngobrolin WEB',
         'description': 'Video podcast seputar web development dalam Bahasa Indonesia',
         'url': siteUrl,
-        'webFeed': `${siteUrl}/rss.xml`,
+        'webFeed': `${siteUrl}/podcast-rss.xml`,
+        'publisher': { '@id': `${siteUrl}/#organization` },
         'numberOfEpisodes': episodeCount,
         'inLanguage': 'id-ID'
       }
@@ -250,7 +231,7 @@ export function generateCollectionPageSchema(
     '@type': 'CollectionPage',
     'name': name,
     'description': description,
-    'url': url,
+    'url': url.endsWith('/') ? url : `${url}/`,
     'mainEntity': {
       '@type': 'ItemList',
       'numberOfItems': items.length,
@@ -260,7 +241,9 @@ export function generateCollectionPageSchema(
         'item': {
           '@type': 'PodcastEpisode',
           'name': item.title,
-          'url': `${url}/${item.slug}`
+          // Episodes live at /episodes/<slug>/ whatever the collection; deriving from `url`
+          // published /episodes/<year>/<slug> on year pages, which 404s.
+          'url': episodeUrl(new URL(url).origin, item.slug)
         }
       }))
     }
