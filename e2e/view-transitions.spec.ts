@@ -44,20 +44,20 @@ test.describe('View Transitions', () => {
     test('home to about uses fade transition', async ({ page }) => {
       await page.goto('/');
       // Use more specific selector to avoid strict mode violation
-      await page.locator('a[href="/about"]').filter({ hasText: 'Tentang' }).first().click();
-      await expect(page).toHaveURL('/about');
+      await page.locator('a[href="/about/"]').filter({ hasText: 'Tentang' }).first().click();
+      await expect(page).toHaveURL('/about/');
     });
 
     test('home to partners uses fade transition', async ({ page }) => {
       await page.goto('/');
-      await page.locator('a[href="/partners"]').filter({ hasText: 'Partner' }).first().click();
-      await expect(page).toHaveURL('/partners');
+      await page.locator('a[href="/partners/"]').filter({ hasText: 'Partner' }).first().click();
+      await expect(page).toHaveURL('/partners/');
     });
 
     test('home to subscribe uses fade transition', async ({ page }) => {
       await page.goto('/');
-      await page.locator('a[href="/subscribe"]').filter({ hasText: 'Langganan' }).first().click();
-      await expect(page).toHaveURL('/subscribe');
+      await page.locator('a[href="/subscribe/"]').filter({ hasText: 'Langganan' }).first().click();
+      await expect(page).toHaveURL('/subscribe/');
     });
   });
 

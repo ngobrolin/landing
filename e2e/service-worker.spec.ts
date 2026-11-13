@@ -32,7 +32,7 @@ test.describe('Service Worker', () => {
   test('caches visited episode pages', async ({ page }) => {
     // Visit an episode
     await page.goto('/episodes/');
-    const firstEpisodeLink = page.locator('a[href^="/episodes/"]').first();
+    const firstEpisodeLink = page.locator('a[href^="/episodes/"]:not([href="/episodes/"])').first();
     await firstEpisodeLink.click();
 
     // Wait for page load
@@ -54,7 +54,7 @@ test.describe('Service Worker', () => {
   test('serves cached content when offline', async ({ page }) => {
     // First, visit and cache an episode
     await page.goto('/episodes/');
-    const firstEpisodeLink = page.locator('a[href^="/episodes/"]').first();
+    const firstEpisodeLink = page.locator('a[href^="/episodes/"]:not([href="/episodes/"])').first();
     await firstEpisodeLink.click();
     await page.waitForLoadState('networkidle');
 
@@ -107,7 +107,7 @@ test.describe('Service Worker', () => {
   test('offline page lists cached episodes', async ({ page }) => {
     // Visit and cache an episode
     await page.goto('/episodes/');
-    const firstEpisodeLink = page.locator('a[href^="/episodes/"]').first();
+    const firstEpisodeLink = page.locator('a[href^="/episodes/"]:not([href="/episodes/"])').first();
     await firstEpisodeLink.click();
     await page.waitForLoadState('networkidle');
 
@@ -154,7 +154,7 @@ test.describe('Service Worker', () => {
     // Start at episodes list. Avoid networkidle: with an active SW,
     // background cache.put / asset fetches can prevent idle indefinitely.
     await page.goto('/episodes/');
-    const firstEpisodeLink = page.locator('a[href^="/episodes/"]').first();
+    const firstEpisodeLink = page.locator('a[href^="/episodes/"]:not([href="/episodes/"])').first();
     await expect(firstEpisodeLink).toBeVisible();
 
     // Click first episode (triggers view transition)

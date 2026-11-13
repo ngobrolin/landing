@@ -114,7 +114,7 @@ const displayTitle = getDisplayTitle(episode.title);
                         </li>
                         <li aria-hidden="true">/</li>
                         <li>
-                            <a href="/episodes" class="hover:text-ink transition">Episode</a>
+                            <a href="/episodes/" class="hover:text-ink transition">Episode</a>
                         </li>
                         <li aria-hidden="true">/</li>
                         <li class="text-ink truncate min-w-0" aria-current="page">{displayTitle}</li>
@@ -254,7 +254,7 @@ const displayTitle = getDisplayTitle(episode.title);
                                 </p>
                             </div>
                             <a
-                                href="/subscribe"
+                                href="/subscribe/"
                                 class="bg-accent-strong hover:bg-accent-hover text-on-accent px-6 py-3 rounded-lg font-medium transition whitespace-nowrap text-center"
                                 data-analytics-event="cta_click"
                                 data-analytics-props={JSON.stringify({
@@ -311,7 +311,7 @@ const displayTitle = getDisplayTitle(episode.title);
                             Diskusikan episode ini di GitHub
                         </a>
                         <a
-                            href="/partners"
+                            href="/partners/"
                             class="text-ink-muted hover:text-ink transition flex items-center gap-2"
                             data-testid="episode-partners-link"
                             data-analytics-event="cta_click"
@@ -347,7 +347,7 @@ const displayTitle = getDisplayTitle(episode.title);
                         {
                             prevEpisode ? (
                                 <a
-                                    href={`/episodes/${prevEpisode.slug}`}
+                                    href={`/episodes/${prevEpisode.slug}/`}
                                     class="p-4 bg-surface-raised border border-surface-border rounded-lg hover:border-accent/50 transition group"
                                 >
                                     <span class="text-ink-muted text-sm">Episode Sebelumnya</span>
@@ -363,7 +363,7 @@ const displayTitle = getDisplayTitle(episode.title);
                         {
                             nextEpisode ? (
                                 <a
-                                    href={`/episodes/${nextEpisode.slug}`}
+                                    href={`/episodes/${nextEpisode.slug}/`}
                                     class="p-4 bg-surface-raised border border-surface-border rounded-lg hover:border-accent/50 transition group sm:text-right"
                                 >
                                     <span class="text-ink-muted text-sm">Episode Selanjutnya</span>
