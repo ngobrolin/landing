@@ -18,14 +18,15 @@ const tags = getEpisodeTags(videoId);
 {
   tags.length > 0 && (
     <nav
-      class="flex flex-wrap items-center gap-2"
+      class="flex flex-wrap items-baseline gap-x-5 text-ink-subtle"
       aria-label={label}
       data-testid="episode-topics"
     >
+      <span aria-hidden="true">Topik</span>
       {tags.map((tag) => (
         <a
           href={`/tags/${tag}/`}
-          class="bg-surface-border text-ink-body hover:text-ink hover:bg-accent/30 border border-transparent hover:border-accent/50 px-3 py-1 rounded-full text-sm transition"
+          class="inline-flex items-center min-h-11 font-semibold text-accent-text hover:text-ink transition"
           data-analytics-event="topic_click"
           data-analytics-props={JSON.stringify({
             tag,
