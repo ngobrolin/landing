@@ -152,6 +152,15 @@ describe("optional seoTitle and metaDescription", () => {
     ).toEqual([expect.stringContaining("dash")]);
   });
 
+  it("rejects template leftovers in either field", () => {
+    expect(
+      findSummaryProblems(summary({ seoTitle: "TODO Merapikan UI Web Saat Fitur LLM | Ngobrolin WEB" }), FILE),
+    ).toEqual([expect.stringContaining("placeholder")]);
+    expect(
+      findSummaryProblems(summary({ metaDescription: metaDescription.replace("Riza", "{host}") }), FILE),
+    ).toEqual([expect.stringContaining("placeholder")]);
+  });
+
   it("rejects non-string values", () => {
     expect(findSummaryProblems(summary({ seoTitle: 1, metaDescription: [] }), FILE)).toEqual([
       "`seoTitle` must be a string",
