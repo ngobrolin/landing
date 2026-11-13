@@ -134,6 +134,7 @@ function findSeoProblems(record: Record<string, unknown>): string[] {
         problems.push(`\`seoTitle\` must end with "${SEO_TITLE_SUFFIX}"`);
       }
       if (DASH.test(seoTitle)) problems.push("`seoTitle` contains an en or em dash");
+      if (PLACEHOLDER_PATTERN.test(seoTitle)) problems.push("`seoTitle` still contains a template placeholder");
     }
   }
 
@@ -154,6 +155,9 @@ function findSeoProblems(record: Record<string, unknown>): string[] {
         problems.push("`metaDescription` ends in an ellipsis; finish the sentence");
       }
       if (DASH.test(metaDescription)) problems.push("`metaDescription` contains an en or em dash");
+      if (PLACEHOLDER_PATTERN.test(metaDescription)) {
+        problems.push("`metaDescription` still contains a template placeholder");
+      }
     }
   }
 
