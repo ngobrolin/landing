@@ -10,5 +10,7 @@
     "Coding agent kini bisa berjalan di mesin cloud yang disediakan vendor tanpa kita menyiapkan Docker atau dependensi apa pun — pola yang sama seperti GitHub Codespaces, hanya saja kini dikelola agent",
     "Nix bisa dipakai sebagai package manager sekaligus development environment dengan konfigurasi terpusat yang bisa dibawa ke mesin baru, tetapi kurva belajarnya tinggi karena memakai bahasanya sendiri",
     "Debugger dengan breakpoint lebih terstruktur daripada menyebar print statement, tetapi tetap ada kasus yang menuntut eksekusi terus berjalan — di situ print masih relevan, bukan tanda kurang mahir"
-  ]
+  ],
+  "seoTitle": "Local Development Server: XAMPP sampai DDEV | Ngobrolin WEB",
+  "metaDescription": "Membandingkan local development server untuk PHP: XAMPP, Laragon yang portable, Laravel Herd, dan DDEV berbasis Docker, sampai Nix sebagai environment."
 }
