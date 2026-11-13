@@ -1,0 +1,14 @@
+# Machine-readable copies of the episode pages. Google indexed /podcast-rss.xml and ranked
+# it above the episodes themselves; podcast apps and AI crawlers ignore X-Robots-Tag.
+/podcast-rss.xml
+  X-Robots-Tag: noindex
+/rss.xml
+  X-Robots-Tag: noindex
+/search-index.json
+  X-Robots-Tag: noindex
+/episodes/*.md
+  X-Robots-Tag: noindex
+
+# Production pages.dev mirror of ngobrol.in; Pages only noindexes preview hosts.
+https://landing-eju.pages.dev/*
+  X-Robots-Tag: noindex

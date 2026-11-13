@@ -1,6 +1,6 @@
 import type { GetStaticPaths } from 'astro';
 import { getEpisodes, type Episode } from '../../lib/episodes';
-import { getSummary, getTranscript } from '../../lib/seo';
+import { episodeUrl, getSummary, getTranscript } from '../../lib/seo';
 
 export const getStaticPaths: GetStaticPaths = () => {
   const episodes = getEpisodes();
@@ -21,7 +21,7 @@ function formatDate(dateStr: string): string {
 function buildMarkdown(episode: Episode, siteUrl: string): string {
   const summary = getSummary(episode.videoId);
   const transcript = getTranscript(episode.videoId);
-  const pageUrl = `${siteUrl}/episodes/${episode.slug}`;
+  const pageUrl = episodeUrl(siteUrl, episode.slug);
   const youtubeUrl = `https://www.youtube.com/watch?v=${episode.videoId}`;
 
   const lines: string[] = [];
