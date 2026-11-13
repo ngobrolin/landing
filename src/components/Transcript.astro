@@ -235,7 +235,12 @@ const linkClass = "font-semibold text-accent-text hover:text-ink transition curs
         const rect = media.getBoundingClientRect();
         const visible = Math.min(rect.bottom, window.innerHeight) - Math.max(rect.top, 0);
         if (visible < rect.height / 2) {
+          // Swapping video for audio changes the player's height. Not every
+          // browser anchors the scroll, so put the clicked line back itself.
+          const before = btn.getBoundingClientRect().top;
           audioPanel.dispatchEvent(new CustomEvent("ngobrolin:seek-pinned", { detail: { seconds } }));
+          const moved = btn.getBoundingClientRect().top - before;
+          if (moved !== 0) window.scrollBy(0, moved);
           return;
         }
       }
