@@ -15,54 +15,167 @@
 }
 
 /*
- * A light reading ground with the show's own two colours on it. Both come from
- * things a listener already sees: the blue is the podcast cover's band
- * (public/podcast-cover.jpg) darkened until it carries white text, and the
- * orange is the title strip on every episode thumbnail.
+ * Two grounds, one palette: a cool paper by day, the podcast cover's navy panel
+ * by night. Both of the show's colours come from things a listener already
+ * sees: the blue is the cover's band (public/podcast-cover.jpg) and the orange
+ * is the title strip on every episode thumbnail.
  *
  *   blue    = interactive (links, focus, filled buttons, active state) and the
  *             one drenched surface, the homepage cover block
  *   orange  = categorical / decorative (rules, tags, secondary emphasis)
  *
- * Orange is far too light to sit under white or to read as type on this
- * ground, so it never fills a control and its -text and -strong steps are a
- * dark amber. A filled control is always blue with --color-on-accent on top,
- * and hovers to the ink navy.
+ * A token that differs between schemes has its two values here, once, as
+ * --light-<name> and --dark-<name>. A token with a plain hex in the theme block
+ * is the same in both: a filled control is blue with --color-on-accent on top
+ * either way. Orange is too light to read on paper, so its -text step is a dark
+ * amber there and the sampled orange on navy.
  *
  * Contrast is measured, not eyeballed. src/styles/contrast.test.ts asserts the
- * WCAG AA floors these values were chosen to clear; change a value there and the
- * test tells you which pairing you broke.
+ * WCAG AA floors for both schemes; change a value and the test names the
+ * pairing and the scheme you broke. src/lib/palette.ts reads these values for
+ * the build-time share cards, which are fixed artwork on the light half.
  */
+:root {
+  --light-surface: #f1f2f6;
+  --dark-surface: #0e1122;
+  --light-surface-raised: #ffffff;
+  --dark-surface-raised: #191d3a;
+  --light-surface-overlay: #e3e6f0;
+  --dark-surface-overlay: #242b4d;
+  --light-surface-border: #c5c9d8;
+  --dark-surface-border: #333c66;
+  --light-surface-border-strong: #6a7090;
+  --dark-surface-border-strong: #6b76a8;
+  --light-ink: #14183a;
+  --dark-ink: #f2f4fd;
+  --light-ink-body: #3b4163;
+  --dark-ink-body: #c3c9e6;
+  --light-ink-muted: #4c5274;
+  --dark-ink-muted: #a8b0d2;
+  --light-ink-subtle: #575d7e;
+  --dark-ink-subtle: #8a94bd;
+  --light-accent: #3557e0;
+  --dark-accent: #6588fe;
+  --light-accent-text: #2a46c0;
+  --dark-accent-text: #86a2fe;
+  --light-accent-hover: #14183a;
+  --dark-accent-hover: #3f61ea;
+  --light-highlight-text: #8a4f00;
+  --dark-highlight-text: #f0a030;
+
+  /* Browsers without light-dark() follow the system here and cannot pin a scheme. */
+  @media (prefers-color-scheme: dark) {
+    --color-surface: var(--dark-surface);
+    --color-surface-raised: var(--dark-surface-raised);
+    --color-surface-overlay: var(--dark-surface-overlay);
+    --color-surface-border: var(--dark-surface-border);
+    --color-surface-border-strong: var(--dark-surface-border-strong);
+    --color-ink: var(--dark-ink);
+    --color-ink-body: var(--dark-ink-body);
+    --color-ink-muted: var(--dark-ink-muted);
+    --color-ink-subtle: var(--dark-ink-subtle);
+    --color-accent: var(--dark-accent);
+    --color-accent-text: var(--dark-accent-text);
+    --color-accent-hover: var(--dark-accent-hover);
+    --color-highlight-text: var(--dark-highlight-text);
+  }
+
+  @supports (color: light-dark(white, black)) {
+    --color-surface: light-dark(var(--light-surface), var(--dark-surface));
+    --color-surface-raised: light-dark(var(--light-surface-raised), var(--dark-surface-raised));
+    --color-surface-overlay: light-dark(var(--light-surface-overlay), var(--dark-surface-overlay));
+    --color-surface-border: light-dark(var(--light-surface-border), var(--dark-surface-border));
+    --color-surface-border-strong: light-dark(var(--light-surface-border-strong), var(--dark-surface-border-strong));
+    --color-ink: light-dark(var(--light-ink), var(--dark-ink));
+    --color-ink-body: light-dark(var(--light-ink-body), var(--dark-ink-body));
+    --color-ink-muted: light-dark(var(--light-ink-muted), var(--dark-ink-muted));
+    --color-ink-subtle: light-dark(var(--light-ink-subtle), var(--dark-ink-subtle));
+    --color-accent: light-dark(var(--light-accent), var(--dark-accent));
+    --color-accent-text: light-dark(var(--light-accent-text), var(--dark-accent-text));
+    --color-accent-hover: light-dark(var(--light-accent-hover), var(--dark-accent-hover));
+    --color-highlight-text: light-dark(var(--light-highlight-text), var(--dark-highlight-text));
+  }
+}
+
 @theme {
-  /* Surfaces: a cool paper, the card above it, and the step for menus and hover fills. */
-  --color-surface: #f1f2f6; /* page */
-  --color-surface-raised: #ffffff; /* cards */
-  --color-surface-overlay: #e3e6f0; /* menus, hover fills */
-  --color-surface-border: #c5c9d8;
-  --color-surface-border-strong: #6a7090; /* control outlines - 3:1 on every surface */
+  /* Surfaces: the page, the card above it, and the step for menus and hover fills. */
+  --color-surface: var(--light-surface); /* page */
+  --color-surface-raised: var(--light-surface-raised); /* cards */
+  --color-surface-overlay: var(--light-surface-overlay); /* menus, hover fills */
+  --color-surface-border: var(--light-surface-border);
+  --color-surface-border-strong: var(--light-surface-border-strong); /* control outlines - 3:1 on every surface */
 
   /* Text, in descending emphasis. Every step clears AA on every surface. */
-  --color-ink: #14183a; /* headings - the cover's navy panel */
-  --color-ink-body: #3b4163; /* body copy */
-  --color-ink-muted: #4c5274; /* secondary copy, labels */
-  --color-ink-subtle: #575d7e; /* metadata, timestamps */
+  --color-ink: var(--light-ink); /* headings */
+  --color-ink-body: var(--light-ink-body); /* body copy */
+  --color-ink-muted: var(--light-ink-muted); /* secondary copy, labels */
+  --color-ink-subtle: var(--light-ink-subtle); /* metadata, timestamps */
 
   /* Accent pair: cover blue and thumbnail orange. */
-  --color-accent: #3557e0; /* icons, tints, borders */
-  --color-accent-text: #2a46c0; /* blue as type */
+  --color-accent: var(--light-accent); /* icons, tints, borders */
+  --color-accent-text: var(--light-accent-text); /* blue as type */
   --color-accent-strong: #2f4fd0; /* filled controls and the cover block */
-  --color-accent-hover: #14183a; /* a filled control under the pointer */
+  --color-accent-hover: var(--light-accent-hover); /* a filled control under the pointer */
   --color-on-accent: #ffffff; /* type on accent-strong and accent-hover */
   --color-on-accent-muted: #dfe5ff; /* secondary type on accent-strong */
   --color-highlight: #f0a030; /* thumbnail orange, as sampled - never under type */
-  --color-highlight-text: #8a4f00; /* orange darkened until it reads as type */
+  --color-highlight-text: var(--light-highlight-text); /* orange as type */
   --color-highlight-strong: #7a4500; /* orange darkened until it carries white */
 
   --font-sans: "Archivo", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 
+/*
+ * The scheme follows the system unless the footer toggle pinned one. The toggle
+ * writes <meta name="color-scheme">, and a meta alone loses to this
+ * declaration, so the :has() rules map it back. With no script the meta stays
+ * "light dark" and the system preference wins.
+ */
+:root {
+  color-scheme: light dark;
+
+  &:has(> head > meta[name="color-scheme"][content="dark"]) {
+    color-scheme: dark;
+  }
+
+  &:has(> head > meta[name="color-scheme"][content="light"]) {
+    color-scheme: light;
+  }
+}
+
 html {
   scroll-behavior: smooth;
+}
+
+/* The toggle shows the action for the scheme it is not in; CSS picks, so it is right without script. */
+[data-theme-option="dark"] {
+  display: inline-flex;
+}
+
+[data-theme-option="light"] {
+  display: none;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not(:has(> head > meta[name="color-scheme"][content="light"])) {
+    [data-theme-option="dark"] {
+      display: none;
+    }
+
+    [data-theme-option="light"] {
+      display: inline-flex;
+    }
+  }
+}
+
+:root:has(> head > meta[name="color-scheme"][content="dark"]) {
+  [data-theme-option="dark"] {
+    display: none;
+  }
+
+  [data-theme-option="light"] {
+    display: inline-flex;
+  }
 }
 
 h1,
