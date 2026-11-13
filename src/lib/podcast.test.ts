@@ -115,6 +115,11 @@ describe("generatePodcastRssXml", () => {
     expect(xml).toContain("abc123");
   });
 
+  it("links each episode to its canonical, slash-terminated page", () => {
+    const xml = generatePodcastRssXml(mockMetadata, mockEpisodes);
+    expect(xml).toContain("<link>https://example.com/episodes/ep1-episode-1/</link>");
+  });
+
   it("escapes XML special characters in content", () => {
     const episodesWithSpecialChars: PodcastEpisode[] = [
       {

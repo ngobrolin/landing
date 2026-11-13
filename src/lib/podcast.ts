@@ -99,7 +99,7 @@ export function generatePodcastRssXml(
       <title>${escapeXml(ep.title)}</title>
       <description>${escapeXml(ep.description)}</description>
       <pubDate>${new Date(ep.publishedAt).toUTCString()}</pubDate>
-      <link>${metadata.siteUrl}/episodes/${ep.slug}</link>
+      <link>${metadata.siteUrl}/episodes/${ep.slug}/</link>
       <guid isPermaLink="false">${ep.videoId}</guid>
       <enclosure url="${ep.audioUrl}" length="${ep.audioFileSize}" type="audio/mpeg"/>
       <itunes:duration>${formatPodcastDuration(ep.audioDuration)}</itunes:duration>
