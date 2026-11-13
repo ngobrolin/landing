@@ -180,8 +180,8 @@ type, and the orange is the title strip on every episode thumbnail. Blue means
 a reader can act on something, and it owns the one drenched surface on the
 site, the homepage cover block. Orange is decoration: the 3px rules over the
 key points, icon fills, a faint tint. Purple, which the previous palette
-carried, is gone from the stylesheet. The subscribe button in the navigation
-stays YouTube red, a platform's colour quoted as a citation.
+carried, is gone from the stylesheet. The Langganan button in the navigation is a filled blue control like any
+other; YouTube red appears only where a link goes to YouTube.
 
 One typeface does everything. Archivo ships as a single self-hosted variable
 file with a width axis, and the `.display` class pushes it wide and heavy for
@@ -241,8 +241,7 @@ unless stated.
 - **Deep Amber** (`highlight-strong`): orange darkened until it carries white.
   Declared and contrast-tested; no markup uses it yet.
 - **Platform Red** (`accent-subscribe`, Tailwind's `red-600`): YouTube's
-  colour, on subscribe actions that point at YouTube and on the navigation's
-  Langganan button.
+  colour, on subscribe actions that point at YouTube and nowhere else.
 
 ### Neutral
 
