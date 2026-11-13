@@ -10,5 +10,7 @@
     "Fitur-fitur baru ini meningkatkan Developer Experience (DX) dengan mengurangi kebutuhan JavaScript untuk interaksi UI dasar",
     "Beberapa fitur sudah di-support Firefox tapi Safari masih tertinggal (belum Baseline)",
     "Google Chrome DevRel membuat CSS Wrapped sebagai program tahunan untuk highlight fitur CSS/UI baru"
-  ]
+  ],
+  "seoTitle": "CSS Wrapped 2025: Invoker Commands, Popover | Ngobrolin WEB",
+  "metaDescription": "Ivan dan Eka membahas CSS Wrapped 2025: invoker commands, dialog light dismiss, beda dialog dan popover, dan fitur UI yang mengurangi JavaScript."
 }

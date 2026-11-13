@@ -73,6 +73,19 @@ describe("summary data files", () => {
     expect(problems).toEqual([]);
   });
 
+  // Two pages sharing a <title> compete with each other in search results.
+  it("gives every seoTitle to one episode only", () => {
+    const owners = new Map<string, string[]>();
+    for (const file of files) {
+      const title = load(file).seoTitle;
+      if (typeof title !== "string") continue;
+      const key = title.trim().toLowerCase();
+      owners.set(key, [...(owners.get(key) ?? []), file]);
+    }
+    const shared = [...owners.values()].filter((names) => names.length > 1);
+    expect(shared).toEqual([]);
+  });
+
   it("keeps the grandfathered exceptions from growing", () => {
     const overlong = files.filter((file) => {
       const keyPoints = load(file).keyPoints;

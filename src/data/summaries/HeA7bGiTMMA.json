@@ -10,5 +10,7 @@
     "Junior developer disarankan mempelajari fundamental dari membuat aplikasi sampai deployment, bereksperimen, dan memahami kode hasil AI. Perusahaan juga perlu membina junior, bukan hanya merekrut senior.",
     "AI dapat membantu membaca log Cloudflare atau menjalankan deployment melalui GCloud CLI, tetapi hasil analisis tetap perlu diperiksa. Untuk membatasi risiko akses, pembawa acara menyarankan meminta panduan lalu menjalankan perintah sendiri, terutama pada lingkungan production.",
     "Jujutsu dibahas sebagai cara yang lebih mudah untuk mengedit dan memecah commit sambil tetap bekerja dengan Git dan GitHub. Diskusi multi-agent juga menyinggung keterbatasan worktree serta penggunaan containerized sandbox atau VM terpisah, termasuk Cursor Cloud Agent dan Sprite dari Fly.io."
-  ]
+  ],
+  "seoTitle": "Laracon dan Product Engineering di Era AI | Ngobrolin WEB",
+  "metaDescription": "Dari Laracon, para host membahas materi Kent C. Dodds tentang product engineering, ownership di era AI, nasib junior developer, dan Jujutsu untuk Git."
 }
