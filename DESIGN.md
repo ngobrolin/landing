@@ -94,15 +94,6 @@ components:
   button-cover-hover:
     backgroundColor: "{colors.ink}"
     textColor: "{colors.on-accent}"
-  button-cover-outline:
-    backgroundColor: "transparent"
-    textColor: "{colors.on-accent}"
-    rounded: "{rounded.md}"
-    padding: "0 1.75rem"
-    height: "3.25rem"
-  button-cover-outline-hover:
-    backgroundColor: "{colors.on-accent}"
-    textColor: "{colors.ink}"
   button-outline:
     backgroundColor: "transparent"
     textColor: "{colors.ink}"
@@ -166,12 +157,12 @@ components:
 **Creative North Star: "Edisi Mingguan"**
 
 The site is a weekly, and the homepage is this week's issue. The newest episode
-is the cover story: a blue block carrying its title in very large type, a deck,
-two actions and the thumbnail in a white frame. Everything older is back issues,
-listed as numbered rows and reached through one archive panel. Above the cover
-sits one quiet line: the tagline on the left, the issue ("Edisi 189 · 11
-November 2026") and the broadcast schedule on the right. The homepage draws no
-divider rules; sections are set apart by space and by tone.
+is the cover story: a full-width blue band carrying its title in very large
+type, a deck, one action and the thumbnail in a white frame. The band opens with
+one quiet line, the issue ("Edisi 189 · 11 November 2026") on the left and the
+broadcast schedule on the right. Everything older is back issues, listed as
+numbered rows and reached through the archive band. The homepage draws no
+divider rules and no cards: each job gets a full-width band in its own tone.
 
 There are two grounds. By day it is a cool light paper (`#f1f2f6`) with white
 cards and navy ink (`#14183a`); by night it is the podcast cover's navy
@@ -200,7 +191,7 @@ hairlines and the episode card.
 - One blue with three steps for acting, one orange that only decorates
 - A single drenched surface: the blue cover block on the homepage
 - Archivo throughout; `.display` (118% width, weight 800) as the masthead voice
-- Rules and numbered rows on the homepage, the 16:9 card grid on archive pages
+- Full-width tonal bands and numbered rows on the homepage, the 16:9 card grid on archive pages
 - Monospace for transcript timecodes and other machine-flavoured text
 
 ## Colors
@@ -254,9 +245,8 @@ removes the pin.
 ### Primary
 
 - **Cover Blue** (`accent`): icons, tints (`accent/20`), hover borders
-  (`accent/50`), avatar rings, the audio seek progress, and the faint oversized
-  episode numeral on the cover block. Transcript timecodes also use it as type,
-  at 5.9:1 on a card.
+  (`accent/50`), avatar rings and the audio seek progress. Transcript timecodes
+  also use it as type, at 5.9:1 on a card.
 - **Blue Ink** (`accent-text`): blue as type. Links, hovered headings, the row
   numerals, the `/partners` figures, the site-wide focus ring. 6.9:1 on the
   ground, 7.7:1 on a card, 6.2:1 on the overlay.
@@ -286,7 +276,7 @@ removes the pin.
 ### Neutral
 
 - **Paper** (`surface`): the page.
-- **Card** (`surface-raised`): episode cards, the archive panel, search
+- **Card** (`surface-raised`): episode cards, the homepage archive band, search
   fields, transcript and audio containers, the `/partners` stats band. 1.12:1
   against the paper, so a card on the ground needs its hairline.
 - **Overlay** (`surface-overlay`): the mobile menu, the skip link, hover fills
@@ -358,7 +348,8 @@ to 125%, about 90 KB), preloaded in `Layout.astro` with `font-display: swap`.
 - **Masthead** (800, 118% width, `-0.02em`, balanced): the same voice at
   working sizes. Wordmark `1.5rem`, `1.875rem` from `lg`. Section headings on
   the homepage and the episode page `1.25rem`, `1.5rem` from `md`. Row numerals `1.5rem`, `1.875rem`
-  from `sm`. The cover's faint numeral is `19rem`.
+  from `sm`. The homepage archive heading is larger, `1.875rem` and `2.75rem`
+  from `md`, because the archive is the page's second job.
 - **Headline** (700, `1.875rem`): inner page titles, such as "Semua Episode"
   and "Topik".
 - **Title** (700, `1.25rem`, 1.375): row titles on the homepage (`1.125rem`
@@ -394,37 +385,39 @@ durations, counts, the issue line, the audio clock) take `tabular-nums`.
 ## Layout
 
 A centred container (`container mx-auto px-4`) holds every page. The single
-exception is the homepage cover block, which runs edge to edge below `md` and
-sits inside the container from `md` up. Reading surfaces narrow further:
-`max-w-4xl` for an episode page, `max-w-2xl` for about prose, `max-w-5xl` for
-the homepage hosts section.
+exception is the homepage, whose bands run edge to edge at every width with
+the container inside each one. Reading surfaces narrow further: `max-w-4xl` for
+an episode page, `max-w-2xl` for about prose.
 
-The homepage reads top to bottom as an issue:
+The homepage reads top to bottom as an issue, in five bands:
 
-1. One line with no rules: the tagline left, and on the right the issue and
-   date at 600 in ink followed by the schedule in `ink-muted`, both `0.875rem`.
-   It wraps to stacked lines on a phone. On Tuesdays the schedule becomes a
-   livestream notice in Blue Ink with a pulsing dot (motion-safe only).
-2. The cover block, a 12-column grid from `lg`: title, deck and actions in
-   seven columns, the thumbnail and a hosts strip in five. Below `lg` the
-   thumbnail comes first and the title follows, so a phone's first viewport
-   shows the newest episode. The hosts strip and the oversized numeral appear
-   only from `lg`; the outline button appears from `sm`.
-3. "Di episode ini": up to three key points in a `1 → 3` grid at `md`, plain
-   paragraphs under the heading. The section is omitted when the episode has
-   no summary.
-4. Two columns from `lg`: "Episode Sebelumnya" as three numbered rows and
-   "Dari arsip" across seven columns, and the "Arsip" panel across four.
-5. The hosts and community section at the full grid width: three borderless
-   cards and a callout on the overlay tint.
+1. The cover, on Blue Fill. It opens with the issue and date in white 700
+   followed by the schedule in `on-accent-muted`, both `0.875rem`; on Tuesdays
+   the schedule becomes a livestream notice with a pulsing dot (motion-safe
+   only). Below that a 12-column grid from `lg`: title, deck and the action in
+   seven columns, the thumbnail in five with the hosts' faces and the tagline
+   under it. Below `lg` the thumbnail comes first and the title follows, so a
+   phone's first viewport shows the newest episode.
+2. This week, on paper. Two columns from `lg`: "Di episode ini" with up to
+   three key points in five columns, each marked by a small orange square, and
+   "Episode Sebelumnya" as three numbered rows in seven. A row's date sits
+   under its title. Without a summary the rows take the full width.
+3. The archive, on the raised tone: the large "Cari di N episode" heading, the
+   search, topics and years as two labelled rows of links, and "Dari arsip" as
+   a `1 → 2 → 3` grid of plain links.
+4. The hosts, on paper: three columns from `md`, a face beside a name, role
+   and links, with no card around them.
+5. The invitation, on the overlay tone: one question, two text links and the
+   subscribe button. The footer follows with no gap.
 
 Archive, year and topic pages keep the episode grid: `1 → 2 → 4` columns at
 `base → sm → lg` with a `1.5rem` gutter. Related episodes on a detail page use
 `1 → 2 → 3` at `base → sm → md`. The topic index is a `2 → 3 → 4 → 5` grid of small link
 panels.
 
-Vertical rhythm on the homepage is `2.5rem` to `3.5rem` between sections and
-`4rem` around the hosts section. Breakpoints are Tailwind defaults and only
+Vertical rhythm on the homepage is the band padding: `3rem`, `5rem` from `md`,
+and about half that for the invitation. Inside a band the gaps stay at
+`1.5rem` or less, so distance shows what belongs together. Breakpoints are Tailwind defaults and only
 `sm` (640px), `md` (768px) and `lg` (1024px) are used. `md` is the navigation
 breakpoint.
 
@@ -433,9 +426,11 @@ breakpoint.
 Depth is tonal and drawn with lines. The paper, the white card and the darker
 overlay tint are the three surfaces, and a hairline cuts the edge where the
 1.12:1 step between paper and card is too quiet to do it alone. The homepage
-is the exception and uses no divider rules at all: the archive panel and host
-cards are borderless raised blocks, rows are separated by space, and the only
-hairlines left are the header's and the footer's.
+is the exception and uses no divider rules and no cards: full-width bands of
+paper, the raised tone and the overlay tint do the separating, rows are set
+apart by space, and the only hairlines left are the header's and the footer's.
+In the light scheme the raised band is a soft step from the paper; it reads
+because it spans the page.
 
 Shadow exists as a response. An episode card on hover gains a soft shadow
 tinted with Cover Blue at 10%, while its border goes to `accent/50` and its
@@ -459,10 +454,10 @@ popover, modal or drawer precedent in the build.
 ## Shapes
 
 Two form languages share the site. The homepage's editorial blocks are square:
-the cover block, its framed thumbnail, the row thumbnails and the archive panel
-have no radius. Everything that is a control or a card is a soft rectangle on a
+the bands and the cover's framed thumbnail have no radius; row thumbnails take
+`0.375rem`. Everything that is a control or a card is a soft rectangle on a
 scale tied to size: `0.25rem` for badges, `0.375rem` for the controls on the
-homepage cover and archive panel and for the segments inside a toggle group,
+homepage cover and archive band and for the segments inside a toggle group,
 `0.5rem` for other buttons, fields, year tabs and icon buttons, `0.75rem` for
 episode cards and panels. Fully round is for topic chips and avatars.
 
@@ -484,8 +479,6 @@ The 16:9 thumbnail recurs at three scales: framed in white on the cover,
 - **Cover primary:** on the cover block only. White fill, ink label, weight
   700, `3.25rem` tall, `0.375rem` radius; hover swaps to ink fill and white
   label. It fills the row below `sm`.
-- **Cover outline:** transparent with a `1px` white border and white 600
-  label; hover fills white with an ink label.
 - **Outline:** transparent, Control Outline border, ink label, `0.5rem`
   radius, `0.5rem 1rem` padding; border and label go Blue Ink on hover.
 - **Subscribe:** Platform Red, white label, `0.5rem 1rem`, `0.875rem` type.
@@ -501,9 +494,9 @@ The 16:9 thumbnail recurs at three scales: framed in white on the cover,
 - **Year tab:** active is Blue Fill with a white label and
   `aria-current="page"`; idle is a card fill with a hairline border and
   `ink-muted` label, going ink with a Cover Blue border on hover.
-- **Inline index (homepage archive panel):** topics and years are set as a
-  sentence, Blue Ink 600 links separated by middle dots, with tabular counts in
-  `ink-subtle`.
+- **Inline index (homepage archive band):** topics and years are two wrapping
+  rows, each led by its label in `ink-subtle`, with Blue Ink 600 links and
+  tabular counts in `ink-subtle`. No separators; the gap does it.
 
 ### Cards / Containers
 
@@ -513,17 +506,15 @@ The 16:9 thumbnail recurs at three scales: framed in white on the cover,
   title goes Blue Ink, over 300ms. Badges sit on the thumbnail: `BARU` in Blue
   Fill top-left, episode number and duration on black at 70% along the bottom.
 - **Panel:** white with a hairline and `0.5rem` to `0.75rem` radius, for the
-  transcript, the audio player, host cards and the community callout.
-- **Archive panel (homepage):** white, square, no border, `1.5rem` to
-  `1.75rem` padding.
+  transcript and the audio player.
 
 ### Inputs / Fields
 
 - **Archive search:** card fill, `1px` Control Outline border, `0.5rem`
   radius, `0.75rem` vertical padding, `3rem` left padding for the inset
   magnifier, a mono `/` hint and a clear button at the right.
-- **Homepage search:** paper fill inside the white panel, Control Outline
-  border, `3rem` tall, `0.375rem` radius, beside a Blue Fill "Cari" button. It
+- **Homepage search:** paper fill on the raised band, Control Outline
+  border, `3.25rem` tall, `0.375rem` radius, beside a Blue Fill "Cari" button. It
   is a plain GET form to `/episodes`.
 - **Focus:** the site-wide ring plus the border going Blue Ink.
 - **Placeholder:** `ink-subtle`.
