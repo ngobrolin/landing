@@ -123,14 +123,10 @@ export function buildPartnerCardSvg(tiles: PartnerTile[]): string {
   return [
     `<svg xmlns="http://www.w3.org/2000/svg" width="${PARTNER_CARD_WIDTH}" height="${PARTNER_CARD_HEIGHT}" viewBox="0 0 ${PARTNER_CARD_WIDTH} ${PARTNER_CARD_HEIGHT}">`,
     `<rect width="${PARTNER_CARD_WIDTH}" height="${PARTNER_CARD_HEIGHT}" fill="${BACKGROUND}"/>`,
-    // The one place the site quotes the cover's own framing: the artwork sets
-    // the blue and the purple side by side as vertical bands, and this rule is
-    // the card's version of that.
-    `<defs><linearGradient id="brand-band" x1="0" y1="0" x2="0" y2="1">` +
-      `<stop offset="0%" stop-color="${ACCENT_BAND}"/>` +
-      `<stop offset="100%" stop-color="${HIGHLIGHT_BAND}"/>` +
-      `</linearGradient></defs>`,
-    `<rect x="${PARTNER_CARD_SAFE_MARGIN + 12}" y="74" width="8" height="220" rx="4" fill="url(#brand-band)"/>`,
+    // The site's two colours as hard bands, the way the share card frames its
+    // stage. Bands, not a gradient: orange and blue blend to mud.
+    `<rect x="${PARTNER_CARD_SAFE_MARGIN + 12}" y="74" width="8" height="110" fill="${ACCENT_BAND}"/>`,
+    `<rect x="${PARTNER_CARD_SAFE_MARGIN + 12}" y="184" width="8" height="110" fill="${HIGHLIGHT_BAND}"/>`,
     text('Ngobrolin WEB', {
       x: left,
       y: 122,
