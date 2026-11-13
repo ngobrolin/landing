@@ -9,6 +9,7 @@ import {
   OG_CARD_WIDTH,
   OG_IMAGE_PATH,
 } from "../lib/og-card-geometry";
+import { buildSiteGraph } from "../lib/seo";
 
 interface Props {
   title: string;
@@ -59,51 +60,13 @@ const currentMarker = (href: string): "page" | "true" | undefined => {
   if (href !== "/" && path.startsWith(`${href}/`)) return "true";
   return undefined;
 };
-const jsonLd = {
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "Organization",
-      "@id": `${siteUrl}/#organization`,
-      name: "Ngobrolin WEB",
-      url: siteUrl,
-      logo: {
-        "@type": "ImageObject",
-        url: new URL(OG_IMAGE_PATH, site).toString(),
-      },
-      sameAs: [
-        "https://www.youtube.com/@RizaFahmi",
-        "https://open.spotify.com/show/1o2d75xrADb9x0AahDO0Ai",
-        "https://github.com/orgs/ngobrolin/discussions",
-        "https://x.com/search?q=%23ngobrolinweb&f=live",
-      ],
-    },
-    {
-      "@type": "WebSite",
-      "@id": `${siteUrl}/#website`,
-      url: siteUrl,
-      name: "Ngobrolin WEB",
-      description,
-      publisher: { "@id": `${siteUrl}/#organization` },
-      inLanguage: "id-ID",
-      potentialAction: {
-        "@type": "SearchAction",
-        target: `${siteUrl}/episodes/?q={search_term_string}`,
-        "query-input": "required name=search_term_string",
-      },
-    },
-    {
-      "@type": "WebPage",
-      "@id": `${canonicalURL.toString()}#webpage`,
-      url: canonicalURL.toString(),
-      name: title,
-      description,
-      isPartOf: { "@id": `${siteUrl}/#website` },
-      inLanguage: "id-ID",
-      primaryImageOfPage: { "@type": "ImageObject", url: absoluteImage },
-    },
-  ],
-};
+const jsonLd = buildSiteGraph({
+  siteUrl,
+  pageUrl: canonicalURL.toString(),
+  title,
+  description,
+  image: absoluteImage,
+});
 const BrandTag = brandAsHeading ? 'h1' : 'p';
 ---
 
