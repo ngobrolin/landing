@@ -5,6 +5,8 @@ import {
   generateAboutPageSchema,
   generateCollectionPageSchema,
   generateVideoSchema,
+  generateBreadcrumbSchema,
+  generatePodcastEpisodeSchema,
   buildEpisodePageTitle
 } from './seo';
 import { getEpisodes } from './episodes';
@@ -14,37 +16,17 @@ describe('SEO Schema Generators', () => {
   describe('generateHomepageSchema', () => {
     const siteUrl = 'https://ngobrol.in';
 
-    it('should generate valid WebSite schema', () => {
+    // Layout.astro already declares the WebSite and Organization nodes; the homepage graph
+    // must extend them by @id rather than declare a second site with conflicting values.
+    it('extends the site-wide nodes by @id instead of redeclaring them', () => {
       const schema = generateHomepageSchema(siteUrl, 155);
+      const graph = schema['@graph'];
 
-      expect(schema).toHaveProperty('@context', 'https://schema.org');
-      expect(schema).toHaveProperty('@graph');
-      expect(Array.isArray(schema['@graph'])).toBe(true);
-
-      const webSite = schema['@graph'].find((item: any) => item['@type'] === 'WebSite');
-      expect(webSite).toBeDefined();
-      expect(webSite.name).toBe('Ngobrolin WEB');
-      expect(webSite.url).toBe(siteUrl);
-      expect(webSite.inLanguage).toBe('id-ID');
-    });
-
-    it('should include search action in WebSite schema', () => {
-      const schema = generateHomepageSchema(siteUrl, 155);
-      const webSite = schema['@graph'].find((item: any) => item['@type'] === 'WebSite');
-
-      expect(webSite.potentialAction).toBeDefined();
-      expect(webSite.potentialAction['@type']).toBe('SearchAction');
-      expect(webSite.potentialAction.target).toContain(siteUrl);
-    });
-
-    it('should generate valid Organization schema', () => {
-      const schema = generateHomepageSchema(siteUrl, 155);
-      const org = schema['@graph'].find((item: any) => item['@type'] === 'Organization');
-
-      expect(org).toBeDefined();
-      expect(org.name).toBe('Ngobrolin WEB');
-      expect(org.logo).toContain('favicon.svg');
-      expect(Array.isArray(org.sameAs)).toBe(true);
+      expect(graph.find((item: any) => item['@type'] === 'WebSite')).toBeUndefined();
+      const org = graph.find((item: any) => item['@type'] === 'Organization');
+      expect(org['@id']).toBe(`${siteUrl}/#organization`);
+      expect(org.logo).toBeUndefined();
+      expect(org.sameAs).toBeUndefined();
     });
 
     it('should include all three founders', () => {
@@ -67,7 +49,7 @@ describe('SEO Schema Generators', () => {
 
       expect(podcast).toBeDefined();
       expect(podcast.name).toBe('Ngobrolin WEB');
-      expect(podcast.webFeed).toBe(`${siteUrl}/rss.xml`);
+      expect(podcast.webFeed).toBe(`${siteUrl}/podcast-rss.xml`);
       expect(podcast.numberOfEpisodes).toBe(155);
       expect(podcast.inLanguage).toBe('id-ID');
     });
@@ -244,6 +226,26 @@ describe('SEO Schema Generators', () => {
       expect(items[2].position).toBe(3);
     });
 
+    it('links every item to its canonical episode URL, whatever the collection URL', () => {
+      const episodes: Episode[] = [
+        {
+          videoId: 'abc123',
+          title: 'Episode 1',
+          description: 'Description',
+          publishedAt: '2024-01-01T00:00:00Z',
+          thumbnail: 'https://example.com/thumb.jpg',
+          slug: 'ep-1',
+          episodeNumber: 1
+        }
+      ];
+
+      for (const url of [`${siteUrl}/episodes`, `${siteUrl}/episodes/2024`]) {
+        const schema = generateCollectionPageSchema('Episodes', 'Description', url, episodes);
+        expect(schema.mainEntity.itemListElement[0].item.url).toBe(`${siteUrl}/episodes/ep-1/`);
+        expect(schema.url).toBe(`${url}/`);
+      }
+    });
+
     it('should handle empty episode list', () => {
       const schema = generateCollectionPageSchema(
         'Episodes',
@@ -295,6 +297,54 @@ describe('SEO Schema Generators', () => {
       // Other fields should still be present
       expect(schema['@type']).toBe('VideoObject');
       expect(schema.name).toBe('Test Episode');
+    });
+
+    it('leaves out contentUrl and the transcript', () => {
+      const episode: Episode = {
+        videoId: 'abc123',
+        title: 'Test Episode',
+        description: 'Test Description',
+        publishedAt: '2024-01-01T00:00:00Z',
+        thumbnail: 'https://example.com/thumb.jpg',
+        slug: 'test-ep',
+        episodeNumber: 1
+      };
+
+      const schema = generateVideoSchema(episode, null, { fullText: 'Halo semuanya' }, siteUrl);
+
+      expect(schema.contentUrl).toBeUndefined();
+      expect(schema.transcript).toBeUndefined();
+      expect(schema.embedUrl).toBe('https://www.youtube.com/embed/abc123');
+    });
+  });
+
+  describe('episode page schemas', () => {
+    const siteUrl = 'https://ngobrol.in';
+    const episode: Episode = {
+      videoId: 'abc123',
+      title: 'Modern Web UI - Ngobrolin WEB',
+      description: 'Test Description',
+      publishedAt: '2024-01-01T00:00:00Z',
+      thumbnail: 'https://example.com/thumb.jpg',
+      slug: 'abc123-modern-web-ui-ngobrolin-web',
+      episodeNumber: 180
+    };
+    const pageUrl = `${siteUrl}/episodes/abc123-modern-web-ui-ngobrolin-web/`;
+
+    it('declares one video: the podcast episode references the VideoObject by @id', () => {
+      const video = generateVideoSchema(episode, null, null, siteUrl);
+      const podcast = generatePodcastEpisodeSchema(episode, null, siteUrl);
+
+      expect(podcast.url).toBe(pageUrl);
+      expect(podcast.associatedMedia).toEqual({ '@id': video['@id'] });
+      expect(video['@id']).toBe(`${pageUrl}#video`);
+    });
+
+    it('uses the visible breadcrumb labels and canonical URLs', () => {
+      const items = generateBreadcrumbSchema(episode, siteUrl).itemListElement;
+
+      expect(items.map((i) => i.name)).toEqual(['Beranda', 'Episode', 'Modern Web UI']);
+      expect(items.map((i) => i.item)).toEqual([`${siteUrl}/`, `${siteUrl}/episodes/`, pageUrl]);
     });
   });
 });
