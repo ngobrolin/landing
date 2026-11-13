@@ -169,9 +169,9 @@ The site is a weekly, and the homepage is this week's issue. The newest episode
 is the cover story: a blue block carrying its title in very large type, a deck,
 two actions and the thumbnail in a white frame. Everything older is back issues,
 listed as numbered rows and reached through one archive panel. Above the cover
-sits an issue bar ("Edisi 189 · 11 November 2026" on the left, the broadcast
-schedule on the right) under a 2px ink rule, the way a paper dates its front
-page.
+sits one quiet line: the tagline on the left, the issue ("Edisi 189 · 11
+November 2026") and the broadcast schedule on the right. The homepage draws no
+divider rules; sections are set apart by space and by tone.
 
 There are two grounds. By day it is a cool light paper (`#f1f2f6`) with white
 cards and navy ink (`#14183a`); by night it is the podcast cover's navy
@@ -181,8 +181,8 @@ see "Colour schemes" below. Two hues sit on both grounds, and `src/styles/global
 came from: the blue is the podcast cover's band darkened until it carries white
 type, and the orange is the title strip on every episode thumbnail. Blue means
 a reader can act on something, and it owns the one drenched surface on the
-site, the homepage cover block. Orange is decoration: the 3px rules over the
-key points, icon fills, a faint tint. Purple, which the previous palette
+site, the homepage cover block. Orange is decoration: icon fills and a
+faint tint. Purple, which the previous palette
 carried, is gone from the stylesheet. The Langganan button in the navigation is a filled blue control like any
 other; YouTube red appears only where a link goes to YouTube.
 
@@ -271,8 +271,8 @@ removes the pin.
 
 ### Secondary
 
-- **Thumbnail Orange** (`highlight`): the 3px rules over the homepage key
-  points, decorative icon fills, and tints at 5% to 40% opacity. 1.9:1 on the
+- **Thumbnail Orange** (`highlight`): decorative icon fills, and tints at 5%
+  to 40% opacity. 1.9:1 on the
   ground and 2.15:1 under white, so it never fills a control and never colours
   type.
 - **Dark Amber** (`highlight-text`): orange darkened until it reads as type.
@@ -296,7 +296,7 @@ removes the pin.
 - **Control Outline** (`surface-border-strong`): the border of a text field or
   an outline button, where the border is what identifies the control. 4.3:1 on
   the ground, 4.9:1 on a card, 3.9:1 on the overlay.
-- **Ink** (`ink`): headings, active states, the 2px rule over the issue bar.
+- **Ink** (`ink`): headings and active states.
   15.4:1.
 - **Ink Body** (`ink-body`): running prose and the `body` default. 8.9:1.
 - **Ink Muted** (`ink-muted`): dates on cards, captions, idle controls, the
@@ -389,7 +389,7 @@ headings, `ink-body` for prose, `ink-muted` for secondary copy, `ink-subtle`
 for metadata. The contrast test asserts the four stay in descending order.
 
 **The Tabular Figures Rule.** Numbers that line up or change (dates,
-durations, counts, the issue bar, the audio clock) take `tabular-nums`.
+durations, counts, the issue line, the audio clock) take `tabular-nums`.
 
 ## Layout
 
@@ -401,21 +401,22 @@ the homepage hosts section.
 
 The homepage reads top to bottom as an issue:
 
-1. A tagline line, then the issue bar: a 2px ink rule above, a hairline below
-   from `md`, 600-weight `0.875rem` type, issue and date left, schedule right.
-   On Tuesdays the schedule becomes a livestream notice in Blue Ink with a
-   pulsing dot (motion-safe only).
+1. One line with no rules: the tagline left, and on the right the issue and
+   date at 600 in ink followed by the schedule in `ink-muted`, both `0.875rem`.
+   It wraps to stacked lines on a phone. On Tuesdays the schedule becomes a
+   livestream notice in Blue Ink with a pulsing dot (motion-safe only).
 2. The cover block, a 12-column grid from `lg`: title, deck and actions in
    seven columns, the thumbnail and a hosts strip in five. Below `lg` the
    thumbnail comes first and the title follows, so a phone's first viewport
    shows the newest episode. The hosts strip and the oversized numeral appear
    only from `lg`; the outline button appears from `sm`.
-3. "Di episode ini": up to three key points in a `1 → 3` grid at `md`, each
-   under a 3px orange rule. The section is omitted when the episode has no
-   summary.
-4. A hairline from `md`, then two columns from `lg`: "Episode Sebelumnya" as
-   three numbered rows across seven columns, and the "Arsip" panel across four.
-5. The hosts and community section on a faint white wash.
+3. "Di episode ini": up to three key points in a `1 → 3` grid at `md`, plain
+   paragraphs under the heading. The section is omitted when the episode has
+   no summary.
+4. Two columns from `lg`: "Episode Sebelumnya" as three numbered rows and
+   "Dari arsip" across seven columns, and the "Arsip" panel across four.
+5. The hosts and community section at the full grid width: three borderless
+   cards and a callout on the overlay tint.
 
 Archive, year and topic pages keep the episode grid: `1 → 2 → 4` columns at
 `base → sm → lg` with a `1.5rem` gutter. Related episodes on a detail page use
@@ -431,10 +432,10 @@ breakpoint.
 
 Depth is tonal and drawn with lines. The paper, the white card and the darker
 overlay tint are the three surfaces, and a hairline cuts the edge where the
-1.12:1 step between paper and card is too quiet to do it alone. On the homepage
-the archive panel is a borderless white block on the paper, and most separation
-comes from rules: 2px ink over the issue bar, hairlines between rows, 3px
-orange over key points.
+1.12:1 step between paper and card is too quiet to do it alone. The homepage
+is the exception and uses no divider rules at all: the archive panel and host
+cards are borderless raised blocks, rows are separated by space, and the only
+hairlines left are the header's and the footer's.
 
 Shadow exists as a response. An episode card on hover gains a soft shadow
 tinted with Cover Blue at 10%, while its border goes to `accent/50` and its
@@ -466,7 +467,6 @@ homepage cover and archive panel and for the segments inside a toggle group,
 episode cards and panels. Fully round is for topic chips and avatars.
 
 Hairlines are `1px`. Heavier strokes are structural and each has one job: the
-2px ink rule over the issue bar, the 3px orange rules over key points, the
 white frame on the cover thumbnail (`4px`, `6px` from `md`), and a 2px ring or
 border on avatars. A control's border changes colour on hover and focus; it
 never changes width.
@@ -555,10 +555,10 @@ technology.
 ### Episode row (signature component)
 
 The homepage's back-issue list. Each row is one link on a grid: a Blue Ink
-numeral in the masthead voice, a square-cornered thumbnail (`6rem`, `8rem` from
+numeral in the masthead voice, a thumbnail with a `0.375rem` radius (`6rem`, `8rem` from
 `sm`), the title at 700, and the date and duration in `ink-subtle`, moved to a
-right-aligned column from `sm`. Rows are divided by hairlines; the title goes
-Blue Ink on hover.
+right-aligned column from `sm`. Rows are separated by space, not rules; on hover the row takes
+a raised fill and the title goes Blue Ink.
 
 ### Transcript (signature component)
 
