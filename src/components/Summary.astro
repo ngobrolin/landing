@@ -21,34 +21,32 @@ const editUrl = `https://github.com/ngobrolin/landing/edit/main/src/data/summari
 ---
 
 {summary && (
-  <div class="mt-8 bg-surface-raised border border-surface-border rounded-lg p-6">
-    <div class="flex items-center justify-between mb-4">
-      <h2 class="text-lg font-semibold text-ink">Ringkasan Episode</h2>
-      <a 
+  <section class="mt-10" id="ringkasan" aria-labelledby="summary-heading">
+    <div class="flex items-baseline justify-between gap-4 mb-5">
+      <h2 id="summary-heading" class="display text-xl md:text-2xl text-ink">Ringkasan Episode</h2>
+      <a
         href={editUrl}
         target="_blank"
         rel="noopener noreferrer"
-        class="flex items-center gap-1.5 text-sm text-ink-muted hover:text-accent-text transition"
+        class="inline-flex items-center gap-1.5 min-h-11 text-sm text-ink-muted hover:text-accent-text transition shrink-0"
       >
-        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z" />
         </svg>
         Bantu Koreksi
       </a>
     </div>
-    
-    <p class="text-ink-body leading-relaxed whitespace-pre-line mb-6">
-      {summary.brief}
-    </p>
-    
-    <h3 class="text-md font-semibold text-ink mb-3">Poin-poin Utama</h3>
-    <ul class="space-y-2">
+
+    <!-- Key points before the prose: a search arrival wants the answer, then the account of how the hosts got there. -->
+    <h3 class="font-semibold text-ink mb-3">Poin-poin Utama</h3>
+    <ul class="grid grid-cols-1 md:grid-cols-2 gap-x-10 mb-8">
       {summary.keyPoints.map((point) => (
-        <li class="flex items-start gap-2 text-ink-body">
-          <span class="text-accent mt-1">•</span>
-          <span>{point}</span>
-        </li>
+        <li class="border-t border-surface-border py-3 text-ink-body leading-relaxed">{point}</li>
       ))}
     </ul>
-  </div>
+
+    <p class="max-w-[68ch] text-ink-body text-lg leading-relaxed whitespace-pre-line">
+      {summary.brief}
+    </p>
+  </section>
 )}
