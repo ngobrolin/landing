@@ -217,7 +217,9 @@ test.describe('Episode Page', () => {
     }
   });
 
-  test('transcript timestamps have seek buttons', async ({ page }) => {
+  test('with the player on screen, a timestamp seeks the video', async ({ page }) => {
+    // Tall enough that the player and the transcript share the viewport.
+    await page.setViewportSize({ width: 1280, height: 2400 });
     await page.goto(episodePathWithTranscript());
 
     const transcript = page.getByTestId('transcript');

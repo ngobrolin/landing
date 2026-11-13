@@ -29,6 +29,8 @@ const MAX_DECK_LENGTH = 220;
 const NOT_A_TERM = new Set([
   'ngobrolin', 'episode', 'host', 'para', 'web', 'indonesia', 'bahasa', 'selasa',
   'menurut', 'mereka', 'salah', 'untuk', 'dalam', 'dengan', 'tidak', 'yang',
+  // The hosts are in every episode, so their names find nothing in particular.
+  'riza', 'fahmi', 'ivan',
 ]);
 
 const escapeRegExp = (value: string) => value.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
