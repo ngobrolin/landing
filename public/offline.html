@@ -5,8 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Offline - Ngobrolin</title>
     <meta name="description" content="Kamu sedang offline. Tonton episode yang sudah tersimpan.">
+    <meta name="color-scheme" content="light dark">
+    <script>
+        try {
+            var pinned = localStorage.getItem('color-scheme');
+            if (pinned === 'light' || pinned === 'dark') {
+                document.querySelector('meta[name="color-scheme"]').content = pinned;
+            }
+        } catch (e) {}
+    </script>
     <style>
         :root {
+            color-scheme: light dark;
             /* Standalone copy of the tokens in src/styles/global.css. This
                page is served by the service worker without the Astro bundle,
                so it cannot import them - keep the two in step by hand. */
@@ -18,6 +28,36 @@
             --accent-strong: #2f4fd0;
             --on-accent: #ffffff;
             --border: #c5c9d8;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg-primary: #0e1122;
+                --bg-secondary: #191d3a;
+                --text-primary: #f2f4fd;
+                --text-secondary: #a8b0d2;
+                --accent: #86a2fe;
+                --border: #333c66;
+            }
+        }
+
+        @supports (color: light-dark(white, black)) {
+            :root {
+                --bg-primary: light-dark(#f1f2f6, #0e1122);
+                --bg-secondary: light-dark(#ffffff, #191d3a);
+                --text-primary: light-dark(#14183a, #f2f4fd);
+                --text-secondary: light-dark(#4c5274, #a8b0d2);
+                --accent: light-dark(#2a46c0, #86a2fe);
+                --border: light-dark(#c5c9d8, #333c66);
+            }
+        }
+
+        :root:has(> head > meta[name="color-scheme"][content="dark"]) {
+            color-scheme: dark;
+        }
+
+        :root:has(> head > meta[name="color-scheme"][content="light"]) {
+            color-scheme: light;
         }
 
         * {

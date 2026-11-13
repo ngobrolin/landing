@@ -20,7 +20,7 @@
  * below deletes every `ngobrol-*` cache that is not the current pair, so
  * nothing is left behind.
  */
-const CACHE_VERSION = 'v3';
+const CACHE_VERSION = 'v4';
 const STATIC_CACHE = `ngobrol-static-${CACHE_VERSION}`;
 const PAGES_CACHE = `ngobrol-pages-${CACHE_VERSION}`;
 

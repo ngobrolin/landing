@@ -173,8 +173,11 @@ sits an issue bar ("Edisi 189 · 11 November 2026" on the left, the broadcast
 schedule on the right) under a 2px ink rule, the way a paper dates its front
 page.
 
-The ground is a cool light paper (`#f1f2f6`) with white cards and navy ink
-(`#14183a`). Two hues sit on it, and `src/styles/global.css` records where each
+There are two grounds. By day it is a cool light paper (`#f1f2f6`) with white
+cards and navy ink (`#14183a`); by night it is the podcast cover's navy
+(`#0e1122`) with a lifted card (`#191d3a`) and near-white ink (`#f2f4fd`). The
+site follows the system preference and a footer toggle pins the other scheme;
+see "Colour schemes" below. Two hues sit on both grounds, and `src/styles/global.css` records where each
 came from: the blue is the podcast cover's band darkened until it carries white
 type, and the orange is the title strip on every episode thumbnail. Blue means
 a reader can act on something, and it owns the one drenched surface on the
@@ -193,7 +196,7 @@ hairlines and the episode card.
 
 **Key Characteristics:**
 
-- Cool paper ground, white cards, navy ink, hairline rules
+- Cool paper ground, white cards, navy ink, hairline rules; the cover navy with lifted cards in the dark scheme
 - One blue with three steps for acting, one orange that only decorates
 - A single drenched surface: the blue cover block on the homepage
 - Archivo throughout; `.display` (118% width, weight 800) as the masthead voice
@@ -202,14 +205,51 @@ hairlines and the episode card.
 
 ## Colors
 
-A light, cool-neutral scale with one working blue and one decorative orange.
+A cool-neutral scale in two schemes with one working blue and one decorative
+orange. The values in the front matter and the ratios quoted below are the
+light scheme; the dark values are in "Colour schemes".
 `src/styles/global.css` is the only place a colour is decided.
 `src/styles/contrast.test.ts` asserts the WCAG floors rather than the values:
 every ink step, `accent-text` and `highlight-text` at 4.5:1 on all three
 surfaces, `surface-border-strong` at 3:1 on all three, white at 4.5:1 on
 `accent-strong`, `accent-hover` and `highlight-strong`, and `on-accent-muted`
-at 4.5:1 on `accent-strong`. Ratios below were measured against the ground
-unless stated.
+at 4.5:1 on `accent-strong`. It runs every one of those in both schemes. Ratios
+below were measured against the light ground unless stated.
+
+### Colour schemes
+
+`docs/adr/002-color-scheme.md` records the decision. Each token that differs has
+its two values once in `global.css`, as `--light-<name>` and `--dark-<name>`.
+
+| Token | Light | Dark |
+| :--- | :--- | :--- |
+| `surface` | `#f1f2f6` | `#0e1122` |
+| `surface-raised` | `#ffffff` | `#191d3a` |
+| `surface-overlay` | `#e3e6f0` | `#242b4d` |
+| `surface-border` | `#c5c9d8` | `#333c66` |
+| `surface-border-strong` | `#6a7090` | `#6b76a8` |
+| `ink` | `#14183a` | `#f2f4fd` |
+| `ink-body` | `#3b4163` | `#c3c9e6` |
+| `ink-muted` | `#4c5274` | `#a8b0d2` |
+| `ink-subtle` | `#575d7e` | `#8a94bd` |
+| `accent` | `#3557e0` | `#6588fe` |
+| `accent-text` | `#2a46c0` | `#86a2fe` |
+| `accent-hover` | `#14183a` | `#3f61ea` |
+| `highlight-text` | `#8a4f00` | `#f0a030` |
+
+`accent-strong`, `on-accent`, `on-accent-muted`, `highlight` and
+`highlight-strong` are the same in both. That keeps the homepage cover block and
+every filled control identical across schemes.
+
+**The Fixed-On-Fixed Rule.** Type on a fill that does not change takes a token
+that does not change. The white button on the cover block is `on-accent` with
+`accent-strong` type, never `ink`, which flips and would vanish in dark.
+
+**The toggle.** A text button in the footer, first in the link row, with a
+44px target. It names the scheme it switches to: "Ganti ke tema gelap" with a
+moon in light, "Ganti ke tema terang" with a sun in dark. CSS decides which label shows, so it is
+right before any script runs. Choosing the scheme the system already shows
+removes the pin.
 
 ### Primary
 
@@ -284,8 +324,9 @@ accent: the homepage cover block. Inside it everything takes the `on-accent`
 tokens, and the `.on-accent` class switches the focus ring to white because the
 blue ring disappears on blue.
 
-**The Navy Hover Rule.** A filled blue control hovers to `accent-hover`, the
-ink navy. Hover never lightens a fill and never changes its hue family.
+**The Hover Rule.** A filled blue control hovers to `accent-hover`: the ink
+navy in light, a brighter blue (`#3f61ea`) in dark, where navy would sink into
+the ground. Hover never changes the hue family.
 
 **The Borrowed-Colour Rule.** Platform Red belongs to YouTube. Spotify green
 (`#1DB954`), the RSS orange and the share row's brand fills belong to their
@@ -533,7 +574,8 @@ auto-captioned transcripts.
 `src/lib/palette.ts`: a Cover Blue band, an ink centre panel and a Thumbnail
 Orange band, with white type. `/partners-og.png` sits on ink with white and On
 Accent Muted type. `public/favicon.svg` is a Blue Fill rounded square with a
-white "N". `public/offline.html` is the light palette restated by hand. All of
+white "N". `public/offline.html` restates both palettes by hand and reads the
+pinned scheme. The share cards are fixed artwork and do not follow the scheme. All of
 them set type in the system `sans-serif`.
 
 ### Named Rules
