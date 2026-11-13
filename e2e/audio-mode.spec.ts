@@ -265,8 +265,9 @@ test.describe('Audio-only mode', () => {
     await page.goto(pathOf(withAudio!));
     await modeToggle(page).getByRole('button', { name: 'Audio saja' }).click();
 
+    await page.locator('#transcript-details > summary').click();
     const stamp = page
-      .locator('.timestamp-seek-btn')
+      .locator('#transcript-details .timestamp-seek-btn')
       .filter({ has: page.locator('xpath=self::*[number(@data-seek-time) > 5 and number(@data-seek-time) < 100]') })
       .first();
     const seconds = Number(await stamp.getAttribute('data-seek-time'));

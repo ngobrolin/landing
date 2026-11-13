@@ -18,12 +18,14 @@ try {
 }
 
 const editUrl = `https://github.com/ngobrolin/landing/edit/main/src/data/summaries/${videoId}.json`;
+const keyPoints = summary?.keyPoints ?? [];
+const briefClass = 'max-w-[68ch] text-ink-body leading-relaxed whitespace-pre-line';
 ---
 
 {summary && (
-  <section class="mt-10" id="ringkasan" aria-labelledby="summary-heading">
-    <div class="flex items-baseline justify-between gap-4 mb-5">
-      <h2 id="summary-heading" class="display text-xl md:text-2xl text-ink">Ringkasan Episode</h2>
+  <section id="ringkasan" aria-labelledby="summary-heading">
+    <div class="flex items-baseline justify-between gap-4 mb-4">
+      <h2 id="summary-heading" class="display text-xl md:text-2xl text-ink">Poin utama</h2>
       <a
         href={editUrl}
         target="_blank"
@@ -37,16 +39,29 @@ const editUrl = `https://github.com/ngobrolin/landing/edit/main/src/data/summari
       </a>
     </div>
 
-    <!-- Key points before the prose: a search arrival wants the answer, then the account of how the hosts got there. -->
-    <h3 class="font-semibold text-ink mb-3">Poin-poin Utama</h3>
-    <ul class="grid grid-cols-1 md:grid-cols-2 gap-x-10 mb-8">
-      {summary.keyPoints.map((point) => (
-        <li class="border-t border-surface-border py-3 text-ink-body leading-relaxed">{point}</li>
-      ))}
-    </ul>
-
-    <p class="max-w-[68ch] text-ink-body text-lg leading-relaxed whitespace-pre-line">
-      {summary.brief}
-    </p>
+    <!--
+      Key points carry the page; the brief restates them at length, so it
+      waits behind a fold. Without key points the brief is all there is.
+    -->
+    {keyPoints.length > 0 ? (
+      <>
+        <ul class="flex flex-col gap-3.5 max-w-[68ch]" data-testid="episode-key-points">
+          {keyPoints.map((point) => (
+            <li class="grid grid-cols-[0.625rem_minmax(0,1fr)] gap-x-3.5 text-[1.0625rem] leading-relaxed text-ink-body">
+              <span class="mt-[0.55em] h-2.5 w-2.5 bg-highlight" aria-hidden="true"></span>
+              <span>{point}</span>
+            </li>
+          ))}
+        </ul>
+        <details class="mt-3" data-testid="episode-brief">
+          <summary class="inline-flex items-center min-h-11 font-semibold text-accent-text hover:text-ink transition cursor-pointer">
+            Baca ringkasan lengkap
+          </summary>
+          <p class:list={[briefClass, 'mt-2']}>{summary.brief}</p>
+        </details>
+      </>
+    ) : (
+      <p class={briefClass}>{summary.brief}</p>
+    )}
   </section>
 )}
