@@ -87,14 +87,13 @@ For a finished example of the target quality, read
 ### Search title and description
 
 Both fields are optional and replace what the page would otherwise compose:
-the episode title plus the show name, and the brief cut at 157 characters.
-Write them only when asked, and ground them in the same file's `brief` and
-`keyPoints` and the episode title.
+the episode title plus the show name, and the brief's first paragraph cut to
+fit. Ground them only in the same file's `brief` and `keyPoints` and the
+episode title.
 
 - `seoTitle`: 45-60 characters, ending in ` | Ngobrolin WEB`. The words people
   search for come first (keep English tech terms such as MCP, Vite or Laracon),
-  then the angle this episode takes, then the show name. Keep the head term of
-  the current title, since the page may already rank for it. Unique across all
+  then the angle this episode takes, then the show name. Unique across all
   summaries. No year unless the episode is about that year, no hype words
   (ultimate, lengkap, terbaik, rahasia), no emoji, no exclamation mark.
 - `metaDescription`: 120-155 characters, one or two plain sentences that lead
