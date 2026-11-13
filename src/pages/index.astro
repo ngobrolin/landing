@@ -86,134 +86,118 @@ const hosts = [
   title="Ngobrolin WEB - Video Podcast Web Development Indonesia"
   preloadImage={optimizedLcpImage.src}
   brandAsHeading
+  flushFooter
 >
   <Fragment slot="head">
     <script type="application/ld+json" set:html={JSON.stringify(homepageSchema)} />
   </Fragment>
-
-  <div class="container mx-auto px-4 pt-6 pb-5 flex flex-wrap items-baseline justify-between gap-x-8 gap-y-2">
-    <p class="text-ink-body" data-testid="home-tagline">
-      Video podcast seputar web development dalam Bahasa Indonesia.
-    </p>
-
-    <div class="flex flex-wrap gap-x-5 gap-y-1 text-sm text-ink-muted tabular-nums">
-      <span class="font-semibold text-ink">Edisi {latestEpisode.episodeNumber} · {formatDate(latestEpisode.publishedAt, 'long')}</span>
-      {isTuesday ? (
-        <span class="inline-flex items-center gap-2 font-semibold text-accent-text">
-          <span class="relative flex h-2 w-2" aria-hidden="true">
-            <span class="motion-safe:animate-ping absolute inline-flex h-full w-full rounded-full bg-accent-text opacity-75"></span>
-            <span class="relative inline-flex rounded-full h-2 w-2 bg-accent-text"></span>
-          </span>
-          Livestream malam ini jam 20:00 WIB!
-        </span>
-      ) : (
-        <span>Episode baru setiap Selasa malam jam 20:00 WIB</span>
-      )}
-    </div>
-  </div>
 
   <!--
     The cover: this week's episode, the way a weekly puts its lead story on the
     front. The one surface on the site that is drenched in the accent, so
     everything inside takes the on-accent tokens and the white focus ring.
   -->
-  <section class="on-accent md:container md:mx-auto md:px-4 md:pt-6" aria-labelledby="home-latest-title">
-    <div class="relative overflow-hidden bg-accent-strong text-on-accent grid grid-cols-1 lg:grid-cols-12 gap-x-6 gap-y-5 px-4 py-6 md:p-10 lg:p-14">
-      <p
-        class="display hidden lg:block absolute right-8 -bottom-14 text-[19rem] leading-none text-on-accent/5 tabular-nums select-none"
-        aria-hidden="true"
-      >
-        {latestEpisode.episodeNumber}
-      </p>
-
-      <div class="relative lg:col-span-5 lg:col-start-8 lg:row-start-1 flex flex-col gap-4">
-        <Image
-          src={latestEpisode.thumbnail}
-          alt=""
-          width={640}
-          height={360}
-          format="webp"
-          loading="eager"
-          fetchpriority="high"
-          class="w-full aspect-video object-cover border-4 md:border-[6px] border-on-accent"
-        />
-        <div class="hidden lg:flex items-center gap-3.5">
-          <div class="flex shrink-0">
-            {hosts.map((host, index) => (
-              <img
-                src={host.image}
-                alt=""
-                width="48"
-                height="48"
-                loading="lazy"
-                class:list={['w-12 h-12 rounded-full object-cover border-2 border-accent-strong', index > 0 && '-ml-3']}
-              />
-            ))}
-          </div>
-          <p class="text-sm text-on-accent-muted">
-            Bersama <strong class="text-on-accent font-bold">Riza Fahmi, Eka</strong> dan
-            <strong class="text-on-accent font-bold">Ivan</strong>, Google Developer Experts Indonesia
-          </p>
-        </div>
+  <section class="on-accent bg-accent-strong text-on-accent" aria-labelledby="home-latest-title">
+    <div class="container mx-auto px-4 pt-5 pb-8 md:pt-6 md:pb-12 flex flex-col gap-5 md:gap-7">
+      <div class="flex flex-wrap justify-between gap-x-6 gap-y-0.5 text-sm text-on-accent-muted tabular-nums">
+        <span><strong class="font-bold text-on-accent">Edisi {latestEpisode.episodeNumber}</strong> · {formatDate(latestEpisode.publishedAt, 'long')}</span>
+        {isTuesday ? (
+          <span class="inline-flex items-center gap-2 font-semibold text-on-accent">
+            <span class="relative flex h-2 w-2" aria-hidden="true">
+              <span class="motion-safe:animate-ping absolute inline-flex h-full w-full rounded-full bg-on-accent opacity-75"></span>
+              <span class="relative inline-flex rounded-full h-2 w-2 bg-on-accent"></span>
+            </span>
+            Livestream malam ini jam 20:00 WIB!
+          </span>
+        ) : (
+          <span>Episode baru setiap Selasa malam jam 20:00 WIB</span>
+        )}
       </div>
 
-      <div class="@container relative lg:col-span-7 lg:col-start-1 lg:row-start-1 flex flex-col gap-5 lg:gap-6">
-        <h2
-          id="home-latest-title"
-          class="display leading-[0.95] tracking-[-0.03em]"
-          style={`font-size: ${coverTitleSize}`}
-        >
-          <a href={`/episodes/${latestEpisode.slug}/`} class="hover:underline decoration-4 underline-offset-8" data-testid="home-latest-link">
-            {latestDisplayTitle}
-          </a>
-        </h2>
-        {latestBlurb && (
-          <p class="max-w-lg text-base md:text-xl leading-normal text-on-accent-muted line-clamp-3">
-            {latestBlurb}
-          </p>
-        )}
-        <div class="flex flex-wrap items-center gap-x-4 gap-y-3">
-          <a
-            href={`/episodes/${latestEpisode.slug}/`}
-            class="grow sm:grow-0 inline-flex items-center justify-center min-h-13 px-7 bg-on-accent text-accent-strong hover:bg-on-accent-muted rounded-md font-bold transition"
-            data-testid="home-latest-action"
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-x-10 gap-y-5">
+        <div class="lg:col-span-5 lg:col-start-8 lg:row-start-1 flex flex-col gap-3.5">
+          <Image
+            src={latestEpisode.thumbnail}
+            alt=""
+            width={640}
+            height={360}
+            format="webp"
+            loading="eager"
+            fetchpriority="high"
+            class="w-full aspect-video object-cover border-4 md:border-[6px] border-on-accent"
+          />
+          <div class="flex items-center gap-3">
+            <div class="flex shrink-0">
+              {hosts.map((host, index) => (
+                <img
+                  src={host.image}
+                  alt=""
+                  width="44"
+                  height="44"
+                  loading="lazy"
+                  class:list={['w-11 h-11 rounded-full object-cover border-2 border-accent-strong', index > 0 && '-ml-3']}
+                />
+              ))}
+            </div>
+            <p class="text-sm text-on-accent-muted">
+              <span data-testid="home-tagline">Video podcast seputar web development dalam Bahasa Indonesia.</span>
+              Bersama <strong class="text-on-accent font-bold">Riza Fahmi, Eka</strong> dan
+              <strong class="text-on-accent font-bold">Ivan</strong>.
+            </p>
+          </div>
+        </div>
+
+        <div class="@container lg:col-span-7 lg:col-start-1 lg:row-start-1 flex flex-col gap-5">
+          <h2
+            id="home-latest-title"
+            class="display leading-[0.95] tracking-[-0.03em]"
+            style={`font-size: ${coverTitleSize}`}
           >
-            Tonton &amp; baca transkrip
-          </a>
-          <a
-            href="/episodes/"
-            class="hidden sm:inline-flex items-center justify-center min-h-13 px-7 border border-on-accent hover:bg-on-accent hover:text-accent-strong rounded-md font-semibold transition"
-          >
-            Lihat Semua Episode
-          </a>
-          {latestDuration && (
-            <span class="text-sm text-on-accent-muted tabular-nums">{latestDuration}</span>
+            <a href={`/episodes/${latestEpisode.slug}/`} class="hover:underline decoration-4 underline-offset-8" data-testid="home-latest-link">
+              {latestDisplayTitle}
+            </a>
+          </h2>
+          {latestBlurb && (
+            <p class="max-w-lg text-base md:text-xl leading-normal text-on-accent-muted line-clamp-3">
+              {latestBlurb}
+            </p>
           )}
+          <div class="flex flex-wrap items-center gap-x-4 gap-y-3">
+            <a
+              href={`/episodes/${latestEpisode.slug}/`}
+              class="grow sm:grow-0 inline-flex items-center justify-center min-h-13 px-7 bg-on-accent text-accent-strong hover:bg-on-accent-muted rounded-md font-bold transition"
+              data-testid="home-latest-action"
+            >
+              Tonton &amp; baca transkrip
+            </a>
+            {latestDuration && (
+              <span class="text-sm text-on-accent-muted tabular-nums">{latestDuration}</span>
+            )}
+          </div>
         </div>
       </div>
     </div>
   </section>
 
-  {latestKeyPoints.length > 0 && (
-    <section class="container mx-auto px-4 pt-10 md:pt-12" aria-labelledby="home-points-title">
-      <h2 id="home-points-title" class="display text-xl md:text-2xl text-ink mb-5">Di episode ini</h2>
-      <ul class="grid grid-cols-1 md:grid-cols-3 gap-x-10 gap-y-5" data-testid="home-key-points">
-        {latestKeyPoints.map((point) => (
-          <li class="text-ink-body leading-relaxed">{point}</li>
-        ))}
-      </ul>
-    </section>
-  )}
-
-  <section class="container mx-auto px-4 py-10 md:py-14">
-    <div class="grid grid-cols-1 lg:grid-cols-12 gap-x-6 gap-y-10">
-      <div class="lg:col-span-7">
-        <div class="flex items-baseline justify-between gap-4 mb-3">
-          <h2 class="display text-xl md:text-2xl text-ink">Episode Sebelumnya</h2>
-          <a href="/episodes/" class="hidden sm:inline-flex items-center min-h-11 text-accent-text hover:text-ink transition font-semibold">
-            Lihat semua {episodeCount} episode
-          </a>
+  <!-- This week on the paper: what the episode says, beside the three before it. -->
+  <section class="container mx-auto px-4 py-12 md:py-20">
+    <div class="grid grid-cols-1 lg:grid-cols-12 gap-x-16 gap-y-12">
+      {latestKeyPoints.length > 0 && (
+        <div class="lg:col-span-5">
+          <h2 class="display text-xl md:text-2xl text-ink mb-5">Di episode ini</h2>
+          <ul class="flex flex-col gap-4" data-testid="home-key-points">
+            {latestKeyPoints.map((point) => (
+              <li class="grid grid-cols-[0.625rem_minmax(0,1fr)] gap-x-3.5 text-[1.0625rem] leading-relaxed text-ink-body">
+                <span class="mt-[0.55em] h-2.5 w-2.5 bg-highlight" aria-hidden="true"></span>
+                <span>{point}</span>
+              </li>
+            ))}
+          </ul>
         </div>
+      )}
+
+      <div class:list={latestKeyPoints.length > 0 ? 'lg:col-span-7' : 'lg:col-span-12'}>
+        <h2 class="display text-xl md:text-2xl text-ink mb-3">Episode Sebelumnya</h2>
 
         <!--
           Rows, not the card grid the archive uses: the cover already spends the
@@ -225,7 +209,7 @@ const hosts = [
             <li>
               <a
                 href={`/episodes/${episode.slug}/`}
-                class="group grid grid-cols-[3.25rem_6rem_minmax(0,1fr)] sm:grid-cols-[4.5rem_8rem_minmax(0,1fr)_auto] items-center gap-x-3 sm:gap-x-5 py-2.5 -mx-3 px-3 rounded-lg hover:bg-surface-raised transition"
+                class="group grid grid-cols-[3rem_5.5rem_minmax(0,1fr)] sm:grid-cols-[4.25rem_7.5rem_minmax(0,1fr)] items-center gap-x-3 sm:gap-x-5 py-2.5 -mx-3 px-3 rounded-lg hover:bg-surface-raised transition"
                 data-testid="episode-card"
                 data-episode-slug={episode.slug}
               >
@@ -249,226 +233,179 @@ const hosts = [
                   <span class="text-lg sm:text-xl font-bold leading-snug text-ink group-hover:text-accent-text transition">
                     {getDisplayTitle(episode.title)}
                   </span>
-                  <span class="sm:hidden text-sm text-ink-subtle tabular-nums" data-testid="episode-date">
+                  <span class="text-sm text-ink-subtle tabular-nums" data-testid="episode-date">
                     {formatDate(episode.publishedAt, 'short')}
                     {formatDuration(episode.duration) && ` · ${formatDuration(episode.duration)}`}
                   </span>
-                </span>
-                <span class="hidden sm:block text-sm text-ink-subtle tabular-nums text-right whitespace-nowrap">
-                  {formatDate(episode.publishedAt, 'short')}
-                  {formatDuration(episode.duration) && ` · ${formatDuration(episode.duration)}`}
                 </span>
               </a>
             </li>
           ))}
         </ul>
-        <a href="/episodes/" class="sm:hidden inline-flex items-center min-h-12 text-accent-text hover:text-ink transition font-semibold">
+        <a href="/episodes/" class="mt-2 inline-flex items-center min-h-11 text-accent-text hover:text-ink transition font-semibold">
           Lihat semua {episodeCount} episode
         </a>
+      </div>
+    </div>
+  </section>
 
-        <!--
-          Plain links into the back catalogue, a different run each week. Nothing
-          else on a page search engines read points at the oldest episodes.
-        -->
-        {archivePicks.length > 0 && (
-          <div class="mt-10" data-testid="home-archive-picks">
-            <h2 class="display text-xl md:text-2xl text-ink mb-3">Dari arsip</h2>
-            <ul class="grid grid-cols-1 sm:grid-cols-2 gap-x-8">
-              {archivePicks.map((episode) => (
-                <li>
-                  <a href={`/episodes/${episode.slug}/`} class="group flex items-baseline gap-3 py-2">
-                    <span class="text-sm text-ink-subtle tabular-nums shrink-0">{new Date(episode.publishedAt).getUTCFullYear()}</span>
-                    <span class="font-semibold text-ink group-hover:text-accent-text transition">{getDisplayTitle(episode.title)}</span>
-                  </a>
-                </li>
-              ))}
-            </ul>
-          </div>
-        )}
+  <!--
+    The way into the back catalogue, on its own raised band: search, topics,
+    years and a run of older episodes. getTopTags reads the real tag index, so
+    every topic here has a page behind it; counts are derived, never typed.
+  -->
+  <section class="bg-surface-raised py-12 md:py-20" aria-labelledby="home-archive-title">
+    <div class="container mx-auto px-4 flex flex-col gap-6">
+      <div class="flex flex-col gap-3" data-testid="archive-scale">
+        <h2 id="home-archive-title" class="display text-3xl md:text-[2.75rem] leading-none text-ink">Cari di {episodeCount} episode</h2>
+        <p class="text-ink-body">
+          {fullyTranscribed
+            ? 'Semuanya dengan transkrip lengkap.'
+            : `${transcriptCount} di antaranya dengan transkrip lengkap.`}
+        </p>
       </div>
 
-      <!--
-        The way into the back catalogue: the count, search, topics and years in
-        one panel. getTopTags reads the real tag index, so every topic here has
-        a page behind it; counts are derived, never typed.
-      -->
-      <div class="lg:col-span-4 lg:col-start-9 self-start bg-surface-raised rounded-xl p-6 md:p-7 flex flex-col gap-5">
-        <h2 class="display text-xl md:text-2xl text-ink">Arsip</h2>
-        <p class="text-ink-body" data-testid="archive-scale">
-          <span class="text-ink font-bold">{episodeCount} episode</span>{fullyTranscribed
-            ? ', semuanya dengan transkrip lengkap.'
-            : `, ${transcriptCount} di antaranya dengan transkrip lengkap.`}
-        </p>
+      <!-- A plain GET to /episodes: works without JavaScript and lands on the ?q= URL the SearchAction schema advertises. -->
+      <form action="/episodes/" method="get" role="search" class="flex gap-2 max-w-2xl" data-testid="home-search">
+        <label for="home-search-input" class="sr-only">Cari episode</label>
+        <input
+          type="search"
+          id="home-search-input"
+          name="q"
+          placeholder={`Cari di ${episodeCount} episode...`}
+          aria-keyshortcuts="/"
+          class="flex-1 min-w-0 h-13 px-4 bg-surface border border-surface-border-strong rounded-md text-ink placeholder-ink-subtle focus:border-accent-text transition"
+        />
+        <button
+          type="submit"
+          class="h-13 px-6 bg-accent-strong hover:bg-accent-hover text-on-accent rounded-md font-bold transition"
+        >
+          Cari
+        </button>
+      </form>
 
-        <!-- A plain GET to /episodes: works without JavaScript and lands on the ?q= URL the SearchAction schema advertises. -->
-        <form action="/episodes/" method="get" role="search" class="flex gap-2" data-testid="home-search">
-          <label for="home-search-input" class="sr-only">Cari episode</label>
-          <input
-            type="search"
-            id="home-search-input"
-            name="q"
-            placeholder={`Cari di ${episodeCount} episode...`}
-            aria-keyshortcuts="/"
-            class="flex-1 min-w-0 h-12 px-3.5 bg-surface border border-surface-border-strong rounded-md text-ink placeholder-ink-subtle focus:border-accent-text transition"
-          />
-          <button
-            type="submit"
-            class="h-12 px-5 bg-accent-strong hover:bg-accent-hover text-on-accent rounded-md font-bold transition"
-          >
-            Cari
-          </button>
-        </form>
-
+      <div class="flex flex-col text-ink-subtle tabular-nums">
         {topTags.length > 0 && (
-          <p class="text-ink-subtle leading-loose" data-testid="home-topics">
-            Topik:{' '}
-            {topTags.map(({ tag, count }, index) => (
-              <>
-                {index > 0 && ' · '}
-                <span class="whitespace-nowrap">
+          <p class="flex flex-wrap items-baseline gap-x-5" data-testid="home-topics">
+            <span class="min-w-12">Topik</span>
+            {topTags.map(({ tag, count }) => (
+              <span class="whitespace-nowrap">
                 <a
                   href={`/tags/${tag}/`}
                   class="inline-block py-1.5 font-semibold text-accent-text hover:text-ink transition"
                   data-analytics-event="topic_click"
                   data-analytics-props={JSON.stringify({ tag, location: 'home' })}
                 >{formatTagLabel(tag)}</a>{' '}
-                <span class="tabular-nums">{count}<span class="sr-only"> episode</span></span>
-                </span>
-              </>
+                {count}<span class="sr-only"> episode</span>
+              </span>
             ))}
-            {' · '}
             <a href="/tags/" class="inline-block py-1.5 font-semibold text-accent-text hover:text-ink transition">Semua topik</a>
           </p>
         )}
-
-        <p class="text-ink-subtle leading-loose tabular-nums" data-testid="home-years">
-          Tahun:{' '}
-          {years.map(({ year, count }, index) => (
-            <>
-              {index > 0 && ' · '}
-              <a
-                href={`/episodes/${year}/`}
-                class="inline-block py-1.5 font-semibold text-accent-text hover:text-ink transition"
-              >{year}<span class="sr-only">, {count} episode</span></a>
-            </>
+        <p class="flex flex-wrap items-baseline gap-x-5" data-testid="home-years">
+          <span class="min-w-12">Tahun</span>
+          {years.map(({ year, count }) => (
+            <a
+              href={`/episodes/${year}/`}
+              class="inline-block py-1.5 font-semibold text-accent-text hover:text-ink transition"
+            >{year}<span class="sr-only">, {count} episode</span></a>
           ))}
         </p>
       </div>
+
+      <!--
+        Plain links into the back catalogue, a different run each week. Nothing
+        else on a page search engines read points at the oldest episodes.
+      -->
+      {archivePicks.length > 0 && (
+        <div class="mt-2" data-testid="home-archive-picks">
+          <h3 class="text-sm font-bold text-ink-muted mb-1">Dari arsip</h3>
+          <ul class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-8">
+            {archivePicks.map((episode) => (
+              <li>
+                <a href={`/episodes/${episode.slug}/`} class="group flex items-baseline gap-3 py-2">
+                  <span class="text-sm text-ink-subtle tabular-nums shrink-0">{new Date(episode.publishedAt).getUTCFullYear()}</span>
+                  <span class="font-semibold text-ink group-hover:text-accent-text transition">{getDisplayTitle(episode.title)}</span>
+                </a>
+              </li>
+            ))}
+          </ul>
+        </div>
+      )}
     </div>
   </section>
 
-  <!-- Hosts & Community Section -->
-  <section class="py-12 md:py-16">
-    <div class="container mx-auto px-4">
-      <div>
-        <div class="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-10">
-          <div>
-            <h2 class="display text-2xl md:text-3xl text-ink mb-2">Panelis & Komunitas</h2>
-            <p class="text-ink-body text-base max-w-xl">
-              Diskusi santai seputar ekosistem web modern dipandu oleh para Google Developer Experts Indonesia.
-            </p>
-          </div>
-          <a href="/about/" class="inline-flex items-center min-h-11 text-accent-text hover:text-ink transition text-sm font-medium whitespace-nowrap">
-            Tentang kami selengkapnya
-          </a>
-        </div>
+  <section class="container mx-auto px-4 py-12 md:py-20">
+    <div class="flex flex-wrap items-baseline justify-between gap-x-6 gap-y-1 mb-7">
+      <h2 class="display text-xl md:text-2xl text-ink">Panelis</h2>
+      <a href="/about/" class="inline-flex items-center min-h-11 text-accent-text hover:text-ink transition font-semibold">
+        Tentang kami selengkapnya
+      </a>
+    </div>
 
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-10">
-          {hosts.map((host) => (
-            <div class="bg-surface-raised rounded-xl p-5 flex items-start gap-4">
-              <img
-                src={host.image}
-                alt={host.name}
-                class="w-14 h-14 rounded-full object-cover ring-2 ring-accent/40 shrink-0"
-                loading="lazy"
-                width="56"
-                height="56"
-              />
-              <div class="min-w-0 flex-1">
-                <div class="flex items-center gap-1.5 mb-1">
-                  <h3 class="text-ink font-semibold text-base truncate">{host.name}</h3>
-                  <span class="bg-accent-strong/20 text-accent-text border border-accent-strong/30 px-1.5 py-0.5 rounded text-xs font-semibold tracking-wide">
-                    {host.expert}
-                  </span>
-                </div>
-                <p class="text-ink-body text-xs mb-1 leading-relaxed">
-                  {host.role}
-                </p>
-                <p class="text-ink-muted text-xs mb-3 italic">
-                  Fokus: {host.focus}
-                </p>
-                <div class="flex flex-wrap items-center gap-x-1 text-sm text-accent-text -ml-2">
-                  {host.github && (
-                    <a
-                      href={host.github}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      class="min-h-11 px-2 hover:text-ink transition inline-flex items-center"
-                    >
-                      GitHub
-                    </a>
-                  )}
-                  {host.x && (
-                    <a
-                      href={host.x}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      class="min-h-11 px-2 hover:text-ink transition inline-flex items-center"
-                    >
-                      X
-                    </a>
-                  )}
-                  {host.youtube && (
-                    <a
-                      href={host.youtube}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      class="min-h-11 px-2 hover:text-ink transition inline-flex items-center"
-                    >
-                      YouTube
-                    </a>
-                  )}
-                </div>
-              </div>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-x-8 gap-y-6">
+      {hosts.map((host) => (
+        <div class="grid grid-cols-[3.5rem_minmax(0,1fr)] gap-x-3.5 items-start">
+          <img
+            src={host.image}
+            alt=""
+            class="w-14 h-14 rounded-full object-cover"
+            loading="lazy"
+            width="56"
+            height="56"
+          />
+          <div class="min-w-0">
+            <h3 class="text-ink font-bold text-[1.0625rem]">
+              {host.name}
+              <span class="ml-1.5 text-xs font-bold text-accent-text">{host.expert}</span>
+            </h3>
+            <p class="text-ink-body text-[0.9375rem]">{host.role}</p>
+            <p class="text-ink-muted text-[0.9375rem]">Fokus: {host.focus}</p>
+            <div class="flex flex-wrap items-center gap-x-1 text-[0.9375rem] font-semibold text-accent-text -ml-2">
+              {host.github && (
+                <a href={host.github} target="_blank" rel="noopener noreferrer" class="min-h-11 px-2 hover:text-ink transition inline-flex items-center">GitHub</a>
+              )}
+              {host.x && (
+                <a href={host.x} target="_blank" rel="noopener noreferrer" class="min-h-11 px-2 hover:text-ink transition inline-flex items-center">X</a>
+              )}
+              {host.youtube && (
+                <a href={host.youtube} target="_blank" rel="noopener noreferrer" class="min-h-11 px-2 hover:text-ink transition inline-flex items-center">YouTube</a>
+              )}
             </div>
-          ))}
+          </div>
         </div>
+      ))}
+    </div>
+  </section>
 
-        <!-- Community Callout -->
-        <div class="bg-surface-overlay rounded-xl p-6 sm:p-8 flex flex-col sm:flex-row items-center justify-between gap-6">
-          <div>
-            <h3 class="text-lg font-semibold text-ink mb-1">Punya Pertanyaan atau Topik Diskusi?</h3>
-            <p class="text-sm text-ink-body">
-              Bergabunglah di GitHub Discussions atau ramaikan livestream setiap Selasa malam jam 20:00 WIB.
-            </p>
-          </div>
-          <div class="flex flex-wrap items-center justify-center gap-3 sm:shrink-0">
-            <a
-              href="https://github.com/orgs/ngobrolin/discussions"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="border border-surface-border-strong hover:border-accent-text hover:text-accent-text text-ink px-4 py-2 rounded-lg text-sm font-medium transition"
-            >
-              GitHub Discussions
-            </a>
-            <a
-              href="https://www.youtube.com/@RizaFahmi?sub_confirmation=1"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="border border-surface-border-strong hover:border-accent-text hover:text-accent-text text-ink px-4 py-2 rounded-lg text-sm font-medium transition"
-              data-analytics-event="subscribe_click"
-              data-analytics-props={JSON.stringify({ dest: 'youtube', location: 'home_community' })}
-            >
-              Subscribe YouTube
-            </a>
-            <a
-              href="/subscribe/"
-              class="bg-accent-strong hover:bg-accent-hover text-on-accent px-4 py-2 rounded-lg text-sm font-medium transition"
-            >
-              Langganan
-            </a>
-          </div>
-        </div>
+  <section class="bg-surface-overlay py-7 md:py-9">
+    <div class="container mx-auto px-4 flex flex-wrap items-center justify-between gap-x-8 gap-y-2">
+      <h2 class="text-lg font-semibold text-ink">Punya Pertanyaan atau Topik Diskusi?</h2>
+      <div class="flex flex-wrap items-center gap-x-6 gap-y-1">
+        <a
+          href="https://github.com/orgs/ngobrolin/discussions"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="inline-flex items-center min-h-11 font-semibold text-accent-text hover:text-ink transition"
+        >
+          GitHub Discussions
+        </a>
+        <a
+          href="https://www.youtube.com/@RizaFahmi?sub_confirmation=1"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="inline-flex items-center min-h-11 font-semibold text-accent-text hover:text-ink transition"
+          data-analytics-event="subscribe_click"
+          data-analytics-props={JSON.stringify({ dest: 'youtube', location: 'home_community' })}
+        >
+          Subscribe YouTube
+        </a>
+        <a
+          href="/subscribe/"
+          class="inline-flex items-center min-h-11 px-5 bg-accent-strong hover:bg-accent-hover text-on-accent rounded-md font-bold transition"
+        >
+          Langganan
+        </a>
       </div>
     </div>
   </section>
