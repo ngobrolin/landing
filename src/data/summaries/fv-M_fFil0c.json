@@ -10,5 +10,7 @@
     "Backward compatibility adalah keunggulan besar platform web: script lama tetap berjalan bertahun-tahun kemudian, dan tiap proposal wajib menjelaskan cara polyfill-nya",
     "Arrow function bukan sekadar sintaks lebih pendek — ia punya implicit return untuk satu baris, tidak punya objek arguments sehingga harus memakai rest parameter, dan memperlakukan this secara berbeda",
     "Named function membantu saat debugging karena namanya muncul di stack trace, sedangkan anonymous function membuat jejak error lebih sulit dibaca"
-  ]
+  ],
+  "seoTitle": "ECMAScript: Stage TC39 dan Arrow Function | Ngobrolin WEB",
+  "metaDescription": "ECMAScript dibedah sebagai spesifikasi yang diwujudkan V8, SpiderMonkey dan JavaScriptCore, lalu alur stage di TC39, arti ESNext, dan beda arrow function."
 }

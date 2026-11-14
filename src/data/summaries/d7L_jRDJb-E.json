@@ -10,5 +10,7 @@
     "Ekosistem Deno mencakup: Fresh (web framework dengan Preact), JSR (package registry alternatif NPM yang mendukung TypeScript dan ESM), Deno KV (key-value database), dan Deno Deploy (platform hosting)",
     "Deno 2 mendukung NPM packages secara native, menjembatani kesenjangan dengan ekosistem Node.js yang sudah ada",
     "Deno mengadopsi model bisnis vendor lock-in yang komprehensif dengan enterprise support, mirip dengan platform seperti Vercel atau Firebase, menyediakan solusi end-to-end dari development hingga deployment"
-  ]
+  ],
+  "seoTitle": "Deno 2: Security by Default dan TypeScript | Ngobrolin WEB",
+  "metaDescription": "Deno 2 dari Ryan Dahl membawa izin akses eksplisit, TypeScript tanpa transpilasi, dukungan npm, dan ekosistem Fresh, JSR, Deno KV, serta Deno Deploy."
 }

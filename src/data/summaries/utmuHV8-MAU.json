@@ -10,5 +10,7 @@
     "Astro direkomendasikan sebagai framework fleksibel yang bisa mengkombinasikan berbagai metode rendering dalam satu aplikasi",
     "Browser security menjadi topik penting dengan berbagai kebijakan seperti CORS, CORP, CSP (Content Security Policy), dan lainnya",
     "Untuk aplikasi sederhana yang tidak butuh fitur kompleks Next.js, Vite dengan React Router sudah cukup untuk membangun aplikasi"
-  ]
+  ],
+  "seoTitle": "Design Pattern: Apakah MVC Termasuk? | Ngobrolin WEB",
+  "metaDescription": "Eka dan Ivan memperdebatkan apakah MVC termasuk design pattern, membahas tiga kategorinya, Refactoring Guru dan Patterns.dev, lalu CORS dan CSP di browser."
 }

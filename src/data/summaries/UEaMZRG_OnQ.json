@@ -10,5 +10,7 @@
     "Adopsi PWA naik stabil sejak 2019, bukan tren sesaat, dan paling banyak dipakai situs shopping serta news",
     "Untuk web manifest, meski variasi ukuran ikon membingungkan, hanya dua ukuran yang benar-benar dominan — sisanya hanya perlu kalau memang menyasar browser lama",
     "Angkanya perlu dibaca dengan hati-hati: metriknya diukur dengan lab tools dalam kondisi cache kosong dan tidak login, dan framework tanpa runtime seperti Svelte sulit terdeteksi karena jejaknya hilang setelah di-build"
-  ]
+  ],
+  "seoTitle": "Web Almanac 2022: jQuery dan Render Blocking | Ngobrolin WEB",
+  "metaDescription": "Laporan Web Almanac 2022 dari HTTP Archive dibedah: jQuery yang masih jauh di atas React, 77% halaman mobile dengan script render blocking, dan adopsi PWA."
 }

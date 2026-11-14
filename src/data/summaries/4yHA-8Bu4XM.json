@@ -10,5 +10,7 @@
     "Patt Vira, content creator Thailand yang ahli creative coding dengan P5.js, berbagi cerita bagaimana dia merasa kesulitan belajar coding secara tradisional namun menemukan passion melalui creative coding",
     "Alicia JS, framework backend minimalis karya developer Thailand dengan tema anime, diperkenalkan sebagai alternatif dari Express dengan performa yang lebih cepat",
     "Diskusi teknis tentang mengapa framework JavaScript populer cenderung minimalis (Express, Hono, Alicia JS) dibandingkan full-battery framework di bahasa lain seperti Rails, Django, atau Laravel"
-  ]
+  ],
+  "seoTitle": "JavaScript Bangkok: WebDriver BiDi dan P5.js | Ngobrolin WEB",
+  "metaDescription": "Lightning talk Ivan soal WebDriver BiDi di JavaScript Bangkok, demo WebAssembly dan WebGPU offline, creative coding P5.js, dan framework minimalis."
 }

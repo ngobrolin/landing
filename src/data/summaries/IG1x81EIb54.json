@@ -10,5 +10,7 @@
     "Bun memakai mesin JavaScript dari WebKit alih-alih V8 dan menjual kecepatan sebagai pembedanya",
     "Kehadiran Deno dan Bun membuat Node.js terlihat lamban — meski berinovasi terlalu cepat pun sama-sama dikeluhkan orang",
     "Menerbitkan aplikasinya berkisar dari Heroku yang tinggal push sampai mengatur droplet sendiri dengan Nginx dan PM2 agar prosesnya tetap hidup di latar belakang"
-  ]
+  ],
+  "seoTitle": "Node.js: Versi 0.x, io.js, Deno dan Bun | Ngobrolin WEB",
+  "metaDescription": "JavaScript di server lewat Node.js: kenapa lama tertahan di 0.x, pecah jadi io.js lalu melompat ke 4.0, plus Deno, Bun, dan deploy dengan Heroku atau PM2."
 }

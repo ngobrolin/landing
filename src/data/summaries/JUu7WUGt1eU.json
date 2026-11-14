@@ -10,5 +10,7 @@
     "Pilihan gaya itu kontekstual: kalau ukuran data sudah terkontrol oleh API pakai yang paling mudah dibaca, tetapi untuk CLI migrasi atau sinkronisasi yang memproses puluhan ribu baris tulis imperatif",
     "Mulai optimasi dari bagian yang paling banyak memakan waktu — mengoptimasi kode yang cuma dipanggil sekali adalah membuang waktu",
     "Benchmark harus di production mode dengan data yang representatif dan profil browser bersih tanpa extension; dan alih-alih membenarkan hasil sendiri, berusahalah membuktikan hasil itu keliru"
-  ]
+  ],
+  "seoTitle": "Optimasi JavaScript: Avoid Work, Shape Objek | Ngobrolin WEB",
+  "metaDescription": "Prinsip avoid work, shape objek di JavaScript engine, map-filter-reduce versus loop, dan benchmark di production mode dengan profil browser bersih."
 }

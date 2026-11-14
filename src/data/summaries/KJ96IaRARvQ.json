@@ -10,5 +10,7 @@
     "Ganti framework bukan solusi performa: situs yang memuat 57MB sekali page load karena gambar 2.000x2.000 piksel ditampilkan pada 80 piksel akan tetap berat di Next.js, Astro, maupun Laravel",
     "Patokan praktis ukuran gambar: usahakan di bawah 100KB, mentok 150KB; pakai JPG atau WebP untuk foto dan PNG untuk logo/ikon, dan iframe seperti embed Instagram bisa diberi loading=\"lazy\" yang sudah baseline",
     "Open graph image yang 404 membuat link tidak menampilkan preview saat dibagikan di WhatsApp — kesalahan kecil tetapi fatal untuk promosi, dan bisa dicek cepat lewat heymeta.com"
-  ]
+  ],
+  "seoTitle": "Bedah Situs: Performance Panel dan CrUX | Ngobrolin WEB",
+  "metaDescription": "Dua situs dibedah langsung. Ivan menunjukkan cara membaca Performance panel di Chrome DevTools, beda lab test dan CrUX, dan gambar di balik halaman 57MB."
 }

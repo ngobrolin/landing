@@ -10,5 +10,7 @@
     "Disarankan menggunakan VPS untuk agentic coding untuk menghindari risiko AI menghapus file penting secara tidak sengaja",
     "Context window AI terbatas (seperti ingatan ikan Dory), sehingga dokumentasi dan persistent context sangat penting",
     "Tools populer saat ini: Cursor, Claude Code (Ampcode), Gemini CLI, GitHub Copilot, Kiro, dan berbagai UI generators seperti Loveable dan Bolt"
-  ]
+  ],
+  "seoTitle": "Agentic Coding: Cursor, Gemini CLI, Copilot | Ngobrolin WEB",
+  "metaDescription": "Coding assistant kini bisa membuat file dan menjalankan terminal sendiri. Ivan dan Eka membahas Cursor, Gemini CLI, spec-driven development dan VPS."
 }

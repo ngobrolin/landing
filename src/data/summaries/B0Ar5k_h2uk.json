@@ -10,5 +10,7 @@
     "Modul JavaScript adalah kunci yang akhirnya membuat web component bisa terenkapsulasi — sebelumnya di browser semuanya global lewat tag script",
     "Pemakaiannya justru menurun dari tahun ke tahun; dugaannya soal eksposur dan pengalaman developer — banyak boilerplate, penamaan lifecycle yang tidak intuitif, dan gaya berbasis kelas saat ekosistem bergerak ke fungsional",
     "Framework populer bisa dikompilasi menjadi custom element, dan hasilnya lebih kecil karena mesin komponennya sudah ada di browser dan tidak perlu ikut diunduh"
-  ]
+  ],
+  "seoTitle": "Web Components: Custom Element, Shadow DOM | Ngobrolin WEB",
+  "metaDescription": "Web component sudah tertanam di browser: template, custom element, shadow DOM dan slot, lalu kenapa pemakaiannya menurun sampai lahir Lit dan Stencil."
 }

@@ -10,5 +10,7 @@
     "Keputusan bisnisnya menarik: aplikasi native untuk macOS, Windows, dan Android tetap ada tapi siklus perawatannya dikurangi, dan pengembangan dialihkan ke versi web",
     "Alasannya soal ukuran — instalasi native butuh unduhan ratusan megabyte sampai lebih dari satu gigabyte, sementara versi webnya jauh lebih ringan karena modulnya dialirkan sesuai kebutuhan",
     "AI mendominasi acaranya: MediaPipe dan TensorFlow.js untuk object detection dan image segmentation, serta Vertex AI dengan Model Garden yang memungkinkan melatih model dari dokumentasi sendiri seperti dokumentasi React atau WordPress"
-  ]
+  ],
+  "seoTitle": "I/O Connect Bangalore: Mesin Kasir dan LEGO | Ngobrolin WEB",
+  "metaDescription": "Oleh-oleh dari I/O Connect Bangalore: mesin kasir yang dikendalikan Progressive Web App lewat Web Serial dan Web USB, LEGO Education Kit, dan Vertex AI."
 }

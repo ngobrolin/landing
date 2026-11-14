@@ -10,5 +10,7 @@
     "RGB punya sRGB sebagai versi standar, jadi penyerahan desain sebaiknya menyepakati yang mana supaya warnanya tidak melenceng",
     "Display P3 di spesifikasi CSS Color baru menjangkau warna yang sebelumnya tidak terjangkau — terasa untuk tampilan kaya, hampir tidak untuk teks dan dokumen",
     "CMYK adalah ranah percetakan dengan gamut lebih sempit dari RGB dan tanpa transparansi, jadi bukan pengganti yang setara di web"
-  ]
+  ],
+  "seoTitle": "Format Warna CSS: RGB, HSL, HWB dan OKLCH | Ngobrolin WEB",
+  "metaDescription": "Format warna di CSS dibandingkan satu per satu: nama warna dan kisah Rebecca Purple, RGB dan heksadesimal, HSL dan HWB, sRGB, Display P3, sampai CMYK."
 }

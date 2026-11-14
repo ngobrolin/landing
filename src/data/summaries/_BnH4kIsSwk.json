@@ -10,5 +10,7 @@
     "AI tidak punya mata: thumbnail gepeng karena flex-shrink, proporsi logo yang terlalu kecil, dan font yang tidak konsisten tidak akan diperbaiki kecuali kita screenshot dan menunjuknya secara eksplisit",
     "Blind spot terbesar adalah bidang yang bukan keahlian kita — salah satu penawarnya adalah meminta model yang berbeda me-review kode buatan model lain sebelum di-commit",
     "Token cepat habis karena setiap giliran mengirim ulang seluruh konteks; lebih baik buka sesi baru per task daripada compact berulang, dan pelajari mekanikanya dengan membuat chatbot vanilla sendiri"
-  ]
+  ],
+  "seoTitle": "Bedah appfirst.id: Alur Kerja Coding Agent | Ngobrolin WEB",
+  "metaDescription": "Khalid membangun appfirst.id dengan Next.js dan coding agent. Dibedah alur kajian teknisnya, query count di homepage, placeholder gallery dan boros token."
 }

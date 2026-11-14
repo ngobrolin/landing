@@ -10,5 +10,7 @@
     "Segala sesuatu setelah tanda tanya bukan lagi bagian jalur, sehingga garis miring di dalam parameter kueri tidak dianggap sebagai jalur",
     "Panjang maksimum URL berbeda jauh antara Chrome, Firefox, dan Safari — jadi berhati-hatilah menyelipkan JWT panjang ke dalamnya",
     "URI adalah payungnya: URL menunjuk berdasarkan lokasi, sedangkan URN menunjuk berdasarkan nama dan lazim dijumpai pada berkas konfigurasi SAML untuk single sign-on"
-  ]
+  ],
+  "seoTitle": "Anatomi URL: Skema, Host, Port dan Fragment | Ngobrolin WEB",
+  "metaDescription": "Bagian demi bagian sebuah URL, dari skema, host, port, jalur, parameter kueri sampai fragment, lalu beda URI, URL dan URN, dan batas panjangnya di browser."
 }

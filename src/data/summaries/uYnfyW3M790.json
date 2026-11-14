@@ -10,5 +10,7 @@
     "Diskusi tentang use case khusus seperti demo Web API, View Transition API, dan integrasi dengan WebContainer untuk live coding langsung di slide",
     "Opsi hosting dan deployment untuk slide berbasis kode termasuk GitHub Pages, Netlify, Vercel, dan kemampuan kolaborasi via Git atau GitHub Codespaces",
     "Alternatif lain seperti Marp (Markdown Presentation Ecosystem) yang lebih pure tanpa framework JavaScript, serta tools komersial seperti AI Presenter"
-  ]
+  ],
+  "seoTitle": "Slidev dan Tools Presentasi untuk Developer | Ngobrolin WEB",
+  "metaDescription": "Membandingkan PowerPoint, Keynote, Google Slides, Reveal.js dan Marp, dengan fokus pada Slidev: slide berbasis Markdown dan Vue dengan demo di browser."
 }

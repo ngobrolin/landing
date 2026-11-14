@@ -10,5 +10,7 @@
     "MediaPipe adalah open-source library Google untuk machine learning yang dapat berjalan di browser dengan model yang didownload dari server",
     "Transformers.js memungkinkan model Python berjalan di browser melalui WebAssembly dan ONNX runtime",
     "Perbedaan utama: Cloud AI (API wrapper ke layanan eksternal) vs Web AI (model berjalan di device/browser)"
-  ]
+  ],
+  "seoTitle": "Web AI: Model AI yang Berjalan di Browser | Ngobrolin WEB",
+  "metaDescription": "Web AI menjalankan model langsung di browser, berbeda dari Cloud AI yang memanggil API. Dibahas pula MediaPipe, TensorFlow.js, Transformers.js dan ONNX."
 }

@@ -10,5 +10,7 @@
     "IndexedDB berperilaku seperti basis data sungguhan — punya indeks, lebih cepat, dan satu-satunya yang bisa menyimpan blob",
     "Kapasitas IndexedDB sangat besar, di browser Chromium bisa sampai sebagian besar ruang disk, tapi berbeda tiap perangkat sehingga kegagalan transaksi tetap harus ditangani",
     "Sintaksnya kurang nyaman, dan dari situlah PouchDB yang mengikuti gaya CouchDB, Minimongo milik Meteor, dan RxDB menawarkan lapisan yang lebih ramah plus sinkronisasi"
-  ]
+  ],
+  "seoTitle": "localStorage, sessionStorage dan IndexedDB | Ngobrolin WEB",
+  "metaDescription": "Para host membandingkan umur localStorage dan sessionStorage, memakai localStorage untuk draft dan mode gelap, lalu beralih ke IndexedDB dan PouchDB."
 }

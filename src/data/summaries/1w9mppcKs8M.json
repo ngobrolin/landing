@@ -10,5 +10,7 @@
     "Transformers.js: Library JavaScript untuk Machine Learning di Browser - Library yang memungkinkan model Python (PyTorch/TensorFlow) dijalankan di JavaScript. Mendukung berbagai task seperti sentiment analysis, object detection, sketch recognition, dll. Menjadi foundation untuk tools seperti Visual Blocks.",
     "Visual Blocks: No-Code/Low Code untuk Prototyping AI - Tools berbasis drag-and-drop untuk bikin pipeline AI dengan visual interface. Memudahkan prototyping tanpa coding langsung, cocok untuk demonstrasi cara kerja model AI dengan berbagai use case.",
     "Chrome akan Include Built-in On-Device AI (Gemini Nano) - Chrome berencana menyertakan model AI langsung di browser, mirip konsep Docker layer. Use case utama: translation, summarization, code assistant. Ini akan mengurangi ukuran download karena sebagian model sudah ada di browser, dan bisa digunakan untuk aplikasi offline."
-  ]
+  ],
+  "seoTitle": "Web AI: LLM di Browser dan Gemini Nano | Ngobrolin WEB",
+  "metaDescription": "Kabar Web AI dari Google I/O: Gemma 2B jalan di browser lewat WebAssembly dan WebGPU, Transformers.js, Visual Blocks, dan rencana Gemini Nano di Chrome."
 }

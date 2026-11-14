@@ -10,5 +10,7 @@
     "Smart TV yang masih menggunakan Chromium versi lama memerlukan video.js versi lama dan menyulitkan proses testing karena ketersediaan device",
     "Video.js adalah open source video player yang paling matang dan lengkap, menjadi base untuk banyak fork dan implementasi lain",
     "Isu accessibility dan regulasi seperti GDPR serta PDP Indonesia memerlukan pendekatan khusus dalam implementasi video player"
-  ]
+  ],
+  "seoTitle": "Cloud Engineer Belajar Frontend dengan Astro | Ngobrolin WEB",
+  "metaDescription": "@imrenagi, cloud engineer yang dulu iOS engineer, bercerita belajar front-end dan membangun platform course sendiri dengan Astro, TypeScript dan Ansible."
 }

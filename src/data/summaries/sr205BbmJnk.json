@@ -10,5 +10,7 @@
     "Menurut para host, Effect sepadan untuk alur server-side yang sensitif seperti payment gateway, tetapi berlebihan untuk form atau counter sederhana.",
     "Kurva belajarnya tinggi: generator, error berbasis class, dan penulisan ulang kode lama, ditambah risiko bagi tim kecil kalau hanya satu orang yang memahaminya.",
     "Dokumentasi library sebaiknya memakai contoh yang realistis dan saling menyambung, bukan contoh mainan yang tidak menunjukkan kasus error-nya."
-  ]
+  ],
+  "seoTitle": "Effect TypeScript: Error Bertipe dan Retry | Ngobrolin WEB",
+  "metaDescription": "Ivan, Riza dan Eka membedah Effect versi 4: tipe sukses, error dan requirement, retry dan timeout bawaan, serta kapan Effect sepadan atau berlebihan."
 }

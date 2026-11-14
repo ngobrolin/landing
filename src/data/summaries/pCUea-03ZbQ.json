@@ -10,5 +10,7 @@
     "Tantangan lain termasuk dukungan dark mode yang terbatas, gambar yang terblokir oleh beberapa client untuk keamanan, dan kebutuhan link unsubscribe yang wajib untuk menghindari flagging sebagai spam.",
     "Tools untuk testing email seperti Litmus, Mailtrap, dan Put menyediakan cara untuk mempreview email di berbagai client, namun seringkali berbayar karena kompleksitas emulasi berbagai email client.",
     "VML (Vector Markup Language) kadang digunakan untuk conditional rendering khusus di Outlook, terutama untuk background images, meskipun ini adalah teknologi yang sudah usang dan sulit dikelola."
-  ]
+  ],
+  "seoTitle": "Email HTML: Layout Table, MJML dan Outlook | Ngobrolin WEB",
+  "metaDescription": "Template email HTML masih bergantung pada table dan CSS inline. Para host membahas beda email client, MJML, React Email, VML untuk Outlook, dan Litmus."
 }

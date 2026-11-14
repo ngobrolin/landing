@@ -10,5 +10,7 @@
     "CSP memiliki berbagai directive seperti script-src, style-src, img-src, default-src, dan fitur canggih seperti nonce dan hash untuk validasi integritas script yang dimuat",
     "Cross-Origin Resource Policy (CORP) berfokus pada mencegah website lain meng-embed resource kita (image, halaman web, dll) dalam konteks mereka sebagai perlindungan terhadap serangan side-channel seperti Spectre dan Meltdown",
     "Hampir semua framework web modern (Express.js, Laravel, Next.js, Go, dll) memiliki middleware atau konfigurasi bawaan untuk mengimplementasikan CORS, CSP, dan CORP dengan mudah"
-  ]
+  ],
+  "seoTitle": "CORS, CSP dan CORP: Keamanan Browser | Ngobrolin WEB",
+  "metaDescription": "Error CORS saat frontend dan backend terpisah dijelaskan dari Same-Origin Policy, lalu CSP untuk mencegah XSS dan CORP sebagai perlindungan dari Spectre."
 }

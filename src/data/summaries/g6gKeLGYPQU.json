@@ -10,5 +10,7 @@
     "Password manager adalah proteksi terbaik untuk orang tua dan pasangan karena ia tidak akan memunculkan kredensial di domain yang salah — typo satu karakter langsung ketahuan; passkey lebih aman lagi karena butuh biometrik",
     "OTP lewat SMS tidak aman: APK dengan permission membaca pesan bisa menangkapnya, dan pernah ada kasus OTP dibelokkan lewat jaringan seluler sehingga device korban maupun servernya sama-sama tidak disentuh",
     "India mewajibkan situs bank memakai subdomain di bawah bank.in yang hanya dipegang pemerintah — pendekatan struktural untuk membasmi domain phishing yang bisa ditiru dengan bank.go.id"
-  ]
+  ],
+  "seoTitle": "Scam dan Social Engineering: Cara Verifikasi | Ngobrolin WEB",
+  "metaDescription": "Ivan berbagi cara memverifikasi orang yang mengaku dari bank, modus APK pencuri OTP dan link Unicode, serta proteksi lewat password manager dan passkey."
 }

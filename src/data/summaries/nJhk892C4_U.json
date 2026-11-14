@@ -10,5 +10,7 @@
     "Sandbox untuk eksekusi kode bukan fitur teoretis: ada pengguna yang menjalankan script untuk membaca file ENV setelah membaca soal debate agent",
     "Waktu terbanyak justru habis di dokumentasi, bukan di kode — kode jadi murah, dan yang mahal sekarang adalah merancang produk serta menyampaikannya dengan contoh yang benar-benar bisa disalin dan dijalankan",
     "Cara belajarnya pragmatis: pahami common pattern dan kapan memakainya tanpa membedah isi SDK — tetapi untuk domain bisnisnya sendiri harus mendalam, karena di sistem trading selisih 0,01 sen pernah berarti dua juta dolar"
-  ]
+  ],
+  "seoTitle": "Anvia: Framework AI Agent dalam 22 Package | Ngobrolin WEB",
+  "metaDescription": "Indra, pembuat Anvia, menjelaskan kenapa agent adalah full managed runtime, bedanya dengan Mastra dan Vercel AI SDK, Anvia Studio, serta dynamic tools."
 }

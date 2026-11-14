@@ -10,5 +10,7 @@
     "Sintaks Playwright sengaja dibuat mirip Testing Library, termasuk getByRole yang berbasis accessibility — sehingga secara tidak langsung mendorong penulisan HTML yang semantik",
     "Paralelisme harus dirancang sendiri: test end-to-end sering bocor satu sama lain lewat database bersama, jadi login dijalankan sekali dulu lalu sisanya baru boleh paralel",
     "Standar dukungan browser di enterprise bisa berarti 4 browser kali 3 versi kali 3 ukuran viewport — 36 kombinasi untuk satu test, dan di situlah layanan terkelola seperti browser farm jadi masuk akal"
-  ]
+  ],
+  "seoTitle": "Playwright untuk Testing di Era Coding Agent | Ngobrolin WEB",
+  "metaDescription": "Playwright di era coding agent: test end-to-end yang dijalankan semalaman, quality gate sebelum PR, kapan memilih CLI atau MCP, UI mode, dan test paralel."
 }

@@ -10,5 +10,7 @@
     "Alasan tetap memakai Tailwind meski AI yang menulis kode bukan soal ketikan tetapi struktur — ia memaksa berpikir per komponen dan menyediakan design token yang sudah jadi konvensi bersama manusia dan model",
     "Pakai role seperti background dan foreground, bukan warna mentah seperti green-700 — inilah yang membuat menambahkan dark mode belakangan jadi pekerjaan sebentar, bukan proyek sebulan; dan AI perlu diarahkan agar tidak mengarang warna sendiri",
     "Fundamental paling terasa gunanya saat AI mulai berputar-putar: orang yang paham bisa langsung menunjuk file dan fungsi yang bermasalah, dan itu sekaligus memangkas token karena model tidak perlu menyisir seluruh codebase"
-  ]
+  ],
+  "seoTitle": "Tailwind 4 di Era AI: Konfigurasi Lewat CSS | Ngobrolin WEB",
+  "metaDescription": "Tailwind melepas sebagian karyawan saat iklan di dokumentasinya anjlok karena coding agent, sementara Tailwind 4 kini dikonfigurasi lewat satu file CSS."
 }

@@ -10,5 +10,7 @@
     "WebAssembly terasa senyap tapi adopsinya justru besar di produk berat, karena nilainya adalah tidak perlu menulis ulang basis kode raksasa demi bisa jalan di web",
     "Perkembangannya sempat tersendat karena versi awal belum mendukung bahasa yang punya pengelola memori otomatis — itulah yang dibuka di versi berikutnya",
     "Dampaknya beruntun: basis data, pengolah video, sampai mesin permainan kini bisa berjalan langsung di sisi pengunjung tanpa perjalanan ke server"
-  ]
+  ],
+  "seoTitle": "Web Authentication API dan WebAssembly | Ngobrolin WEB",
+  "metaDescription": "Dua topik Google I/O dibedah: masuk tanpa kata sandi lewat Web authentication API yang hanya mengirim kunci publik, dan WebAssembly di produk berat."
 }

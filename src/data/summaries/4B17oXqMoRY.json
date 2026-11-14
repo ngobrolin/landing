@@ -10,5 +10,7 @@
     "Ada dua konsep split dalam micro front-end: horizontal split (satu halaman dengan multiple aplikasi/packages) dan vertical split (satu aplikasi per halaman seperti pendekatan Vercel)",
     "Module Federation adalah salah satu alat yang paling populer untuk mengimplementasikan micro front-end, meskipun terikat dengan webpack dan memiliki batasan di Next.js App Router",
     "Micro front-end lebih bersifat organisasi/pattern daripada teknis - tentang bagaimana memecah satu aplikasi menjadi build yang terpisah untuk tim yang berbeda, bukan sekadar menggunakan teknologi tertentu"
-  ]
+  ],
+  "seoTitle": "Micro Front-end: Kapan Dibutuhkan Sebuah Tim | Ngobrolin WEB",
+  "metaDescription": "Ivan dan Mas Irvan Maulana membahas micro front-end: kapan tim membutuhkannya, memulai dari monolit, horizontal vs vertical split, dan Module Federation."
 }

@@ -13,5 +13,7 @@
     "Frontend framework landscape: React masih dominan dengan stabilization, Vue mengalami growth moderat, Angular secara konsisten turun, Svelte dan Solid.js mulai mendapat traction namun penggunaan production masih terbatas karena ekosistem job market",
     "Security concerns muncul terkait ketergantungan pada banyak external packages dan libraries, serta poor documentation quality untuk beberapa teknologi",
     "Safari mendapat sentimen negatif signifikan terkait ad blocking controversy dan keterlambatan mengadopsi web standards modern dibandingkan Chrome dan Firefox"
-  ]
+  ],
+  "seoTitle": "State of JS 2023: Vite Menggeser Webpack | Ngobrolin WEB",
+  "metaDescription": "Demografi responden State of JS 2023, fitur seperti nullish coalescing dan top-level await, pain point ESM vs CJS, dan Vite yang makin menggeser Webpack."
 }

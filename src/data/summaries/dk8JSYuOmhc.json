@@ -10,5 +10,7 @@
     "Website memiliki fitur RSS feed, pencarian episode, dan halaman detail untuk setiap episode dengan catatan yang diambil dari deskripsi video",
     "Analisis performa menggunakan Chrome DevTools menunjukkan TTFB 215ms (bagus), penggunaan HTTP/3 untuk beberapa resource, dan area yang perlu ditingkatkan seperti font display swap dan preconnect untuk domain YouTube image",
     "Rencana pengembangan masa depan termasuk menambahkan fitur transcript otomatis dengan AI, ringkasan episode, dan perbaikan performa serta responsivitas mobile"
-  ]
+  ],
+  "seoTitle": "Bedah Situs ngobrol.in: Elixir dan Phoenix | Ngobrolin WEB",
+  "metaDescription": "Tim Ngobrolin WEB membedah ngobrol.in, situs yang dibangun dengan Elixir, Phoenix dan AI tools, dideploy lewat Coolify, lalu diukur di DevTools."
 }

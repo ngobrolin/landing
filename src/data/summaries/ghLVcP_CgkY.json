@@ -10,5 +10,7 @@
     "Container query menjawab keterbatasan media query yang hanya tahu ukuran viewport, padahal satu komponen bisa ditempatkan di sidebar sempit meski layarnya lebar — fitur ini diminta sejak 2013 dan baru stabil sembilan tahun kemudian",
     "Untuk memutuskan mengadopsi fitur yang belum merata dukungannya, kirim deteksi dukungan API ke analytics dan kumpulkan datanya beberapa minggu — jadi seperti caniuse khusus pengguna kita sendiri",
     "Framework berganti tetapi fundamental bertahan: prinsip prefetch, render blocking, dan hidrasi tetap sama entah memakai React, Svelte, atau Angular"
-  ]
+  ],
+  "seoTitle": "Inline CSS, Render Blocking, Container Query | Ngobrolin WEB",
+  "metaDescription": "Inline CSS atau file terpisah: kenapa CSS render blocking menahan LCP, patokan 5KB, container query versus media query, dan cara menimbang polyfill."
 }
