@@ -10,5 +10,7 @@
     "Tangkapan layar seluruh halaman bisa dilakukan tanpa extension apa pun, bahkan per elemen lewat klik kanan",
     "Request jaringan tertentu bisa diblokir, berguna saat memeriksa situs tanpa gangguan skrip iklan yang bukan urusan kita",
     "Palet perintah lewat Command+Shift+P mempercepat semuanya, dan Firefox pernah punya 3D view untuk melihat lapisan halaman sebelum dihapus karena berat"
-  ]
+  ],
+  "seoTitle": "Fitur Chrome DevTools yang Sering Luput | Ngobrolin WEB",
+  "metaDescription": "Chrome DevTools lahir dari inspirasi Firebug. Tur fiturnya mencakup panduan grid dan flexbox, tangkapan layar penuh, blokir request, dan Command+Shift+P."
 }

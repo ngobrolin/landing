@@ -10,5 +10,7 @@
     "CDN masih masuk akal untuk satu atau dua dependensi, tetapi begitu ada lima sampai sepuluh library yang saling bergantung, satu request yang gagal membuat seluruh aplikasi rusak — dan tidak ada tree shaking",
     "WebContainers dari StackBlitz menjalankan sistem operasi berbasis WebAssembly di dalam browser, dibangun dengan bekerja erat bersama tim standar web agar bisa lintas engine",
     "Bundler bekerja diam-diam sehingga jarang dipikirkan, padahal di dalamnya ada keputusan arsitektur yang serius seperti strategi hashing untuk mendeteksi file mana yang harus diproses ulang saat satu file berubah"
-  ]
+  ],
+  "seoTitle": "Cara Kerja Vite: Development Tanpa Bundling | Ngobrolin WEB",
+  "metaDescription": "Kenapa hot module reload Vite terasa instan: mode development tanpa bundling, Rollup dan esbuild untuk produksi, ditambah Vitest dan WebContainers."
 }

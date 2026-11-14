@@ -10,5 +10,7 @@
     "Gayanya beragam: Smarty di era PHP lama, Blade di Laravel, EJS di Node, sampai Jade yang menghapus tag penutup dan hanya mengandalkan indentasi",
     "Pilihan gaya sering soal selera dan kenyamanan mengetik — kurung kurawal ganda ala Handlebars lebih cepat diketik daripada kombinasi bersimbol",
     "Sintaks yang menampilkan isi apa adanya tanpa escaping berbahaya kalau isinya dari pengunjung — aturannya sanitize early, escape late"
-  ]
+  ],
+  "seoTitle": "Templating Language: Blade, EJS, Jade, JSX | Ngobrolin WEB",
+  "metaDescription": "Templating language lahir karena HTML tidak punya logika. Gaya Smarty, Blade, EJS dan Jade dibandingkan, plus bahaya menampilkan isi tanpa escaping."
 }

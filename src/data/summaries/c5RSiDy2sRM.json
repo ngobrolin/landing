@@ -10,5 +10,7 @@
     "Pattern Recognition memungkinkan kita menggunakan solusi yang sudah ada untuk masalah serupa, mempercepat penyelesaian, dan menciptakan standarisasi seperti framework, component library, atau SOP",
     "Abstraction membantu kita fokus pada detail yang penting dan mengabaikan hal-hal yang tidak relevan, seperti ketika mencari akar masalah dengan teknik 5 Whys atau fokus pada core functionality saat development",
     "Algorithm Design bukan hanya tentang kode tetapi juga tentang SOP dan workflow dalam pekerjaan seperti deployment flow, yang bisa di-hand over ke orang lain karena terdokumentasi dengan baik"
-  ]
+  ],
+  "seoTitle": "Computational Thinking: Empat Pilar AADP | Ngobrolin WEB",
+  "metaDescription": "Computational thinking dibahas lewat empat pilar AADP: abstraction, algorithm design, decomposition, dan pattern recognition, di dalam maupun di luar kode."
 }

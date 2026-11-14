@@ -9,5 +9,7 @@
     "Perbedaan rem/em/px dan dampaknya pada aksesibilitas (zoom dan ukuran teks)",
     "Viewport units modern (svh/lvh/dvh) untuk mengatasi masalah toolbar mobile dan 100vh",
     "Peran meta viewport dan custom properties dalam memastikan layout responsif bekerja konsisten"
-  ]
+  ],
+  "seoTitle": "CSS Unit: rem, em, px dan Viewport Units | Ngobrolin WEB",
+  "metaDescription": "Satuan CSS dibahas dari sisi aksesibilitas: rem, em dan px, svh dan dvh untuk toolbar mobile, container queries, dan meta viewport, didahului insiden AWS."
 }

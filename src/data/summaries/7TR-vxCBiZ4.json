@@ -10,5 +10,7 @@
     "Security seringkali berbanding terbalik dengan productivity dan performance, sehingga perlu dicari keseimbangan yang tepat",
     "Dependency management menjadi penting karena vulnerability di dependency bisa berdampak ke seluruh aplikasi, sebagaimana dibahas dalam artikel Dan Abramov tentang npm audit",
     "Penting untuk menjadi advocate di tempat kerja masing-masing tentang security, performance, dan accessibility dengan pendekatan 'by design' sejak awal pengembangan"
-  ]
+  ],
+  "seoTitle": "Web Security: XSS, Snyk dan Dependabot | Ngobrolin WEB",
+  "metaDescription": "Mas Irfan, tamu untuk ketiga kalinya, membahas keamanan web sebagai tanggung jawab seluruh tim: XSS, tools seperti CodeQL dan Snyk, serta npm audit."
 }

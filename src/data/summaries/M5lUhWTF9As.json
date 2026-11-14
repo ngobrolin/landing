@@ -10,5 +10,7 @@
     "Untuk kode sederhana, IntelliSense yang sudah ada sering lebih cepat daripada menunggu Copilot atau Code Whisperer",
     "Berguna untuk mengingatkan sintaks yang kita pahami tapi malas mengetik lengkapnya, seperti konfigurasi Nginx atau perintah curl beserta header-nya",
     "Pemakaian di luar kode juga terasa: merapikan bahasa Inggris pada deskripsi pull request GitHub, dan menerjemahkan pesan ke klien Jepang lewat DeepL sesuai budayanya"
-  ]
+  ],
+  "seoTitle": "ChatGPT dan Copilot: Berguna untuk Regex | Ngobrolin WEB",
+  "metaDescription": "ChatGPT gagal menulis fitur utuh dari tiket Jira, tapi berguna untuk regex, data uji, dan sintaks Nginx. Copilot dan Code Whisperer dicoba untuk kode."
 }

@@ -10,5 +10,7 @@
     "Phoenix framework dengan LiveView memungkinkan pembuatan real-time web applications yang sangat efisien menggunakan WebSocket dan hanya mengirimkan perubahan HTML (diff) ke klien",
     "Elixir mampu menskalakan aplikasi secara vertikal (menambah resource pada satu mesin) maupun horizontal (menambah lebih banyak mesin dengan networking built-in)",
     "Beberapa perusahaan besar telah berhasil mengurangi penggunaan server secara drastis dengan bermigrasi ke Elixir, contoh yang dibahas adalah Bleacher Report yang mengurangi dari 120+ server menjadi hanya 5 server"
-  ]
+  ],
+  "seoTitle": "Elixir dan Phoenix LiveView di Atas BEAM | Ngobrolin WEB",
+  "metaDescription": "Alan bercerita pindah dari Ruby ke Elixir: concurrency tanpa mutex di BEAM, OTP, Phoenix LiveView, dan Bleacher Report yang memangkas 120+ server jadi 5."
 }

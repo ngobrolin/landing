@@ -10,5 +10,7 @@
     "HTTP 1.0 dan 1.1 menambahkan status code, tipe konten, kompresi gzip, caching, unggahan berkas, dan keep-alive",
     "Membangun protokol semacam ini bukan soal menulis kode melainkan menyusun RFC lebih dulu, karena semua pihak harus sepakat sebelum ada yang mengimplementasikan",
     "Saran keamanan kecil tapi praktis: jangan bocorkan identitas web server di header respons, atau sekalian isi dengan yang mengecoh"
-  ]
+  ],
+  "seoTitle": "Sejarah HTTP: 0.9, Telnet, RFC dan HTTP/3 | Ngobrolin WEB",
+  "metaDescription": "Berawal dari domain .dev yang memaksa HTTPS, obrolan menelusuri HTTP 0.9 lewat Telnet, tambahan di HTTP 1.0 dan 1.1, peran RFC, dan HTTP/3 di atas UDP."
 }

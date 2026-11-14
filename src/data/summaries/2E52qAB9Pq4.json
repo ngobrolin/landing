@@ -10,5 +10,7 @@
     "Custom Scrollbar: scrollbar-width sudah baseline, scrollbar-color masih terbatas (Safari belum mendukung color)",
     "Cross-Document View Transitions: Animasi transisi halaman untuk MPA tanpa perlu mengubah ke SPA (limited availability)",
     "Scroll-Driven Animations: Animasi parallax dan efek scroll murni dengan CSS, tidak perlu JavaScript (limited availability)"
-  ]
+  ],
+  "seoTitle": "CSS Wrapped 2024: Anchor dan Field Sizing | Ngobrolin WEB",
+  "metaDescription": "Ivan dan Eka menjajal CSS Wrapped 2024: field sizing, interpolate-size, details eksklusif, anchor positioning dan cross-document view transitions."
 }

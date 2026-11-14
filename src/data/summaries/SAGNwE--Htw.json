@@ -10,5 +10,7 @@
     "Fitur-fitur baru untuk animasi dan transisi yang lebih powerful",
     "Selector Has() untuk seleksi elemen berdasarkan child elements",
     "Peningkatan dukungan browser untuk berbagai fitur CSS modern"
-  ]
+  ],
+  "seoTitle": "CSS Wrapped 2023: Nesting, :has() dan @layer | Ngobrolin WEB",
+  "metaDescription": "Para host membaca CSS Wrapped dari Adam Argyle dan Una Kravets: View Transitions API, CSS Nesting, Container Queries, @layer dan selector :has()."
 }

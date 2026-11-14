@@ -10,5 +10,7 @@
     "Pola baru era coding agent: tiket dipakai sebagai memori antar-sesi — agent diminta menulis hasil dan alasan keputusan di komentar tiket supaya agent berikutnya punya konteks sebelum melanjutkan",
     "Beads menarik idenya tetapi masalah out of sync antara SQLite lokal dan JSONL di branch sync bisa menghabiskan waktu berjam-jam, sehingga ditinggalkan demi GitHub Projects, Linear, atau ticket/tk yang murni file-based",
     "Time tracking punya spektrum yang berbeda: Time Doctor merekam screenshot layar karyawan sehingga terasa terlalu jauh, sedangkan Harvest dan Toggl hanya mencatat alokasi jam — bahkan waktu memikirkan project sambil duduk di sofa tetap dihitung billable"
-  ]
+  ],
+  "seoTitle": "Jira, GitHub Projects dan Tiket untuk Agent | Ngobrolin WEB",
+  "metaDescription": "Tools project management dari Jira dengan JQL, GitHub Projects sampai Plane.so ditimbang, lalu pola era coding agent: tiket sebagai memori antar sesi."
 }

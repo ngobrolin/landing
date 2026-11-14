@@ -10,5 +10,7 @@
     "Flash punya bahasa skripnya sendiri yang masih satu turunan dengan JavaScript modern, dan justru interaktivitasnya yang mendorong JavaScript naik dari sekadar pembantu validasi form",
     "Static site generation berakar dari pre-render: dulu HTML khusus disiapkan untuk bot karena mesin pencari belum bisa menjalankan JavaScript, lalu disadari lebih baik dikirim ke pengunjung juga",
     "Menghasilkan halaman statis tidak berskala untuk situs berita dengan jutaan artikel, sebab mengubah satu menu berarti membangun ulang seluruhnya"
-  ]
+  ],
+  "seoTitle": "SSR dan SSG: Sejarah Metode Rendering Web | Ngobrolin WEB",
+  "metaDescription": "Asal-usul SSR dan SSG ditelusuri dari halaman statis yang diketik manual, Perl lewat CGI, PHP, Gmail, sampai pre-render HTML untuk bot mesin pencari."
 }

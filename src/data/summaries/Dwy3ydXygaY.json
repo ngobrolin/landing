@@ -10,5 +10,7 @@
     "Kalau mau mulai TypeScript, ganti dulu .js jadi .ts lalu perbaiki satu per satu sambil belajar; memakai any di mana-mana sama saja dengan tidak memakai TypeScript",
     "Dalam satu cerita interview, menyarankan pemasangan plugin justru dianggap red flag — yang diminta adalah menelusuri sendiri penyebab lambatnya, seperti gambar kegedean dan font yang tidak terpakai",
     "Jangan belajar hanya karena hype: fundamental dan kemampuan memecahkan masalah lebih tahan lama, tapi penguasaan bahasa tetap perlu karena tanpa lolos tes coding kita tidak sampai ke tahap menunjukkannya"
-  ]
+  ],
+  "seoTitle": "Tren Web 2023: RSS, HTML First, Rust dan Zig | Ngobrolin WEB",
+  "metaDescription": "Riza, Eka dan Ivan memilih hal yang ingin mereka lirik di 2023: RSS dan ActivityPub, framework HTML first, perkakas berbasis Rust, dan WebAssembly."
 }

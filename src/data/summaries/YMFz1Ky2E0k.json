@@ -10,5 +10,7 @@
     "Origin trial berarti pemilik situs yang mendaftar dan pengunjungnya tidak perlu melakukan apa-apa, sedangkan flag berarti penggunanya sendiri yang harus mengaktifkan",
     "Galeri contoh aplikasi nyata berguna bukan hanya untuk belajar tapi juga untuk meyakinkan tim bahwa hal seperti itu benar-benar bisa dibangun di web",
     "Kekhawatiran bahwa semuanya hanya jalan di satu keluarga browser wajar, tapi karena bentuknya spesifikasi terbuka, beberapa API sudah diadopsi vendor lain"
-  ]
+  ],
+  "seoTitle": "Proyek Fugu: Kemampuan Native di Browser | Ngobrolin WEB",
+  "metaDescription": "Proyek Fugu, alias web capabilities project, membawa kamera, Bluetooth, USB dan akses berkas ke web. Dibahas tahapan flag, origin trial dan keamanannya."
 }

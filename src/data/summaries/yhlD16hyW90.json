@@ -10,5 +10,7 @@
     "Celah keamanan paling rawan bukan teknis melainkan manusia: paket palsu yang namanya sengaja dibuat mirip agar tertukar saat salah ketik",
     "Munculnya Yarn dan pnpm justru menyehatkan npm — masing-masing membawa gagasan baru yang kemudian ikut diadopsi",
     "Yarn membawa cache lokal dan workspaces, sementara pnpm membawa hard link agar berkas dibagi antar proyek dan tidak boros ruang disk"
-  ]
+  ],
+  "seoTitle": "Package Manager: dari dpkg sampai pnpm | Ngobrolin WEB",
+  "metaDescription": "Asal-usul package manager ditelusuri dari dpkg dan rpm di Linux, insiden left-pad, paket palsu dengan nama mirip, sampai cache Yarn dan hard link pnpm."
 }

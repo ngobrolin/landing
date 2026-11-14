@@ -13,5 +13,7 @@
     "Pain points utama JavaScript modern: excessive dominance (React terlalu dominan), choice overload yang membingungkan developer baru, dokumentasi yang kurang (terutama Nuxt dan framework baru), terlalu banyak \"magic\" yang menyembunyikan konfigurasi, dan isu vendor lock-in",
     "Testing penting minimal untuk critical business scenarios seperti login dan page loading, membantu mencegah regresi bug dan memberikan kepercayaan diri saat deploy",
     "Diskusi juga menyentuh perbedaan antara framework yang battery-included (lengkap dengan berbagai fitur) versus framework yang minimalis, dan pentingnya menemukan keseimbangan antara kemudahan dan kustomisasi"
-  ]
+  ],
+  "seoTitle": "State of JS 2023: Meta Framework dan Testing | Ngobrolin WEB",
+  "metaDescription": "Lanjutan State of JavaScript 2023: Next.js dan Astro di meta framework, Vitest dan Playwright di testing, Vite di build tools, dan keluhan developer."
 }

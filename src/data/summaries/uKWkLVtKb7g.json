@@ -10,5 +10,7 @@
     "Font jadi biang CLS karena fallback dan web font punya lebar serta line height berbeda; diakali lewat Fontaine, properti size-adjust, ascent-override dan descent-override, atau font matcher di meowni.ca",
     "Iklan pihak ketiga adalah kasus tersulit karena isinya tidak diketahui, tidak seperti gambar yang setidaknya bisa ditanyakan ukurannya",
     "Layout Instability API mengukur pergeseran secara terprogram dan lebih granular daripada skor CLS-nya, sementara pemantauan rutin memakai Google Search Console dan performance budget Lighthouse CI di alur integrasi"
-  ]
+  ],
+  "seoTitle": "CLS: aspect-ratio, line-clamp dan Font | Ngobrolin WEB",
+  "metaDescription": "Jessica Cecilia, front-end engineer di Tokopedia, membahas penyebab CLS dan cara menahannya: aspect-ratio, line-clamp, fallback font, serta iklan."
 }

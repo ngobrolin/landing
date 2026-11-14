@@ -10,5 +10,7 @@
     "Fitur penting HTMX meliputi: hx-target untuk menentukan elemen yang akan diupdate, hx-swap untuk mengontrol cara swapping (innerHTML, outerHTML, beforebegin, afterend, dll), hx-indicator untuk loading state, dan hx-boost untuk progressive enhancement.",
     "HTMX dapat dikombinasikan dengan berbagai backend (Go, PHP, Python, Node.js) dan framework lain seperti Astro untuk API routing yang baik, serta Alpine.js untuk state management client-side tambahan.",
     "Untuk fitur real-time, HTMX mendukung polling, SSE (Server-Sent Events), dan WebSocket melalui extensions, menjadikannya alternatif yang menarik bagi developer full-stack atau backend yang ingin mengurangi kompleksitas frontend."
-  ]
+  ],
+  "seoTitle": "HTMX: HTML over the Wire, hx-get dan hx-swap | Ngobrolin WEB",
+  "metaDescription": "HTMX memberi elemen HTML mana pun kemampuan mengirim request lewat atribut khusus. Demo coding dengan Hono memakai hx-get, hx-target, hx-swap dan hx-boost."
 }

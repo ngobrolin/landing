@@ -10,5 +10,7 @@
     "Splitting bundle terlalu banyak meningkatkan frekuensi kejadian error intermiten",
     "Screenshot atau dokumentasi sebelum melakukan perubahan konfigurasi sangat krusial untuk recovery",
     "Cache adalah pedang bermata dua - mempercepat performa tapi juga menjadi sumber masalah kompleks"
-  ]
+  ],
+  "seoTitle": "Horor Engineering: MIME Type dan Double CDN | Ngobrolin WEB",
+  "metaDescription": "Mas Zain berbagi dua cerita horor engineering: JavaScript tak dieksekusi akibat MIME type salah, dan error intermiten dari Cloudflare di depan CloudFront."
 }

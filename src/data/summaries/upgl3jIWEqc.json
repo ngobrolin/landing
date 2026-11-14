@@ -10,5 +10,7 @@
     "Turbopack diklaim lebih cepat hingga 96% dibanding webpack dan dalam status RC untuk production, namun banyak developer yang masih ragu untuk menggunakannya di lingkungan production karena masih eksperimental.",
     "Partial Pre-rendering (PPR) memungkinkan kombinasi antara shell/static content dan dynamic content dalam satu halaman, mirip dengan konsep Island architecture dan App Shell pattern di PWA.",
     "Diskusi juga mencakup alternatif framework seperti Remix, Astro, Hono, Fresh (Deno), dan Elysia JS sebagai pilihan yang lebih stabil, serta konsep modern monolith menggunakan Laravel + Inertia.js untuk developer PHP yang ingin UI modern tanpa kompleksitas full-stack JavaScript."
-  ]
+  ],
+  "seoTitle": "Next.js 14: Server Actions, PPR dan Caching | Ngobrolin WEB",
+  "metaDescription": "Keluhan atas update Next.js yang terlalu cepat membuka obrolan soal Turbopack, Server Actions, PPR, dan caching bawaan yang jadi opt-in di versi 15."
 }

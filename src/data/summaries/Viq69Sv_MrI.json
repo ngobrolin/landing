@@ -10,5 +10,7 @@
     "Artikel referensi dari Smashing Magazine (2020) menjelaskan DI dalam perspektif web development",
     "Konsep DI relevan untuk interview dan penting dipahami untuk arsitektur aplikasi yang baik",
     "Kolaborasi dengan DomaiNesia: promo code NGOBROLINVPSDN untuk diskon 50% cloud VPS"
-  ]
+  ],
+  "seoTitle": "Dependency Injection di JavaScript | Ngobrolin WEB",
+  "metaDescription": "Dependency Injection dijelaskan lewat kelas Car dan Engine di JavaScript, beserta Inversion of Control, prinsip SOLID dan kode yang lebih mudah di-test."
 }

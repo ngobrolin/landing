@@ -10,5 +10,7 @@
     "Koneksi dari Cloudflare ke server asal sering masih HTTP; pasang sertifikat di server agar jalur di belakang proxy juga terenkripsi.",
     "Rotasi API key secara berkala dan transparansi saat insiden, seperti post-mortem GitLab saat insiden database-nya dulu, lebih baik daripada menutup-nutupi masalah.",
     "Pendekatan yang didemokan memakai image aplikasi yang tidak bisa ditulis dan di-build lewat CI/CD untuk mempermudah deploy ulang."
-  ]
+  ],
+  "seoTitle": "Celah Keamanan PHP, Node.js dan eMudhra | Ngobrolin WEB",
+  "metaDescription": "Riza, Ivan dan Eka membahas minggu Blacktober: celah PHP, Node.js dan sertifikat eMudhra, cara mitigasinya, rotasi API key, lalu demo WordPress di Dokploy."
 }

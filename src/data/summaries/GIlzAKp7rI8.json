@@ -10,5 +10,7 @@
     "Font Awesome ditinggalkan sebagai web font karena memuat ribuan ikon demi memakai dua di antaranya jelas boros, dan karena font memang dibuat untuk teks",
     "Kelemahan ikon berbasis font terlihat saat lambat dimuat: yang muncul justru huruf-huruf aneh alih-alih ikonnya",
     "Contoh ekstremnya dynamic favicon yang mengikuti dark mode lewat CSS di dalam berkasnya, dan charting library yang seluruh grafiknya dirakit dari SVG tanpa JavaScript"
-  ]
+  ],
+  "seoTitle": "SVG Inline untuk Ikon, Logo dan Favicon | Ngobrolin WEB",
+  "metaDescription": "SVG berupa teks XML yang tajam di ukuran apa pun. Dibahas inline SVG untuk logo, kenapa Font Awesome berhenti jadi web font, dan favicon dinamis."
 }

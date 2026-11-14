@@ -10,5 +10,7 @@
     "Make it Work, Make it Beautiful - Definition of done bukan hanya kode berjalan, tapi juga kode yang sudah rapi dan refactored. Proses: tulis imperatif dulu (make it work), lalu refactor menjadi deklaratif (make it beautiful).",
     "Early Return dan Konsistensi - Teknik seperti early return, satu tipe data return, dan konsistensi code style membantu mengurangi kompleksitas kognitif saat membaca kode.",
     "Menulis Kode Hanya 25% - Dari 100% waktu development, hanya 25% untuk menulis kode, 50% untuk berpikir/imajinasi, dan 25% untuk testing. Refactoring adalah langkah penting setelah kode berjalan."
-  ]
+  ],
+  "seoTitle": "Refactoring to Collections karya Adam Wathan | Ngobrolin WEB",
+  "metaDescription": "Buku Refactoring to Collections karya Adam Wathan dibedah: kode tanpa loop dengan map, filter dan reduce, early return, serta everyone is replaceable."
 }

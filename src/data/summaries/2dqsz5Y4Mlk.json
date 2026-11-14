@@ -10,5 +10,7 @@
     "Code review oleh manusia sebenarnya sejenis pemeriksaan statis juga — maka ESLint dan Prettier sebaiknya lolos dulu sebelum merepotkan mata manusia",
     "Bahasa yang lebih muda seperti Go menyertakan formatter sejak awal, sementara JavaScript harus menunggu komunitasnya membuat sendiri",
     "Aturan yang terasa merepotkan biasanya warisan setup awal proyek, saat orang masih idealis sebelum dikejar tenggat dan akhirnya menyalin konfigurasi Airbnb"
-  ]
+  ],
+  "seoTitle": "Linter: Static Code Analysis dengan ESLint | Ngobrolin WEB",
+  "metaDescription": "Linter sebagai lapisan pertama penjaga kualitas: ESLint dan Prettier sebelum code review, kutipan Kent C. Dodds soal static analysis, dan config Airbnb."
 }

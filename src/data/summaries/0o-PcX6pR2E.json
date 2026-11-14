@@ -10,5 +10,7 @@
     "Helper bawaan untuk cookies memudahkan operasi get, set, dan delete dengan TypeScript auto-completion",
     "Ekosistem adapter yang luas memungkinkan deployment ke berbagai platform seperti Node.js, Cloudflare Workers, Vercel, dan Netlify",
     "AstroDB menyediakan ORM sederhana dengan koneksi ke libSQL, SQLite, atau database lain"
-  ]
+  ],
+  "seoTitle": "Astro Actions, Server Islands dan Adapter | Ngobrolin WEB",
+  "metaDescription": "Sisi server Astro: file-based routing dan API routes, middleware, helper cookies, Server Islands, Astro Actions dengan type safety, dan adapter deploy."
 }

@@ -10,5 +10,7 @@
     "Single sign-on bekerja lewat server otentikasi tersendiri: domain lain mengalihkan pengguna ke sana, lalu menerima token untuk diverifikasi antar server",
     "OAuth mengembalikan access token berumur pendek beserta refresh token berumur panjang, dan izin yang lebih sensitif harus diminta lewat scope terpisah",
     "Payload JWT bisa dibaca siapa saja — yang menjaga keamanannya adalah tanda tangan, jadi server harus menolak permintaan yang signature-nya tidak terverifikasi"
-  ]
+  ],
+  "seoTitle": "Otentikasi vs Otorisasi: API Key dan OAuth | Ngobrolin WEB",
+  "metaDescription": "Otentikasi dibedakan dari otorisasi lewat analogi bandara, lalu dibahas API key publik dan privat, basic dan bearer, OAuth untuk single sign-on, dan JWT."
 }

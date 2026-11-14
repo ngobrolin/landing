@@ -10,5 +10,7 @@
     "Chromium sudah berupa browser lengkap dan open source; analoginya seperti kernel Linux yang di atasnya ada berbagai distro, sementara Chrome, Edge, Opera, Vivaldi, dan Brave adalah lapisan vendor masing-masing",
     "Opera Mini dulu cepat karena punya server perantara yang merender halaman jadi markup sendiri sebelum dikirim ke ponsel — hemat data, tapi dukungannya suka-suka mereka dan tidak mengikuti standar apa pun",
     "Interop adalah forum tempat semua vendor besar akhirnya sepakat memilih beberapa focus area per tahun berdasarkan masukan komunitas, lalu skornya diumumkan di akhir tahun dari hasil pengujian yang repositorinya terbuka"
-  ]
+  ],
+  "seoTitle": "Sejarah Browser: Netscape, WebKit dan Blink | Ngobrolin WEB",
+  "metaDescription": "Sejarah browser dari Tim Berners-Lee dan Mosaic, perang Netscape melawan Microsoft, tiga mesin yang tersisa, aturan WebKit di iOS, sampai forum Interop."
 }

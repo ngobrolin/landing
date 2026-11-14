@@ -10,5 +10,7 @@
     "Frontend developer bisa bekerja paralel dengan backend menggunakan fake data dari library seperti Faker",
     "Storybook membantu mendokumentasikan edge cases seperti state hover, disabled, text panjang, dan dukungan RTL (right-to-left)",
     "Kolaborasi dengan DomaiNesia untuk cloud hosting dengan promo code 'ngobrolin'"
-  ]
+  ],
+  "seoTitle": "Storybook, Design System dan Atomic Design | Ngobrolin WEB",
+  "metaDescription": "Storybook kini lebih ringan setelah pindah ke Vite. Dibahas pula Atomic Design, visual testing di Chromatic, fake data dengan Faker, dan state komponen."
 }

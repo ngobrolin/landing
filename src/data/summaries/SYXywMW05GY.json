@@ -10,5 +10,7 @@
     "Ketiga metrik Core Web Vitals mewakili hal berbeda — LCP untuk kecepatan tampil, CLS untuk kestabilan, INP untuk responsivitas",
     "Untuk situs penuh gambar: pakai srcset dan tag picture, batasi ukuran maksimal, sediakan gambar penuh hanya sebagai pilihan, dan jangan pernah lazy load elemen LCP",
     "Angular versi 17 dibahas sebagai kebangkitan: lompatan kecepatan besar, sintaks control flow baru, dan signals yang kini diadopsi banyak framework lain"
-  ]
+  ],
+  "seoTitle": "DevFest Bogor: bfcache dan View Transitions | Ngobrolin WEB",
+  "metaDescription": "Tanya jawab dari panggung DevFest Bogor: ongkos View Transitions API, beda bfcache dan cache biasa, situs portofolio penuh gambar, dan Core Web Vitals."
 }

@@ -11,5 +11,7 @@
     "Web Platform Test mencakup ratusan ribu test case yang sangat detail, mengakomodasi berbagai skenario termasuk bahasa dengan arah teks berbeda, berbagai perangkat input, dan assistive device untuk accessibility",
     "Interoperability penting untuk developer karena mengurangi kebutuhan akan workaround, mempercepat adopsi fitur baru, dan memudahkan pengembangan library serta framework web",
     "Proses seleksi fitur untuk Interop melibatkan survei developer, diskusi di GitHub, dan voting oleh komunitas untuk menentukan fitur yang paling penting dan paling bermasalah dari sisi interoperabilitas"
-  ]
+  ],
+  "seoTitle": "Interop 2024: View Transitions dan Popover | Ngobrolin WEB",
+  "metaDescription": "Interop 2024 menyamakan perilaku fitur web di Chrome, Edge, Firefox dan Safari lewat Web Platform Test, dari View Transitions sampai CSS Nesting."
 }

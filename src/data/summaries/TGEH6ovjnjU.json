@@ -10,5 +10,7 @@
     "XML di Android dulu dipilih justru agar terasa akrab bagi developer web yang sudah terbiasa HTML — dan kini developer mobile beralih ke deklaratif setelah melihat cara kerja web",
     "Kotlin Multiplatform membagi business logic bersama tetapi membiarkan lapisan tampilan tetap native, sehingga akses ke API platform masing-masing tidak perlu lewat bridge",
     "Menjadi agnostik itu menguntungkan: kita tahu kelemahan tiap tools dan bisa memilih sesuai kebutuhan — jadikan diri sendiri yang multiplatform, dengan bentuk keahlian seperti huruf T"
-  ]
+  ],
+  "seoTitle": "Android: Java, Kotlin dan Jetpack Compose | Ngobrolin WEB",
+  "metaDescription": "Andrew, Budi dan Sidik, Google Developer Expert Android, membahas masa depan Java, Kotlin, Jetpack Compose, Kotlin Multiplatform dan jalan menjadi GDE."
 }

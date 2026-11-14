@@ -10,5 +10,7 @@
     "Direktif client:idle dan client:visible di Astro sebenarnya membungkus requestIdleCallback dan Intersection Observer — pola yang makin umum seiring meta framework memilih Web API ketimbang membuat mekanisme sendiri",
     "Qwik mengklaim tidak butuh hidrasi sama sekali karena ia resumable — konsep yang di episode ini pun diakui belum sepenuhnya jelas cara kerjanya",
     "Keunggulan pendekatan berbasis Web API adalah fallback-nya: kalau View Transition belum didukung, tautannya tetap berfungsi sebagai anchor biasa — berbeda dari router yang sepenuhnya bergantung JavaScript"
-  ]
+  ],
+  "seoTitle": "Island Architecture dan Prefetch Quicklink | Ngobrolin WEB",
+  "metaDescription": "Quicklink mem-prefetch tautan saat browser menganggur, Island Architecture menghidrasi bagian interaktif saja, dan Astro menerapkannya lewat client:idle."
 }

@@ -10,5 +10,7 @@
     "Lihau merekomendasikan SvelteKit sebagai meta framework resmi untuk sebagian besar use case, dari blog statis hingga aplikasi dinamis dengan server-side rendering",
     "Contoh aplikasi populer yang menggunakan Svelte termasuk Apple Music, syntax.fm, dan PocketBase admin UI",
     "Tim Svelte menggunakan test suite yang komprehensif untuk memastikan backward compatibility saat mengembangkan Svelte 5, dengan test case yang dapat dilihat langsung di repository"
-  ]
+  ],
+  "seoTitle": "Svelte 5 dan Runes dari Maintainer Svelte | Ngobrolin WEB",
+  "metaDescription": "Lihau, maintainer Svelte dan front-end engineer di Shopee, bercerita jalannya menjadi maintainer, compiler Svelte, runes di Svelte 5, dan SvelteKit."
 }

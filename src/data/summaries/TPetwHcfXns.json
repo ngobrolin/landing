@@ -10,5 +10,7 @@
     "Panggilan ke layanan pihak ketiga seperti payment gateway harus di-mock — bukan hanya agar test tidak menembus rate limit atau menagih biaya, tapi karena error code-nya jauh lebih banyak daripada skenario sukses dan semuanya perlu ditangani",
     "Automatic testing sudah bergeser jadi tugas developer, bukan hanya divisi QA; QA manusia menguji dari sudut pandang user, sementara manusia memang tidak didesain untuk pekerjaan repetitif berskala besar",
     "Gabungkan testing dengan alur kerja lewat git hooks dan CI supaya kode yang belum lulus tidak pernah di-commit apalagi di-deploy — tapi perhatikan juga soal billing, karena jam GitHub Action gratisan ada batasnya"
-  ]
+  ],
+  "seoTitle": "Testing Otomatis: Mocking MSW sampai CI | Ngobrolin WEB",
+  "metaDescription": "Riza, Ivan dan Eka membahas testing sebagai alat berpikir, burnout menguji plugin WordPress secara manual, mocking dengan MSW, Playwright, dan CI."
 }

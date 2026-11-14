@@ -9,5 +9,7 @@
     "Memilih teknologi sebaiknya berdasarkan use case yang spesifik - Tauri cocok untuk desktop app, sementara Wails (Go-based) bisa menjadi alternatif",
     "Penting untuk developer teknis membangun kehadiran di media sosial dan berbagi knowledge, karena ini membantu karir dan membuka peluang baru"
   ],
+  "seoTitle": "Tauri untuk Aplikasi Desktop Berbasis Rust | Ngobrolin WEB",
+  "metaDescription": "Mas Donny dan Mas Aris dari Zero01 Group berbagi pengalaman membangun aplikasi desktop trading dengan Tauri: WebView native, SQLite dan enkripsi data.",
   "generatedAt": "2026-02-20T00:00:00.000Z"
 }

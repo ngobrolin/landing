@@ -10,5 +10,7 @@
     "Dugaan bahwa Angular 2 paling mudah dipelajari tim berlatar Java dan Spring ternyata meleset — Vue lebih cepat dikuasai karena direktifnya mirip AngularJS yang sudah dipakai",
     "Pelajarannya: singkirkan pertimbangan selera dan ajukan yang bisa diukur — ukuran bundle, waktu muat, dan biaya perawatan jangka panjang",
     "Kurva belajar yang harus dipertimbangkan adalah kurva belajar tim, bukan kurva belajar orang yang mengusulkan"
-  ]
+  ],
+  "seoTitle": "Memilih Framework Tim: Angular 2 atau Vue | Ngobrolin WEB",
+  "metaDescription": "Engineer GovTech di kementerian pendidikan bercerita dari ExtJS sampai Next.js, dan kenapa Vue lebih cepat dikuasai tim Blibli daripada Angular 2."
 }

@@ -10,5 +10,7 @@
     "Keyword `class` di ES6 sebenarnya hanya syntactic sugar - di belakang layar tetap menggunakan prototype-based approach",
     "Masalah umum di JavaScript OOP adalah penggunaan `this` yang konteksnya bisa berubah tergantung bagaimana fungsi dipanggil",
     "JavaScript banyak memiliki keanehan karena harus menjaga backward compatibility - kode JavaScript zaman dulu harus tetap bisa jalan di browser modern"
-  ]
+  ],
+  "seoTitle": "OOP di JavaScript: Prototype dan Class | Ngobrolin WEB",
+  "metaDescription": "OOP di JavaScript dibedah bersama Ivan dari Yunani: prototype di balik class, konteks this yang berubah, private properties, dan jejak Scheme di bahasanya."
 }

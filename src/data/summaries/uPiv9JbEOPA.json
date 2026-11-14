@@ -10,5 +10,7 @@
     "Kasus nyata seperti Cloudflare CLI dipakai untuk melihat struktur perintah, konfigurasi, dan output",
     "Guideline seperti clig.dev dan prinsip desain Atlassian dirujuk sebagai acuan",
     "Tren dan tools TUI/terminal UI dibahas untuk memperkaya pengalaman di terminal"
-  ]
+  ],
+  "seoTitle": "Desain Aplikasi CLI: Help, Flags dan Output | Ngobrolin WEB",
+  "metaDescription": "Prinsip UX untuk aplikasi terminal: beda CLI dan TUI, help yang jelas, flags konsisten, error informatif, output yang bisa dipipe, dan panduan clig.dev."
 }

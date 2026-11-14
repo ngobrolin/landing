@@ -10,5 +10,7 @@
     "Situs menggunakan Web Share API native browser untuk fitur share, dark/light mode dengan view transitions, dan carbon-conscious analytics melalui Partytown dan Cabin",
     "Catatan accessibility: beberapa tombol dan link belum memiliki aria-label yang memadai untuk screen reader, serta browser caching yang belum dikonfigurasi dengan optimal",
     "Struktur monorepo yang rapi dengan Sanity Studio untuk CMS, web app, dan CDN image proxy menggunakan Hono dengan dokumentasi OpenAPI via Scalar"
-  ]
+  ],
+  "seoTitle": "Bedah Situs meutia.net: Remix dan Sanity | Ngobrolin WEB",
+  "metaDescription": "Bedah blog personal seorang dosen IAIN Langsa: Remix, Sanity dan Cloudflare Workers, Speculation Rules API, Web Share API, dan catatan aksesibilitasnya."
 }

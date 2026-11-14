@@ -10,5 +10,7 @@
     "Speculation Rules API dan View Transitions API dapat dikombinasikan untuk membuat Multi-Page Application terasa seperti Single-Page Application dengan instant loading dan smooth transitions",
     "Lighthouse CI dapat digunakan untuk monitoring performance dalam pipeline CI/CD, namun alternatif lain seperti Calibre, DebugBear, dan New Relic juga tersedia",
     "Accessibility dan performance web adalah standar yang diwajibkan oleh hukum di beberapa negara seperti US, UK, dan negara-negara Eropa untuk layanan publik"
-  ]
+  ],
+  "seoTitle": "Web Vitals Versi 5: Lab Data vs Field Data | Ngobrolin WEB",
+  "metaDescription": "Web Vitals versi 5 menghapus FID dan menetapkan INP. Pembahasan berlanjut ke beda lab data dan field data, data publik CrUX, dan Speculation Rules API."
 }

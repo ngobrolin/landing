@@ -10,5 +10,7 @@
     "Tidak semua permintaan layak masuk platform: Touch Bar pada MacBook Pro sempat ramai diminta padahal hanya ada di satu produk dari satu vendor — dan kini produknya sudah tidak ada",
     "WebAssembly jadi jalan aplikasi berat pindah ke web, dengan Photoshop sebagai contoh yang mengisolasi algoritma intinya dari basis kode native",
     "Aplikasi web selalu berjalan dalam sandbox dan meminta izin per kemampuan — VSCode.dev jadi contoh kasus yang ingin izin aksesnya diingat — sementara sistem operasi justru bergerak ke arah yang sama setelah dulu memberi akses terlalu longgar"
-  ]
+  ],
+  "seoTitle": "Thomas Steiner dari Chrome: Project Fugu | Ngobrolin WEB",
+  "metaDescription": "Thomas Steiner, Developer Relations Engineer di tim Chrome, membahas Project Fugu, Touch Bar yang tak layak masuk platform, WebAssembly, dan izin akses."
 }

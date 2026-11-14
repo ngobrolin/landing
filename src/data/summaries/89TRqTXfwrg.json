@@ -15,5 +15,7 @@
     "Perbandingan performa Astro menunjukkan keunggulan signifikan dibanding Next.js, terutama pada metrik seperti First Contentful Paint (FCP) dan Total Blocking Time (TBT).",
     "Astro menargetkan posisi di tengah antara vanilla HTML/CSS/JavaScript dan framework interaktif seperti Next.js/Nuxt/SvelteKit, memberikan solusi yang balance untuk berbagai use case.",
     "Meskipun relatif muda dan user base masih didominasi front-end developer, Astro memiliki potensi migrasi yang mudah dari framework lain karena dukungan komponen UI yang ada."
-  ]
+  ],
+  "seoTitle": "Astro: Island Architecture dan Zero JS | Ngobrolin WEB",
+  "metaDescription": "Astro dibedah dari filosofi HTML-first dan island architecture, dukungan React, Vue dan Svelte dalam satu proyek, Server Islands, Astro DB, dan Starlight."
 }

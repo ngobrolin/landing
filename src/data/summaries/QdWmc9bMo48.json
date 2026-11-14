@@ -10,5 +10,7 @@
     "CSS Nesting kini telah tersedia di semua browser modern, memberikan kemampuan untuk menulis CSS yang lebih terorganisir dan mudah dibaca tanpa perlu menulis selector berulang-ulang",
     "Field Sizing adalah fitur kecil yang memberikan dampak besar karena memungkinkan penghapusan ribuan baris kode JavaScript yang sebelumnya dibutuhkan untuk auto-growing text input",
     "Platform web selalu berupaya mengejar keunggulan JavaScript library dengan membangun fitur-fitur tersebut secara natif, memberikan performa yang lebih baik dan pengalaman pengguna yang lebih konsisten di seluruh browser"
-  ]
+  ],
+  "seoTitle": "CSS Wrap 2024 bersama Adam Argyle dan Bramus | Ngobrolin WEB",
+  "metaDescription": "Adam Argyle dan Bramus dari tim Chrome bercerita soal pembuatan CSS Wrap 2024, Scroll Driven Animations, View Transitions, CSS Nesting, dan Field Sizing."
 }

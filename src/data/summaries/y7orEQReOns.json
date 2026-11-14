@@ -10,5 +10,7 @@
     "CLS disebut paling sulit diperbaiki karena skornya rata-rata seluruh halaman; aspect-ratio CSS menolong untuk gambar dan video, tapi embed TikTok atau Twitter hanya bisa diakali lewat field data seperti yang ditulis BuzzFeed",
     "FID hanya mengukur interaksi pertama dan akan digantikan INP, yang mengukur semua klik, tap, dan keypress — diumumkan di Google I/O 2023 agar developer punya waktu bersiap",
     "Semuanya bisa ditelusuri lewat Performance Insights di Chrome DevTools atau PageSpeed Insights, sementara field data di Search Console berasal dari CrUX dan baru terlihat setelah 28 hari"
-  ]
+  ],
+  "seoTitle": "Core Web Vitals: LCP, CLS, dan FID ke INP | Ngobrolin WEB",
+  "metaDescription": "Core Web Vitals diukur dari sudut pandang pengunjung: elemen LCP yang bisa berpindah, CLS akibat iklan dan embed, serta FID yang akan digantikan INP."
 }

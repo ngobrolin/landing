@@ -10,5 +10,7 @@
     "Next.js sempat gagal pivot ke static lalu bermain di serverless, dan akhirnya mengambil ide progressive enhancement yang dipelopori Remix menjadi App Router di 13.4 berkat React Server Components",
     "Komunitas React Indonesia tidak punya pendiri tunggal maupun ketua — ia tumbuh dari beberapa gerakan akar rumput yang berjalan sendiri-sendiri di Telegram, Discord, dan kanalnya masing-masing",
     "Upaya menyatukan semua kanal ke satu tempat pernah dicoba dan gagal, karena komunitas bukan perusahaan yang bisa diperintah pindah — dan meetup tidak harus formal, berkumpul dan mengobrol spontan sudah cukup"
-  ]
+  ],
+  "seoTitle": "Komunitas React Indonesia dan Sejarah React | Ngobrolin WEB",
+  "metaDescription": "Penggerak Komunitas React Indonesia membahas React sebagai pustaka, alasan class di masa awal, pengguna Angular yang pindah, dan komunitas tanpa ketua."
 }

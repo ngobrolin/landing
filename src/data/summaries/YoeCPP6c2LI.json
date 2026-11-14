@@ -10,5 +10,7 @@
     "Tab Coverage di Chrome memperlihatkan berapa persen CSS/JS yang tidak terpakai per halaman — di situs ini Font Awesome 98% dan Bootstrap Icons 100% tidak terpakai, keduanya render blocking",
     "Library eksternal untuk lightbox dan carousel sering tidak perlu lagi: elemen <dialog> sudah tersedia di Web API, dan carousel ringan tanpa script bisa dipelajari dari demo di chrome.dev",
     "Untuk PHP vanilla tanpa ORM, sanitasi setiap input pengguna dan pakai OWASP Top 10 sebagai checklist — agent skill soal security fundamentals bisa dipasang agar coding agent ikut memeriksanya"
-  ]
+  ],
+  "seoTitle": "Bedah Situs Rumah Sakit dan Wix Studio | Ngobrolin WEB",
+  "metaDescription": "Bedah situs Institut Kesehatan Immanuel di Wix Studio, yang memakai sembilan font, dan situs rumah sakit yang menaruh nomor telepon di slideshow."
 }

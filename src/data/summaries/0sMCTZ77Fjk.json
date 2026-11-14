@@ -12,5 +12,7 @@
     "Tools yang direkomendasikan: Color Contrast Checker extension untuk Chrome dan fitur bawaan Chrome DevTools untuk analisis accessibility",
     "Tips penting: jangan commit file .env ke repository publik untuk keamanan credentials",
     "Web development memiliki entry barrier yang lebih rendah dibanding app development dalam hal kebutuhan hardware"
-  ]
+  ],
+  "seoTitle": "Bedah Situs Undangan Pernikahan Next.js | Ngobrolin WEB",
+  "metaDescription": "Bedah situs pertama kiriman penonton: undangan pernikahan dengan Next.js 13 dan Contentful, dari audio autoplay, kontras, carousel sampai bundle 4,1 MB."
 }

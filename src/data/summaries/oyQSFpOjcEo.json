@@ -10,5 +10,7 @@
     "Sebelum Flexbox dan CSS Grid, tata letak diakali dengan image transparan sebagai spacer, deretan NBSP, tabel dan display table, lalu float",
     "Tempat menulis gaya berpindah berulang kali: dari atribut di markup, ke satu blok gaya, ke berkas tersendiri — dan kini kembali ke markup lewat Tailwind",
     "React Native sampai sekarang masih bertumpu pada Flex untuk layout-nya, dan prinsip penutupnya: kalau bisa di CSS, kerjakan di CSS"
-  ]
+  ],
+  "seoTitle": "CSS Layout: Spacer, Tabel, Float ke Flexbox | Ngobrolin WEB",
+  "metaDescription": "Rasa takut pada CSS jadi pembuka, lalu sejarah tata letak web: spacer, tabel, float, Flexbox dan CSS Grid, hingga gaya kembali ke markup lewat Tailwind."
 }

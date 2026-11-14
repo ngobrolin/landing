@@ -10,5 +10,7 @@
     "MinIO adalah alternatif open source yang kompatibel dengan S3 untuk self-hosted atau development environment",
     "Tools modern seperti Docker, Docker Compose, dan Local by Flywheel mempermudah development workflow",
     "Pemilihan strategi harus berdasarkan analisis trade-off antara performa, keamanan, biaya, dan user experience"
-  ]
+  ],
+  "seoTitle": "Strategi Upload File: Local, BLOB atau S3 | Ngobrolin WEB",
+  "metaDescription": "Eka dan Ivan menimbang tempat menyimpan file upload: folder server, BLOB di database, atau cloud storage seperti S3, plus MinIO dan biaya bandwidth."
 }

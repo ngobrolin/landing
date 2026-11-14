@@ -10,5 +10,7 @@
     "Dulu menyunting berkas di server berarti masuk lewat SSH dan memakai Vim atau Nano; kini VSCode bisa dijalankan sebagai server dan diakses lewat browser",
     "Dua hal sering tertukar: VSCode yang benar-benar berjalan di browser, versus VSCode lokal yang menyambung ke WSL, kontainer Docker, atau mesin lain lewat terowongan",
     "Google memang sudah lama bekerja di mesin jauh, karena basis kode sebesar Chrome konon butuh berhari-hari untuk dikompilasi di laptop biasa"
-  ]
+  ],
+  "seoTitle": "Ngoding di Browser: VSCode, SSH dan Docker | Ngobrolin WEB",
+  "metaDescription": "Developer advocate dari AWS membahas Cloud9 dan Codespaces, VSCode yang dibangun dengan teknologi web, dan VSCode di browser versus yang tersambung ke WSL."
 }

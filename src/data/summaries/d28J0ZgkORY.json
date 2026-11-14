@@ -11,5 +11,7 @@
     "Web developer tidak perlu memahami detail cara kerja internal AI, cukup fokus pada pemilihan tools yang tepat dan bagaimana mengintegrasikannya ke dalam aplikasi",
     "Fine-tuning dan transfer learning adalah teknik untuk melatih model AI dengan data spesifik agar lebih relevan dengan use case tertentu tanpa harus melatih dari awal",
     "Privasi data menjadi pertimbangan penting saat menggunakan cloud AI services, alternatifnya adalah menggunakan open source model yang dapat di-deploy secara lokal"
-  ]
+  ],
+  "seoTitle": "Gemini dan Vertex AI untuk Web Developer | Ngobrolin WEB",
+  "metaDescription": "Esther Irawati, Google Developer Expert di Machine Learning, membahas Gemini, Vertex AI dan AI Studio, serta seberapa jauh web developer perlu belajar AI."
 }

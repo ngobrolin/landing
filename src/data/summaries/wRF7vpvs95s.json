@@ -13,5 +13,7 @@
     "Framework modern seperti Laravel, Node.js, dan AuthJS telah menyediakan library bawaan untuk password hashing dan verifikasi yang secure",
     "Layanan autentikasi modern seperti Auth0, Firebase, Supabase, dan Cognito semakin mengurangi kebutuhan untuk membangun sistem autentikasi manual",
     "Episode ini di-sponsor oleh Hacktivate (coding bootcamp) dan Nupea keyboard, dengan voting topik minggu depan adalah Design Pattern"
-  ]
+  ],
+  "seoTitle": "Keamanan Password: Hashing dan Salting | Ngobrolin WEB",
+  "metaDescription": "Password dibahas dari sisi pengguna, front-end dan back-end: password manager, input type password, hashing dengan bcrypt atau Argon2, dan salt yang unik."
 }

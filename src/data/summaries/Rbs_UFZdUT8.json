@@ -10,5 +10,7 @@
     "View Transitions API untuk Multi-Page - Fitur yang memungkinkan transisi halus antar halaman website, sebelumnya hanya untuk SPA (Single Page Application) sekarang sudah diperluas untuk multi-page navigation.",
     "Fitur CSS lain yang masuk Baseline - Termasuk :has() selector, container queries, dan berbagai fitur CSS lain yang sebelumnya eksperimental sekarang sudah widely available, secara perlahan mengurangi peran preprocessor CSS.",
     "Web Platform Test Dashboard baru - Dashboard yang lebih mudah digunakan untuk developer mengecek dukungan fitur browser dan status interop project, memudahkan filtering berdasarkan tahun baseline."
-  ]
+  ],
+  "seoTitle": "Google I/O 2024: Baseline dan LLM di Browser | Ngobrolin WEB",
+  "metaDescription": "Sorotan web dari Google I/O 2024: label newly dan widely available di Baseline, Gemma lewat WebGPU, Gemini di DevTools, dan view transitions multi-page."
 }

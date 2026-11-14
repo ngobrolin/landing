@@ -10,5 +10,7 @@
     "Kata kunci headless adalah pemisahan pengelolaan isi dari lapisan tampilannya — bukan berarti tidak ada tampilan, melainkan keduanya tidak lagi menyatu",
     "Karena isinya dipanggil lewat API, satu sumber konten bisa melayani banyak wujud: situs, aplikasi ponsel, bahkan papan iklan digital di toko",
     "Arahnya terbelah dua — site builder tanpa kode seperti Wix, Squarespace, dan Webflow, versus headless seperti Strapi, Contentful, Sanity, Directus, dan Ghost"
-  ]
+  ],
+  "seoTitle": "CMS: WordPress, Headless dan Site Builder | Ngobrolin WEB",
+  "metaDescription": "Alasan memakai WordPress atau Drupal ketimbang CRUD buatan sendiri, lalu dua arah baru CMS: site builder seperti Wix dan headless CMS seperti Strapi."
 }

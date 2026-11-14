@@ -11,5 +11,7 @@
     "Scroll-driven animations dan scroll end event memungkinkan animasi berdasarkan posisi scroll dan mendeteksi kapan user selesai scrolling tanpa JavaScript",
     "CSS sekarang dapat meng-animate properti discrete seperti display dan content-visibility dengan menggunakan allow-discrete pada transition, sebelumnya tidak mungkin dilakukan",
     "Penting untuk memahami fitur CSS vanilla meskipun menggunakan framework karena Tailwind dan framework lain mengadopsi fitur-fitur tersebut melalui plugin, seperti @tailwindcss/container-queries"
-  ]
+  ],
+  "seoTitle": "Container Query dan :has() di CSS Wrapped | Ngobrolin WEB",
+  "metaDescription": "Lanjutan CSS Wrapped dari Chrome Developers: container query, style query, selector :has(), media query baru, linear easing, dan animasi berbasis scroll."
 }

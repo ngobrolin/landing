@@ -10,5 +10,7 @@
     "Pengalaman pahit dengan Gatsby jadi pembanding — salah pilih perkakas di awal berujung menulis ulang",
     "Halangan lain adalah ketidakumumannya: banyak tempat kerja punya kesepakatan tak tertulis memakai perkakas yang lazim, karena pekerjaannya bisa berpindah tangan",
     "Di balik Redwood ada program lomba berhadiah dan pendanaan untuk produk bermisi lingkungan; menonton rekaman presentasinya berguna untuk belajar menyampaikan sesuatu dalam tiga sampai lima menit"
-  ]
+  ],
+  "seoTitle": "RedwoodJS: React, GraphQL, Prisma Sekaligus | Ngobrolin WEB",
+  "metaDescription": "Redwood membundel React, GraphQL, Prisma, Jest dan Storybook. Sasarannya tim satu sampai tiga orang, hackathon, dan proyek yang dimulai dari nol."
 }

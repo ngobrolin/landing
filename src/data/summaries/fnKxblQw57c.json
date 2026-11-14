@@ -10,5 +10,7 @@
     "Carbon Design System oleh IBM sebagai Contoh Enterprise-Ready - Carbon Design System adalah salah satu contoh design system yang sangat lengkap, dibuat oleh IBM untuk penggunaan enterprise. Sistem ini mencakup dokumentasi yang detail, contoh implementasi untuk berbagai framework (React, Angular, Vue, dan Vanilla), dan fokus pada aksesibilitas.",
     "Headless UI Fokus pada Aksesibilitas dan Kustomisasi - Headless UI library seperti Radix UI berfokus pada mengurus aspek teknis yang rumit seperti focus trapping untuk modal/dialog, memastikan aksesibilitas standar terpenuhi. Developer bebas men-styling komponen tersebut sesuai kebutuhan desain menggunakan Tailwind, CSS modules, atau metode styling lainnya.",
     "Dukacita dan Harapan untuk Timnas Sepak Bola Indonesia - Di awal episode, pembicara mengungkapkan perasaan campur antara sedih dan bangga dengan pencapaian Timnas Indonesia yang berhasil mencapai semifinal untuk pertama kalinya. Mereka berharap Indonesia bisa memenangkan pertandingan perebutan juara tiga untuk lolos ke Olimpiade."
-  ]
+  ],
+  "seoTitle": "UI Component Library: Untung Rugi Memakainya | Ngobrolin WEB",
+  "metaDescription": "Beda design system, UI component library dan headless UI, untung rugi memakainya, plus pendekatan Shadcn yang menyalin kode komponen langsung ke project."
 }

@@ -10,5 +10,7 @@
     "Grid adalah pain point terbesar, terutama sintaks grid-row dan grid-column yang janggal; masalahnya bukan tidak paham konsepnya melainkan sintaksnya sulit diingat",
     "Coding agent secara default fasih memakai Tailwind tetapi masih menulis CSS dengan cara lama — perlu diberi tahu atau dipasangi skill agar memakai fitur yang baru",
     "Handoff warna dari desainer sering bermasalah karena mereka berangkat dari CMYK untuk cetak lalu memberi hex, sementara developer sudah memakai ruang warna modern — hasilnya terlihat sama bagi kita tetapi berbeda bagi desainer"
-  ]
+  ],
+  "seoTitle": "Survei State of CSS: :has(), Grid dan AI | Ngobrolin WEB",
+  "metaDescription": "Survei State of CSS dibedah: CSS-in-JS yang ditinggalkan, :has() sebagai parent selector, anchor positioning, grid sebagai pain point, dan 26% tanpa AI."
 }

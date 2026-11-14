@@ -11,5 +11,7 @@
     "Best practice \"Docs as Code\" menyarankan dokumentasi ditempatkan dalam repo yang sama dengan kode untuk tracking, version control, dan menghindari dokumentasi terbengkalai",
     "Google Code Lab menawarkan format step-by-step tutorial yang user-friendly untuk workshop, dapat ditulis menggunakan Google Docs dan dikonversi menjadi HTML",
     "Dokumentasi modern tidak hanya untuk manusia tetapi juga untuk dikonsumsi oleh AI tools, sehingga struktur heading dan semantic markdown menjadi semakin penting"
-  ]
+  ],
+  "seoTitle": "Docusaurus, Starlight dan Docs as Code | Ngobrolin WEB",
+  "metaDescription": "Dokumentasi software terbagi empat: tutorial, how-to, explanation, dan reference. Dibahas Docusaurus, Starlight, Storybook, OpenAPI, dan docs untuk AI."
 }

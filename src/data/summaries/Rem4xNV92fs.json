@@ -10,5 +10,7 @@
     "Browser modern memiliki built-in validation API yang bisa di-customize tanpa library tambahan, namun perlu hati-hati dengan error message browser yang mengikuti bahasa settingan browser",
     "Payment form adalah study case yang kompleks karena melibatkan banyak best practice mulai dari meaningful HTML, proper autocomplete, input type selection, hingga mencegah multiple submissions",
     "Library form helper seperti Formik, React Hook Form, dan validasi library seperti Zod membantu mengelola kompleksitas form, dengan Zod memiliki keunggulan bisa digunakan baik di frontend maupun backend dengan schema yang sama"
-  ]
+  ],
+  "seoTitle": "HTML Form: Tipe Input, Validasi dan Zod | Ngobrolin WEB",
+  "metaDescription": "Form HTML dibedah dari GET dan POST, tipe input bawaan, validasi dari browser sampai database, payment form, hingga Formik, React Hook Form dan Zod."
 }

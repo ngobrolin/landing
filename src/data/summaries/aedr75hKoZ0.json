@@ -10,5 +10,7 @@
     "Masalah utama WebSocket adalah skalabilitas dan kompatibilitas server - Setiap klien membutuhkan koneksi persistent yang terus terbuka, membuat scaling lebih sulit, dan tidak semua hosting/CDN mendukung WebSocket.",
     "Socket.io menyediakan abstraksi dengan fallback mechanism - Library yang secara otomatis memilih teknologi terbaik yang tersedia (WebSocket, HTTP long polling, atau lainnya) dan menangani reconnection otomatis ketika koneksi terputus.",
     "Hotwire dan Livewire merender di server, mengirim HTML melalui WebSocket - Pendekatan HTML over the wire di mana hanya bagian yang berubah yang dikirimkan melalui WebSocket, memungkinkan server-side rendering dengan pengalaman real-time."
-  ]
+  ],
+  "seoTitle": "WebSocket vs SSE: Komunikasi Real-Time Web | Ngobrolin WEB",
+  "metaDescription": "Kenapa HTTP biasa tidak cukup untuk komunikasi dua arah, lalu WebSocket, Server-Sent Events, WebTransport, Socket.io, dan HTML over the wire di Livewire."
 }

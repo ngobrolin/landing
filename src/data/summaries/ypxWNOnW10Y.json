@@ -10,5 +10,7 @@
     "Navigasi lewat tombol tab dipakai mereka yang tidak bisa memakai tetikus sekaligus pengguna mahir yang enggan memindahkan tangan",
     "WCAG dari W3C memberi patokan teknis berjenjang dari A sampai AAA, dan Lighthouse menangkap yang paling dasar seperti kontras warna",
     "Lolos pemeriksaan bukan jaminan: alt text yang asal tulis tetap lolos padahal tidak menolong pengguna screen reader"
-  ]
+  ],
+  "seoTitle": "Aksesibilitas Web: WCAG dan Batas Lighthouse | Ngobrolin WEB",
+  "metaDescription": "Ivan mulai belajar aksesibilitas karena sebuah bank mensyaratkan WCAG level AAA, lalu membahas landaian trotoar, navigasi tab, dan alt text asal tulis."
 }

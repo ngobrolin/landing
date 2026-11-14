@@ -10,5 +10,7 @@
     "design.md adalah markdown biasa dengan frontmatter terstandar untuk design token, jadi tetap berguna meski kita tidak memakai tool Google — cukup suruh AI assistant membacanya",
     "CLI design.md bisa mengecek field yang hilang, mendeteksi token duplikat atau penamaan yang tidak konsisten, memeriksa kontras WCAG, dan mengekspor ke konfigurasi Tailwind",
     "Figma MCP mengubah perbandingan spacing, line-height, dan font menjadi urusan mesin ke mesin — tetapi scope-nya harus dipecah per komponen, karena satu halaman penuh membuat coding agent kewalahan"
-  ]
+  ],
+  "seoTitle": "Alat Desain AI: Stitch vs Claude Design | Ngobrolin WEB",
+  "metaDescription": "Stitch dari Google dan Claude Design dibandingkan lewat demo, ditambah risiko scam dari getdesign.md, format design.md untuk design token, dan Figma MCP."
 }

@@ -10,5 +10,7 @@
     "IIFE mencegah isinya bocor ke luar, tapi menempelkan semuanya pada satu objek induk hanya menyisakan satu nama global — bukan nol",
     "Node.js membawa module.exports dan require, lalu AMD dan UMD memuat modul secara asinkron tapi berkasnya jadi dimuat berantai dan waktu tunggunya menumpuk",
     "Browserify lahir sebagai bundler pertama dan dijalankan lewat Grunt atau Gulp, lalu diteruskan Webpack dan Rollup yang menghitung rantai dependensi lebih dulu"
-  ]
+  ],
+  "seoTitle": "Module Bundler: IIFE, Browserify dan Webpack | Ngobrolin WEB",
+  "metaDescription": "Kenapa JavaScript butuh bundler: dari global namespace dan noConflict jQuery, IIFE, require di Node.js, AMD, sampai Browserify, Webpack dan Rollup."
 }

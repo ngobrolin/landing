@@ -10,5 +10,7 @@
     "Contoh kasus: redirect 301 di-cache permanent oleh browser sesuai RFC, yang bisa menyebabkan masalah jika tidak dipahami",
     "JWT debugger di jwt.io dapat digunakan untuk melihat dan memverifikasi isi token",
     "Pentingnya memahami kapan menggunakan JWT vs session-based authentication sesuai kebutuhan aplikasi"
-  ]
+  ],
+  "seoTitle": "JWT: Header, Payload, Signature dan RFC | Ngobrolin WEB",
+  "metaDescription": "JWT ternyata diucapkan jot. Dibahas header, payload dan signature, Base64 yang bukan enkripsi, jwt.io, dan alasan membaca RFC lewat kasus redirect 301."
 }

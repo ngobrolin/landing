@@ -10,5 +10,7 @@
     "WebDriver BiDi menggabungkan keduanya — standar lintas browser sekaligus dua arah",
     "Yang membuatnya meyakinkan adalah kolaborasinya: Selenium dan WebDriver IO ikut menggarap, karena merekalah yang paling tahu bagaimana API semacam ini seharusnya bekerja",
     "Pembagian ranahnya jelas: Chrome DevTools di sisi debugging, Puppeteer di sisi testing, dan pekerjaannya berdiri di persimpangan keduanya"
-  ]
+  ],
+  "seoTitle": "WebDriver BiDi, CDP dan Otomasi Browser | Ngobrolin WEB",
+  "metaDescription": "Jecelyn dari tim Chrome DevTools bercerita soal jalannya ke dunia IT, lalu membandingkan CDP, WebDriver Classic dan WebDriver BiDi untuk otomasi browser."
 }

@@ -10,5 +10,7 @@
     "FFmpeg bisa dijalankan langsung di sisi klien, sehingga video tidak perlu diunggah ke server lebih dulu sebelum diproses",
     "TensorFlow Lite dikompilasi ke WebAssembly supaya modelnya bisa berjalan real-time di browser",
     "PHP Wasm membuat PHP pun bisa hidup di dalam browser — tapi pembatasnya tetap: WebAssembly untuk pekerjaan berat, bukan untuk yang sudah cukup ditangani JavaScript atau service worker"
-  ]
+  ],
+  "seoTitle": "WebAssembly (WASM): Dari Assembly ke Browser | Ngobrolin WEB",
+  "metaDescription": "WebAssembly dijelaskan dari arti assembly dan tingkat rendah, lalu contohnya di browser: Figma, Photoshop, FFmpeg, TensorFlow Lite sampai PHP Wasm."
 }

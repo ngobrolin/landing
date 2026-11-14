@@ -11,5 +11,7 @@
     "Parcel bundler menjadi alternatif implementasi RSC selain Next.js, menawarkan pendekatan yang berbeda",
     "Adopsi RSC membutuhkan perubahan mental model karena developer harus sadar di mana kode berjalan (server atau client)",
     "Diskusi tambahan tentang AI coding tools (Cursor, Windsurf) dan pentingnya tidak kehilangan kemampuan menulis kode manual"
-  ]
+  ],
+  "seoTitle": "React Server Components: Demo dengan Parcel | Ngobrolin WEB",
+  "metaDescription": "Eka dan Ivan menjelaskan beda RSC dengan server-side rendering, direktif use client, komponen server yang langsung akses database, dan demo di Parcel."
 }

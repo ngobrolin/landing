@@ -11,5 +11,7 @@
     "Sejarah PHP dimulai sebagai scripting language yang bisa di-embed ke HTML, dijalankan dengan Apache dan tools seperti XAMPP",
     "Pentingnya tidak terlalu fanatik pada satu teknologi karena dunia programming sangat dinamis",
     "Konflik internal dalam pengembang bahasa atau framework bisa berdampak pada masa depan teknologi tersebut"
-  ]
+  ],
+  "seoTitle": "Kebangkitan PHP: Laravel 11 dan PHP 8.2 | Ngobrolin WEB",
+  "metaDescription": "PHP berkali-kali diprediksi mati tapi tetap bertahan. Obrolannya menyusuri era XAMPP dan CodeIgniter, dampak Laravel, fitur PHP 8.2 dan Laravel 11."
 }

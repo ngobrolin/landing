@@ -10,5 +10,7 @@
     "Webpack 5 masih baik-baik saja digunakan, tidak semua proyek perlu migrasi ke tools terbaru",
     "Tools modern memanfaatkan native ES modules sehingga tidak perlu bundling saat development",
     "Pentingnya memilih tools yang sesuai dengan kebutuhan proyek, bukan sekadar mengikuti tren"
-  ]
+  ],
+  "seoTitle": "Build Tools Modern: dari Gulp ke Vite | Ngobrolin WEB",
+  "metaDescription": "Evolusi build tools dari Gulp dan Webpack ke Vite dan esbuild, lalu test runner dari Jasmine, Mocha dan Jest ke Vitest, plus kapan Webpack 5 masih cukup."
 }

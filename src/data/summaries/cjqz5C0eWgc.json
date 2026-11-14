@@ -10,5 +10,7 @@
     "Komentar dokumentasi di JavaScript biasa bisa jadi solusi cepat untuk codebase warisan yang tidak berdokumentasi, tapi sintaksnya menyiksa begitu berhadapan dengan objek bersarang",
     "Union type membatasi nilai pada beberapa kemungkinan saja, sehingga salah ketik pada salah satu nilainya langsung tertangkap alih-alih lolos sebagai string sembarang",
     "Strict mode memaksa kita memeriksa dulu apakah data benar-benar ada sebelum dipakai — persis kasus undefined yang biasanya baru meledak saat program berjalan"
-  ]
+  ],
+  "seoTitle": "TypeScript: Tipe Statis sampai Strict Mode | Ngobrolin WEB",
+  "metaDescription": "TypeScript memeriksa tipe hanya saat kompilasi, bukan saat program berjalan. Dibahas juga komentar dokumentasi di JavaScript, union type, dan strict mode."
 }

@@ -10,5 +10,7 @@
     "Muat hanya varian yang benar-benar dipakai: kalau panduan desain memakai satu typeface khusus untuk header dengan bobot tebal saja, tidak perlu ikut mengunduh versi normalnya",
     "unicode-range memangkas karakter yang tidak pernah dipakai, dan untuk teks yang tidak pernah berubah seperti nama situs, font bisa dimuat khusus untuk teks itu saja",
     "Memuat font ikon demi tiga ikon itu pemborosan puluhan sampai ratusan kilobyte — SVG inline lebih tepat, dan pustaka ikonnya sendiri kini sudah bergeser ke SVG"
-  ]
+  ],
+  "seoTitle": "Web Font: @import, font-display dan Fallback | Ngobrolin WEB",
+  "metaDescription": "Ivan memangkas LCP dari sekitar 2,3 ke 1,5 detik lewat fallback dengan size-adjust dan CSS kritis. Dibahas juga @import, preload, dan font-display swap."
 }
