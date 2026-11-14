@@ -10,5 +10,7 @@
     "Safari 18 menunjukkan peningkatan signifikan dengan dukungan View Transitions API, Style Query, animasi display, Flexbox alignment fixes, Content Visibility, dan URL.parse API",
     "Jen Simmons, mantan developer Firefox yang terkenal dengan kontribusi CSS-nya, kini bergabung dengan Apple sebagai Safari dan WebKit evangelist, menjelaskan transformasi Safari",
     "Browser alternatif berbasis WebKit seperti Orion dan Sigma OS mulai bermunculan, menawarkan fitur unik seperti ad blocker bawaan, workspace management, dan dukungan ekstensi Firefox maupun Chrome"
-  ]
+  ],
+  "seoTitle": "Safari 18, WebKit dan Jejak KHTML milik KDE | Ngobrolin WEB",
+  "metaDescription": "Safari 18 membawa View Transitions, Style Query dan Content Visibility. Obrolan juga menelusuri WebKit dari KHTML, Blink, dan aturan engine di iOS."
 }

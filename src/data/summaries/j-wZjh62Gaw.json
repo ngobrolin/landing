@@ -12,5 +12,7 @@
     "Workspace features dari NPM, Yarn, PNPM, dan Bun memungkinkan pengelolaan dependensi yang efisien dengan symbolic linking untuk menghemat storage",
     "Episode disponsori oleh Hektivate yang menawarkan bootcamp dengan diskon Rp 10 juta untuk full-time dan Rp 4 juta untuk night bootcamp selama Ramadhan",
     "Topik minggu depan akan membahas Basic Web Security berdasarkan voting dari penonton"
-  ]
+  ],
+  "seoTitle": "Monorepo vs Multirepo: NX, Turborepo, Lerna | Ngobrolin WEB",
+  "metaDescription": "Monorepo dibanding monolitik dan multirepo: untung ruginya, tooling seperti NX, Turborepo dan Lerna, workspace PNPM atau Bun, dan monorepo di Google."
 }

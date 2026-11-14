@@ -10,5 +10,7 @@
     "Network layer menggunakan IP (Internet Protocol) dan ICMP untuk routing dan error handling antar perangkat",
     "Transport layer bertanggung jawab atas end-to-end connection dan menangani packet loss serta retransmission",
     "Application layer adalah yang paling sering berinteraksi dengan developer seperti HTTP, HTTPS, FTP, dan SMTP"
-  ]
+  ],
+  "seoTitle": "Protokol Jaringan: Model OSI, TCP dan UDP | Ngobrolin WEB",
+  "metaDescription": "Apa itu protokol jaringan, tujuh lapisan model OSI beserta perannya, dan beda TCP yang menjamin urutan data dengan UDP yang memakai pola fire and forget."
 }

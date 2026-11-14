@@ -15,5 +15,7 @@
     "InLive ternyata open source dengan dua opsi: download dan self-host (butuh pengetahuan infra) atau gunakan cloud API InLive yang di-hosting",
     "Keuntungan InLive: menggunakan on-premise server dengan dedicated line di Indonesia yang dibayar per capacity bandwidth, bukan per total bandwidth seperti Google Cloud/Amazon yang sangat mahal",
     "InLive akan segera memiliki fitur broadcast ke YouTube untuk use case seperti Ngobrolin community yang ingin mengganti StreamYard dengan solusi lokal yang lebih hemat bandwidth"
-  ]
+  ],
+  "seoTitle": "WebRTC dan SFU bersama Yohan dari InLive | Ngobrolin WEB",
+  "metaDescription": "Yohan, pendiri InLive, menjelaskan WebRTC: latensi di bawah 200ms, SFU versus MCU, simulcast, dan alasan UDP lebih cocok dari TCP untuk video."
 }

@@ -10,5 +10,7 @@
     "Bulan di JavaScript dimulai dari 0 karena disimpan sebagai array nama bulan, sedangkan tanggal tidak — getMonth() mengembalikan 1 untuk Februari",
     "Untuk acara yang jatuh setelah aturan zona waktu berubah, pendekatan terbaik adalah menjadikan local time sebagai sumber kebenaran dan UTC sebagai nilai turunan yang dihitung ulang — sehingga tidak perlu konversi bolak-balik memakai versi aturan lama",
     "Library apa pun tidak menyelesaikan edge case seperti ambiguous time atau perubahan batas zona waktu; kita tetap harus memilih satu pendekatan dan konsisten memakainya"
-  ]
+  ],
+  "seoTitle": "Zona Waktu di Kode: UTC, Intl dan Temporal | Ngobrolin WEB",
+  "metaDescription": "Zona waktu adalah keputusan politik, dari India di +5:30 sampai Tiongkok. Dibahas jebakan now(), ISO 8601, Intl.DateTimeFormat, local time, dan Temporal."
 }

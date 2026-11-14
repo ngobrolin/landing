@@ -13,5 +13,7 @@
     "New Set methods menyediakan fungsi tambahan untuk manipulasi data yang unik",
     "Dr. Axel Rauschmayer adalah expert JavaScript yang produktif menulis buku gratis dan artikel tentang ECMAScript",
     "Minggu depan akan ada bedah situs (site review) untuk website milik Eka"
-  ]
+  ],
+  "seoTitle": "ECMAScript 2025: Iterator, Set dan RegExp | Ngobrolin WEB",
+  "metaDescription": "ECMAScript 2025 menambah import JSON, iterator helper, metode Set, dan Promise.try. Dibahas juga kenapa namanya bukan JavaScript: trademark Oracle."
 }

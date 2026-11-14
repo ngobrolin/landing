@@ -10,5 +10,7 @@
     "ReBAC yang dipopulerkan Google Zanzibar menentukan akses dari relasi antara subject dan object, persis seperti owner/editor/commenter/viewer di Google Drive atau collaborator di repo GitHub",
     "Kelebihan ReBAC adalah pemberian akses ad-hoc ke satu user tertentu cukup mengubah satu baris di tabel relationship, tanpa menyentuh data user, role, maupun atribut dokumen — tetapi ia tidak punya batas waktu bawaan seperti ABAC",
     "Untuk relasi yang berjenjang seperti mutual friend atau second degree connection, graph database seperti Neo4j lebih mudah di-query daripada relational database"
-  ]
+  ],
+  "seoTitle": "Otorisasi Web: RBAC, ACL, ABAC dan ReBAC | Ngobrolin WEB",
+  "metaDescription": "Beda otorisasi dan otentikasi, lalu empat model hak akses: RBAC ala WordPress, ACL, ABAC berbasis atribut, dan ReBAC yang dipopulerkan Google Zanzibar."
 }

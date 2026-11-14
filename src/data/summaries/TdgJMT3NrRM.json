@@ -10,5 +10,7 @@
     "Lottie adalah format animasi yang memungkinkan embed file animasi (.lottie) dengan runtime tersendiri, mirip konsep Flash namun lebih modern",
     "View Transition API adalah native browser API untuk transisi antar halaman, ada level 1 (client-side only) dan level 2 (multi-page)",
     "Showcase portfolio Yogi menggunakan GSAP dengan efek combat style yang dikembangkan dengan bantuan AI, menunjukkan bagaimana AI dapat membantu developer belajar dan mengimplementasikan animasi kompleks"
-  ]
+  ],
+  "seoTitle": "Library Animasi Web: GSAP, Motion dan Lottie | Ngobrolin WEB",
+  "metaDescription": "Perbandingan GSAP, Motion yang dulu Framer Motion, Anime.js dan Lottie dari sisi ukuran bundle dan lisensi, plus View Transition API dan portfolio Yogi."
 }

@@ -10,5 +10,7 @@
     "SQLite dengan WebAssembly memungkinkan database SQL berjalan langsung di browser, memungkinkan aplikasi yang sebelumnya hanya bisa berjalan di server untuk berjalan di klien",
     "Evolusi tren aplikasi: offline-first (era desktop) → online-first (era web) → hybrid offline/online dengan Local First yang menggabungkan keunggulan keduanya",
     "Contoh aplikasi Local First termasuk Git, Obsidian, Actual Budget, dan Linear yang memberikan pengalaman responsif (snappy) karena tidak bergantung pada koneksi internet untuk operasi dasar"
-  ]
+  ],
+  "seoTitle": "Local First: CRDT, Sync Engine dan SQLite | Ngobrolin WEB",
+  "metaDescription": "Berangkat dari Actual Budget, para host membahas Local First versi Maggie Appleton, data ownership, CRDT, SQLite dengan WebAssembly, PowerSync dan Zero."
 }

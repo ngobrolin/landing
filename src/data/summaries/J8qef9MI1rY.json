@@ -10,5 +10,7 @@
     "Jalan yang lebih murah adalah menyebar cache-nya saja, dengan konsekuensi klasik: membatalkan cache adalah salah satu masalah tersulit di komputasi",
     "Edge cepat menyala karena abstraksinya jauh lebih ringan — jenjangnya dari mesin fisik, virtualisasi, Docker dan Kubernetes, sampai runtime JavaScript; mesin tiap penyedia berbeda, Deno misalnya berdiri di atas V8, tapi standar web API-nya sama sehingga kode yang ditulis tetap serupa",
     "Serverless bukan berarti tidak ada server, melainkan servernya bukan kita yang maintain — analoginya wireless yang di dalamnya tetap ada kabel, hanya saja kita tidak berurusan dengannya"
-  ]
+  ],
+  "seoTitle": "Teknologi Edge: CDN yang Menjalankan Logika | Ngobrolin WEB",
+  "metaDescription": "Donny dari Zero One Group menjelaskan edge function, basis data tersebar lewat Postgres di Fly.io dan SQLite di Turso, serta sulitnya membatalkan cache."
 }

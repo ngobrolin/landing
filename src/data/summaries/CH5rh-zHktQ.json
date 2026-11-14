@@ -10,5 +10,7 @@
     "Biaya library pihak ketiga bukan hanya ukurannya tetapi perawatannya: bisa muncul celah keamanan, bisa berhenti dirawat, dan kalau kita tidak paham kodenya kita tidak bisa mem-fork saat darurat",
     "Benchmark menunjukkan library pihak ketiga bisa lebih cepat daripada Web API karena mereka bebas mengambil trade-off yang tidak boleh diambil browser — tetapi kecepatan itu tidak sebanding dengan biaya mengunduhnya lebih dulu",
     "Uji ketahanan dengan memblokir request di DevTools: kalau CDN atau script analytics diblokir ad blocker, pastikan aplikasi tidak ikut rusak"
-  ]
+  ],
+  "seoTitle": "i18n dengan Intl: Tanggal, Angka dan Uang | Ngobrolin WEB",
+  "metaDescription": "Intl di browser menangani format desimal, tanggal, mata uang dan waktu relatif tanpa moment.js. Dibahas juga kapan sebaiknya memasang library pihak ketiga."
 }

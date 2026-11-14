@@ -10,5 +10,7 @@
     "GitHub mempopulerkan konsep social coding dan repository publik, namun ada juga alternatif seperti GitLab (bisa self-hosted) dan Bitbucket",
     "Tantangan dalam menggunakan Git termasuk konflik merge, manajemen history yang berantakan, cherry pick, rebase, dan menghapus file besar dari history",
     "Sourcegraph diperkenalkan sebagai tool untuk mencari kode di berbagai repository private dalam suatu organisasi, membantu developer menemukan referensi implementasi"
-  ]
+  ],
+  "seoTitle": "Version Control: Dari Punch Card ke Git | Ngobrolin WEB",
+  "metaDescription": "Riwayat version control dari punch card IBM, SCCS, CVS dan Subversion sampai Git buatan Linus Torvalds, plus GitHub, konflik merge, rebase dan Sourcegraph."
 }

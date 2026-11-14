@@ -10,5 +10,7 @@
     "JSON Modules - Memungkinkan import file JSON langsung tanpa bundler atau plugin tambahan, sudah mencapai Stage 3 dan hampir resmi menjadi standar.",
     "setHTML API - Pengganti innerHTML untuk custom elements/web components dengan fitur sanitasi bawaan untuk keamanan.",
     "Type Annotations Proposal - Usulan kontroversial untuk menambahkan type annotation langsung di JavaScript tanpa transpilasi, masih tahap Stage 1 dan menjadi perdebatan di komunitas."
-  ]
+  ],
+  "seoTitle": "Web API Baru: View Transition, Popover, INP | Ngobrolin WEB",
+  "metaDescription": "Para host menelusuri Web API bawaan browser: View Transition level 2, Popover, INP di Web Vitals 4.0, Speculation Rules, JSON modules, dan setHTML."
 }

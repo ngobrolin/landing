@@ -10,5 +10,7 @@
     "Solusi umum mengatasi CORS: menambahkan header Access-Control-Allow-Origin di server (bisa * untuk semua origin atau origin spesifik), atau menggunakan middleware/proxy",
     "JSONP (JSON with Padding) adalah teknik lama untuk bypass CORS dengan memanfaatkan script tag yang tidak terkena same-origin policy, namun sudah tidak umum digunakan lagi",
     "Chrome DevTools memiliki fitur Local Overrides yang memungkinkan developer mengubah response header dan content untuk testing tanpa perlu extension tambahan"
-  ]
+  ],
+  "seoTitle": "CORS: Origin, Preflight, Proxy dan JSONP | Ngobrolin WEB",
+  "metaDescription": "Kenapa error CORS tidak selesai dengan menambah header di sisi request: origin, same-origin policy, preflight OPTIONS, proxy, JSONP dan Local Overrides."
 }

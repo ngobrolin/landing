@@ -10,5 +10,7 @@
     "YAML (YAML Ain't Markup Language) populer di DevOps karena human-readable dan mendukung kompleks data structure, namun memiliki risiko error karena indentation-based",
     "TOML (Tom's Obvious Minimal Language) dibuat oleh Tom Preston-Werner sebagai alternatif YAML tanpa indentation, digunakan oleh tools seperti Supabase dan RedwoodJS",
     "HCL (HashiCorp Configuration Language) adalah format konfigurasi yang digunakan Terraform dan Vagrant untuk infrastructure-as-code dengan sintaks mirip JavaScript"
-  ]
+  ],
+  "seoTitle": "File Konfigurasi: JSON, YAML, TOML dan HCL | Ngobrolin WEB",
+  "metaDescription": "Format file konfigurasi dari .ini era Windows, XML di Java dan .NET, JSON beserta BSON dan JSONB, YAML di DevOps, sampai TOML dan HCL untuk Terraform."
 }

@@ -10,5 +10,7 @@
     "Web API adalah implementasi khusus browser di luar JavaScript engine — fetch, Intersection Observer, History, Intl — dan banyak library populer sebenarnya hanya membungkusnya",
     "Urutan belajarnya callback dulu, lalu promise, baru async/await — melompat langsung ke async/await tanpa paham promise justru membingungkan",
     "Dua await berurutan untuk permintaan yang tidak saling bergantung membuat JavaScript berperilaku seperti bahasa sinkron; gunakan Promise.all atau Promise.allSettled, dan selalu tangani error karena satu promise yang gagal bisa menjatuhkan sisanya"
-  ]
+  ],
+  "seoTitle": "Event Loop JavaScript: Async vs Paralel | Ngobrolin WEB",
+  "metaDescription": "Event loop menjelaskan kenapa urutan JavaScript terasa tak terduga: beda asynchronous dan paralel, setTimeout nol, call stack, Web API, dan Promise.all."
 }

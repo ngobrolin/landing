@@ -13,5 +13,7 @@
     "Beberapa API di-remove seperti Mutation Events karena sudah memiliki pengganti yang lebih baik (Mutation Observer)",
     "Ladybird adalah browser baru yang dibangun dari scratch tanpa menggunakan engine Blink, WebKit, atau Gecko yang sudah ada",
     "Minggu depan akan membahas tentang Storybook"
-  ]
+  ],
+  "seoTitle": "Interop 2025: Anchor Positioning, Ladybird | Ngobrolin WEB",
+  "metaDescription": "Dari era prefix dan polyfill ke Interop 2025: cara fitur dipilih, dashboard tiap browser, CSS Anchor Positioning, Popover API, dan browser baru Ladybird."
 }

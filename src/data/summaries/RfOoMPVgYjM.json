@@ -10,5 +10,7 @@
     "Tutorial Kit dari StackBlitz memungkinkan pembuatan tutorial interaktif dengan mudah, terinspirasi dari tutorial Svelte yang dibuat oleh Rich Harris",
     "Tren \"Everything Written in Rust\" semakin kuat di ekosistem JavaScript, menggantikan tools berbasis Node.js yang lebih lambat",
     "Diskusi juga menyentuh konferensi lain seperti JavaScript Bangkok dan IDSW.DEV di Jakarta yang akan diadakan tanggal 16-17"
-  ]
+  ],
+  "seoTitle": "ViteConf 2024: Void Zero, Rolldown dan OXC | Ngobrolin WEB",
+  "metaDescription": "Evan You mengumumkan pendanaan Void Zero di ViteConf 2024. Dibahas juga OXC dan Rolldown yang berbasis Rust, serta Tutorial Kit dari StackBlitz."
 }

@@ -10,5 +10,7 @@
     "CSS membawa beberapa hal yang menghapus JavaScript: contrast-color yang otomatis memilih hitam atau putih, dialog yang bisa ditutup dengan klik di luar, corner-shape untuk bentuk sudut di luar border-radius, dan linear() untuk animasi berbasis fisika",
     "Tim Chrome merilis koleksi agent skill resmi berisi praktik web modern, supaya LLM tidak lagi menyarankan jQuery atau library untuk hal yang sudah ada padanan native-nya",
     "SynthID menanamkan watermark di level piksel, bukan hanya label di bawah gambar — jadi tetap bertahan setelah di-screenshot, mirip pola pengaman pada uang kertas yang membuat scanner menolak memindainya"
-  ]
+  ],
+  "seoTitle": "Google I/O 2026: Antigravity dan Web MCP | Ngobrolin WEB",
+  "metaDescription": "Rangkuman Google I/O 2026: Gemini Omni, Antigravity sebagai payung produk, HTML in Canvas, Web MCP, dan fitur CSS seperti contrast-color dan corner-shape."
 }

@@ -11,5 +11,7 @@
     "Docker Compose memudahkan mengelola multi-container application dengan menentukan urutan start dan dependency antar service",
     "Portainer adalah container management tool yang production-ready dengan UI untuk deploy dan monitor container",
     "Dev Container memungkinkan development environment yang konsisten, bahkan bisa dijalankan di GitHub Codespace"
-  ]
+  ],
+  "seoTitle": "Docker untuk Developer: VM vs Container | Ngobrolin WEB",
+  "metaDescription": "Para host menjelaskan Docker berangkat dari masalah XAMPP dan versi yang berbeda antar developer: VM versus container, image, Docker Compose dan Portainer."
 }

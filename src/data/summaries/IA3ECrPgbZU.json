@@ -10,5 +10,7 @@
     "CHIPS alias partitioned cookie tetap memungkinkan berbagi cookie pihak ketiga, tetapi hanya sepanjang developer-nya mengizinkan",
     "Dampak paling genting bukan iklan melainkan single sign on — termasuk autentikasi pihak ketiga seperti Firebase, Supabase dan Auth0 yang bisa berhenti bekerja",
     "Sarannya praktis: nyalakan pengaturan yang mensimulasikan pemblokiran itu sekarang juga, lalu periksa apa yang rusak sebelum tenggatnya tiba"
-  ]
+  ],
+  "seoTitle": "Privacy Sandbox dan Third Party Cookie | Ngobrolin WEB",
+  "metaDescription": "Chrome berencana menyusul Firefox dan Safari memblokir third party cookie, dan login atau pembelian bisa gagal tanpa error. Dibahas Topics API dan CHIPS."
 }

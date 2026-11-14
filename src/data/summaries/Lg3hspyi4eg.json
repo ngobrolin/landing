@@ -10,5 +10,7 @@
     "Closure sering ditanyakan dalam interview JavaScript sebagai pertanyaan fundamental",
     "Konsep enclosed mereferensi surrounding state, memungkinkan akses ke variabel di dalam scope tertentu",
     "Pemahaman closure penting untuk memahami konsep lanjutan seperti memoization dan React hooks"
-  ]
+  ],
+  "seoTitle": "Closure di JavaScript dan Lexical Scope | Ngobrolin WEB",
+  "metaDescription": "Closure dijelaskan dari dasarnya: first-class function, lexical scope, akses ke outer scope, dan kenapa sering muncul di interview JavaScript."
 }

@@ -10,5 +10,7 @@
     "Eropa telah mulai mewajibkan standar aksesibilitas WCAG untuk perusahaan enterprise, menunjukkan tren global menuju web yang lebih inklusif",
     "Accessibility audit tidak hanya tentang development, tetapi juga mencakup design, konten, dan proses QA yang membutuhkan kombinasi automated testing dan manual review",
     "Tantangan dalam audit accessibility meliputi struktur semantik (heading levels, sections), kontras warna, dan kebutuhan QA yang tidak sepenuhnya bisa di-automate"
-  ]
+  ],
+  "seoTitle": "Audit WCAG 2.1 AA dan Core Web Vitals | Ngobrolin WEB",
+  "metaDescription": "Pindah dari StreamYard ke Vdo.Ninja jadi pembuka, lalu audit Core Web Vitals dan WCAG 2.1 AA, aturan ADA di Amerika, dan regulasi aksesibilitas di Eropa."
 }

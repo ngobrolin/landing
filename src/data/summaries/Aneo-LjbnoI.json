@@ -10,5 +10,7 @@
     "Performance Insights memvisualisasikan proses render, bukan sekadar memberi skor — jadi bisa terlihat elemen mana persisnya yang dianggap browser sebagai FCP dan LCP",
     "Konten di atas lipatan jangan di-lazy load; targetnya adalah membuat FCP, LCP, dan DOMContentLoaded berdekatan, dengan CSS kritikal di-inline dan JavaScript yang tidak perlu ditunda",
     "Skor yang berbeda antara Lighthouse online dan pengukuran lokal itu wajar karena lokasi CDN berbeda — yang penting bukan angkanya melainkan apa yang menghambat sebelum FCP"
-  ]
+  ],
+  "seoTitle": "Sanitizer API dan Performance Insights | Ngobrolin WEB",
+  "metaDescription": "Riza, Eka dan Ivan membuka Ngobrolin WEB dengan Sanitizer API, prinsip sanitize early, escape late, dan panel Performance Insights di Chrome DevTools."
 }

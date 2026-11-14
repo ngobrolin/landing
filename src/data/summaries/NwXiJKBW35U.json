@@ -10,5 +10,7 @@
     "Kalau semua hal ditandai penting, tidak ada yang penting: fetch priority high yang bertebaran malah memenuhi antrean, dan perpindahan posisi komponen harus dibarengi penurunan prioritas yang lama",
     "Lazy loading bawaan tidak menimbulkan CLS karena browser sudah memuat gambar satu-dua viewport sebelumnya — pergeseran layout di luar viewport tidak dihitung, tapi yang menulis intersection observer sendiri harus menyetel boundary-nya negatif",
     "Atribut alt jangan dihapus meski gambarnya dinamis dan tidak bisa dideskripsikan: tulis sebagai string kosong supaya dilewati screen reader, karena alt asal-asalan justru merusak pengalaman dan SEO"
-  ]
+  ],
+  "seoTitle": "Gambar Responsif: srcset, sizes dan Preload | Ngobrolin WEB",
+  "metaDescription": "Image mengisi sekitar 56% unduhan web mobile, maka dibahas srcset dan sizes, preload lewat imagesrcset, fetch priority, lazy loading, CLS dan atribut alt."
 }

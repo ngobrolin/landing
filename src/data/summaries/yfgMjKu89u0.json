@@ -10,5 +10,7 @@
     "Snapshot testing dibahas lengkap dengan manfaat, potensi konflik, dan kapan sebaiknya dihindari",
     "Coverage dan CI/CD dibahas sebagai cara memantau kualitas, tapi tidak jadi satu-satunya patokan",
     "Playwright, mocking, dan visual/regression testing disebut sebagai praktik yang relevan di proyek modern"
-  ]
+  ],
+  "seoTitle": "Vitest vs Jest: Unit sampai End-to-End Test | Ngobrolin WEB",
+  "metaDescription": "Kapan memakai unit, integration atau end-to-end test menurut testing trophy, lalu Vitest versus Jest, snapshot testing, coverage di CI/CD dan Playwright."
 }

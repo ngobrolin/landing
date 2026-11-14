@@ -10,5 +10,7 @@
     "Service Worker pada dasarnya adalah proxy jaringan: ia bisa mencegat setiap request dan memutuskan mana yang diambil dari internet dan mana yang dilayani dari cache, per halaman sekalipun",
     "Comlink dari Surma menyembunyikan postMessage sehingga memanggil worker terasa seperti memanggil fungsi biasa, sedangkan Party Town memindahkan script pihak ketiga seperti analitik ke worker sekaligus membatasi aksesnya ke API browser",
     "Daftar service worker yang pernah terdaftar di browser bisa dilihat lewat tab Application di DevTools — kebanyakan isinya justru berasal dari Chrome extension"
-  ]
+  ],
+  "seoTitle": "Web Worker vs Service Worker: Main Thread | Ngobrolin WEB",
+  "metaDescription": "Web Worker menjauhkan kerja berat dari main thread supaya scroll lancar. Dibahas pula bedanya dengan Service Worker, serta library Comlink dan Party Town."
 }

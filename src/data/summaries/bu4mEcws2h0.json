@@ -10,5 +10,7 @@
     "ORM seperti Prisma dan Sequelize menawarkan developer experience yang baik dengan TypeScript definitions, namun dapat menghasilkan query yang kurang optimal untuk use case kompleks, sehingga perlu trade-off antara kemudahan dan performa",
     "Browser automation tidak hanya untuk testing, tetapi juga dapat digunakan untuk scraping data dan otomasi tugas-tugas repetitif, selama dilakukan dengan etika dan menghormati rate limit dari website",
     "Spesifikasi teknis web (HTML, CSS, JavaScript API) dibuat oleh konsorsium yang terdiri dari perusahaan browser dan komunitas, dengan Web Platform Tests (webpt.fyi) digunakan untuk memastikan konsistensi implementasi antar browser"
-  ]
+  ],
+  "seoTitle": "Offline Surabaya: Tanya Jawab RUM sampai ORM | Ngobrolin WEB",
+  "metaDescription": "Tanya jawab offline di Surabaya: RUM versus Google Analytics, AI untuk front-end, Tailwind bagi back-end developer, third-party script, dan ORM."
 }

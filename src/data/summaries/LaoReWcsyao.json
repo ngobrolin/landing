@@ -10,5 +10,7 @@
     "Sungkan meninjau kode senior itu nyata di lingkungan kita, padahal senior pun menghargai temuan yang memperbaiki kodenya",
     "Yang meninjau justru banyak belajar dari cara orang lain berpikir, memecahkan masalah dari arah berbeda, dan menamai sesuatu",
     "Tinjauan manusia adalah langkah terakhir — setelah ESLint, Prettier, Husky, dan unit test di CI lolos, dan masukan bersifat selera ditandai jelas sebagai nitpick"
-  ]
+  ],
+  "seoTitle": "Code Review: Kritik Kodenya, Bukan Orangnya | Ngobrolin WEB",
+  "metaDescription": "Berpegang pada engineering practices Google, para host membahas biaya code review, masukan berbentuk pertanyaan, sungkan pada senior, dan label nitpick."
 }
