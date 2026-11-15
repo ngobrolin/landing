@@ -190,20 +190,24 @@ const BrandTag = brandAsHeading ? 'h1' : 'p';
     <!-- Additional head content -->
     <slot name="head" />
 
-    <!-- Speculation Rules API for prefetch/prerender -->
-    <script type="speculationrules">
-{
-  "prefetch": [{
-    "source": "document",
-    "where": { "href_matches": "/episodes/*" },
-    "eagerness": "eager"
-  }],
-  "prerender": [{
-    "source": "list",
-    "urls": ["/episodes/"]
-  }]
-}
-</script>
+    <!-- Speculation rules wait for idle after `load`: inline, the /episodes/ prerender shared the throttled mobile link with the LCP image. -->
+    <script is:inline data-astro-rerun>
+      (function addSpeculationRules() {
+        if (document.querySelector('script[type="speculationrules"]')) return;
+        const add = () => {
+          const rules = document.createElement('script');
+          rules.type = 'speculationrules';
+          rules.textContent = JSON.stringify({
+            prefetch: [{ source: 'document', where: { href_matches: '/episodes/*' }, eagerness: 'eager' }],
+            prerender: [{ source: 'list', urls: ['/episodes/'] }],
+          });
+          document.head.append(rules);
+        };
+        const addWhenIdle = () => (window.requestIdleCallback || setTimeout)(add, { timeout: 2000 });
+        if (document.readyState === 'complete') addWhenIdle();
+        else addEventListener('load', addWhenIdle, { once: true });
+      })();
+    </script>
 
     <!-- Analytics (optional; configured via PUBLIC_UMAMI_* env vars) -->
     <Analytics />

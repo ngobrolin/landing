@@ -9,8 +9,9 @@
   font-family: "Archivo";
   font-style: normal;
   font-display: swap;
-  font-weight: 100 900;
-  font-stretch: 62% 125%;
+  /* The file is instanced to these ranges; widen them only after re-cutting it from the full Archivo. */
+  font-weight: 400 800;
+  font-stretch: 100% 125%;
   src: url("/fonts/archivo-latin-wdth.woff2") format("woff2");
 }
 
