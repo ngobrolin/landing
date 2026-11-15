@@ -335,8 +335,12 @@ Monaco, Consolas`)
 **Character:** One family doing two voices. At normal width Archivo is a plain,
 even grotesque that stays out of the way of long Indonesian prose. Pushed wide
 and heavy it becomes a newspaper nameplate. The file is
-`/fonts/archivo-latin-wdth.woff2` (Latin subset, weights 100 to 900, width 62%
-to 125%, about 90 KB), preloaded in `Layout.astro` with `font-display: swap`.
+`/fonts/archivo-latin-wdth.woff2` (Latin subset, weights 400 to 800, width 100%
+to 125%, about 59 KB), preloaded in `Layout.astro` with `font-display: swap`.
+The axes were cut to the range the CSS uses, because on PageSpeed's throttled
+mobile link the font downloads alongside the LCP image. A weight below 400 or a
+width under 100% now clamps to the nearest end, so re-cut the file from the full
+Archivo (fontTools `instancer`) before reaching for one.
 
 ### Hierarchy
 

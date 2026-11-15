@@ -1,5 +1,9 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import { Image } from 'astro:assets';
+import ekaPhoto from '../assets/hosts/eka.jpg';
+import ivanPhoto from '../assets/hosts/ivan.jpg';
+import rizaPhoto from '../assets/hosts/riza.jpg';
 import partners from '../data/partners.json';
 import testimonials from '../data/testimonials.json';
 import { getPartnerCardStats, getPartnerStats } from '../lib/partner-stats';
@@ -35,7 +39,7 @@ const hosts = [
     role: 'Co-founder Hacktiv8',
     expert: 'GDE Web',
     bio: 'Google Developer Expert seputar Web & AI. Praktisi software engineering dan edukator teknologi yang mendirikan Hacktiv8.',
-    image: '/images/riza.jpg',
+    image: rizaPhoto,
     github: 'https://github.com/rizafahmi',
     youtube: 'https://www.youtube.com/@RizaFahmi',
     x: 'https://x.com/search?q=%23ngobrolinweb&f=live',
@@ -45,7 +49,7 @@ const hosts = [
     role: 'Software Engineer, Atma Connect',
     expert: 'GDE Web',
     bio: 'Google Developer Expert Web Technologies. Pengembang web yang fokus pada aksesibilitas, performa, dan ekosistem web modern.',
-    image: '/images/eka.jpg',
+    image: ekaPhoto,
     github: 'https://github.com/ekafyi',
     x: 'https://x.com/ekafyi',
   },
@@ -54,7 +58,7 @@ const hosts = [
     role: 'Senior Web Engineer, Human Made',
     expert: 'GDE Web',
     bio: 'Google Developer Expert Web. Berpengalaman belasan tahun dalam arsitektur platform web skala besar dan open-source.',
-    image: '/images/ivan.jpg',
+    image: ivanPhoto,
     github: 'https://github.com/ivankristianto',
     x: 'https://x.com/ivankrisdotcom',
   },
@@ -188,13 +192,14 @@ const shareCardAlt = `Ngobrolin WEB — sponsor & pasang iklan: ${getPartnerCard
       <div class="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-5xl mx-auto">
         {hosts.map(host => (
           <div class="bg-surface-raised border border-surface-border rounded-xl p-6 flex flex-col items-center text-center">
-            <img
+            <Image
               src={host.image}
               alt={host.name}
               class="w-20 h-20 rounded-full object-cover ring-2 ring-accent/40 mb-4"
               loading="lazy"
-              width="80"
-              height="80"
+              width={80}
+              height={80}
+              densities={[1, 2]}
             />
             <div class="flex items-center gap-1.5 mb-1">
               <h3 class="text-ink font-bold text-lg">{host.name}</h3>

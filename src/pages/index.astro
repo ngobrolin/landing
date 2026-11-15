@@ -6,6 +6,9 @@ import { getDisplayTitle } from '../lib/episode-title';
 import { getArchiveStats, getYearsWithCounts, getTopTags, getArchivePicks } from '../lib/archive';
 import { formatTagLabel } from '../lib/tags';
 import { Image, getImage } from 'astro:assets';
+import ekaPhoto from '../assets/hosts/eka.jpg';
+import ivanPhoto from '../assets/hosts/ivan.jpg';
+import rizaPhoto from '../assets/hosts/riza.jpg';
 import { generateHomepageSchema } from '../lib/seo';
 
 const episodes = getEpisodes();
@@ -56,7 +59,7 @@ const hosts = [
     role: 'Pengembang Web • Atma Connect',
     expert: 'GDE Web',
     focus: 'Aksesibilitas & Standar Web',
-    image: '/images/eka.jpg',
+    image: ekaPhoto,
     github: 'https://github.com/ekafyi',
     x: 'https://x.com/ekafyi',
   },
@@ -65,7 +68,7 @@ const hosts = [
     role: 'Senior Web Engineer • Human Made',
     expert: 'GDE Web',
     focus: 'Platform Konten & Core Web',
-    image: '/images/ivan.jpg',
+    image: ivanPhoto,
     github: 'https://github.com/ivankristianto',
     x: 'https://x.com/ivankrisdotcom',
   },
@@ -74,7 +77,7 @@ const hosts = [
     role: 'Co-founder Hacktiv8',
     expert: 'GDE Web',
     focus: 'Tooling Modern & Ekosistem Web',
-    image: '/images/riza.jpg',
+    image: rizaPhoto,
     github: 'https://github.com/rizafahmi',
     youtube: 'https://www.youtube.com/@RizaFahmi',
     x: 'https://x.com/search?q=%23ngobrolinweb&f=live',
@@ -129,11 +132,12 @@ const hosts = [
           <div class="flex items-center gap-3">
             <div class="flex shrink-0">
               {hosts.map((host, index) => (
-                <img
+                <Image
                   src={host.image}
                   alt=""
-                  width="44"
-                  height="44"
+                  width={44}
+                  height={44}
+                  densities={[1, 2]}
                   loading="lazy"
                   class:list={['w-11 h-11 rounded-full object-cover border-2 border-accent-strong', index > 0 && '-ml-3']}
                 />
@@ -346,13 +350,14 @@ const hosts = [
     <div class="grid grid-cols-1 md:grid-cols-3 gap-x-8 gap-y-6">
       {hosts.map((host) => (
         <div class="grid grid-cols-[3.5rem_minmax(0,1fr)] gap-x-3.5 items-start">
-          <img
+          <Image
             src={host.image}
             alt=""
             class="w-14 h-14 rounded-full object-cover"
             loading="lazy"
-            width="56"
-            height="56"
+            width={56}
+            height={56}
+            densities={[1, 2]}
           />
           <div class="min-w-0">
             <h3 class="text-ink font-bold text-[1.0625rem]">
