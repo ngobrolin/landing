@@ -27,7 +27,7 @@ pnpm run preview
 ## Weekly ops
 
 For a status report of the whole pipeline, ask a skill-aware agent to run the `episode-pipeline`
-skill at `.agents/skills/episode-pipeline/SKILL.md` (symlinked into `.claude/skills/`). It is
+skill at `.claude/skills/episode-pipeline/SKILL.md` (symlinked from `.agents/skills/`). It is
 read-only by default and prepares new transcripts and summaries only when asked. It never fetches,
 uploads, merges or deploys. A read-only per-video inventory on its own:
 `pnpm exec tsx scripts/pipeline-status.ts`.
@@ -368,8 +368,8 @@ Podcast RSS feed available at `/podcast-rss.xml`.
 ## Summarization
 
 Summaries are written by an AI tool following the `summarizing-episodes` skill at
-`.agents/skills/summarizing-episodes/SKILL.md` (symlinked into `.claude/skills/` for Claude
-Code). The skill is the contract: Bahasa Indonesia, the JSON shape, grounding rules, and the
+`.claude/skills/summarizing-episodes/SKILL.md` (symlinked from `.agents/skills/` for other
+agents). The skill is the contract: Bahasa Indonesia, the JSON shape, grounding rules, and the
 check, tag and test steps.
 
 1. Open the repo in a skill-aware agent (Claude Code, Codex, Cursor, Copilot) and ask it to

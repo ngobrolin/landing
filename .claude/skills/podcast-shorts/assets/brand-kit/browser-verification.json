@@ -1,0 +1,16 @@
+{
+  "pageErrors": [],
+  "desktopOverflow": false,
+  "mobileOverflow": false,
+  "safeAreaToggle": "passed",
+  "assetImagesDecoded": true,
+  "viewports": [
+    1440,
+    390
+  ],
+  "screenshots": [
+    "logo-board.png",
+    "design-system-board.png",
+    "mobile-review.png"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "source-frame.jpg": {
+    "source": "https://www.youtube.com/watch?v=kyzTP34JNao",
+    "timestampSeconds": 1620,
+    "method": "FFmpeg extract from original podcast footage"
+  },
+  "layout-solo.png": {
+    "source": "source-frame.jpg",
+    "method": "Pillow layout study; not an edited video; caption copy illustrative"
+  },
+  "layout-duo.png": {
+    "source": "source-frame.jpg",
+    "method": "Pillow layout study; not an edited video; caption copy illustrative"
+  },
+  "layout-title.png": {
+    "source": "authored typography and geometry",
+    "method": "Pillow layout study; not an edited video; caption copy illustrative"
+  }
+}
