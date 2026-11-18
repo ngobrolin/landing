@@ -1,0 +1,175 @@
+{
+  "$schema": "https://www.designtokens.org/schemas/2025.10/format.json",
+  "$description": "Video-first extension of the existing Ngobrolin WEB identity. Proposal v1, pending visual approval.",
+  "color": {
+    "$type": "color",
+    "primary": {
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.184,
+          0.31,
+          0.816
+        ],
+        "hex": "#2f4fd0"
+      }
+    },
+    "background": {
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.055,
+          0.067,
+          0.133
+        ],
+        "hex": "#0e1122"
+      }
+    },
+    "foreground": {
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.949,
+          0.957,
+          0.992
+        ],
+        "hex": "#f2f4fd"
+      }
+    },
+    "panel": {
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.098,
+          0.114,
+          0.227
+        ],
+        "hex": "#191d3a"
+      }
+    },
+    "muted": {
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.718,
+          0.761,
+          0.894
+        ],
+        "hex": "#b7c2e4"
+      }
+    },
+    "highlight": {
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.941,
+          0.627,
+          0.188
+        ],
+        "hex": "#f0a030"
+      }
+    },
+    "paper": {
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.945,
+          0.949,
+          0.965
+        ],
+        "hex": "#f1f2f6"
+      }
+    }
+  },
+  "spacing": {
+    "$type": "dimension",
+    "unit": {
+      "$value": {
+        "value": 8,
+        "unit": "px"
+      }
+    },
+    "caption-padding": {
+      "$value": {
+        "value": 24,
+        "unit": "px"
+      }
+    },
+    "safe-left": {
+      "$value": {
+        "value": 72,
+        "unit": "px"
+      }
+    },
+    "safe-right": {
+      "$value": {
+        "value": 180,
+        "unit": "px"
+      }
+    },
+    "safe-top": {
+      "$value": {
+        "value": 150,
+        "unit": "px"
+      }
+    },
+    "safe-bottom": {
+      "$value": {
+        "value": 370,
+        "unit": "px"
+      }
+    }
+  },
+  "rounded": {
+    "$type": "dimension",
+    "panel": {
+      "$value": {
+        "value": 16,
+        "unit": "px"
+      }
+    }
+  },
+  "typography": {
+    "title": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Archivo",
+        "fontSize": {
+          "value": 80,
+          "unit": "px"
+        },
+        "fontWeight": 800,
+        "letterSpacing": {
+          "value": -0.02,
+          "unit": "em"
+        }
+      }
+    },
+    "caption": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Archivo",
+        "fontSize": {
+          "value": 56,
+          "unit": "px"
+        },
+        "fontWeight": 800,
+        "letterSpacing": {
+          "value": 0,
+          "unit": "em"
+        }
+      }
+    },
+    "label": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Archivo",
+        "fontSize": {
+          "value": 32,
+          "unit": "px"
+        },
+        "fontWeight": 600
+      }
+    }
+  }
+}

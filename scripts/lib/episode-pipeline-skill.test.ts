@@ -12,8 +12,8 @@ import { fileURLToPath } from "node:url";
  */
 const repoRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..", "..");
 const SKILL_NAME = "episode-pipeline";
-const SKILL_DIR = `.agents/skills/${SKILL_NAME}`;
-const CLAUDE_LINK = `.claude/skills/${SKILL_NAME}`;
+const SKILL_DIR = `.claude/skills/${SKILL_NAME}`;
+const AGENTS_LINK = `.agents/skills/${SKILL_NAME}`;
 
 const read = (file: string) => readFileSync(path.join(repoRoot, file), "utf-8");
 const skill = read(`${SKILL_DIR}/SKILL.md`);
@@ -33,8 +33,8 @@ describe("episode-pipeline skill: discovery", () => {
     expect(front![2]).toMatch(/read-only/);
   });
 
-  it("is reachable from .claude/skills through a relative symlink", () => {
-    const link = path.join(repoRoot, CLAUDE_LINK);
+  it("is reachable from .agents/skills through a relative symlink", () => {
+    const link = path.join(repoRoot, AGENTS_LINK);
     expect(lstatSync(link).isSymbolicLink()).toBe(true);
     expect(path.isAbsolute(readlinkSync(link))).toBe(false);
     expect(realpathSync(link)).toBe(realpathSync(path.join(repoRoot, SKILL_DIR)));
