@@ -107,6 +107,14 @@ with 8-12 key points, and one missing `videoId`) and assert those sets cannot gr
 rule from the other side: it skips episodes whose optional `duration` is absent — a field the
 YouTube videos API can legitimately omit — and only checks the ones that are there.
 
+A summary's `generatedAt` is when it was first written and never moves. An edit
+is recorded in the optional `updatedAt`, written only by `scripts/stamp-updated.ts`,
+and that is what moves the episode's sitemap `lastmod` (`src/lib/episode-lastmod.ts`).
+Bumping `generatedAt` instead erases provenance; editing without stamping leaves
+Google a stale date. "Recording an edit" in the skill says when to stamp. A past edit is stamped only from
+evidence such as the commit that landed it; `docs/plans/2026-11-18-editorial-lastmod.md`
+holds the worked case for the November 2026 SEO title and description work.
+
 Whisper repetition loops corrupt roughly a dozen transcripts — a line repeats for hundreds
 of wrapped lines, sometimes to the end of the file. Ground a summary only on the intact
 portions and never guess at what a loop replaced.

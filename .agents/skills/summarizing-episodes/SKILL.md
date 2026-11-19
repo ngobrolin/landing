@@ -37,13 +37,14 @@ YouTube video ID, and `Summary.astro` finds the file by that name alone.
 | Field | Rule |
 | :--- | :--- |
 | `videoId` | The YouTube video ID. Must equal the filename without `.json`. |
-| `generatedAt` | ISO 8601 UTC timestamp of when you wrote the summary, e.g. `2026-10-26T16:24:06Z`. |
+| `generatedAt` | ISO 8601 UTC timestamp of when you wrote the summary, e.g. `2026-10-26T16:24:06Z`. Never changes after that. |
+| `updatedAt` | Optional. When the summary was last edited in substance. Written only by `scripts/stamp-updated.ts`; see "Recording an edit". |
 | `brief` | 2-3 paragraphs separated by a blank line (`\n\n`). The page renders the line breaks as written. |
 | `keyPoints` | 5-7 non-empty strings: the main topics and takeaways. |
 | `seoTitle` | Optional. The page `<title>` and share title. See "Search title and description". |
 | `metaDescription` | Optional. The page meta description. Same section. |
 
-No other field is read. Add the two optional fields after `keyPoints`. No template leftover may survive: `{videoId}`-style
+No other field is read. Add `seoTitle` and `metaDescription` after `keyPoints`. No template leftover may survive: `{videoId}`-style
 placeholders, `TODO`, `TBD`, `FIXME` or `lorem ipsum` fail the check.
 
 The shape, with the real episode `Nq3uKguMNCA` as the ID:
@@ -130,8 +131,8 @@ Whisper transcript with auto-captions is a downgrade, which is why
    Done when you hold one `videoId` with a transcript.
 2. **Do not overwrite.** If `src/data/summaries/<videoId>.json` already exists,
    stop unless the user asked you to revise that summary. When revising, edit
-   the existing file, keep its `videoId`, set a new `generatedAt`, and report
-   what changed and why.
+   the existing file, keep its `videoId` and `generatedAt`, stamp it as
+   "Recording an edit" describes, and report what changed and why.
    Done when the target file is either absent or explicitly in scope.
 3. **Read the sources.** Read the transcript and the episode's title in
    `src/data/episodes.json`. Note the `source` field. Scan `fullText` for a
@@ -163,6 +164,49 @@ Whisper transcript with auto-captions is a downgrade, which is why
 
 Repeat from step 1 for the next episode. Check each one before starting another.
 
+## Recording an edit
+
+An episode's sitemap `lastmod` is the newest of its publish date, the summary
+and transcript `generatedAt`, and the summary's `updatedAt`
+(`src/lib/episode-lastmod.ts`). Google uses it to decide when to recrawl, and
+only trusts it while it stays accurate. A new summary needs nothing: its
+`generatedAt` already moves the date. An edit to an existing one does not move
+anything until you stamp it.
+
+Stamp after an edit a reader or a search result would see:
+
+- `brief` or `keyPoints` rewritten, corrected, added to or cut;
+- `seoTitle` or `metaDescription` added or changed (they are the page's
+  `<title>` and meta description, so they count even though the visible
+  summary is untouched).
+
+Do not stamp:
+
+- reindenting, key reordering, or any change `JSON.parse` would not see;
+- a typo or punctuation fix that changes no meaning;
+- a change you are about to revert, or one still in a draft you have not placed.
+
+Run it once, after the edit is final and `scripts/check-summary.ts` passes, naming
+each edited file:
+
+```bash
+pnpm exec tsx scripts/stamp-updated.ts --dry-run src/data/summaries/<videoId>.json
+pnpm exec tsx scripts/stamp-updated.ts src/data/summaries/<videoId>.json
+```
+
+With no `--at` it stamps the current time. For an edit made earlier, pass when
+it was made, with a timezone, taken from evidence such as the commit that
+landed it: `--at 2026-11-14T14:12:51Z`. The command checks every file before it
+writes any, changes only `updatedAt` (adding it as the last property also puts
+a comma on the line before), refuses a stamp in the future,
+before `generatedAt` or before an existing `updatedAt`, and treats the same
+stamp twice as a no-op. It cannot tell a real edit from a trivial one; that
+judgement is yours. Never stamp a list of files nobody edited, and never set
+`generatedAt` to record an edit.
+
+Transcripts carry no `updatedAt`. A transcript is regenerated rather than
+edited, and regenerating it writes a new `generatedAt`.
+
 ## Pitfalls
 
 - `Summary.astro` validates nothing and finds the file by name alone. A wrong
@@ -179,6 +223,7 @@ Repeat from step 1 for the next episode. Check each one before starting another.
 ## Verification
 
 - `pnpm exec tsx scripts/check-summary.ts src/data/summaries/<videoId>.json` prints `✓` for every new or revised file.
+- Every revised file carries an `updatedAt` from `scripts/stamp-updated.ts`, and its `generatedAt` is unchanged.
 - `git status` shows only those summary files and `src/data/tags.json`.
 - `git diff src/data/tags.json` touches only those episodes, and no tag has left the file.
 - `pnpm run test:unit` passes.

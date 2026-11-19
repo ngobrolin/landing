@@ -14,6 +14,8 @@
  * with none).
  */
 
+import { findUpdatedAtProblems, parseContentTimestamp } from "../../src/lib/episode-lastmod";
+
 export const KEY_POINTS_MIN = 5;
 export const KEY_POINTS_MAX = 7;
 
@@ -34,6 +36,8 @@ const DASH = /[\u2013\u2014]/;
 export interface SummaryFile {
   videoId?: string;
   generatedAt: string;
+  /** Last substantive edit, stamped by scripts/stamp-updated.ts; generatedAt keeps the first write. */
+  updatedAt?: string;
   brief: string;
   keyPoints: string[];
   seoTitle?: string;
@@ -82,7 +86,10 @@ export function findSummaryProblems(
 
   if (!isNonEmptyString(record.generatedAt)) {
     problems.push("`generatedAt` must be a non-empty string");
+  } else if (parseContentTimestamp(record.generatedAt) === undefined) {
+    problems.push("`generatedAt` must be an ISO 8601 timestamp with a timezone, e.g. 2026-11-14T05:50:57Z");
   }
+  problems.push(...findUpdatedAtProblems(record));
 
   if (!isNonEmptyString(record.brief)) {
     problems.push("`brief` must be a non-empty string");
