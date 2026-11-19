@@ -84,6 +84,8 @@ Priority order for podcast distribution and content enrichment:
    - Skill-aware agents (Claude Code, Codex, Cursor, Copilot) load it from the repo; otherwise reference `@SUMMARIZE.md`, which points to it
    - Saves to `src/data/summaries/`
    - See [Summarization](#summarization) for workflow
+   - After editing an existing summary (including `seoTitle` or `metaDescription`), stamp it so the sitemap `lastmod` moves:
+     `pnpm exec tsx scripts/stamp-updated.ts src/data/summaries/<videoId>.json`. When to run it, and when not to, is under "Recording an edit" in the skill
 
 3. **Extract tags** — after summaries change, regenerate `src/data/tags.json` (fully derived/replaced):
    ```bash

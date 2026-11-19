@@ -48,6 +48,23 @@ describe("findSummaryProblems", () => {
     ).toHaveLength(2);
   });
 
+  it("requires generatedAt to be a real timestamp with a timezone", () => {
+    for (const generatedAt of [
+      "2026-10-26T16:24:06",
+      "2026-10-26",
+      "2026-02-30T16:24:06Z",
+      "2026-10-26T24:00:00Z",
+      "kemarin",
+    ]) {
+      expect(findSummaryProblems(summary({ generatedAt }), FILE)).toEqual([
+        "`generatedAt` must be an ISO 8601 timestamp with a timezone, e.g. 2026-11-14T05:50:57Z",
+      ]);
+    }
+    expect(
+      findSummaryProblems(summary({ generatedAt: "2026-10-26T23:24:06+07:00" }), FILE),
+    ).toEqual([]);
+  });
+
   it(`bounds key points to ${KEY_POINTS_MIN}-${KEY_POINTS_MAX}`, () => {
     const points = (n: number) =>
       Array.from({ length: n }, (_, i) => `Poin ${i + 1}`);
@@ -165,6 +182,25 @@ describe("optional seoTitle and metaDescription", () => {
     expect(findSummaryProblems(summary({ seoTitle: 1, metaDescription: [] }), FILE)).toEqual([
       "`seoTitle` must be a string",
       "`metaDescription` must be a string",
+    ]);
+  });
+});
+
+describe("optional updatedAt", () => {
+  it("accepts a summary without it, and one stamped after generatedAt", () => {
+    expect(findSummaryProblems(summary(), FILE)).toEqual([]);
+    expect(findSummaryProblems(summary({ updatedAt: "2026-11-14T14:12:51Z" }), FILE)).toEqual([]);
+  });
+
+  it("rejects a value without a timezone, before generatedAt, or in the future", () => {
+    expect(findSummaryProblems(summary({ updatedAt: "2026-11-14T14:12:51" }), FILE)).toEqual([
+      expect.stringContaining("timezone"),
+    ]);
+    expect(findSummaryProblems(summary({ updatedAt: "2026-10-01T00:00:00Z" }), FILE)).toEqual([
+      "`updatedAt` is earlier than `generatedAt`",
+    ]);
+    expect(findSummaryProblems(summary({ updatedAt: "2999-01-01T00:00:00Z" }), FILE)).toEqual([
+      "`updatedAt` is in the future",
     ]);
   });
 });
