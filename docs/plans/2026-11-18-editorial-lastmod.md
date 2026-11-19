@@ -86,3 +86,39 @@ build time, no file mtime, no daily "now".
   2026-11-14T14:12:51Z, and every summary parsed equal to its original apart
   from `updatedAt`. Then one summary stamped with no `--at` showed that time in
   the rebuilt sitemap.
+
+## Head tags through astro-seo
+
+The same branch moves the hand-written `<title>`, description, canonical, Open
+Graph and Twitter tags in `Layout.astro` onto `astro-seo`, pinned at exactly
+1.2.0. `src/lib/seo-head.ts` builds its props. JSON-LD and the sitemap are
+untouched.
+
+Three things in the package needed handling:
+
+- It writes the title with `set:html`, so a YouTube title would land as raw
+  HTML. `escapeTitle()` applies the five escapes Astro uses for text, and only
+  to `title`. The Open Graph and Twitter titles get the raw string because
+  Astro escapes attributes itself. The exact pin exists because this
+  workaround depends on that `set:html`.
+- Its default canonical keeps the query string. The canonical and `og:url` are
+  always passed as the path-only URL, and `null` drops the canonical on 404.
+- `openGraph.image` would add `og:image:url`, so the default card's size and
+  alt go through `extend.meta`. /partners still declares its own in its head
+  slot, and nothing is emitted twice.
+
+It also emits `<meta name="robots" content="index, follow">` on every page with
+no option to leave it out. That matches the crawler default, and no page had a
+robots tag before. The `X-Robots-Tag: noindex` that `public/_headers` sends for
+the pages.dev mirror now sits beside it there; crawlers apply the stricter of
+the two. Whether 404 should say `noindex` is a policy call left open here.
+
+`src/lib/seo-head.render.test.ts` renders the package through Astro's container
+in its own vitest project (`vitest.astro.config.ts`), so the other tests keep
+their plain pipeline. A head inventory of all 238 built HTML files against a
+baseline from before the change showed the same title, description, canonical,
+Open Graph, Twitter and JSON-LD on every page. The only difference was the
+robots tag on the 237 layout pages.
+
+The summary backfill in step 4 is still not applied. It waits on the same
+go-ahead.
