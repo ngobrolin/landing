@@ -1,6 +1,7 @@
 {
   "videoId": "4yHA-8Bu4XM",
   "generatedAt": "2026-02-20T00:00:00.000Z",
+  "updatedAt": "2026-11-14T14:12:51Z",
   "brief": "Episode ini membahas pengalaman tim Ngobrolin WEB menghadiri JavaScript Bangkok Conference 2.0.1 di Bangkok, Thailand. Rizal menceritakan pengalamannya ditolak saat mengajukan topik presentasi tentang Local First AI, namun tetap mendapat kesempatan untuk hadir setelah nebeng hotel dan mendapat subsidi dari pihak penyelenggara. Selama konferensi, mereka menghadiri berbagai sesi menarik termasuk keynote oleh Lihao (maintainer Stealth) tentang cara kerja spell compiler, presentasi oleh Pak Thor (ex-Googler) tentang real-time translation dan semantic search menggunakan WebAssembly dan WebGPU secara offline, serta sesi tentang creative coding dengan P5.js oleh Patt Vira. Ivan memberikan presentasi lightning talk tentang WebDriver BiDi. Episode juga menyinggung perbandingan budaya dan kuliner antara Indonesia, Thailand, dan Malaysia, serta diskusi teknis mengapa framework JavaScript yang populer cenderung bersifat minimalis dibandingkan full-battery seperti framework di bahasa pemrograman lain.",
   "keyPoints": [
     "Rizal dan Ivan berangkat ke Bangkok untuk menghadiri JavaScript Bangkok Conference 2.0.1, setelah Rizal mengajukan topik presentasi yang ditolak namun tetap diterima kehadirannya",

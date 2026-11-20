@@ -1,6 +1,7 @@
 {
   "videoId": "aedr75hKoZ0",
   "generatedAt": "2026-02-25T00:00:00Z",
+  "updatedAt": "2026-11-14T14:12:51Z",
   "brief": "Episode ini membahas teknologi real-time communication di web, dengan fokus utama pada WebSocket. Host menjelaskan perbedaan antara HTTP request-response konvensional dengan WebSocket yang memungkinkan koneksi terus-menerus (persistent connection) antara klien dan server. Episode ini mengupas sejarah singkat munculnya WebSocket sebagai solusi atas keterbatasan HTTP untuk komunikasi dua arah secara real-time, serta membahas alternatif seperti polling, long polling, dan COMET yang pernah digunakan sebelum WebSocket menjadi standar.\n\nSelain WebSocket, episode ini juga membahas Server-Sent Events (SSE) sebagai alternatif yang lebih sederhana untuk use case satu arah (server-to-client) serta WebTransport sebagai teknologi terbaru yang menjanjikan. Diskusi juga menyentuh implementasi WebSocket di berbagai framework seperti Ruby on Rails (Action Cable, Hotwire) dan Laravel (Laravel Echo, Livewire), tantangan scaling koneksi WebSocket untuk jumlah pengguna besar, serta perbedaan WebSocket dengan teknologi lain seperti WebRTC yang bersifat peer-to-peer.",
   "keyPoints": [
     "WebSocket memungkinkan komunikasi bidireksional dengan latency rendah - Koneksi tetap terbuka (persistent connection) antara klien dan server, memungkinkan data dikirim dua arah secara real-time tanpa perlu request-response berulang seperti HTTP biasa.",

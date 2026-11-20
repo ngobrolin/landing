@@ -1,6 +1,7 @@
 {
   "videoId": "NDQXIdPWaUQ",
   "generatedAt": "2026-02-21T00:00:00Z",
+  "updatedAt": "2026-11-14T14:12:51Z",
   "brief": "Episode ini membahas tentang Big O Notation, sebuah konsep fundamental dalam ilmu komputer yang digunakan untuk mengukur kompleksitas performa kode. Diskusi dimulai dengan pengalaman tim mengenai pembelajaran Big O di kampus dan relevansinya dalam coding interview. Topik utama mencakup pengenalan berbagai jenis notasi kompleksitas seperti O(1), O(n), O(log n), O(n²), hingga O(n!), serta perbedaan antara Big O (worst case scenario), Omega (best case scenario), dan Theta notation. Episode juga menampilkan studi kasus nyata dari dunia kerja, termasuk kisah menarik tentang sistem penyimpanan 15.000 kunci mobil yang menerapkan konsep indexing secara fisik, serta contoh implementasi query optimization untuk WordPress block editor.",
   "keyPoints": [
     "Big O Notation adalah representasi matematis untuk mengukur kompleksitas waktu atau ruang dari suatu algoritma, dengan fokus pada worst case scenario",

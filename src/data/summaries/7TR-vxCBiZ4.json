@@ -1,6 +1,7 @@
 {
   "videoId": "7TR-vxCBiZ4",
   "generatedAt": "2026-02-08T13:30:00Z",
+  "updatedAt": "2026-11-14T14:12:51Z",
   "brief": "Episode ini membahas tentang keamanan web (web security) bersama Mas Irfan, narasumber untuk ketiga kalinya. Diskusi dimulai dengan pengalaman Mas Irfan mencari pekerjaan selama 2 bulan dan pentingnya memiliki dana darurat (emergency fund). Topik utama adalah security yang sering dianggap sulit oleh banyak developer karena kurangnya exposure dan pembahasan, padahal security adalah tanggung jawab semua orang dalam tim pengembangan, bukan hanya tim IT security khusus. Episode ini menekankan bahwa security harus dianggap sebagai bagian dari produk, sama seperti performance dan accessibility.",
   "keyPoints": [
     "Security adalah tanggung jawab semua orang dalam pengembangan software, dari front-end sampai back-end, bukan hanya tim IT security khusus",

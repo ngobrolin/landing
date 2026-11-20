@@ -1,6 +1,7 @@
 {
   "videoId": "RQ6KMuo9PPg",
   "generatedAt": "2026-02-05T12:00:00Z",
+  "updatedAt": "2026-11-14T14:12:51Z",
   "brief": "Episode ini membahas Storybook, tool untuk membangun, menguji, dan mendokumentasikan komponen UI secara terisolasi. Host membahas evolusi Storybook dari yang sebelumnya dianggap berat dan lambat (menggunakan webpack) menjadi jauh lebih baik setelah beralih ke Vite 1-2 tahun terakhir.\n\nDiskusi mencakup bagaimana Storybook membantu dalam pengembangan Design System, implementasi Atomic Design methodology (Atoms, Molecules, Organisms, Templates, Pages), dan kolaborasi antara frontend developer dengan designer. Storybook memungkinkan frontend developer bekerja mandiri dengan fake data sambil menunggu backend selesai, serta mendokumentasikan berbagai state dan varian komponen yang mungkin tidak terpikirkan saat desain.",
   "keyPoints": [
     "Storybook adalah tool untuk build, test, dan dokumentasi UI components dalam isolasi (seperti workshop untuk komponen)",

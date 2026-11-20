@@ -1,6 +1,7 @@
 {
   "videoId": "ObTg-XT9C64",
   "generatedAt": "2026-02-21T10:30:00Z",
+  "updatedAt": "2026-11-14T14:12:51Z",
   "brief": "Episode ini membahas tentang tips dan trik optimasi performa JavaScript, khususnya penggunaan atribut async, defer, dan dynamic import. Diskusi dimulai dengan Core Web Vitals, terutama INP (Interaction to Next Paint) yang menggantikan FID (First Input Delay) sebagai metrik responsivitas halaman. Tim NgobrolinWEB menjelaskan perbedaan antara script synchronous (blocking), async (dieksekusi segera setelah selesai di-download), dan defer (dieksekusi setelah DOM Content Loaded). Episode ini juga membahas kasus nyata seperti penggunaan jQuery, header bidding untuk iklan, cookie consent, dan bagaimana menghindari race condition. Terdapat diskusi menarik tentang Partytown untuk offload third-party script ke web worker, TypeScript, dan sejarah browser serta JavaScript.",
   "keyPoints": [
     "INP (Interaction to Next Paint) adalah Core Web Vital baru yang menggantikan FID sejak 31 Desember 2024, mengukur responsivitas halaman saat interaksi user",

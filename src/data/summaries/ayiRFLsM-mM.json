@@ -1,6 +1,7 @@
 {
   "videoId": "ayiRFLsM-mM",
   "generatedAt": "2026-02-20T00:00:00.000Z",
+  "updatedAt": "2026-11-14T14:12:51Z",
   "brief": "Episode Ngobrolin ini membahas tentang HTMX, sebuah front-end framework yang unik dengan pendekatan HTML-first. Berbeda dengan framework modern seperti React atau Vue yang berbasis JavaScript, HTMX memperluas kemampuan HTML melalui atribut khusus dengan prefix HX-, memungkinkan elemen HTML mana pun untuk melakukan HTTP request (GET, POST, PATCH, PUT, DELETE) tanpa perlu menulis kode JavaScript tambahan. Konsep kuncinya adalah \"HTML over the wire\" di mana server mengirimkan HTML sebagai respons yang kemudian langsung di-swap ke DOM, bukan JSON seperti pada SPA modern. Para pembicara juga menunjukkan demo live coding menggunakan Hono sebagai backend server untuk mendemonstrasikan fitur-fitur HTMX seperti hx-get, hx-post, hx-target, hx-swap, hx-indicator, dan hx-boost untuk membuat Single Page Application sederhana.",
   "keyPoints": [
     "HTMX adalah front-end framework yang menggunakan pendekatan HTML-first dengan menambahkan atribut HX- pada elemen HTML, memungkinkan interaktivitas tanpa menulis JavaScript client-side yang kompleks.",

@@ -1,6 +1,7 @@
 {
   "videoId": "_H9EkkzDGTs",
   "generatedAt": "2025-01-29T00:00:00Z",
+  "updatedAt": "2026-11-14T14:12:51Z",
   "brief": "Episode ini membahas berbagai strategi upload file dalam pengembangan aplikasi web. Eka dan Ivan berdiskusi tentang trade-off dari setiap pendekatan mulai dari local storage, database blob, hingga cloud storage seperti S3, GCP, dan Azure.\n\nDiskusi dimulai dengan cerita horor pengalaman masa lalu ketika menyimpan file di server yang sama dengan aplikasi, masalah scalability, hingga solusi modern menggunakan cloud storage. Topik ini diajukan oleh Kaisa yang memberikan konteks diskusi yang lengkap.",
   "keyPoints": [
     "Local storage (menyimpan file di folder server) adalah solusi paling sederhana namun memiliki masalah scalability ketika aplikasi perlu horizontal scaling",

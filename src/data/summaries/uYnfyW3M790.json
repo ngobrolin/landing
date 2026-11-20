@@ -1,6 +1,7 @@
 {
   "videoId": "uYnfyW3M790",
   "generatedAt": "2026-02-21T00:00:00Z",
+  "updatedAt": "2026-11-14T14:12:51Z",
   "brief": "Episode ini membahas tentang berbagai tools dan platform untuk membuat presentasi slide, mulai dari konvensional seperti PowerPoint dan Keynote hingga berbasis web seperti Google Slides, Canva, dan solusi berbasis kode seperti Reveal.js, MDX Deck, dan Slidev. Diskusi dimulai dengan pengalaman pribadi para host dalam menggunakan berbagai tools presentasi, kelebihan dan kekurangan masing-masing, serta fokus khusus pada Slidev - sebuah framework berbasis Markdown dan Vue yang memungkinkan developer membuat presentasi dengan cara yang lebih natural menggunakan kode. Episode juga menyinggung tentang use case khusus untuk developer seperti menampilkan kode dengan syntax highlighting, demo langsung di browser, dan kemudahan kolaborasi serta hosting.",
   "keyPoints": [
     "Perbandingan berbagai tools presentasi dari konvensional (PowerPoint, Keynote) ke berbasis web (Google Slides, Canva) dan berbasis kode (Reveal.js, MDX Deck, Slidev, Marp)",

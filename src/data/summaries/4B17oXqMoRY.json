@@ -1,6 +1,7 @@
 {
   "videoId": "4B17oXqMoRY",
   "generatedAt": "2026-02-20T00:00:00.000Z",
+  "updatedAt": "2026-11-14T14:12:51Z",
   "brief": "Episode ini membahas tentang Micro Front-end, sebuah arsitektur front-end yang memecah aplikasi monolitik menjadi bagian-bagian kecil yang dapat dikelola oleh tim yang berbeda secara independen. Diskusi dipandu oleh Ivan dengan narasumber Mas Irvan Maulana dan Lihao, yang berbagi pengalaman dan perspektif mereka tentang implementasi micro front-end di industri. Topik yang dibahas meliputi definisi micro front-end, kapan dan mengapa harus menggunakannya, tantangan performa dan dependensi, perbedaan antara monorepo dan micro front-end, serta konsep horizontal dan vertical split. Diskusi juga menyentuh alat-alat seperti Module Federation Plugin dan perdebatan tentang apakah pendekatan Vercel (vertical split) dapat disebut sebagai micro front-end yang sejati.",
   "keyPoints": [
     "Micro Front-end adalah ekivalen dari microservice di dunia back-end, memungkinkan tim yang berbeda untuk mengelola bagian-bagian front-end secara independen dengan deployment yang terpisah",

@@ -1,6 +1,7 @@
 {
   "videoId": "uPiv9JbEOPA",
   "generatedAt": "2026-01-29T01:26:29Z",
+  "updatedAt": "2026-11-14T14:12:51Z",
   "brief": "Episode ini membahas desain aplikasi CLI dan pengalaman pengguna di terminal, termasuk perbedaan CLI, TUI, dan aplikasi terminal pada umumnya. Diskusi mencakup alasan kenapa banyak developer tetap memilih terminal, serta bagaimana pengalaman di CLI bisa dibuat lebih jelas, cepat, dan menyenangkan.Pembahasan juga menyentuh prinsip desain dan panduan praktik terbaik, seperti pentingnya help, konsistensi flags, pesan error yang informatif, output yang bisa dipipe, dan mode quiet untuk kebutuhan otomatisasi. Selain itu, dibahas ekosistem tool dan library untuk membangun CLI, contoh penggunaan real (misalnya Cloudflare CLI), serta referensi guideline seperti clig.dev dan prinsip desain dari Atlassian.",
   "keyPoints": [
     "Perbedaan CLI, TUI, dan aplikasi terminal dibahas dari sisi UX dan konteks penggunaan",

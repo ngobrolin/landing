@@ -1,6 +1,7 @@
 {
   "videoId": "Nk9Z7BwGUUQ",
   "generatedAt": "2025-03-06T00:00:00.000Z",
+  "updatedAt": "2026-11-14T14:12:51Z",
   "brief": "Episode ini membahas tentang CORS (Cross-Origin Resource Sharing), salah satu topik yang sering membingungkan developer web. Diskusi dimulai dengan pengalaman pribadi tim menghadapi error CORS saat pertama kali belajar pengembangan web, dan kesalahpahaman umum bahwa solusinya cukup menambahkan header di sisi request (padahal harus dari server). Tim Ngobrolin WEB menjelaskan konsep origin, same-origin policy, dan bagaimana CORS bekerja sebagai mekanisme keamanan di browser. Episode ini juga membahas preflight request (OPTIONS), solusi menggunakan proxy/middleware untuk bypass CORS, dan teknik lama JSONP. Demonstrasi menarik ditampilkan dengan fitur Local Overrides di Chrome DevTools yang bisa mengubah response header dan content untuk testing. Episode ditutup dengan diskusi tentang berbagai tool untuk mengatasi CORS dan risiko membangun produk di atas platform orang lain.",
   "keyPoints": [
     "CORS adalah mekanisme keamanan browser yang membatasi resource dari origin berbeda (domain, schema, port) untuk diakses",

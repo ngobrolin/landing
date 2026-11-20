@@ -1,6 +1,7 @@
 {
   "videoId": "hSUqstbgNgI",
   "generatedAt": "2026-02-05T14:30:00Z",
+  "updatedAt": "2026-11-14T14:12:51Z",
   "brief": "Episode ini membahas bedah situs blog personal milik Mbak Mutia, seorang dosen di IAIN Langsa, yang dikembangkan oleh Mas Yudi Ananda. NaraBlog menonjol dengan desain minimalis yang konsisten, penggunaan bahasa Indonesia yang baku, dan konsep Digital Garden. Website dibangun menggunakan teknologi modern seperti Remix, Sanity CMS, Tailwind CSS, dan Cloudflare Workers. Diskusi mencakup berbagai aspek teknis termasuk implementasi Speculation Rules API untuk performa navigasi, penggunaan Web Share API, carbon-conscious analytics dengan Cabin, serta berbagai catatan accessibility yang perlu ditingkatkan.",
   "keyPoints": [
     "NaraBlog adalah blog personal akademisi dengan desain minimalis, tipografi yang rapi, dan konsistensi penggunaan bahasa Indonesia baku di seluruh situs",

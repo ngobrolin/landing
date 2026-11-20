@@ -1,6 +1,7 @@
 {
   "videoId": "RfOoMPVgYjM",
   "generatedAt": "2026-02-21T00:00:00Z",
+  "updatedAt": "2026-11-14T14:12:51Z",
   "brief": "Episode ini membahas ViteConf 2024, sebuah konferensi yang menghadirkan ekosistem Vite dan berbagai tools pengembangan web modern. Topik utama meliputi pengumuman pendanaan Void Zero oleh Evan You (pencipta Vite), hadirnya toolchain baru yang lebih cepat seperti OXC dan Rolldown, serta pembahasan tentang Tutorial Kit dari StackBlitz untuk membuat tutorial interaktif. Episode juga menyentuh fenomena \"Everything Written in Rust\" di dunia JavaScript tooling serta perbandingan antara berbagai bundler dan linter modern.",
   "keyPoints": [
     "ViteConf 2024 menghadirkan ekosistem Vite yang terus berkembang dengan adopsi yang sangat cepat, mencapai 5 juta unduhan mingguan di npm",

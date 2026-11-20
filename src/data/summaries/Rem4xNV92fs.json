@@ -1,6 +1,7 @@
 {
   "videoId": "Rem4xNV92fs",
   "generatedAt": "2025-01-06T00:00:00.000Z",
+  "updatedAt": "2026-11-14T14:12:51Z",
   "brief": "Episode ini membahas secara mendalam tentang formulir (forms) dalam pengembangan web, yang ternyata jauh lebih kompleks dari yang terlihat. Diskusi dimulai dengan sejarah elemen form yang sudah ada sejak HTML era 90-an dan menjadi salah satu penanda transisi dari halaman web statis ke aplikasi web interaktif. Host membahas berbagai aspek form mulai dari dasar-dasar HTML form, method GET vs POST, berbagai tipe input yang tersedia (text, email, date, color, file, dll), hingga validasi baik di client-side maupun server-side. Episode ini juga menyinggung tentang integrasi dengan password manager, autocomplete, accessibility, dan security. Pembahasan meliputi payment form sebagai study case yang kompleks karena melibatkan banyak best practice, serta berbagai library form helper seperti Formik dan React Hook Form beserta validasi library seperti Zod yang bisa digunakan baik di frontend maupun backend.",
   "keyPoints": [
     "Form adalah salah satu elemen HTML tertua yang menjadi penanda transisi dari web statis ke aplikasi web interaktif, memungkinkan user mengirim data ke server",
