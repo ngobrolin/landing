@@ -136,7 +136,8 @@ describe('getEpisodeLastModified with invalid dates', () => {
 describe('getEpisodeLastModified across build timezones', () => {
   const originalTz = process.env.TZ;
   afterEach(() => {
-    process.env.TZ = originalTz;
+    if (originalTz === undefined) delete process.env.TZ;
+    else process.env.TZ = originalTz;
   });
 
   it('gives the same lastmod under TZ=UTC and TZ=Asia/Jakarta', () => {
