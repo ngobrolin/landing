@@ -40,7 +40,7 @@ def mark(x=0,y=0,size=160,mono=None):
         mask='<mask id="voices-mask" maskUnits="userSpaceOnUse" x="0" y="0" width="160" height="160"><rect width="160" height="160" fill="black"/>'+shapes.replace(f'fill="{mono}"','fill="white"')+'<path d="M132 36V94Q132 110 116 110H44" fill="none" stroke="black" stroke-width="6"/><path d="M28 34H101 M28 55H83 M56 77H101" stroke="black" stroke-width="9" stroke-linecap="round"/></mask>'
         return f'<g transform="translate({x} {y}) scale({size/160})"><defs>{mask}</defs><rect width="160" height="160" fill="{mono}" mask="url(#voices-mask)"/></g>'
     # Alternating line alignment carries the two-voice motif.
-    s+=f'<path d="M28 34H101 M28 55H83 M56 77H101" stroke="{C['white']}" stroke-width="9" stroke-linecap="round"/>'
+    s+=f'<path d="M28 34H101 M28 55H83 M56 77H101" stroke="{C["white"]}" stroke-width="9" stroke-linecap="round"/>'
     return s+'</g>'
 
 def svg(name,w,h,body):
@@ -68,11 +68,53 @@ for variant,ink in [('dark',C['white']),('light',C['navy'])]:
 tokens={
  'status':'direction-approved-v1-video-implementation-pending',
  'colors':C,
- 'typography':{'family':'Archivo','display':{'weight':800,'width':118},'caption':{'weight':800,'width':100,'size':56,'lineHeight':66},'label':{'weight':600,'size':32}},
+ 'typography':{
+  'family':'Archivo',
+  'display':{'weight':800,'width':118,'size':80,'lineHeight':84,'letterSpacing':-1.6},
+  'caption':{'weight':800,'width':100,'size':56,'lineHeight':66,'letterSpacing':0},
+  'label':{'weight':600,'width':100,'size':32,'lineHeight':40,'letterSpacing':0}
+ },
+ 'spacing':{'unit':8,'captionPadding':24,'safeLeft':72,'safeRight':180,'safeTop':150,'safeBottom':370},
+ 'rounded':{'panel':16},
  'video':{'width':1080,'height':1920,'fps':30,'safe':{'left':72,'right':180,'top':150,'bottom':370},'caption':{'x':72,'y':1390,'maxWidth':828,'maxLines':2,'fontSize':56,'lineHeight':66,'padding':24,'maxWordsPerCue':9},'logo':{'x':72,'y':150,'width':360},'title':{'maxLines':2,'size':80,'introOnly':True}},
  'motion':{'layoutTransitionMs':240,'captionTransitionMs':0,'logoRevealMs':420,'introMaxMs':900,'outroMaxMs':1500,'ease':'cubic-bezier(0.16,1,0.3,1)','minimumShotHoldMs':2000}
 }
-(P/'tokens.json').write_text(json.dumps(tokens,indent=2))
+
+def dimension(value,unit='px'):
+    return {'$value':{'value':value,'unit':unit}}
+
+def typography(style):
+    token=tokens['typography'][style]
+    return {
+        '$type':'typography',
+        '$value':{
+            'fontFamily':tokens['typography']['family'],
+            'fontSize':{'value':token['size'],'unit':'px'},
+            'fontWeight':token['weight'],
+            'letterSpacing':{'value':token['letterSpacing'],'unit':'px'},
+            'lineHeight':token['lineHeight']/token['size']
+        }
+    }
+
+def color(value):
+    return {
+        '$value':{
+            'colorSpace':'srgb',
+            'components':[round(int(value[i:i+2],16)/255,3) for i in (1,3,5)],
+            'hex':value
+        }
+    }
+
+dtcg={
+ '$schema':'https://www.designtokens.org/schemas/2025.10/format.json',
+ '$description':'Video-first extension of the existing Ngobrolin WEB identity. Visual direction approved; video implementation pending.',
+ 'color':{'$type':'color',**{name:color(value) for name,value in [('primary',C['blue']),('background',C['navy']),('foreground',C['white']),('panel',C['panel']),('muted',C['muted']),('highlight',C['orange']),('paper',C['paper'])]}},
+ 'spacing':{'$type':'dimension','unit':dimension(tokens['spacing']['unit']),'caption-padding':dimension(tokens['spacing']['captionPadding']),'safe-left':dimension(tokens['spacing']['safeLeft']),'safe-right':dimension(tokens['spacing']['safeRight']),'safe-top':dimension(tokens['spacing']['safeTop']),'safe-bottom':dimension(tokens['spacing']['safeBottom'])},
+ 'rounded':{'$type':'dimension','panel':dimension(tokens['rounded']['panel'])},
+ 'typography':{'title':typography('display'),'caption':typography('caption'),'label':typography('label')}
+}
+(P/'tokens.json').write_text(json.dumps(tokens,indent=2)+'\n')
+(P/'tokens.dtcg.json').write_text(json.dumps(dtcg,indent=2)+'\n')
 
 # Raster portrait layout studies use actual podcast footage, not synthetic people.
 # Reuse the included source still. No external checkout or media download required.

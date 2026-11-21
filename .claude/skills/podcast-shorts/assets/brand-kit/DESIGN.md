@@ -22,7 +22,7 @@ typography:
     fontFamily: Archivo
     fontSize: 56px
     fontWeight: 800
-    lineHeight: 1.178571
+    lineHeight: 1.1785714285714286
     letterSpacing: "0em"
     fontVariation: "'wdth' 100"
   label:
@@ -30,6 +30,7 @@ typography:
     fontSize: 32px
     fontWeight: 600
     lineHeight: 1.25
+    letterSpacing: "0em"
 rounded:
   panel: 16px
 spacing:
