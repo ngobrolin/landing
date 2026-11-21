@@ -53,7 +53,8 @@ export default defineConfig({
           const episode = getEpisodes().find(ep => ep.slug === slug);
 
           if (episode) {
-            item.lastmod = getEpisodeLastModified(episode);
+            const lastmod = getEpisodeLastModified(episode);
+            if (lastmod) item.lastmod = lastmod.toISOString();
             item.priority = 0.8;
             item.changefreq = 'monthly';
           }
