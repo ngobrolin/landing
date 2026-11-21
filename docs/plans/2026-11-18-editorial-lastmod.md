@@ -26,8 +26,14 @@ build time, no file mtime, no daily "now".
    edited, and regenerating writes a new `generatedAt`.
 2. **Lastmod** is the newest valid value among `publishedAt`, both
    `generatedAt` and the summary's `updatedAt`. Only stored data feeds it, so
-   two builds of one commit agree. A value without a timezone is ignored
-   rather than read as the build machine's local time.
+   two builds of one commit agree. Every source, `publishedAt` included, goes
+   through `parseContentTimestamp()`: a value without a timezone is ignored
+   rather than read as the build machine's local time, and a malformed one is
+   ignored rather than turning the whole result into an invalid date. A value
+   later than the build time is ignored, and so is an `updatedAt` that
+   `findUpdatedAtProblems()` rejects, so a direct build agrees with the unit
+   CI validator. With no valid source left, the sitemap entry gets no
+   `lastmod`.
 3. **`scripts/stamp-updated.ts`** stamps `updatedAt` on summary files named one
    by one. It checks every argument before writing any file, and it refuses:
    - a path outside `src/data/summaries/<videoId>.json`
