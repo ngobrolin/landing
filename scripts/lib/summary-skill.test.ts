@@ -38,9 +38,9 @@ const repoRoot = path.resolve(
   "..",
 );
 const SKILL_NAME = "summarizing-episodes";
-const SKILL_DIR = `.agents/skills/${SKILL_NAME}`;
+const SKILL_DIR = `.claude/skills/${SKILL_NAME}`;
 const SKILL_PATH = `${SKILL_DIR}/SKILL.md`;
-const CLAUDE_LINK = `.claude/skills/${SKILL_NAME}`;
+const AGENTS_LINK = `.agents/skills/${SKILL_NAME}`;
 
 const read = (file: string) =>
   readFileSync(path.join(repoRoot, file), "utf-8");
@@ -85,8 +85,8 @@ describe("summarizing-episodes skill: discovery", () => {
     expect(description).toMatch(/Use when/);
   });
 
-  it("is reachable from .claude/skills through a symlink, not a copy", () => {
-    const link = path.join(repoRoot, CLAUDE_LINK);
+  it("is reachable from .agents/skills through a symlink, not a copy", () => {
+    const link = path.join(repoRoot, AGENTS_LINK);
     expect(lstatSync(link).isSymbolicLink()).toBe(true);
     expect(realpathSync(link)).toBe(realpathSync(path.join(repoRoot, SKILL_DIR)));
   });

@@ -1,0 +1,53 @@
+{
+  "videoId": "kyzTP34JNao",
+  "sourceUrl": "https://www.youtube.com/watch?v=kyzTP34JNao",
+  "sourceOffset": 1960,
+  "start": 7.0,
+  "end": 41.2,
+  "intro": 0,
+  "outro": 1.5,
+  "outputName": "ngobrolin-kebanyakan-skill-v1.mp4",
+  "episodeTitle": "Coding Harness",
+  "title": ["Kebanyakan skill", "bikin AI", "makin pintar?"],
+  "captions": [
+    {"start":7.12,"end":8.78,"text":"Semua skill yang ada di internet"},
+    {"start":8.78,"end":10.18,"text":"diinstalin, dicobain."},
+    {"start":11.18,"end":13.22,"text":"Tahu nggak kalau skill-skill tersebut,"},
+    {"start":13.40,"end":15.10,"text":"kadang dia bisa salah ngambil skill."},
+    {"start":16.22,"end":18.54,"text":"Misalnya saya lagi nanya biasa aja,"},
+    {"start":18.68,"end":20.14,"text":"tiba-tiba dia pakai brainstorming."},
+    {"start":20.36,"end":22.70,"text":"Atau saya nanya, dia pakai Grill."},
+    {"start":22.70,"end":23.40,"text":"Pernah ngalamin juga."},
+    {"start":24.24,"end":26.08,"text":"Terus tiba-tiba dia suka,"},
+    {"start":26.66,"end":30.60,"text":"misalnya saya suruh dia code review."},
+    {"start":30.70,"end":32.50,"text":"Tiba-tiba dia ngambil"},
+    {"start":32.50,"end":34.32,"text":"skill code review saya"},
+    {"start":34.32,"end":35.74,"text":"yang sudah lama banget,"},
+    {"start":35.84,"end":37.80,"text":"yang sudah nggak jelas."},
+    {"start":39.18,"end":40.80,"text":"Random aja dia bisa ke sana."}
+  ],
+  "shots":[{"start":0,"layout":"solo-left"}],
+  "editorialBeats":[
+    {"start":0,"scene":"cold-open"},
+    {"start":3.3,"scene":"overload"},
+    {"start":8.3,"scene":"solo-left"},
+    {"start":9.22,"scene":"casual-routing"},
+    {"start":15.7,"scene":"reaction-right"},
+    {"start":17.24,"scene":"solo-left"},
+    {"start":23.06,"scene":"old-review"},
+    {"start":30.9,"scene":"payoff"}
+  ],
+  "controlReveals":[],
+  "graphicTiming":{
+    "pileLabels":["Brainstorming","Code review","Grill","Skill lama"],
+    "wrongChoiceAt":7.08,
+    "brainstormingAt":12.36,
+    "grillAt":15.24,
+    "reviewSkillAt":26.32,
+    "oldBadgeAt":28.16
+  },
+  "thumbnailSource":"https://i.ytimg.com/vi/kyzTP34JNao/hqdefault.jpg",
+  "thumbnailCrop":[0,45,480,315],
+  "captionProvenance":"Local mlx-whisper large-v3-turbo word timestamps from the new source extract, checked against the existing episode transcript. Obvious ASR insertions and filler repetitions omitted; original audio retained.",
+  "editorialNote":"Skip the opening list of named skills. Preserve both wrong-selection examples and the random-selection payoff. All diagrams are authored explanation of the spoken examples, not source-podcast graphics."
+}

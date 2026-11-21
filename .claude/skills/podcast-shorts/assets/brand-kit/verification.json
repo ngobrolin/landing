@@ -1,0 +1,28 @@
+{
+  "pageErrors": [],
+  "desktopOverflow": false,
+  "mobileOverflow": false,
+  "safeAreaToggle": "passed",
+  "assetImagesDecoded": true,
+  "viewports": [
+    1440,
+    390
+  ],
+  "screenshots": [
+    "logo-board.png",
+    "design-system-board.png",
+    "mobile-review.png"
+  ],
+  "svg_count": 9,
+  "svg_outlined": true,
+  "transparent_export_checks": [
+    "logo-dark",
+    "logo-mono-dark",
+    "logo-light",
+    "logo-mono-light"
+  ],
+  "design_md_lint": {
+    "errors": 0,
+    "warnings": 0
+  }
+}

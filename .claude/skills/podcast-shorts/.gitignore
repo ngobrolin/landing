@@ -1,0 +1,3 @@
+# Local Python renderer caches are not skill assets.
+__pycache__/
+*.py[cod]
