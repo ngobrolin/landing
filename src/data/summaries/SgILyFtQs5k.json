@@ -1,6 +1,7 @@
 {
   "videoId": "SgILyFtQs5k",
   "generatedAt": "2026-02-25T00:00:00Z",
+  "updatedAt": "2026-11-14T14:12:51Z",
   "brief": "Episode ini membahas Object-Oriented Programming (OOP) di JavaScript secara mendalam, dimulai dari konsep dasar prototype, class, inheritance, hingga perbedaan antara paradigma OOP dan fungsional. Host Ivan yang sedang berada di Yunani dan pembicara lain membahas artikel dari Kensho.dot yang membandingkan penggunaan class dan function, termasuk kelebihan dan kekurangan masing-masing pendekatan. Diskusi juga menyentuh tantangan JavaScript yang sering disalahartikan karena sejarahnya yang dibuat dalam waktu singkat (10 hari) oleh Brendan Eich untuk keperluan sederhana di browser, namun kemudian berkembang menjadi bahasa yang digunakan di berbagai platform.\n\nTopik lain yang dibahas meliputi masalah `this` context yang sering membingungkan developer, penggunaan private properties dengan hashtag syntax, module pattern, serta perbandingan performa antara penggunaan class dan object literal. Episode ini juga menyinggung tentang masa depan JavaScript dan bahasa-bahasa yang meng-compile ke JavaScript seperti TypeScript, ReScript, dan PureScript, serta tantangan backward compatibility yang harus dipertahankan oleh JavaScript karena digunakan di berbagai browser.",
   "keyPoints": [
     "JavaScript awalnya diciptakan oleh Brendan Eich dengan pengaruh bahasa Scheme (functional programming), namun dipaksa meniru sintaks Java untuk kepentingan marketing Netscape",

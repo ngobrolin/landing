@@ -1,6 +1,7 @@
 {
   "videoId": "TsJQsHCdhUQ",
   "generatedAt": "2026-02-27T00:00:00Z",
+  "updatedAt": "2026-11-14T14:12:51Z",
   "brief": "Episode ini merupakan kelanjutan pembahasan artikel CSS Wrap 2023 dari Chrome Developers yang membahas fitur-fitur CSS terbaru dan menarik. Tim Ngobrolin yang terdiri dari Mas Riza, Mas Eka, dan Mas Awan membahas kategori Responsive Design dengan mendalam, termasuk Container Query yang menjadi topik bersejarah karena mempersatukan ketiga host untuk pertama kalinya. Diskusi mencakup berbagai fitur CSS modern seperti Container Style Query untuk mendeteksi custom properties, selector :has() yang sangat powerful, update media query untuk refresh rate dan preferensi pengguna, serta kemampuan animasi CSS yang semakin canggih. Episode juga menyinggung integrasi fitur-fitur ini dengan framework populer seperti Tailwind CSS, pentingnya memahami CSS vanilla meskipun sudah menggunakan framework, dan tantangan dalam mengadopsi fitur baru di lingkungan production.",
   "keyPoints": [
     "Container Query memungkinkan elemen responsif berdasarkan ukuran kontainer parent-nya, bukan hanya viewport, sangat berguna untuk layout kompleks seperti sidebar atau card components",

@@ -1,6 +1,7 @@
 {
   "videoId": "Lg3hspyi4eg",
   "generatedAt": "2026-01-29T07:50:00Z",
+  "updatedAt": "2026-11-14T14:12:51Z",
   "brief": "Episode ini membahas konsep fundamental JavaScript yaitu Closure. Para host menjelaskan secara mendalam apa itu closure, bagaimana cara kerjanya, dan mengapa konsep ini penting untuk dipahami oleh developer JavaScript. Diskusi dimulai dengan penjelasan bahwa JavaScript adalah bahasa dengan first-class function yang memungkinkan function dipassing sebagai parameter.\n\nPembahasan mencakup konsep lexical scope, outer scope vs inner scope, dan bagaimana closure memungkinkan sebuah function mengakses variabel dari scope luarnya. Contoh kode praktis juga ditunjukkan untuk membantu pemahaman, termasuk perbandingan dengan bahasa lain seperti PHP versi lama dan C yang tidak mendukung first-class function.",
   "keyPoints": [
     "Closure adalah teknik untuk implementasi lexical scope name binding dalam bahasa dengan first-class function",

@@ -1,6 +1,7 @@
 {
   "videoId": "wRF7vpvs95s",
   "generatedAt": "2026-02-08T14:30:00.000Z",
+  "updatedAt": "2026-11-14T14:12:51Z",
   "brief": "Episode Ngobrolin Web ke-122 membahas topik password secara komprehensif dari berbagai sisi: pengguna, developer front-end, hingga back-end. Diskusi dimulai dengan pentingnya password yang kuat dan unik untuk mencegah kebocoran data, yang masih menjadi salah satu top 10 OWASP security risks. Para host membahas praktik terbaik untuk pengguna seperti menggunakan password manager (Bitwarden, LastPass, bawaan browser), menghindari password yang sama di multiple services, dan memanfaatkan fitur password generator. Dari sisi developer, dibahas implementasi yang benar mulai dari penggunaan input type=\"password\" yang semantik, atribut autocomplete yang proper, hingga teknik hashing dan salting di sisi server menggunakan library seperti bcrypt, Argon2, dan lain-lain. Episode ini juga menyinggung evolusi layanan autentikasi modern seperti Auth0, Firebase, Supabase, dan AuthJS yang mempermudah implementasi security tanpa harus membangun dari nol.",
   "keyPoints": [
     "Password yang lemah seperti '123456' atau 'password' masih menjadi penyebab utama kebocoran data dan termasuk dalam top 10 OWASP security risks",

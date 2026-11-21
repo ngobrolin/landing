@@ -1,6 +1,7 @@
 {
   "videoId": "pCUea-03ZbQ",
   "generatedAt": "2026-02-21T00:00:00Z",
+  "updatedAt": "2026-11-14T14:12:51Z",
   "brief": "Episode Ngobrolin WEB ini membahas tantangan dan kompleksitas dalam membuat email template HTML. Topik utama meliputi perbedaan antara HTML untuk web dan HTML untuk email, keterbatasan CSS di berbagai email client, serta berbagai tools dan framework yang dapat membantu developer dalam membuat email template yang responsif dan konsisten di berbagai platform.",
   "keyPoints": [
     "Email dapat dikategorikan menjadi dua jenis: email transaksional (lupa password, registrasi, invoice) yang dikirim sekali per transaksi, dan email marketing/newsletter yang dikirim secara berkala dengan personalisasi konten.",

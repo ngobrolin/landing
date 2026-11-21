@@ -1,6 +1,7 @@
 {
   "videoId": "0o-PcX6pR2E",
   "generatedAt": "2026-02-05T12:00:00Z",
+  "updatedAt": "2026-11-14T14:12:51Z",
   "brief": "Episode ini membahas secara mendalam tentang fitur server-side Astro yang menjadikannya framework yang sangat versatile. Diskusi dimulai dengan pembahasan mengapa Astro menjadi favorit banyak developer akhir-akhir ini - kemampuannya mengakomodasi berbagai jenis developer dengan UI library yang berbeda-beda dalam satu proyek.\n\nTopik utama meliputi sistem file-based routing, API routes yang bisa mengembalikan JSON, middleware, helper untuk cookies, data fetching dengan web standard, dan konsep Island Architecture di sisi server (Server Islands) yang memungkinkan on-demand rendering untuk konten yang dinamis. Fitur menarik yang dibahas adalah Astro Actions - RPC-like function dengan type safety dan validasi input otomatis yang memudahkan komunikasi antara client dan server tanpa boilerplate code. Episode juga membahas ekosistem adapter Astro untuk berbagai platform deployment seperti Node.js, Cloudflare Workers, Vercel, dan Netlify.",
   "keyPoints": [
     "Astro sangat versatile karena bisa mengakomodasi berbagai UI library (React, Svelte, Vue, dll) dalam satu proyek tanpa perubahan signifikan",

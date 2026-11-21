@@ -1,6 +1,7 @@
 {
   "videoId": "puCZUlxrSpg",
   "generatedAt": "2025-01-29T00:00:00Z",
+  "updatedAt": "2026-11-14T14:12:51Z",
   "brief": "Episode ini membahas Web AI - teknologi AI yang berjalan langsung di browser. Diskusi dipicu oleh Web AI Summit 2025 yang diselenggarakan Google. Eka, Ivan, dan Bahayu membahas perbedaan antara Web AI (on-device) dengan Cloud AI, serta keuntungan dan tantangannya.\n\nEpisode juga menyinggung pengalaman IDSW (Indonesia Developer Summit), cerita horor tentang \"John Titor\" prank, dan pembahasan teknis tentang TensorFlow.js, MediaPipe, dan cara kerja model AI di browser.",
   "keyPoints": [
     "Web AI adalah teknologi AI yang berjalan langsung di browser tanpa perlu memanggil API eksternal",

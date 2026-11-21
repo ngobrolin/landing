@@ -1,6 +1,7 @@
 {
   "videoId": "Tkh8-LleLws",
   "generatedAt": "2026-01-28T19:15:00Z",
+  "updatedAt": "2026-11-14T14:12:51Z",
   "brief": "Episode ini membahas tentang Agentic Coding Tools, yaitu tools AI yang dapat membantu developer dalam menulis kode secara lebih efisien. Ivan dan Eka berbagi pengalaman mereka menggunakan berbagai tools seperti Cursor, Claude Code (Ampcode), Gemini CLI, dan GitHub Copilot.\n\nDiskusi mencakup evolusi dari ChatGPT web interface, ke Copilot autocomplete, hingga era agentic coding saat ini di mana AI bisa membuat file, menjalankan terminal, dan mengerjakan task secara mandiri. Mereka juga membahas pentingnya spec-driven development dan design system untuk mengontrol output AI agar tetap konsisten.\n\nEpisode ini juga menyentuh topik burnout karena terlalu asyik bermain dengan AI, serta tips praktis seperti menggunakan VPS untuk menjalankan agentic coding agar lebih aman dari risiko halusinasi AI yang bisa menghapus file penting.",
   "keyPoints": [
     "Agentic AI berbeda dari AI biasa karena memiliki tools, memory, dan reasoning loop yang memungkinkan AI mengerjakan task sampai selesai",

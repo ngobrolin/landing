@@ -1,6 +1,7 @@
 {
   "videoId": "vufuDf7MrmA",
   "generatedAt": "2026-02-21T10:30:00.000Z",
+  "updatedAt": "2026-11-14T14:12:51Z",
   "brief": "Episode ini membahas tentang Elixir, bahasa pemrograman fungsional yang berjalan di BEAM (Erlang Virtual Machine), bersama tamu spesial Alan Weimah. Diskusi dimulai dengan latar belakang Alan yang berpindah dari Ruby ke Elixir karena ketertarikannya pada pemrosesan multi-core dan concurrent programming. Topik utama meliputi perbedaan antara concurrency dan parallelism, konsep green thread, keunggulan model pemrosesan Elixir yang menggunakan copy of data untuk menghindari mutex dan locking, serta perbedaan mindset antara OOP dan functional programming. Alan juga menjelaskan tentang OTP (Open Telecom Platform), Phoenix framework, Phoenix LiveView untuk real-time web applications, serta berbagai use case yang cocok untuk Elixir seperti aplikasi web, sistem telekomunikasi, dan aplikasi real-time.",
   "keyPoints": [
     "Elixir adalah bahasa pemrograman fungsional dinamis yang berjalan di atas BEAM (Erlang Virtual Machine) dengan keunggulan pada concurrent dan parallel processing menggunakan konsep green thread yang sangat ringan (sekitar 1 kilobyte per proses)",

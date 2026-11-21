@@ -1,6 +1,7 @@
 {
   "videoId": "Ggx5EOiZIwA",
   "generatedAt": "2026-02-21T00:00:00.000Z",
+  "updatedAt": "2026-11-14T14:12:51Z",
   "brief": "Episode ini membahas tentang paradigma Local First dalam pengembangan aplikasi modern. Diskusi dimulai dari pengalaman menggunakan Actual Budget, aplikasi personal finance yang berjalan secara lokal dan dapat diakses offline. Trio host membahas definisi Local First menurut Maggie Appleton yang bukan hanya tentang storage lokal, tetapi aplikasi yang dibangun untuk penggunaan personal dan lingkungan sekitar. Episode ini juga mengeksplorasi berbagai teknologi pendukung seperti database lokal (IndexedDB, PouchDB, SQLite dengan WebAssembly), CRDT (Conflict-Free Replicated Data Types) untuk resolusi konflik, serta sync engine modern seperti PowerSync, ElectricSQL, dan Zero. Diskusi juga menyentuh tren evolusi dari aplikasi offline-first era desktop, ke online-first saat web booming, dan kembali ke hybrid offline/online dengan tetap mempertahankan kepemilikan data (data ownership).",
   "keyPoints": [
     "Local First adalah paradigma di mana aplikasi dibangun untuk penggunaan personal dan lingkungan sekitar, bukan hanya tentang storage lokal atau dapat berjalan offline",

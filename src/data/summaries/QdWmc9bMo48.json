@@ -1,6 +1,7 @@
 {
   "videoId": "QdWmc9bMo48",
   "generatedAt": "2026-02-11T00:00:00Z",
+  "updatedAt": "2026-11-14T14:12:51Z",
   "brief": "Episode ini membahas CSS Wrap 2024 bersama Adam Argyle dan Bramus, dua Developer Relations Engineer dari tim Chrome yang fokus pada CSS dan UI. Mereka berbagi cerita di balik layar pembuatan CSS Wrap 2024, sebuah website interaktif yang merangkum perkembangan CSS sepanjang tahun 2024 dalam bentuk scrollytelling dengan tema retro game 8-bit.\n\nDiskusi mencakup berbagai topik penting termasuk perkembangan web modern, termasuk peran Adam dan Bramus sebagai DevRel, serta berbagai fitur CSS unggulan seperti Scroll Driven Animations, View Transitions, CSS Nesting, dan Field Sizing. Mereka juga menjelaskan pendekatan mereka dalam menjembatani developer, engineering tim, dan standard body untuk membuat fitur web yang lebih baik dan mudah digunakan.",
   "keyPoints": [
     "CSS Wrap 2024 adalah website interaktif yang merangkum semua perkembangan CSS tahun 2024 dengan tema retro game 8-bit, dibangun menggunakan Astro dan menampilkan berbagai demo fitur CSS terbaru",

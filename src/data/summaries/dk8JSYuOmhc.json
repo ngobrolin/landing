@@ -1,6 +1,7 @@
 {
   "videoId": "dk8JSYuOmhc",
   "generatedAt": "2025-02-08T12:30:00.000Z",
+  "updatedAt": "2026-11-14T14:12:51Z",
   "brief": "Episode ini merupakan edisi perdana segmen \"Bedah Situs\" di mana tim Ngobrolin WEB mengulas website mereka sendiri, yaitu ngobrol.in. Website ini dibangun dengan bantuan berbagai AI tools seperti GitHub Copilot, Claude Code, Amazon Q Developer CLI, dan Cursor untuk hampir seluruh aspek pengembangan termasuk coding, testing, dan dokumentasi. Website menggunakan teknologi Elixir dengan Phoenix Framework, Live View, PostgreSQL, dan Tailwind CSS. Website ini berfungsi sebagai showcase arsip episode podcast Ngobrolin WEB yang bersumber dari YouTube playlist, dengan fitur RSS feed yang kompatibel dengan format podcast sehingga dapat didengarkan di Spotify. Diskusi juga mencakup proses konversi video YouTube menjadi MP3 menggunakan yt-dlp, deployment menggunakan Coolify (open source alternatif Heroku) di AWS, dan analisis performa website menggunakan Chrome DevTools Performance tab.",
   "keyPoints": [
     "Website ngobrol.in dibangun hampir sepenuhnya menggunakan berbagai AI tools (GitHub Copilot, Claude Code, Amazon Q Developer CLI, Cursor) untuk coding, testing, dan dokumentasi",

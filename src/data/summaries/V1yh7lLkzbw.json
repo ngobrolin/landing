@@ -1,6 +1,7 @@
 {
   "videoId": "V1yh7lLkzbw",
   "generatedAt": "2026-02-21T00:00:00Z",
+  "updatedAt": "2026-11-14T14:12:51Z",
   "brief": "Episode ini membahas drama perseteruan antara Matt Mullenweg (co-founder WordPress) dengan WP Engine, sebuah perusahaan hosting WordPress. Konflik berawal dari tuduhan penggunaan merek WordPress yang berlebihan oleh WP Engine di luar batas \"fair usage\" serta klaim ketidakkontribusian WP Engine terhadap proyek open source WordPress. Matt Mullenweg menuntut pembayaran lisensi 8% dari pendapatan WP Engine, yang ditolak oleh perusahaan tersebut. Perseteruan ini berkembang hingga pemblokiran akses layanan WordPress.org untuk pelanggan WP Engine. Episode juga menyentuh tema pentingnya memahami perbedaan antara \"free\" dan \"open source\", serta konsep vendor lock-in dalam ekosistem teknologi modern.",
   "keyPoints": [
     "Sengketa bermula dari klaim Matt Mullenweg bahwa WP Engine telah melanggar aturan penggunaan merek dagang WordPress secara berlebihan (trademark infringement)",

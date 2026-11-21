@@ -1,6 +1,7 @@
 {
   "videoId": "aY57UgFCC48",
   "generatedAt": "2025-01-29T00:00:00Z",
+  "updatedAt": "2026-11-14T14:12:51Z",
   "brief": "Episode spesial \"Kisah-kisah Diiramakan\" ini menghadirkan Mas Zain yang berbagi cerita horor pengalamannya sebagai engineer. Dua insiden utama dibahas: pertama tentang MIME type error yang menyebabkan JavaScript tidak dieksekusi sama sekali, dan kedua tentang masalah intermiten pada asset loading akibat konfigurasi double CDN.\n\nDiskusi juga mencakup pentingnya dokumentasi sebelum melakukan perubahan konfigurasi, serta pembelajaran dari insiden yang berlangsung hampir setahun sebelum akar masalah ditemukan.",
   "keyPoints": [
     "Silent error adalah salah satu error yang paling sulit didiagnosa karena tidak menampilkan pesan error di console",

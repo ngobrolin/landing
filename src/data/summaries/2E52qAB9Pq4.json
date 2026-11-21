@@ -1,6 +1,7 @@
 {
   "videoId": "2E52qAB9Pq4",
   "generatedAt": "2026-02-20T00:00:00Z",
+  "updatedAt": "2026-11-14T14:12:51Z",
   "brief": "Episode ini membahas CSS Wrapped 2024, sebuah showcase interaktif yang menampilkan 17 fitur CSS baru yang dirilis sepanjang tahun 2024. Ivan dan Eka mengeksplorasi berbagai fitur baru yang dibagi dalam tiga kategori: Components, Interactions, dan Developer Experience.\n\nWebsite CSS Wrapped 2024 sendiri dibangun dengan Astro dan menampilkan tema retro game yang kreatif. Para pembahas juga membicarakan tentang browser support, di mana beberapa fitur sudah mencapai baseline (didukung semua browser utama) sementara yang lain masih terbatas pada browser berbasis Chromium.",
   "keyPoints": [
     "Field Sizing: Form elements yang otomatis menyesuaikan ukuran berdasarkan konten (limited availability)",

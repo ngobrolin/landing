@@ -1,6 +1,7 @@
 {
   "videoId": "OvSawGB6Kuo",
   "generatedAt": "2025-01-06T00:00:00.000Z",
+  "updatedAt": "2026-11-14T14:12:51Z",
   "brief": "Episode ini membahas tentang berbagai format file konfigurasi yang digunakan dalam pengembangan software, mulai dari format klasik seperti .ini hingga format modern seperti YAML, TOML, dan HCL. Host membahas sejarah dan evolusi format-format ini, dimulai dari file .ini yang populer di era Windows 90-an, kemudian XML yang banyak digunakan di Java dan .NET, hingga JSON yang menjadi standar de facto untuk komunikasi API. Diskusi juga mencakup berbagai varian JSON seperti BSON (Binary JSON) yang digunakan MongoDB, JSONB di PostgreSQL, dan format khusus lainnya seperti GeoJSON untuk data geografis. Episode ini juga menyinggung tentang YAML yang populer di DevOps dan infrastructure-as-code, TOML yang dibuat oleh Tom Preston-Werner (co-founder GitHub) sebagai alternatif YAML tanpa indentation, dan HCL (HashiCorp Configuration Language) yang digunakan di Terraform.",
   "keyPoints": [
     "File .ini adalah format konfigurasi klasik dari era Windows 90-an yang menggunakan struktur sederhana dengan key-value pairs",

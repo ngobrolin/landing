@@ -1,6 +1,7 @@
 {
   "videoId": "yfgMjKu89u0",
   "generatedAt": "2026-01-29T01:20:36Z",
+  "updatedAt": "2026-11-14T14:12:51Z",
   "brief": "Episode ini membahas serba-serbi testing di ekosistem JavaScript, mulai dari alasan kenapa testing penting sampai perbedaan jenis-jenisnya. Pembahasan menyinggung konsep testing trophy/pyramid, kapan unit test cocok dipakai, serta kapan lebih masuk akal menggunakan integration atau end-to-end testing untuk memastikan alur bisnis tetap aman.\n\nNgobrolin juga mengulas tool dan praktik populer seperti Vitest vs Jest, snapshot testing beserta pro-kontra dan konflik yang sering muncul, serta strategi coverage dan CI/CD agar kualitas tetap terjaga. Di sisi lain, ada diskusi tentang trade-off: biaya maintenance, over-testing, dan kapan \"cukup\" itu cukup. Beberapa contoh praktik seperti Playwright, mocking, dan visual/regression testing ikut dibahas untuk konteks real di proyek.",
   "keyPoints": [
     "Testing dibahas dari sisi tujuan: mengurangi risiko bug dan menjaga alur bisnis tetap aman",

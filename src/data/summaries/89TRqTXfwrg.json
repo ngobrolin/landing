@@ -1,6 +1,7 @@
 {
   "videoId": "89TRqTXfwrg",
   "generatedAt": "2026-02-20T00:00:00.000Z",
+  "updatedAt": "2026-11-14T14:12:51Z",
   "brief": "Episode ini membahas tentang Astro, sebuah meta framework JavaScript yang semakin populer di kalangan developer. Pembahasan dimulai dengan pengenalan Astro sebagai framework yang awalnya fokus pada content-driven websites dan static site generation (SSG), namun kini telah berkembang mendukung SSG, SSR, dan hybrid rendering. Host menjelaskan filosofi Astro yang mengedepankan HTML-first, zero JavaScript by default, dan pendekatan island architecture untuk interaktivitas yang terkontrol. Episode ini juga membahas fitur unggulan Astro seperti zero-lock (mendukung berbagai UI framework seperti React, Vue, Svelte, Preact, dan Solid), performa yang optimal dengan hydration minimal, serta adopsi web API modern seperti requestIdleCallback. Dibahas juga evolusi Astro dari penggabungan Snowpack ke Vite, integrasi Astro DB, fitur experimental Server Islands, serta proyek terkait seperti Starlight untuk dokumentasi. Perbandingan dengan framework lain seperti Next.js dan Gatsby juga menjadi topik menarik, menyoroti keunggulan Astro dalam performa dan pendekatan yang lebih web standard.",
   "keyPoints": [
     "Astro adalah meta framework JavaScript yang awalnya fokus pada content-driven websites dan SSG, namun kini mendukung SSG, SSR, dan hybrid rendering secara penuh.",

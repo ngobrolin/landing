@@ -1,6 +1,7 @@
 {
   "videoId": "j-wZjh62Gaw",
   "generatedAt": "2026-02-08T15:45:00Z",
+  "updatedAt": "2026-11-14T14:12:51Z",
   "brief": "Episode ini membahas konsep Monorepo dalam pengembangan software, sebuah strategi di mana kode dari banyak proyek disimpan dalam satu repository. Host membahas definisi Monorepo, perbedaannya dengan monolitik dan multirepo, serta kelebihan dan kekurangannya.\n\nDiskusi mencakup berbagai tools yang mendukung Monorepo seperti Lerna, NX, Turborepo, dan workspace features dari NPM, Yarn, PNPM, dan Bun. Episode juga menampilkan contoh implementasi Monorepo dari perusahaan besar seperti Google dan proyek open source populer seperti React, Next.js, dan Bun.",
   "keyPoints": [
     "Monorepo adalah strategi pengembangan software di mana kode dari banyak proyek disimpan dalam satu repository, berbeda dengan multirepo yang memisahkan setiap proyek",

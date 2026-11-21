@@ -1,6 +1,7 @@
 {
   "videoId": "v28qyGyoMw4",
   "generatedAt": "2026-02-08T12:00:00.000Z",
+  "updatedAt": "2026-11-14T14:12:51Z",
   "brief": "Episode ini membahas update terbaru seputar web performance, dengan fokus utama pada rilisnya Web Vitals versi 5 yang menghapus FID (First Input Delay) dan menggantinya dengan INP (Interaction to Next Paint) sebagai metrik resmi. Diskusi mendalam mengenai perbedaan antara lab data (data pengujian dengan tools seperti Lighthouse, PageSpeed Insights) dan field data (data real dari pengguna menggunakan Web Vitals JS). Episode juga menyinggung tentang Chrome UX Report (CrUX) yang menyediakan data performance publik dari pengguna Chrome, serta pengenalan tools RAM Vision untuk monitoring capability browser dan fitur web secara lebih detail. Topik tambahan meliputi Speculation Rules API dan View Transitions API yang dapat membuat Multi-Page Application terasa seperti Single-Page Application, serta pentingnya accessibility dan standar web yang berlaku di berbagai negara.",
   "keyPoints": [
     "Web Vitals versi 5 telah dirilis dengan perubahan utama menghapus FID dan menggantinya dengan INP secara permanen",

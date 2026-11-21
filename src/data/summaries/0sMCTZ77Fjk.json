@@ -1,6 +1,7 @@
 {
   "videoId": "0sMCTZ77Fjk",
   "generatedAt": "2026-02-05T12:15:00Z",
+  "updatedAt": "2026-11-14T14:12:51Z",
   "brief": "Episode ini merupakan sesi bedah situs yang pertama kali mendapatkan partisipasi dari penonton. Website yang dibedah adalah undangan pernikahan digital yang dibuat oleh Mas Grafis menggunakan Next.js 13 dengan Contentful sebagai headless CMS.\n\nDiskusi dimulai dengan pembahasan tentang pentingnya signed commit (GPG signing) untuk keamanan dan mencegah impersonasi di GitHub. Selanjutnya dilakukan analisis performa dan accessibility terhadap website tersebut. Beberapa masalah yang diidentifikasi meliputi auto-playing audio tanpa konsentrasi user, kontras warna yang kurang, navigasi carousel yang tidak ramah accessibility, serta bundle size yang cukup besar sekitar 4.1 MB terutama karena gambar. Episode juga membahas berbagai tools untuk mengecek accessibility seperti color contrast checker extension dan Chrome DevTools.",
   "keyPoints": [
     "Signed commit (GPG signing) penting untuk keamanan dan mencegah impersonasi - commit yang verified memiliki centang hijau di GitHub",

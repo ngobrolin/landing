@@ -1,6 +1,7 @@
 {
   "videoId": "GGfh-olIzl0",
   "generatedAt": "2026-02-05T12:45:00Z",
+  "updatedAt": "2026-11-14T14:12:51Z",
   "brief": "Episode ini membahas ECMAScript 2025, standar terbaru untuk JavaScript. Diskusi dimulai dengan perbandingan responsivitas tombol darurat di Jepang vs Indonesia, dan pembahasan tentang prioritas P0 dalam tiket software development.\n\nTopik utama menjelaskan sejarah mengapa kita menggunakan istilah ECMAScript instead of JavaScript - masalah trademark karena JavaScript adalah merek dagang Oracle. JavaScript berasal dari Netscape yang kemudian diakuisisi oleh Sun Microsystems lalu Oracle. Standar ECMAScript dikembangkan oleh ECMA (badan standarisasi) dan diimplementasikan oleh browser/engine masing-masing.\n\nFitur-fitur baru di ECMAScript 2025 meliputi: import JSON secara native tanpa loader tambahan, iterator helper methods (map, filter, take, drop, toArray) yang sebelumnya hanya ada di Array, new Set methods, perbaikan RegExp seperti regex.escape dan regex modifiers, Promise.try untuk menangani promise secara lebih aman, dan 16-bit floating point untuk machine learning. Juga dibahas Dr. Axel Rauschmayer, penulis buku gratis tentang JavaScript yang sangat produktif dalam blogging dan training.",
   "keyPoints": [
     "ECMAScript adalah standar spesifikasi JavaScript, dinamakan demikian karena 'JavaScript' adalah trademark milik Oracle",
