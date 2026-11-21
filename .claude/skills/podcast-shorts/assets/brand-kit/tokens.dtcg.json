@@ -1,6 +1,6 @@
 {
   "$schema": "https://www.designtokens.org/schemas/2025.10/format.json",
-  "$description": "Video-first extension of the existing Ngobrolin WEB identity. Proposal v1, pending visual approval.",
+  "$description": "Video-first extension of the existing Ngobrolin WEB identity. Visual direction approved; video implementation pending.",
   "color": {
     "$type": "color",
     "primary": {
@@ -140,9 +140,10 @@
         },
         "fontWeight": 800,
         "letterSpacing": {
-          "value": -0.02,
-          "unit": "em"
-        }
+          "value": -1.6,
+          "unit": "px"
+        },
+        "lineHeight": 1.05
       }
     },
     "caption": {
@@ -156,8 +157,9 @@
         "fontWeight": 800,
         "letterSpacing": {
           "value": 0,
-          "unit": "em"
-        }
+          "unit": "px"
+        },
+        "lineHeight": 1.1785714285714286
       }
     },
     "label": {
@@ -168,7 +170,12 @@
           "value": 32,
           "unit": "px"
         },
-        "fontWeight": 600
+        "fontWeight": 600,
+        "letterSpacing": {
+          "value": 0,
+          "unit": "px"
+        },
+        "lineHeight": 1.25
       }
     }
   }
