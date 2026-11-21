@@ -1,0 +1,54 @@
+{
+  "pageErrors": [],
+  "desktopOverflow": false,
+  "mobileOverflow": false,
+  "safeAreaToggle": "passed",
+  "assetImagesDecoded": true,
+  "tokenAgreement": {
+    "passed": true,
+    "checks": 78
+  },
+  "fontFaces": [
+    {
+      "name": "body",
+      "weight": 400,
+      "stretch": 100,
+      "documentCheck": true,
+      "supportingFaces": 1,
+      "passed": true
+    },
+    {
+      "name": "label",
+      "weight": 600,
+      "stretch": 100,
+      "documentCheck": true,
+      "supportingFaces": 1,
+      "passed": true
+    },
+    {
+      "name": "caption",
+      "weight": 800,
+      "stretch": 100,
+      "documentCheck": true,
+      "supportingFaces": 1,
+      "passed": true
+    },
+    {
+      "name": "display",
+      "weight": 800,
+      "stretch": 118,
+      "documentCheck": true,
+      "supportingFaces": 1,
+      "passed": true
+    }
+  ],
+  "viewports": [
+    1440,
+    390
+  ],
+  "screenshots": [
+    "logo-board.png",
+    "design-system-board.png",
+    "mobile-review.png"
+  ]
+}

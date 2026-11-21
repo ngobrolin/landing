@@ -1,0 +1,216 @@
+{
+  "videoId": "kyzTP34JNao",
+  "sourceUrl": "https://www.youtube.com/watch?v=kyzTP34JNao",
+  "sourceOffset": 1595,
+  "start": 22.0,
+  "end": 57.4,
+  "intro": 0,
+  "outro": 1.5,
+  "title": [
+    "LLM itu kayak",
+    "kuda liar."
+  ],
+  "captions": [
+    {
+      "start": 22.14,
+      "end": 23.44,
+      "text": "LLM itu kayak kuda."
+    },
+    {
+      "start": 24.62,
+      "end": 25.9,
+      "text": "Kalau nggak dikendalikan,"
+    },
+    {
+      "start": 25.9,
+      "end": 27.02,
+      "text": "dia bisa lari ke mana-mana."
+    },
+    {
+      "start": 27.34,
+      "end": 28.76,
+      "text": "Liar, ya. Kuda liar."
+    },
+    {
+      "start": 29.28,
+      "end": 31.24,
+      "text": "Nah, kita butuh harness-nya,"
+    },
+    {
+      "start": 31.3,
+      "end": 32.8,
+      "text": "butuh sadel,"
+    },
+    {
+      "start": 33.3,
+      "end": 35.58,
+      "text": "butuh tempat pijakan kaki,"
+    },
+    {
+      "start": 35.66,
+      "end": 37.76,
+      "text": "butuh tali buat mengendalikan,"
+    },
+    {
+      "start": 37.82,
+      "end": 38.62,
+      "text": "buat kacamata,"
+    },
+    {
+      "start": 38.74,
+      "end": 40.46,
+      "text": "supaya dia nggak lihat kiri kanan,"
+    },
+    {
+      "start": 40.46,
+      "end": 41.98,
+      "text": "gitu, kan. Iya, lurus."
+    },
+    {
+      "start": 42.14,
+      "end": 43.06,
+      "text": "Nah, itu."
+    },
+    {
+      "start": 43.2,
+      "end": 44.88,
+      "text": "Jadi dia lebih jinak."
+    },
+    {
+      "start": 44.98,
+      "end": 46.76,
+      "text": "Nah, LLM itu dijinakkan."
+    },
+    {
+      "start": 47.08,
+      "end": 48.64,
+      "text": "Itu tali gagangnya kuda"
+    },
+    {
+      "start": 48.64,
+      "end": 50.06,
+      "text": "itu namanya harness, sih, sebenarnya."
+    },
+    {
+      "start": 50.06,
+      "end": 50.62,
+      "text": "Harness, kan?"
+    },
+    {
+      "start": 50.62,
+      "end": 52.54,
+      "text": "Iya, dari situ, kan, istilahnya."
+    },
+    {
+      "start": 52.82,
+      "end": 55.66,
+      "text": "Jadi, mengendalikan kuda"
+    },
+    {
+      "start": 55.66,
+      "end": 57.4,
+      "text": "supaya baik jalannya."
+    }
+  ],
+  "shots": [
+    {
+      "start": 0,
+      "layout": "solo-right",
+      "reason": "Main explanation begins"
+    },
+    {
+      "start": 5.2,
+      "layout": "duo",
+      "reason": "Wild-horse exchange",
+      "transition": "reframe"
+    },
+    {
+      "start": 7.28,
+      "layout": "solo-right",
+      "reason": "Harness explanation resumes",
+      "transition": "reframe"
+    },
+    {
+      "start": 15.5,
+      "layout": "duo",
+      "reason": "Keep the hand gestures and reaction visible",
+      "transition": "reframe"
+    },
+    {
+      "start": 24.6,
+      "layout": "solo-left",
+      "reason": "Left host explains the horse reins"
+    },
+    {
+      "start": 28.6,
+      "layout": "duo",
+      "reason": "Reply and shared laughter"
+    }
+  ],
+  "captionProvenance": "Existing pilot phrase captions, aligned with local Whisper word timestamps; obvious ASR spellings corrected",
+  "outputName": "ngobrolin-llm-kuda-v3.mp4",
+  "episodeTitle": "Coding Harness",
+  "editorialBeats": [
+    {
+      "start": 0,
+      "scene": "cold-open"
+    },
+    {
+      "start": 2.62,
+      "scene": "branching"
+    },
+    {
+      "start": 5.2,
+      "scene": "duo"
+    },
+    {
+      "start": 7.28,
+      "scene": "harness"
+    },
+    {
+      "start": 16.74,
+      "scene": "focused"
+    },
+    {
+      "start": 20.14,
+      "scene": "duo"
+    },
+    {
+      "start": 22.98,
+      "scene": "solo-left"
+    },
+    {
+      "start": 28.62,
+      "scene": "duo"
+    },
+    {
+      "start": 30.82,
+      "scene": "resolution"
+    }
+  ],
+  "controlReveals": [
+    {
+      "at": 9.3,
+      "label": "Sadel"
+    },
+    {
+      "at": 11.3,
+      "label": "Pijakan"
+    },
+    {
+      "at": 13.66,
+      "label": "Tali"
+    },
+    {
+      "at": 15.82,
+      "label": "Fokus"
+    }
+  ],
+  "thumbnailSource": "https://i.ytimg.com/vi/kyzTP34JNao/hqdefault.jpg",
+  "thumbnailCrop": [
+    0,
+    45,
+    480,
+    315
+  ]
+}

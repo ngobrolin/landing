@@ -1,0 +1,37 @@
+{
+  "status": "approved-by-ivan",
+  "defaultTreatment": "editorial-v3",
+  "videoId": "kyzTP34JNao",
+  "sourceUrl": "https://www.youtube.com/watch?v=kyzTP34JNao",
+  "recipe": "kyzTP34JNao-horse-v3.json",
+  "renderer": "../scripts/render_editorial.py",
+  "artifactName": "ngobrolin-llm-kuda-v3.mp4",
+  "sha256": "9d3c3ef2c41f9c641cc54fe9c28354090ccdd131ddbab9231f1db112b2a66077",
+  "sourceExcerptSeconds": [1617, 1652.4],
+  "durationSeconds": 36.9,
+  "dimensions": [1080, 1920],
+  "fps": 30,
+  "decodedFrames": 1107,
+  "captionCues": 20,
+  "opening": "Cold open on original speaker; no separate intro bumper",
+  "ending": "Real episode thumbnail/title and 1.5-second continuation card",
+  "editorialRules": [
+    "Large speaker composition or meaningful graphic-led explanation",
+    "Speech-timed conceptual reveals rather than decorative constant motion",
+    "Stable phrase captions with selective orange concept-word emphasis",
+    "Reaction inset must not cover the active speaker's mouth or chin",
+    "Original speech, source provenance and approved brand identity preserved"
+  ],
+  "verified": [
+    "Full FFmpeg decode",
+    "Frame count, dimensions, duration and audio format",
+    "Caption order, timing and non-overlap",
+    "Cold-open source picture in the first frame",
+    "Encoded branch motion, control reveal and final goal state",
+    "Original-audio waveform correlation",
+    "Visual inspection of final-file frames"
+  ],
+  "independentAuditoryReview": false,
+  "publicationAuthorized": false,
+  "legacyVersions": "v1/v2 are retained for reproduction, not the default editorial direction"
+}

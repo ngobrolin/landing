@@ -28,6 +28,14 @@
   - **Unit Tests:** Vitest, colocated with what they cover (see Coding Conventions).
   - **E2E Tests:** Playwright for browser-based testing (`e2e/` folder).
 
+## Project skills
+
+`.claude/skills/<name>/` is the canonical source for every project skill.
+Expose each skill to other agents with a relative symlink at
+`.agents/skills/<name>` pointing to `../../.claude/skills/<name>`.
+Edit the canonical files; do not maintain separate Claude/Codex copies.
+Keep provider-specific agent definitions alongside the shared skill where needed.
+
 ## Development Workflow
 
 ### Prerequisites

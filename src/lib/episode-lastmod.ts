@@ -39,24 +39,26 @@ export function findUpdatedAtProblems(record: Record<string, unknown>, now = Dat
 }
 
 // Only summaries carry `updatedAt`: a transcript is regenerated rather than edited, which moves `generatedAt`.
-function contentTimestamps(dataDir: string, kind: 'summaries' | 'transcripts', videoId: string): number[] {
+// An `updatedAt` the summary validator would reject is dropped here too, so a direct build agrees with CI.
+function contentTimestamps(dataDir: string, kind: 'summaries' | 'transcripts', videoId: string, now: number): number[] {
   const file = join(dataDir, kind, `${videoId}.json`);
   if (!existsSync(file)) return [];
   const record = JSON.parse(readFileSync(file, 'utf8'));
-  const stamps = kind === 'summaries' ? [record.generatedAt, record.updatedAt] : [record.generatedAt];
+  if (typeof record !== 'object' || record === null) return [];
+  const stamps = [record.generatedAt];
+  if (kind === 'summaries' && findUpdatedAtProblems(record, now).length === 0) stamps.push(record.updatedAt);
   return stamps.map(parseContentTimestamp).filter((t): t is number => t !== undefined);
 }
 
 /**
- * When the episode page last changed in substance: publication, a later summary or transcript,
- * or a later edit to the summary (`updatedAt`). Stored dates only, so every build agrees.
+ * When the episode page last changed in substance: the newest valid, non-future stored date among
+ * publication, summary, transcript and summary edit. Undefined when none is valid, so no lastmod is emitted.
  */
-export function getEpisodeLastModified(episode: Episode, dataDir = DATA_DIR): Date {
-  return new Date(
-    Math.max(
-      Date.parse(episode.publishedAt),
-      ...contentTimestamps(dataDir, 'summaries', episode.videoId),
-      ...contentTimestamps(dataDir, 'transcripts', episode.videoId),
-    ),
-  );
+export function getEpisodeLastModified(episode: Episode, dataDir = DATA_DIR, now = Date.now()): Date | undefined {
+  const stamps = [
+    parseContentTimestamp(episode.publishedAt),
+    ...contentTimestamps(dataDir, 'summaries', episode.videoId, now),
+    ...contentTimestamps(dataDir, 'transcripts', episode.videoId, now),
+  ].filter((t): t is number => t !== undefined && t <= now);
+  return stamps.length > 0 ? new Date(Math.max(...stamps)) : undefined;
 }
