@@ -21,7 +21,7 @@ Analyze what makes the design feel complex or cluttered:
    - What can be removed, hidden, or combined?
    - What's the 20% that delivers 80% of value?
 
-If any of these are unclear from the codebase, do not guess. Ask with the AskUserQuestion tool and wait for the answer before continuing.
+If any of these are unclear from the codebase, do not guess. Ask with the host-native structured question tool when available, or directly in chat if it is not, and wait for the answer before continuing.
 
 Simplicity is not about removing features. It's about removing obstacles between users and their goals. Every element should justify its existence.
 

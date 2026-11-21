@@ -6,7 +6,7 @@ Identify reusable patterns, components, and design tokens, then extract and cons
 
 Find the design system, component library, or shared UI directory. Understand its structure: component organization, naming conventions, design token structure, import/export conventions.
 
-If no design system exists, do not create one yet. Ask with the AskUserQuestion tool and wait for the answer before continuing. Understand the preferred location and structure first.
+If no design system exists, do not create one yet. Ask with the host-native structured question tool when available, or directly in chat if it is not, and wait for the answer before continuing. Understand the preferred location and structure first.
 
 ## Step 2: Identify Patterns
 
