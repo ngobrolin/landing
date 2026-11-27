@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { getDisplayTitle, buildEpisodePageTitle } from './episode-title';
+import { getDisplayTitle, buildEpisodePageTitle, getCoverTitleSize } from './episode-title';
 import { getEpisodes } from './episodes';
 
 /**
@@ -110,5 +110,30 @@ describe('the display title and the page title stay independent', () => {
         `page title lost the show name: ${ep.title}`
       ).toBe(true);
     }
+  });
+});
+
+describe('getCoverTitleSize', () => {
+  it('keeps the full cover scale for short titles (<= 28 chars)', () => {
+    expect(getCoverTitleSize('Selamat Tinggal Deno')).toBe(
+      'min(clamp(2.75rem, 8.20vw, 7.00rem), calc(100cqi / 4.90))'
+    );
+  });
+
+  it('scales down long multi-word titles so the cover CTA stays above the fold on mobile', () => {
+    const shortSize = getCoverTitleSize('Bedah Coding Harness');
+    const longSize = getCoverTitleSize(
+      'Kenapa Aplikasi AI-mu Tidak Dipakai Orang? Bedah Buku The Mom Test'
+    );
+    const shortMin = Number(shortSize.match(/clamp\(([\d.]+)rem/)?.[1]);
+    const longMin = Number(longSize.match(/clamp\(([\d.]+)rem/)?.[1]);
+    expect(longMin).toBeLessThan(shortMin);
+    expect(longMin).toBeLessThanOrEqual(1.9);
+    expect(longMin).toBeGreaterThanOrEqual(1.5);
+  });
+
+  it('floors the scale for extremely long titles so the heading stays legible', () => {
+    const veryLong = getCoverTitleSize('A '.repeat(100));
+    expect(veryLong).toContain('clamp(1.51rem, 4.51vw, 3.85rem)');
   });
 });

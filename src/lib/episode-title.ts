@@ -56,3 +56,26 @@ export function buildEpisodePageTitle(episodeTitle: string): string {
   const title = episodeTitle.trim();
   return SHOW_NAME.test(title) ? title : `${title} - ${SITE_NAME}`;
 }
+
+/**
+ * CSS font-size expression for the homepage cover headline.
+ *
+ * Two constraints keep the cover balanced without per-episode hand tuning:
+ * 1. The longest word must never overflow its column into the thumbnail
+ *    (0.7em is Archivo's widest per-character advance at display weight/width).
+ * 2. Longer multi-word titles scale by sqrt(28 / length) so their total block
+ *    height stays roughly constant and the primary CTA stays above the fold on
+ *    a 390x844 phone viewport.
+ */
+export function getCoverTitleSize(displayTitle: string): string {
+  const trimmed = displayTitle.trim();
+  const longestWord = Math.max(
+    1,
+    ...trimmed.split(/\s+/).map((word) => word.length)
+  );
+  const scale = trimmed.length > 28 ? Math.max(0.55, Math.sqrt(28 / trimmed.length)) : 1;
+  const minRem = (2.75 * scale).toFixed(2);
+  const preferredVw = (8.2 * scale).toFixed(2);
+  const maxRem = (7 * scale).toFixed(2);
+  return `min(clamp(${minRem}rem, ${preferredVw}vw, ${maxRem}rem), calc(100cqi / ${(longestWord * 0.7).toFixed(2)}))`;
+}
