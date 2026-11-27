@@ -29,7 +29,19 @@ test.describe('View Transitions', () => {
       await expect(transitionElement).toBeVisible();
     });
 
-    test('navigation from episodes list to episode uses shared element transition', async ({ page }) => {
+    // Each transition:name inlines its own <style>; on the full archive that
+    // was about 190 blocks and half a megabyte of CSS.
+    for (const path of ['/episodes', '/episodes/2024', '/tags/seo']) {
+      test(`archive cards on ${path} carry no per-card transition name`, async ({ page }) => {
+        await page.goto(path);
+        await expect(page.getByTestId('episode-card').first()).toBeVisible();
+        await expect(
+          page.locator('[data-testid="episode-card"] [data-astro-transition-scope]')
+        ).toHaveCount(0);
+      });
+    }
+
+    test('navigation from episodes list to episode still lands on the episode', async ({ page }) => {
       await page.goto('/episodes');
       const firstEpisode = page.locator('[data-testid="episode-card"]').first();
       await firstEpisode.click();

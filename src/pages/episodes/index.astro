@@ -4,14 +4,16 @@ import SearchEpisodes from '../../components/SearchEpisodes.astro';
 import YearTabs from '../../components/YearTabs.astro';
 import { getEpisodes, getAvailableYears } from '../../lib/episodes';
 import { generateCollectionPageSchema } from '../../lib/seo';
+import { getArchiveDescription } from '../../lib/page-descriptions';
 
 const allEpisodes = getEpisodes();
 const availableYears = getAvailableYears();
 const siteUrl = Astro.site?.toString().replace(/\/$/, '') || 'https://ngobrol.in';
+const description = getArchiveDescription(allEpisodes.length);
 
 const collectionSchema = generateCollectionPageSchema(
   'Semua Episode - Ngobrolin WEB',
-  'Daftar lengkap semua episode video podcast Ngobrolin WEB',
+  description,
   `${siteUrl}/episodes`,
   allEpisodes
 );
@@ -19,7 +21,7 @@ const collectionSchema = generateCollectionPageSchema(
 
 <Layout
   title="Semua Episode - Ngobrolin WEB"
-  description="Daftar lengkap semua episode video podcast Ngobrolin WEB."
+  description={description}
 >
   <Fragment slot="head">
     <script type="application/ld+json" set:html={JSON.stringify(collectionSchema)} />

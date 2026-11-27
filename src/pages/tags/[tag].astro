@@ -1,8 +1,9 @@
 ---
 import Layout from '../../layouts/Layout.astro';
 import EpisodeCard from '../../components/EpisodeCard.astro';
-import { getAllTagsWithCounts, getEpisodesForTag, formatTagLabel } from '../../lib/tags';
-import { getNewEpisodeSlugs } from '../../lib/episodes';
+import { getAllTagsWithCounts, getEpisodesForTag, formatTagLabel, TAGS_BY_VIDEO_ID } from '../../lib/tags';
+import { getEpisodes, getNewEpisodeSlugs } from '../../lib/episodes';
+import { getRelatedTags, getTagDescription, getTagIntro } from '../../lib/tag-topics';
 
 export function getStaticPaths() {
   const tags = getAllTagsWithCounts();
@@ -16,11 +17,17 @@ const { tag } = Astro.props;
 const episodes = getEpisodesForTag(tag);
 const tagLabel = formatTagLabel(tag);
 const newSlugs = getNewEpisodeSlugs();
+const intro = getTagIntro(tag, tagLabel, episodes.length);
+const relatedTags = getRelatedTags(
+  tag,
+  TAGS_BY_VIDEO_ID,
+  new Set(getEpisodes().map((ep) => ep.videoId)),
+);
 ---
 
 <Layout
   title={`${tagLabel} - Ngobrolin WEB`}
-  description={`${episodes.length} episode tentang ${tagLabel} di Ngobrolin WEB.`}
+  description={getTagDescription(tag, tagLabel, episodes.length)}
 >
   <section class="py-12">
     <div class="container mx-auto px-4">
@@ -32,6 +39,7 @@ const newSlugs = getNewEpisodeSlugs();
         <p class="text-ink-muted">
           {episodes.length} episode
         </p>
+        <p class="text-ink-body mt-4 max-w-2xl" data-testid="tag-intro">{intro}</p>
       </div>
 
       <!-- Cards render an h3; this keeps the page from jumping h1 -> h3. -->
@@ -54,6 +62,24 @@ const newSlugs = getNewEpisodeSlugs();
           />
         ))}
       </div>
+
+      {relatedTags.length > 0 && (
+        <section class="mt-12" aria-labelledby="related-topics-title" data-testid="related-topics">
+          <h2 id="related-topics-title" class="text-xl font-bold text-ink mb-3">Topik terkait</h2>
+          <ul class="flex flex-wrap gap-x-5 gap-y-1">
+            {relatedTags.map(({ tag: related }) => (
+              <li>
+                <a
+                  href={`/tags/${related}/`}
+                  class="inline-block py-1.5 font-semibold text-accent-text hover:text-ink transition"
+                >
+                  {formatTagLabel(related)}
+                </a>
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
     </div>
   </section>
 </Layout>

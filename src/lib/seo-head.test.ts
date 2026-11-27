@@ -83,6 +83,15 @@ describe('buildHeadSeo', () => {
     expect(props.openGraph?.image).toBeUndefined();
   });
 
+  // Episode pages share the YouTube thumbnail, whose size varies, so they get alt but no size.
+  it('states a given alt on both og and twitter for an image without a known size', () => {
+    const image = 'https://i.ytimg.com/vi/abc/maxresdefault.jpg';
+    const imageAlt = 'Thumbnail episode Ngobrolin WEB: Modern Web UI';
+    const { props } = buildHeadSeo({ ...base, image, imageAlt });
+    expect(props.twitter?.imageAlt).toBe(imageAlt);
+    expect(props.extend?.meta).toEqual([{ property: 'og:image:alt', content: imageAlt }]);
+  });
+
   it('passes an absolute image through untouched', () => {
     const image = 'https://i.ytimg.com/vi/abc/maxresdefault.jpg';
     expect(buildHeadSeo({ ...base, image }).absoluteImage).toBe(image);

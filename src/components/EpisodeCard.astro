@@ -50,6 +50,9 @@ const readableDuration = formatDuration(duration);
 // The show name belongs in the browser title, not on every card of a site
 // already called Ngobrolin WEB.
 const displayTitle = getDisplayTitle(title);
+
+// No transition:name on the thumbnail: Astro inlines a <style> block per name,
+// and /episodes renders every card, which made that page 1 MB of mostly CSS.
 ---
 
 <a
@@ -68,7 +71,6 @@ const displayTitle = getDisplayTitle(title);
       width={640}
       height={360}
       format="webp"
-      transition:name={`episode-thumbnail-${slug}`}
     />
     {isNew && (
       <span class="absolute top-3 left-3 bg-accent-strong text-on-accent text-xs font-bold px-2 py-1 rounded">

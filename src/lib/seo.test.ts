@@ -10,6 +10,8 @@ import {
   buildSiteGraph,
   buildEpisodePageTitle,
   getEpisodePageTitle,
+  getEpisodeImageAlt,
+  getDisplayTitle,
   getMetaDescription
 } from './seo';
 import { getEpisodes } from './episodes';
@@ -519,5 +521,21 @@ describe('episode page title and meta description', () => {
   it('leaves a short fallback untouched', () => {
     expect(getMetaDescription(episode, summary)).toBe('Ringkasan singkat.');
     expect(getMetaDescription(episode, null)).toBe('Deskripsi dari YouTube.');
+  });
+});
+
+describe('getEpisodeImageAlt', () => {
+  it('names the show and the episode, without the trailing credit', () => {
+    expect(getEpisodeImageAlt('Modern Web UI - Ngobrolin WEB')).toBe(
+      'Ngobrolin WEB - thumbnail episode Modern Web UI'
+    );
+  });
+
+  it('gives every real episode an alt that names it', () => {
+    for (const ep of getEpisodes()) {
+      const alt = getEpisodeImageAlt(ep.title);
+      expect(alt).toContain(getDisplayTitle(ep.title));
+      expect(alt.length, ep.title).toBeGreaterThan('Ngobrolin WEB - thumbnail episode '.length);
+    }
   });
 });

@@ -5,6 +5,7 @@ import ekaPhoto from '../assets/hosts/eka.jpg';
 import ivanPhoto from '../assets/hosts/ivan.jpg';
 import rizaPhoto from '../assets/hosts/riza.jpg';
 import { generateAboutPageSchema } from '../lib/seo';
+import { ABOUT_DESCRIPTION } from '../lib/page-descriptions';
 
 const aboutSchema = generateAboutPageSchema(
   Astro.site?.toString().replace(/\/$/, '') || 'https://ngobrol.in'
@@ -13,7 +14,7 @@ const aboutSchema = generateAboutPageSchema(
 
 <Layout
   title="Tentang - Ngobrolin WEB"
-  description="Tentang video podcast Ngobrolin WEB dan host Riza Fahmi."
+  description={ABOUT_DESCRIPTION}
 >
   <Fragment slot="head">
     <script type="application/ld+json" set:html={JSON.stringify(aboutSchema)} />
