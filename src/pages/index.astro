@@ -2,7 +2,7 @@
 import Layout from '../layouts/Layout.astro';
 import OfflineIndicator from '../components/OfflineIndicator.astro';
 import { getEpisodes, formatDuration, getCardBlurb, getKeyPoints } from '../lib/episodes';
-import { getDisplayTitle } from '../lib/episode-title';
+import { getDisplayTitle, getCoverTitleSize } from '../lib/episode-title';
 import { getArchiveStats, getYearsWithCounts, getTopTags, getArchivePicks } from '../lib/archive';
 import { formatTagLabel } from '../lib/tags';
 import { Image, getImage } from 'astro:assets';
@@ -42,11 +42,7 @@ const latestKeyPoints = getKeyPoints(latestEpisode.videoId).slice(0, 3);
 
 const latestDuration = formatDuration(latestEpisode.duration);
 const latestDisplayTitle = getDisplayTitle(latestEpisode.title);
-// The cover title is sized to its column so the longest word never spills into
-// the thumbnail. 0.7em is Archivo's widest per-character advance at this weight
-// and width, measured in the browser, with a little clearance.
-const longestTitleWord = Math.max(...latestDisplayTitle.split(/\s+/).map((word) => word.length));
-const coverTitleSize = `min(clamp(2.75rem, 8.2vw, 7rem), calc(100cqi / ${(longestTitleWord * 0.7).toFixed(2)}))`;
+const coverTitleSize = getCoverTitleSize(latestDisplayTitle);
 const latestBlurb = getCardBlurb({ brief: latestEpisode.brief, description: latestEpisode.description });
 
 const now = new Date();
