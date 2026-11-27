@@ -97,3 +97,43 @@ test.describe('SEO - page titles', () => {
     }
   });
 });
+
+test.describe('SEO - share image alt', () => {
+  // Non-episode pages always stated og:image:alt and twitter:image:alt; episode
+  // pages share the YouTube thumbnail and used to state neither.
+  test('an episode page describes its share image on og and twitter', async ({ page }) => {
+    await page.goto('/episodes');
+    const href = await page.locator('#episodes-grid > a').first().getAttribute('href');
+    await page.goto(href!);
+
+    const og = page.locator('head meta[property="og:image:alt"]');
+    const twitter = page.locator('head meta[name="twitter:image:alt"]');
+    await expect(og).toHaveCount(1);
+    await expect(twitter).toHaveCount(1);
+    const alt = await og.getAttribute('content');
+    expect(alt).toMatch(/^Ngobrolin WEB - thumbnail episode \S/);
+    expect(await twitter.getAttribute('content')).toBe(alt);
+  });
+});
+
+test.describe('SEO - page descriptions', () => {
+  const cases = [
+    { path: '/', expect: [/web development/, /transkrip/, /ringkasan/] },
+    { path: '/episodes', expect: [/Arsip lengkap \d+ episode/, /transkrip/, /topik/] },
+    { path: '/about', expect: [/Eka/, /Ivan/, /Riza Fahmi/] },
+    { path: '/tags/seo', expect: [/episode Ngobrolin WEB tentang SEO: \S/, /transkrip/] },
+  ];
+
+  for (const { path, expect: patterns } of cases) {
+    test(`${path} has a specific description under 160 characters`, async ({ page }) => {
+      await page.goto(path);
+      const description = await page.locator('head meta[name="description"]').getAttribute('content');
+      expect(description!.length).toBeLessThanOrEqual(160);
+      expect(description).not.toContain('—');
+      for (const pattern of patterns) expect(description).toMatch(pattern);
+      expect(await page.locator('head meta[property="og:description"]').getAttribute('content')).toBe(
+        description
+      );
+    });
+  }
+});

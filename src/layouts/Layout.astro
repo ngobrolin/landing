@@ -13,6 +13,7 @@ interface Props {
   title: string;
   description?: string;
   image?: string;
+  imageAlt?: string;
   preloadImage?: string;
   omitCanonical?: boolean;
   ogType?: string;
@@ -26,6 +27,7 @@ const {
   title,
   description = "Video podcast seputar web development. Hadir setiap Selasa malam jam 20:00 WIB.",
   image,
+  imageAlt,
   preloadImage,
   omitCanonical = false,
   brandAsHeading = false,
@@ -40,6 +42,7 @@ const { canonicalURL, absoluteImage, props: seo } = buildHeadSeo({
   title,
   description,
   image,
+  imageAlt,
   ogType,
   omitCanonical,
 });

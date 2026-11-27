@@ -13,6 +13,7 @@ import {
     generateBreadcrumbSchema,
     generatePodcastEpisodeSchema,
     getEpisodePageTitle,
+    getEpisodeImageAlt,
     getDisplayTitle,
 } from "../../lib/seo";
 import { getRelatedEpisodes } from "../../lib/related";
@@ -90,6 +91,7 @@ const shortDate = (iso: string) =>
     title={getEpisodePageTitle(episode, summary)}
     description={metaDescription}
     image={episode.thumbnail}
+    imageAlt={getEpisodeImageAlt(episode.title)}
     preloadImage={optimizedThumbnail.src}
     ogType="video.other"
 >

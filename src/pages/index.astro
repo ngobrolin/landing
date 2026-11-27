@@ -10,6 +10,7 @@ import ekaPhoto from '../assets/hosts/eka.jpg';
 import ivanPhoto from '../assets/hosts/ivan.jpg';
 import rizaPhoto from '../assets/hosts/riza.jpg';
 import { generateHomepageSchema } from '../lib/seo';
+import { HOME_DESCRIPTION } from '../lib/page-descriptions';
 
 const episodes = getEpisodes();
 const latestEpisode = episodes[0];
@@ -83,6 +84,7 @@ const hosts = [
 
 <Layout
   title="Ngobrolin WEB - Video Podcast Web Development Indonesia"
+  description={HOME_DESCRIPTION}
   preloadImage={optimizedLcpImage.src}
   brandAsHeading
   flushFooter

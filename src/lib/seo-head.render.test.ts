@@ -95,6 +95,20 @@ describe('astro-seo output for the layout props', () => {
     expect(count(html, /twitter:image:alt/)).toBe(1);
   });
 
+  it('renders an episode thumbnail alt once on og and once on twitter, with no size', async () => {
+    const html = await render({
+      path: '/episodes/x/',
+      image: 'https://i.ytimg.com/vi/x/maxresdefault.jpg',
+      imageAlt: 'Thumbnail episode Ngobrolin WEB: Deno & JSR',
+    });
+    expect(count(html, /property="og:image:alt"/)).toBe(1);
+    expect(count(html, /name="twitter:image:alt"/)).toBe(1);
+    expect(html).toContain('<meta property="og:image:alt" content="Thumbnail episode Ngobrolin WEB: Deno &#38; JSR">');
+    expect(html).toContain('<meta name="twitter:image:alt" content="Thumbnail episode Ngobrolin WEB: Deno &#38; JSR">');
+    expect(count(html, /og:image:width/)).toBe(0);
+    expect(count(html, /og:image:height/)).toBe(0);
+  });
+
   it('leaves size and alt out for a custom card, so the page slot is the only source', async () => {
     const html = await render({ path: '/partners/', image: '/partners-og.png' });
     expect(html).toContain('<meta property="og:image" content="https://ngobrol.in/partners-og.png">');

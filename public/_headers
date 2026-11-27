@@ -9,6 +9,10 @@
 /episodes/*.md
   X-Robots-Tag: noindex
 
+# Astro fingerprints these filenames, so a changed file always arrives under a new URL.
+/_astro/*
+  Cache-Control: public, max-age=31536000, immutable
+
 # Production pages.dev mirror of ngobrol.in; Pages only noindexes preview hosts.
 https://landing-eju.pages.dev/*
   X-Robots-Tag: noindex

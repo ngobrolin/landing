@@ -109,6 +109,11 @@ export function getEpisodePageTitle(episode: Episode, summary: Summary | null): 
   return summary?.seoTitle ?? buildEpisodePageTitle(episode.title);
 }
 
+/** Alt for the YouTube thumbnail an episode page shares as og:image and twitter:image. */
+export function getEpisodeImageAlt(title: string): string {
+  return `Ngobrolin WEB - thumbnail episode ${getDisplayTitle(title)}`;
+}
+
 const META_DESCRIPTION_MAX = 160;
 
 /** Cuts on a word boundary so a search snippet never ends mid-word. */

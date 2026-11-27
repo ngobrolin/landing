@@ -23,6 +23,8 @@ interface HeadSeoInput {
   title: string;
   description: string;
   image?: string;
+  /** Alt for an image of unknown size; the default card brings its own. */
+  imageAlt?: string;
   ogType?: string;
   omitCanonical?: boolean;
 }
@@ -33,6 +35,7 @@ export function buildHeadSeo({
   title,
   description,
   image = OG_IMAGE_PATH,
+  imageAlt,
   ogType = 'website',
   omitCanonical = false,
 }: HeadSeoInput) {
@@ -43,6 +46,7 @@ export function buildHeadSeo({
   // A page with its own card (/partners) declares its size and alt in its head
   // slot; two sets of og:image:width in one document is worse than none.
   const isDefaultCard = image === OG_IMAGE_PATH;
+  const alt = isDefaultCard ? DEFAULT_CARD_ALT : imageAlt;
 
   const props: SEOProps = {
     // astro-seo writes the title with set:html, and episode titles come from YouTube.
@@ -58,21 +62,22 @@ export function buildHeadSeo({
       title,
       description,
       image: absoluteImage,
-      ...(isDefaultCard && { imageAlt: DEFAULT_CARD_ALT }),
+      ...(alt && { imageAlt: alt }),
     },
   };
 
   // Dimensions let WhatsApp and LinkedIn commit to the large-image preview early.
   // Not openGraph.image: astro-seo would add og:image:url, which the site never shipped.
-  if (isDefaultCard) {
-    props.extend = {
-      meta: [
-        { property: 'og:image:width', content: String(OG_CARD_WIDTH) },
-        { property: 'og:image:height', content: String(OG_CARD_HEIGHT) },
-        { property: 'og:image:alt', content: DEFAULT_CARD_ALT },
-      ],
-    };
-  }
+  const meta = [
+    ...(isDefaultCard
+      ? [
+          { property: 'og:image:width', content: String(OG_CARD_WIDTH) },
+          { property: 'og:image:height', content: String(OG_CARD_HEIGHT) },
+        ]
+      : []),
+    ...(alt ? [{ property: 'og:image:alt', content: alt }] : []),
+  ];
+  if (meta.length) props.extend = { meta };
 
   return { canonicalURL, absoluteImage, props };
 }

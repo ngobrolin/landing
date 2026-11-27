@@ -60,4 +60,23 @@ test.describe('Tags Page', () => {
     // Should have back link to all topics
     await expect(page.getByRole('link', { name: /Semua Topik/i })).toBeVisible();
   });
+
+  test('a tag page introduces the topic and links to related topics', async ({ page }) => {
+    await page.goto('/tags/seo');
+
+    const intro = page.getByTestId('tag-intro');
+    await expect(intro).toContainText('SEO');
+    await expect(intro).toContainText('transkrip');
+
+    const related = page.getByTestId('related-topics').getByRole('link');
+    const count = await related.count();
+    expect(count).toBeGreaterThan(0);
+    expect(count).toBeLessThanOrEqual(6);
+    const hrefs = await related.evaluateAll((els) => els.map((el) => el.getAttribute('href')));
+    expect(hrefs).not.toContain('/tags/seo/');
+
+    await related.first().click();
+    await expect(page).toHaveURL(/\/tags\/[a-z-]+\/$/);
+    await expect(page.getByTestId('episode-card').first()).toBeVisible();
+  });
 });
